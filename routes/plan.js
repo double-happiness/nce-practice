@@ -20,6 +20,26 @@ const SOURCE_LABEL = {
   dialogue: '情景对话',
 };
 
+// 听·说·读·写·记 五技能每日闭环（零基础/初级 · 45–60min 预设）。
+// 每个技能绑定已被记录的活动来源，学习者做了对应练习即自动完成；tab 用于前端「去做 →」深链。
+const SKILL_PLAN = [
+  { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation'], target: 1, unit: '次', tab: 'dictation' },
+  { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue'], target: 1, unit: '组', tab: 'dialogue' },
+  { key: 'read', icon: '📖', label: '读', desc: '学 1 课精读 + 练本课题', sources: ['quiz'], target: 5, unit: '题', tab: 'learn' },
+  { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform'], target: 1, unit: '组', tab: 'transform' },
+  { key: 'memo', icon: '🔤', label: '记', desc: '背单词 + 到期错题复习', sources: ['words', 'vocab'], target: 10, unit: '词', tab: 'words' },
+];
+
+function buildSkills(todayBy) {
+  return SKILL_PLAN.map((s) => {
+    const done = s.sources.reduce((n, src) => n + (todayBy[src] || 0), 0);
+    return {
+      key: s.key, icon: s.icon, label: s.label, desc: s.desc, tab: s.tab, unit: s.unit,
+      target: s.target, done, met: done >= s.target,
+    };
+  });
+}
+
 function loadGoal() {
   const obj = readJSON(profile.file('plan.json'), { goal: DEFAULT_GOAL });
   const g = obj && Number(obj.goal);
@@ -135,6 +155,9 @@ router.get('/plan/overview', (req, res) => {
     });
   }
 
+  const skills = buildSkills(today.by);
+  const skillsMet = skills.filter((s) => s.met).length;
+
   res.json({
     streak,
     todayCount: today.count,
@@ -143,6 +166,9 @@ router.get('/plan/overview', (req, res) => {
     todayBySource: today.by,
     todayLines: today.lines,
     goal,
+    skills,
+    skillsMet,
+    skillsTotal: skills.length,
     calendar,
     totalDays: byDate.size,
     metricNote: '今日目标统计刷题、句型转换、背单词、词汇量测试、听写、情景对话等所有练习次数',

@@ -45,6 +45,19 @@
     .pln-msg{color:#059669;font-size:13px}
     .pln-note{color:#666;font-size:13px;line-height:1.6;background:#f5f7fa;border-radius:8px;padding:10px 14px}
     .pln-fb{padding:12px 14px;border-radius:8px;font-size:14px;background:#fef2f2;border:1px solid #fecaca}
+    .pln-skills{display:flex;flex-direction:column;gap:8px}
+    .pln-skill{display:flex;align-items:center;gap:12px;padding:10px 12px;border:1px solid #eef2f7;border-radius:10px;background:#fbfcfe}
+    .pln-skill.met{background:#f0fdf4;border-color:#bbf7d0}
+    .pln-skill-ic{font-size:22px;line-height:1;width:26px;text-align:center;flex:none}
+    .pln-skill-main{flex:1;min-width:0}
+    .pln-skill-t{font-size:14px;color:#374151}
+    .pln-skill-sub{font-size:12px;color:#9ca3af;margin-top:2px}
+    .pln-skill-badge{color:#059669;font-size:13px;font-weight:700;flex:none}
+    .pln-skill-count{font-weight:400;font-size:13px;color:#059669;margin-left:6px}
+    .pln-btn.small{padding:6px 12px;font-size:13px}
+    .pln-plan-list{list-style:none;padding:0;margin:0}
+    .pln-plan-list li{padding:7px 0;font-size:14px;color:#374151;line-height:1.6;border-bottom:1px solid #f3f4f6}
+    .pln-plan-list li:last-child{border-bottom:0}
   `;
   document.head.appendChild(style);
 
@@ -116,18 +129,35 @@
         : `<div class="pln-todo">还差 ${remain} 次达成今日目标</div>`) +
       '</div></div>';
 
-    // 今日任务清单
-    const chk = (ok) => (ok ? '✅' : '⬜');
-    const todayDetail = (d.todayLines || []).filter((x) => x.count > 0)
-      .map((x) => `${x.label} ${x.count}`).join(' · ');
+    // 今日「听说读写」五技能闭环：每项绑定真实活动来源，做了即自动打勾，未完成给「去做 →」深链
+    const skills = d.skills || [];
+    const skillsMet = d.skillsMet != null ? d.skillsMet : skills.filter((s) => s.met).length;
+    const skillsTotal = d.skillsTotal || skills.length;
+    const skillRows = skills.map((s) =>
+      `<div class="pln-skill${s.met ? ' met' : ''}">` +
+      `<span class="pln-skill-ic">${s.met ? '✅' : s.icon}</span>` +
+      '<div class="pln-skill-main">' +
+      `<div class="pln-skill-t"><b>${esc(s.label)}</b> · ${esc(s.desc)}</div>` +
+      `<div class="pln-skill-sub">${s.done} / ${s.target} ${esc(s.unit)}</div>` +
+      '</div>' +
+      (s.met
+        ? '<span class="pln-skill-badge">已完成</span>'
+        : `<button class="pln-btn small pln-skill-go" data-tab="${esc(s.tab)}">去做 →</button>`) +
+      '</div>'
+    ).join('');
     const tasksCard =
-      '<div class="pln-card"><h3>📋 今日任务</h3><ul class="pln-tasks">' +
-      `<li><span class="box">${chk(done)}</span> ① 完成 ${goal} 次练习（${todayCount}/${goal}）</li>` +
-      (todayDetail ? `<li><span class="box">📊</span> 今日已练：${esc(todayDetail)}</li>` : '') +
-      `<li><span class="box">${chk(false)}</span> ② 复习到期错题</li>` +
-      `<li><span class="box">${chk(false)}</span> ③ 学 1 篇新课文</li>` +
-      '</ul>' +
-      '<div class="pln-note" style="margin-top:10px">' + esc(d.metricNote || '统计多种练习类型') + '</div></div>';
+      `<div class="pln-card"><h3>🎯 今日「听说读写」闭环 <span class="pln-skill-count">${skillsMet}/${skillsTotal} 项达标</span></h3>` +
+      `<div class="pln-skills">${skillRows}</div>` +
+      '<div class="pln-note" style="margin-top:10px">五项每天各来一轮，围绕当前课文形成「读→听→说→写→记」完整闭环；全绿即今日达标。</div></div>';
+
+    // NCE1 通关计划说明（零基础 · 45–60min/天）
+    const programCard =
+      '<div class="pln-card"><h3>🧭 NCE1 通关计划（零基础 · 45–60 分钟/天）</h3>' +
+      '<ul class="pln-plan-list">' +
+      '<li>📖 <b>主线</b>：每天推进 1 篇新课文，走「读 → 听 → 说 → 写 → 记」闭环</li>' +
+      '<li>🗓️ <b>节奏</b>：周一–周六各 1 课；周日不学新课，做本周阶段测验 + 补漏</li>' +
+      '<li>🎯 <b>里程碑</b>：6 课/周 → 约 12 周通关 NCE1 全 72 课；每月做 1 次听/读词汇量测试对比基线</li>' +
+      '</ul></div>';
 
     // 30 天热力图
     const cells = d.calendar
@@ -157,10 +187,15 @@
     wrap.className = 'pln-wrap';
     wrap.innerHTML =
       '<div class="pln-head"><h2>🎯 学习计划</h2></div>' +
-      streakCard + tasksCard + heatCard + trendCard + goalCard;
+      streakCard + tasksCard + programCard + heatCard + trendCard + goalCard;
 
     panel.innerHTML = '';
     panel.appendChild(wrap);
+
+    // 「去做 →」深链跳到对应功能标签
+    wrap.querySelectorAll('.pln-skill-go').forEach((b) => {
+      b.onclick = () => { if (NCE.gotoTab) NCE.gotoTab(b.dataset.tab); };
+    });
 
     // 绑定保存
     const input = wrap.querySelector('#pln-goal-input');
