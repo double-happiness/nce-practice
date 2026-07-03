@@ -1,0 +1,172 @@
+[
+  {
+    "id": "tf-b2-026",
+    "book": 2,
+    "lesson": 25,
+    "grammar": ["宾语从句", "一般过去时"],
+    "cn": "我想知道他是否会说英语。",
+    "explanation": "宾语从句 whether/if 引导\"是否\"；主句过去时，从句时态呼应用 spoke。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I wondered whether he spoke English.", "I wondered if he spoke English."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Did you wonder…?）", "answers": ["Did you wonder whether he spoke English?", "Did you wonder if he spoke English?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["I did not wonder whether he spoke English.", "I didn't wonder whether he spoke English.", "I did not wonder if he spoke English.", "I didn't wonder if he spoke English."] },
+      { "kind": "wh", "prompt": "对「whether he spoke English」提问（问\"想知道什么\"）", "answers": ["What did you wonder?", "What did you wonder about him?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-027",
+    "book": 2,
+    "lesson": 26,
+    "grammar": ["宾语从句", "一般现在时"],
+    "cn": "我认为普通人能判断画的好坏。",
+    "explanation": "think 后接 that 宾语从句（口语可省略 that）；一般现在时借助 do 转换。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I think that ordinary people can judge pictures well.", "I think ordinary people can judge pictures well."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Do you think that ordinary people can judge pictures well?", "Do you think ordinary people can judge pictures well?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["I do not think that ordinary people can judge pictures well.", "I don't think that ordinary people can judge pictures well.", "I do not think ordinary people can judge pictures well.", "I don't think ordinary people can judge pictures well."] },
+      { "kind": "wh", "prompt": "对「that ordinary people can judge pictures well」提问（问\"认为什么\"）", "answers": ["What do you think?", "What do you think about ordinary people?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-028",
+    "book": 2,
+    "lesson": 27,
+    "grammar": ["一般过去时", "时间状语从句"],
+    "cn": "我到车站时正在下雨。",
+    "explanation": "when 引导时间状语从句；主句过去时，从句也用过去时 was raining。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["It was raining when I arrived at the station.", "It was raining when I got to the station."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Was it raining…?）", "answers": ["Was it raining when you arrived at the station?", "Was it raining when you got to the station?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["It was not raining when I arrived at the station.", "It wasn't raining when I arrived at the station.", "It was not raining when I got to the station.", "It wasn't raining when I got to the station."] },
+      { "kind": "wh", "prompt": "对「when I arrived at the station」提问（问\"什么时候在下雨\"）", "answers": ["When was it raining?", "When was it raining at the station?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-029",
+    "book": 2,
+    "lesson": 28,
+    "grammar": ["现在完成时", "定语从句"],
+    "cn": "他们已经竖起了禁止停车的牌子。",
+    "explanation": "现在完成时 has 提前构成疑问句；put up 表\"竖起、张贴\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They have put up a 'No Parking' sign.", "They have put up a No Parking sign."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have they put up a 'No Parking' sign?", "Have they put up a No Parking sign?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["They have not put up a 'No Parking' sign.", "They haven't put up a 'No Parking' sign.", "They have not put up a No Parking sign.", "They haven't put up a No Parking sign."] },
+      { "kind": "wh", "prompt": "对「a 'No Parking' sign」提问（问\"竖起了什么\"）", "answers": ["What have they put up?", "What have they put up there?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-030",
+    "book": 2,
+    "lesson": 29,
+    "grammar": ["现在完成时", "一般过去时"],
+    "cn": "出租车已经到了。",
+    "explanation": "现在完成时表刚发生的事；already 常与 have 连用。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The taxi has already arrived.", "The taxi has arrived already."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the taxi already arrived?", "Has the taxi arrived already?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The taxi has not arrived yet.", "The taxi hasn't arrived yet.", "The taxi has not already arrived.", "The taxi hasn't already arrived."] },
+      { "kind": "wh", "prompt": "对「The taxi」提问（问\"什么已经到了\"）", "answers": ["What has already arrived?", "What has arrived?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-031",
+    "book": 2,
+    "lesson": 30,
+    "grammar": ["一般过去时", "介词"],
+    "cn": "他把球踢进了球门。",
+    "explanation": "一般过去时借助 did 转换；kick…into 表\"踢进\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He kicked the ball into the goal.", "He kicked the ball into the net."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he kick the ball into the goal?", "Did he kick the ball into the net?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not kick the ball into the goal.", "He didn't kick the ball into the goal.", "He did not kick the ball into the net.", "He didn't kick the ball into the net."] },
+      { "kind": "wh", "prompt": "对「into the goal」提问（问\"踢到哪里\"）", "answers": ["Where did he kick the ball?"] },
+      { "kind": "wh", "prompt": "对「the ball」提问（问\"踢了什么\"）", "answers": ["What did he kick into the goal?", "What did he kick into the net?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-032",
+    "book": 2,
+    "lesson": 31,
+    "grammar": ["过去完成时", "一般过去时"],
+    "cn": "他成名之前已经写了好几部小说。",
+    "explanation": "过去完成时 had written 表示\"成名之前已写完\"；疑问句 had 提前。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He had already written several novels before he became famous.", "He had written several novels before he became famous."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Had he already written several novels before he became famous?", "Had he written several novels before he became famous?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He had not written several novels before he became famous.", "He hadn't written several novels before he became famous."] },
+      { "kind": "wh", "prompt": "对「several novels」提问（问\"写了什么\"）", "answers": ["What had he written before he became famous?", "What had he already written before he became famous?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-033",
+    "book": 2,
+    "lesson": 32,
+    "grammar": ["过去进行时", "一般过去时"],
+    "cn": "我正在换衣服时，电话响了。",
+    "explanation": "过去进行时表背景动作 was changing；when 后接一般过去时 rang 表突发事件。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I was changing my clothes when the telephone rang.", "I was changing when the phone rang."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Were you changing…?）", "answers": ["Were you changing your clothes when the telephone rang?", "Were you changing when the phone rang?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["I was not changing my clothes when the telephone rang.", "I wasn't changing my clothes when the telephone rang.", "I was not changing when the phone rang.", "I wasn't changing when the phone rang."] },
+      { "kind": "wh", "prompt": "对「changing my clothes」提问（问\"当时在做什么\"）", "answers": ["What were you doing when the telephone rang?", "What were you doing when the phone rang?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-034",
+    "book": 2,
+    "lesson": 33,
+    "grammar": ["过去完成时", "时间状语从句"],
+    "cn": "警察赶到之前，那辆车已经冲出了路面。",
+    "explanation": "before 从句用一般过去时，主句用过去完成时 had run 表\"更早发生\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The car had already run off the road before the police arrived.", "The car had run off the road before the police arrived."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the car already run off the road before the police arrived?", "Had the car run off the road before the police arrived?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The car had not run off the road before the police arrived.", "The car hadn't run off the road before the police arrived."] },
+      { "kind": "wh", "prompt": "对「before the police arrived」提问（问\"何时已冲出路面\"）", "answers": ["When had the car run off the road?", "When had the car already run off the road?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-035",
+    "book": 2,
+    "lesson": 34,
+    "grammar": ["一般过去时", "时间状语从句"],
+    "cn": "警察一到，小偷就逃跑了。",
+    "explanation": "as soon as 引导时间状语从句，两动作均用一般过去时。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The thieves ran away as soon as the police arrived.", "As soon as the police arrived, the thieves ran away."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Did the thieves run away…?）", "answers": ["Did the thieves run away as soon as the police arrived?", "As soon as the police arrived, did the thieves run away?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The thieves did not run away as soon as the police arrived.", "The thieves didn't run away as soon as the police arrived.", "As soon as the police arrived, the thieves did not run away.", "As soon as the police arrived, the thieves didn't run away."] },
+      { "kind": "wh", "prompt": "对「as soon as the police arrived」提问（问\"何时逃跑\"）", "answers": ["When did the thieves run away?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-036",
+    "book": 2,
+    "lesson": 35,
+    "grammar": ["过去进行时", "一般过去时"],
+    "cn": "小偷正在爬墙时，警察抓住了他们。",
+    "explanation": "while/when + 过去进行时表背景；主句一般过去时 caught 表突发动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The thieves were climbing over the wall when the police caught them.", "The thieves were climbing the wall when the police caught them."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Were the thieves climbing…?）", "answers": ["Were the thieves climbing over the wall when the police caught them?", "Were the thieves climbing the wall when the police caught them?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The thieves were not climbing over the wall when the police caught them.", "The thieves weren't climbing over the wall when the police caught them."] },
+      { "kind": "wh", "prompt": "对「climbing over the wall」提问（问\"当时在做什么\"）", "answers": ["What were the thieves doing when the police caught them?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-037",
+    "book": 2,
+    "lesson": 36,
+    "grammar": ["一般将来时", "将来进行时"],
+    "cn": "他明天这个时候将正在横渡英吉利海峡。",
+    "explanation": "将来进行时 will be doing 表将来某时正在进行；疑问句 will 提前。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He will be swimming across the Channel at this time tomorrow.", "At this time tomorrow, he will be swimming across the Channel."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will he be swimming across the Channel at this time tomorrow?", "At this time tomorrow, will he be swimming across the Channel?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He will not be swimming across the Channel at this time tomorrow.", "He won't be swimming across the Channel at this time tomorrow.", "At this time tomorrow, he will not be swimming across the Channel.", "At this time tomorrow, he won't be swimming across the Channel."] },
+      { "kind": "wh", "prompt": "对「swimming across the Channel」提问（问\"将正在做什么\"）", "answers": ["What will he be doing at this time tomorrow?", "What will he be doing tomorrow at this time?"] },
+      { "kind": "wh", "prompt": "对「at this time tomorrow」提问（问时间）", "answers": ["When will he be swimming across the Channel?"] }
+    ]
+  }
+]
