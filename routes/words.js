@@ -2,37 +2,57 @@
 
 // 背单词 / 单词记忆 / 默写 —— 累计去重词表 + 掌握度持久化
 const express = require('express');
-const path = require('path');
-const data = require('../lib/data');
+const profile = require('../lib/profile');
+const activity = require('../lib/activity');
+const { buildDict, normKey } = require('../lib/dict');
+const { search, buildLookupDict } = require('../lib/wordlookup');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 
 const router = express.Router();
 
-const profile = require('../lib/profile');
-// 去重词表与归一化键抽到 lib/dict.js，与听力词汇量测试共用同一口径
-const { buildDict, normKey } = require('../lib/dict');
-
-// 掌握度持久化：{ states: { [word小写]: { level, correct, wrong, ts } } }
-function loadStates() {
-  const v = readJSON(profile.file('words.json'), { states: {} });
-  if (!v || typeof v.states !== 'object' || v.states === null) return { states: {} };
+function loadWords() {
+  let v = readJSON(profile.file('words.json'), { states: {}, extras: {} });
+  if (!v || typeof v.states !== 'object' || v.states === null) {
+    v = { states: {}, extras: {} };
+  }
+  if (!v.extras || typeof v.extras !== 'object') v.extras = {};
   return v;
 }
-function saveStates(v) {
+function saveWords(v) {
   writeJSONAtomic(profile.file('words.json'), v);
 }
 function levelOf(states, key) {
   const s = states[key];
   return s && typeof s.level === 'number' ? s.level : 0;
 }
-
-// 取出（或初始化）某词的 state 记录
 function ensureState(states, key) {
   if (!states[key]) states[key] = { level: 0, correct: 0, wrong: 0, ts: 0 };
   return states[key];
 }
 
-// 组装对外输出（附带当前 level，剔除内部 key 字段）
+function saveExtra(v, key, meta) {
+  if (!meta || !meta.cn) return;
+  v.extras[key] = {
+    word: meta.word || key,
+    phon: meta.phon || '',
+    pos: meta.pos || '',
+    cn: meta.cn,
+    eg: meta.eg || '',
+    book: meta.book,
+    lesson: meta.lesson,
+    lessonTitle: meta.lessonTitle || '',
+    band: meta.band,
+    bandLabel: meta.bandLabel || '',
+    source: meta.source || 'extra',
+  };
+}
+
+function mergedList(book) {
+  let list = buildLookupDict();
+  if (book) list = list.filter((e) => e.source !== 'textbook' || String(e.book) === String(book));
+  return list;
+}
+
 function decorate(e, states) {
   return {
     word: e.word,
@@ -43,66 +63,36 @@ function decorate(e, states) {
     book: e.book,
     lesson: e.lesson,
     lessonTitle: e.lessonTitle,
+    band: e.band,
+    bandLabel: e.bandLabel,
+    source: e.source,
     level: levelOf(states, e.key),
   };
 }
 
-// filter 语义：new=level0 / learning=level1-2 / mastered=level3
 function matchFilter(level, filter) {
   if (filter === 'new') return level === 0;
   if (filter === 'learning') return level === 1 || level === 2;
   if (filter === 'mastered') return level === 3;
-  return true; // all / 未知
+  return true;
 }
 
-// 按 book 过滤（book 为空则不限）
-function byBook(list, book) {
-  if (!book) return list;
-  return list.filter((e) => String(e.book) === String(book));
-}
-
-// 检索相关度：完全匹配 > 前缀 > 子串；英文 > 中文 > 例句 > 音标
-function matchScore(e, kw) {
-  if (!kw) return 0;
-  if (e.key === kw) return 100;
-  if (e.key.startsWith(kw)) return 80;
-  if (e.key.includes(kw)) return 60;
-  const cn = String(e.cn).toLowerCase();
-  if (cn.includes(kw)) return 40;
-  const eg = String(e.eg).toLowerCase();
-  if (eg.includes(kw)) return 20;
-  const phon = String(e.phon).toLowerCase();
-  if (phon.includes(kw)) return 10;
-  return -1;
-}
-
-// GET /words/list —— 去重词表（含掌握度），支持 book / filter / q
+// GET /words/list —— 检索（教材 + 全局 + extras），支持 scope= all|textbook|global
 router.get('/words/list', (req, res) => {
   const { book, q } = req.query;
   const filter = req.query.filter || 'all';
-  const states = loadStates().states;
-  let list = byBook(buildDict(), book);
-
-  const kw = q ? String(q).trim().toLowerCase() : '';
-  if (kw) {
-    list = list
-      .map((e) => ({ e, score: matchScore(e, kw) }))
-      .filter((x) => x.score >= 0)
-      .sort((a, b) => b.score - a.score || a.e.lesson - b.e.lesson)
-      .map((x) => x.e);
-  } else {
-    list.sort((a, b) => a.lesson - b.lesson);
-  }
+  const scope = req.query.scope || 'all';
+  const states = loadWords().states;
+  let list = search({ q, book, scope });
   list = list.filter((e) => matchFilter(levelOf(states, e.key), filter));
-
   const words = list.map((e) => decorate(e, states));
   res.json({ count: words.length, words });
 });
 
-// GET /words/stats —— 总词数 / 未学 / 学习中 / 已掌握
+// GET /words/stats
 router.get('/words/stats', (req, res) => {
-  const states = loadStates().states;
-  const list = byBook(buildDict(), req.query.book);
+  const states = loadWords().states;
+  const list = mergedList(req.query.book);
   let newCount = 0;
   let learning = 0;
   let mastered = 0;
@@ -110,41 +100,44 @@ router.get('/words/stats', (req, res) => {
     const lv = levelOf(states, e.key);
     if (lv === 0) newCount++;
     else if (lv === 3) mastered++;
-    else learning++; // level 1-2
+    else learning++;
   }
   res.json({ total: list.length, newCount, learning, mastered });
 });
 
-// POST /words/rate —— 背诵自评：known/vague/unknown
+// POST /words/rate
 router.post('/words/rate', (req, res) => {
   const body = req.body || {};
   const key = normKey(body.word);
   if (!key) return res.status(400).json({ ok: false, error: 'word 不能为空' });
   const rating = body.rating;
-  const v = loadStates();
+  const v = loadWords();
   const s = ensureState(v.states, key);
-  if (rating === 'known') s.level = Math.min(3, s.level + 1);
-  else if (rating === 'unknown') s.level = 0;
-  else if (rating === 'vague') {
-    /* level 不变，仅更新 ts */
-  } else {
-    return res.status(400).json({ ok: false, error: 'rating 非法' });
-  }
+  let correct = false;
+  if (rating === 'known') {
+    s.level = Math.min(3, s.level + 1);
+    correct = true;
+  } else if (rating === 'unknown') s.level = 0;
+  else if (rating === 'vague') { /* keep */ }
+  else return res.status(400).json({ ok: false, error: 'rating 非法' });
   s.ts = Date.now();
-  saveStates(v);
+  if (body.cn) saveExtra(v, key, body);
+  saveWords(v);
+  activity.record(correct, 'words');
   res.json({ ok: true, level: s.level });
 });
 
-// POST /words/mark-missed —— 词汇量测试错词标为「学习中」(level≥1)，纳入背单词复习池
+// POST /words/mark-missed
 router.post('/words/mark-missed', (req, res) => {
   const body = req.body || {};
   const raw = Array.isArray(body.words) ? body.words : [];
   if (!raw.length) return res.status(400).json({ ok: false, error: 'words 不能为空' });
-  const v = loadStates();
+  const v = loadWords();
   let marked = 0;
   const ts = Date.now();
   for (const item of raw) {
-    const key = normKey(typeof item === 'string' ? item : item.word);
+    const word = typeof item === 'string' ? item : item.word;
+    const key = normKey(word);
     if (!key) continue;
     const s = ensureState(v.states, key);
     if (s.level < 1) {
@@ -152,18 +145,33 @@ router.post('/words/mark-missed', (req, res) => {
       marked++;
     }
     s.ts = ts;
+    if (typeof item === 'object' && item.cn) {
+      saveExtra(v, key, {
+        word: item.word || word,
+        phon: item.phon,
+        pos: item.pos,
+        cn: item.cn,
+        eg: item.eg,
+        lesson: item.lesson,
+        lessonTitle: item.lessonTitle,
+        book: item.book != null ? item.book : body.book,
+        band: item.band,
+        bandLabel: item.bandLabel,
+        source: item.source || 'vocab-test',
+      });
+    }
   }
-  saveStates(v);
+  saveWords(v);
   res.json({ ok: true, marked, total: raw.length });
 });
 
-// POST /words/spell —— 默写判分
+// POST /words/spell
 router.post('/words/spell', (req, res) => {
   const body = req.body || {};
   const key = normKey(body.word);
   if (!key) return res.status(400).json({ correct: false, error: 'word 不能为空' });
   const correct = String(body.input == null ? '' : body.input).trim().toLowerCase() === key;
-  const v = loadStates();
+  const v = loadWords();
   const s = ensureState(v.states, key);
   if (correct) {
     s.correct++;
@@ -173,11 +181,11 @@ router.post('/words/spell', (req, res) => {
     s.level = Math.max(0, s.level - 1);
   }
   s.ts = Date.now();
-  saveStates(v);
+  saveWords(v);
+  activity.record(correct, 'words');
   res.json({ correct, answer: body.word, level: s.level });
 });
 
-// 洗牌（Fisher-Yates），随机抽词顺序
 function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -187,17 +195,17 @@ function shuffle(arr) {
   return a;
 }
 
-// GET /words/study —— 抽词：new=level0 / due=level1或2 / all=全部
+// GET /words/study
 router.get('/words/study', (req, res) => {
   const mode = req.query.mode || 'new';
   const limit = Math.max(1, parseInt(req.query.limit, 10) || 20);
-  const states = loadStates().states;
-  let list = byBook(buildDict(), req.query.book);
+  const states = loadWords().states;
+  let list = mergedList(req.query.book);
   list = list.filter((e) => {
     const lv = levelOf(states, e.key);
     if (mode === 'new') return lv === 0;
     if (mode === 'due') return lv === 1 || lv === 2;
-    return true; // all
+    return true;
   });
   const picked = shuffle(list).slice(0, limit).map((e) => decorate(e, states));
   res.json({ count: picked.length, words: picked });

@@ -144,11 +144,20 @@
   }
 
   function loadBookPref() {
-    try { return localStorage.getItem(BOOK_KEY) || ''; } catch (e) { return ''; }
+    try {
+      if (typeof NCEStore !== 'undefined') {
+        const v = NCEStore.get('nce-dict-book');
+        return v != null ? String(v) : '';
+      }
+      return localStorage.getItem(BOOK_KEY) || '';
+    } catch (e) { return ''; }
   }
 
   function saveBookPref() {
-    try { localStorage.setItem(BOOK_KEY, st.book); } catch (e) { /* ignore */ }
+    try {
+      if (typeof NCEStore !== 'undefined') NCEStore.set('nce-dict-book', st.book);
+      else localStorage.setItem(BOOK_KEY, st.book);
+    } catch (e) { /* ignore */ }
   }
 
   function syncHash() {
@@ -325,15 +334,19 @@
           `<button type="button" class="dict-src" data-book="${book}" data-lesson="${w.lesson}" data-word="${escapeAttr(w.word)}">` +
           `📖 第${book}册 · Lesson ${w.lesson}${w.lessonTitle ? ' · ' + escapeHtml(w.lessonTitle) : ''} →` +
           '</button></div>'
-        : '') +
+        : w.source === 'global'
+          ? `<div class="dict-foot"><span class="dict-src" style="cursor:default">🌐 全局词库 · ${escapeHtml(w.bandLabel || 'CEFR')}</span></div>`
+          : '') +
       '</article>'
     );
   }
 
   function loadHistory() {
     try {
-      const raw = localStorage.getItem(HIST_KEY);
-      const arr = raw ? JSON.parse(raw) : [];
+      let raw;
+      if (typeof NCEStore !== 'undefined') raw = NCEStore.get('nce-dict-history');
+      else raw = localStorage.getItem(HIST_KEY);
+      const arr = raw ? (Array.isArray(raw) ? raw : JSON.parse(raw)) : [];
       return Array.isArray(arr) ? arr.filter((s) => typeof s === 'string' && s.trim()) : [];
     } catch (e) {
       return [];
@@ -342,7 +355,9 @@
 
   function saveHistory(list) {
     try {
-      localStorage.setItem(HIST_KEY, JSON.stringify(list.slice(0, HIST_MAX)));
+      const sliced = list.slice(0, HIST_MAX);
+      if (typeof NCEStore !== 'undefined') NCEStore.set('nce-dict-history', sliced);
+      else localStorage.setItem(HIST_KEY, JSON.stringify(sliced));
     } catch (e) { /* ignore */ }
   }
 
@@ -436,8 +451,8 @@
     panelEl.innerHTML =
       '<div class="dict-wrap">' +
       '<div class="dict-head">' +
-      '<h2>📕 教材词典</h2>' +
-      `<p>在${st.book ? `第${st.book}册` : '全部'}收录的 <b>${totalWords || '…'}</b> 个单词中检索。</p>` +
+      '<h2>📕 查词典</h2>' +
+      `<p>在${st.book ? `第${st.book}册教材 + 全局` : '教材 + 全局'}词库共 <b>${totalWords || '…'}</b> 个词条中检索。</p>` +
       '</div>' +
       '<div class="dict-queue-slot"></div>' +
       '<div class="dict-tools">' +
@@ -504,7 +519,7 @@
         );
         await loadTotal();
         panelEl.querySelector('.dict-head p').innerHTML =
-          `在${st.book ? `第${st.book}册` : '全部'}收录的 <b>${totalWords || '…'}</b> 个单词中检索。`;
+          `在${st.book ? `第${st.book}册教材 + 全局` : '教材 + 全局'}词库共 <b>${totalWords || '…'}</b> 个词条中检索。`;
         search();
       };
     });
@@ -577,7 +592,7 @@
     countEl.textContent = `复习进度 ${st.queue.idx + 1} / ${st.queue.words.length}`;
     box.innerHTML = '<div class="dict-msg">加载中…</div>';
     const book = st.queue.book || raw.book || '';
-    const params = `filter=all&q=${encodeURIComponent(raw.word)}` +
+    const params = `filter=all&scope=all&q=${encodeURIComponent(raw.word)}` +
       (book ? `&book=${encodeURIComponent(book)}` : '');
     const d = await api('/api/words/list?' + params).catch(() => ({ words: [] }));
     const enriched = (d.words || []).find((x) => wordKey(x.word) === wordKey(raw.word)) || {
@@ -663,7 +678,7 @@
     box.innerHTML = '<div class="dict-msg">检索中…</div>';
     syncHash();
 
-    const params = `filter=all&q=${encodeURIComponent(q)}` +
+    const params = `filter=all&scope=all&q=${encodeURIComponent(q)}` +
       (st.book ? `&book=${encodeURIComponent(st.book)}` : '');
     const d = await api('/api/words/list?' + params).catch(() => ({ words: [], count: 0 }));
     lastWords = d.words || [];
