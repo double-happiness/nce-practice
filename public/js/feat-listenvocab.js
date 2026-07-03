@@ -111,16 +111,19 @@
       '<button class="lsv-btn primary" id="lsvStart">开始测试 →</button>' +
       '</div>' +
       '<div class="lsv-hist" id="lsvHist">加载历史成绩…</div>' +
+      '<div class="vt-compare" id="lsvIntroCompare"></div>' +
       '</div>';
     panel.querySelector('#lsvSize').value = String(st.size);
     panel.querySelector('#lsvBook').onchange = async (e) => {
       st.book = e.target.value;
       await ui.renderHistory('listen-vocab', st.book, panel.querySelector('#lsvHist'), '#2b57d6');
+      ui.renderIntroPeek(panel, st.book, 'listen', '#2b57d6');
     };
     panel.querySelector('#lsvSize').onchange = (e) => { st.size = Number(e.target.value) || 24; };
     panel.querySelector('#lsvStart').onclick = () => startTest(panel);
 
     await ui.renderHistory('listen-vocab', st.book, panel.querySelector('#lsvHist'), '#2b57d6');
+    ui.renderIntroPeek(panel, st.book, 'listen', '#2b57d6');
     if (autoStart) startTest(panel);
   }
 

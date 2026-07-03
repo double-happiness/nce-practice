@@ -109,16 +109,19 @@
       '<button class="rsv-btn primary" id="rsvStart">开始测试 →</button>' +
       '</div>' +
       '<div class="rsv-hist" id="rsvHist">加载历史成绩…</div>' +
+      '<div class="vt-compare" id="rsvIntroCompare"></div>' +
       '</div>';
     panel.querySelector('#rsvSize').value = String(st.size);
     panel.querySelector('#rsvBook').onchange = async (e) => {
       st.book = e.target.value;
       await ui.renderHistory('read-vocab', st.book, panel.querySelector('#rsvHist'), '#15803d');
+      ui.renderIntroPeek(panel, st.book, 'read', '#15803d');
     };
     panel.querySelector('#rsvSize').onchange = (e) => { st.size = Number(e.target.value) || 24; };
     panel.querySelector('#rsvStart').onclick = () => startTest(panel);
 
     await ui.renderHistory('read-vocab', st.book, panel.querySelector('#rsvHist'), '#15803d');
+    ui.renderIntroPeek(panel, st.book, 'read', '#15803d');
     if (autoStart) startTest(panel);
   }
 

@@ -109,19 +109,23 @@
   }
 
   // ---------- 入口 ----------
-  function onShow(panel) {
+  async function onShow(panel) {
     // 深链支持：首页「默写单词」等入口可带模式跳入（NCE.pendingWords = { mode: 'spell' }）
     const pend = NCE.pendingWords;
     if (pend && pend.mode) {
       st.mode = pend.mode;
       NCE.pendingWords = null;
     }
+    const ui = NCE.vocabTestUi;
+    const books = ui ? await ui.loadBooks('listen-vocab') : [{ id: '1', total: 0 }, { id: '2', total: 0 }];
+    if (!books.some((b) => String(b.id) === String(st.book))) st.book = books[0].id;
+    const bookOpts = ui
+      ? ui.bookOptionsHtml(books, st.book)
+      : '<option value="1">第1册</option><option value="2">第2册</option>';
     panel.innerHTML =
       '<div class="wd-wrap">' +
       '<div class="wd-toolbar wd-bookbar" style="margin-bottom:12px">' +
-      '<label>册：<select class="wd-book-global">' +
-      '<option value="1">第1册</option><option value="2">第2册</option>' +
-      '</select></label>' +
+      `<label>册：<select class="wd-book-global">${bookOpts}</select></label>` +
       '</div>' +
       '<div class="wd-modes">' +
       '<button class="wd-mode-btn" data-m="dict">📖 词典浏览</button>' +

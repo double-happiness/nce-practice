@@ -498,6 +498,14 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
   background: rgba(47, 111, 237, .08);
 }
 .home-card .hc-links a:hover { background: rgba(47, 111, 237, .16); }
+.home-dict-row { display: flex; gap: 8px; width: 100%; }
+.home-dict-row input {
+  flex: 1; min-width: 0; padding: 9px 12px; border: 1px solid var(--border);
+  border-radius: 10px; font-size: 14px;
+}
+.home-dict-row input:focus {
+  outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px rgba(47, 111, 237, .14);
+}
 .tab:hover { color: var(--brand); background: rgba(47, 111, 237, .06); }
 .tab.active {
   background: var(--accent-grad);

@@ -555,6 +555,13 @@ async function renderHome() {
   if (readVocabBtn && NCE.vocabTestUi) {
     readVocabBtn.onclick = () => NCE.vocabTestUi.goToVocabTest('readvocab', vocabBook);
   }
+  const homeDictQ = $('homeDictQ');
+  const homeDictBtn = $('homeDictBtn');
+  if (homeDictQ && homeDictBtn) {
+    const runHomeDict = () => goToDictionary(homeDictQ.value, last ? last.book : '');
+    homeDictBtn.onclick = runHomeDict;
+    homeDictQ.onkeydown = (e) => { if (e.key === 'Enter') runHomeDict(); };
+  }
   const cont = $('homeContinueBtn');
   if (cont) {
     cont.onclick = async () => {

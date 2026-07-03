@@ -125,6 +125,32 @@
     NCE.gotoTab(target);
   }
 
+  // 入口页：显示另一项（听/读）的简要对比
+  async function renderIntroPeek(panel, book, current, accent) {
+    const boxes = panel.querySelectorAll('.vt-compare');
+    const box = boxes[0];
+    if (!box) return;
+    const ov = await loadOverview(book);
+    if (!ov) return;
+    const other = current === 'listen' ? ov.read : ov.listen;
+    const otherId = current === 'listen' ? 'readvocab' : 'listenvocab';
+    const otherLabel = current === 'listen' ? '阅读' : '听力';
+    const otherIcon = current === 'listen' ? '📖' : '👂';
+    if (!other.latest) {
+      box.innerHTML =
+        `<div class="vt-compare-inner">本册${otherLabel}词汇量尚未测试，` +
+        `<button type="button" class="vt-compare-link" data-goto="${otherId}">${otherIcon} 去测${otherLabel} →</button></div>`;
+    } else {
+      box.innerHTML =
+        `<div class="vt-compare-inner">${otherIcon} 本册${otherLabel}上次：<b style="color:${accent}">≈ ${other.latest.estimate}</b> / ${other.latest.dictTotal} 词` +
+        (other.avgN >= 2 ? ` · 近 ${other.avgN} 次均 ≈ ${other.avg}` : '') +
+        ` <button type="button" class="vt-compare-link" data-goto="${otherId}">去测${otherLabel} →</button></div>`;
+    }
+    box.querySelectorAll('[data-goto]').forEach((el) => {
+      el.onclick = () => goToVocabTest(el.dataset.goto, book);
+    });
+  }
+
   NCE.vocabTestUi = {
     fmtDate,
     avgEstimate,
@@ -133,6 +159,7 @@
     loadOverview,
     renderHistory,
     renderCompare,
+    renderIntroPeek,
     consumePending,
     goToVocabTest,
   };
