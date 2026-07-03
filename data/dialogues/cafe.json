@@ -85,5 +85,22 @@
       { "role": "Barista", "cn": "Wi-Fi密码在收据上。", "en": "The Wi-Fi password is on your receipt." },
       { "role": "You", "cn": "谢谢，环境很舒服。", "en": "Thanks. This place is really cozy." }
     ]
+  },
+  {
+    "id": "dlg-cafe-06",
+    "category": "cafe",
+    "title": "Wrong Drink",
+    "titleCn": "饮料做错",
+    "scene": "店员端上的咖啡不是你点的，你需要礼貌说明。",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我点的是燕麦拿铁。", "en": "Excuse me, I ordered an oat milk latte." },
+      { "role": "Barista", "cn": "非常抱歉，这杯是全脂牛奶的。", "en": "I'm sorry. This one was made with whole milk." },
+      { "role": "You", "cn": "我对乳制品过敏，能重做一杯吗？", "en": "I'm allergic to dairy. Could you remake it?" },
+      { "role": "Barista", "cn": "当然，马上为您重做，请稍等。", "en": "Of course. I'll remake it right away." },
+      { "role": "You", "cn": "没关系，不急。", "en": "That's fine. No rush." },
+      { "role": "Barista", "cn": "新的好了，这杯请您不用付钱。", "en": "Here's the new one. Please don't pay for the mistake." },
+      { "role": "You", "cn": "谢谢，服务很周到。", "en": "Thank you. I appreciate it." }
+    ]
   }
 ]

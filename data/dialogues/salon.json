@@ -66,5 +66,38 @@
       { "role": "You", "cn": "555-0123，谢谢。", "en": "Five five five, zero one two three. Thanks." },
       { "role": "Receptionist", "cn": "张先生，下一位是您。", "en": "Mr. Zhang, you're up next." }
     ]
+  },
+  {
+    "id": "dlg-salon-05",
+    "category": "salon",
+    "title": "Eyebrow Threading",
+    "titleCn": "修眉",
+    "scene": "你在美容院修眉。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "修眉还是全脸？", "en": "Eyebrows only or full face?" },
+      { "role": "You", "cn": "只修眉，自然一点。", "en": "Just eyebrows, keep them natural." },
+      { "role": "Technician", "cn": "请闭眼，可能有点疼。", "en": "Close your eyes. It might sting a little." },
+      { "role": "You", "cn": "没事，别太细就行。", "en": "That's okay. Just don't make them too thin." },
+      { "role": "Technician", "cn": "好了，看看满意吗？", "en": "All done. How do they look?" },
+      { "role": "You", "cn": "很好，谢谢！", "en": "Great. Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-salon-06",
+    "category": "salon",
+    "title": "Spa Appointment",
+    "titleCn": "预约SPA",
+    "scene": "你打电话预约按摩。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "水疗中心，有什么可以帮您？", "en": "Spa desk. How may I help you?" },
+      { "role": "You", "cn": "想预约周六下午的深度按摩。", "en": "I'd like a deep tissue massage Saturday afternoon." },
+      { "role": "Receptionist", "cn": "两点或四点有空。", "en": "We have two or four o'clock open." },
+      { "role": "You", "cn": "四点，六十分钟。", "en": "Four o'clock, sixty minutes." },
+      { "role": "Receptionist", "cn": "请提前十分钟到，穿宽松衣服。", "en": "Arrive ten minutes early in comfortable clothes." },
+      { "role": "You", "cn": "需要押金吗？", "en": "Is a deposit required?" },
+      { "role": "Receptionist", "cn": "取消需提前二十四小时，否则收一半。", "en": "Cancel twenty-four hours ahead or we charge half." }
+    ]
   }
 ]

@@ -85,5 +85,22 @@
       { "role": "You", "cn": "那我租单人这辆吧。", "en": "I'll take this single one, then." },
       { "role": "Attendant", "cn": "好的，请在四点前还到这边。", "en": "Sure. Please return it here by four o'clock." }
     ]
+  },
+  {
+    "id": "dlg-park-06",
+    "category": "park",
+    "title": "Picnic Spot",
+    "titleCn": "野餐选址",
+    "scene": "周末你和朋友在公园找地方野餐。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "那边草坪人太多了。", "en": "That lawn is way too crowded." },
+      { "role": "You", "cn": "湖边那片树荫怎么样？", "en": "How about the shady area by the lake?" },
+      { "role": "Friend", "cn": "好主意，有桌子吗？", "en": "Good idea. Are there any picnic tables?" },
+      { "role": "You", "cn": "地图显示往东走五分钟有。", "en": "The map shows some five minutes east of here." },
+      { "role": "Friend", "cn": "你订烧烤炉了吗？", "en": "Did you reserve a grill?" },
+      { "role": "You", "cn": "订了，下午两点到四点。", "en": "Yes, from two to four this afternoon." },
+      { "role": "Friend", "cn": "那走吧，我饿了！", "en": "Let's go then. I'm starving!" }
+    ]
   }
 ]

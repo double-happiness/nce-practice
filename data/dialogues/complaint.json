@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dlg-cmp-01",
+    "category": "complaint",
+    "title": "Restaurant Complaint",
+    "titleCn": "餐厅投诉",
+    "scene": "你的菜等了四十分钟还没上，你向经理投诉。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "经理，我们点的菜四十分钟了还没来。", "en": "Excuse me, we've been waiting forty minutes for our food." },
+      { "role": "Manager", "cn": "非常抱歉，厨房人手不够。", "en": "I'm so sorry. We're short-staffed in the kitchen." },
+      { "role": "You", "cn": "能理解，但能优先上孩子的餐吗？", "en": "I understand, but could you prioritize the kids' meals?" },
+      { "role": "Manager", "cn": "当然，我亲自去催，甜点请你们。", "en": "Of course. I'll check myself. Dessert is on the house." },
+      { "role": "You", "cn": "谢谢，希望下次体验更好。", "en": "Thank you. I hope it's better next time." },
+      { "role": "Manager", "cn": "给您一张优惠券，欢迎再来。", "en": "Here's a coupon. We'd love to have you back." }
+    ]
+  },
+  {
+    "id": "dlg-cmp-02",
+    "category": "complaint",
+    "title": "Store Refund Dispute",
+    "titleCn": "商店退款纠纷",
+    "scene": "商店拒绝你的退货，你据理力争。",
+    "roles": ["You", "Supervisor"],
+    "turns": [
+      { "role": "You", "cn": "这件衣服有瑕疵，我要退款。", "en": "This shirt has a defect. I want a refund." },
+      { "role": "Supervisor", "cn": "超过三十天不能退。", "en": "It's past our thirty-day return window." },
+      { "role": "You", "cn": "但我上周才买，有小票。", "en": "But I bought it last week. Here's the receipt." },
+      { "role": "Supervisor", "cn": "让我看一下……日期确实在期内。", "en": "Let me see. You're right, it's within the window." },
+      { "role": "You", "cn": "可以换一件吗？同款没货就退。", "en": "Can I exchange it? If you're out, I'll take a refund." },
+      { "role": "Supervisor", "cn": "可以退款，抱歉给您添麻烦。", "en": "We'll refund you. Sorry for the trouble." }
+    ]
+  },
+  {
+    "id": "dlg-cmp-03",
+    "category": "complaint",
+    "title": "Online Review Follow-up",
+    "titleCn": "差评后商家回复",
+    "scene": "你给了差评，商家打电话沟通。",
+    "roles": ["You", "Owner"],
+    "turns": [
+      { "role": "Owner", "cn": "您好，看到您的评价，想了解一下问题。", "en": "Hi, I saw your review and wanted to understand what went wrong." },
+      { "role": "You", "cn": "外卖凉了，薯条软了。", "en": "The food arrived cold and the fries were soggy." },
+      { "role": "Owner", "cn": "那天骑手不够，我们改进了包装。", "en": "We were short on drivers that day. We've improved our packaging." },
+      { "role": "You", "cn": "希望如此，我经常点你们家。", "en": "I hope so. I order from you often." },
+      { "role": "Owner", "cn": "下次订单我亲自备注加保温，送您饮料。", "en": "I'll note extra insulation on your next order and include a free drink." },
+      { "role": "You", "cn": "好吧，愿意再试一次。", "en": "Okay. I'm willing to try again." }
+    ]
+  },
+  {
+    "id": "dlg-cmp-04",
+    "category": "complaint",
+    "title": "Hotel Room Problem",
+    "titleCn": "酒店房间问题",
+    "scene": "酒店房间不干净，你要求换房。",
+    "roles": ["You", "Front Desk"],
+    "turns": [
+      { "role": "You", "cn": "房间浴室有头发，床单也不干净。", "en": "There's hair in the bathroom and the sheets aren't clean." },
+      { "role": "Front Desk", "cn": "非常抱歉，我给您换一间。", "en": "I'm terribly sorry. I'll move you to another room." },
+      { "role": "You", "cn": "要安静一点的，别靠电梯。", "en": "Something quiet, away from the elevator." },
+      { "role": "Front Desk", "cn": "八楼角落套房空着，我升级给您。", "en": "A corner suite on eight is open. I'll upgrade you at no charge." },
+      { "role": "You", "cn": "行李能帮忙搬吗？", "en": "Can someone help with our luggage?" },
+      { "role": "Front Desk", "cn": "马上派行李员上去。", "en": "I'll send a bellhop right up." }
+    ]
+  },
+  {
+    "id": "dlg-cmp-05",
+    "category": "complaint",
+    "title": "Flight Complaint",
+    "titleCn": "航班投诉",
+    "scene": "航班严重延误，你在柜台要求补偿。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "航班延误五小时，错过转机，怎么补偿？", "en": "The flight was five hours late and I missed my connection. What compensation do I get?" },
+      { "role": "Agent", "cn": "可以免费改签下一班，或退部分票款。", "en": "We can rebook you for free or offer a partial refund." },
+      { "role": "You", "cn": "今晚有酒店和餐券吗？", "en": "Is there a hotel and meal voucher for tonight?" },
+      { "role": "Agent", "cn": "延误超四小时，有酒店券和十五美元餐券。", "en": "For delays over four hours, you get a hotel voucher and fifteen dollars for meals." },
+      { "role": "You", "cn": "请安排最早的航班，并给我书面证明。", "en": "Book the earliest flight and give me written confirmation." },
+      { "role": "Agent", "cn": "正在处理，请稍等。", "en": "Working on it now. One moment, please." }
+    ]
+  }
+]

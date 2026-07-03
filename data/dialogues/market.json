@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-mkt-01",
+    "category": "market",
+    "title": "Farmers Market",
+    "titleCn": "农夫市集",
+    "scene": "周末你去农夫市集买新鲜蔬果。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "早上好！今天的草莓刚摘的。", "en": "Good morning! These strawberries were picked today." },
+      { "role": "You", "cn": "怎么卖？能尝一个吗？", "en": "How much? Can I try one?" },
+      { "role": "Vendor", "cn": "四美元一篮，随便尝。", "en": "Four dollars a basket. Go ahead and taste." },
+      { "role": "You", "cn": "很甜！再来一篮西红柿。", "en": "So sweet! I'll take a basket of tomatoes too." },
+      { "role": "Vendor", "cn": "一共九块，只收现金或Venmo。", "en": "Nine total. Cash or Venmo only." },
+      { "role": "You", "cn": "刷卡不行吗？", "en": "No cards?" },
+      { "role": "Vendor", "cn": "抱歉，小摊没装刷卡机。", "en": "Sorry, we don't have a card reader." }
+    ]
+  },
+  {
+    "id": "dlg-mkt-02",
+    "category": "market",
+    "title": "Choosing Fresh Fish",
+    "titleCn": "买海鲜",
+    "scene": "你在市场鱼摊买海鲜。",
+    "roles": ["You", "Fishmonger"],
+    "turns": [
+      { "role": "Fishmonger", "cn": "今天的三文鱼很新鲜。", "en": "The salmon is really fresh today." },
+      { "role": "You", "cn": "要一块两磅左右的，能帮忙去骨吗？", "en": "I'd like about two pounds, boneless, please." },
+      { "role": "Fishmonger", "cn": "可以，要切片还是整块？", "en": "Sure. Fillets or a whole side?" },
+      { "role": "You", "cn": "切片，今晚烧烤用。", "en": "Fillets. I'm grilling tonight." },
+      { "role": "Fishmonger", "cn": "建议挤点柠檬，别烤太久。", "en": "A little lemon helps. Don't overcook it." },
+      { "role": "You", "cn": "好的，再加半磅虾。", "en": "Sounds good. Add half a pound of shrimp too." },
+      { "role": "Fishmonger", "cn": "一共三十二块五。", "en": "Thirty-two fifty total." }
+    ]
+  },
+  {
+    "id": "dlg-mkt-03",
+    "category": "market",
+    "title": "Bargaining at a Stall",
+    "titleCn": "讨价还价",
+    "scene": "你在露天市场买纪念品。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "手工围巾，二十五块。", "en": "Handmade scarf, twenty-five dollars." },
+      { "role": "You", "cn": "买两条能便宜吗？", "en": "Can you do a better price for two?" },
+      { "role": "Vendor", "cn": "两条四十。", "en": "Forty for two." },
+      { "role": "You", "cn": "三十五怎么样？现金付。", "en": "How about thirty-five? Cash." },
+      { "role": "Vendor", "cn": "三十八，不能再低了。", "en": "Thirty-eight. That's my final offer." },
+      { "role": "You", "cn": "成交。", "en": "Deal." },
+      { "role": "Vendor", "cn": "谢谢惠顾！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-mkt-04",
+    "category": "market",
+    "title": "Asian Grocery Store",
+    "titleCn": "亚洲超市",
+    "scene": "你在亚洲超市找调料。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "请问老干妈在哪？", "en": "Excuse me, where can I find Lao Gan Ma chili sauce?" },
+      { "role": "Clerk", "cn": "调料区，过道七，左边货架。", "en": "Aisle seven, sauces section, left side." },
+      { "role": "You", "cn": "有新鲜豆腐吗？", "en": "Do you have fresh tofu?" },
+      { "role": "Clerk", "cn": "在冷藏柜，每天上午到货。", "en": "In the refrigerated case. Deliveries come every morning." },
+      { "role": "You", "cn": "谢谢！你们几点关门？", "en": "Thanks! What time do you close?" },
+      { "role": "Clerk", "cn": "晚上十点。", "en": "Ten PM." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-mkt-05",
+    "category": "market",
+    "title": "Food Samples",
+    "titleCn": "试吃推广",
+    "scene": "超市里有人在推广试吃奶酪。",
+    "roles": ["You", "Promoter"],
+    "turns": [
+      { "role": "Promoter", "cn": "要尝尝新款奶酪吗？", "en": "Would you like to try our new cheese?" },
+      { "role": "You", "cn": "好的，这是什么口味？", "en": "Sure. What flavor is it?" },
+      { "role": "Promoter", "cn": "黑胡椒陈年切达，配饼干很好吃。", "en": "Aged cheddar with black pepper. Great on crackers." },
+      { "role": "You", "cn": "不错！大包装多少钱？", "en": "Not bad! How much for a large pack?" },
+      { "role": "Promoter", "cn": "今天特价六块九，在那边货架。", "en": "On sale today for six ninety-nine. The display is over there." },
+      { "role": "You", "cn": "我拿一块，谢谢。", "en": "I'll grab one. Thanks." },
+      { "role": "Promoter", "cn": "享受！有问题可以问我。", "en": "Enjoy! Let me know if you have questions." }
+    ]
+  }
+]

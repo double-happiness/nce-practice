@@ -85,5 +85,22 @@
       { "role": "Tourist", "cn": "好啊，谢谢！", "en": "Yes, please. Thank you!" },
       { "role": "You", "cn": "不客气，祝玩得开心！", "en": "You're welcome. Have fun!" }
     ]
+  },
+  {
+    "id": "dlg-travel-06",
+    "category": "travel",
+    "title": "Currency Exchange",
+    "titleCn": "兑换外币",
+    "scene": "你到达国外后在机场兑换当地货币。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，需要兑换货币吗？", "en": "Hello. Do you need to exchange currency?" },
+      { "role": "You", "cn": "我想把五百美元换成欧元。", "en": "I'd like to change five hundred US dollars into euros." },
+      { "role": "Clerk", "cn": "今日汇率是一点零五，含手续费。", "en": "Today's rate is one point zero five, including the service fee." },
+      { "role": "You", "cn": "最少换多少？", "en": "What's the minimum amount?" },
+      { "role": "Clerk", "cn": "五十美元起，请出示护照。", "en": "Fifty dollars minimum. I'll need your passport." },
+      { "role": "You", "cn": "能换一些小面额吗？", "en": "Can I get some smaller bills?" },
+      { "role": "Clerk", "cn": "可以，请清点一下现金。", "en": "Sure. Please count the cash to confirm." }
+    ]
   }
 ]

@@ -103,5 +103,22 @@
       { "role": "Waiter", "cn": "会在厨房注明，送一杯饮料致歉。", "en": "I'll note that in the kitchen. We'll bring a complimentary drink." },
       { "role": "You", "cn": "谢谢，麻烦你了。", "en": "Thank you. I appreciate it." }
     ]
+  },
+  {
+    "id": "dlg-rest-07",
+    "category": "restaurant",
+    "title": "Food Truck",
+    "titleCn": "餐车",
+    "scene": "你在街头餐车买午餐。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "要什么？今天特餐是韩式炸鸡卷。", "en": "What'll it be? Today's special is Korean fried chicken tacos." },
+      { "role": "You", "cn": "来两个特餐，少辣。", "en": "Two specials, not too spicy, please." },
+      { "role": "Vendor", "cn": "饮料呢？柠檬水自制。", "en": "Any drinks? Homemade lemonade." },
+      { "role": "You", "cn": "一杯柠檬水，一共多少？", "en": "One lemonade. How much total?" },
+      { "role": "Vendor", "cn": "十九块，只收现金或Venmo。", "en": "Nineteen bucks. Cash or Venmo only." },
+      { "role": "You", "cn": "Venmo付，账号多少？", "en": "Venmo. What's your handle?" },
+      { "role": "Vendor", "cn": "贴在窗口上，谢谢！", "en": "It's on the window sticker. Thanks!" }
+    ]
   }
 ]

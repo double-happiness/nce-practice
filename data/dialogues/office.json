@@ -84,5 +84,22 @@
       { "role": "New Hire", "cn": "太好了。有问题可以请教你吗？", "en": "That's great. Can I ask you if I have questions?" },
       { "role": "You", "cn": "随时欢迎，中午一起吃饭吧。", "en": "Anytime. Let's grab lunch together." }
     ]
+  },
+  {
+    "id": "dlg-office-06",
+    "category": "office",
+    "title": "Requesting Time Off",
+    "titleCn": "请假",
+    "scene": "你需要请假，向主管说明并交接工作。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "经理，我想请下周五一天假。", "en": "Manager, I'd like to take next Friday off." },
+      { "role": "Manager", "cn": "家里有事吗？那天有客户演示。", "en": "Family matter? We have a client demo that day." },
+      { "role": "You", "cn": "家人生病要陪诊，演示材料我今天发您。", "en": "A family member needs a hospital visit. I'll send you the demo materials today." },
+      { "role": "Manager", "cn": "谁顶你的会？", "en": "Who will cover your meetings?" },
+      { "role": "You", "cn": "我和 Lisa 对过了，她可以代开晨会。", "en": "Lisa and I aligned. She can run the morning stand-up." },
+      { "role": "Manager", "cn": "好，系统里提交申请就行。", "en": "Okay. Submit the request in the system." },
+      { "role": "You", "cn": "谢谢，我会保持手机畅通。", "en": "Thank you. I'll keep my phone on." }
+    ]
   }
 ]

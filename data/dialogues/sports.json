@@ -66,5 +66,39 @@
       { "role": "You", "cn": "好的，我尽量跟上大家。", "en": "Okay. I'll try to keep up with the group." },
       { "role": "Instructor", "cn": "慢慢来，安全第一。", "en": "Take your time. Safety first." }
     ]
+  },
+  {
+    "id": "dlg-sport-05",
+    "category": "sports",
+    "title": "Joining a Gym Class",
+    "titleCn": "团课报名",
+    "scene": "你想报名健身房的瑜伽团课。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "第一次上瑜伽课吗？", "en": "Is this your first yoga class?" },
+      { "role": "You", "cn": "是，需要自带垫子吗？", "en": "Yes. Should I bring my own mat?" },
+      { "role": "Instructor", "cn": "可以租，一块五。请穿舒服的衣服。", "en": "You can rent one for a dollar fifty. Wear comfortable clothes." },
+      { "role": "You", "cn": "难度怎么样？", "en": "How hard is the class?" },
+      { "role": "Instructor", "cn": "初级，跟不上可以休息。", "en": "Beginner level. Rest whenever you need to." },
+      { "role": "You", "cn": "好的，我尽量坚持。", "en": "Okay. I'll do my best." },
+      { "role": "Instructor", "cn": "别勉强，呼吸最重要。", "en": "Don't push too hard. Breathing is what matters." }
+    ]
+  },
+  {
+    "id": "dlg-sport-06",
+    "category": "sports",
+    "title": "Beach Day",
+    "titleCn": "海滩",
+    "scene": "你在海滩租遮阳伞和躺椅。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "租伞和椅子，一天二十五。", "en": "Umbrella and chairs, twenty-five for the day." },
+      { "role": "You", "cn": "靠近水边可以吗？", "en": "Can we set up closer to the water?" },
+      { "role": "Attendant", "cn": "涨潮会淹，建议中间区域。", "en": "The tide comes in. I'd pick a spot in the middle." },
+      { "role": "You", "cn": "有更衣室吗？", "en": "Are there changing rooms?" },
+      { "role": "Attendant", "cn": "木板路那头，淋浴一块。", "en": "Down the boardwalk. Showers are a dollar." },
+      { "role": "You", "cn": "好，现金付。", "en": "Okay. Cash is fine." },
+      { "role": "Attendant", "cn": "享受阳光！", "en": "Enjoy the sun!" }
+    ]
   }
 ]

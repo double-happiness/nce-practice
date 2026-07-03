@@ -84,5 +84,22 @@
       { "role": "Member", "cn": "对，或者前台也能买。", "en": "Yes, or you can buy one at the front desk." },
       { "role": "You", "cn": "明白了，谢谢！", "en": "Got it. Thanks!" }
     ]
+  },
+  {
+    "id": "dlg-gym-06",
+    "category": "gym",
+    "title": "Personal Trainer",
+    "titleCn": "私教咨询",
+    "scene": "你想请私人教练帮你制定训练计划。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "您的健身目标是什么？", "en": "What's your fitness goal?" },
+      { "role": "You", "cn": "想减脂，顺便增强核心力量。", "en": "I want to lose fat and build core strength." },
+      { "role": "Trainer", "cn": "每周能来几次？有无旧伤？", "en": "How many days a week can you come? Any old injuries?" },
+      { "role": "You", "cn": "每周三次，膝盖以前受过伤。", "en": "Three times a week. I had a knee injury before." },
+      { "role": "Trainer", "cn": "我们会避开高冲击动作，先评估体态。", "en": "We'll avoid high-impact moves and assess your form first." },
+      { "role": "You", "cn": "私教课怎么收费？", "en": "How much are personal sessions?" },
+      { "role": "Trainer", "cn": "单次六十，买十节送一节。", "en": "Sixty per session, or buy ten and get one free." }
+    ]
   }
 ]

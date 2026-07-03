@@ -78,5 +78,22 @@
       { "role": "Support", "cn": "可以部分退款，并送您一张五元优惠券。", "en": "We can offer a partial refund and a five-dollar coupon." },
       { "role": "You", "cn": "好吧，请处理一下。", "en": "Fine. Please go ahead with that." }
     ]
+  },
+  {
+    "id": "dlg-del-06",
+    "category": "delivery",
+    "title": "Wrong Item Delivered",
+    "titleCn": "送错餐",
+    "scene": "外卖送来的饭菜和你点的不一致。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这份好像不是我的订单。", "en": "Excuse me, this doesn't look like my order." },
+      { "role": "Driver", "cn": "我核对一下单号……确实拿错了。", "en": "Let me check the order number. I grabbed the wrong bag." },
+      { "role": "You", "cn": "我点的是鸡肉饭，这是牛肉面。", "en": "I ordered chicken rice, but this is beef noodles." },
+      { "role": "Driver", "cn": "我回去换正确的，大概十五分钟。", "en": "I'll swap it for the right one. About fifteen minutes." },
+      { "role": "You", "cn": "能顺便带一包餐具吗？", "en": "Could you bring utensils too?" },
+      { "role": "Driver", "cn": "没问题，抱歉耽误您。", "en": "No problem. Sorry for the trouble." },
+      { "role": "You", "cn": "没事，谢谢。", "en": "It's okay. Thanks." }
+    ]
   }
 ]

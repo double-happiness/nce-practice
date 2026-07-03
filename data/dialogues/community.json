@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-com-01",
+    "category": "community",
+    "title": "Church Service",
+    "titleCn": "教堂礼拜",
+    "scene": "你第一次去当地教堂，工作人员热情接待。",
+    "roles": ["You", "Greeter"],
+    "turns": [
+      { "role": "Greeter", "cn": "欢迎！第一次来吗？", "en": "Welcome! Is this your first time here?" },
+      { "role": "You", "cn": "是的，不太熟悉流程。", "en": "Yes. I'm not sure how things work." },
+      { "role": "Greeter", "cn": "节目单在门口，礼拜约一小时。", "en": "There's a bulletin by the door. Service is about an hour." },
+      { "role": "You", "cn": "需要预约座位吗？", "en": "Do I need to reserve a seat?" },
+      { "role": "Greeter", "cn": "不用，随便坐，中间是家庭区。", "en": "No, sit anywhere. Families often sit in the middle." },
+      { "role": "You", "cn": "礼拜后有茶点吗？", "en": "Is there coffee after the service?" },
+      { "role": "Greeter", "cn": "有的，大厅免费咖啡和点心。", "en": "Yes, free coffee and snacks in the hall." }
+    ]
+  },
+  {
+    "id": "dlg-com-02",
+    "category": "community",
+    "title": "Community Center Class",
+    "titleCn": "社区中心课程",
+    "scene": "你在社区中心报名瑜伽课。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "社区中心，需要什么帮助？", "en": "Community center. How can I help?" },
+      { "role": "You", "cn": "想报下周开始的瑜伽入门班。", "en": "I'd like to sign up for the beginner yoga class starting next week." },
+      { "role": "Staff", "cn": "十节课六十块，需自备瑜伽垫。", "en": "Sixty dollars for ten sessions. Bring your own mat." },
+      { "role": "You", "cn": "可以试上一节吗？", "en": "Can I try one class first?" },
+      { "role": "Staff", "cn": "第一次免费试听。", "en": "Your first class is free." },
+      { "role": "You", "cn": "好的，我周二晚上那班。", "en": "Great. I'll take the Tuesday evening section." },
+      { "role": "Staff", "cn": "请填紧急联系人。", "en": "Please fill in an emergency contact." }
+    ]
+  },
+  {
+    "id": "dlg-com-03",
+    "category": "community",
+    "title": "Volunteering",
+    "titleCn": "做志愿者",
+    "scene": "你想在食物银行做志愿者。",
+    "roles": ["You", "Coordinator"],
+    "turns": [
+      { "role": "Coordinator", "cn": "感谢有兴趣！之前做过志愿吗？", "en": "Thanks for your interest! Have you volunteered before?" },
+      { "role": "You", "cn": "在大学做过，周末可以来。", "en": "Yes, in college. I'm free on weekends." },
+      { "role": "Coordinator", "cn": "周六上午分拣食品，三小时一班。", "en": "Saturday mornings sorting food, three-hour shifts." },
+      { "role": "You", "cn": "需要培训吗？", "en": "Is there training?" },
+      { "role": "Coordinator", "cn": "第一次来提前半小时 orientation。", "en": "Come thirty minutes early your first day for orientation." },
+      { "role": "You", "cn": "好的，我这周六可以。", "en": "Okay. I can make it this Saturday." },
+      { "role": "Coordinator", "cn": "太好了，邮件确认发您。", "en": "Wonderful. I'll email you a confirmation." }
+    ]
+  },
+  {
+    "id": "dlg-com-04",
+    "category": "community",
+    "title": "Neighborhood Meeting",
+    "titleCn": "邻里会议",
+    "scene": "你参加小区业主大会讨论绿化改造。",
+    "roles": ["You", "Chair"],
+    "turns": [
+      { "role": "Chair", "cn": "今晚议题是游乐场翻新，欢迎发言。", "en": "Tonight's topic is playground renovation. Comments are welcome." },
+      { "role": "You", "cn": "我支持翻新，但希望保留大树。", "en": "I support the renovation, but I'd like to keep the big trees." },
+      { "role": "Chair", "cn": "园林方案会尽量保留现有树木。", "en": "The landscape plan will try to preserve existing trees." },
+      { "role": "You", "cn": "预算多少？每户分摊吗？", "en": "What's the budget? Is it split among owners?" },
+      { "role": "Chair", "cn": "十二万，从维修基金出，不另收费。", "en": "A hundred twenty thousand from the reserve fund, no extra assessment." },
+      { "role": "You", "cn": "好的，我投票赞成。", "en": "Okay. I vote yes." },
+      { "role": "Chair", "cn": "谢谢，请把票投进箱子里。", "en": "Thank you. Please drop your ballot in the box." }
+    ]
+  },
+  {
+    "id": "dlg-com-05",
+    "category": "community",
+    "title": "Library Story Time",
+    "titleCn": "图书馆故事会",
+    "scene": "你带孩子参加图书馆周末故事会。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "Librarian", "cn": "故事会十点开始，请先签到。", "en": "Story time starts at ten. Please sign in first." },
+      { "role": "You", "cn": "需要提前报名吗？", "en": "Do we need to register in advance?" },
+      { "role": "Librarian", "cn": "不用，但座位有限，早到为好。", "en": "No, but seats are limited. Come early." },
+      { "role": "You", "cn": "适合几岁孩子？", "en": "What age is it for?" },
+      { "role": "Librarian", "cn": "三到六岁，大约三十分钟。", "en": "Ages three to six, about thirty minutes." },
+      { "role": "You", "cn": "结束后可以借书吗？", "en": "Can we check out books afterward?" },
+      { "role": "Librarian", "cn": "当然，儿童区就在旁边。", "en": "Of course. The kids' section is right next door." }
+    ]
+  }
+]

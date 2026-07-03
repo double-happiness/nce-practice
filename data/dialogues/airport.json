@@ -85,5 +85,22 @@
       { "role": "Agent", "cn": "明天下午前会送到您登记的地址。", "en": "It should arrive at your address by tomorrow afternoon." },
       { "role": "You", "cn": "好的，这是我的酒店地址和电话。", "en": "Okay. Here's my hotel address and phone number." }
     ]
+  },
+  {
+    "id": "dlg-air-06",
+    "category": "airport",
+    "title": "Flight Delay",
+    "titleCn": "航班延误",
+    "scene": "登机口广播航班延误，你向地勤询问改签。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "各位旅客，本次航班延误两小时。", "en": "Attention passengers, this flight is delayed two hours." },
+      { "role": "You", "cn": "我会错过转机，能改签到更早的航班吗？", "en": "I'll miss my connection. Can I switch to an earlier flight?" },
+      { "role": "Agent", "cn": "请出示登机牌，我查一下可选航班。", "en": "May I see your boarding pass? I'll check available flights." },
+      { "role": "You", "cn": "如果今天走不了，酒店谁负责？", "en": "If I can't leave today, who covers the hotel?" },
+      { "role": "Agent", "cn": "航司原因延误，我们可以安排住宿券。", "en": "For airline-caused delays, we can issue a hotel voucher." },
+      { "role": "You", "cn": "行李需要重新托运吗？", "en": "Do I need to recheck my luggage?" },
+      { "role": "Agent", "cn": "不用，行李会直挂，新登机口稍后广播。", "en": "No, bags stay checked through. The new gate will be announced." }
+    ]
   }
 ]

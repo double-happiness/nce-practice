@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-prop-01",
+    "category": "property",
+    "title": "HOA Fee Question",
+    "titleCn": "物业费咨询",
+    "scene": "你向物业前台询问管理费账单。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "物业办公室，有什么可以帮您？", "en": "Property management. How can I help?" },
+      { "role": "You", "cn": "我收到物业费涨了，能解释一下吗？", "en": "I got a notice that HOA fees went up. Can you explain?" },
+      { "role": "Manager", "cn": "今年电梯维修基金增加了每月二十块。", "en": "The elevator reserve fund added twenty dollars a month this year." },
+      { "role": "You", "cn": "有会议纪要可以看吗？", "en": "Are there meeting minutes I can review?" },
+      { "role": "Manager", "cn": "在业主网站上下载，上个月已通过。", "en": "They're on the owner portal. The vote passed last month." },
+      { "role": "You", "cn": "好的，怎么在线缴费？", "en": "Okay. How do I pay online?" },
+      { "role": "Manager", "cn": "登录业主账户，用银行卡即可。", "en": "Log into your owner account and use a bank card." }
+    ]
+  },
+  {
+    "id": "dlg-prop-02",
+    "category": "property",
+    "title": "Noise Complaint to Management",
+    "titleCn": "向物业投诉噪音",
+    "scene": "楼上长期噪音，你向物业投诉。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想投诉502长期深夜噪音。", "en": "I'd like to file a complaint about unit 502. Loud noise late at night." },
+      { "role": "Manager", "cn": "什么时候？持续多久了？", "en": "When does it happen? How long has it been going on?" },
+      { "role": "You", "cn": "几乎每晚十一点后，两周了。", "en": "Almost every night after eleven. For two weeks." },
+      { "role": "Manager", "cn": "我们会发书面警告，请留记录。", "en": "We'll send a written warning. Please keep a log." },
+      { "role": "You", "cn": "需要录音吗？", "en": "Should I record it?" },
+      { "role": "Manager", "cn": "可以，但注意当地法律。", "en": "You can, but check local laws on recording." },
+      { "role": "You", "cn": "希望尽快解决，谢谢。", "en": "I hope it gets resolved soon. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-prop-03",
+    "category": "property",
+    "title": "Package Room",
+    "titleCn": "快递柜取件",
+    "scene": "你的快递在物业快递室，你去取。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "你好，有我的包裹吗？姓张。", "en": "Hi, do you have a package for Zhang?" },
+      { "role": "Staff", "cn": "有几个，请出示证件。", "en": "A few. May I see your ID?" },
+      { "role": "You", "cn": "这个大箱子是我的，能借小推车吗？", "en": "This big box is mine. Can I borrow a dolly?" },
+      { "role": "Staff", "cn": "可以，用完还到门口。", "en": "Sure. Return it to the entrance when you're done." },
+      { "role": "You", "cn": "快递室几点关？", "en": "What time does the package room close?" },
+      { "role": "Staff", "cn": "晚上九点，节假日到六点。", "en": "Nine PM. Six on holidays." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-prop-04",
+    "category": "property",
+    "title": "Parking Permit",
+    "titleCn": "办停车证",
+    "scene": "你向物业申请小区停车许可证。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想办一张住户停车证。", "en": "I'd like to get a resident parking permit." },
+      { "role": "Manager", "cn": "请填表，附车辆登记和保险复印件。", "en": "Fill out this form with a copy of registration and insurance." },
+      { "role": "You", "cn": "访客停车怎么算？", "en": "What about guest parking?" },
+      { "role": "Manager", "cn": "访客区两小时免费，超时会被拖。", "en": "Guest spots are free for two hours. After that, towing is possible." },
+      { "role": "You", "cn": "地下车位可以另租吗？", "en": "Can I rent an underground spot separately?" },
+      { "role": "Manager", "cn": "有等候名单，目前要等两个月。", "en": "There's a waitlist. About two months right now." },
+      { "role": "You", "cn": "那我先排队，谢谢。", "en": "Put me on the list, please. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-prop-05",
+    "category": "property",
+    "title": "Elevator Out of Service",
+    "titleCn": "电梯故障",
+    "scene": "小区电梯坏了，你询问物业维修进度。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "两部电梯都坏了，老人怎么上楼？", "en": "Both elevators are down. How are seniors supposed to get upstairs?" },
+      { "role": "Manager", "cn": "非常抱歉，零件明天到。", "en": "We're very sorry. Parts arrive tomorrow." },
+      { "role": "You", "cn": "能开一部消防梯吗？", "en": "Can you open one service elevator?" },
+      { "role": "Manager", "cn": "消防梯仅供搬运，需要预约。", "en": "The freight elevator is for moves by appointment only." },
+      { "role": "You", "cn": "维修期间有补偿吗？", "en": "Is there any compensation during the outage?" },
+      { "role": "Manager", "cn": "董事会讨论中，有更新会通知。", "en": "The board is discussing it. We'll notify owners with updates." },
+      { "role": "You", "cn": "希望尽快修好。", "en": "I hope it's fixed soon." }
+    ]
+  }
+]

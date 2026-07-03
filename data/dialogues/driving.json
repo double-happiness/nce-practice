@@ -83,5 +83,22 @@
       { "role": "You", "cn": "好，我明天带机械师再看一眼。", "en": "Okay. I'll bring a mechanic to look at it tomorrow." },
       { "role": "Seller", "cn": "没问题，下午两点可以吗？", "en": "No problem. Does two PM work?" }
     ]
+  },
+  {
+    "id": "dlg-drive-06",
+    "category": "driving",
+    "title": "Parking Ticket",
+    "titleCn": "停车罚单",
+    "scene": "你收到停车罚单，去市政网站咨询申诉。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "交通违章窗口，有什么可以帮您？", "en": "Parking violations desk. How can I help?" },
+      { "role": "You", "cn": "我收到一张罚单，但当时咪表是付过费的。", "en": "I got a ticket, but I had paid the meter." },
+      { "role": "Clerk", "cn": "有付款收据或银行扣款记录吗？", "en": "Do you have a receipt or bank charge record?" },
+      { "role": "You", "cn": "有，手机App里的交易记录。", "en": "Yes, the transaction history in the parking app." },
+      { "role": "Clerk", "cn": "填申诉表，附上截图，十四个工作日内答复。", "en": "Fill out an appeal form with screenshots. You'll hear back in fourteen business days." },
+      { "role": "You", "cn": "申诉期间要交罚款吗？", "en": "Do I need to pay the fine while it's under review?" },
+      { "role": "Clerk", "cn": "可以先不交，批准后会撤销。", "en": "You can wait. It'll be dismissed if approved." }
+    ]
   }
 ]

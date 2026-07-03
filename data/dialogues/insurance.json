@@ -65,5 +65,39 @@
       { "role": "Agent", "cn": "您年龄和行程，大概七十九块。", "en": "For your age and trip, about seventy-nine dollars." },
       { "role": "You", "cn": "好，请帮我办理。", "en": "Okay, sign me up." }
     ]
+  },
+  {
+    "id": "dlg-ins-05",
+    "category": "insurance",
+    "title": "Filing a Claim Online",
+    "titleCn": "在线理赔",
+    "scene": "你打电话问怎么在线提交保险理赔。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "理赔热线，保单号请说。", "en": "Claims line. Policy number, please." },
+      { "role": "You", "cn": "POL789，手机摔坏了要报修。", "en": "POL seven eight nine. My phone screen cracked and I need to file a claim." },
+      { "role": "Agent", "cn": "手机险含意外损坏，请上传照片。", "en": "Your phone plan covers accidental damage. Please upload photos." },
+      { "role": "You", "cn": "在App里哪个菜单？", "en": "Which menu in the app?" },
+      { "role": "Agent", "cn": "理赔中心，新建案件，按提示填。", "en": "Claims center, new case, follow the prompts." },
+      { "role": "You", "cn": "多久能批？", "en": "How long for approval?" },
+      { "role": "Agent", "cn": "通常两到三个工作日。", "en": "Usually two to three business days." }
+    ]
+  },
+  {
+    "id": "dlg-ins-06",
+    "category": "insurance",
+    "title": "Renter Insurance",
+    "titleCn": "租客保险",
+    "scene": "房东要求你买租客保险，你咨询经纪人。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "房东要求租客保险，最低保额多少？", "en": "My landlord requires renter's insurance. What's the minimum coverage?" },
+      { "role": "Agent", "cn": "一般十万个人责任险，财物按估值。", "en": "Usually a hundred thousand in liability, plus belongings at replacement value." },
+      { "role": "You", "cn": "一个月大概多少钱？", "en": "About how much per month?" },
+      { "role": "Agent", "cn": "十五到二十五，看地区和 deductible。", "en": "Fifteen to twenty-five, depending on area and deductible." },
+      { "role": "You", "cn": "水淹邻居算责任险吗？", "en": "If I flood a neighbor, is that liability?" },
+      { "role": "Agent", "cn": "对，这正是责任险的作用。", "en": "Yes, that's exactly what liability covers." },
+      { "role": "You", "cn": "好，今天能出保单吗？", "en": "Can you issue a policy today?" }
+    ]
   }
 ]

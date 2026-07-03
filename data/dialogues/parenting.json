@@ -83,5 +83,22 @@
       { "role": "You", "cn": "那下次可以一起玩。", "en": "Maybe the kids can play together again." },
       { "role": "Parent", "cn": "好啊，交换个电话？", "en": "Sure. Want to swap numbers?" }
     ]
+  },
+  {
+    "id": "dlg-kid-06",
+    "category": "parenting",
+    "title": "Hiring a Babysitter",
+    "titleCn": "请保姆",
+    "scene": "你面试周末保姆。",
+    "roles": ["You", "Sitter"],
+    "turns": [
+      { "role": "You", "cn": "你有照顾五岁孩子的经验吗？", "en": "Do you have experience with five-year-olds?" },
+      { "role": "Sitter", "cn": "有，做了三年，可以提供推荐人。", "en": "Yes, three years. I can give you references." },
+      { "role": "You", "cn": "周六晚上六点到十点，时薪多少？", "en": "Saturday six to ten PM. What's your rate?" },
+      { "role": "Sitter", "cn": "十八一小时，两个孩子加五块。", "en": "Eighteen an hour. Five extra for two kids." },
+      { "role": "You", "cn": "孩子九点睡觉，过敏花生。", "en": "Bedtime is nine. He's allergic to peanuts." },
+      { "role": "Sitter", "cn": "明白，EpiPen在厨房抽屉。", "en": "Got it. Is the EpiPen in the kitchen drawer?" },
+      { "role": "You", "cn": "对，我们的号码在冰箱上。", "en": "Yes. Our numbers are on the fridge." }
+    ]
   }
 ]

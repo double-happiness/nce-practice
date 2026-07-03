@@ -82,5 +82,22 @@
       { "role": "You", "cn": "以后还能重新开通吗？", "en": "Can I reactivate later?" },
       { "role": "Agent", "cn": "随时可以在账户里恢复。", "en": "Anytime from your account settings." }
     ]
+  },
+  {
+    "id": "dlg-onl-06",
+    "category": "online",
+    "title": "Package Not Arrived",
+    "titleCn": "快递未收到",
+    "scene": "显示已签收但你没收到货，联系客服。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "网购客服，请问订单号？", "en": "Online shopping support. Order number, please?" },
+      { "role": "You", "cn": "订单8823，显示昨天签收了，但我没收到。", "en": "Order eight eight two three. It says delivered yesterday, but I didn't get it." },
+      { "role": "Agent", "cn": "签收人是门卫吗？", "en": "Was it signed for by the doorman?" },
+      { "role": "You", "cn": "我问过了，他们说没有。", "en": "I asked. They said they didn't receive it." },
+      { "role": "Agent", "cn": "我们联系快递核实，二十四小时内回复。", "en": "We'll verify with the carrier and reply within twenty-four hours." },
+      { "role": "You", "cn": "如果找不到能重发吗？", "en": "If it's lost, can you reship it?" },
+      { "role": "Agent", "cn": "核实后可以重发或退款，您选。", "en": "After verification, we can reship or refund, your choice." }
+    ]
   }
 ]

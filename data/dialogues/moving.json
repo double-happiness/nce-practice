@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-mov-01",
+    "category": "moving",
+    "title": "Hiring Movers",
+    "titleCn": "请搬家公司",
+    "scene": "你打电话咨询搬家公司报价。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "搬家公司，请问从哪搬到哪？", "en": "Moving company. Where are you moving from and to?" },
+      { "role": "You", "cn": "两居室，同城五英里，有电梯。", "en": "Two-bedroom, five miles across town, both buildings have elevators." },
+      { "role": "Agent", "cn": "大概多少箱子和家具？", "en": "Roughly how many boxes and pieces of furniture?" },
+      { "role": "You", "cn": "三十箱，一张沙发和床。", "en": "About thirty boxes, a sofa, and a bed." },
+      { "role": "Agent", "cn": "报价六百到八百，含车和人。", "en": "Quote is six to eight hundred, including truck and crew." },
+      { "role": "You", "cn": "包拆装吗？有保险吗？", "en": "Does that include assembly? Is there insurance?" },
+      { "role": "Agent", "cn": "基本险包含，拆装另加一百。", "en": "Basic insurance is included. Assembly is a hundred extra." }
+    ]
+  },
+  {
+    "id": "dlg-mov-02",
+    "category": "moving",
+    "title": "Moving Day",
+    "titleCn": "搬家当天",
+    "scene": "搬家工人到了，你指挥摆放家具。",
+    "roles": ["You", "Mover"],
+    "turns": [
+      { "role": "Mover", "cn": "沙发放客厅还是楼上？", "en": "Should the sofa go in the living room or upstairs?" },
+      { "role": "You", "cn": "客厅靠窗，床放主卧。", "en": "Living room by the window. Bed in the master bedroom." },
+      { "role": "Mover", "cn": "这个衣柜要拆门才能进。", "en": "We'll need to take the closet doors off to fit this in." },
+      { "role": "You", "cn": "可以，小心别刮墙。", "en": "That's fine. Please be careful not to scratch the walls." },
+      { "role": "Mover", "cn": "放心。小费包含在账单里吗？", "en": "No problem. Is gratuity included in the bill?" },
+      { "role": "You", "cn": "现金另给，你们辛苦了。", "en": "I'll tip in cash. Thanks for the hard work." },
+      { "role": "Mover", "cn": "谢谢，欢迎检查有没有遗漏。", "en": "Thank you. Let us know if anything's missing." }
+    ]
+  },
+  {
+    "id": "dlg-mov-03",
+    "category": "moving",
+    "title": "Renting a Truck",
+    "titleCn": "租搬家卡车",
+    "scene": "你自己租车搬家，在柜台办手续。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "租多大的车？搬多远？", "en": "What size truck? How far are you moving?" },
+      { "role": "You", "cn": "十五英尺的，同城当天来回。", "en": "Fifteen-foot, same city, back today." },
+      { "role": "Clerk", "cn": "里程一百英里内包油，超了每迈零点九九。", "en": "Fuel is included up to a hundred miles. After that it's ninety-nine cents a mile." },
+      { "role": "You", "cn": "需要买额外保险吗？", "en": "Should I buy extra insurance?" },
+      { "role": "Clerk", "cn": "您的车险若涵盖可不买。", "en": "If your auto policy covers rentals, you can skip it." },
+      { "role": "You", "cn": "还要租手推车吗？", "en": "Should I rent a dolly too?" },
+      { "role": "Clerk", "cn": "建议租一个，七块钱。", "en": "I'd recommend one. Seven dollars." }
+    ]
+  },
+  {
+    "id": "dlg-mov-04",
+    "category": "moving",
+    "title": "Change of Address",
+    "titleCn": "搬家后改地址",
+    "scene": "搬家后你去邮局和银行改地址。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "我搬家了，要更新账户地址。", "en": "I moved and need to update my account address." },
+      { "role": "Banker", "cn": "请填这张表，带新地址证明。", "en": "Please fill out this form with proof of your new address." },
+      { "role": "You", "cn": "水电账单可以吗？", "en": "Will a utility bill work?" },
+      { "role": "Banker", "cn": "可以，三个月内的。", "en": "Yes, from within the last three months." },
+      { "role": "You", "cn": "支票和卡会寄到新地址吗？", "en": "Will checks and cards go to the new address?" },
+      { "role": "Banker", "cn": "对，七到十个工作日更新。", "en": "Yes. It updates in seven to ten business days." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  }
+]

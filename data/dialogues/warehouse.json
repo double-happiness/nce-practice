@@ -1,0 +1,84 @@
+[
+  {
+    "id": "dlg-wh-01",
+    "category": "warehouse",
+    "title": "Costco Membership",
+    "titleCn": "办会员卡",
+    "scene": "你第一次去 Costco，在入口办会员。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "有会员卡吗？", "en": "Do you have a membership card?" },
+      { "role": "You", "cn": "没有，想办一张。", "en": "No. I'd like to sign up." },
+      { "role": "Clerk", "cn": "普通会员六十一年，高级一百二含返现。", "en": "Standard is sixty a year. Executive is a hundred twenty with cashback." },
+      { "role": "You", "cn": "普通版就行，今天能用吗？", "en": "Standard is fine. Can I shop today?" },
+      { "role": "Clerk", "cn": "付款后马上生效。", "en": "Yes, as soon as you pay." },
+      { "role": "You", "cn": "可以带朋友进来吗？", "en": "Can I bring a guest?" },
+      { "role": "Clerk", "cn": "可以，但结账要用您的卡。", "en": "Yes, but checkout must be on your card." }
+    ]
+  },
+  {
+    "id": "dlg-wh-02",
+    "category": "warehouse",
+    "title": "Sampling Food",
+    "titleCn": "试吃样品",
+    "scene": "你在仓储超市试吃样品并购买。",
+    "roles": ["You", "Sampler"],
+    "turns": [
+      { "role": "Sampler", "cn": "要尝尝新款能量棒吗？", "en": "Want to try our new energy bars?" },
+      { "role": "You", "cn": "好的，含坚果吗？", "en": "Sure. Do they contain nuts?" },
+      { "role": "Sampler", "cn": "含杏仁，成分表在这。", "en": "Yes, almonds. Here's the ingredient list." },
+      { "role": "You", "cn": "那我不能吃，家人过敏。", "en": "Then I can't. My family has allergies." },
+      { "role": "Sampler", "cn": "理解，那边有无坚果的饼干试吃。", "en": "Got it. There are nut-free cookies sampling over there." },
+      { "role": "You", "cn": "谢谢提醒。", "en": "Thanks for letting me know." }
+    ]
+  },
+  {
+    "id": "dlg-wh-03",
+    "category": "warehouse",
+    "title": "Bulk Shopping",
+    "titleCn": "大包装采购",
+    "scene": "你在买大包装日用品，向员工问路。",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "大桶洗衣液在哪？", "en": "Where's the bulk laundry detergent?" },
+      { "role": "Employee", "cn": "日用品区，过道十二尽头。", "en": "Household aisle twelve, at the back." },
+      { "role": "You", "cn": "厕纸有特价吗？", "en": "Is toilet paper on sale?" },
+      { "role": "Employee", "cn": "三十卷装减五块，本周有效。", "en": "The thirty-roll pack is five off this week." },
+      { "role": "You", "cn": "好，推车放不下了怎么办？", "en": "Okay. What if my cart is full?" },
+      { "role": "Employee", "cn": "可以开双车，或结账后放车里再逛。", "en": "You can take two carts, or check out and keep shopping." },
+      { "role": "You", "cn": "明白了，谢谢！", "en": "Got it. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-wh-04",
+    "category": "warehouse",
+    "title": "Gas Station at Costco",
+    "titleCn": "会员加油站",
+    "scene": "你在 Costco 加油站加油，排队较长。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "这队挺长的，但比外面便宜不少。", "en": "Long line, but it's way cheaper than outside." },
+      { "role": "You", "cn": "是啊，必须刷会员卡对吧？", "en": "Yeah. You need your membership card, right?" },
+      { "role": "Driver", "cn": "对，先刷卡再加油。", "en": "Right. Swipe first, then pump." },
+      { "role": "You", "cn": "你一般加多少？", "en": "How much do you usually fill up?" },
+      { "role": "Driver", "cn": "加满，这边每加仑能省二三十美分。", "en": "I fill up. You save twenty or thirty cents a gallon here." },
+      { "role": "You", "cn": "轮到我了，谢啦。", "en": "My turn. Thanks for the tip." }
+    ]
+  },
+  {
+    "id": "dlg-wh-05",
+    "category": "warehouse",
+    "title": "Return at Warehouse",
+    "titleCn": "仓储店退货",
+    "scene": "你在 Costco 退一个用了一周的电器。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "退什么？有会员卡吗？", "en": "What are you returning? Membership card?" },
+      { "role": "You", "cn": "这个搅拌机噪音太大，有收据。", "en": "This blender is too noisy. Here's the receipt." },
+      { "role": "Clerk", "cn": "Cosco政策可以退，全额退款。", "en": "Our policy allows it. Full refund." },
+      { "role": "You", "cn": "退到原卡吗？", "en": "Back to my original card?" },
+      { "role": "Clerk", "cn": "对，三到五个工作日。", "en": "Yes, in three to five business days." },
+      { "role": "You", "cn": "谢谢，服务真好。", "en": "Thanks. Great service." }
+    ]
+  }
+]

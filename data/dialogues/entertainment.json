@@ -83,5 +83,22 @@
       { "role": "You", "cn": "用我的，别开太多设备。", "en": "Use mine. Don't stream on too many devices." },
       { "role": "Roommate", "cn": "好，第一集开始了！", "en": "Okay. Episode one is starting!" }
     ]
+  },
+  {
+    "id": "dlg-fun-06",
+    "category": "entertainment",
+    "title": "Concert Tickets",
+    "titleCn": "演唱会门票",
+    "scene": "你在票务网站买演唱会票遇到问题。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "票务客服，请问订单号？", "en": "Ticketing support. Order number, please?" },
+      { "role": "You", "cn": "我付款成功了，但邮箱没收到电子票。", "en": "Payment went through, but I didn't get the e-tickets in my email." },
+      { "role": "Agent", "cn": "请核对垃圾邮件文件夹。", "en": "Please check your spam folder." },
+      { "role": "You", "cn": "看了，没有。能重新发送吗？", "en": "I did. Nothing there. Can you resend them?" },
+      { "role": "Agent", "cn": "已重发，也可在账户订单里下载。", "en": "I've resent them. You can also download from your order history." },
+      { "role": "You", "cn": "座位可以换到靠前吗？", "en": "Can I upgrade to seats closer to the stage?" },
+      { "role": "Agent", "cn": "需补差价，我帮您查余票。", "en": "That requires a price difference. Let me check availability." }
+    ]
   }
 ]

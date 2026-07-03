@@ -82,5 +82,22 @@
       { "role": "You", "cn": "谢谢，这是我的电话。", "en": "Thank you. Here's my number." },
       { "role": "Neighbor", "cn": "祝你好运，希望很快找到。", "en": "Good luck. I hope you find her soon." }
     ]
+  },
+  {
+    "id": "dlg-pet-06",
+    "category": "pet",
+    "title": "Pet Boarding",
+    "titleCn": "宠物寄养",
+    "scene": "你出差前把狗送到宠物酒店寄养。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "欢迎！狗狗叫什么名字？", "en": "Welcome! What's your dog's name?" },
+      { "role": "You", "cn": "叫Max，三天后我来接。", "en": "Max. I'll pick him up in three days." },
+      { "role": "Staff", "cn": "疫苗记录带来了吗？有特殊饮食吗？", "en": "Vaccination records? Any special diet?" },
+      { "role": "You", "cn": "记录在这，他对鸡肉过敏。", "en": "Here are the records. He's allergic to chicken." },
+      { "role": "Staff", "cn": "我们每天遛两次，可以发照片给您。", "en": "We walk twice daily and can send you photos." },
+      { "role": "You", "cn": "太好了，他怕打雷。", "en": "Great. He's scared of thunder." },
+      { "role": "Staff", "cn": "我们会安排安静房间，放心。", "en": "We'll put him in a quiet room. Don't worry." }
+    ]
   }
 ]
