@@ -1,0 +1,168 @@
+[
+  {
+    "id": "tf-b2-086",
+    "book": 2,
+    "lesson": 85,
+    "grammar": ["too...to", "enough...to"],
+    "cn": "他年纪并不算太大，学不会意大利语。",
+    "explanation": "not too old to learn 表\"并非太老而不能学\"；enough 的反面结构。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is not too old to learn Italian.", "He isn't too old to learn Italian.", "He was not too old to learn Italian.", "He wasn't too old to learn Italian."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he too old to learn Italian?", "Was he too old to learn Italian?"] },
+      { "kind": "negative", "prompt": "改为否定句（用 too…to 表\"太老而不能\"）", "answers": ["He is too old to learn Italian.", "He was too old to learn Italian."] },
+      { "kind": "wh", "prompt": "对「Italian」提问（问\"学什么\"）", "answers": ["What is he not too old to learn?", "What isn't he too old to learn?", "What was he not too old to learn?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-087",
+    "book": 2,
+    "lesson": 86,
+    "grammar": ["过去进行时", "一般过去时"],
+    "cn": "快艇失控时，游客们正在甲板上拍照。",
+    "explanation": "过去进行时 were taking photos 表背景；when 从句用一般过去时 went out of control。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The tourists were taking photos on deck when the speedboat went out of control.", "When the speedboat went out of control, the tourists were taking photos on deck.", "The tourists were taking pictures on deck when the speedboat went out of control."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Were the tourists taking photos…?）", "answers": ["Were the tourists taking photos on deck when the speedboat went out of control?", "Were the tourists taking pictures on deck when the speedboat went out of control?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The tourists were not taking photos on deck when the speedboat went out of control.", "The tourists weren't taking photos on deck when the speedboat went out of control."] },
+      { "kind": "wh", "prompt": "对「when the speedboat went out of control」提问（问\"何时在拍照\"）", "answers": ["When were the tourists taking photos on deck?", "When were the tourists taking pictures on deck?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-088",
+    "book": 2,
+    "lesson": 87,
+    "grammar": ["间接引语", "过去完成时"],
+    "cn": "他坚持说自己案发时正在剧院看戏。",
+    "explanation": "insist that + 过去完成进行时 had been watching；间接引语时态后移。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["He insisted, \"I was watching a play at the theatre at the time of the robbery.\"", "He insisted, \"I was at the theatre watching a play when the robbery happened.\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["He insisted that he had been watching a play at the theatre at the time of the robbery.", "He insisted that he had been at the theatre watching a play when the robbery happened.", "He insisted he had been watching a play at the theatre at the time of the robbery."] },
+      { "kind": "yesno", "prompt": "把间接引语改为一般疑问句（Did he insist…?）", "answers": ["Did he insist that he had been watching a play at the theatre at the time of the robbery?", "Did he insist he had been at the theatre watching a play when the robbery happened?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-089",
+    "book": 2,
+    "lesson": 88,
+    "grammar": ["过去完成时", "被动语态"],
+    "cn": "救援队赶到前，男孩们已被落石困住。",
+    "explanation": "过去完成时被动 had been trapped 表\"赶到之前的过去\"；by fallen rocks 表原因。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The boys had been trapped by fallen rocks before the rescue team arrived.", "Before the rescue team arrived, the boys had been trapped by fallen rocks.", "The boys had been trapped by falling rocks before the rescue team arrived."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the boys been trapped by fallen rocks before the rescue team arrived?", "Before the rescue team arrived, had the boys been trapped by fallen rocks?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The boys had not been trapped by fallen rocks before the rescue team arrived.", "The boys hadn't been trapped by fallen rocks before the rescue team arrived."] },
+      { "kind": "passive", "prompt": "改为主动语态", "answers": ["Fallen rocks had trapped the boys before the rescue team arrived.", "Falling rocks had trapped the boys before the rescue team arrived."] }
+    ]
+  },
+  {
+    "id": "tf-b2-090",
+    "book": 2,
+    "lesson": 89,
+    "grammar": ["间接引语", "一般过去时"],
+    "cn": "部长说他只是说错了话。",
+    "explanation": "say 转间接引语；made a slip of the tongue 表\"口误\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The minister said, \"I only made a slip of the tongue.\"", "The minister said, \"It was only a slip of the tongue.\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The minister said that he had only made a slip of the tongue.", "The minister said that it had only been a slip of the tongue.", "The minister said he had only made a slip of the tongue."] },
+      { "kind": "yesno", "prompt": "把间接引语改为一般疑问句（Did the minister say…?）", "answers": ["Did the minister say that he had only made a slip of the tongue?", "Did the minister say he had only made a slip of the tongue?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-091",
+    "book": 2,
+    "lesson": 90,
+    "grammar": ["现在完成时", "被动语态"],
+    "cn": "这条大鱼已经被切分处理了。",
+    "explanation": "现在完成时被动 has been cut up；already 强调已完成。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The huge fish has already been cut up and prepared.", "The enormous fish has already been cut up.", "The huge fish has been cut up and prepared already."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the huge fish already been cut up and prepared?", "Has the enormous fish already been cut up?", "Has the huge fish been cut up and prepared already?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The huge fish has not been cut up yet.", "The huge fish hasn't been cut up yet.", "The enormous fish has not been cut up yet.", "The enormous fish hasn't been cut up yet."] },
+      { "kind": "passive", "prompt": "改为主动语态", "answers": ["They have already cut up and prepared the huge fish.", "The staff have already cut up the enormous fish.", "They have cut up and prepared the huge fish already."] }
+    ]
+  },
+  {
+    "id": "tf-b2-092",
+    "book": 2,
+    "lesson": 91,
+    "grammar": ["一般过去时", "介词"],
+    "cn": "热气球在伦敦上空缓缓飘过。",
+    "explanation": "介词 over 表\"在……上空\"；drifted slowly 一般过去时。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The balloon drifted slowly over London.", "The hot-air balloon drifted slowly over London.", "The balloon moved slowly over London."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the balloon drift slowly over London?", "Did the hot-air balloon drift slowly over London?", "Did the balloon move slowly over London?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The balloon did not drift slowly over London.", "The balloon didn't drift slowly over London.", "The hot-air balloon did not drift slowly over London.", "The hot-air balloon didn't drift slowly over London."] },
+      { "kind": "wh", "prompt": "对「over London」提问（问\"在哪里飘过\"）", "answers": ["Where did the balloon drift slowly?", "Where did the hot-air balloon drift slowly?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-093",
+    "book": 2,
+    "lesson": 92,
+    "grammar": ["现在完成进行时", "现在完成时"],
+    "cn": "这名学生警察一直在认真巡查交通秩序。",
+    "explanation": "现在完成进行时 has been patrolling 表从过去持续到现在；carefully 修饰动词。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The student policeman has been patrolling the traffic carefully.", "The student police officer has been patrolling the traffic carefully.", "He has been patrolling the traffic carefully."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the student policeman been patrolling the traffic carefully?", "Has the student police officer been patrolling the traffic carefully?", "Has he been patrolling the traffic carefully?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The student policeman has not been patrolling the traffic carefully.", "The student policeman hasn't been patrolling the traffic carefully.", "He has not been patrolling the traffic carefully.", "He hasn't been patrolling the traffic carefully."] },
+      { "kind": "wh", "prompt": "对「the traffic」提问（问\"一直在巡查什么\"）", "answers": ["What has the student policeman been patrolling carefully?", "What has he been patrolling carefully?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-094",
+    "book": 2,
+    "lesson": 93,
+    "grammar": ["被动语态", "一般过去时"],
+    "cn": "自由女神像是在法国制造后运到美国组装的。",
+    "explanation": "一般过去时被动 was made / was assembled；and then 连接两个被动动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The Statue of Liberty was made in France and then assembled in America.", "The Statue of Liberty was made in France and then assembled in the United States.", "The statue was made in France and then assembled in America."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the Statue of Liberty made in France and then assembled in America?", "Was the Statue of Liberty made in France and then assembled in the United States?", "Was the statue made in France and then assembled in America?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The Statue of Liberty was not made in France and then assembled in America.", "The Statue of Liberty wasn't made in France and then assembled in America.", "The statue was not made in France and then assembled in America.", "The statue wasn't made in France and then assembled in America."] },
+      { "kind": "passive", "prompt": "改为主动语态", "answers": ["They made the Statue of Liberty in France and then assembled it in America.", "The French made the Statue of Liberty and then Americans assembled it."] }
+    ]
+  },
+  {
+    "id": "tf-b2-095",
+    "book": 2,
+    "lesson": 94,
+    "grammar": ["现在完成时", "现在完成进行时"],
+    "cn": "孩子们最近几个月进步很明显。",
+    "explanation": "现在完成时 have made progress 强调到现在为止的结果；in recent months 作时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The children have made obvious progress in recent months.", "The children have made clear progress in recent months.", "They have made obvious progress in recent months."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have the children made obvious progress in recent months?", "Have the children made clear progress in recent months?", "Have they made obvious progress in recent months?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The children have not made obvious progress in recent months.", "The children haven't made obvious progress in recent months.", "They have not made obvious progress in recent months.", "They haven't made obvious progress in recent months."] },
+      { "kind": "wh", "prompt": "对「in recent months」提问（问\"何时进步\"）", "answers": ["When have the children made obvious progress?", "When have they made obvious progress?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-096",
+    "book": 2,
+    "lesson": 95,
+    "grammar": ["条件句", "一般过去时"],
+    "cn": "如果我再熬夜，我就会做更奇怪的梦。",
+    "explanation": "第一类条件句 If + 一般现在时, will + 动词原形；stay up late 表熬夜。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["If I stay up late again, I will have stranger dreams.", "If I stay up late again, I will have even stranger dreams.", "If I stay up late again, I will have more strange dreams."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["If I stay up late again, will I have stranger dreams?", "Will I have stranger dreams if I stay up late again?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["If I stay up late again, I will not have stranger dreams.", "If I stay up late again, I won't have stranger dreams.", "If I stay up late again, I will not have even stranger dreams.", "If I stay up late again, I won't have even stranger dreams."] },
+      { "kind": "wh", "prompt": "对「stranger dreams」提问（问\"会做什么梦\"）", "answers": ["What will I have if I stay up late again?", "What kind of dreams will I have if I stay up late again?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-097",
+    "book": 2,
+    "lesson": 96,
+    "grammar": ["had better", "一般过去时"],
+    "cn": "我们最好不要把恐怖道具放在主路旁。",
+    "explanation": "had better not + 动词原形 表强烈建议\"最好不要\"；beside the main road 表位置。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["We had better not put scary props beside the main road.", "We had better not place scary decorations beside the main road.", "We'd better not put scary props beside the main road."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句（Had we better…?）", "answers": ["Had we better not put scary props beside the main road?", "Had we better not place scary decorations beside the main road?"] },
+      { "kind": "negative", "prompt": "改为肯定建议句（应该放在别处）", "answers": ["We had better put scary props away from the main road.", "We had better keep scary decorations away from the main road.", "We'd better put scary props away from the main road."] },
+      { "kind": "wh", "prompt": "对「beside the main road」提问（问\"最好不要放在哪里\"）", "answers": ["Where had we better not put scary props?", "Where had we better not place scary decorations?"] }
+    ]
+  }
+]
