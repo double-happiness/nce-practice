@@ -1,0 +1,87 @@
+[
+  {
+    "id": "tf-b2-020",
+    "book": 2,
+    "lesson": 13,
+    "grammar": ["一般将来时", "将来进行时"],
+    "cn": "少年合唱团下个月将在我们镇上演出。",
+    "explanation": "一般将来时 will 转换：疑问句 will 提前，否定句 will not（won't）。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用 will）", "answers": ["The Greenwood Boys Club will give a concert in our town next month.", "The boys' choir will give a concert in our town next month."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will the Greenwood Boys Club give a concert in our town next month?", "Will the boys' choir give a concert in our town next month?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The Greenwood Boys Club will not give a concert in our town next month.", "The Greenwood Boys Club won't give a concert in our town next month.", "The boys' choir will not give a concert in our town next month.", "The boys' choir won't give a concert in our town next month."] },
+      { "kind": "wh", "prompt": "对「in our town」提问（问地点）", "answers": ["Where will the Greenwood Boys Club give a concert next month?", "Where will the boys' choir give a concert next month?"] },
+      { "kind": "wh", "prompt": "对「next month」提问（问时间）", "answers": ["When will the Greenwood Boys Club give a concert in our town?", "When will the boys' choir give a concert in our town?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-021",
+    "book": 2,
+    "lesson": 18,
+    "grammar": ["过去完成时", "动名词"],
+    "cn": "我到的时候，他已经读完那本书了。",
+    "explanation": "过去完成时 had 提前构成疑问句；表示\"已经…\"用 had finished / had already finished。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He had already finished reading the book when I arrived.", "He had finished reading the book when I arrived."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Had he already finished reading the book when you arrived?", "Had he finished reading the book when you arrived?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He had not finished reading the book when I arrived.", "He hadn't finished reading the book when I arrived.", "He had not already finished reading the book when I arrived.", "He hadn't already finished reading the book when I arrived."] },
+      { "kind": "wh", "prompt": "对「reading the book」提问（问\"完成了什么\"）", "answers": ["What had he finished when you arrived?", "What had he already finished when you arrived?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-022",
+    "book": 2,
+    "lesson": 19,
+    "grammar": ["情态动词", "疑问句"],
+    "cn": "你必须提前订票。",
+    "explanation": "must 表必要：疑问句 Must you…?；mustn't 表禁止，与\"不必\"语义不同，本题否定用 need not 作参考答法可不练否定。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["You must book your tickets in advance.", "You must buy your tickets in advance."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Must you book your tickets in advance?", "Must you buy your tickets in advance?"] },
+      { "kind": "wh", "prompt": "对「your tickets」提问（问\"必须订什么\"）", "answers": ["What must you book in advance?", "What must you buy in advance?"] },
+      { "kind": "wh", "prompt": "对「in advance」提问（问\"必须何时订\"）", "answers": ["When must you book your tickets?", "When must you buy your tickets?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-023",
+    "book": 2,
+    "lesson": 20,
+    "grammar": ["动名词"],
+    "cn": "他喜欢独自坐在小船里。",
+    "explanation": "enjoy 后接动名词 doing；一般现在时借助 does 转换疑问/否定。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He enjoys sitting in a boat alone.", "He enjoys sitting alone in a boat."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he enjoy sitting in a boat alone?", "Does he enjoy sitting alone in a boat?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not enjoy sitting in a boat alone.", "He doesn't enjoy sitting in a boat alone.", "He does not enjoy sitting alone in a boat.", "He doesn't enjoy sitting alone in a boat."] },
+      { "kind": "wh", "prompt": "对「sitting in a boat alone」提问（问\"喜欢做什么\"）", "answers": ["What does he enjoy doing?", "What does he enjoy?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-024",
+    "book": 2,
+    "lesson": 22,
+    "grammar": ["现在完成时", "一般过去时"],
+    "cn": "他刚买了一栋新房子。",
+    "explanation": "现在完成时 has 提前构成疑问句；just 常与现在完成时连用。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He has just bought a new house.", "He's just bought a new house."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has he just bought a new house?", "Has he bought a new house?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He has not just bought a new house.", "He hasn't just bought a new house.", "He has not bought a new house yet.", "He hasn't bought a new house yet."] },
+      { "kind": "wh", "prompt": "对「a new house」提问（问\"买了什么\"）", "answers": ["What has he just bought?", "What has he bought?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-025",
+    "book": 2,
+    "lesson": 23,
+    "grammar": ["一般过去时", "被动语态"],
+    "cn": "他们去年建了这栋房子。",
+    "explanation": "主动转被动：宾语作主语 + was/were + 过去分词；施动者不重要时可省略 by them。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（主动语态）", "answers": ["They built this house last year.", "They built the house last year."] },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["This house was built last year.", "The house was built last year.", "This house was built by them last year.", "The house was built by them last year."] },
+      { "kind": "yesno", "prompt": "把被动句改为一般疑问句", "answers": ["Was this house built last year?", "Was the house built last year?"] },
+      { "kind": "wh", "prompt": "对「last year」提问（基于被动句，问时间）", "answers": ["When was this house built?", "When was the house built?"] }
+    ]
+  }
+]
