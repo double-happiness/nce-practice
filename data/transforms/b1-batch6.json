@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tf-b1-055",
+    "book": 1,
+    "lesson": 105,
+    "grammar": ["现在进行时"],
+    "cn": "你一边听音乐一边写作业。",
+    "explanation": "现在进行时 are doing 与 while listening 表同时进行的动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["You are doing your homework while listening to music.", "You're doing your homework while listening to music.", "You are listening to music while doing your homework.", "You're listening to music while doing your homework."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Are you doing…?）", "answers": ["Are you doing your homework while listening to music?", "Are you listening to music while doing your homework?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["You are not doing your homework while listening to music.", "You aren't doing your homework while listening to music.", "You're not doing your homework while listening to music."] },
+      { "kind": "wh", "prompt": "对「your homework」提问（问\"在做什么\"）", "answers": ["What are you doing while listening to music?", "What are you doing?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-056",
+    "book": 1,
+    "lesson": 107,
+    "grammar": ["形容词比较级", "一般过去时"],
+    "cn": "这件裙子太小了。",
+    "explanation": "too small 表\"太小\"；一般过去时 was too small。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This dress is too small.", "The dress is too small.", "This skirt is too small."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this dress too small?", "Is the dress too small?", "Is this skirt too small?"] },
+      { "kind": "negative", "prompt": "改为否定句（用 not…enough 表达相反意义）", "answers": ["This dress is not big enough.", "The dress is not big enough.", "This dress isn't big enough.", "The dress isn't big enough."] },
+      { "kind": "wh", "prompt": "对「too small」提问（问\"怎样\"）", "answers": ["How is this dress?", "What is wrong with this dress?", "What's wrong with this dress?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-057",
+    "book": 1,
+    "lesson": 109,
+    "grammar": ["一般将来时", "现在进行时"],
+    "cn": "我们打算去海边野餐。",
+    "explanation": "be going to have a picnic 表打算；at the seaside 表地点。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["We are going to have a picnic at the seaside.", "We're going to have a picnic at the seaside.", "We are going to have a picnic by the sea.", "We're going to have a picnic by the sea."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are we going to have a picnic at the seaside?", "Are we going to have a picnic by the sea?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["We are not going to have a picnic at the seaside.", "We aren't going to have a picnic at the seaside.", "We're not going to have a picnic at the seaside."] },
+      { "kind": "wh", "prompt": "对「at the seaside」提问（问\"在哪里野餐\"）", "answers": ["Where are we going to have a picnic?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-058",
+    "book": 1,
+    "lesson": 111,
+    "grammar": ["形容词最高级"],
+    "cn": "这是店里最昂贵的型号。",
+    "explanation": "最高级 the most expensive model；in the shop 表范围。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is the most expensive model in the shop.", "It is the most expensive model in the shop.", "It's the most expensive model in the shop."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this the most expensive model in the shop?", "Is it the most expensive model in the shop?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not the most expensive model in the shop.", "This isn't the most expensive model in the shop.", "It is not the most expensive model in the shop.", "It isn't the most expensive model in the shop."] },
+      { "kind": "wh", "prompt": "对「the most expensive model」提问（问\"是什么型号\"）", "answers": ["Which is the most expensive model in the shop?", "What is the most expensive model in the shop?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-059",
+    "book": 1,
+    "lesson": 113,
+    "grammar": ["some/any", "疑问句"],
+    "cn": "你有零钱吗？",
+    "explanation": "一般疑问句用 any change；have 表\"有\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Do you have any change?", "Have you got any change?"] },
+      { "kind": "yesno", "prompt": "改为陈述句（肯定）", "answers": ["You have some change.", "You have got some change.", "You've got some change."] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["You do not have any change.", "You don't have any change.", "You have not got any change.", "You haven't got any change."] },
+      { "kind": "wh", "prompt": "对「any change」提问（问\"有什么\"）", "answers": ["What do you have?", "What have you got?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-060",
+    "book": 1,
+    "lesson": 115,
+    "grammar": ["一般过去时", "be动词"],
+    "cn": "昨晚我听到了敲门声。",
+    "explanation": "一般过去时 heard；last night 作时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I heard a knock at the door last night.", "I heard someone knocking at the door last night."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did you hear a knock at the door last night?", "Did you hear someone knocking at the door last night?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I did not hear a knock at the door last night.", "I didn't hear a knock at the door last night.", "I did not hear anyone knocking at the door last night.", "I didn't hear anyone knocking at the door last night."] },
+      { "kind": "wh", "prompt": "对「last night」提问（问时间）", "answers": ["When did you hear a knock at the door?", "When did you hear someone knocking at the door?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-061",
+    "book": 1,
+    "lesson": 117,
+    "grammar": ["一般过去时", "be动词"],
+    "cn": "汤米早餐时把牛奶打翻了。",
+    "explanation": "一般过去时 spilled 表过去动作；at breakfast 作时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Tommy spilled the milk at breakfast.", "Tommy knocked over the milk at breakfast."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did Tommy spill the milk at breakfast?", "Did Tommy knock over the milk at breakfast?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Tommy did not spill the milk at breakfast.", "Tommy didn't spill the milk at breakfast.", "Tommy did not knock over the milk at breakfast.", "Tommy didn't knock over the milk at breakfast."] },
+      { "kind": "wh", "prompt": "对「the milk」提问（问\"打翻了什么\"）", "answers": ["What did Tommy spill at breakfast?", "What did Tommy knock over at breakfast?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-062",
+    "book": 1,
+    "lesson": 119,
+    "grammar": ["一般过去时", "be动词"],
+    "cn": "国王住在一座大宫殿里。",
+    "explanation": "一般过去时 lived 表过去状态；in a big palace 表地点。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The king lived in a big palace.", "The king lived in a large palace."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the king live in a big palace?", "Did the king live in a large palace?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The king did not live in a big palace.", "The king didn't live in a big palace.", "The king did not live in a large palace.", "The king didn't live in a large palace."] },
+      { "kind": "wh", "prompt": "对「in a big palace」提问（问\"住在哪里\"）", "answers": ["Where did the king live?", "Where did the king live in the story?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-063",
+    "book": 1,
+    "lesson": 121,
+    "grammar": ["过去进行时", "一般过去时"],
+    "cn": "一个戴帽子的男人一直在跟着我。",
+    "explanation": "过去进行时 was following 表当时持续进行的动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["A man in a hat was following me.", "The man in a hat was following me."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was a man in a hat following you?", "Was the man in a hat following you?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["A man in a hat was not following me.", "A man in a hat wasn't following me.", "The man in a hat was not following me.", "The man in a hat wasn't following me."] },
+      { "kind": "wh", "prompt": "对「A man in a hat」提问（问\"谁在跟着\"）", "answers": ["Who was following you?", "Who was following me?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-064",
+    "book": 1,
+    "lesson": 123,
+    "grammar": ["一般将来时", "动词不定式"],
+    "cn": "我们下个月将飞往澳大利亚。",
+    "explanation": "are going to fly 表计划；next month 作时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["We are going to fly to Australia next month.", "We're going to fly to Australia next month.", "We will fly to Australia next month.", "We'll fly to Australia next month."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are we going to fly to Australia next month?", "Will we fly to Australia next month?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["We are not going to fly to Australia next month.", "We aren't going to fly to Australia next month.", "We will not fly to Australia next month.", "We won't fly to Australia next month."] },
+      { "kind": "wh", "prompt": "对「next month」提问（问\"何时出发\"）", "answers": ["When are we going to fly to Australia?", "When will we fly to Australia?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-065",
+    "book": 1,
+    "lesson": 125,
+    "grammar": ["一般将来时", "some/any"],
+    "cn": "我去给你泡些茶。",
+    "explanation": "will make 表将要做的动作；some tea 用于肯定语境。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I will make some tea for you.", "I'll make some tea for you.", "I am going to make some tea for you.", "I'm going to make some tea for you."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will you make some tea for me?", "Are you going to make some tea for me?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I will not make any tea for you.", "I won't make any tea for you.", "I am not going to make any tea for you.", "I'm not going to make any tea for you."] },
+      { "kind": "wh", "prompt": "对「some tea」提问（问\"将泡什么\"）", "answers": ["What will you make for me?", "What are you going to make for me?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-066",
+    "book": 1,
+    "lesson": 127,
+    "grammar": ["现在完成时", "疑问句"],
+    "cn": "她去过很多国家。",
+    "explanation": "have been to 表经历；many countries 作宾语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She has been to many countries.", "She's been to many countries."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has she been to many countries?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She has not been to many countries.", "She hasn't been to many countries.", "She has never been to many countries."] },
+      { "kind": "wh", "prompt": "对「many countries」提问（问\"去过哪里\"）", "answers": ["Where has she been?", "How many countries has she been to?"] }
+    ]
+  }
+]

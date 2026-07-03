@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tf-b1-031",
+    "book": 1,
+    "lesson": 43,
+    "grammar": ["现在进行时", "疑问句"],
+    "cn": "他们正在找钥匙。",
+    "explanation": "现在进行时 are looking for 表正在进行的动作；look for 表\"寻找\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They are looking for the key.", "They're looking for the key.", "They are looking for their keys.", "They're looking for their keys."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are they looking for the key?", "Are they looking for their keys?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["They are not looking for the key.", "They aren't looking for the key.", "They're not looking for the key.", "They are not looking for their keys.", "They aren't looking for their keys."] },
+      { "kind": "wh", "prompt": "对「looking for the key」提问（问\"在做什么\"）", "answers": ["What are they doing?", "What are they looking for?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-032",
+    "book": 1,
+    "lesson": 45,
+    "grammar": ["物主代词", "名词所有格"],
+    "cn": "这是老板的信。",
+    "explanation": "名词所有格 the boss's 表所属；This is… 陈述句。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is the boss's letter.", "This is the boss's letter to me."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this the boss's letter?", "Is this the boss's letter to you?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not the boss's letter.", "This isn't the boss's letter."] },
+      { "kind": "wh", "prompt": "对「the boss's letter」提问（用 whose）", "answers": ["Whose letter is this?", "Whose is this letter?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-033",
+    "book": 1,
+    "lesson": 49,
+    "grammar": ["some/any", "可数不可数"],
+    "cn": "我想要一些牛肉。",
+    "explanation": "some 用于肯定句；beef 不可数名词不加 s。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I want some beef.", "I'd like some beef."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句（注意 some 的变化）", "answers": ["Do you want any beef?", "Would you like any beef?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I do not want any beef.", "I don't want any beef.", "I don't want beef."] },
+      { "kind": "wh", "prompt": "对「some beef」提问（问\"要什么\"）", "answers": ["What do you want?", "What would you like?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-034",
+    "book": 1,
+    "lesson": 51,
+    "grammar": ["一般现在时", "疑问句"],
+    "cn": "这里常常下雨。",
+    "explanation": "一般现在时表习惯/常态；often 频率副词；it 作无人称主语表天气。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["It often rains here.", "It rains here often."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does it often rain here?", "Does it rain here often?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["It does not often rain here.", "It doesn't often rain here.", "It does not rain here often.", "It doesn't rain here often."] },
+      { "kind": "wh", "prompt": "对「often」提问（问频率）", "answers": ["How often does it rain here?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-035",
+    "book": 1,
+    "lesson": 53,
+    "grammar": ["形容词比较级", "一般现在时"],
+    "cn": "夏天比春天更热。",
+    "explanation": "比较级 hotter than 表两者比较；一般现在时表客观事实。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Summer is hotter than spring."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is summer hotter than spring?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Summer is not hotter than spring.", "Summer isn't hotter than spring."] },
+      { "kind": "wh", "prompt": "对「hotter」提问（问\"哪个更热\"，用选择疑问）", "answers": ["Which is hotter, summer or spring?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-036",
+    "book": 1,
+    "lesson": 59,
+    "grammar": ["some/any", "可数不可数"],
+    "cn": "我还要一些奶酪。",
+    "explanation": "some 用于肯定句；cheese 不可数；I want 表想要。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I want some cheese, too.", "I want some more cheese.", "I'd like some cheese, too."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do you want any cheese, too?", "Do you want any more cheese?", "Would you like any cheese, too?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I do not want any cheese.", "I don't want any cheese.", "I don't want any more cheese."] },
+      { "kind": "wh", "prompt": "对「some cheese」提问（问\"还要什么\"）", "answers": ["What else do you want?", "What do you want, too?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-037",
+    "book": 1,
+    "lesson": 61,
+    "grammar": ["情态动词must", "现在进行时"],
+    "cn": "他必须卧床休息。",
+    "explanation": "must 表强烈义务\"必须\"；stay in bed 表卧床。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He must stay in bed.", "He must remain in bed."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Must he stay in bed?", "Must he remain in bed?"] },
+      { "kind": "negative", "prompt": "改为否定句（不必卧床）", "answers": ["He must not stay in bed.", "He mustn't stay in bed.", "He need not stay in bed.", "He needn't stay in bed."] },
+      { "kind": "wh", "prompt": "对「stay in bed」提问（问\"必须做什么\"）", "answers": ["What must he do?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-038",
+    "book": 1,
+    "lesson": 63,
+    "grammar": ["形容词比较级", "现在进行时"],
+    "cn": "她今天好多了。",
+    "explanation": "比较级 better 表\"比以前好\"；一般现在时 is better today。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is better today.", "She's better today.", "She is much better today.", "She's much better today."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she better today?", "Is she much better today?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not better today.", "She isn't better today.", "She is not much better today.", "She isn't much better today."] },
+      { "kind": "wh", "prompt": "对「today」提问（问\"何时好转\"）", "answers": ["When is she better?", "When is she much better?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-039",
+    "book": 1,
+    "lesson": 67,
+    "grammar": ["现在进行时"],
+    "cn": "我们这个周末要来客人。",
+    "explanation": "现在进行时表示已安排好的近期计划；are having guests。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["We are having guests this weekend.", "We're having guests this weekend.", "We are having visitors this weekend.", "We're having visitors this weekend."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are we having guests this weekend?", "Are we having visitors this weekend?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["We are not having guests this weekend.", "We aren't having guests this weekend.", "We're not having guests this weekend."] },
+      { "kind": "wh", "prompt": "对「this weekend」提问（问\"何时来客人\"）", "answers": ["When are we having guests?", "When are we having visitors?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-040",
+    "book": 1,
+    "lesson": 71,
+    "grammar": ["一般现在时", "频率副词"],
+    "cn": "他打电话很频繁。",
+    "explanation": "一般现在时表习惯；very often 频率副词；telephone/phone 作动词。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He telephones very often.", "He phones very often.", "He calls very often."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he telephone very often?", "Does he phone very often?", "Does he call very often?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not telephone very often.", "He doesn't telephone very often.", "He does not phone very often.", "He doesn't phone very often."] },
+      { "kind": "wh", "prompt": "对「very often」提问（问频率）", "answers": ["How often does he telephone?", "How often does he phone?", "How often does he call?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-041",
+    "book": 1,
+    "lesson": 73,
+    "grammar": ["祈使句", "介词"],
+    "cn": "向左转，然后一直往前走。",
+    "explanation": "祈使句 Turn left；go straight on 表直走；and then 连接动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Turn left and go straight on.", "Turn left and then go straight on.", "Turn left and go straight ahead."] },
+      { "kind": "yesno", "prompt": "改为礼貌请求句（Could you…?）", "answers": ["Could you turn left and go straight on?", "Could you turn left and then go straight on?"] },
+      { "kind": "negative", "prompt": "改为否定祈使句", "answers": ["Don't turn left.", "Do not turn left.", "Don't turn left and go straight on."] },
+      { "kind": "wh", "prompt": "对「left」提问（问\"向哪边转\"）", "answers": ["Which way should I turn?", "Where should I turn?"] }
+    ]
+  },
+  {
+    "id": "tf-b1-042",
+    "book": 1,
+    "lesson": 77,
+    "grammar": ["情态动词must"],
+    "cn": "你必须去看牙医。",
+    "explanation": "must 表强烈建议/义务；see a dentist 固定搭配。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["You must see a dentist.", "You must go to the dentist."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Must you see a dentist?", "Must you go to the dentist?"] },
+      { "kind": "negative", "prompt": "改为否定句（不必去）", "answers": ["You must not see a dentist.", "You mustn't see a dentist.", "You need not see a dentist.", "You needn't see a dentist.", "You need not go to the dentist.", "You needn't go to the dentist."] },
+      { "kind": "wh", "prompt": "对「see a dentist」提问（问\"必须做什么\"）", "answers": ["What must you do?", "What must you do about your toothache?"] }
+    ]
+  }
+]
