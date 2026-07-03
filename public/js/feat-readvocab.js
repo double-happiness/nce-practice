@@ -243,71 +243,49 @@
   }
 
   function renderSummary(panel, rep) {
-    const bandsHtml = rep.bands
-      .map((b) => {
-        const pct = b.total ? Math.round((b.est / b.total) * 100) : 0;
-        return (
-          '<div class="rsv-band">' +
-          `<div class="lab"><span>${esc(b.label)} · Lesson ${b.lessonMin}–${b.lessonMax}</span>` +
-          `<span>答对 ${b.correct}/${b.asked} → 约 ${b.est}/${b.total} 词</span></div>` +
-          `<div class="rsv-bar"><span style="width:${pct}%"></span></div>` +
-          '</div>'
-        );
-      })
-      .join('');
+    const ui = NCE.vocabTestUi;
+    const weakest = ui.findWeakestBand(rep.bands);
+    const weakestHintHtml = weakest
+      ? `<div class="vt-weakest-hint">${esc(ui.weakestBandHint(weakest))}</div>`
+      : '';
+    const bandsHtml = ui.renderBandsHtml(rep.bands, { bandClass: 'rsv-band', barClass: 'rsv-bar', esc });
 
     const missedHtml = st.missed.length
       ? '<div class="rsv-missed"><h4>❌ 不认识的词（' + st.missed.length + '）</h4><ul>' +
-        st.missed
-          .map(
-            (w) =>
-              `<li><span class="wd-spk rsv-spk" data-speak="${escAttr(w.word)}">🔊</span>` +
-              `<span class="w">${esc(w.word)}</span><span class="p">${esc(w.phon || '')}</span>` +
-              `<span class="c">${esc(w.pos || '')} ${esc(w.cn)}</span></li>`
-          )
-          .join('') +
+        st.missed.map((w) => ui.missedRowHtml(w, esc, escAttr, st.book)).join('') +
         '</ul>' +
-        '<div class="rsv-actions"><button class="rsv-btn" id="rsvStarAll">⭐ 全部加入生词本</button></div></div>'
+        '<div class="rsv-actions"><button class="rsv-btn" id="rsvStarAll">⭐ 全部加入生词本</button>' +
+        '<button class="rsv-btn" id="rsvFlashAll">🃏 背诵错词</button>' +
+        '<button class="rsv-btn" id="rsvSpellAll">✍️ 默写错词</button>' +
+        '<button class="rsv-btn primary" id="rsvReviewAll">📕 逐个复习错词</button>' +
+        '<span class="vt-miss-hint">或点每词旁 📕 / 📖</span></div></div>'
       : '';
 
     panel.innerHTML =
       '<div class="rsv-wrap"><div class="rsv-card">' +
       `<div class="rsv-sum-big">≈ ${rep.estimate} 词</div>` +
       `<div class="rsv-sum-sub">估算阅读词汇量（本册词表共 ${rep.dictTotal} 词 · 本次答对 ${rep.correct}/${rep.asked}）</div>` +
+      weakestHintHtml +
       bandsHtml +
       missedHtml +
       '<div class="vt-compare" id="rsvCompare"></div>' +
       '<div class="rsv-actions">' +
       '<button class="rsv-btn primary" id="rsvAgain">再测一次</button>' +
+      '<button class="rsv-btn" id="rsvTrend">📈 查看趋势</button>' +
       '<button class="rsv-btn" id="rsvBack">返回说明页</button>' +
       '</div>' +
       '<div class="rsv-note">估算方法：按课程先后分 3 段难度分层抽样，各段正确率剔除 4 选 1 的猜中基线（25%）后乘以该段词表总数求和。多测几次取平均更稳。</div>' +
       '</div></div>';
 
-    panel.querySelectorAll('.rsv-spk').forEach((s) => {
-      s.onclick = () => NCE.speak(s.dataset.speak);
+    ui.bindMissedActions(panel.querySelector('.rsv-missed'), st.book);
+    ui.bindMissedFooter(panel, {
+      missed: st.missed, book: st.book, starId: '#rsvStarAll', reviewId: '#rsvReviewAll',
+      flashId: '#rsvFlashAll', spellId: '#rsvSpellAll', returnTab: 'readvocab',
     });
     panel.querySelector('#rsvAgain').onclick = () => startTest(panel);
     panel.querySelector('#rsvBack').onclick = () => renderIntro(panel);
+    ui.bindTrendBtn(panel, '#rsvTrend', st.book);
     NCE.vocabTestUi.renderCompare(panel, st.book, 'read', '#15803d');
-    const starAll = panel.querySelector('#rsvStarAll');
-    if (starAll) {
-      starAll.onclick = async () => {
-        starAll.disabled = true;
-        try {
-          for (const w of st.missed) {
-            await post('/api/vocab/star', {
-              word: w.word, phon: w.phon, pos: w.pos, cn: w.cn, eg: w.eg,
-              book: Number(st.book), lesson: w.lesson,
-            });
-          }
-          NCE.toast(`⭐ 已把 ${st.missed.length} 个词加入生词本`, 'ok');
-          starAll.textContent = '✓ 已加入生词本';
-        } catch (e) {
-          starAll.disabled = false;
-        }
-      };
-    }
   }
 
   NCE.registerFeature({ id: 'readvocab', label: '阅读词汇量', icon: '📖', onShow });
