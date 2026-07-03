@@ -96,6 +96,21 @@ function speakSequence(list) {
     speechSynthesis.speak(u);
   });
 }
+// 顺序连读多句并在读完最后一句时回调（用于精读“朗读全文”，供按钮复位）
+function speakLines(lines, onEnd) {
+  if (!window.speechSynthesis) return;
+  speechSynthesis.cancel();
+  const items = (lines || []).map(enOnly).filter(Boolean);
+  if (!items.length) { if (onEnd) onEnd(); return; }
+  items.forEach((t, i) => {
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = 'en-GB';
+    if (VOICE) u.voice = VOICE;
+    u.rate = TTS_RATE * 0.95;
+    if (i === items.length - 1 && onEnd) u.onend = onEnd;
+    speechSynthesis.speak(u);
+  });
+}
 
 // ---------- 轻提示（toast，替代阻塞式 alert）----------
 function toast(msg, type) {
@@ -981,7 +996,11 @@ function renderPassage(en, cn) {
     .map((line) => `<div class="pl"><span class="spk" data-speak="${escapeAttr(line)}">🔊</span> ${wrapPassageWords(line)}</div>`)
     .join('');
   const cnBlock = cn ? `<div class="passage-cn">${escapeHtml(cn).replace(/\n+/g, '<br>')}</div>` : '';
-  return `<div class="passage">${body}</div>${cnBlock}`;
+  // 顶部“朗读全文”按钮：多句由 speakLines 顺序连读，再点切换为停止（见 renderArticleView 绑定）
+  const tools = lines.length
+    ? `<div class="passage-tools"><button type="button" class="btn ghost small read-passage" data-label="🔊 朗读全文">🔊 朗读全文</button></div>`
+    : '';
+  return `${tools}<div class="passage">${body}</div>${cnBlock}`;
 }
 
 // 原文录入编辑器（方案 B：内容由用户粘贴，存到项目内）
@@ -1031,7 +1050,23 @@ function renderArticleView(l, which) {
       renderTextEditor(l);
     }
   }
-  view.querySelectorAll('.spk').forEach((el) => { el.onclick = () => speak(el.dataset.speak); });
+  const readBtn = view.querySelector('.read-passage');
+  const resetRead = readBtn ? () => { readBtn.textContent = readBtn.dataset.label; } : () => {};
+  // 单句 🔊 会 cancel() 打断整段朗读，顺手把“朗读全文”按钮复位，避免卡在“停止”
+  view.querySelectorAll('.spk').forEach((el) => { el.onclick = () => { speak(el.dataset.speak); resetRead(); }; });
+  if (readBtn) {
+    readBtn.onclick = () => {
+      // 正在朗读 → 停止；否则从头顺序连读全篇，读完由 speakLines 回调复位
+      if (window.speechSynthesis && speechSynthesis.speaking) {
+        speechSynthesis.cancel();
+        resetRead();
+        return;
+      }
+      const lines = Array.from(view.querySelectorAll('.passage .pl .spk')).map((s) => s.dataset.speak);
+      readBtn.textContent = '⏹ 停止';
+      speakLines(lines, resetRead);
+    };
+  }
   bindPassageLookup(view, l.book);
   bindPassageWords(view, l.book);
 }

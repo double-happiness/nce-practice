@@ -786,6 +786,8 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
 .article-view { padding: 16px 18px; }
 .art-note { font-size: 13px; color: var(--muted, #6b7280); margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
 .art-empty { color: var(--muted, #6b7280); font-size: 14px; padding: 14px 0; }
+.passage-tools { margin-bottom: 8px; }
+.passage-tools .read-passage { display: inline-flex; align-items: center; gap: 4px; }
 .passage { display: flex; flex-direction: column; gap: 7px; }
 .passage .pl { font-size: 15px; line-height: 1.7; color: var(--ink, #1b2030); }
 .passage .pl .spk { cursor: pointer; opacity: .55; margin-right: 4px; }
