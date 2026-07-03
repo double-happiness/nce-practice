@@ -1,0 +1,288 @@
+[
+  {
+    "id": "b1-1-q1",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "___ me, is this your handbag?",
+    "options": [
+      "Excuse",
+      "Pardon",
+      "Sorry",
+      "Please"
+    ],
+    "answer": "Excuse",
+    "explanation": "引起对方注意说\"劳驾/打扰一下\"用 Excuse me；Pardon 用于没听清请对方重复；Sorry 用于道歉。"
+  },
+  {
+    "id": "b1-1-q2",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "— Is this your handbag? — ___? — Is this your handbag? — Yes, it is.",
+    "options": [
+      "Pardon",
+      "Excuse me",
+      "Please",
+      "Goodbye"
+    ],
+    "answer": "Pardon",
+    "explanation": "没听清对方的话，用 Pardon（= 请再说一遍）；Excuse me 用于开口前引起注意，不用于请求重复。"
+  },
+  {
+    "id": "b1-1-q3",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "疑问句",
+      "be动词"
+    ],
+    "type": "mcq",
+    "stem": "___ your handbag? — Yes, it is.",
+    "options": [
+      "Is this",
+      "This is",
+      "Are this",
+      "This be"
+    ],
+    "answer": "Is this",
+    "explanation": "一般疑问句要把 be 动词提到主语前：Is this...?；This is 是陈述句语序，不能用于提问。"
+  },
+  {
+    "id": "b1-1-q4",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "— Is this his pen? — Yes, it is ___ pen.",
+    "options": [
+      "his",
+      "he",
+      "him",
+      "she"
+    ],
+    "answer": "his",
+    "explanation": "名词 pen 前用形容词性物主代词 his（他的）；he 是主格，him 是宾格，都不能修饰名词。"
+  },
+  {
+    "id": "b1-1-f1",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "be动词"
+    ],
+    "type": "fill",
+    "stem": "This ___ (be) my handbag.",
+    "answer": "is",
+    "explanation": "主语 this 是单数第三人称，be 动词用 is。"
+  },
+  {
+    "id": "b1-1-q5",
+    "book": 1,
+    "lesson": 1,
+    "lessonTitle": "Excuse me!",
+    "grammar": [
+      "be动词",
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "Is this your pen? — No, it ___.",
+    "options": [
+      "isn't",
+      "is",
+      "aren't",
+      "not"
+    ],
+    "answer": "isn't",
+    "explanation": "一般疑问句的否定简答用 No, it isn't；主语 it 单数，不用 aren't。"
+  },
+  {
+    "id": "b1-13-q1",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "疑问句",
+      "be动词"
+    ],
+    "type": "mcq",
+    "stem": "— ___ is your new dress? — It's green.",
+    "options": [
+      "What colour",
+      "What",
+      "How",
+      "Who"
+    ],
+    "answer": "What colour",
+    "explanation": "回答是颜色（green），提问用 What colour；单独的 What 问\"是什么东西\"，How 问\"怎么样\"。"
+  },
+  {
+    "id": "b1-13-q2",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "be动词",
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "What colour ___ your new trousers? — They're grey.",
+    "options": [
+      "are",
+      "is",
+      "am",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "trousers（裤子）是复数名词，be 动词用 are，回答也用 They're。"
+  },
+  {
+    "id": "b1-13-q3",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ upstairs and see my new hat.",
+    "options": [
+      "Come",
+      "Comes",
+      "To come",
+      "Coming"
+    ],
+    "answer": "Come",
+    "explanation": "祈使句直接用动词原形开头：Come upstairs（上楼来）。"
+  },
+  {
+    "id": "b1-13-q4",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "That is a ___ hat!",
+    "options": [
+      "lovely",
+      "love",
+      "loves",
+      "loving"
+    ],
+    "answer": "lovely",
+    "explanation": "名词 hat 前用形容词修饰；lovely（漂亮的）虽然以 -ly 结尾，但它是形容词而不是副词。"
+  },
+  {
+    "id": "b1-13-f1",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "fill",
+    "stem": "Her dress and her hat are the ___ colour. (同样的)",
+    "answer": "same",
+    "explanation": "the same colour 表示\"同样的颜色\"，same 前面习惯加定冠词 the。"
+  },
+  {
+    "id": "b1-13-q5",
+    "book": 1,
+    "lesson": 13,
+    "lessonTitle": "A new dress",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "— Look at my new dress. What do you ___? — It's very smart!",
+    "options": [
+      "think",
+      "look",
+      "see",
+      "watch"
+    ],
+    "answer": "think",
+    "explanation": "What do you think? 问\"你觉得怎么样\"，征求对方看法；look/see/watch 都表示\"看\"，不合语境。"
+  },
+  {
+    "id": "b1-23-q1",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "this/that/these/those",
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "___ shoes here are mine.",
+    "options": [
+      "These",
+      "This",
+      "That",
+      "Those"
+    ],
+    "answer": "These",
+    "explanation": "here 表示近处，shoes 是复数名词，用 these；that/this 接单数，those 指远处。"
+  },
+  {
+    "id": "b1-23-f1",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "fill",
+    "stem": "There are two ___ (woman) in the shop.",
+    "answer": "women",
+    "explanation": "woman 的复数是不规则变化 women，不加 -s。"
+  },
+  {
+    "id": "b1-51-q1",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "It ___ rain very much in summer here.",
+    "options": [
+      "doesn't",
+      "don't",
+      "isn't",
+      "not"
+    ],
+    "answer": "doesn't",
+    "explanation": "一般现在时否定句，主语 it 是第三人称单数，用 doesn't + 动词原形 rain；isn't 后面不能接动词原形。"
+  },
+  {
+    "id": "b1-51-f1",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "一般现在时",
+      "疑问句"
+    ],
+    "type": "fill",
+    "stem": "— What's the climate ___ in your country? — It's mild. (介词)",
+    "answer": "like",
+    "explanation": "What is ... like? 是询问\"……怎么样\"的固定句型，like 是介词放在句尾。"
+  }
+]
