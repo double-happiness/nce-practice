@@ -69,7 +69,7 @@
     wrap.innerHTML =
       '<div class="srv-head"><h2>🔁 间隔复习</h2>' +
       `<span class="srv-stat">今日待复习 ${stats.due} 题 · 队列共 ${stats.total} 题</span></div>` +
-      '<div class="srv-note">做题时答错的题会被自动加入复习队列，并按<b>艾宾浩斯遗忘曲线</b>在 1 / 2 / 4 / 7 / 15 天后重新出现；每答对一次间隔就拉长，答错则重头再来。' +
+      '<div class="srv-note">做题答错的题、句型转换答错的步骤会被自动加入复习队列，并按<b>艾宾浩斯遗忘曲线</b>在 1 / 2 / 4 / 7 / 15 天后重新出现；每答对一次间隔就拉长，答错则重头再来。' +
       (stats.upcoming ? `<br>未来 7 天内还有 ${stats.upcoming} 题即将到期。` : '') +
       '</div>';
 

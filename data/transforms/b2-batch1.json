@@ -1,0 +1,90 @@
+[
+  {
+    "id": "tf-b2-001",
+    "book": 2,
+    "lesson": 3,
+    "grammar": ["一般过去时"],
+    "cn": "他上周买了一辆新车。",
+    "explanation": "一般过去时疑问/否定借助 did，动词还原原形（bought → buy）。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He bought a new car last week."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he buy a new car last week?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not buy a new car last week.", "He didn't buy a new car last week."] },
+      { "kind": "wh", "prompt": "对「a new car」提问（问\"买了什么\"）", "answers": ["What did he buy last week?"] },
+      { "kind": "wh", "prompt": "对「last week」提问（问时间）", "answers": ["When did he buy a new car?", "When did he buy the new car?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-002",
+    "book": 2,
+    "lesson": 4,
+    "grammar": ["现在完成时"],
+    "cn": "她已经完成了作业。",
+    "explanation": "现在完成时转换只动 has：疑问句 has 提前，否定句 has 后加 not。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She has finished her homework.", "She's finished her homework.", "She has already finished her homework."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has she finished her homework?", "Has she finished her homework yet?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She has not finished her homework.", "She hasn't finished her homework.", "She has not finished her homework yet.", "She hasn't finished her homework yet."] },
+      { "kind": "wh", "prompt": "对「her homework」提问（问\"完成了什么\"）", "answers": ["What has she finished?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-003",
+    "book": 2,
+    "lesson": 7,
+    "grammar": ["过去进行时"],
+    "cn": "他当时正在看一份报纸。",
+    "explanation": "过去进行时转换只动 was；\"当时在做什么\"用 What was he doing?",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He was reading a newspaper.", "He was reading a newspaper at that time.", "He was reading a newspaper then."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was he reading a newspaper?", "Was he reading a newspaper at that time?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He was not reading a newspaper.", "He wasn't reading a newspaper."] },
+      { "kind": "wh", "prompt": "对「reading a newspaper」提问（问\"当时在做什么\"）", "answers": ["What was he doing?", "What was he doing at that time?", "What was he doing then?"] },
+      { "kind": "wh", "prompt": "对「a newspaper」提问（问\"在看什么\"）", "answers": ["What was he reading?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-004",
+    "book": 2,
+    "lesson": 11,
+    "grammar": ["现在完成时"],
+    "cn": "他去过巴黎。",
+    "explanation": "have/has been to 表示\"去过\"；对地点提问用 Where has he been?",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He has been to Paris.", "He's been to Paris."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has he been to Paris?", "Has he ever been to Paris?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He has not been to Paris.", "He hasn't been to Paris.", "He has never been to Paris."] },
+      { "kind": "wh", "prompt": "对「Paris」提问（问地点）", "answers": ["Where has he been?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-005",
+    "book": 2,
+    "lesson": 12,
+    "grammar": ["一般将来时"],
+    "cn": "她明天将参加会议。",
+    "explanation": "will 转换不借助 do：疑问句 will 提前，否定句 will not（won't）。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用 will）", "answers": ["She will attend the meeting tomorrow.", "She'll attend the meeting tomorrow."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will she attend the meeting tomorrow?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She will not attend the meeting tomorrow.", "She won't attend the meeting tomorrow."] },
+      { "kind": "wh", "prompt": "对「the meeting」提问（问\"参加什么\"）", "answers": ["What will she attend tomorrow?"] },
+      { "kind": "wh", "prompt": "对「tomorrow」提问（问时间）", "answers": ["When will she attend the meeting?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-006",
+    "book": 2,
+    "lesson": 10,
+    "grammar": ["被动语态"],
+    "cn": "这座桥建于 1960 年。",
+    "explanation": "被动语态转换只动 be（was）；问时间 When was the bridge built?，对主语提问用 What。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用被动语态）", "answers": ["The bridge was built in 1960."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the bridge built in 1960?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The bridge was not built in 1960.", "The bridge wasn't built in 1960."] },
+      { "kind": "wh", "prompt": "对「in 1960」提问（问时间）", "answers": ["When was the bridge built?"] },
+      { "kind": "wh", "prompt": "对「The bridge」提问（问\"什么被建\"）", "answers": ["What was built in 1960?"] }
+    ]
+  }
+]

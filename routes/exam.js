@@ -5,17 +5,13 @@ const express = require('express');
 const data = require('../lib/data');
 const progress = require('../lib/progress');
 const profile = require('../lib/profile');
+const { isCorrect } = require('../lib/grade');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 
 const router = express.Router();
 
 // ---- 工具 ----
 const stripAnswer = data.publicQuestion; // 去答案 + 打乱选项
-function isCorrect(q, resp) {
-  if (resp == null) return false;
-  const n = (s) => String(s).trim().toLowerCase();
-  return Array.isArray(q.answer) ? q.answer.some((a) => n(a) === n(resp)) : n(q.answer) === n(resp);
-}
 // 洗牌（Fisher-Yates）
 function shuffle(arr) {
   const a = arr.slice();

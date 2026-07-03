@@ -4,13 +4,23 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const data = require('./lib/data');
+const profile = require('./lib/profile');
 const progress = require('./lib/progress');
+const { isCorrect } = require('./lib/grade');
+const { snapshotDaily } = require('./lib/snapshot');
 const { validate } = require('./scripts/validate');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+// 默认 100kb 会拒收较大的备份导入（学习记录多了以后 nce-backup-*.json 很容易超）
+app.use(express.json({ limit: '10mb' }));
+// 把当前档案 id 下发给前端（cookie 可在脚本里同步读取），
+// 供 public/js/profile-store.js 给 localStorage key 加档案前缀
+app.use((req, res, next) => {
+  res.setHeader('Set-Cookie', `nce_pid=${encodeURIComponent(profile.currentId())}; Path=/; SameSite=Lax`);
+  next();
+});
 app.use(express.static(path.join(__dirname, 'public')));
 
 // 浏览器会自动请求 favicon，未提供时避免 404 噪音
@@ -26,12 +36,6 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
-}
-function isCorrect(q, response) {
-  if (response == null) return false;
-  const norm = (s) => String(s).trim().toLowerCase();
-  if (Array.isArray(q.answer)) return q.answer.some((a) => norm(a) === norm(response));
-  return norm(q.answer) === norm(response);
 }
 
 // ---- 元数据 ----
@@ -93,6 +97,9 @@ app.get('/api/questions', (req, res) => {
   if (lessonMax) list = list.filter((q) => q.lesson <= Number(lessonMax));
   if (grammar) list = list.filter((q) => (q.grammar || []).includes(grammar));
   if (type) list = list.filter((q) => q.type === type);
+
+  // countOnly=1：只要题量不要题目（出题设置页实时显示可用题数用，避免全量传输）
+  if (req.query.countOnly === '1') return res.json({ count: list.length });
 
   if (req.query.random === '1' || req.query.random === 'true') list = shuffle(list);
   const limit = Number(req.query.limit) || list.length;
@@ -186,8 +193,23 @@ if (fs.existsSync(routesDir)) {
   }
 }
 
+// ---- API 兜底：未知接口返回 JSON 404；路由抛异常返回 JSON 500 ----
+// （Express 默认返回 HTML 错误页，前端 api() 解析不了、只能显示笼统的状态码）
+app.use('/api', (req, res) => res.status(404).json({ error: `接口不存在：${req.method} /api${req.path}` }));
+app.use((err, req, res, next) => {
+  if (err && err.type === 'entity.too.large') {
+    return res.status(413).json({ error: '请求体过大（上限 10MB）' });
+  }
+  console.error('未捕获的路由错误:', err);
+  res.status(500).json({ error: '服务器内部错误，详情见服务端日志' });
+});
+
 app.listen(PORT, () => {
   data.reload();
+  // 学习数据每日滚动快照（保留 7 份），长期不重启的进程由定时器兜底
+  const snap = snapshotDaily();
+  if (snap) console.log('已创建学习数据每日快照:', path.relative(__dirname, snap));
+  setInterval(snapshotDaily, 6 * 3600 * 1000).unref();
   const { errors, warnings } = validate();
   console.log(`新概念英语练习系统: http://localhost:${PORT}`);
   console.log(`题库 ${data.getQuestions().length} 题 · 课程 ${data.getLessons().length} 课`);

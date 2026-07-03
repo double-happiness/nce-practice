@@ -65,10 +65,16 @@ function computeStreak(byDate, now) {
   return streak;
 }
 
+// 句型转换训练的步骤记录（{ts, correct} 结构与刷题 attempts 兼容），一并计入每日训练量
+function loadTransformAttempts() {
+  const obj = readJSON(profile.file('transforms.json'), null);
+  return obj && Array.isArray(obj.attempts) ? obj.attempts : [];
+}
+
 // GET /plan/overview
 router.get('/plan/overview', (req, res) => {
   const p = progress.load();
-  const attempts = Array.isArray(p.attempts) ? p.attempts : [];
+  const attempts = (Array.isArray(p.attempts) ? p.attempts : []).concat(loadTransformAttempts());
   const byDate = groupByDate(attempts);
   const now = Date.now();
   const goal = loadGoal();

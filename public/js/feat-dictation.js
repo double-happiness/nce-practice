@@ -2,14 +2,68 @@
 'use strict';
 
 (function () {
+  // ---------- 纯函数：分词 / 逐词批改（放在 NCE 守卫之前，Node 可 require 做单测）----------
+  function tokenize(s) {
+    return String(s == null ? '' : s)
+      .toLowerCase()
+      .replace(/[‘’ʼ]/g, "'") // 弯撇号 → 直撇号：听写打出 don’t 与 don't 等价
+      .replace(/[^a-z0-9\s']/g, ' ') // 仅保留字母/数字/撇号
+      .replace(/\s+/g, ' ')
+      .trim()
+      .split(' ')
+      .filter(Boolean);
+  }
+
+  // 逐词批改：先用最长公共子序列（LCS）对齐两边的词序列，
+  // 漏听/多打一个词只算错那一处，不会让后面整句错位全标红。
+  // 返回 { rate, cells:[{word, ok}], total, correct }，cells 基于标准答案的每个词。
+  function compare(standard, user) {
+    var std = tokenize(standard);
+    var usr = tokenize(user);
+    var n = std.length;
+    var m = usr.length;
+    // dp[i][j] = std[i:] 与 usr[j:] 的 LCS 长度（句子都很短，O(n·m) 足够）
+    var dp = [];
+    for (var r = 0; r <= n; r++) dp.push(new Array(m + 1).fill(0));
+    for (var i = n - 1; i >= 0; i--) {
+      for (var j = m - 1; j >= 0; j--) {
+        dp[i][j] = std[i] === usr[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+      }
+    }
+    // 回溯出对齐结果：std 中被匹配到的词记为正确
+    var ok = new Array(n).fill(false);
+    var a = 0;
+    var b = 0;
+    while (a < n && b < m) {
+      if (std[a] === usr[b]) { ok[a] = true; a++; b++; }
+      else if (dp[a + 1][b] >= dp[a][b + 1]) a++;
+      else b++;
+    }
+    var cells = [];
+    var correct = 0;
+    for (var k = 0; k < n; k++) {
+      if (ok[k]) correct++;
+      cells.push({ word: std[k], ok: ok[k] });
+    }
+    var rate = n ? Math.round((correct / n) * 100) : 0;
+    return { rate: rate, cells: cells, total: n, correct: correct };
+  }
+
+  // 导出纯函数以便测试（不影响浏览器运行）
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { tokenize: tokenize, compare: compare };
+  }
+  if (typeof window === 'undefined') return; // Node 单测环境：只导出纯函数
+
   if (!window.NCE || !NCE.registerFeature) {
     console.error('[dictation] NCE 未就绪，模块未加载');
     return;
   }
 
+  // 成绩/断点存 NCEStore（按档案隔离、服务器同步）
   var LS_BEST = 'dct-best'; // 历史最好平均正确率（数字）
-  var LS_LAST = 'dct-last'; // 最近一次成绩（JSON）
-  var LS_POS = 'dct-pos'; // 每课上次听写到第几句（JSON: { lesson: idx }）
+  var LS_LAST = 'dct-last'; // 最近一次成绩（对象）
+  var LS_POS = 'dct-pos'; // 每课上次听写到第几句（{ lesson: idx }）
 
   // ---------- 样式（全部 dct- 前缀，避免与全局冲突）----------
   function injectStyle() {
@@ -50,48 +104,14 @@
     document.head.appendChild(st);
   }
 
-  // ---------- 纯函数：分词（小写、去标点、去多余空格，保留撇号用于缩写）----------
-  function tokenize(s) {
-    return String(s == null ? '' : s)
-      .toLowerCase()
-      .replace(/[^a-z0-9\s']/g, ' ') // 仅保留字母/数字/撇号
-      .replace(/\s+/g, ' ')
-      .trim()
-      .split(' ')
-      .filter(Boolean);
-  }
-
-  // 逐位比对：返回 { rate, cells:[{word, ok}] }，cells 基于标准答案的每个词
-  function compare(standard, user) {
-    var std = tokenize(standard);
-    var usr = tokenize(user);
-    var cells = [];
-    var correct = 0;
-    for (var i = 0; i < std.length; i++) {
-      var ok = usr[i] === std[i];
-      if (ok) correct++;
-      cells.push({ word: std[i], ok: ok });
-    }
-    var rate = std.length ? Math.round((correct / std.length) * 100) : 0;
-    return { rate: rate, cells: cells, total: std.length, correct: correct };
-  }
-
-  // 导出纯函数以便测试（不影响浏览器运行）
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { tokenize: tokenize, compare: compare };
-  }
-
-  // ---------- localStorage 读写 ----------
+  // ---------- NCEStore 读取（旧版存的是字符串，这里做一次类型兜底）----------
   function readNum(key) {
-    var v = parseFloat(localStorage.getItem(key));
+    var v = parseFloat(NCEStore.get(key));
     return isNaN(v) ? null : v;
   }
   function readJSON(key) {
-    try {
-      return JSON.parse(localStorage.getItem(key));
-    } catch (e) {
-      return null;
-    }
+    var v = NCEStore.get(key);
+    return v === undefined ? null : v;
   }
 
   // ---------- 主流程 ----------
@@ -252,11 +272,9 @@
     return readJSON(LS_POS) || {};
   }
   function savePosFor(lesson, idx) {
-    try {
-      var m = loadPosMap();
-      m[lesson] = idx;
-      localStorage.setItem(LS_POS, JSON.stringify(m));
-    } catch (e) { /* 隐私模式下 localStorage 可能不可用 */ }
+    var m = loadPosMap();
+    m[lesson] = idx;
+    NCEStore.set(LS_POS, m);
   }
 
   // ---------- 单次听写会话 ----------
@@ -413,13 +431,9 @@
         lesson: lesson,
         date: new Date().toLocaleString('zh-CN'),
       };
-      try {
-        localStorage.setItem(LS_LAST, JSON.stringify(rec));
-        var best = readNum(LS_BEST);
-        if (best == null || avg > best) localStorage.setItem(LS_BEST, String(avg));
-      } catch (e) {
-        console.warn('[dictation] localStorage 写入失败', e);
-      }
+      NCEStore.set(LS_LAST, rec);
+      var best = readNum(LS_BEST);
+      if (best == null || avg > best) NCEStore.set(LS_BEST, avg);
 
       stage.innerHTML = '';
       var card = document.createElement('div');

@@ -66,6 +66,7 @@
       cell(info.words, info.words && info.words.states, '单词掌握数') +
       cell(info.srs, info.srs && info.srs.items, '错题复习数') +
       cell(info.plan, info.plan && info.plan.exists ? '已设置' : '—', '学习计划') +
+      cell(info.transforms, info.transforms && info.transforms.attempts, '句型转换步数') +
       '</ul>';
   }
 
@@ -126,8 +127,10 @@
         if (!r || !r.ok) throw new Error((r && r.error) || '导入失败');
         const list = (r.restored || []).join('、') || '（无）';
         msg.className = 'bk-msg ok';
-        msg.textContent = `✓ 已恢复：${list}。建议刷新页面以加载最新数据。`;
+        msg.textContent = `✓ 已恢复：${list}。页面即将自动刷新以加载最新数据…`;
         renderInfo(infoBox);
+        // 页面内存中的学习状态（NCEStore 缓存等）已是旧值，刷新一次全部对齐
+        setTimeout(() => location.reload(), 1500);
       } catch (e) {
         msg.className = 'bk-msg bad';
         msg.textContent = '✗ 导入失败：' + (e.message || e);

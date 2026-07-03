@@ -2,6 +2,9 @@
 node_modules/
 
 # 运行时用户数据（个人学习记录，不入库）
+# 档案系统上线后全部存 data/profiles/<档案id>/，含档案元信息 profiles.json
+data/profiles/
+# 档案迁移前的旧路径（首次启动 ensureInit 会把这些迁入 data/profiles/default/）
 data/progress.json
 data/srs.json
 data/vocab.json
@@ -9,8 +12,10 @@ data/plan.json
 data/words.json
 data/exams.json
 data/*.tmp.*
-data/profiles/.trash/
 
 # 系统/日志
 .DS_Store
 *.log
+
+# 学习数据每日滚动快照（运行时生成）
+data/backups/

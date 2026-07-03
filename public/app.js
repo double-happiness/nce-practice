@@ -13,7 +13,36 @@ const state = {
 };
 
 const $ = (id) => document.getElementById(id);
-const api = (url, opts) => fetch(url, opts).then((r) => r.json());
+
+// 统一请求出口：网络失败 / 服务端报错时 toast 提示（否则界面会静默失败）。
+// 调用方仍会收到 reject，需要兜底值的地方照常用 .catch(() => fallback)。
+let lastApiToast = { msg: '', ts: 0 };
+async function api(url, opts) {
+  let r;
+  try {
+    r = await fetch(url, opts);
+  } catch (e) {
+    apiErrorToast('网络请求失败，请确认服务是否在运行');
+    throw e;
+  }
+  if (!r.ok) {
+    let msg = `请求失败（${r.status}）`;
+    try {
+      const j = await r.json();
+      if (j && j.error) msg = j.error;
+    } catch (e) { /* 非 JSON 响应，用默认文案 */ }
+    apiErrorToast(msg);
+    throw new Error(msg);
+  }
+  return r.json();
+}
+// 同一错误 3 秒内只弹一次（首页并发 3 个请求失败时不连弹 3 条）
+function apiErrorToast(msg) {
+  const now = Date.now();
+  if (msg === lastApiToast.msg && now - lastApiToast.ts < 3000) return;
+  lastApiToast = { msg, ts: now };
+  toast(msg, 'bad');
+}
 
 // ---------- 语音朗读（浏览器内置 TTS，优先英音）----------
 let VOICE = null;
@@ -88,6 +117,7 @@ function toast(msg, type) {
 
 // ---------- 初始化 ----------
 async function init() {
+  await NCEStore.ready; // 学习状态（最近课/已学/已掌握等）加载完再渲染，避免读到空值
   state.meta = await api('/api/meta');
   renderBookChips();
   renderUnitChips();
@@ -177,6 +207,29 @@ function setupTabs() {
   });
 }
 
+// ---------- Hash 路由：地址栏记录当前标签页，刷新/分享链接后不回到首页 ----------
+function applyHashTab() {
+  const id = decodeURIComponent((location.hash || '').replace(/^#/, ''));
+  if (!id) return;
+  const sub = document.querySelector(`.subtab[data-tab="${id}"]`);
+  if (sub) {
+    const hostPanel = $('feat-' + sub.dataset.host);
+    if (!sub.classList.contains('active') || (hostPanel && hostPanel.classList.contains('hidden'))) gotoTab(id);
+    return;
+  }
+  const tab = document.querySelector(`.tab[data-tab="${id}"]`);
+  if (tab && !tab.classList.contains('active')) tab.click();
+}
+// 点击任意标签/子页时同步 hash（事件委托，覆盖 registerFeature 动态创建的标签）
+document.addEventListener('click', (e) => {
+  const el = e.target.closest('.tab, .subtab');
+  if (!el || !el.dataset.tab) return;
+  if (location.hash !== '#' + el.dataset.tab) history.replaceState(null, '', '#' + el.dataset.tab);
+});
+window.addEventListener('hashchange', applyHashTab);
+// 等所有 feat-*.js 注册完标签后再按 hash 恢复
+document.addEventListener('DOMContentLoaded', applyHashTab);
+
 // 跳转到任意标签页（含合并标签的子页）
 function gotoTab(id) {
   const sub = document.querySelector(`.subtab[data-tab="${id}"]`);
@@ -198,7 +251,7 @@ function hideAll() {
 const FEATURES = [];
 // 标签分组：id → 组名（学/练/复习/我的）；未列出的默认追加到「我的」组
 const TAB_GROUP_OF = {
-  dictation: 'practice', exam: 'practice',
+  dictation: 'practice', exam: 'practice', transform: 'practice',
   review: 'review', wordhub: 'review',
   stats: 'mine', plan: 'mine', backup: 'mine',
 };
@@ -324,7 +377,7 @@ function showHome() {
 }
 
 function loadLastLesson() {
-  try { return JSON.parse(localStorage.getItem('nce-last-lesson') || 'null'); } catch (e) { return null; }
+  return NCEStore.get('nce-last-lesson') || null;
 }
 
 async function renderHome() {
@@ -427,28 +480,26 @@ function renderLearnBookChips() {
   });
 }
 
-// 已学课程记录（localStorage），用于目录里的 ✓ 标记
+// 已学课程记录（NCEStore，按档案隔离、服务器同步），用于目录里的 ✓ 标记
 function loadViewedLessons() {
-  try { return new Set(JSON.parse(localStorage.getItem('nce-viewed-lessons') || '[]')); } catch (e) { return new Set(); }
+  return new Set(NCEStore.get('nce-viewed-lessons') || []);
 }
 function markLessonViewed(book, lesson) {
-  try {
-    const s = loadViewedLessons();
-    s.add(`${book}-${lesson}`);
-    localStorage.setItem('nce-viewed-lessons', JSON.stringify([...s]));
-  } catch (e) { /* 隐私模式下 localStorage 可能不可用 */ }
+  const s = loadViewedLessons();
+  s.add(`${book}-${lesson}`);
+  NCEStore.set('nce-viewed-lessons', [...s]);
 }
 
-// 已掌握课程（手动打标，localStorage），目录里显示 ★
+// 已掌握课程（手动打标，NCEStore），目录里显示 ★
 function loadMasteredLessons() {
-  try { return new Set(JSON.parse(localStorage.getItem('nce-mastered-lessons') || '[]')); } catch (e) { return new Set(); }
+  return new Set(NCEStore.get('nce-mastered-lessons') || []);
 }
 function toggleLessonMastered(book, lesson) {
   const key = `${book}-${lesson}`;
   const s = loadMasteredLessons();
   const on = !s.has(key);
   if (on) s.add(key); else s.delete(key);
-  try { localStorage.setItem('nce-mastered-lessons', JSON.stringify([...s])); } catch (e) { /* ignore */ }
+  NCEStore.set('nce-mastered-lessons', [...s]);
   return on;
 }
 
@@ -632,19 +683,21 @@ function bindArticle(l) {
 }
 
 async function openLesson(book, lesson) {
-  const [l, starsRes, textRes] = await Promise.all([
-    api(`/api/lesson/${book}/${lesson}`),
-    api('/api/vocab/stars').catch(() => ({ words: [] })),
-    api(`/api/lesson-text/${book}/${lesson}`).catch(() => ({ text: null })),
-  ]);
-  if (l.error) { toast(l.error, 'bad'); return; }
+  let l, starsRes, textRes;
+  try {
+    [l, starsRes, textRes] = await Promise.all([
+      api(`/api/lesson/${book}/${lesson}`),
+      api('/api/vocab/stars').catch(() => ({ words: [] })),
+      api(`/api/lesson-text/${book}/${lesson}`).catch(() => ({ text: null })),
+    ]);
+  } catch (e) {
+    return; // api() 已 toast 具体错误（如「该课程尚未收录」）
+  }
   state.currentLesson = l;
   state.currentLessonText = (textRes && textRes.text) || null;
   state.vocabStars = new Set((starsRes.words || []).map((w) => w.word));
   // 记录最近学习的课，供首页「继续学习」使用
-  try {
-    localStorage.setItem('nce-last-lesson', JSON.stringify({ book: l.book, lesson: l.lesson, title: l.title, titleCn: l.titleCn }));
-  } catch (e) { /* 隐私模式下 localStorage 可能不可用 */ }
+  NCEStore.set('nce-last-lesson', { book: l.book, lesson: l.lesson, title: l.title, titleCn: l.titleCn });
 
   const words = (l.words || []).map((w) => {
     const starred = state.vocabStars.has(w.word);
@@ -756,19 +809,23 @@ async function openLesson(book, lesson) {
   $('lessonDetailWrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// 练本课语法：取与本课语法标签相关的题目
+// 练本课语法：优先出挂在本课的题，不足 10 题再用本课语法标签的同册题补足
+// （只按语法标签取会大量抽到其它课的题，练第 3 课却做第 121 课的题体验很差）
 async function practiceCurrentLesson() {
   const l = state.currentLesson;
   if (!l) return;
   const tags = new Set(l.grammarTags || []);
   const all = await api(`/api/questions?book=${l.book}&limit=0`);
-  let qs = all.questions.filter((q) => (q.grammar || []).some((g) => tags.has(g)));
+  // 新概念1奇数课是课文、偶数课是配套练习，挂在 n+1 课号的题也算本课
+  const isOwn = (q) => q.lesson === l.lesson || (l.book === 1 && q.lesson === l.lesson + 1);
+  const pick = (arr) => arr.slice().sort(() => Math.random() - 0.5);
+  const own = pick(all.questions.filter(isOwn));
+  const related = pick(all.questions.filter((q) => !isOwn(q) && (q.grammar || []).some((g) => tags.has(g))));
+  const qs = own.concat(related).slice(0, 10);
   if (!qs.length) {
     toast('本课语法暂无对应练习题，可去「刷题练习」自由组卷。');
     return;
   }
-  // 随机取最多 10 题
-  qs = qs.sort(() => Math.random() - 0.5).slice(0, 10);
   beginQuiz(qs);
 }
 
@@ -877,8 +934,9 @@ async function updatePoolHint() {
   if (state.selectedGrammar) p.set('grammar', state.selectedGrammar);
   const type = $('typeSelect').value;
   if (type) p.set('type', type);
-  const data = await api('/api/questions?' + p.toString());
-  $('poolHint').textContent = `当前条件下题库共有 ${data.count} 道题可供练习。`;
+  p.set('countOnly', '1'); // 只要题数，不拉整份题目
+  const data = await api('/api/questions?' + p.toString()).catch(() => null);
+  if (data) $('poolHint').textContent = `当前条件下题库共有 ${data.count} 道题可供练习。`;
 }
 
 async function updateStatsMini() {
@@ -941,6 +999,7 @@ function resumeDraftQuiz() {
   state.stepIndex = Math.min(draft.stepIndex || 0, draft.questions.length - 1);
   state.stepResults = draft.stepResults || [];
   document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('active', t.dataset.tab === 'practice'));
+  history.replaceState(null, '', '#practice'); // hash 与恢复后的页面保持一致
   if (state.mode === 'step') {
     renderStepQuiz();
   } else {
@@ -1156,9 +1215,12 @@ async function submitQuiz() {
 
 // ---------- 结果 ----------
 function renderResult(result) {
+  const wrongCount = result.results.filter((r) => !r.correct).length;
   $('scoreBox').innerHTML =
     `<div class="big">${result.correct} / ${result.total}</div>` +
-    `<div class="sub">正确率 ${result.accuracy}%</div>`;
+    `<div class="sub">正确率 ${result.accuracy}%${
+      wrongCount ? ` · ${wrongCount} 道错题已加入「🔁 间隔复习」，到期后按遗忘曲线重现` : ''
+    }</div>`;
 
   const box = $('resultList');
   box.innerHTML = '';

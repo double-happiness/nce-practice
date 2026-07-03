@@ -3,7 +3,9 @@
 const express = require('express');
 const data = require('../lib/data');
 const profile = require('../lib/profile');
+const { isCorrect } = require('../lib/grade');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
+const tf = require('../lib/transform-util');
 
 const router = express.Router();
 
@@ -24,22 +26,19 @@ function save(obj) {
 
 // ---- 工具 ----
 const stripAnswer = data.publicQuestion; // 去答案 + 打乱选项
-function isCorrect(q, resp) {
-  if (resp == null) return false;
-  const n = (s) => String(s).trim().toLowerCase();
-  return Array.isArray(q.answer) ? q.answer.some((a) => n(a) === n(resp)) : n(q.answer) === n(resp);
-}
+// 队列同时容纳题库题（id）与句型转换错步（key 形如 tf-xxx#步骤下标）
+const tfResolve = (id) => tf.resolveStep(data.getTRMAP(), id);
+const known = (id) => data.getQMAP().has(id) || !!tfResolve(id);
 
 // POST /srs/add  body { ids:[] } —— 加入复习队列（已存在跳过）
 router.post('/srs/add', (req, res) => {
   const ids = (req.body && req.body.ids) || [];
   if (!Array.isArray(ids)) return res.status(400).json({ error: 'ids 必须是数组' });
-  const QMAP = data.getQMAP();
   const db = load();
   const now = Date.now();
   let added = 0;
   for (const id of ids) {
-    if (!QMAP.has(id)) continue; // 只接受题库中真实存在的题
+    if (!known(id)) continue; // 只接受题库/句型转换中真实存在的条目
     if (db.items[id]) continue; // 已存在跳过
     db.items[id] = { step: 0, dueAt: now, reps: 0, lapses: 0, addedAt: now };
     added++;
@@ -55,24 +54,28 @@ router.get('/srs/due', (req, res) => {
   const db = load();
   const now = Date.now();
   const due = Object.keys(db.items)
-    .filter((id) => db.items[id].dueAt <= now && QMAP.has(id))
+    .filter((id) => db.items[id].dueAt <= now && known(id))
     .sort((a, b) => db.items[a].dueAt - db.items[b].dueAt)
     .slice(0, limit)
-    .map((id) => stripAnswer(QMAP.get(id)));
+    .map((id) => {
+      if (QMAP.has(id)) return stripAnswer(QMAP.get(id));
+      const r = tfResolve(id);
+      return tf.stepQuestion(r.t, r.idx, id);
+    });
   res.json({ count: due.length, questions: due });
 });
 
 // POST /srs/grade  body { id, response } —— 判分并按遗忘曲线更新
 router.post('/srs/grade', (req, res) => {
   const { id, response } = req.body || {};
-  const QMAP = data.getQMAP();
-  const q = QMAP.get(id);
-  if (!q) return res.status(404).json({ error: '题目不存在' });
+  const q = data.getQMAP().get(id);
+  const ts = q ? null : tfResolve(id); // 句型转换错步
+  if (!q && !ts) return res.status(404).json({ error: '题目不存在' });
 
   const db = load();
   const now = Date.now();
   const it = db.items[id] || { step: 0, dueAt: now, reps: 0, lapses: 0, addedAt: now };
-  const correct = isCorrect(q, response);
+  const correct = q ? isCorrect(q, response) : tf.isCorrectStep(ts.step, response);
 
   it.reps++;
   if (correct) {
@@ -88,8 +91,8 @@ router.post('/srs/grade', (req, res) => {
 
   res.json({
     correct,
-    answer: q.answer,
-    explanation: q.explanation || '',
+    answer: q ? q.answer : ts.step.answers,
+    explanation: (q ? q.explanation : ts.t.explanation) || '',
     nextDueAt: it.dueAt,
   });
 });

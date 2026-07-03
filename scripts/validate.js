@@ -52,6 +52,34 @@ function validate() {
     });
   });
 
+  // 句型转换练习：id 唯一、步骤完整、每步答案非空
+  const TF_KINDS = new Set(require('../lib/transform-util').KINDS);
+  const tfIds = new Set();
+  data.getTransforms().forEach((t, i) => {
+    const where = `transforms[${i}] id=${t.id || '?'}`;
+    if (!t.id) errors.push(`${where}: 缺少 id`);
+    else if (tfIds.has(t.id)) errors.push(`${where}: id 重复`);
+    else tfIds.add(t.id);
+
+    if (t.book == null) warnings.push(`${where}: 缺少 book`);
+    if (t.lesson == null) warnings.push(`${where}: 缺少 lesson`);
+    if (!t.cn) errors.push(`${where}: 缺少 cn（中文原句）`);
+    if (!t.explanation) warnings.push(`${where}: 缺少 explanation（建议补上转换规则讲解）`);
+    if (!Array.isArray(t.steps) || !t.steps.length) {
+      errors.push(`${where}: steps 不能为空`);
+      return;
+    }
+    if (t.steps[0].kind !== 'translate') warnings.push(`${where}: 第一步建议为 translate（中译英）`);
+    t.steps.forEach((s, j) => {
+      const sw = `${where}.steps[${j}]`;
+      if (!TF_KINDS.has(s.kind)) errors.push(`${sw}: kind 必须是 ${[...TF_KINDS].join('/')} 之一 (kind=${s.kind})`);
+      if (!s.prompt) errors.push(`${sw}: 缺少 prompt`);
+      if (!Array.isArray(s.answers) || !s.answers.length || s.answers.some((a) => !String(a || '').trim())) {
+        errors.push(`${sw}: answers 必须是非空字符串数组`);
+      }
+    });
+  });
+
   return { errors, warnings };
 }
 

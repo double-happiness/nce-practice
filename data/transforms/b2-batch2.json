@@ -1,0 +1,97 @@
+[
+  {
+    "id": "tf-b2-007",
+    "book": 2,
+    "lesson": 14,
+    "grammar": ["过去完成时"],
+    "cn": "他在晚饭前就已经完成了工作。",
+    "explanation": "过去完成时转换只动 had：疑问句 had 提前，否定句 had 后加 not。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He had finished the work before dinner.", "He had already finished the work before dinner."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Had he finished the work before dinner?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He had not finished the work before dinner.", "He hadn't finished the work before dinner."] },
+      { "kind": "wh", "prompt": "对「the work」提问（问\"完成了什么\"）", "answers": ["What had he finished before dinner?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-008",
+    "book": 2,
+    "lesson": 16,
+    "grammar": ["条件句"],
+    "cn": "如果明天下雨，他们就待在家里。",
+    "explanation": "第一条件句：if 从句用一般现在时，主句用 will；转换只动主句的 will，if 从句不变。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["If it rains tomorrow, they will stay at home.", "They will stay at home if it rains tomorrow.", "If it rains tomorrow, they'll stay at home.", "They'll stay at home if it rains tomorrow."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will they stay at home if it rains tomorrow?", "If it rains tomorrow, will they stay at home?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["If it rains tomorrow, they will not stay at home.", "If it rains tomorrow, they won't stay at home.", "They will not stay at home if it rains tomorrow.", "They won't stay at home if it rains tomorrow."] },
+      { "kind": "wh", "prompt": "对「stay at home」提问（问\"会做什么\"）", "answers": ["What will they do if it rains tomorrow?", "If it rains tomorrow, what will they do?"] },
+      { "kind": "wh", "prompt": "对「at home」提问（问地点）", "answers": ["Where will they stay if it rains tomorrow?", "If it rains tomorrow, where will they stay?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-009",
+    "book": 2,
+    "lesson": 17,
+    "grammar": ["情态动词must"],
+    "cn": "他现在必须完成这项工作。",
+    "explanation": "must 转换不借助 do：疑问句 must 提前。注意否定回答用 needn't（不必），mustn't 表\"禁止\"，语义不同，故本题不练否定转换。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He must finish the work now.", "He must finish this work now."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Must he finish the work now?", "Must he finish this work now?"] },
+      { "kind": "wh", "prompt": "对「the work」提问（问\"必须完成什么\"）", "answers": ["What must he finish now?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-010",
+    "book": 2,
+    "lesson": 10,
+    "grammar": ["被动语态", "一般过去时"],
+    "cn": "他们去年建了一所新学校。",
+    "explanation": "主动转被动：宾语提前作主语，be + 过去分词（was built）；施动者不重要时省略 by them。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（主动语态）", "answers": ["They built a new school last year."] },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["A new school was built last year.", "A new school was built by them last year."] },
+      { "kind": "yesno", "prompt": "把被动句改为一般疑问句", "answers": ["Was a new school built last year?"] },
+      { "kind": "wh", "prompt": "对「last year」提问（基于被动句，问时间）", "answers": ["When was the new school built?", "When was a new school built?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-011",
+    "book": 2,
+    "lesson": 21,
+    "grammar": ["被动语态", "一般现在时"],
+    "cn": "全世界都说英语。",
+    "explanation": "一般现在时被动：is/are + 过去分词；泛指的 people 作主语时，被动句更自然。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（主动语态，用 people 作主语）", "answers": ["People speak English all over the world.", "People all over the world speak English."] },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["English is spoken all over the world."] },
+      { "kind": "yesno", "prompt": "把被动句改为一般疑问句", "answers": ["Is English spoken all over the world?"] },
+      { "kind": "wh", "prompt": "对「all over the world」提问（基于被动句，问地点）", "answers": ["Where is English spoken?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-012",
+    "book": 2,
+    "lesson": 15,
+    "grammar": ["间接引语"],
+    "cn": "他说：\"我很忙。\"",
+    "explanation": "直接引语转间接引语：人称 I → he，时态后移 am → was，引导词 that 可省略。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["He said, \"I am busy.\"", "He said, \"I'm busy.\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["He said that he was busy.", "He said he was busy."] },
+      { "kind": "negative", "prompt": "把间接引语句改为否定句（否定从句）", "answers": ["He said that he was not busy.", "He said he was not busy.", "He said that he wasn't busy.", "He said he wasn't busy."] }
+    ]
+  },
+  {
+    "id": "tf-b2-013",
+    "book": 2,
+    "lesson": 24,
+    "grammar": ["间接引语", "一般将来时"],
+    "cn": "她说：\"我明天会来。\"",
+    "explanation": "间接引语中 will → would，人称 I → she，时间状语 tomorrow → the next day / the following day。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["She said, \"I will come tomorrow.\"", "She said, \"I'll come tomorrow.\""] },
+      { "kind": "indirect", "prompt": "改为间接引语（注意时间状语的变化）", "answers": ["She said that she would come the next day.", "She said she would come the next day.", "She said that she would come the following day.", "She said she would come the following day."] }
+    ]
+  }
+]
