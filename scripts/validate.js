@@ -113,6 +113,26 @@ function validate() {
     if (!hasYou) warnings.push(`${where}: 没有 role=You 的练习轮次`);
   });
 
+  // 全局词库：结构完整、每段至少 12 词（4 选 1 出题下限）
+  const { buildGlobalDict, getVocabInfo } = require('../lib/globalvocab');
+  const gvInfo = getVocabInfo();
+  if (!gvInfo.dictTotal) {
+    errors.push('global-vocab: 词库为空或文件缺失');
+  } else if (gvInfo.dictTotal < 500) {
+    warnings.push(`global-vocab: 词库仅 ${gvInfo.dictTotal} 词，建议至少 500 词`);
+  }
+  const gvKeys = new Set();
+  buildGlobalDict().forEach((w, i) => {
+    const where = `global-vocab[${i}] word=${w.word || '?'}`;
+    if (!w.word) errors.push(`${where}: 缺少 word`);
+    if (!w.cn) errors.push(`${where}: 缺少 cn`);
+    if (gvKeys.has(w.key)) errors.push(`${where}: word 重复 (${w.key})`);
+    else gvKeys.add(w.key);
+  });
+  (gvInfo.bands || []).forEach((b) => {
+    if (b.total < 12) warnings.push(`global-vocab band ${b.band}: 仅 ${b.total} 词，抽样可能不均`);
+  });
+
   return { errors, warnings };
 }
 

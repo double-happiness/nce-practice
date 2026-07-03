@@ -69,6 +69,7 @@
       cell(info.transforms, info.transforms && info.transforms.attempts, '句型转换步数') +
       cell(info['listen-vocab'], info['listen-vocab'] && info['listen-vocab'].tests, '听力词汇量测次') +
       cell(info['read-vocab'], info['read-vocab'] && info['read-vocab'].tests, '阅读词汇量测次') +
+      cell(info['global-vocab'], info['global-vocab'] && info['global-vocab'].tests, '总词汇量测次') +
       cell(info.dialogues, info.dialogues && info.dialogues.attempts, '情景对话练习轮次') +
       '</ul>';
   }
