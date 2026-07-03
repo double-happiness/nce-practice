@@ -203,8 +203,8 @@ async function init() {
       speak('This is the reading speed.'); // 试听
     };
   }
-  renderHome(); // 首页默认可见，填充今日学习数据
-  resumeDraftQuiz(); // 若上次答题中途刷新过页面，恢复未完成的练习
+  renderHome(); // 登录默认停在「今日学习」首页
+  // 未完成练习不再在加载时自动弹出（否则会顶掉首页）；改为首次进入「刷题练习」时再恢复
 }
 
 // ---------- 标签切换 ----------
@@ -234,6 +234,8 @@ function parseLocationHash() {
 function applyHashTab() {
   const { id, params } = parseLocationHash();
   if (!id) return;
+  // 「今日学习」为默认落地页：不因残留的 #practice 把加载后的用户重新带回刷题页
+  if (id === 'practice') return;
   if (id === 'dictionary') {
     const q = params.get('q') || '';
     const book = params.get('book') || '';
@@ -1752,7 +1754,13 @@ function showPanel(id) {
   $(id).classList.remove('hidden');
   window.scrollTo(0, 0);
 }
+let draftResumeChecked = false;
 function showSetup() {
+  // 首次进入「刷题练习」时，若上次有中途未完成的草稿则直接续做；否则显示出题设置
+  if (!draftResumeChecked) {
+    draftResumeChecked = true;
+    if (resumeDraftQuiz()) return;
+  }
   showPanel('setupPanel');
   updatePoolHint();
 }
