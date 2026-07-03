@@ -278,11 +278,8 @@
         NCE.speak(turn.en);
       };
       var btn = active.querySelector('#dlg-continue');
-      btn.focus();
       btn.onclick = onNext;
-      document.onkeydown = function (e) {
-        if (e.key === 'Enter') onNext();
-      };
+      btn.focus(); // 聚焦按钮后按回车会原生触发 click 推进；不再用 document.onkeydown（会与练习轮输入框回车双触发、跳过练习轮）
     }
 
     function showPracticeTurn(active, turn) {

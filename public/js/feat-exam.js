@@ -331,6 +331,9 @@
     clearTimer();
     const el = () => PANEL && PANEL.querySelector('.ex-timer');
     st.timer = setInterval(() => {
+      // 切走标签时面板只是加了 hidden 类、.ex-timer 仍在 DOM 中；若继续跑，到点会在后台静默交卷。
+      // 此时停表并直接返回，不自动提交（重新进入本页 onShow 会回到设置页）。
+      if (PANEL && PANEL.classList.contains('hidden')) { clearTimer(); return; }
       const elapsed = (Date.now() - st.startTs) / 1000;
       const t = el();
       if (!t) { clearTimer(); return; }

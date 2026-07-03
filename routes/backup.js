@@ -57,13 +57,17 @@ router.post('/backup/import', (req, res) => {
     return res.status(400).json({ ok: false, error: '备份文件格式不正确（缺少 app:"nce" 或 data 对象）' });
   }
   const restored = [];
+  const skipped = [];
   for (const k of KEYS) {
-    if (Object.prototype.hasOwnProperty.call(body.data, k)) {
-      writeJSONAtomic(fileOf(k), body.data[k]);
-      restored.push(k);
-    }
+    if (!Object.prototype.hasOwnProperty.call(body.data, k)) continue;
+    const v = body.data[k];
+    // 每个备份键都应是一个对象（{attempts}/{stars}/{items}…）。若是字符串/数组/null 直接写回，
+    // 后续 load() 拿到的就不是预期结构，/grade、/stats、/plan 等会集体 TypeError → 500，需手动 reset 才能恢复。
+    if (!v || typeof v !== 'object' || Array.isArray(v)) { skipped.push(k); continue; }
+    writeJSONAtomic(fileOf(k), v);
+    restored.push(k);
   }
-  res.json({ ok: true, restored });
+  res.json({ ok: true, restored, skipped });
 });
 
 // GET /backup/info —— 各文件概览，供前端展示

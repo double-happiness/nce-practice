@@ -176,7 +176,9 @@ router.get('/srs/stats', (req, res) => {
   const horizon = now + 7 * DAY;
   let due = 0;
   let upcoming = 0;
-  const ids = Object.keys(db.items);
+  // 与 /srs/due 口径一致：过滤掉题库已删改、无法解析的失效 id，
+  // 否则首页会显示「有 N 个到期」却永远刷不出对应题目。
+  const ids = Object.keys(db.items).filter((id) => known(id));
   for (const id of ids) {
     const d = db.items[id].dueAt;
     if (d <= now) due++;

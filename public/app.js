@@ -46,24 +46,36 @@ function apiErrorToast(msg) {
 
 // ---------- 语音朗读（浏览器内置 TTS，优先英音）----------
 let VOICE = null;
+// macOS/部分系统的“趣味语音”会发出音乐/机器噪音而非清晰人声，且常被标成 en_US 排在前面，
+// 若无 en-GB 就绪时退回 /^en/ 很容易误选它们（用户听到“声音不对、有噪音”）。这里显式排除。
+const NOVELTY_VOICE = /Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Jester|Organ|Superstar|Trinoids|Wobble|Zarvox|Hysterical|Whisper|Pipe Organ|Albert|Fred/i;
 function pickVoice() {
   if (!window.speechSynthesis) return;
-  const vs = speechSynthesis.getVoices();
-  VOICE =
-    vs.find((v) => v.lang === 'en-GB') ||
-    vs.find((v) => /en[-_]GB/i.test(v.lang)) ||
-    vs.find((v) => /^en/i.test(v.lang)) ||
-    null;
+  const all = speechSynthesis.getVoices();
+  if (!all.length) return; // 语音尚未加载，onvoiceschanged 会再次触发
+  // 排除趣味语音；若过滤后为空（极少数系统只有趣味语音）再退回全量，保证有声可读
+  const usable = all.filter((v) => !NOVELTY_VOICE.test(v.name));
+  const pool = usable.length ? usable : all;
+  const byLang = (re) => pool.filter((v) => re.test(v.lang));
+  // 每个语言档里优先挑公认高质量的英音/美音（Daniel/Serena/Kate/Samantha…）或标注 enhanced/premium 的
+  const best = (list) =>
+    list.find((v) => /daniel|serena|kate|arthur|stephanie|samantha|enhanced|premium/i.test(v.name)) || list[0];
+  const gb = byLang(/en[-_]GB/i);
+  const us = byLang(/en[-_]US/i);
+  const en = byLang(/^en/i);
+  VOICE = (gb.length && best(gb)) || (us.length && best(us)) || (en.length && best(en)) || null;
 }
 if (window.speechSynthesis) {
   pickVoice();
   speechSynthesis.onvoiceschanged = pickVoice;
 }
-// 只保留英文部分（去掉中文释义/标点）再朗读
+// 只保留英文部分再朗读：去掉中文、全角标点，以及 emoji/符号（否则 TTS 会读出杂音）
 function enOnly(s) {
   return String(s || '')
-    .replace(/[一-鿿]/g, ' ')
-    .replace(/[，。！？；：、""''（）]/g, ' ')
+    .replace(/[一-鿿]/g, ' ') // CJK 汉字
+    .replace(/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2190}-\u{21FF}\u{2B00}-\u{2BFF}\u{FE00}-\u{FE0F}]/gu, ' ') // emoji/箭头/杂项符号
+    .replace(/[，。！？；：、""''（）【】《》]/g, ' ') // 全角标点
+    .replace(/[°§¶†‡•™©®*_#|~^`\\]/g, ' ') // 度数号等非朗读符号
     .replace(/\s+/g, ' ')
     .trim();
 }
@@ -205,6 +217,7 @@ async function init() {
   }
   renderHome(); // 登录默认停在「今日学习」首页
   // 未完成练习不再在加载时自动弹出（否则会顶掉首页）；改为首次进入「刷题练习」时再恢复
+  applyHashTab(); // meta / 学习状态 / 各 feat 标签都已就绪，此时再按 hash 恢复深链才安全
 }
 
 // ---------- 标签切换 ----------
@@ -240,7 +253,7 @@ function applyHashTab() {
     const q = params.get('q') || '';
     const book = params.get('book') || '';
     if (q || book) {
-      window.NCE.pendingDictionary = { q, book };
+      window.NCE.pendingDictionary = { q, book, expandDetail: !!q };
     }
     gotoTab('dictionary');
     return;
@@ -269,14 +282,16 @@ function applyHashTab() {
 document.addEventListener('click', (e) => {
   const el = e.target.closest('.tab, .subtab');
   if (!el || !el.dataset.tab) return;
+  // 切换标签时打断正在进行的朗读，避免听写/对话等页面的自动朗读串到新页面继续读
+  if (window.speechSynthesis) speechSynthesis.cancel();
   const tabId = el.dataset.tab;
   if (tabId === 'dictionary' && location.hash.startsWith('#dictionary?')) return;
   if (tabId === 'learn' && location.hash.startsWith('#learn?')) return;
   if (location.hash !== '#' + tabId) history.replaceState(null, '', '#' + tabId);
 });
 window.addEventListener('hashchange', applyHashTab);
-// 等所有 feat-*.js 注册完标签后再按 hash 恢复
-document.addEventListener('DOMContentLoaded', applyHashTab);
+// 首次按 hash 恢复改到 init() 末尾执行（那时 /api/meta 已 await 就绪）：
+// 原先绑在 DOMContentLoaded 上会在 async init 拿到 meta 之前触发，深链刷新到非第 1 册教材会因 state.meta 为 null 崩溃。
 
 // 跳转到任意标签页（含合并标签的子页）
 function gotoTab(id) {
@@ -428,6 +443,7 @@ function goToDictionary(q, book) {
   window.NCE.pendingDictionary = {
     q: qs,
     book: book != null && book !== '' ? String(book) : '',
+    expandDetail: !!qs,
   };
   history.replaceState(null, '', '#dictionary' + (tail ? '?' + tail : ''));
   gotoTab('dictionary');

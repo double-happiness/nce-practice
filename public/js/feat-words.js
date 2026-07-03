@@ -155,6 +155,7 @@
   }
 
   function switchMode(panel, mode) {
+    st.panel = panel; // 存一份供 renderFlash 等只拿到 body 的函数回切模式用（避免引用未定义的 panel）
     st.mode = mode;
     panel.querySelectorAll('.wd-mode-btn').forEach((b) =>
       b.classList.toggle('active', b.dataset.m === mode)
@@ -194,7 +195,7 @@
         '<button class="wd-mode-btn wd-goto-dict" type="button" style="margin-top:12px">📕 查词典</button> ' +
         '<button class="wd-mode-btn" type="button" id="wdGoVocab" style="margin-top:12px">📚 去词表</button></div>';
       const goSpell = body.querySelector('#wdGoSpell');
-      if (goSpell) goSpell.onclick = () => switchMode(panel, 'spell');
+      if (goSpell) goSpell.onclick = () => switchMode(st.panel, 'spell');
       const goDict = body.querySelector('.wd-goto-dict');
       if (goDict && NCE.goToDictionary) goDict.onclick = () => NCE.goToDictionary('', st.book);
       const goVocab = body.querySelector('#wdGoVocab');
