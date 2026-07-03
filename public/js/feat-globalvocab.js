@@ -309,6 +309,7 @@
         '<button class="gv-btn" id="gvStarAll">⭐ 全部加入生词本</button>' +
         '<button class="gv-btn" id="gvFlashAll">🃏 背诵错词</button>' +
         '<button class="gv-btn" id="gvSpellAll">✍️ 默写错词</button>' +
+        '<button class="gv-btn" id="gvSrsAll">🔁 间隔复习</button>' +
         '<button class="gv-btn primary" id="gvReviewAll">📕 逐个复习错词</button>' +
         '<span class="vt-miss-hint">或点每词旁 📕</span></div></div>'
       : '';
@@ -335,7 +336,7 @@
     NCE.vocabTestUi.bindMissedActions(panel.querySelector('.gv-missed'), '');
     NCE.vocabTestUi.bindMissedFooter(panel, {
       missed: st.missed, book: '', starId: '#gvStarAll', reviewId: '#gvReviewAll',
-      flashId: '#gvFlashAll', spellId: '#gvSpellAll', returnTab: 'globalvocab',
+      flashId: '#gvFlashAll', spellId: '#gvSpellAll', srsId: '#gvSrsAll', returnTab: 'globalvocab',
     });
     panel.querySelector('#gvAgain').onclick = () => startTest(panel);
     panel.querySelector('#gvBack').onclick = () => renderIntro(panel);

@@ -7,6 +7,8 @@ const profile = require('../lib/profile');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 const { normalizeAnswer } = require('../lib/grade');
 const { CATEGORIES, LEARNER_ROLE } = require('../lib/dialogue-meta');
+const activity = require('../lib/activity');
+const dlgSrs = require('../lib/dialogue-srs');
 
 const router = express.Router();
 
@@ -112,11 +114,13 @@ router.post('/dialogue/grade', (req, res) => {
   const db = load();
   db.attempts.push({ id, turn: idx, correct, ts: Date.now() });
   save(db);
+  activity.record(correct, 'dialogue');
 
   res.json({
     correct,
     answer: t.en,
     cn: t.cn,
+    srsKey: correct ? null : dlgSrs.dialogueKey(id, idx),
   });
 });
 

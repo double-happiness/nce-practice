@@ -257,6 +257,7 @@
         '<div class="rsv-actions"><button class="rsv-btn" id="rsvStarAll">⭐ 全部加入生词本</button>' +
         '<button class="rsv-btn" id="rsvFlashAll">🃏 背诵错词</button>' +
         '<button class="rsv-btn" id="rsvSpellAll">✍️ 默写错词</button>' +
+        '<button class="rsv-btn" id="rsvSrsAll">🔁 间隔复习</button>' +
         '<button class="rsv-btn primary" id="rsvReviewAll">📕 逐个复习错词</button>' +
         '<span class="vt-miss-hint">或点每词旁 📕 / 📖</span></div></div>'
       : '';
@@ -280,7 +281,7 @@
     ui.bindMissedActions(panel.querySelector('.rsv-missed'), st.book);
     ui.bindMissedFooter(panel, {
       missed: st.missed, book: st.book, starId: '#rsvStarAll', reviewId: '#rsvReviewAll',
-      flashId: '#rsvFlashAll', spellId: '#rsvSpellAll', returnTab: 'readvocab',
+      flashId: '#rsvFlashAll', spellId: '#rsvSpellAll', srsId: '#rsvSrsAll', returnTab: 'readvocab',
     });
     panel.querySelector('#rsvAgain').onclick = () => startTest(panel);
     panel.querySelector('#rsvBack').onclick = () => renderIntro(panel);

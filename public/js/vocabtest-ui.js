@@ -303,7 +303,43 @@
     }
   }
 
-  function bindMissedFooter(panel, { missed, book, starId, reviewId, flashId, spellId, returnTab }) {
+  async function enqueueMissedLearning(missed, book) {
+    if (!missed || !missed.length) return;
+    try {
+      await NCE.api('/api/words/mark-missed', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          book: book || undefined,
+          words: missed.map((w) => ({
+            word: w.word,
+            phon: w.phon || '',
+            pos: w.pos || '',
+            cn: w.cn || '',
+            eg: w.eg || '',
+            lesson: w.lesson,
+            lessonTitle: w.lessonTitle || '',
+            book: w.book != null ? w.book : book,
+            band: w.band,
+            bandLabel: w.bandLabel,
+            source: w.source || 'vocab-test',
+          })),
+        }),
+      });
+    } catch (e) { /* ignore */ }
+  }
+
+  async function srsAllMissed(missed) {
+    if (!missed || !missed.length) return 0;
+    const d = await NCE.api('/api/srs/add-words', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ words: missed }),
+    });
+    return d && d.added != null ? d.added : 0;
+  }
+
+  function bindMissedFooter(panel, { missed, book, starId, reviewId, flashId, spellId, srsId, returnTab }) {
     if (!missed || !missed.length) return;
     const starBtn = starId ? panel.querySelector(starId) : null;
     if (starBtn) {
@@ -324,6 +360,20 @@
     if (flashBtn) flashBtn.onclick = () => startMissedWords(missed, book, 'flash');
     const spellBtn = spellId ? panel.querySelector(spellId) : null;
     if (spellBtn) spellBtn.onclick = () => startMissedWords(missed, book, 'spell');
+    const srsBtn = srsId ? panel.querySelector(srsId) : null;
+    if (srsBtn) {
+      srsBtn.onclick = async () => {
+        srsBtn.disabled = true;
+        try {
+          await enqueueMissedLearning(missed, book);
+          const n = await srsAllMissed(missed);
+          NCE.toast(`🔁 已将 ${n} 个词加入间隔复习`, 'ok');
+          srsBtn.textContent = '✓ 已加入复习';
+        } catch (e) {
+          srsBtn.disabled = false;
+        }
+      };
+    }
   }
 
   function mapMissedWords(missed, book) {
@@ -337,20 +387,6 @@
       lessonTitle: w.lessonTitle || '',
       book: w.book != null ? w.book : book,
     }));
-  }
-
-  async function enqueueMissedLearning(missed, book) {
-    if (!missed || !missed.length) return;
-    try {
-      await NCE.api('/api/words/mark-missed', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          book: book || undefined,
-          words: missed.map((w) => w.word),
-        }),
-      });
-    } catch (e) { /* ignore */ }
   }
 
   function startMissedWords(missed, book, mode) {
@@ -407,6 +443,7 @@
     starAllMissed,
     bindMissedFooter,
     startMissedWords,
+    srsAllMissed,
     cefrLevelHint,
   };
 })();

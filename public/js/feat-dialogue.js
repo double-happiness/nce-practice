@@ -328,6 +328,13 @@
             }
             tally.total++;
             if (r.correct) tally.correct++;
+            else if (r.srsKey) {
+              NCE.api('/api/srs/add', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ids: [r.srsKey] }),
+              }).catch(function () {});
+            }
             showTurnFeedback(r, val, skipped);
           })
           .catch(function (e) {
