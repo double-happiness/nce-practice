@@ -61,6 +61,21 @@ function byBook(list, book) {
   return list.filter((e) => String(e.book) === String(book));
 }
 
+// 检索相关度：完全匹配 > 前缀 > 子串；英文 > 中文 > 例句 > 音标
+function matchScore(e, kw) {
+  if (!kw) return 0;
+  if (e.key === kw) return 100;
+  if (e.key.startsWith(kw)) return 80;
+  if (e.key.includes(kw)) return 60;
+  const cn = String(e.cn).toLowerCase();
+  if (cn.includes(kw)) return 40;
+  const eg = String(e.eg).toLowerCase();
+  if (eg.includes(kw)) return 20;
+  const phon = String(e.phon).toLowerCase();
+  if (phon.includes(kw)) return 10;
+  return -1;
+}
+
 // GET /words/list —— 去重词表（含掌握度），支持 book / filter / q
 router.get('/words/list', (req, res) => {
   const { book, q } = req.query;
@@ -70,12 +85,15 @@ router.get('/words/list', (req, res) => {
 
   const kw = q ? String(q).trim().toLowerCase() : '';
   if (kw) {
-    list = list.filter(
-      (e) => e.key.includes(kw) || String(e.cn).toLowerCase().includes(kw)
-    );
+    list = list
+      .map((e) => ({ e, score: matchScore(e, kw) }))
+      .filter((x) => x.score >= 0)
+      .sort((a, b) => b.score - a.score || a.e.lesson - b.e.lesson)
+      .map((x) => x.e);
+  } else {
+    list.sort((a, b) => a.lesson - b.lesson);
   }
   list = list.filter((e) => matchFilter(levelOf(states, e.key), filter));
-  list.sort((a, b) => a.lesson - b.lesson); // 按 lesson 升序
 
   const words = list.map((e) => decorate(e, states));
   res.json({ count: words.length, words });

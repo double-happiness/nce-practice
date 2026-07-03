@@ -351,10 +351,16 @@ function registerFeature(opts) {
 }
 
 function goToDictionary(q, book) {
+  const params = new URLSearchParams();
+  const qs = String(q == null ? '' : q).trim();
+  if (qs) params.set('q', qs);
+  if (book != null && book !== '') params.set('book', String(book));
+  const tail = params.toString();
   window.NCE.pendingDictionary = {
-    q: String(q == null ? '' : q),
+    q: qs,
     book: book != null && book !== '' ? String(book) : '',
   };
+  history.replaceState(null, '', '#dictionary' + (tail ? '?' + tail : ''));
   gotoTab('dictionary');
 }
 
@@ -396,15 +402,14 @@ async function renderHome() {
   const last = loadLastLesson();
   const vocabBook = last ? String(last.book) : '1';
   // 每项独立兜底：任一接口失败只影响对应卡片的数据，不拖垮整个首页
-  const [prog, plan, srs, gram, words1, words2, listenEst, readEst] = await Promise.all([
+  const [prog, plan, srs, gram, words1, words2, vocabOv] = await Promise.all([
     api('/api/progress').catch(() => ({ totalAttempts: 0, accuracy: 0, wrongCount: 0 })),
     api('/api/plan/overview').catch(() => ({ goal: 10, todayCount: 0, streak: 0, totalDays: 0 })),
     api('/api/srs/stats').catch(() => ({ due: 0, upcoming: 0, total: 0 })),
     api('/api/stats/grammar').catch(() => ({ grammar: [] })),
     api('/api/words/stats?book=1').catch(() => null),
     api('/api/words/stats?book=2').catch(() => null),
-    api(`/api/listen-vocab/history?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
-    api(`/api/read-vocab/history?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
+    api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
   ]);
 
   // 薄弱语法点：练够 4 次且正确率 < 85% 才算（接口已按正确率升序，最弱在前）
@@ -413,15 +418,27 @@ async function renderHome() {
   // 「学习中」(level 1-2) 的单词就是默写待巩固池（合并第 1、2 册）
   const wordsDue = (words1 ? words1.learning || 0 : 0) + (words2 ? words2.learning || 0 : 0);
 
-  const listenLatest = listenEst && listenEst.tests && listenEst.tests[0];
-  const readLatest = readEst && readEst.tests && readEst.tests[0];
-  const vocabLine = (icon, label, t) =>
+  const listenLatest = vocabOv && vocabOv.listen && vocabOv.listen.latest;
+  const readLatest = vocabOv && vocabOv.read && vocabOv.read.latest;
+  const vocabLine = (icon, label, t, avg) =>
     t
-      ? `${icon} ${label}：<b>≈ ${t.estimate}</b> / ${t.dictTotal} 词`
+      ? `${icon} ${label}：<b>≈ ${t.estimate}</b> / ${t.dictTotal} 词` +
+        (avg != null && vocabOv[label === '听力' ? 'listen' : 'read'].avgN >= 2
+          ? `（近 ${vocabOv[label === '听力' ? 'listen' : 'read'].avgN} 次均 ≈ ${avg}）`
+          : '')
       : `${icon} ${label}：第${vocabBook}册尚未测试`;
+  let vocabGap = '';
+  if (vocabOv && vocabOv.gap != null && vocabOv.gap !== 0) {
+    vocabGap =
+      vocabOv.gap > 0
+        ? `<br>阅读比听力高约 <b>${vocabOv.gap}</b> 词，可多练听力缩小差距。`
+        : `<br>听力比阅读高约 <b>${-vocabOv.gap}</b> 词，可多练阅读识字。`;
+  } else if (vocabOv && vocabOv.gap === 0 && listenLatest && readLatest) {
+    vocabGap = '<br>听读估算一致，保持双线练习即可。';
+  }
   const vocabSub =
     listenLatest || readLatest
-      ? `${vocabLine('👂', '听力', listenLatest)}<br>${vocabLine('📖', '阅读', readLatest)}`
+      ? `${vocabLine('👂', '听力', listenLatest, vocabOv.listen.avg)}<br>${vocabLine('📖', '阅读', readLatest, vocabOv.read.avg)}${vocabGap}`
       : `第 ${vocabBook} 册词表基线尚未建立，各测一次可对比听读差距。`;
 
   const goalPct = Math.min(100, plan.goal ? Math.round((plan.todayCount / plan.goal) * 100) : 0);
@@ -475,8 +492,8 @@ async function renderHome() {
       <div class="hc-big hc-small">第 ${vocabBook} 册</div>
       <div class="hc-sub">${vocabSub}</div>
       <div class="hc-btns">
-        <button class="btn" data-goto="listenvocab">👂 测听力 →</button>
-        <button class="btn" data-goto="readvocab">📖 测阅读 →</button>
+        <button class="btn" id="homeListenVocab">👂 测听力 →</button>
+        <button class="btn" id="homeReadVocab">📖 测阅读 →</button>
       </div>
     </div>` +
     // 继续学习
@@ -489,6 +506,15 @@ async function renderHome() {
           : '<div class="hc-sub">还没开始学教材，从第一课开始吧</div>'
       }
       <button class="btn primary" id="homeContinueBtn">${last ? '继续学这课 →' : '去教材学习 →'}</button>
+    </div>` +
+    // 教材词典快捷查词
+    `<div class="home-card home-dict-card">
+      <div class="hc-title">📕 教材词典</div>
+      <div class="home-dict-row">
+        <input type="text" id="homeDictQ" placeholder="查单词或中文释义…" autocomplete="off">
+        <button class="btn primary" id="homeDictBtn" type="button">查询</button>
+      </div>
+      <div class="hc-sub">在新概念教材词库中检索，支持英文、中文与例句</div>
     </div>` +
     // 累计概况 + 快捷入口
     `<div class="home-card">
@@ -520,6 +546,14 @@ async function renderHome() {
       NCE.pendingWords = { mode: 'spell' };
       gotoTab('words');
     };
+  }
+  const listenVocabBtn = $('homeListenVocab');
+  if (listenVocabBtn && NCE.vocabTestUi) {
+    listenVocabBtn.onclick = () => NCE.vocabTestUi.goToVocabTest('listenvocab', vocabBook);
+  }
+  const readVocabBtn = $('homeReadVocab');
+  if (readVocabBtn && NCE.vocabTestUi) {
+    readVocabBtn.onclick = () => NCE.vocabTestUi.goToVocabTest('readvocab', vocabBook);
   }
   const cont = $('homeContinueBtn');
   if (cont) {

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-shop-01",
+    "category": "shopping",
+    "title": "At the Clothing Store",
+    "titleCn": "买衣服",
+    "scene": "你在商场里想买一件新衬衫。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "你好！需要帮忙吗？", "en": "Hi! Can I help you?" },
+      { "role": "You", "cn": "是的，我想看看衬衫。", "en": "Yes, I'm looking for a dress shirt." },
+      { "role": "Clerk", "cn": "您穿多大码？", "en": "What size do you wear?" },
+      { "role": "You", "cn": "中码。有蓝色的吗？", "en": "Medium. Do you have it in blue?" },
+      { "role": "Clerk", "cn": "有的，试衣间在那边。", "en": "Yes, we do. The fitting room is over there." },
+      { "role": "You", "cn": "这件很合身。多少钱？", "en": "This fits perfectly. How much is it?" },
+      { "role": "Clerk", "cn": "四十九块九，含税。", "en": "It's forty-nine ninety, tax included." },
+      { "role": "You", "cn": "好的，我要了。", "en": "Great, I'll take it." }
+    ]
+  },
+  {
+    "id": "dlg-shop-02",
+    "category": "shopping",
+    "title": "Returning an Item",
+    "titleCn": "退货",
+    "scene": "你买了一条裤子，尺码不对，去柜台退货。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，我想退这条裤子。", "en": "Hi, I'd like to return these pants." },
+      { "role": "Clerk", "cn": "有什么问题吗？", "en": "Is there a problem with them?" },
+      { "role": "You", "cn": "尺码太小了，我有收据。", "en": "They're too small. I have the receipt." },
+      { "role": "Clerk", "cn": "好的，我帮您处理退款。", "en": "Sure, I can process a refund for you." },
+      { "role": "Clerk", "cn": "您是用卡还是现金付的？", "en": "Did you pay with a card or cash?" },
+      { "role": "You", "cn": "用的信用卡。", "en": "I paid with a credit card." },
+      { "role": "Clerk", "cn": "退款三到五个工作日到账。", "en": "The refund will go back to your card in three to five business days." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay, thank you." }
+    ]
+  },
+  {
+    "id": "dlg-shop-03",
+    "category": "shopping",
+    "title": "At the Supermarket",
+    "titleCn": "超市购物",
+    "scene": "你在超市找东西，向店员问路。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，牛奶在哪里？", "en": "Excuse me, where can I find the milk?" },
+      { "role": "Staff", "cn": "乳制品区在后面，左边第三个过道。", "en": "The dairy section is in the back, third aisle on the left." },
+      { "role": "You", "cn": "谢谢！顺便问一下，今天鸡蛋有折扣吗？", "en": "Thanks! By the way, are the eggs on sale today?" },
+      { "role": "Staff", "cn": "有的，本周特价两美元一打。", "en": "Yes, they're two dollars a dozen this week." },
+      { "role": "You", "cn": "太好了，我再去拿一盒。", "en": "Great, I'll grab a carton." },
+      { "role": "Staff", "cn": "还需要别的吗？", "en": "Is there anything else I can help you with?" },
+      { "role": "You", "cn": "不用了，谢谢你的帮助！", "en": "No, that's all. Thanks for your help!" }
+    ]
+  }
+]

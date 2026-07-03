@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-park-01",
+    "category": "park",
+    "title": "Walking the Dog",
+    "titleCn": "遛狗",
+    "scene": "你在公园里遛狗，遇到了邻居。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "早上好！你的狗真可爱。", "en": "Good morning! Your dog is so cute." },
+      { "role": "You", "cn": "谢谢！它叫Max，很友好。", "en": "Thanks! His name is Max. He's very friendly." },
+      { "role": "Neighbor", "cn": "它多大了？", "en": "How old is he?" },
+      { "role": "You", "cn": "两岁多了，特别喜欢玩接球。", "en": "He's about two years old. He loves playing fetch." },
+      { "role": "Neighbor", "cn": "这个公园真不错，空气很好。", "en": "This park is really nice. The air is so fresh." },
+      { "role": "You", "cn": "是啊，我每天早上都来散步。", "en": "Yeah, I come here for a walk every morning." },
+      { "role": "Neighbor", "cn": "那下次见！", "en": "Well, see you around!" },
+      { "role": "You", "cn": "再见，祝你有美好的一天！", "en": "Bye! Have a great day!" }
+    ]
+  },
+  {
+    "id": "dlg-park-02",
+    "category": "park",
+    "title": "Picnic in the Park",
+    "titleCn": "公园野餐",
+    "scene": "你和朋友在公园野餐，分享食物。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "今天天气太棒了！", "en": "The weather is perfect today!" },
+      { "role": "You", "cn": "是啊，特别适合野餐。", "en": "It really is. Perfect for a picnic." },
+      { "role": "Friend", "cn": "你要不要来个三明治？", "en": "Would you like a sandwich?" },
+      { "role": "You", "cn": "好的，谢谢！你带了什么喝的？", "en": "Sure, thanks! What did you bring to drink?" },
+      { "role": "Friend", "cn": "柠檬汁和冰水。", "en": "Lemonade and iced water." },
+      { "role": "You", "cn": "给我来杯柠檬汁吧。", "en": "I'll have some lemonade, please." },
+      { "role": "Friend", "cn": "那边有人在放风筝，我们去看看吧？", "en": "Some people are flying kites over there. Want to go check it out?" },
+      { "role": "You", "cn": "好啊，吃完就去！", "en": "Sounds good. Let's go after we eat!" }
+    ]
+  },
+  {
+    "id": "dlg-park-03",
+    "category": "park",
+    "title": "Lost Child",
+    "titleCn": "找孩子",
+    "scene": "你在公园看到一位家长着急地找人。",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "请问您有没有看到一个穿红衣服的小男孩？", "en": "Excuse me, have you seen a little boy in a red shirt?" },
+      { "role": "You", "cn": "他大概几岁？长什么样？", "en": "How old is he? What does he look like?" },
+      { "role": "Parent", "cn": "五岁，黑色短发，穿着蓝色短裤。", "en": "He's five, with short black hair and blue shorts." },
+      { "role": "You", "cn": "我刚才在游乐场那边看到类似的孩子。", "en": "I think I saw a boy like that near the playground." },
+      { "role": "Parent", "cn": "太感谢了！我这就过去看看。", "en": "Thank you so much! I'll head over there right now." },
+      { "role": "You", "cn": "需要我帮您一起找吗？", "en": "Would you like me to help you look?" },
+      { "role": "Parent", "cn": "不用了，真的太感谢了！", "en": "No, that's okay. I really appreciate it!" }
+    ]
+  }
+]

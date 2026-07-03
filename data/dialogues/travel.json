@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-travel-01",
+    "category": "travel",
+    "title": "Hotel Check-in",
+    "titleCn": "酒店入住",
+    "scene": "你到达酒店前台办理入住。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，欢迎入住！请问有预订吗？", "en": "Hello, welcome! Do you have a reservation?" },
+      { "role": "You", "cn": "有的，名字是张伟。", "en": "Yes, the name is Zhang Wei." },
+      { "role": "Clerk", "cn": "找到了，大床房，住三晚。", "en": "I found it. One king room for three nights." },
+      { "role": "You", "cn": "早餐包含在内吗？", "en": "Is breakfast included?" },
+      { "role": "Clerk", "cn": "是的，早上六点半到十点半。", "en": "Yes, it's served from 6:30 to 10:30 AM." },
+      { "role": "Clerk", "cn": "您的房间在八楼，808。", "en": "Your room is on the eighth floor, room 808." },
+      { "role": "You", "cn": "Wi-Fi密码是多少？", "en": "What's the Wi-Fi password?" },
+      { "role": "Clerk", "cn": "在房卡套上，祝您住得愉快！", "en": "It's on the key card sleeve. Enjoy your stay!" }
+    ]
+  },
+  {
+    "id": "dlg-travel-02",
+    "category": "travel",
+    "title": "Asking for Tourist Info",
+    "titleCn": "咨询旅游信息",
+    "scene": "你在旅游咨询中心询问景点信息。",
+    "roles": ["You", "Guide"],
+    "turns": [
+      { "role": "You", "cn": "你好，这附近有什么值得看的景点？", "en": "Hi, what are the must-see attractions around here?" },
+      { "role": "Guide", "cn": "自由女神像和中央公园都很受欢迎。", "en": "The Statue of Liberty and Central Park are very popular." },
+      { "role": "You", "cn": "去自由女神像怎么走？", "en": "How do I get to the Statue of Liberty?" },
+      { "role": "Guide", "cn": "可以坐地铁到南街海港，然后坐船。", "en": "Take the subway to South Street Seaport, then catch a ferry." },
+      { "role": "You", "cn": "船票需要提前买吗？", "en": "Do I need to buy ferry tickets in advance?" },
+      { "role": "Guide", "cn": "建议提前在网上订，周末人很多。", "en": "I'd recommend booking online. Weekends get very crowded." },
+      { "role": "You", "cn": "太感谢了，帮大忙了！", "en": "That's very helpful. Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-travel-03",
+    "category": "travel",
+    "title": "Taking a Taxi",
+    "titleCn": "打车",
+    "scene": "你在路边拦出租车去机场。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "你好，去肯尼迪机场，走高速可以吗？", "en": "Hi, to JFK Airport, please. Can we take the highway?" },
+      { "role": "Driver", "cn": "没问题，大概四十分钟。", "en": "Sure. It should take about forty minutes." },
+      { "role": "You", "cn": "我十一点半的飞机，来得及吗？", "en": "My flight is at 11:30. Will we make it in time?" },
+      { "role": "Driver", "cn": "没问题，现在路况不错。", "en": "No problem. Traffic looks good right now." },
+      { "role": "You", "cn": "到了能在航站楼门口停吗？", "en": "Could you drop me off at the terminal entrance?" },
+      { "role": "Driver", "cn": "当然，哪个航站楼？", "en": "Of course. Which terminal?" },
+      { "role": "You", "cn": "Terminal 4，谢谢。", "en": "Terminal 4, please. Thank you." },
+      { "role": "Driver", "cn": "到了，祝您旅途愉快！", "en": "Here we are. Have a safe flight!" }
+    ]
+  }
+]

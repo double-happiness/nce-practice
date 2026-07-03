@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-home-01",
+    "category": "home",
+    "title": "Morning Routine",
+    "titleCn": "早晨起床",
+    "scene": "你和妈妈在卧室，该起床准备上学了。",
+    "roles": ["You", "Mom"],
+    "turns": [
+      { "role": "Mom", "cn": "该起床了！已经七点了。", "en": "Time to get up! It's already seven o'clock." },
+      { "role": "You", "cn": "再睡五分钟好吗？", "en": "Can I sleep five more minutes?" },
+      { "role": "Mom", "cn": "不行，你会迟到的。", "en": "No, you'll be late." },
+      { "role": "You", "cn": "好吧，我起来了。", "en": "Okay, I'm getting up." },
+      { "role": "Mom", "cn": "快去刷牙洗脸。", "en": "Go brush your teeth and wash your face." },
+      { "role": "You", "cn": "早餐吃什么？", "en": "What's for breakfast?" },
+      { "role": "Mom", "cn": "煎饼和牛奶，在桌上。", "en": "Pancakes and milk. They're on the table." },
+      { "role": "You", "cn": "谢谢妈妈！", "en": "Thanks, Mom!" }
+    ]
+  },
+  {
+    "id": "dlg-home-02",
+    "category": "home",
+    "title": "Doing Chores",
+    "titleCn": "做家务",
+    "scene": "周六下午，爸爸让你帮忙做家务。",
+    "roles": ["You", "Dad"],
+    "turns": [
+      { "role": "Dad", "cn": "能帮我把垃圾拿出去吗？", "en": "Could you take out the trash for me?" },
+      { "role": "You", "cn": "当然，没问题。", "en": "Sure, no problem." },
+      { "role": "Dad", "cn": "然后把你的房间收拾一下。", "en": "And then clean up your room." },
+      { "role": "You", "cn": "我的房间已经很整洁了。", "en": "My room is already pretty tidy." },
+      { "role": "Dad", "cn": "地上到处都是衣服。", "en": "There are clothes all over the floor." },
+      { "role": "You", "cn": "好吧，我这就去整理。", "en": "Okay, I'll tidy up right now." },
+      { "role": "Dad", "cn": "做得好！晚上请你吃披萨。", "en": "Good job! I'll treat you to pizza tonight." },
+      { "role": "You", "cn": "太棒了！谢谢爸爸！", "en": "Awesome! Thanks, Dad!" }
+    ]
+  },
+  {
+    "id": "dlg-home-03",
+    "category": "home",
+    "title": "Asking for Help",
+    "titleCn": "请求帮助",
+    "scene": "你在书房写作业，遇到了难题。",
+    "roles": ["You", "Sister"],
+    "turns": [
+      { "role": "You", "cn": "姐，你能帮我一下吗？", "en": "Hey, can you help me with something?" },
+      { "role": "Sister", "cn": "怎么了？", "en": "What's up?" },
+      { "role": "You", "cn": "这道数学题我不会做。", "en": "I can't figure out this math problem." },
+      { "role": "Sister", "cn": "让我看看。", "en": "Let me take a look." },
+      { "role": "Sister", "cn": "你需要先把这个方程式化简。", "en": "You need to simplify this equation first." },
+      { "role": "You", "cn": "哦，我明白了！谢谢！", "en": "Oh, I see! Thanks!" },
+      { "role": "Sister", "cn": "不客气。有需要随时叫我。", "en": "You're welcome. Just let me know if you need anything." }
+    ]
+  }
+]

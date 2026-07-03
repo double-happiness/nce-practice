@@ -83,12 +83,14 @@
 
   function onShow(panel) {
     st.panel = panel;
+    const ui = NCE.vocabTestUi;
+    const autoStart = ui && ui.consumePending('readvocab', st);
     if (st.phase === 'quiz' && st.items.length) renderQuiz(panel);
     else if (st.phase === 'summary' && st.lastReport) renderSummary(panel, st.lastReport);
-    else renderIntro(panel);
+    else renderIntro(panel, autoStart);
   }
 
-  async function renderIntro(panel) {
+  async function renderIntro(panel, autoStart) {
     st.phase = 'intro';
     const ui = NCE.vocabTestUi;
     const books = ui ? await ui.loadBooks('read-vocab') : [{ id: '1', total: 360 }];
@@ -117,6 +119,7 @@
     panel.querySelector('#rsvStart').onclick = () => startTest(panel);
 
     await ui.renderHistory('read-vocab', st.book, panel.querySelector('#rsvHist'), '#15803d');
+    if (autoStart) startTest(panel);
   }
 
   async function startTest(panel) {
@@ -270,6 +273,7 @@
       `<div class="rsv-sum-sub">估算阅读词汇量（本册词表共 ${rep.dictTotal} 词 · 本次答对 ${rep.correct}/${rep.asked}）</div>` +
       bandsHtml +
       missedHtml +
+      '<div class="vt-compare" id="rsvCompare"></div>' +
       '<div class="rsv-actions">' +
       '<button class="rsv-btn primary" id="rsvAgain">再测一次</button>' +
       '<button class="rsv-btn" id="rsvBack">返回说明页</button>' +
@@ -282,6 +286,7 @@
     });
     panel.querySelector('#rsvAgain').onclick = () => startTest(panel);
     panel.querySelector('#rsvBack').onclick = () => renderIntro(panel);
+    NCE.vocabTestUi.renderCompare(panel, st.book, 'read', '#15803d');
     const starAll = panel.querySelector('#rsvStarAll');
     if (starAll) {
       starAll.onclick = async () => {

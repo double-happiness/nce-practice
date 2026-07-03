@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-cafe-01",
+    "category": "cafe",
+    "title": "Ordering Coffee",
+    "titleCn": "点咖啡",
+    "scene": "你在星巴克点咖啡。",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "Barista", "cn": "你好！今天想喝点什么？", "en": "Hi there! What can I get for you today?" },
+      { "role": "You", "cn": "一杯大杯拿铁，谢谢。", "en": "A grande latte, please." },
+      { "role": "Barista", "cn": "要加什么奶？全脂、脱脂还是燕麦奶？", "en": "What kind of milk? Whole, skim, or oat?" },
+      { "role": "You", "cn": "燕麦奶，少冰。", "en": "Oat milk, please. And light ice." },
+      { "role": "Barista", "cn": "要加糖浆吗？", "en": "Would you like any syrup in that?" },
+      { "role": "You", "cn": "加香草糖浆，谢谢。", "en": "Vanilla syrup, please." },
+      { "role": "Barista", "cn": "在这里吃还是带走？", "en": "For here or to go?" },
+      { "role": "You", "cn": "带走，谢谢。", "en": "To go, thanks." }
+    ]
+  },
+  {
+    "id": "dlg-cafe-02",
+    "category": "cafe",
+    "title": "Working at a Cafe",
+    "titleCn": "在咖啡店办公",
+    "scene": "你在咖啡店用笔记本电脑工作，需要更多插座。",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，请问有带插座的座位吗？", "en": "Excuse me, is there a seat near an outlet?" },
+      { "role": "Barista", "cn": "靠墙的高脚桌有插座。", "en": "The high-top tables along the wall have outlets." },
+      { "role": "You", "cn": "太好了。我还可以续杯吗？", "en": "Perfect. Can I also get a refill?" },
+      { "role": "Barista", "cn": "当然可以，同一种咖啡吗？", "en": "Sure. Same drink?" },
+      { "role": "You", "cn": "是的，还是美式，谢谢。", "en": "Yes, another Americano, please." },
+      { "role": "Barista", "cn": "马上来。需要加点吃的吗？", "en": "Coming right up. Would you like anything to eat?" },
+      { "role": "You", "cn": "来一个蓝莓司康吧。", "en": "I'll have a blueberry scone." }
+    ]
+  },
+  {
+    "id": "dlg-cafe-03",
+    "category": "cafe",
+    "title": "Meeting a Friend",
+    "titleCn": "约朋友喝咖啡",
+    "scene": "你和朋友约在咖啡店见面。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "嘿！好久不见！", "en": "Hey! Long time no see!" },
+      { "role": "You", "cn": "是啊！最近怎么样？", "en": "I know! How have you been?" },
+      { "role": "Friend", "cn": "还不错，刚换了新工作。", "en": "Pretty good. I just started a new job." },
+      { "role": "You", "cn": "恭喜！做什么的？", "en": "Congratulations! What do you do?" },
+      { "role": "Friend", "cn": "在一家科技公司做产品经理。", "en": "I'm a product manager at a tech company." },
+      { "role": "You", "cn": "太棒了！要不要再来一杯？", "en": "That's awesome! Want to grab another round?" },
+      { "role": "Friend", "cn": "好啊，我请客！", "en": "Sure, my treat!" },
+      { "role": "You", "cn": "那我下次请！", "en": "I'll get it next time!" }
+    ]
+  }
+]

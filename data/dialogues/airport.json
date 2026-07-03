@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dlg-air-01",
+    "category": "airport",
+    "title": "Check-in Counter",
+    "titleCn": "办理登机",
+    "scene": "你到达机场，准备办理登机手续。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，请出示护照和机票。", "en": "Good morning. May I see your passport and ticket, please?" },
+      { "role": "You", "cn": "给您。我想靠窗的座位。", "en": "Here you go. I'd like a window seat, please." },
+      { "role": "Agent", "cn": "好的，12A。您有行李要托运吗？", "en": "Sure, that's 12A. Do you have any bags to check?" },
+      { "role": "You", "cn": "有一个行李箱。", "en": "Yes, just one suitcase." },
+      { "role": "Agent", "cn": "请把行李放到传送带上。", "en": "Please place your bag on the conveyor belt." },
+      { "role": "Agent", "cn": "这是您的登机牌，登机口是B7。", "en": "Here's your boarding pass. Your gate is B7." },
+      { "role": "You", "cn": "几点开始登机？", "en": "What time does boarding start?" },
+      { "role": "Agent", "cn": "下午两点三十分，祝您旅途愉快！", "en": "Boarding begins at 2:30 PM. Have a great flight!" }
+    ]
+  },
+  {
+    "id": "dlg-air-02",
+    "category": "airport",
+    "title": "Security Check",
+    "titleCn": "安检",
+    "scene": "你正在通过机场安检。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "请把笔记本电脑从包里拿出来。", "en": "Please take your laptop out of your bag." },
+      { "role": "You", "cn": "好的，需要脱鞋吗？", "en": "Sure. Do I need to take off my shoes?" },
+      { "role": "Officer", "cn": "是的，请把外套也脱掉。", "en": "Yes, and please remove your jacket as well." },
+      { "role": "You", "cn": "我口袋里有一瓶水。", "en": "I have a water bottle in my pocket." },
+      { "role": "Officer", "cn": "液体不能过安检，请倒掉或扔掉。", "en": "Liquids aren't allowed. Please empty it or throw it away." },
+      { "role": "You", "cn": "好的，我这就倒掉。", "en": "Okay, I'll empty it right now." },
+      { "role": "Officer", "cn": "请走过安检门。", "en": "Please walk through the scanner." },
+      { "role": "Officer", "cn": "没问题，祝您旅途愉快。", "en": "You're all set. Have a nice trip." }
+    ]
+  },
+  {
+    "id": "dlg-air-03",
+    "category": "airport",
+    "title": "Asking for Directions",
+    "titleCn": "问路",
+    "scene": "你在机场转机，找不到登机口。",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，去C12登机口怎么走？", "en": "Excuse me, how do I get to gate C12?" },
+      { "role": "Passenger", "cn": "坐扶梯上到二楼，然后左转。", "en": "Take the escalator up to the second floor, then turn left." },
+      { "role": "You", "cn": "大概要走多久？", "en": "How long does it take to get there?" },
+      { "role": "Passenger", "cn": "大约十分钟，你的航班几点？", "en": "About ten minutes. What time is your flight?" },
+      { "role": "You", "cn": "三点起飞，现在两点半了。", "en": "It departs at three. It's two thirty now." },
+      { "role": "Passenger", "cn": "那你得赶快了！", "en": "Then you'd better hurry!" },
+      { "role": "You", "cn": "谢谢你的帮助！", "en": "Thanks for your help!" }
+    ]
+  }
+]

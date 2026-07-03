@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dlg-gym-01",
+    "category": "gym",
+    "title": "First Day at the Gym",
+    "titleCn": "第一次去健身房",
+    "scene": "你第一次去健身房，在前台办会员。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "欢迎光临！第一次来吗？", "en": "Welcome! Is this your first time here?" },
+      { "role": "You", "cn": "是的，我想了解一下会员套餐。", "en": "Yes, I'd like to learn about your membership plans." },
+      { "role": "Receptionist", "cn": "月卡四十九，年卡四百九十九。", "en": "It's forty-nine a month, or four ninety-nine for the year." },
+      { "role": "You", "cn": "年卡包含私教课吗？", "en": "Does the annual plan include personal training sessions?" },
+      { "role": "Receptionist", "cn": "包含两节免费体验课。", "en": "It includes two free trial sessions." },
+      { "role": "You", "cn": "好的，我办年卡。", "en": "Great, I'll sign up for the annual membership." },
+      { "role": "Receptionist", "cn": "请填一下这张表，我带您参观一下。", "en": "Please fill out this form, and I'll give you a tour." },
+      { "role": "You", "cn": "更衣室在哪里？", "en": "Where are the locker rooms?" }
+    ]
+  },
+  {
+    "id": "dlg-gym-02",
+    "category": "gym",
+    "title": "Using Equipment",
+    "titleCn": "使用器材",
+    "scene": "你想用跑步机，但有人在用。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "你好，这台跑步机你还要用很久吗？", "en": "Hi, are you going to be on the treadmill much longer?" },
+      { "role": "Member", "cn": "还有大概五分钟。", "en": "About five more minutes." },
+      { "role": "You", "cn": "好的，我等你。谢谢！", "en": "No problem. I'll wait. Thanks!" },
+      { "role": "Member", "cn": "好了，给你用吧。", "en": "All done. It's all yours." },
+      { "role": "You", "cn": "谢谢！你知道哑铃区在哪里吗？", "en": "Thanks! Do you know where the free weights are?" },
+      { "role": "Member", "cn": "在后面，过那个双开门就是。", "en": "In the back, just past those double doors." },
+      { "role": "You", "cn": "明白了，再次感谢！", "en": "Got it. Thanks again!" }
+    ]
+  },
+  {
+    "id": "dlg-gym-03",
+    "category": "gym",
+    "title": "After the Workout",
+    "titleCn": "锻炼结束",
+    "scene": "你刚练完，在休息区和朋友聊天。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "今天练得怎么样？", "en": "How was your workout today?" },
+      { "role": "You", "cn": "挺累的，但感觉很爽。", "en": "Pretty tough, but I feel great." },
+      { "role": "Friend", "cn": "你练了多久？", "en": "How long did you work out?" },
+      { "role": "You", "cn": "大概四十五分钟，主要练了腿。", "en": "About forty-five minutes. Mostly leg day." },
+      { "role": "Friend", "cn": "要不要一起去喝杯蛋白奶昔？", "en": "Want to grab a protein shake together?" },
+      { "role": "You", "cn": "好啊，我正好渴了。", "en": "Sure, I'm pretty thirsty." },
+      { "role": "Friend", "cn": "走吧，楼下那家不错。", "en": "Let's go. The place downstairs is pretty good." }
+    ]
+  }
+]

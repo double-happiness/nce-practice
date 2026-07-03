@@ -84,13 +84,15 @@
 
   function onShow(panel) {
     st.panel = panel;
+    const ui = NCE.vocabTestUi;
+    const autoStart = ui && ui.consumePending('listenvocab', st);
     if (st.phase === 'quiz' && st.items.length) renderQuiz(panel);
     else if (st.phase === 'summary' && st.lastReport) renderSummary(panel, st.lastReport);
-    else renderIntro(panel);
+    else renderIntro(panel, autoStart);
   }
 
   // ---------- 1. 入口页：说明 + 历史成绩 + 开始 ----------
-  async function renderIntro(panel) {
+  async function renderIntro(panel, autoStart) {
     st.phase = 'intro';
     const ui = NCE.vocabTestUi;
     const books = ui ? await ui.loadBooks('listen-vocab') : [{ id: '1', total: 360 }];
@@ -119,6 +121,7 @@
     panel.querySelector('#lsvStart').onclick = () => startTest(panel);
 
     await ui.renderHistory('listen-vocab', st.book, panel.querySelector('#lsvHist'), '#2b57d6');
+    if (autoStart) startTest(panel);
   }
 
   // ---------- 2. 测试 ----------
@@ -278,6 +281,7 @@
       `<div class="lsv-sum-sub">估算听力词汇量（本册词表共 ${rep.dictTotal} 词 · 本次答对 ${rep.correct}/${rep.asked}）</div>` +
       bandsHtml +
       missedHtml +
+      '<div class="vt-compare" id="lsvCompare"></div>' +
       '<div class="lsv-actions">' +
       '<button class="lsv-btn primary" id="lsvAgain">再测一次</button>' +
       '<button class="lsv-btn" id="lsvBack">返回说明页</button>' +
@@ -290,6 +294,7 @@
     });
     panel.querySelector('#lsvAgain').onclick = () => startTest(panel);
     panel.querySelector('#lsvBack').onclick = () => renderIntro(panel);
+    NCE.vocabTestUi.renderCompare(panel, st.book, 'listen', '#2b57d6');
     const starAll = panel.querySelector('#lsvStarAll');
     if (starAll) {
       starAll.onclick = async () => {

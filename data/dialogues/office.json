@@ -1,0 +1,54 @@
+[
+  {
+    "id": "dlg-office-01",
+    "category": "office",
+    "title": "Morning at the Office",
+    "titleCn": "早晨到办公室",
+    "scene": "周一早上，你刚到办公室和同事打招呼。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "早上好！周末过得怎么样？", "en": "Good morning! How was your weekend?" },
+      { "role": "You", "cn": "挺好的，去看了场电影。你呢？", "en": "It was good. I went to see a movie. How about you?" },
+      { "role": "Colleague", "cn": "在家休息，补了觉。", "en": "I just stayed home and caught up on sleep." },
+      { "role": "You", "cn": "今天有什么会议吗？", "en": "Do we have any meetings today?" },
+      { "role": "Colleague", "cn": "十点有个团队周会。", "en": "There's a team stand-up at ten o'clock." },
+      { "role": "You", "cn": "好的，我准备一下材料。", "en": "Okay, I'll get my materials ready." },
+      { "role": "Colleague", "cn": "咖啡机修好了，要不要来一杯？", "en": "The coffee machine is fixed. Want a cup?" },
+      { "role": "You", "cn": "太好了，来杯黑咖啡，谢谢！", "en": "That'd be great. Black coffee, please. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-office-02",
+    "category": "office",
+    "title": "Asking for a Day Off",
+    "titleCn": "请假",
+    "scene": "你需要请一天假，去找老板商量。",
+    "roles": ["You", "Boss"],
+    "turns": [
+      { "role": "You", "cn": "老板，您现在方便吗？我想请一天假。", "en": "Do you have a moment? I'd like to request a day off." },
+      { "role": "Boss", "cn": "哪天？什么事？", "en": "Which day? What's the reason?" },
+      { "role": "You", "cn": "下周五，家里有点急事要处理。", "en": "Next Friday. I have a family matter to take care of." },
+      { "role": "Boss", "cn": "那天有个项目截止，能提前完成吗？", "en": "There's a project deadline that day. Can you finish ahead of time?" },
+      { "role": "You", "cn": "可以的，我周四之前交。", "en": "Yes, I can have it done by Thursday." },
+      { "role": "Boss", "cn": "好的，批准了。有事提前安排好。", "en": "All right, it's approved. Just make sure everything is covered." },
+      { "role": "You", "cn": "谢谢老板，我会跟同事交接好的。", "en": "Thank you. I'll coordinate with the team." }
+    ]
+  },
+  {
+    "id": "dlg-office-03",
+    "category": "office",
+    "title": "Conference Call",
+    "titleCn": "电话会议",
+    "scene": "你正在参加一个国际电话会议。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "你能分享一下项目进展吗？", "en": "Could you share an update on the project?" },
+      { "role": "You", "cn": "当然。目前进度正常，预计下周完成。", "en": "Sure. We're on track and expect to finish next week." },
+      { "role": "Manager", "cn": "有什么困难或需要支持的吗？", "en": "Are there any challenges or support you need?" },
+      { "role": "You", "cn": "我们需要设计团队配合，能帮忙协调吗？", "en": "We need help from the design team. Could you coordinate that?" },
+      { "role": "Manager", "cn": "没问题，我今天联系他们。", "en": "No problem. I'll reach out to them today." },
+      { "role": "You", "cn": "谢谢！我周五再发一份详细报告。", "en": "Thank you! I'll send a detailed report on Friday." },
+      { "role": "Manager", "cn": "好的，辛苦了。", "en": "Sounds good. Great work." }
+    ]
+  }
+]

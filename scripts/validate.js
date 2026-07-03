@@ -80,6 +80,39 @@ function validate() {
     });
   });
 
+  // 情景对话：id 唯一、轮次完整、学习者台词英文非空
+  const dlgIds = new Set();
+  const DLG_CATS = new Set(Object.keys(require('../lib/dialogue-meta').CATEGORIES));
+  data.getDialogues().forEach((d, i) => {
+    const where = `dialogues[${i}] id=${d.id || '?'}`;
+    if (!d.id) errors.push(`${where}: 缺少 id`);
+    else if (dlgIds.has(d.id)) errors.push(`${where}: id 重复`);
+    else dlgIds.add(d.id);
+
+    if (!d.category) errors.push(`${where}: 缺少 category`);
+    else if (!DLG_CATS.has(d.category)) warnings.push(`${where}: category=${d.category} 不在预定义分类中`);
+    if (!d.title) warnings.push(`${where}: 缺少 title`);
+    if (!d.titleCn) warnings.push(`${where}: 缺少 titleCn`);
+    if (!d.scene) warnings.push(`${where}: 缺少 scene（情景描述）`);
+    if (!Array.isArray(d.turns) || !d.turns.length) {
+      errors.push(`${where}: turns 不能为空`);
+      return;
+    }
+    let hasYou = false;
+    d.turns.forEach((t, j) => {
+      const tw = `${where}.turns[${j}]`;
+      if (!t.role) errors.push(`${tw}: 缺少 role`);
+      if (!t.cn) errors.push(`${tw}: 缺少 cn`);
+      if (t.role === 'You') {
+        hasYou = true;
+        if (!t.en || !String(t.en).trim()) errors.push(`${tw}: 学习者台词缺少 en`);
+      } else if (!t.en || !String(t.en).trim()) {
+        errors.push(`${tw}: 缺少 en`);
+      }
+    });
+    if (!hasYou) warnings.push(`${where}: 没有 role=You 的练习轮次`);
+  });
+
   return { errors, warnings };
 }
 

@@ -660,6 +660,7 @@ table.words { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.words th, table.words td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border-soft); vertical-align: top; }
 table.words thead th, table.words tr:first-child th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
 table.words tbody tr:hover, table.words tr:hover { background: #f8faff; }
+table.words tr.word-highlight { background: #fff8e1 !important; box-shadow: inset 3px 0 0 #f59e0b; }
 table.words .w { font-weight: 700; }
 table.words .phon { color: var(--muted); font-size: 12px; }
 table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
@@ -700,6 +701,8 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
 .wstar { cursor: pointer; color: #c9b98f; margin-right: 3px; display: inline-block; transition: color .12s, transform .12s; user-select: none; }
 .wstar:hover { transform: scale(1.25); color: #e0a028; }
 .wstar.on { color: #e0a028; }
+.wdict { cursor: pointer; font-size: 13px; opacity: .55; margin-right: 2px; display: inline-block; user-select: none; transition: opacity .12s, transform .1s; }
+.wdict:hover { opacity: 1; transform: scale(1.15); }
 
 /* 书页页脚：上一课 / 页码 / 下一课 */
 .page-nav {

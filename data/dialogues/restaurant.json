@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dlg-rest-01",
+    "category": "restaurant",
+    "title": "Ordering at a Restaurant",
+    "titleCn": "餐厅点餐",
+    "scene": "你在一家美式餐厅用餐，服务员来点餐。",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "Waiter", "cn": "晚上好！欢迎光临，几位？", "en": "Good evening! Welcome. How many in your party?" },
+      { "role": "You", "cn": "两位，靠窗的位置可以吗？", "en": "Two, please. Could we get a table by the window?" },
+      { "role": "Waiter", "cn": "当然，请跟我来。这是菜单。", "en": "Of course. Right this way. Here are your menus." },
+      { "role": "Waiter", "cn": "准备好点餐了吗？", "en": "Are you ready to order?" },
+      { "role": "You", "cn": "我要牛排，五分熟，配薯条。", "en": "I'll have the steak, medium rare, with French fries." },
+      { "role": "Waiter", "cn": "要什么饮料？", "en": "And what would you like to drink?" },
+      { "role": "You", "cn": "一杯冰水，谢谢。", "en": "Just a glass of ice water, please." },
+      { "role": "Waiter", "cn": "好的，马上为您准备。", "en": "Great. I'll put that order in right away." }
+    ]
+  },
+  {
+    "id": "dlg-rest-02",
+    "category": "restaurant",
+    "title": "Food Allergy",
+    "titleCn": "食物过敏",
+    "scene": "你对花生过敏，点餐时需要说明。",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "请问，这道菜里有花生吗？", "en": "Excuse me, does this dish contain peanuts?" },
+      { "role": "Waiter", "cn": "让我帮您确认一下。", "en": "Let me check that for you." },
+      { "role": "Waiter", "cn": "沙拉酱里有花生成分。", "en": "The dressing does contain peanuts." },
+      { "role": "You", "cn": "我对花生严重过敏，有别的推荐吗？", "en": "I'm severely allergic to peanuts. Do you have any recommendations?" },
+      { "role": "Waiter", "cn": "烤鸡配蔬菜不含坚果，很安全。", "en": "The grilled chicken with vegetables is nut-free. It's a safe choice." },
+      { "role": "You", "cn": "好的，我就点那个。", "en": "Perfect, I'll have that." },
+      { "role": "Waiter", "cn": "我会在订单上注明过敏信息。", "en": "I'll make a note about the allergy on your order." },
+      { "role": "You", "cn": "非常感谢！", "en": "Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-rest-03",
+    "category": "restaurant",
+    "title": "Paying the Bill",
+    "titleCn": "结账",
+    "scene": "用餐结束，你准备结账。",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "买单，谢谢。", "en": "Could we have the check, please?" },
+      { "role": "Waiter", "cn": "一共四十二块五。", "en": "That'll be forty-two fifty." },
+      { "role": "You", "cn": "可以分开付吗？", "en": "Can we split the bill?" },
+      { "role": "Waiter", "cn": "当然可以，怎么分？", "en": "Sure. How would you like to split it?" },
+      { "role": "You", "cn": "各付各的就行。", "en": "We'll each pay for our own." },
+      { "role": "Waiter", "cn": "好的，刷卡还是现金？", "en": "Okay. Will that be card or cash?" },
+      { "role": "You", "cn": "刷卡，谢谢。服务很好！", "en": "Card, please. The service was excellent!" },
+      { "role": "Waiter", "cn": "谢谢光临，祝您晚安！", "en": "Thank you for coming. Have a wonderful evening!" }
+    ]
+  }
+]
