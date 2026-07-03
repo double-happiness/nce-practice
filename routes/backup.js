@@ -10,7 +10,7 @@ const router = express.Router();
 
 // 需要备份的运行时文件（按档案隔离，都在 data/profiles/<id>/ 下，可能不存在）
 // 注：课文原文(lesson-texts.json)是各档案共享的教材内容、随项目提交带走，不纳入按档案备份
-const KEYS = ['progress', 'srs', 'vocab', 'plan', 'words', 'transforms', 'ui', 'listen-vocab', 'read-vocab'];
+const KEYS = ['progress', 'srs', 'vocab', 'plan', 'words', 'transforms', 'ui', 'listen-vocab', 'read-vocab', 'dialogues'];
 const profile = require('../lib/profile');
 const fileOf = (key) => profile.file(`${key}.json`); // 备份/恢复只作用于当前档案
 
@@ -87,6 +87,11 @@ router.get('/backup/info', (req, res) => {
     ui: build('ui', (v) => ({ exists: true, keys: countEntries(v) })),
     'listen-vocab': build('listen-vocab', (v) => ({ exists: true, tests: countEntries(v.tests) })),
     'read-vocab': build('read-vocab', (v) => ({ exists: true, tests: countEntries(v.tests) })),
+    dialogues: build('dialogues', (v) => ({
+      exists: true,
+      attempts: countEntries(v.attempts),
+      completed: countEntries(v.completed),
+    })),
   });
 });
 
