@@ -1,0 +1,436 @@
+[
+  {
+    "book": 2,
+    "lesson": 61,
+    "title": "Trouble with the Hubble telescope",
+    "titleCn": "哈勃望远镜的困境",
+    "scene": "哈勃太空望远镜发射后，科学家原本期待它立刻传回清晰的宇宙照片，结果第一批图像却模糊不清。工程团队很快确认主镜存在微小误差，问题在地面无法直接修复。经过长期讨论，美国航天局安排航天飞机执行一次高风险维修任务。宇航员在太空行走中更换关键部件，并重新校准光学系统。几个月后，哈勃终于拍出了震撼世界的清晰星云图像，先前的质疑也逐渐被赞叹取代。",
+    "grammarTags": ["现在完成时", "被动语态"],
+    "words": [
+      { "word": "telescope", "phon": "/ˈtelɪskəʊp/", "pos": "n.", "cn": "望远镜", "eg": "The telescope has sent back amazing pictures. 这台望远镜已经传回了惊人的照片。" },
+      { "word": "mirror", "phon": "/ˈmɪrə/", "pos": "n.", "cn": "镜面", "eg": "The main mirror was polished with great care. 主镜面曾被非常仔细地打磨。" },
+      { "word": "blurred", "phon": "/blɜːd/", "pos": "adj.", "cn": "模糊的", "eg": "At first, the images were blurred and disappointing. 起初图像模糊，令人失望。" },
+      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v./n.", "cn": "修理；维修", "eg": "A difficult repair mission was planned in space. 一次艰难的太空维修任务被规划出来。" },
+      { "word": "mission", "phon": "/ˈmɪʃn/", "pos": "n.", "cn": "任务", "eg": "The mission has changed space history. 这次任务已经改变了太空史。" },
+      { "word": "astronaut", "phon": "/ˈæstrənɔːt/", "pos": "n.", "cn": "宇航员", "eg": "Astronauts were sent to install new equipment. 宇航员被派去安装新设备。" },
+      { "word": "adjust", "phon": "/əˈdʒʌst/", "pos": "v.", "cn": "调整", "eg": "They adjusted the camera system during the spacewalk. 他们在太空行走中调整了相机系统。" },
+      { "word": "orbit", "phon": "/ˈɔːbɪt/", "pos": "n./v.", "cn": "轨道；环绕", "eg": "The telescope has remained in orbit for decades. 这台望远镜几十年来一直在轨运行。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时（have/has + 过去分词）",
+        "explain": "现在完成时强调过去动作对现在的结果或影响。本课中“问题已经被发现”“任务已经成功”都与现在状态直接相关。易错点：现在完成时通常不与明确过去时间点连用，如 yesterday。",
+        "examples": [
+          "Scientists have discovered a serious optical problem. （科学家已经发现了严重的光学问题。）",
+          "The team has improved the telescope's performance. （团队已经提升了望远镜性能。）"
+        ]
+      },
+      {
+        "point": "被动语态（be + 过去分词）",
+        "explain": "当强调动作承受者而非执行者时，使用被动语态。本课常见“设备被安装”“镜面被修复”。易错点：被动语态必须包含 be 动词，且过去分词形式要正确。",
+        "examples": [
+          "A new camera was installed during the mission. （新相机在任务中被安装。）",
+          "The flaw has been corrected by engineers. （这个缺陷已被工程师修正。）"
+        ]
+      }
+    ],
+    "tips": "把课文分成“问题出现”和“问题修复”两段记忆：描述结果多用现在完成时，强调设备受动作影响时多用被动语态。"
+  },
+  {
+    "book": 2,
+    "lesson": 62,
+    "title": "After the fire!",
+    "titleCn": "火灾之后",
+    "scene": "一家老店深夜失火，店主赶到时只看到烧黑的墙面和被水浸透的货架。第二天，街坊邻居主动赶来帮忙清理废墟，有人搬走损坏木板，有人联系电工和油漆工。店主原本以为要停业很久，但在大家协助下，门窗很快被重新安装，地板也被专业工人翻新。几周后，小店再次开门营业，顾客比从前还多。这个故事突出“请别人做某事”的使役结构，体现社区互助带来的力量。",
+    "grammarTags": ["使役结构", "一般过去时"],
+    "words": [
+      { "word": "fire", "phon": "/ˈfaɪə/", "pos": "n.", "cn": "火灾", "eg": "A fire damaged the shop badly last night. 昨晚一场火灾严重损坏了商店。" },
+      { "word": "ruin", "phon": "/ˈruːɪn/", "pos": "n./v.", "cn": "废墟；毁坏", "eg": "They cleaned the ruins together in silence. 他们一起默默清理废墟。" },
+      { "word": "restore", "phon": "/rɪˈstɔː/", "pos": "v.", "cn": "修复，恢复", "eg": "The community helped restore the old building. 社区帮助修复了这栋老建筑。" },
+      { "word": "electrician", "phon": "/ɪˌlekˈtrɪʃn/", "pos": "n.", "cn": "电工", "eg": "He had an electrician check every wire. 他请电工检查了每根电线。" },
+      { "word": "paint", "phon": "/peɪnt/", "pos": "v./n.", "cn": "粉刷；油漆", "eg": "She had the walls painted in warm colors. 她请人把墙刷成暖色。" },
+      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Neighbours brought tools and food for the workers. 邻居们给工人带来了工具和食物。" },
+      { "word": "reopen", "phon": "/ˌriːˈəʊpən/", "pos": "v.", "cn": "重新开业", "eg": "The shop reopened only three weeks later. 这家店仅三周后就重新开业了。" }
+    ],
+    "grammar": [
+      {
+        "point": "使役结构 have something done",
+        "explain": "have + 宾语 + 过去分词表示“请别人完成某事”，重点在安排和结果，而非亲自动作。本课如 had the windows repaired。易错点：过去分词不能换成原形；主语通常不是执行者。",
+        "examples": [
+          "He had the floor repaired after the fire. （火灾后他请人修了地板。）",
+          "She had the signboard painted again. （她请人把招牌重新刷了一遍。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于叙述火灾及重建过程中的具体动作，如 arrived、helped、reopened。易错点：并列动作要保持同一过去时态。",
+        "examples": [
+          "Volunteers arrived early and cleared the street. （志愿者很早到达并清理了街道。）",
+          "The owner thanked everyone and reopened the shop. （店主感谢大家并重新开店。）"
+        ]
+      }
+    ],
+    "tips": "看到“请人修、请人刷、请人装”优先想到 have something done；叙事主线则用一般过去时按顺序推进。"
+  },
+  {
+    "book": 2,
+    "lesson": 63,
+    "title": "She was not amused",
+    "titleCn": "她并不觉得好笑",
+    "scene": "一位爱开玩笑的男子在航班上一路活跃气氛，不断模仿空乘和广播口音，周围乘客被逗得直笑。他越讲越起劲，还把自己和妻子的旅行趣事当众讲出来，本以为妻子会配合。没想到妻子全程表情冷淡，既不接话也不笑。下机后她平静地说，自己并不喜欢被当成笑料。男子这才意识到，有些幽默在朋友间可行，在公共场合却可能冒犯他人。",
+    "grammarTags": ["一般过去时", "一般过去时否定"],
+    "words": [
+      { "word": "amuse", "phon": "/əˈmjuːz/", "pos": "v.", "cn": "逗乐", "eg": "He tried to amuse everyone on the plane. 他试图在飞机上逗乐所有人。" },
+      { "word": "comedian", "phon": "/kəˈmiːdiən/", "pos": "n.", "cn": "喜剧演员", "eg": "He acted like a comedian during the flight. 他在飞行途中像个喜剧演员。" },
+      { "word": "passenger", "phon": "/ˈpæsɪndʒə/", "pos": "n.", "cn": "乘客", "eg": "Most passengers laughed at his stories. 大多数乘客都被他的故事逗笑了。" },
+      { "word": "joke", "phon": "/dʒəʊk/", "pos": "n./v.", "cn": "笑话；开玩笑", "eg": "He made one joke after another. 他一个接一个地讲笑话。" },
+      { "word": "embarrass", "phon": "/ɪmˈbærəs/", "pos": "v.", "cn": "使尴尬", "eg": "His wife felt embarrassed by his words. 他的妻子因他的话感到尴尬。" },
+      { "word": "silent", "phon": "/ˈsaɪlənt/", "pos": "adj.", "cn": "沉默的", "eg": "She stayed silent for the whole trip. 她整趟旅程都保持沉默。" },
+      { "word": "realize", "phon": "/ˈrɪəlaɪz/", "pos": "v.", "cn": "意识到", "eg": "He realized his mistake after landing. 落地后他意识到了自己的错误。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于叙述已经发生并结束的事件，是故事主时态。本课中 joked、laughed、said 等都属于完整过去动作。易错点：疑问和否定要借助 did。",
+        "examples": [
+          "He told funny stories and people laughed. （他讲了有趣故事，人们笑了。）",
+          "After the flight, she spoke very calmly. （飞行结束后，她很平静地说话。）"
+        ]
+      },
+      {
+        "point": "一般过去时否定（did not + 动词原形）",
+        "explain": "表示过去没发生的动作，用 did not + 原形。本课标题 She was not amused 也体现过去否定意义。易错点：did 后不能再用过去式。",
+        "examples": [
+          "She did not laugh at his jokes. （她没有笑他的笑话。）",
+          "He did not understand her feelings at first. （起初他没有理解她的感受。）"
+        ]
+      }
+    ],
+    "tips": "叙事先抓过去式动词，再找否定结构 did not do；标题中的 was not amused 也能帮助你快速锁定过去语境。"
+  },
+  {
+    "book": 2,
+    "lesson": 64,
+    "title": "The Channel Tunnel",
+    "titleCn": "英吉利海峡隧道",
+    "scene": "英吉利海峡长期把英国与法国分隔开来，过去两国往来主要依靠轮渡。为了提高交通效率，工程师提出修建海底隧道的计划，并在漫长谈判后正式开工。施工队从两端同时向海底掘进，面对渗水、地质压力和高昂成本等难题，项目多次接近停摆。最终两端隧道在海底准确会合，欧洲大陆与英国实现了全天候陆路连接。与海运相比，铁路过海更快、更稳定，也更便于大规模客货运输。",
+    "grammarTags": ["一般过去时", "比较级"],
+    "words": [
+      { "word": "channel", "phon": "/ˈtʃænl/", "pos": "n.", "cn": "海峡", "eg": "The Channel separates Britain from France. 英吉利海峡把英国与法国分开。" },
+      { "word": "tunnel", "phon": "/ˈtʌnl/", "pos": "n.", "cn": "隧道", "eg": "The tunnel runs under the sea. 这条隧道穿行于海底。" },
+      { "word": "engineer", "phon": "/ˌendʒɪˈnɪə/", "pos": "n.", "cn": "工程师", "eg": "Engineers worked from both sides of the sea. 工程师从海峡两端施工。" },
+      { "word": "connect", "phon": "/kəˈnekt/", "pos": "v.", "cn": "连接", "eg": "The project connected two countries directly. 这个项目把两国直接连了起来。" },
+      { "word": "progress", "phon": "/ˈprəʊɡres/", "pos": "n./v.", "cn": "进展；前进", "eg": "Progress was slow in the early years. 早期进展很慢。" },
+      { "word": "costly", "phon": "/ˈkɒstli/", "pos": "adj.", "cn": "昂贵的", "eg": "It was one of the most costly projects in Europe. 这是欧洲最昂贵的项目之一。" },
+      { "word": "faster", "phon": "/ˈfɑːstə/", "pos": "adj.", "cn": "更快的", "eg": "Train travel became faster than ferry travel. 火车出行变得比轮渡更快。" },
+      { "word": "safer", "phon": "/ˈseɪfə/", "pos": "adj.", "cn": "更安全的", "eg": "The route is safer in bad weather. 恶劣天气下这条线路更安全。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "用于讲述隧道建设过程中的历史事件，如 started、met、opened。易错点：历史事实叙述应统一使用过去时，不要随意切换现在时。",
+        "examples": [
+          "The builders started work from both coasts. （施工方从两岸开始作业。）",
+          "The two tunnels met under the sea in the end. （最终两段隧道在海底会合。）"
+        ]
+      },
+      {
+        "point": "比较级（faster, safer, more...）",
+        "explain": "比较级用于比较两种方式或状态。本课常比较隧道交通与轮渡交通，如 faster than。易错点：比较级常与 than 连用，不要使用双重比较。",
+        "examples": [
+          "Travel by train is faster than by ferry. （乘火车比坐轮渡更快。）",
+          "The new route is more reliable than the old one. （新路线比旧路线更可靠。）"
+        ]
+      }
+    ],
+    "tips": "历史过程用一般过去时，优势对比用比较级。看到 than 基本就进入比较级思路。"
+  },
+  {
+    "book": 2,
+    "lesson": 65,
+    "title": "Jumbo versus large crab",
+    "titleCn": "巨型客机对阵大螃蟹",
+    "scene": "一架报废的巨型喷气客机需要从机场转移到维修基地，但正常道路宽度不足，运输团队只好先把机体分段拆解。每一段都被固定在超长拖车上，夜间缓慢穿过城镇。由于飞机零件体积惊人，车队每过一个路口都要临时封路，电线和路牌也被提前移开。围观居民把这支庞大车队戏称为“会爬行的大螃蟹”。整个转运过程像一场精密工程，强调了被动动作和过去叙事的配合。",
+    "grammarTags": ["被动语态", "一般过去时"],
+    "words": [
+      { "word": "jumbo", "phon": "/ˈdʒʌmbəʊ/", "pos": "adj./n.", "cn": "巨型的；巨无霸", "eg": "A jumbo jet was moved through the town at night. 一架巨型喷气机在夜间被运过小镇。" },
+      { "word": "dismantle", "phon": "/dɪsˈmæntl/", "pos": "v.", "cn": "拆解", "eg": "The aircraft was dismantled into several parts. 飞机被拆成若干部分。" },
+      { "word": "transport", "phon": "/trænˈspɔːt/", "pos": "v.", "cn": "运输", "eg": "Each section was transported on a huge truck. 每一段都被放在大型卡车上运输。" },
+      { "word": "trailer", "phon": "/ˈtreɪlə/", "pos": "n.", "cn": "拖车", "eg": "The trailer moved very slowly at every corner. 拖车在每个拐角都移动得很慢。" },
+      { "word": "route", "phon": "/ruːt/", "pos": "n.", "cn": "路线", "eg": "The route was planned weeks in advance. 路线提前数周就被规划好了。" },
+      { "word": "block", "phon": "/blɒk/", "pos": "v.", "cn": "封堵", "eg": "Several streets were blocked for safety. 为安全起见，几条街被封闭了。" },
+      { "word": "section", "phon": "/ˈsekʃn/", "pos": "n.", "cn": "部分", "eg": "The wing section was the hardest part to move. 机翼部分是最难搬运的。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时被动语态（was/were + 过去分词）",
+        "explain": "强调“物体被处理”的过程时，用过去时被动。本课多为飞机部件作主语，如 was dismantled, were transported。易错点：不要遗漏 be 动词。",
+        "examples": [
+          "The wings were removed before transport. （机翼在运输前被拆下。）",
+          "The road was closed for two hours. （道路被封闭了两小时。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "用于串联运输过程中的关键动作，如 started、turned、arrived。易错点：叙事句并列谓语保持过去式一致。",
+        "examples": [
+          "The convoy left the airport at midnight. （车队在午夜离开机场。）",
+          "It arrived at the depot before dawn. （它在黎明前到达仓库。）"
+        ]
+      }
+    ],
+    "tips": "主语是“飞机部件”时大多用被动；主语是“车队或人”推进情节时多用一般过去时。"
+  },
+  {
+    "book": 2,
+    "lesson": 66,
+    "title": "Sweet as honey!",
+    "titleCn": "甜得像蜂蜜",
+    "scene": "一位古董商买下一只外观普通却年代久远的木柜，准备修复后转卖。工匠在切开一块变形木板时，竟发现里面有粘稠金黄色液体流出，房间里很快充满蜂蜜香气。进一步检查后他们确认，旧柜内部曾被蜜蜂筑巢，蜂巢干涸后留下大量结晶蜂蜜。古董商惊讶地说，这只柜子保存得和新的一样好，而且气味比任何香料都更甜。故事用过去完成时说明先前形成的状态，用 as...as 表达同级比较。",
+    "grammarTags": ["过去完成时", "as...as"],
+    "words": [
+      { "word": "antique", "phon": "/ænˈtiːk/", "pos": "adj./n.", "cn": "古董的；古董", "eg": "He bought an antique cupboard at a market. 他在市场买了一个古董橱柜。" },
+      { "word": "cupboard", "phon": "/ˈkʌbəd/", "pos": "n.", "cn": "橱柜", "eg": "The cupboard had stood unopened for years. 这个橱柜多年未被打开。" },
+      { "word": "honey", "phon": "/ˈhʌni/", "pos": "n.", "cn": "蜂蜜", "eg": "Honey flowed out when the wood was cut. 木板切开时蜂蜜流了出来。" },
+      { "word": "bee", "phon": "/biː/", "pos": "n.", "cn": "蜜蜂", "eg": "Bees had built a nest inside long ago. 蜜蜂很久前就在里面筑了巢。" },
+      { "word": "crystal", "phon": "/ˈkrɪstl/", "pos": "n./adj.", "cn": "结晶；晶体的", "eg": "The honey had turned into sweet crystals. 蜂蜜已经变成了甜甜的结晶体。" },
+      { "word": "fragrance", "phon": "/ˈfreɪɡrəns/", "pos": "n.", "cn": "香味", "eg": "A warm fragrance filled the workshop. 温暖的香气充满了工坊。" },
+      { "word": "equal", "phon": "/ˈiːkwəl/", "pos": "adj.", "cn": "相等的", "eg": "The old wood was as strong as new wood. 旧木头和新木头一样结实。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时（had + 过去分词）",
+        "explain": "过去完成时说明某动作在另一个过去动作前已完成。本课中蜜蜂筑巢、蜂蜜结晶都发生在“工匠切开木板”之前。易错点：若无明显过去参照，避免滥用过去完成时。",
+        "examples": [
+          "The bees had built a nest inside the cupboard. （蜜蜂早已在橱柜里筑巢。）",
+          "The honey had stayed there for many years. （蜂蜜已经在那里存放多年。）"
+        ]
+      },
+      {
+        "point": "as...as 同级比较",
+        "explain": "as + 形容词/副词原级 + as 表示“和......一样......”。本课标题 sweet as honey 即典型表达。易错点：中间用原级，不用比较级。",
+        "examples": [
+          "The smell was as sweet as fresh honey. （这气味和新鲜蜂蜜一样甜。）",
+          "The cupboard was as solid as a modern one. （这个橱柜和现代橱柜一样结实。）"
+        ]
+      }
+    ],
+    "tips": "看到“在过去某动作之前已经......”就用 had done；看到“和......一样......”就用 as...as + 原级。"
+  },
+  {
+    "book": 2,
+    "lesson": 67,
+    "title": "Volcanoes",
+    "titleCn": "火山",
+    "scene": "地理课上，老师展示了多座火山的喷发影像，并解释活火山、休眠火山和死火山的区别。许多学生原以为多年未喷发的火山已经“安全”，但纪录片显示它们仍可能突然活动。研究人员在不同地区安装了监测仪器，火山气体、地震波和地表温度都被持续记录。过去几十年里，多次喷发已经改变了附近地貌，也迫使居民撤离。课程强调人类对自然力量的敬畏，同时训练现在完成时和被动语态的使用。",
+    "grammarTags": ["现在完成时", "被动语态"],
+    "words": [
+      { "word": "volcano", "phon": "/vɒlˈkeɪnəʊ/", "pos": "n.", "cn": "火山", "eg": "Several volcanoes have erupted this century. 本世纪已有多座火山喷发。" },
+      { "word": "erupt", "phon": "/ɪˈrʌpt/", "pos": "v.", "cn": "喷发", "eg": "The mountain erupted without warning. 这座山毫无预警地喷发了。" },
+      { "word": "dormant", "phon": "/ˈdɔːmənt/", "pos": "adj.", "cn": "休眠的", "eg": "A dormant volcano may wake up again. 休眠火山可能再次活跃。" },
+      { "word": "extinct", "phon": "/ɪkˈstɪŋkt/", "pos": "adj.", "cn": "死火山的", "eg": "People thought it was extinct for years. 人们多年都以为它已是死火山。" },
+      { "word": "ash", "phon": "/æʃ/", "pos": "n.", "cn": "火山灰", "eg": "Ash has covered nearby villages before. 火山灰曾覆盖附近村庄。" },
+      { "word": "monitor", "phon": "/ˈmɒnɪtə/", "pos": "v.", "cn": "监测", "eg": "Scientists monitor gas and ground movement daily. 科学家每天监测气体和地面运动。" },
+      { "word": "evacuate", "phon": "/ɪˈvækjueɪt/", "pos": "v.", "cn": "撤离", "eg": "Thousands were evacuated after the warning. 警报后数千人被撤离。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "强调过去事件对现在的影响或经验。本课中“火山已经喷发”“地貌已经改变”都适合现在完成时。易错点：不要与具体过去时间点直接搭配。",
+        "examples": [
+          "Many volcanoes have erupted in recent years. （近年来许多火山已经喷发。）",
+          "Scientists have learned a lot from these events. （科学家已从这些事件中学到很多。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "当关注“居民被撤离”“数据被记录”等受动对象时，使用被动语态。易错点：注意时态变化，如 have been recorded。",
+        "examples": [
+          "Villagers were evacuated before the eruption. （村民在喷发前被撤离。）",
+          "Warning signals have been recorded by sensors. （警报信号已被传感器记录。）"
+        ]
+      }
+    ],
+    "tips": "自然灾害话题里常出现“已经发生+现在影响”，优先想现在完成时；描述应急处置常用被动语态。"
+  },
+  {
+    "book": 2,
+    "lesson": 68,
+    "title": "Persistent",
+    "titleCn": "纠缠不休",
+    "scene": "一位推销百科全书的业务员连续多周拜访同一户人家。第一次上门时女主人婉拒，第二次来时她说家里已经买过书，第三次她干脆不想开门。但推销员每次都保持礼貌，隔几天又会敲门出现。邻居都知道了这件事，甚至能预测他何时到来。最终，女主人被他的坚持打动，至少同意听完完整介绍。这篇课文突出“动作从过去开始一直持续到现在”的语义，适合练习现在完成进行时。",
+    "grammarTags": ["现在完成进行时", "一般过去时"],
+    "words": [
+      { "word": "persistent", "phon": "/pəˈsɪstənt/", "pos": "adj.", "cn": "坚持不懈的", "eg": "The salesman was extremely persistent. 这位推销员非常执着。" },
+      { "word": "salesman", "phon": "/ˈseɪlzmən/", "pos": "n.", "cn": "推销员", "eg": "A salesman has been visiting us for weeks. 一位推销员几周来一直在拜访我们。" },
+      { "word": "encyclopedia", "phon": "/ɪnˌsaɪkləˈpiːdiə/", "pos": "n.", "cn": "百科全书", "eg": "He tried to sell a set of encyclopedias. 他试图推销一套百科全书。" },
+      { "word": "doorbell", "phon": "/ˈdɔːbel/", "pos": "n.", "cn": "门铃", "eg": "The doorbell kept ringing every few days. 门铃每隔几天就响一次。" },
+      { "word": "refuse", "phon": "/rɪˈfjuːz/", "pos": "v.", "cn": "拒绝", "eg": "She refused him politely at first. 她起初礼貌地拒绝了他。" },
+      { "word": "repeat", "phon": "/rɪˈpiːt/", "pos": "v.", "cn": "重复", "eg": "He repeated the same request again and again. 他一再重复同样请求。" },
+      { "word": "finally", "phon": "/ˈfaɪnəli/", "pos": "adv.", "cn": "最终", "eg": "Finally she agreed to listen for five minutes. 最终她同意听五分钟。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成进行时（have/has been doing）",
+        "explain": "表示动作从过去开始持续到现在，且强调持续过程。本课中“推销员一直在来”是核心语义。易错点：结构里 been 不能省略。",
+        "examples": [
+          "He has been knocking on the same door for weeks. （他几周来一直在敲同一扇门。）",
+          "They have been discussing the offer all morning. （他们整个上午都在讨论这份报价。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "用于叙述某次具体拜访或某个已结束动作，如 refused、opened、agreed。易错点：与完成进行时并用时，要区分“持续背景”与“具体节点”。",
+        "examples": [
+          "She refused him yesterday again. （她昨天又拒绝了他。）",
+          "At last she opened the door and smiled. （最后她打开门笑了。）"
+        ]
+      }
+    ],
+    "tips": "判断关键词：for weeks、all morning、since... 常引导现在完成进行时；具体某次行为则用一般过去时。"
+  },
+  {
+    "book": 2,
+    "lesson": 69,
+    "title": "But not murder!",
+    "titleCn": "但这并非谋杀",
+    "scene": "一名男子为骗取高额保险金，精心策划“失踪死亡”骗局。他先伪造现场，再让朋友散播自己已遇害的消息，妻子在警方询问时也一度深信不疑。几天后，警方在外地旅馆找到这名男子，真相迅速反转。原来他在计划开始前就转移了财物，并提前准备了假证件。妻子震惊地告诉警官：她从没想过丈夫会做这种事。故事通过过去完成时交代先行动作，并结合间接引语转述人物说法。",
+    "grammarTags": ["过去完成时", "间接引语"],
+    "words": [
+      { "word": "murder", "phon": "/ˈmɜːdə/", "pos": "n./v.", "cn": "谋杀", "eg": "At first the police thought it was murder. 起初警方以为这是一起谋杀案。" },
+      { "word": "fake", "phon": "/feɪk/", "pos": "v./adj.", "cn": "伪造；假的", "eg": "He faked his own death for insurance money. 他为保险金伪造了自己的死亡。" },
+      { "word": "insurance", "phon": "/ɪnˈʃʊərəns/", "pos": "n.", "cn": "保险", "eg": "The company refused to pay the insurance claim. 保险公司拒绝理赔。" },
+      { "word": "evidence", "phon": "/ˈevɪdəns/", "pos": "n.", "cn": "证据", "eg": "New evidence changed the whole case. 新证据改变了整个案情。" },
+      { "word": "suspect", "phon": "/ˈsʌspekt/", "pos": "n./v.", "cn": "嫌疑人；怀疑", "eg": "His wife was not the main suspect in the end. 最终他的妻子不是主要嫌疑人。" },
+      { "word": "claim", "phon": "/kleɪm/", "pos": "n./v.", "cn": "索赔；声称", "eg": "He claimed he had been attacked. 他声称自己曾遭袭击。" },
+      { "word": "confess", "phon": "/kənˈfes/", "pos": "v.", "cn": "承认", "eg": "He finally confessed to the fraud. 他最终承认了诈骗。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "用于表达“过去的过去”。本课中转移财物、准备证件都早于警方发现他。易错点：需要有明确参照过去动作，否则容易与一般过去时混淆。",
+        "examples": [
+          "He had moved his money before the police arrived. （警方到达前他已转移了钱。）",
+          "They had prepared a false story in advance. （他们提前准备了假说辞。）"
+        ]
+      },
+      {
+        "point": "间接引语（reported speech）",
+        "explain": "转述他人原话时常出现时态后移，如 will 变 would，am/is 变 was。易错点：代词和时间状语也可能变化。",
+        "examples": [
+          "She said that she had believed his story. （她说她曾相信他的说法。）",
+          "The officer told us that he would check the hotel records. （警官告诉我们他会核查旅馆记录。）"
+        ]
+      }
+    ],
+    "tips": "先用过去完成时搭好事件先后，再用间接引语转述人物说法，故事逻辑会非常清晰。"
+  },
+  {
+    "book": 2,
+    "lesson": 70,
+    "title": "Red for danger",
+    "titleCn": "红色危险信号",
+    "scene": "一位斗牛士在比赛前紧张得手心冒汗，却又不愿让观众看出自己害怕。他临时拿起一张报纸，躲在栏杆后反复练习动作，假装一切轻松。比赛开始后，公牛冲向场地中央，他一度来不及举起红布，只好用报纸遮挡自己，现场观众惊呼连连。幸运的是，助手及时从侧面引开公牛，事故没有发生。这个故事既是过去叙事，也包含大量位置关系表达，如 behind, in front of, across, through 等介词。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      { "word": "bullfighter", "phon": "/ˈbʊlˌfaɪtə/", "pos": "n.", "cn": "斗牛士", "eg": "The bullfighter looked calm but felt afraid. 斗牛士看起来冷静，实际很害怕。" },
+      { "word": "newspaper", "phon": "/ˈnjuːzpeɪpə/", "pos": "n.", "cn": "报纸", "eg": "He hid behind a newspaper before the show. 演出前他躲在报纸后面。" },
+      { "word": "arena", "phon": "/əˈriːnə/", "pos": "n.", "cn": "竞技场", "eg": "The crowd in the arena shouted loudly. 场内观众大声呼喊。" },
+      { "word": "charge", "phon": "/tʃɑːdʒ/", "pos": "v.", "cn": "猛冲", "eg": "The bull charged across the ring. 公牛猛冲过场地。" },
+      { "word": "cape", "phon": "/keɪp/", "pos": "n.", "cn": "斗篷；披肩", "eg": "He dropped his red cape by accident. 他不小心掉了红布。" },
+      { "word": "behind", "phon": "/bɪˈhaɪnd/", "pos": "prep./adv.", "cn": "在......后面", "eg": "He stood behind the barrier for a second. 他在围栏后站了一会儿。" },
+      { "word": "through", "phon": "/θruː/", "pos": "prep.", "cn": "穿过", "eg": "The bull ran through the center quickly. 公牛快速穿过中央区域。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "用于讲述比赛中已发生的动作，如 hid、started、charged。易错点：描述连续事件时尽量保持过去时一致。",
+        "examples": [
+          "He picked up a newspaper and hid quickly. （他拿起报纸，迅速躲了起来。）",
+          "The assistant arrived in time and saved him. （助手及时赶到并救了他。）"
+        ]
+      },
+      {
+        "point": "介词（in, on, behind, through 等）",
+        "explain": "介词用来表达空间关系和移动路径。本课高频是 behind（在后面）、across（横穿）、through（穿过）。易错点：注意 through 强调“从内部穿过”，across 强调“从表面横过”。",
+        "examples": [
+          "He stood behind the gate. （他站在门后。）",
+          "The bull ran through the ring. （公牛从场地中穿过。）"
+        ]
+      }
+    ],
+    "tips": "这课先抓动作动词的过去式，再给每个动作补上位置介词，句子会更具体也更地道。"
+  },
+  {
+    "book": 2,
+    "lesson": 71,
+    "title": "A famous clock",
+    "titleCn": "一座著名的大钟",
+    "scene": "伦敦地标大本钟曾在一次暴风雨后突然停摆，钟面时间固定不动，游客纷纷拍照讨论。技术人员检查后发现内部旧零件长期磨损，部分齿轮已经失衡。为了彻底修复，这座巨钟被暂时停止报时，并由起重设备缓慢降下关键部件。维修团队在高空作业数周后完成更换与校准，钟声终于再次准时响起。课文重点是过去完成时被动，强调“在另一过去动作前已经被完成”的被动过程。",
+    "grammarTags": ["过去完成时", "被动语态"],
+    "words": [
+      { "word": "clock", "phon": "/klɒk/", "pos": "n.", "cn": "钟", "eg": "The famous clock stopped during the storm. 这座著名大钟在暴风雨中停了。" },
+      { "word": "tower", "phon": "/ˈtaʊə/", "pos": "n.", "cn": "塔楼", "eg": "People looked up at the tower in surprise. 人们惊讶地仰望塔楼。" },
+      { "word": "gear", "phon": "/ɡɪə/", "pos": "n.", "cn": "齿轮", "eg": "Several gears had been damaged by age. 几个齿轮因老化已被损坏。" },
+      { "word": "lower", "phon": "/ˈləʊə/", "pos": "v.", "cn": "放下，降下", "eg": "Heavy parts were lowered carefully by crane. 重型部件被吊车小心降下。" },
+      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v./n.", "cn": "修理；维修", "eg": "The clock had been repaired before winter. 入冬前这座钟已被修好。" },
+      { "word": "accurate", "phon": "/ˈækjərət/", "pos": "adj.", "cn": "准确的", "eg": "It became accurate again after adjustment. 调整后它再次变得精准。" },
+      { "word": "chime", "phon": "/tʃaɪm/", "pos": "n./v.", "cn": "钟声；敲响", "eg": "Its chimes were heard across the city. 全城都能听到它的钟声。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时被动（had been + 过去分词）",
+        "explain": "表示在过去某时之前某事“已经被完成”。本课如 had been repaired, had been lowered。易错点：结构是 had been done，不是 had done。",
+        "examples": [
+          "The damaged gears had been replaced before dawn. （受损齿轮在黎明前已被更换。）",
+          "The mechanism had been tested before it restarted. （重启前机械装置已被测试。）"
+        ]
+      },
+      {
+        "point": "一般过去时被动",
+        "explain": "描述过去某个时间发生的被动动作，如 was stopped, were lowered。易错点：区分 was repaired（过去发生）与 had been repaired（过去某时之前已完成）。",
+        "examples": [
+          "The clock was stopped for safety checks. （大钟因安全检查被停用。）",
+          "Some parts were removed by engineers. （一些部件被工程师拆下。）"
+        ]
+      }
+    ],
+    "tips": "时间线上先找“参照过去动作”，更早发生且是被动的就用 had been done。"
+  },
+  {
+    "book": 2,
+    "lesson": 72,
+    "title": "A car called Bluebird",
+    "titleCn": "一辆名叫“蓝鸟”的汽车",
+    "scene": "赛车手唐纳德·坎贝尔驾驶“蓝鸟”在盐湖平原挑战世界速度纪录。比赛前，机械团队连续多日调试发动机和车身平衡，确保每项数据稳定。正式冲刺时，蓝鸟在平直赛道上不断加速，速度很快超过以往纪录。观众通过广播得知成绩后欢呼不已，因为这次成绩不仅更快，也更稳定。回顾整个过程，人们发现他在起跑前已进行了长期高强度训练。课文结合过去完成进行时与比较级，突出“持续准备”和“速度对比”。",
+    "grammarTags": ["过去完成进行时", "比较级"],
+    "words": [
+      { "word": "record", "phon": "/ˈrekɔːd/", "pos": "n.", "cn": "纪录", "eg": "Bluebird broke a world speed record. 蓝鸟打破了世界速度纪录。" },
+      { "word": "driver", "phon": "/ˈdraɪvə/", "pos": "n.", "cn": "驾驶员", "eg": "The driver had been training for months. 这位驾驶员此前已训练数月。" },
+      { "word": "engine", "phon": "/ˈendʒɪn/", "pos": "n.", "cn": "发动机", "eg": "The engineers had been testing the engine all week. 工程师整周都在测试发动机。" },
+      { "word": "salt flat", "phon": "/sɔːlt flæt/", "pos": "n.", "cn": "盐湖平原", "eg": "The run took place on a wide salt flat. 比赛在宽阔盐湖平原进行。" },
+      { "word": "stable", "phon": "/ˈsteɪbl/", "pos": "adj.", "cn": "稳定的", "eg": "The car felt more stable at high speed. 高速时这辆车感觉更稳定。" },
+      { "word": "faster", "phon": "/ˈfɑːstə/", "pos": "adj.", "cn": "更快的", "eg": "It was faster than any car he had driven before. 这比他以前开过的任何车都更快。" },
+      { "word": "attempt", "phon": "/əˈtempt/", "pos": "n./v.", "cn": "尝试", "eg": "This was his second attempt at the record. 这是他第二次冲击纪录。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成进行时（had been doing）",
+        "explain": "表示某动作在过去某时前一直持续，突出过程和时长。本课如 had been training, had been testing。易错点：不能写成 had doing，必须有 been。",
+        "examples": [
+          "He had been preparing for this race for a year. （他为这场比赛已经准备了一年。）",
+          "The team had been checking the engine repeatedly. （团队一直在反复检查发动机。）"
+        ]
+      },
+      {
+        "point": "比较级",
+        "explain": "比较级用于对速度、稳定性等进行对比，如 faster, more stable。易错点：than 后比较对象要明确，避免逻辑不完整。",
+        "examples": [
+          "Bluebird was faster than the previous model. （蓝鸟比上一代车型更快。）",
+          "The new design was more stable than before. （新设计比以前更稳定。）"
+        ]
+      }
+    ],
+    "tips": "描述长期准备时用 had been doing，比较成绩时用比较级。把“准备线”和“结果线”分开记忆更容易。"
+  }
+]
