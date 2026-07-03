@@ -261,7 +261,7 @@ function tabGroupBox(id) {
 }
 
 // 合并标签：生词本 + 背单词 归入同一个「单词」标签，内部用子页切换
-const MERGE = { id: 'wordhub', label: '单词', icon: '🔤', children: { vocab: true, words: true } };
+const MERGE = { id: 'wordhub', label: '单词', icon: '🔤', children: { vocab: true, words: true, listenvocab: true } };
 let mergeHost = null; // { tab, panel, subnav, body, current }
 function ensureMergeHost() {
   if (mergeHost) return mergeHost;
@@ -383,11 +383,20 @@ function loadLastLesson() {
 async function renderHome() {
   const box = $('homeContent');
   const last = loadLastLesson();
-  const [prog, plan, srs] = await Promise.all([
-    api('/api/progress'),
-    api('/api/plan/overview'),
-    api('/api/srs/stats'),
+  // 每项独立兜底：任一接口失败只影响对应卡片的数据，不拖垮整个首页
+  const [prog, plan, srs, gram, words] = await Promise.all([
+    api('/api/progress').catch(() => ({ totalAttempts: 0, accuracy: 0, wrongCount: 0 })),
+    api('/api/plan/overview').catch(() => ({ goal: 10, todayCount: 0, streak: 0, totalDays: 0 })),
+    api('/api/srs/stats').catch(() => ({ due: 0, upcoming: 0, total: 0 })),
+    api('/api/stats/grammar').catch(() => ({ grammar: [] })),
+    api('/api/words/stats?book=1').catch(() => null),
   ]);
+
+  // 薄弱语法点：练够 4 次且正确率 < 85% 才算（接口已按正确率升序，最弱在前）
+  const weak = (gram.grammar || []).filter((g) => g.seen >= 4 && g.accuracy < 85);
+  const w1 = weak[0] || null;
+  // 「学习中」(level 1-2) 的单词就是默写待巩固池
+  const wordsDue = words ? words.learning || 0 : 0;
 
   const goalPct = Math.min(100, plan.goal ? Math.round((plan.todayCount / plan.goal) * 100) : 0);
   const goalDone = plan.todayCount >= plan.goal;
@@ -401,18 +410,38 @@ async function renderHome() {
       <div class="hc-sub">${goalDone ? '今日目标已完成，真棒！' : `还差 ${plan.goal - plan.todayCount} 题完成今日目标`} · 连续打卡 <b>${plan.streak}</b> 天</div>
       <button class="btn primary" data-goto="practice">开始练习 →</button>
     </div>` +
-    // 到期复习
+    // 今日复习（到期错题 + 待巩固单词）
     `<div class="home-card">
-      <div class="hc-title">🔁 到期复习</div>
-      <div class="hc-big">${srs.due} <span class="hc-unit">题</span></div>
+      <div class="hc-title">🔁 今日复习</div>
+      <div class="hc-big">${srs.due} <span class="hc-unit">题错题到期</span></div>
       <div class="hc-sub">${
         srs.due
-          ? '错题按遗忘曲线到期了，趁热复习效果最好'
+          ? '按遗忘曲线到期了，趁热复习效果最好'
           : srs.upcoming
-            ? `暂无到期复习，未来 7 天将有 ${srs.upcoming} 题到期`
-            : '复习队列是空的，先去刷题积累吧'
-      }</div>
-      <button class="btn ${srs.due ? 'primary' : ''}" data-goto="review">去复习 →</button>
+            ? `暂无到期错题，未来 7 天将有 ${srs.upcoming} 题到期`
+            : '错题复习队列是空的，先去刷题积累吧'
+      }${wordsDue ? `<br>另有 <b>${wordsDue}</b> 个学习中的单词待默写巩固` : ''}</div>
+      <div class="hc-btns">
+        <button class="btn ${srs.due ? 'primary' : ''}" data-goto="review">复习错题 →</button>
+        ${wordsDue ? '<button class="btn" id="homeSpellBtn">默写单词 →</button>' : ''}
+      </div>
+    </div>` +
+    // 薄弱专练（来自语法正确率统计）
+    `<div class="home-card">
+      <div class="hc-title">📌 薄弱专练</div>
+      ${
+        w1
+          ? `<div class="hc-big hc-small">${escapeHtml(w1.tag)}</div>
+             <div class="hc-sub">正确率 <b class="acc ${accClass(w1.accuracy)}">${w1.accuracy}%</b>（已练 ${w1.seen} 次），是你目前最薄弱的语法点${
+               weak[1] ? `；其次是「${escapeHtml(weak[1].tag)}」（${weak[1].accuracy}%）` : ''
+             }</div>
+             <button class="btn primary" id="homeWeakBtn">专练 10 题 →</button>`
+          : (gram.grammar || []).length
+            ? `<div class="hc-sub">已练过的语法点正确率都在 85% 以上，继续保持！想看全貌可去薄弱分析。</div>
+               <button class="btn" data-goto="stats">看薄弱分析 →</button>`
+            : `<div class="hc-sub">练习数据还不够，先刷几组题，这里会告诉你最该补的语法点。</div>
+               <button class="btn" data-goto="practice">去刷题 →</button>`
+      }
     </div>` +
     // 继续学习
     `<div class="home-card">
@@ -433,6 +462,7 @@ async function renderHome() {
       <div class="hc-links">
         <a data-goto="dictation">🎧 听写</a>
         <a data-goto="words">🔤 背单词</a>
+        <a data-goto="listenvocab">👂 听力词汇量</a>
         <a data-goto="exam">📝 阶段测验</a>
         <a data-goto="stats">📊 薄弱分析</a>
       </div>
@@ -442,6 +472,17 @@ async function renderHome() {
   box.querySelectorAll('[data-goto]').forEach((el) => {
     el.onclick = () => gotoTab(el.dataset.goto);
   });
+  // 薄弱专练：直接按最弱语法点组一组题
+  const weakBtn = $('homeWeakBtn');
+  if (weakBtn && w1) weakBtn.onclick = () => practiceGrammar(w1.tag);
+  // 默写单词：深链到「背单词」的默写模式
+  const spellBtn = $('homeSpellBtn');
+  if (spellBtn) {
+    spellBtn.onclick = () => {
+      NCE.pendingWords = { mode: 'spell' };
+      gotoTab('words');
+    };
+  }
   const cont = $('homeContinueBtn');
   if (cont) {
     cont.onclick = async () => {
@@ -829,6 +870,34 @@ async function practiceCurrentLesson() {
   beginQuiz(qs);
 }
 
+// 按语法点直接组一组题（首页「薄弱专练」入口），并把刷题设置页的筛选同步过去，
+// 练完点「再练一组」能延续同一条件
+async function practiceGrammar(tag) {
+  const byBook = (state.meta && state.meta.grammarByBook) || {};
+  // 该语法点所在的册：优先当前选中的册，否则取第一个含它的册
+  let book = (byBook[state.selectedBook] || []).includes(tag) ? state.selectedBook : null;
+  if (!book) {
+    const b = Object.keys(byBook).find((k) => (byBook[k] || []).includes(tag));
+    if (b) book = Number(b);
+  }
+  const p = new URLSearchParams({ grammar: tag, random: '1', limit: '10' });
+  if (book) p.set('book', book);
+  const data = await api('/api/questions?' + p.toString()).catch(() => null);
+  if (!data || !data.count) {
+    toast('该语法点暂无可练题目');
+    return;
+  }
+  if (book) {
+    state.selectedBook = book;
+    state.selectedGrammar = tag;
+    state.selectedUnit = null;
+    renderBookChips();
+    renderUnitChips();
+    renderGrammarChips();
+  }
+  beginQuiz(data.questions);
+}
+
 function renderBookChips() {
   const box = $('bookChips');
   box.innerHTML = '';
@@ -1018,6 +1087,7 @@ function beginQuiz(questions) {
   state.stepIndex = 0;
   state.stepResults = [];
   document.querySelectorAll('.tab').forEach((t) => t.classList.toggle('active', t.dataset.tab === 'practice'));
+  history.replaceState(null, '', '#practice'); // 从首页/教材页直入答题时同步 hash
   if (state.mode === 'step') renderStepQuiz();
   else renderQuiz();
   showPanel('quizPanel');

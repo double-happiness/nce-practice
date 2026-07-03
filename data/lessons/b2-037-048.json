@@ -1,0 +1,542 @@
+[
+  {
+    "book": 2,
+    "lesson": 37,
+    "title": "The Olympic Games",
+    "titleCn": "奥林匹克运动会",
+    "scene": "四年之后的奥运会将在本国举行，全国上下都在为此忙碌：崭新的体育场、游泳池正在兴建，运动员村也已破土动工，届时还将有大批外国游客涌入首都。本课以“畅想未来的盛会”为主线，通篇采用一般将来时的被动语态（will be held / will be built）来陈述各项安排——重要的是“事情将被完成”，而不是“谁去完成”，这正是被动语态最典型的使用场景。",
+    "grammarTags": ["被动语态", "一般将来时"],
+    "words": [
+      { "word": "hold", "phon": "/həʊld/", "pos": "v.", "cn": "举行，举办", "eg": "The next swimming competition will be held in our city. 下一届游泳比赛将在我们市举行。" },
+      { "word": "stadium", "phon": "/ˈsteɪdiəm/", "pos": "n.", "cn": "体育场", "eg": "A modern stadium is being built near the river. 一座现代化的体育场正在河边兴建。" },
+      { "word": "capital", "phon": "/ˈkæpɪtl/", "pos": "n.", "cn": "首都；资本", "eg": "Thousands of visitors will come to the capital next spring. 明年春天将有成千上万的游客来到首都。" },
+      { "word": "immense", "phon": "/ɪˈmens/", "pos": "adj.", "cn": "巨大的，广大的", "eg": "Preparing for the Games is an immense task for the government. 筹备运动会对政府来说是一项巨大的任务。" },
+      { "word": "standard", "phon": "/ˈstændəd/", "pos": "n.", "cn": "标准，水平", "eg": "The new pool has been designed to meet international standards. 新泳池是按国际标准设计的。" },
+      { "word": "design", "phon": "/dɪˈzaɪn/", "pos": "v./n.", "cn": "设计；图样", "eg": "The athletes' village was designed by a famous architect. 运动员村由一位著名建筑师设计。" },
+      { "word": "fantastic", "phon": "/fænˈtæstɪk/", "pos": "adj.", "cn": "极好的；异想天开的", "eg": "Everyone says the opening ceremony will be fantastic. 人人都说开幕式将会非常精彩。" },
+      { "word": "athlete", "phon": "/ˈæθliːt/", "pos": "n.", "cn": "运动员", "eg": "Athletes from all over the world will live in the new village. 来自世界各地的运动员将住在新建的运动员村里。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般将来时的被动语态（will be + 过去分词）",
+        "explain": "当我们关心“某事将被做”而不必说明“由谁来做”时，用一般将来时的被动语态，构成为“will be + 过去分词”，否定式为“will not (won't) be + 过去分词”。这种结构常用于报道计划、安排和公共工程，如比赛“将被举行”、场馆“将被建成”。易错点：①过去分词不能写成动词原形（不能说 will be build）；②如需说明动作执行者，用 by 短语放在句末；③主语是动作的承受者，不要再在句中重复宾语。",
+        "examples": [
+          "A new sports centre will be built next to the station. （一座新体育中心将建在车站旁边。）",
+          "The results will be announced by the judges tomorrow morning. （比赛结果将由裁判于明天上午宣布。）"
+        ]
+      },
+      {
+        "point": "一般将来时（will / be going to）",
+        "explain": "一般将来时表示将来发生的动作或状态。will + 动词原形多用于陈述客观将来或临时决定；be going to + 动词原形侧重“打算”或“根据迹象即将发生”。时间状语常见 next year、in four years' time、soon 等。易错点：在 when、as soon as 等引导的时间状语从句中不用将来时，而用一般现在时代替，如 When the Games begin, ...（不说 will begin）。",
+        "examples": [
+          "In four years' time, our city will welcome visitors from every country. （四年之后，我们的城市将迎来世界各国的游客。）",
+          "Look at those cranes—they are going to finish the stadium ahead of time. （看那些吊车——他们将提前完成体育场的工程。）"
+        ]
+      },
+      {
+        "point": "现在进行时的被动语态（is/are being + 过去分词）",
+        "explain": "描述“某事此刻正在被做”，构成为“am/is/are being + 过去分词”，常与 now、at the moment 等时间状语连用，特别适合描写正在施工的工程。易错点：不要漏掉 being，“is built”表示状态或一般被动，而“is being built”才强调“正在被建”。",
+        "examples": [
+          "A huge swimming pool is being built in the east of the city. （一座巨大的游泳池正在城东兴建。）",
+          "New roads are being laid to connect the village with the airport. （连接运动员村和机场的新道路正在铺设之中。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：想象新闻发布会上发言人介绍奥运筹备——场馆“将被建成”、比赛“将被举行”，说话人关心工程本身而非施工者，这就是被动语态的舞台。②易错提醒：will be held 中 held 是 hold 的过去分词，千万不要写成 will be hold；正在施工要说 is being built，别漏 being。③对比/记忆法：三步走记忆施工进度——is being built（正在建）→ will be built（将要建）→ has been built（已建成），一条时间轴串起三种被动。"
+  },
+  {
+    "book": 2,
+    "lesson": 38,
+    "title": "Everything except the weather",
+    "titleCn": "唯独没有考虑天气",
+    "scene": "老朋友 Harrison 在阳光明媚的地中海畔生活了多年，退休后决定回英国定居。他精心挑选的房子样样称心：位置好、价钱合适、花园漂亮——唯独忘了把英国的坏天气算进去。阴雨连绵、寒风刺骨，让住惯了温暖气候的他叫苦不迭，最终又卖掉房子离开了英国。叙述“回国之前他已在国外住了多年、已把一切都想好”用过去完成时，而回国后的遭遇则用一般过去时，两种时态的先后配合是本课的语法主线。",
+    "grammarTags": ["过去完成时", "一般过去时"],
+    "words": [
+      { "word": "except", "phon": "/ɪkˈsept/", "pos": "prep.", "cn": "除……之外（不包括）", "eg": "He thought of everything except the terrible weather. 他什么都想到了，唯独没想到糟糕的天气。" },
+      { "word": "settle", "phon": "/ˈsetl/", "pos": "v.", "cn": "定居；安顿", "eg": "After years abroad, he decided to settle in a small English town. 在国外多年之后，他决定在英国一座小城定居。" },
+      { "word": "complain", "phon": "/kəmˈpleɪn/", "pos": "v.", "cn": "抱怨，诉苦", "eg": "He complained about the rain almost every day. 他几乎天天抱怨下雨。" },
+      { "word": "continually", "phon": "/kənˈtɪnjuəli/", "pos": "adv.", "cn": "不断地，频繁地", "eg": "It rained continually during his first month back. 他回国后的头一个月雨下个不停。" },
+      { "word": "bitterly", "phon": "/ˈbɪtəli/", "pos": "adv.", "cn": "刺骨地；痛苦地", "eg": "It was bitterly cold, and he missed the southern sunshine. 天气寒冷刺骨，他十分想念南方的阳光。" },
+      { "word": "sunshine", "phon": "/ˈsʌnʃaɪn/", "pos": "n.", "cn": "阳光", "eg": "He had enjoyed warm sunshine for so many years abroad. 他在国外享受了那么多年温暖的阳光。" },
+      { "word": "damp", "phon": "/dæmp/", "pos": "adj.", "cn": "潮湿的", "eg": "The damp air made the old man feel uncomfortable. 潮湿的空气让这位老人很不舒服。" },
+      { "word": "dream", "phon": "/driːm/", "pos": "v./n.", "cn": "梦想；梦", "eg": "He had often dreamed of a quiet house with a pretty garden. 他常常梦想有一座带漂亮花园的安静房子。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时（had + 过去分词）",
+        "explain": "过去完成时表示“过去的过去”，即在过去某一时间或动作之前已经完成的动作，构成为“had + 过去分词”。它常与 before、by the time、already、just、never 等词连用，用来交代背景：Harrison 回国之前“已经在国外住了多年”、“早已把房子的事想好”。易错点：①必须有一个过去的参照点，孤立地叙述过去的事只用一般过去时；②不要把 had 后面的过去分词误写成过去式（had went 是错的，应为 had gone）。",
+        "examples": [
+          "Before he returned to England, he had lived abroad for over twenty years. （回英国之前，他已在国外生活了二十多年。）",
+          "By the time winter came, he had already begun to regret his decision. （冬天到来时，他已经开始后悔自己的决定了。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时叙述过去某一时间发生的动作或存在的状态，是讲故事的基本时态，规则动词加 -ed，不规则动词需逐一记忆。常与 last year、in 2010、one day 等明确的过去时间状语连用。易错点：一连串按时间顺序发生的动作，用一般过去时依次叙述即可，不必每句都用过去完成时；只有需要强调“更早发生”时才用 had done。",
+        "examples": [
+          "He bought a house near the sea and moved in at once. （他在海边买了一所房子，立刻搬了进去。）",
+          "In the end he sold the house and left the country again. （最后他卖掉房子，再次离开了这个国家。）"
+        ]
+      },
+      {
+        "point": "so ... that 结果状语从句",
+        "explain": "“so + 形容词/副词 + that 从句”表示“如此……以至于……”，that 引导的从句说明结果。若修饰名词则用“such (a/an) + 名词 + that”。易错点：①so 后接形容词或副词，such 后接名词短语，二者不能混用；②口语中 that 有时省略，但初学者建议保留，句子结构更清晰。",
+        "examples": [
+          "The weather was so wet that he hardly ever left the house. （天气如此潮湿，他几乎足不出户。）",
+          "It was such a cold winter that he made up his mind to move away. （那个冬天冷得厉害，他下决心搬走了。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：搬家前的“清单”全打了勾，唯独漏了天气一栏——记住 except 就是“清单上被排除的那一项”。②易错提醒：叙述“回国前已住了多年”必须用 had lived，若写成 lived 就分不清先后了；除此之外按顺序讲故事的句子老老实实用一般过去时。③对比/记忆法：except（不包括在内）与 besides（包括在内，“除……还有”）常被混淆——“Everyone went out except him”是他没去，“Besides him, three others went”是他也去了。"
+  },
+  {
+    "book": 2,
+    "lesson": 39,
+    "title": "Am I all right?",
+    "titleCn": "我是否痊愈？",
+    "scene": "Gilbert 先生刚动过手术，躺在病床上仍放心不下。医生离开医院后，他悄悄给医生家里打电话，却不肯说出自己是谁，只是急切地打听那位“病人”的手术是否成功、是否已脱离危险。医生一眼看穿了来电者的身份，回答得既专业又风趣，巧妙地安抚了这位多疑的病人。本课把这段电话对话用间接引语转述出来：他问手术“是否”成功、医生告诉他一切“都很顺利”，宾语从句的时态后移贯穿全文。",
+    "grammarTags": ["间接引语", "一般过去时"],
+    "words": [
+      { "word": "operation", "phon": "/ˌɒpəˈreɪʃn/", "pos": "n.", "cn": "手术", "eg": "The doctor said that the operation had been quite simple. 医生说那次手术相当简单。" },
+      { "word": "successful", "phon": "/səkˈsesfl/", "pos": "adj.", "cn": "成功的", "eg": "He asked whether the operation had been successful. 他问手术是否成功。" },
+      { "word": "patient", "phon": "/ˈpeɪʃnt/", "pos": "n.", "cn": "病人", "eg": "The patient telephoned the doctor but refused to give his name. 那位病人给医生打了电话，却不肯说出自己的名字。" },
+      { "word": "anxious", "phon": "/ˈæŋkʃəs/", "pos": "adj.", "cn": "焦虑的，担心的", "eg": "He felt anxious about his health after the operation. 手术后他为自己的健康感到焦虑。" },
+      { "word": "inquire", "phon": "/ɪnˈkwaɪə/", "pos": "v.", "cn": "询问，打听", "eg": "He inquired about a certain patient in a low voice. 他低声打听某位病人的情况。" },
+      { "word": "recover", "phon": "/rɪˈkʌvə/", "pos": "v.", "cn": "康复，恢复", "eg": "The doctor promised that the man would recover very soon. 医生保证那个人很快就会康复。" },
+      { "word": "reply", "phon": "/rɪˈplaɪ/", "pos": "v./n.", "cn": "回答，答复", "eg": "The doctor replied that there was nothing to worry about. 医生回答说没有什么可担心的。" },
+      { "word": "following", "phon": "/ˈfɒləʊɪŋ/", "pos": "adj.", "cn": "接着的，下述的", "eg": "The following day the patient felt much better. 第二天，病人感觉好多了。" }
+    ],
+    "grammar": [
+      {
+        "point": "间接引语（陈述句的转述）",
+        "explain": "把别人说的话转述出来而不直接引用，就是间接引语。陈述句转述时用 that 引导宾语从句（that 可省略），并注意三变：①人称随转述角度改变；②时态后移——一般现在时变一般过去时、一般过去时变过去完成时、will 变 would；③时间地点词转换，如 now→then、tomorrow→the next day、here→there。易错点：转述客观真理时态不后移，如 The teacher said the earth goes round the sun。",
+        "examples": [
+          "The doctor said that the patient was out of danger. （医生说病人已脱离危险。）",
+          "Gilbert told his wife that he would ring the doctor that evening. （吉尔伯特告诉妻子，他当晚要给医生打电话。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "转述过去发生的对话，主句动词 said、told、asked、replied 等都用一般过去时，故事的叙述部分也用一般过去时推进。told 后必须接“人”作间接宾语（told me），而 said 不直接接人（said to me）。易错点：不要写 said me；ask、answer、reply 各有固定搭配——ask sb、answer sb、reply to sb。",
+        "examples": [
+          "He picked up the phone and dialled the doctor's number. （他拿起电话，拨通了医生的号码。）",
+          "The doctor recognized the voice at once but said nothing about it. （医生立刻听出了那个声音，却没有点破。）"
+        ]
+      },
+      {
+        "point": "间接疑问句（whether/if 与疑问词引导的宾语从句）",
+        "explain": "转述一般疑问句用 whether 或 if 引导，转述特殊疑问句保留原疑问词（what、when、how 等）；两种情况下从句都必须用陈述语序，即“疑问词 + 主语 + 谓语”，并按规则后移时态。易错点：①从句不能再倒装，不能说 He asked was the operation successful；②从句句末不加问号，除非主句本身是疑问句。",
+        "examples": [
+          "He asked the doctor whether the operation had been successful. （他问医生手术是否成功。）",
+          "The doctor wanted to know why the caller would not give his name. （医生想知道打电话的人为什么不肯说出姓名。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：打电话“匿名打听自己的病情”，转述这通电话就得用间接引语——“他问手术是否成功（He asked whether...）”，一句话记住 whether 的用法。②易错提醒：间接疑问句最容易犯的错是保留疑问语序，务必改回“主语在前、谓语在后”；时态整体后移一格，direct 里的 was 变成 had been。③对比/记忆法：say/tell/ask 三兄弟——say sth、tell sb sth、ask sb sth，tell 必须带人，say 不带人，ask 用来提问。"
+  },
+  {
+    "book": 2,
+    "lesson": 40,
+    "title": "Food and talk",
+    "titleCn": "进餐与交谈",
+    "scene": "在一次晚宴上，女主人特意把作者安排在 Rumbold 太太身旁，夸她是位“有趣的健谈者”。可是这位穿着讲究的太太自始至终埋头大吃，对作者的殷勤搭话毫无反应，几次没话找话都碰了壁。直到宴会将尽，她终于开口说了整晚第一句话——不是聊天，而是再要一份甜食。全文以一般过去时叙述宴会经过，作者一次次发出的礼貌疑问与对方的沉默形成强烈反差，疑问句的构成与运用是本课第二条语法线索。",
+    "grammarTags": ["一般过去时", "疑问句"],
+    "words": [
+      { "word": "hostess", "phon": "/ˈhəʊstəs/", "pos": "n.", "cn": "女主人", "eg": "The hostess seated me next to a large, silent lady. 女主人安排我坐在一位身材高大、沉默寡言的女士旁边。" },
+      { "word": "guest", "phon": "/ɡest/", "pos": "n.", "cn": "客人，宾客", "eg": "All the guests were chatting happily except my neighbour. 除了我旁边这位，所有客人都在愉快地交谈。" },
+      { "word": "silent", "phon": "/ˈsaɪlənt/", "pos": "adj.", "cn": "沉默的，无声的", "eg": "She remained silent through the first three courses. 前三道菜她始终一言不发。" },
+      { "word": "gaze", "phon": "/ɡeɪz/", "pos": "v./n.", "cn": "凝视，注视", "eg": "Her eyes were gazed fixedly on the dishes in front of her. 她的目光牢牢盯着面前的菜肴。" },
+      { "word": "course", "phon": "/kɔːs/", "pos": "n.", "cn": "一道菜；课程", "eg": "She finished every course before anyone else at the table. 每道菜她都比同桌任何人先吃完。" },
+      { "word": "serve", "phon": "/sɜːv/", "pos": "v.", "cn": "上（菜），端上；服务", "eg": "When the dessert was served, her eyes suddenly lit up. 甜食端上来时，她的眼睛忽然一亮。" },
+      { "word": "appetite", "phon": "/ˈæpɪtaɪt/", "pos": "n.", "cn": "食欲，胃口", "eg": "I had never seen anyone with such a huge appetite. 我从未见过胃口这么大的人。" },
+      { "word": "remark", "phon": "/rɪˈmɑːk/", "pos": "n./v.", "cn": "评论，言语；说起", "eg": "My polite remarks about the weather got no answer at all. 我关于天气的客套话没有得到任何回应。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（叙事时态）",
+        "explain": "记叙一次已经结束的宴会，主体时态是一般过去时：动作按发生顺序依次排列（asked, tried, ate, said），状态动词也用过去式（was, seemed, remained）。规则动词加 -ed，注意读音分三种：/t/、/d/、/ɪd/。易错点：①否定和疑问要借助 did，动词还原（She did not answer，不说 did not answered）；②不规则动词如 eat—ate、say—said、sit—sat 必须牢记。",
+        "examples": [
+          "I tried several times to start a conversation, but she took no notice of me. （我几次想打开话匣子，她却毫不理会。）",
+          "She ate steadily from the first course to the last. （从第一道菜到最后一道，她一直不停地吃。）"
+        ]
+      },
+      {
+        "point": "疑问句（一般疑问句与特殊疑问句）",
+        "explain": "一般疑问句把 be 动词、助动词或情态动词提到主语前，回答用 yes/no；一般过去时的行为动词需借 did 提问，动词还原。特殊疑问句以 what、where、how 等疑问词开头，其后仍是一般疑问句语序。宴会上的寒暄多用疑问句，如询问对方的爱好、旅行见闻。易错点：Did she enjoyed 是典型错误，did 之后必须用动词原形 enjoy。",
+        "examples": [
+          "Did you enjoy your holiday by the sea? （您在海边度假愉快吗？）",
+          "What do you think of the new play at the theatre? （您觉得剧院新上演的那出戏怎么样？）"
+        ]
+      },
+      {
+        "point": "过去进行时（描写背景动作）",
+        "explain": "过去进行时“was/were + 现在分词”描述过去某一时刻正在进行的动作，常为故事提供背景画面：客人们“正在谈笑”、她“正在大口吃着”。它常与一般过去时配合——进行时铺背景，过去时点动作，如 While everyone was talking, she said her first words。易错点：状态动词（know、like 等）一般不用进行时。",
+        "examples": [
+          "While the other guests were chatting, she was busy with her plate. （其他客人谈笑风生时，她正忙着对付盘中的食物。）",
+          "I was searching for a new topic when she suddenly spoke. （我正搜肠刮肚找新话题时，她突然开口了。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：一桌客人谈笑（过去进行时的背景），“我”一次次发问（疑问句），她只顾吃（一般过去时的动作链）——一顿晚宴串起三个语法点。②易错提醒：过去时的疑问和否定都要请出 did，随后动词必须还原原形，这是本课最高频的错误点。③对比/记忆法：silent（沉默的）—silence（沉默 n.）—silently（默默地 adv.）一家三口一起记；“话不投机半句多”对应她整晚唯一的一句话竟是要菜，用这个反差记住 remark 与 appetite。"
+  },
+  {
+    "book": 2,
+    "lesson": 41,
+    "title": "Do you call that a hat?",
+    "titleCn": "你把那个也叫帽子吗？",
+    "scene": "妻子在帽店里一顶接一顶地试帽子，丈夫在一旁等得心焦，忍不住冷嘲热讽：“你把那个也叫帽子吗？”妻子毫不示弱，反唇相讥，提起丈夫上次买帽子时自己耐着性子陪了多久。两人你一言我一语地斗嘴，句句带刺却又透着夫妻间的默契。最后丈夫嘴上抱怨帽子贵得离谱，还是乖乖付了钱。全文由连珠炮似的疑问句推动：反问、责备、还击都借疑问句表达，是学习疑问句语气功能的绝佳场景。",
+    "grammarTags": ["疑问句", "一般过去时"],
+    "words": [
+      { "word": "mirror", "phon": "/ˈmɪrə/", "pos": "n.", "cn": "镜子", "eg": "She turned round in front of the mirror again and again. 她在镜子前转了一圈又一圈。" },
+      { "word": "remark", "phon": "/rɪˈmɑːk/", "pos": "v./n.", "cn": "说，评论；言语", "eg": "\"How ugly it is!\" her husband remarked unkindly. “多难看啊！”她丈夫毫不客气地说。" },
+      { "word": "impatiently", "phon": "/ɪmˈpeɪʃntli/", "pos": "adv.", "cn": "不耐烦地", "eg": "He looked at his watch impatiently while she tried on hats. 她试帽子时，他不耐烦地看着手表。" },
+      { "word": "argue", "phon": "/ˈɑːɡjuː/", "pos": "v.", "cn": "争论，争吵", "eg": "They argued about the hat all the way home. 回家的一路上他们都在为那顶帽子争论。" },
+      { "word": "pause", "phon": "/pɔːz/", "pos": "n./v.", "cn": "停顿；暂停", "eg": "After a short pause, she asked for an even dearer one. 稍稍停顿之后，她要了一顶更贵的。" },
+      { "word": "ridiculous", "phon": "/rɪˈdɪkjələs/", "pos": "adj.", "cn": "荒唐可笑的", "eg": "He said it was ridiculous to pay so much for a hat. 他说花这么多钱买一顶帽子太荒唐了。" },
+      { "word": "bill", "phon": "/bɪl/", "pos": "n.", "cn": "账单", "eg": "In the end he paid the bill without another word. 最后他二话不说付了账。" },
+      { "word": "patience", "phon": "/ˈpeɪʃns/", "pos": "n.", "cn": "耐心", "eg": "She reminded him of her patience when he chose his own hat. 她提醒他，当年他挑帽子时自己是多么有耐心。" }
+    ],
+    "grammar": [
+      {
+        "point": "疑问句的语气功能（反问与责备）",
+        "explain": "疑问句不仅用来获取信息，还能表达惊讶、不满和讥讽。像 Do you call that a hat? 这样的反问句，形式是问句，实际是强烈的否定：“那根本不算帽子”。特殊疑问句 How long...? Why must you...? 也常带责备口吻。朗读时语调是关键：真心提问多用升调，反问责备常用降调。易错点：反问句无需真正回答，翻译时应译出说话人的态度，而不是逐字直译。",
+        "examples": [
+          "Do you call that tiny room an office? （你把那间小屋也叫办公室吗？）",
+          "Must you try on every hat in the shop? （店里每顶帽子你都非试不可吗？）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "整段斗嘴发生在过去的一次购物中，叙述部分用一般过去时：said、asked、paused、paid。对话框架“某人说/问/答”是过去时最常见的载体。易错点：①say—said、pay—paid、buy—bought 等不规则变化要记牢；②直接引语的引述动词放在句中或句末时常倒装，如 remarked her husband，属于书面叙事的常见语序。",
+        "examples": [
+          "She tried on a dozen hats and liked none of them. （她试了十几顶帽子，没有一顶中意。）",
+          "He grumbled about the price, but he bought the hat for her all the same. （他嘴里抱怨价钱，最后还是给她买下了那顶帽子。）"
+        ]
+      },
+      {
+        "point": "always 与进行时连用表抱怨",
+        "explain": "“be always doing”用进行时加 always/forever，表示某人“老是、总在”做某事，带有抱怨或不耐烦的感情色彩：You are always keeping me waiting。过去的情况用 was/were always doing。它与一般现在时 always does（客观陈述习惯）不同，进行时版本感情色彩浓。易错点：这一用法重在语气，考试中见到 always + 进行时要能辨认出“抱怨”之意。",
+        "examples": [
+          "You are always buying things you never wear. （你总是买些从来不穿戴的东西。）",
+          "He was always complaining whenever she went shopping. （每次她去购物，他总是抱怨个没完。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：帽店里的“夫妻相声”——丈夫每句台词几乎都是问句，可没有一句是真想要答案，这就是反问句的妙处。②易错提醒：pay 的过去式是 paid 不是 payed；“给某物付钱”说 pay for the hat，别丢掉 for。③对比/记忆法：patient（有耐心的）—impatient（不耐烦的）—patience（耐心 n.），前缀 im- 表否定；再联想 L39 的 patient（病人）——同一个词形，医生眼里是“病人”，帽店里是“耐心”，一词两义对照记。"
+  },
+  {
+    "book": 2,
+    "lesson": 42,
+    "title": "Not very musical",
+    "titleCn": "并非很懂音乐",
+    "scene": "热闹的集市上，耍蛇人盘腿而坐，掀开筐盖吹起笛子，一条大蛇应“乐声”缓缓立起、随节奏摆动，围观的人群啧啧称奇，纷纷投下钱币。可作者道出真相：蛇根本听不见声音，它只是跟随笛子的晃动而动；而那位耍蛇人吹来吹去始终是同一支曲子，自己也全然不辨音调。叙述中大量使用 as soon as、when、while 引导的时间状语从句——笛声一响蛇就起舞，人群一围拢钱币就落下，时间从句串起整个集市场景。",
+    "grammarTags": ["时间状语从句", "一般过去时"],
+    "words": [
+      { "word": "musical", "phon": "/ˈmjuːzɪkl/", "pos": "adj.", "cn": "懂音乐的；音乐的", "eg": "The old man was clearly not very musical. 那位老人显然不怎么懂音乐。" },
+      { "word": "market", "phon": "/ˈmɑːkɪt/", "pos": "n.", "cn": "市场，集市", "eg": "The market was crowded with people from nearby villages. 集市上挤满了附近村庄来的人。" },
+      { "word": "pipe", "phon": "/paɪp/", "pos": "n.", "cn": "笛子；管子", "eg": "As soon as he picked up his pipe, the crowd gathered round. 他一拿起笛子，人群就围了上来。" },
+      { "word": "tune", "phon": "/tjuːn/", "pos": "n.", "cn": "曲调，曲子", "eg": "He played the same tune over and over again. 他把同一支曲子吹了一遍又一遍。" },
+      { "word": "glimpse", "phon": "/ɡlɪmps/", "pos": "n.", "cn": "一瞥，一见", "eg": "People pushed forward to catch a glimpse of the snake. 人们向前挤，想看一眼那条蛇。" },
+      { "word": "snake", "phon": "/sneɪk/", "pos": "n.", "cn": "蛇", "eg": "The snake rose slowly out of the basket and began to move. 蛇缓缓地从筐里立起来，开始摆动。" },
+      { "word": "crowd", "phon": "/kraʊd/", "pos": "n./v.", "cn": "人群；聚集", "eg": "A large crowd watched the performance in silence. 一大群人静静地观看表演。" },
+      { "word": "gather", "phon": "/ˈɡæðə/", "pos": "v.", "cn": "聚集，集拢", "eg": "When the music began, more people gathered to watch. 音乐一响，更多的人聚拢来观看。" }
+    ],
+    "grammar": [
+      {
+        "point": "时间状语从句（as soon as / when / while）",
+        "explain": "时间状语从句由 when（当……时）、while（在……期间）、as soon as（一……就）、before、after 等引导，说明主句动作发生的时间。as soon as 强调“紧接着发生”：As soon as he played, the snake moved。while 后多接延续性动作，常配进行时。易错点：①主句为将来时时，从句用一般现在时代替将来时；②叙述过去的事，主从句都用过去时态，从句不必用过去完成时，除非强调先后。",
+        "examples": [
+          "As soon as the pipe sounded, the snake began to dance. （笛声一响，蛇就开始起舞。）",
+          "While the old man was playing, the crowd threw coins into his basket. （老人吹奏时，人群往他的筐里投掷钱币。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "集市上的见闻按发生顺序用一般过去时讲述：sat、opened、played、rose、threw。一连串短促的动作用过去时排列，可以造成“动作接动作”的现场感。易错点：rise—rose—risen（不及物，“升起”）与 raise—raised—raised（及物，“举起”）常混淆，蛇“自己立起来”用 rose，不能用 raised。",
+        "examples": [
+          "The snake charmer sat down and slowly opened the lid of the basket. （耍蛇人坐下来，慢慢掀开筐盖。）",
+          "The audience clapped and threw money at the end of the show. （表演结束时，观众鼓掌并投下钱币。）"
+        ]
+      },
+      {
+        "point": "一般现在时表客观事实",
+        "explain": "陈述不随时间改变的科学事实或普遍真理时，即使全文是过去时，也要用一般现在时：Snakes cannot hear（蛇听不见）。这类句子经常出现在过去时叙事中间，用来解释原理。易错点：不要被上下文的过去时“带跑”，把客观事实误写成过去式；主语为第三人称单数时动词加 -s。",
+        "examples": [
+          "Snakes have no ears and cannot hear sounds as we do. （蛇没有耳朵，不能像我们一样听见声音。）",
+          "A snake follows the movement of the pipe, not the music itself. （蛇跟随的是笛子的晃动，而不是音乐本身。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：把 as soon as 想成集市上的“连锁反应”——笛子一响→蛇一起舞→人群一围拢→钱币一落下，四个“一……就”串成一幅画。②易错提醒：叙事全用过去时，但“蛇听不见”是科学事实，必须回到一般现在时，这是本课最容易失分的地方。③对比/记忆法：rise（自己升起，不及物）vs raise（把……举起，及物）——蛇自己 rose，耍蛇人 raised 他的笛子，一课之内正好各用一次。"
+  },
+  {
+    "book": 2,
+    "lesson": 43,
+    "title": "Over the South Pole",
+    "titleCn": "飞越南极",
+    "scene": "1929 年，Byrd 上将率领机组向人类首次飞越南极发起挑战。出发之前，他们早已沿途建好了补给站，为返程做足了准备。起飞后不久，真正的考验来了：飞机载重巨大，而前方冰山之间的缺口比机身爬升能力所允许的还要高，机组不得不接连抛下沙袋减轻重量，飞机才勉强跃过山口，最终成功抵达极点上空并安全返航。“起飞前已经做过的准备”用过去完成时交代，“不得不、才能够”的艰难抉择则由情态动词 had to、could 承担，两条语法线贯穿这段惊险的航程。",
+    "grammarTags": ["过去完成时", "情态动词"],
+    "words": [
+      { "word": "pole", "phon": "/pəʊl/", "pos": "n.", "cn": "（地球的）极，极点", "eg": "No one had ever flown over the South Pole before 1929. 1929 年以前从未有人飞越过南极。" },
+      { "word": "flight", "phon": "/flaɪt/", "pos": "n.", "cn": "飞行，航班", "eg": "The whole flight lasted many dangerous hours. 整个飞行持续了许多个危险的小时。" },
+      { "word": "explorer", "phon": "/ɪkˈsplɔːrə/", "pos": "n.", "cn": "探险家", "eg": "The explorers had prepared everything carefully before they set out. 探险家们出发前已把一切准备妥当。" },
+      { "word": "fuel", "phon": "/ˈfjuːəl/", "pos": "n.", "cn": "燃料", "eg": "The plane carried enough fuel for the return journey. 飞机携带了足够返程用的燃料。" },
+      { "word": "sack", "phon": "/sæk/", "pos": "n.", "cn": "袋子，麻袋", "eg": "They threw two heavy sacks out of the plane at once. 他们立刻把两只沉重的袋子扔出机舱。" },
+      { "word": "weight", "phon": "/weɪt/", "pos": "n.", "cn": "重量；重物", "eg": "The great weight made it hard for the plane to climb. 巨大的重量使飞机难以爬升。" },
+      { "word": "drop", "phon": "/drɒp/", "pos": "v.", "cn": "扔下，落下", "eg": "They had to drop the sacks of food to rise higher. 为了升得更高，他们不得不扔掉几袋食物。" },
+      { "word": "succeed", "phon": "/səkˈsiːd/", "pos": "v.", "cn": "成功", "eg": "In the end they succeeded in flying over the Pole. 最终他们成功地飞越了极点。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时（叙事中交代先期准备）",
+        "explain": "冒险故事开始前的种种准备——补给站“早已建好”、路线“早已勘察”——发生在故事主线之前，用过去完成时“had + 过去分词”交代。它经常与 before、already、by then 连用，在过去时叙事里起“倒叙”作用。易错点：①一旦回到故事主线，就切换回一般过去时，不要全文都用 had done；②被动形式为 had been done，如补给站“已被建好”。",
+        "examples": [
+          "Supplies had been left along the route before the flight began. （飞行开始之前，补给品已沿途存放妥当。）",
+          "By the time they took off, the team had checked the plane twice. （起飞时，机组已把飞机检查了两遍。）"
+        ]
+      },
+      {
+        "point": "情态动词（had to / could / be able to）",
+        "explain": "must 没有过去式，表示过去“不得不”用 had to；can 的过去式 could 表示过去一般性的能力，而“经过努力终于做成某件具体的事”要用 was/were able to 或 managed to、succeeded in doing。机组“不得不”抛沙袋（had to drop）、飞机这才“得以”越过山口（was able to climb over）。易错点：具体某一次成功不用 could，He was able to escape 不说 He could escape。",
+        "examples": [
+          "The plane was too heavy, so they had to throw out several sacks. （飞机太重，他们不得不扔掉几只袋子。）",
+          "Only then was the plane able to rise over the gap in the mountains. （只有那时，飞机才得以越过群山间的缺口。）"
+        ]
+      },
+      {
+        "point": "不定式作目的状语（to do / in order to do）",
+        "explain": "动词不定式放在句中或句首表示目的：“为了减轻重量，他们扔掉了沙袋”。加强语气可用 in order to 或 so as to；否定形式为 in order not to do。易错点：①so as to 一般不放句首；②目的状语的逻辑主语应与主句主语一致，否则要改用 so that 从句。",
+        "examples": [
+          "They dropped the sacks to make the plane lighter. （他们扔掉袋子，好让飞机轻一些。）",
+          "In order to return safely, they had stored fuel at several stations. （为了安全返航，他们已在几个站点储存了燃料。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：起飞前的准备（had done）→ 空中的被迫抉择（had to）→ 惊险成功（was able to），一次南极飞行按时间轴串起本课三个语法点。②易错提醒：must 只管现在和将来，讲过去的“不得不”一律换成 had to；某一次具体成功要说 was able to，不能用 could。③对比/记忆法：weight（重量 n.）与 weigh（称重 v.）一字之差，联想 The sacks weighed a lot—their weight was the problem；drop 既是“扔下”也是“一滴”，扔沙袋如落雨滴，形象好记。"
+  },
+  {
+    "book": 2,
+    "lesson": 44,
+    "title": "Through the forest",
+    "titleCn": "穿过森林",
+    "scene": "Sterling 太太带着孩子们穿过森林去野餐，走到林间小路时，两名男子突然窜出，抢走了她的手提包。她把孩子留在原地，不顾危险奋起直追，脚步声在林中回响。当歹徒跑到河边正要渡河时，她终于追上，经过一番争夺夺回了自己的包。故事以一般过去时的动作链层层推进——冲出、抢夺、追赶、夺回；而 while、when、as soon as 引导的时间状语从句精确交代每个惊险瞬间发生的时机，两条语法线让这场森林追逐扣人心弦。",
+    "grammarTags": ["一般过去时", "时间状语从句"],
+    "words": [
+      { "word": "forest", "phon": "/ˈfɒrɪst/", "pos": "n.", "cn": "森林", "eg": "A narrow path led through the quiet forest. 一条狭窄的小路穿过静谧的森林。" },
+      { "word": "picnic", "phon": "/ˈpɪknɪk/", "pos": "n./v.", "cn": "野餐", "eg": "The family set out early for a picnic by the river. 一家人一早出发去河边野餐。" },
+      { "word": "risk", "phon": "/rɪsk/", "pos": "n./v.", "cn": "危险，风险；冒险", "eg": "She took a great risk when she ran after the two men. 她追赶那两个男人，冒了很大的风险。" },
+      { "word": "edge", "phon": "/edʒ/", "pos": "n.", "cn": "边缘", "eg": "The thieves stopped at the edge of the river. 窃贼们在河边停了下来。" },
+      { "word": "strap", "phon": "/stræp/", "pos": "n.", "cn": "带子，皮带", "eg": "She caught hold of the strap of her handbag and pulled hard. 她一把抓住手提包的带子，用力拉扯。" },
+      { "word": "possession", "phon": "/pəˈzeʃn/", "pos": "n.", "cn": "所有物，财产", "eg": "The bag held her most valuable possessions. 包里装着她最贵重的物品。" },
+      { "word": "breath", "phon": "/breθ/", "pos": "n.", "cn": "呼吸，气息", "eg": "She was out of breath when she reached the river. 她跑到河边时已经上气不接下气。" },
+      { "word": "contents", "phon": "/ˈkɒntents/", "pos": "n.", "cn": "（内装的）东西，内容", "eg": "Luckily, the contents of the bag were untouched. 幸运的是，包里的东西原封未动。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（动作链叙事）",
+        "explain": "惊险故事靠一连串一般过去时的短动作推进：rushed out（冲出）、snatched（抢走）、chased（追赶）、caught up with（追上）、got back（夺回）。动词按时间顺序排列，节奏越快，句子越短。易错点：①run—ran、catch—caught、leave—left 等不规则动词是听写高频词；②“追上某人”是 catch up with sb，“夺回”是 get sth back，介词搭配不可丢。",
+        "examples": [
+          "Two men rushed out from behind the trees and seized her bag. （两名男子从树后冲出，一把夺过她的包。）",
+          "She chased them all the way to the river and got her bag back. （她一路追到河边，夺回了自己的包。）"
+        ]
+      },
+      {
+        "point": "时间状语从句（while / when / as soon as）",
+        "explain": "时间从句为每个动作标注“发生的时刻”：while 引导正在进行的背景动作（While they were walking...），when 表示“就在那时”，as soon as 表示“一……就”。主句与从句的时态要互相配合：背景用过去进行时，突发动作用一般过去时。易错点：when 有时相当于 and then，用在“正在……突然……”句型中：She was resting when the men appeared。",
+        "examples": [
+          "While the children were playing on the path, the two men appeared suddenly. （孩子们正在小路上玩耍时，那两名男子突然出现。）",
+          "As soon as she saw the thieves, she ran after them without thinking. （一看见窃贼，她想都没想就追了上去。）"
+        ]
+      },
+      {
+        "point": "过去进行时与一般过去时的配合",
+        "explain": "过去进行时“was/were doing”描绘正在展开的画面，一般过去时插入突发事件，两者配合构成“正在……这时……”的经典句式。判断方法：延续性的、作为背景的动作用进行时；短促的、推动情节的动作用过去时。易错点：两个先后完成的动作之间用一般过去时连接即可，不要滥用进行时。",
+        "examples": [
+          "The family was crossing the forest when the robbery happened. （一家人正穿越森林时，抢劫发生了。）",
+          "The men were trying to cross the river when she caught up with them. （那两人正要过河时，她追上了他们。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：把追逐战剪成电影分镜——背景镜头（过去进行时）、突发镜头（一般过去时）、每个镜头的时间字幕（时间状语从句），三者合成本课语法。②易错提醒：catch up with（追上）三个词一个都不能少；out of breath（上气不接下气）是固定短语，breath 是名词，动词是 breathe。③对比/记忆法：content（满足的 adj./内容 n. 单数）与 contents（包内之物，常用复数）对照记；risk 记短语 take a risk / at the risk of one's life（冒着生命危险）。"
+  },
+  {
+    "book": 2,
+    "lesson": 45,
+    "title": "A clear conscience",
+    "titleCn": "问心无愧",
+    "scene": "村民 Sam Benton 进城前弄丢了装着积蓄的钱包，消息传开，全村议论纷纷，有人猜钱包被偷，有人怀疑捡到的人昧下了钱。数天后，钱包竟被人从邮局寄还，里面分文未少，却没有署名。为了洗清流言、也为了证明拾金者的清白，Sam 特意当着众人把钞票一张张点清。全文多处使用被动语态：钱包“被丢失”“被寄回”，钱“被数过”——说话人关心事情本身而非行为人，恰是被动语态的用武之地；“寄回之前钱包已丢失多日”则由过去完成时交代先后。",
+    "grammarTags": ["被动语态", "过去完成时"],
+    "words": [
+      { "word": "conscience", "phon": "/ˈkɒnʃəns/", "pos": "n.", "cn": "良心，良知", "eg": "Whoever returned the wallet must have a clear conscience. 归还钱包的人想必问心无愧。" },
+      { "word": "wallet", "phon": "/ˈwɒlɪt/", "pos": "n.", "cn": "钱包（男式）", "eg": "The lost wallet was returned by post a week later. 一周后，丢失的钱包由邮局寄了回来。" },
+      { "word": "savings", "phon": "/ˈseɪvɪŋz/", "pos": "n.", "cn": "积蓄，存款", "eg": "All his savings were kept in that old wallet. 他的全部积蓄都放在那只旧钱包里。" },
+      { "word": "villager", "phon": "/ˈvɪlɪdʒə/", "pos": "n.", "cn": "村民", "eg": "The villagers talked about the lost money for days. 村民们一连几天都在议论那笔丢失的钱。" },
+      { "word": "post", "phon": "/pəʊst/", "pos": "v./n.", "cn": "邮寄；邮政", "eg": "The wallet had been posted in a plain envelope. 钱包装在一只没有署名的信封里寄来。" },
+      { "word": "amount", "phon": "/əˈmaʊnt/", "pos": "n.", "cn": "数额，数量", "eg": "The full amount was still inside—not a penny was missing. 钱数分文不少——一便士也没丢。" },
+      { "word": "count", "phon": "/kaʊnt/", "pos": "v.", "cn": "数，清点", "eg": "He counted the notes one by one in front of everyone. 他当着大家的面把钞票一张张点清。" },
+      { "word": "disappear", "phon": "/ˌdɪsəˈpɪə/", "pos": "v.", "cn": "消失，不见", "eg": "The wallet disappeared on his way to the town. 钱包在他进城的路上不见了。" }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态（一般过去时与过去完成时的被动）",
+        "explain": "当动作的执行者不明或不重要时用被动语态。一般过去时被动为“was/were + 过去分词”：The wallet was found（钱包被找到了）；过去完成时被动为“had been + 过去分词”：It had been posted before he heard the news（他得知消息之前钱包已被寄出）。易错点：①及物动词才有被动式，disappear、happen 等不及物动词不能用被动；②by 短语只有在需要点明行为人时才加。",
+        "examples": [
+          "The wallet was sent back through the post without a name. （钱包通过邮局寄了回来，没有署名。）",
+          "Nothing had been taken out of it—every note was still there. （包里分文未动——每张钞票都还在。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "钱包“寄回”之前已经“丢失”多日，先发生的用过去完成时 had lost / had disappeared，后发生的用一般过去时 was returned。判断口诀：“过去的过去”用 had done。它还常和 by the time、before、already 连用。易错点：两个动作若用 before/after 点明了先后，从句也可用一般过去时，但强调“早已完成”时仍用过去完成时更清晰。",
+        "examples": [
+          "Before the parcel arrived, Sam had given up all hope of seeing his money again. （包裹寄到之前，萨姆已对找回钱不抱任何希望。）",
+          "He suddenly realized that he had dropped the wallet near the bus stop. （他忽然想起，钱包是掉在公共汽车站附近的。）"
+        ]
+      },
+      {
+        "point": "间接引语转述传闻",
+        "explain": "转述村里的流言和议论要用间接引语：Some said that the wallet had been stolen（有人说钱包被偷了）。said/thought/believed 之后的宾语从句时态相应后移，“过去被偷”后移为 had been stolen（过去完成时的被动）。易错点：转述内容里被动语态与时态后移会叠加出现，had been done 是“被动 + 后移”的双重结果，不要漏掉 been。",
+        "examples": [
+          "Some villagers said that the money had been stolen on the road. （一些村民说钱是在路上被偷的。）",
+          "Others believed that the finder would keep it for himself. （另一些人则认为拾到的人会将钱据为己有。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：整个故事里“人”始终隐身——谁捡的、谁寄的都不知道，所以句子只能围着钱包转：was lost、was posted、was returned，被动语态天然登场。②易错提醒：disappear 是不及物动词，只能说 The wallet disappeared，绝不能说 was disappeared。③对比/记忆法：conscience（良心）与 conscious（清醒的、意识到的）拼写相近——记“良心 conscience 里藏着 science（科学），凭良心讲科学”；a clear conscience 固定搭配“问心无愧”。"
+  },
+  {
+    "book": 2,
+    "lesson": 46,
+    "title": "Expensive and uncomfortable",
+    "titleCn": "既昂贵又受罪",
+    "scene": "一架货机降落在伦敦机场，工人卸货时发现一只大木箱异常沉重，箱内竟传出响动。箱子被打开后，人们发现了一名蜷缩多时的偷渡者：他本想藏进货箱、省下一张机票钱，不料整个行程又闷又颠，落地后还被要求补付比机票贵得多的运费——受了罪又破了财。全文围绕“箱子被卸下、被打开，偷渡者被发现、被要求付款”展开，一般过去时的被动语态是绝对主角；事情的来龙去脉则用一般过去时按序讲清。",
+    "grammarTags": ["被动语态", "一般过去时"],
+    "words": [
+      { "word": "cargo", "phon": "/ˈkɑːɡəʊ/", "pos": "n.", "cn": "货物（船、飞机装载的）", "eg": "The plane was carrying cargo from Spain to London. 这架飞机运载着从西班牙飞往伦敦的货物。" },
+      { "word": "unload", "phon": "/ˌʌnˈləʊd/", "pos": "v.", "cn": "卸货", "eg": "The boxes were unloaded soon after the plane landed. 飞机着陆后不久，箱子就被卸了下来。" },
+      { "word": "crate", "phon": "/kreɪt/", "pos": "n.", "cn": "大木箱，板条箱", "eg": "A strange noise came from inside the wooden crate. 木箱里传出奇怪的响声。" },
+      { "word": "discover", "phon": "/dɪˈskʌvə/", "pos": "v.", "cn": "发现", "eg": "A young man was discovered hiding among the boxes. 有人发现一个年轻人藏在箱子中间。" },
+      { "word": "hide", "phon": "/haɪd/", "pos": "v.", "cn": "躲藏；隐藏", "eg": "He had hidden in the crate before the plane took off. 飞机起飞前他就藏进了木箱。" },
+      { "word": "extremely", "phon": "/ɪkˈstriːmli/", "pos": "adv.", "cn": "极其，非常", "eg": "The journey in the dark box was extremely uncomfortable. 待在黑暗的箱子里旅行极其难受。" },
+      { "word": "fare", "phon": "/feə/", "pos": "n.", "cn": "票价，车费", "eg": "He wanted to avoid paying the air fare. 他想逃掉那笔机票钱。" },
+      { "word": "punish", "phon": "/ˈpʌnɪʃ/", "pos": "v.", "cn": "惩罚", "eg": "He was punished by being made to pay much more. 对他的惩罚是让他付出多得多的钱。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时的被动语态（was/were + 过去分词）",
+        "explain": "货运现场的主角是“货物和箱子”，做事的人反而不重要，于是句子纷纷转为被动：The crate was unloaded（木箱被卸下）、The man was discovered（那人被发现）、He was told to pay（他被要求付款）。构成为“was/were + 过去分词”。易错点：①“被要求做某事”是 be asked/told/made to do，注意 made 后被动句要还原 to；②主语单复数决定 was 还是 were。",
+        "examples": [
+          "The heavy crate was opened by the airport workers. （那只沉重的木箱被机场工人打开了。）",
+          "The stowaway was ordered to pay the cost of the freight. （偷渡者被责令支付货运费用。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "事件的来龙去脉——飞机着陆、工人卸货、听见响动、打开箱子——用一般过去时依次交代。主动句与被动句在叙事中交替出现：人做的动作用主动（The workers heard a noise），箱子和偷渡者“承受”的动作用被动。易错点：hide—hid—hidden、fly—flew—flown 等不规则动词的三态要记准。",
+        "examples": [
+          "The workers heard a noise and stopped to listen. （工人们听到响声，停下来细听。）",
+          "The young man climbed out slowly, cold and hungry. （那个年轻人又冷又饿，慢慢爬了出来。）"
+        ]
+      },
+      {
+        "point": "过去完成时（交代事件的起因）",
+        "explain": "偷渡者“被发现”之前，他早已“藏进”箱子——起因先于结果，用过去完成时 had hidden 补叙。这种“先补叙原因，再回到现场”的写法是英语记叙文的常用技巧。主动为 had done，被动为 had been done。易错点：一旦补叙完毕、回到主线，立刻切换回一般过去时。",
+        "examples": [
+          "He had shut himself in the crate hours before the flight left. （航班起飞前几个小时，他就把自己关进了木箱。）",
+          "By the time he was found, he had spent nearly a whole day in the box. （被发现时，他已在箱子里待了将近一整天。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：货运单视角看故事——箱子“被装上、被卸下、被打开”，人“被发现、被罚款”，全程被动语态，因为镜头始终对着“货”。②易错提醒：fare 专指车船机票钱，fee 是服务费，price 是商品价格，三者别混；“逃票”是 avoid paying the fare。③对比/记忆法：uncomfortable = un + comfort + able，“没法舒服的”；标题 Expensive and uncomfortable 正好总结偷渡结局——想省钱（cheap）反而更贵（expensive），想舒服反而受罪，反差记忆最深刻。"
+  },
+  {
+    "book": 2,
+    "lesson": 47,
+    "title": "A thirsty ghost",
+    "titleCn": "嗜酒的幽灵",
+    "scene": "村里有家酒馆传说闹鬼多年，一直无人问津，最近却刚刚被人买下（has been bought）。新主人偏偏不信邪，不但不怕“鬼”，反而公开放话：哪位“幽灵”肯现身，酒钱全免。这句玩笑话不胫而走，好奇的客人蜂拥而至，想亲眼见识闹鬼的酒馆，生意反而红火起来。本课的语法主线是现在完成时：酒馆“已被买下”、消息“已经传开”、许多客人“已经来过”——过去发生的事对现在产生影响；而“被买下”“被传开”又叠加了被动语态，构成 has been done 的核心句型。",
+    "grammarTags": ["现在完成时", "被动语态"],
+    "words": [
+      { "word": "ghost", "phon": "/ɡəʊst/", "pos": "n.", "cn": "鬼，幽灵", "eg": "Nobody has ever really seen the ghost in the bar. 从来没有人真正见过酒吧里的那个鬼。" },
+      { "word": "haunt", "phon": "/hɔːnt/", "pos": "v.", "cn": "（鬼魂）出没于", "eg": "People say the old inn has been haunted for fifty years. 人们说这家老客栈闹鬼已有五十年了。" },
+      { "word": "pub", "phon": "/pʌb/", "pos": "n.", "cn": "酒馆，酒吧", "eg": "The pub has just been bought by a man from the city. 这家酒馆刚刚被一位城里人买下。" },
+      { "word": "landlord", "phon": "/ˈlændlɔːd/", "pos": "n.", "cn": "（酒馆）老板；房东", "eg": "The new landlord has offered free drinks to any ghost. 新老板放话愿意免费请任何幽灵喝酒。" },
+      { "word": "whisky", "phon": "/ˈwɪski/", "pos": "n.", "cn": "威士忌酒", "eg": "He keeps a bottle of whisky ready on the shelf. 他在架子上常备着一瓶威士忌。" },
+      { "word": "furniture", "phon": "/ˈfɜːnɪtʃə/", "pos": "n.", "cn": "家具（不可数）", "eg": "It is said that the furniture used to move by itself at night. 据说过去一到夜里家具就自己移动。" },
+      { "word": "accept", "phon": "/əkˈsept/", "pos": "v.", "cn": "接受", "eg": "So far no ghost has accepted the landlord's kind offer. 到目前为止，还没有哪个鬼接受老板的美意。" },
+      { "word": "curious", "phon": "/ˈkjʊəriəs/", "pos": "adj.", "cn": "好奇的", "eg": "Curious visitors have come from far away to see the pub. 好奇的游客从远处赶来看这家酒馆。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时（have/has + 过去分词）",
+        "explain": "现在完成时表示过去发生的动作对现在造成影响或结果：酒馆“已被买下”（所以现在有了新主人）、客人“已经来了很多”（所以现在生意兴隆）。构成为“have/has + 过去分词”，常与 just、already、yet、ever、never、recently、so far 连用。易错点：现在完成时不能与明确的过去时间状语（yesterday、last year、in 2020）连用，说“去年买的”必须改用一般过去时。",
+        "examples": [
+          "The old pub has just changed hands. （这家老酒馆刚刚易主。）",
+          "Many curious customers have visited it since the news spread. （消息传开后，许多好奇的顾客已慕名而来。）"
+        ]
+      },
+      {
+        "point": "现在完成时的被动语态（has/have been + 过去分词）",
+        "explain": "“已经被……”用现在完成时被动语态，构成为“has/have been + 过去分词”：The pub has been bought（酒馆已被买下）、The story has been told many times（这个故事已被讲过多次）。它同时携带两层信息：动作已完成 + 主语是承受者。易错点：been 绝不能省略，has bought 是“已买”（主动），has been bought 才是“已被买”。",
+        "examples": [
+          "The pub has recently been bought by a fearless new owner. （这家酒馆最近被一位天不怕地不怕的新主人买下了。）",
+          "Free drinks have been promised to any ghost who dares to appear. （老板已承诺，任何敢现身的幽灵都可免费喝酒。）"
+        ]
+      },
+      {
+        "point": "for / since 与完成时连用",
+        "explain": "for + 时间段（for fifty years）、since + 时间点或从句（since 1975 / since he arrived），二者都表示动作或状态延续至今，是现在完成时的黄金搭档：The inn has been empty for years。易错点：①for 后接“一段”，since 后接“一点”，不可互换；②表示延续的动词须是延续性动词，短暂动词（buy、die、come）不能直接与 for/since 连用，须转换说法，如 has had it for two months。",
+        "examples": [
+          "The house has stood empty for almost twenty years. （这座房子已经空了将近二十年。）",
+          "Business has improved greatly since the new landlord arrived. （自从新老板来了以后，生意大有起色。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：招牌上贴着两行字——“本店已被买下（has been bought）”“幽灵喝酒，分文不取”，一句话记住现在完成时被动的核心句型。②易错提醒：has been bought 中的 been 是命根子，丢了 been 意思就从“被买”变成“买了”；furniture 不可数，“一件家具”是 a piece of furniture。③对比/记忆法：一般过去时 vs 现在完成时——The pub was bought in May（强调何时买，过去时）vs The pub has been bought（强调现在已有新主人，完成时）；host（主人）里藏着 ghost（鬼）少一个 g，“闹鬼酒馆的主人”一语双关帮你记两个词。"
+  },
+  {
+    "book": 2,
+    "lesson": 48,
+    "title": "Did you want to tell me something?",
+    "titleCn": "你想对我说什么吗？",
+    "scene": "作者去诊所拔牙，刚在椅子上坐定，牙医就忙碌起来。拔牙过程中，病人几次张口想说话，都被牙医轻轻按住：“先别动，马上就好。”直到那颗牙被顺利拔下，牙医才客气地问他刚才是不是想说什么。病人苦笑着道出原委：他从一开始就想告诉牙医——拔错牙了。转述这场哭笑不得的对话要靠间接引语：牙医问他“是否想说什么”，他说自己“早就想告诉”对方；而“早就想说”发生在“拔完牙”之前，正是过去完成时大显身手的地方。",
+    "grammarTags": ["间接引语", "过去完成时"],
+    "words": [
+      { "word": "dentist", "phon": "/ˈdentɪst/", "pos": "n.", "cn": "牙医", "eg": "The dentist told me to sit back and relax. 牙医让我靠好，放松。" },
+      { "word": "extract", "phon": "/ɪkˈstrækt/", "pos": "v.", "cn": "拔出，取出", "eg": "The bad tooth was extracted in less than a minute. 那颗坏牙不到一分钟就被拔了下来。" },
+      { "word": "tooth", "phon": "/tuːθ/", "pos": "n.", "cn": "牙齿（复数 teeth）", "eg": "He suddenly realized it was the wrong tooth. 他突然意识到拔错了牙。" },
+      { "word": "gently", "phon": "/ˈdʒentli/", "pos": "adv.", "cn": "轻轻地，温和地", "eg": "The dentist gently pushed me back into the chair. 牙医轻轻地把我按回椅子上。" },
+      { "word": "protest", "phon": "/prəˈtest/", "pos": "v.", "cn": "抗议，反对", "eg": "I tried to protest, but no words came out. 我想抗议，却一个字也说不出来。" },
+      { "word": "occasionally", "phon": "/əˈkeɪʒnəli/", "pos": "adv.", "cn": "偶尔，间或", "eg": "He stopped occasionally to ask if I felt any pain. 他偶尔停下来问我疼不疼。" },
+      { "word": "relieved", "phon": "/rɪˈliːvd/", "pos": "adj.", "cn": "宽慰的，如释重负的", "eg": "The dentist looked relieved when the tooth finally came out. 牙终于拔出来时，牙医如释重负。" },
+      { "word": "request", "phon": "/rɪˈkwest/", "pos": "n./v.", "cn": "请求，要求", "eg": "My silent request was simply to stop the operation. 我无声的请求只是想让他停手。" }
+    ],
+    "grammar": [
+      {
+        "point": "间接引语（转述问话与答话）",
+        "explain": "转述牙医的问话用 ask + whether/if 或疑问词从句：He asked me whether I had wanted to tell him something（他问我刚才是否想对他说什么）。转述答话用 say/tell + that 从句。转述时注意三件事：人称转换（you→I/he）、时态后移（want→wanted→had wanted）、语序改为陈述式。易错点：直接引语里的一般过去时 Did you want...? 转述后要再后移为过去完成时 had wanted。",
+        "examples": [
+          "The dentist asked me politely if I had wanted to say something. （牙医客气地问我刚才是否想说什么。）",
+          "I told him that he had taken out the wrong tooth. （我告诉他，他拔错了牙。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "“想说”发生在“拔完牙”之前——两个过去动作分先后，先发生的用过去完成时：I had been trying to tell him from the very beginning（我从一开始就一直想告诉他）。它在本课有双重身份：既是叙事需要（过去的过去），又是间接引语时态后移的结果。易错点：had + 过去分词中的分词形式要准确，try 的过去分词是 tried，see 是 seen。",
+        "examples": [
+          "By the time he asked, the tooth had already been pulled out. （等他发问时，那颗牙已经被拔掉了。）",
+          "I had opened my mouth to speak three times before he finished. （在他结束之前，我已三次张口想说话。）"
+        ]
+      },
+      {
+        "point": "every time / whenever 引导的时间状语从句",
+        "explain": "every time、each time、whenever 可以直接当连词用，引导时间状语从句，表示“每当……就……”：Every time I tried to speak, he stopped me（我每次想开口，他都拦住我）。从句与主句时态保持一致，叙述过去用一般过去时。易错点：every time 后面直接跟从句，不要再加 when；这一句型最适合描写“反复发生”的过去情景。",
+        "examples": [
+          "Every time I raised my hand, the dentist told me to keep still. （每当我抬起手，牙医就叫我别动。）",
+          "Whenever I made a sound, he smiled and went on with his work. （每当我发出声音，他都笑一笑，继续干他的活。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：牙医椅上的“哑剧”——想说说不出（protest）、每次开口都被按住（every time 从句）、事后转述全靠间接引语，一次拔牙串起全课语法。②易错提醒：Did you want...? 转成间接引语要双重后移为 asked if I had wanted；tooth 的复数是 teeth，不是 tooths。③对比/记忆法：dentist（牙医）里有 dent-（牙齿词根），联想 dental（牙科的）；extract = ex（向外）+ tract（拉），“向外拉”即“拔出”，词根记忆一步到位。"
+  }
+]

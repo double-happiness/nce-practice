@@ -1,0 +1,1118 @@
+[
+  {
+    "book": 2,
+    "lesson": 25,
+    "title": "Do the English speak English?",
+    "titleCn": "英国人讲的是英语吗？",
+    "scene": "作者第一次到伦敦，在火车站想找人问路。他向一位搬运工询问怎么去旅馆，对方语速飞快、口音浓重，作者几乎一个词也没听懂，连问几遍仍是一头雾水，最后只好自嘲：英国人讲的到底是不是英语？全文以第一人称回忆这段经历，通篇使用一般过去时叙事，而作者转述自己心里的疑问和对方的回答时，大量使用宾语从句（I asked him if…, I did not know what he said…），这正是本课要掌握的核心句型。",
+    "grammarTags": ["宾语从句", "一般过去时"],
+    "words": [
+      {
+        "word": "railway",
+        "phon": "/ˈreɪlweɪ/",
+        "pos": "n.",
+        "cn": "铁路",
+        "eg": "The railway station was crowded with travellers that morning. 那天早晨火车站挤满了旅客。"
+      },
+      {
+        "word": "porter",
+        "phon": "/ˈpɔːtə/",
+        "pos": "n.",
+        "cn": "搬运工",
+        "eg": "A friendly porter helped me carry my heavy suitcase. 一位友好的搬运工帮我提沉重的箱子。"
+      },
+      {
+        "word": "several",
+        "phon": "/ˈsevrəl/",
+        "pos": "adj.",
+        "cn": "几个，数个",
+        "eg": "I repeated my question several times, but he still spoke too fast. 我把问题重复了好几遍，可他说话还是太快。"
+      },
+      {
+        "word": "foreigner",
+        "phon": "/ˈfɒrənə/",
+        "pos": "n.",
+        "cn": "外国人",
+        "eg": "As a foreigner, I found the local accent very hard to follow. 作为外国人，我觉得当地口音很难听懂。"
+      },
+      {
+        "word": "wonder",
+        "phon": "/ˈwʌndə/",
+        "pos": "v.",
+        "cn": "感到奇怪，想知道",
+        "eg": "I began to wonder whether I had learned real English at school. 我开始怀疑自己在学校学的是不是真正的英语。"
+      },
+      {
+        "word": "neither",
+        "phon": "/ˈnaɪðə/",
+        "pos": "adv./conj.",
+        "cn": "两者都不；也不",
+        "eg": "He could not understand me, and neither could I understand him. 他听不懂我的话，我也听不懂他的话。"
+      },
+      {
+        "word": "slowly",
+        "phon": "/ˈsləʊli/",
+        "pos": "adv.",
+        "cn": "缓慢地",
+        "eg": "Please speak slowly so that everyone can follow you. 请说慢一点，好让大家都能听懂。"
+      },
+      {
+        "word": "hotel",
+        "phon": "/həʊˈtel/",
+        "pos": "n.",
+        "cn": "旅馆，酒店",
+        "eg": "I asked the way to a cheap hotel near the station. 我打听去车站附近一家便宜旅馆的路。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "宾语从句",
+        "explain": "宾语从句是放在动词后面充当宾语的句子，常跟在 say, ask, know, think, wonder, understand 等动词后。构成有三类：①陈述句用 that 引导（口语中 that 常省略）：I knew (that) he was busy.②一般疑问句用 if/whether 引导：I asked him if he could help me.③特殊疑问句保留疑问词，但后面必须用陈述语序，不能再倒装：I did not know where the hotel was.（不能说 where was the hotel）。易错点：主句是过去时时，从句一般也要用相应的过去时态，这叫时态呼应。",
+        "examples": [
+          "I asked the porter if there was a hotel near the station. （我问搬运工车站附近有没有旅馆。）",
+          "She did not understand what the man said to her. （她没听懂那个人对她说了什么。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时表示过去发生的动作或存在的状态，常与 yesterday, last week, in 2010, a few days ago 等过去时间连用。规则动词加 -ed（ask→asked），不规则动词需逐个记忆（speak→spoke, say→said, know→knew）。否定和疑问借助 did：He did not answer. / Did you hear him? 注意 did 后面动词要还原为原形。讲述过去的经历、故事时，一般过去时是叙事的基本时态。",
+        "examples": [
+          "Last year I visited London for the first time. （去年我第一次去伦敦游览。）",
+          "The porter spoke quickly and I did not catch a single word. （搬运工说得很快，我一个词也没听清。）"
+        ]
+      },
+      {
+        "point": "间接引语的时态呼应",
+        "explain": "把别人的话转述成宾语从句时，如果主句动词是过去时（said, asked, told），从句时态通常要后移一步：一般现在时变一般过去时，一般将来时 will 变 would，现在完成时变过去完成时。同时人称、时间和地点词也要相应变化，如 now→then, here→there, today→that day。易错点：从句表示客观真理时时态不变，如 The teacher said the earth goes round the sun.",
+        "examples": [
+          "He said that he would show me the way to the hotel. （他说他会给我指去旅馆的路。）",
+          "I told the porter that I was a stranger there. （我告诉搬运工我对那里很陌生。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：想象自己在国外车站听不懂对方的口音，急着转述心里的疑问——I wondered if… / I didn't know what he said——宾语从句就是在这种\"转述\"场景里最自然的表达。②易错提醒：宾语从句必须用陈述语序，切勿写成 I don't know where is the hotel；主句过去时，从句时态要跟着后移。③对比/记忆法：三类宾语从句口诀——陈述句配 that、一般疑问配 if/whether、特殊疑问留疑问词，三种引导词后面一律\"主语+谓语\"正常语序。"
+  },
+  {
+    "book": 2,
+    "lesson": 26,
+    "title": "The best art critics",
+    "titleCn": "最佳美术评论家",
+    "scene": "作者是学美术的学生，自认为对绘画很在行。可他觉得最好的评论家却是自己四岁的小妹妹：小姑娘看画从不装腔作势，有一次她把一幅现代抽象画倒过来欣赏，反而让作者发现画作换个角度更有味道。全文用一般现在时描述作者一贯的看法和小妹妹一贯的习惯，而作者表达观点时反复借助宾语从句（I think that…, She always tells me whether…），宾语从句与一般现在时的配合正是本课语法主线。",
+    "grammarTags": ["宾语从句", "一般现在时"],
+    "words": [
+      {
+        "word": "art",
+        "phon": "/ɑːt/",
+        "pos": "n.",
+        "cn": "艺术，美术",
+        "eg": "My brother studies art at a famous college in Paris. 我哥哥在巴黎一所著名的学院学美术。"
+      },
+      {
+        "word": "critic",
+        "phon": "/ˈkrɪtɪk/",
+        "pos": "n.",
+        "cn": "评论家",
+        "eg": "A good critic always gives honest opinions about a painting. 好的评论家总是对画作给出诚实的评价。"
+      },
+      {
+        "word": "paint",
+        "phon": "/peɪnt/",
+        "pos": "v.",
+        "cn": "绘画，涂颜料",
+        "eg": "She likes to paint pictures of the sea in bright colours. 她喜欢用明亮的颜色画大海。"
+      },
+      {
+        "word": "pretend",
+        "phon": "/prɪˈtend/",
+        "pos": "v.",
+        "cn": "假装",
+        "eg": "Some people pretend to understand modern art, but they really do not. 有些人假装看得懂现代艺术，其实并不懂。"
+      },
+      {
+        "word": "pattern",
+        "phon": "/ˈpætn/",
+        "pos": "n.",
+        "cn": "图案，图形",
+        "eg": "The child drew a strange pattern with red and blue lines. 那孩子用红蓝两色的线条画了一个奇怪的图案。"
+      },
+      {
+        "word": "curtain",
+        "phon": "/ˈkɜːtn/",
+        "pos": "n.",
+        "cn": "窗帘，幕布",
+        "eg": "The new curtain in the living room has a lovely flower pattern. 客厅新窗帘上有漂亮的花朵图案。"
+      },
+      {
+        "word": "material",
+        "phon": "/məˈtɪəriəl/",
+        "pos": "n.",
+        "cn": "材料，布料",
+        "eg": "Mother bought some soft material to make a dress. 妈妈买了些柔软的布料做连衣裙。"
+      },
+      {
+        "word": "appreciate",
+        "phon": "/əˈpriːʃieɪt/",
+        "pos": "v.",
+        "cn": "欣赏，鉴赏",
+        "eg": "You do not need special training to appreciate a beautiful picture. 欣赏一幅美丽的画并不需要专门的训练。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "宾语从句",
+        "explain": "本课继续巩固宾语从句，重点是主句为一般现在时的情况：主句用现在时，从句时态不受限制，按实际需要选用。常见搭配：I think/believe/know that…（表看法），I wonder if/whether…（表疑问），Tell me what/why/how…（表询问）。特别注意 whether 和 if 都可译作\"是否\"，但在介词后或与 or not 直接连用时只能用 whether，如 It depends on whether she likes it.",
+        "examples": [
+          "I believe that my little sister is the best judge of my paintings. （我相信我的小妹妹是我画作最好的评判者。）",
+          "She always tells me whether my new picture is good or not. （她总会告诉我新画到底好不好。）"
+        ]
+      },
+      {
+        "point": "一般现在时",
+        "explain": "一般现在时表示经常性、习惯性的动作或普遍的事实，常与 always, often, usually, every day 等频度词连用。构成：主语为第三人称单数时动词加 -s/-es（she likes, he watches），其余用原形。否定和疑问借助 do/does：She does not pretend. / Does he paint well? 易错点：三单形式最容易漏写，does 之后动词必须还原为原形。",
+        "examples": [
+          "My sister looks at a picture and says what she really thinks. （我妹妹看一幅画就直说她真实的想法。）",
+          "Children usually notice things that grown-ups miss. （孩子们常常注意到大人忽略的东西。）"
+        ]
+      },
+      {
+        "point": "感叹句 How/What 的用法",
+        "explain": "感叹句表达强烈的感情。What 修饰名词：What + (a/an) + 形容词 + 名词 (+ 主语 + 谓语)，如 What a clever girl she is! How 修饰形容词、副词或整个句子：How + 形容词/副词 (+ 主语 + 谓语)，如 How beautiful the pattern is! 易错点：区分中心词——夸\"人/物\"（名词）用 What，夸\"性质/方式\"（形容词、副词）用 How，两者后面都保持陈述语序。",
+        "examples": [
+          "What a wonderful pattern this is! （这个图案多么漂亮啊！）",
+          "How honestly the little girl judges every picture! （这个小姑娘评价每幅画多么诚实啊！）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：小妹妹看画倒着拿反而看出新意——评价、转述看法的场景里，I think that… / She says that… 这种\"观点+宾语从句\"的句型用得最多。②易错提醒：主句是一般现在时时，从句时态自由；但一旦主句改成过去时（She said…），从句就要跟着变。三单动词别忘加 -s。③对比/记忆法：whether 能带 or not、能跟在介词后，if 不行——记住\"whether 更全能，if 只管动词后\"。"
+  },
+  {
+    "book": 2,
+    "lesson": 27,
+    "title": "A wet night",
+    "titleCn": "雨夜",
+    "scene": "几个男孩子外出野营。他们傍晚到达营地后先搭起帐篷，接着生火做饭，晚饭后围着篝火唱歌讲故事，深夜才钻进睡袋入睡。没想到半夜下起大雨，附近的小河涨水漫进了帐篷，孩子们被冰凉的河水惊醒，只好摸黑收拾行李连夜转移。全文按时间顺序用一般过去时讲述野营经过，其中 as soon as、when、after 引导的时间状语从句把一个个动作串成清晰的先后链条，是本课的语法重点。",
+    "grammarTags": ["一般过去时", "时间状语从句"],
+    "words": [
+      {
+        "word": "tent",
+        "phon": "/tent/",
+        "pos": "n.",
+        "cn": "帐篷",
+        "eg": "The boys put up their tent in the middle of a field. 男孩们在田野中间搭起了帐篷。"
+      },
+      {
+        "word": "field",
+        "phon": "/fiːld/",
+        "pos": "n.",
+        "cn": "田地，田野",
+        "eg": "We walked across a wet field to reach the camp. 我们穿过一片湿漉漉的田野才到达营地。"
+      },
+      {
+        "word": "smell",
+        "phon": "/smel/",
+        "pos": "n./v.",
+        "cn": "气味；闻起来",
+        "eg": "The smell of cooking made everyone feel hungry. 饭菜的香味让每个人都觉得饿了。"
+      },
+      {
+        "word": "wonderful",
+        "phon": "/ˈwʌndəfl/",
+        "pos": "adj.",
+        "cn": "极好的，精彩的",
+        "eg": "We had a wonderful evening around the campfire. 我们围着篝火度过了一个美妙的夜晚。"
+      },
+      {
+        "word": "campfire",
+        "phon": "/ˈkæmpfaɪə/",
+        "pos": "n.",
+        "cn": "营火，篝火",
+        "eg": "They told funny stories by the campfire until midnight. 他们在篝火旁讲有趣的故事，一直讲到半夜。"
+      },
+      {
+        "word": "creep",
+        "phon": "/kriːp/",
+        "pos": "v.",
+        "cn": "爬行，缓慢移动（过去式 crept）",
+        "eg": "Cold water crept into the tent while the boys were asleep. 男孩们熟睡时，冰凉的水慢慢渗进了帐篷。"
+      },
+      {
+        "word": "sleeping bag",
+        "phon": "/ˈsliːpɪŋ bæɡ/",
+        "pos": "n.",
+        "cn": "睡袋",
+        "eg": "Each boy climbed into his sleeping bag after supper. 晚饭后每个男孩都钻进了自己的睡袋。"
+      },
+      {
+        "word": "stream",
+        "phon": "/striːm/",
+        "pos": "n.",
+        "cn": "小溪，小河",
+        "eg": "Heavy rain made the little stream rise quickly. 大雨使小溪的水位迅速上涨。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时是英语叙事的\"主打时态\"，按时间顺序讲一个完整的过去故事时，主要动作全部用过去式。规则动词加 -ed，注意拼写变化（stop→stopped, carry→carried）；本课涉及多个不规则动词：put→put, light→lit, sleep→slept, creep→crept, wake→woke。叙事时常用 first, then, after that, later, in the middle of the night 等时间词衔接。易错点：一连串动作中不要有的用过去式、有的漏用原形，时态要保持一致。",
+        "examples": [
+          "The boys lit a fire and cooked their supper in the open air. （男孩们生起火，在露天做了晚饭。）",
+          "In the middle of the night, they woke up and found water everywhere. （半夜里他们醒来，发现到处都是水。）"
+        ]
+      },
+      {
+        "point": "时间状语从句",
+        "explain": "时间状语从句由 when（当……时）、as soon as（一……就）、after（在……之后）、before（在……之前）、until（直到）等连词引导，说明主句动作发生的时间。从句可放在主句前或后，放在前面时用逗号隔开。讲过去的故事时，主从句都用一般过去时：As soon as they arrived, they put up the tent. 易错点：as soon as 强调两个动作紧接着发生，翻译成\"一……就……\"，不要和 while（……期间）混淆。",
+        "examples": [
+          "As soon as the boys reached the field, they began to put up their tent. （男孩们一到田野就开始搭帐篷。）",
+          "After they finished supper, they sat round the campfire and sang songs. （吃完晚饭后，他们围着篝火坐下唱歌。）"
+        ]
+      },
+      {
+        "point": "感官系动词 + 形容词/of 短语",
+        "explain": "smell, taste, look, sound, feel 等感官动词可作系动词，后接形容词作表语，如 The soup smells good.（不能用副词 well）。表示\"闻/尝起来有……的味道\"时用 smell/taste of + 名词，如 The air smelt of wood smoke. 易错点：系动词后面用形容词而不是副词，这是初学者最常见的错误；另外这些动词作系动词时一般不用进行时。",
+        "examples": [
+          "Supper smelt wonderful, and everyone was hungry. （晚饭闻起来香极了，每个人都饿了。）",
+          "The night air smelt of rain and wet grass. （夜晚的空气里有一股雨水和湿草的气味。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：野营故事天然带着\"先搭帐篷、再做饭、然后唱歌、最后睡觉\"的动作链，用 as soon as / after / when 把动作串起来，就是最典型的过去时叙事。②易错提醒：creep、light、wake 等不规则动词的过去式（crept, lit, woke）要单独记；smell 作系动词后接形容词，不要写成 smells wonderfully。③对比/记忆法：as soon as = \"一……就\"（前后紧接），when = \"当……时\"（时间重合或先后皆可），after = \"之后\"，画一条时间轴把三个连词标上去最直观。"
+  },
+  {
+    "book": 2,
+    "lesson": 28,
+    "title": "No parking",
+    "titleCn": "禁止停车",
+    "scene": "Jasper White 是少数至今仍相信古老神话的人之一。他家门前的空地总被人乱停车，立牌警告也毫无用处。于是他从神话里找灵感，在花园里挂出蛇发女妖美杜莎的头像——传说中凡直视她的人都会变成石头。说来奇怪，自从挂上这个可怕的头像，再也没有人敢把车停在他家门口了。课文介绍人物和讲述近况时大量使用定语从句（one of the few people who…, drivers who park there…）和现在完成时（has put, has never had trouble since…），两者正是本课语法主线。",
+    "grammarTags": ["定语从句", "现在完成时"],
+    "words": [
+      {
+        "word": "rare",
+        "phon": "/reə/",
+        "pos": "adj.",
+        "cn": "罕见的，稀少的",
+        "eg": "People who still believe in old myths are quite rare today. 如今仍然相信古老神话的人相当罕见。"
+      },
+      {
+        "word": "ancient",
+        "phon": "/ˈeɪnʃənt/",
+        "pos": "adj.",
+        "cn": "古代的，古老的",
+        "eg": "This story comes from an ancient Greek myth. 这个故事出自一则古希腊神话。"
+      },
+      {
+        "word": "myth",
+        "phon": "/mɪθ/",
+        "pos": "n.",
+        "cn": "神话",
+        "eg": "The myth says that her look could turn people to stone. 神话里说，她的目光能把人变成石头。"
+      },
+      {
+        "word": "trouble",
+        "phon": "/ˈtrʌbl/",
+        "pos": "n.",
+        "cn": "麻烦，苦恼",
+        "eg": "He has had a lot of trouble with cars outside his gate. 他因门外乱停的汽车吃了不少苦头。"
+      },
+      {
+        "word": "effect",
+        "phon": "/ɪˈfekt/",
+        "pos": "n.",
+        "cn": "效果，作用",
+        "eg": "The warning sign had no effect on the drivers at all. 那块警告牌对司机们毫无作用。"
+      },
+      {
+        "word": "hang",
+        "phon": "/hæŋ/",
+        "pos": "v.",
+        "cn": "悬挂（过去式/过去分词 hung）",
+        "eg": "He has hung a frightening head on the garden wall. 他在花园的墙上挂了一个吓人的头像。"
+      },
+      {
+        "word": "frighten",
+        "phon": "/ˈfraɪtn/",
+        "pos": "v.",
+        "cn": "使害怕，吓唬",
+        "eg": "The ugly face frightens away every driver who sees it. 那张丑陋的脸把每个看到它的司机都吓跑了。"
+      },
+      {
+        "word": "park",
+        "phon": "/pɑːk/",
+        "pos": "v.",
+        "cn": "停放（车辆）",
+        "eg": "You must not park your car in front of this gate. 你不可以把车停在这个大门前。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "定语从句跟在名词后面对其加以修饰，相当于一个\"长形容词\"。先行词指人时用 who/whom/that 引导：the man who lives next door；指物时用 which/that：the sign that stands by the gate。关系代词在从句中作宾语时可省略：the head (that) he hung on the wall。常见搭配：one of the few people who…（少数……的人之一，注意 who 后谓语用复数）。易错点：不要在从句里重复代词，如不能说 the car which he bought it。",
+        "examples": [
+          "Jasper is one of the few people who still believe in ancient myths. （Jasper 是少数至今仍相信古老神话的人之一。）",
+          "The head which he hung in the garden frightens every driver. （他挂在花园里的那个头像吓坏了每一个司机。）"
+        ]
+      },
+      {
+        "point": "现在完成时",
+        "explain": "现在完成时（have/has + 过去分词）表示过去发生的动作对现在造成的影响或结果，也表示从过去持续到现在的情况。常与 already, just, ever, never, since, for, so far 连用：He has just put up a sign. / No one has parked there since then. 易错点：现在完成时不能与具体的过去时间（yesterday, last week）连用；for 后接一段时间，since 后接时间起点。",
+        "examples": [
+          "He has tried many ways to keep cars away from his gate. （为了不让汽车停在门口，他已经试过许多办法。）",
+          "Since he hung up the head, no one has parked there. （自从他挂上那个头像，就再没有人在那儿停车了。）"
+        ]
+      },
+      {
+        "point": "动名词作宾语（mind/enjoy/keep + doing）",
+        "explain": "有些动词后面必须接动名词（V-ing）而不是不定式作宾语，常见的有 mind, enjoy, keep, finish, suggest, practise。如 Would you mind moving your car?（介意挪一下车吗？）此外，介词后的动词也一律用 -ing 形式：He succeeded in frightening the drivers away. 易错点：mind 的答语——Not at all / Of course not 表示\"不介意，可以\"，而 I'm afraid I do 表示\"介意，不行\"。",
+        "examples": [
+          "Would you mind parking your car somewhere else? （您介意把车停到别处去吗？）",
+          "Drivers keep leaving their cars outside his gate. （司机们不断把车停在他的大门外。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：介绍\"什么样的人、什么样的车、什么样的牌子\"时自然要用定语从句——one of the few people who…、the drivers who park there；讲\"挂头像之后至今的效果\"则用现在完成时。②易错提醒：one of the few people who 后谓语用复数（who 指 people）；现在完成时别和 yesterday 等具体过去时间连用。③对比/记忆法：who 管人、which 管物、that 两者通吃；since + 时间点、for + 时间段，\"since 点 for 段\"四字口诀。"
+  },
+  {
+    "book": 2,
+    "lesson": 29,
+    "title": "Taxi!",
+    "titleCn": "出租汽车！",
+    "scene": "Ben Fawcett 机长买了一架小型飞机，把它当作\"空中出租车\"来经营。这些年来他接过各种稀奇古怪的生意：送乘客去偏远的农场、给灯塔运送补给，甚至载人环岛观光。其中最惊人的一单，是应邀把飞机稳稳降落在一栋公寓大楼的楼顶上。课文先用现在完成时概括机长\"至今为止\"的经历（has bought, has flown, has carried out…），再用一般过去时具体讲述楼顶降落那一次冒险，两种时态的配合与转换正是本课语法核心。",
+    "grammarTags": ["现在完成时", "一般过去时"],
+    "words": [
+      {
+        "word": "pilot",
+        "phon": "/ˈpaɪlət/",
+        "pos": "n.",
+        "cn": "飞行员",
+        "eg": "The pilot has flown to almost every corner of the country. 这位飞行员几乎飞遍了全国的每个角落。"
+      },
+      {
+        "word": "flat",
+        "phon": "/flæt/",
+        "pos": "n.",
+        "cn": "公寓，单元房",
+        "eg": "They live in a small flat on the top floor. 他们住在顶层的一套小公寓里。"
+      },
+      {
+        "word": "roof",
+        "phon": "/ruːf/",
+        "pos": "n.",
+        "cn": "屋顶，楼顶",
+        "eg": "Landing a plane on the roof of a building sounds impossible. 把飞机降落在楼顶上听起来不可思议。"
+      },
+      {
+        "word": "block",
+        "phon": "/blɒk/",
+        "pos": "n.",
+        "cn": "大楼，大厦；街区",
+        "eg": "A new block of flats has just been built near the airport. 机场附近刚建起一栋新公寓楼。"
+      },
+      {
+        "word": "land",
+        "phon": "/lænd/",
+        "pos": "v.",
+        "cn": "降落，着陆",
+        "eg": "The small plane landed safely in a narrow field. 那架小飞机安全地降落在一块狭窄的田地里。"
+      },
+      {
+        "word": "unusual",
+        "phon": "/ʌnˈjuːʒuəl/",
+        "pos": "adj.",
+        "cn": "不寻常的，罕见的",
+        "eg": "He has received many unusual requests from his passengers. 他接到过乘客们许多不同寻常的请求。"
+      },
+      {
+        "word": "lonely",
+        "phon": "/ˈləʊnli/",
+        "pos": "adj.",
+        "cn": "偏僻的；孤独的",
+        "eg": "The pilot once carried food to a lonely village in the mountains. 这位飞行员曾给山里一个偏僻的村子运送食物。"
+      },
+      {
+        "word": "passenger",
+        "phon": "/ˈpæsɪndʒə/",
+        "pos": "n.",
+        "cn": "乘客",
+        "eg": "The plane is so small that it can only take one passenger. 这架飞机很小，只能搭载一名乘客。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "现在完成时（have/has + 过去分词）用来概括\"从过去到现在\"的经历和成果，回答\"到目前为止做过什么\"。常与 ever, never, before, so far, many times 等连用：He has flown a plane for twenty years. / Have you ever travelled by air? 它强调经历和结果，而不追究具体发生时间。易错点：疑问句 Have you ever…? 的肯定回答用 Yes, I have，进一步说明具体细节时要换成一般过去时。",
+        "examples": [
+          "Captain Ben has bought an unusual taxi and has begun a new service. （Ben 机长买了一辆不寻常的\"出租车\"，开始了一项新业务。）",
+          "He has carried passengers to many strange places over the years. （多年来他把乘客送到过许多稀奇古怪的地方。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一旦谈到经历中\"具体某一次\"发生的事情，就要从现在完成时切换到一般过去时，并可补上具体时间：Once he landed on the roof of a block of flats. 这是英语叙事的常见节奏——先用完成时概括，再用过去时展开细节。易错点：切换后就不要再混用 have/has，如不能说 Last year he has landed on a roof。",
+        "examples": [
+          "Once he flew a passenger to a lonely farm in the north. （有一次他载着一位乘客飞往北方一座偏僻的农场。）",
+          "The most surprising trip happened last spring. （最令人吃惊的一次飞行发生在去年春天。）"
+        ]
+      },
+      {
+        "point": "现在完成时与一般过去时的对比",
+        "explain": "两者都谈过去的动作，区别在视角：现在完成时立足现在，强调\"对现在的影响或到现在为止的经历\"，不带具体过去时间；一般过去时立足过去，交代\"何时何地发生了什么\"，常带 yesterday, last year, once, in 2015 等时间状语。对比：I have lost my key.（钥匙现在还没找到）/ I lost my key yesterday.（只说昨天丢了）。判断口诀：句中出现具体过去时间，一律用过去时。",
+        "examples": [
+          "He has visited that island several times, and he first went there in 2019. （他去过那个岛好几次，第一次去是在 2019 年。）",
+          "I have never seen such a small plane before. Yesterday I saw one at last. （我以前从未见过这么小的飞机，昨天总算见到了一架。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：介绍机长的\"从业履历\"用现在完成时（has flown, has carried），讲\"楼顶降落那一单\"用一般过去时（once he landed）——先概括后细说，是英语讲经历的标准套路。②易错提醒：具体过去时间（last year, once, in 2020）出现时必须用过去时，不能说 has landed last year。③对比/记忆法：完成时像\"简历\"（总结到今天为止），过去时像\"日记\"（记录某天发生的事），一简历一日记，视角立分。"
+  },
+  {
+    "book": 2,
+    "lesson": 30,
+    "title": "Football or polo?",
+    "titleCn": "足球还是水球？",
+    "scene": "作者的家坐落在河边，夏天他常坐在花园里看河上来往的小船。一天傍晚，一个男子撑着平底船缓缓经过，忽然一只皮球不知从哪儿飞来，不偏不倚砸在他身上。男子以为是坐在岸边的作者踢的，怒气冲冲地把球一脚踢回河里，扬长而去，弄得作者哭笑不得——球其实是附近玩耍的孩子们踢过来的。全文用一般过去时讲述这场误会，而 across, towards, into, past, out of 等介词精确描绘了球和船的运动轨迹，是本课的第二个学习重点。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      {
+        "word": "polo",
+        "phon": "/ˈpəʊləʊ/",
+        "pos": "n.",
+        "cn": "水球；马球",
+        "eg": "Water polo is a popular game in many European countries. 水球在许多欧洲国家是一项很受欢迎的运动。"
+      },
+      {
+        "word": "river bank",
+        "phon": "/ˈrɪvə bæŋk/",
+        "pos": "n.",
+        "cn": "河岸",
+        "eg": "We often sit on the river bank and watch the boats. 我们常坐在河岸上看来往的船只。"
+      },
+      {
+        "word": "boat",
+        "phon": "/bəʊt/",
+        "pos": "n.",
+        "cn": "小船",
+        "eg": "A long, narrow boat passed slowly under the bridge. 一条狭长的小船缓缓地从桥下驶过。"
+      },
+      {
+        "word": "kick",
+        "phon": "/kɪk/",
+        "pos": "v.",
+        "cn": "踢",
+        "eg": "The angry man kicked the ball back into the river. 那个愤怒的男子一脚把球踢回了河里。"
+      },
+      {
+        "word": "towards",
+        "phon": "/təˈwɔːdz/",
+        "pos": "prep.",
+        "cn": "朝，向",
+        "eg": "The ball flew towards the man in the boat. 皮球朝船上的男子飞去。"
+      },
+      {
+        "word": "nearly",
+        "phon": "/ˈnɪəli/",
+        "pos": "adv.",
+        "cn": "几乎，差点儿",
+        "eg": "The ball nearly knocked him into the water. 皮球差点儿把他撞进水里。"
+      },
+      {
+        "word": "sight",
+        "phon": "/saɪt/",
+        "pos": "n.",
+        "cn": "眼界，视域；景象",
+        "eg": "The little boat soon passed out of sight round the bend. 小船很快在河湾处消失在视野之外。"
+      },
+      {
+        "word": "annoy",
+        "phon": "/əˈnɔɪ/",
+        "pos": "v.",
+        "cn": "使恼怒，使生气",
+        "eg": "It annoyed him that everyone on the bank was laughing. 岸上的人都在笑，这让他十分恼火。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "本课继续训练用一般过去时讲述一个有起因、经过、结果的小故事。叙事中动作接连发生时，动词依次用过去式：flew, hit, thought, kicked, moved away。描写背景状态则可配合 be 动词过去式或 there was：It was a fine evening. 易错点：叙述与对话切换时注意时态——故事叙述用过去时，但直接引语内部时态照原话保留。",
+        "examples": [
+          "Suddenly a big ball flew over the wall and hit the man on the shoulder. （突然一只大皮球飞过墙头，砸在那个男子的肩膀上。）",
+          "He thought I kicked the ball, so he shouted angrily at me. （他以为是我踢的球，于是冲我愤怒地大喊。）"
+        ]
+      },
+      {
+        "point": "介词（方位与运动方向）",
+        "explain": "介词用来说明位置和运动方向，是英语描写动作画面的关键小词。静态位置：on（在……上面，接触）、under（在……下面）、near/by（在……旁边）。动态方向：towards（朝向）、across（横过表面）、into（进入）、out of（从……出来）、past（经过）、over（越过上方）。易错点：across 与 through 的区别——across 指从表面横穿（across the river），through 指从内部穿过（through the forest）；into 表\"进入\"的动向，in 只表\"在里面\"的状态。",
+        "examples": [
+          "The man in the boat moved slowly past our garden. （船上的男子缓缓地从我们的花园旁经过。）",
+          "The ball rolled across the grass and fell into the river. （皮球滚过草地，掉进了河里。）"
+        ]
+      },
+      {
+        "point": "动词 + 宾语 + 介词短语（hit sb on the + 身体部位）",
+        "explain": "英语表示\"打/碰到某人身体某部位\"时，习惯先说人再说部位：hit/strike sb on the head（打某人的头）、catch sb by the arm（抓住某人的胳膊）、look sb in the eye（直视某人的眼睛）。注意部位前用定冠词 the，不用形容词性物主代词。易错点：不要按中文语序说 hit his shoulder 虽然也通，但 hit him on the shoulder 更地道，且介词因动作不同而变化（on 用于打击面，by 用于抓握）。",
+        "examples": [
+          "The ball struck the man on the back of the head. （皮球正打在那个男子的后脑勺上。）",
+          "I caught the boy by the arm before he ran away. （那男孩逃跑之前，我一把抓住了他的胳膊。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：一只球 flew over the wall（越过）、towards the boat（朝向）、hit the man（击中）、fell into the river（落入）——把这幕画面在脑中过一遍电影，介词的方向感就记住了。②易错提醒：hit sb on the shoulder 中部位前用 the；across 横穿表面、through 内部穿过，别混用。③对比/记忆法：把 towards/into/out of/past/across/over 画成六个带箭头的小图，介词配箭头，一图胜千言。"
+  },
+  {
+    "book": 2,
+    "lesson": 31,
+    "title": "Success story",
+    "titleCn": "成功者的故事",
+    "scene": "退休富商 Frank 在自家花园里招待客人，向大家回忆起自己的创业史：年轻时家里穷，他从一家修车行的小工干起，一周只挣很少的钱；干了几年后，他向别人借了一笔钱，开了一间小小的修理铺；凭着勤奋和诚信，生意越做越大，如今他已拥有一家大汽车公司，连儿子也当上了公司经理。讲述往事时，课文用过去完成时交代\"更早之前\"发生的背景（had worked, had saved, had borrowed），再用一般过去时推进故事，两个时态的先后配合是本课语法核心。",
+    "grammarTags": ["过去完成时", "一般过去时"],
+    "words": [
+      {
+        "word": "retire",
+        "phon": "/rɪˈtaɪə/",
+        "pos": "v.",
+        "cn": "退休",
+        "eg": "Frank retired last year and now enjoys working in his garden. Frank 去年退休了，现在喜欢在花园里干活。"
+      },
+      {
+        "word": "company",
+        "phon": "/ˈkʌmpəni/",
+        "pos": "n.",
+        "cn": "公司",
+        "eg": "He now owns a large company that makes car parts. 他如今拥有一家生产汽车零件的大公司。"
+      },
+      {
+        "word": "bicycle",
+        "phon": "/ˈbaɪsɪkl/",
+        "pos": "n.",
+        "cn": "自行车",
+        "eg": "As a poor boy, he rode an old bicycle to work every day. 穷小子时代，他每天骑一辆旧自行车去上班。"
+      },
+      {
+        "word": "save",
+        "phon": "/seɪv/",
+        "pos": "v.",
+        "cn": "积蓄，储蓄",
+        "eg": "He saved a little money every week for many years. 多年来他每周都存下一点钱。"
+      },
+      {
+        "word": "workshop",
+        "phon": "/ˈwɜːkʃɒp/",
+        "pos": "n.",
+        "cn": "车间，作坊",
+        "eg": "His first workshop was a small room behind a shop. 他的第一间作坊是商店后面的一个小房间。"
+      },
+      {
+        "word": "employ",
+        "phon": "/ɪmˈplɔɪ/",
+        "pos": "v.",
+        "cn": "雇用",
+        "eg": "The company now employs several hundred workers. 这家公司现在雇用着几百名工人。"
+      },
+      {
+        "word": "borrow",
+        "phon": "/ˈbɒrəʊ/",
+        "pos": "v.",
+        "cn": "借（入）",
+        "eg": "He borrowed money from a friend to open his own garage. 他向一位朋友借钱开了自己的修理铺。"
+      },
+      {
+        "word": "manager",
+        "phon": "/ˈmænɪdʒə/",
+        "pos": "n.",
+        "cn": "经理",
+        "eg": "His son has become the manager of the company. 他的儿子已经当上了公司的经理。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "过去完成时（had + 过去分词）表示\"过去的过去\"——在过去某个时间或动作之前已经完成的动作。它必须以一个过去时间为参照：By the time he was thirty, he had saved enough money.（到三十岁时，他已经攒够了钱。）常与 by the time, before, after, already, just 连用。易错点：过去完成时不能单独漫无参照地使用，必须有一个\"过去的锚点\"；如果两个动作用 before/after 连接、先后已经很清楚，从句也可以直接用一般过去时。",
+        "examples": [
+          "Before he opened his own workshop, he had worked in a garage for six years. （在开自己的修理铺之前，他已经在一家修车行干了六年。）",
+          "By the time he was forty, Frank had built up a large business. （到四十岁时，Frank 已经建立起一份很大的产业。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "回忆往事的主线仍由一般过去时推进：he left school, he found a job, he borrowed money, he opened a workshop。过去完成时负责\"回头补叙更早的事\"，一般过去时负责\"顺着讲当时的事\"，两者配合使故事层次分明。易错点：不要把整段回忆全写成 had done——只有相对更早的动作才用过去完成时，主线动作用一般过去时即可。",
+        "examples": [
+          "Frank left school at fourteen and found work in a small garage. （Frank 十四岁离开学校，在一家小修车行找到了工作。）",
+          "Years later, he told his guests the story of his early life with a smile. （多年以后，他笑着向客人们讲起自己早年的经历。）"
+        ]
+      },
+      {
+        "point": "used to + 动词原形",
+        "explain": "used to do 表示\"过去常常/曾经……（而现在不再）\"，强调今昔对比：He used to be poor.（他过去很穷——言外之意现在不穷了。）否定式 didn't use to 或 used not to，疑问式 Did you use to…? 易错点：区分 used to do（过去常做）、be used to doing（习惯于做）、be used to do（被用来做）三个形近结构，其中只有第一个表\"过去的习惯\"。",
+        "examples": [
+          "Frank used to repair cars for very low pay. （Frank 过去修车，工钱少得可怜。）",
+          "He used to ride to work, but now he drives his own car. （他过去骑车上班，如今开的是自己的汽车。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：富翁回忆创业史——\"开铺之前他已经攒了钱、借了钱\"，凡是\"之前已经\"的动作就交给过去完成时，主线故事交给一般过去时。②易错提醒：had done 必须有过去的参照点，别通篇滥用；used to 后接动词原形，和 be used to doing 完全不同。③对比/记忆法：画一条时间轴，标出\"更早（had done）→ 过去（did）→ 现在（does）\"三个点，过去完成时永远站在最左端。"
+  },
+  {
+    "book": 2,
+    "lesson": 32,
+    "title": "Shopping made easy",
+    "titleCn": "购物变得轻松",
+    "scene": "如今商店购物越来越方便，可有些人却把\"方便\"用歪了。一名商店侦探注意到一个行为可疑的女子：她在柜台间转悠，趁店员不注意，把一件件商品悄悄塞进自己的大衣里，自以为神不知鬼不觉。侦探一直在暗中观察，等她拿着最便宜的一件小东西去付款时当场将她识破。课文描写\"侦探正在监视时小偷做了什么\"，过去进行时（was watching, was walking）铺设背景，一般过去时（slipped, took, caught）推进关键动作，两种时态的交织是本课语法主线。",
+    "grammarTags": ["过去进行时", "一般过去时"],
+    "words": [
+      {
+        "word": "once",
+        "phon": "/wʌns/",
+        "pos": "adv./conj.",
+        "cn": "曾经；一旦",
+        "eg": "Once a thief is caught, the store calls the police at once. 小偷一旦被抓住，商店会立刻报警。"
+      },
+      {
+        "word": "temptation",
+        "phon": "/tempˈteɪʃn/",
+        "pos": "n.",
+        "cn": "诱惑",
+        "eg": "Open shelves in big stores can be a temptation to some people. 大商店里开放的货架对某些人来说是一种诱惑。"
+      },
+      {
+        "word": "article",
+        "phon": "/ˈɑːtɪkl/",
+        "pos": "n.",
+        "cn": "物品，物件",
+        "eg": "She hid several small articles under her long coat. 她把几件小物品藏在长大衣下面。"
+      },
+      {
+        "word": "wrap",
+        "phon": "/ræp/",
+        "pos": "v.",
+        "cn": "包，裹",
+        "eg": "The assistant wrapped the gift in beautiful paper. 店员用漂亮的纸把礼物包了起来。"
+      },
+      {
+        "word": "simply",
+        "phon": "/ˈsɪmpli/",
+        "pos": "adv.",
+        "cn": "仅仅，只不过；简直",
+        "eg": "She simply walked out as if she had paid for everything. 她只不过若无其事地走了出去，就好像都付过钱似的。"
+      },
+      {
+        "word": "arrest",
+        "phon": "/əˈrest/",
+        "pos": "v.",
+        "cn": "逮捕",
+        "eg": "The police arrested the woman outside the store. 警察在商店外逮捕了那名女子。"
+      },
+      {
+        "word": "detective",
+        "phon": "/dɪˈtektɪv/",
+        "pos": "n.",
+        "cn": "侦探",
+        "eg": "A store detective was watching her all the time. 一名商店侦探一直在监视着她。"
+      },
+      {
+        "word": "steal",
+        "phon": "/stiːl/",
+        "pos": "v.",
+        "cn": "偷窃（过去式 stole，过去分词 stolen）",
+        "eg": "It is easy to steal from open shelves, but stealing never pays. 从开放货架上偷东西很容易，但偷窃绝没有好下场。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "过去进行时（was/were + V-ing）表示过去某一时刻正在进行的动作，常为故事铺设背景画面：The detective was watching her carefully.（侦探正仔细监视着她。）常与 at that moment, all the time, at nine o'clock yesterday 等时间连用。易错点：表示状态或感知的动词（know, like, see, believe）一般不用进行时；was/were 要与主语一致。",
+        "examples": [
+          "The woman was walking slowly from counter to counter. （那名女子正在一个又一个柜台间慢慢地走。）",
+          "At that moment, the detective was standing quietly behind a shelf. （那时候，侦探正静静地站在货架后面。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "在过去进行时铺好的背景之上，突然发生的、依次完成的关键动作用一般过去时：she picked up a dress, slipped it into her coat, then went to the desk。\"背景用进行、情节用过去\"是英语叙事的黄金搭配。易错点：短促的瞬间动作（catch, stop, arrive）通常不用进行时来叙述主线情节。",
+        "examples": [
+          "Suddenly she picked up a scarf and slipped it under her coat. （突然她拿起一条围巾，一下子塞进了大衣里面。）",
+          "When she went to pay, the detective stopped her at once. （她去付款时，侦探立刻拦住了她。）"
+        ]
+      },
+      {
+        "point": "when/while 与两种时态的搭配",
+        "explain": "when 和 while 常把过去进行时和一般过去时连接起来：长动作（进行时）作背景，短动作（过去时）插入其中。While she was hiding the articles, the detective saw everything.（她藏东西的时候，侦探全看在眼里。）规律：while 后面多接进行时（强调\"正当……期间\"），when 两者皆可。易错点：两个动作都持续时可以都用进行时（While I was reading, she was writing）；不要把插入的短动作也写成进行时。",
+        "examples": [
+          "While the assistant was serving another customer, the woman took a small clock. （店员正接待另一位顾客时，那女子拿走了一座小钟。）",
+          "She was leaving the store when the detective caught her by the arm. （她正要离开商店，侦探一把抓住了她的胳膊。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：监控录像画面——侦探 was watching（长镜头背景），小偷 slipped the scarf into her coat（关键瞬间抓拍），\"长镜头用进行时、抓拍用过去时\"。②易错提醒：see, know, believe 等状态动词不用进行时；while 后面习惯接进行时。③对比/记忆法：was doing 是一条延展的\"线\"，did 是线上突然出现的\"点\"，\"点线结合\"就是过去叙事的画面感。"
+  },
+  {
+    "book": 2,
+    "lesson": 33,
+    "title": "Out of the darkness",
+    "titleCn": "冲出黑暗",
+    "scene": "一位女游泳好手乘船出海，不料夜里风暴骤起，小船触礁沉没。落水后她发现远处海岸上有一点微弱的灯光，便认定那是获救的方向，在漆黑冰冷的海水中朝着灯光整整游了一夜。天亮时分，她终于精疲力竭地爬上岸，这才明白自己游过了数英里的海面。课文在讲述获救经过时，不断用过去完成时回溯\"上岸之前已经发生的事\"（had struck, had sunk, had swum），并用 when、by the time 等时间状语从句标出时间坐标，两者正是本课语法重点。",
+    "grammarTags": ["过去完成时", "时间状语从句"],
+    "words": [
+      {
+        "word": "darkness",
+        "phon": "/ˈdɑːknəs/",
+        "pos": "n.",
+        "cn": "黑暗",
+        "eg": "She swam through the darkness towards the far-away light. 她在黑暗中朝着远处的灯光游去。"
+      },
+      {
+        "word": "coast",
+        "phon": "/kəʊst/",
+        "pos": "n.",
+        "cn": "海岸",
+        "eg": "A tiny light was shining somewhere along the coast. 海岸线上的某个地方闪着一点微光。"
+      },
+      {
+        "word": "storm",
+        "phon": "/stɔːm/",
+        "pos": "n.",
+        "cn": "风暴，暴风雨",
+        "eg": "A sudden storm struck the little boat at midnight. 半夜里一场突如其来的风暴袭击了那条小船。"
+      },
+      {
+        "word": "sink",
+        "phon": "/sɪŋk/",
+        "pos": "v.",
+        "cn": "下沉，沉没（过去式 sank，过去分词 sunk）",
+        "eg": "The boat sank within a few minutes after hitting the rocks. 小船撞上礁石后几分钟内就沉没了。"
+      },
+      {
+        "word": "ashore",
+        "phon": "/əˈʃɔː/",
+        "pos": "adv.",
+        "cn": "上岸，向岸",
+        "eg": "At dawn she finally struggled ashore, cold and tired. 拂晓时分她终于挣扎着上了岸，又冷又累。"
+      },
+      {
+        "word": "faint",
+        "phon": "/feɪnt/",
+        "pos": "adj.",
+        "cn": "微弱的，模糊的",
+        "eg": "The faint light gave her hope in the black water. 那微弱的灯光给了她在黑暗海水中的希望。"
+      },
+      {
+        "word": "exhausted",
+        "phon": "/ɪɡˈzɔːstɪd/",
+        "pos": "adj.",
+        "cn": "精疲力竭的",
+        "eg": "She was completely exhausted when she reached the shore. 她到达岸边时已经筋疲力尽。"
+      },
+      {
+        "word": "rock",
+        "phon": "/rɒk/",
+        "pos": "n.",
+        "cn": "岩石，礁石",
+        "eg": "The boat struck a hidden rock in the storm. 小船在风暴中撞上了一块暗礁。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "过去完成时（had + 过去分词）用来交代\"在过去某个时刻之前已经发生\"的事情。本课的典型用法是\"获救后回溯遇险经过\"：When she climbed ashore, she realized that she had swum several miles.（她爬上岸时才意识到自己已经游了好几英里。）在 realize, find, know, remember 等动词后的宾语从句中，若从句动作发生在主句之前，就用过去完成时。易错点：had 之后必须用过去分词（swim→swum, sink→sunk），不规则动词的三态要记牢。",
+        "examples": [
+          "By morning, she had swum all the way to the coast. （到早晨时，她已经一路游到了海岸。）",
+          "She realized that the storm had sunk the boat completely. （她意识到风暴已经使小船彻底沉没。）"
+        ]
+      },
+      {
+        "point": "时间状语从句",
+        "explain": "when, before, after, by the time, as soon as 等引导的时间状语从句为过去完成时提供\"时间锚点\"。by the time + 过去时从句，主句常配过去完成时：By the time the sun rose, she had reached the shore. before/after 本身已表明先后，从句可用一般过去时。易错点：时间状语从句中即使谈将来也不用 will（见 L36），谈过去则注意主从句时态先后要符合逻辑。",
+        "examples": [
+          "When rescuers arrived, she had already climbed out of the water. （救援人员赶到时，她已经爬出了水面。）",
+          "Before the boat went down, she had put on a life jacket. （小船沉没之前，她已经穿上了救生衣。）"
+        ]
+      },
+      {
+        "point": "过去完成时与一般过去时的配合",
+        "explain": "叙事主线（落水、游泳、上岸）用一般过去时依次推进；需要回头解释\"更早发生了什么\"时切换到过去完成时。判断方法：先在头脑里排出动作的真实顺序，凡是发生在\"叙事当前时刻\"之前的动作，用 had done。若全文只是按顺序平铺直叙，则通篇一般过去时即可，不必强加 had。易错点：不要\"见过去就 had\"，过去完成时只在需要强调先后错位时才使用。",
+        "examples": [
+          "She was safe at last, but the sea had taken everything she owned. （她终于安全了，可大海已吞没了她的全部财物。）",
+          "The villagers who found her learned that her boat had struck a rock at night. （发现她的村民们得知，她的船是在夜里撞上了礁石。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：上岸回望——\"此刻安全\"是过去时的立足点，\"之前船沉了、游了一整夜\"全是 had done 的地盘，游向灯光的画面能帮你记住\"回溯\"这个核心概念。②易错提醒：swim–swam–swum、sink–sank–sunk 两组不规则变化极易写混；by the time + 过去时，主句配过去完成时。③对比/记忆法：把故事排成时间轴\"船沉(1)→游泳(2)→上岸(3)\"，站在(3)回看(1)(2)就用 had done——\"站在过去、回望更过去\"。"
+  },
+  {
+    "book": 2,
+    "lesson": 34,
+    "title": "Quick work",
+    "titleCn": "破案神速",
+    "scene": "Dan Robinson 早晨收到警察局寄来的一封信，要他去一趟警局。他自问没做过任何违法的事，却仍然坐立不安，一上午都在猜测警察找他到底为了什么。下午他硬着头皮赶到警察局，警察却笑着告诉他一个好消息：他十年前丢失的那辆自行车找到了，警方办事效率\"真高\"——只用了十年。全文用一般过去时讲述这一天的经过，when、as soon as 引导的时间状语从句串起收信、赶路、见警察等一连串动作，是本课语法主线。",
+    "grammarTags": ["一般过去时", "时间状语从句"],
+    "words": [
+      {
+        "word": "policeman",
+        "phon": "/pəˈliːsmən/",
+        "pos": "n.",
+        "cn": "警察",
+        "eg": "A policeman at the desk asked Dan to sit down. 值班的警察请 Dan 坐下。"
+      },
+      {
+        "word": "letter",
+        "phon": "/ˈletə/",
+        "pos": "n.",
+        "cn": "信",
+        "eg": "The letter from the police station worried him all morning. 警察局寄来的那封信让他担心了一上午。"
+      },
+      {
+        "word": "worried",
+        "phon": "/ˈwʌrid/",
+        "pos": "adj.",
+        "cn": "担心的，发愁的",
+        "eg": "Dan felt worried because he could not guess what the police wanted. Dan 很担心，因为他猜不出警察找他干什么。"
+      },
+      {
+        "word": "call at",
+        "phon": "/kɔːl æt/",
+        "pos": "phr.",
+        "cn": "访问（某地）",
+        "eg": "The letter asked him to call at the station that afternoon. 信中要他当天下午到警察局去一趟。"
+      },
+      {
+        "word": "amusing",
+        "phon": "/əˈmjuːzɪŋ/",
+        "pos": "adj.",
+        "cn": "好笑的，有趣的",
+        "eg": "The whole story sounds amusing rather than frightening. 整件事听起来好笑多于吓人。"
+      },
+      {
+        "word": "cost",
+        "phon": "/kɒst/",
+        "pos": "v.",
+        "cn": "花费，价值（过去式/过去分词 cost）",
+        "eg": "The old bicycle cost him only five pounds ten years ago. 十年前那辆旧自行车只花了他五英镑。"
+      },
+      {
+        "word": "find",
+        "phon": "/faɪnd/",
+        "pos": "v.",
+        "cn": "找到，发现（过去式/过去分词 found）",
+        "eg": "The police finally found the bicycle in a small village. 警察最终在一个小村子里找到了那辆自行车。"
+      },
+      {
+        "word": "surprised",
+        "phon": "/səˈpraɪzd/",
+        "pos": "adj.",
+        "cn": "吃惊的",
+        "eg": "Dan was surprised to hear the real reason for the letter. 听到来信的真正原因，Dan 十分吃惊。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "本课用一般过去时完整讲述\"一天里发生的事\"：received the letter（收信）→ felt worried（担心）→ went to the station（前往）→ learned the news（得知消息）。注意几组不规则动词：receive 规则，feel→felt, go→went, tell→told, lose→lost, find→found, cost→cost。疑问和否定借助 did：Why did the police write to him? / He did not break the law. 易错点：did 之后动词还原为原形。",
+        "examples": [
+          "Dan received a strange letter from the police yesterday morning. （昨天早晨 Dan 收到了警察局一封奇怪的来信。）",
+          "He did not eat much lunch because he felt so nervous. （他午饭没吃多少，因为他太紧张了。）"
+        ]
+      },
+      {
+        "point": "时间状语从句",
+        "explain": "when（当……时）、as soon as（一……就）、while（在……期间）引导的从句为主句动作标明时间。叙述过去的事情时主从句都用过去时态：When he arrived at the station, a smiling policeman met him. as soon as 强调\"紧接着\"：As soon as he read the letter, he began to worry. 易错点：从句放在句首要加逗号；一个句子里已有连词 when，主句前不要再画蛇添足加 then 之类的连词（可作副词用）。",
+        "examples": [
+          "As soon as Dan opened the letter, his heart began to beat fast. （Dan 一拆开信，心就怦怦直跳。）",
+          "When he walked into the station, the policeman greeted him with a smile. （他走进警察局时，那位警察微笑着招呼他。）"
+        ]
+      },
+      {
+        "point": "动词不定式作宾语（want/ask/tell sb to do）",
+        "explain": "ask, tell, want, would like 等动词常接\"宾语 + 不定式\"结构，表示\"要求/希望某人做某事\"：The police asked him to call at the station.（警察要他去局里一趟。）否定形式在 to 前加 not：Mother told me not to worry. 易错点：不要漏掉 to，也不要把 tell sb to do 与 tell sb about sth 混淆；let 和 make 后接不带 to 的不定式（let him go）。",
+        "examples": [
+          "The letter asked Dan to see the police as soon as possible. （信中要求 Dan 尽快去见警察。）",
+          "The policeman told him not to worry about anything. （那位警察叫他什么都不用担心。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：收到警局来信的忐忑一天——\"一拆信就紧张（as soon as）、到警局时真相大白（when）\"，时间连词就是这条情绪线的路标。②易错提醒：cost 的过去式仍是 cost，find 的过去式是 found（别与 found\"创立\"的原形混淆）；did 之后动词用原形。③对比/记忆法：ask/tell/want sb to do 三兄弟都带 to，let/make sb do 两兄弟不带 to——\"三带两不带\"。"
+  },
+  {
+    "book": 2,
+    "lesson": 35,
+    "title": "Stop thief!",
+    "titleCn": "捉贼！",
+    "scene": "Roy Trenton 过去以开出租车为生，不久前改行当了公共汽车司机，正为新工作感到新鲜。昨天他驾车沿街行驶时，忽然看见两名劫匪从银行冲出，在人行道上抢了一位妇女的提包拔腿就跑。Roy 没有犹豫，加大油门驾车直冲过去，吓得劫匪弃包逃窜，其中一人当场被赶来的路人按住。课文描写这场街头擒贼：Roy was driving along（背景），劫匪 rushed out、snatched the bag（突发动作），过去进行时与一般过去时的配合把画面感推到极致，是本课语法核心。",
+    "grammarTags": ["过去进行时", "一般过去时"],
+    "words": [
+      {
+        "word": "thief",
+        "phon": "/θiːf/",
+        "pos": "n.",
+        "cn": "小偷，贼（复数 thieves）",
+        "eg": "Two thieves ran out of the bank with a woman's bag. 两个劫匪拿着一位妇女的提包从银行里跑了出来。"
+      },
+      {
+        "word": "regret",
+        "phon": "/rɪˈɡret/",
+        "pos": "v.",
+        "cn": "后悔，遗憾",
+        "eg": "Roy does not regret changing his job at all. Roy 一点也不后悔换了工作。"
+      },
+      {
+        "word": "pavement",
+        "phon": "/ˈpeɪvmənt/",
+        "pos": "n.",
+        "cn": "人行道",
+        "eg": "The woman was standing on the pavement when the thieves ran past. 劫匪跑过时，那位妇女正站在人行道上。"
+      },
+      {
+        "word": "snatch",
+        "phon": "/snætʃ/",
+        "pos": "v.",
+        "cn": "抢夺，一把抓住",
+        "eg": "One of the thieves snatched her handbag and ran off. 其中一个劫匪一把抢过她的手提包就跑。"
+      },
+      {
+        "word": "brake",
+        "phon": "/breɪk/",
+        "pos": "n./v.",
+        "cn": "刹车；刹车",
+        "eg": "Roy put on the brakes just in time to avoid the crowd. Roy 及时刹车，避开了人群。"
+      },
+      {
+        "word": "straight",
+        "phon": "/streɪt/",
+        "pos": "adv.",
+        "cn": "径直地",
+        "eg": "He drove straight at the two running men. 他驾车径直朝那两个逃跑的人冲去。"
+      },
+      {
+        "word": "crowd",
+        "phon": "/kraʊd/",
+        "pos": "n.",
+        "cn": "人群",
+        "eg": "A crowd soon gathered round the frightened thief. 人群很快把吓坏的劫匪围了起来。"
+      },
+      {
+        "word": "brave",
+        "phon": "/breɪv/",
+        "pos": "adj.",
+        "cn": "勇敢的",
+        "eg": "Everyone praised the brave driver for his quick action. 大家都称赞这位勇敢的司机反应迅速。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "过去进行时（was/were + V-ing）描绘事件发生时的背景动作：Roy was driving along a busy street.（Roy 正沿着繁华的街道行驶。）它像电影的长镜头，把\"正在进行\"的画面铺开，等待突发事件闯入。常见句式：Sb was doing sth when…（某人正在做某事，这时……）。易错点：when 引导的突发动作用一般过去时，不要两边都写成进行时；别忘了 was/were 与主语一致。",
+        "examples": [
+          "Roy was driving his bus along the street when he heard a cry. （Roy 正驾驶公共汽车沿街行驶，忽然听到一声叫喊。）",
+          "People were walking calmly on the pavement at that moment. （那一刻人们正在人行道上从容地走着。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "突发的、一个接一个的动作用一般过去时快节奏推进：rushed out, snatched the bag, ran off, drove straight at them, jumped, fell。这种\"动作连击\"是惊险场面的标准写法。注意不规则动词：run→ran, drive→drove, fall→fell, catch→caught。易错点：连续动作之间用 and 或逗号衔接，时态必须整齐划一。",
+        "examples": [
+          "The thieves rushed out of the bank and knocked an old man over. （劫匪冲出银行，撞倒了一位老人。）",
+          "Roy acted quickly and drove his bus straight at the thieves. （Roy 反应迅速，驾驶公共汽车径直朝劫匪冲去。）"
+        ]
+      },
+      {
+        "point": "used to 与现在的职业对比",
+        "explain": "介绍人物经历变化时常用 used to do（过去常常/曾经）与一般现在时对照：Roy used to drive a taxi, but now he drives a bus.（Roy 过去开出租车，现在开公共汽车。）这种\"今昔对比\"句式在人物介绍中非常高频。易错点：used to 只用于过去，本身已含\"现在不再\"之意，后面不要再加 before；疑问式 Did he use to…? 中 use 不加 d。",
+        "examples": [
+          "Roy used to drive a taxi before he became a bus driver. （Roy 在当公共汽车司机之前是开出租车的。）",
+          "He used to work at night, but now he starts early in the morning. （他过去上夜班，现在一大早就开工。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：行车记录仪视角——was driving along（平静的长镜头）突然切到 rushed out / snatched / drove straight at（连续快切），时态一慢一快对应画面一静一动。②易错提醒：was doing when did 是固定节奏，不要写成 was doing when was doing；thief 的复数是 thieves（f 变 v 加 es）。③对比/记忆法：与 L32 商店捉贼对照复习——两课同为\"进行时铺背景+过去时抓动作\"，一个在店内、一个在街头，情景互换加深记忆。"
+  },
+  {
+    "book": 2,
+    "lesson": 36,
+    "title": "Across the Channel",
+    "titleCn": "横渡海峡",
+    "scene": "游泳选手 Debbie Hart 明天就要横渡英吉利海峡了，她为此已刻苦训练多年。按计划她将在凌晨五点出发，届时她的父母将守在岸边焦急地等待，全国的电视观众也将收看直播。出发前她只吃少量清淡食物，教练将乘小艇全程伴随。人人都盼着她打破横渡纪录。课文通篇面向\"明天\"：用一般将来时宣布计划与预测（will set out, will be difficult），用将来进行时描绘届时正在进行的画面（will be swimming, will be waiting, will be watching），两种将来时态的对照是本课语法核心。",
+    "grammarTags": ["一般将来时", "将来进行时"],
+    "words": [
+      {
+        "word": "channel",
+        "phon": "/ˈtʃænl/",
+        "pos": "n.",
+        "cn": "海峡",
+        "eg": "Swimming across the English Channel is a great test for anyone. 横渡英吉利海峡对任何人来说都是巨大的考验。"
+      },
+      {
+        "word": "record",
+        "phon": "/ˈrekɔːd/",
+        "pos": "n.",
+        "cn": "纪录",
+        "eg": "Everyone hopes that she will break the record tomorrow. 人人都希望她明天打破纪录。"
+      },
+      {
+        "word": "attempt",
+        "phon": "/əˈtempt/",
+        "pos": "n./v.",
+        "cn": "尝试，试图",
+        "eg": "This will be her first attempt to swim across the Channel. 这将是她第一次尝试横渡海峡。"
+      },
+      {
+        "word": "train",
+        "phon": "/treɪn/",
+        "pos": "v.",
+        "cn": "训练",
+        "eg": "Debbie has trained hard for this day for many years. 为了这一天，Debbie 已经刻苦训练了很多年。"
+      },
+      {
+        "word": "anxiously",
+        "phon": "/ˈæŋkʃəsli/",
+        "pos": "adv.",
+        "cn": "焦急地，忧虑地",
+        "eg": "Her parents will be waiting anxiously on the shore. 她的父母将在岸边焦急地等候。"
+      },
+      {
+        "word": "intend",
+        "phon": "/ɪnˈtend/",
+        "pos": "v.",
+        "cn": "打算，计划",
+        "eg": "She intends to set out at five o'clock in the morning. 她打算早晨五点钟出发。"
+      },
+      {
+        "word": "solid",
+        "phon": "/ˈsɒlɪd/",
+        "pos": "adj.",
+        "cn": "固体的；结实的",
+        "eg": "She will not eat any solid food before the long swim. 长距离游泳之前她不会吃任何固体食物。"
+      },
+      {
+        "word": "set out",
+        "phon": "/set aʊt/",
+        "pos": "phr.",
+        "cn": "出发，动身",
+        "eg": "The swimmer will set out from the French coast at dawn. 这位游泳选手将于黎明时分从法国海岸出发。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般将来时",
+        "explain": "一般将来时表示将来要发生的动作或状态，最常用 will + 动词原形：She will set out at five o'clock.（她将五点出发。）表示事先的打算和计划也可用 be going to do：She is going to swim across the Channel. 常与 tomorrow, next week, in two days 等将来时间连用。否定 will not（won't），疑问把 will 提前。易错点：时间、条件状语从句中用一般现在时代替将来时——If the weather is good, she will start on time。",
+        "examples": [
+          "Debbie will set out from the coast at five o'clock tomorrow morning. （明天凌晨五点 Debbie 将从海岸出发。）",
+          "If the sea is calm, the crossing will take about twelve hours. （如果海面平静，横渡大约需要十二个小时。）"
+        ]
+      },
+      {
+        "point": "将来进行时",
+        "explain": "将来进行时（will be + V-ing）表示将来某一时刻正在进行的动作，用来描绘\"到那时的画面\"：This time tomorrow, she will be swimming across the Channel.（明天这个时候，她将正游在海峡之中。）常与 this time tomorrow, at eight o'clock tonight 等具体的将来时刻连用。它还能委婉地询问安排：Will you be passing the post office?（你会路过邮局吗？）易错点：将来进行时强调\"届时正在进行\"，一般将来时只说\"将会发生\"，二者视角不同。",
+        "examples": [
+          "This time tomorrow, millions of people will be watching her on television. （明天这个时候，数百万人将正通过电视收看她的比赛。）",
+          "While she is in the water, her coach will be following her in a small boat. （她在水中时，教练将乘一条小艇一路跟随。）"
+        ]
+      },
+      {
+        "point": "will 与 be going to 的区别",
+        "explain": "两者都指将来，但侧重不同：be going to 表示事先想好的打算或有迹象的预测（乌云密布→It is going to rain）；will 表示临时决定、承诺或一般性预测（门铃响了→I'll answer it）。谈论周密安排的日程时还可用现在进行时表将来：She is leaving tomorrow. 易错点：对已有计划的事不要用 will 来\"现场决定\"，如\"我们打算明年结婚\"应说 We are going to get married next year。",
+        "examples": [
+          "Debbie is going to attempt the crossing tomorrow; she planned it a year ago. （Debbie 打算明天尝试横渡，这是她一年前就定下的计划。）",
+          "Don't worry, I will wake you up before five. （别担心，五点之前我会叫醒你。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：赛前发布会视角——\"她将五点出发（will set out）\"是宣布计划，\"明天此刻她将正在游（will be swimming）、观众将正在看（will be watching）\"是描绘届时画面，一句计划一句画面，两种时态各就各位。②易错提醒：if/when 等条件、时间从句里用一般现在时代替将来时，不要写 if the weather will be good。③对比/记忆法：will do = 会发生（一个点），will be doing = 届时正在做（一段进行中的线）；再加 be going to = 早有打算，\"点、线、打算\"三分法一次记牢。"
+  }
+]

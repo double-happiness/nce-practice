@@ -472,6 +472,8 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
 .home-card .hc-unit { font-size: 15px; font-weight: 600; color: var(--muted); }
 .home-card .hc-sub { font-size: 13px; color: var(--muted); flex: 1; }
 .home-card .btn { align-self: flex-start; }
+.home-card .hc-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+.home-card .hc-btns .btn { align-self: auto; }
 .home-card .hc-bar {
   height: 8px;
   border-radius: 999px;

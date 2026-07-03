@@ -9,39 +9,8 @@ const { readJSON, writeJSONAtomic } = require('../lib/store');
 const router = express.Router();
 
 const profile = require('../lib/profile');
-
-// 归一化 word：去首尾空格 + 转小写，作为去重键与掌握度键
-function normKey(w) {
-  return String(w == null ? '' : w).trim().toLowerCase();
-}
-
-// 累计去重词表：遍历所有课程的 words，按归一化 word 去重，只保留首次出现的那条，
-// 并记录首现的 lesson/lessonTitle。跳过空 word。
-function buildDict() {
-  const lessons = data.getLessons();
-  const seen = new Set();
-  const out = [];
-  for (const l of lessons) {
-    for (const w of l.words || []) {
-      const key = normKey(w.word);
-      if (!key) continue; // 跳过空 word
-      if (seen.has(key)) continue; // 只保留首次出现
-      seen.add(key);
-      out.push({
-        word: w.word,
-        key,
-        phon: w.phon || '',
-        pos: w.pos || '',
-        cn: w.cn || '',
-        eg: w.eg || '',
-        book: l.book,
-        lesson: l.lesson,
-        lessonTitle: l.title || '',
-      });
-    }
-  }
-  return out;
-}
+// 去重词表与归一化键抽到 lib/dict.js，与听力词汇量测试共用同一口径
+const { buildDict, normKey } = require('../lib/dict');
 
 // 掌握度持久化：{ states: { [word小写]: { level, correct, wrong, ts } } }
 function loadStates() {

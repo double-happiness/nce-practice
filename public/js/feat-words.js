@@ -110,6 +110,12 @@
 
   // ---------- 入口 ----------
   function onShow(panel) {
+    // 深链支持：首页「默写单词」等入口可带模式跳入（NCE.pendingWords = { mode: 'spell' }）
+    const pend = NCE.pendingWords;
+    if (pend && pend.mode) {
+      st.mode = pend.mode;
+      NCE.pendingWords = null;
+    }
     panel.innerHTML =
       '<div class="wd-wrap">' +
       '<div class="wd-modes">' +
