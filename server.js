@@ -11,7 +11,7 @@ const { snapshotDaily } = require('./lib/snapshot');
 const { validate } = require('./scripts/validate');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3737;
 
 // 默认 100kb 会拒收较大的备份导入（学习记录多了以后 nce-backup-*.json 很容易超）
 app.use(express.json({ limit: '10mb' }));
