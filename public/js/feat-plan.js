@@ -109,21 +109,25 @@
       `<div><div class="pln-streak-n">连续 ${d.streak} 天</div>` +
       `<div class="pln-streak-txt">累计打卡 ${d.totalDays} 天 · 今日正确率 ${d.todayAccuracy}%</div></div></div>` +
       '<div class="pln-bar-wrap">' +
-      `<div class="pln-bar-top"><span>今日进度</span><span>${todayCount} / ${goal} 题</span></div>` +
+      `<div class="pln-bar-top"><span>今日进度</span><span>${todayCount} / ${goal} 次</span></div>` +
       `<div class="pln-bar"><div class="pln-bar-fill" style="width:${pct}%"></div></div>` +
       (done
         ? '<div class="pln-done">今日已完成 ✓</div>'
-        : `<div class="pln-todo">还差 ${remain} 题达成今日目标</div>`) +
+        : `<div class="pln-todo">还差 ${remain} 次达成今日目标</div>`) +
       '</div></div>';
 
     // 今日任务清单
     const chk = (ok) => (ok ? '✅' : '⬜');
+    const todayDetail = (d.todayLines || []).filter((x) => x.count > 0)
+      .map((x) => `${x.label} ${x.count}`).join(' · ');
     const tasksCard =
       '<div class="pln-card"><h3>📋 今日任务</h3><ul class="pln-tasks">' +
-      `<li><span class="box">${chk(done)}</span> ① 完成 ${goal} 道练习（${todayCount}/${goal}）</li>` +
+      `<li><span class="box">${chk(done)}</span> ① 完成 ${goal} 次练习（${todayCount}/${goal}）</li>` +
+      (todayDetail ? `<li><span class="box">📊</span> 今日已练：${esc(todayDetail)}</li>` : '') +
       `<li><span class="box">${chk(false)}</span> ② 复习到期错题</li>` +
       `<li><span class="box">${chk(false)}</span> ③ 学 1 篇新课文</li>` +
-      '</ul></div>';
+      '</ul>' +
+      '<div class="pln-note" style="margin-top:10px">' + esc(d.metricNote || '统计多种练习类型') + '</div></div>';
 
     // 30 天热力图
     const cells = d.calendar

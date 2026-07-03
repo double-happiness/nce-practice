@@ -395,6 +395,13 @@
       var cmp = compare(standard.en, typed);
       rates[idx] = cmp.rate; // 同一句重做取最近一次
       savePosFor(book, lesson, idx);
+      if (NCE.api) {
+        NCE.api('/api/activity/log', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ correct: cmp.rate >= 60, source: 'dictation' }),
+        }).catch(function () {});
+      }
 
       var diffHtml = cmp.cells
         .map(function (c) {

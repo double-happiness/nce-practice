@@ -3,6 +3,7 @@
 const express = require('express');
 const progress = require('../lib/progress');
 const profile = require('../lib/profile');
+const activity = require('../lib/activity');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 
 const router = express.Router();
@@ -10,14 +11,21 @@ const router = express.Router();
 const DEFAULT_GOAL = 10;
 const DAY = 86400000;
 
-// ---- 每日目标持久化（按当前档案隔离）----
+const SOURCE_LABEL = {
+  quiz: '刷题/测验',
+  transform: '句型转换',
+  words: '背单词',
+  vocab: '词汇量测试',
+  dictation: '听写',
+  dialogue: '情景对话',
+};
+
 function loadGoal() {
   const obj = readJSON(profile.file('plan.json'), { goal: DEFAULT_GOAL });
   const g = obj && Number(obj.goal);
   return Number.isFinite(g) && g > 0 ? Math.round(g) : DEFAULT_GOAL;
 }
 
-// 本地时区下把毫秒时间戳格式化为 YYYY-MM-DD
 function dateKey(ts) {
   const d = new Date(ts);
   const y = d.getFullYear();
@@ -25,14 +33,13 @@ function dateKey(ts) {
   const day = String(d.getDate()).padStart(2, '0');
   return `${y}-${m}-${day}`;
 }
-// 本地某天 0 点的时间戳
+
 function startOfDay(ts) {
   const d = new Date(ts);
   d.setHours(0, 0, 0, 0);
   return d.getTime();
 }
 
-// 按本地日期聚合 attempts：{ 'YYYY-MM-DD': {count, correct} }
 function groupByDate(attempts) {
   const map = new Map();
   for (const a of attempts) {
@@ -46,7 +53,6 @@ function groupByDate(attempts) {
   return map;
 }
 
-// 连续打卡天数：以今天为起点；若今天无记录但昨天有，则从昨天起往前连续计
 function computeStreak(byDate, now) {
   const today = startOfDay(now);
   let cursor;
@@ -65,29 +71,58 @@ function computeStreak(byDate, now) {
   return streak;
 }
 
-// 句型转换训练的步骤记录（{ts, correct} 结构与刷题 attempts 兼容），一并计入每日训练量
 function loadTransformAttempts() {
   const obj = readJSON(profile.file('transforms.json'), null);
   return obj && Array.isArray(obj.attempts) ? obj.attempts : [];
 }
 
+/** 汇总计入今日目标的所有活动（刷题/转换/背单词/词汇测/听写/对话） */
+function collectAllAttempts() {
+  const p = progress.load();
+  const out = (Array.isArray(p.attempts) ? p.attempts : []).map((a) => ({
+    ts: a.ts,
+    correct: !!a.correct,
+    source: 'quiz',
+  }));
+  for (const a of loadTransformAttempts()) {
+    if (!a || typeof a.ts !== 'number') continue;
+    out.push({ ts: a.ts, correct: !!a.correct, source: 'transform' });
+  }
+  for (const a of activity.load().log) {
+    if (!a || typeof a.ts !== 'number') continue;
+    out.push({ ts: a.ts, correct: !!a.correct, source: a.source || 'other' });
+  }
+  return out;
+}
+
+function todayBreakdown(attempts, todayKey) {
+  const by = {};
+  let correct = 0;
+  let count = 0;
+  for (const a of attempts) {
+    if (dateKey(a.ts) !== todayKey) continue;
+    const src = a.source || 'other';
+    by[src] = (by[src] || 0) + 1;
+    count++;
+    if (a.correct) correct++;
+  }
+  const lines = Object.keys(by)
+    .sort((a, b) => by[b] - by[a])
+    .map((k) => ({ source: k, label: SOURCE_LABEL[k] || k, count: by[k] }));
+  return { count, correct, by, lines };
+}
+
 // GET /plan/overview
 router.get('/plan/overview', (req, res) => {
-  const p = progress.load();
-  const attempts = (Array.isArray(p.attempts) ? p.attempts : []).concat(loadTransformAttempts());
+  const attempts = collectAllAttempts();
   const byDate = groupByDate(attempts);
   const now = Date.now();
   const goal = loadGoal();
-
   const streak = computeStreak(byDate, now);
-
   const todayKey = dateKey(now);
-  const todayEntry = byDate.get(todayKey) || { count: 0, correct: 0 };
-  const todayCount = todayEntry.count;
-  const todayCorrect = todayEntry.correct;
-  const todayAccuracy = todayCount ? Math.round((todayCorrect / todayCount) * 100) : 0;
+  const today = todayBreakdown(attempts, todayKey);
+  const todayAccuracy = today.count ? Math.round((today.correct / today.count) * 100) : 0;
 
-  // 最近 30 天日历（含今天），由旧到新
   const todayStart = startOfDay(now);
   const calendar = [];
   for (let i = 29; i >= 0; i--) {
@@ -102,12 +137,15 @@ router.get('/plan/overview', (req, res) => {
 
   res.json({
     streak,
-    todayCount,
-    todayCorrect,
+    todayCount: today.count,
+    todayCorrect: today.correct,
     todayAccuracy,
+    todayBySource: today.by,
+    todayLines: today.lines,
     goal,
     calendar,
     totalDays: byDate.size,
+    metricNote: '今日目标统计刷题、句型转换、背单词、词汇量测试、听写、情景对话等所有练习次数',
   });
 });
 
