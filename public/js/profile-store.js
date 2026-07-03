@@ -11,6 +11,9 @@
     'dct-best',
     'dct-last',
     'dct-pos',
+    'nce-wordhub-tab',
+    'nce-dict-book',
+    'nce-dict-history',
   ];
 
   function readPid() {

@@ -3,6 +3,9 @@
 const express = require('express');
 const data = require('../lib/data');
 const progress = require('../lib/progress');
+const profile = require('../lib/profile');
+const { readJSON } = require('../lib/store');
+const { KIND_LABEL } = require('../lib/transform-util');
 
 const router = express.Router();
 
@@ -104,6 +107,85 @@ router.get('/stats/lesson', (req, res) => {
   }
   lessons.sort((a, b) => a.accuracy - b.accuracy); // 最弱在前
   res.json({ lessons });
+});
+
+// GET /stats/training —— 句型转换 / 情景对话 / 阶段测验薄弱项
+router.get('/stats/training', (req, res) => {
+  const tfDb = readJSON(profile.file('transforms.json'), { attempts: [], perStep: {} });
+  const dlgDb = readJSON(profile.file('dialogues.json'), { attempts: [], completed: {} });
+  const examDb = readJSON(profile.file('exams.json'), { exams: [] });
+
+  const byKind = {};
+  for (const a of tfDb.attempts || []) {
+    if (!a.kind) continue;
+    const k = byKind[a.kind] || { seen: 0, correct: 0 };
+    k.seen++;
+    if (a.correct) k.correct++;
+    byKind[a.kind] = k;
+  }
+  const transformKinds = Object.keys(byKind)
+    .map((kind) => ({
+      kind,
+      label: KIND_LABEL[kind] || kind,
+      seen: byKind[kind].seen,
+      correct: byKind[kind].correct,
+      accuracy: byKind[kind].seen
+        ? Math.round((byKind[kind].correct / byKind[kind].seen) * 100)
+        : 0,
+    }))
+    .filter((x) => x.seen >= 3)
+    .sort((a, b) => a.accuracy - b.accuracy);
+
+  const dlgAttempts = dlgDb.attempts || [];
+  const dlgTotal = dlgAttempts.length;
+  const dlgCorrect = dlgAttempts.filter((a) => a.correct).length;
+  const weakDialogues = [];
+  const byDlg = {};
+  for (const a of dlgAttempts) {
+    if (!a.id) continue;
+    const cur = byDlg[a.id] || { seen: 0, correct: 0 };
+    cur.seen++;
+    if (a.correct) cur.correct++;
+    byDlg[a.id] = cur;
+  }
+  const DLGMAP = data.getDLGMAP();
+  for (const [id, v] of Object.entries(byDlg)) {
+    if (v.seen < 2) continue;
+    const d = DLGMAP.get(id);
+    const accuracy = Math.round((v.correct / v.seen) * 100);
+    if (accuracy >= 70) continue;
+    weakDialogues.push({
+      id,
+      title: d ? (d.titleCn || d.title) : id,
+      seen: v.seen,
+      accuracy,
+    });
+  }
+  weakDialogues.sort((a, b) => a.accuracy - b.accuracy);
+
+  const recentExams = (examDb.exams || []).slice().sort((a, b) => b.ts - a.ts).slice(0, 5);
+  const examAvg = recentExams.length
+    ? Math.round(recentExams.reduce((n, e) => n + (e.accuracy || 0), 0) / recentExams.length)
+    : null;
+
+  res.json({
+    transform: {
+      total: (tfDb.attempts || []).length,
+      weakestKind: transformKinds[0] || null,
+      kinds: transformKinds.slice(0, 5),
+    },
+    dialogue: {
+      total: dlgTotal,
+      accuracy: dlgTotal ? Math.round((dlgCorrect / dlgTotal) * 100) : 0,
+      completed: Object.keys(dlgDb.completed || {}).length,
+      weak: weakDialogues.slice(0, 3),
+    },
+    exam: {
+      recentCount: recentExams.length,
+      recentAvg: examAvg,
+      last: recentExams[0] || null,
+    },
+  });
 });
 
 module.exports = router;

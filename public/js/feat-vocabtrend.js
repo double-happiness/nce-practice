@@ -264,7 +264,7 @@
       '<button type="button" class="vtd-btn" data-goto="readvocab">📖 去测阅读</button>' +
       '<button type="button" class="vtd-btn" data-goto="globalvocab">🌐 去测总词汇</button>' +
       '</div>' +
-      '<div class="vtd-note">说明：本册听/读基于教材词表；总词汇量基于内置频率分级词库（约 800+ 词），二者口径不同，不宜直接对比绝对数值。</div>' +
+      '<div class="vtd-note">说明：本册听/读基于教材词表；总词汇量基于内置频率分级词库（约 2600 词），二者口径不同，不宜直接对比绝对数值。</div>' +
       '</div>';
 
     panel.querySelector('#vtdBook').onchange = async (e) => {

@@ -16,6 +16,9 @@ const KEYS = new Set([
   'dct-best', // 听写历史最好平均正确率（数字）
   'dct-last', // 听写最近一次成绩（对象）
   'dct-pos', // 听写每课断点（对象 { lesson: idx }）
+  'nce-wordhub-tab', // 单词子页上次选中
+  'nce-dict-book', // 查词典册筛选
+  'nce-dict-history', // 查词典搜索历史
 ]);
 
 const fileOf = () => profile.file('ui.json');

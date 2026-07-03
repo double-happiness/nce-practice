@@ -321,7 +321,10 @@ function ensureMergeHost() {
     panel.classList.remove('hidden');
     window.scrollTo(0, 0);
     const saved = (() => {
-      try { return localStorage.getItem('nce-wordhub-tab'); } catch (e) { return null; }
+      try {
+        if (typeof NCEStore !== 'undefined') return NCEStore.get('nce-wordhub-tab');
+        return localStorage.getItem('nce-wordhub-tab');
+      } catch (e) { return null; }
     })();
     const cur = mergeHost.current ||
       (saved && subnav.querySelector(`.subtab[data-tab="${saved}"]`)) ||
@@ -356,7 +359,10 @@ function registerFeature(opts) {
       host.body.querySelectorAll(':scope > .subpanel').forEach((p) => p.classList.add('hidden'));
       panel.classList.remove('hidden');
       host.current = sub;
-      try { localStorage.setItem('nce-wordhub-tab', opts.id); } catch (e) { /* ignore */ }
+      try {
+        if (typeof NCEStore !== 'undefined') NCEStore.set('nce-wordhub-tab', opts.id);
+        else localStorage.setItem('nce-wordhub-tab', opts.id);
+      } catch (e) { /* ignore */ }
       try { opts.onShow && opts.onShow(panel, feat); } catch (e) { console.error('[feature]', opts.id, e); }
     };
     return feat;
@@ -455,7 +461,7 @@ async function renderHome() {
   const last = loadLastLesson();
   const vocabBook = last ? String(last.book) : '1';
   // 每项独立兜底：任一接口失败只影响对应卡片的数据，不拖垮整个首页
-  const [prog, plan, srs, gram, wordsStats, vocabOv, vocabStars] = await Promise.all([
+  const [prog, plan, srs, gram, wordsStats, vocabOv, vocabStars, training] = await Promise.all([
     api('/api/progress').catch(() => ({ totalAttempts: 0, accuracy: 0, wrongCount: 0 })),
     api('/api/plan/overview').catch(() => ({ goal: 10, todayCount: 0, streak: 0, totalDays: 0 })),
     api('/api/srs/stats').catch(() => ({ due: 0, upcoming: 0, total: 0 })),
@@ -463,6 +469,7 @@ async function renderHome() {
     api(`/api/words/stats?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
     api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
     api('/api/vocab/stars').catch(() => ({ words: [] })),
+    api('/api/stats/training').catch(() => null),
   ]);
 
   // 薄弱语法点：练够 4 次且正确率 < 85% 才算（接口已按正确率升序，最弱在前）
@@ -516,6 +523,20 @@ async function renderHome() {
 
   const goalPct = Math.min(100, plan.goal ? Math.round((plan.todayCount / plan.goal) * 100) : 0);
   const goalDone = plan.todayCount >= plan.goal;
+  const todayLines = (plan.todayLines || [])
+    .filter((x) => x.count > 0)
+    .map((x) => `${x.label} ${x.count}`)
+    .join(' · ');
+  const todayDetail = todayLines
+    ? `<br><span style="font-size:13px;color:#64748b">今日已练：${escapeHtml(todayLines)}</span>`
+    : '';
+  const tfWeak = training && training.transform && training.transform.weakestKind;
+  const dlgWeak = training && training.dialogue && training.dialogue.weak && training.dialogue.weak[0];
+  const trainingHint = tfWeak
+    ? `<br>🔀 句型「${escapeHtml(tfWeak.label)}」正确率 ${tfWeak.accuracy}%（${tfWeak.seen} 步），建议去句型转换专练。`
+    : dlgWeak
+      ? `<br>💬 对话「${escapeHtml(dlgWeak.title)}」正确率 ${dlgWeak.accuracy}%，可多练情景对话。`
+      : '';
   let showGuide = false;
   try { showGuide = !localStorage.getItem('nce-guide-dismissed'); } catch (e) { /* ignore */ }
   box.innerHTML =
@@ -536,7 +557,8 @@ async function renderHome() {
       <div class="hc-title">🎯 今日目标</div>
       <div class="hc-big">${plan.todayCount} <span class="hc-unit">/ ${plan.goal} 题</span></div>
       <div class="hc-bar"><i style="width:${goalPct}%"></i></div>
-      <div class="hc-sub">${goalDone ? '今日目标已完成，真棒！' : `还差 ${plan.goal - plan.todayCount} 题完成今日目标`} · 连续打卡 <b>${plan.streak}</b> 天</div>
+      <div class="hc-sub">${goalDone ? '今日目标已完成，真棒！' : `还差 ${plan.goal - plan.todayCount} 次完成今日目标`} · 连续打卡 <b>${plan.streak}</b> 天${todayDetail}</div>
+      <div class="hc-sub" style="margin-top:6px;font-size:12px;color:#94a3b8">统计刷题、句型转换、背单词、词汇测、听写、对话等练习</div>
       <button class="btn primary" data-goto="practice">开始练习 →</button>
     </div>` +
     // 今日复习（到期错题 + 待巩固单词）
@@ -565,12 +587,12 @@ async function renderHome() {
              <div class="hc-sub">正确率 <b class="acc ${accClass(w1.accuracy)}">${w1.accuracy}%</b>（已练 ${w1.seen} 次），是你目前最薄弱的语法点${
                weak[1] ? `；其次是「${escapeHtml(weak[1].tag)}」（${weak[1].accuracy}%）` : ''
              }</div>
-             <button class="btn primary" id="homeWeakBtn">专练 10 题 →</button>`
+             <button class="btn primary" id="homeWeakBtn">专练 10 题 →</button>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
           : (gram.grammar || []).length
             ? `<div class="hc-sub">已练过的语法点正确率都在 85% 以上，继续保持！想看全貌可去薄弱分析。</div>
-               <button class="btn" data-goto="stats">看薄弱分析 →</button>`
+               <button class="btn" data-goto="stats">看薄弱分析 →</button>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
             : `<div class="hc-sub">练习数据还不够，先刷几组题，这里会告诉你最该补的语法点。</div>
-               <button class="btn" data-goto="practice">去刷题 →</button>`
+               <button class="btn" data-goto="practice">去刷题 →</button>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
       }
     </div>` +
     // 词汇量基线（听 / 读抽样估算）

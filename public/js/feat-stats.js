@@ -59,13 +59,14 @@
     panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载中…</div></div>';
     const last = (typeof NCEStore !== 'undefined' && NCEStore.get('nce-last-lesson')) || null;
     const vocabBook = last ? String(last.book) : '1';
-    let overview, grammar, lesson, vocabOv;
+    let overview, grammar, lesson, vocabOv, training;
     try {
-      [overview, grammar, lesson, vocabOv] = await Promise.all([
+      [overview, grammar, lesson, vocabOv, training] = await Promise.all([
         NCE.api('/api/stats/overview'),
         NCE.api('/api/stats/grammar'),
         NCE.api('/api/stats/lesson'),
         NCE.api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
+        NCE.api('/api/stats/training').catch(() => null),
       ]);
     } catch (e) {
       panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载失败，请稍后重试。</div></div>';
@@ -142,6 +143,32 @@
         };
       });
       wrap.appendChild(vocabSect);
+    }
+
+    if (training) {
+      const tf = training.transform && training.transform.weakestKind;
+      const dlg = training.dialogue && training.dialogue.weak && training.dialogue.weak[0];
+      const ex = training.exam && training.exam.last;
+      const lines = [];
+      if (tf) lines.push(`🔀 句型「${tf.label}」正确率 ${tf.accuracy}%（${tf.seen} 步）`);
+      if (dlg) lines.push(`💬 对话「${dlg.title}」正确率 ${dlg.accuracy}%`);
+      if (ex) lines.push(`📝 最近测验 ${ex.accuracy}%（${ex.correct}/${ex.total}）`);
+      if (lines.length) {
+        const sect = document.createElement('div');
+        sect.className = 'sta-vocab';
+        sect.innerHTML =
+          '<h3>🎯 专项训练薄弱项</h3>' +
+          '<div class="lines">' + lines.map((l) => esc(l)).join('<br>') + '</div>' +
+          '<div class="acts">' +
+          (tf ? '<button type="button" data-goto="transform">句型转换 →</button>' : '') +
+          (dlg ? '<button type="button" data-goto="dialogue">情景对话 →</button>' : '') +
+          (ex ? '<button type="button" data-goto="exam">阶段测验 →</button>' : '') +
+          '</div>';
+        sect.querySelectorAll('[data-goto]').forEach((btn) => {
+          btn.onclick = () => NCE.gotoTab(btn.dataset.goto);
+        });
+        wrap.appendChild(sect);
+      }
     }
 
     // ---- 语法热力图 ----
