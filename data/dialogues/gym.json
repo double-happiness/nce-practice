@@ -135,5 +135,22 @@
       { "role": "You", "cn": "好，我买二十节。", "en": "Okay, I'll take the twenty-pack." },
       { "role": "Trainer", "cn": "太好了，继续加油！", "en": "Great. Let's keep pushing!" }
     ]
+  },
+  {
+    "id": "dlg-gym-09",
+    "category": "gym",
+    "title": "Free Trial Class",
+    "titleCn": "体验课",
+    "scene": "你第一次来健身房，参加免费体验课。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "欢迎体验课！有旧伤或心脏病史吗？", "en": "Welcome to your trial! Any injuries or heart conditions?" },
+      { "role": "You", "cn": "膝盖以前扭伤过，其他没有。", "en": "I sprained my knee before. Nothing else." },
+      { "role": "Trainer", "cn": "好，今天做低冲击有氧加热身拉伸。", "en": "Okay. Today we'll do low-impact cardio plus stretching." },
+      { "role": "You", "cn": "器械需要预约吗？", "en": "Do I need to book machines?" },
+      { "role": "Trainer", "cn": "高峰可能要等，私教课优先。", "en": "You might wait at peak hours. Training sessions get priority." },
+      { "role": "You", "cn": "体验完办卡有优惠吗？", "en": "Any signup deal after the trial?" },
+      { "role": "Trainer", "cn": "今天办 waive 入会费，省五十。", "en": "Sign up today and we waive the fifty-dollar enrollment fee." }
+    ]
   }
 ]

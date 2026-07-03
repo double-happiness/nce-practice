@@ -83,5 +83,22 @@
       { "role": "Staff", "cn": "有人带孩子到服务台了，请确认是不是。", "en": "Someone just brought a child to the desk. Please see if it's him." },
       { "role": "You", "cn": "是他！太感谢了！", "en": "That's him! Thank you so much!" }
     ]
+  },
+  {
+    "id": "dlg-emer-06",
+    "category": "emergency",
+    "title": "Heat Wave Warning",
+    "titleCn": "高温预警",
+    "scene": "极端高温天，社区中心开放避暑，你咨询。",
+    "roles": ["You", "Volunteer"],
+    "turns": [
+      { "role": "Volunteer", "cn": "社区中心今天开放避暑，有水。", "en": "The center is open as a cooling shelter today. We have water." },
+      { "role": "You", "cn": "可以带老人来吗？家里空调坏了。", "en": "Can I bring my elderly parent? Our AC broke." },
+      { "role": "Volunteer", "cn": "当然，有椅子休息，宠物也可以。", "en": "Of course. There are chairs to rest. Pets are welcome too." },
+      { "role": "You", "cn": "开放到几点？", "en": "How late are you open?" },
+      { "role": "Volunteer", "cn": "到晚上九点，或高温预警解除。", "en": "Until nine PM or until the heat advisory ends." },
+      { "role": "You", "cn": "需要带什么吗？", "en": "Should we bring anything?" },
+      { "role": "Volunteer", "cn": "带药和个人用品就行。", "en": "Just medications and personal items." }
+    ]
   }
 ]

@@ -120,5 +120,22 @@
       { "role": "You", "cn": "Venmo付，账号多少？", "en": "Venmo. What's your handle?" },
       { "role": "Vendor", "cn": "贴在窗口上，谢谢！", "en": "It's on the window sticker. Thanks!" }
     ]
+  },
+  {
+    "id": "dlg-rest-08",
+    "category": "restaurant",
+    "title": "Sunday Brunch",
+    "titleCn": "周日早午餐",
+    "scene": "周日你和朋友去吃早午餐，要排队。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "两位？大概等三十分钟。", "en": "Party of two? About a thirty-minute wait." },
+      { "role": "You", "cn": "可以先点咖啡等吗？", "en": "Can we order coffee while we wait?" },
+      { "role": "Host", "cn": "吧台可以，好了短信通知您。", "en": "The bar is open. We'll text you when ready." },
+      { "role": "You", "cn": "有无限续杯橙汁吗？", "en": "Do you have bottomless orange juice?" },
+      { "role": "Host", "cn": "早午餐套餐含，单点另加。", "en": "It's included in brunch combos, extra if ordered alone." },
+      { "role": "You", "cn": "好的，我们等。", "en": "Okay. We'll wait." },
+      { "role": "Host", "cn": "张小姐，您的位子好了。", "en": "Ms. Zhang, your table is ready." }
+    ]
   }
 ]

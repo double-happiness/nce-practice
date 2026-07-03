@@ -83,5 +83,22 @@
       { "role": "You", "cn": "对，只带了一个月的量。", "en": "Correct. I only brought one month's worth." },
       { "role": "Officer", "cn": "可以，请收好。", "en": "That's fine. Please keep them with you." }
     ]
+  },
+  {
+    "id": "dlg-cus-06",
+    "category": "customs",
+    "title": "Arrival Card on the Plane",
+    "titleCn": "机上入境卡",
+    "scene": "空姐发入境卡，邻座旅客提醒你如何填写。",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "Passenger", "cn": "第一次填这个？用英文或拼音。", "en": "First time filling this out? Use English or romanized spelling." },
+      { "role": "You", "cn": "住址写酒店可以吗？", "en": "Can I put the hotel address?" },
+      { "role": "Passenger", "cn": "可以，电话也写酒店的。", "en": "Yes, and use the hotel phone number too." },
+      { "role": "You", "cn": "携带现金超过一万要申报吗？", "en": "Do I declare cash over ten thousand?" },
+      { "role": "Passenger", "cn": "美元一万以上要申报，你五百不用。", "en": "Over ten thousand US dollars, yes. You're fine with five hundred." },
+      { "role": "You", "cn": "职业填工程师对吧？", "en": "Occupation is engineer, right?" },
+      { "role": "Passenger", "cn": "对，落地前空姐会收。", "en": "Right. The crew collects them before landing." }
+    ]
   }
 ]

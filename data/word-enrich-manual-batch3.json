@@ -1,0 +1,266 @@
+{
+  "not only ... but also": {
+    "collocations": [
+      { "en": "not only ... but also ...", "cn": "不仅……而且……" },
+      { "en": "not only A but B as well", "cn": "A 如此，B 也如此" }
+    ],
+    "patterns": [{
+      "title": "not only ... but also",
+      "explain": "连接两个并列成分；not only 放句首时，主句需部分倒装（助动词提前）。",
+      "examples": [
+        "She not only sings but also dances.",
+        "Not only did he finish early, but he also helped others."
+      ]
+    }]
+  },
+  "every time": {
+    "collocations": [
+      { "en": "every time + 从句", "cn": "每当……就……" },
+      { "en": "Every time I see her, ...", "cn": "每次见到她……" }
+    ],
+    "patterns": [{
+      "title": "every time / whenever",
+      "explain": "引导时间状语从句，表示每次发生某事时都会……",
+      "examples": [
+        "Every time I pass this shop, I think of my grandmother.",
+        "Whenever it rains, he stays at home."
+      ]
+    }]
+  },
+  "whenever": {
+    "collocations": [
+      { "en": "whenever + 从句", "cn": "每当；无论何时" }
+    ]
+  },
+  "may have done": {
+    "collocations": [
+      { "en": "may/might have done", "cn": "可能做过（对过去的推测）" },
+      { "en": "can't have done", "cn": "不可能做过" }
+    ],
+    "patterns": [{
+      "title": "may/might have done",
+      "explain": "情态动词 + have + 过去分词，表示对过去情况的推测。",
+      "examples": [
+        "He may have missed the train.",
+        "She can't have finished so quickly."
+      ]
+    }]
+  },
+  "accuse": {
+    "collocations": [
+      { "en": "accuse sb of sth/doing", "cn": "指控某人某事" },
+      { "en": "be accused of", "cn": "被指控……" }
+    ]
+  },
+  "adjust": {
+    "collocations": [
+      { "en": "adjust to sth/doing", "cn": "适应……" },
+      { "en": "adjust the settings", "cn": "调整设置" }
+    ]
+  },
+  "appear": {
+    "collocations": [
+      { "en": "appear to do sth", "cn": "似乎做某事" },
+      { "en": "It appears that ...", "cn": "看来……" }
+    ]
+  },
+  "argue": {
+    "collocations": [
+      { "en": "argue with sb about sth", "cn": "与某人争论某事" },
+      { "en": "argue that ...", "cn": "主张……" }
+    ]
+  },
+  "believe": {
+    "collocations": [
+      { "en": "believe in sb/sth", "cn": "信任；相信存在" },
+      { "en": "believe (that) ...", "cn": "认为……" },
+      { "en": "make believe", "cn": "假装" }
+    ]
+  },
+  "compete": {
+    "collocations": [
+      { "en": "compete with/against sb", "cn": "与某人竞争" },
+      { "en": "compete in a race/competition", "cn": "参加比赛" }
+    ]
+  },
+  "confess": {
+    "collocations": [
+      { "en": "confess to doing sth", "cn": "供认做过某事" },
+      { "en": "confess (that) ...", "cn": "承认……" }
+    ]
+  },
+  "confirm": {
+    "collocations": [
+      { "en": "confirm (that) ...", "cn": "确认……" },
+      { "en": "confirm a booking/reservation", "cn": "确认预订" }
+    ]
+  },
+  "connect": {
+    "collocations": [
+      { "en": "connect A to/with B", "cn": "把 A 与 B 连接" },
+      { "en": "be connected to", "cn": "与……相连" }
+    ]
+  },
+  "contain": {
+    "collocations": [
+      { "en": "contain sth", "cn": "包含；容纳" },
+      { "en": "try to contain the damage", "cn": "试图控制损失" }
+    ]
+  },
+  "count": {
+    "collocations": [
+      { "en": "count on sb/sth", "cn": "指望；依赖" },
+      { "en": "count from 1 to 10", "cn": "从 1 数到 10" }
+    ]
+  },
+  "cover": {
+    "collocations": [
+      { "en": "cover a distance", "cn": "走完一段路程" },
+      { "en": "cover sth with ...", "cn": "用……覆盖" }
+    ]
+  },
+  "deserve": {
+    "collocations": [
+      { "en": "deserve sth / deserve to do", "cn": "应得；值得" },
+      { "en": "well deserved", "cn": "实至名归" }
+    ]
+  },
+  "discover": {
+    "collocations": [
+      { "en": "discover (that) ...", "cn": "发现……" },
+      { "en": "discover sth by accident", "cn": "偶然发现" }
+    ]
+  },
+  "escape": {
+    "collocations": [
+      { "en": "escape from", "cn": "从……逃脱" },
+      { "en": "narrow escape", "cn": "九死一生；侥幸脱险" }
+    ]
+  },
+  "hide": {
+    "collocations": [
+      { "en": "hide sth from sb", "cn": "对某人隐瞒" },
+      { "en": "hide behind/under", "cn": "躲在……后/下" }
+    ],
+    "patterns": [{
+      "title": "hide — hid — hidden",
+      "explain": "hide 过去式 hid，过去分词 hidden。",
+      "examples": ["He hid the letter in a drawer.", "The child hid behind the door."]
+    }]
+  },
+  "pretend": {
+    "collocations": [
+      { "en": "pretend to do sth", "cn": "假装做某事" },
+      { "en": "pretend (that) ...", "cn": "假装……" }
+    ]
+  },
+  "promise": {
+    "collocations": [
+      { "en": "promise to do sth", "cn": "承诺做某事" },
+      { "en": "keep a promise", "cn": "守信用" }
+    ]
+  },
+  "rescue": {
+    "collocations": [
+      { "en": "rescue sb from", "cn": "从……中救出某人" },
+      { "en": "come to the rescue", "cn": "前来解围" }
+    ]
+  },
+  "succeed": {
+    "collocations": [
+      { "en": "succeed in doing sth", "cn": "成功做某事" },
+      { "en": "succeed sb as ...", "cn": "接替某人任……" }
+    ],
+    "patterns": [{
+      "title": "succeed in + 动名词",
+      "explain": "succeed 是不及物动词，in 后接动名词。",
+      "examples": ["They succeeded in solving the problem."]
+    }]
+  },
+  "wake": {
+    "collocations": [
+      { "en": "wake up", "cn": "醒来" },
+      { "en": "wake sb up", "cn": "叫醒某人" }
+    ]
+  },
+  "worth": {
+    "collocations": [
+      { "en": "be worth sth/doing", "cn": "值得……" },
+      { "en": "It's worth a try.", "cn": "值得一试。" }
+    ],
+    "patterns": [{
+      "title": "be worth + 名词/动名词",
+      "explain": "worth 后接名词或动名词，不接不定式。",
+      "examples": ["The book is worth reading.", "It's worth the effort."]
+    }]
+  },
+  "suggest": {
+    "collocations": [
+      { "en": "suggest doing sth", "cn": "建议做某事" },
+      { "en": "suggest (that) sb (should) do", "cn": "建议某人做某事" }
+    ],
+    "patterns": [{
+      "title": "suggest + 动名词",
+      "explain": "suggest 后接动名词，不接 to do。",
+      "examples": ["I suggest going by train.", "He suggested that we leave early."]
+    }]
+  },
+  "prefer": {
+    "collocations": [
+      { "en": "prefer A to B", "cn": "比起 B 更喜欢 A" },
+      { "en": "prefer doing/to do", "cn": "更喜欢做某事" }
+    ],
+    "patterns": [{
+      "title": "prefer ... to ...",
+      "explain": "prefer A to B 中 to 是介词，后接名词或动名词。",
+      "examples": ["I prefer tea to coffee.", "She prefers walking to driving."]
+    }]
+  },
+  "need": {
+    "collocations": [
+      { "en": "need to do sth", "cn": "需要做某事" },
+      { "en": "need doing / need to be done", "cn": "需要被……（主语是物）" },
+      { "en": "needn't do", "cn": "不必做" }
+    ],
+    "patterns": [{
+      "title": "need doing = need to be done",
+      "explain": "主语是物时，need doing 表示「需要被……」，等于 need to be done。",
+      "examples": ["The car needs washing.", "Your hair needs cutting."]
+    }]
+  },
+  "can": {
+    "collocations": [
+      { "en": "can do sth", "cn": "能够/可以……" },
+      { "en": "can't be", "cn": "不可能是（推测）" }
+    ],
+    "patterns": [{
+      "title": "can 表能力与许可",
+      "explain": "can 表能力或请求许可；could 是过去式或更委婉说法。",
+      "examples": ["Can you help me?", "Could you speak more slowly?"]
+    }]
+  },
+  "could": {
+    "collocations": [
+      { "en": "could do sth", "cn": "能够 / 可以（过去或委婉）" },
+      { "en": "could have done", "cn": "本可以……（未实现）" }
+    ]
+  },
+  "should": {
+    "collocations": [
+      { "en": "should do sth", "cn": "应该做某事" },
+      { "en": "should have done", "cn": "本应该做（却没做）" }
+    ]
+  },
+  "may": {
+    "collocations": [
+      { "en": "may do sth", "cn": "可能做；可以做" },
+      { "en": "May I ...?", "cn": "我可以……吗？（正式许可）" }
+    ]
+  },
+  "might": {
+    "collocations": [
+      { "en": "might do sth", "cn": "可能做（语气更弱）" },
+      { "en": "might have done", "cn": "可能做过" }
+    ]
+  }
+}

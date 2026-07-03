@@ -117,5 +117,22 @@
       { "role": "You", "cn": "听起来合理，什么时候能搬？", "en": "Sounds fair. When can I move in?" },
       { "role": "Roommate", "cn": "下月一号，押金一个月。", "en": "The first of next month. One month's deposit." }
     ]
+  },
+  {
+    "id": "dlg-house-08",
+    "category": "housing",
+    "title": "Roommate Agreement",
+    "titleCn": "合租公约",
+    "scene": "你和室友起草合租公约。",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "我们先写几条规则吧，避免以后吵架。", "en": "Let's set some ground rules to avoid fights later." },
+      { "role": "Roommate", "cn": "好，晚上十一点后不大声？", "en": "Sure. No loud noise after eleven?" },
+      { "role": "You", "cn": "对，周末可以到十二点。垃圾轮流倒。", "en": "Yes, midnight on weekends. We rotate taking out trash." },
+      { "role": "Roommate", "cn": "客人可以过夜吗？", "en": "Can guests stay overnight?" },
+      { "role": "You", "cn": "提前说一声，一周不超过两晚。", "en": "Give a heads-up. No more than two nights a week." },
+      { "role": "Roommate", "cn": "冰箱贴标签分区域？", "en": "Should we label fridge sections?" },
+      { "role": "You", "cn": "好主意，我写下来大家签字。", "en": "Good idea. I'll write it up for us to sign." }
+    ]
   }
 ]

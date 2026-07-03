@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-amu-01",
+    "category": "amusement",
+    "title": "Theme Park Tickets",
+    "titleCn": "乐园门票",
+    "scene": "你在主题乐园门口买票入园。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "单日票还是两日票？", "en": "One-day or two-day ticket?" },
+      { "role": "You", "cn": "单日，两位成人一位儿童。", "en": "One day. Two adults and one child." },
+      { "role": "Clerk", "cn": "儿童多高？一米二以下免费。", "en": "How tall is the child? Under four feet rides free." },
+      { "role": "You", "cn": "刚好一米二，要买票吗？", "en": "Exactly four feet. Do we need a ticket?" },
+      { "role": "Clerk", "cn": "门口量一下，可能按儿童价。", "en": "We'll measure at the gate. Might qualify for child pricing." },
+      { "role": "You", "cn": "地图和快速通在哪拿？", "en": "Where do we get a map and express pass?" },
+      { "role": "Clerk", "cn": "入园后左手边游客中心。", "en": "Guest services on your left after you enter." }
+    ]
+  },
+  {
+    "id": "dlg-amu-02",
+    "category": "amusement",
+    "title": "Waiting in Line",
+    "titleCn": "排队玩项目",
+    "scene": "热门过山车排队两小时，工作人员说明情况。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "目前等待约一百二十分钟。", "en": "The wait is about a hundred twenty minutes right now." },
+      { "role": "You", "cn": "快速通还要额外买吗？", "en": "Do we need to buy express access separately?" },
+      { "role": "Staff", "cn": "对，或者下午四点后人少一些。", "en": "Yes, or come back after four when it's shorter." },
+      { "role": "You", "cn": "小孩身高够吗？一米三五。", "en": "Is my kid tall enough? One thirty-five centimeters." },
+      { "role": "Staff", "cn": "够，入口有身高尺。", "en": "Yes. There's a height check at the entrance." },
+      { "role": "You", "cn": "包放哪？", "en": "Where do we leave bags?" },
+      { "role": "Staff", "cn": "免费储物柜在入口左边。", "en": "Free lockers on the left at the entrance." }
+    ]
+  },
+  {
+    "id": "dlg-amu-03",
+    "category": "amusement",
+    "title": "Lost Child",
+    "titleCn": "乐园走散",
+    "scene": "孩子在乐园走散了，你去客服中心求助。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "我孩子走丢了，七岁，穿蓝T恤。", "en": "I lost my child. Seven years old, blue T-shirt." },
+      { "role": "Staff", "cn": "别慌，请描述长相和名字。", "en": "Stay calm. Describe him and his name." },
+      { "role": "You", "cn": "叫小明，黑色短发，戴眼镜。", "en": "His name is Tommy. Short black hair and glasses." },
+      { "role": "Staff", "cn": "我们广播了，失散儿童中心在这边。", "en": "We've announced it. Lost children center is this way." },
+      { "role": "You", "cn": "谢谢你们反应这么快。", "en": "Thank you for responding so quickly." },
+      { "role": "Staff", "cn": "找到了，您儿子在接待处。", "en": "We found him. Your son is at the desk." },
+      { "role": "You", "cn": "太好了！", "en": "Thank goodness!" }
+    ]
+  },
+  {
+    "id": "dlg-amu-04",
+    "category": "amusement",
+    "title": "Water Park",
+    "titleCn": "水上乐园",
+    "scene": "你在水上乐园租储物柜和浮圈。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "储物柜一天十二，押金二十。", "en": "Lockers are twelve for the day, twenty deposit." },
+      { "role": "You", "cn": "小孩浮圈要租吗？", "en": "Do kids need rented tubes?" },
+      { "role": "Attendant", "cn": "浅水区免费，漂流河要租。", "en": "Free in the shallow pool. Lazy river requires rental." },
+      { "role": "You", "cn": "防晒霜能带进去吗？", "en": "Can we bring sunscreen in?" },
+      { "role": "Attendant", "cn": "可以，玻璃瓶装不行。", "en": "Yes, but no glass bottles." },
+      { "role": "You", "cn": "滑水道几点关？", "en": "What time do the slides close?" },
+      { "role": "Attendant", "cn": "六点，六点前排队。", "en": "Six PM. Get in line before then." }
+    ]
+  }
+]

@@ -169,5 +169,22 @@
       { "role": "You", "cn": "都在通讯录，王经理主要对接采购。", "en": "All in the address book. Manager Wang handles procurement." },
       { "role": "Colleague", "cn": "太感谢了，以后有问题还能问你吗？", "en": "Thanks so much. Can I reach out if I get stuck?" }
     ]
+  },
+  {
+    "id": "dlg-office-11",
+    "category": "office",
+    "title": "Exit Interview",
+    "titleCn": "离职面谈",
+    "scene": "离职前 HR 找你做离职面谈。",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "感谢您的时间，方便说说离职原因吗？", "en": "Thanks for your time. Can you share why you're leaving?" },
+      { "role": "You", "cn": "主要是想尝试新行业，薪资也有提升。", "en": "Mainly to try a new industry. There's also a pay increase." },
+      { "role": "HR", "cn": "公司有什么可以改进的吗？", "en": "Anything we could have done better?" },
+      { "role": "You", "cn": "跨部门流程有点慢，其他都很好。", "en": "Cross-team processes were a bit slow. Otherwise things were good." },
+      { "role": "HR", "cn": "理解。最后工作日是下周五对吧？", "en": "Understood. Your last day is next Friday, correct?" },
+      { "role": "You", "cn": "对，年假我会用完。", "en": "Yes. I'll use my remaining vacation days." },
+      { "role": "HR", "cn": "祝新工作顺利，保持联系。", "en": "Best of luck. Let's stay in touch." }
+    ]
   }
 ]

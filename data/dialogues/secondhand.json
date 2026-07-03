@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-2nd-01",
+    "category": "secondhand",
+    "title": "Facebook Marketplace Meetup",
+    "titleCn": "网上面交",
+    "scene": "你在网上买了二手书桌，和卖家约在停车场面交。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "Seller", "cn": "嗨，你是买书桌的张伟吗？", "en": "Hi, are you Zhang Wei buying the desk?" },
+      { "role": "You", "cn": "是的，能先看看吗？", "en": "Yes. Can I take a look first?" },
+      { "role": "Seller", "cn": "当然，有一个抽屉拉不太顺。", "en": "Sure. One drawer sticks a little." },
+      { "role": "You", "cn": "还行，八十块现金可以吗？", "en": "It's okay. Would you take eighty cash?" },
+      { "role": "Seller", "cn": "网上标九十，八十五吧。", "en": "I listed it at ninety. How about eighty-five?" },
+      { "role": "You", "cn": "行，我车就在那边。", "en": "Deal. My car is right over there." },
+      { "role": "Seller", "cn": "我帮你抬过去。", "en": "I'll help you load it." }
+    ]
+  },
+  {
+    "id": "dlg-2nd-02",
+    "category": "secondhand",
+    "title": "Item Not as Described",
+    "titleCn": "货不对板",
+    "scene": "面交时发现商品和描述不符，你和卖家交涉。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "You", "cn": "你说几乎全新，但屏幕有很大划痕。", "en": "You said like new, but the screen has a big scratch." },
+      { "role": "Seller", "cn": "拍照时没注意到，抱歉。", "en": "I didn't notice in the photos. Sorry." },
+      { "role": "You", "cn": "五十块吧，不然我不买了。", "en": "Fifty dollars, or I'll pass." },
+      { "role": "Seller", "cn": "最低六十，已经很低了。", "en": "Sixty is my minimum. It's already a steal." },
+      { "role": "You", "cn": "五十五，现金现在付。", "en": "Fifty-five cash right now." },
+      { "role": "Seller", "cn": "好吧。", "en": "Fine." },
+      { "role": "You", "cn": "谢谢，以后描述写清楚些。", "en": "Thanks. Please be more accurate next time." }
+    ]
+  },
+  {
+    "id": "dlg-2nd-03",
+    "category": "secondhand",
+    "title": "Safety When Meeting",
+    "titleCn": "安全面交",
+    "scene": "你卖手机，和买家约在警察局门口交易。",
+    "roles": ["You", "Buyer"],
+    "turns": [
+      { "role": "Buyer", "cn": "约在这安全吗？我头一次面交。", "en": "Is it safe to meet here? It's my first time." },
+      { "role": "You", "cn": "警察局门口最安全，白天人多。", "en": "Police station parking is safest. Lots of people in daylight." },
+      { "role": "Buyer", "cn": "能开机我检查一下吗？", "en": "Can you turn it on so I can check it?" },
+      { "role": "You", "cn": "当然，账号已退出，外观视频里都有。", "en": "Sure. Accounts are logged out. The video shows the condition." },
+      { "role": "Buyer", "cn": "好的，三百现金。", "en": "Okay. Three hundred cash." },
+      { "role": "You", "cn": "数一下，交易愉快。", "en": "Count it please. Nice doing business." },
+      { "role": "Buyer", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-2nd-04",
+    "category": "secondhand",
+    "title": "Posting an Item Online",
+    "titleCn": "网上卖东西",
+    "scene": "你帮朋友写英文卖二手自行车的帖子。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "标题写什么好？", "en": "What should the title say?" },
+      { "role": "You", "cn": "Giant山地车，九成新，二百五。", "en": "Giant mountain bike, like new, two fifty." },
+      { "role": "Friend", "cn": "描述要写什么？", "en": "What goes in the description?" },
+      { "role": "You", "cn": "尺寸、去年买的、可试骑、现金面交。", "en": "Size, bought last year, test ride welcome, cash only." },
+      { "role": "Friend", "cn": "见面地点呢？", "en": "Where should we meet?" },
+      { "role": "You", "cn": "家门口超市停车场，白天。", "en": "Supermarket parking lot near my place, daytime." },
+      { "role": "Friend", "cn": "好，我发了。", "en": "Okay, it's posted." }
+    ]
+  },
+  {
+    "id": "dlg-2nd-05",
+    "category": "secondhand",
+    "title": "Shipping Instead of Meetup",
+    "titleCn": "邮寄二手",
+    "scene": "买家在外地，你协商邮寄二手相机。",
+    "roles": ["You", "Buyer"],
+    "turns": [
+      { "role": "Buyer", "cn": "能包邮吗？我在外州。", "en": "Can you ship it? I'm in another state." },
+      { "role": "You", "cn": "可以，运费你出，大概十五块。", "en": "Yes, you pay shipping, about fifteen dollars." },
+      { "role": "Buyer", "cn": "能拍打包视频吗？", "en": "Can you video the packing?" },
+      { "role": "You", "cn": "可以，付款后当天寄，给追踪号。", "en": "Sure. I'll ship same day after payment with tracking." },
+      { "role": "Buyer", "cn": "PayPal朋友转账可以吗？", "en": "PayPal friends and family okay?" },
+      { "role": "You", "cn": "收到款再寄，不退不换。", "en": "I'll ship after payment clears. No returns." },
+      { "role": "Buyer", "cn": "明白，我这就付。", "en": "Got it. I'll pay now." }
+    ]
+  }
+]

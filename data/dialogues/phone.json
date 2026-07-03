@@ -200,5 +200,39 @@
       { "role": "You", "cn": "好的，作业能请同学带回来吗？", "en": "Okay. Can a classmate bring homework home?" },
       { "role": "Secretary", "cn": "我让老师发到家长邮箱。", "en": "I'll have the teacher email it to parents." }
     ]
+  },
+  {
+    "id": "dlg-phone-13",
+    "category": "phone",
+    "title": "Utility Outage Report",
+    "titleCn": "报修停电",
+    "scene": "整栋楼停电，你打电话给电力公司。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "电力公司，请问地址？", "en": "Power company. What's your address?" },
+      { "role": "You", "cn": "456 Oak Avenue，整栋楼都黑了。", "en": "Four fifty-six Oak Avenue. The whole building is out." },
+      { "role": "Agent", "cn": "我们已有故障报告，抢修队在路上。", "en": "We have an outage report. Crews are on the way." },
+      { "role": "You", "cn": "大概多久恢复？", "en": "How long until it's back?" },
+      { "role": "Agent", "cn": "预计三小时内，会发短信更新。", "en": "About three hours. We'll text you updates." },
+      { "role": "You", "cn": "冰箱食物怎么办？", "en": "What about food in the fridge?" },
+      { "role": "Agent", "cn": "四小时以内通常没问题。", "en": "It should be fine for about four hours." }
+    ]
+  },
+  {
+    "id": "dlg-phone-14",
+    "category": "phone",
+    "title": "Making a Hair Appointment",
+    "titleCn": "电话预约理发",
+    "scene": "你打电话预约周末理发。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "美发沙龙，有什么可以帮您？", "en": "Hair salon. How can I help?" },
+      { "role": "You", "cn": "想预约周六下午剪发，男士。", "en": "I'd like a men's haircut Saturday afternoon." },
+      { "role": "Receptionist", "cn": "两点或四点有空，指定发型师吗？", "en": "Two or four PM is open. Any stylist preference?" },
+      { "role": "You", "cn": "上次是Lisa，她在吗？", "en": "Lisa cut my hair last time. Is she available?" },
+      { "role": "Receptionist", "cn": "四点可以，剪发三十五。", "en": "Four o'clock works. Haircuts are thirty-five." },
+      { "role": "You", "cn": "好的，姓张。", "en": "Great. Last name Zhang." },
+      { "role": "Receptionist", "cn": "预约好了，请提前五分钟到。", "en": "You're booked. Please arrive five minutes early." }
+    ]
   }
 ]

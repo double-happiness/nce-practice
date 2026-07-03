@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-camp-01",
+    "category": "campus",
+    "title": "Campus Tour",
+    "titleCn": "校园参观",
+    "scene": "新生入学前你参加校园导览。",
+    "roles": ["You", "Guide"],
+    "turns": [
+      { "role": "Guide", "cn": "图书馆在这边，二十四小时开放期末周。", "en": "The library is here. It's open twenty-four hours during finals." },
+      { "role": "You", "cn": "食堂饭卡怎么充？", "en": "How do we load the dining card?" },
+      { "role": "Guide", "cn": "网上或学生中心机器，用学生ID。", "en": "Online or at kiosks in the student center with your ID." },
+      { "role": "You", "cn": "健身房学生免费吗？", "en": "Is the gym free for students?" },
+      { "role": "Guide", "cn": "学费里含，凭学生证进。", "en": "It's included in tuition. Show your student ID." },
+      { "role": "You", "cn": "校车线路在哪查？", "en": "Where can I find bus routes?" },
+      { "role": "Guide", "cn": "学校App有实时位置。", "en": "The campus app shows live locations." }
+    ]
+  },
+  {
+    "id": "dlg-camp-02",
+    "category": "campus",
+    "title": "Dorm Check-in",
+    "titleCn": "宿舍入住",
+    "scene": "开学日你办理宿舍入住。",
+    "roles": ["You", "RA"],
+    "turns": [
+      { "role": "RA", "cn": "欢迎！请签入住表，领钥匙。", "en": "Welcome! Sign in and pick up your key." },
+      { "role": "You", "cn": "室友还没到，我可以先选床位吗？", "en": "My roommate isn't here yet. Can I pick a bed?" },
+      { "role": "RA", "cn": "可以，但最好等对方一起商量。", "en": "You can, but it's better to wait and discuss together." },
+      { "role": "You", "cn": "洗衣房在几楼？", "en": "Which floor is laundry on?" },
+      { "role": "RA", "cn": "一楼，硬币或学生卡。", "en": "First floor. Coins or student card." },
+      { "role": "You", "cn": "安静时间几点？", "en": "What are quiet hours?" },
+      { "role": "RA", "cn": "晚上十点到早上八点。", "en": "Ten PM to eight AM." }
+    ]
+  },
+  {
+    "id": "dlg-camp-03",
+    "category": "campus",
+    "title": "Joining a Club",
+    "titleCn": "加入社团",
+    "scene": "社团招新周，你咨询英语辩论社。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "Member", "cn": "对辩论感兴趣？我们每周三练。", "en": "Interested in debate? We practice Wednesdays." },
+      { "role": "You", "cn": "新手可以吗？口语一般。", "en": "Can beginners join? My speaking is just okay." },
+      { "role": "Member", "cn": "可以，有培训，比赛可选。", "en": "Yes. We train newcomers. Competitions are optional." },
+      { "role": "You", "cn": "要交会费吗？", "en": "Is there a membership fee?" },
+      { "role": "Member", "cn": "一学期二十，含比赛交通。", "en": "Twenty per semester, includes travel to meets." },
+      { "role": "You", "cn": "好，我填表。", "en": "Great. I'll fill out the form." },
+      { "role": "Member", "cn": "欢迎加入！", "en": "Welcome aboard!" }
+    ]
+  },
+  {
+    "id": "dlg-camp-04",
+    "category": "campus",
+    "title": "Printing on Campus",
+    "titleCn": "校园打印",
+    "scene": "你要打印论文，电脑显示余额不足。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "打印不了，说余额不足。", "en": "I can't print. It says insufficient balance." },
+      { "role": "Staff", "cn": "学生账户要充值，一页黑白七分。", "en": "You need to add funds to your student account. Seven cents per black-and-white page." },
+      { "role": "You", "cn": "在哪充值？", "en": "Where do I add money?" },
+      { "role": "Staff", "cn": "学生门户，最低五块。", "en": "Student portal. Five-dollar minimum." },
+      { "role": "You", "cn": "彩印呢？", "en": "What about color?" },
+      { "role": "Staff", "cn": "一页二十五分。", "en": "Twenty-five cents a page." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-camp-05",
+    "category": "campus",
+    "title": "Career Fair",
+    "titleCn": "校园招聘会",
+    "scene": "你在校园招聘会和招聘人员交流。",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "您好，了解我们公司吗？", "en": "Hi there. Do you know our company?" },
+      { "role": "You", "cn": "做过功课，你们做云计算，我投软件工程岗。", "en": "A bit. You do cloud computing. I'm interested in software engineering." },
+      { "role": "Recruiter", "cn": "太好了，请留简历，今晚网申。", "en": "Great. Leave your resume and apply online tonight." },
+      { "role": "You", "cn": "实习可以全职转正吗？", "en": "Can internships convert to full-time?" },
+      { "role": "Recruiter", "cn": "表现好可以，明年八月入职。", "en": "Strong performers can start full-time next August." },
+      { "role": "You", "cn": "谢谢，很高兴认识您。", "en": "Thank you. Nice meeting you." },
+      { "role": "Recruiter", "cn": "祝你好运！", "en": "Good luck!" }
+    ]
+  }
+]
