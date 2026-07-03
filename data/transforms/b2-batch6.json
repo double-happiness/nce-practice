@@ -1,0 +1,168 @@
+[
+  {
+    "id": "tf-b2-038",
+    "book": 2,
+    "lesson": 37,
+    "grammar": ["被动语态", "一般将来时"],
+    "cn": "奥运会将在我们城市举行。",
+    "explanation": "一般将来时被动 will be + 过去分词；疑问句 will 提前。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The Olympic Games will be held in our city.", "The next Olympic Games will be held in our city."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will the Olympic Games be held in our city?", "Will the next Olympic Games be held in our city?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The Olympic Games will not be held in our city.", "The Olympic Games won't be held in our city.", "The next Olympic Games will not be held in our city.", "The next Olympic Games won't be held in our city."] },
+      { "kind": "wh", "prompt": "对「in our city」提问（问地点）", "answers": ["Where will the Olympic Games be held?", "Where will the next Olympic Games be held?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-039",
+    "book": 2,
+    "lesson": 38,
+    "grammar": ["过去完成时", "一般过去时"],
+    "cn": "他们出发之前没有考虑到天气。",
+    "explanation": "过去完成时 had not considered 表\"出发之前未做\"；疑问句 had 提前。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They had not considered the weather before they set out.", "They hadn't considered the weather before they set out.", "They had not thought about the weather before they set out.", "They hadn't thought about the weather before they set out."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Had they considered the weather before they set out?", "Had they thought about the weather before they set out?"] },
+      { "kind": "negative", "prompt": "改为否定句（强调未考虑）", "answers": ["They had not considered the weather before they set out.", "They hadn't considered the weather before they set out."] },
+      { "kind": "wh", "prompt": "对「the weather」提问（问\"没考虑什么\"）", "answers": ["What had they not considered before they set out?", "What hadn't they considered before they set out?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-040",
+    "book": 2,
+    "lesson": 39,
+    "grammar": ["间接引语", "一般过去时"],
+    "cn": "医生问我是否感觉好些了。",
+    "explanation": "ask + whether/if 转间接引语；一般现在时 are → was 时态后移。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The doctor asked, \"Are you better?\"", "The doctor asked, \"Do you feel better?\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The doctor asked whether I was better.", "The doctor asked if I was better.", "The doctor asked whether I felt better.", "The doctor asked if I felt better."] },
+      { "kind": "yesno", "prompt": "把间接引语改为一般疑问句（Did the doctor ask…?）", "answers": ["Did the doctor ask whether you were better?", "Did the doctor ask if you were better?", "Did the doctor ask whether you felt better?", "Did the doctor ask if you felt better?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-041",
+    "book": 2,
+    "lesson": 40,
+    "grammar": ["一般过去时", "疑问句"],
+    "cn": "昨晚他们玩得很开心。",
+    "explanation": "一般过去时借助 did 转换；enjoy oneself 表\"玩得开心\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They enjoyed themselves last night.", "They had a good time last night."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did they enjoy themselves last night?", "Did they have a good time last night?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["They did not enjoy themselves last night.", "They didn't enjoy themselves last night.", "They did not have a good time last night.", "They didn't have a good time last night."] },
+      { "kind": "wh", "prompt": "对「last night」提问（问时间）", "answers": ["When did they enjoy themselves?", "When did they have a good time?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-042",
+    "book": 2,
+    "lesson": 41,
+    "grammar": ["疑问句", "一般过去时"],
+    "cn": "你把那个也叫帽子吗？",
+    "explanation": "Do you call…? 一般疑问句；that 指远处事物。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Do you call that a hat?"] },
+      { "kind": "yesno", "prompt": "改为一般疑问句（陈述句：You call that a hat.）", "answers": ["Do you call that a hat?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["You do not call that a hat.", "You don't call that a hat.", "I do not call that a hat.", "I don't call that a hat."] },
+      { "kind": "wh", "prompt": "对「that」提问（问\"把什么叫帽子\"）", "answers": ["What do you call a hat?", "What do you call that?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-043",
+    "book": 2,
+    "lesson": 42,
+    "grammar": ["时间状语从句", "一般过去时"],
+    "cn": "他听音乐会时睡着了。",
+    "explanation": "while/when + 过去进行时表背景；fall asleep 用一般过去时 fell asleep。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He fell asleep while he was listening to the music.", "While he was listening to the music, he fell asleep.", "He fell asleep when he was listening to the music."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Did he fall asleep…?）", "answers": ["Did he fall asleep while he was listening to the music?", "Did he fall asleep when he was listening to the music?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["He did not fall asleep while he was listening to the music.", "He didn't fall asleep while he was listening to the music."] },
+      { "kind": "wh", "prompt": "对「while he was listening to the music」提问（问\"何时睡着\"）", "answers": ["When did he fall asleep?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-044",
+    "book": 2,
+    "lesson": 43,
+    "grammar": ["过去完成时", "情态动词"],
+    "cn": "由于天气恶劣，他们不得不取消飞行。",
+    "explanation": "had to 表过去\"不得不\"；疑问句 Did they have to…?",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They had to cancel the flight because the weather was bad.", "Because the weather was bad, they had to cancel the flight."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did they have to cancel the flight because the weather was bad?", "Because the weather was bad, did they have to cancel the flight?"] },
+      { "kind": "negative", "prompt": "改为否定句（不必取消）", "answers": ["They did not have to cancel the flight.", "They didn't have to cancel the flight."] },
+      { "kind": "wh", "prompt": "对「cancel the flight」提问（问\"不得不做什么\"）", "answers": ["What did they have to do because the weather was bad?", "What did they have to do?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-045",
+    "book": 2,
+    "lesson": 44,
+    "grammar": ["一般过去时", "时间状语从句"],
+    "cn": "他们走了几个小时后才走出森林。",
+    "explanation": "after 引导时间状语从句；主句一般过去时 came out。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They came out of the forest after they had walked for hours.", "After they had walked for hours, they came out of the forest.", "They came out of the forest after walking for hours."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Did they come out of the forest after they had walked for hours?", "After they had walked for hours, did they come out of the forest?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["They did not come out of the forest after they had walked for hours.", "They didn't come out of the forest after they had walked for hours."] },
+      { "kind": "wh", "prompt": "对「after they had walked for hours」提问（问\"何时走出森林\"）", "answers": ["When did they come out of the forest?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-046",
+    "book": 2,
+    "lesson": 45,
+    "grammar": ["被动语态", "过去完成时"],
+    "cn": "他被要求把货物搬到另一艘船上。",
+    "explanation": "过去时被动 was asked to do；主动句 They asked him to…",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["He was asked to move the goods to another ship.", "He was asked to carry the goods to another ship."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was he asked to move the goods to another ship?", "Was he asked to carry the goods to another ship?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He was not asked to move the goods to another ship.", "He wasn't asked to move the goods to another ship.", "He was not asked to carry the goods to another ship.", "He wasn't asked to carry the goods to another ship."] },
+      { "kind": "wh", "prompt": "对「to move the goods to another ship」提问（问\"被要求做什么\"）", "answers": ["What was he asked to do?", "What was he asked to move?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-047",
+    "book": 2,
+    "lesson": 46,
+    "grammar": ["被动语态", "一般过去时"],
+    "cn": "人们称那次旅行为最昂贵的一次。",
+    "explanation": "call 可用被动 be called；一般过去时 was called。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The journey was called the most expensive one.", "It was called the most expensive journey."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the journey called the most expensive one?", "Was it called the most expensive journey?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The journey was not called the most expensive one.", "The journey wasn't called the most expensive one.", "It was not called the most expensive journey.", "It wasn't called the most expensive journey."] },
+      { "kind": "wh", "prompt": "对「the most expensive one」提问（问\"被称为什么\"）", "answers": ["What was the journey called?", "What was it called?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-048",
+    "book": 2,
+    "lesson": 47,
+    "grammar": ["现在完成时", "被动语态"],
+    "cn": "这家酒馆已被一位新主人买下。",
+    "explanation": "现在完成时被动 has been + 过去分词；疑问句 Has it been bought?",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The pub has been bought by a new owner.", "The inn has been bought by a fearless new owner."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the pub been bought by a new owner?", "Has the inn been bought by a fearless new owner?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The pub has not been bought by a new owner.", "The pub hasn't been bought by a new owner.", "The inn has not been bought by a fearless new owner.", "The inn hasn't been bought by a fearless new owner."] },
+      { "kind": "wh", "prompt": "对「The pub」提问（问\"什么已被买下\"）", "answers": ["What has been bought by a new owner?", "What has been bought?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-049",
+    "book": 2,
+    "lesson": 48,
+    "grammar": ["间接引语", "过去完成时"],
+    "cn": "牙医问我刚才是否想对他说什么。",
+    "explanation": "Did you want…? 转间接引语 → asked if I had wanted；时态后移为过去完成时。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The dentist asked, \"Did you want to tell me something?\"", "The dentist asked, \"Did you want to say something?\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The dentist asked whether I had wanted to tell him something.", "The dentist asked if I had wanted to tell him something.", "The dentist asked whether I had wanted to say something.", "The dentist asked if I had wanted to say something."] },
+      { "kind": "negative", "prompt": "把间接引语句改为否定句（否定从句）", "answers": ["The dentist asked whether I had not wanted to tell him something.", "The dentist asked if I had not wanted to tell him something.", "The dentist asked whether I hadn't wanted to tell him something.", "The dentist asked if I hadn't wanted to tell him something."] }
+    ]
+  }
+]
