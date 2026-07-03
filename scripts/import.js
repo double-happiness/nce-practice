@@ -22,58 +22,14 @@
 //   - id 自动按 b{册}-{课}-q{序}（选择）/ b{册}-{课}-f{序}（填空）分配
 //   - lessonTitle 自动从课程数据带出；写盘前跑全量校验，有新错误则回滚
 
-const fs = require('fs');
 const path = require('path');
 const data = require('../lib/data');
-const { writeJSONAtomic } = require('../lib/store');
 const { validate } = require('./validate');
+const { splitList, fail, normText, parseBlocks, parseArgs, resolveOutFile, readDraft, commitShard } = require('./import-common');
 
 const QUESTIONS_DIR = path.join(data.DATA_DIR, 'questions');
 
-// ---------- 草稿解析 ----------
-
-function splitList(s) {
-  return String(s)
-    .split(/[,，、]/)
-    .map((x) => x.trim())
-    .filter(Boolean);
-}
-
-function fail(lineNo, msg) {
-  return new Error(`第 ${lineNo} 行: ${msg}`);
-}
-
-// 把草稿文本切成「题目块」，每块附带当时的公共字段快照
-function parseBlocks(text) {
-  const ctx = { book: null, lesson: null, grammar: [] };
-  const blocks = [];
-  let cur = [];
-  const flush = () => {
-    if (cur.length) blocks.push({ lines: cur, ctx: { ...ctx, grammar: [...ctx.grammar] } });
-    cur = [];
-  };
-
-  text.split(/\r?\n/).forEach((raw, i) => {
-    const line = raw.trim();
-    const no = i + 1;
-    if (!line) return flush();
-    if (line.startsWith('#')) {
-      flush();
-      const pairs = [...line.slice(1).matchAll(/(\w+)\s*=\s*(\S+)/g)];
-      if (!pairs.length) throw fail(no, '# 行里没有 key=value 公共字段');
-      for (const [, k, v] of pairs) {
-        if (k === 'book') ctx.book = Number(v);
-        else if (k === 'lesson') ctx.lesson = Number(v);
-        else if (k === 'grammar') ctx.grammar = splitList(v);
-        else throw fail(no, `未知公共字段 "${k}"（支持 book / lesson / grammar）`);
-      }
-      return;
-    }
-    cur.push({ no, text: line });
-  });
-  flush();
-  return blocks;
-}
+// ---------- 草稿块 → 题目 ----------
 
 // 选项行判定：含 | 且某段以 * 开头，如 "* an | a | the | -"
 function isOptionsLine(s) {
@@ -148,12 +104,6 @@ function blockToQuestion(block) {
   return { q, lineNo: first };
 }
 
-// ---------- id 分配 / 查重 ----------
-
-function normStem(s) {
-  return String(s).toLowerCase().replace(/\s+/g, ' ').trim();
-}
-
 // 沿用现有主流 id 格式 b{册}-{课}-q{N} / b{册}-{课}-f{N}，按 册+课+题型 续号
 function makeIdAllocator(existing) {
   const max = new Map();
@@ -183,51 +133,15 @@ function usage() {
 }
 
 function main() {
-  const argv = process.argv.slice(2);
-  if (!argv.length || argv.includes('--help') || argv.includes('-h')) {
-    usage();
-    process.exit(argv.length ? 0 : 1);
-  }
-  const dryRun = argv.includes('--dry-run');
-  const force = argv.includes('--force');
-  const outIdx = argv.indexOf('--out');
-  const outName = outIdx >= 0 ? argv[outIdx + 1] : null;
-  const input = argv.find((a, i) => !a.startsWith('--') && (outIdx < 0 || i !== outIdx + 1));
-
-  if (!input) {
-    console.error('❌ 缺少草稿文件参数');
-    usage();
-    process.exit(1);
-  }
-  if (outIdx >= 0 && (!outName || outName.startsWith('--'))) {
-    console.error('❌ --out 后面需要跟批次名');
-    process.exit(1);
-  }
-  const name = outName || path.basename(input).replace(/\.[^.]*$/, '');
-  if (!/^[\w.-]+$/.test(name)) {
-    console.error(`❌ 批次名 "${name}" 只能包含字母、数字、下划线、点、连字符`);
-    process.exit(1);
-  }
-  const outFile = path.join(QUESTIONS_DIR, `${name}.json`);
-  if (fs.existsSync(outFile)) {
-    console.error(`❌ ${path.relative(process.cwd(), outFile)} 已存在，换个批次名（--out xxx）`);
-    process.exit(1);
-  }
-
-  let text;
-  try {
-    text = fs.readFileSync(input, 'utf8');
-  } catch (e) {
-    console.error(`❌ 读不到草稿文件 ${input}: ${e.message}`);
-    process.exit(1);
-  }
+  const { input, name, dryRun, force } = parseArgs(process.argv.slice(2), usage);
+  const outFile = resolveOutFile(QUESTIONS_DIR, name);
+  const text = readDraft(input);
 
   // 基线：现有数据 + 现有校验错误（导入后只关心「新增」的错误）
   data.reload();
   const baselineErrors = new Set(validate().errors);
   const existing = data.getQuestions();
-  const existingIds = new Set(existing.map((q) => q.id));
-  const stemOwner = new Map(existing.map((q) => [normStem(q.stem), q.id]));
+  const stemOwner = new Map(existing.map((q) => [normText(q.stem), q.id]));
 
   // 解析草稿（任一错误都指明行号后退出）
   let parsed;
@@ -245,7 +159,7 @@ function main() {
   // 题干查重（对现有题库 + 本批内部），默认报错，--force 降级为警告
   const dupMsgs = [];
   for (const { q, lineNo } of parsed) {
-    const key = normStem(q.stem);
+    const key = normText(q.stem);
     if (stemOwner.has(key)) dupMsgs.push(`第 ${lineNo} 行: 题干与已有题目 ${stemOwner.get(key)} 重复`);
     else stemOwner.set(key, `本批第 ${lineNo} 行`);
   }
@@ -262,11 +176,6 @@ function main() {
   const warnings = [];
   const questions = parsed.map(({ q, lineNo }) => {
     q.id = allocId(q);
-    if (existingIds.has(q.id)) {
-      // 正常不会发生（续号基于现有 id），防御性兜底
-      console.error(`❌ 内部错误：分配的 id ${q.id} 已存在`);
-      process.exit(1);
-    }
     const title = titleMap.get(`${q.book}-${q.lesson}`);
     if (title) q.lessonTitle = title;
     else {
@@ -286,18 +195,7 @@ function main() {
     return;
   }
 
-  // 写盘 → 全量校验 → 有新错误则回滚
-  writeJSONAtomic(outFile, questions);
-  data.reload();
-  const newErrors = validate().errors.filter((e) => !baselineErrors.has(e));
-  if (newErrors.length) {
-    fs.unlinkSync(outFile);
-    data.reload();
-    newErrors.forEach((e) => console.error('❌ ' + e));
-    console.error('\n导入后校验出现新错误，已回滚（文件未保留）');
-    process.exit(1);
-  }
-
+  commitShard(outFile, questions, baselineErrors);
   console.log(`✅ 已导入 ${questions.length} 道题 → ${path.relative(process.cwd(), outFile)}`);
   console.log(`   id: ${questions.map((q) => q.id).join(', ')}`);
   console.log('   （服务运行中的话，重启或调用 data.reload() 后生效）');
@@ -305,4 +203,4 @@ function main() {
 
 if (require.main === module) main();
 
-module.exports = { parseBlocks, blockToQuestion };
+module.exports = { blockToQuestion };

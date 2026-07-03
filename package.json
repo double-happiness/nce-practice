@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "node server.js",
     "validate": "node scripts/validate.js",
-    "import": "node scripts/import.js"
+    "import": "node scripts/import.js",
+    "import:tf": "node scripts/import-transforms.js"
   },
   "dependencies": {
     "express": "^4.19.2"
