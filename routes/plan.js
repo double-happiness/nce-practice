@@ -20,30 +20,49 @@ const SOURCE_LABEL = {
   dialogue: '情景对话',
 };
 
-// 听·说·读·写·记 五技能每日闭环（零基础/初级 · 45–60min 预设）。
-// 每个技能绑定已被记录的活动来源，学习者做了对应练习即自动完成；tab 用于前端「去做 →」深链。
+// 听·说·读·写·记 五技能每日闭环。每个技能绑定已被记录的活动来源，做了即自动完成；tab 用于前端「去做 →」深链。
+// 各技能的每日目标数量由「水平预设」决定（见 LEVELS），描述里不写死数字。
 const SKILL_PLAN = [
-  { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation'], target: 1, unit: '次', tab: 'dictation' },
-  { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue'], target: 1, unit: '组', tab: 'dialogue' },
-  { key: 'read', icon: '📖', label: '读', desc: '学 1 课精读 + 练本课题', sources: ['quiz'], target: 5, unit: '题', tab: 'learn' },
-  { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform'], target: 1, unit: '组', tab: 'transform' },
-  { key: 'memo', icon: '🔤', label: '记', desc: '背单词 + 到期错题复习', sources: ['words', 'vocab'], target: 10, unit: '词', tab: 'words' },
+  { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation'], unit: '次', tab: 'dictation' },
+  { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue'], unit: '组', tab: 'dialogue' },
+  { key: 'read', icon: '📖', label: '读', desc: '学新课精读 + 练本课题', sources: ['quiz'], unit: '题', tab: 'learn' },
+  { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform'], unit: '组', tab: 'transform' },
+  { key: 'memo', icon: '🔤', label: '记', desc: '背单词 + 到期错题复习', sources: ['words', 'vocab'], unit: '词', tab: 'words' },
 ];
 
-function buildSkills(todayBy) {
+// 三档水平预设：一键切换一套每日目标（存在 plan.json 的 level 字段）
+const LEVELS = {
+  starter: { label: '初级', note: '零基础 · 45–60min', book: 'NCE1', targets: { listen: 1, speak: 1, read: 5, write: 1, memo: 10 } },
+  medium: { label: '中级', note: 'NCE2 · 约 60min', book: 'NCE2', targets: { listen: 1, speak: 2, read: 8, write: 2, memo: 15 } },
+  sprint: { label: '冲刺', note: '强化 · 90min+', book: '强化', targets: { listen: 2, speak: 2, read: 12, write: 3, memo: 20 } },
+};
+const DEFAULT_LEVEL = 'starter';
+const levelList = () => Object.keys(LEVELS).map((k) => ({ key: k, label: LEVELS[k].label, note: LEVELS[k].note, book: LEVELS[k].book }));
+
+function buildSkills(todayBy, levelKey) {
+  const targets = (LEVELS[levelKey] || LEVELS[DEFAULT_LEVEL]).targets;
   return SKILL_PLAN.map((s) => {
+    const target = targets[s.key] || 1;
     const done = s.sources.reduce((n, src) => n + (todayBy[src] || 0), 0);
     return {
       key: s.key, icon: s.icon, label: s.label, desc: s.desc, tab: s.tab, unit: s.unit,
-      target: s.target, done, met: done >= s.target,
+      target, done, met: done >= target,
     };
   });
 }
 
-function loadGoal() {
-  const obj = readJSON(profile.file('plan.json'), { goal: DEFAULT_GOAL });
-  const g = obj && Number(obj.goal);
-  return Number.isFinite(g) && g > 0 ? Math.round(g) : DEFAULT_GOAL;
+// plan.json 同时存 goal（每日总练习量）与 level（水平预设）；读写都做合并，避免互相覆盖。
+function loadPlan() {
+  const obj = readJSON(profile.file('plan.json'), {}) || {};
+  const g = Number(obj.goal);
+  const goal = Number.isFinite(g) && g > 0 ? Math.round(g) : DEFAULT_GOAL;
+  const level = LEVELS[obj.level] ? obj.level : DEFAULT_LEVEL;
+  return { goal, level };
+}
+
+function savePlan(patch) {
+  const cur = readJSON(profile.file('plan.json'), {}) || {};
+  writeJSONAtomic(profile.file('plan.json'), { ...cur, ...patch });
 }
 
 function dateKey(ts) {
@@ -137,7 +156,7 @@ router.get('/plan/overview', (req, res) => {
   const attempts = collectAllAttempts();
   const byDate = groupByDate(attempts);
   const now = Date.now();
-  const goal = loadGoal();
+  const { goal, level } = loadPlan();
   const streak = computeStreak(byDate, now);
   const todayKey = dateKey(now);
   const today = todayBreakdown(attempts, todayKey);
@@ -155,10 +174,12 @@ router.get('/plan/overview', (req, res) => {
     });
   }
 
-  const skills = buildSkills(today.by);
+  const skills = buildSkills(today.by, level);
   const skillsMet = skills.filter((s) => s.met).length;
 
   res.json({
+    level,
+    levels: levelList(),
     streak,
     todayCount: today.count,
     todayCorrect: today.correct,
@@ -183,8 +204,18 @@ router.post('/plan/goal', (req, res) => {
     return res.status(400).json({ error: 'goal 必须是正数' });
   }
   const goal = Math.round(g);
-  writeJSONAtomic(profile.file('plan.json'), { goal });
+  savePlan({ goal }); // 合并写，保留已选的 level
   res.json({ ok: true, goal });
+});
+
+// POST /plan/level  body { level:'starter'|'medium'|'sprint' }
+router.post('/plan/level', (req, res) => {
+  const lv = req.body && req.body.level;
+  if (!LEVELS[lv]) {
+    return res.status(400).json({ error: 'level 必须是 starter / medium / sprint 之一' });
+  }
+  savePlan({ level: lv }); // 合并写，保留 goal
+  res.json({ ok: true, level: lv, targets: LEVELS[lv].targets });
 });
 
 module.exports = router;

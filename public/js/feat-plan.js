@@ -58,6 +58,12 @@
     .pln-plan-list{list-style:none;padding:0;margin:0}
     .pln-plan-list li{padding:7px 0;font-size:14px;color:#374151;line-height:1.6;border-bottom:1px solid #f3f4f6}
     .pln-plan-list li:last-child{border-bottom:0}
+    .pln-lv-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+    .pln-lv-label{font-size:13px;color:#6b7280}
+    .pln-lv{padding:5px 14px;font-size:13px;border:1px solid #d1d5db;border-radius:999px;background:#fff;color:#374151;cursor:pointer}
+    .pln-lv:hover{border-color:#2563eb}
+    .pln-lv.on{background:#2563eb;border-color:#2563eb;color:#fff;font-weight:700}
+    .pln-lv-note{font-size:12px;color:#9ca3af}
   `;
   document.head.appendChild(style);
 
@@ -145,18 +151,32 @@
         : `<button class="pln-btn small pln-skill-go" data-tab="${esc(s.tab)}">去做 →</button>`) +
       '</div>'
     ).join('');
+    // 水平预设切换（初级/中级/冲刺）：一键换一套每日目标
+    const levels = d.levels || [];
+    const curLevel = d.level || 'starter';
+    const levelBtns = levels.map((lv) =>
+      `<button class="pln-lv${lv.key === curLevel ? ' on' : ''}" data-level="${esc(lv.key)}" title="${esc(lv.note)}">${esc(lv.label)}</button>`
+    ).join('');
+    const curNote = (levels.find((lv) => lv.key === curLevel) || {}).note || '';
     const tasksCard =
       `<div class="pln-card"><h3>🎯 今日「听说读写」闭环 <span class="pln-skill-count">${skillsMet}/${skillsTotal} 项达标</span></h3>` +
+      `<div class="pln-lv-row"><span class="pln-lv-label">水平预设：</span>${levelBtns}<span class="pln-lv-note">${esc(curNote)}</span></div>` +
       `<div class="pln-skills">${skillRows}</div>` +
       '<div class="pln-note" style="margin-top:10px">五项每天各来一轮，围绕当前课文形成「读→听→说→写→记」完整闭环；全绿即今日达标。</div></div>';
 
-    // NCE1 通关计划说明（零基础 · 45–60min/天）
+    // 通关计划说明（随水平预设变化）
+    const PROGRAM = {
+      starter: { title: 'NCE1 通关计划（零基础 · 45–60 分钟/天）', main: '每天推进 1 篇新课文，走「读 → 听 → 说 → 写 → 记」闭环', mile: '6 课/周 → 约 12 周通关 NCE1 全 72 课；每月做 1 次听/读词汇量测试对比基线' },
+      medium: { title: 'NCE2 进阶计划（中级 · 约 60 分钟/天）', main: '每天 1 课，加大说/写/读的量，语法放到成段语境里巩固', mile: '6 课/周 → 约 16 周走完 NCE2 全 96 课；每月词汇量测试看增长' },
+      sprint: { title: '强化冲刺计划（90 分钟+/天）', main: '每天 1–2 课 + 每日复盘，四技能深度训练', mile: '翻倍推进 + 每周阶段测验；最快见效、强度高，注意可持续' },
+    };
+    const prog = PROGRAM[curLevel] || PROGRAM.starter;
     const programCard =
-      '<div class="pln-card"><h3>🧭 NCE1 通关计划（零基础 · 45–60 分钟/天）</h3>' +
+      `<div class="pln-card"><h3>🧭 ${esc(prog.title)}</h3>` +
       '<ul class="pln-plan-list">' +
-      '<li>📖 <b>主线</b>：每天推进 1 篇新课文，走「读 → 听 → 说 → 写 → 记」闭环</li>' +
+      `<li>📖 <b>主线</b>：${esc(prog.main)}</li>` +
       '<li>🗓️ <b>节奏</b>：周一–周六各 1 课；周日不学新课，做本周阶段测验 + 补漏</li>' +
-      '<li>🎯 <b>里程碑</b>：6 课/周 → 约 12 周通关 NCE1 全 72 课；每月做 1 次听/读词汇量测试对比基线</li>' +
+      `<li>🎯 <b>里程碑</b>：${esc(prog.mile)}</li>` +
       '</ul></div>';
 
     // 30 天热力图
@@ -195,6 +215,20 @@
     // 「去做 →」深链跳到对应功能标签
     wrap.querySelectorAll('.pln-skill-go').forEach((b) => {
       b.onclick = () => { if (NCE.gotoTab) NCE.gotoTab(b.dataset.tab); };
+    });
+
+    // 水平预设切换：一键换一套每日目标并重绘
+    wrap.querySelectorAll('.pln-lv').forEach((b) => {
+      b.onclick = async () => {
+        if (b.classList.contains('on')) return;
+        try {
+          await NCE.api('/api/plan/level', {
+            method: 'POST', headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ level: b.dataset.level }),
+          });
+          renderHome(panel);
+        } catch (e) { if (NCE.toast) NCE.toast('切换失败，请重试', 'error'); }
+      };
     });
 
     // 绑定保存
