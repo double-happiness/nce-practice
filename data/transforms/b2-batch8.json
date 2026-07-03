@@ -1,0 +1,169 @@
+[
+  {
+    "id": "tf-b2-062",
+    "book": 2,
+    "lesson": 61,
+    "grammar": ["现在完成时", "被动语态"],
+    "cn": "哈勃望远镜已经传回了清晰的照片。",
+    "explanation": "现在完成时 has sent back 强调结果；被动语态 has been sent back by…",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The Hubble telescope has sent back clear pictures.", "The Hubble Space Telescope has sent back clear pictures."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the Hubble telescope sent back clear pictures?", "Has the Hubble Space Telescope sent back clear pictures?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The Hubble telescope has not sent back clear pictures yet.", "The Hubble telescope hasn't sent back clear pictures yet.", "The Hubble Space Telescope has not sent back clear pictures yet.", "The Hubble Space Telescope hasn't sent back clear pictures yet."] },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["Clear pictures have been sent back by the Hubble telescope.", "Clear pictures have been sent back by the Hubble Space Telescope."] }
+    ]
+  },
+  {
+    "id": "tf-b2-063",
+    "book": 2,
+    "lesson": 62,
+    "grammar": ["使役结构", "一般过去时"],
+    "cn": "店主请人重修了地板。",
+    "explanation": "使役结构 had + 宾语 + 过去分词，表\"请人做某事\"。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The shopkeeper had the floor repaired.", "The owner had the floor repaired."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the shopkeeper have the floor repaired?", "Did the owner have the floor repaired?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The shopkeeper did not have the floor repaired.", "The shopkeeper didn't have the floor repaired.", "The owner did not have the floor repaired.", "The owner didn't have the floor repaired."] },
+      { "kind": "wh", "prompt": "对「the floor」提问（问\"请人修了什么\"）", "answers": ["What did the shopkeeper have repaired?", "What did the owner have repaired?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-064",
+    "book": 2,
+    "lesson": 63,
+    "grammar": ["一般过去时", "一般过去时否定"],
+    "cn": "她并不觉得好笑。",
+    "explanation": "be not amused 表\"不觉得有趣\"；一般过去时 was not amused。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She was not amused.", "She wasn't amused.", "She did not find it amusing.", "She didn't find it amusing."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was she amused?", "Did she find it amusing?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She was not amused.", "She wasn't amused.", "She did not find it amusing.", "She didn't find it amusing."] },
+      { "kind": "wh", "prompt": "对「She」提问（问\"谁并不觉得好笑\"）", "answers": ["Who was not amused?", "Who wasn't amused?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-065",
+    "book": 2,
+    "lesson": 64,
+    "grammar": ["比较级", "一般过去时"],
+    "cn": "走海底隧道比乘轮船过海更快。",
+    "explanation": "比较级 faster than 表速度对比；travel by train / through the tunnel。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Travelling through the tunnel is faster than crossing by ship.", "Going through the Channel Tunnel is faster than going by ferry.", "Travel by train under the sea is faster than travel by ship."] },
+      { "kind": "yesno", "prompt": "把「Going through the Channel Tunnel is faster…」改为一般疑问句", "answers": ["Is going through the Channel Tunnel faster than going by ferry?", "Is travelling through the tunnel faster than crossing by ship?"] },
+      { "kind": "negative", "prompt": "改为否定句（用 not as…as 表达相反意义）", "answers": ["Going through the Channel Tunnel is not as slow as going by ferry.", "Travelling through the tunnel is not as slow as crossing by ship.", "Going by ferry is not as fast as going through the Channel Tunnel."] },
+      { "kind": "wh", "prompt": "对「faster」提问（问\"怎样对比\"）", "answers": ["How does travelling through the tunnel compare with crossing by ship?", "Which is faster, the tunnel or the ferry?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-066",
+    "book": 2,
+    "lesson": 65,
+    "grammar": ["被动语态", "一般过去时"],
+    "cn": "巨型喷气机被分段拆解后运过了小镇。",
+    "explanation": "一般过去时被动 was taken apart / was moved；and 连接两个被动动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The jumbo jet was taken apart and moved through the town.", "The jumbo jet was taken apart before it was moved through the town.", "A jumbo jet was taken apart and moved through the town."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the jumbo jet taken apart and moved through the town?", "Was a jumbo jet taken apart and moved through the town?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The jumbo jet was not taken apart and moved through the town.", "The jumbo jet wasn't taken apart and moved through the town.", "A jumbo jet was not taken apart and moved through the town.", "A jumbo jet wasn't taken apart and moved through the town."] },
+      { "kind": "passive", "prompt": "改为主动语态", "answers": ["They took the jumbo jet apart and moved it through the town.", "The team took the jumbo jet apart and moved it through the town."] }
+    ]
+  },
+  {
+    "id": "tf-b2-067",
+    "book": 2,
+    "lesson": 66,
+    "grammar": ["过去完成时", "as...as"],
+    "cn": "这只柜子保存得和新的一样好。",
+    "explanation": "过去完成时 had been kept 表先前状态；as good as new 同级比较。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The cupboard had been kept as good as new.", "The antique cupboard had been kept as good as new.", "It had been kept as good as new."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Had the cupboard been kept as good as new?", "Had the antique cupboard been kept as good as new?", "Had it been kept as good as new?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The cupboard had not been kept as good as new.", "The cupboard hadn't been kept as good as new.", "The antique cupboard had not been kept as good as new.", "The antique cupboard hadn't been kept as good as new."] },
+      { "kind": "wh", "prompt": "对「as good as new」提问（问\"保存得怎样\"）", "answers": ["How had the cupboard been kept?", "How well had the cupboard been kept?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-068",
+    "book": 2,
+    "lesson": 67,
+    "grammar": ["现在完成时", "被动语态"],
+    "cn": "本世纪已有多座火山喷发。",
+    "explanation": "现在完成时 have erupted 表到现在为止的经历；this century 作时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Several volcanoes have erupted this century.", "Many volcanoes have erupted this century.", "A number of volcanoes have erupted this century."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have several volcanoes erupted this century?", "Have many volcanoes erupted this century?", "Have a number of volcanoes erupted this century?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["No volcanoes have erupted this century.", "Not many volcanoes have erupted this century.", "Few volcanoes have erupted this century."] },
+      { "kind": "wh", "prompt": "对「this century」提问（问\"何时喷发\"）", "answers": ["When have several volcanoes erupted?", "When have many volcanoes erupted?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-069",
+    "book": 2,
+    "lesson": 68,
+    "grammar": ["现在完成进行时", "一般过去时"],
+    "cn": "那位推销员已经连续几周上门推销了。",
+    "explanation": "现在完成进行时 has been calling 表从过去持续到现在；for weeks 表持续时长。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The salesman has been calling on the family for weeks.", "The salesman has been visiting the same house for weeks.", "He has been calling on them for weeks."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has the salesman been calling on the family for weeks?", "Has the salesman been visiting the same house for weeks?", "Has he been calling on them for weeks?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The salesman has not been calling on the family for weeks.", "The salesman hasn't been calling on the family for weeks.", "He has not been calling on them for weeks.", "He hasn't been calling on them for weeks."] },
+      { "kind": "wh", "prompt": "对「for weeks」提问（问\"持续多久\"）", "answers": ["How long has the salesman been calling on the family?", "How long has he been calling on them?", "How long has the salesman been visiting the same house?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-070",
+    "book": 2,
+    "lesson": 69,
+    "grammar": ["间接引语", "过去完成时"],
+    "cn": "妻子告诉警官她从没想过丈夫会做这种事。",
+    "explanation": "tell 转间接引语；never thought → had never thought，时态后移。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The wife told the policeman, \"I never thought my husband would do such a thing.\"", "She told the policeman, \"I never thought he would do such a thing.\""] },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The wife told the policeman that she had never thought her husband would do such a thing.", "She told the policeman that she had never thought he would do such a thing.", "The wife told the policeman she had never thought her husband would do such a thing."] },
+      { "kind": "yesno", "prompt": "把间接引语改为一般疑问句（Did the wife tell…?）", "answers": ["Did the wife tell the policeman that she had never thought her husband would do such a thing?", "Did she tell the policeman that she had never thought he would do such a thing?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-071",
+    "book": 2,
+    "lesson": 70,
+    "grammar": ["一般过去时", "介词"],
+    "cn": "斗牛士躲在栏杆后面练习动作。",
+    "explanation": "介词 behind 表位置；一般过去时 practised / hid behind the barrier。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The bullfighter practised his movements behind the barrier.", "The bullfighter hid behind the barrier and practised his movements.", "He practised behind the barrier."] },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the bullfighter practise his movements behind the barrier?", "Did he practise behind the barrier?"] },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The bullfighter did not practise his movements behind the barrier.", "The bullfighter didn't practise his movements behind the barrier.", "He did not practise behind the barrier.", "He didn't practise behind the barrier."] },
+      { "kind": "wh", "prompt": "对「behind the barrier」提问（问\"在哪里练习\"）", "answers": ["Where did the bullfighter practise his movements?", "Where did he practise?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-072",
+    "book": 2,
+    "lesson": 71,
+    "grammar": ["过去完成时", "被动语态"],
+    "cn": "关键部件在降下之前已被起重机吊起。",
+    "explanation": "过去完成时被动 had been lifted 表\"降下之前的过去\"；before 引导时间状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The key parts had been lifted by a crane before they were lowered.", "Before they were lowered, the key parts had been lifted by a crane.", "The important parts had been lifted by a crane before they were lowered."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the key parts been lifted by a crane before they were lowered?", "Before they were lowered, had the key parts been lifted by a crane?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The key parts had not been lifted by a crane before they were lowered.", "The key parts hadn't been lifted by a crane before they were lowered."] },
+      { "kind": "wh", "prompt": "对「by a crane」提问（问\"被什么吊起\"）", "answers": ["What had lifted the key parts before they were lowered?", "How had the key parts been lifted before they were lowered?"] }
+    ]
+  },
+  {
+    "id": "tf-b2-073",
+    "book": 2,
+    "lesson": 72,
+    "grammar": ["过去完成进行时", "比较级"],
+    "cn": "他在起跑前已经进行了长期高强度训练。",
+    "explanation": "过去完成进行时 had been training 表起跑前一直在进行；for a long time 表持续。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He had been training hard for a long time before the race.", "Before the race, he had been training hard for a long time.", "He had been doing hard training for a long time before the start."] },
+      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had he been training hard for a long time before the race?", "Before the race, had he been training hard for a long time?"] },
+      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["He had not been training hard for a long time before the race.", "He hadn't been training hard for a long time before the race."] },
+      { "kind": "wh", "prompt": "对「for a long time」提问（问\"训练了多久\"）", "answers": ["How long had he been training hard before the race?", "How long had he been training before the start?"] }
+    ]
+  }
+]
