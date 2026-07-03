@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-kid-01",
+    "category": "parenting",
+    "title": "School Pickup",
+    "titleCn": "接孩子放学",
+    "scene": "你去学校接孩子，和老师简短交流。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "您好，今天小明表现很好。", "en": "Hi. Tommy had a great day today." },
+      { "role": "You", "cn": "谢谢老师！作业多吗？", "en": "Thank you! Is there much homework?" },
+      { "role": "Teacher", "cn": "一页数学题，周五有拼写测验。", "en": "One page of math. There's a spelling test on Friday." },
+      { "role": "You", "cn": "好的，我们会复习。明天带体育服吗？", "en": "Okay, we'll review. Does he need gym clothes tomorrow?" },
+      { "role": "Teacher", "cn": "周三才是体育课。", "en": "Gym is on Wednesday." },
+      { "role": "You", "cn": "明白了，小明，跟老师说再见。", "en": "Got it. Tommy, say goodbye to your teacher." },
+      { "role": "Teacher", "cn": "再见，明天见！", "en": "Bye! See you tomorrow!" }
+    ]
+  },
+  {
+    "id": "dlg-kid-02",
+    "category": "parenting",
+    "title": "Pediatrician Visit",
+    "titleCn": "带孩子看儿科",
+    "scene": "你带孩子看儿科医生。",
+    "roles": ["You", "Doctor"],
+    "turns": [
+      { "role": "Doctor", "cn": "孩子怎么了？", "en": "What's going on with your child?" },
+      { "role": "You", "cn": "发烧两天了，三十八点三度。", "en": "Fever for two days, about a hundred point nine." },
+      { "role": "Doctor", "cn": "咳嗽吗？食欲怎么样？", "en": "Any cough? How's her appetite?" },
+      { "role": "You", "cn": "有点咳，不太想吃饭。", "en": "A little cough. She doesn't want to eat much." },
+      { "role": "Doctor", "cn": "耳朵有点红，可能是耳部感染。", "en": "Her ears are a bit red. Could be an ear infection." },
+      { "role": "You", "cn": "需要抗生素吗？", "en": "Will she need antibiotics?" },
+      { "role": "Doctor", "cn": "开一种儿童口服液，一天两次。", "en": "I'll prescribe a liquid. Twice a day." }
+    ]
+  },
+  {
+    "id": "dlg-kid-03",
+    "category": "parenting",
+    "title": "Daycare Drop-off",
+    "titleCn": "送托儿所",
+    "scene": "早上送孩子去托儿所。",
+    "roles": ["You", "Caregiver"],
+    "turns": [
+      { "role": "Caregiver", "cn": "早上好！昨晚睡得好吗？", "en": "Good morning! Did she sleep well last night?" },
+      { "role": "You", "cn": "还不错，中午可能需要午睡。", "en": "Pretty well. She might need a nap around noon." },
+      { "role": "Caregiver", "cn": "午餐吃过了吗？", "en": "Has she had breakfast?" },
+      { "role": "You", "cn": "吃过了，奶瓶在包里，三点左右喝。", "en": "Yes. The bottle is in the bag, around three o'clock." },
+      { "role": "Caregiver", "cn": "对花生过敏对吧？我们会注意。", "en": "Allergic to peanuts, right? We'll watch for that." },
+      { "role": "You", "cn": "对，EpiPen在侧袋。五点来接。", "en": "Yes. EpiPen is in the side pocket. I'll pick her up at five." },
+      { "role": "Caregiver", "cn": "好的，再见！", "en": "Okay. Bye!" }
+    ]
+  },
+  {
+    "id": "dlg-kid-04",
+    "category": "parenting",
+    "title": "Parent-Teacher Conference",
+    "titleCn": "家长会",
+    "scene": "你参加孩子的家长会。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "感谢您来，孩子数学进步很大。", "en": "Thanks for coming. He's improved a lot in math." },
+      { "role": "You", "cn": "在家我们也多练，有什么建议吗？", "en": "We practice at home too. Any suggestions?" },
+      { "role": "Teacher", "cn": "阅读可以再加强，每天二十分钟。", "en": "Reading could use a boost. Twenty minutes a day." },
+      { "role": "You", "cn": "他在班上和同学相处怎么样？", "en": "How does he get along with classmates?" },
+      { "role": "Teacher", "cn": "很友善，有时上课有点分心。", "en": "Very friendly. Sometimes a bit distracted in class." },
+      { "role": "You", "cn": "我们会和他谈谈，谢谢老师。", "en": "We'll talk to him about it. Thank you." },
+      { "role": "Teacher", "cn": "有问题随时邮件我。", "en": "Email me anytime if you have questions." }
+    ]
+  },
+  {
+    "id": "dlg-kid-05",
+    "category": "parenting",
+    "title": "Playground",
+    "titleCn": "游乐场",
+    "scene": "你在游乐场看着孩子玩，和其他家长聊天。",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "你家孩子几岁？跑得真快！", "en": "How old is yours? He runs fast!" },
+      { "role": "You", "cn": "五岁，精力旺盛，每天要来放风。", "en": "Five. Full of energy. We come here every day." },
+      { "role": "Parent", "cn": "滑梯那边要排队，小心推搡。", "en": "The slide gets crowded. Watch for pushing." },
+      { "role": "You", "cn": "谢谢提醒。你们住附近吗？", "en": "Thanks for the heads-up. Do you live nearby?" },
+      { "role": "Parent", "cn": "三个街区，经常这个点来。", "en": "Three blocks away. We usually come around this time." },
+      { "role": "You", "cn": "那下次可以一起玩。", "en": "Maybe the kids can play together again." },
+      { "role": "Parent", "cn": "好啊，交换个电话？", "en": "Sure. Want to swap numbers?" }
+    ]
+  }
+]

@@ -51,5 +51,39 @@
       { "role": "Friend", "cn": "好啊，我请客！", "en": "Sure, my treat!" },
       { "role": "You", "cn": "那我下次请！", "en": "I'll get it next time!" }
     ]
+  },
+  {
+    "id": "dlg-cafe-04",
+    "category": "cafe",
+    "title": "Wrong Order",
+    "titleCn": "点错饮品",
+    "scene": "店员给你的饮品不对，你去柜台说明。",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我点的是热拿铁，这是冰的。", "en": "Sorry, I ordered a hot latte, but this is iced." },
+      { "role": "Barista", "cn": "非常抱歉，我马上给您重做。", "en": "I'm so sorry. I'll remake it for you right away." },
+      { "role": "You", "cn": "没关系，谢谢。", "en": "No worries. Thank you." },
+      { "role": "Barista", "cn": "还要燕麦奶对吧？", "en": "And that was with oat milk, right?" },
+      { "role": "You", "cn": "对，不加糖。", "en": "Yes, and no sugar, please." },
+      { "role": "Barista", "cn": "好了，这杯是您的，抱歉让您久等。", "en": "Here you go. Sorry for the wait." },
+      { "role": "You", "cn": "谢谢，味道很好！", "en": "Thanks, it tastes great!" }
+    ]
+  },
+  {
+    "id": "dlg-cafe-05",
+    "category": "cafe",
+    "title": "Studying at the Cafe",
+    "titleCn": "在咖啡店学习",
+    "scene": "你在咖啡店自习，需要安静环境。",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "请问哪个区域比较安静？", "en": "Which area is the quietest for studying?" },
+      { "role": "Barista", "cn": "靠里侧的高桌区人少一些。", "en": "The high-top tables in the back are usually quieter." },
+      { "role": "You", "cn": "我待两个小时，需要再点一杯吗？", "en": "I'll be here about two hours. Do I need to order again?" },
+      { "role": "Barista", "cn": "高峰时段建议每小时点一杯。", "en": "During busy hours, we ask for one drink per hour." },
+      { "role": "You", "cn": "好的，那我先来杯美式。", "en": "Okay. I'll start with an Americano." },
+      { "role": "Barista", "cn": "Wi-Fi密码在收据上。", "en": "The Wi-Fi password is on your receipt." },
+      { "role": "You", "cn": "谢谢，环境很舒服。", "en": "Thanks. This place is really cozy." }
+    ]
   }
 ]

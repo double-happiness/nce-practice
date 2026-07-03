@@ -1,0 +1,69 @@
+[
+  {
+    "id": "dlg-ins-01",
+    "category": "insurance",
+    "title": "Car Insurance Claim",
+    "titleCn": "车险理赔",
+    "scene": "你打电话申报车险理赔。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "理赔部门，请说保单号。", "en": "Claims department. Policy number, please." },
+      { "role": "You", "cn": "POL123456，昨天追尾了，对方全责。", "en": "POL one two three four five six. Rear-ended yesterday. Other driver was at fault." },
+      { "role": "Agent", "cn": "有人受伤吗？报警了吗？", "en": "Any injuries? Did you file a police report?" },
+      { "role": "You", "cn": "没人受伤，警察出了报告。", "en": "No injuries. Police filed a report." },
+      { "role": "Agent", "cn": "请上传照片和报告到App，定损师会联系您。", "en": "Upload photos and the report in the app. An adjuster will contact you." },
+      { "role": "You", "cn": "修车有代步车吗？", "en": "Is a rental car covered while mine's in the shop?" },
+      { "role": "Agent", "cn": "您的保单含三十天代步车。", "en": "Your policy includes thirty days of rental." }
+    ]
+  },
+  {
+    "id": "dlg-ins-02",
+    "category": "insurance",
+    "title": "Health Insurance",
+    "titleCn": "医疗保险",
+    "scene": "你打电话问保险是否覆盖某项检查。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "会员服务，会员号请说。", "en": "Member services. Member ID, please." },
+      { "role": "You", "cn": "ID789012，核磁共振保险公司报吗？", "en": "ID seven eight nine zero one two. Is an MRI covered?" },
+      { "role": "Agent", "cn": "需要医生转诊单，自付额两百。", "en": "You need a referral. Your deductible is two hundred." },
+      { "role": "You", "cn": "网内医院有哪些？", "en": "Which hospitals are in-network?" },
+      { "role": "Agent", "cn": "我发短信链接给您查。", "en": "I'll text you a link to search." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-ins-03",
+    "category": "insurance",
+    "title": "Buying Home Insurance",
+    "titleCn": "买房险",
+    "scene": "你买房后咨询房屋保险。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "恭喜新房！需要报价吗？", "en": "Congrats on the new home! Need a quote?" },
+      { "role": "You", "cn": "是的，独栋，一千八百平方英尺。", "en": "Yes. Single-family, about eighteen hundred square feet." },
+      { "role": "Agent", "cn": "洪水险这边要单独买。", "en": "Flood insurance is separate in this area." },
+      { "role": "You", "cn": "年保费大概多少？", "en": "Roughly how much per year?" },
+      { "role": "Agent", "cn": "基本险一年一千二左右。", "en": "About twelve hundred for basic coverage." },
+      { "role": "You", "cn": "好，请发详细条款给我。", "en": "Please send me the full terms." },
+      { "role": "Agent", "cn": "今天下班前邮件您。", "en": "I'll email you before end of day." }
+    ]
+  },
+  {
+    "id": "dlg-ins-04",
+    "category": "insurance",
+    "title": "Travel Insurance",
+    "titleCn": "旅行保险",
+    "scene": "出国前你买旅行保险并咨询理赔范围。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "下个月去欧洲两周，有合适的旅行险吗？", "en": "I'm going to Europe for two weeks next month. Any travel insurance?" },
+      { "role": "Agent", "cn": "含航班延误、行李丢失和医疗。", "en": "It covers flight delays, lost luggage, and medical." },
+      { "role": "You", "cn": "如果取消行程能退吗？", "en": "What if I have to cancel the trip?" },
+      { "role": "Agent", "cn": "买可取消险，生病或紧急情况可赔。", "en": "Get cancel-for-any-reason or illness and emergency coverage." },
+      { "role": "You", "cn": "多少钱？", "en": "How much is it?" },
+      { "role": "Agent", "cn": "您年龄和行程，大概七十九块。", "en": "For your age and trip, about seventy-nine dollars." },
+      { "role": "You", "cn": "好，请帮我办理。", "en": "Okay, sign me up." }
+    ]
+  }
+]

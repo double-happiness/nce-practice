@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-auto-01",
+    "category": "auto",
+    "title": "At the Gas Station",
+    "titleCn": "加油站",
+    "scene": "你在加油站给车加油。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "自己加还是_full service？", "en": "Pumping yourself or full service?" },
+      { "role": "You", "cn": "我自己加，普通汽油。", "en": "I'll pump myself. Regular, please." },
+      { "role": "Attendant", "cn": "请先刷卡或预付里面。", "en": "Please swipe your card or pay inside first." },
+      { "role": "You", "cn": "加满了会自动停吗？", "en": "Will it stop automatically when it's full?" },
+      { "role": "Attendant", "cn": "会的，别加太满。", "en": "Yes, but don't top it off too much." },
+      { "role": "You", "cn": "洗手间在哪里？", "en": "Where's the restroom?" },
+      { "role": "Attendant", "cn": "商店后面，钥匙在柜台。", "en": "Behind the store. Ask for the key at the counter." }
+    ]
+  },
+  {
+    "id": "dlg-auto-02",
+    "category": "auto",
+    "title": "Parking Ticket",
+    "titleCn": "停车罚单",
+    "scene": "你发现车窗上贴了停车罚单。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "怎么了，脸色不太好？", "en": "What's wrong? You look upset." },
+      { "role": "You", "cn": "收到一张停车罚单，七十五块。", "en": "I got a parking ticket. Seventy-five dollars." },
+      { "role": "Friend", "cn": "停错地方了？", "en": "Were you parked in the wrong spot?" },
+      { "role": "You", "cn": "咪表过期了，就差五分钟。", "en": "The meter expired. I was only five minutes late." },
+      { "role": "Friend", "cn": "可以在线申诉试试。", "en": "You could try disputing it online." },
+      { "role": "You", "cn": "十五天内交还能减免吗？", "en": "Is there a discount if I pay within fifteen days?" },
+      { "role": "Friend", "cn": "早点交通常能少罚一点。", "en": "Paying early usually reduces the fine a bit." }
+    ]
+  },
+  {
+    "id": "dlg-auto-03",
+    "category": "auto",
+    "title": "Oil Change",
+    "titleCn": "换机油",
+    "scene": "你带车去保养换机油。",
+    "roles": ["You", "Mechanic"],
+    "turns": [
+      { "role": "Mechanic", "cn": "常规保养还是只换机油？", "en": "Full service or just an oil change?" },
+      { "role": "You", "cn": "换机油和滤芯，检查一下轮胎。", "en": "Oil and filter change. Please check the tires too." },
+      { "role": "Mechanic", "cn": "大概三十分钟，请在休息室等。", "en": "About thirty minutes. Please wait in the lounge." },
+      { "role": "You", "cn": "上次是一万英里前换的。", "en": "Last change was ten thousand miles ago." },
+      { "role": "Mechanic", "cn": "机油颜色偏黑，该换了。前胎磨损均匀。", "en": "The oil is pretty dark. Time for a change. Front tires look even." },
+      { "role": "You", "cn": "一共多少钱？", "en": "How much will it be total?" },
+      { "role": "Mechanic", "cn": "四十九块九，含人工。", "en": "Forty-nine ninety, labor included." }
+    ]
+  },
+  {
+    "id": "dlg-auto-04",
+    "category": "auto",
+    "title": "Asking for a Ride",
+    "titleCn": "搭车",
+    "scene": "你的车坏了，请同事搭车回家。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，今天能搭你的车吗？我车抛锚了。", "en": "Sorry to ask, but could I get a ride today? My car broke down." },
+      { "role": "Colleague", "cn": "没问题，你住哪？", "en": "Sure. Where do you live?" },
+      { "role": "You", "cn": "枫树街123号，顺路吗？", "en": "One twenty-three Maple Street. Is it on your way?" },
+      { "role": "Colleague", "cn": "顺路，我六点下班。", "en": "Yeah, I'm off at six." },
+      { "role": "You", "cn": "太好了，油钱我出。", "en": "Great. I'll chip in for gas." },
+      { "role": "Colleague", "cn": "不用，邻居嘛。", "en": "Don't worry about it." },
+      { "role": "You", "cn": "那改天请你吃饭，谢谢！", "en": "I'll buy you dinner sometime. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-auto-05",
+    "category": "auto",
+    "title": "Renting a Car",
+    "titleCn": "租车",
+    "scene": "你在租车公司取车。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，有预订吗？", "en": "Hello. Do you have a reservation?" },
+      { "role": "You", "cn": "有的，名字张伟，租三天。", "en": "Yes, Zhang Wei. Three days." },
+      { "role": "Agent", "cn": "请出示驾照和信用卡。", "en": "Driver's license and credit card, please." },
+      { "role": "You", "cn": "需要买额外保险吗？", "en": "Do I need to buy extra insurance?" },
+      { "role": "Agent", "cn": "您的信用卡若含租车险可以不买的。", "en": "If your credit card covers rentals, you can skip it." },
+      { "role": "You", "cn": "加满油再还是预付油费？", "en": "Return full or prepay for gas?" },
+      { "role": "Agent", "cn": "建议加满再还，更划算。", "en": "Returning full is usually cheaper." }
+    ]
+  }
+]

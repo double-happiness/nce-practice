@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-svc-01",
+    "category": "services",
+    "title": "Dry Cleaning",
+    "titleCn": "干洗",
+    "scene": "你把西装送去干洗店。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，今天要洗什么？", "en": "Hi, what can we clean for you today?" },
+      { "role": "You", "cn": "这套西装，下周三前要取。", "en": "This suit. I need it by next Wednesday." },
+      { "role": "Clerk", "cn": "袖口有个污渍，我们会重点处理。", "en": "There's a stain on the cuff. We'll treat that." },
+      { "role": "You", "cn": "大概多少钱？", "en": "How much will it be?" },
+      { "role": "Clerk", "cn": "十二块九，加急另收五块。", "en": "Twelve ninety. Rush is five extra." },
+      { "role": "You", "cn": "不用加急，周三取就行。", "en": "No rush. Wednesday is fine." },
+      { "role": "Clerk", "cn": "拿好这张票，凭票取衣。", "en": "Here's your ticket. Bring it when you pick up." }
+    ]
+  },
+  {
+    "id": "dlg-svc-02",
+    "category": "services",
+    "title": "At the Dentist",
+    "titleCn": "看牙医",
+    "scene": "你定期去牙医那里洗牙。",
+    "roles": ["You", "Dentist"],
+    "turns": [
+      { "role": "Dentist", "cn": "最近刷牙有出血吗？", "en": "Any bleeding when you brush lately?" },
+      { "role": "You", "cn": "偶尔有一点，右边磨牙敏感。", "en": "A little sometimes. My upper right molar is sensitive." },
+      { "role": "Dentist", "cn": "我看看……牙龈有点发炎，今天先洗牙。", "en": "Let me take a look. Your gums are a bit inflamed. We'll clean them today." },
+      { "role": "You", "cn": "需要打麻药吗？", "en": "Will I need a shot?" },
+      { "role": "Dentist", "cn": "洗牙不用，如果补牙再说。", "en": "Not for cleaning. We'll see if you need one for a filling." },
+      { "role": "You", "cn": "好的，麻烦轻一点。", "en": "Okay. Please go easy on me." },
+      { "role": "Dentist", "cn": "放松，很快就好。", "en": "Just relax. This won't take long." }
+    ]
+  },
+  {
+    "id": "dlg-svc-03",
+    "category": "services",
+    "title": "DMV License Renewal",
+    "titleCn": "换驾照",
+    "scene": "你去车管所换驾照。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，办什么业务？", "en": "Hi, what brings you in today?" },
+      { "role": "You", "cn": "驾照快过期了，想renew。", "en": "My license is expiring. I'd like to renew it." },
+      { "role": "Clerk", "cn": "请填表，做视力测试。", "en": "Please fill out this form and take the vision test." },
+      { "role": "You", "cn": "需要重新考路考吗？", "en": "Do I need to take the road test again?" },
+      { "role": "Clerk", "cn": "不用，视力过了就行。", "en": "No, just pass the vision screening." },
+      { "role": "You", "cn": "新驾照多久能寄到？", "en": "How long until the new license arrives?" },
+      { "role": "Clerk", "cn": "两周左右，这期间用纸质的临时证。", "en": "About two weeks. Use this paper temp license until then." }
+    ]
+  },
+  {
+    "id": "dlg-svc-04",
+    "category": "services",
+    "title": "Weather Small Talk",
+    "titleCn": "聊天气",
+    "scene": "你在公交站和人闲聊天气。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "这雨下得真大！", "en": "It's really pouring out there!" },
+      { "role": "You", "cn": "是啊，我没带伞，要淋湿了。", "en": "Yeah. I didn't bring an umbrella. I'm going to get soaked." },
+      { "role": "Stranger", "cn": "气象说下午会停。", "en": "They said it'll clear up this afternoon." },
+      { "role": "You", "cn": "希望如此，我待会还要出门。", "en": "I hope so. I have to go out later." },
+      { "role": "Stranger", "cn": "便利店有伞卖，几块钱一把。", "en": "The convenience store sells umbrellas for a few bucks." },
+      { "role": "You", "cn": "好主意，车来了，再见！", "en": "Good idea. Here comes my bus. Bye!" },
+      { "role": "Stranger", "cn": "再见，小心路滑！", "en": "Bye. Watch your step!" }
+    ]
+  },
+  {
+    "id": "dlg-svc-05",
+    "category": "services",
+    "title": "Getting Glasses",
+    "titleCn": "配眼镜",
+    "scene": "你在眼镜店验光配镜。",
+    "roles": ["You", "Optician"],
+    "turns": [
+      { "role": "Optician", "cn": "最近看远处模糊吗？", "en": "Has distance vision been blurry lately?" },
+      { "role": "You", "cn": "开车时看路牌不清楚。", "en": "Road signs are hard to read when I drive." },
+      { "role": "Optician", "cn": "请遮住左眼，读这一行。", "en": "Cover your left eye and read this line." },
+      { "role": "You", "cn": "E、F、P、T、O、Z。", "en": "E, F, P, T, O, Z." },
+      { "role": "Optician", "cn": "轻度近视，镜片加防蓝光吗？", "en": "Mild myopia. Want blue-light filtering lenses?" },
+      { "role": "You", "cn": "要，多久能取？", "en": "Yes. How long until they're ready?" },
+      { "role": "Optician", "cn": "一周，镜框可以现在挑。", "en": "One week. You can pick frames now." }
+    ]
+  },
+  {
+    "id": "dlg-svc-06",
+    "category": "services",
+    "title": "Tax Preparation",
+    "titleCn": "报税",
+    "scene": "你去找会计师帮忙报税。",
+    "roles": ["You", "Accountant"],
+    "turns": [
+      { "role": "Accountant", "cn": "请把W-2和1099表格给我。", "en": "Please bring your W-2 and any 1099 forms." },
+      { "role": "You", "cn": "都在这里，去年有房租收入。", "en": "Here they are. I had rental income last year." },
+      { "role": "Accountant", "cn": "有房贷利息单据吗？", "en": "Do you have mortgage interest statements?" },
+      { "role": "You", "cn": "银行一月寄的，在这。", "en": "The bank sent them in January. Here." },
+      { "role": "Accountant", "cn": "大概能退一千二，一周出结果。", "en": "You'll likely get about twelve hundred back. Results in a week." },
+      { "role": "You", "cn": "费用多少？", "en": "What's your fee?" },
+      { "role": "Accountant", "cn": "这种复杂度一百五。", "en": "A hundred fifty for this level of complexity." }
+    ]
+  }
+]

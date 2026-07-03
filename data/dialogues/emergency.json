@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-emer-01",
+    "category": "emergency",
+    "title": "Calling 911",
+    "titleCn": "拨打911",
+    "scene": "路边有人摔倒，你拨打紧急电话。",
+    "roles": ["You", "Operator"],
+    "turns": [
+      { "role": "Operator", "cn": "911，请问什么紧急情况？", "en": "911, what's your emergency?" },
+      { "role": "You", "cn": "有人摔倒了，好像昏迷了！", "en": "Someone fell down and seems unconscious!" },
+      { "role": "Operator", "cn": "请告诉我您的具体位置。", "en": "Please tell me your exact location." },
+      { "role": "You", "cn": "第五大道和42街交叉口，北边人行道。", "en": "Fifth Avenue and Forty-Second Street, north sidewalk." },
+      { "role": "Operator", "cn": "救护车已派出，他会呼吸吗？", "en": "An ambulance is on the way. Is he breathing?" },
+      { "role": "You", "cn": "有呼吸，但不要乱动他。", "en": "Yes, he's breathing. We're not moving him." },
+      { "role": "Operator", "cn": "做得好，救援人员马上到。", "en": "Good. Help is almost there." }
+    ]
+  },
+  {
+    "id": "dlg-emer-02",
+    "category": "emergency",
+    "title": "Car Accident",
+    "titleCn": "车祸",
+    "scene": "你轻微追尾，和对方司机交涉。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "你没事吧？", "en": "Are you okay?" },
+      { "role": "You", "cn": "我没事，非常抱歉，是我的错。", "en": "I'm fine. I'm so sorry, it was my fault." },
+      { "role": "Driver", "cn": "我们交换一下保险信息吧。", "en": "Let's exchange insurance information." },
+      { "role": "You", "cn": "好的，这是我的驾照和保险卡。", "en": "Sure. Here's my license and insurance card." },
+      { "role": "Driver", "cn": "我拍几张照片留证。", "en": "I'll take some photos for the record." },
+      { "role": "You", "cn": "需要报警吗？", "en": "Should we call the police?" },
+      { "role": "Driver", "cn": "损坏不大，不用了，我联系保险公司。", "en": "The damage is minor. No need. I'll contact my insurer." }
+    ]
+  },
+  {
+    "id": "dlg-emer-03",
+    "category": "emergency",
+    "title": "Lost Wallet",
+    "titleCn": "钱包丢了",
+    "scene": "你在商场发现钱包丢了，向保安求助。",
+    "roles": ["You", "Security"],
+    "turns": [
+      { "role": "You", "cn": "你好，我的钱包好像丢了。", "en": "Hi, I think I lost my wallet." },
+      { "role": "Security", "cn": "什么时候最后见到的？什么颜色？", "en": "When did you last have it? What color is it?" },
+      { "role": "You", "cn": "二十分钟前在美食广场，黑色皮夹。", "en": "About twenty minutes ago at the food court. Black leather." },
+      { "role": "Security", "cn": "我查一下失物招领……还没有。", "en": "Let me check lost and found. Nothing yet." },
+      { "role": "You", "cn": "里面有身份证和信用卡，需要挂失。", "en": "It has my ID and credit cards. I need to cancel them." },
+      { "role": "Security", "cn": "请先填这份遗失报告，有消息会联系您。", "en": "Please fill out this report. We'll call if it turns up." },
+      { "role": "You", "cn": "谢谢，这是我的电话。", "en": "Thank you. Here's my phone number." }
+    ]
+  },
+  {
+    "id": "dlg-emer-04",
+    "category": "emergency",
+    "title": "Fire Alarm",
+    "titleCn": "火警疏散",
+    "scene": "办公楼火警响起，保安指挥疏散。",
+    "roles": ["You", "Guard"],
+    "turns": [
+      { "role": "Guard", "cn": "请走楼梯，不要使用电梯！", "en": "Please use the stairs. Do not use the elevator!" },
+      { "role": "You", "cn": "出口在哪里？", "en": "Where's the nearest exit?" },
+      { "role": "Guard", "cn": "往前左转，到一楼集合点。", "en": "Go straight and turn left. Assembly point is on the first floor." },
+      { "role": "You", "cn": "是真火警还是演习？", "en": "Is this a real fire or a drill?" },
+      { "role": "Guard", "cn": "目前不确定，请先撤离。", "en": "We're not sure yet. Please evacuate first." },
+      { "role": "You", "cn": "好的，我这就下去。", "en": "Okay, I'm heading down now." },
+      { "role": "Guard", "cn": "不要跑，扶好扶手。", "en": "Don't run. Hold the handrail." }
+    ]
+  },
+  {
+    "id": "dlg-emer-05",
+    "category": "emergency",
+    "title": "Lost Child",
+    "titleCn": "孩子走丢",
+    "scene": "商场里孩子不见了，你向服务台求助。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "我的孩子走丢了，大概七岁，穿红色外套。", "en": "I lost my child. He's about seven, wearing a red jacket." },
+      { "role": "Staff", "cn": "别慌，请说一下孩子姓名和您的电话。", "en": "Stay calm. What's his name and your phone number?" },
+      { "role": "You", "cn": "叫小明，我手机138开头。", "en": "His name is Xiaoming. My number starts with one three eight." },
+      { "role": "Staff", "cn": "我们广播寻人，保安已在各出口查看。", "en": "We'll make an announcement. Security is checking every exit." },
+      { "role": "You", "cn": "他可能会去玩具区。", "en": "He might head to the toy section." },
+      { "role": "Staff", "cn": "有人带孩子到服务台了，请确认是不是。", "en": "Someone just brought a child to the desk. Please see if it's him." },
+      { "role": "You", "cn": "是他！太感谢了！", "en": "That's him! Thank you so much!" }
+    ]
+  }
+]

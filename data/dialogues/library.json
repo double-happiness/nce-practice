@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-lib-01",
+    "category": "library",
+    "title": "Getting a Library Card",
+    "titleCn": "办借书证",
+    "scene": "你去公共图书馆办借书证。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "Librarian", "cn": "您好，今天需要什么帮助？", "en": "Hello. How can I help you today?" },
+      { "role": "You", "cn": "我想办一张借书证。", "en": "I'd like to get a library card." },
+      { "role": "Librarian", "cn": "请出示身份证和地址证明。", "en": "I'll need your ID and proof of address." },
+      { "role": "You", "cn": "水电账单可以吗？", "en": "Will a utility bill work?" },
+      { "role": "Librarian", "cn": "可以，填一下这张申请表。", "en": "Yes. Please fill out this application." },
+      { "role": "You", "cn": "一次最多借几本书？", "en": "How many books can I borrow at a time?" },
+      { "role": "Librarian", "cn": "二十本，借期三周。", "en": "Twenty items, for three weeks." }
+    ]
+  },
+  {
+    "id": "dlg-lib-02",
+    "category": "library",
+    "title": "Finding a Book",
+    "titleCn": "找书",
+    "scene": "你在图书馆找一本特定的书。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "You", "cn": "请问《1984》在哪里？", "en": "Excuse me, where can I find Nineteen Eighty-Four?" },
+      { "role": "Librarian", "cn": "我查一下……小说区，索书号823。", "en": "Let me check. Fiction section, call number 823." },
+      { "role": "You", "cn": "小说区在哪一层？", "en": "Which floor is the fiction section on?" },
+      { "role": "Librarian", "cn": "二楼，靠窗那边。", "en": "Second floor, near the windows." },
+      { "role": "You", "cn": "如果借走了能预约吗？", "en": "If it's checked out, can I place a hold?" },
+      { "role": "Librarian", "cn": "可以，在网上或前台办理。", "en": "Yes, online or at the front desk." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-lib-03",
+    "category": "library",
+    "title": "Returning Overdue Books",
+    "titleCn": "还过期书",
+    "scene": "你还书时发现已经过期了。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "You", "cn": "我来还这几本书。", "en": "I'm returning these books." },
+      { "role": "Librarian", "cn": "有一本过期了五天。", "en": "One of them is five days overdue." },
+      { "role": "You", "cn": "罚金多少？", "en": "How much is the fine?" },
+      { "role": "Librarian", "cn": "每天十美分，一共五十美分。", "en": "Ten cents per day, so fifty cents total." },
+      { "role": "You", "cn": "可以刷卡付吗？", "en": "Can I pay with a card?" },
+      { "role": "Librarian", "cn": "可以，逾期超过十美元才停借。", "en": "Yes. Borrowing is blocked only if fines exceed ten dollars." },
+      { "role": "You", "cn": "好的，以后我会准时还。", "en": "Okay. I'll return them on time from now on." }
+    ]
+  },
+  {
+    "id": "dlg-lib-04",
+    "category": "library",
+    "title": "Using the Computer",
+    "titleCn": "用公共电脑",
+    "scene": "你想用图书馆的电脑查资料。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "请问怎么用公共电脑？", "en": "How do I use the public computers?" },
+      { "role": "Staff", "cn": "用借书证登录，每次一小时。", "en": "Log in with your library card. One hour per session." },
+      { "role": "You", "cn": "可以打印吗？", "en": "Can I print documents?" },
+      { "role": "Staff", "cn": "黑白每页十美分，彩色五十美分。", "en": "Black and white is ten cents a page, color is fifty." },
+      { "role": "You", "cn": "有Wi-Fi吗？", "en": "Is there Wi-Fi?" },
+      { "role": "Staff", "cn": "有，密码在入门处告示牌上。", "en": "Yes. The password is on the sign near the entrance." },
+      { "role": "You", "cn": "明白了，谢谢！", "en": "Got it. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-lib-05",
+    "category": "library",
+    "title": "Interlibrary Loan",
+    "titleCn": "馆际互借",
+    "scene": "你要的书本分馆没有，咨询馆际互借。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "You", "cn": "这本书你们有吗？", "en": "Do you have this book?" },
+      { "role": "Librarian", "cn": "本分馆没有，但可以馆际互借。", "en": "Not at this branch, but we can request it from another library." },
+      { "role": "You", "cn": "大概多久能到？", "en": "How long does that usually take?" },
+      { "role": "Librarian", "cn": "一到两周，到了会发邮件通知。", "en": "One to two weeks. We'll email you when it arrives." },
+      { "role": "You", "cn": "需要额外费用吗？", "en": "Is there an extra fee?" },
+      { "role": "Librarian", "cn": "免费，但逾期罚金照常。", "en": "It's free, but late fees still apply." },
+      { "role": "You", "cn": "太好了，请帮我申请。", "en": "Great. Please place the request for me." }
+    ]
+  }
+]

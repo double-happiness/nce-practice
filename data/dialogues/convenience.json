@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-store-01",
+    "category": "convenience",
+    "title": "Buying at 7-Eleven",
+    "titleCn": "便利店购物",
+    "scene": "你在便利店买早餐和咖啡。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "早上好，要点什么？", "en": "Good morning. What can I get you?" },
+      { "role": "You", "cn": "一个三明治和一大杯咖啡。", "en": "A sandwich and a large coffee, please." },
+      { "role": "Clerk", "cn": "要加热吗？奶和糖自己加。", "en": "Want it heated? Cream and sugar are over there." },
+      { "role": "You", "cn": "加热，谢谢。再加一瓶水。", "en": "Yes, please. And a bottle of water." },
+      { "role": "Clerk", "cn": "一共九块二。", "en": "That'll be nine twenty." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card, please. Thanks." },
+      { "role": "Clerk", "cn": "请拿好，祝你有美好的一天。", "en": "Here you go. Have a great day." }
+    ]
+  },
+  {
+    "id": "dlg-store-02",
+    "category": "convenience",
+    "title": "ATM at the Store",
+    "titleCn": "取现金",
+    "scene": "便利店里的取款机吞卡了，你向店员求助。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，取款机把我的卡吞了。", "en": "Hi, the ATM ate my card." },
+      { "role": "Clerk", "cn": "机器不是我们管的，要打银行电话。", "en": "We don't manage that machine. You'll need to call your bank." },
+      { "role": "You", "cn": "银行电话在机器上有吗？", "en": "Is the bank's number on the machine?" },
+      { "role": "Clerk", "cn": "有，贴在机器侧面。", "en": "Yes, it's on the side of the machine." },
+      { "role": "You", "cn": "能借我用一下电话吗？", "en": "Could I use your phone to call?" },
+      { "role": "Clerk", "cn": "可以，请到柜台这边。", "en": "Sure, come to the counter." },
+      { "role": "You", "cn": "非常感谢！", "en": "Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-store-03",
+    "category": "convenience",
+    "title": "Asking for a Product",
+    "titleCn": "找商品",
+    "scene": "你在便利店找某种电池。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "请问有AA电池吗？", "en": "Do you carry double-A batteries?" },
+      { "role": "Clerk", "cn": "在收银台后面，要几节？", "en": "Behind the register. How many do you need?" },
+      { "role": "You", "cn": "一包四节的就行。", "en": "One four-pack is fine." },
+      { "role": "Clerk", "cn": "四块九，要袋子吗？", "en": "Four ninety-nine. Need a bag?" },
+      { "role": "You", "cn": "不用，顺便问下附近有药店吗？", "en": "No thanks. By the way, is there a pharmacy nearby?" },
+      { "role": "Clerk", "cn": "出门右转，两个路口就有。", "en": "Turn right out the door, two blocks down." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-store-04",
+    "category": "convenience",
+    "title": "Late Night Purchase",
+    "titleCn": "深夜购物",
+    "scene": "深夜你去便利店买应急用品。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "还需要别的吗？", "en": "Will that be all?" },
+      { "role": "You", "cn": "你们二十四小时营业吗？", "en": "Are you open twenty-four hours?" },
+      { "role": "Clerk", "cn": "是的，全年无休。", "en": "Yes, we're open every day." },
+      { "role": "You", "cn": "那太好了。有充电线吗？iPhone的。", "en": "Great. Do you have phone chargers? For iPhone." },
+      { "role": "Clerk", "cn": "有，在货架最下面。", "en": "Yes, on the bottom shelf over there." },
+      { "role": "You", "cn": "这个和手机一起付。", "en": "I'll take this with the rest." },
+      { "role": "Clerk", "cn": "一共十六块七。", "en": "Sixteen seventy total." }
+    ]
+  },
+  {
+    "id": "dlg-store-05",
+    "category": "convenience",
+    "title": "ATM at Store",
+    "titleCn": "店内取现",
+    "scene": "你在便利店用店内ATM取现金遇到问题。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "ATM吞卡了，能帮忙吗？", "en": "The ATM kept my card. Can you help?" },
+      { "role": "Clerk", "cn": "请稍等，我联系银行热线。", "en": "One moment. I'll call the bank hotline." },
+      { "role": "You", "cn": "钱已经扣了但机器没吐钞。", "en": "The money was deducted but the machine didn't dispense cash." },
+      { "role": "Clerk", "cn": "记下交易编号，银行会核查。", "en": "Write down the transaction ID. The bank will investigate." },
+      { "role": "You", "cn": "一般要多久退回？", "en": "How long does a refund usually take?" },
+      { "role": "Clerk", "cn": "三到五个工作日，卡会寄给您。", "en": "Three to five business days. They'll mail your card back." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  }
+]

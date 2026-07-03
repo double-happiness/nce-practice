@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-hosp-01",
+    "category": "hospital",
+    "title": "Seeing a Doctor",
+    "titleCn": "看医生",
+    "scene": "你感冒发烧，去医院看门诊。",
+    "roles": ["You", "Doctor"],
+    "turns": [
+      { "role": "Doctor", "cn": "哪里不舒服？", "en": "What seems to be the problem?" },
+      { "role": "You", "cn": "我发烧咳嗽三天了。", "en": "I've had a fever and cough for three days." },
+      { "role": "Doctor", "cn": "张嘴说「啊」，我检查一下喉咙。", "en": "Open your mouth and say ah. Let me check your throat." },
+      { "role": "You", "cn": "喉咙很痛，吃东西也困难。", "en": "My throat hurts a lot. It's hard to swallow." },
+      { "role": "Doctor", "cn": "是病毒感染，多休息多喝水。", "en": "It's a viral infection. Get plenty of rest and drink fluids." },
+      { "role": "You", "cn": "需要吃抗生素吗？", "en": "Do I need antibiotics?" },
+      { "role": "Doctor", "cn": "不需要，这是处方药，一天三次。", "en": "No. Take this prescription three times a day." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-02",
+    "category": "hospital",
+    "title": "Emergency Room",
+    "titleCn": "急诊",
+    "scene": "你摔伤了脚踝，来急诊室。",
+    "roles": ["You", "Nurse"],
+    "turns": [
+      { "role": "Nurse", "cn": "怎么了？哪里受伤？", "en": "What happened? Where does it hurt?" },
+      { "role": "You", "cn": "我摔了一跤，脚踝肿了。", "en": "I fell down and my ankle is swollen." },
+      { "role": "Nurse", "cn": "疼痛等级一到十，你打几分？", "en": "On a scale of one to ten, how bad is the pain?" },
+      { "role": "You", "cn": "大概七八分，走路很疼。", "en": "About seven or eight. It hurts to walk." },
+      { "role": "Nurse", "cn": "请坐轮椅，医生马上来。", "en": "Please take a wheelchair. The doctor will see you shortly." },
+      { "role": "You", "cn": "需要拍X光吗？", "en": "Will I need an X-ray?" },
+      { "role": "Nurse", "cn": "医生会判断，先填一下这张表。", "en": "The doctor will decide. Please fill out this form first." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-03",
+    "category": "hospital",
+    "title": "Making an Appointment",
+    "titleCn": "预约挂号",
+    "scene": "你打电话预约体检。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "社区医院，有什么可以帮您？", "en": "Community Clinic. How can I help you?" },
+      { "role": "You", "cn": "我想预约年度体检。", "en": "I'd like to schedule an annual physical exam." },
+      { "role": "Receptionist", "cn": "您有保险卡号吗？", "en": "Do you have your insurance card number?" },
+      { "role": "You", "cn": "有的，下周四上午有空吗？", "en": "Yes. Do you have anything next Thursday morning?" },
+      { "role": "Receptionist", "cn": "九点可以，需要空腹。", "en": "Nine o'clock works. You'll need to fast beforehand." },
+      { "role": "You", "cn": "好的，需要提前多久到？", "en": "Okay. How early should I arrive?" },
+      { "role": "Receptionist", "cn": "提前十五分钟，带身份证和保险卡。", "en": "Fifteen minutes early, with your ID and insurance card." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-04",
+    "category": "hospital",
+    "title": "Picking Up Prescription",
+    "titleCn": "取药",
+    "scene": "你在医院药房取处方药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "您好，取药吗？", "en": "Hi, are you picking up a prescription?" },
+      { "role": "You", "cn": "是的，姓张。", "en": "Yes, last name Zhang." },
+      { "role": "Pharmacist", "cn": "一天两次，饭后服用，共七天。", "en": "Take it twice a day after meals for seven days." },
+      { "role": "You", "cn": "有什么副作用吗？", "en": "Are there any side effects?" },
+      { "role": "Pharmacist", "cn": "可能会犯困，不要开车。", "en": "It may cause drowsiness. Don't drive." },
+      { "role": "You", "cn": "能和感冒药一起吃吗？", "en": "Can I take it with cold medicine?" },
+      { "role": "Pharmacist", "cn": "最好先问我，有些不能混用。", "en": "Ask me first. Some combinations aren't safe." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-05",
+    "category": "hospital",
+    "title": "Follow-up Visit",
+    "titleCn": "复诊",
+    "scene": "你按预约来医院复查，向医生说明恢复情况。",
+    "roles": ["You", "Doctor"],
+    "turns": [
+      { "role": "Doctor", "cn": "张先生，上次感冒后感觉怎么样？", "en": "Mr. Zhang, how have you been since the cold?" },
+      { "role": "You", "cn": "咳嗽好多了，但偶尔还会头晕。", "en": "The cough is much better, but I still feel dizzy sometimes." },
+      { "role": "Doctor", "cn": "药还在吃吗？一天几次？", "en": "Are you still taking the medicine? How often?" },
+      { "role": "You", "cn": "一天三次，昨天忘了一次。", "en": "Three times a day. I missed one dose yesterday." },
+      { "role": "Doctor", "cn": "尽量按时吃。我听听心肺。", "en": "Try to stay on schedule. Let me listen to your heart and lungs." },
+      { "role": "You", "cn": "还需要再抽血吗？", "en": "Do I need another blood test?" },
+      { "role": "Doctor", "cn": "不用，两周后若无症状可以停药。", "en": "No. You can stop the medicine in two weeks if you feel fine." }
+    ]
+  }
+]

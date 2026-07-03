@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-school-01",
+    "category": "school",
+    "title": "First Day of Class",
+    "titleCn": "开学第一天",
+    "scene": "新学期第一天，老师自我介绍并点名。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "欢迎大家！请先自我介绍一下。", "en": "Welcome, everyone! Please introduce yourselves." },
+      { "role": "You", "cn": "我叫张伟，来自北京，很高兴认识大家。", "en": "My name is Zhang Wei. I'm from Beijing. Nice to meet you all." },
+      { "role": "Teacher", "cn": "很好。课程大纲在网站上，请下载。", "en": "Great. The syllabus is on the website. Please download it." },
+      { "role": "You", "cn": "老师，教材在哪里买？", "en": "Professor, where can I buy the textbook?" },
+      { "role": "Teacher", "cn": "学校书店或网上都有。", "en": "The campus bookstore or online." },
+      { "role": "You", "cn": "作业什么时候交？", "en": "When are the assignments due?" },
+      { "role": "Teacher", "cn": "每周日晚上十一点前提交。", "en": "Every Sunday by eleven PM." }
+    ]
+  },
+  {
+    "id": "dlg-school-02",
+    "category": "school",
+    "title": "Asking the Teacher",
+    "titleCn": "请教老师",
+    "scene": "课后你留下来问老师问题。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "You", "cn": "老师，我能问您一个问题吗？", "en": "Professor, could I ask you a question?" },
+      { "role": "Teacher", "cn": "当然，请说。", "en": "Of course. Go ahead." },
+      { "role": "You", "cn": "我不太理解今天讲的那个公式。", "en": "I don't quite understand the formula from today's lecture." },
+      { "role": "Teacher", "cn": "哪一部分不清楚？", "en": "Which part is unclear?" },
+      { "role": "You", "cn": "第三步的推导过程。", "en": "The derivation in step three." },
+      { "role": "Teacher", "cn": "我画个图给你解释，周三office hour也可以来。", "en": "Let me draw it out for you. You can also come to office hours on Wednesday." },
+      { "role": "You", "cn": "谢谢老师，我明白了！", "en": "Thank you. That makes sense now!" }
+    ]
+  },
+  {
+    "id": "dlg-school-03",
+    "category": "school",
+    "title": "Group Project",
+    "titleCn": "小组作业",
+    "scene": "你和同学讨论小组项目分工。",
+    "roles": ["You", "Classmate"],
+    "turns": [
+      { "role": "Classmate", "cn": "我们得在周五前交报告。", "en": "We need to turn in the report by Friday." },
+      { "role": "You", "cn": "我来负责写引言部分吧。", "en": "I can handle the introduction section." },
+      { "role": "Classmate", "cn": "好，我做数据分析和图表。", "en": "Sounds good. I'll do the data analysis and charts." },
+      { "role": "You", "cn": "周三晚上开个线上会议碰一下？", "en": "Want to have a Zoom meeting Wednesday night?" },
+      { "role": "Classmate", "cn": "八点可以吗？", "en": "Does eight o'clock work?" },
+      { "role": "You", "cn": "可以，我把草稿先发群里。", "en": "Yes. I'll share my draft in the group chat." },
+      { "role": "Classmate", "cn": "完美，一起加油！", "en": "Perfect. Let's do this!" }
+    ]
+  },
+  {
+    "id": "dlg-school-04",
+    "category": "school",
+    "title": "Library Study Room",
+    "titleCn": "预约研讨室",
+    "scene": "你在图书馆前台预约小组研讨室。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "You", "cn": "你好，我想预约一间研讨室。", "en": "Hi, I'd like to book a study room." },
+      { "role": "Librarian", "cn": "几个人？用多久？", "en": "How many people, and for how long?" },
+      { "role": "You", "cn": "四个人，两个小时，今天下午三点。", "en": "Four people, two hours, starting at three this afternoon." },
+      { "role": "Librarian", "cn": "三楼302有空，需要学生证。", "en": "Room 302 on the third floor is open. I'll need your student ID." },
+      { "role": "You", "cn": "可以带食物进去吗？", "en": "Are we allowed to bring food in?" },
+      { "role": "Librarian", "cn": "只限饮料，不能带外卖。", "en": "Drinks only, no takeout food." },
+      { "role": "You", "cn": "明白了，谢谢！", "en": "Got it. Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-school-05",
+    "category": "school",
+    "title": "Borrowing Notes",
+    "titleCn": "借课堂笔记",
+    "scene": "你生病缺课，向同学借笔记。",
+    "roles": ["You", "Classmate"],
+    "turns": [
+      { "role": "You", "cn": "昨天你没来上课吗？我缺了一节。", "en": "Were you in class yesterday? I missed it." },
+      { "role": "Classmate", "cn": "我在。老师讲了新章节。", "en": "I was there. The professor covered a new chapter." },
+      { "role": "You", "cn": "能借我看一下笔记吗？", "en": "Could I borrow your notes?" },
+      { "role": "Classmate", "cn": "可以，我今晚拍给你。", "en": "Sure. I'll take photos and send them tonight." },
+      { "role": "You", "cn": "作业也改了吗？", "en": "Did the homework change too?" },
+      { "role": "Classmate", "cn": "延到周五，多做两道练习题。", "en": "It's due Friday now. Two extra practice problems." },
+      { "role": "You", "cn": "太感谢了，请你喝奶茶！", "en": "Thanks so much. I'll buy you bubble tea!" }
+    ]
+  },
+  {
+    "id": "dlg-school-06",
+    "category": "school",
+    "title": "Extension Request",
+    "titleCn": "申请延期",
+    "scene": "你因故无法按时交作业，发邮件后当面跟老师说明。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "You", "cn": "老师，关于论文延期的事，我想当面说一下。", "en": "Professor, about the extension on my paper, I'd like to explain in person." },
+      { "role": "Teacher", "cn": "请坐。邮件我看了，家里出事？", "en": "Have a seat. I read your email. A family emergency?" },
+      { "role": "You", "cn": "是的，我不得不回老家一周。", "en": "Yes. I had to go back home for a week." },
+      { "role": "Teacher", "cn": "可以延一周，但不能再晚了。", "en": "I can give you one more week, but no later than that." },
+      { "role": "You", "cn": "需要补交什么材料吗？", "en": "Do I need to submit any supporting documents?" },
+      { "role": "Teacher", "cn": "不用，按时发到系统里就行。", "en": "No. Just upload it to the system on time." },
+      { "role": "You", "cn": "谢谢老师理解！", "en": "Thank you for understanding!" }
+    ]
+  }
+]

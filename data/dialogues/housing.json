@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-house-01",
+    "category": "housing",
+    "title": "Looking for an Apartment",
+    "titleCn": "看房租房",
+    "scene": "你去看一套出租公寓。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "欢迎，这套一室一厅，月租一千八。", "en": "Welcome. This is a one-bedroom, eighteen hundred a month." },
+      { "role": "You", "cn": "水电费包含在房租里吗？", "en": "Are utilities included in the rent?" },
+      { "role": "Agent", "cn": "不含，暖气另算，大概每月八十。", "en": "No, heat is separate, about eighty a month." },
+      { "role": "You", "cn": "可以养宠物吗？", "en": "Are pets allowed?" },
+      { "role": "Agent", "cn": "可以养猫，狗需要额外押金。", "en": "Cats are fine. Dogs require an extra deposit." },
+      { "role": "You", "cn": "什么时候可以入住？", "en": "When is it available?" },
+      { "role": "Agent", "cn": "下月一号，要先交一个月押金。", "en": "The first of next month. One month's deposit required." }
+    ]
+  },
+  {
+    "id": "dlg-house-02",
+    "category": "housing",
+    "title": "Reporting a Repair",
+    "titleCn": "报修",
+    "scene": "空调坏了，你联系物业报修。",
+    "roles": ["You", "Maintenance"],
+    "turns": [
+      { "role": "Maintenance", "cn": "物业维修，请问什么问题？", "en": "Building maintenance. What's the issue?" },
+      { "role": "You", "cn": "空调不制冷了，房间很热。", "en": "The AC isn't cooling. The apartment is really hot." },
+      { "role": "Maintenance", "cn": "您的房号是多少？", "en": "What's your unit number?" },
+      { "role": "You", "cn": "802，过滤器上个月刚换过。", "en": "802. I changed the filter last month." },
+      { "role": "Maintenance", "cn": "我下午两点过去看看。", "en": "I'll come by around two PM." },
+      { "role": "You", "cn": "需要在家等吗？", "en": "Do I need to be home?" },
+      { "role": "Maintenance", "cn": "最好有人在，方便开门。", "en": "It's better if someone's there to let me in." }
+    ]
+  },
+  {
+    "id": "dlg-house-03",
+    "category": "housing",
+    "title": "Setting Up Utilities",
+    "titleCn": "开通水电",
+    "scene": "你搬进新家，打电话开通电费账户。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "电力公司客服，有什么可以帮您？", "en": "Power company. How can I help you?" },
+      { "role": "You", "cn": "我搬了新家，想开通电账户。", "en": "I just moved and need to set up an electricity account." },
+      { "role": "Agent", "cn": "请提供新地址和社会安全号后四位。", "en": "May I have your new address and the last four of your Social Security number?" },
+      { "role": "You", "cn": "456 Oak Avenue，后四位是1234。", "en": "Four fifty-six Oak Avenue. Last four digits are one two three four." },
+      { "role": "Agent", "cn": "从明天起生效，首月账单下月寄出。", "en": "Service starts tomorrow. Your first bill comes next month." },
+      { "role": "You", "cn": "可以自动扣款吗？", "en": "Can I set up auto-pay?" },
+      { "role": "Agent", "cn": "可以，我帮您登记银行账户。", "en": "Yes. I'll register your bank account for that." }
+    ]
+  },
+  {
+    "id": "dlg-house-04",
+    "category": "housing",
+    "title": "Moving Out",
+    "titleCn": "退房",
+    "scene": "租约到期，你和房东办理退房。",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "今天来检查一下房子状况。", "en": "I'm here to inspect the apartment today." },
+      { "role": "You", "cn": "我已经打扫干净了，钥匙在这。", "en": "I've cleaned everything. Here are the keys." },
+      { "role": "Landlord", "cn": "墙上有个小洞，要扣一点押金。", "en": "There's a small hole in the wall. We'll deduct a little from the deposit." },
+      { "role": "You", "cn": "多少？我可以自己补。", "en": "How much? I can fix it myself." },
+      { "role": "Landlord", "cn": "五十美元，或者您修好也行。", "en": "Fifty dollars, or you can repair it." },
+      { "role": "You", "cn": "我周末来补，补好再退押金可以吗？", "en": "I'll patch it this weekend. Can I get the deposit back then?" },
+      { "role": "Landlord", "cn": "可以，修好后一周内退款。", "en": "Sure. You'll get the refund within a week after that." }
+    ]
+  },
+  {
+    "id": "dlg-house-05",
+    "category": "housing",
+    "title": "Laundry Room",
+    "titleCn": "洗衣房",
+    "scene": "你在公寓洗衣房，洗衣机被占满了。",
+    "roles": ["You", "Resident"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这台洗衣机是您用的吗？", "en": "Excuse me, is this your laundry in the washer?" },
+      { "role": "Resident", "cn": "是的，还有五分钟就好。", "en": "Yes, about five more minutes." },
+      { "role": "You", "cn": "烘干机有空吗？", "en": "Are any dryers available?" },
+      { "role": "Resident", "cn": "左边那台刚空出来。", "en": "The one on the left just opened up." },
+      { "role": "You", "cn": "洗衣粉在哪儿买？", "en": "Where do people buy detergent around here?" },
+      { "role": "Resident", "cn": "一楼自动售货机，一块五一次。", "en": "There's a vending machine on the first floor. A dollar fifty per use." },
+      { "role": "You", "cn": "好的，谢谢！", "en": "Okay, thanks!" }
+    ]
+  }
+]

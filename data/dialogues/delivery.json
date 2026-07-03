@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dlg-del-01",
+    "category": "delivery",
+    "title": "Food at the Door",
+    "titleCn": "外卖送到门口",
+    "scene": "外卖员到了，你下楼取餐。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "您好，您的DoorDash订单。", "en": "Hi, I have your DoorDash order." },
+      { "role": "You", "cn": "谢谢！是张三的订单吗？", "en": "Thanks! Is this for Zhang San?" },
+      { "role": "Driver", "cn": "对，泰国菜，请核对一下。", "en": "Yes, Thai food. Please double-check it." },
+      { "role": "You", "cn": "没问题，需要给小费吗？", "en": "Looks good. Should I tip in cash?" },
+      { "role": "Driver", "cn": "App里已经给了，谢谢！", "en": "You already tipped in the app. Thank you!" },
+      { "role": "You", "cn": "好的，辛苦了，再见！", "en": "Great. Have a good one!" }
+    ]
+  },
+  {
+    "id": "dlg-del-02",
+    "category": "delivery",
+    "title": "Wrong Order",
+    "titleCn": "外卖送错",
+    "scene": "外卖送错了，你联系骑手。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "你好，这不是我点的，我点的是牛肉面。", "en": "Hi, this isn't my order. I ordered beef noodle soup." },
+      { "role": "Driver", "cn": "抱歉，可能拿混了，我回去换。", "en": "Sorry, I must have mixed it up. I'll go swap it." },
+      { "role": "You", "cn": "大概要多久？我已经很饿了。", "en": "How long will that take? I'm pretty hungry." },
+      { "role": "Driver", "cn": "十五分钟，餐厅会重做一份。", "en": "About fifteen minutes. The restaurant will remake it." },
+      { "role": "You", "cn": "好的，到了请给我打电话。", "en": "Okay. Please call me when you're back." },
+      { "role": "Driver", "cn": "一定，再次抱歉！", "en": "Will do. Sorry again!" }
+    ]
+  },
+  {
+    "id": "dlg-del-03",
+    "category": "delivery",
+    "title": "Delivery Instructions",
+    "titleCn": "留言给骑手",
+    "scene": "你打电话给外卖员说明送餐细节。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "喂，我是送您外卖的，找不到门。", "en": "Hi, I'm delivering your food. I can't find the entrance." },
+      { "role": "You", "cn": "走侧门，在停车场那边，我下来接你。", "en": "Use the side door by the parking lot. I'll come down." },
+      { "role": "Driver", "cn": "好的，我穿红色夹克。", "en": "Okay. I'm wearing a red jacket." },
+      { "role": "You", "cn": "看到了，在这边！", "en": "I see you. Over here!" },
+      { "role": "Driver", "cn": "给您，趁热吃。", "en": "Here you go. Enjoy it while it's hot." },
+      { "role": "You", "cn": "谢谢，路上小心！", "en": "Thanks. Drive safe!" }
+    ]
+  },
+  {
+    "id": "dlg-del-04",
+    "category": "delivery",
+    "title": "Grocery Delivery",
+    "titleCn": "生鲜配送",
+    "scene": "超市生鲜送到家，有商品缺货。",
+    "roles": ["You", "Shopper"],
+    "turns": [
+      { "role": "Shopper", "cn": "您好，牛奶没货了，能换脱脂的吗？", "en": "Hi, they're out of milk. Can I substitute skim?" },
+      { "role": "You", "cn": "可以，鸡蛋有吗？", "en": "Sure. Do you have eggs?" },
+      { "role": "Shopper", "cn": "有，一打大的。香蕉太青，要换吗？", "en": "Yes, a dozen large. The bananas are green. Want a swap?" },
+      { "role": "You", "cn": "青的也行，放门口就行，我在开会。", "en": "Green is fine. Leave it at the door. I'm in a meeting." },
+      { "role": "Shopper", "cn": "好的，到了发照片给您。", "en": "Okay. I'll send a photo when I arrive." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-del-05",
+    "category": "delivery",
+    "title": "Late Delivery",
+    "titleCn": "外卖迟到",
+    "scene": "外卖迟了四十分钟，你询问情况。",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "Support", "cn": "客服中心，请问有什么可以帮您？", "en": "Customer support. How can I help?" },
+      { "role": "You", "cn": "我的订单晚了四十分钟，还没送到。", "en": "My order is forty minutes late and still hasn't arrived." },
+      { "role": "Support", "cn": "抱歉，我查一下……骑手还在路上。", "en": "I'm sorry. Let me check. The driver is still on the way." },
+      { "role": "You", "cn": "能退款吗？饭都凉了。", "en": "Can I get a refund? The food will be cold." },
+      { "role": "Support", "cn": "可以部分退款，并送您一张五元优惠券。", "en": "We can offer a partial refund and a five-dollar coupon." },
+      { "role": "You", "cn": "好吧，请处理一下。", "en": "Fine. Please go ahead with that." }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-drive-01",
+    "category": "driving",
+    "title": "First Driving Lesson",
+    "titleCn": "第一次练车",
+    "scene": "你第一次上驾校练车，教练在副驾驶。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "先调座椅和后视镜，系安全带。", "en": "Adjust your seat and mirrors first. Buckle up." },
+      { "role": "You", "cn": "好了，现在可以启动吗？", "en": "All set. Can I start the engine now?" },
+      { "role": "Instructor", "cn": "轻踩刹车，挂D档，慢慢松刹车。", "en": "Press the brake lightly, shift to drive, and ease off the brake slowly." },
+      { "role": "You", "cn": "速度多快合适？", "en": "How fast should I go?" },
+      { "role": "Instructor", "cn": "停车场里十五迈以内，看两边。", "en": "Under fifteen in the lot. Watch both sides." },
+      { "role": "You", "cn": "转弯前要打灯对吧？", "en": "I should signal before turning, right?" },
+      { "role": "Instructor", "cn": "对，提前三十英尺打转向灯。", "en": "Yes. Signal at least thirty feet before you turn." }
+    ]
+  },
+  {
+    "id": "dlg-drive-02",
+    "category": "driving",
+    "title": "Parallel Parking",
+    "titleCn": "侧方停车",
+    "scene": "教练教你练习侧方停车。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "侧方停车是路考重点，慢慢来。", "en": "Parallel parking is a big part of the road test. Take your time." },
+      { "role": "You", "cn": "我先打右灯靠边？", "en": "Should I signal right and pull alongside first?" },
+      { "role": "Instructor", "cn": "对，倒车时看后视镜和右肩盲点。", "en": "Yes. When backing up, check your mirror and blind spot over your right shoulder." },
+      { "role": "You", "cn": "离路边多远合适？", "en": "How close should I be to the curb?" },
+      { "role": "Instructor", "cn": "十二英寸以内，车身平行。", "en": "Within twelve inches, and parallel to the curb." },
+      { "role": "You", "cn": "这次好像歪了。", "en": "I think I'm crooked this time." },
+      { "role": "Instructor", "cn": "没关系，开出来再练一次。", "en": "That's okay. Pull out and try again." }
+    ]
+  },
+  {
+    "id": "dlg-drive-03",
+    "category": "driving",
+    "title": "DMV Road Test",
+    "titleCn": "路考",
+    "scene": "你在参加 DMV 路考。",
+    "roles": ["You", "Examiner"],
+    "turns": [
+      { "role": "Examiner", "cn": "请出示练车许可和保险证明。", "en": "Show me your learner's permit and proof of insurance." },
+      { "role": "You", "cn": "在这里。需要我演示灯光吗？", "en": "Here you go. Do you need me to demonstrate the lights?" },
+      { "role": "Examiner", "cn": "不用，前方路口左转。", "en": "No. Make a left at the intersection ahead." },
+      { "role": "You", "cn": "好的，先看镜子再打灯。", "en": "Okay. Mirror, signal, then turn." },
+      { "role": "Examiner", "cn": "限速二十五，注意学校区域。", "en": "Speed limit twenty-five. School zone ahead." },
+      { "role": "You", "cn": "已减速。接下来做什么？", "en": "I've slowed down. What's next?" },
+      { "role": "Examiner", "cn": "前面侧方停车。", "en": "Parallel park up ahead." }
+    ]
+  },
+  {
+    "id": "dlg-drive-04",
+    "category": "driving",
+    "title": "Getting Pulled Over",
+    "titleCn": "被交警拦下",
+    "scene": "警察拦下你的车，你配合检查。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "晚上好，知道为什么拦您吗？", "en": "Good evening. Do you know why I pulled you over?" },
+      { "role": "You", "cn": "不清楚，抱歉。", "en": "I'm not sure. Sorry about that." },
+      { "role": "Officer", "cn": "尾灯坏了，请出示驾照和保险。", "en": "Your tail light is out. License and insurance, please." },
+      { "role": "You", "cn": "给您，在手套箱里。", "en": "Here they are. They're in the glove box." },
+      { "role": "Officer", "cn": "请留在车里，我查一下。", "en": "Please stay in the vehicle. I'll be right back." },
+      { "role": "You", "cn": "好的，我会尽快修好灯。", "en": "Okay. I'll get the light fixed as soon as possible." },
+      { "role": "Officer", "cn": "这次警告，修好再上路。", "en": "This is a warning. Fix it before you drive again." }
+    ]
+  },
+  {
+    "id": "dlg-drive-05",
+    "category": "driving",
+    "title": "Buying a Used Car",
+    "titleCn": "买二手车",
+    "scene": "你看了一辆二手车，和卖家谈条件。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "Seller", "cn": "2018年的，八万英里，八千五百块。", "en": "It's a 2018 with eighty thousand miles. Eighty-five hundred." },
+      { "role": "You", "cn": "能试驾吗？保养记录有吗？", "en": "Can I test-drive it? Do you have service records?" },
+      { "role": "Seller", "cn": "可以，记录在手套箱。", "en": "Sure. Records are in the glove box." },
+      { "role": "You", "cn": "刹车有点响，能便宜五百吗？", "en": "The brakes squeak a bit. Would you take five hundred off?" },
+      { "role": "Seller", "cn": "最低八千，今天付现金。", "en": "Eight thousand firm if you pay cash today." },
+      { "role": "You", "cn": "好，我明天带机械师再看一眼。", "en": "Okay. I'll bring a mechanic to look at it tomorrow." },
+      { "role": "Seller", "cn": "没问题，下午两点可以吗？", "en": "No problem. Does two PM work?" }
+    ]
+  }
+]

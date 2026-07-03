@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-bank-01",
+    "category": "bank",
+    "title": "Opening an Account",
+    "titleCn": "开户",
+    "scene": "你刚到美国，去银行开支票账户。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "Banker", "cn": "您好，今天需要什么服务？", "en": "Hello. How can I help you today?" },
+      { "role": "You", "cn": "我想开一个支票账户。", "en": "I'd like to open a checking account." },
+      { "role": "Banker", "cn": "请出示护照和地址证明。", "en": "I'll need your passport and proof of address." },
+      { "role": "You", "cn": "这是我的租房合同，可以吗？", "en": "Here's my lease agreement. Will that work?" },
+      { "role": "Banker", "cn": "可以。最低存款二十五美元。", "en": "Yes. The minimum deposit is twenty-five dollars." },
+      { "role": "You", "cn": "有月费吗？", "en": "Is there a monthly fee?" },
+      { "role": "Banker", "cn": "学生账户免月费，这是您的借记卡。", "en": "Student accounts have no monthly fee. Here's your debit card." }
+    ]
+  },
+  {
+    "id": "dlg-bank-02",
+    "category": "bank",
+    "title": "ATM Problem",
+    "titleCn": "取款机故障",
+    "scene": "你的卡被取款机吞了，进银行求助。",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "You", "cn": "你好，我的卡卡在ATM里了。", "en": "Hi, my card got stuck in the ATM." },
+      { "role": "Teller", "cn": "哪一台？什么时候的事？", "en": "Which machine? When did it happen?" },
+      { "role": "You", "cn": "门口那台，大概十分钟前。", "en": "The one by the entrance, about ten minutes ago." },
+      { "role": "Teller", "cn": "我查一下……卡已经取出来了。", "en": "Let me check. We've already retrieved it." },
+      { "role": "You", "cn": "钱有扣吗？我取了两百。", "en": "Was any money deducted? I was withdrawing two hundred." },
+      { "role": "Teller", "cn": "没有扣款，您可以重新取。", "en": "No charge went through. You can try again." },
+      { "role": "You", "cn": "谢谢，吓死我了。", "en": "Thanks. That was scary!" }
+    ]
+  },
+  {
+    "id": "dlg-bank-03",
+    "category": "bank",
+    "title": "Wire Transfer",
+    "titleCn": "汇款",
+    "scene": "你要往国内汇款，咨询手续费。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "我想电汇五千美元到中国。", "en": "I need to wire five thousand dollars to China." },
+      { "role": "Banker", "cn": "请填写收款人姓名和银行信息。", "en": "Please fill in the recipient's name and bank details." },
+      { "role": "You", "cn": "手续费多少？几天到账？", "en": "What's the fee, and how long does it take?" },
+      { "role": "Banker", "cn": "手续费四十五，三到五个工作日。", "en": "Forty-five dollars, three to five business days." },
+      { "role": "You", "cn": "汇率按今天的算吗？", "en": "Is the exchange rate based on today's rate?" },
+      { "role": "Banker", "cn": "对，按处理时的实时汇率。", "en": "Yes, the rate at the time of processing." },
+      { "role": "You", "cn": "好的，请帮我办理。", "en": "Okay, please go ahead." }
+    ]
+  },
+  {
+    "id": "dlg-bank-04",
+    "category": "bank",
+    "title": "Lost Debit Card",
+    "titleCn": "挂失银行卡",
+    "scene": "你丢了借记卡，打电话挂失。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "银行客服，请问有什么可以帮您？", "en": "Bank customer service. How may I help you?" },
+      { "role": "You", "cn": "我的借记卡丢了，需要挂失。", "en": "I lost my debit card and need to report it." },
+      { "role": "Agent", "cn": "请提供您的姓名和卡号后四位。", "en": "May I have your name and the last four digits of the card?" },
+      { "role": "You", "cn": "张伟，后四位是8823。", "en": "Zhang Wei, last four digits are 8823." },
+      { "role": "Agent", "cn": "卡已冻结，新卡五到七天寄到。", "en": "The card is now frozen. A new one will arrive in five to seven days." },
+      { "role": "You", "cn": "这期间能用手机银行吗？", "en": "Can I still use mobile banking in the meantime?" },
+      { "role": "Agent", "cn": "可以，转账和缴费不受影响。", "en": "Yes, transfers and bill pay still work." }
+    ]
+  },
+  {
+    "id": "dlg-bank-05",
+    "category": "bank",
+    "title": "Depositing a Check",
+    "titleCn": "存支票",
+    "scene": "你拿到工资支票，到银行柜台存入账户。",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "You", "cn": "你好，我想存一张支票。", "en": "Hi, I'd like to deposit a check." },
+      { "role": "Teller", "cn": "存到哪个账户？请填背面并签字。", "en": "Which account? Please endorse the back and sign it." },
+      { "role": "You", "cn": "支票账户，全部存入。", "en": "My checking account, the full amount." },
+      { "role": "Teller", "cn": "一千二百美元，今天能到账一部分。", "en": "Twelve hundred dollars. Part of it may be available today." },
+      { "role": "You", "cn": "全部到账要多久？", "en": "How long until the full amount clears?" },
+      { "role": "Teller", "cn": "通常两个工作日，手机银行可查进度。", "en": "Usually two business days. You can track it in mobile banking." },
+      { "role": "You", "cn": "好的，需要收据吗？", "en": "Okay. Could I have a receipt?" }
+    ]
+  }
+]

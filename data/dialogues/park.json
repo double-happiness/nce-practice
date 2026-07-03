@@ -51,5 +51,39 @@
       { "role": "You", "cn": "需要我帮您一起找吗？", "en": "Would you like me to help you look?" },
       { "role": "Parent", "cn": "不用了，真的太感谢了！", "en": "No, that's okay. I really appreciate it!" }
     ]
+  },
+  {
+    "id": "dlg-park-04",
+    "category": "park",
+    "title": "Jogging in the Park",
+    "titleCn": "公园慢跑",
+    "scene": "你在公园跑步，向路人问路找洗手间。",
+    "roles": ["You", "Jogger"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，请问洗手间在哪里？", "en": "Sorry to bother you, where's the restroom?" },
+      { "role": "Jogger", "cn": "在那边小亭子后面，大概走两分钟。", "en": "Behind that pavilion over there, about a two-minute walk." },
+      { "role": "You", "cn": "谢谢！这个公园跑步道多长？", "en": "Thanks! How long is the running trail here?" },
+      { "role": "Jogger", "cn": "绕湖一圈大概三英里。", "en": "It's about three miles around the lake." },
+      { "role": "You", "cn": "风景真不错，我每天都来。", "en": "The scenery is beautiful. I come here every day." },
+      { "role": "Jogger", "cn": "是啊，早上人少一些。", "en": "Yeah, it's less crowded in the morning." },
+      { "role": "You", "cn": "好的，谢谢，我继续跑了！", "en": "Got it. Thanks, I'll keep running!" }
+    ]
+  },
+  {
+    "id": "dlg-park-05",
+    "category": "park",
+    "title": "Renting a Bike",
+    "titleCn": "租自行车",
+    "scene": "你在公园门口租自行车骑行。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "你好！要租自行车吗？", "en": "Hi! Would you like to rent a bike?" },
+      { "role": "You", "cn": "是的，租两个小时多少钱？", "en": "Yes. How much for two hours?" },
+      { "role": "Attendant", "cn": "十五美元，含头盔。", "en": "Fifteen dollars, helmet included." },
+      { "role": "You", "cn": "有双人自行车吗？", "en": "Do you have any tandem bikes?" },
+      { "role": "Attendant", "cn": "有，在那边，二十五美元两小时。", "en": "Yes, over there. Twenty-five for two hours." },
+      { "role": "You", "cn": "那我租单人这辆吧。", "en": "I'll take this single one, then." },
+      { "role": "Attendant", "cn": "好的，请在四点前还到这边。", "en": "Sure. Please return it here by four o'clock." }
+    ]
   }
 ]

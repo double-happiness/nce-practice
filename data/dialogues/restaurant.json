@@ -52,5 +52,56 @@
       { "role": "You", "cn": "刷卡，谢谢。服务很好！", "en": "Card, please. The service was excellent!" },
       { "role": "Waiter", "cn": "谢谢光临，祝您晚安！", "en": "Thank you for coming. Have a wonderful evening!" }
     ]
+  },
+  {
+    "id": "dlg-rest-04",
+    "category": "restaurant",
+    "title": "Fast Food Order",
+    "titleCn": "快餐点餐",
+    "scene": "你在快餐店柜台点餐。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "你好，要点什么？", "en": "Hi, what can I get for you?" },
+      { "role": "You", "cn": "一个巨无霸套餐，可乐换成雪碧。", "en": "A Big Mac combo, and swap the Coke for Sprite." },
+      { "role": "Cashier", "cn": "要大薯还是中薯？", "en": "Large fries or medium?" },
+      { "role": "You", "cn": "大薯，再加一份麦乐鸡。", "en": "Large fries, and add an order of chicken nuggets." },
+      { "role": "Cashier", "cn": "在这吃还是带走？", "en": "For here or to go?" },
+      { "role": "You", "cn": "带走，谢谢。", "en": "To go, please." },
+      { "role": "Cashier", "cn": "一共十二块四，请稍等。", "en": "That'll be twelve forty. It'll be right out." }
+    ]
+  },
+  {
+    "id": "dlg-rest-05",
+    "category": "restaurant",
+    "title": "Making a Reservation",
+    "titleCn": "预订座位",
+    "scene": "你打电话预订餐厅座位。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "您好，意大利餐厅，有什么可以帮您？", "en": "Hello, Italian Bistro. How may I help you?" },
+      { "role": "You", "cn": "我想订今晚七点的位子，四个人。", "en": "I'd like to make a reservation for four at seven tonight." },
+      { "role": "Host", "cn": "请问您贵姓？", "en": "May I have your name, please?" },
+      { "role": "You", "cn": "张伟。能靠窗吗？", "en": "Zhang Wei. Could we get a table by the window?" },
+      { "role": "Host", "cn": "我尽量安排，有特殊要求吗？", "en": "I'll do my best. Any special requests?" },
+      { "role": "You", "cn": "有一位朋友素食，谢谢。", "en": "One of us is vegetarian, thank you." },
+      { "role": "Host", "cn": "好的，今晚七点，四位，张先生。", "en": "Perfect. Seven o'clock, party of four, Mr. Zhang." }
+    ]
+  },
+  {
+    "id": "dlg-rest-06",
+    "category": "restaurant",
+    "title": "Wrong Order",
+    "titleCn": "上错菜",
+    "scene": "服务员端上的菜不是你点的，你需要礼貌说明。",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这好像不是我点的。", "en": "Excuse me, I don't think this is what I ordered." },
+      { "role": "Waiter", "cn": "非常抱歉，您点的是？", "en": "I'm so sorry. What did you order?" },
+      { "role": "You", "cn": "我要的是烤鸡，不是这份鱼。", "en": "I ordered the grilled chicken, not this fish dish." },
+      { "role": "Waiter", "cn": "我马上帮您换，请稍等。", "en": "I'll get that fixed right away. One moment, please." },
+      { "role": "You", "cn": "没关系，不过请确认一下没有花生。", "en": "That's fine, but please make sure there are no peanuts." },
+      { "role": "Waiter", "cn": "会在厨房注明，送一杯饮料致歉。", "en": "I'll note that in the kitchen. We'll bring a complimentary drink." },
+      { "role": "You", "cn": "谢谢，麻烦你了。", "en": "Thank you. I appreciate it." }
+    ]
   }
 ]

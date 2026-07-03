@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-dir-01",
+    "category": "directions",
+    "title": "Finding a Street",
+    "titleCn": "找街道",
+    "scene": "你在街上迷路了，向路人问路。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，请问百老汇大街怎么走？", "en": "Excuse me, how do I get to Broadway?" },
+      { "role": "Stranger", "cn": "往前直走两个路口，然后右转。", "en": "Go straight for two blocks, then turn right." },
+      { "role": "You", "cn": "走路大概要多久？", "en": "How long does it take on foot?" },
+      { "role": "Stranger", "cn": "大概十分钟。", "en": "About ten minutes." },
+      { "role": "You", "cn": "这附近有地铁站吗？", "en": "Is there a subway station nearby?" },
+      { "role": "Stranger", "cn": "有，百老汇大街那头就有一个。", "en": "Yes, there's one at the end of Broadway." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-02",
+    "category": "directions",
+    "title": "Left or Right",
+    "titleCn": "左转还是右转",
+    "scene": "你在十字路口，不确定该往哪边走。",
+    "roles": ["You", "Shopkeeper"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，中央车站是在这边吗？", "en": "Sorry, is Grand Central Station this way?" },
+      { "role": "Shopkeeper", "cn": "不是，你得往回走，在第二个红绿灯左转。", "en": "No, you need to go back and turn left at the second light." },
+      { "role": "You", "cn": "是左边那条路吗？", "en": "The road on the left?" },
+      { "role": "Shopkeeper", "cn": "对，一直走到底就能看到。", "en": "Yes, keep going until you see it." },
+      { "role": "You", "cn": "远不远？我在赶时间。", "en": "Is it far? I'm in a hurry." },
+      { "role": "Shopkeeper", "cn": "走路十五分钟，打车五分钟。", "en": "Fifteen minutes walking, five by taxi." },
+      { "role": "You", "cn": "明白了，非常感谢！", "en": "Got it. Thanks a lot!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-03",
+    "category": "directions",
+    "title": "Inside a Building",
+    "titleCn": "大楼里问路",
+    "scene": "你在一栋办公大楼里找会议室。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "你好，请问1208会议室在哪？", "en": "Hi, where is conference room 1208?" },
+      { "role": "Receptionist", "cn": "十二楼，出电梯右转。", "en": "Twelfth floor. Turn right out of the elevator." },
+      { "role": "You", "cn": "访客需要登记吗？", "en": "Do I need to sign in as a visitor?" },
+      { "role": "Receptionist", "cn": "请在这本子上写名字和公司。", "en": "Please write your name and company in this book." },
+      { "role": "You", "cn": "洗手间在哪一层？", "en": "Which floor are the restrooms on?" },
+      { "role": "Receptionist", "cn": "每层电梯口旁边都有。", "en": "On every floor, next to the elevators." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-04",
+    "category": "directions",
+    "title": "In a Shopping Mall",
+    "titleCn": "商场里问路",
+    "scene": "你在商场里找一家店。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "请问苹果专卖店怎么走？", "en": "Excuse me, how do I get to the Apple Store?" },
+      { "role": "Staff", "cn": "三楼，坐扶梯上去，左转。", "en": "Third floor. Take the escalator up and turn left." },
+      { "role": "You", "cn": "美食广场在哪？", "en": "Where's the food court?" },
+      { "role": "Staff", "cn": "四楼，扶梯正对面。", "en": "Fourth floor, right across from the escalator." },
+      { "role": "You", "cn": "商场几点关门？", "en": "What time does the mall close?" },
+      { "role": "Staff", "cn": "晚上九点。", "en": "Nine PM." },
+      { "role": "You", "cn": "好的，谢谢！", "en": "Okay, thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-05",
+    "category": "directions",
+    "title": "Which Bus to Take",
+    "titleCn": "问坐哪路车",
+    "scene": "你在公交站，不确定该坐哪趟车。",
+    "roles": ["You", "Commuter"],
+    "turns": [
+      { "role": "You", "cn": "你好，去唐人街坐哪路车？", "en": "Hi, which bus goes to Chinatown?" },
+      { "role": "Commuter", "cn": "M15，往市中心方向。", "en": "The M15, heading downtown." },
+      { "role": "You", "cn": "在这站上车吗？", "en": "Do I get on at this stop?" },
+      { "role": "Commuter", "cn": "对，大概五分钟来一班。", "en": "Yes. It comes about every five minutes." },
+      { "role": "You", "cn": "到哪站下车？", "en": "Which stop should I get off at?" },
+      { "role": "Commuter", "cn": "运河街，我到了可以提醒你。", "en": "Canal Street. I can let you know when we get there." },
+      { "role": "You", "cn": "那太感谢了！", "en": "That would be great. Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-06",
+    "category": "directions",
+    "title": "Completely Lost",
+    "titleCn": "完全迷路",
+    "scene": "手机没电了，你完全不知道自己在哪。",
+    "roles": ["You", "Police Officer"],
+    "turns": [
+      { "role": "You", "cn": "警官您好，我迷路了，能帮我吗？", "en": "Officer, I'm lost. Could you help me?" },
+      { "role": "Police Officer", "cn": "您要去哪里？有地址吗？", "en": "Where are you trying to go? Do you have an address?" },
+      { "role": "You", "cn": "我住万豪酒店，手机没电了。", "en": "I'm staying at the Marriott. My phone died." },
+      { "role": "Police Officer", "cn": "酒店就在六个街区外，我指给您看。", "en": "The hotel is six blocks from here. I'll point you the way." },
+      { "role": "You", "cn": "步行能到吗？", "en": "Can I walk there?" },
+      { "role": "Police Officer", "cn": "可以，沿这条街一直走，看到大钟楼就快到了。", "en": "Yes. Go straight down this street until you see the big clock tower." },
+      { "role": "You", "cn": "非常感谢您的帮助！", "en": "Thank you very much for your help!" }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-fun-01",
+    "category": "entertainment",
+    "title": "Buying Movie Tickets",
+    "titleCn": "买电影票",
+    "scene": "你在电影院售票处买票。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，看哪场？", "en": "Hi, which showtime?" },
+      { "role": "You", "cn": "七点那场动作片，两张。", "en": "The seven o'clock action movie, two tickets." },
+      { "role": "Clerk", "cn": "中间靠后还是前排？", "en": "Middle back or closer to the front?" },
+      { "role": "You", "cn": "中间靠后吧，有学生折扣吗？", "en": "Middle back, please. Any student discount?" },
+      { "role": "Clerk", "cn": "出示学生证减两元，一共二十六。", "en": "Two off with student ID. Twenty-six total." },
+      { "role": "You", "cn": "能买爆米花套餐吗？", "en": "Can I add a popcorn combo?" },
+      { "role": "Clerk", "cn": "加十二块，七号厅在这边。", "en": "Twelve more. Theater seven is this way." }
+    ]
+  },
+  {
+    "id": "dlg-fun-02",
+    "category": "entertainment",
+    "title": "At the Museum",
+    "titleCn": "参观博物馆",
+    "scene": "你在博物馆前台咨询。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "成人票多少钱？", "en": "How much is admission for adults?" },
+      { "role": "Staff", "cn": "二十五，周三晚上免费。", "en": "Twenty-five. It's free on Wednesday evenings." },
+      { "role": "You", "cn": "今天有特殊展览吗？", "en": "Are there any special exhibits today?" },
+      { "role": "Staff", "cn": "三楼有古埃及展，含在门票里。", "en": "Ancient Egypt on the third floor, included in admission." },
+      { "role": "You", "cn": "可以拍照吗？", "en": "Are photos allowed?" },
+      { "role": "Staff", "cn": "一般展区可以，不要开闪光灯。", "en": "Yes in most areas. No flash, please." },
+      { "role": "You", "cn": "语音导览在哪租？", "en": "Where can I rent an audio guide?" }
+    ]
+  },
+  {
+    "id": "dlg-fun-03",
+    "category": "entertainment",
+    "title": "Concert Tickets",
+    "titleCn": "演唱会门票",
+    "scene": "你在线下票务点买演唱会票。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "哪位艺人的演出？", "en": "Which artist's show?" },
+      { "role": "You", "cn": "下周五泰勒·斯威夫特的，还有票吗？", "en": "Taylor Swift next Friday. Any tickets left?" },
+      { "role": "Agent", "cn": "只剩看台后排，每张一百二。", "en": "Only upper deck left, a hundred twenty each." },
+      { "role": "You", "cn": "买两张连座的。", "en": "I'll take two seats together." },
+      { "role": "Agent", "cn": "电子票发您邮箱，凭手机入场。", "en": "E-tickets to your email. Show your phone at the gate." },
+      { "role": "You", "cn": "开场几点？", "en": "What time does it start?" },
+      { "role": "Agent", "cn": "七点半，建议六点半到。", "en": "Seven thirty. I'd arrive by six thirty." }
+    ]
+  },
+  {
+    "id": "dlg-fun-04",
+    "category": "entertainment",
+    "title": "Bowling with Friends",
+    "titleCn": "打保龄球",
+    "scene": "你和朋友去保龄球馆。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "几位？玩多久？", "en": "How many people, and how long?" },
+      { "role": "You", "cn": "四个人，两小时。", "en": "Four of us, two hours." },
+      { "role": "Staff", "cn": "鞋码多少？租鞋每人五块。", "en": "Shoe sizes? Rental is five per person." },
+      { "role": "You", "cn": "八九十十一，我们要轻球。", "en": "Eight, nine, ten, eleven. We'd like lighter balls." },
+      { "role": "Staff", "cn": "6号道空着，屏幕会记分。", "en": "Lane six is open. The screen keeps score." },
+      { "role": "You", "cn": "能点披萨到球道吗？", "en": "Can we order pizza to the lane?" },
+      { "role": "Staff", "cn": "可以，菜单在桌上。", "en": "Yes. Menu's on the table." }
+    ]
+  },
+  {
+    "id": "dlg-fun-05",
+    "category": "entertainment",
+    "title": "Streaming at Home",
+    "titleCn": "在家看剧",
+    "scene": "你和室友商量晚上看什么。",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "今晚看啥？我找到了一部新剧。", "en": "What should we watch? I found a new series." },
+      { "role": "You", "cn": "悬疑的还是喜剧？我脑子累了。", "en": "Thriller or comedy? My brain is fried." },
+      { "role": "Roommate", "cn": "喜剧吧，八集，每集半小时。", "en": "Comedy. Eight episodes, thirty minutes each." },
+      { "role": "You", "cn": "行，我爆米花已经微波好了。", "en": "Sure. I already microwaved popcorn." },
+      { "role": "Roommate", "cn": "用谁的账号？我那边登不上了。", "en": "Whose account? Mine won't log in." },
+      { "role": "You", "cn": "用我的，别开太多设备。", "en": "Use mine. Don't stream on too many devices." },
+      { "role": "Roommate", "cn": "好，第一集开始了！", "en": "Okay. Episode one is starting!" }
+    ]
+  }
+]

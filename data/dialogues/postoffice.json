@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-post-01",
+    "category": "postoffice",
+    "title": "Sending a Package",
+    "titleCn": "寄包裹",
+    "scene": "你在邮局寄包裹给国内家人。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，寄国内还是国际？", "en": "Hi, domestic or international?" },
+      { "role": "You", "cn": "寄到中国，最快要多久？", "en": "To China. What's the fastest option?" },
+      { "role": "Clerk", "cn": "特快大概五到七天，标准件两周。", "en": "Express is about five to seven days. Standard is two weeks." },
+      { "role": "You", "cn": "这个盒子五磅，特快多少钱？", "en": "This box is five pounds. How much for express?" },
+      { "role": "Clerk", "cn": "六十八美元，要填海关申报单。", "en": "Sixty-eight dollars. You'll need to fill out a customs form." },
+      { "role": "You", "cn": "里面是衣服和零食，价值大概五十美元。", "en": "It's clothes and snacks, worth about fifty dollars." },
+      { "role": "Clerk", "cn": "好的，这是追踪号码。", "en": "Okay. Here's your tracking number." }
+    ]
+  },
+  {
+    "id": "dlg-post-02",
+    "category": "postoffice",
+    "title": "Picking Up a Package",
+    "titleCn": "取包裹",
+    "scene": "你收到通知去邮局取包裹。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "取件吗？请出示通知单和证件。", "en": "Picking up a package? Notice slip and ID, please." },
+      { "role": "You", "cn": "给您，是黄色通知单。", "en": "Here you go. It's the yellow slip." },
+      { "role": "Clerk", "cn": "请在这里签名。", "en": "Please sign here." },
+      { "role": "You", "cn": "包裹能再保留几天吗？我周末没空。", "en": "Can you hold it a few more days? I wasn't free this weekend." },
+      { "role": "Clerk", "cn": "免费保留十五天，超期会退回。", "en": "We hold it fifteen days for free. After that it goes back." },
+      { "role": "You", "cn": "好的，我今天就拿走。", "en": "Okay, I'll take it today." },
+      { "role": "Clerk", "cn": "给您，小心有点重。", "en": "Here you go. Careful, it's a bit heavy." }
+    ]
+  },
+  {
+    "id": "dlg-post-03",
+    "category": "postoffice",
+    "title": "Buying Stamps",
+    "titleCn": "买邮票",
+    "scene": "你要寄几封信，去邮局买邮票。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，我要寄三封信到美国国内。", "en": "Hi, I need to mail three letters domestically." },
+      { "role": "Clerk", "cn": "普通信还是挂号？", "en": "Regular or certified mail?" },
+      { "role": "You", "cn": "普通就行，邮票多少钱？", "en": "Regular is fine. How much are stamps?" },
+      { "role": "Clerk", "cn": "一张六十八美分，三张两美元零四。", "en": "Sixty-eight cents each, two oh four for three." },
+      { "role": "You", "cn": "邮箱在哪里？", "en": "Where's the mailbox?" },
+      { "role": "Clerk", "cn": "出门左手边蓝色那个。", "en": "The blue one on your left as you exit." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-post-04",
+    "category": "postoffice",
+    "title": "Package Delivery at Door",
+    "titleCn": "快递上门",
+    "scene": "快递员送货，你在家签收。",
+    "roles": ["You", "Courier"],
+    "turns": [
+      { "role": "Courier", "cn": "您好，有您的包裹，请签收。", "en": "Hi, I have a package for you. Please sign here." },
+      { "role": "You", "cn": "好的，能放门口吗？我在开会。", "en": "Sure. Can you leave it by the door? I'm in a meeting." },
+      { "role": "Courier", "cn": "需要本人签收，麻烦开一下门。", "en": "It requires a signature. Could you open the door?" },
+      { "role": "You", "cn": "来了，放这儿就行。", "en": "One second. You can leave it right here." },
+      { "role": "Courier", "cn": "请在这签个名。", "en": "Just sign on this line." },
+      { "role": "You", "cn": "好了，谢谢。", "en": "Done. Thanks." },
+      { "role": "Courier", "cn": "祝您有美好的一天！", "en": "Have a great day!" }
+    ]
+  },
+  {
+    "id": "dlg-post-05",
+    "category": "postoffice",
+    "title": "Changing Your Address",
+    "titleCn": "改邮寄地址",
+    "scene": "你搬家了，去邮局办理地址转递。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，我搬家了，想办理邮件转递。", "en": "Hi, I moved and need to forward my mail." },
+      { "role": "Clerk", "cn": "临时转递还是永久改址？", "en": "Temporary forward or permanent change of address?" },
+      { "role": "You", "cn": "先转递六个月。", "en": "Forward for six months first." },
+      { "role": "Clerk", "cn": "请填这张表，旧地址和新地址。", "en": "Please fill out this form with your old and new addresses." },
+      { "role": "You", "cn": "多久开始生效？", "en": "When does it take effect?" },
+      { "role": "Clerk", "cn": "大概七个工作日。", "en": "About seven business days." },
+      { "role": "You", "cn": "好的，费用多少？", "en": "Okay. How much is the fee?" }
+    ]
+  }
+]

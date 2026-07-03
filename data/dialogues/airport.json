@@ -51,5 +51,39 @@
       { "role": "Passenger", "cn": "那你得赶快了！", "en": "Then you'd better hurry!" },
       { "role": "You", "cn": "谢谢你的帮助！", "en": "Thanks for your help!" }
     ]
+  },
+  {
+    "id": "dlg-air-04",
+    "category": "airport",
+    "title": "Delayed Flight",
+    "titleCn": "航班延误",
+    "scene": "你的航班延误了，去柜台咨询。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "请问，341航班为什么延误了？", "en": "Excuse me, why is flight 341 delayed?" },
+      { "role": "Agent", "cn": "因为天气原因，预计延误两小时。", "en": "Due to weather, it's expected to be about two hours late." },
+      { "role": "You", "cn": "我会错过转机，能改签吗？", "en": "I'll miss my connection. Can I rebook?" },
+      { "role": "Agent", "cn": "可以，我帮您查下一班。", "en": "Sure, let me look for the next available flight." },
+      { "role": "Agent", "cn": "今晚八点有一班，要换吗？", "en": "There's one at eight tonight. Would you like that?" },
+      { "role": "You", "cn": "好的，麻烦您了。有餐券吗？", "en": "Yes, please. Do you offer meal vouchers?" },
+      { "role": "Agent", "cn": "有的，这是您的改签登机牌和十五美元餐券。", "en": "Yes. Here's your new boarding pass and a fifteen-dollar meal voucher." }
+    ]
+  },
+  {
+    "id": "dlg-air-05",
+    "category": "airport",
+    "title": "Lost Luggage",
+    "titleCn": "行李丢失",
+    "scene": "到达后发现自己的行李箱没有出来。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "你好，我的行李没有出来。", "en": "Hi, my luggage didn't come out on the carousel." },
+      { "role": "Agent", "cn": "请出示您的行李票和登机牌。", "en": "May I see your baggage claim tag and boarding pass?" },
+      { "role": "You", "cn": "在这里。是一个黑色的拉杆箱。", "en": "Here they are. It's a black rolling suitcase." },
+      { "role": "Agent", "cn": "我查一下系统……您的行李还在出发站。", "en": "Let me check the system. Your bag is still at the departure airport." },
+      { "role": "You", "cn": "什么时候能送到？", "en": "When will it be delivered?" },
+      { "role": "Agent", "cn": "明天下午前会送到您登记的地址。", "en": "It should arrive at your address by tomorrow afternoon." },
+      { "role": "You", "cn": "好的，这是我的酒店地址和电话。", "en": "Okay. Here's my hotel address and phone number." }
+    ]
   }
 ]

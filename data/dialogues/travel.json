@@ -51,5 +51,39 @@
       { "role": "You", "cn": "Terminal 4，谢谢。", "en": "Terminal 4, please. Thank you." },
       { "role": "Driver", "cn": "到了，祝您旅途愉快！", "en": "Here we are. Have a safe flight!" }
     ]
+  },
+  {
+    "id": "dlg-travel-04",
+    "category": "travel",
+    "title": "Buying Souvenirs",
+    "titleCn": "买纪念品",
+    "scene": "你在旅游景点的小店买纪念品。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "看看纪念品吧，都是本地手工的。", "en": "Check out our souvenirs. They're all locally made." },
+      { "role": "You", "cn": "这个冰箱贴多少钱？", "en": "How much is this magnet?" },
+      { "role": "Vendor", "cn": "五美元，买三个十二。", "en": "Five dollars, or three for twelve." },
+      { "role": "You", "cn": "那我买三个吧，可以刷卡吗？", "en": "I'll take three. Do you accept cards?" },
+      { "role": "Vendor", "cn": "可以，最低消费十美元。", "en": "Yes, but there's a ten-dollar minimum for cards." },
+      { "role": "You", "cn": "没问题，再加一张明信片。", "en": "No problem. I'll add a postcard too." },
+      { "role": "Vendor", "cn": "谢谢！祝您旅途愉快！", "en": "Thank you! Enjoy the rest of your trip!" }
+    ]
+  },
+  {
+    "id": "dlg-travel-05",
+    "category": "travel",
+    "title": "Taking Photos",
+    "titleCn": "请人拍照",
+    "scene": "你在著名景点，想请路人帮忙拍照。",
+    "roles": ["You", "Tourist"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，能帮我们拍张照吗？", "en": "Excuse me, could you take a photo for us?" },
+      { "role": "Tourist", "cn": "当然！站过去吧。", "en": "Sure! Go ahead and pose." },
+      { "role": "You", "cn": "请把后面的雕像也拍进去。", "en": "Please include the statue in the background." },
+      { "role": "Tourist", "cn": "好了，看看满意吗？", "en": "Done. Want to take a look?" },
+      { "role": "You", "cn": "太好了！你也需要我们帮你拍吗？", "en": "It's perfect! Would you like us to take one for you?" },
+      { "role": "Tourist", "cn": "好啊，谢谢！", "en": "Yes, please. Thank you!" },
+      { "role": "You", "cn": "不客气，祝玩得开心！", "en": "You're welcome. Have fun!" }
+    ]
   }
 ]

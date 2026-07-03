@@ -51,5 +51,90 @@
       { "role": "You", "cn": "哦，我明白了！谢谢！", "en": "Oh, I see! Thanks!" },
       { "role": "Sister", "cn": "不客气。有需要随时叫我。", "en": "You're welcome. Just let me know if you need anything." }
     ]
+  },
+  {
+    "id": "dlg-home-04",
+    "category": "home",
+    "title": "Watching TV Together",
+    "titleCn": "一起看电视",
+    "scene": "晚上你和家人在客厅看电视选节目。",
+    "roles": ["You", "Dad"],
+    "turns": [
+      { "role": "Dad", "cn": "今晚想看什么节目？", "en": "What do you want to watch tonight?" },
+      { "role": "You", "cn": "能不能看那场篮球赛？", "en": "Can we watch the basketball game?" },
+      { "role": "Dad", "cn": "八点才开始，先看个电影怎么样？", "en": "It doesn't start until eight. How about a movie first?" },
+      { "role": "You", "cn": "好啊，有爆米花吗？", "en": "Sounds good. Do we have any popcorn?" },
+      { "role": "Dad", "cn": "在橱柜里，你自己微波一下。", "en": "It's in the cabinet. Go microwave some yourself." },
+      { "role": "You", "cn": "爸，能把声音调小一点吗？", "en": "Dad, could you turn the volume down a little?" },
+      { "role": "Dad", "cn": "好了，别吵到你妈睡觉。", "en": "Sure. Let's not wake your mom." }
+    ]
+  },
+  {
+    "id": "dlg-home-05",
+    "category": "home",
+    "title": "Fixing Something",
+    "titleCn": "修理东西",
+    "scene": "家里水龙头漏水，你帮爸爸一起修。",
+    "roles": ["You", "Dad"],
+    "turns": [
+      { "role": "Dad", "cn": "帮我把工具箱递过来。", "en": "Hand me the toolbox, please." },
+      { "role": "You", "cn": "给你。需要扳手吗？", "en": "Here you go. Do you need the wrench?" },
+      { "role": "Dad", "cn": "对，还有胶带。", "en": "Yes, and some tape too." },
+      { "role": "You", "cn": "这样拧紧就可以了吗？", "en": "Is it okay if I tighten it like this?" },
+      { "role": "Dad", "cn": "顺时针转，别太用力。", "en": "Turn it clockwise, but don't force it." },
+      { "role": "You", "cn": "好像不漏水了！", "en": "I think it stopped leaking!" },
+      { "role": "Dad", "cn": "干得不错，以后这种小事你也能自己搞定。", "en": "Nice work. You'll be able to handle small fixes like this on your own." }
+    ]
+  },
+  {
+    "id": "dlg-home-06",
+    "category": "home",
+    "title": "Laundry Day",
+    "titleCn": "洗衣服",
+    "scene": "周末到了，妈妈教你用洗衣机。",
+    "roles": ["You", "Mom"],
+    "turns": [
+      { "role": "Mom", "cn": "帮我把深色和浅色分开。", "en": "Help me separate the darks and lights." },
+      { "role": "You", "cn": "这件白衬衫可以一起洗吗？", "en": "Can I wash this white shirt with them?" },
+      { "role": "Mom", "cn": "不行，白色单独洗，用冷水。", "en": "No, wash whites separately in cold water." },
+      { "role": "You", "cn": "洗衣液放多少？", "en": "How much detergent should I use?" },
+      { "role": "Mom", "cn": "到这条线就行，别放太多。", "en": "Up to this line. Don't use too much." },
+      { "role": "You", "cn": "烘干吗？还是晾起来？", "en": "Should I dry them or hang them up?" },
+      { "role": "Mom", "cn": "这件毛衣只能晾干，其他的可以烘干。", "en": "This sweater has to air-dry. The rest can go in the dryer." }
+    ]
+  },
+  {
+    "id": "dlg-home-07",
+    "category": "home",
+    "title": "Power Outage",
+    "titleCn": "家里停电",
+    "scene": "家里突然停电，你打电话给电力公司。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "电力公司，请问地址？", "en": "Power company. What's your address?" },
+      { "role": "You", "cn": "456 Oak Avenue，整栋楼都黑了。", "en": "Four fifty-six Oak Avenue. The whole building is out." },
+      { "role": "Agent", "cn": "我们已收到报告，是线路故障。", "en": "We have a report. It's a line outage." },
+      { "role": "You", "cn": "大概多久能恢复？", "en": "How long until power is back?" },
+      { "role": "Agent", "cn": "预计两小时内，会发短信更新。", "en": "About two hours. We'll text you updates." },
+      { "role": "You", "cn": "冰箱里的食物怎么办？", "en": "What about food in the fridge?" },
+      { "role": "Agent", "cn": "四小时以内一般没问题，尽量少开门。", "en": "It should be fine for four hours if you keep the door closed." }
+    ]
+  },
+  {
+    "id": "dlg-home-08",
+    "category": "home",
+    "title": "Pest Control",
+    "titleCn": "除虫",
+    "scene": "家里发现蟑螂，你预约除虫服务。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "除虫公司，哪里有问题？", "en": "Pest control. Where's the problem?" },
+      { "role": "You", "cn": "厨房和卫生间看到蟑螂。", "en": "I've seen roaches in the kitchen and bathroom." },
+      { "role": "Technician", "cn": "建议全屋喷洒，宠物要送走吗？", "en": "I recommend a full treatment. Do you have pets?" },
+      { "role": "You", "cn": "有一只猫，需要离开多久？", "en": "A cat. How long does she need to be away?" },
+      { "role": "Technician", "cn": "喷洒后通风四小时再回。", "en": "Ventilate for four hours before she comes back." },
+      { "role": "You", "cn": "周六上午方便吗？", "en": "Is Saturday morning okay?" },
+      { "role": "Technician", "cn": "十点可以，我提前十五分钟到。", "en": "Ten o'clock works. I'll arrive fifteen minutes early." }
+    ]
   }
 ]

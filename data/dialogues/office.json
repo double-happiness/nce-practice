@@ -50,5 +50,39 @@
       { "role": "You", "cn": "谢谢！我周五再发一份详细报告。", "en": "Thank you! I'll send a detailed report on Friday." },
       { "role": "Manager", "cn": "好的，辛苦了。", "en": "Sounds good. Great work." }
     ]
+  },
+  {
+    "id": "dlg-office-04",
+    "category": "office",
+    "title": "Printer Problem",
+    "titleCn": "打印机故障",
+    "scene": "你需要打印文件，但打印机出了问题。",
+    "roles": ["You", "IT"],
+    "turns": [
+      { "role": "You", "cn": "你好，三楼打印机打不出来。", "en": "Hi, the printer on the third floor isn't working." },
+      { "role": "IT", "cn": "有什么报错信息吗？", "en": "Is there any error message?" },
+      { "role": "You", "cn": "显示卡纸了，但我没看到纸卡在里面。", "en": "It says paper jam, but I don't see any paper stuck." },
+      { "role": "IT", "cn": "我过去看一下，你先重启试试。", "en": "I'll come take a look. Try restarting it first." },
+      { "role": "You", "cn": "重启了还是不行。", "en": "I restarted it, but it still doesn't work." },
+      { "role": "IT", "cn": "我修好了，是进纸器的问题。", "en": "I fixed it. It was the paper feeder." },
+      { "role": "You", "cn": "太好了，谢谢！", "en": "Great, thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-office-05",
+    "category": "office",
+    "title": "Welcoming a New Colleague",
+    "titleCn": "欢迎新同事",
+    "scene": "部门来了新同事，你负责带他熟悉环境。",
+    "roles": ["You", "New Hire"],
+    "turns": [
+      { "role": "You", "cn": "欢迎加入！我是张伟，坐你旁边。", "en": "Welcome aboard! I'm Zhang Wei. I sit right next to you." },
+      { "role": "New Hire", "cn": "你好！我是 Lisa，很高兴认识你。", "en": "Hi! I'm Lisa. Nice to meet you." },
+      { "role": "You", "cn": "茶水间在那边，午餐一般十二点。", "en": "The break room is over there. Lunch is usually at noon." },
+      { "role": "New Hire", "cn": "公司附近有好吃的餐厅吗？", "en": "Are there any good restaurants nearby?" },
+      { "role": "You", "cn": "转角那家三明治店不错，也常点外卖。", "en": "The sandwich shop on the corner is good. We order delivery a lot too." },
+      { "role": "New Hire", "cn": "太好了。有问题可以请教你吗？", "en": "That's great. Can I ask you if I have questions?" },
+      { "role": "You", "cn": "随时欢迎，中午一起吃饭吧。", "en": "Anytime. Let's grab lunch together." }
+    ]
   }
 ]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-soc-01",
+    "category": "social",
+    "title": "Birthday Party",
+    "titleCn": "生日派对",
+    "scene": "你参加朋友的生日派对。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "来了！谢谢来庆祝！", "en": "You made it! Thanks for coming!" },
+      { "role": "You", "cn": "生日快乐！这是给你的礼物。", "en": "Happy birthday! Here's your gift." },
+      { "role": "Host", "cn": "你太客气了，随便坐，有吃的在那边。", "en": "You're too kind. Make yourself at home. Food's over there." },
+      { "role": "You", "cn": "需要我帮忙吗？", "en": "Do you need any help?" },
+      { "role": "Host", "cn": "不用，一会儿切蛋糕，大概八点。", "en": "We're good. Cake's around eight." },
+      { "role": "You", "cn": "好的，人来得真不少！", "en": "Sounds great. Quite a crowd!" },
+      { "role": "Host", "cn": "是啊，很高兴你能来。", "en": "Yeah. So glad you could make it." }
+    ]
+  },
+  {
+    "id": "dlg-soc-02",
+    "category": "social",
+    "title": "BBQ at Home",
+    "titleCn": "后院烧烤",
+    "scene": "你在朋友家后院烧烤聚会。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "肉还要烤十分钟，先喝点？", "en": "Meat needs ten more minutes. Want a drink?" },
+      { "role": "You", "cn": "来杯啤酒，谢谢。需要我翻肉吗？", "en": "A beer, please. Need me to flip anything?" },
+      { "role": "Friend", "cn": "帮我把那盘香肠拿过来就行。", "en": "Just grab that tray of sausages." },
+      { "role": "You", "cn": "你腌的酱真香！", "en": "Your marinade smells amazing!" },
+      { "role": "Friend", "cn": "秘方，下次教你。", "en": "Secret recipe. I'll teach you sometime." },
+      { "role": "You", "cn": "好，我带点甜点下次带过来。", "en": "Deal. I'll bring dessert next time." },
+      { "role": "Friend", "cn": "完美！", "en": "Perfect!" }
+    ]
+  },
+  {
+    "id": "dlg-soc-03",
+    "category": "social",
+    "title": "Wedding Invitation",
+    "titleCn": "婚礼邀请",
+    "scene": "朋友邀请你参加婚礼，你确认出席。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "我们要结婚了！六月十五号，你能来吗？", "en": "We're getting married! June fifteenth. Can you come?" },
+      { "role": "You", "cn": "恭喜！我一定到，需要带伴吗？", "en": "Congratulations! I'll be there. Do I need a plus-one?" },
+      { "role": "Friend", "cn": "可以带一位，请月底前回复。", "en": "One guest is fine. Please RSVP by the end of the month." },
+      { "role": "You", "cn": "礼服有要求吗？", "en": "Is there a dress code?" },
+      { "role": "Friend", "cn": "半正式，户外仪式，穿舒服的鞋。", "en": "Semi-formal. It's outdoors, so comfortable shoes." },
+      { "role": "You", "cn": "礼物有登记清单吗？", "en": "Do you have a gift registry?" },
+      { "role": "Friend", "cn": "网站链接在请柬里，人来就是最好的礼物。", "en": "Link's on the invite, but your presence means the most." }
+    ]
+  },
+  {
+    "id": "dlg-soc-04",
+    "category": "social",
+    "title": "Declining an Invitation",
+    "titleCn": "婉拒邀请",
+    "scene": "朋友邀请你周末聚会，你有事去不了。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "周六来我家聚餐吧？", "en": "Want to come over for dinner Saturday?" },
+      { "role": "You", "cn": "谢谢邀请，那天我要回老家。", "en": "Thanks for asking. I'm heading to my hometown that day." },
+      { "role": "Friend", "cn": "没事，下次再约。", "en": "No worries. Let's plan another time." },
+      { "role": "You", "cn": "下周怎么样？我请你吃饭。", "en": "How about next week? Dinner's on me." },
+      { "role": "Friend", "cn": "周三晚上可以。", "en": "Wednesday evening works." },
+      { "role": "You", "cn": "好，我订位子发你。", "en": "Great. I'll book a table and text you." },
+      { "role": "Friend", "cn": "期待！", "en": "Looking forward to it!" }
+    ]
+  },
+  {
+    "id": "dlg-soc-05",
+    "category": "social",
+    "title": "Meeting Someone New",
+    "titleCn": "认识新朋友",
+    "scene": "朋友在聚会上介绍你认识新朋友。",
+    "roles": ["You", "New Friend"],
+    "turns": [
+      { "role": "New Friend", "cn": "嗨，听说你也是做软件的？", "en": "Hi, I heard you work in software too?" },
+      { "role": "You", "cn": "对，前端开发，你呢？", "en": "Yeah, front-end. How about you?" },
+      { "role": "New Friend", "cn": "我在初创公司做产品。", "en": "I'm in product at a startup." },
+      { "role": "You", "cn": "挺忙的最近吧？行业都这样。", "en": "Busy lately, I bet? Everyone seems slammed." },
+      { "role": "New Friend", "cn": "是啊，不过挺有成就感。住这附近吗？", "en": "Yeah, but it's rewarding. Do you live around here?" },
+      { "role": "You", "cn": "三个街区，常来这家酒吧。", "en": "Three blocks away. I come to this bar a lot." },
+      { "role": "New Friend", "cn": "那改天一起喝一杯！", "en": "Let's grab a drink sometime!" }
+    ]
+  }
+]

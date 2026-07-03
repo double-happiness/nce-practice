@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dlg-onl-01",
+    "category": "online",
+    "title": "Returning an Amazon Package",
+    "titleCn": "亚马逊退货",
+    "scene": "你要退一件网购的衣服。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，需要帮忙吗？", "en": "Hi, can I help you?" },
+      { "role": "You", "cn": "我要退这个亚马逊包裹。", "en": "I need to return this Amazon package." },
+      { "role": "Clerk", "cn": "请出示退货二维码。", "en": "Please show me the return QR code." },
+      { "role": "You", "cn": "在这里，尺码不合适。", "en": "Here it is. The size doesn't fit." },
+      { "role": "Clerk", "cn": "好了，退款三到五个工作日到账。", "en": "All set. Your refund will arrive in three to five business days." },
+      { "role": "You", "cn": "需要付退货运费吗？", "en": "Do I need to pay return shipping?" },
+      { "role": "Clerk", "cn": "不用，亚马逊已经预付了。", "en": "No, Amazon already covered it." }
+    ]
+  },
+  {
+    "id": "dlg-onl-02",
+    "category": "online",
+    "title": "Missing Package",
+    "titleCn": "快递丢失",
+    "scene": "显示已签收但你没收到包裹。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "快递公司，有什么可以帮您？", "en": "Shipping company. How may I help you?" },
+      { "role": "You", "cn": "我的包裹显示已送达，但我没收到。", "en": "My package shows delivered, but I never got it." },
+      { "role": "Agent", "cn": "请提供追踪号码。", "en": "May I have the tracking number?" },
+      { "role": "You", "cn": "1Z999AA10123456784，昨天下午送的。", "en": "One Z nine nine nine AA one oh one two three four five six seven eight four. It was yesterday afternoon." },
+      { "role": "Agent", "cn": "照片显示放在门口，您问过邻居吗？", "en": "The photo shows it at your door. Have you checked with neighbors?" },
+      { "role": "You", "cn": "问过了，没有。请启动调查。", "en": "Yes, nothing. Please open an investigation." },
+      { "role": "Agent", "cn": "好的，四十八小时内有结果。", "en": "Okay. We'll have an answer within forty-eight hours." }
+    ]
+  },
+  {
+    "id": "dlg-onl-03",
+    "category": "online",
+    "title": "Wrong Item Received",
+    "titleCn": "收到错货",
+    "scene": "你网购收到完全不对的东西。",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "Support", "cn": "在线客服，请问什么问题？", "en": "Online support. What's the issue?" },
+      { "role": "You", "cn": "我订的是蓝牙耳机，收到的是手机壳。", "en": "I ordered Bluetooth earbuds but got a phone case." },
+      { "role": "Support", "cn": "非常抱歉，请发一张照片。", "en": "We're very sorry. Please send a photo." },
+      { "role": "You", "cn": "已上传，我需要正确的商品。", "en": "Done. I need the correct item." },
+      { "role": "Support", "cn": "我们会重新发货，错货不用退回。", "en": "We'll reship the right item. You can keep the wrong one." },
+      { "role": "You", "cn": "好的，大概几天到？", "en": "Okay. How many days will it take?" },
+      { "role": "Support", "cn": "两到三个工作日。", "en": "Two to three business days." }
+    ]
+  },
+  {
+    "id": "dlg-onl-04",
+    "category": "online",
+    "title": "Price Match",
+    "titleCn": "比价退差价",
+    "scene": "你买完后发现别家更便宜，申请退差价。",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "You", "cn": "我上周买的电视，现在别家便宜五十块。", "en": "I bought a TV last week. Another store has it fifty dollars cheaper now." },
+      { "role": "Support", "cn": "您有价格保护的订单号吗？", "en": "Do you have the order number for price protection?" },
+      { "role": "You", "cn": "订单号12345，截图也发了。", "en": "Order number one two three four five. I sent a screenshot too." },
+      { "role": "Support", "cn": "符合政策，退您五十美元差价。", "en": "You qualify. We'll refund the fifty-dollar difference." },
+      { "role": "You", "cn": "退到原支付方式吗？", "en": "Will it go back to my original payment method?" },
+      { "role": "Support", "cn": "是的，三到五个工作日。", "en": "Yes, within three to five business days." }
+    ]
+  },
+  {
+    "id": "dlg-onl-05",
+    "category": "online",
+    "title": "Subscription Cancel",
+    "titleCn": "取消订阅",
+    "scene": "你打电话取消流媒体会员自动续费。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "会员服务，有什么可以帮您？", "en": "Membership services. How can I help?" },
+      { "role": "You", "cn": "我想取消下个月的自动续费。", "en": "I'd like to cancel auto-renewal for next month." },
+      { "role": "Agent", "cn": "可以告诉我原因吗？也许有优惠。", "en": "May I ask why? We might have a discount." },
+      { "role": "You", "cn": "最近用得少，下个月先停。", "en": "I haven't been using it much. I'll pause for now." },
+      { "role": "Agent", "cn": "已取消，本月末前仍可使用。", "en": "It's canceled. You can still use it until the end of this month." },
+      { "role": "You", "cn": "以后还能重新开通吗？", "en": "Can I reactivate later?" },
+      { "role": "Agent", "cn": "随时可以在账户里恢复。", "en": "Anytime from your account settings." }
+    ]
+  }
+]

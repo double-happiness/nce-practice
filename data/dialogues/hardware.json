@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-hard-01",
+    "category": "hardware",
+    "title": "At Home Depot",
+    "titleCn": "家居建材店",
+    "scene": "你在建材店买油漆和刷子。",
+    "roles": ["You", "Associate"],
+    "turns": [
+      { "role": "Associate", "cn": "找什么？", "en": "What are you looking for?" },
+      { "role": "You", "cn": "卧室刷墙，要浅灰色乳胶漆。", "en": "Painting a bedroom. I need light gray latex paint." },
+      { "role": "Associate", "cn": "多少平方英尺？我帮您算用量。", "en": "How many square feet? I'll help you estimate." },
+      { "role": "You", "cn": "大概三百平方英尺，一遍够吗？", "en": "About three hundred. Is one coat enough?" },
+      { "role": "Associate", "cn": "建议两遍，一加仑应该够。", "en": "Two coats is better. One gallon should do it." },
+      { "role": "You", "cn": "滚筒和胶带在哪？", "en": "Where are rollers and painter's tape?" },
+      { "role": "Associate", "cn": "过道14，我带您过去。", "en": "Aisle fourteen. I'll show you." }
+    ]
+  },
+  {
+    "id": "dlg-hard-02",
+    "category": "hardware",
+    "title": "Fixing a Leaky Faucet",
+    "titleCn": "修水龙头",
+    "scene": "你在五金店问怎么修漏水龙头。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "厨房水龙头滴水，该换什么零件？", "en": "My kitchen faucet drips. What part do I need?" },
+      { "role": "Clerk", "cn": "可能是垫圈老化，龙头什么牌子？", "en": "Probably a worn washer. What brand is the faucet?" },
+      { "role": "You", "cn": "Moen的，双把手。", "en": "Moen, double handle." },
+      { "role": "Clerk", "cn": "这套修理包应该可以，八块九。", "en": "This repair kit should work. Eight ninety-nine." },
+      { "role": "You", "cn": "需要关总阀吗？", "en": "Do I need to shut off the main valve?" },
+      { "role": "Clerk", "cn": "对，先关水再拆，说明书在盒里。", "en": "Yes. Turn off the water first. Instructions are in the box." },
+      { "role": "You", "cn": "谢谢，希望一次搞定。", "en": "Thanks. Hope I can fix it in one go." }
+    ]
+  },
+  {
+    "id": "dlg-hard-03",
+    "category": "hardware",
+    "title": "IKEA Furniture",
+    "titleCn": "买家具",
+    "scene": "你在宜家买书架并咨询配送。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "需要帮助吗？", "en": "Need any help?" },
+      { "role": "You", "cn": "这个书柜有现货吗？货号在这。", "en": "Is this bookshelf in stock? Here's the item number." },
+      { "role": "Staff", "cn": "仓库有，您可以在那边取。", "en": "Yes, in the warehouse. You can pick it up over there." },
+      { "role": "You", "cn": "能送货上楼吗？没有电梯。", "en": "Can you deliver upstairs? No elevator." },
+      { "role": "Staff", "cn": "配送四十九，含组装加九十九。", "en": "Delivery is forty-nine. Assembly is ninety-nine extra." },
+      { "role": "You", "cn": "只要配送，我自己装。", "en": "Delivery only. I'll assemble it myself." },
+      { "role": "Staff", "cn": "周六送到，请保持电话畅通。", "en": "Saturday delivery. Please keep your phone on." }
+    ]
+  },
+  {
+    "id": "dlg-hard-04",
+    "category": "hardware",
+    "title": "Power Outage Supplies",
+    "titleCn": "停电备货",
+    "scene": "暴风雪预报，你去买应急用品。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "手电筒快卖完了，还要什么？", "en": "Flashlights are selling fast. What else do you need?" },
+      { "role": "You", "cn": "电池、蜡烛，还有便携式充电宝。", "en": "Batteries, candles, and a portable charger." },
+      { "role": "Clerk", "cn": "五号电池在那边，蜡烛在结账台。", "en": "Double-A's are over there. Candles are at checkout." },
+      { "role": "You", "cn": "有便携式燃气炉吗？", "en": "Do you have portable camp stoves?" },
+      { "role": "Clerk", "cn": "露营区还有几个。", "en": "A few left in camping." },
+      { "role": "You", "cn": "好的，希望别真停电。", "en": "Okay. Hope the power stays on." },
+      { "role": "Clerk", "cn": "大家都这么说，保重！", "en": "Everyone says that. Stay safe!" }
+    ]
+  },
+  {
+    "id": "dlg-hard-05",
+    "category": "hardware",
+    "title": "Key Copy",
+    "titleCn": "配钥匙",
+    "scene": "你在五金店配钥匙。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，配两把这门钥匙。", "en": "Hi, I need two copies of this house key." },
+      { "role": "Clerk", "cn": "三分钟就好，每把三块钱。", "en": "Three minutes. Three dollars each." },
+      { "role": "You", "cn": "能配车库遥控器吗？", "en": "Can you program a garage remote?" },
+      { "role": "Clerk", "cn": "这种型号可以，二十五块。", "en": "Yes, for this model. Twenty-five dollars." },
+      { "role": "You", "cn": "那把钥匙也配了，一起付。", "en": "Do the remote too. I'll pay for everything together." },
+      { "role": "Clerk", "cn": "好了，试试能不能用。", "en": "All set. Try them out." },
+      { "role": "You", "cn": "没问题，谢谢！", "en": "They work. Thanks!" }
+    ]
+  }
+]

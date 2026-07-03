@@ -50,5 +50,39 @@
       { "role": "You", "cn": "好啊，我正好渴了。", "en": "Sure, I'm pretty thirsty." },
       { "role": "Friend", "cn": "走吧，楼下那家不错。", "en": "Let's go. The place downstairs is pretty good." }
     ]
+  },
+  {
+    "id": "dlg-gym-04",
+    "category": "gym",
+    "title": "Personal Trainer",
+    "titleCn": "私教课",
+    "scene": "你的第一节私教课，教练在指导你。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "先热身五分钟，慢跑或者跳绳。", "en": "Let's warm up for five minutes, jogging or jump rope." },
+      { "role": "You", "cn": "好的。我今天主要练什么？", "en": "Okay. What are we focusing on today?" },
+      { "role": "Trainer", "cn": "上肢和核心，先做三组俯卧撑。", "en": "Upper body and core. Start with three sets of push-ups." },
+      { "role": "You", "cn": "标准俯卧撑我做不了几个。", "en": "I can't do many regular push-ups." },
+      { "role": "Trainer", "cn": "没关系，膝盖着地先做。", "en": "That's fine. Do them on your knees for now." },
+      { "role": "You", "cn": "做完这组感觉手臂好酸。", "en": "My arms are burning after that set." },
+      { "role": "Trainer", "cn": "很正常，休息一分钟再继续。", "en": "That's normal. Rest one minute and we'll continue." }
+    ]
+  },
+  {
+    "id": "dlg-gym-05",
+    "category": "gym",
+    "title": "Locker Room",
+    "titleCn": "更衣室",
+    "scene": "练完后你在更衣室，发现忘带毛巾。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，有多余的毛巾吗？", "en": "Excuse me, do you have an extra towel?" },
+      { "role": "Member", "cn": "前台可以租，一美元一条。", "en": "You can rent one at the front desk for a dollar." },
+      { "role": "You", "cn": "淋浴间空吗？", "en": "Are the showers available right now?" },
+      { "role": "Member", "cn": "应该有空位，高峰时段要排队。", "en": "There should be open stalls, but it gets crowded at peak hours." },
+      { "role": "You", "cn": "储物柜的锁是自带的吗？", "en": "Do I need my own lock for the locker?" },
+      { "role": "Member", "cn": "对，或者前台也能买。", "en": "Yes, or you can buy one at the front desk." },
+      { "role": "You", "cn": "明白了，谢谢！", "en": "Got it. Thanks!" }
+    ]
   }
 ]

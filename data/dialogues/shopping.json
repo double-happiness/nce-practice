@@ -51,5 +51,39 @@
       { "role": "Staff", "cn": "还需要别的吗？", "en": "Is there anything else I can help you with?" },
       { "role": "You", "cn": "不用了，谢谢你的帮助！", "en": "No, that's all. Thanks for your help!" }
     ]
+  },
+  {
+    "id": "dlg-shop-04",
+    "category": "shopping",
+    "title": "Trying on Shoes",
+    "titleCn": "试鞋",
+    "scene": "你在鞋店买运动鞋。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "欢迎光临！需要什么帮助？", "en": "Welcome! How can I help you?" },
+      { "role": "You", "cn": "我想买一双跑步鞋，十码。", "en": "I'm looking for a pair of running shoes, size ten." },
+      { "role": "Clerk", "cn": "这款很受欢迎，您要试穿吗？", "en": "This model is very popular. Would you like to try them on?" },
+      { "role": "You", "cn": "好的。这双有点紧。", "en": "Sure. These feel a bit tight." },
+      { "role": "Clerk", "cn": "我给您拿大半码的试试。", "en": "Let me get you a half size larger." },
+      { "role": "You", "cn": "这双舒服多了，就这双吧。", "en": "These are much better. I'll take these." },
+      { "role": "Clerk", "cn": "好的，我帮您去结账。", "en": "Great. I'll ring them up for you." }
+    ]
+  },
+  {
+    "id": "dlg-shop-05",
+    "category": "shopping",
+    "title": "Black Friday Sale",
+    "titleCn": "打折促销",
+    "scene": "黑色星期五，你在商场抢购打折商品。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "这件外套打几折？", "en": "How much is this jacket on sale for?" },
+      { "role": "Clerk", "cn": "原价一百二，现在四十 off，七十二块。", "en": "It was one twenty, now forty percent off, so seventy-two." },
+      { "role": "You", "cn": "太划算了！有大一号的吗？", "en": "That's a great deal! Do you have a large?" },
+      { "role": "Clerk", "cn": "我去仓库看看，请稍等。", "en": "Let me check in the back. One moment, please." },
+      { "role": "Clerk", "cn": "有的，这是最后一件了。", "en": "Yes, this is the last one we have." },
+      { "role": "You", "cn": "那我马上买，别被别人抢走了。", "en": "I'll take it right now before someone else grabs it." },
+      { "role": "Clerk", "cn": "明智之选！请到这边结账。", "en": "Smart choice! Checkout is right over here." }
+    ]
   }
 ]

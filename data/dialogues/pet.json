@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dlg-pet-01",
+    "category": "pet",
+    "title": "At the Vet",
+    "titleCn": "看兽医",
+    "scene": "你带狗狗去宠物医院体检。",
+    "roles": ["You", "Vet"],
+    "turns": [
+      { "role": "Vet", "cn": "它最近食欲怎么样？", "en": "How's his appetite been lately?" },
+      { "role": "You", "cn": "正常，但昨天吐了一次。", "en": "Normal, but he vomited once yesterday." },
+      { "role": "Vet", "cn": "有没有吃不该吃的东西？", "en": "Has he eaten anything he shouldn't?" },
+      { "role": "You", "cn": "可能咬了沙发上的填充物。", "en": "He might have chewed stuffing from the couch." },
+      { "role": "Vet", "cn": "我检查一下，应该不严重。", "en": "Let me examine him. It should be fine." },
+      { "role": "You", "cn": "需要打疫苗吗？", "en": "Does he need any shots?" },
+      { "role": "Vet", "cn": "狂犬疫苗明年到期，今天可以一起打。", "en": "His rabies shot expires next year. We can do it today." }
+    ]
+  },
+  {
+    "id": "dlg-pet-02",
+    "category": "pet",
+    "title": "Pet Store",
+    "titleCn": "宠物店",
+    "scene": "你在宠物店买狗粮和用品。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "找什么？狗还是猫？", "en": "What are you looking for? Dog or cat?" },
+      { "role": "You", "cn": "中型犬的成犬粮，无谷物配方。", "en": "Adult food for a medium dog, grain-free." },
+      { "role": "Clerk", "cn": "这款卖得好，三十磅装六十九块。", "en": "This one sells well. Sixty-nine for a thirty-pound bag." },
+      { "role": "You", "cn": "有试吃小包装吗？", "en": "Do you have a small trial size?" },
+      { "role": "Clerk", "cn": "有，五磅的十九块九。", "en": "Yes, a five-pound bag for nineteen ninety-nine." },
+      { "role": "You", "cn": "先拿小的，再加一个磨牙棒。", "en": "I'll try the small one, plus a chew toy." },
+      { "role": "Clerk", "cn": "好的，需要帮忙搬上车吗？", "en": "Sure. Need help carrying it to your car?" }
+    ]
+  },
+  {
+    "id": "dlg-pet-03",
+    "category": "pet",
+    "title": "Dog Park",
+    "titleCn": "狗公园",
+    "scene": "你在狗公园和其他狗主人聊天。",
+    "roles": ["You", "Owner"],
+    "turns": [
+      { "role": "Owner", "cn": "你的狗好活泼！什么品种？", "en": "Your dog is so energetic! What breed is he?" },
+      { "role": "You", "cn": "金毛混种，叫Buddy，一岁半。", "en": "Golden mix. His name is Buddy. He's a year and a half." },
+      { "role": "Owner", "cn": "他经常来这个公园吗？", "en": "Does he come here often?" },
+      { "role": "You", "cn": "每天下班后来，不然在家拆家。", "en": "Every day after work, or he destroys the house." },
+      { "role": "Owner", "cn": "哈哈，这边下午人少一些。", "en": "Ha! It's less crowded here in the afternoon." },
+      { "role": "You", "cn": "是啊，记得带水，喷泉夏天才开。", "en": "Yeah. Bring water. The fountain only runs in summer." },
+      { "role": "Owner", "cn": "谢谢提醒！回见。", "en": "Thanks for the tip. See you around!" }
+    ]
+  },
+  {
+    "id": "dlg-pet-04",
+    "category": "pet",
+    "title": "Pet Grooming",
+    "titleCn": "宠物美容",
+    "scene": "你带猫去宠物店洗澡剪毛。",
+    "roles": ["You", "Groomer"],
+    "turns": [
+      { "role": "Groomer", "cn": "今天做什么？洗澡还是全套？", "en": "What are we doing today? Bath or full groom?" },
+      { "role": "You", "cn": "全套，它打结很严重。", "en": "Full groom. She's really matted." },
+      { "role": "Groomer", "cn": "猫可能紧张，您能在旁边吗？", "en": "She might get nervous. Can you stay nearby?" },
+      { "role": "You", "cn": "可以，它怕吹风机。", "en": "Sure. She's scared of the blow dryer." },
+      { "role": "Groomer", "cn": "我们尽量温柔，大概一小时。", "en": "We'll go gently. About an hour." },
+      { "role": "You", "cn": "好了给我打电话，我在隔壁咖啡店等。", "en": "Call me when done. I'll wait at the coffee shop next door." },
+      { "role": "Groomer", "cn": "没问题。", "en": "No problem." }
+    ]
+  },
+  {
+    "id": "dlg-pet-05",
+    "category": "pet",
+    "title": "Lost Pet Poster",
+    "titleCn": "寻找走失宠物",
+    "scene": "你的猫走丢了，问邻居有没有看到。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "你好，你见过这只橘猫吗？昨晚走丢了。", "en": "Hi, have you seen this orange cat? She got out last night." },
+      { "role": "Neighbor", "cn": "好像在后巷见过，不确定。", "en": "I think I saw one in the back alley, not sure." },
+      { "role": "You", "cn": "她叫Mimi，很亲人，会回应名字。", "en": "Her name is Mimi. She's friendly and answers to her name." },
+      { "role": "Neighbor", "cn": "我帮你留意，有消息告诉你。", "en": "I'll keep an eye out and let you know." },
+      { "role": "You", "cn": "谢谢，这是我的电话。", "en": "Thank you. Here's my number." },
+      { "role": "Neighbor", "cn": "祝你好运，希望很快找到。", "en": "Good luck. I hope you find her soon." }
+    ]
+  }
+]

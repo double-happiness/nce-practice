@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-salon-01",
+    "category": "salon",
+    "title": "Haircut",
+    "titleCn": "理发",
+    "scene": "你去理发店剪头发。",
+    "roles": ["You", "Stylist"],
+    "turns": [
+      { "role": "Stylist", "cn": "今天想怎么剪？", "en": "What would you like done today?" },
+      { "role": "You", "cn": "稍微修短一点，两边推短。", "en": "Just a trim, shorter on the sides." },
+      { "role": "Stylist", "cn": "刘海要留多长？", "en": "How long do you want the bangs?" },
+      { "role": "You", "cn": "盖过眉毛就好，不要太短。", "en": "Just past my eyebrows, not too short." },
+      { "role": "Stylist", "cn": "需要洗头吗？加五块。", "en": "Would you like a shampoo? It's five extra." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Yes, please." },
+      { "role": "Stylist", "cn": "看看满意吗？", "en": "How does that look?" }
+    ]
+  },
+  {
+    "id": "dlg-salon-02",
+    "category": "salon",
+    "title": "Hair Color",
+    "titleCn": "染发",
+    "scene": "你想染发，和发型师沟通颜色。",
+    "roles": ["You", "Stylist"],
+    "turns": [
+      { "role": "You", "cn": "我想染成深棕色，自然一点。", "en": "I'd like to dye my hair dark brown, something natural." },
+      { "role": "Stylist", "cn": "您现在发色偏黑，可能需要漂浅。", "en": "Your hair is quite dark now. We may need to lighten it first." },
+      { "role": "You", "cn": "漂浅伤头发吗？", "en": "Will bleaching damage my hair?" },
+      { "role": "Stylist", "cn": "会有损伤，做完护理会好一些。", "en": "Some damage is possible, but a treatment helps." },
+      { "role": "You", "cn": "大概要多长时间？多少钱？", "en": "How long will it take, and how much?" },
+      { "role": "Stylist", "cn": "三小时，一百二十美元起。", "en": "About three hours, starting at a hundred twenty dollars." },
+      { "role": "You", "cn": "好的，那就开始吧。", "en": "Okay, let's do it." }
+    ]
+  },
+  {
+    "id": "dlg-salon-03",
+    "category": "salon",
+    "title": "Nail Salon",
+    "titleCn": "美甲",
+    "scene": "你在美甲店做指甲。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "您想做哪种？美甲还是光疗？", "en": "What would you like? Regular polish or gel?" },
+      { "role": "You", "cn": "光疗，颜色要浅粉色。", "en": "Gel, please. A light pink color." },
+      { "role": "Technician", "cn": "需要修甲型吗？方形还是圆形？", "en": "Would you like a shape? Square or round?" },
+      { "role": "You", "cn": "圆形，不要太长。", "en": "Round, and not too long." },
+      { "role": "Technician", "cn": "光疗照灯后会保持两周。", "en": "After curing, gel lasts about two weeks." },
+      { "role": "You", "cn": "卸的时候也是在这里吗？", "en": "Do I come back here to remove it?" },
+      { "role": "Technician", "cn": "对，卸甲十美元。", "en": "Yes. Removal is ten dollars." }
+    ]
+  },
+  {
+    "id": "dlg-salon-04",
+    "category": "salon",
+    "title": "Walk-in Wait",
+    "titleCn": "排队等候",
+    "scene": "你没预约直接走进理发店。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "有预约吗？", "en": "Do you have an appointment?" },
+      { "role": "You", "cn": "没有，现在要等多久？", "en": "No. How long is the wait?" },
+      { "role": "Receptionist", "cn": "大概二十分钟，您先坐一下。", "en": "About twenty minutes. Please have a seat." },
+      { "role": "You", "cn": "好的，到了请叫我。", "en": "Sure. Please call me when it's my turn." },
+      { "role": "Receptionist", "cn": "请留一个手机号。", "en": "May I have your phone number?" },
+      { "role": "You", "cn": "555-0123，谢谢。", "en": "Five five five, zero one two three. Thanks." },
+      { "role": "Receptionist", "cn": "张先生，下一位是您。", "en": "Mr. Zhang, you're up next." }
+    ]
+  }
+]

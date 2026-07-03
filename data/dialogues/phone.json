@@ -1,0 +1,204 @@
+[
+  {
+    "id": "dlg-phone-01",
+    "category": "phone",
+    "title": "Making a Doctor Appointment",
+    "titleCn": "电话预约医生",
+    "scene": "你打电话预约医生。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "史密斯医生诊所，您好。", "en": "Dr. Smith's office. How may I help you?" },
+      { "role": "You", "cn": "你好，我想预约看诊。", "en": "Hi, I'd like to make an appointment." },
+      { "role": "Receptionist", "cn": "请问什么原因就诊？", "en": "What's the reason for your visit?" },
+      { "role": "You", "cn": "持续头痛，大概一周了。", "en": "I've had headaches for about a week." },
+      { "role": "Receptionist", "cn": "下周二下午两点可以吗？", "en": "How about next Tuesday at two PM?" },
+      { "role": "You", "cn": "可以，需要提前到吗？", "en": "That works. Should I arrive early?" },
+      { "role": "Receptionist", "cn": "提前十五分钟，带上保险卡。", "en": "Fifteen minutes early, and bring your insurance card." }
+    ]
+  },
+  {
+    "id": "dlg-phone-02",
+    "category": "phone",
+    "title": "Wrong Number",
+    "titleCn": "打错电话",
+    "scene": "你打错了电话。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "喂？", "en": "Hello?" },
+      { "role": "You", "cn": "你好，请问是披萨店吗？", "en": "Hi, is this the pizza place?" },
+      { "role": "Stranger", "cn": "不是，你打错了。", "en": "No, you have the wrong number." },
+      { "role": "You", "cn": "非常抱歉，打扰了。", "en": "I'm so sorry to bother you." },
+      { "role": "Stranger", "cn": "没关系，再见。", "en": "No problem. Goodbye." },
+      { "role": "You", "cn": "再见，不好意思。", "en": "Goodbye, and sorry again." }
+    ]
+  },
+  {
+    "id": "dlg-phone-03",
+    "category": "phone",
+    "title": "Calling Customer Service",
+    "titleCn": "打客服",
+    "scene": "你的网络断了，打客服电话。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "感谢您致电，请问账号后四位？", "en": "Thanks for calling. May I have the last four digits of your account?" },
+      { "role": "You", "cn": "5678，家里网从昨晚就断了。", "en": "Five six seven eight. My internet has been down since last night." },
+      { "role": "Agent", "cn": "我远程检测一下……路由器需要重启。", "en": "Let me run a remote test. Your router needs a reboot." },
+      { "role": "You", "cn": "我试过了，还是不行。", "en": "I tried that already. It still doesn't work." },
+      { "role": "Agent", "cn": "我安排技师明天上午上门。", "en": "I'll schedule a technician for tomorrow morning." },
+      { "role": "You", "cn": "大概几点？我在家。", "en": "What time roughly? I'll be home." },
+      { "role": "Agent", "cn": "九点到十二点之间，会提前打电话。", "en": "Between nine and noon. They'll call ahead." }
+    ]
+  },
+  {
+    "id": "dlg-phone-04",
+    "category": "phone",
+    "title": "Leaving a Voicemail",
+    "titleCn": "留语音留言",
+    "scene": "朋友没接电话，你留语音留言。",
+    "roles": ["You", "Voicemail"],
+    "turns": [
+      { "role": "Voicemail", "cn": "请在嘟声后留言。", "en": "Please leave a message after the tone." },
+      { "role": "You", "cn": "嘿，是我，张伟。", "en": "Hey, it's Zhang Wei." },
+      { "role": "You", "cn": "今晚的电影改到八点了。", "en": "The movie tonight has been moved to eight o'clock." },
+      { "role": "You", "cn": "在AMC影院门口见。", "en": "Let's meet at the entrance of the AMC theater." },
+      { "role": "You", "cn": "收到请回电，谢谢！", "en": "Call me back when you get this. Thanks!" },
+      { "role": "Voicemail", "cn": "留言结束，按井号键发送。", "en": "End of message. Press pound to send." }
+    ]
+  },
+  {
+    "id": "dlg-phone-05",
+    "category": "phone",
+    "title": "Ordering Pizza Delivery",
+    "titleCn": "电话订外卖",
+    "scene": "你打电话订披萨外卖。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "披萨之家，请问要什么？", "en": "Pizza House. What can I get for you?" },
+      { "role": "You", "cn": "我要一个大号芝士披萨。", "en": "I'd like a large cheese pizza, please." },
+      { "role": "Staff", "cn": "要加配料吗？配送还是自取？", "en": "Any toppings? Delivery or pickup?" },
+      { "role": "You", "cn": "加香肠，送到我家。", "en": "Add pepperoni. Delivery, please." },
+      { "role": "Staff", "cn": "请说一下地址和电话。", "en": "May I have your address and phone number?" },
+      { "role": "You", "cn": "123 Main Street，电话555-0199。", "en": "One twenty-three Main Street. My number is five five five, zero one nine nine." },
+      { "role": "Staff", "cn": "大概三十五分钟到，一共十八块五。", "en": "It'll be about thirty-five minutes. That's eighteen fifty total." }
+    ]
+  },
+  {
+    "id": "dlg-phone-06",
+    "category": "phone",
+    "title": "Calling in Sick",
+    "titleCn": "电话请假",
+    "scene": "你生病了，打电话向公司请假。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "喂，什么事？", "en": "Hello?" },
+      { "role": "You", "cn": "经理，我是张伟，今天身体不舒服想请病假。", "en": "Hi, it's Zhang Wei. I'm not feeling well and need to take a sick day." },
+      { "role": "Manager", "cn": "怎么了？严重吗？", "en": "What's wrong? Is it serious?" },
+      { "role": "You", "cn": "发烧三十八点五度，医生让我休息。", "en": "I have a fever of 101.3. The doctor told me to rest." },
+      { "role": "Manager", "cn": "好的，好好休息。急事我发邮件。", "en": "Okay, get some rest. I'll email if anything urgent comes up." },
+      { "role": "You", "cn": "今天的会议我会看录像。", "en": "I'll watch the recording of today's meeting." },
+      { "role": "Manager", "cn": "行，希望你明天能好。", "en": "Sounds good. Hope you feel better tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-phone-07",
+    "category": "phone",
+    "title": "Calling the Landlord",
+    "titleCn": "给房东打电话",
+    "scene": "厨房水管漏水，你给房东打电话。",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "喂，什么事？", "en": "Hello?" },
+      { "role": "You", "cn": "房东您好，我是302的张伟，厨房水管在漏水。", "en": "Hi, this is Zhang Wei in unit 302. The kitchen pipe is leaking." },
+      { "role": "Landlord", "cn": "漏得厉害吗？先把总阀关掉。", "en": "Is it bad? Turn off the main valve first." },
+      { "role": "You", "cn": "总阀在哪里？我不太清楚。", "en": "Where's the main valve? I'm not sure." },
+      { "role": "Landlord", "cn": "在水表旁边，逆时针转。", "en": "Next to the water meter. Turn it counterclockwise." },
+      { "role": "You", "cn": "关掉了，地上有很多水。", "en": "It's off now. There's a lot of water on the floor." },
+      { "role": "Landlord", "cn": "我下午叫维修工过去。", "en": "I'll send a repairman this afternoon." }
+    ]
+  },
+  {
+    "id": "dlg-phone-08",
+    "category": "phone",
+    "title": "Canceling a Reservation",
+    "titleCn": "取消预订",
+    "scene": "你临时有事，打电话取消餐厅预订。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "意大利餐厅，您好。", "en": "Italian Bistro. How may I help you?" },
+      { "role": "You", "cn": "你好，我想取消今晚七点的预订。", "en": "Hi, I need to cancel my reservation for seven tonight." },
+      { "role": "Host", "cn": "请问您贵姓？几位？", "en": "May I have your name? How many in your party?" },
+      { "role": "You", "cn": "张伟，四位。", "en": "Zhang Wei, party of four." },
+      { "role": "Host", "cn": "找到了，确认取消吗？", "en": "I found it. Shall I cancel it?" },
+      { "role": "You", "cn": "是的，非常抱歉临时变动。", "en": "Yes, please. I'm sorry for the last-minute change." },
+      { "role": "Host", "cn": "没关系，欢迎下次再来。", "en": "No problem. We hope to see you another time." }
+    ]
+  },
+  {
+    "id": "dlg-phone-09",
+    "category": "phone",
+    "title": "Calling a Cab",
+    "titleCn": "叫出租车",
+    "scene": "你在酒店前台请工作人员帮忙叫车。",
+    "roles": ["You", "Concierge"],
+    "turns": [
+      { "role": "You", "cn": "你好，能帮我叫一辆出租车吗？", "en": "Hi, could you call a taxi for me?" },
+      { "role": "Concierge", "cn": "当然，您要去哪里？", "en": "Of course. Where are you headed?" },
+      { "role": "You", "cn": "肯尼迪机场，Terminal 4。", "en": "JFK Airport, Terminal 4." },
+      { "role": "Concierge", "cn": "大概需要四十分钟，要现在叫吗？", "en": "That'll take about forty minutes. Shall I call one now?" },
+      { "role": "You", "cn": "是的，我十一点半的飞机。", "en": "Yes. My flight is at eleven thirty." },
+      { "role": "Concierge", "cn": "车五分钟后到门口，车牌我会短信给您。", "en": "It'll be at the entrance in five minutes. I'll text you the plate number." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-phone-10",
+    "category": "phone",
+    "title": "Confirming an Appointment",
+    "titleCn": "确认预约",
+    "scene": "牙科诊所来电，你确认预约时间。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "您好，阳光牙科，提醒您明天上午十点有预约。", "en": "Hi, this is Sunny Dental calling to remind you of your ten AM appointment tomorrow." },
+      { "role": "You", "cn": "好的，我会准时到。", "en": "Yes, I'll be there on time." },
+      { "role": "Receptionist", "cn": "请提前十分钟到，带上保险卡。", "en": "Please arrive ten minutes early and bring your insurance card." },
+      { "role": "You", "cn": "如果临时有事能改时间吗？", "en": "Can I reschedule if something comes up?" },
+      { "role": "Receptionist", "cn": "提前二十四小时通知可以免费改期。", "en": "Yes, with twenty-four hours' notice there's no fee." },
+      { "role": "You", "cn": "明白了，明天见。", "en": "Got it. See you tomorrow." },
+      { "role": "Receptionist", "cn": "明天见，祝您有美好的一天。", "en": "See you then. Have a great day." }
+    ]
+  },
+  {
+    "id": "dlg-phone-11",
+    "category": "phone",
+    "title": "Prescription Refill",
+    "titleCn": "续处方药",
+    "scene": "你打电话请药房续处方药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "药房，请说。", "en": "Pharmacy. How can I help?" },
+      { "role": "You", "cn": "我想续处方，姓张，降压药。", "en": "I need a refill. Last name Zhang. Blood pressure medication." },
+      { "role": "Pharmacist", "cn": "医生授权还没更新，我联系诊所。", "en": "The doctor hasn't renewed it yet. I'll call the clinic." },
+      { "role": "You", "cn": "药只剩两天了，能加急吗？", "en": "I only have two days left. Can you rush it?" },
+      { "role": "Pharmacist", "cn": "诊所回电后今天能取。", "en": "You can pick it up today once the clinic calls back." },
+      { "role": "You", "cn": "好的，到了发短信提醒我。", "en": "Okay. Please text me when it's ready." },
+      { "role": "Pharmacist", "cn": "没问题。", "en": "Will do." }
+    ]
+  },
+  {
+    "id": "dlg-phone-12",
+    "category": "phone",
+    "title": "School Absence",
+    "titleCn": "给孩子请假",
+    "scene": "孩子生病了，你打电话向学校请假。",
+    "roles": ["You", "Secretary"],
+    "turns": [
+      { "role": "Secretary", "cn": "阳光小学教务处。", "en": "Sunny Elementary office." },
+      { "role": "You", "cn": "你好，我是三年二班小明的家长，他今天发烧请假。", "en": "Hi, I'm Tommy's parent from class three-two. He has a fever and won't be in today." },
+      { "role": "Secretary", "cn": "请说孩子全名和学号。", "en": "Full name and student ID, please." },
+      { "role": "You", "cn": "张小明，学号20240315。", "en": "Zhang Xiaoming, ID two zero two four zero three one five." },
+      { "role": "Secretary", "cn": "记下了，明天带医生条如果超过三天。", "en": "Noted. Bring a doctor's note if he's out more than three days." },
+      { "role": "You", "cn": "好的，作业能请同学带回来吗？", "en": "Okay. Can a classmate bring homework home?" },
+      { "role": "Secretary", "cn": "我让老师发到家长邮箱。", "en": "I'll have the teacher email it to parents." }
+    ]
+  }
+]

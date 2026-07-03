@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-pharm-01",
+    "category": "pharmacy",
+    "title": "Buying Cold Medicine",
+    "titleCn": "买感冒药",
+    "scene": "你在药店买非处方感冒药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "你好，我感冒流鼻涕，有什么推荐？", "en": "Hi, I have a cold and a runny nose. What do you recommend?" },
+      { "role": "Pharmacist", "cn": "这款DayQuil白天用，不犯困。", "en": "Try DayQuil for daytime. It won't make you drowsy." },
+      { "role": "You", "cn": "晚上呢？", "en": "What about at night?" },
+      { "role": "Pharmacist", "cn": "NyQuil助眠，不要开车。", "en": "NyQuil helps you sleep. Don't drive after taking it." },
+      { "role": "You", "cn": "一天吃几次？", "en": "How many times a day?" },
+      { "role": "Pharmacist", "cn": "每四到六小时一次，不要超过四剂。", "en": "Every four to six hours, no more than four doses." },
+      { "role": "You", "cn": "好的，都要了，谢谢。", "en": "I'll take both. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-02",
+    "category": "pharmacy",
+    "title": "Allergy Medicine",
+    "titleCn": "过敏药",
+    "scene": "春天花粉过敏，你去药店咨询。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "我花粉过敏，眼睛痒打喷嚏。", "en": "I have pollen allergies. My eyes itch and I keep sneezing." },
+      { "role": "Pharmacist", "cn": "氯雷他定每天一片，副作用小。", "en": "Loratadine, one tablet daily. Fewer side effects." },
+      { "role": "You", "cn": "需要处方吗？", "en": "Do I need a prescription?" },
+      { "role": "Pharmacist", "cn": "不需要，非处方药。", "en": "No, it's over the counter." },
+      { "role": "You", "cn": "有眼药水吗？", "en": "Do you have eye drops too?" },
+      { "role": "Pharmacist", "cn": "有，在第三过道。", "en": "Yes, they're in aisle three." },
+      { "role": "You", "cn": "谢谢您的建议！", "en": "Thanks for the advice!" }
+    ]
+  },
+  {
+    "id": "dlg-pharm-03",
+    "category": "pharmacy",
+    "title": "First Aid Supplies",
+    "titleCn": "买急救用品",
+    "scene": "你准备在家放一个急救箱。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙找什么吗？", "en": "Can I help you find something?" },
+      { "role": "You", "cn": "我想买一个家用急救包。", "en": "I'm looking for a home first-aid kit." },
+      { "role": "Clerk", "cn": "这款含绷带、消毒液和创可贴。", "en": "This one has bandages, antiseptic, and band-aids." },
+      { "role": "You", "cn": "有体温计吗？", "en": "Do you carry thermometers?" },
+      { "role": "Clerk", "cn": "有数字的，在柜台后面。", "en": "Yes, digital ones are behind the counter." },
+      { "role": "You", "cn": "一起买了，能刷卡吗？", "en": "I'll take both. Can I pay by card?" },
+      { "role": "Clerk", "cn": "当然，请到这边结账。", "en": "Sure. Checkout is right here." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-04",
+    "category": "pharmacy",
+    "title": "Vaccination",
+    "titleCn": "打疫苗",
+    "scene": "你在药店预约流感疫苗。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "你好，我想打流感疫苗。", "en": "Hi, I'd like to get a flu shot." },
+      { "role": "Pharmacist", "cn": "有预约吗？需要填一份同意书。", "en": "Do you have an appointment? You'll need to fill out a consent form." },
+      { "role": "You", "cn": "没有预约，现在可以吗？", "en": "No appointment. Is walk-in available now?" },
+      { "role": "Pharmacist", "cn": "可以，请稍等五分钟。", "en": "Yes. Please wait about five minutes." },
+      { "role": "You", "cn": "打完有什么注意事项？", "en": "Any precautions after the shot?" },
+      { "role": "Pharmacist", "cn": "注射处可能酸痛，多喝水。", "en": "Your arm may be sore. Drink plenty of water." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-05",
+    "category": "pharmacy",
+    "title": "Children's Medicine",
+    "titleCn": "儿童用药",
+    "scene": "孩子发烧，你到药店买儿童退烧药并咨询剂量。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "孩子五岁，发烧三十八点五度，买什么？", "en": "My child is five and has a fever of 38.5°C. What should I get?" },
+      { "role": "Pharmacist", "cn": "儿童布洛芬悬液，按体重给药。", "en": "Children's ibuprofen suspension. Dose it by weight." },
+      { "role": "You", "cn": "他十八公斤，一次多少？", "en": "He weighs eighteen kilograms. How much per dose?" },
+      { "role": "Pharmacist", "cn": "五毫升，每六到八小时一次。", "en": "Five milliliters every six to eight hours." },
+      { "role": "You", "cn": "可以和食物一起吃吗？", "en": "Can he take it with food?" },
+      { "role": "Pharmacist", "cn": "可以，饭后更不容易胃不舒服。", "en": "Yes. After meals is easier on the stomach." },
+      { "role": "You", "cn": "烧不退什么时候该看医生？", "en": "When should we see a doctor if the fever doesn't go down?" }
+    ]
+  }
+]

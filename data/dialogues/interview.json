@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-intv-01",
+    "category": "interview",
+    "title": "Job Interview Opening",
+    "titleCn": "面试开场",
+    "scene": "你参加一家公司的现场面试。",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "请坐，感谢您今天过来。", "en": "Please have a seat. Thank you for coming in today." },
+      { "role": "You", "cn": "谢谢给我这个机会。", "en": "Thank you for the opportunity." },
+      { "role": "Interviewer", "cn": "先简单介绍一下自己吧。", "en": "Tell me a little about yourself." },
+      { "role": "You", "cn": "我有五年软件开发经验，擅长前端。", "en": "I have five years of software development experience, mostly in front-end." },
+      { "role": "Interviewer", "cn": "为什么想加入我们公司？", "en": "Why do you want to join our company?" },
+      { "role": "You", "cn": "我很认同你们的产品理念，也想在更大平台成长。", "en": "I admire your product vision and want to grow on a larger platform." },
+      { "role": "Interviewer", "cn": "好的，我们接下来聊一下技术问题。", "en": "Great. Let's move on to some technical questions." }
+    ]
+  },
+  {
+    "id": "dlg-intv-02",
+    "category": "interview",
+    "title": "Salary Negotiation",
+    "titleCn": "谈薪资",
+    "scene": "面试尾声，HR和你谈薪资。",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "您对薪资有什么期望？", "en": "What are your salary expectations?" },
+      { "role": "You", "cn": "根据市场行情，我希望在九万到十一万之间。", "en": "Based on the market, I'm looking for between ninety and a hundred ten thousand." },
+      { "role": "HR", "cn": "我们预算大概是十万，含年终奖。", "en": "Our budget is around a hundred thousand, including bonus." },
+      { "role": "You", "cn": "福利方面包括医疗保险吗？", "en": "Does the benefits package include health insurance?" },
+      { "role": "HR", "cn": "有，公司付八成保费，还有带薪年假。", "en": "Yes, we cover eighty percent, plus paid vacation." },
+      { "role": "You", "cn": "听起来不错，我可以接受。", "en": "That sounds reasonable. I can accept that." },
+      { "role": "HR", "cn": "太好了，我们会发offer给您。", "en": "Wonderful. We'll send you an offer letter." }
+    ]
+  },
+  {
+    "id": "dlg-intv-03",
+    "category": "interview",
+    "title": "Phone Screening",
+    "titleCn": "电话初筛",
+    "scene": "HR打电话做初步筛选。",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "您好，我是ABC公司的招聘。", "en": "Hi, I'm calling from ABC Company recruiting." },
+      { "role": "You", "cn": "您好，我现在方便说话。", "en": "Hello. Yes, this is a good time to talk." },
+      { "role": "Recruiter", "cn": "您目前在职吗？最早什么时候能入职？", "en": "Are you currently employed? When could you start?" },
+      { "role": "You", "cn": "在职，需要两周通知期。", "en": "Yes. I'd need to give two weeks' notice." },
+      { "role": "Recruiter", "cn": "需要现场面试吗？您方便来办公室吗？", "en": "Can you come in for an on-site interview?" },
+      { "role": "You", "cn": "可以，下周任意工作日下午都行。", "en": "Sure. Any weekday afternoon next week works." },
+      { "role": "Recruiter", "cn": "好的，我发日历邀请给您。", "en": "Great. I'll send you a calendar invite." }
+    ]
+  },
+  {
+    "id": "dlg-intv-04",
+    "category": "interview",
+    "title": "Asking Questions",
+    "titleCn": "反问环节",
+    "scene": "面试官问你有什么问题。",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "您有什么问题想问我们吗？", "en": "Do you have any questions for us?" },
+      { "role": "You", "cn": "团队目前最大的挑战是什么？", "en": "What's the biggest challenge the team is facing right now?" },
+      { "role": "Interviewer", "cn": "主要是产品迭代速度和质量的平衡。", "en": "Mainly balancing speed of delivery with quality." },
+      { "role": "You", "cn": "新人入职有哪些培训？", "en": "What kind of onboarding do new hires get?" },
+      { "role": "Interviewer", "cn": "有两周导师制，还有内部技术分享。", "en": "Two weeks of mentorship plus internal tech talks." },
+      { "role": "You", "cn": "决策流程是怎样的？", "en": "How are decisions typically made?" },
+      { "role": "Interviewer", "cn": "小团队自治，大方向由管理层定。", "en": "Small teams are autonomous. Leadership sets the direction." }
+    ]
+  },
+  {
+    "id": "dlg-intv-05",
+    "category": "interview",
+    "title": "Salary Negotiation",
+    "titleCn": "谈薪资",
+    "scene": "HR来电谈录用条件和薪资。",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "恭喜您通过终面，我们想发offer。", "en": "Congratulations on passing the final round. We'd like to extend an offer." },
+      { "role": "You", "cn": "谢谢！职位和团队我都很有兴趣。", "en": "Thank you! I'm very interested in the role and the team." },
+      { "role": "Recruiter", "cn": "年薪九万五，含标准福利。", "en": "The base salary is ninety-five thousand, with standard benefits." },
+      { "role": "You", "cn": "根据我的经验，期望在十万到十万五之间。", "en": "Based on my experience, I was hoping for between one hundred and one hundred five thousand." },
+      { "role": "Recruiter", "cn": "我申请一下，明天给您答复。", "en": "Let me check with the team. I'll get back to you tomorrow." },
+      { "role": "You", "cn": "入职日期可以商量吗？", "en": "Is the start date flexible?" },
+      { "role": "Recruiter", "cn": "可以，两周到一个月都行。", "en": "Yes, anywhere from two weeks to a month works." }
+    ]
+  }
+]

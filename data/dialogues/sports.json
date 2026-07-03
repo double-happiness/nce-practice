@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-sport-01",
+    "category": "sports",
+    "title": "Basketball Court",
+    "titleCn": "篮球场",
+    "scene": "你想加入陌生人的半场篮球。",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "Player", "cn": "嘿，要打一局吗？我们缺一个人。", "en": "Hey, want to run a game? We need one more." },
+      { "role": "You", "cn": "好啊，打到几分？", "en": "Sure. What are we playing to?" },
+      { "role": "Player", "cn": "十一分，赢两球。", "en": "Eleven, win by two." },
+      { "role": "You", "cn": "你打什么位置？我打后卫。", "en": "What position do you play? I'm a guard." },
+      { "role": "Player", "cn": "我中锋，来吧，球给你发。", "en": "I'm center. Come on, you check up." },
+      { "role": "You", "cn": "好球！下一局算我一个。", "en": "Nice shot! Count me in for the next one too." },
+      { "role": "Player", "cn": "没问题，每周六上午我们都来。", "en": "No problem. We're here every Saturday morning." }
+    ]
+  },
+  {
+    "id": "dlg-sport-02",
+    "category": "sports",
+    "title": "Swimming Pool",
+    "titleCn": "游泳池",
+    "scene": "你去社区游泳池游泳。",
+    "roles": ["You", "Lifeguard"],
+    "turns": [
+      { "role": "Lifeguard", "cn": "请先冲淋浴再下水。", "en": "Please shower before getting in the pool." },
+      { "role": "You", "cn": "好的。泳道怎么分？", "en": "Okay. How are the lanes divided?" },
+      { "role": "Lifeguard", "cn": "慢速靠右，中间中速，左边快游。", "en": "Slow on the right, medium in the center, fast on the left." },
+      { "role": "You", "cn": "储物柜要硬币吗？", "en": "Do the lockers need coins?" },
+      { "role": "Lifeguard", "cn": "二十五美分押金，前台能换。", "en": "A quarter deposit. We can make change at the desk." },
+      { "role": "You", "cn": "泳池几点关？", "en": "What time does the pool close?" },
+      { "role": "Lifeguard", "cn": "晚上九点，八点四十五停止入场。", "en": "Nine PM. Last entry at eight forty-five." }
+    ]
+  },
+  {
+    "id": "dlg-sport-03",
+    "category": "sports",
+    "title": "Tennis Court Rental",
+    "titleCn": "租网球场",
+    "scene": "你打电话预订网球场。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "市立体育馆，有什么可以帮您？", "en": "City rec center. How can I help?" },
+      { "role": "You", "cn": "想订明天下午四点的网球场。", "en": "I'd like to book a tennis court tomorrow at four PM." },
+      { "role": "Staff", "cn": "二号场空着，一小时十五块。", "en": "Court two is open. Fifteen dollars per hour." },
+      { "role": "You", "cn": "可以租球拍吗？", "en": "Can I rent rackets?" },
+      { "role": "Staff", "cn": "五块一对，球另售。", "en": "Five dollars a pair. Balls sold separately." },
+      { "role": "You", "cn": "好，订两小时。", "en": "Okay, book two hours." },
+      { "role": "Staff", "cn": "确认短信已发，提前十分钟到前台。", "en": "Confirmation text sent. Check in at the desk ten minutes early." }
+    ]
+  },
+  {
+    "id": "dlg-sport-04",
+    "category": "sports",
+    "title": "Ski Lesson",
+    "titleCn": "滑雪课",
+    "scene": "你在滑雪场报名参加初学者课程。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "第一次滑雪吗？", "en": "Is this your first time skiing?" },
+      { "role": "You", "cn": "是的，有点紧张。", "en": "Yes. I'm a little nervous." },
+      { "role": "Instructor", "cn": "没关系，先学刹车和摔倒姿势。", "en": "No worries. We'll start with stopping and how to fall safely." },
+      { "role": "You", "cn": "雪具尺寸合适吗？", "en": "Do the boots and skis fit okay?" },
+      { "role": "Instructor", "cn": "脚趾刚好碰到前端就行，我帮您调。", "en": "Your toes should just touch the front. Let me adjust them." },
+      { "role": "You", "cn": "好的，我尽量跟上大家。", "en": "Okay. I'll try to keep up with the group." },
+      { "role": "Instructor", "cn": "慢慢来，安全第一。", "en": "Take your time. Safety first." }
+    ]
+  }
+]
