@@ -220,19 +220,19 @@
       NCE.api('/api/lesson/' + curBook + '/' + lesson)
         .then(function (l) {
           if (!l || l.error) {
-            alert((l && l.error) || '加载课程失败');
+            NCE.toast((l && l.error) || '加载课程失败', 'bad');
             return;
           }
           var sentences = collectSentences(l);
           if (!sentences.length) {
-            alert('本课没有可用于听写的例句，换一课试试。');
+            NCE.toast('本课没有可用于听写的例句，换一课试试', 'bad');
             return;
           }
           runSession(stage, curBook, lesson, sentences);
         })
         .catch(function (e) {
           console.error('[dictation] 加载课文失败', e);
-          alert('加载课文失败，请稍后重试。');
+          NCE.toast('加载课文失败，请稍后重试', 'bad');
         })
         .then(function () {
           startBtn.disabled = false;

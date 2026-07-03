@@ -5,7 +5,7 @@
 // - 记住上次的册/筛选/页码/搜索，再次进入不重置
 (function () {
   if (!window.NCE) { console.warn('[feat-vocab] NCE 未就绪'); return; }
-  const { api, speak, escapeHtml, escapeAttr, registerFeature } = window.NCE;
+  const { api, speak, escapeHtml, escapeAttr, registerFeature, goToDictionary, goToLesson, vocabTestUi } = window.NCE;
 
   const PER = 10; // 每页词数
   let V = null;   // 模块状态（跨 onShow 保留，解决“每次回到第一个”）
@@ -45,7 +45,7 @@
     .voc-btn{border:1px solid var(--border,#e4e8f2);background:#fff;border-radius:8px;padding:5px 10px;
       font-size:12px;font-weight:600;cursor:pointer;color:var(--ink-soft,#3a4356);transition:all .12s}
     .voc-btn.know:hover{border-color:#16a34a;color:#16a34a}
-    .voc-btn.unknow:hover{border-color:#dc2626;color:#dc2626}
+    .voc-btn.link:hover{border-color:var(--brand,#2f6fed);color:var(--brand,#2f6fed)}
     .voc-star{font-size:17px;cursor:pointer;flex:none;line-height:1}
     .voc-star.on{color:#f5a623}
     .voc-star:not(.on){color:#cbd2de}
@@ -55,6 +55,10 @@
     .voc-pager button:disabled{opacity:.4;cursor:not-allowed}
     .voc-pager .pg{font-size:13px;color:var(--muted,#6b7280)}
     .voc-empty{text-align:center;color:var(--muted,#6b7280);padding:30px;font-size:14px}
+    .voc-review-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+    .voc-review-btn{padding:7px 14px;border:1px solid var(--brand,#2f6fed);border-radius:8px;background:#eff6ff;
+      color:var(--brand,#2f6fed);font-size:13px;font-weight:600;cursor:pointer}
+    .voc-review-btn:hover{background:#dbeafe}
   `;
   document.head.appendChild(style);
 
@@ -119,10 +123,12 @@
           </div>
           ${badge(w.level)}
           <div class="voc-acts">
+            <button class="voc-btn link" data-act="dict" data-word="${escapeAttr(w.word)}" title="查词典">📕</button>
+            <button class="voc-btn link" data-act="lesson" data-word="${escapeAttr(w.word)}" data-book="${w.book}" data-lesson="${w.lesson}" title="去课文">📖</button>
             <button class="voc-btn know" data-act="know" data-word="${escapeAttr(w.word)}">认识</button>
             <button class="voc-btn unknow" data-act="unknow" data-word="${escapeAttr(w.word)}">不认识</button>
           </div>
-          <span class="voc-star ${starred ? 'on' : ''}" data-act="star" data-word="${escapeAttr(w.word)}" title="收藏/取消收藏">${starred ? '★' : '☆'}</span>
+          <span class="voc-star ${starred ? 'on' : ''}" data-act="star" data-word="${escapeAttr(w.word)}" title="收藏到生词本">${starred ? '★' : '☆'}</span>
         </div>`;
       }).join('');
     }
@@ -147,7 +153,12 @@
   function renderShell() {
     const books = (META && META.books) || [{ id: 1 }];
     panelEl.innerHTML =
-      `<h2 style="margin:0 0 14px">📇 生词本 · 全教材词表</h2>` +
+      `<h2 style="margin:0 0 6px">📚 教材词表</h2>` +
+      `<p style="margin:0 0 14px;font-size:13px;color:var(--muted,#6b7280)">浏览全册去重词库 · 点 ☆ 收藏即加入生词本</p>` +
+      `<div class="voc-review-bar hidden" id="vocReviewBar">` +
+      `<button type="button" class="voc-review-btn" id="vocReviewStarred">📕 逐个复习收藏</button>` +
+      `<button type="button" class="voc-review-btn" id="vocGoStarred">⭐ 只看收藏</button>` +
+      `</div>` +
       `<div class="voc-tools">
         <div class="voc-books">${books.map((b) => `<span class="voc-chip ${b.id === V.book ? 'on' : ''}" data-book="${b.id}">新概念${b.id}</span>`).join('')}</div>
         <div class="voc-filters">${FILTERS.map((f) => `<span class="voc-chip ${V.filter === f.k ? 'on' : ''}" data-f="${f.k}">${f.label}<span class="c">0</span></span>`).join('')}</div>
@@ -176,6 +187,32 @@
 
     // 列表内交互（事件委托，绑定一次）
     if (!bound) { panelEl.addEventListener('click', onListClick); bound = true; }
+    updateReviewBar();
+  }
+
+  function updateReviewBar() {
+    const bar = panelEl && panelEl.querySelector('#vocReviewBar');
+    if (!bar || !V) return;
+    const n = V.stars ? V.stars.size : 0;
+    bar.classList.toggle('hidden', !n);
+    const rev = panelEl.querySelector('#vocReviewStarred');
+    if (rev) {
+      rev.onclick = () => {
+        const list = V.words.filter((w) => V.stars.has(w.word.toLowerCase()));
+        if (vocabTestUi && list.length) vocabTestUi.startMissedReview(list, V.book, 'vocab');
+      };
+    }
+    const go = panelEl.querySelector('#vocGoStarred');
+    if (go) {
+      go.onclick = () => {
+        V.filter = 'starred';
+        V.page = 0;
+        renderList();
+        panelEl.querySelectorAll('.voc-chip[data-f]').forEach((el) => {
+          el.classList.toggle('on', el.dataset.f === 'starred');
+        });
+      };
+    }
   }
 
   function findWord(word) { return V.words.find((w) => w.word === word); }
@@ -188,6 +225,15 @@
     if (act === 'next') { V.page++; renderList(); return; }
     const word = el.dataset.word;
     if (act === 'speak') { speak(word); return; }
+    if (act === 'dict') {
+      const w = findWord(word);
+      if (goToDictionary) goToDictionary(word, w && w.book);
+      return;
+    }
+    if (act === 'lesson') {
+      if (goToLesson) goToLesson(el.dataset.book, el.dataset.lesson, { highlightWord: word });
+      return;
+    }
     if (act === 'know' || act === 'unknow') {
       const rating = act === 'know' ? 'known' : 'unknown';
       const r = await api('/api/words/rate', {
@@ -223,17 +269,25 @@
     ]);
     V.words = (wl && wl.words) || [];
     V.stars = new Set(((st && st.words) || []).map((w) => String(w.word).toLowerCase()));
+    updateReviewBar();
     renderList();
   }
 
   registerFeature({
-    id: 'vocab', label: '生词本', icon: '📇',
+    id: 'vocab', label: '词表', icon: '📚',
     async onShow(panel) {
       panelEl = panel;
       if (!V) V = { book: 1, filter: 'all', q: '', page: 0, words: [], stars: new Set() };
+      const pend = window.NCE.pendingVocab;
+      if (pend) {
+        if (pend.filter) V.filter = pend.filter;
+        if (pend.book != null) V.book = Number(pend.book);
+        V.page = 0;
+        NCE.pendingVocab = null;
+      }
       if (!META) META = await api('/api/meta').catch(() => ({ books: [{ id: 1 }] }));
-      renderShell();   // 重建外壳（恢复上次 filter/q/book 的选中态）
-      reload();        // 拉最新数据并按记住的 page 渲染
+      renderShell();
+      reload();
     },
   });
 })();

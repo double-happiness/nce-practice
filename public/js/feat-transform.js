@@ -52,6 +52,10 @@
       '.tf-answer{margin-top:8px;padding:8px 12px;background:#f6f8fc;border-radius:8px;font-size:15px;color:#345}' +
       '.tf-expl{margin-top:8px;padding:8px 12px;background:#fffaf0;border:1px solid #f4e6c8;border-radius:8px;font-size:14px;color:#654}' +
       '.tf-hint{color:#889;font-size:13px;margin:6px 0}' +
+      '.tf-link-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}' +
+      '.tf-link-btn{padding:5px 12px;border:1px solid #e5e9f2;border-radius:8px;background:#fff;cursor:pointer;font-size:13px;color:#334}' +
+      '.tf-link-btn:hover{border-color:#2b57d6;color:#2b57d6}' +
+      '.tf-lookup-hint{font-size:12px;color:#94a3b8;margin-top:6px}' +
       '.tf-summary{text-align:center;padding:20px}' +
       '.tf-summary .big{font-size:40px;font-weight:700;color:#2b57d6}' +
       '.tf-summary .sub{color:#667;margin-top:6px}' +
@@ -188,6 +192,7 @@
         '<ul class="tf-chain" id="tf-chain"></ul>' +
         '<div class="tf-step-prompt"><span class="k">' + (KIND_LABEL[step.kind] || step.kind) + '</span>' +
         NCE.escapeHtml(step.prompt) + '</div>' +
+        (NCE.bindPassageLookup ? '<div class="tf-lookup-hint">💡 选中下方英文句子中的单词可查词典</div>' : '') +
         '<input class="tf-input" id="tf-input" autocomplete="off" spellcheck="false" placeholder="输入英文句子，回车提交…" />' +
         '<div class="tf-actions"><button class="tf-btn primary" id="tf-submit">提交</button></div>' +
         '<div id="tf-feedback"></div>';
@@ -200,10 +205,14 @@
         li.innerHTML =
           '<span class="' + (c.correct ? 'ok' : 'bad') + '">' + (c.correct ? '✓' : '✗') + '</span> ' +
           '<span class="k">' + (KIND_LABEL[c.kind] || c.kind) + '</span>' +
-          NCE.escapeHtml(c.canonical);
+          (NCE.wrapPassageWords ? NCE.wrapPassageWords(c.canonical) : NCE.escapeHtml(c.canonical));
         chainBox.appendChild(li);
       });
       if (!chain.length) chainBox.style.display = 'none';
+      else {
+        if (NCE.bindPassageLookup) NCE.bindPassageLookup(chainBox, ex.book);
+        if (NCE.bindPassageWords) NCE.bindPassageWords(chainBox, ex.book);
+      }
 
       var input = card.querySelector('#tf-input');
       var submitBtn = card.querySelector('#tf-submit');
@@ -270,7 +279,10 @@
         feedback.innerHTML =
           '<div class="tf-verdict ' + (r.correct ? 'ok' : 'bad') + '">' +
           (r.correct ? '✓ 正确' : '✗ 不对，看看参考答案（已加入间隔复习）') + '</div>' +
-          '<div class="tf-answer">📖 参考答案：' + NCE.escapeHtml(r.answers.join(' / ')) +
+          '<div class="tf-answer" id="tf-answer">📖 参考答案：' +
+          (r.answers || []).map(function (a) {
+            return NCE.wrapPassageWords ? NCE.wrapPassageWords(a) : NCE.escapeHtml(a);
+          }).join(' <span style="color:#94a3b8">/</span> ') +
           ' <button class="tf-btn" style="padding:2px 8px;font-size:13px" id="tf-speak">🔊</button></div>' +
           (isLastStep && r.explanation ? '<div class="tf-expl">💡 ' + NCE.escapeHtml(r.explanation) + '</div>' : '') +
           '<div class="tf-actions"><button class="tf-btn primary" id="tf-next">' + nextLabel + '</button></div>' +
@@ -279,6 +291,35 @@
         feedback.querySelector('#tf-speak').onclick = function () {
           NCE.speak(r.answers[0]);
         };
+        var ansEl = feedback.querySelector('#tf-answer');
+        if (NCE.bindPassageLookup && ansEl) NCE.bindPassageLookup(ansEl, ex.book);
+        if (NCE.bindPassageWords && ansEl) NCE.bindPassageWords(ansEl, ex.book);
+
+        if (!r.correct) {
+          var chipWords = [];
+          var seen = {};
+          [].concat(r.answers || [], [val]).concat(chain.map(function (c) { return c.canonical; })).forEach(function (src) {
+            (NCE.extractLookupWords ? NCE.extractLookupWords(src) : []).forEach(function (w) {
+              var k = w.toLowerCase();
+              if (!seen[k]) { seen[k] = true; chipWords.push(w); }
+            });
+          });
+          if (NCE.appendDictChips && chipWords.length) {
+            NCE.appendDictChips(feedback, chipWords.slice(0, 8), ex.book);
+          }
+          if (NCE.goToLesson && ex.book != null && ex.lesson != null) {
+            var links = document.createElement('div');
+            links.className = 'tf-link-row';
+            var lessonBtn = document.createElement('button');
+            lessonBtn.type = 'button';
+            lessonBtn.className = 'tf-link-btn';
+            lessonBtn.textContent = '📖 去课文';
+            lessonBtn.onclick = function () { NCE.goToLesson(ex.book, ex.lesson); };
+            links.appendChild(lessonBtn);
+            feedback.appendChild(links);
+          }
+        }
+
         var nextBtn = feedback.querySelector('#tf-next');
         nextBtn.focus();
         nextBtn.onclick = function () {

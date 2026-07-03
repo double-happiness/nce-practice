@@ -36,6 +36,13 @@
     .srv-empty{text-align:center;color:#059669;font-size:16px;padding:36px 0}
     .srv-actions{margin-top:16px;display:flex;gap:10px;flex-wrap:wrap}
     .srv-progress{color:#888;font-size:13px;margin-top:10px}
+    .srv-link-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .srv-link-btn{
+      padding:5px 12px;border:1px solid #e5e7eb;border-radius:8px;background:#fff;
+      cursor:pointer;font-size:13px;color:#334
+    }
+    .srv-link-btn:hover{border-color:#2563eb;color:#2563eb}
+    .srv-lookup-hint{font-size:12px;color:#94a3b8;margin-top:6px}
   `;
   document.head.appendChild(style);
 
@@ -48,6 +55,14 @@
     if (hrs < 24) return `约 ${hrs} 小时后`;
     const days = Math.round(diff / 86400000);
     return `约 ${days} 天后`;
+  }
+
+  function extractWords(text) {
+    return NCE.extractLookupWords ? NCE.extractLookupWords(text) : [];
+  }
+
+  function appendDictChips(container, words, book) {
+    if (NCE.appendDictChips) NCE.appendDictChips(container, words, book);
   }
 
   async function renderHome(panel) {
@@ -127,7 +142,8 @@
         : '';
       card.innerHTML =
         `<div class="srv-meta">第 ${idx + 1} / ${questions.length} 题 · Book ${q.book} · Lesson ${q.lesson}${q.lessonTitle ? ' ' + esc(q.lessonTitle) : ''}</div>` +
-        `<div class="srv-stem">${esc(q.stem)} ${speakBtn}</div>`;
+        `<div class="srv-stem">${esc(q.stem)} ${speakBtn}</div>` +
+        (NCE.bindPassageLookup ? '<div class="srv-lookup-hint">💡 选中题干中的英文可查词典</div>' : '');
 
       const body = document.createElement('div');
       let getResponse = () => null;
@@ -171,6 +187,7 @@
 
       const spk = card.querySelector('.srv-spk');
       if (spk && NCE.speak) spk.onclick = () => NCE.speak(spk.dataset.speak);
+      if (NCE.bindPassageLookup) NCE.bindPassageLookup(card.querySelector('.srv-stem'), q.book);
 
       submitBtn.onclick = async () => {
         const response = getResponse();
@@ -202,6 +219,26 @@
           (r.explanation ? `<div class="srv-exp">💡 ${esc(r.explanation)}</div>` : '') +
           `<div class="srv-next">⏰ 下次复习：${esc(fmtDue(r.nextDueAt))}</div>`;
         card.insertBefore(fb, actions);
+
+        if (!r.correct) {
+          const stemWords = extractWords(q.stem);
+          const ansWords = extractWords(ansText);
+          const chips = [...new Set([...stemWords, ...ansWords].map((w) => w.toLowerCase()))]
+            .map((k) => stemWords.find((w) => w.toLowerCase() === k) || ansWords.find((w) => w.toLowerCase() === k))
+            .filter(Boolean);
+          appendDictChips(fb, chips.slice(0, 6), q.book);
+          const links = document.createElement('div');
+          links.className = 'srv-link-row';
+          if (NCE.goToLesson && q.book != null && q.lesson != null) {
+            const lessonBtn = document.createElement('button');
+            lessonBtn.type = 'button';
+            lessonBtn.className = 'srv-link-btn';
+            lessonBtn.textContent = '📖 去课文';
+            lessonBtn.onclick = () => NCE.goToLesson(q.book, q.lesson);
+            links.appendChild(lessonBtn);
+          }
+          if (links.childNodes.length) fb.appendChild(links);
+        }
 
         // 禁用作答控件
         body.querySelectorAll('input').forEach((i) => { i.disabled = true; });
