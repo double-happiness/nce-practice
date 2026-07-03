@@ -1,0 +1,434 @@
+[
+  {
+    "book": 2,
+    "lesson": 73,
+    "title": "The record-holder",
+    "titleCn": "纪录保持者",
+    "scene": "一个男孩和朋友打赌，夸口自己能一口气吞下很多鸡蛋。起初大家都把这当成玩笑，可他真的当场开始挑战：先吞下十三个生鸡蛋，最后还加了一个煮鸡蛋，围观者全都看呆了。有人觉得他比同龄人更大胆，也有人担心这种行为太危险。虽然他暂时赢得了“纪录保持者”的称号，但老师提醒大家，盲目追求“最多、最快、最强”并不一定值得模仿，健康比炫耀更重要。",
+    "grammarTags": ["一般过去时", "比较级", "最高级"],
+    "words": [
+      { "word": "record-holder", "phon": "/ˈrekɔːd ˌhəʊldə/", "pos": "n.", "cn": "纪录保持者", "eg": "He became the record-holder after the bet. 打赌后他成了纪录保持者。" },
+      { "word": "bet", "phon": "/bet/", "pos": "n./v.", "cn": "打赌", "eg": "The boy made a bet with his friend. 男孩和朋友打了个赌。" },
+      { "word": "swallow", "phon": "/ˈswɒləʊ/", "pos": "v.", "cn": "吞下", "eg": "He swallowed the eggs one by one. 他把鸡蛋一个接一个吞下。" },
+      { "word": "boiled", "phon": "/bɔɪld/", "pos": "adj.", "cn": "煮熟的", "eg": "He even ate one boiled egg at the end. 最后他甚至还吃了一个煮鸡蛋。" },
+      { "word": "daring", "phon": "/ˈdeərɪŋ/", "pos": "adj.", "cn": "大胆的", "eg": "His friends thought he was very daring. 朋友们觉得他非常大胆。" },
+      { "word": "dangerous", "phon": "/ˈdeɪndʒərəs/", "pos": "adj.", "cn": "危险的", "eg": "The teacher said the act was dangerous. 老师说这种行为很危险。" },
+      { "word": "challenge", "phon": "/ˈtʃælɪndʒ/", "pos": "n./v.", "cn": "挑战", "eg": "He accepted the strange challenge immediately. 他立刻接受了这个奇怪的挑战。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "本课讲述一次已经结束的打赌事件，主线动作用一般过去时，如 made、swallowed、won。易错点是叙事中时态要一致，不要在同一段落随意切到现在时。",
+        "examples": [
+          "He swallowed thirteen eggs in front of everyone. （他在众人面前吞下了十三个鸡蛋。）",
+          "His friend laughed and paid the bet. （他的朋友笑着付了赌注。）"
+        ]
+      },
+      {
+        "point": "比较级与最高级",
+        "explain": "比较级用于两者对比，如 braver than；最高级用于三者及以上中的“最”，如 the most unusual record。易错点：最高级前通常要加 the。",
+        "examples": [
+          "He was braver than the others in the room. （他比屋里其他人更大胆。）",
+          "It was the strangest bet that day. （那是当天最离奇的赌约。）"
+        ]
+      }
+    ],
+    "tips": "这课先用一般过去时把“打赌-挑战-结果”串起来，再用比较级和最高级表达评价，如“更大胆”“最离奇”。"
+  },
+  {
+    "book": 2,
+    "lesson": 74,
+    "title": "Out of the limelight",
+    "titleCn": "不再成为焦点",
+    "scene": "一位著名女演员厌倦了聚光灯下的生活，决定暂时离开大众视线。她没有去大剧院，而是悄悄进入一家小剧场，甚至在新戏里扮演一个女仆角色。观众起初并没有认出她，因为她穿着朴素、台词不多，也总是站在主角后面。演出结束后，工作人员才发现这位“普通演员”其实是名人。她说自己只是想在舞台上安静地演戏，不想总被媒体包围。这个故事适合练习一般过去时与介词搭配。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      { "word": "limelight", "phon": "/ˈlaɪmlaɪt/", "pos": "n.", "cn": "公众关注中心", "eg": "She wanted to stay out of the limelight. 她想远离公众焦点。" },
+      { "word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "The famous actress chose a small theatre. 这位著名女演员选择了小剧场。" },
+      { "word": "servant", "phon": "/ˈsɜːvənt/", "pos": "n.", "cn": "仆人", "eg": "She played the role of a servant. 她扮演了一个仆人角色。" },
+      { "word": "theatre", "phon": "/ˈθɪətə/", "pos": "n.", "cn": "剧院", "eg": "The theatre was hidden in a quiet street. 这家剧院藏在一条安静街道里。" },
+      { "word": "audience", "phon": "/ˈɔːdiəns/", "pos": "n.", "cn": "观众", "eg": "The audience did not recognize her at first. 观众起初没有认出她。" },
+      { "word": "behind", "phon": "/bɪˈhaɪnd/", "pos": "prep.", "cn": "在……后面", "eg": "She stood behind the main actors on stage. 她在舞台上站在主角后面。" },
+      { "word": "quietly", "phon": "/ˈkwaɪətli/", "pos": "adv.", "cn": "安静地", "eg": "She left the theatre quietly after the show. 演出后她安静地离开了剧院。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "用于叙述女演员隐藏身份的完整过程，如 chose、played、left。易错点：过去叙事里并列动词要保持过去式。",
+        "examples": [
+          "She joined a small theatre and acted as a servant. （她加入小剧场并扮演仆人。）",
+          "No one recognized her until the end. （直到最后都没人认出她。）"
+        ]
+      },
+      {
+        "point": "介词（out of, in, behind, after）",
+        "explain": "本课大量使用介词表达位置和状态，如 out of the limelight、in a small theatre、behind the actors。易错点：介词与固定搭配要整体记忆。",
+        "examples": [
+          "She stayed out of the limelight for months. （她几个月都远离公众关注。）",
+          "She waited behind the curtain before the play. （演出前她在幕布后等待。）"
+        ]
+      }
+    ],
+    "tips": "记住标题短语 out of the limelight；遇到“在哪里、在谁后面、何时之后”优先用介词补全细节。"
+  },
+  {
+    "book": 2,
+    "lesson": 75,
+    "title": "SOS",
+    "titleCn": "求救信号",
+    "scene": "大型油轮托里峡谷号在海上触礁后，船体严重受损，情况迅速恶化。船员一边抢修，一边向外界发出求救信息，历史上著名的 SOS 信号也因此被更多人记住。无线电台很快收到了这条信息，附近船只和救援力量被紧急调动。虽然部分人员及时获救，但泄漏造成的污染仍然十分严重。整件事后来被反复研究，成为海上安全教育中的经典案例，也提醒人们在危机时刻准确传递信息的重要性。",
+    "grammarTags": ["一般过去时", "被动语态"],
+    "words": [
+      { "word": "SOS", "phon": "/ˌes əʊ ˈes/", "pos": "n.", "cn": "紧急求救信号", "eg": "An SOS message was sent immediately. 一条 SOS 求救信息被立刻发出。" },
+      { "word": "ship", "phon": "/ʃɪp/", "pos": "n.", "cn": "船", "eg": "The ship hit rocks near the coast. 这艘船在海岸附近撞上礁石。" },
+      { "word": "radio", "phon": "/ˈreɪdiəʊ/", "pos": "n.", "cn": "无线电", "eg": "The radio operator stayed calm under pressure. 无线电员在压力下保持冷静。" },
+      { "word": "rescue", "phon": "/ˈreskjuː/", "pos": "v./n.", "cn": "救援", "eg": "Rescue teams reached the area quickly. 救援队很快到达该区域。" },
+      { "word": "leak", "phon": "/liːk/", "pos": "v./n.", "cn": "泄漏", "eg": "Oil leaked into the sea for hours. 石油向海里泄漏了数小时。" },
+      { "word": "coast", "phon": "/kəʊst/", "pos": "n.", "cn": "海岸", "eg": "The accident happened off the coast. 事故发生在近海区域。" },
+      { "word": "emergency", "phon": "/ɪˈmɜːdʒənsi/", "pos": "n.", "cn": "紧急情况", "eg": "Everyone followed emergency instructions. 所有人都遵循了紧急指令。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "讲述海难经过时使用一般过去时，如 hit、sent、arrived。易错点：时间顺序清晰时，动作都用过去式即可。",
+        "examples": [
+          "The ship hit a rock and lost control. （船撞上礁石后失去控制。）",
+          "Nearby boats came and helped the crew. （附近船只赶来帮助船员。）"
+        ]
+      },
+      {
+        "point": "被动语态（一般过去时）",
+        "explain": "强调动作承受者时用被动，如 an SOS message was sent。易错点：被动结构不能缺 be 动词。",
+        "examples": [
+          "The emergency signal was received at once. （紧急信号立刻被收到。）",
+          "Several sailors were rescued before nightfall. （几名水手在天黑前被救起。）"
+        ]
+      }
+    ],
+    "tips": "主线事件用一般过去时，想突出“信号被发出、人员被救起”就换成被动语态。"
+  },
+  {
+    "book": 2,
+    "lesson": 76,
+    "title": "April Fools' Day",
+    "titleCn": "愚人节",
+    "scene": "愚人节当天，英国广播公司在电视节目里一本正经地介绍“意大利面树”，画面中人们从树上采下面条，解说员还讲得头头是道。很多观众看完后信以为真，甚至打电话询问自己是否也能种这种“面条树”。节目播出后，编辑部接到大量来电，工作人员才公开说明这只是节日玩笑。虽然有人觉得被捉弄很尴尬，但更多人被这个创意逗笑。这则经典案例展示了媒体影响力，也适合练习过去时和被动表达。",
+    "grammarTags": ["一般过去时", "被动语态"],
+    "words": [
+      { "word": "April Fools' Day", "phon": "/ˌeɪprəl ˈfuːlz deɪ/", "pos": "n.", "cn": "愚人节", "eg": "The joke was broadcast on April Fools' Day. 这个玩笑在愚人节播出。" },
+      { "word": "broadcast", "phon": "/ˈbrɔːdkɑːst/", "pos": "v./n.", "cn": "播出", "eg": "The BBC broadcast a famous hoax. BBC 播出了一场著名恶作剧。" },
+      { "word": "spaghetti", "phon": "/spəˈɡeti/", "pos": "n.", "cn": "意大利面", "eg": "Viewers saw spaghetti hanging on trees. 观众看到树上挂着意大利面。" },
+      { "word": "viewer", "phon": "/ˈvjuːə/", "pos": "n.", "cn": "观众", "eg": "Many viewers were completely fooled. 许多观众完全被骗了。" },
+      { "word": "hoax", "phon": "/həʊks/", "pos": "n.", "cn": "恶作剧；骗局", "eg": "It became one of the most famous TV hoaxes. 它成了最著名的电视恶作剧之一。" },
+      { "word": "plant", "phon": "/plɑːnt/", "pos": "v.", "cn": "种植", "eg": "Some people asked how to plant spaghetti trees. 有些人询问怎么种意大利面树。" },
+      { "word": "serious", "phon": "/ˈsɪəriəs/", "pos": "adj.", "cn": "严肃的", "eg": "The presenter looked very serious on screen. 主持人在屏幕上看起来非常严肃。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "该课讲述一次特定节日事件，动作均已结束，用一般过去时，如 showed、called、explained。易错点：不要把过去事件误用现在完成时。",
+        "examples": [
+          "The program showed people picking spaghetti from trees. （节目展示了人们从树上采面条。）",
+          "Thousands of viewers believed the story. （成千上万观众相信了这个故事。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "当强调“观众被愚弄”“节目被播出”时使用被动。易错点：注意过去被动是 was/were + 过去分词。",
+        "examples": [
+          "The joke was presented as real news. （这个玩笑被当作真实新闻呈现。）",
+          "Many people were fooled by the report. （很多人被这则报道骗了。）"
+        ]
+      }
+    ],
+    "tips": "看到愚人节故事先锁定一般过去时；若主语是“节目、观众”等受动者，优先考虑被动语态。"
+  },
+  {
+    "book": 2,
+    "lesson": 77,
+    "title": "A successful operation",
+    "titleCn": "一次成功的手术",
+    "scene": "考古学家在发掘现场发现一具木乃伊，准备把它送往医院做精细处理。由于遗体极其脆弱，医疗团队在正式操作前已经制定了完整方案，相关器械也提前完成消毒和测试。手术当天，木乃伊被小心固定，外层包裹被逐步分离，研究人员全程记录每个细节。经过数小时努力，关键步骤顺利完成，现场人员都松了一口气。后来专家表示，这次处理不仅保护了文物，也为古代医学研究提供了宝贵资料。",
+    "grammarTags": ["过去完成时", "被动语态"],
+    "words": [
+      { "word": "operation", "phon": "/ˌɒpəˈreɪʃn/", "pos": "n.", "cn": "手术；操作", "eg": "The operation lasted for several hours. 这次手术持续了几个小时。" },
+      { "word": "mummy", "phon": "/ˈmʌmi/", "pos": "n.", "cn": "木乃伊", "eg": "The mummy was moved to the hospital carefully. 木乃伊被小心送到医院。" },
+      { "word": "archaeologist", "phon": "/ˌɑːkiˈɒlədʒɪst/", "pos": "n.", "cn": "考古学家", "eg": "Archaeologists had prepared detailed notes. 考古学家之前已准备好详细笔记。" },
+      { "word": "fragile", "phon": "/ˈfrædʒaɪl/", "pos": "adj.", "cn": "脆弱的", "eg": "The body was too fragile to move quickly. 这具遗体太脆弱，不能快速移动。" },
+      { "word": "sterilize", "phon": "/ˈsterəlaɪz/", "pos": "v.", "cn": "消毒", "eg": "All tools had been sterilized in advance. 所有工具都已提前消毒。" },
+      { "word": "preserve", "phon": "/prɪˈzɜːv/", "pos": "v.", "cn": "保护，保存", "eg": "The team worked hard to preserve the remains. 团队努力保护遗体。" },
+      { "word": "successful", "phon": "/səkˈsesfl/", "pos": "adj.", "cn": "成功的", "eg": "It was a successful operation in the end. 最终这是一次成功的手术。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "表示“过去某动作之前已经完成”的动作，如 had prepared、had been sterilized。易错点：要有过去参照动作，否则不必强行用过去完成时。",
+        "examples": [
+          "The team had prepared the plan before the operation began. （手术开始前团队已准备好方案。）",
+          "Researchers had checked every instrument twice. （研究人员已把每件器械检查了两遍。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "木乃伊和器械多为受动对象，常用被动，如 was moved、was fixed。易错点：时态不同，被动中的 be 也要随之变化。",
+        "examples": [
+          "The mummy was placed on a special table. （木乃伊被放在专用台上。）",
+          "Every step was recorded by the doctors. （每个步骤都被医生记录。）"
+        ]
+      }
+    ],
+    "tips": "先分清“先准备”与“后手术”的时间线：先发生用过去完成时，手术当日过程常用一般过去时被动。"
+  },
+  {
+    "book": 2,
+    "lesson": 78,
+    "title": "The last one?",
+    "titleCn": "最后一支吗？",
+    "scene": "一位长期吸烟的男士在朋友劝说下决定戒烟。他点燃“最后一支”时信心满满，但几小时后又开始犹豫。为了彻底改变习惯，他把家里的烟盒都扔掉，并告诉同事自己已经戒烟。接下来几周里，他一直在刻意避免去吸烟区，也不断提醒自己别再复吸。虽然过程很难，他还是逐渐适应了无烟生活。这个故事既涉及“已经完成的结果”，也强调“持续进行的努力”，非常适合练习现在完成时和现在完成进行时。",
+    "grammarTags": ["现在完成时", "现在完成进行时"],
+    "words": [
+      { "word": "cigarette", "phon": "/ˌsɪɡəˈret/", "pos": "n.", "cn": "香烟", "eg": "He smoked his last cigarette yesterday. 他昨天抽了最后一支烟。" },
+      { "word": "give up", "phon": "/ɡɪv ʌp/", "pos": "phr.v.", "cn": "戒掉；放弃", "eg": "He has given up smoking at last. 他终于已经戒烟了。" },
+      { "word": "habit", "phon": "/ˈhæbɪt/", "pos": "n.", "cn": "习惯", "eg": "Smoking had become a bad habit for him. 吸烟曾是他的坏习惯。" },
+      { "word": "avoid", "phon": "/əˈvɔɪd/", "pos": "v.", "cn": "避免", "eg": "He has been avoiding smoking areas recently. 他最近一直在避开吸烟区。" },
+      { "word": "healthy", "phon": "/ˈhelθi/", "pos": "adj.", "cn": "健康的", "eg": "He feels healthier after quitting. 戒烟后他感觉更健康了。" },
+      { "word": "temptation", "phon": "/tempˈteɪʃn/", "pos": "n.", "cn": "诱惑", "eg": "He still faces temptation at parties. 在聚会上他仍会面对诱惑。" },
+      { "word": "forever", "phon": "/fəˈrevə/", "pos": "adv.", "cn": "永远", "eg": "He says he will stay away from cigarettes forever. 他说自己会永远远离香烟。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "强调过去动作对现在的结果，如 has given up、has thrown away。易错点：现在完成时一般不与明确过去时间点直接连用。",
+        "examples": [
+          "He has given up smoking for good. （他已经彻底戒烟了。）",
+          "He has changed many daily habits. （他已经改变了很多日常习惯。）"
+        ]
+      },
+      {
+        "point": "现在完成进行时",
+        "explain": "强调从过去开始持续到现在的过程，如 has been trying、has been avoiding。易错点：结构必须是 have/has been doing。",
+        "examples": [
+          "He has been fighting the urge to smoke. （他一直在对抗吸烟冲动。）",
+          "They have been supporting him since last month. （他们从上个月起一直在支持他。）"
+        ]
+      }
+    ],
+    "tips": "“已经戒掉了”看结果用现在完成时；“这段时间一直在坚持”看过程用现在完成进行时。"
+  },
+  {
+    "book": 2,
+    "lesson": 79,
+    "title": "By air",
+    "titleCn": "乘飞机",
+    "scene": "一名旅客曾兴奋地乘飞机飞往布宜诺斯艾利斯，途中一路欣赏云层和海岸线。可返程时他在机场突然紧张起来，担心再次乘机会出问题。最终他临时改主意，选择坐船回国，虽然旅程更慢，却让他安心许多。朋友们听后都觉得意外，因为他去程明明飞得很顺利。这个故事展示了同一个人在不同时刻的心理变化，也提供了大量交通方式介词表达，如 by air、by sea、on board 等。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      { "word": "air", "phon": "/eə/", "pos": "n.", "cn": "空中；航空", "eg": "He travelled by air to Buenos Aires. 他乘飞机去了布宜诺斯艾利斯。" },
+      { "word": "sea", "phon": "/siː/", "pos": "n.", "cn": "海；海路", "eg": "He came back by sea instead. 他改为走海路回来。" },
+      { "word": "flight", "phon": "/flaɪt/", "pos": "n.", "cn": "航班；飞行", "eg": "The first flight was smooth and quiet. 第一段飞行平稳安静。" },
+      { "word": "boat", "phon": "/bəʊt/", "pos": "n.", "cn": "船", "eg": "The boat took much longer than the plane. 坐船比坐飞机花了更久。" },
+      { "word": "afraid", "phon": "/əˈfreɪd/", "pos": "adj.", "cn": "害怕的", "eg": "He was afraid of flying back. 他害怕坐飞机返程。" },
+      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v./n.", "cn": "返回", "eg": "He returned home a week later. 一周后他回到了家。" },
+      { "word": "on board", "phon": "/ɒn bɔːd/", "pos": "prep. phr.", "cn": "在船上/机上", "eg": "He felt calmer on board the ship. 在船上时他更平静。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "故事描述已经发生的往返经历，动词常用 flew、decided、returned。易错点：fly 过去式是 flew，不是 flied。",
+        "examples": [
+          "He flew to Buenos Aires in spring. （他春天飞去了布宜诺斯艾利斯。）",
+          "He chose a boat for the return trip. （返程他选择了坐船。）"
+        ]
+      },
+      {
+        "point": "介词短语（by air/by sea/on board）",
+        "explain": "交通方式常用 by + 交通工具类别，如 by air、by sea；具体在交通工具上可用 on board。易错点：by 后通常不用冠词。",
+        "examples": [
+          "They travelled by air but came back by sea. （他们乘飞机去，却坐船回来。）",
+          "He met an old friend on board. （他在船上遇到了老朋友。）"
+        ]
+      }
+    ],
+    "tips": "交通方式优先想 by air/by sea 这类固定搭配；叙述行程变化时保持一般过去时一致。"
+  },
+  {
+    "book": 2,
+    "lesson": 80,
+    "title": "The Crystal Palace",
+    "titleCn": "水晶宫",
+    "scene": "1851 年伦敦举办万国博览会，为了展示工业成就，工程师们设计了一座前所未有的玻璃与钢结构建筑——水晶宫。它建造速度惊人，巨大的构件被提前制作后运到现场组装，施工过程井然有序。开幕那天，来自各国的参观者涌入展馆，对透明穹顶和宽阔空间赞叹不已。水晶宫后来被迁移到新址，继续承载展览和公共活动。虽然建筑最终毁于火灾，但它在建筑史上的影响一直被反复提及。",
+    "grammarTags": ["一般过去时", "被动语态"],
+    "words": [
+      { "word": "Crystal Palace", "phon": "/ˌkrɪstl ˈpæləs/", "pos": "n.", "cn": "水晶宫", "eg": "The Crystal Palace was built for the exhibition. 水晶宫是为博览会而建的。" },
+      { "word": "exhibition", "phon": "/ˌeksɪˈbɪʃn/", "pos": "n.", "cn": "展览会", "eg": "The Great Exhibition opened in 1851. 万国博览会于 1851 年开幕。" },
+      { "word": "steel", "phon": "/stiːl/", "pos": "n.", "cn": "钢材", "eg": "Steel frames supported the whole structure. 钢架支撑了整个结构。" },
+      { "word": "glass", "phon": "/ɡlɑːs/", "pos": "n.", "cn": "玻璃", "eg": "Large glass panels were used everywhere. 各处都使用了大型玻璃板。" },
+      { "word": "structure", "phon": "/ˈstrʌktʃə/", "pos": "n.", "cn": "结构", "eg": "The structure looked light but strong. 这个结构看起来轻巧却结实。" },
+      { "word": "visitor", "phon": "/ˈvɪzɪtə/", "pos": "n.", "cn": "参观者", "eg": "Visitors came from many countries. 参观者来自很多国家。" },
+      { "word": "rebuild", "phon": "/ˌriːˈbɪld/", "pos": "v.", "cn": "重建", "eg": "Parts were rebuilt after being moved. 建筑迁移后部分区域被重建。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "该课属于历史叙事，描述 1851 年前后的事件，常用 built、opened、moved。易错点：历史事实通常不用现在时。",
+        "examples": [
+          "The exhibition opened in London in 1851. （博览会于 1851 年在伦敦开幕。）",
+          "People admired the building immediately. （人们立刻赞叹这座建筑。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "强调建筑被建造、构件被组装时，使用被动语态，如 was built、were assembled。易错点：注意单复数主语与 be 动词一致。",
+        "examples": [
+          "The palace was built with glass and steel. （水晶宫由玻璃和钢材建成。）",
+          "The parts were carried to the site by train. （构件被火车运到现场。）"
+        ]
+      }
+    ],
+    "tips": "历史年份是一般过去时强提示；讲“建筑被建造、材料被运输”时，优先使用被动。"
+  },
+  {
+    "book": 2,
+    "lesson": 81,
+    "title": "Escape",
+    "titleCn": "逃脱",
+    "scene": "战争期间，一名战俘趁夜色设法逃离看守营地。他没有立刻远走，而是先躲在野外开阔地附近，白天伏低身形，夜晚才缓慢前进。为了不暴露行踪，他总在树后、石墙旁或草丛间短暂停留，并尽量绕开道路和村庄。几天后，他终于接近友军控制区，获得安全保护。整个经历惊险而克制，既体现了过去叙事节奏，也依赖大量介词来说明路线与位置关系，是练习“动作+方位”表达的好材料。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      { "word": "escape", "phon": "/ɪˈskeɪp/", "pos": "v./n.", "cn": "逃脱", "eg": "The prisoner escaped at night. 这名囚犯在夜里逃脱了。" },
+      { "word": "prisoner of war", "phon": "/ˌprɪznə əv ˈwɔː/", "pos": "n.", "cn": "战俘", "eg": "The prisoner of war waited for a chance. 这名战俘等待着机会。" },
+      { "word": "camp", "phon": "/kæmp/", "pos": "n.", "cn": "营地", "eg": "He ran away from the camp quietly. 他悄悄逃离了营地。" },
+      { "word": "open air", "phon": "/ˌəʊpən ˈeə/", "pos": "n.", "cn": "露天", "eg": "He hid in the open air for days. 他在露天环境中躲了好几天。" },
+      { "word": "hide", "phon": "/haɪd/", "pos": "v.", "cn": "躲藏", "eg": "He hid behind rocks during daylight. 白天他躲在岩石后面。" },
+      { "word": "across", "phon": "/əˈkrɒs/", "pos": "prep.", "cn": "穿过", "eg": "He moved across fields at night. 他夜里穿过田野移动。" },
+      { "word": "towards", "phon": "/təˈwɔːdz/", "pos": "prep.", "cn": "朝向", "eg": "He walked towards friendly territory. 他朝友军控制区前进。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "故事按时间推进，动作都已发生，用一般过去时，如 escaped、hid、reached。易错点：规则与不规则动词过去式需准确。",
+        "examples": [
+          "He escaped from the camp after midnight. （他在午夜后逃离营地。）",
+          "He reached a safe area three days later. （三天后他到达安全区域。）"
+        ]
+      },
+      {
+        "point": "介词（from, in, behind, across, towards）",
+        "explain": "本课核心是路径和方位表达，如 from the camp、behind rocks、towards safety。易错点：不同介词表示的方向感不同，不可随意替换。",
+        "examples": [
+          "He hid behind a wall in the daytime. （白天他躲在墙后。）",
+          "He moved across the field towards the river. （他穿过田野朝河边移动。）"
+        ]
+      }
+    ],
+    "tips": "按“从哪里-躲在哪里-朝哪里去”三个问题组织句子，介词就不容易出错。"
+  },
+  {
+    "book": 2,
+    "lesson": 82,
+    "title": "Monster or fish?",
+    "titleCn": "怪物还是鱼？",
+    "scene": "一位渔夫在海上捕到一种外形奇特的生物，头部宽大、皮肤粗糙，和他平时见过的鱼完全不同。他把这条“怪鱼”带回码头后，围观者议论纷纷，有人说是深海怪物，有人坚持它只是罕见鱼类。渔夫随后把样本拿给鱼贩查看，后者虽然经验丰富，也一时难以判断。记者赶来采访时，不少人仍争论不休。故事里常出现“这不是……吗？”“它看起来像……，对吧？”这类反意疑问句，语气生动。",
+    "grammarTags": ["一般过去时", "反意疑问句"],
+    "words": [
+      { "word": "monster", "phon": "/ˈmɒnstə/", "pos": "n.", "cn": "怪物", "eg": "Some people thought it was a sea monster. 有人认为它是海怪。" },
+      { "word": "fisherman", "phon": "/ˈfɪʃəmən/", "pos": "n.", "cn": "渔夫", "eg": "The fisherman caught the strange creature. 渔夫捕到了这个奇怪生物。" },
+      { "word": "creature", "phon": "/ˈkriːtʃə/", "pos": "n.", "cn": "生物", "eg": "No one had seen such a creature before. 以前没人见过这种生物。" },
+      { "word": "fishmonger", "phon": "/ˈfɪʃˌmʌŋɡə/", "pos": "n.", "cn": "鱼贩", "eg": "He showed it to a local fishmonger. 他把它拿给当地鱼贩看。" },
+      { "word": "strange", "phon": "/streɪndʒ/", "pos": "adj.", "cn": "奇怪的", "eg": "Its strange shape shocked everyone. 它奇怪的外形让大家震惊。" },
+      { "word": "argue", "phon": "/ˈɑːɡjuː/", "pos": "v.", "cn": "争论", "eg": "People argued about it for hours. 人们为它争论了好几个小时。" },
+      { "word": "scale", "phon": "/skeɪl/", "pos": "n.", "cn": "鳞片", "eg": "The fish had thick and dark scales. 这条鱼有厚厚的深色鳞片。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "该课叙述一次捕捞与围观过程，动词用过去式，如 caught、showed、argued。易错点：question tags 本身可用现在时，但主句时态仍需按语境决定。",
+        "examples": [
+          "The fisherman caught it early in the morning. （渔夫清晨捕到了它。）",
+          "He showed it to a fishmonger in town. （他把它拿给镇上的鱼贩看。）"
+        ]
+      },
+      {
+        "point": "反意疑问句",
+        "explain": "反意疑问句由“陈述句 + 简短疑问”组成，前肯后否或前否后肯，如 It's a fish, isn't it? 易错点：助动词与主句时态、人称要一致。",
+        "examples": [
+          "It looked unusual, didn't it? （它看起来很不寻常，不是吗？）",
+          "It isn't dangerous, is it? （它并不危险，对吧？）"
+        ]
+      }
+    ],
+    "tips": "先写完整陈述句，再按“肯定配否定、否定配肯定”补反意疑问句，准确率会更高。"
+  },
+  {
+    "book": 2,
+    "lesson": 83,
+    "title": "After the elections",
+    "titleCn": "大选之后",
+    "scene": "大选结束后，曾经流亡海外的前首相宣布回国。消息传出时，支持者已经在机场外等待许久，现场秩序一度紧张。飞机落地后，他在简短讲话中表示，自己离开祖国多年，如今终于能再次站在人民面前。记者随后追问他未来计划，他强调会先倾听公众意见，再决定是否重返政治核心。整件事既包含“先发生后报道”的关系，也有清晰的过去时间线，非常适合结合过去完成时与一般过去时进行训练。",
+    "grammarTags": ["过去完成时", "一般过去时"],
+    "words": [
+      { "word": "election", "phon": "/ɪˈlekʃn/", "pos": "n.", "cn": "选举", "eg": "The elections ended last week. 选举在上周结束了。" },
+      { "word": "former", "phon": "/ˈfɔːmə/", "pos": "adj.", "cn": "前任的", "eg": "The former prime minister returned home. 前首相回到了国内。" },
+      { "word": "exile", "phon": "/ˈeɡzaɪl/", "pos": "n.", "cn": "流亡", "eg": "He had lived in exile for years. 他已经流亡多年。" },
+      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "He stayed abroad after the crisis. 危机后他留在了国外。" },
+      { "word": "supporter", "phon": "/səˈpɔːtə/", "pos": "n.", "cn": "支持者", "eg": "Supporters waited outside the airport. 支持者在机场外等待。" },
+      { "word": "speech", "phon": "/spiːtʃ/", "pos": "n.", "cn": "演讲", "eg": "He gave a short speech after landing. 落地后他发表了简短演讲。" },
+      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v./n.", "cn": "返回", "eg": "His return changed the political atmosphere. 他的归来改变了政治氛围。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "用于表达“在另一个过去动作之前已经发生”的动作，如 had lived、had gathered。易错点：只有存在明确过去参照时才用过去完成时。",
+        "examples": [
+          "He had lived abroad for many years before he returned. （回国前他已在国外生活多年。）",
+          "Crowds had gathered before his plane landed. （在飞机降落前人群已聚集。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "用于描述大选后当日发生的动作，如 arrived、spoke、answered。易错点：过去完成时与一般过去时并用时，先后顺序要明确。",
+        "examples": [
+          "He arrived at the airport in the afternoon. （他下午到达机场。）",
+          "He thanked the people and spoke calmly. （他感谢民众并平静发言。）"
+        ]
+      }
+    ],
+    "tips": "先画时间线：更早发生用 had done，当天现场动作用一般过去时。"
+  },
+  {
+    "book": 2,
+    "lesson": 84,
+    "title": "On strike",
+    "titleCn": "罢工",
+    "scene": "公交司机罢工期间，城市交通几乎陷入停顿。许多乘客一早就在站台等待，却迟迟看不到正常班车。就在混乱中，一辆本不该载客的公交车突然开进主路，车上还出现了一位不请自来的“乘客”，引起大家注意。有人猜他是路过者，有人怀疑他想借机占便宜。执勤人员赶到后进行了询问，现场秩序才恢复。整篇故事强调“到现在已经造成的结果”和“这段时间一直在发生的状态”，适合练习现在完成时与现在完成进行时。",
+    "grammarTags": ["现在完成时", "现在完成进行时"],
+    "words": [
+      { "word": "strike", "phon": "/straɪk/", "pos": "n./v.", "cn": "罢工", "eg": "The busmen have been on strike for days. 公交司机已经罢工好几天了。" },
+      { "word": "busman", "phon": "/ˈbʌsmən/", "pos": "n.", "cn": "公交司机", "eg": "Busmen have refused to work this week. 公交司机这周拒绝上班。" },
+      { "word": "passenger", "phon": "/ˈpæsɪndʒə/", "pos": "n.", "cn": "乘客", "eg": "An uninvited passenger appeared on the bus. 一位不速之客出现在公交上。" },
+      { "word": "uninvited", "phon": "/ˌʌnɪnˈvaɪtɪd/", "pos": "adj.", "cn": "未被邀请的", "eg": "The uninvited man sat quietly in the back. 那名不请自来的人安静坐在后排。" },
+      { "word": "delay", "phon": "/dɪˈleɪ/", "pos": "n./v.", "cn": "延误", "eg": "The strike has caused serious delays. 罢工已经造成严重延误。" },
+      { "word": "queue", "phon": "/kjuː/", "pos": "n./v.", "cn": "排队", "eg": "People have been queuing since dawn. 人们从黎明起一直在排队。" },
+      { "word": "commuter", "phon": "/kəˈmjuːtə/", "pos": "n.", "cn": "通勤者", "eg": "Commuters have suffered a lot this week. 通勤者这周吃了不少苦。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "强调罢工带来的现状和结果，如 has caused、have suffered。易错点：若出现明确过去时间点，需考虑一般过去时。",
+        "examples": [
+          "The strike has caused heavy traffic across the city. （罢工已经导致全城交通拥堵。）",
+          "Many workers have changed their travel plans. （很多上班族已经改变了出行计划。）"
+        ]
+      },
+      {
+        "point": "现在完成进行时",
+        "explain": "强调持续过程，如 have been waiting、have been queuing。易错点：现在完成进行时更突出“持续中”，不强调是否结束。",
+        "examples": [
+          "Passengers have been waiting at bus stops all morning. （乘客一上午都在公交站等待。）",
+          "The drivers have been protesting for better pay. （司机们一直在为更高薪资抗议。）"
+        ]
+      }
+    ],
+    "tips": "描述“已经造成的后果”用现在完成时；描述“持续中的排队、等待、抗议”用现在完成进行时。"
+  }
+]
