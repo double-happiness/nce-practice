@@ -36,7 +36,8 @@
     .voc-phon{font-size:12px;color:var(--muted,#6b7280);margin-left:6px}
     .voc-pos{font-size:12px;color:var(--brand,#2f6fed);margin-left:6px}
     .voc-cn{font-size:13px;color:var(--ink-soft,#3a4356);margin-top:2px}
-    .voc-lesson{font-size:11px;color:var(--muted-2,#9aa2b1);margin-top:2px}
+    .voc-eg{font-size:12px;color:var(--ink-soft,#3a4356);margin-top:3px;line-height:1.5}
+    .voc-eg .voc-spk{margin-right:4px}
     .voc-badge{font-size:11px;font-weight:700;padding:2px 9px;border-radius:999px;flex:none}
     .voc-badge.new{background:#f1f3f7;color:#8b93a2}
     .voc-badge.learning{background:#fff4e5;color:#c47f17}
@@ -119,7 +120,7 @@
           <div class="voc-main">
             <div><span class="voc-w">${escapeHtml(w.word)}</span><span class="voc-phon">${escapeHtml(w.phon || '')}</span><span class="voc-pos">${escapeHtml(w.pos || '')}</span></div>
             <div class="voc-cn">${escapeHtml(w.cn || '')}</div>
-            <div class="voc-lesson">首现 L${w.lesson} · ${escapeHtml(w.lessonTitle || '')}</div>
+            ${w.eg ? `<div class="voc-eg"><span class="voc-spk" data-act="speak" data-word="${escapeAttr(w.eg)}">🔊</span>${escapeHtml(w.eg)}</div>` : ''}
           </div>
           ${badge(w.level)}
           <div class="voc-acts">

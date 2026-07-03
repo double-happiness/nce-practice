@@ -235,8 +235,7 @@
       card.innerHTML =
         `<div class="c-pos">${esc(w.pos || '')}</div>` +
         `<div class="c-cn">${esc(w.cn || '')}</div>` +
-        (w.eg ? `<div class="c-eg">${esc(w.eg)} <span class="wd-spk" data-speak="${escAttr(w.eg)}">🔊</span></div>` : '') +
-        `<div class="c-src">${w.lesson ? `Lesson ${esc(String(w.lesson))}${w.lessonTitle ? ' · ' + esc(w.lessonTitle) : ''}` : '词汇量测试错词'}</div>`;
+        (w.eg ? `<div class="c-eg">${esc(w.eg)} <span class="wd-spk" data-speak="${escAttr(w.eg)}">🔊</span></div>` : '');
     }
     bindSpk(card);
     body.querySelector('.wd-progress-line').textContent =
