@@ -1,6 +1,6 @@
 'use strict';
 
-// 背单词 / 单词记忆 / 默写 —— 词典模块（自注册功能）
+// 背单词 / 单词记忆 / 默写 —— 卡片背诵 + 默写拼写 + 掌握度追踪（查词请用独立「📕 查词典」）
 (function () {
   const NCE = window.NCE;
   if (!NCE || !NCE.registerFeature) return;
@@ -93,9 +93,8 @@
 
   // ---------- 模块状态 ----------
   const st = {
-    mode: 'dict', // dict | flash | spell | progress
+    mode: 'flash', // flash | spell | progress
     book: '1',
-    dict: { filter: 'all', q: '' },
     flash: { words: [], idx: 0, flipped: false, rated: 0 },
     spell: { pool: [], cur: null, right: 0, wrong: 0, done: false },
   };
@@ -112,8 +111,13 @@
   async function onShow(panel) {
     // 深链支持：首页「默写单词」等入口可带模式跳入（NCE.pendingWords = { mode: 'spell' }）
     const pend = NCE.pendingWords;
-    if (pend && pend.mode) {
-      st.mode = pend.mode;
+    if (pend) {
+      if (pend.mode) st.mode = pend.mode;
+      if (pend.book) st.book = String(pend.book);
+      if (pend.customWords && pend.customWords.length) {
+        if (pend.mode === 'spell') st.spell.customWords = pend.customWords;
+        else st.flash.customWords = pend.customWords;
+      }
       NCE.pendingWords = null;
     }
     const ui = NCE.vocabTestUi;
@@ -128,7 +132,7 @@
       `<label>册：<select class="wd-book-global">${bookOpts}</select></label>` +
       '</div>' +
       '<div class="wd-modes">' +
-      '<button class="wd-mode-btn" data-m="dict">📖 词典浏览</button>' +
+      '<button class="wd-mode-btn wd-goto-dict" type="button">📕 查词典</button>' +
       '<button class="wd-mode-btn" data-m="flash">🃏 背诵</button>' +
       '<button class="wd-mode-btn" data-m="spell">✍️ 默写</button>' +
       '<button class="wd-mode-btn" data-m="progress">📊 进度</button>' +
@@ -141,7 +145,10 @@
       st.book = bookSel.value;
       switchMode(panel, st.mode);
     };
-    panel.querySelectorAll('.wd-mode-btn').forEach((b) => {
+    panel.querySelector('.wd-goto-dict').onclick = () => {
+      if (NCE.goToDictionary) NCE.goToDictionary('', st.book);
+    };
+    panel.querySelectorAll('.wd-mode-btn[data-m]').forEach((b) => {
       b.onclick = () => switchMode(panel, b.dataset.m);
     });
     switchMode(panel, st.mode);
@@ -153,8 +160,7 @@
       b.classList.toggle('active', b.dataset.m === mode)
     );
     const body = panel.querySelector('.wd-body');
-    if (mode === 'dict') renderDict(body);
-    else if (mode === 'flash') renderFlash(body);
+    if (mode === 'flash') renderFlash(body);
     else if (mode === 'spell') renderSpell(body);
     else renderProgress(body);
   }
@@ -168,96 +174,31 @@
     });
   }
 
-  // ============ 1. 词典浏览 ============
-  function renderDict(body) {
-    body.innerHTML =
-      '<div class="wd-toolbar">' +
-      '<input type="text" class="wd-q" placeholder="搜索单词或释义" autocomplete="off">' +
-      '<label>筛选：<select class="wd-filter">' +
-      '<option value="all">全部</option>' +
-      '<option value="new">未学</option>' +
-      '<option value="learning">学习中</option>' +
-      '<option value="mastered">已掌握</option>' +
-      '</select></label>' +
-      '</div>' +
-      '<div class="wd-count"></div>' +
-      '<div class="wd-dict-list"></div>';
-
-    const q = body.querySelector('.wd-q');
-    const filter = body.querySelector('.wd-filter');
-    q.value = st.dict.q;
-    filter.value = st.dict.filter;
-    let timer = null;
-    q.oninput = () => {
-      clearTimeout(timer);
-      timer = setTimeout(() => {
-        st.dict.q = q.value;
-        loadDict(body);
-      }, 250);
-    };
-    filter.onchange = () => {
-      st.dict.filter = filter.value;
-      loadDict(body);
-    };
-    loadDict(body);
-  }
-
-  async function loadDict(body) {
-    const listEl = body.querySelector('.wd-dict-list');
-    listEl.innerHTML = '<div class="wd-msg">加载中…</div>';
-    const params =
-      `book=${encodeURIComponent(st.book)}&filter=${encodeURIComponent(st.dict.filter)}` +
-      (st.dict.q ? `&q=${encodeURIComponent(st.dict.q)}` : '');
-    const d = await NCE.api(`/api/words/list?${params}`);
-    body.querySelector('.wd-count').textContent = `共 ${d.count} 个词`;
-    const words = d.words || [];
-    if (!words.length) {
-      listEl.innerHTML = '<div class="wd-empty">没有符合条件的单词。</div>';
-      return;
-    }
-    listEl.innerHTML =
-      '<ul class="wd-list">' +
-      words
-        .map(
-          (w) =>
-            `<li data-word="${escAttr(w.word)}">` +
-            `<span class="wd-spk" data-speak="${escAttr(w.word)}">🔊</span>` +
-            `<span class="wd-word">${esc(w.word)}</span>` +
-            `<span class="wd-phon">${esc(w.phon || '')}</span>` +
-            `<span class="wd-pos">${esc(w.pos || '')}</span>` +
-            `<span class="wd-cn">${esc(w.cn || '')}</span>` +
-            `<span class="wd-src">L${esc(String(w.lesson))} ${esc(w.lessonTitle || '')}</span>` +
-            `<span class="wd-badge-slot">${badge(w.level)}</span>` +
-            `<span class="wd-quick">` +
-            `<button class="wd-mini ok" data-r="known">认识</button>` +
-            `<button class="wd-mini no" data-r="unknown">不认识</button>` +
-            `</span>` +
-            `</li>`
-        )
-        .join('') +
-      '</ul>';
-    bindSpk(listEl);
-    listEl.querySelectorAll('.wd-mini').forEach((btn) => {
-      btn.onclick = async () => {
-        const li = btn.closest('li');
-        const word = li.dataset.word;
-        const r = await post('/api/words/rate', { word, rating: btn.dataset.r });
-        li.querySelector('.wd-badge-slot').innerHTML = badge(r.level);
-      };
-    });
-  }
-
-  // ============ 2. 背诵（卡片）============
+  // ============ 1. 背诵（卡片）============
   async function renderFlash(body) {
     body.innerHTML = '<div class="wd-msg">加载中…</div>';
-    const d = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=new&limit=20`);
-    st.flash.words = d.words || [];
+    if (st.flash.customWords && st.flash.customWords.length) {
+      st.flash.words = st.flash.customWords;
+      st.flash.customWords = null;
+    } else {
+      const d = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=new&limit=20`);
+      st.flash.words = d.words || [];
+    }
     st.flash.idx = 0;
     st.flash.flipped = false;
     st.flash.rated = 0;
     if (!st.flash.words.length) {
       body.innerHTML =
-        '<div class="wd-empty">没有可背诵的新词（未学的词都学过了）。<br>可到「默写」巩固，或到「词典浏览」查看。</div>';
+        '<div class="wd-empty">没有可背诵的新词（本册未学词都标过了）。<br>' +
+        '<button class="wd-mode-btn" type="button" id="wdGoSpell" style="margin-top:12px">✍️ 去默写巩固</button> ' +
+        '<button class="wd-mode-btn wd-goto-dict" type="button" style="margin-top:12px">📕 查词典</button> ' +
+        '<button class="wd-mode-btn" type="button" id="wdGoVocab" style="margin-top:12px">📚 去词表</button></div>';
+      const goSpell = body.querySelector('#wdGoSpell');
+      if (goSpell) goSpell.onclick = () => switchMode(panel, 'spell');
+      const goDict = body.querySelector('.wd-goto-dict');
+      if (goDict && NCE.goToDictionary) goDict.onclick = () => NCE.goToDictionary('', st.book);
+      const goVocab = body.querySelector('#wdGoVocab');
+      if (goVocab && NCE.gotoTab) goVocab.onclick = () => NCE.gotoTab('vocab');
       return;
     }
     body.innerHTML =
@@ -295,7 +236,7 @@
         `<div class="c-pos">${esc(w.pos || '')}</div>` +
         `<div class="c-cn">${esc(w.cn || '')}</div>` +
         (w.eg ? `<div class="c-eg">${esc(w.eg)} <span class="wd-spk" data-speak="${escAttr(w.eg)}">🔊</span></div>` : '') +
-        `<div class="c-src">Lesson ${esc(String(w.lesson))} · ${esc(w.lessonTitle || '')}</div>`;
+        `<div class="c-src">${w.lesson ? `Lesson ${esc(String(w.lesson))}${w.lessonTitle ? ' · ' + esc(w.lessonTitle) : ''}` : '词汇量测试错词'}</div>`;
     }
     bindSpk(card);
     body.querySelector('.wd-progress-line').textContent =
@@ -345,15 +286,21 @@
     s.wrong = 0;
     s.done = false;
     body.querySelector('.wd-feedback').textContent = '';
-    // 优先抽未掌握的词：先 due（学习中），不足再补 new
-    const dueRes = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=due&limit=20`);
-    const pool = dueRes.words || [];
-    if (pool.length < 20) {
-      const newRes = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=new&limit=20`);
-      const have = new Set(pool.map((w) => w.word));
-      for (const w of newRes.words || []) {
-        if (!have.has(w.word)) pool.push(w);
-        if (pool.length >= 20) break;
+    let pool;
+    if (st.spell.customWords && st.spell.customWords.length) {
+      pool = st.spell.customWords;
+      st.spell.customWords = null;
+    } else {
+      // 优先抽未掌握的词：先 due（学习中），不足再补 new
+      const dueRes = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=due&limit=20`);
+      pool = dueRes.words || [];
+      if (pool.length < 20) {
+        const newRes = await NCE.api(`/api/words/study?book=${encodeURIComponent(st.book)}&mode=new&limit=20`);
+        const have = new Set(pool.map((w) => w.word));
+        for (const w of newRes.words || []) {
+          if (!have.has(w.word)) pool.push(w);
+          if (pool.length >= 20) break;
+        }
       }
     }
     s.pool = pool;
@@ -383,8 +330,7 @@
     const w = s.cur;
     body.querySelector('.wd-spell-cn').innerHTML =
       `${esc(w.cn || '')} <span class="wd-spk" data-speak="${escAttr(w.word)}">🔊</span>`;
-    body.querySelector('.wd-spell-hint').textContent =
-      `${w.pos || ''}${w.word ? ` · ${w.word.length} 个字母` : ''}`;
+    body.querySelector('.wd-spell-hint').textContent = w.pos || '根据中文释义拼写英文';
     const spk = body.querySelector('.wd-spell-cn .wd-spk');
     if (spk) spk.onclick = () => NCE.speak(w.word);
     const input = body.querySelector('.wd-spell-input');

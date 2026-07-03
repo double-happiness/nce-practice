@@ -135,6 +135,28 @@ router.post('/words/rate', (req, res) => {
   res.json({ ok: true, level: s.level });
 });
 
+// POST /words/mark-missed —— 词汇量测试错词标为「学习中」(level≥1)，纳入背单词复习池
+router.post('/words/mark-missed', (req, res) => {
+  const body = req.body || {};
+  const raw = Array.isArray(body.words) ? body.words : [];
+  if (!raw.length) return res.status(400).json({ ok: false, error: 'words 不能为空' });
+  const v = loadStates();
+  let marked = 0;
+  const ts = Date.now();
+  for (const item of raw) {
+    const key = normKey(typeof item === 'string' ? item : item.word);
+    if (!key) continue;
+    const s = ensureState(v.states, key);
+    if (s.level < 1) {
+      s.level = 1;
+      marked++;
+    }
+    s.ts = ts;
+  }
+  saveStates(v);
+  res.json({ ok: true, marked, total: raw.length });
+});
+
 // POST /words/spell —— 默写判分
 router.post('/words/spell', (req, res) => {
   const body = req.body || {};
