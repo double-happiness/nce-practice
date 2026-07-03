@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
-    "validate": "node scripts/validate.js"
+    "validate": "node scripts/validate.js",
+    "import": "node scripts/import.js"
   },
   "dependencies": {
     "express": "^4.19.2"

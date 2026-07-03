@@ -33,6 +33,15 @@ function validate() {
     if (!q.explanation) warnings.push(`${where}: 缺少 explanation（建议补上解析）`);
   });
 
+  // 题干查重（忽略大小写与多余空白），提示可能的重复录入
+  const stemOwner = new Map();
+  qs.forEach((q) => {
+    if (!q.stem) return;
+    const key = String(q.stem).toLowerCase().replace(/\s+/g, ' ').trim();
+    if (stemOwner.has(key)) warnings.push(`questions id=${q.id}: stem 与 ${stemOwner.get(key)} 重复`);
+    else stemOwner.set(key, q.id);
+  });
+
   data.getLessons().forEach((l, i) => {
     const where = `lessons[${i}] L${l.lesson}`;
     if (l.lesson == null) errors.push(`${where}: 缺少 lesson`);
