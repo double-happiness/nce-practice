@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-hol-01",
+    "category": "holiday",
+    "title": "Halloween Costumes",
+    "titleCn": "万圣节服装",
+    "scene": "十月底，你在派对用品店买万圣节服装。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙吗？今晚很多人买。", "en": "Need help? It's busy tonight." },
+      { "role": "You", "cn": "有适合成人的吸血鬼套装吗？", "en": "Do you have an adult vampire costume?" },
+      { "role": "Clerk", "cn": "中码在这，含披风和假牙。", "en": "Medium is here. Cape and fangs included." },
+      { "role": "You", "cn": "化妆颜料有吗？", "en": "Do you sell face paint?" },
+      { "role": "Clerk", "cn": "过道三，防水的那种。", "en": "Aisle three. Get the waterproof kind." },
+      { "role": "You", "cn": "孩子糖果桶也拿一个。", "en": "I'll take a trick-or-treat bucket for my kid too." },
+      { "role": "Clerk", "cn": "一共四十二块，祝你们玩得开心！", "en": "Forty-two total. Have a spooky good time!" }
+    ]
+  },
+  {
+    "id": "dlg-hol-02",
+    "category": "holiday",
+    "title": "Trick or Treat",
+    "titleCn": "讨糖",
+    "scene": "万圣节晚上，孩子在你家门口讨糖。",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "Child", "cn": "不给糖就捣蛋！", "en": "Trick or treat!" },
+      { "role": "You", "cn": "哇，好酷的宇航员！给你几块糖。", "en": "Wow, cool astronaut! Here are some candies." },
+      { "role": "Child", "cn": "谢谢！", "en": "Thank you!" },
+      { "role": "You", "cn": "记得只说一份，别拿太多哦。", "en": "Just take one piece, okay?" },
+      { "role": "Child", "cn": "好的！", "en": "Okay!" },
+      { "role": "You", "cn": "晚上注意安全，让家长陪着。", "en": "Stay safe tonight. Go with your parents." },
+      { "role": "Child", "cn": "再见！", "en": "Bye!" }
+    ]
+  },
+  {
+    "id": "dlg-hol-03",
+    "category": "holiday",
+    "title": "Christmas Shopping",
+    "titleCn": "圣诞购物",
+    "scene": "十二月在商场买圣诞礼物。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要礼品包装吗？", "en": "Would you like gift wrapping?" },
+      { "role": "You", "cn": "要，这是给我妈的围巾。", "en": "Yes, please. It's a scarf for my mom." },
+      { "role": "Clerk", "cn": "红丝带还是金丝带？", "en": "Red ribbon or gold?" },
+      { "role": "You", "cn": "金色。能写贺卡吗？", "en": "Gold. Can you write a gift card?" },
+      { "role": "Clerk", "cn": "当然可以，请把祝福语告诉我。", "en": "Sure. Tell me what to write." },
+      { "role": "You", "cn": "写「圣诞快乐，爱你」。", "en": "Write Merry Christmas, love you." },
+      { "role": "Clerk", "cn": "好了，包装免费。", "en": "All set. Wrapping is free." }
+    ]
+  },
+  {
+    "id": "dlg-hol-04",
+    "category": "holiday",
+    "title": "Thanksgiving Dinner",
+    "titleCn": "感恩节晚餐",
+    "scene": "感恩节你去朋友家，帮忙准备晚餐。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "火鸡还要烤一小时，先喝点？", "en": "The turkey needs another hour. Want a drink?" },
+      { "role": "You", "cn": "好的，我能帮忙摆桌子吗？", "en": "Sure. Can I help set the table?" },
+      { "role": "Host", "cn": "餐具在橱柜，要八副。", "en": "Silverware is in the cabinet. We need eight places." },
+      { "role": "You", "cn": "南瓜派我带来了，放哪？", "en": "I brought pumpkin pie. Where should I put it?" },
+      { "role": "Host", "cn": "厨房岛台，等会儿一起切。", "en": "On the kitchen island. We'll slice it later." },
+      { "role": "You", "cn": "今天谢谢大家邀请我。", "en": "Thanks for having me today." },
+      { "role": "Host", "cn": "你才是一家人，开动前先说感恩词。", "en": "You're family. We'll say what we're thankful for before we eat." }
+    ]
+  },
+  {
+    "id": "dlg-hol-05",
+    "category": "holiday",
+    "title": "New Year Party",
+    "titleCn": "新年派对",
+    "scene": "跨年夜你在朋友家倒计时。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "还有五分钟十二点！", "en": "Five minutes till midnight!" },
+      { "role": "You", "cn": "香槟准备好了吗？", "en": "Is the champagne ready?" },
+      { "role": "Friend", "cn": "冰好了，大家拿杯子。", "en": "It's chilled. Everyone grab a glass." },
+      { "role": "You", "cn": "新年快乐！祝你明年一切顺利！", "en": "Happy New Year! Wish you all the best next year!" },
+      { "role": "Friend", "cn": "新年快乐！健康发财！", "en": "Happy New Year! Health and prosperity!" },
+      { "role": "You", "cn": "明年还一起过！", "en": "Let's do this again next year!" },
+      { "role": "Friend", "cn": "一定！", "en": "Definitely!" }
+    ]
+  },
+  {
+    "id": "dlg-hol-06",
+    "category": "holiday",
+    "title": "Buying a Christmas Tree",
+    "titleCn": "买圣诞树",
+    "scene": "你在户外圣诞树摊挑选树。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "云杉还是冷杉？云杉便宜一点。", "en": "Spruce or fir? Spruce is a bit cheaper." },
+      { "role": "You", "cn": "冷杉香味好，这棵多高？", "en": "Fir smells better. How tall is this one?" },
+      { "role": "Vendor", "cn": "六英尺，四十五块，帮你们绑车上。", "en": "Six feet, forty-five dollars. We'll tie it to your car." },
+      { "role": "You", "cn": "树架你们卖吗？", "en": "Do you sell tree stands?" },
+      { "role": "Vendor", "cn": "卖，二十五，在这边。", "en": "Yes, twenty-five, right over here." },
+      { "role": "You", "cn": "好，树和树架都要。", "en": "Okay, I'll take the tree and the stand." },
+      { "role": "Vendor", "cn": "圣诞快乐！", "en": "Merry Christmas!" }
+    ]
+  }
+]

@@ -101,5 +101,39 @@
       { "role": "You", "cn": "私教课怎么收费？", "en": "How much are personal sessions?" },
       { "role": "Trainer", "cn": "单次六十，买十节送一节。", "en": "Sixty per session, or buy ten and get one free." }
     ]
+  },
+  {
+    "id": "dlg-gym-07",
+    "category": "gym",
+    "title": "Renewing Membership",
+    "titleCn": "续会员卡",
+    "scene": "你的健身房年卡快到期，前台劝你续费。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "您的年卡月底到期，续费有优惠。", "en": "Your annual membership ends this month. Renewal is on sale." },
+      { "role": "You", "cn": "续一年多少钱？", "en": "How much for another year?" },
+      { "role": "Receptionist", "cn": "现在续四百五，比平时便宜五十。", "en": "Four fifty if you renew now, fifty off the regular price." },
+      { "role": "You", "cn": "能暂停一个月吗？我要出差。", "en": "Can I freeze it for a month? I'll be traveling." },
+      { "role": "Receptionist", "cn": "年卡可冻三十天，一年一次。", "en": "Annual plans get thirty freeze days once a year." },
+      { "role": "You", "cn": "好，我续费，出差回来再冻。", "en": "Okay, I'll renew and freeze when I travel." },
+      { "role": "Receptionist", "cn": "谢谢，刷卡在这边。", "en": "Thank you. You can pay by card right here." }
+    ]
+  },
+  {
+    "id": "dlg-gym-08",
+    "category": "gym",
+    "title": "Trainer Package Renewal",
+    "titleCn": "续私教课",
+    "scene": "你的私教课快用完了，教练建议你续课。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "还剩两节课，要继续吗？", "en": "You have two sessions left. Want to keep going?" },
+      { "role": "You", "cn": "效果不错，有套餐优惠吗？", "en": "It's working well. Any package deals?" },
+      { "role": "Trainer", "cn": "二十节一千，相当于五十一节。", "en": "Twenty sessions for a thousand, fifty per session." },
+      { "role": "You", "cn": "能改成每周两次吗？", "en": "Can we switch to twice a week?" },
+      { "role": "Trainer", "cn": "可以，周二四上午我还有空。", "en": "Sure. Tuesday and Thursday mornings are open." },
+      { "role": "You", "cn": "好，我买二十节。", "en": "Okay, I'll take the twenty-pack." },
+      { "role": "Trainer", "cn": "太好了，继续加油！", "en": "Great. Let's keep pushing!" }
+    ]
   }
 ]

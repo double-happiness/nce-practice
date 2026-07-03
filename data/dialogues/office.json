@@ -101,5 +101,73 @@
       { "role": "Manager", "cn": "好，系统里提交申请就行。", "en": "Okay. Submit the request in the system." },
       { "role": "You", "cn": "谢谢，我会保持手机畅通。", "en": "Thank you. I'll keep my phone on." }
     ]
+  },
+  {
+    "id": "dlg-office-07",
+    "category": "office",
+    "title": "Salary Negotiation",
+    "titleCn": "谈加薪",
+    "scene": "年度评估后，你和 HR 谈加薪。",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "感谢您这一年的贡献，我们提议涨薪百分之五。", "en": "Thanks for your contributions this year. We're proposing a five percent raise." },
+      { "role": "You", "cn": "感谢认可。根据市场和我的项目成果，我希望百分之八到十。", "en": "I appreciate that. Based on market rates and my project results, I was hoping for eight to ten percent." },
+      { "role": "HR", "cn": "预算有限，最多百分之七，外加两千签约奖。", "en": "Budget is tight. Seven percent is the max, plus a two-thousand signing retention bonus." },
+      { "role": "You", "cn": "可以换成多两天年假吗？", "en": "Could we trade for two extra vacation days instead?" },
+      { "role": "HR", "cn": "年假可以加一天，薪资按百分之七。", "en": "We can add one vacation day with the seven percent." },
+      { "role": "You", "cn": "好的，我接受，谢谢。", "en": "Okay, I accept. Thank you." },
+      { "role": "HR", "cn": "下周发更新后的 offer letter。", "en": "We'll send an updated offer letter next week." }
+    ]
+  },
+  {
+    "id": "dlg-office-08",
+    "category": "office",
+    "title": "Annual Review",
+    "titleCn": "年度考核",
+    "scene": "你和经理进行年度绩效面谈。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "总体表现优秀，客户反馈很好。", "en": "Overall excellent performance. Great client feedback." },
+      { "role": "You", "cn": "谢谢。有哪些我可以改进的？", "en": "Thank you. What should I improve?" },
+      { "role": "Manager", "cn": "跨部门沟通可以更主动，文档再细致些。", "en": "Be more proactive with cross-team communication and documentation." },
+      { "role": "You", "cn": "明年我想带一个新项目，可以吗？", "en": "I'd like to lead a new project next year. Is that possible?" },
+      { "role": "Manager", "cn": "可以，第二季度有个机会。", "en": "Yes, there's an opening in Q2." },
+      { "role": "You", "cn": "我需要什么培训支持？", "en": "What training support would help?" },
+      { "role": "Manager", "cn": "公司报销项目管理证书，我帮你申请。", "en": "The company covers PM certification. I'll help you apply." }
+    ]
+  },
+  {
+    "id": "dlg-office-09",
+    "category": "office",
+    "title": "Resignation",
+    "titleCn": "提出离职",
+    "scene": "你找到新工作，向经理提出离职。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "经理，您现在方便吗？我有件事想和您谈。", "en": "Manager, do you have a moment? I need to talk to you about something." },
+      { "role": "Manager", "cn": "当然，请说。", "en": "Of course. Go ahead." },
+      { "role": "You", "cn": "我接受了另一家公司的 offer，两周后离职。", "en": "I've accepted another offer. I'll be leaving in two weeks." },
+      { "role": "Manager", "cn": "很遗憾，方便说原因吗？", "en": "I'm sorry to hear that. May I ask why?" },
+      { "role": "You", "cn": "主要是职业发展，和您无关，我很感谢这里的经历。", "en": "Mostly career growth. It's not about you. I'm grateful for my time here." },
+      { "role": "Manager", "cn": "理解。请帮我把手头项目交接好。", "en": "I understand. Please help transition your projects." },
+      { "role": "You", "cn": "一定，我会写详细的交接文档。", "en": "Absolutely. I'll write detailed handover notes." }
+    ]
+  },
+  {
+    "id": "dlg-office-10",
+    "category": "office",
+    "title": "Job Handover",
+    "titleCn": "工作交接",
+    "scene": "离职前你和接任同事交接工作。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "客户名单和进度表在哪？", "en": "Where are the client list and status tracker?" },
+      { "role": "You", "cn": "在共享盘这个文件夹，红色是紧急的。", "en": "In this shared folder. Red items are urgent." },
+      { "role": "Colleague", "cn": "每周例会谁主持？", "en": "Who runs the weekly meeting?" },
+      { "role": "You", "cn": "一直是我在主持，以后你来，我教你流程。", "en": "I have been. You'll take over. I'll walk you through it." },
+      { "role": "Colleague", "cn": "供应商联系人呢？", "en": "What about vendor contacts?" },
+      { "role": "You", "cn": "都在通讯录，王经理主要对接采购。", "en": "All in the address book. Manager Wang handles procurement." },
+      { "role": "Colleague", "cn": "太感谢了，以后有问题还能问你吗？", "en": "Thanks so much. Can I reach out if I get stuck?" }
+    ]
   }
 ]

@@ -102,5 +102,22 @@
       { "role": "You", "cn": "行李需要重新托运吗？", "en": "Do I need to recheck my luggage?" },
       { "role": "Agent", "cn": "不用，行李会直挂，新登机口稍后广播。", "en": "No, bags stay checked through. The new gate will be announced." }
     ]
+  },
+  {
+    "id": "dlg-air-07",
+    "category": "airport",
+    "title": "Airport Lounge",
+    "titleCn": "机场休息室",
+    "scene": "你用信用卡权益进机场贵宾室。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "您好，请出示登机牌和信用卡。", "en": "Hello. Boarding pass and credit card, please." },
+      { "role": "You", "cn": "在这里，Priority Pass卡。", "en": "Here you go. Priority Pass card." },
+      { "role": "Staff", "cn": "可以，一位客人，淋浴需要预约。", "en": "You're all set. One guest. Showers are by appointment." },
+      { "role": "You", "cn": "热食到几点？", "en": "How long is hot food served?" },
+      { "role": "Staff", "cn": "到晚上九点，饮料全天。", "en": "Until nine PM. Drinks all day." },
+      { "role": "You", "cn": "Wi-Fi密码呢？", "en": "What's the Wi-Fi password?" },
+      { "role": "Staff", "cn": "桌上卡片有，欢迎休息。", "en": "It's on the card at the table. Enjoy your stay." }
+    ]
   }
 ]

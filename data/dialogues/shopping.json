@@ -102,5 +102,22 @@
       { "role": "Clerk", "cn": "不用，同款同价直接换。", "en": "No, it's the same style and price." },
       { "role": "You", "cn": "谢谢，试衣间在哪？", "en": "Thanks. Where's the fitting room?" }
     ]
+  },
+  {
+    "id": "dlg-shop-07",
+    "category": "shopping",
+    "title": "Self Checkout",
+    "titleCn": "自助结账",
+    "scene": "你在超市使用自助结账机遇到问题。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，机器说商品无法识别。", "en": "Excuse me, the machine says it can't scan this item." },
+      { "role": "Staff", "cn": "我帮您扫，是农产品对吧？", "en": "I'll scan it for you. It's produce, right?" },
+      { "role": "You", "cn": "对，牛油果，我按错码了。", "en": "Yes, avocados. I pressed the wrong code." },
+      { "role": "Staff", "cn": "已改，请继续扫其他的。", "en": "Fixed. Go ahead and scan the rest." },
+      { "role": "You", "cn": "现金可以在这付吗？", "en": "Can I pay cash here?" },
+      { "role": "Staff", "cn": "这台只刷卡，现金请去人工通道。", "en": "This kiosk is card only. Use a staffed lane for cash." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
   }
 ]

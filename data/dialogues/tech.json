@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-tech-01",
+    "category": "tech",
+    "title": "Phone Screen Repair",
+    "titleCn": "修手机屏幕",
+    "scene": "你手机屏幕碎了，去维修店。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "什么机型？只是外屏还是内屏也坏了？", "en": "What model? Outer glass only or the display too?" },
+      { "role": "You", "cn": "iPhone 14，触摸正常，就是玻璃裂了。", "en": "iPhone 14. Touch works fine, just cracked glass." },
+      { "role": "Technician", "cn": "换外屏九十九，一小时好。", "en": "Ninety-nine for the glass. About an hour." },
+      { "role": "You", "cn": "数据会丢吗？", "en": "Will I lose my data?" },
+      { "role": "Technician", "cn": "不会，但建议先备份。", "en": "No, but I'd back up first anyway." },
+      { "role": "You", "cn": "有保修吗？", "en": "Is there a warranty?" },
+      { "role": "Technician", "cn": "九十天天然损坏保。", "en": "Ninety days on defects." }
+    ]
+  },
+  {
+    "id": "dlg-tech-02",
+    "category": "tech",
+    "title": "Laptop Running Slow",
+    "titleCn": "电脑变慢",
+    "scene": "你的笔记本电脑很慢，去店里检查。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "什么问题？", "en": "What's the issue?" },
+      { "role": "You", "cn": "开机要五分钟，程序经常卡死。", "en": "It takes five minutes to boot and apps keep freezing." },
+      { "role": "Technician", "cn": "硬盘快满了，建议换SSD。", "en": "Your drive is almost full. I'd upgrade to an SSD." },
+      { "role": "You", "cn": "多少钱？要多久？", "en": "How much and how long?" },
+      { "role": "Technician", "cn": "五百一十二G加安装一百四，当天取。", "en": "A five-twelve gig SSD plus labor, one forty, same-day pickup." },
+      { "role": "You", "cn": "文件能帮我迁过去吗？", "en": "Can you migrate my files?" },
+      { "role": "Technician", "cn": "包含在服务费里。", "en": "That's included in the labor." }
+    ]
+  },
+  {
+    "id": "dlg-tech-03",
+    "category": "tech",
+    "title": "Apple Store Genius Bar",
+    "titleCn": "苹果天才吧",
+    "scene": "你在 Apple Store 预约天才吧维修。",
+    "roles": ["You", "Genius"],
+    "turns": [
+      { "role": "Genius", "cn": "您好，预约的张伟？设备什么问题？", "en": "Hi, Zhang Wei with an appointment? What's wrong with the device?" },
+      { "role": "You", "cn": "MacBook 电池只能撑两小时了。", "en": "My MacBook battery only lasts about two hours." },
+      { "role": "Genius", "cn": "我跑个诊断……循环次数偏高，建议换电池。", "en": "Let me run diagnostics. Cycle count is high. Battery replacement is recommended." },
+      { "role": "You", "cn": "在保修期内吗？", "en": "Is it still under warranty?" },
+      { "role": "Genius", "cn": "保修过了，换电池一百九十九。", "en": "Warranty expired. Battery service is one ninety-nine." },
+      { "role": "You", "cn": "要多久？数据在本地。", "en": "How long? My data is local." },
+      { "role": "Genius", "cn": "两到三小时，建议先备份。", "en": "Two to three hours. Please back up first." }
+    ]
+  },
+  {
+    "id": "dlg-tech-04",
+    "category": "tech",
+    "title": "Setting Up Wi-Fi",
+    "titleCn": "装路由器",
+    "scene": "你买了新路由器，请店员帮忙说明安装。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "这款支持Wi-Fi 6，覆盖两千平方英尺。", "en": "This one is Wi-Fi six, covers about two thousand square feet." },
+      { "role": "You", "cn": "怎么接？我不太懂。", "en": "How do I set it up? I'm not very technical." },
+      { "role": "Clerk", "cn": "网线接光猫，App按步骤就行。", "en": "Ethernet from the modem, then follow the app steps." },
+      { "role": "You", "cn": "旧密码能保留吗？", "en": "Can I keep my old Wi-Fi password?" },
+      { "role": "Clerk", "cn": "可以，设置时自己填。", "en": "Yes, enter it during setup." },
+      { "role": "You", "cn": "退换货政策呢？", "en": "What's the return policy?" },
+      { "role": "Clerk", "cn": "十五天内未拆封可退。", "en": "Fifteen days if unopened." }
+    ]
+  },
+  {
+    "id": "dlg-tech-05",
+    "category": "tech",
+    "title": "Data Recovery",
+    "titleCn": "数据恢复",
+    "scene": "你的硬盘坏了，咨询数据恢复。",
+    "roles": ["You", "Specialist"],
+    "turns": [
+      { "role": "Specialist", "cn": "硬盘什么症状？认盘吗？", "en": "What symptoms? Does the computer see the drive?" },
+      { "role": "You", "cn": "不认，里面有工作照片和文档。", "en": "No. It has work photos and documents." },
+      { "role": "Specialist", "cn": "先检测，免费，恢复另收费。", "en": "We'll diagnose it free. Recovery is extra." },
+      { "role": "You", "cn": "恢复大概多少钱？", "en": "Roughly how much for recovery?" },
+      { "role": "Specialist", "cn": "简单逻辑故障三百起，物理损坏更贵。", "en": "Simple logical issues start at three hundred. Physical damage costs more." },
+      { "role": "You", "cn": "成功率多少？", "en": "What's the success rate?" },
+      { "role": "Specialist", "cn": "检测完才能评估，三天出报告。", "en": "We can tell you after the exam. Report in three days." }
+    ]
+  }
+]

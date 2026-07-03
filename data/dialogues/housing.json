@@ -83,5 +83,39 @@
       { "role": "Resident", "cn": "一楼自动售货机，一块五一次。", "en": "There's a vending machine on the first floor. A dollar fifty per use." },
       { "role": "You", "cn": "好的，谢谢！", "en": "Okay, thanks!" }
     ]
+  },
+  {
+    "id": "dlg-house-06",
+    "category": "housing",
+    "title": "Rent Negotiation",
+    "titleCn": "房租砍价",
+    "scene": "你看中一套公寓，想和房东谈租金。",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "月租两千一，押一付一。", "en": "Rent is twenty-one hundred a month, one month deposit." },
+      { "role": "You", "cn": "房子不错，能两千吗？我可以签一年。", "en": "I like the place. Would you take two thousand? I'll sign a one-year lease." },
+      { "role": "Landlord", "cn": "两千零五十，不能再低了。", "en": "Twenty fifty is my bottom line." },
+      { "role": "You", "cn": "包含停车位吗？", "en": "Does that include a parking spot?" },
+      { "role": "Landlord", "cn": "地下位另加一百，街趴免费。", "en": "Underground is a hundred extra. Street parking is free." },
+      { "role": "You", "cn": "那两千零五十，街趴就行。", "en": "Then twenty fifty with street parking works for me." },
+      { "role": "Landlord", "cn": "好，明天来签合同。", "en": "Deal. Come sign the lease tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-house-07",
+    "category": "housing",
+    "title": "Finding a Roommate",
+    "titleCn": "找室友",
+    "scene": "你在线看房，和潜在室友面试。",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "房租每人一千二，水电平分。", "en": "Rent is twelve hundred each, utilities split." },
+      { "role": "You", "cn": "我作息规律，不抽烟，你介意宠物吗？", "en": "I keep regular hours and don't smoke. Are you okay with pets?" },
+      { "role": "Roommate", "cn": "我有一只猫，你过敏吗？", "en": "I have a cat. Any allergies?" },
+      { "role": "You", "cn": "没有。公共区域怎么打扫？", "en": "No. How do we handle shared cleaning?" },
+      { "role": "Roommate", "cn": "每周轮流，周末大扫除一起。", "en": "We rotate weekly, deep clean together on weekends." },
+      { "role": "You", "cn": "听起来合理，什么时候能搬？", "en": "Sounds fair. When can I move in?" },
+      { "role": "Roommate", "cn": "下月一号，押金一个月。", "en": "The first of next month. One month's deposit." }
+    ]
   }
 ]

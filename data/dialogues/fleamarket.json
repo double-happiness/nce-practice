@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-flea-01",
+    "category": "fleamarket",
+    "title": "Weekend Flea Market",
+    "titleCn": "周末跳蚤市场",
+    "scene": "你在周末跳蚤市场淘旧货。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "Seller", "cn": "古董台灯，四十块。", "en": "Vintage lamp, forty dollars." },
+      { "role": "You", "cn": "灯罩有裂痕，三十行吗？", "en": "The shade is cracked. Would you take thirty?" },
+      { "role": "Seller", "cn": "三十五，不能再低了。", "en": "Thirty-five. That's as low as I go." },
+      { "role": "You", "cn": "成交，灯泡能用吗？", "en": "Deal. Does the bulb work?" },
+      { "role": "Seller", "cn": "昨天还亮着，你回家试试。", "en": "It worked yesterday. Try it at home." },
+      { "role": "You", "cn": "只有现金吗？", "en": "Cash only?" },
+      { "role": "Seller", "cn": "对，小摊没刷卡。", "en": "Yes. No card reader here." }
+    ]
+  },
+  {
+    "id": "dlg-flea-02",
+    "category": "fleamarket",
+    "title": "Thrift Store",
+    "titleCn": "二手店",
+    "scene": "你在 Goodwill 二手店买衣服。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "今天黄色标签半价。", "en": "Yellow tags are half off today." },
+      { "role": "You", "cn": "这件外套多少钱？", "en": "How much is this coat?" },
+      { "role": "Clerk", "cn": "原价十六，半价八块。", "en": "Sixteen originally, eight with the discount." },
+      { "role": "You", "cn": "试衣间在哪？", "en": "Where's the fitting room?" },
+      { "role": "Clerk", "cn": "后面左边，一次最多五件。", "en": "Back left. Five items at a time." },
+      { "role": "You", "cn": "可以退货吗？", "en": "Can I return it?" },
+      { "role": "Clerk", "cn": "七天内凭小票可换，不退现金。", "en": "Exchange within seven days with receipt. No cash refunds." }
+    ]
+  },
+  {
+    "id": "dlg-flea-03",
+    "category": "fleamarket",
+    "title": "Garage Sale",
+    "titleCn": "庭院旧货",
+    "scene": "你路过邻居的庭院旧货甩卖。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "随便看，都是家里不用的。", "en": "Look around. It's all stuff we don't need." },
+      { "role": "You", "cn": "这个书架多少钱？", "en": "How much for this bookshelf?" },
+      { "role": "Neighbor", "cn": "二十块，你自己搬。", "en": "Twenty bucks. You carry it yourself." },
+      { "role": "You", "cn": "有点重，能帮我抬到车上吗？", "en": "It's heavy. Could you help me load it?" },
+      { "role": "Neighbor", "cn": "可以，我儿子在家。", "en": "Sure. My son's home." },
+      { "role": "You", "cn": "再加这把椅子，一共三十？", "en": "Add this chair, thirty total?" },
+      { "role": "Neighbor", "cn": "行，谢谢！", "en": "Sounds good. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-flea-04",
+    "category": "fleamarket",
+    "title": "Antique Negotiation",
+    "titleCn": "古董砍价",
+    "scene": "你在古董市场看一个老式收音机。",
+    "roles": ["You", "Dealer"],
+    "turns": [
+      { "role": "Dealer", "cn": "五十年代收音机，还能响，一百二。", "en": "Fifties radio, still works, a hundred twenty." },
+      { "role": "You", "cn": "外观磨损挺厉害，八十怎么样？", "en": "It's pretty worn. How about eighty?" },
+      { "role": "Dealer", "cn": "一百，附送原装旋钮。", "en": "A hundred with the original knobs thrown in." },
+      { "role": "You", "cn": "我纯收藏，九十现金现在拿走。", "en": "It's for display only. Ninety cash right now." },
+      { "role": "Dealer", "cn": "九十五，不能再少了。", "en": "Ninety-five. Final price." },
+      { "role": "You", "cn": "成交。", "en": "Deal." },
+      { "role": "Dealer", "cn": "懂货，下次有新品通知你。", "en": "You know your stuff. I'll let you know when I get more." }
+    ]
+  },
+  {
+    "id": "dlg-flea-05",
+    "category": "fleamarket",
+    "title": "Selling Your Stuff",
+    "titleCn": "卖自己的旧物",
+    "scene": "你在跳蚤市场租摊位卖自己的旧物。",
+    "roles": ["You", "Buyer"],
+    "turns": [
+      { "role": "Buyer", "cn": "这双鞋多大码？看起来挺新。", "en": "What size are these shoes? They look almost new." },
+      { "role": "You", "cn": "九码，只穿过两次，十五块。", "en": "Size nine. Worn twice. Fifteen dollars." },
+      { "role": "Buyer", "cn": "十二块现金？", "en": "Twelve cash?" },
+      { "role": "You", "cn": "十三吧，已经很便宜了。", "en": "Thirteen? That's already a steal." },
+      { "role": "Buyer", "cn": "行，袋子有吗？", "en": "Fine. Got a bag?" },
+      { "role": "You", "cn": "有，给你。", "en": "Yes, here you go." },
+      { "role": "Buyer", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-flea-06",
+    "category": "fleamarket",
+    "title": "Vintage Watch Deal",
+    "titleCn": "古董表砍价",
+    "scene": "你在集市看中一块老式手表，深入砍价。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "Seller", "cn": "七十年代欧米茄，走时准，三百五。", "en": "Seventies Omega, keeps good time, three fifty." },
+      { "role": "You", "cn": "表蒙有划痕，机芯没保养记录。", "en": "The crystal is scratched and there's no service history." },
+      { "role": "Seller", "cn": "可以自己抛光，机芯我听着没问题。", "en": "You can polish it. The movement sounds fine to me." },
+      { "role": "You", "cn": "二百八现金，现在拿走。", "en": "Two eighty cash, right now." },
+      { "role": "Seller", "cn": "三百二，送表带。", "en": "Three twenty with an extra strap." },
+      { "role": "You", "cn": "三百，不能再多了。", "en": "Three hundred. That's my final offer." },
+      { "role": "Seller", "cn": "行，你懂表。", "en": "Alright. You know watches." }
+    ]
+  }
+]

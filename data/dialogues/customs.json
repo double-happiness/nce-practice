@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-cus-01",
+    "category": "customs",
+    "title": "Immigration Entry",
+    "titleCn": "入境检查",
+    "scene": "你抵达美国，在移民局柜台入境。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "护照和签证请出示。来美国做什么？", "en": "Passport and visa, please. What's the purpose of your visit?" },
+      { "role": "You", "cn": "旅游，待两周，这是返程机票。", "en": "Tourism, two weeks. Here's my return ticket." },
+      { "role": "Officer", "cn": "住哪里？带了多少现金？", "en": "Where will you stay? How much cash are you carrying?" },
+      { "role": "You", "cn": "住在曼哈顿这家酒店，现金五百美元。", "en": "This hotel in Manhattan. Five hundred dollars in cash." },
+      { "role": "Officer", "cn": "有没有带水果、肉类？", "en": "Are you carrying any fruit or meat products?" },
+      { "role": "You", "cn": "没有，我知道不能带。", "en": "No, I know those aren't allowed." },
+      { "role": "Officer", "cn": "欢迎来美国，请按指纹。", "en": "Welcome to the United States. Please scan your fingerprints." }
+    ]
+  },
+  {
+    "id": "dlg-cus-02",
+    "category": "customs",
+    "title": "Customs Declaration",
+    "titleCn": "海关申报",
+    "scene": "你填写海关申报单，官员询问物品。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "有什么需要申报的吗？", "en": "Anything to declare?" },
+      { "role": "You", "cn": "有，我带了两瓶本国红酒送礼。", "en": "Yes. I have two bottles of wine from home as gifts." },
+      { "role": "Officer", "cn": "每人在免税额度内，请开箱检查。", "en": "Within the duty-free limit per person. Please open the bag." },
+      { "role": "You", "cn": "还有一台旧笔记本电脑，个人用。", "en": "There's also an old laptop for personal use." },
+      { "role": "Officer", "cn": "个人用品没问题，酒也放行。", "en": "Personal items are fine. The wine is okay too." },
+      { "role": "You", "cn": "需要交税吗？", "en": "Do I owe any duty?" },
+      { "role": "Officer", "cn": "不用，请走绿色通道。", "en": "No. Please take the green channel." }
+    ]
+  },
+  {
+    "id": "dlg-cus-03",
+    "category": "customs",
+    "title": "Student Visa Entry",
+    "titleCn": "留学入境",
+    "scene": "你持学生签证入境，官员核实学校信息。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "F-1签证？哪所学校？", "en": "F-1 visa? Which school?" },
+      { "role": "You", "cn": "哥伦比亚大学，这是I-20表格。", "en": "Columbia University. Here's my I-20." },
+      { "role": "Officer", "cn": "第一次来美国吗？住校还是校外？", "en": "First time in the US? On campus or off?" },
+      { "role": "You", "cn": "第一次，先住学校宿舍。", "en": "Yes, first time. I'll stay in campus housing first." },
+      { "role": "Officer", "cn": "学期什么时候开始？", "en": "When does the semester start?" },
+      { "role": "You", "cn": "下周，提前几天到安顿。", "en": "Next week. I arrived a few days early to settle in." },
+      { "role": "Officer", "cn": "祝学业顺利。", "en": "Good luck with your studies." }
+    ]
+  },
+  {
+    "id": "dlg-cus-04",
+    "category": "customs",
+    "title": "Secondary Inspection",
+    "titleCn": "二次检查",
+    "scene": "你被带到二次检查室，官员进一步询问。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "请坐，我们需要多问几个问题。", "en": "Please have a seat. We need to ask a few more questions." },
+      { "role": "You", "cn": "好的，有什么问题？", "en": "Okay. What would you like to know?" },
+      { "role": "Officer", "cn": "您在美国有联系人吗？", "en": "Do you have contacts in the United States?" },
+      { "role": "You", "cn": "有，我朋友住在波士顿，这是他的地址。", "en": "Yes, a friend in Boston. Here's his address." },
+      { "role": "Officer", "cn": "这次会待多久？谁付费用？", "en": "How long will you stay? Who's paying for the trip?" },
+      { "role": "You", "cn": "十天，我自己付，这是银行证明。", "en": "Ten days. I'm paying myself. Here's my bank statement." },
+      { "role": "Officer", "cn": "明白了，您可以入境了。", "en": "Understood. You're cleared to enter." }
+    ]
+  },
+  {
+    "id": "dlg-cus-05",
+    "category": "customs",
+    "title": "Bringing Medication",
+    "titleCn": "携带药品",
+    "scene": "你携带处方药入境，官员询问。",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "这些药是什么？", "en": "What are these medications?" },
+      { "role": "You", "cn": "个人处方药，高血压和过敏药。", "en": "Personal prescriptions for blood pressure and allergies." },
+      { "role": "Officer", "cn": "有医生证明或处方单吗？", "en": "Do you have a doctor's note or prescription?" },
+      { "role": "You", "cn": "有，英文处方在这。", "en": "Yes, here's the prescription in English." },
+      { "role": "Officer", "cn": "数量不超过九十天的用量吧？", "en": "It's not more than a ninety-day supply, right?" },
+      { "role": "You", "cn": "对，只带了一个月的量。", "en": "Correct. I only brought one month's worth." },
+      { "role": "Officer", "cn": "可以，请收好。", "en": "That's fine. Please keep them with you." }
+    ]
+  }
+]

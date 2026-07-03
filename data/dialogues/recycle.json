@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-rec-01",
+    "category": "recycle",
+    "title": "Sorting Recycling",
+    "titleCn": "垃圾分类",
+    "scene": "你不确定垃圾怎么分，问邻居。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "请问披萨盒是扔回收还是垃圾？", "en": "Should pizza boxes go in recycling or trash?" },
+      { "role": "Neighbor", "cn": "油污太多的话扔垃圾，干净部分撕下来回收。", "en": "If they're greasy, trash. Tear off clean cardboard for recycling." },
+      { "role": "You", "cn": "塑料瓶要压扁吗？", "en": "Should I crush plastic bottles?" },
+      { "role": "Neighbor", "cn": "最好压扁，瓶盖拧上。", "en": "Yes, and screw the caps back on." },
+      { "role": "You", "cn": "每周几收回收？", "en": "Which day is recycling pickup?" },
+      { "role": "Neighbor", "cn": "周三早上，蓝桶放路边。", "en": "Wednesday morning. Blue bin at the curb." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks so much!" }
+    ]
+  },
+  {
+    "id": "dlg-rec-02",
+    "category": "recycle",
+    "title": "Electronics Recycling",
+    "titleCn": "回收电子产品",
+    "scene": "你去回收中心扔旧电脑和电池。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "电脑放那边，电池单独这边。", "en": "Computers over there, batteries in this bin." },
+      { "role": "You", "cn": "硬盘里的数据需要先处理吗？", "en": "Should I wipe the hard drive first?" },
+      { "role": "Staff", "cn": "建议您自己清除，我们粉碎但不保证。", "en": "We recommend you erase it yourself. We shred drives but can't guarantee." },
+      { "role": "You", "cn": "旧手机也能扔吗？", "en": "Can I drop off an old phone too?" },
+      { "role": "Staff", "cn": "可以，电子垃圾免费回收。", "en": "Yes. E-waste recycling is free." },
+      { "role": "You", "cn": "需要预约吗？", "en": "Do I need an appointment?" },
+      { "role": "Staff", "cn": "不用，周六全天开放。", "en": "No. We're open all day Saturday." }
+    ]
+  },
+  {
+    "id": "dlg-rec-03",
+    "category": "recycle",
+    "title": "Compost Bin",
+    "titleCn": "厨余堆肥",
+    "scene": "社区推广厨余堆肥，你咨询怎么参加。",
+    "roles": ["You", "Volunteer"],
+    "turns": [
+      { "role": "Volunteer", "cn": "想领厨余桶吗？每月五块。", "en": "Want a compost bin? It's five dollars a month." },
+      { "role": "You", "cn": "什么可以扔进去？", "en": "What can go in it?" },
+      { "role": "Volunteer", "cn": "果皮、咖啡渣、蛋壳，不要肉和油。", "en": "Fruit peels, coffee grounds, eggshells. No meat or oil." },
+      { "role": "You", "cn": "放在阳台可以吗？", "en": "Can I keep it on my balcony?" },
+      { "role": "Volunteer", "cn": "可以，每周三放楼道收集点。", "en": "Yes. Put it in the hall collection spot on Wednesdays." },
+      { "role": "You", "cn": "好，我报名。", "en": "Okay, sign me up." },
+      { "role": "Volunteer", "cn": "填个表，桶下周发。", "en": "Fill out this form. We'll deliver the bin next week." }
+    ]
+  },
+  {
+    "id": "dlg-rec-04",
+    "category": "recycle",
+    "title": "Donating Clothes",
+    "titleCn": "捐旧衣服",
+    "scene": "你把旧衣服捐给慈善回收箱。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "袋子重的话我帮您提。", "en": "Let me help if the bags are heavy." },
+      { "role": "You", "cn": "这些还能穿，鞋子也可以捐吗？", "en": "These are still wearable. Can I donate shoes too?" },
+      { "role": "Attendant", "cn": "鞋子成对放，太破的不要。", "en": "Shoes in pairs, please. Nothing too worn out." },
+      { "role": "You", "cn": "能开捐赠收据抵税吗？", "en": "Can I get a tax receipt?" },
+      { "role": "Attendant", "cn": "网站自助打印，估个总价就行。", "en": "Print one from our website with an estimated value." },
+      { "role": "You", "cn": "好的，谢谢你们的公益。", "en": "Okay. Thanks for the good work." },
+      { "role": "Attendant", "cn": "谢谢捐赠！", "en": "Thank you for donating!" }
+    ]
+  }
+]

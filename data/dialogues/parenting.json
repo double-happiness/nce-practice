@@ -100,5 +100,39 @@
       { "role": "Sitter", "cn": "明白，EpiPen在厨房抽屉。", "en": "Got it. Is the EpiPen in the kitchen drawer?" },
       { "role": "You", "cn": "对，我们的号码在冰箱上。", "en": "Yes. Our numbers are on the fridge." }
     ]
+  },
+  {
+    "id": "dlg-kid-07",
+    "category": "parenting",
+    "title": "Child at the Dentist",
+    "titleCn": "带孩子看牙医",
+    "scene": "你带害怕牙医的孩子去检查牙齿。",
+    "roles": ["You", "Dentist"],
+    "turns": [
+      { "role": "Dentist", "cn": "你好小朋友，我们数牙齿好不好？", "en": "Hi there. Want to count your teeth together?" },
+      { "role": "You", "cn": "他有点紧张，第一次来。", "en": "He's a little nervous. It's his first visit." },
+      { "role": "Dentist", "cn": "没关系，先坐大大椅子，给你墨镜。", "en": "That's okay. Sit in the big chair. Here are cool sunglasses." },
+      { "role": "You", "cn": "宝贝，医生只是看一看。", "en": "Sweetie, the doctor is just going to look." },
+      { "role": "Dentist", "cn": "没有蛀牙，刷得很好！贴纸选一个。", "en": "No cavities. Great brushing! Pick a sticker." },
+      { "role": "You", "cn": "下次六个月后再来对吗？", "en": "We come back in six months, right?" },
+      { "role": "Dentist", "cn": "对，继续每天刷两次。", "en": "Yes. Keep brushing twice a day." }
+    ]
+  },
+  {
+    "id": "dlg-kid-08",
+    "category": "parenting",
+    "title": "School Snow Day",
+    "titleCn": "雪天停课",
+    "scene": "下大雪学校停课，你安排孩子在家。",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "You", "cn": "学校发短信说今天停课。", "en": "School texted. No class today." },
+      { "role": "Child", "cn": "太好了！可以出去玩雪吗？", "en": "Yes! Can we play in the snow?" },
+      { "role": "You", "cn": "吃完早餐，穿暖和再去。", "en": "After breakfast, and bundle up warm." },
+      { "role": "Child", "cn": "能堆雪人吗？", "en": "Can we build a snowman?" },
+      { "role": "You", "cn": "可以，但中午前要完成作业。", "en": "Sure, but homework before noon." },
+      { "role": "Child", "cn": "好吧。", "en": "Okay." },
+      { "role": "You", "cn": "热巧克力回来喝。", "en": "We'll have hot chocolate when you come in." }
+    ]
   }
 ]

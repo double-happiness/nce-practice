@@ -102,5 +102,56 @@
       { "role": "You", "cn": "能换一些小面额吗？", "en": "Can I get some smaller bills?" },
       { "role": "Clerk", "cn": "可以，请清点一下现金。", "en": "Sure. Please count the cash to confirm." }
     ]
+  },
+  {
+    "id": "dlg-travel-07",
+    "category": "travel",
+    "title": "Hotel Checkout",
+    "titleCn": "酒店退房",
+    "scene": "你准备离开酒店办理退房。",
+    "roles": ["You", "Front Desk"],
+    "turns": [
+      { "role": "You", "cn": "你好，808退房。", "en": "Hi, I'd like to check out of room 808." },
+      { "role": "Front Desk", "cn": "迷你吧用过吗？", "en": "Did you use the minibar?" },
+      { "role": "You", "cn": "没有，房卡在这里。", "en": "No. Here are the key cards." },
+      { "role": "Front Desk", "cn": "账单一共三百二，含税费。", "en": "Your total is three twenty, taxes included." },
+      { "role": "You", "cn": "能开发票吗？公司报销。", "en": "Can I get an invoice? It's for work reimbursement." },
+      { "role": "Front Desk", "cn": "可以，邮箱发您。", "en": "Sure. I'll email it to you." },
+      { "role": "Front Desk", "cn": "需要叫车去机场吗？", "en": "Would you like us to call a cab to the airport?" }
+    ]
+  },
+  {
+    "id": "dlg-travel-08",
+    "category": "travel",
+    "title": "Tour Group",
+    "titleCn": "跟团旅游",
+    "scene": "你参加一日游，导游集合讲解。",
+    "roles": ["You", "Guide"],
+    "turns": [
+      { "role": "Guide", "cn": "各位早上好！八点大巴出发，请准时。", "en": "Good morning, everyone! The bus leaves at eight. Please be on time." },
+      { "role": "You", "cn": "午餐包含吗？", "en": "Is lunch included?" },
+      { "role": "Guide", "cn": "包含简餐，有特殊饮食请告诉我。", "en": "A light lunch is included. Tell me about any dietary needs." },
+      { "role": "You", "cn": "我不吃猪肉。", "en": "I don't eat pork." },
+      { "role": "Guide", "cn": "记下了，餐厅会准备鸡肉。", "en": "Noted. The restaurant will prepare chicken instead." },
+      { "role": "You", "cn": "自由活动时间多久？", "en": "How long is the free time?" },
+      { "role": "Guide", "cn": "景点两小时，三点大巴回。", "en": "Two hours at the site. Bus back at three." }
+    ]
+  },
+  {
+    "id": "dlg-travel-09",
+    "category": "travel",
+    "title": "Cruise Embarkation",
+    "titleCn": "邮轮登船",
+    "scene": "你在港口办理邮轮登船手续。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "护照和预订确认函请出示。", "en": "Passport and booking confirmation, please." },
+      { "role": "You", "cn": "在这里，行李需要贴标签吗？", "en": "Here you go. Do the bags need tags?" },
+      { "role": "Staff", "cn": "标签在这，晚上送到舱房。", "en": "Tags are here. Bags arrive at your cabin tonight." },
+      { "role": "You", "cn": "舱房几点可以进？", "en": "When can we access the cabin?" },
+      { "role": "Staff", "cn": "下午两点后，现在可以先去自助餐。", "en": "After two PM. You can hit the buffet now." },
+      { "role": "You", "cn": "晕船药在哪买？", "en": "Where can I buy seasickness medicine?" },
+      { "role": "Staff", "cn": "船上商店有，医务室也可咨询。", "en": "The onboard shop has some. The medical center can help too." }
+    ]
   }
 ]

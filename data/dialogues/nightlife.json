@@ -1,0 +1,86 @@
+[
+  {
+    "id": "dlg-night-01",
+    "category": "nightlife",
+    "title": "At a Bar",
+    "titleCn": "酒吧",
+    "scene": "周五晚上你和朋友在酒吧喝一杯。",
+    "roles": ["You", "Bartender"],
+    "turns": [
+      { "role": "Bartender", "cn": "晚上好，想喝什么？", "en": "Good evening. What can I get you?" },
+      { "role": "You", "cn": "来杯威士忌加冰，谢谢。", "en": "Whiskey on the rocks, please." },
+      { "role": "Bartender", "cn": "单一麦芽还是调和？", "en": "Single malt or blended?" },
+      { "role": "You", "cn": "单一麦芽，不要太烈。", "en": "Single malt, nothing too strong." },
+      { "role": "Bartender", "cn": "这款口感顺滑，十二块。", "en": "This one's smooth. Twelve dollars." },
+      { "role": "You", "cn": "刷卡，小费一起付。", "en": "Card, please. I'll add the tip on the card." },
+      { "role": "Bartender", "cn": "请稍等，马上来。", "en": "One moment. Coming right up." }
+    ]
+  },
+  {
+    "id": "dlg-night-02",
+    "category": "nightlife",
+    "title": "Checking ID",
+    "titleCn": "查身份证",
+    "scene": "酒吧门口保安检查你是否满二十一岁。",
+    "roles": ["You", "Bouncer"],
+    "turns": [
+      { "role": "Bouncer", "cn": "身份证，请。", "en": "ID, please." },
+      { "role": "You", "cn": "给，我刚满二十一。", "en": "Here you go. I just turned twenty-one." },
+      { "role": "Bouncer", "cn": "真的？生日是哪天？", "en": "Really? What's your birthday?" },
+      { "role": "You", "cn": "三月十五，九八年。", "en": "March fifteenth, ninety-eight." },
+      { "role": "Bouncer", "cn": "行，进吧，别喝太多。", "en": "Alright, go in. Don't overdo it." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-night-03",
+    "category": "nightlife",
+    "title": "Karaoke Night",
+    "titleCn": "KTV唱歌",
+    "scene": "你和同事在KTV包厢点歌。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "你先唱还是我先？", "en": "You go first or me?" },
+      { "role": "You", "cn": "你先吧，我点首英文老歌热身。", "en": "You first. I'll pick an old English song to warm up." },
+      { "role": "Friend", "cn": "有《Yesterday》吗？", "en": "Do they have Yesterday?" },
+      { "role": "You", "cn": "有，我帮你点了。", "en": "Yeah, I queued it for you." },
+      { "role": "Friend", "cn": "下一轮一起合唱？", "en": "Want to do a duet next round?" },
+      { "role": "You", "cn": "好啊，《Shallow》怎么样？", "en": "Sure. How about Shallow?" },
+      { "role": "Friend", "cn": "完美！", "en": "Perfect!" }
+    ]
+  },
+  {
+    "id": "dlg-night-04",
+    "category": "nightlife",
+    "title": "Calling a Ride Home",
+    "titleCn": "深夜叫车",
+    "scene": "派对结束很晚，你叫网约车回家。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "您是张伟吗？尾号0199？", "en": "Are you Zhang Wei? Ending in zero one nine nine?" },
+      { "role": "You", "cn": "对，去123 Maple Street。", "en": "Yes. One twenty-three Maple Street, please." },
+      { "role": "Driver", "cn": "大概二十分钟，系好安全带。", "en": "About twenty minutes. Please buckle up." },
+      { "role": "You", "cn": "能在拐角停吗？前面在修路。", "en": "Could you drop me at the corner? They're doing road work ahead." },
+      { "role": "Driver", "cn": "没问题。", "en": "No problem." },
+      { "role": "You", "cn": "到了，谢谢，晚安。", "en": "We're here. Thanks. Good night." },
+      { "role": "Driver", "cn": "晚安，路上小心。", "en": "Good night. Take care." }
+    ]
+  },
+  {
+    "id": "dlg-night-05",
+    "category": "nightlife",
+    "title": "Live Music Venue",
+    "titleCn": "livehouse",
+    "scene": "你在小酒馆看现场乐队演出。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "门票十五，要手环吗？", "en": "Fifteen for the cover. Need a wristband?" },
+      { "role": "You", "cn": "要，乐队几点开始？", "en": "Yes. What time does the band start?" },
+      { "role": "Staff", "cn": "九点，现在可以先坐吧台。", "en": "Nine o'clock. You can grab the bar for now." },
+      { "role": "You", "cn": "里面能说话吗？还是必须安静？", "en": "Can we talk inside or is it quiet only?" },
+      { "role": "Staff", "cn": "演出时请小声，中间有休息。", "en": "Keep it low during sets. There's a break between acts." },
+      { "role": "You", "cn": "好的，两张票。", "en": "Okay. Two tickets, please." },
+      { "role": "Staff", "cn": "三十块，享受音乐！", "en": "Thirty. Enjoy the show!" }
+    ]
+  }
+]

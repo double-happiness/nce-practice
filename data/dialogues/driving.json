@@ -100,5 +100,39 @@
       { "role": "You", "cn": "申诉期间要交罚款吗？", "en": "Do I need to pay the fine while it's under review?" },
       { "role": "Clerk", "cn": "可以先不交，批准后会撤销。", "en": "You can wait. It'll be dismissed if approved." }
     ]
+  },
+  {
+    "id": "dlg-drive-07",
+    "category": "driving",
+    "title": "Highway Merging",
+    "titleCn": "高速并线",
+    "scene": "教练带你练习上高速并线。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "加速道要踩油门，匹配车流速度。", "en": "Use the ramp to speed up and match traffic." },
+      { "role": "You", "cn": "后面有车很近，我还能并进去吗？", "en": "A car is close behind. Can I still merge?" },
+      { "role": "Instructor", "cn": "看后视镜和盲点，打灯，找空隙。", "en": "Check your mirror and blind spot, signal, and find a gap." },
+      { "role": "You", "cn": "好的，我减速让了一下。", "en": "Okay. I slowed to let them pass." },
+      { "role": "Instructor", "cn": "现在并线，保持车距。", "en": "Merge now and keep your following distance." },
+      { "role": "You", "cn": "出口两英里，要换道了。", "en": "My exit is two miles. I need to change lanes." },
+      { "role": "Instructor", "cn": "提前打灯，别临时刹车。", "en": "Signal early. Don't brake at the last second." }
+    ]
+  },
+  {
+    "id": "dlg-drive-08",
+    "category": "driving",
+    "title": "Passed the Road Test",
+    "titleCn": "路考通过",
+    "scene": "你路考通过了，和教练分享好消息。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "You", "cn": "我通过了！谢谢您这些周的指导。", "en": "I passed! Thanks for all your help these weeks." },
+      { "role": "Instructor", "cn": "恭喜！侧方停车那次很稳。", "en": "Congratulations! Your parallel parking was solid." },
+      { "role": "You", "cn": "考官说我观察镜子做得好。", "en": "The examiner said I checked my mirrors well." },
+      { "role": "Instructor", "cn": "接下来去 DMV 换正式驾照。", "en": "Next step is getting your full license at the DMV." },
+      { "role": "You", "cn": "晚上我请你吃饭庆祝。", "en": "Dinner's on me tonight to celebrate." },
+      { "role": "Instructor", "cn": "好意心领了，路上永远安全第一。", "en": "That's kind of you. Always put safety first on the road." },
+      { "role": "You", "cn": "一定！再次感谢！", "en": "I will. Thanks again!" }
+    ]
   }
 ]

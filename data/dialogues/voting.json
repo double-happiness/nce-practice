@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-vote-01",
+    "category": "voting",
+    "title": "Registering to Vote",
+    "titleCn": "选民登记",
+    "scene": "你在 DMV 顺便办理选民登记。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "今天要登记投票吗？", "en": "Would you like to register to vote today?" },
+      { "role": "You", "cn": "是的，我是美国公民，刚搬来本州。", "en": "Yes. I'm a US citizen and just moved to this state." },
+      { "role": "Clerk", "cn": "请填这张表，选政党或无党派。", "en": "Fill out this form. Pick a party or no party." },
+      { "role": "You", "cn": "无党派可以吗？", "en": "Can I choose no party?" },
+      { "role": "Clerk", "cn": "可以，但初选可能有限制。", "en": "Yes, but some primaries may be limited." },
+      { "role": "You", "cn": "投票站会寄通知吗？", "en": "Will they mail me polling info?" },
+      { "role": "Clerk", "cn": "选前会寄选民手册和地点。", "en": "You'll get a voter guide and location before the election." }
+    ]
+  },
+  {
+    "id": "dlg-vote-02",
+    "category": "voting",
+    "title": "At the Polling Place",
+    "titleCn": "投票站",
+    "scene": "选举日你去投票站投票。",
+    "roles": ["You", "Poll Worker"],
+    "turns": [
+      { "role": "Poll Worker", "cn": "您好，请出示证件。", "en": "Hello. May I see your ID?" },
+      { "role": "You", "cn": "驾照在这里。", "en": "Here's my driver's license." },
+      { "role": "Poll Worker", "cn": "请在这签名，拿这张卡。", "en": "Sign here and take this card." },
+      { "role": "You", "cn": "投票机在哪？", "en": "Where are the voting machines?" },
+      { "role": "Poll Worker", "cn": "帘子后面，工作人员会演示。", "en": "Behind the booths. A worker will show you." },
+      { "role": "You", "cn": "可以中途改选吗？", "en": "Can I change my choices before submitting?" },
+      { "role": "Poll Worker", "cn": "确认前都可以改。", "en": "Yes, until you press confirm." }
+    ]
+  },
+  {
+    "id": "dlg-vote-03",
+    "category": "voting",
+    "title": "Mail-in Ballot",
+    "titleCn": "邮寄选票",
+    "scene": "你选择邮寄投票，向工作人员咨询流程。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "我想申请邮寄选票。", "en": "I'd like to request a mail-in ballot." },
+      { "role": "Clerk", "cn": "在本县登记地址吗？", "en": "Are you registered at an address in this county?" },
+      { "role": "You", "cn": "是的，地址没变。", "en": "Yes, same address." },
+      { "role": "Clerk", "cn": "选票会寄到家，填完要证人签名。", "en": "It'll be mailed to you. You need a witness signature." },
+      { "role": "You", "cn": "最晚哪天必须寄出？", "en": "What's the postmark deadline?" },
+      { "role": "Clerk", "cn": "选举日当天前邮戳有效，也可投箱。", "en": "Postmarked by election day, or use a drop box." },
+      { "role": "You", "cn": "投箱在哪里？", "en": "Where's the drop box?" }
+    ]
+  },
+  {
+    "id": "dlg-vote-04",
+    "category": "voting",
+    "title": "Asking About a Ballot Issue",
+    "titleCn": "咨询选票议题",
+    "scene": "你对选票上的地方提案不清楚，向朋友请教。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "You", "cn": "提案B是加税修学校吗？", "en": "Is Proposition B the school tax measure?" },
+      { "role": "Friend", "cn": "对，房产税加一点，建两所新校。", "en": "Yes. A small property tax bump for two new schools." },
+      { "role": "You", "cn": "反对的人说财政不透明。", "en": "Opponents say the spending isn't transparent." },
+      { "role": "Friend", "cn": "选民手册两边论点都有，值得读。", "en": "The voter guide has both sides. Worth reading." },
+      { "role": "You", "cn": "我还没决定投什么。", "en": "I haven't decided how to vote yet." },
+      { "role": "Friend", "cn": "没关系，研究清楚再投。", "en": "That's fine. Look into it before you vote." },
+      { "role": "You", "cn": "可以，我今晚看手册。", "en": "Thanks. I'll read the guide tonight." }
+    ]
+  }
+]
