@@ -1,0 +1,1173 @@
+[
+  {
+    "book": 2,
+    "lesson": 1,
+    "title": "A private conversation",
+    "titleCn": "私人谈话",
+    "scene": "叙述者上周去剧场看戏，戏很有意思，他却看得很不痛快：坐在身后的一对男女一直大声聊天，吵得他无法专心。他忍无可忍回头提醒，对方非但不理，反而无礼地回敬了一句，令他哭笑不得。全文回顾上周发生的事，通篇使用一般过去时叙事（went、sat、turned 等），是本册过去时叙事文的开篇范例。",
+    "grammarTags": ["一般过去时", "感叹句"],
+    "words": [
+      {
+        "word": "private",
+        "phon": "/ˈpraɪvɪt/",
+        "pos": "adj.",
+        "cn": "私人的",
+        "eg": "Please don't read my private letters. 请不要看我的私人信件。"
+      },
+      {
+        "word": "conversation",
+        "phon": "/ˌkɒnvəˈseɪʃn/",
+        "pos": "n.",
+        "cn": "谈话",
+        "eg": "We had a long conversation about music. 我们围绕音乐聊了很久。"
+      },
+      {
+        "word": "theatre",
+        "phon": "/ˈθɪətə/",
+        "pos": "n.",
+        "cn": "剧场，戏院",
+        "eg": "There is a new theatre near my school. 我学校附近有一家新剧院。"
+      },
+      {
+        "word": "seat",
+        "phon": "/siːt/",
+        "pos": "n.",
+        "cn": "座位",
+        "eg": "He found a seat in the front row. 他在前排找到了一个座位。"
+      },
+      {
+        "word": "loudly",
+        "phon": "/ˈlaʊdli/",
+        "pos": "adv.",
+        "cn": "大声地",
+        "eg": "The children laughed loudly in the park. 孩子们在公园里大声地笑。"
+      },
+      {
+        "word": "angry",
+        "phon": "/ˈæŋɡri/",
+        "pos": "adj.",
+        "cn": "生气的",
+        "eg": "My father was angry when he saw the broken window. 爸爸看到打碎的窗户很生气。"
+      },
+      {
+        "word": "attention",
+        "phon": "/əˈtenʃn/",
+        "pos": "n.",
+        "cn": "注意",
+        "eg": "The little boy tried to get his mother's attention. 小男孩想引起妈妈的注意。"
+      },
+      {
+        "word": "bear",
+        "phon": "/beə/",
+        "pos": "v.",
+        "cn": "容忍，忍受",
+        "eg": "She can't bear hot weather at all. 她一点也受不了炎热的天气。"
+      },
+      {
+        "word": "business",
+        "phon": "/ˈbɪznɪs/",
+        "pos": "n.",
+        "cn": "事情；生意",
+        "eg": "How I spend my money is my own business. 我怎么花钱是我自己的事。"
+      },
+      {
+        "word": "rudely",
+        "phon": "/ˈruːdli/",
+        "pos": "adv.",
+        "cn": "无礼地，粗鲁地",
+        "eg": "He answered the old man rudely. 他粗鲁地回答那位老人。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（叙述过去发生的事）",
+        "explain": "叙述过去某一时间发生的动作用一般过去时。规则动词加 -ed（turned、looked），不规则动词需单独记忆（go→went、sit→sat、pay→paid）。常与 last week、yesterday 等过去时间状语连用。",
+        "examples": [
+          "I went to the cinema with my sister last night.（昨晚我和姐姐去看了电影。）",
+          "They sat behind us and talked all the time.（他们坐在我们后面，一直讲话。）"
+        ]
+      },
+      {
+        "point": "cannot / could not + 动词原形",
+        "explain": "can 的否定式 cannot（can't）表示“不能、无法”，过去式为 could not（couldn't）。后接动词原形，常表达“听不见、受不了”等能力上的做不到。",
+        "examples": [
+          "I couldn't hear the teacher because of the noise.（因为吵闹，我听不见老师讲话。）",
+          "She couldn't bear the loud music next door.（她受不了隔壁震耳的音乐。）"
+        ]
+      },
+      {
+        "point": "none of one's business",
+        "explain": "It's none of your business 意为“不关你的事”，是口语中很不客气的说法。business 在此表示“个人的事情”，不指“生意”。",
+        "examples": [
+          "What I said to her is none of your business.（我对她说了什么不关你的事。）",
+          "Mind your own business, please.（请管好你自己的事。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：看戏时后排有人喋喋不休——把 went、sat、turned round、said 这一串过去式动词按剧情顺序串成小电影，不规则变化自然记牢。②易错提醒：angry 是形容词（be angry），angrily 才是副词修饰动词，别混用。③对比第一册：第一册多用一般现在时描述眼前场景，本课起转向“讲过去的故事”，注意动词形态整体后移为过去式。"
+  },
+  {
+    "book": 2,
+    "lesson": 2,
+    "title": "Breakfast or lunch?",
+    "titleCn": "早餐还是午餐？",
+    "scene": "一个下雨的星期天，叙述者赖床到很晚才起。姑妈打来电话说要来看他，他说自己正在吃早饭，姑妈很惊讶：都下午了还在吃早饭？课文以“星期天总是起得晚”这一习惯为线索，把表示习惯的一般现在时（always gets up late）和表示此刻动作的现在进行时（is having breakfast）放在一起对照，是区分这两种时态的经典语篇。",
+    "grammarTags": ["一般现在时", "现在进行时"],
+    "words": [
+      {
+        "word": "until",
+        "phon": "/ənˈtɪl/",
+        "pos": "prep./conj.",
+        "cn": "直到",
+        "eg": "He didn't get up until ten o'clock. 他直到十点才起床。"
+      },
+      {
+        "word": "outside",
+        "phon": "/ˌaʊtˈsaɪd/",
+        "pos": "adv.",
+        "cn": "外面",
+        "eg": "It is snowing heavily outside. 外面正下着大雪。"
+      },
+      {
+        "word": "ring",
+        "phon": "/rɪŋ/",
+        "pos": "v.",
+        "cn": "（铃、电话）响；打电话",
+        "eg": "The phone rang while I was cooking. 我做饭时电话响了。"
+      },
+      {
+        "word": "aunt",
+        "phon": "/ɑːnt/",
+        "pos": "n.",
+        "cn": "姑妈；姨妈",
+        "eg": "My aunt often brings us small presents. 姑妈常给我们带小礼物。"
+      },
+      {
+        "word": "repeat",
+        "phon": "/rɪˈpiːt/",
+        "pos": "v.",
+        "cn": "重复",
+        "eg": "Could you repeat the question, please? 请你把问题重复一遍好吗？"
+      },
+      {
+        "word": "immediately",
+        "phon": "/ɪˈmiːdiətli/",
+        "pos": "adv.",
+        "cn": "立刻，马上",
+        "eg": "She answered my message immediately. 她立刻回复了我的短信。"
+      },
+      {
+        "word": "sometimes",
+        "phon": "/ˈsʌmtaɪmz/",
+        "pos": "adv.",
+        "cn": "有时",
+        "eg": "Sometimes I walk to work instead of taking the bus. 我有时步行上班而不坐公交。"
+      },
+      {
+        "word": "dark",
+        "phon": "/dɑːk/",
+        "pos": "adj.",
+        "cn": "黑暗的",
+        "eg": "The room was dark, so I turned on the light. 房间很暗，于是我开了灯。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般现在时（表示习惯与经常性动作）",
+        "explain": "表示经常发生的动作或习惯用一般现在时，主语为第三人称单数时动词加 -s/-es。常与 always、usually、sometimes、never 等频度副词连用，频度副词一般放在实义动词前、be 动词后。",
+        "examples": [
+          "He always gets up late on Sundays.（他星期天总是起得很晚。）",
+          "My aunt usually visits us in the afternoon.（姑妈通常下午来看我们。）"
+        ]
+      },
+      {
+        "point": "现在进行时（表示此刻正在进行的动作）",
+        "explain": "构成为 be（am/is/are）+ 动词-ing，表示说话时正在发生的动作，常与 now、at the moment 连用。与一般现在时对比：一个讲“平时如何”，一个讲“此刻在做什么”。",
+        "examples": [
+          "I'm having lunch now, so I'll call you back later.（我现在正吃午饭，稍后给你回电话。）",
+          "Look! It is raining outside.（看！外面正在下雨。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：周日赖床、电话铃响、嘴里还嚼着早饭——“习惯”用一般现在时，“嘴里正嚼着”用现在进行时，一幅画面区分两种时态。②易错提醒：第三人称单数别忘加 -s，如 he gets up；进行时别丢 be 动词，不能说 I having breakfast。③与第 1 课对比：L1 讲已经过去的事用过去时，本课讲习惯和当下，时态随“时间视角”切换。"
+  },
+  {
+    "book": 2,
+    "lesson": 3,
+    "title": "Please send me a card",
+    "titleCn": "请给我寄一张明信片",
+    "scene": "叙述者认为明信片总是搅扰他的假期：去年夏天他去度假，心里一直惦记着该给朋友们寄明信片，结果整整一天都耗在琢磨明信片和措辞上，哪儿也没去成，最后一张也没寄出，却做了一个重大决定。全文以 last summer 引领，动词一律采用一般过去时（thought、bought、spent 等），演示了如何用过去时讲述一段假期经历。",
+    "grammarTags": ["一般过去时"],
+    "words": [
+      {
+        "word": "send",
+        "phon": "/send/",
+        "pos": "v.",
+        "cn": "寄，送",
+        "eg": "I will send you an email tonight. 今晚我会给你发一封邮件。"
+      },
+      {
+        "word": "postcard",
+        "phon": "/ˈpəʊstkɑːd/",
+        "pos": "n.",
+        "cn": "明信片",
+        "eg": "She bought a postcard with a picture of the sea. 她买了一张印着大海的明信片。"
+      },
+      {
+        "word": "spoil",
+        "phon": "/spɔɪl/",
+        "pos": "v.",
+        "cn": "搅乱，破坏",
+        "eg": "The heavy rain spoiled our picnic. 大雨破坏了我们的野餐。"
+      },
+      {
+        "word": "museum",
+        "phon": "/mjuːˈziːəm/",
+        "pos": "n.",
+        "cn": "博物馆",
+        "eg": "The museum is free on Mondays. 这家博物馆周一免费开放。"
+      },
+      {
+        "word": "public",
+        "phon": "/ˈpʌblɪk/",
+        "pos": "adj.",
+        "cn": "公共的",
+        "eg": "You can't smoke in public places. 公共场所不允许吸烟。"
+      },
+      {
+        "word": "friendly",
+        "phon": "/ˈfrendli/",
+        "pos": "adj.",
+        "cn": "友好的",
+        "eg": "The people in that small town are very friendly. 那个小镇上的人非常友好。"
+      },
+      {
+        "word": "lend",
+        "phon": "/lend/",
+        "pos": "v.",
+        "cn": "借给（某人）",
+        "eg": "Can you lend me your dictionary for a day? 你能把词典借我一天吗？"
+      },
+      {
+        "word": "decision",
+        "phon": "/dɪˈsɪʒn/",
+        "pos": "n.",
+        "cn": "决定",
+        "eg": "He made a quick decision to change his job. 他很快做出了换工作的决定。"
+      },
+      {
+        "word": "whole",
+        "phon": "/həʊl/",
+        "pos": "adj.",
+        "cn": "整个的",
+        "eg": "We spent the whole morning cleaning the house. 我们花了一上午打扫房子。"
+      },
+      {
+        "word": "single",
+        "phon": "/ˈsɪŋɡl/",
+        "pos": "adj.",
+        "cn": "唯一的，单一的",
+        "eg": "There wasn't a single empty seat on the bus. 公共汽车上连一个空座位都没有。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（常见不规则动词）",
+        "explain": "讲述去年、上周等过去经历一律用过去式。本课集中出现高频不规则动词：think→thought、buy→bought、spend→spent、read→read（读音变 /red/），必须逐一熟记。",
+        "examples": [
+          "Last summer we spent two weeks by the sea.（去年夏天我们在海边待了两周。）",
+          "I thought about the problem for a whole day.（我把这个问题想了一整天。）"
+        ]
+      },
+      {
+        "point": "spend + 时间 + (in) doing / on sth.",
+        "explain": "spend 表示“花费（时间、金钱）”，主语是人。花时间做某事用 spend time (in) doing sth.，花在某物上用 spend money on sth.。",
+        "examples": [
+          "She spent the whole afternoon reading in the garden.（她一下午都在花园里看书。）",
+          "He spends too much money on computer games.（他在电脑游戏上花钱太多。）"
+        ]
+      },
+      {
+        "point": "lend 与 borrow 的区别",
+        "explain": "lend 是“借出”，lend sb. sth. 把东西借给别人；borrow 是“借入”，borrow sth. from sb. 向别人借东西。方向相反，主语视角不同。",
+        "examples": [
+          "I lent my bike to a friendly waiter.（我把自行车借给了一位友好的服务员。）",
+          "May I borrow this book from the library?（我可以从图书馆借这本书吗？）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：度假时满脑子都是“该寄明信片了”，正事一件没干——用这种“拖延焦虑”画面把 thought、spent、bought 串起来记。②易错提醒：spend 的主语是人，不要说 The day spent…；lend 借出、borrow 借入，方向别弄反。③与 L1 对比：同为过去时叙事，L1 时间标志是 last week，本课是 last summer，写过去的故事先落好时间锚点。"
+  },
+  {
+    "book": 2,
+    "lesson": 4,
+    "title": "An exciting trip",
+    "titleCn": "激动人心的旅行",
+    "scene": "叙述者刚收到弟弟的来信，弟弟在澳大利亚工作，已经在那里待了六个月，去过许多地方，如今在一座大城市安顿下来。弟弟从未出过国，因此觉得这次旅行格外新奇刺激。课文是学习现在完成时的样板：has been、has visited 等表示“到目前为止的经历与延续”，并与从前的状况形成对照。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      {
+        "word": "exciting",
+        "phon": "/ɪkˈsaɪtɪŋ/",
+        "pos": "adj.",
+        "cn": "令人兴奋的",
+        "eg": "Watching the football final was really exciting. 看足球决赛真令人兴奋。"
+      },
+      {
+        "word": "receive",
+        "phon": "/rɪˈsiːv/",
+        "pos": "v.",
+        "cn": "收到",
+        "eg": "Did you receive my birthday card? 你收到我的生日贺卡了吗？"
+      },
+      {
+        "word": "firm",
+        "phon": "/fɜːm/",
+        "pos": "n.",
+        "cn": "公司，商行",
+        "eg": "She works for a large computer firm. 她在一家大型电脑公司工作。"
+      },
+      {
+        "word": "different",
+        "phon": "/ˈdɪfrənt/",
+        "pos": "adj.",
+        "cn": "不同的",
+        "eg": "Life in the countryside is quite different from life in the city. 乡村生活和城市生活很不一样。"
+      },
+      {
+        "word": "centre",
+        "phon": "/ˈsentə/",
+        "pos": "n.",
+        "cn": "中心",
+        "eg": "There is a big bookshop in the centre of the town. 镇中心有一家大书店。"
+      },
+      {
+        "word": "abroad",
+        "phon": "/əˈbrɔːd/",
+        "pos": "adv.",
+        "cn": "在国外，到国外",
+        "eg": "Her son is studying abroad this year. 她儿子今年在国外读书。"
+      },
+      {
+        "word": "settle",
+        "phon": "/ˈsetl/",
+        "pos": "v.",
+        "cn": "定居；安顿",
+        "eg": "After years of travelling, they settled in a quiet village. 旅行多年后，他们在一个安静的村庄定居下来。"
+      },
+      {
+        "word": "already",
+        "phon": "/ɔːlˈredi/",
+        "pos": "adv.",
+        "cn": "已经",
+        "eg": "I have already finished my homework. 我已经做完作业了。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时（经历与延续）",
+        "explain": "构成为 have/has + 过去分词，表示过去发生的动作对现在有影响，或从过去延续到现在的状态。常与 already、just、for six months、never 等连用，不与具体过去时间（如 yesterday）连用。",
+        "examples": [
+          "He has worked in that firm for six months.（他已在那家公司工作六个月了。）",
+          "She has just received a letter from her cousin.（她刚收到表哥的来信。）"
+        ]
+      },
+      {
+        "point": "have been to 与 have gone to",
+        "explain": "have been to 表示“去过”，人已回来，是一种经历；have gone to 表示“去了”，人还在那里或在路上。主语视角不同，意义差别很大。",
+        "examples": [
+          "I have been to that museum twice.（那家博物馆我去过两次。）",
+          "Mr. Green has gone to Australia, so he isn't here.（格林先生去澳大利亚了，所以他不在这儿。）"
+        ]
+      },
+      {
+        "point": "never + 完成时表示“从未”",
+        "explain": "never 放在 have/has 与过去分词之间，表示“从来没有做过某事”，是对经历的完全否定，语气比 not 更强。",
+        "examples": [
+          "My grandmother has never travelled abroad.（我奶奶从未出过国。）",
+          "I have never seen such an exciting match.（我从没看过这么精彩的比赛。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：拆开弟弟的来信，盘点他“到目前为止”的经历——现在完成时的核心就是“从过去累计到现在”。②易错提醒：完成时不能和 yesterday、last year 这类明确过去时间连用，说“去年去的”要改用一般过去时。③对比记忆：have been to 人已回来（去过），have gone to 人未回来（去了），用“人在哪儿”一秒判断。"
+  },
+  {
+    "book": 2,
+    "lesson": 5,
+    "title": "No wrong numbers",
+    "titleCn": "无错号之虞",
+    "scene": "一位工厂主需要经常向十英里外的另一处厂址传递紧急信件，他没有依赖电话，而是训练了一只鸽子来送信。鸽子每次只需很短时间就能飞完全程，把装在特制小笼里的信件安全送达，从不出差错，成了一种奇特的“空邮”。课文用一般过去时叙述这段趣闻（sent、covered、carried 等），并出现 in this way 等总结性表达。",
+    "grammarTags": ["一般过去时", "介词"],
+    "words": [
+      {
+        "word": "pigeon",
+        "phon": "/ˈpɪdʒɪn/",
+        "pos": "n.",
+        "cn": "鸽子",
+        "eg": "A white pigeon landed on the roof. 一只白鸽落在屋顶上。"
+      },
+      {
+        "word": "message",
+        "phon": "/ˈmesɪdʒ/",
+        "pos": "n.",
+        "cn": "信息，消息",
+        "eg": "Please leave a message if I'm not in. 我不在时请留个口信。"
+      },
+      {
+        "word": "cover",
+        "phon": "/ˈkʌvə/",
+        "pos": "v.",
+        "cn": "走完（一段路程）；覆盖",
+        "eg": "We covered forty kilometres in one day. 我们一天走了四十公里。"
+      },
+      {
+        "word": "distance",
+        "phon": "/ˈdɪstəns/",
+        "pos": "n.",
+        "cn": "距离",
+        "eg": "The distance between the two villages is five miles. 两个村子之间相距五英里。"
+      },
+      {
+        "word": "request",
+        "phon": "/rɪˈkwest/",
+        "pos": "n./v.",
+        "cn": "要求，请求",
+        "eg": "They made a request for more information. 他们要求得到更多信息。"
+      },
+      {
+        "word": "spare",
+        "phon": "/speə/",
+        "pos": "adj.",
+        "cn": "备用的；多余的",
+        "eg": "Always keep a spare key at your friend's house. 一定要在朋友家放一把备用钥匙。"
+      },
+      {
+        "word": "service",
+        "phon": "/ˈsɜːvɪs/",
+        "pos": "n.",
+        "cn": "服务，业务",
+        "eg": "The hotel is famous for its good service. 这家旅馆以优质服务闻名。"
+      },
+      {
+        "word": "urgent",
+        "phon": "/ˈɜːdʒənt/",
+        "pos": "adj.",
+        "cn": "紧急的",
+        "eg": "He received an urgent call from the hospital. 他接到医院打来的紧急电话。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（叙述一段完整的过去事件）",
+        "explain": "叙述过去反复或先后发生的一连串动作，动词统一用过去式。注意本课高频不规则动词：send→sent、fly→flew、take→took，规则动词如 cover→covered、carry→carried（辅音+y 变 ied）。",
+        "examples": [
+          "The bird flew from one town to the other in twenty minutes.（那只鸟二十分钟就从一个镇飞到了另一个镇。）",
+          "He sent the plans to the office by hand.（他派人把图纸送到了办公室。）"
+        ]
+      },
+      {
+        "point": "in this way / by + 方式",
+        "explain": "in this way 意为“用这种方法”，常放句首总结前文做法；表示交通或传递方式也可用 by + 名词（by air、by hand、by post），名词前不加冠词。",
+        "examples": [
+          "In this way, the farmer solved the water problem.（农夫就用这种办法解决了用水问题。）",
+          "The letter was sent by air, so it arrived quickly.（信是航空寄出的，所以到得很快。）"
+        ]
+      },
+      {
+        "point": "from … to … 表示起止",
+        "explain": "from A to B 表示“从 A 到 B”，可指地点、时间或范围，常与 distance、travel、fly 等词搭配描述路程。",
+        "examples": [
+          "It is a long way from the station to the factory.（从车站到工厂路很远。）",
+          "The shop is open from nine to six.（这家店从九点开到六点。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：一只鸽子替代电话送“加急件”——把 sent、flew、covered the distance 编进这幅画面，动词过去式随情节记住。②易错提醒：cover 在“走完路程”义下宾语是距离（cover ten miles），不要按“覆盖”硬译。③与 L3 对比：同是过去时叙事，L3 讲个人假期，本课讲第三人称趣闻，注意 he/it 作主语时叙事口吻的变化。"
+  },
+  {
+    "book": 2,
+    "lesson": 6,
+    "title": "Percy Buttons",
+    "titleCn": "珀西·巴顿斯",
+    "scene": "叙述者搬进新街区不久，就见识了一位与众不同的乞丐：他敲门讨要饭食和啤酒，得到之后并不马上离开，而是倒立着唱歌作为回报，逗人一乐。向邻居打听后得知，这位叫珀西·巴顿斯的乞丐每月固定光顾街上的每一户人家。课文前半段用过去时讲述初遇经过，结尾转入一般现在时说明他“每月来一次”的习惯，两种时态的转换是学习重点。",
+    "grammarTags": ["一般现在时", "冠词"],
+    "words": [
+      {
+        "word": "beggar",
+        "phon": "/ˈbeɡə/",
+        "pos": "n.",
+        "cn": "乞丐",
+        "eg": "The old beggar sat quietly at the corner of the street. 老乞丐静静地坐在街角。"
+      },
+      {
+        "word": "food",
+        "phon": "/fuːd/",
+        "pos": "n.",
+        "cn": "食物",
+        "eg": "We gave some food to the hungry dog. 我们给那只饿坏的狗喂了些食物。"
+      },
+      {
+        "word": "pocket",
+        "phon": "/ˈpɒkɪt/",
+        "pos": "n.",
+        "cn": "衣袋，口袋",
+        "eg": "He put the coins into his coat pocket. 他把硬币放进大衣口袋。"
+      },
+      {
+        "word": "call",
+        "phon": "/kɔːl/",
+        "pos": "v.",
+        "cn": "拜访；叫，喊",
+        "eg": "The doctor calls at our house every Friday. 医生每周五到我们家出诊。"
+      },
+      {
+        "word": "knock",
+        "phon": "/nɒk/",
+        "pos": "v.",
+        "cn": "敲",
+        "eg": "Someone is knocking at the door. 有人在敲门。"
+      },
+      {
+        "word": "meal",
+        "phon": "/miːl/",
+        "pos": "n.",
+        "cn": "一餐，一顿饭",
+        "eg": "We enjoyed a big meal after the long walk. 长途步行后我们美餐了一顿。"
+      },
+      {
+        "word": "neighbour",
+        "phon": "/ˈneɪbə/",
+        "pos": "n.",
+        "cn": "邻居",
+        "eg": "Our new neighbour is very kind to children. 我们的新邻居对孩子们很和气。"
+      },
+      {
+        "word": "once",
+        "phon": "/wʌns/",
+        "pos": "adv.",
+        "cn": "一次",
+        "eg": "I go swimming once a week. 我每周游一次泳。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般现在时（表示经常性、规律性的行为）",
+        "explain": "描述某人固定的、有规律的行为用一般现在时，第三人称单数动词加 -s/-es。常与 every month、once a week 等频率短语连用，这类短语一般放句末。",
+        "examples": [
+          "The postman calls at every house in our street once a day.（邮递员每天到我们街上每家投递一次。）",
+          "She visits her grandparents every month.（她每个月去看望一次祖父母。）"
+        ]
+      },
+      {
+        "point": "once / twice + a + 时间单位",
+        "explain": "表达频率用 once a month（每月一次）、twice a week（每周两次），三次及以上用 three times a year 等。a 在这里相当于 every。",
+        "examples": [
+          "He cleans his car twice a month.（他每月洗两次车。）",
+          "We have an English test three times a term.（我们每学期考三次英语。）"
+        ]
+      },
+      {
+        "point": "in return（作为回报）",
+        "explain": "in return 意为“作为回报、作为交换”，常放句末；强调回报的对象时用 in return for sth.。",
+        "examples": [
+          "She helped me a lot, and I taught her Chinese in return.（她帮了我很多，作为回报我教她中文。）",
+          "He gave the girl a book in return for her kindness.（他送给那女孩一本书，以报答她的好意。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：乞丐吃完饭倒立唱歌“付账”——用这个滑稽画面记 in return（作为回报）。②易错提醒：call 在本课是“拜访”而非“打电话”，call at + 地点、call on + 人，别与 call sb. 混淆。③时态对比：初次相遇的经过用过去时，而“每月来一次”的规律用一般现在时——同一篇课文里时态跟着“一次性事件/长期习惯”切换，这是本课最值得体会的地方。"
+  },
+  {
+    "book": 2,
+    "lesson": 7,
+    "title": "Too late",
+    "titleCn": "为时太晚",
+    "scene": "几名侦探守候在机场，等待一架从南非飞来的飞机，因为有人报信说机上一个包裹里藏着价值连城的钻石，可能被人盗走。飞机降落后，两名警卫把包裹押上警车送往警局；然而打开一看，里面装的不是钻石，而是石块和沙子——窃贼早已得手。课文大量使用过去进行时（were waiting、was coming）交代背景动作，与表示突发动作的一般过去时交织，悬念感十足。",
+    "grammarTags": ["过去进行时"],
+    "words": [
+      {
+        "word": "detective",
+        "phon": "/dɪˈtektɪv/",
+        "pos": "n.",
+        "cn": "侦探",
+        "eg": "The detective asked the driver a few questions. 侦探问了司机几个问题。"
+      },
+      {
+        "word": "airport",
+        "phon": "/ˈeəpɔːt/",
+        "pos": "n.",
+        "cn": "机场",
+        "eg": "We arrived at the airport two hours early. 我们提前两小时到达机场。"
+      },
+      {
+        "word": "expect",
+        "phon": "/ɪkˈspekt/",
+        "pos": "v.",
+        "cn": "期待，等待",
+        "eg": "I'm expecting an important phone call this morning. 今天上午我在等一个重要电话。"
+      },
+      {
+        "word": "valuable",
+        "phon": "/ˈvæljʊəbl/",
+        "pos": "adj.",
+        "cn": "贵重的",
+        "eg": "Don't leave valuable things in the car. 别把贵重物品留在车里。"
+      },
+      {
+        "word": "parcel",
+        "phon": "/ˈpɑːsl/",
+        "pos": "n.",
+        "cn": "包裹",
+        "eg": "The postman handed me a heavy parcel. 邮递员递给我一个很沉的包裹。"
+      },
+      {
+        "word": "diamond",
+        "phon": "/ˈdaɪəmənd/",
+        "pos": "n.",
+        "cn": "钻石",
+        "eg": "The ring has a small diamond on it. 这枚戒指上镶着一颗小钻石。"
+      },
+      {
+        "word": "steal",
+        "phon": "/stiːl/",
+        "pos": "v.",
+        "cn": "偷",
+        "eg": "Someone stole my bike last night. 昨晚有人偷了我的自行车。"
+      },
+      {
+        "word": "guard",
+        "phon": "/ɡɑːd/",
+        "pos": "n.",
+        "cn": "警卫，卫兵",
+        "eg": "Two guards stood at the gate of the bank. 两名警卫站在银行门口。"
+      },
+      {
+        "word": "precious",
+        "phon": "/ˈpreʃəs/",
+        "pos": "adj.",
+        "cn": "珍贵的",
+        "eg": "Time is the most precious thing we have. 时间是我们拥有的最宝贵的东西。"
+      },
+      {
+        "word": "sand",
+        "phon": "/sænd/",
+        "pos": "n.",
+        "cn": "沙子",
+        "eg": "The children were playing with sand on the beach. 孩子们在沙滩上玩沙子。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时（过去某一时刻正在进行的动作）",
+        "explain": "构成为 was/were + 动词-ing，表示过去某个时间点正在进行的动作，常为故事提供背景。侧重“正在进行中”，而一般过去时表示动作已完成。",
+        "examples": [
+          "At nine o'clock last night, we were watching a film.（昨晚九点我们正在看电影。）",
+          "The guards were standing by the door all the time.（警卫们一直守在门边。）"
+        ]
+      },
+      {
+        "point": "when / while 引导的时间从句与两种过去时态搭配",
+        "explain": "长动作（背景）用过去进行时，短动作（突发）用一般过去时：While/When + 进行时背景，主句用过去时，或反之。while 后多接延续性动作。",
+        "examples": [
+          "While I was cooking, the lights suddenly went out.（我正做饭时，灯突然灭了。）",
+          "The thieves ran away when the police arrived.（警察赶到时，窃贼们逃跑了。）"
+        ]
+      },
+      {
+        "point": "expect 的用法",
+        "explain": "expect 表示“预料、等候”，可接名词（expect a parcel）、to do（expect to see sb.）或宾语从句（expect that…）。侧重“认为会发生”。",
+        "examples": [
+          "We are expecting some visitors from Beijing this afternoon.（今天下午我们在等几位北京来的客人。）",
+          "I expect to finish the work before Friday.（我预计周五前完成这项工作。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：侦探蹲守机场（背景、长动作）→ 打开包裹发现沙子（突发、短动作），一幅“长镜头+突转”画面对应过去进行时与一般过去时的分工。②易错提醒：was/were 要与主语一致，two detectives were waiting，别写成 was。③词义辨析：valuable 强调值钱，precious 更强调珍贵难得；steal 的过去式是 stole，过去分词 stolen，属高频不规则动词。"
+  },
+  {
+    "book": 2,
+    "lesson": 8,
+    "title": "The best and the worst",
+    "titleCn": "最好的和最差的",
+    "scene": "乔·桑德斯拥有小镇上最漂亮的花园，几乎每年都在花卉比赛中拔得头筹；叙述者的朋友比尔也热心园艺，但样样都比乔略逊一筹。叙述者自己的花园则杂草丛生、一片荒芜，可他自嘲道：自己的花园好歹也是“镇上最差的”，比赛结果毫无悬念。课文围绕三座花园层层比较，是形容词比较级和最高级（better、the best、the worst）的集中示范。",
+    "grammarTags": ["比较级和最高级"],
+    "words": [
+      {
+        "word": "competition",
+        "phon": "/ˌkɒmpəˈtɪʃn/",
+        "pos": "n.",
+        "cn": "比赛，竞赛",
+        "eg": "She won first prize in the singing competition. 她在歌唱比赛中获得了一等奖。"
+      },
+      {
+        "word": "neat",
+        "phon": "/niːt/",
+        "pos": "adj.",
+        "cn": "整洁的，整齐的",
+        "eg": "His desk is always neat and clean. 他的书桌总是干净整洁。"
+      },
+      {
+        "word": "path",
+        "phon": "/pɑːθ/",
+        "pos": "n.",
+        "cn": "小路，小径",
+        "eg": "A narrow path leads to the old temple. 一条小路通向那座古庙。"
+      },
+      {
+        "word": "wooden",
+        "phon": "/ˈwʊdn/",
+        "pos": "adj.",
+        "cn": "木制的",
+        "eg": "There is a small wooden bridge over the stream. 小溪上有一座小木桥。"
+      },
+      {
+        "word": "pool",
+        "phon": "/puːl/",
+        "pos": "n.",
+        "cn": "水池",
+        "eg": "Some goldfish are swimming in the pool. 几条金鱼在水池里游来游去。"
+      },
+      {
+        "word": "grow",
+        "phon": "/ɡrəʊ/",
+        "pos": "v.",
+        "cn": "种植；生长",
+        "eg": "My grandfather grows vegetables in his garden. 我爷爷在园子里种蔬菜。"
+      },
+      {
+        "word": "prize",
+        "phon": "/praɪz/",
+        "pos": "n.",
+        "cn": "奖，奖品",
+        "eg": "The first prize is a trip to Hainan. 一等奖是海南之旅。"
+      },
+      {
+        "word": "enter",
+        "phon": "/ˈentə/",
+        "pos": "v.",
+        "cn": "参加（比赛）；进入",
+        "eg": "More than fifty people entered the photo competition. 五十多人参加了摄影比赛。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "形容词的比较级和最高级",
+        "explain": "两者比较用比较级（-er / more），三者及以上用最高级（the -est / the most）。不规则变化需牢记：good→better→best，bad→worse→worst。最高级前要加 the，常接 in/of 短语限定范围。",
+        "examples": [
+          "Tom's garden is more beautiful than mine.（汤姆的花园比我的漂亮。）",
+          "This is the best restaurant in our town.（这是我们镇上最好的餐馆。）"
+        ]
+      },
+      {
+        "point": "than 引导的比较结构",
+        "explain": "比较级后用 than 引出比较对象，比较双方应属同类事物。可用 a little、much、even 修饰比较级，表示程度差异。",
+        "examples": [
+          "His new house is much larger than the old one.（他的新房子比旧的大得多。）",
+          "I work even harder than before.（我比以前更努力了。）"
+        ]
+      },
+      {
+        "point": "interesting / interested 类分词形容词",
+        "explain": "-ing 形容词描述事物本身的性质（令人……的），-ed 形容词描述人的感受（感到……的）。如 interesting 有趣的 / interested 感兴趣的，be interested in 对……感兴趣。",
+        "examples": [
+          "He is interested in growing flowers.（他对种花很感兴趣。）",
+          "The story about the two gardens is very interesting.（关于那两座花园的故事很有趣。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：三座花园排排站——最美（the best）、略差（worse than）、最烂（the worst），一条“比较链”把比较级和最高级串成阶梯记忆。②易错提醒：最高级前的 the 不能丢；good/bad 的比较变化是不规则的，别写成 gooder、badder。③自嘲式幽默：连“最差”也是一种“第一”——体会课文用最高级制造的反讽，语法点也随笑点记得更牢。"
+  },
+  {
+    "book": 2,
+    "lesson": 9,
+    "title": "A cold welcome",
+    "titleCn": "冷遇",
+    "scene": "除夕之夜，一大群人聚集在市政厅前的广场上，等着大钟敲响午夜十二点迎接新年。差一刻十二点时钟面亮了，人群屏息以待；然而时针分针到了整点却纹丝不动——大钟罢工了，众人只好各自看表，在笑声中喊出了新年的到来。课文按时间顺序用一般过去时推进（gathered、stopped、refused 等），十二点前后的悬念是叙事亮点。",
+    "grammarTags": ["一般过去时", "时间介词"],
+    "words": [
+      {
+        "word": "welcome",
+        "phon": "/ˈwelkəm/",
+        "pos": "n./v.",
+        "cn": "欢迎",
+        "eg": "The villagers gave the visitors a warm welcome. 村民们热情地欢迎来访者。"
+      },
+      {
+        "word": "crowd",
+        "phon": "/kraʊd/",
+        "pos": "n.",
+        "cn": "人群",
+        "eg": "A large crowd waited outside the cinema. 一大群人等在电影院外。"
+      },
+      {
+        "word": "gather",
+        "phon": "/ˈɡæðə/",
+        "pos": "v.",
+        "cn": "聚集",
+        "eg": "Many birds gather by the lake in winter. 冬天许多鸟聚集在湖边。"
+      },
+      {
+        "word": "hand",
+        "phon": "/hænd/",
+        "pos": "n.",
+        "cn": "（钟表的）指针；手",
+        "eg": "The minute hand of my watch is broken. 我手表的分针坏了。"
+      },
+      {
+        "word": "shout",
+        "phon": "/ʃaʊt/",
+        "pos": "v.",
+        "cn": "喊叫",
+        "eg": "Don't shout at the children like that. 别那样对孩子们大喊大叫。"
+      },
+      {
+        "word": "refuse",
+        "phon": "/rɪˈfjuːz/",
+        "pos": "v.",
+        "cn": "拒绝",
+        "eg": "He refused to answer my question. 他拒绝回答我的问题。"
+      },
+      {
+        "word": "laugh",
+        "phon": "/lɑːf/",
+        "pos": "v.",
+        "cn": "笑",
+        "eg": "Everyone laughed at his funny joke. 大家都被他有趣的笑话逗笑了。"
+      },
+      {
+        "word": "midnight",
+        "phon": "/ˈmɪdnaɪt/",
+        "pos": "n.",
+        "cn": "午夜",
+        "eg": "The train leaves at midnight. 火车午夜发车。"
+      },
+      {
+        "word": "strike",
+        "phon": "/straɪk/",
+        "pos": "v.",
+        "cn": "（钟）敲响",
+        "eg": "The old clock strikes every hour. 那座老钟每小时敲响一次。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时（按时间顺序叙事）",
+        "explain": "讲故事时按先后顺序连续使用过去式动词，可用 then、at that moment、a few minutes later 等衔接。注意不规则动词 strike→struck 与规则动词 stop→stopped（双写 p 再加 -ed）。",
+        "examples": [
+          "The crowd gathered in the square before twelve.（十二点前人群聚集在广场上。）",
+          "A few minutes later, everyone shouted and cheered.（几分钟后，大家又喊又欢呼。）"
+        ]
+      },
+      {
+        "point": "时间的表达与介词 at / to / past",
+        "explain": "时刻前用 at：at midnight、at five o'clock。“差一刻十二点”说 (a) quarter to twelve，“十二点过一刻”说 (a) quarter past twelve。日期用 on，年月用 in。",
+        "examples": [
+          "The meeting will begin at a quarter to nine.（会议将在八点四十五开始。）",
+          "We set off at half past six in the morning.（我们早晨六点半出发。）"
+        ]
+      },
+      {
+        "point": "refuse to do sth.",
+        "explain": "refuse 后接不定式 to do，表示“拒绝做某事”。课文里钟“拒绝”敲响是拟人用法，使叙述生动幽默。",
+        "examples": [
+          "The little boy refused to go to bed early.（小男孩不肯早睡。）",
+          "My old car refused to start this morning.（今早我那辆旧车怎么也发动不起来。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：万众瞩目盯着大钟，指针却“装死”——用这幅画面记 refuse（拒绝）的拟人用法和 strike（敲响）→struck。②易错提醒：stop 变过去式要双写 p（stopped）；laugh at sb. 是“嘲笑某人”，与单纯的 laugh 不同。③时间表达小结：at midnight、a quarter to twelve、on New Year's Eve——把本课出现的时间说法整理成一张小卡片随时复习。"
+  },
+  {
+    "book": 2,
+    "lesson": 10,
+    "title": "Not for jazz",
+    "titleCn": "不适于演奏爵士乐",
+    "scene": "叙述者家里有一件珍贵的乐器——古钢琴，它很多年前在德国制造，是祖母买下后传下来的传家宝。前不久这件乐器被一位客人碰坏了：客人试图用它弹奏爵士乐，用力过猛把琴弦弄断了，父亲大为光火。如今琴已修好，家人不许外人再碰它。课文围绕这件古董的来历与遭遇，多处使用被动语态（was made、was bought、was damaged、has been repaired），是被动语态入门的典型语篇。",
+    "grammarTags": ["被动语态"],
+    "words": [
+      {
+        "word": "jazz",
+        "phon": "/dʒæz/",
+        "pos": "n.",
+        "cn": "爵士乐",
+        "eg": "My uncle listens to jazz every evening. 我叔叔每天晚上听爵士乐。"
+      },
+      {
+        "word": "musical",
+        "phon": "/ˈmjuːzɪkl/",
+        "pos": "adj.",
+        "cn": "音乐的",
+        "eg": "She can play several musical instruments. 她会演奏好几种乐器。"
+      },
+      {
+        "word": "instrument",
+        "phon": "/ˈɪnstrʊmənt/",
+        "pos": "n.",
+        "cn": "乐器；仪器",
+        "eg": "The violin is a beautiful instrument. 小提琴是一种美妙的乐器。"
+      },
+      {
+        "word": "recently",
+        "phon": "/ˈriːsntli/",
+        "pos": "adv.",
+        "cn": "最近",
+        "eg": "A new bridge was built here recently. 最近这里新建了一座桥。"
+      },
+      {
+        "word": "damage",
+        "phon": "/ˈdæmɪdʒ/",
+        "pos": "v./n.",
+        "cn": "损坏",
+        "eg": "The storm damaged many houses in the village. 暴风雨损坏了村里的许多房屋。"
+      },
+      {
+        "word": "string",
+        "phon": "/strɪŋ/",
+        "pos": "n.",
+        "cn": "（乐器的）弦；细绳",
+        "eg": "One of the guitar strings broke during the concert. 音乐会上吉他的一根弦断了。"
+      },
+      {
+        "word": "allow",
+        "phon": "/əˈlaʊ/",
+        "pos": "v.",
+        "cn": "允许",
+        "eg": "My parents don't allow me to stay up late. 父母不允许我熬夜。"
+      },
+      {
+        "word": "touch",
+        "phon": "/tʌtʃ/",
+        "pos": "v.",
+        "cn": "触摸",
+        "eg": "Please don't touch the paintings in the museum. 请不要触摸博物馆里的画。"
+      },
+      {
+        "word": "proud",
+        "phon": "/praʊd/",
+        "pos": "adj.",
+        "cn": "自豪的",
+        "eg": "She is proud of her son's success. 她为儿子的成功感到自豪。"
+      },
+      {
+        "word": "repair",
+        "phon": "/rɪˈpeə/",
+        "pos": "v.",
+        "cn": "修理",
+        "eg": "The old watch was repaired by my grandfather. 这块旧表是我爷爷修好的。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态（be + 过去分词）",
+        "explain": "当动作的承受者作主语，或不必说出动作执行者时用被动语态：be + 过去分词，时态由 be 体现。一般过去时被动为 was/were done，现在完成时被动为 has/have been done。执行者用 by 引出。",
+        "examples": [
+          "This bridge was built over a hundred years ago.（这座桥建于一百多年前。）",
+          "The broken window has already been repaired.（打破的窗户已经修好了。）"
+        ]
+      },
+      {
+        "point": "allow sb. to do sth. 及其被动式",
+        "explain": "allow 后接“宾语 + 不定式”，表示允许某人做某事；被动式为 sb. be allowed to do sth.，日常规定类句子常用被动表达。",
+        "examples": [
+          "Visitors are not allowed to take photos here.（游客不得在此拍照。）",
+          "My mother allows me to play games at weekends.（妈妈允许我周末玩游戏。）"
+        ]
+      },
+      {
+        "point": "belong to（属于）",
+        "explain": "belong to 表示“属于某人”，没有被动语态，也不用进行时。描述物品归属和传承时很常用。",
+        "examples": [
+          "This dictionary belongs to my elder sister.（这本词典是我姐姐的。）",
+          "The farm once belonged to a rich family.（这座农场曾属于一个富有的家族。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：传家宝古钢琴的一生——“被制造、被买下、被弄坏、被修好”，一件古董的履历天然全是被动句，顺着它的经历记 be + 过去分词。②易错提醒：被动语态的时态体现在 be 上（was made / has been repaired），过去分词不变；belong to 永远不用被动。③与 L4 对比：L4 学了现在完成时主动式，本课出现其被动式 has been done，把两课句型放一起对照升级。"
+  },
+  {
+    "book": 2,
+    "lesson": 11,
+    "title": "One good turn deserves another",
+    "titleCn": "礼尚往来",
+    "scene": "叙述者在饭店吃饭时遇到熟人托尼——一位律师，如今在银行工作。几年前叙述者曾在困难时向托尼借过钱并很快还清；托尼向来有借钱的“名声”。这次托尼坐下闲聊几句后，果然开口借钱，叙述者顺水推舟：那就请我把这顿饭钱付了吧，正应了“礼尚往来”。课文用现在完成时交代“到现在为止”的情况（have never borrowed 等），并穿插过去时回忆借钱旧事。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      {
+        "word": "turn",
+        "phon": "/tɜːn/",
+        "pos": "n.",
+        "cn": "行为，举动；轮次",
+        "eg": "Helping the old lady was a kind turn. 帮助那位老太太是件善举。"
+      },
+      {
+        "word": "deserve",
+        "phon": "/dɪˈzɜːv/",
+        "pos": "v.",
+        "cn": "应得到，值得",
+        "eg": "After months of hard work, she deserves a holiday. 辛苦工作数月之后，她应该休个假。"
+      },
+      {
+        "word": "lawyer",
+        "phon": "/ˈlɔːjə/",
+        "pos": "n.",
+        "cn": "律师",
+        "eg": "The lawyer explained the law to us clearly. 律师向我们清楚地解释了法律。"
+      },
+      {
+        "word": "bank",
+        "phon": "/bæŋk/",
+        "pos": "n.",
+        "cn": "银行",
+        "eg": "He put all his money in the bank. 他把所有的钱都存进了银行。"
+      },
+      {
+        "word": "salary",
+        "phon": "/ˈsæləri/",
+        "pos": "n.",
+        "cn": "工资，薪水",
+        "eg": "She gets a good salary from her new job. 她的新工作薪水不错。"
+      },
+      {
+        "word": "borrow",
+        "phon": "/ˈbɒrəʊ/",
+        "pos": "v.",
+        "cn": "借（入）",
+        "eg": "May I borrow your umbrella for a while? 我可以借用一下你的伞吗？"
+      },
+      {
+        "word": "pay",
+        "phon": "/peɪ/",
+        "pos": "v.",
+        "cn": "付钱",
+        "eg": "Let me pay for the coffee this time. 这次咖啡钱让我来付。"
+      },
+      {
+        "word": "immediately",
+        "phon": "/ɪˈmiːdiətli/",
+        "pos": "adv.",
+        "cn": "立刻",
+        "eg": "He paid back the money immediately. 他立刻把钱还了。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时（never/ever 与到目前为止的经历）",
+        "explain": "have/has + 过去分词与 never、ever 连用，谈“到现在为止有没有过某种经历”。never 表示一次也没有；疑问句用 ever（曾经）。与具体过去时间连用时须改用一般过去时。",
+        "examples": [
+          "I have never asked him for help before.（我以前从未向他求助过。）",
+          "Have you ever borrowed money from a friend?（你向朋友借过钱吗？）"
+        ]
+      },
+      {
+        "point": "It is one's turn to do sth.",
+        "explain": "turn 作名词表示“轮次”，It's your turn to do sth. 意为“轮到你做某事了”。谚语 One good turn deserves another 中 turn 则指“善意的行为”。",
+        "examples": [
+          "It's my turn to clean the classroom today.（今天轮到我打扫教室了。）",
+          "You cooked last time, so it's my turn to cook.（上次你做的饭，这回轮到我了。）"
+        ]
+      },
+      {
+        "point": "ask sb. for sth. / pay for sth.",
+        "explain": "ask sb. for sth. 表示“向某人要某物”；pay for sth. 表示“付……的钱”，pay back 表示“偿还”。这些搭配中的介词不能省略或换错。",
+        "examples": [
+          "The boy asked his father for some pocket money.（男孩向父亲要零花钱。）",
+          "I'll pay for the tickets and you can pay me back later.（票钱我来付，你以后再还我。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：老朋友一坐下就要借钱，你笑着递上账单——“你借我钱，我请你付账”，用这个反转记谚语 One good turn deserves another。②易错提醒：borrow 借入、lend 借出（呼应 L3），pay 后接 for 才能带“所购之物”。③时态搭配：过去借钱的旧事用一般过去时，“从未/曾经”式的经历盘点用现在完成时，与 L4 的完成时用法互相印证。"
+  },
+  {
+    "book": 2,
+    "lesson": 12,
+    "title": "Goodbye and good luck",
+    "titleCn": "再见，一路顺风",
+    "scene": "叙述者的邻居艾利森船长即将驾驶他心爱的小船出海，横渡大西洋参加一场重要的帆船比赛，全程将历时数月。明天一早船就要起航，叙述者将到码头为他送行并道一声“一路顺风”。课文站在出发前夜展望未来，通篇使用一般将来时（will sail、will set out、will meet 等），是学习 will 表将来的入门语篇。",
+    "grammarTags": ["一般将来时"],
+    "words": [
+      {
+        "word": "luck",
+        "phon": "/lʌk/",
+        "pos": "n.",
+        "cn": "运气",
+        "eg": "I wish you good luck in the exam. 祝你考试好运。"
+      },
+      {
+        "word": "captain",
+        "phon": "/ˈkæptɪn/",
+        "pos": "n.",
+        "cn": "船长",
+        "eg": "The captain told the sailors to get ready. 船长让水手们做好准备。"
+      },
+      {
+        "word": "sail",
+        "phon": "/seɪl/",
+        "pos": "v.",
+        "cn": "航行，起航",
+        "eg": "The ship will sail for Shanghai tomorrow morning. 这艘船明早启航去上海。"
+      },
+      {
+        "word": "harbour",
+        "phon": "/ˈhɑːbə/",
+        "pos": "n.",
+        "cn": "港口",
+        "eg": "Many fishing boats stay in the harbour at night. 夜里许多渔船停在港口里。"
+      },
+      {
+        "word": "proud",
+        "phon": "/praʊd/",
+        "pos": "adj.",
+        "cn": "自豪的",
+        "eg": "The captain is proud of his little boat. 船长为他的小船感到自豪。"
+      },
+      {
+        "word": "important",
+        "phon": "/ɪmˈpɔːtnt/",
+        "pos": "adj.",
+        "cn": "重要的",
+        "eg": "Tomorrow is an important day for all of us. 明天对我们大家都是重要的一天。"
+      },
+      {
+        "word": "race",
+        "phon": "/reɪs/",
+        "pos": "n.",
+        "cn": "比赛，竞赛",
+        "eg": "He came first in the boat race. 他在划船比赛中得了第一。"
+      },
+      {
+        "word": "famous",
+        "phon": "/ˈfeɪməs/",
+        "pos": "adj.",
+        "cn": "著名的",
+        "eg": "This city is famous for its old bridges. 这座城市以古桥闻名。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "一般将来时（will + 动词原形）",
+        "explain": "表示将来要发生的动作或状态用 will + 动词原形，各人称通用；否定式 will not（won't），疑问式把 will 提前。常与 tomorrow、next week、in two days 等将来时间状语连用。",
+        "examples": [
+          "We will meet him at the harbour tomorrow morning.（明天早晨我们将去港口接他。）",
+          "The journey won't take more than three days.（旅程不会超过三天。）"
+        ]
+      },
+      {
+        "point": "set out / take part in",
+        "explain": "set out 意为“出发、启程”，强调行程的开始；take part in 意为“参加（活动、比赛）”，in 后接活动名称。两者都是本课场景的高频短语。",
+        "examples": [
+          "They will set out early to catch the first bus.（他们将早早出发去赶头班车。）",
+          "Over twenty boats will take part in the race.（二十多条船将参加这次比赛。）"
+        ]
+      },
+      {
+        "point": "be proud of（为……自豪）",
+        "explain": "be proud of + 名词/代词/动名词，表示“为……感到骄傲”。近义表达 take pride in。注意 proud 是形容词，前面要有 be 动词。",
+        "examples": [
+          "We are all proud of our hometown.（我们都为家乡感到自豪。）",
+          "She is proud of speaking three languages.（她为自己会说三种语言而自豪。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：出发前夜码头话别——“明天将要发生的一切”全用 will 说出来：will sail、will set out、will say goodbye，一幅送行图记住一种时态。②易错提醒：will 后接动词原形，不加 -s 也不加 to；否定缩写是 won't 而不是 willn't。③本课收束前 12 课时态之旅：过去（L1/3/5/9）、现在（L2/6）、完成（L4/11）、进行（L7）、被动（L10）、将来（L12），可画一条时间轴总复习。"
+  }
+]

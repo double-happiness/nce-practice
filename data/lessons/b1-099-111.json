@@ -1,0 +1,205 @@
+[
+  {
+    "book": 1,
+    "lesson": 99,
+    "title": "Ow!",
+    "titleCn": "哎哟！",
+    "scene": "小男孩在客厅里踩着椅子想够到高处的书，脚一滑摔了下来，捂着胳膊喊疼。妈妈跑过来查看，问他碰到哪里了，是不是把手臂弄伤了，并叮嘱他以后别再爬那么高。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      { "word": "hurt", "phon": "/hɜːt/", "pos": "v.", "cn": "使受伤；疼痛", "eg": "I have hurt my knee. 我把膝盖弄伤了。" },
+      { "word": "arm", "phon": "/ɑːm/", "pos": "n.", "cn": "手臂", "eg": "She lifted the baby in her arms. 她把婴儿抱在怀里。" },
+      { "word": "climb", "phon": "/klaɪm/", "pos": "v.", "cn": "攀爬", "eg": "The boy likes to climb trees. 那个男孩喜欢爬树。" },
+      { "word": "chair", "phon": "/tʃeə/", "pos": "n.", "cn": "椅子", "eg": "Please sit on this chair. 请坐这把椅子。" },
+      { "word": "fall", "phon": "/fɔːl/", "pos": "v.", "cn": "跌倒；掉落", "eg": "Be careful, don't fall! 小心，别摔倒！" },
+      { "word": "careful", "phon": "/ˈkeəfl/", "pos": "adj.", "cn": "小心的", "eg": "Please be careful with the glass. 拿玻璃杯请小心。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时的基本用法",
+        "explain": "现在完成时由 have/has + 过去分词构成，表示过去发生的动作对现在造成的影响或结果。第三人称单数用 has，其余用 have。",
+        "examples": ["I have finished my homework. 我做完作业了。", "He has hurt his hand. 他把手弄伤了。"]
+      },
+      {
+        "point": "现在完成时的否定与疑问",
+        "explain": "否定在 have/has 后加 not（haven't / hasn't）；疑问把 have/has 提到句首，回答用 have/has。",
+        "examples": ["Have you finished it? Yes, I have. 你做完了吗？做完了。", "She hasn't seen the film. 她还没看过那部电影。"]
+      }
+    ],
+    "tips": "①现在完成时强调结果对现在的影响，如 'I have lost my key.' 说明现在没钥匙。②过去分词规则动词加 -ed，不规则动词要单独记：hurt-hurt、fall-fallen。③摔倒喊疼常说 'Ow!'，提醒别人小心用 'Be careful!'。"
+  },
+  {
+    "book": 1,
+    "lesson": 101,
+    "title": "A card from Jimmy",
+    "titleCn": "吉米的明信片",
+    "scene": "一位母亲和女儿在厨房里聊天，桌上放着一张刚寄到的明信片。她们说起吉米已经到山里的营地了，还问他到那儿之后有没有写信回来，什么时候才能收到他更多的消息。",
+    "grammarTags": ["现在完成时", "一般过去时"],
+    "words": [
+      { "word": "card", "phon": "/kɑːd/", "pos": "n.", "cn": "卡片；明信片", "eg": "I sent her a birthday card. 我给她寄了一张生日卡。" },
+      { "word": "camp", "phon": "/kæmp/", "pos": "n.", "cn": "营地", "eg": "The children stayed at the camp for a week. 孩子们在营地待了一周。" },
+      { "word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达", "eg": "They have just arrived at the station. 他们刚到车站。" },
+      { "word": "already", "phon": "/ɔːlˈredi/", "pos": "adv.", "cn": "已经", "eg": "I have already read this book. 这本书我已经读过了。" },
+      { "word": "receive", "phon": "/rɪˈsiːv/", "pos": "v.", "cn": "收到", "eg": "She received a nice gift today. 她今天收到一份好礼物。" },
+      { "word": "yet", "phon": "/jet/", "pos": "adv.", "cn": "（尚）还", "eg": "Has the bus come yet? 公交车来了吗？" }
+    ],
+    "grammar": [
+      {
+        "point": "already 与 yet",
+        "explain": "already（已经）多用于肯定句，通常放在助动词和过去分词之间；yet（还，尚未）用于否定句和疑问句，一般放句末。",
+        "examples": ["He has already left. 他已经走了。", "I haven't received his letter yet. 我还没收到他的信。"]
+      },
+      {
+        "point": "现在完成时与一般过去时的区别",
+        "explain": "现在完成时不强调具体时间，重在与现在的联系；一般过去时表示过去某个明确的时间点发生的事，常与 yesterday、last week 等连用。",
+        "examples": ["I have seen this film. 我看过这部电影。", "I saw this film last night. 我昨晚看了这部电影。"]
+      }
+    ],
+    "tips": "①有明确过去时间（yesterday, ago）用一般过去时，不用现在完成时。②already 放句中，yet 放句末。③arrive 后接 at 表小地点，接 in 表大地点：arrive at the camp / arrive in London。"
+  },
+  {
+    "book": 1,
+    "lesson": 103,
+    "title": "The French test",
+    "titleCn": "法语考试",
+    "scene": "考试结束后，两个同学在走廊里对答案。一个人紧张地问对方法语试卷做完了没有，觉得题目太难，好多单词都没背过；另一个人反倒挺轻松，说自己早就复习好了，考得还不错。",
+    "grammarTags": ["现在完成时", "疑问句"],
+    "words": [
+      { "word": "test", "phon": "/test/", "pos": "n.", "cn": "测验；考试", "eg": "We have a French test today. 我们今天有一场法语考试。" },
+      { "word": "French", "phon": "/frentʃ/", "pos": "n./adj.", "cn": "法语；法国的", "eg": "She speaks French very well. 她法语说得很好。" },
+      { "word": "difficult", "phon": "/ˈdɪfɪkəlt/", "pos": "adj.", "cn": "困难的", "eg": "This question is too difficult for me. 这道题对我太难了。" },
+      { "word": "answer", "phon": "/ˈɑːnsə/", "pos": "v./n.", "cn": "回答；答案", "eg": "I have answered all the questions. 我把所有题都答完了。" },
+      { "word": "revise", "phon": "/rɪˈvaɪz/", "pos": "v.", "cn": "复习", "eg": "Have you revised for the test? 你为考试复习了吗？" },
+      { "word": "worry", "phon": "/ˈwʌri/", "pos": "v.", "cn": "担心", "eg": "Don't worry, you have done well. 别担心，你考得很好。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时的疑问句",
+        "explain": "把 have/has 提到主语前构成一般疑问句：Have/Has + 主语 + 过去分词…？肯定回答用 Yes, 主语 + have/has；否定用 No, 主语 + haven't/hasn't。",
+        "examples": ["Have you finished the test? Yes, I have. 你考完了吗？考完了。", "Has she answered the question? No, she hasn't. 她回答那道题了吗？没有。"]
+      },
+      {
+        "point": "just 的用法",
+        "explain": "just 表示'刚刚'，用于现在完成时，放在 have/has 和过去分词之间，强调动作刚刚完成。",
+        "examples": ["I have just handed in my paper. 我刚交完卷子。", "The teacher has just come in. 老师刚进来。"]
+      }
+    ],
+    "tips": "①现在完成时疑问句把 have/has 提前，别忘了动词用过去分词。②just、already 放句中，yet 放句末且多用于疑问、否定。③安慰别人常说 'Don't worry.'。"
+  },
+  {
+    "book": 1,
+    "lesson": 105,
+    "title": "Full of mistakes",
+    "titleCn": "错误百出",
+    "scene": "老师正坐在办公桌前批改一名学生的作文，她皱着眉头把学生叫到跟前，指着满是错误的文章问：你现在为什么一边听着音乐一边写作业？强调此刻正在发生的动作。",
+    "grammarTags": ["现在进行时"],
+    "words": [
+      { "word": "mistake", "phon": "/mɪˈsteɪk/", "pos": "n.", "cn": "错误", "eg": "You have made a mistake here. 你这里出了个错。" },
+      { "word": "full", "phon": "/fʊl/", "pos": "adj.", "cn": "满的", "eg": "The box is full of books. 箱子里装满了书。" },
+      { "word": "check", "phon": "/tʃek/", "pos": "v.", "cn": "检查", "eg": "Please check your answers again. 请再检查一遍答案。" },
+      { "word": "careless", "phon": "/ˈkeələs/", "pos": "adj.", "cn": "粗心的", "eg": "He is often careless with his spelling. 他拼写常常粗心。" },
+      { "word": "correct", "phon": "/kəˈrekt/", "pos": "v./adj.", "cn": "改正；正确的", "eg": "Correct the mistakes in your work. 改正你作业里的错误。" },
+      { "word": "write", "phon": "/raɪt/", "pos": "v.", "cn": "写", "eg": "She is writing a letter now. 她现在正在写信。" }
+    ],
+    "grammar": [
+      {
+        "point": "be full of 结构",
+        "explain": "be full of 意为'充满……'，of 后接名词，表示某物里装满了什么。",
+        "examples": ["The room is full of people. 房间里挤满了人。", "Her essay is full of mistakes. 她的作文错误百出。"]
+      },
+      {
+        "point": "现在进行时表示正在发生",
+        "explain": "现在进行时由 be（am/is/are）+ 动词-ing 构成，表示说话时正在进行的动作。",
+        "examples": ["He is checking his homework. 他正在检查作业。", "They are correcting the mistakes. 他们正在改错。"]
+      }
+    ],
+    "tips": "①be full of = be filled with，都表示'充满'。②动词加 -ing：write 去 e 加 ing 变 writing。③指出错误可说 'You have made a mistake.'，改正用 correct。"
+  },
+  {
+    "book": 1,
+    "lesson": 107,
+    "title": "It's too small",
+    "titleCn": "太小了",
+    "scene": "一位女士拿着上周买的连衣裙回到服装店，站在镜子前一脸为难。她告诉店员这件裙子太小了，穿不进去，昨天在家试的时候才发现，问能不能换一件大一号的，或者退掉。",
+    "grammarTags": ["过去进行时", "形容词比较级"],
+    "words": [
+      { "word": "small", "phon": "/smɔːl/", "pos": "adj.", "cn": "小的", "eg": "This coat is too small for me. 这件外套我穿太小了。" },
+      { "word": "try on", "phon": "/traɪ ɒn/", "pos": "phr.", "cn": "试穿", "eg": "I tried on the dress yesterday. 我昨天试穿了那条裙子。" },
+      { "word": "change", "phon": "/tʃeɪndʒ/", "pos": "v.", "cn": "更换", "eg": "Can I change it for a bigger one? 我能换一件大一点的吗？" },
+      { "word": "dress", "phon": "/dres/", "pos": "n.", "cn": "连衣裙", "eg": "She was wearing a red dress. 她当时穿着一条红裙子。" },
+      { "word": "size", "phon": "/saɪz/", "pos": "n.", "cn": "尺寸；号码", "eg": "What size do you want? 你要多大号的？" },
+      { "word": "wear", "phon": "/weə/", "pos": "v.", "cn": "穿；戴", "eg": "He was wearing a blue hat. 他当时戴着一顶蓝帽子。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "过去进行时由 was/were + 动词-ing 构成，表示过去某一时刻正在进行的动作。主语为 I 和第三人称单数用 was，其余用 were。",
+        "examples": ["I was trying on the dress at that time. 那时我正在试那条裙子。", "They were shopping in the store. 他们当时正在店里买东西。" ]
+      },
+      {
+        "point": "too + 形容词",
+        "explain": "too 意为'太……（以致于不能）'，放在形容词前，含有否定的意味，表示程度超过了合适的限度。",
+        "examples": ["The shoes are too small. 这双鞋太小了。", "It is too hot to go out. 天太热了，不能出去。"]
+      }
+    ],
+    "tips": "①过去进行时 was/were + doing，注意主谓一致。②too 表'太……'带否定意味，很/非常用 very。③试穿用 try on，换货用 change it for…。"
+  },
+  {
+    "book": 1,
+    "lesson": 109,
+    "title": "A good idea",
+    "titleCn": "一个好主意",
+    "scene": "周末早晨，一家人围坐在餐桌旁商量今天做点什么。爸爸提议天气这么好，打算开车带全家去海边野餐；孩子们一听高兴极了，赶紧跑去准备泳衣，妈妈则去厨房收拾食物。",
+    "grammarTags": ["一般将来时", "现在进行时"],
+    "words": [
+      { "word": "idea", "phon": "/aɪˈdɪə/", "pos": "n.", "cn": "主意；想法", "eg": "That's a good idea! 那是个好主意！" },
+      { "word": "picnic", "phon": "/ˈpɪknɪk/", "pos": "n.", "cn": "野餐", "eg": "We are going to have a picnic. 我们打算去野餐。" },
+      { "word": "seaside", "phon": "/ˈsiːsaɪd/", "pos": "n.", "cn": "海边", "eg": "They went to the seaside last summer. 去年夏天他们去了海边。" },
+      { "word": "weather", "phon": "/ˈweðə/", "pos": "n.", "cn": "天气", "eg": "The weather is fine today. 今天天气很好。" },
+      { "word": "prepare", "phon": "/prɪˈpeə/", "pos": "v.", "cn": "准备", "eg": "Mum is preparing the food. 妈妈正在准备食物。" },
+      { "word": "drive", "phon": "/draɪv/", "pos": "v.", "cn": "开车", "eg": "Dad is going to drive us there. 爸爸打算开车送我们去。" }
+    ],
+    "grammar": [
+      {
+        "point": "be going to 表将来打算",
+        "explain": "be going to + 动词原形，表示打算或计划要做的事，也可表示根据现象推测将要发生的事。be 随主语变为 am/is/are。",
+        "examples": ["We are going to have a picnic. 我们打算去野餐。", "It is going to rain. 快要下雨了。"]
+      },
+      {
+        "point": "be going to 的疑问与否定",
+        "explain": "疑问句把 be 提到主语前；否定句在 be 后加 not。",
+        "examples": ["Are you going to the seaside? Yes, I am. 你要去海边吗？是的。", "He is not going to drive today. 他今天不打算开车。"]
+      }
+    ],
+    "tips": "①be going to 后一定接动词原形。②询问计划用 'What are you going to do?'。③称赞好点子说 'That's a good idea!'。"
+  },
+  {
+    "book": 1,
+    "lesson": 111,
+    "title": "The most expensive model",
+    "titleCn": "最昂贵的型号",
+    "scene": "在一家电器商店里，一位顾客盯着货架上的几台相机反复比较。店员走过来介绍，说架子最上面那台是店里最贵的型号，功能最全、画质也最好，不过旁边那台更便宜，对新手来说其实更合适。",
+    "grammarTags": ["形容词最高级", "形容词比较级"],
+    "words": [
+      { "word": "expensive", "phon": "/ɪkˈspensɪv/", "pos": "adj.", "cn": "昂贵的", "eg": "This is the most expensive camera here. 这是这里最贵的相机。" },
+      { "word": "model", "phon": "/ˈmɒdl/", "pos": "n.", "cn": "型号；样式", "eg": "This is the latest model. 这是最新的型号。" },
+      { "word": "cheap", "phon": "/tʃiːp/", "pos": "adj.", "cn": "便宜的", "eg": "That one is cheaper than this. 那个比这个便宜。" },
+      { "word": "camera", "phon": "/ˈkæmərə/", "pos": "n.", "cn": "相机", "eg": "She bought a new camera. 她买了一台新相机。" },
+      { "word": "shelf", "phon": "/ʃelf/", "pos": "n.", "cn": "架子", "eg": "The books are on the top shelf. 书在最上层的架子上。" },
+      { "word": "suitable", "phon": "/ˈsuːtəbl/", "pos": "adj.", "cn": "合适的", "eg": "This model is suitable for beginners. 这个型号适合新手。" }
+    ],
+    "grammar": [
+      {
+        "point": "形容词最高级",
+        "explain": "三者或三者以上比较用最高级，前面通常加 the。单音节和部分双音节词加 -est；多音节词前加 most。",
+        "examples": ["This is the cheapest one. 这是最便宜的一个。", "It is the most expensive model. 它是最贵的型号。"]
+      },
+      {
+        "point": "比较级 than",
+        "explain": "两者比较用比较级，常与 than 连用。单音节加 -er，多音节前加 more。",
+        "examples": ["That camera is cheaper than this one. 那台相机比这台便宜。", "This model is more suitable for you. 这个型号更适合你。"]
+      }
+    ],
+    "tips": "①最高级前一般加 the：the most expensive。②expensive、suitable 是多音节词，用 most/more，不加 -est/-er。③cheap 反义是 expensive，注意 dear 也可表'贵'。"
+  }
+]

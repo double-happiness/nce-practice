@@ -1,0 +1,62 @@
+[
+  {
+    "book": 1,
+    "lesson": 1,
+    "en": "Excuse me!\nIs this your handbag?\nYes, it is. Thank you.\nAnd is this your book?\nNo, it isn't.\nOh, sorry.\nThank you very much.",
+    "cn": "对不起！\n这是你的手提包吗？\n是的，是我的。谢谢你。\n那这是你的书吗？\n不，不是。\n哦，抱歉。\n非常感谢。"
+  },
+  {
+    "book": 1,
+    "lesson": 3,
+    "en": "Your ticket, please.\nHere is my ticket.\nIs this your coat?\nNo, it isn't.\nSorry! Is this your umbrella?\nYes, it is.\nHere you are.\nThank you.",
+    "cn": "请出示您的票。\n这是我的票。\n这是您的大衣吗？\n不，不是。\n对不起！这是您的雨伞吗？\n是的，是我的。\n给您。\n谢谢。"
+  },
+  {
+    "book": 1,
+    "lesson": 5,
+    "en": "This is a new student.\nHer name is Anna.\nShe is French.\nThis is Ken.\nHe is a new student, too.\nHe is Japanese.\nNice to meet you!",
+    "cn": "这是一位新同学。\n她的名字叫安娜。\n她是法国人。\n这是肯。\n他也是一位新同学。\n他是日本人。\n很高兴见到你们！"
+  },
+  {
+    "book": 1,
+    "lesson": 7,
+    "en": "Hello! What's your name?\nMy name is Tom.\nWhat's your job?\nI'm an engineer.\nAre you a teacher?\nNo, I'm not.\nI'm an operator.",
+    "cn": "你好！你叫什么名字？\n我叫汤姆。\n你做什么工作？\n我是工程师。\n你是教师吗？\n不，我不是。\n我是操作员。"
+  },
+  {
+    "book": 1,
+    "lesson": 9,
+    "en": "Hello, Sam!\nHi, Lucy! How are you today?\nI'm very well, thank you.\nHow is your mother?\nShe is fine, thank you.\nAnd how's your brother?\nHe's well, too.\nGoodbye!",
+    "cn": "你好，萨姆！\n嗨，露西！你今天好吗？\n我很好，谢谢你。\n你妈妈好吗？\n她很好，谢谢。\n那你哥哥呢？\n他也很好。\n再见！"
+  },
+  {
+    "book": 1,
+    "lesson": 11,
+    "en": "Whose shirt is this?\nIs it your shirt, Tim?\nNo, it isn't.\nPerhaps it's Sam's.\nSam, is this blue shirt yours?\nYes, it is!\nCatch!\nThank you.",
+    "cn": "这是谁的衬衫？\n是你的衬衫吗，蒂姆？\n不，不是。\n可能是萨姆的。\n萨姆，这件蓝衬衫是你的吗？\n是的，是我的！\n接住！\n谢谢。"
+  },
+  {
+    "book": 1,
+    "lesson": 13,
+    "en": "This is my new dress.\nWhat colour is it?\nIt's green.\nOh, it's lovely!\nIs your dress upstairs?\nYes, it is.\nWhat colour is it?\nIt's blue.",
+    "cn": "这是我的新连衣裙。\n它是什么颜色的？\n是绿色的。\n哦，真好看！\n你的连衣裙在楼上吗？\n是的，在楼上。\n它是什么颜色的？\n是蓝色的。"
+  },
+  {
+    "book": 1,
+    "lesson": 15,
+    "en": "Your passports, please.\nHere are our passports.\nAre you Swedish?\nNo, we are Norwegian.\nAre you tourists?\nYes, we are.\nIs this your brown bag?\nYes, it is. Thank you.",
+    "cn": "请出示你们的护照。\n这是我们的护照。\n你们是瑞典人吗？\n不，我们是挪威人。\n你们是游客吗？\n是的，我们是。\n这是你的棕色包吗？\n是的，是我的。谢谢。"
+  },
+  {
+    "book": 1,
+    "lesson": 17,
+    "en": "This is Mr Green.\nHe is a new employee.\nHow do you do?\nHow do you do?\nThis is Miss Lee.\nShe is our manager.\nShe is a hard-working manager.\nAnd he is her assistant.",
+    "cn": "这位是格林先生。\n他是一名新雇员。\n您好！\n您好！\n这位是李小姐。\n她是我们的经理。\n她是一位勤奋的经理。\n他是她的助理。"
+  },
+  {
+    "book": 1,
+    "lesson": 19,
+    "en": "We are home now.\nWe are tired and thirsty.\nMum, I am hungry, too.\nHere is a cup of tea.\nAnd here are some biscuits.\nThank you, Mum!\nThe tea is nice.\nThe biscuits are lovely.",
+    "cn": "我们现在到家了。\n我们又累又渴。\n妈妈，我也饿了。\n这是一杯茶。\n还有一些饼干。\n谢谢你，妈妈！\n茶真好喝。\n饼干真好吃。"
+  }
+]

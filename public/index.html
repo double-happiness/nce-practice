@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新概念英语 · 练习题库</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="themes.css" />
+  <script>try{var t=localStorage.getItem('nce-theme');if(t&&t!=='aurora')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📘 新概念英语 · 练习题库</div>
+    <label class="tts-rate" title="朗读/听写的语速">🔊
+      <select id="ttsRate">
+        <option value="0.6">慢速</option>
+        <option value="0.75">较慢</option>
+        <option value="0.9" selected>常速</option>
+        <option value="1.1">快速</option>
+      </select>
+    </label>
+    <div class="stats-mini" id="statsMini">加载中…</div>
+  </header>
+
+  <main class="container">
+    <!-- 顶部标签（按 学/练/复习/我的 分组；功能模块标签由 registerFeature 挂入对应组） -->
+    <div class="tabs">
+      <div class="tab active" data-tab="home">🏠 今日学习</div>
+      <div class="tab-group" data-group="learn">
+        <span class="tab-group-label">学</span>
+        <div class="tab" data-tab="learn">📖 教材学习</div>
+      </div>
+      <div class="tab-group" data-group="practice">
+        <span class="tab-group-label">练</span>
+        <div class="tab" data-tab="practice">✏️ 刷题练习</div>
+      </div>
+      <div class="tab-group" data-group="review">
+        <span class="tab-group-label">复习</span>
+      </div>
+      <div class="tab-group" data-group="mine">
+        <span class="tab-group-label">我的</span>
+      </div>
+    </div>
+
+    <!-- ============ 今日学习（首页） ============ -->
+    <section class="panel" id="homePanel">
+      <h2>今日学习</h2>
+      <div id="homeContent"><p class="hint">加载中…</p></div>
+    </section>
+
+    <!-- ============ 教材学习（书页式：左目录页 + 右内容页） ============ -->
+    <section class="panel hidden" id="lessonsPanel">
+      <div class="learn-books" id="learnBookChips"></div>
+      <div class="book">
+        <aside class="book-page toc-page">
+          <div class="toc-sticky">
+            <div class="toc-head">目 录<span>Contents</span></div>
+            <div class="toc-progress hidden" id="tocProgress">
+              <div class="tp-bar"><i></i></div>
+              <span class="tp-text"></span>
+            </div>
+            <input class="toc-search" id="tocSearch" type="text" placeholder="🔍 搜课号 / 标题…" autocomplete="off" />
+            <div class="learn-toc" id="lessonToc"></div>
+          </div>
+        </aside>
+        <div class="book-page content-page">
+          <div class="learn-placeholder" id="learnPlaceholder">
+            <div class="ph-icon">📖</div>
+            <p class="hint">从左侧目录选择一课，查看重点单词、语法精讲与记忆方法，<br>并可一键练本课语法。</p>
+          </div>
+          <div class="hidden" id="lessonDetailWrap">
+            <div class="quiz-head">
+              <div class="lesson-actions">
+                <button class="btn ghost small" id="masterBtn">☆ 标为已掌握</button>
+                <button class="btn ghost small" id="dictThisBtn">🎧 听写本课</button>
+              </div>
+              <button class="btn primary small" id="practiceThisBtn">练本课语法 →</button>
+            </div>
+            <div id="lessonDetail"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 刷题练习 ============ -->
+    <!-- 出题设置 -->
+    <section class="panel hidden" id="setupPanel">
+      <h2>出题设置</h2>
+
+      <div class="field">
+        <label>选择册数</label>
+        <div class="chips" id="bookChips"></div>
+      </div>
+
+      <div class="field">
+        <label>课程进度（单元）</label>
+        <div class="chips" id="unitChips"></div>
+      </div>
+
+      <div class="field">
+        <label>语法点（可选，留空=全部）</label>
+        <div class="chips" id="grammarChips"></div>
+      </div>
+
+      <div class="field row">
+        <div>
+          <label>题型</label>
+          <select id="typeSelect">
+            <option value="">全部题型</option>
+            <option value="mcq">单选题</option>
+            <option value="fill">填空题</option>
+          </select>
+        </div>
+        <div>
+          <label>题量</label>
+          <select id="limitSelect">
+            <option value="5">5 题</option>
+            <option value="10" selected>10 题</option>
+            <option value="20">20 题</option>
+            <option value="0">全部</option>
+          </select>
+        </div>
+        <div>
+          <label>作答模式</label>
+          <select id="modeSelect">
+            <option value="sheet" selected>整卷提交</option>
+            <option value="step">逐题反馈</option>
+          </select>
+        </div>
+        <div class="check">
+          <label><input type="checkbox" id="randomCheck" checked /> 随机顺序</label>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="startBtn">开始练习</button>
+        <button class="btn" id="wrongBtn">错题重练</button>
+        <button class="btn ghost" id="resetBtn">重置进度</button>
+      </div>
+      <p class="hint" id="poolHint"></p>
+    </section>
+
+    <!-- 答题区 -->
+    <section class="panel hidden" id="quizPanel">
+      <div class="quiz-head">
+        <span id="progressText">第 1 / 10 题</span>
+        <button class="btn ghost small" id="backBtn">返回设置</button>
+      </div>
+      <div id="quizList"></div>
+      <div class="actions">
+        <button class="btn primary" id="submitBtn">提交批改</button>
+      </div>
+    </section>
+
+    <!-- 结果区 -->
+    <section class="panel hidden" id="resultPanel">
+      <h2>批改结果</h2>
+      <div class="score" id="scoreBox"></div>
+      <div id="resultList"></div>
+      <div class="actions">
+        <button class="btn primary" id="againBtn">再练一组</button>
+        <button class="btn" id="retryWrongBtn">只练本次错题</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    数据存储于本地服务器 · 当前完整收录第一册（教材 + 题库），第 2–4 册持续扩充中 · 题库可在 data/questions/ 添加分片扩充
+  </footer>
+
+  <script src="theme.js"></script>
+  <script src="profile.js"></script>
+  <script src="app.js"></script>
+  <!-- 功能模块：各自独立，通过 window.NCE.registerFeature 自注册 -->
+  <script src="js/feat-review.js"></script>
+  <script src="js/feat-vocab.js"></script>
+  <script src="js/feat-dictation.js"></script>
+  <script src="js/feat-stats.js"></script>
+  <script src="js/feat-plan.js"></script>
+  <script src="js/feat-words.js"></script>
+  <script src="js/feat-backup.js"></script>
+  <script src="js/feat-exam.js"></script>
+</body>
+</html>

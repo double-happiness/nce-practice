@@ -1,0 +1,317 @@
+[
+  {
+    "book": 1,
+    "lesson": 127,
+    "title": "A famous actress",
+    "titleCn": "一位著名的女演员",
+    "scene": "两个朋友翻着报纸的娱乐版，看到一张女演员的照片。一个人问她是不是很有名、拍过哪些电影、去过哪些国家；另一个人如数家珍地介绍她的经历。重点用现在完成时谈论一个人的人生阅历。",
+    "grammarTags": ["现在完成时", "疑问句"],
+    "words": [
+      { "word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "She wants to be an actress. 她想当一名女演员。" },
+      { "word": "famous", "phon": "/ˈfeɪməs/", "pos": "adj.", "cn": "著名的", "eg": "He is a famous singer. 他是一位著名的歌手。" },
+      { "word": "film", "phon": "/fɪlm/", "pos": "n.", "cn": "电影", "eg": "I have seen this film before. 我以前看过这部电影。" },
+      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "She has never been abroad. 她从未出过国。" },
+      { "word": "successful", "phon": "/səkˈsesfl/", "pos": "adj.", "cn": "成功的", "eg": "Her new film is very successful. 她的新电影很成功。" },
+      { "word": "million", "phon": "/ˈmɪljən/", "pos": "n.", "cn": "百万", "eg": "A million people know her name. 有一百万人知道她的名字。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时的构成",
+        "explain": "have/has + 过去分词，表示过去发生并对现在有影响的动作或经历。第三人称单数用 has。",
+        "examples": [
+          "She has made ten films.（她拍了十部电影。）",
+          "I have visited Japan twice.（我去过日本两次。）"
+        ]
+      },
+      {
+        "point": "用 have been 谈经历",
+        "explain": "have/has been to 表示“曾去过某地（现已回来）”，常与 ever, never 连用。",
+        "examples": [
+          "Have you ever been to Paris?（你去过巴黎吗？）",
+          "He has never been to America.（他从未去过美国。）"
+        ]
+      }
+    ],
+    "tips": "① 现在完成时=have/has+过去分词。② 第三人称单数用 has。③ have been to 表“去过”，常与 ever/never 搭配。"
+  },
+  {
+    "book": 1,
+    "lesson": 129,
+    "title": "Seventy miles an hour",
+    "titleCn": "时速七十英里",
+    "scene": "父亲开车带家人上高速公路，孩子好奇地问这辆车最快能开多快、这条路限速多少。父亲一边开车一边解释：不同的路有不同的速度限制，而且无论多想快，都必须遵守规则。重点是形容词比较级与情态动词 must。",
+    "grammarTags": ["形容词比较级", "情态动词must"],
+    "words": [
+      { "word": "mile", "phon": "/maɪl/", "pos": "n.", "cn": "英里", "eg": "The station is two miles away. 车站在两英里外。" },
+      { "word": "speed", "phon": "/spiːd/", "pos": "n.", "cn": "速度", "eg": "The car has great speed. 这辆车速度很快。" },
+      { "word": "limit", "phon": "/ˈlɪmɪt/", "pos": "n.", "cn": "限制；限度", "eg": "There is a speed limit here. 这里有速度限制。" },
+      { "word": "careful", "phon": "/ˈkeəfl/", "pos": "adj.", "cn": "小心的", "eg": "Be careful on the road. 在路上要小心。" },
+      { "word": "allow", "phon": "/əˈlaʊ/", "pos": "v.", "cn": "允许", "eg": "You are not allowed to park here. 这里不允许停车。" },
+      { "word": "faster", "phon": "/ˈfɑːstə/", "pos": "adj./adv.", "cn": "更快的（fast 的比较级）", "eg": "A plane is faster than a train. 飞机比火车快。" }
+    ],
+    "grammar": [
+      {
+        "point": "形容词/副词的比较级",
+        "explain": "表示“更……”，单音节词多加 -er，后接 than。例如 fast→faster, slow→slower, wide→wider。",
+        "examples": [
+          "A car is faster than a bike.（汽车比自行车快。）",
+          "This road is wider than that one.（这条路比那条宽。）"
+        ]
+      },
+      {
+        "point": "must 与 mustn't",
+        "explain": "must 表示“必须”，mustn't 表示“禁止、不准”，后面都接动词原形。",
+        "examples": [
+          "You must drive carefully.（你必须小心开车。）",
+          "You mustn't drive too fast here.（这里你不准开得太快。）"
+        ]
+      }
+    ],
+    "tips": "① 比较级“更……”，单音节加 -er，后跟 than。② must=必须，mustn't=禁止。③ 情态动词后一律用动词原形。"
+  },
+  {
+    "book": 1,
+    "lesson": 131,
+    "title": "Don't be so sure!",
+    "titleCn": "别那么肯定！",
+    "scene": "出发前一晚，丈夫得意地列出这次旅行打算带的一大堆东西，越说越多。妻子在旁边收拾行李，提醒他手提箱早就装不下了，劝他别那么肯定自己都能带上。重点是 be going to 将来时与否定祈使句。",
+    "grammarTags": ["一般将来时", "祈使句"],
+    "words": [
+      { "word": "sure", "phon": "/ʃʊə/", "pos": "adj.", "cn": "肯定的", "eg": "Are you sure about that? 你确定吗？" },
+      { "word": "suitcase", "phon": "/ˈsuːtkeɪs/", "pos": "n.", "cn": "手提箱", "eg": "My suitcase is very heavy. 我的手提箱很重。" },
+      { "word": "heavy", "phon": "/ˈhevi/", "pos": "adj.", "cn": "重的", "eg": "This box is too heavy. 这个箱子太重了。" },
+      { "word": "pack", "phon": "/pæk/", "pos": "v.", "cn": "打包；装箱", "eg": "I must pack my bags tonight. 我今晚得收拾行李。" },
+      { "word": "carry", "phon": "/ˈkæri/", "pos": "v.", "cn": "搬；提", "eg": "Can you carry this bag? 你能提这个包吗？" },
+      { "word": "holiday", "phon": "/ˈhɒlədeɪ/", "pos": "n.", "cn": "假日", "eg": "We are going to have a holiday. 我们要去度假。" }
+    ],
+    "grammar": [
+      {
+        "point": "be going to 表将来打算",
+        "explain": "表示打算、计划要做某事，结构为 be going to + 动词原形；be 随主语变为 am/is/are。",
+        "examples": [
+          "I am going to buy a new suitcase.（我打算买个新箱子。）",
+          "They are going to travel by train.（他们打算坐火车旅行。）"
+        ]
+      },
+      {
+        "point": "否定祈使句",
+        "explain": "以 Don't + 动词原形 开头，表示“不要做某事”。",
+        "examples": [
+          "Don't be so sure!（别那么肯定！）",
+          "Don't carry too many things.（别带太多东西。）"
+        ]
+      }
+    ],
+    "tips": "① be going to+原形=打算做。② 主语变，be 也变：am/is/are。③ 否定祈使句用 Don't 开头。"
+  },
+  {
+    "book": 1,
+    "lesson": 133,
+    "title": "Sensational news!",
+    "titleCn": "爆炸性新闻！",
+    "scene": "午休时，几个同事围在办公室角落里压低声音议论一条刚传来的惊人消息：听说老板打算把整个公司卖掉。大家你一言我一语，猜测接下来会发生什么、自己下周还要不要来上班。重点是现在进行时表将来与 will 将来时。",
+    "grammarTags": ["现在进行时", "一般将来时"],
+    "words": [
+      { "word": "news", "phon": "/njuːz/", "pos": "n.", "cn": "消息；新闻", "eg": "I have some good news for you. 我有个好消息告诉你。" },
+      { "word": "sensational", "phon": "/senˈseɪʃənl/", "pos": "adj.", "cn": "轰动的；耸人听闻的", "eg": "The story is really sensational. 这个故事真是耸人听闻。" },
+      { "word": "boss", "phon": "/bɒs/", "pos": "n.", "cn": "老板", "eg": "Our boss is very kind. 我们老板人很好。" },
+      { "word": "sell", "phon": "/sel/", "pos": "v.", "cn": "卖", "eg": "He wants to sell his old car. 他想卖掉他的旧车。" },
+      { "word": "happen", "phon": "/ˈhæpən/", "pos": "v.", "cn": "发生", "eg": "What is going to happen next? 接下来会发生什么？" },
+      { "word": "company", "phon": "/ˈkʌmpəni/", "pos": "n.", "cn": "公司", "eg": "She works for a big company. 她在一家大公司工作。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在进行时表将来安排",
+        "explain": "用 be + doing 表示已经安排好、即将发生的事，常与将来时间连用。",
+        "examples": [
+          "I am leaving tomorrow morning.（我明天早上就走。）",
+          "They are meeting the boss this afternoon.（他们今天下午要见老板。）"
+        ]
+      },
+      {
+        "point": "will 表将来预测",
+        "explain": "will + 动词原形，表示对将来的预测或临时做出的决定；主语无论人称，will 都不变。",
+        "examples": [
+          "What will happen next?（接下来会发生什么？）",
+          "I think it will be a big surprise.（我想那会是个大惊喜。）"
+        ]
+      }
+    ],
+    "tips": "① be+doing 也可表已安排好的将来。② will+原形表预测或临时决定。③ will 后主语不影响动词形式。"
+  },
+  {
+    "book": 1,
+    "lesson": 135,
+    "title": "The latest report",
+    "titleCn": "最新消息",
+    "scene": "傍晚的电视新闻里，记者正在播报一起案件的最新进展：昨天夜里发生了什么、警察赶到后做了什么、最后抓到了谁。整段都在讲述过去发生的事，是复习一般过去时的好素材。",
+    "grammarTags": ["一般过去时"],
+    "words": [
+      { "word": "latest", "phon": "/ˈleɪtɪst/", "pos": "adj.", "cn": "最新的", "eg": "Here is the latest news. 这是最新消息。" },
+      { "word": "report", "phon": "/rɪˈpɔːt/", "pos": "n./v.", "cn": "报道；报告", "eg": "I read the report yesterday. 我昨天读了那篇报道。" },
+      { "word": "police", "phon": "/pəˈliːs/", "pos": "n.", "cn": "警察", "eg": "The police arrived quickly. 警察很快就到了。" },
+      { "word": "catch", "phon": "/kætʃ/", "pos": "v.", "cn": "抓住（过去式 caught）", "eg": "The police caught the thief. 警察抓住了小偷。" },
+      { "word": "thief", "phon": "/θiːf/", "pos": "n.", "cn": "小偷", "eg": "The thief ran away fast. 小偷飞快地跑了。" },
+      { "word": "yesterday", "phon": "/ˈjestədeɪ/", "pos": "adv.", "cn": "昨天", "eg": "It happened yesterday. 这事发生在昨天。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时表过去动作",
+        "explain": "表示过去发生的动作，规则动词加 -ed；不规则动词需记忆，如 catch→caught, run→ran, come→came。",
+        "examples": [
+          "The police caught two men last night.（警方昨晚抓了两个人。）",
+          "She reported the news yesterday.（她昨天报道了这条新闻。）"
+        ]
+      },
+      {
+        "point": "过去时的疑问与否定",
+        "explain": "借助助动词 did，其后动词用原形；否定用 didn't + 原形。",
+        "examples": [
+          "Did the police catch the thief?（警察抓住小偷了吗？）",
+          "They didn't find the money.（他们没找到钱。）"
+        ]
+      }
+    ],
+    "tips": "① 规则动词过去式加 -ed。② caught/ran/came 等不规则形式要背。③ 疑问、否定用 did/didn't，后接原形。"
+  },
+  {
+    "book": 1,
+    "lesson": 137,
+    "title": "A pleasant dream",
+    "titleCn": "一个美梦",
+    "scene": "周日早晨，姐姐发现弟弟在沙发上睡着了，把他叫醒后问他刚才梦见了什么。弟弟迷迷糊糊地回忆昨晚的美梦：梦里他正在做各种开心的事。重点复习过去进行时。",
+    "grammarTags": ["过去进行时", "一般过去时"],
+    "words": [
+      { "word": "pleasant", "phon": "/ˈpleznt/", "pos": "adj.", "cn": "令人愉快的", "eg": "We had a pleasant evening. 我们度过了一个愉快的夜晚。" },
+      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；做梦", "eg": "I had a strange dream last night. 昨晚我做了个奇怪的梦。" },
+      { "word": "asleep", "phon": "/əˈsliːp/", "pos": "adj.", "cn": "睡着的", "eg": "The baby is asleep. 婴儿睡着了。" },
+      { "word": "sofa", "phon": "/ˈsəʊfə/", "pos": "n.", "cn": "沙发", "eg": "He fell asleep on the sofa. 他在沙发上睡着了。" },
+      { "word": "fly", "phon": "/flaɪ/", "pos": "v.", "cn": "飞（过去式 flew）", "eg": "In my dream I flew over the sea. 梦里我飞过大海。" },
+      { "word": "wake", "phon": "/weɪk/", "pos": "v.", "cn": "醒；叫醒（wake up）", "eg": "I woke up at seven. 我七点醒了。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "was/were + doing，表示过去某一时刻正在进行的动作。was 配 I/he/she/it，were 配 you/we/they。",
+        "examples": [
+          "I was flying in my dream.（梦里我正在飞。）",
+          "They were laughing happily.（他们正开心地笑着。）"
+        ]
+      },
+      {
+        "point": "when/while 引导的时间",
+        "explain": "过去进行时常与 when/while 连用，表示“当……的时候正在做……”。",
+        "examples": [
+          "I was sleeping when you called.（你打电话时我正在睡觉。）",
+          "While she was cooking, the phone rang.（她做饭时电话响了。）"
+        ]
+      }
+    ],
+    "tips": "① 过去进行时=was/were+doing。② was 配单数，were 配复数或 you。③ 常与 when/while 连用。"
+  },
+  {
+    "book": 1,
+    "lesson": 139,
+    "title": "Is that you, John?",
+    "titleCn": "是你吗，约翰？",
+    "scene": "电话铃响，一个人接起电话，两人先互相确认身份、寒暄几句，然后问对方最近忙不忙、去了哪里、有没有见到共同的朋友。整段对话在现在完成时和一般过去时之间来回切换。",
+    "grammarTags": ["现在完成时", "一般过去时"],
+    "words": [
+      { "word": "speaking", "phon": "/ˈspiːkɪŋ/", "pos": "v.", "cn": "（电话用语）我就是", "eg": "Hello, John speaking. 你好，我是约翰。" },
+      { "word": "ring", "phon": "/rɪŋ/", "pos": "v.", "cn": "打电话；（铃）响（过去式 rang）", "eg": "The phone rang twice. 电话响了两次。" },
+      { "word": "busy", "phon": "/ˈbɪzi/", "pos": "adj.", "cn": "忙的", "eg": "I have been very busy lately. 我最近一直很忙。" },
+      { "word": "recently", "phon": "/ˈriːsntli/", "pos": "adv.", "cn": "最近", "eg": "Have you seen him recently? 你最近见过他吗？" },
+      { "word": "glad", "phon": "/ɡlæd/", "pos": "adj.", "cn": "高兴的", "eg": "I am glad to hear from you. 收到你的消息我很高兴。" },
+      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "返回", "eg": "He has just returned from Spain. 他刚从西班牙回来。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时表近期动作",
+        "explain": "have/has + 过去分词，常与 just, recently, already, yet 连用，强调对现在的影响。",
+        "examples": [
+          "I have just finished my work.（我刚做完工作。）",
+          "Have you heard the news yet?（你听说那消息了吗？）"
+        ]
+      },
+      {
+        "point": "现在完成时与一般过去时的区别",
+        "explain": "带有明确过去时间（yesterday, last week）用一般过去时；只强调“做过、有影响”用现在完成时。",
+        "examples": [
+          "I have seen that film.（我看过那部电影。）",
+          "I saw that film last week.（我上周看了那部电影。）"
+        ]
+      }
+    ],
+    "tips": "① have/has+过去分词=现在完成时。② just/already/yet/recently 常搭配完成时。③ 带明确过去时间用一般过去时。"
+  },
+  {
+    "book": 1,
+    "lesson": 141,
+    "title": "Sally's first train ride",
+    "titleCn": "萨莉第一次坐火车",
+    "scene": "小女孩萨莉第一次坐火车，一路上兴奋地趴在窗边，看着飞驰而过的田野、河流和小村庄。妈妈坐在旁边，一样样指给她看，告诉她那是什么。重点复习一般过去时叙事与过去进行时写景。",
+    "grammarTags": ["一般过去时", "过去进行时"],
+    "words": [
+      { "word": "ride", "phon": "/raɪd/", "pos": "n./v.", "cn": "乘坐；骑（过去式 rode）", "eg": "She had her first train ride. 她第一次坐了火车。" },
+      { "word": "window", "phon": "/ˈwɪndəʊ/", "pos": "n.", "cn": "窗户", "eg": "She looked out of the window. 她望着窗外。" },
+      { "word": "field", "phon": "/fiːld/", "pos": "n.", "cn": "田野", "eg": "Cows were eating grass in the field. 牛在田里吃草。" },
+      { "word": "river", "phon": "/ˈrɪvə/", "pos": "n.", "cn": "河流", "eg": "The train crossed a wide river. 火车驶过一条宽阔的河。" },
+      { "word": "village", "phon": "/ˈvɪlɪdʒ/", "pos": "n.", "cn": "村庄", "eg": "They passed a small village. 他们经过一个小村庄。" },
+      { "word": "excited", "phon": "/ɪkˈsaɪtɪd/", "pos": "adj.", "cn": "兴奋的", "eg": "Sally was very excited on the train. 萨莉在火车上很兴奋。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时叙述经历",
+        "explain": "讲述过去一连串动作用一般过去时，注意不规则动词：ride→rode, see→saw, go→went。",
+        "examples": [
+          "Sally saw many fields from the train.（萨莉从火车上看到许多田野。）",
+          "They went to the seaside last summer.（他们去年夏天去了海边。）"
+        ]
+      },
+      {
+        "point": "过去进行时描写背景",
+        "explain": "was/were + doing 用来描写过去某时正在发生、作为背景的动作。",
+        "examples": [
+          "The sun was shining brightly.（阳光灿烂地照着。）",
+          "Birds were singing in the trees.（鸟儿在树上歌唱。）"
+        ]
+      }
+    ],
+    "tips": "① 叙述过去经历用一般过去时。② rode/saw/went 等不规则动词要背。③ 描写背景常用 was/were+doing。"
+  },
+  {
+    "book": 1,
+    "lesson": 143,
+    "title": "A walk through the woods",
+    "titleCn": "林中散步",
+    "scene": "周末一家人到郊外的树林里散步，孩子们跑在前面捡树叶、追蝴蝶，大人在后面边走边聊。走着走着，天忽然下起了小雨，大家笑着一起往回跑。重点是过去进行时与一般过去时的结合。",
+    "grammarTags": ["过去进行时", "一般过去时"],
+    "words": [
+      { "word": "wood", "phon": "/wʊd/", "pos": "n.", "cn": "树林（常用复数 woods）", "eg": "We walked through the woods. 我们穿过树林。" },
+      { "word": "path", "phon": "/pɑːθ/", "pos": "n.", "cn": "小路", "eg": "A narrow path led into the forest. 一条窄路通向森林。" },
+      { "word": "leaf", "phon": "/liːf/", "pos": "n.", "cn": "树叶（复数 leaves）", "eg": "The children picked up some leaves. 孩子们捡了些树叶。" },
+      { "word": "butterfly", "phon": "/ˈbʌtəflaɪ/", "pos": "n.", "cn": "蝴蝶", "eg": "A butterfly landed on the flower. 一只蝴蝶落在花上。" },
+      { "word": "rain", "phon": "/reɪn/", "pos": "v./n.", "cn": "下雨；雨", "eg": "It began to rain suddenly. 突然下起雨来。" },
+      { "word": "suddenly", "phon": "/ˈsʌdənli/", "pos": "adv.", "cn": "突然", "eg": "Suddenly the sky went dark. 天突然暗了下来。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时与一般过去时结合",
+        "explain": "描写“正在做某事时，突然发生了另一件事”：正在进行的动作用过去进行时，突发的动作用一般过去时。",
+        "examples": [
+          "We were walking in the woods when it started to rain.（我们正在林中散步，这时下起了雨。）",
+          "She was reading when the light went out.（她正读着书，灯灭了。）"
+        ]
+      },
+      {
+        "point": "常见不规则动词过去式",
+        "explain": "begin→began, run→ran, come→came, fly→flew 等在叙述过去动作时要用正确形式。",
+        "examples": [
+          "The children ran ahead of us.（孩子们跑在我们前面。）",
+          "It began to rain in the afternoon.（下午开始下雨。）"
+        ]
+      }
+    ],
+    "tips": "① “正在……时突然……”：进行时+一般过去时。② when 后常接突发的短动作。③ began/ran/came/flew 等不规则过去式要记牢。"
+  }
+]

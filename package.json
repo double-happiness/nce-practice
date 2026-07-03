@@ -1,0 +1,14 @@
+{
+  "name": "nce-practice",
+  "version": "1.0.0",
+  "description": "新概念英语练习题库系统（按册 / 课程进度 / 语法点出题，含错题本与成绩统计）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "validate": "node scripts/validate.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

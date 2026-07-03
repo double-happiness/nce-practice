@@ -1,0 +1,263 @@
+[
+  {
+    "book": 1,
+    "lesson": 71,
+    "title": "He's awful!",
+    "titleCn": "他真讨厌！",
+    "scene": "两个人抱怨一位常打电话却从不留下姓名的人，围绕“他多久打一次电话”展开对话。本课用来练习一般现在时和频率副词，表达习惯性、经常性的动作。",
+    "grammarTags": ["一般现在时", "频率副词", "疑问句"],
+    "words": [
+      { "word": "awful", "phon": "/ˈɔːfʊl/", "pos": "adj.", "cn": "讨厌的；糟糕的", "eg": "The traffic here is awful in the morning. 早上这里的交通很糟糕。" },
+      { "word": "telephone", "phon": "/ˈtelɪfəʊn/", "pos": "v.", "cn": "打电话", "eg": "I telephone my parents every weekend. 我每个周末给父母打电话。" },
+      { "word": "again", "phon": "/əˈɡen/", "pos": "adv.", "cn": "再一次", "eg": "Please say that again. 请再说一遍。" },
+      { "word": "never", "phon": "/ˈnevə/", "pos": "adv.", "cn": "从不", "eg": "He never drinks coffee at night. 他晚上从不喝咖啡。" },
+      { "word": "always", "phon": "/ˈɔːlweɪz/", "pos": "adv.", "cn": "总是", "eg": "She always gets up early. 她总是起得很早。" },
+      { "word": "often", "phon": "/ˈɒfn/", "pos": "adv.", "cn": "经常", "eg": "We often play football on Sundays. 我们周日经常踢足球。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般现在时表示习惯",
+        "explain": "一般现在时用来描述经常、反复发生的动作或习惯。主语是第三人称单数时，动词要加 -s 或 -es。",
+        "examples": [
+          "He telephones me every day.（他每天给我打电话。）",
+          "They walk to school together.（他们一起走路去上学。）"
+        ]
+      },
+      {
+        "point": "频率副词的位置",
+        "explain": "always、often、sometimes、never 等频率副词一般放在实义动词之前、be 动词之后。",
+        "examples": [
+          "She never eats meat.（她从不吃肉。）",
+          "He is always late.（他总是迟到。）"
+        ]
+      },
+      {
+        "point": "How often 提问频率",
+        "explain": "对动作发生的频繁程度提问用 How often...?，回答常用频率副词或 every day/week 等短语。",
+        "examples": [
+          "How often does he call you? — Every evening.（他多久给你打一次电话？——每天晚上。）",
+          "How often do you read books? — Very often.（你多久读一次书？——非常频繁。）"
+        ]
+      }
+    ],
+    "tips": "①第三人称单数动词记得加 -s/-es，这是初学者最容易漏的一点。②频率副词口诀：“实义动词前，be 动词后”。③How often 专问“多经常”，别和 When（什么时候）混淆。"
+  },
+  {
+    "book": 1,
+    "lesson": 73,
+    "title": "The way to King Street",
+    "titleCn": "到国王街的路",
+    "scene": "一位陌生人向路人问路，路人用一连串指令告诉他怎样拐弯、直走才能到达目的地。本课重点是用祈使句和方位介词来指路。",
+    "grammarTags": ["祈使句", "介词"],
+    "words": [
+      { "word": "way", "phon": "/weɪ/", "pos": "n.", "cn": "路；路线", "eg": "Can you show me the way to the park? 你能给我指去公园的路吗？" },
+      { "word": "turn", "phon": "/tɜːn/", "pos": "v.", "cn": "转弯", "eg": "Turn left at the bank. 在银行那里向左转。" },
+      { "word": "straight", "phon": "/streɪt/", "pos": "adv.", "cn": "直地", "eg": "Go straight for two minutes. 直走两分钟。" },
+      { "word": "corner", "phon": "/ˈkɔːnə/", "pos": "n.", "cn": "拐角", "eg": "The shop is on the corner. 那家店在拐角处。" },
+      { "word": "past", "phon": "/pɑːst/", "pos": "prep.", "cn": "经过", "eg": "Walk past the school and stop. 走过学校然后停下。" },
+      { "word": "along", "phon": "/əˈlɒŋ/", "pos": "prep.", "cn": "沿着", "eg": "Go along this road to the river. 沿着这条路走到河边。" }
+    ],
+    "grammar": [
+      {
+        "point": "祈使句表示指令",
+        "explain": "祈使句省略主语 you，用动词原形开头，用来发出命令、请求或指路。否定式用 Don't 加动词原形。",
+        "examples": [
+          "Turn right at the second corner.（在第二个拐角向右转。）",
+          "Don't cross the road here.（别在这里过马路。）"
+        ]
+      },
+      {
+        "point": "方位介词",
+        "explain": "指路常用 along（沿着）、past（经过）、on the left/right（在左/右边）等短语说明方向和位置。",
+        "examples": [
+          "The library is on your left.（图书馆在你的左边。）",
+          "Go past the café and turn left.（走过咖啡馆然后左转。）"
+        ]
+      }
+    ],
+    "tips": "①问路万能句：Can you tell me the way to...? ②指路先说方向动词（Go/Turn），再说位置介词短语。③记住成对方位词：left/right、first/second，方便听懂连续指令。"
+  },
+  {
+    "book": 1,
+    "lesson": 75,
+    "title": "Uncomfortable shoes",
+    "titleCn": "不舒适的鞋子",
+    "scene": "顾客试穿减价的鞋子，抱怨鞋子太小、穿着不舒服。本课借购物情景练习指示代词 these/those、名词复数以及 too 加形容词的用法。",
+    "grammarTags": ["this/that/these/those", "名词单复数"],
+    "words": [
+      { "word": "uncomfortable", "phon": "/ʌnˈkʌmftəbl/", "pos": "adj.", "cn": "不舒服的", "eg": "This chair is very uncomfortable. 这把椅子很不舒服。" },
+      { "word": "pair", "phon": "/peə/", "pos": "n.", "cn": "一双；一对", "eg": "I need a new pair of gloves. 我需要一双新手套。" },
+      { "word": "shoe", "phon": "/ʃuː/", "pos": "n.", "cn": "鞋", "eg": "These shoes are too small for me. 这双鞋对我来说太小了。" },
+      { "word": "size", "phon": "/saɪz/", "pos": "n.", "cn": "尺码", "eg": "What size do you take? 你穿多大尺码？" },
+      { "word": "sale", "phon": "/seɪl/", "pos": "n.", "cn": "减价销售", "eg": "The coats are on sale today. 大衣今天减价销售。" },
+      { "word": "dear", "phon": "/dɪə/", "pos": "adj.", "cn": "昂贵的", "eg": "That watch is too dear. 那块表太贵了。" }
+    ],
+    "grammar": [
+      {
+        "point": "these / those 指复数",
+        "explain": "these（这些）指近处复数事物，those（那些）指远处复数事物，后面接可数名词复数。",
+        "examples": [
+          "These shoes are comfortable.（这些鞋很舒服。）",
+          "Those bags are on sale.（那些包在减价。）"
+        ]
+      },
+      {
+        "point": "a pair of 的用法",
+        "explain": "鞋、手套、袜子等成双的东西用 a pair of 计量，后面接名词复数；两双用 two pairs of。",
+        "examples": [
+          "I bought a pair of shoes.（我买了一双鞋。）",
+          "She has two pairs of socks.（她有两双袜子。）"
+        ]
+      },
+      {
+        "point": "too + 形容词",
+        "explain": "too 放在形容词前，表示“太……（以至于不行）”，带有否定或抱怨的语气。",
+        "examples": [
+          "These shoes are too small.（这双鞋太小了。）",
+          "The room is too cold.（房间太冷了。）"
+        ]
+      }
+    ],
+    "tips": "①these/those 后面永远跟复数名词。②鞋、袜、手套论“双”：a pair of + 复数。③too 是“太……了”的抱怨语气，和 very（很）表达程度但不带负面含义要区分。"
+  },
+  {
+    "book": 1,
+    "lesson": 77,
+    "title": "Terrible toothache",
+    "titleCn": "可怕的牙痛",
+    "scene": "一个人牙疼得厉害，朋友劝他必须去看牙医。本课通过看病情景练习情态动词 must，表示“必须、不得不”的强烈建议或义务。",
+    "grammarTags": ["情态动词must", "一般现在时"],
+    "words": [
+      { "word": "terrible", "phon": "/ˈterəbl/", "pos": "adj.", "cn": "可怕的；糟糕的", "eg": "I have a terrible headache. 我头疼得厉害。" },
+      { "word": "toothache", "phon": "/ˈtuːθeɪk/", "pos": "n.", "cn": "牙痛", "eg": "She has a toothache today. 她今天牙疼。" },
+      { "word": "dentist", "phon": "/ˈdentɪst/", "pos": "n.", "cn": "牙医", "eg": "You must see a dentist soon. 你得赶快去看牙医。" },
+      { "word": "must", "phon": "/mʌst/", "pos": "modal v.", "cn": "必须", "eg": "You must take this medicine. 你必须吃这个药。" },
+      { "word": "ill", "phon": "/ɪl/", "pos": "adj.", "cn": "生病的", "eg": "He is ill and stays in bed. 他病了，躺在床上。" },
+      { "word": "pull", "phon": "/pʊl/", "pos": "v.", "cn": "拔；拉", "eg": "The dentist may pull out the bad tooth. 牙医可能会拔掉那颗坏牙。" }
+    ],
+    "grammar": [
+      {
+        "point": "情态动词 must",
+        "explain": "must 表示“必须、不得不”，后面直接接动词原形，不随人称变化，也不加 -s。",
+        "examples": [
+          "You must go to bed early.（你必须早点睡。）",
+          "We must be quiet in the library.（在图书馆我们必须保持安静。）"
+        ]
+      },
+      {
+        "point": "must 的疑问句与回答",
+        "explain": "把 must 提到主语前构成疑问句：Must I...? 肯定回答 Yes, you must. 否定常用 needn't（不必）。",
+        "examples": [
+          "Must I stay here? — No, you needn't.（我必须待在这儿吗？——不，你不必。）",
+          "Must we finish it today? — Yes, you must.（我们必须今天完成吗？——是的，必须。）"
+        ]
+      }
+    ],
+    "tips": "①must 后面永远跟动词原形，别加 to，也别加 -s。②“不必”不是 mustn't（那是“禁止”），而是 needn't。③身体不适说 have a + 病名：have a toothache/headache/cold。"
+  },
+  {
+    "book": 1,
+    "lesson": 79,
+    "title": "Carol's shopping list",
+    "titleCn": "卡罗尔的购物单",
+    "scene": "卡罗尔列了一张购物清单，准备去商店买各种日用品。本课借购物情景练习 some/any 的用法，以及可数与不可数名词的区分。",
+    "grammarTags": ["some/any", "可数不可数"],
+    "words": [
+      { "word": "list", "phon": "/lɪst/", "pos": "n.", "cn": "清单", "eg": "I made a shopping list. 我列了一张购物清单。" },
+      { "word": "pound", "phon": "/paʊnd/", "pos": "n.", "cn": "磅；英镑", "eg": "She bought a pound of sugar. 她买了一磅糖。" },
+      { "word": "magazine", "phon": "/ˌmæɡəˈziːn/", "pos": "n.", "cn": "杂志", "eg": "He reads a magazine on the train. 他在火车上读杂志。" },
+      { "word": "toothpaste", "phon": "/ˈtuːθpeɪst/", "pos": "n.", "cn": "牙膏", "eg": "We need some toothpaste. 我们需要一些牙膏。" },
+      { "word": "soap", "phon": "/səʊp/", "pos": "n.", "cn": "肥皂", "eg": "There isn't any soap here. 这里没有肥皂。" },
+      { "word": "sugar", "phon": "/ˈʃʊɡə/", "pos": "n.", "cn": "糖", "eg": "Do we have any sugar? 我们有糖吗？" }
+    ],
+    "grammar": [
+      {
+        "point": "some 与 any",
+        "explain": "some（一些）多用于肯定句，any 多用于否定句和疑问句，两者都可修饰不可数名词或复数可数名词。",
+        "examples": [
+          "There is some milk in the cup.（杯子里有一些牛奶。）",
+          "Is there any bread on the table?（桌上有面包吗？）"
+        ]
+      },
+      {
+        "point": "可数与不可数名词",
+        "explain": "可数名词有单复数，能用数字直接数；不可数名词（如 soap、sugar、milk）没有复数，计量时借助 a pound of、a bar of 等短语。",
+        "examples": [
+          "I need two magazines.（我需要两本杂志。）",
+          "She wants a bar of soap.（她想要一块肥皂。）"
+        ]
+      }
+    ],
+    "tips": "①记忆口诀：some 用于肯定，any 用于否定和疑问。②不可数名词不能说 a soap，要用 a bar of soap、a pound of sugar。③请求或邀请时，疑问句也常用 some，如 Would you like some tea?"
+  },
+  {
+    "book": 1,
+    "lesson": 81,
+    "title": "Roast beef",
+    "titleCn": "烤牛肉",
+    "scene": "一个人正计划为晚餐做一顿烤牛肉，考虑要准备哪些蔬菜和甜点。本课用做饭计划的情景练习 be going to 表示打算做的事，以及 some/any 的搭配。",
+    "grammarTags": ["一般将来时", "some/any"],
+    "words": [
+      { "word": "roast", "phon": "/rəʊst/", "pos": "v.", "cn": "烤（肉）", "eg": "I am going to roast some beef. 我打算烤一些牛肉。" },
+      { "word": "beef", "phon": "/biːf/", "pos": "n.", "cn": "牛肉", "eg": "This beef smells very good. 这牛肉闻起来很香。" },
+      { "word": "cabbage", "phon": "/ˈkæbɪdʒ/", "pos": "n.", "cn": "卷心菜", "eg": "She is cutting a cabbage. 她正在切一棵卷心菜。" },
+      { "word": "potato", "phon": "/pəˈteɪtəʊ/", "pos": "n.", "cn": "土豆", "eg": "We need some potatoes for dinner. 晚饭我们需要一些土豆。" },
+      { "word": "bean", "phon": "/biːn/", "pos": "n.", "cn": "豆", "eg": "There are some beans on the plate. 盘子里有一些豆子。" },
+      { "word": "dessert", "phon": "/dɪˈzɜːt/", "pos": "n.", "cn": "甜点", "eg": "What is for dessert tonight? 今晚甜点吃什么？" }
+    ],
+    "grammar": [
+      {
+        "point": "be going to 表示打算",
+        "explain": "be going to 加动词原形，表示打算做或计划做的事。be 随主语变为 am/is/are。",
+        "examples": [
+          "I am going to cook dinner.（我打算做晚饭。）",
+          "They are going to visit us tomorrow.（他们打算明天来看我们。）"
+        ]
+      },
+      {
+        "point": "going to 的疑问句",
+        "explain": "把 be 动词提到主语前构成疑问句：Are you going to...? 回答用 Yes, I am. / No, I'm not.",
+        "examples": [
+          "Is she going to buy any beef? — Yes, she is.（她打算买些牛肉吗？——是的。）",
+          "What are you going to make?（你打算做什么？）"
+        ]
+      }
+    ],
+    "tips": "①be going to 结构里 be 动词要随主语变：I am / he is / we are。②后面接动词原形，表示“打算、计划”。③蔬菜大多可数，potato、tomato 复数加 -es。"
+  },
+  {
+    "book": 1,
+    "lesson": 83,
+    "title": "Going on holiday",
+    "titleCn": "度假",
+    "scene": "一家人准备外出度假，互相询问是否已经收拾好行李、装好了衣物。本课通过出行准备的情景引入现在完成时，重点是 already（已经）的用法。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      { "word": "holiday", "phon": "/ˈhɒlədeɪ/", "pos": "n.", "cn": "假期", "eg": "We are going on holiday next week. 我们下周去度假。" },
+      { "word": "already", "phon": "/ɔːlˈredi/", "pos": "adv.", "cn": "已经", "eg": "I have already packed my bag. 我已经收拾好包了。" },
+      { "word": "pack", "phon": "/pæk/", "pos": "v.", "cn": "打包；收拾行李", "eg": "Have you packed the suitcase? 你收拾好手提箱了吗？" },
+      { "word": "suitcase", "phon": "/ˈsuːtkeɪs/", "pos": "n.", "cn": "手提箱", "eg": "This suitcase is very heavy. 这个手提箱很重。" },
+      { "word": "sweater", "phon": "/ˈswetə/", "pos": "n.", "cn": "毛衣", "eg": "Take a warm sweater with you. 带一件暖和的毛衣。" },
+      { "word": "weather", "phon": "/ˈweðə/", "pos": "n.", "cn": "天气", "eg": "The weather is fine today. 今天天气很好。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时的构成",
+        "explain": "现在完成时由 have/has 加过去分词构成，表示过去发生、对现在有影响或已经完成的动作。",
+        "examples": [
+          "I have finished my work.（我已经完成了工作。）",
+          "She has packed the suitcase.（她已经收拾好了手提箱。）"
+        ]
+      },
+      {
+        "point": "already 的位置",
+        "explain": "already（已经）用于肯定句，通常放在 have/has 和过去分词之间，强调动作已经完成。",
+        "examples": [
+          "We have already had lunch.（我们已经吃过午饭了。）",
+          "He has already left home.（他已经离开家了。）"
+        ]
+      }
+    ],
+    "tips": "①现在完成时公式：have/has + 过去分词，第三人称单数用 has。②already 表示“已经”，放在助动词和动词之间。③询问是否完成用 Have you...? 回答 Yes, I have. / No, I haven't."
+  }
+]

@@ -1,0 +1,111 @@
+/* ================================================================
+   多主题配色系统
+   - 通过 <html data-theme="xxx"> 切换；不设或 aurora = styles.css 默认。
+   - 浅色系主题仅重定义 CSS 变量；深色主题(midnight)额外覆盖少量硬编码白底。
+   - 书页式教材（.book/.toc-page/.content-page）用自身纸色变量，任何主题下保持纸书原貌。
+   - 该文件必须在 styles.css 之后加载。
+   ================================================================ */
+
+/* ---------------- 主题切换器 UI（与主题无关） ---------------- */
+.theme-switch { display: flex; align-items: center; gap: 10px; }
+.theme-switch .ts-label { font-size: 12px; color: var(--muted); font-weight: 600; }
+.theme-dots { display: flex; gap: 8px; }
+.theme-dot {
+  width: 20px; height: 20px; border-radius: 50%; cursor: pointer; padding: 0;
+  border: 0; outline: 2px solid transparent; outline-offset: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .15);
+  transition: transform .12s ease, outline-color .12s;
+}
+.theme-dot:hover { transform: scale(1.18); }
+.theme-dot.active { outline-color: var(--brand, #6a4bff); }
+.theme-dot[data-k=aurora]   { background: linear-gradient(135deg, #4f7cff, #6a4bff); }
+.theme-dot[data-k=ocean]    { background: linear-gradient(135deg, #22d3ee, #0ea5e9); }
+.theme-dot[data-k=rose]     { background: linear-gradient(135deg, #fb7185, #f43f5e); }
+.theme-dot[data-k=paper]    { background: linear-gradient(135deg, #d8b45a, #a87b3f); }
+.theme-dot[data-k=midnight] { background: linear-gradient(135deg, #22d3ee, #a855f7); }
+
+/* ================= 清新青 ocean ================= */
+html[data-theme=ocean] {
+  --brand: #0891b2; --brand-dark: #0e7490; --brand-2: #06b6d4;
+  --accent-grad: linear-gradient(135deg, #22d3ee 0%, #0ea5e9 100%);
+  --accent-grad-soft: linear-gradient(135deg, #e2f8fc 0%, #e4f2ff 100%);
+  --bg: #eef6f9; --bg-tint-1: #d7f2f8; --bg-tint-2: #e2f0ff;
+  --ring: 0 0 0 3px rgba(8, 145, 178, .2);
+}
+
+/* ================= 樱粉 rose ================= */
+html[data-theme=rose] {
+  --brand: #e11d64; --brand-dark: #be123c; --brand-2: #f43f5e;
+  --accent-grad: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%);
+  --accent-grad-soft: linear-gradient(135deg, #ffe8ee 0%, #ffeef2 100%);
+  --bg: #fbf0f3; --bg-tint-1: #ffe0e8; --bg-tint-2: #ffe9f0;
+  --ring: 0 0 0 3px rgba(225, 29, 100, .2);
+}
+
+/* ================= 纸质暖 paper ================= */
+html[data-theme=paper] {
+  --brand: #96652b; --brand-dark: #7a5220; --brand-2: #b8863a;
+  --accent-grad: linear-gradient(135deg, #c08a2e 0%, #8a6224 100%);
+  --accent-grad-soft: linear-gradient(135deg, #f6ecd3 0%, #f2e6cf 100%);
+  --bg: #f3ecda; --bg-tint-1: #efe2c4; --bg-tint-2: #f5edd8;
+  --card: #fdfaf1; --ink: #3d3524; --ink-soft: #5b4f3a;
+  --muted: #9a8a63; --muted-2: #b6a680;
+  --border: #e6dcc4; --border-soft: #efe7d3;
+  --ring: 0 0 0 3px rgba(168, 123, 63, .22);
+}
+/* 米底上把纯白控件换成暖白，避免突兀（排除选中态，保留其渐变高亮） */
+html[data-theme=paper] .chip:not(.active),
+html[data-theme=paper] .btn:not(.primary),
+html[data-theme=paper] select,
+html[data-theme=paper] .fill-input,
+html[data-theme=paper] .q-card,
+html[data-theme=paper] .r-card { background: #fdfaf1; }
+html[data-theme=paper] .option:hover { background: #f7efdd; }
+html[data-theme=paper] .option.selected { background: #f3e8ce; }
+
+/* ================= 深色玻璃 midnight ================= */
+html[data-theme=midnight] {
+  --brand: #7c5cff; --brand-dark: #6a5cff; --brand-2: #22d3ee;
+  --accent-grad: linear-gradient(120deg, #22d3ee 0%, #6a5cff 52%, #a855f7 100%);
+  --accent-grad-soft: linear-gradient(120deg, rgba(34, 211, 238, .16), rgba(124, 92, 255, .16));
+  --bg: #080b14; --bg-tint-1: rgba(34, 211, 238, .14); --bg-tint-2: rgba(124, 92, 255, .18);
+  --card: rgba(255, 255, 255, .05);
+  --ink: #e8ecf8; --ink-soft: #c2c9de; --muted: #8b93ad; --muted-2: #626b85;
+  --border: rgba(255, 255, 255, .10); --border-soft: rgba(255, 255, 255, .08);
+  --ok: #34d399; --bad: #fb7185;
+  --ring: 0 0 0 3px rgba(124, 92, 255, .35);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow-md: 0 14px 40px rgba(0, 0, 0, .5);
+}
+/* 玻璃质感 + 覆盖硬编码白底 */
+html[data-theme=midnight] .panel {
+  backdrop-filter: blur(18px) saturate(140%);
+  -webkit-backdrop-filter: blur(18px) saturate(140%);
+  box-shadow: var(--shadow-md), inset 0 1px 0 rgba(255, 255, 255, .05);
+}
+html[data-theme=midnight] .topbar { background: rgba(13, 17, 32, .6); }
+html[data-theme=midnight] .tabs { background: rgba(255, 255, 255, .04); }
+html[data-theme=midnight] .tab:hover { background: rgba(255, 255, 255, .07); color: #fff; }
+html[data-theme=midnight] .chip:not(.active),
+html[data-theme=midnight] .btn:not(.primary),
+html[data-theme=midnight] select,
+html[data-theme=midnight] .fill-input { background: rgba(255, 255, 255, .07); }
+html[data-theme=midnight] select option { background: #141a2b; color: var(--ink); }
+html[data-theme=midnight] .btn.ghost { background: transparent; }
+html[data-theme=midnight] .btn.ghost:hover { background: rgba(255, 255, 255, .07); }
+html[data-theme=midnight] .q-card { background: rgba(255, 255, 255, .045); }
+html[data-theme=midnight] .q-stem,
+html[data-theme=midnight] .r-stem,
+html[data-theme=midnight] .panel h2,
+html[data-theme=midnight] .lesson-title { color: #fff; }
+html[data-theme=midnight] .option { background: rgba(255, 255, 255, .045); color: var(--ink-soft); }
+html[data-theme=midnight] .option:hover { background: rgba(255, 255, 255, .08); color: #fff; }
+html[data-theme=midnight] .option.selected { background: rgba(124, 92, 255, .16); color: #fff; }
+html[data-theme=midnight] .option.correct { background: rgba(52, 211, 153, .16); color: #fff; }
+html[data-theme=midnight] .option.wrong { background: rgba(251, 113, 133, .16); color: #fff; }
+html[data-theme=midnight] .r-card { background: rgba(255, 255, 255, .045); }
+html[data-theme=midnight] .r-card.ok { background: linear-gradient(90deg, rgba(52, 211, 153, .12), transparent 55%); }
+html[data-theme=midnight] .r-card.bad { background: linear-gradient(90deg, rgba(251, 113, 133, .12), transparent 55%); }
+html[data-theme=midnight] .q-tag { color: #8be9ff; border-color: rgba(34, 211, 238, .3); }
+/* 深色下书本作为「桌面上的一本纸书」，加投影更立体 */
+html[data-theme=midnight] .book { box-shadow: 2px 2px 0 rgba(0,0,0,.2), 0 26px 60px rgba(0, 0, 0, .6); }

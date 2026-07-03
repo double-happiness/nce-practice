@@ -1,0 +1,28 @@
+{
+  "books": [
+    { "id": 1, "name": "新概念英语第一册", "subtitle": "First Things First 英语初阶", "lessons": 144 },
+    { "id": 2, "name": "新概念英语第二册", "subtitle": "Practice and Progress 实践与进步", "lessons": 96 },
+    { "id": 3, "name": "新概念英语第三册", "subtitle": "Developing Skills 培养技能", "lessons": 60 },
+    { "id": 4, "name": "新概念英语第四册", "subtitle": "Fluency in English 流利英语", "lessons": 48 }
+  ],
+  "units": {
+    "1": [
+      { "label": "Lessons 1-24 入门", "min": 1, "max": 24 },
+      { "label": "Lessons 25-48 基础", "min": 25, "max": 48 },
+      { "label": "Lessons 49-72 进阶", "min": 49, "max": 72 },
+      { "label": "Lessons 73-144 综合", "min": 73, "max": 144 }
+    ],
+    "2": [
+      { "label": "Lessons 1-24", "min": 1, "max": 24 },
+      { "label": "Lessons 25-48", "min": 25, "max": 48 },
+      { "label": "Lessons 49-96", "min": 49, "max": 96 }
+    ],
+    "3": [
+      { "label": "Lessons 1-30", "min": 1, "max": 30 },
+      { "label": "Lessons 31-60", "min": 31, "max": 60 }
+    ],
+    "4": [
+      { "label": "Lessons 1-48", "min": 1, "max": 48 }
+    ]
+  }
+}

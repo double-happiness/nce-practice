@@ -1,0 +1,520 @@
+[
+  {
+    "book": 1,
+    "lesson": 57,
+    "title": "Can I help you, madam?",
+    "titleCn": "夫人，我能为您效劳吗？",
+    "scene": "一位顾客走进服装店挑选衣物，售货员上前询问需要什么、想要什么颜色和样式，两人围绕购物需求做简短交流。重点在 want 的用法与 some/any。",
+    "grammarTags": [
+      "some/any",
+      "冠词a/an"
+    ],
+    "words": [
+      {
+        "word": "madam",
+        "phon": "/ˈmædəm/",
+        "pos": "n.",
+        "cn": "夫人；女士（对女顾客的尊称）",
+        "eg": "Can I help you, madam? 夫人，我能为您效劳吗？"
+      },
+      {
+        "word": "want",
+        "phon": "/wɒnt/",
+        "pos": "v.",
+        "cn": "想要；需要",
+        "eg": "I want a new coat. 我想要一件新外套。"
+      },
+      {
+        "word": "size",
+        "phon": "/saɪz/",
+        "pos": "n.",
+        "cn": "尺码；大小",
+        "eg": "What size do you want? 你要多大尺码？"
+      },
+      {
+        "word": "colour",
+        "phon": "/ˈkʌlə/",
+        "pos": "n.",
+        "cn": "颜色",
+        "eg": "I like this colour. 我喜欢这个颜色。"
+      },
+      {
+        "word": "material",
+        "phon": "/məˈtɪəriəl/",
+        "pos": "n.",
+        "cn": "布料；材料",
+        "eg": "This material feels soft. 这种布料摸起来很软。"
+      },
+      {
+        "word": "pretty",
+        "phon": "/ˈprɪti/",
+        "pos": "adj.",
+        "cn": "漂亮的",
+        "eg": "That is a pretty dress. 那是一条漂亮的连衣裙。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "want + 名词 / want to do",
+        "explain": "want 表示“想要”。后接名词表示想要某物；后接 to + 动词原形表示想做某事。",
+        "examples": [
+          "I want some blue material.（我想要一些蓝色的布料。）",
+          "She wants to buy a hat.（她想买一顶帽子。）"
+        ]
+      },
+      {
+        "point": "some 与 any 的基本区别",
+        "explain": "some 常用于肯定句，any 常用于否定句和一般疑问句，都表示“一些”。",
+        "examples": [
+          "I want some green material.（我想要一些绿色的布料。）",
+          "Do you want any buttons?（你要一些纽扣吗？）"
+        ]
+      }
+    ],
+    "tips": "①对女顾客礼貌称呼用 madam，对男顾客用 sir。②want 想要具体某物时后接名词：I want a dress；想做某事时用 want to do。③购物时问尺码用 What size…?，问颜色用 What colour…?。④肯定句里表“一些”多用 some，疑问和否定里多用 any。"
+  },
+  {
+    "book": 1,
+    "lesson": 59,
+    "title": "Is that all?",
+    "titleCn": "就这些吗？",
+    "scene": "一位顾客在食品杂货店里逐样报出要买的东西，店员一边记一边确认还要不要别的。对话围绕食品数量与包装量词，重点是 some/any 和可数不可数名词。",
+    "grammarTags": [
+      "some/any",
+      "可数不可数"
+    ],
+    "words": [
+      {
+        "word": "tin",
+        "phon": "/tɪn/",
+        "pos": "n.",
+        "cn": "罐头",
+        "eg": "I want a tin of fish. 我想要一罐鱼罐头。"
+      },
+      {
+        "word": "loaf",
+        "phon": "/ləʊf/",
+        "pos": "n.",
+        "cn": "一条（面包）",
+        "eg": "We need a loaf of bread. 我们需要一条面包。"
+      },
+      {
+        "word": "bottle",
+        "phon": "/ˈbɒtl/",
+        "pos": "n.",
+        "cn": "瓶子；一瓶",
+        "eg": "She bought a bottle of milk. 她买了一瓶牛奶。"
+      },
+      {
+        "word": "pound",
+        "phon": "/paʊnd/",
+        "pos": "n.",
+        "cn": "磅（重量单位）；英镑",
+        "eg": "I want a pound of sugar. 我想要一磅糖。"
+      },
+      {
+        "word": "flour",
+        "phon": "/ˈflaʊə/",
+        "pos": "n.",
+        "cn": "面粉",
+        "eg": "There is some flour in the bag. 袋子里有一些面粉。"
+      },
+      {
+        "word": "cheese",
+        "phon": "/tʃiːz/",
+        "pos": "n.",
+        "cn": "奶酪",
+        "eg": "Do you want any cheese? 你要一些奶酪吗？"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "可数名词与不可数名词",
+        "explain": "可数名词能直接用数字和复数计数，如 two tins；不可数名词（如 flour、cheese、milk）不能直接数，要用量词短语，如 a pound of flour、a bottle of milk。",
+        "examples": [
+          "I want two loaves of bread.（我想要两条面包。）",
+          "She wants some cheese and a bottle of milk.（她想要一些奶酪和一瓶牛奶。）"
+        ]
+      },
+      {
+        "point": "some 与 any 的选用",
+        "explain": "肯定陈述句用 some；否定句和一般疑问句一般用 any。二者都可修饰可数名词复数或不可数名词。",
+        "examples": [
+          "There is some sugar in the tin.（罐子里有一些糖。）",
+          "We haven't got any flour.（我们没有面粉了。）"
+        ]
+      }
+    ],
+    "tips": "①不可数名词计量要靠量词：a tin of… / a loaf of… / a bottle of… / a pound of…。②loaf 的复数是 loaves，要注意变化。③Is that all? 意为“就这些吗？”，是店员常用的确认语。④肯定句用 some，否定和疑问句多用 any。"
+  },
+  {
+    "book": 1,
+    "lesson": 61,
+    "title": "A bad cold",
+    "titleCn": "重感冒",
+    "scene": "有人打电话找朋友，接电话的家人说他病得不轻正卧床休息，不能来接电话，还叮嘱他必须待在床上。对话围绕生病的状态，重点是现在进行时和情态动词 must。",
+    "grammarTags": [
+      "现在进行时",
+      "情态动词must"
+    ],
+    "words": [
+      {
+        "word": "bad",
+        "phon": "/bæd/",
+        "pos": "adj.",
+        "cn": "坏的；严重的",
+        "eg": "He has a bad cold today. 他今天得了重感冒。"
+      },
+      {
+        "word": "cold",
+        "phon": "/kəʊld/",
+        "pos": "n.",
+        "cn": "感冒",
+        "eg": "I have a cold and I feel tired. 我感冒了，觉得很累。"
+      },
+      {
+        "word": "matter",
+        "phon": "/ˈmætə/",
+        "pos": "n.",
+        "cn": "事情；麻烦",
+        "eg": "What's the matter with you? 你怎么了？"
+      },
+      {
+        "word": "temperature",
+        "phon": "/ˈtemprətʃə/",
+        "pos": "n.",
+        "cn": "体温；温度",
+        "eg": "He has a high temperature. 他发烧了。"
+      },
+      {
+        "word": "stay",
+        "phon": "/steɪ/",
+        "pos": "v.",
+        "cn": "停留；待",
+        "eg": "You must stay in bed today. 你今天必须待在床上。"
+      },
+      {
+        "word": "rest",
+        "phon": "/rest/",
+        "pos": "n./v.",
+        "cn": "休息",
+        "eg": "You need a lot of rest. 你需要好好休息。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在进行时描述当下的状态或动作",
+        "explain": "现在进行时由 be + 动词-ing 构成，表示此刻正在发生的动作或当前的情形。",
+        "examples": [
+          "He is staying in bed now.（他现在正卧床休息。）",
+          "I am not feeling well today.（我今天感觉不太舒服。）"
+        ]
+      },
+      {
+        "point": "情态动词 must 表示必须",
+        "explain": "must 后接动词原形，表示“必须、一定要”，语气较强。否定 mustn't 表示“禁止、不许”。",
+        "examples": [
+          "You must see a doctor.（你必须去看医生。）",
+          "You mustn't get up now.（你现在不许起床。）"
+        ]
+      }
+    ],
+    "tips": "①问别人怎么了用 What's the matter (with you)?。②have a bad cold 表示得了重感冒，have a high temperature 表示发烧。③must 后跟动词原形，且各人称形式不变。④mustn't 表示“禁止”，不要与 needn't（不必）混淆。"
+  },
+  {
+    "book": 1,
+    "lesson": 63,
+    "title": "Thank you, doctor.",
+    "titleCn": "谢谢您，医生。",
+    "scene": "医生上门复诊，家人报告病人的情况比昨天好了一些，医生检查后给出建议，家属道谢送别。对话围绕病情好转，重点是形容词比较级和现在进行时。",
+    "grammarTags": [
+      "形容词比较级",
+      "现在进行时"
+    ],
+    "words": [
+      {
+        "word": "doctor",
+        "phon": "/ˈdɒktə/",
+        "pos": "n.",
+        "cn": "医生",
+        "eg": "The doctor is coming this afternoon. 医生今天下午会来。"
+      },
+      {
+        "word": "better",
+        "phon": "/ˈbetə/",
+        "pos": "adj.",
+        "cn": "更好的（good 的比较级）",
+        "eg": "He is much better today. 他今天好多了。"
+      },
+      {
+        "word": "well",
+        "phon": "/wel/",
+        "pos": "adj./adv.",
+        "cn": "健康的；好地",
+        "eg": "She is quite well now. 她现在完全好了。"
+      },
+      {
+        "word": "still",
+        "phon": "/stɪl/",
+        "pos": "adv.",
+        "cn": "仍然；还",
+        "eg": "He is still in bed. 他还躺在床上。"
+      },
+      {
+        "word": "medicine",
+        "phon": "/ˈmedsn/",
+        "pos": "n.",
+        "cn": "药",
+        "eg": "Take this medicine twice a day. 这药一天吃两次。"
+      },
+      {
+        "word": "soon",
+        "phon": "/suːn/",
+        "pos": "adv.",
+        "cn": "很快；不久",
+        "eg": "He will get well soon. 他很快就会好起来。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "形容词比较级（含不规则 good→better）",
+        "explain": "比较两者时用比较级，常在形容词后加 -er，多音节词用 more。good 和 well 的比较级都是不规则的 better，表示“更好、好一些”。",
+        "examples": [
+          "He feels better than yesterday.（他感觉比昨天好些了。）",
+          "This medicine is stronger than that one.（这种药比那种药更强效。）"
+        ]
+      },
+      {
+        "point": "现在进行时表示正在进行的动作",
+        "explain": "be + 动词-ing 表示说话时正在发生的动作。",
+        "examples": [
+          "The doctor is checking the patient.（医生正在检查病人。）",
+          "He is taking his medicine now.（他正在吃药。）"
+        ]
+      }
+    ],
+    "tips": "①better 是 good/well 的比较级，问病情常说 Is he better today?。②比较级句型常配 than：better than yesterday。③still 表示“仍然”，常放在实义动词前、be 动词后。④get well 意为“康复、好起来”。"
+  },
+  {
+    "book": 1,
+    "lesson": 65,
+    "title": "Not a baby",
+    "titleCn": "不是小孩子",
+    "scene": "一个孩子想晚点睡、想自己做主，家长强调该睡觉了必须听话；孩子据理力争说自己已经长大不是小宝宝了。对话围绕请求与命令，重点是情态动词 can 和 must。",
+    "grammarTags": [
+      "情态动词can",
+      "情态动词must"
+    ],
+    "words": [
+      {
+        "word": "baby",
+        "phon": "/ˈbeɪbi/",
+        "pos": "n.",
+        "cn": "婴儿；小孩子",
+        "eg": "I am not a baby now. 我现在不是小孩子了。"
+      },
+      {
+        "word": "late",
+        "phon": "/leɪt/",
+        "pos": "adj./adv.",
+        "cn": "晚的；迟",
+        "eg": "It is late. You must go to bed. 天晚了，你必须睡觉了。"
+      },
+      {
+        "word": "bed",
+        "phon": "/bed/",
+        "pos": "n.",
+        "cn": "床",
+        "eg": "You must go to bed now. 你现在必须上床睡觉。"
+      },
+      {
+        "word": "stay up",
+        "phon": "/steɪ ʌp/",
+        "pos": "phr.",
+        "cn": "熬夜；不睡觉",
+        "eg": "Can I stay up tonight? 我今晚可以晚点睡吗？"
+      },
+      {
+        "word": "grown-up",
+        "phon": "/ˈɡrəʊn ʌp/",
+        "pos": "adj./n.",
+        "cn": "成年的；大人",
+        "eg": "He talks like a grown-up. 他说话像个大人。"
+      },
+      {
+        "word": "must",
+        "phon": "/mʌst/",
+        "pos": "modal v.",
+        "cn": "必须",
+        "eg": "You must listen to me. 你必须听我的。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "情态动词 can 表示能力与许可",
+        "explain": "can 后接动词原形，可表示“能够”，也可用于请求或给予许可（Can I…? / You can…）。否定为 can't。",
+        "examples": [
+          "Can I stay up a little longer?（我可以再晚睡一会儿吗？）",
+          "You can read one more page.（你可以再读一页。）"
+        ]
+      },
+      {
+        "point": "情态动词 must 表示必须",
+        "explain": "must 后接动词原形，表示“必须、一定要”，各人称形式相同。否定 mustn't 表示“不许”。",
+        "examples": [
+          "You must go to bed now.（你现在必须上床睡觉。）",
+          "You mustn't stay up so late.（你不许熬这么晚。）"
+        ]
+      }
+    ],
+    "tips": "①Can I…? 是请求许可的常用句型，回答用 Yes, you can / No, you can't。②must 表示说话人认为“必须”，语气强。③stay up 意为“熬夜、不去睡”。④can 和 must 后面都直接跟动词原形，不加 to。"
+  },
+  {
+    "book": 1,
+    "lesson": 67,
+    "title": "The weekend",
+    "titleCn": "周末",
+    "scene": "两人聊起周末的安排，一方问对方这个周末打算做什么，另一方说家里要来客人正忙着准备。对话围绕近期计划，重点是用现在进行时表示已安排好的将来活动。",
+    "grammarTags": [
+      "现在进行时"
+    ],
+    "words": [
+      {
+        "word": "weekend",
+        "phon": "/ˌwiːkˈend/",
+        "pos": "n.",
+        "cn": "周末",
+        "eg": "What are you doing this weekend? 这个周末你打算做什么？"
+      },
+      {
+        "word": "expect",
+        "phon": "/ɪkˈspekt/",
+        "pos": "v.",
+        "cn": "预期；等待（客人）到来",
+        "eg": "We are expecting some friends tonight. 今晚我们在等几位朋友来。"
+      },
+      {
+        "word": "guest",
+        "phon": "/ɡest/",
+        "pos": "n.",
+        "cn": "客人",
+        "eg": "Our guests are coming on Saturday. 我们的客人星期六来。"
+      },
+      {
+        "word": "prepare",
+        "phon": "/prɪˈpeə/",
+        "pos": "v.",
+        "cn": "准备",
+        "eg": "She is preparing dinner now. 她正在准备晚饭。"
+      },
+      {
+        "word": "busy",
+        "phon": "/ˈbɪzi/",
+        "pos": "adj.",
+        "cn": "忙的",
+        "eg": "I am very busy this weekend. 这个周末我很忙。"
+      },
+      {
+        "word": "meal",
+        "phon": "/miːl/",
+        "pos": "n.",
+        "cn": "一餐；饭",
+        "eg": "We are cooking a big meal for them. 我们正在为他们做一顿丰盛的饭。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在进行时表示已安排好的将来计划",
+        "explain": "be + 动词-ing 除了表示正在发生的动作，也常和表将来的时间状语（如 this weekend、tonight）连用，表示已经安排好、即将进行的活动。",
+        "examples": [
+          "We are having guests this weekend.（这个周末我们家要来客人。）",
+          "She is leaving tomorrow morning.（她明天早上就要走了。）"
+        ]
+      }
+    ],
+    "tips": "①What are you doing this weekend? 问的是周末的安排，不是此刻的动作。②带 this weekend、tonight、tomorrow 等将来时间时，进行时表示计划中的将来。③expect a guest 意为“等候客人到来”。④be busy doing sth 表示“忙于做某事”。"
+  },
+  {
+    "book": 1,
+    "lesson": 69,
+    "title": "The car race",
+    "titleCn": "赛车",
+    "scene": "两人在看一场汽车比赛，讨论哪辆车最快、谁将会取胜，比较各辆赛车的快慢与好坏。对话围绕比较与预测，重点是形容词最高级、比较级以及表将来的表达。",
+    "grammarTags": [
+      "形容词最高级",
+      "形容词比较级",
+      "一般将来时"
+    ],
+    "words": [
+      {
+        "word": "race",
+        "phon": "/reɪs/",
+        "pos": "n.",
+        "cn": "比赛；赛跑",
+        "eg": "The car race is very exciting. 这场赛车非常激动人心。"
+      },
+      {
+        "word": "fast",
+        "phon": "/fɑːst/",
+        "pos": "adj./adv.",
+        "cn": "快的；快地",
+        "eg": "This car is very fast. 这辆车非常快。"
+      },
+      {
+        "word": "fastest",
+        "phon": "/ˈfɑːstɪst/",
+        "pos": "adj.",
+        "cn": "最快的（fast 的最高级）",
+        "eg": "It is the fastest car in the race. 它是这场比赛里最快的车。"
+      },
+      {
+        "word": "driver",
+        "phon": "/ˈdraɪvə/",
+        "pos": "n.",
+        "cn": "司机；驾驶员",
+        "eg": "The driver in the red car is very good. 红色车里的驾驶员很出色。"
+      },
+      {
+        "word": "win",
+        "phon": "/wɪn/",
+        "pos": "v.",
+        "cn": "赢；获胜",
+        "eg": "Which car will win the race? 哪辆车会赢得比赛？"
+      },
+      {
+        "word": "exciting",
+        "phon": "/ɪkˈsaɪtɪŋ/",
+        "pos": "adj.",
+        "cn": "激动人心的",
+        "eg": "It is a very exciting race. 这是一场非常激动人心的比赛。"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "形容词最高级",
+        "explain": "在三者或三者以上中表示“最……”用最高级，单音节形容词加 -est，前面常加 the，多音节词用 most。fast→fastest。",
+        "examples": [
+          "It is the fastest car in the world.（它是世界上最快的车。）",
+          "He is the best driver in the team.（他是队里最好的车手。）"
+        ]
+      },
+      {
+        "point": "形容词比较级",
+        "explain": "比较两者时用比较级，单音节词加 -er，常与 than 连用。fast→faster。",
+        "examples": [
+          "The red car is faster than the blue one.（红色的车比蓝色的快。）",
+          "This driver is better than that one.（这位车手比那位更棒。）"
+        ]
+      },
+      {
+        "point": "will 表示将来",
+        "explain": "will + 动词原形表示对将来的预测或判断，各人称相同。",
+        "examples": [
+          "Which car will win?（哪辆车会赢？）",
+          "I think the red car will be first.（我认为红色的车会得第一。）"
+        ]
+      }
+    ],
+    "tips": "①最高级前一般加 the，后接范围用 in/of：the fastest car in the world。②比较级配 than，最高级配范围短语，别混用。③fast 的比较级 faster、最高级 fastest；good 的是 better/best（不规则）。④预测将来用 will + 动词原形。"
+  }
+]

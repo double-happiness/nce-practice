@@ -1,0 +1,11 @@
+{
+  "current": "default",
+  "profiles": [
+    {
+      "id": "default",
+      "name": "默认档案",
+      "emoji": "👤",
+      "createdAt": 0
+    }
+  ]
+}

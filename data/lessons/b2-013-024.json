@@ -1,0 +1,508 @@
+[
+  {
+    "book": 2,
+    "lesson": 13,
+    "title": "The Greenwood Boys",
+    "titleCn": "格林伍德少年合唱团",
+    "scene": "一支走红的流行歌唱组合正在全国巡演，明天就要乘火车来到本地小镇。镇上的年轻歌迷早已按捺不住，打算涌到车站迎接偶像；乐队将在工人俱乐部连演数场，警察照例要为维持秩序忙上好几天。全文以“明天、未来五天”的日程展开，大量使用一般将来时和将来进行时（will do / will be doing）描述即将发生和按计划进行的事。",
+    "grammarTags": ["一般将来时", "将来进行时"],
+    "words": [
+      {"word": "group", "phon": "/ɡruːp/", "pos": "n.", "cn": "小组，团体；乐队组合", "eg": "A group of tourists is standing outside the museum. 一群游客正站在博物馆外面。"},
+      {"word": "pop singer", "phon": "/pɒp ˈsɪŋə/", "pos": "n.", "cn": "流行歌手", "eg": "My cousin wants to be a pop singer. 我表弟想当一名流行歌手。"},
+      {"word": "club", "phon": "/klʌb/", "pos": "n.", "cn": "俱乐部", "eg": "He joined a chess club last month. 他上个月加入了一个国际象棋俱乐部。"},
+      {"word": "performance", "phon": "/pəˈfɔːməns/", "pos": "n.", "cn": "演出，表演", "eg": "Her performance last night was wonderful. 她昨晚的演出非常精彩。"},
+      {"word": "occasion", "phon": "/əˈkeɪʒən/", "pos": "n.", "cn": "场合，时刻", "eg": "We only wear these clothes on special occasions. 我们只在特殊场合才穿这些衣服。"},
+      {"word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达，抵达", "eg": "The train will arrive at six in the evening. 火车将于傍晚六点到达。"},
+      {"word": "order", "phon": "/ˈɔːdə/", "pos": "n.", "cn": "秩序；顺序", "eg": "The teacher asked the class to keep order. 老师要求全班保持秩序。"}
+    ],
+    "grammar": [
+      {
+        "point": "一般将来时 will + 动词原形",
+        "explain": "表示将来要发生的动作或状态，构成为 will + 动词原形，各人称通用。常与 tomorrow、next week、soon 等将来时间状语连用；否定用 will not（won't）。",
+        "examples": [
+          "They will give a concert next Friday.（他们下周五将举行一场音乐会。）",
+          "I will not be free tomorrow evening.（我明天晚上没有空。）"
+        ]
+      },
+      {
+        "point": "将来进行时 will be doing",
+        "explain": "表示将来某一时刻正在进行的动作，或按计划、安排将要发生的事，语气比 will do 更自然客气。构成为 will be + 现在分词。",
+        "examples": [
+          "This time tomorrow we will be flying to Beijing.（明天这个时候我们将在飞往北京的途中。）",
+          "She will be waiting for you at the station.（她将会在车站等你。）"
+        ]
+      },
+      {
+        "point": "at present 与现在进行时",
+        "explain": "at present（目前）常与现在进行时连用，描述现阶段正在进行的活动，与文中巡演背景的交代方式一致。",
+        "examples": [
+          "At present, the band is travelling around the country.（目前这支乐队正在全国各地巡演。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：记住“明星来了”这条主线——明天到站、歌迷接站、连演五场，凡是排好日程的事都用 will be doing，一般性预告用 will do。②易错提醒：will 后面永远接动词原形，不要说 will arrives；will be doing 中 be 不能漏掉。③对比：一般将来时陈述“会发生什么”，将来进行时强调“到时候正在进行”，如 They will sing 与 They will be singing 的差别。"
+  },
+  {
+    "book": 2,
+    "lesson": 14,
+    "title": "Do you speak English?",
+    "titleCn": "你会讲英语吗？",
+    "scene": "作者去年在法国南部自驾旅行时遇到一件趣事：离开一个小村庄后，他让一位挥手拦车的年轻人搭了便车。作者不太会法语，用法语打过招呼后两人一路沉默。快到目的地时，年轻人忽然一字一顿地用英语问他会不会讲英语——原来对方是英国人。文中大量使用过去完成时（had done）交代“上车之前、开口之前”已经发生的动作，体现动作先后。",
+    "grammarTags": ["过去完成时"],
+    "words": [
+      {"word": "amusing", "phon": "/əˈmjuːzɪŋ/", "pos": "adj.", "cn": "好笑的，有趣的", "eg": "He told us an amusing story about his dog. 他给我们讲了一个关于他的狗的趣事。"},
+      {"word": "experience", "phon": "/ɪkˈspɪəriəns/", "pos": "n.", "cn": "经历；经验", "eg": "Working on the farm was a new experience for me. 在农场干活对我来说是一次新的经历。"},
+      {"word": "wave", "phon": "/weɪv/", "pos": "v.", "cn": "招手，挥手", "eg": "The children waved to us as the bus left. 汽车开走时，孩子们向我们挥手。"},
+      {"word": "lift", "phon": "/lɪft/", "pos": "n.", "cn": "搭便车", "eg": "Can you give me a lift to the airport? 你能让我搭车去机场吗？"},
+      {"word": "reply", "phon": "/rɪˈplaɪ/", "pos": "v.", "cn": "回答，答复", "eg": "She replied to my question with a smile. 她微笑着回答了我的问题。"},
+      {"word": "language", "phon": "/ˈlæŋɡwɪdʒ/", "pos": "n.", "cn": "语言", "eg": "How many languages can you speak? 你会说几种语言？"},
+      {"word": "journey", "phon": "/ˈdʒɜːni/", "pos": "n.", "cn": "旅行，旅程", "eg": "The journey to the mountain village took five hours. 去山村的旅程花了五个小时。"},
+      {"word": "apart from", "phon": "/əˈpɑːt frəm/", "pos": "phr.", "cn": "除……之外", "eg": "Apart from a little bread, we had nothing to eat. 除了一点面包，我们没有任何吃的。"}
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时 had + 过去分词",
+        "explain": "表示“过去的过去”，即在过去某一动作或时间之前已经完成的动作。常与 after、as soon as、before、by the time 等连用，明确两个过去动作的先后顺序。",
+        "examples": [
+          "After he had finished his work, he went home.（他做完工作之后就回家了。）",
+          "By the time we got there, the film had started.（我们到那儿时电影已经开始了。）"
+        ]
+      },
+      {
+        "point": "as soon as 引导时间状语从句",
+        "explain": "意为“一……就……”。叙述过去的事情时，先发生的动作可用过去完成时或一般过去时，后发生的用一般过去时。",
+        "examples": [
+          "As soon as she had read the letter, she began to cry.（她一读完信就哭了起来。）"
+        ]
+      },
+      {
+        "point": "neither of + 名词/代词",
+        "explain": "表示“两者都不”，作主语时谓语动词多用单数，也可用复数（口语）。注意与 none of（三者以上都不）区分。",
+        "examples": [
+          "Neither of them knows the answer.（他们俩谁也不知道答案。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：记“搭车的哑巴旅程”——先上车（had got in），后打招呼，先后关系一目了然，凡是强调“更早发生”的动作就用 had done。②易错提醒：过去完成时不能单独使用，必须有一个过去的参照点，否则用一般过去时即可。③对比：第 13 课讲将来（will do），本课转向“过去的过去”（had done），注意时间轴方向完全相反。"
+  },
+  {
+    "book": 2,
+    "lesson": 15,
+    "title": "Good news",
+    "titleCn": "佳音",
+    "scene": "公司业务不景气，已有二十人离职。秘书通知“我”老板要见面，“我”以为轮到自己被辞退，紧张地走进办公室。老板先大谈公司困难、付不起高薪，“我”正想开口辩解却被打断，没想到最后等来的竟是加薪的好消息。全文以转述为主：秘书说了什么、老板说了什么，全部用间接引语表达，动词时态相应后移（will→would，can→could）。",
+    "grammarTags": ["间接引语"],
+    "words": [
+      {"word": "secretary", "phon": "/ˈsekrətri/", "pos": "n.", "cn": "秘书", "eg": "The secretary asked me to wait outside. 秘书让我在外面等候。"},
+      {"word": "nervous", "phon": "/ˈnɜːvəs/", "pos": "adj.", "cn": "紧张的，不安的", "eg": "I always feel nervous before an exam. 考试前我总是感到紧张。"},
+      {"word": "afford", "phon": "/əˈfɔːd/", "pos": "v.", "cn": "负担得起，买得起", "eg": "We cannot afford such an expensive car. 我们买不起这么贵的车。"},
+      {"word": "weak", "phon": "/wiːk/", "pos": "adj.", "cn": "虚弱的，微弱的", "eg": "His voice was so weak that I could hardly hear him. 他的声音非常微弱，我几乎听不见。"},
+      {"word": "interrupt", "phon": "/ˌɪntəˈrʌpt/", "pos": "v.", "cn": "打断，插话", "eg": "Please do not interrupt me while I am speaking. 我讲话时请不要打断我。"},
+      {"word": "salary", "phon": "/ˈsæləri/", "pos": "n.", "cn": "薪水，工资", "eg": "He gets a good salary at the new company. 他在新公司薪水不错。"},
+      {"word": "firm", "phon": "/fɜːm/", "pos": "n.", "cn": "公司，商行", "eg": "My uncle works for a large firm in Shanghai. 我叔叔在上海一家大公司工作。"}
+    ],
+    "grammar": [
+      {
+        "point": "间接引语（陈述句）",
+        "explain": "转述别人的话时用 say (that) / tell sb (that) 引出从句。主句为过去时，从句时态相应后移：一般现在→一般过去，will→would，can→could；人称和时间状语也要相应变化。",
+        "examples": [
+          "He said that he was very busy.（他说他很忙。）",
+          "She told me that she would call me later.（她告诉我她稍后会给我打电话。）"
+        ]
+      },
+      {
+        "point": "间接引语中的过去完成时",
+        "explain": "直接引语里的一般过去时或现在完成时，转述时变为过去完成时 had done，表示转述之前已发生的事。",
+        "examples": [
+          "He said that many workers had already left the firm.（他说已经有许多工人离开了公司。）"
+        ]
+      },
+      {
+        "point": "afford 的用法",
+        "explain": "afford 意为“负担得起”，常与 can / could 连用，后接名词或 to do 不定式，多用于否定句和疑问句。",
+        "examples": [
+          "They could not afford to buy a new house.（他们买不起新房子。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：记“虚惊一场的加薪”——以为被裁员，结果是佳音；转述老板的每句话都要“时态退一步”。②易错提醒：say 后不接人，要说 say to sb 或改用 tell sb；tell 后必须带人。③方法：转述三变——时态后移、人称转换、时间地点词变化（now→then，here→there），做题时逐项检查。"
+  },
+  {
+    "book": 2,
+    "lesson": 16,
+    "title": "A polite request",
+    "titleCn": "彬彬有礼的要求",
+    "scene": "乱停车通常逃不过交通警察的眼睛，弄不好就要吃罚单。可作者在瑞典度假时却遇到了少见的温和执法：他把车停错了地方，回来时发现车上只留了一张措辞客气的字条，欢迎他来到该市，提醒他注意街道标志，并说明这张字条只是善意的提示。面对如此礼貌的要求，谁能不遵守呢？全文围绕真实条件句展开：如果你乱停车、如果你留意标志，就会有相应的结果。",
+    "grammarTags": ["条件句"],
+    "words": [
+      {"word": "park", "phon": "/pɑːk/", "pos": "v.", "cn": "停放（汽车）", "eg": "You must not park your car in front of the gate. 你不可以把车停在大门前。"},
+      {"word": "traffic", "phon": "/ˈtræfɪk/", "pos": "n.", "cn": "交通，来往车辆", "eg": "The traffic is very heavy during rush hours. 高峰时段交通非常拥挤。"},
+      {"word": "ticket", "phon": "/ˈtɪkɪt/", "pos": "n.", "cn": "罚款单；票", "eg": "He got a ticket for driving too fast. 他因开车超速吃了一张罚单。"},
+      {"word": "note", "phon": "/nəʊt/", "pos": "n.", "cn": "便条，短笺", "eg": "She left a note on the table before leaving. 她离开前在桌上留了一张便条。"},
+      {"word": "area", "phon": "/ˈeəriə/", "pos": "n.", "cn": "地区，区域", "eg": "This area is famous for its beautiful lakes. 这个地区以美丽的湖泊闻名。"},
+      {"word": "sign", "phon": "/saɪn/", "pos": "n.", "cn": "标志，指示牌", "eg": "The sign says that the road is closed. 指示牌上写着这条路封闭了。"},
+      {"word": "reminder", "phon": "/rɪˈmaɪndə/", "pos": "n.", "cn": "提示，提醒物", "eg": "I wrote myself a reminder to buy milk. 我给自己写了个买牛奶的提醒。"},
+      {"word": "fail", "phon": "/feɪl/", "pos": "v.", "cn": "不能，未能；失败", "eg": "He failed to catch the early bus this morning. 他今天早上没能赶上早班车。"},
+      {"word": "obey", "phon": "/əˈbeɪ/", "pos": "v.", "cn": "服从，遵守", "eg": "Drivers must obey the traffic rules. 司机必须遵守交通规则。"}
+    ],
+    "grammar": [
+      {
+        "point": "真实条件句（第一类条件句）",
+        "explain": "表示将来很可能实现的假设：if 从句用一般现在时，主句用 will/can/must + 动词原形，即“主将从现”。if 从句可放在句首或句末。",
+        "examples": [
+          "If it rains tomorrow, we will stay at home.（如果明天下雨，我们就待在家里。）",
+          "You will catch the train if you leave now.（如果你现在出发，就能赶上火车。）"
+        ]
+      },
+      {
+        "point": "fail to do 与 cannot fail to do",
+        "explain": "fail to do 表示“未能做某事”；cannot fail to do 是双重否定，意为“必定会、不可能不”，语气强烈。",
+        "examples": [
+          "She failed to pass the driving test.（她没有通过驾照考试。）",
+          "You cannot fail to notice the big red sign.（你不可能注意不到那个红色大标志。）"
+        ]
+      }
+    ],
+    "tips": "①口诀记忆：条件句“主将从现”——if 后面用现在时，主句才出现 will，切勿写成 if it will rain。②场景联想：把“礼貌罚单”当作条件句清单：乱停车→警察会找上门；遵守标志→旅途愉快。③易错提醒：unless 相当于 if...not，二者不要叠用；cannot fail to obey 是“不得不遵守”，别误解为“没能遵守”。"
+  },
+  {
+    "book": 2,
+    "lesson": 17,
+    "title": "Always young",
+    "titleCn": "青春常驻",
+    "scene": "作者的姑妈是位演员，实际年龄肯定不小了，可她在舞台上总是扮演十七岁的少女角色。这次她又要登台演出，还得穿上少女式的鲜艳服装和长筒袜。作者受邀去看戏，却被姑妈再三叮嘱：绝不能把她的真实年龄告诉别人。文中的 must 用法丰富：must be 表示有把握的推测（她肯定三十五岁以上了），mustn't 表示禁止（一定不能说出去），是本课的语法核心。",
+    "grammarTags": ["情态动词must"],
+    "words": [
+      {"word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "The young actress became famous overnight. 这位年轻女演员一夜成名。"},
+      {"word": "appear", "phon": "/əˈpɪə/", "pos": "v.", "cn": "登场，出现", "eg": "The singer will appear on television tonight. 这位歌手今晚将在电视上亮相。"},
+      {"word": "stage", "phon": "/steɪdʒ/", "pos": "n.", "cn": "舞台", "eg": "She walked onto the stage and began to sing. 她走上舞台，开始唱歌。"},
+      {"word": "bright", "phon": "/braɪt/", "pos": "adj.", "cn": "鲜艳的；明亮的", "eg": "She likes wearing bright colours in summer. 她夏天喜欢穿颜色鲜艳的衣服。"},
+      {"word": "stocking", "phon": "/ˈstɒkɪŋ/", "pos": "n.", "cn": "长筒袜", "eg": "She bought a pair of silk stockings. 她买了一双丝质长筒袜。"},
+      {"word": "sock", "phon": "/sɒk/", "pos": "n.", "cn": "短袜", "eg": "There is a hole in my left sock. 我的左脚袜子上有个洞。"},
+      {"word": "grown-up", "phon": "/ˈɡrəʊnʌp/", "pos": "n.", "cn": "成年人", "eg": "The little girl likes talking with grown-ups. 这个小女孩喜欢和大人聊天。"}
+    ],
+    "grammar": [
+      {
+        "point": "must 表推测与义务",
+        "explain": "must 有两大用法：一是表示有把握的肯定推测，“一定是”，如 must be；二是表示必须、义务。否定式 mustn't 表示禁止，“一定不要、不许”，而不是“不必”（不必是 needn't）。",
+        "examples": [
+          "She must be over forty, though she looks young.（她虽然看上去年轻，但肯定已年过四十。）",
+          "You mustn't tell anyone about this secret.（你绝不能把这个秘密告诉任何人。）"
+        ]
+      },
+      {
+        "point": "in spite of + 名词",
+        "explain": "意为“尽管、不顾”，后接名词、代词或动名词，不能直接接从句；接从句要用 though / although。",
+        "examples": [
+          "In spite of her age, she still dances every day.（尽管上了年纪，她仍然每天跳舞。）"
+        ]
+      },
+      {
+        "point": "will have to do",
+        "explain": "have to 表示客观上的“不得不”，它有时态变化；将来的“不得不”用 will have to，must 没有将来式，此时必须借用 have to。",
+        "examples": [
+          "One day she will have to tell us the truth.（总有一天她将不得不告诉我们真相。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：舞台上的“少女”姑妈——观众心里想 She must be old（推测），姑妈嘴上说 You mustn't tell（禁止），一课记住 must 的两副面孔。②易错提醒：mustn't 是“不许”，needn't 才是“不必”，考试常挖这个坑。③对比：must 只有现在式，谈过去用 had to，谈将来用 will have to，别写 will must。"
+  },
+  {
+    "book": 2,
+    "lesson": 18,
+    "title": "He often does this!",
+    "titleCn": "他经常干这种事！",
+    "scene": "作者在乡村小酒店用过午餐后，发现原本放在门边椅子上的提包不翼而飞。正当他四处寻找、担心付不了账时，店主走了进来，问他饭菜是否可口，随即笑着出门，不一会儿就把提包完好地送了回来——原来是店里的狗把包叼进了花园，而且“它经常干这种事”。本课语法重点是动名词：动词后、介词后接 -ing 形式表示动作，如感谢某人做了某事、找不到包时不停地找等。",
+    "grammarTags": ["动名词", "过去完成时"],
+    "words": [
+      {"word": "pub", "phon": "/pʌb/", "pos": "n.", "cn": "小酒店，酒馆", "eg": "We had supper at a small pub near the river. 我们在河边一家小酒馆吃了晚饭。"},
+      {"word": "landlord", "phon": "/ˈlændlɔːd/", "pos": "n.", "cn": "店主；房东", "eg": "The landlord greeted every guest warmly. 店主热情地招呼每一位客人。"},
+      {"word": "bill", "phon": "/bɪl/", "pos": "n.", "cn": "账单", "eg": "Could you bring me the bill, please? 请把账单拿给我好吗？"},
+      {"word": "meal", "phon": "/miːl/", "pos": "n.", "cn": "一餐，一顿饭", "eg": "We enjoyed a delicious meal together. 我们一起享用了一顿美餐。"},
+      {"word": "immediately", "phon": "/ɪˈmiːdiətli/", "pos": "adv.", "cn": "立刻，马上", "eg": "She answered the phone immediately. 她立刻接了电话。"},
+      {"word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "返回；归还", "eg": "Please return the books to the library on time. 请按时把书还给图书馆。"},
+      {"word": "beside", "phon": "/bɪˈsaɪd/", "pos": "prep.", "cn": "在……旁边", "eg": "He put his umbrella beside the door. 他把伞放在门边。"}
+    ],
+    "grammar": [
+      {
+        "point": "动名词作宾语",
+        "explain": "动词 -ing 形式可作名词使用，称动名词。enjoy、finish、mind、keep、practise 等动词后要接动名词作宾语，不接不定式。",
+        "examples": [
+          "I enjoy walking in the countryside.（我喜欢在乡间散步。）",
+          "He kept looking for his keys everywhere.（他不停地到处找钥匙。）"
+        ]
+      },
+      {
+        "point": "介词 + 动名词",
+        "explain": "介词后接动词时必须用动名词形式，常见搭配如 thank sb for doing、be good at doing、without doing 等。",
+        "examples": [
+          "Thank you for helping me with my luggage.（谢谢你帮我拿行李。）",
+          "She left the room without saying a word.（她一句话没说就离开了房间。）"
+        ]
+      },
+      {
+        "point": "过去完成时表更早的动作",
+        "explain": "叙述过去的事情时，比“过去”更早发生的动作用 had + 过去分词，如吃完饭之后才发现包不见了。",
+        "examples": [
+          "When I got back, I found that someone had moved my bag.（我回来时发现有人动过我的包。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：狗叼包的乌龙——“吃完饭（had had）才找包，边找（looking for）边着急”，一句话串起过去完成时和动名词。②易错提醒：enjoy、finish、mind 后只能接 doing；介词 for、without、at 后的动词也一律加 -ing。③对比：与第 14 课呼应，先发生的动作用 had done；本课新增“-ing 当名词用”这条主线，注意区分现在分词（正在做）与动名词（这件事本身）。"
+  },
+  {
+    "book": 2,
+    "lesson": 19,
+    "title": "Sold out",
+    "titleCn": "票已售完",
+    "scene": "“我”和同伴赶到剧院时开演在即，匆忙跑到售票处买票，却被告知票已售完，两人失望不已。恰在此时，一位男士赶来退掉两张票，“我”喜出望外立刻买下，不料售票员说明这是下周三演出的票——“我”只好无奈地表示：那也不妨买下吧。全文对话中集中出现 may、might、can、could 等情态动词，用于表达可能性、请求许可和委婉建议，是本课的语法主线。",
+    "grammarTags": ["情态动词", "疑问句"],
+    "words": [
+      {"word": "hurry", "phon": "/ˈhʌri/", "pos": "v.", "cn": "匆忙，赶紧", "eg": "You must hurry, or you will miss the plane. 你得赶紧，不然会误了飞机。"},
+      {"word": "ticket office", "phon": "/ˈtɪkɪt ˈɒfɪs/", "pos": "n.", "cn": "售票处", "eg": "There was a long queue at the ticket office. 售票处排起了长队。"},
+      {"word": "pity", "phon": "/ˈpɪti/", "pos": "n.", "cn": "遗憾，可惜的事", "eg": "It is a pity that you cannot come to the party. 你不能来参加聚会真是遗憾。"},
+      {"word": "exclaim", "phon": "/ɪkˈskleɪm/", "pos": "v.", "cn": "大声说，惊叫", "eg": "How beautiful it is! she exclaimed. 她大声说道：多美啊！"},
+      {"word": "sadly", "phon": "/ˈsædli/", "pos": "adv.", "cn": "难过地，悲伤地", "eg": "He shook his head sadly and walked away. 他难过地摇了摇头走开了。"},
+      {"word": "certainly", "phon": "/ˈsɜːtnli/", "pos": "adv.", "cn": "当然，没问题", "eg": "Certainly, you can borrow my bike. 当然可以，你可以借我的自行车。"},
+      {"word": "play", "phon": "/pleɪ/", "pos": "n.", "cn": "戏剧，话剧", "eg": "We saw an interesting play at the theatre. 我们在剧院看了一出有趣的话剧。"}
+    ],
+    "grammar": [
+      {
+        "point": "情态动词 may / might / can / could",
+        "explain": "may、might 表示可能性（might 语气更不确定）或请求许可；can 表示能力和许可，could 是更客气的请求。情态动词后一律接动词原形。",
+        "examples": [
+          "The meeting may start at any moment.（会议随时可能开始。）",
+          "Could I borrow your pen for a minute?（我能借用一下你的钢笔吗？）"
+        ]
+      },
+      {
+        "point": "may have done 表对过去的推测",
+        "explain": "情态动词 + have + 过去分词，表示对已发生事情的推测：may/might have done 意为“可能已经……”。",
+        "examples": [
+          "The film may have begun already, so let us hurry.（电影可能已经开演了，我们快点吧。）"
+        ]
+      },
+      {
+        "point": "might as well do",
+        "explain": "意为“不妨、还是……为好”，表示没有更好选择时的让步或勉强接受，后接动词原形。",
+        "examples": [
+          "Since the last bus has gone, we might as well walk home.（既然末班车已经开走了，我们不妨走回家。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：售票处三连问——May I have...?（买票）、Can I return...?（退票）、Could I have...?（再买），一次经历记全礼貌请求句式。②易错提醒：情态动词后接动词原形，may 的过去推测要说 may have done，不是 may did。③对比：第 17 课 must 是“很有把握”，本课 may/might 是“不太确定”，推测的把握程度由强到弱：must＞may＞might。"
+  },
+  {
+    "book": 2,
+    "lesson": 20,
+    "title": "One man in a boat",
+    "titleCn": "独坐孤舟",
+    "scene": "钓鱼是作者最喜爱的运动，可他的“战绩”却惨不忍睹：常常一坐一整天，连一条小鱼也钓不到，渔友劝他干脆放弃，他却依然乐此不疲。原来他真正感兴趣的并不是钓鱼本身，而是独自坐在船上无所事事地消磨时光。全文是动名词的集中示范：钓鱼这项运动（fishing）、对做某事感兴趣（interested in sitting）、不做任何事（doing nothing），处处体现 -ing 形式作主语和介词宾语的用法。",
+    "grammarTags": ["动名词"],
+    "words": [
+      {"word": "catch", "phon": "/kætʃ/", "pos": "v.", "cn": "抓到，钓到", "eg": "The old man caught a big fish this morning. 老人今天早上钓到了一条大鱼。"},
+      {"word": "fisherman", "phon": "/ˈfɪʃəmən/", "pos": "n.", "cn": "钓鱼人，渔民", "eg": "The fishermen go out to sea before dawn. 渔民们天不亮就出海。"},
+      {"word": "boot", "phon": "/buːt/", "pos": "n.", "cn": "靴子", "eg": "He put on his boots and went out into the snow. 他穿上靴子走进雪地。"},
+      {"word": "waste", "phon": "/weɪst/", "pos": "n.", "cn": "浪费", "eg": "Watching TV all day is a waste of time. 整天看电视是浪费时间。"},
+      {"word": "realize", "phon": "/ˈrɪəlaɪz/", "pos": "v.", "cn": "意识到，认识到", "eg": "She soon realized that she had taken the wrong bus. 她很快意识到自己坐错了公共汽车。"},
+      {"word": "interested", "phon": "/ˈɪntrəstɪd/", "pos": "adj.", "cn": "感兴趣的", "eg": "My brother is interested in collecting stamps. 我弟弟对集邮感兴趣。"},
+      {"word": "give up", "phon": "/ɡɪv ʌp/", "pos": "phr.", "cn": "放弃", "eg": "He decided to give up smoking last year. 他去年决定戒烟。"}
+    ],
+    "grammar": [
+      {
+        "point": "动名词作介词宾语",
+        "explain": "be interested in doing、instead of doing、good at doing 等结构中，介词后的动词必须用 -ing 形式，表示某种行为或活动。",
+        "examples": [
+          "He is only interested in playing computer games.（他只对玩电脑游戏感兴趣。）",
+          "Instead of taking a taxi, we walked to the hotel.（我们没有打车，而是步行去了旅馆。）"
+        ]
+      },
+      {
+        "point": "动名词作主语",
+        "explain": "动名词可以像名词一样作句子主语，表示一件事、一种活动，谓语动词用单数。",
+        "examples": [
+          "Swimming is my favourite sport in summer.（游泳是我夏天最喜欢的运动。）",
+          "Reading in bed is bad for your eyes.（躺在床上看书对眼睛不好。）"
+        ]
+      },
+      {
+        "point": "spend / waste + 时间 + (in) doing",
+        "explain": "表示“花费/浪费时间做某事”，doing 前的 in 常省略；waste of time doing 结构中同样接动名词。",
+        "examples": [
+          "He spends hours sitting by the river every weekend.（他每个周末都要在河边坐上好几个小时。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：一人一船一整天——“钓鱼（fishing）没兴趣，坐着（sitting）发呆才是真爱”，用画面记住动名词作主语和介词宾语。②易错提醒：介词 in、of、at 后动词必须加 -ing，不要写成 interested in sit。③对比：本课与第 18 课都考动名词，第 18 课重在动词后接 doing（enjoy doing），本课重在介词后和作主语，两课合起来就是动名词三大用法。"
+  },
+  {
+    "book": 2,
+    "lesson": 21,
+    "title": "Mad or not?",
+    "titleCn": "是不是疯了？",
+    "scene": "作者的家紧挨着机场，飞机成天从屋顶上呼啸而过，噪音扰人。机场是几年前建成的，当时附近居民纷纷把房子卖掉搬走，只有作者不肯离开，别人都说住在这里简直是发疯。作者却下定决心留下：也许有一天他真的会被飞机噪音逼疯。本课语法核心是被动语态：机场“被建成”、房子“被卖掉”、人“将被逼疯”，动作承受者作主语，be + 过去分词贯穿全文。",
+    "grammarTags": ["被动语态"],
+    "words": [
+      {"word": "mad", "phon": "/mæd/", "pos": "adj.", "cn": "发疯的，疯狂的", "eg": "The loud music nearly drove me mad. 嘈杂的音乐差点把我逼疯。"},
+      {"word": "reason", "phon": "/ˈriːzən/", "pos": "n.", "cn": "原因，理由", "eg": "What is the reason for your being late? 你迟到的原因是什么？"},
+      {"word": "sum", "phon": "/sʌm/", "pos": "n.", "cn": "金额，一笔钱", "eg": "He paid a large sum of money for that painting. 他花了一大笔钱买那幅画。"},
+      {"word": "determined", "phon": "/dɪˈtɜːmɪnd/", "pos": "adj.", "cn": "下定决心的，坚决的", "eg": "She is determined to finish the race. 她下定决心跑完比赛。"},
+      {"word": "aeroplane", "phon": "/ˈeərəpleɪn/", "pos": "n.", "cn": "飞机", "eg": "An aeroplane flew low over the village. 一架飞机低低地从村庄上空飞过。"},
+      {"word": "noise", "phon": "/nɔɪz/", "pos": "n.", "cn": "噪音，喧闹声", "eg": "The noise from the street kept me awake all night. 街上的噪音吵得我整夜没睡。"},
+      {"word": "drive", "phon": "/draɪv/", "pos": "v.", "cn": "迫使，逼得（某人发疯）", "eg": "The endless housework is driving her mad. 干不完的家务活快把她逼疯了。"}
+    ],
+    "grammar": [
+      {
+        "point": "被动语态 be + 过去分词",
+        "explain": "当动作的承受者作主语时用被动语态，构成为 be + 过去分词，be 随时态变化：一般现在时 is/are done，一般过去时 was/were done，一般将来时 will be done，现在完成时 have/has been done。",
+        "examples": [
+          "The bridge was built ten years ago.（这座桥是十年前建的。）",
+          "A new hospital will be built in this area.（这个地区将建一所新医院。）"
+        ]
+      },
+      {
+        "point": "be determined to do",
+        "explain": "意为“下定决心做某事”，语气坚定，后接不定式；同义表达还有 make up one's mind to do。",
+        "examples": [
+          "He is determined to stay here whatever happens.（无论发生什么，他都决心留在这里。）"
+        ]
+      },
+      {
+        "point": "It is + 名词/形容词 + to do",
+        "explain": "it 作形式主语，真正的主语是后面的不定式短语，用来评价某种行为。",
+        "examples": [
+          "It is madness to swim in such cold water.（在这么冷的水里游泳简直是发疯。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：机场旁的“钉子户”——机场被建成（was built）、房子被卖掉（have been sold）、人将被逼疯（will be driven mad），三个被动串起全文时间线。②易错提醒：被动语态中过去分词不能换成动词原形，不规则动词如 build-built、sell-sold、drive-driven 要牢记。③方法：判断主动还是被动，问一句“主语是做动作的还是挨动作的”，挨动作就用 be done。"
+  },
+  {
+    "book": 2,
+    "lesson": 22,
+    "title": "A glass envelope",
+    "titleCn": "玻璃信封",
+    "scene": "女儿简做梦也没想到会收到一位荷兰同龄女孩的来信。去年乘船过海峡时，她把写有自己姓名和住址的纸条塞进瓶子扔进大海，之后便把这事忘得一干二净；十个月后，回信竟真的漂洋过海而来。如今两个女孩已经通信成为朋友，还决定改用邮局寄信——贵一点，但快多了。文中的现在完成时用来表达“已经决定、从未想到”等对现在仍有影响的动作，与叙述往事的一般过去时形成对照。",
+    "grammarTags": ["现在完成时", "一般过去时"],
+    "words": [
+      {"word": "dream", "phon": "/driːm/", "pos": "v.", "cn": "做梦；梦想（of）", "eg": "She has always dreamed of visiting Paris. 她一直梦想去巴黎游览。"},
+      {"word": "age", "phon": "/eɪdʒ/", "pos": "n.", "cn": "年龄", "eg": "The two boys are of the same age. 这两个男孩同龄。"},
+      {"word": "channel", "phon": "/ˈtʃænl/", "pos": "n.", "cn": "海峡；水道", "eg": "The ship crossed the channel in thick fog. 船在浓雾中穿过了海峡。"},
+      {"word": "throw", "phon": "/θrəʊ/", "pos": "v.", "cn": "扔，抛", "eg": "Do not throw rubbish into the river. 不要往河里扔垃圾。"},
+      {"word": "receive", "phon": "/rɪˈsiːv/", "pos": "v.", "cn": "收到，接到", "eg": "I received a postcard from my pen friend yesterday. 我昨天收到了笔友寄来的明信片。"},
+      {"word": "regularly", "phon": "/ˈreɡjələli/", "pos": "adv.", "cn": "定期地，经常地", "eg": "They write to each other regularly. 他们定期互相通信。"},
+      {"word": "cost", "phon": "/kɒst/", "pos": "v.", "cn": "花费，价钱为", "eg": "Sending the parcel by air will cost more. 空运这个包裹要多花些钱。"}
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时 have/has + 过去分词",
+        "explain": "表示过去发生的动作对现在造成影响或结果，或从过去持续到现在的状态。常与 already、just、never、ever、so far 等连用，不与明确的过去时间状语连用。",
+        "examples": [
+          "They have decided to move to the city.（他们已经决定搬到城里去。）",
+          "I have never seen such a beautiful sunset.（我从未见过这么美的日落。）"
+        ]
+      },
+      {
+        "point": "现在完成时与一般过去时的区别",
+        "explain": "一般过去时只陈述过去的事实，常带 last year、yesterday 等过去时间；现在完成时强调对现在的影响，不能与具体过去时间连用。",
+        "examples": [
+          "She wrote the letter last week.（她上周写了那封信。）",
+          "She has written three letters this month.（这个月她已经写了三封信。）"
+        ]
+      },
+      {
+        "point": "dream of / think of + 动名词",
+        "explain": "dream of doing 意为“梦想做某事”，think of doing 意为“想到做某事”，of 是介词，后面必须接 -ing 形式。",
+        "examples": [
+          "He never dreamed of becoming a famous writer.（他从未梦想过成为著名作家。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：漂流瓶的奇遇——扔瓶子、收回信是过去的故事（一般过去时），“已经决定用邮局”是现在的状态（现在完成时），一瓶两时态。②易错提醒：have done 不能和 yesterday、last year 这类具体过去时间连用，见到它们就改用过去时。③对比：第 21 课的 have been sold 是完成时的被动式，本课是完成时的主动式，构成都离不开过去分词。"
+  },
+  {
+    "book": 2,
+    "lesson": 23,
+    "title": "A new house",
+    "titleCn": "新居",
+    "scene": "“我”昨天收到了远在国外的姐姐的来信，她说明年要回国探亲。她若回来定会大吃一惊：因为我们全家如今已搬进乡下一栋漂亮的新居。这房子在姐姐离开之前就已动工，五个月前刚刚落成。信中还提到姐姐一直想看看这栋房子的模样。全文以一般过去时为主线叙述收信、动工、竣工等往事，其间穿插过去完成时（动工在离开之前）和过去时的被动式（房子被建成），层次分明。",
+    "grammarTags": ["一般过去时", "被动语态"],
+    "words": [
+      {"word": "complete", "phon": "/kəmˈpliːt/", "pos": "v.", "cn": "完成，建成", "eg": "The new railway was completed last spring. 新铁路于去年春天建成。"},
+      {"word": "modern", "phon": "/ˈmɒdən/", "pos": "adj.", "cn": "现代的，新式的", "eg": "They live in a modern flat in the city centre. 他们住在市中心一套现代化的公寓里。"},
+      {"word": "strange", "phon": "/streɪndʒ/", "pos": "adj.", "cn": "奇怪的，陌生的", "eg": "I heard a strange sound in the garden last night. 昨晚我听到花园里有奇怪的声音。"},
+      {"word": "surprise", "phon": "/səˈpraɪz/", "pos": "n.", "cn": "惊奇，意外之事", "eg": "The gift was a big surprise to her. 这份礼物让她大感意外。"},
+      {"word": "country", "phon": "/ˈkʌntri/", "pos": "n.", "cn": "乡下，农村；国家", "eg": "My grandparents live in the country. 我的祖父母住在乡下。"},
+      {"word": "pleased", "phon": "/pliːzd/", "pos": "adj.", "cn": "高兴的，满意的", "eg": "We were very pleased with the new classroom. 我们对新教室非常满意。"},
+      {"word": "own", "phon": "/əʊn/", "pos": "adj.", "cn": "自己的", "eg": "The boy wants a room of his own. 这个男孩想要一间自己的房间。"}
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "表示过去发生的动作或存在的状态，常与 yesterday、last year、five months ago 等过去时间状语连用。规则动词加 -ed，不规则动词需逐个记忆，如 have-had、say-said。",
+        "examples": [
+          "I visited my uncle in the country last Sunday.（上周日我去乡下看望了叔叔。）",
+          "She said she was very happy there.（她说她在那里很开心。）"
+        ]
+      },
+      {
+        "point": "过去完成时与一般过去时配合",
+        "explain": "叙述过去的事情时，发生在“过去的过去”的动作用 had done，常与 before 连用，交代先后顺序。",
+        "examples": [
+          "The work had begun before we moved in.（在我们搬进来之前，工程就已动工了。）"
+        ]
+      },
+      {
+        "point": "一般过去时的被动语态",
+        "explain": "构成为 was/were + 过去分词，表示过去某事“被完成”，动作执行者可用 by 引出或省略。",
+        "examples": [
+          "The school was built in only eight months.（这所学校仅用八个月就建成了。）"
+        ]
+      }
+    ],
+    "tips": "①时间轴记忆：姐姐离开（更早，had begun 之后的参照）→ 房子动工（had begun）→ 五个月前竣工（was completed）→ 昨天收信（got/had a letter），按顺序排一遍，时态自然清晰。②易错提醒：ago 只能与一般过去时连用，不能说 have completed five months ago。③对比：本课综合了第 14 课的过去完成时和第 21 课的被动语态，是前面语法的小汇总，复习时可三课连看。"
+  },
+  {
+    "book": 2,
+    "lesson": 24,
+    "title": "It could be worse",
+    "titleCn": "还算幸运",
+    "scene": "“我”发现放在旅馆房间里的五十英镑不见了，心情沮丧地走进经理办公室报告。经理深表同情却也无能为力，感叹如今丢钱的人太多、世风日下。他正抱怨着，敲门声响起：一位姑娘走进来，把一个信封放在桌上——里面正是那五十英镑，是她在“我”的房门外捡到的。看来这世上还是有诚实的人。本课延续间接引语的训练：“我”对经理说了什么、经理说了什么，转述时时态后移、人称转换。",
+    "grammarTags": ["间接引语", "过去完成时"],
+    "words": [
+      {"word": "manager", "phon": "/ˈmænɪdʒə/", "pos": "n.", "cn": "经理", "eg": "The manager of the hotel is a kind old man. 这家旅馆的经理是位和蔼的老人。"},
+      {"word": "upset", "phon": "/ʌpˈset/", "pos": "adj.", "cn": "心烦的，苦恼的", "eg": "She was very upset about losing her ring. 丢了戒指让她非常苦恼。"},
+      {"word": "sympathetic", "phon": "/ˌsɪmpəˈθetɪk/", "pos": "adj.", "cn": "表示同情的", "eg": "The doctor gave me a sympathetic smile. 医生向我投来同情的微笑。"},
+      {"word": "complain", "phon": "/kəmˈpleɪn/", "pos": "v.", "cn": "抱怨，诉苦", "eg": "He is always complaining about the weather. 他总是抱怨天气。"},
+      {"word": "wicked", "phon": "/ˈwɪkɪd/", "pos": "adj.", "cn": "很坏的，邪恶的", "eg": "The wicked man was punished in the end. 那个恶人最终受到了惩罚。"},
+      {"word": "contain", "phon": "/kənˈteɪn/", "pos": "v.", "cn": "包含，内装", "eg": "The box contains some old photos. 盒子里装着一些旧照片。"},
+      {"word": "honesty", "phon": "/ˈɒnəsti/", "pos": "n.", "cn": "诚实，正直", "eg": "Honesty is the best policy. 诚实是上策。"},
+      {"word": "knock", "phon": "/nɒk/", "pos": "n.", "cn": "敲门声；敲", "eg": "There was a loud knock at the door. 传来一阵响亮的敲门声。"}
+    ],
+    "grammar": [
+      {
+        "point": "间接引语的时态与人称变化",
+        "explain": "转述过去说的话：一般现在时变一般过去时，一般过去时和现在完成时变过去完成时；第一人称按转述者身份调整。said 后接从句，told 后先接人再接从句。",
+        "examples": [
+          "He said that he had left his wallet in the room.（他说他把钱包忘在房间里了。）",
+          "She told the manager that the money was missing.（她告诉经理钱不见了。）"
+        ]
+      },
+      {
+        "point": "过去完成时表“丢失在先”",
+        "explain": "报告丢钱时，丢钱这一动作发生在报告之前，因此用 had lost、had left 表示更早发生的动作。",
+        "examples": [
+          "I suddenly realized that I had lost my keys.（我突然意识到钥匙丢了。）"
+        ]
+      },
+      {
+        "point": "be interrupted by 被动结构",
+        "explain": "interrupt 意为“打断”，其被动式 be interrupted by 表示“被……打断”，是被动语态在具体动词上的运用。",
+        "examples": [
+          "His speech was interrupted by a sudden noise.（他的讲话被一阵突然的响声打断了。）"
+        ]
+      }
+    ],
+    "tips": "①场景联想：丢钱—诉苦—失而复得，三步剧情里所有对话都可以练转述：先把每句直接引语写下来，再按“时态退一步、人称换角度”改成间接引语。②易错提醒：said 不能直接跟人，要用 said to me 或 told me；间接引语中 this→that、here→there 也要跟着变。③对比：与第 15 课同考间接引语，第 15 课是好消息，本课是失而复得，两课对照复习转述规则记得更牢。"
+  }
+]

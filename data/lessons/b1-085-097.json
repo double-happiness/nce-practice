@@ -1,0 +1,247 @@
+[
+  {
+    "book": 1,
+    "lesson": 85,
+    "title": "Paris in the spring",
+    "titleCn": "巴黎之春",
+    "scene": "小美刚从一趟欧洲旅行回来，兴奋地和同事分享。她说自己去过法国、意大利，还爬过一座著名的塔。同事好奇地追问她都做了些什么，于是引出了大量'已经完成、并对现在有影响'的经历表达。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      { "word": "spring", "phon": "/sprɪŋ/", "pos": "n.", "cn": "春天", "eg": "The garden is beautiful in spring. 花园在春天很美。" },
+      { "word": "already", "phon": "/ɔːlˈredi/", "pos": "adv.", "cn": "已经", "eg": "I have already finished my lunch. 我已经吃完午饭了。" },
+      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "She has never been abroad before. 她以前从没出过国。" },
+      { "word": "recently", "phon": "/ˈriːsntli/", "pos": "adv.", "cn": "最近", "eg": "We have moved to a new house recently. 我们最近搬进了新房子。" },
+      { "word": "trip", "phon": "/trɪp/", "pos": "n.", "cn": "旅行", "eg": "Their trip to the mountains was wonderful. 他们的山区之旅棒极了。" },
+      { "word": "experience", "phon": "/ɪkˈspɪəriəns/", "pos": "n.", "cn": "经历，经验", "eg": "Living in another country is a great experience. 在另一个国家生活是很棒的经历。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时：have/has + 过去分词",
+        "explain": "现在完成时用来谈论过去发生、但与现在有联系的动作，常表示'经历'或'刚刚完成'。主语为第三人称单数时用 has，其余用 have。",
+        "examples": [
+          "I have visited three countries this year. 今年我已经去过三个国家。",
+          "She has read that novel twice. 她已经读过那本小说两遍了。"
+        ]
+      },
+      {
+        "point": "already / yet 的用法",
+        "explain": "already（已经）多用于肯定句，放在助动词后；yet（还，尚）用于否定句和疑问句，通常放句末。",
+        "examples": [
+          "He has already left the office. 他已经离开办公室了。",
+          "Have you finished your report yet? 你的报告写完了吗？"
+        ]
+      }
+    ],
+    "tips": "①现在完成时的核心是'过去的动作+现在的结果或经历'，而不是单纯描述过去。②第三人称单数用 has，别忘了动词要用过去分词而非过去式。③already 常与肯定句搭配，yet 常出现在否定句和疑问句里。"
+  },
+  {
+    "book": 1,
+    "lesson": 87,
+    "title": "A car crash",
+    "titleCn": "一场车祸",
+    "scene": "深夜的十字路口发生了一起碰撞。警察赶到现场，向围观的路人了解情况：事故发生的那一刻，各人正在做什么？大家七嘴八舌地回忆当时正在进行的动作，画面感十足。",
+    "grammarTags": ["过去进行时"],
+    "words": [
+      { "word": "crash", "phon": "/kræʃ/", "pos": "n.", "cn": "碰撞，坠毁", "eg": "The car crash blocked the whole road. 那场车祸堵住了整条路。" },
+      { "word": "corner", "phon": "/ˈkɔːnə/", "pos": "n.", "cn": "拐角", "eg": "The shop is just around the corner. 那家店就在拐角处。" },
+      { "word": "suddenly", "phon": "/ˈsʌdnli/", "pos": "adv.", "cn": "突然", "eg": "The dog suddenly ran across the street. 那条狗突然跑过马路。" },
+      { "word": "driver", "phon": "/ˈdraɪvə/", "pos": "n.", "cn": "司机", "eg": "The bus driver stopped at the red light. 公交司机在红灯前停下了。" },
+      { "word": "accident", "phon": "/ˈæksɪdənt/", "pos": "n.", "cn": "事故", "eg": "Nobody was hurt in the accident. 事故中没有人受伤。" },
+      { "word": "cross", "phon": "/krɒs/", "pos": "v.", "cn": "穿过", "eg": "Be careful when you cross the road. 过马路时要小心。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时：was/were + 现在分词",
+        "explain": "过去进行时表示过去某一时刻正在进行的动作。单数主语用 was，复数主语和 you 用 were，动词加 -ing。",
+        "examples": [
+          "I was reading when the phone rang. 电话响时我正在看书。",
+          "They were playing football at four o'clock. 四点钟时他们正在踢足球。"
+        ]
+      },
+      {
+        "point": "when 引导的时间对比",
+        "explain": "常用'过去进行时 + when + 一般过去时'：一个长动作正在进行，另一个短动作突然打断它。",
+        "examples": [
+          "She was cooking when I came in. 我进来时她正在做饭。",
+          "We were walking home when it began to rain. 我们正走回家时开始下雨了。"
+        ]
+      }
+    ],
+    "tips": "①过去进行时强调'那一刻正在进行'，与只说'做过'的一般过去时不同。②记住 was/were 的搭配：I/he/she/it 用 was，you/we/they 用 were。③'正在进行的长动作'常被'突然发生的短动作(when + 过去式)'打断。"
+  },
+  {
+    "book": 1,
+    "lesson": 89,
+    "title": "For sale",
+    "titleCn": "待售",
+    "scene": "老张想把用了多年的旧车卖掉，在网上登了广告。有位买家打来电话，仔细询问这辆车：开了多久、修过没有、跑了多少公里。老张一一回答，话里全是'从过去持续到现在'的完成时表达。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      { "word": "sale", "phon": "/seɪl/", "pos": "n.", "cn": "出售", "eg": "The old house is for sale now. 那座老房子现在正在出售。" },
+      { "word": "owner", "phon": "/ˈəʊnə/", "pos": "n.", "cn": "物主，所有者", "eg": "The owner of the dog lives next door. 这条狗的主人住在隔壁。" },
+      { "word": "engine", "phon": "/ˈendʒɪn/", "pos": "n.", "cn": "发动机", "eg": "The engine of this car is still strong. 这辆车的发动机依然很有力。" },
+      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "He repaired my bike last week. 他上周修好了我的自行车。" },
+      { "word": "since", "phon": "/sɪns/", "pos": "prep.", "cn": "自从", "eg": "I have known her since 2015. 我从2015年就认识她了。" },
+      { "word": "price", "phon": "/praɪs/", "pos": "n.", "cn": "价格", "eg": "The price of the phone is too high. 这部手机的价格太高了。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时 + for / since",
+        "explain": "for 后接一段时间（for two years），since 后接过去的时间点（since 2015）。两者都常与现在完成时连用，表示动作或状态延续到现在。",
+        "examples": [
+          "I have lived here for ten years. 我在这里住了十年了。",
+          "She has worked in the bank since April. 她从四月起就在银行工作。"
+        ]
+      },
+      {
+        "point": "现在完成时表示'到目前为止的结果'",
+        "explain": "谈论一件东西目前的状态、次数或使用情况时，常用现在完成时来连接过去与现在。",
+        "examples": [
+          "The car has run 60,000 kilometres. 这辆车已经跑了六万公里。",
+          "I have never had any trouble with it. 我用它从来没出过毛病。"
+        ]
+      }
+    ],
+    "tips": "①for 后接时间段，since 后接时间起点，别搞混。②现在完成时可表示'从过去一直持续到现在'的状态。③询问持续多久用 How long...？，回答常用 for 或 since。"
+  },
+  {
+    "book": 1,
+    "lesson": 91,
+    "title": "Poor Ian",
+    "titleCn": "可怜的伊恩",
+    "scene": "朋友们约好一起去看伊恩的新公寓，可到了门口才发现他不在家。原来伊恩刚把公寓卖掉、搬走了！大家一边惊讶一边感叹，反复用到'已经离开、已经去过'这类完成时的表达。",
+    "grammarTags": ["现在完成时"],
+    "words": [
+      { "word": "poor", "phon": "/pʊə/", "pos": "adj.", "cn": "可怜的；贫穷的", "eg": "Poor Tom lost his keys again. 可怜的汤姆又丢了钥匙。" },
+      { "word": "flat", "phon": "/flæt/", "pos": "n.", "cn": "公寓", "eg": "They rented a small flat near the park. 他们在公园附近租了一间小公寓。" },
+      { "word": "move", "phon": "/muːv/", "pos": "v.", "cn": "搬家；移动", "eg": "We moved to another city last month. 我们上个月搬到了另一座城市。" },
+      { "word": "gone", "phon": "/ɡɒn/", "pos": "v.", "cn": "go 的过去分词", "eg": "He has gone to the airport. 他已经去机场了（还没回来）。" },
+      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "The room was completely empty. 那房间空空如也。" },
+      { "word": "address", "phon": "/əˈdres/", "pos": "n.", "cn": "地址", "eg": "Please write your address here. 请把你的地址写在这里。" }
+    ],
+    "grammar": [
+      {
+        "point": "has gone to 与 has been to",
+        "explain": "has/have gone to 表示'去了某地还没回来'（人不在这里）；has/have been to 表示'去过某地已经回来了'（强调经历）。",
+        "examples": [
+          "Ian has gone to London. 伊恩去伦敦了（现在不在）。",
+          "I have been to London twice. 我去过伦敦两次（现在人在这里）。"
+        ]
+      },
+      {
+        "point": "现在完成时表示对现在的影响",
+        "explain": "用现在完成时说明一个过去的动作造成了现在能看到的结果，比如'他搬走了'所以'房子空了'。",
+        "examples": [
+          "He has sold his flat, so it is empty now. 他把公寓卖了，所以现在是空的。",
+          "She has lost her phone and can't call us. 她把手机丢了，没法给我们打电话。"
+        ]
+      }
+    ],
+    "tips": "①has gone to = 去了没回来；has been to = 去过已回来，务必区分。②现在完成时的重点是'过去动作 → 现在结果'。③强调经历次数常配 twice、three times 等。"
+  },
+  {
+    "book": 1,
+    "lesson": 93,
+    "title": "Our new neighbour",
+    "titleCn": "我们的新邻居",
+    "scene": "小区里搬来了一户新邻居。有人透过窗户看见他们正忙着搬家具、粉刷墙壁。邻居们聚在一起议论：这家人打算怎么装修？准备种什么花？处处是对'将来的打算'的猜测。",
+    "grammarTags": ["一般将来时"],
+    "words": [
+      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Our new neighbour is very friendly. 我们的新邻居非常友好。" },
+      { "word": "paint", "phon": "/peɪnt/", "pos": "v.", "cn": "粉刷，油漆", "eg": "They are going to paint the door blue. 他们打算把门刷成蓝色。" },
+      { "word": "garden", "phon": "/ˈɡɑːdn/", "pos": "n.", "cn": "花园", "eg": "She grows roses in her garden. 她在花园里种玫瑰。" },
+      { "word": "plan", "phon": "/plæn/", "pos": "v.", "cn": "计划", "eg": "We plan to visit them next weekend. 我们打算下周末去看他们。" },
+      { "word": "wall", "phon": "/wɔːl/", "pos": "n.", "cn": "墙", "eg": "There is a big picture on the wall. 墙上有一幅大画。" },
+      { "word": "furniture", "phon": "/ˈfɜːnɪtʃə/", "pos": "n.", "cn": "家具", "eg": "They bought new furniture for the flat. 他们为公寓买了新家具。" }
+    ],
+    "grammar": [
+      {
+        "point": "be going to 表示计划或打算",
+        "explain": "be going to + 动词原形，表示已经决定好的计划或根据迹象作出的预测。be 随主语变化：am/is/are。",
+        "examples": [
+          "I am going to buy a new bike. 我打算买一辆新自行车。",
+          "It is going to rain soon. 快要下雨了。"
+        ]
+      },
+      {
+        "point": "will 表示将来",
+        "explain": "will + 动词原形也可表示将来，多用于临时决定或对未来的预测。否定为 won't。",
+        "examples": [
+          "I will help you with the boxes. 我来帮你搬箱子吧。",
+          "They won't be at home tomorrow. 他们明天不在家。"
+        ]
+      }
+    ],
+    "tips": "①be going to 强调'早有打算'或'有明显迹象'；will 更多用于临时决定和预测。②be going to 中的 be 要与主语一致（am/is/are）。③询问打算用 What are you going to do?"
+  },
+  {
+    "book": 1,
+    "lesson": 95,
+    "title": "Tickets, please",
+    "titleCn": "请出示车票",
+    "scene": "火车快到站了，列车员挨个检票。一位乘客翻遍口袋也找不到车票，急得满头大汗，一边解释一边说自己打算下车后马上去补票。乘务员则告诉他接下来将会怎么处理。",
+    "grammarTags": ["一般将来时"],
+    "words": [
+      { "word": "ticket", "phon": "/ˈtɪkɪt/", "pos": "n.", "cn": "票", "eg": "I bought two tickets for the concert. 我买了两张音乐会的票。" },
+      { "word": "platform", "phon": "/ˈplætfɔːm/", "pos": "n.", "cn": "站台", "eg": "The train leaves from platform three. 火车从三号站台发车。" },
+      { "word": "passenger", "phon": "/ˈpæsɪndʒə/", "pos": "n.", "cn": "乘客", "eg": "Every passenger must show a ticket. 每位乘客都必须出示车票。" },
+      { "word": "collect", "phon": "/kəˈlekt/", "pos": "v.", "cn": "收取；收集", "eg": "The man collects tickets at the gate. 那个人在门口收票。" },
+      { "word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达", "eg": "The train will arrive at noon. 火车将在中午到达。" },
+      { "word": "station", "phon": "/ˈsteɪʃn/", "pos": "n.", "cn": "车站", "eg": "I will meet you at the station. 我会在车站接你。" }
+    ],
+    "grammar": [
+      {
+        "point": "will 构成的一般将来时",
+        "explain": "will + 动词原形表示将来发生的动作或预测。各人称形式相同，缩写为 'll，否定为 won't。",
+        "examples": [
+          "The train will arrive in ten minutes. 火车将在十分钟后到达。",
+          "I'll buy another ticket at the station. 我会在车站再买一张票。"
+        ]
+      },
+      {
+        "point": "将来时的疑问句",
+        "explain": "将 will 提到主语前构成疑问句：Will + 主语 + 动词原形...？回答用 Yes, ... will. / No, ... won't.",
+        "examples": [
+          "Will you come to the party? 你会来聚会吗？",
+          "Will the shop be open tomorrow? 那家店明天开门吗？"
+        ]
+      }
+    ],
+    "tips": "①will 后一律接动词原形，不加 -s 或 -ing。②口语中 will 常缩写为 'll，否定 will not 缩写为 won't。③疑问句把 will 提到句首，回答用 will / won't。"
+  },
+  {
+    "book": 1,
+    "lesson": 97,
+    "title": "A small blue case",
+    "titleCn": "一个蓝色的小箱子",
+    "scene": "机场的失物招领处，一位女士在寻找丢失的行李。工作人员请她描述箱子的样子：什么颜色、多大、什么材质、里面装了什么。女士仔细回忆昨天离开时的情形，一连串描述性的形容词脱口而出。",
+    "grammarTags": ["一般过去时"],
+    "words": [
+      { "word": "case", "phon": "/keɪs/", "pos": "n.", "cn": "箱子，盒子", "eg": "She put the books in a small case. 她把书装进一个小箱子里。" },
+      { "word": "leather", "phon": "/ˈleðə/", "pos": "n.", "cn": "皮革", "eg": "This bag is made of leather. 这个包是皮革做的。" },
+      { "word": "lose", "phon": "/luːz/", "pos": "v.", "cn": "丢失", "eg": "I lost my umbrella on the bus. 我把伞丢在公交车上了。" },
+      { "word": "describe", "phon": "/dɪˈskraɪb/", "pos": "v.", "cn": "描述", "eg": "Can you describe the man you saw? 你能描述一下你看到的那个人吗？" },
+      { "word": "handle", "phon": "/ˈhændl/", "pos": "n.", "cn": "把手", "eg": "The handle of the case is broken. 箱子的把手坏了。" },
+      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "归还；返回", "eg": "They returned the lost bag to her. 他们把丢失的包还给了她。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时叙述已发生的事",
+        "explain": "一般过去时用来讲述过去发生并已结束的动作。规则动词加 -ed，不规则动词需单独记忆（lose→lost, put→put）。",
+        "examples": [
+          "I lost my case at the airport yesterday. 昨天我在机场丢了箱子。",
+          "She described it to the officer. 她向工作人员描述了它。"
+        ]
+      },
+      {
+        "point": "多个形容词的排列顺序",
+        "explain": "描述名词时，多个形容词一般按'大小 + 颜色 + 材质'的顺序排列，如 a small blue leather case。",
+        "examples": [
+          "It is a small blue leather case. 那是一个蓝色的小皮箱。",
+          "He wore a big black wool coat. 他穿了一件黑色的大羊毛外套。"
+        ]
+      }
+    ],
+    "tips": "①一般过去时叙述过去已完成的事，注意不规则动词的变化。②多个形容词按'大小→颜色→材质'排序，别把顺序颠倒。③描述物品常用 It is/was made of + 材质。"
+  }
+]
