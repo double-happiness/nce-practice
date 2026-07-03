@@ -7,6 +7,9 @@
     "start": "node server.js",
     "dev": "node server.js",
     "validate": "node scripts/validate.js",
+    "test:equiv": "node scripts/test-answer-equiv.js",
+    "scan:dialogue": "node scripts/scan-dialogue-coverage.js",
+    "build:word-enrich": "node scripts/build-word-enrich.js",
     "import": "node scripts/import.js",
     "import:tf": "node scripts/import-transforms.js"
   },
