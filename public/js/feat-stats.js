@@ -33,6 +33,13 @@
     .sta-lrow .bar{flex:0 0 120px;height:8px;border-radius:999px;background:#eee;overflow:hidden}
     .sta-lrow .bar i{display:block;height:100%;border-radius:999px}
     .sta-lrow .pct{flex:0 0 48px;text-align:right;font-weight:700;font-size:14px}
+    .sta-vocab{border:1px solid #e5e7eb;border-radius:12px;padding:14px 16px;margin-top:18px;background:#f8fafc}
+    .sta-vocab h3{margin:0 0 10px;font-size:15px}
+    .sta-vocab .lines{font-size:14px;color:#445;line-height:1.9}
+    .sta-vocab .lines b{color:#1e40af}
+    .sta-vocab .acts{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+    .sta-vocab .acts button{padding:6px 12px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;cursor:pointer;font-size:13px;color:#334}
+    .sta-vocab .acts button:hover{background:#f1f5f9}
   `;
   document.head.appendChild(style);
 
@@ -50,12 +57,15 @@
 
   async function render(panel) {
     panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载中…</div></div>';
-    let overview, grammar, lesson;
+    const last = (typeof NCEStore !== 'undefined' && NCEStore.get('nce-last-lesson')) || null;
+    const vocabBook = last ? String(last.book) : '1';
+    let overview, grammar, lesson, vocabOv;
     try {
-      [overview, grammar, lesson] = await Promise.all([
+      [overview, grammar, lesson, vocabOv] = await Promise.all([
         NCE.api('/api/stats/overview'),
         NCE.api('/api/stats/grammar'),
         NCE.api('/api/stats/lesson'),
+        NCE.api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
       ]);
     } catch (e) {
       panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载失败，请稍后重试。</div></div>';
@@ -97,6 +107,42 @@
       '<div class="lbl" style="margin-bottom:6px">最需加强</div>' +
       (weakChips ? `<div class="sta-weak">${weakChips}</div>` : '<div class="sta-weak"><span class="chip" style="background:#ecfdf5;border-color:#a7f3d0;color:#059669">暂无明显薄弱项 🎉</span></div>');
     cards.appendChild(weakCard);
+
+    // ---- 词汇量基线（听/读/总）----
+    if (vocabOv) {
+      const vl = vocabOv.listen && vocabOv.listen.latest;
+      const vr = vocabOv.read && vocabOv.read.latest;
+      const vg = vocabOv.global && vocabOv.global.latest;
+      const line = (icon, label, t) =>
+        t ? `${icon} ${label}：<b>≈ ${t.estimate}</b> / ${t.dictTotal} 词` : `${icon} ${label}：尚未测试`;
+      const vocabSect = document.createElement('div');
+      vocabSect.className = 'sta-vocab';
+      vocabSect.innerHTML =
+        `<h3>📚 词汇量基线（第 ${esc(vocabBook)} 册 + 总词汇）</h3>` +
+        '<div class="lines">' +
+        line('👂', '听力', vl) + '<br>' +
+        line('📖', '阅读', vr) + '<br>' +
+        line('🌐', '总词汇', vg) +
+        (vocabOv.gap != null && vocabOv.gap !== 0
+          ? `<br><small style="color:#64748b">听读差距：${vocabOv.gap > 0 ? '阅读高' : '听力高'} ${Math.abs(vocabOv.gap)} 词</small>`
+          : '') +
+        '</div>' +
+        '<div class="acts">' +
+        '<button type="button" data-vocab="listenvocab">测听力</button>' +
+        '<button type="button" data-vocab="readvocab">测阅读</button>' +
+        '<button type="button" data-vocab="globalvocab">测总词汇</button>' +
+        '<button type="button" data-vocab="vocabtrend">看趋势</button>' +
+        '</div>';
+      vocabSect.querySelectorAll('[data-vocab]').forEach((btn) => {
+        btn.onclick = () => {
+          const id = btn.dataset.vocab;
+          if (id === 'vocabtrend' && NCE.vocabTestUi) NCE.vocabTestUi.goToVocabTrend(vocabBook);
+          else if (NCE.vocabTestUi && id !== 'globalvocab') NCE.vocabTestUi.goToVocabTest(id, vocabBook);
+          else NCE.gotoTab(id);
+        };
+      });
+      wrap.appendChild(vocabSect);
+    }
 
     // ---- 语法热力图 ----
     if (grammarList.length) {

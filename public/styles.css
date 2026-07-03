@@ -431,7 +431,11 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
   margin-bottom: 18px;
   border-bottom: 1px solid var(--border-soft);
   padding-bottom: 12px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
+.subtab { flex: none; }
 .subtab {
   padding: 7px 16px;
   border-radius: 999px;
@@ -506,6 +510,17 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
 .home-dict-row input:focus {
   outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px rgba(47, 111, 237, .14);
 }
+.home-guide {
+  grid-column: 1 / -1;
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+  padding: 16px 18px; border-radius: 14px;
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+  border: 1px solid #bfdbfe;
+}
+.home-guide .hg-title { font-size: 16px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.home-guide .hg-line { margin: 0 0 6px; font-size: 13px; color: var(--ink-soft); line-height: 1.6; }
+.home-guide .hg-tip { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
+.home-guide .hg-body { flex: 1; min-width: 200px; }
 .tab:hover { color: var(--brand); background: rgba(47, 111, 237, .06); }
 .tab.active {
   background: var(--accent-grad);
@@ -669,6 +684,7 @@ table.words th, table.words td { text-align: left; padding: 10px 12px; border-bo
 table.words thead th, table.words tr:first-child th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
 table.words tbody tr:hover, table.words tr:hover { background: #f8faff; }
 table.words tr.word-highlight { background: #fff8e1 !important; box-shadow: inset 3px 0 0 #f59e0b; }
+.words-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 8px; }
 table.words .w { font-weight: 700; }
 table.words .phon { color: var(--muted); font-size: 12px; }
 table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
@@ -746,6 +762,16 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
   .tabs { width: 100%; justify-content: flex-start; border-radius: 16px; }
   .tab-group { flex-wrap: wrap; }
   .tab { padding: 8px 13px; font-size: 13px; }
+  .lesson-actions { flex-wrap: wrap; gap: 6px; }
+  table.words thead { display: none; }
+  table.words tr { display: block; border: 1px solid var(--border-soft); border-radius: 10px; margin-bottom: 10px; padding: 10px 12px; }
+  table.words tr:hover { background: #f8faff; }
+  table.words td { display: block; border: none; padding: 4px 0; }
+  table.words td.pos { font-size: 12px; }
+  table.words td:not(.w)::before { font-size: 11px; color: var(--muted-2); display: block; margin-bottom: 2px; }
+  table.words td:nth-child(2)::before { content: '词性'; }
+  table.words td:nth-child(3)::before { content: '释义'; }
+  table.words td:nth-child(4)::before { content: '例句'; }
 }
 
 /* 点课后滚动到详情时，为吸顶栏留出空间，避免标题被遮 */
@@ -769,3 +795,24 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
 .art-ta { width: 100%; min-height: 90px; padding: 10px 12px; border: 1px solid var(--border, #e4e8f2);
   border-radius: 10px; font-size: 14px; line-height: 1.6; margin-bottom: 10px; resize: vertical; font-family: inherit; }
 .art-ta:focus { outline: none; border-color: var(--brand, #2f6fed); box-shadow: 0 0 0 3px rgba(47,111,237,.16); }
+.lookup-pop {
+  position: fixed; z-index: 1000; padding: 6px 12px; border: 1px solid var(--brand, #2f6fed);
+  border-radius: 8px; background: #fff; box-shadow: 0 4px 16px rgba(30,45,90,.15);
+  cursor: pointer; font-size: 13px; font-weight: 600; color: var(--brand, #2f6fed);
+}
+.lookup-pop:hover { background: #eff6ff; }
+.passage, .passage-cn { user-select: text; }
+.pw {
+  cursor: pointer; border-bottom: 1px dashed transparent; border-radius: 2px;
+  transition: color .12s, background .12s, border-color .12s;
+}
+.pw:hover, .pw:focus-visible {
+  color: var(--brand, #2f6fed); background: rgba(47, 111, 237, .1);
+  border-bottom-color: var(--brand, #2f6fed); outline: none;
+}
+.lookup-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.lookup-chip {
+  padding: 5px 12px; border: 1px solid #dbe4ff; border-radius: 999px;
+  background: #f0f6ff; cursor: pointer; font-size: 13px; color: #2563eb;
+}
+.lookup-chip:hover { background: #dbeafe; }
