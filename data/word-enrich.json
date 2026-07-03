@@ -122,6 +122,14 @@
       {
         "en": "Police accused him of robbery at first.",
         "cn": "警方起初指控他参与抢劫。"
+      },
+      {
+        "en": "accuse sb of sth/doing",
+        "cn": "指控某人某事"
+      },
+      {
+        "en": "be accused of",
+        "cn": "被指控……"
       }
     ],
     "examples": [
@@ -198,6 +206,14 @@
       {
         "en": "They adjusted the camera system during the spacewalk.",
         "cn": "他们在太空行走中调整了相机系统。"
+      },
+      {
+        "en": "adjust to sth/doing",
+        "cn": "适应……"
+      },
+      {
+        "en": "adjust the settings",
+        "cn": "调整设置"
       }
     ],
     "examples": [
@@ -826,6 +842,14 @@
       {
         "en": "The singer will appear on television tonight.",
         "cn": "这位歌手今晚将在电视上亮相。"
+      },
+      {
+        "en": "appear to do sth",
+        "cn": "似乎做某事"
+      },
+      {
+        "en": "It appears that ...",
+        "cn": "看来……"
       }
     ],
     "examples": [
@@ -946,6 +970,14 @@
       {
         "en": "People argued about it for hours.",
         "cn": "人们为它争论了好几个小时。"
+      },
+      {
+        "en": "argue with sb about sth",
+        "cn": "与某人争论某事"
+      },
+      {
+        "en": "argue that ...",
+        "cn": "主张……"
       }
     ],
     "examples": [
@@ -2716,6 +2748,28 @@
       }
     ]
   },
+  "can": {
+    "collocations": [
+      {
+        "en": "can do sth",
+        "cn": "能够/可以……"
+      },
+      {
+        "en": "can't be",
+        "cn": "不可能是（推测）"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "can 表能力与许可",
+        "explain": "can 表能力或请求许可；could 是过去式或更委婉说法。",
+        "examples": [
+          "Can you help me?",
+          "Could you speak more slowly?"
+        ]
+      }
+    ]
+  },
   "cape": {
     "collocations": [
       {
@@ -3879,6 +3933,14 @@
       {
         "en": "He finally confessed to the fraud.",
         "cn": "他最终承认了诈骗。"
+      },
+      {
+        "en": "confess to doing sth",
+        "cn": "供认做过某事"
+      },
+      {
+        "en": "confess (that) ...",
+        "cn": "承认……"
       }
     ],
     "examples": [
@@ -3921,6 +3983,14 @@
       {
         "en": "The ticket office confirmed his seat number.",
         "cn": "售票处证实了他的座位号。"
+      },
+      {
+        "en": "confirm (that) ...",
+        "cn": "确认……"
+      },
+      {
+        "en": "confirm a booking/reservation",
+        "cn": "确认预订"
       }
     ],
     "examples": [
@@ -3935,6 +4005,14 @@
       {
         "en": "The project connected two countries directly.",
         "cn": "这个项目把两国直接连了起来。"
+      },
+      {
+        "en": "connect A to/with B",
+        "cn": "把 A 与 B 连接"
+      },
+      {
+        "en": "be connected to",
+        "cn": "与……相连"
       }
     ],
     "examples": [
@@ -3963,6 +4041,14 @@
       {
         "en": "The box contains some old photos.",
         "cn": "盒子里装着一些旧照片。"
+      },
+      {
+        "en": "contain sth",
+        "cn": "包含；容纳"
+      },
+      {
+        "en": "try to contain the damage",
+        "cn": "试图控制损失"
       }
     ],
     "examples": [
@@ -4142,11 +4228,31 @@
       }
     ]
   },
+  "could": {
+    "collocations": [
+      {
+        "en": "could do sth",
+        "cn": "能够 / 可以（过去或委婉）"
+      },
+      {
+        "en": "could have done",
+        "cn": "本可以……（未实现）"
+      }
+    ]
+  },
   "count": {
     "collocations": [
       {
         "en": "He counted the notes one by one in front of everyone.",
         "cn": "他当着大家的面把钞票一张张点清。"
+      },
+      {
+        "en": "count on sb/sth",
+        "cn": "指望；依赖"
+      },
+      {
+        "en": "count from 1 to 10",
+        "cn": "从 1 数到 10"
       }
     ],
     "examples": [
@@ -4197,6 +4303,14 @@
       {
         "en": "We covered forty kilometres in one day.",
         "cn": "我们一天走了四十公里。"
+      },
+      {
+        "en": "cover a distance",
+        "cn": "走完一段路程"
+      },
+      {
+        "en": "cover sth with ...",
+        "cn": "用……覆盖"
       }
     ],
     "examples": [
@@ -5771,6 +5885,14 @@
       {
         "en": "He escaped from the camp after midnight.",
         "cn": "他在午夜后逃离营地。"
+      },
+      {
+        "en": "escape from",
+        "cn": "从……逃脱"
+      },
+      {
+        "en": "narrow escape",
+        "cn": "九死一生；侥幸脱险"
       }
     ],
     "examples": [
@@ -5813,6 +5935,28 @@
       {
         "en": "They read in the evening.",
         "cn": "他们晚上看书。"
+      }
+    ]
+  },
+  "every time": {
+    "collocations": [
+      {
+        "en": "every time + 从句",
+        "cn": "每当……就……"
+      },
+      {
+        "en": "Every time I see her, ...",
+        "cn": "每次见到她……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "every time / whenever",
+        "explain": "引导时间状语从句，表示每次发生某事时都会……",
+        "examples": [
+          "Every time I pass this shop, I think of my grandmother.",
+          "Whenever it rains, he stays at home."
+        ]
       }
     ]
   },
@@ -9996,6 +10140,40 @@
       }
     ]
   },
+  "may": {
+    "collocations": [
+      {
+        "en": "may do sth",
+        "cn": "可能做；可以做"
+      },
+      {
+        "en": "May I ...?",
+        "cn": "我可以……吗？（正式许可）"
+      }
+    ]
+  },
+  "may have done": {
+    "collocations": [
+      {
+        "en": "may/might have done",
+        "cn": "可能做过（对过去的推测）"
+      },
+      {
+        "en": "can't have done",
+        "cn": "不可能做过"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "may/might have done",
+        "explain": "情态动词 + have + 过去分词，表示对过去情况的推测。",
+        "examples": [
+          "He may have missed the train.",
+          "She can't have finished so quickly."
+        ]
+      }
+    ]
+  },
   "me": {
     "collocations": [
       {
@@ -10119,6 +10297,18 @@
       {
         "en": "The train leaves at midnight.",
         "cn": "火车午夜发车。"
+      }
+    ]
+  },
+  "might": {
+    "collocations": [
+      {
+        "en": "might do sth",
+        "cn": "可能做（语气更弱）"
+      },
+      {
+        "en": "might have done",
+        "cn": "可能做过"
       }
     ]
   },
@@ -10624,6 +10814,32 @@
       }
     ]
   },
+  "need": {
+    "collocations": [
+      {
+        "en": "need to do sth",
+        "cn": "需要做某事"
+      },
+      {
+        "en": "need doing / need to be done",
+        "cn": "需要被……（主语是物）"
+      },
+      {
+        "en": "needn't do",
+        "cn": "不必做"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "need doing = need to be done",
+        "explain": "主语是物时，need doing 表示「需要被……」，等于 need to be done。",
+        "examples": [
+          "The car needs washing.",
+          "Your hair needs cutting."
+        ]
+      }
+    ]
+  },
   "neighbour": {
     "collocations": [
       {
@@ -10827,6 +11043,28 @@
       {
         "en": "He is Norwegian.",
         "cn": "他是挪威人。"
+      }
+    ]
+  },
+  "not only ... but also": {
+    "collocations": [
+      {
+        "en": "not only ... but also ...",
+        "cn": "不仅……而且……"
+      },
+      {
+        "en": "not only A but B as well",
+        "cn": "A 如此，B 也如此"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "not only ... but also",
+        "explain": "连接两个并列成分；not only 放句首时，主句需部分倒装（助动词提前）。",
+        "examples": [
+          "She not only sings but also dances.",
+          "Not only did he finish early, but he also helped others."
+        ]
       }
     ]
   },
@@ -12342,6 +12580,28 @@
       }
     ]
   },
+  "prefer": {
+    "collocations": [
+      {
+        "en": "prefer A to B",
+        "cn": "比起 B 更喜欢 A"
+      },
+      {
+        "en": "prefer doing/to do",
+        "cn": "更喜欢做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "prefer ... to ...",
+        "explain": "prefer A to B 中 to 是介词，后接名词或动名词。",
+        "examples": [
+          "I prefer tea to coffee.",
+          "She prefers walking to driving."
+        ]
+      }
+    ]
+  },
   "prepare": {
     "collocations": [
       {
@@ -13549,6 +13809,14 @@
       {
         "en": "Rescue boats reached the speedboat quickly.",
         "cn": "救援船很快靠近了快艇。"
+      },
+      {
+        "en": "rescue sb from",
+        "cn": "从……中救出某人"
+      },
+      {
+        "en": "come to the rescue",
+        "cn": "前来解围"
       }
     ],
     "examples": [
@@ -14733,6 +15001,18 @@
       {
         "en": "People on the shore were shouting warnings.",
         "cn": "岸边的人在大喊警告。"
+      }
+    ]
+  },
+  "should": {
+    "collocations": [
+      {
+        "en": "should do sth",
+        "cn": "应该做某事"
+      },
+      {
+        "en": "should have done",
+        "cn": "本应该做（却没做）"
       }
     ]
   },
@@ -18500,6 +18780,14 @@
       }
     ]
   },
+  "whenever": {
+    "collocations": [
+      {
+        "en": "whenever + 从句",
+        "cn": "每当；无论何时"
+      }
+    ]
+  },
   "which": {
     "collocations": [
       {
@@ -18831,6 +19119,28 @@
       {
         "en": "Don't worry, you have done well.",
         "cn": "别担心，你考得很好。"
+      }
+    ]
+  },
+  "worth": {
+    "collocations": [
+      {
+        "en": "be worth sth/doing",
+        "cn": "值得……"
+      },
+      {
+        "en": "It's worth a try.",
+        "cn": "值得一试。"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "be worth + 名词/动名词",
+        "explain": "worth 后接名词或动名词，不接不定式。",
+        "examples": [
+          "The book is worth reading.",
+          "It's worth the effort."
+        ]
       }
     ]
   },

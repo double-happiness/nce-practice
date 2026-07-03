@@ -152,6 +152,7 @@
     .dict-col-en, .dict-ex-en { font-weight: 600; color: var(--ink, #1b2030); }
     .dict-col-cn, .dict-ex-cn, .dict-ex-src { font-size: 13px; color: var(--muted, #6b7280); margin-top: 2px; }
     .dict-ex-src { margin-top: 4px; }
+    .dict-ex-go { margin-top: 4px; font-size: 13px; }
     .dict-pat-item {
       padding: 10px 12px; background: #f0f5ff; border-radius: 8px; border-left: 3px solid var(--brand, #2f6fed);
     }
@@ -170,7 +171,7 @@
   let lastWords = [];
   let keyBound = false;
   const detailCache = new Map();
-  const st = { book: '', q: '', page: 0, queue: null };
+  const st = { book: '', q: '', page: 0, queue: null, expandDetail: false };
 
   function wordKey(word) {
     return String(word || '').trim().toLowerCase();
@@ -296,10 +297,17 @@
     const cols = detail.collocations || [];
     const pats = detail.patterns || [];
     const exs = detail.examples || [];
-    if (!cols.length && !pats.length && !exs.length) {
-      return '<div class="dict-detail-empty">暂无更多搭配与例句</div>';
-    }
     let html = '';
+    if (detail.source === 'global') {
+      html +=
+        '<div class="dict-detail-empty" style="margin-bottom:10px;padding:0;background:none">' +
+        '🌐 全局词库' + (detail.bandLabel ? ' · ' + escapeHtml(detail.bandLabel) : '') +
+        ' · 仅词库释义，无教材例句' +
+        '</div>';
+    }
+    if (!cols.length && !pats.length && !exs.length) {
+      return html + '<div class="dict-detail-empty">暂无更多搭配与例句</div>';
+    }
     if (cols.length) {
       html +=
         '<div class="dict-sec"><div class="dict-sec-title">固定搭配 / 短语</div><div class="dict-col-list">' +
@@ -335,7 +343,9 @@
           `<div class="dict-ex-en">${hl(ex.en, q)}</div>` +
           (ex.cn ? `<div class="dict-ex-cn">${hl(ex.cn, q)}</div>` : '') +
           (ex.lesson
-            ? `<div class="dict-ex-src">第${ex.book}册 · Lesson ${ex.lesson}${ex.lessonTitle ? ' · ' + escapeHtml(ex.lessonTitle) : ''}</div>`
+            ? `<button type="button" class="dict-ex-go dict-src" data-book="${ex.book}" data-lesson="${ex.lesson}" data-word="${escapeAttr(q)}">` +
+              `📖 第${ex.book}册 · Lesson ${ex.lesson}${ex.lessonTitle ? ' · ' + escapeHtml(ex.lessonTitle) : ''} →` +
+              '</button>'
             : '') +
           '</div>'
         ).join('') +
@@ -352,24 +362,71 @@
     return d;
   }
 
-  async function toggleDetail(btn) {
+  async function openDetail(btn, forceOpen) {
     const word = btn.dataset.word || '';
     const box = btn.closest('.dict-item')?.querySelector('.dict-detail');
     if (!box) return;
-    const open = box.classList.toggle('open');
-    btn.textContent = open ? '收起搭配与例句 ▲' : '展开搭配 · 句型 · 例句 ▼';
-    if (!open) return;
+    if (forceOpen && !box.classList.contains('open')) {
+      box.classList.add('open');
+      btn.textContent = '收起搭配与例句 ▲';
+    } else if (!forceOpen) {
+      const open = box.classList.toggle('open');
+      btn.textContent = open ? '收起搭配与例句 ▲' : '展开搭配 · 句型 · 例句 ▼';
+      if (!open) return;
+    }
     if (box.dataset.loaded === '1') return;
     btn.classList.add('loading');
     box.innerHTML = '<div class="dict-detail-empty">加载中…</div>';
     const detail = await loadWordDetail(word);
     btn.classList.remove('loading');
     if (!detail) {
-      box.innerHTML = '<div class="dict-detail-empty">加载失败，请稍后重试</div>';
+      const item = btn.closest('.dict-item');
+      const isGlobal = item && item.dataset.source === 'global';
+      box.innerHTML =
+        '<div class="dict-detail-empty">' +
+        (isGlobal
+          ? '该词来自全局词库，暂无教材搭配与句型。'
+          : '暂无更多搭配与例句') +
+        '</div>';
+      box.dataset.loaded = '1';
       return;
     }
     box.dataset.loaded = '1';
     box.innerHTML = detailSectionHtml(detail, word);
+    bindResultActions(box.closest('.dict-list') || box.parentElement);
+  }
+
+  async function toggleDetail(btn) {
+    const box = btn.closest('.dict-item')?.querySelector('.dict-detail');
+    if (box && box.classList.contains('open')) {
+      box.classList.remove('open');
+      btn.textContent = '展开搭配 · 句型 · 例句 ▼';
+      return;
+    }
+    await openDetail(btn, true);
+  }
+
+  function autoExpandForQuery(root, q) {
+    if (!root || !q) return;
+    const key = wordKey(q);
+    const items = root.querySelectorAll('.dict-item');
+    let target = null;
+    items.forEach((item) => {
+      const btn = item.querySelector('.dict-more');
+      if (btn && wordKey(btn.dataset.word) === key) target = btn;
+    });
+    if (target) {
+      openDetail(target, true);
+      return;
+    }
+    if (items.length === 1) {
+      const btn = items[0].querySelector('.dict-more');
+      if (btn) openDetail(btn, true);
+    }
+  }
+
+  function autoExpandDetails(root) {
+    autoExpandForQuery(root, st.q);
   }
 
   function bindResultActions(root) {
@@ -434,8 +491,9 @@
 
   function wordCardHtml(w, q) {
     const book = w.book != null ? w.book : (st.book || '');
+    const src = w.source ? ` data-source="${escapeAttr(w.source)}"` : '';
     return (
-      '<article class="dict-item">' +
+      '<article class="dict-item"' + src + '>' +
       '<div class="dict-item-head">' +
       `<span class="dict-word" title="点击复制">${hl(w.word, q || w.word)}</span>` +
       (w.phon ? `<span class="dict-phon">${hl(w.phon, q || w.word)}</span>` : '') +
@@ -559,7 +617,7 @@
     box.innerHTML =
       queueHint +
       historyHtml() +
-      '<div class="dict-hint">输入关键词开始查询<br><span style="font-size:13px">支持英文、中文释义、例句与音标 · 按 <b>/</b> 快速聚焦</span></div>';
+      '<div class="dict-hint">输入关键词开始查询<br><span style="font-size:13px">支持英文、中文释义、例句与音标 · 按 <b>/</b> 快速聚焦 · 可展开固定搭配与课内句型</span></div>';
     bindHistory(box);
     const resume = box.querySelector('#dictResumeQueue');
     if (resume) {
@@ -727,6 +785,7 @@
     lastWords = [enriched];
     box.innerHTML = '<div class="dict-list">' + wordCardHtml(enriched, raw.word) + '</div>';
     bindResultActions(box);
+    autoExpandDetails(box);
     speak(raw.word);
   }
 
@@ -784,6 +843,10 @@
         : '');
 
     bindResultActions(box);
+    if (st.expandDetail || (total === 1 && wordKey(lastWords[0].word) === wordKey(q))) {
+      autoExpandForQuery(box, q);
+      st.expandDetail = false;
+    }
     const prev = box.querySelector('.dict-prev');
     const next = box.querySelector('.dict-next');
     if (prev) prev.onclick = () => { st.page--; renderResults(lastWords, q); };
@@ -870,6 +933,7 @@
         } else {
           if (pend.q != null) st.q = String(pend.q);
           if (pend.book != null) st.book = String(pend.book);
+          st.expandDetail = pend.expandDetail !== false && !!String(pend.q || '').trim();
         }
         st.page = 0;
         NCE.pendingDictionary = null;
@@ -879,6 +943,7 @@
           st.q = fromHash.q;
           st.book = fromHash.book;
           st.page = 0;
+          st.expandDetail = !!fromHash.q.trim();
         } else if (!st.book) {
           st.book = loadBookPref();
         }

@@ -9,8 +9,8 @@ const { normKey } = require('../lib/dict');
 const OUT = path.join(__dirname, '..', 'data', 'word-enrich.json');
 const MANUAL = {
   ...require('../data/word-enrich-manual.json'),
-  ...require('../data/word-enrich-manual-batch2.json'),
   ...require('../data/word-enrich-manual-batch3.json'),
+  ...require('../data/word-enrich-manual-batch2.json'),
 };
 
 function splitEg(eg) {

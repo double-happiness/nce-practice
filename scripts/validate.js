@@ -4,6 +4,8 @@
 // 用法： npm run validate   （命令行）
 // 服务启动时也会自动调用一次，把问题数量打印出来
 const data = require('../lib/data');
+const path = require('path');
+const { readJSON } = require('../lib/store');
 
 function validate() {
   const errors = [];
@@ -105,9 +107,19 @@ function validate() {
       if (!t.cn) errors.push(`${tw}: 缺少 cn`);
       if (t.role === 'You') {
         hasYou = true;
-        if (!t.en || !String(t.en).trim()) errors.push(`${tw}: 学习者台词缺少 en`);
+        const enList = Array.isArray(t.en) ? t.en : [t.en];
+        if (!enList.some((s) => s && String(s).trim())) errors.push(`${tw}: 学习者台词缺少 en`);
       } else if (!t.en || !String(t.en).trim()) {
         errors.push(`${tw}: 缺少 en`);
+      }
+      if (t.aliases != null) {
+        if (!Array.isArray(t.aliases)) {
+          errors.push(`${tw}: aliases 须为字符串数组`);
+        } else {
+          t.aliases.forEach((a, k) => {
+            if (!a || !String(a).trim()) errors.push(`${tw}.aliases[${k}]: 空别名`);
+          });
+        }
       }
     });
     if (!hasYou) warnings.push(`${where}: 没有 role=You 的练习轮次`);
@@ -132,6 +144,39 @@ function validate() {
   (gvInfo.bands || []).forEach((b) => {
     if (b.total < 12) warnings.push(`global-vocab band ${b.band}: 仅 ${b.total} 词，抽样可能不均`);
   });
+
+  // 词典 enrich：结构完整、键名归一化
+  const { normKey } = require('../lib/dict');
+  const enrich = readJSON(path.join(__dirname, '..', 'data', 'word-enrich.json'), null);
+  if (!enrich || typeof enrich !== 'object') {
+    warnings.push('word-enrich.json: 文件缺失或为空，词典详情将无手工补充');
+  } else {
+    const enrichKeys = new Set();
+    Object.entries(enrich).forEach(([k, v]) => {
+      const where = `word-enrich[${k}]`;
+      if (normKey(k) !== k) warnings.push(`${where}: 键建议用小写归一化形式`);
+      if (enrichKeys.has(k)) errors.push(`${where}: 键重复`);
+      else enrichKeys.add(k);
+      if (!v || typeof v !== 'object') {
+        errors.push(`${where}: 条目必须是对象`);
+        return;
+      }
+      for (const field of ['collocations', 'patterns', 'examples']) {
+        if (v[field] != null && !Array.isArray(v[field])) {
+          errors.push(`${where}: ${field} 必须是数组`);
+        }
+      }
+      (v.collocations || []).forEach((c, i) => {
+        if (!c || !c.en) errors.push(`${where}.collocations[${i}]: 缺少 en`);
+      });
+      (v.patterns || []).forEach((p, i) => {
+        if (!p || !p.title) errors.push(`${where}.patterns[${i}]: 缺少 title`);
+      });
+    });
+    if (enrichKeys.size < 900) {
+      warnings.push(`word-enrich: 仅 ${enrichKeys.size} 条，建议覆盖全部教材词条（约 908）`);
+    }
+  }
 
   return { errors, warnings };
 }
