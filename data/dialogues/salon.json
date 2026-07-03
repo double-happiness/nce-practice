@@ -99,5 +99,22 @@
       { "role": "You", "cn": "需要押金吗？", "en": "Is a deposit required?" },
       { "role": "Receptionist", "cn": "取消需提前二十四小时，否则收一半。", "en": "Cancel twenty-four hours ahead or we charge half." }
     ]
+  },
+  {
+    "id": "dlg-salon-07",
+    "category": "salon",
+    "title": "Gel Nail Repair",
+    "titleCn": "美甲修补",
+    "scene": "你做的光疗甲裂了，去店里修补。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "You", "cn": "食指甲裂了，能补吗？上周刚做的。", "en": "My index nail chipped. Can you fix it? I just got them done last week." },
+      { "role": "Technician", "cn": "可以补，单指五块，全手重做二十五。", "en": "We can repair it. Five per nail, or twenty-five for a full redo." },
+      { "role": "You", "cn": "只补这一根，颜色还能对上吗？", "en": "Just this one. Can you match the color?" },
+      { "role": "Technician", "cn": "我查记录，应该是这个粉。", "en": "I'll check your file. Should be this pink." },
+      { "role": "You", "cn": "怎么避免再裂？", "en": "How do I keep it from chipping again?" },
+      { "role": "Technician", "cn": "少抠东西，睡前涂指缘油。", "en": "Don't pick at things. Use cuticle oil before bed." },
+      { "role": "You", "cn": "好的，请补吧。", "en": "Okay. Please fix it." }
+    ]
   }
 ]

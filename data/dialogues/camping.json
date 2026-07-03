@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-camp-01",
+    "category": "camping",
+    "title": "Campground Check-in",
+    "titleCn": "营地登记",
+    "scene": "你开车到州立公园营地办理入住。",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "Ranger", "cn": "有预订吗？", "en": "Do you have a reservation?" },
+      { "role": "You", "cn": "有的，张伟，两晚，12号营地。", "en": "Yes, Zhang Wei, two nights, site twelve." },
+      { "role": "Ranger", "cn": "请填表，禁止明火，用火在指定炉。", "en": "Please sign in. No open flames except at designated grills." },
+      { "role": "You", "cn": "附近有饮用水吗？", "en": "Is there drinking water nearby?" },
+      { "role": "Ranger", "cn": "水龙头在营地入口，厕所在那边。", "en": "Spigots at the entrance. Restrooms are over there." },
+      { "role": "You", "cn": "熊出没要注意什么？", "en": "What should we know about bears?" },
+      { "role": "Ranger", "cn": "食物锁熊箱，垃圾别留外面。", "en": "Store food in bear boxes. Don't leave trash outside." }
+    ]
+  },
+  {
+    "id": "dlg-camp-02",
+    "category": "camping",
+    "title": "Setting Up Tent",
+    "titleCn": "搭帐篷",
+    "scene": "你第一次露营，向邻营求助搭帐篷。",
+    "roles": ["You", "Camper"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这帐篷杆怎么穿？", "en": "Sorry, how do these poles go together?" },
+      { "role": "Camper", "cn": "先把两根长的交叉，插进四角。", "en": "Cross the long ones first, then slot them into the corners." },
+      { "role": "You", "cn": "地钉要打多深？", "en": "How deep should I hammer the stakes?" },
+      { "role": "Camper", "cn": "至少一半，风绳拉紧。", "en": "At least halfway in. Tighten the guy lines." },
+      { "role": "You", "cn": "今晚会很冷吗？", "en": "Will it get cold tonight?" },
+      { "role": "Camper", "cn": "降到四十多华氏度，睡袋要够温标。", "en": "Down to the forties. Make sure your bag is rated for it." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks a lot!" }
+    ]
+  },
+  {
+    "id": "dlg-camp-03",
+    "category": "camping",
+    "title": "Hiking Trail",
+    "titleCn": "徒步路线",
+    "scene": "你在游客中心咨询徒步路线。",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "You", "cn": "有没有半天能走完的路线？", "en": "Is there a half-day hike?" },
+      { "role": "Ranger", "cn": "瀑布步道，四英里来回，中等难度。", "en": "Waterfall Trail, four miles round trip, moderate." },
+      { "role": "You", "cn": "需要登山杖吗？", "en": "Do we need trekking poles?" },
+      { "role": "Ranger", "cn": "建议带，最后一段较陡。", "en": "Recommended. The last section is steep." },
+      { "role": "You", "cn": "地图在这领吗？", "en": "Do we get maps here?" },
+      { "role": "Ranger", "cn": "免费，记得带水，下午雷雨。", "en": "Free maps. Bring water. Thunderstorms possible this afternoon." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-camp-04",
+    "category": "camping",
+    "title": "Campfire Cooking",
+    "titleCn": "篝火做饭",
+    "scene": "你在营地用篝火烤棉花糖，和邻居聊天。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "第一次烤棉花糖？", "en": "First time roasting marshmallows?" },
+      { "role": "You", "cn": "是，怎么烤才好吃？", "en": "Yes. How do you do it right?" },
+      { "role": "Neighbor", "cn": "离火远一点，转着烤，外面焦里面软。", "en": "Hold it farther from the flame, rotate until crispy outside and gooey inside." },
+      { "role": "You", "cn": "夹饼干就是S'mores对吧？", "en": "Sandwich it in graham crackers for s'mores, right?" },
+      { "role": "Neighbor", "cn": "对，巧克力也放一块。", "en": "Right, with a piece of chocolate." },
+      { "role": "You", "cn": "闻起来真香！", "en": "Smells amazing!" },
+      { "role": "Neighbor", "cn": "露营最棒的部分之一。", "en": "One of the best parts of camping." }
+    ]
+  },
+  {
+    "id": "dlg-camp-05",
+    "category": "camping",
+    "title": "Renting Gear",
+    "titleCn": "租户外装备",
+    "scene": "你在户外店租露营装备。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "租帐篷还是睡袋？", "en": "Renting a tent or sleeping bags?" },
+      { "role": "You", "cn": "四人帐加两个睡袋，周末两天。", "en": "A four-person tent and two bags for the weekend." },
+      { "role": "Clerk", "cn": "一共七十五，押金一百可退。", "en": "Seventy-five total. A hundred refundable deposit." },
+      { "role": "You", "cn": "有露营炉出租吗？", "en": "Do you rent camp stoves?" },
+      { "role": "Clerk", "cn": "有，十块一天，气罐另售。", "en": "Yes, ten a day. Fuel canisters sold separately." },
+      { "role": "You", "cn": "周日晚上六点还。", "en": "We'll return everything Sunday at six PM." },
+      { "role": "Clerk", "cn": "好的，逾期每天加十五。", "en": "Sounds good. Fifteen extra per late day." }
+    ]
+  }
+]

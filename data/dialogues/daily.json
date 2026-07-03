@@ -1,0 +1,260 @@
+[
+  {
+    "id": "dlg-daily-01",
+    "category": "daily",
+    "title": "Didn't Catch That",
+    "titleCn": "没听清请重复",
+    "scene": "收银员说话太快，你没听清总价。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "一共二十三块四，要袋子吗？", "en": "Twenty-three forty. Need a bag?" },
+      { "role": "You", "cn": "不好意思，能说慢一点吗？一共多少？", "en": "Sorry, could you slow down? How much was the total?" },
+      { "role": "Cashier", "cn": "二十三块四。", "en": "Twenty-three forty." },
+      { "role": "You", "cn": "好的，刷卡，不用袋子。", "en": "Okay. Card please. No bag." },
+      { "role": "Cashier", "cn": "请贴卡。", "en": "Go ahead and tap." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-daily-02",
+    "category": "daily",
+    "title": "Ask to Spell It",
+    "titleCn": "请对方拼写",
+    "scene": "前台登记名字，你没听清怎么拼。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "您的姓怎么拼？", "en": "How do you spell your last name?" },
+      { "role": "You", "cn": "Z-h-a-n-g，张。", "en": "Z-H-A-N-G. Zhang." },
+      { "role": "Receptionist", "cn": "名字是？", "en": "And your first name?" },
+      { "role": "You", "cn": "W-e-i，伟。能写下来给我确认吗？", "en": "W-E-I. Wei. Could you write it down for me to confirm?" },
+      { "role": "Receptionist", "cn": "当然，请看屏幕对不对。", "en": "Sure. Check if this looks right on the screen." },
+      { "role": "You", "cn": "对，谢谢。", "en": "Yes, that's correct. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-daily-03",
+    "category": "daily",
+    "title": "Drive-Through Speaker",
+    "titleCn": "得来速听不清",
+    "scene": "快餐得来速喇叭声音模糊，你听不清。",
+    "roles": ["You", "Speaker"],
+    "turns": [
+      { "role": "Speaker", "cn": "欢迎光临，请点餐。", "en": "Welcome. Order when you're ready." },
+      { "role": "You", "cn": "对不起，喇叭不清楚，我开到窗口点可以吗？", "en": "Sorry, the speaker's unclear. Can I order at the window?" },
+      { "role": "Speaker", "cn": "可以，请往前开。", "en": "Sure. Please pull forward." },
+      { "role": "You", "cn": "要一个巨无霸套餐，可乐换水。", "en": "One Big Mac meal, swap Coke for water." },
+      { "role": "Speaker", "cn": "十二块八，第一家窗口付款。", "en": "Twelve eighty. Pay at the first window." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-daily-04",
+    "category": "daily",
+    "title": "Confirm by Repeating Back",
+    "titleCn": "复述确认信息",
+    "scene": "医生前台口头告诉你预约时间，你复述确认。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "下周三四点十五，史密斯医生。", "en": "Next Wednesday at four fifteen with Dr. Smith." },
+      { "role": "You", "cn": "我确认一下：三月二十号，周三，下午四点十五，对吗？", "en": "Let me confirm: March twentieth, Wednesday, four fifteen PM, right?" },
+      { "role": "Receptionist", "cn": "对，提前十五分钟到。", "en": "Correct. Arrive fifteen minutes early." },
+      { "role": "You", "cn": "需要空腹吗？", "en": "Do I need to fast?" },
+      { "role": "Receptionist", "cn": "不用，常规复查。", "en": "No, it's a routine follow-up." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-daily-05",
+    "category": "daily",
+    "title": "Heavy Accent",
+    "titleCn": "口音重听不懂",
+    "scene": "对方口音重，你礼貌请对方换种说法。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "（快速指路）……turn at the light, ya know, the big ole building.", "en": "…turn at the light, ya know, the big ole building." },
+      { "role": "You", "cn": "抱歉，我英语不太好，能再说简单一点吗？", "en": "Sorry, my English isn't great. Could you say that more simply?" },
+      { "role": "Stranger", "cn": "红绿灯左转，白色教堂旁边。", "en": "Left at the traffic light, by the white church." },
+      { "role": "You", "cn": "步行几分钟？", "en": "How many minutes on foot?" },
+      { "role": "Stranger", "cn": "五分钟。", "en": "About five minutes." },
+      { "role": "You", "cn": "非常感谢！", "en": "Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-06",
+    "category": "daily",
+    "title": "Elevator Small Talk",
+    "titleCn": "电梯闲聊",
+    "scene": "电梯里邻居跟你闲聊天气，你简单回应。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "今天够冷的，是吧？", "en": "Pretty cold today, huh?" },
+      { "role": "You", "cn": "是啊，我差点忘了穿外套。", "en": "Yeah. I almost forgot my jacket." },
+      { "role": "Neighbor", "cn": "听说周末要下雪。", "en": "They're saying snow this weekend." },
+      { "role": "You", "cn": "希望别太大，我还得去超市。", "en": "Hope it's not too bad. I still need to hit the grocery store." },
+      { "role": "Neighbor", "cn": "几楼？", "en": "Which floor?" },
+      { "role": "You", "cn": "八楼，谢谢，Have a good one。", "en": "Eight, please. Have a good one." },
+      { "role": "Neighbor", "cn": "你也是！", "en": "You too!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-07",
+    "category": "daily",
+    "title": "Excuse Me in Aisle",
+    "titleCn": "过道让一下",
+    "scene": "超市过道被挡，你礼貌请人让路。",
+    "roles": ["You", "Shopper"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，借过一下。", "en": "Excuse me. Could I get through?" },
+      { "role": "Shopper", "cn": "哦抱歉，购物车挡路了。", "en": "Oh sorry. My cart was in the way." },
+      { "role": "You", "cn": "没事，谢谢。", "en": "No problem. Thanks." },
+      { "role": "Shopper", "cn": "你找番茄酱？在那边尽头。", "en": "Looking for ketchup? It's at the end there." },
+      { "role": "You", "cn": "对，谢谢指点！", "en": "Yes. Thanks for the tip!" },
+      { "role": "Shopper", "cn": "不客气。", "en": "Sure thing." }
+    ]
+  },
+  {
+    "id": "dlg-daily-08",
+    "category": "daily",
+    "title": "Bumped Into Someone",
+    "titleCn": "撞到人说抱歉",
+    "scene": "你走路看手机撞到人，赶紧道歉。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "You", "cn": "天哪，非常抱歉！您没事吧？", "en": "Oh gosh, I'm so sorry! Are you okay?" },
+      { "role": "Stranger", "cn": "没事，下次注意看路。", "en": "I'm fine. Just watch where you're going." },
+      { "role": "You", "cn": "是我的错，真的很抱歉。", "en": "My fault. I'm really sorry." },
+      { "role": "Stranger", "cn": "没关系，走吧。", "en": "It's okay. Go ahead." },
+      { "role": "You", "cn": "谢谢，祝您愉快。", "en": "Thanks. Have a good day." }
+    ]
+  },
+  {
+    "id": "dlg-daily-09",
+    "category": "daily",
+    "title": "Hold the Door",
+    "titleCn": "帮忙扶门",
+    "scene": "你帮别人扶门，简单寒暄。",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "You", "cn": "我帮您扶着门。", "en": "I've got the door for you." },
+      { "role": "Stranger", "cn": "谢谢，手满着。", "en": "Thanks. My hands are full." },
+      { "role": "You", "cn": "不客气。", "en": "No problem." },
+      { "role": "Stranger", "cn": "今天真忙，对吧？", "en": "Busy day, huh?" },
+      { "role": "You", "cn": "是啊，刚下班。", "en": "Yeah. Just got off work." },
+      { "role": "Stranger", "cn": "辛苦了，再见。", "en": "Hang in there. Bye." },
+      { "role": "You", "cn": "再见。", "en": "Bye." }
+    ]
+  },
+  {
+    "id": "dlg-daily-10",
+    "category": "daily",
+    "title": "Ending a Chat",
+    "titleCn": "结束聊天",
+    "scene": "同事聊得正欢，但你有会要开，礼貌告辞。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "周末去看球赛吗？", "en": "Going to the game this weekend?" },
+      { "role": "You", "cn": "可能去，还没买票。我得走了，十点有会。", "en": "Maybe, I haven't bought tickets yet. I gotta run, meeting at ten." },
+      { "role": "Colleague", "cn": "行，回头聊。", "en": "Sure. Talk later." },
+      { "role": "You", "cn": "好，待会 Slack 上见。", "en": "Sounds good. See you on Slack." },
+      { "role": "Colleague", "cn": "拜拜。", "en": "Bye." },
+      { "role": "You", "cn": "拜拜。", "en": "Bye." }
+    ]
+  },
+  {
+    "id": "dlg-daily-11",
+    "category": "daily",
+    "title": "Write It Down Please",
+    "titleCn": "请写下来",
+    "scene": "物业口头说一串步骤，你请对方写下来。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "先填表，再带ID去B窗口盖章，最后邮箱确认。", "en": "Fill the form, get a stamp at window B with ID, then confirm by email." },
+      { "role": "You", "cn": "步骤有点多，能写在这张纸上吗？", "en": "That's a lot. Could you write it on this paper?" },
+      { "role": "Clerk", "cn": "可以，一二三步。", "en": "Sure. One, two, three." },
+      { "role": "You", "cn": "B窗口今天开到几点？", "en": "What time does window B close today?" },
+      { "role": "Clerk", "cn": "下午四点。", "en": "Four PM." },
+      { "role": "You", "cn": "谢谢，帮大忙了。", "en": "Thanks. That's a big help." }
+    ]
+  },
+  {
+    "id": "dlg-daily-12",
+    "category": "daily",
+    "title": "Coffee Line Chat",
+    "titleCn": "排队买咖啡闲聊",
+    "scene": "咖啡店排队，前面的人跟你闲聊。",
+    "roles": ["You", "Customer"],
+    "turns": [
+      { "role": "Customer", "cn": "这队总是这么长。", "en": "This line's always long." },
+      { "role": "You", "cn": "是啊，不过咖啡值得等。", "en": "Yeah, but the coffee's worth it." },
+      { "role": "Customer", "cn": "你常来这家？", "en": "Do you come here often?" },
+      { "role": "You", "cn": "每周两三次，上班路上。", "en": "Two or three times a week on my way to work." },
+      { "role": "Customer", "cn": "我推荐燕麦拿铁。", "en": "I recommend the oat milk latte." },
+      { "role": "You", "cn": "好，今天试试，谢谢！", "en": "I'll try that today. Thanks!" },
+      { "role": "Customer", "cn": "不客气。", "en": "You're welcome." }
+    ]
+  },
+  {
+    "id": "dlg-daily-13",
+    "category": "daily",
+    "title": "Didn't Understand the Joke",
+    "titleCn": "没听懂玩笑",
+    "scene": "同事讲了个玩笑你没听懂，诚实询问。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "……所以项目经理说那是'feature'！", "en": "…so the PM said that's a feature!" },
+      { "role": "You", "cn": "不好意思，我没get到，能解释一下吗？", "en": "Sorry, I didn't get it. Could you explain?" },
+      { "role": "Colleague", "cn": "就是说bug被说成新功能，行业老梗。", "en": "It's when a bug gets called a new feature. Old industry joke." },
+      { "role": "You", "cn": "哈哈，懂了，谢谢。", "en": "Ha, got it now. Thanks." },
+      { "role": "Colleague", "cn": "没事，我有时候也说太快。", "en": "No worries. I talk too fast sometimes." },
+      { "role": "You", "cn": "我会多问你。", "en": "I'll ask more often." }
+    ]
+  },
+  {
+    "id": "dlg-daily-14",
+    "category": "daily",
+    "title": "Fast Food Counter Rush",
+    "titleCn": "快餐店嘈杂点单",
+    "scene": "午餐高峰快餐店很吵，店员问你加什么。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "要加薯条还是沙拉？饮料多大？", "en": "Fries or salad? What size drink?" },
+      { "role": "You", "cn": "请等一下，你说薯条还是什么？", "en": "One moment. Did you say fries or something else?" },
+      { "role": "Cashier", "cn": "薯条，中号饮料。", "en": "Fries, medium drink." },
+      { "role": "You", "cn": "好的，薯条，中杯可乐，在这吃。", "en": "Okay. Fries, medium Coke, for here." },
+      { "role": "Cashier", "cn": "九块五，请拿号牌等叫号。", "en": "Nine fifty. Take a number and wait." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-daily-15",
+    "category": "daily",
+    "title": "Is This the Right Line",
+    "titleCn": "排队排错队",
+    "scene": "你不确定是否排对窗口，问后面的人。",
+    "roles": ["You", "Person"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这是办驾照换新的队吗？", "en": "Excuse me, is this the line for license renewal?" },
+      { "role": "Person", "cn": "对，但要先在机器取号。", "en": "Yes, but you need a ticket from the kiosk first." },
+      { "role": "You", "cn": "啊，我没取号，谢谢提醒。", "en": "Oh, I didn't get one. Thanks for telling me." },
+      { "role": "Person", "cn": "机器在门口，选renewal。", "en": "Kiosk by the door. Pick renewal." },
+      { "role": "You", "cn": "明白了，我去取号。", "en": "Got it. I'll grab a number." },
+      { "role": "Person", "cn": "人不多，很快。", "en": "Not too busy. Should be quick." }
+    ]
+  },
+  {
+    "id": "dlg-daily-16",
+    "category": "daily",
+    "title": "Over the Phone Bad Connection",
+    "titleCn": "电话信号差",
+    "scene": "手机信号不好，你听不清对方说什么。",
+    "roles": ["You", "Caller"],
+    "turns": [
+      { "role": "Caller", "cn": "……预约改到……下午……", "en": "…reschedule to… afternoon…" },
+      { "role": "You", "cn": "对不起，信号不好，您能大声一点吗？", "en": "Sorry, bad signal. Could you speak up?" },
+      { "role": "Caller", "cn": "我说改到周四下午三点。", "en": "I said Thursday at three PM." },
+      { "role": "You", "cn": "周四三点，我重复一下对吗？", "en": "Thursday three PM. Let me repeat that back." },
+      { "role": "Caller", "cn": "对，谢谢。", "en": "Correct. Thank you." },
+      { "role": "You", "cn": "好的，周四见。", "en": "Okay. See you Thursday." }
+    ]
+  }
+]

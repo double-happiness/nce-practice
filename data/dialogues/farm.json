@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-farm-01",
+    "category": "farm",
+    "title": "Apple Picking",
+    "titleCn": "摘苹果",
+    "scene": "秋天你去苹果园采摘。",
+    "roles": ["You", "Farmer"],
+    "turns": [
+      { "role": "Farmer", "cn": "欢迎！袋子五块，按磅称重。", "en": "Welcome! Bags are five bucks, pay by the pound." },
+      { "role": "You", "cn": "哪种苹果现在最甜？", "en": "Which apples are sweetest right now?" },
+      { "role": "Farmer", "cn": "蜜脆和富士，那边山坡。", "en": "Honeycrisp and Fuji, up on that hill." },
+      { "role": "You", "cn": "能试吃一个吗？", "en": "Can we try one?" },
+      { "role": "Farmer", "cn": "园里随便尝，别浪费。", "en": "Sample in the orchard, just don't waste them." },
+      { "role": "You", "cn": "摘下来怎么判断熟？", "en": "How do I tell if they're ripe?" },
+      { "role": "Farmer", "cn": "轻轻一拧就下来就是熟了。", "en": "If it twists off easily, it's ready." }
+    ]
+  },
+  {
+    "id": "dlg-farm-02",
+    "category": "farm",
+    "title": "Pumpkin Patch",
+    "titleCn": "挑南瓜",
+    "scene": "万圣节前夕你带孩子去南瓜农场。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "小南瓜三块，大的按磅算。", "en": "Small pumpkins are three dollars. Big ones by the pound." },
+      { "role": "You", "cn": "想刻杰克灯，哪种好刻？", "en": "We want to carve jack-o'-lanterns. Which type is best?" },
+      { "role": "Staff", "cn": "雕刻南瓜，皮薄肉少的那种。", "en": "Carving pumpkins, thin skin and less flesh." },
+      { "role": "You", "cn": "迷宫几点关门？", "en": "What time does the corn maze close?" },
+      { "role": "Staff", "cn": "六点，天黑前出来安全。", "en": "Six PM. Come out before it gets too dark." },
+      { "role": "You", "cn": "能坐 hayride 吗？", "en": "Can we take the hayride?" },
+      { "role": "Staff", "cn": "每半小时一班，谷仓那边上车。", "en": "Every half hour. Board by the barn." }
+    ]
+  },
+  {
+    "id": "dlg-farm-03",
+    "category": "farm",
+    "title": "Strawberry Picking",
+    "titleCn": "摘草莓",
+    "scene": "初夏你去草莓园 U-pick。",
+    "roles": ["You", "Farmer"],
+    "turns": [
+      { "role": "Farmer", "cn": "草莓四块五一磅，先领篮子。", "en": "Strawberries are four fifty a pound. Grab a basket first." },
+      { "role": "You", "cn": "哪几行还可以摘？", "en": "Which rows are still good for picking?" },
+      { "role": "Farmer", "cn": "靠左边三行，红的捏柄轻摘。", "en": "The three rows on the left. Pinch the stem on red ones." },
+      { "role": "You", "cn": "小孩可以进田里吗？", "en": "Can kids walk in the rows?" },
+      { "role": "Farmer", "cn": "可以，别踩苗，别坐地上吃。", "en": "Yes, but don't step on plants or sit and eat in the field." },
+      { "role": "You", "cn": "洗完能放几天？", "en": "How long do they last after washing?" },
+      { "role": "Farmer", "cn": "冷藏两三天，当天吃最好。", "en": "Two or three days chilled. Best eaten today." }
+    ]
+  },
+  {
+    "id": "dlg-farm-04",
+    "category": "farm",
+    "title": "Farmers Market Stand",
+    "titleCn": "农贸市场",
+    "scene": "你在农贸市场直接向农场主买蔬菜。",
+    "roles": ["You", "Farmer"],
+    "turns": [
+      { "role": "Farmer", "cn": "今早摘的番茄，三磅五块。", "en": "Tomatoes picked this morning, five bucks for three pounds." },
+      { "role": "You", "cn": "这些是有机的吗？", "en": "Are these organic?" },
+      { "role": "Farmer", "cn": "是有机认证，没喷农药。", "en": "Certified organic, no spray." },
+      { "role": "You", "cn": "再来一把罗勒和六个玉米。", "en": "I'll also take a bunch of basil and six ears of corn." },
+      { "role": "Farmer", "cn": "玉米十块一打，你要半打？", "en": "Corn is ten a dozen. Want half a dozen?" },
+      { "role": "You", "cn": "对，可以刷卡吗？", "en": "Yes. Do you take cards?" },
+      { "role": "Farmer", "cn": "可以，总共十八。", "en": "Sure. Eighteen total." }
+    ]
+  },
+  {
+    "id": "dlg-farm-05",
+    "category": "farm",
+    "title": "Petting Zoo",
+    "titleCn": "农场动物园",
+    "scene": "你带孩子去农场喂小动物。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "喂山羊请用掌心，别捏饲料。", "en": "Feed goats from a flat palm. Don't pinch the pellets." },
+      { "role": "You", "cn": "孩子可以抱兔子吗？", "en": "Can my kid hold a rabbit?" },
+      { "role": "Staff", "cn": "工作人员抱着，轻轻摸耳朵。", "en": "Staff will hold it. Pet gently, not the ears." },
+      { "role": "You", "cn": "洗手站在哪？", "en": "Where's the hand-washing station?" },
+      { "role": "Staff", "cn": "出口左边，摸完动物都要洗。", "en": "Left of the exit. Wash after touching animals." },
+      { "role": "You", "cn": "牛奶几点挤？想看表演。", "en": "What time is milking? We'd like to watch." },
+      { "role": "Staff", "cn": "下午四点，谷仓旁边。", "en": "Four PM by the barn." }
+    ]
+  }
+]

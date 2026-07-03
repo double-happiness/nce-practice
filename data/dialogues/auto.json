@@ -83,5 +83,22 @@
       { "role": "You", "cn": "加满油再还是预付油费？", "en": "Return full or prepay for gas?" },
       { "role": "Agent", "cn": "建议加满再还，更划算。", "en": "Returning full is usually cheaper." }
     ]
+  },
+  {
+    "id": "dlg-auto-06",
+    "category": "auto",
+    "title": "Roadside Assistance",
+    "titleCn": "道路救援",
+    "scene": "你车在高速上爆胎，打道路救援电话。",
+    "roles": ["You", "Operator"],
+    "turns": [
+      { "role": "Operator", "cn": "道路救援，请说车牌和位置。", "en": "Roadside assistance. License plate and location, please." },
+      { "role": "You", "cn": "ABC1234，在95号公路南向，刚过42出口。", "en": "ABC1234, southbound on I-95, just past exit forty-two." },
+      { "role": "Operator", "cn": "会员姓名？爆胎还是抛锚？", "en": "Member name? Flat tire or breakdown?" },
+      { "role": "You", "cn": "张伟，右后轮爆胎了。", "en": "Zhang Wei. Right rear flat tire." },
+      { "role": "Operator", "cn": "拖车约四十分钟到，请靠边双闪。", "en": "A truck should arrive in about forty minutes. Pull over with hazards on." },
+      { "role": "You", "cn": "人在车里等安全吗？", "en": "Is it safe to wait inside the car?" },
+      { "role": "Operator", "cn": "离车道远的话可以，注意来车。", "en": "If you're well off the lane, yes. Watch for traffic." }
+    ]
   }
 ]

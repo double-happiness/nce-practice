@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dlg-wash-01",
+    "category": "carwash",
+    "title": "Drive-Through Car Wash",
+    "titleCn": "自动洗车",
+    "scene": "你第一次用自助洗车机。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "基础洗八块，加蜡十二。", "en": "Basic wash is eight bucks. With wax is twelve." },
+      { "role": "You", "cn": "加蜡吧，天窗要关吗？", "en": "With wax, please. Should I close the sunroof?" },
+      { "role": "Attendant", "cn": "关好，后视镜折进去，挂N档。", "en": "Close it. Fold mirrors in and put it in neutral." },
+      { "role": "You", "cn": "脚要不要踩刹车？", "en": "Do I keep my foot on the brake?" },
+      { "role": "Attendant", "cn": "不用，跟着传送带走就行。", "en": "No, just let the conveyor pull you through." },
+      { "role": "You", "cn": "洗完在哪擦干？", "en": "Where do I dry off after?" },
+      { "role": "Attendant", "cn": "出口有免费吸尘器和毛巾架。", "en": "Free vacuums and towel racks at the exit." }
+    ]
+  },
+  {
+    "id": "dlg-wash-02",
+    "category": "carwash",
+    "title": "Hand Wash Detail",
+    "titleCn": "精洗内饰",
+    "scene": "你预约了车内精洗服务。",
+    "roles": ["You", "Detailer"],
+    "turns": [
+      { "role": "Detailer", "cn": "全套内饰一百二，大概两小时。", "en": "Full interior detail is a hundred twenty, about two hours." },
+      { "role": "You", "cn": "座椅上有咖啡渍，能去掉吗？", "en": "There's a coffee stain on the seat. Can you get it out?" },
+      { "role": "Detailer", "cn": "八成能清，严重的话会淡很多。", "en": "Usually yes. Bad ones fade a lot." },
+      { "role": "You", "cn": "后备箱也清理吗？", "en": "Does that include the trunk?" },
+      { "role": "Detailer", "cn": "含吸尘和擦拭，个人物品请先拿走。", "en": "Vacuum and wipe-down included. Remove personal items first." },
+      { "role": "You", "cn": "好了，四点来取。", "en": "Sounds good. I'll pick it up at four." },
+      { "role": "Detailer", "cn": "我们会发短信通知。", "en": "We'll text you when it's ready." }
+    ]
+  },
+  {
+    "id": "dlg-wash-03",
+    "category": "carwash",
+    "title": "Brake Noise",
+    "titleCn": "刹车异响",
+    "scene": "刹车吱吱响，你去修理店检查。",
+    "roles": ["You", "Mechanic"],
+    "turns": [
+      { "role": "You", "cn": "刹车踩下去有尖叫声。", "en": "My brakes squeal when I press the pedal." },
+      { "role": "Mechanic", "cn": "可能是刹车片磨薄了，我开一圈听听。", "en": "Pads might be worn. Let me take it for a quick listen." },
+      { "role": "You", "cn": "严重吗？还能开多久？", "en": "Is it serious? How long can I drive like this?" },
+      { "role": "Mechanic", "cn": "还能开几百英里，但尽快换。", "en": "A few hundred miles, but swap them soon." },
+      { "role": "You", "cn": "前后一起换多少钱？", "en": "How much for front and rear?" },
+      { "role": "Mechanic", "cn": "零件加人工大概三百五。", "en": "About three fifty parts and labor." },
+      { "role": "You", "cn": "今天能换吗？", "en": "Can you do it today?" }
+    ]
+  },
+  {
+    "id": "dlg-wash-04",
+    "category": "carwash",
+    "title": "Tire Rotation",
+    "titleCn": "轮胎换位",
+    "scene": "你去做定期轮胎换位和打气。",
+    "roles": ["You", "Mechanic"],
+    "turns": [
+      { "role": "Mechanic", "cn": "换位免费，胎压我帮您测。", "en": "Rotation's free with your service. I'll check tire pressure." },
+      { "role": "You", "cn": "胎压应该打多少？", "en": "What PSI should they be?" },
+      { "role": "Mechanic", "cn": "门框贴纸写三十二，现在都偏低。", "en": "Thirty-two on the door sticker. They're all a bit low." },
+      { "role": "You", "cn": "右前轮磨损是不是快一点？", "en": "Is the right front wearing faster?" },
+      { "role": "Mechanic", "cn": "轻微偏磨，换位后会均匀些。", "en": "Slight uneven wear. Rotation should even it out." },
+      { "role": "You", "cn": "谢谢，还要等多久？", "en": "Thanks. How much longer?" },
+      { "role": "Mechanic", "cn": "十五分钟就好。", "en": "About fifteen minutes." }
+    ]
+  },
+  {
+    "id": "dlg-wash-05",
+    "category": "carwash",
+    "title": "Smog Check",
+    "titleCn": "尾气检测",
+    "scene": "你去做加州式的尾气年检。",
+    "roles": ["You", "Inspector"],
+    "turns": [
+      { "role": "Inspector", "cn": "注册快到期了？检测费五十五。", "en": "Registration expiring? The smog check is fifty-five." },
+      { "role": "You", "cn": "对，去年换过氧传感器。", "en": "Yes. I replaced the oxygen sensor last year." },
+      { "role": "Inspector", "cn": "发动机暖机五分钟再测。", "en": "Warm up the engine for five minutes first." },
+      { "role": "You", "cn": "没过的话怎么办？", "en": "What if it doesn't pass?" },
+      { "role": "Inspector", "cn": "免费复测一次，修好后两周内。", "en": "One free retest within two weeks after repairs." },
+      { "role": "You", "cn": "过了会给我报告吗？", "en": "Will I get a report if I pass?" },
+      { "role": "Inspector", "cn": "电子传DMV，您手机也能看。", "en": "It's sent electronically to the DMV. You can view it on your phone too." }
+    ]
+  },
+  {
+    "id": "dlg-wash-06",
+    "category": "carwash",
+    "title": "Repair Estimate",
+    "titleCn": "修车估价",
+    "scene": "修理厂报价偏高，你和师傅商量。",
+    "roles": ["You", "Mechanic"],
+    "turns": [
+      { "role": "Mechanic", "cn": "变速箱和刹车一起修，报价一千二。", "en": "Transmission and brakes together, twelve hundred quoted." },
+      { "role": "You", "cn": "能分开做吗？先修刹车站得住吗？", "en": "Can we split it? Are brakes okay to do first?" },
+      { "role": "Mechanic", "cn": "刹车四百可以先做，变速箱再预约。", "en": "Brakes are four hundred now. Schedule transmission later." },
+      { "role": "You", "cn": "用副厂件能便宜多少？", "en": "How much cheaper with aftermarket parts?" },
+      { "role": "Mechanic", "cn": "大概省一百五，质保短一点。", "en": "About a hundred fifty less, shorter warranty." },
+      { "role": "You", "cn": "刹车用副厂，今天能取车吗？", "en": "Aftermarket for brakes. Can I get the car back today?" },
+      { "role": "Mechanic", "cn": "五点前可以。", "en": "Before five PM, yes." }
+    ]
+  }
+]

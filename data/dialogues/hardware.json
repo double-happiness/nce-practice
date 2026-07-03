@@ -83,5 +83,39 @@
       { "role": "Clerk", "cn": "好了，试试能不能用。", "en": "All set. Try them out." },
       { "role": "You", "cn": "没问题，谢谢！", "en": "They work. Thanks!" }
     ]
+  },
+  {
+    "id": "dlg-hard-06",
+    "category": "hardware",
+    "title": "Roof Leak Quote",
+    "titleCn": "屋顶漏水",
+    "scene": "下雨天天花板渗水，你请屋顶工估价。",
+    "roles": ["You", "Contractor"],
+    "turns": [
+      { "role": "Contractor", "cn": "阁楼看了，瓦片碎了两片，防水层老化。", "en": "I checked the attic. Two shingles are cracked and the underlayment is worn." },
+      { "role": "You", "cn": "补几片就行还是要换整面？", "en": "Patch a few or replace the whole section?" },
+      { "role": "Contractor", "cn": "局部修补八百，整面坡三千五。", "en": "Spot repair eight hundred, full slope thirty-five hundred." },
+      { "role": "You", "cn": "修补能撑多久？", "en": "How long will a patch last?" },
+      { "role": "Contractor", "cn": "两三年，之后可能还要换。", "en": "Two or three years, then you may need more work." },
+      { "role": "You", "cn": "先修补，下周能施工吗？", "en": "Let's patch for now. Can you do it next week?" },
+      { "role": "Contractor", "cn": "周三晴天我安排。", "en": "I'll schedule Wednesday if it's dry." }
+    ]
+  },
+  {
+    "id": "dlg-hard-07",
+    "category": "hardware",
+    "title": "Gutter Cleaning",
+    "titleCn": "清理排水沟",
+    "scene": "你请工人清理秋天堵满的排水沟。",
+    "roles": ["You", "Worker"],
+    "turns": [
+      { "role": "Worker", "cn": "两层楼，前后沟，报价一百八。", "en": "Two stories, front and back gutters, a hundred eighty." },
+      { "role": "You", "cn": "里面树叶很多，下水管也通吗？", "en": "Lots of leaves inside. Do you clear the downspouts too?" },
+      { "role": "Worker", "cn": "包含，会冲水测试。", "en": "Included. We'll flush and test drainage." },
+      { "role": "You", "cn": "需要搭脚手架吗？", "en": "Do you need scaffolding?" },
+      { "role": "Worker", "cn": "用梯子就够，有保险。", "en": "Ladders are fine. We're insured." },
+      { "role": "You", "cn": "每年秋天来一次行吗？", "en": "Can you come every fall?" },
+      { "role": "Worker", "cn": "可以，九月提醒您。", "en": "Sure. I'll remind you in September." }
+    ]
   }
 ]

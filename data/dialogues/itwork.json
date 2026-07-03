@@ -1,0 +1,252 @@
+[
+  {
+    "id": "dlg-it-01",
+    "category": "itwork",
+    "title": "Daily Standup",
+    "titleCn": "每日站会",
+    "scene": "敏捷团队每日站会，轮到你发言。",
+    "roles": ["You", "Scrum Master"],
+    "turns": [
+      { "role": "Scrum Master", "cn": "张伟，昨天、今天和有什么阻碍？", "en": "Zhang Wei, yesterday, today, and any blockers?" },
+      { "role": "You", "cn": "昨天完成了登录API，今天做单元测试。", "en": "Yesterday I finished the login API. Today I'm writing unit tests." },
+      { "role": "Scrum Master", "cn": "有卡住的吗？", "en": "Anything blocking you?" },
+      { "role": "You", "cn": "测试环境数据库还没同步，等运维。", "en": "The test DB isn't synced yet. Waiting on ops." },
+      { "role": "Scrum Master", "cn": "我会后跟运维说。", "en": "I'll ping ops after standup." },
+      { "role": "You", "cn": "谢谢，没别的了。", "en": "Thanks. That's all from me." }
+    ]
+  },
+  {
+    "id": "dlg-it-02",
+    "category": "itwork",
+    "title": "Code Review Feedback",
+    "titleCn": "代码评审",
+    "scene": "同事 review 你的 PR，你回应意见。",
+    "roles": ["You", "Reviewer"],
+    "turns": [
+      { "role": "Reviewer", "cn": "整体不错，但错误处理要补一下。", "en": "Looks good overall, but please add error handling." },
+      { "role": "You", "cn": "好的，我会在外层加 try-catch 并打日志。", "en": "Sure. I'll wrap it in try-catch and log failures." },
+      { "role": "Reviewer", "cn": "第三个函数名能更清楚吗？", "en": "Could the third function name be clearer?" },
+      { "role": "You", "cn": "改成 validateUserInput，今晚 push。", "en": "I'll rename it to validateUserInput and push tonight." },
+      { "role": "Reviewer", "cn": "改完我 approve。", "en": "I'll approve once that's in." },
+      { "role": "You", "cn": "感谢 review！", "en": "Thanks for the review!" }
+    ]
+  },
+  {
+    "id": "dlg-it-03",
+    "category": "itwork",
+    "title": "Client Kickoff Meeting",
+    "titleCn": "客户项目启动会",
+    "scene": "新项目启动，你向客户介绍技术方案。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "项目大概多久能上线？", "en": "Roughly when can we go live?" },
+      { "role": "You", "cn": "MVP 十二周，分三期交付，每期都有演示。", "en": "Twelve weeks for MVP, three phases with a demo each." },
+      { "role": "Client", "cn": "数据存在哪？合规怎么保证？", "en": "Where is data stored? How do you handle compliance?" },
+      { "role": "You", "cn": "AWS美国区，加密传输和静态加密，SOC2流程。", "en": "AWS US region, encryption in transit and at rest, SOC2 processes." },
+      { "role": "Client", "cn": "每周五能同步进度吗？", "en": "Can we sync every Friday?" },
+      { "role": "You", "cn": "可以，我会发周报和风险清单。", "en": "Yes. I'll send a weekly report and risk log." },
+      { "role": "Client", "cn": "好，期待合作。", "en": "Sounds good. Looking forward to working together." }
+    ]
+  },
+  {
+    "id": "dlg-it-04",
+    "category": "itwork",
+    "title": "Clarifying Requirements",
+    "titleCn": "澄清产品需求",
+    "scene": "你和产品经理对齐用户故事细节。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "用户要一键导出PDF，本周能做完吗？", "en": "Users want one-click PDF export. Can we ship this week?" },
+      { "role": "You", "cn": "要看模板复杂度，简单版三天，带图表要一周。", "en": "Depends on templates. Simple version three days, charts take a week." },
+      { "role": "PM", "cn": "先简单版，图表下期。", "en": "Simple version first. Charts next sprint." },
+      { "role": "You", "cn": "导出失败要提示什么文案？", "en": "What copy should we show if export fails?" },
+      { "role": "PM", "cn": "用设计稿里的，我发链接。", "en": "Use the design spec. I'll send the link." },
+      { "role": "You", "cn": "好，我更新 ticket 估算。", "en": "Okay. I'll update the ticket estimate." }
+    ]
+  },
+  {
+    "id": "dlg-it-05",
+    "category": "itwork",
+    "title": "Teaching Email Basics",
+    "titleCn": "教长辈用邮箱",
+    "scene": "你教妈妈第一次在电脑上发邮件。",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "点哪里写邮件？", "en": "Where do I click to write an email?" },
+      { "role": "You", "cn": "点左上角 Compose，就是写信。", "en": "Click Compose in the top left. That means new message." },
+      { "role": "Parent", "cn": "附件怎么加？照片想发给姐姐。", "en": "How do I attach photos for your sister?" },
+      { "role": "You", "cn": "点回形针图标，选桌面上的文件夹。", "en": "Click the paperclip, then pick the folder on the desktop." },
+      { "role": "Parent", "cn": "发错了能撤回吗？", "en": "Can I take it back if I sent wrong?" },
+      { "role": "You", "cn": "三十秒内点 Undo send，我帮您设好。", "en": "Undo send within thirty seconds. I'll turn that on for you." },
+      { "role": "Parent", "cn": "好了，我试试发给你。", "en": "Okay. I'll try sending one to you." }
+    ]
+  },
+  {
+    "id": "dlg-it-06",
+    "category": "itwork",
+    "title": "App Onboarding for User",
+    "titleCn": "教用户用APP",
+    "scene": "你电话指导老年用户安装并使用银行APP。",
+    "roles": ["You", "User"],
+    "turns": [
+      { "role": "User", "cn": "应用商店里搜哪个？", "en": "Which one do I search in the app store?" },
+      { "role": "You", "cn": "搜银行全名，认蓝色图标，别下错。", "en": "Search the bank's full name. Blue icon. Don't pick the wrong one." },
+      { "role": "User", "cn": "装好了，要注册吗？", "en": "Installed. Do I need to sign up?" },
+      { "role": "You", "cn": "用网银账号登录，第一次要短信验证码。", "en": "Log in with your online banking ID. First time needs an SMS code." },
+      { "role": "User", "cn": "余额在哪看？", "en": "Where do I see my balance?" },
+      { "role": "You", "cn": "首页中间大字就是，下拉刷新。", "en": "Big number in the middle of the home screen. Pull down to refresh." },
+      { "role": "User", "cn": "明白了，谢谢耐心。", "en": "Got it. Thanks for your patience." }
+    ]
+  },
+  {
+    "id": "dlg-it-07",
+    "category": "itwork",
+    "title": "Production Incident Call",
+    "titleCn": "线上故障电话会",
+    "scene": "生产环境宕机，你参加紧急电话会议。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "现在什么情况？影响多少用户？", "en": "What's the status? How many users are affected?" },
+      { "role": "You", "cn": "支付服务挂了，大约三成交易失败。", "en": "Payment service is down. About thirty percent of transactions fail." },
+      { "role": "Manager", "cn": "根因有线索吗？", "en": "Any idea on root cause?" },
+      { "role": "You", "cn": "数据库连接池耗尽，我们先扩容并重启。", "en": "DB connection pool exhausted. We're scaling up and restarting." },
+      { "role": "Manager", "cn": "ETA恢复？", "en": "ETA for recovery?" },
+      { "role": "You", "cn": "十五分钟内，每五分钟更新。", "en": "Within fifteen minutes. Updates every five minutes." },
+      { "role": "Manager", "cn": "好，客户那边我来沟通。", "en": "Okay. I'll handle customer comms." }
+    ]
+  },
+  {
+    "id": "dlg-it-08",
+    "category": "itwork",
+    "title": "Bug Cannot Reproduce",
+    "titleCn": "和QA对bug",
+    "scene": "QA 提的 bug 你本地复现不了，一起讨论。",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "安卓12上点击保存会闪退。", "en": "On Android twelve, tap Save and the app crashes." },
+      { "role": "You", "cn": "我模拟器安卓13没问题，具体机型？", "en": "Fine on my Android thirteen emulator. Which device?" },
+      { "role": "QA", "cn": "三星A52，录屏发Slack了。", "en": "Samsung A52. Screen recording's in Slack." },
+      { "role": "You", "cn": "看到了，可能是权限弹窗，我借真机试。", "en": "Saw it. Might be a permission dialog. I'll test on a real device." },
+      { "role": "QA", "cn": "需要我协助复现步骤吗？", "en": "Want me to walk through the steps again?" },
+      { "role": "You", "cn": "先不用，今晚给你结论。", "en": "Not yet. I'll have an answer tonight." }
+    ]
+  },
+  {
+    "id": "dlg-it-09",
+    "category": "itwork",
+    "title": "Product Demo to Client",
+    "titleCn": "给客户演示产品",
+    "scene": "你向客户演示新功能并收集反馈。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "我共享屏幕，这是新的报表仪表盘。", "en": "I'm sharing my screen. This is the new reporting dashboard." },
+      { "role": "Client", "cn": "能按地区筛选吗？", "en": "Can we filter by region?" },
+      { "role": "You", "cn": "可以，左上角下拉选州或城市。", "en": "Yes. Use the dropdown top left for state or city." },
+      { "role": "Client", "cn": "导出Excel有吗？", "en": "Is there Excel export?" },
+      { "role": "You", "cn": "下 sprint 上，CSV这版已有。", "en": "Excel next sprint. CSV is in this release." },
+      { "role": "Client", "cn": "加载有点慢。", "en": "It feels a bit slow to load." },
+      { "role": "You", "cn": "我们在优化缓存，下周五会改善。", "en": "We're improving caching. You'll see gains by next Friday." }
+    ]
+  },
+  {
+    "id": "dlg-it-10",
+    "category": "itwork",
+    "title": "Connect to Wi-Fi",
+    "titleCn": "教连WiFi",
+    "scene": "你帮同事的家人连接家里无线网络。",
+    "roles": ["You", "User"],
+    "turns": [
+      { "role": "User", "cn": "右下角没网络图标怎么办？", "en": "There's no network icon in the corner." },
+      { "role": "You", "cn": "先点设置，再点网络和Internet。", "en": "Open Settings, then Network and Internet." },
+      { "role": "User", "cn": "密码在哪看？", "en": "Where's the password?" },
+      { "role": "You", "cn": "路由器背面贴纸，WPA那行。", "en": "On the sticker on the router. The WPA line." },
+      { "role": "User", "cn": "连上了但显示无Internet。", "en": "Connected but it says no internet." },
+      { "role": "You", "cn": "我重启一下路由器，您等两分钟。", "en": "I'll reboot the router. Give it two minutes." },
+      { "role": "User", "cn": "现在可以了，谢谢！", "en": "It works now. Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-it-11",
+    "category": "itwork",
+    "title": "Password Reset Walkthrough",
+    "titleCn": "电话指导重置密码",
+    "scene": "你支持热线，帮用户重置公司系统密码。",
+    "roles": ["You", "User"],
+    "turns": [
+      { "role": "User", "cn": "密码过期登不进去了。", "en": "My password expired and I can't log in." },
+      { "role": "You", "cn": "请打开登录页，点Forgot password。", "en": "Go to the login page and click Forgot password." },
+      { "role": "User", "cn": "邮箱没收到重置链接。", "en": "I didn't get the reset email." },
+      { "role": "You", "cn": "查垃圾邮件，或我手动发临时密码。", "en": "Check spam, or I can issue a temporary password." },
+      { "role": "User", "cn": "垃圾邮件里有，下一步？", "en": "Found it in spam. What's next?" },
+      { "role": "You", "cn": "点链接，设十二位含大小写和数字的新密码。", "en": "Click the link and set a new twelve-character password with upper, lower, and numbers." },
+      { "role": "User", "cn": "登进去了，谢谢。", "en": "I'm in. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-it-12",
+    "category": "itwork",
+    "title": "Sprint Planning",
+    "titleCn": "迭代计划会",
+    "scene": "团队做 sprint planning，你估算任务。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "这个用户故事五点还是八故事点？", "en": "Is this story five or eight points?" },
+      { "role": "You", "cn": "要接第三方API，有文档风险，我投八。", "en": "Third-party API with doc risk. I vote eight." },
+      { "role": "PM", "cn": "本 sprint 容量三十点，还能塞一个小的。", "en": "Capacity is thirty points. Room for one small item." },
+      { "role": "You", "cn": "修登录页文案bug两点可以带上。", "en": "The login copy fix is two points. We can take it." },
+      { "role": "PM", "cn": "好，目标周五 demo。", "en": "Good. Target demo Friday." },
+      { "role": "You", "cn": "没问题。", "en": "Works for me." }
+    ]
+  },
+  {
+    "id": "dlg-it-13",
+    "category": "itwork",
+    "title": "Help with Git Merge",
+    "titleCn": "帮同事解决合并冲突",
+    "scene": "新同事 git merge 冲突，你口头指导。",
+    "roles": ["You", "Junior"],
+    "turns": [
+      { "role": "Junior", "cn": "pull 下来全是冲突，不敢动。", "en": "I pulled and everything conflicts. I'm afraid to touch it." },
+      { "role": "You", "cn": "先别慌，打开 main.py，看<<<<标记。", "en": "Don't panic. Open main.py and look for the angle bracket markers." },
+      { "role": "Junior", "cn": "两边都改了同一行。", "en": "Both sides changed the same line." },
+      { "role": "You", "cn": "保留我们加日志那版，删掉标记行。", "en": "Keep our version with logging. Delete the marker lines." },
+      { "role": "Junior", "cn": "然后 git add 再 commit？", "en": "Then git add and commit?" },
+      { "role": "You", "cn": "对，push前跑一下测试。", "en": "Yes. Run tests before you push." },
+      { "role": "Junior", "cn": "懂了，谢谢！", "en": "Got it. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-it-14",
+    "category": "itwork",
+    "title": "Present Roadmap to Client",
+    "titleCn": "讲产品路线图",
+    "scene": "你向客户讲解下季度产品路线图。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "Q2重点是移动端和报表，Q3是API开放。", "en": "Q2 focus is mobile and reporting. Q3 is API access." },
+      { "role": "Client", "cn": "我们最需要批量导入，能提前吗？", "en": "We need bulk import most. Can that move up?" },
+      { "role": "You", "cn": "可以插到Q2中期，但要减一个次要功能。", "en": "We can slot it mid-Q2 if we drop a minor feature." },
+      { "role": "Client", "cn": "哪个可以延后？", "en": "Which one can wait?" },
+      { "role": "You", "cn": "深色主题可以放到Q3。", "en": "Dark mode can slide to Q3." },
+      { "role": "Client", "cn": "同意，请更新合同附件。", "en": "Agreed. Please update the contract appendix." },
+      { "role": "You", "cn": "本周五前发您确认。", "en": "I'll send it for confirmation by Friday." }
+    ]
+  },
+  {
+    "id": "dlg-it-15",
+    "category": "itwork",
+    "title": "Design Review Meeting",
+    "titleCn": "技术方案评审",
+    "scene": "你在设计评审会上讲解系统架构。",
+    "roles": ["You", "Architect"],
+    "turns": [
+      { "role": "Architect", "cn": "为什么用消息队列而不是同步调用？", "en": "Why a message queue instead of synchronous calls?" },
+      { "role": "You", "cn": "订单峰值高，异步削峰，下游挂了也不丢单。", "en": "Order spikes need buffering. Async smooths load and survives downstream outages." },
+      { "role": "Architect", "cn": "重复消费怎么处理？", "en": "How do you handle duplicate consumption?" },
+      { "role": "You", "cn": "业务层幂等键，数据库唯一约束。", "en": "Idempotency keys in the service layer plus DB unique constraints." },
+      { "role": "Architect", "cn": "监控告警呢？", "en": "Monitoring and alerts?" },
+      { "role": "You", "cn": "队列积压和错误率接PagerDuty。", "en": "Queue depth and error rate feed into PagerDuty." },
+      { "role": "Architect", "cn": "可以，按这个方案推进。", "en": "Sounds good. Proceed with this design." }
+    ]
+  }
+]

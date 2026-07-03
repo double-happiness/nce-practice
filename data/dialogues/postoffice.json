@@ -83,5 +83,90 @@
       { "role": "Clerk", "cn": "大概七个工作日。", "en": "About seven business days." },
       { "role": "You", "cn": "好的，费用多少？", "en": "Okay. How much is the fee?" }
     ]
+  },
+  {
+    "id": "dlg-post-06",
+    "category": "postoffice",
+    "title": "Sending a Letter",
+    "titleCn": "寄平信",
+    "scene": "你在邮局寄一封普通信到美国国内。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "寄到加州，普通邮件多少钱？", "en": "To California, how much for regular mail?" },
+      { "role": "Clerk", "cn": "标准信封六十八美分，三天到五天。", "en": "Sixty-eight cents for a standard envelope. Three to five days." },
+      { "role": "You", "cn": "要加certified吗？", "en": "Should I add certified mail?" },
+      { "role": "Clerk", "cn": "重要文件建议加，有签收记录。", "en": "For important docs, yes. You get delivery confirmation." },
+      { "role": "You", "cn": "先普通吧，贴邮票在这。", "en": "Regular is fine. Stamps go here?" },
+      { "role": "Clerk", "cn": "对，右上角，投进外面邮箱也行。", "en": "Top right. You can drop it in the blue box outside too." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-post-07",
+    "category": "postoffice",
+    "title": "International Package Form",
+    "titleCn": "寄国际包裹填表",
+    "scene": "你寄包裹回国，窗口职员指导填海关表。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "内容物要写清楚，中英文都行。", "en": "List contents clearly. English or Chinese is fine." },
+      { "role": "You", "cn": "衣服和书，礼物，怎么填价值？", "en": "Clothes and books, gifts. How do I declare value?" },
+      { "role": "Clerk", "cn": "按实际买价，别低报。", "en": "Actual purchase price. Don't understate it." },
+      { "role": "You", "cn": "空运还是海运？", "en": "Air or sea?" },
+      { "role": "Clerk", "cn": "空运两周，海运便宜但两个月。", "en": "Air is two weeks. Sea is cheaper but two months." },
+      { "role": "You", "cn": "空运吧，一共多少钱？", "en": "Air please. How much total?" },
+      { "role": "Clerk", "cn": "四十五，跟踪号在这。", "en": "Forty-five. Here's your tracking number." }
+    ]
+  },
+  {
+    "id": "dlg-post-08",
+    "category": "postoffice",
+    "title": "Hold Mail While Away",
+    "titleCn": "旅行停邮",
+    "scene": "你出差两周，办邮件暂存。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "旅行两周，能暂停送信吗？", "en": "I'm away two weeks. Can you hold my mail?" },
+      { "role": "Clerk", "cn": "可以，最长三十天，免费。", "en": "Yes, up to thirty days, free." },
+      { "role": "You", "cn": "回来当天恢复送信？", "en": "Does delivery resume the day I'm back?" },
+      { "role": "Clerk", "cn": "填结束日期，次日恢复。", "en": "Put your end date. Delivery resumes the next day." },
+      { "role": "You", "cn": "积压邮件会一次送来吗？", "en": "Will held mail come all at once?" },
+      { "role": "Clerk", "cn": "对，第一天可能比较多。", "en": "Yes. The first day might be a lot." },
+      { "role": "You", "cn": "好的，我填表。", "en": "Okay. I'll fill out the form." }
+    ]
+  },
+  {
+    "id": "dlg-post-09",
+    "category": "postoffice",
+    "title": "Priority Mail Options",
+    "titleCn": "选快递等级",
+    "scene": "你寄重要文件，职员介绍不同速度。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "Priority一到三天，Express隔夜。", "en": "Priority one to three days. Express overnight." },
+      { "role": "You", "cn": "周五前必须到，选哪个？", "en": "Must arrive before Friday. Which should I pick?" },
+      { "role": "Clerk", "cn": "今天寄Priority应该够，Express贵一倍。", "en": "Priority mailed today should work. Express costs double." },
+      { "role": "You", "cn": "要签名确认吗？", "en": "Should I add signature confirmation?" },
+      { "role": "Clerk", "cn": "建议加，加三块钱。", "en": "I'd add it. Three dollars extra." },
+      { "role": "You", "cn": "好，Priority加签名。", "en": "Okay. Priority with signature." },
+      { "role": "Clerk", "cn": "一共十二块五。", "en": "Twelve fifty total." }
+    ]
+  },
+  {
+    "id": "dlg-post-10",
+    "category": "postoffice",
+    "title": "Package Pickup Failed",
+    "titleCn": "包裹取件失败",
+    "scene": "你去邮局取包裹，职员解释为何取不了。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "我来取通知单上的包裹。", "en": "I'm here to pick up the package on this notice." },
+      { "role": "Clerk", "cn": "需要带通知单原件和ID，照片不行。", "en": "Original slip and ID, please. Photos won't work." },
+      { "role": "You", "cn": "我只有手机照片，怎么办？", "en": "I only have a photo on my phone. What can I do?" },
+      { "role": "Clerk", "cn": "回家取原件，或让寄件人重发。", "en": "Go get the slip or have the sender reship." },
+      { "role": "You", "cn": "包裹会退回去吗？", "en": "Will it go back to the sender?" },
+      { "role": "Clerk", "cn": "保留十五天。", "en": "We hold it fifteen days." },
+      { "role": "You", "cn": "我今晚拿来。", "en": "I'll bring it tonight." }
+    ]
   }
 ]

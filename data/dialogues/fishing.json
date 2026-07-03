@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-fish-01",
+    "category": "fishing",
+    "title": "Fishing License",
+    "titleCn": "钓鱼证",
+    "scene": "你在渔具店买钓鱼证和鱼饵。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "本州居民日证十二，年证二十八。", "en": "In-state day license is twelve, annual is twenty-eight." },
+      { "role": "You", "cn": "我要年证，今天开始在湖边钓。", "en": "Annual, please. I'll fish at the lake starting today." },
+      { "role": "Clerk", "cn": "鲈鱼季节开放，蚯蚓在那边。", "en": "Bass season is open. Worms are over there." },
+      { "role": "You", "cn": "有大小限制吗？", "en": "Are there size limits?" },
+      { "role": "Clerk", "cn": "十二英寸以下要放生，详情在册子里。", "en": "Release under twelve inches. Details are in the booklet." },
+      { "role": "You", "cn": "好的，再加一卷鱼线。", "en": "Okay, and a spool of fishing line." },
+      { "role": "Clerk", "cn": "祝好运！", "en": "Good luck out there!" }
+    ]
+  },
+  {
+    "id": "dlg-fish-02",
+    "category": "fishing",
+    "title": "On the Lake",
+    "titleCn": "湖边钓鱼",
+    "scene": "你在湖边钓鱼，向老钓友请教。",
+    "roles": ["You", "Angler"],
+    "turns": [
+      { "role": "You", "cn": "这边水深吗？我新手。", "en": "Is it deep here? I'm pretty new at this." },
+      { "role": "Angler", "cn": "大概十英尺，早晚鱼口好。", "en": "About ten feet. Morning and evening bite best." },
+      { "role": "You", "cn": "用什么饵？", "en": "What bait should I use?" },
+      { "role": "Angler", "cn": "鲫鱼用蚯蚓，鲈鱼试假饵。", "en": "Worms for panfish. Try lures for bass." },
+      { "role": "You", "cn": "需要船证吗？", "en": "Do I need a boat license?" },
+      { "role": "Angler", "cn": "岸边不用，船上要登记。", "en": "Not from shore. Boats need registration." },
+      { "role": "You", "cn": "谢谢指点！", "en": "Thanks for the tips!" }
+    ]
+  },
+  {
+    "id": "dlg-fish-03",
+    "category": "fishing",
+    "title": "Catch and Release",
+    "titleCn": "钓到鱼",
+    "scene": "你钓到一条鱼，旁人教你放生。",
+    "roles": ["You", "Angler"],
+    "turns": [
+      { "role": "Angler", "cn": "不错！先湿手再摸鱼。", "en": "Nice one! Wet your hands before touching it." },
+      { "role": "You", "cn": "太小了，要放生对吧？", "en": "It's small. I should release it, right?" },
+      { "role": "Angler", "cn": "对，轻轻放回水里，托着肚子。", "en": "Yes. Gently back in the water, supporting its belly." },
+      { "role": "You", "cn": "钩卡住了怎么办？", "en": "What if the hook is stuck?" },
+      { "role": "Angler", "cn": "用钳子剪线，别硬拉。", "en": "Cut the line with pliers. Don't yank it." },
+      { "role": "You", "cn": "明白了，保护资源。", "en": "Got it. Gotta protect the fishery." },
+      { "role": "Angler", "cn": "没错。", "en": "Exactly." }
+    ]
+  },
+  {
+    "id": "dlg-fish-04",
+    "category": "fishing",
+    "title": "Ice Fishing",
+    "titleCn": "冰钓",
+    "scene": "冬天你在结冰湖面咨询冰钓安全。",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "You", "cn": "这湖面能冰钓吗？", "en": "Is the ice safe for fishing?" },
+      { "role": "Ranger", "cn": "至少四英寸厚才行，这边刚测过。", "en": "You need at least four inches. We measured here earlier." },
+      { "role": "You", "cn": "需要特殊装备吗？", "en": "Do I need special gear?" },
+      { "role": "Ranger", "cn": "冰钻、小竿、保温椅，穿浮力衣。", "en": "An auger, short rod, shelter chair, and a flotation suit." },
+      { "role": "You", "cn": "鱼饵还是蚯蚓？", "en": "Same bait, worms?" },
+      { "role": "Ranger", "cn": "或者小虾米，鲫鱼多。", "en": "Or small shiners. Lots of perch." },
+      { "role": "You", "cn": "谢谢，我会小心。", "en": "Thanks. I'll be careful." }
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-insp-01",
+    "category": "inspection",
+    "title": "Home Inspection Day",
+    "titleCn": "验房当天",
+    "scene": "你买房，和验房师一起检查房屋。",
+    "roles": ["You", "Inspector"],
+    "turns": [
+      { "role": "Inspector", "cn": "我按结构、屋顶、水电顺序查，大概三小时。", "en": "I'll go structure, roof, then systems. About three hours." },
+      { "role": "You", "cn": "有问题会当场说吗？", "en": "Will you flag issues as we go?" },
+      { "role": "Inspector", "cn": "严重的会，完整报告二十四小时内。", "en": "Major ones yes. Full report within twenty-four hours." },
+      { "role": "You", "cn": "地下室渗水能查出来吗？", "en": "Can you check for basement moisture?" },
+      { "role": "Inspector", "cn": "会用湿度计，看排水和地基裂缝。", "en": "Moisture meter, drainage, and foundation cracks." },
+      { "role": "You", "cn": "我可以跟着问问题吧？", "en": "I can follow along and ask questions?" },
+      { "role": "Inspector", "cn": "当然，这是您的房子。", "en": "Of course. It's your house." }
+    ]
+  },
+  {
+    "id": "dlg-insp-02",
+    "category": "inspection",
+    "title": "Reviewing the Report",
+    "titleCn": "看验房报告",
+    "scene": "验房报告出来，你和经纪讨论。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "屋顶还有五年寿命，空调偏旧。", "en": "Roof has about five years left. The AC is aging." },
+      { "role": "You", "cn": "能要求卖家修还是降价？", "en": "Can we ask the seller to fix or reduce price?" },
+      { "role": "Agent", "cn": "可以发 repair request，常见是抵价。", "en": "We'll send a repair request. Credit at closing is common." },
+      { "role": "You", "cn": "电箱不合规，这个严重吗？", "en": "The panel isn't up to code. Is that serious?" },
+      { "role": "Agent", "cn": "建议卖家修，大概一千五。", "en": "I'd ask them to fix it. About fifteen hundred." },
+      { "role": "You", "cn": "验房条款还有三天，抓紧谈。", "en": "We have three days left on inspection. Let's negotiate fast." },
+      { "role": "Agent", "cn": "今晚我就发邮件给卖方经纪。", "en": "I'll email the listing agent tonight." }
+    ]
+  },
+  {
+    "id": "dlg-insp-03",
+    "category": "inspection",
+    "title": "Pest Inspection",
+    "titleCn": "白蚁检查",
+    "scene": "贷款要求做害虫检查，你和检查员交流。",
+    "roles": ["You", "Inspector"],
+    "turns": [
+      { "role": "Inspector", "cn": "我查白蚁、蚁道和老鼠痕迹。", "en": "I check for termites, mud tubes, and rodent signs." },
+      { "role": "You", "cn": "车库墙角有木屑，麻烦重点看。", "en": "There's sawdust in a garage corner. Please look closely." },
+      { "role": "Inspector", "cn": "可能是旧伤，我打开踢脚线看看。", "en": "Could be old damage. I'll check behind the baseboard." },
+      { "role": "You", "cn": "如果有活虫，贷款会停吗？", "en": "Will the loan stop if there's active infestation?" },
+      { "role": "Inspector", "cn": "通常要处理完并复检才放款。", "en": "Usually you need treatment and clearance first." },
+      { "role": "You", "cn": "报告今天能出吗？", "en": "Can the report come out today?" },
+      { "role": "Inspector", "cn": "两小时内发PDF。", "en": "PDF within two hours." }
+    ]
+  },
+  {
+    "id": "dlg-insp-04",
+    "category": "inspection",
+    "title": "Radon Test",
+    "titleCn": "氡气检测",
+    "scene": "验房师建议做氡气检测，你咨询细节。",
+    "roles": ["You", "Inspector"],
+    "turns": [
+      { "role": "Inspector", "cn": "这区氡气偏高，建议四十八小时检测。", "en": "Radon runs high in this area. I recommend a forty-eight-hour test." },
+      { "role": "You", "cn": "氡气对人体什么危害？", "en": "What are the health risks?" },
+      { "role": "Inspector", "cn": "长期吸入增加肺癌风险，可装通风系统。", "en": "Long-term exposure raises lung cancer risk. Mitigation systems help." },
+      { "role": "You", "cn": "检测费用多少？", "en": "How much is the test?" },
+      { "role": "Inspector", "cn": "一百五，超标的话谈判安装。", "en": "A hundred fifty. If it's high, negotiate mitigation." },
+      { "role": "You", "cn": "做吧，结果出来告诉我。", "en": "Let's do it. Let me know when results are in." },
+      { "role": "Inspector", "cn": "检测仪放地下室，别动。", "en": "I'll place the device in the basement. Don't move it." }
+    ]
+  },
+  {
+    "id": "dlg-insp-05",
+    "category": "inspection",
+    "title": "Rental Move-In Inspection",
+    "titleCn": "租房入住检查",
+    "scene": "你租公寓，入住前和房东一起检查记录。",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "我们逐项拍照，避免退租纠纷。", "en": "We'll photograph everything to avoid disputes at move-out." },
+      { "role": "You", "cn": "厨房台面这块划痕要记下来。", "en": "Please note this scratch on the kitchen counter." },
+      { "role": "Landlord", "cn": "写进清单，不是您造成的。", "en": "I'll add it to the checklist. Not your fault." },
+      { "role": "You", "cn": "卧室地毯有污渍。", "en": "There's a stain on the bedroom carpet." },
+      { "role": "Landlord", "cn": "入住前会清洗，洗完再签。", "en": "We'll steam-clean before you sign." },
+      { "role": "You", "cn": "能给我一份复印件吗？", "en": "Can I get a copy?" },
+      { "role": "Landlord", "cn": "邮件发您，双方各留一份。", "en": "I'll email it. We both keep a copy." }
+    ]
+  }
+]

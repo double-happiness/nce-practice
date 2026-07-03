@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-cln-01",
+    "category": "cleaning",
+    "title": "Hiring a Cleaner",
+    "titleCn": "请家政",
+    "scene": "你第一次请家政上门打扫。",
+    "roles": ["You", "Cleaner"],
+    "turns": [
+      { "role": "Cleaner", "cn": "您好，两小时基础清洁一百二。", "en": "Hi. Basic two-hour clean is a hundred twenty." },
+      { "role": "You", "cn": "厨房油污重，能重点擦吗？", "en": "The kitchen grease is bad. Can you focus on that?" },
+      { "role": "Cleaner", "cn": "可以，您有宠物吗？", "en": "Sure. Do you have pets?" },
+      { "role": "You", "cn": "一只猫，清洁用品在柜子里。", "en": "One cat. Supplies are in the cabinet." },
+      { "role": "Cleaner", "cn": "贵重物品请收好，我换鞋套。", "en": "Please put valuables away. I'll use shoe covers." },
+      { "role": "You", "cn": "每月两次，能固定周三吗？", "en": "Twice a month. Can we lock in Wednesdays?" },
+      { "role": "Cleaner", "cn": "可以，下次同一时间来。", "en": "Yes. I'll come the same time next visit." }
+    ]
+  },
+  {
+    "id": "dlg-cln-02",
+    "category": "cleaning",
+    "title": "Move-Out Cleaning",
+    "titleCn": "退房大扫除",
+    "scene": "你搬出公寓前请深度清洁拿押金。",
+    "roles": ["You", "Cleaner"],
+    "turns": [
+      { "role": "You", "cn": "需要退房标准清洁，明天房东来检查。", "en": "I need a move-out deep clean. The landlord inspects tomorrow." },
+      { "role": "Cleaner", "cn": "三室大概两百五，含烤箱和冰箱内。", "en": "For a three-bedroom, about two fifty, including oven and fridge inside." },
+      { "role": "You", "cn": "地毯要蒸汽洗吗？", "en": "Should we steam the carpets?" },
+      { "role": "Cleaner", "cn": "建议洗，另加八十。", "en": "I'd recommend it. Eighty extra." },
+      { "role": "You", "cn": "好，钥匙放门口地垫下。", "en": "Okay. Leave the key under the doormat." },
+      { "role": "Cleaner", "cn": "完工拍照发您确认。", "en": "I'll text photos when we're done." },
+      { "role": "You", "cn": "谢谢，押金就靠这个了。", "en": "Thanks. I'm counting on this for my deposit." }
+    ]
+  },
+  {
+    "id": "dlg-cln-03",
+    "category": "cleaning",
+    "title": "Cleaning Complaint",
+    "titleCn": "保洁不满意",
+    "scene": "家政打扫后你觉得浴室没清理干净。",
+    "roles": ["You", "Supervisor"],
+    "turns": [
+      { "role": "You", "cn": "浴室瓷砖还是脏的，水龙头有水渍。", "en": "The bathroom tiles are still dirty and the faucet has water spots." },
+      { "role": "Supervisor", "cn": "很抱歉，我安排明天免费返工。", "en": "I'm sorry. I'll schedule a free touch-up tomorrow." },
+      { "role": "You", "cn": "今天能来吗？晚上有客人。", "en": "Can someone come today? I have guests tonight." },
+      { "role": "Supervisor", "cn": "四点前派人，半小时搞定。", "en": "We'll send someone before four. About thirty minutes." },
+      { "role": "You", "cn": "上次也漏了窗台。", "en": "They missed the window sills last time too." },
+      { "role": "Supervisor", "cn": "我会备注在清单上。", "en": "I'll add that to the checklist." },
+      { "role": "You", "cn": "好的，谢谢处理。", "en": "Okay. Thanks for fixing it." }
+    ]
+  },
+  {
+    "id": "dlg-cln-04",
+    "category": "cleaning",
+    "title": "Carpet Cleaning",
+    "titleCn": "地毯清洗",
+    "scene": "你预约地毯清洗服务。",
+    "roles": ["You", "Technician"],
+    "turns": [
+      { "role": "Technician", "cn": "三个房间地毯，报价一百八。", "en": "Three carpeted rooms, quote is a hundred eighty." },
+      { "role": "You", "cn": "沙发也能一起洗吗？", "en": "Can you do the sofa too?" },
+      { "role": "Technician", "cn": "布艺沙发加六十，宠物味用酵素剂。", "en": "Fabric sofa is sixty more. We use enzyme treatment for pet odors." },
+      { "role": "You", "cn": "洗完多久能干？", "en": "How long until it's dry?" },
+      { "role": "Technician", "cn": "六到八小时，开窗更快。", "en": "Six to eight hours. Open windows to speed it up." },
+      { "role": "You", "cn": "周六上午方便吗？", "en": "Does Saturday morning work?" },
+      { "role": "Technician", "cn": "九点可以，请移开小家具。", "en": "Nine AM works. Please move small furniture off the carpet." }
+    ]
+  },
+  {
+    "id": "dlg-cln-05",
+    "category": "cleaning",
+    "title": "Office Cleaning",
+    "titleCn": "办公室保洁",
+    "scene": "你是小公司员工，和保洁沟通夜间清洁。",
+    "roles": ["You", "Cleaner"],
+    "turns": [
+      { "role": "Cleaner", "cn": "今晚垃圾都倒了吗？", "en": "Are all the trash bins emptied tonight?" },
+      { "role": "You", "cn": "会议室的忘了，我现在去倒。", "en": "I forgot the conference room. I'll dump it now." },
+      { "role": "Cleaner", "cn": "地板蜡下周做，请把椅子摞起来。", "en": "We're waxing floors next week. Please stack the chairs." },
+      { "role": "You", "cn": "冰箱里的过期食物能扔吗？", "en": "Can you toss expired food in the fridge?" },
+      { "role": "Cleaner", "cn": "周五统一清理，贴个便签提醒大家。", "en": "We clear it Fridays. Put a note reminding everyone." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Will do. Thanks." },
+      { "role": "Cleaner", "cn": "记得锁门，我七点后来。", "en": "Lock up. I'll be in after seven." }
+    ]
+  }
+]

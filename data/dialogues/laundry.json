@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-lnd-01",
+    "category": "laundry",
+    "title": "First Time at Laundromat",
+    "titleCn": "第一次洗衣",
+    "scene": "你第一次去自助洗衣店，不会用机器。",
+    "roles": ["You", "Regular"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这台洗衣机怎么用？", "en": "Sorry, how does this washer work?" },
+      { "role": "Regular", "cn": "先投币或刷卡，选水温，关门按开始。", "en": "Insert coins or swipe, pick water temp, close the lid and hit start." },
+      { "role": "You", "cn": "洗衣粉放哪里？", "en": "Where does the detergent go?" },
+      { "role": "Regular", "cn": "直接倒衣服里，别放太多。", "en": "Pour it right on the clothes. Don't overdo it." },
+      { "role": "You", "cn": "洗多久？", "en": "How long does a cycle take?" },
+      { "role": "Regular", "cn": "大概三十五分钟，烘干机二十五分。", "en": "About thirty-five minutes. Dryers are around twenty-five." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks so much!" }
+    ]
+  },
+  {
+    "id": "dlg-lnd-02",
+    "category": "laundry",
+    "title": "Dryer Not Heating",
+    "titleCn": "烘干机不热",
+    "scene": "烘干机不加热，你向店员反映。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "三号烘干机转但不热。", "en": "Dryer number three spins but there's no heat." },
+      { "role": "Attendant", "cn": "滤网可能堵了，我看看。", "en": "The lint trap might be clogged. Let me check." },
+      { "role": "You", "cn": "衣服还是湿的。", "en": "My clothes are still damp." },
+      { "role": "Attendant", "cn": "换五号机，我补你两块钱币。", "en": "Use dryer five. I'll refund two dollars in quarters." },
+      { "role": "You", "cn": "高温烘毛衣会缩水吗？", "en": "Will high heat shrink my sweater?" },
+      { "role": "Attendant", "cn": "毛衣用低温或晾干。", "en": "Low heat for sweaters, or hang-dry them." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-lnd-03",
+    "category": "laundry",
+    "title": "Drop-Off Laundry",
+    "titleCn": "送洗服务",
+    "scene": "你把西装送去洗衣店水洗干洗。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "水洗按磅，干洗按件。", "en": "Wash and fold is by the pound. Dry cleaning is per item." },
+      { "role": "You", "cn": "这堆日常衣服水洗，西装干洗。", "en": "Wash and fold this bag. Dry-clean the suit." },
+      { "role": "Clerk", "cn": "西装袖口有污渍，我们会预处理。", "en": "There's a stain on the cuff. We'll pretreat it." },
+      { "role": "You", "cn": "哪天能取？", "en": "When can I pick up?" },
+      { "role": "Clerk", "cn": "水洗明天，西装后天下午。", "en": "Laundry tomorrow. Suit the day after, afternoon." },
+      { "role": "You", "cn": "能发短信通知吗？", "en": "Can you text me when it's ready?" },
+      { "role": "Clerk", "cn": "可以，号码留一下。", "en": "Sure. What's your number?" }
+    ]
+  },
+  {
+    "id": "dlg-lnd-04",
+    "category": "laundry",
+    "title": "Lost Sock Mystery",
+    "titleCn": "衣服被染色",
+    "scene": "洗衣后白衬衫被染红了，你找店家处理。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我的白衬衫染成粉色了，怎么办？", "en": "My white shirt came out pink. What can you do?" },
+      { "role": "Manager", "cn": "很抱歉，可能是混了红色衣物。", "en": "I'm sorry. A red item probably got mixed in." },
+      { "role": "You", "cn": "能退洗衣费吗？", "en": "Can I get a refund on the wash?" },
+      { "role": "Manager", "cn": "洗衣费全退，漂白处理我们免费试。", "en": "Full refund on the wash. We'll try bleaching it for free." },
+      { "role": "You", "cn": "救不回来就算了。", "en": "If it can't be saved, that's okay." },
+      { "role": "Manager", "cn": "以后深色浅色分开袋。", "en": "Separate darks and lights in bags next time." },
+      { "role": "You", "cn": "好的，谢谢处理。", "en": "Okay. Thanks for handling it." }
+    ]
+  }
+]

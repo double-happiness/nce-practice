@@ -100,5 +100,140 @@
       { "role": "Police Officer", "cn": "可以，沿这条街一直走，看到大钟楼就快到了。", "en": "Yes. Go straight down this street until you see the big clock tower." },
       { "role": "You", "cn": "非常感谢您的帮助！", "en": "Thank you very much for your help!" }
     ]
+  },
+  {
+    "id": "dlg-dir-07",
+    "category": "directions",
+    "title": "Hospital Department",
+    "titleCn": "医院找科室",
+    "scene": "你第一次去医院，找放射科拍片。",
+    "roles": ["You", "Volunteer"],
+    "turns": [
+      { "role": "You", "cn": "请问放射科在哪？", "en": "Excuse me, where is radiology?" },
+      { "role": "Volunteer", "cn": "B座二楼，电梯出来左转。", "en": "Building B, second floor. Left out of the elevator." },
+      { "role": "You", "cn": "要先在前台签到吗？", "en": "Do I check in at the front desk first?" },
+      { "role": "Volunteer", "cn": "对，一楼大厅，带保险卡和ID。", "en": "Yes, main lobby. Bring insurance card and ID." },
+      { "role": "You", "cn": "B座怎么走？", "en": "How do I get to building B?" },
+      { "role": "Volunteer", "cn": "穿过这条走廊，过了咖啡店就是。", "en": "Down this hall, past the coffee shop." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-08",
+    "category": "directions",
+    "title": "DMV Inside the Building",
+    "titleCn": "车管局里问路",
+    "scene": "你在 DMV 大楼里找不到正确窗口。",
+    "roles": ["You", "Guard"],
+    "turns": [
+      { "role": "You", "cn": "换驾照在几号窗口？", "en": "Which window is for license renewal?" },
+      { "role": "Guard", "cn": "先取票机，选renewal，等叫号。", "en": "Get a ticket first. Pick renewal and wait." },
+      { "role": "You", "cn": "视力检查在哪？", "en": "Where's the vision test?" },
+      { "role": "Guard", "cn": "七号窗旁边小房间。", "en": "Small room next to window seven." },
+      { "role": "You", "cn": "拍照呢？", "en": "Where do they take the photo?" },
+      { "role": "Guard", "cn": "办完出来右边，免费。", "en": "To the right when you're done. No charge." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-dir-09",
+    "category": "directions",
+    "title": "Parking Garage Exit",
+    "titleCn": "停车场找出口",
+    "scene": "你在商场停车场找不到出口。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，出口怎么走？我绕了两圈了。", "en": "Sorry, how do I get to the exit? I've gone around twice." },
+      { "role": "Driver", "cn": "跟着绿色Exit标志，往P2东。", "en": "Follow the green Exit signs toward P2 east." },
+      { "role": "You", "cn": "要刷卡吗？", "en": "Do I need to swipe a card?" },
+      { "role": "Driver", "cn": "票在车里插一下，十五分钟内免费。", "en": "Insert your ticket. Free if under fifteen minutes." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" },
+      { "role": "Driver", "cn": "不客气，我也刚找半天。", "en": "No problem. I got lost here too." }
+    ]
+  },
+  {
+    "id": "dlg-dir-10",
+    "category": "directions",
+    "title": "Ride-Share Pickup",
+    "titleCn": "网约车上车点",
+    "scene": "机场你想找 Uber 上车区。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "Uber在哪上车？", "en": "Where do I catch Uber?" },
+      { "role": "Attendant", "cn": "Terminal 2，出门右边，Ground Transportation。", "en": "Terminal two, right outside, ground transportation." },
+      { "role": "You", "cn": "是共享乘车区吗？", "en": "Is it the rideshare zone?" },
+      { "role": "Attendant", "cn": "对，紫色标志，等司机说到了再走。", "en": "Yes, purple signs. Wait until your driver says they've arrived." },
+      { "role": "You", "cn": "走过去多久？", "en": "How long to walk there?" },
+      { "role": "Attendant", "cn": "三分钟。", "en": "About three minutes." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-dir-11",
+    "category": "directions",
+    "title": "How Far to Walk",
+    "titleCn": "问步行多远",
+    "scene": "你问路人走到地铁站要多久。",
+    "roles": ["You", "Pedestrian"],
+    "turns": [
+      { "role": "You", "cn": "地铁站在步行距离内吗？", "en": "Is the subway station within walking distance?" },
+      { "role": "Pedestrian", "cn": "走大概七八分钟，两个街区。", "en": "About seven or eight minutes, two blocks." },
+      { "role": "You", "cn": "直走然后右转对吧？", "en": "Straight then right, right?" },
+      { "role": "Pedestrian", "cn": "对，看到麦当劳就左转。", "en": "Yes, left at McDonald's." },
+      { "role": "You", "cn": "下雨天也有天桥吗？", "en": "Is there a covered walkway if it rains?" },
+      { "role": "Pedestrian", "cn": "没有，建议带伞。", "en": "Not really. I'd bring an umbrella." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-dir-12",
+    "category": "directions",
+    "title": "Where Is the Restroom",
+    "titleCn": "找洗手间",
+    "scene": "你在餐厅商场找洗手间。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "请问洗手间在哪？", "en": "Excuse me, where's the restroom?" },
+      { "role": "Staff", "cn": "走廊尽头左转，要钥匙吗？", "en": "Down the hall and left. Do you need a key?" },
+      { "role": "You", "cn": "要钥匙吗？", "en": "Do I need a key?" },
+      { "role": "Staff", "cn": "不用，男女分开，标志清楚。", "en": "No key. Men's and women's are marked clearly." },
+      { "role": "You", "cn": "有婴儿换尿布台吗？", "en": "Is there a baby changing station?" },
+      { "role": "Staff", "cn": "女厕里面有。", "en": "Yes, in the women's room." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-dir-13",
+    "category": "directions",
+    "title": "Airport Gate",
+    "titleCn": "机场找登机口",
+    "scene": "你在机场转机，找登机口。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "CA988在哪个登机口？", "en": "Which gate is flight CA nine eight eight?" },
+      { "role": "Agent", "cn": "B32，要走小火车到B区。", "en": "B thirty-two. Take the air train to concourse B." },
+      { "role": "You", "cn": "小火车在哪？", "en": "Where's the air train?" },
+      { "role": "Agent", "cn": "上楼跟着标志，五分钟一班。", "en": "Upstairs, follow the signs. Runs every five minutes." },
+      { "role": "You", "cn": "登机几点开始？", "en": "When does boarding start?" },
+      { "role": "Agent", "cn": "起飞前四十分钟，屏上查。", "en": "Forty minutes before departure. Check the screens." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-dir-14",
+    "category": "directions",
+    "title": "Finding a Store in Plaza",
+    "titleCn": "广场找店铺",
+    "scene": "你在露天商业广场找华人超市。",
+    "roles": ["You", "Shopper"],
+    "turns": [
+      { "role": "You", "cn": "请问99大华怎么走？", "en": "How do I get to 99 Ranch Market?" },
+      { "role": "Shopper", "cn": "穿过停车场，靠Target那栋。", "en": "Across the parking lot, by Target." },
+      { "role": "You", "cn": "走路远吗？", "en": "Is it far on foot?" },
+      { "role": "Shopper", "cn": "三分钟，有遮阳走廊。", "en": "Three minutes. There's a covered walkway." },
+      { "role": "You", "cn": "周日几点关？", "en": "What time does it close on Sunday?" },
+      { "role": "Shopper", "cn": "晚上九点，节假日可能早。", "en": "Nine PM, maybe earlier on holidays." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks a lot!" }
+    ]
   }
 ]

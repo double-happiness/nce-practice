@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-club-01",
+    "category": "clubhouse",
+    "title": "Pool Guest Pass",
+    "titleCn": "泳池访客证",
+    "scene": "你住公寓，想带朋友去社区泳池。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "住户卡请刷一下，访客要登记。", "en": "Swipe your resident card. Guests need to sign in." },
+      { "role": "You", "cn": "朋友今天来游泳，访客证怎么买？", "en": "A friend is swimming today. How do guest passes work?" },
+      { "role": "Staff", "cn": "一天五块，最多两位访客。", "en": "Five dollars per day, up to two guests." },
+      { "role": "You", "cn": "需要跟我在旁边吗？", "en": "Do I need to stay with them?" },
+      { "role": "Staff", "cn": "住户必须在场，十二岁以下要成人陪。", "en": "Residents must be present. Under twelve needs an adult." },
+      { "role": "You", "cn": "泳池几点关？", "en": "What time does the pool close?" },
+      { "role": "Staff", "cn": "晚九点，请先冲淋浴。", "en": "Nine PM. Please shower first." }
+    ]
+  },
+  {
+    "id": "dlg-club-02",
+    "category": "clubhouse",
+    "title": "Gym Orientation",
+    "titleCn": "会所健身房",
+    "scene": "你第一次去小区会所健身房。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "第一次来？我带您熟悉器械。", "en": "First time? I'll show you around the equipment." },
+      { "role": "You", "cn": "会费包含在物业费里吗？", "en": "Is the gym included in HOA fees?" },
+      { "role": "Trainer", "cn": "基础器械免费，私教另收费。", "en": "Basic equipment is free. Personal training is extra." },
+      { "role": "You", "cn": "毛巾要自己带吗？", "en": "Do I bring my own towel?" },
+      { "role": "Trainer", "cn": "前台可领，用完投回收筐。", "en": "Pick one up at the desk. Drop it in the bin after." },
+      { "role": "You", "cn": "高峰几点人少？", "en": "When is it least crowded?" },
+      { "role": "Trainer", "cn": "上午十点到十二点通常空。", "en": "Usually quiet from ten to noon." }
+    ]
+  },
+  {
+    "id": "dlg-club-03",
+    "category": "clubhouse",
+    "title": "Tennis Court Booking",
+    "titleCn": "订网球场",
+    "scene": "你在会所前台订网球场。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "网球场要提前订，每次一小时。", "en": "Courts are by reservation, one hour per slot." },
+      { "role": "You", "cn": "周日早上九点有空吗？", "en": "Is Sunday at nine AM open?" },
+      { "role": "Staff", "cn": "有，需要灯费吗？室内场加五块。", "en": "Yes. Need lights? Indoor is five extra." },
+      { "role": "You", "cn": "室外就行，能借球拍吗？", "en": "Outdoor is fine. Can we borrow rackets?" },
+      { "role": "Staff", "cn": "前台押金二十，还了退。", "en": "Twenty deposit at the desk, refunded on return." },
+      { "role": "You", "cn": "迟到十分钟还算吗？", "en": "If we're ten minutes late, do we still get the hour?" },
+      { "role": "Staff", "cn": "从预约时间算，请准时。", "en": "The clock starts at booking time. Please be on time." }
+    ]
+  },
+  {
+    "id": "dlg-club-04",
+    "category": "clubhouse",
+    "title": "Clubhouse Rental",
+    "titleCn": "租会所办聚会",
+    "scene": "你想租社区会所办生日聚会。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "会所四小时两百，押金一百。", "en": "Clubhouse is two hundred for four hours, hundred deposit." },
+      { "role": "You", "cn": "下周六晚上六点，大概二十人。", "en": "Next Saturday at six PM, about twenty people." },
+      { "role": "Manager", "cn": "十点后禁大声，厨房可用但需清理。", "en": "Quiet after ten. Kitchen available but must be cleaned." },
+      { "role": "You", "cn": "能自带酒水吗？", "en": "Can we bring our own drinks?" },
+      { "role": "Manager", "cn": "可以，垃圾袋我们提供。", "en": "Yes. We provide trash bags." },
+      { "role": "You", "cn": "怎么交押金？", "en": "How do I pay the deposit?" },
+      { "role": "Manager", "cn": "支票或业主门户在线付。", "en": "Check or pay through the resident portal." }
+    ]
+  },
+  {
+    "id": "dlg-club-05",
+    "category": "clubhouse",
+    "title": "Hot Tub Rules",
+    "titleCn": "按摩浴缸规定",
+    "scene": "你想用会所热水按摩池，咨询规定。",
+    "roles": ["You", "Lifeguard"],
+    "turns": [
+      { "role": "Lifeguard", "cn": "热水池最多八人，每次十五分钟。", "en": "Hot tub holds eight, fifteen minutes per session." },
+      { "role": "You", "cn": "孕妇可以用吗？", "en": "Is it okay for pregnant women?" },
+      { "role": "Lifeguard", "cn": "建议先问医生，水温一百零四华氏度。", "en": "Ask your doctor first. It's one oh four degrees." },
+      { "role": "You", "cn": "需要戴泳帽吗？", "en": "Do I need a swim cap?" },
+      { "role": "Lifeguard", "cn": "不用，但请穿泳装，禁止玻璃杯。", "en": "No cap, but swimwear required. No glass." },
+      { "role": "You", "cn": "现在有人排队吗？", "en": "Is there a line right now?" },
+      { "role": "Lifeguard", "cn": "两人，您先登记轮候。", "en": "Two people ahead. Sign up and wait your turn." }
+    ]
+  }
+]

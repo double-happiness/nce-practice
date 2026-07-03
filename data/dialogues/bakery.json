@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-bak-01",
+    "category": "bakery",
+    "title": "Morning Pastries",
+    "titleCn": "买早餐面包",
+    "scene": "你在社区面包店买早餐。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "早上好！今天可颂刚出炉。", "en": "Good morning! Croissants just came out of the oven." },
+      { "role": "You", "cn": "两个可颂、一杯拿铁带走。", "en": "Two croissants and a latte to go, please." },
+      { "role": "Clerk", "cn": "要加热吗？蓝莓马芬也新鲜。", "en": "Want them warmed? Blueberry muffins are fresh too." },
+      { "role": "You", "cn": "可颂加热，马芬来一个。", "en": "Warm the croissants. I'll take one muffin." },
+      { "role": "Clerk", "cn": "一共十二块五。", "en": "Twelve fifty total." },
+      { "role": "You", "cn": "有积分卡吗？", "en": "Do you have a loyalty card?" },
+      { "role": "Clerk", "cn": "有，满十送一个面包。", "en": "Yes. Buy ten, get one loaf free." }
+    ]
+  },
+  {
+    "id": "dlg-bak-02",
+    "category": "bakery",
+    "title": "Custom Birthday Cake",
+    "titleCn": "订生日蛋糕",
+    "scene": "你在面包店订制孩子生日蛋糕。",
+    "roles": ["You", "Baker"],
+    "turns": [
+      { "role": "Baker", "cn": "几寸的？要几个人份？", "en": "What size? How many people?" },
+      { "role": "You", "cn": "八寸，十二个人，巧克力味。", "en": "Eight inch for twelve people, chocolate flavor." },
+      { "role": "Baker", "cn": "写字吗？周六下午取？", "en": "Any message on top? Pick up Saturday afternoon?" },
+      { "role": "You", "cn": "写 Happy 8th Birthday Lily，两点取。", "en": "Happy eighth birthday Lily. Pick up at two PM." },
+      { "role": "Baker", "cn": "水果夹心还是奶油？定金二十。", "en": "Fruit filling or buttercream? Twenty-dollar deposit." },
+      { "role": "You", "cn": "草莓夹心，定金刷卡。", "en": "Strawberry filling. I'll put the deposit on my card." },
+      { "role": "Baker", "cn": "做好会拍照确认。", "en": "We'll text a photo when it's done." }
+    ]
+  },
+  {
+    "id": "dlg-bak-03",
+    "category": "bakery",
+    "title": "Gluten-Free Options",
+    "titleCn": "无麸质面包",
+    "scene": "你对麸质过敏，在面包店询问选项。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "有无麸质的面包？我对小麦过敏。", "en": "Do you have gluten-free bread? I'm allergic to wheat." },
+      { "role": "Clerk", "cn": "有，单独烤箱烤，在冷柜那边。", "en": "Yes, baked in a separate oven. They're in the cooler." },
+      { "role": "You", "cn": "会跟普通面包交叉污染吗？", "en": "Any cross-contamination with regular bread?" },
+      { "role": "Clerk", "cn": "切面包用不同刀和板，员工会说明。", "en": "Different knives and boards. Staff can walk you through it." },
+      { "role": "You", "cn": "我拿一条酸面包和两个布朗尼。", "en": "I'll take one sourdough loaf and two brownies." },
+      { "role": "Clerk", "cn": "布朗尼也无麸质，一共十六。", "en": "Brownies are gluten-free too. Sixteen total." },
+      { "role": "You", "cn": "谢谢提醒。", "en": "Thanks for explaining." }
+    ]
+  },
+  {
+    "id": "dlg-bak-04",
+    "category": "bakery",
+    "title": "Bread Slicing",
+    "titleCn": "买现烤面包",
+    "scene": "你买一条刚出炉的乡村面包。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "这条还热，要切片吗？", "en": "This loaf is still warm. Want it sliced?" },
+      { "role": "You", "cn": "切厚片，另外要法棍。", "en": "Thick slices, please. And a baguette." },
+      { "role": "Clerk", "cn": "法棍下午三点出炉，要预留吗？", "en": "Baguettes come out at three PM. Should I set one aside?" },
+      { "role": "You", "cn": "预留一条，四点来取。", "en": "Yes, hold one. I'll pick up at four." },
+      { "role": "Clerk", "cn": "需要纸袋还是帆布袋？", "en": "Paper bag or canvas tote?" },
+      { "role": "You", "cn": "纸袋就行。", "en": "Paper is fine." },
+      { "role": "Clerk", "cn": "乡村面包七块五。", "en": "The country loaf is seven fifty." }
+    ]
+  }
+]

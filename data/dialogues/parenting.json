@@ -134,5 +134,39 @@
       { "role": "Child", "cn": "好吧。", "en": "Okay." },
       { "role": "You", "cn": "热巧克力回来喝。", "en": "We'll have hot chocolate when you come in." }
     ]
+  },
+  {
+    "id": "dlg-kid-09",
+    "category": "parenting",
+    "title": "Kids Birthday Party",
+    "titleCn": "儿童生日会",
+    "scene": "你在室内游乐场订孩子生日派对。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "派对套餐多少孩子？要主题装饰吗？", "en": "How many kids for the party package? Want themed decor?" },
+      { "role": "You", "cn": "十二个孩子，公主主题，下周六下午。", "en": "Twelve kids, princess theme, next Saturday afternoon." },
+      { "role": "Staff", "cn": "两小时三百五，含披萨和果汁。", "en": "Two hours, three fifty, pizza and juice included." },
+      { "role": "You", "cn": "家长可以跟着吗？有过敏的孩子。", "en": "Can parents stay? One child has a nut allergy." },
+      { "role": "Staff", "cn": "可以，蛋糕自己带，我们禁坚果。", "en": "Yes. Bring your own cake. We're nut-free." },
+      { "role": "You", "cn": "需要交定金吗？", "en": "Do you need a deposit?" },
+      { "role": "Staff", "cn": "一百定金，余款当天付。", "en": "A hundred deposit. Balance due the day of." }
+    ]
+  },
+  {
+    "id": "dlg-kid-10",
+    "category": "parenting",
+    "title": "Playdate Invitation",
+    "titleCn": "约玩伴",
+    "scene": "你帮孩子在公园约同学来家里玩。",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "You", "cn": "周六下午 Lily 能来我们家玩吗？", "en": "Could Lily come over Saturday afternoon to play?" },
+      { "role": "Parent", "cn": "可以的，几点？需要带什么吗？", "en": "Sure. What time? Should she bring anything?" },
+      { "role": "You", "cn": "两点到四点，换运动鞋，我们有零食。", "en": "Two to four. Sneakers, please. We'll have snacks." },
+      { "role": "Parent", "cn": "她对花生过敏，请注意。", "en": "She's allergic to peanuts, just so you know." },
+      { "role": "You", "cn": "明白，我不会放花生制品。", "en": "Got it. I won't have anything with peanuts." },
+      { "role": "Parent", "cn": "四点半我来接，谢谢邀请！", "en": "I'll pick her up at four thirty. Thanks for inviting her!" },
+      { "role": "You", "cn": "不客气，孩子们玩得开心就好。", "en": "You're welcome. Hope they have fun!" }
+    ]
   }
 ]

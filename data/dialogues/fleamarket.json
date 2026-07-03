@@ -100,5 +100,39 @@
       { "role": "You", "cn": "三百，不能再多了。", "en": "Three hundred. That's my final offer." },
       { "role": "Seller", "cn": "行，你懂表。", "en": "Alright. You know watches." }
     ]
+  },
+  {
+    "id": "dlg-flea-07",
+    "category": "fleamarket",
+    "title": "Estate Sale Haggle",
+    "titleCn": "遗产甩卖砍价",
+    "scene": "你在遗产拍卖最后一天淘家具。",
+    "roles": ["You", "Seller"],
+    "turns": [
+      { "role": "Seller", "cn": "最后一天清仓，餐桌标价八十。", "en": "Last day clearance. Dining table tagged at eighty." },
+      { "role": "You", "cn": "桌腿不稳，五十我搬走。", "en": "The legs wobble. Fifty and I'll haul it away." },
+      { "role": "Seller", "cn": "六十五，螺丝拧紧其实还行。", "en": "Sixty-five. Tighten the screws and it's fine." },
+      { "role": "You", "cn": "再加两把椅子，一百整。", "en": "Add two chairs, a hundred flat." },
+      { "role": "Seller", "cn": "椅子单卖四十一把，这价太低了。", "en": "Chairs are forty each. That's too low." },
+      { "role": "You", "cn": "一百一，现金，车就在外面。", "en": "A hundred ten cash. My truck's outside." },
+      { "role": "Seller", "cn": "行，帮你抬出去。", "en": "Deal. We'll help you load." }
+    ]
+  },
+  {
+    "id": "dlg-flea-08",
+    "category": "fleamarket",
+    "title": "Bundle at the Swap Meet",
+    "titleCn": "集市打包价",
+    "scene": "你在 swap meet 买多件旧物打包砍价。",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "唱片五块一张，海报十块。", "en": "Records five each, posters ten." },
+      { "role": "You", "cn": "我挑六张唱片两张海报，能打包吗？", "en": "I'll take six records and two posters. Any bundle deal?" },
+      { "role": "Vendor", "cn": "正常五十，给你四十五。", "en": "Fifty normally. I'll do forty-five." },
+      { "role": "You", "cn": "这张披头士封面有折痕，四十。", "en": "This Beatles cover is creased. Forty." },
+      { "role": "Vendor", "cn": "四十二，送一张单曲。", "en": "Forty-two and I'll throw in a single." },
+      { "role": "You", "cn": "成交，有袋子吗？", "en": "Deal. Got a bag?" },
+      { "role": "Vendor", "cn": "给你个购物袋。", "en": "Here's a shopping bag." }
+    ]
   }
 ]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-wed-01",
+    "category": "wedding",
+    "title": "At the Ceremony",
+    "titleCn": "婚礼仪式",
+    "scene": "你作为宾客参加户外婚礼仪式。",
+    "roles": ["You", "Usher"],
+    "turns": [
+      { "role": "Usher", "cn": "欢迎！请柬在吗？新娘还是新郎那边？", "en": "Welcome! May I see your invitation? Bride or groom's side?" },
+      { "role": "You", "cn": "在这，我是新郎的大学同学。", "en": "Here. I'm a college friend of the groom." },
+      { "role": "Usher", "cn": "请坐右边第三排，仪式马上开始。", "en": "Right side, third row. Ceremony starts shortly." },
+      { "role": "You", "cn": "可以拍照吗？", "en": "Are photos allowed?" },
+      { "role": "Usher", "cn": "仪式中请收起手机，之后随意。", "en": "Please put phones away during vows. After that, go ahead." },
+      { "role": "You", "cn": "下雨有备用方案吗？", "en": "Is there a rain plan?" },
+      { "role": "Usher", "cn": "十分钟后转室内宴会厅。", "en": "We move to the ballroom in ten minutes if needed." }
+    ]
+  },
+  {
+    "id": "dlg-wed-02",
+    "category": "wedding",
+    "title": "Reception Seating",
+    "titleCn": "婚宴入座",
+    "scene": "婚宴开始，你在签到台找座位。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "姓名？我帮您查桌号。", "en": "Your name? I'll find your table." },
+      { "role": "You", "cn": "张伟，一位。", "en": "Zhang Wei, party of one." },
+      { "role": "Host", "cn": "七号桌，靠舞池。胸花请别在胸前。", "en": "Table seven by the dance floor. Please pin on your boutonniere." },
+      { "role": "You", "cn": "有素食选项吗？", "en": "Is there a vegetarian option?" },
+      { "role": "Host", "cn": "有的，上菜时跟服务员说。", "en": "Yes. Tell the server when they take orders." },
+      { "role": "You", "cn": "礼物放哪？", "en": "Where do I put the gift?" },
+      { "role": "Host", "cn": "入口那张礼物桌。", "en": "The gift table by the entrance." }
+    ]
+  },
+  {
+    "id": "dlg-wed-03",
+    "category": "wedding",
+    "title": "Wedding Toast",
+    "titleCn": "婚礼祝酒",
+    "scene": "朋友请你帮忙在婚宴上简短祝酒。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "愿意祝酒吗？一两分钟就行。", "en": "Would you give a toast? Just a minute or two." },
+      { "role": "You", "cn": "可以，我说中英混合行吗？", "en": "Sure. Is it okay if I mix in a little Chinese?" },
+      { "role": "Friend", "cn": "当然，新人会喜欢。九点切蛋糕前。", "en": "Of course. They'd love it. Right before cake at nine." },
+      { "role": "You", "cn": "需要提前把稿子给你看吗？", "en": "Should I send you the script beforehand?" },
+      { "role": "Friend", "cn": "不用，轻松幽默就好，别太长。", "en": "No need. Keep it light and short." },
+      { "role": "You", "cn": "好，我准备了几个大学趣事。", "en": "Got it. I have a few college stories ready." },
+      { "role": "Friend", "cn": "太感谢了！", "en": "You're the best!" }
+    ]
+  },
+  {
+    "id": "dlg-wed-04",
+    "category": "wedding",
+    "title": "Wedding Dance Floor",
+    "titleCn": "婚宴跳舞",
+    "scene": "婚宴上有人邀请你跳舞。",
+    "roles": ["You", "Guest"],
+    "turns": [
+      { "role": "Guest", "cn": "来跳一支？新娘马上要抛花球了。", "en": "Care for a dance? Bouquet toss is coming up." },
+      { "role": "You", "cn": "我不太会跳，慢舞可以吗？", "en": "I'm not great at dancing. Slow song okay?" },
+      { "role": "Guest", "cn": "当然，这首很合适。", "en": "Sure. This one's perfect." },
+      { "role": "You", "cn": "你们怎么认识新人的？", "en": "How do you know the couple?" },
+      { "role": "Guest", "cn": "新娘是我表妹，你呢？", "en": "The bride is my cousin. You?" },
+      { "role": "You", "cn": "新郎同事，一起做过项目。", "en": "I work with the groom. We were on a project together." },
+      { "role": "Guest", "cn": "很浪漫的婚礼，对吧？", "en": "Lovely wedding, isn't it?" }
+    ]
+  },
+  {
+    "id": "dlg-wed-05",
+    "category": "wedding",
+    "title": "Leaving the Reception",
+    "titleCn": "婚宴告别",
+    "scene": "婚宴结束，你跟新人告别。",
+    "roles": ["You", "Couple"],
+    "turns": [
+      { "role": "You", "cn": "今晚太棒了，祝你们幸福！", "en": "Tonight was wonderful. Congratulations and best wishes!" },
+      { "role": "Couple", "cn": "谢谢赶来！礼物我们很喜欢。", "en": "Thanks for coming! We love the gift." },
+      { "role": "You", "cn": "蜜月去哪？什么时候出发？", "en": "Where's the honeymoon? When do you leave?" },
+      { "role": "Couple", "cn": "下周去夏威夷，五天。", "en": "Hawaii next week for five days." },
+      { "role": "You", "cn": "我帮你们叫网约车吗？", "en": "Want me to call you a ride?" },
+      { "role": "Couple", "cn": "不用，酒店有车，再次感谢！", "en": "We're good. The hotel has a shuttle. Thanks again!" },
+      { "role": "You", "cn": "晚安，享受蜜月！", "en": "Good night. Enjoy the honeymoon!" }
+    ]
+  }
+]

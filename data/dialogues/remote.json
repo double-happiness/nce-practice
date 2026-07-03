@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-rem-01",
+    "category": "remote",
+    "title": "Zoom Meeting",
+    "titleCn": "视频会议",
+    "scene": "远程会议开始时你的麦克风没声音。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "张伟，你静音了吗？我们听不到你。", "en": "Zhang Wei, are you muted? We can't hear you." },
+      { "role": "You", "cn": "抱歉，现在能听到吗？", "en": "Sorry. Can you hear me now?" },
+      { "role": "Colleague", "cn": "可以了，你先分享一下屏幕。", "en": "Yes. Go ahead and share your screen." },
+      { "role": "You", "cn": "我共享PPT，稍等。", "en": "I'll share the slides. One moment." },
+      { "role": "Colleague", "cn": "字号能大一点吗？", "en": "Could you zoom in a bit?" },
+      { "role": "You", "cn": "好的，这样行吗？", "en": "Sure. Is this better?" },
+      { "role": "Colleague", "cn": "行了，开始吧。", "en": "Perfect. Go ahead." }
+    ]
+  },
+  {
+    "id": "dlg-rem-02",
+    "category": "remote",
+    "title": "Online Class",
+    "titleCn": "网课",
+    "scene": "你上网课，向教授提问。",
+    "roles": ["You", "Professor"],
+    "turns": [
+      { "role": "Professor", "cn": "聊天区有问题可以打字。", "en": "Type questions in the chat if you have any." },
+      { "role": "You", "cn": "教授，第三张幻灯片公式能再讲一遍吗？", "en": "Professor, could you explain the formula on slide three again?" },
+      { "role": "Professor", "cn": "当然，我回到那一页。", "en": "Sure. Let me go back to that slide." },
+      { "role": "You", "cn": "录播会后能看吗？", "en": "Will the recording be available later?" },
+      { "role": "Professor", "cn": "二十四小时内上传到课程网站。", "en": "Within twenty-four hours on the course site." },
+      { "role": "You", "cn": "作业还是周日截止对吧？", "en": "Homework is still due Sunday, right?" },
+      { "role": "Professor", "cn": "对，晚上十一点前提交。", "en": "Yes. Submit by eleven PM." }
+    ]
+  },
+  {
+    "id": "dlg-rem-03",
+    "category": "remote",
+    "title": "Working from Home",
+    "titleCn": "居家办公",
+    "scene": "你在家办公，经理视频检查进度。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "今天在家还顺利吗？", "en": "How's working from home going today?" },
+      { "role": "You", "cn": "顺利，上午完成了报告初稿。", "en": "Pretty well. I finished the draft report this morning." },
+      { "role": "Manager", "cn": "下午三点有个客户会，能上线吗？", "en": "There's a client call at three PM. Can you join?" },
+      { "role": "You", "cn": "可以，链接发我邮箱就行。", "en": "Yes. Just send the link to my email." },
+      { "role": "Manager", "cn": "背景有点吵，是孩子在吗？", "en": "It's a bit noisy. Kids at home?" },
+      { "role": "You", "cn": "抱歉，我关一下门。", "en": "Sorry. I'll close the door." },
+      { "role": "Manager", "cn": "没事，辛苦了。", "en": "No problem. Thanks for your flexibility." }
+    ]
+  },
+  {
+    "id": "dlg-rem-04",
+    "category": "remote",
+    "title": "IT Support Remote",
+    "titleCn": "远程IT支持",
+    "scene": "你电脑远程办公连不上公司VPN。",
+    "roles": ["You", "IT"],
+    "turns": [
+      { "role": "IT", "cn": "IT支持，VPN什么问题？", "en": "IT support. What's wrong with the VPN?" },
+      { "role": "You", "cn": "一直转圈连不上，密码刚改过。", "en": "It spins forever. I just changed my password." },
+      { "role": "IT", "cn": "新密码同步要等十五分钟，再试。", "en": "New passwords take fifteen minutes to sync. Try again." },
+      { "role": "You", "cn": "还是不行。", "en": "Still not working." },
+      { "role": "IT", "cn": "我远程控制你桌面，请点允许。", "en": "I'll remote into your desktop. Please click allow." },
+      { "role": "You", "cn": "好了，可以了，谢谢！", "en": "It's connected now. Thank you!" },
+      { "role": "IT", "cn": "别关客户端，有问题再打电话。", "en": "Keep the client open. Call if it drops again." }
+    ]
+  },
+  {
+    "id": "dlg-rem-05",
+    "category": "remote",
+    "title": "Virtual Interview",
+    "titleCn": "视频面试",
+    "scene": "你在家参加视频面试。",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "画面和声音都清楚吗？", "en": "Can you see and hear me clearly?" },
+      { "role": "You", "cn": "很清楚，谢谢您安排时间。", "en": "Yes, very clear. Thanks for making time." },
+      { "role": "Interviewer", "cn": "请简单介绍自己和最近的项目。", "en": "Please introduce yourself and your recent projects." },
+      { "role": "You", "cn": "我是软件工程师，最近在做支付系统重构。", "en": "I'm a software engineer. Lately I've been rebuilding a payment system." },
+      { "role": "Interviewer", "cn": "如果网络断了我会重拨。", "en": "If we get disconnected, I'll call you back." },
+      { "role": "You", "cn": "好的，我手机也开着。", "en": "Okay. I have my phone on too." },
+      { "role": "Interviewer", "cn": "那我们开始技术问题。", "en": "Let's move on to technical questions." }
+    ]
+  }
+]

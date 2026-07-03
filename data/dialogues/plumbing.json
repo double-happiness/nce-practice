@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-plmb-01",
+    "category": "plumbing",
+    "title": "Clogged Kitchen Sink",
+    "titleCn": "厨房水槽堵了",
+    "scene": "厨房水槽下水慢，你叫管道工。",
+    "roles": ["You", "Plumber"],
+    "turns": [
+      { "role": "Plumber", "cn": "两边都堵还是一边？", "en": "Both sides slow or just one?" },
+      { "role": "You", "cn": "两边都慢，昨天开始。", "en": "Both sides. Started yesterday." },
+      { "role": "Plumber", "cn": "可能油脂堵了，我打开存水弯看看。", "en": "Probably grease. I'll open the trap and check." },
+      { "role": "You", "cn": "通一次多少钱？", "en": "How much to clear it?" },
+      { "role": "Plumber", "cn": "上门一百五，简单疏通包含在内。", "en": "A hundred fifty service call, simple snaking included." },
+      { "role": "You", "cn": "以后怎么预防？", "en": "How do we prevent this?" },
+      { "role": "Plumber", "cn": "别倒油，用热水定期冲。", "en": "Don't pour grease. Flush with hot water regularly." }
+    ]
+  },
+  {
+    "id": "dlg-plmb-02",
+    "category": "plumbing",
+    "title": "Toilet Overflow",
+    "titleCn": "马桶溢水",
+    "scene": "马桶堵了溢水，你打紧急管道服务。",
+    "roles": ["You", "Dispatcher"],
+    "turns": [
+      { "role": "Dispatcher", "cn": "管道紧急热线，什么问题？", "en": "Emergency plumbing. What's the issue?" },
+      { "role": "You", "cn": "马桶堵了水溢出来，只有这一个卫生间。", "en": "Toilet's clogged and overflowing. It's our only bathroom." },
+      { "role": "Dispatcher", "cn": "先关马桶后面阀门，师傅一小时到。", "en": "Shut the valve behind the toilet. A tech can be there in an hour." },
+      { "role": "You", "cn": "夜间加急费多少？", "en": "What's the after-hours fee?" },
+      { "role": "Dispatcher", "cn": "加五十，总价看情况。", "en": "Fifty extra. Total depends on the job." },
+      { "role": "You", "cn": "好的，地址枫树街55号。", "en": "Okay. Fifty-five Maple Street." },
+      { "role": "Dispatcher", "cn": "师傅会打电话，请保持畅通。", "en": "He'll call. Keep your phone on." }
+    ]
+  },
+  {
+    "id": "dlg-plmb-03",
+    "category": "plumbing",
+    "title": "Water Heater Problem",
+    "titleCn": "热水器坏了",
+    "scene": "洗澡没热水，管道工来检查热水器。",
+    "roles": ["You", "Plumber"],
+    "turns": [
+      { "role": "Plumber", "cn": "燃气还是电的？用了几年？", "en": "Gas or electric? How old is it?" },
+      { "role": "You", "cn": "燃气，大概八年。", "en": "Gas, about eight years old." },
+      { "role": "Plumber", "cn": "点火器坏了，修二百或换新一千二。", "en": "Igniter's shot. Two hundred to fix or twelve hundred for a new unit." },
+      { "role": "You", "cn": "换新包安装吗？", "en": "Does replacement include installation?" },
+      { "role": "Plumber", "cn": "包，旧机我们拉走。", "en": "Yes, and we haul the old one away." },
+      { "role": "You", "cn": "明天能装吗？", "en": "Can you install tomorrow?" },
+      { "role": "Plumber", "cn": "下午两点可以。", "en": "Two PM tomorrow works." }
+    ]
+  },
+  {
+    "id": "dlg-plmb-04",
+    "category": "plumbing",
+    "title": "Garbage Disposal Jam",
+    "titleCn": "垃圾处理器卡住",
+    "scene": "厨房垃圾处理器不转，你求助维修。",
+    "roles": ["You", "Plumber"],
+    "turns": [
+      { "role": "You", "cn": "垃圾处理器嗡嗡响但不转。", "en": "The disposal hums but won't spin." },
+      { "role": "Plumber", "cn": "可能卡了骨头或勺子，先断电。", "en": "Probably jammed on bone or a spoon. Kill the power first." },
+      { "role": "You", "cn": "底下红色复位键按过了。", "en": "I already hit the red reset button underneath." },
+      { "role": "Plumber", "cn": "我用内六角从底部转一下。", "en": "I'll use an Allen wrench from the bottom to free it." },
+      { "role": "You", "cn": "能修还是要换？", "en": "Repair or replace?" },
+      { "role": "Plumber", "cn": "这次能救，老化严重再换。", "en": "I can save it this time. Replace if it keeps jamming." },
+      { "role": "You", "cn": "谢谢，以后别倒骨头对吧？", "en": "Thanks. No bones down there, right?" }
+    ]
+  },
+  {
+    "id": "dlg-plmb-05",
+    "category": "plumbing",
+    "title": "Frozen Pipes",
+    "titleCn": "水管冻裂",
+    "scene": "冬天水管冻了，你叫紧急维修。",
+    "roles": ["You", "Plumber"],
+    "turns": [
+      { "role": "Plumber", "cn": "哪条水管没水？地下室有冰吗？", "en": "Which line has no water? Any ice in the basement?" },
+      { "role": "You", "cn": "厨房没水，地下室管子有霜。", "en": "Kitchen's dry. There's frost on a pipe in the basement." },
+      { "role": "Plumber", "cn": "先开暖气，我用热风枪慢慢化。", "en": "Turn up the heat. I'll thaw it slowly with a heat gun." },
+      { "role": "You", "cn": "会裂吗？", "en": "Could it burst?" },
+      { "role": "Plumber", "cn": "有可能，我检查有没有渗。", "en": "It's possible. I'll check for leaks after." },
+      { "role": "You", "cn": "以后怎么防冻？", "en": "How do we prevent this?" },
+      { "role": "Plumber", "cn": "寒流时让水龙头细流滴水。", "en": "Let faucets drip during hard freezes." }
+    ]
+  }
+]

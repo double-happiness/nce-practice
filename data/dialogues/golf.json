@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dlg-golf-01",
+    "category": "golf",
+    "title": "First Time at the Course",
+    "titleCn": "第一次打高尔夫",
+    "scene": "你第一次去高尔夫球场，在前台登记。",
+    "roles": ["You", "Pro"],
+    "turns": [
+      { "role": "Pro", "cn": "打过球场吗？需要租球杆吗？", "en": "Have you played this course? Need club rentals?" },
+      { "role": "You", "cn": "新手，租一套，上午九点开球。", "en": "I'm a beginner. Rent a set. Tee time at nine AM." },
+      { "role": "Pro", "cn": "球车和球僮另加，着装请有领衬衫。", "en": "Cart and caddie are extra. Collared shirt required." },
+      { "role": "You", "cn": "练习场在哪热身？", "en": "Where's the driving range to warm up?" },
+      { "role": "Pro", "cn": "停车场左边，一桶球八块。", "en": "Left of the parking lot. A bucket is eight dollars." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-golf-02",
+    "category": "golf",
+    "title": "On the Tee",
+    "titleCn": "开球",
+    "scene": "你和同伴在第一洞开球，你不太会。",
+    "roles": ["You", "Partner"],
+    "turns": [
+      { "role": "Partner", "cn": "你先开球，别急，先瞄准。", "en": "You tee off first. Take your time and aim." },
+      { "role": "You", "cn": "用几号木杆？", "en": "Which wood should I use?" },
+      { "role": "Partner", "cn": "三号木稳一点，一号木你以后再试。", "en": "Three-wood for control. Try the driver later." },
+      { "role": "You", "cn": "打歪了，球进树林了。", "en": "I sliced it into the trees." },
+      { "role": "Partner", "cn": "没事，打定位球，记多一杆。", "en": "No worries. Take a drop and add a stroke." },
+      { "role": "You", "cn": "高尔夫比我想的难。", "en": "Golf is harder than I thought." },
+      { "role": "Partner", "cn": "大家都这样过来的。", "en": "We all start that way." }
+    ]
+  },
+  {
+    "id": "dlg-golf-03",
+    "category": "golf",
+    "title": "Golf Lesson",
+    "titleCn": "高尔夫课",
+    "scene": "你请教练上第一节入门课。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "先练握杆，左手在上，别太紧。", "en": "Let's start with your grip. Lead hand on top, not too tight." },
+      { "role": "You", "cn": "站姿怎么站？", "en": "How should I stand?" },
+      { "role": "Instructor", "cn": "脚与肩同宽，膝盖微弯。", "en": "Feet shoulder-width, knees slightly bent." },
+      { "role": "You", "cn": "我总是打地。", "en": "I keep hitting the ground first." },
+      { "role": "Instructor", "cn": "杆头先掠过草皮，再击球。", "en": "Brush the grass first, then hit the ball." },
+      { "role": "You", "cn": "好像好一点了。", "en": "That feels a bit better." },
+      { "role": "Instructor", "cn": "多练短杆，进步最快。", "en": "Practice your short game. That's where scores drop fastest." }
+    ]
+  },
+  {
+    "id": "dlg-golf-04",
+    "category": "golf",
+    "title": "At the Clubhouse",
+    "titleCn": "球会餐厅",
+    "scene": "打完九洞后，你在球会餐厅点餐。",
+    "roles": ["You", "Server"],
+    "turns": [
+      { "role": "Server", "cn": "打完球了？今天热吧？", "en": "Finished your round? Hot one today, huh?" },
+      { "role": "You", "cn": "是啊，来杯冰茶和俱乐部三明治。", "en": "Yeah. I'll have iced tea and a club sandwich." },
+      { "role": "Server", "cn": "薯条配吗？", "en": "Want fries with that?" },
+      { "role": "You", "cn": "换成沙拉吧。", "en": "Substitute a side salad, please." },
+      { "role": "Server", "cn": "饮料无限续。", "en": "Drinks are free refills." },
+      { "role": "You", "cn": "太好了，谢谢。", "en": "Great. Thanks." }
+    ]
+  }
+]

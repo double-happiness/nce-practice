@@ -1,0 +1,252 @@
+[
+  {
+    "id": "dlg-groc-01",
+    "category": "grocery",
+    "title": "Checkout with Loyalty Card",
+    "titleCn": "会员卡结账",
+    "scene": "你在超市收银台结账。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "有会员卡吗？", "en": "Do you have a loyalty card?" },
+      { "role": "You", "cn": "有，手机号555-0123。", "en": "Yes. Phone number five five five, zero one two three." },
+      { "role": "Cashier", "cn": "一共四十八块五，要袋子吗？", "en": "Forty-eight fifty total. Need bags?" },
+      { "role": "You", "cn": "我自己带了，刷卡。", "en": "I brought my own. I'll pay by card." },
+      { "role": "Cashier", "cn": "请插卡或贴手机。", "en": "Insert or tap your card." },
+      { "role": "You", "cn": "需要签名吗？", "en": "Do I need to sign?" },
+      { "role": "Cashier", "cn": "不用，收据在袋子里。", "en": "No signature. Receipt's in the bag." }
+    ]
+  },
+  {
+    "id": "dlg-groc-02",
+    "category": "grocery",
+    "title": "Self-Checkout Problem",
+    "titleCn": "自助结账故障",
+    "scene": "自助收银机扫不了条码，你叫店员帮忙。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这个罐头扫不出来。", "en": "Excuse me, this can won't scan." },
+      { "role": "Attendant", "cn": "条码磨花了，我帮您手动输入。", "en": "The barcode's worn. I'll key it in." },
+      { "role": "You", "cn": "称重的那袋苹果也卡住了。", "en": "The bag of apples on the scale is stuck too." },
+      { "role": "Attendant", "cn": "请拿开重新放，绿灯亮了再扫别的。", "en": "Remove it and place it again. Wait for the green light before scanning more." },
+      { "role": "You", "cn": "好了，谢谢。", "en": "It's working now. Thanks." },
+      { "role": "Attendant", "cn": "有问题再叫我。", "en": "Call me if anything else comes up." }
+    ]
+  },
+  {
+    "id": "dlg-groc-03",
+    "category": "grocery",
+    "title": "Asking for Aisle",
+    "titleCn": "问商品在哪",
+    "scene": "你在超市里找不到酱油，问员工。",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "请问酱油在哪条过道？", "en": "Excuse me, which aisle is soy sauce in?" },
+      { "role": "Employee", "cn": "亚洲食品在七道，或者国际食品区。", "en": "Asian foods in aisle seven, or the international section." },
+      { "role": "You", "cn": "低钠的有吗？", "en": "Do you carry low-sodium?" },
+      { "role": "Employee", "cn": "七道中间货架，品牌不多。", "en": "Middle shelf in seven. Not many brands." },
+      { "role": "You", "cn": "牛奶呢？", "en": "Where's the milk?" },
+      { "role": "Employee", "cn": "后面冷藏区最左边。", "en": "Back wall coolers, far left." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-groc-04",
+    "category": "grocery",
+    "title": "Weighing Produce",
+    "titleCn": "称水果",
+    "scene": "你买散装葡萄，在秤上称重打价签。",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "自助秤怎么用？第一次用。", "en": "How does the scale work? First time." },
+      { "role": "Employee", "cn": "选水果代码，放上去，打印贴纸贴袋上。", "en": "Pick the produce code, place it on the scale, print the sticker for the bag." },
+      { "role": "You", "cn": "葡萄是哪个号？", "en": "What's the code for grapes?" },
+      { "role": "Employee", "cn": "屏幕上搜grape，四零八一。", "en": "Search grape on the screen. Four zero eight one." },
+      { "role": "You", "cn": "checkout时再扫这个码？", "en": "I scan this at checkout?" },
+      { "role": "Employee", "cn": "对，先贴好再结账。", "en": "Yes. Stick it on before you check out." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-groc-05",
+    "category": "grocery",
+    "title": "Asian Market Fish Counter",
+    "titleCn": "华人超市买鱼",
+    "scene": "你在华人超市鱼档买清蒸鲈鱼。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "要哪种？今天鲈鱼新鲜。", "en": "Which fish? Sea bass is fresh today." },
+      { "role": "You", "cn": "一条鲈鱼，帮忙去鳞去内脏，不切。", "en": "One sea bass, scaled and gutted, whole please." },
+      { "role": "Clerk", "cn": "还要杀吗？清蒸？", "en": "Clean only? Steaming?" },
+      { "role": "You", "cn": "对，清蒸，头留着。", "en": "Yes, for steaming. Leave the head on." },
+      { "role": "Clerk", "cn": "一斤八块九，这条大概一斤半。", "en": "Eight ninety a pound. This one's about a pound and a half." },
+      { "role": "You", "cn": "好的，再来一把葱。", "en": "Okay. A bunch of scallions too." },
+      { "role": "Clerk", "cn": "葱在前台蔬菜区。", "en": "Scallions are up front in produce." }
+    ]
+  },
+  {
+    "id": "dlg-groc-06",
+    "category": "grocery",
+    "title": "Return Without Receipt",
+    "titleCn": "无小票退货",
+    "scene": "你买的酸奶坏了，没有小票要退货。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "客服台，什么问题？", "en": "Customer service. What's the issue?" },
+      { "role": "You", "cn": "酸奶过期了，小票丢了。", "en": "This yogurt was expired. I lost the receipt." },
+      { "role": "Manager", "cn": "会员卡查得到购买记录吗？", "en": "Can we look it up on your loyalty card?" },
+      { "role": "You", "cn": "可以，手机号555-0123。", "en": "Yes. Phone five five five, zero one two three." },
+      { "role": "Manager", "cn": "查到了，换一盒或退款。", "en": "Found it. Exchange or refund?" },
+      { "role": "You", "cn": "退款吧，谢谢。", "en": "Refund, please. Thank you." },
+      { "role": "Manager", "cn": "退到原卡上。", "en": "It'll go back to your original card." }
+    ]
+  },
+  {
+    "id": "dlg-groc-07",
+    "category": "grocery",
+    "title": "Price Match",
+    "titleCn": "比价匹配",
+    "scene": "竞品超市同款更便宜，你要求 price match。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "You", "cn": "这款麦片隔壁店卖三块九，你们能 match 吗？", "en": "This cereal is three ninety at the other store. Can you price match?" },
+      { "role": "Cashier", "cn": "请出示广告或手机页面。", "en": "Please show the ad or the page on your phone." },
+      { "role": "You", "cn": "在这，今天有效。", "en": "Here. Valid today." },
+      { "role": "Cashier", "cn": "可以，我改价，同款限一包。", "en": "Sure. I'll override it. One item per product." },
+      { "role": "You", "cn": "好的，就这一包。", "en": "Okay. Just this one." },
+      { "role": "Cashier", "cn": "新价格三块九。", "en": "New price three ninety." }
+    ]
+  },
+  {
+    "id": "dlg-groc-08",
+    "category": "grocery",
+    "title": "Gluten-Free Section",
+    "titleCn": "找无麸质食品",
+    "scene": "你对麸质过敏，问员工无麸质面包在哪。",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "无麸质面包在哪？", "en": "Where's the gluten-free bread?" },
+      { "role": "Employee", "cn": "十二道冷冻柜，绿色标签。", "en": "Freezer aisle twelve. Green labels." },
+      { "role": "You", "cn": "和普通面包分开放吗？", "en": "Is it separate from regular bread?" },
+      { "role": "Employee", "cn": "是的，避免交叉污染。", "en": "Yes, to avoid cross-contamination." },
+      { "role": "You", "cn": "有无麸质酱油？", "en": "Do you have gluten-free soy sauce?" },
+      { "role": "Employee", "cn": "七道亚洲区，小瓶tamari。", "en": "Aisle seven Asian section. Small tamari bottles." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-groc-09",
+    "category": "grocery",
+    "title": "Bag Fee",
+    "titleCn": "购物袋收费",
+    "scene": "加州超市袋子收费，你跟收银员确认。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "需要袋子吗？每个十美分。", "en": "Need bags? Ten cents each." },
+      { "role": "You", "cn": "要两个纸袋，我自己没带。", "en": "Two paper bags, please. I forgot mine." },
+      { "role": "Cashier", "cn": "二十美分加在总价里。", "en": "Twenty cents added to your total." },
+      { "role": "You", "cn": "下次我带环保袋。", "en": "I'll bring reusable bags next time." },
+      { "role": "Cashier", "cn": "重的东西放下面。", "en": "Put heavy items on the bottom." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-groc-10",
+    "category": "grocery",
+    "title": "Split Payment",
+    "titleCn": "分开付款",
+    "scene": "你想一部分用食品券一部分刷卡。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "You", "cn": "能分开付吗？三十块用EBT，其余刷卡。", "en": "Can I split payment? Thirty on EBT, the rest on my card." },
+      { "role": "Cashier", "cn": "可以，先刷EBT。", "en": "Sure. Swipe EBT first." },
+      { "role": "You", "cn": "EBT不能买这瓶维生素对吧？", "en": "EBT doesn't cover these vitamins, right?" },
+      { "role": "Cashier", "cn": "对，维生素我单独扫，走信用卡。", "en": "Correct. I'll ring vitamins separately on your card." },
+      { "role": "You", "cn": "好的。", "en": "Okay." },
+      { "role": "Cashier", "cn": "EBT余额不足五块，请补差。", "en": "EBT is five short. Please cover the difference." },
+      { "role": "You", "cn": "剩下的刷卡。", "en": "Put the rest on my card." }
+    ]
+  },
+  {
+    "id": "dlg-groc-11",
+    "category": "grocery",
+    "title": "Deli Counter",
+    "titleCn": "熟食柜台",
+    "scene": "你在熟食柜台买切片火鸡。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "下一位，要什么？", "en": "Next. What can I get you?" },
+      { "role": "You", "cn": "半磅低钠火鸡，切薄一点。", "en": "Half a pound of low-sodium turkey, sliced thin." },
+      { "role": "Clerk", "cn": "要奶酪吗？", "en": "Any cheese?" },
+      { "role": "You", "cn": "再来四分之一磅瑞士奶酪。", "en": "A quarter pound of Swiss too." },
+      { "role": "Clerk", "cn": "一共七块二。", "en": "Seven twenty total." },
+      { "role": "You", "cn": "贴个价签我一起结账。", "en": "Sticker price tag and I'll pay at checkout." },
+      { "role": "Clerk", "cn": "好了，给。", "en": "Here you go." }
+    ]
+  },
+  {
+    "id": "dlg-groc-12",
+    "category": "grocery",
+    "title": "In-Store Pharmacy Pickup",
+    "titleCn": "超市药房取药",
+    "scene": "你在超市内药房窗口取处方药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "取药还是咨询？", "en": "Pickup or consultation?" },
+      { "role": "You", "cn": "取药，姓张，生日1990年3月12日。", "en": "Pickup. Zhang, March twelfth nineteen ninety." },
+      { "role": "Pharmacist", "cn": "抗生素，饭后吃，每天两次。", "en": "Antibiotic. Take with food, twice daily." },
+      { "role": "You", "cn": "能喝酒吗？", "en": "Can I drink alcohol?" },
+      { "role": "Pharmacist", "cn": "疗程期间不要。", "en": "Avoid alcohol during the course." },
+      { "role": "You", "cn": "自付十块对吧？", "en": "Ten-dollar copay, right?" },
+      { "role": "Pharmacist", "cn": "对，请刷卡。", "en": "Yes. Please swipe." }
+    ]
+  },
+  {
+    "id": "dlg-groc-13",
+    "category": "grocery",
+    "title": "Rain Check",
+    "titleCn": "缺货雨票",
+    "scene": "促销鸡蛋卖光了，你要 rain check。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "广告上鸡蛋一块九，货架空了，能开 rain check 吗？", "en": "Eggs are a dollar ninety in the ad but sold out. Can I get a rain check?" },
+      { "role": "Manager", "cn": "可以，补货后两周内同价买两盒。", "en": "Yes. Same price for two cartons within two weeks of restock." },
+      { "role": "You", "cn": "大概哪天有货？", "en": "Any idea when they'll be back?" },
+      { "role": "Manager", "cn": "通常明天早上。", "en": "Usually tomorrow morning." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." },
+      { "role": "Manager", "cn": "拿好这张条，结账出示。", "en": "Keep this slip and show it at checkout." }
+    ]
+  },
+  {
+    "id": "dlg-groc-14",
+    "category": "grocery",
+    "title": "Load Groceries to Car",
+    "titleCn": "帮忙装车",
+    "scene": "你买了很多东西，问店员能否帮忙推到车位。",
+    "roles": ["You", "Bagger"],
+    "turns": [
+      { "role": "You", "cn": "能帮我推到停车场吗？东西有点多。", "en": "Could you help me to the parking lot? It's a lot to carry." },
+      { "role": "Bagger", "cn": "可以，车停哪？", "en": "Sure. Where's your car?" },
+      { "role": "You", "cn": "蓝色SUV，第三排。", "en": "Blue SUV, third row." },
+      { "role": "Bagger", "cn": "冷冻品放最后，我先装干货。", "en": "I'll load dry goods first, frozen items last." },
+      { "role": "You", "cn": "谢谢，小费放这里。", "en": "Thanks. Here's a tip." },
+      { "role": "Bagger", "cn": "非常感谢！", "en": "Much appreciated!" }
+    ]
+  },
+  {
+    "id": "dlg-groc-15",
+    "category": "grocery",
+    "title": "Coupon Not Working",
+    "titleCn": "优惠券无效",
+    "scene": "结账时优惠券扫不进去。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "You", "cn": "这张两美元优惠券怎么没用上？", "en": "Why didn't this two-dollar coupon apply?" },
+      { "role": "Cashier", "cn": "要买指定品牌大包装才行。", "en": "It requires the large size of the named brand." },
+      { "role": "You", "cn": "我换大瓶可以吗？还差什么？", "en": "Can I swap for the large bottle? What else?" },
+      { "role": "Cashier", "cn": "大瓶就行，我重新扫。", "en": "Large size is fine. I'll rescan." },
+      { "role": "You", "cn": "现在减两美元了吧？", "en": "Two dollars off now?" },
+      { "role": "Cashier", "cn": "对，总价四十六块。", "en": "Yes. Total forty-six." },
+      { "role": "You", "cn": "好的，刷卡。", "en": "Great. Card please." }
+    ]
+  }
+]

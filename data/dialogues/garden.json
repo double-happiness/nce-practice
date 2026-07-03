@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-gdn-01",
+    "category": "garden",
+    "title": "At the Nursery",
+    "titleCn": "花圃买苗",
+    "scene": "你在园艺中心买阳台种菜苗。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "新手建议番茄和罗勒，好种。", "en": "For beginners, try tomatoes and basil. They're easy." },
+      { "role": "You", "cn": "盆和土也在这买吗？", "en": "Do you sell pots and soil here too?" },
+      { "role": "Clerk", "cn": "后院有土和肥料，盆在A区。", "en": "Soil and fertilizer out back. Pots are in aisle A." },
+      { "role": "You", "cn": "每天浇多少水？", "en": "How much should I water each day?" },
+      { "role": "Clerk", "cn": "土干了再浇，别积水。", "en": "Water when the soil feels dry. Don't let it sit soggy." },
+      { "role": "You", "cn": "好的，这些苗能放车里吗？", "en": "Okay. Can these seedlings ride in my car?" },
+      { "role": "Clerk", "cn": "可以，别暴晒，回家尽快种。", "en": "Sure, just avoid direct sun. Plant them soon." }
+    ]
+  },
+  {
+    "id": "dlg-gdn-02",
+    "category": "garden",
+    "title": "Lawn Care",
+    "titleCn": "草坪养护",
+    "scene": "你向邻居请教草坪发黄的问题。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "草坪一块块发黄，怎么回事？", "en": "Patches of my lawn are turning yellow. Any idea why?" },
+      { "role": "Neighbor", "cn": "可能是缺水或虫子，你多久浇一次？", "en": "Could be drought or grubs. How often do you water?" },
+      { "role": "You", "cn": "一周两次，每次二十分钟。", "en": "Twice a week, twenty minutes each." },
+      { "role": "Neighbor", "cn": "清晨浇更好，秋天可以补播草籽。", "en": "Early morning is better. You can overseed in the fall." },
+      { "role": "You", "cn": "肥料用哪种？", "en": "What kind of fertilizer should I use?" },
+      { "role": "Neighbor", "cn": "慢释颗粒的，按说明撒。", "en": "Slow-release granules. Follow the bag directions." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks a lot!" }
+    ]
+  },
+  {
+    "id": "dlg-gdn-03",
+    "category": "garden",
+    "title": "Flower Shop",
+    "titleCn": "花店订花",
+    "scene": "你在花店订一束生日花。",
+    "roles": ["You", "Florist"],
+    "turns": [
+      { "role": "Florist", "cn": "要什么风格？玫瑰还是混搭？", "en": "What style? Roses or a mixed bouquet?" },
+      { "role": "You", "cn": "混搭，颜色亮一点，五十块左右。", "en": "Mixed, bright colors, around fifty dollars." },
+      { "role": "Florist", "cn": "可以加贺卡，明天中午送吗？", "en": "We can add a card. Deliver tomorrow at noon?" },
+      { "role": "You", "cn": "送到办公室，地址在这。", "en": "To her office. Here's the address." },
+      { "role": "Florist", "cn": "配送费八块，合计五十八。", "en": "Delivery is eight dollars. Fifty-eight total." },
+      { "role": "You", "cn": "贺卡写：生日快乐，爱你。", "en": "Card: Happy birthday. Love you." },
+      { "role": "Florist", "cn": "好的，会拍照确认。", "en": "Got it. We'll send a photo when it's done." }
+    ]
+  },
+  {
+    "id": "dlg-gdn-04",
+    "category": "garden",
+    "title": "Pest on Plants",
+    "titleCn": "植物长虫",
+    "scene": "你家的室内植物长蚜虫，去园艺店求助。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "叶子背面有小绿虫，是什么？", "en": "Tiny green bugs under the leaves. What are they?" },
+      { "role": "Clerk", "cn": "像蚜虫，用肥皂水喷或买杀虫皂。", "en": "Looks like aphids. Spray soapy water or use insecticidal soap." },
+      { "role": "You", "cn": "对宠物安全吗？", "en": "Is it safe around pets?" },
+      { "role": "Clerk", "cn": "杀虫皂比较温和，喷完通风。", "en": "Insecticidal soap is milder. Ventilate after spraying." },
+      { "role": "You", "cn": "多久喷一次？", "en": "How often should I spray?" },
+      { "role": "Clerk", "cn": "每周一次，连用三周。", "en": "Once a week for three weeks." },
+      { "role": "You", "cn": "我拿一瓶，谢谢。", "en": "I'll take a bottle. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-gdn-05",
+    "category": "garden",
+    "title": "Garden Tool Rental",
+    "titleCn": "租园艺工具",
+    "scene": "你要翻修小院，在五金店租铲土机。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "租四小时七十，全天一百。", "en": "Seventy for four hours, a hundred for the day." },
+      { "role": "You", "cn": "租一天，押金多少？", "en": "One day. What's the deposit?" },
+      { "role": "Clerk", "cn": "两百可退，驾照押复印件。", "en": "Two hundred refundable. We copy your license." },
+      { "role": "You", "cn": "能送到家吗？", "en": "Can you deliver it to my house?" },
+      { "role": "Clerk", "cn": "十英里内三十块。", "en": "Thirty dollars within ten miles." },
+      { "role": "You", "cn": "好，明天早上八点送。", "en": "Okay. Deliver tomorrow at eight AM." },
+      { "role": "Clerk", "cn": "记得戴护目镜和手套。", "en": "Remember safety glasses and gloves." }
+    ]
+  }
+]

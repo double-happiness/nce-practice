@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-stor-01",
+    "category": "storage",
+    "title": "Renting a Storage Unit",
+    "titleCn": "租储物间",
+    "scene": "你搬家过渡期，去迷你仓公司租单元。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "要多大？五乘五还是五乘十？", "en": "What size? Five by five or five by ten?" },
+      { "role": "You", "cn": "五乘十，放家具和三十箱。", "en": "Five by ten for furniture and about thirty boxes." },
+      { "role": "Manager", "cn": "月租一百二，首月半价。", "en": "A hundred twenty a month. Half off the first month." },
+      { "role": "You", "cn": "有空调吗？门禁几点？", "en": "Is it climate-controlled? What are gate hours?" },
+      { "role": "Manager", "cn": "恒温仓加三十，门禁早六晚十。", "en": "Climate control is thirty extra. Gate is six AM to ten PM." },
+      { "role": "You", "cn": "需要买保险吗？", "en": "Do I need insurance?" },
+      { "role": "Manager", "cn": "建议买，十五块一月。", "en": "We recommend it. Fifteen a month." }
+    ]
+  },
+  {
+    "id": "dlg-stor-02",
+    "category": "storage",
+    "title": "Accessing Your Unit",
+    "titleCn": "进仓取物",
+    "scene": "你去储物间取冬天衣物，门禁出问题。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "门禁码刷不开，账号是张伟。", "en": "My gate code isn't working. Account name Zhang Wei." },
+      { "role": "Staff", "cn": "月租昨天到期，更新付款就恢复。", "en": "Rent was due yesterday. It'll work once payment clears." },
+      { "role": "You", "cn": "我现在刷卡可以吗？", "en": "Can I pay by card right now?" },
+      { "role": "Staff", "cn": "可以，付完等新码短信。", "en": "Yes. You'll get a new code by text after." },
+      { "role": "You", "cn": "仓里灯不亮，怎么办？", "en": "The light in my unit is out. What do I do?" },
+      { "role": "Staff", "cn": "报单元号，我派人换灯泡。", "en": "Give me your unit number. I'll send someone to change the bulb." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-stor-03",
+    "category": "storage",
+    "title": "Moving Out of Storage",
+    "titleCn": "退租储物间",
+    "scene": "你搬完家，去迷你仓办退租。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想退租，B区208。", "en": "I'd like to close out my unit. B-two-oh-eight." },
+      { "role": "Manager", "cn": "清空了吗？钥匙和挂锁请归还。", "en": "Is it empty? Return the key and padlock." },
+      { "role": "You", "cn": "清空了，锁在这。", "en": "All clear. Here's the lock." },
+      { "role": "Manager", "cn": "我检查一下，没有损坏就退押金。", "en": "I'll inspect it. Deposit returns if there's no damage." },
+      { "role": "You", "cn": "押金五十，多久退回？", "en": "Fifty-dollar deposit. How long until it's refunded?" },
+      { "role": "Manager", "cn": "七到十个工作日原路退。", "en": "Seven to ten business days to your card." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Sounds good. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-stor-04",
+    "category": "storage",
+    "title": "Buying Packing Supplies",
+    "titleCn": "买打包材料",
+    "scene": "你在仓储公司买纸箱和气泡膜。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "中号箱一块五，大号两块。", "en": "Medium boxes a dollar fifty, large ones two." },
+      { "role": "You", "cn": "要十五个中号、五个大号，加胶带。", "en": "Fifteen medium, five large, and packing tape." },
+      { "role": "Clerk", "cn": "易碎品建议加气泡膜，十二块一卷。", "en": "For fragile stuff, grab bubble wrap. Twelve a roll." },
+      { "role": "You", "cn": "要两卷，有床垫套吗？", "en": "Two rolls. Do you sell mattress covers?" },
+      { "role": "Clerk", "cn": "有，Queen号八块。", "en": "Yes. Queen size is eight bucks." },
+      { "role": "You", "cn": "车在门口，能帮忙装车吗？", "en": "My car's out front. Can you help load?" },
+      { "role": "Clerk", "cn": "可以，推车在入口。", "en": "Sure. Carts are by the entrance." }
+    ]
+  },
+  {
+    "id": "dlg-stor-05",
+    "category": "storage",
+    "title": "Auction on Abandoned Unit",
+    "titleCn": "仓库拍卖",
+    "scene": "你对迷你仓弃置单元拍卖感兴趣，咨询规则。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "周六拍卖几点开始？", "en": "What time does Saturday's auction start?" },
+      { "role": "Manager", "cn": "上午十点，现金或借记卡，整单元出价。", "en": "Ten AM. Cash or debit. You bid on the whole unit." },
+      { "role": "You", "cn": "能进去看吗？", "en": "Can we look inside?" },
+      { "role": "Manager", "cn": "只能门口看，不能翻，买下才开门。", "en": "From the doorway only. No digging. Winner gets access." },
+      { "role": "You", "cn": "几天内清空？", "en": "How long to clear it out?" },
+      { "role": "Manager", "cn": "四十八小时，逾期每天罚五十。", "en": "Forty-eight hours. Fifty a day after that." },
+      { "role": "You", "cn": "明白了，我来看看。", "en": "Got it. I'll check it out." }
+    ]
+  }
+]

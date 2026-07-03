@@ -1,6 +1,6 @@
 [
   {
-    "id": "dlg-camp-01",
+    "id": "dlg-campus-01",
     "category": "campus",
     "title": "Campus Tour",
     "titleCn": "校园参观",
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "id": "dlg-camp-02",
+    "id": "dlg-campus-02",
     "category": "campus",
     "title": "Dorm Check-in",
     "titleCn": "宿舍入住",
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "id": "dlg-camp-03",
+    "id": "dlg-campus-03",
     "category": "campus",
     "title": "Joining a Club",
     "titleCn": "加入社团",
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "id": "dlg-camp-04",
+    "id": "dlg-campus-04",
     "category": "campus",
     "title": "Printing on Campus",
     "titleCn": "校园打印",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "id": "dlg-camp-05",
+    "id": "dlg-campus-05",
     "category": "campus",
     "title": "Career Fair",
     "titleCn": "校园招聘会",

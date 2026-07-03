@@ -100,5 +100,22 @@
       { "role": "You", "cn": "费用多少？", "en": "What's your fee?" },
       { "role": "Accountant", "cn": "这种复杂度一百五。", "en": "A hundred fifty for this level of complexity." }
     ]
+  },
+  {
+    "id": "dlg-svc-07",
+    "category": "services",
+    "title": "Dental Filling",
+    "titleCn": "补牙",
+    "scene": "牙医发现蛀牙，你要做补牙。",
+    "roles": ["You", "Dentist"],
+    "turns": [
+      { "role": "Dentist", "cn": "左下大牙有个小洞，建议今天补。", "en": "There's a small cavity on your lower left molar. I'd fill it today." },
+      { "role": "You", "cn": "疼吗？保险能报多少？", "en": "Will it hurt? How much will insurance cover?" },
+      { "role": "Dentist", "cn": "会打局部麻药，保险通常报八成。", "en": "We'll numb the area. Insurance usually covers eighty percent." },
+      { "role": "You", "cn": "用什么材料？", "en": "What material do you use?" },
+      { "role": "Dentist", "cn": "后牙用复合树脂，颜色和牙接近。", "en": "Composite resin for back teeth. It matches your tooth color." },
+      { "role": "You", "cn": "好的，做吧。", "en": "Okay, let's do it." },
+      { "role": "Dentist", "cn": "张嘴，麻药起效后告诉我。", "en": "Open wide. Let me know when the numbness kicks in." }
+    ]
   }
 ]

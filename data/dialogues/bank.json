@@ -83,5 +83,22 @@
       { "role": "Teller", "cn": "通常两个工作日，手机银行可查进度。", "en": "Usually two business days. You can track it in mobile banking." },
       { "role": "You", "cn": "好的，需要收据吗？", "en": "Okay. Could I have a receipt?" }
     ]
+  },
+  {
+    "id": "dlg-bank-06",
+    "category": "bank",
+    "title": "Credit Card Application",
+    "titleCn": "办信用卡",
+    "scene": "你在银行申请第一张信用卡。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "Banker", "cn": "想办哪种卡？我们有返现和旅行积分。", "en": "Which card interests you? We have cash back and travel rewards." },
+      { "role": "You", "cn": "日常消费返现那种，年费多少？", "en": "The cash-back one for everyday spending. What's the annual fee?" },
+      { "role": "Banker", "cn": "首年免年费，之后九十五，消费够可免。", "en": "No fee the first year, then ninety-five unless you spend enough to waive it." },
+      { "role": "You", "cn": "需要什么材料？多久能批？", "en": "What do I need to apply, and how long for approval?" },
+      { "role": "Banker", "cn": "身份证、收入证明，网上几分钟，卡一周寄到。", "en": "ID and proof of income. Online takes minutes; the card arrives in a week." },
+      { "role": "You", "cn": "信用额度大概多少？", "en": "What credit limit should I expect?" },
+      { "role": "Banker", "cn": "根据收入，新客一般三千到五千。", "en": "Based on income, new customers often get three to five thousand." }
+    ]
   }
 ]

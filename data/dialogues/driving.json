@@ -134,5 +134,22 @@
       { "role": "Instructor", "cn": "好意心领了，路上永远安全第一。", "en": "That's kind of you. Always put safety first on the road." },
       { "role": "You", "cn": "一定！再次感谢！", "en": "I will. Thanks again!" }
     ]
+  },
+  {
+    "id": "dlg-drive-09",
+    "category": "driving",
+    "title": "DMV Check-In",
+    "titleCn": "路考签到",
+    "scene": "路考当天，你在 DMV 排队签到。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "路考预约？驾照和练车许可。", "en": "Road test appointment? License and learner's permit." },
+      { "role": "You", "cn": "十点那场，车在外面停车场。", "en": "Ten o'clock slot. The car's in the parking lot." },
+      { "role": "Clerk", "cn": "保险和登记有效吗？考官马上出来。", "en": "Is insurance and registration current? Your examiner will be out shortly." },
+      { "role": "You", "cn": "都有效，有点紧张。", "en": "Yes, all valid. I'm a little nervous." },
+      { "role": "Clerk", "cn": "正常，按练的来，打灯观察镜子。", "en": "That's normal. Drive like you practiced. Signal and check mirrors." },
+      { "role": "You", "cn": "失败可以当场重约吗？", "en": "If I fail, can I reschedule today?" },
+      { "role": "Clerk", "cn": "可以，但可能要等两周。", "en": "Yes, but you might wait two weeks for the next slot." }
+    ]
   }
 ]

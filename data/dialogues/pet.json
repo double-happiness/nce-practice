@@ -99,5 +99,39 @@
       { "role": "You", "cn": "太好了，他怕打雷。", "en": "Great. He's scared of thunder." },
       { "role": "Staff", "cn": "我们会安排安静房间，放心。", "en": "We'll put him in a quiet room. Don't worry." }
     ]
+  },
+  {
+    "id": "dlg-pet-07",
+    "category": "pet",
+    "title": "Pet Grooming",
+    "titleCn": "宠物美容",
+    "scene": "你带狗去宠物美容院洗澡剪毛。",
+    "roles": ["You", "Groomer"],
+    "turns": [
+      { "role": "Groomer", "cn": "今天全套洗澡剪指甲，四十五块。", "en": "Full bath and nail trim today is forty-five." },
+      { "role": "You", "cn": "他怕吹风机，能温柔点吗？", "en": "He's scared of the dryer. Could you go easy on him?" },
+      { "role": "Groomer", "cn": "会用低风速，第一次可旁观。", "en": "We'll use low speed. You can watch if it's his first time." },
+      { "role": "You", "cn": "毛剪短一点，夏天凉快。", "en": "Trim the coat shorter for summer." },
+      { "role": "Groomer", "cn": "大概两小时，好了发短信。", "en": "About two hours. We'll text when he's done." },
+      { "role": "You", "cn": "需要驱虫药吗？", "en": "Do you sell flea treatment?" },
+      { "role": "Groomer", "cn": "前台有，接狗时一起拿。", "en": "At the front desk. Grab it when you pick him up." }
+    ]
+  },
+  {
+    "id": "dlg-pet-08",
+    "category": "pet",
+    "title": "Emergency Vet",
+    "titleCn": "宠物急诊",
+    "scene": "你的狗吃了巧克力，深夜去宠物急诊。",
+    "roles": ["You", "Vet"],
+    "turns": [
+      { "role": "Vet", "cn": "什么时候吃的？大概多少？", "en": "When did he eat it? Roughly how much?" },
+      { "role": "You", "cn": "一小时前，半块黑巧克力。", "en": "About an hour ago, half a bar of dark chocolate." },
+      { "role": "Vet", "cn": "体重多少？黑巧毒性更高。", "en": "How much does he weigh? Dark chocolate is more toxic." },
+      { "role": "You", "cn": "三十磅，现在有点不安。", "en": "Thirty pounds. He's restless now." },
+      { "role": "Vet", "cn": "建议催吐并输液观察，今晚住院。", "en": "I recommend inducing vomiting and fluids overnight." },
+      { "role": "You", "cn": "费用大概多少？", "en": "About how much will it cost?" },
+      { "role": "Vet", "cn": "急诊八百到一千二，保险可报部分。", "en": "Eight hundred to twelve hundred for ER care. Insurance may cover part." }
+    ]
   }
 ]

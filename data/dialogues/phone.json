@@ -234,5 +234,343 @@
       { "role": "You", "cn": "好的，姓张。", "en": "Great. Last name Zhang." },
       { "role": "Receptionist", "cn": "预约好了，请提前五分钟到。", "en": "You're booked. Please arrive five minutes early." }
     ]
+  },
+  {
+    "id": "dlg-phone-15",
+    "category": "phone",
+    "title": "Child Late to School",
+    "titleCn": "孩子迟到通知学校",
+    "scene": "早上堵车，你打电话告诉学校孩子迟到。",
+    "roles": ["You", "Secretary"],
+    "turns": [
+      { "role": "Secretary", "cn": "阳光小学教务处。", "en": "Sunny Elementary office." },
+      { "role": "You", "cn": "你好，三年二班张小明今天会迟到大概二十分钟。", "en": "Hi, Tommy Zhang in class three-two will be about twenty minutes late today." },
+      { "role": "Secretary", "cn": "原因方便说吗？", "en": "May I ask the reason?" },
+      { "role": "You", "cn": "路上堵车，已经在路上了。", "en": "Traffic jam. We're on the way." },
+      { "role": "Secretary", "cn": "好的，到校请来办公室签到。", "en": "Okay. Please check in at the office when he arrives." },
+      { "role": "You", "cn": "需要家长进来吗？", "en": "Does a parent need to come inside?" },
+      { "role": "Secretary", "cn": "不用，孩子带迟到条就行。", "en": "No, he can bring a late slip from us." }
+    ]
+  },
+  {
+    "id": "dlg-phone-16",
+    "category": "phone",
+    "title": "Parent-Teacher Conference",
+    "titleCn": "约家长会",
+    "scene": "你打电话预约家长和老师面谈。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "王老师，三年级数学。", "en": "Ms. Wang, third-grade math." },
+      { "role": "You", "cn": "你好，我是张小明的家长，想约家长会。", "en": "Hi, I'm Tommy's parent. I'd like to schedule a parent-teacher conference." },
+      { "role": "Teacher", "cn": "下周三四点半后有空档。", "en": "I have slots after four thirty next Wednesday." },
+      { "role": "You", "cn": "周三五点可以吗？", "en": "Does five PM Wednesday work?" },
+      { "role": "Teacher", "cn": "可以，学校门口前台见。", "en": "Yes. Meet me at the front desk." },
+      { "role": "You", "cn": "需要带什么材料吗？", "en": "Should I bring anything?" },
+      { "role": "Teacher", "cn": "带上最近的测验卷就行。", "en": "Just bring his recent test papers." }
+    ]
+  },
+  {
+    "id": "dlg-phone-17",
+    "category": "phone",
+    "title": "Insurance Claim Status",
+    "titleCn": "问保险理赔进度",
+    "scene": "你打电话问医疗保险理赔处理到哪了。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "健康保险客服，保单号后四位？", "en": "Health insurance. Last four digits of your policy?" },
+      { "role": "You", "cn": "8821，上个月牙科理赔还在处理。", "en": "Eight eight two one. My dental claim from last month is still pending." },
+      { "role": "Agent", "cn": "我查一下……还缺诊所的详细账单。", "en": "Let me check. We're still missing the itemized bill from the clinic." },
+      { "role": "You", "cn": "我让诊所传真过去可以吗？", "en": "Can the clinic fax it to you?" },
+      { "role": "Agent", "cn": "可以，传真号在网站联系我们页面。", "en": "Yes. The fax number is on our contact page." },
+      { "role": "You", "cn": "收到后大概几天能批？", "en": "How many days after you receive it?" },
+      { "role": "Agent", "cn": "通常七个工作日。", "en": "Usually seven business days." }
+    ]
+  },
+  {
+    "id": "dlg-phone-18",
+    "category": "phone",
+    "title": "Bank Fraud Alert",
+    "titleCn": "银行盗刷电话",
+    "scene": "银行来电怀疑盗刷，你确认交易。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "欺诈防范部门，请问您是张伟吗？", "en": "Fraud prevention. Am I speaking with Zhang Wei?" },
+      { "role": "You", "cn": "是，我看到短信说有一笔可疑消费。", "en": "Yes. I got a text about a suspicious charge." },
+      { "role": "Agent", "cn": "达拉斯电器店二百八十美元，是您刷的吗？", "en": "Two hundred eighty at an electronics store in Dallas. Was that you?" },
+      { "role": "You", "cn": "不是，我人在加州。", "en": "No. I'm in California." },
+      { "role": "Agent", "cn": "我们冻结卡片，新卡五到七天寄到。", "en": "We'll freeze the card. A new one ships in five to seven days." },
+      { "role": "You", "cn": "争议交易多久能退款？", "en": "How long for the disputed charge to be reversed?" },
+      { "role": "Agent", "cn": "调查期间临时挂账，通常十四个工作日。", "en": "A provisional credit during review, usually fourteen business days." }
+    ]
+  },
+  {
+    "id": "dlg-phone-19",
+    "category": "phone",
+    "title": "DMV Appointment",
+    "titleCn": "电话约DMV",
+    "scene": "你打电话预约 DMV 路考。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "车管局预约热线，需要什么服务？", "en": "DMV appointments. What do you need?" },
+      { "role": "You", "cn": "我想预约路考，练车许可在这。", "en": "I'd like to schedule a road test. I have my learner's permit." },
+      { "role": "Clerk", "cn": "最早下周二上午十点，Oakland分部。", "en": "Earliest is next Tuesday at ten AM, Oakland office." },
+      { "role": "You", "cn": "需要带什么？可以借车吗？", "en": "What should I bring? Can I use a borrowed car?" },
+      { "role": "Clerk", "cn": "保险和登记有效，借车要有车主书面许可。", "en": "Valid insurance and registration. Borrowed cars need written owner permission." },
+      { "role": "You", "cn": "好，请帮我约上。", "en": "Okay, please book that slot." },
+      { "role": "Clerk", "cn": "确认号发短信给您了。", "en": "Confirmation text sent." }
+    ]
+  },
+  {
+    "id": "dlg-phone-20",
+    "category": "phone",
+    "title": "No Heat in Apartment",
+    "titleCn": "电话报修暖气",
+    "scene": "公寓暖气不热，你打电话给物业。",
+    "roles": ["You", "Maintenance"],
+    "turns": [
+      { "role": "Maintenance", "cn": "物业维修热线，房号？", "en": "Maintenance hotline. Unit number?" },
+      { "role": "You", "cn": "502，暖气开了但不热，室内只有十五度。", "en": "Five oh two. Heat's on but it's only fifty-nine inside." },
+      { "role": "Maintenance", "cn": "恒温器设多少度？", "en": "What is the thermostat set to?" },
+      { "role": "You", "cn": "二十二摄氏度，出风口是冷风。", "en": "Seventy-two Fahrenheit, but the vent blows cold air." },
+      { "role": "Maintenance", "cn": "技师两小时内到，请在家等候。", "en": "A tech will come within two hours. Please be home." },
+      { "role": "You", "cn": "如果今晚还不行怎么办？", "en": "What if it's still not fixed tonight?" },
+      { "role": "Maintenance", "cn": "可安排临时取暖器。", "en": "We can bring a space heater temporarily." }
+    ]
+  },
+  {
+    "id": "dlg-phone-21",
+    "category": "phone",
+    "title": "Reschedule Package Delivery",
+    "titleCn": "改快递送货时间",
+    "scene": "你错过快递，打电话改送货时间。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "快递客服，跟踪号？", "en": "Courier support. Tracking number?" },
+      { "role": "You", "cn": "1Z999AA10123456784，昨天不在家。", "en": "One Z nine nine nine AA one oh one two three four five six seven eight four. I wasn't home yesterday." },
+      { "role": "Agent", "cn": "可以改明天下午或放驿站。", "en": "We can redeliver tomorrow afternoon or hold at a pickup point." },
+      { "role": "You", "cn": "明天下午三点到六点在家。", "en": "I'll be home tomorrow between three and six PM." },
+      { "role": "Agent", "cn": "已更新，司机到达前会打电话。", "en": "Updated. The driver will call before arrival." },
+      { "role": "You", "cn": "可以放门口吗？", "en": "Can they leave it at the door?" },
+      { "role": "Agent", "cn": "可以备注，但不签名不包丢。", "en": "We can note that, but no signature means limited liability." }
+    ]
+  },
+  {
+    "id": "dlg-phone-22",
+    "category": "phone",
+    "title": "Reschedule Dentist",
+    "titleCn": "改牙医预约",
+    "scene": "你临时有事，打电话改牙医预约。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "牙科诊所，请问？", "en": "Dental office. How may I help you?" },
+      { "role": "You", "cn": "我周五下午三点的洗牙要改期。", "en": "I need to reschedule my cleaning Friday at three PM." },
+      { "role": "Receptionist", "cn": "姓名和生日确认一下。", "en": "May I have your name and date of birth?" },
+      { "role": "You", "cn": "张伟，1990年3月12日。", "en": "Zhang Wei, March twelfth, nineteen ninety." },
+      { "role": "Receptionist", "cn": "下周四上午十一点有空。", "en": "We have eleven AM next Thursday." },
+      { "role": "You", "cn": "可以，取消要收费吗？", "en": "That works. Is there a cancellation fee?" },
+      { "role": "Receptionist", "cn": "提前二十四小时免费。", "en": "Free if you give twenty-four hours notice." }
+    ]
+  },
+  {
+    "id": "dlg-phone-23",
+    "category": "phone",
+    "title": "HR Pay Stub",
+    "titleCn": "问工资单",
+    "scene": "你打电话给 HR 问工资单和扣税问题。",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "人力资源部，请问？", "en": "Human resources. How can I help?" },
+      { "role": "You", "cn": "我上个月的工资单和实发不一致，能查吗？", "en": "My last pay stub doesn't match what hit my bank. Can you check?" },
+      { "role": "HR", "cn": "员工号和后四位社保号？", "en": "Employee ID and last four of your Social Security number?" },
+      { "role": "You", "cn": "E1024，后四位5678。", "en": "E one zero two four, last four five six seven eight." },
+      { "role": "HR", "cn": "差额是补充医疗保险，明细已发邮箱。", "en": "The difference is supplemental health insurance. Details were emailed." },
+      { "role": "You", "cn": "W-2什么时候发？", "en": "When will W-2s be available?" },
+      { "role": "HR", "cn": "一月底可在门户下载。", "en": "Late January on the employee portal." }
+    ]
+  },
+  {
+    "id": "dlg-phone-24",
+    "category": "phone",
+    "title": "Declining a Sales Call",
+    "titleCn": "婉拒推销电话",
+    "scene": "你接到推销电话，礼貌拒绝。",
+    "roles": ["You", "Caller"],
+    "turns": [
+      { "role": "Caller", "cn": "您好，我们是太阳能安装公司，免费评估。", "en": "Hi, we're a solar company offering a free home assessment." },
+      { "role": "You", "cn": "谢谢，我目前不需要。", "en": "Thanks, but I'm not interested right now." },
+      { "role": "Caller", "cn": "只要十分钟，能省很多电费。", "en": "It only takes ten minutes. You could save a lot on power." },
+      { "role": "You", "cn": "请把我从名单里删掉，不要再打。", "en": "Please remove me from your list and don't call again." },
+      { "role": "Caller", "cn": "好的，抱歉打扰。", "en": "Okay. Sorry to bother you." },
+      { "role": "You", "cn": "再见。", "en": "Goodbye." }
+    ]
+  },
+  {
+    "id": "dlg-phone-25",
+    "category": "phone",
+    "title": "Confirm Interview",
+    "titleCn": "确认面试电话",
+    "scene": "HR 来电确认面试时间，你接听并确认。",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "您好，我是ABC科技招聘，确认明天面试。", "en": "Hi, I'm calling from ABC Tech to confirm tomorrow's interview." },
+      { "role": "You", "cn": "是的，明天上午十点，视频面对面对吧？", "en": "Yes. Ten AM tomorrow, video call, right?" },
+      { "role": "Recruiter", "cn": "对，Zoom链接已发邮箱，请提前五分钟。", "en": "Correct. Zoom link is in your email. Join five minutes early." },
+      { "role": "You", "cn": "需要准备演示吗？", "en": "Should I prepare a presentation?" },
+      { "role": "Recruiter", "cn": "带项目经历即可，三十分钟技术三十分钟文化。", "en": "Just be ready to discuss projects. Thirty minutes technical, thirty culture." },
+      { "role": "You", "cn": "好的，明天见。", "en": "Sounds good. See you tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-phone-26",
+    "category": "phone",
+    "title": "Prescription Ready",
+    "titleCn": "问药是否配好",
+    "scene": "你打电话问药房处方药是否可取。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "连锁药房，请说。", "en": "Pharmacy chain. How can I help?" },
+      { "role": "You", "cn": "姓张，抗生素配好了吗？", "en": "Last name Zhang. Is my antibiotic ready?" },
+      { "role": "Pharmacist", "cn": "生日确认？", "en": "Date of birth?" },
+      { "role": "You", "cn": "1990年3月12日。", "en": "March twelfth, nineteen ninety." },
+      { "role": "Pharmacist", "cn": "好了，今晚九点前取，带保险卡。", "en": "It's ready. Pick up by nine PM tonight. Bring your insurance card." },
+      { "role": "You", "cn": "自费大概多少？", "en": "About how much is my copay?" },
+      { "role": "Pharmacist", "cn": "十美元。", "en": "Ten dollars." }
+    ]
+  },
+  {
+    "id": "dlg-phone-27",
+    "category": "phone",
+    "title": "High Utility Bill",
+    "titleCn": "电费账单疑问",
+    "scene": "电费突然很高，你打电话询问。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "燃气电力客服，账号？", "en": "Gas and electric. Account number?" },
+      { "role": "You", "cn": "账单比上月高一倍，能查原因吗？", "en": "My bill doubled from last month. Can you tell me why?" },
+      { "role": "Agent", "cn": "用量确实增加，可能是暖气或热水器。", "en": "Usage went up. Could be heating or the water heater." },
+      { "role": "You", "cn": "能分期付吗？", "en": "Can I set up a payment plan?" },
+      { "role": "Agent", "cn": "可以分三期，无利息。", "en": "Yes, three installments with no interest." },
+      { "role": "You", "cn": "请帮我申请。", "en": "Please enroll me in that." },
+      { "role": "Agent", "cn": "确认短信已发。", "en": "Confirmation text sent." }
+    ]
+  },
+  {
+    "id": "dlg-phone-28",
+    "category": "phone",
+    "title": "Upgrade Internet Plan",
+    "titleCn": "升级宽带套餐",
+    "scene": "你打电话升级家里宽带速度。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "宽带客服，现有账号？", "en": "Internet support. What's your account?" },
+      { "role": "You", "cn": "家里网速太慢，想升到三百兆。", "en": "Home internet is too slow. I'd like three hundred megabits." },
+      { "role": "Agent", "cn": "促销价每月七十，路由器可能要换。", "en": "Promo price seventy a month. You may need a new router." },
+      { "role": "You", "cn": "路由器免费吗？", "en": "Is the router free?" },
+      { "role": "Agent", "cn": "租赁每月五块，或自购兼容型号。", "en": "Five a month to rent, or buy a compatible model." },
+      { "role": "You", "cn": "租吧，什么时候能装？", "en": "I'll rent. When can you install?" },
+      { "role": "Agent", "cn": "周六上午技师上门。", "en": "A tech can come Saturday morning." }
+    ]
+  },
+  {
+    "id": "dlg-phone-29",
+    "category": "phone",
+    "title": "Report Minor Accident",
+    "titleCn": "电话报车险",
+    "scene": "轻微剐蹭，你打电话向车险公司报案。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "理赔热线，保单号？", "en": "Claims line. Policy number?" },
+      { "role": "You", "cn": "停车场剐蹭，对方走了，我拍了照。", "en": "Parking lot scrape. The other driver left. I took photos." },
+      { "role": "Agent", "cn": "有人受伤吗？警方报告号？", "en": "Any injuries? Police report number?" },
+      { "role": "You", "cn": "没有受伤，对方没留信息。", "en": "No injuries. They didn't leave info." },
+      { "role": "Agent", "cn": "开理赔单号，修车去合作厂免 deductible。", "en": "Claim opened. Partner shops may waive your deductible." },
+      { "role": "You", "cn": "保费会涨吗？", "en": "Will my premium go up?" },
+      { "role": "Agent", "cn": "要看责任和历史记录。", "en": "Depends on fault and your history." }
+    ]
+  },
+  {
+    "id": "dlg-phone-30",
+    "category": "phone",
+    "title": "Cancel Doctor Visit",
+    "titleCn": "取消看诊",
+    "scene": "你身体好了，打电话取消医生预约。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "诊所前台，请问？", "en": "Clinic front desk. How may I help you?" },
+      { "role": "You", "cn": "我想取消明天下午头痛的预约。", "en": "I need to cancel tomorrow's headache appointment." },
+      { "role": "Receptionist", "cn": "姓名和生日？", "en": "Name and date of birth?" },
+      { "role": "You", "cn": "张伟，1990年3月12日。", "en": "Zhang Wei, March twelfth, nineteen ninety." },
+      { "role": "Receptionist", "cn": "已取消，提前一天不收费。", "en": "Cancelled. No fee with one day's notice." },
+      { "role": "You", "cn": "以后不舒服再约。", "en": "I'll reschedule if symptoms come back." },
+      { "role": "Receptionist", "cn": "好的，保重。", "en": "Take care." }
+    ]
+  },
+  {
+    "id": "dlg-phone-31",
+    "category": "phone",
+    "title": "Wrong Pizza Order",
+    "titleCn": "披萨送错",
+    "scene": "外卖送错餐，你打电话投诉。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "披萨店，请说。", "en": "Pizza shop. How can I help?" },
+      { "role": "You", "cn": "订单8821送成素食款了，我要的是香肠。", "en": "Order eighty-eight twenty-one came vegetarian. I ordered pepperoni." },
+      { "role": "Staff", "cn": "非常抱歉，地址是枫树街88号吗？", "en": "I'm sorry. Is that eighty-eight Maple Street?" },
+      { "role": "You", "cn": "对，二十分钟内能换吗？", "en": "Yes. Can you redeliver within twenty minutes?" },
+      { "role": "Staff", "cn": "马上重做，错的这份您留着。", "en": "We'll remake it right away. Keep the wrong one." },
+      { "role": "You", "cn": "能退配送费吗？", "en": "Can you refund the delivery fee?" },
+      { "role": "Staff", "cn": "可以，下次下单用优惠码。", "en": "Yes. We'll text you a promo code." }
+    ]
+  },
+  {
+    "id": "dlg-phone-32",
+    "category": "phone",
+    "title": "Change Flight",
+    "titleCn": "改机票",
+    "scene": "你打电话给航空公司改航班。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "航空公司，确认号？", "en": "Airline reservations. Confirmation code?" },
+      { "role": "You", "cn": "ABC123，想改到周五同一航线。", "en": "ABC one two three. I need Friday on the same route." },
+      { "role": "Agent", "cn": "周五下午四点有余位，改期费七十五。", "en": "Four PM Friday is open. Change fee seventy-five." },
+      { "role": "You", "cn": "差价多少？", "en": "Any fare difference?" },
+      { "role": "Agent", "cn": "再加四十，总共一百一十五。", "en": "Forty more, one fifteen total." },
+      { "role": "You", "cn": "好，请改。", "en": "Okay, please change it." },
+      { "role": "Agent", "cn": "新行程已发邮箱。", "en": "New itinerary emailed." }
+    ]
+  },
+  {
+    "id": "dlg-phone-33",
+    "category": "phone",
+    "title": "Vet Appointment",
+    "titleCn": "电话约兽医",
+    "scene": "你打电话给宠物医院预约体检。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "宠物医院前台。", "en": "Animal hospital front desk." },
+      { "role": "You", "cn": "想给三岁金毛预约年度体检。", "en": "I'd like an annual checkup for my three-year-old golden retriever." },
+      { "role": "Receptionist", "cn": "疫苗记录带来了吗？下周三有空。", "en": "Bring vaccination records. Next Wednesday is open." },
+      { "role": "You", "cn": "上午可以吗？它下午比较焦虑。", "en": "Morning works better. He gets anxious in the afternoon." },
+      { "role": "Receptionist", "cn": "九点四十五，检查加疫苗大概一百二。", "en": "Nine forty-five. Exam plus shots about a hundred twenty." },
+      { "role": "You", "cn": "请约上，姓张。", "en": "Book it, please. Last name Zhang." },
+      { "role": "Receptionist", "cn": "预约确认短信已发。", "en": "Confirmation text sent." }
+    ]
+  },
+  {
+    "id": "dlg-phone-34",
+    "category": "phone",
+    "title": "Missed Delivery Callback",
+    "titleCn": "回拨快递电话",
+    "scene": "快递员没联系上你，你回拨电话。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "快递，您的包裹在我车上。", "en": "Courier. I've got your package on the truck." },
+      { "role": "You", "cn": "抱歉刚才在开会，现在可以送吗？", "en": "Sorry I missed your call. Can you deliver now?" },
+      { "role": "Driver", "cn": "二十分钟后到枫树街88号？", "en": "I can be at eighty-eight Maple in twenty minutes?" },
+      { "role": "You", "cn": "对，放门口鞋柜上就行。", "en": "Yes. Leave it on the shoe bench by the door." },
+      { "role": "Driver", "cn": "需要签名吗？", "en": "Do you need a signature?" },
+      { "role": "You", "cn": "不用，我授权放门口。", "en": "No, I authorize porch delivery." },
+      { "role": "Driver", "cn": "好的，到了发短信。", "en": "Got it. I'll text when I arrive." }
+    ]
   }
 ]

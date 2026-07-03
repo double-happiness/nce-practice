@@ -1,0 +1,70 @@
+[
+  {
+    "id": "dlg-mus-01",
+    "category": "museum",
+    "title": "Buying Tickets",
+    "titleCn": "买票参观",
+    "scene": "你在博物馆售票处买票。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "成人二十五，学生十八，周三傍晚免费。", "en": "Adults twenty-five, students eighteen. Free Wednesday evenings." },
+      { "role": "You", "cn": "两张成人票，有中文讲解器吗？", "en": "Two adult tickets. Do you have audio guides in Chinese?" },
+      { "role": "Clerk", "cn": "有，押金二十，还了退。", "en": "Yes. Twenty-dollar deposit, refunded on return." },
+      { "role": "You", "cn": "特展要另外买票吗？", "en": "Is the special exhibit extra?" },
+      { "role": "Clerk", "cn": "包含在通票里，从二楼开始。", "en": "It's included. Start on the second floor." },
+      { "role": "You", "cn": "背包要寄存吗？", "en": "Do I need to check my backpack?" },
+      { "role": "Clerk", "cn": "大包寄存，小包可背前面。", "en": "Large bags must be checked. Small ones worn on your front." }
+    ]
+  },
+  {
+    "id": "dlg-mus-02",
+    "category": "museum",
+    "title": "Asking Directions",
+    "titleCn": "馆内问路",
+    "scene": "你在博物馆里找埃及展区。",
+    "roles": ["You", "Guard"],
+    "turns": [
+      { "role": "You", "cn": "请问埃及木乃伊展厅怎么走？", "en": "Excuse me, how do I get to the Egyptian mummy gallery?" },
+      { "role": "Guard", "cn": "直走电梯到三楼，左转。", "en": "Straight ahead to the elevator, third floor, then left." },
+      { "role": "You", "cn": "摄影允许吗？", "en": "Is photography allowed?" },
+      { "role": "Guard", "cn": "一般展区可以，别开闪光灯。", "en": "In most galleries yes, but no flash." },
+      { "role": "You", "cn": "洗手间在哪层？", "en": "Which floor has restrooms?" },
+      { "role": "Guard", "cn": "每层都有，电梯旁边。", "en": "Every floor, next to the elevators." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-mus-03",
+    "category": "museum",
+    "title": "Guided Tour",
+    "titleCn": "跟团讲解",
+    "scene": "你参加博物馆免费导览团。",
+    "roles": ["You", "Guide"],
+    "turns": [
+      { "role": "Guide", "cn": "欢迎参加十一点导览，一小时。", "en": "Welcome to the eleven o'clock tour. It'll be about an hour." },
+      { "role": "You", "cn": "这件画是什么时期的？", "en": "What period is this painting from?" },
+      { "role": "Guide", "cn": "十九世纪印象派，莫奈的学生所作。", "en": "Nineteenth-century Impressionism, by a student of Monet." },
+      { "role": "You", "cn": "可以靠近看吗？", "en": "Can we step closer?" },
+      { "role": "Guide", "cn": "红线内可以，别碰画框。", "en": "Within the rope line, but don't touch the frame." },
+      { "role": "You", "cn": "导览结束在哪？", "en": "Where does the tour end?" },
+      { "role": "Guide", "cn": "礼品店门口，有问题随时问。", "en": "By the gift shop. Feel free to ask questions anytime." }
+    ]
+  },
+  {
+    "id": "dlg-mus-04",
+    "category": "museum",
+    "title": "Gift Shop",
+    "titleCn": "博物馆商店",
+    "scene": "参观结束，你在博物馆礼品店购物。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要袋子吗？会员九折。", "en": "Need a bag? Members get ten percent off." },
+      { "role": "You", "cn": "非会员，买这张海报和明信片。", "en": "I'm not a member. I'll take this poster and postcards." },
+      { "role": "Clerk", "cn": "一共二十二块五。", "en": "Twenty-two fifty total." },
+      { "role": "You", "cn": "可以寄国际明信片吗？", "en": "Can I mail international postcards from here?" },
+      { "role": "Clerk", "cn": "柜台有邮票，街角有邮筒。", "en": "We sell stamps at the counter. There's a mailbox on the corner." },
+      { "role": "You", "cn": "刷卡吧。", "en": "I'll pay by card." },
+      { "role": "Clerk", "cn": "请在这签名，谢谢参观。", "en": "Please sign here. Thanks for visiting." }
+    ]
+  }
+]

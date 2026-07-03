@@ -5,7 +5,7 @@ const express = require('express');
 const data = require('../lib/data');
 const profile = require('../lib/profile');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
-const { normalizeAnswer } = require('../lib/grade');
+const { isDialogueTurnCorrect } = require('../lib/dialogue-grade');
 const { CATEGORIES, LEARNER_ROLE } = require('../lib/dialogue-meta');
 const activity = require('../lib/activity');
 const dlgSrs = require('../lib/dialogue-srs');
@@ -28,13 +28,6 @@ function save(obj) {
 
 function isLearnerTurn(turn) {
   return turn.role === LEARNER_ROLE;
-}
-
-function isTurnCorrect(turn, response) {
-  const r = normalizeAnswer(response);
-  if (!r) return false;
-  const answers = Array.isArray(turn.en) ? turn.en : [turn.en];
-  return answers.some((a) => normalizeAnswer(a) === r);
 }
 
 // 下发对话时隐藏学习者角色的英文答案
@@ -109,7 +102,7 @@ router.post('/dialogue/grade', (req, res) => {
   if (!isLearnerTurn(t)) {
     return res.status(400).json({ error: '该轮次不需要练习' });
   }
-  const correct = isTurnCorrect(t, response);
+  const correct = isDialogueTurnCorrect(t, response);
 
   const db = load();
   db.attempts.push({ id, turn: idx, correct, ts: Date.now() });

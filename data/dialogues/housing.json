@@ -134,5 +134,39 @@
       { "role": "Roommate", "cn": "冰箱贴标签分区域？", "en": "Should we label fridge sections?" },
       { "role": "You", "cn": "好主意，我写下来大家签字。", "en": "Good idea. I'll write it up for us to sign." }
     ]
+  },
+  {
+    "id": "dlg-house-09",
+    "category": "housing",
+    "title": "Open House",
+    "titleCn": "房屋开放日",
+    "scene": "你周末去看在售房屋的开放日。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "欢迎！今天两点到四点开放参观。", "en": "Welcome! Open house until four PM." },
+      { "role": "You", "cn": "要价多少？在这区算贵吗？", "en": "What's the asking price? Is that high for this area?" },
+      { "role": "Agent", "cn": "四十九万五，去年类似户型成交四十八左右。", "en": "Four ninety-five. Similar homes sold around four eighty last year." },
+      { "role": "You", "cn": "屋顶和暖气哪年换的？", "en": "When were the roof and furnace replaced?" },
+      { "role": "Agent", "cn": "屋顶2019年，暖气去年新换。", "en": "Roof in twenty nineteen. Furnace replaced last year." },
+      { "role": "You", "cn": "学区怎么样？", "en": "How are the schools?" },
+      { "role": "Agent", "cn": "小学评分很高，资料在这。", "en": "Highly rated elementary. Here's a sheet." }
+    ]
+  },
+  {
+    "id": "dlg-house-10",
+    "category": "housing",
+    "title": "Making an Offer",
+    "titleCn": "买房出价",
+    "scene": "你看中房子，和经纪讨论出价策略。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "我想出价四十七万，留点谈判空间。", "en": "I'd like to offer four seventy, with room to negotiate." },
+      { "role": "Agent", "cn": "卖家挂牌四十九万五，可能有竞争。", "en": "They listed at four ninety-five. There may be competition." },
+      { "role": "You", "cn": "验房和贷款条款要写上吗？", "en": "Should we include inspection and financing contingencies?" },
+      { "role": "Agent", "cn": "建议都写，定金一万可退期内。", "en": "Yes. Ten thousand earnest money, refundable during due diligence." },
+      { "role": "You", "cn": "卖家多久回复？", "en": "How long until the seller responds?" },
+      { "role": "Agent", "cn": "通常二十四到四十八小时。", "en": "Usually twenty-four to forty-eight hours." },
+      { "role": "You", "cn": "好，今晚提交吧。", "en": "Okay. Let's submit tonight." }
+    ]
   }
 ]

@@ -153,5 +153,56 @@
       { "role": "You", "cn": "晕船药在哪买？", "en": "Where can I buy seasickness medicine?" },
       { "role": "Staff", "cn": "船上商店有，医务室也可咨询。", "en": "The onboard shop has some. The medical center can help too." }
     ]
+  },
+  {
+    "id": "dlg-travel-10",
+    "category": "travel",
+    "title": "Road Trip Rest Stop",
+    "titleCn": "公路休息站",
+    "scene": "你自驾公路旅行，在休息站停一下。",
+    "roles": ["You", "Traveler"],
+    "turns": [
+      { "role": "You", "cn": "还有多远到丹佛？", "en": "How much farther to Denver?" },
+      { "role": "Traveler", "cn": "大概三小时，这段路风景不错。", "en": "About three hours. This stretch is pretty scenic." },
+      { "role": "You", "cn": "下个加油站在哪？", "en": "Where's the next gas station?" },
+      { "role": "Traveler", "cn": "五十英里外有个小镇，价格会贵一点。", "en": "There's a town in fifty miles. Gas costs a bit more there." },
+      { "role": "You", "cn": "我买点水，继续赶路。", "en": "I'll grab some water and get back on the road." },
+      { "role": "Traveler", "cn": "注意安全，别疲劳驾驶。", "en": "Drive safe. Don't push it if you're tired." },
+      { "role": "You", "cn": "谢谢，再见！", "en": "Thanks. See you!" }
+    ]
+  },
+  {
+    "id": "dlg-travel-11",
+    "category": "travel",
+    "title": "Returning Rental Car",
+    "titleCn": "还租车",
+    "scene": "你还租车，工作人员检查车况。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "还车吗？里程和油量我记一下。", "en": "Returning the car? I'll note mileage and fuel." },
+      { "role": "You", "cn": "油箱满了，里程比取车时多四百。", "en": "Tank's full. About four hundred more miles than pickup." },
+      { "role": "Agent", "cn": "车门有个小划痕，您知道吗？", "en": "There's a small scratch on the door. Were you aware?" },
+      { "role": "You", "cn": "取车时就有，单子上写过。", "en": "It was there at pickup. It's on the form." },
+      { "role": "Agent", "cn": "对，看到了，不会额外收费。", "en": "Right, I see it. No extra charge." },
+      { "role": "You", "cn": "押金多久退回？", "en": "How long until the deposit is released?" },
+      { "role": "Agent", "cn": "三到五个工作日到卡上。", "en": "Three to five business days back to your card." }
+    ]
+  },
+  {
+    "id": "dlg-travel-12",
+    "category": "travel",
+    "title": "Lost Luggage",
+    "titleCn": "行李丢失",
+    "scene": "你到达后行李没出来，去柜台查询。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "我的行李箱没出来，航班UA88。", "en": "My suitcase didn't show up. Flight UA eighty-eight." },
+      { "role": "Agent", "cn": "行李牌还在吗？请描述箱子。", "en": "Do you still have the baggage tag? Describe the bag." },
+      { "role": "You", "cn": "黑色二十四寸，红色丝带。", "en": "Black twenty-four-inch with a red ribbon." },
+      { "role": "Agent", "cn": "可能在芝加哥中转延误，今晚或明早到。", "en": "It may have been delayed in Chicago. Tonight or tomorrow morning." },
+      { "role": "You", "cn": "能送到酒店吗？", "en": "Can you deliver it to my hotel?" },
+      { "role": "Agent", "cn": "可以，填地址，临时用品可报销一部分。", "en": "Yes. Fill in the address. We'll reimburse some essentials." },
+      { "role": "You", "cn": "好的，电话留这个。", "en": "Okay. Use this phone number." }
+    ]
   }
 ]

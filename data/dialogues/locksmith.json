@@ -1,0 +1,87 @@
+[
+  {
+    "id": "dlg-lock-01",
+    "category": "locksmith",
+    "title": "Locked Out of Home",
+    "titleCn": "锁在门外",
+    "scene": "你把钥匙忘在家里，门锁了，叫锁匠。",
+    "roles": ["You", "Locksmith"],
+    "turns": [
+      { "role": "Locksmith", "cn": "锁匠，什么地址？什么锁？", "en": "Locksmith service. What's the address and lock type?" },
+      { "role": "You", "cn": "枫树街88号，标准死锁，钥匙在里面。", "en": "Eighty-eight Maple Street. Standard deadbolt. Keys are inside." },
+      { "role": "Locksmith", "cn": "二十五分钟到，请出示ID和住址证明。", "en": "Twenty-five minutes. I'll need ID and proof you live there." },
+      { "role": "You", "cn": "费用大概多少？", "en": "About how much will it cost?" },
+      { "role": "Locksmith", "cn": "白天开锁九十到一百二，现金刷卡都行。", "en": "Ninety to a hundred twenty daytime. Cash or card." },
+      { "role": "You", "cn": "好的，我在门口等。", "en": "Okay. I'll wait at the door." },
+      { "role": "Locksmith", "cn": "到了会打电话，别自己撬锁。", "en": "I'll call when I arrive. Don't try to pick it yourself." }
+    ]
+  },
+  {
+    "id": "dlg-lock-02",
+    "category": "locksmith",
+    "title": "Rekey Locks",
+    "titleCn": "换锁芯",
+    "scene": "你刚搬新家，请锁匠换锁芯。",
+    "roles": ["You", "Locksmith"],
+    "turns": [
+      { "role": "You", "cn": "想换锁芯，前后门各一把。", "en": "I'd like to rekey the locks. Front and back door." },
+      { "role": "Locksmith", "cn": "同一钥匙开两把吗？", "en": "One key for both locks?" },
+      { "role": "You", "cn": "对，另外做两把备用钥匙。", "en": "Yes, and two spare keys." },
+      { "role": "Locksmith", "cn": "一共一百六，半小时搞定。", "en": "A hundred sixty total. About thirty minutes." },
+      { "role": "You", "cn": "锁本身不用换吧？", "en": "I don't need new lock hardware, right?" },
+      { "role": "Locksmith", "cn": "不用，换芯就行，旧钥匙作废。", "en": "No, just new pins. Old keys won't work." },
+      { "role": "You", "cn": "请现在开始吧。", "en": "Please go ahead." }
+    ]
+  },
+  {
+    "id": "dlg-lock-03",
+    "category": "locksmith",
+    "title": "Car Lockout",
+    "titleCn": "车钥匙锁车里",
+    "scene": "你把车钥匙锁在车里，停车场叫锁匠。",
+    "roles": ["You", "Locksmith"],
+    "turns": [
+      { "role": "You", "cn": "钥匙锁车里了，丰田凯美瑞，商场停车场。", "en": "My keys are locked in my Camry at the mall parking lot." },
+      { "role": "Locksmith", "cn": "车牌和车位区域？", "en": "License plate and parking section?" },
+      { "role": "You", "cn": "ABC5678，B区三层。", "en": "ABC5678, level three, section B." },
+      { "role": "Locksmith", "cn": "十五分钟到，请站在车旁。", "en": "Fifteen minutes. Stand by the car." },
+      { "role": "You", "cn": "会刮花车门吗？", "en": "Will you scratch the door?" },
+      { "role": "Locksmith", "cn": "用气囊撑开，专业工具，不留痕。", "en": "We use a wedge and pro tools. No damage." },
+      { "role": "You", "cn": "太好了，谢谢。", "en": "Great. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-lock-04",
+    "category": "locksmith",
+    "title": "Smart Lock Install",
+    "titleCn": "装智能锁",
+    "scene": "你请锁匠安装智能门锁。",
+    "roles": ["You", "Locksmith"],
+    "turns": [
+      { "role": "Locksmith", "cn": "智能锁带来了吗？门厚度量过吗？", "en": "Did you bring the smart lock? Have you measured the door?" },
+      { "role": "You", "cn": "在这，标准木门，要连手机。", "en": "Here it is. Standard wood door. I want phone access." },
+      { "role": "Locksmith", "cn": "安装加设置一百八，含教程。", "en": "Install and setup is a hundred eighty, including a walkthrough." },
+      { "role": "You", "cn": "没电了怎么进？", "en": "What if the battery dies?" },
+      { "role": "Locksmith", "cn": "备用钥匙和USB应急供电口。", "en": "Physical key backup and a USB emergency port." },
+      { "role": "You", "cn": "能设临时密码给客人吗？", "en": "Can I set temporary codes for guests?" },
+      { "role": "Locksmith", "cn": "可以，装完我教您。", "en": "Yes. I'll show you after install." }
+    ]
+  },
+  {
+    "id": "dlg-lock-05",
+    "category": "locksmith",
+    "title": "Broken Key",
+    "titleCn": "钥匙断在锁里",
+    "scene": "你的钥匙断在门锁里，求助锁匠。",
+    "roles": ["You", "Locksmith"],
+    "turns": [
+      { "role": "You", "cn": "钥匙断在锁芯里了，门打不开。", "en": "The key broke off in the lock. I can't open the door." },
+      { "role": "Locksmith", "cn": "有钥匙另一半吗？", "en": "Do you have the other half?" },
+      { "role": "You", "cn": "有，在这。", "en": "Yes, here it is." },
+      { "role": "Locksmith", "cn": "我先取断片，看锁芯要不要换。", "en": "I'll extract the piece first and see if the cylinder needs replacing." },
+      { "role": "You", "cn": "取不出来要换整把锁吗？", "en": "If it won't come out, do I need a new lock?" },
+      { "role": "Locksmith", "cn": "多数能取出，最坏情况换芯八十。", "en": "Usually we get it. Worst case, new cylinder is eighty." },
+      { "role": "You", "cn": "请尽量保留原锁。", "en": "Please try to keep the original lock." }
+    ]
+  }
+]
