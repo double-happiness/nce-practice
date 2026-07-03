@@ -67,6 +67,8 @@
       cell(info.srs, info.srs && info.srs.items, '错题复习数') +
       cell(info.plan, info.plan && info.plan.exists ? '已设置' : '—', '学习计划') +
       cell(info.transforms, info.transforms && info.transforms.attempts, '句型转换步数') +
+      cell(info['listen-vocab'], info['listen-vocab'] && info['listen-vocab'].tests, '听力词汇量测次') +
+      cell(info['read-vocab'], info['read-vocab'] && info['read-vocab'].tests, '阅读词汇量测次') +
       '</ul>';
   }
 
