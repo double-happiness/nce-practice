@@ -572,5 +572,196 @@
       { "role": "You", "cn": "不用，我授权放门口。", "en": "No, I authorize porch delivery." },
       { "role": "Driver", "cn": "好的，到了发短信。", "en": "Got it. I'll text when I arrive." }
     ]
+  },
+  {
+    "id": "dlg-phone-35",
+    "category": "phone",
+    "title": "Calling in Sick",
+    "titleCn": "电话请病假",
+    "scene": "你发烧了，打电话给上司请假。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "喂，张伟？", "en": "Hello, Zhang Wei?" },
+      { "role": "You", "cn": "对不起今天去不了，发烧三十八点五度。", "en": "Sorry, I can't come in today. I have a fever, a hundred point one." },
+      { "role": "Manager", "cn": "好好休息，急事我发邮件。", "en": "Rest up. I'll email if it's urgent." },
+      { "role": "You", "cn": "今天的会我让同事代汇报。", "en": "My colleague will cover today's meeting." },
+      { "role": "Manager", "cn": "好，明天好些再回来。", "en": "Okay. Come back when you're better." },
+      { "role": "You", "cn": "谢谢理解。", "en": "Thanks for understanding." }
+    ]
+  },
+  {
+    "id": "dlg-phone-36",
+    "category": "phone",
+    "title": "Restaurant Reservation",
+    "titleCn": "电话订位",
+    "scene": "你打电话订餐厅位子。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "意大利餐厅，晚上好。", "en": "Italian restaurant. Good evening." },
+      { "role": "You", "cn": "想订周六晚上七点半，四位。", "en": "I'd like a table Saturday at seven thirty for four." },
+      { "role": "Host", "cn": "姓什么？有过敏吗？", "en": "Name? Any allergies?" },
+      { "role": "You", "cn": "张，一位不吃坚果。", "en": "Zhang. One guest has a nut allergy." },
+      { "role": "Host", "cn": "记下了，到时保留十五分钟。", "en": "Noted. We'll hold it fifteen minutes." },
+      { "role": "You", "cn": "能靠窗吗？", "en": "Could we sit by the window?" },
+      { "role": "Host", "cn": "尽量安排。", "en": "We'll try our best." }
+    ]
+  },
+  {
+    "id": "dlg-phone-37",
+    "category": "phone",
+    "title": "Doctor Running Late",
+    "titleCn": "诊所来电改时间",
+    "scene": "诊所来电说医生晚了，你听清并确认。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "史密斯诊所，您三点预约要晚二十分钟。", "en": "Dr. Smith's office. Your three o'clock is running twenty minutes late." },
+      { "role": "You", "cn": "所以是三点半见我？我没听错吧？", "en": "So you'll see me at three thirty? Did I hear that right?" },
+      { "role": "Receptionist", "cn": "对，三点三十，抱歉耽误。", "en": "Yes, three thirty. Sorry for the delay." },
+      { "role": "You", "cn": "我可以晚点到，需要改期吗？", "en": "I can arrive later. Should I reschedule instead?" },
+      { "role": "Receptionist", "cn": "不用，今天能看。", "en": "No need. We can still see you today." },
+      { "role": "You", "cn": "好，三点半到。", "en": "Okay. I'll be there at three thirty." }
+    ]
+  },
+  {
+    "id": "dlg-phone-38",
+    "category": "phone",
+    "title": "Apartment Buzzer Delivery",
+    "titleCn": "外卖门禁电话",
+    "scene": "外卖员通过门禁电话找你，你听不清。",
+    "roles": ["You", "Delivery"],
+    "turns": [
+      { "role": "Delivery", "cn": "……外卖……楼下……", "en": "…delivery… downstairs…" },
+      { "role": "You", "cn": "请大声一点，是外卖吗？", "en": "Sorry, could you speak up? Is this food delivery?" },
+      { "role": "Delivery", "cn": "对，开下门。", "en": "Yes. Please buzz me in." },
+      { "role": "You", "cn": "我按9开门，放八楼门口。", "en": "I'll press nine. Leave it at unit eight's door." },
+      { "role": "Delivery", "cn": "好的。", "en": "Okay." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-phone-39",
+    "category": "phone",
+    "title": "School Bus Stop Change",
+    "titleCn": "校车停靠变更",
+    "scene": "学校来电通知校车停靠点变了。",
+    "roles": ["You", "Secretary"],
+    "turns": [
+      { "role": "Secretary", "cn": "通知家长，明起校车改到橡树街转角。", "en": "Parents, the bus stop moves to Oak Street corner starting tomorrow." },
+      { "role": "You", "cn": "是早上七点十五吗？时间变吗？", "en": "Still seven fifteen AM? Does the time change?" },
+      { "role": "Secretary", "cn": "时间不变，地点变了，地图发邮件。", "en": "Same time, new location. Map's in the email." },
+      { "role": "You", "cn": "收到，请确认是小明那班车。", "en": "Got it. Please confirm it's Tommy's bus." },
+      { "role": "Secretary", "cn": "对，路线B。", "en": "Yes, route B." },
+      { "role": "You", "cn": "谢谢通知。", "en": "Thanks for letting us know." }
+    ]
+  },
+  {
+    "id": "dlg-phone-40",
+    "category": "phone",
+    "title": "Activate Credit Card",
+    "titleCn": "电话激活信用卡",
+    "scene": "你打电话激活新信用卡。",
+    "roles": ["You", "System"],
+    "turns": [
+      { "role": "System", "cn": "请输入卡号后四位。", "en": "Please enter the last four digits of your card." },
+      { "role": "You", "cn": "8823。", "en": "Eight eight two three." },
+      { "role": "System", "cn": "请输入社保号后四位。", "en": "Enter the last four of your Social Security number." },
+      { "role": "You", "cn": "5678。", "en": "Five six seven eight." },
+      { "role": "System", "cn": "您的卡已激活。", "en": "Your card is now activated." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-phone-41",
+    "category": "phone",
+    "title": "Payment Extension",
+    "titleCn": "申请延期缴费",
+    "scene": "你打电话给账单公司请求延期付款。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "账单客服，账号？", "en": "Billing. Account number?" },
+      { "role": "You", "cn": "这个月能延期两周吗？工资晚发。", "en": "Can I get a two-week extension? My paycheck is late." },
+      { "role": "Agent", "cn": "可以一次，下月十五号前付清。", "en": "One-time extension. Pay in full by the fifteenth next month." },
+      { "role": "You", "cn": "有滞纳金吗？", "en": "Is there a late fee?" },
+      { "role": "Agent", "cn": "这次免，请按时付。", "en": "Waived this time. Please pay on time." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-phone-42",
+    "category": "phone",
+    "title": "Auto Attendant Menu",
+    "titleCn": "语音菜单转人工",
+    "scene": "你打客服只有语音菜单，找不到人工。",
+    "roles": ["You", "System"],
+    "turns": [
+      { "role": "System", "cn": "中文请按2，账单请按3。", "en": "For English press one. For billing press three." },
+      { "role": "You", "cn": "代表，agent，operator。", "en": "Representative. Agent. Operator." },
+      { "role": "System", "cn": "正在转接客服。", "en": "Transferring you to an agent." },
+      { "role": "You", "cn": "你好，我账单有问题，菜单解决不了。", "en": "Hi, I have a billing issue the menu couldn't fix." },
+      { "role": "System", "cn": "请稍候。", "en": "Please hold." }
+    ]
+  },
+  {
+    "id": "dlg-phone-43",
+    "category": "phone",
+    "title": "School Absence Follow-up",
+    "titleCn": "问作业电话",
+    "scene": "孩子请假后，你打电话问老师作业。",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "You", "cn": "王老师，小明昨天请假，作业是什么？", "en": "Ms. Wang, Tommy was out yesterday. What's the homework?" },
+      { "role": "Teacher", "cn": "数学第十页，阅读二十分钟。", "en": "Math page ten and twenty minutes of reading." },
+      { "role": "You", "cn": "能发邮件吗？我怕记错。", "en": "Could you email it? I'm afraid I'll miss something." },
+      { "role": "Teacher", "cn": "可以，今晚发。", "en": "Sure. I'll send it tonight." },
+      { "role": "You", "cn": "谢谢老师。", "en": "Thank you." },
+      { "role": "Teacher", "cn": "祝小明早日康复。", "en": "Hope he feels better soon." }
+    ]
+  },
+  {
+    "id": "dlg-phone-44",
+    "category": "phone",
+    "title": "Gym Class Cancelled",
+    "titleCn": "团课取消通知",
+    "scene": "健身房短信说团课取消，你打电话确认。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "收到短信说今晚瑜伽取消了，对吗？", "en": "I got a text that tonight's yoga is canceled. Is that right?" },
+      { "role": "Receptionist", "cn": "对，教练生病，自动退课额。", "en": "Yes. Instructor is sick. Credit returned automatically." },
+      { "role": "You", "cn": "能改明天同一节吗？", "en": "Can I move to tomorrow's same class?" },
+      { "role": "Receptionist", "cn": "可以，我帮您订。", "en": "Sure. I'll book you in." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-phone-45",
+    "category": "phone",
+    "title": "Pharmacy Refill Reminder",
+    "titleCn": "药房自动提醒回电",
+    "scene": "药房语音提醒该续药，你回电确认。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "提醒您的降压药快用完。", "en": "Reminder that your blood pressure meds are running low." },
+      { "role": "You", "cn": "请续一个月，还是老地址取。", "en": "Please refill one month. Same pickup location." },
+      { "role": "Pharmacist", "cn": "医生授权已批，明天下午好。", "en": "Doctor approved. Ready tomorrow afternoon." },
+      { "role": "You", "cn": "自付还是十块吗？", "en": "Still ten-dollar copay?" },
+      { "role": "Pharmacist", "cn": "对。", "en": "Yes." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-phone-46",
+    "category": "phone",
+    "title": "Physical Therapy Appointment",
+    "titleCn": "电话约理疗",
+    "scene": "你打电话预约运动物理治疗。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "理疗诊所，需要什么？", "en": "Physical therapy office. How can I help?" },
+      { "role": "You", "cn": "医生转诊膝盖康复，最早什么时候？", "en": "Doctor referred me for knee rehab. Earliest appointment?" },
+      { "role": "Receptionist", "cn": "下周三八点，带保险卡和转诊单。", "en": "Next Wednesday eight AM. Bring insurance card and referral." },
+      { "role": "You", "cn": "穿运动服对吗？", "en": "Wear workout clothes, right?" },
+      { "role": "Receptionist", "cn": "对，短裤方便评估。", "en": "Yes. Shorts help for evaluation." },
+      { "role": "You", "cn": "请约上，姓张。", "en": "Book it, please. Last name Zhang." }
+    ]
   }
 ]

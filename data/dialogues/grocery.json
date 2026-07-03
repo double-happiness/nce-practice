@@ -248,5 +248,114 @@
       { "role": "Cashier", "cn": "对，总价四十六块。", "en": "Yes. Total forty-six." },
       { "role": "You", "cn": "好的，刷卡。", "en": "Great. Card please." }
     ]
+  },
+  {
+    "id": "dlg-groc-16",
+    "category": "grocery",
+    "title": "PA Announcement Unclear",
+    "titleCn": "广播听不清",
+    "scene": "超市广播通知，你没听清，问员工。",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "刚才广播说什么？要清场吗？", "en": "What did the announcement say? Are we closing?" },
+      { "role": "Employee", "cn": "只是冷藏区降价，不是关店。", "en": "Just a markdown in dairy, not closing." },
+      { "role": "You", "cn": "谢谢，吓我一跳。", "en": "Thanks. You scared me for a second." },
+      { "role": "Employee", "cn": "没事，听不清可以问我们。", "en": "No worries. Ask us if you can't hear." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-groc-17",
+    "category": "grocery",
+    "title": "Deli Number Called",
+    "titleCn": "熟食叫号",
+    "scene": "熟食柜台叫号，你没听清是不是你的。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "四十七号！四十七！", "en": "Number forty-seven! Forty-seven!" },
+      { "role": "You", "cn": "我是四十七吗？刚才没听清。", "en": "Is that me? I have forty-seven but I didn't catch it." },
+      { "role": "Clerk", "cn": "对，您的火鸡在这。", "en": "Yes. Here's your turkey." },
+      { "role": "You", "cn": "谢谢，抱歉来晚了。", "en": "Thanks. Sorry I'm late." },
+      { "role": "Clerk", "cn": "没事，下次听屏幕。", "en": "No problem. Watch the screen next time." },
+      { "role": "You", "cn": "好的。", "en": "Will do." }
+    ]
+  },
+  {
+    "id": "dlg-groc-18",
+    "category": "grocery",
+    "title": "Unit Price Question",
+    "titleCn": "问单价哪个划算",
+    "scene": "两种规格牛奶，你问哪个更便宜。",
+    "roles": ["You", "Shopper"],
+    "turns": [
+      { "role": "You", "cn": "你看标签上每盎司价格，大瓶划算吗？", "en": "Look at the per-ounce price on the tag. Is the big bottle cheaper?" },
+      { "role": "Shopper", "cn": "大瓶每盎司便宜三美分。", "en": "The big one is three cents cheaper per ounce." },
+      { "role": "You", "cn": "但我喝不完会过期。", "en": "But I might not finish it before it expires." },
+      { "role": "Shopper", "cn": "那你买小的，别浪费。", "en": "Then get the small one. Don't waste it." },
+      { "role": "You", "cn": "有道理，谢谢。", "en": "Good point. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-groc-19",
+    "category": "grocery",
+    "title": "Lane Closed Redirect",
+    "titleCn": "收银通道关闭",
+    "scene": "你排的收银通道突然关闭，店员指示换队。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "这条关了，请去三号。", "en": "This lane is closed. Please use lane three." },
+      { "role": "You", "cn": "三号在哪？我没听清。", "en": "Where's lane three? I didn't catch that." },
+      { "role": "Attendant", "cn": "往前走，左手边，绿色灯。", "en": "Straight ahead on your left. Green light." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thanks." },
+      { "role": "Attendant", "cn": "不客气。", "en": "Sure." }
+    ]
+  },
+  {
+    "id": "dlg-groc-20",
+    "category": "grocery",
+    "title": "Senior Discount",
+    "titleCn": "问老人折扣",
+    "scene": "你帮父母结账，问是否有老人折扣。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "You", "cn": "周二老人有折扣吗？", "en": "Is there a senior discount on Tuesdays?" },
+      { "role": "Cashier", "cn": "六十五岁以上百分之五，要ID。", "en": "Five percent for sixty-five plus with ID." },
+      { "role": "You", "cn": "护照可以吗？", "en": "Will a passport work?" },
+      { "role": "Cashier", "cn": "可以，我看一下生日。", "en": "Yes. Let me check the birth date." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." },
+      { "role": "Cashier", "cn": "已减，请刷卡。", "en": "Discount applied. Go ahead and pay." }
+    ]
+  },
+  {
+    "id": "dlg-groc-21",
+    "category": "grocery",
+    "title": "Gift Card Balance",
+    "titleCn": "查礼品卡余额",
+    "scene": "你在收银台查礼品卡余额。",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "You", "cn": "能查这张礼品卡还剩多少吗？", "en": "Can you check the balance on this gift card?" },
+      { "role": "Cashier", "cn": "刷一下……还剩十二块三。", "en": "Swipe… twelve thirty left." },
+      { "role": "You", "cn": "不够的话能刷卡补差吗？", "en": "If it's not enough, can I pay the rest on my card?" },
+      { "role": "Cashier", "cn": "可以，先刷礼卡。", "en": "Yes. Gift card first." },
+      { "role": "You", "cn": "好的。", "en": "Okay." },
+      { "role": "Cashier", "cn": "还差五块六。", "en": "Five sixty more." }
+    ]
+  },
+  {
+    "id": "dlg-groc-22",
+    "category": "grocery",
+    "title": "Sample Station",
+    "titleCn": "试吃摊点",
+    "scene": "试吃摊店员介绍产品，你部分没听懂。",
+    "roles": ["You", "Promoter"],
+    "turns": [
+      { "role": "Promoter", "cn": "新口味酸奶，无添加糖，要试试吗？", "en": "New yogurt, no added sugar. Want a sample?" },
+      { "role": "You", "cn": "含糖吗？我说乳糖不耐。", "en": "Does it have sugar? I'm lactose intolerant." },
+      { "role": "Promoter", "cn": "有乳糖，也有燕麦款在那边。", "en": "This one has lactose. Oat version is over there." },
+      { "role": "You", "cn": "今天有优惠券吗？", "en": "Any coupons today?" },
+      { "role": "Promoter", "cn": "买二送一，券在这。", "en": "Buy two get one. Here's a coupon." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
   }
 ]

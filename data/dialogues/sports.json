@@ -100,5 +100,291 @@
       { "role": "You", "cn": "好，现金付。", "en": "Okay. Cash is fine." },
       { "role": "Attendant", "cn": "享受阳光！", "en": "Enjoy the sun!" }
     ]
+  },
+  {
+    "id": "dlg-sport-07",
+    "category": "sports",
+    "title": "Pickup Soccer",
+    "titleCn": "加入野球足球",
+    "scene": "你在公园看到野球足球，想加入。",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "You", "cn": "你们缺人吗？我能踢。", "en": "Are you short a player? I can join." },
+      { "role": "Player", "cn": "缺一个，我们踢小场，十一对十一。", "en": "We need one. Small-sided, eleven on eleven." },
+      { "role": "You", "cn": "踢多久？要带水吗？", "en": "How long do you play? Should I bring water?" },
+      { "role": "Player", "cn": "一小时，太阳大，戴帽子。", "en": "An hour. It's sunny, bring a hat." },
+      { "role": "You", "cn": "我踢中场，传球为主。", "en": "I'll play midfield. I pass more than shoot." },
+      { "role": "Player", "cn": "行，绿背心给你。", "en": "Cool. Here's a green bib." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-sport-08",
+    "category": "sports",
+    "title": "Running Club",
+    "titleCn": "跑步俱乐部",
+    "scene": "你参加社区跑步俱乐部第一次集合。",
+    "roles": ["You", "Leader"],
+    "turns": [
+      { "role": "Leader", "cn": "新人？今天五公里，配速十分每英里。", "en": "First time? Five K today, ten-minute miles." },
+      { "role": "You", "cn": "我可能慢一点，能跟十英里组吗？", "en": "I might be slower. Can I follow the ten-minute group?" },
+      { "role": "Leader", "cn": "可以，我在后面收尾。", "en": "Sure. I'll sweep in the back." },
+      { "role": "You", "cn": "路线平坦吗？", "en": "Is the route flat?" },
+      { "role": "Leader", "cn": "一个小坡，绕湖一圈。", "en": "One small hill. Loop around the lake." },
+      { "role": "You", "cn": "需要反光背心吗？", "en": "Do I need a reflective vest?" },
+      { "role": "Leader", "cn": "天黑跑才要，今天不用。", "en": "Only for night runs. Not today." }
+    ]
+  },
+  {
+    "id": "dlg-sport-09",
+    "category": "sports",
+    "title": "Open Gym Volleyball",
+    "titleCn": "开放排球",
+    "scene": "你去体育馆开放排球时间。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "今晚开放排球几点？", "en": "What time is open volleyball tonight?" },
+      { "role": "Staff", "cn": "七到九点，中级水平，现场组队。", "en": "Seven to nine PM. Intermediate level. Teams form on site." },
+      { "role": "You", "cn": "一个人来行吗？", "en": "Can I come alone?" },
+      { "role": "Staff", "cn": "行，一般会平衡分队。", "en": "Yes. They usually balance teams." },
+      { "role": "You", "cn": "要入场费吗？", "en": "Is there a drop-in fee?" },
+      { "role": "Staff", "cn": "居民五块，非居民八块。", "en": "Five for residents, eight for non-residents." },
+      { "role": "You", "cn": "好，我七点来。", "en": "Okay. I'll be here at seven." }
+    ]
+  },
+  {
+    "id": "dlg-sport-10",
+    "category": "sports",
+    "title": "Rock Climbing Gym",
+    "titleCn": "攀岩馆入门",
+    "scene": "你第一次去室内攀岩馆。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "第一次要上课才能爬，一小时三十。", "en": "First visit requires an intro class. Sixty minutes, thirty bucks." },
+      { "role": "You", "cn": "包含租鞋吗？", "en": "Does that include shoe rental?" },
+      { "role": "Staff", "cn": "包含，安全带我们配。", "en": "Yes, and we provide the harness." },
+      { "role": "You", "cn": "需要搭档吗？", "en": "Do I need a partner?" },
+      { "role": "Staff", "cn": "自动保护器区不用，教练会教。", "en": "Not for auto-belay walls. The instructor will show you." },
+      { "role": "You", "cn": "好，我报下一堂。", "en": "Okay. Sign me up for the next class." },
+      { "role": "Staff", "cn": "两点开始，请提前十分钟。", "en": "Starts at two PM. Arrive ten minutes early." }
+    ]
+  },
+  {
+    "id": "dlg-sport-11",
+    "category": "sports",
+    "title": "Track Lane Rules",
+    "titleCn": "操场跑道规则",
+    "scene": "你在高中操场跑步，不确定跑道规则。",
+    "roles": ["You", "Runner"],
+    "turns": [
+      { "role": "You", "cn": "跑道哪条是慢跑？", "en": "Which lane is for slower runners?" },
+      { "role": "Runner", "cn": "最外道慢跑，内线给快的。", "en": "Outermost lane for slow pace. Inside lanes for faster." },
+      { "role": "You", "cn": "同向还是逆向？", "en": "Same direction or counterclockwise?" },
+      { "role": "Runner", "cn": "逆时针，美国惯例。", "en": "Counterclockwise. Standard here." },
+      { "role": "You", "cn": "跑几圈大概一英里？", "en": "How many laps is a mile?" },
+      { "role": "Runner", "cn": "这个场四圈一英里。", "en": "Four laps on this track." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-sport-12",
+    "category": "sports",
+    "title": "HIIT Class",
+    "titleCn": "高强度团课",
+    "scene": "你参加健身房 HIIT 团课，教练喊口令很快。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "二十秒波比跳，十秒休息，Go！", "en": "Twenty seconds burpees, ten off. Go!" },
+      { "role": "You", "cn": "对不起，下一个动作是什么？", "en": "Sorry, what's the next move?" },
+      { "role": "Instructor", "cn": "高抬腿，膝盖到腰！", "en": "High knees! Knees to hip level!" },
+      { "role": "You", "cn": "跟不上能改成走步吗？", "en": "Can I march instead if I can't keep up?" },
+      { "role": "Instructor", "cn": "可以，保持动就行。", "en": "Yes. Just keep moving." },
+      { "role": "You", "cn": "好的。", "en": "Okay." },
+      { "role": "Instructor", "cn": "最后一轮，加油！", "en": "Last round. Push it!" }
+    ]
+  },
+  {
+    "id": "dlg-sport-13",
+    "category": "sports",
+    "title": "Racquetball Court",
+    "titleCn": "壁球订场",
+    "scene": "你和同事订壁球场。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "订一小时壁球场，今晚六点。", "en": "Book a racquetball court for an hour at six PM." },
+      { "role": "Staff", "cn": "三号场空，护目镜必须戴。", "en": "Court three is open. Goggles are required." },
+      { "role": "You", "cn": "能租球拍和球吗？", "en": "Can we rent rackets and balls?" },
+      { "role": "Staff", "cn": "各五块，前台领。", "en": "Five each at the front desk." },
+      { "role": "You", "cn": "两个人够吗？", "en": "Is two players enough?" },
+      { "role": "Staff", "cn": "双打可以，单打也行。", "en": "Doubles or singles both work." },
+      { "role": "You", "cn": "好，确认。", "en": "Great. Please confirm." }
+    ]
+  },
+  {
+    "id": "dlg-sport-14",
+    "category": "sports",
+    "title": "Stretching After Run",
+    "titleCn": "跑后拉伸",
+    "scene": "跑完步，跑友教你拉伸小腿。",
+    "roles": ["You", "Runner"],
+    "turns": [
+      { "role": "Runner", "cn": "跑完别立刻坐，先走两分钟。", "en": "Don't sit right away. Walk two minutes first." },
+      { "role": "You", "cn": "小腿紧，怎么拉？", "en": "My calves are tight. How do I stretch them?" },
+      { "role": "Runner", "cn": "扶墙，后腿伸直，脚跟贴地。", "en": "Hands on the wall, back leg straight, heel down." },
+      { "role": "You", "cn": "保持多久？", "en": "How long do I hold it?" },
+      { "role": "Runner", "cn": "每边三十秒，做两遍。", "en": "Thirty seconds each side, twice." },
+      { "role": "You", "cn": "舒服多了，谢谢。", "en": "That feels better. Thanks." },
+      { "role": "Runner", "cn": "多喝水，明天可能会酸。", "en": "Hydrate. You might be sore tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-sport-15",
+    "category": "sports",
+    "title": "Youth Soccer Signup",
+    "titleCn": "给孩子报足球班",
+    "scene": "你在社区中心给孩子报青少年足球。",
+    "roles": ["You", "Coordinator"],
+    "turns": [
+      { "role": "Coordinator", "cn": "U8组周六上午，一季一百二。", "en": "Under-eight division, Saturday mornings, a hundred twenty a season." },
+      { "role": "You", "cn": "需要自带护腿板吗？", "en": "Do we bring shin guards?" },
+      { "role": "Coordinator", "cn": "必须，球鞋不要金属钉。", "en": "Required. No metal cleats." },
+      { "role": "You", "cn": "教练有证吗？练多久？", "en": "Are coaches certified? How long are practices?" },
+      { "role": "Coordinator", "cn": "持证志愿者，每周六练一小时。", "en": "Certified volunteers. One hour each Saturday." },
+      { "role": "You", "cn": "好，我填表报名。", "en": "Okay. I'll fill out the registration." },
+      { "role": "Coordinator", "cn": "欢迎加入！", "en": "Welcome to the league!" }
+    ]
+  },
+  {
+    "id": "dlg-sport-16",
+    "category": "sports",
+    "title": "Swimming Laps Etiquette",
+    "titleCn": "游泳分道",
+    "scene": "泳池人多，你不确定怎么跟游分道。",
+    "roles": ["You", "Swimmer"],
+    "turns": [
+      { "role": "You", "cn": "这条道可以加入吗？", "en": "Can I join this lane?" },
+      { "role": "Swimmer", "cn": "可以，我们circle swim，靠右。", "en": "Sure. We circle swim. Stay to the right." },
+      { "role": "You", "cn": "前面的人慢，能超车吗？", "en": "The person ahead is slow. Can I pass?" },
+      { "role": "Swimmer", "cn": "中间别撞，轻触脚表示让一下。", "en": "Pass in the middle. A light tap on the foot asks them to let you by." },
+      { "role": "You", "cn": "一圈多少米？", "en": "How many meters per lap?" },
+      { "role": "Swimmer", "cn": "二十五米。", "en": "Twenty-five." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-sport-17",
+    "category": "sports",
+    "title": "Badminton Open Play",
+    "titleCn": "羽毛球开放场",
+    "scene": "你去体育馆打羽毛球开放场。",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "You", "cn": "你们还缺人吗？水平一般。", "en": "Need another player? I'm intermediate." },
+      { "role": "Player", "cn": "缺一个，双打，打到九点。", "en": "We need one for doubles until nine." },
+      { "role": "You", "cn": "场地费怎么分？", "en": "How do we split the court fee?" },
+      { "role": "Player", "cn": "四人平摊，每人四块。", "en": "Split four ways. Four bucks each." },
+      { "role": "You", "cn": "我有拍，要换羽毛球吗？", "en": "I have a racket. Should we switch shuttles?" },
+      { "role": "Player", "cn": "羽毛掉多了就换。", "en": "Switch when feathers fly off." },
+      { "role": "You", "cn": "好，加我一个。", "en": "Cool. Count me in." }
+    ]
+  },
+  {
+    "id": "dlg-sport-18",
+    "category": "sports",
+    "title": "Table Tennis",
+    "titleCn": "乒乓球台",
+    "scene": "社区中心乒乓球台要排队，你问规则。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "乒乓球台怎么排队？", "en": "How does the ping-pong table queue work?" },
+      { "role": "Staff", "cn": "白板写名字，赢家留台最多两局。", "en": "Sign the board. Winners stay two games max." },
+      { "role": "You", "cn": "拍子租吗？", "en": "Do you rent paddles?" },
+      { "role": "Staff", "cn": "两块一对，押金十块。", "en": "Two dollars a pair. Ten deposit." },
+      { "role": "You", "cn": "一个人能练发球吗？", "en": "Can I practice serves alone?" },
+      { "role": "Staff", "cn": "人少时可以，人多请轮流。", "en": "When it's quiet, yes. Rotate when it's busy." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-sport-19",
+    "category": "sports",
+    "title": "Physical Therapy",
+    "titleCn": "运动理疗",
+    "scene": "你膝盖运动后疼，去看物理治疗师。",
+    "roles": ["You", "Therapist"],
+    "turns": [
+      { "role": "Therapist", "cn": "哪里疼？什么时候开始的？", "en": "Where does it hurt? When did it start?" },
+      { "role": "You", "cn": "跑步后膝盖外侧，两周了。", "en": "Outside of my knee after running. Two weeks." },
+      { "role": "Therapist", "cn": "可能是IT band，先停跑，做这些拉伸。", "en": "Could be your IT band. Stop running for now. Do these stretches." },
+      { "role": "You", "cn": "能做深蹲吗？", "en": "Can I still squat?" },
+      { "role": "Therapist", "cn": "轻重量可以，疼就停。", "en": "Light weight only. Stop if it hurts." },
+      { "role": "You", "cn": "多久复查？", "en": "When should I come back?" },
+      { "role": "Therapist", "cn": "两周，每天在家练习十五分钟。", "en": "Two weeks. Fifteen minutes of homework daily." }
+    ]
+  },
+  {
+    "id": "dlg-sport-20",
+    "category": "sports",
+    "title": "Pickleball Beginners",
+    "titleCn": "匹克球入门",
+    "scene": "朋友教你打匹克球，场地规则你不太懂。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "kitchen区不能杀球，记吗？", "en": "No smashing in the kitchen. Remember?" },
+      { "role": "You", "cn": "kitchen是网前那块？", "en": "The kitchen is the zone by the net?" },
+      { "role": "Friend", "cn": "对，七英尺内要轻吊。", "en": "Right. Soft shots only within seven feet." },
+      { "role": "You", "cn": "发球要低于腰吗？", "en": "Serve below the waist?" },
+      { "role": "Friend", "cn": "对，斜对角发。", "en": "Yes, diagonally." },
+      { "role": "You", "cn": "比分怎么喊？我老听不清。", "en": "How do you call the score? I never catch it." },
+      { "role": "Friend", "cn": "三个数：我方、对方、第几发球。", "en": "Three numbers: us, them, which server." }
+    ]
+  },
+  {
+    "id": "dlg-sport-21",
+    "category": "sports",
+    "title": "Lap Swim Class",
+    "titleCn": "游泳提高班",
+    "scene": "你报名游泳班提高自由泳，教练语速快。",
+    "roles": ["You", "Coach"],
+    "turns": [
+      { "role": "Coach", "cn": "下一组四趟，呼吸三划一换。", "en": "Next set, four lengths, breathe every three strokes." },
+      { "role": "You", "cn": "是左侧呼吸还是任意？", "en": "Left side only or either?" },
+      { "role": "Coach", "cn": "固定一侧，别乱换。", "en": "Pick one side. Don't switch." },
+      { "role": "You", "cn": "板子要带吗？", "en": "Should I bring a kickboard?" },
+      { "role": "Coach", "cn": "馆里有，先踢腿再划手。", "en": "We have them. Kick first, then pull." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-sport-22",
+    "category": "sports",
+    "title": "Fitness Tracker",
+    "titleCn": "运动手环设置",
+    "scene": "朋友帮你设置运动手环记录跑步。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "选Outdoor Run，开GPS。", "en": "Pick Outdoor Run and turn on GPS." },
+      { "role": "You", "cn": "心率区间是什么意思？", "en": "What do heart rate zones mean?" },
+      { "role": "Friend", "cn": "绿区有氧，红区别太久。", "en": "Green is aerobic. Don't stay in red too long." },
+      { "role": "You", "cn": "能同步到手机吗？", "en": "Does it sync to my phone?" },
+      { "role": "Friend", "cn": "蓝牙连上自动传。", "en": "Bluetooth syncs automatically." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-sport-23",
+    "category": "sports",
+    "title": "Basketball Foul Call",
+    "titleCn": "打球犯规沟通",
+    "scene": "半场篮球你犯规了，用英语道歉沟通。",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "You", "cn": "我的犯规，不好意思。", "en": "My foul. Sorry about that." },
+      { "role": "Player", "cn": "没事，继续打。", "en": "You're good. Let's keep playing." },
+      { "role": "You", "cn": "你手没事吧？", "en": "You okay on the hand?" },
+      { "role": "Player", "cn": "一点疼，能继续。", "en": "A little sore. I can keep going." },
+      { "role": "You", "cn": "那我下一防轻一点。", "en": "I'll ease up on defense next time." },
+      { "role": "Player", "cn": "行，球给你发。", "en": "Cool. Check it up." }
+    ]
   }
 ]

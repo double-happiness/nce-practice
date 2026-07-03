@@ -117,5 +117,90 @@
       { "role": "You", "cn": "好的，做吧。", "en": "Okay, let's do it." },
       { "role": "Dentist", "cn": "张嘴，麻药起效后告诉我。", "en": "Open wide. Let me know when the numbness kicks in." }
     ]
+  },
+  {
+    "id": "dlg-svc-08",
+    "category": "services",
+    "title": "DMV Counter Documents",
+    "titleCn": "DMV柜台办照",
+    "scene": "你在 DMV 窗口办驾照，职员语速快。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "护照、两份地址证明、I-94。", "en": "Passport, two proofs of address, and your I-ninety-four." },
+      { "role": "You", "cn": "水电账单可以吗？再说一遍地址证明要什么？", "en": "Utility bills okay? What did you need for proof of address again?" },
+      { "role": "Clerk", "cn": "三个月内的账单或租约，要有名字地址。", "en": "Bills or lease from the last three months with your name and address." },
+      { "role": "You", "cn": "在这，租约和银行信。", "en": "Here. Lease and a bank letter." },
+      { "role": "Clerk", "cn": "视力检测通过去拍照，三十三块。", "en": "Pass vision, then photos. Thirty-three dollars." },
+      { "role": "You", "cn": "卡多久寄到？", "en": "How long until the card arrives?" },
+      { "role": "Clerk", "cn": "两周，临时纸照先用。", "en": "Two weeks. Use the paper temp until then." }
+    ]
+  },
+  {
+    "id": "dlg-svc-09",
+    "category": "services",
+    "title": "Phone Store New Line",
+    "titleCn": "手机店办套餐",
+    "scene": "你刚到美国，在手机店办号码和套餐。",
+    "roles": ["You", "Rep"],
+    "turns": [
+      { "role": "Rep", "cn": "预付费还是合约？无限流量五十起。", "en": "Prepaid or contract? Unlimited starts at fifty." },
+      { "role": "You", "cn": "预付费，一个月，能保留旧号码吗？", "en": "Prepaid, one month. Can I keep my old number?" },
+      { "role": "Rep", "cn": "可以porting，旧账号密码带来。", "en": "Yes, porting. Bring your old account number and PIN." },
+      { "role": "You", "cn": "手机自带，只要SIM。", "en": "I have my own phone. Just need a SIM." },
+      { "role": "Rep", "cn": "SIM免费，今天激活。", "en": "SIM's free. We'll activate today." },
+      { "role": "You", "cn": "账单怎么付？", "en": "How do I pay the bill?" },
+      { "role": "Rep", "cn": "App或店里现金。", "en": "App or cash in store." }
+    ]
+  },
+  {
+    "id": "dlg-svc-10",
+    "category": "services",
+    "title": "Social Security Office",
+    "titleCn": "办社安号",
+    "scene": "你去社安局办公室申请 SSN。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "预约了吗？护照、I-20或工签。", "en": "Do you have an appointment? Passport and I-twenty or work visa." },
+      { "role": "You", "cn": "约了十点，材料在这。", "en": "Ten AM appointment. Documents here." },
+      { "role": "Clerk", "cn": "填这份表，英文地址别漏公寓号。", "en": "Fill this form. Don't skip your apartment number." },
+      { "role": "You", "cn": "多久能收到卡？", "en": "How long until I get the card?" },
+      { "role": "Clerk", "cn": "两周左右邮寄，不能催。", "en": "About two weeks by mail. No expedite." },
+      { "role": "You", "cn": "收到前能工作吗？", "en": "Can I work before it arrives?" },
+      { "role": "Clerk", "cn": "雇主用收据信，问你们HR。", "en": "Employers use the receipt letter. Ask your HR." }
+    ]
+  },
+  {
+    "id": "dlg-svc-11",
+    "category": "services",
+    "title": "Library Card Application",
+    "titleCn": "办借书证",
+    "scene": "你在公共图书馆办借书证。",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "Librarian", "cn": "住本县吗？带照片ID和地址证明。", "en": "Do you live in this county? Photo ID and proof of address." },
+      { "role": "You", "cn": "住这，驾照可以吗？", "en": "Yes. Is my driver's license enough?" },
+      { "role": "Librarian", "cn": "可以，填表，免费。", "en": "Yes. Fill out the form. It's free." },
+      { "role": "You", "cn": "能借几本？电子书呢？", "en": "How many books? What about e-books?" },
+      { "role": "Librarian", "cn": "纸质二十本，电子书用Libby App。", "en": "Twenty print items. E-books through the Libby app." },
+      { "role": "You", "cn": "逾期罚款怎么算？", "en": "What's the late fee?" },
+      { "role": "Librarian", "cn": "每天二十五美分，上限十块。", "en": "Twenty-five cents a day, ten-dollar cap." }
+    ]
+  },
+  {
+    "id": "dlg-svc-12",
+    "category": "services",
+    "title": "Street Parking Permit",
+    "titleCn": "办停车许可",
+    "scene": "你在市政府办街区停车证。",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "居民许可一年六十，要车辆登记和地址证明。", "en": "Resident permit sixty a year. Vehicle registration and proof of address." },
+      { "role": "You", "cn": "租房没有车位，这条街能停吗？", "en": "No parking at my rental. Can I park on this street?" },
+      { "role": "Clerk", "cn": "有许可可以，注意清扫日。", "en": "With a permit yes. Watch street cleaning days." },
+      { "role": "You", "cn": "清扫日几点不能停？", "en": "What hours on cleaning day?" },
+      { "role": "Clerk", "cn": "每月第二个周二早八到十。", "en": "Second Tuesday monthly, eight to ten AM." },
+      { "role": "You", "cn": "贴窗上就行？", "en": "Just stick it on the window?" },
+      { "role": "Clerk", "cn": "驾驶侧内侧。", "en": "Driver's side inside." }
+    ]
   }
 ]

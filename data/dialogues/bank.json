@@ -100,5 +100,72 @@
       { "role": "You", "cn": "信用额度大概多少？", "en": "What credit limit should I expect?" },
       { "role": "Banker", "cn": "根据收入，新客一般三千到五千。", "en": "Based on income, new customers often get three to five thousand." }
     ]
+  },
+  {
+    "id": "dlg-bank-07",
+    "category": "bank",
+    "title": "Deposit Cash",
+    "titleCn": "柜台存现金",
+    "scene": "你有一笔现金要到银行柜台存入。",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "You", "cn": "想存一千二现金到支票户。", "en": "I'd like to deposit twelve hundred cash into checking." },
+      { "role": "Teller", "cn": "请填存款单，身份证看一下。", "en": "Fill out a deposit slip. May I see your ID?" },
+      { "role": "You", "cn": "今天能到账吗？", "en": "Available today?" },
+      { "role": "Teller", "cn": "现金当场入账。", "en": "Cash posts immediately." },
+      { "role": "You", "cn": "需要收据。", "en": "I need a receipt." },
+      { "role": "Teller", "cn": "给您，数一下金额。", "en": "Here you go. Please verify the amount." },
+      { "role": "You", "cn": "对的，谢谢。", "en": "Correct. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-bank-08",
+    "category": "bank",
+    "title": "Monthly Fee Question",
+    "titleCn": "问月费",
+    "scene": "你发现账户被扣月费，到银行询问。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "为什么这个月扣了十二块月费？", "en": "Why was I charged twelve dollars monthly fee?" },
+      { "role": "Banker", "cn": "余额低于一千五要收，或没达直接存款。", "en": "Balance under fifteen hundred or direct deposit not met." },
+      { "role": "You", "cn": "工资直存多少能免？", "en": "How much direct deposit waives it?" },
+      { "role": "Banker", "cn": "每月至少五百。", "en": "At least five hundred a month." },
+      { "role": "You", "cn": "能帮我设直存吗？", "en": "Can you set up direct deposit?" },
+      { "role": "Banker", "cn": "给您雇主表格。", "en": "Here's the form for your employer." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-bank-09",
+    "category": "bank",
+    "title": "Notary Service",
+    "titleCn": "银行公证",
+    "scene": "你需要公证文件，去银行办理。",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "你们有notary吗？租房合同要签。", "en": "Do you have a notary? I need a lease notarized." },
+      { "role": "Banker", "cn": "有，客户免费，请带证件原件。", "en": "Yes. Free for customers. Bring original ID." },
+      { "role": "You", "cn": "需要预约吗？", "en": "Do I need an appointment?" },
+      { "role": "Banker", "cn": "walk-in，公证员十一点到两点在。", "en": "Walk-in. Notary is here eleven to two." },
+      { "role": "You", "cn": "双方都要到场吗？", "en": "Do both parties need to be present?" },
+      { "role": "Banker", "cn": "签名人必须在场。", "en": "Signers must be present." },
+      { "role": "You", "cn": "好，我十一点来。", "en": "Okay. I'll come at eleven." }
+    ]
+  },
+  {
+    "id": "dlg-bank-10",
+    "category": "bank",
+    "title": "Mobile Deposit Problem",
+    "titleCn": "手机存款失败",
+    "scene": "手机银行存支票失败，你到柜台求助。",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "You", "cn": "App存支票一直失败，能柜台存吗？", "en": "Mobile check deposit keeps failing. Can I deposit here?" },
+      { "role": "Teller", "cn": "可以，支票平整，四角在框内拍照。", "en": "Sure. For the app, keep the check flat and all corners in frame." },
+      { "role": "You", "cn": "金额一千五，多久可用？", "en": "Fifteen hundred. When is it available?" },
+      { "role": "Teller", "cn": "第一个工作日部分，全部两个工作日。", "en": "Partial first business day, full amount in two." },
+      { "role": "You", "cn": "好的，柜台办吧。", "en": "Okay. I'll do it at the counter." },
+      { "role": "Teller", "cn": "请填背面签名。", "en": "Please endorse the back." }
+    ]
   }
 ]

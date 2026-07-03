@@ -83,5 +83,88 @@
       { "role": "Pharmacist", "cn": "可以，饭后更不容易胃不舒服。", "en": "Yes. After meals is easier on the stomach." },
       { "role": "You", "cn": "烧不退什么时候该看医生？", "en": "When should we see a doctor if the fever doesn't go down?" }
     ]
+  },
+  {
+    "id": "dlg-pharm-06",
+    "category": "pharmacy",
+    "title": "OTC Cold Medicine",
+    "titleCn": "柜台问感冒药",
+    "scene": "你感冒到药店，药剂师推荐非处方药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "鼻塞咳嗽，不想嗜睡，买什么？", "en": "Stuffy nose and cough. I don't want drowsiness. What should I get?" },
+      { "role": "Pharmacist", "cn": "白天用这款，晚上用含抗组胺的。", "en": "This one for daytime. Night version has antihistamine." },
+      { "role": "You", "cn": "能和泰诺一起吃吗？", "en": "Can I take it with Tylenol?" },
+      { "role": "Pharmacist", "cn": "看成分，别重复对乙酰氨基酚。", "en": "Check ingredients. Don't double up acetaminophen." },
+      { "role": "You", "cn": "一天几次？", "en": "How many times a day?" },
+      { "role": "Pharmacist", "cn": "每四小时，不超过标签量。", "en": "Every four hours. Don't exceed the label." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-07",
+    "category": "pharmacy",
+    "title": "Drive-Through Pharmacy",
+    "titleCn": "得来速取药",
+    "scene": "你在药店得来速窗口取处方药，喇叭听不清。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "姓张？最后四位8823？", "en": "Zhang? Last four eight eight two three?" },
+      { "role": "You", "cn": "对，请再说一遍怎么吃？", "en": "Yes. Could you repeat how to take it?" },
+      { "role": "Pharmacist", "cn": "早晚各一片，饭后。", "en": "One tablet morning and night with food." },
+      { "role": "You", "cn": "自付十块，刷卡。", "en": "Ten-dollar copay. Here's my card." },
+      { "role": "Pharmacist", "cn": "袋子伸出窗口。", "en": "Bag's coming out the window." },
+      { "role": "You", "cn": "收到，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-08",
+    "category": "pharmacy",
+    "title": "Side Effects Question",
+    "titleCn": "问副作用",
+    "scene": "新药吃了胃不舒服，你回药店咨询。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "这药吃了恶心，正常吗？", "en": "This medicine makes me nauseous. Is that normal?" },
+      { "role": "Pharmacist", "cn": "初期常见，饭后吃会好。", "en": "Common early on. Take it with meals." },
+      { "role": "You", "cn": "几天还这样要停药吗？", "en": "If it lasts days, should I stop?" },
+      { "role": "Pharmacist", "cn": "先打电话给开药医生。", "en": "Call your prescriber first." },
+      { "role": "You", "cn": "能换品牌吗？", "en": "Can I switch brands?" },
+      { "role": "Pharmacist", "cn": "成分相同一般可以。", "en": "Usually yes if the ingredient is the same." },
+      { "role": "You", "cn": "谢谢建议。", "en": "Thanks for the advice." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-09",
+    "category": "pharmacy",
+    "title": "Walk-In Flu Shot",
+    "titleCn": "Walk-in打流感针",
+    "scene": "你直接走进药店打流感疫苗。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "需要预约吗？打流感疫苗。", "en": "Do I need an appointment for a flu shot?" },
+      { "role": "Pharmacist", "cn": "不用，填表，大多数保险免费。", "en": "Walk-in's fine. Form here. Usually free with insurance." },
+      { "role": "You", "cn": "鸡蛋过敏能打吗？", "en": "I have an egg allergy. Is it safe?" },
+      { "role": "Pharmacist", "cn": "轻微一般可以，严重要问医生。", "en": "Mild usually okay. Ask your doctor if it's severe." },
+      { "role": "You", "cn": "打左臂可以吗？", "en": "Left arm okay?" },
+      { "role": "Pharmacist", "cn": "可以，袖子卷起来。", "en": "Sure. Roll up your sleeve." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-pharm-10",
+    "category": "pharmacy",
+    "title": "Generic vs Brand",
+    "titleCn": "仿制药选择",
+    "scene": "药剂师问你要品牌药还是仿制药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "有generic，便宜十二块。", "en": "Generic available. Twelve dollars cheaper." },
+      { "role": "You", "cn": "效果一样吗？", "en": "Same effect?" },
+      { "role": "Pharmacist", "cn": "活性成分相同，FDA批准。", "en": "Same active ingredient. FDA approved." },
+      { "role": "You", "cn": "那要generic。", "en": "Generic, please." },
+      { "role": "Pharmacist", "cn": "好，五分钟好。", "en": "Sure. Five minutes." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
   }
 ]

@@ -83,5 +83,86 @@
       { "role": "You", "cn": "还需要再抽血吗？", "en": "Do I need another blood test?" },
       { "role": "Doctor", "cn": "不用，两周后若无症状可以停药。", "en": "No. You can stop the medicine in two weeks if you feel fine." }
     ]
+  },
+  {
+    "id": "dlg-hosp-06",
+    "category": "hospital",
+    "title": "Clinic Check-In",
+    "titleCn": "诊所前台登记",
+    "scene": "你到医院诊所前台签到，职员说话很快。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "预约时间？保险卡请刷一下。", "en": "Appointment time? Swipe your insurance card." },
+      { "role": "You", "cn": "三点，张伟。能再说一遍要刷什么吗？", "en": "Three PM, Zhang Wei. What did I need to swipe again?" },
+      { "role": "Receptionist", "cn": "保险卡，背面或正面芯片。", "en": "Insurance card, chip or magnetic strip." },
+      { "role": "You", "cn": "自付额多少？", "en": "What's my copay?" },
+      { "role": "Receptionist", "cn": "专科三十，请坐候诊区。", "en": "Thirty for specialist. Please wait in the lobby." },
+      { "role": "You", "cn": "护士会叫名字吗？", "en": "Will the nurse call my name?" },
+      { "role": "Receptionist", "cn": "对，听广播。", "en": "Yes. Listen for the announcement." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-07",
+    "category": "hospital",
+    "title": "Blood Draw",
+    "titleCn": "抽血",
+    "scene": "护士给你抽血，你紧张并确认空腹。",
+    "roles": ["You", "Nurse"],
+    "turns": [
+      { "role": "Nurse", "cn": "空腹来的吧？伸左臂。", "en": "You fasted, right? Left arm, please." },
+      { "role": "You", "cn": "对，昨晚八点后就没吃。有点怕针。", "en": "Yes, nothing since eight PM. I'm a bit nervous." },
+      { "role": "Nurse", "cn": "放松，很快，看一下别处。", "en": "Relax. Quick pinch. Look away." },
+      { "role": "You", "cn": "结果几天出？", "en": "How many days for results?" },
+      { "role": "Nurse", "cn": "两到三天，门户里看。", "en": "Two to three days in the patient portal." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-08",
+    "category": "hospital",
+    "title": "Insurance Not Accepted",
+    "titleCn": "保险不在网络",
+    "scene": "前台说你的保险不在网络内，你询问选项。",
+    "roles": ["You", "Billing"],
+    "turns": [
+      { "role": "Billing", "cn": "您的计划是out-of-network，自付会高。", "en": "Your plan is out-of-network. You'll pay more out of pocket." },
+      { "role": "You", "cn": "大概多多少？能写清楚吗？", "en": "About how much more? Could you break it down?" },
+      { "role": "Billing", "cn": "估计多一百到两百，看项目。", "en": "Roughly a hundred to two hundred extra, depending on services." },
+      { "role": "You", "cn": "能今天先看，账单以后再付吗？", "en": "Can I still be seen today and pay the bill later?" },
+      { "role": "Billing", "cn": "可以，签财务协议。", "en": "Yes. Sign a financial agreement." },
+      { "role": "You", "cn": "好，我签。", "en": "Okay. I'll sign." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-09",
+    "category": "hospital",
+    "title": "Urgent Care Wait Time",
+    "titleCn": "快速门诊等候",
+    "scene": "你在 urgent care 问要等多久。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "目前等候大约四十五分钟。", "en": "Current wait is about forty-five minutes." },
+      { "role": "You", "cn": "能先做登记吗？我喉咙很痛。", "en": "Can I check in now? My throat really hurts." },
+      { "role": "Receptionist", "cn": "填表，身份证保险卡。", "en": "Fill this out. ID and insurance card." },
+      { "role": "You", "cn": "比急诊便宜对吧？", "en": "It's cheaper than the ER, right?" },
+      { "role": "Receptionist", "cn": "一般是的，严重情况会去急诊。", "en": "Usually yes. Severe cases go to the ER." },
+      { "role": "You", "cn": "好的，我等。", "en": "Okay. I'll wait." }
+    ]
+  },
+  {
+    "id": "dlg-hosp-10",
+    "category": "hospital",
+    "title": "Prescription at Hospital Pharmacy",
+    "titleCn": "院内药房取药",
+    "scene": "医生开药后，你在院内药房取药。",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "张伟？抗生素，饭后吃，每天两次。", "en": "Zhang Wei? Antibiotic with food, twice daily." },
+      { "role": "You", "cn": "吃多久？能说慢一点吗？", "en": "How long do I take it? Could you slow down?" },
+      { "role": "Pharmacist", "cn": "七天，即使好了也要吃完。", "en": "Seven days. Finish even if you feel better." },
+      { "role": "You", "cn": "自付十五对吧？", "en": "Fifteen-dollar copay, right?" },
+      { "role": "Pharmacist", "cn": "对，刷卡在这。", "en": "Yes. Card here." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
   }
 ]

@@ -248,5 +248,89 @@
       { "role": "You", "cn": "队列积压和错误率接PagerDuty。", "en": "Queue depth and error rate feed into PagerDuty." },
       { "role": "Architect", "cn": "可以，按这个方案推进。", "en": "Sounds good. Proceed with this design." }
     ]
+  },
+  {
+    "id": "dlg-it-16",
+    "category": "itwork",
+    "title": "Explain App to Elderly User",
+    "titleCn": "教长辈用打车APP",
+    "scene": "你教叔叔用打车软件叫车。",
+    "roles": ["You", "User"],
+    "turns": [
+      { "role": "User", "cn": "目的地输好了，然后呢？", "en": "I entered the destination. What's next?" },
+      { "role": "You", "cn": "点Confirm，看司机名字和车牌。", "en": "Tap Confirm and check the driver's name and plate." },
+      { "role": "User", "cn": "显示五分钟到，我在门口等？", "en": "It says five minutes. Wait at the door?" },
+      { "role": "You", "cn": "对，上车核对车牌，到了再付或自动扣。", "en": "Yes. Match the plate. Pay at the end or it auto-charges." },
+      { "role": "User", "cn": "不会多扣钱吧？", "en": "It won't overcharge, right?" },
+      { "role": "You", "cn": "价格出发前显示，有疑问可以投诉。", "en": "Price shows before you go. You can dispute if something's wrong." },
+      { "role": "User", "cn": "明白了。", "en": "I see." }
+    ]
+  },
+  {
+    "id": "dlg-it-17",
+    "category": "itwork",
+    "title": "Client Status Meeting",
+    "titleCn": "客户周会汇报",
+    "scene": "每周客户电话会，你汇报进度。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "这周交付什么？", "en": "What's shipping this week?" },
+      { "role": "You", "cn": "登录优化和报表导出，周三发测试版。", "en": "Login improvements and report export. Test build Wednesday." },
+      { "role": "Client", "cn": "有风险吗？", "en": "Any risks?" },
+      { "role": "You", "cn": "第三方短信延迟，我们加了备用通道。", "en": "SMS vendor delay. We added a backup channel." },
+      { "role": "Client", "cn": "周五能演示吗？", "en": "Can you demo Friday?" },
+      { "role": "You", "cn": "可以，下午两点发邀请。", "en": "Yes. I'll send an invite for two PM." },
+      { "role": "Client", "cn": "好。", "en": "Good." }
+    ]
+  },
+  {
+    "id": "dlg-it-18",
+    "category": "itwork",
+    "title": "Teaching Basic Computer",
+    "titleCn": "教复制粘贴",
+    "scene": "你教新同事基本电脑操作。",
+    "roles": ["You", "Coworker"],
+    "turns": [
+      { "role": "Coworker", "cn": "这段文字怎么拷到邮件里？", "en": "How do I copy this text into an email?" },
+      { "role": "You", "cn": "选中，Ctrl+C，到邮件里Ctrl+V。", "en": "Select it, Ctrl+C, then Ctrl+V in the email." },
+      { "role": "Coworker", "cn": "Mac呢？", "en": "On a Mac?" },
+      { "role": "You", "cn": "Command+C和Command+V。", "en": "Command+C and Command+V." },
+      { "role": "Coworker", "cn": "附件怎么加？", "en": "How do I attach a file?" },
+      { "role": "You", "cn": "点曲别针，选桌面文件。", "en": "Click the paperclip and pick the file on your desktop." },
+      { "role": "Coworker", "cn": "懂了，谢谢！", "en": "Got it. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-it-19",
+    "category": "itwork",
+    "title": "User Story Walkthrough",
+    "titleCn": "讲用户故事",
+    "scene": "你和产品经理解读用户故事验收标准。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "用户要能一键重置密码，你理解吗？", "en": "Users need one-click password reset. Clear?" },
+      { "role": "You", "cn": "邮件链接二十四小时有效，对吗？", "en": "Email link valid twenty-four hours, right?" },
+      { "role": "PM", "cn": "对，过期要重新申请。", "en": "Yes. Expired links require a new request." },
+      { "role": "You", "cn": "失败三次要锁账户吗？", "en": "Lock the account after three failures?" },
+      { "role": "PM", "cn": "锁十五分钟，写进验收标准。", "en": "Fifteen-minute lockout. Put it in acceptance criteria." },
+      { "role": "You", "cn": "我更新ticket。", "en": "I'll update the ticket." }
+    ]
+  },
+  {
+    "id": "dlg-it-20",
+    "category": "itwork",
+    "title": "Screen Share with Client",
+    "titleCn": "给客户演示操作",
+    "scene": "你屏幕共享教客户用后台系统。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "请点Settings，然后Users。", "en": "Click Settings, then Users." },
+      { "role": "Client", "cn": "我这边加载慢，正常吗？", "en": "It's loading slowly on my side. Is that normal?" },
+      { "role": "You", "cn": "第一次会慢一点，刷新试试。", "en": "First load is slower. Try refresh." },
+      { "role": "Client", "cn": "看到了，添加用户在哪？", "en": "I see it. Where's add user?" },
+      { "role": "You", "cn": "右上角蓝色按钮Add User。", "en": "Blue Add User button, top right." },
+      { "role": "Client", "cn": "好了，谢谢。", "en": "Got it. Thank you." },
+      { "role": "You", "cn": "有问题随时邮件我。", "en": "Email me anytime if you get stuck." }
+    ]
   }
 ]

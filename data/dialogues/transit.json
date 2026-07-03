@@ -83,5 +83,107 @@
       { "role": "You", "cn": "R线在哪个站台？", "en": "Which platform is the R train on?" },
       { "role": "Attendant", "cn": "对面站台，往北方向，请看指示牌。", "en": "The opposite platform, heading uptown. Follow the signs." }
     ]
+  },
+  {
+    "id": "dlg-trans-06",
+    "category": "transit",
+    "title": "Which Bus to Downtown",
+    "titleCn": "问哪路公交",
+    "scene": "你在公交站不确定坐哪辆车。",
+    "roles": ["You", "Rider"],
+    "turns": [
+      { "role": "You", "cn": "去市中心坐哪路？", "en": "Which bus goes downtown?" },
+      { "role": "Rider", "cn": "14或38，看站牌方向。", "en": "Fourteen or thirty-eight. Check the direction on the sign." },
+      { "role": "You", "cn": "要换乘地铁吗？", "en": "Do I need to transfer to the subway?" },
+      { "role": "Rider", "cn": "14直达，三十八要转。", "en": "Fourteen is direct. Thirty-eight transfers." },
+      { "role": "You", "cn": "刷卡还是投币？", "en": "Tap card or coins?" },
+      { "role": "Rider", "cn": "Clipper卡，上车刷。", "en": "Clipper card. Tap when you board." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-trans-07",
+    "category": "transit",
+    "title": "Card Declined at Turnstile",
+    "titleCn": "地铁刷卡失败",
+    "scene": "地铁闸机刷卡失败，你向工作人员求助。",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "卡刷不过去，显示insufficient。", "en": "My card won't go through. It says insufficient." },
+      { "role": "Agent", "cn": "余额可能不够，最低两块五。", "en": "Balance might be low. Minimum two fifty to enter." },
+      { "role": "You", "cn": "哪台机器充值？", "en": "Which machine adds value?" },
+      { "role": "Agent", "cn": "那台灰色，现金或信用卡。", "en": "Gray one over there. Cash or credit." },
+      { "role": "You", "cn": "充十块够吗？", "en": "Is ten dollars enough?" },
+      { "role": "Agent", "cn": "够，充完再刷这边闸机。", "en": "Yes. Try this gate again after." },
+      { "role": "You", "cn": "好了，谢谢。", "en": "It works. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-trans-08",
+    "category": "transit",
+    "title": "Missed Your Stop",
+    "titleCn": "公交坐过站",
+    "scene": "你没听清报站坐过了，问司机怎么办。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我该在Market街下，坐过了吗？", "en": "Sorry, I needed Market Street. Did I miss it?" },
+      { "role": "Driver", "cn": "刚过一站，下一站下车往回走。", "en": "One stop back. Get off next and walk back." },
+      { "role": "You", "cn": "要走多久？", "en": "How long a walk?" },
+      { "role": "Driver", "cn": "五分钟，或者坐反向38。", "en": "Five minutes, or catch the thirty-eight the other way." },
+      { "role": "You", "cn": "反向要再刷卡吗？", "en": "Do I tap again on the return bus?" },
+      { "role": "Driver", "cn": "两小时内换乘免费。", "en": "Free transfer within two hours." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-trans-09",
+    "category": "transit",
+    "title": "Reading the Subway Map",
+    "titleCn": "看不懂地铁图",
+    "scene": "你在地铁站研究路线图，向路人求助。",
+    "roles": ["You", "Commuter"],
+    "turns": [
+      { "role": "You", "cn": "去机场要转几次？我看不懂颜色线。", "en": "How many transfers to the airport? I can't follow the colored lines." },
+      { "role": "Commuter", "cn": "先黄线往北，Embarcadero换蓝线。", "en": "Yellow north first, then blue at Embarcadero." },
+      { "role": "You", "cn": "终点站是SFO对吧？", "en": "Final stop is SFO, right?" },
+      { "role": "Commuter", "cn": "对，别坐反，看uptown标志。", "en": "Right. Don't board wrong way. Look for uptown." },
+      { "role": "You", "cn": "大概多久？", "en": "How long total?" },
+      { "role": "Commuter", "cn": "四十分钟左右。", "en": "About forty minutes." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks so much!" }
+    ]
+  },
+  {
+    "id": "dlg-trans-10",
+    "category": "transit",
+    "title": "Bus Is Full",
+    "titleCn": "公交满员",
+    "scene": "早高峰公交满了，你问司机还能上吗。",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "还能上吗？", "en": "Can I still get on?" },
+      { "role": "Driver", "cn": "可以站门口，抓住扶手。", "en": "You can stand by the door. Hold the rail." },
+      { "role": "You", "cn": "到Mission街提醒我好吗？", "en": "Could you tell me when we reach Mission Street?" },
+      { "role": "Driver", "cn": "我喊一声，你也看屏幕。", "en": "I'll call it out. Watch the screen too." },
+      { "role": "You", "cn": "下一站是哪里？没听清广播。", "en": "What's the next stop? I didn't catch the announcement." },
+      { "role": "Driver", "cn": "16th Street，两站后到Mission。", "en": "Sixteenth Street. Mission is two stops after." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-trans-11",
+    "category": "transit",
+    "title": "Train Platform Direction",
+    "titleCn": "站台方向确认",
+    "scene": "你不确定等的车是否方向正确。",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "这趟是去Berkeley的吗？", "en": "Is this train going to Berkeley?" },
+      { "role": "Attendant", "cn": "对面站台，这边去San Jose。", "en": "Opposite platform. This side goes to San Jose." },
+      { "role": "You", "cn": "末班车几点？", "en": "What time is the last train?" },
+      { "role": "Attendant", "cn": "工作日十二点十五，周末早一点。", "en": "Twelve fifteen weekdays. Earlier on weekends." },
+      { "role": "You", "cn": "自行车能带吗？", "en": "Can I bring a bike?" },
+      { "role": "Attendant", "cn": "非高峰可以，看车厢贴纸。", "en": "Off-peak yes. Check the car stickers." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
   }
 ]

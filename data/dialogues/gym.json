@@ -152,5 +152,285 @@
       { "role": "You", "cn": "体验完办卡有优惠吗？", "en": "Any signup deal after the trial?" },
       { "role": "Trainer", "cn": "今天办 waive 入会费，省五十。", "en": "Sign up today and we waive the fifty-dollar enrollment fee." }
     ]
+  },
+  {
+    "id": "dlg-gym-10",
+    "category": "gym",
+    "title": "Asking for a Spot",
+    "titleCn": "请人保护卧推",
+    "scene": "你做大重量卧推，请旁边的人帮忙保护。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，能帮我spot一下吗？最后一组。", "en": "Excuse me, could you spot me? Last set." },
+      { "role": "Member", "cn": "当然，多少磅？", "en": "Sure. How much weight?" },
+      { "role": "You", "cn": "一百三十五，力竭帮我托起来就行。", "en": "One thirty-five. Help me up if I fail." },
+      { "role": "Member", "cn": "好，我站后面，你喊。", "en": "Got it. I'll stand behind you. Call it." },
+      { "role": "You", "cn": "起！……谢谢，最后一 rep。", "en": "Up! …Thanks. That was the last rep." },
+      { "role": "Member", "cn": "练得不错。", "en": "Nice work." },
+      { "role": "You", "cn": "非常感谢！", "en": "Really appreciate it!" }
+    ]
+  },
+  {
+    "id": "dlg-gym-11",
+    "category": "gym",
+    "title": "Wipe Down Equipment",
+    "titleCn": "擦器械",
+    "scene": "工作人员提醒你练完要擦器械。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "练完请用消毒巾擦一下垫子。", "en": "Please wipe down the bench when you're done." },
+      { "role": "You", "cn": "抱歉，毛巾在哪？", "en": "Sorry, where are the wipes?" },
+      { "role": "Staff", "cn": "每个器械旁墙上，黄色桶里。", "en": "On the wall by each station. Yellow bucket." },
+      { "role": "You", "cn": "好的，练完一定擦。", "en": "Okay. I'll wipe it after my set." },
+      { "role": "Staff", "cn": "谢谢，大家卫生。", "en": "Thanks. Keeps it clean for everyone." },
+      { "role": "You", "cn": "明白。", "en": "Got it." }
+    ]
+  },
+  {
+    "id": "dlg-gym-12",
+    "category": "gym",
+    "title": "Spin Class Booking",
+    "titleCn": "预约动感单车课",
+    "scene": "你在前台预约动感单车团课。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "周三晚七点的spin还有三个位。", "en": "Three spots left for Wednesday seven PM spin." },
+      { "role": "You", "cn": "帮我订一个，新手合适吗？", "en": "Book one for me. Is it okay for beginners?" },
+      { "role": "Receptionist", "cn": "可以，自己控制阻力。", "en": "Yes. You control your own resistance." },
+      { "role": "You", "cn": "要提前多久到？", "en": "How early should I arrive?" },
+      { "role": "Receptionist", "cn": "十分钟，调车座。", "en": "Ten minutes to adjust your bike." },
+      { "role": "You", "cn": "迟到还能进吗？", "en": "Can I still get in if I'm late?" },
+      { "role": "Receptionist", "cn": "开课五分钟后关门。", "en": "Door closes five minutes after start." }
+    ]
+  },
+  {
+    "id": "dlg-gym-13",
+    "category": "gym",
+    "title": "Working In",
+    "titleCn": "共用器械",
+    "scene": "卧推凳有人用，你问能否交替练。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "你还有多少组？能work in吗？", "en": "How many sets do you have left? Can I work in?" },
+      { "role": "Member", "cn": "两组，可以，你先轻重量。", "en": "Two sets. Sure. Go lighter if you need to." },
+      { "role": "You", "cn": "谢谢，我换片很快。", "en": "Thanks. I'll change plates fast." },
+      { "role": "Member", "cn": "没事，一起练。", "en": "No worries. We can alternate." },
+      { "role": "You", "cn": "你先做这组。", "en": "You go first on this set." },
+      { "role": "Member", "cn": "好。", "en": "Sounds good." }
+    ]
+  },
+  {
+    "id": "dlg-gym-14",
+    "category": "gym",
+    "title": "Squat Form Check",
+    "titleCn": "深蹲姿势纠正",
+    "scene": "私教纠正你深蹲姿势。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "膝盖别内扣，脚跟踩实。", "en": "Don't let your knees cave in. Keep your heels down." },
+      { "role": "You", "cn": "蹲多深？我后腰有点紧。", "en": "How deep should I go? My lower back feels tight." },
+      { "role": "Trainer", "cn": "大腿平行地面，挺胸，先减重量。", "en": "Thighs parallel to the floor. Chest up. Drop the weight." },
+      { "role": "You", "cn": "这样好一点吗？", "en": "Is this better?" },
+      { "role": "Trainer", "cn": "好多了，记住呼吸，下去吸气起来呼气。", "en": "Much better. Breathe in down, out on the way up." },
+      { "role": "You", "cn": "再做几组？", "en": "How many more sets?" },
+      { "role": "Trainer", "cn": "两组，质量比重量重要。", "en": "Two more. Form beats weight." }
+    ]
+  },
+  {
+    "id": "dlg-gym-15",
+    "category": "gym",
+    "title": "Class Waitlist",
+    "titleCn": "团课满员候补",
+    "scene": "你想上的瑜伽课满了，前台帮你候补。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "周六上午瑜伽满了，要候补吗？", "en": "Saturday morning yoga is full. Want the waitlist?" },
+      { "role": "You", "cn": "要，取消会通知我吗？", "en": "Yes. Will you notify me if someone cancels?" },
+      { "role": "Receptionist", "cn": "提前两小时短信，确认才占位。", "en": "Text two hours ahead. You must confirm to hold the spot." },
+      { "role": "You", "cn": "自带垫子对吧？", "en": "I bring my own mat, right?" },
+      { "role": "Receptionist", "cn": "对，水也带上。", "en": "Yes, and bring water." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-gym-16",
+    "category": "gym",
+    "title": "Protein Shake Bar",
+    "titleCn": "买蛋白奶昔",
+    "scene": "练完你在健身房吧台点蛋白奶昔。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "要什么？巧克力还是香草？", "en": "What'll it be? Chocolate or vanilla?" },
+      { "role": "You", "cn": "香草，加一勺蛋白粉，少冰。", "en": "Vanilla with a scoop of protein, easy on the ice." },
+      { "role": "Staff", "cn": "会员八折，六块四。", "en": "Members get twenty percent off. Six forty." },
+      { "role": "You", "cn": "能加香蕉吗？", "en": "Can you add banana?" },
+      { "role": "Staff", "cn": "加五十美分。", "en": "Fifty cents extra." },
+      { "role": "You", "cn": "好，刷卡。", "en": "Sure. Card please." },
+      { "role": "Staff", "cn": "两分钟好。", "en": "Two minutes." }
+    ]
+  },
+  {
+    "id": "dlg-gym-17",
+    "category": "gym",
+    "title": "Guest Pass",
+    "titleCn": "带朋友体验",
+    "scene": "你想带朋友来健身房体验一天。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "年卡能带客人吗？", "en": "Can I bring a guest on my annual membership?" },
+      { "role": "Receptionist", "cn": "每月一次免费，额外十块一天。", "en": "One free guest day per month. Extra days are ten bucks." },
+      { "role": "You", "cn": "朋友周六来，需要预约吗？", "en": "My friend comes Saturday. Do I need to book?" },
+      { "role": "Receptionist", "cn": "前台登记姓名，签免责。", "en": "Register their name at the desk and sign a waiver." },
+      { "role": "You", "cn": "能一起上团课吗？", "en": "Can we take a group class together?" },
+      { "role": "Receptionist", "cn": "客人可以，课要另外订。", "en": "Guests are allowed. Book the class separately." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-gym-18",
+    "category": "gym",
+    "title": "Sauna Rules",
+    "titleCn": "桑拿房规定",
+    "scene": "你第一次用健身房桑拿，问工作人员。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "桑拿怎么预约？", "en": "How do I use the sauna?" },
+      { "role": "Staff", "cn": "不用预约，每次最多十五分钟，带毛巾垫坐。", "en": "No booking. Fifteen minutes max. Sit on a towel." },
+      { "role": "You", "cn": "可以带水吗？手机能带吗？", "en": "Can I bring water? My phone?" },
+      { "role": "Staff", "cn": "水可以，手机别带，太热。", "en": "Water yes. Leave your phone. It overheats." },
+      { "role": "You", "cn": "男女分开吗？", "en": "Are men's and women's separate?" },
+      { "role": "Staff", "cn": "分开，更衣室里面。", "en": "Yes, inside the locker rooms." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-gym-19",
+    "category": "gym",
+    "title": "Cable Machine Help",
+    "titleCn": "问拉力器怎么用",
+    "scene": "你不会用绳索下拉器械，请教练示范。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "You", "cn": "这个lat pulldown怎么调高度？", "en": "How do I adjust this lat pulldown?" },
+      { "role": "Trainer", "cn": "坐稳，大腿固定，把手拉到锁骨。", "en": "Sit tight, thighs under the pad, pull to your collarbone." },
+      { "role": "You", "cn": "用宽握还是窄握？", "en": "Wide grip or narrow?" },
+      { "role": "Trainer", "cn": "新手宽握，肘往下夹。", "en": "Wide for beginners. Drive your elbows down." },
+      { "role": "You", "cn": "重量从多少开始？", "en": "What weight should I start with?" },
+      { "role": "Trainer", "cn": "五十磅，十二次三组建控制。", "en": "Fifty pounds. Three sets of twelve with control." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-gym-20",
+    "category": "gym",
+    "title": "Injury During Workout",
+    "titleCn": "练伤求助",
+    "scene": "你拉伤肌肉，向前台要冰袋。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "我肩膀拉了一下，有冰袋吗？", "en": "I tweaked my shoulder. Do you have ice?" },
+      { "role": "Staff", "cn": "急救箱有，坐这，严重吗？", "en": "First aid kit. Sit here. Is it serious?" },
+      { "role": "You", "cn": "应该不严重，先冰敷十五分。", "en": "Probably not. I'll ice it fifteen minutes." },
+      { "role": "Staff", "cn": "持续疼要去看医生。", "en": "See a doctor if pain keeps up." },
+      { "role": "You", "cn": "今天先不练了。", "en": "I'll skip the rest today." },
+      { "role": "Staff", "cn": "需要叫车吗？", "en": "Need us to call a ride?" },
+      { "role": "You", "cn": "不用，我自己回去，谢谢。", "en": "No, I can get home. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-gym-21",
+    "category": "gym",
+    "title": "Foam Rolling Area",
+    "titleCn": "泡沫轴放松",
+    "scene": "教练教你用泡沫轴放松大腿。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "练完腿要滚一下，慢，别压骨头。", "en": "Roll your legs after leg day. Go slow. Avoid bone." },
+      { "role": "You", "cn": "疼是正常的吗？", "en": "Is it supposed to hurt?" },
+      { "role": "Trainer", "cn": "有点酸正常，剧痛就轻一点。", "en": "A little soreness is normal. Ease up if it's sharp pain." },
+      { "role": "You", "cn": "每条腿多久？", "en": "How long per leg?" },
+      { "role": "Trainer", "cn": "三十秒到一分钟。", "en": "Thirty seconds to a minute." },
+      { "role": "You", "cn": "好的，我练完来做。", "en": "Okay. I'll do it after my workout." }
+    ]
+  },
+  {
+    "id": "dlg-gym-22",
+    "category": "gym",
+    "title": "Rowing Machine",
+    "titleCn": "划船机",
+    "scene": "你第一次用划船机，问正确姿势。",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "You", "cn": "划船机顺序是什么？腿先还是手先？", "en": "What's the order on the rower? Legs first or arms?" },
+      { "role": "Trainer", "cn": "腿、臀、手，回去顺序反过来。", "en": "Legs, hips, arms out. Reverse on the way back." },
+      { "role": "You", "cn": "背要弯吗？", "en": "Should I round my back?" },
+      { "role": "Trainer", "cn": "不要，背直，核心收紧。", "en": "No. Keep your back flat and core tight." },
+      { "role": "You", "cn": "十分钟热身够吗？", "en": "Is ten minutes enough for warmup?" },
+      { "role": "Trainer", "cn": "够，别一开始就猛拉。", "en": "Yes. Don't yank hard at the start." }
+    ]
+  },
+  {
+    "id": "dlg-gym-23",
+    "category": "gym",
+    "title": "Cancel Membership",
+    "titleCn": "退健身房会员",
+    "scene": "你搬家要取消会员，前台说明流程。",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "我要搬家，能取消年卡吗？", "en": "I'm moving. Can I cancel my annual membership?" },
+      { "role": "Receptionist", "cn": "提前三十天书面通知，可能收手续费。", "en": "Thirty days written notice. There may be a fee." },
+      { "role": "You", "cn": "能转给朋友吗？", "en": "Can I transfer it to a friend?" },
+      { "role": "Receptionist", "cn": "年卡不可转，月卡可以一次。", "en": "Annual plans aren't transferable. Monthly allows one transfer." },
+      { "role": "You", "cn": "好，请给我取消表格。", "en": "Okay. Please give me the cancellation form." },
+      { "role": "Receptionist", "cn": "填好邮箱确认。", "en": "Fill it out and we'll email confirmation." }
+    ]
+  },
+  {
+    "id": "dlg-gym-24",
+    "category": "gym",
+    "title": "Lost Locker Key",
+    "titleCn": "储物柜钥匙丢了",
+    "scene": "你弄丢了健身房储物柜钥匙。",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "储物柜钥匙丢了，能开吗？", "en": "I lost my locker key. Can you open it?" },
+      { "role": "Staff", "cn": "带ID，我们剪锁，二十五块。", "en": "With ID we'll cut the lock. Twenty-five dollars." },
+      { "role": "You", "cn": "里面有东西，现在能处理吗？", "en": "My stuff's inside. Can you do it now?" },
+      { "role": "Staff", "cn": "五分钟，请在旁边等。", "en": "Five minutes. Wait nearby." },
+      { "role": "You", "cn": "以后租他们的锁。", "en": "I'll rent a lock from you next time." },
+      { "role": "Staff", "cn": "建议，五块一个月。", "en": "Good idea. Five a month." }
+    ]
+  },
+  {
+    "id": "dlg-gym-25",
+    "category": "gym",
+    "title": "Pilates Reformer",
+    "titleCn": "普拉提课",
+    "scene": "你第一次上普拉提器械课。",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "第一次上reformer？脚放栏上，轻弹簧。", "en": "First reformer class? Feet on the bar, light springs." },
+      { "role": "You", "cn": "腰不舒服要说明吗？", "en": "Should I mention my lower back?" },
+      { "role": "Instructor", "cn": "一定要说，我会改动作。", "en": "Definitely. I'll modify moves for you." },
+      { "role": "You", "cn": "跟不上怎么办？", "en": "What if I can't keep up?" },
+      { "role": "Instructor", "cn": "放慢，呼吸，别憋气。", "en": "Slow down. Breathe. Don't hold your breath." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-gym-26",
+    "category": "gym",
+    "title": "Deadlift Platform",
+    "titleCn": "硬拉区礼仪",
+    "scene": "你想用硬拉台，有人在旁边休息。",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "你还要用这台吗？", "en": "Are you still using this platform?" },
+      { "role": "Member", "cn": "最后一组，两分钟让给你。", "en": "Last set. I'll be done in two minutes." },
+      { "role": "You", "cn": "能一起用吗？我轻重量热身。", "en": "Mind if I warm up light while you finish?" },
+      { "role": "Member", "cn": "行，别挡道。", "en": "Sure. Just stay out of the way." },
+      { "role": "You", "cn": "练完我会擦粉笔印。", "en": "I'll wipe the chalk when I'm done." },
+      { "role": "Member", "cn": "谢了。", "en": "Thanks." }
+    ]
   }
 ]
