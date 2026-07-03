@@ -1,0 +1,869 @@
+{
+  "have been to": {
+    "collocations": [
+      { "en": "have been to + 地点", "cn": "去过某地（已回来）" },
+      { "en": "Have you ever been to Paris?", "cn": "你去过巴黎吗？" }
+    ],
+    "patterns": [{
+      "title": "have been to vs have gone to",
+      "explain": "have been to 表示「去过某地且已返回」；have gone to 表示「去了某地（人现在不在此处）」。",
+      "examples": [
+        "I have been to London twice.（我去过伦敦两次。）",
+        "He has gone to Beijing.（他去北京了，不在这里。）"
+      ]
+    }]
+  },
+  "have gone to": {
+    "collocations": [
+      { "en": "have gone to + 地点", "cn": "去了某地（尚未回来）" },
+      { "en": "He has gone to the office.", "cn": "他去办公室了。" }
+    ],
+    "patterns": [{
+      "title": "have gone to vs have been to",
+      "explain": "have gone to 强调人已离开说话地点；have been to 强调经历，人已回来。",
+      "examples": [
+        "She has gone to the shops.（她去商店了。）",
+        "I have never been to Japan.（我从未去过日本。）"
+      ]
+    }]
+  },
+  "as soon as": {
+    "collocations": [
+      { "en": "as soon as + 从句", "cn": "一……就……" },
+      { "en": "as soon as possible", "cn": "尽快" }
+    ],
+    "patterns": [{
+      "title": "as soon as 时间状语从句",
+      "explain": "as soon as 引导时间从句，主句和从句的时态需配合：将来主句用一般现在时代替将来时。",
+      "examples": [
+        "As soon as he arrived, he began to work.",
+        "I'll call you as soon as I get home."
+      ]
+    }]
+  },
+  "in spite of": {
+    "collocations": [
+      { "en": "in spite of + 名词/动名词", "cn": "尽管……（表让步）" },
+      { "en": "in spite of the rain", "cn": "尽管下着雨" }
+    ],
+    "patterns": [{
+      "title": "in spite of vs although",
+      "explain": "in spite of 后接名词或动名词；although 后接从句。二者都表示让步。",
+      "examples": [
+        "In spite of the rain, they went out.",
+        "In spite of being tired, she kept working."
+      ]
+    }]
+  },
+  "might as well": {
+    "collocations": [
+      { "en": "might as well do sth", "cn": "不妨做某事；还是做某事吧" },
+      { "en": "You might as well tell me.", "cn": "你不妨告诉我吧。" }
+    ],
+    "patterns": [{
+      "title": "might as well do",
+      "explain": "表示在没有更好选择时「不妨做某事」，语气较随意。",
+      "examples": [
+        "We might as well wait here.",
+        "You might as well go by bus."
+      ]
+    }]
+  },
+  "would rather": {
+    "collocations": [
+      { "en": "would rather do sth", "cn": "宁愿做某事" },
+      { "en": "would rather ... than ...", "cn": "宁愿……而不愿……" }
+    ],
+    "patterns": [{
+      "title": "would rather do than do",
+      "explain": "would rather 后接动词原形；than 后也用原形，表示偏好选择。",
+      "examples": [
+        "I would rather stay at home.",
+        "She would rather walk than take a bus."
+      ]
+    }]
+  },
+  "had better": {
+    "collocations": [
+      { "en": "had better do sth", "cn": "最好做某事" },
+      { "en": "had better not do sth", "cn": "最好别做某事" }
+    ],
+    "patterns": [{
+      "title": "had better（无变位）",
+      "explain": "had better 中 had 不随人称变化，后接动词原形；否定用 had better not do。",
+      "examples": [
+        "You had better hurry up.",
+        "We had better not be late."
+      ]
+    }]
+  },
+  "be going to": {
+    "collocations": [
+      { "en": "be going to do sth", "cn": "打算 / 将要……" },
+      { "en": "be going to + 动词原形", "cn": "根据迹象即将发生" }
+    ],
+    "patterns": [{
+      "title": "be going to vs will",
+      "explain": "be going to 表计划或有迹象的将来；will 表临时决定或单纯预测。",
+      "examples": [
+        "We are going to visit Australia next month.",
+        "Look at the clouds — it's going to rain."
+      ]
+    }]
+  },
+  "be able to": {
+    "collocations": [
+      { "en": "be able to do sth", "cn": "能够做某事" },
+      { "en": "was/were able to", "cn": "过去成功做到（特定场合）" }
+    ],
+    "patterns": [{
+      "title": "be able to vs can",
+      "explain": "can 只有现在和过去式 could；be able to 可用于各种进行时和完成时，表「成功做到」。",
+      "examples": [
+        "He was able to escape from the fire.",
+        "I haven't been able to finish it yet."
+      ]
+    }]
+  },
+  "want": {
+    "collocations": [
+      { "en": "want to do sth", "cn": "想要做某事" },
+      { "en": "want sth", "cn": "想要某物" },
+      { "en": "want sb to do sth", "cn": "想要某人做某事" }
+    ],
+    "patterns": [{
+      "title": "want + 名词 / want to do",
+      "explain": "want 后接名词或 to do；接人作宾语时用 want sb to do。不接动名词。",
+      "examples": ["I want a cup of tea.", "She wants to learn English."]
+    }]
+  },
+  "must": {
+    "collocations": [
+      { "en": "must do sth", "cn": "必须做某事" },
+      { "en": "mustn't do sth", "cn": "禁止做某事" },
+      { "en": "must be", "cn": "一定是（推测）" }
+    ],
+    "patterns": [{
+      "title": "must vs have to / mustn't vs don't have to",
+      "explain": "must 表主观必须或肯定推测；mustn't 表禁止；don't have to 表不必。",
+      "examples": ["You must finish your homework.", "You mustn't smoke here."]
+    }]
+  },
+  "already": {
+    "collocations": [
+      { "en": "already（肯定句）", "cn": "已经" },
+      { "en": "have already done", "cn": "已经做了" }
+    ],
+    "patterns": [{
+      "title": "already vs yet",
+      "explain": "already 用于肯定句，放 have 之后；yet 用于否定句和疑问句，表「还（未）」。",
+      "examples": ["I have already finished.", "Have you finished yet?"]
+    }]
+  },
+  "yet": {
+    "collocations": [
+      { "en": "not ... yet", "cn": "还没有" },
+      { "en": "Have you ... yet?", "cn": "……了吗？" }
+    ],
+    "patterns": [{
+      "title": "yet 的位置",
+      "explain": "yet 常用于现在完成时的否定句和疑问句句末。",
+      "examples": ["He hasn't arrived yet.", "Have you seen it yet?"]
+    }]
+  },
+  "since": {
+    "collocations": [
+      { "en": "since + 时间点", "cn": "自从……以来" },
+      { "en": "for + 时间段", "cn": "持续了……（与完成时连用）" }
+    ],
+    "patterns": [{
+      "title": "for / since 与完成时",
+      "explain": "since 接时间点（1990, last week）；for 接时间段（two years）。均与现在完成时连用。",
+      "examples": ["I have lived here since 2010.", "She has been away for three days."]
+    }]
+  },
+  "ago": {
+    "collocations": [
+      { "en": "一段时间 + ago", "cn": "……以前" },
+      { "en": "two years ago", "cn": "两年前" }
+    ],
+    "patterns": [{
+      "title": "ago 与一般过去时",
+      "explain": "ago 从现在往前推算，必须与一般过去时连用，不能用于完成时。",
+      "examples": ["He left a few minutes ago.", "The story happened many years ago."]
+    }]
+  },
+  "better": {
+    "collocations": [
+      { "en": "better than", "cn": "比……更好" },
+      { "en": "had better do", "cn": "最好做某事" },
+      { "en": "get better", "cn": "好转" }
+    ],
+    "patterns": [{
+      "title": "good → better → best",
+      "explain": "good/well 的比较级是 better，最高级是 best，均为不规则变化。",
+      "examples": ["This book is better than that one.", "She sings better than I do."]
+    }]
+  },
+  "interested": {
+    "collocations": [
+      { "en": "be interested in sth/doing", "cn": "对……感兴趣" },
+      { "en": "an interested look", "cn": "感兴趣的表情" }
+    ],
+    "patterns": [{
+      "title": "interested vs interesting",
+      "explain": "interested 修饰人「感到感兴趣的」；interesting 修饰物「有趣的」。",
+      "examples": ["I am interested in history.", "This is an interesting book."]
+    }]
+  },
+  "interesting": {
+    "collocations": [
+      { "en": "find sth interesting", "cn": "觉得某事有趣" },
+      { "en": "an interesting story", "cn": "有趣的故事" }
+    ],
+    "patterns": [{
+      "title": "interesting vs interested",
+      "explain": "-ing 形容词描述事物特征；-ed 形容词描述人的感受。",
+      "examples": ["The film was very interesting.", "We were all interested in the news."]
+    }]
+  },
+  "wear": {
+    "collocations": [
+      { "en": "wear clothes/glasses", "cn": "穿着 / 戴着" },
+      { "en": "put on vs wear", "cn": "穿上（动作）vs 穿着（状态）" }
+    ],
+    "patterns": [{
+      "title": "put on vs wear vs dress",
+      "explain": "put on 强调穿的动作；wear 强调穿着的状态；dress 后接人（dress oneself）。",
+      "examples": ["Put on your coat.", "She is wearing a red dress."]
+    }]
+  },
+  "send": {
+    "collocations": [
+      { "en": "send sb sth / send sth to sb", "cn": "送给某人某物" },
+      { "en": "send a letter/postcard", "cn": "寄信/明信片" }
+    ],
+    "patterns": [{
+      "title": "send 双宾语结构",
+      "explain": "send 可接双宾语：send me a letter = send a letter to me。",
+      "examples": ["He sent me a postcard from Paris.", "She sent the package to her friend."]
+    }]
+  },
+  "receive": {
+    "collocations": [
+      { "en": "receive sth from sb", "cn": "收到某人的某物" },
+      { "en": "receive a letter/call", "cn": "收到来信/接到电话" }
+    ]
+  },
+  "fail": {
+    "collocations": [
+      { "en": "fail to do sth", "cn": "未能做某事" },
+      { "en": "fail an exam", "cn": "考试不及格" },
+      { "en": "cannot fail to do", "cn": "一定会……" }
+    ],
+    "patterns": [{
+      "title": "fail to do",
+      "explain": "fail to do 表示「未能做到」；cannot fail to do 表示「必定会」。",
+      "examples": ["He failed to arrive on time.", "The book cannot fail to interest you."]
+    }]
+  },
+  "succeed": {
+    "collocations": [
+      { "en": "succeed in doing sth", "cn": "成功做某事" },
+      { "en": "succeed sb", "cn": "接替某人" }
+    ],
+    "patterns": [{
+      "title": "succeed in + 动名词",
+      "explain": "succeed 是不及物动词，in 后接动名词，不能接不定式。",
+      "examples": ["They succeeded in solving the problem.", "He succeeded his father as manager."]
+    }]
+  },
+  "arrive": {
+    "collocations": [
+      { "en": "arrive in + 大地点", "cn": "到达（国家/城市）" },
+      { "en": "arrive at + 小地点", "cn": "到达（车站/机场等）" },
+      { "en": "arrive late/on time", "cn": "迟到/准时到达" }
+    ],
+    "patterns": [{
+      "title": "arrive in/at（不及物）",
+      "explain": "arrive 是不及物动词，不能接宾语，不加 to；大地点用 in，小地点用 at。",
+      "examples": ["They arrived in London yesterday.", "We arrived at the station early."]
+    }]
+  },
+  "promise": {
+    "collocations": [
+      { "en": "promise to do sth", "cn": "承诺做某事" },
+      { "en": "promise sb sth", "cn": "向某人保证" },
+      { "en": "keep a promise", "cn": "守信用" }
+    ],
+    "patterns": [{
+      "title": "promise to do / promise that",
+      "explain": "promise 后可接 to do、宾语从句或双宾语。",
+      "examples": ["He promised to help us.", "The doctor promised that the man would recover soon."]
+    }]
+  },
+  "regret": {
+    "collocations": [
+      { "en": "regret doing sth", "cn": "后悔做过某事" },
+      { "en": "regret to say/inform", "cn": "遗憾地说（正式）" }
+    ],
+    "patterns": [{
+      "title": "regret doing vs regret to do",
+      "explain": "regret doing 后悔已做的事；regret to do 对将要说的事表示遗憾（regret to inform you）。",
+      "examples": ["I regret telling him the secret.", "I regret to say that we cannot help."]
+    }]
+  },
+  "wonder": {
+    "collocations": [
+      { "en": "wonder if/whether", "cn": "想知道是否……" },
+      { "en": "wonder why/what/how", "cn": "想知道为什么/什么/如何" },
+      { "en": "No wonder!", "cn": "难怪！" }
+    ],
+    "patterns": [{
+      "title": "wonder + 疑问从句",
+      "explain": "wonder 后接 if/whether 或 wh- 从句，表示「想知道」。",
+      "examples": ["I wonder if he is at home.", "She wondered why he was late."]
+    }]
+  },
+  "intend": {
+    "collocations": [
+      { "en": "intend to do sth", "cn": "打算做某事" },
+      { "en": "intend sth for sb", "cn": "某物是为某人准备的" }
+    ]
+  },
+  "deserve": {
+    "collocations": [
+      { "en": "deserve sth", "cn": "应得/值得某物" },
+      { "en": "deserve to do sth", "cn": "值得做某事" },
+      { "en": "well deserved", "cn": "实至名归" }
+    ]
+  },
+  "realize": {
+    "collocations": [
+      { "en": "realize (that) ...", "cn": "意识到……" },
+      { "en": "realize one's mistake", "cn": "意识到自己的错误" }
+    ],
+    "patterns": [{
+      "title": "realize vs notice",
+      "explain": "realize 强调「突然意识到、认识到」；notice 强调「注意到」细节。",
+      "examples": ["He realized his mistake after landing.", "I didn't realize how late it was."]
+    }]
+  },
+  "avoid": {
+    "collocations": [
+      { "en": "avoid doing sth", "cn": "避免做某事" },
+      { "en": "avoid sb/sth", "cn": "避开某人/某物" }
+    ],
+    "patterns": [{
+      "title": "avoid + 动名词",
+      "explain": "avoid 后接动名词，不接不定式。",
+      "examples": ["He tried to avoid meeting her.", "Avoid making the same mistake."]
+    }]
+  },
+  "admit": {
+    "collocations": [
+      { "en": "admit doing sth", "cn": "承认做过某事" },
+      { "en": "admit (that) ...", "cn": "承认……" },
+      { "en": "admit sb to", "cn": "允许进入" }
+    ],
+    "patterns": [{
+      "title": "admit + 动名词 / that 从句",
+      "explain": "admit 后可接动名词或 that 从句，表示承认。",
+      "examples": ["He admitted making a mistake.", "She admitted that she was wrong."]
+    }]
+  },
+  "compete": {
+    "collocations": [
+      { "en": "compete with/against sb", "cn": "与某人竞争" },
+      { "en": "compete in a race", "cn": "参加比赛" }
+    ]
+  },
+  "make": {
+    "collocations": [
+      { "en": "make sb do sth", "cn": "使某人做某事" },
+      { "en": "be made to do sth", "cn": "被迫做某事（被动）" },
+      { "en": "make a decision/mistake", "cn": "做决定/犯错误" }
+    ],
+    "patterns": [{
+      "title": "make sb do / be made to do",
+      "explain": "make 是使役动词，后接省略 to 的不定式；被动语态须恢复 to：be made to do。",
+      "examples": ["The news made him happy.", "He was made to work long hours."]
+    }]
+  },
+  "ring": {
+    "collocations": [
+      { "en": "ring sb / ring up", "cn": "给某人打电话" },
+      { "en": "the phone/bell is ringing", "cn": "电话/铃在响" }
+    ],
+    "patterns": [{
+      "title": "ring vs call",
+      "explain": "英式英语常用 ring (up) sb；美式更常用 call sb。过去式 rang，过去分词 rung。",
+      "examples": ["I'll ring you tonight.", "The bell rang at eight o'clock."]
+    }]
+  },
+  "knock": {
+    "collocations": [
+      { "en": "knock on/at the door", "cn": "敲门" },
+      { "en": "knock sb down", "cn": "撞倒某人" }
+    ]
+  },
+  "call": {
+    "collocations": [
+      { "en": "call sb", "cn": "给某人打电话；叫某人" },
+      { "en": "call at a place", "cn": "到某处短暂拜访" },
+      { "en": "call on sb", "cn": "拜访某人" }
+    ],
+    "patterns": [{
+      "title": "call at vs call on",
+      "explain": "call at + 地点；call on + 人。英式英语也用 ring 表打电话。",
+      "examples": ["I'll call you later.", "He called at the office yesterday."]
+    }]
+  },
+  "return": {
+    "collocations": [
+      { "en": "return to", "cn": "返回" },
+      { "en": "return sth to sb", "cn": "归还某物给某人" },
+      { "en": "in return", "cn": "作为回报" }
+    ]
+  },
+  "catch": {
+    "collocations": [
+      { "en": "catch a bus/train", "cn": "赶上公交/火车" },
+      { "en": "catch a cold", "cn": "感冒" },
+      { "en": "catch sb doing sth", "cn": "撞见某人正在做某事" }
+    ],
+    "patterns": [{
+      "title": "catch 不规则变化",
+      "explain": "catch — caught — caught。catch a bus 表「赶车」，非「抓车」。",
+      "examples": ["I caught the last bus home.", "He caught the boy stealing apples."]
+    }]
+  },
+  "cost": {
+    "collocations": [
+      { "en": "cost sb + 金额", "cn": "花费某人多少钱" },
+      { "en": "It costs ... to do", "cn": "做某事要花……" }
+    ],
+    "patterns": [{
+      "title": "cost 的主语是物",
+      "explain": "cost 主语通常是物或 it，不用人作主语（不说 I cost 100元，说 It cost me 100 yuan）。",
+      "examples": ["The book cost me twenty pounds.", "It costs a lot to live in London."]
+    }]
+  },
+  "pretend": {
+    "collocations": [
+      { "en": "pretend to do sth", "cn": "假装做某事" },
+      { "en": "pretend (that) ...", "cn": "假装……" }
+    ]
+  },
+  "appreciate": {
+    "collocations": [
+      { "en": "appreciate sth/doing", "cn": "欣赏；感激" },
+      { "en": "I would appreciate it if ...", "cn": "如果……我将不胜感激" }
+    ],
+    "patterns": [{
+      "title": "appreciate + 名词/动名词",
+      "explain": "appreciate 后接名词或动名词，不接 to do；表「感激」时较正式。",
+      "examples": ["I appreciate your help.", "We appreciate having good neighbours."]
+    }]
+  },
+  "believe": {
+    "collocations": [
+      { "en": "believe in sb/sth", "cn": "信任；相信存在" },
+      { "en": "believe (that) ...", "cn": "认为……" },
+      { "en": "make believe", "cn": "假装" }
+    ]
+  },
+  "save": {
+    "collocations": [
+      { "en": "save money/time", "cn": "省钱/省时间" },
+      { "en": "save sb from sth", "cn": "把某人从……中救出来" }
+    ]
+  },
+  "employ": {
+    "collocations": [
+      { "en": "employ sb", "cn": "雇用某人" },
+      { "en": "be employed as", "cn": "被雇为……" }
+    ]
+  },
+  "retire": {
+    "collocations": [
+      { "en": "retire from", "cn": "从……退休" },
+      { "en": "retire at the age of ...", "cn": "在……岁退休" }
+    ]
+  },
+  "accept": {
+    "collocations": [
+      { "en": "accept sth", "cn": "接受" },
+      { "en": "accept sb as", "cn": "把某人视为……" }
+    ],
+    "patterns": [{
+      "title": "accept vs receive",
+      "explain": "receive 只表示「收到」；accept 表示「接受」，含主观意愿。",
+      "examples": ["He received a gift but did not accept it.", "She accepted the job offer."]
+    }]
+  },
+  "discover": {
+    "collocations": [
+      { "en": "discover (that) ...", "cn": "发现……" },
+      { "en": "discover sth by accident", "cn": "偶然发现" }
+    ]
+  },
+  "hide": {
+    "collocations": [
+      { "en": "hide sth from sb", "cn": "对某人隐瞒某事" },
+      { "en": "hide behind/under", "cn": "躲在……后面/下面" }
+    ],
+    "patterns": [{
+      "title": "hide 不规则变化",
+      "explain": "hide — hid — hidden。hide 可作及物/不及物动词。",
+      "examples": ["He hid the letter in a drawer.", "The child hid behind the door."]
+    }]
+  },
+  "wake": {
+    "collocations": [
+      { "en": "wake up", "cn": "醒来" },
+      { "en": "wake sb up", "cn": "叫醒某人" }
+    ],
+    "patterns": [{
+      "title": "wake — woke — woken",
+      "explain": "wake up 可作不及物或及物短语；过去式 woke，过去分词 woken（英式）。",
+      "examples": ["I wake up at seven every day.", "Please wake me up at six."]
+    }]
+  },
+  "matter": {
+    "collocations": [
+      { "en": "What's the matter?", "cn": "怎么了？" },
+      { "en": "It doesn't matter.", "cn": "没关系。" },
+      { "en": "a matter of time", "cn": "只是时间问题" }
+    ]
+  },
+  "idea": {
+    "collocations": [
+      { "en": "have an idea", "cn": "有个主意" },
+      { "en": "Good idea!", "cn": "好主意！" },
+      { "en": "have no idea", "cn": "不知道" }
+    ]
+  },
+  "such": {
+    "collocations": [
+      { "en": "such a/an + adj + 名词", "cn": "如此……的一个……" },
+      { "en": "such ... that ...", "cn": "如此……以至于……" }
+    ],
+    "patterns": [{
+      "title": "such ... that vs so ... that",
+      "explain": "such 后接名词短语（such a cold day）；so 后接形容词/副词（so cold that）。",
+      "examples": ["It was such a cold winter that he moved away.", "The weather was so wet that he stayed in."]
+    }]
+  },
+  "so": {
+    "collocations": [
+      { "en": "so + adj/adv", "cn": "如此……" },
+      { "en": "so ... that ...", "cn": "如此……以至于……" }
+    ],
+    "patterns": [{
+      "title": "so ... that 结果状语从句",
+      "explain": "so 修饰形容词或副词，that 引导结果从句。修饰名词用 such。",
+      "examples": ["The weather was so wet that he hardly left the house.", "She spoke so quickly that I couldn't follow."]
+    }]
+  },
+  "paint": {
+    "collocations": [
+      { "en": "have sth painted", "cn": "请人粉刷（使役）" },
+      { "en": "paint the wall", "cn": "刷墙" }
+    ],
+    "patterns": [{
+      "title": "have something done",
+      "explain": "have + 宾语 + 过去分词，表示请别人做某事，本课 She had the walls painted。",
+      "examples": ["She had the walls painted in warm colours.", "He had the floor repaired after the fire."]
+    }]
+  },
+  "repair": {
+    "collocations": [
+      { "en": "have sth repaired", "cn": "请人修理" },
+      { "en": "under repair", "cn": "在修理中" }
+    ]
+  },
+  "depend": {
+    "collocations": [
+      { "en": "depend on/upon sb/sth", "cn": "依赖；取决于" },
+      { "en": "It depends.", "cn": "看情况。" }
+    ]
+  },
+  "hit": {
+    "collocations": [
+      { "en": "hit sb on the head", "cn": "打某人的头" },
+      { "en": "hit the ball", "cn": "击球" }
+    ],
+    "patterns": [{
+      "title": "hit sb on/in the + 身体部位",
+      "explain": "打/碰身体某部位用 on/in the + 部位，不用 hit sb's head。",
+      "examples": ["The ball hit him on the head.", "He hit the man in the stomach."]
+    }]
+  },
+  "suggest": {
+    "collocations": [
+      { "en": "suggest doing sth", "cn": "建议做某事" },
+      { "en": "suggest (that) sb (should) do", "cn": "建议某人做某事" }
+    ],
+    "patterns": [{
+      "title": "suggest + 动名词",
+      "explain": "suggest 后接动名词，不接 to do；that 从句中用 should do 或动词原形。",
+      "examples": ["I suggest going by train.", "He suggested that we (should) leave early."]
+    }]
+  },
+  "finish": {
+    "collocations": [
+      { "en": "finish doing sth", "cn": "完成做某事" },
+      { "en": "finish sth", "cn": "完成某事" }
+    ],
+    "patterns": [{
+      "title": "finish + 动名词",
+      "explain": "finish 后接动名词，不接 to do。",
+      "examples": ["Have you finished reading the book?", "She finished her homework early."]
+    }]
+  },
+  "stop": {
+    "collocations": [
+      { "en": "stop doing sth", "cn": "停止做某事" },
+      { "en": "stop to do sth", "cn": "停下来去做另一件事" }
+    ],
+    "patterns": [{
+      "title": "stop doing vs stop to do",
+      "explain": "stop doing = 停止正在做的事；stop to do = 停下来以便做另一件事。",
+      "examples": ["He stopped smoking.（他戒烟了。）", "He stopped to buy a newspaper.（他停下来买报。）"]
+    }]
+  },
+  "remember": {
+    "collocations": [
+      { "en": "remember doing sth", "cn": "记得做过某事" },
+      { "en": "remember to do sth", "cn": "记得要去做某事" }
+    ],
+    "patterns": [{
+      "title": "remember doing vs remember to do",
+      "explain": "remember doing 回忆已发生的事；remember to do 提醒将来要做的事。",
+      "examples": ["I remember meeting him.（我记得见过他。）", "Remember to lock the door.（记得锁门。）"]
+    }]
+  },
+  "forget": {
+    "collocations": [
+      { "en": "forget doing sth", "cn": "忘记做过某事" },
+      { "en": "forget to do sth", "cn": "忘记要去做某事" }
+    ],
+    "patterns": [{
+      "title": "forget doing vs forget to do",
+      "explain": "forget to do 忘记尚未做的事；forget doing 较少用，指不记得做过。",
+      "examples": ["Don't forget to post the letter.", "I'll never forget visiting Paris."]
+    }]
+  },
+  "try": {
+    "collocations": [
+      { "en": "try to do sth", "cn": "努力/试图做某事" },
+      { "en": "try doing sth", "cn": "尝试做某事（看效果）" }
+    ],
+    "patterns": [{
+      "title": "try to do vs try doing",
+      "explain": "try to do 强调努力尝试；try doing 强调试验某种方法。",
+      "examples": ["I tried to open the door.（我试图开门。）", "Try using a different key.（试试用另一把钥匙。）"]
+    }]
+  },
+  "pair": {
+    "collocations": [
+      { "en": "a pair of shoes/glasses", "cn": "一双鞋/一副眼镜" },
+      { "en": "in pairs", "cn": "成对地" }
+    ],
+    "patterns": [{
+      "title": "a pair of + 复数名词",
+      "explain": "a pair of 后接复数名词，谓语动词可用单数或复数（英式常单数）。",
+      "examples": ["I need a new pair of shoes.", "A pair of glasses was on the table."]
+    }]
+  },
+  "a lot of": {
+    "collocations": [
+      { "en": "a lot of + 可数/不可数名词", "cn": "许多" },
+      { "en": "lots of", "cn": "大量（口语）" }
+    ]
+  },
+  "good": {
+    "collocations": [
+      { "en": "be good at sth/doing", "cn": "擅长……" },
+      { "en": "good for sb", "cn": "对某人有好处" }
+    ],
+    "patterns": [{
+      "title": "good vs well",
+      "explain": "good 是形容词；well 作副词修饰动词，作形容词时仅表「健康」。",
+      "examples": ["She is good at English.", "He speaks English well."]
+    }]
+  },
+  "well": {
+    "collocations": [
+      { "en": "do well in", "cn": "在……方面做得好" },
+      { "en": "as well (as)", "cn": "也；和……一样" },
+      { "en": "feel well", "cn": "感觉健康" }
+    ]
+  },
+  "bad": {
+    "collocations": [
+      { "en": "be bad for", "cn": "对……有害" },
+      { "en": "feel bad", "cn": "感觉不舒服/难过" },
+      { "en": "bad at", "cn": "不擅长" }
+    ]
+  },
+  "happen": {
+    "collocations": [
+      { "en": "happen to do sth", "cn": "碰巧做某事" },
+      { "en": "happen to sb", "cn": "发生在某人身上" },
+      { "en": "What happened?", "cn": "发生什么事了？" }
+    ]
+  },
+  "look": {
+    "collocations": [
+      { "en": "look at", "cn": "看（动作）" },
+      { "en": "look like", "cn": "看起来像" },
+      { "en": "look after", "cn": "照顾" },
+      { "en": "look forward to", "cn": "盼望" }
+    ],
+    "patterns": [{
+      "title": "look 短语辨析",
+      "explain": "look at 看；look for 找；look after 照顾；look forward to 盼望（to 后接 -ing）。",
+      "examples": ["Look at the blackboard.", "I am looking for my keys."]
+    }]
+  },
+  "listen": {
+    "collocations": [
+      { "en": "listen to sb/sth", "cn": "听……" },
+      { "en": "listen carefully", "cn": "仔细听" }
+    ],
+    "patterns": [{
+      "title": "listen vs hear",
+      "explain": "listen 强调主动听，须加 to；hear 强调听到声音，不需 to。",
+      "examples": ["Listen to the teacher.", "I can hear the music."]
+    }]
+  },
+  "hear": {
+    "collocations": [
+      { "en": "hear sb do/doing", "cn": "听见某人做/正在做" },
+      { "en": "hear from sb", "cn": "收到某人的来信/消息" }
+    ],
+    "patterns": [{
+      "title": "hear vs listen",
+      "explain": "hear 表感官「听见」；listen to 表有意「倾听」。",
+      "examples": ["I heard a noise downstairs.", "I heard him sing in the next room."]
+    }]
+  },
+  "see": {
+    "collocations": [
+      { "en": "see sb do/doing", "cn": "看见某人做/正在做" },
+      { "en": "see a film/doctor", "cn": "看电影/看医生" }
+    ]
+  },
+  "watch": {
+    "collocations": [
+      { "en": "watch TV/a game", "cn": "看电视/看比赛" },
+      { "en": "watch sb do/doing", "cn": "观看某人做某事" }
+    ],
+    "patterns": [{
+      "title": "see / watch / look at",
+      "explain": "see 自然看见；watch 专注观看动态事物；look at 看静态对象。",
+      "examples": ["I watched the children playing.", "Look at this picture."]
+    }]
+  },
+  "tell": {
+    "collocations": [
+      { "en": "tell sb sth", "cn": "告诉某人某事" },
+      { "en": "tell sb to do sth", "cn": "叫某人做某事" },
+      { "en": "tell the truth/a story", "cn": "说实话/讲故事" }
+    ],
+    "patterns": [{
+      "title": "tell vs say vs speak vs talk",
+      "explain": "tell 接人+tell sb sth；say 接内容 say sth；speak 接语言 speak English；talk 强调交谈 talk to/with sb。",
+      "examples": ["Tell me the truth.", "He said that he was tired."]
+    }]
+  },
+  "say": {
+    "collocations": [
+      { "en": "say sth to sb", "cn": "对某人说某事" },
+      { "en": "say (that) ...", "cn": "说……" },
+      { "en": "It is said that ...", "cn": "据说……" }
+    ]
+  },
+  "speak": {
+    "collocations": [
+      { "en": "speak English/Chinese", "cn": "说英语/中文" },
+      { "en": "speak to/with sb", "cn": "和某人说话" },
+      { "en": "generally speaking", "cn": "一般来说" }
+    ]
+  },
+  "talk": {
+    "collocations": [
+      { "en": "talk to/with sb about sth", "cn": "和某人谈论某事" },
+      { "en": "talk on the phone", "cn": "在电话里聊" }
+    ]
+  },
+  "give": {
+    "collocations": [
+      { "en": "give sb sth / give sth to sb", "cn": "给某人某物" },
+      { "en": "give up", "cn": "放弃" },
+      { "en": "give way to", "cn": "让路于；被……取代" }
+    ]
+  },
+  "take": {
+    "collocations": [
+      { "en": "take part in", "cn": "参加" },
+      { "en": "take care of", "cn": "照顾" },
+      { "en": "It takes time.", "cn": "这需要时间。" }
+    ]
+  },
+  "put": {
+    "collocations": [
+      { "en": "put on", "cn": "穿上" },
+      { "en": "put away", "cn": "收好" },
+      { "en": "put up with", "cn": "忍受" }
+    ]
+  },
+  "get": {
+    "collocations": [
+      { "en": "get up", "cn": "起床" },
+      { "en": "get on/off", "cn": "上/下车" },
+      { "en": "get used to doing", "cn": "逐渐习惯" }
+    ]
+  },
+  "go": {
+    "collocations": [
+      { "en": "go shopping/swimming", "cn": "去购物/游泳" },
+      { "en": "go on doing", "cn": "继续做某事" },
+      { "en": "go on to do", "cn": "接着做另一件事" }
+    ]
+  },
+  "come": {
+    "collocations": [
+      { "en": "come from", "cn": "来自" },
+      { "en": "come in", "cn": "进来" },
+      { "en": "come true", "cn": "实现" }
+    ]
+  },
+  "have": {
+    "collocations": [
+      { "en": "have sth done", "cn": "请人做某事" },
+      { "en": "have to do", "cn": "不得不" },
+      { "en": "have a good time", "cn": "玩得开心" }
+    ],
+    "patterns": [{
+      "title": "have something done",
+      "explain": "have + 宾语 + 过去分词，表请别人完成某事，是使役/致使结构。",
+      "examples": ["He had his hair cut.", "She had the walls painted."]
+    }]
+  },
+  "do": {
+    "collocations": [
+      { "en": "do homework/housework", "cn": "做作业/家务" },
+      { "en": "do sb a favour", "cn": "帮某人一个忙" },
+      { "en": "do well in", "cn": "在……方面做得好" }
+    ]
+  },
+  "umbrella": {
+    "collocations": [
+      { "en": "Take your umbrella.", "cn": "带上雨伞。" },
+      { "en": "Here's your umbrella.", "cn": "给你雨伞。" }
+    ]
+  }
+}

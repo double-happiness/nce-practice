@@ -127,6 +127,38 @@
     .dict-queue-done { text-align: center; padding: 40px 16px; }
     .dict-queue-done h3 { margin: 0 0 8px; font-size: 20px; color: #15803d; }
     .dict-tools.queue-hide { display: none; }
+    .dict-more {
+      margin-top: 10px; padding: 0; border: none; background: none; cursor: pointer;
+      font-size: 13px; font-weight: 600; color: var(--brand, #2f6fed);
+    }
+    .dict-more:hover { text-decoration: underline; }
+    .dict-more.loading { opacity: .6; pointer-events: none; }
+    .dict-detail {
+      margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border, #e4e8f2);
+      display: none;
+    }
+    .dict-detail.open { display: block; }
+    .dict-sec { margin-bottom: 14px; }
+    .dict-sec:last-child { margin-bottom: 0; }
+    .dict-sec-title {
+      font-size: 12px; font-weight: 700; color: var(--muted, #6b7280);
+      text-transform: uppercase; letter-spacing: .04em; margin-bottom: 8px;
+    }
+    .dict-col-list, .dict-ex-list, .dict-pat-list { display: flex; flex-direction: column; gap: 8px; }
+    .dict-col-item, .dict-ex-item {
+      font-size: 14px; line-height: 1.55; color: var(--ink-soft, #3a4356);
+      padding: 8px 10px; background: #f8fafc; border-radius: 8px;
+    }
+    .dict-col-en, .dict-ex-en { font-weight: 600; color: var(--ink, #1b2030); }
+    .dict-col-cn, .dict-ex-cn, .dict-ex-src { font-size: 13px; color: var(--muted, #6b7280); margin-top: 2px; }
+    .dict-ex-src { margin-top: 4px; }
+    .dict-pat-item {
+      padding: 10px 12px; background: #f0f5ff; border-radius: 8px; border-left: 3px solid var(--brand, #2f6fed);
+    }
+    .dict-pat-title { font-size: 14px; font-weight: 700; color: var(--ink, #1b2030); }
+    .dict-pat-explain { font-size: 13px; color: var(--ink-soft, #3a4356); margin-top: 4px; line-height: 1.55; }
+    .dict-pat-exs { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--muted, #6b7280); line-height: 1.6; }
+    .dict-detail-empty { font-size: 13px; color: var(--muted-2, #9aa2b1); }
   `;
   document.head.appendChild(style);
 
@@ -137,6 +169,7 @@
   let starSet = new Set();
   let lastWords = [];
   let keyBound = false;
+  const detailCache = new Map();
   const st = { book: '', q: '', page: 0, queue: null };
 
   function wordKey(word) {
@@ -259,6 +292,86 @@
     }
   }
 
+  function detailSectionHtml(detail, q) {
+    const cols = detail.collocations || [];
+    const pats = detail.patterns || [];
+    const exs = detail.examples || [];
+    if (!cols.length && !pats.length && !exs.length) {
+      return '<div class="dict-detail-empty">暂无更多搭配与例句</div>';
+    }
+    let html = '';
+    if (cols.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">固定搭配 / 短语</div><div class="dict-col-list">' +
+        cols.map((c) =>
+          '<div class="dict-col-item">' +
+          `<div class="dict-col-en">${hl(c.en, q)}</div>` +
+          (c.cn ? `<div class="dict-col-cn">${hl(c.cn, q)}</div>` : '') +
+          '</div>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (pats.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">课内常用句型</div><div class="dict-pat-list">' +
+        pats.map((p) =>
+          '<div class="dict-pat-item">' +
+          `<div class="dict-pat-title">${escapeHtml(p.title)}</div>` +
+          (p.explain ? `<div class="dict-pat-explain">${escapeHtml(p.explain)}</div>` : '') +
+          (p.examples && p.examples.length
+            ? '<ul class="dict-pat-exs">' +
+              p.examples.map((ex) => `<li>${hl(String(ex), q)}</li>`).join('') +
+              '</ul>'
+            : '') +
+          '</div>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (exs.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">教材例句</div><div class="dict-ex-list">' +
+        exs.map((ex) =>
+          '<div class="dict-ex-item">' +
+          `<div class="dict-ex-en">${hl(ex.en, q)}</div>` +
+          (ex.cn ? `<div class="dict-ex-cn">${hl(ex.cn, q)}</div>` : '') +
+          (ex.lesson
+            ? `<div class="dict-ex-src">第${ex.book}册 · Lesson ${ex.lesson}${ex.lessonTitle ? ' · ' + escapeHtml(ex.lessonTitle) : ''}</div>`
+            : '') +
+          '</div>'
+        ).join('') +
+        '</div></div>';
+    }
+    return html;
+  }
+
+  async function loadWordDetail(word) {
+    const key = wordKey(word);
+    if (detailCache.has(key)) return detailCache.get(key);
+    const d = await api('/api/words/detail?word=' + encodeURIComponent(word)).catch(() => null);
+    if (d && d.word) detailCache.set(key, d);
+    return d;
+  }
+
+  async function toggleDetail(btn) {
+    const word = btn.dataset.word || '';
+    const box = btn.closest('.dict-item')?.querySelector('.dict-detail');
+    if (!box) return;
+    const open = box.classList.toggle('open');
+    btn.textContent = open ? '收起搭配与例句 ▲' : '展开搭配 · 句型 · 例句 ▼';
+    if (!open) return;
+    if (box.dataset.loaded === '1') return;
+    btn.classList.add('loading');
+    box.innerHTML = '<div class="dict-detail-empty">加载中…</div>';
+    const detail = await loadWordDetail(word);
+    btn.classList.remove('loading');
+    if (!detail) {
+      box.innerHTML = '<div class="dict-detail-empty">加载失败，请稍后重试</div>';
+      return;
+    }
+    box.dataset.loaded = '1';
+    box.innerHTML = detailSectionHtml(detail, word);
+  }
+
   function bindResultActions(root) {
     root.querySelectorAll('.dict-word').forEach((el) => {
       el.onclick = () => copyWord(el.textContent);
@@ -279,6 +392,12 @@
       btn.onclick = () => {
         if (!goToLesson) return;
         goToLesson(btn.dataset.book, btn.dataset.lesson, { highlightWord: btn.dataset.word });
+      };
+    });
+    root.querySelectorAll('.dict-more').forEach((btn) => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        toggleDetail(btn);
       };
     });
   }
@@ -329,6 +448,8 @@
       '</div>' +
       (w.cn ? `<div class="dict-cn">${hl(w.cn, q || w.word)}</div>` : '') +
       (w.eg ? `<div class="dict-eg">${hl(w.eg, q || w.word)}</div>` : '') +
+      `<button type="button" class="dict-more" data-word="${escapeAttr(w.word)}">展开搭配 · 句型 · 例句 ▼</button>` +
+      `<div class="dict-detail" data-word="${escapeAttr(w.word)}"></div>` +
       (w.lesson
         ? '<div class="dict-foot">' +
           `<button type="button" class="dict-src" data-book="${book}" data-lesson="${w.lesson}" data-word="${escapeAttr(w.word)}">` +
@@ -370,7 +491,10 @@
   }
 
   function clearHistory() {
-    try { localStorage.removeItem(HIST_KEY); } catch (e) { /* ignore */ }
+    try {
+      if (typeof NCEStore !== 'undefined') NCEStore.set('nce-dict-history', []);
+      else localStorage.removeItem(HIST_KEY);
+    } catch (e) { /* ignore */ }
   }
 
   function historyHtml() {

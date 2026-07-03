@@ -6,6 +6,7 @@ const profile = require('../lib/profile');
 const activity = require('../lib/activity');
 const { buildDict, normKey } = require('../lib/dict');
 const { search, buildLookupDict } = require('../lib/wordlookup');
+const { getWordDetail } = require('../lib/word-detail');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 
 const router = express.Router();
@@ -87,6 +88,14 @@ router.get('/words/list', (req, res) => {
   list = list.filter((e) => matchFilter(levelOf(states, e.key), filter));
   const words = list.map((e) => decorate(e, states));
   res.json({ count: words.length, words });
+});
+
+// GET /words/detail —— 词条详情：搭配、课内句型、多条例句
+router.get('/words/detail', (req, res) => {
+  const word = req.query.word || req.query.q || '';
+  const detail = getWordDetail(word);
+  if (!detail) return res.status(404).json({ ok: false, error: '未找到该词' });
+  res.json(detail);
 });
 
 // GET /words/stats

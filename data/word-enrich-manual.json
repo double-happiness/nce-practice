@@ -1,0 +1,1005 @@
+{
+  "look forward to": {
+    "collocations": [
+      {
+        "en": "look forward to doing sth",
+        "cn": "盼望做某事（to 后接动名词）"
+      },
+      {
+        "en": "look forward to hearing from you",
+        "cn": "盼早日收到你的来信"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "look forward to + 动名词",
+        "explain": "look forward to 中的 to 是介词，后面接动词 -ing，不能接动词原形。",
+        "examples": [
+          "I look forward to seeing you.（我盼望见到你。）",
+          "We look forward to hearing from you soon."
+        ]
+      }
+    ]
+  },
+  "have to": {
+    "collocations": [
+      {
+        "en": "have to do sth",
+        "cn": "不得不 / 必须做某事"
+      },
+      {
+        "en": "don't have to",
+        "cn": "不必（≠ mustn't 禁止）"
+      },
+      {
+        "en": "will have to do",
+        "cn": "将不得不……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "have to vs must",
+        "explain": "have to 强调客观需要（外界要求），must 强调主观义务或强烈判断；否定 don't have to 表「不必」，mustn't 表「禁止」。",
+        "examples": [
+          "I have to get up early tomorrow.（明天我得早起。）",
+          "You don't have to come if you're busy.（忙的话不必来。）"
+        ]
+      }
+    ]
+  },
+  "had to": {
+    "collocations": [
+      {
+        "en": "had to do sth",
+        "cn": "过去不得不做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "had to（过去式）",
+        "explain": "have to 的过去式为 had to，表示过去某时客观上必须做某事。",
+        "examples": [
+          "I had to wait for an hour.（我不得不等了一小时。）",
+          "She had to sell her car.（她不得不把车卖掉。）"
+        ]
+      }
+    ]
+  },
+  "be used to": {
+    "collocations": [
+      {
+        "en": "be used to doing sth",
+        "cn": "习惯于做某事"
+      },
+      {
+        "en": "get used to",
+        "cn": "逐渐习惯"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "be used to + 动名词",
+        "explain": "be used to 表示「习惯于」，to 是介词，后接 -ing；区别于 used to do（过去常常）。",
+        "examples": [
+          "I am used to getting up early.",
+          "She is used to living alone."
+        ]
+      }
+    ]
+  },
+  "used to": {
+    "collocations": [
+      {
+        "en": "used to do sth",
+        "cn": "过去常常做某事（现在不了）"
+      },
+      {
+        "en": "didn't use to / didn't used to",
+        "cn": "过去不……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "used to + 动词原形",
+        "explain": "used to do 表示过去习惯性的动作或状态，暗含「现在已不再如此」。易混：be used to doing = 习惯于。",
+        "examples": [
+          "He used to work in a bank.（他以前在银行工作。）",
+          "I didn't use to like coffee.（我过去不喜欢咖啡。）"
+        ]
+      }
+    ]
+  },
+  "lend": {
+    "collocations": [
+      {
+        "en": "lend sb sth = lend sth to sb",
+        "cn": "借给某人某物（借出）"
+      },
+      {
+        "en": "Can you lend me your dictionary?",
+        "cn": "你能把词典借我一下吗？"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "lend 与 borrow 的区别",
+        "explain": "lend = 借出（主语是出借方）；borrow = 借入（主语是借入方）。lend sb sth / lend sth to sb；borrow sth from sb。",
+        "examples": [
+          "Can you lend me your pen?（能把笔借我吗？）",
+          "May I borrow your umbrella?（我能借你的伞吗？）"
+        ]
+      }
+    ]
+  },
+  "borrow": {
+    "collocations": [
+      {
+        "en": "borrow sth from sb",
+        "cn": "向某人借入某物"
+      },
+      {
+        "en": "borrow money from a friend",
+        "cn": "向朋友借钱"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "borrow 与 lend 的区别",
+        "explain": "borrow 的方向是「借入」，from 指出借方；lend 的方向是「借出」。",
+        "examples": [
+          "Can I borrow your pen for a minute?",
+          "He borrowed money from a friend."
+        ]
+      }
+    ]
+  },
+  "afford": {
+    "collocations": [
+      {
+        "en": "can/can't afford sth",
+        "cn": "买得起 / 买不起"
+      },
+      {
+        "en": "can't afford to do sth",
+        "cn": "负担不起做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "afford 的用法",
+        "explain": "afford 后接名词或 to do，常与 can/could/can't 连用，表示经济上是否承担得起。",
+        "examples": [
+          "We cannot afford such an expensive car.",
+          "I can't afford to travel abroad this year."
+        ]
+      }
+    ]
+  },
+  "refuse": {
+    "collocations": [
+      {
+        "en": "refuse to do sth",
+        "cn": "拒绝做某事"
+      },
+      {
+        "en": "refuse sb sth",
+        "cn": "拒绝给某人某物"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "refuse to do",
+        "explain": "refuse 后接不定式，不接动名词；表示拒绝做某事。",
+        "examples": [
+          "He refused to answer my question.",
+          "She refused to lend him any money."
+        ]
+      }
+    ]
+  },
+  "expect": {
+    "collocations": [
+      {
+        "en": "expect sb to do sth",
+        "cn": "期望某人做某事"
+      },
+      {
+        "en": "expect to do sth",
+        "cn": "预料会做某事"
+      },
+      {
+        "en": "be expecting",
+        "cn": "正等着（人/电话/消息）"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "expect 的用法",
+        "explain": "expect 后可接名词、that 从句、或 sb to do；进行式 be expecting 常指等待访客或重要消息。",
+        "examples": [
+          "We are expecting some friends tonight.",
+          "I expect he will arrive soon."
+        ]
+      }
+    ]
+  },
+  "allow": {
+    "collocations": [
+      {
+        "en": "allow sb to do sth",
+        "cn": "允许某人做某事"
+      },
+      {
+        "en": "be allowed to do sth",
+        "cn": "被允许做某事"
+      },
+      {
+        "en": "not allow sb to do sth",
+        "cn": "不允许某人做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "allow sb to do / be allowed to do",
+        "explain": "allow 后接宾语 + 不定式；被动式 be allowed to 表示「被允许」。",
+        "examples": [
+          "My parents don't allow me to stay up late.",
+          "You are not allowed to park here."
+        ]
+      }
+    ]
+  },
+  "spend": {
+    "collocations": [
+      {
+        "en": "spend time/money on sth",
+        "cn": "在……上花费时间/金钱"
+      },
+      {
+        "en": "spend time (in) doing sth",
+        "cn": "花时间做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "spend + 时间/金钱 + on / (in) doing",
+        "explain": "spend 的主语是人；on 后接名词，(in) doing 后接动名词表示花时间做某事。",
+        "examples": [
+          "I spent two hours on my homework.",
+          "She spends too much time watching TV."
+        ]
+      }
+    ]
+  },
+  "waste": {
+    "collocations": [
+      {
+        "en": "waste time/money (in) doing sth",
+        "cn": "浪费时间/金钱做某事"
+      },
+      {
+        "en": "a waste of time",
+        "cn": "浪费时间"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "waste + 时间 + (in) doing",
+        "explain": "waste 与 spend 结构类似，但含「白白浪费」之意。",
+        "examples": [
+          "Watching TV all day is a waste of time.",
+          "Don't waste time arguing."
+        ]
+      }
+    ]
+  },
+  "complain": {
+    "collocations": [
+      {
+        "en": "complain about sth",
+        "cn": "抱怨某事"
+      },
+      {
+        "en": "complain to sb about sth",
+        "cn": "向某人抱怨某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "complain about + 名词/动名词",
+        "explain": "complain 是不及物动词，about 后接抱怨的内容；进行时 always complaining 可表反复抱怨、含不满语气。",
+        "examples": [
+          "He complained about the rain almost every day.",
+          "He is always complaining about the weather."
+        ]
+      }
+    ]
+  },
+  "except": {
+    "collocations": [
+      {
+        "en": "except for",
+        "cn": "除……之外（常接名词）"
+      },
+      {
+        "en": "except (that)",
+        "cn": "除了（接从句）"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "except vs besides",
+        "explain": "except = 不包括在内（「除了……之外，其他都……」）；besides = 包括在内（「除了……还有」）。",
+        "examples": [
+          "Everyone went out except him.（除了他，大家都出去了。）",
+          "He thought of everything except the weather."
+        ]
+      }
+    ]
+  },
+  "settle": {
+    "collocations": [
+      {
+        "en": "settle in",
+        "cn": "安顿下来；适应新环境"
+      },
+      {
+        "en": "settle down",
+        "cn": "定居；安定下来"
+      },
+      {
+        "en": "settle in a town/village",
+        "cn": "在某地定居"
+      }
+    ]
+  },
+  "neither": {
+    "collocations": [
+      {
+        "en": "neither ... nor ...",
+        "cn": "既不……也不……"
+      },
+      {
+        "en": "neither of + 复数名词/代词",
+        "cn": "两者都不"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "neither of / neither ... nor",
+        "explain": "neither of 后接复数名词或 them/us 等，动词可用单数或复数；neither...nor 连接两个并列成分。",
+        "examples": [
+          "Neither of the answers is correct.",
+          "He could not understand me, and neither could I understand him."
+        ]
+      }
+    ]
+  },
+  "mind": {
+    "collocations": [
+      {
+        "en": "mind doing sth",
+        "cn": "介意做某事"
+      },
+      {
+        "en": "don't mind",
+        "cn": "不介意"
+      },
+      {
+        "en": "Would you mind ...?",
+        "cn": "你介意……吗？（礼貌请求）"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "mind + 动名词",
+        "explain": "mind 后接动名词，不接不定式；Would you mind doing...? 是礼貌请求句式。",
+        "examples": [
+          "Would you mind opening the window?",
+          "I don't mind waiting."
+        ]
+      }
+    ]
+  },
+  "enjoy": {
+    "collocations": [
+      {
+        "en": "enjoy doing sth",
+        "cn": "喜欢做某事"
+      },
+      {
+        "en": "enjoy oneself",
+        "cn": "玩得开心"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "enjoy + 动名词",
+        "explain": "enjoy 后必须接动名词，不能接 to do。",
+        "examples": [
+          "I enjoy reading in the evening.",
+          "They enjoyed themselves at the party."
+        ]
+      }
+    ]
+  },
+  "keep": {
+    "collocations": [
+      {
+        "en": "keep doing sth",
+        "cn": "持续做某事"
+      },
+      {
+        "en": "keep + 形容词",
+        "cn": "保持某种状态"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "keep + doing",
+        "explain": "keep doing 表示持续或反复做某事；keep + adj 表示保持状态。",
+        "examples": [
+          "Keep trying!",
+          "She kept silent during the meeting."
+        ]
+      }
+    ]
+  },
+  "enough": {
+    "collocations": [
+      {
+        "en": "adj/adv + enough",
+        "cn": "足够……"
+      },
+      {
+        "en": "enough + 名词",
+        "cn": "足够的……"
+      },
+      {
+        "en": "enough ... to do sth",
+        "cn": "足够……以至于能……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "enough ... to ...",
+        "explain": "enough 修饰形容词/副词时放后面（old enough）；修饰名词时放前面（enough money）。enough to do 表「足够做某事」。",
+        "examples": [
+          "He is old enough to go to school.",
+          "We don't have enough coins for the machine."
+        ]
+      }
+    ]
+  },
+  "too": {
+    "collocations": [
+      {
+        "en": "too + adj/adv",
+        "cn": "太……"
+      },
+      {
+        "en": "too ... to do sth",
+        "cn": "太……而不能……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "too ... to ...",
+        "explain": "too...to 表示「太……以至于不能……」，to 后接动词原形，含否定意义。",
+        "examples": [
+          "He is too young to go to school.",
+          "The box is too heavy to carry."
+        ]
+      }
+    ]
+  },
+  "business": {
+    "collocations": [
+      {
+        "en": "none of one's business",
+        "cn": "不关某人的事"
+      },
+      {
+        "en": "mind your own business",
+        "cn": "少管闲事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "none of one's business",
+        "explain": "固定表达，表示「不关你的事」，常用于拒绝回答私人问题。",
+        "examples": [
+          "How I spend my money is my own business.",
+          "It's none of your business.（不关你的事。）"
+        ]
+      }
+    ]
+  },
+  "hold": {
+    "collocations": [
+      {
+        "en": "hold a meeting/competition",
+        "cn": "举行会议/比赛"
+      },
+      {
+        "en": "be held",
+        "cn": "被举行（被动）"
+      },
+      {
+        "en": "hold on",
+        "cn": "等一下（电话用语）"
+      }
+    ]
+  },
+  "recover": {
+    "collocations": [
+      {
+        "en": "recover from an illness/operation",
+        "cn": "从疾病/手术中康复"
+      },
+      {
+        "en": "recover quickly",
+        "cn": "迅速康复"
+      }
+    ]
+  },
+  "inquire": {
+    "collocations": [
+      {
+        "en": "inquire about sth",
+        "cn": "打听/询问某事"
+      },
+      {
+        "en": "inquire into sth",
+        "cn": "调查某事"
+      }
+    ]
+  },
+  "reply": {
+    "collocations": [
+      {
+        "en": "reply to sb/sth",
+        "cn": "回复某人/某事"
+      },
+      {
+        "en": "reply that ...",
+        "cn": "回答说……"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "reply vs answer",
+        "explain": "reply 是不及物动词，须加 to：reply to sb；answer 可作及物动词：answer sb / answer a question。",
+        "examples": [
+          "She replied to my question with a smile.",
+          "The doctor replied that there was nothing to worry about."
+        ]
+      }
+    ]
+  },
+  "interrupt": {
+    "collocations": [
+      {
+        "en": "interrupt sb",
+        "cn": "打断某人"
+      },
+      {
+        "en": "be interrupted by sth",
+        "cn": "被……打断"
+      }
+    ]
+  },
+  "give up": {
+    "collocations": [
+      {
+        "en": "give up doing sth",
+        "cn": "放弃做某事 / 戒除某习惯"
+      },
+      {
+        "en": "give up smoking",
+        "cn": "戒烟"
+      },
+      {
+        "en": "never give up",
+        "cn": "永不放弃"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "give up + 动名词",
+        "explain": "give up 后接动名词，表示放弃某事或戒除习惯。",
+        "examples": [
+          "He decided to give up smoking last year.",
+          "He has given up smoking at last."
+        ]
+      }
+    ]
+  },
+  "set out": {
+    "collocations": [
+      {
+        "en": "set out from ...",
+        "cn": "从……出发"
+      },
+      {
+        "en": "set out to do sth",
+        "cn": "着手/打算做某事"
+      },
+      {
+        "en": "set out on a journey",
+        "cn": "启程旅行"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "set out / take part in",
+        "explain": "set out 表示出发、启程；set out to do 表示着手做某事。",
+        "examples": [
+          "The swimmer will set out from the French coast at dawn.",
+          "They set out to climb the mountain."
+        ]
+      }
+    ]
+  },
+  "look for": {
+    "collocations": [
+      {
+        "en": "look for sth/sb",
+        "cn": "寻找某物/某人"
+      },
+      {
+        "en": "look forward to",
+        "cn": "盼望（≠ look for）"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "look for vs look forward to",
+        "explain": "look for = 寻找；look forward to = 盼望，to 后接动名词。二者含义完全不同，勿混淆。",
+        "examples": [
+          "I am looking for my keys.",
+          "I look forward to seeing you."
+        ]
+      }
+    ]
+  },
+  "try on": {
+    "collocations": [
+      {
+        "en": "try on clothes/shoes",
+        "cn": "试穿衣服/鞋子"
+      },
+      {
+        "en": "try sth on",
+        "cn": "试穿（代词放中间）"
+      }
+    ]
+  },
+  "call at": {
+    "collocations": [
+      {
+        "en": "call at a place",
+        "cn": "短暂停留；到某处拜访"
+      },
+      {
+        "en": "call at the station",
+        "cn": "到车站/局里一趟"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "call at vs call on",
+        "explain": "call at + 地点（到某处去）；call on + 人（拜访某人）。",
+        "examples": [
+          "The letter asked him to call at the station that afternoon."
+        ]
+      }
+    ]
+  },
+  "let in": {
+    "collocations": [
+      {
+        "en": "let sb/sth in",
+        "cn": "让……进来"
+      },
+      {
+        "en": "let the cat/dog in",
+        "cn": "让猫/狗进来"
+      }
+    ]
+  },
+  "let out": {
+    "collocations": [
+      {
+        "en": "let sb/sth out",
+        "cn": "让……出去"
+      },
+      {
+        "en": "let out a cry/sigh",
+        "cn": "发出叫喊/叹息"
+      }
+    ]
+  },
+  "pull out": {
+    "collocations": [
+      {
+        "en": "pull out a tooth",
+        "cn": "拔牙"
+      },
+      {
+        "en": "pull out of",
+        "cn": "退出；驶出"
+      }
+    ]
+  },
+  "apart from": {
+    "collocations": [
+      {
+        "en": "apart from = except for",
+        "cn": "除……之外（不包括）"
+      },
+      {
+        "en": "apart from that",
+        "cn": "除此之外"
+      }
+    ]
+  },
+  "on board": {
+    "collocations": [
+      {
+        "en": "on board the ship/plane/train",
+        "cn": "在船/飞机/火车上"
+      },
+      {
+        "en": "welcome on board",
+        "cn": "欢迎登机/上船"
+      }
+    ]
+  },
+  "stay up": {
+    "collocations": [
+      {
+        "en": "stay up late",
+        "cn": "熬夜"
+      },
+      {
+        "en": "stay up tonight",
+        "cn": "今晚晚点睡"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "stay up vs get up",
+        "explain": "stay up = 熬夜、不睡；get up = 起床。allow sb to stay up late = 允许某人熬夜。",
+        "examples": [
+          "Can I stay up tonight?",
+          "My parents don't allow me to stay up late."
+        ]
+      }
+    ]
+  },
+  "come in": {
+    "collocations": [
+      {
+        "en": "come in, please",
+        "cn": "请进"
+      },
+      {
+        "en": "come in first/second",
+        "cn": "获得第一/第二名"
+      }
+    ]
+  },
+  "run after": {
+    "collocations": [
+      {
+        "en": "run after sb/sth",
+        "cn": "追赶某人/某物"
+      }
+    ]
+  },
+  "turn": {
+    "collocations": [
+      {
+        "en": "It's one's turn to do sth",
+        "cn": "轮到某人做某事"
+      },
+      {
+        "en": "turn left / turn right",
+        "cn": "向左 / 右转"
+      },
+      {
+        "en": "take turns",
+        "cn": "轮流"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "It's one's turn to do",
+        "explain": "固定句型，表示按顺序轮到自己做某事。",
+        "examples": [
+          "It's my turn to wash the dishes.",
+          "Whose turn is it to speak?"
+        ]
+      }
+    ]
+  },
+  "pay": {
+    "collocations": [
+      {
+        "en": "pay for sth",
+        "cn": "为……付款"
+      },
+      {
+        "en": "pay the bill",
+        "cn": "买单"
+      },
+      {
+        "en": "pay sb",
+        "cn": "付钱给某人"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "pay for / ask sb for",
+        "explain": "pay for + 物品；ask sb for + 物品，表示向某人索取。",
+        "examples": [
+          "How much did you pay for the book?",
+          "He asked the shop assistant for help."
+        ]
+      }
+    ]
+  },
+  "dream": {
+    "collocations": [
+      {
+        "en": "dream of doing sth",
+        "cn": "梦想做某事"
+      },
+      {
+        "en": "dream about sth",
+        "cn": "梦见 / 梦想某事"
+      },
+      {
+        "en": "dream of a quiet life",
+        "cn": "梦想安静的生活"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "dream of / think of + 动名词",
+        "explain": "dream of/about 与 think of 后接动名词，表示梦想、考虑做某事。",
+        "examples": [
+          "She has always dreamed of visiting Paris.",
+          "He dreamed of a quiet house with a garden."
+        ]
+      }
+    ]
+  },
+  "determined": {
+    "collocations": [
+      {
+        "en": "be determined to do sth",
+        "cn": "下定决心做某事"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "be determined to do",
+        "explain": "determined 是形容词，与 be 连用，后接不定式，表示坚定的决心。",
+        "examples": [
+          "She is determined to finish the race.",
+          "They were determined to succeed."
+        ]
+      }
+    ]
+  },
+  "proud": {
+    "collocations": [
+      {
+        "en": "be proud of sb/sth",
+        "cn": "为……感到自豪"
+      },
+      {
+        "en": "take pride in",
+        "cn": "以……为傲"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "be proud of",
+        "explain": "proud 是形容词，与 be 连用，of 后接名词或动名词。",
+        "examples": [
+          "His parents are proud of him.",
+          "She is proud of her work."
+        ]
+      }
+    ]
+  },
+  "belong": {
+    "collocations": [
+      {
+        "en": "belong to sb",
+        "cn": "属于某人"
+      },
+      {
+        "en": "belong to a club",
+        "cn": "是某俱乐部成员"
+      }
+    ],
+    "patterns": [
+      {
+        "title": "belong to",
+        "explain": "belong 是不及物动词，to 后接所有者或组织，不能用于被动语态。",
+        "examples": [
+          "This book belongs to me.",
+          "Does this coat belong to you?"
+        ]
+      }
+    ]
+  },
+  "fish and chips": {
+    "collocations": [
+      {
+        "en": "fish and chips",
+        "cn": "炸鱼薯条（英国国民餐）"
+      }
+    ]
+  },
+  "living room": {
+    "collocations": [
+      {
+        "en": "in the living room",
+        "cn": "在客厅"
+      }
+    ]
+  },
+  "ticket office": {
+    "collocations": [
+      {
+        "en": "at the ticket office",
+        "cn": "在售票处"
+      }
+    ]
+  },
+  "sleeping bag": {
+    "collocations": [
+      {
+        "en": "in a sleeping bag",
+        "cn": "在睡袋里"
+      }
+    ]
+  },
+  "pop singer": {
+    "collocations": [
+      {
+        "en": "a famous pop singer",
+        "cn": "著名流行歌手"
+      }
+    ]
+  },
+  "prisoner of war": {
+    "collocations": [
+      {
+        "en": "a prisoner of war (POW)",
+        "cn": "战俘"
+      }
+    ]
+  },
+  "rescue team": {
+    "collocations": [
+      {
+        "en": "a rescue team",
+        "cn": "救援队"
+      }
+    ]
+  },
+  "student policeman": {
+    "collocations": [
+      {
+        "en": "a student policeman",
+        "cn": "实习警察"
+      }
+    ]
+  }
+}
