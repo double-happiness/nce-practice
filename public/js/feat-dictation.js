@@ -153,7 +153,11 @@
     var setup = document.createElement('div');
     setup.className = 'dct-row';
     setup.innerHTML =
-      '<label style="font-size:15px">选择课程：</label>' +
+      '<label style="font-size:15px">册：</label>' +
+      '<select class="dct-select" id="dct-book" style="min-width:100px">' +
+      '<option value="1">第1册</option><option value="2">第2册</option>' +
+      '</select>' +
+      '<label style="font-size:15px">课程：</label>' +
       '<select class="dct-select" id="dct-lesson"><option value="">加载课程中…</option></select>' +
       '<button class="dct-btn primary" id="dct-start" disabled>开始听写</button>';
     wrap.appendChild(setup);
@@ -162,47 +166,58 @@
     stage.id = 'dct-stage';
     wrap.appendChild(stage);
 
+    var bookSel = setup.querySelector('#dct-book');
     var sel = setup.querySelector('#dct-lesson');
     var startBtn = setup.querySelector('#dct-start');
+    var curBook = '1';
 
-    // 拉课程列表
-    NCE.api('/api/lessons?book=1')
-      .then(function (data) {
-        var lessons = (data && data.lessons) || [];
-        if (!lessons.length) {
-          sel.innerHTML = '<option value="">无可用课程</option>';
-          return;
-        }
-        sel.innerHTML = '';
-        lessons.forEach(function (l) {
-          var opt = document.createElement('option');
-          opt.value = l.lesson;
-          opt.textContent =
-            'Lesson ' + l.lesson + '. ' + (l.title || '') + (l.titleCn ? ' · ' + l.titleCn : '');
-          sel.appendChild(opt);
-        });
-        startBtn.disabled = false;
-        // 教材学习页「听写本课」深链：预选该课并自动开始
-        var pend = NCE.pendingDictation;
-        if (pend) {
-          NCE.pendingDictation = null;
-          if (!pend.book || String(pend.book) === '1') {
-            sel.value = String(pend.lesson);
-            if (sel.value) startBtn.click();
+    function loadLessonList(book, pend) {
+      curBook = String(book);
+      bookSel.value = curBook;
+      sel.innerHTML = '<option value="">加载中…</option>';
+      startBtn.disabled = true;
+      return NCE.api('/api/lessons?book=' + encodeURIComponent(curBook))
+        .then(function (data) {
+          var lessons = (data && data.lessons) || [];
+          if (!lessons.length) {
+            sel.innerHTML = '<option value="">无可用课程</option>';
+            return;
           }
-        }
-      })
-      .catch(function (e) {
-        console.error('[dictation] 加载课程失败', e);
-        sel.innerHTML = '<option value="">加载失败</option>';
-      });
+          sel.innerHTML = '';
+          lessons.forEach(function (l) {
+            var opt = document.createElement('option');
+            opt.value = l.lesson;
+            opt.textContent =
+              'Lesson ' + l.lesson + '. ' + (l.title || '') + (l.titleCn ? ' · ' + l.titleCn : '');
+            sel.appendChild(opt);
+          });
+          startBtn.disabled = false;
+          if (pend && String(pend.book) === curBook && pend.lesson) {
+            sel.value = String(pend.lesson);
+          }
+        })
+        .catch(function (e) {
+          console.error('[dictation] 加载课程失败', e);
+          sel.innerHTML = '<option value="">加载失败</option>';
+        });
+    }
+
+    bookSel.onchange = function () {
+      loadLessonList(bookSel.value);
+    };
+
+    var pend = NCE.pendingDictation;
+    NCE.pendingDictation = null;
+    loadLessonList(pend && pend.book ? pend.book : '1', pend).then(function () {
+      if (pend && pend.lesson && sel.value === String(pend.lesson)) startBtn.click();
+    });
 
     startBtn.onclick = function () {
       var lesson = sel.value;
       if (!lesson) return;
       startBtn.disabled = true;
       startBtn.textContent = '准备中…';
-      NCE.api('/api/lesson/1/' + lesson)
+      NCE.api('/api/lesson/' + curBook + '/' + lesson)
         .then(function (l) {
           if (!l || l.error) {
             alert((l && l.error) || '加载课程失败');
@@ -213,7 +228,7 @@
             alert('本课没有可用于听写的例句，换一课试试。');
             return;
           }
-          runSession(stage, lesson, sentences);
+          runSession(stage, curBook, lesson, sentences);
         })
         .catch(function (e) {
           console.error('[dictation] 加载课文失败', e);
@@ -232,10 +247,16 @@
     return m ? m.join('').trim() : '';
   }
 
-  // 从课文详情收集听写句集：words[].eg + grammar[].examples。
-  // 每句拆成 { en: 听写/批改用英文, cn: 原句里的中文译文（可能为空） }，过滤太短(<3词)
+  // 从课文详情收集听写句集：优先 article 分段，其次 words[].eg + grammar[].examples。
   function collectSentences(l) {
     var raw = [];
+    if (l.article && l.article.en) {
+      var ens = String(l.article.en).split(/\n+/).map(function (s) { return s.trim(); }).filter(Boolean);
+      var cns = String(l.article.cn || '').split(/\n+/).map(function (s) { return s.trim(); });
+      ens.forEach(function (en, i) {
+        raw.push(cns[i] ? en + ' ' + cns[i] : en);
+      });
+    }
     (l.words || []).forEach(function (w) {
       if (w && w.eg) raw.push(w.eg);
     });
@@ -267,21 +288,24 @@
     );
   }
 
-  // ---------- 每课听写位置记忆（{ lesson: idx }）----------
+  // 每课听写位置记忆（键 "册-课" → 句序号）
+  function posKey(book, lesson) {
+    return String(book) + '-' + String(lesson);
+  }
   function loadPosMap() {
     return readJSON(LS_POS) || {};
   }
-  function savePosFor(lesson, idx) {
+  function savePosFor(book, lesson, idx) {
     var m = loadPosMap();
-    m[lesson] = idx;
+    m[posKey(book, lesson)] = idx;
     NCEStore.set(LS_POS, m);
   }
 
   // ---------- 单次听写会话 ----------
-  function runSession(stage, lesson, sentences) {
+  function runSession(stage, book, lesson, sentences) {
     var idx = 0;
-    // 恢复本课上次听到的位置（越界或已完成则从头开始）
-    var savedPos = Number(loadPosMap()[lesson]);
+    var pk = posKey(book, lesson);
+    var savedPos = Number(loadPosMap()[pk]);
     var resumed = false;
     if (!isNaN(savedPos) && savedPos > 0 && savedPos < sentences.length) {
       idx = savedPos;
@@ -295,7 +319,7 @@
       var n = idx + delta;
       if (n < 0 || n >= sentences.length) return;
       idx = n;
-      savePosFor(lesson, idx);
+      savePosFor(book, lesson, idx);
       render();
     }
 
@@ -370,7 +394,7 @@
     function doSubmit(standard, typed, resultBox) {
       var cmp = compare(standard.en, typed);
       rates[idx] = cmp.rate; // 同一句重做取最近一次
-      savePosFor(lesson, idx);
+      savePosFor(book, lesson, idx);
 
       var diffHtml = cmp.cells
         .map(function (c) {
@@ -428,6 +452,7 @@
       var rec = {
         avg: avg,
         count: done.length,
+        book: book,
         lesson: lesson,
         date: new Date().toLocaleString('zh-CN'),
       };

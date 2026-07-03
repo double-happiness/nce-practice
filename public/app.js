@@ -251,7 +251,8 @@ function hideAll() {
 const FEATURES = [];
 // 标签分组：id → 组名（学/练/复习/我的）；未列出的默认追加到「我的」组
 const TAB_GROUP_OF = {
-  dictation: 'practice', exam: 'practice', transform: 'practice',
+  dictionary: 'learn',
+  dictation: 'practice', exam: 'practice', transform: 'practice', dialogue: 'practice',
   review: 'review', wordhub: 'review',
   stats: 'mine', plan: 'mine', backup: 'mine',
 };
@@ -261,7 +262,7 @@ function tabGroupBox(id) {
 }
 
 // 合并标签：生词本 + 背单词 归入同一个「单词」标签，内部用子页切换
-const MERGE = { id: 'wordhub', label: '单词', icon: '🔤', children: { vocab: true, words: true, listenvocab: true } };
+const MERGE = { id: 'wordhub', label: '单词', icon: '🔤', children: { vocab: true, words: true, listenvocab: true, readvocab: true } };
 let mergeHost = null; // { tab, panel, subnav, body, current }
 function ensureMergeHost() {
   if (mergeHost) return mergeHost;
@@ -349,6 +350,14 @@ function registerFeature(opts) {
   return feat;
 }
 
+function goToDictionary(q, book) {
+  window.NCE.pendingDictionary = {
+    q: String(q == null ? '' : q),
+    book: book != null && book !== '' ? String(book) : '',
+  };
+  gotoTab('dictionary');
+}
+
 // 暴露给 feature 模块的公共 API
 window.NCE = {
   api,
@@ -357,6 +366,8 @@ window.NCE = {
   enOnly,
   registerFeature,
   gotoTab,
+  goToLesson,
+  goToDictionary,
   toast,
   escapeHtml: (s) => escapeHtml(s),
   escapeAttr: (s) => escapeAttr(s),
@@ -383,20 +394,35 @@ function loadLastLesson() {
 async function renderHome() {
   const box = $('homeContent');
   const last = loadLastLesson();
+  const vocabBook = last ? String(last.book) : '1';
   // 每项独立兜底：任一接口失败只影响对应卡片的数据，不拖垮整个首页
-  const [prog, plan, srs, gram, words] = await Promise.all([
+  const [prog, plan, srs, gram, words1, words2, listenEst, readEst] = await Promise.all([
     api('/api/progress').catch(() => ({ totalAttempts: 0, accuracy: 0, wrongCount: 0 })),
     api('/api/plan/overview').catch(() => ({ goal: 10, todayCount: 0, streak: 0, totalDays: 0 })),
     api('/api/srs/stats').catch(() => ({ due: 0, upcoming: 0, total: 0 })),
     api('/api/stats/grammar').catch(() => ({ grammar: [] })),
     api('/api/words/stats?book=1').catch(() => null),
+    api('/api/words/stats?book=2').catch(() => null),
+    api(`/api/listen-vocab/history?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
+    api(`/api/read-vocab/history?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
   ]);
 
   // 薄弱语法点：练够 4 次且正确率 < 85% 才算（接口已按正确率升序，最弱在前）
   const weak = (gram.grammar || []).filter((g) => g.seen >= 4 && g.accuracy < 85);
   const w1 = weak[0] || null;
-  // 「学习中」(level 1-2) 的单词就是默写待巩固池
-  const wordsDue = words ? words.learning || 0 : 0;
+  // 「学习中」(level 1-2) 的单词就是默写待巩固池（合并第 1、2 册）
+  const wordsDue = (words1 ? words1.learning || 0 : 0) + (words2 ? words2.learning || 0 : 0);
+
+  const listenLatest = listenEst && listenEst.tests && listenEst.tests[0];
+  const readLatest = readEst && readEst.tests && readEst.tests[0];
+  const vocabLine = (icon, label, t) =>
+    t
+      ? `${icon} ${label}：<b>≈ ${t.estimate}</b> / ${t.dictTotal} 词`
+      : `${icon} ${label}：第${vocabBook}册尚未测试`;
+  const vocabSub =
+    listenLatest || readLatest
+      ? `${vocabLine('👂', '听力', listenLatest)}<br>${vocabLine('📖', '阅读', readLatest)}`
+      : `第 ${vocabBook} 册词表基线尚未建立，各测一次可对比听读差距。`;
 
   const goalPct = Math.min(100, plan.goal ? Math.round((plan.todayCount / plan.goal) * 100) : 0);
   const goalDone = plan.todayCount >= plan.goal;
@@ -443,6 +469,16 @@ async function renderHome() {
                <button class="btn" data-goto="practice">去刷题 →</button>`
       }
     </div>` +
+    // 词汇量基线（听 / 读抽样估算）
+    `<div class="home-card">
+      <div class="hc-title">📚 词汇量基线</div>
+      <div class="hc-big hc-small">第 ${vocabBook} 册</div>
+      <div class="hc-sub">${vocabSub}</div>
+      <div class="hc-btns">
+        <button class="btn" data-goto="listenvocab">👂 测听力 →</button>
+        <button class="btn" data-goto="readvocab">📖 测阅读 →</button>
+      </div>
+    </div>` +
     // 继续学习
     `<div class="home-card">
       <div class="hc-title">📖 继续学习</div>
@@ -460,9 +496,11 @@ async function renderHome() {
       <div class="hc-big hc-small">${prog.totalAttempts} 题 · 正确率 ${prog.accuracy}%</div>
       <div class="hc-sub">错题本 ${prog.wrongCount} 题 · 累计学习 ${plan.totalDays} 天</div>
       <div class="hc-links">
+        <a data-goto="dictionary">📕 查词典</a>
         <a data-goto="dictation">🎧 听写</a>
         <a data-goto="words">🔤 背单词</a>
         <a data-goto="listenvocab">👂 听力词汇量</a>
+        <a data-goto="readvocab">📖 阅读词汇量</a>
         <a data-goto="exam">📝 阶段测验</a>
         <a data-goto="stats">📊 薄弱分析</a>
       </div>
@@ -723,7 +761,7 @@ function bindArticle(l) {
   renderArticleView(l, 'orig');
 }
 
-async function openLesson(book, lesson) {
+async function openLesson(book, lesson, opts) {
   let l, starsRes, textRes;
   try {
     [l, starsRes, textRes] = await Promise.all([
@@ -742,7 +780,7 @@ async function openLesson(book, lesson) {
 
   const words = (l.words || []).map((w) => {
     const starred = state.vocabStars.has(w.word);
-    return `<tr><td class="w"><span class="wstar${starred ? ' on' : ''}" data-word="${escapeAttr(w.word)}" title="${starred ? '移出生词本' : '加入生词本'}">${starred ? '★' : '☆'}</span><span class="spk" data-speak="${escapeAttr(w.word)}">🔊</span> ${escapeHtml(w.word)}<div class="phon">${escapeHtml(w.phon || '')}</div></td>` +
+    return `<tr><td class="w"><span class="wstar${starred ? ' on' : ''}" data-word="${escapeAttr(w.word)}" title="${starred ? '移出生词本' : '加入生词本'}">${starred ? '★' : '☆'}</span><span class="wdict" data-word="${escapeAttr(w.word)}" title="查词典">📕</span><span class="spk" data-speak="${escapeAttr(w.word)}">🔊</span> ${escapeHtml(w.word)}<div class="phon">${escapeHtml(w.phon || '')}</div></td>` +
       `<td class="pos">${escapeHtml(w.pos || '')}</td><td>${escapeHtml(w.cn || '')}</td>` +
       `<td>${escapeHtml(w.eg || '')}${w.eg ? ` <span class="spk" data-speak="${escapeAttr(w.eg)}">🔊</span>` : ''}</td></tr>`;
   }).join('');
@@ -798,6 +836,9 @@ async function openLesson(book, lesson) {
   $('lessonDetail').querySelectorAll('.spk').forEach((el) => {
     el.onclick = () => speak(el.dataset.speak);
   });
+  $('lessonDetail').querySelectorAll('.wdict').forEach((el) => {
+    el.onclick = () => goToDictionary(el.dataset.word, l.book);
+  });
   const readAll = $('readAllWords');
   if (readAll) readAll.onclick = () => speakSequence((l.words || []).map((w) => w.word));
 
@@ -848,6 +889,42 @@ async function openLesson(book, lesson) {
   if (activeItem) activeItem.scrollIntoView({ block: 'nearest' });
   // 滚动到新打开的课文详情（而不是回到页面顶部）
   $('lessonDetailWrap').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (opts && opts.highlightWord) {
+    setTimeout(() => highlightWordInLesson(opts.highlightWord), 150);
+  }
+}
+
+// 词典等入口深链到指定课，并可选高亮单词行
+function highlightWordInLesson(word) {
+  const key = String(word || '').trim().toLowerCase();
+  if (!key || !$('lessonDetail')) return;
+  $('lessonDetail').querySelectorAll('.words tr').forEach((row) => {
+    const el = row.querySelector('.wstar[data-word]');
+    if (!el) return;
+    if (String(el.dataset.word).trim().toLowerCase() === key) {
+      row.classList.add('word-highlight');
+      row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setTimeout(() => row.classList.remove('word-highlight'), 2800);
+    }
+  });
+}
+
+async function goToLesson(book, lesson, opts) {
+  const b = Number(book);
+  const l = Number(lesson);
+  if (state.learnBook !== b) {
+    state.learnBook = b;
+    renderLearnBookChips();
+    await loadLessons(b);
+  }
+  document.querySelectorAll('.tab').forEach((t) => t.classList.remove('active'));
+  const learnTab = document.querySelector('.tab[data-tab="learn"]');
+  if (learnTab) learnTab.classList.add('active');
+  hideAll();
+  $('lessonsPanel').classList.remove('hidden');
+  window.scrollTo(0, 0);
+  if (location.hash !== '#learn') history.replaceState(null, '', '#learn');
+  await openLesson(b, l, opts);
 }
 
 // 练本课语法：优先出挂在本课的题，不足 10 题再用本课语法标签的同册题补足

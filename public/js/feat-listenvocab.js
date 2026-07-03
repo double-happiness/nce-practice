@@ -92,11 +92,15 @@
   // ---------- 1. 入口页：说明 + 历史成绩 + 开始 ----------
   async function renderIntro(panel) {
     st.phase = 'intro';
+    const ui = NCE.vocabTestUi;
+    const books = ui ? await ui.loadBooks('listen-vocab') : [{ id: '1', total: 360 }];
+    if (!books.some((b) => String(b.id) === String(st.book))) st.book = books[0].id;
     panel.innerHTML =
       '<div class="lsv-wrap">' +
       '<div class="lsv-intro">👂 <b>听力词汇量测试</b> —— 只放发音、不显示单词，从 4 个中文释义中选出词义。' +
       '按课程先后分 3 段难度抽样，测完估算你在本册词表中「听得懂」的词汇量。选项猜中的概率已在估算中剔除。</div>' +
       '<div class="lsv-row">' +
+      `<label>册：<select id="lsvBook">${ui ? ui.bookOptionsHtml(books, st.book) : '<option value="1">第1册</option>'}</select></label>` +
       '<label>题量：<select id="lsvSize">' +
       '<option value="12">12 词（快测）</option>' +
       '<option value="24" selected>24 词（推荐）</option>' +
@@ -107,30 +111,14 @@
       '<div class="lsv-hist" id="lsvHist">加载历史成绩…</div>' +
       '</div>';
     panel.querySelector('#lsvSize').value = String(st.size);
+    panel.querySelector('#lsvBook').onchange = async (e) => {
+      st.book = e.target.value;
+      await ui.renderHistory('listen-vocab', st.book, panel.querySelector('#lsvHist'), '#2b57d6');
+    };
     panel.querySelector('#lsvSize').onchange = (e) => { st.size = Number(e.target.value) || 24; };
     panel.querySelector('#lsvStart').onclick = () => startTest(panel);
 
-    const hist = panel.querySelector('#lsvHist');
-    try {
-      const h = await NCE.api('/api/listen-vocab/history');
-      if (!h.count) {
-        hist.textContent = '还没有测试记录，测一次建立基线吧。';
-        return;
-      }
-      const latest = h.tests[0];
-      hist.innerHTML =
-        `上次估算：<b>${latest.estimate}</b> / ${latest.dictTotal} 词（${fmtDate(latest.ts)}，答对 ${latest.correct}/${latest.asked}）` +
-        (h.tests.length > 1
-          ? '<ul>' + h.tests.slice(1, 5).map((t) => `<li>${fmtDate(t.ts)}：${t.estimate} / ${t.dictTotal} 词</li>`).join('') + '</ul>'
-          : '');
-    } catch (e) {
-      hist.textContent = '';
-    }
-  }
-
-  function fmtDate(ts) {
-    const d = new Date(ts);
-    return `${d.getMonth() + 1}/${d.getDate()}`;
+    await ui.renderHistory('listen-vocab', st.book, panel.querySelector('#lsvHist'), '#2b57d6');
   }
 
   // ---------- 2. 测试 ----------

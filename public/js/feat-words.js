@@ -118,6 +118,11 @@
     }
     panel.innerHTML =
       '<div class="wd-wrap">' +
+      '<div class="wd-toolbar wd-bookbar" style="margin-bottom:12px">' +
+      '<label>册：<select class="wd-book-global">' +
+      '<option value="1">第1册</option><option value="2">第2册</option>' +
+      '</select></label>' +
+      '</div>' +
       '<div class="wd-modes">' +
       '<button class="wd-mode-btn" data-m="dict">📖 词典浏览</button>' +
       '<button class="wd-mode-btn" data-m="flash">🃏 背诵</button>' +
@@ -126,6 +131,12 @@
       '</div>' +
       '<div class="wd-body"></div>' +
       '</div>';
+    const bookSel = panel.querySelector('.wd-book-global');
+    bookSel.value = st.book;
+    bookSel.onchange = () => {
+      st.book = bookSel.value;
+      switchMode(panel, st.mode);
+    };
     panel.querySelectorAll('.wd-mode-btn').forEach((b) => {
       b.onclick = () => switchMode(panel, b.dataset.m);
     });
@@ -158,7 +169,6 @@
     body.innerHTML =
       '<div class="wd-toolbar">' +
       '<input type="text" class="wd-q" placeholder="搜索单词或释义" autocomplete="off">' +
-      '<label>册：<select class="wd-book"><option value="1">第1册</option></select></label>' +
       '<label>筛选：<select class="wd-filter">' +
       '<option value="all">全部</option>' +
       '<option value="new">未学</option>' +
