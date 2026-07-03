@@ -8,6 +8,8 @@
     'nce-last-lesson',
     'nce-viewed-lessons',
     'nce-mastered-lessons',
+    'nce-checkin-lessons',
+    'nce-onboarded',
     'dct-best',
     'dct-last',
     'dct-pos',

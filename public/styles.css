@@ -520,7 +520,10 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
 .home-guide .hg-title { font-size: 16px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
 .home-guide .hg-line { margin: 0 0 6px; font-size: 13px; color: var(--ink-soft); line-height: 1.6; }
 .home-guide .hg-tip { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
+.home-guide .hg-help-link { color: var(--brand); font-weight: 600; text-decoration: none; }
+.home-guide .hg-help-link:hover { text-decoration: underline; }
 .home-guide .hg-body { flex: 1; min-width: 200px; }
+.home-card .hc-links a.hc-help-link { background: rgba(47, 111, 237, .1); font-weight: 600; }
 .tab:hover { color: var(--brand); background: rgba(47, 111, 237, .06); }
 .tab.active {
   background: var(--accent-grad);
@@ -640,6 +643,8 @@ select:focus, .fill-input:focus { outline: none; border-color: var(--brand); box
 /* 已学过的课：课号后打勾 */
 .toc-item.viewed .no::after { content: " ✓"; color: #7a9c5f; font-size: 11px; font-weight: 400; }
 .toc-item.active.viewed .no::after { color: #a8734f; }
+/* 学习打卡：日历标记，覆盖 ✓（优先级仍低于已掌握 ★）*/
+.toc-item.checkin .no::after { content: " 📅"; color: inherit; font-size: 10px; font-weight: 400; }
 /* 手动标记已掌握：金色 ★ 覆盖 ✓ */
 .toc-item.mastered .no::after { content: " ★"; color: #c9973a; font-size: 11px; font-weight: 400; }
 .toc-item.active.mastered .no::after { color: #b07f2a; }
@@ -715,6 +720,7 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
 /* 内容页顶部操作组 + 本课学习情况条 */
 .lesson-actions { display: flex; gap: 6px; flex-wrap: wrap; }
 #masterBtn.mastered-on { color: #b07f2a; font-weight: 800; }
+#checkinBtn.checkin-on { color: #2f855a; font-weight: 800; }
 .lesson-stats {
   font-family: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
   font-size: 13px; color: #8a7a54; margin: 4px 0 2px;

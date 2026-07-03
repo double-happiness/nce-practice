@@ -1,0 +1,20 @@
+{
+  "name": "新概念英语练习",
+  "short_name": "新概念",
+  "description": "新概念英语听说读写练习系统:教材学习、刷题、听写、词汇与学习计划",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "zh-CN",
+  "theme_color": "#2f6fed",
+  "background_color": "#f5f7fa",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

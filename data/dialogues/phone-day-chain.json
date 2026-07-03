@@ -1,0 +1,175 @@
+[
+  {
+    "id": "dlg-chain-phone-01",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Morning Alarm from Boss",
+    "titleCn": "第1环：老板早上来电",
+    "scene": "早上你还没出门，老板来电说客户会提前。（对话链：一天电话）",
+    "roles": ["You", "Boss"],
+    "turns": [
+      { "role": "Boss", "cn": "张伟，客户会改到九点半，能上线吗？", "en": "Zhang Wei, client moved to nine thirty. Can you join?" },
+      { "role": "You", "cn": "可以，我十五分钟到公司。", "en": "Yes. I'll be at the office in fifteen minutes." },
+      { "role": "Boss", "cn": "材料发你邮箱了。", "en": "Materials are in your email." },
+      { "role": "You", "cn": "收到，路上看。", "en": "Got it. I'll review on the way." },
+      { "role": "Boss", "cn": "好，待会见。", "en": "Good. Talk soon." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-02",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Doctor Office Calls You",
+    "titleCn": "第2环：诊所来电改预约",
+    "scene": "十点钟诊所来电，通知预约时间变更。（对话链：一天电话）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "阳光诊所，张先生的预约要改到下午三点。", "en": "Sunshine Clinic. Mr. Zhang, we need to move you to three PM." },
+      { "role": "You", "cn": "三点可以，还是抽血对吧？", "en": "Three works. Still blood work, right?" },
+      { "role": "Receptionist", "cn": "对，空腹来。", "en": "Yes. Come fasting." },
+      { "role": "You", "cn": "好，谢谢通知。", "en": "Okay. Thanks for letting me know." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-03",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: You Call Customer Service",
+    "titleCn": "第3环：你打客服查账单",
+    "scene": "中午你打电话问手机账单多扣费。（对话链：一天电话）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "无线客服，账号后四位？", "en": "Wireless support. Last four of your account?" },
+      { "role": "You", "cn": "五六七八，本月多扣了十五块。", "en": "Five six seven eight. Fifteen dollars extra this month." },
+      { "role": "Agent", "cn": "是流量包，可以取消并退款。", "en": "It's a data add-on. We can cancel and refund." },
+      { "role": "You", "cn": "请取消，以后别自动开通。", "en": "Please cancel. Don't auto-enroll me again." },
+      { "role": "Agent", "cn": "已处理，三到五个账单日到账。", "en": "Done. Refund in three to five billing days." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-04",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: School Calls About Child",
+    "titleCn": "第4环：学校来电",
+    "scene": "下午学校打电话说孩子发烧要接走。（对话链：一天电话）",
+    "roles": ["You", "Nurse"],
+    "turns": [
+      { "role": "Nurse", "cn": "阳光小学，您儿子发烧三十八点二。", "en": "Sunshine Elementary. Your son has a one hundred point four fever." },
+      { "role": "You", "cn": "我马上来，大概四十分钟。", "en": "I'm on my way. About forty minutes." },
+      { "role": "Nurse", "cn": "他在医务室休息，带件外套。", "en": "He's resting in the nurse's office. Bring a jacket." },
+      { "role": "You", "cn": "好，谢谢照顾。", "en": "Okay. Thank you for taking care of him." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-05",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Delivery Driver Calls",
+    "titleCn": "第5环：外卖员来电",
+    "scene": "外卖员打电话说找不到楼。（对话链：一天电话）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "我到了，B栋在哪？", "en": "I'm here. Where's building B?" },
+      { "role": "You", "cn": "进大门左转，灰色那栋，三楼。", "en": "Left after the gate. Gray building. Third floor." },
+      { "role": "Driver", "cn": "门禁码多少？", "en": "What's the gate code?" },
+      { "role": "You", "cn": "星号一二三四，到了敲门。", "en": "Star one two three four. Knock when you're here." },
+      { "role": "Driver", "cn": "看到了，两分钟。", "en": "I see it. Two minutes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-06",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Leave Voicemail",
+    "titleCn": "第6环：给对方留言",
+    "scene": "你打电话给房东没接，留语音留言。（对话链：一天电话）",
+    "roles": ["You", "Voicemail"],
+    "turns": [
+      { "role": "Voicemail", "cn": "请在嘟声后留言。", "en": "Please leave a message after the tone." },
+      { "role": "You", "cn": "陈先生您好，我是三零二张伟，厨房灯不亮了，方便回电吗？五五五一二三四。谢谢。", "en": "Hi Mr. Chen, this is Zhang Wei in three oh two. Kitchen light's out. Please call back. Five five five one two three four. Thanks." },
+      { "role": "Voicemail", "cn": "嘟——", "en": "Beep." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-07",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Evening Call with Parents",
+    "titleCn": "第7环：晚上给父母打电话",
+    "scene": "晚上你给国内父母打电话报平安。（对话链：一天电话）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "吃饭了吗？别太累。", "en": "Did you eat? Don't overwork." },
+      { "role": "You", "cn": "吃了，今天学校打电话孩子感冒了，我接回来了。", "en": "Yes. School called — kid caught a cold. I picked him up." },
+      { "role": "Parent", "cn": "多喝水，注意体温。", "en": "Lots of fluids. Watch his temperature." },
+      { "role": "You", "cn": "知道，你们也保重。", "en": "Will do. You take care too." },
+      { "role": "Parent", "cn": "周末再打。", "en": "Call again on the weekend." },
+      { "role": "You", "cn": "好，晚安。", "en": "Okay. Good night." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phone-08",
+    "category": "phone",
+    "chain": {
+      "id": "phone-one-day",
+      "title": "A Day of Phone Calls",
+      "titleCn": "对话链：一天里的各种电话",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Wrong Number at Night",
+    "titleCn": "第8环：深夜打错电话",
+    "scene": "快睡觉时有人打错电话到你手机。（对话链：一天电话）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "喂，披萨到了吗？", "en": "Hello, is the pizza here?" },
+      { "role": "You", "cn": "你打错了，这是私人号码。", "en": "Wrong number. This is a private phone." },
+      { "role": "Stranger", "cn": "啊对不起！", "en": "Oh, sorry!" },
+      { "role": "You", "cn": "没事，再见。", "en": "No problem. Goodbye." }
+    ]
+  }
+]

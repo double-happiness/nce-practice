@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-errands-01",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Plan the Errands",
+    "titleCn": "第1环：计划今天要办的事",
+    "scene": "周六早上，你和室友商量今天出门要办哪些事。（对话链：周末办事）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "今天出去办事吗？我列了个单子。", "en": "Running errands today? I made a list." },
+      { "role": "You", "cn": "行，我要取药、寄包裹、买菜。", "en": "Sure. I need prescriptions, ship a package, and groceries." },
+      { "role": "Roommate", "cn": "开车还是公交？", "en": "Drive or take the bus?" },
+      { "role": "You", "cn": "开车吧，东西多。", "en": "Drive. We'll have a lot to carry." },
+      { "role": "Roommate", "cn": "好，十点出发？", "en": "Leave at ten?" },
+      { "role": "You", "cn": "可以，我先冲个澡。", "en": "Works for me. I'll shower first." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-02",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Parking at the Mall",
+    "titleCn": "第2环：商场停车",
+    "scene": "你们到商场停车场，问工作人员停车规则。（对话链：周末办事）",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "周末前两小时免费，需要小票吗？", "en": "First two hours free on weekends. Need a validation?" },
+      { "role": "You", "cn": "要，我们会在超市里买东西。", "en": "Yes. We'll shop in the grocery store." },
+      { "role": "Attendant", "cn": "结账时盖章，出口给我。", "en": "Get a stamp at checkout and show it at the exit." },
+      { "role": "You", "cn": "好，B区还有车位吗？", "en": "Okay. Any spots left in section B?" },
+      { "role": "Attendant", "cn": "有，电梯口附近。", "en": "Yes. Near the elevator." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-03",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Grocery Shopping",
+    "titleCn": "第3环：超市买菜",
+    "scene": "在超市里找东西，问店员货架在哪。（对话链：周末办事）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，意大利面酱在哪？", "en": "Excuse me, where's the pasta sauce?" },
+      { "role": "Clerk", "cn": "五号过道，中间货架。", "en": "Aisle five, middle shelf." },
+      { "role": "You", "cn": "有低钠的吗？", "en": "Do you have low-sodium?" },
+      { "role": "Clerk", "cn": "有，同一排左边。", "en": "Yes. Same aisle, left side." },
+      { "role": "You", "cn": "谢谢，自助结账在哪？", "en": "Thanks. Where's self-checkout?" },
+      { "role": "Clerk", "cn": "出口左边。", "en": "Front left by the exit." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-04",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Pharmacy Pickup",
+    "titleCn": "第4环：药店取药",
+    "scene": "你到药店柜台取处方药。（对话链：周末办事）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "取药吗？姓什么？", "en": "Pickup? Last name?" },
+      { "role": "You", "cn": "张，Z-H-A-N-G，生日三月十五。", "en": "Zhang, Z-H-A-N-G. Birthday March fifteenth." },
+      { "role": "Pharmacist", "cn": "一种处方药，一天两次饭后。", "en": "One prescription. Twice daily after meals." },
+      { "role": "You", "cn": "有副作用吗？能开车吗？", "en": "Side effects? Can I drive?" },
+      { "role": "Pharmacist", "cn": "可能犯困，第一次别开车。", "en": "May cause drowsiness. Don't drive the first time." },
+      { "role": "You", "cn": "明白，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-05",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: ATM Banking",
+    "titleCn": "第5环：银行取钱",
+    "scene": "银行 ATM 前，提示太快你没听清。（对话链：周末办事）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "机器在问要不要打印收据，你按Yes就行。", "en": "It's asking for a receipt. Just hit Yes." },
+      { "role": "You", "cn": "谢谢，提示太快了没听清。", "en": "Thanks. The prompts were too fast." },
+      { "role": "Stranger", "cn": "可以点喇叭图标重复。", "en": "You can tap the speaker icon to repeat." },
+      { "role": "You", "cn": "原来如此，搞定了。", "en": "I see. All set now." },
+      { "role": "Stranger", "cn": "不客气。", "en": "No problem." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-06",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Ship a Package",
+    "titleCn": "第6环：邮局寄包裹",
+    "scene": "你在邮局寄包裹回国。（对话链：周末办事）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "寄到哪里？", "en": "Where's it going?" },
+      { "role": "You", "cn": "中国，要多久？能追踪吗？", "en": "China. How long? Trackable?" },
+      { "role": "Clerk", "cn": "标准两周，加急一周，都能追踪。", "en": "Standard two weeks, express one week. Both trackable." },
+      { "role": "You", "cn": "标准就行，里面是衣服。", "en": "Standard is fine. Clothes inside." },
+      { "role": "Clerk", "cn": "填海关单，重量一公斤，二十八块。", "en": "Fill out customs form. One kilo, twenty-eight dollars." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-07",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Food Court Lunch",
+    "titleCn": "第7环：美食广场吃午饭",
+    "scene": "办完事在商场美食广场吃午饭。（对话链：周末办事）",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "下一位！", "en": "Next!" },
+      { "role": "You", "cn": "牛肉饭套餐，外带，不要洋葱。", "en": "Beef bowl combo to go. No onions." },
+      { "role": "Cashier", "cn": "饮料要吗？", "en": "Want a drink?" },
+      { "role": "You", "cn": "绿茶，少冰。", "en": "Green tea, light ice." },
+      { "role": "Cashier", "cn": "十二块，请稍等叫号。", "en": "Twelve dollars. We'll call your number." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-errands-08",
+    "category": "daily",
+    "chain": {
+      "id": "weekend-errands",
+      "title": "Weekend Errands Run",
+      "titleCn": "对话链：周末出门办事",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Home and Unpack",
+    "titleCn": "第8环：回家收拾",
+    "scene": "你们买完东西回家，和室友一起收拾。（对话链：周末办事）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "都办完了？累不累？", "en": "All done? Tired?" },
+      { "role": "You", "cn": "还行，药和包裹都搞定了。", "en": "Not too bad. Got the meds and shipped the box." },
+      { "role": "Roommate", "cn": "菜放冰箱，我帮你。", "en": "I'll put groceries in the fridge." },
+      { "role": "You", "cn": "谢了，我歇会儿。", "en": "Thanks. I'll rest a bit." },
+      { "role": "Roommate", "cn": "下午看电影？", "en": "Movie this afternoon?" },
+      { "role": "You", "cn": "好啊，完美。", "en": "Sure. Sounds perfect." }
+    ]
+  }
+]

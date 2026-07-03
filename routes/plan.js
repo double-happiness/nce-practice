@@ -18,6 +18,8 @@ const SOURCE_LABEL = {
   vocab: '词汇量测试',
   dictation: '听写',
   dialogue: '情景对话',
+  lesson: '课文学习打卡',
+  comprehension: '理解训练',
 };
 
 // 听·说·读·写·记 五技能每日闭环。每个技能绑定已被记录的活动来源，做了即自动完成；tab 用于前端「去做 →」深链。

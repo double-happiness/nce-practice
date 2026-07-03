@@ -1,0 +1,463 @@
+[
+  {
+    "book": 3,
+    "lesson": 1,
+    "title": "A puma at large",
+    "titleCn": "逃遁的美洲狮",
+    "scene": "英国伦敦以南的乡间接连有人报告看到一只美洲狮出没。专家起初并不相信，因为美洲狮原产美洲，不可能在英国野外生存。可随着目击报告不断积累，细节又惊人一致：有人看到大型猫科动物，有人发现巨大的爪印，还有小动物被咬死、树上留下很深的抓痕。专家们只好认真对待，展开搜捕。他们推测这只美洲狮一定是从某位私人收藏者那里逃出来的，但搜寻数周后始终没有抓到它。本课的语法重心是叙事中的过去完成时，以及用 must have done 对过去情况作肯定推测。",
+    "grammarTags": ["过去完成时", "must have done 推测"],
+    "words": [
+      { "word": "puma", "phon": "/ˈpjuːmə/", "pos": "n.", "cn": "美洲狮", "eg": "Experts believe a puma can travel long distances at night. 专家认为美洲狮能在夜间长途移动。" },
+      { "word": "spot", "phon": "/spɒt/", "pos": "v.", "cn": "看出；发现", "eg": "A farmer spotted a large cat near the woods. 一位农民在树林附近发现了一只大型猫科动物。" },
+      { "word": "evidence", "phon": "/ˈevɪdəns/", "pos": "n.", "cn": "证据", "eg": "The paw prints were strong evidence of a wild animal. 这些爪印是野兽出没的有力证据。" },
+      { "word": "accumulate", "phon": "/əˈkjuːmjəleɪt/", "pos": "v.", "cn": "积累；积聚", "eg": "Reports of the strange animal accumulated within a week. 一周之内，关于这只怪兽的报告越积越多。" },
+      { "word": "oblige", "phon": "/əˈblaɪdʒ/", "pos": "v.", "cn": "使感到必须；迫使", "eg": "The new facts obliged the police to take the matter seriously. 新的事实迫使警方认真对待此事。" },
+      { "word": "hunt", "phon": "/hʌnt/", "pos": "n./v.", "cn": "追捕；搜寻", "eg": "The hunt for the animal lasted several days. 对这只动物的搜捕持续了好几天。" },
+      { "word": "trail", "phon": "/treɪl/", "pos": "n.", "cn": "一串足迹；踪迹", "eg": "The dogs followed the trail into the hills. 猎犬顺着足迹一路追进山里。" },
+      { "word": "print", "phon": "/prɪnt/", "pos": "n.", "cn": "印痕；足迹", "eg": "Fresh prints were found by the stream. 溪边发现了新鲜的印痕。" },
+      { "word": "disturbing", "phon": "/dɪˈstɜːbɪŋ/", "pos": "adj.", "cn": "令人不安的", "eg": "The most disturbing thing was the deep scratch on the tree. 最令人不安的是树上那道很深的抓痕。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "叙事中要交代“在过去某个动作之前已经发生的事”时用过去完成时（had done）。本课情节里，专家赶到之前目击报告早已积累，就是典型的“过去的过去”。易错点：没有过去参照点时不要滥用 had done。",
+        "examples": [
+          "When experts arrived, the animal had already left the village. （专家赶到时，那只动物已经离开了村子。）",
+          "The police found that similar reports had accumulated for weeks. （警方发现类似报告已经积累了数周。）"
+        ]
+      },
+      {
+        "point": "must have done 推测",
+        "explain": "must have + 过去分词表示对过去发生的事作有把握的肯定推测，“想必已经/一定是……了”。否定推测用 can't have done，而不是 mustn't have done。易错点：must have done 只表推测，不表“过去必须”。",
+        "examples": [
+          "The puma must have escaped from a private collection. （这只美洲狮一定是从私人收藏者那里逃出来的。）",
+          "It can't have been an ordinary cat; the prints were too large. （它不可能是普通的猫，爪印太大了。）"
+        ]
+      }
+    ],
+    "tips": "①叙事先分先后：比主线更早的动作用 had done；②对过去情况作“一定是……”的推测用 must have done；③否定推测用 can't have done，切记不用 mustn't have done。"
+  },
+  {
+    "book": 3,
+    "lesson": 2,
+    "title": "Thirteen equals one",
+    "titleCn": "十三等于一",
+    "scene": "村里教堂的大钟坏了很多年，牧师一直在为修钟筹款却总凑不够钱。一天午夜，钟声突然敲响了十三下，把牧师惊醒。他拿着手电筒爬上漆黑的钟楼，发现老比尔正在敲钟——原来比尔几个星期以来每晚都偷偷上来修钟，想给牧师一个惊喜。钟总算能走了，只是一点钟会敲十三下，而比尔对此毫无办法。牧师宽厚地笑道：十三下不如一下好，但总比没有强。本课重点比较现在完成进行时（强调一直在做）与现在完成时（强调已经做成）。",
+    "grammarTags": ["现在完成进行时", "现在完成时"],
+    "words": [
+      { "word": "equal", "phon": "/ˈiːkwəl/", "pos": "v.", "cn": "等于", "eg": "In this funny story, thirteen equals one. 在这个有趣的故事里，十三等于一。" },
+      { "word": "vicar", "phon": "/ˈvɪkə/", "pos": "n.", "cn": "牧师", "eg": "The vicar smiled kindly at the old man. 牧师和蔼地朝老人笑了笑。" },
+      { "word": "raise", "phon": "/reɪz/", "pos": "v.", "cn": "筹集（资金）", "eg": "They have been raising money for the school hall. 他们一直在为学校礼堂筹款。" },
+      { "word": "torchlight", "phon": "/ˈtɔːtʃlaɪt/", "pos": "n.", "cn": "手电筒光", "eg": "By torchlight he saw a figure in the tower. 借着手电筒光，他看见塔里有个人影。" },
+      { "word": "strike", "phon": "/straɪk/", "pos": "v.", "cn": "（钟）敲响", "eg": "The old clock strikes every hour. 这座旧钟每小时报时一次。" },
+      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "It costs a lot to repair such an old clock. 修这么旧的钟要花很多钱。" },
+      { "word": "manage", "phon": "/ˈmænɪdʒ/", "pos": "v.", "cn": "设法做成", "eg": "He finally managed to make the bell work. 他终于设法让钟响了起来。" },
+      { "word": "surprise", "phon": "/səˈpraɪz/", "pos": "n./v.", "cn": "惊奇；使吃惊", "eg": "He wanted to give the vicar a big surprise. 他想给牧师一个大大的惊喜。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成进行时",
+        "explain": "have/has been doing 强调动作从过去持续到现在，往往还会继续，常与 for/since、night after night 等连用。本课“每晚都来修钟”正是持续过程。易错点：结构中不能漏掉 been。",
+        "examples": [
+          "He has been climbing the tower every night for weeks. （几个星期以来他每晚都爬上钟楼。）",
+          "We have been raising money for the clock since last spring. （自去年春天起我们一直在为这座钟筹款。）"
+        ]
+      },
+      {
+        "point": "现在完成时",
+        "explain": "have/has done 强调到现在为止已经完成、并对现在有影响的结果，如“钟已经修好了”“把大家都吵醒了”。易错点：想突出“做成了、有结果”时不要误用完成进行时。",
+        "examples": [
+          "The old bell has started working again. （旧钟又开始报时了。）",
+          "You have woken up everyone in the village. （你把全村人都吵醒了。）"
+        ]
+      }
+    ],
+    "tips": "①强调“一直在做、还没完”用 have been doing；②强调“已经做成、留下结果”用 have done；③看到 for weeks / since / night after night 等持续线索，优先考虑完成进行时。"
+  },
+  {
+    "book": 3,
+    "lesson": 3,
+    "title": "An unknown goddess",
+    "titleCn": "无名女神",
+    "scene": "考古学家在爱琴海一处海岬上发掘出一座古城遗址，证明几千年前这里曾是一个繁荣的文明中心。他们清理出房屋、街道，甚至还有相当先进的排水系统。在一间显然用于祭祀的圣室里，出土了一尊石雕像的许多碎片。碎片被小心拼合复原后，呈现出一位体态优雅的女神全身像。她显然曾受到当地人的崇拜，但由于没有留下任何文字记录，她的身份至今仍是一个谜。本课语法围绕考古报道中大量使用的被动语态，以及交代“更早历史”的过去完成时。",
+    "grammarTags": ["被动语态", "过去完成时"],
+    "words": [
+      { "word": "goddess", "phon": "/ˈɡɒdes/", "pos": "n.", "cn": "女神", "eg": "The stone figure shows a graceful goddess. 这尊石像展现了一位优雅的女神。" },
+      { "word": "archaeologist", "phon": "/ˌɑːkiˈɒlədʒɪst/", "pos": "n.", "cn": "考古学家", "eg": "Archaeologists worked on the site for two summers. 考古学家们在这处遗址工作了两个夏天。" },
+      { "word": "explore", "phon": "/ɪkˈsplɔː/", "pos": "v.", "cn": "勘察；探索", "eg": "The team explored the whole hill carefully. 考古队仔细勘察了整座小山。" },
+      { "word": "prosperous", "phon": "/ˈprɒspərəs/", "pos": "adj.", "cn": "繁荣的", "eg": "The city had once been a prosperous port. 这座城市曾是一个繁荣的港口。" },
+      { "word": "civilization", "phon": "/ˌsɪvəlaɪˈzeɪʃn/", "pos": "n.", "cn": "文明", "eg": "The ruins belong to a very early civilization. 这些遗迹属于一个非常早期的文明。" },
+      { "word": "sacred", "phon": "/ˈseɪkrɪd/", "pos": "adj.", "cn": "神圣的；祭祀的", "eg": "The small room was clearly a sacred place. 这个小房间显然是一处圣地。" },
+      { "word": "fragment", "phon": "/ˈfræɡmənt/", "pos": "n.", "cn": "碎片", "eg": "Dozens of fragments lay under the dust. 几十块碎片埋在尘土之下。" },
+      { "word": "reconstruct", "phon": "/ˌriːkənˈstrʌkt/", "pos": "v.", "cn": "复原；重建", "eg": "The statue was reconstructed piece by piece. 这尊雕像被一片一片地复原。" },
+      { "word": "identity", "phon": "/aɪˈdentəti/", "pos": "n.", "cn": "身份", "eg": "The identity of the goddess remains a mystery. 这位女神的身份仍是一个谜。" }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "考古报道关注“什么被发现、被复原”，动作执行者常不重要或未知，因此大量用被动语态，如 was discovered、have been reconstructed。易错点：时态与被动要同时正确，现在完成时被动是 have/has been done。",
+        "examples": [
+          "An ancient temple was discovered on the hill last year. （去年在山上发现了一座古庙。）",
+          "The fragments have been reconstructed into a full-length figure. （这些碎片已被复原成一尊全身像。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "介绍遗址“在被发现之前”的历史时，用过去完成时表达更早的过去，如 had been、had stood。易错点：主线动作（发掘、发现）用一般过去时，別把两层时间混在一起。",
+        "examples": [
+          "The city had been a prosperous centre long before it fell. （这座城市在陷落之前很久曾是繁荣的中心。）",
+          "Sacred objects had been kept in the temple for centuries. （祭祀用品曾在这座庙里保存了几个世纪。）"
+        ]
+      }
+    ],
+    "tips": "①主语是“遗址、雕像、碎片”等受动者时先想被动；②“发现”用一般过去时，“发现之前的历史”用过去完成时；③现在完成时被动 have/has been done 中 been 不能丢。"
+  },
+  {
+    "book": 3,
+    "lesson": 4,
+    "title": "The double life of Alfred Bloggs",
+    "titleCn": "阿尔弗雷德·布洛格斯的双重生活",
+    "scene": "如今许多干体力活的“蓝领”收入常常超过坐办公室的“白领”，可人们还是普遍羡慕白领：西装革履、体面光鲜。清洁工阿尔弗雷德就过着这样的双重生活：每天早上穿着笔挺西装出门，让邻居以为他在办公室上班；到了单位再换上工作服去扫大街，下班冲个澡换回西装回家。十多年来他一直向邻居隐瞒真相，只因为在意所谓的身份地位。知情的妻子觉得他为面子牺牲得太多——诚实的体力劳动没什么可羞愧的。本课语法重点是定语从句和现在完成时。",
+    "grammarTags": ["定语从句", "现在完成时"],
+    "words": [
+      { "word": "manual", "phon": "/ˈmænjuəl/", "pos": "adj.", "cn": "体力的", "eg": "People who do manual work often earn good wages now. 如今干体力活的人往往收入不错。" },
+      { "word": "collar", "phon": "/ˈkɒlə/", "pos": "n.", "cn": "衣领", "eg": "White-collar workers wear clean shirts every day. 白领职员每天都穿干净的衬衫。" },
+      { "word": "sacrifice", "phon": "/ˈsækrɪfaɪs/", "pos": "v./n.", "cn": "牺牲", "eg": "He has sacrificed a lot for his so-called status. 为了所谓的地位，他牺牲了很多。" },
+      { "word": "privilege", "phon": "/ˈprɪvəlɪdʒ/", "pos": "n.", "cn": "特权；殊荣", "eg": "A clean job used to be a privilege of the few. 干净体面的工作曾是少数人的特权。" },
+      { "word": "dustman", "phon": "/ˈdʌstmən/", "pos": "n.", "cn": "清洁工", "eg": "The dustman empties our bins twice a week. 清洁工每周来倒两次垃圾。" },
+      { "word": "corporation", "phon": "/ˌkɔːpəˈreɪʃn/", "pos": "n.", "cn": "市政机构；公司", "eg": "He has worked for the Corporation for ten years. 他已经为市政部门工作了十年。" },
+      { "word": "overalls", "phon": "/ˈəʊvərɔːlz/", "pos": "n.", "cn": "工作服", "eg": "He changes into overalls before he starts work. 开工前他换上工作服。" },
+      { "word": "status", "phon": "/ˈsteɪtəs/", "pos": "n.", "cn": "地位；身份", "eg": "Some people care too much about social status. 有些人太在意社会地位。" },
+      { "word": "secret", "phon": "/ˈsiːkrət/", "pos": "n./adj.", "cn": "秘密；秘密的", "eg": "He has kept his job a secret from the neighbours. 他一直对邻居隐瞒自己的工作。" }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "who/that/which 引导的从句用来修饰名词，说明“哪一种人、哪一件事”，如 people who do manual work。非限制性定语从句（逗号隔开）只能用 who/which，不能用 that。易错点：先行词是人且作主语时用 who。",
+        "examples": [
+          "People who do manual work often earn more than clerks. （干体力活的人常常比职员挣得多。）",
+          "His wife, who has known the secret for years, never told anyone. （他妻子知道这个秘密多年，却从未告诉任何人。）"
+        ]
+      },
+      {
+        "point": "现在完成时",
+        "explain": "描述“从过去持续到现在的状态或多年来的结果”用现在完成时，如 has worked for ten years、has kept the secret。易错点：与 for/since 连用表持续时，动词需是可延续的。",
+        "examples": [
+          "He has worked as a dustman for over ten years. （他当清洁工已经十多年了。）",
+          "He has never told the neighbours the truth. （他从未把真相告诉邻居。）"
+        ]
+      }
+    ],
+    "tips": "①先行词是人作主语用 who，是物用 which/that；②逗号后的非限制性定语从句不能用 that；③“至今已……多年”用 have/has done + for/since。"
+  },
+  {
+    "book": 3,
+    "lesson": 5,
+    "title": "The facts",
+    "titleCn": "确切数字",
+    "scene": "杂志主编们最讲究向读者提供准确事实。一位主编派记者远赴某国，去报道总统新建的宫殿。记者洋洋洒洒写了数百页寄回来，文章精彩细节丰富，却偏偏漏掉了宫殿造价这个关键数字。主编立刻发传真，要求对方火速发回确切数字。等了几天没有回音，杂志付印在即，主编只好再三催促。最后记者的答复让人哭笑不得：确切数字无从得到，他因为打听造价已经被那个国家请了出去。本课语法重点是不定式（作目的状语和宾语）以及过去完成时。",
+    "grammarTags": ["非谓语动词(不定式)", "过去完成时"],
+    "words": [
+      { "word": "editor", "phon": "/ˈedɪtə/", "pos": "n.", "cn": "主编；编辑", "eg": "The editor checks every fact before printing. 付印之前主编要核对每一个事实。" },
+      { "word": "extreme", "phon": "/ɪkˈstriːm/", "pos": "n./adj.", "cn": "极端；极度的", "eg": "He goes to extremes to get accurate figures. 为了拿到准确数字，他不惜走极端。" },
+      { "word": "statistics", "phon": "/stəˈtɪstɪks/", "pos": "n.", "cn": "统计数字", "eg": "Readers trust articles with clear statistics. 读者信任有清晰统计数字的文章。" },
+      { "word": "journalist", "phon": "/ˈdʒɜːnəlɪst/", "pos": "n.", "cn": "记者", "eg": "The journalist was sent abroad to gather facts. 这名记者被派往国外收集事实。" },
+      { "word": "president", "phon": "/ˈprezɪdənt/", "pos": "n.", "cn": "总统", "eg": "The president refused to answer that question. 总统拒绝回答那个问题。" },
+      { "word": "palace", "phon": "/ˈpæləs/", "pos": "n.", "cn": "宫殿", "eg": "The new palace stands on a hill outside the city. 新宫殿坐落在城外的小山上。" },
+      { "word": "publish", "phon": "/ˈpʌblɪʃ/", "pos": "v.", "cn": "出版；刊登", "eg": "The magazine decided not to publish the article. 杂志决定不刊登这篇文章。" },
+      { "word": "fax", "phon": "/fæks/", "pos": "n./v.", "cn": "传真", "eg": "He sent a fax to ask for the exact figures. 他发传真索要确切数字。" },
+      { "word": "impatient", "phon": "/ɪmˈpeɪʃnt/", "pos": "adj.", "cn": "不耐烦的", "eg": "The impatient editor waited for days without an answer. 不耐烦的主编等了好几天也没有回音。" }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词(不定式)",
+        "explain": "to do 常作目的状语（“为了……”）或某些动词的宾语，如 send sb. to do、refuse to do、decide to do。易错点：表目的时不定式放句首或句尾都可，但不要误用 doing 形式。",
+        "examples": [
+          "The editor sent a journalist abroad to gather the facts. （主编派一名记者出国收集事实。）",
+          "The president refused to answer questions about the cost. （总统拒绝回答有关造价的问题。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "在“主编发现/传真到达”这些过去动作之前已发生的事，用过去完成时，如 had written、had gone to press。易错点：过去完成时必须依托一个过去参照点，不能单独使用。",
+        "examples": [
+          "The editor found that the journalist had written hundreds of pages. （主编发现记者已经写了数百页。）",
+          "By the time the answer came, the magazine had gone to press. （回音到达时，杂志已经付印了。）"
+        ]
+      }
+    ],
+    "tips": "①“为了做某事”用 to do 作目的状语；②refuse/decide/manage 等动词后面固定接 to do；③by the time + 过去时间点，主句配 had done。"
+  },
+  {
+    "book": 3,
+    "lesson": 6,
+    "title": "Smash-and-grab",
+    "titleCn": "砸橱窗抢劫",
+    "scene": "皮卡迪利拱廊街上一家珠宝店清晨刚开门，店员们正忙着把钻石项链摆上天鹅绒托盘。就在这时，一辆大轿车停在店外，车灯亮着、喇叭长鸣。两名劫匪跳下车，用铁锤砸碎橱窗，抓起珠宝就跑。店主冲出来投掷物件反击，劫匪慌乱中掉落了一些戒指，路人纷纷争抢拾捡。整个抢劫过程不到一分钟，轿车呼啸着冲出拱廊街扬长而去，等警察赶到时早已不见踪影。本课语法重点是过去进行时铺垫背景、with 复合结构描写伴随状态，以及一般过去时叙述主线动作。",
+    "grammarTags": ["过去进行时", "with 复合结构", "一般过去时"],
+    "words": [
+      { "word": "smash", "phon": "/smæʃ/", "pos": "v.", "cn": "打碎；砸烂", "eg": "The men smashed the window with hammers. 那两个人用铁锤砸碎了橱窗。" },
+      { "word": "grab", "phon": "/ɡræb/", "pos": "v.", "cn": "抢夺", "eg": "They grabbed everything within reach. 他们把够得着的东西全抢走了。" },
+      { "word": "arcade", "phon": "/ɑːˈkeɪd/", "pos": "n.", "cn": "拱廊商业街", "eg": "The shop stands in a quiet arcade. 这家店位于一条安静的拱廊街里。" },
+      { "word": "jewellery", "phon": "/ˈdʒuːəlri/", "pos": "n.", "cn": "珠宝（总称）", "eg": "The jewellery in the window was worth thousands. 橱窗里的珠宝价值数千英镑。" },
+      { "word": "necklace", "phon": "/ˈnekləs/", "pos": "n.", "cn": "项链", "eg": "A diamond necklace lay on the tray. 一条钻石项链摆在托盘上。" },
+      { "word": "velvet", "phon": "/ˈvelvɪt/", "pos": "n.", "cn": "天鹅绒", "eg": "The rings were displayed on dark velvet. 戒指陈列在深色天鹅绒上。" },
+      { "word": "headlight", "phon": "/ˈhedlaɪt/", "pos": "n.", "cn": "（汽车）前灯", "eg": "The car waited outside with its headlights on. 那辆车亮着前灯在外面等着。" },
+      { "word": "raid", "phon": "/reɪd/", "pos": "n./v.", "cn": "抢劫；突袭", "eg": "The raid lasted less than a minute. 这场抢劫前后不到一分钟。" },
+      { "word": "scramble", "phon": "/ˈskræmbl/", "pos": "v.", "cn": "争抢", "eg": "People scrambled to pick up the fallen rings. 人们争着去捡掉落的戒指。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "was/were doing 描写案发时正在进行的背景动作，如“店员正在摆放珠宝”。常与 when/while 连用：while + 过去进行时，when + 一般过去时。易错点：突发的短促动作不用进行时。",
+        "examples": [
+          "The assistants were arranging necklaces when the car stopped outside. （汽车在外面停下时，店员们正在摆放项链。）",
+          "While people were watching, the thieves drove away. （人们眼睁睁看着，劫匪开车跑了。）"
+        ]
+      },
+      {
+        "point": "with 复合结构",
+        "explain": "with + 名词 + 分词/形容词/介词短语，表示伴随状态，是 NCE3 常见的描写手法，如 with its headlights on and its horn blaring。易错点：名词与后面成分是主动关系用 -ing，被动关系用 -ed。",
+        "examples": [
+          "The car stood there with its headlights on and its horn blaring. （那辆车停在那里，前灯亮着，喇叭长鸣。）",
+          "With the alarm ringing loudly, the raiders raced down the arcade. （警铃大作，劫匪沿拱廊街飞驰而去。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "抢劫的主线动作——砸窗、抢夺、逃跑——是接连发生并完成的动作，用一般过去时，如 smashed、grabbed、drove off。易错点：连续动作保持时态一致，不要中途切换。",
+        "examples": [
+          "The men smashed the window and grabbed the jewellery. （那两人砸碎橱窗，抢走了珠宝。）",
+          "The car disappeared before the police arrived. （警察赶到之前，汽车已经不见了。）"
+        ]
+      }
+    ],
+    "tips": "①先用过去进行时铺背景，再用一般过去时写连续的主线动作；②描写“灯亮着、喇叭响着”的伴随场面用 with + 名词 + 分词/介词短语；③with 结构中名词与动作是主动关系用 -ing，被动关系用 -ed。"
+  },
+  {
+    "book": 3,
+    "lesson": 7,
+    "title": "Mutilated ladies",
+    "titleCn": "残钞鉴别组",
+    "scene": "你有没有把纸币忘在裤兜里、连衣服一起扔进洗衣机的经历？钞票被洗烂、被狗嚼碎、被塞进机器搅坏，这类倒霉事其实相当常见。英格兰银行专门设有一个绰号“残钞鉴别组”的团队，负责处理这类索赔。一对新婚夫妇的积蓄曾被家里的小狗咬得粉碎，他们把残片小心收集起来寄给银行，专家们检验后证明这些钞票确实存在过，最终全额兑换了新钞。只要残留部分足以证明钞票真实存在，银行就会赔付。本课语法重点是谈经历的现在完成时和说明处理流程的被动语态。",
+    "grammarTags": ["现在完成时", "被动语态"],
+    "words": [
+      { "word": "mutilate", "phon": "/ˈmjuːtɪleɪt/", "pos": "v.", "cn": "使残缺不全", "eg": "The notes were badly mutilated in the machine. 这些钞票在机器里被搅得残缺不全。" },
+      { "word": "chew", "phon": "/tʃuː/", "pos": "v.", "cn": "咀嚼；咬", "eg": "Dogs seem to love chewing up banknotes. 狗似乎特别爱咬碎钞票。" },
+      { "word": "banknote", "phon": "/ˈbæŋknəʊt/", "pos": "n.", "cn": "纸币；钞票", "eg": "He left a banknote in his back pocket. 他把一张钞票忘在了后兜里。" },
+      { "word": "claim", "phon": "/kleɪm/", "pos": "n./v.", "cn": "索赔；索取", "eg": "The bank deals with hundreds of claims each year. 银行每年处理数百起索赔。" },
+      { "word": "fiancé", "phon": "/fiˈɒnseɪ/", "pos": "n.", "cn": "未婚夫", "eg": "Her fiancé kept their savings in a drawer. 她的未婚夫把两人的积蓄放在抽屉里。" },
+      { "word": "identify", "phon": "/aɪˈdentɪfaɪ/", "pos": "v.", "cn": "鉴别；辨认", "eg": "Experts can identify a note from tiny pieces. 专家能从小碎片鉴别出一张钞票。" },
+      { "word": "prove", "phon": "/pruːv/", "pos": "v.", "cn": "证明", "eg": "You must prove that the note really existed. 你必须证明这张钞票确实存在过。" },
+      { "word": "replace", "phon": "/rɪˈpleɪs/", "pos": "v.", "cn": "更换；兑换", "eg": "The damaged money has been replaced with new notes. 损坏的钱已被兑换成新钞。" }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "谈论“到现在为止是否有过某种经历”用现在完成时，常与 ever/never/already 连用，如 Have you ever...? 易错点：一旦追问经历发生的具体时间（when、last year），要改用一般过去时。",
+        "examples": [
+          "Have you ever washed a banknote by mistake? （你有没有失手洗过一张钞票？）",
+          "She has already filled in the claim form. （她已经填好了索赔单。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "说明银行的处理流程时，重点是“钞票被检验、被兑换”，因此多用被动，如 are examined、has been replaced。易错点：一般现在时被动是 am/is/are done，现在完成时被动是 have/has been done。",
+        "examples": [
+          "Damaged notes are examined by a special team. （残损钞票由一个专门小组检验。）",
+          "All the money has been replaced by the bank. （所有的钱都已由银行兑换。）"
+        ]
+      }
+    ],
+    "tips": "①问经历用 Have you ever done...?，答经历也用现在完成时；②一说到具体过去时间就换回一般过去时；③流程说明中“钞票”当主语时用被动，注意 is done 与 has been done 的区别。"
+  },
+  {
+    "book": 3,
+    "lesson": 8,
+    "title": "A famous monastery",
+    "titleCn": "著名的修道院",
+    "scene": "连接瑞士和意大利的圣伯纳德山口海拔很高，是欧洲著名的险要通道。山口旁的修道院建于十一世纪，千百年来一直为过往旅人提供食宿。修道院饲养的圣伯纳德犬经过修士训练，曾在暴风雪中救过许多人的性命。如今山间公路早已修通，隧道让穿越变得安全，夏天游客的汽车络绎不绝，修士们的清静反而常被打扰。因此他们更喜欢大雪封山的冬天——人群散去，群山重归宁静。本课语法重点是介绍历史与现状的被动语态，以及分词作定语和状语的非谓语用法。",
+    "grammarTags": ["被动语态", "非谓语动词(分词)"],
+    "words": [
+      { "word": "monastery", "phon": "/ˈmɒnəstri/", "pos": "n.", "cn": "修道院", "eg": "The monastery stands high above the valley. 修道院高高地矗立在山谷之上。" },
+      { "word": "monk", "phon": "/mʌŋk/", "pos": "n.", "cn": "修士；僧侣", "eg": "The monks welcome travellers all year round. 修士们一年四季接待旅人。" },
+      { "word": "pass", "phon": "/pɑːs/", "pos": "n.", "cn": "山口；隘口", "eg": "The pass connects the two countries. 这个山口连接着两个国家。" },
+      { "word": "rescue", "phon": "/ˈreskjuː/", "pos": "v./n.", "cn": "营救", "eg": "The dogs once rescued travellers lost in the snow. 这些狗曾营救过在雪中迷路的旅人。" },
+      { "word": "privacy", "phon": "/ˈprɪvəsi/", "pos": "n.", "cn": "清静；隐居", "eg": "Summer visitors often disturb the monks' privacy. 夏天的游客常常打扰修士们的清静。" },
+      { "word": "shelter", "phon": "/ˈʃeltə/", "pos": "n./v.", "cn": "住处；庇护", "eg": "The building offers shelter from the storm. 这座建筑为人们提供躲避风暴的住处。" },
+      { "word": "found", "phon": "/faʊnd/", "pos": "v.", "cn": "创建；建立", "eg": "The monastery was founded about a thousand years ago. 这座修道院创建于约一千年前。" },
+      { "word": "crossing", "phon": "/ˈkrɒsɪŋ/", "pos": "n.", "cn": "穿越；越过", "eg": "The crossing is no longer dangerous today. 如今穿越山口已不再危险。" }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "介绍建筑的历史与现状时，常用被动语态：历史事件用一般过去时被动（was founded），延续至今的情况用现在完成时被动（has been used）。易错点：found（创建）的过去分词是 founded，别与 find-found 混淆。",
+        "examples": [
+          "The monastery was founded in the eleventh century. （这座修道院创建于十一世纪。）",
+          "A road has been built through the mountains. （一条公路已经修过了群山。）"
+        ]
+      },
+      {
+        "point": "非谓语动词(分词)",
+        "explain": "现在分词表主动或进行（the monks living there 住在那里的修士），过去分词表被动或完成（trained by the monks 由修士训练过的）。分词短语可作定语或状语，使句子更凝练。易错点：判断名词与动作是主动还是被动关系再选 -ing 或 -ed。",
+        "examples": [
+          "Trained by the monks, the dogs can find travellers in deep snow. （经过修士训练，这些狗能在深雪中找到旅人。）",
+          "The monks living there enjoy the quiet of the mountains. （住在那里的修士享受群山的宁静。）"
+        ]
+      }
+    ],
+    "tips": "①“何时创建”用 was founded，“至今已被……”用 has been done；②分词作定语先判断主被动：主动进行用 -ing，被动完成用 -ed；③found（创建）—founded—founded，与 find—found—found 要分清。"
+  },
+  {
+    "book": 3,
+    "lesson": 9,
+    "title": "Flying cats",
+    "titleCn": "飞猫",
+    "scene": "猫总能引起人类的极大兴趣，它们独立而神秘，只在自己愿意时才接受人的宠爱。科学家格外关注一个事实：猫从高处坠落时几乎总能四脚着地。研究发现，猫下落时本能地在空中转正身体，然后像撑开降落伞一样伸展四肢减缓下坠速度。更令人惊讶的统计是：从更高楼层坠落的猫，受的伤反而常常更轻，因为它们有更充分的时间放松和调整姿态。有记录的一只猫从三十二层坠落到硬地上竟然幸存。仿佛地心引力这条法则，猫天生就爱挑战。本课语法重点是同位语从句（the fact that...）和科普陈述常用的一般现在时。",
+    "grammarTags": ["同位语从句", "一般现在时"],
+    "words": [
+      { "word": "fascinate", "phon": "/ˈfæsɪneɪt/", "pos": "v.", "cn": "使着迷", "eg": "Cats never fail to fascinate human beings. 猫总能使人类着迷。" },
+      { "word": "affection", "phon": "/əˈfekʃn/", "pos": "n.", "cn": "喜爱；感情", "eg": "A cat accepts affection only when it chooses. 猫只在自己愿意时才接受宠爱。" },
+      { "word": "instinct", "phon": "/ˈɪnstɪŋkt/", "pos": "n.", "cn": "本能", "eg": "Instinct makes a falling cat turn in the air. 本能使下落的猫在空中转正身体。" },
+      { "word": "height", "phon": "/haɪt/", "pos": "n.", "cn": "高度", "eg": "Cats falling from great heights often survive. 从很高处坠落的猫常常能活下来。" },
+      { "word": "injury", "phon": "/ˈɪndʒəri/", "pos": "n.", "cn": "伤害；损伤", "eg": "The cat suffered only slight injuries. 这只猫只受了轻伤。" },
+      { "word": "survive", "phon": "/səˈvaɪv/", "pos": "v.", "cn": "幸存", "eg": "One cat survived a fall of thirty-two floors. 一只猫从三十二层坠落后幸存。" },
+      { "word": "parachute", "phon": "/ˈpærəʃuːt/", "pos": "n.", "cn": "降落伞", "eg": "The cat spreads its legs like a parachute. 猫像撑开降落伞一样伸展四肢。" },
+      { "word": "gravity", "phon": "/ˈɡrævəti/", "pos": "n.", "cn": "地心引力", "eg": "Gravity pulls everything towards the ground. 地心引力把万物拉向地面。" },
+      { "word": "defy", "phon": "/dɪˈfaɪ/", "pos": "v.", "cn": "（似乎）违抗；使难以置信", "eg": "Cats seem to defy the law of gravity. 猫似乎能违抗地心引力法则。" }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "the fact/news/idea + that 从句，用来解释说明这个名词的具体内容，that 在从句中不作成分、不能省略，也不能换成 which。易错点：同位语从句与定语从句的区别——定语从句中 that/which 要在从句里充当成分。",
+        "examples": [
+          "The fact that cats usually land on their feet fascinates scientists. （猫通常四脚着地这一事实令科学家着迷。）",
+          "The idea that cats have nine lives is only a saying. （猫有九条命的说法只是俗语而已。）"
+        ]
+      },
+      {
+        "point": "一般现在时",
+        "explain": "科普文章陈述普遍规律和习性时用一般现在时，如 cats land on their feet、gravity pulls。易错点：主语是单数第三人称时动词加 -s；never fail to do 是“总能做到”的固定表达。",
+        "examples": [
+          "A falling cat turns its body in the air by instinct. （下落的猫凭本能在空中转正身体。）",
+          "Cats never fail to fascinate human beings. （猫总能使人类着迷。）"
+        ]
+      }
+    ],
+    "tips": "①the fact/news/idea 后解释“内容是什么”的 that 从句是同位语从句，that 不能省也不能换 which；②判断法：that 在从句里不缺成分是同位语从句，缺主语或宾语是定语从句；③科普规律一律用一般现在时，三单动词记得加 -s。"
+  },
+  {
+    "book": 3,
+    "lesson": 10,
+    "title": "The loss of the Titanic",
+    "titleCn": "“泰坦尼克”号的沉没",
+    "scene": "巨轮“泰坦尼克”号启航前被誉为世界上最安全的船：船体分成十六个密封舱，据说即使其中两个进水，船仍能浮在海面上。1912 年 4 月，它满载乘客开始处女航。第四天夜里，瞭望员发现前方冰山，巨轮紧急转向躲过了正面相撞，船身却被水下的冰棱划开一道长长的口子。五个密封舱进水——比设计能承受的多了一个，命运就此注定。船在震颤中缓缓下沉，救生艇远远不够，这场悲剧震惊了全世界。本课语法重点是 even if 引导的虚拟条件句和交代先后的过去完成时。",
+    "grammarTags": ["虚拟条件句(even if)", "过去完成时"],
+    "words": [
+      { "word": "tragic", "phon": "/ˈtrædʒɪk/", "pos": "adj.", "cn": "悲惨的", "eg": "The tragic voyage shocked the whole world. 这次悲惨的航行震惊了全世界。" },
+      { "word": "liner", "phon": "/ˈlaɪnə/", "pos": "n.", "cn": "班轮；邮轮", "eg": "The great liner carried over two thousand people. 这艘巨轮载有两千多人。" },
+      { "word": "luxurious", "phon": "/lʌɡˈʒʊəriəs/", "pos": "adj.", "cn": "豪华的", "eg": "Rich passengers filled the luxurious rooms. 富有的乘客住满了豪华客舱。" },
+      { "word": "voyage", "phon": "/ˈvɔɪɪdʒ/", "pos": "n.", "cn": "航行；航程", "eg": "It was the ship's first voyage across the Atlantic. 这是这艘船首次横渡大西洋的航行。" },
+      { "word": "iceberg", "phon": "/ˈaɪsbɜːɡ/", "pos": "n.", "cn": "冰山", "eg": "An iceberg suddenly appeared in the darkness. 黑暗中突然出现一座冰山。" },
+      { "word": "watertight", "phon": "/ˈwɔːtətaɪt/", "pos": "adj.", "cn": "不漏水的；密封的", "eg": "The ship had sixteen watertight compartments. 这艘船有十六个密封舱。" },
+      { "word": "flood", "phon": "/flʌd/", "pos": "v./n.", "cn": "淹没；进水", "eg": "Five compartments were flooded within an hour. 一小时内五个船舱进了水。" },
+      { "word": "tremble", "phon": "/ˈtrembl/", "pos": "v.", "cn": "震颤；发抖", "eg": "The huge ship trembled from end to end. 巨轮从头到尾震颤起来。" },
+      { "word": "lifeboat", "phon": "/ˈlaɪfbəʊt/", "pos": "n.", "cn": "救生艇", "eg": "There were far too few lifeboats on board. 船上的救生艇远远不够。" }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟条件句(even if)",
+        "explain": "even if（即使）可引导虚拟条件：对现在/将来的假设用 even if + 过去式，主句 would do；对过去的假设用 even if + had done，主句 would have done。易错点：would 不进 if/even if 从句。",
+        "examples": [
+          "Even if two compartments were flooded, the ship would still float. （即使两个船舱进水，船仍能漂浮。）",
+          "Even if the ship had turned earlier, the ice would still have struck her. （即使船早一点转向，冰山仍会撞上它。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "海难叙事中，“出事之前已经发生的事”用过去完成时，如 had been described、had set out。易错点：主线事件（相撞、下沉）用一般过去时，只有更早一层的动作才用 had done。",
+        "examples": [
+          "The liner had been described as unsinkable before she set out. （启航之前，这艘班轮曾被描述为永不沉没。）",
+          "By the time the lifeboats were lowered, the ship had begun to sink. （放下救生艇时，船已经开始下沉。）"
+        ]
+      }
+    ],
+    "tips": "①even if 虚拟句分两层：现在/将来假设用过去式 + would do，过去假设用 had done + would have done；②would 永远不进 if/even if 从句；③“启航前已被誉为……”这类更早的过去用 had been done。"
+  },
+  {
+    "book": 3,
+    "lesson": 11,
+    "title": "Not guilty",
+    "titleCn": "无罪",
+    "scene": "乘船回国过海关时，“我”明明没有携带任何违禁品，排队时却莫名觉得心虚。轮到“我”时，海关官员冷冷地问是否有东西要申报，“我”如实回答没有。他还是打开箱子，把每个角落都翻查了一遍，忽然一把抓出一个绿色小瓶，讥讽地说香水可是要交税的。“我”解释那只是发胶，他拧开瓶盖闻了闻，脸色顿时尴尬起来。最后这位还算宽容的官员用粉笔在箱子上画了道线，挥手放行——“我”这才如释重负。本课语法重点是转述问答的间接引语和叙事主线的一般过去时。",
+    "grammarTags": ["间接引语", "一般过去时"],
+    "words": [
+      { "word": "guilty", "phon": "/ˈɡɪlti/", "pos": "adj.", "cn": "内疚的；有罪的", "eg": "I always feel strangely guilty at customs. 过海关时我总是莫名觉得心虚。" },
+      { "word": "customs", "phon": "/ˈkʌstəmz/", "pos": "n.", "cn": "海关", "eg": "The customs hall was crowded that morning. 那天早上海关大厅很拥挤。" },
+      { "word": "declare", "phon": "/dɪˈkleə/", "pos": "v.", "cn": "申报", "eg": "You must declare dutiable goods at the desk. 应税物品必须在柜台申报。" },
+      { "word": "tolerant", "phon": "/ˈtɒlərənt/", "pos": "adj.", "cn": "宽容的", "eg": "The officer was more tolerant than he looked. 这位官员比看上去宽容。" },
+      { "word": "perfume", "phon": "/ˈpɜːfjuːm/", "pos": "n.", "cn": "香水", "eg": "Perfume is not free of import duty. 香水并不免进口税。" },
+      { "word": "sarcastic", "phon": "/sɑːˈkæstɪk/", "pos": "adj.", "cn": "讥讽的", "eg": "He asked the question in a sarcastic voice. 他用讥讽的语气问了那个问题。" },
+      { "word": "pounce", "phon": "/paʊns/", "pos": "v.", "cn": "猛扑；一把抓住", "eg": "He pounced on the small green bottle at once. 他立刻一把抓住那个绿色小瓶。" },
+      { "word": "examine", "phon": "/ɪɡˈzæmɪn/", "pos": "v.", "cn": "检查", "eg": "The officer examined every corner of my case. 官员检查了我箱子的每个角落。" },
+      { "word": "chalk", "phon": "/tʃɔːk/", "pos": "n.", "cn": "粉笔", "eg": "He drew a line on the case with a piece of chalk. 他用一支粉笔在箱子上画了道线。" }
+    ],
+    "grammar": [
+      {
+        "point": "间接引语",
+        "explain": "转述海关问答时，一般疑问句改用 whether/if 引导，特殊疑问句保留疑问词，从句一律用陈述语序，并随主句过去时作时态后移。易错点：从句里不能再用疑问语序（不能出现 did I have 之类）。",
+        "examples": [
+          "The officer asked me whether I had anything to declare. （官员问我是否有东西要申报。）",
+          "I told him that the bottle was hair gel, not perfume. （我告诉他那瓶是发胶，不是香水。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "过关经历是一段完整的过去叙事，主线动作——问、开箱、检查、放行——都用一般过去时。易错点：连续叙事保持时态一致；draw 的过去式是 drew。",
+        "examples": [
+          "He opened my case and examined everything inside. （他打开我的箱子，检查了里面的所有东西。）",
+          "Finally he drew a line on the case and let me go. （最后他在箱子上画了道线，放我走了。）"
+        ]
+      }
+    ],
+    "tips": "①转述一般疑问句用 asked + whether/if + 陈述语序；②主句是过去时，从句时态整体后移一格；③叙事主线动词全部用过去式，注意 draw—drew、let—let 等不规则变化。"
+  },
+  {
+    "book": 3,
+    "lesson": 12,
+    "title": "Life on a desert island",
+    "titleCn": "荒岛生活",
+    "scene": "对荒岛生活，多数人的想象都很不真实。有人把它想成阳光永驻的人间天堂：无所事事，果实伸手可得；也有人把它想成缺水断粮的人间地狱。两种想象各有几分道理，可我们中很少有人真正验证过。去年，两名水手的船只失事，他们漂流到太平洋一座有环礁湖的小岛上。他们没有挨饿：天天捕鱼、收集雨水和椰子，还搭起简陋的木筏。获救时两人都说，愿意再回那座岛——不过是去度假，而不是求生。本课语法重点是虚拟条件句和谈论人类共同经验的现在完成时。",
+    "grammarTags": ["虚拟条件句", "现在完成时"],
+    "words": [
+      { "word": "desert", "phon": "/ˈdezət/", "pos": "adj.", "cn": "荒芜无人的", "eg": "They landed on a small desert island. 他们上了一座无人的小荒岛。" },
+      { "word": "unrealistic", "phon": "/ˌʌnriəˈlɪstɪk/", "pos": "adj.", "cn": "不切实际的", "eg": "Most of us have an unrealistic picture of island life. 我们大多数人对荒岛生活的想象都不切实际。" },
+      { "word": "paradise", "phon": "/ˈpærədaɪs/", "pos": "n.", "cn": "天堂；乐园", "eg": "In dreams the island is a paradise of sunshine. 在梦里，那座岛是阳光普照的天堂。" },
+      { "word": "element", "phon": "/ˈelɪmənt/", "pos": "n.", "cn": "成分；少许", "eg": "There is an element of truth in both views. 两种看法都有几分道理。" },
+      { "word": "starve", "phon": "/stɑːv/", "pos": "v.", "cn": "挨饿", "eg": "The two men did not starve on the island. 那两个人在岛上没有挨饿。" },
+      { "word": "wreck", "phon": "/rek/", "pos": "v./n.", "cn": "使失事；失事船只", "eg": "Their boat was wrecked in a storm. 他们的船在风暴中失事了。" },
+      { "word": "raft", "phon": "/rɑːft/", "pos": "n.", "cn": "木筏", "eg": "They built a rough raft out of driftwood. 他们用漂流木造了一只简陋的木筏。" },
+      { "word": "lagoon", "phon": "/ləˈɡuːn/", "pos": "n.", "cn": "环礁湖；泻湖", "eg": "Fish were easy to catch in the quiet lagoon. 在平静的环礁湖里很容易捕到鱼。" },
+      { "word": "survival", "phon": "/səˈvaɪvl/", "pos": "n.", "cn": "生存；幸存", "eg": "On a real island, survival comes before comfort. 在真正的荒岛上，生存先于享受。" }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟条件句",
+        "explain": "对现在/将来不真实的假设用 if + 过去式（be 用 were），主句 would + 动词原形；对过去的假设用 if + had done，主句 would have done。易错点：if 从句中不用 would；be 动词一律用 were。",
+        "examples": [
+          "If I were on a desert island, I would learn to catch fish. （如果我在荒岛上，我会学着捕鱼。）",
+          "If there had been no rain, the two men would have died of thirst. （如果没有下雨，那两个人早就渴死了。）"
+        ]
+      },
+      {
+        "point": "现在完成时",
+        "explain": "谈论“到目前为止人们的普遍经验”用现在完成时，如 have formed、have never had the chance。易错点：few/most of us 等作主语时注意谓语用 have。",
+        "examples": [
+          "Most of us have formed an unrealistic picture of island life. （我们大多数人对荒岛生活形成了不切实际的想象。）",
+          "Few of us have ever had the chance to test it. （我们中很少有人有机会验证它。）"
+        ]
+      }
+    ],
+    "tips": "①现在/将来的空想：if + 过去式（were），主句 would do；②过去的假设：if + had done，主句 would have done；③“至今大家已形成/很少有人经历过”用 have done，few/most of us 后接 have。"
+  }
+]

@@ -4,7 +4,7 @@ const express = require('express');
 const activity = require('../lib/activity');
 
 const router = express.Router();
-const ALLOWED = new Set(['dictation', 'words', 'vocab', 'dialogue', 'other']);
+const ALLOWED = new Set(['dictation', 'words', 'vocab', 'dialogue', 'lesson', 'other']);
 
 // POST /activity/log  body { correct, source }
 router.post('/activity/log', (req, res) => {

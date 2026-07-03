@@ -1,0 +1,324 @@
+[
+  {
+    "id": "dlg-chain-home-01",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 1,
+      "parts": 14
+    },
+    "title": "Chain 1/14: Wake Up",
+    "titleCn": "第1环：早晨起床",
+    "scene": "周末早上八点，室友来叫你起床。（对话链：周末居家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "张伟，八点了，起来吃早饭吗？", "en": "Zhang Wei, it's eight. Want to get up for breakfast?" },
+      { "role": "You", "cn": "再五分钟……今天周末啊。", "en": "Five more minutes… It's the weekend." },
+      { "role": "Roommate", "cn": "你不是要遛狗吗？九点前凉快。", "en": "Aren't you walking the dog? Cooler before nine." },
+      { "role": "You", "cn": "对对对，我起来了，谢谢叫我。", "en": "Oh right. I'm up. Thanks for waking me." },
+      { "role": "Roommate", "cn": "咖啡机我开了。", "en": "I started the coffee maker." },
+      { "role": "You", "cn": "太好了，我先洗漱。", "en": "Awesome. I'll brush up first." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-02",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 2,
+      "parts": 14
+    },
+    "title": "Chain 2/14: Breakfast",
+    "titleCn": "第2环：厨房做早餐",
+    "scene": "你在厨房做早餐，和家人聊今天安排。（对话链：周末居家）",
+    "roles": ["You", "Family"],
+    "turns": [
+      { "role": "Family", "cn": "煎蛋还是燕麦？", "en": "Eggs or oatmeal?" },
+      { "role": "You", "cn": "煎蛋吧，等下遛狗回来再订菜。", "en": "Eggs, please. I'll order groceries after the walk." },
+      { "role": "Family", "cn": "帮带一盒牛奶？", "en": "Can you grab a carton of milk?" },
+      { "role": "You", "cn": "行，我写进手机备忘录。", "en": "Sure. I'll add it to my phone notes." },
+      { "role": "Family", "cn": "下午大扫除，你负责卫生间？", "en": "Deep clean this afternoon. You take the bathroom?" },
+      { "role": "You", "cn": "好，晚饭我来做。", "en": "Okay. I'll make dinner tonight." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-03",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 3,
+      "parts": 14
+    },
+    "title": "Chain 3/14: Package at Door",
+    "titleCn": "第3环：门口收快递",
+    "scene": "门铃响了，快递员送货。（对话链：周末居家）",
+    "roles": ["You", "Courier"],
+    "turns": [
+      { "role": "Courier", "cn": "快递，有人在吗？", "en": "Delivery! Anyone home?" },
+      { "role": "You", "cn": "在的，请放门口就行，谢谢。", "en": "Yes. Just leave it by the door, thanks." },
+      { "role": "Courier", "cn": "这个要签字，您方便开门吗？", "en": "This one needs a signature. Can you open the door?" },
+      { "role": "You", "cn": "好，马上开，稍等。", "en": "Okay. One sec, opening now." },
+      { "role": "Courier", "cn": "签这里，周末愉快。", "en": "Sign here. Have a good weekend." },
+      { "role": "You", "cn": "你也是，拜拜。", "en": "You too. Bye." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-04",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 4,
+      "parts": 14
+    },
+    "title": "Chain 4/14: Walking the Dog",
+    "titleCn": "第4环：出门遛狗",
+    "scene": "你带狗下楼散步，在小区遇见邻居。（对话链：周末居家）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "早上好！你的狗真精神。", "en": "Good morning! Your dog's full of energy." },
+      { "role": "You", "cn": "早上好，周末它特别兴奋。", "en": "Morning. It gets extra excited on weekends." },
+      { "role": "Neighbor", "cn": "那边草坪刚喷了药，别让它进去。", "en": "They just sprayed the lawn over there. Keep it off." },
+      { "role": "You", "cn": "谢谢提醒，我走人行道。", "en": "Thanks for the heads-up. We'll stay on the sidewalk." },
+      { "role": "Neighbor", "cn": "拜拜！", "en": "Bye!" },
+      { "role": "You", "cn": "拜拜，愉快周末！", "en": "Bye. Have a nice weekend!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-05",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 5,
+      "parts": 14
+    },
+    "title": "Chain 5/14: Order Groceries",
+    "titleCn": "第5环：电话订生鲜",
+    "scene": "遛完狗，你打电话订超市配送。（对话链：周末居家）",
+    "roles": ["You", "Store"],
+    "turns": [
+      { "role": "Store", "cn": "超市配送，请问账号？", "en": "Grocery delivery. Account number, please?" },
+      { "role": "You", "cn": "五五五一二三四，要牛奶和鸡蛋。", "en": "Five five five one two three four. Milk and eggs, please." },
+      { "role": "Store", "cn": "今天下午两点到四点可以吗？", "en": "Today between two and four PM okay?" },
+      { "role": "You", "cn": "可以，放门口就行。", "en": "Yes. Leave at the door." },
+      { "role": "Store", "cn": "小费在应用里付吗？", "en": "Tip through the app?" },
+      { "role": "You", "cn": "对，我线上付，谢谢。", "en": "Yes. I'll pay online. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-06",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 6,
+      "parts": 14
+    },
+    "title": "Chain 6/14: Work from Home Call",
+    "titleCn": "第6环：居家办公电话",
+    "scene": "上午十点，你在家接同事电话。（对话链：周末居家）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "在家方便说话吗？", "en": "Good time to talk?" },
+      { "role": "You", "cn": "方便，你说。", "en": "Sure. Go ahead." },
+      { "role": "Colleague", "cn": "文档第三部分，截止下周五对吗？", "en": "Part three of the doc — due next Friday, right?" },
+      { "role": "You", "cn": "对，下周五下午五点前。", "en": "Yes. Next Friday by five PM." },
+      { "role": "Colleague", "cn": "好，周一发你草稿。", "en": "Okay. Draft Monday." },
+      { "role": "You", "cn": "行，周末我看一下。", "en": "Sounds good. I'll look over the weekend." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-07",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 7,
+      "parts": 14
+    },
+    "title": "Chain 7/14: Lunch Delivery",
+    "titleCn": "第7环：午餐外卖",
+    "scene": "中午外卖送到门口。（对话链：周末居家）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "您的外卖。", "en": "Your delivery." },
+      { "role": "You", "cn": "谢谢，是泰餐那家吗？", "en": "Thanks. Is this from the Thai place?" },
+      { "role": "Driver", "cn": "对，享受用餐！", "en": "Yes. Enjoy your meal!" },
+      { "role": "You", "cn": "等等，少筷子了？", "en": "Wait, no chopsticks?" },
+      { "role": "Driver", "cn": "袋子里小口袋有。", "en": "Check the small pocket in the bag." },
+      { "role": "You", "cn": "哦看到了，谢谢！", "en": "Oh, got them. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-08",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 8,
+      "parts": 14
+    },
+    "title": "Chain 8/14: Neighbor Borrows Tool",
+    "titleCn": "第8环：邻居借东西",
+    "scene": "下午邻居敲门借工具。（对话链：周末居家）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "能借一下螺丝刀吗？我挂画。", "en": "Can I borrow a screwdriver? I'm hanging a picture." },
+      { "role": "You", "cn": "当然，我拿给你。", "en": "Sure. I'll grab it." },
+      { "role": "Neighbor", "cn": "谢谢，半小时还你。", "en": "Thanks. Back in half an hour." },
+      { "role": "You", "cn": "没事，放门口就行。", "en": "No rush. Leave it by my door." },
+      { "role": "Neighbor", "cn": "物业说明天停水两小时。", "en": "Management says water's off two hours tomorrow." },
+      { "role": "You", "cn": "好，今晚接点水。", "en": "Good to know. I'll store water tonight." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-09",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 9,
+      "parts": 14
+    },
+    "title": "Chain 9/14: Property Repair Call",
+    "titleCn": "第9环：物业报修",
+    "scene": "厨房水槽漏水，你打电话给物业报修。（对话链：周末居家）",
+    "roles": ["You", "Property"],
+    "turns": [
+      { "role": "Property", "cn": "物业前台，请问什么可以帮您？", "en": "Property management. How can I help?" },
+      { "role": "You", "cn": "三零二厨房水槽下面漏水。", "en": "Unit three oh two. Leak under the kitchen sink." },
+      { "role": "Property", "cn": "严重吗？需要关总阀吗？", "en": "How bad? Do you need to shut the main valve?" },
+      { "role": "You", "cn": "不严重，一滴一滴，今天能派人吗？", "en": "Not bad. Dripping. Can someone come today?" },
+      { "role": "Property", "cn": "维修下午两点到四点之间。", "en": "Maintenance between two and four PM." },
+      { "role": "You", "cn": "好，我在家等，谢谢。", "en": "Okay. I'll be home. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-10",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 10,
+      "parts": 14
+    },
+    "title": "Chain 10/14: Weekend Deep Clean",
+    "titleCn": "第10环：周末大扫除",
+    "scene": "下午你和室友分工做大扫除。（对话链：周末居家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "大扫除开始，你卫生间我客厅？", "en": "Deep clean time. You bathroom, me living room?" },
+      { "role": "You", "cn": "可以，吸尘器在我房间，随便用。", "en": "Sure. Vacuum's in my room. Help yourself." },
+      { "role": "Roommate", "cn": "清洁剂在厨房柜子下面。", "en": "Cleaner is under the kitchen cabinet." },
+      { "role": "You", "cn": "好，大概一小时搞定。", "en": "Got it. About an hour for me." },
+      { "role": "Roommate", "cn": "完事点披萨庆祝？", "en": "Pizza when we're done?" },
+      { "role": "You", "cn": "行，我请客。", "en": "Deal. My treat." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-11",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 11,
+      "parts": 14
+    },
+    "title": "Chain 11/14: Laundry and Trash",
+    "titleCn": "第11环：洗衣倒垃圾",
+    "scene": "大扫除后洗衣服、倒垃圾。（对话链：周末居家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "洗衣机空了吗？", "en": "Is the washer free?" },
+      { "role": "You", "cn": "空了，你用吧，我去倒垃圾。", "en": "All yours. I'm taking out the trash." },
+      { "role": "Roommate", "cn": "回收要分类吗？", "en": "Separate recycling?" },
+      { "role": "You", "cn": "对，纸箱拆平放蓝桶。", "en": "Yes. Flatten boxes for the blue bin." },
+      { "role": "Roommate", "cn": "辛苦，回来吃披萨。", "en": "Thanks. Pizza when you're back." },
+      { "role": "You", "cn": "马上。", "en": "Be right back." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-12",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 12,
+      "parts": 14
+    },
+    "title": "Chain 12/14: Cooking Dinner",
+    "titleCn": "第12环：做晚饭",
+    "scene": "傍晚做晚饭，家人来帮忙。（对话链：周末居家）",
+    "roles": ["You", "Family"],
+    "turns": [
+      { "role": "Family", "cn": "闻起来好香，要帮忙吗？", "en": "Smells great. Need help?" },
+      { "role": "You", "cn": "帮摆桌子，六点半吃。", "en": "Set the table. Dinner at six thirty." },
+      { "role": "Family", "cn": "配送的牛奶到了吗？", "en": "Did the milk delivery arrive?" },
+      { "role": "You", "cn": "在冰箱里了。", "en": "Yes. It's in the fridge." },
+      { "role": "Family", "cn": "今天大扫除累了吧？", "en": "Deep clean was tiring, huh?" },
+      { "role": "You", "cn": "还行，吃完我们看剧放松。", "en": "Not too bad. Let's watch a show after dinner." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-13",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 13,
+      "parts": 14
+    },
+    "title": "Chain 13/14: Watch TV Together",
+    "titleCn": "第13环：看剧聊天",
+    "scene": "晚饭后你和室友在客厅看剧闲聊。（对话链：周末居家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "看啥？我找了部新剧。", "en": "What should we watch? I found a new series." },
+      { "role": "You", "cn": "喜剧吧，今天不想动脑。", "en": "Something light. I don't want to think today." },
+      { "role": "Roommate", "cn": "行，我投屏，要爆米花吗？", "en": "Sure. I'll cast it. Want popcorn?" },
+      { "role": "You", "cn": "要，我去微波一下。", "en": "Yes. I'll microwave some." },
+      { "role": "Roommate", "cn": "这集挺好笑的。", "en": "This episode's pretty funny." },
+      { "role": "You", "cn": "是啊，明天继续。", "en": "Yeah. We can continue tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-chain-home-14",
+    "category": "home",
+    "chain": {
+      "id": "home-one-day",
+      "title": "Weekend at Home",
+      "titleCn": "对话链：周末居家一天",
+      "part": 14,
+      "parts": 14
+    },
+    "title": "Chain 14/14: Good Night",
+    "titleCn": "第14环：睡前休息",
+    "scene": "晚上十点，准备睡觉。（对话链：周末居家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "明天闹钟几点？", "en": "What time's your alarm tomorrow?" },
+      { "role": "You", "cn": "七点，工作日了。", "en": "Seven. Back to the workweek." },
+      { "role": "Roommate", "cn": "我把灯关了。", "en": "I'll turn off the lights." },
+      { "role": "You", "cn": "好，今天过得很充实。", "en": "Thanks. Today was full but good." },
+      { "role": "Roommate", "cn": "晚安。", "en": "Good night." },
+      { "role": "You", "cn": "晚安，明天见。", "en": "Good night. See you tomorrow." }
+    ]
+  }
+]

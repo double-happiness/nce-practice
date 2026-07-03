@@ -28,11 +28,13 @@
     .pln-tasks li:last-child{border-bottom:0}
     .pln-tasks .box{display:inline-block;width:20px}
     .pln-heat{display:grid;grid-template-columns:repeat(10,1fr);gap:5px}
-    .pln-cell{aspect-ratio:1;border-radius:3px;background:#ebedf0}
-    .pln-cell[data-l="1"]{background:#c6e48b}
-    .pln-cell[data-l="2"]{background:#7bc96f}
-    .pln-cell[data-l="3"]{background:#239a3b}
-    .pln-cell[data-l="4"]{background:#196127}
+    .pln-cell{aspect-ratio:1;border-radius:3px;background:#ebedf0;display:flex;align-items:center;justify-content:center;font-size:10px;color:#9aa2b1;font-variant-numeric:tabular-nums}
+    .pln-cell.month{outline:1.5px solid #f97316;outline-offset:-1.5px;font-weight:700}
+    .pln-cell[data-l="1"]{background:#c6e48b;color:#3f6212}
+    .pln-cell[data-l="2"]{background:#7bc96f;color:#1a4314}
+    .pln-cell[data-l="3"]{background:#239a3b;color:#fff}
+    .pln-cell[data-l="4"]{background:#196127;color:#fff}
+    .pln-heat-range{font-weight:400;font-size:12px;color:#9ca3af;margin-left:6px}
     .pln-legend{display:flex;align-items:center;gap:6px;justify-content:flex-end;margin-top:10px;font-size:12px;color:#9ca3af}
     .pln-legend .pln-cell{width:13px;height:13px;aspect-ratio:auto}
     .pln-trend{width:100%;height:120px;display:block}
@@ -64,6 +66,25 @@
     .pln-lv:hover{border-color:#2563eb}
     .pln-lv.on{background:#2563eb;border-color:#2563eb;color:#fff;font-weight:700}
     .pln-lv-note{font-size:12px;color:#9ca3af}
+    .pln-rem-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+    .pln-rem-switch{display:flex;align-items:center;gap:8px;font-size:15px;color:#374151;cursor:pointer}
+    .pln-rem-switch input{width:18px;height:18px;accent-color:#2563eb;cursor:pointer}
+    .pln-rem-time{padding:8px 12px;font-size:15px;border:1px solid #d1d5db;border-radius:8px}
+    .pln-rem-time:disabled{background:#f3f4f6;color:#9ca3af}
+    .pln-rem-status{font-size:13px;margin-top:10px}
+    .pln-rem-status.ok{color:#059669}
+    .pln-rem-status.warn{color:#d97706}
+    .pln-rem-status.err{color:#dc2626}
+    .pln-rem-install{margin-top:12px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:13px;color:#6b7280}
+    .pln-badges{display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px}
+    .pln-badge{border:1px solid #eef2f7;border-radius:10px;padding:10px 6px;text-align:center;background:#fbfcfe;filter:grayscale(1);opacity:.62}
+    .pln-badge.earned{filter:none;opacity:1;background:#fffbeb;border-color:#fde68a}
+    .pln-badge-ic{font-size:26px;line-height:1;display:block}
+    .pln-badge-name{font-size:12px;color:#374151;margin-top:6px;font-weight:600}
+    .pln-badge-hint{font-size:11px;color:#9ca3af;margin-top:4px;font-variant-numeric:tabular-nums}
+    .pln-badge.earned .pln-badge-hint{color:#b45309;font-weight:700}
+    .pln-badge-prog{height:5px;background:#f1f5f9;border-radius:3px;overflow:hidden;margin-top:6px}
+    .pln-badge-prog-fill{height:100%;background:#94a3b8;border-radius:3px}
   `;
   document.head.appendChild(style);
 
@@ -179,12 +200,18 @@
       `<li>🎯 <b>里程碑</b>：${esc(prog.mile)}</li>` +
       '</ul></div>';
 
-    // 30 天热力图
+    // 30 天热力图：每格显示日期（月内日号），格上标月份分隔
     const cells = d.calendar
-      .map((c) => `<div class="pln-cell" data-l="${heatLevel(c.count)}" title="${esc(c.date)}：${c.count} 题${c.count ? '，正确率 ' + c.accuracy + '%' : ''}"></div>`)
+      .map((c) => {
+        const dd = Number(c.date.slice(8, 10));
+        const label = dd === 1 ? c.date.slice(5, 7) + '月' : String(dd); // 每月 1 号显示「M月」以便定位月份
+        return `<div class="pln-cell${dd === 1 ? ' month' : ''}" data-l="${heatLevel(c.count)}" title="${esc(c.date)}：${c.count} 次${c.count ? '，正确率 ' + c.accuracy + '%' : '（未学习）'}">${esc(label)}</div>`;
+      })
       .join('');
+    const first = d.calendar[0], last = d.calendar[d.calendar.length - 1];
+    const range = first && last ? `${first.date} ～ ${last.date}` : '';
     const heatCard =
-      '<div class="pln-card"><h3>🗓️ 最近 30 天打卡热力图</h3>' +
+      `<div class="pln-card"><h3>🗓️ 最近 30 天打卡热力图 <span class="pln-heat-range">${esc(range)}</span></h3>` +
       `<div class="pln-heat">${cells}</div>` +
       '<div class="pln-legend">少' +
       '<span class="pln-cell" data-l="0"></span><span class="pln-cell" data-l="1"></span>' +
@@ -194,6 +221,27 @@
     // 正确率趋势
     const trendCard =
       '<div class="pln-card"><h3>📈 正确率趋势</h3>' + renderTrend(d.calendar) + '</div>';
+
+    // ⏰ 学习提醒(依赖 js/pwa.js 提供的 NCE.pwa)
+    const pwa = NCE.pwa;
+    let reminderCard;
+    if (!pwa) {
+      reminderCard =
+        '<div class="pln-card"><h3>⏰ 学习提醒</h3>' +
+        '<div class="pln-note">提醒功能未加载(需要引入 js/pwa.js)。</div></div>';
+    } else {
+      const rem = pwa.getReminder();
+      reminderCard =
+        '<div class="pln-card"><h3>⏰ 学习提醒</h3>' +
+        '<div class="pln-rem-row">' +
+        `<label class="pln-rem-switch"><input type="checkbox" id="pln-rem-on"${rem.enabled ? ' checked' : ''}> 开启每日提醒</label>` +
+        `<input class="pln-rem-time" id="pln-rem-time" type="time" value="${esc(rem.time || '20:00')}"${rem.enabled ? '' : ' disabled'}>` +
+        '</div>' +
+        '<div class="pln-rem-status" id="pln-rem-status"></div>' +
+        '<div class="pln-note" style="margin-top:10px">提醒基于浏览器通知:到点时若今日「听说读写」已全部达标则不打扰;' +
+        '受浏览器限制,<b>需保持本页面(或安装后的 PWA)在前台/后台开启</b>,浏览器完全关闭时无法定时提醒。</div>' +
+        '<div class="pln-rem-install" id="pln-rem-install"></div></div>';
+    }
 
     // 设定每日目标
     const goalCard =
@@ -207,10 +255,13 @@
     wrap.className = 'pln-wrap';
     wrap.innerHTML =
       '<div class="pln-head"><h2>🎯 学习计划</h2></div>' +
-      streakCard + tasksCard + programCard + heatCard + trendCard + goalCard;
+      streakCard + tasksCard + '<div id="pln-badges-slot"></div>' + programCard + heatCard + trendCard + reminderCard + goalCard;
 
     panel.innerHTML = '';
     panel.appendChild(wrap);
+
+    // 🏅 成就徽章：异步加载，失败时整卡静默隐藏，不影响页面其它部分
+    loadBadgesCard(wrap);
 
     // 「去做 →」深链跳到对应功能标签
     wrap.querySelectorAll('.pln-skill-go').forEach((b) => {
@@ -266,6 +317,124 @@
     input.addEventListener('keydown', (e) => {
       if (e.key === 'Enter') saveBtn.click();
     });
+
+    // ⏰ 学习提醒:开关 / 时间 / 安装入口
+    if (pwa) bindReminderCard(wrap, pwa);
+  }
+
+  // 🏅 成就徽章卡：已获得=彩色，未获得=灰色+进度条；hover（title）显示达成条件
+  async function loadBadgesCard(wrap) {
+    const slot = wrap.querySelector('#pln-badges-slot');
+    if (!slot) return;
+    let d;
+    try {
+      d = await NCE.api('/api/badges');
+    } catch (e) {
+      slot.remove(); // 拉取失败：整卡静默隐藏
+      return;
+    }
+    const badges = (d && d.badges) || [];
+    if (!badges.length) {
+      slot.remove();
+      return;
+    }
+    const earnedCount = badges.filter((b) => b.earned).length;
+    const items = badges
+      .map((b) => {
+        const p = b.progress || { cur: 0, target: 1 };
+        const pct = p.target > 0 ? Math.min(100, Math.round((p.cur / p.target) * 100)) : 0;
+        const bottom = b.earned
+          ? `<div class="pln-badge-hint">${esc(b.earnedHint || '已达成')} ✓</div>`
+          : `<div class="pln-badge-prog"><div class="pln-badge-prog-fill" style="width:${pct}%"></div></div>` +
+            `<div class="pln-badge-hint">${p.cur} / ${p.target}</div>`;
+        return (
+          `<div class="pln-badge${b.earned ? ' earned' : ''}" title="${esc(b.desc)}">` +
+          `<span class="pln-badge-ic">${esc(b.icon)}</span>` +
+          `<div class="pln-badge-name">${esc(b.label)}</div>` +
+          bottom +
+          '</div>'
+        );
+      })
+      .join('');
+    const card = document.createElement('div');
+    card.className = 'pln-card';
+    card.innerHTML =
+      `<h3>🏅 成就 <span class="pln-skill-count">${earnedCount}/${badges.length} 枚</span></h3>` +
+      `<div class="pln-badges">${items}</div>`;
+    slot.replaceWith(card);
+  }
+
+  function bindReminderCard(wrap, pwa) {
+    const remOn = wrap.querySelector('#pln-rem-on');
+    const remTime = wrap.querySelector('#pln-rem-time');
+    const remStatus = wrap.querySelector('#pln-rem-status');
+    const installRow = wrap.querySelector('#pln-rem-install');
+    if (!remOn || !remTime || !remStatus) return;
+
+    function refreshStatus() {
+      const cfg = pwa.getReminder();
+      const perm = pwa.notificationPermission();
+      remTime.disabled = !cfg.enabled;
+      if (perm === 'unsupported') {
+        remStatus.className = 'pln-rem-status err';
+        remStatus.textContent = '当前浏览器不支持通知,无法使用提醒。';
+      } else if (cfg.enabled && perm === 'granted') {
+        remStatus.className = 'pln-rem-status ok';
+        remStatus.textContent = `已开启:每天 ${cfg.time} 提醒(未达标才提醒)。`;
+      } else if (perm === 'denied') {
+        remStatus.className = 'pln-rem-status err';
+        remStatus.textContent = '通知权限已被拒绝,请在浏览器地址栏的站点设置中重新允许通知。';
+      } else {
+        remStatus.className = 'pln-rem-status warn';
+        remStatus.textContent = '未开启。开启后将请求浏览器通知权限。';
+      }
+    }
+
+    remOn.onchange = async () => {
+      if (remOn.checked) {
+        const perm = await pwa.requestNotificationPermission();
+        if (perm !== 'granted') {
+          remOn.checked = false;
+          pwa.setReminder({ enabled: false });
+          refreshStatus();
+          if (NCE.toast) NCE.toast(perm === 'denied' ? '通知权限被拒绝,无法开启提醒' : '未获得通知权限', 'error');
+          return;
+        }
+      }
+      pwa.setReminder({ enabled: remOn.checked, time: remTime.value || '20:00' });
+      refreshStatus();
+      if (remOn.checked && NCE.toast) NCE.toast('已开启每日学习提醒 ⏰');
+    };
+
+    remTime.onchange = () => {
+      pwa.setReminder({ time: remTime.value || '20:00' });
+      refreshStatus();
+    };
+
+    // 安装入口:仅在浏览器给出安装时机(beforeinstallprompt)时展示
+    if (installRow) {
+      if (pwa.isStandalone()) {
+        installRow.textContent = '✅ 已以应用(PWA)方式运行,提醒在后台更可靠。';
+      } else if (pwa.canInstall()) {
+        installRow.innerHTML =
+          '<button class="pln-btn small" id="pln-rem-install-btn">📲 安装到桌面/主屏幕</button>' +
+          '<span>安装为应用后,保持其开启即可在后台收到提醒。</span>';
+        const btn = installRow.querySelector('#pln-rem-install-btn');
+        btn.onclick = async () => {
+          btn.disabled = true;
+          try {
+            const outcome = await pwa.promptInstall();
+            if (outcome !== 'accepted') btn.disabled = false;
+          } catch (e) {
+            btn.disabled = false;
+          }
+        };
+      } else {
+        installRow.textContent = '提示:可通过浏览器菜单「安装应用 / 添加到主屏幕」把本站装成应用。';
+      }
+    }
+
+    refreshStatus();
   }
 
   NCE.registerFeature({

@@ -123,6 +123,39 @@ function validate() {
       }
     });
     if (!hasYou) warnings.push(`${where}: 没有 role=You 的练习轮次`);
+
+    if (d.chain != null) {
+      const c = d.chain;
+      if (!c.id || typeof c.id !== 'string') errors.push(`${where}: chain.id 须为非空字符串`);
+      if (!c.titleCn || !c.title) warnings.push(`${where}: chain 建议提供 title 与 titleCn`);
+      if (!Number.isInteger(c.part) || !Number.isInteger(c.parts)) {
+        errors.push(`${where}: chain.part 与 chain.parts 须为整数`);
+      } else if (c.part < 1 || c.part > c.parts) {
+        errors.push(`${where}: chain.part 须在 1..parts 范围内`);
+      }
+    }
+  });
+
+  // 对话链：同一 chain.id 的 part 须连续且 parts 一致
+  const chainGroups = new Map();
+  data.getDialogues().forEach((d) => {
+    if (!d.chain || !d.chain.id) return;
+    if (!chainGroups.has(d.chain.id)) chainGroups.set(d.chain.id, []);
+    chainGroups.get(d.chain.id).push(d);
+  });
+  chainGroups.forEach((items, chainId) => {
+    const partsSet = new Set(items.map((x) => x.chain.parts));
+    if (partsSet.size > 1) {
+      errors.push(`chain.id=${chainId}: 各环 chain.parts 不一致`);
+    }
+    const parts = items[0].chain.parts;
+    const partNums = items.map((x) => x.chain.part).sort((a, b) => a - b);
+    if (partNums.length !== parts) {
+      errors.push(`chain.id=${chainId}: 应有 ${parts} 环，实际 ${partNums.length} 篇`);
+    }
+    for (let i = 1; i <= parts; i++) {
+      if (!partNums.includes(i)) errors.push(`chain.id=${chainId}: 缺少第 ${i} 环`);
+    }
   });
 
   // 全局词库：结构完整、每段至少 12 词（4 选 1 出题下限）

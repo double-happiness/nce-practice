@@ -1,0 +1,276 @@
+[
+  {
+    "id": "dlg-chain-weekday-01",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 1,
+      "parts": 12
+    },
+    "title": "Chain 1/12: Morning Rush",
+    "titleCn": "第1环：匆忙起床",
+    "scene": "工作日早上七点，闹钟响了，你赶时间出门。（对话链：工作日）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "你要迟到了，地铁七点二十那班！", "en": "You're gonna be late! The seven twenty train!" },
+      { "role": "You", "cn": "知道了，我 shower 三分钟解决。", "en": "I know. Three-minute shower." },
+      { "role": "Roommate", "cn": "咖啡给你倒好了。", "en": "I poured you coffee." },
+      { "role": "You", "cn": "救星，我路上喝。", "en": "Lifesaver. I'll drink it on the way." },
+      { "role": "Roommate", "cn": "晚上见。", "en": "See you tonight." },
+      { "role": "You", "cn": "拜，走了！", "en": "Bye. Gotta run!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-02",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 2,
+      "parts": 12
+    },
+    "title": "Chain 2/12: Grab Coffee on the Go",
+    "titleCn": "第2环：路上买咖啡",
+    "scene": "楼下咖啡店排队，你快速点单。（对话链：工作日）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "Barista", "cn": "下一位！", "en": "Next!" },
+      { "role": "You", "cn": "大杯拿铁，外带，谢谢。", "en": "Large latte to go, please." },
+      { "role": "Barista", "cn": "名字？", "en": "Name?" },
+      { "role": "You", "cn": "张伟，Z-H-A-N-G。", "en": "Zhang Wei. Z-H-A-N-G." },
+      { "role": "Barista", "cn": "好了，在柜台。", "en": "Ready at the counter." },
+      { "role": "You", "cn": "谢谢，赶地铁！", "en": "Thanks. Gotta catch the train!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-03",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 3,
+      "parts": 12
+    },
+    "title": "Chain 3/12: On the Subway",
+    "titleCn": "第3环：坐地铁通勤",
+    "scene": "地铁上很挤，有人问你下一站。（对话链：工作日）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "不好意思，这是去市中心的方向吗？", "en": "Excuse me, is this the downtown direction?" },
+      { "role": "You", "cn": "对，下两站换乘。", "en": "Yes. Transfer in two stops." },
+      { "role": "Stranger", "cn": "谢谢，第一次坐这条线。", "en": "Thanks. First time on this line." },
+      { "role": "You", "cn": "不客气，高峰期很挤，抓紧。", "en": "No problem. Rush hour's packed. Hold on." },
+      { "role": "Stranger", "cn": "我到站了，谢谢！", "en": "This is my stop. Thanks!" },
+      { "role": "You", "cn": "拜拜！", "en": "Bye!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-04",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 4,
+      "parts": 12
+    },
+    "title": "Chain 4/12: Arrive at Office",
+    "titleCn": "第4环：到公司打招呼",
+    "scene": "九点前到公司，和同事打招呼。（对话链：工作日）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "早啊，路上堵吗？", "en": "Morning. Was traffic bad?" },
+      { "role": "You", "cn": "地铁还行，差点赶不上。", "en": "Subway was okay. Almost missed it though." },
+      { "role": "Colleague", "cn": "九点有站会，别忘了。", "en": "Standup at nine. Don't forget." },
+      { "role": "You", "cn": "好，我先开电脑。", "en": "Right. Let me boot up first." },
+      { "role": "Colleague", "cn": "咖啡机修好了。", "en": "Coffee machine's fixed." },
+      { "role": "You", "cn": "太好了。", "en": "Great." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-05",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 5,
+      "parts": 12
+    },
+    "title": "Chain 5/12: Morning Standup",
+    "titleCn": "第5环：早晨站会",
+    "scene": "站会轮到你发言。（对话链：工作日）",
+    "roles": ["You", "Scrum Master"],
+    "turns": [
+      { "role": "Scrum Master", "cn": "张伟，昨天今天和阻碍？", "en": "Zhang Wei, yesterday, today, and blockers?" },
+      { "role": "You", "cn": "昨天完成接口，今天写测试，没阻碍。", "en": "Yesterday I finished the API. Today tests. No blockers." },
+      { "role": "Scrum Master", "cn": "下午客户会你能参加吗？", "en": "Can you join the client call this afternoon?" },
+      { "role": "You", "cn": "可以，几点？", "en": "Yes. What time?" },
+      { "role": "Scrum Master", "cn": "两点，我发邀请。", "en": "Two PM. I'll send an invite." },
+      { "role": "You", "cn": "收到，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-06",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 6,
+      "parts": 12
+    },
+    "title": "Chain 6/12: Lunch with Colleague",
+    "titleCn": "第6环：午饭和同事",
+    "scene": "中午你和同事去楼下吃午饭。（对话链：工作日）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "吃啥？日料还是三明治？", "en": "What do you want? Japanese or sandwiches?" },
+      { "role": "You", "cn": "日料吧，我请客。", "en": "Japanese. My treat." },
+      { "role": "Colleague", "cn": "你升职了？", "en": "Did you get promoted?" },
+      { "role": "You", "cn": "哈哈没有，今天心情好。", "en": "Ha, no. Just in a good mood." },
+      { "role": "Colleague", "cn": "下午客户会我帮你顶幻灯片。", "en": "I'll cover slides on the client call if you need." },
+      { "role": "You", "cn": "谢了，可能用得上。", "en": "Thanks. Might take you up on that." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-07",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 7,
+      "parts": 12
+    },
+    "title": "Chain 7/12: Afternoon Client Call",
+    "titleCn": "第7环：下午客户电话",
+    "scene": "下午你参加客户电话会，汇报进度。（对话链：工作日）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "这周交付什么？", "en": "What's shipping this week?" },
+      { "role": "You", "cn": "登录优化周三提测，周五演示。", "en": "Login fix to QA Wednesday. Demo Friday." },
+      { "role": "Client", "cn": "有风险吗？", "en": "Any risks?" },
+      { "role": "You", "cn": "短信延迟，我们加了备用通道。", "en": "SMS delay. We added a backup channel." },
+      { "role": "Client", "cn": "好，周五见。", "en": "Good. See you Friday." },
+      { "role": "You", "cn": "周五见。", "en": "See you Friday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-08",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 8,
+      "parts": 12
+    },
+    "title": "Chain 8/12: Leaving the Office",
+    "titleCn": "第8环：下班离开公司",
+    "scene": "六点下班，你和同事道别。（对话链：工作日）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "走了？明天早会别迟到。", "en": "Heading out? Don't be late for standup tomorrow." },
+      { "role": "You", "cn": "走了，明天见，你也别加班太晚。", "en": "Yep. See you tomorrow. Don't stay too late." },
+      { "role": "Colleague", "cn": "尽量，路上小心。", "en": "I'll try. Drive safe." },
+      { "role": "You", "cn": "我坐地铁，拜拜。", "en": "I'm on the subway. Bye." },
+      { "role": "Colleague", "cn": "拜拜！", "en": "Bye!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-09",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 9,
+      "parts": 12
+    },
+    "title": "Chain 9/12: Commute Home",
+    "titleCn": "第9环：下班坐地铁回家",
+    "scene": "晚高峰地铁回家，你听不清广播。（对话链：工作日）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "……这站不停，下一站换乘……", "en": "…this stop is closed. Transfer next stop…" },
+      { "role": "You", "cn": "不好意思，广播没听清，这站停吗？", "en": "Sorry, I didn't catch the announcement. Does this stop run?" },
+      { "role": "Stranger", "cn": "停，但下两站施工，要换乘公交。", "en": "Yes, but construction in two stops. Bus transfer." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." },
+      { "role": "Stranger", "cn": "不客气。", "en": "No problem." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-10",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 10,
+      "parts": 12
+    },
+    "title": "Chain 10/12: Stop at Grocery Store",
+    "titleCn": "第10环：顺路买菜",
+    "scene": "回家路上进超市买点菜。（对话链：工作日）",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "有会员卡吗？", "en": "Do you have a loyalty card?" },
+      { "role": "You", "cn": "有，手机号五五五一二三四。", "en": "Yes. Phone five five five one two three four." },
+      { "role": "Cashier", "cn": "一共十二块五，要袋子吗？", "en": "Twelve fifty total. Need a bag?" },
+      { "role": "You", "cn": "要一个，刷卡。", "en": "One bag, please. Card." },
+      { "role": "Cashier", "cn": "谢谢，晚安。", "en": "Thank you. Good evening." },
+      { "role": "You", "cn": "晚安。", "en": "Good evening." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-11",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 11,
+      "parts": 12
+    },
+    "title": "Chain 11/12: Home Dinner",
+    "titleCn": "第11环：回家吃晚饭",
+    "scene": "到家后简单做晚饭，和室友聊天。（对话链：工作日）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "回来了？今天怎么样？", "en": "You're back. How was today?" },
+      { "role": "You", "cn": "累但还行，我炒个菜，二十分钟。", "en": "Tiring but okay. I'll stir-fry something. Twenty minutes." },
+      { "role": "Roommate", "cn": "我煮饭，一起吃？", "en": "I'll make rice. Eat together?" },
+      { "role": "You", "cn": "好啊，谢了。", "en": "Sure. Thanks." },
+      { "role": "Roommate", "cn": "周末大扫除别忘了。", "en": "Don't forget deep clean this weekend." },
+      { "role": "You", "cn": "记得，周六上午。", "en": "Got it. Saturday morning." }
+    ]
+  },
+  {
+    "id": "dlg-chain-weekday-12",
+    "category": "daily",
+    "chain": {
+      "id": "weekday-one-day",
+      "title": "Weekday Out the Door",
+      "titleCn": "对话链：工作日出门一天",
+      "part": 12,
+      "parts": 12
+    },
+    "title": "Chain 12/12: Tired at Bedtime",
+    "titleCn": "第12环：疲惫入睡",
+    "scene": "晚上十一点，工作日结束，准备睡觉。（对话链：工作日）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "还不睡？明天七点起呢。", "en": "Still up? Seven AM tomorrow." },
+      { "role": "You", "cn": "马上，回完这封邮件就睡。", "en": "Almost done. One email then sleep." },
+      { "role": "Roommate", "cn": "别熬太晚，健康第一。", "en": "Don't burn out. Health first." },
+      { "role": "You", "cn": "知道了，你也早点睡。", "en": "You're right. You turn in too." },
+      { "role": "Roommate", "cn": "晚安。", "en": "Good night." },
+      { "role": "You", "cn": "晚安，明天继续加油。", "en": "Good night. Another day tomorrow." }
+    ]
+  }
+]

@@ -50,11 +50,144 @@
       '.dlg-hint{color:#889;font-size:13px;margin:6px 0}' +
       '.dlg-summary{text-align:center;padding:20px}' +
       '.dlg-summary .big{font-size:40px;font-weight:700;color:#2b57d6}' +
-      '.dlg-summary .sub{color:#667;margin-top:6px}';
+      '.dlg-summary .sub{color:#667;margin-top:6px}' +
+      '.dlg-chain{margin-top:16px;border:1px solid #c5d5f5;border-radius:12px;overflow:hidden;background:#f8faff}' +
+      '.dlg-chain-hd{padding:12px 14px;background:linear-gradient(135deg,#eef3ff,#f6f8fc);border-bottom:1px solid #dbe4ff}' +
+      '.dlg-chain-hd .t{font-size:15px;font-weight:700;color:#1a3fad}' +
+      '.dlg-chain-hd .s{font-size:13px;color:#667;margin-top:4px}' +
+      '.dlg-chain-parts{padding:8px}' +
+      '.dlg-chain-part{border:1px solid #e5e9f2;border-radius:8px;padding:10px 12px;margin:6px;cursor:pointer;background:#fff}' +
+      '.dlg-chain-part:hover{background:#f6f8fc;border-color:#cfd6e6}' +
+      '.dlg-chain-part .p{font-size:12px;color:#2b57d6;font-weight:600}' +
+      '.dlg-chain-part .t{font-size:15px;font-weight:600;color:#123;margin-top:2px}' +
+      '.dlg-chain-part .s{font-size:13px;color:#889;margin-top:4px}' +
+      '.dlg-chain-badge{display:inline-block;font-size:12px;background:#2b57d6;color:#fff;padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}' +
+      '.dlg-btn.rec{background:#d12f2f;border-color:#d12f2f;color:#fff;animation:dlgRecPulse 1.2s ease-in-out infinite}' +
+      '.dlg-btn.rec:hover{background:#b82626}' +
+      '@keyframes dlgRecPulse{0%,100%{opacity:1}50%{opacity:.6}}' +
+      '.dlg-shadow-fb{font-size:14px;margin-top:8px;min-height:1em}' +
+      '.dlg-shadow-fb .ok{color:#178a3a;font-weight:600}' +
+      '.dlg-shadow-fb .bad{color:#d12f2f}';
     var st = document.createElement('style');
     st.id = 'dlg-style';
     st.textContent = css;
     document.head.appendChild(st);
+  }
+
+  // ---------- 语音识别（Web Speech API，零依赖；Firefox 等不支持时按钮不显示） ----------
+  var SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition || null;
+  var activeRec = null; // 当前识别实例；切轮 / 切页时必须 abort，避免泄漏
+  var ttsWaitTimer = null; // 跟读前等 TTS 播完的轮询定时器
+
+  function stopVoice() {
+    if (ttsWaitTimer) {
+      clearInterval(ttsWaitTimer);
+      ttsWaitTimer = null;
+    }
+    if (activeRec) {
+      var rec = activeRec;
+      activeRec = null; // 先置空，onend 里据此区分“主动停止”
+      try {
+        rec.abort();
+      } catch (e) {
+        /* 已停止的实例 abort 会抛，忽略 */
+      }
+    }
+  }
+
+  function recErrorMsg(code) {
+    if (code === 'not-allowed' || code === 'service-not-allowed') {
+      return '麦克风权限被拒绝，请在浏览器地址栏允许使用麦克风后重试';
+    }
+    if (code === 'no-speech') return '没听到声音，请靠近麦克风大声说一次';
+    if (code === 'audio-capture') return '未检测到麦克风设备，请检查连接';
+    if (code === 'network') return '语音识别失败：Chrome 的识别走在线服务，请检查网络后重试';
+    return '语音识别出错（' + code + '），请重试';
+  }
+
+  // 开始一次识别。opts: { onStart(), onResult(text), onEnd() }
+  // 已在识别中会先 abort 旧的再开新的，保证重复点击可停可重开
+  function startVoice(opts) {
+    stopVoice();
+    var rec = new SpeechRec();
+    rec.lang = 'en-US'; // en-GB 识别支持差，统一 en-US
+    rec.interimResults = false;
+    rec.maxAlternatives = 1;
+    rec.onresult = function (ev) {
+      var text = '';
+      try {
+        text = ev.results[0][0].transcript || '';
+      } catch (e) {}
+      text = text.trim();
+      if (text && opts.onResult) opts.onResult(text);
+    };
+    rec.onerror = function (ev) {
+      if (ev.error === 'aborted') return; // 主动停止，不打扰
+      NCE.toast(recErrorMsg(ev.error), 'warn');
+    };
+    rec.onend = function () {
+      if (activeRec === rec) activeRec = null;
+      if (opts.onEnd) opts.onEnd();
+    };
+    activeRec = rec;
+    try {
+      rec.start();
+      if (opts.onStart) opts.onStart();
+    } catch (e) {
+      activeRec = null;
+      NCE.toast('语音识别启动失败，请重试', 'error');
+      if (opts.onEnd) opts.onEnd();
+    }
+  }
+
+  // 等 speechSynthesis 播完再回调（NCE.speak 无回调，轮询兜底，最多等 15 秒）
+  function afterTTS(cb) {
+    if (ttsWaitTimer) clearInterval(ttsWaitTimer);
+    var waited = 0;
+    ttsWaitTimer = setInterval(function () {
+      waited += 200;
+      var speaking =
+        window.speechSynthesis && (speechSynthesis.speaking || speechSynthesis.pending);
+      // 前 600ms 不判定：speak 是异步起播，刚调用时 speaking 可能还是 false
+      if (waited < 600) return;
+      if (!speaking || waited >= 15000) {
+        clearInterval(ttsWaitTimer);
+        ttsWaitTimer = null;
+        cb();
+      }
+    }, 200);
+  }
+
+  // 宽松相似度：转小写去标点后按词算编辑距离，用于跟读即时反馈（不计分）
+  function speechSimilarity(said, target) {
+    function words(s) {
+      return String(s || '')
+        .toLowerCase()
+        .replace(/[^a-z0-9' ]+/g, ' ')
+        .split(/\s+/)
+        .filter(Boolean);
+    }
+    var wa = words(said);
+    var wb = words(target);
+    if (!wa.length || !wb.length) return 0;
+    var prev = [];
+    var cur = [];
+    var i, j;
+    for (j = 0; j <= wb.length; j++) prev[j] = j;
+    for (i = 1; i <= wa.length; i++) {
+      cur[0] = i;
+      for (j = 1; j <= wb.length; j++) {
+        cur[j] = Math.min(
+          prev[j] + 1,
+          cur[j - 1] + 1,
+          prev[j - 1] + (wa[i - 1] === wb[j - 1] ? 0 : 1)
+        );
+      }
+      var tmp = prev;
+      prev = cur;
+      cur = tmp;
+    }
+    return 1 - prev[wb.length] / Math.max(wa.length, wb.length);
   }
 
   var metaCache = null;
@@ -62,6 +195,14 @@
 
   function onShow(panel) {
     injectStyle();
+    stopVoice(); // 重进本页时清掉残留识别
+    // 面板被切走（加 hidden class）时中止识别，registerFeature 没有 onHide 钩子，用观察器兜底
+    if (!panel._dlgVoiceWatcher && window.MutationObserver) {
+      panel._dlgVoiceWatcher = new MutationObserver(function () {
+        if (panel.classList.contains('hidden')) stopVoice();
+      });
+      panel._dlgVoiceWatcher.observe(panel, { attributes: true, attributeFilter: ['class'] });
+    }
     panel.innerHTML = '';
 
     var wrap = document.createElement('div');
@@ -132,37 +273,100 @@
     }
 
     function showList() {
+      stopVoice();
       var qs = curCategory ? '?category=' + encodeURIComponent(curCategory) : '';
       stage.innerHTML = '<div class="dlg-hint">加载对话列表…</div>';
-      NCE.api('/api/dialogue/list' + qs)
-        .then(function (d) {
+      Promise.all([
+        NCE.api('/api/dialogue/list' + qs),
+        metaCache ? Promise.resolve(metaCache) : NCE.api('/api/dialogue/meta'),
+      ])
+        .then(function (res) {
+          var d = res[0];
+          var meta = res[1] || metaCache;
+          if (meta && meta.chains) metaCache = meta;
           var list = (d && d.dialogues) || [];
           if (!list.length) {
             stage.innerHTML = '<div class="dlg-hint">该场景暂无对话内容</div>';
             return;
           }
-          stage.innerHTML = '<div class="dlg-list" id="dlg-list"></div>';
-          var box = stage.querySelector('#dlg-list');
-          list.forEach(function (item) {
-            var el = document.createElement('div');
-            el.className = 'dlg-item';
-            var catLabel = (metaCache && metaCache.categories[item.category]) || {};
-            el.innerHTML =
-              '<div class="t">' + NCE.escapeHtml(item.titleCn || item.title) +
-              ' <span style="font-weight:400;color:#889;font-size:14px">' + NCE.escapeHtml(item.title) + '</span></div>' +
-              '<div class="s">' + NCE.escapeHtml(item.scene || '') + '</div>' +
-              '<div class="m">' + NCE.escapeHtml((catLabel.icon || '') + ' ' + (catLabel.label || item.category)) +
-              ' · ' + item.practiceCount + ' 句练习 · 共 ' + item.turnCount + ' 轮</div>';
-            el.onclick = function () {
-              startDialogue(item.id);
-            };
-            box.appendChild(el);
+          stage.innerHTML = '<div id="dlg-list-root"></div>';
+          var root = stage.querySelector('#dlg-list-root');
+          var chains = (metaCache && metaCache.chains) || [];
+          var chainIdSet = new Set();
+          chains.forEach(function (ch) {
+            (ch.partIds || []).forEach(function (id) {
+              chainIdSet.add(id);
+            });
           });
+
+          chains.forEach(function (ch) {
+            var parts = list.filter(function (item) {
+              return ch.partIds && ch.partIds.indexOf(item.id) >= 0;
+            });
+            if (!parts.length) return;
+            parts.sort(function (a, b) {
+              return (a.chain && a.chain.part || 0) - (b.chain && b.chain.part || 0);
+            });
+            var block = document.createElement('div');
+            block.className = 'dlg-chain';
+            block.innerHTML =
+              '<div class="dlg-chain-hd">' +
+              '<div class="t">🔗 ' + NCE.escapeHtml(ch.titleCn || ch.title) +
+              ' <span class="dlg-chain-badge">' + parts.length + ' 环</span></div>' +
+              '<div class="s">完整对话链 · 按顺序练习，体验从需求到交付的全过程</div>' +
+              '</div><div class="dlg-chain-parts"></div>';
+            var partsBox = block.querySelector('.dlg-chain-parts');
+            parts.forEach(function (item) {
+              partsBox.appendChild(makeListItem(item, true));
+            });
+            root.appendChild(block);
+          });
+
+          var standalone = list.filter(function (item) {
+            return !chainIdSet.has(item.id);
+          });
+          if (standalone.length) {
+            var box = document.createElement('div');
+            box.className = 'dlg-list';
+            if (chains.length) {
+              var hd = document.createElement('div');
+              hd.className = 'dlg-hint';
+              hd.style.marginTop = '8px';
+              hd.textContent = '单篇对话';
+              root.appendChild(hd);
+            }
+            standalone.forEach(function (item) {
+              box.appendChild(makeListItem(item, false));
+            });
+            root.appendChild(box);
+          }
         })
         .catch(function (e) {
           console.error('[dialogue] 加载列表失败', e);
           stage.innerHTML = '<div class="dlg-hint">加载失败，请稍后重试</div>';
         });
+    }
+
+    function makeListItem(item, inChain) {
+      var el = document.createElement('div');
+      el.className = inChain ? 'dlg-chain-part' : 'dlg-item';
+      var catLabel = (metaCache && metaCache.categories[item.category]) || {};
+      var partLabel = item.chain
+        ? '<div class="p">第 ' + item.chain.part + ' / ' + item.chain.parts + ' 环</div>'
+        : '';
+      el.innerHTML =
+        partLabel +
+        '<div class="t">' + NCE.escapeHtml(item.titleCn || item.title) +
+        ' <span style="font-weight:400;color:#889;font-size:14px">' + NCE.escapeHtml(item.title) + '</span></div>' +
+        '<div class="s">' + NCE.escapeHtml(item.scene || '') + '</div>' +
+        (inChain
+          ? ''
+          : '<div class="m">' + NCE.escapeHtml((catLabel.icon || '') + ' ' + (catLabel.label || item.category)) +
+            ' · ' + item.practiceCount + ' 句练习 · 共 ' + item.turnCount + ' 轮</div>');
+      el.onclick = function () {
+        startDialogue(item.id);
+      };
+      return el;
     }
 
     function startDialogue(id) {
@@ -174,7 +378,15 @@
             showList();
             return;
           }
-          runPractice(stage, dlg);
+          runPractice(stage, dlg, {
+            onNextPart: function (nextId) {
+              startDialogue(nextId);
+            },
+            onBack: function () {
+              window.scrollTo(0, 0);
+              showList();
+            },
+          });
         })
         .catch(function (e) {
           console.error('[dialogue] 加载对话失败', e);
@@ -194,7 +406,8 @@
       });
   }
 
-  function runPractice(stage, dlg) {
+  function runPractice(stage, dlg, hooks) {
+    hooks = hooks || {};
     var turnIdx = 0;
     var chatLog = [];
     var tally = { correct: 0, total: 0 };
@@ -202,6 +415,7 @@
     render();
 
     function render() {
+      stopVoice(); // 进入下一轮前中止未完成的识别
       stage.innerHTML = '';
       var card = document.createElement('div');
       card.className = 'dlg-card';
@@ -216,9 +430,17 @@
 
       card.innerHTML =
         '<div class="dlg-progress">' +
-        '<span>' + NCE.escapeHtml(dlg.titleCn || dlg.title) + '</span>' +
+        '<span>' + NCE.escapeHtml(dlg.titleCn || dlg.title) +
+        (dlg.chain
+          ? ' <span class="dlg-chain-badge">链 ' + dlg.chain.part + '/' + dlg.chain.parts + '</span>'
+          : '') +
+        '</span>' +
         '<span>第 ' + (turnIdx + 1) + ' / ' + dlg.turns.length + ' 轮</span>' +
         '</div>' +
+        (dlg.chain
+          ? '<div class="dlg-scene" style="background:#eef3ff;border-color:#c5d5f5">🔗 ' +
+            NCE.escapeHtml(dlg.chain.titleCn || dlg.chain.title) + '</div>'
+          : '') +
         (dlg.scene ? '<div class="dlg-scene">📍 ' + NCE.escapeHtml(dlg.scene) + '</div>' : '') +
         '<div class="dlg-chat" id="dlg-chat"></div>' +
         '<div id="dlg-active"></div>';
@@ -271,12 +493,59 @@
         '</div>' +
         '<div class="dlg-actions">' +
         '<button class="dlg-btn mini" id="dlg-speak">🔊 朗读</button>' +
+        (SpeechRec ? '<button class="dlg-btn mini" id="dlg-shadow">🎤 跟读</button>' : '') +
         '<button class="dlg-btn primary" id="dlg-continue">继续 →</button>' +
-        '</div>';
+        '</div>' +
+        '<div class="dlg-shadow-fb" id="dlg-shadow-fb"></div>';
       NCE.speak(turn.en);
       active.querySelector('#dlg-speak').onclick = function () {
         NCE.speak(turn.en);
       };
+
+      // 跟读：先播标准音，再识别用户跟读，宽松比对给即时反馈；不计分不上报
+      var shadowBtn = active.querySelector('#dlg-shadow');
+      if (shadowBtn) {
+        var shadowFb = active.querySelector('#dlg-shadow-fb');
+        shadowBtn.onclick = function () {
+          if (activeRec || ttsWaitTimer) {
+            // 再点一次 = 停止（含还在播标准音的阶段）
+            stopVoice();
+            if (window.speechSynthesis) {
+              try {
+                speechSynthesis.cancel();
+              } catch (e) {}
+            }
+            shadowBtn.textContent = '🎤 跟读';
+            shadowBtn.classList.remove('rec');
+            return;
+          }
+          shadowFb.innerHTML = '';
+          shadowBtn.textContent = '🔊 听标准音…';
+          shadowBtn.classList.add('rec');
+          NCE.speak(turn.en);
+          afterTTS(function () {
+            startVoice({
+              onStart: function () {
+                shadowBtn.textContent = '🛑 跟读中…点击停止';
+              },
+              onResult: function (text) {
+                var sim = speechSimilarity(text, turn.en);
+                if (sim >= 0.65) {
+                  shadowFb.innerHTML = '<span class="ok">跟读得不错 ✓</span>';
+                } else {
+                  shadowFb.innerHTML =
+                    '<span class="bad">再试一次（你说的是: ' + NCE.escapeHtml(text) + '）</span>';
+                }
+              },
+              onEnd: function () {
+                shadowBtn.textContent = '🎤 跟读';
+                shadowBtn.classList.remove('rec');
+              },
+            });
+          });
+        };
+      }
+
       var btn = active.querySelector('#dlg-continue');
       btn.onclick = onNext;
       btn.focus(); // 聚焦按钮后按回车会原生触发 click 推进；不再用 document.onkeydown（会与练习轮输入框回车双触发、跳过练习轮）
@@ -290,6 +559,7 @@
         '<input class="dlg-input" id="dlg-input" autocomplete="off" spellcheck="false" placeholder="输入英文台词，回车提交…" />' +
         '<div class="dlg-actions">' +
         '<button class="dlg-btn primary" id="dlg-submit">提交</button>' +
+        (SpeechRec ? '<button class="dlg-btn" id="dlg-mic">🎤 开口说</button>' : '') +
         '<button class="dlg-btn" id="dlg-skip">显示答案</button>' +
         '</div>' +
         '<div id="dlg-feedback"></div>';
@@ -297,17 +567,24 @@
       var input = active.querySelector('#dlg-input');
       var submitBtn = active.querySelector('#dlg-submit');
       var skipBtn = active.querySelector('#dlg-skip');
+      var micBtn = active.querySelector('#dlg-mic');
       var feedback = active.querySelector('#dlg-feedback');
       input.focus();
 
       var graded = false;
 
+      function setBusy(busy) {
+        submitBtn.disabled = busy;
+        skipBtn.disabled = busy;
+        input.disabled = busy;
+        if (micBtn) micBtn.disabled = busy;
+      }
+
       function doGrade(val, skipped) {
         if (graded) return;
         graded = true;
-        submitBtn.disabled = true;
-        skipBtn.disabled = true;
-        input.disabled = true;
+        stopVoice(); // 提交时中止仍在进行的识别
+        setBusy(true);
 
         NCE.api('/api/dialogue/grade', {
           method: 'POST',
@@ -318,9 +595,7 @@
             if (!r || r.error) {
               NCE.toast((r && r.error) || '判分失败', 'error');
               graded = false;
-              submitBtn.disabled = false;
-              skipBtn.disabled = false;
-              input.disabled = false;
+              setBusy(false);
               return;
             }
             tally.total++;
@@ -338,9 +613,7 @@
             console.error('[dialogue] 判分失败', e);
             NCE.toast('判分失败，请稍后重试', 'error');
             graded = false;
-            submitBtn.disabled = false;
-            skipBtn.disabled = false;
-            input.disabled = false;
+            setBusy(false);
           });
       }
 
@@ -392,9 +665,34 @@
       skipBtn.onclick = function () {
         doGrade('', true);
       };
+      // 开口说：识别结果填入输入框并直接走 doGrade 判分链路（判分有口语等价容忍）
+      if (micBtn) {
+        micBtn.onclick = function () {
+          if (graded) return;
+          if (activeRec) {
+            stopVoice(); // 再点一次 = 停止，onend 会复位按钮
+            return;
+          }
+          startVoice({
+            onStart: function () {
+              micBtn.textContent = '🛑 识别中…点击停止';
+              micBtn.classList.add('rec');
+            },
+            onResult: function (text) {
+              input.value = text;
+              doGrade(text, false);
+            },
+            onEnd: function () {
+              micBtn.textContent = '🎤 开口说';
+              micBtn.classList.remove('rec');
+            },
+          });
+        };
+      }
     }
 
     function finish() {
+      stopVoice();
       document.onkeydown = null;
       var acc = tally.total ? Math.round((tally.correct / tally.total) * 100) : 0;
 
@@ -407,15 +705,30 @@
       stage.innerHTML = '';
       var card = document.createElement('div');
       card.className = 'dlg-card dlg-summary';
+      var nextBtn =
+        dlg.nextId
+          ? '<button class="dlg-btn primary" id="dlg-next-part">下一环 →</button>'
+          : '';
       card.innerHTML =
         '<div style="font-size:18px;font-weight:600;margin-bottom:8px">' + NCE.escapeHtml(dlg.titleCn || dlg.title) + '</div>' +
+        (dlg.chain
+          ? '<div class="sub">🔗 ' + NCE.escapeHtml(dlg.chain.titleCn || dlg.chain.title) +
+            ' · 第 ' + dlg.chain.part + ' / ' + dlg.chain.parts + ' 环完成</div>'
+          : '') +
         '<div class="big">' + acc + '%</div>' +
         '<div class="sub">本轮正确率 · 练习 ' + tally.total + ' 句 · 正确 ' + tally.correct + ' 句</div>' +
         '<div class="dlg-actions" style="justify-content:center;margin-top:16px">' +
+        nextBtn +
         '<button class="dlg-btn primary" id="dlg-retry">再练一遍</button>' +
         '<button class="dlg-btn" id="dlg-back">返回列表</button>' +
         '</div>';
       stage.appendChild(card);
+
+      if (dlg.nextId && hooks.onNextPart) {
+        card.querySelector('#dlg-next-part').onclick = function () {
+          hooks.onNextPart(dlg.nextId);
+        };
+      }
 
       card.querySelector('#dlg-retry').onclick = function () {
         turnIdx = 0;
@@ -424,8 +737,11 @@
         render();
       };
       card.querySelector('#dlg-back').onclick = function () {
-        window.scrollTo(0, 0);
-        NCE.gotoTab('dialogue');
+        if (hooks.onBack) hooks.onBack();
+        else {
+          window.scrollTo(0, 0);
+          NCE.gotoTab('dialogue');
+        }
       };
     }
   }

@@ -332,5 +332,1051 @@
       { "role": "Client", "cn": "好了，谢谢。", "en": "Got it. Thank you." },
       { "role": "You", "cn": "有问题随时邮件我。", "en": "Email me anytime if you get stuck." }
     ]
+  },
+  {
+    "id": "dlg-it-21",
+    "category": "itwork",
+    "title": "Backlog Refinement",
+    "titleCn": "需求梳理会",
+    "scene": "迭代前 backlog refinement，你和产品一起拆故事。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "这条'批量导入'太大，能拆吗？", "en": "This bulk import story is too big. Can we split it?" },
+      { "role": "You", "cn": "可以，先做CSV上传，Excel下期。", "en": "Yes. CSV upload first, Excel next sprint." },
+      { "role": "PM", "cn": "验收标准要写多细？", "en": "How detailed should acceptance criteria be?" },
+      { "role": "You", "cn": "边界情况要写清：空文件、超行数、编码错误。", "en": "Cover edge cases: empty file, row limit, encoding errors." },
+      { "role": "PM", "cn": "好，我今晚更新Jira。", "en": "Okay. I'll update Jira tonight." },
+      { "role": "You", "cn": "拆完我再估点。", "en": "I'll estimate once it's split." }
+    ]
+  },
+  {
+    "id": "dlg-it-22",
+    "category": "itwork",
+    "title": "Urgent Scope Change",
+    "titleCn": "临时加需求",
+    "scene": "Sprint 进行中，产品经理想临时插入紧急需求。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "客户非要这周五加个导出按钮，能塞进来吗？", "en": "The client insists on an export button by Friday. Can we squeeze it in?" },
+      { "role": "You", "cn": "可以，但得拿掉报表筛选那个故事。", "en": "Maybe, but we'd have to drop the report filter story." },
+      { "role": "PM", "cn": "筛选能延到下周吗？", "en": "Can filters wait until next week?" },
+      { "role": "You", "cn": "能，但我要跟客户确认范围变更。", "en": "Yes, but I need the client to sign off on the scope change." },
+      { "role": "PM", "cn": "我去沟通，你先按导出做。", "en": "I'll talk to them. Start on export for now." },
+      { "role": "You", "cn": "好，我更新 sprint board。", "en": "Okay. I'll update the sprint board." }
+    ]
+  },
+  {
+    "id": "dlg-it-23",
+    "category": "itwork",
+    "title": "API Contract with Frontend",
+    "titleCn": "前后端接口对齐",
+    "scene": "你和前端开发对齐 API 字段和错误码。",
+    "roles": ["You", "Frontend"],
+    "turns": [
+      { "role": "Frontend", "cn": "用户列表接口，分页参数叫什么？", "en": "For the user list API, what are the pagination params called?" },
+      { "role": "You", "cn": "page和pageSize，默认二十条。", "en": "page and pageSize. Default twenty per page." },
+      { "role": "Frontend", "cn": "没数据返回空数组还是404？", "en": "Empty array or four oh four when there's no data?" },
+      { "role": "You", "cn": "200加空数组，404只用于用户不存在。", "en": "Two hundred with an empty array. Four oh four only if the user doesn't exist." },
+      { "role": "Frontend", "cn": "好，Swagger更新了告诉我。", "en": "Got it. Ping me when Swagger is updated." },
+      { "role": "You", "cn": "下午三点前发你链接。", "en": "I'll send the link before three PM." }
+    ]
+  },
+  {
+    "id": "dlg-it-24",
+    "category": "itwork",
+    "title": "Release to Production",
+    "titleCn": "上线发布",
+    "scene": "版本要上线，你和运维确认发布步骤。",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "DevOps", "cn": "今晚十点窗口，准备好了吗？", "en": "Tonight's ten PM window. Are you ready?" },
+      { "role": "You", "cn": "准备好了，先灰度百分之十。", "en": "Yes. Roll out to ten percent first." },
+      { "role": "DevOps", "cn": "监控指标看什么？", "en": "Which metrics should we watch?" },
+      { "role": "You", "cn": "错误率和P99延迟，超阈值立刻回滚。", "en": "Error rate and P99 latency. Roll back if they spike." },
+      { "role": "DevOps", "cn": "好，我发Teams通知。", "en": "Okay. I'll post in Teams." },
+      { "role": "You", "cn": "我十点在线盯着。", "en": "I'll be online at ten to monitor." }
+    ]
+  },
+  {
+    "id": "dlg-it-25",
+    "category": "itwork",
+    "title": "Sprint Retrospective",
+    "titleCn": "迭代回顾会",
+    "scene": "Sprint 结束，团队做 retrospective。",
+    "roles": ["You", "Scrum Master"],
+    "turns": [
+      { "role": "Scrum Master", "cn": "这周什么做得好？", "en": "What went well this sprint?" },
+      { "role": "You", "cn": "和需求方每天同步，返工少了。", "en": "Daily sync with stakeholders. Less rework." },
+      { "role": "Scrum Master", "cn": "有什么要改进？", "en": "What should we improve?" },
+      { "role": "You", "cn": "测试环境经常挂，耽误联调。", "en": "Test env goes down a lot. It blocks integration." },
+      { "role": "Scrum Master", "cn": "下周行动项：运维加固环境。", "en": "Action item next week: ops hardens the environment." },
+      { "role": "You", "cn": "我可以帮忙写监控脚本。", "en": "I can help write a monitoring script." }
+    ]
+  },
+  {
+    "id": "dlg-it-26",
+    "category": "itwork",
+    "title": "Blocked on Another Team",
+    "titleCn": "跨团队依赖卡住",
+    "scene": "你的功能依赖支付团队 API，对方还没交付。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "You", "cn": "支付团队的退款接口还没好，我这边 blocked。", "en": "Payments team's refund API isn't ready. I'm blocked." },
+      { "role": "PM", "cn": "他们什么时候能给？", "en": "When can they deliver?" },
+      { "role": "You", "cn": "说是周三，但已经延过一次了。", "en": "They said Wednesday, but it's already slipped once." },
+      { "role": "PM", "cn": "我先 mock 接口，你能先做别的吗？", "en": "I'll get a mock API. Can you work on something else?" },
+      { "role": "You", "cn": "可以，我先做前端联调的准备工作。", "en": "Sure. I'll prep for frontend integration." },
+      { "role": "PM", "cn": "我去催支付团队负责人。", "en": "I'll escalate to the payments lead." }
+    ]
+  },
+  {
+    "id": "dlg-it-27",
+    "category": "itwork",
+    "title": "UAT with Business User",
+    "titleCn": "业务方验收",
+    "scene": "功能开发完，业务方来做用户验收测试。",
+    "roles": ["You", "Business User"],
+    "turns": [
+      { "role": "Business User", "cn": "我试了导入，一千行可以，一万行失败了。", "en": "Import works for a thousand rows but fails at ten thousand." },
+      { "role": "You", "cn": "目前上限五千行，需求文档里写了。", "en": "Current limit is five thousand. It's in the requirements doc." },
+      { "role": "Business User", "cn": "业务需要一万，能改吗？", "en": "We need ten thousand. Can that change?" },
+      { "role": "You", "cn": "可以，但要加故事点，大概两天。", "en": "Yes, but it's a new story. About two days." },
+      { "role": "Business User", "cn": "你跟产品经理说，我签字确认。", "en": "Talk to the PM. I'll sign off on the change." },
+      { "role": "You", "cn": "好，今天先验其他功能。", "en": "Okay. Let's test the other features today." }
+    ]
+  },
+  {
+    "id": "dlg-it-28",
+    "category": "itwork",
+    "title": "PRD Walkthrough",
+    "titleCn": "需求文档评审",
+    "scene": "产品经理讲解 PRD，你提问澄清细节。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "新版PRD发Confluence了，大家看过吗？", "en": "New PRD is on Confluence. Has everyone read it?" },
+      { "role": "You", "cn": "看了，通知模块触发条件不太清楚。", "en": "I did. Notification triggers aren't clear." },
+      { "role": "PM", "cn": "订单状态变'已发货'就发，可以吗？", "en": "Send when order status becomes Shipped. Does that work?" },
+      { "role": "You", "cn": "部分发货怎么处理？要拆单吗？", "en": "What about partial shipments? Do we split orders?" },
+      { "role": "PM", "cn": "好问题，我补一节到PRD。", "en": "Good catch. I'll add a section to the PRD." },
+      { "role": "You", "cn": "补完我再估工时。", "en": "I'll estimate once that's updated." }
+    ]
+  },
+  {
+    "id": "dlg-it-29",
+    "category": "itwork",
+    "title": "Push Back on Timeline",
+    "titleCn": "工期谈判",
+    "scene": "项目经理催工期，你认为时间不够。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "客户要下周上线，能赶吗？", "en": "The client wants go-live next week. Can we make it?" },
+      { "role": "You", "cn": "按现在范围至少要两周，测试都不够。", "en": "With current scope we need two weeks minimum. Not enough testing time." },
+      { "role": "Manager", "cn": "能先上核心功能吗？", "en": "Can we ship core features first?" },
+      { "role": "You", "cn": "可以，报表和导出放到二期。", "en": "Yes. Reports and export can be phase two." },
+      { "role": "Manager", "cn": "你跟客户解释分期方案。", "en": "Walk the client through the phased plan." },
+      { "role": "You", "cn": "好，明天会上我讲。", "en": "Sure. I'll present it in tomorrow's meeting." }
+    ]
+  },
+  {
+    "id": "dlg-it-30",
+    "category": "itwork",
+    "title": "On-Call Handoff",
+    "titleCn": "值班交接",
+    "scene": "你结束 on-call，把未解决问题交给下一班。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "这周on-call交接给你，有两件事挂着。", "en": "Handing off on-call to you. Two open items." },
+      { "role": "Colleague", "cn": "说，什么级别？", "en": "Go ahead. What severity?" },
+      { "role": "You", "cn": "一个是短信延迟，P2，供应商在处理。", "en": "SMS delay, P2. Vendor is working on it." },
+      { "role": "Colleague", "cn": "另一个呢？", "en": "And the other?" },
+      { "role": "You", "cn": "日志磁盘快满，运维今晚扩容，你盯一下。", "en": "Log disk almost full. Ops expands tonight. Keep an eye on it." },
+      { "role": "Colleague", "cn": "好，runbook在Notion对吧？", "en": "Got it. Runbook's in Notion, right?" },
+      { "role": "You", "cn": "对，链接发你Slack了。", "en": "Yes. I sent you the link on Slack." }
+    ]
+  },
+  {
+    "id": "dlg-it-31",
+    "category": "itwork",
+    "title": "Incident Postmortem",
+    "titleCn": "故障复盘会",
+    "scene": "线上事故后，团队开 blameless postmortem。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "先讲时间线，从报警开始。", "en": "Walk us through the timeline from the alert." },
+      { "role": "You", "cn": "十点十五报警，十点四十定位到配置错误，十一点恢复。", "en": "Alert at ten fifteen. Root cause found at ten forty. Restored by eleven." },
+      { "role": "Manager", "cn": "为什么没自动回滚？", "en": "Why didn't it auto-roll back?" },
+      { "role": "You", "cn": "回滚脚本没覆盖这个新服务，我们补。", "en": "Rollback script didn't cover this new service. We'll fix that." },
+      { "role": "Manager", "cn": "行动项谁负责？", "en": "Who owns the action items?" },
+      { "role": "You", "cn": "我负责更新runbook和加集成测试。", "en": "I'll update the runbook and add integration tests." }
+    ]
+  },
+  {
+    "id": "dlg-it-32",
+    "category": "itwork",
+    "title": "Tech Debt vs Feature",
+    "titleCn": "技术债与功能取舍",
+    "scene": "你想抽时间还技术债，产品经理想加新功能。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "You", "cn": "这个sprint能留20%时间重构支付模块吗？", "en": "Can we reserve twenty percent of the sprint to refactor payments?" },
+      { "role": "PM", "cn": "客户催新功能，技术债能延后吗？", "en": "The client wants new features. Can tech debt wait?" },
+      { "role": "You", "cn": "再拖上线风险大，上次差点又宕机。", "en": "Delaying raises outage risk. We almost went down last time." },
+      { "role": "PM", "cn": "那拆一个小故事，三天够吗？", "en": "Okay, one small story. Is three days enough?" },
+      { "role": "You", "cn": "够做最关键的，剩下的下 sprint。", "en": "Enough for the critical part. Rest next sprint." },
+      { "role": "PM", "cn": "行，我加到backlog。", "en": "Fine. I'll add it to the backlog." }
+    ]
+  },
+  {
+    "id": "dlg-it-33",
+    "category": "itwork",
+    "title": "Pair Programming Help",
+    "titleCn": "结对排查问题",
+    "scene": "同事遇到棘手 bug，你过去一起 debug。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "这个接口偶发超时，我查了一上午。", "en": "This endpoint times out randomly. I've been at it all morning." },
+      { "role": "You", "cn": "日志里N+1查询很明显，先加prefetch。", "en": "Logs show N plus one queries. Try adding prefetch first." },
+      { "role": "Colleague", "cn": "加了还是慢，只在高峰期。", "en": "Still slow after that. Only during peak hours." },
+      { "role": "You", "cn": "可能是连接池，一起看监控。", "en": "Might be the connection pool. Let's check the dashboard." },
+      { "role": "Colleague", "cn": "真是池子满了，谢谢！", "en": "Pool's maxed out. Thanks!" },
+      { "role": "You", "cn": "顺便写个告警，下次早知道。", "en": "Let's add an alert so we catch it earlier." }
+    ]
+  },
+  {
+    "id": "dlg-it-34",
+    "category": "itwork",
+    "title": "Didn't Catch That in Standup",
+    "titleCn": "站会没听清",
+    "scene": "站会上同事说太快，你没听清 blocker 内容。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "……所以staging的证书过期了，blocked。", "en": "…so the staging cert expired. I'm blocked." },
+      { "role": "You", "cn": "不好意思，你说证书怎么了？能再说一遍吗？", "en": "Sorry, what happened with the cert? Could you say that again?" },
+      { "role": "Colleague", "cn": "Staging SSL证书昨天过期，申请新的要等IT。", "en": "Staging SSL cert expired yesterday. Waiting on IT for a new one." },
+      { "role": "You", "cn": "我确认一下：你没法部署到staging，对吗？", "en": "Let me confirm: you can't deploy to staging, right?" },
+      { "role": "Colleague", "cn": "对，预计今天下午好。", "en": "Right. Should be fixed this afternoon." },
+      { "role": "You", "cn": "好，需要我跟IT说一声就说。", "en": "Okay. Tell me if you want me to ping IT." }
+    ]
+  },
+  {
+    "id": "dlg-it-35",
+    "category": "itwork",
+    "title": "Client Requirements Email Call",
+    "titleCn": "客户邮件需求电话澄清",
+    "scene": "客户邮件提了一堆需求，你电话逐项确认。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "邮件里第三条，仪表盘要实时刷新。", "en": "Item three in my email — the dashboard needs real-time refresh." },
+      { "role": "You", "cn": "实时是每秒还是每分钟？数据量多大？", "en": "Real-time as in every second or every minute? How much data?" },
+      { "role": "Client", "cn": "大概每分钟，几百条记录。", "en": "About every minute. A few hundred records." },
+      { "role": "You", "cn": "明白，我记进需求单。还有优先级吗？", "en": "Got it. I'll log that. Any priority order?" },
+      { "role": "Client", "cn": "导出比刷新急，周五前要导出。", "en": "Export is more urgent. Need export by Friday." },
+      { "role": "You", "cn": "好，我发更新后的范围给您签字。", "en": "Okay. I'll send an updated scope for your sign-off." },
+      { "role": "Client", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-it-36",
+    "category": "itwork",
+    "title": "Slack Requirements Clarification",
+    "titleCn": "Slack追问需求",
+    "scene": "产品经理 Slack 留言需求不清，你打电话快速对齐。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "Slack上说的'优化搜索'，这周能做吗？", "en": "That search optimization in Slack — can we do it this week?" },
+      { "role": "You", "cn": "范围太宽了，是速度还是结果排序？", "en": "Scope's too broad. Speed or result ranking?" },
+      { "role": "PM", "cn": "主要是速度，两秒内出结果。", "en": "Mainly speed. Results within two seconds." },
+      { "role": "You", "cn": "全库还是当前用户的数据？", "en": "Full database or just the current user's data?" },
+      { "role": "PM", "cn": "当前用户的，全库以后再说。", "en": "Current user only. Full database later." },
+      { "role": "You", "cn": "好，我建ticket，估三天。", "en": "Okay. I'll create a ticket. Estimate three days." }
+    ]
+  },
+  {
+    "id": "dlg-it-37",
+    "category": "itwork",
+    "title": "Design Handoff Review",
+    "titleCn": "和设计师对稿",
+    "scene": "设计师出了 Figma 稿，你和对方过一遍实现细节。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "新版结账页在Figma，你看过吗？", "en": "New checkout page is in Figma. Have you seen it?" },
+      { "role": "You", "cn": "看了，移动端按钮间距和稿不一致怎么办？", "en": "Yes. What if button spacing on mobile doesn't match the mock?" },
+      { "role": "Designer", "cn": "用八像素网格，小屏可以缩到六。", "en": "Use the eight-pixel grid. Six on small screens is fine." },
+      { "role": "You", "cn": "加载中的骨架屏有吗？", "en": "Do we have a skeleton screen for loading?" },
+      { "role": "Designer", "cn": "有，在同一文件第二页。", "en": "Yes. Second page of the same file." },
+      { "role": "You", "cn": "好，我按稿实现，有疑问再@你。", "en": "Got it. I'll build to spec. I'll ping you if anything's unclear." }
+    ]
+  },
+  {
+    "id": "dlg-it-38",
+    "category": "itwork",
+    "title": "Security Review",
+    "titleCn": "安全评审",
+    "scene": "安全团队 review 你的新功能，你回答问题。",
+    "roles": ["You", "Security"],
+    "turns": [
+      { "role": "Security", "cn": "用户上传文件，怎么防恶意脚本？", "en": "For user file uploads, how do you block malicious scripts?" },
+      { "role": "You", "cn": "白名单扩展名，病毒扫描，存隔离桶。", "en": "Extension whitelist, virus scan, isolated storage bucket." },
+      { "role": "Security", "cn": "API密钥放哪？", "en": "Where do API keys live?" },
+      { "role": "You", "cn": "Secrets Manager，不进代码库。", "en": "Secrets Manager. Never in the repo." },
+      { "role": "Security", "cn": "日志里会打密码吗？", "en": "Do logs ever include passwords?" },
+      { "role": "You", "cn": "不会，敏感字段脱敏。", "en": "No. Sensitive fields are redacted." },
+      { "role": "Security", "cn": "可以上线，记得季度渗透测试。", "en": "Approved for release. Schedule the quarterly pen test." }
+    ]
+  },
+  {
+    "id": "dlg-it-39",
+    "category": "itwork",
+    "title": "Performance Report to PM",
+    "titleCn": "性能优化汇报",
+    "scene": "你做完性能优化，向产品经理汇报结果。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "首页加载优化怎么样了？", "en": "How's the homepage load optimization going?" },
+      { "role": "You", "cn": "P95从四秒降到一点八秒，图片懒加载和缓存都上了。", "en": "P95 dropped from four seconds to one point eight. Lazy images and caching are in." },
+      { "role": "PM", "cn": "用户能感知到吗？", "en": "Will users notice?" },
+      { "role": "You", "cn": "首屏快很多，下面滚动才加载。", "en": "Much faster first paint. Below-the-fold loads on scroll." },
+      { "role": "PM", "cn": "好，写进本周发布说明。", "en": "Great. Put it in this week's release notes." },
+      { "role": "You", "cn": "我草稿发你。", "en": "I'll send you a draft." }
+    ]
+  },
+  {
+    "id": "dlg-it-40",
+    "category": "itwork",
+    "title": "Database Migration Plan",
+    "titleCn": "数据库迁移讨论",
+    "scene": "大表要改结构，你和 DBA 讨论迁移方案。",
+    "roles": ["You", "DBA"],
+    "turns": [
+      { "role": "You", "cn": "orders表要加索引，能在线做吗？", "en": "We need a new index on orders. Can we do it online?" },
+      { "role": "DBA", "cn": "表太大，建议维护窗口凌晨两点。", "en": "Table's huge. I'd use a maintenance window at two AM." },
+      { "role": "You", "cn": "大概锁多久？", "en": "How long will locks last?" },
+      { "role": "DBA", "cn": "用CONCURRENTLY的话读写不停，二十分钟。", "en": "With CONCURRENTLY, reads and writes continue. About twenty minutes." },
+      { "role": "You", "cn": "好，我提变更单，你批。", "en": "Okay. I'll submit a change request for your approval." },
+      { "role": "DBA", "cn": "脚本先发我review。", "en": "Send me the script to review first." }
+    ]
+  },
+  {
+    "id": "dlg-it-41",
+    "category": "itwork",
+    "title": "Writing API Documentation",
+    "titleCn": "写接口文档",
+    "scene": "同事问你某个 API 怎么用，你口头讲解并承诺补文档。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "退款接口文档在哪？参数看不懂。", "en": "Where's the refund API doc? The params confuse me." },
+      { "role": "You", "cn": "Swagger有，但例子旧了，我今晚补。", "en": "Swagger has it, but examples are stale. I'll update tonight." },
+      { "role": "Colleague", "cn": "orderId和transactionId都要传吗？", "en": "Do I send both orderId and transactionId?" },
+      { "role": "You", "cn": "只传orderId，全额退；部分退再加amount。", "en": "Just orderId for full refund. Add amount for partial." },
+      { "role": "Colleague", "cn": "错误码422是什么意思？", "en": "What does error four twenty-two mean?" },
+      { "role": "You", "cn": "订单状态不允许退，我加进文档表格。", "en": "Order status doesn't allow refund. I'll add it to the error table." }
+    ]
+  },
+  {
+    "id": "dlg-it-42",
+    "category": "itwork",
+    "title": "Prioritizing the Backlog",
+    "titleCn": "排需求优先级",
+    "scene": "Sprint 容量有限，你和产品经理排优先级。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "十个故事都想做，只能塞六个。", "en": "We want all ten stories but only fit six." },
+      { "role": "You", "cn": "建议：支付bug、登录优化必做，其余按客户影响排。", "en": "I'd do payment bug and login fix for sure. Rank the rest by customer impact." },
+      { "role": "PM", "cn": "深色主题能再延吗？", "en": "Can dark mode slip again?" },
+      { "role": "You", "cn": "可以，不影响核心流程。", "en": "Yes. It doesn't block core flows." },
+      { "role": "PM", "cn": "好，我更新优先级发客户。", "en": "Okay. I'll update priorities and email the client." },
+      { "role": "You", "cn": "确认后我开始拆任务。", "en": "Once confirmed, I'll break down tasks." }
+    ]
+  },
+  {
+    "id": "dlg-it-43",
+    "category": "itwork",
+    "title": "Demo Dry Run",
+    "titleCn": "演示前彩排",
+    "scene": "明天给客户演示，你和同事彩排流程。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "明天demo你讲还是我讲？", "en": "Are you presenting tomorrow's demo or am I?" },
+      { "role": "You", "cn": "你开场，我演示后台，每人十五分钟。", "en": "You open, I demo the admin panel. Fifteen minutes each." },
+      { "role": "Colleague", "cn": "测试数据准备好了吗？", "en": "Is test data ready?" },
+      { "role": "You", "cn": "准备了，但别点删除用户，会真删。", "en": "Yes, but don't click delete user — it's real on staging." },
+      { "role": "Colleague", "cn": "哈哈好，备用录屏呢？", "en": "Ha, okay. Backup screen recording?" },
+      { "role": "You", "cn": "在共享盘，网络挂了就用。", "en": "On the shared drive. Use it if the network dies." }
+    ]
+  },
+  {
+    "id": "dlg-it-44",
+    "category": "itwork",
+    "title": "Emergency Rollback",
+    "titleCn": "紧急回滚",
+    "scene": "上线后发现问题，你和运维决定回滚。",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "DevOps", "cn": "错误率飙了，要回滚吗？", "en": "Error rate spiked. Should we roll back?" },
+      { "role": "You", "cn": "回滚，上一版tag v2.3.1。", "en": "Yes. Roll back to tag v two point three point one." },
+      { "role": "DevOps", "cn": "数据库迁移已经跑了怎么办？", "en": "Migration already ran. What about that?" },
+      { "role": "You", "cn": "迁移是向后兼容的，先回滚代码。", "en": "Migration is backward compatible. Roll back code first." },
+      { "role": "DevOps", "cn": "五分钟能完成，我发通知。", "en": "Five minutes. I'll post the notice." },
+      { "role": "You", "cn": "我查根因，稍后写incident报告。", "en": "I'll find root cause and write the incident report." }
+    ]
+  },
+  {
+    "id": "dlg-it-45",
+    "category": "itwork",
+    "title": "Explain Estimate to Client",
+    "titleCn": "向客户解释工期",
+    "scene": "非技术客户不理解为什么功能要两周，你耐心解释。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "加个按钮而已，为什么要两周？", "en": "It's just a button. Why two weeks?" },
+      { "role": "You", "cn": "按钮背后是权限校验、审计日志和测试。", "en": "Behind the button: permission checks, audit logs, and testing." },
+      { "role": "Client", "cn": "能先上按钮，其他的后补吗？", "en": "Can we ship the button first and add the rest later?" },
+      { "role": "You", "cn": "没有权限控制会有安全风险，不建议。", "en": "Without access control there's a security risk. I wouldn't recommend it." },
+      { "role": "Client", "cn": "明白了，按你们的方案来。", "en": "I understand. We'll follow your plan." },
+      { "role": "You", "cn": "谢谢，我会发里程碑时间表。", "en": "Thank you. I'll send a milestone timeline." }
+    ]
+  },
+  {
+    "id": "dlg-it-46",
+    "category": "itwork",
+    "title": "CI Pipeline Failed",
+    "titleCn": "流水线挂了",
+    "scene": "你的 PR 导致 CI 失败，同事提醒你修复。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "你PR把main的构建搞红了。", "en": "Your PR broke the main build." },
+      { "role": "You", "cn": "看到邮件了，是单元测试挂了？", "en": "Saw the email. Unit tests failing?" },
+      { "role": "Colleague", "cn": "对，payment_test里断言过期了。", "en": "Yes. Assertions in payment_test are outdated." },
+      { "role": "You", "cn": "我改接口返回值了，马上修测试。", "en": "I changed the API response. Fixing tests now." },
+      { "role": "Colleague", "cn": "修完squash一下，历史干净点。", "en": "Squash when done. Keeps history clean." },
+      { "role": "You", "cn": "半小时内推。", "en": "Push within thirty minutes." }
+    ]
+  },
+  {
+    "id": "dlg-it-47",
+    "category": "itwork",
+    "title": "Feature Flag Discussion",
+    "titleCn": "功能开关方案",
+    "scene": "新功能要用 feature flag 灰度，你和 PM 对齐。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "新结账流程能先给百分之十用户吗？", "en": "Can ten percent of users get the new checkout first?" },
+      { "role": "You", "cn": "可以，用feature flag，随时关。", "en": "Yes. Feature flag. We can kill it anytime." },
+      { "role": "PM", "cn": "怎么选那百分之十？", "en": "How do we pick that ten percent?" },
+      { "role": "You", "cn": "按用户ID哈希，稳定分组。", "en": "Hash on user ID for stable buckets." },
+      { "role": "PM", "cn": "出问题几分钟能全关？", "en": "If something breaks, how fast can we turn it off?" },
+      { "role": "You", "cn": "配置一改，大约一分钟生效。", "en": "Flip the config. About one minute to take effect." }
+    ]
+  },
+  {
+    "id": "dlg-it-48",
+    "category": "itwork",
+    "title": "Remote Meeting Bad Audio",
+    "titleCn": "远程会听不清",
+    "scene": "Zoom 会上客户说话断断续续，你礼貌请求重复。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "……所以report要按department……", "en": "…so the report should group by department…" },
+      { "role": "You", "cn": "不好意思，您声音断断续续，能再说一遍吗？", "en": "Sorry, you're breaking up. Could you repeat that?" },
+      { "role": "Client", "cn": "我说报表要按部门分组导出。", "en": "I said export the report grouped by department." },
+      { "role": "You", "cn": "我确认一下：按部门分组，CSV格式，对吗？", "en": "Let me confirm: grouped by department, CSV format, right?" },
+      { "role": "Client", "cn": "对，和上次demo一样。", "en": "Yes. Same as last demo." },
+      { "role": "You", "cn": "明白了，我记进ticket。", "en": "Got it. I'll add it to the ticket." }
+    ]
+  },
+  {
+    "id": "dlg-it-49",
+    "category": "itwork",
+    "title": "Knowledge Share Presentation",
+    "titleCn": "内部分享",
+    "scene": "团队内部分享，你介绍刚做的项目经验。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "你们怎么做到零停机部署的？", "en": "How did you achieve zero-downtime deploys?" },
+      { "role": "You", "cn": "蓝绿部署加数据库向后兼容迁移。", "en": "Blue-green deploys plus backward-compatible DB migrations." },
+      { "role": "Colleague", "cn": "回滚策略呢？", "en": "What's the rollback strategy?" },
+      { "role": "You", "cn": "流量切回旧环境，新版本只加列不删列。", "en": "Shift traffic to the old stack. New version only adds columns, never drops." },
+      { "role": "Colleague", "cn": "幻灯片能发团队吗？", "en": "Can you share the slides with the team?" },
+      { "role": "You", "cn": "当然，会后发Slack。", "en": "Sure. I'll post them on Slack after." }
+    ]
+  },
+  {
+    "id": "dlg-it-50",
+    "category": "itwork",
+    "title": "Acceptance Sign-Off",
+    "titleCn": "需求签收确认",
+    "scene": "一期功能全部验收通过，你和客户正式签收。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "一期功能都验完了，您这边确认签收吗？", "en": "Phase one is fully tested. Ready to sign off?" },
+      { "role": "Client", "cn": "清单我对过了，没问题。", "en": "I went through the checklist. Looks good." },
+      { "role": "You", "cn": "请在这份验收单上签字，我发PDF。", "en": "Please sign this acceptance form. I'll send the PDF." },
+      { "role": "Client", "cn": "二期什么时候开始？", "en": "When does phase two start?" },
+      { "role": "You", "cn": "签收后下周kickoff，需求workshop周二。", "en": "Kickoff next week after sign-off. Requirements workshop Tuesday." },
+      { "role": "Client", "cn": "好，期待。", "en": "Sounds good. Looking forward to it." }
+    ]
+  },
+  {
+    "id": "dlg-it-51",
+    "category": "itwork",
+    "title": "Bug Priority Dispute",
+    "titleCn": "和测试争bug优先级",
+    "scene": "测试把 bug 标为 P0，你认为没那么严重，一起讨论。",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "登录页按钮颜色不对，我标P0了。", "en": "Login button color is wrong. I marked it P0." },
+      { "role": "You", "cn": "功能正常，只是色值偏了，能降P2吗？", "en": "Function works. Just the color's off. Can we drop it to P2?" },
+      { "role": "QA", "cn": "客户品牌规范，他们可能会拒收。", "en": "It's brand guidelines. The client might reject the release." },
+      { "role": "You", "cn": "明白，那今天修，不挡其他P0。", "en": "Got it. I'll fix it today. Won't block other P0s." },
+      { "role": "QA", "cn": "好，我改优先级，晚上回归。", "en": "Okay. I'll update priority and regression-test tonight." },
+      { "role": "You", "cn": "修完@你。", "en": "I'll ping you when it's in." }
+    ]
+  },
+  {
+    "id": "dlg-it-52",
+    "category": "itwork",
+    "title": "Automation Test Planning",
+    "titleCn": "和测试定自动化",
+    "scene": "你和 QA 讨论哪些用例要写成自动化测试。",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "支付流程要加自动化，你能提供测试账号吗？", "en": "We need automation for checkout. Can you provide test accounts?" },
+      { "role": "You", "cn": "可以，sandbox有三个账号，文档里写了。", "en": "Yes. Three sandbox accounts in the doc." },
+      { "role": "QA", "cn": "第三方短信验证码怎么mock？", "en": "How do we mock the SMS verification code?" },
+      { "role": "You", "cn": "测试环境固定用123456，接口有bypass开关。", "en": "Test env always uses one two three four five six. There's a bypass flag on the API." },
+      { "role": "QA", "cn": "好，我先写冒烟用例。", "en": "Good. I'll write smoke tests first." },
+      { "role": "You", "cn": "接口变了提前说一声。", "en": "Give me a heads-up if the API changes." }
+    ]
+  },
+  {
+    "id": "dlg-it-53",
+    "category": "itwork",
+    "title": "QA Blocks Release",
+    "titleCn": "测试挡发布",
+    "scene": "发布前测试发现 blocker，QA 建议暂缓上线。",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "我建议今晚别发，退款会重复扣款。", "en": "I'd hold tonight's release. Refunds may double-charge." },
+      { "role": "You", "cn": "什么条件下触发？我本地没复现。", "en": "Under what conditions? I can't reproduce locally." },
+      { "role": "QA", "cn": "连续点两次退款，间隔小于两秒。", "en": "Double-tap refund within two seconds." },
+      { "role": "You", "cn": "看到了，缺幂等，明天修完再发？", "en": "I see it. Missing idempotency. Ship tomorrow after fix?" },
+      { "role": "QA", "cn": "对，我加进回归清单。", "en": "Yes. I'll add it to the regression list." },
+      { "role": "You", "cn": "我跟PM和客户解释延期。", "en": "I'll explain the delay to the PM and client." }
+    ]
+  },
+  {
+    "id": "dlg-it-54",
+    "category": "itwork",
+    "title": "Explaining Fix to QA",
+    "titleCn": "向测试说明修复",
+    "scene": "你修完 bug，向 QA 口头说明改了什么、怎么验。",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "You", "cn": "安卓闪退修了，在build 1847。", "en": "Android crash is fixed in build eighteen forty-seven." },
+      { "role": "QA", "cn": "根因是什么？", "en": "What was the root cause?" },
+      { "role": "You", "cn": "权限弹窗没处理取消，空指针。", "en": "We didn't handle cancel on the permission dialog. Null pointer." },
+      { "role": "QA", "cn": "回归要测哪些机型？", "en": "Which devices should I regression-test?" },
+      { "role": "You", "cn": "三星A52和Pixel，安卓12以上。", "en": "Samsung A52 and Pixel, Android twelve plus." },
+      { "role": "QA", "cn": "好，今晚出报告。", "en": "Okay. Report tonight." }
+    ]
+  },
+  {
+    "id": "dlg-it-55",
+    "category": "itwork",
+    "title": "Frontend Blocked on API",
+    "titleCn": "前端等接口",
+    "scene": "前端同事催你接口进度，你说明交付时间。",
+    "roles": ["You", "Frontend"],
+    "turns": [
+      { "role": "Frontend", "cn": "用户详情页blocked了，接口什么时候好？", "en": "User detail page is blocked. When's the API ready?" },
+      { "role": "You", "cn": "GET接口今天下午，POST要明天。", "en": "GET this afternoon. POST tomorrow." },
+      { "role": "Frontend", "cn": "能先给mock吗？字段跟Swagger一致吗？", "en": "Can I get a mock first? Fields match Swagger?" },
+      { "role": "You", "cn": "mock在PR描述里，Swagger今晚更新。", "en": "Mock's in the PR description. Swagger updates tonight." },
+      { "role": "Frontend", "cn": "好，我先对接mock。", "en": "Cool. I'll wire up against the mock." },
+      { "role": "You", "cn": "真接口好了我叫你联调。", "en": "I'll ping you for integration when it's live." }
+    ]
+  },
+  {
+    "id": "dlg-it-56",
+    "category": "itwork",
+    "title": "CORS Integration Issue",
+    "titleCn": "前后端联调CORS",
+    "scene": "前端调用接口报 CORS 错误，你们一起排查。",
+    "roles": ["You", "Frontend"],
+    "turns": [
+      { "role": "Frontend", "cn": "浏览器报CORS error，你那边配了吗？", "en": "Browser shows CORS error. Did you configure it?" },
+      { "role": "You", "cn": "staging只放了生产域名，localhost没加。", "en": "Staging only allows the prod domain. Localhost wasn't added." },
+      { "role": "Frontend", "cn": "能加http://localhost:3000吗？", "en": "Can you add http colon slash slash localhost colon three thousand?" },
+      { "role": "You", "cn": "可以，十分钟生效，你刷新试试。", "en": "Yes. Takes ten minutes. Try refresh." },
+      { "role": "Frontend", "cn": "好了，通了，谢谢。", "en": "Works now. Thanks." },
+      { "role": "You", "cn": "正式环境别用localhost啊。", "en": "Don't use localhost in production though." }
+    ]
+  },
+  {
+    "id": "dlg-it-57",
+    "category": "itwork",
+    "title": "Date Format Mismatch",
+    "titleCn": "日期格式不一致",
+    "scene": "前后端显示日期差一天，你们对齐时区和格式。",
+    "roles": ["You", "Frontend"],
+    "turns": [
+      { "role": "Frontend", "cn": "订单日期显示少一天，你返回UTC还是本地？", "en": "Order date shows one day early. Do you return UTC or local?" },
+      { "role": "You", "cn": "ISO8601 UTC，前端要转用户时区。", "en": "ISO eight six zero one UTC. Frontend should convert to user timezone." },
+      { "role": "Frontend", "cn": "能直接返回MM/DD/YYYY吗？省事。", "en": "Can you return MM slash DD slash YYYY? Easier for us." },
+      { "role": "You", "cn": "不建议，国际化会乱。我加timezone字段。", "en": "I'd avoid that. i18n gets messy. I'll add a timezone field." },
+      { "role": "Frontend", "cn": "行，用moment转。", "en": "Fine. We'll convert with moment." },
+      { "role": "You", "cn": "文档我更新了。", "en": "Doc's updated." }
+    ]
+  },
+  {
+    "id": "dlg-it-58",
+    "category": "itwork",
+    "title": "Request Staging Access",
+    "titleCn": "申请测试环境权限",
+    "scene": "你需要运维开通 staging 服务器和数据库权限。",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "You", "cn": "能给我开staging SSH和只读数据库吗？", "en": "Can I get staging SSH and read-only database access?" },
+      { "role": "DevOps", "cn": "走工单，注明用途和期限。", "en": "Submit a ticket with purpose and duration." },
+      { "role": "You", "cn": "排查支付bug，大概三天。", "en": "Debugging a payment issue. About three days." },
+      { "role": "DevOps", "cn": "好，批完发你密钥，别改生产配置。", "en": "Okay. Keys after approval. Don't touch prod config." },
+      { "role": "You", "cn": "只读排查，不动数据。", "en": "Read-only investigation. No data changes." },
+      { "role": "DevOps", "cn": "工单号发我，我加速。", "en": "Send me the ticket number. I'll expedite." }
+    ]
+  },
+  {
+    "id": "dlg-it-59",
+    "category": "itwork",
+    "title": "Deploy Window Delay",
+    "titleCn": "部署窗口推迟",
+    "scene": "原定下线的发布窗口被运维推迟，你沟通原因。",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "DevOps", "cn": "今晚发布取消，机房网络维护。", "en": "Tonight's deploy is cancelled. Data center network maintenance." },
+      { "role": "You", "cn": "客户已知会了，下次窗口什么时候？", "en": "Client's been notified. When's the next window?" },
+      { "role": "DevOps", "cn": "明晚十点，同一流程。", "en": "Tomorrow ten PM. Same procedure." },
+      { "role": "You", "cn": "artifact要重新build吗？", "en": "Do we need a fresh build?" },
+      { "role": "DevOps", "cn": "不用，今晚的镜像保留。", "en": "No. We'll keep tonight's image." },
+      { "role": "You", "cn": "好，我更新发布日历。", "en": "Okay. I'll update the release calendar." }
+    ]
+  },
+  {
+    "id": "dlg-it-60",
+    "category": "itwork",
+    "title": "Wrong Production Config",
+    "titleCn": "生产配置错误",
+    "scene": "上线后发现配置指错环境，你和运维紧急修正。",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "You", "cn": "支付回调指到staging了，能热更新吗？", "en": "Payment callback points to staging. Can we hotfix config?" },
+      { "role": "DevOps", "cn": "可以，Env变量改完重启pod，两分钟。", "en": "Yes. Change env vars and restart pods. Two minutes." },
+      { "role": "You", "cn": "staging那几笔单怎么办？", "en": "What about the few orders that hit staging?" },
+      { "role": "DevOps", "cn": "你查日志，我配合导数据。", "en": "Check logs. I'll help export data." },
+      { "role": "You", "cn": "好，修完我写postmortem。", "en": "Okay. Postmortem after we're clean." },
+      { "role": "DevOps", "cn": "加一道发布前配置检查吧。", "en": "Let's add a pre-release config check." }
+    ]
+  },
+  {
+    "id": "dlg-it-61",
+    "category": "itwork",
+    "title": "Vague Product Request",
+    "titleCn": "模糊需求澄清",
+    "scene": "产品经理说「优化一下」，你追问具体指标。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "把搜索优化一下，用户体验要好。", "en": "Optimize search. Better user experience." },
+      { "role": "You", "cn": "具体指标是什么？速度、准确率还是界面？", "en": "Which metric? Speed, accuracy, or UI?" },
+      { "role": "PM", "cn": "速度吧，三秒内出结果。", "en": "Speed. Results within three seconds." },
+      { "role": "You", "cn": "数据量多大？全库还是当前页？", "en": "How much data? Full database or current page?" },
+      { "role": "PM", "cn": "全库，大概十万条。", "en": "Full database. About a hundred thousand rows." },
+      { "role": "You", "cn": "好，要加索引，估五天，我写方案。", "en": "Okay. Needs indexing. Five days. I'll write a proposal." }
+    ]
+  },
+  {
+    "id": "dlg-it-62",
+    "category": "itwork",
+    "title": "PM Wants to Skip Testing",
+    "titleCn": "产品想压缩测试",
+    "scene": "产品经理想跳过完整测试赶上线，你说明风险。",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "周五必须上，测试能不能只跑冒烟？", "en": "Must ship Friday. Can QA run smoke tests only?" },
+      { "role": "You", "cn": "支付模块动过了，全量回归更安全。", "en": "We touched payments. Full regression is safer." },
+      { "role": "PM", "cn": "客户合同写周五交付。", "en": "The client contract says Friday delivery." },
+      { "role": "You", "cn": "可以周五发灰度10%，周一全量。", "en": "Friday ten percent canary, full rollout Monday." },
+      { "role": "PM", "cn": "客户能接受，你去沟通。", "en": "Client can accept that. You explain it to them." },
+      { "role": "You", "cn": "好，我和QA排测试计划。", "en": "Okay. I'll align the test plan with QA." }
+    ]
+  },
+  {
+    "id": "dlg-it-63",
+    "category": "itwork",
+    "title": "Weekly Status to Manager",
+    "titleCn": "周报向领导汇报",
+    "scene": "每周一对一，你向直属领导汇报项目进度。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "这周进展怎么样？", "en": "How's progress this week?" },
+      { "role": "You", "cn": "登录重构完成，报表导出周三提测。", "en": "Login refactor done. Report export to QA Wednesday." },
+      { "role": "Manager", "cn": "有风险吗？", "en": "Any risks?" },
+      { "role": "You", "cn": "第三方API文档不全，可能延两天。", "en": "Third-party API docs are incomplete. Maybe two days slip." },
+      { "role": "Manager", "cn": "需要我出面协调吗？", "en": "Do you need me to escalate?" },
+      { "role": "You", "cn": "先我跟对方技术对接，下周还不行再找您。", "en": "I'll ping their tech lead first. Escalate next week if still stuck." },
+      { "role": "Manager", "cn": "好，继续保持同步。", "en": "Good. Keep me posted." }
+    ]
+  },
+  {
+    "id": "dlg-it-64",
+    "category": "itwork",
+    "title": "Escalate Blocker to Manager",
+    "titleCn": "向领导升级阻碍",
+    "scene": "跨部门问题卡住两周，你向领导求助升级。",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "支付团队接口拖了两周，我们完全blocked。", "en": "Payments team's API is two weeks late. We're fully blocked." },
+      { "role": "Manager", "cn": "你跟过他们经理吗？", "en": "Have you talked to their manager?" },
+      { "role": "You", "cn": "邮件催了三次，只说在排期。", "en": "Emailed three times. They keep saying it's queued." },
+      { "role": "Manager", "cn": "我下午找他们总监，你把时间线发我。", "en": "I'll call their director this afternoon. Send me the timeline." },
+      { "role": "You", "cn": "好，文档在Confluence，我Slack您。", "en": "Sure. Doc's on Confluence. I'll Slack you." },
+      { "role": "Manager", "cn": "这事今天要有结论。", "en": "We need resolution today." }
+    ]
+  },
+  {
+    "id": "dlg-it-65",
+    "category": "itwork",
+    "title": "Explain Delay to Director",
+    "titleCn": "向高层解释延期",
+    "scene": "项目要延期，你向部门领导口头说明原因和方案。",
+    "roles": ["You", "Director"],
+    "turns": [
+      { "role": "Director", "cn": "客户投诉要延期两周，怎么回事？", "en": "The client complained about a two-week delay. What happened?" },
+      { "role": "You", "cn": "需求变更三次，测试发现支付漏洞必须修。", "en": "Three scope changes plus a payment bug we had to fix." },
+      { "role": "Director", "cn": "能追回一周吗？", "en": "Can we recover a week?" },
+      { "role": "You", "cn": "砍深色主题能追回五天，核心功能不减。", "en": "Drop dark mode, recover five days. Core features stay." },
+      { "role": "Director", "cn": "跟客户开诚布公，别瞒。", "en": "Be transparent with the client. No surprises." },
+      { "role": "You", "cn": "明天会上我详细讲recovery plan。", "en": "I'll present the recovery plan in tomorrow's meeting." }
+    ]
+  },
+  {
+    "id": "dlg-it-66",
+    "category": "itwork",
+    "title": "Client Reports Production Bug",
+    "titleCn": "客户报线上bug",
+    "scene": "客户电话说生产环境出问题，你安抚并收集信息。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "用户说付完款订单还是待支付，很严重！", "en": "Users paid but orders still show pending. This is serious!" },
+      { "role": "You", "cn": "我理解，先确认：从什么时候开始？", "en": "I understand. First, when did this start?" },
+      { "role": "Client", "cn": "大概上午十点以后。", "en": "Around ten AM onward." },
+      { "role": "You", "cn": "有订单号吗？我们立刻查。", "en": "Any order numbers? We'll investigate right away." },
+      { "role": "Client", "cn": "ORD-8842，用户发了截图。", "en": "ORD eight eight four two. User sent a screenshot." },
+      { "role": "You", "cn": "三十分钟内给您初步结论。", "en": "Preliminary update within thirty minutes." }
+    ]
+  },
+  {
+    "id": "dlg-it-67",
+    "category": "itwork",
+    "title": "Client Asks for Free Scope",
+    "titleCn": "客户要免费加功能",
+    "scene": "客户要求在合同外加功能且不付钱，你专业回应。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "顺便加个微信登录吧，不大改动吧？", "en": "Can you add WeChat login while you're at it? Small change, right?" },
+      { "role": "You", "cn": "要接OAuth、合规审核，不在原合同范围。", "en": "That needs OAuth and compliance review. It's out of original scope." },
+      { "role": "Client", "cn": "能不能先做着，费用后面谈？", "en": "Can you start now and discuss fees later?" },
+      { "role": "You", "cn": "建议先签变更单，估三天工作量。", "en": "I'd sign a change order first. Estimate three days." },
+      { "role": "Client", "cn": "那先发报价和工期。", "en": "Send a quote and timeline then." },
+      { "role": "You", "cn": "今天下班前发您。", "en": "You'll have it by end of day." }
+    ]
+  },
+  {
+    "id": "dlg-it-68",
+    "category": "itwork",
+    "title": "Training Client on Feature",
+    "titleCn": "教客户用新功能",
+    "scene": "新功能上线，你电话教客户管理员使用。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "我带您过一遍批量导入，请共享屏幕。", "en": "I'll walk you through bulk import. Please share your screen." },
+      { "role": "Client", "cn": "点哪里上传？", "en": "Where do I click to upload?" },
+      { "role": "You", "cn": "Settings，Import，选CSV模板下载先。", "en": "Settings, Import. Download the CSV template first." },
+      { "role": "Client", "cn": "提示列名不对。", "en": "It says column names are wrong." },
+      { "role": "You", "cn": "第一行要和模板完全一致，不能有空格。", "en": "Row one must match the template exactly. No extra spaces." },
+      { "role": "Client", "cn": "成功了，谢谢！", "en": "It worked. Thank you!" },
+      { "role": "You", "cn": "操作视频我发邮件给您。", "en": "I'll email you a how-to video." }
+    ]
+  },
+  {
+    "id": "dlg-it-69",
+    "category": "itwork",
+    "title": "Client Questions Design",
+    "titleCn": "客户质疑产品设计",
+    "scene": "客户不理解为何按钮放在那里，你解释设计原因。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "保存按钮为什么在右上角？我们习惯在下面。", "en": "Why is Save top right? We're used to it at the bottom." },
+      { "role": "You", "cn": "跟主流后台一致，移动端拇指更好够到。", "en": "Matches common admin UIs. Easier thumb reach on mobile." },
+      { "role": "Client", "cn": "能改到下面吗？", "en": "Can you move it to the bottom?" },
+      { "role": "You", "cn": "可以，算小改动，要更新设计稿和测试。", "en": "Yes. Small change. Needs design update and retest." },
+      { "role": "Client", "cn": "要多久？", "en": "How long?" },
+      { "role": "You", "cn": "两天，我跟产品经理确认后排期。", "en": "Two days. I'll confirm with the PM and schedule." }
+    ]
+  },
+  {
+    "id": "dlg-it-70",
+    "category": "itwork",
+    "title": "Client Wants Earlier Demo",
+    "titleCn": "客户提前要看演示",
+    "scene": "客户想把演示提前到明天，你协调资源。",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "明天能演示吗？我们老板后天出差。", "en": "Can we demo tomorrow? Our boss travels the day after." },
+      { "role": "You", "cn": "明天可以，但报表导出可能还是半成品。", "en": "Tomorrow works, but report export may still be rough." },
+      { "role": "Client", "cn": "半成品也行，先看主流程。", "en": "Rough is fine. We mainly need the core flow." },
+      { "role": "You", "cn": "那我下午两点，发Zoom链接。", "en": "Two PM then. I'll send a Zoom link." },
+      { "role": "Client", "cn": "能不能录屏？", "en": "Can you record it?" },
+      { "role": "You", "cn": "可以，会后发您。", "en": "Yes. I'll send it after the call." }
+    ]
+  },
+  {
+    "id": "dlg-it-71",
+    "category": "itwork",
+    "title": "UX Animation Too Heavy",
+    "titleCn": "和UX争动效复杂度",
+    "scene": "UX 设计复杂动效，你担心性能，一起讨论折中方案。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "列表项要有弹性动画和模糊过渡。", "en": "List items need spring animation and blur transitions." },
+      { "role": "You", "cn": "低端安卓会卡，首屏还要控制在一秒内。", "en": "Low-end Android will stutter. We need first paint under one second." },
+      { "role": "Designer", "cn": "那去掉模糊，保留弹性？", "en": "Drop the blur but keep the spring?" },
+      { "role": "You", "cn": "可以，再加重试：用户开减少动效就全关。", "en": "Yes. Plus respect reduce-motion and turn it all off." },
+      { "role": "Designer", "cn": "行，我更新Figma标注。", "en": "Fine. I'll update the Figma specs." },
+      { "role": "You", "cn": "谢了，我按简化版实现。", "en": "Thanks. I'll build the simplified version." }
+    ]
+  },
+  {
+    "id": "dlg-it-72",
+    "category": "itwork",
+    "title": "Mobile Layout Compromise",
+    "titleCn": "移动端布局争执",
+    "scene": "桌面和移动端布局差异大，你和 UX 讨论实现成本。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "手机版要完全不同的导航，底部Tab。", "en": "Mobile needs a totally different nav with bottom tabs." },
+      { "role": "You", "cn": "等于两套UI，工期至少多一周。", "en": "That's basically two UIs. At least a week more." },
+      { "role": "Designer", "cn": "响应式折叠不行吗？", "en": "Can't responsive collapse work?" },
+      { "role": "You", "cn": "主导航可以折叠，详情页布局能否统一？", "en": "Main nav can collapse. Can detail pages share one layout?" },
+      { "role": "Designer", "cn": "详情统一，导航我改一版折中稿。", "en": "Detail pages unified. I'll revise nav to a compromise." },
+      { "role": "You", "cn": "好，今天下班前能对齐。", "en": "Good. We can align by end of day." }
+    ]
+  },
+  {
+    "id": "dlg-it-73",
+    "category": "itwork",
+    "title": "Accessibility Contrast",
+    "titleCn": "无障碍对比度",
+    "scene": "你发现设计稿颜色对比度不达标，和 UX 讨论修改。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "You", "cn": "灰色按钮对比度只有3:1，WCAG过不了。", "en": "Gray button contrast is only three to one. Fails WCAG." },
+      { "role": "Designer", "cn": "品牌色不能动太多，加深边框行吗？", "en": "We can't shift brand color much. Darker border?" },
+      { "role": "You", "cn": "边框加文字加深到4.5:1就可以。", "en": "Border plus darker text to four point five to one works." },
+      { "role": "Designer", "cn": "好，我出一版达标配色。", "en": "Okay. I'll ship an accessible palette." },
+      { "role": "You", "cn": "顺便加focus状态，键盘用户需要。", "en": "Add focus states too. Keyboard users need them." },
+      { "role": "Designer", "cn": "一起补上。", "en": "I'll add those as well." }
+    ]
+  },
+  {
+    "id": "dlg-it-74",
+    "category": "itwork",
+    "title": "Custom vs Library Component",
+    "titleCn": "自定义还是组件库",
+    "scene": "UX 要定制下拉框，你建议用现有组件库。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "下拉框要自定义展开动画和图标位置。", "en": "The dropdown needs custom expand animation and icon placement." },
+      { "role": "You", "cn": "完全自定义要五天，用组件库半天。", "en": "Fully custom is five days. Our component library is half a day." },
+      { "role": "Designer", "cn": "组件库样式太普通了。", "en": "The library looks too generic." },
+      { "role": "You", "cn": "可以主题化圆角和颜色，动画先标准。", "en": "We can theme radius and colors. Standard animation for now." },
+      { "role": "Designer", "cn": "那先组件库，下版再打磨动效。", "en": "Library first. Polish animation next release." },
+      { "role": "You", "cn": "好，我今天能接上。", "en": "Good. I can wire it up today." }
+    ]
+  },
+  {
+    "id": "dlg-it-75",
+    "category": "itwork",
+    "title": "Too Many Checkout Steps",
+    "titleCn": "流程步骤太多",
+    "scene": "结账要五步，你认为流失率高，和 UX 争简化流程。",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "You", "cn": "数据上每多一步流失百分之八，能合并吗？", "en": "Data shows eight percent drop per extra step. Can we merge pages?" },
+      { "role": "Designer", "cn": "五步是客户要求的，每步信息量少好理解。", "en": "Client asked for five steps. Less info per screen is clearer." },
+      { "role": "You", "cn": "地址和配送能一页吗？进度条保留。", "en": "Address and shipping on one page? Keep the progress bar." },
+      { "role": "Designer", "cn": "可以，我跟PM确认客户是否接受。", "en": "Yes. I'll check with the PM if the client accepts." },
+      { "role": "You", "cn": "接受的话能省三天开发。", "en": "If yes, that saves three dev days." },
+      { "role": "Designer", "cn": "今天给你答复。", "en": "You'll hear back today." }
+    ]
+  },
+  {
+    "id": "dlg-it-76",
+    "category": "itwork",
+    "title": "Define Conversion Metrics",
+    "titleCn": "和数据定转化指标",
+    "scene": "新功能上线前，你和数据分析师对齐埋点和转化定义。",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "Data Analyst", "cn": "结账转化怎么定义？点到支付还是付成功？", "en": "How do we define checkout conversion? Click pay or payment success?" },
+      { "role": "You", "cn": "成功付款才算，中间步骤单独漏斗。", "en": "Successful payment only. Intermediate steps are a separate funnel." },
+      { "role": "Data Analyst", "cn": "事件名用checkout_complete可以吗？", "en": "Event name checkout_complete okay?" },
+      { "role": "You", "cn": "可以，加属性order_id和amount。", "en": "Yes. Add order_id and amount properties." },
+      { "role": "Data Analyst", "cn": "好，我出埋点文档你review。", "en": "Good. I'll draft the tracking spec for your review." },
+      { "role": "You", "cn": "周五前埋好，跟版一起发。", "en": "Instrumented by Friday. Ships with the release." }
+    ]
+  },
+  {
+    "id": "dlg-it-77",
+    "category": "itwork",
+    "title": "Event Naming Convention",
+    "titleCn": "埋点命名规范",
+    "scene": "团队埋点命名混乱，你和数据团队统一规范。",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "Data Analyst", "cn": "有的用click_button有的用btn_click，报表没法拼。", "en": "Some use click_button, others btn_click. Reports won't join." },
+      { "role": "You", "cn": "统一成object_action，比如cart_add。", "en": "Standardize on object_action, like cart_add." },
+      { "role": "Data Analyst", "cn": "历史数据怎么办？", "en": "What about historical data?" },
+      { "role": "You", "cn": "新代码按规范，旧事件写映射表。", "en": "New code follows spec. Mapping table for legacy events." },
+      { "role": "Data Analyst", "cn": "我发Confluence模板，PR里要填。", "en": "I'll post a Confluence template. Required in every PR." },
+      { "role": "You", "cn": "好，下周团队会宣导。", "en": "Good. I'll announce it at next week's team meeting." }
+    ]
+  },
+  {
+    "id": "dlg-it-78",
+    "category": "itwork",
+    "title": "Data Pipeline Delay",
+    "titleCn": "数据管道延迟",
+    "scene": "仪表盘数据晚一天，你和数据工程师排查原因。",
+    "roles": ["You", "Data Engineer"],
+    "turns": [
+      { "role": "You", "cn": "管理后台仪表盘还是昨天的数，正常吗？", "en": "Admin dashboard still shows yesterday's data. Is that expected?" },
+      { "role": "Data Engineer", "cn": "ETL昨晚失败了，订单表锁太久。", "en": "ETL failed last night. Orders table locked too long." },
+      { "role": "You", "cn": "我们昨晚有大批量导入，可能有关。", "en": "We ran a bulk import last night. Might be related." },
+      { "role": "Data Engineer", "cn": "以后大批量提前说一声，我改窗口。", "en": "Give us a heads-up on bulk jobs. We'll adjust the window." },
+      { "role": "You", "cn": "好，今天中午能追上吗？", "en": "Okay. Can you catch up by noon?" },
+      { "role": "Data Engineer", "cn": "正在跑，一点前应该好。", "en": "Running now. Should be good before one PM." }
+    ]
+  },
+  {
+    "id": "dlg-it-79",
+    "category": "itwork",
+    "title": "A/B Test Results Review",
+    "titleCn": "看AB测试结果",
+    "scene": "A/B 测试结束，你和数据分析师讨论是否全量上线。",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "Data Analyst", "cn": "B版转化高百分之三，但样本才一周。", "en": "Variant B is three percent higher, but only one week of data." },
+      { "role": "You", "cn": "统计显著吗？p值多少？", "en": "Statistically significant? What's the p-value?" },
+      { "role": "Data Analyst", "cn": "0.04，刚过线，建议再跑一周。", "en": "Zero point zero four. Barely significant. I'd run another week." },
+      { "role": "You", "cn": "同意，顺便看留存有没有副作用。", "en": "Agreed. Also check retention for side effects." },
+      { "role": "Data Analyst", "cn": "好，我加留存指标到看板。", "en": "Sure. I'll add retention to the dashboard." },
+      { "role": "You", "cn": "下周同一时间上结论。", "en": "Same time next week for a decision." }
+    ]
+  },
+  {
+    "id": "dlg-it-80",
+    "category": "itwork",
+    "title": "Numbers Don't Match",
+    "titleCn": "数据对不上",
+    "scene": "后台订单数和 BI 报表不一致，你和数据团队一起查。",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "You", "cn": "我们库里有五百单，报表显示四百七，差三十。", "en": "We have five hundred orders in the DB. Report shows four seventy. Thirty off." },
+      { "role": "Data Analyst", "cn": "报表过滤了取消和测试账号。", "en": "Report filters out cancelled and test accounts." },
+      { "role": "You", "cn": "测试账号规则是什么？我们可能没标全。", "en": "What's the test account rule? We might not tag them all." },
+      { "role": "Data Analyst", "cn": "email含test或@company.com内部域。", "en": "Email contains test or internal @company.com domain." },
+      { "role": "You", "cn": "我补标测试单，明天再对一次。", "en": "I'll tag test orders. Let's reconcile tomorrow." },
+      { "role": "Data Analyst", "cn": "好，规则我写进文档。", "en": "Good. I'll document the rules." }
+    ]
+  },
+  {
+    "id": "dlg-it-81",
+    "category": "itwork",
+    "title": "Vendor Deliverable Quality",
+    "titleCn": "外包交付质量",
+    "scene": "外包团队交的代码不达标，你电话反馈并要求返工。",
+    "roles": ["You", "Vendor Lead"],
+    "turns": [
+      { "role": "You", "cn": "这轮PR测试覆盖率不到四十，不符合合同。", "en": "This PR's test coverage is under forty percent. Contract requires more." },
+      { "role": "Vendor Lead", "cn": "时间紧，能先合再补测试吗？", "en": "We were tight on time. Merge now and add tests later?" },
+      { "role": "You", "cn": "不行，支付模块必须先达标再合。", "en": "No. Payment module must meet bar before merge." },
+      { "role": "Vendor Lead", "cn": "要几天？", "en": "How many days?" },
+      { "role": "You", "cn": "两天，我发清单和例子PR。", "en": "Two days. I'll send a checklist and sample PR." },
+      { "role": "Vendor Lead", "cn": "收到，周五前提交。", "en": "Got it. We'll submit by Friday." }
+    ]
+  },
+  {
+    "id": "dlg-it-82",
+    "category": "itwork",
+    "title": "Vendor Timeline Slip",
+    "titleCn": "外包延期",
+    "scene": "外包说无法按期交付，你重新谈里程碑。",
+    "roles": ["You", "Vendor PM"],
+    "turns": [
+      { "role": "Vendor PM", "cn": "报表模块要晚一周，人手被抽走了。", "en": "Reporting module slips a week. Staff pulled to another project." },
+      { "role": "You", "cn": "客户演示不能动，能先交核心图表吗？", "en": "Client demo date is fixed. Can you ship core charts first?" },
+      { "role": "Vendor PM", "cn": "折线图和表格可以，导出Excel延后。", "en": "Line charts and tables yes. Excel export later." },
+      { "role": "You", "cn": "行，请书面更新WBS和日期。", "en": "Okay. Please update the WBS and dates in writing." },
+      { "role": "Vendor PM", "cn": "今天发修订版。", "en": "Revised plan today." },
+      { "role": "You", "cn": "我同步我们PM和客户。", "en": "I'll sync our PM and the client." }
+    ]
+  },
+  {
+    "id": "dlg-it-83",
+    "category": "itwork",
+    "title": "API Handoff to Vendor",
+    "titleCn": "接口文档交给外包",
+    "scene": "你把内部 API 规范交给外包团队对接。",
+    "roles": ["You", "Vendor Dev"],
+    "turns": [
+      { "role": "Vendor Dev", "cn": "用户接口的认证方式是什么？", "en": "What's the auth method for the user API?" },
+      { "role": "You", "cn": "Bearer token，OAuth2 client credentials。", "en": "Bearer token via OAuth two client credentials." },
+      { "role": "Vendor Dev", "cn": "沙箱环境和密钥怎么申请？", "en": "How do we get sandbox and credentials?" },
+      { "role": "You", "cn": "填工单，通常一个工作日批。", "en": "Submit a ticket. Usually approved in one business day." },
+      { "role": "Vendor Dev", "cn": "速率限制多少？", "en": "What's the rate limit?" },
+      { "role": "You", "cn": "每分钟一百次，文档第四节写了。", "en": "One hundred per minute. Section four of the doc." },
+      { "role": "Vendor Dev", "cn": "好，我们先对接沙箱。", "en": "Okay. We'll start with sandbox." }
+    ]
+  },
+  {
+    "id": "dlg-it-84",
+    "category": "itwork",
+    "title": "Vendor Security Questionnaire",
+    "titleCn": "外包安全问卷",
+    "scene": "公司要求外包填安全问卷，你电话解释技术问题。",
+    "roles": ["You", "Vendor Lead"],
+    "turns": [
+      { "role": "Vendor Lead", "cn": "问卷问数据是否加密，我们怎么填？", "en": "The questionnaire asks if data is encrypted. How should we answer?" },
+      { "role": "You", "cn": "传输TLS1.2+，静态AES256，按你们实际填。", "en": "TLS one point two plus in transit, AES two fifty-six at rest. Answer per your setup." },
+      { "role": "Vendor Lead", "cn": "渗透测试报告要附吗？", "en": "Attach pen test report?" },
+      { "role": "You", "cn": "要，一年内的，没有就先申请豁免说明。", "en": "Yes, within one year. Otherwise request an exemption with explanation." },
+      { "role": "Vendor Lead", "cn": "开发人员能访问生产吗？", "en": "Can developers access production?" },
+      { "role": "You", "cn": "填只读且要审批，别写全员全权限。", "en": "Say read-only with approval. Not full access for everyone." }
+    ]
+  },
+  {
+    "id": "dlg-it-85",
+    "category": "itwork",
+    "title": "Review Vendor Pull Request",
+    "titleCn": "审外包代码",
+    "scene": "你 review 外包提交的 PR，口头指出问题。",
+    "roles": ["You", "Vendor Dev"],
+    "turns": [
+      { "role": "You", "cn": "PR看了，SQL拼接有注入风险，要改参数化。", "en": "Reviewed your PR. SQL concatenation risks injection. Use parameterized queries." },
+      { "role": "Vendor Dev", "cn": "我们那边一直这么写，影响大吗？", "en": "We've always done it this way. How big is the impact?" },
+      { "role": "You", "cn": "安全扫描会直接挡，必须改。", "en": "Security scan will block merge. Must fix." },
+      { "role": "Vendor Dev", "cn": "还有别的吗？", "en": "Anything else?" },
+      { "role": "You", "cn": "日志别打用户手机号，我评论里了。", "en": "Don't log user phone numbers. I left comments." },
+      { "role": "Vendor Dev", "cn": "今天修完重新推。", "en": "We'll fix and push today." }
+    ]
   }
 ]

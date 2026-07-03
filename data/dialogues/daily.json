@@ -651,5 +651,249 @@
       { "role": "You", "cn": "好的，回头见！", "en": "Will do. See you soon!" },
       { "role": "New Friend", "cn": "回头见！", "en": "See you!" }
     ]
+  },
+  {
+    "id": "dlg-daily-41",
+    "category": "daily",
+    "title": "Introducing Your Spouse",
+    "titleCn": "介绍爱人",
+    "scene": "朋友来访，你把爱人介绍给朋友认识。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "You", "cn": "John，这是我妻子Lisa。", "en": "John, this is my wife Lisa." },
+      { "role": "Friend", "cn": "你好Lisa，很高兴认识你。", "en": "Hi Lisa. Nice to meet you." },
+      { "role": "You", "cn": "Lisa，这是John，我以前的同事。", "en": "Lisa, this is John, my former coworker." },
+      { "role": "Friend", "cn": "张伟常提起你，说你是大厨。", "en": "Zhang Wei talks about your cooking all the time." },
+      { "role": "You", "cn": "她今晚做了中餐，随便吃。", "en": "She made Chinese food tonight. Help yourself." },
+      { "role": "Friend", "cn": "太感谢了，闻起来真香。", "en": "Thanks so much. Smells amazing." },
+      { "role": "You", "cn": "别客气，坐吧。", "en": "Make yourself comfortable." }
+    ]
+  },
+  {
+    "id": "dlg-daily-42",
+    "category": "daily",
+    "title": "Introducing Your Kids",
+    "titleCn": "介绍孩子",
+    "scene": "邻居来访，你让孩子出来打招呼。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "这是我儿子Tommy，女儿Amy。", "en": "This is my son Tommy and my daughter Amy." },
+      { "role": "Neighbor", "cn": "你们好！好可爱。", "en": "Hi, kids! So cute." },
+      { "role": "You", "cn": "孩子们，说你好。", "en": "Kids, say hello." },
+      { "role": "Neighbor", "cn": "你们上几年级？", "en": "What grade are you in?" },
+      { "role": "You", "cn": "Tommy三年级，Amy一年级。", "en": "Tommy's in third grade. Amy's in first." },
+      { "role": "Neighbor", "cn": "我家孩子在同一所学校。", "en": "My kids go to the same school." },
+      { "role": "You", "cn": "那太好了，以后可能常见面。", "en": "Great. We'll probably see you around." }
+    ]
+  },
+  {
+    "id": "dlg-daily-43",
+    "category": "daily",
+    "title": "Merry Christmas",
+    "titleCn": "圣诞问候",
+    "scene": "圣诞节前，你在公司和同事互致节日问候。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "圣诞快乐，张伟！", "en": "Merry Christmas, Zhang Wei!" },
+      { "role": "You", "cn": "圣诞快乐！你也一样。", "en": "Merry Christmas! Same to you." },
+      { "role": "Colleague", "cn": "放假回家吗？", "en": "Heading home for the holidays?" },
+      { "role": "You", "cn": "在本地过，亲戚来我们家。", "en": "Staying local. Relatives are coming to our place." },
+      { "role": "Colleague", "cn": "不错，新年快乐提前说！", "en": "Nice. Happy New Year in advance!" },
+      { "role": "You", "cn": "新年快乐，假期愉快！", "en": "Happy New Year. Enjoy the break!" },
+      { "role": "Colleague", "cn": "你也是！", "en": "You too!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-44",
+    "category": "daily",
+    "title": "Happy New Year",
+    "titleCn": "新年问候",
+    "scene": "新年第一个工作日，你和同事互相拜年。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "新年快乐！假期过得怎么样？", "en": "Happy New Year! How was your break?" },
+      { "role": "You", "cn": "新年快乐！很放松，你呢？", "en": "Happy New Year! Pretty relaxing. You?" },
+      { "role": "Colleague", "cn": "去了趟滑雪，累但开心。", "en": "Went skiing. Tiring but fun." },
+      { "role": "You", "cn": "听起来很棒。", "en": "Sounds awesome." },
+      { "role": "Colleague", "cn": "今年一起加油。", "en": "Let's make it a good year." },
+      { "role": "You", "cn": "一起加油！", "en": "Let's do it!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-45",
+    "category": "daily",
+    "title": "Happy Thanksgiving",
+    "titleCn": "感恩节问候",
+    "scene": "感恩节前，你和朋友简短互致问候。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "感恩节快乐！", "en": "Happy Thanksgiving!" },
+      { "role": "You", "cn": "感恩节快乐！你去谁家吃饭？", "en": "Happy Thanksgiving! Whose place are you going to?" },
+      { "role": "Friend", "cn": "去我爸妈家，你呢？", "en": "My parents' house. You?" },
+      { "role": "You", "cn": "在家做火鸡，请几个朋友。", "en": "Hosting at home with a few friends." },
+      { "role": "Friend", "cn": "太棒了，多吃一点。", "en": "Awesome. Eat lots." },
+      { "role": "You", "cn": "你也是，享受假期！", "en": "You too. Enjoy the holiday!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-46",
+    "category": "daily",
+    "title": "Happy Birthday",
+    "titleCn": "生日祝福",
+    "scene": "同事生日，你在办公室送上祝福。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "生日快乐！蛋糕看起来不错。", "en": "Happy birthday! The cake looks great." },
+      { "role": "Colleague", "cn": "谢谢！没想到你们记得。", "en": "Thank you! I didn't expect you to remember." },
+      { "role": "You", "cn": "日历上写了。有什么计划吗？", "en": "It's on the calendar. Any plans?" },
+      { "role": "Colleague", "cn": "晚上和老公吃饭。", "en": "Dinner with my husband tonight." },
+      { "role": "You", "cn": "好好享受，今天别加班太晚。", "en": "Enjoy. Don't work too late today." },
+      { "role": "Colleague", "cn": "哈哈，尽量。谢谢！", "en": "Ha, I'll try. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-47",
+    "category": "daily",
+    "title": "Congratulations New Baby",
+    "titleCn": "祝贺新生儿",
+    "scene": "同事休完产假回来，你当面祝贺。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "欢迎回来！宝宝怎么样？", "en": "Welcome back! How's the baby?" },
+      { "role": "Colleague", "cn": "谢谢！她很好，晚上还是常醒。", "en": "Thanks! She's great. Still up a lot at night." },
+      { "role": "You", "cn": "恭喜当妈妈，照片真可爱。", "en": "Congrats on the baby. The photos are adorable." },
+      { "role": "Colleague", "cn": "谢谢大家的礼物。", "en": "Thanks for everyone's gifts." },
+      { "role": "You", "cn": "有需要灵活办公就说一声。", "en": "Let us know if you need flexible hours." },
+      { "role": "Colleague", "cn": "太感谢了。", "en": "I really appreciate that." }
+    ]
+  },
+  {
+    "id": "dlg-daily-48",
+    "category": "daily",
+    "title": "Welcoming Guests Home",
+    "titleCn": "迎客进门",
+    "scene": "朋友第一次来你家，你门口迎接。",
+    "roles": ["You", "Guest"],
+    "turns": [
+      { "role": "You", "cn": "欢迎！快请进。", "en": "Welcome! Come on in." },
+      { "role": "Guest", "cn": "谢谢邀请，需要脱鞋吗？", "en": "Thanks for having me. Should I take off my shoes?" },
+      { "role": "You", "cn": "脱鞋吧，拖鞋在这。", "en": "Yes please. Slippers are here." },
+      { "role": "Guest", "cn": "你家真温馨。", "en": "Your place is really cozy." },
+      { "role": "You", "cn": "谢谢，外套可以挂那边。", "en": "Thanks. You can hang your coat over there." },
+      { "role": "Guest", "cn": "我带了一瓶酒。", "en": "I brought a bottle of wine." },
+      { "role": "You", "cn": "太客气了，随便坐。", "en": "That's so kind. Make yourself at home." }
+    ]
+  },
+  {
+    "id": "dlg-daily-49",
+    "category": "daily",
+    "title": "Back from Vacation",
+    "titleCn": "度假回来",
+    "scene": "同事度假回来，你热情打招呼。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "欢迎回来！晒黑了不少啊。", "en": "Welcome back! You got some sun." },
+      { "role": "Colleague", "cn": "哈哈，去了夏威夷。", "en": "Ha, yeah. Hawaii." },
+      { "role": "You", "cn": "羡慕，邮件我尽量处理了。", "en": "Lucky you. I covered your emails as much as I could." },
+      { "role": "Colleague", "cn": "太感谢了，请你吃午饭。", "en": "Thanks so much. Lunch is on me." },
+      { "role": "You", "cn": "好啊，讲讲旅途。", "en": "Deal. Tell me about the trip." },
+      { "role": "Colleague", "cn": "中午聊。", "en": "At lunch." }
+    ]
+  },
+  {
+    "id": "dlg-daily-50",
+    "category": "daily",
+    "title": "Casual What's Up",
+    "titleCn": "年轻人寒暄",
+    "scene": "你在校园遇到同学，随意打招呼。",
+    "roles": ["You", "Classmate"],
+    "turns": [
+      { "role": "Classmate", "cn": "嘿，What's up？", "en": "Hey, what's up?" },
+      { "role": "You", "cn": "Not much，刚下课。你呢？", "en": "Not much. Just got out of class. You?" },
+      { "role": "Classmate", "cn": "Same，去图书馆。", "en": "Same. Heading to the library." },
+      { "role": "You", "cn": "行，回头见。", "en": "Cool. Catch you later." },
+      { "role": "Classmate", "cn": "Later！", "en": "Later!" }
+    ]
+  },
+  {
+    "id": "dlg-daily-51",
+    "category": "daily",
+    "title": "New Neighbor Moving In",
+    "titleCn": "欢迎新邻居",
+    "scene": "新邻居搬来，你上门自我介绍。",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "你好，我是隔壁的张伟，欢迎搬来。", "en": "Hi, I'm Zhang Wei from next door. Welcome to the building." },
+      { "role": "Neighbor", "cn": "谢谢！我是Emily，刚搬来。", "en": "Thank you! I'm Emily. Just moved in." },
+      { "role": "You", "cn": "有需要帮忙搬东西说一声。", "en": "Let me know if you need help with anything." },
+      { "role": "Neighbor", "cn": "太感谢了，这边垃圾哪天收？", "en": "That's kind. Which day is trash pickup?" },
+      { "role": "You", "cn": "周二和周五早上。", "en": "Tuesday and Friday mornings." },
+      { "role": "Neighbor", "cn": "明白了，很高兴认识你。", "en": "Got it. Nice to meet you." },
+      { "role": "You", "cn": "我也是，慢慢聊。", "en": "Likewise. Talk soon." }
+    ]
+  },
+  {
+    "id": "dlg-daily-52",
+    "category": "daily",
+    "title": "Thanks for Having Us",
+    "titleCn": "感谢招待",
+    "scene": "聚会结束，你向主人道谢告别。",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "You", "cn": "今晚太棒了，谢谢招待。", "en": "Tonight was wonderful. Thanks for having us." },
+      { "role": "Host", "cn": "别客气，你们能来我很高兴。", "en": "Don't mention it. I'm glad you came." },
+      { "role": "You", "cn": "菜特别好吃。", "en": "The food was amazing." },
+      { "role": "Host", "cn": "喜欢就好，常来。", "en": "I'm glad you liked it. Come anytime." },
+      { "role": "You", "cn": "一定，我们先走了，晚安。", "en": "We will. We should head out. Good night." },
+      { "role": "Host", "cn": "晚安，路上小心。", "en": "Good night. Drive safe." }
+    ]
+  },
+  {
+    "id": "dlg-daily-53",
+    "category": "daily",
+    "title": "Graduation Congrats",
+    "titleCn": "祝贺毕业",
+    "scene": "朋友大学毕业，你当面祝贺。",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "You", "cn": "恭喜毕业！真为你骄傲。", "en": "Congratulations on graduating! So proud of you." },
+      { "role": "Friend", "cn": "谢谢！终于结束了。", "en": "Thanks! It's finally over." },
+      { "role": "You", "cn": "接下来什么计划？", "en": "What's next for you?" },
+      { "role": "Friend", "cn": "先找工作，可能留在这边。", "en": "Job hunting. Maybe staying around here." },
+      { "role": "You", "cn": "需要推荐或改简历找我。", "en": "Hit me up for referrals or resume help." },
+      { "role": "Friend", "cn": "一定，太感谢了。", "en": "I will. Thanks a lot." }
+    ]
+  },
+  {
+    "id": "dlg-daily-54",
+    "category": "daily",
+    "title": "Get Well Soon Visit",
+    "titleCn": "探望病人",
+    "scene": "同事生病在家，你带水果探望。",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "听说你感冒了，感觉怎么样？", "en": "I heard you caught a cold. How are you feeling?" },
+      { "role": "Colleague", "cn": "好多了，谢谢来看。", "en": "Much better. Thanks for visiting." },
+      { "role": "You", "cn": "带点水果，别客气。", "en": "Brought some fruit. Don't mention it." },
+      { "role": "Colleague", "cn": "你太好了，工作别担心。", "en": "You're too kind. Don't worry about work." },
+      { "role": "You", "cn": "好好休息，好了再说。", "en": "Rest up. We'll catch up when you're back." },
+      { "role": "Colleague", "cn": "谢谢，张伟。", "en": "Thanks, Zhang Wei." }
+    ]
+  },
+  {
+    "id": "dlg-daily-55",
+    "category": "daily",
+    "title": "Greeting the Doorman",
+    "titleCn": "和门卫打招呼",
+    "scene": "你每天进出公寓，和门卫例行问候。",
+    "roles": ["You", "Doorman"],
+    "turns": [
+      { "role": "Doorman", "cn": "早上好，张先生！", "en": "Good morning, Mr. Zhang!" },
+      { "role": "You", "cn": "早上好！今天有我的包裹吗？", "en": "Good morning! Any packages for me?" },
+      { "role": "Doorman", "cn": "有一个，在柜台。", "en": "One. It's at the desk." },
+      { "role": "You", "cn": "谢谢，晚上见。", "en": "Thanks. See you tonight." },
+      { "role": "Doorman", "cn": "Have a good day！", "en": "Have a good day!" },
+      { "role": "You", "cn": "你也是！", "en": "You too!" }
+    ]
   }
 ]

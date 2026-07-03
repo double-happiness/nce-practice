@@ -31,6 +31,16 @@ function isLearnerTurn(turn) {
 }
 
 // 下发对话时隐藏学习者角色的英文答案
+function chainNextId(d) {
+  if (!d.chain || !d.chain.id) return null;
+  const nextPart = d.chain.part + 1;
+  if (nextPart > d.chain.parts) return null;
+  const hit = data.getDialogues().find(
+    (x) => x.chain && x.chain.id === d.chain.id && x.chain.part === nextPart,
+  );
+  return hit ? hit.id : null;
+}
+
 function publicDialogue(d) {
   return {
     id: d.id,
@@ -39,6 +49,8 @@ function publicDialogue(d) {
     titleCn: d.titleCn,
     scene: d.scene,
     roles: d.roles,
+    chain: d.chain || null,
+    nextId: chainNextId(d),
     turns: d.turns.map((t, i) => {
       const pub = { index: i, role: t.role, cn: t.cn };
       if (!isLearnerTurn(t)) pub.en = t.en;
@@ -58,7 +70,34 @@ function publicSummary(d) {
     scene: d.scene,
     turnCount: d.turns.length,
     practiceCount,
+    chain: d.chain || null,
+    nextId: chainNextId(d),
   };
+}
+
+function chainIndex() {
+  const chains = new Map();
+  for (const d of data.getDialogues()) {
+    if (!d.chain || !d.chain.id) continue;
+    if (!chains.has(d.chain.id)) {
+      chains.set(d.chain.id, {
+        id: d.chain.id,
+        title: d.chain.title,
+        titleCn: d.chain.titleCn,
+        parts: d.chain.parts,
+        partIds: [],
+      });
+    }
+    chains.get(d.chain.id).partIds.push({ part: d.chain.part, id: d.id });
+  }
+  const list = [];
+  chains.forEach((c) => {
+    c.partIds.sort((a, b) => a.part - b.part);
+    c.partIds = c.partIds.map((x) => x.id);
+    list.push(c);
+  });
+  list.sort((a, b) => a.titleCn.localeCompare(b.titleCn, 'zh'));
+  return list;
 }
 
 // GET /dialogue/meta —— 场景分类与对话数量
@@ -71,6 +110,7 @@ router.get('/dialogue/meta', (req, res) => {
     total: data.getDialogues().length,
     categories: CATEGORIES,
     byCategory,
+    chains: chainIndex(),
   });
 });
 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>使用说明 · 新概念英语练习系统</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="themes.css" />
+  <script>try{var t=localStorage.getItem('nce-theme');if(t&&t!=='aurora')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+  <style>
+    .help-wrap { max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; }
+    .help-back {
+      display: inline-flex; align-items: center; gap: 6px; margin-bottom: 20px;
+      font-size: 14px; font-weight: 600; color: var(--brand); text-decoration: none;
+    }
+    .help-back:hover { text-decoration: underline; }
+    .help-wrap h1 { font-size: 26px; margin: 0 0 8px; color: var(--ink); }
+    .help-lead { color: var(--muted); font-size: 14px; margin: 0 0 28px; line-height: 1.6; }
+    .help-wrap h2 {
+      font-size: 18px; margin: 32px 0 12px; padding-bottom: 8px;
+      border-bottom: 1px solid var(--border); color: var(--ink);
+    }
+    .help-wrap h3 { font-size: 15px; margin: 20px 0 8px; color: var(--ink-soft); }
+    .help-wrap p, .help-wrap li { font-size: 14px; line-height: 1.75; color: var(--ink-soft); }
+    .help-wrap ul { padding-left: 1.25em; margin: 8px 0 16px; }
+    .help-wrap table {
+      width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0 20px;
+    }
+    .help-wrap th, .help-wrap td {
+      border: 1px solid var(--border); padding: 8px 10px; text-align: left; vertical-align: top;
+    }
+    .help-wrap th { background: var(--panel, #f8fafc); font-weight: 700; color: var(--ink-soft); }
+    .help-wrap code {
+      font-size: 12px; background: rgba(47,111,237,.08); padding: 2px 6px; border-radius: 4px;
+    }
+    .help-wrap pre {
+      background: var(--panel, #f8fafc); border: 1px solid var(--border); border-radius: 10px;
+      padding: 14px 16px; overflow-x: auto; font-size: 13px; line-height: 1.5;
+    }
+    .help-tip {
+      padding: 12px 14px; border-radius: 10px; background: rgba(47,111,237,.08);
+      border: 1px solid rgba(47,111,237,.2); font-size: 13px; color: var(--ink-soft); margin: 16px 0;
+    }
+    .help-faq dt { font-weight: 700; color: var(--ink); margin-top: 14px; font-size: 14px; }
+    .help-faq dd { margin: 4px 0 0; font-size: 14px; color: var(--muted); line-height: 1.65; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">📘 新概念英语 · 使用说明</div>
+  </header>
+  <main class="help-wrap">
+    <a class="help-back" href="/#home">← 返回今日学习</a>
+    <h1>📖 使用说明</h1>
+    <p class="help-lead">新概念英语 1–2 册配套练习系统：教材、刷题、听写、词典、句型转换与复习闭环。Markdown 版见仓库 <code>docs/用户指南.md</code>。</p>
+
+    <h2>1. 快速开始</h2>
+    <pre>npm install    # 首次需联网
+npm start      # 打开 http://localhost:3737</pre>
+    <p>学习记录在本机 <code>data/</code>，无需账号。服务启动后<strong>断网仍可使用</strong>（不依赖云端）。</p>
+
+    <h2>2. 界面四组标签</h2>
+    <table>
+      <tr><th>分组</th><th>功能</th><th>用途</th></tr>
+      <tr><td><strong>学</strong></td><td>📖 教材学习、📕 查词典</td><td>学新课、查词、看语法</td></tr>
+      <tr><td><strong>练</strong></td><td>✏️ 刷题、🎧 听写、🔀 句型、💬 对话、📝 测验</td><td>巩固与输出</td></tr>
+      <tr><td><strong>复习</strong></td><td>🔁 间隔复习、🔤 单词</td><td>抗遗忘、词汇</td></tr>
+      <tr><td><strong>我的</strong></td><td>📊 薄弱分析、🎯 计划、💾 备份</td><td>进度与数据</td></tr>
+    </table>
+    <div class="help-tip">💡 <strong>🏠 今日学习</strong> 是每天入口：今日目标、到期错题、薄弱语法、继续上次课程。</div>
+
+    <h2>3. 功能地图</h2>
+    <table>
+      <tr><th>功能</th><th>做什么</th></tr>
+      <tr><td>📖 教材学习</td><td>单词、语法、精读/原文；可一键练本课、听写、背单词</td></tr>
+      <tr><td>📕 查词典</td><td>检索教材+全局词库；展开看搭配、句型、例句</td></tr>
+      <tr><td>✏️ 刷题</td><td>按册/课/语法筛选；单选+填空；错题自动收录</td></tr>
+      <tr><td>🎧 听写</td><td>听音打句，逐词批改，记最好成绩</td></tr>
+      <tr><td>🔀 句型转换</td><td>中译英→改疑问/否定/特殊疑问；错步进复习</td></tr>
+      <tr><td>💬 情景对话</td><td>52 场景角色扮演（308 组）</td></tr>
+      <tr><td>🔁 间隔复习</td><td>错题按遗忘曲线到期重现</td></tr>
+      <tr><td>🔤 背单词</td><td>卡片自评 + 默写；词表 ☆ 生词本</td></tr>
+      <tr><td>👂📖🌐 词汇量</td><td>听/读/总词汇抽样测试与趋势</td></tr>
+      <tr><td>💾 数据备份</td><td>导出/导入 JSON，换机恢复</td></tr>
+    </table>
+
+    <h2>4. 推荐学习路径（第一册 · 约 45–60 分钟/天）</h2>
+    <table>
+      <tr><th>步骤</th><th>功能</th><th>目标</th></tr>
+      <tr><td>1</td><td>📖 教材 + ✏️ 练本课</td><td>读懂课文、掌握语法</td></tr>
+      <tr><td>2</td><td>🎧 听写</td><td>精听 + 拼写</td></tr>
+      <tr><td>3</td><td>💬 对话 / 朗读</td><td>开口、语调</td></tr>
+      <tr><td>4</td><td>🔀 句型转换</td><td>中译英、句型输出</td></tr>
+      <tr><td>5</td><td>🔤 背单词 + 🔁 复习</td><td>词汇 + 抗遗忘</td></tr>
+    </table>
+    <p>周日做 <strong>📝 阶段测验</strong>；每月做词汇量测试看趋势。详情见应用内 <strong>🎯 学习计划</strong>。</p>
+
+    <h2>5. 常用技巧</h2>
+    <ul>
+      <li>课文单词点 <strong>📕</strong> 查词典；选中英文短语也可查词</li>
+      <li>词典内按 <code>/</code> 快速聚焦搜索框</li>
+      <li>顶栏 🔊 下拉可调朗读语速（听写/单词朗读）</li>
+      <li>词汇测试错词可「逐个查词典复习」</li>
+      <li>定期 <strong>💾 数据备份</strong> 导出 JSON</li>
+    </ul>
+
+    <h2>6. 内容覆盖</h2>
+    <table>
+      <tr><th>册</th><th>教材</th><th>题库</th><th>句型转换</th></tr>
+      <tr><td>第 1 册</td><td>72 课 ✓</td><td>✓</td><td>✓</td></tr>
+      <tr><td>第 2 册</td><td>96 课 ✓</td><td>✓</td><td>✓</td></tr>
+      <tr><td>第 3–4 册</td><td>种子内容</td><td>部分</td><td>—</td></tr>
+    </table>
+
+    <h2>7. 常见问题</h2>
+    <dl class="help-faq">
+      <dt>打不开页面？</dt>
+      <dd>确认终端已运行 <code>npm start</code>，访问 <code>http://localhost:3737</code>。</dd>
+      <dt>没有发音？</dt>
+      <dd>检查系统音量；需已安装英文语音；可换 Chrome / Safari。</dd>
+      <dt>两台设备怎么同步？</dt>
+      <dd>无云同步。用数据备份导出 JSON，在另一台导入。</dd>
+      <dt>断网能用吗？</dt>
+      <dd>可以。本机服务在跑即可；不访问外网 API。</dd>
+      <dt>全局词为什么没有教材例句？</dt>
+      <dd>仅教材收录词有课内例句与句型；全局词展开会标注「仅词库释义」。</dd>
+    </dl>
+
+    <p style="margin-top:32px;font-size:13px;color:var(--muted)">完整 Markdown 版见仓库 <code>docs/用户指南.md</code> · 开发者见 <code>README.md</code> · 变更记录 <code>docs/changes/</code></p>
+  </main>
+</body>
+</html>

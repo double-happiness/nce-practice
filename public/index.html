@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>新概念英语 · 练习题库</title>
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#2f6fed" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="themes.css" />
   <script>try{var t=localStorage.getItem('nce-theme');if(t&&t!=='aurora')document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
@@ -71,6 +73,7 @@
           <div class="hidden" id="lessonDetailWrap">
             <div class="quiz-head">
               <div class="lesson-actions">
+                <button class="btn ghost small" id="checkinBtn">📅 打卡本课</button>
                 <button class="btn ghost small" id="masterBtn">☆ 标为已掌握</button>
                 <button class="btn ghost small" id="dictLookupBtn">📕 查本课词</button>
                 <button class="btn ghost small" id="spellThisBtn">✍️ 背本课词</button>
@@ -174,6 +177,7 @@
   <script src="theme.js"></script>
   <script src="profile.js"></script>
   <script src="app.js"></script>
+  <script src="js/pwa.js"></script>
   <!-- 功能模块：各自独立，通过 window.NCE.registerFeature 自注册 -->
   <script src="js/feat-review.js"></script>
   <script src="js/feat-dictionary.js"></script>
@@ -191,5 +195,7 @@
   <script src="js/feat-vocabtrend.js"></script>
   <script src="js/feat-backup.js"></script>
   <script src="js/feat-exam.js"></script>
+  <script src="js/feat-comprehension.js"></script>
+  <script src="js/feat-level.js"></script>
 </body>
 </html>

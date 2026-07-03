@@ -1,0 +1,139 @@
+[
+  {
+    "id": "dlg-chain-evening-01",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 1,
+      "parts": 6
+    },
+    "title": "Chain 1/6: Stop at the Gym",
+    "titleCn": "第1环：下班去健身",
+    "scene": "下班路上你顺路去健身房。（对话链：工作日晚上）",
+    "roles": ["You", "Front Desk"],
+    "turns": [
+      { "role": "Front Desk", "cn": "会员卡请刷一下。", "en": "Scan your membership card, please." },
+      { "role": "You", "cn": "给，今天人多吗？", "en": "Here you go. Crowded today?" },
+      { "role": "Front Desk", "cn": "六点后高峰，跑步机可能要等。", "en": "Rush after six. Treadmills may have a wait." },
+      { "role": "You", "cn": "好，我先练力量。", "en": "Okay. I'll hit weights first." },
+      { "role": "Front Desk", "cn": "毛巾在前台领。", "en": "Towels at the desk." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-evening-02",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 2,
+      "parts": 6
+    },
+    "title": "Chain 2/6: Pick Up Dinner",
+    "titleCn": "第2环：取外卖晚饭",
+    "scene": "健身完，你到店取预订的外卖。（对话链：工作日晚上）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "取餐？手机尾号？", "en": "Pickup? Last four of your phone?" },
+      { "role": "You", "cn": "一二三四，张伟。", "en": "One two three four. Zhang Wei." },
+      { "role": "Staff", "cn": "鸡肉沙拉，酱料分装。", "en": "Chicken salad. Dressing on the side." },
+      { "role": "You", "cn": "对，谢谢，赶时间。", "en": "Yes. Thanks. I'm in a hurry." },
+      { "role": "Staff", "cn": "享受晚餐！", "en": "Enjoy dinner!" },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-evening-03",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 3,
+      "parts": 6
+    },
+    "title": "Chain 3/6: Video Call with Family",
+    "titleCn": "第3环：视频通话报平安",
+    "scene": "到家后你和国内家人视频聊天。（对话链：工作日晚上）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "吃了吗？别总吃外卖。", "en": "Did you eat? Don't live on takeout." },
+      { "role": "You", "cn": "吃了沙拉，今天还去了健身房。", "en": "I had a salad. Hit the gym today too." },
+      { "role": "Parent", "cn": "那就好，天气冷多穿点。", "en": "Good. It's cold. Dress warm." },
+      { "role": "You", "cn": "知道，你们也注意身体。", "en": "I will. You take care too." },
+      { "role": "Parent", "cn": "周末再聊。", "en": "Talk again on the weekend." },
+      { "role": "You", "cn": "好，晚安。", "en": "Okay. Good night." }
+    ]
+  },
+  {
+    "id": "dlg-chain-evening-04",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 4,
+      "parts": 6
+    },
+    "title": "Chain 4/6: Chat with Roommate",
+    "titleCn": "第4环：和室友聊今天",
+    "scene": "吃饭时你和室友聊今天发生的事。（对话链：工作日晚上）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "今天怎么样？", "en": "How was your day?" },
+      { "role": "You", "cn": "客户会还行，地铁回家绕路了。", "en": "Client call was fine. Subway detour going home." },
+      { "role": "Roommate", "cn": "我明天出差，周五回。", "en": "I'm traveling tomorrow. Back Friday." },
+      { "role": "You", "cn": "好，有事微信我。", "en": "Okay. WeChat me if you need anything." },
+      { "role": "Roommate", "cn": "垃圾我明早带出去。", "en": "I'll take trash out tomorrow morning." },
+      { "role": "You", "cn": "谢了，一路顺利。", "en": "Thanks. Safe trip." }
+    ]
+  },
+  {
+    "id": "dlg-chain-evening-05",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 5,
+      "parts": 6
+    },
+    "title": "Chain 5/6: Wind Down",
+    "titleCn": "第5环：放松看书",
+    "scene": "晚饭后你在客厅放松，邻居来串门简短聊天。（对话链：工作日晚上）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "没打扰吧？听到你回来了。", "en": "Hope I'm not bothering you. Heard you come in." },
+      { "role": "You", "cn": "没有，进来坐，要喝茶吗？", "en": "Not at all. Come in. Want tea?" },
+      { "role": "Neighbor", "cn": "不了，就说声周末烧烤来不来？", "en": "No thanks. Weekend BBQ — you in?" },
+      { "role": "You", "cn": "来啊，几点？", "en": "Sure. What time?" },
+      { "role": "Neighbor", "cn": "周六下午四点，天台。", "en": "Saturday four PM. Rooftop." },
+      { "role": "You", "cn": "好，我带饮料。", "en": "Great. I'll bring drinks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-evening-06",
+    "category": "home",
+    "chain": {
+      "id": "weekday-evening",
+      "title": "Weekday Evening at Home",
+      "titleCn": "对话链：工作日下班后",
+      "part": 6,
+      "parts": 6
+    },
+    "title": "Chain 6/6: Ready for Sleep",
+    "titleCn": "第6环：准备睡觉",
+    "scene": "十点半，你洗漱完准备休息。（对话链：工作日晚上）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "我先睡了，明天七点闹钟。", "en": "I'm heading to bed. Seven AM alarm tomorrow." },
+      { "role": "Roommate", "cn": "好，我明天一早出门，轻点。", "en": "Okay. I leave early. I'll be quiet." },
+      { "role": "You", "cn": "没事，一路平安。", "en": "No worries. Safe travels." },
+      { "role": "Roommate", "cn": "晚安。", "en": "Good night." },
+      { "role": "You", "cn": "晚安，明天又是新一天。", "en": "Good night. Fresh start tomorrow." }
+    ]
+  }
+]

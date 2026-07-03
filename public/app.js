@@ -178,6 +178,17 @@ async function init() {
     updateTocProgress();
     toast(on ? '★ 已标为掌握' : '已取消掌握标记', 'ok');
   };
+  // 学习打卡（手动勾选学了本课，目录显示 📅，计入学习计划打卡）
+  $('checkinBtn').onclick = () => {
+    const l = state.currentLesson;
+    if (!l) return;
+    const on = toggleLessonCheckin(l.book, l.lesson);
+    updateCheckinBtn(l);
+    const item = $('lessonToc').querySelector(`.toc-item[data-lesson="${l.lesson}"]`);
+    if (item) item.classList.toggle('checkin', on);
+    updateTocProgress();
+    toast(on ? '📅 已打卡，本课计入学习计划' : '已取消本课打卡', 'ok');
+  };
   // 听写本课：带上课号深链到听写页
   $('dictThisBtn').onclick = () => {
     const l = state.currentLesson;
@@ -580,7 +591,7 @@ async function renderHome() {
             <div class="hg-title">👋 欢迎使用新概念英语练习系统</div>
             <p class="hg-line"><b>学</b>　教材、词典、听写预习　·　<b>练</b>　刷题、听写、句型转换</p>
             <p class="hg-line"><b>复习</b>　错题间隔复习、单词背诵　·　<b>我的</b>　统计、计划、备份</p>
-            <p class="hg-tip">推荐路径：今日学习 → 教材学习 → 刷题练习 → 间隔复习</p>
+            <p class="hg-tip">推荐路径：今日学习 → 教材学习 → 刷题练习 → 间隔复习 · <a href="/help.html" class="hg-help-link">📖 完整使用说明</a></p>
           </div>
           <button type="button" class="btn primary small" id="homeGuideDismiss">知道了</button>
         </div>`
@@ -678,13 +689,22 @@ async function renderHome() {
         <a data-goto="transform">🔀 句型转换</a>
         <a data-goto="exam">📝 阶段测验</a>
         <a data-goto="stats">📊 薄弱分析</a>
+        <a href="/help.html" class="hc-help-link">📖 使用说明</a>
       </div>
+    </div>` +
+    // 使用说明
+    `<div class="home-card home-help-card">
+      <div class="hc-title">📖 使用说明</div>
+      <div class="hc-sub">功能地图、推荐学习路径、备份与离线说明、常见问题</div>
+      <button class="btn" type="button" id="homeHelpBtn">打开使用说明 →</button>
     </div>` +
     '</div>';
 
   box.querySelectorAll('[data-goto]').forEach((el) => {
     el.onclick = () => gotoTab(el.dataset.goto);
   });
+  const helpBtn = $('homeHelpBtn');
+  if (helpBtn) helpBtn.onclick = () => { window.location.href = '/help.html'; };
   const guideDismiss = $('homeGuideDismiss');
   if (guideDismiss) {
     guideDismiss.onclick = () => {
@@ -797,6 +817,42 @@ function toggleLessonMastered(book, lesson) {
   return on;
 }
 
+// 学习打卡（手动勾选"今天学了这一课"，NCEStore 存 { "book-lesson": "YYYY-MM-DD" }）。
+// 打卡会顺带上报一条学习活动，计入学习计划的连续打卡 / 热力图，反馈学习进度。
+function loadCheckinLessons() {
+  const v = NCEStore.get('nce-checkin-lessons');
+  return v && typeof v === 'object' && !Array.isArray(v) ? v : {};
+}
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+function toggleLessonCheckin(book, lesson) {
+  const map = loadCheckinLessons();
+  const key = `${book}-${lesson}`;
+  const on = !map[key];
+  if (on) {
+    map[key] = todayStr();
+    // 打卡计入学习计划（连续打卡 / 热力图）；失败不阻断本地打卡
+    api('/api/activity/log', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ source: 'lesson', correct: true }),
+    }).catch(() => {});
+  } else {
+    delete map[key];
+  }
+  NCEStore.set('nce-checkin-lessons', map);
+  return on;
+}
+// 「打卡本课」按钮文案/样式跟随当前课的打卡状态
+function updateCheckinBtn(l) {
+  const btn = $('checkinBtn');
+  if (!btn || !l) return;
+  const date = loadCheckinLessons()[`${l.book}-${l.lesson}`];
+  btn.textContent = date ? `✅ 已打卡 ${date.slice(5)}` : '📅 打卡本课';
+  btn.classList.toggle('checkin-on', !!date);
+}
+
 // 正确率配色档位：≥80 绿 / 60–79 黄 / <60 红
 function accClass(a) { return a >= 80 ? 'good' : a >= 60 ? 'mid' : 'low'; }
 
@@ -820,10 +876,14 @@ function updateTocProgress() {
   box.classList.remove('hidden');
   const viewed = loadViewedLessons();
   const mastered = loadMasteredLessons();
+  const checkin = loadCheckinLessons();
   const v = list.filter((l) => viewed.has(`${l.book}-${l.lesson}`)).length;
   const m = list.filter((l) => mastered.has(`${l.book}-${l.lesson}`)).length;
-  box.querySelector('.tp-bar i').style.width = `${Math.round((v / list.length) * 100)}%`;
-  box.querySelector('.tp-text').textContent = `已学 ${v} / ${list.length} 课${m ? ` · 已掌握 ${m} 课 ★` : ''}`;
+  const c = list.filter((l) => checkin[`${l.book}-${l.lesson}`]).length;
+  // 进度条按「已打卡」占比走（打卡是主动的学习进度反馈；未打卡时回退用已学）
+  box.querySelector('.tp-bar i').style.width = `${Math.round(((c || v) / list.length) * 100)}%`;
+  box.querySelector('.tp-text').textContent =
+    `已打卡 ${c} / ${list.length} 课 📅` + (m ? ` · 已掌握 ${m} 课 ★` : '') + (v ? ` · 已学 ${v}` : '');
 }
 
 // 目录搜索：按课号 / 英文标题 / 中文标题过滤
@@ -859,12 +919,14 @@ async function loadLessons(book) {
   }
   const viewed = loadViewedLessons();
   const mastered = loadMasteredLessons();
+  const checkin = loadCheckinLessons();
   data.lessons.forEach((l) => {
     const key = `${l.book}-${l.lesson}`;
     const item = document.createElement('div');
     item.className = 'toc-item' +
       (viewed.has(key) ? ' viewed' : '') +
-      (mastered.has(key) ? ' mastered' : '');
+      (mastered.has(key) ? ' mastered' : '') +
+      (checkin[key] ? ' checkin' : '');
     item.dataset.lesson = l.lesson;
     item.dataset.key = `${l.lesson} lesson ${l.lesson} ${l.title} ${l.titleCn || ''}`.toLowerCase();
     // 该课练习正确率角标（练过才显示）
@@ -1230,8 +1292,9 @@ async function openLesson(book, lesson, opts) {
     };
   });
 
-  // 「已掌握」按钮状态跟随当前课
+  // 「已掌握」「打卡本课」按钮状态跟随当前课
   updateMasterBtn(l);
+  updateCheckinBtn(l);
 
   // 在右侧内容区展示详情，并高亮左侧目录当前课（记为已学，✓ 标记）
   markLessonViewed(l.book, l.lesson);

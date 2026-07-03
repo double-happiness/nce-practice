@@ -13,6 +13,8 @@ const KEYS = new Set([
   'nce-last-lesson', // 最近学习课（对象）
   'nce-viewed-lessons', // 已学课程 ✓（数组）
   'nce-mastered-lessons', // 已掌握课程 ★（数组）
+  'nce-checkin-lessons', // 学习打卡课程 📅（对象 { "book-lesson": "YYYY-MM-DD" }）
+  'nce-onboarded', // 新手引导已看过（1）
   'dct-best', // 听写历史最好平均正确率（数字）
   'dct-last', // 听写最近一次成绩（对象）
   'dct-pos', // 听写每课断点（对象 { lesson: idx }）

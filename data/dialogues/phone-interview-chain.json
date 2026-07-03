@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-phint-01",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Schedule Phone Screen",
+    "titleCn": "第1环：约电话初筛",
+    "scene": "招聘专员来电，约三十分钟电话初筛。（对话链：电话面试）",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "您好，我是ABC科技招聘，看到您投了后端工程师。", "en": "Hi, I'm recruiting at ABC Tech. I saw your application for back-end engineer." },
+      { "role": "You", "cn": "您好，有兴趣，现在方便聊几分钟吗？", "en": "Hello. I'm interested. Is now a good time for a few minutes?" },
+      { "role": "Recruiter", "cn": "想约三十分钟电话初筛，您什么时候方便？", "en": "I'd like to schedule a thirty-minute phone screen. When works for you?" },
+      { "role": "You", "cn": "周三或周四下午都行，东部时间。", "en": "Wednesday or Thursday afternoon works. Eastern time." },
+      { "role": "Recruiter", "cn": "好，周四两点，我会发日历邀请。", "en": "Great. Thursday at two PM. I'll send a calendar invite." },
+      { "role": "You", "cn": "收到，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-02",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: HR Phone Screen",
+    "titleCn": "第2环：HR电话初筛",
+    "scene": "HR 电话初筛，问背景和入职时间。（对话链：电话面试）",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "感谢接听，先请您简单自我介绍。", "en": "Thanks for taking the call. Could you briefly introduce yourself?" },
+      { "role": "You", "cn": "我是张伟，五年Java开发，最近在做支付系统。", "en": "I'm Zhang Wei. Five years in Java, recently on payment systems." },
+      { "role": "Recruiter", "cn": "为什么看新机会？", "en": "Why are you looking for a new role?" },
+      { "role": "You", "cn": "想在大一点的平台做分布式系统。", "en": "I want to work on distributed systems at a larger scale." },
+      { "role": "Recruiter", "cn": "薪资期望？最早入职？", "en": "Salary expectations? Earliest start date?" },
+      { "role": "You", "cn": "年薪十二到十四万，两周通知期后可入职。", "en": "One twenty to one forty base. Available after two weeks' notice." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-03",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Technical Phone Interview",
+    "titleCn": "第3环：技术电话面试",
+    "scene": "工程师打电话做技术面试，让你讲项目。（对话链：电话面试）",
+    "roles": ["You", "Engineer"],
+    "turns": [
+      { "role": "Engineer", "cn": "我是团队Tech Lead，讲一个您最自豪的项目。", "en": "I'm the tech lead. Walk me through a project you're proud of." },
+      { "role": "You", "cn": "去年做了订单服务重构，QPS从五百升到三千。", "en": "Last year I rebuilt our order service. QPS went from five hundred to three thousand." },
+      { "role": "Engineer", "cn": "最大技术挑战是什么？", "en": "What was the biggest technical challenge?" },
+      { "role": "You", "cn": "数据迁移零停机，用了双写和灰度切换。", "en": "Zero-downtime migration. We used dual writes and a gradual cutover." },
+      { "role": "Engineer", "cn": "您个人负责哪块？", "en": "What did you own personally?" },
+      { "role": "You", "cn": "架构设计和核心模块开发，带两名同事。", "en": "Architecture and core modules. I led two engineers." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-04",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Didn't Hear the Question",
+    "titleCn": "第4环：没听清请重复",
+    "scene": "技术面试中信号不好，你没听清问题。（对话链：电话面试）",
+    "roles": ["You", "Engineer"],
+    "turns": [
+      { "role": "Engineer", "cn": "……缓存一致性……怎么处理？", "en": "…cache consistency… how would you handle it?" },
+      { "role": "You", "cn": "不好意思，刚才没听清，能再说一遍吗？", "en": "Sorry, I didn't catch that. Could you repeat the question?" },
+      { "role": "Engineer", "cn": "如果缓存和数据库不一致怎么办？", "en": "What if the cache and database are out of sync?" },
+      { "role": "You", "cn": "我会用TTL加消息队列失效缓存，关键读走主库。", "en": "I'd use TTL plus a queue to invalidate cache. Critical reads hit the primary DB." },
+      { "role": "Engineer", "cn": "好，继续。", "en": "Good. Let's move on." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-05",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Behavioral Question",
+    "titleCn": "第5环：行为面试问题",
+    "scene": "面试官问团队合作和冲突处理。（对话链：电话面试）",
+    "roles": ["You", "Engineer"],
+    "turns": [
+      { "role": "Engineer", "cn": "说一次和同事意见不合怎么解决的。", "en": "Tell me about a disagreement with a coworker and how you resolved it." },
+      { "role": "You", "cn": "和产品经理在排期上有分歧，我列了风险数据，一起砍了次要功能。", "en": "I disagreed with a PM on timeline. I shared risk data and we cut minor features together." },
+      { "role": "Engineer", "cn": "您最大的弱点是什么？", "en": "What's your greatest weakness?" },
+      { "role": "You", "cn": "有时太追求完美，现在在学着按时交付MVP。", "en": "I can be perfectionist. I'm learning to ship MVPs on time." },
+      { "role": "Engineer", "cn": "谢谢，我让HR跟进下一步。", "en": "Thank you. HR will follow up on next steps." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-06",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Hiring Manager Call",
+    "titleCn": "第6环：经理电话面",
+    "scene": "用人经理打电话，聊团队匹配和你的问题。（对话链：电话面试）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "我们团队十二人，敏捷开发，您习惯吗？", "en": "We're twelve people, agile. Does that fit how you work?" },
+      { "role": "You", "cn": "习惯，我过去四年都是Scrum。", "en": "Yes. I've done Scrum for four years." },
+      { "role": "Manager", "cn": "您有什么问题问我？", "en": "What questions do you have for me?" },
+      { "role": "You", "cn": "成功入职三个月的标准是什么？", "en": "What does success look like in the first three months?" },
+      { "role": "Manager", "cn": "独立负责一个服务，参与on-call轮值。", "en": "Own a service independently and join the on-call rotation." },
+      { "role": "You", "cn": "明白了，很有挑战性，我感兴趣。", "en": "Clear and challenging. I'm very interested." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-07",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Offer Phone Call",
+    "titleCn": "第7环：电话通知录用",
+    "scene": "招聘来电通知通过，口头讲offer条件。（对话链：电话面试）",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "恭喜，团队想发offer，年薪十三万base。", "en": "Congratulations. The team wants to offer you. Base salary one thirty thousand." },
+      { "role": "You", "cn": "谢谢！职位我很感兴趣，奖金结构呢？", "en": "Thank you! I'm excited about the role. How is bonus structured?" },
+      { "role": "Recruiter", "cn": "目标奖金百分之十五，股票四年vest。", "en": "Target bonus fifteen percent. Equity vests over four years." },
+      { "role": "You", "cn": "福利和入职日期呢？", "en": "What about benefits and start date?" },
+      { "role": "Recruiter", "cn": "标准医保，入职可商量，书面offer今晚发。", "en": "Standard health plan. Start date flexible. Written offer tonight." },
+      { "role": "You", "cn": "好，我看完回复您。", "en": "Great. I'll review and get back to you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-phint-08",
+    "category": "phone",
+    "chain": {
+      "id": "phone-interview",
+      "title": "Phone Interview Process",
+      "titleCn": "对话链：电话面试全流程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Negotiate on Phone",
+    "titleCn": "第8环：电话里谈薪资",
+    "scene": "你回电招聘，礼貌谈判薪资和入职日。（对话链：电话面试）",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "You", "cn": "感谢offer，根据市场和我经验，期望base十四万。", "en": "Thanks for the offer. Based on market and my experience, I'm hoping for one forty base." },
+      { "role": "Recruiter", "cn": "我申请一下，可能到十三万五。", "en": "I'll check. We might get to one thirty-five." },
+      { "role": "You", "cn": "如果可以十三万五，我接受，三周后入职。", "en": "If we can do one thirty-five, I'll accept. Start in three weeks." },
+      { "role": "Recruiter", "cn": "我去确认，明天给您答复。", "en": "Let me confirm. I'll call you tomorrow." },
+      { "role": "You", "cn": "好，期待加入团队。", "en": "Sounds good. I'm looking forward to joining." },
+      { "role": "Recruiter", "cn": "我们也是，明天聊。", "en": "Us too. Talk tomorrow." }
+    ]
+  }
+]

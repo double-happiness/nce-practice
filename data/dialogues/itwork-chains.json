@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "dlg-chain-export-01",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 1,
+      "parts": 6
+    },
+    "title": "Chain 1/6: Clarify Export Requirements",
+    "titleCn": "第1环：澄清导出需求",
+    "scene": "客户邮件要求导出报表。产品经理找你口头对齐范围。（对话链：报表导出）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "客户要一键导出PDF和Excel，这周能评估吗？", "en": "The client wants one-click PDF and Excel export. Can you estimate this week?" },
+      { "role": "You", "cn": "可以。数据量多大？要全库还是当前筛选结果？", "en": "Sure. How much data? Full database or current filter only?" },
+      { "role": "PM", "cn": "当前筛选，最多五千行。", "en": "Current filter. Up to five thousand rows." },
+      { "role": "You", "cn": "PDF要图表吗？带图要一周，纯表格三天。", "en": "Charts in PDF? With charts one week, tables only three days." },
+      { "role": "PM", "cn": "先表格，图表下期。失败提示用什么文案？", "en": "Tables first. Charts next sprint. What copy on failure?" },
+      { "role": "You", "cn": "用设计稿里的，我更新Jira估八故事点。", "en": "Use the design spec. I'll update Jira to eight story points." }
+    ]
+  },
+  {
+    "id": "dlg-chain-export-02",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 2,
+      "parts": 6
+    },
+    "title": "Chain 2/6: UX Export Flow",
+    "titleCn": "第2环：和UX定导出交互",
+    "scene": "需求确认后，设计师与你过导出按钮、进度条和错误态。（对话链：报表导出）",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "导出放右上角，点完全屏进度动画。", "en": "Export top right. Full-screen progress animation on click." },
+      { "role": "You", "cn": "五千行可能要三十秒，全屏动画用户会慌。", "en": "Five thousand rows may take thirty seconds. Full-screen animation will panic users." },
+      { "role": "Designer", "cn": "那改右上角小进度条，允许后台导出？", "en": "Top-right mini progress bar instead? Background export allowed?" },
+      { "role": "You", "cn": "可以，异步任务加邮件通知可选。", "en": "Yes. Async job with optional email notification." },
+      { "role": "Designer", "cn": "失败态我补一版，红色横幅加重试。", "en": "I'll add failure state: red banner plus retry." },
+      { "role": "You", "cn": "好，按这版实现。", "en": "Good. I'll build to that spec." }
+    ]
+  },
+  {
+    "id": "dlg-chain-export-03",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 3,
+      "parts": 6
+    },
+    "title": "Chain 3/6: Data Tracking for Export",
+    "titleCn": "第3环：和数据定导出埋点",
+    "scene": "开发前，你和数据分析师对齐导出漏斗埋点。（对话链：报表导出）",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "Data Analyst", "cn": "导出成功怎么算？文件下载完还是任务创建？", "en": "What counts as export success? File downloaded or job created?" },
+      { "role": "You", "cn": "下载完成算成功，创建任务单独记 export_start。", "en": "Download complete is success. Job creation is export_start." },
+      { "role": "Data Analyst", "cn": "事件名 export_complete，加 format 和 row_count？", "en": "Event export_complete with format and row_count?" },
+      { "role": "You", "cn": "对，失败用 export_fail，带 error_code。", "en": "Yes. Failures use export_fail with error_code." },
+      { "role": "Data Analyst", "cn": "好，文档今晚发你review。", "en": "Good. I'll send the spec tonight for review." },
+      { "role": "You", "cn": "周五前埋好，跟功能一起发。", "en": "Instrumented by Friday. Ships with the feature." }
+    ]
+  },
+  {
+    "id": "dlg-chain-export-04",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 4,
+      "parts": 6
+    },
+    "title": "Chain 4/6: Frontend Async Export API",
+    "titleCn": "第4环：前后端对接导出接口",
+    "scene": "你和前端对齐异步导出任务 API。（对话链：报表导出）",
+    "roles": ["You", "Frontend"],
+    "turns": [
+      { "role": "Frontend", "cn": "导出接口是同步还是轮询任务ID？", "en": "Is export sync or poll by job ID?" },
+      { "role": "You", "cn": "POST创建任务返回job_id，GET轮询状态。", "en": "POST creates job and returns job_id. GET polls status." },
+      { "role": "Frontend", "cn": "完成态 download_url 有效期多久？", "en": "How long is download_url valid when done?" },
+      { "role": "You", "cn": "十五分钟，过期要重新导出。", "en": "Fifteen minutes. Re-export if expired." },
+      { "role": "Frontend", "cn": "processing 时前端显示进度条假动画？", "en": "Show fake progress bar while processing?" },
+      { "role": "You", "cn": "可以，真进度下版再加。", "en": "Sure. Real progress next release." }
+    ]
+  },
+  {
+    "id": "dlg-chain-export-05",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 5,
+      "parts": 6
+    },
+    "title": "Chain 5/6: QA Blocks Large Export",
+    "titleCn": "第5环：测试发现大文件问题",
+    "scene": "测试发现接近五千行时导出超时，你和 QA 讨论修复与发布。（对话链：报表导出）",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "四千五百行导出超时，我建议今晚别发。", "en": "Export times out at forty-five hundred rows. I'd hold tonight's release." },
+      { "role": "You", "cn": "根因是同步写盘，我改流式导出。", "en": "Root cause is sync disk write. I'll switch to streaming." },
+      { "role": "QA", "cn": "修完要全量回归吗？", "en": "Full regression after the fix?" },
+      { "role": "You", "cn": "导出相关用例跑一遍就行，明天中午给你build。", "en": "Export test cases only. New build by noon tomorrow." },
+      { "role": "QA", "cn": "好，我跟PM说延期一天。", "en": "Okay. I'll tell the PM we're slipping one day." },
+      { "role": "You", "cn": "谢谢，修完第一时间@你。", "en": "Thanks. I'll ping you as soon as it's in." }
+    ]
+  },
+  {
+    "id": "dlg-chain-export-06",
+    "category": "itwork",
+    "chain": {
+      "id": "export-report",
+      "title": "Report Export Lifecycle",
+      "titleCn": "对话链：报表导出从需求到交付",
+      "part": 6,
+      "parts": 6
+    },
+    "title": "Chain 6/6: Train Client on Export",
+    "titleCn": "第6环：教客户用导出功能",
+    "scene": "功能上线，你电话教客户管理员使用导出。（对话链：报表导出）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "导出功能已上线，我带您操作一遍。", "en": "Export is live. I'll walk you through it." },
+      { "role": "Client", "cn": "按钮在哪？我这边加载慢。", "en": "Where's the button? It's loading slowly on my side." },
+      { "role": "You", "cn": "右上角Export，第一次慢，刷新试试。", "en": "Export top right. First load is slow. Try refresh." },
+      { "role": "Client", "cn": "看到了，五千行要多久？", "en": "I see it. How long for five thousand rows?" },
+      { "role": "You", "cn": "大概一分钟，可以关页面，邮件会通知。", "en": "About a minute. You can close the page. Email will notify you." },
+      { "role": "Client", "cn": "成功了，谢谢！", "en": "It worked. Thank you!" },
+      { "role": "You", "cn": "不客气，操作视频我发邮件。", "en": "You're welcome. I'll email a how-to video." }
+    ]
+  },
+  {
+    "id": "dlg-chain-vendor-01",
+    "category": "itwork",
+    "chain": {
+      "id": "vendor-payment",
+      "title": "Vendor Payment Module",
+      "titleCn": "对话链：外包支付模块对接",
+      "part": 1,
+      "parts": 5
+    },
+    "title": "Chain 1/5: Handoff API to Vendor",
+    "titleCn": "第1环：接口规范交给外包",
+    "scene": "支付模块外包启动，你把 API 规范交给对方技术负责人。（对话链：外包支付）",
+    "roles": ["You", "Vendor Dev"],
+    "turns": [
+      { "role": "Vendor Dev", "cn": "支付回调用REST还是webhook？", "en": "Payment callbacks via REST or webhook?" },
+      { "role": "You", "cn": "Webhook，文档第四节有签名算法。", "en": "Webhook. Signature algorithm is in section four." },
+      { "role": "Vendor Dev", "cn": "沙箱密钥怎么申请？", "en": "How do we get sandbox credentials?" },
+      { "role": "You", "cn": "填工单，一个工作日批，别提交到你们仓库。", "en": "Submit a ticket. One business day. Never commit them to your repo." },
+      { "role": "Vendor Dev", "cn": "速率限制？", "en": "Rate limit?" },
+      { "role": "You", "cn": "每分钟六十次，超限返回429。", "en": "Sixty per minute. Returns four twenty-nine when exceeded." }
+    ]
+  },
+  {
+    "id": "dlg-chain-vendor-02",
+    "category": "itwork",
+    "chain": {
+      "id": "vendor-payment",
+      "title": "Vendor Payment Module",
+      "titleCn": "对话链：外包支付模块对接",
+      "part": 2,
+      "parts": 5
+    },
+    "title": "Chain 2/5: Vendor Security Form",
+    "titleCn": "第2环：外包填安全问卷",
+    "scene": "公司安全审核要求外包填问卷，你电话答疑。（对话链：外包支付）",
+    "roles": ["You", "Vendor Lead"],
+    "turns": [
+      { "role": "Vendor Lead", "cn": "问卷问卡号存不存，我们怎么处理？", "en": "The form asks if we store card numbers. How should we answer?" },
+      { "role": "You", "cn": "不存完整卡号，只存token，按事实填。", "en": "No full card numbers. Tokens only. Answer truthfully." },
+      { "role": "Vendor Lead", "cn": "渗透测试报告要附吗？", "en": "Attach pen test report?" },
+      { "role": "You", "cn": "要一年内的，没有就写计划日期。", "en": "Within one year, or state planned date." },
+      { "role": "Vendor Lead", "cn": "开发能否访问生产？", "en": "Can developers access production?" },
+      { "role": "You", "cn": "填只读且需审批，别写全员权限。", "en": "Read-only with approval. Not full access for everyone." }
+    ]
+  },
+  {
+    "id": "dlg-chain-vendor-03",
+    "category": "itwork",
+    "chain": {
+      "id": "vendor-payment",
+      "title": "Vendor Payment Module",
+      "titleCn": "对话链：外包支付模块对接",
+      "part": 3,
+      "parts": 5
+    },
+    "title": "Chain 3/5: Reject Vendor PR",
+    "titleCn": "第3环：打回外包代码",
+    "scene": "外包提交首版 PR，你发现 SQL 注入和日志泄密。（对话链：外包支付）",
+    "roles": ["You", "Vendor Dev"],
+    "turns": [
+      { "role": "You", "cn": "PR不能合，SQL拼接有注入风险。", "en": "Can't merge. SQL concatenation risks injection." },
+      { "role": "Vendor Dev", "cn": "我们一直这么写，改动大吗？", "en": "We've always done it this way. How big is the change?" },
+      { "role": "You", "cn": "必须参数化，安全扫描会挡。", "en": "Must use parameterized queries. Security scan will block." },
+      { "role": "Vendor Dev", "cn": "还有别的吗？", "en": "Anything else?" },
+      { "role": "You", "cn": "日志打了卡号后四位，删掉，评论里写了。", "en": "Logs include last four of card numbers. Remove them. I commented." },
+      { "role": "Vendor Dev", "cn": "今天修完重推。", "en": "We'll fix and push today." }
+    ]
+  },
+  {
+    "id": "dlg-chain-vendor-04",
+    "category": "itwork",
+    "chain": {
+      "id": "vendor-payment",
+      "title": "Vendor Payment Module",
+      "titleCn": "对话链：外包支付模块对接",
+      "part": 4,
+      "parts": 5
+    },
+    "title": "Chain 4/5: Vendor Test Coverage",
+    "titleCn": "第4环：外包测试覆盖率不达标",
+    "scene": "外包第二轮 PR 测试覆盖率不足，你要求返工。（对话链：外包支付）",
+    "roles": ["You", "Vendor Lead"],
+    "turns": [
+      { "role": "You", "cn": "覆盖率只有三十五，合同要六十。", "en": "Coverage is only thirty-five. Contract requires sixty." },
+      { "role": "Vendor Lead", "cn": "能先合再补测试吗？赶里程碑。", "en": "Merge now and add tests later? We're chasing a milestone." },
+      { "role": "You", "cn": "支付模块不行，必须达标再合。", "en": "Not for payments. Must meet bar before merge." },
+      { "role": "Vendor Lead", "cn": "要几天？", "en": "How many days?" },
+      { "role": "You", "cn": "两天，我发样例PR和清单。", "en": "Two days. I'll send a sample PR and checklist." },
+      { "role": "Vendor Lead", "cn": "周五前提交。", "en": "We'll submit by Friday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-vendor-05",
+    "category": "itwork",
+    "chain": {
+      "id": "vendor-payment",
+      "title": "Vendor Payment Module",
+      "titleCn": "对话链：外包支付模块对接",
+      "part": 5,
+      "parts": 5
+    },
+    "title": "Chain 5/5: Vendor Slip and Client Update",
+    "titleCn": "第5环：外包延期并同步客户",
+    "scene": "外包说还要晚三天，你和 PM 商量怎么跟客户说。（对话链：外包支付）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "外包又延三天，客户会炸吧？", "en": "Vendor slipped three more days. The client will be furious." },
+      { "role": "You", "cn": "我们内网支付可先上，外包负责渠道下周。", "en": "We can ship internal payments first. Vendor channels next week." },
+      { "role": "PM", "cn": "客户演示能演示内网支付吗？", "en": "Can the demo show internal payments?" },
+      { "role": "You", "cn": "可以，我准备脚本，渠道说在集成测试。", "en": "Yes. I'll prep a script. Say channels are in integration testing." },
+      { "role": "PM", "cn": "好，我去打电话，书面WBS你也更新。", "en": "Okay. I'll call them. Update the WBS in writing too." },
+      { "role": "You", "cn": "今天下班前发修订版。", "en": "Revised plan by end of day." }
+    ]
+  },
+  {
+    "id": "dlg-chain-search-01",
+    "category": "itwork",
+    "chain": {
+      "id": "search-v2",
+      "title": "Search Optimization Project",
+      "titleCn": "对话链：搜索优化项目",
+      "part": 1,
+      "parts": 5
+    },
+    "title": "Chain 1/5: Vague Search Request",
+    "titleCn": "第1环：产品提模糊搜索需求",
+    "scene": "产品经理提出「优化搜索」，你追问具体指标。（对话链：搜索优化）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "把搜索优化一下，用户反馈慢。", "en": "Optimize search. Users say it's slow." },
+      { "role": "You", "cn": "慢是首屏还是翻页？全库多少数据？", "en": "Slow first page or pagination? How much data total?" },
+      { "role": "PM", "cn": "首屏，大概十万条。", "en": "First page. About a hundred thousand rows." },
+      { "role": "You", "cn": "目标三秒内？要加索引，估五天。", "en": "Target under three seconds? Needs indexing. Estimate five days." },
+      { "role": "PM", "cn": "好，写进sprint，别动排序逻辑。", "en": "Good. Put it in the sprint. Don't change ranking logic." },
+      { "role": "You", "cn": "明白，我先出技术方案。", "en": "Got it. I'll draft the technical plan first." }
+    ]
+  },
+  {
+    "id": "dlg-chain-search-02",
+    "category": "itwork",
+    "chain": {
+      "id": "search-v2",
+      "title": "Search Optimization Project",
+      "titleCn": "对话链：搜索优化项目",
+      "part": 2,
+      "parts": 5
+    },
+    "title": "Chain 2/5: UX vs Performance",
+    "titleCn": "第2环：和UX争搜索结果动效",
+    "scene": "设计师要给搜索结果加动画，你担心性能。（对话链：搜索优化）",
+    "roles": ["You", "Designer"],
+    "turns": [
+      { "role": "Designer", "cn": "结果列表要渐入加高亮匹配词。", "en": "Results should fade in with highlighted matches." },
+      { "role": "You", "cn": "我们刚优化速度，复杂动画会抵消收益。", "en": "We just optimized speed. Heavy animation will undo the gains." },
+      { "role": "Designer", "cn": "去掉渐入，只保留高亮？", "en": "Drop fade-in, keep highlight only?" },
+      { "role": "You", "cn": "可以，再加骨架屏代替白屏。", "en": "Yes. Plus skeleton screen instead of blank." },
+      { "role": "Designer", "cn": "行，我更新稿。", "en": "Fine. I'll update the mockups." },
+      { "role": "You", "cn": "谢了，按简化版做。", "en": "Thanks. Building the simplified version." }
+    ]
+  },
+  {
+    "id": "dlg-chain-search-03",
+    "category": "itwork",
+    "chain": {
+      "id": "search-v2",
+      "title": "Search Optimization Project",
+      "titleCn": "对话链：搜索优化项目",
+      "part": 3,
+      "parts": 5
+    },
+    "title": "Chain 3/5: Search Metrics and Pipeline",
+    "titleCn": "第3环：和数据对搜索指标",
+    "scene": "搜索改版要衡量效果，你和数据团队对齐指标与报表延迟。（对话链：搜索优化）",
+    "roles": ["You", "Data Analyst"],
+    "turns": [
+      { "role": "Data Analyst", "cn": "搜索成功怎么定义？有结果就算？", "en": "How do we define search success? Any results count?" },
+      { "role": "You", "cn": "有结果且用户点击一条才算 search_success。", "en": "Results plus a click counts as search_success." },
+      { "role": "Data Analyst", "cn": "P95延迟我们会监控，仪表盘晚一天正常吗？", "en": "We'll track P95 latency. Is one-day dashboard lag okay?" },
+      { "role": "You", "cn": "上线第一周可以，之后要当日。", "en": "Okay for week one. Same-day after that." },
+      { "role": "Data Analyst", "cn": "ETL昨晚失败过，大批量提前说一声。", "en": "ETL failed last night. Give us a heads-up on bulk jobs." },
+      { "role": "You", "cn": "好，重建索引前我会通知。", "en": "Will do. I'll notify before reindexing." }
+    ]
+  },
+  {
+    "id": "dlg-chain-search-04",
+    "category": "itwork",
+    "chain": {
+      "id": "search-v2",
+      "title": "Search Optimization Project",
+      "titleCn": "对话链：搜索优化项目",
+      "part": 4,
+      "parts": 5
+    },
+    "title": "Chain 4/5: Deploy Search with DevOps",
+    "titleCn": "第4环：和运维上线搜索改版",
+    "scene": "索引重建要上线，你和运维协调发布窗口。（对话链：搜索优化）",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "DevOps", "cn": "重建索引要锁表，今晚两点窗口行吗？", "en": "Reindex needs table locks. Two AM window tonight?" },
+      { "role": "You", "cn": "行，用CONCURRENTLY，读写尽量不停。", "en": "Yes. Use CONCURRENTLY. Keep reads and writes up if possible." },
+      { "role": "DevOps", "cn": "大概二十分钟，要通知业务吗？", "en": "About twenty minutes. Notify the business?" },
+      { "role": "You", "cn": "要，我发Teams，你执行完@我。", "en": "Yes. I'll post in Teams. Ping me when done." },
+      { "role": "DevOps", "cn": "脚本先发我review。", "en": "Send me the script to review first." },
+      { "role": "You", "cn": "一小时内发你。", "en": "Within an hour." }
+    ]
+  },
+  {
+    "id": "dlg-chain-search-05",
+    "category": "itwork",
+    "chain": {
+      "id": "search-v2",
+      "title": "Search Optimization Project",
+      "titleCn": "对话链：搜索优化项目",
+      "part": 5,
+      "parts": 5
+    },
+    "title": "Chain 5/5: Report to Manager and Client",
+    "titleCn": "第5环：向领导和客户汇报成果",
+    "scene": "搜索上线一周，你先向领导汇报，再给客户演示数据。（对话链：搜索优化）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "搜索优化效果怎么样？", "en": "How's the search optimization performing?" },
+      { "role": "You", "cn": "P95从四秒降到一点五秒，点击率升百分之六。", "en": "P95 dropped from four seconds to one point five. Click-through up six percent." },
+      { "role": "Manager", "cn": "客户周五演示，你能讲吗？", "en": "Client demo Friday. Can you present?" },
+      { "role": "You", "cn": "可以，我共享屏幕讲前后对比。", "en": "Yes. I'll share screen and show before and after." },
+      { "role": "Manager", "cn": "别讲太技术，讲业务价值。", "en": "Keep it business-focused, not too technical." },
+      { "role": "You", "cn": "好，我准备三页幻灯片。", "en": "Got it. I'll prepare three slides." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-01",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 1,
+      "parts": 6
+    },
+    "title": "Chain 1/6: On-Call Alert",
+    "titleCn": "第1环：值班收到报警",
+    "scene": "凌晨两点 PagerDuty 报警，你作为 on-call 工程师接入。（对话链：线上故障）",
+    "roles": ["You", "On-Call Bot"],
+    "turns": [
+      { "role": "On-Call Bot", "cn": "PagerDuty：支付服务错误率超阈值。", "en": "PagerDuty: payment service error rate above threshold." },
+      { "role": "You", "cn": "我上线，先看监控仪表盘。", "en": "I'm online. Checking the dashboard first." },
+      { "role": "On-Call Bot", "cn": "影响范围：美东区域，约四成交易。", "en": "Impact: US East region, about forty percent of transactions." },
+      { "role": "You", "cn": "拉运维和同事进Slack频道，我升级P1。", "en": "Pulling ops and the team into Slack. Escalating to P1." },
+      { "role": "On-Call Bot", "cn": "已通知值班经理。", "en": "On-call manager notified." },
+      { "role": "You", "cn": "好，五分钟内发初步状态。", "en": "Good. Preliminary status in five minutes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-02",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 2,
+      "parts": 6
+    },
+    "title": "Chain 2/6: Incident Bridge Call",
+    "titleCn": "第2环：故障电话会",
+    "scene": "经理拉起紧急电话会，你汇报现状。（对话链：线上故障）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "现在什么情况？多少用户受影响？", "en": "What's the status? How many users are affected?" },
+      { "role": "You", "cn": "支付回调失败，大约三成交易挂起。", "en": "Payment callbacks failing. About thirty percent of transactions stuck." },
+      { "role": "Manager", "cn": "根因有线索吗？", "en": "Any idea on root cause?" },
+      { "role": "You", "cn": "可能是新配置把回调URL指错了，在验证。", "en": "Likely new config pointed callback URL wrong. Verifying." },
+      { "role": "Manager", "cn": "ETA恢复？每五分钟更新。", "en": "ETA for recovery? Updates every five minutes." },
+      { "role": "You", "cn": "十五分钟内，我先尝试热修配置。", "en": "Within fifteen minutes. Trying a hotfix to config first." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-03",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 3,
+      "parts": 6
+    },
+    "title": "Chain 3/6: Fix with DevOps",
+    "titleCn": "第3环：和运维紧急修复",
+    "scene": "确认配置错误，你和运维协作修复并观察指标。（对话链：线上故障）",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "You", "cn": "确认了，回调URL指到staging，能热更新吗？", "en": "Confirmed. Callback URL points to staging. Can we hotfix?" },
+      { "role": "DevOps", "cn": "可以，改Env重启pod，两分钟。", "en": "Yes. Change env and restart pods. Two minutes." },
+      { "role": "You", "cn": "错误率下来了，但还有积压订单。", "en": "Error rate is down, but orders are backlogged." },
+      { "role": "DevOps", "cn": "我开worker扩容，你触发重试脚本？", "en": "I'll scale workers. Can you trigger the retry script?" },
+      { "role": "You", "cn": "好，我跑脚本，你盯队列深度。", "en": "Sure. I'll run the script. You watch queue depth." },
+      { "role": "DevOps", "cn": "深度在降，看起来稳了。", "en": "Depth is dropping. Looks stable." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-04",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 4,
+      "parts": 6
+    },
+    "title": "Chain 4/6: Update the Client",
+    "titleCn": "第4环：向客户通报故障",
+    "scene": "服务恢复后，经理请你给客户发口头更新。（对话链：线上故障）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "刚才支付怎么了？用户投诉很多。", "en": "What happened with payments? Lots of user complaints." },
+      { "role": "You", "cn": "非常抱歉，配置错误导致回调失败，现已恢复。", "en": "We're sorry. A config error broke callbacks. It's restored now." },
+      { "role": "Client", "cn": "挂起的订单都会处理吗？", "en": "Will stuck orders all process?" },
+      { "role": "You", "cn": "会，重试脚本在跑，一小时内清完。", "en": "Yes. Retry script is running. Cleared within an hour." },
+      { "role": "Client", "cn": "会不会再发生？", "en": "Could this happen again?" },
+      { "role": "You", "cn": "我们在加发布前检查，明天给您书面报告。", "en": "We're adding pre-release checks. Written report tomorrow." },
+      { "role": "Client", "cn": "好，保持沟通。", "en": "Okay. Keep us posted." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-05",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 5,
+      "parts": 6
+    },
+    "title": "Chain 5/6: Stabilize and Handoff",
+    "titleCn": "第5环：稳定后值班交接",
+    "scene": "故障平息，你把观察事项交给下一班 on-call。（对话链：线上故障）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "on-call交给你，今晚支付已稳，但请盯队列。", "en": "Handing off on-call. Payments are stable, but watch the queue." },
+      { "role": "Colleague", "cn": "根因最终确认了吗？", "en": "Root cause confirmed?" },
+      { "role": "You", "cn": "配置指错环境，回滚脚本没覆盖新服务。", "en": "Config pointed to wrong env. Rollback script didn't cover the new service." },
+      { "role": "Colleague", "cn": "告警阈值要调吗？", "en": "Adjust alert thresholds?" },
+      { "role": "You", "cn": "暂时不用，runbook更新了，链接发你。", "en": "Not for now. Runbook's updated. Link sent." },
+      { "role": "Colleague", "cn": "好，有情况打电话。", "en": "Got it. Call if anything flares up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-incident-06",
+    "category": "itwork",
+    "chain": {
+      "id": "incident-response",
+      "title": "Production Incident Response",
+      "titleCn": "对话链：线上故障从报警到复盘",
+      "part": 6,
+      "parts": 6
+    },
+    "title": "Chain 6/6: Blameless Postmortem",
+    "titleCn": "第6环：故障复盘会",
+    "scene": "两天后开 blameless postmortem，你讲时间线和改进项。（对话链：线上故障）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "请走一遍时间线，从报警开始。", "en": "Walk us through the timeline from the alert." },
+      { "role": "You", "cn": "两点报警，两点十五定位配置，两点三十五恢复。", "en": "Alert at two AM. Config found at two fifteen. Restored at two thirty-five." },
+      { "role": "Manager", "cn": "为什么发布前没发现？", "en": "Why didn't we catch it before release?" },
+      { "role": "You", "cn": "缺环境变量校验，我负责加CI检查。", "en": "Missing env var validation. I'll add CI checks." },
+      { "role": "Manager", "cn": "还有别的行动项吗？", "en": "Any other action items?" },
+      { "role": "You", "cn": "更新runbook，每月做故障演练。", "en": "Update runbook and run a drill monthly." }
+    ]
+  },
+  {
+    "id": "dlg-chain-uat-01",
+    "category": "itwork",
+    "chain": {
+      "id": "feature-uat",
+      "title": "Feature PRD to UAT Sign-Off",
+      "titleCn": "对话链：新功能从PRD到验收",
+      "part": 1,
+      "parts": 5
+    },
+    "title": "Chain 1/5: PRD Walkthrough",
+    "titleCn": "第1环：需求文档评审",
+    "scene": "新功能「会员等级」启动，产品经理讲解 PRD。（对话链：PRD到验收）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "PRD发了，会员分金银铜三档，清楚吗？", "en": "PRD is out. Gold, silver, bronze tiers. Clear?" },
+      { "role": "You", "cn": "升级规则是消费额还是积分？边界要写清。", "en": "Upgrade by spend or points? Boundaries need to be explicit." },
+      { "role": "PM", "cn": "按过去十二个月消费额，铜到银五千。", "en": "Trailing twelve-month spend. Bronze to silver at five thousand." },
+      { "role": "You", "cn": "降级呢？退款要不要扣回等级？", "en": "Downgrades? Do refunds claw back tier?" },
+      { "role": "PM", "cn": "好问题，我补一节到PRD。", "en": "Good catch. I'll add a section to the PRD." },
+      { "role": "You", "cn": "补完我再估点。", "en": "I'll estimate once that's updated." }
+    ]
+  },
+  {
+    "id": "dlg-chain-uat-02",
+    "category": "itwork",
+    "chain": {
+      "id": "feature-uat",
+      "title": "Feature PRD to UAT Sign-Off",
+      "titleCn": "对话链：新功能从PRD到验收",
+      "part": 2,
+      "parts": 5
+    },
+    "title": "Chain 2/5: Sprint Planning",
+    "titleCn": "第2环：迭代估点排期",
+    "scene": "PRD 定稿后，迭代计划会上你估算故事点。（对话链：PRD到验收）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "会员等级这故事几点？", "en": "How many points for the membership tiers story?" },
+      { "role": "You", "cn": "后端规则引擎加展示，我投十三点。", "en": "Backend rules engine plus display. I vote thirteen." },
+      { "role": "PM", "cn": "本sprint三十点，还能塞通知吗？", "en": "Sprint capacity thirty points. Room for notifications?" },
+      { "role": "You", "cn": "通知可以，但要减报表那个小故事。", "en": "Notifications yes, but drop the small report story." },
+      { "role": "PM", "cn": "行，目标下周五提测。", "en": "Okay. Target QA handoff next Friday." },
+      { "role": "You", "cn": "没问题。", "en": "Works for me." }
+    ]
+  },
+  {
+    "id": "dlg-chain-uat-03",
+    "category": "itwork",
+    "chain": {
+      "id": "feature-uat",
+      "title": "Feature PRD to UAT Sign-Off",
+      "titleCn": "对话链：新功能从PRD到验收",
+      "part": 3,
+      "parts": 5
+    },
+    "title": "Chain 3/5: QA Finds Tier Bug",
+    "titleCn": "第3环：测试发现等级计算bug",
+    "scene": "提测后 QA 发现退款后等级未降级，你讨论修复。（对话链：PRD到验收）",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "退款后等级没变，和PRD说不一致。", "en": "Tier didn't change after refund. Conflicts with PRD." },
+      { "role": "You", "cn": "看到了，异步任务没触发重算，今晚修。", "en": "I see it. Async job didn't trigger recalc. Fix tonight." },
+      { "role": "QA", "cn": "算P1吗？挡UAT吗？", "en": "P1? Does it block UAT?" },
+      { "role": "You", "cn": "P1，挡UAT，修完你再验边界用例。", "en": "P1. Blocks UAT. Re-test boundary cases after fix." },
+      { "role": "QA", "cn": "好，我让业务方明天再来验。", "en": "Okay. I'll ask business to UAT tomorrow instead." },
+      { "role": "You", "cn": "谢谢，build今晚发你。", "en": "Thanks. Build tonight." }
+    ]
+  },
+  {
+    "id": "dlg-chain-uat-04",
+    "category": "itwork",
+    "chain": {
+      "id": "feature-uat",
+      "title": "Feature PRD to UAT Sign-Off",
+      "titleCn": "对话链：新功能从PRD到验收",
+      "part": 4,
+      "parts": 5
+    },
+    "title": "Chain 4/5: Business UAT Session",
+    "titleCn": "第4环：业务方验收测试",
+    "scene": "Bug 修完后，业务方来做 UAT，你陪同解答。（对话链：PRD到验收）",
+    "roles": ["You", "Business User"],
+    "turns": [
+      { "role": "Business User", "cn": "我模拟消费六千，怎么还是铜卡？", "en": "I simulated six thousand spend. Why am I still bronze?" },
+      { "role": "You", "cn": "等级每天凌晨批量算，手动刷新点这里。", "en": "Tiers batch overnight. Click here to refresh manually." },
+      { "role": "Business User", "cn": "刷新了，变银卡了。降级场景呢？", "en": "Refreshed — silver now. What about downgrade?" },
+      { "role": "You", "cn": "大额退款会触发重算，演示账号我帮您改余额。", "en": "Large refunds trigger recalc. I'll adjust the demo account balance." },
+      { "role": "Business User", "cn": "可以，其他场景我下午测完。", "en": "Okay. I'll finish other scenarios this afternoon." },
+      { "role": "You", "cn": "有问题随时叫我。", "en": "Ping me anytime if something's off." }
+    ]
+  },
+  {
+    "id": "dlg-chain-uat-05",
+    "category": "itwork",
+    "chain": {
+      "id": "feature-uat",
+      "title": "Feature PRD to UAT Sign-Off",
+      "titleCn": "对话链：新功能从PRD到验收",
+      "part": 5,
+      "parts": 5
+    },
+    "title": "Chain 5/5: Client Sign-Off",
+    "titleCn": "第5环：客户签收上线",
+    "scene": "UAT 通过，你和客户确认签收并排上线。（对话链：PRD到验收）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "会员等级UAT通过了，可以签收上线吗？", "en": "Membership tiers passed UAT. Ready to sign off for release?" },
+      { "role": "Client", "cn": "业务方确认了，我签字。", "en": "Business confirmed. I'll sign." },
+      { "role": "You", "cn": "计划周四晚灰度百分之十，周五全量。", "en": "Thursday night ten percent canary, full rollout Friday." },
+      { "role": "Client", "cn": "用户公告需要我们先发吗？", "en": "Should we send the user announcement first?" },
+      { "role": "You", "cn": "建议全量前二十四小时发，文案我草稿给您。", "en": "Twenty-four hours before full rollout. I'll draft copy for you." },
+      { "role": "Client", "cn": "好，期待上线。", "en": "Sounds good. Looking forward to launch." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onboard-01",
+    "category": "itwork",
+    "chain": {
+      "id": "onboard-week1",
+      "title": "New Hire First Week",
+      "titleCn": "对话链：新人入职第一周",
+      "part": 1,
+      "parts": 5
+    },
+    "title": "Chain 1/5: Day One with Manager",
+    "titleCn": "第1环：第一天见经理",
+    "scene": "入职第一天，直属经理和你一对一介绍团队与期望。（对话链：新人第一周）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "欢迎加入！这周主要熟悉环境和代码。", "en": "Welcome aboard! This week focus on the environment and codebase." },
+      { "role": "You", "cn": "谢谢！我的入职buddy是谁？", "en": "Thank you! Who's my onboarding buddy?" },
+      { "role": "Manager", "cn": "Lisa带你，有问题先问她。", "en": "Lisa will show you around. Ask her first if you're stuck." },
+      { "role": "You", "cn": "第一个小任务大概什么时候给？", "en": "When will I get my first small task?" },
+      { "role": "Manager", "cn": "周三左右，先跑通本地和CI。", "en": "Around Wednesday. Get local and CI working first." },
+      { "role": "You", "cn": "好，我今天先把权限申请弄好。", "en": "Got it. I'll sort out access today." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onboard-02",
+    "category": "itwork",
+    "chain": {
+      "id": "onboard-week1",
+      "title": "New Hire First Week",
+      "titleCn": "对话链：新人入职第一周",
+      "part": 2,
+      "parts": 5
+    },
+    "title": "Chain 2/5: IT Access Setup",
+    "titleCn": "第2环：IT开通权限",
+    "scene": "你需要 IT 开通 VPN、邮箱和代码仓库权限。（对话链：新人第一周）",
+    "roles": ["You", "IT"],
+    "turns": [
+      { "role": "You", "cn": "你好，新员工张伟，需要VPN和GitHub权限。", "en": "Hi, new hire Zhang Wei. I need VPN and GitHub access." },
+      { "role": "IT", "cn": "工单号有吗？经理批了吗？", "en": "Ticket number? Manager approved?" },
+      { "role": "You", "cn": "工单IT-4421，经理今早批的。", "en": "Ticket IT four four two one. Manager approved this morning." },
+      { "role": "IT", "cn": "一小时后VPN邮件发你，GitHub邀org。", "en": "VPN email in an hour. GitHub org invite coming." },
+      { "role": "You", "cn": "Jira和Slack呢？", "en": "What about Jira and Slack?" },
+      { "role": "IT", "cn": "自动开通，用公司邮箱登录。", "en": "Auto-provisioned. Log in with your company email." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onboard-03",
+    "category": "itwork",
+    "chain": {
+      "id": "onboard-week1",
+      "title": "New Hire First Week",
+      "titleCn": "对话链：新人入职第一周",
+      "part": 3,
+      "parts": 5
+    },
+    "title": "Chain 3/5: Codebase Walkthrough",
+    "titleCn": "第3环：导师讲代码结构",
+    "scene": "Buddy Lisa 带你过一遍项目结构和开发流程。（对话链：新人第一周）",
+    "roles": ["You", "Buddy"],
+    "turns": [
+      { "role": "Buddy", "cn": "后端在services目录，前端在web，清楚吗？", "en": "Backend is under services, frontend under web. Clear?" },
+      { "role": "You", "cn": "本地起服务看README就行？", "en": "Start locally from the README?" },
+      { "role": "Buddy", "cn": "对，先docker-compose up，缺env问我。", "en": "Yes. docker-compose up first. Ping me if env vars are missing." },
+      { "role": "You", "cn": "分支策略是什么？", "en": "What's the branching strategy?" },
+      { "role": "Buddy", "cn": "feature分支，PR要两人review。", "en": "Feature branches. PRs need two reviewers." },
+      { "role": "You", "cn": "好，我下午试着提个小PR。", "en": "Okay. I'll try a small PR this afternoon." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onboard-04",
+    "category": "itwork",
+    "chain": {
+      "id": "onboard-week1",
+      "title": "New Hire First Week",
+      "titleCn": "对话链：新人入职第一周",
+      "part": 4,
+      "parts": 5
+    },
+    "title": "Chain 4/5: First Standup",
+    "titleCn": "第4环：第一次站会发言",
+    "scene": "入职第三天，每日站会轮到你第一次发言。（对话链：新人第一周）",
+    "roles": ["You", "Scrum Master"],
+    "turns": [
+      { "role": "Scrum Master", "cn": "张伟，昨天、今天和阻碍？", "en": "Zhang Wei, yesterday, today, and blockers?" },
+      { "role": "You", "cn": "昨天跑通本地和CI，今天修文档里的typo。", "en": "Yesterday I got local and CI working. Today fixing typos in docs." },
+      { "role": "Scrum Master", "cn": "有卡住的吗？", "en": "Anything blocking you?" },
+      { "role": "You", "cn": "测试数据库凭证还不对，等IT回复。", "en": "Test DB credentials still wrong. Waiting on IT." },
+      { "role": "Scrum Master", "cn": "我帮催IT。", "en": "I'll ping IT for you." },
+      { "role": "You", "cn": "谢谢，没别的了。", "en": "Thanks. That's all from me." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onboard-05",
+    "category": "itwork",
+    "chain": {
+      "id": "onboard-week1",
+      "title": "New Hire First Week",
+      "titleCn": "对话链：新人入职第一周",
+      "part": 5,
+      "parts": 5
+    },
+    "title": "Chain 5/5: Week One Check-In",
+    "titleCn": "第5环：第一周一对一",
+    "scene": "第一周结束，经理和你做一对一回顾。（对话链：新人第一周）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "第一周感觉怎么样？", "en": "How was your first week?" },
+      { "role": "You", "cn": "挺充实，提了第一个PR，还在学业务。", "en": "Busy but good. First PR is up. Still learning the domain." },
+      { "role": "Manager", "cn": "有什么不清楚或需要支持的？", "en": "Anything unclear or where you need support?" },
+      { "role": "You", "cn": "支付模块文档有点旧，能否安排讲解？", "en": "Payment module docs are stale. Could we do a walkthrough?" },
+      { "role": "Manager", "cn": "好，下周让Lisa给你讲一小时。", "en": "Sure. Lisa will do an hour next week." },
+      { "role": "You", "cn": "谢谢，我继续努力。", "en": "Thank you. I'll keep at it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-01",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 1,
+      "parts": 6
+    },
+    "title": "Chain 1/6: Request Design Review",
+    "titleCn": "第1环：申请方案评审",
+    "scene": "你写完 RFC，邮件约架构师评审。（对话链：技术方案落地）",
+    "roles": ["You", "Architect"],
+    "turns": [
+      { "role": "You", "cn": "订单通知改版RFC发了，能安排评审吗？", "en": "Order notification RFC is out. Can we schedule a review?" },
+      { "role": "Architect", "cn": "看了摘要，为什么用消息队列不用同步？", "en": "Saw the summary. Why a message queue instead of sync?" },
+      { "role": "You", "cn": "峰值削峰，下游短信挂了也不丢单。", "en": "Smooths spikes. We don't lose orders if SMS is down." },
+      { "role": "Architect", "cn": "明天下午三点，带上序列图。", "en": "Tomorrow three PM. Bring sequence diagrams." },
+      { "role": "You", "cn": "好，我补幂等和重试章节。", "en": "Sure. I'll add idempotency and retry sections." },
+      { "role": "Architect", "cn": "期待。", "en": "Looking forward to it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-02",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 2,
+      "parts": 6
+    },
+    "title": "Chain 2/6: Design Review Meeting",
+    "titleCn": "第2环：方案评审会",
+    "scene": "评审会上架构师追问细节，你当场回答。（对话链：技术方案落地）",
+    "roles": ["You", "Architect"],
+    "turns": [
+      { "role": "Architect", "cn": "重复消费怎么处理？", "en": "How do you handle duplicate consumption?" },
+      { "role": "You", "cn": "业务幂等键加数据库唯一约束。", "en": "Idempotency keys plus DB unique constraints." },
+      { "role": "Architect", "cn": "队列积压告警呢？", "en": "Alerts on queue backlog?" },
+      { "role": "You", "cn": "深度和错误率接PagerDuty。", "en": "Depth and error rate feed into PagerDuty." },
+      { "role": "Architect", "cn": "可以，按这版推进，记得写ADR。", "en": "Approved. Proceed and write an ADR." },
+      { "role": "You", "cn": "好，本周五前发最终版。", "en": "Will do. Final version by Friday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-03",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 3,
+      "parts": 6
+    },
+    "title": "Chain 3/6: Security Sign-Off",
+    "titleCn": "第3环：安全签字",
+    "scene": "方案通过后，安全团队做简短评审。（对话链：技术方案落地）",
+    "roles": ["You", "Security"],
+    "turns": [
+      { "role": "Security", "cn": "消息体里会有PII吗？", "en": "Will message bodies contain PII?" },
+      { "role": "You", "cn": "只有订单号和用户ID，不含姓名手机。", "en": "Order ID and user ID only. No names or phone numbers." },
+      { "role": "Security", "cn": "队列权限谁都能发吗？", "en": "Can anyone publish to the queue?" },
+      { "role": "You", "cn": "只有订单服务IAM角色能发。", "en": "Only the order service IAM role can publish." },
+      { "role": "Security", "cn": "可以，上线前再做渗透。", "en": "Approved. Pen test before go-live." },
+      { "role": "You", "cn": "明白，我登记到发布清单。", "en": "Got it. I'll add it to the release checklist." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-04",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 4,
+      "parts": 6
+    },
+    "title": "Chain 4/6: Align Timeline with PM",
+    "titleCn": "第4环：和产品对排期",
+    "scene": "技术方案定了，你和产品经理对齐开发排期。（对话链：技术方案落地）",
+    "roles": ["You", "PM"],
+    "turns": [
+      { "role": "PM", "cn": "通知改版什么时候能上线？", "en": "When can the notification revamp go live?" },
+      { "role": "You", "cn": "开发两周，加测试和灰度，共三周。", "en": "Two weeks dev plus test and canary. Three weeks total." },
+      { "role": "PM", "cn": "客户希望两周全量，能砍吗？", "en": "Client wants full rollout in two weeks. Can we cut scope?" },
+      { "role": "You", "cn": "可以先上邮件，短信和推送第二期。", "en": "Ship email first. SMS and push in phase two." },
+      { "role": "PM", "cn": "行，我去跟客户谈分期。", "en": "Okay. I'll sell the phased plan to the client." },
+      { "role": "You", "cn": "好，我拆Jira epic。", "en": "Good. I'll break down the Jira epic." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-05",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 5,
+      "parts": 6
+    },
+    "title": "Chain 5/6: Mid-Build Design Change",
+    "titleCn": "第5环：开发中调整方案",
+    "scene": "开发中发现短信供应商限制，你需要调整设计并同步团队。（对话链：技术方案落地）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "短信供应商限速每秒十条，原方案扛不住峰值。", "en": "SMS vendor caps ten per second. Original design can't handle peaks." },
+      { "role": "Colleague", "cn": "要加缓冲队列？", "en": "Add a buffer queue?" },
+      { "role": "You", "cn": "对，延迟队列加批量发送，我更新RFC。", "en": "Yes. Delay queue plus batch send. I'll update the RFC." },
+      { "role": "Colleague", "cn": "架构师要再审吗？", "en": "Does the architect need to re-review?" },
+      { "role": "You", "cn": "小改，Slack异步确认就行。", "en": "Small change. Async sign-off on Slack is fine." },
+      { "role": "Colleague", "cn": "好，我按新方案改消费者。", "en": "Okay. I'll update the consumer to match." }
+    ]
+  },
+  {
+    "id": "dlg-chain-design-06",
+    "category": "itwork",
+    "chain": {
+      "id": "design-to-land",
+      "title": "Technical Design to Production",
+      "titleCn": "对话链：技术方案从评审到落地",
+      "part": 6,
+      "parts": 6
+    },
+    "title": "Chain 6/6: Ship and Document",
+    "titleCn": "第6环：上线并更新文档",
+    "scene": "功能灰度上线成功，你在团队会分享并归档设计文档。（对话链：技术方案落地）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "通知改版灰度怎么样？", "en": "How's the notification revamp canary?" },
+      { "role": "You", "cn": "错误率正常，明天全量，ADR已更新。", "en": "Error rate is fine. Full rollout tomorrow. ADR is updated." },
+      { "role": "Manager", "cn": "和原方案比有什么教训？", "en": "Lessons learned versus the original design?" },
+      { "role": "You", "cn": "供应商限流要尽早压测，文档写了。", "en": "Load-test vendor rate limits early. Documented in the ADR." },
+      { "role": "Manager", "cn": "下周内部分享一下？", "en": "Internal share next week?" },
+      { "role": "You", "cn": "可以，我准备十分钟幻灯片。", "en": "Sure. I'll prep a ten-minute deck." }
+    ]
+  },
+  {
+    "id": "dlg-chain-tz-01",
+    "category": "itwork",
+    "chain": {
+      "id": "cross-timezone",
+      "title": "Cross-Timezone Collaboration",
+      "titleCn": "对话链：跨时区团队协作",
+      "part": 1,
+      "parts": 5
+    },
+    "title": "Chain 1/5: Schedule Global Meeting",
+    "titleCn": "第1环：协调全球会议时间",
+    "scene": "要和美东、印度同事开会，你邮件协调时间。（对话链：跨时区协作）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "你提议的九点对你来说是早上还是晚上？", "en": "Your proposed nine o'clock — is that AM or PM for you?" },
+      { "role": "You", "cn": "我这边早上九点，印度大概晚上六点半。", "en": "Nine AM my time. That's about six thirty PM in India." },
+      { "role": "Colleague", "cn": "印度同事说太晚，能提前一小时吗？", "en": "India team says that's late. Can we move an hour earlier?" },
+      { "role": "You", "cn": "可以，我八点，发日历邀请注明时区。", "en": "Sure. Eight my time. I'll send invites with time zones listed." },
+      { "role": "Colleague", "cn": "好，Zoom链接你来建？", "en": "Good. You'll create the Zoom link?" },
+      { "role": "You", "cn": "对，邀请里写UTC和本地时间。", "en": "Yes. I'll put UTC and local time in the invite." }
+    ]
+  },
+  {
+    "id": "dlg-chain-tz-02",
+    "category": "itwork",
+    "chain": {
+      "id": "cross-timezone",
+      "title": "Cross-Timezone Collaboration",
+      "titleCn": "对话链：跨时区团队协作",
+      "part": 2,
+      "parts": 5
+    },
+    "title": "Chain 2/5: Async Standup Update",
+    "titleCn": "第2环：异步站会留言",
+    "scene": "你和海外同事错开工作时间，用 Slack 异步站会。（对话链：跨时区协作）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "我下班前发站会：昨天完成API，今天写测试。", "en": "End-of-day standup: yesterday API done, today writing tests." },
+      { "role": "Colleague", "cn": "收到，我明早你的下午三点回blocker。", "en": "Got it. I'll reply on blockers tomorrow morning, your three PM." },
+      { "role": "You", "cn": "好，阻塞写清依赖谁。", "en": "Sounds good. Tag who you're blocked on." },
+      { "role": "Colleague", "cn": "你们节假日周五放假吗？", "en": "Are you off Friday for the holiday?" },
+      { "role": "You", "cn": "对，周四下班前我会交接文档。", "en": "Yes. I'll hand off notes before Thursday EOD." },
+      { "role": "Colleague", "cn": "谢谢，祝假期愉快。", "en": "Thanks. Enjoy the holiday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-tz-03",
+    "category": "itwork",
+    "chain": {
+      "id": "cross-timezone",
+      "title": "Cross-Timezone Collaboration",
+      "titleCn": "对话链：跨时区团队协作",
+      "part": 3,
+      "parts": 5
+    },
+    "title": "Chain 3/5: End-of-Day Handoff",
+    "titleCn": "第3环：下班交给海外团队",
+    "scene": "你下班前把未完成任务交给印度班次的同事。（对话链：跨时区协作）",
+    "roles": ["You", "Offshore Lead"],
+    "turns": [
+      { "role": "You", "cn": "我这边下班了，支付bug还在查，日志在ticket。", "en": "I'm signing off. Payment bug still open. Logs are in the ticket." },
+      { "role": "Offshore Lead", "cn": "优先级P1吗？客户催吗？", "en": "P1? Is the client pushing?" },
+      { "role": "You", "cn": "P2，客户已知，明早我上线第一时间同步。", "en": "P2. Client is aware. I'll sync first thing tomorrow." },
+      { "role": "Offshore Lead", "cn": "好，我们今晚继续查，Slack更新。", "en": "Okay. We'll keep investigating. Updates on Slack." },
+      { "role": "You", "cn": "谢谢，急事打我手机。", "en": "Thanks. Call my cell if it's urgent." },
+      { "role": "Offshore Lead", "cn": "晚安。", "en": "Good night." }
+    ]
+  },
+  {
+    "id": "dlg-chain-tz-04",
+    "category": "itwork",
+    "chain": {
+      "id": "cross-timezone",
+      "title": "Cross-Timezone Collaboration",
+      "titleCn": "对话链：跨时区团队协作",
+      "part": 4,
+      "parts": 5
+    },
+    "title": "Chain 4/5: Didn't Catch Async Message",
+    "titleCn": "第4环：没听清语音留言",
+    "scene": "海外同事发了 Slack 语音，你没听清，礼貌请对方文字复述。（对话链：跨时区协作）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "……所以staging的证书……明天……", "en": "…so the staging cert… tomorrow…" },
+      { "role": "You", "cn": "不好意思，语音有点糊，能打字再说一遍吗？", "en": "Sorry, the voice note was unclear. Could you type that again?" },
+      { "role": "Colleague", "cn": "Staging SSL明天过期，今天要换。", "en": "Staging SSL expires tomorrow. We need to rotate today." },
+      { "role": "You", "cn": "我确认一下：影响部署，今天要处理，对吗？", "en": "Let me confirm: blocks deploys, needs action today, right?" },
+      { "role": "Colleague", "cn": "对，运维工单IT-8812。", "en": "Yes. Ops ticket IT eight eight one two." },
+      { "role": "You", "cn": "好，我跟运维说一声。", "en": "Okay. I'll ping ops." }
+    ]
+  },
+  {
+    "id": "dlg-chain-tz-05",
+    "category": "itwork",
+    "chain": {
+      "id": "cross-timezone",
+      "title": "Cross-Timezone Collaboration",
+      "titleCn": "对话链：跨时区团队协作",
+      "part": 5,
+      "parts": 5
+    },
+    "title": "Chain 5/5: Weekly Global Sync",
+    "titleCn": "第5环：全球周会同步",
+    "scene": "每周全球同步会，你代表本地团队汇报进度。（对话链：跨时区协作）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "亚太这边本周交付什么？", "en": "What's Asia-Pacific shipping this week?" },
+      { "role": "You", "cn": "报表导出上线，搜索优化进测试。", "en": "Report export goes live. Search optimization to QA." },
+      { "role": "Manager", "cn": "和欧洲团队有依赖吗？", "en": "Any dependencies on the Europe team?" },
+      { "role": "You", "cn": "要他们的翻译文件，已发ticket，周三截止。", "en": "Need their translation files. Ticket sent, due Wednesday." },
+      { "role": "Manager", "cn": "好，风险记得标红。", "en": "Good. Flag risks in red." },
+      { "role": "You", "cn": "已在状态页更新。", "en": "Updated on the status page." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-01",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 1,
+      "parts": 6
+    },
+    "title": "Chain 1/6: Angry Client Call",
+    "titleCn": "第1环：客户愤怒来电",
+    "scene": "客户高管来电，投诉同一问题第三次出现。（对话链：客户投诉升级）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "第三次了！报表又错了，我们怎么信你们？", "en": "Third time! Reports are wrong again. How can we trust you?" },
+      { "role": "You", "cn": "非常理解您的挫败感，我先道歉，立刻查。", "en": "I completely understand your frustration. I'm sorry. Investigating right now." },
+      { "role": "Client", "cn": "今天下班前要有结论！", "en": "I want answers before end of business today!" },
+      { "role": "You", "cn": "可以，一小时给您初步分析，今晚给修复计划。", "en": "Yes. Preliminary analysis in one hour. Fix plan tonight." },
+      { "role": "Client", "cn": "我老板明天要问，别敷衍。", "en": "My boss will ask tomorrow. Don't give me fluff." },
+      { "role": "You", "cn": "明白，我会书面抄送您和项目经理。", "en": "Understood. I'll email you and the project manager in writing." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-02",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 2,
+      "parts": 6
+    },
+    "title": "Chain 2/6: Manager Pulls You In",
+    "titleCn": "第2环：经理拉你进升级会",
+    "scene": "经理叫你一起准备给客户的升级电话会。（对话链：客户投诉升级）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "客户升级到他们VP了，四点电话会你来讲技术。", "en": "They escalated to their VP. Four PM call. You cover the technical side." },
+      { "role": "You", "cn": "根因是时区转换bug，已在staging复现。", "en": "Root cause is a timezone conversion bug. Reproduced on staging." },
+      { "role": "Manager", "cn": "别甩锅，讲我们怎么修、怎么防再犯。", "en": "No blame. Focus on fix and prevention." },
+      { "role": "You", "cn": "好，我讲修复时间表加自动化测试。", "en": "I'll present the fix timeline plus automated tests." },
+      { "role": "Manager", "cn": "语气稳，承认问题，给具体日期。", "en": "Stay calm. Acknowledge the issue. Give concrete dates." },
+      { "role": "You", "cn": "明白，我准备一页纸。", "en": "Got it. I'll prep a one-pager." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-03",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 3,
+      "parts": 6
+    },
+    "title": "Chain 3/6: Root Cause with Team",
+    "titleCn": "第3环：团队查根因",
+    "scene": "升级会前，你和 QA、运维快速对齐根因与修复。（对话链：客户投诉升级）",
+    "roles": ["You", "QA"],
+    "turns": [
+      { "role": "QA", "cn": "报表日期差一天，和上次是同一类bug吗？", "en": "Report dates off by one day. Same class as last time?" },
+      { "role": "You", "cn": "是，UTC没转用户时区，我漏了夏令时。", "en": "Yes. UTC not converted to user timezone. I missed daylight saving." },
+      { "role": "QA", "cn": "回归用例要加边界日期。", "en": "Regression needs boundary date cases." },
+      { "role": "You", "cn": "对，修完今晚给你build，明早全量回归。", "en": "Yes. Build tonight. Full regression tomorrow morning." },
+      { "role": "QA", "cn": "客户会前要结果吗？", "en": "Do they want results before the client call?" },
+      { "role": "You", "cn": "要，三点前我给修复确认。", "en": "Yes. Fix confirmed by three PM." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-04",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 4,
+      "parts": 6
+    },
+    "title": "Chain 4/6: Escalation Call with VP",
+    "titleCn": "第4环：和客户VP开会",
+    "scene": "升级电话会，客户 VP 在场，你陈述根因与修复计划。（对话链：客户投诉升级）",
+    "roles": ["You", "Client VP"],
+    "turns": [
+      { "role": "Client VP", "cn": "这是第三次，你们怎么保证不再发生？", "en": "This is the third time. How do you guarantee it won't happen again?" },
+      { "role": "You", "cn": "根因是时区处理遗漏，补丁明天上线，并加自动化测试。", "en": "Root cause was timezone handling. Patch tomorrow plus automated tests." },
+      { "role": "Client VP", "cn": "我们要书面时间表和补偿方案。", "en": "We want a written timeline and a remediation plan." },
+      { "role": "You", "cn": "时间表今晚发，补偿请项目经理跟您谈。", "en": "Timeline tonight. Remediation is for our PM to discuss with you." },
+      { "role": "Client VP", "cn": "明天同一时间点跟进。", "en": "Same time tomorrow for a follow-up." },
+      { "role": "You", "cn": "可以，我会带测试报告。", "en": "Yes. I'll bring the test report." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-05",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 5,
+      "parts": 6
+    },
+    "title": "Chain 5/6: Hotfix Release",
+    "titleCn": "第5环：紧急修复上线",
+    "scene": "你和运维紧急发布补丁，并通知客户。（对话链：客户投诉升级）",
+    "roles": ["You", "DevOps"],
+    "turns": [
+      { "role": "You", "cn": "时区补丁准备好了，能提前到今晚发吗？", "en": "Timezone patch is ready. Can we release tonight instead?" },
+      { "role": "DevOps", "cn": "可以，走紧急变更流程，你填单子。", "en": "Yes. Emergency change process. Fill out the form." },
+      { "role": "You", "cn": "填好了，客户已同意维护窗口。", "en": "Done. Client approved the maintenance window." },
+      { "role": "DevOps", "cn": "十点发，你在线验证报表？", "en": "Ship at ten PM. You'll verify reports online?" },
+      { "role": "You", "cn": "对，验证完发邮件给客户。", "en": "Yes. Email the client once verified." },
+      { "role": "DevOps", "cn": "开始部署。", "en": "Starting deploy." }
+    ]
+  },
+  {
+    "id": "dlg-chain-escalate-06",
+    "category": "itwork",
+    "chain": {
+      "id": "client-escalation",
+      "title": "Client Escalation Response",
+      "titleCn": "对话链：客户投诉升级处理",
+      "part": 6,
+      "parts": 6
+    },
+    "title": "Chain 6/6: Restore Trust Follow-Up",
+    "titleCn": "第6环：修复后重建信任",
+    "scene": "补丁上线后第二天，你与客户跟进，确认满意并总结改进。（对话链：客户投诉升级）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "You", "cn": "昨晚补丁已上，报表时区我们验证过了，您方便试一下吗？", "en": "Last night's patch is live. We verified report timezones. Could you try it?" },
+      { "role": "Client", "cn": "试了，目前没问题。但我们要月度质量报告。", "en": "I tried it. Looks fine for now. But we want monthly quality reports." },
+      { "role": "You", "cn": "可以，从本月起每月五号发缺陷和SLA摘要。", "en": "Yes. Starting this month, defect and SLA summary on the fifth." },
+      { "role": "Client", "cn": "行，这次先这样。", "en": "Okay. We'll leave it there for now." },
+      { "role": "You", "cn": "感谢您的耐心，我们会持续改进。", "en": "Thank you for your patience. We'll keep improving." },
+      { "role": "Client", "cn": "希望不要再有第四次。", "en": "Let's hope there isn't a fourth time." }
+    ]
+  }
+]
