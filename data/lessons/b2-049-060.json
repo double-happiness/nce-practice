@@ -1,0 +1,446 @@
+[
+  {
+    "book": 2,
+    "lesson": 49,
+    "title": "The end of a dream",
+    "titleCn": "美梦告终",
+    "scene": "一位旅客连续工作多日后筋疲力尽，在机场候机时刚坐上飞机便沉沉睡去。等他醒来时，机舱已经在高空平稳飞行，他先是困惑，再是后怕，最后苦笑着承认自己连起飞都没感觉到。这个故事一前一后有两层时间：背景里“当时正在发生”的动作（他正在睡）用过去进行时，推进情节的关键动作（醒来、发现、询问）用一般过去时，正好帮助学习两种时态如何配合叙事。",
+    "grammarTags": ["过去进行时", "一般过去时"],
+    "words": [
+      { "word": "tired", "phon": "/ˈtaɪəd/", "pos": "adj.", "cn": "疲劳的", "eg": "He was so tired that he fell asleep before take-off. 他太累了，起飞前就睡着了。" },
+      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；做梦", "eg": "His pleasant dream ended when he heard the engine noise. 听到引擎声时，他的美梦结束了。" },
+      { "word": "take-off", "phon": "/ˈteɪk ɒf/", "pos": "n.", "cn": "起飞", "eg": "He missed the whole take-off because he was asleep. 因为睡着了，他错过了整个起飞过程。" },
+      { "word": "flight", "phon": "/flaɪt/", "pos": "n.", "cn": "飞行；航班", "eg": "The flight was already halfway when he woke up. 他醒来时航程已经过半。" },
+      { "word": "wake", "phon": "/weɪk/", "pos": "v.", "cn": "醒来；叫醒", "eg": "I woke suddenly and looked out of the window. 我突然醒来并向窗外看去。" },
+      { "word": "cabin", "phon": "/ˈkæbɪn/", "pos": "n.", "cn": "机舱", "eg": "Everyone in the cabin was calm and quiet. 机舱里的每个人都很平静。" },
+      { "word": "stewardess", "phon": "/ˈstjuːədəs/", "pos": "n.", "cn": "空中小姐", "eg": "A stewardess smiled and told him they were in the air. 一位空姐微笑着告诉他飞机已经在空中。" },
+      { "word": "surprised", "phon": "/səˈpraɪzd/", "pos": "adj.", "cn": "惊讶的", "eg": "He was surprised that he had slept so deeply. 他惊讶于自己睡得那么沉。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时（was/were + doing）",
+        "explain": "过去进行时表示过去某一时刻正在进行的动作，常用来交代背景画面。故事里“他正在睡觉”“飞机正在飞行”都可以用过去进行时来描写。它经常和一般过去时搭配：进行时给背景，过去时给事件。易错点：过去进行时强调过程，不强调动作是否完成；状态动词通常不用进行时。",
+        "examples": [
+          "He was sleeping when the plane took off. （飞机起飞时他正在睡觉。）",
+          "The passengers were waiting quietly while the rain was falling outside. （外面下着雨时，乘客们正安静地等候。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于叙述已经完成的过去动作，是讲故事的主时态。故事里“他醒来”“他问空姐”都属于明确发生并完成的动作。易错点：在否定句和疑问句中要借助 did，后面的实义动词要用原形；不规则动词过去式需要单独记忆。",
+        "examples": [
+          "He woke up and asked where they were. （他醒来后问他们到哪儿了。）",
+          "The stewardess answered politely and gave him some coffee. （空姐礼貌地回答并给了他一些咖啡。）"
+        ]
+      }
+    ],
+    "tips": "把情节想成两层镜头：背景镜头是“正在发生”（was sleeping），关键镜头是“突然发生”（woke up）。记忆口诀：讲背景用进行，讲节点用过去。"
+  },
+  {
+    "book": 2,
+    "lesson": 50,
+    "title": "Taken for a ride",
+    "titleCn": "乘车兜风受骗记",
+    "scene": "作者在陌生城市里向一位看似热心的路人问路，对方主动拦下一辆出租车并告诉司机目的地。一路上司机绕来绕去，穿过许多街区，最后把他送回离出发点不远的地方，却收了三百英镑。后来他才知道自己被“带着兜了个大圈子”。本课一方面用一般过去时讲清事情经过，另一方面用被动语态表达“我被带去某地”“我被骗了钱”这种受动意义，突出受害者视角。",
+    "grammarTags": ["一般过去时", "被动语态"],
+    "words": [
+      { "word": "direction", "phon": "/dəˈrekʃn/", "pos": "n.", "cn": "方向；指路", "eg": "I asked a stranger for directions to my hotel. 我向一个陌生人问去酒店的路。" },
+      { "word": "stranger", "phon": "/ˈstreɪndʒə/", "pos": "n.", "cn": "陌生人", "eg": "The stranger seemed friendly but gave wrong advice. 那个陌生人看起来友好，却给了错误建议。" },
+      { "word": "taxi", "phon": "/ˈtæksi/", "pos": "n.", "cn": "出租车", "eg": "He put me into a taxi and waved goodbye. 他把我塞进出租车并挥手告别。" },
+      { "word": "tour", "phon": "/tʊə/", "pos": "n./v.", "cn": "游览；兜圈", "eg": "The driver took me on a long tour of the city. 司机带我在城里兜了很久。" },
+      { "word": "fare", "phon": "/feə/", "pos": "n.", "cn": "车费", "eg": "I had to pay an unbelievable fare at the end. 最后我不得不付一笔离谱的车费。" },
+      { "word": "cheat", "phon": "/tʃiːt/", "pos": "v.", "cn": "欺骗", "eg": "I realized later that I had been cheated. 我后来才意识到自己被骗了。" },
+      { "word": "route", "phon": "/ruːt/", "pos": "n.", "cn": "路线", "eg": "The route was much longer than necessary. 这条路线比必要的长得多。" },
+      { "word": "expensive", "phon": "/ɪkˈspensɪv/", "pos": "adj.", "cn": "昂贵的", "eg": "It was the most expensive taxi ride of my life. 那是我人生中最贵的一次打车。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于按顺序叙述过去发生的动作，特别适合讲经历故事。此课中的问路、上车、绕路、付钱都用一般过去时。易错点：并列动作应保持时态一致；did 后接动词原形。",
+        "examples": [
+          "I asked for help, and a man stopped a taxi for me. （我求助后，一个人帮我拦了车。）",
+          "The driver smiled, drove away, and charged me three hundred pounds. （司机笑了笑，开车离去，最后收了我三百英镑。）"
+        ]
+      },
+      {
+        "point": "一般过去时的被动语态（was/were + 过去分词）",
+        "explain": "当强调“某人被怎样对待”而不强调施动者时，用过去时被动。比如“我被带去城里”“我被欺骗了”都可用被动表达。易错点：被动结构必须有 be 动词；不要把不及物动词误用为被动。",
+        "examples": [
+          "I was taken to the wrong part of town. （我被带到了城里错误的地方。）",
+          "At last I was asked to pay far too much. （最后我被要求支付过高费用。）"
+        ]
+      }
+    ],
+    "tips": "记住标题 taken for a ride 一语双关：字面是“被带去兜风”，实际是“被坑”。看到“被......”优先想到被动语态。"
+  },
+  {
+    "book": 2,
+    "lesson": 51,
+    "title": "Reward for virtue",
+    "titleCn": "对美德的奖赏",
+    "scene": "一位女士为了减肥下定决心节食，白天克制得很好，连最爱吃的甜点都拒绝了。晚上朋友邀请她去高级餐厅，她本打算只吃一份清淡沙拉，结果在香味诱惑下点了整套大餐，最后连甜点和咖啡都没放过。她一边后悔一边安慰自己：明天一定重新开始。故事里“做了什么”用一般过去时，“本来打算要做什么”用 be going to 这种将来表达，形成有趣反差。",
+    "grammarTags": ["一般过去时", "一般将来时"],
+    "words": [
+      { "word": "diet", "phon": "/ˈdaɪət/", "pos": "n./v.", "cn": "节食；按规定饮食", "eg": "She went on a strict diet before summer. 夏天前她开始严格节食。" },
+      { "word": "virtue", "phon": "/ˈvɜːtʃuː/", "pos": "n.", "cn": "美德；自制力", "eg": "Self-control is a difficult virtue for many people. 自制力对很多人来说是一种难得的美德。" },
+      { "word": "tempt", "phon": "/tempt/", "pos": "v.", "cn": "引诱，诱惑", "eg": "The smell of roast chicken tempted her badly. 烤鸡的香味强烈地诱惑了她。" },
+      { "word": "salad", "phon": "/ˈsæləd/", "pos": "n.", "cn": "色拉", "eg": "She said she was going to order only a salad. 她说自己本来只打算点一份色拉。" },
+      { "word": "dessert", "phon": "/dɪˈzɜːt/", "pos": "n.", "cn": "甜点", "eg": "In the end she ordered a large dessert too. 最后她还点了一大份甜点。" },
+      { "word": "regret", "phon": "/rɪˈɡret/", "pos": "v./n.", "cn": "后悔", "eg": "She regretted her decision as soon as she finished eating. 她刚吃完就后悔了。" },
+      { "word": "balance", "phon": "/ˈbæləns/", "pos": "n./v.", "cn": "平衡；权衡", "eg": "It is hard to balance pleasure and health. 在享受和健康之间取得平衡很难。" },
+      { "word": "promise", "phon": "/ˈprɒmɪs/", "pos": "v./n.", "cn": "承诺", "eg": "She promised she would start her diet again tomorrow. 她承诺明天会重新开始节食。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于描述已经发生并结束的动作。节食计划中的实际行为，如“她点了甜点”“她吃完了”都用过去时。易错点：叙事句中多个并列动作都要用过去式，避免时态跳变。",
+        "examples": [
+          "She entered the restaurant, sat down, and read the menu. （她走进餐厅，坐下并看了菜单。）",
+          "At last she chose a big meal and forgot her diet. （最后她选了大餐，把节食忘在脑后。）"
+        ]
+      },
+      {
+        "point": "be going to 表示打算",
+        "explain": "be going to + 动词原形可表示事先计划、打算做的事。本课里“她本来打算只吃沙拉”就是典型用法。易错点：be 动词要随主语变化；叙述过去场景中的计划常用 was/were going to。",
+        "examples": [
+          "She was going to have only fruit for dinner. （她本打算晚餐只吃水果。）",
+          "We are going to keep a food diary next week. （我们打算下周开始记饮食日志。）"
+        ]
+      }
+    ],
+    "tips": "“计划”与“现实”对照记忆：was going to 表计划，过去式动词表已发生。一句话：她本来要节食，结果还是吃了。"
+  },
+  {
+    "book": 2,
+    "lesson": 52,
+    "title": "A pretty carpet",
+    "titleCn": "漂亮的地毯",
+    "scene": "作者新搬进一套公寓，楼上邻居是一对做手工地毯的夫妇。每天傍晚，他们把一团团彩色羊毛搬进房间，地上、椅子上甚至楼道里都堆满了线团。作者起初觉得杂乱，后来看到地毯成品才惊叹其精美。几周后，邻居已经做完好几张并卖给游客。故事一边回顾过去日常场景用一般过去时，一边用现在完成时强调“到现在为止已经完成的数量和结果”，体现动作对当下的影响。",
+    "grammarTags": ["一般过去时", "现在完成时"],
+    "words": [
+      { "word": "carpet", "phon": "/ˈkɑːpɪt/", "pos": "n.", "cn": "地毯", "eg": "The old woman made a beautiful carpet by hand. 这位老妇人手工做出了一张漂亮地毯。" },
+      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Our neighbours worked late every night. 我们的邻居每晚都工作到很晚。" },
+      { "word": "wool", "phon": "/wʊl/", "pos": "n.", "cn": "羊毛", "eg": "Bundles of wool were lying all over the room. 房间里到处都是一捆捆羊毛。" },
+      { "word": "pattern", "phon": "/ˈpætn/", "pos": "n.", "cn": "图案", "eg": "She drew the pattern before she started weaving. 开始编织前她先画好了图案。" },
+      { "word": "weave", "phon": "/wiːv/", "pos": "v.", "cn": "编织", "eg": "They have woven three carpets this month. 这个月他们已经织了三张地毯。" },
+      { "word": "colorful", "phon": "/ˈkʌləfl/", "pos": "adj.", "cn": "色彩鲜艳的", "eg": "The colorful threads made the room lively. 鲜艳的线团让房间显得很有生气。" },
+      { "word": "messy", "phon": "/ˈmesi/", "pos": "adj.", "cn": "凌乱的", "eg": "At first I thought their place was too messy. 起初我觉得他们家太乱了。" },
+      { "word": "product", "phon": "/ˈprɒdʌkt/", "pos": "n.", "cn": "成品", "eg": "The final product looked better than I had expected. 成品比我预想的更好看。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于描述过去某个时间段内发生的动作或状态。本课里搬家后的观察、邻居的日常动作都可用一般过去时。易错点：讲清楚过去时间背景时，优先用过去时，不要误换成现在完成时。",
+        "examples": [
+          "They brought bags of wool into the room every evening. （他们每天傍晚把一袋袋羊毛搬进房间。）",
+          "I watched them quietly and learned a lot from them. （我静静观察他们，学到了很多。）"
+        ]
+      },
+      {
+        "point": "现在完成时（have/has + 过去分词）",
+        "explain": "现在完成时强调过去动作对现在的影响或“截至目前已完成”的数量。本课里“他们已经织了三张地毯”就是典型。易错点：现在完成时不和明确过去时间点（yesterday 等）直接连用。",
+        "examples": [
+          "They have finished several carpets since spring. （自春天以来他们已经完成了几张地毯。）",
+          "I have never seen such careful handwork before. （我以前从没见过这么细致的手工活。）"
+        ]
+      }
+    ],
+    "tips": "看见 since、so far、already 就优先想现在完成时；讲“当时看到什么”就回到一般过去时。场景记忆：过去很乱，现在有成果。"
+  },
+  {
+    "book": 2,
+    "lesson": 53,
+    "title": "Hot snake",
+    "titleCn": "触电的蛇",
+    "scene": "森林突发大火后，消防员在灰烬中清理现场，发现许多被烧死的蛇。几天后，一名工人在修理电线时又发现一条“死蛇”挂在树枝上，刚要把它扔掉，蛇突然动了一下，吓得他大叫。原来它之前只是被高温烫伤昏迷，并没有真正死亡。这个故事强调动作先后关系：蛇在工人发现之前“已经受伤、已经昏迷”，要用过去完成时准确表达“过去的过去”。",
+    "grammarTags": ["过去完成时", "一般过去时"],
+    "words": [
+      { "word": "forest", "phon": "/ˈfɒrɪst/", "pos": "n.", "cn": "森林", "eg": "A fire broke out in the forest last week. 上周森林里发生了一场火灾。" },
+      { "word": "fire", "phon": "/ˈfaɪə/", "pos": "n.", "cn": "火灾；火", "eg": "The fire had spread quickly before help arrived. 救援到达前火势已经迅速蔓延。" },
+      { "word": "snake", "phon": "/sneɪk/", "pos": "n.", "cn": "蛇", "eg": "Several snakes had been burnt in the fire. 几条蛇在大火中已被烧伤。" },
+      { "word": "branch", "phon": "/brɑːntʃ/", "pos": "n.", "cn": "树枝", "eg": "A long snake was hanging from a branch. 一条长蛇正挂在树枝上。" },
+      { "word": "faint", "phon": "/feɪnt/", "pos": "v./adj.", "cn": "昏倒；微弱的", "eg": "The snake had fainted because of the heat. 那条蛇因高温已经昏迷了。" },
+      { "word": "alive", "phon": "/əˈlaɪv/", "pos": "adj.", "cn": "活着的", "eg": "To everyone's surprise, the snake was still alive. 令所有人惊讶的是，那条蛇还活着。" },
+      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "The workers were repairing power lines near the trees. 工人们正在树旁修理电线。" },
+      { "word": "ash", "phon": "/æʃ/", "pos": "n.", "cn": "灰烬", "eg": "The ground was covered with black ash. 地面被黑色灰烬覆盖。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时（had + 过去分词）",
+        "explain": "过去完成时表示在过去某一动作之前已经完成的动作，常用于交代背景原因。本课中“蛇已经被烧伤”“已经昏迷”都发生在“工人发现它”之前。易错点：若没有明确的过去参照动作，不要滥用过去完成时。",
+        "examples": [
+          "By the time the workers arrived, the fire had destroyed many trees. （工人到达时，大火已经烧毁了许多树木。）",
+          "He thought the snake was dead because it had not moved for hours. （他以为蛇死了，因为它几个小时都没动。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于推进故事主线，描述按顺序发生的动作，如工人发现蛇、蛇突然动、大家后退等。易错点：和过去完成时搭配时，主线多用过去时，背景先行动作用过去完成时。",
+        "examples": [
+          "The worker picked it up and threw it on the ground. （工人把它拿起来扔到地上。）",
+          "Suddenly the snake moved, and everyone ran away. （蛇突然动了，大家都跑开了。）"
+        ]
+      }
+    ],
+    "tips": "记“先后关系箭头”：先发生 had done，后发生 did。凡是“在......之前已经......”，基本就是过去完成时。"
+  },
+  {
+    "book": 2,
+    "lesson": 54,
+    "title": "Sticky fingers",
+    "titleCn": "黏糊糊的手指",
+    "scene": "一颗名贵钻石在宴会上失窃，警探立刻赶到现场调查。女宾客们正紧张交谈时，他逐个检查手提包。搜到一位优雅女士时，她看似镇定却不断搓手。警探注意到她手指上有黏性糖浆痕迹，追问后发现她之前一直在端甜点，真正的小偷另有其人。故事中“当时正在做什么”适合用过去进行时；而“最近一直在做某事并造成当前结果”可用现在完成进行时，帮助描述持续行为留下的线索。",
+    "grammarTags": ["过去进行时", "现在完成进行时"],
+    "words": [
+      { "word": "detective", "phon": "/dɪˈtektɪv/", "pos": "n.", "cn": "侦探", "eg": "The detective arrived before the guests left. 侦探在宾客离开前赶到了。" },
+      { "word": "diamond", "phon": "/ˈdaɪəmənd/", "pos": "n.", "cn": "钻石", "eg": "A diamond necklace disappeared during dinner. 一条钻石项链在晚宴期间不见了。" },
+      { "word": "search", "phon": "/sɜːtʃ/", "pos": "v.", "cn": "搜查", "eg": "He searched every purse in the room carefully. 他仔细搜查了房间里的每个手提包。" },
+      { "word": "purse", "phon": "/pɜːs/", "pos": "n.", "cn": "手提包；钱包", "eg": "She opened her purse slowly and looked nervous. 她慢慢打开手提包，看起来很紧张。" },
+      { "word": "sticky", "phon": "/ˈstɪki/", "pos": "adj.", "cn": "黏的", "eg": "There was something sticky on her fingers. 她手指上有黏糊糊的东西。" },
+      { "word": "syrup", "phon": "/ˈsɪrəp/", "pos": "n.", "cn": "糖浆", "eg": "She said she had been serving cakes with syrup. 她说自己一直在端带糖浆的蛋糕。" },
+      { "word": "suspect", "phon": "/ˈsʌspekt/", "pos": "n./v.", "cn": "嫌疑人；怀疑", "eg": "At first she was the main suspect. 一开始她是主要嫌疑人。" },
+      { "word": "evidence", "phon": "/ˈevɪdəns/", "pos": "n.", "cn": "证据", "eg": "The detective followed the evidence instead of guessing. 侦探根据证据而不是猜测行事。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去进行时",
+        "explain": "过去进行时用来描述过去某个时刻正在进行的动作，常用于营造现场感。比如“客人们正在谈话”“侦探正在搜包”。易错点：过去进行时强调动作进行中，不等同于动作完成。",
+        "examples": [
+          "The guests were whispering when the detective entered. （侦探进来时，客人们正在低声议论。）",
+          "He was checking the purses while the hostess was explaining the loss. （女主人解释失窃情况时，他正在检查手提包。）"
+        ]
+      },
+      {
+        "point": "现在完成进行时（have/has been doing）",
+        "explain": "现在完成进行时强调某动作从过去持续到现在，且常带来可见结果。本课中“她一直在端甜点，所以手指黏黏的”就是典型。易错点：结构里 been 不能省略；注意与现在完成时 have done 的区别，进行时更强调持续过程。",
+        "examples": [
+          "She has been working in the kitchen all evening. （她整个晚上一直在厨房忙碌。）",
+          "I have been looking for my keys for half an hour. （我找钥匙已经找了半小时。）"
+        ]
+      }
+    ],
+    "tips": "看到“当时正在......”选过去进行时；看到“一直在......所以现在......”选现在完成进行时。一个讲现场，一个讲持续痕迹。"
+  },
+  {
+    "book": 2,
+    "lesson": 55,
+    "title": "Not a gold mine",
+    "titleCn": "并非金矿",
+    "scene": "一位农夫反复做同一个梦：家里烟囱里藏着金子。连续几晚后，他终于半夜爬起来拆开烟囱，忙了几个小时，灰头土脸地挖出一个生锈铁盒。全家以为要发财，结果盒里只有几枚旧锡币，根本不是金矿。故事通过“做梦在前、挖掘在后、发现结果再后”的顺序展示过去完成时：某些动作在另一个过去动作之前已经发生，必须用 had done 才能表达清楚。",
+    "grammarTags": ["过去完成时", "一般过去时"],
+    "words": [
+      { "word": "mine", "phon": "/maɪn/", "pos": "n.", "cn": "矿；矿井", "eg": "He believed his house was hiding a gold mine. 他相信自己家里藏着金矿。" },
+      { "word": "chimney", "phon": "/ˈtʃɪmni/", "pos": "n.", "cn": "烟囱", "eg": "He broke open the chimney with a hammer. 他用锤子砸开了烟囱。" },
+      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；梦想", "eg": "He had dreamed about gold for three nights. 他已经连续三晚梦见黄金。" },
+      { "word": "dig", "phon": "/dɪɡ/", "pos": "v.", "cn": "挖", "eg": "They dug for hours but found little. 他们挖了几个小时却收获很少。" },
+      { "word": "rusty", "phon": "/ˈrʌsti/", "pos": "adj.", "cn": "生锈的", "eg": "A rusty box fell out of the wall. 一个生锈的盒子从墙里掉了出来。" },
+      { "word": "tin", "phon": "/tɪn/", "pos": "n.", "cn": "锡", "eg": "The coins were made of tin, not gold. 那些硬币是锡做的，不是金子。" },
+      { "word": "fortune", "phon": "/ˈfɔːtʃuːn/", "pos": "n.", "cn": "财富；运气", "eg": "He thought he had found a fortune. 他以为自己找到了财富。" },
+      { "word": "disappointed", "phon": "/ˌdɪsəˈpɔɪntɪd/", "pos": "adj.", "cn": "失望的", "eg": "Everyone felt disappointed at the end. 最后每个人都很失望。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "过去完成时用于说明在过去某一时刻之前已经完成的动作。本课里“他已经做了好几晚梦”发生在“他开始挖烟囱”之前，所以用 had dreamed。易错点：过去完成时常与 before、by the time 连用来明确先后。",
+        "examples": [
+          "By midnight he had decided to open the chimney. （到午夜时，他已经决定打开烟囱。）",
+          "He had never worked so hard before that night. （那晚之前他从未如此拼命干过。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时负责讲述主线事件，如拆烟囱、找到盒子、打开后失望。和过去完成时搭配时，通常“先行背景”用过去完成时，“主线推进”用一般过去时。",
+        "examples": [
+          "He broke the bricks and pulled out a metal box. （他砸开砖块，拽出一个金属盒。）",
+          "They opened it and found only old tin coins. （他们打开后只发现旧锡币。）"
+        ]
+      }
+    ],
+    "tips": "先做梦 had dreamed，再挖 did dig，再发现 did find。记住这个顺序，过去完成时就不会乱。"
+  },
+  {
+    "book": 2,
+    "lesson": 56,
+    "title": "Faster than sound!",
+    "titleCn": "比声音还快！",
+    "scene": "一位海军飞行员在夜航中突然听到机身传来有节奏的敲击声，声音越来越急。他以为发动机故障，紧张地检查仪表，却没有发现异常。返航后地勤拆检飞机，才发现是一块金属板在强气流中不断震动。飞行员回想起来，这种敲击在过去几分钟里一直持续，并且在超音速附近更明显。课程重点是过去完成进行时（过去某时之前一直在进行的动作）和比较级（faster, louder）来描述速度与程度变化。",
+    "grammarTags": ["过去完成进行时", "比较级"],
+    "words": [
+      { "word": "pilot", "phon": "/ˈpaɪlət/", "pos": "n.", "cn": "飞行员", "eg": "The navy pilot kept calm during the strange flight. 这位海军飞行员在异常飞行中保持镇定。" },
+      { "word": "sound", "phon": "/saʊnd/", "pos": "n.", "cn": "声音", "eg": "A knocking sound came from behind the seat. 座位后方传来敲击声。" },
+      { "word": "knock", "phon": "/nɒk/", "pos": "n./v.", "cn": "敲击声；敲", "eg": "The knock grew louder and faster. 敲击声变得更响更快。" },
+      { "word": "supersonic", "phon": "/ˌsuːpəˈsɒnɪk/", "pos": "adj.", "cn": "超音速的", "eg": "He was flying at a supersonic speed. 他正以超音速飞行。" },
+      { "word": "instrument", "phon": "/ˈɪnstrəmənt/", "pos": "n.", "cn": "仪表", "eg": "All the instruments looked normal. 所有仪表看上去都正常。" },
+      { "word": "vibrate", "phon": "/vaɪˈbreɪt/", "pos": "v.", "cn": "振动", "eg": "A loose plate had been vibrating in the wind. 一块松动金属板一直在风中振动。" },
+      { "word": "loud", "phon": "/laʊd/", "pos": "adj.", "cn": "响亮的", "eg": "The noise became louder near the coast. 靠近海岸时噪声变得更大。" },
+      { "word": "speed", "phon": "/spiːd/", "pos": "n.", "cn": "速度", "eg": "The speed was faster than sound. 这速度比声音更快。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成进行时（had been doing）",
+        "explain": "过去完成进行时表示在过去某一时间点之前一直持续进行的动作，并强调持续过程。本课“敲击声在他返航前几分钟一直在响”可用 had been knocking。易错点：结构必须完整为 had been + doing，不能漏掉 been。",
+        "examples": [
+          "The noise had been getting worse before he turned back. （在他返航前，噪声一直在加剧。）",
+          "He had been checking the instruments for ten minutes. （他已经连续检查仪表十分钟了。）"
+        ]
+      },
+      {
+        "point": "比较级（-er / more）",
+        "explain": "比较级用于两者比较，表示“更......”。单音节形容词常加 -er（faster, louder），多音节常用 more（more dangerous）。常与 than 连用。易错点：双重比较错误，如 more faster 不正确。",
+        "examples": [
+          "The second knock was louder than the first one. （第二次敲击声比第一次更响。）",
+          "This aircraft is faster than sound. （这架飞机比声音更快。）"
+        ]
+      }
+    ],
+    "tips": "had been doing 记成“过去某点前一直在做”；比较级记成“一个更...... than 另一个”。本课可用 faster than sound 一句锁定。"
+  },
+  {
+    "book": 2,
+    "lesson": 57,
+    "title": "Can I help you, madam?",
+    "titleCn": "您要买什么，夫人？",
+    "scene": "一位女士在繁忙街头不慎掉了钱包，自己却没察觉。一个年轻男子捡起后追上她，礼貌地递回钱包。女士连声道谢，回家后打开才发现里面的钱不见了。她这才明白，自己在拥挤中被偷了，而小偷又假装“好心人”把空钱包还给她。故事里大量出现反身代词（myself, yourself）来强调“自己亲自”或“受动作影响者就是自己”，叙述事件则继续使用一般过去时。",
+    "grammarTags": ["反身代词", "一般过去时"],
+    "words": [
+      { "word": "madam", "phon": "/ˈmædəm/", "pos": "n.", "cn": "夫人，女士", "eg": "Can I help you, madam? the man asked politely. 那人礼貌地问：夫人，我能帮您吗？" },
+      { "word": "drop", "phon": "/drɒp/", "pos": "v.", "cn": "掉落", "eg": "She dropped her purse in the crowd. 她在人群中掉了钱包。" },
+      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "归还", "eg": "The young man returned it at once. 那个年轻人立刻把它还了回来。" },
+      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "The purse looked normal but it was empty. 钱包看起来正常，却是空的。" },
+      { "word": "thief", "phon": "/θiːf/", "pos": "n.", "cn": "小偷", "eg": "The thief smiled and disappeared quickly. 小偷笑了笑，很快就消失了。" },
+      { "word": "crowd", "phon": "/kraʊd/", "pos": "n.", "cn": "人群", "eg": "She pushed through the crowd and got on a bus. 她挤过人群，上了公交车。" },
+      { "word": "careless", "phon": "/ˈkeələs/", "pos": "adj.", "cn": "粗心的", "eg": "She blamed herself for being careless. 她责怪自己太粗心。" },
+      { "word": "honest", "phon": "/ˈɒnɪst/", "pos": "adj.", "cn": "诚实的", "eg": "He looked honest, but he was not. 他看起来很诚实，其实并非如此。" }
+    ],
+    "grammar": [
+      {
+        "point": "反身代词（myself, yourself, himself 等）",
+        "explain": "反身代词用于表示动作返回施动者本身，或强调“亲自”。如 she blamed herself（她责怪自己），I did it myself（我亲自做的）。易错点：反身代词不能作主语；by oneself 表“独自”。",
+        "examples": [
+          "She told herself to be more careful next time. （她告诫自己下次要更小心。）",
+          "He introduced himself as a helpful passer-by. （他把自己介绍成一个热心路人。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "故事发生在过去，主要动作如掉钱包、归还、发现空包都使用一般过去时。易错点：否定和疑问要用 did；不规则过去式需准确，如 find-found。",
+        "examples": [
+          "She thanked him and put the purse in her bag. （她谢过他，把钱包放进包里。）",
+          "When she opened it at home, she found no money inside. （回家打开后，她发现里面没钱。）"
+        ]
+      }
+    ],
+    "tips": "记一句高频：help yourself（请自便）。反身代词多用于“自己对自己”或“亲自”。故事主线照样用一般过去时推进。"
+  },
+  {
+    "book": 2,
+    "lesson": 58,
+    "title": "A blessing in disguise?",
+    "titleCn": "是因祸得福吗？",
+    "scene": "一家小店因道路施工被迫停业，老板原本以为生意会彻底完蛋，甚至准备转行。几个月后，附近却建起一座大型商场，客流明显增加，原来无人问津的小店反而被更多人看到。老板回头看才发现，当初看似倒霉的变化其实带来了机会。课文通过过去叙事说明事实，又用 was/were going to、would 表达“当时以为将会发生的事”，帮助区分真实结果与过去的预测。",
+    "grammarTags": ["一般将来时", "一般过去时"],
+    "words": [
+      { "word": "blessing", "phon": "/ˈblesɪŋ/", "pos": "n.", "cn": "幸事，福气", "eg": "Losing that old contract became a blessing in disguise. 失去旧合同反而成了因祸得福。" },
+      { "word": "disguise", "phon": "/dɪsˈɡaɪz/", "pos": "n./v.", "cn": "伪装；掩饰", "eg": "At first the chance was hidden in disguise. 起初机会被坏消息掩盖了。" },
+      { "word": "close", "phon": "/kləʊz/", "pos": "v.", "cn": "关闭", "eg": "The shop closed for several weeks. 那家店停业了几周。" },
+      { "word": "nearby", "phon": "/ˌnɪəˈbaɪ/", "pos": "adj./adv.", "cn": "附近的（地）", "eg": "A large store was built nearby soon after. 不久附近建起了一家大商场。" },
+      { "word": "customer", "phon": "/ˈkʌstəmə/", "pos": "n.", "cn": "顾客", "eg": "More customers started coming every day. 每天开始有更多顾客到来。" },
+      { "word": "business", "phon": "/ˈbɪznəs/", "pos": "n.", "cn": "生意", "eg": "His business improved faster than expected. 他的生意比预期改善得更快。" },
+      { "word": "expect", "phon": "/ɪkˈspekt/", "pos": "v.", "cn": "预料", "eg": "He expected he would lose everything. 他原以为自己会失去一切。" },
+      { "word": "opportunity", "phon": "/ˌɒpəˈtjuːnəti/", "pos": "n.", "cn": "机会", "eg": "The new road brought unexpected opportunities. 新道路带来了意想不到的机会。" }
+    ],
+    "grammar": [
+      {
+        "point": "过去视角下的将来表达（was/were going to, would）",
+        "explain": "当我们站在过去某一时点谈“那时看来将要发生”的事情，用 was/were going to 或 would。这叫过去将来意义。比如“他以为店要倒闭”不是现在将来，而是过去预测。易错点：不要把这种语境误写成 will。",
+        "examples": [
+          "He thought the shop was going to fail. （他当时以为店要倒闭。）",
+          "She said the new traffic plan would help them. （她说新交通方案会帮到他们。）"
+        ]
+      },
+      {
+        "point": "一般过去时",
+        "explain": "一般过去时用于叙述实际发生的事实，如店铺停业、商场建成、客流增加。它和过去将来表达常一起出现：一个讲“当时预期”，一个讲“真实结果”。",
+        "examples": [
+          "The shop closed in spring and reopened in summer. （店铺春天停业，夏天重开。）",
+          "After the mall opened, people walked past his door every day. （商场开业后，人们每天都会路过他的门口。）"
+        ]
+      }
+    ],
+    "tips": "区分两条线：事实线用 did，预测线用 was going to / would。看到“原以为......后来却......”就是这课核心。"
+  },
+  {
+    "book": 2,
+    "lesson": 59,
+    "title": "In or out?",
+    "titleCn": "进来还是出去？",
+    "scene": "Rex 是只脾气古怪的小狗，白天总在门口来回折腾：在外面时拼命叫着要进屋，刚放进来又立刻抓门要出去。主人一整天被它折磨得团团转，几乎无法工作。邻居建议训练它，但主人感叹 Rex 太聪明也太任性。这个场景特别适合练习 too...to 和 enough...to：比如“叫得太厉害，没法忽视”“门开得够快，它就立刻冲出去”，用来表达“程度过高导致不能做”与“程度足以做到”。",
+    "grammarTags": ["too...to", "enough...to"],
+    "words": [
+      { "word": "bark", "phon": "/bɑːk/", "pos": "v.", "cn": "吠叫", "eg": "Rex barked loudly at the door all morning. Rex 一上午都在门口大声叫。" },
+      { "word": "let in", "phon": "/let ɪn/", "pos": "phr.", "cn": "让......进来", "eg": "If I let him in, he wanted to go out again. 我一让它进来，它就又想出去。" },
+      { "word": "let out", "phon": "/let aʊt/", "pos": "phr.", "cn": "让......出去", "eg": "She let the dog out five times in an hour. 她一小时内放这只狗出去五次。" },
+      { "word": "scratch", "phon": "/skrætʃ/", "pos": "v.", "cn": "抓，挠", "eg": "The dog scratched the door impatiently. 这只狗不耐烦地抓门。" },
+      { "word": "patient", "phon": "/ˈpeɪʃnt/", "pos": "adj.", "cn": "有耐心的", "eg": "No one was patient enough to ignore him. 没人有足够耐心无视它。" },
+      { "word": "annoy", "phon": "/əˈnɔɪ/", "pos": "v.", "cn": "使恼火", "eg": "His noise annoyed everyone in the house. 它的叫声让屋里每个人都烦躁。" },
+      { "word": "obedient", "phon": "/əˈbiːdiənt/", "pos": "adj.", "cn": "听话的", "eg": "Rex was too stubborn to be obedient. Rex 太倔了，不可能乖乖听话。" },
+      { "word": "doorstep", "phon": "/ˈdɔːstep/", "pos": "n.", "cn": "门阶", "eg": "He sat on the doorstep and cried. 它坐在门阶上呜呜叫。" }
+    ],
+    "grammar": [
+      {
+        "point": "too...to...",
+        "explain": "too + 形容词/副词 + to do 表示“太......而不能......”，强调程度过高导致不能实现。比如 too noisy to work（太吵了无法工作）。易错点：不要在 to do 前再加 not；该结构本身含否定意味。",
+        "examples": [
+          "The dog was too noisy to leave alone. （这只狗太吵了，没法不管它。）",
+          "He was too excited to stay still. （它太兴奋了，根本待不住。）"
+        ]
+      },
+      {
+        "point": "enough...to...",
+        "explain": "形容词/副词 + enough + to do 表示“足够......可以......”。如 quiet enough to sleep（够安静可以睡）。注意 enough 放在形容词或副词后面。易错点：不要误写成 enough quiet to。",
+        "examples": [
+          "She was patient enough to open the door again. （她有足够耐心再次开门。）",
+          "The opening was wide enough for Rex to get through. （门缝足够宽，Rex 能钻过去。）"
+        ]
+      }
+    ],
+    "tips": "一句对比背熟：too noisy to work（太吵不能工作）vs quiet enough to work（够安静可以工作）。too 表“过头”，enough 表“达标”。"
+  },
+  {
+    "book": 2,
+    "lesson": 60,
+    "title": "The future",
+    "titleCn": "卜算未来",
+    "scene": "作者在集市上遇到一位算命先生，对方看了看手相便笃定地说：你将会很快遇到一个陌生人，他会改变你的生活。作者半信半疑地离开，没想到当天下午就在车站结识了一位陌生旅客，并由此得到一份新工作机会。这个故事同时出现两种“将来”：直接预测用 will（你将会遇到），而转述过去说过的话则用 would（他说我会遇到），即“过去视角下的将来”。",
+    "grammarTags": ["一般将来时", "过去将来时"],
+    "words": [
+      { "word": "future", "phon": "/ˈfjuːtʃə/", "pos": "n.", "cn": "未来", "eg": "No one can know the future exactly. 没有人能准确知道未来。" },
+      { "word": "fortune-teller", "phon": "/ˈfɔːtʃuːn ˌtelə/", "pos": "n.", "cn": "算命先生", "eg": "A fortune-teller read my palm in the market. 一位算命先生在集市上给我看手相。" },
+      { "word": "palm", "phon": "/pɑːm/", "pos": "n.", "cn": "手掌，手相", "eg": "He looked at my palm for a long time. 他盯着我的手掌看了很久。" },
+      { "word": "predict", "phon": "/prɪˈdɪkt/", "pos": "v.", "cn": "预言，预测", "eg": "He predicted that I would meet a stranger soon. 他预言我很快会遇到一位陌生人。" },
+      { "word": "stranger", "phon": "/ˈstreɪndʒə/", "pos": "n.", "cn": "陌生人", "eg": "I met a stranger at the station that afternoon. 那天下午我在车站遇到一位陌生人。" },
+      { "word": "believe", "phon": "/bɪˈliːv/", "pos": "v.", "cn": "相信", "eg": "At first I did not believe his words. 起初我并不相信他的话。" },
+      { "word": "chance", "phon": "/tʃɑːns/", "pos": "n.", "cn": "机会", "eg": "The meeting gave me a chance to change jobs. 这次相遇给了我换工作的机会。" },
+      { "word": "destiny", "phon": "/ˈdestəni/", "pos": "n.", "cn": "命运", "eg": "Some people call it destiny, others call it luck. 有人称之为命运，有人称之为运气。" }
+    ],
+    "grammar": [
+      {
+        "point": "一般将来时（will + 动词原形）",
+        "explain": "一般将来时用于表示将来会发生的动作、预测或临时决定。算命先生直接说话时用 will，如 You will meet a stranger。易错点：will 后接动词原形；不要与 be going to 用法混淆。",
+        "examples": [
+          "You will hear good news very soon. （你很快会听到好消息。）",
+          "I think this meeting will change your plans. （我认为这次会面会改变你的计划。）"
+        ]
+      },
+      {
+        "point": "过去将来时（would + 动词原形）",
+        "explain": "过去将来时表示“站在过去某时看将来”，常见于转述：He said I would succeed。也可理解为 will 在过去语境中的对应形式。易错点：直接引语里是 will，转为过去转述通常变 would。",
+        "examples": [
+          "He told me that I would meet an important person. （他告诉我，我会遇到一个重要人物。）",
+          "I thought nothing would happen, but I was wrong. （我原以为不会发生什么，但我错了。）"
+        ]
+      }
+    ],
+    "tips": "直接预测用 will，回忆别人当时的预测用 would。记法：过去的 will 往往变 would。"
+  }
+]
