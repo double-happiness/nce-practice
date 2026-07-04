@@ -1086,7 +1086,7 @@ async function renderHome() {
       ? `<div class="home-guide">
           <div class="hg-body">
             <div class="hg-title">👋 欢迎使用新概念英语练习系统</div>
-            <p class="hg-line"><b>学</b>　教材、词典、听写预习　·　<b>练</b>　刷题、听写、句型转换</p>
+            <p class="hg-line"><b>学</b>　教材、原声课文、词典　·　<b>练</b>　刷题、听写、句型、情景对话</p>
             <p class="hg-line"><b>复习</b>　错题间隔复习、单词背诵　·　<b>我的</b>　统计、计划、备份</p>
             <p class="hg-tip">推荐路径：今日学习 → 教材学习 → 刷题练习 → 间隔复习 · <a href="/help.html" class="hg-help-link">📖 完整使用说明</a></p>
           </div>
@@ -1175,6 +1175,7 @@ async function renderHome() {
       <div class="hc-big hc-small">${prog.totalAttempts} 题 · 正确率 ${prog.accuracy}%</div>
       <div class="hc-sub">错题本 ${prog.wrongCount} 题 · 累计学习 ${plan.totalDays} 天</div>
       <div class="hc-links">
+        <a data-goto="dialogue">💬 情景对话</a>
         <a data-goto="dictionary">📕 查词典</a>
         <a data-goto="dictation">🎧 听写</a>
         <a data-goto="words">🔤 背单词</a>
@@ -1192,7 +1193,7 @@ async function renderHome() {
     // 使用说明
     `<div class="home-card home-help-card">
       <div class="hc-title">📖 使用说明</div>
-      <div class="hc-sub">功能地图、推荐学习路径、备份与离线说明、常见问题</div>
+      <div class="hc-sub">功能地图、原声/情景对话、学习路径、Git LFS 克隆、FAQ</div>
       <button class="btn" type="button" id="homeHelpBtn">打开使用说明 →</button>
     </div>` +
     '</div>';
