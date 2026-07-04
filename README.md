@@ -7,6 +7,8 @@
 ```bash
 cd nce
 npm install      # 安装依赖（仅 express）
+# 首次克隆需 Git LFS（原声 MP3 约 550MB，见 docs/原声与发音.md）
+git lfs install && git lfs pull   # 若已 clone 但未拉 LFS
 npm start        # 默认 http://localhost:3737
 # 或指定端口： PORT=8080 npm start
 ```
@@ -26,8 +28,8 @@ npm start        # 默认 http://localhost:3737
 | 错题本 | 做错自动收录，答对后自动移出；支持「错题重练」 |
 | 学习统计 | 累计题量、正确率、错题数，顶栏实时显示 |
 | 进度持久化 | 记录保存在 `data/progress.json`，无需数据库 |
-| 教材学习 | 「📖 教材学习」标签页：第一册逐课的重点单词、语法精讲、原创例句、情景理解与记忆方法，可一键「练本课语法」跳转刷题 |
-| 单词发音 | 每个单词/例句旁 🔊，用浏览器内置语音（优先英音）朗读，另有「全部单词连读」 |
+| 教材学习 | 「📖 教材学习」标签页：第一册逐课的重点单词、语法精讲、原创例句、情景理解与记忆方法，可一键「练本课语法」跳转刷题；含 **🎧 原声课文**（英音 MP3 + LRC 点句播放） |
+| 单词发音 | 每个单词/例句旁 🔊：**优先新概念英音原声片段** → 真人单词库 → 浏览器 TTS；另有「全部单词连读」 |
 | 间隔复习 | 「🔁 间隔复习」：错题按艾宾浩斯遗忘曲线（1/2/4/7/15…天）自动重现，逐题复习并重排到期时间 |
 | 生词本 | 「📇 词表」：浏览教材去重词库，☆ 收藏即生词本；翻背/默写请用「背单词」 |
 | 听写 | 「🎧 听写」：选课→放音→打出句子→逐词批改高亮（LCS 对齐，漏词/多词只错一处不整句飘红），记录最好成绩；计入今日目标 |
@@ -60,9 +62,11 @@ nce/
 │   ├── globalvocab.js   # 总词汇量内置词库
 │   ├── activity.js      # 学习活动记录（计划统计）
 │   ├── snapshot.js      # 学习数据每日滚动快照（data/backups/，保留 7 份）
+│   ├── nce-official-util.js  # 原声 LRC 解析与句子归一化
 │   └── progress.js      # 学习进度读写
 ├── scripts/
-│   └── validate.js      # 数据校验（npm run validate，启动时自动跑）
+│   ├── validate.js      # 数据校验（npm run validate，启动时自动跑）
+│   └── import-nce-official.js  # 导入英音 MP3 + LRC（npm run import:official）
 ├── routes/              # 功能路由，一功能一文件，自动挂载到 /api
 │   ├── srs.js           # 间隔重复复习
 │   ├── vocab.js         # 生词本
@@ -76,9 +80,11 @@ nce/
 │   ├── activity.js      # 学习活动上报
 │   ├── dialogue.js      # 情景对话练习
 │   ├── transform.js     # 句型转换训练
+│   ├── official.js      # 原声课文 API
 │   └── backup.js        # 数据备份 导出/导入
 ├── data/
 │   ├── meta.json        # 册、单元(课程进度)定义
+│   ├── official/        # 原声课文 LRC 索引（passages.json）
 │   ├── questions.json   # 题库基础文件（可持续扩充）
 │   ├── lessons.json     # 教材学习基础文件（可持续扩充）
 │   ├── questions/       # 题库分片目录（*.json 自动合并，一批一文件）
@@ -93,6 +99,10 @@ nce/
     ├── index.html
     ├── styles.css
     ├── app.js           # 核心 + window.NCE（api/speak/registerFeature 等）
+    ├── audio/
+    │   ├── nce/         # 276 课英音 MP3（Git LFS，见 docs/原声与发音.md）
+    │   ├── official-segments.json  # LRC 句子时间轴
+    │   └── pronunc/     # Wikimedia 真人单词发音
     └── js/              # 功能模块，一功能一文件，自注册标签页
         ├── feat-dictionary.js  # 教材词典
         ├── feat-review.js     # 间隔复习
@@ -129,6 +139,19 @@ nce/
 | GET | `/api/wrong` | 当前错题本题目 |
 | POST | `/api/progress/reset` | 清空进度 |
 
+### 原声课文与 Git LFS
+
+276 课新概念 **英音** MP3 已随仓库分发（`public/audio/nce/`，约 550MB，**Git LFS** 托管）。
+
+```bash
+git lfs install          # 本机首次启用 LFS
+git clone <repo>         # 或 clone 后 git lfs pull
+npm install && npm start
+```
+
+- **使用者**：教材页 **🎧 原声课文** 整课播放；全站 🔊 能匹配 LRC 时优先原声。详见 [docs/原声与发音.md](docs/原声与发音.md)。  
+- **维护者**：从本地英音包更新时运行 `npm run import:official -- --source "/path/to/英音"`，见同上文档第三节。
+
 ## 题库数据结构
 
 `data/questions.json` 是一个题目数组，每题字段：
@@ -164,12 +187,12 @@ nce/
 | --- | --- | --- | --- | --- | --- |
 | 第 1 册 | **72 / 72 课文课**（L1–143 奇数课） | 413 | 74 | 72 | 教材 + 题库 + 听写精读全文完成 |
 | 第 2 册 | **96 / 96** | 499 | 97 | 96 | 教材 + 题库 + 精读短文全文完成；听写/背单词/词汇量测试已支持 |
-| 第 3 册 | 0 / 60 | 10 | 0 | 0 | 代表性语法种子题 |
-| 第 4 册 | 0 / 48 | 6 | 0 | 0 | 代表性语法种子题 |
-| **合计** | **168 课** | **928 题** | **171** | **168** | |
+| 第 3 册 | **60 / 60** | **310** | **60** | **60** | 教材 + 题库 + 精读 + 句型转换全书完成 |
+| 第 4 册 | **24 / 48** | **123** | **24** | **24** | L1–L24 教材 + 题库 + 精读 + 句型转换已完成 |
+| **合计** | **252 课** | **1345 题** | **255** | **252** | |
 
 > **情景对话**为跨册的生活场景内容，不按册划分，现有 **52 场景 / 308 组**角色扮演（`data/dialogues/`）。
 
 新概念全 4 册 300+ 课，题库与教材均设计为**分片可持续扩充**结构 —— 向 `data/questions/`、`data/lessons/` 追加 JSON 分片即可，无需改代码。素材可参考同目录 `../New_Concept_English/` 中的课文 PDF 与音频。
 
-> 内容覆盖以实际数据为准（`npm run validate` 校验通过）：第 1、2 册教材/题库/句型转换/精读全文均已收官，第 3、4 册目前仅代表性种子题，为后续扩充重点。
+> 内容覆盖以实际数据为准（`npm run validate` 校验通过）：第 1、2、3 册全书已收官；第 4 册 L1–L24 已完成，L25–L48 持续扩充中。

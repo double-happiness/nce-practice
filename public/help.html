@@ -72,7 +72,7 @@ npm start      # 打开 http://localhost:3737</pre>
     <h2>3. 功能地图</h2>
     <table>
       <tr><th>功能</th><th>做什么</th></tr>
-      <tr><td>📖 教材学习</td><td>单词、语法、精读/原文；可一键练本课、听写、背单词</td></tr>
+      <tr><td>📖 教材学习</td><td>单词、语法、<strong>🎧 原声课文</strong> / 精读；可练本课、听写、背单词</td></tr>
       <tr><td>📕 查词典</td><td>检索教材+全局词库；展开看搭配、句型、例句</td></tr>
       <tr><td>✏️ 刷题</td><td>按册/课/语法筛选；单选+填空；错题自动收录</td></tr>
       <tr><td>🎧 听写</td><td>听音打句，逐词批改，记最好成绩</td></tr>
@@ -95,7 +95,19 @@ npm start      # 打开 http://localhost:3737</pre>
     </table>
     <p>周日做 <strong>📝 阶段测验</strong>；每月做词汇量测试看趋势。详情见应用内 <strong>🎯 学习计划</strong>。</p>
 
-    <h2>5. 常用技巧</h2>
+    <h2>5. 🔊 发音与原声课文</h2>
+    <p>全站小喇叭按优先级自动选音源：</p>
+    <ol>
+      <li><strong>新概念英音原声</strong> — 与课文 LRC 句一致时（教材页 🎧 原声课文）</li>
+      <li><strong>真人单词发音</strong> — 单词 / 短短语</li>
+      <li><strong>浏览器 TTS</strong> — 以上都没有时</li>
+    </ol>
+    <div class="help-tip">
+      📌 教材页打开 <strong>🎧 原声课文</strong>：整课 MP3 播放，点击句子跳转并高亮。
+      276 课原声已内置，离线可用。顶栏语速只影响 TTS。
+    </div>
+
+    <h2>6. 常用技巧</h2>
     <ul>
       <li>课文单词点 <strong>📕</strong> 查词典；选中英文短语也可查词</li>
       <li>词典内按 <code>/</code> 快速聚焦搜索框</li>
@@ -104,20 +116,27 @@ npm start      # 打开 http://localhost:3737</pre>
       <li>定期 <strong>💾 数据备份</strong> 导出 JSON</li>
     </ul>
 
-    <h2>6. 内容覆盖</h2>
+    <h2>7. 内容覆盖</h2>
     <table>
       <tr><th>册</th><th>教材</th><th>题库</th><th>句型转换</th></tr>
       <tr><td>第 1 册</td><td>72 课 ✓</td><td>✓</td><td>✓</td></tr>
       <tr><td>第 2 册</td><td>96 课 ✓</td><td>✓</td><td>✓</td></tr>
-      <tr><td>第 3–4 册</td><td>种子内容</td><td>部分</td><td>—</td></tr>
+      <tr><td>第 3 册</td><td>60 课 ✓</td><td>✓</td><td>✓</td></tr>
+      <tr><td>第 4 册</td><td>24 / 48 课</td><td>L1–24 ✓</td><td>L1–24 ✓</td></tr>
     </table>
 
-    <h2>7. 常见问题</h2>
+    <p>🎧 原声课文：276 课英音 MP3（1–4 册），详见 <code>docs/原声与发音.md</code>。</p>
+
+    <h2>8. 常见问题</h2>
     <dl class="help-faq">
       <dt>打不开页面？</dt>
       <dd>确认终端已运行 <code>npm start</code>，访问 <code>http://localhost:3737</code>。</dd>
       <dt>没有发音？</dt>
-      <dd>检查系统音量；需已安装英文语音；可换 Chrome / Safari。</dd>
+      <dd>检查音量。课文句优先原声 MP3；单词用真人库或 TTS。TTS 需已安装英文语音。</dd>
+      <dt>为什么是机器声不是原声？</dt>
+      <dd>内容与 LRC 课文句不一致时会用 TTS；单独点单词通常播词发音。</dd>
+      <dt>克隆后原声播不了？</dt>
+      <dd>需安装 Git LFS 并执行 <code>git lfs pull</code>，见 <code>docs/原声与发音.md</code>。</dd>
       <dt>两台设备怎么同步？</dt>
       <dd>无云同步。用数据备份导出 JSON，在另一台导入。</dd>
       <dt>断网能用吗？</dt>
@@ -126,7 +145,7 @@ npm start      # 打开 http://localhost:3737</pre>
       <dd>仅教材收录词有课内例句与句型；全局词展开会标注「仅词库释义」。</dd>
     </dl>
 
-    <p style="margin-top:32px;font-size:13px;color:var(--muted)">完整 Markdown 版见仓库 <code>docs/用户指南.md</code> · 开发者见 <code>README.md</code> · 变更记录 <code>docs/changes/</code></p>
+    <p style="margin-top:32px;font-size:13px;color:var(--muted)">完整 Markdown 版见 <code>docs/用户指南.md</code> · 原声说明 <code>docs/原声与发音.md</code> · 开发者见 <code>README.md</code></p>
   </main>
 </body>
 </html>
