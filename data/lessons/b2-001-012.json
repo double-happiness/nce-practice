@@ -195,28 +195,28 @@
         "phon": "/beə/",
         "pos": "v.",
         "cn": "容忍",
-        "eg": ""
+        "eg": "In the end, I could not bear it."
       },
       {
         "word": "business",
         "phon": "/ˈbɪznɪs/",
         "pos": "n.",
         "cn": "事",
-        "eg": ""
+        "eg": "'It's none of your business,'"
       },
       {
         "word": "rudely",
         "phon": "/'ru:dli/",
         "pos": "adv.",
         "cn": "无礼地，粗鲁地",
-        "eg": ""
+        "eg": "the young man said rudely."
       },
       {
         "word": "send",
         "phon": "/send/",
         "pos": "v.",
         "cn": "寄，送",
-        "eg": ""
+        "eg": "How many cards did the writer send?"
       }
     ],
     "grammar": [
@@ -426,21 +426,21 @@
         "phon": "/'sɪŋg(ə)l/",
         "pos": "a.",
         "cn": "唯一的，单一的",
-        "eg": ""
+        "eg": "but I did not write a single card!"
       },
       {
         "word": "pigeon",
         "phon": "/'pɪdʒɪn/",
         "pos": "n.",
         "cn": "鸽子",
-        "eg": ""
+        "eg": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury."
       },
       {
         "word": "message",
         "phon": "/'mesɪdʒ/",
         "pos": "n.",
         "cn": "信息",
-        "eg": ""
+        "eg": "Yesterday, a pigeon carried the first message from Pinhurst to Silbury."
       }
     ],
     "grammar": [
@@ -543,35 +543,35 @@
         "phon": "/'əʊvə/",
         "pos": "v.",
         "cn": "越过",
-        "eg": ""
+        "eg": "and has built a wooden bridge over a pool."
       },
       {
         "word": "beggar",
         "phon": "/'begə/",
         "pos": "n.",
         "cn": "乞丐",
-        "eg": ""
+        "eg": "Yesterday a beggar knocked at my door."
       },
       {
         "word": "food",
         "phon": "/fuːd/",
         "pos": "n.",
         "cn": "食物",
-        "eg": ""
+        "eg": "He ate the food and drank the beer."
       },
       {
         "word": "pocket",
         "phon": "/'pɒkɪt/",
         "pos": "n.",
         "cn": "衣服口袋",
-        "eg": ""
+        "eg": "Then he put a piece of cheese in his pocket and went away."
       },
       {
         "word": "call",
         "phon": "/kɔːl/",
         "pos": "v.",
         "cn": "拜访，光顾",
-        "eg": ""
+        "eg": "In the letter he was asked to call at the station."
       }
     ],
     "grammar": [
@@ -674,63 +674,63 @@
         "phon": "/dɪ'tektɪv/",
         "pos": "n.",
         "cn": "侦探",
-        "eg": ""
+        "eg": "A detective recently watched a well-dressed"
       },
       {
         "word": "airport",
         "phon": "/'eəpɔːt/",
         "pos": "n.",
         "cn": "机场",
-        "eg": ""
+        "eg": "The plane was late and detectives were waiting at the airport all morning."
       },
       {
         "word": "expect",
         "phon": "/ɪkˈspekt/",
         "pos": "v.",
         "cn": "期待，等待",
-        "eg": ""
+        "eg": "I expect to finish the work before Friday. 我预计周五前完成这项工作。"
       },
       {
         "word": "valuable",
         "phon": "/'væljʊəb(ə)l/",
         "pos": "a.",
         "cn": "贵重的",
-        "eg": ""
+        "eg": "They were expecting a valuable parcel of diamonds from South Africa."
       },
       {
         "word": "parcel",
         "phon": "/'pɑːs(ə)l/",
         "pos": "n.",
         "cn": "包裹",
-        "eg": ""
+        "eg": "They were expecting a valuable parcel of diamonds from South Africa."
       },
       {
         "word": "diamond",
         "phon": "/'daɪəmənd/",
         "pos": "n.",
         "cn": "钻石",
-        "eg": ""
+        "eg": "At a party, a valuable diamond disappeared and a detective was called."
       },
       {
         "word": "steal",
         "phon": "/stiːl/",
         "pos": "v.",
         "cn": "偷",
-        "eg": ""
+        "eg": "thieves would try to steal the diamonds."
       },
       {
         "word": "main",
         "phon": "/mein/",
         "pos": "a.",
         "cn": "主要的",
-        "eg": ""
+        "eg": "inside the main building"
       },
       {
         "word": "airfield",
         "phon": "/'eəfiːld/",
         "pos": "n.",
         "cn": "飞机起落的场地",
-        "eg": ""
+        "eg": "while others were waiting on the airfield."
       }
     ],
     "grammar": [
@@ -846,42 +846,42 @@
         "phon": "/stəʊn/",
         "pos": "n.",
         "cn": "石子",
-        "eg": ""
+        "eg": "Now he has put an ugly stone head over the gate."
       },
       {
         "word": "competition",
         "phon": "/ˌkɒmpəˈtɪʃn/",
         "pos": "n.",
         "cn": "比赛,竞赛",
-        "eg": ""
+        "eg": "'The Nicest Garden Competition' each year,"
       },
       {
         "word": "neat",
         "phon": "/niːt/",
         "pos": "a.",
         "cn": "整齐的，整洁的",
-        "eg": ""
+        "eg": "He has made neat paths"
       },
       {
         "word": "path",
         "phon": "/pɑːθ/",
         "pos": "n.",
         "cn": "小路，小径",
-        "eg": ""
+        "eg": "While they were walking along a narrow path, two men rushed out."
       },
       {
         "word": "wooden",
         "phon": "/'wʊd(ə)n/",
         "pos": "a.",
         "cn": "木头的",
-        "eg": ""
+        "eg": "and has built a wooden bridge over a pool."
       },
       {
         "word": "pool",
         "phon": "/puːl/",
         "pos": "n.",
         "cn": "水池",
-        "eg": ""
+        "eg": "and has built a wooden bridge over a pool."
       }
     ],
     "grammar": [
@@ -983,63 +983,63 @@
         "phon": "/ˈwelkəm/",
         "pos": "n.",
         "cn": "欢迎 v.欢迎",
-        "eg": ""
+        "eg": "What does 'a cold welcome' refer to?"
       },
       {
         "word": "crowd",
         "phon": "/kraʊd/",
         "pos": "n.",
         "cn": "人群",
-        "eg": ""
+        "eg": "and a large crowd of people had gathered under the Town Hall clock."
       },
       {
         "word": "gather",
         "phon": "/'gæðə/",
         "pos": "v.",
         "cn": "聚集",
-        "eg": ""
+        "eg": "Many birds gather by the lake in winter. 冬天许多鸟聚集在湖边。"
       },
       {
         "word": "hand",
         "phon": "/hænd/",
         "pos": "n.",
         "cn": "(表或机器的)指针",
-        "eg": ""
+        "eg": "The big minute hand did not move."
       },
       {
         "word": "shout",
         "phon": "/ʃaʊt/",
         "pos": "v.",
         "cn": "喊叫",
-        "eg": ""
+        "eg": "The crowd began to shout, but the drunk was unaware of the danger."
       },
       {
         "word": "refuse",
         "phon": "/rɪ'fjuːz/",
         "pos": "v.",
         "cn": "拒绝",
-        "eg": ""
+        "eg": "Why does the vicar refuse to cut down the tree?"
       },
       {
         "word": "laugh",
         "phon": "/lɑːf/",
         "pos": "v.",
         "cn": "笑",
-        "eg": ""
+        "eg": "At that moment, everybody began to laugh and sing."
       },
       {
         "word": "jazz",
         "phon": "/dʒæz/",
         "pos": "n.",
         "cn": "爵士音乐",
-        "eg": ""
+        "eg": "She tried to play jazz on it!"
       },
       {
         "word": "musical",
         "phon": "/'mjuːzɪk(ə)l/",
         "pos": "a.",
         "cn": "音乐的",
-        "eg": ""
+        "eg": "We have an old musical instrument."
       }
     ],
     "grammar": [
@@ -1149,63 +1149,63 @@
         "phon": "/'ɪnstrʊm(ə)nt/",
         "pos": "n.",
         "cn": "乐器",
-        "eg": ""
+        "eg": "We have an old musical instrument."
       },
       {
         "word": "clavichord",
         "phon": "/'klævɪkɔːd/",
         "pos": "n.",
         "cn": "古钢琴",
-        "eg": ""
+        "eg": "What happened to the clavichord?"
       },
       {
         "word": "recently",
         "phon": "/'riːsntlɪ/",
         "pos": "adv.",
         "cn": "最近",
-        "eg": ""
+        "eg": "Recently it was damaged by a visitor."
       },
       {
         "word": "damage",
         "phon": "/'dæmɪdʒ/",
         "pos": "v.",
         "cn": "损坏",
-        "eg": ""
+        "eg": "Realizing that this was no ordinary fish, the fisherman made every effort not to damage it in any way."
       },
       {
         "word": "key",
         "phon": "/ki:/",
         "pos": "n.",
         "cn": "琴键",
-        "eg": ""
+        "eg": "Astronauts replaced key parts during a difficult spacewalk."
       },
       {
         "word": "string",
         "phon": "/strɪŋ/",
         "pos": "n.",
         "cn": "(乐器的)弦",
-        "eg": ""
+        "eg": "One of the guitar strings broke during the concert. 音乐会上吉他的一根弦断了。"
       },
       {
         "word": "shock",
         "phon": "/ʃɒk/",
         "pos": "v.",
         "cn": "使不悦或生气，震惊",
-        "eg": ""
+        "eg": "Harrison got a shock."
       },
       {
         "word": "allow",
         "phon": "/ə'laʊ/",
         "pos": "v.",
         "cn": "允许，让",
-        "eg": ""
+        "eg": "He should have known that the police would never allow this sort of thing."
       },
       {
         "word": "touch",
         "phon": "/tʌtʃ/",
         "pos": "v.",
         "cn": "触摸",
-        "eg": ""
+        "eg": "Now we are not allowed to touch it."
       }
     ],
     "grammar": [
@@ -1321,63 +1321,63 @@
         "phon": "/tɜːn/",
         "pos": "n.",
         "cn": "行为，举止",
-        "eg": ""
+        "eg": "I smiled and said that one good turn deserves another."
       },
       {
         "word": "deserve",
         "phon": "/dɪ'zɜːrv/",
         "pos": "v.",
         "cn": "应得到，值得",
-        "eg": ""
+        "eg": "After months of hard work, she deserves a holiday. 辛苦工作数月之后，她应该休个假。"
       },
       {
         "word": "lawyer",
         "phon": "/'lɔːjə; 'lɒɪə/",
         "pos": "n.",
         "cn": "律师",
-        "eg": ""
+        "eg": "Tony worked in a lawyer's office years ago,"
       },
       {
         "word": "bank",
         "phon": "/bæŋk/",
         "pos": "n.",
         "cn": "银行",
-        "eg": ""
+        "eg": "but he is now working at a bank."
       },
       {
         "word": "salary",
         "phon": "/'sælərɪ/",
         "pos": "n.",
         "cn": "工资",
-        "eg": ""
+        "eg": "He gets a good salary,"
       },
       {
         "word": "immediately",
         "phon": "/ɪ'miːdɪətlɪ/",
         "pos": "adv.",
         "cn": "立刻",
-        "eg": ""
+        "eg": "To my surprise, he gave me the money immediately."
       },
       {
         "word": "luck",
         "phon": "/lʌk/",
         "pos": "n.",
         "cn": "运气，幸运",
-        "eg": ""
+        "eg": "Before he leaves, we will all say goodbye and good luck."
       },
       {
         "word": "captain",
         "phon": "/'kæptɪn/",
         "pos": "n.",
         "cn": "船长",
-        "eg": ""
+        "eg": "Where is Captain Alison going and how?"
       },
       {
         "word": "sail",
         "phon": "/seɪl/",
         "pos": "v.",
         "cn": "航行",
-        "eg": ""
+        "eg": "Our neighbour, Captain Charles Alison, will sail from Portsmouth tomorrow."
       }
     ],
     "grammar": [
@@ -1479,63 +1479,63 @@
         "phon": "/ˈhɑ:bə(r)/",
         "pos": "n.",
         "cn": "港口",
-        "eg": ""
+        "eg": "We'll meet him at the harbour early in the morning."
       },
       {
         "word": "proud",
         "phon": "/praʊd/",
         "pos": "a.",
         "cn": "自豪",
-        "eg": ""
+        "eg": "We are very proud of him."
       },
       {
         "word": "important",
         "phon": "/ɪm'pɔːt(ə)nt/",
         "pos": "a.",
         "cn": "重要的",
-        "eg": ""
+        "eg": "He will take part in an important race across the Atlantic."
       },
       {
         "word": "group",
         "phon": "/gruːp/",
         "pos": "n.",
         "cn": "小组，团体",
-        "eg": ""
+        "eg": "The Greenwood Boys are a group of pop singers."
       },
       {
         "word": "pop singer",
         "phon": "",
         "pos": "",
         "cn": "流行歌手",
-        "eg": ""
+        "eg": "My cousin wants to be a pop singer. 我表弟想当一名流行歌手。"
       },
       {
         "word": "club",
         "phon": "/klʌb/",
         "pos": "n.",
         "cn": "俱乐部",
-        "eg": ""
+        "eg": "Tomorrow evening they will be singing at the Workers' Club."
       },
       {
         "word": "performance",
         "phon": "/pə'fɔːm(ə)ns/",
         "pos": "n.",
         "cn": "演出",
-        "eg": ""
+        "eg": "For each performance she wears bright dresses and long stockings."
       },
       {
         "word": "occasion",
         "phon": "/ə'keɪʒ(ə)n/",
         "pos": "n.",
         "cn": "场合",
-        "eg": ""
+        "eg": "For this occasion the police will be trying to keep order all week."
       },
       {
         "word": "amusing",
         "phon": "/ə'mjuːzɪŋ/",
         "pos": "a.",
         "cn": "好笑的，有趣的",
-        "eg": ""
+        "eg": "I had an amusing experience last year."
       }
     ],
     "grammar": [
@@ -1637,63 +1637,63 @@
         "phon": "/ɪkˈspɪərɪəns/",
         "pos": "n.",
         "cn": "经历",
-        "eg": ""
+        "eg": "I had an amusing experience last year."
       },
       {
         "word": "wave",
         "phon": "/weɪv/",
         "pos": "v.",
         "cn": "招手",
-        "eg": ""
+        "eg": "The children waved to us as the bus left. 汽车开走时，孩子们向我们挥手。"
       },
       {
         "word": "lift",
         "phon": "/lɪft/",
         "pos": "n.",
         "cn": "搭便车",
-        "eg": ""
+        "eg": "I stopped and he asked me for a lift."
       },
       {
         "word": "reply",
         "phon": "/rɪ'plaɪ/",
         "pos": "v.",
         "cn": "回答",
-        "eg": ""
+        "eg": "I repeated my question several times, but his reply was still unclear."
       },
       {
         "word": "language",
         "phon": "/'læŋgwɪdʒ/",
         "pos": "n.",
         "cn": "语言",
-        "eg": ""
+        "eg": "I said good morning to him in French and he replied in the same language."
       },
       {
         "word": "journey",
         "phon": "/'dʒɜːnɪ/",
         "pos": "n.",
         "cn": "旅行",
-        "eg": ""
+        "eg": "The journey will take many months and the sea will test him."
       },
       {
         "word": "secretary",
         "phon": "/ˈsekrətrɪ/",
         "pos": "n.",
         "cn": "秘书",
-        "eg": ""
+        "eg": "The secretary told me that Mr. Harmsworth would see me."
       },
       {
         "word": "nervous",
         "phon": "/'nɜːvəs/",
         "pos": "a.",
         "cn": "精神紧张的",
-        "eg": ""
+        "eg": "I felt very nervous when I went into his office."
       },
       {
         "word": "afford",
         "phon": "/ə'fɔːd/",
         "pos": "v.",
         "cn": "负担得起",
-        "eg": ""
+        "eg": "He told me that the firm could not afford to pay such large salaries."
       }
     ],
     "grammar": [

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tf-b3-082",
+    "book": 3,
+    "lesson": 4,
+    "grammar": ["现在进行时"],
+    "cambridge": { "level": "egiu2", "unit": 1, "title": "Present continuous", "titleCn": "现在进行时" },
+    "cn": "他正在写报告。",
+    "explanation": "EGIU2 Unit 1：现在进行时 am/is/are + doing 表此刻正在进行。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is writing a report.", "He's writing a report."], "cn": "他正在写报告。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not writing a report.", "He isn't writing a report."], "cn": "他不在写报告。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he writing a report?"], "cn": "他在写报告吗？" },
+      { "kind": "wh", "prompt": "对「a report」提问", "answers": ["What is he writing?", "What is he writing now?"], "cn": "他在写什么？" }
+    ]
+  },
+  {
+    "id": "tf-b3-083",
+    "book": 3,
+    "lesson": 13,
+    "grammar": ["一般将来时", "将来进行时"],
+    "cambridge": { "level": "egiu2", "unit": 15, "title": "Future", "titleCn": "将来时" },
+    "cn": "明天此时我将正在开会。",
+    "explanation": "EGIU2 Unit 15：will be doing 将来进行时表将来某刻正在进行。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I will be having a meeting at this time tomorrow.", "I'll be in a meeting at this time tomorrow."], "cn": "明天此时我将正在开会。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I will not be having a meeting at this time tomorrow.", "I won't be in a meeting then."], "cn": "明天此时我将不在开会。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will you be having a meeting at this time tomorrow?"], "cn": "明天此时你将在开会吗？" },
+      { "kind": "wh", "prompt": "对「having a meeting」提问", "answers": ["What will you be doing at this time tomorrow?"], "cn": "明天此时你将做什么？" }
+    ]
+  },
+  {
+    "id": "tf-b3-084",
+    "book": 3,
+    "lesson": 17,
+    "grammar": ["情态动词", "情态动词must"],
+    "cambridge": { "level": "egiu2", "unit": 31, "title": "must / can't", "titleCn": "must / can't 表推测" },
+    "cn": "他肯定已经到家了。",
+    "explanation": "EGIU2 Unit 31：must have done 表对过去的肯定推测；can't have done 表否定推测。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He must have arrived home.", "He must have got home by now."], "cn": "他肯定已经到家了。" },
+      { "kind": "negative", "prompt": "改为否定推测（不可能到家）", "answers": ["He can't have arrived home.", "He can't have got home yet."], "cn": "他不可能已经到家。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（他可能到家了吗）", "answers": ["Could he have arrived home?", "Might he have got home?"], "cn": "他可能已经到家了吗？" },
+      { "kind": "wh", "prompt": "对「arrived home」提问", "answers": ["What must he have done?", "Where must he have gone?"], "cn": "他肯定做了什么/去了哪里？" }
+    ]
+  },
+  {
+    "id": "tf-b3-085",
+    "book": 3,
+    "lesson": 8,
+    "grammar": ["比较级", "最高级", "比较级和最高级"],
+    "cambridge": { "level": "egiu2", "unit": 85, "title": "Comparatives / superlatives", "titleCn": "比较级与最高级" },
+    "cn": "这是城里最好的餐厅。",
+    "explanation": "EGIU2 Unit 85：in the city 范围内用最高级 the best；两者比较用 better than。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is the best restaurant in the city.", "It's the best restaurant in town."], "cn": "这是城里最好的餐厅。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not the best restaurant in the city."], "cn": "这不是城里最好的餐厅。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this the best restaurant in the city?"], "cn": "这是城里最好的餐厅吗？" },
+      { "kind": "wh", "prompt": "对「the best restaurant」提问", "answers": ["Which is the best restaurant in the city?", "What is the best restaurant in town?"], "cn": "城里哪家餐厅最好？" }
+    ]
+  }
+]

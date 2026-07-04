@@ -93,7 +93,7 @@
         "phon": "/pen/",
         "pos": "n.",
         "cn": "钢笔",
-        "eg": ""
+        "eg": "Is this a pen? — No, it isn't."
       },
       {
         "word": "pencil",
@@ -190,49 +190,49 @@
         "phon": "/bʊk/",
         "pos": "n.",
         "cn": "书",
-        "eg": ""
+        "eg": "And is this your book?"
       },
       {
         "word": "watch",
         "phon": "/wɒtʃ/",
         "pos": "n.",
         "cn": "手表",
-        "eg": ""
+        "eg": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television."
       },
       {
         "word": "dress",
         "phon": "/dres/",
         "pos": "n.",
         "cn": "连衣裙",
-        "eg": ""
+        "eg": "A new dress"
       },
       {
         "word": "skirt",
         "phon": "/skɜːt/",
         "pos": "n.",
         "cn": "裙子",
-        "eg": ""
+        "eg": "Air is trapped inside a flexible rubber skirt. 空气被围在柔性橡胶裙内。"
       },
       {
         "word": "shirt",
         "phon": "/ʃɜːt/",
         "pos": "n.",
         "cn": "衬衣",
-        "eg": ""
+        "eg": "Is this your shirt?"
       },
       {
         "word": "car",
         "phon": "/kɑː/",
         "pos": "n.",
         "cn": "小汽车",
-        "eg": ""
+        "eg": "Where is my father? He is polishing the car."
       },
       {
         "word": "house",
         "phon": "/haʊs/",
         "pos": "n.",
         "cn": "房子",
-        "eg": ""
+        "eg": "A cat is running into the house."
       },
       {
         "word": "my",
@@ -320,35 +320,35 @@
         "phon": "/'tɪkɪt/",
         "pos": "n.",
         "cn": "票",
-        "eg": ""
+        "eg": "Here is my ticket."
       },
       {
         "word": "number",
         "phon": "/'nʌmbə/",
         "pos": "n.",
         "cn": "号码",
-        "eg": ""
+        "eg": "Number five."
       },
       {
         "word": "five",
         "phon": "/faɪv/",
         "pos": "num.",
         "cn": "五",
-        "eg": ""
+        "eg": "Number five."
       },
       {
         "word": "sorry",
         "phon": "/'sɒrɪ/",
         "pos": "a.",
         "cn": "对不起的",
-        "eg": ""
+        "eg": "Sorry sir."
       },
       {
         "word": "sir",
         "phon": "/sɜː/",
         "pos": "n.",
         "cn": "先生",
-        "eg": ""
+        "eg": "Sorry sir."
       },
       {
         "word": "cloakroom",
@@ -362,42 +362,42 @@
         "phon": "/sju:t; su:t/",
         "pos": "n.",
         "cn": "一套衣服",
-        "eg": ""
+        "eg": "It doesn't suit me at all."
       },
       {
         "word": "school",
         "phon": "/skuːl/",
         "pos": "n.",
         "cn": "学校",
-        "eg": ""
+        "eg": "This is the school building."
       },
       {
         "word": "teacher",
         "phon": "/'tiːtʃə/",
         "pos": "n.",
         "cn": "老师",
-        "eg": ""
+        "eg": "Are you a teacher?"
       },
       {
         "word": "son",
         "phon": "/sʌn/",
         "pos": "n.",
         "cn": "儿子",
-        "eg": ""
+        "eg": "A friend wants to talk to her son, Tom."
       },
       {
         "word": "daughter",
         "phon": "/'dɔːtə/",
         "pos": "n.",
         "cn": "女儿",
-        "eg": ""
+        "eg": "It's for my daughter, Susan."
       },
       {
         "word": "Mr.",
         "phon": "/'mistə/",
         "pos": "n.",
         "cn": "先生",
-        "eg": ""
+        "eg": "Come and meet our employees Mr.Richards."
       },
       {
         "word": "good",
@@ -479,14 +479,14 @@
         "phon": "/'mɔːnɪŋ/",
         "pos": "n.",
         "cn": "早晨",
-        "eg": ""
+        "eg": "Good morning."
       },
       {
         "word": "Miss",
         "phon": "/mis/",
         "pos": "n.",
         "cn": "小姐",
-        "eg": ""
+        "eg": "This is Miss Sophie Dupont."
       },
       {
         "word": "new",
@@ -514,7 +514,7 @@
         "phon": "/'dʒə:mən/",
         "pos": "a.",
         "cn": "& n.德国人",
-        "eg": ""
+        "eg": "He is German."
       },
       {
         "word": "nice",
@@ -535,21 +535,21 @@
         "phon": "/ˌdʒæpə'ni:z/",
         "pos": "a.",
         "cn": "& n.日本人",
-        "eg": ""
+        "eg": "She's Japanese."
       },
       {
         "word": "Korean",
         "phon": "/kə'riən/",
         "pos": "a.",
         "cn": "& n.韩国人",
-        "eg": ""
+        "eg": "He's Korean."
       },
       {
         "word": "Chinese",
         "phon": "/ˌtʃai'ni:z/",
         "pos": "a.",
         "cn": "& n.中国人",
-        "eg": ""
+        "eg": "He's Chinese."
       },
       {
         "word": "too",
@@ -639,35 +639,35 @@
         "phon": "/meɪk/",
         "pos": "n.",
         "cn": "(产品的)牌号",
-        "eg": ""
+        "eg": "Then make the bed."
       },
       {
         "word": "Swedish",
         "phon": "/'swi:diʃ/",
         "pos": "a.",
         "cn": "瑞典的",
-        "eg": ""
+        "eg": "Are you Swedish?"
       },
       {
         "word": "English",
         "phon": "/'ɪŋɡlɪʃ/",
         "pos": "a.",
         "cn": "英国的",
-        "eg": ""
+        "eg": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars."
       },
       {
         "word": "American",
         "phon": "/əˈmerɪkən/",
         "pos": "a.",
         "cn": "美国的",
-        "eg": ""
+        "eg": "There were English cars, French cars, German cars, Italian cars, American cars and Japanese cars."
       },
       {
         "word": "Italian",
         "phon": "/ɪˈtælɪən/",
         "pos": "a.",
         "cn": "意大利的",
-        "eg": ""
+        "eg": "I'm Italian."
       },
       {
         "word": "Volvo",
@@ -688,7 +688,7 @@
         "phon": "/'mə:sidi:z/",
         "pos": "n.",
         "cn": "梅赛德斯",
-        "eg": ""
+        "eg": "More likely, Ford Escort will be hub to hub with Renault or Mercedes, but rarely with bicycles made for two."
       },
       {
         "word": "Toyota",
@@ -716,7 +716,7 @@
         "phon": "/fɔ:d/",
         "pos": "n.",
         "cn": "福特",
-        "eg": ""
+        "eg": "More likely, Ford Escort will be hub to hub with Renault or Mercedes, but rarely with bicycles made for two."
       },
       {
         "word": "Fiat",
@@ -797,14 +797,14 @@
         "phon": "/ai/",
         "pos": "pron.",
         "cn": "我",
-        "eg": ""
+        "eg": "I'm very well thank you."
       },
       {
         "word": "am",
         "phon": "/æm/",
         "pos": "v.",
         "cn": "be动词现在时第一人称单数",
-        "eg": ""
+        "eg": "I am a new student."
       },
       {
         "word": "are",
@@ -818,56 +818,56 @@
         "phon": "/neɪm/",
         "pos": "n.",
         "cn": "名字",
-        "eg": ""
+        "eg": "My name's Robert."
       },
       {
         "word": "what",
         "phon": "/wɒt/",
         "pos": "a.",
         "cn": "& pron.什么",
-        "eg": ""
+        "eg": "What colour's your new dress?"
       },
       {
         "word": "nationality",
         "phon": "/ˌnæʃə'næləti/",
         "pos": "n.",
         "cn": "国籍",
-        "eg": ""
+        "eg": "What nationality are you?"
       },
       {
         "word": "job",
         "phon": "/dʒɔb/",
         "pos": "n.",
         "cn": "工作",
-        "eg": ""
+        "eg": "What's your job?"
       },
       {
         "word": "keyboard",
         "phon": "/'kiːbɔːd/",
         "pos": "n.",
         "cn": "电脑键盘",
-        "eg": ""
+        "eg": "I'm a keyboard operator."
       },
       {
         "word": "operator",
         "phon": "/'ɒpəreɪtə/",
         "pos": "n.",
         "cn": "操作人员",
-        "eg": ""
+        "eg": "I'm a keyboard operator."
       },
       {
         "word": "engineer",
         "phon": "/endʒɪ'nɪə/",
         "pos": "n.",
         "cn": "工程师",
-        "eg": ""
+        "eg": "I'm an engineer."
       },
       {
         "word": "policeman",
         "phon": "/pə'liːsmən/",
         "pos": "n.",
         "cn": "警察",
-        "eg": ""
+        "eg": "That policeman's waving to you."
       },
       {
         "word": "policewoman",
@@ -948,7 +948,7 @@
         "phon": "",
         "pos": "n.",
         "cn": "出租汽车司机",
-        "eg": ""
+        "eg": "When I was a boy, my grandfather told me how a German taxi driver, Franz Bussman,"
       },
       {
         "word": "air hostess",
@@ -962,21 +962,21 @@
         "phon": "/'pəʊs(t)mən/",
         "pos": "n.",
         "cn": "邮递员",
-        "eg": ""
+        "eg": "This time it was the postman and he wanted me to sign for a registered letter!"
       },
       {
         "word": "nurse",
         "phon": "/nɜːs/",
         "pos": "n.",
         "cn": "护士",
-        "eg": ""
+        "eg": "Good morning, nurse."
       },
       {
         "word": "mechanic",
         "phon": "/mə'kænɪk/",
         "pos": "n.",
         "cn": "机械师",
-        "eg": ""
+        "eg": "Have your mechanics finished yet?"
       },
       {
         "word": "hairdresser",
@@ -990,7 +990,7 @@
         "phon": "/'haʊswaɪf/",
         "pos": "n.",
         "cn": "家庭妇女",
-        "eg": ""
+        "eg": "A salesman praised a jar of cosmetic cream to a housewife."
       },
       {
         "word": "milkman",
@@ -1004,35 +1004,35 @@
         "phon": "/həˈləʊ/",
         "pos": "int.",
         "cn": "喂(表示问候)",
-        "eg": ""
+        "eg": "Hello Helen."
       },
       {
         "word": "hi",
         "phon": "/haɪ/",
         "pos": "int.",
         "cn": "喂，嗨",
-        "eg": ""
+        "eg": "Hi Steven."
       },
       {
         "word": "how",
         "phon": "/haʊ/",
         "pos": "adv.",
         "cn": "怎样",
-        "eg": ""
+        "eg": "How are you today?"
       },
       {
         "word": "today",
         "phon": "/tə'deɪ/",
         "pos": "adv.",
         "cn": "今天",
-        "eg": ""
+        "eg": "How are you today?"
       },
       {
         "word": "well",
         "phon": "/wel/",
         "pos": "a.",
         "cn": "身体好",
-        "eg": ""
+        "eg": "I'm very well thank you."
       }
     ],
     "grammar": [
@@ -1113,77 +1113,77 @@
         "phon": "/θæŋks/",
         "pos": "int.",
         "cn": "谢谢",
-        "eg": ""
+        "eg": "Thanks Mum."
       },
       {
         "word": "goodbye",
         "phon": "/ˌgud'bai/",
         "pos": "int.",
         "cn": "再见",
-        "eg": ""
+        "eg": "Goodbye Helen."
       },
       {
         "word": "see",
         "phon": "/siː/",
         "pos": "v.",
         "cn": "看见",
-        "eg": ""
+        "eg": "Come upstairs and see it."
       },
       {
         "word": "fat",
         "phon": "/fæt/",
         "pos": "a.",
         "cn": "胖的",
-        "eg": ""
+        "eg": "My friend, Hugh, has always been fat,"
       },
       {
         "word": "woman",
         "phon": "/'wʊmən/",
         "pos": "n.",
         "cn": "女人",
-        "eg": ""
+        "eg": "A young woman walks into a small shop."
       },
       {
         "word": "thin",
         "phon": "/θɪn/",
         "pos": "a.",
         "cn": "瘦的",
-        "eg": ""
+        "eg": "Lined up against the wall, there were long thin wires attached to metal spheres."
       },
       {
         "word": "tall",
         "phon": "/tɔːl/",
         "pos": "a.",
         "cn": "高的",
-        "eg": ""
+        "eg": "A narrow path led us in among the tall old trees."
       },
       {
         "word": "short",
         "phon": "/ʃɔːt/",
         "pos": "a.",
         "cn": "矮的",
-        "eg": ""
+        "eg": "and this is Jeremy Short."
       },
       {
         "word": "dirty",
         "phon": "/'dɜːtɪ/",
         "pos": "a.",
         "cn": "脏的",
-        "eg": ""
+        "eg": "Your hands are dirty. You must wash them."
       },
       {
         "word": "clean",
         "phon": "/kliːn/",
         "pos": "a.",
         "cn": "干净的",
-        "eg": ""
+        "eg": "The cup is clean."
       },
       {
         "word": "hot",
         "phon": "/hɒt/",
         "pos": "a.",
         "cn": "热的",
-        "eg": ""
+        "eg": "It's always hot in June, July and August."
       }
     ],
     "grammar": [
@@ -1250,14 +1250,14 @@
         "phon": "/kəʊld/",
         "pos": "a.",
         "cn": "冷的",
-        "eg": ""
+        "eg": "Is it cold or warm in autumn?"
       },
       {
         "word": "old",
         "phon": "/əʊld/",
         "pos": "a.",
         "cn": "老的",
-        "eg": ""
+        "eg": "This book is old, but it is very good."
       },
       {
         "word": "young",
@@ -1285,49 +1285,49 @@
         "phon": "/huːz/",
         "pos": "pron.",
         "cn": "谁的",
-        "eg": ""
+        "eg": "Whose shirt is that?"
       },
       {
         "word": "blue",
         "phon": "/bluː/",
         "pos": "a.",
         "cn": "蓝色的",
-        "eg": ""
+        "eg": "It's blue."
       },
       {
         "word": "perhaps",
         "phon": "/pəˈhæps/",
         "pos": "adv.",
         "cn": "大概",
-        "eg": ""
+        "eg": "Perhaps it is sir."
       },
       {
         "word": "white",
         "phon": "/waɪt/",
         "pos": "a.",
         "cn": "白色的",
-        "eg": ""
+        "eg": "Tim's shirt's white."
       },
       {
         "word": "catch",
         "phon": "/kætʃ/",
         "pos": "v.",
         "cn": "抓住",
-        "eg": ""
+        "eg": "Catch!"
       },
       {
         "word": "father",
         "phon": "/'fɑːðə/",
         "pos": "n.",
         "cn": "父亲",
-        "eg": ""
+        "eg": "My father is making a bookcase."
       },
       {
         "word": "mother",
         "phon": "/'mʌðə/",
         "pos": "n.",
         "cn": "母亲",
-        "eg": ""
+        "eg": "How is your mother?"
       },
       {
         "word": "blouse",
@@ -1406,84 +1406,84 @@
         "phon": "/'sɪstə/",
         "pos": "n.",
         "cn": "姐，妹",
-        "eg": ""
+        "eg": "And my sister? She is opening the cupboard now."
       },
       {
         "word": "tie",
         "phon": "/taɪ/",
         "pos": "n.",
         "cn": "领带",
-        "eg": ""
+        "eg": "'I needn't remind you of that terrible tie you bought yesterday.'"
       },
       {
         "word": "brother",
         "phon": "/'brʌðə/",
         "pos": "n.",
         "cn": "兄，弟",
-        "eg": ""
+        "eg": "And how's your brother?"
       },
       {
         "word": "his",
         "phon": "/hɪz/",
         "pos": "det.",
         "cn": "他的",
-        "eg": ""
+        "eg": "Mr. Jones is with his family."
       },
       {
         "word": "her",
         "phon": "/hɜː/",
         "pos": "det.",
         "cn": "她的",
-        "eg": ""
+        "eg": "And he is her assistant."
       },
       {
         "word": "colour",
         "phon": "/'kʌlə/",
         "pos": "n.",
         "cn": "颜色",
-        "eg": ""
+        "eg": "What colour's your new dress?"
       },
       {
         "word": "green",
         "phon": "/griːn/",
         "pos": "a.",
         "cn": "绿色",
-        "eg": ""
+        "eg": "This is Mr Green."
       },
       {
         "word": "come",
         "phon": "/kʌm/",
         "pos": "v.",
         "cn": "来",
-        "eg": ""
+        "eg": "Come and meet our employees Mr.Richards."
       },
       {
         "word": "upstairs",
         "phon": "/ʌp'steəz/",
         "pos": "adv.",
         "cn": "楼上",
-        "eg": ""
+        "eg": "Come upstairs and see it."
       },
       {
         "word": "smart",
         "phon": "/smɑːt/",
         "pos": "a.",
         "cn": "时髦的，巧妙的，聪明的",
-        "eg": ""
+        "eg": "It's very smart."
       },
       {
         "word": "hat",
         "phon": "/hæt/",
         "pos": "n.",
         "cn": "帽子",
-        "eg": ""
+        "eg": "My hat's new too."
       },
       {
         "word": "same",
         "phon": "/seɪm/",
         "pos": "a.",
         "cn": "相同的",
-        "eg": ""
+        "eg": "It's the same colour."
       }
     ],
     "grammar": [
@@ -1557,91 +1557,91 @@
         "phon": "/'lʌvlɪ/",
         "pos": "a.",
         "cn": "可爱的，秀丽的",
-        "eg": ""
+        "eg": "The biscuits are lovely."
       },
       {
         "word": "case",
         "phon": "/keɪs/",
         "pos": "n.",
         "cn": "箱子",
-        "eg": ""
+        "eg": "A small blue case"
       },
       {
         "word": "carpet",
         "phon": "/'kɑːpɪt/",
         "pos": "n.",
         "cn": "地毯",
-        "eg": ""
+        "eg": "The old woman made a beautiful carpet by hand. 这位老妇人手工做出了一张漂亮地毯。"
       },
       {
         "word": "dog",
         "phon": "/dɒg/",
         "pos": "n.",
         "cn": "狗",
-        "eg": ""
+        "eg": "What about the dog?"
       },
       {
         "word": "Customs",
         "phon": "/'kʌstəmz/",
         "pos": "n.",
         "cn": "海关",
-        "eg": ""
+        "eg": "The customs hall was crowded that morning. 那天早上海关大厅很拥挤。"
       },
       {
         "word": "officer",
         "phon": "/'ɒfɪsə/",
         "pos": "n.",
         "cn": "官员",
-        "eg": ""
+        "eg": "\"Yes, every passenger will show a ticket,\" said the officer."
       },
       {
         "word": "girl",
         "phon": "/gɜːl/",
         "pos": "n.",
         "cn": "女孩，姑娘",
-        "eg": ""
+        "eg": "\"When did you buy it?\" the shop girl asked."
       },
       {
         "word": "Danish",
         "phon": "/'deɪnɪʃ/",
         "pos": "a.",
         "cn": "& n. 丹麦人",
-        "eg": ""
+        "eg": "We are Danish."
       },
       {
         "word": "friend",
         "phon": "/frend/",
         "pos": "n.",
         "cn": "朋友",
-        "eg": ""
+        "eg": "A friend wants to talk to her son, Tom."
       },
       {
         "word": "Norwegian",
         "phon": "/nɔ:'wi:dʒən/",
         "pos": "a.",
         "cn": "& n. 挪威人",
-        "eg": ""
+        "eg": "They are Norwegian."
       },
       {
         "word": "passport",
         "phon": "/'pɑːspɔːt/",
         "pos": "n.",
         "cn": "护照",
-        "eg": ""
+        "eg": "Here is my passport. 这是我的护照。"
       },
       {
         "word": "brown",
         "phon": "/braʊn/",
         "pos": "a.",
         "cn": "棕色的",
-        "eg": ""
+        "eg": "Our cases are brown."
       },
       {
         "word": "tourist",
         "phon": "/'tʊərɪst/",
         "pos": "n.",
         "cn": "旅游者",
-        "eg": ""
+        "eg": "He was a tourist."
       }
     ],
     "grammar": [
@@ -1715,77 +1715,77 @@
         "phon": "/'rʌʃ(ə)n/",
         "pos": "a.",
         "cn": "& n. 俄罗斯人",
-        "eg": ""
+        "eg": "A Frenchman, for instance, might find it hard to laugh at a Russian joke."
       },
       {
         "word": "Dutch",
         "phon": "/dʌtʃ/",
         "pos": "a.",
         "cn": "& n. 荷兰人",
-        "eg": ""
+        "eg": "or those inviting 'our camping friends' to a dance or a boat trip are printed not only in French or Italian or Spanish, but also in English, German and Dutch."
       },
       {
         "word": "red",
         "phon": "/red/",
         "pos": "a.",
         "cn": "红色的",
-        "eg": ""
+        "eg": "No, not that one. The red one."
       },
       {
         "word": "grey",
         "phon": "/greɪ/",
         "pos": "a.",
         "cn": "灰色的",
-        "eg": ""
+        "eg": "This is Nicola Grey"
       },
       {
         "word": "yellow",
         "phon": "/'jeləʊ/",
         "pos": "a.",
         "cn": "黄色的",
-        "eg": ""
+        "eg": "A yellow light on the dashboard flashed angrily and Bruce cheerfully announced that there was no oil in the engine!"
       },
       {
         "word": "black",
         "phon": "/blæk/",
         "pos": "a.",
         "cn": "黑色的",
-        "eg": ""
+        "eg": "I like black coffee."
       },
       {
         "word": "orange",
         "phon": "/'ɒrɪn(d)ʒ/",
         "pos": "a.",
         "cn": "橘黄色的",
-        "eg": ""
+        "eg": "she had to wear short socks and a bright, orange-coloured dress."
       },
       {
         "word": "employee",
         "phon": "/emplɒɪ'iː; em'plɒɪiː; ɪm-/",
         "pos": "n.",
         "cn": "雇员",
-        "eg": ""
+        "eg": "He is a new employee."
       },
       {
         "word": "hard-working",
         "phon": "/'hɑ:dwə:kiŋ/",
         "pos": "a.",
         "cn": "勤奋的",
-        "eg": ""
+        "eg": "Those women are very hard-working."
       },
       {
         "word": "sales reps",
         "phon": "",
         "pos": "phr.",
         "cn": "推销员",
-        "eg": ""
+        "eg": "They're sales reps."
       },
       {
         "word": "man",
         "phon": "/mæn/",
         "pos": "n.",
         "cn": "男人",
-        "eg": ""
+        "eg": "There's an ice cream man."
       }
     ],
     "grammar": [
@@ -1860,63 +1860,63 @@
         "phon": "/'ɒfɪs/",
         "pos": "n.",
         "cn": "办公室",
-        "eg": ""
+        "eg": "He's our office assistant."
       },
       {
         "word": "assistant",
         "phon": "/ə'sɪstənt/",
         "pos": "n.",
         "cn": "助手",
-        "eg": ""
+        "eg": "He's our office assistant."
       },
       {
         "word": "matter",
         "phon": "/'mætə/",
         "pos": "n.",
         "cn": "事情",
-        "eg": ""
+        "eg": "What's the matter children?"
       },
       {
         "word": "children",
         "phon": "/'tʃɪldrən/",
         "pos": "n.",
         "cn": "孩子们(child 的复数)",
-        "eg": ""
+        "eg": "What's the matter children?"
       },
       {
         "word": "tired",
         "phon": "/taɪəd/",
         "pos": "a.",
         "cn": "累，疲乏",
-        "eg": ""
+        "eg": "Tired and thirsty"
       },
       {
         "word": "boy",
         "phon": "/bɒɪ/",
         "pos": "n.",
         "cn": "男孩",
-        "eg": ""
+        "eg": "A boy is flying a kite near the tree."
       },
       {
         "word": "thirsty",
         "phon": "/'θɜːstɪ/",
         "pos": "a.",
         "cn": "渴",
-        "eg": ""
+        "eg": "Tired and thirsty"
       },
       {
         "word": "mum",
         "phon": "/mʌm/",
         "pos": "n.",
         "cn": "妈妈(儿语)",
-        "eg": ""
+        "eg": "... and thirsty  Mum."
       },
       {
         "word": "sit down",
         "phon": "/ˌsit'daun/",
         "pos": "",
         "cn": "坐下",
-        "eg": ""
+        "eg": "Sit down here."
       },
       {
         "word": "right",
@@ -1930,14 +1930,14 @@
         "phon": "/aɪs kri:m/",
         "pos": "",
         "cn": "冰淇淋",
-        "eg": ""
+        "eg": "There's an ice cream man."
       },
       {
         "word": "big",
         "phon": "/bɪg/",
         "pos": "a.",
         "cn": "大的",
-        "eg": ""
+        "eg": "There is a big refrigerator in the kitchen."
       },
       {
         "word": "small",
@@ -2033,84 +2033,84 @@
         "phon": "/'əʊp(ə)n/",
         "pos": "a.",
         "cn": "开着的",
-        "eg": ""
+        "eg": "Open the window and air the room."
       },
       {
         "word": "shut",
         "phon": "/ʃʌt/",
         "pos": "a.",
         "cn": "关着的",
-        "eg": ""
+        "eg": "Shut the door, please."
       },
       {
         "word": "light",
         "phon": "/laɪt/",
         "pos": "a.",
         "cn": "轻的",
-        "eg": ""
+        "eg": "He turned on the light, but he couldn't see anyone."
       },
       {
         "word": "heavy",
         "phon": "/'hevɪ/",
         "pos": "a.",
         "cn": "重的",
-        "eg": ""
+        "eg": "Is that bag heavy, Penny?"
       },
       {
         "word": "long",
         "phon": "/lɒŋ/",
         "pos": "a.",
         "cn": "长的",
-        "eg": ""
+        "eg": "The days are long and the nights are short."
       },
       {
         "word": "shoe",
         "phon": "/ʃuː/",
         "pos": "n.",
         "cn": "鞋子",
-        "eg": ""
+        "eg": "These shoes are too small for me. 这双鞋对我来说太小了。"
       },
       {
         "word": "grandfather",
         "phon": "/'græn(d)fɑːðə/",
         "pos": "n.",
         "cn": "祖父，外祖父",
-        "eg": ""
+        "eg": "The instrument was bought by my grandfather many years ago."
       },
       {
         "word": "grandmother",
         "phon": "/'græn(d)mʌðə/",
         "pos": "n.",
         "cn": "祖母，外祖母",
-        "eg": ""
+        "eg": "It was bought by my grandmother many years ago."
       },
       {
         "word": "give",
         "phon": "/gɪv/",
         "pos": "v.",
         "cn": "给",
-        "eg": ""
+        "eg": "Give me some glasses please, Jane."
       },
       {
         "word": "one",
         "phon": "/wʌn/",
         "pos": "pron.",
         "cn": "一个",
-        "eg": ""
+        "eg": "This one?"
       },
       {
         "word": "which",
         "phon": "/wɪtʃ/",
         "pos": "pron.",
         "cn": "哪一个",
-        "eg": ""
+        "eg": "Which glasses?"
       },
       {
         "word": "empty",
         "phon": "/ˈemptɪ/",
         "pos": "a.",
         "cn": "空的",
-        "eg": ""
+        "eg": "The bottle is empty."
       }
     ],
     "grammar": [
@@ -2198,42 +2198,42 @@
         "phon": "/fʊl/",
         "pos": "a.",
         "cn": "满的",
-        "eg": ""
+        "eg": "This box is empty, and that box is full of books."
       },
       {
         "word": "large",
         "phon": "/lɑːdʒ/",
         "pos": "a.",
         "cn": "大的",
-        "eg": ""
+        "eg": "Mrs. Smith's living room is large."
       },
       {
         "word": "little",
         "phon": "/'lɪt(ə)l/",
         "pos": "a.",
         "cn": "小的",
-        "eg": ""
+        "eg": "There is a little milk, but there aren't any biscuits."
       },
       {
         "word": "sharp",
         "phon": "/ʃɑːp/",
         "pos": "a.",
         "cn": "尖的，锋利的",
-        "eg": ""
+        "eg": "Those knives are very sharp."
       },
       {
         "word": "small",
         "phon": "/smɔːl/",
         "pos": "a.",
         "cn": "小的",
-        "eg": ""
+        "eg": "A small radio is between the two armchairs."
       },
       {
         "word": "big",
         "phon": "/bɪg/",
         "pos": "a.",
         "cn": "大的",
-        "eg": ""
+        "eg": "There is a big refrigerator in the kitchen."
       },
       {
         "word": "blunt",
@@ -2247,42 +2247,42 @@
         "phon": "/bɒks/",
         "pos": "n.",
         "cn": "盒子，箱子",
-        "eg": ""
+        "eg": "This box is empty, and that box is full of books."
       },
       {
         "word": "glass",
         "phon": "/glɑːs/",
         "pos": "n.",
         "cn": "杯子",
-        "eg": ""
+        "eg": "Have a glass of whisky then."
       },
       {
         "word": "cup",
         "phon": "/kʌp/",
         "pos": "n.",
         "cn": "茶杯",
-        "eg": ""
+        "eg": "There is a cup on the table, too."
       },
       {
         "word": "bottle",
         "phon": "/'bɒt(ə)l/",
         "pos": "n.",
         "cn": "瓶子",
-        "eg": ""
+        "eg": "There is a bottle on the table."
       },
       {
         "word": "tin",
         "phon": "/tɪn/",
         "pos": "n.",
         "cn": "罐头",
-        "eg": ""
+        "eg": "And a tin of tobacco."
       },
       {
         "word": "knife",
         "phon": "/naɪf/",
         "pos": "n.",
         "cn": "刀子",
-        "eg": ""
+        "eg": "knife → knives"
       }
     ],
     "grammar": [
@@ -2370,77 +2370,77 @@
         "phon": "/ɒn/",
         "pos": "prep.",
         "cn": "在…之上",
-        "eg": ""
+        "eg": "There are some boats on the river."
       },
       {
         "word": "shelf",
         "phon": "/ʃelf/",
         "pos": "n.",
         "cn": "架子，搁板",
-        "eg": ""
+        "eg": "There are two cups on the shelf."
       },
       {
         "word": "desk",
         "phon": "/desk/",
         "pos": "n.",
         "cn": "课桌",
-        "eg": ""
+        "eg": "Please put the letter on his desk."
       },
       {
         "word": "table",
         "phon": "/'teɪb(ə)l/",
         "pos": "n.",
         "cn": "桌子",
-        "eg": ""
+        "eg": "Dust the dressing table."
       },
       {
         "word": "plate",
         "phon": "/pleɪt/",
         "pos": "n.",
         "cn": "盘子",
-        "eg": ""
+        "eg": "Then he threw the bread from his plate onto the floor."
       },
       {
         "word": "cupboard",
         "phon": "/'kʌbəd/",
         "pos": "n.",
         "cn": "食橱",
-        "eg": ""
+        "eg": "There are some in the cupboard."
       },
       {
         "word": "cigarette",
         "phon": "/sɪgə'ret/",
         "pos": "n.",
         "cn": "香烟",
-        "eg": ""
+        "eg": "Have a cigarette."
       },
       {
         "word": "television",
         "phon": "/'telɪvɪʒ(ə)n; telɪ'vɪʒ(ə)n/",
         "pos": "n.",
         "cn": "电视机",
-        "eg": ""
+        "eg": "There is a television in the room."
       },
       {
         "word": "floor",
         "phon": "/flɔː/",
         "pos": "n.",
         "cn": "地板",
-        "eg": ""
+        "eg": "Then sweep the floor."
       },
       {
         "word": "dressing table",
         "phon": "",
         "pos": "",
         "cn": "梳妆台",
-        "eg": ""
+        "eg": "Dust the dressing table."
       },
       {
         "word": "magazine",
         "phon": "/mægə'ziːn/",
         "pos": "n.",
         "cn": "杂志",
-        "eg": ""
+        "eg": "He reads a magazine on the train. 他在火车上读杂志。"
       }
     ],
     "grammar": [
@@ -2528,91 +2528,91 @@
         "phon": "/bed/",
         "pos": "n.",
         "cn": "床",
-        "eg": ""
+        "eg": "Then make the bed."
       },
       {
         "word": "newspaper",
         "phon": "/'njuːzpeɪpə; 'njuːs-/",
         "pos": "n.",
         "cn": "报纸",
-        "eg": ""
+        "eg": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television."
       },
       {
         "word": "stereo",
         "phon": "/'steriou/",
         "pos": "n.",
         "cn": "立体声音响",
-        "eg": ""
+        "eg": "There is a stereo in the room."
       },
       {
         "word": "Mrs.",
         "phon": "/'misiz/",
         "pos": "",
         "cn": "夫人",
-        "eg": ""
+        "eg": "Mrs.Ramsay was instructed to place the money in a cardboard box and to leave it outside her door."
       },
       {
         "word": "kitchen",
         "phon": "/'kɪtʃɪn; -tʃ(ə)n/",
         "pos": "n.",
         "cn": "厨房",
-        "eg": ""
+        "eg": "Mrs. Smith's Kitchen"
       },
       {
         "word": "refrigerator",
         "phon": "/rɪ'frɪdʒəreɪtə/",
         "pos": "n.",
         "cn": "电冰箱",
-        "eg": ""
+        "eg": "There is a refrigerator in the kitchen."
       },
       {
         "word": "right",
         "phon": "/raɪt/",
         "pos": "n.",
         "cn": "右边",
-        "eg": ""
+        "eg": "The park is on the right."
       },
       {
         "word": "electric",
         "phon": "/ɪ'lektrɪk/",
         "pos": "a.",
         "cn": "带电的，可通电的",
-        "eg": ""
+        "eg": "There is an electric cooker in the kitchen."
       },
       {
         "word": "left",
         "phon": "/left/",
         "pos": "n.",
         "cn": "左边",
-        "eg": ""
+        "eg": "We are on the left."
       },
       {
         "word": "cooker",
         "phon": "/'kʊkə/",
         "pos": "n.",
         "cn": "炉子，炊具",
-        "eg": ""
+        "eg": "There is an electric cooker in the kitchen."
       },
       {
         "word": "middle",
         "phon": "/'mɪd(ə)l/",
         "pos": "n.",
         "cn": "中间",
-        "eg": ""
+        "eg": "There is a table in the middle of the room."
       },
       {
         "word": "of",
         "phon": "/ɒv; (ə)v/",
         "pos": "prep.",
         "cn": "(属于)…的",
-        "eg": ""
+        "eg": "This is a photograph of our village."
       },
       {
         "word": "room",
         "phon": "/ruːm; rʊm/",
         "pos": "n.",
         "cn": "房间",
-        "eg": ""
+        "eg": "Is she in her room? No, she isn't."
       }
     ],
     "grammar": [
@@ -2700,14 +2700,14 @@
         "phon": "/kʌp/",
         "pos": "n.",
         "cn": "杯子",
-        "eg": ""
+        "eg": "There is a cup on the table, too."
       },
       {
         "word": "where",
         "phon": "/weə/",
         "pos": "adv.",
         "cn": "在哪里",
-        "eg": ""
+        "eg": "Where's Sally?"
       },
       {
         "word": "in",
@@ -2721,56 +2721,56 @@
         "phon": "/'lɪvɪŋ ru:m/",
         "pos": "",
         "cn": "客厅",
-        "eg": ""
+        "eg": "Mrs. Smith's living room"
       },
       {
         "word": "near",
         "phon": "/nɪə/",
         "pos": "prep.",
         "cn": "靠近",
-        "eg": ""
+        "eg": "A river runs near the village."
       },
       {
         "word": "window",
         "phon": "/'wɪndəʊ/",
         "pos": "n.",
         "cn": "窗户",
-        "eg": ""
+        "eg": "I'm going to put it here, in front of the window."
       },
       {
         "word": "armchair",
         "phon": "/ɑːm'tʃeə; 'ɑːm-/",
         "pos": "n.",
         "cn": "手扶椅",
-        "eg": ""
+        "eg": "There is an armchair near the window. 窗户附近有一把扶手椅。"
       },
       {
         "word": "door",
         "phon": "/dɔː/",
         "pos": "n.",
         "cn": "门",
-        "eg": ""
+        "eg": "Shut the door, please."
       },
       {
         "word": "picture",
         "phon": "/'pɪktʃə/",
         "pos": "n.",
         "cn": "图画",
-        "eg": ""
+        "eg": "There is a nice picture on the wall."
       },
       {
         "word": "trousers",
         "phon": "/'traʊzəz/",
         "pos": "n.",
         "cn": "〔复数〕长裤",
-        "eg": ""
+        "eg": "Have you ever put your trousers in the washing machine and then remembered there was a large bank note in your back pocket?"
       },
       {
         "word": "shut",
         "phon": "/ʃʌt/",
         "pos": "v.",
         "cn": "关门",
-        "eg": ""
+        "eg": "Shut the door, please."
       }
     ],
     "grammar": [
@@ -2858,84 +2858,84 @@
         "phon": "/'bedruːm; -rʊm/",
         "pos": "n.",
         "cn": "卧室",
-        "eg": ""
+        "eg": "This bedroom's very untidy."
       },
       {
         "word": "untidy",
         "phon": "/ʌn'taɪdɪ/",
         "pos": "a.",
         "cn": "乱，不整齐",
-        "eg": ""
+        "eg": "This bedroom's very untidy."
       },
       {
         "word": "must",
         "phon": "/mʌst/",
         "pos": "",
         "cn": "modal verb.必须，应该",
-        "eg": ""
+        "eg": "What must I do, Mrs. Jones?"
       },
       {
         "word": "open",
         "phon": "/'əʊp(ə)n/",
         "pos": "v.",
         "cn": "打开",
-        "eg": ""
+        "eg": "Open the window and air the room."
       },
       {
         "word": "air",
         "phon": "/eə/",
         "pos": "v.",
         "cn": "使…通风，换换空气",
-        "eg": ""
+        "eg": "Open the window and air the room."
       },
       {
         "word": "put",
         "phon": "/pʊt/",
         "pos": "v.",
         "cn": "放置",
-        "eg": ""
+        "eg": "He is going to put his books on it."
       },
       {
         "word": "clothes",
         "phon": "/kləʊ(ð)z/",
         "pos": "n.",
         "cn": "衣服",
-        "eg": ""
+        "eg": "Then put these clothes in the wardrobe."
       },
       {
         "word": "wardrobe",
         "phon": "/'wɔːdrəʊb/",
         "pos": "n.",
         "cn": "大衣柜",
-        "eg": ""
+        "eg": "Then put these clothes in the wardrobe."
       },
       {
         "word": "dust",
         "phon": "/dʌst/",
         "pos": "v.",
         "cn": "掸掉灰尘",
-        "eg": ""
+        "eg": "Dust the dressing table."
       },
       {
         "word": "sweep",
         "phon": "/swiːp/",
         "pos": "v.",
         "cn": "扫",
-        "eg": ""
+        "eg": "Then sweep the floor."
       },
       {
         "word": "empty",
         "phon": "/ˈemptɪ/",
         "pos": "v.",
         "cn": "倒空，使…变空",
-        "eg": ""
+        "eg": "It isn't empty. There is a small book and a pen in it."
       },
       {
         "word": "read",
         "phon": "/ri:d;red/",
         "pos": "v.",
         "cn": "读",
-        "eg": ""
+        "eg": "I can't read it!"
       },
       {
         "word": "sharpen",
@@ -3030,21 +3030,21 @@
         "phon": "/pʊt ɒn/",
         "pos": "",
         "cn": "穿上",
-        "eg": ""
+        "eg": "When Harry put on his act of being mildly annoyed, the assistant promised to order some for him."
       },
       {
         "word": "take off",
         "phon": "",
         "pos": "",
         "cn": "脱掉",
-        "eg": ""
+        "eg": "Fortunately, nothing was found and five hours later we were able to take off again."
       },
       {
         "word": "turn on",
         "phon": "/tɜ:n ɒn/",
         "pos": "",
         "cn": "开(电灯)",
-        "eg": ""
+        "eg": "It was very dark, so they turned on a torch."
       },
       {
         "word": "turn off",
@@ -3058,56 +3058,56 @@
         "phon": "/'gɑːd(ə)n/",
         "pos": "n.",
         "cn": "花园",
-        "eg": ""
+        "eg": "She's in the garden, Jean."
       },
       {
         "word": "under",
         "phon": "/'ʌndə/",
         "pos": "prep.",
         "cn": "在…之下",
-        "eg": ""
+        "eg": "The ship is going under the bridge."
       },
       {
         "word": "tree",
         "phon": "/triː/",
         "pos": "n.",
         "cn": "树",
-        "eg": ""
+        "eg": "A boy is flying a kite near the tree."
       },
       {
         "word": "climb",
         "phon": "/klaɪm/",
         "pos": "v.",
         "cn": "爬，攀登",
-        "eg": ""
+        "eg": "He put a chair near the wall and started to climb."
       },
       {
         "word": "who",
         "phon": "/huː; hʊ/",
         "pos": "pron.",
         "cn": "谁",
-        "eg": ""
+        "eg": "Who's climbing the tree?"
       },
       {
         "word": "run",
         "phon": "/rʌn/",
         "pos": "v.",
         "cn": "跑",
-        "eg": ""
+        "eg": "Don't run, and don't drop it!"
       },
       {
         "word": "grass",
         "phon": "/grɑːs/",
         "pos": "n.",
         "cn": "草，草地",
-        "eg": ""
+        "eg": "Some children are playing on the grass."
       },
       {
         "word": "after",
         "phon": "/'ɑːftə/",
         "pos": "prep.",
         "cn": "在…之后",
-        "eg": ""
+        "eg": "It's running after a cat."
       }
     ],
     "grammar": [
@@ -3188,63 +3188,63 @@
         "phon": "/kæt/",
         "pos": "n.",
         "cn": "猫",
-        "eg": ""
+        "eg": "It's running after a cat."
       },
       {
         "word": "type",
         "phon": "/taɪp/",
         "pos": "v.",
         "cn": "打字",
-        "eg": ""
+        "eg": "Can she type this letter for me?"
       },
       {
         "word": "letter",
         "phon": "/'letə/",
         "pos": "n.",
         "cn": "信",
-        "eg": ""
+        "eg": "The boss's letter"
       },
       {
         "word": "basket",
         "phon": "/'bɑːskɪt/",
         "pos": "n.",
         "cn": "篮子",
-        "eg": ""
+        "eg": "Three men stood in the basket of the balloon. 三个人站在热气球的吊篮里。"
       },
       {
         "word": "eat",
         "phon": "/iːt/",
         "pos": "v.",
         "cn": "吃",
-        "eg": ""
+        "eg": "And he mustn't eat rich food."
       },
       {
         "word": "bone",
         "phon": "/bəʊn/",
         "pos": "n.",
         "cn": "骨头",
-        "eg": ""
+        "eg": "a mountain peak, a kidney, a carrot, a tree-trunk, a bird, a bud, a lark, a ladybird, a bulrush, a bone."
       },
       {
         "word": "clean",
         "phon": "/kliːn/",
         "pos": "v.",
         "cn": "清洗",
-        "eg": ""
+        "eg": "Your shoes are dirty, too. Clean them, please."
       },
       {
         "word": "tooth",
         "phon": "/tuːθ/",
         "pos": "n.",
         "cn": "牙齿",
-        "eg": ""
+        "eg": "Tom is afraid. \"Must the dentist pull my tooth?\""
       },
       {
         "word": "cook",
         "phon": "/kʊk/",
         "pos": "v.",
         "cn": "做(饭菜)",
-        "eg": ""
+        "eg": "Tonight I am going to cook a big dinner."
       },
       {
         "word": "milk",
@@ -3258,21 +3258,21 @@
         "phon": "/miːl/",
         "pos": "n.",
         "cn": "饭，一顿饭",
-        "eg": ""
+        "eg": "Kate is preparing a big meal for them now."
       },
       {
         "word": "drink",
         "phon": "/drɪŋk/",
         "pos": "v.",
         "cn": "喝",
-        "eg": ""
+        "eg": "They often drink tea together."
       },
       {
         "word": "tap",
         "phon": "/tæp/",
         "pos": "n.",
         "cn": "(水)龙头",
-        "eg": ""
+        "eg": "As soon as I tap on the window, you must stop within five feet.'"
       }
     ],
     "grammar": [
@@ -3353,56 +3353,56 @@
         "phon": "/deɪ/",
         "pos": "n.",
         "cn": "日子",
-        "eg": ""
+        "eg": "The sun shines every day."
       },
       {
         "word": "cloud",
         "phon": "/klaʊd/",
         "pos": "n.",
         "cn": "云",
-        "eg": ""
+        "eg": "There are no clouds in the sky. 天上没有云。"
       },
       {
         "word": "sky",
         "phon": "/skaɪ/",
         "pos": "n.",
         "cn": "天空",
-        "eg": ""
+        "eg": "There are some clouds in the sky,"
       },
       {
         "word": "sun",
         "phon": "/sʌn/",
         "pos": "n.",
         "cn": "太阳",
-        "eg": ""
+        "eg": "The sun shines every day."
       },
       {
         "word": "shine",
         "phon": "/ʃaɪn/",
         "pos": "v.",
         "cn": "照耀",
-        "eg": ""
+        "eg": "The sun is shining brightly. 阳光灿烂。"
       },
       {
         "word": "with",
         "phon": "/wɪð/",
         "pos": "prep.",
         "cn": "和…在一起",
-        "eg": ""
+        "eg": "What are you going to do with that vase, Penny?"
       },
       {
         "word": "family",
         "phon": "/ˈfæməlɪ/",
         "pos": "n.",
         "cn": "家庭(成员)",
-        "eg": ""
+        "eg": "Mr. Jones is with his family."
       },
       {
         "word": "walk",
         "phon": "/wɔːk/",
         "pos": "v.",
         "cn": "走路，步行",
-        "eg": ""
+        "eg": "The children sometimes walk to school together."
       },
       {
         "word": "over",
@@ -3416,21 +3416,21 @@
         "phon": "/brɪdʒ/",
         "pos": "n.",
         "cn": "桥",
-        "eg": ""
+        "eg": "They are walking over the bridge."
       },
       {
         "word": "boat",
         "phon": "/bəʊt/",
         "pos": "n.",
         "cn": "船",
-        "eg": ""
+        "eg": "A long, narrow boat passed slowly under the bridge. 一条狭长的小船缓缓地从桥下驶过。"
       },
       {
         "word": "river",
         "phon": "/'rɪvə/",
         "pos": "n.",
         "cn": "河",
-        "eg": ""
+        "eg": "The village is on a river."
       }
     ],
     "grammar": [
@@ -3511,91 +3511,91 @@
         "phon": "/ʃɪp/",
         "pos": "n.",
         "cn": "轮船",
-        "eg": ""
+        "eg": "Sally is looking at a big ship."
       },
       {
         "word": "aeroplane",
         "phon": "/'eərəpleɪn/",
         "pos": "n.",
         "cn": "飞机",
-        "eg": ""
+        "eg": "Tim is looking at an aeroplane."
       },
       {
         "word": "fly",
         "phon": "/flaɪ/",
         "pos": "v.",
         "cn": "飞",
-        "eg": ""
+        "eg": "He will fly to New York next month."
       },
       {
         "word": "sleep",
         "phon": "/sliːp/",
         "pos": "v.",
         "cn": "睡觉",
-        "eg": ""
+        "eg": "His mother smiles and says, \"You are a grown-up, but you must sleep now.\""
       },
       {
         "word": "shave",
         "phon": "/ʃeɪv/",
         "pos": "v.",
         "cn": "刮脸",
-        "eg": ""
+        "eg": "Why did you shave it off?"
       },
       {
         "word": "cry",
         "phon": "/kraɪ/",
         "pos": "v.",
         "cn": "哭，喊",
-        "eg": ""
+        "eg": "The man let out a cry and jumped back several paces."
       },
       {
         "word": "wash",
         "phon": "/wɒʃ/",
         "pos": "v.",
         "cn": "洗",
-        "eg": ""
+        "eg": "Your hands are dirty. You must wash them."
       },
       {
         "word": "wait",
         "phon": "/weɪt/",
         "pos": "v.",
         "cn": "等",
-        "eg": ""
+        "eg": "Can't you wait till this afternoon?"
       },
       {
         "word": "jump",
         "phon": "/dʒʌmp/",
         "pos": "v.",
         "cn": "跳",
-        "eg": ""
+        "eg": "spawning a new generation of garage start-ups and giving the U. S.  a jump on its foreign rivals in getting new products to market fast."
       },
       {
         "word": "photograph",
         "phon": "/'foutəgræf/",
         "pos": "n.",
         "cn": "照片",
-        "eg": ""
+        "eg": "This is a photograph of our village."
       },
       {
         "word": "village",
         "phon": "/'vɪlɪdʒ/",
         "pos": "n.",
         "cn": "村庄",
-        "eg": ""
+        "eg": "Our village"
       },
       {
         "word": "valley",
         "phon": "/'vælɪ/",
         "pos": "n.",
         "cn": "山谷",
-        "eg": ""
+        "eg": "Our village is in a valley."
       },
       {
         "word": "between",
         "phon": "/bɪ'twiːn/",
         "pos": "prep.",
         "cn": "在…之间",
-        "eg": ""
+        "eg": "It is between two hills."
       }
     ],
     "grammar": [
@@ -3676,84 +3676,84 @@
         "phon": "/hɪl/",
         "pos": "n.",
         "cn": "小山",
-        "eg": ""
+        "eg": "There is a house on the hill. 山上有一座房子。"
       },
       {
         "word": "another",
         "phon": "/ə'nʌðə/",
         "pos": "prep.",
         "cn": "另一个",
-        "eg": ""
+        "eg": "Here is another photograph of the village."
       },
       {
         "word": "wife",
         "phon": "/wʌɪf/",
         "pos": "n.",
         "cn": "妻子",
-        "eg": ""
+        "eg": "That old bag on the chair is my wife's."
       },
       {
         "word": "along",
         "phon": "/ə'lɒŋ/",
         "pos": "prep.",
         "cn": "沿着",
-        "eg": ""
+        "eg": "My wife and I are walking along the banks of the river."
       },
       {
         "word": "bank",
         "phon": "/bæŋk/",
         "pos": "n.",
         "cn": "河岸",
-        "eg": ""
+        "eg": "We swim in the lake on the bank of the river."
       },
       {
         "word": "water",
         "phon": "/'wɔːtə/",
         "pos": "n.",
         "cn": "水",
-        "eg": ""
+        "eg": "Is there any water in this kettle?"
       },
       {
         "word": "swim",
         "phon": "/swɪm/",
         "pos": "v.",
         "cn": "游泳",
-        "eg": ""
+        "eg": "We swim in the lake on the bank of the river."
       },
       {
         "word": "across",
         "phon": "/ə'krɒs/",
         "pos": "prep.",
         "cn": "横过",
-        "eg": ""
+        "eg": "He is swimming across the river."
       },
       {
         "word": "building",
         "phon": "/'bɪldɪŋ/",
         "pos": "n.",
         "cn": "大楼，建筑物",
-        "eg": ""
+        "eg": "This is the school building."
       },
       {
         "word": "park",
         "phon": "/pɑːk/",
         "pos": "n.",
         "cn": "公园",
-        "eg": ""
+        "eg": "It is beside a park."
       },
       {
         "word": "into",
         "phon": "/'ɪntʊ; 'ɪntə/",
         "pos": "prep.",
         "cn": "进入",
-        "eg": ""
+        "eg": "A young woman walks into a small shop."
       },
       {
         "word": "beside",
         "phon": "/bɪ'saɪd/",
         "pos": "prep.",
         "cn": "在…旁",
-        "eg": ""
+        "eg": "It is beside a park."
       }
     ],
     "grammar": [
@@ -3834,91 +3834,91 @@
         "phon": "/ɒf/",
         "pos": "prep.",
         "cn": "离开",
-        "eg": ""
+        "eg": "You must get off the bus."
       },
       {
         "word": "work",
         "phon": "/wɜːk/",
         "pos": "v.",
         "cn": "工作",
-        "eg": ""
+        "eg": "In the morning, Mr. Sawyer goes to work and the children go to school."
       },
       {
         "word": "hard",
         "phon": "/hɑːd/",
         "pos": "adv.",
         "cn": "努力地",
-        "eg": ""
+        "eg": "You're working hard, George."
       },
       {
         "word": "make",
         "phon": "/meɪk/",
         "pos": "v.",
         "cn": "做",
-        "eg": ""
+        "eg": "Can you make the tea, Sam?"
       },
       {
         "word": "bookcase",
         "phon": "/'bʊkkeɪs/",
         "pos": "n.",
         "cn": "书橱，书架",
-        "eg": ""
+        "eg": "Making a bookcase"
       },
       {
         "word": "hammer",
         "phon": "/'hæmər/",
         "pos": "n.",
         "cn": "锤子",
-        "eg": ""
+        "eg": "Give me that hammer please, Dan."
       },
       {
         "word": "paint",
         "phon": "/peɪnt/",
         "pos": "v.",
         "cn": "上漆，涂",
-        "eg": ""
+        "eg": "I'm going to paint it."
       },
       {
         "word": "pink",
         "phon": "/pɪŋk/",
         "pos": "n.",
         "cn": "& a.粉红色",
-        "eg": ""
+        "eg": "I'm going to paint it pink."
       },
       {
         "word": "favourite",
         "phon": "/'feɪv(ə)rɪt/",
         "pos": "a.",
         "cn": "最喜欢的",
-        "eg": ""
+        "eg": "It's our favourite subject of conversation."
       },
       {
         "word": "homework",
         "phon": "/'həʊmwɜːk/",
         "pos": "n.",
         "cn": "作业",
-        "eg": ""
+        "eg": "At night, the children always do their homework."
       },
       {
         "word": "listen",
         "phon": "/'lɪs(ə)n/",
         "pos": "v.",
         "cn": "听",
-        "eg": ""
+        "eg": "\"No, you can't. You must listen to me.\""
       },
       {
         "word": "dish",
         "phon": "/dɪʃ/",
         "pos": "n.",
         "cn": "盘子，碟子",
-        "eg": ""
+        "eg": "Fish and chips has always been a favourite dish in Britain,"
       },
       {
         "word": "front",
         "phon": "/frʌnt/",
         "pos": "n.",
         "cn": "前面",
-        "eg": ""
+        "eg": "It's in front of you!"
       }
     ],
     "grammar": [
@@ -3999,84 +3999,84 @@
         "phon": "/ɪn frʌnt əv/",
         "pos": "",
         "cn": "在…之前",
-        "eg": ""
+        "eg": "It's in front of you!"
       },
       {
         "word": "careful",
         "phon": "/ˈkeəfl/",
         "pos": "a.",
         "cn": "小心的，仔细的",
-        "eg": ""
+        "eg": "Be careful! Don't drop it!"
       },
       {
         "word": "vase",
         "phon": "/vɑːz/",
         "pos": "n.",
         "cn": "花瓶",
-        "eg": ""
+        "eg": "What are you going to do with that vase, Penny?"
       },
       {
         "word": "drop",
         "phon": "/drɒp/",
         "pos": "v.",
         "cn": "掉下",
-        "eg": ""
+        "eg": "Don't drop it!"
       },
       {
         "word": "flower",
         "phon": "/'flaʊə/",
         "pos": "n.",
         "cn": "花",
-        "eg": ""
+        "eg": "Those flowers are lovely, too."
       },
       {
         "word": "show",
         "phon": "/ʃəʊ/",
         "pos": "v.",
         "cn": "给…看",
-        "eg": ""
+        "eg": "Show me your tongue. Say, 'Ah'."
       },
       {
         "word": "send",
         "phon": "/send/",
         "pos": "v.",
         "cn": "发送",
-        "eg": ""
+        "eg": "The secretary must send it today."
       },
       {
         "word": "take",
         "phon": "/teɪk/",
         "pos": "v.",
         "cn": "带给",
-        "eg": ""
+        "eg": "\"The weather is cold there, so take a warm sweater.\""
       },
       {
         "word": "cheese",
         "phon": "/tʃiːz/",
         "pos": "n.",
         "cn": "乳酪，干酪",
-        "eg": ""
+        "eg": "He also wants a pound of flour and some cheese."
       },
       {
         "word": "bread",
         "phon": "/bred/",
         "pos": "n.",
         "cn": "面包",
-        "eg": ""
+        "eg": "He wants a loaf of bread and a tin of fish."
       },
       {
         "word": "soap",
         "phon": "/səʊp/",
         "pos": "n.",
         "cn": "肥皂",
-        "eg": ""
+        "eg": "A bar of soap."
       },
       {
         "word": "chocolate",
         "phon": "/'tʃɒk(ə)lət/",
         "pos": "n.",
         "cn": "巧克力",
-        "eg": ""
+        "eg": "A bar of chocolate."
       }
     ],
     "grammar": [
@@ -4157,91 +4157,91 @@
         "phon": "/'ʃʊgə/",
         "pos": "n.",
         "cn": "糖",
-        "eg": ""
+        "eg": "Do you want any sugar?"
       },
       {
         "word": "coffee",
         "phon": "/'kɒfɪ/",
         "pos": "n.",
         "cn": "咖啡",
-        "eg": ""
+        "eg": "A cup of coffee"
       },
       {
         "word": "tea",
         "phon": "/tiː/",
         "pos": "n.",
         "cn": "茶",
-        "eg": ""
+        "eg": "They often drink tea together."
       },
       {
         "word": "tobacco",
         "phon": "/tə'bækəʊ/",
         "pos": "n.",
         "cn": "烟草，烟丝",
-        "eg": ""
+        "eg": "And a tin of tobacco."
       },
       {
         "word": "bird",
         "phon": "/bɜːd/",
         "pos": "n.",
         "cn": "鸟",
-        "eg": ""
+        "eg": "Do you want any meat today, Mrs. Bird?"
       },
       {
         "word": "any",
         "phon": "/'enɪ/",
         "pos": "det.",
         "cn": "一些",
-        "eg": ""
+        "eg": "Do you want any meat today, Mrs. Bird?"
       },
       {
         "word": "some",
         "phon": "/sʌm;səm/",
         "pos": "det.",
         "cn": "一些",
-        "eg": ""
+        "eg": "What about some steak?"
       },
       {
         "word": "of course",
         "phon": "/əv'kɔ:s/",
         "pos": "",
         "cn": "当然",
-        "eg": ""
+        "eg": "Yes, of course I can."
       },
       {
         "word": "kettle",
         "phon": "/'ket(ə)l/",
         "pos": "n.",
         "cn": "水壶",
-        "eg": ""
+        "eg": "Is there any water in this kettle?"
       },
       {
         "word": "behind",
         "phon": "/bɪ'haɪnd/",
         "pos": "prep.",
         "cn": "在…后面",
-        "eg": ""
+        "eg": "It's over there, behind the teapot."
       },
       {
         "word": "teapot",
         "phon": "/'tiːpɒt/",
         "pos": "n.",
         "cn": "茶壶",
-        "eg": ""
+        "eg": "It's over there, behind the teapot."
       },
       {
         "word": "now",
         "phon": "/naʊ/",
         "pos": "adv.",
         "cn": "现在，此刻",
-        "eg": ""
+        "eg": "\"I'm sorry, but Tom can't come now,\" she says."
       },
       {
         "word": "find",
         "phon": "/faɪnd/",
         "pos": "v.",
         "cn": "找到",
-        "eg": ""
+        "eg": "Can you find them?"
       }
     ],
     "grammar": [
@@ -4322,84 +4322,84 @@
         "phon": "/bɒɪl/",
         "pos": "v.",
         "cn": "沸腾，开",
-        "eg": ""
+        "eg": "I'll boil some water for you. 我来给你烧点水。"
       },
       {
         "word": "can",
         "phon": "/kæn/",
         "pos": "",
         "cn": "能够",
-        "eg": ""
+        "eg": "Can you remember the doctor's telephone number?"
       },
       {
         "word": "boss",
         "phon": "/bɒs/",
         "pos": "n.",
         "cn": "老板，上司",
-        "eg": ""
+        "eg": "The boss's letter"
       },
       {
         "word": "minute",
         "phon": "/'mɪnɪt/",
         "pos": "n.",
         "cn": "分(钟)",
-        "eg": ""
+        "eg": "Can you come here a minute please, Bob?"
       },
       {
         "word": "ask",
         "phon": "/ɑːsk/",
         "pos": "v.",
         "cn": "请求，要求",
-        "eg": ""
+        "eg": "Ask her please."
       },
       {
         "word": "handwriting",
         "phon": "/'hændraɪtɪŋ/",
         "pos": "n.",
         "cn": "书写",
-        "eg": ""
+        "eg": "The boss's handwriting is terrible!"
       },
       {
         "word": "terrible",
         "phon": "/ˈterəbl/",
         "pos": "a.",
         "cn": "糟糕的，可怕的",
-        "eg": ""
+        "eg": "The boss's handwriting is terrible!"
       },
       {
         "word": "lift",
         "phon": "/lɪft/",
         "pos": "v.",
         "cn": "拿起，搬起，举起",
-        "eg": ""
+        "eg": "Can you give me a lift to the airport? 你能让我搭车去机场吗？"
       },
       {
         "word": "cake",
         "phon": "/keɪk/",
         "pos": "n.",
         "cn": "饼，蛋糕",
-        "eg": ""
+        "eg": "His wife was sitting beside him holding a large cake."
       },
       {
         "word": "biscuit",
         "phon": "/'bɪskɪt/",
         "pos": "n.",
         "cn": "饼干",
-        "eg": ""
+        "eg": "Have a biscuit instead."
       },
       {
         "word": "like",
         "phon": "/laɪk/",
         "pos": "v.",
         "cn": "喜欢，想要",
-        "eg": ""
+        "eg": "What's the climate like in your country?"
       },
       {
         "word": "want",
         "phon": "/wɒnt/",
         "pos": "v.",
         "cn": "想",
-        "eg": ""
+        "eg": "She likes the blue material, but she does not want any red ones."
       }
     ],
     "grammar": [

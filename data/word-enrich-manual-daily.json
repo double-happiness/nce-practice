@@ -1,0 +1,197 @@
+{
+  "file": {
+    "collocations": [
+      { "en": "save a file", "cn": "保存文件" },
+      { "en": "open a file", "cn": "打开文件" },
+      { "en": "delete a file", "cn": "删除文件" },
+      { "en": "attach a file", "cn": "附加文件" }
+    ]
+  },
+  "email": {
+    "collocations": [
+      { "en": "send an email", "cn": "发邮件" },
+      { "en": "check email", "cn": "查邮件" },
+      { "en": "reply to an email", "cn": "回复邮件" }
+    ]
+  },
+  "password": {
+    "collocations": [
+      { "en": "reset password", "cn": "重置密码" },
+      { "en": "forgot password", "cn": "忘记密码" },
+      { "en": "change password", "cn": "修改密码" }
+    ]
+  },
+  "wifi": {
+    "collocations": [
+      { "en": "connect to wifi", "cn": "连接 Wi-Fi" },
+      { "en": "wifi password", "cn": "Wi-Fi 密码" }
+    ]
+  },
+  "order": {
+    "collocations": [
+      { "en": "order food", "cn": "点餐" },
+      { "en": "place an order", "cn": "下单" },
+      { "en": "takeaway order", "cn": "外卖订单" }
+    ]
+  },
+  "delivery": {
+    "collocations": [
+      { "en": "food delivery", "cn": "外卖配送" },
+      { "en": "delivery time", "cn": "送达时间" },
+      { "en": "free delivery", "cn": "免费配送" }
+    ]
+  },
+  "ticket": {
+    "collocations": [
+      { "en": "buy a ticket", "cn": "买票" },
+      { "en": "one-way ticket", "cn": "单程票" },
+      { "en": "round-trip ticket", "cn": "往返票" }
+    ]
+  },
+  "appointment": {
+    "collocations": [
+      { "en": "make an appointment", "cn": "预约" },
+      { "en": "cancel an appointment", "cn": "取消预约" },
+      { "en": "doctor's appointment", "cn": "看医生预约" }
+    ]
+  },
+  "reservation": {
+    "collocations": [
+      { "en": "make a reservation", "cn": "预订" },
+      { "en": "hotel reservation", "cn": "酒店预订" },
+      { "en": "cancel a reservation", "cn": "取消预订" }
+    ]
+  },
+  "check in": {
+    "collocations": [
+      { "en": "check in at the hotel", "cn": "酒店入住" },
+      { "en": "online check-in", "cn": "网上值机" }
+    ]
+  },
+  "check out": {
+    "collocations": [
+      { "en": "check out of the hotel", "cn": "酒店退房" },
+      { "en": "check out this app", "cn": "看看这个应用（口语）" }
+    ]
+  },
+  "discount": {
+    "collocations": [
+      { "en": "get a discount", "cn": "拿到折扣" },
+      { "en": "50% off discount", "cn": "五折优惠" }
+    ]
+  },
+  "refund": {
+    "collocations": [
+      { "en": "get a refund", "cn": "拿到退款" },
+      { "en": "full refund", "cn": "全额退款" }
+    ]
+  },
+  "traffic": {
+    "collocations": [
+      { "en": "traffic jam", "cn": "交通堵塞" },
+      { "en": "heavy traffic", "cn": "交通拥堵" }
+    ]
+  },
+  "weather": {
+    "collocations": [
+      { "en": "weather forecast", "cn": "天气预报" },
+      { "en": "nice weather", "cn": "好天气" }
+    ]
+  },
+  "excuse me": {
+    "collocations": [
+      { "en": "excuse me, where is…?", "cn": "劳驾，……在哪里？" },
+      { "en": "excuse me for a moment", "cn": "失陪一下" }
+    ],
+    "patterns": [
+      {
+        "title": "excuse me 的常见用法",
+        "explain": "用于礼貌打断、问路、借过，或表示「不好意思」。",
+        "examples": [
+          "Excuse me, could you help me?（不好意思，能帮我一下吗？）",
+          "Excuse me, I need to get through.（借过一下。）"
+        ]
+      }
+    ]
+  },
+  "sign up": {
+    "collocations": [
+      { "en": "sign up for a course", "cn": "报名课程" },
+      { "en": "sign up for an account", "cn": "注册账号" }
+    ]
+  },
+  "log in": {
+    "collocations": [
+      { "en": "log in to your account", "cn": "登录账户" },
+      { "en": "log in with password", "cn": "用密码登录" }
+    ]
+  },
+  "pick up": {
+    "collocations": [
+      { "en": "pick up the kids", "cn": "接孩子" },
+      { "en": "pick up groceries", "cn": "买杂货带回" }
+    ]
+  },
+  "run out of": {
+    "collocations": [
+      { "en": "run out of time", "cn": "时间不够了" },
+      { "en": "run out of milk", "cn": "牛奶用完了" }
+    ],
+    "patterns": [
+      {
+        "title": "run out of + 名词",
+        "explain": "表示某物「用完、耗尽」，主语通常是人或组织。",
+        "examples": [
+          "We've run out of coffee.（咖啡喝完了。）",
+          "I'm running out of patience.（我快没耐心了。）"
+        ]
+      }
+    ]
+  },
+  "take care": {
+    "collocations": [
+      { "en": "take care of yourself", "cn": "保重" },
+      { "en": "take care of the kids", "cn": "照顾孩子" }
+    ]
+  },
+  "turn on": {
+    "collocations": [
+      { "en": "turn on the light", "cn": "开灯" },
+      { "en": "turn on the TV", "cn": "开电视" }
+    ]
+  },
+  "turn off": {
+    "collocations": [
+      { "en": "turn off the alarm", "cn": "关闹钟" },
+      { "en": "turn off notifications", "cn": "关闭通知" }
+    ]
+  },
+  "charge": {
+    "collocations": [
+      { "en": "charge your phone", "cn": "给手机充电" },
+      { "en": "fully charged", "cn": "充满电" }
+    ]
+  },
+  "apply": {
+    "collocations": [
+      { "en": "apply for a job", "cn": "求职申请" },
+      { "en": "apply for a visa", "cn": "申请签证" }
+    ]
+  },
+  "borrow": {
+    "collocations": [
+      { "en": "borrow money", "cn": "借钱" },
+      { "en": "borrow from a friend", "cn": "向朋友借" }
+    ],
+    "patterns": [
+      {
+        "title": "borrow vs lend",
+        "explain": "borrow 是「借入」，lend 是「借出」；borrow from sb，lend sth to sb。",
+        "examples": [
+          "Can I borrow your pen?（能借你笔吗？）",
+          "Could you lend me some money?（能借我点钱吗？）"
+        ]
+      }
+    ]
+  }
+}

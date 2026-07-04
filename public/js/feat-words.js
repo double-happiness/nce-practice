@@ -7,6 +7,49 @@
 
   const esc = NCE.escapeHtml;
   const escAttr = NCE.escapeAttr || esc;
+  const toast = NCE.toast;
+
+  const OFFLINE_QUEUE_KEY = 'nce_words_offline_queue';
+
+  function readOfflineQueue() {
+    try {
+      const arr = JSON.parse(localStorage.getItem(OFFLINE_QUEUE_KEY) || '[]');
+      return Array.isArray(arr) ? arr : [];
+    } catch (e) { return []; }
+  }
+
+  function writeOfflineQueue(arr) {
+    try { localStorage.setItem(OFFLINE_QUEUE_KEY, JSON.stringify(arr)); } catch (e) { /* ignore */ }
+  }
+
+  function enqueueOffline(type, payload) {
+    const q = readOfflineQueue();
+    q.push({ type, payload, ts: Date.now() });
+    writeOfflineQueue(q);
+    if (toast) toast('已暂存，联网后自动同步', 'warn');
+  }
+
+  async function flushOfflineQueue() {
+    if (!navigator.onLine) return;
+    const pending = readOfflineQueue();
+    if (!pending.length) return;
+    const remain = [];
+    let synced = 0;
+    for (const item of pending) {
+      const url = item.type === 'rate' ? '/api/words/rate' : '/api/words/spell';
+      try {
+        await post(url, item.payload);
+        synced++;
+      } catch (e) {
+        remain.push(item);
+      }
+    }
+    writeOfflineQueue(remain);
+    if (synced && toast) toast(`已同步 ${synced} 条学习记录`, 'ok');
+  }
+
+  window.addEventListener('online', flushOfflineQueue);
+  if (navigator.onLine) flushOfflineQueue();
 
   // ---------- 注入样式（类名前缀 wd-）----------
   const style = document.createElement('style');
@@ -246,7 +289,11 @@
   async function rateFlash(body, rating) {
     const s = st.flash;
     const w = s.words[s.idx];
-    await post('/api/words/rate', { word: w.word, rating });
+    try {
+      await post('/api/words/rate', { word: w.word, rating });
+    } catch (e) {
+      enqueueOffline('rate', { word: w.word, rating });
+    }
     s.rated++;
     if (s.idx >= s.words.length - 1) {
       body.innerHTML =
@@ -347,7 +394,14 @@
     const guess = input.value.trim();
     if (!guess) return;
     const fb = body.querySelector('.wd-feedback');
-    const r = await post('/api/words/spell', { word: w.word, input: guess });
+    let r;
+    try {
+      r = await post('/api/words/spell', { word: w.word, input: guess });
+    } catch (e) {
+      enqueueOffline('spell', { word: w.word, input: guess });
+      const correct = guess.trim().toLowerCase() === String(w.word || '').trim().toLowerCase();
+      r = { correct, answer: w.word };
+    }
     if (r.correct) {
       s.right++;
       fb.className = 'wd-feedback ok';

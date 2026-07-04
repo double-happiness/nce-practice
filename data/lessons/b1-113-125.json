@@ -58,84 +58,84 @@
         "phon": "/kɑːd/",
         "pos": "n.",
         "cn": "明信片，卡片",
-        "eg": ""
+        "eg": "A card from Jimmy"
       },
       {
         "word": "youth",
         "phon": "/juːθ/",
         "pos": "n.",
         "cn": "青年",
-        "eg": ""
+        "eg": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'"
       },
       {
         "word": "hostel",
         "phon": "/'hɒst(ə)l/",
         "pos": "n.",
         "cn": "招待所，旅馆",
-        "eg": ""
+        "eg": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'"
       },
       {
         "word": "association",
         "phon": "/əsəʊsɪ'eɪʃ(ə)n; -ʃɪ-/",
         "pos": "n.",
         "cn": "协会",
-        "eg": ""
+        "eg": "The Youth Hostels Association."
       },
       {
         "word": "soon",
         "phon": "/suːn/",
         "pos": "adv.",
         "cn": "不久",
-        "eg": ""
+        "eg": "\"Hurry up, everyone. We are going to leave soon.\""
       },
       {
         "word": "write",
         "phon": "/raɪt/",
         "pos": "v.",
         "cn": "写",
-        "eg": ""
+        "eg": "He didn't write a word!"
       },
       {
         "word": "exam",
         "phon": "/ɪg'zæm; eg-/",
         "pos": "n.",
         "cn": "考试",
-        "eg": ""
+        "eg": "How was the exam, Richard?"
       },
       {
         "word": "pass",
         "phon": "/pɑːs/",
         "pos": "v.",
         "cn": "及格，通过",
-        "eg": ""
+        "eg": "The pass connects the two countries. 这个山口连接着两个国家。"
       },
       {
         "word": "mathematics",
         "phon": "/ˌmæθə'mætɪks/",
         "pos": "n.",
         "cn": "数学",
-        "eg": ""
+        "eg": "I think I passed in English and Mathematics."
       },
       {
         "word": "question",
         "phon": "/'kwestʃ(ə)n/",
         "pos": "n.",
         "cn": "问题",
-        "eg": ""
+        "eg": "\"Have you answered every question?\""
       },
       {
         "word": "easy",
         "phon": "/'iːzɪ/",
         "pos": "a.",
         "cn": "容易的",
-        "eg": ""
+        "eg": "The questions were very easy."
       },
       {
         "word": "paper",
         "phon": "/'peɪpə/",
         "pos": "n.",
         "cn": "考卷",
-        "eg": ""
+        "eg": "The paper is full of mistakes."
       }
     ],
     "grammar": [
@@ -216,77 +216,77 @@
         "phon": "/feɪl/",
         "pos": "v.",
         "cn": "未及格，失败",
-        "eg": ""
+        "eg": "He failed to catch the early bus this morning. 他今天早上没能赶上早班车。"
       },
       {
         "word": "mark",
         "phon": "/mɑ:k/",
         "pos": "n.",
         "cn": "分数",
-        "eg": ""
+        "eg": "I'm sure I've got a low mark."
       },
       {
         "word": "rest",
         "phon": "/rest/",
         "pos": "n.",
         "cn": "其他的东西，休息",
-        "eg": ""
+        "eg": "But I couldn't answer the rest."
       },
       {
         "word": "difficult",
         "phon": "/ˈdɪfɪkəlt/",
         "pos": "a.",
         "cn": "困难的",
-        "eg": ""
+        "eg": "They were too difficult for me."
       },
       {
         "word": "hate",
         "phon": "/heɪt/",
         "pos": "v.",
         "cn": "讨厌",
-        "eg": ""
+        "eg": "I hate them."
       },
       {
         "word": "low",
         "phon": "/ləu/",
         "pos": "a.",
         "cn": "低的",
-        "eg": ""
+        "eg": "I'm sure I've got a low mark."
       },
       {
         "word": "cheer",
         "phon": "/tʃɪə/",
         "pos": "v.",
         "cn": "振作，振奋",
-        "eg": ""
+        "eg": "Oh, cheer up!"
       },
       {
         "word": "guy",
         "phon": "/gaɪ/",
         "pos": "n.",
         "cn": "家伙，人",
-        "eg": ""
+        "eg": "The guy next to me wrote his name at the top of the paper."
       },
       {
         "word": "top",
         "phon": "/tɒp/",
         "pos": "n.",
         "cn": "上方，顶",
-        "eg": ""
+        "eg": "\"The camera on the top shelf is the most expensive model in our shop,\" she says."
       },
       {
         "word": "clever",
         "phon": "/'klevə/",
         "pos": "a.",
         "cn": "聪明的",
-        "eg": ""
+        "eg": "Because of this clever service, he never dialed a wrong number again."
       },
       {
         "word": "stupid",
         "phon": "/'stjuːpɪd/",
         "pos": "a.",
         "cn": "笨的",
-        "eg": ""
+        "eg": "Apart from any moral considerations this is a stupid method of training,"
       }
     ],
     "grammar": [
@@ -367,21 +367,21 @@
         "phon": "/tʃiːp/",
         "pos": "a.",
         "cn": "便宜的",
-        "eg": ""
+        "eg": "The shoes on sale are cheap."
       },
       {
         "word": "expensive",
         "phon": "/ɪkˈspensɪv/",
         "pos": "a.",
         "cn": "贵的",
-        "eg": ""
+        "eg": "I bought two expensive dictionaries here half an hour ago, but I forgot to take them with me."
       },
       {
         "word": "fresh",
         "phon": "/freʃ/",
         "pos": "a.",
         "cn": "新鲜的",
-        "eg": ""
+        "eg": "The butcher has some fresh meat today."
       },
       {
         "word": "stale",
@@ -395,42 +395,42 @@
         "phon": "/ləu/",
         "pos": "a.",
         "cn": "低的，矮的",
-        "eg": ""
+        "eg": "I'm sure I've got a low mark."
       },
       {
         "word": "loud",
         "phon": "/laʊd/",
         "pos": "a.",
         "cn": "大声的",
-        "eg": ""
+        "eg": "Suddenly they heard a loud crash."
       },
       {
         "word": "high",
         "phon": "/haɪ/",
         "pos": "a.",
         "cn": "高的",
-        "eg": ""
+        "eg": "\"You must be careful. Please don't climb so high again.\""
       },
       {
         "word": "hard",
         "phon": "/hɑːd/",
         "pos": "a.",
         "cn": "硬的",
-        "eg": ""
+        "eg": "\"But it is quite hard to use.\""
       },
       {
         "word": "sweet",
         "phon": "/swiːt/",
         "pos": "a.",
         "cn": "甜的",
-        "eg": ""
+        "eg": "Yes, and I am going to make a sweet dessert."
       },
       {
         "word": "soft",
         "phon": "/sɒft/",
         "pos": "a.",
         "cn": "软的",
-        "eg": ""
+        "eg": "Suddenly I heard a soft noise downstairs."
       },
       {
         "word": "sour",
@@ -444,14 +444,14 @@
         "phon": "/spel/",
         "pos": "v.",
         "cn": "拼写",
-        "eg": ""
+        "eg": "How do you spell 'intelligent'?"
       },
       {
         "word": "intelligent",
         "phon": "/ɪn'telɪdʒənt/",
         "pos": "a.",
         "cn": "聪明的，有智慧的",
-        "eg": ""
+        "eg": "How do you spell 'intelligent'?"
       }
     ],
     "grammar": [
@@ -532,84 +532,84 @@
         "phon": "/mɪ'steɪk/",
         "pos": "n.",
         "cn": "错误",
-        "eg": ""
+        "eg": "\"Please check your work again and correct every mistake.\""
       },
       {
         "word": "present",
         "phon": "/prɪˈzent;(for n.)ˈpreznt/",
         "pos": "n.",
         "cn": "礼物",
-        "eg": ""
+        "eg": "And here's a little present for you."
       },
       {
         "word": "dictionary",
         "phon": "/'dɪkʃ(ə)n(ə)rɪ/",
         "pos": "n.",
         "cn": "词典",
-        "eg": ""
+        "eg": "It's a dictionary."
       },
       {
         "word": "carry",
         "phon": "/'kærɪ/",
         "pos": "v.",
         "cn": "携带",
-        "eg": ""
+        "eg": "\"Don't be so sure you can carry all that,\" I said."
       },
       {
         "word": "correct",
         "phon": "/kə'rekt/",
         "pos": "v.",
         "cn": "改正，纠正",
-        "eg": ""
+        "eg": "\"Please check your work again and correct every mistake.\""
       },
       {
         "word": "madam",
         "phon": "/'mædəm/",
         "pos": "n.",
         "cn": "夫人，女士(对妇女的尊称)",
-        "eg": ""
+        "eg": "Can you change this ten-pound note, madam?"
       },
       {
         "word": "as well",
         "phon": "",
         "pos": "",
         "cn": "同样",
-        "eg": ""
+        "eg": "I'm afraid this green dress is too small for me as well."
       },
       {
         "word": "suit",
         "phon": "/sju:t; su:t/",
         "pos": "v.",
         "cn": "适合",
-        "eg": ""
+        "eg": "It doesn't suit me at all."
       },
       {
         "word": "pretty",
         "phon": "/'prɪtɪ/",
         "pos": "a.",
         "cn": "漂亮",
-        "eg": ""
+        "eg": "The assistant shows her a pretty dress in a nice colour."
       },
       {
         "word": "idea",
         "phon": "/aɪ'dɪə/",
         "pos": "n.",
         "cn": "主意",
-        "eg": ""
+        "eg": "A good idea"
       },
       {
         "word": "a little",
         "phon": "",
         "pos": "",
         "cn": "少许(用于不可数名词之前)",
-        "eg": ""
+        "eg": "I was a little afraid, so I turned around."
       },
       {
         "word": "teaspoonful",
         "phon": "/'ti:spu:nful/",
         "pos": "n.",
         "cn": "一满茶匙",
-        "eg": ""
+        "eg": "Two teaspoonfuls?"
       }
     ],
     "grammar": [
@@ -690,91 +690,91 @@
         "phon": "/les/",
         "pos": "a.",
         "cn": "(little的比较级)较少的，更小的",
-        "eg": ""
+        "eg": "This model's less expensive than that one."
       },
       {
         "word": "a few",
         "phon": "",
         "pos": "",
         "cn": "几个(用于可数名词之前)",
-        "eg": ""
+        "eg": "I think there are a few in that box."
       },
       {
         "word": "pity",
         "phon": "/'pɪtɪ/",
         "pos": "n.",
         "cn": "遗憾",
-        "eg": ""
+        "eg": "What a pity!"
       },
       {
         "word": "instead",
         "phon": "/ɪn'sted/",
         "pos": "adv.",
         "cn": "代替",
-        "eg": ""
+        "eg": "It means I can have tea, instead."
       },
       {
         "word": "advice",
         "phon": "/əd'vaɪs/",
         "pos": "n.",
         "cn": "建议，忠告",
-        "eg": ""
+        "eg": "Well, next time you'd better take my advice!"
       },
       {
         "word": "most",
         "phon": "/məʊst/",
         "pos": "a.",
         "cn": "(many,much的最高级)最多的",
-        "eg": ""
+        "eg": "The most expensive model"
       },
       {
         "word": "least",
         "phon": "/liːst/",
         "pos": "a.",
         "cn": "(little的最高级)最小的，最少的",
-        "eg": ""
+        "eg": "I read she's twenty-nine, but she must be at least forty."
       },
       {
         "word": "best",
         "phon": "/best/",
         "pos": "a.",
         "cn": "(good的最高级)最好的",
-        "eg": ""
+        "eg": "You always want the best, but we can't afford it."
       },
       {
         "word": "worse",
         "phon": "/wəːs/",
         "pos": "a.",
         "cn": "(bad的比较级)更坏的",
-        "eg": ""
+        "eg": "To make matters worse,"
       },
       {
         "word": "worst",
         "phon": "/wə:st/",
         "pos": "a.",
         "cn": "(bad的最高级)最坏",
-        "eg": ""
+        "eg": "for the worst garden in the town!"
       },
       {
         "word": "model",
         "phon": "/'mɒdl/",
         "pos": "n.",
         "cn": "型号，式样，模型",
-        "eg": ""
+        "eg": "The most expensive model"
       },
       {
         "word": "afford",
         "phon": "/ə'fɔːd/",
         "pos": "v.",
         "cn": "付得起(钱)",
-        "eg": ""
+        "eg": "We can't afford all that money."
       },
       {
         "word": "deposit",
         "phon": "/dɪ'pɑːzɪt/",
         "pos": "n.",
         "cn": "预付定金",
-        "eg": ""
+        "eg": "You can pay a deposit of thirty pounds,"
       }
     ],
     "grammar": [
@@ -855,84 +855,84 @@
         "phon": "/ɪn'stɔːlm(ə)nt/",
         "pos": "n.",
         "cn": "分期付款",
-        "eg": ""
+        "eg": "Can we buy it on instalments?"
       },
       {
         "word": "price",
         "phon": "/praɪs/",
         "pos": "n.",
         "cn": "价格",
-        "eg": ""
+        "eg": "I certainly do, but I don't like the price."
       },
       {
         "word": "millionaire",
         "phon": "/mɪljə'neə/",
         "pos": "n.",
         "cn": "百万富翁",
-        "eg": ""
+        "eg": "Sometimes you think you're a millionaire!"
       },
       {
         "word": "conductor",
         "phon": "/kən'dʌktə/",
         "pos": "n.",
         "cn": "售票员",
-        "eg": ""
+        "eg": "I said to the conductor as I got on the bus,"
       },
       {
         "word": "fare",
         "phon": "/fer/",
         "pos": "n.",
         "cn": "车费，车票",
-        "eg": ""
+        "eg": "He wanted to avoid paying the air fare. 他想逃掉那笔机票钱。"
       },
       {
         "word": "change",
         "phon": "/tʃeɪn(d)ʒ/",
         "pos": "v.",
         "cn": "兑换(钱)，改变",
-        "eg": ""
+        "eg": "'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'"
       },
       {
         "word": "note",
         "phon": "/nəʊt/",
         "pos": "n.",
         "cn": "纸币，笔记",
-        "eg": ""
+        "eg": "I can't change a ten-pound note."
       },
       {
         "word": "passenger",
         "phon": "/'pæsɪndʒə/",
         "pos": "n.",
         "cn": "乘客",
-        "eg": ""
+        "eg": "\"Yes, every passenger will show a ticket,\" said the officer."
       },
       {
         "word": "none",
         "phon": "/nʌn/",
         "pos": "pron.",
         "cn": "没有任何东西",
-        "eg": ""
+        "eg": "There's none left."
       },
       {
         "word": "neither",
         "phon": "/ˈnaɪðə; ˈniːðə/",
         "pos": "adv.",
         "cn": "也不",
-        "eg": ""
+        "eg": "Neither can I."
       },
       {
         "word": "get off",
         "phon": "",
         "pos": "",
         "cn": "下车",
-        "eg": ""
+        "eg": "You must get off the bus."
       },
       {
         "word": "tramp",
         "phon": "/træmp/",
         "pos": "n.",
         "cn": "流浪汉",
-        "eg": ""
+        "eg": "What is the most important thing for a tramp?"
       }
     ],
     "grammar": [
@@ -1013,91 +1013,91 @@
         "phon": "/ɪkˈsept/",
         "pos": "prep.",
         "cn": "除…",
-        "eg": ""
+        "eg": "Except us."
       },
       {
         "word": "anyone",
         "phon": "/'enɪwʌn/",
         "pos": "ron.",
         "cn": "(用于疑问句，否定式)任何人",
-        "eg": ""
+        "eg": "He turned on the light, but he couldn't see anyone."
       },
       {
         "word": "knock",
         "phon": "/nɒk/",
         "pos": "v.",
         "cn": "敲，打",
-        "eg": ""
+        "eg": "Knock, knock!"
       },
       {
         "word": "everything",
         "phon": "/'evrɪθɪŋ/",
         "pos": "pron.",
         "cn": "一切事物",
-        "eg": ""
+        "eg": "In the end, we stay at home and look after everything!"
       },
       {
         "word": "quiet",
         "phon": "/'kwaɪət/",
         "pos": "a.",
         "cn": "宁静的，安静的",
-        "eg": ""
+        "eg": "Millions of people know her face, but at home she is just my quiet aunt."
       },
       {
         "word": "impossible",
         "phon": "/ɪm'pɒsɪb(ə)l/",
         "pos": "a.",
         "cn": "不可能的",
-        "eg": ""
+        "eg": "But that's impossible."
       },
       {
         "word": "invite",
         "phon": "/ɪn'vaɪt/",
         "pos": "v.",
         "cn": "邀请",
-        "eg": ""
+        "eg": "Carol and Tom invited us to lunch."
       },
       {
         "word": "anything",
         "phon": "/'enɪθɪŋ/",
         "pos": "pron.",
         "cn": "任何东西",
-        "eg": ""
+        "eg": "Can you see anything?"
       },
       {
         "word": "nothing",
         "phon": "/'nʌθɪŋ/",
         "pos": "pron.",
         "cn": "什么也没有",
-        "eg": ""
+        "eg": "'Nothing, Henry,' George said and smiled."
       },
       {
         "word": "lemonade",
         "phon": "/lemə'neɪd/",
         "pos": "n.",
         "cn": "柠檬水",
-        "eg": ""
+        "eg": "You can have some lemonade."
       },
       {
         "word": "joke",
         "phon": "/dʒəʊk/",
         "pos": "v.",
         "cn": "开玩笑，笑话",
-        "eg": ""
+        "eg": "He made one joke after another. 他一个接一个地讲笑话。"
       },
       {
         "word": "asleep",
         "phon": "/ə'sliːp/",
         "pos": "a.",
         "cn": "睡觉，睡着(用作表语)",
-        "eg": ""
+        "eg": "Last night everyone was asleep, and the house was very quiet."
       },
       {
         "word": "glasses",
         "phon": "/'glɑːsɪz/",
         "pos": "n.",
         "cn": "眼镜",
-        "eg": ""
+        "eg": "Which glasses?"
       }
     ],
     "grammar": [

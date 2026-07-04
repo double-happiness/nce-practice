@@ -1,0 +1,2196 @@
+[
+  {
+    "id": "tf-b1-093",
+    "book": 1,
+    "lesson": 55,
+    "grammar": [
+      "一般现在时",
+      "频率副词"
+    ],
+    "cn": "我通常七点吃早饭。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I usually have breakfast at seven."
+        ],
+        "cn": "我通常七点吃早饭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you usually have breakfast at seven?"
+        ],
+        "cn": "我通常七点吃早饭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not usually have breakfast at seven.",
+          "I don't usually have breakfast at seven."
+        ],
+        "cn": "我不通常七点吃早饭。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「seven」提问，问\"几点\"",
+        "answers": [
+          "What time do you usually have breakfast?"
+        ],
+        "cn": "几点？"
+      }
+    ],
+    "explanation": "一般现在时表习惯；usually 为频率副词；疑问/否定借助 do/does。"
+  },
+  {
+    "id": "tf-b1-094",
+    "book": 1,
+    "lesson": 71,
+    "grammar": [
+      "一般现在时",
+      "频率副词",
+      "疑问句"
+    ],
+    "cn": "她每天坐地铁上班。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She takes the subway to work every day."
+        ],
+        "cn": "她每天坐地铁上班。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does she take the subway to work every day?"
+        ],
+        "cn": "她每天坐地铁上班吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She does not take the subway to work every day.",
+          "She doesn't take the subway to work every day."
+        ],
+        "cn": "她不每天坐地铁上班。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the subway」提问，问\"什么交通工具\"",
+        "answers": [
+          "How does she go to work every day?"
+        ],
+        "cn": "他什么交通工具？"
+      }
+    ],
+    "explanation": "三单一般现在时动词加 -s；对方式提问用 How。"
+  },
+  {
+    "id": "tf-b1-095",
+    "book": 1,
+    "lesson": 35,
+    "grammar": [
+      "一般现在时",
+      "介词"
+    ],
+    "cn": "我晚饭后洗碗。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I wash the dishes after dinner."
+        ],
+        "cn": "我晚饭后洗碗。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you wash the dishes after dinner?"
+        ],
+        "cn": "我晚饭后洗碗吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not wash the dishes after dinner.",
+          "I don't wash the dishes after dinner."
+        ],
+        "cn": "我不晚饭后洗碗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「after dinner」提问，问\"什么时候\"",
+        "answers": [
+          "When do you wash the dishes?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "一般现在时表日常家务；after dinner 为时间状语。"
+  },
+  {
+    "id": "tf-b1-096",
+    "book": 1,
+    "lesson": 55,
+    "grammar": [
+      "频率副词",
+      "一般现在时"
+    ],
+    "cn": "他很少点外卖。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He rarely orders takeaway."
+        ],
+        "cn": "他很少点外卖。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does he rarely order takeaway?"
+        ],
+        "cn": "他很少点外卖吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He does not rarely order takeaway.",
+          "He doesn't often order takeaway."
+        ],
+        "cn": "他不很少点外卖。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「takeaway」提问，问\"什么\"",
+        "answers": [
+          "What does he rarely order?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "rarely 表频率「很少」；否定可用 doesn't often 表达相反意思。"
+  },
+  {
+    "id": "tf-b1-097",
+    "book": 1,
+    "lesson": 43,
+    "grammar": [
+      "现在进行时",
+      "疑问句"
+    ],
+    "cn": "妈妈正在厨房做饭。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Mum is cooking in the kitchen."
+        ],
+        "cn": "妈妈正在厨房做饭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is Mum cooking in the kitchen?"
+        ],
+        "cn": "妈妈正在厨房做饭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Mum is not cooking in the kitchen.",
+          "Mum isn't cooking in the kitchen."
+        ],
+        "cn": "妈妈没有在厨房做饭。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Mum」提问，问\"谁\"",
+        "answers": [
+          "Who is cooking in the kitchen?"
+        ],
+        "cn": "谁妈妈正在厨房做饭？"
+      }
+    ],
+    "explanation": "现在进行时 be + doing 表此刻正在进行；对主语提问用 Who。"
+  },
+  {
+    "id": "tf-b1-098",
+    "book": 1,
+    "lesson": 31,
+    "grammar": [
+      "现在进行时",
+      "疑问句"
+    ],
+    "cn": "我正在等公交车。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am waiting for the bus.",
+          "I'm waiting for the bus."
+        ],
+        "cn": "我正在等公交车。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you waiting for the bus?"
+        ],
+        "cn": "我正在等公交车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not waiting for the bus.",
+          "I'm not waiting for the bus."
+        ],
+        "cn": "我没有在等公交车。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the bus」提问，问\"什么\"",
+        "answers": [
+          "What are you waiting for?"
+        ],
+        "cn": "我什么？"
+      }
+    ],
+    "explanation": "wait for 固定搭配；进行时表此刻正在发生的动作。"
+  },
+  {
+    "id": "tf-b1-099",
+    "book": 1,
+    "lesson": 33,
+    "grammar": [
+      "现在进行时",
+      "介词"
+    ],
+    "cn": "孩子们正在客厅看电视。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The children are watching TV in the living room."
+        ],
+        "cn": "孩子们正在客厅看电视。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are the children watching TV in the living room?"
+        ],
+        "cn": "孩子们正在客厅看电视吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The children are not watching TV in the living room."
+        ],
+        "cn": "孩子们没有在客厅看电视。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the living room」提问，问\"在哪里\"",
+        "answers": [
+          "Where are the children watching TV?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "现在进行时；in the living room 表地点。"
+  },
+  {
+    "id": "tf-b1-100",
+    "book": 1,
+    "lesson": 39,
+    "grammar": [
+      "祈使句",
+      "现在进行时"
+    ],
+    "cn": "请把垃圾拿出去。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Please take the rubbish out.",
+          "Take the garbage out, please."
+        ],
+        "cn": "请把垃圾拿出去。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you take the rubbish out?"
+        ],
+        "cn": "请把垃圾拿出去吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not take the rubbish out.",
+          "Don't take the rubbish out."
+        ],
+        "cn": "请没有把垃圾拿出去。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the rubbish」提问，问\"什么\"",
+        "answers": [
+          "What should I take out?"
+        ],
+        "cn": "请什么？"
+      }
+    ],
+    "explanation": "祈使句以动词原形开头；Please 表礼貌请求；否定用 Don't。"
+  },
+  {
+    "id": "tf-b1-101",
+    "book": 1,
+    "lesson": 29,
+    "grammar": [
+      "祈使句",
+      "情态动词must"
+    ],
+    "cn": "请勿在电梯里吸烟。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Do not smoke in the lift.",
+          "Don't smoke in the elevator."
+        ],
+        "cn": "请勿在电梯里吸烟。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you smoke in the lift?"
+        ],
+        "cn": "请勿在电梯里吸烟吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not smoke in the lift.",
+          "Don't smoke in the elevator."
+        ],
+        "cn": "请勿不在电梯里吸烟。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the lift」提问，问\"在哪里不要\"",
+        "answers": [
+          "Where should we not smoke?"
+        ],
+        "cn": "在哪里不要？"
+      }
+    ],
+    "explanation": "公共场所禁止用祈使句否定 Don't...；lift/elevator 同义。"
+  },
+  {
+    "id": "tf-b1-102",
+    "book": 1,
+    "lesson": 73,
+    "grammar": [
+      "祈使句",
+      "介词"
+    ],
+    "cn": "到下一个路口左转。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Turn left at the next corner."
+        ],
+        "cn": "到下一个路口左转。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you turn left at the next corner?"
+        ],
+        "cn": "到下一个路口左转吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not turn left at the next corner.",
+          "Don't turn left at the next corner."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the next corner」提问，问\"在哪里\"",
+        "answers": [
+          "Where should I turn left?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "指路常用祈使句；turn left/right at... 固定表达。"
+  },
+  {
+    "id": "tf-b1-103",
+    "book": 1,
+    "lesson": 25,
+    "grammar": [
+      "there be句型",
+      "介词"
+    ],
+    "cn": "厨房里有一台微波炉。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is a microwave in the kitchen.",
+          "There's a microwave in the kitchen."
+        ],
+        "cn": "厨房里有一台微波炉。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is there a microwave in the kitchen?"
+        ],
+        "cn": "厨房里有一台微波炉吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not a microwave in the kitchen.",
+          "There isn't a microwave in the kitchen."
+        ],
+        "cn": "厨房里没有一台微波炉。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a microwave」提问，问\"有什么\"",
+        "answers": [
+          "What is there in the kitchen?"
+        ],
+        "cn": "厨房里有一台微波炉有什么？"
+      }
+    ],
+    "explanation": "there be 表「有」；单数用 There is；对物提问用 What is there...?"
+  },
+  {
+    "id": "tf-b1-104",
+    "book": 1,
+    "lesson": 27,
+    "grammar": [
+      "there be句型",
+      "介词"
+    ],
+    "cn": "冰箱里没有啤酒了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is no beer in the fridge.",
+          "There isn't any beer in the fridge."
+        ],
+        "cn": "冰箱里没有啤酒了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is there any beer in the fridge?"
+        ],
+        "cn": "冰箱里没有啤酒了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not any beer in the fridge.",
+          "There isn't any beer in the fridge."
+        ],
+        "cn": "冰箱里没有啤酒了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「beer」提问，问\"没有什么\"",
+        "answers": [
+          "What isn't there in the fridge?"
+        ],
+        "cn": "他没有什么？"
+      }
+    ],
+    "explanation": "there be 否定用 no 或 not any；fridge 口语常用。"
+  },
+  {
+    "id": "tf-b1-105",
+    "book": 1,
+    "lesson": 65,
+    "grammar": [
+      "情态动词can",
+      "情态动词must"
+    ],
+    "cn": "你能帮我拎一下这个袋子吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Can you help me carry this bag?"
+        ],
+        "cn": "你能帮我拎一下这个袋子吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can you help me carry this bag?"
+        ],
+        "cn": "你能帮我拎一下这个袋子吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You cannot help me carry this bag.",
+          "You can't help me carry this bag."
+        ],
+        "cn": "你不能帮我拎一下这个袋子吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「this bag」提问，问\"什么\"",
+        "answers": [
+          "What can you help me carry?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "Can you...? 礼貌请求；情态动词后接动词原形。"
+  },
+  {
+    "id": "tf-b1-106",
+    "book": 1,
+    "lesson": 65,
+    "grammar": [
+      "情态动词can",
+      "情态动词must"
+    ],
+    "cn": "我不会用这个付款软件。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I cannot use this payment app.",
+          "I can't use this payment app."
+        ],
+        "cn": "我不会用这个付款软件。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can you use this payment app?"
+        ],
+        "cn": "我不会用这个付款软件吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I cannot use this payment app.",
+          "I can't use this payment app."
+        ],
+        "cn": "我不会用这个付款软件。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「this payment app」提问，问\"什么\"",
+        "answers": [
+          "What can't you use?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "can 表能力「会/能」；否定 can't = cannot。"
+  },
+  {
+    "id": "tf-b1-107",
+    "book": 1,
+    "lesson": 65,
+    "grammar": [
+      "情态动词can",
+      "情态动词must"
+    ],
+    "cn": "我们可以坐靠窗的位子吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Can we sit by the window?"
+        ],
+        "cn": "我们可以坐靠窗的位子吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can we sit by the window?"
+        ],
+        "cn": "我们可以坐靠窗的位子吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We cannot sit by the window.",
+          "We can't sit by the window."
+        ],
+        "cn": "我们不可以坐靠窗的位子吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「by the window」提问，问\"在哪里\"",
+        "answers": [
+          "Where can we sit?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "Can we...? 在餐厅/咖啡厅请求座位；by the window 靠窗。"
+  },
+  {
+    "id": "tf-b1-108",
+    "book": 1,
+    "lesson": 13,
+    "grammar": [
+      "疑问句",
+      "be动词"
+    ],
+    "cn": "我今天特别累。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am very tired today.",
+          "I'm very tired today."
+        ],
+        "cn": "我今天特别累。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you very tired today?"
+        ],
+        "cn": "我今天特别累吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not very tired today.",
+          "I'm not very tired today."
+        ],
+        "cn": "我不今天特别累。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「very tired」提问，问\"怎么样\"",
+        "answers": [
+          "How are you today?"
+        ],
+        "cn": "孩子们感觉怎么样？"
+      }
+    ],
+    "explanation": "be + 形容词表状态；How are you? 日常问候。"
+  },
+  {
+    "id": "tf-b1-109",
+    "book": 1,
+    "lesson": 7,
+    "grammar": [
+      "be动词",
+      "冠词a/an",
+      "疑问句"
+    ],
+    "cn": "洗手间在那边。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The restroom is over there.",
+          "The toilet is over there."
+        ],
+        "cn": "洗手间在那边。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the restroom over there?"
+        ],
+        "cn": "洗手间在那边吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The restroom is not over there.",
+          "The restroom isn't over there."
+        ],
+        "cn": "洗手间不在那边。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「over there」提问，问\"在哪里\"",
+        "answers": [
+          "Where is the restroom?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "问路/找设施高频句；restroom/toilet 均可用。"
+  },
+  {
+    "id": "tf-b1-110",
+    "book": 1,
+    "lesson": 11,
+    "grammar": [
+      "物主代词",
+      "疑问句"
+    ],
+    "cn": "这是我的钱包。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is my wallet."
+        ],
+        "cn": "这是我的钱包。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this your wallet?"
+        ],
+        "cn": "这是我的钱包吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not my wallet.",
+          "This isn't my wallet."
+        ],
+        "cn": "这不是我的钱包。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my wallet」提问，问\"是谁的\"",
+        "answers": [
+          "Whose wallet is this?"
+        ],
+        "cn": "这是谁的？"
+      }
+    ],
+    "explanation": "物主代词 my/your；对所属提问用 Whose。"
+  },
+  {
+    "id": "tf-b1-111",
+    "book": 1,
+    "lesson": 41,
+    "grammar": [
+      "物主代词",
+      "名词所有格"
+    ],
+    "cn": "这是我姐姐的钥匙。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is my sister's key."
+        ],
+        "cn": "这是我姐姐的钥匙。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this your sister's key?"
+        ],
+        "cn": "这是我姐姐的钥匙吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not my sister's key."
+        ],
+        "cn": "这不是我姐姐的钥匙。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my sister's」提问，问\"谁的\"",
+        "answers": [
+          "Whose key is this?"
+        ],
+        "cn": "这是谁的？"
+      }
+    ],
+    "explanation": "名词所有格 's 表所属；Whose 对物主提问。"
+  },
+  {
+    "id": "tf-b1-112",
+    "book": 1,
+    "lesson": 47,
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
+    "cn": "冰箱里还有一些牛奶。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is some milk in the fridge."
+        ],
+        "cn": "冰箱里还有一些牛奶。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is there any milk in the fridge?"
+        ],
+        "cn": "冰箱里还有一些牛奶吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not any milk in the fridge.",
+          "There isn't any milk in the fridge."
+        ],
+        "cn": "冰箱里还没有一些牛奶。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「milk」提问，问\"有什么\"",
+        "answers": [
+          "What is there in the fridge?"
+        ],
+        "cn": "冰箱里还有一些牛奶有什么？"
+      }
+    ],
+    "explanation": "some 用于肯定句；any 用于疑问/否定；milk 不可数。"
+  },
+  {
+    "id": "tf-b1-113",
+    "book": 1,
+    "lesson": 49,
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
+    "cn": "你有没有零钱？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Do you have any change?"
+        ],
+        "cn": "你有没有零钱？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you have any change?"
+        ],
+        "cn": "你有没有零钱吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not have any change.",
+          "I don't have any change."
+        ],
+        "cn": "你没有没有零钱。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「change」提问，问\"有什么\"",
+        "answers": [
+          "What do you have?"
+        ],
+        "cn": "你有没有零钱有什么？"
+      }
+    ],
+    "explanation": "购物付现金高频句；change 不可数表「零钱」。"
+  },
+  {
+    "id": "tf-b1-114",
+    "book": 1,
+    "lesson": 81,
+    "grammar": [
+      "一般将来时",
+      "some/any"
+    ],
+    "cn": "我明天要去超市买菜。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I will go to the supermarket tomorrow.",
+          "I'm going to go to the supermarket tomorrow."
+        ],
+        "cn": "我明天要去超市买菜。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will you go to the supermarket tomorrow?"
+        ],
+        "cn": "我明天要去超市买菜吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I will not go to the supermarket tomorrow.",
+          "I won't go to the supermarket tomorrow."
+        ],
+        "cn": "我明天不要去超市买菜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「tomorrow」提问，问\"什么时候\"",
+        "answers": [
+          "When will you go to the supermarket?"
+        ],
+        "cn": "我明天什么时候？"
+      }
+    ],
+    "explanation": "will 表将来计划；超市购物为高频生活场景。"
+  },
+  {
+    "id": "tf-b1-115",
+    "book": 1,
+    "lesson": 65,
+    "grammar": [
+      "情态动词must",
+      "情态动词can"
+    ],
+    "cn": "你不必现在就付款。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You do not have to pay now.",
+          "You don't have to pay now."
+        ],
+        "cn": "你不必现在就付款。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you have to pay now?"
+        ],
+        "cn": "你不必现在就付款吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You do not have to pay now.",
+          "You don't have to pay now."
+        ],
+        "cn": "你不必现不在就付款。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「now」提问，问\"什么时候\"",
+        "answers": [
+          "When do you have to pay?"
+        ],
+        "cn": "你不必现什么时候？"
+      }
+    ],
+    "explanation": "don't have to 表「不必」，区别于 must not「禁止」。"
+  },
+  {
+    "id": "tf-b1-116",
+    "book": 1,
+    "lesson": 61,
+    "grammar": [
+      "现在进行时",
+      "情态动词must"
+    ],
+    "cn": "你得等一下，我正在通话。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You must wait. I am on the phone.",
+          "You have to wait. I'm on the phone."
+        ],
+        "cn": "你得等一下，我正在通话。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must I wait?",
+          "Do I have to wait?"
+        ],
+        "cn": "你得等一下，我正在通话吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You must not wait.",
+          "You don't have to wait."
+        ],
+        "cn": "你得等一下，我没有在通话。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on the phone」提问，问\"在做什么\"",
+        "answers": [
+          "What are you doing?"
+        ],
+        "cn": "你得等一下，我在做什么？"
+      }
+    ],
+    "explanation": "must/have to 表必须；on the phone 表正在打电话。"
+  },
+  {
+    "id": "tf-b1-117",
+    "book": 1,
+    "lesson": 5,
+    "grammar": [
+      "be动词",
+      "人称代词"
+    ],
+    "cn": "外面在下雨。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is raining outside.",
+          "It's raining outside."
+        ],
+        "cn": "外面在下雨。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is it raining outside?"
+        ],
+        "cn": "外面在下雨吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "It is not raining outside.",
+          "It isn't raining outside."
+        ],
+        "cn": "外面不在下雨。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「outside」提问，问\"在哪里\"",
+        "answers": [
+          "Where is it raining?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "天气常用 It is + 动词-ing；与现在进行时结构相同。"
+  },
+  {
+    "id": "tf-b1-118",
+    "book": 1,
+    "lesson": 57,
+    "grammar": [
+      "some/any",
+      "冠词a/an"
+    ],
+    "cn": "请给我一杯热水。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Please give me a glass of hot water."
+        ],
+        "cn": "请给我一杯热水。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you want a glass of hot water?"
+        ],
+        "cn": "请给我一杯热水吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not want a glass of hot water."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「hot water」提问，问\"什么\"",
+        "answers": [
+          "What would you like?"
+        ],
+        "cn": "请什么？"
+      }
+    ],
+    "explanation": "餐厅/咖啡店点饮品；a glass of 表「一杯」。"
+  },
+  {
+    "id": "tf-b1-119",
+    "book": 1,
+    "lesson": 79,
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
+    "cn": "我们还需要几个鸡蛋。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We need a few more eggs."
+        ],
+        "cn": "我们还需要几个鸡蛋。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do we need a few more eggs?"
+        ],
+        "cn": "我们还需要几个鸡蛋吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We do not need any more eggs.",
+          "We don't need any more eggs."
+        ],
+        "cn": "我们还需不要几个鸡蛋。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「eggs」提问，问\"什么\"",
+        "answers": [
+          "What do we need?"
+        ],
+        "cn": "我们还需什么？"
+      }
+    ],
+    "explanation": "做饭购物场景；a few 修饰可数名词复数。"
+  },
+  {
+    "id": "tf-b1-120",
+    "book": 1,
+    "lesson": 37,
+    "grammar": [
+      "现在进行时",
+      "一般将来时"
+    ],
+    "cn": "我今晚要和朋友吃饭。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am having dinner with a friend tonight.",
+          "I'm going to have dinner with a friend tonight."
+        ],
+        "cn": "我今晚要和朋友吃饭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you having dinner with a friend tonight?"
+        ],
+        "cn": "我今晚要和朋友吃饭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not having dinner with a friend tonight."
+        ],
+        "cn": "我今晚不要和朋友吃饭。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a friend」提问，问\"和谁\"",
+        "answers": [
+          "Who are you having dinner with tonight?"
+        ],
+        "cn": "和谁？"
+      }
+    ],
+    "explanation": "现在进行时可表按计划安排好的近期将来。"
+  },
+  {
+    "id": "tf-b2-120",
+    "book": 2,
+    "lesson": 64,
+    "grammar": [
+      "一般过去时",
+      "比较级"
+    ],
+    "cn": "昨天我忘记带伞了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I forgot to bring my umbrella yesterday."
+        ],
+        "cn": "昨天我忘记带伞了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did you forget to bring your umbrella yesterday?"
+        ],
+        "cn": "昨天我忘记带伞了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I did not forget to bring my umbrella yesterday.",
+          "I didn't forget to bring my umbrella yesterday."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「yesterday」提问，问\"什么时候\"",
+        "answers": [
+          "When did you forget to bring your umbrella?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "一般过去时表过去发生的事；forget to do 忘记去做。"
+  },
+  {
+    "id": "tf-b2-121",
+    "book": 2,
+    "lesson": 64,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "他在餐厅留了小费。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He left a tip at the restaurant."
+        ],
+        "cn": "他在餐厅留了小费。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he leave a tip at the restaurant?"
+        ],
+        "cn": "他在餐厅留了小费吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not leave a tip at the restaurant.",
+          "He didn't leave a tip at the restaurant."
+        ],
+        "cn": "他不在餐厅留了小费。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a tip」提问，问\"什么\"",
+        "answers": [
+          "What did he leave at the restaurant?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "leave a tip 留小费；餐饮场景高频。"
+  },
+  {
+    "id": "tf-b2-122",
+    "book": 2,
+    "lesson": 64,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "我们错过了末班地铁。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We missed the last subway.",
+          "We missed the last train."
+        ],
+        "cn": "我们错过了末班地铁。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did you miss the last subway?"
+        ],
+        "cn": "我们错过了末班地铁吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We did not miss the last subway.",
+          "We didn't miss the last subway."
+        ],
+        "cn": "我不们错过了末班地铁。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the last subway」提问，问\"什么\"",
+        "answers": [
+          "What did you miss?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "miss 表「错过」；末班车为出行常见情境。"
+  },
+  {
+    "id": "tf-b2-123",
+    "book": 2,
+    "lesson": 4,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "我已经付过账单了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I have already paid the bill.",
+          "I've already paid the bill."
+        ],
+        "cn": "我已经付过账单了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you already paid the bill?"
+        ],
+        "cn": "我已经付过账单了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not paid the bill yet.",
+          "I haven't paid the bill yet."
+        ],
+        "cn": "我还没有付过账单了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the bill」提问，问\"什么\"",
+        "answers": [
+          "What have you already paid?"
+        ],
+        "cn": "我什么？"
+      }
+    ],
+    "explanation": "现在完成时 have paid 表对现在有影响的过去动作；already/yet 常用副词。"
+  },
+  {
+    "id": "tf-b2-124",
+    "book": 2,
+    "lesson": 11,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "她刚搬到新公寓。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She has just moved to a new flat.",
+          "She has just moved to a new apartment."
+        ],
+        "cn": "她刚搬到新公寓。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has she just moved to a new flat?"
+        ],
+        "cn": "她刚搬到新公寓吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She has not moved to a new flat yet."
+        ],
+        "cn": "她不刚搬到新公寓。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a new flat」提问，问\"搬到哪里\"",
+        "answers": [
+          "Where has she just moved?"
+        ],
+        "cn": "搬到哪里？"
+      }
+    ],
+    "explanation": "just 与现在完成时连用表「刚刚」；搬家为常见生活事件。"
+  },
+  {
+    "id": "tf-b2-125",
+    "book": 2,
+    "lesson": 22,
+    "grammar": [
+      "现在完成时",
+      "一般过去时"
+    ],
+    "cn": "你见过我哥哥吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Have you seen my brother?"
+        ],
+        "cn": "你见过我哥哥吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you seen my brother?"
+        ],
+        "cn": "你见过我哥哥吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not seen your brother.",
+          "I haven't seen your brother."
+        ],
+        "cn": "你不见过我哥哥吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my brother」提问，问\"谁\"",
+        "answers": [
+          "Who have you seen?"
+        ],
+        "cn": "谁你见过我哥哥吗？"
+      }
+    ],
+    "explanation": "现在完成时表经历「见过吗」；尚未指明具体时间。"
+  },
+  {
+    "id": "tf-b2-126",
+    "book": 2,
+    "lesson": 12,
+    "grammar": [
+      "一般将来时"
+    ],
+    "cn": "我们今晚七点见。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We will meet at seven tonight.",
+          "We'll meet at seven tonight."
+        ],
+        "cn": "我们今晚七点见。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will you meet at seven tonight?"
+        ],
+        "cn": "我们今晚七点见吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We will not meet at seven tonight.",
+          "We won't meet at seven tonight."
+        ],
+        "cn": "我不们今晚七点见。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at seven tonight」提问，问\"什么时候\"",
+        "answers": [
+          "When will we meet?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "will 表将来约定；约会安排极高频。"
+  },
+  {
+    "id": "tf-b2-127",
+    "book": 2,
+    "lesson": 13,
+    "grammar": [
+      "一般将来时",
+      "将来进行时"
+    ],
+    "cn": "火车十分钟后到站。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The train will arrive in ten minutes."
+        ],
+        "cn": "火车十分钟后到站。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will the train arrive in ten minutes?"
+        ],
+        "cn": "火车十分钟后到站吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The train will not arrive in ten minutes."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in ten minutes」提问，问\"多久以后\"",
+        "answers": [
+          "How soon will the train arrive?"
+        ],
+        "cn": "多久以后？"
+      }
+    ],
+    "explanation": "in + 时间段表「……之后」；出行候车场景。"
+  },
+  {
+    "id": "tf-b2-128",
+    "book": 2,
+    "lesson": 8,
+    "grammar": [
+      "比较级和最高级"
+    ],
+    "cn": "这家店比那家便宜。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This shop is cheaper than that one."
+        ],
+        "cn": "这家店比那家便宜。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this shop cheaper than that one?"
+        ],
+        "cn": "这家店比那家便宜吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This shop is not cheaper than that one."
+        ],
+        "cn": "这家店比那家便宜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「that one」提问，问\"比什么\"",
+        "answers": [
+          "Which shop is cheaper?"
+        ],
+        "cn": "他比什么？"
+      }
+    ],
+    "explanation": "比较级 cheaper than；购物比价高频。"
+  },
+  {
+    "id": "tf-b2-129",
+    "book": 2,
+    "lesson": 73,
+    "grammar": [
+      "一般过去时",
+      "比较级",
+      "最高级"
+    ],
+    "cn": "走路比坐车更健康。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Walking is healthier than taking the bus."
+        ],
+        "cn": "走路比坐车更健康。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is walking healthier than taking the bus?"
+        ],
+        "cn": "走路比坐车更健康吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Walking is not healthier than taking the bus."
+        ],
+        "cn": "走路比坐车不更健康。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「taking the bus」提问，问\"比什么\"",
+        "answers": [
+          "What is walking healthier than?"
+        ],
+        "cn": "他比什么？"
+      }
+    ],
+    "explanation": "动名词作主语 + 比较级；日常健康话题。"
+  },
+  {
+    "id": "tf-b2-130",
+    "book": 2,
+    "lesson": 10,
+    "grammar": [
+      "被动语态"
+    ],
+    "cn": "人们把照片发到了群里。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "People posted the photos in the group chat."
+        ],
+        "cn": "人们把照片发到了群里。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "The photos were posted in the group chat."
+        ],
+        "cn": "人们把照片发到了群里（被动语态）"
+      }
+    ],
+    "explanation": "一般过去时被动 were + 过去分词；社交场景。"
+  },
+  {
+    "id": "tf-b2-131",
+    "book": 2,
+    "lesson": 21,
+    "grammar": [
+      "被动语态"
+    ],
+    "cn": "他们拖走了违章停的车。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They towed the illegally parked car."
+        ],
+        "cn": "他们拖走了违章停的车。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "The illegally parked car was towed."
+        ],
+        "cn": "他们拖走了违章停的车（被动语态）"
+      }
+    ],
+    "explanation": "被动 was towed；停车违章生活场景。"
+  },
+  {
+    "id": "tf-b2-132",
+    "book": 2,
+    "lesson": 23,
+    "grammar": [
+      "一般过去时",
+      "被动语态"
+    ],
+    "cn": "快递员昨天签收了包裹。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The courier signed for the parcel yesterday."
+        ],
+        "cn": "快递员昨天签收了包裹。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "The parcel was signed for yesterday."
+        ],
+        "cn": "快递员昨天签收了包裹（被动语态）"
+      }
+    ],
+    "explanation": "sign for 签收；被动 was signed for。"
+  },
+  {
+    "id": "tf-b2-133",
+    "book": 2,
+    "lesson": 15,
+    "grammar": [
+      "间接引语"
+    ],
+    "cn": "他说：「我会迟到一会儿。」",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He said, \"I will be a little late.\"",
+          "He said, \"I'll be a little late.\""
+        ],
+        "cn": "他说：「我会迟到一会儿。」"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "改为间接引语",
+        "answers": [
+          "He said that he would be a little late."
+        ],
+        "cn": "他说他说：「我会迟到一会儿。」。"
+      }
+    ],
+    "explanation": "间接引语 will → would；迟到为日常沟通高频。"
+  },
+  {
+    "id": "tf-b2-134",
+    "book": 2,
+    "lesson": 24,
+    "grammar": [
+      "间接引语",
+      "过去完成时"
+    ],
+    "cn": "她问我：「你能等我吗？」",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She asked, \"Can you wait for me?\""
+        ],
+        "cn": "她问我：「你能等我吗？」"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "改为间接引语",
+        "answers": [
+          "She asked if I could wait for her."
+        ],
+        "cn": "他说她问我：「你能等我吗？」。"
+      }
+    ],
+    "explanation": "一般疑问句转间接引语用 if/whether；can → could。"
+  },
+  {
+    "id": "tf-b2-135",
+    "book": 2,
+    "lesson": 39,
+    "grammar": [
+      "间接引语",
+      "一般过去时"
+    ],
+    "cn": "服务员说：「账单在这。」",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The waiter said, \"Here is the bill.\"",
+          "The waiter said, \"Here's the bill.\""
+        ],
+        "cn": "服务员说：「账单在这。」"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "改为间接引语",
+        "answers": [
+          "The waiter said that the bill was there."
+        ],
+        "cn": "他说服务员说：「账单在这。」。"
+      }
+    ],
+    "explanation": "餐饮结账场景；here is 在间接引语中常用 there was。"
+  },
+  {
+    "id": "tf-b2-136",
+    "book": 2,
+    "lesson": 29,
+    "grammar": [
+      "现在完成时",
+      "一般过去时"
+    ],
+    "cn": "我还没吃过早饭。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I have not had breakfast yet.",
+          "I haven't had breakfast yet."
+        ],
+        "cn": "我还没吃过早饭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you had breakfast yet?"
+        ],
+        "cn": "我还没吃过早饭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not had breakfast yet."
+        ],
+        "cn": "我不还没吃过早饭。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「breakfast」提问，问\"什么\"",
+        "answers": [
+          "What haven't you had yet?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "yet 用于否定/疑问句；have had 为 have 的完成式。"
+  },
+  {
+    "id": "tf-b2-137",
+    "book": 2,
+    "lesson": 36,
+    "grammar": [
+      "一般将来时",
+      "将来进行时"
+    ],
+    "cn": "我明天这个时候正在开会。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I will be in a meeting at this time tomorrow."
+        ],
+        "cn": "我明天这个时候正在开会。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will you be in a meeting at this time tomorrow?"
+        ],
+        "cn": "我明天这个时候正在开会吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I will not be in a meeting at this time tomorrow."
+        ],
+        "cn": "我明天这个时候没有在开会。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at this time tomorrow」提问，问\"什么时候\"",
+        "answers": [
+          "When will you be in a meeting?"
+        ],
+        "cn": "我明天这个时候什么时候？"
+      }
+    ],
+    "explanation": "将来进行时 will be doing 表将来某刻正在进行；职场场景。"
+  },
+  {
+    "id": "tf-b2-138",
+    "book": 2,
+    "lesson": 51,
+    "grammar": [
+      "一般过去时",
+      "一般将来时"
+    ],
+    "cn": "上次促销我买了两件外套。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I bought two coats in the last sale."
+        ],
+        "cn": "上次促销我买了两件外套。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did you buy two coats in the last sale?"
+        ],
+        "cn": "上次促销我买了两件外套吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I did not buy two coats in the last sale."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「two coats」提问，问\"什么\"",
+        "answers": [
+          "What did you buy in the last sale?"
+        ],
+        "cn": "他什么？"
+      }
+    ],
+    "explanation": "购物促销；一般过去时 bought。"
+  },
+  {
+    "id": "tf-b2-139",
+    "book": 2,
+    "lesson": 28,
+    "grammar": [
+      "定语从句",
+      "现在完成时"
+    ],
+    "cn": "这是我用过最好用的手机。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is the best phone I have ever used."
+        ],
+        "cn": "这是我用过最好用的手机。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this the best phone you have ever used?"
+        ],
+        "cn": "这是我用过最好用的手机吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not the best phone I have ever used."
+        ],
+        "cn": "这不是我用过最好用的手机。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the best phone」提问，问\"什么\"",
+        "answers": [
+          "What is the best phone you have ever used?"
+        ],
+        "cn": "这什么？"
+      }
+    ],
+    "explanation": "定语从句省略关系代词；ever 与现在完成时连用表「曾经」。"
+  },
+  {
+    "id": "tf-b2-140",
+    "book": 2,
+    "lesson": 6,
+    "grammar": [
+      "一般现在时",
+      "冠词"
+    ],
+    "cn": "他每周去两次健身房。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He goes to the gym twice a week."
+        ],
+        "cn": "他每周去两次健身房。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does he go to the gym twice a week?"
+        ],
+        "cn": "他每周去两次健身房吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He does not go to the gym twice a week."
+        ],
+        "cn": "他不每周去两次健身房。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「twice a week」提问，问\"多久一次\"",
+        "answers": [
+          "How often does he go to the gym?"
+        ],
+        "cn": "多久一次？"
+      }
+    ],
+    "explanation": "How often 对频率提问；twice a week 每周两次。"
+  },
+  {
+    "id": "tf-b2-141",
+    "book": 2,
+    "lesson": 2,
+    "grammar": [
+      "一般现在时",
+      "现在进行时"
+    ],
+    "cn": "她正在手机上回工作消息。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is replying to work messages on her phone."
+        ],
+        "cn": "她正在手机上回工作消息。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she replying to work messages on her phone?"
+        ],
+        "cn": "她正在手机上回工作消息吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not replying to work messages on her phone."
+        ],
+        "cn": "她没有在手机上回工作消息。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「work messages」提问，问\"什么\"",
+        "answers": [
+          "What is she replying to on her phone?"
+        ],
+        "cn": "她什么？"
+      }
+    ],
+    "explanation": "reply to 回复；现在进行时表此刻动作。"
+  }
+]

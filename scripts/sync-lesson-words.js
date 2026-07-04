@@ -7,13 +7,12 @@ const fs = require('fs');
 const path = require('path');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 const { normKey } = require('../lib/dict');
+const { pickEgForWord, phonFromReference, buildLessonsByBook } = require('../lib/word-pick');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const REF_DIR = path.join(DATA_DIR, 'reference');
 const LESSONS_DIR = path.join(DATA_DIR, 'lessons');
-const TEXTS = readJSON(path.join(DATA_DIR, 'lesson-texts.json'), { texts: {} }).texts || {};
 const DRY = process.argv.includes('--dry-run');
-// 各册应有课文课数；未齐时跳过，避免把整册词表塞进少量课程
 const COMPLETE_LESSONS = { 1: 72, 2: 96, 3: 60, 4: 48 };
 
 const POS_MAP = {
@@ -56,25 +55,16 @@ function toPhon(entry) {
   return `/${clean}/`;
 }
 
-function pickEg(word, book, lesson) {
-  const text = TEXTS[`${book}-${lesson}`]?.en || '';
-  if (!text) return '';
-  const lines = text.split(/\n+/).map((s) => s.trim()).filter(Boolean);
-  const re = new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b`, 'i');
-  const line = lines.find((l) => re.test(l));
-  return line || '';
-}
-
-function convertEntry(entry, book, lesson) {
+function convertEntry(entry, book, lesson, lessonsByBook) {
   const word = String(entry.name || '').trim();
   if (!word) return null;
   const { pos, cn } = parseTrans(entry.trans);
   return {
     word,
-    phon: toPhon(entry),
+    phon: toPhon(entry) || phonFromReference(word),
     pos,
     cn,
-    eg: pickEg(word, book, lesson),
+    eg: pickEgForWord(word, book, lesson, lessonsByBook),
   };
 }
 
@@ -102,7 +92,7 @@ function officialSubset(book, lessons, official) {
   return { subset: official.slice(start, end), start, end };
 }
 
-function mergeLessonWords(lesson, officialSlice) {
+function mergeLessonWords(lesson, officialSlice, lessonsByBook) {
   const existing = new Map();
   for (const w of lesson.words || []) {
     const k = normKey(w.word);
@@ -112,7 +102,7 @@ function mergeLessonWords(lesson, officialSlice) {
   for (const entry of officialSlice) {
     const k = normKey(entry.name);
     if (!k || existing.has(k)) continue;
-    const nw = convertEntry(entry, lesson.book, lesson.lesson);
+    const nw = convertEntry(entry, lesson.book, lesson.lesson, lessonsByBook);
     if (!nw) continue;
     existing.set(k, nw);
     added++;
@@ -138,6 +128,9 @@ function mergeLessonWords(lesson, officialSlice) {
 }
 
 function main() {
+  const data = require('../lib/data');
+  data.reload();
+  const lessonsByBook = buildLessonsByBook();
   const files = loadLessonFiles();
   const allLessons = [];
   for (const arr of files.values()) allLessons.push(...arr);
@@ -164,7 +157,7 @@ function main() {
     let bookAdded = 0;
     bookLessons.forEach((lesson, i) => {
       const slice = pool.slice(slices[i].start, slices[i].end);
-      bookAdded += mergeLessonWords(lesson, slice);
+      bookAdded += mergeLessonWords(lesson, slice, lessonsByBook);
     });
     stats.perBook[book] = { lessons: bookLessons.length, official: official.length, added: bookAdded, partial };
     stats.added += bookAdded;

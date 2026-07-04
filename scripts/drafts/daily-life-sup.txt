@@ -1,0 +1,387 @@
+# book=1 lesson=55 grammar=一般现在时,频率副词
+中文: 我通常七点吃早饭。
+翻译: I usually have breakfast at seven.
+疑问: Do you usually have breakfast at seven?
+否定: I do not usually have breakfast at seven. | I don't usually have breakfast at seven.
+提问(对「seven」提问，问"几点"): What time do you usually have breakfast?
+解析: 一般现在时表习惯；usually 为频率副词；疑问/否定借助 do/does。
+
+# book=1 lesson=71 grammar=一般现在时,频率副词,疑问句
+中文: 她每天坐地铁上班。
+翻译: She takes the subway to work every day.
+疑问: Does she take the subway to work every day?
+否定: She does not take the subway to work every day. | She doesn't take the subway to work every day.
+提问(对「the subway」提问，问"什么交通工具"): How does she go to work every day?
+解析: 三单一般现在时动词加 -s；对方式提问用 How。
+
+# book=1 lesson=35 grammar=一般现在时,介词
+中文: 我晚饭后洗碗。
+翻译: I wash the dishes after dinner.
+疑问: Do you wash the dishes after dinner?
+否定: I do not wash the dishes after dinner. | I don't wash the dishes after dinner.
+提问(对「after dinner」提问，问"什么时候"): When do you wash the dishes?
+解析: 一般现在时表日常家务；after dinner 为时间状语。
+
+# book=1 lesson=55 grammar=频率副词,一般现在时
+中文: 他很少点外卖。
+翻译: He rarely orders takeaway.
+疑问: Does he rarely order takeaway?
+否定: He does not rarely order takeaway. | He doesn't often order takeaway.
+提问(对「takeaway」提问，问"什么"): What does he rarely order?
+解析: rarely 表频率「很少」；否定可用 doesn't often 表达相反意思。
+
+# book=1 lesson=43 grammar=现在进行时,疑问句
+中文: 妈妈正在厨房做饭。
+翻译: Mum is cooking in the kitchen.
+疑问: Is Mum cooking in the kitchen?
+否定: Mum is not cooking in the kitchen. | Mum isn't cooking in the kitchen.
+提问(对「Mum」提问，问"谁"): Who is cooking in the kitchen?
+解析: 现在进行时 be + doing 表此刻正在进行；对主语提问用 Who。
+
+# book=1 lesson=31 grammar=现在进行时,疑问句
+中文: 我正在等公交车。
+翻译: I am waiting for the bus. | I'm waiting for the bus.
+疑问: Are you waiting for the bus?
+否定: I am not waiting for the bus. | I'm not waiting for the bus.
+提问(对「the bus」提问，问"什么"): What are you waiting for?
+解析: wait for 固定搭配；进行时表此刻正在发生的动作。
+
+# book=1 lesson=33 grammar=现在进行时,介词
+中文: 孩子们正在客厅看电视。
+翻译: The children are watching TV in the living room.
+疑问: Are the children watching TV in the living room?
+否定: The children are not watching TV in the living room.
+提问(对「in the living room」提问，问"在哪里"): Where are the children watching TV?
+解析: 现在进行时；in the living room 表地点。
+
+# book=1 lesson=39 grammar=祈使句,现在进行时
+中文: 请把垃圾拿出去。
+翻译: Please take the rubbish out. | Take the garbage out, please.
+疑问: Do you take the rubbish out?
+否定: Do not take the rubbish out. | Don't take the rubbish out.
+提问(对「the rubbish」提问，问"什么"): What should I take out?
+解析: 祈使句以动词原形开头；Please 表礼貌请求；否定用 Don't。
+
+# book=1 lesson=29 grammar=祈使句,情态动词must
+中文: 请勿在电梯里吸烟。
+翻译: Do not smoke in the lift. | Don't smoke in the elevator.
+疑问: Do you smoke in the lift?
+否定: Do not smoke in the lift. | Don't smoke in the elevator.
+提问(对「in the lift」提问，问"在哪里不要"): Where should we not smoke?
+解析: 公共场所禁止用祈使句否定 Don't...；lift/elevator 同义。
+
+# book=1 lesson=73 grammar=祈使句,介词
+中文: 到下一个路口左转。
+翻译: Turn left at the next corner.
+疑问: Do you turn left at the next corner?
+否定: Do not turn left at the next corner. | Don't turn left at the next corner.
+提问(对「the next corner」提问，问"在哪里"): Where should I turn left?
+解析: 指路常用祈使句；turn left/right at... 固定表达。
+
+# book=1 lesson=25 grammar=there be句型,介词
+中文: 厨房里有一台微波炉。
+翻译: There is a microwave in the kitchen. | There's a microwave in the kitchen.
+疑问: Is there a microwave in the kitchen?
+否定: There is not a microwave in the kitchen. | There isn't a microwave in the kitchen.
+提问(对「a microwave」提问，问"有什么"): What is there in the kitchen?
+解析: there be 表「有」；单数用 There is；对物提问用 What is there...?
+
+# book=1 lesson=27 grammar=there be句型,介词
+中文: 冰箱里没有啤酒了。
+翻译: There is no beer in the fridge. | There isn't any beer in the fridge.
+疑问: Is there any beer in the fridge?
+否定: There is not any beer in the fridge. | There isn't any beer in the fridge.
+提问(对「beer」提问，问"没有什么"): What isn't there in the fridge?
+解析: there be 否定用 no 或 not any；fridge 口语常用。
+
+# book=1 lesson=65 grammar=情态动词can,情态动词must
+中文: 你能帮我拎一下这个袋子吗？
+翻译: Can you help me carry this bag?
+疑问: Can you help me carry this bag?
+否定: You cannot help me carry this bag. | You can't help me carry this bag.
+提问(对「this bag」提问，问"什么"): What can you help me carry?
+解析: Can you...? 礼貌请求；情态动词后接动词原形。
+
+# book=1 lesson=65 grammar=情态动词can,情态动词must
+中文: 我不会用这个付款软件。
+翻译: I cannot use this payment app. | I can't use this payment app.
+疑问: Can you use this payment app?
+否定: I cannot use this payment app. | I can't use this payment app.
+提问(对「this payment app」提问，问"什么"): What can't you use?
+解析: can 表能力「会/能」；否定 can't = cannot。
+
+# book=1 lesson=65 grammar=情态动词can,情态动词must
+中文: 我们可以坐靠窗的位子吗？
+翻译: Can we sit by the window?
+疑问: Can we sit by the window?
+否定: We cannot sit by the window. | We can't sit by the window.
+提问(对「by the window」提问，问"在哪里"): Where can we sit?
+解析: Can we...? 在餐厅/咖啡厅请求座位；by the window 靠窗。
+
+# book=1 lesson=13 grammar=疑问句,be动词
+中文: 我今天特别累。
+翻译: I am very tired today. | I'm very tired today.
+疑问: Are you very tired today?
+否定: I am not very tired today. | I'm not very tired today.
+提问(对「very tired」提问，问"怎么样"): How are you today?
+解析: be + 形容词表状态；How are you? 日常问候。
+
+# book=1 lesson=7 grammar=be动词,冠词a/an,疑问句
+中文: 洗手间在那边。
+翻译: The restroom is over there. | The toilet is over there.
+疑问: Is the restroom over there?
+否定: The restroom is not over there. | The restroom isn't over there.
+提问(对「over there」提问，问"在哪里"): Where is the restroom?
+解析: 问路/找设施高频句；restroom/toilet 均可用。
+
+# book=1 lesson=11 grammar=物主代词,疑问句
+中文: 这是我的钱包。
+翻译: This is my wallet.
+疑问: Is this your wallet?
+否定: This is not my wallet. | This isn't my wallet.
+提问(对「my wallet」提问，问"是谁的"): Whose wallet is this?
+解析: 物主代词 my/your；对所属提问用 Whose。
+
+# book=1 lesson=41 grammar=物主代词,名词所有格
+中文: 这是我姐姐的钥匙。
+翻译: This is my sister's key.
+疑问: Is this your sister's key?
+否定: This is not my sister's key.
+提问(对「my sister's」提问，问"谁的"): Whose key is this?
+解析: 名词所有格 's 表所属；Whose 对物主提问。
+
+# book=1 lesson=47 grammar=some/any,可数不可数
+中文: 冰箱里还有一些牛奶。
+翻译: There is some milk in the fridge.
+疑问: Is there any milk in the fridge?
+否定: There is not any milk in the fridge. | There isn't any milk in the fridge.
+提问(对「milk」提问，问"有什么"): What is there in the fridge?
+解析: some 用于肯定句；any 用于疑问/否定；milk 不可数。
+
+# book=1 lesson=49 grammar=some/any,可数不可数
+中文: 你有没有零钱？
+翻译: Do you have any change?
+疑问: Do you have any change?
+否定: I do not have any change. | I don't have any change.
+提问(对「change」提问，问"有什么"): What do you have?
+解析: 购物付现金高频句；change 不可数表「零钱」。
+
+# book=1 lesson=81 grammar=一般将来时,some/any
+中文: 我明天要去超市买菜。
+翻译: I will go to the supermarket tomorrow. | I'm going to go to the supermarket tomorrow.
+疑问: Will you go to the supermarket tomorrow?
+否定: I will not go to the supermarket tomorrow. | I won't go to the supermarket tomorrow.
+提问(对「tomorrow」提问，问"什么时候"): When will you go to the supermarket?
+解析: will 表将来计划；超市购物为高频生活场景。
+
+# book=1 lesson=65 grammar=情态动词must,情态动词can
+中文: 你不必现在就付款。
+翻译: You do not have to pay now. | You don't have to pay now.
+疑问: Do you have to pay now?
+否定: You do not have to pay now. | You don't have to pay now.
+提问(对「now」提问，问"什么时候"): When do you have to pay?
+解析: don't have to 表「不必」，区别于 must not「禁止」。
+
+# book=1 lesson=61 grammar=现在进行时,情态动词must
+中文: 你得等一下，我正在通话。
+翻译: You must wait. I am on the phone. | You have to wait. I'm on the phone.
+疑问: Must I wait? | Do I have to wait?
+否定: You must not wait. | You don't have to wait.
+提问(对「on the phone」提问，问"在做什么"): What are you doing?
+解析: must/have to 表必须；on the phone 表正在打电话。
+
+# book=1 lesson=5 grammar=be动词,人称代词
+中文: 外面在下雨。
+翻译: It is raining outside. | It's raining outside.
+疑问: Is it raining outside?
+否定: It is not raining outside. | It isn't raining outside.
+提问(对「outside」提问，问"在哪里"): Where is it raining?
+解析: 天气常用 It is + 动词-ing；与现在进行时结构相同。
+
+# book=1 lesson=57 grammar=some/any,冠词a/an
+中文: 请给我一杯热水。
+翻译: Please give me a glass of hot water.
+疑问: Do you want a glass of hot water?
+否定: I do not want a glass of hot water.
+提问(对「hot water」提问，问"什么"): What would you like?
+解析: 餐厅/咖啡店点饮品；a glass of 表「一杯」。
+
+# book=1 lesson=79 grammar=some/any,可数不可数
+中文: 我们还需要几个鸡蛋。
+翻译: We need a few more eggs.
+疑问: Do we need a few more eggs?
+否定: We do not need any more eggs. | We don't need any more eggs.
+提问(对「eggs」提问，问"什么"): What do we need?
+解析: 做饭购物场景；a few 修饰可数名词复数。
+
+# book=1 lesson=37 grammar=现在进行时,一般将来时
+中文: 我今晚要和朋友吃饭。
+翻译: I am having dinner with a friend tonight. | I'm going to have dinner with a friend tonight.
+疑问: Are you having dinner with a friend tonight?
+否定: I am not having dinner with a friend tonight.
+提问(对「a friend」提问，问"和谁"): Who are you having dinner with tonight?
+解析: 现在进行时可表按计划安排好的近期将来。
+
+# book=2 lesson=64 grammar=一般过去时,比较级
+中文: 昨天我忘记带伞了。
+翻译: I forgot to bring my umbrella yesterday.
+疑问: Did you forget to bring your umbrella yesterday?
+否定: I did not forget to bring my umbrella yesterday. | I didn't forget to bring my umbrella yesterday.
+提问(对「yesterday」提问，问"什么时候"): When did you forget to bring your umbrella?
+解析: 一般过去时表过去发生的事；forget to do 忘记去做。
+
+# book=2 lesson=64 grammar=一般过去时
+中文: 他在餐厅留了小费。
+翻译: He left a tip at the restaurant.
+疑问: Did he leave a tip at the restaurant?
+否定: He did not leave a tip at the restaurant. | He didn't leave a tip at the restaurant.
+提问(对「a tip」提问，问"什么"): What did he leave at the restaurant?
+解析: leave a tip 留小费；餐饮场景高频。
+
+# book=2 lesson=64 grammar=一般过去时
+中文: 我们错过了末班地铁。
+翻译: We missed the last subway. | We missed the last train.
+疑问: Did you miss the last subway?
+否定: We did not miss the last subway. | We didn't miss the last subway.
+提问(对「the last subway」提问，问"什么"): What did you miss?
+解析: miss 表「错过」；末班车为出行常见情境。
+
+# book=2 lesson=4 grammar=现在完成时
+中文: 我已经付过账单了。
+翻译: I have already paid the bill. | I've already paid the bill.
+疑问: Have you already paid the bill?
+否定: I have not paid the bill yet. | I haven't paid the bill yet.
+提问(对「the bill」提问，问"什么"): What have you already paid?
+解析: 现在完成时 have paid 表对现在有影响的过去动作；already/yet 常用副词。
+
+# book=2 lesson=11 grammar=现在完成时
+中文: 她刚搬到新公寓。
+翻译: She has just moved to a new flat. | She has just moved to a new apartment.
+疑问: Has she just moved to a new flat?
+否定: She has not moved to a new flat yet.
+提问(对「a new flat」提问，问"搬到哪里"): Where has she just moved?
+解析: just 与现在完成时连用表「刚刚」；搬家为常见生活事件。
+
+# book=2 lesson=22 grammar=现在完成时,一般过去时
+中文: 你见过我哥哥吗？
+翻译: Have you seen my brother?
+疑问: Have you seen my brother?
+否定: I have not seen your brother. | I haven't seen your brother.
+提问(对「my brother」提问，问"谁"): Who have you seen?
+解析: 现在完成时表经历「见过吗」；尚未指明具体时间。
+
+# book=2 lesson=12 grammar=一般将来时
+中文: 我们今晚七点见。
+翻译: We will meet at seven tonight. | We'll meet at seven tonight.
+疑问: Will you meet at seven tonight?
+否定: We will not meet at seven tonight. | We won't meet at seven tonight.
+提问(对「at seven tonight」提问，问"什么时候"): When will we meet?
+解析: will 表将来约定；约会安排极高频。
+
+# book=2 lesson=13 grammar=一般将来时,将来进行时
+中文: 火车十分钟后到站。
+翻译: The train will arrive in ten minutes.
+疑问: Will the train arrive in ten minutes?
+否定: The train will not arrive in ten minutes.
+提问(对「in ten minutes」提问，问"多久以后"): How soon will the train arrive?
+解析: in + 时间段表「……之后」；出行候车场景。
+
+# book=2 lesson=8 grammar=比较级和最高级
+中文: 这家店比那家便宜。
+翻译: This shop is cheaper than that one.
+疑问: Is this shop cheaper than that one?
+否定: This shop is not cheaper than that one.
+提问(对「that one」提问，问"比什么"): Which shop is cheaper?
+解析: 比较级 cheaper than；购物比价高频。
+
+# book=2 lesson=73 grammar=一般过去时,比较级,最高级
+中文: 走路比坐车更健康。
+翻译: Walking is healthier than taking the bus.
+疑问: Is walking healthier than taking the bus?
+否定: Walking is not healthier than taking the bus.
+提问(对「taking the bus」提问，问"比什么"): What is walking healthier than?
+解析: 动名词作主语 + 比较级；日常健康话题。
+
+# book=2 lesson=10 grammar=被动语态
+中文: 人们把照片发到了群里。
+翻译: People posted the photos in the group chat.
+被动: The photos were posted in the group chat.
+解析: 一般过去时被动 were + 过去分词；社交场景。
+
+# book=2 lesson=21 grammar=被动语态
+中文: 他们拖走了违章停的车。
+翻译: They towed the illegally parked car.
+被动: The illegally parked car was towed.
+解析: 被动 was towed；停车违章生活场景。
+
+# book=2 lesson=23 grammar=一般过去时,被动语态
+中文: 快递员昨天签收了包裹。
+翻译: The courier signed for the parcel yesterday.
+被动: The parcel was signed for yesterday.
+解析: sign for 签收；被动 was signed for。
+
+# book=2 lesson=15 grammar=间接引语
+中文: 他说：「我会迟到一会儿。」
+翻译: He said, "I will be a little late." | He said, "I'll be a little late."
+引语: He said that he would be a little late.
+解析: 间接引语 will → would；迟到为日常沟通高频。
+
+# book=2 lesson=24 grammar=间接引语,过去完成时
+中文: 她问我：「你能等我吗？」
+翻译: She asked, "Can you wait for me?"
+引语: She asked if I could wait for her.
+解析: 一般疑问句转间接引语用 if/whether；can → could。
+
+# book=2 lesson=39 grammar=间接引语,一般过去时
+中文: 服务员说：「账单在这。」
+翻译: The waiter said, "Here is the bill." | The waiter said, "Here's the bill."
+引语: The waiter said that the bill was there.
+解析: 餐饮结账场景；here is 在间接引语中常用 there was。
+
+# book=2 lesson=29 grammar=现在完成时,一般过去时
+中文: 我还没吃过早饭。
+翻译: I have not had breakfast yet. | I haven't had breakfast yet.
+疑问: Have you had breakfast yet?
+否定: I have not had breakfast yet.
+提问(对「breakfast」提问，问"什么"): What haven't you had yet?
+解析: yet 用于否定/疑问句；have had 为 have 的完成式。
+
+# book=2 lesson=36 grammar=一般将来时,将来进行时
+中文: 我明天这个时候正在开会。
+翻译: I will be in a meeting at this time tomorrow.
+疑问: Will you be in a meeting at this time tomorrow?
+否定: I will not be in a meeting at this time tomorrow.
+提问(对「at this time tomorrow」提问，问"什么时候"): When will you be in a meeting?
+解析: 将来进行时 will be doing 表将来某刻正在进行；职场场景。
+
+# book=2 lesson=51 grammar=一般过去时,一般将来时
+中文: 上次促销我买了两件外套。
+翻译: I bought two coats in the last sale.
+疑问: Did you buy two coats in the last sale?
+否定: I did not buy two coats in the last sale.
+提问(对「two coats」提问，问"什么"): What did you buy in the last sale?
+解析: 购物促销；一般过去时 bought。
+
+# book=2 lesson=28 grammar=定语从句,现在完成时
+中文: 这是我用过最好用的手机。
+翻译: This is the best phone I have ever used.
+疑问: Is this the best phone you have ever used?
+否定: This is not the best phone I have ever used.
+提问(对「the best phone」提问，问"什么"): What is the best phone you have ever used?
+解析: 定语从句省略关系代词；ever 与现在完成时连用表「曾经」。
+
+# book=2 lesson=6 grammar=一般现在时,冠词
+中文: 他每周去两次健身房。
+翻译: He goes to the gym twice a week.
+疑问: Does he go to the gym twice a week?
+否定: He does not go to the gym twice a week.
+提问(对「twice a week」提问，问"多久一次"): How often does he go to the gym?
+解析: How often 对频率提问；twice a week 每周两次。
+
+# book=2 lesson=2 grammar=一般现在时,现在进行时
+中文: 她正在手机上回工作消息。
+翻译: She is replying to work messages on her phone.
+疑问: Is she replying to work messages on her phone?
+否定: She is not replying to work messages on her phone.
+提问(对「work messages」提问，问"什么"): What is she replying to on her phone?
+解析: reply to 回复；现在进行时表此刻动作。

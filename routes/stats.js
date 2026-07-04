@@ -6,6 +6,7 @@ const progress = require('../lib/progress');
 const profile = require('../lib/profile');
 const { readJSON } = require('../lib/store');
 const { KIND_LABEL } = require('../lib/transform-util');
+const { buildGrammarStats, buildRecommendations } = require('../lib/weak-recommend');
 
 const router = express.Router();
 
@@ -13,43 +14,30 @@ function acc(correct, seen) {
   return seen > 0 ? Math.round((correct / seen) * 100) : 0;
 }
 
-// 遍历 perQuestion，用 QMAP 取每题 grammar 标签，把 seen/correct 累加到每个标签
-function buildGrammar() {
-  const QMAP = data.getQMAP();
-  const perQuestion = progress.load().perQuestion || {};
-  const map = new Map(); // tag -> { seen, correct }
-  for (const id of Object.keys(perQuestion)) {
-    const q = QMAP.get(id);
-    if (!q || !Array.isArray(q.grammar)) continue;
-    const pq = perQuestion[id] || {};
-    const seen = Number(pq.seen) || 0;
-    const correct = Number(pq.correct) || 0;
-    if (seen <= 0) continue;
-    for (const tag of q.grammar) {
-      const cur = map.get(tag) || { seen: 0, correct: 0 };
-      cur.seen += seen;
-      cur.correct += correct;
-      map.set(tag, cur);
-    }
-  }
-  const list = [];
-  for (const [tag, v] of map) {
-    if (v.seen <= 0) continue;
-    list.push({
-      tag,
-      seen: v.seen,
-      correct: v.correct,
-      accuracy: acc(v.correct, v.seen),
-      wrong: v.seen - v.correct,
-    });
-  }
-  list.sort((a, b) => a.accuracy - b.accuracy); // 最弱在前
-  return list;
+function loadGrammar() {
+  const p = progress.load();
+  const tfDb = readJSON(profile.file('transforms.json'), { attempts: [], perStep: {} });
+  return buildGrammarStats(p, tfDb);
 }
 
-// GET /stats/grammar
+// GET /stats/grammar —— 刷题 + 句型转换合并统计
 router.get('/stats/grammar', (req, res) => {
-  res.json({ grammar: buildGrammar() });
+  res.json({ grammar: loadGrammar() });
+});
+
+// GET /stats/recommend —— 高频薄弱语法自动推荐练习
+router.get('/stats/recommend', (req, res) => {
+  const minSeen = Math.max(1, parseInt(req.query.minSeen, 10) || 4);
+  const maxAccuracy = Math.min(100, parseInt(req.query.maxAccuracy, 10) || 85);
+  const limit = Math.min(10, Math.max(1, parseInt(req.query.limit, 10) || 5));
+  const preferredBook = req.query.book != null ? parseInt(req.query.book, 10) : null;
+  const grammar = loadGrammar();
+  const recommendations = buildRecommendations(grammar, { minSeen, maxAccuracy, limit, preferredBook });
+  res.json({
+    grammar,
+    recommendations,
+    params: { minSeen, maxAccuracy, limit, preferredBook },
+  });
 });
 
 // GET /stats/overview
@@ -59,7 +47,7 @@ router.get('/stats/overview', (req, res) => {
   const perQuestion = p.perQuestion || {};
   const correct = attempts.reduce((n, a) => n + (a && a.correct ? 1 : 0), 0);
   const totalAttempts = attempts.length;
-  const grammar = buildGrammar();
+  const grammar = loadGrammar();
   res.json({
     totalAttempts,
     correct,

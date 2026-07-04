@@ -308,8 +308,9 @@
 
   // 答案区 HTML：英文 + （若有）中文译文
   function answerHtml(s) {
+    const spk = NCE.speakBtnHtml ? NCE.speakBtnHtml(s.en) : '';
     return (
-      '<div class="dct-answer">📖 标准答案：' + NCE.escapeHtml(s.en) +
+      '<div class="dct-answer">📖 标准答案：' + spk + NCE.escapeHtml(s.en) +
       (s.cn ? '<div class="dct-cn">译：' + NCE.escapeHtml(s.cn) + '</div>' : '') +
       '</div>'
     );
@@ -413,6 +414,7 @@
       };
       card.querySelector('#dct-reveal').onclick = function () {
         result.innerHTML = answerHtml(s);
+        if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(result);
       };
       card.querySelector('#dct-submit').onclick = function () {
         doSubmit(s, input.value, result);
@@ -472,6 +474,7 @@
           finish();
         };
       }
+      if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(resultBox);
     }
 
     function finish() {

@@ -130,7 +130,26 @@
     document.head.appendChild(st);
   }
 
-  // ---------- 语音识别（Web Speech API，零依赖；Firefox 等不支持时按钮不显示） ----------
+  function offlineDlg() {
+    return window.NCEDialogueOffline || null;
+  }
+
+  function dlgApi(apiFn, offlineFn) {
+    var off = offlineDlg();
+    if (!navigator.onLine && off) return offlineFn(off);
+    return apiFn().catch(function () {
+      if (!off) throw new Error('offline');
+      return offlineFn(off);
+    });
+  }
+
+  var offlineMode = false;
+
+  function markOfflineMeta(m) {
+    offlineMode = !!(m && m.offline);
+    return m;
+  }
+
   var SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition || null;
   var activeRec = null; // 当前识别实例；切轮 / 切页时必须 abort，避免泄漏
   var ttsWaitTimer = null; // 跟读前等 TTS 播完的轮询定时器
@@ -432,21 +451,32 @@
     };
 
     function loadMeta() {
-      return NCE.api('/api/dialogue/meta').then(function (m) {
-        metaCache = metaWithGroups(m);
+      return dlgApi(
+        function () { return NCE.api('/api/dialogue/meta'); },
+        function (off) { return off.getMeta(); },
+      ).then(function (m) {
+        metaCache = metaWithGroups(markOfflineMeta(m));
         return metaCache;
       });
     }
 
     function loadStats() {
-      return NCE.api('/api/dialogue/stats')
+      return dlgApi(
+        function () { return NCE.api('/api/dialogue/stats'); },
+        function (off) { return off.getStats(); },
+      )
         .then(function (s) {
+          if (s && s.offline) offlineMode = true;
           if (s && s.total) {
             hist.innerHTML =
               '💬 <b>情景对话</b> —— 左侧先选大类，再选具体场景，右侧挑选对话练习。' +
+              (offlineMode ? ' <span style="color:#b45309">（离线模式 · 练习记录暂不同步）</span>' : '') +
               ' 累计 <b>' + s.total + '</b> 句 · 正确率 <b>' + s.accuracy + '%</b> · 完成 <b>' + s.completed + '</b> 篇。';
           } else {
-            hist.innerHTML += ' 还没有记录，来试试吧！';
+            hist.innerHTML =
+              '💬 <b>情景对话</b> —— 左侧先选大类，再选具体场景，右侧挑选对话练习。' +
+              (offlineMode ? ' <span style="color:#b45309">（离线模式 · 练习记录暂不同步）</span>' : '') +
+              ' 还没有记录，来试试吧！';
           }
           dlgUi.completedMap = (s && s.completedMap) || {};
         })
@@ -673,15 +703,25 @@
       var qs = '?category=' + encodeURIComponent(dlgUi.category);
       dlgUi.stage.innerHTML = '<div class="dlg-hint">加载对话列表…</div>';
       Promise.all([
-        NCE.api('/api/dialogue/list' + qs),
-        metaCache ? Promise.resolve(metaCache) : NCE.api('/api/dialogue/meta'),
-        NCE.api('/api/dialogue/stats').catch(function () {
+        dlgApi(
+          function () { return NCE.api('/api/dialogue/list' + qs); },
+          function (off) { return off.listDialogues(dlgUi.category); },
+        ),
+        metaCache ? Promise.resolve(metaCache) : dlgApi(
+          function () { return NCE.api('/api/dialogue/meta'); },
+          function (off) { return off.getMeta().then(markOfflineMeta); },
+        ),
+        dlgApi(
+          function () { return NCE.api('/api/dialogue/stats'); },
+          function (off) { return off.getStats(); },
+        ).catch(function () {
           return null;
         }),
       ])
         .then(function (res) {
           var d = res[0];
           var meta = res[1] || metaCache;
+          if (d && d.offline) offlineMode = true;
           if (meta && meta.chains) metaCache = meta;
           if (res[2] && res[2].completedMap) dlgUi.completedMap = res[2].completedMap;
 
@@ -800,8 +840,12 @@
       saveDlgBookmark({ category: dlgUi.category, dialogueId: id });
       dlgUi.highlightId = id;
       dlgUi.stage.innerHTML = '<div class="dlg-hint">加载对话…</div>';
-      NCE.api('/api/dialogue/' + encodeURIComponent(id))
+      dlgApi(
+        function () { return NCE.api('/api/dialogue/' + encodeURIComponent(id)); },
+        function (off) { return off.getDialogue(id); },
+      )
         .then(function (dlg) {
+          if (dlg && dlg.offline) offlineMode = true;
           if (!dlg || !dlg.turns || !dlg.turns.length) {
             NCE.toast('对话内容为空', 'warn');
             showList();
@@ -881,11 +925,9 @@
       card.className = 'dlg-card';
 
       var catLabel = '';
-      if (dlg.category) {
-        NCE.api('/api/dialogue/meta').then(function (m) {
-          var c = (m && m.categories && m.categories[dlg.category]) || {};
-          catLabel = (c.icon || '') + ' ' + (c.label || dlg.category);
-        }).catch(function () {});
+      if (dlg.category && metaCache && metaCache.categories) {
+        var c = metaCache.categories[dlg.category] || {};
+        catLabel = (c.icon || '') + ' ' + (c.label || dlg.category);
       }
 
       card.innerHTML =
@@ -939,8 +981,10 @@
       b.className = cls;
       b.innerHTML =
         '<div class="role">' + NCE.escapeHtml(entry.role) + '</div>' +
+        (NCE.speakBtnHtml && (entry.en || entry.userText) ? NCE.speakBtnHtml(entry.en || entry.userText) : '') +
         NCE.escapeHtml(entry.en || entry.userText || '') +
         (entry.cn ? '<div class="cn">' + NCE.escapeHtml(entry.cn) + '</div>' : '');
+      if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(b);
       box.appendChild(b);
     }
 
@@ -1052,11 +1096,16 @@
         stopVoice(); // 提交时中止仍在进行的识别
         setBusy(true);
 
-        NCE.api('/api/dialogue/grade', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ id: dlg.id, turn: turn.index, response: val || '' }),
-        })
+        dlgApi(
+          function () {
+            return NCE.api('/api/dialogue/grade', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ id: dlg.id, turn: turn.index, response: val || '' }),
+            });
+          },
+          function (off) { return off.gradeDialogue(dlg.id, turn.index, val || ''); },
+        )
           .then(function (r) {
             if (!r || r.error) {
               NCE.toast((r && r.error) || '判分失败', 'error');
@@ -1064,9 +1113,10 @@
               setBusy(false);
               return;
             }
+            if (r.offline) offlineMode = true;
             tally.total++;
             if (r.correct) tally.correct++;
-            else if (r.srsKey) {
+            else if (r.srsKey && !offlineMode) {
               NCE.api('/api/srs/add', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "tf-b4-052",
+    "book": 4,
+    "lesson": 10,
+    "grammar": ["现在进行时"],
+    "cambridge": { "level": "egiu2", "unit": 1, "title": "Present continuous", "titleCn": "现在进行时" },
+    "cn": "科学家们正在分析这些样本。",
+    "explanation": "EGIU2 Unit 1 复习：学术报道中现在进行时表正在进行的科研活动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Scientists are analysing these samples.", "Scientists are analyzing these samples."], "cn": "科学家们正在分析这些样本。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Scientists are not analysing these samples."], "cn": "科学家们不在分析这些样本。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are scientists analysing these samples?"], "cn": "科学家们在分析这些样本吗？" },
+      { "kind": "wh", "prompt": "对「these samples」提问", "answers": ["What are scientists analysing?"], "cn": "科学家们在分析什么？" }
+    ]
+  },
+  {
+    "id": "tf-b4-053",
+    "book": 4,
+    "lesson": 11,
+    "grammar": ["一般现在时"],
+    "cambridge": { "level": "egiu2", "unit": 2, "title": "Present simple", "titleCn": "一般现在时" },
+    "cn": "这项法律适用于所有公民。",
+    "explanation": "EGIU2 Unit 2 复习：一般现在时表普遍事实与现行规定。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This law applies to all citizens.", "The law applies to everyone."], "cn": "这项法律适用于所有公民。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This law does not apply to all citizens.", "The law doesn't apply to everyone."], "cn": "这项法律并非适用于所有公民。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does this law apply to all citizens?"], "cn": "这项法律适用于所有公民吗？" },
+      { "kind": "wh", "prompt": "对「all citizens」提问", "answers": ["Who does this law apply to?"], "cn": "这项法律适用于谁？" }
+    ]
+  },
+  {
+    "id": "tf-b4-054",
+    "book": 4,
+    "lesson": 12,
+    "grammar": ["现在进行时", "一般现在时"],
+    "cambridge": { "level": "egiu2", "unit": 3, "title": "Present continuous vs simple", "titleCn": "进行时与一般现在时对比" },
+    "cn": "他通常研究昆虫，但此刻正在写论文。",
+    "explanation": "EGIU2 Unit 3：usually 与一般现在时表习惯；now 与进行时表此刻动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He usually studies insects, but he is writing a paper now.", "He normally studies insects, but he's writing a thesis at the moment."], "cn": "他通常研究昆虫，但此刻正在写论文。" },
+      { "kind": "negative", "prompt": "改为否定句（此刻不在写）", "answers": ["He is not writing a paper now.", "He isn't writing a thesis at the moment."], "cn": "他此刻不在写论文。" },
+      { "kind": "wh", "prompt": "对「writing a paper」提问", "answers": ["What is he doing now?", "What is he writing at the moment?"], "cn": "他此刻在做什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he writing a paper now?"], "cn": "他此刻在写论文吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-055",
+    "book": 4,
+    "lesson": 15,
+    "grammar": ["一般过去时"],
+    "cambridge": { "level": "egiu2", "unit": 5, "title": "Past simple", "titleCn": "一般过去时" },
+    "cn": "达尔文于1882年去世。",
+    "explanation": "EGIU2 Unit 5 复习：有明确过去时间用一般过去时。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Darwin died in 1882.", "Charles Darwin died in 1882."], "cn": "达尔文于1882年去世。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Darwin did not die in 1882."], "cn": "达尔文并非1882年去世。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did Darwin die in 1882?"], "cn": "达尔文是1882年去世的吗？" },
+      { "kind": "wh", "prompt": "对「in 1882」提问", "answers": ["When did Darwin die?"], "cn": "达尔文何时去世？" }
+    ]
+  },
+  {
+    "id": "tf-b4-056",
+    "book": 4,
+    "lesson": 16,
+    "grammar": ["过去进行时"],
+    "cambridge": { "level": "egiu2", "unit": 6, "title": "Past continuous", "titleCn": "过去进行时" },
+    "cn": "事故发生时，司机正在超速行驶。",
+    "explanation": "EGIU2 Unit 6：when 从句用过去时，主句用过去进行时表背景动作。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The driver was speeding when the accident happened.", "When the accident occurred, the driver was speeding."], "cn": "事故发生时，司机正在超速行驶。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The driver was not speeding when the accident happened."], "cn": "事故发生时司机并未超速。" },
+      { "kind": "wh", "prompt": "对「speeding」提问", "answers": ["What was the driver doing when the accident happened?"], "cn": "事故发生时司机在做什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the driver speeding when the accident happened?"], "cn": "事故发生时司机在超速吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-057",
+    "book": 4,
+    "lesson": 20,
+    "grammar": ["一般将来时", "将来进行时"],
+    "cambridge": { "level": "egiu2", "unit": 15, "title": "Future", "titleCn": "将来时" },
+    "cn": "会议将于下周举行。",
+    "explanation": "EGIU2 Unit 15：will + 动词原形表将来安排；will be doing 表将来进行。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The conference will take place next week.", "The meeting will be held next week."], "cn": "会议将于下周举行。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The conference will not take place next week.", "The meeting won't be held next week."], "cn": "会议下周不举行。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will the conference take place next week?"], "cn": "会议下周举行吗？" },
+      { "kind": "wh", "prompt": "对「next week」提问", "answers": ["When will the conference take place?"], "cn": "会议何时举行？" }
+    ]
+  },
+  {
+    "id": "tf-b4-058",
+    "book": 4,
+    "lesson": 25,
+    "grammar": ["used to"],
+    "cambridge": { "level": "egiu2", "unit": 18, "title": "Used to", "titleCn": "used to" },
+    "cn": "这座城市过去常是一片沼泽。",
+    "explanation": "EGIU2 Unit 18：used to 表过去现已不再的状态。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This city used to be a marsh.", "The town used to be marshland."], "cn": "这座城市过去常是一片沼泽。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This city didn't use to be a marsh.", "The town used not to be marshland."], "cn": "这座城市过去并非沼泽。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did this city use to be a marsh?"], "cn": "这座城市过去是沼泽吗？" },
+      { "kind": "wh", "prompt": "对「a marsh」提问", "answers": ["What did this city use to be?"], "cn": "这座城市过去是什么？" }
+    ]
+  },
+  {
+    "id": "tf-b4-059",
+    "book": 4,
+    "lesson": 30,
+    "grammar": ["间接引语"],
+    "cambridge": { "level": "egiu2", "unit": 47, "title": "Reported speech 1", "titleCn": "间接引语（1）" },
+    "cn": "教授说：「证据尚不充分。」",
+    "explanation": "EGIU2 Unit 47：said (that) + 陈述语序；时态后移。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The professor said, \"The evidence is not sufficient.\"", "The professor said, \"The evidence isn't enough.\""], "cn": "教授说：「证据尚不充分。」" },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The professor said that the evidence was not sufficient.", "The professor said the evidence wasn't sufficient."], "cn": "教授说证据尚不充分。" },
+      { "kind": "negative", "prompt": "间接引语改为否定含义", "answers": ["The professor said that the evidence was insufficient."], "cn": "教授说证据不充分。" },
+      { "kind": "yesno", "prompt": "改为一般疑问（Did the professor say...?）", "answers": ["Did the professor say that the evidence was sufficient?"], "cn": "教授说证据充分了吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-060",
+    "book": 4,
+    "lesson": 31,
+    "grammar": ["间接引语", "反意疑问句"],
+    "cambridge": { "level": "egiu2", "unit": 48, "title": "Reported speech 2", "titleCn": "间接引语（2）" },
+    "cn": "她问：「实验完成了吗？」",
+    "explanation": "EGIU2 Unit 48：间接疑问语序；asked if/whether + 陈述语序。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["She asked, \"Has the experiment been completed?\"", "She asked, \"Is the experiment finished?\""], "cn": "她问：「实验完成了吗？」" },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["She asked if the experiment had been completed.", "She asked whether the experiment was finished."], "cn": "她问实验是否完成了。" },
+      { "kind": "wh", "prompt": "对「the experiment」提问", "answers": ["What did she ask about?", "What did she want to know?"], "cn": "她问的是什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问（Did she ask...?）", "answers": ["Did she ask if the experiment had been completed?"], "cn": "她问实验是否完成了吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-061",
+    "book": 4,
+    "lesson": 35,
+    "grammar": ["比较结构", "比较级", "最高级"],
+    "cambridge": { "level": "egiu2", "unit": 85, "title": "Comparatives / superlatives", "titleCn": "比较级与最高级" },
+    "cn": "这是迄今最有说服力的论证。",
+    "explanation": "EGIU2 Unit 85：the most convincing 多音节形容词最高级；比较用 more convincing than。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is the most convincing argument so far.", "It is the most persuasive case to date."], "cn": "这是迄今最有说服力的论证。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not the most convincing argument so far."], "cn": "这不是迄今最有说服力的论证。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this the most convincing argument so far?"], "cn": "这是迄今最有说服力的论证吗？" },
+      { "kind": "wh", "prompt": "对「the most convincing argument」提问", "answers": ["What is the most convincing argument so far?"], "cn": "迄今最有说服力的论证是什么？" }
+    ]
+  }
+]

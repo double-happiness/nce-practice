@@ -57,84 +57,84 @@
         "phon": "",
         "pos": "",
         "cn": "饭厅",
-        "eg": ""
+        "eg": "they went into the dining room."
       },
       {
         "word": "coin",
         "phon": "/kɒɪn/",
         "pos": "n.",
         "cn": "硬币",
-        "eg": ""
+        "eg": "She dropped a coin on the floor. 她把一枚硬币掉在了地板上。"
       },
       {
         "word": "mouth",
         "phon": "/maʊθ/",
         "pos": "n.",
         "cn": "嘴",
-        "eg": ""
+        "eg": "He put them both into his mouth."
       },
       {
         "word": "swallow",
         "phon": "/'swɑːlou/",
         "pos": "v.",
         "cn": "吞下",
-        "eg": ""
+        "eg": "He swallowed the eggs one by one. 他把鸡蛋一个接一个吞下。"
       },
       {
         "word": "later",
         "phon": "/'leɪtə/",
         "pos": "adv.",
         "cn": "后来",
-        "eg": ""
+        "eg": "An hour later he was still trying to close the lid."
       },
       {
         "word": "toilet",
         "phon": "/ˈtɔɪlɪt/",
         "pos": "n.",
         "cn": "厕所，盥洗",
-        "eg": ""
+        "eg": "'Tommy's been to the toilet three times this morning, but I haven't had any change yet!'"
       },
       {
         "word": "ring",
         "phon": "/rɪŋ/",
         "pos": "v.",
         "cn": "戒指，铃声",
-        "eg": ""
+        "eg": "The phone rang twice. 电话响了两次。"
       },
       {
         "word": "story",
         "phon": "/'stɔːrɪ/",
         "pos": "n.",
         "cn": "故事",
-        "eg": ""
+        "eg": "A true story"
       },
       {
         "word": "happen",
         "phon": "/'hæp(ə)n/",
         "pos": "v.",
         "cn": "发生",
-        "eg": ""
+        "eg": "\"That is really sensational news,\" Mary said. \"What will happen to us?\""
       },
       {
         "word": "thief",
         "phon": "/θiːf/",
         "pos": "n.",
         "cn": "贼",
-        "eg": ""
+        "eg": "One thief ran into the street, but an officer soon caught him."
       },
       {
         "word": "enter",
         "phon": "/'entə/",
         "pos": "v.",
         "cn": "进入",
-        "eg": ""
+        "eg": "More than fifty people entered the photo competition. 五十多人参加了摄影比赛。"
       },
       {
         "word": "dark",
         "phon": "/dɑːk/",
         "pos": "a.",
         "cn": "黑暗的",
-        "eg": ""
+        "eg": "It was very dark, so they turned on a torch."
       }
     ],
     "grammar": [
@@ -215,21 +215,21 @@
         "phon": "/tɔːtʃ/",
         "pos": "n.",
         "cn": "手电筒",
-        "eg": ""
+        "eg": "It was very dark, so they turned on a torch."
       },
       {
         "word": "voice",
         "phon": "/vɒɪs/",
         "pos": "n.",
         "cn": "(说话的)声音",
-        "eg": ""
+        "eg": "Suddenly, they heard a voice behind them."
       },
       {
         "word": "parrot",
         "phon": "/'pærət/",
         "pos": "n.",
         "cn": "鹦鹉",
-        "eg": ""
+        "eg": "But George's parrot, Henry, was still there."
       },
       {
         "word": "exercise book",
@@ -243,63 +243,63 @@
         "phon": "/'kʌstəmə/",
         "pos": "n.",
         "cn": "顾客",
-        "eg": ""
+        "eg": "More customers started coming every day. 每天开始有更多顾客到来。"
       },
       {
         "word": "forget",
         "phon": "/fə'get/",
         "pos": "v.",
         "cn": "忘记",
-        "eg": ""
+        "eg": "He will not forget his ticket next time."
       },
       {
         "word": "manager",
         "phon": "/'mænɪdʒə/",
         "pos": "n.",
         "cn": "经理",
-        "eg": ""
+        "eg": "She is our manager."
       },
       {
         "word": "serve",
         "phon": "/sɜːv/",
         "pos": "v.",
         "cn": "照应，服务，接待",
-        "eg": ""
+        "eg": "Did you serve this gentleman half an hour ago, Caroline?"
       },
       {
         "word": "counter",
         "phon": "/'kauntər/",
         "pos": "n.",
         "cn": "柜台",
-        "eg": ""
+        "eg": "The lady who is standing behind the counter."
       },
       {
         "word": "recognize",
         "phon": "/'rekəgnaɪz/",
         "pos": "v.",
         "cn": "认出，认识",
-        "eg": ""
+        "eg": "Can you recognize that woman, Liz?"
       },
       {
         "word": "road",
         "phon": "/rəʊd/",
         "pos": "n.",
         "cn": "道路",
-        "eg": ""
+        "eg": "\"You must always keep inside the limit, even when the road is empty.\""
       },
       {
         "word": "during",
         "phon": "/'djʊərɪŋ/",
         "pos": "prep.",
         "cn": "在…期间",
-        "eg": ""
+        "eg": "This is a photograph I took during my trip to Australia."
       },
       {
         "word": "trip",
         "phon": "/trɪp/",
         "pos": "n.",
         "cn": "旅行",
-        "eg": ""
+        "eg": "A trip to Australia"
       }
     ],
     "grammar": [
@@ -387,35 +387,35 @@
         "phon": "/'ɒfə/",
         "pos": "v.",
         "cn": "提供",
-        "eg": ""
+        "eg": "The one who offered you a job in Australia."
       },
       {
         "word": "job",
         "phon": "/dʒɔb/",
         "pos": "n.",
         "cn": "工作",
-        "eg": ""
+        "eg": "The one who offered you a job in Australia."
       },
       {
         "word": "guess",
         "phon": "/ges/",
         "pos": "v.",
         "cn": "猜",
-        "eg": ""
+        "eg": "Guess!"
       },
       {
         "word": "grow",
         "phon": "/grəʊ/",
         "pos": "v.",
         "cn": "长，让…生长",
-        "eg": ""
+        "eg": "His wife is going to grow flowers in the garden."
       },
       {
         "word": "beard",
         "phon": "/bɪəd/",
         "pos": "n.",
         "cn": "(下巴上的)胡子，络腮胡",
-        "eg": ""
+        "eg": "I grew a beard during the trip, but I shaved it off when I came home."
       },
       {
         "word": "kitten",
@@ -429,35 +429,35 @@
         "phon": "/'wɔːtə/",
         "pos": "v.",
         "cn": "浇水",
-        "eg": ""
+        "eg": "I must water the garden first."
       },
       {
         "word": "terribly",
         "phon": "/'terəbli/",
         "pos": "adv.",
         "cn": "非常",
-        "eg": ""
+        "eg": "It's terribly dry."
       },
       {
         "word": "dry",
         "phon": "/draɪ/",
         "pos": "a.",
         "cn": "干燥的，干的",
-        "eg": ""
+        "eg": "It's terribly dry."
       },
       {
         "word": "nuisance",
         "phon": "/'njuːsəns/",
         "pos": "n.",
         "cn": "讨厌的东西或人",
-        "eg": ""
+        "eg": "What a nuisance!"
       },
       {
         "word": "mean",
         "phon": "/miːn/",
         "pos": "v.",
         "cn": "意味着，意思是",
-        "eg": ""
+        "eg": "That means you don't need to water the garden."
       }
     ],
     "grammar": [
@@ -538,91 +538,91 @@
         "phon": "/sə'praɪz/",
         "pos": "n.",
         "cn": "惊奇，意外的",
-        "eg": ""
+        "eg": "I think it will be a big surprise. 我想那会是个大惊喜。"
       },
       {
         "word": "immediately",
         "phon": "/ɪ'miːdɪətlɪ/",
         "pos": "adv.",
         "cn": "立即",
-        "eg": ""
+        "eg": "She answered my message immediately. 她立刻回复了我的短信。"
       },
       {
         "word": "famous",
         "phon": "/'feɪməs/",
         "pos": "a.",
         "cn": "著名的",
-        "eg": ""
+        "eg": "A famous actress"
       },
       {
         "word": "actress",
         "phon": "/'æktrɪs/",
         "pos": "n.",
         "cn": "女演员",
-        "eg": ""
+        "eg": "A famous actress"
       },
       {
         "word": "at least",
         "phon": "",
         "pos": "",
         "cn": "至少",
-        "eg": ""
+        "eg": "I read she's twenty-nine, but she must be at least forty."
       },
       {
         "word": "actor",
         "phon": "/'æktə/",
         "pos": "n.",
         "cn": "男演员",
-        "eg": ""
+        "eg": "Conrad Reeves, the actor?"
       },
       {
         "word": "read",
         "phon": "/ri:d;red/",
         "pos": "v.",
         "cn": "通过阅读得",
-        "eg": ""
+        "eg": "I read she's twenty-nine, but she must be at least forty."
       },
       {
         "word": "wave",
         "phon": "/weɪv/",
         "pos": "v.",
         "cn": "招手",
-        "eg": ""
+        "eg": "The children waved to us as the bus left. 汽车开走时，孩子们向我们挥手。"
       },
       {
         "word": "track",
         "phon": "/træk/",
         "pos": "n.",
         "cn": "跑道",
-        "eg": ""
+        "eg": "On a race track?"
       },
       {
         "word": "mile",
         "phon": "/maɪl/",
         "pos": "n.",
         "cn": "英里",
-        "eg": ""
+        "eg": "The station is two miles away. 车站在两英里外。"
       },
       {
         "word": "overtake",
         "phon": "/əʊvə'teɪk/",
         "pos": "v.",
         "cn": "从后面超越，超车",
-        "eg": ""
+        "eg": "that misfortune might overtake us if the important events of our lives were not related to it."
       },
       {
         "word": "speed",
         "phon": "/spiːd/",
         "pos": "n.",
         "cn": "速度",
-        "eg": ""
+        "eg": "Didn't you see the speed limit?"
       },
       {
         "word": "dream",
         "phon": "/driːm/",
         "pos": "v.",
         "cn": "做梦，思想不集中",
-        "eg": ""
+        "eg": "A pleasant dream"
       }
     ],
     "grammar": [
@@ -702,56 +702,56 @@
         "phon": "/saɪn/",
         "pos": "n.",
         "cn": "标记，牌子",
-        "eg": ""
+        "eg": "That's why I didn't see the sign."
       },
       {
         "word": "driving licence",
         "phon": "/'draiviŋ 'laisəns/",
         "pos": "",
         "cn": "驾驶执照",
-        "eg": ""
+        "eg": "Let me see your driving licence."
       },
       {
         "word": "charge",
         "phon": "/tʃɑːdʒ/",
         "pos": "v.",
         "cn": "指控，收费",
-        "eg": ""
+        "eg": "I won't charge you this time."
       },
       {
         "word": "darling",
         "phon": "/'dɑːlɪŋ/",
         "pos": "n.",
         "cn": "亲爱的(用作表示称呼",
-        "eg": ""
+        "eg": "You always tell me to drive slowly, darling."
       },
       {
         "word": "Egypt",
         "phon": "/ˈiːdʒɪpt/",
         "pos": "n.",
         "cn": "埃及",
-        "eg": ""
+        "eg": "My wife wants to go to Egypt."
       },
       {
         "word": "abroad",
         "phon": "/ə'brɔːd/",
         "pos": "adv.",
         "cn": "国外",
-        "eg": ""
+        "eg": "We may go abroad."
       },
       {
         "word": "worry",
         "phon": "/'wʌrɪ/",
         "pos": "v.",
         "cn": "担心",
-        "eg": ""
+        "eg": "\"Don't worry,\" he answered, \"I am going to pack everything tonight.\""
       },
       {
         "word": "reporter",
         "phon": "/rɪ'pɔːtə/",
         "pos": "n.",
         "cn": "记者",
-        "eg": ""
+        "eg": "By our reporter, Alan Jones."
       },
       {
         "word": "sensational",
@@ -765,7 +765,7 @@
         "phon": "/'miŋk-kəut/",
         "pos": "",
         "cn": "貂皮大衣",
-        "eg": ""
+        "eg": "She was wearing a blue dress and a mink coat."
       },
       {
         "word": "future",
@@ -860,21 +860,21 @@
         "phon": "/həʊˈtel/",
         "pos": "n.",
         "cn": "饭店",
-        "eg": ""
+        "eg": "At her London Hotel today Miss Marsh told reporters she might retire."
       },
       {
         "word": "latest",
         "phon": "/'leɪtɪst/",
         "pos": "a.",
         "cn": "最新的",
-        "eg": ""
+        "eg": "The latest report"
       },
       {
         "word": "introduce",
         "phon": "/ɪntrə'djuːs/",
         "pos": "v.",
         "cn": "介绍",
-        "eg": ""
+        "eg": "Let me introduce him to you."
       },
       {
         "word": "football",
@@ -888,7 +888,7 @@
         "phon": "/puːl/",
         "pos": "n.",
         "cn": "水池，池塘",
-        "eg": ""
+        "eg": "Some goldfish are swimming in the pool. 几条金鱼在水池里游来游去。"
       },
       {
         "word": "win",
@@ -916,35 +916,35 @@
         "phon": "/dɪ'pend/",
         "pos": "v.",
         "cn": "依靠",
-        "eg": ""
+        "eg": "It's a pleasant dream but everything depends on 'if' !"
       },
       {
         "word": "extra",
         "phon": "/'ekstrə/",
         "pos": "a.",
         "cn": "额外的",
-        "eg": ""
+        "eg": "I said I would be at your house at six o'clock, but the boss wants me to do some extra work."
       },
       {
         "word": "engineer",
         "phon": "/endʒɪ'nɪə/",
         "pos": "n.",
         "cn": "工程师",
-        "eg": ""
+        "eg": "You are John Smith, the engineer, aren't you?"
       },
       {
         "word": "overseas",
         "phon": "/ˌouvər'siːz/",
         "pos": "a.",
         "cn": "海外的，国外的",
-        "eg": ""
+        "eg": "You work for the Overseas Engineering Company, don't you?"
       },
       {
         "word": "engineering",
         "phon": "/ˌendʒɪ'nɪrɪŋ/",
         "pos": "n.",
         "cn": "工程",
-        "eg": ""
+        "eg": "You work for the Overseas Engineering Company, don't you?"
       }
     ],
     "grammar": [
@@ -1039,14 +1039,14 @@
         "phon": "/ɪk'saɪtɪd/",
         "pos": "a.",
         "cn": "兴奋的",
-        "eg": ""
+        "eg": "Sally was very excited because she had never travelled on a train before."
       },
       {
         "word": "get on",
         "phon": "",
         "pos": "",
         "cn": "登上",
-        "eg": ""
+        "eg": "Suddenly, a middle-age lady got on the train and sat opposite Sally."
       },
       {
         "word": "middle-aged",
@@ -1060,49 +1060,49 @@
         "phon": "/'ɒpəzɪt; -sɪt/",
         "pos": "prep.",
         "cn": "在…对面",
-        "eg": ""
+        "eg": "Suddenly, a middle-age lady got on the train and sat opposite Sally."
       },
       {
         "word": "curiously",
         "phon": "/'kjʊrɪəslɪ/",
         "pos": "adv.",
         "cn": "好奇地",
-        "eg": ""
+        "eg": "Sally did not answer, but looked at her curiously."
       },
       {
         "word": "funny",
         "phon": "/'fʌnɪ/",
         "pos": "a.",
         "cn": "可笑的，滑稽的",
-        "eg": ""
+        "eg": "The lady was dressed in a blue coat and a large, funny hat."
       },
       {
         "word": "powder",
         "phon": "/'paudər/",
         "pos": "n.",
         "cn": "香粉",
-        "eg": ""
+        "eg": "After the train had left the station, the lady opened her handbag and took out her powder compact."
       },
       {
         "word": "compact",
         "phon": "/kəm'pækt/",
         "pos": "n.",
         "cn": "带镜的化妆盒",
-        "eg": ""
+        "eg": "After the train had left the station, the lady opened her handbag and took out her powder compact."
       },
       {
         "word": "kindly",
         "phon": "/'kaɪndlɪ/",
         "pos": "adv.",
         "cn": "和蔼地",
-        "eg": ""
+        "eg": "She put away her compact and smiled kindly."
       },
       {
         "word": "ugly",
         "phon": "/'ʌglɪ/",
         "pos": "a.",
         "cn": "丑陋的",
-        "eg": ""
+        "eg": "'But you are still ugly,' Sally said."
       }
     ],
     "grammar": [
@@ -1190,7 +1190,7 @@
         "phon": "/smaɪl/",
         "pos": "v.",
         "cn": "微笑",
-        "eg": ""
+        "eg": "\"Yes, I have,\" Anna said with a smile."
       },
       {
         "word": "embarrassed",
@@ -1204,70 +1204,70 @@
         "phon": "/'wʌrɪd/",
         "pos": "a.",
         "cn": "担心，担忧",
-        "eg": ""
+        "eg": "Dan felt worried because he could not guess what the police wanted. Dan 很担心，因为他猜不出警察找他干什么。"
       },
       {
         "word": "regularly",
         "phon": "/'reɡjələli/",
         "pos": "adv.",
         "cn": "经常地，定期",
-        "eg": ""
+        "eg": "They write to each other regularly. 他们定期互相通信。"
       },
       {
         "word": "surround",
         "phon": "/sə'raund/",
         "pos": "v.",
         "cn": "包围",
-        "eg": ""
+        "eg": "I live in a very old town which is surrounded by beautiful woods."
       },
       {
         "word": "wood",
         "phon": "/wʊd/",
         "pos": "n.",
         "cn": "树林",
-        "eg": ""
+        "eg": "He is working with some wood now."
       },
       {
         "word": "beauty spot",
         "phon": "",
         "pos": "",
         "cn": "风景点",
-        "eg": ""
+        "eg": "It is a famous beauty spot."
       },
       {
         "word": "hundred",
         "phon": "/'hʌndrəd/",
         "pos": "n.",
         "cn": "一百",
-        "eg": ""
+        "eg": "Sally saw farms, bridges and hills, and she asked a hundred questions."
       },
       {
         "word": "city",
         "phon": "/'sɪtɪ/",
         "pos": "n.",
         "cn": "城市",
-        "eg": ""
+        "eg": "On Sundays, hundreds of people come from the city to see our town and to walk through the woods."
       },
       {
         "word": "through",
         "phon": "/θruː/",
         "pos": "prep.",
         "cn": "穿过",
-        "eg": ""
+        "eg": "A walk through the woods"
       },
       {
         "word": "visitor",
         "phon": "/'vɪzɪtə/",
         "pos": "n.",
         "cn": "参观者，游客，来访者",
-        "eg": ""
+        "eg": "Visitors came from many countries. 参观者来自很多国家。"
       },
       {
         "word": "tidy",
         "phon": "/'taɪdɪ/",
         "pos": "a.",
         "cn": "整齐的",
-        "eg": ""
+        "eg": "Visitors have been asked to keep the woods clean and tidy."
       }
     ],
     "grammar": [
@@ -1362,7 +1362,7 @@
         "phon": "/pleɪs/",
         "pos": "v.",
         "cn": "放置",
-        "eg": ""
+        "eg": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere."
       },
       {
         "word": "throw",
@@ -1383,28 +1383,28 @@
         "phon": "/kaʊnt/",
         "pos": "v.",
         "cn": "数，点",
-        "eg": ""
+        "eg": "He counted the notes one by one in front of everyone. 他当着大家的面把钞票一张张点清。"
       },
       {
         "word": "cover",
         "phon": "/'kʌvə/",
         "pos": "v.",
         "cn": "覆盖",
-        "eg": ""
+        "eg": "The cover of the book is blue. 这本书的封面是蓝色的。"
       },
       {
         "word": "piece",
         "phon": "/piːs/",
         "pos": "n.",
         "cn": "碎片",
-        "eg": ""
+        "eg": "This is a nice piece."
       },
       {
         "word": "tyre",
         "phon": "/'taɪə/",
         "pos": "n.",
         "cn": "轮胎",
-        "eg": ""
+        "eg": "cigarette ends, old tyres, empty bottles and rusty tins."
       },
       {
         "word": "rusty",
@@ -1425,7 +1425,7 @@
         "phon": "/'prɑːsɪkjuːt/",
         "pos": "v.",
         "cn": "依法处置",
-        "eg": ""
+        "eg": "Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'"
       }
     ],
     "grammar": [

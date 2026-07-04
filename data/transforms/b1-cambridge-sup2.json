@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tf-b1-086",
+    "book": 1,
+    "lesson": 117,
+    "grammar": ["词汇辨析"],
+    "cambridge": { "level": "egiu", "unit": 105, "title": "word order", "titleCn": "词汇辨析" },
+    "cn": "他很少看电视。（little 表否定）",
+    "explanation": "EGIU U105：little/few 表「几乎没有」；a little/a few 表「一些」。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He watches little television.", "He watches TV very little."], "cn": "他很少看电视。" },
+      { "kind": "negative", "prompt": "改为肯定句（他看电视不少）", "answers": ["He watches a lot of television.", "He watches quite a lot of TV."], "cn": "他看电视不少。" },
+      { "kind": "wh", "prompt": "对「television」提问", "answers": ["How much television does he watch?", "What does he watch little of?"], "cn": "他很少看什么？" }
+    ]
+  },
+  {
+    "id": "tf-b1-087",
+    "book": 1,
+    "lesson": 119,
+    "grammar": ["词汇辨析", "频率副词"],
+    "cambridge": { "level": "egiu", "unit": 105, "title": "word order", "titleCn": "词序与频率副词" },
+    "cn": "他总是早到。",
+    "explanation": "EGIU U105：频率副词常放 be 后、实义动词前；always 位置影响语气。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is always early.", "He always arrives early."], "cn": "他总是早到。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not always early.", "He is never late."], "cn": "他并非总是早到。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he always early?", "Does he always arrive early?"], "cn": "他总是早到吗？" }
+    ]
+  }
+]

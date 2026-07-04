@@ -11,9 +11,10 @@
  * 新 SW activate 时会清掉旧版本缓存。
  */
 
-var SW_VERSION = 'v4';
+var SW_VERSION = 'v13';
 var CACHE_STATIC = 'nce-static-' + SW_VERSION;
 var CACHE_API = 'nce-api-' + SW_VERSION;
+var CACHE_AUDIO = 'nce-audio-' + SW_VERSION;
 
 // 核心壳:index.html 实际引用的全部脚本与样式
 var PRECACHE_URLS = [
@@ -30,6 +31,8 @@ var PRECACHE_URLS = [
   '/js/profile-store.js',
   '/js/pwa.js',
   '/js/feat-review.js',
+  '/js/word-offline.js',
+  '/js/dialogue-offline.js',
   '/js/feat-dictionary.js',
   '/js/feat-vocab.js',
   '/js/feat-dictation.js',
@@ -49,6 +52,8 @@ var PRECACHE_URLS = [
   '/js/feat-level.js',
   '/audio/pronunc-index.json',
   '/audio/official-segments.json',
+  '/data/word-bundle.json',
+  '/data/dialogue-bundle.json',
 ];
 
 self.addEventListener('install', function (event) {
@@ -72,7 +77,7 @@ self.addEventListener('activate', function (event) {
         return Promise.all(
           keys.map(function (key) {
             // 清理旧版本缓存(nce- 前缀但版本不同)
-            if (key !== CACHE_STATIC && key !== CACHE_API && key.indexOf('nce-') === 0) {
+            if (key !== CACHE_STATIC && key !== CACHE_API && key !== CACHE_AUDIO && key.indexOf('nce-') === 0) {
               return caches.delete(key);
             }
             return Promise.resolve(false);
@@ -108,6 +113,42 @@ function apiNetworkFirst(request) {
     });
 }
 
+// 音频:cache-first(离线优先读已缓存的 mp3)
+// Git LFS 未拉取时 MP3 仅为 ~130B 指针文件；勿缓存/勿回退此类响应，否则 play() 永远失败。
+var MIN_AUDIO_BYTES = 8192;
+
+function audioBodyLargeEnough(resp) {
+  if (!resp || !resp.ok) return Promise.resolve(false);
+  var len = resp.headers.get('content-length');
+  if (len != null) return Promise.resolve(Number(len) >= MIN_AUDIO_BYTES);
+  return resp.clone().arrayBuffer().then(function (buf) {
+    return buf.byteLength >= MIN_AUDIO_BYTES;
+  });
+}
+
+function fetchAudioMaybeCache(cache, request) {
+  return fetch(request).then(function (resp) {
+    return audioBodyLargeEnough(resp).then(function (ok) {
+      if (ok) cache.put(request, resp.clone());
+      return resp;
+    });
+  });
+}
+
+function cacheFirst(request) {
+  return caches.open(CACHE_AUDIO).then(function (cache) {
+    return cache.match(request).then(function (cached) {
+      if (!cached) return fetchAudioMaybeCache(cache, request);
+      return audioBodyLargeEnough(cached).then(function (ok) {
+        if (ok) return cached;
+        return cache.delete(request).then(function () {
+          return fetchAudioMaybeCache(cache, request);
+        });
+      });
+    });
+  });
+}
+
 // 静态资源:stale-while-revalidate(先回缓存,后台更新)
 function staleWhileRevalidate(request) {
   return caches.open(CACHE_STATIC).then(function (cache) {
@@ -135,6 +176,16 @@ self.addEventListener('fetch', function (event) {
   var url = new URL(request.url);
   // 跨域请求不处理
   if (url.origin !== self.location.origin) return;
+
+  // 真人发音 / 原声课文音频:cache-first
+  if (url.pathname.indexOf('/audio/pronunc/') === 0 || url.pathname.indexOf('/audio/nce/') === 0) {
+    event.respondWith(
+      cacheFirst(request).catch(function () {
+        return new Response('', { status: 404, statusText: 'Not Found' });
+      })
+    );
+    return;
+  }
 
   // API:network-first
   if (url.pathname.indexOf('/api/') === 0) {

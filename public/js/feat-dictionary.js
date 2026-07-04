@@ -8,6 +8,8 @@
   const HIST_KEY = 'nce-dict-history';
   const BOOK_KEY = 'nce-dict-book';
   const QUEUE_KEY = 'nce-dict-queue';
+  const DETAIL_CACHE_KEY = 'nce_dict_detail_cache';
+  const DETAIL_CACHE_MAX = 200;
   const HIST_MAX = 10;
   const PER_PAGE = 25;
   const LV_NAME = ['未学', '学习中', '熟悉', '已掌握'];
@@ -245,6 +247,35 @@
   let lastWords = [];
   let keyBound = false;
   const detailCache = new Map();
+
+  function loadDetailCacheFromStorage() {
+    try {
+      const raw = localStorage.getItem(DETAIL_CACHE_KEY);
+      if (!raw) return;
+      const store = JSON.parse(raw);
+      if (!store || typeof store !== 'object') return;
+      Object.keys(store)
+        .sort((a, b) => (store[b].ts || 0) - (store[a].ts || 0))
+        .slice(0, DETAIL_CACHE_MAX)
+        .forEach((k) => {
+          const entry = store[k];
+          if (entry && entry.data) detailCache.set(k, entry.data);
+        });
+    } catch (e) { /* ignore */ }
+  }
+
+  function persistDetailCacheEntry(key, data) {
+    try {
+      let store = {};
+      try { store = JSON.parse(localStorage.getItem(DETAIL_CACHE_KEY) || '{}'); } catch (e) { store = {}; }
+      store[key] = { data, ts: Date.now() };
+      const keys = Object.keys(store).sort((a, b) => (store[b].ts || 0) - (store[a].ts || 0));
+      while (keys.length > DETAIL_CACHE_MAX) delete store[keys.pop()];
+      localStorage.setItem(DETAIL_CACHE_KEY, JSON.stringify(store));
+    } catch (e) { /* ignore */ }
+  }
+
+  loadDetailCacheFromStorage();
   const st = { book: '', q: '', page: 0, queue: null, expandDetail: false };
 
   function wordKey(word) {
@@ -450,18 +481,33 @@
     return `<button type="button" class="dict-spk" data-speak="${escapeAttr(t)}" title="朗读">🔊</button>`;
   }
 
-  function patExampleHtml(ex, q) {
-    let en = '';
-    let cn = '';
-    if (ex && typeof ex === 'object') {
-      en = ex.en || '';
-      cn = ex.cn || '';
-    } else {
-      const raw = String(ex || '');
-      en = raw.replace(/\s*[（(][^）)]+[）)]\s*$/, '').trim();
-      const m = raw.match(/[（(]([^）)]+)[）)]\s*$/);
-      cn = m ? m[1].trim() : '';
+  function normalizePatExample(ex) {
+    if (ex == null) return { en: '', cn: '' };
+    if (typeof ex === 'string') {
+      const en = ex.replace(/\s*[（(][^）)]+[）)]\s*$/, '').trim();
+      const m = ex.match(/[（(]([^）)]+)[）)]\s*$/);
+      return { en, cn: m ? m[1].trim() : '' };
     }
+    if (typeof ex === 'object') {
+      let en = ex.en != null ? ex.en : (ex.text || ex.english || '');
+      let cn = ex.cn != null ? ex.cn : (ex.zh || ex.chinese || '');
+      if (en && typeof en === 'object') {
+        cn = cn || en.cn || '';
+        en = en.en || en.text || '';
+      }
+      en = String(en || '').trim();
+      cn = String(cn || '').trim();
+      if (!en || en === '[object Object]') return { en: '', cn: '' };
+      return { en, cn };
+    }
+    const raw = String(ex);
+    const en = raw.replace(/\s*[（(][^）)]+[）)]\s*$/, '').trim();
+    const m = raw.match(/[（(]([^）)]+)[）)]\s*$/);
+    return { en, cn: m ? m[1].trim() : '' };
+  }
+
+  function patExampleHtml(ex, q) {
+    const { en, cn } = normalizePatExample(ex);
     if (!en) return '';
     return (
       '<li class="dict-pat-li">' +
@@ -590,9 +636,16 @@
 
   async function loadWordDetail(word) {
     const key = wordKey(word);
-    if (detailCache.has(key)) return detailCache.get(key);
+    if (detailCache.has(key)) {
+      const cached = detailCache.get(key);
+      persistDetailCacheEntry(key, cached);
+      return cached;
+    }
     const d = await api('/api/words/detail?word=' + encodeURIComponent(word)).catch(() => null);
-    if (d && d.word) detailCache.set(key, d);
+    if (d && d.word) {
+      detailCache.set(key, d);
+      persistDetailCacheEntry(key, d);
+    }
     return d;
   }
 
@@ -1137,16 +1190,49 @@
 
     const params = `filter=all&scope=all&q=${encodeURIComponent(q)}` +
       (st.book ? `&book=${encodeURIComponent(st.book)}` : '');
-    const d = await api('/api/words/list?' + params).catch(() => ({ words: [], count: 0 }));
+    let d;
+    let offline = false;
+    try {
+      d = await api('/api/words/list?' + params);
+    } catch (e) {
+      const offlineApi = window.NCEWordOffline;
+      if (offlineApi) {
+        try {
+          d = await offlineApi.searchWords(q, st.book || '');
+          offline = !!d.offline;
+        } catch (err) {
+          d = null;
+        }
+      }
+      if (!d) {
+        panelEl.querySelector('.dict-count').textContent = '';
+        box.innerHTML =
+          '<div class="dict-empty">词典服务暂时不可用，请确认本地服务已启动后刷新重试。<br>' +
+          '<span style="font-size:13px">若显示「当前离线」，请先联网打开一次词典以缓存数据。</span></div>';
+        return;
+      }
+    }
     lastWords = d.words || [];
     addHistory(q);
 
     if (!lastWords.length) {
       panelEl.querySelector('.dict-count').textContent = '';
-      box.innerHTML = '<div class="dict-empty">没有匹配的单词，换个关键词试试。<br><span style="font-size:13px">英文请输入完整单词；中文可搜释义</span></div>';
+      const isEngWord = /^[a-z][a-z'-]*$/i.test(q) && !/\s/.test(q);
+      box.innerHTML =
+        '<div class="dict-empty">' +
+        (isEngWord
+          ? `词库中暂无「${escapeHtml(q)}」。本词典收录新概念教材 + 全局词库，并非完整英汉词典。`
+          : '没有匹配的单词，换个关键词试试。') +
+        '<br><span style="font-size:13px">英文请输入完整单词；中文可搜释义</span></div>';
       return;
     }
 
+    if (offline) {
+      renderResults(lastWords, q);
+      const countEl = panelEl.querySelector('.dict-count');
+      countEl.textContent = '离线教材词表 · ' + countEl.textContent + '（不含全局词库）';
+      return;
+    }
     renderResults(lastWords, q);
   }
 
@@ -1198,6 +1284,17 @@
     return { q: params.get('q') || '', book: params.get('book') || '' };
   }
 
+  function warmDictApiCache() {
+    if (!navigator.onLine) return;
+    const warm = (params) =>
+      fetch('/api/words/list?' + params).catch(() => {});
+    warm('filter=all&scope=all&q=' + encodeURIComponent('hello'));
+    warm('filter=all&scope=all&q=' + encodeURIComponent('你好'));
+    for (let b = 1; b <= 4; b++) {
+      warm('filter=all&scope=all&book=' + b + '&q=' + encodeURIComponent('a'));
+    }
+  }
+
   NCE.registerFeature({
     id: 'dictionary',
     label: '查词典',
@@ -1234,6 +1331,7 @@
         }
       }
       if (!META) META = await api('/api/meta').catch(() => ({ books: [{ id: 1 }] }));
+      warmDictApiCache();
       await Promise.all([loadTotal(), loadStars()]);
       renderShell();
       if (inQueueMode()) {

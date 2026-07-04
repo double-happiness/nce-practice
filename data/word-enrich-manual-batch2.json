@@ -691,7 +691,10 @@
     "patterns": [{
       "title": "good vs well",
       "explain": "good 是形容词；well 作副词修饰动词，作形容词时仅表「健康」。",
-      "examples": ["She is good at English.", "He speaks English well."]
+      "examples": [
+        "She is good at English.（她擅长英语。）",
+        "He speaks English well.（他英语说得好。）"
+      ]
     }]
   },
   "well": {

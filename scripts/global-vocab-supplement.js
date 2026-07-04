@@ -2,6 +2,8 @@
 // 补充词表：与 BANDS 合并后用于扩充总词汇量测试词库
 // 格式：[word, pos, cn]
 
+const DAILY_WORDS = require('./global-vocab-daily');
+
 module.exports = {
   // 按 band 追加，dedupe 时全局去重
   byBand: {
@@ -19,7 +21,11 @@ module.exports = {
       ['Thursday', 'n.', '星期四'], ['Friday', 'n.', '星期五'], ['Saturday', 'n.', '星期六'], ['Sunday', 'n.', '星期日'],
     ],
     1: [
+      ...DAILY_WORDS,
       ['airplane', 'n.', '飞机'], ['bicycle', 'n.', '自行车'], ['camera', 'n.', '相机'], ['computer', 'n.', '电脑'],
+      ['file', 'n.', '文件；档案'], ['folder', 'n.', '文件夹'], ['document', 'n.', '文件；文档'],
+      ['email', 'n.', '电子邮件'], ['website', 'n.', '网站'], ['internet', 'n.', '互联网'],
+      ['download', 'v.', '下载'], ['upload', 'v.', '上传'], ['delete', 'v.', '删除'],
       ['telephone', 'n.', '电话'], ['television', 'n.', '电视'], ['refrigerator', 'n.', '冰箱'], ['washing', 'n.', '洗涤'],
       ['neighbor', 'n.', '邻居'], ['cousin', 'n.', '表/堂兄弟姐妹'], ['nephew', 'n.', '侄子/外甥'], ['niece', 'n.', '侄女/外甥女'],
       ['grandfather', 'n.', '祖父'], ['grandmother', 'n.', '祖母'], ['husband', 'n.', '丈夫'], ['wife', 'n.', '妻子'],

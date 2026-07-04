@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tf-b2-108",
+    "book": 2,
+    "lesson": 94,
+    "grammar": ["倒装"],
+    "cambridge": { "level": "egiu2", "unit": 97, "title": "Inversion", "titleCn": "倒装" },
+    "cn": "我从未见过如此美丽的湖。",
+    "explanation": "EGIU2 Unit 97：否定词置于句首引起部分倒装 Never have I seen...。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（倒装）", "answers": ["Never have I seen such a beautiful lake.", "Never before have I seen such a lake."], "cn": "我从未见过如此美丽的湖。" },
+      { "kind": "negative", "prompt": "改为陈述语序", "answers": ["I have never seen such a beautiful lake."], "cn": "我从未见过如此美丽的湖。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have you ever seen such a beautiful lake?"], "cn": "你见过如此美丽的湖吗？" },
+      { "kind": "wh", "prompt": "对「such a beautiful lake」提问", "answers": ["What have you never seen?", "What kind of lake have you never seen?"], "cn": "你从未见过什么样的湖？" }
+    ]
+  },
+  {
+    "id": "tf-b2-109",
+    "book": 2,
+    "lesson": 95,
+    "grammar": ["强调句", "强调本质"],
+    "cambridge": { "level": "egiu2", "unit": 98, "title": "Cleft sentences", "titleCn": "强调句" },
+    "cn": "正是他在事故中救了那个孩子。",
+    "explanation": "EGIU2 Unit 98：It was/were... that/who... 强调句型。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（强调句）", "answers": ["It was he who saved the child in the accident.", "It was he that saved the child."], "cn": "正是他在事故中救了那个孩子。" },
+      { "kind": "negative", "prompt": "改为普通陈述句", "answers": ["He saved the child in the accident."], "cn": "他在事故中救了那个孩子。" },
+      { "kind": "wh", "prompt": "对「he」提问", "answers": ["Who saved the child in the accident?", "Who was it that saved the child?"], "cn": "谁在事故中救了孩子？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was it he who saved the child?", "Did he save the child in the accident?"], "cn": "是他在事故中救了孩子吗？" }
+    ]
+  },
+  {
+    "id": "tf-b2-110",
+    "book": 2,
+    "lesson": 96,
+    "grammar": ["非谓语动词(分词)", "定语从句(非限制性)"],
+    "cambridge": { "level": "egiu2", "unit": 99, "title": "Non-finite clauses", "titleCn": "非谓语从句" },
+    "cn": "住在隔壁的那家人非常友善。",
+    "explanation": "EGIU2 Unit 99：现在分词短语作定语 living next door；非限制性定语从句 who are very kind。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The family living next door are very kind.", "The family who live next door, who are very kind, often help us."], "cn": "住在隔壁的那家人非常友善。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The family living next door are not very kind."], "cn": "住在隔壁的那家人并不友善。" },
+      { "kind": "wh", "prompt": "对「very kind」提问", "answers": ["What are the family living next door like?", "How are the neighbours?"], "cn": "隔壁那家人怎么样？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are the family living next door very kind?"], "cn": "住在隔壁的那家人很友善吗？" }
+    ]
+  },
+  {
+    "id": "tf-b2-111",
+    "book": 2,
+    "lesson": 90,
+    "grammar": ["词汇辨析", "比较结构"],
+    "cambridge": { "level": "egiu2", "unit": 100, "title": "Academic vocabulary", "titleCn": "词汇辨析与搭配" },
+    "cn": "研究结果与先前的理论一致。",
+    "explanation": "EGIU2 Unit 100：be consistent with 与 in line with 辨析；学术报道常用搭配。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The findings are consistent with previous theory.", "The results are in line with earlier research."], "cn": "研究结果与先前的理论一致。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The findings are not consistent with previous theory."], "cn": "研究结果与先前理论不一致。" },
+      { "kind": "wh", "prompt": "对「previous theory」提问", "answers": ["What are the findings consistent with?"], "cn": "研究结果与什么一致？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are the findings consistent with previous theory?"], "cn": "研究结果与先前理论一致吗？" }
+    ]
+  }
+]

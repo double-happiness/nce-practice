@@ -1,0 +1,397 @@
+# book=1 lesson=37 grammar=现在进行时,一般将来时
+中文: 我这周末要去看父母。
+翻译: I am going to visit my parents this weekend. | I'm going to visit my parents this weekend.
+疑问: Are you going to visit your parents this weekend?
+否定: I am not going to visit my parents this weekend.
+提问(对「my parents」提问，问"看谁"): Who are you going to visit this weekend?
+解析: be going to 表按计划打算；this weekend 时间状语。
+
+# book=1 lesson=81 grammar=一般将来时,some/any
+中文: 我们今晚准备点披萨。
+翻译: We are going to order pizza tonight. | We're going to order pizza tonight.
+疑问: Are you going to order pizza tonight?
+否定: We are not going to order pizza tonight.
+提问(对「pizza」提问，问"点什么"): What are you going to order tonight?
+解析: 点餐场景；going to 与 will 均可表打算。
+
+# book=1 lesson=93 grammar=一般将来时
+中文: 她明天要去洗牙。
+翻译: She is going to see the dentist tomorrow.
+疑问: Is she going to see the dentist tomorrow?
+否定: She is not going to see the dentist tomorrow.
+提问(对「tomorrow」提问，问"什么时候"): When is she going to see the dentist?
+解析: see the dentist 看牙医；健康日常。
+
+# book=1 lesson=109 grammar=一般将来时,现在进行时
+中文: 航班六点起飞。
+翻译: The flight is leaving at six.
+疑问: Is the flight leaving at six?
+否定: The flight is not leaving at six.
+提问(对「at six」提问，问"几点"): What time is the flight leaving?
+解析: 进行时表按时刻表发生的将来；出行高频。
+
+# book=1 lesson=29 grammar=祈使句,情态动词must
+中文: 请排队等一下。
+翻译: Please wait in line. | Please queue up.
+疑问: Do you wait in line?
+否定: Do not wait here. | Don't push in.
+提问(对「in line」提问，问"在哪里"): Where should I wait?
+解析: wait in line / queue up 排队；公共场所礼貌用语。
+
+# book=1 lesson=73 grammar=祈使句,介词
+中文: 过红绿灯再走。
+翻译: Cross the road at the traffic lights.
+疑问: Do you cross the road at the traffic lights?
+否定: Do not cross the road here. | Don't cross here.
+提问(对「the traffic lights」提问，问"在哪里"): Where should I cross the road?
+解析: 指路/过马路；traffic lights 红绿灯。
+
+# book=1 lesson=65 grammar=情态动词can,情态动词must
+中文: 你能说慢一点吗？
+翻译: Can you speak more slowly? | Could you speak more slowly?
+疑问: Can you speak more slowly?
+否定: I cannot speak more slowly.
+提问(对「more slowly」提问，问"怎样"): How can you speak?
+解析: Could you...? 比 Can 更礼貌；外语沟通高频。
+
+# book=1 lesson=65 grammar=情态动词can,情态动词must
+中文: 这里能扫码支付吗？
+翻译: Can I pay by QR code here? | Can I scan to pay here?
+疑问: Can you pay by QR code here?
+否定: You cannot pay by QR code here.
+提问(对「by QR code」提问，问"怎样支付"): How can I pay here?
+解析: 移动支付场景；by QR code 扫码。
+
+# book=1 lesson=25 grammar=there be句型,介词
+中文: 附近有一家药店。
+翻译: There is a pharmacy nearby. | There's a pharmacy nearby.
+疑问: Is there a pharmacy nearby?
+否定: There is not a pharmacy nearby.
+提问(对「a pharmacy」提问，问"有什么"): What is there nearby?
+解析: 问路找设施；pharmacy 药店。
+
+# book=1 lesson=27 grammar=there be句型,介词
+中文: 楼上没有空房间了。
+翻译: There are no vacant rooms upstairs. | There aren't any vacant rooms upstairs.
+疑问: Are there any vacant rooms upstairs?
+否定: There are not any vacant rooms upstairs.
+提问(对「upstairs」提问，问"在哪里"): Where are there vacant rooms?
+解析: 订酒店场景；vacant room 空房。
+
+# book=1 lesson=55 grammar=频率副词,一般现在时
+中文: 他几乎不喝咖啡。
+翻译: He hardly ever drinks coffee.
+疑问: Does he hardly ever drink coffee?
+否定: He does not drink coffee often.
+提问(对「coffee」提问，问"什么"): What does he hardly ever drink?
+解析: hardly ever 几乎不；频率副词。
+
+# book=1 lesson=71 grammar=一般现在时,频率副词,疑问句
+中文: 你多久理一次发？
+翻译: How often do you get a haircut?
+疑问: Do you get a haircut often?
+否定: I do not get a haircut often.
+提问(对「a haircut」提问，问"做什么"): What do you get often?
+解析: How often 询问频率；理发日常。
+
+# book=1 lesson=43 grammar=现在进行时,疑问句
+中文: 爸爸正在修自行车。
+翻译: Dad is fixing the bicycle. | Father is repairing the bike.
+疑问: Is Dad fixing the bicycle?
+否定: Dad is not fixing the bicycle.
+提问(对「the bicycle」提问，问"什么"): What is Dad fixing?
+解析: 居家维修；fix/repair 修理。
+
+# book=1 lesson=33 grammar=现在进行时,介词
+中文: 邻居正在遛狗。
+翻译: The neighbour is walking the dog. | The neighbor is walking the dog.
+疑问: Is the neighbour walking the dog?
+否定: The neighbour is not walking the dog.
+提问(对「the dog」提问，问"什么"): What is the neighbour walking?
+解析: walk the dog 遛狗；社区生活场景。
+
+# book=1 lesson=11 grammar=物主代词,疑问句
+中文: 那是你的座位吗？
+翻译: Is that your seat?
+疑问: Is that your seat?
+否定: That is not your seat.
+提问(对「your seat」提问，问"谁的"): Whose seat is that?
+解析: 电影院/餐厅找座位；your seat。
+
+# book=1 lesson=41 grammar=物主代词,名词所有格
+中文: 这是我丈夫的护照。
+翻译: This is my husband's passport.
+疑问: Is this your husband's passport?
+否定: This is not my husband's passport.
+提问(对「my husband's」提问，问"谁的"): Whose passport is this?
+解析: 机场海关；名词所有格。
+
+# book=1 lesson=47 grammar=some/any,可数不可数
+中文: 你要来点茶吗？
+翻译: Would you like some tea?
+疑问: Would you like some tea?
+否定: I would not like any tea.
+提问(对「tea」提问，问"什么"): What would you like?
+解析: Would you like some...? 待客敬语。
+
+# book=1 lesson=79 grammar=some/any,可数不可数
+中文: 篮子里还有几个苹果。
+翻译: There are a few apples left in the basket.
+疑问: Are there any apples left in the basket?
+否定: There are not any apples left in the basket.
+提问(对「apples」提问，问"什么"): What is left in the basket?
+解析: 购物/做饭；a few 几个。
+
+# book=1 lesson=13 grammar=疑问句,be动词
+中文: 今天太热了。
+翻译: It is too hot today. | It's too hot today.
+疑问: Is it too hot today?
+否定: It is not too hot today.
+提问(对「too hot」提问，问"怎么样"): How is the weather today?
+解析: 谈论天气；It is + 形容词。
+
+# book=1 lesson=5 grammar=be动词,人称代词
+中文: 现在是下午三点。
+翻译: It is three o'clock in the afternoon. | It's three p.m.
+疑问: Is it three o'clock in the afternoon?
+否定: It is not three o'clock yet.
+提问(对「three o'clock」提问，问"几点"): What time is it?
+解析: 问时间/说时间；日常极高频。
+
+# book=2 lesson=96 grammar=一般过去时,had better
+中文: 你最好带上雨伞。
+翻译: You had better take an umbrella. | You'd better take an umbrella.
+疑问: Had you better take an umbrella?
+否定: You had better not take an umbrella.
+提问(对「an umbrella」提问，问"带什么"): What had you better take?
+解析: had better 表建议「最好」；否定 better not。
+
+# book=2 lesson=96 grammar=一般过去时,had better
+中文: 我们最好现在就走，不然会迟到。
+翻译: We had better leave now, or we will be late.
+疑问: Had we better leave now?
+否定: We had better not leave now.
+提问(对「now」提问，问"什么时候"): When had we better leave?
+解析: or we will be late 否则将迟到；出行赶时间。
+
+# book=2 lesson=96 grammar=had better,would rather
+中文: 你最好提前订位。
+翻译: You had better book a table in advance.
+疑问: Had you better book a table in advance?
+否定: You had better not book a table in advance.
+提问(对「a table」提问，问"订什么"): What had you better book in advance?
+解析: book a table 订餐桌；餐厅预约。
+
+# book=2 lesson=96 grammar=had better,would rather
+中文: 我宁愿在家休息。
+翻译: I would rather stay at home. | I'd rather stay at home.
+疑问: Would you rather stay at home?
+否定: I would rather not stay at home.
+提问(对「stay at home」提问，问"宁愿做什么"): What would you rather do?
+解析: would rather 宁愿；后接动词原形。
+
+# book=2 lesson=96 grammar=had better,would rather
+中文: 他宁愿走路也不开车。
+翻译: He would rather walk than drive.
+疑问: Would he rather walk than drive?
+否定: He would rather not walk.
+提问(对「walk」提问，问"宁愿做什么"): What would he rather do than drive?
+解析: would rather... than... 宁愿……而不……
+
+# book=2 lesson=59 grammar=too...to,enough...to
+中文: 这杯咖啡太烫了，没法喝。
+翻译: The coffee is too hot to drink.
+疑问: Is the coffee too hot to drink?
+否定: The coffee is not too hot to drink.
+提问(对「too hot」提问，问"怎么样"): How hot is the coffee?
+解析: too + 形容词 + to do 太……而不能。
+
+# book=2 lesson=85 grammar=too...to,enough...to
+中文: 这个箱子太重了，我搬不动。
+翻译: This suitcase is too heavy to carry.
+疑问: Is this suitcase too heavy to carry?
+否定: This suitcase is not too heavy to carry.
+提问(对「too heavy」提问，问"怎么样"): How heavy is this suitcase?
+解析: 旅行搬行李；too heavy to carry。
+
+# book=2 lesson=59 grammar=too...to,enough...to
+中文: 房间够大，住得下我们四个人。
+翻译: The room is big enough for four of us.
+疑问: Is the room big enough for four of us?
+否定: The room is not big enough for four of us.
+提问(对「four of us」提问，问"够谁住"): Who is the room big enough for?
+解析: enough + 形容词 + for 足够……。
+
+# book=2 lesson=82 grammar=一般过去时,反意疑问句
+中文: 你点了沙拉，对吗？
+翻译: You ordered the salad, didn't you?
+疑问: Did you order the salad?
+否定: You did not order the salad.
+提问(对「the salad」提问，问"什么"): What did you order?
+解析: 反意疑问句：前肯后否 didn't you；餐厅点餐确认。
+
+# book=2 lesson=82 grammar=一般过去时,反意疑问句
+中文: 她会游泳，不是吗？
+翻译: She can swim, can't she?
+疑问: Can she swim?
+否定: She cannot swim.
+提问(对「swim」提问，问"做什么"): What can she do?
+解析: 反意疑问句与情态动词 can 连用；can't she。
+
+# book=2 lesson=54 grammar=过去进行时,现在完成进行时
+中文: 我已经等了二十分钟了。
+翻译: I have been waiting for twenty minutes.
+疑问: Have you been waiting for twenty minutes?
+否定: I have not been waiting for twenty minutes.
+提问(对「twenty minutes」提问，问"多久"): How long have you been waiting?
+解析: 现在完成进行时 have been doing；How long 提问时长。
+
+# book=2 lesson=68 grammar=现在完成进行时,一般过去时
+中文: 她最近一直在家办公。
+翻译: She has been working from home lately.
+疑问: Has she been working from home lately?
+否定: She has not been working from home lately.
+提问(对「from home」提问，问"在哪里办公"): Where has she been working lately?
+解析: lately 最近；远程办公场景。
+
+# book=2 lesson=78 grammar=现在完成时,现在完成进行时
+中文: 我一直在找停车位。
+翻译: I have been looking for a parking space.
+疑问: Have you been looking for a parking space?
+否定: I have not been looking for a parking space.
+提问(对「a parking space」提问，问"找什么"): What have you been looking for?
+解析: look for 寻找；停车难的生活场景。
+
+# book=2 lesson=64 grammar=一般过去时,比较级
+中文: 我昨天在超市排了很久的队。
+翻译: I waited in a long queue at the supermarket yesterday.
+疑问: Did you wait in a long queue at the supermarket yesterday?
+否定: I did not wait in a long queue yesterday.
+提问(对「at the supermarket」提问，问"在哪里"): Where did you wait in a long queue yesterday?
+解析: queue 排队；supermarket 超市。
+
+# book=2 lesson=64 grammar=一般过去时
+中文: 他忘了给手机充电。
+翻译: He forgot to charge his phone.
+疑问: Did he forget to charge his phone?
+否定: He did not forget to charge his phone.
+提问(对「his phone」提问，问"什么"): What did he forget to charge?
+解析: forget to do 忘记去做；charge 充电。
+
+# book=2 lesson=29 grammar=现在完成时,一般过去时
+中文: 我还没订酒店。
+翻译: I have not booked a hotel yet. | I haven't booked a hotel yet.
+疑问: Have you booked a hotel yet?
+否定: I have not booked a hotel yet.
+提问(对「a hotel」提问，问"什么"): What haven't you booked yet?
+解析: 旅行准备；yet 用于否定/疑问。
+
+# book=2 lesson=11 grammar=现在完成时
+中文: 我去过那家咖啡馆两次。
+翻译: I have been to that cafe twice.
+疑问: Have you been to that cafe twice?
+否定: I have not been to that cafe twice.
+提问(对「that cafe」提问，问"哪里"): Where have you been twice?
+解析: have been to 去过（已回）；twice 两次。
+
+# book=2 lesson=22 grammar=现在完成时,一般过去时
+中文: 你尝过这道菜吗？
+翻译: Have you tried this dish?
+疑问: Have you tried this dish?
+否定: I have not tried this dish.
+提问(对「this dish」提问，问"什么"): What have you tried?
+解析: 餐厅推荐菜品；try 尝试。
+
+# book=2 lesson=12 grammar=一般将来时
+中文: 快递明天送到。
+翻译: The parcel will arrive tomorrow. | The package will arrive tomorrow.
+疑问: Will the parcel arrive tomorrow?
+否定: The parcel will not arrive tomorrow.
+提问(对「tomorrow」提问，问"什么时候"): When will the parcel arrive?
+解析: 网购收货；parcel/package 包裹。
+
+# book=2 lesson=36 grammar=一般将来时,将来进行时
+中文: 下周这个时候我在出差。
+翻译: I will be on a business trip at this time next week.
+疑问: Will you be on a business trip at this time next week?
+否定: I will not be on a business trip then.
+提问(对「next week」提问，问"什么时候"): When will you be on a business trip?
+解析: 将来进行时表将来某刻状态；出差场景。
+
+# book=2 lesson=10 grammar=被动语态
+中文: 电梯正在维修。
+翻译: They are repairing the lift. | They are fixing the elevator.
+被动: The lift is being repaired. | The elevator is being repaired.
+解析: 现在进行被动 is being + 过去分词；公共设施。
+
+# book=2 lesson=21 grammar=被动语态
+中文: 有人偷了我的自行车。
+翻译: Someone stole my bicycle.
+被动: My bicycle was stolen.
+解析: 一般过去被动 was stolen；报案场景。
+
+# book=2 lesson=48 grammar=间接引语,过去完成时
+中文: 他问：「厕所在哪里？」
+翻译: He asked, "Where is the toilet?"
+引语: He asked where the toilet was.
+解析: 间接引语 wh- 疑问句语序变化；where is → where was。
+
+# book=2 lesson=69 grammar=过去完成时,间接引语
+中文: 她告诉我：「别忘记带钥匙。」
+翻译: She told me, "Don't forget your keys."
+引语: She told me not to forget my keys.
+解析: 祈使句转间接引语 tell sb not to do。
+
+# book=2 lesson=15 grammar=间接引语
+中文: 他说：「我已经到了。」
+翻译: He said, "I have arrived." | He said, "I've arrived."
+引语: He said that he had arrived.
+解析: 现在完成时转间接引语 have arrived → had arrived。
+
+# book=2 lesson=8 grammar=比较级和最高级
+中文: 今天比昨天冷多了。
+翻译: It is much colder today than yesterday.
+疑问: Is it much colder today than yesterday?
+否定: It is not much colder today than yesterday.
+提问(对「yesterday」提问，问"比什么时候"): When is it much colder than?
+解析: 比较级 colder than；谈论天气变化。
+
+# book=2 lesson=73 grammar=一般过去时,比较级,最高级
+中文: 走路去车站比打车快。
+翻译: Walking to the station is faster than taking a taxi.
+疑问: Is walking to the station faster than taking a taxi?
+否定: Walking to the station is not faster than taking a taxi.
+提问(对「taking a taxi」提问，问"比什么"): What is walking faster than?
+解析: 动名词比较；出行方式选择。
+
+# book=2 lesson=6 grammar=一般现在时,冠词
+中文: 她每晚睡七个小时。
+翻译: She sleeps seven hours every night.
+疑问: Does she sleep seven hours every night?
+否定: She does not sleep seven hours every night.
+提问(对「seven hours」提问，问"多久"): How long does she sleep every night?
+解析: 健康作息；every night 每晚。
+
+# book=2 lesson=2 grammar=一般现在时,现在进行时
+中文: 他正在给客户回邮件。
+翻译: He is replying to a client by email.
+疑问: Is he replying to a client by email?
+否定: He is not replying to a client by email.
+提问(对「a client」提问，问"谁"): Who is he replying to by email?
+解析: 职场日常；reply to 回复。
+
+# book=1 lesson=131 grammar=一般将来时,祈使句
+中文: 周末会下雨。
+翻译: It will rain at the weekend. | It'll rain this weekend.
+疑问: Will it rain at the weekend?
+否定: It will not rain at the weekend.
+提问(对「at the weekend」提问，问"什么时候"): When will it rain?
+解析: will 预测天气；at the weekend 在周末。
+
+# book=1 lesson=95 grammar=一般将来时
+中文: 我下个月要换手机。
+翻译: I will change my phone next month. | I'm going to change my phone next month.
+疑问: Will you change your phone next month?
+否定: I will not change my phone next month.
+提问(对「next month」提问，问"什么时候"): When will you change your phone?
+解析: 换手机/数码消费；next month 下月。

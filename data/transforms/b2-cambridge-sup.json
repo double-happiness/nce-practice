@@ -1,0 +1,77 @@
+[
+  {
+    "id": "tf-b2-103",
+    "book": 2,
+    "lesson": 18,
+    "grammar": ["反义疑问句", "反意疑问句"],
+    "cambridge": { "level": "egiu2", "unit": 48, "title": "Reported speech 2", "titleCn": "反意疑问句" },
+    "cn": "你会来，是吗？",
+    "explanation": "EGIU2 Unit 48：前肯后否，will 对应 won't you。反意疑问句与间接引语常同课出现。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（含反意疑问）", "answers": ["You will come, won't you?", "You'll come, won't you?"], "cn": "你会来，是吗？" },
+      { "kind": "yesno", "prompt": "去掉反意疑问，改为一般疑问句", "answers": ["Will you come?"], "cn": "你会来吗？" },
+      { "kind": "negative", "prompt": "改为否定陈述句", "answers": ["You will not come.", "You won't come."], "cn": "你不会来。" },
+      { "kind": "indirect", "prompt": "改为间接引语（She asked if...）", "answers": ["She asked if I would come.", "He asked whether you would come."], "cn": "她问我是否会来。" }
+    ]
+  },
+  {
+    "id": "tf-b2-104",
+    "book": 2,
+    "lesson": 31,
+    "grammar": ["used to"],
+    "cambridge": { "level": "egiu2", "unit": 18, "title": "Used to", "titleCn": "used to 过去习惯" },
+    "cn": "他过去常在这里工作。",
+    "explanation": "EGIU2 Unit 18：used to + 原形表过去习惯；疑问 Did...use to? 否定 didn't use to。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He used to work here."], "cn": "他过去常在这里工作。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He didn't use to work here.", "He used not to work here."], "cn": "他过去不常在这里工作。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he use to work here?"], "cn": "他过去常在这里工作吗？" },
+      { "kind": "wh", "prompt": "对「here」提问", "answers": ["Where did he use to work?"], "cn": "他过去在哪里工作？" }
+    ]
+  },
+  {
+    "id": "tf-b2-105",
+    "book": 2,
+    "lesson": 10,
+    "grammar": ["被动语态"],
+    "cambridge": { "level": "egiu2", "unit": 41, "title": "Passive 1", "titleCn": "被动语态（1）" },
+    "cn": "人们把垃圾扔进河里。",
+    "explanation": "EGIU2 Unit 41：主动语态转被动 be + 过去分词；by 引出执行者（可省略）。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（主动）", "answers": ["People throw rubbish into the river.", "They throw waste into the river."], "cn": "人们把垃圾扔进河里。" },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["Rubbish is thrown into the river.", "Waste is thrown into the river by people."], "cn": "垃圾被扔进河里。" },
+      { "kind": "wh", "prompt": "对「into the river」提问", "answers": ["Where is rubbish thrown?", "Where is the waste thrown?"], "cn": "垃圾被扔到哪里？" },
+      { "kind": "negative", "prompt": "改为否定句（被动）", "answers": ["Rubbish is not thrown into the river.", "Waste isn't thrown into the river."], "cn": "垃圾不被扔进河里。" }
+    ]
+  },
+  {
+    "id": "tf-b2-106",
+    "book": 2,
+    "lesson": 8,
+    "grammar": ["比较级和最高级", "比较级", "最高级"],
+    "cambridge": { "level": "egiu2", "unit": 85, "title": "Comparatives / superlatives", "titleCn": "比较级与最高级" },
+    "cn": "乔的花园是镇上最好的。",
+    "explanation": "EGIU2 Unit 85：in the town 范围内用最高级 the best；比较用 better than。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Joe's garden is the best in the town.", "Joe has the best garden in town."], "cn": "乔的花园是镇上最好的。" },
+      { "kind": "wh", "prompt": "对「the best in the town」提问", "answers": ["Which garden is the best in the town?", "Whose garden is the best in town?"], "cn": "镇上哪个花园最好？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Joe's garden is not the best in the town."], "cn": "乔的花园不是镇上最好的。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is Joe's garden the best in the town?"], "cn": "乔的花园是镇上最好的吗？" }
+    ]
+  },
+  {
+    "id": "tf-b2-107",
+    "book": 2,
+    "lesson": 77,
+    "grammar": ["间接引语"],
+    "cambridge": { "level": "egiu2", "unit": 47, "title": "Reported speech 1", "titleCn": "间接引语（1）" },
+    "cn": "他说：「我累了。」",
+    "explanation": "EGIU2 Unit 47：直接引语改间接引语，时态后移 said → was tired。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["He said, \"I am tired.\"", "He said, \"I'm tired.\""], "cn": "他说：「我累了。」" },
+      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["He said that he was tired.", "He said he was tired."], "cn": "他说他累了。" },
+      { "kind": "negative", "prompt": "间接引语改为否定", "answers": ["He said that he was not tired.", "He said he wasn't tired."], "cn": "他说他不累。" },
+      { "kind": "yesno", "prompt": "改为一般疑问（Did he say...?）", "answers": ["Did he say that he was tired?", "Did he say he was tired?"], "cn": "他说他累了吗？" }
+    ]
+  }
+]

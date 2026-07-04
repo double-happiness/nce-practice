@@ -1,0 +1,479 @@
+# book=1 lesson=93 grammar=一般将来时
+中文: 我明天要去医院挂号。
+翻译: I am going to register at the hospital tomorrow. | I'm going to register at the hospital tomorrow.
+疑问: Are you going to register at the hospital tomorrow?
+否定: I am not going to register at the hospital tomorrow.
+提问(对「tomorrow」提问，问"什么时候"): When are you going to register at the hospital?
+解析: register at the hospital 挂号；医疗场景高频。
+
+# book=1 lesson=81 grammar=一般现在时
+中文: 医生每周三上午坐诊。
+翻译: The doctor works on Wednesday mornings.
+疑问: Does the doctor work on Wednesday mornings?
+否定: The doctor does not work on Wednesday mornings.
+提问(对「Wednesday mornings」提问，问"什么时候"): When does the doctor work?
+解析: 一般现在时表固定安排；work 表出诊。
+
+# book=1 lesson=85 grammar=现在完成时
+中文: 他已经发烧两天了。
+翻译: He has had a fever for two days.
+疑问: Has he had a fever for two days?
+否定: He has not had a fever for two days.
+提问(对「two days」提问，问"多久"): How long has he had a fever?
+解析: have a fever 发烧；for + 时间段与现在完成时连用。
+
+# book=1 lesson=89 grammar=现在完成时
+中文: 她吃过药后感觉好多了。
+翻译: She has felt much better after taking the medicine.
+疑问: Has she felt much better after taking the medicine?
+否定: She has not felt much better after taking the medicine.
+提问(对「the medicine」提问，问"吃了什么之后"): What has she felt much better after taking?
+解析: feel better 感觉好转；after taking 介词短语。
+
+# book=1 lesson=73 grammar=祈使句
+中文: 请张开嘴，说"啊"。
+翻译: Please open your mouth and say "ah".
+疑问: Do you open your mouth and say "ah"?
+否定: Do not close your mouth.
+提问(对「your mouth」提问，问"张开什么"): What should I open?
+解析: 看医生时常见指令；祈使句表要求。
+
+# book=1 lesson=29 grammar=情态动词must,祈使句
+中文: 你必须空腹做这项检查。
+翻译: You must do this test on an empty stomach.
+疑问: Must you do this test on an empty stomach?
+否定: You must not eat before this test.
+提问(对「this test」提问，问"做什么"): What must you do on an empty stomach?
+解析: on an empty stomach 空腹；must 表医嘱要求。
+
+# book=1 lesson=61 grammar=情态动词must
+中文: 伤口必须保持干燥。
+翻译: The wound must be kept dry.
+疑问: Must the wound be kept dry?
+否定: The wound must not get wet.
+提问(对「dry」提问，问"必须保持怎样"): How must the wound be kept?
+解析: must be kept 必须被保持；被动含义。
+
+# book=1 lesson=65 grammar=情态动词must,had better
+中文: 你最好每天按时吃药。
+翻译: You had better take the medicine on time every day.
+疑问: Had you better take the medicine on time every day?
+否定: You had better not skip the medicine.
+提问(对「every day」提问，问"多久一次"): How often had you better take the medicine?
+解析: take medicine 吃药；on time 按时。
+
+# book=1 lesson=37 grammar=现在进行时
+中文: 护士正在给我量血压。
+翻译: The nurse is taking my blood pressure.
+疑问: Is the nurse taking your blood pressure?
+否定: The nurse is not taking my blood pressure.
+提问(对「my blood pressure」提问，问"量什么"): What is the nurse taking?
+解析: take blood pressure 量血压；诊疗现场进行时。
+
+# book=1 lesson=39 grammar=祈使句,some/any
+中文: 请描述一下你的症状。
+翻译: Please describe your symptoms.
+疑问: Do you describe your symptoms?
+否定: Do not hide your symptoms.
+提问(对「your symptoms」提问，问"描述什么"): What should I describe?
+解析: describe symptoms 描述症状；挂号问诊常用。
+
+# book=2 lesson=4 grammar=现在完成时
+中文: 我已经预约了下周的体检。
+翻译: I have made an appointment for a check-up next week.
+疑问: Have you made an appointment for a check-up next week?
+否定: I have not made an appointment for a check-up next week.
+提问(对「next week」提问，问"什么时候"): When have you made an appointment for a check-up?
+解析: make an appointment 预约；check-up 体检。
+
+# book=2 lesson=11 grammar=现在完成时
+中文: 他从未对青霉素过敏。
+翻译: He has never been allergic to penicillin.
+疑问: Has he ever been allergic to penicillin?
+否定: He has never been allergic to penicillin.
+提问(对「penicillin」提问，问"对什么过敏"): What has he never been allergic to?
+解析: be allergic to 对……过敏；never 与完成时连用。
+
+# book=2 lesson=14 grammar=现在完成时,被动语态
+中文: 化验结果已经出来了。
+翻译: The test results have come out.
+疑问: Have the test results come out?
+否定: The test results have not come out yet.
+提问(对「the test results」提问，问"什么出来了"): What has come out?
+解析: test results 化验结果；come out 出来。
+
+# book=1 lesson=51 grammar=一般过去时
+中文: 我昨天在银行取了五百元。
+翻译: I withdrew five hundred yuan at the bank yesterday.
+疑问: Did you withdraw five hundred yuan at the bank yesterday?
+否定: I did not withdraw five hundred yuan at the bank yesterday.
+提问(对「five hundred yuan」提问，问"取多少"): How much did you withdraw at the bank yesterday?
+解析: withdraw money 取款；银行办事高频。
+
+# book=1 lesson=67 grammar=一般过去时
+中文: 她上个月开了储蓄账户。
+翻译: She opened a savings account last month.
+疑问: Did she open a savings account last month?
+否定: She did not open a savings account last month.
+提问(对「last month」提问，问"什么时候"): When did she open a savings account?
+解析: savings account 储蓄账户；open an account 开户。
+
+# book=1 lesson=71 grammar=一般过去时,there be句型
+中文: 柜台前有三个人在排队。
+翻译: There were three people waiting in line at the counter.
+疑问: Were there three people waiting in line at the counter?
+否定: There were not three people waiting in line at the counter.
+提问(对「three people」提问，问"有多少人"): How many people were waiting in line at the counter?
+解析: at the counter 在柜台前；there were 过去存在。
+
+# book=2 lesson=10 grammar=被动语态
+中文: 这笔钱昨天被转到了我的账户。
+翻译: The money was transferred to my account yesterday.
+疑问: Was the money transferred to your account yesterday?
+否定: The money was not transferred to my account yesterday.
+提问(对「my account」提问，问"转到哪里"): Where was the money transferred yesterday?
+解析: be transferred to 被转到；网银转账场景。
+
+# book=2 lesson=21 grammar=被动语态
+中文: 信用卡每年都要还。
+翻译: The credit card must be paid off every year.
+疑问: Must the credit card be paid off every year?
+否定: The credit card must not be left unpaid.
+提问(对「every year」提问，问"多久还一次"): How often must the credit card be paid off?
+解析: pay off 还清；信用卡还款。
+
+# book=2 lesson=23 grammar=被动语态,定语从句
+中文: 我弄丢了昨天办的那张银行卡。
+翻译: I lost the bank card that I got yesterday.
+疑问: Did you lose the bank card that you got yesterday?
+否定: I did not lose the bank card that I got yesterday.
+提问(对「the bank card」提问，问"丢了什么"): What did you lose that you got yesterday?
+解析: bank card 银行卡；定语从句修饰 card。
+
+# book=1 lesson=81 grammar=some/any,一般将来时
+中文: 我想换一些零钱。
+翻译: I would like to change some money into smaller bills.
+疑问: Would you like to change some money into smaller bills?
+否定: I would not like to change any money today.
+提问(对「smaller bills」提问，问"换成什么"): What would you like to change some money into?
+解析: change money 换零钱；银行窗口常用。
+
+# book=1 lesson=99 grammar=比较级
+中文: 活期利率比定期低。
+翻译: The interest rate on current accounts is lower than that on fixed deposits.
+疑问: Is the interest rate on current accounts lower than that on fixed deposits?
+否定: The interest rate on current accounts is not lower than that on fixed deposits.
+提问(对「fixed deposits」提问，问"比什么低"): What is the interest rate on current accounts lower than?
+解析: interest rate 利率；current vs fixed 活期定期。
+
+# book=2 lesson=8 grammar=最高级
+中文: 这是附近最方便的ATM。
+翻译: This is the most convenient ATM nearby.
+疑问: Is this the most convenient ATM nearby?
+否定: This is not the most convenient ATM nearby.
+提问(对「nearby」提问，问"在哪里"): Where is the most convenient ATM?
+解析: ATM 自动取款机；最高级表最佳选择。
+
+# book=1 lesson=43 grammar=一般现在时,频率副词
+中文: 我通常在手机银行上查余额。
+翻译: I usually check my balance on mobile banking.
+疑问: Do you usually check your balance on mobile banking?
+否定: I do not usually check my balance on mobile banking.
+提问(对「on mobile banking」提问，问"在哪里查"): Where do you usually check your balance?
+解析: check balance 查余额；mobile banking 手机银行。
+
+# book=1 lesson=55 grammar=一般过去时
+中文: 店员说这件衣服可以退换。
+翻译: The shop assistant said this item could be returned or exchanged.
+疑问: Did the shop assistant say this item could be returned or exchanged?
+否定: The shop assistant did not say this item could be returned or exchanged.
+提问(对「this item」提问，问"什么可以退换"): What did the shop assistant say could be returned or exchanged?
+解析: return or exchange 退换货；购物售后。
+
+# book=1 lesson=77 grammar=间接引语
+中文: 顾客要求全额退款。
+翻译: The customer asked for a full refund.
+疑问: Did the customer ask for a full refund?
+否定: The customer did not ask for a full refund.
+提问(对「a full refund」提问，问"要求什么"): What did the customer ask for?
+解析: ask for a refund 要求退款；售后纠纷。
+
+# book=1 lesson=91 grammar=间接引语,一般过去时
+中文: 卖家答应三天内发货。
+翻译: The seller promised to ship the order within three days.
+疑问: Did the seller promise to ship the order within three days?
+否定: The seller did not promise to ship the order within three days.
+提问(对「within three days」提问，问"多久内"): How soon did the seller promise to ship the order?
+解析: ship the order 发货；网购承诺。
+
+# book=2 lesson=17 grammar=情态动词must,被动语态
+中文: 小票必须随货退回。
+翻译: The receipt must be returned with the goods.
+疑问: Must the receipt be returned with the goods?
+否定: The receipt must not be missing when you return the goods.
+提问(对「the goods」提问，问"随什么退回"): What must the receipt be returned with?
+解析: return with 随……退回；退货规定。
+
+# book=1 lesson=105 grammar=too...to
+中文: 尺码太小了，穿不了。
+翻译: The size is too small to wear.
+疑问: Is the size too small to wear?
+否定: The size is not too small to wear.
+提问(对「to wear」提问，问"太小以至于不能怎样"): What is the size too small to do?
+解析: too small to wear 太小穿不了；换货理由。
+
+# book=1 lesson=107 grammar=enough to
+中文: 这条裙子够长，不用换大一码。
+翻译: This dress is long enough, so I do not need a larger size.
+疑问: Is this dress long enough, so you do not need a larger size?
+否定: This dress is not long enough, so I need a larger size.
+提问(对「a larger size」提问，问"不用换什么"): What size do you not need because the dress is long enough?
+解析: long enough 够长；试衣间对话。
+
+# book=1 lesson=49 grammar=一般过去时
+中文: 包裹送错了地址。
+翻译: The parcel was delivered to the wrong address.
+疑问: Was the parcel delivered to the wrong address?
+否定: The parcel was not delivered to the wrong address.
+提问(对「the wrong address」提问，问"送到哪里"): Where was the parcel delivered?
+解析: wrong address 错误地址；快递纠纷。
+
+# book=1 lesson=63 grammar=一般过去时,there be句型
+中文: 盒子里少了一件商品。
+翻译: There was one item missing from the box.
+疑问: Was there one item missing from the box?
+否定: There was not one item missing from the box.
+提问(对「one item」提问，问"少了什么"): What was missing from the box?
+解析: missing from 从……缺少；拆箱验货。
+
+# book=2 lesson=25 grammar=现在完成进行时
+中文: 快递一直在路上耽搁。
+翻译: The delivery has been delayed on the road.
+疑问: Has the delivery been delayed on the road?
+否定: The delivery has not been delayed on the road.
+提问(对「on the road」提问，问"在哪里耽搁"): Where has the delivery been delayed?
+解析: be delayed 被耽搁；查物流状态。
+
+# book=1 lesson=33 grammar=现在进行时
+中文: 我正在填写退货申请表。
+翻译: I am filling in the return form.
+疑问: Are you filling in the return form?
+否定: I am not filling in the return form.
+提问(对「the return form」提问，问"填什么"): What are you filling in?
+解析: return form 退货申请表；售后流程。
+
+# book=1 lesson=45 grammar=祈使句
+中文: 请保留原包装和吊牌。
+翻译: Please keep the original packaging and tags.
+疑问: Do you keep the original packaging and tags?
+否定: Do not throw away the original packaging.
+提问(对「the original packaging」提问，问"保留什么"): What should I keep?
+解析: original packaging 原包装；退货条件。
+
+# book=2 lesson=6 grammar=现在完成时
+中文: 我已经把瑕疵拍成照片发给客服了。
+翻译: I have taken photos of the defect and sent them to customer service.
+疑问: Have you taken photos of the defect and sent them to customer service?
+否定: I have not taken photos of the defect and sent them to customer service yet.
+提问(对「customer service」提问，问"发给谁"): Who have you sent the photos of the defect to?
+解析: customer service 客服；网购维权取证。
+
+# book=1 lesson=57 grammar=一般过去时
+中文: 会议十点才开始。
+翻译: The meeting did not start until ten o'clock.
+疑问: Did the meeting start until ten o'clock?
+否定: The meeting did not start until ten o'clock.
+提问(对「ten o'clock」提问，问"几点才开始"): What time did the meeting start?
+解析: not...until 直到……才；职场会议。
+
+# book=1 lesson=59 grammar=一般过去时
+中文: 老板昨天批准了我的请假。
+翻译: My boss approved my leave yesterday.
+疑问: Did your boss approve your leave yesterday?
+否定: My boss did not approve my leave yesterday.
+提问(对「my leave」提问，问"批准了什么"): What did your boss approve yesterday?
+解析: approve leave 批准请假；职场常用。
+
+# book=2 lesson=12 grammar=现在完成时
+中文: 项目截止日期提前了一周。
+翻译: The project deadline has been moved up by a week.
+疑问: Has the project deadline been moved up by a week?
+否定: The project deadline has not been moved up by a week.
+提问(对「a week」提问，问"提前多久"): How much has the project deadline been moved up?
+解析: deadline 截止日期；move up 提前。
+
+# book=2 lesson=19 grammar=定语从句
+中文: 这是我上周加班完成的那份报告。
+翻译: This is the report that I finished while working overtime last week.
+疑问: Is this the report that you finished while working overtime last week?
+否定: This is not the report that I finished while working overtime last week.
+提问(对「the report」提问，问"哪份报告"): Which report did you finish while working overtime last week?
+解析: work overtime 加班；定语从句修饰 report。
+
+# book=1 lesson=41 grammar=一般现在时
+中文: 同事们通常中午一起吃饭。
+翻译: My colleagues usually have lunch together at noon.
+疑问: Do your colleagues usually have lunch together at noon?
+否定: My colleagues do not usually have lunch together at noon.
+提问(对「at noon」提问，问"什么时候"): When do your colleagues usually have lunch together?
+解析: have lunch together 一起吃午饭；办公室日常。
+
+# book=1 lesson=47 grammar=一般将来时
+中文: 我们下午三点开会讨论预算。
+翻译: We are going to have a meeting at three p.m. to discuss the budget.
+疑问: Are you going to have a meeting at three p.m. to discuss the budget?
+否定: We are not going to have a meeting at three p.m. to discuss the budget.
+提问(对「the budget」提问，问"讨论什么"): What are you going to discuss at the meeting at three p.m.?
+解析: discuss the budget 讨论预算；会议安排。
+
+# book=2 lesson=2 grammar=一般过去时
+中文: 他昨晚熬夜赶工了。
+翻译: He stayed up late to finish the work last night.
+疑问: Did he stay up late to finish the work last night?
+否定: He did not stay up late to finish the work last night.
+提问(对「last night」提问，问"什么时候"): When did he stay up late to finish the work?
+解析: stay up late 熬夜；赶 deadline 场景。
+
+# book=1 lesson=75 grammar=祈使句,would rather
+中文: 我宁愿今天在家办公。
+翻译: I would rather work from home today.
+疑问: Would you rather work from home today?
+否定: I would rather not go to the office today.
+提问(对「today」提问，问"什么时候"): When would you rather work from home?
+解析: work from home 在家办公；远程工作选择。
+
+# book=2 lesson=15 grammar=现在完成时
+中文: 她在这家公司工作了五年。
+翻译: She has worked for this company for five years.
+疑问: Has she worked for this company for five years?
+否定: She has not worked for this company for five years.
+提问(对「five years」提问，问"多久"): How long has she worked for this company?
+解析: for five years 五年；职场资历。
+
+# book=1 lesson=69 grammar=比较级
+中文: 这份薪水比上一份高不少。
+翻译: This salary is much higher than the last one.
+疑问: Is this salary much higher than the last one?
+否定: This salary is not much higher than the last one.
+提问(对「the last one」提问，问"比什么高"): What is this salary much higher than?
+解析: salary 薪水；跳槽谈薪。
+
+# book=1 lesson=111 grammar=最高级
+中文: 他是部门里业绩最好的员工。
+翻译: He is the best-performing employee in the department.
+疑问: Is he the best-performing employee in the department?
+否定: He is not the best-performing employee in the department.
+提问(对「in the department」提问，问"在哪里"): Where is he the best-performing employee?
+解析: best-performing 业绩最好的；职场评价。
+
+# book=1 lesson=35 grammar=现在进行时
+中文: 人事正在面试应聘者。
+翻译: HR is interviewing the applicants.
+疑问: Is HR interviewing the applicants?
+否定: HR is not interviewing the applicants.
+提问(对「the applicants」提问，问"面试谁"): Who is HR interviewing?
+解析: HR 人事；interview applicants 面试应聘者。
+
+# book=2 lesson=27 grammar=反意疑问句
+中文: 你不会把密码告诉陌生人，对吧？
+翻译: You won't tell strangers your password, will you?
+疑问: Won't you tell strangers your password?
+否定: You won't tell strangers your password.
+提问(对「strangers」提问，问"告诉谁"): Who won't you tell your password?
+解析: 反意疑问句提醒安全；网络安全日常。
+
+# book=1 lesson=31 grammar=情态动词can
+中文: 你能帮我叫一辆出租车吗？
+翻译: Can you call a taxi for me?
+疑问: Can you call a taxi for me?
+否定: I cannot call a taxi for you right now.
+提问(对「a taxi」提问，问"叫什么"): What can you call for me?
+解析: call a taxi 叫出租车；出行求助。
+
+# book=1 lesson=53 grammar=一般过去时
+中文: 昨晚的聚会很热闹。
+翻译: The party last night was very lively.
+疑问: Was the party last night very lively?
+否定: The party last night was not very lively.
+提问(对「last night」提问，问"什么时候"): When was the party very lively?
+解析: lively 热闹的；社交聚会。
+
+# book=2 lesson=29 grammar=反意疑问句
+中文: 咱们好久没见了，不是吗？
+翻译: We haven't seen each other for ages, have we?
+疑问: Haven't we seen each other for ages?
+否定: We haven't seen each other for ages.
+提问(对「for ages」提问，问"多久没见"): How long haven't we seen each other?
+解析: for ages 好久；老友重逢。
+
+# book=1 lesson=25 grammar=情态动词can,祈使句
+中文: 你能把盐递给我吗？
+翻译: Can you pass me the salt?
+疑问: Can you pass me the salt?
+否定: I cannot reach the salt.
+提问(对「the salt」提问，问"递什么"): What can you pass me?
+解析: pass sb sth 递给某人；餐桌礼貌用语。
+
+# book=1 lesson=27 grammar=there be句型,some/any
+中文: 冰箱里还有一些剩菜。
+翻译: There is some leftover food in the fridge.
+疑问: Is there any leftover food in the fridge?
+否定: There is not any leftover food in the fridge.
+提问(对「in the fridge」提问，问"在哪里"): Where is there some leftover food?
+解析: leftover food 剩菜；居家生活。
+
+# book=2 lesson=31 grammar=定语从句
+中文: 这是我妈妈教我的那道菜。
+翻译: This is the dish that my mother taught me to cook.
+疑问: Is this the dish that your mother taught you to cook?
+否定: This is not the dish that my mother taught me to cook.
+提问(对「the dish」提问，问"哪道菜"): Which dish did your mother teach you to cook?
+解析: teach sb to do 教某人做；家庭烹饪。
+
+# book=1 lesson=23 grammar=一般现在时
+中文: 邻居家的狗每晚都叫。
+翻译: The neighbour's dog barks every night.
+疑问: Does the neighbour's dog bark every night?
+否定: The neighbour's dog does not bark every night.
+提问(对「every night」提问，问"多久一次"): How often does the neighbour's dog bark?
+解析: neighbour's dog 邻居家的狗；社区生活琐事。
+
+# book=2 lesson=33 grammar=定语从句,被动语态
+中文: 小区大门晚上十点会锁上。
+翻译: The gate of the residential area is locked at ten p.m.
+疑问: Is the gate of the residential area locked at ten p.m.?
+否定: The gate of the residential area is not locked at ten p.m.
+提问(对「at ten p.m.」提问，问"几点锁"): What time is the gate of the residential area locked?
+解析: residential area 小区；物业门禁。
+
+# book=1 lesson=21 grammar=一般现在时,频率副词
+中文: 物业每周二收垃圾。
+翻译: The property management collects rubbish every Tuesday.
+疑问: Does the property management collect rubbish every Tuesday?
+否定: The property management does not collect rubbish every Tuesday.
+提问(对「every Tuesday」提问，问"什么时候收"): When does the property management collect rubbish?
+解析: property management 物业；收垃圾日程。
+
+# book=2 lesson=35 grammar=间接引语
+中文: 房东说下个月房租要涨。
+翻译: The landlord said the rent would go up next month.
+疑问: Did the landlord say the rent would go up next month?
+否定: The landlord did not say the rent would go up next month.
+提问(对「next month」提问，问"什么时候涨"): When did the landlord say the rent would go up?
+解析: rent go up 房租上涨；租房话题。
+
+# book=1 lesson=19 grammar=一般过去时
+中文: 水管工昨天修好了漏水的水龙头。
+翻译: The plumber fixed the leaking tap yesterday.
+疑问: Did the plumber fix the leaking tap yesterday?
+否定: The plumber did not fix the leaking tap yesterday.
+提问(对「the leaking tap」提问，问"修什么"): What did the plumber fix yesterday?
+解析: leaking tap 漏水龙头；居家维修。
+
+# book=2 lesson=37 grammar=现在完成进行时
+中文: 楼上一直在装修，很吵。
+翻译: They have been renovating upstairs, and it is very noisy.
+疑问: Have they been renovating upstairs, and is it very noisy?
+否定: They have not been renovating upstairs, so it is not noisy.
+提问(对「upstairs」提问，问"在哪里装修"): Where have they been renovating?
+解析: renovate 装修；邻里噪音抱怨。

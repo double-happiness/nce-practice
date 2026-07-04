@@ -12,6 +12,7 @@ const MANUAL = {
   ...require('../data/word-enrich-manual.json'),
   ...require('../data/word-enrich-manual-batch3.json'),
   ...require('../data/word-enrich-manual-batch2.json'),
+  ...require('../data/word-enrich-manual-daily.json'),
 };
 
 // ---------- 词类表（封闭类，用于短语边界判断） ----------

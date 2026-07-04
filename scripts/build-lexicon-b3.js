@@ -51,6 +51,8 @@ const r = buildBookLexicon(3, {
   synPairs: SYN_PAIRS,
   clusterGroups: [...CLUSTER_GROUPS, ...EXTRA_CLUSTERS],
   manual: MANUAL,
+  autoGloss: true,
+  glossMax: 300,
 });
 console.log(`Book 3 vocab: ${r.vocab}; pairs ${r.pairOk}/${r.pairSkip}; clusters ${r.clusterOk}`);
 console.log(`Wrote ${r.count} entries to ${r.dest}`);

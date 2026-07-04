@@ -56,21 +56,21 @@
         "phon": "/ˈrestrɒnt/",
         "pos": "n.",
         "cn": "饭馆，餐馆",
-        "eg": ""
+        "eg": "We went to a restaurant."
       },
       {
         "word": "roast",
         "phon": "/rəʊst/",
         "pos": "a.",
         "cn": "烤",
-        "eg": ""
+        "eg": "Roast beef and potatoes"
       },
       {
         "word": "breakfast",
         "phon": "/'brekfəst/",
         "pos": "n.",
         "cn": "早饭",
-        "eg": ""
+        "eg": "Tommy's breakfast"
       },
       {
         "word": "haircut",
@@ -84,56 +84,56 @@
         "phon": "/'pɑːtɪ/",
         "pos": "n.",
         "cn": "聚会",
-        "eg": ""
+        "eg": "They are going to have a big party for us."
       },
       {
         "word": "holiday",
         "phon": "/'hɒlɪdeɪ; -dɪ/",
         "pos": "n.",
         "cn": "节日，假日",
-        "eg": ""
+        "eg": "Going on holiday"
       },
       {
         "word": "mess",
         "phon": "/mes/",
         "pos": "n.",
         "cn": "杂乱，凌乱",
-        "eg": ""
+        "eg": "Excuse the mess, Sam."
       },
       {
         "word": "pack",
         "phon": "/pæk/",
         "pos": "v.",
         "cn": "包装，打包，装箱",
-        "eg": ""
+        "eg": "\"Don't worry,\" he answered, \"I am going to pack everything tonight.\""
       },
       {
         "word": "suitcase",
         "phon": "/'suːtkeɪs/",
         "pos": "n.",
         "cn": "手提箱",
-        "eg": ""
+        "eg": "I left a suitcase on the train to London the other day."
       },
       {
         "word": "leave",
         "phon": "/liːv/",
         "pos": "v.",
         "cn": "离开",
-        "eg": ""
+        "eg": "What time will the next train leave?"
       },
       {
         "word": "already",
         "phon": "/ɔːl'redɪ/",
         "pos": "adv.",
         "cn": "已",
-        "eg": ""
+        "eg": "\"It's from Jimmy,\" Mother said. \"He has already reached the camp in the mountains.\""
       },
       {
         "word": "Paris",
         "phon": "/'pærɪs/",
         "pos": "n.",
         "cn": "巴黎",
-        "eg": ""
+        "eg": "'Paris in the Spring'."
       }
     ],
     "grammar": [
@@ -214,91 +214,91 @@
         "phon": "/ˈsɪnəmə；ˈsɪnɪmə/",
         "pos": "n.",
         "cn": "电影院",
-        "eg": ""
+        "eg": "Have you just been to the cinema?"
       },
       {
         "word": "film",
         "phon": "/fɪlm/",
         "pos": "n.",
         "cn": "电影",
-        "eg": ""
+        "eg": "I have seen this film. 我看过这部电影。"
       },
       {
         "word": "beautiful",
         "phon": "/ˈbju:tɪfl/",
         "pos": "a.",
         "cn": "漂亮的",
-        "eg": ""
+        "eg": "Paris is a beautiful city."
       },
       {
         "word": "city",
         "phon": "/'sɪtɪ/",
         "pos": "n.",
         "cn": "城市",
-        "eg": ""
+        "eg": "\"He has gone to another city,\" she added."
       },
       {
         "word": "never",
         "phon": "/'nevə/",
         "pos": "adv.",
         "cn": "从来没有",
-        "eg": ""
+        "eg": "He has never left us his new address."
       },
       {
         "word": "ever",
         "phon": "/'evə/",
         "pos": "adv.",
         "cn": "在任何时",
-        "eg": ""
+        "eg": "Have you ever been there, Ken?"
       },
       {
         "word": "attendant",
         "phon": "/ə'tend(ə)nt/",
         "pos": "n.",
         "cn": "接待员",
-        "eg": ""
+        "eg": "A flight attendant would take charge of me and I never had an unpleasant experience."
       },
       {
         "word": "bring",
         "phon": "/brɪŋ/",
         "pos": "v.",
         "cn": "带来，送来",
-        "eg": ""
+        "eg": "When did you bring it to us?"
       },
       {
         "word": "garage",
         "phon": "/'gærɑː(d)ʒ; -ɪdʒ; gə'rɑːʒ/",
         "pos": "n.",
         "cn": "车库，汽车修理厂",
-        "eg": ""
+        "eg": "Let's go into the garage and have a look at it."
       },
       {
         "word": "crash",
         "phon": "/kræʃ/",
         "pos": "n.",
         "cn": "碰撞",
-        "eg": ""
+        "eg": "A car crash"
       },
       {
         "word": "lamp-post",
         "phon": "/læmp pəust/",
         "pos": "",
         "cn": "灯杆",
-        "eg": ""
+        "eg": "I drove it into a lamp-post."
       },
       {
         "word": "repair",
         "phon": "/rɪ'peə/",
         "pos": "v.",
         "cn": "修理",
-        "eg": ""
+        "eg": "Can your mechanics repair it?"
       },
       {
         "word": "try",
         "phon": "/traɪ/",
         "pos": "v.",
         "cn": "努力，尝试",
-        "eg": ""
+        "eg": "Try and stand up."
       }
     ],
     "grammar": [
@@ -379,84 +379,84 @@
         "phon": "/bɪ'liːv/",
         "pos": "v.",
         "cn": "相信，认为",
-        "eg": ""
+        "eg": "Don't believe her, Jim."
       },
       {
         "word": "may",
         "phon": "/meɪ/",
         "pos": "",
         "cn": "(用于请求许可)可以",
-        "eg": ""
+        "eg": "May I have one?"
       },
       {
         "word": "how long",
         "phon": "",
         "pos": "",
         "cn": "多长",
-        "eg": ""
+        "eg": "How long have you lived here?"
       },
       {
         "word": "since",
         "phon": "/sɪns/",
         "pos": "prep.",
         "cn": "自从",
-        "eg": ""
+        "eg": "Yes, I've been here since 1976."
       },
       {
         "word": "why",
         "phon": "/waɪ/",
         "pos": "adv.",
         "cn": "为什么",
-        "eg": ""
+        "eg": "\"That's why you are so careless.\""
       },
       {
         "word": "sell",
         "phon": "/sel/",
         "pos": "v.",
         "cn": "卖，出售",
-        "eg": ""
+        "eg": "Then why do you want to sell it?"
       },
       {
         "word": "because",
         "phon": "/bɪ'kɒz/",
         "pos": "conj.",
         "cn": "因为",
-        "eg": ""
+        "eg": "Because I've just retired."
       },
       {
         "word": "retire",
         "phon": "/rɪ'taɪər/",
         "pos": "v.",
         "cn": "退休",
-        "eg": ""
+        "eg": "I'm going to retire."
       },
       {
         "word": "cost",
         "phon": "/kɒst/",
         "pos": "v.",
         "cn": "花费",
-        "eg": ""
+        "eg": "How much does it cost?"
       },
       {
         "word": "pound",
         "phon": "/paʊnd/",
         "pos": "n.",
         "cn": "英镑",
-        "eg": ""
+        "eg": "I can't change a ten-pound note."
       },
       {
         "word": "worth",
         "phon": "/wɜːrθ/",
         "pos": "prep.",
         "cn": "值…钱",
-        "eg": ""
+        "eg": "The other model's more expensive, but it's worth the money."
       },
       {
         "word": "penny",
         "phon": "/'penɪ/",
         "pos": "n.",
         "cn": "便士，分",
-        "eg": ""
+        "eg": "Read Jimmy's card to me please, Penny."
       }
     ],
     "grammar": [
@@ -536,91 +536,91 @@
         "phon": "/stɪl/",
         "pos": "adv.",
         "cn": "还，仍旧",
-        "eg": ""
+        "eg": "He's still here."
       },
       {
         "word": "move",
         "phon": "/muːv/",
         "pos": "v.",
         "cn": "搬家，移动",
-        "eg": ""
+        "eg": "He's going to move tomorrow."
       },
       {
         "word": "miss",
         "phon": "/mɪs/",
         "pos": "v.",
         "cn": "想念，思念",
-        "eg": ""
+        "eg": "I'll miss him."
       },
       {
         "word": "neighbour",
         "phon": "/'neɪbə/",
         "pos": "n.",
         "cn": "邻居",
-        "eg": ""
+        "eg": "Then I looked out and saw our neighbour."
       },
       {
         "word": "person",
         "phon": "/'pɜːs(ə)n/",
         "pos": "n.",
         "cn": "人",
-        "eg": ""
+        "eg": "He's a very nice person."
       },
       {
         "word": "people",
         "phon": "/'piːp(ə)l/",
         "pos": "n.",
         "cn": "人们",
-        "eg": ""
+        "eg": "The room is full of people. 房间里挤满了人。"
       },
       {
         "word": "poor",
         "phon": "/pɔ:(r)/",
         "pos": "a.",
         "cn": "可怜",
-        "eg": ""
+        "eg": "Poor Ian!"
       },
       {
         "word": "pilot",
         "phon": "/'paɪlət/",
         "pos": "n.",
         "cn": "飞行员",
-        "eg": ""
+        "eg": "He's a pilot."
       },
       {
         "word": "return",
         "phon": "/rɪ'tɜːn/",
         "pos": "v.",
         "cn": "返回",
-        "eg": ""
+        "eg": "Two return tickets to London, please."
       },
       {
         "word": "New York",
         "phon": "/'nju: 'jɔ:k/",
         "pos": "n.",
         "cn": "纽约",
-        "eg": ""
+        "eg": "He will fly to New York next month."
       },
       {
         "word": "Tokyo",
         "phon": "/ˈtəʊkjəʊ/",
         "pos": "n.",
         "cn": "东京",
-        "eg": ""
+        "eg": "The month after next he'll fly to Tokyo."
       },
       {
         "word": "Madrid",
         "phon": "/mə'drid/",
         "pos": "n.",
         "cn": "马德里",
-        "eg": ""
+        "eg": "At the moment, he's in Madrid."
       },
       {
         "word": "fly",
         "phon": "/flaɪ/",
         "pos": "v.",
         "cn": "飞",
-        "eg": ""
+        "eg": "He will fly to New York next month."
       }
     ],
     "grammar": [
@@ -750,35 +750,35 @@
         "phon": "/'stɔkhoum/",
         "pos": "n.",
         "cn": "斯德哥尔摩",
-        "eg": ""
+        "eg": "For nearly three and a half centuries she lay at the bottom of Stockholm harbour until her discovery in 1956."
       },
       {
         "word": "Sydney",
         "phon": "/ˈsɪdnɪ/",
         "pos": "n.",
         "cn": "悉尼",
-        "eg": ""
+        "eg": "We will arrive in Sydney in the morning."
       },
       {
         "word": "return",
         "phon": "/rɪ'tɜːn/",
         "pos": "n.",
         "cn": "往返",
-        "eg": ""
+        "eg": "Two return tickets to London, please."
       },
       {
         "word": "train",
         "phon": "/treɪn/",
         "pos": "n.",
         "cn": "火车",
-        "eg": ""
+        "eg": "I left a suitcase on the train to London the other day."
       },
       {
         "word": "platform",
         "phon": "/'plætfɔːm/",
         "pos": "n.",
         "cn": "站台",
-        "eg": ""
+        "eg": "Which platform?"
       }
     ],
     "grammar": [
@@ -859,91 +859,91 @@
         "phon": "/'plentɪ/",
         "pos": "n.",
         "cn": "大量",
-        "eg": ""
+        "eg": "We've got plenty of time."
       },
       {
         "word": "bar",
         "phon": "/bɑː/",
         "pos": "n.",
         "cn": "酒吧",
-        "eg": ""
+        "eg": "There's a bar next door to the station."
       },
       {
         "word": "station",
         "phon": "/'steɪʃ(ə)n/",
         "pos": "n.",
         "cn": "车站，火车站",
-        "eg": ""
+        "eg": "There's a bar next door to the station."
       },
       {
         "word": "catch",
         "phon": "/kætʃ/",
         "pos": "v.",
         "cn": "赶上",
-        "eg": ""
+        "eg": "We want to catch the eight nineteen to London."
       },
       {
         "word": "miss",
         "phon": "/mɪs/",
         "pos": "v.",
         "cn": "错",
-        "eg": ""
+        "eg": "I'll miss him."
       },
       {
         "word": "leave",
         "phon": "/liːv/",
         "pos": "v.",
         "cn": "遗留，离开",
-        "eg": ""
+        "eg": "\"Hurry up, everyone. We are going to leave soon.\""
       },
       {
         "word": "describe",
         "phon": "/dɪ'skraɪb/",
         "pos": "v.",
         "cn": "描述",
-        "eg": ""
+        "eg": "Can you describe it, sir?"
       },
       {
         "word": "zip",
         "phon": "/zɪp/",
         "pos": "n.",
         "cn": "拉链",
-        "eg": ""
+        "eg": "It's a small blue case and it's got a zip."
       },
       {
         "word": "label",
         "phon": "/'leɪbl/",
         "pos": "n.",
         "cn": "标签",
-        "eg": ""
+        "eg": "There's a label on the handle with my name and address on it."
       },
       {
         "word": "handle",
         "phon": "/'hændl/",
         "pos": "n.",
         "cn": "提手，把手",
-        "eg": ""
+        "eg": "There's a label on the handle with my name and address on it."
       },
       {
         "word": "address",
         "phon": "/ə'dres/",
         "pos": "n.",
         "cn": "地址",
-        "eg": ""
+        "eg": "There's a label on the handle with my name and address on it."
       },
       {
         "word": "pence",
         "phon": "/pens/",
         "pos": "n.",
         "cn": "penny的复数形式",
-        "eg": ""
+        "eg": "Three pounds fifty pence, please."
       },
       {
         "word": "belong",
         "phon": "/bɪ'lɒŋ/",
         "pos": "v.",
         "cn": "属于",
-        "eg": ""
+        "eg": "This case doesn't belong to me!"
       }
     ],
     "grammar": [
@@ -1024,84 +1024,84 @@
         "phon": "/au/",
         "pos": "int.",
         "cn": "哎哟",
-        "eg": ""
+        "eg": "Ow!"
       },
       {
         "word": "slip",
         "phon": "/slɪp/",
         "pos": "v.",
         "cn": "滑倒，滑了一脚",
-        "eg": ""
+        "eg": "It was only a slip of the tongue. 那只是一次口误。"
       },
       {
         "word": "fall",
         "phon": "/fɔːl/",
         "pos": "v.",
         "cn": "落下，跌倒",
-        "eg": ""
+        "eg": "Be careful, don't fall! 小心，别摔倒！"
       },
       {
         "word": "downstairs",
         "phon": "/daʊn'steəz/",
         "pos": "adv.",
         "cn": "下楼",
-        "eg": ""
+        "eg": "Suddenly I heard a soft noise downstairs."
       },
       {
         "word": "hurt",
         "phon": "/hɜːt/",
         "pos": "v.",
         "cn": "伤，伤害，疼痛",
-        "eg": ""
+        "eg": "Have you hurt yourself?"
       },
       {
         "word": "back",
         "phon": "/bæk/",
         "pos": "n.",
         "cn": "背",
-        "eg": ""
+        "eg": "\"I will give the coins back to you tomorrow.\""
       },
       {
         "word": "stand up",
         "phon": "",
         "pos": "",
         "cn": "起立， 站起来",
-        "eg": ""
+        "eg": "Try and stand up."
       },
       {
         "word": "help",
         "phon": "/help/",
         "pos": "v.",
         "cn": "帮助",
-        "eg": ""
+        "eg": "A shop girl comes to help him."
       },
       {
         "word": "at once",
         "phon": "/ət 'wʌns/",
         "pos": "",
         "cn": "立即",
-        "eg": ""
+        "eg": "I did not answer the door at once."
       },
       {
         "word": "sure",
         "phon": "/ʃɔ:(r)/",
         "pos": "a.",
         "cn": "一定的，确信的",
-        "eg": ""
+        "eg": "I'm sure there's no one at home."
       },
       {
         "word": "X-ray",
         "phon": "/'eksreɪ/",
         "pos": "n.",
         "cn": "X光透",
-        "eg": ""
+        "eg": "I'm sure that you need an X-ray, Andy."
       },
       {
         "word": "Scotland",
         "phon": "/'skɔtlənd/",
         "pos": "n.",
         "cn": "苏格兰(英国)",
-        "eg": ""
+        "eg": "'I have just arrived in Scotland and I'm staying at a Youth Hostel.'"
       }
     ],
     "grammar": [

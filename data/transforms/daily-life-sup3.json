@@ -1,0 +1,2646 @@
+[
+  {
+    "id": "tf-b1-143",
+    "book": 1,
+    "lesson": 93,
+    "grammar": [
+      "一般将来时"
+    ],
+    "cn": "我明天要去医院挂号。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am going to register at the hospital tomorrow.",
+          "I'm going to register at the hospital tomorrow."
+        ],
+        "cn": "我明天要去医院挂号。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you going to register at the hospital tomorrow?"
+        ],
+        "cn": "我明天要去医院挂号吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not going to register at the hospital tomorrow."
+        ],
+        "cn": "我明天不要去医院挂号。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「tomorrow」提问，问\"什么时候\"",
+        "answers": [
+          "When are you going to register at the hospital?"
+        ],
+        "cn": "我明天什么时候？"
+      }
+    ],
+    "explanation": "register at the hospital 挂号；医疗场景高频。"
+  },
+  {
+    "id": "tf-b1-144",
+    "book": 1,
+    "lesson": 81,
+    "grammar": [
+      "一般现在时"
+    ],
+    "cn": "医生每周三上午坐诊。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The doctor works on Wednesday mornings."
+        ],
+        "cn": "医生每周三上午坐诊。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does the doctor work on Wednesday mornings?"
+        ],
+        "cn": "医生每周三上午坐诊吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The doctor does not work on Wednesday mornings."
+        ],
+        "cn": "医生不每周三上午坐诊。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Wednesday mornings」提问，问\"什么时候\"",
+        "answers": [
+          "When does the doctor work?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "一般现在时表固定安排；work 表出诊。"
+  },
+  {
+    "id": "tf-b1-145",
+    "book": 1,
+    "lesson": 85,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "他已经发烧两天了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He has had a fever for two days."
+        ],
+        "cn": "他已经发烧两天了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has he had a fever for two days?"
+        ],
+        "cn": "他已经发烧两天了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He has not had a fever for two days."
+        ],
+        "cn": "他还没有发烧两天了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「two days」提问，问\"多久\"",
+        "answers": [
+          "How long has he had a fever?"
+        ],
+        "cn": "多久？"
+      }
+    ],
+    "explanation": "have a fever 发烧；for + 时间段与现在完成时连用。"
+  },
+  {
+    "id": "tf-b1-146",
+    "book": 1,
+    "lesson": 89,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "她吃过药后感觉好多了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She has felt much better after taking the medicine."
+        ],
+        "cn": "她吃过药后感觉好多了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has she felt much better after taking the medicine?"
+        ],
+        "cn": "她吃过药后感觉好多了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She has not felt much better after taking the medicine."
+        ],
+        "cn": "她不吃过药后感觉好多了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the medicine」提问，问\"吃了什么之后\"",
+        "answers": [
+          "What has she felt much better after taking?"
+        ],
+        "cn": "他吃了什么之后？"
+      }
+    ],
+    "explanation": "feel better 感觉好转；after taking 介词短语。"
+  },
+  {
+    "id": "tf-b1-147",
+    "book": 1,
+    "lesson": 73,
+    "grammar": [
+      "祈使句"
+    ],
+    "cn": "请张开嘴，说\"啊\"。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Please open your mouth and say \"ah\"."
+        ],
+        "cn": "请张开嘴，说\"啊\"。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you open your mouth and say \"ah\"?"
+        ],
+        "cn": "请张开嘴，说\"啊\"吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not close your mouth."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「your mouth」提问，问\"张开什么\"",
+        "answers": [
+          "What should I open?"
+        ],
+        "cn": "他张开什么？"
+      }
+    ],
+    "explanation": "看医生时常见指令；祈使句表要求。"
+  },
+  {
+    "id": "tf-b1-148",
+    "book": 1,
+    "lesson": 29,
+    "grammar": [
+      "情态动词must",
+      "祈使句"
+    ],
+    "cn": "你必须空腹做这项检查。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You must do this test on an empty stomach."
+        ],
+        "cn": "你必须空腹做这项检查。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must you do this test on an empty stomach?"
+        ],
+        "cn": "你必须空腹做这项检查吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You must not eat before this test."
+        ],
+        "cn": "你不必空腹做这项检查。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「this test」提问，问\"做什么\"",
+        "answers": [
+          "What must you do on an empty stomach?"
+        ],
+        "cn": "他做什么？"
+      }
+    ],
+    "explanation": "on an empty stomach 空腹；must 表医嘱要求。"
+  },
+  {
+    "id": "tf-b1-149",
+    "book": 1,
+    "lesson": 61,
+    "grammar": [
+      "情态动词must"
+    ],
+    "cn": "伤口必须保持干燥。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The wound must be kept dry."
+        ],
+        "cn": "伤口必须保持干燥。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must the wound be kept dry?"
+        ],
+        "cn": "伤口必须保持干燥吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The wound must not get wet."
+        ],
+        "cn": "伤口不必保持干燥。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「dry」提问，问\"必须保持怎样\"",
+        "answers": [
+          "How must the wound be kept?"
+        ],
+        "cn": "必须保持怎样？"
+      }
+    ],
+    "explanation": "must be kept 必须被保持；被动含义。"
+  },
+  {
+    "id": "tf-b1-150",
+    "book": 1,
+    "lesson": 65,
+    "grammar": [
+      "情态动词must",
+      "had better"
+    ],
+    "cn": "你最好每天按时吃药。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You had better take the medicine on time every day."
+        ],
+        "cn": "你最好每天按时吃药。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Had you better take the medicine on time every day?"
+        ],
+        "cn": "你最好每天按时吃药吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You had better not skip the medicine."
+        ],
+        "cn": "你不最好每天按时吃药。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every day」提问，问\"多久一次\"",
+        "answers": [
+          "How often had you better take the medicine?"
+        ],
+        "cn": "多久一次？"
+      }
+    ],
+    "explanation": "take medicine 吃药；on time 按时。"
+  },
+  {
+    "id": "tf-b1-151",
+    "book": 1,
+    "lesson": 37,
+    "grammar": [
+      "现在进行时"
+    ],
+    "cn": "护士正在给我量血压。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The nurse is taking my blood pressure."
+        ],
+        "cn": "护士正在给我量血压。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the nurse taking your blood pressure?"
+        ],
+        "cn": "护士正在给我量血压吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The nurse is not taking my blood pressure."
+        ],
+        "cn": "护士没有在给我量血压。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my blood pressure」提问，问\"量什么\"",
+        "answers": [
+          "What is the nurse taking?"
+        ],
+        "cn": "护士量什么？"
+      }
+    ],
+    "explanation": "take blood pressure 量血压；诊疗现场进行时。"
+  },
+  {
+    "id": "tf-b1-152",
+    "book": 1,
+    "lesson": 39,
+    "grammar": [
+      "祈使句",
+      "some/any"
+    ],
+    "cn": "请描述一下你的症状。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Please describe your symptoms."
+        ],
+        "cn": "请描述一下你的症状。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you describe your symptoms?"
+        ],
+        "cn": "请描述一下你的症状吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not hide your symptoms."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「your symptoms」提问，问\"描述什么\"",
+        "answers": [
+          "What should I describe?"
+        ],
+        "cn": "他描述什么？"
+      }
+    ],
+    "explanation": "describe symptoms 描述症状；挂号问诊常用。"
+  },
+  {
+    "id": "tf-b2-171",
+    "book": 2,
+    "lesson": 4,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "我已经预约了下周的体检。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I have made an appointment for a check-up next week."
+        ],
+        "cn": "我已经预约了下周的体检。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you made an appointment for a check-up next week?"
+        ],
+        "cn": "我已经预约了下周的体检吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not made an appointment for a check-up next week."
+        ],
+        "cn": "我还没有预约了下周的体检。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「next week」提问，问\"什么时候\"",
+        "answers": [
+          "When have you made an appointment for a check-up?"
+        ],
+        "cn": "我什么时候？"
+      }
+    ],
+    "explanation": "make an appointment 预约；check-up 体检。"
+  },
+  {
+    "id": "tf-b2-172",
+    "book": 2,
+    "lesson": 11,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "他从未对青霉素过敏。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He has never been allergic to penicillin."
+        ],
+        "cn": "他从未对青霉素过敏。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has he ever been allergic to penicillin?"
+        ],
+        "cn": "他从未对青霉素过敏吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He has never been allergic to penicillin."
+        ],
+        "cn": "他不从未对青霉素过敏。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「penicillin」提问，问\"对什么过敏\"",
+        "answers": [
+          "What has he never been allergic to?"
+        ],
+        "cn": "他对什么过敏？"
+      }
+    ],
+    "explanation": "be allergic to 对……过敏；never 与完成时连用。"
+  },
+  {
+    "id": "tf-b2-173",
+    "book": 2,
+    "lesson": 14,
+    "grammar": [
+      "现在完成时",
+      "被动语态"
+    ],
+    "cn": "化验结果已经出来了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The test results have come out."
+        ],
+        "cn": "化验结果已经出来了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have the test results come out?"
+        ],
+        "cn": "化验结果已经出来了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The test results have not come out yet."
+        ],
+        "cn": "化验结果还没有出来了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the test results」提问，问\"什么出来了\"",
+        "answers": [
+          "What has come out?"
+        ],
+        "cn": "化验结果什么出来了？"
+      }
+    ],
+    "explanation": "test results 化验结果；come out 出来。"
+  },
+  {
+    "id": "tf-b1-153",
+    "book": 1,
+    "lesson": 51,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "我昨天在银行取了五百元。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I withdrew five hundred yuan at the bank yesterday."
+        ],
+        "cn": "我昨天在银行取了五百元。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did you withdraw five hundred yuan at the bank yesterday?"
+        ],
+        "cn": "我昨天在银行取了五百元吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I did not withdraw five hundred yuan at the bank yesterday."
+        ],
+        "cn": "我昨天不在银行取了五百元。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「five hundred yuan」提问，问\"取多少\"",
+        "answers": [
+          "How much did you withdraw at the bank yesterday?"
+        ],
+        "cn": "取多少？"
+      }
+    ],
+    "explanation": "withdraw money 取款；银行办事高频。"
+  },
+  {
+    "id": "tf-b1-154",
+    "book": 1,
+    "lesson": 67,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "她上个月开了储蓄账户。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She opened a savings account last month."
+        ],
+        "cn": "她上个月开了储蓄账户。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did she open a savings account last month?"
+        ],
+        "cn": "她上个月开了储蓄账户吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She did not open a savings account last month."
+        ],
+        "cn": "她不上个月开了储蓄账户。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「last month」提问，问\"什么时候\"",
+        "answers": [
+          "When did she open a savings account?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "savings account 储蓄账户；open an account 开户。"
+  },
+  {
+    "id": "tf-b1-155",
+    "book": 1,
+    "lesson": 71,
+    "grammar": [
+      "一般过去时",
+      "there be句型"
+    ],
+    "cn": "柜台前有三个人在排队。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There were three people waiting in line at the counter."
+        ],
+        "cn": "柜台前有三个人在排队。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Were there three people waiting in line at the counter?"
+        ],
+        "cn": "柜台前有三个人在排队吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There were not three people waiting in line at the counter."
+        ],
+        "cn": "柜台前有三个人不在排队。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「three people」提问，问\"有多少人\"",
+        "answers": [
+          "How many people were waiting in line at the counter?"
+        ],
+        "cn": "有多少人？"
+      }
+    ],
+    "explanation": "at the counter 在柜台前；there were 过去存在。"
+  },
+  {
+    "id": "tf-b2-174",
+    "book": 2,
+    "lesson": 10,
+    "grammar": [
+      "被动语态"
+    ],
+    "cn": "这笔钱昨天被转到了我的账户。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The money was transferred to my account yesterday."
+        ],
+        "cn": "这笔钱昨天被转到了我的账户。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the money transferred to your account yesterday?"
+        ],
+        "cn": "这笔钱昨天被转到了我的账户吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The money was not transferred to my account yesterday."
+        ],
+        "cn": "这笔钱昨天没有被转到了我的账户。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my account」提问，问\"转到哪里\"",
+        "answers": [
+          "Where was the money transferred yesterday?"
+        ],
+        "cn": "转到哪里？"
+      }
+    ],
+    "explanation": "be transferred to 被转到；网银转账场景。"
+  },
+  {
+    "id": "tf-b2-175",
+    "book": 2,
+    "lesson": 21,
+    "grammar": [
+      "被动语态"
+    ],
+    "cn": "信用卡每年都要还。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The credit card must be paid off every year."
+        ],
+        "cn": "信用卡每年都要还。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must the credit card be paid off every year?"
+        ],
+        "cn": "信用卡每年都要还吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The credit card must not be left unpaid."
+        ],
+        "cn": "信用卡每年都不要还。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every year」提问，问\"多久还一次\"",
+        "answers": [
+          "How often must the credit card be paid off?"
+        ],
+        "cn": "多久还一次？"
+      }
+    ],
+    "explanation": "pay off 还清；信用卡还款。"
+  },
+  {
+    "id": "tf-b2-176",
+    "book": 2,
+    "lesson": 23,
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "cn": "我弄丢了昨天办的那张银行卡。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I lost the bank card that I got yesterday."
+        ],
+        "cn": "我弄丢了昨天办的那张银行卡。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did you lose the bank card that you got yesterday?"
+        ],
+        "cn": "我弄丢了昨天办的那张银行卡吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I did not lose the bank card that I got yesterday."
+        ],
+        "cn": "我不弄丢了昨天办的那张银行卡。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the bank card」提问，问\"丢了什么\"",
+        "answers": [
+          "What did you lose that you got yesterday?"
+        ],
+        "cn": "他丢了什么？"
+      }
+    ],
+    "explanation": "bank card 银行卡；定语从句修饰 card。"
+  },
+  {
+    "id": "tf-b1-156",
+    "book": 1,
+    "lesson": 81,
+    "grammar": [
+      "some/any",
+      "一般将来时"
+    ],
+    "cn": "我想换一些零钱。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I would like to change some money into smaller bills."
+        ],
+        "cn": "我想换一些零钱。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Would you like to change some money into smaller bills?"
+        ],
+        "cn": "我想换一些零钱吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I would not like to change any money today."
+        ],
+        "cn": "我不想换一些零钱。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「smaller bills」提问，问\"换成什么\"",
+        "answers": [
+          "What would you like to change some money into?"
+        ],
+        "cn": "他换成什么？"
+      }
+    ],
+    "explanation": "change money 换零钱；银行窗口常用。"
+  },
+  {
+    "id": "tf-b1-157",
+    "book": 1,
+    "lesson": 99,
+    "grammar": [
+      "比较级"
+    ],
+    "cn": "活期利率比定期低。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The interest rate on current accounts is lower than that on fixed deposits."
+        ],
+        "cn": "活期利率比定期低。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the interest rate on current accounts lower than that on fixed deposits?"
+        ],
+        "cn": "活期利率比定期低吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The interest rate on current accounts is not lower than that on fixed deposits."
+        ],
+        "cn": "活期利率比定期低。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「fixed deposits」提问，问\"比什么低\"",
+        "answers": [
+          "What is the interest rate on current accounts lower than?"
+        ],
+        "cn": "他比什么低？"
+      }
+    ],
+    "explanation": "interest rate 利率；current vs fixed 活期定期。"
+  },
+  {
+    "id": "tf-b2-177",
+    "book": 2,
+    "lesson": 8,
+    "grammar": [
+      "最高级"
+    ],
+    "cn": "这是附近最方便的ATM。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is the most convenient ATM nearby."
+        ],
+        "cn": "这是附近最方便的ATM。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this the most convenient ATM nearby?"
+        ],
+        "cn": "这是附近最方便的ATM吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not the most convenient ATM nearby."
+        ],
+        "cn": "这不是附近最方便的ATM。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「nearby」提问，问\"在哪里\"",
+        "answers": [
+          "Where is the most convenient ATM?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "ATM 自动取款机；最高级表最佳选择。"
+  },
+  {
+    "id": "tf-b1-158",
+    "book": 1,
+    "lesson": 43,
+    "grammar": [
+      "一般现在时",
+      "频率副词"
+    ],
+    "cn": "我通常在手机银行上查余额。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I usually check my balance on mobile banking."
+        ],
+        "cn": "我通常在手机银行上查余额。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you usually check your balance on mobile banking?"
+        ],
+        "cn": "我通常在手机银行上查余额吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not usually check my balance on mobile banking."
+        ],
+        "cn": "我通常不在手机银行上查余额。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on mobile banking」提问，问\"在哪里查\"",
+        "answers": [
+          "Where do you usually check your balance?"
+        ],
+        "cn": "在哪里查？"
+      }
+    ],
+    "explanation": "check balance 查余额；mobile banking 手机银行。"
+  },
+  {
+    "id": "tf-b1-159",
+    "book": 1,
+    "lesson": 55,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "店员说这件衣服可以退换。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The shop assistant said this item could be returned or exchanged."
+        ],
+        "cn": "店员说这件衣服可以退换。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the shop assistant say this item could be returned or exchanged?"
+        ],
+        "cn": "店员说这件衣服可以退换吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The shop assistant did not say this item could be returned or exchanged."
+        ],
+        "cn": "店员说这件衣服不可以退换。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「this item」提问，问\"什么可以退换\"",
+        "answers": [
+          "What did the shop assistant say could be returned or exchanged?"
+        ],
+        "cn": "他什么可以退换？"
+      }
+    ],
+    "explanation": "return or exchange 退换货；购物售后。"
+  },
+  {
+    "id": "tf-b1-160",
+    "book": 1,
+    "lesson": 77,
+    "grammar": [
+      "间接引语"
+    ],
+    "cn": "顾客要求全额退款。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The customer asked for a full refund."
+        ],
+        "cn": "顾客要求全额退款。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the customer ask for a full refund?"
+        ],
+        "cn": "顾客要求全额退款吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The customer did not ask for a full refund."
+        ],
+        "cn": "顾客不要求全额退款。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a full refund」提问，问\"要求什么\"",
+        "answers": [
+          "What did the customer ask for?"
+        ],
+        "cn": "顾客要求什么？"
+      }
+    ],
+    "explanation": "ask for a refund 要求退款；售后纠纷。"
+  },
+  {
+    "id": "tf-b1-161",
+    "book": 1,
+    "lesson": 91,
+    "grammar": [
+      "间接引语",
+      "一般过去时"
+    ],
+    "cn": "卖家答应三天内发货。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The seller promised to ship the order within three days."
+        ],
+        "cn": "卖家答应三天内发货。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the seller promise to ship the order within three days?"
+        ],
+        "cn": "卖家答应三天内发货吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The seller did not promise to ship the order within three days."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「within three days」提问，问\"多久内\"",
+        "answers": [
+          "How soon did the seller promise to ship the order?"
+        ],
+        "cn": "多久内？"
+      }
+    ],
+    "explanation": "ship the order 发货；网购承诺。"
+  },
+  {
+    "id": "tf-b2-178",
+    "book": 2,
+    "lesson": 17,
+    "grammar": [
+      "情态动词must",
+      "被动语态"
+    ],
+    "cn": "小票必须随货退回。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The receipt must be returned with the goods."
+        ],
+        "cn": "小票必须随货退回。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must the receipt be returned with the goods?"
+        ],
+        "cn": "小票必须随货退回吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The receipt must not be missing when you return the goods."
+        ],
+        "cn": "小票不必随货退回。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the goods」提问，问\"随什么退回\"",
+        "answers": [
+          "What must the receipt be returned with?"
+        ],
+        "cn": "他随什么退回？"
+      }
+    ],
+    "explanation": "return with 随……退回；退货规定。"
+  },
+  {
+    "id": "tf-b1-162",
+    "book": 1,
+    "lesson": 105,
+    "grammar": [
+      "too...to"
+    ],
+    "cn": "尺码太小了，穿不了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The size is too small to wear."
+        ],
+        "cn": "尺码太小了，穿不了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the size too small to wear?"
+        ],
+        "cn": "尺码太小了，穿不了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The size is not too small to wear."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「to wear」提问，问\"太小以至于不能怎样\"",
+        "answers": [
+          "What is the size too small to do?"
+        ],
+        "cn": "太小以至于不能怎样？"
+      }
+    ],
+    "explanation": "too small to wear 太小穿不了；换货理由。"
+  },
+  {
+    "id": "tf-b1-163",
+    "book": 1,
+    "lesson": 107,
+    "grammar": [
+      "enough to"
+    ],
+    "cn": "这条裙子够长，不用换大一码。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This dress is long enough, so I do not need a larger size."
+        ],
+        "cn": "这条裙子够长，不用换大一码。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this dress long enough, so you do not need a larger size?"
+        ],
+        "cn": "这条裙子够长，不用换大一码吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This dress is not long enough, so I need a larger size."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a larger size」提问，问\"不用换什么\"",
+        "answers": [
+          "What size do you not need because the dress is long enough?"
+        ],
+        "cn": "他不用换什么？"
+      }
+    ],
+    "explanation": "long enough 够长；试衣间对话。"
+  },
+  {
+    "id": "tf-b1-164",
+    "book": 1,
+    "lesson": 49,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "包裹送错了地址。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The parcel was delivered to the wrong address."
+        ],
+        "cn": "包裹送错了地址。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the parcel delivered to the wrong address?"
+        ],
+        "cn": "包裹送错了地址吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The parcel was not delivered to the wrong address."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the wrong address」提问，问\"送到哪里\"",
+        "answers": [
+          "Where was the parcel delivered?"
+        ],
+        "cn": "送到哪里？"
+      }
+    ],
+    "explanation": "wrong address 错误地址；快递纠纷。"
+  },
+  {
+    "id": "tf-b1-165",
+    "book": 1,
+    "lesson": 63,
+    "grammar": [
+      "一般过去时",
+      "there be句型"
+    ],
+    "cn": "盒子里少了一件商品。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There was one item missing from the box."
+        ],
+        "cn": "盒子里少了一件商品。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was there one item missing from the box?"
+        ],
+        "cn": "盒子里少了一件商品吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There was not one item missing from the box."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「one item」提问，问\"少了什么\"",
+        "answers": [
+          "What was missing from the box?"
+        ],
+        "cn": "他少了什么？"
+      }
+    ],
+    "explanation": "missing from 从……缺少；拆箱验货。"
+  },
+  {
+    "id": "tf-b2-179",
+    "book": 2,
+    "lesson": 25,
+    "grammar": [
+      "现在完成进行时"
+    ],
+    "cn": "快递一直在路上耽搁。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The delivery has been delayed on the road."
+        ],
+        "cn": "快递一直在路上耽搁。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has the delivery been delayed on the road?"
+        ],
+        "cn": "快递一直在路上耽搁吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The delivery has not been delayed on the road."
+        ],
+        "cn": "快递一直不在路上耽搁。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on the road」提问，问\"在哪里耽搁\"",
+        "answers": [
+          "Where has the delivery been delayed?"
+        ],
+        "cn": "在哪里耽搁？"
+      }
+    ],
+    "explanation": "be delayed 被耽搁；查物流状态。"
+  },
+  {
+    "id": "tf-b1-166",
+    "book": 1,
+    "lesson": 33,
+    "grammar": [
+      "现在进行时"
+    ],
+    "cn": "我正在填写退货申请表。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am filling in the return form."
+        ],
+        "cn": "我正在填写退货申请表。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you filling in the return form?"
+        ],
+        "cn": "我正在填写退货申请表吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not filling in the return form."
+        ],
+        "cn": "我没有在填写退货申请表。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the return form」提问，问\"填什么\"",
+        "answers": [
+          "What are you filling in?"
+        ],
+        "cn": "我填什么？"
+      }
+    ],
+    "explanation": "return form 退货申请表；售后流程。"
+  },
+  {
+    "id": "tf-b1-167",
+    "book": 1,
+    "lesson": 45,
+    "grammar": [
+      "祈使句"
+    ],
+    "cn": "请保留原包装和吊牌。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Please keep the original packaging and tags."
+        ],
+        "cn": "请保留原包装和吊牌。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you keep the original packaging and tags?"
+        ],
+        "cn": "请保留原包装和吊牌吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Do not throw away the original packaging."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the original packaging」提问，问\"保留什么\"",
+        "answers": [
+          "What should I keep?"
+        ],
+        "cn": "他保留什么？"
+      }
+    ],
+    "explanation": "original packaging 原包装；退货条件。"
+  },
+  {
+    "id": "tf-b2-180",
+    "book": 2,
+    "lesson": 6,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "我已经把瑕疵拍成照片发给客服了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I have taken photos of the defect and sent them to customer service."
+        ],
+        "cn": "我已经把瑕疵拍成照片发给客服了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you taken photos of the defect and sent them to customer service?"
+        ],
+        "cn": "我已经把瑕疵拍成照片发给客服了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not taken photos of the defect and sent them to customer service yet."
+        ],
+        "cn": "我还没有把瑕疵拍成照片发给客服了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「customer service」提问，问\"发给谁\"",
+        "answers": [
+          "Who have you sent the photos of the defect to?"
+        ],
+        "cn": "发给谁？"
+      }
+    ],
+    "explanation": "customer service 客服；网购维权取证。"
+  },
+  {
+    "id": "tf-b1-168",
+    "book": 1,
+    "lesson": 57,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "会议十点才开始。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The meeting did not start until ten o'clock."
+        ],
+        "cn": "会议十点才开始。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the meeting start until ten o'clock?"
+        ],
+        "cn": "会议十点才开始吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The meeting did not start until ten o'clock."
+        ],
+        "cn": "会议十点才开始。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「ten o'clock」提问，问\"几点才开始\"",
+        "answers": [
+          "What time did the meeting start?"
+        ],
+        "cn": "几点才开始？"
+      }
+    ],
+    "explanation": "not...until 直到……才；职场会议。"
+  },
+  {
+    "id": "tf-b1-169",
+    "book": 1,
+    "lesson": 59,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "老板昨天批准了我的请假。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "My boss approved my leave yesterday."
+        ],
+        "cn": "老板昨天批准了我的请假。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did your boss approve your leave yesterday?"
+        ],
+        "cn": "老板昨天批准了我的请假吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "My boss did not approve my leave yesterday."
+        ],
+        "cn": "老板不昨天批准了我的请假。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my leave」提问，问\"批准了什么\"",
+        "answers": [
+          "What did your boss approve yesterday?"
+        ],
+        "cn": "他批准了什么？"
+      }
+    ],
+    "explanation": "approve leave 批准请假；职场常用。"
+  },
+  {
+    "id": "tf-b2-181",
+    "book": 2,
+    "lesson": 12,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "项目截止日期提前了一周。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The project deadline has been moved up by a week."
+        ],
+        "cn": "项目截止日期提前了一周。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has the project deadline been moved up by a week?"
+        ],
+        "cn": "项目截止日期提前了一周吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The project deadline has not been moved up by a week."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a week」提问，问\"提前多久\"",
+        "answers": [
+          "How much has the project deadline been moved up?"
+        ],
+        "cn": "提前多久？"
+      }
+    ],
+    "explanation": "deadline 截止日期；move up 提前。"
+  },
+  {
+    "id": "tf-b2-182",
+    "book": 2,
+    "lesson": 19,
+    "grammar": [
+      "定语从句"
+    ],
+    "cn": "这是我上周加班完成的那份报告。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is the report that I finished while working overtime last week."
+        ],
+        "cn": "这是我上周加班完成的那份报告。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this the report that you finished while working overtime last week?"
+        ],
+        "cn": "这是我上周加班完成的那份报告吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not the report that I finished while working overtime last week."
+        ],
+        "cn": "这不是我上周加班完成的那份报告。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the report」提问，问\"哪份报告\"",
+        "answers": [
+          "Which report did you finish while working overtime last week?"
+        ],
+        "cn": "哪份报告？"
+      }
+    ],
+    "explanation": "work overtime 加班；定语从句修饰 report。"
+  },
+  {
+    "id": "tf-b1-170",
+    "book": 1,
+    "lesson": 41,
+    "grammar": [
+      "一般现在时"
+    ],
+    "cn": "同事们通常中午一起吃饭。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "My colleagues usually have lunch together at noon."
+        ],
+        "cn": "同事们通常中午一起吃饭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do your colleagues usually have lunch together at noon?"
+        ],
+        "cn": "同事们通常中午一起吃饭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "My colleagues do not usually have lunch together at noon."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at noon」提问，问\"什么时候\"",
+        "answers": [
+          "When do your colleagues usually have lunch together?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "have lunch together 一起吃午饭；办公室日常。"
+  },
+  {
+    "id": "tf-b1-171",
+    "book": 1,
+    "lesson": 47,
+    "grammar": [
+      "一般将来时"
+    ],
+    "cn": "我们下午三点开会讨论预算。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We are going to have a meeting at three p.m. to discuss the budget."
+        ],
+        "cn": "我们下午三点开会讨论预算。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you going to have a meeting at three p.m. to discuss the budget?"
+        ],
+        "cn": "我们下午三点开会讨论预算吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We are not going to have a meeting at three p.m. to discuss the budget."
+        ],
+        "cn": "我们下午三点开不会讨论预算。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the budget」提问，问\"讨论什么\"",
+        "answers": [
+          "What are you going to discuss at the meeting at three p.m.?"
+        ],
+        "cn": "他讨论什么？"
+      }
+    ],
+    "explanation": "discuss the budget 讨论预算；会议安排。"
+  },
+  {
+    "id": "tf-b2-183",
+    "book": 2,
+    "lesson": 2,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "他昨晚熬夜赶工了。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He stayed up late to finish the work last night."
+        ],
+        "cn": "他昨晚熬夜赶工了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he stay up late to finish the work last night?"
+        ],
+        "cn": "他昨晚熬夜赶工了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not stay up late to finish the work last night."
+        ],
+        "cn": "他不昨晚熬夜赶工了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「last night」提问，问\"什么时候\"",
+        "answers": [
+          "When did he stay up late to finish the work?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "stay up late 熬夜；赶 deadline 场景。"
+  },
+  {
+    "id": "tf-b1-172",
+    "book": 1,
+    "lesson": 75,
+    "grammar": [
+      "祈使句",
+      "would rather"
+    ],
+    "cn": "我宁愿今天在家办公。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I would rather work from home today."
+        ],
+        "cn": "我宁愿今天在家办公。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Would you rather work from home today?"
+        ],
+        "cn": "我宁愿今天在家办公吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I would rather not go to the office today."
+        ],
+        "cn": "我宁愿今天不在家办公。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「today」提问，问\"什么时候\"",
+        "answers": [
+          "When would you rather work from home?"
+        ],
+        "cn": "我宁愿今天什么时候？"
+      }
+    ],
+    "explanation": "work from home 在家办公；远程工作选择。"
+  },
+  {
+    "id": "tf-b2-184",
+    "book": 2,
+    "lesson": 15,
+    "grammar": [
+      "现在完成时"
+    ],
+    "cn": "她在这家公司工作了五年。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She has worked for this company for five years."
+        ],
+        "cn": "她在这家公司工作了五年。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has she worked for this company for five years?"
+        ],
+        "cn": "她在这家公司工作了五年吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She has not worked for this company for five years."
+        ],
+        "cn": "她不在这家公司工作了五年。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「five years」提问，问\"多久\"",
+        "answers": [
+          "How long has she worked for this company?"
+        ],
+        "cn": "多久？"
+      }
+    ],
+    "explanation": "for five years 五年；职场资历。"
+  },
+  {
+    "id": "tf-b1-173",
+    "book": 1,
+    "lesson": 69,
+    "grammar": [
+      "比较级"
+    ],
+    "cn": "这份薪水比上一份高不少。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This salary is much higher than the last one."
+        ],
+        "cn": "这份薪水比上一份高不少。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this salary much higher than the last one?"
+        ],
+        "cn": "这份薪水比上一份高不少吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This salary is not much higher than the last one."
+        ],
+        "cn": "这份薪水比上一份高不少。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the last one」提问，问\"比什么高\"",
+        "answers": [
+          "What is this salary much higher than?"
+        ],
+        "cn": "他比什么高？"
+      }
+    ],
+    "explanation": "salary 薪水；跳槽谈薪。"
+  },
+  {
+    "id": "tf-b1-174",
+    "book": 1,
+    "lesson": 111,
+    "grammar": [
+      "最高级"
+    ],
+    "cn": "他是部门里业绩最好的员工。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He is the best-performing employee in the department."
+        ],
+        "cn": "他是部门里业绩最好的员工。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is he the best-performing employee in the department?"
+        ],
+        "cn": "他是部门里业绩最好的员工吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He is not the best-performing employee in the department."
+        ],
+        "cn": "他不是部门里业绩最好的员工。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the department」提问，问\"在哪里\"",
+        "answers": [
+          "Where is he the best-performing employee?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "best-performing 业绩最好的；职场评价。"
+  },
+  {
+    "id": "tf-b1-175",
+    "book": 1,
+    "lesson": 35,
+    "grammar": [
+      "现在进行时"
+    ],
+    "cn": "人事正在面试应聘者。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "HR is interviewing the applicants."
+        ],
+        "cn": "人事正在面试应聘者。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is HR interviewing the applicants?"
+        ],
+        "cn": "人事正在面试应聘者吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "HR is not interviewing the applicants."
+        ],
+        "cn": "人事没有在面试应聘者。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the applicants」提问，问\"面试谁\"",
+        "answers": [
+          "Who is HR interviewing?"
+        ],
+        "cn": "面试谁？"
+      }
+    ],
+    "explanation": "HR 人事；interview applicants 面试应聘者。"
+  },
+  {
+    "id": "tf-b2-185",
+    "book": 2,
+    "lesson": 27,
+    "grammar": [
+      "反意疑问句"
+    ],
+    "cn": "你不会把密码告诉陌生人，对吧？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You won't tell strangers your password, will you?"
+        ],
+        "cn": "你不会把密码告诉陌生人，对吧？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Won't you tell strangers your password?"
+        ],
+        "cn": "你不会把密码告诉陌生人，对吧？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You won't tell strangers your password."
+        ],
+        "cn": "你不会把密码告诉陌生人，对吧。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「strangers」提问，问\"告诉谁\"",
+        "answers": [
+          "Who won't you tell your password?"
+        ],
+        "cn": "告诉谁？"
+      }
+    ],
+    "explanation": "反意疑问句提醒安全；网络安全日常。"
+  },
+  {
+    "id": "tf-b1-176",
+    "book": 1,
+    "lesson": 31,
+    "grammar": [
+      "情态动词can"
+    ],
+    "cn": "你能帮我叫一辆出租车吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Can you call a taxi for me?"
+        ],
+        "cn": "你能帮我叫一辆出租车吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can you call a taxi for me?"
+        ],
+        "cn": "你能帮我叫一辆出租车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I cannot call a taxi for you right now."
+        ],
+        "cn": "你不能帮我叫一辆出租车吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a taxi」提问，问\"叫什么\"",
+        "answers": [
+          "What can you call for me?"
+        ],
+        "cn": "他叫什么？"
+      }
+    ],
+    "explanation": "call a taxi 叫出租车；出行求助。"
+  },
+  {
+    "id": "tf-b1-177",
+    "book": 1,
+    "lesson": 53,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "昨晚的聚会很热闹。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The party last night was very lively."
+        ],
+        "cn": "昨晚的聚会很热闹。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the party last night very lively?"
+        ],
+        "cn": "昨晚的聚会很热闹吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The party last night was not very lively."
+        ],
+        "cn": "昨晚的聚不会很热闹。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「last night」提问，问\"什么时候\"",
+        "answers": [
+          "When was the party very lively?"
+        ],
+        "cn": "他什么时候？"
+      }
+    ],
+    "explanation": "lively 热闹的；社交聚会。"
+  },
+  {
+    "id": "tf-b2-186",
+    "book": 2,
+    "lesson": 29,
+    "grammar": [
+      "反意疑问句"
+    ],
+    "cn": "咱们好久没见了，不是吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We haven't seen each other for ages, have we?"
+        ],
+        "cn": "咱们好久没见了，不是吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Haven't we seen each other for ages?"
+        ],
+        "cn": "咱们好久没见了，不是吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "We haven't seen each other for ages."
+        ],
+        "cn": "咱们好久没见了，不是吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for ages」提问，问\"多久没见\"",
+        "answers": [
+          "How long haven't we seen each other?"
+        ],
+        "cn": "多久没见？"
+      }
+    ],
+    "explanation": "for ages 好久；老友重逢。"
+  },
+  {
+    "id": "tf-b1-178",
+    "book": 1,
+    "lesson": 25,
+    "grammar": [
+      "情态动词can",
+      "祈使句"
+    ],
+    "cn": "你能把盐递给我吗？",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Can you pass me the salt?"
+        ],
+        "cn": "你能把盐递给我吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can you pass me the salt?"
+        ],
+        "cn": "你能把盐递给我吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I cannot reach the salt."
+        ],
+        "cn": "你不能把盐递给我吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the salt」提问，问\"递什么\"",
+        "answers": [
+          "What can you pass me?"
+        ],
+        "cn": "你能递什么？"
+      }
+    ],
+    "explanation": "pass sb sth 递给某人；餐桌礼貌用语。"
+  },
+  {
+    "id": "tf-b1-179",
+    "book": 1,
+    "lesson": 27,
+    "grammar": [
+      "there be句型",
+      "some/any"
+    ],
+    "cn": "冰箱里还有一些剩菜。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is some leftover food in the fridge."
+        ],
+        "cn": "冰箱里还有一些剩菜。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is there any leftover food in the fridge?"
+        ],
+        "cn": "冰箱里还有一些剩菜吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not any leftover food in the fridge."
+        ],
+        "cn": "冰箱里还没有一些剩菜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the fridge」提问，问\"在哪里\"",
+        "answers": [
+          "Where is there some leftover food?"
+        ],
+        "cn": "在哪里？"
+      }
+    ],
+    "explanation": "leftover food 剩菜；居家生活。"
+  },
+  {
+    "id": "tf-b2-187",
+    "book": 2,
+    "lesson": 31,
+    "grammar": [
+      "定语从句"
+    ],
+    "cn": "这是我妈妈教我的那道菜。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is the dish that my mother taught me to cook."
+        ],
+        "cn": "这是我妈妈教我的那道菜。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this the dish that your mother taught you to cook?"
+        ],
+        "cn": "这是我妈妈教我的那道菜吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not the dish that my mother taught me to cook."
+        ],
+        "cn": "这不是我妈妈教我的那道菜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the dish」提问，问\"哪道菜\"",
+        "answers": [
+          "Which dish did your mother teach you to cook?"
+        ],
+        "cn": "哪道菜？"
+      }
+    ],
+    "explanation": "teach sb to do 教某人做；家庭烹饪。"
+  },
+  {
+    "id": "tf-b1-180",
+    "book": 1,
+    "lesson": 23,
+    "grammar": [
+      "一般现在时"
+    ],
+    "cn": "邻居家的狗每晚都叫。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The neighbour's dog barks every night."
+        ],
+        "cn": "邻居家的狗每晚都叫。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does the neighbour's dog bark every night?"
+        ],
+        "cn": "邻居家的狗每晚都叫吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The neighbour's dog does not bark every night."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every night」提问，问\"多久一次\"",
+        "answers": [
+          "How often does the neighbour's dog bark?"
+        ],
+        "cn": "多久一次？"
+      }
+    ],
+    "explanation": "neighbour's dog 邻居家的狗；社区生活琐事。"
+  },
+  {
+    "id": "tf-b2-188",
+    "book": 2,
+    "lesson": 33,
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "cn": "小区大门晚上十点会锁上。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The gate of the residential area is locked at ten p.m."
+        ],
+        "cn": "小区大门晚上十点会锁上。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the gate of the residential area locked at ten p.m.?"
+        ],
+        "cn": "小区大门晚上十点会锁上吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The gate of the residential area is not locked at ten p.m."
+        ],
+        "cn": "小区大门晚上十点不会锁上。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at ten p.m.」提问，问\"几点锁\"",
+        "answers": [
+          "What time is the gate of the residential area locked?"
+        ],
+        "cn": "几点锁？"
+      }
+    ],
+    "explanation": "residential area 小区；物业门禁。"
+  },
+  {
+    "id": "tf-b1-181",
+    "book": 1,
+    "lesson": 21,
+    "grammar": [
+      "一般现在时",
+      "频率副词"
+    ],
+    "cn": "物业每周二收垃圾。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The property management collects rubbish every Tuesday."
+        ],
+        "cn": "物业每周二收垃圾。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does the property management collect rubbish every Tuesday?"
+        ],
+        "cn": "物业每周二收垃圾吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The property management does not collect rubbish every Tuesday."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every Tuesday」提问，问\"什么时候收\"",
+        "answers": [
+          "When does the property management collect rubbish?"
+        ],
+        "cn": "他什么时候收？"
+      }
+    ],
+    "explanation": "property management 物业；收垃圾日程。"
+  },
+  {
+    "id": "tf-b2-189",
+    "book": 2,
+    "lesson": 35,
+    "grammar": [
+      "间接引语"
+    ],
+    "cn": "房东说下个月房租要涨。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The landlord said the rent would go up next month."
+        ],
+        "cn": "房东说下个月房租要涨。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the landlord say the rent would go up next month?"
+        ],
+        "cn": "房东说下个月房租要涨吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The landlord did not say the rent would go up next month."
+        ],
+        "cn": "房东说下个月房租不要涨。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「next month」提问，问\"什么时候涨\"",
+        "answers": [
+          "When did the landlord say the rent would go up?"
+        ],
+        "cn": "房东说下个月房租什么时候涨？"
+      }
+    ],
+    "explanation": "rent go up 房租上涨；租房话题。"
+  },
+  {
+    "id": "tf-b1-182",
+    "book": 1,
+    "lesson": 19,
+    "grammar": [
+      "一般过去时"
+    ],
+    "cn": "水管工昨天修好了漏水的水龙头。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The plumber fixed the leaking tap yesterday."
+        ],
+        "cn": "水管工昨天修好了漏水的水龙头。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the plumber fix the leaking tap yesterday?"
+        ],
+        "cn": "水管工昨天修好了漏水的水龙头吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The plumber did not fix the leaking tap yesterday."
+        ]
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the leaking tap」提问，问\"修什么\"",
+        "answers": [
+          "What did the plumber fix yesterday?"
+        ],
+        "cn": "他修什么？"
+      }
+    ],
+    "explanation": "leaking tap 漏水龙头；居家维修。"
+  },
+  {
+    "id": "tf-b2-190",
+    "book": 2,
+    "lesson": 37,
+    "grammar": [
+      "现在完成进行时"
+    ],
+    "cn": "楼上一直在装修，很吵。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They have been renovating upstairs, and it is very noisy."
+        ],
+        "cn": "楼上一直在装修，很吵。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have they been renovating upstairs, and is it very noisy?"
+        ],
+        "cn": "楼上一直在装修，很吵吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They have not been renovating upstairs, so it is not noisy."
+        ],
+        "cn": "楼上一直不在装修，很吵。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「upstairs」提问，问\"在哪里装修\"",
+        "answers": [
+          "Where have they been renovating?"
+        ],
+        "cn": "在哪里装修？"
+      }
+    ],
+    "explanation": "renovate 装修；邻里噪音抱怨。"
+  }
+]

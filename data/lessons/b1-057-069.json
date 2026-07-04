@@ -57,70 +57,70 @@
         "phon": "/freʃ/",
         "pos": "a.",
         "cn": "新鲜的",
-        "eg": ""
+        "eg": "The butcher has some fresh meat today."
       },
       {
         "word": "egg",
         "phon": "/eg/",
         "pos": "n.",
         "cn": "鸡蛋",
-        "eg": ""
+        "eg": "He did not finish his egg, but he laughed happily."
       },
       {
         "word": "butter",
         "phon": "/'bʌtər/",
         "pos": "n.",
         "cn": "黄油",
-        "eg": ""
+        "eg": "She needs some sugar and a pound of butter."
       },
       {
         "word": "pure",
         "phon": "/pjur/",
         "pos": "a.",
         "cn": "纯净的",
-        "eg": ""
+        "eg": "Not a penny was missing; the dream had been pure invention."
       },
       {
         "word": "honey",
         "phon": "/'hʌnɪ/",
         "pos": "n.",
         "cn": "蜂蜜",
-        "eg": ""
+        "eg": "Honey flowed out when the wood was cut. 木板切开时蜂蜜流了出来。"
       },
       {
         "word": "ripe",
         "phon": "/raɪp/",
         "pos": "a.",
         "cn": "成熟的",
-        "eg": ""
+        "eg": "Ripe fruit falls from the trees and you never have to work."
       },
       {
         "word": "banana",
         "phon": "/bə'nɑːnə/",
         "pos": "n.",
         "cn": "香蕉",
-        "eg": ""
+        "eg": "it can become a 'flying fruit-bowl', carrying bananas from the plantations to the ports;"
       },
       {
         "word": "jam",
         "phon": "/dʒæm/",
         "pos": "n.",
         "cn": "果酱",
-        "eg": ""
+        "eg": "We haven't got much tea or coffee, and we haven't got any sugar or jam."
       },
       {
         "word": "sweet",
         "phon": "/swiːt/",
         "pos": "a.",
         "cn": "甜的",
-        "eg": ""
+        "eg": "Yes, and I am going to make a sweet dessert."
       },
       {
         "word": "orange",
         "phon": "/'ɒrɪn(d)ʒ/",
         "pos": "n.",
         "cn": "橙",
-        "eg": ""
+        "eg": "she had to wear short socks and a bright, orange-coloured dress."
       },
       {
         "word": "Scotch whisky",
@@ -134,14 +134,14 @@
         "phon": "/tʃɒɪs/",
         "pos": "a.",
         "cn": "上等的，精选的",
-        "eg": ""
+        "eg": "you have the choice of very expensive organically-grown vegetables"
       },
       {
         "word": "apple",
         "phon": "/'æp(ə)l/",
         "pos": "n.",
         "cn": "苹果",
-        "eg": ""
+        "eg": "This was followed, at the end of the 1970s, by a machine called an Apple."
       }
     ],
     "grammar": [
@@ -222,14 +222,14 @@
         "phon": "/waɪn/",
         "pos": "n.",
         "cn": "酒，果酒",
-        "eg": ""
+        "eg": "Have we got any beer and wine?"
       },
       {
         "word": "beer",
         "phon": "/bɪə/",
         "pos": "n.",
         "cn": "啤酒",
-        "eg": ""
+        "eg": "Have we got any beer and wine?"
       },
       {
         "word": "blackboard",
@@ -243,63 +243,63 @@
         "phon": "/ˈbʊtʃə(r)/",
         "pos": "n.",
         "cn": "屠夫，卖肉的",
-        "eg": ""
+        "eg": "Hello. Were you at the butcher's?"
       },
       {
         "word": "meat",
         "phon": "/miːt/",
         "pos": "n.",
         "cn": "(食用)肉",
-        "eg": ""
+        "eg": "Do you want any meat today, Mrs. Bird?"
       },
       {
         "word": "beef",
         "phon": "/biːf/",
         "pos": "n.",
         "cn": "牛肉",
-        "eg": ""
+        "eg": "Do you want beef or lamb?"
       },
       {
         "word": "lamb",
         "phon": "/læm/",
         "pos": "n.",
         "cn": "羔羊肉",
-        "eg": ""
+        "eg": "Do you want beef or lamb?"
       },
       {
         "word": "husband",
         "phon": "/'hʌzbənd/",
         "pos": "n.",
         "cn": "丈夫",
-        "eg": ""
+        "eg": "Her husband is cleaning the house and buying some drinks."
       },
       {
         "word": "steak",
         "phon": "/steɪk/",
         "pos": "n.",
         "cn": "牛排",
-        "eg": ""
+        "eg": "What about some steak?"
       },
       {
         "word": "mince",
         "phon": "/mɪns/",
         "pos": "n.",
         "cn": "肉馅，绞肉",
-        "eg": ""
+        "eg": "And a pound of mince, too."
       },
       {
         "word": "chicken",
         "phon": "/'tʃɪkɪn/",
         "pos": "n.",
         "cn": "鸡",
-        "eg": ""
+        "eg": "Do you want a chicken, Mrs. Bird?"
       },
       {
         "word": "tell",
         "phon": "/tel/",
         "pos": "v.",
         "cn": "告诉",
-        "eg": ""
+        "eg": "To tell you the truth, Mrs. Bird,"
       }
     ],
     "grammar": [
@@ -380,35 +380,35 @@
         "phon": "/truːθ/",
         "pos": "n.",
         "cn": "实情",
-        "eg": ""
+        "eg": "To tell you the truth, Mrs. Bird,"
       },
       {
         "word": "either",
         "phon": "/'aɪðə; 'iː-/",
         "pos": "adv.",
         "cn": "也(用于否定句)",
-        "eg": ""
+        "eg": "I don't like chicken either!"
       },
       {
         "word": "tomato",
         "phon": "/tə'mɑːtəʊ/",
         "pos": "n.",
         "cn": "西红柿",
-        "eg": ""
+        "eg": "We haven't got many tomatoes, but we've got a lot of potatoes."
       },
       {
         "word": "potato",
         "phon": "/pə'teɪtəʊ/",
         "pos": "n.",
         "cn": "土豆",
-        "eg": ""
+        "eg": "We need some potatoes for dinner. 晚饭我们需要一些土豆。"
       },
       {
         "word": "cabbage",
         "phon": "/ˈkæbɪdʒ/",
         "pos": "n.",
         "cn": "卷心菜",
-        "eg": ""
+        "eg": "Are you going to buy a cabbage?"
       },
       {
         "word": "lettuce",
@@ -429,14 +429,14 @@
         "phon": "/biːn/",
         "pos": "n.",
         "cn": "豆角",
-        "eg": ""
+        "eg": "There are some beans on the plate. 盘子里有一些豆子。"
       },
       {
         "word": "pear",
         "phon": "/peə/",
         "pos": "n.",
         "cn": "梨",
-        "eg": ""
+        "eg": "And so with solids such as a shell, a nut, a plum, a pear, a tadpole, a mushroom,"
       },
       {
         "word": "grape",
@@ -450,21 +450,21 @@
         "phon": "/piːtʃ/",
         "pos": "n.",
         "cn": "桃",
-        "eg": ""
+        "eg": "Was the writer successful in protecting his peach tree? Why not?"
       },
       {
         "word": "Greece",
         "phon": "/gri:s/",
         "pos": "n.",
         "cn": "希腊",
-        "eg": ""
+        "eg": "I come from Greece."
       },
       {
         "word": "climate",
         "phon": "/'klaɪmət/",
         "pos": "n.",
         "cn": "气候",
-        "eg": ""
+        "eg": "An interesting climate"
       }
     ],
     "grammar": [
@@ -545,35 +545,35 @@
         "phon": "/'kʌntrɪ/",
         "pos": "n.",
         "cn": "国家",
-        "eg": ""
+        "eg": "We're going to spend three days in the country!"
       },
       {
         "word": "pleasant",
         "phon": "/'plez(ə)nt/",
         "pos": "a.",
         "cn": "宜人的",
-        "eg": ""
+        "eg": "It's mild, but it's not always pleasant."
       },
       {
         "word": "weather",
         "phon": "/'weðə/",
         "pos": "n.",
         "cn": "天气",
-        "eg": ""
+        "eg": "The weather's often cold in the North and windy in the East."
       },
       {
         "word": "spring",
         "phon": "/sprɪŋ/",
         "pos": "n.",
         "cn": "春季",
-        "eg": ""
+        "eg": "I like spring and summer."
       },
       {
         "word": "windy",
         "phon": "/'wɪndɪ/",
         "pos": "a.",
         "cn": "有风的",
-        "eg": ""
+        "eg": "The weather's often cold in the North and windy in the East."
       },
       {
         "word": "warm",
@@ -587,42 +587,42 @@
         "phon": "/reɪn/",
         "pos": "v.",
         "cn": "下雨",
-        "eg": ""
+        "eg": "Does it often rain in summer?"
       },
       {
         "word": "sometimes",
         "phon": "/'sʌmtaɪmz/",
         "pos": "adv.",
         "cn": "有时",
-        "eg": ""
+        "eg": "Mr. Sawyer usually reads his newspaper, but sometimes he and his wife watch television."
       },
       {
         "word": "summer",
         "phon": "/'sʌmə/",
         "pos": "n.",
         "cn": "夏天",
-        "eg": ""
+        "eg": "I like spring and summer."
       },
       {
         "word": "autumn",
         "phon": "/'ɔːtəm/",
         "pos": "n.",
         "cn": "秋天",
-        "eg": ""
+        "eg": "I don't like autumn and winter."
       },
       {
         "word": "winter",
         "phon": "/'wɪntə/",
         "pos": "n.",
         "cn": "冬天",
-        "eg": ""
+        "eg": "I don't like autumn and winter."
       },
       {
         "word": "snow",
         "phon": "/snəʊ/",
         "pos": "v.",
         "cn": "下雪",
-        "eg": ""
+        "eg": "Does it snow here in winter? 这儿冬天下雪吗？"
       }
     ],
     "grammar": [
@@ -703,91 +703,91 @@
         "phon": "/'dʒænjʊ(ə)rɪ/",
         "pos": "n.",
         "cn": "一月",
-        "eg": ""
+        "eg": "It's often cold in December, January and February."
       },
       {
         "word": "February",
         "phon": "/ˈfebrʊərɪ/",
         "pos": "n.",
         "cn": "二月",
-        "eg": ""
+        "eg": "It's often cold in December, January and February."
       },
       {
         "word": "March",
         "phon": "/mɑːtʃ/",
         "pos": "n.",
         "cn": "三月",
-        "eg": ""
+        "eg": "It's often windy in March."
       },
       {
         "word": "April",
         "phon": "/'eɪprəl/",
         "pos": "n.",
         "cn": "四月",
-        "eg": ""
+        "eg": "Can you come at 10 a.m. on Monday, April 24th?"
       },
       {
         "word": "May",
         "phon": "/meɪ/",
         "pos": "n.",
         "cn": "五月",
-        "eg": ""
+        "eg": "It's always warm in April and May, but it rains sometimes."
       },
       {
         "word": "June",
         "phon": "/dʒu:n/",
         "pos": "n.",
         "cn": "六月",
-        "eg": ""
+        "eg": "It's always hot in June, July and August."
       },
       {
         "word": "July",
         "phon": "/dʒʊˈlaɪ/",
         "pos": "n.",
         "cn": "七月",
-        "eg": ""
+        "eg": "It's always hot in June, July and August."
       },
       {
         "word": "August",
         "phon": "/ˈɔːɡəst/",
         "pos": "n.",
         "cn": "八月",
-        "eg": ""
+        "eg": "It's always hot in June, July and August."
       },
       {
         "word": "September",
         "phon": "/sep'tembə/",
         "pos": "n.",
         "cn": "九月",
-        "eg": ""
+        "eg": "It's always warm in September and October."
       },
       {
         "word": "October",
         "phon": "/ɒk'təʊbə/",
         "pos": "n.",
         "cn": "十月",
-        "eg": ""
+        "eg": "It's always warm in September and October."
       },
       {
         "word": "November",
         "phon": "/nə(ʊ)'vembə/",
         "pos": "n.",
         "cn": "十一月",
-        "eg": ""
+        "eg": "It's often cold in November and it rains sometimes."
       },
       {
         "word": "December",
         "phon": "/dɪ'sembə/",
         "pos": "n.",
         "cn": "十二月",
-        "eg": ""
+        "eg": "It's often cold in December, January and February."
       },
       {
         "word": "the U.S.",
         "phon": "",
         "pos": "",
         "cn": "美国",
-        "eg": ""
+        "eg": "At the base of the gold cap, the words 'made in the U.S.A.' had been neatly inscribed."
       }
     ],
     "grammar": [
@@ -867,42 +867,42 @@
         "phon": "/brə'zil/",
         "pos": "n.",
         "cn": "巴西",
-        "eg": ""
+        "eg": "The flap of a butterfly's wings in Brazil might, in theory, set off a tornado in Texas."
       },
       {
         "word": "Holland",
         "phon": "/'hɒlənd/",
         "pos": "n.",
         "cn": "荷兰",
-        "eg": ""
+        "eg": "My daughter, Jane, never dreamed of receiving a letter from a girl of her own age in Holland."
       },
       {
         "word": "England",
         "phon": "/ˈɪŋɡlənd/",
         "pos": "n.",
         "cn": "英国",
-        "eg": ""
+        "eg": "I come from England."
       },
       {
         "word": "France",
         "phon": "/'fræns/",
         "pos": "n.",
         "cn": "法国",
-        "eg": ""
+        "eg": "After I had left a small village in the south of France,"
       },
       {
         "word": "Germany",
         "phon": "/'dʒɜːmənɪ/",
         "pos": "n.",
         "cn": "德国",
-        "eg": ""
+        "eg": "It was made in Germany in 1681."
       },
       {
         "word": "Italy",
         "phon": "/'ɪtəlɪ/",
         "pos": "n.",
         "cn": "意大利",
-        "eg": ""
+        "eg": "Last summer, I went to Italy."
       },
       {
         "word": "Norway",
@@ -916,35 +916,35 @@
         "phon": "/'rʌʃə/",
         "pos": "n.",
         "cn": "俄罗斯",
-        "eg": ""
+        "eg": "The Karen had been sailing in a convoy to Russia when she was torpedoed by an enemy submarine."
       },
       {
         "word": "Spain",
         "phon": "/spein/",
         "pos": "n.",
         "cn": "西班牙",
-        "eg": ""
+        "eg": "He flew to Spain a week ago."
       },
       {
         "word": "Sweden",
         "phon": "/'swidən/",
         "pos": "n.",
         "cn": "瑞典",
-        "eg": ""
+        "eg": "During a holiday in Sweden,"
       },
       {
         "word": "mild",
         "phon": "/maɪld/",
         "pos": "a.",
         "cn": "温和的，轻微的",
-        "eg": ""
+        "eg": "It's mild, but it's not always pleasant."
       },
       {
         "word": "always",
         "phon": "/ˈɔ:lweɪz/",
         "pos": "adv.",
         "cn": "总是",
-        "eg": ""
+        "eg": "She always comes home early."
       }
     ],
     "grammar": [
@@ -1018,91 +1018,91 @@
         "phon": "/nɔːθ/",
         "pos": "n.",
         "cn": "北方",
-        "eg": ""
+        "eg": "The weather's often cold in the North and windy in the East."
       },
       {
         "word": "east",
         "phon": "/iːst/",
         "pos": "n.",
         "cn": "东方",
-        "eg": ""
+        "eg": "The weather's often cold in the North and windy in the East."
       },
       {
         "word": "wet",
         "phon": "/wet/",
         "pos": "a.",
         "cn": "潮湿的",
-        "eg": ""
+        "eg": "It's often wet in the West and sometimes warm in the South."
       },
       {
         "word": "west",
         "phon": "/west/",
         "pos": "n.",
         "cn": "西方",
-        "eg": ""
+        "eg": "It's often wet in the West and sometimes warm in the South."
       },
       {
         "word": "south",
         "phon": "/saʊθ/",
         "pos": "n.",
         "cn": "南方",
-        "eg": ""
+        "eg": "It's often wet in the West and sometimes warm in the South."
       },
       {
         "word": "season",
         "phon": "/'siːz(ə)n/",
         "pos": "n.",
         "cn": "季节",
-        "eg": ""
+        "eg": "Autumn is my favourite season. 秋天是我最喜欢的季节。"
       },
       {
         "word": "best",
         "phon": "/best/",
         "pos": "adv.",
         "cn": "最",
-        "eg": ""
+        "eg": "He is the best driver in the team. 他是队里最好的车手。"
       },
       {
         "word": "night",
         "phon": "/naɪt/",
         "pos": "n.",
         "cn": "夜晚",
-        "eg": ""
+        "eg": "Did he telephone again last night?"
       },
       {
         "word": "rise",
         "phon": "/raɪz/",
         "pos": "v.",
         "cn": "升起",
-        "eg": ""
+        "eg": "The sun rises early and sets late."
       },
       {
         "word": "early",
         "phon": "/'ɜːlɪ/",
         "pos": "adv.",
         "cn": "早期的",
-        "eg": ""
+        "eg": "He often starts at ten o'clock and never stops early."
       },
       {
         "word": "set",
         "phon": "/set/",
         "pos": "v.",
         "cn": "(太阳)落下去",
-        "eg": ""
+        "eg": "The sun rises early and sets late."
       },
       {
         "word": "late",
         "phon": "/leɪt/",
         "pos": "adv.",
         "cn": "晚，迟",
-        "eg": ""
+        "eg": "You mustn't come home late."
       },
       {
         "word": "interesting",
         "phon": "/ˈɪntrəstɪŋ/",
         "pos": "a.",
         "cn": "有趣的，有意思的",
-        "eg": ""
+        "eg": "At the moment, he's reading an interesting book."
       }
     ],
     "grammar": [

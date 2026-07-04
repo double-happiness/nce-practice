@@ -1,0 +1,152 @@
+[
+  {
+    "id": "tf-b1-076",
+    "book": 1,
+    "lesson": 7,
+    "grammar": ["冠词a/an"],
+    "cambridge": { "level": "egiu", "unit": 71, "title": "a/an", "titleCn": "不定冠词 a/an" },
+    "cn": "他是一名工程师。",
+    "explanation": "engineer 以元音音素开头用 an；辅音音素开头用 a。对应 EGIU Unit 71。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is an engineer.", "He's an engineer."], "cn": "他是一名工程师。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not an engineer.", "He isn't an engineer."], "cn": "他不是工程师。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he an engineer?"], "cn": "他是工程师吗？" },
+      { "kind": "wh", "prompt": "对「an engineer」提问（问\"职业是什么\"）", "answers": ["What is he?", "What's his job?"], "cn": "他是做什么的？" }
+    ]
+  },
+  {
+    "id": "tf-b1-077",
+    "book": 1,
+    "lesson": 21,
+    "grammar": ["this/that/these/those"],
+    "cambridge": { "level": "egiu", "unit": 74, "title": "this/that/these/those", "titleCn": "指示代词" },
+    "cn": "这些书是我的。",
+    "explanation": "近处复数用 these；远处复数用 those。对应 EGIU Unit 74。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["These books are mine.", "These are my books."], "cn": "这些书是我的。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["These books are not mine.", "These aren't my books."], "cn": "这些书不是我的。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are these books yours?", "Are these your books?"], "cn": "这些书是你的吗？" },
+      { "kind": "wh", "prompt": "对「these books」提问（问\"哪些书是你的\"）", "answers": ["Which books are yours?", "Which are your books?"], "cn": "哪些书是你的？" }
+    ]
+  },
+  {
+    "id": "tf-b1-078",
+    "book": 1,
+    "lesson": 43,
+    "grammar": ["情态动词can"],
+    "cambridge": { "level": "egiu", "unit": 30, "title": "can and could", "titleCn": "can / could" },
+    "cn": "我能帮你吗？",
+    "explanation": "can 表能力或许可；疑问句 can 提前。could 为过去式或更客气说法。对应 EGIU Unit 30。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Can I help you?", "Could I help you?"], "cn": "我能帮你吗？" },
+      { "kind": "negative", "prompt": "改为否定句（我不能帮你）", "answers": ["I cannot help you.", "I can't help you."], "cn": "我不能帮你。" },
+      { "kind": "wh", "prompt": "对「you」提问（问\"能帮谁\"）", "answers": ["Who can I help?", "Who can you help?"], "cn": "我能帮谁？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（你能帮我吗）", "answers": ["Can you help me?", "Could you help me?"], "cn": "你能帮我吗？" }
+    ]
+  },
+  {
+    "id": "tf-b1-079",
+    "book": 1,
+    "lesson": 25,
+    "grammar": ["人称代词", "物主代词"],
+    "cambridge": { "level": "egiu", "unit": 64, "title": "my/your/his", "titleCn": "人称与物主代词" },
+    "cn": "请把它们给她。",
+    "explanation": "动词后用人称代词宾格 them；her 为宾格。对应 EGIU Unit 64。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Please give them to her.", "Give them to her, please."], "cn": "请把它们给她。" },
+      { "kind": "negative", "prompt": "改为否定祈使句", "answers": ["Don't give them to her.", "Do not give them to her."], "cn": "别把它们给她。" },
+      { "kind": "wh", "prompt": "对「her」提问（问\"给谁\"）", "answers": ["Who should you give them to?", "Who did you give them to?"], "cn": "你把它们给谁？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did you give them to her?", "Will you give them to her?"], "cn": "你把它们给她了吗？" }
+    ]
+  },
+  {
+    "id": "tf-b1-080",
+    "book": 1,
+    "lesson": 11,
+    "grammar": ["名词所有格"],
+    "cambridge": { "level": "egiu", "unit": 64, "title": "my/your/his", "titleCn": "名词所有格 's" },
+    "cn": "这是我朋友的汽车。",
+    "explanation": "有生命名词所有格加 's：my friend's car。对应 EGIU Unit 64。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is my friend's car.", "This is the car of my friend."], "cn": "这是我朋友的汽车。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not my friend's car.", "This isn't my friend's car."], "cn": "这不是我朋友的汽车。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this your friend's car?"], "cn": "这是我朋友的汽车吗？" },
+      { "kind": "wh", "prompt": "对「my friend's」提问（问\"谁的汽车\"）", "answers": ["Whose car is this?", "Who does this car belong to?"], "cn": "这是谁的汽车？" }
+    ]
+  },
+  {
+    "id": "tf-b1-081",
+    "book": 1,
+    "lesson": 29,
+    "grammar": ["形容词"],
+    "cambridge": { "level": "egiu", "unit": 84, "title": "old/older/oldest", "titleCn": "形容词作表语" },
+    "cn": "这扇门很旧。",
+    "explanation": "形容词 old 作表语：The door is old。比较级 older，最高级 oldest。对应 EGIU Unit 84。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This door is very old.", "The door is old."], "cn": "这扇门很旧。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["This door is not very old.", "The door isn't old."], "cn": "这扇门不是很旧。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this door very old?", "Is the door old?"], "cn": "这扇门很旧吗？" },
+      { "kind": "wh", "prompt": "对「old」提问（问\"门怎样\"）", "answers": ["How is this door?", "What is the door like?"], "cn": "这扇门怎么样？" }
+    ]
+  },
+  {
+    "id": "tf-b1-082",
+    "book": 1,
+    "lesson": 109,
+    "grammar": ["形容词最高级"],
+    "cambridge": { "level": "egiu", "unit": 84, "title": "old/older/oldest", "titleCn": "最高级" },
+    "cn": "他是班上最高的学生。",
+    "explanation": "三者以上比较用最高级 the tallest；in the class 为范围。对应 EGIU Unit 84。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is the tallest student in the class.", "He's the tallest in his class."], "cn": "他是班上最高的学生。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not the tallest student in the class."], "cn": "他不是班上最高的学生。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he the tallest student in the class?"], "cn": "他是班上最高的学生吗？" },
+      { "kind": "wh", "prompt": "对「the tallest student」提问（问\"班上谁最高\"）", "answers": ["Who is the tallest student in the class?"], "cn": "班上谁最高？" }
+    ]
+  },
+  {
+    "id": "tf-b1-083",
+    "book": 1,
+    "lesson": 99,
+    "grammar": ["动词不定式"],
+    "cambridge": { "level": "egiu", "unit": 52, "title": "to… (infinitive)", "titleCn": "动词不定式" },
+    "cn": "我想喝一杯水。",
+    "explanation": "want to do 后接不定式作宾语。对应 EGIU Unit 52。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I want to drink a glass of water.", "I want to have a drink of water."], "cn": "我想喝一杯水。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I don't want to drink a glass of water.", "I do not want a drink."], "cn": "我不想喝水。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do you want to drink a glass of water?"], "cn": "你想喝一杯水吗？" },
+      { "kind": "wh", "prompt": "对「to drink a glass of water」提问（问\"想做什么\"）", "answers": ["What do you want to drink?", "What do you want to do?"], "cn": "你想做什么？" }
+    ]
+  },
+  {
+    "id": "tf-b1-084",
+    "book": 1,
+    "lesson": 27,
+    "grammar": ["一般现在时", "疑问句"],
+    "cambridge": { "level": "egiu", "unit": 6, "title": "I don't…", "titleCn": "一般现在时否定（EGIU 顺序）" },
+    "cn": "她每天喝咖啡。",
+    "explanation": "EGIU Unit 6 先学否定：三单借助 does not，动词还原。转换顺序：中译英→否定→疑问→提问。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She drinks coffee every day.", "She has coffee every day."], "cn": "她每天喝咖啡。" },
+      { "kind": "negative", "prompt": "改为否定句（EGIU U6）", "answers": ["She does not drink coffee every day.", "She doesn't drink coffee every day."], "cn": "她不是每天喝咖啡。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（EGIU U7）", "answers": ["Does she drink coffee every day?"], "cn": "她每天喝咖啡吗？" },
+      { "kind": "wh", "prompt": "对「coffee」提问（问\"每天喝什么\"）", "answers": ["What does she drink every day?"], "cn": "她每天喝什么？" }
+    ]
+  },
+  {
+    "id": "tf-b1-085",
+    "book": 1,
+    "lesson": 31,
+    "grammar": ["一般过去时", "疑问句"],
+    "cambridge": { "level": "egiu", "unit": 11, "title": "I didn't…", "titleCn": "一般过去时否定（EGIU 顺序）" },
+    "cn": "他昨天买了一本杂志。",
+    "explanation": "EGIU Unit 11 过去时否定用 didn't + 原形。顺序：中译英→否定→疑问→提问。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He bought a magazine yesterday.", "He bought a magazine last night."], "cn": "他昨天买了一本杂志。" },
+      { "kind": "negative", "prompt": "改为否定句（EGIU U11）", "answers": ["He didn't buy a magazine yesterday.", "He did not buy a magazine yesterday."], "cn": "他昨天没买杂志。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（EGIU U12）", "answers": ["Did he buy a magazine yesterday?"], "cn": "他昨天买杂志了吗？" },
+      { "kind": "wh", "prompt": "对「a magazine」提问（问\"买了什么\"）", "answers": ["What did he buy yesterday?"], "cn": "他昨天买了什么？" }
+    ]
+  }
+]

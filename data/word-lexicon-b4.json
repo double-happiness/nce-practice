@@ -4,6 +4,429 @@
       {
         "w": "keep",
         "note": "保存"
+      },
+      {
+        "w": "preservation",
+        "note": "释义相近"
+      },
+      {
+        "w": "conservation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "remains": {
+    "synonyms": [
+      {
+        "w": "remain",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "ancestor": {
+    "synonyms": [
+      {
+        "w": "forefathers",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "tolerate": {
+    "synonyms": [
+      {
+        "w": "tolerance",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "delicate": {
+    "synonyms": [
+      {
+        "w": "vulnerable",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "balance": {
+    "synonyms": [
+      {
+        "w": "equilibrium",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "destroy": {
+    "synonyms": [
+      {
+        "w": "eliminate",
+        "note": "释义相近"
+      },
+      {
+        "w": "exterminate",
+        "note": "释义相近"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      }
+    ]
+  },
+  "conquer": {
+    "synonyms": [
+      {
+        "w": "subdue",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "resent": {
+    "synonyms": [
+      {
+        "w": "aversion",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "appreciation": {
+    "synonyms": [
+      {
+        "w": "comprehend",
+        "note": "释义相近"
+      },
+      {
+        "w": "fathom",
+        "note": "同类词"
+      },
+      {
+        "w": "perceive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "rivalry": {
+    "synonyms": [
+      {
+        "w": "vie",
+        "note": "释义相近"
+      },
+      {
+        "w": "contest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "apparatus": {
+    "synonyms": [
+      {
+        "w": "device",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "dialysis": {
+    "synonyms": [
+      {
+        "w": "isolate",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "eliminate": {
+    "synonyms": [
+      {
+        "w": "exterminate",
+        "note": "释义相近"
+      },
+      {
+        "w": "destroy",
+        "note": "同类词"
+      }
+    ]
+  },
+  "device": {
+    "synonyms": [
+      {
+        "w": "contrivance",
+        "note": "释义相近"
+      },
+      {
+        "w": "apparatus",
+        "note": "同类词"
+      }
+    ]
+  },
+  "espionage(title)": {
+    "synonyms": [
+      {
+        "w": "espionage",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "violate": {
+    "synonyms": [
+      {
+        "w": "breach",
+        "note": "释义相近"
+      }
+    ],
+    "related": [
+      "breach"
+    ]
+  },
+  "vigilance": {
+    "synonyms": [
+      {
+        "w": "precaution",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "trivial": {
+    "synonyms": [
+      {
+        "w": "negligible",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "prolonged": {
+    "synonyms": [
+      {
+        "w": "enduring",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "plot": {
+    "synonyms": [
+      {
+        "w": "intrigue",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "thrive": {
+    "synonyms": [
+      {
+        "w": "flourish",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "anarchy": {
+    "synonyms": [
+      {
+        "w": "chaos",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "contentment": {
+    "synonyms": [
+      {
+        "w": "satiation",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "complication": {
+    "synonyms": [
+      {
+        "w": "dust",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "circulate": {
+    "synonyms": [
+      {
+        "w": "inject",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "gamble": {
+    "synonyms": [
+      {
+        "w": "venture",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "fluctuation": {
+    "synonyms": [
+      {
+        "w": "undulate",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "effectiveness": {
+    "synonyms": [
+      {
+        "w": "potency",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "banal": {
+    "synonyms": [
+      {
+        "w": "vulgar",
+        "note": "释义相近"
+      },
+      {
+        "w": "pedestrian",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "overrun": {
+    "synonyms": [
+      {
+        "w": "sprawl",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "confine": {
+    "synonyms": [
+      {
+        "w": "extent",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "acoustic": {
+    "synonyms": [
+      {
+        "w": "auditory",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "consolidate": {
+    "synonyms": [
+      {
+        "w": "reinforce",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "alien": {
+    "synonyms": [
+      {
+        "w": "exotic",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "suspect": {
+    "synonyms": [
+      {
+        "w": "discredit",
+        "note": "释义相近"
+      },
+      {
+        "w": "scepticism",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "like": {
+    "synonyms": [
+      {
+        "w": "analogous",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "vulgar": {
+    "synonyms": [
+      {
+        "w": "pedestrian",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "intimation": {
+    "synonyms": [
+      {
+        "w": "insinuate",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "inadequate": {
+    "synonyms": [
+      {
+        "w": "undue",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "discredit": {
+    "synonyms": [
+      {
+        "w": "scepticism",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "snag": {
+    "synonyms": [
+      {
+        "w": "obstacle",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "armament": {
+    "synonyms": [
+      {
+        "w": "ordnance",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "port": {
+    "synonyms": [
+      {
+        "w": "starboard",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "sceptical": {
+    "synonyms": [
+      {
+        "w": "skeptical",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "dredge": {
+    "synonyms": [
+      {
+        "w": "winkle",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "likelihood": {
+    "synonyms": [
+      {
+        "w": "odds",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "pagan": {
+    "synonyms": [
+      {
+        "w": "heretic",
+        "note": "释义相近"
       }
     ]
   },
@@ -23,10 +446,176 @@
       }
     ]
   },
-  "destroy": {
+  "forefathers": {
     "synonyms": [
       {
-        "w": "wreck",
+        "w": "ancestor",
+        "note": "同类词"
+      }
+    ]
+  },
+  "preservation": {
+    "synonyms": [
+      {
+        "w": "preserve",
+        "note": "同类词"
+      },
+      {
+        "w": "conservation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "conservation": {
+    "synonyms": [
+      {
+        "w": "preserve",
+        "note": "同类词"
+      },
+      {
+        "w": "preservation",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "preserve"
+    ]
+  },
+  "tolerance": {
+    "synonyms": [
+      {
+        "w": "tolerate",
+        "note": "同类词"
+      }
+    ]
+  },
+  "vulnerable": {
+    "synonyms": [
+      {
+        "w": "delicate",
+        "note": "同类词"
+      },
+      {
+        "w": "susceptible",
+        "note": "同类词"
+      }
+    ]
+  },
+  "equilibrium": {
+    "synonyms": [
+      {
+        "w": "balance",
+        "note": "同类词"
+      }
+    ]
+  },
+  "exterminate": {
+    "synonyms": [
+      {
+        "w": "destroy",
+        "note": "同类词"
+      },
+      {
+        "w": "eliminate",
+        "note": "同类词"
+      }
+    ]
+  },
+  "subdue": {
+    "synonyms": [
+      {
+        "w": "conquer",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "conquer"
+    ]
+  },
+  "aversion": {
+    "synonyms": [
+      {
+        "w": "resent",
+        "note": "同类词"
+      }
+    ]
+  },
+  "comprehend": {
+    "synonyms": [
+      {
+        "w": "appreciation",
+        "note": "同类词"
+      },
+      {
+        "w": "fathom",
+        "note": "同类词"
+      },
+      {
+        "w": "perceive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fathom": {
+    "synonyms": [
+      {
+        "w": "appreciation",
+        "note": "同类词"
+      },
+      {
+        "w": "comprehend",
+        "note": "同类词"
+      },
+      {
+        "w": "perceive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "perceive": {
+    "synonyms": [
+      {
+        "w": "appreciation",
+        "note": "同类词"
+      },
+      {
+        "w": "comprehend",
+        "note": "同类词"
+      },
+      {
+        "w": "fathom",
+        "note": "同类词"
+      }
+    ]
+  },
+  "vie": {
+    "synonyms": [
+      {
+        "w": "rivalry",
+        "note": "同类词"
+      },
+      {
+        "w": "contest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "contest": {
+    "synonyms": [
+      {
+        "w": "rivalry",
+        "note": "同类词"
+      },
+      {
+        "w": "vie",
+        "note": "同类词"
+      }
+    ]
+  },
+  "isolate": {
+    "synonyms": [
+      {
+        "w": "dialysis",
         "note": "同类词"
       }
     ]
@@ -51,40 +640,40 @@
       }
     ]
   },
-  "conservation": {
+  "withdraw": {
     "synonyms": [
       {
-        "w": "preservation",
+        "w": "retreat",
         "note": "同类词"
       }
     ],
     "related": [
-      "preserve"
+      "retreat"
     ]
   },
-  "preservation": {
+  "retreat": {
     "synonyms": [
       {
-        "w": "conservation",
+        "w": "withdraw",
         "note": "同类词"
       }
     ]
   },
-  "subdue": {
+  "invest": {
     "synonyms": [
       {
-        "w": "conquer",
+        "w": "finance",
         "note": "同类词"
       }
     ],
     "related": [
-      "conquer"
+      "finance"
     ]
   },
-  "conquer": {
+  "finance": {
     "synonyms": [
       {
-        "w": "subdue",
+        "w": "invest",
         "note": "同类词"
       }
     ]
@@ -164,15 +753,31 @@
       }
     ]
   },
-  "violate": {
+  "delegate": {
     "synonyms": [
       {
-        "w": "breach",
+        "w": "assign",
         "note": "同类词"
       }
     ],
     "related": [
-      "breach"
+      "assign"
+    ]
+  },
+  "assign": {
+    "synonyms": [
+      {
+        "w": "delegate",
+        "note": "同类词"
+      }
+    ]
+  },
+  "susceptible": {
+    "synonyms": [
+      {
+        "w": "vulnerable",
+        "note": "同类词"
+      }
     ]
   },
   "breach": {
@@ -186,11 +791,6 @@
       "violate"
     ]
   },
-  "withdraw": {
-    "related": [
-      "retreat"
-    ]
-  },
   "oppress": {
     "related": [
       "dominate"
@@ -199,16 +799,6 @@
   "alienate": {
     "related": [
       "isolate"
-    ]
-  },
-  "invest": {
-    "related": [
-      "finance"
-    ]
-  },
-  "delegate": {
-    "related": [
-      "assign"
     ]
   },
   "perilous": {

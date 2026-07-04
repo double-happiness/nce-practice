@@ -6,7 +6,8 @@ const data = require('../lib/data');
 const profile = require('../lib/profile');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 const { collectTurnAnswers, isDialogueTurnCorrect } = require('../lib/dialogue-grade');
-const { CATEGORIES, LEARNER_ROLE, buildGroupTree } = require('../lib/dialogue-meta');
+const { CATEGORIES, buildGroupTree } = require('../lib/dialogue-meta');
+const { publicDialogue, publicSummary, buildMeta, isLearnerTurn } = require('../lib/dialogue-public');
 const activity = require('../lib/activity');
 const dlgSrs = require('../lib/dialogue-srs');
 
@@ -26,108 +27,28 @@ function save(obj) {
   writeJSONAtomic(profile.file('dialogues.json'), obj);
 }
 
-function isLearnerTurn(turn) {
-  return turn.role === LEARNER_ROLE;
-}
-
-// 下发对话时隐藏学习者角色的英文答案
-function chainNextId(d) {
-  if (!d.chain || !d.chain.id) return null;
-  const nextPart = d.chain.part + 1;
-  if (nextPart > d.chain.parts) return null;
-  const hit = data.getDialogues().find(
-    (x) => x.chain && x.chain.id === d.chain.id && x.chain.part === nextPart,
-  );
-  return hit ? hit.id : null;
-}
-
-function publicDialogue(d) {
-  return {
-    id: d.id,
-    category: d.category,
-    title: d.title,
-    titleCn: d.titleCn,
-    scene: d.scene,
-    roles: d.roles,
-    chain: d.chain || null,
-    nextId: chainNextId(d),
-    turns: d.turns.map((t, i) => {
-      const pub = { index: i, role: t.role, cn: t.cn };
-      if (!isLearnerTurn(t)) pub.en = t.en;
-      pub.practice = isLearnerTurn(t);
-      return pub;
-    }),
-  };
-}
-
-function publicSummary(d) {
-  const practiceCount = d.turns.filter(isLearnerTurn).length;
-  return {
-    id: d.id,
-    category: d.category,
-    title: d.title,
-    titleCn: d.titleCn,
-    scene: d.scene,
-    turnCount: d.turns.length,
-    practiceCount,
-    chain: d.chain || null,
-    nextId: chainNextId(d),
-  };
-}
-
-function chainIndex() {
-  const chains = new Map();
-  for (const d of data.getDialogues()) {
-    if (!d.chain || !d.chain.id) continue;
-    if (!chains.has(d.chain.id)) {
-      chains.set(d.chain.id, {
-        id: d.chain.id,
-        title: d.chain.title,
-        titleCn: d.chain.titleCn,
-        parts: d.chain.parts,
-        partIds: [],
-      });
-    }
-    chains.get(d.chain.id).partIds.push({ part: d.chain.part, id: d.id });
-  }
-  const list = [];
-  chains.forEach((c) => {
-    c.partIds.sort((a, b) => a.part - b.part);
-    c.partIds = c.partIds.map((x) => x.id);
-    list.push(c);
-  });
-  list.sort((a, b) => a.titleCn.localeCompare(b.titleCn, 'zh'));
-  return list;
+function allDialogues() {
+  return data.getDialogues();
 }
 
 // GET /dialogue/meta —— 场景分类与对话数量
 router.get('/dialogue/meta', (req, res) => {
-  const byCategory = {};
-  for (const d of data.getDialogues()) {
-    byCategory[d.category] = (byCategory[d.category] || 0) + 1;
-  }
-  res.json({
-    total: data.getDialogues().length,
-    categories: CATEGORIES,
-    groups: buildGroupTree(byCategory),
-    byCategory,
-    chains: chainIndex(),
-  });
+  res.json(buildMeta(allDialogues(), CATEGORIES, buildGroupTree));
 });
 
 // GET /dialogue/list?category= —— 对话目录（不含答案）
 router.get('/dialogue/list', (req, res) => {
-  let list = data.getDialogues().slice();
+  let list = allDialogues().slice();
   const { category } = req.query;
   if (category) list = list.filter((d) => d.category === category);
-  res.json({ count: list.length, dialogues: list.map(publicSummary) });
+  res.json({ count: list.length, dialogues: list.map((d) => publicSummary(d, allDialogues())) });
 });
 
 // GET /dialogue/:id —— 单条对话（学习者台词隐藏英文）
 router.get('/dialogue/:id', (req, res) => {
   const d = data.getDLGMAP().get(req.params.id);
   if (!d) return res.status(404).json({ error: '对话不存在' });
-  res.json(publicDialogue(d));
+  res.json(publicDialogue(d, allDialogues()));
 });
 
 // POST /dialogue/grade  body { id, turn, response }

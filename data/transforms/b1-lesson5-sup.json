@@ -1,0 +1,77 @@
+[
+  {
+    "id": "tf-b1-088",
+    "book": 1,
+    "lesson": 5,
+    "grammar": ["be动词", "人称代词"],
+    "cambridge": { "level": "egiu", "unit": 64, "title": "my/your/his", "titleCn": "人称代词 he / she" },
+    "cn": "他是德国人。",
+    "explanation": "he 指男性，作主语 be 用 is；German 为国籍形容词，首字母大写，作表语不加冠词。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is German.", "He's German."], "cn": "他是德国人。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he German?"], "cn": "他是德国人吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not German.", "He isn't German.", "He's not German."], "cn": "他不是德国人。" },
+      { "kind": "wh", "prompt": "对「German」提问（问国籍）", "answers": ["What nationality is he?", "Where is he from?"], "cn": "他是哪国人？" }
+    ]
+  },
+  {
+    "id": "tf-b1-089",
+    "book": 1,
+    "lesson": 5,
+    "grammar": ["be动词", "人称代词"],
+    "cambridge": { "level": "egiu", "unit": 1, "title": "am/is/are", "titleCn": "be 动词（陈述）" },
+    "cn": "我是中国人。",
+    "explanation": "I 作主语 be 用 am；Chinese 为国籍形容词，直接跟在 am 后表身份。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I am Chinese.", "I'm Chinese."], "cn": "我是中国人。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are you Chinese?", "Am I Chinese?"], "cn": "你是中国人吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I am not Chinese.", "I'm not Chinese."], "cn": "我不是中国人。" },
+      { "kind": "wh", "prompt": "对「Chinese」提问（问国籍）", "answers": ["What nationality are you?", "Where are you from?"], "cn": "你是哪国人？" }
+    ]
+  },
+  {
+    "id": "tf-b1-090",
+    "book": 1,
+    "lesson": 5,
+    "grammar": ["be动词", "人称代词"],
+    "cambridge": { "level": "egiu", "unit": 1, "title": "am/is/are", "titleCn": "be 动词（陈述）" },
+    "cn": "他们是法国人。",
+    "explanation": "复数主语 they 用 are；French 作表语表国籍，不加冠词。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They are French.", "They're French."], "cn": "他们是法国人。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are they French?"], "cn": "他们是法国人吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["They are not French.", "They aren't French.", "They're not French."], "cn": "他们不是法国人。" },
+      { "kind": "wh", "prompt": "对「French」提问（问国籍）", "answers": ["What nationality are they?", "Where are they from?"], "cn": "他们是哪国人？" }
+    ]
+  },
+  {
+    "id": "tf-b1-091",
+    "book": 1,
+    "lesson": 5,
+    "grammar": ["词汇辨析", "形容词"],
+    "cambridge": { "level": "egiu", "unit": 105, "title": "word order", "titleCn": "good vs well" },
+    "cn": "她擅长英语。",
+    "explanation": "good 是形容词，be good at 表「擅长……」；修饰名词或作表语用 good，不用 well。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is good at English.", "She's good at English."], "cn": "她擅长英语。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she good at English?"], "cn": "她擅长英语吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not good at English.", "She isn't good at English.", "She's not good at English."], "cn": "她不擅长英语。" },
+      { "kind": "wh", "prompt": "对「English」提问（问\"擅长什么\"）", "answers": ["What is she good at?", "What subject is she good at?"], "cn": "她擅长什么？" }
+    ]
+  },
+  {
+    "id": "tf-b1-092",
+    "book": 1,
+    "lesson": 5,
+    "grammar": ["词汇辨析", "一般现在时"],
+    "cambridge": { "level": "egiu", "unit": 105, "title": "word order", "titleCn": "good vs well" },
+    "cn": "他英语说得好。",
+    "explanation": "well 作副词修饰动词 speak；good 修饰动词时用 well，不说 speak good。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He speaks English well."], "cn": "他英语说得好。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he speak English well?"], "cn": "他英语说得好吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not speak English well.", "He doesn't speak English well."], "cn": "他英语说得不好。" },
+      { "kind": "wh", "prompt": "对「English」提问（问\"说什么语言\"）", "answers": ["What language does he speak well?", "What does he speak well?"], "cn": "他什么语言说得好？" }
+    ]
+  }
+]

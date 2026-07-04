@@ -65,63 +65,63 @@
         "phon": "/sə'vaɪvə/",
         "pos": "n.",
         "cn": "幸存者",
-        "eg": ""
+        "eg": "It was not long before a helicopter arrived on the scene to rescue the survivors of the plane crash."
       },
       {
         "word": "fool",
         "phon": "/fuːl/",
         "pos": "n.",
         "cn": "傻瓜",
-        "eg": ""
+        "eg": "I went down immediately, of course, and that fool, Horst,"
       },
       {
         "word": "bulletin",
         "phon": "/'bulətɪn/",
         "pos": "n.",
         "cn": "亲闻简报",
-        "eg": ""
+        "eg": "'To end our special news bulletin,'"
       },
       {
         "word": "announcer",
         "phon": "/ə'naʊnsə/",
         "pos": "n.",
         "cn": "(电视、电台)播音员",
-        "eg": ""
+        "eg": "said the voice of the television announcer, 'we're going over to the macaroni fields of Calabria."
       },
       {
         "word": "macaroni",
         "phon": "/,mækə'rəʊnɪ/",
         "pos": "n.",
         "cn": "通心面，空心面条",
-        "eg": ""
+        "eg": "said the voice of the television announcer, 'we're going over to the macaroni fields of Calabria."
       },
       {
         "word": "leading",
         "phon": "/'liːdɪŋ/",
         "pos": "a.",
         "cn": "主要的",
-        "eg": ""
+        "eg": "Two of the leading growers Giuseppe Moldova and Riccardo Brabante,"
       },
       {
         "word": "grower",
         "phon": "/'grəʊə/",
         "pos": "n.",
         "cn": "种植者",
-        "eg": ""
+        "eg": "Two of the leading growers Giuseppe Moldova and Riccardo Brabante,"
       },
       {
         "word": "splendid",
         "phon": "/'splendɪd/",
         "pos": "a.",
         "cn": "极好的",
-        "eg": ""
+        "eg": "tell me that they have been expecting a splendid crop this year and harvesting has begun earlier than usual."
       },
       {
         "word": "stalk",
         "phon": "/stɔːk/",
         "pos": "n.",
         "cn": "梗",
-        "eg": ""
+        "eg": "have just finished cutting three cartloads of golden brown macaroni stalks."
       }
     ],
     "grammar": [
@@ -209,63 +209,63 @@
         "phon": "/'gæðə/",
         "pos": "v.",
         "cn": "收庄稼",
-        "eg": ""
+        "eg": "Many birds gather by the lake in winter. 冬天许多鸟聚集在湖边。"
       },
       {
         "word": "thresh",
         "phon": "/θreʃ/",
         "pos": "v.",
         "cn": "打(庄稼)",
-        "eg": ""
+        "eg": "The whole village has been working day and night gathering and threshing this year's crop before the September rains."
       },
       {
         "word": "process",
         "phon": "/'prɑːses/",
         "pos": "v.",
         "cn": "加工",
-        "eg": ""
+        "eg": "Mrs. Brabante is talking to the manager of the local factory where the crop is processed."
       },
       {
         "word": "signor",
         "phon": "/'si:njɔ:/",
         "pos": "n.",
         "cn": "(意大利语)先生",
-        "eg": ""
+        "eg": "Signor Fratelli, the present champion, has won it every year since 1991."
       },
       {
         "word": "present",
         "phon": "/prɪˈzent;(for n.)ˈpreznt/",
         "pos": "a.",
         "cn": "目前的",
-        "eg": ""
+        "eg": "Signor Fratelli, the present champion, has won it every year since 1991."
       },
       {
         "word": "champion",
         "phon": "/'tʃæmpiən/",
         "pos": "n.",
         "cn": "冠军",
-        "eg": ""
+        "eg": "Signor Fratelli, the present champion, has won it every year since 1991."
       },
       {
         "word": "studio",
         "phon": "/'stjuːdɪəʊ/",
         "pos": "n.",
         "cn": "播音室",
-        "eg": ""
+        "eg": "We're now going back to the studio.'"
       },
       {
         "word": "mummy",
         "phon": "/'mʌmɪ/",
         "pos": "n.",
         "cn": "木乃伊",
-        "eg": ""
+        "eg": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation."
       },
       {
         "word": "Egyptian",
         "phon": "/i'dʒipʃən/",
         "pos": "a.",
         "cn": "埃及的",
-        "eg": ""
+        "eg": "The mummy of an Egyptian woman who died in 800 B.C. has just had an operation."
       }
     ],
     "grammar": [
@@ -353,63 +353,63 @@
         "phon": "/'templ/",
         "pos": "n.",
         "cn": "庙",
-        "eg": ""
+        "eg": "The mummy is that of Shepenmut who was once a singer in the Temple of Thebes."
       },
       {
         "word": "mark",
         "phon": "/mɑ:k/",
         "pos": "n.",
         "cn": "斑点",
-        "eg": ""
+        "eg": "Pupils of the school old and new, will be sending him a present to mark the occasion."
       },
       {
         "word": "plate",
         "phon": "/pleɪt/",
         "pos": "n.",
         "cn": "(照相)底片",
-        "eg": ""
+        "eg": "They discovered that a loose metal plate had been vibrating in the airflow."
       },
       {
         "word": "disease",
         "phon": "/dɪ'ziːz/",
         "pos": "n.",
         "cn": "疾病",
-        "eg": ""
+        "eg": "doctors have been trying to find out whether the woman died of a rare disease."
       },
       {
         "word": "last",
         "phon": "/lɑːst/",
         "pos": "v.",
         "cn": "持续",
-        "eg": ""
+        "eg": "This last scene shows you what will happen at the end of the harvest:"
       },
       {
         "word": "prove",
         "phon": "/pruːv/",
         "pos": "v.",
         "cn": "显示出",
-        "eg": ""
+        "eg": "You must prove that the note really existed. 你必须证明这张钞票确实存在过。"
       },
       {
         "word": "resin",
         "phon": "/'rezn/",
         "pos": "n.",
         "cn": "树脂",
-        "eg": ""
+        "eg": "proved to be very difficult because of the hard resin which covered the skin."
       },
       {
         "word": "skin",
         "phon": "/skɪn/",
         "pos": "n.",
         "cn": "皮，皮肤",
-        "eg": ""
+        "eg": "proved to be very difficult because of the hard resin which covered the skin."
       },
       {
         "word": "section",
         "phon": "/'sekʃn/",
         "pos": "n.",
         "cn": "切片",
-        "eg": ""
+        "eg": "The doctors removed a section of the mummy and sent it to a laboratory."
       }
     ],
     "grammar": [
@@ -497,63 +497,63 @@
         "phon": "/'fɪgjər/",
         "pos": "n.",
         "cn": "(人的)体形；人像",
-        "eg": ""
+        "eg": "They also found something which the X-ray plates did not show: a small wax figure of the god Duamutef."
       },
       {
         "word": "normally",
         "phon": "/'nɔːrməli/",
         "pos": "adv.",
         "cn": "通常地",
-        "eg": ""
+        "eg": "This god which has the head of a cow was normally placed inside a mummy."
       },
       {
         "word": "survive",
         "phon": "/sər'vaɪv/",
         "pos": "v.",
         "cn": "幸免于",
-        "eg": ""
+        "eg": "One cat survived a fall of thirty-two floors. 一只猫从三十二层坠落后幸存。"
       },
       {
         "word": "entitle",
         "phon": "/ɪn'taɪtl/",
         "pos": "v.",
         "cn": "以…为名",
-        "eg": ""
+        "eg": "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves."
       },
       {
         "word": "calm",
         "phon": "/kɑːm/",
         "pos": "v.",
         "cn": "使镇定",
-        "eg": ""
+        "eg": "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves."
       },
       {
         "word": "nerve",
         "phon": "/nɜːv/",
         "pos": "n.",
         "cn": "神经",
-        "eg": ""
+        "eg": "After reading an article entitled 'Cigarette Smoking and Your Health' I lit a cigarette to calm my nerves."
       },
       {
         "word": "concentration",
         "phon": "/ˌkɑːnsn'treɪʃn/",
         "pos": "n.",
         "cn": "集中，专心",
-        "eg": ""
+        "eg": "I smoked with concentration and pleasure as I was sure that this would be my last cigarette."
       },
       {
         "word": "suffer",
         "phon": "/'sʌfə/",
         "pos": "v.",
         "cn": "受苦，受害",
-        "eg": ""
+        "eg": "For a whole week I did not smoke at all and during this time my wife suffered terribly."
       },
       {
         "word": "symptom",
         "phon": "/'sɪmptəm/",
         "pos": "n.",
         "cn": "症状",
-        "eg": ""
+        "eg": "Were complaints about noise merely a symptom? 对噪音的抱怨只是症状吗？"
       }
     ],
     "grammar": [
@@ -641,63 +641,63 @@
         "phon": "/'tempər/",
         "pos": "n.",
         "cn": "脾气",
-        "eg": ""
+        "eg": "I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite."
       },
       {
         "word": "appetite",
         "phon": "/'æpɪtaɪt/",
         "pos": "n.",
         "cn": "胃口，食欲",
-        "eg": ""
+        "eg": "I had all the usual symptoms of someone giving up smoking: a bad temper and an enormous appetite."
       },
       {
         "word": "produce",
         "phon": "/prəˈdju:s;(for n.)ˈprɒdju:s/",
         "pos": "v.",
         "cn": "拿出",
-        "eg": ""
+        "eg": "They made no effort to hide their amusement whenever I produced a packet of sweets from my pocket."
       },
       {
         "word": "urge",
         "phon": "/ɜːrdʒ/",
         "pos": "v.",
         "cn": "力劝，怂恿",
-        "eg": ""
+        "eg": "He has been fighting the urge to smoke. 他一直在对抗吸烟冲动。"
       },
       {
         "word": "satisfaction",
         "phon": "/sætɪs'fækʃ(ə)n/",
         "pos": "n.",
         "cn": "满意，满足",
-        "eg": ""
+        "eg": "I took one guiltily, lit it and smoked with satisfaction."
       },
       {
         "word": "delighted",
         "phon": "/dɪ'laɪtɪd/",
         "pos": "a.",
         "cn": "欣喜的",
-        "eg": ""
+        "eg": "My wife was delighted that things had returned to normal once more."
       },
       {
         "word": "parent",
         "phon": "/'peər(ə)nt/",
         "pos": "n.",
         "cn": "父(母)亲",
-        "eg": ""
+        "eg": "My parents used to live in South America and I used to fly there from Europe in the holidays."
       },
       {
         "word": "flight attendant",
         "phon": "/'flait əˌtendənt/",
         "pos": "",
         "cn": "空中乘务员",
-        "eg": ""
+        "eg": "A flight attendant would take charge of me and I never had an unpleasant experience."
       },
       {
         "word": "frightened",
         "phon": "/'fraɪtnd/",
         "pos": "a.",
         "cn": "害怕，担惊",
-        "eg": ""
+        "eg": "I am used to travelling by air and only on one occasion have I ever felt frightened."
       }
     ],
     "grammar": [
@@ -785,63 +785,63 @@
         "phon": "/'kjʊərɪəs/",
         "pos": "a.",
         "cn": "急于了解，好奇的",
-        "eg": ""
+        "eg": "Everybody on board was worried and we were curious to find out what had happened."
       },
       {
         "word": "bomb",
         "phon": "/bɒm/",
         "pos": "n.",
         "cn": "炸弹",
-        "eg": ""
+        "eg": "The police had been told that a bomb had been planted on the plane."
       },
       {
         "word": "plant",
         "phon": "/plɑːnt/",
         "pos": "v.",
         "cn": "安放",
-        "eg": ""
+        "eg": "Some people asked how to plant spaghetti trees. 有些人询问怎么种意大利面树。"
       },
       {
         "word": "palace",
         "phon": "/'pælɪs/",
         "pos": "n.",
         "cn": "宫殿",
-        "eg": ""
+        "eg": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace"
       },
       {
         "word": "extraordinary",
         "phon": "/ɪk'strɔːrdəneri/",
         "pos": "a.",
         "cn": "不平常的.非凡的",
-        "eg": ""
+        "eg": "Perhaps the most extraordinary building of the 19th century was the Crystal Palace"
       },
       {
         "word": "exhibition",
         "phon": "/ˌeksɪˈbɪʃn/",
         "pos": "n.",
         "cn": "展览",
-        "eg": ""
+        "eg": "How many people visited the Great Exhibition of 1851?"
       },
       {
         "word": "iron",
         "phon": "/'aɪən/",
         "pos": "n.",
         "cn": "铁",
-        "eg": ""
+        "eg": "The Crystal Palace was different from all other buildings in the world, for it was made of iron and glass."
       },
       {
         "word": "various",
         "phon": "/'veərɪəs/",
         "pos": "a.",
         "cn": "各种各样的",
-        "eg": ""
+        "eg": "A great many goods were sent to the exhibition from various parts of the world."
       },
       {
         "word": "machinery",
         "phon": "/mə'ʃiːnəri/",
         "pos": "n.",
         "cn": "机器",
-        "eg": ""
+        "eg": "There was also a great deal of machinery on display."
       }
     ],
     "grammar": [
@@ -929,63 +929,63 @@
         "phon": "/dɪ'spleɪ/",
         "pos": "n.",
         "cn": "展览",
-        "eg": ""
+        "eg": "There was also a great deal of machinery on display."
       },
       {
         "word": "steam",
         "phon": "/stiːm/",
         "pos": "n.",
         "cn": "蒸汽",
-        "eg": ""
+        "eg": "The most wonderful piece of machinery on show was Nasmyth's steam hammer."
       },
       {
         "word": "profit",
         "phon": "/'prɒfɪt/",
         "pos": "n.",
         "cn": "利润",
-        "eg": ""
+        "eg": "and the profits from the exhibition were used to build museums and colleges."
       },
       {
         "word": "college",
         "phon": "/'kɒlɪdʒ/",
         "pos": "n.",
         "cn": "学院",
-        "eg": ""
+        "eg": "and the profits from the exhibition were used to build museums and colleges."
       },
       {
         "word": "prisoner",
         "phon": "/'prɪz(ə)nə/",
         "pos": "n.",
         "cn": "囚犯",
-        "eg": ""
+        "eg": "Why did the prisoner attack the driver?"
       },
       {
         "word": "bush",
         "phon": "/buʃ/",
         "pos": "n.",
         "cn": "灌木丛",
-        "eg": ""
+        "eg": "When he had killed the guard, the prisoner of war quickly dragged him into the bushes."
       },
       {
         "word": "rapidly",
         "phon": "/'ræpɪdlɪ/",
         "pos": "adv.",
         "cn": "迅速地",
-        "eg": ""
+        "eg": "Working rapidly in the darkness, he soon changed into the dead man's clothes."
       },
       {
         "word": "uniform",
         "phon": "/'juːnɪfɔːrm/",
         "pos": "n.",
         "cn": "制服",
-        "eg": ""
+        "eg": "Now, dressed in a blue uniform and with a rifle over his shoulder,"
       },
       {
         "word": "rifle",
         "phon": "/'raɪf(ə)l/",
         "pos": "n.",
         "cn": "来福枪，步枪",
-        "eg": ""
+        "eg": "Now, dressed in a blue uniform and with a rifle over his shoulder,"
       }
     ],
     "grammar": [
@@ -1073,63 +1073,63 @@
         "phon": "/'ʃəʊldə/",
         "pos": "n.",
         "cn": "肩",
-        "eg": ""
+        "eg": "Now, dressed in a blue uniform and with a rifle over his shoulder,"
       },
       {
         "word": "march",
         "phon": "/mɑːrtʃ/",
         "pos": "v.",
         "cn": "行进",
-        "eg": ""
+        "eg": "It was officially opened on March 7, 1994, finally connecting Britain to the European continent."
       },
       {
         "word": "boldly",
         "phon": "/'bəuldli/",
         "pos": "adv.",
         "cn": "大胆地",
-        "eg": ""
+        "eg": "the prisoner marched boldly up and down in front of the camp."
       },
       {
         "word": "blaze",
         "phon": "/bleɪz/",
         "pos": "v.",
         "cn": "闪耀",
-        "eg": ""
+        "eg": "Lights were blazing and men were running here and there: they had just discovered that a prisoner had escaped."
       },
       {
         "word": "salute",
         "phon": "/sə'l(j)uːt/",
         "pos": "v.",
         "cn": "行礼",
-        "eg": ""
+        "eg": "The officers got out and the prisoner stood to attention and saluted as they passed."
       },
       {
         "word": "elderly",
         "phon": "/'eldəlɪ/",
         "pos": "a.",
         "cn": "上了年纪的",
-        "eg": ""
+        "eg": "He was rather elderly with grey hair and clear blue eyes."
       },
       {
         "word": "grey",
         "phon": "/greɪ/",
         "pos": "a.",
         "cn": "灰白的",
-        "eg": ""
+        "eg": "He was rather elderly with grey hair and clear blue eyes."
       },
       {
         "word": "sharp",
         "phon": "/ʃɑːp/",
         "pos": "a.",
         "cn": "猛烈的",
-        "eg": ""
+        "eg": "As the man came near the prisoner knocked him to the ground with a sharp blow."
       },
       {
         "word": "blow",
         "phon": "/bləʊ/",
         "pos": "n.",
         "cn": "打击",
-        "eg": ""
+        "eg": "As the man came near the prisoner knocked him to the ground with a sharp blow."
       }
     ],
     "grammar": [
@@ -1217,63 +1217,63 @@
         "phon": "/'mɑːnstər/",
         "pos": "n.",
         "cn": "怪物",
-        "eg": ""
+        "eg": "What was the monster called?"
       },
       {
         "word": "sailor",
         "phon": "/'seɪlə/",
         "pos": "n.",
         "cn": "海员",
-        "eg": ""
+        "eg": "Fishermen and sailors sometimes claim to have seen monsters in the sea."
       },
       {
         "word": "sight",
         "phon": "/saɪt/",
         "pos": "v.",
         "cn": "见到",
-        "eg": ""
+        "eg": "but it suddenly caught sight of the drunk who was shouting rude remarks and waving a red cap."
       },
       {
         "word": "creature",
         "phon": "/'kriːtʃə/",
         "pos": "n.",
         "cn": "动物，生物",
-        "eg": ""
+        "eg": "A fisherman caught a creature unlike any fish he had seen before."
       },
       {
         "word": "peculiar",
         "phon": "/pɪ'kjuːliər/",
         "pos": "a.",
         "cn": "奇怪的，不寻常的",
-        "eg": ""
+        "eg": "Some time ago, however, a peculiar fish was caught near Madagascar."
       },
       {
         "word": "shining",
         "phon": "/'ʃainiŋ/",
         "pos": "a.",
         "cn": "闪闪发光的",
-        "eg": ""
+        "eg": "It had a head like a horse big blue eyes, shining silver skin, and a bright red tail."
       },
       {
         "word": "oarfish",
         "phon": "/'ɔ:fiʃ/",
         "pos": "n.",
         "cn": "桨鱼",
-        "eg": ""
+        "eg": "The fish, which has since been set to a museum where it is being examined by a scientist, is called an oarfish."
       },
       {
         "word": "election",
         "phon": "/ɪ'lekʃ(ə)n/",
         "pos": "n.",
         "cn": "选举",
-        "eg": ""
+        "eg": "The elections ended last week. 选举在上周结束了。"
       },
       {
         "word": "former",
         "phon": "/'fɔːrmər/",
         "pos": "a.",
         "cn": "从前的",
-        "eg": ""
+        "eg": "The former Prime Minister, Mr. Wentworth Lane, was defeated in the recent elections."
       }
     ],
     "grammar": [
@@ -1361,35 +1361,35 @@
         "phon": "/dɪ'fiːt/",
         "pos": "v.",
         "cn": "打败",
-        "eg": ""
+        "eg": "When he asked if Mr. Lane lived there, the policeman on duty told him that since his defeat, the ex-Prime Minister had gone abroad."
       },
       {
         "word": "fanatical",
         "phon": "/fə'nætɪkəl/",
         "pos": "a.",
         "cn": "狂热的",
-        "eg": ""
+        "eg": "My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party."
       },
       {
         "word": "opponent",
         "phon": "/ə'pounənt/",
         "pos": "n.",
         "cn": "反对者，对手",
-        "eg": ""
+        "eg": "My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party."
       },
       {
         "word": "radical",
         "phon": "/'rædɪkl/",
         "pos": "a.",
         "cn": "激进的",
-        "eg": ""
+        "eg": "My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party."
       },
       {
         "word": "progressive",
         "phon": "/prə'gresɪv/",
         "pos": "a.",
         "cn": "进步的",
-        "eg": ""
+        "eg": "My friend, Patrick, has always been a fanatical opponent of Mr. Lane's Radical Progressive Party."
       },
       {
         "word": "ex- prefix.(",
@@ -1403,21 +1403,21 @@
         "phon": "/sə'spɪʃəs/",
         "pos": "a.",
         "cn": "怀疑的",
-        "eg": ""
+        "eg": "Though a little suspicious this time the policeman gave him the same answer."
       },
       {
         "word": "strike",
         "phon": "/straɪk/",
         "pos": "n.",
         "cn": "罢工",
-        "eg": ""
+        "eg": "Busmen have decided to go on strike next week."
       },
       {
         "word": "busman",
         "phon": "/'bʌsmən/",
         "pos": "n.",
         "cn": "公共汽车司机",
-        "eg": ""
+        "eg": "Busmen have refused to work this week. 公交司机这周拒绝上班。"
       }
     ],
     "grammar": [
@@ -1505,63 +1505,63 @@
         "phon": "/steɪt/",
         "pos": "v.",
         "cn": "正式提出，宣布",
-        "eg": ""
+        "eg": "He looked pale and his clothes were in a frightful state."
       },
       {
         "word": "agreement",
         "phon": "/ə'griːm(ə)nt/",
         "pos": "n.",
         "cn": "协议",
-        "eg": ""
+        "eg": "The busmen have stated that the strike will continue until general agreement is reached about pay and working conditions."
       },
       {
         "word": "relieve",
         "phon": "/rɪ'liːv/",
         "pos": "v.",
         "cn": "减轻",
-        "eg": ""
+        "eg": "This will relieve pressure on the trains to some extent."
       },
       {
         "word": "pressure",
         "phon": "/'preʃə/",
         "pos": "n.",
         "cn": "压力，麻烦",
-        "eg": ""
+        "eg": "This will relieve pressure on the trains to some extent."
       },
       {
         "word": "extent",
         "phon": "/ɪk'stent/",
         "pos": "n.",
         "cn": "程度",
-        "eg": ""
+        "eg": "This will relieve pressure on the trains to some extent."
       },
       {
         "word": "volunteer",
         "phon": "/,vɒlən'tɪə/",
         "pos": "v.",
         "cn": "自动提出，自愿",
-        "eg": ""
+        "eg": "Meanwhile, a number of university students have volunteered to drive buses while the strike lasts."
       },
       {
         "word": "gratitude",
         "phon": "/'grætɪtjuːd/",
         "pos": "n.",
         "cn": "感激",
-        "eg": ""
+        "eg": "But so far, the public has expressed its gratitude to the students in lettters to the Press."
       },
       {
         "word": "Press",
         "phon": "/pres/",
         "pos": "n.",
         "cn": "新闻界",
-        "eg": ""
+        "eg": "But so far, the public has expressed its gratitude to the students in lettters to the Press."
       },
       {
         "word": "object",
         "phon": "/'ɔbdʒikt/",
         "pos": "v.",
         "cn": "不赞成，反对",
-        "eg": ""
+        "eg": "He said that someone might be spying on the station and the pilot was ordered to keep track of the strange object."
       }
     ],
     "grammar": [
@@ -1649,63 +1649,63 @@
         "phon": "/ɪn'fɔːrm/",
         "pos": "v.",
         "cn": "告诉，通知",
-        "eg": ""
+        "eg": "I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week."
       },
       {
         "word": "headmaster",
         "phon": "/hed'mɑːstə/",
         "pos": "n.",
         "cn": "校长",
-        "eg": ""
+        "eg": "I have just received a letter from my old school, informing me that my former headmaster, Mr. Stuart Page, will be retiring next week."
       },
       {
         "word": "contribute",
         "phon": "/kən'trɪbjuːt/",
         "pos": "v.",
         "cn": "捐助，援助",
-        "eg": ""
+        "eg": "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home."
       },
       {
         "word": "gift",
         "phon": "/gɪft/",
         "pos": "n.",
         "cn": "礼物，赠品",
-        "eg": ""
+        "eg": "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home."
       },
       {
         "word": "album",
         "phon": "/'ælbəm/",
         "pos": "n.",
         "cn": "签名簿，相册",
-        "eg": ""
+        "eg": "All those who have contributed towards the gift will sign their names in a large album which will be sent to the headmaster's home."
       },
       {
         "word": "patience",
         "phon": "/'peɪʃ(ə)ns/",
         "pos": "n.",
         "cn": "耐心",
-        "eg": ""
+        "eg": "We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school."
       },
       {
         "word": "encouragement",
         "phon": "/ɪn'kʌrɪdʒm(ə)nt/",
         "pos": "n.",
         "cn": "鼓励",
-        "eg": ""
+        "eg": "We shall all remember Mr. Page for his patience and understanding and for the kindly encouragement he gave us when we went so unwillingly to school."
       },
       {
         "word": "farewell",
         "phon": "/feə'wel/",
         "pos": "n.",
         "cn": "告别",
-        "eg": ""
+        "eg": "A great many former pupils will be attending a farewell dinner in his honour next Thursday."
       },
       {
         "word": "honour",
         "phon": "/'ɒnə/",
         "pos": "n.",
         "cn": "敬意",
-        "eg": ""
+        "eg": "A great many former pupils will be attending a farewell dinner in his honour next Thursday."
       }
     ],
     "grammar": [

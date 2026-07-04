@@ -6,6 +6,10 @@
         "note": "责备"
       },
       {
+        "w": "accusation",
+        "note": "释义相近"
+      },
+      {
         "w": "suspect",
         "note": "同类词"
       }
@@ -19,6 +23,14 @@
       },
       {
         "w": "wreck",
+        "note": "同类词"
+      },
+      {
+        "w": "mutilate",
+        "note": "同类词"
+      },
+      {
+        "w": "smash",
         "note": "同类词"
       }
     ]
@@ -40,6 +52,518 @@
       {
         "w": "destroy",
         "note": "同类词"
+      },
+      {
+        "w": "mutilate",
+        "note": "同类词"
+      },
+      {
+        "w": "smash",
+        "note": "同类词"
+      }
+    ]
+  },
+  "accumulate": {
+    "synonyms": [
+      {
+        "w": "amass",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "vicar": {
+    "synonyms": [
+      {
+        "w": "priest",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "surprise": {
+    "synonyms": [
+      {
+        "w": "astound",
+        "note": "释义相近"
+      },
+      {
+        "w": "bewilder",
+        "note": "同类词"
+      }
+    ]
+  },
+  "privilege": {
+    "synonyms": [
+      {
+        "w": "favour",
+        "note": "释义相近"
+      },
+      {
+        "w": "advantage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "editor": {
+    "synonyms": [
+      {
+        "w": "compile",
+        "note": "释义相近"
+      },
+      {
+        "w": "journalist",
+        "note": "同类词"
+      }
+    ]
+  },
+  "publish": {
+    "synonyms": [
+      {
+        "w": "publication",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "mutilate": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "释义相近"
+      },
+      {
+        "w": "destroy",
+        "note": "同类词"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      },
+      {
+        "w": "smash",
+        "note": "同类词"
+      }
+    ]
+  },
+  "mysterious": {
+    "synonyms": [
+      {
+        "w": "uncanny",
+        "note": "释义相近"
+      },
+      {
+        "w": "eerie",
+        "note": "同类词"
+      },
+      {
+        "w": "dreadful",
+        "note": "同类词"
+      }
+    ]
+  },
+  "rescue": {
+    "synonyms": [
+      {
+        "w": "salvage",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "dreadful": {
+    "synonyms": [
+      {
+        "w": "eerie",
+        "note": "释义相近"
+      },
+      {
+        "w": "mysterious",
+        "note": "同类词"
+      },
+      {
+        "w": "uncanny",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sarcastically": {
+    "synonyms": [
+      {
+        "w": "ironically",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "affection": {
+    "synonyms": [
+      {
+        "w": "fancy",
+        "note": "释义相近"
+      },
+      {
+        "w": "adore",
+        "note": "同类词"
+      },
+      {
+        "w": "cherish",
+        "note": "同类词"
+      }
+    ]
+  },
+  "survive": {
+    "synonyms": [
+      {
+        "w": "survival",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "wretched": {
+    "synonyms": [
+      {
+        "w": "arduous",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "protection": {
+    "synonyms": [
+      {
+        "w": "safeguard",
+        "note": "释义相近"
+      },
+      {
+        "w": "shelter",
+        "note": "同类词"
+      }
+    ]
+  },
+  "examine": {
+    "synonyms": [
+      {
+        "w": "inspection",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "promptly": {
+    "synonyms": [
+      {
+        "w": "punctually",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "remarkable": {
+    "synonyms": [
+      {
+        "w": "breathtaking",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "prize": {
+    "synonyms": [
+      {
+        "w": "dear",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "suspend": {
+    "synonyms": [
+      {
+        "w": "dangle",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "oddly": {
+    "synonyms": [
+      {
+        "w": "weird",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "flicker": {
+    "synonyms": [
+      {
+        "w": "glint",
+        "note": "释义相近"
+      },
+      {
+        "w": "glisten",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "flash": {
+    "synonyms": [
+      {
+        "w": "gleam",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "peculiar": {
+    "synonyms": [
+      {
+        "w": "weird",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "emotionally": {
+    "synonyms": [
+      {
+        "w": "sentimentally",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "eminent": {
+    "synonyms": [
+      {
+        "w": "distinguished",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "lines": {
+    "synonyms": [
+      {
+        "w": "part",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "conceal": {
+    "synonyms": [
+      {
+        "w": "tuck",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "sway": {
+    "synonyms": [
+      {
+        "w": "roll",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "capture": {
+    "synonyms": [
+      {
+        "w": "tempt",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "wares": {
+    "synonyms": [
+      {
+        "w": "cargo",
+        "note": "释义相近"
+      },
+      {
+        "w": "commodity",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "tempt": {
+    "synonyms": [
+      {
+        "w": "lure",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "assail": {
+    "synonyms": [
+      {
+        "w": "pester",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "confusion": {
+    "synonyms": [
+      {
+        "w": "chaos",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "convert": {
+    "synonyms": [
+      {
+        "w": "alter",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "emerge": {
+    "synonyms": [
+      {
+        "w": "advent",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "presume": {
+    "synonyms": [
+      {
+        "w": "assume",
+        "note": "释义相近"
+      },
+      {
+        "w": "assumption",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "scorn": {
+    "synonyms": [
+      {
+        "w": "jibe",
+        "note": "释义相近"
+      },
+      {
+        "w": "taunt",
+        "note": "同类词"
+      }
+    ]
+  },
+  "assume": {
+    "synonyms": [
+      {
+        "w": "assumption",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "perturb": {
+    "synonyms": [
+      {
+        "w": "unsettle",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "hoax": {
+    "synonyms": [
+      {
+        "w": "deception",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "indulge": {
+    "synonyms": [
+      {
+        "w": "treat",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "illusion": {
+    "synonyms": [
+      {
+        "w": "delusion",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "glint": {
+    "synonyms": [
+      {
+        "w": "glisten",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "flaw": {
+    "synonyms": [
+      {
+        "w": "disadvantage",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "positively": {
+    "synonyms": [
+      {
+        "w": "radically",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "perpetual": {
+    "synonyms": [
+      {
+        "w": "permanent",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "pollution": {
+    "synonyms": [
+      {
+        "w": "pollute",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "accomplishment": {
+    "synonyms": [
+      {
+        "w": "attainment",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "clutch": {
+    "synonyms": [
+      {
+        "w": "grapple",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "justiteombudsman": {
+    "synonyms": [
+      {
+        "w": "ombudsman",
+        "note": "释义相近"
+      }
+    ]
+  },
+  "uncanny": {
+    "synonyms": [
+      {
+        "w": "inconceivable",
+        "note": "释义相近"
+      },
+      {
+        "w": "mysterious",
+        "note": "同类词"
+      },
+      {
+        "w": "eerie",
+        "note": "同类词"
+      },
+      {
+        "w": "dreadful",
+        "note": "同类词"
+      }
+    ]
+  },
+  "cluster": {
+    "synonyms": [
+      {
+        "w": "colony",
+        "note": "释义相近"
       }
     ]
   },
@@ -64,6 +588,14 @@
       {
         "w": "blame",
         "note": "同类词"
+      },
+      {
+        "w": "evidence",
+        "note": "同类词"
+      },
+      {
+        "w": "clue",
+        "note": "同类词"
       }
     ]
   },
@@ -75,6 +607,14 @@
       },
       {
         "w": "wreck",
+        "note": "同类词"
+      },
+      {
+        "w": "mutilate",
+        "note": "同类词"
+      },
+      {
+        "w": "smash",
         "note": "同类词"
       }
     ]
@@ -183,6 +723,299 @@
       }
     ]
   },
+  "amass": {
+    "synonyms": [
+      {
+        "w": "accumulate",
+        "note": "同类词"
+      }
+    ]
+  },
+  "priest": {
+    "synonyms": [
+      {
+        "w": "vicar",
+        "note": "同类词"
+      }
+    ]
+  },
+  "astound": {
+    "synonyms": [
+      {
+        "w": "surprise",
+        "note": "同类词"
+      },
+      {
+        "w": "bewilder",
+        "note": "同类词"
+      }
+    ]
+  },
+  "bewilder": {
+    "synonyms": [
+      {
+        "w": "surprise",
+        "note": "同类词"
+      },
+      {
+        "w": "astound",
+        "note": "同类词"
+      }
+    ]
+  },
+  "favour": {
+    "synonyms": [
+      {
+        "w": "privilege",
+        "note": "同类词"
+      },
+      {
+        "w": "advantage",
+        "note": "同类词"
+      }
+    ],
+    "variants": [
+      {
+        "form": "favor",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "advantage": {
+    "synonyms": [
+      {
+        "w": "privilege",
+        "note": "同类词"
+      },
+      {
+        "w": "favour",
+        "note": "同类词"
+      }
+    ]
+  },
+  "compile": {
+    "synonyms": [
+      {
+        "w": "editor",
+        "note": "同类词"
+      },
+      {
+        "w": "journalist",
+        "note": "同类词"
+      }
+    ]
+  },
+  "journalist": {
+    "synonyms": [
+      {
+        "w": "editor",
+        "note": "同类词"
+      },
+      {
+        "w": "compile",
+        "note": "同类词"
+      }
+    ]
+  },
+  "publication": {
+    "synonyms": [
+      {
+        "w": "publish",
+        "note": "同类词"
+      }
+    ]
+  },
+  "smash": {
+    "synonyms": [
+      {
+        "w": "mutilate",
+        "note": "同类词"
+      },
+      {
+        "w": "ruin",
+        "note": "同类词"
+      },
+      {
+        "w": "destroy",
+        "note": "同类词"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      }
+    ]
+  },
+  "eerie": {
+    "synonyms": [
+      {
+        "w": "mysterious",
+        "note": "同类词"
+      },
+      {
+        "w": "uncanny",
+        "note": "同类词"
+      },
+      {
+        "w": "dreadful",
+        "note": "同类词"
+      }
+    ]
+  },
+  "salvage": {
+    "synonyms": [
+      {
+        "w": "rescue",
+        "note": "同类词"
+      }
+    ]
+  },
+  "survival": {
+    "synonyms": [
+      {
+        "w": "survive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ironically": {
+    "synonyms": [
+      {
+        "w": "sarcastically",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fancy": {
+    "synonyms": [
+      {
+        "w": "affection",
+        "note": "同类词"
+      },
+      {
+        "w": "adore",
+        "note": "同类词"
+      },
+      {
+        "w": "cherish",
+        "note": "同类词"
+      }
+    ]
+  },
+  "adore": {
+    "synonyms": [
+      {
+        "w": "affection",
+        "note": "同类词"
+      },
+      {
+        "w": "fancy",
+        "note": "同类词"
+      },
+      {
+        "w": "cherish",
+        "note": "同类词"
+      }
+    ]
+  },
+  "cherish": {
+    "synonyms": [
+      {
+        "w": "affection",
+        "note": "同类词"
+      },
+      {
+        "w": "fancy",
+        "note": "同类词"
+      },
+      {
+        "w": "adore",
+        "note": "同类词"
+      }
+    ]
+  },
+  "arduous": {
+    "synonyms": [
+      {
+        "w": "wretched",
+        "note": "同类词"
+      }
+    ]
+  },
+  "safeguard": {
+    "synonyms": [
+      {
+        "w": "protection",
+        "note": "同类词"
+      },
+      {
+        "w": "shelter",
+        "note": "同类词"
+      }
+    ]
+  },
+  "shelter": {
+    "synonyms": [
+      {
+        "w": "protection",
+        "note": "同类词"
+      },
+      {
+        "w": "safeguard",
+        "note": "同类词"
+      }
+    ]
+  },
+  "evidence": {
+    "synonyms": [
+      {
+        "w": "clue",
+        "note": "同类词"
+      },
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "verify"
+    ]
+  },
+  "clue": {
+    "synonyms": [
+      {
+        "w": "evidence",
+        "note": "同类词"
+      },
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sacred": {
+    "synonyms": [
+      {
+        "w": "worship",
+        "note": "同类词"
+      }
+    ]
+  },
+  "worship": {
+    "synonyms": [
+      {
+        "w": "sacred",
+        "note": "同类词"
+      }
+    ]
+  },
+  "taunt": {
+    "synonyms": [
+      {
+        "w": "scorn",
+        "note": "同类词"
+      }
+    ]
+  },
   "abstract": {
     "synonyms": [
       {
@@ -218,11 +1051,6 @@
       }
     ]
   },
-  "evidence": {
-    "related": [
-      "verify"
-    ]
-  },
   "poverty": {
     "related": [
       "prosperous"
@@ -236,14 +1064,6 @@
   "withdraw": {
     "related": [
       "advance"
-    ]
-  },
-  "favour": {
-    "variants": [
-      {
-        "form": "favor",
-        "note": "美式拼写"
-      }
     ]
   },
   "analyse": {

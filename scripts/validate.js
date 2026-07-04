@@ -6,6 +6,7 @@
 const data = require('../lib/data');
 const path = require('path');
 const { readJSON } = require('../lib/store');
+const { normKey, buildDict } = require('../lib/dict');
 
 function validate() {
   const errors = [];
@@ -44,6 +45,10 @@ function validate() {
     else stemOwner.set(key, q.id);
   });
 
+  let wordPhonEmpty = 0;
+  let wordEgEmpty = 0;
+  let wordCnEmpty = 0;
+
   data.getLessons().forEach((l, i) => {
     const where = `lessons[${i}] L${l.lesson}`;
     if (l.lesson == null) errors.push(`${where}: 缺少 lesson`);
@@ -51,8 +56,34 @@ function validate() {
     if (!Array.isArray(l.words) || !l.words.length) warnings.push(`${where}: 缺少 words`);
     (l.words || []).forEach((w, j) => {
       if (!w.word) errors.push(`${where}.words[${j}]: 缺少 word`);
+      if (!w.phon) wordPhonEmpty++;
+      if (!w.eg) wordEgEmpty++;
+      if (!w.cn) wordCnEmpty++;
     });
   });
+
+  // 课内 word 重复（同一课同一词出现多次）
+  data.getLessons().forEach((l, i) => {
+    const where = `lessons[${i}] L${l.lesson}`;
+    const seen = new Map();
+    (l.words || []).forEach((w) => {
+      const wk = normKey(w.word);
+      if (!wk) return;
+      seen.set(wk, (seen.get(wk) || 0) + 1);
+    });
+    seen.forEach((n, wk) => {
+      if (n > 1) warnings.push(`${where}: 课内词重复 (${wk} ×${n})`);
+    });
+  });
+
+  const allWordCount = data.getLessons().reduce((a, l) => a + (l.words || []).length, 0);
+  if (allWordCount && wordEgEmpty / allWordCount > 0.4) {
+    warnings.push(`lessons: 空 eg 词条 ${wordEgEmpty}/${allWordCount}（${Math.round(100 * wordEgEmpty / allWordCount)}%），建议运行 npm run backfill:words`);
+  }
+  if (allWordCount && wordPhonEmpty / allWordCount > 0.05) {
+    warnings.push(`lessons: 空 phon 词条 ${wordPhonEmpty}/${allWordCount}（${Math.round(100 * wordPhonEmpty / allWordCount)}%）`);
+  }
+  if (wordCnEmpty > 0) warnings.push(`lessons: 空 cn 词条 ${wordCnEmpty} 条`);
 
   // 句型转换练习：id 唯一、步骤完整、每步答案非空
   const TF_KINDS = new Set(require('../lib/transform-util').KINDS);
@@ -219,7 +250,6 @@ function validate() {
   });
 
   // 词典 enrich：结构完整、键名归一化
-  const { normKey } = require('../lib/dict');
   const enrich = readJSON(path.join(__dirname, '..', 'data', 'word-enrich.json'), null);
   if (!enrich || typeof enrich !== 'object') {
     warnings.push('word-enrich.json: 文件缺失或为空，词典详情将无手工补充');
@@ -246,8 +276,9 @@ function validate() {
         if (!p || !p.title) errors.push(`${where}.patterns[${i}]: 缺少 title`);
       });
     });
-    if (enrichKeys.size < 900) {
-      warnings.push(`word-enrich: 仅 ${enrichKeys.size} 条，建议覆盖全部教材词条（约 908）`);
+    const enrichMin = Math.min(1500, Math.floor(buildDict().length * 0.35));
+    if (enrichKeys.size < enrichMin) {
+      warnings.push(`word-enrich: 仅 ${enrichKeys.size} 条，建议覆盖至少 ${enrichMin} 个教材词条`);
     }
   }
 

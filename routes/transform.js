@@ -47,41 +47,94 @@ function publicExercise(t) {
   };
 }
 
-// GET /transform/meta —— 各册练习数 + 语法标签 + 剑桥单元覆盖
+function buildCatalog(transforms) {
+  const lessonTitle = new Map();
+  for (const l of data.getLessons()) {
+    lessonTitle.set(`${l.book}-${l.lesson}`, l.titleCn || l.title || '');
+  }
+  const catalogByBook = {};
+  for (const t of transforms) {
+    const b = String(t.book);
+    if (!catalogByBook[b]) catalogByBook[b] = { total: 0, lessons: {}, grammar: {} };
+    catalogByBook[b].total++;
+    const lk = String(t.lesson);
+    if (!catalogByBook[b].lessons[lk]) {
+      catalogByBook[b].lessons[lk] = {
+        lesson: t.lesson,
+        count: 0,
+        title: lessonTitle.get(`${b}-${lk}`) || '',
+      };
+    }
+    catalogByBook[b].lessons[lk].count++;
+    for (const g of t.grammar || []) {
+      catalogByBook[b].grammar[g] = (catalogByBook[b].grammar[g] || 0) + 1;
+    }
+  }
+  for (const b of Object.keys(catalogByBook)) {
+    const cat = catalogByBook[b];
+    cat.lessons = Object.values(cat.lessons).sort((a, b) => a.lesson - b.lesson);
+    cat.grammar = Object.entries(cat.grammar)
+      .map(([tag, count]) => ({ tag, count }))
+      .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag, 'zh'));
+  }
+  return catalogByBook;
+}
+
+// GET /transform/meta —— 各册练习数 + 语法标签 + 剑桥单元覆盖 + 课次目录
 router.get('/transform/meta', (req, res) => {
   const transforms = data.getTransforms();
   const byBook = {};
   const grammarByBook = {};
+  const grammarCountsByBook = {};
+  const grammarCounts = {};
+  const stepKindCounts = {};
   for (const t of transforms) {
     byBook[t.book] = (byBook[t.book] || 0) + 1;
     grammarByBook[t.book] = grammarByBook[t.book] || new Set();
-    (t.grammar || []).forEach((g) => grammarByBook[t.book].add(g));
+    grammarCountsByBook[t.book] = grammarCountsByBook[t.book] || {};
+    (t.grammar || []).forEach((g) => {
+      grammarByBook[t.book].add(g);
+      grammarCounts[g] = (grammarCounts[g] || 0) + 1;
+      grammarCountsByBook[t.book][g] = (grammarCountsByBook[t.book][g] || 0) + 1;
+    });
+    (t.steps || []).forEach((s) => {
+      if (s.kind) stepKindCounts[s.kind] = (stepKindCounts[s.kind] || 0) + 1;
+    });
   }
   const grammarOut = {};
   Object.keys(grammarByBook).forEach((b) => {
     grammarOut[b] = Array.from(grammarByBook[b]).sort();
   });
+  const grammarGlobal = Object.entries(grammarCounts)
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag, 'zh'));
   const cambridgeByBook = {};
   for (const b of Object.keys(byBook)) {
-    cambridgeByBook[b] = cambridge.getSectionsForBook(b);
-    cambridgeByBook[b].coverage = cambridge.coverageByBook(transforms, b);
+    const sec = cambridge.getSectionsForBook(b);
+    cambridgeByBook[b] = { ...sec, coverage: cambridge.coverageByBook(transforms, b) };
   }
   res.json({
     total: transforms.length,
     byBook,
     grammarByBook: grammarOut,
+    grammarCounts,
+    grammarCountsByBook,
+    grammarGlobal,
+    stepKindCounts,
     cambridgeByBook,
+    catalogByBook: buildCatalog(transforms),
   });
 });
 
-// GET /transform/exercises?book=&lessonMin=&lessonMax=&grammar=&cambridgeUnit=&limit=&random=1
+// GET /transform/exercises?book=&lessonMin=&lessonMax=&grammar=&cambridgeUnit=&stepKind=&limit=&random=1
 router.get('/transform/exercises', (req, res) => {
-  const { book, lessonMin, lessonMax, grammar, cambridgeUnit } = req.query;
+  const { book, lessonMin, lessonMax, grammar, cambridgeUnit, stepKind } = req.query;
   let list = data.getTransforms().slice();
   if (book) list = list.filter((t) => String(t.book) === String(book));
   if (lessonMin) list = list.filter((t) => t.lesson >= Number(lessonMin));
   if (lessonMax) list = list.filter((t) => t.lesson <= Number(lessonMax));
   if (grammar) list = list.filter((t) => (t.grammar || []).includes(grammar));
+  if (stepKind) list = list.filter((t) => (t.steps || []).some((s) => s.kind === stepKind));
   if (cambridgeUnit && book) {
     const level = cambridge.levelForNceBook(book);
     if (level) {

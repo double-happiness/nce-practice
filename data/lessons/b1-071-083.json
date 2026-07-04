@@ -58,28 +58,28 @@
         "phon": "/ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒekt/",
         "pos": "n.",
         "cn": "话题，主题",
-        "eg": ""
+        "eg": "It's our favourite subject of conversation."
       },
       {
         "word": "conversation",
         "phon": "/kɒnvə'seɪʃ(ə)n/",
         "pos": "n.",
         "cn": "谈话",
-        "eg": ""
+        "eg": "It's our favourite subject of conversation."
       },
       {
         "word": "Australia",
         "phon": "/ɒ'streɪlɪə/",
         "pos": "n.",
         "cn": "澳大利亚",
-        "eg": ""
+        "eg": "A trip to Australia"
       },
       {
         "word": "Australian",
         "phon": "/ɔ'streiliən/",
         "pos": "n.",
         "cn": "澳大利亚人",
-        "eg": ""
+        "eg": "He has just bought an Australian car and has gone to Alice Springs,"
       },
       {
         "word": "Austria",
@@ -114,7 +114,7 @@
         "phon": "/'tʃainə/",
         "pos": "n.",
         "cn": "中国",
-        "eg": ""
+        "eg": "sailing vessels like the Cutty Sark were used to carry tea from China and wool from Australia."
       },
       {
         "word": "Finland",
@@ -135,7 +135,7 @@
         "phon": "/'ɪndɪə/",
         "pos": "n.",
         "cn": "印度",
-        "eg": ""
+        "eg": "silks from India, copper coffee pots, and beautiful handmade silverware."
       }
     ],
     "grammar": [
@@ -224,21 +224,21 @@
         "phon": "/'ɪndɪən/",
         "pos": "n.",
         "cn": "印度人",
-        "eg": ""
+        "eg": "It obviously could not tell the difference between Indian music and jazz!"
       },
       {
         "word": "Japan",
         "phon": "/dʒə'pæn/",
         "pos": "n.",
         "cn": "日本",
-        "eg": ""
+        "eg": "I have visited Japan twice. 我去过日本两次。"
       },
       {
         "word": "Nigeria",
         "phon": "/nai'dʒiəriə/",
         "pos": "n.",
         "cn": "尼日利亚",
-        "eg": ""
+        "eg": "She lives in Nigeria."
       },
       {
         "word": "Nigerian",
@@ -273,7 +273,7 @@
         "phon": "/'pɒlɪʃ/",
         "pos": "n.",
         "cn": "波兰人",
-        "eg": ""
+        "eg": "She is looking for the polish. 她正在找擦亮剂。"
       },
       {
         "word": "Poland",
@@ -301,14 +301,14 @@
         "phon": "/laɪv；lɪv/",
         "pos": "v.",
         "cn": "住，生活",
-        "eg": ""
+        "eg": "The Sawyers live at 87 King Street."
       },
       {
         "word": "stay",
         "phon": "/steɪ/",
         "pos": "v.",
         "cn": "呆在，停留",
-        "eg": ""
+        "eg": "We're going to stay at my mother's for the weekend."
       }
     ],
     "grammar": [
@@ -389,84 +389,84 @@
         "phon": "/həʊm/",
         "pos": "n.",
         "cn": "家 ad.在家，到家",
-        "eg": ""
+        "eg": "Then I arrived home at six o'clock yesterday evening."
       },
       {
         "word": "housework",
         "phon": "/'haʊswɜːk/",
         "pos": "n.",
         "cn": "家务",
-        "eg": ""
+        "eg": "She does the housework."
       },
       {
         "word": "lunch",
         "phon": "/lʌn(t)ʃ/",
         "pos": "n.",
         "cn": "午饭",
-        "eg": ""
+        "eg": "He looks ill and cannot eat his lunch."
       },
       {
         "word": "afternoon",
         "phon": "/ɑːftə'nuːn/",
         "pos": "n.",
         "cn": "下午",
-        "eg": ""
+        "eg": "Can't you wait till this afternoon?"
       },
       {
         "word": "usually",
         "phon": "/ˈjuːʒʊəlɪ/",
         "pos": "adv.",
         "cn": "通常",
-        "eg": ""
+        "eg": "Mrs. Sawyer usually stays at home in the morning,"
       },
       {
         "word": "together",
         "phon": "/tə'geðə/",
         "pos": "adv.",
         "cn": "一起",
-        "eg": ""
+        "eg": "Sam and I had lunch together today."
       },
       {
         "word": "evening",
         "phon": "/'iːv(ə)nɪŋ/",
         "pos": "n.",
         "cn": "晚上",
-        "eg": ""
+        "eg": "Then I arrived home at six o'clock yesterday evening."
       },
       {
         "word": "arrive",
         "phon": "/ə'raɪv/",
         "pos": "v.",
         "cn": "到达",
-        "eg": ""
+        "eg": "They arrive home early."
       },
       {
         "word": "night",
         "phon": "/naɪt/",
         "pos": "n.",
         "cn": "夜间",
-        "eg": ""
+        "eg": "Did he telephone again last night?"
       },
       {
         "word": "o'clock",
         "phon": "/ə'klɒk/",
         "pos": "adv.",
         "cn": "点钟",
-        "eg": ""
+        "eg": "Then I arrived home at six o'clock yesterday evening."
       },
       {
         "word": "shop",
         "phon": "/ʃɒp/",
         "pos": "n.",
         "cn": "商店",
-        "eg": ""
+        "eg": "I think I must look in another shop."
       },
       {
         "word": "moment",
         "phon": "/'məʊm(ə)nt/",
         "pos": "n.",
         "cn": "片刻，瞬间",
-        "eg": ""
+        "eg": "The dentist is very busy at the moment."
       }
     ],
     "grammar": [
@@ -555,56 +555,56 @@
         "phon": "/'envələup/",
         "pos": "n.",
         "cn": "信封",
-        "eg": ""
+        "eg": "I want some envelopes, please."
       },
       {
         "word": "writing paper",
         "phon": "",
         "pos": "",
         "cn": "信纸",
-        "eg": ""
+        "eg": "Do you have any writing paper?"
       },
       {
         "word": "shop assistant",
         "phon": "",
         "pos": "",
         "cn": "售货员",
-        "eg": ""
+        "eg": "A shop assistant comes to her and asks if she wants any help."
       },
       {
         "word": "size",
         "phon": "/saɪz/",
         "pos": "n.",
         "cn": "尺寸，尺码，大小",
-        "eg": ""
+        "eg": "What size?"
       },
       {
         "word": "pad",
         "phon": "/pæd/",
         "pos": "n.",
         "cn": "信笺簿",
-        "eg": ""
+        "eg": "Do you want a pad?"
       },
       {
         "word": "glue",
         "phon": "/gluː/",
         "pos": "n.",
         "cn": "胶水",
-        "eg": ""
+        "eg": "And I want some glue."
       },
       {
         "word": "chalk",
         "phon": "/tʃɔːk/",
         "pos": "n.",
         "cn": "粉笔",
-        "eg": ""
+        "eg": "And I want a large box of chalk, too."
       },
       {
         "word": "change",
         "phon": "/tʃeɪn(d)ʒ/",
         "pos": "n.",
         "cn": "零钱v.改变",
-        "eg": ""
+        "eg": "\"We will change it soon,\" the man said."
       },
       {
         "word": "feel",
@@ -618,21 +618,21 @@
         "phon": "/lʊk/",
         "pos": "v.",
         "cn": "看(起来)",
-        "eg": ""
+        "eg": "They look very uncomfortable."
       },
       {
         "word": "call",
         "phon": "/kɔːl/",
         "pos": "v.",
         "cn": "叫，请",
-        "eg": ""
+        "eg": "We must call the doctor."
       },
       {
         "word": "doctor",
         "phon": "/'dɒktə/",
         "pos": "n.",
         "cn": "医生",
-        "eg": ""
+        "eg": "Thank you, doctor."
       }
     ],
     "grammar": [
@@ -713,56 +713,56 @@
         "phon": "/'telɪfəʊn/",
         "pos": "n.",
         "cn": "电话",
-        "eg": ""
+        "eg": "My boss answered the telephone."
       },
       {
         "word": "remember",
         "phon": "/rɪ'membə/",
         "pos": "v.",
         "cn": "记得，记住",
-        "eg": ""
+        "eg": "Ah yes, I remember now."
       },
       {
         "word": "mouth",
         "phon": "/maʊθ/",
         "pos": "n.",
         "cn": "嘴",
-        "eg": ""
+        "eg": "Open your mouth, Jimmy."
       },
       {
         "word": "tongue",
         "phon": "/tʌŋ/",
         "pos": "n.",
         "cn": "舌头",
-        "eg": ""
+        "eg": "Show me your tongue. Say, 'Ah'."
       },
       {
         "word": "bad",
         "phon": "/bæd/",
         "pos": "a.",
         "cn": "坏的，严重的",
-        "eg": ""
+        "eg": "He has a bad cold, too!"
       },
       {
         "word": "cold",
         "phon": "/kəʊld/",
         "pos": "n.",
         "cn": "感冒，寒冷",
-        "eg": ""
+        "eg": "\"The weather is cold there, so take a warm sweater.\""
       },
       {
         "word": "news",
         "phon": "/njuːz/",
         "pos": "n.",
         "cn": "消息",
-        "eg": ""
+        "eg": "That's good news for Jimmy."
       },
       {
         "word": "headache",
         "phon": "/'hedeɪk/",
         "pos": "n.",
         "cn": "头痛",
-        "eg": ""
+        "eg": "Damaged money has always been a headache, but banks are kinder than you might think."
       },
       {
         "word": "aspirin",
@@ -783,14 +783,14 @@
         "phon": "/'tuːθeɪk/",
         "pos": "n.",
         "cn": "牙痛",
-        "eg": ""
+        "eg": "Terrible toothache"
       },
       {
         "word": "dentist",
         "phon": "/'dentɪst/",
         "pos": "n.",
         "cn": "牙医",
-        "eg": ""
+        "eg": "I want to see the dentist, please."
       }
     ],
     "grammar": [
@@ -878,14 +878,14 @@
         "phon": "/ˈmedsn/",
         "pos": "n.",
         "cn": "药",
-        "eg": ""
+        "eg": "The doctor gives him some medicine and says, \"He will be well soon.\""
       },
       {
         "word": "temperature",
         "phon": "/temprətʃə(r)/",
         "pos": "n.",
         "cn": "温度",
-        "eg": ""
+        "eg": "Does he have a temperature, doctor?"
       },
       {
         "word": "flu",
@@ -913,49 +913,49 @@
         "phon": "/'betə/",
         "pos": "a.",
         "cn": "形容词well的比较级",
-        "eg": ""
+        "eg": "We had better go back to the station now, Ken."
       },
       {
         "word": "certainly",
         "phon": "/ˈsəːt(ə)nli/",
         "pos": "adv.",
         "cn": "当然",
-        "eg": ""
+        "eg": "Certainly, doctor."
       },
       {
         "word": "get up",
         "phon": "/get ʌp/",
         "pos": "",
         "cn": "起床",
-        "eg": ""
+        "eg": "You are better now, but you mustn't get up yet."
       },
       {
         "word": "yet",
         "phon": "/jet/",
         "pos": "adv.",
         "cn": "还，仍",
-        "eg": ""
+        "eg": "Her friends asked, \"Have you eaten Italian food yet?\""
       },
       {
         "word": "rich",
         "phon": "/rɪtʃ/",
         "pos": "a.",
         "cn": "油腻的，富有的",
-        "eg": ""
+        "eg": "And he mustn't eat rich food."
       },
       {
         "word": "food",
         "phon": "/fuːd/",
         "pos": "n.",
         "cn": "食物",
-        "eg": ""
+        "eg": "Her friends asked, \"Have you eaten Italian food yet?\""
       },
       {
         "word": "remain",
         "phon": "/rɪ'meɪn/",
         "pos": "v.",
         "cn": "保持，继续",
-        "eg": ""
+        "eg": "Yes. He must remain in bed for another two days."
       }
     ],
     "grammar": [
@@ -1035,49 +1035,49 @@
         "phon": "/pleɪ/",
         "pos": "v.",
         "cn": "玩",
-        "eg": ""
+        "eg": "The play was very interesting."
       },
       {
         "word": "match",
         "phon": "/mætʃ/",
         "pos": "n.",
         "cn": "火柴，比赛",
-        "eg": ""
+        "eg": "He knew I collected match boxes and asked me whether my collection was growing."
       },
       {
         "word": "talk",
         "phon": "/tɔːk/",
         "pos": "v.",
         "cn": "谈话",
-        "eg": ""
+        "eg": "A friend wants to talk to her son, Tom."
       },
       {
         "word": "library",
         "phon": "/ˈlaɪbrərɪ/",
         "pos": "n.",
         "cn": "图书馆",
-        "eg": ""
+        "eg": "We must be quiet in the library. 在图书馆我们必须保持安静。"
       },
       {
         "word": "drive",
         "phon": "/draɪv/",
         "pos": "v.",
         "cn": "开车",
-        "eg": ""
+        "eg": "On the way home, my wife said to me, 'Don't drive so quickly!"
       },
       {
         "word": "so",
         "phon": "/səʊ/",
         "pos": "adv.",
         "cn": "如此地",
-        "eg": ""
+        "eg": "\"The weather is cold there, so take a warm sweater.\""
       },
       {
         "word": "quickly",
         "phon": "/'kwɪklɪ/",
         "pos": "adv.",
         "cn": "快地",
-        "eg": ""
+        "eg": "On the way home, my wife said to me, 'Don't drive so quickly!"
       },
       {
         "word": "lean out of",
@@ -1091,28 +1091,28 @@
         "phon": "/breɪk/",
         "pos": "v.",
         "cn": "打破",
-        "eg": ""
+        "eg": "admitted at once that he had tried to break into the shop during the night but had got stuck in the chimney."
       },
       {
         "word": "Dad",
         "phon": "/dæd/",
         "pos": "n.",
         "cn": "爸(儿语)",
-        "eg": ""
+        "eg": "Dad has already packed the car."
       },
       {
         "word": "key",
         "phon": "/ki:/",
         "pos": "n.",
         "cn": "钥匙",
-        "eg": ""
+        "eg": "Can I have the key to the front door, please?"
       },
       {
         "word": "baby",
         "phon": "/'beɪbɪ/",
         "pos": "n.",
         "cn": "婴儿",
-        "eg": ""
+        "eg": "Not a baby"
       }
     ],
     "grammar": [

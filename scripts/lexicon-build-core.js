@@ -17,7 +17,51 @@ function getBookKeys(book) {
   return keys;
 }
 
-function buildBookLexicon(book, { synPairs = [], clusterGroups = [], manual = {} } = {}) {
+function autoSynPairsFromGloss(book, maxPairs = 250) {
+  const m = new Map();
+  for (const l of data.getLessons()) {
+    if (l.book !== book) continue;
+    for (const w of l.words || []) {
+      const k = normKey(w.word);
+      if (!k || k.includes(' ')) continue;
+      if (!m.has(k)) m.set(k, w);
+    }
+  }
+  function cnSeg(cn) {
+    return String(cn || '')
+      .split(/[；;，,、/|]/)
+      .map((s) => s.replace(/[（(][^）)]*[）)]/g, '').trim())
+      .filter((x) => x.length >= 2);
+  }
+  const list = [...m.entries()];
+  const seen = new Set();
+  const pairs = [];
+  for (let i = 0; i < list.length; i++) {
+    const [ka, wa] = list[i];
+    const sa = new Set(cnSeg(wa.cn));
+    if (!sa.size) continue;
+    for (let j = i + 1; j < list.length; j++) {
+      const [kb, wb] = list[j];
+      if (ka === kb) continue;
+      let gloss = '';
+      for (const x of cnSeg(wb.cn)) {
+        if (sa.has(x)) {
+          gloss = x;
+          break;
+        }
+      }
+      if (!gloss) continue;
+      const sig = [ka, kb].sort().join('|');
+      if (seen.has(sig)) continue;
+      seen.add(sig);
+      pairs.push([ka, kb, '释义相近']);
+      if (pairs.length >= maxPairs) return pairs;
+    }
+  }
+  return pairs;
+}
+
+function buildBookLexicon(book, { synPairs = [], clusterGroups = [], manual = {}, autoGloss = false, glossMax = 250 } = {}) {
   const BOOK_KEYS = getBookKeys(book);
   const lex = {};
 
@@ -77,7 +121,9 @@ function buildBookLexicon(book, { synPairs = [], clusterGroups = [], manual = {}
 
   let pairOk = 0;
   let pairSkip = 0;
-  for (const [a, b, note] of synPairs) {
+  const allPairs = [...synPairs];
+  if (autoGloss) allPairs.push(...autoSynPairsFromGloss(book, glossMax));
+  for (const [a, b, note] of allPairs) {
     if (addSyn(a, b, note)) pairOk++;
     else pairSkip++;
   }
@@ -100,4 +146,4 @@ function buildBookLexicon(book, { synPairs = [], clusterGroups = [], manual = {}
   return { dest, count: Object.keys(out).length, pairOk, pairSkip, clusterOk, vocab: BOOK_KEYS.size };
 }
 
-module.exports = { buildBookLexicon, getBookKeys };
+module.exports = { buildBookLexicon, getBookKeys, autoSynPairsFromGloss };

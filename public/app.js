@@ -11,6 +11,7 @@ const state = {
   lessonStats: {}, // 每课练习正确率（key: "book-lesson"，来自 /api/stats/lesson）
   vocabStars: new Set(), // 生词本已收藏的单词
   speakContext: null, // { book, lesson } 听写等无 currentLesson 时的朗读上下文
+  articleTab: null, // official | orig | mine — 教材页当前子标签
 };
 
 const $ = (id) => document.getElementById(id);
@@ -146,6 +147,14 @@ function firstAnswer(answers) {
   return list.length ? list[0] : '';
 }
 
+// 单个英文句子/词旁的 🔊 按钮 HTML
+function speakBtnHtml(text, extraClass) {
+  const t = enOnly(firstAnswer(text) || text);
+  if (!t) return '';
+  const cls = extraClass ? `spk ${extraClass}` : 'spk';
+  return `<span class="${cls}" data-speak="${escapeAttr(t)}" title="朗读">🔊</span>`;
+}
+
 // 多个可接受答案时，每个答案后各跟一个 🔊
 function formatAnswersWithSpeak(answers, opts) {
   const list = asAnswerList(answers);
@@ -163,8 +172,11 @@ function formatAnswersWithSpeak(answers, opts) {
 
 function bindSpeakClicks(root) {
   if (!root) return;
-  root.querySelectorAll('button[data-speak]').forEach((btn) => {
-    btn.onclick = () => speak(btn.dataset.speak);
+  root.querySelectorAll('[data-speak]').forEach((el) => {
+    el.onclick = (e) => {
+      e.stopPropagation();
+      speak(el.dataset.speak);
+    };
   });
 }
 
@@ -285,6 +297,69 @@ function lookupHumanPronunc(text) {
   return null;
 }
 
+function isLessonTextTab() {
+  return state.articleTab === 'orig';
+}
+
+/** 教材原文与官方 LRC 正文是否实质相同（导入脚本写入的重复内容） */
+function lessonTextMatchesOfficial() {
+  const t = state.currentLessonText;
+  const p = state.currentOfficialPassage;
+  if (!t || !t.en || !p || !p.en) return false;
+  return normSpeakLine(t.en) === normSpeakLine(p.en);
+}
+
+function showLessonTextTab() {
+  const hasOrig = !!(state.currentLessonText && state.currentLessonText.en);
+  const hasOfficial = !!(state.currentOfficialPassage && state.currentOfficialPassage.en);
+  if (!hasOrig) return false;
+  // 与原声课文正文相同则隐藏，避免两标签重复展示
+  return !hasOfficial || !lessonTextMatchesOfficial();
+}
+
+/** 课文原声切片：教材原文页强制；其余仅在课文详情页的长句使用（单词/短短语走真人+TTS） */
+function shouldUseOfficialAudio(text) {
+  const t = enOnly(firstAnswer(text) || text);
+  if (!t) return false;
+  const wrap = $('lessonDetailWrap');
+  if (!wrap || wrap.classList.contains('hidden')) return false;
+  if (!speakContextLesson()) return false;
+  if (state.articleTab === 'mine') return false; // 原创精读走 TTS，不用课文原声
+  if (isLessonTextTab()) return true;
+  const wc = t.split(/\s+/).filter(Boolean).length;
+  if (wc <= 2 && t.length <= 28) return false;
+  return true;
+}
+
+let speakFailWarned = false;
+function toastSpeakFail() {
+  if (speakFailWarned) return;
+  speakFailWarned = true;
+  setTimeout(function () { speakFailWarned = false; }, 8000);
+  const msg = !navigator.onLine || TTS_CLOUD_ONLY
+    ? '朗读失败：请联网，或在系统设置中安装英文语音包后重试'
+    : '朗读失败：请检查系统英文语音，或确认浏览器未静音';
+  toast(msg, 'warn');
+}
+
+function speakWithTts(t) {
+  if (!window.speechSynthesis) {
+    toast('当前浏览器不支持语音朗读，建议使用 Chrome / Edge / Safari。', 'bad');
+    return;
+  }
+  stopAllSpeakAudio();
+  try { speechSynthesis.resume(); } catch (e) {}
+  if (!ensureVoice()) pickVoice();
+  const u = makeUtterance(t);
+  const baseErr = u.onerror;
+  u.onerror = function (ev) {
+    if (baseErr) baseErr(ev);
+    if (!ev || ev.error === 'interrupted' || ev.error === 'canceled') return;
+    toastSpeakFail();
+  };
+  speechSynthesis.speak(u);
+}
+
 function stopHumanAudio() {
   if (humanAudio) {
     humanAudio.pause();
@@ -293,21 +368,26 @@ function stopHumanAudio() {
   }
 }
 
-function trySpeakHuman(text) {
+function trySpeakHuman(text, onFail) {
   const entry = lookupHumanPronunc(text);
   if (!entry) return false;
   stopAllSpeakAudio();
   const a = new Audio(entry.file);
   humanAudio = a;
-  a.onended = function () { if (humanAudio === a) humanAudio = null; };
-  a.onerror = function () { if (humanAudio === a) humanAudio = null; };
-  a.play().catch(function () {
+  let done = false;
+  function finish(failed) {
+    if (done) return;
+    done = true;
     if (humanAudio === a) humanAudio = null;
-  });
+    if (failed && onFail) onFail();
+  }
+  a.onended = function () { finish(false); };
+  a.onerror = function () { finish(true); };
+  a.play().catch(function () { finish(true); });
   return true;
 }
 
-function trySpeakOfficial(text) {
+function trySpeakOfficial(text, onFail) {
   const seg = lookupOfficialSegment(text);
   if (!seg) return false;
   stopAllSpeakAudio();
@@ -316,30 +396,39 @@ function trySpeakOfficial(text) {
   const endAt = seg.end > seg.start ? seg.end : seg.start + 5;
   const maxMs = Math.max(400, (endAt - seg.start) * 1000 + 250);
   let stopTimer = null;
+  let done = false;
 
   function cleanup() {
     if (stopTimer) clearTimeout(stopTimer);
     if (officialSegmentAudio === a) officialSegmentAudio = null;
     a.onended = null;
     a.ontimeupdate = null;
+    a.onerror = null;
+  }
+
+  function finish(failed) {
+    if (done) return;
+    done = true;
+    cleanup();
+    if (failed && onFail) onFail();
   }
 
   a.currentTime = seg.start;
   a.ontimeupdate = function () {
     if (a.currentTime >= endAt - 0.05) {
       a.pause();
-      cleanup();
+      finish(false);
     }
   };
-  a.onended = cleanup;
-  a.onerror = cleanup;
+  a.onended = function () { finish(false); };
+  a.onerror = function () { finish(true); };
   stopTimer = setTimeout(function () {
     if (officialSegmentAudio === a) {
       a.pause();
-      cleanup();
+      finish(false);
     }
   }, maxMs);
-  a.play().catch(cleanup);
+  a.play().catch(function () { finish(true); });
   return true;
 }
 
@@ -370,17 +459,26 @@ async function loadOfficialSegments() {
 
 function speak(text) {
   const t = enOnly(firstAnswer(text) || text);
-  if (!t) return;
-  if (trySpeakOfficial(t)) return;
-  if (trySpeakHuman(t)) return;
-  if (!window.speechSynthesis) {
-    toast('当前浏览器不支持语音朗读，建议使用 Chrome / Edge / Safari。', 'bad');
+  if (!t) {
+    toast('没有可朗读的英文内容', 'warn');
     return;
   }
-  stopAllSpeakAudio();
-  // Chrome 有时在 cancel 后 pending 队列会卡住，resume 可恢复
-  try { speechSynthesis.resume(); } catch (e) {}
-  speechSynthesis.speak(makeUtterance(t));
+  if (isLessonTextTab()) {
+    const onFail = function () {
+      toast('本句无法匹配原声片段，请确认教材原文与录音一致', 'warn');
+    };
+    if (trySpeakOfficial(t, onFail)) return;
+    onFail();
+    return;
+  }
+  if (state.articleTab === 'mine') {
+    speakWithTts(t);
+    return;
+  }
+  const fallbackTts = function () { speakWithTts(t); };
+  if (shouldUseOfficialAudio(text) && trySpeakOfficial(t, fallbackTts)) return;
+  if (trySpeakHuman(t, fallbackTts)) return;
+  fallbackTts();
 }
 // 依次朗读一组词（用于“全部单词连读”）
 function speakSequence(list) {
@@ -391,18 +489,56 @@ function speakSequence(list) {
     speechSynthesis.speak(makeUtterance(t, 0.95));
   });
 }
-// 顺序连读多句并在读完最后一句时回调（用于精读“朗读全文”，供按钮复位）
+// 顺序连读多句（逐句等待上一句结束，避免浏览器 TTS 队列错乱）
 function speakLines(lines, onEnd) {
-  if (!window.speechSynthesis) return;
+  if (!window.speechSynthesis) {
+    if (onEnd) onEnd();
+    return;
+  }
   stopAllSpeakAudio();
   try { speechSynthesis.resume(); } catch (e) {}
   const items = (lines || []).map(enOnly).filter(Boolean);
   if (!items.length) { if (onEnd) onEnd(); return; }
-  items.forEach((t, i) => {
-    const u = makeUtterance(t, 0.95);
-    if (i === items.length - 1 && onEnd) u.onend = onEnd;
+  let i = 0;
+  function next() {
+    if (i >= items.length) {
+      if (onEnd) onEnd();
+      return;
+    }
+    const u = makeUtterance(items[i], 0.95);
+    i += 1;
+    u.onend = next;
+    u.onerror = function (ev) {
+      if (!ev || ev.error === 'interrupted' || ev.error === 'canceled') { next(); return; }
+      toastSpeakFail();
+      next();
+    };
     speechSynthesis.speak(u);
-  });
+  }
+  next();
+}
+
+/** 课文区「朗读全文」：教材原文播整课 MP3，原创精读等仅 TTS 逐句 */
+function speakPassageFull(tab, lines, onEnd) {
+  stopAllSpeakAudio();
+  if (tab === 'orig') {
+    const p = state.currentOfficialPassage;
+    if (!p || !p.audio) {
+      toast('本课无原声 MP3，无法朗读教材原文', 'warn');
+      if (onEnd) onEnd();
+      return;
+    }
+    const a = new Audio(p.audio);
+    officialLessonAudio = a;
+    a.onended = function () { if (onEnd) onEnd(); };
+    a.onerror = function () { toastOfficialAudioFail(); if (onEnd) onEnd(); };
+    a.play().catch(function () {
+      toastOfficialAudioFail();
+      if (onEnd) onEnd();
+    });
+    return;
+  }
+  speakLines(lines, onEnd);
 }
 
 // ---------- 轻提示（toast，替代阻塞式 alert）----------
@@ -428,7 +564,18 @@ async function init() {
   await NCEStore.ready; // 学习状态（最近课/已学/已掌握等）加载完再渲染，避免读到空值
   await loadPronuncIndex(); // 真人发音索引（离线可读 public/audio/）
   await loadOfficialSegments(); // 原声课文句子时间轴（离线可读）
-  state.meta = await api('/api/meta');
+  state.meta = await api('/api/meta').catch(() => ({
+    books: [
+      { id: 1, title: '第一册' },
+      { id: 2, title: '第二册' },
+      { id: 3, title: '第三册' },
+      { id: 4, title: '第四册' },
+    ],
+    units: {},
+    grammarByBook: {},
+    stats: { total: 0, byBook: {}, byType: {}, lessonsByBook: {} },
+  }));
+  state.transformMeta = await api('/api/transform/meta').catch(() => null);
   renderBookChips();
   renderUnitChips();
   renderGrammarChips();
@@ -449,6 +596,8 @@ async function init() {
   renderLearnBookChips();
   loadLessons(state.learnBook);
   $('practiceThisBtn').onclick = practiceCurrentLesson;
+  const transformThisBtn = $('transformThisBtn');
+  if (transformThisBtn) transformThisBtn.onclick = practiceTransformLesson;
   $('tocSearch').oninput = filterToc;
   // 标为已掌握（手动打标，目录显示 ★）
   $('masterBtn').onclick = () => {
@@ -956,10 +1105,15 @@ window.NCE = {
   asAnswerList,
   firstAnswer,
   formatAnswersWithSpeak,
+  speakBtnHtml,
   bindSpeakClicks,
   registerFeature,
   gotoTab,
   goToLesson,
+  goToTransform,
+  practiceGrammar,
+  practiceWeakTransform,
+  practiceWeakRecommend,
   goToDictionary,
   goToVocab,
   restoreDictReturn,
@@ -1002,7 +1156,7 @@ async function renderHome() {
   const last = loadLastLesson();
   const vocabBook = last ? String(last.book) : '1';
   // 每项独立兜底：任一接口失败只影响对应卡片的数据，不拖垮整个首页
-  const [prog, plan, srs, gram, wordsStats, vocabOv, vocabStars, training] = await Promise.all([
+  const [prog, plan, srs, gram, wordsStats, vocabOv, vocabStars, training, recommend] = await Promise.all([
     api('/api/progress').catch(() => ({ totalAttempts: 0, accuracy: 0, wrongCount: 0 })),
     api('/api/plan/overview').catch(() => ({ goal: 10, todayCount: 0, streak: 0, totalDays: 0 })),
     api('/api/srs/stats').catch(() => ({ due: 0, upcoming: 0, total: 0 })),
@@ -1011,11 +1165,13 @@ async function renderHome() {
     api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
     api('/api/vocab/stars').catch(() => ({ words: [] })),
     api('/api/stats/training').catch(() => null),
+    api(`/api/stats/recommend?book=${encodeURIComponent(vocabBook)}&limit=3`).catch(() => ({ recommendations: [] })),
   ]);
 
   // 薄弱语法点：练够 4 次且正确率 < 85% 才算（接口已按正确率升序，最弱在前）
   const weak = (gram.grammar || []).filter((g) => g.seen >= 4 && g.accuracy < 85);
-  const w1 = weak[0] || null;
+  const rec1 = (recommend.recommendations || [])[0] || null;
+  const w1 = rec1 || weak[0] || null;
   // 「学习中」(level 1-2) 的单词是默写待巩固池（按当前/最近学习册统计）
   const wordsDue = wordsStats ? wordsStats.learning || 0 : 0;
   const wordsDueHint = wordsDue
@@ -1078,6 +1234,23 @@ async function renderHome() {
     : dlgWeak
       ? `<br>💬 对话「${escapeHtml(dlgWeak.title)}」正确率 ${dlgWeak.accuracy}%，可多练情景对话。`
       : '';
+  const weakSubDetail = (g) => {
+    const parts = [`正确率 <b class="acc ${accClass(g.accuracy)}">${g.accuracy}%</b>（已练 ${g.seen} 次）`];
+    if (g.quiz && g.quiz.seen >= 3) parts.push(`刷题 ${g.quiz.accuracy}%`);
+    if (g.transform && g.transform.seen >= 3) parts.push(`句型 ${g.transform.accuracy}%`);
+    return parts.join(' · ');
+  };
+  const weakBookHint = rec1 && rec1.book ? ` · 推荐第 ${rec1.book} 册` : '';
+  const weakReason = rec1 && rec1.reason ? `<br><span style="font-size:12px;color:#64748b">💡 ${escapeHtml(rec1.reason)}${weakBookHint}</span>` : weakBookHint ? `<br><span style="font-size:12px;color:#64748b">💡 推荐第 ${rec1.book} 册</span>` : '';
+  const weakQuizBtnHtml = rec1 && rec1.quizAvailable
+    ? `<button class="btn ${rec1.primary === 'quiz' ? 'primary' : ''}" id="homeWeakQuizBtn">刷题 10 题 →</button>`
+    : '';
+  const weakTfBtnHtml = rec1 && rec1.transformAvailable
+    ? `<button class="btn ${rec1.primary === 'transform' ? 'primary' : ''}" id="homeWeakTfBtn">句型 5 句 →</button>`
+    : '';
+  const weakLegacyBtn = !rec1 && w1
+    ? `<button class="btn primary" id="homeWeakBtn">专练 10 题 →</button>`
+    : '';
   let showGuide = false;
   try { showGuide = !localStorage.getItem('nce-guide-dismissed'); } catch (e) { /* ignore */ }
   box.innerHTML =
@@ -1125,10 +1298,10 @@ async function renderHome() {
       ${
         w1
           ? `<div class="hc-big hc-small">${escapeHtml(w1.tag)}</div>
-             <div class="hc-sub">正确率 <b class="acc ${accClass(w1.accuracy)}">${w1.accuracy}%</b>（已练 ${w1.seen} 次），是你目前最薄弱的语法点${
+             <div class="hc-sub">${weakSubDetail(w1)}，是你目前最薄弱的语法点${
                weak[1] ? `；其次是「${escapeHtml(weak[1].tag)}」（${weak[1].accuracy}%）` : ''
-             }</div>
-             <button class="btn primary" id="homeWeakBtn">专练 10 题 →</button>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
+             }${weakReason}</div>
+             <div class="hc-btns">${weakQuizBtnHtml}${weakTfBtnHtml}${weakLegacyBtn}</div>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
           : (gram.grammar || []).length
             ? `<div class="hc-sub">已练过的语法点正确率都在 85% 以上，继续保持！想看全貌可去薄弱分析。</div>
                <button class="btn" data-goto="stats">看薄弱分析 →</button>${trainingHint ? `<div class="hc-sub" style="margin-top:8px">${trainingHint}</div>` : ''}`
@@ -1211,9 +1384,13 @@ async function renderHome() {
       if (g) g.remove();
     };
   }
-  // 薄弱专练：直接按最弱语法点组一组题
+  // 薄弱专练：按推荐或最弱语法点组题 / 句型转换
   const weakBtn = $('homeWeakBtn');
-  if (weakBtn && w1) weakBtn.onclick = () => practiceGrammar(w1.tag);
+  if (weakBtn && w1) weakBtn.onclick = () => practiceGrammar(w1.tag, rec1 && rec1.book);
+  const weakQuizBtn = $('homeWeakQuizBtn');
+  if (weakQuizBtn && rec1) weakQuizBtn.onclick = () => practiceGrammar(rec1.tag, rec1.book);
+  const weakTfBtn = $('homeWeakTfBtn');
+  if (weakTfBtn && rec1) weakTfBtn.onclick = () => practiceWeakTransform(rec1.tag, rec1.book);
   // 默写单词：深链到「背单词」的默写模式
   const spellBtn = $('homeSpellBtn');
   if (spellBtn) {
@@ -1392,7 +1569,7 @@ function filterToc() {
 // 加载指定册的课程目录到左侧边栏（同时拉每课练习正确率，做目录角标）
 async function loadLessons(book) {
   const [data, statsRes] = await Promise.all([
-    api('/api/lessons?book=' + book),
+    api('/api/lessons?book=' + book).catch(() => ({ lessons: [] })),
     api('/api/stats/lesson').catch(() => ({ lessons: [] })),
   ]);
   state.lessonStats = {};
@@ -1598,9 +1775,16 @@ function fmtAudioTime(sec) {
   return m + ':' + String(s).padStart(2, '0');
 }
 
+function toastOfficialAudioFail() {
+  toast(
+    '原声无法播放。请确认已执行 git lfs pull，并硬刷新页面（Cmd+Shift+R）以清除旧音频缓存。',
+    'warn'
+  );
+}
+
 function renderOfficialPassage(p) {
   const lines = (p.lines || []).map((line, i) =>
-    `<div class="pl official-line" data-t="${line.t}" data-i="${i}">${wrapPassageWords(line.en)}</div>`
+    `<div class="pl official-line" data-t="${line.t}" data-i="${i}">${speakBtnHtml(line.en)} ${wrapPassageWords(line.en)}</div>`
   ).join('');
   return (
     `<div class="art-note">🎧 新概念<b>英音原声</b> · ${escapeHtml(p.title || '')} · 点击句子可跳转到对应位置</div>` +
@@ -1641,10 +1825,17 @@ function bindOfficialPassage(view) {
       return;
     }
     if (audio.ended) audio.currentTime = 0;
-    audio.play().catch(function () {
-      toast('原声文件无法播放，请确认 public/audio/nce/ 下已有 MP3 文件', 'warn');
+    audio.play().then(function () {
+      playBtn.textContent = '⏸ 暂停';
+    }).catch(function () {
+      playBtn.textContent = '▶ 播放原声';
+      toastOfficialAudioFail();
     });
-    playBtn.textContent = '⏸ 暂停';
+  };
+
+  audio.onerror = function () {
+    playBtn.textContent = '▶ 播放原声';
+    toastOfficialAudioFail();
   };
 
   audio.ontimeupdate = syncHighlight;
@@ -1657,6 +1848,13 @@ function bindOfficialPassage(view) {
   };
 
   lines.forEach(function (el) {
+    const spk = el.querySelector('.spk');
+    if (spk) {
+      spk.onclick = function (e) {
+        e.stopPropagation();
+        speak(spk.dataset.speak);
+      };
+    }
     el.onclick = function () {
       stopAllSpeakAudio();
       audio.currentTime = Number(el.dataset.t) || 0;
@@ -1698,6 +1896,7 @@ async function saveLessonText(l, en, cn) {
 function renderArticleView(l, which) {
   const view = $('articleView');
   if (!view) return;
+  state.articleTab = which;
   stopOfficialAudio();
   if (which === 'official') {
     const p = state.currentOfficialPassage;
@@ -1713,7 +1912,7 @@ function renderArticleView(l, which) {
   }
   if (which === 'mine') {
     if (l.article && l.article.en) {
-      view.innerHTML = `<div class="art-note">✍️ 原创精读短文（同主题、同语法、同核心词）· 点击单词或选中短语可查词典</div>` +
+      view.innerHTML = `<div class="art-note">✍️ 原创精读短文（同主题、同语法、同核心词）· 朗读为浏览器 TTS · 点击单词或选中短语可查词典</div>` +
         renderPassage(l.article.en, l.article.cn);
     } else {
       view.innerHTML = `<div class="art-empty">本课原创精读短文即将补充。</div>`;
@@ -1721,7 +1920,7 @@ function renderArticleView(l, which) {
   } else {
     const t = state.currentLessonText;
     if (t && t.en) {
-      view.innerHTML = `<div class="art-note">📖 你录入的教材原文 <button class="btn ghost small" id="editTextBtn">编辑</button> · 点击单词或选中短语可查词典</div>` +
+      view.innerHTML = `<div class="art-note">📖 教材原文 · 真人英音原声朗读 <button class="btn ghost small" id="editTextBtn">编辑</button> · 点击单词或选中短语可查词典</div>` +
         renderPassage(t.en, t.cn);
       $('editTextBtn').onclick = () => renderTextEditor(l);
     } else {
@@ -1734,6 +1933,7 @@ function renderArticleView(l, which) {
   view.querySelectorAll('.spk').forEach((el) => { el.onclick = () => { speak(el.dataset.speak); resetRead(); }; });
   if (readBtn) {
     readBtn.onclick = () => {
+      const tab = state.articleTab;
       const reading = (humanAudio && !humanAudio.paused)
         || officialSegmentAudio
         || (officialLessonAudio && !officialLessonAudio.paused)
@@ -1743,22 +1943,9 @@ function renderArticleView(l, which) {
         resetRead();
         return;
       }
-      const p = state.currentOfficialPassage;
-      if (p && p.audio && which !== 'official') {
-        const a = new Audio(p.audio);
-        officialLessonAudio = a;
-        readBtn.textContent = '⏹ 停止';
-        a.onended = resetRead;
-        a.onerror = resetRead;
-        a.play().catch(function () {
-          toast('原声文件无法播放，请确认 public/audio/nce/ 下已有 MP3 文件', 'warn');
-          resetRead();
-        });
-        return;
-      }
       const lines = Array.from(view.querySelectorAll('.passage .pl .spk')).map((s) => s.dataset.speak);
       readBtn.textContent = '⏹ 停止';
-      speakLines(lines, resetRead);
+      speakPassageFull(tab, lines, resetRead);
     };
   }
   bindPassageLookup(view, l.book);
@@ -1768,12 +1955,16 @@ function renderArticleView(l, which) {
 function bindArticle(l) {
   const tabs = $('lessonDetail').querySelectorAll('.art-tab');
   const hasOfficial = !!(state.currentOfficialPassage && state.currentOfficialPassage.en);
-  const hasOrig = !!(state.currentLessonText && state.currentLessonText.en);
+  const hasOrig = showLessonTextTab();
   const hasMine = !!(l.article && l.article.en);
-  let which = hasOfficial ? 'official' : 'orig';
+  let which = hasOfficial ? 'official' : (hasOrig ? 'orig' : 'mine');
   if (!hasOfficial && !hasOrig && hasMine) which = 'mine';
   tabs.forEach((t) => {
-    const show = t.dataset.at !== 'official' || hasOfficial;
+    const at = t.dataset.at;
+    const show = at === 'official' ? hasOfficial
+      : at === 'orig' ? hasOrig
+      : at === 'mine' ? hasMine
+      : true;
     t.style.display = show ? '' : 'none';
     t.classList.toggle('on', t.dataset.at === which);
     t.onclick = () => {
@@ -1816,6 +2007,14 @@ async function openLesson(book, lesson, opts) {
     return `<div class="gram-item"><div class="gp">📌 ${escapeHtml(g.point)}</div>` +
       `<div class="gx">${escapeHtml(g.explain)}</div><div class="ge">${ex}</div></div>`;
   }).join('');
+  const camUnits = cambridgeUnitsForLesson(l);
+  const camRow = camUnits.length
+    ? `<div class="gram-cambridge"><span class="gram-cam-label">📘 剑桥语法单元</span>` +
+      camUnits.map((u) =>
+        `<button type="button" class="btn ghost small gram-cam-btn" data-cam-unit="${u.unit}" title="${escapeAttr(u.title || '')}">` +
+        `U${u.unit} ${escapeHtml(u.titleCn)} · ${u.count}句</button>`).join('') +
+      `</div>`
+    : '';
 
   // 本课学习情况条（练习次数/正确率来自 /api/stats/lesson）
   const st = lessonStatFor(l.book, l.lesson);
@@ -1838,7 +2037,7 @@ async function openLesson(book, lesson, opts) {
     </div>` +
     `<div class="sec-title">📝 重点单词 <button class="btn ghost small" id="readAllWords">🔊 全部单词连读</button></div>` +
     `<div class="words-wrap"><table class="words"><tr><th>单词</th><th>词性</th><th>释义</th><th>例句（原创）</th></tr>${words}</table></div>` +
-    `<div class="sec-title">📐 语法精讲</div>${grammar}` +
+    `<div class="sec-title">📐 语法精讲</div>${camRow}${grammar}` +
     `<div class="sec-title">💡 理解与记忆方法</div><div class="tips-box">${escapeHtml(l.tips || '').replace(/①|②|③|④/g, '<br>$&')}</div>` +
     (l.notes
       ? `<div class="sec-title">📓 视频笔记</div><div class="notes-box">${renderNotes(l.notes)}</div>`
@@ -1888,6 +2087,17 @@ async function openLesson(book, lesson, opts) {
   });
 
   // 单词收藏：点 ☆/★ 加入/移出生词本（与「单词」页共用 /api/vocab）
+  $('lessonDetail').querySelectorAll('.gram-cam-btn').forEach((btn) => {
+    btn.onclick = () => {
+      goToTransform({
+        book: l.book,
+        lessonMin: l.lesson,
+        lessonMax: l.lesson,
+        cambridgeUnit: Number(btn.dataset.camUnit),
+        showCambridge: true,
+      });
+    };
+  });
   $('lessonDetail').querySelectorAll('.wstar').forEach((el) => {
     el.onclick = async () => {
       const word = el.dataset.word;
@@ -1970,6 +2180,56 @@ async function goToLesson(book, lesson, opts) {
   await openLesson(b, l, opts);
 }
 
+// 本课对应的剑桥语法单元（有句型转换练习的）
+function cambridgeUnitsForLesson(l) {
+  const info = state.transformMeta && state.transformMeta.cambridgeByBook && state.transformMeta.cambridgeByBook[l.book];
+  if (!info || !info.sections) return [];
+  const tags = new Set(l.grammarTags || []);
+  const covMap = {};
+  (info.coverage || []).forEach((c) => { covMap[c.unit] = c.count; });
+  const out = [];
+  const seen = new Set();
+  for (const sec of info.sections) {
+    for (const u of sec.units || []) {
+      if (seen.has(u.unit)) continue;
+      if ((u.grammar || []).some((g) => tags.has(g)) && covMap[u.unit] > 0) {
+        seen.add(u.unit);
+        out.push({
+          unit: u.unit,
+          title: u.title,
+          titleCn: u.titleCn,
+          count: covMap[u.unit],
+          sectionTitleCn: sec.titleCn,
+          levelTitle: info.levelTitle,
+        });
+      }
+    }
+  }
+  return out.sort((a, b) => a.unit - b.unit);
+}
+
+function goToTransform(opts) {
+  NCE.pendingTransform = Object.assign({ autoStart: true }, opts || {});
+  gotoTab('transform');
+}
+
+async function practiceTransformLesson() {
+  const l = state.currentLesson;
+  if (!l) return;
+  const base = { book: l.book, lessonMin: l.lesson, lessonMax: l.lesson };
+  const units = cambridgeUnitsForLesson(l);
+  const tags = l.grammarTags || [];
+  if (units.length) {
+    goToTransform({ ...base, cambridgeUnit: units[0].unit, showCambridge: true });
+    return;
+  }
+  if (tags.length) {
+    goToTransform({ ...base, grammar: tags[0] });
+    return;
+  }
+  goToTransform(base);
+}
+
 // 练本课语法：优先出挂在本课的题，不足 10 题再用本课语法标签的同册题补足
 // （只按语法标签取会大量抽到其它课的题，练第 3 课却做第 121 课的题体验很差）
 async function practiceCurrentLesson() {
@@ -1992,10 +2252,13 @@ async function practiceCurrentLesson() {
 
 // 按语法点直接组一组题（首页「薄弱专练」入口），并把刷题设置页的筛选同步过去，
 // 练完点「再练一组」能延续同一条件
-async function practiceGrammar(tag) {
+async function practiceGrammar(tag, preferredBook) {
   const byBook = (state.meta && state.meta.grammarByBook) || {};
-  // 该语法点所在的册：优先当前选中的册，否则取第一个含它的册
-  let book = (byBook[state.selectedBook] || []).includes(tag) ? state.selectedBook : null;
+  // 该语法点所在的册：优先推荐册 / 当前册，否则取第一个含它的册
+  let book = preferredBook != null ? Number(preferredBook) : null;
+  if (!book || !(byBook[book] || []).includes(tag)) {
+    book = (byBook[state.selectedBook] || []).includes(tag) ? state.selectedBook : null;
+  }
   if (!book) {
     const b = Object.keys(byBook).find((k) => (byBook[k] || []).includes(tag));
     if (b) book = Number(b);
@@ -2016,6 +2279,28 @@ async function practiceGrammar(tag) {
     renderGrammarChips();
   }
   beginQuiz(data.questions);
+}
+
+function practiceWeakTransform(tag, book) {
+  goToTransform({
+    grammar: tag,
+    book: book != null ? book : undefined,
+    limit: 5,
+    autoStart: true,
+  });
+}
+
+function practiceWeakRecommend(rec) {
+  if (!rec || !rec.tag) return;
+  if (rec.primary === 'transform' && rec.transformAvailable) {
+    practiceWeakTransform(rec.tag, rec.book);
+  } else if (rec.quizAvailable) {
+    practiceGrammar(rec.tag, rec.book);
+  } else if (rec.transformAvailable) {
+    practiceWeakTransform(rec.tag, rec.book);
+  } else {
+    toast('该语法点暂无可练内容');
+  }
 }
 
 function renderBookChips() {
@@ -2236,7 +2521,7 @@ async function startQuiz(wrongOnly) {
 function questionCardHtml(q, index) {
   const tags = (q.grammar || []).map((g) => `<span class="q-tag">${g}</span>`).join('');
   const meta = `<div class="q-meta">第${q.book}册 · Lesson ${q.lesson} ${q.lessonTitle || ''} ${tags}</div>`;
-  const stem = `<div class="q-stem">${index + 1}. ${escapeHtml(q.stem)}</div>`;
+  const stem = `<div class="q-stem">${index + 1}. ${speakBtnHtml(q.stem)} ${escapeHtml(q.stem)}</div>`;
   let body = '';
   if (q.type === 'mcq') {
     body = '<div class="options">';
@@ -2278,6 +2563,7 @@ function renderQuiz() {
     box.appendChild(card);
   });
   bindOptionEvents(box);
+  bindSpeakClicks(box);
   $('submitBtn').classList.remove('hidden');
   $('progressText').textContent = `共 ${state.questions.length} 题`;
 }
@@ -2303,6 +2589,7 @@ function renderStepQuiz() {
     '</div>';
   box.appendChild(card);
   bindOptionEvents(box);
+  bindSpeakClicks(box);
   $('stepConfirmBtn').onclick = confirmStep;
   const fill = box.querySelector('.fill-input');
   if (fill) fill.focus();
@@ -2329,8 +2616,9 @@ async function confirmStep() {
   const ansText = Array.isArray(r.answer) ? r.answer.join(' / ') : r.answer;
   fb.className = 'step-feedback ' + (r.correct ? 'ok' : 'bad');
   fb.innerHTML =
-    (r.correct ? '✅ 回答正确！' : `❌ 回答错误，正确答案：<b>${escapeHtml(ansText)}</b>`) +
+    (r.correct ? '✅ 回答正确！' : `❌ 回答错误，正确答案：${formatAnswersWithSpeak(r.answer) || `<b>${escapeHtml(ansText)}</b>`}`) +
     (r.explanation ? `<div class="r-exp">💡 ${escapeHtml(r.explanation)}</div>` : '');
+  bindSpeakClicks(fb);
 
   // 已判分的题不允许再改
   document.querySelectorAll('#quizList input').forEach((el) => { el.disabled = true; });
@@ -2421,13 +2709,14 @@ function renderResult(result) {
     const card = document.createElement('div');
     card.className = 'r-card ' + (r.correct ? 'ok' : 'bad');
     card.innerHTML =
-      `<div class="r-stem">${escapeHtml(r.stem)}</div>` +
+      `<div class="r-stem">${speakBtnHtml(r.stem)} ${escapeHtml(r.stem)}</div>` +
       `<div class="r-line">你的答案：<span class="${r.correct ? 'yes' : 'no'}">${escapeHtml(r.response || '（未作答）')}</span>` +
-      (r.correct ? ' ✓' : ` ✗　正确答案：<span class="yes">${escapeHtml(answerText)}</span>`) +
+      (r.correct ? ' ✓' : ` ✗　正确答案：${formatAnswersWithSpeak(r.answer) || `<span class="yes">${escapeHtml(answerText)}</span>`}`) +
       `</div>` +
       (r.explanation ? `<div class="r-exp">💡 ${escapeHtml(r.explanation)}</div>` : '');
     box.appendChild(card);
   });
+  bindSpeakClicks(box);
 }
 
 async function retryWrong() {

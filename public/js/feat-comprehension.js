@@ -9,6 +9,15 @@
   const esc = NCE.escapeHtml;
   const escAttr = NCE.escapeAttr;
 
+  function compSpk(text) {
+    if (!text || !NCE.speakBtnHtml) return '';
+    return NCE.speakBtnHtml(text, 'comp-spk');
+  }
+
+  function bindCompSpeak(root) {
+    if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(root);
+  }
+
   // ---- 样式（全部 comp- 前缀，浅色卡片风格）----
   function injectStyle() {
     if (document.getElementById('comp-style')) return;
@@ -33,7 +42,7 @@
       .comp-btn.ghost:hover{background:#f3f4f6}
       .comp-progress{font-size:13px;color:#6b7280;margin-bottom:8px}
       .comp-scene{font-size:13px;color:#9ca3af;margin-bottom:10px}
-      .comp-stem{font-size:19px;line-height:1.7;color:#111827;margin:8px 0 14px;word-break:break-word}
+      .comp-stem{font-size:19px;line-height:1.7;color:#111827;margin:8px 0 14px;word-break:break-word;display:flex;align-items:flex-start;gap:6px}
       .comp-stem .blank{color:#2563eb;font-weight:700;letter-spacing:1px}
       .comp-listen{display:flex;align-items:center;gap:12px;margin:6px 0 14px}
       .comp-listen .ear{font-size:40px;line-height:1}
@@ -48,7 +57,7 @@
       .comp-review{list-style:none;padding:0;margin:14px 0 0}
       .comp-review li{padding:12px;border:1px solid #eef2f7;border-radius:10px;background:#fbfcfe;margin-top:10px;font-size:14px;color:#374151;line-height:1.7}
       .comp-review li.bad{background:#fef2f2;border-color:#fecaca}
-      .comp-review .en{font-size:15px;color:#111827}
+      .comp-review .en{font-size:15px;color:#111827;display:flex;align-items:flex-start;gap:6px}
       .comp-review .cn{color:#6b7280}
       .comp-review .pick{margin-top:4px}
       .comp-review .pick .ok{color:#059669;font-weight:700}
@@ -156,11 +165,11 @@
     } else if (q.type === 'cloze') {
       stem = `
         <div class="comp-hint">选出适合填入空格的单词</div>
-        <div class="comp-stem">${esc(q.en).replace(/_{3,}/, '<span class="blank">_____</span>')}</div>`;
+        <div class="comp-stem">${compSpk(q.en)}${esc(q.en).replace(/_{3,}/, '<span class="blank">_____</span>')}</div>`;
     } else {
       stem = `
         <div class="comp-hint">读句子，选出正确的中文意思</div>
-        <div class="comp-stem">${esc(q.en)}</div>`;
+        <div class="comp-stem">${compSpk(q.en)}${esc(q.en)}</div>`;
     }
 
     const opts = q.options
@@ -184,6 +193,8 @@
       const replay = root.querySelector('#compReplay');
       replay.onclick = () => NCE.speak(q.speak);
       NCE.speak(q.speak); // 出题即自动播一遍
+    } else {
+      bindCompSpeak(root);
     }
     root.querySelectorAll('.comp-opt').forEach((b) => {
       b.onclick = () => answer(q.id, b.dataset.choice);
@@ -220,13 +231,13 @@
     const quiz = st.quiz;
     const rows = r.results
       .map((it) => {
-        const spk = `<button class="comp-spk" data-speak="${escAttr(it.en)}" title="朗读原句">🔊</button>`;
+        const spk = compSpk(it.en);
         const pick = it.correct
           ? `<div class="pick"><span class="ok">✔ 答对</span> ${esc(it.choice)}</div>`
           : `<div class="pick"><span class="no">✘ 你的选择：</span>${esc(it.choice || '（未选）')}<br><span class="ok">✔ 正确答案：</span>${esc(it.answer)}</div>`;
         return `<li class="${it.correct ? '' : 'bad'}">
           <span class="tag">${esc(TYPE_LABEL[it.type] || '')}</span>
-          <div class="en">${esc(it.en)} ${it.correct ? '' : spk}</div>
+          <div class="en">${spk}${esc(it.en)}</div>
           <div class="cn">${esc(it.cn)}</div>
           ${pick}</li>`;
       })
@@ -247,9 +258,7 @@
         </div>
       </div>`;
 
-    root.querySelectorAll('.comp-spk').forEach((b) => {
-      b.onclick = () => NCE.speak(b.dataset.speak);
-    });
+    bindCompSpeak(root);
     root.querySelector('#compAgain').onclick = startQuiz;
     root.querySelector('#compSetup').onclick = renderSetup;
   }

@@ -40,6 +40,15 @@
     .sta-vocab .acts{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
     .sta-vocab .acts button{padding:6px 12px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;cursor:pointer;font-size:13px;color:#334}
     .sta-vocab .acts button:hover{background:#f1f5f9}
+    .sta-rec{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+    .sta-rec-item{border:1px solid #e5e7eb;border-radius:10px;padding:12px 14px;background:#fff}
+    .sta-rec-item .top{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px}
+    .sta-rec-item .tag{font-weight:600;font-size:15px;color:#1e293b}
+    .sta-rec-item .meta{font-size:12px;color:#64748b;line-height:1.6;margin-top:4px}
+    .sta-rec-item .acts{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+    .sta-rec-item .acts button{padding:6px 12px;border:1px solid #cbd5e1;border-radius:8px;background:#fff;cursor:pointer;font-size:13px;color:#334}
+    .sta-rec-item .acts button.primary{background:#2563eb;border-color:#2563eb;color:#fff}
+    .sta-rec-item .acts button:hover{filter:brightness(.97)}
   `;
   document.head.appendChild(style);
 
@@ -59,14 +68,15 @@
     panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载中…</div></div>';
     const last = (typeof NCEStore !== 'undefined' && NCEStore.get('nce-last-lesson')) || null;
     const vocabBook = last ? String(last.book) : '1';
-    let overview, grammar, lesson, vocabOv, training;
+    let overview, grammar, lesson, vocabOv, training, recommend;
     try {
-      [overview, grammar, lesson, vocabOv, training] = await Promise.all([
+      [overview, grammar, lesson, vocabOv, training, recommend] = await Promise.all([
         NCE.api('/api/stats/overview'),
         NCE.api('/api/stats/grammar'),
         NCE.api('/api/stats/lesson'),
         NCE.api(`/api/vocab-test/overview?book=${encodeURIComponent(vocabBook)}`).catch(() => null),
         NCE.api('/api/stats/training').catch(() => null),
+        NCE.api(`/api/stats/recommend?book=${encodeURIComponent(vocabBook)}&limit=5`).catch(() => ({ recommendations: [] })),
       ]);
     } catch (e) {
       panel.innerHTML = '<div class="sta-wrap"><div class="sta-note">加载失败，请稍后重试。</div></div>';
@@ -108,6 +118,65 @@
       '<div class="lbl" style="margin-bottom:6px">最需加强</div>' +
       (weakChips ? `<div class="sta-weak">${weakChips}</div>` : '<div class="sta-weak"><span class="chip" style="background:#ecfdf5;border-color:#a7f3d0;color:#059669">暂无明显薄弱项 🎉</span></div>');
     cards.appendChild(weakCard);
+
+    const recList = (recommend && recommend.recommendations) || [];
+    if (recList.length) {
+      const recSect = document.createElement('div');
+      recSect.className = 'sta-sect';
+      recSect.innerHTML = '<h3>📋 推荐练习（高频薄弱语法）</h3>' +
+        '<div class="sta-note" style="margin-top:0">根据刷题与句型转换合并统计，自动推荐最该补的语法点；已练 ≥4 次且总正确率 &lt;85% 入选。</div>';
+      const recBox = document.createElement('div');
+      recBox.className = 'sta-rec';
+      recList.forEach(function (r) {
+        const item = document.createElement('div');
+        item.className = 'sta-rec-item';
+        const avail = [];
+        if (r.quizAvailable) avail.push('刷题 ' + r.quizAvailable + ' 题');
+        if (r.transformAvailable) avail.push('句型 ' + r.transformAvailable + ' 句');
+        const src = [];
+        if (r.quiz && r.quiz.seen >= 3) src.push('刷题 ' + r.quiz.accuracy + '%');
+        if (r.transform && r.transform.seen >= 3) src.push('句型 ' + r.transform.accuracy + '%');
+        item.innerHTML =
+          '<div class="top"><span class="tag">' + esc(r.tag) + '</span>' +
+          '<span style="font-weight:700;color:#dc2626">' + r.accuracy + '%</span>' +
+          (r.book ? '<span style="font-size:12px;color:#64748b">第 ' + r.book + ' 册</span>' : '') +
+          '</div>' +
+          '<div class="meta">已练 ' + r.seen + ' 次' +
+          (src.length ? ' · ' + esc(src.join(' · ')) : '') +
+          (avail.length ? '<br>可练：' + esc(avail.join(' · ')) : '') +
+          (r.reason ? '<br>💡 ' + esc(r.reason) : '') +
+          '</div>' +
+          '<div class="acts"></div>';
+        const acts = item.querySelector('.acts');
+        if (r.quizAvailable && NCE.practiceGrammar) {
+          const bq = document.createElement('button');
+          bq.type = 'button';
+          bq.textContent = '刷题 10 题';
+          if (r.primary === 'quiz') bq.className = 'primary';
+          bq.onclick = function () { NCE.practiceGrammar(r.tag, r.book); };
+          acts.appendChild(bq);
+        }
+        if (r.transformAvailable && NCE.practiceWeakTransform) {
+          const bt = document.createElement('button');
+          bt.type = 'button';
+          bt.textContent = '句型 5 句';
+          if (r.primary === 'transform') bt.className = 'primary';
+          bt.onclick = function () { NCE.practiceWeakTransform(r.tag, r.book); };
+          acts.appendChild(bt);
+        }
+        if (NCE.practiceWeakRecommend) {
+          const bp = document.createElement('button');
+          bp.type = 'button';
+          bp.textContent = '一键开始';
+          bp.className = 'primary';
+          bp.onclick = function () { NCE.practiceWeakRecommend(r); };
+          acts.appendChild(bp);
+        }
+        recBox.appendChild(item);
+      });
+      recSect.appendChild(recBox);
+      wrap.appendChild(recSect);
+    }
 
     // ---- 词汇量基线（听/读/总）----
     if (vocabOv) {
@@ -165,7 +234,13 @@
           (ex ? '<button type="button" data-goto="exam">阶段测验 →</button>' : '') +
           '</div>';
         sect.querySelectorAll('[data-goto]').forEach((btn) => {
-          btn.onclick = () => NCE.gotoTab(btn.dataset.goto);
+          btn.onclick = () => {
+            if (btn.dataset.goto === 'transform' && tf && NCE.goToTransform) {
+              NCE.goToTransform({ stepKind: tf.kind, autoStart: true });
+            } else {
+              NCE.gotoTab(btn.dataset.goto);
+            }
+          };
         });
         wrap.appendChild(sect);
       }
@@ -184,8 +259,26 @@
       }).join('');
       sect.innerHTML =
         '<h3>语法正确率热力图</h3>' +
-        '<div class="sta-note" style="margin-top:0">颜色越红代表该语法点越薄弱（红 &lt;50%，橙黄 50-79%，绿 ≥80%），最弱在前。</div>' +
+        '<div class="sta-note" style="margin-top:0">颜色越红代表该语法点越薄弱（红 &lt;50%，橙黄 50-79%，绿 ≥80%），最弱在前。统计含刷题与句型转换。点击格子可跳转专练。</div>' +
         `<div class="sta-grid">${grid}</div>`;
+      const recByTag = {};
+      recList.forEach(function (r) { recByTag[r.tag] = r; });
+      sect.querySelectorAll('.sta-cell').forEach((cell, i) => {
+        const g = grammarList[i];
+        if (!g) return;
+        cell.style.cursor = 'pointer';
+        const rec = recByTag[g.tag];
+        cell.title = rec && rec.book
+          ? '点击专练：' + g.tag + '（推荐第' + rec.book + '册）'
+          : '点击专练：' + g.tag;
+        cell.onclick = function () {
+          if (rec && NCE.practiceWeakRecommend) {
+            NCE.practiceWeakRecommend(rec);
+            return;
+          }
+          if (NCE.goToTransform) NCE.goToTransform({ grammar: g.tag, autoStart: true });
+        };
+      });
       wrap.appendChild(sect);
     }
 

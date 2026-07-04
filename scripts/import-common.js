@@ -42,14 +42,16 @@ function parseBlocks(text) {
     if (!line) return flush();
     if (line.startsWith('#')) {
       flush();
-      const pairs = [...line.slice(1).matchAll(/(\w+)\s*=\s*(\S+)/g)];
-      if (!pairs.length) throw fail(no, '# 行里没有 key=value 公共字段');
-      for (const [, k, v] of pairs) {
-        if (k === 'book') ctx.book = Number(v);
-        else if (k === 'lesson') ctx.lesson = Number(v);
-        else if (k === 'grammar') ctx.grammar = splitList(v);
-        else throw fail(no, `未知公共字段 "${k}"（支持 book / lesson / grammar）`);
+      const body = line.slice(1).trim();
+      const bookM = body.match(/\bbook\s*=\s*(\d+)/);
+      const lessonM = body.match(/\blesson\s*=\s*(\d+)/);
+      const grammarM = body.match(/\bgrammar\s*=\s*(.+)$/i);
+      if (!bookM && !lessonM && !grammarM) {
+        throw fail(no, '# 行里没有 key=value 公共字段');
       }
+      if (bookM) ctx.book = Number(bookM[1]);
+      if (lessonM) ctx.lesson = Number(lessonM[1]);
+      if (grammarM) ctx.grammar = splitList(grammarM[1].trim());
       return;
     }
     cur.push({ no, text: line });

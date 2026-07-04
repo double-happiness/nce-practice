@@ -56,91 +56,91 @@
         "phon": "/hɪə/",
         "pos": "v.",
         "cn": "听见",
-        "eg": ""
+        "eg": "I'm afraid I can't hear you."
       },
       {
         "word": "enjoy",
         "phon": "/ɪnˈdʒɔɪ/",
         "pos": "v.",
         "cn": "玩得快活，享受",
-        "eg": ""
+        "eg": "Enjoy yourself!"
       },
       {
         "word": "yourself",
         "phon": "/jɔː'self; jʊə-; jə-/",
         "pos": "pron.",
         "cn": "你自己",
-        "eg": ""
+        "eg": "Have you hurt yourself?"
       },
       {
         "word": "ourselves",
         "phon": "/aʊə'selvz/",
         "pos": "pron.",
         "cn": "我们自己",
-        "eg": ""
+        "eg": "We always enjoy ourselves, Mum."
       },
       {
         "word": "myself",
         "phon": "/maɪ'self/",
         "pos": "pron.",
         "cn": "我自己",
-        "eg": ""
+        "eg": "\"I am a big boy and I can go to bed by myself.\""
       },
       {
         "word": "themselves",
         "phon": "/ð(ə)m'selvz/",
         "pos": "pron.",
         "cn": "他们自己",
-        "eg": ""
+        "eg": "When they had all made themselves comfortable, a stranger appeared."
       },
       {
         "word": "himself",
         "phon": "/hɪm'self/",
         "pos": "pron.",
         "cn": "他自己",
-        "eg": ""
+        "eg": "As I soon learnt, he was English himself!"
       },
       {
         "word": "herself",
         "phon": "/hɜː'self/",
         "pos": "pron.",
         "cn": "她自己",
-        "eg": ""
+        "eg": "'I can ask him the way,' she said to herself."
       },
       {
         "word": "greengrocer",
         "phon": "/'griːngrəʊsə/",
         "pos": "n.",
         "cn": "蔬菜水果零售商",
-        "eg": ""
+        "eg": "I was at the greengrocer's."
       },
       {
         "word": "absent",
         "phon": "/ˈæbsənt;(for v.)əbˈsent/",
         "pos": "a.",
         "cn": "缺席的",
-        "eg": ""
+        "eg": "Was he absent from school last week?"
       },
       {
         "word": "Monday",
         "phon": "/ˈmʌndeɪ; ˈmʌndi/",
         "pos": "n.",
         "cn": "星期一",
-        "eg": ""
+        "eg": "Can you come at 10 a.m. on Monday, April 24th?"
       },
       {
         "word": "Tuesday",
         "phon": "/'tjuːzdeɪ; -dɪ/",
         "pos": "n.",
         "cn": "星期二",
-        "eg": ""
+        "eg": "He was absent on Monday, Tuesday, Wednesday and Thursday."
       },
       {
         "word": "Wednesday",
         "phon": "/ˈwenzdɪ/",
         "pos": "n.",
         "cn": "星期三",
-        "eg": ""
+        "eg": "He was absent on Monday, Tuesday, Wednesday and Thursday."
       }
     ],
     "grammar": [
@@ -220,84 +220,84 @@
         "phon": "/'θɜːzdeɪ; -dɪ/",
         "pos": "",
         "cn": "星期四",
-        "eg": ""
+        "eg": "He was absent on Monday, Tuesday, Wednesday and Thursday."
       },
       {
         "word": "keep",
         "phon": "/kiːp/",
         "pos": "v.",
         "cn": "(身体健康)处于(状况)",
-        "eg": ""
+        "eg": "He can get up for about two hours each day, but you must keep the room warm."
       },
       {
         "word": "spend",
         "phon": "/spend/",
         "pos": "v.",
         "cn": "度过，花费",
-        "eg": ""
+        "eg": "We're going to spend three days in the country!"
       },
       {
         "word": "weekend",
         "phon": "/wiːkˈɛnd/",
         "pos": "n.",
         "cn": "周末",
-        "eg": ""
+        "eg": "The weekend"
       },
       {
         "word": "Friday",
         "phon": "/'fraidi/",
         "pos": "n.",
         "cn": "星期五",
-        "eg": ""
+        "eg": "Friday, Saturday and Sunday in the country!"
       },
       {
         "word": "Saturday",
         "phon": "/ˈsætədɪ; -deɪ/",
         "pos": "n.",
         "cn": "星期六",
-        "eg": ""
+        "eg": "Friday, Saturday and Sunday in the country!"
       },
       {
         "word": "Sunday",
         "phon": "/ˈsʌndeɪ; ˈsʌndi/",
         "pos": "n.",
         "cn": "星期日",
-        "eg": ""
+        "eg": "Friday, Saturday and Sunday in the country!"
       },
       {
         "word": "country",
         "phon": "/'kʌntrɪ/",
         "pos": "n.",
         "cn": "乡村",
-        "eg": ""
+        "eg": "I want to buy a small house in the country."
       },
       {
         "word": "lucky",
         "phon": "/'lʌkɪ/",
         "pos": "a.",
         "cn": "幸运的",
-        "eg": ""
+        "eg": "Aren't you lucky!"
       },
       {
         "word": "church",
         "phon": "/tʃɜːtʃ/",
         "pos": "n.",
         "cn": "教堂",
-        "eg": ""
+        "eg": "The tree was planted near the church fifty years ago, but it is only in recent years that it has gained an evil reputation."
       },
       {
         "word": "dairy",
         "phon": "/'deri/",
         "pos": "n.",
         "cn": "乳品店",
-        "eg": ""
+        "eg": "Mad Cow Disease (BSE) in cattle, salmonella in chicken and eggs, and listeria in dairy products."
       },
       {
         "word": "baker",
         "phon": "/'beɪkə/",
         "pos": "n.",
         "cn": "面包师傅",
-        "eg": ""
+        "eg": "This is Michael Baker"
       }
     ],
     "grammar": [
@@ -377,49 +377,49 @@
         "phon": "/'grəʊsə/",
         "pos": "n.",
         "cn": "食品杂货商",
-        "eg": ""
+        "eg": "I must go to the grocer's."
       },
       {
         "word": "year",
         "phon": "/jɪə; jɜː/",
         "pos": "n.",
         "cn": "年",
-        "eg": ""
+        "eg": "I saw it on television last year."
       },
       {
         "word": "race",
         "phon": "/reɪs/",
         "pos": "n.",
         "cn": "比赛",
-        "eg": ""
+        "eg": "The car race"
       },
       {
         "word": "town",
         "phon": "/taʊn/",
         "pos": "n.",
         "cn": "城镇",
-        "eg": ""
+        "eg": "There is a car race near our town every year."
       },
       {
         "word": "crowd",
         "phon": "/kraʊd/",
         "pos": "n.",
         "cn": "人群",
-        "eg": ""
+        "eg": "You can see us in the crowd."
       },
       {
         "word": "stand",
         "phon": "/stænd/",
         "pos": "v.",
         "cn": "站立",
-        "eg": ""
+        "eg": "Try and stand up."
       },
       {
         "word": "exciting",
         "phon": "/ɪk'saɪtɪŋ; ek-/",
         "pos": "a.",
         "cn": "使人激动的",
-        "eg": ""
+        "eg": "It was an exciting finish."
       },
       {
         "word": "just",
@@ -433,35 +433,35 @@
         "phon": "/'fɪnɪʃ/",
         "pos": "n.",
         "cn": "结尾，结束",
-        "eg": ""
+        "eg": "It was an exciting finish."
       },
       {
         "word": "winner",
         "phon": "/'wɪnə/",
         "pos": "n.",
         "cn": "获胜者",
-        "eg": ""
+        "eg": "The winner was Billy Stewart."
       },
       {
         "word": "behind",
         "phon": "/bɪ'haɪnd/",
         "pos": "prop.",
         "cn": "在…之后",
-        "eg": ""
+        "eg": "Five other cars were just behind him."
       },
       {
         "word": "way",
         "phon": "/weɪ/",
         "pos": "n.",
         "cn": "路途",
-        "eg": ""
+        "eg": "The way to King Street"
       },
       {
         "word": "awful",
         "phon": "/'ɔːfʊl/",
         "pos": "adv.",
         "cn": "让人讨厌的，坏的",
-        "eg": ""
+        "eg": "It was spring, but the weather was awful."
       }
     ],
     "grammar": [
@@ -541,21 +541,21 @@
         "phon": "/'telɪfəʊn/",
         "pos": "v.",
         "cn": "& n.打电话",
-        "eg": ""
+        "eg": "My boss answered the telephone."
       },
       {
         "word": "time",
         "phon": "/taɪm/",
         "pos": "n.",
         "cn": "次(数)，时间",
-        "eg": ""
+        "eg": "That's a long time."
       },
       {
         "word": "answer",
         "phon": "/'ɑːnsə/",
         "pos": "v.",
         "cn": "接(电话)，回答",
-        "eg": ""
+        "eg": "I could answer sixteen of the questions."
       },
       {
         "word": "last",
@@ -569,21 +569,21 @@
         "phon": "/fəʊn/",
         "pos": "n.",
         "cn": "电话(=telephone)",
-        "eg": ""
+        "eg": "She has lost her phone and can't call us. 她把手机丢了，没法给我们打电话。"
       },
       {
         "word": "again",
         "phon": "/ə'gen; ə'geɪn/",
         "pos": "adv.",
         "cn": "又一次地",
-        "eg": ""
+        "eg": "She wants to travel abroad again soon."
       },
       {
         "word": "say",
         "phon": "/seɪ/",
         "pos": "v.",
         "cn": "说",
-        "eg": ""
+        "eg": "\"Yes, I have already packed it,\" I say."
       },
       {
         "word": "week",
@@ -597,28 +597,28 @@
         "phon": "/ˈlʌndən/",
         "pos": "n.",
         "cn": "伦敦",
-        "eg": ""
+        "eg": "Ian has gone to London. 伊恩去伦敦了（现在不在）。"
       },
       {
         "word": "suddenly",
         "phon": "/ˈsʌdnlɪ/",
         "pos": "adv.",
         "cn": "突然地",
-        "eg": ""
+        "eg": "Suddenly they heard a loud crash."
       },
       {
         "word": "bus stop",
         "phon": "/'bʌstɔp/",
         "pos": "",
         "cn": "公共汽车车站",
-        "eg": ""
+        "eg": "Suddenly, she saw a man near a bus stop."
       },
       {
         "word": "smile",
         "phon": "/smaɪl/",
         "pos": "v.",
         "cn": "微笑",
-        "eg": ""
+        "eg": "\"Yes, I have,\" she said with a smile."
       }
     ],
     "grammar": [
@@ -698,70 +698,70 @@
         "phon": "/'plezntli/",
         "pos": "adv.",
         "cn": "愉快地",
-        "eg": ""
+        "eg": "The man smiled pleasantly."
       },
       {
         "word": "understand",
         "phon": "/ʌndə'stænd/",
         "pos": "v.",
         "cn": "懂，明白",
-        "eg": ""
+        "eg": "He did not understand English!"
       },
       {
         "word": "speak",
         "phon": "/spiːk/",
         "pos": "v.",
         "cn": "讲，说",
-        "eg": ""
+        "eg": "What? Speak up, Penny."
       },
       {
         "word": "hand",
         "phon": "/hænd/",
         "pos": "n.",
         "cn": "手",
-        "eg": ""
+        "eg": "Then he put his hand into his pocket, and took out a phrasebook."
       },
       {
         "word": "pocket",
         "phon": "/'pɒkɪt/",
         "pos": "n.",
         "cn": "衣袋",
-        "eg": ""
+        "eg": "Then he put his hand into his pocket, and took out a phrasebook."
       },
       {
         "word": "phrasebook",
         "phon": "",
         "pos": "n.",
         "cn": "短语手册， 常用语手册",
-        "eg": ""
+        "eg": "Then he put his hand into his pocket, and took out a phrasebook."
       },
       {
         "word": "phrase",
         "phon": "/freɪz/",
         "pos": "n.",
         "cn": "短语",
-        "eg": ""
+        "eg": "He opened the book and found a phrase."
       },
       {
         "word": "slowly",
         "phon": "/'sləʊlɪ/",
         "pos": "adv.",
         "cn": "缓慢地",
-        "eg": ""
+        "eg": "He read the phrase slowly."
       },
       {
         "word": "hurriedly",
         "phon": "/'hʌridli/",
         "pos": "adv.",
         "cn": "匆忙地",
-        "eg": ""
+        "eg": "He led me into his room and hurriedly hid a large parcel under his desk."
       },
       {
         "word": "cut",
         "phon": "/kʌt/",
         "pos": "v.",
         "cn": "割，切",
-        "eg": ""
+        "eg": "Why does the vicar refuse to cut down the tree?"
       },
       {
         "word": "thirstily",
@@ -775,14 +775,14 @@
         "phon": "/gəʊ/",
         "pos": "v.",
         "cn": "走",
-        "eg": ""
+        "eg": "Let's go and have a drink."
       },
       {
         "word": "greet",
         "phon": "/griːt/",
         "pos": "v.",
         "cn": "问候，找招呼",
-        "eg": ""
+        "eg": "When he landed near Dover, the first person to greet him was a local policeman."
       }
     ],
     "grammar": [
@@ -862,84 +862,84 @@
         "phon": "/ə'gəʊ/",
         "pos": "adv.",
         "cn": "以前",
-        "eg": ""
+        "eg": "He flew to Spain a week ago."
       },
       {
         "word": "buy",
         "phon": "/baɪ/",
         "pos": "v.",
         "cn": "买",
-        "eg": ""
+        "eg": "\"I will buy another one on the platform,\" the man said."
       },
       {
         "word": "pair",
         "phon": "/peə/",
         "pos": "n.",
         "cn": "双，对",
-        "eg": ""
+        "eg": "But my sister bought this pair last month."
       },
       {
         "word": "fashion",
         "phon": "/'fæʃ(ə)n/",
         "pos": "n.",
         "cn": "(服装的)流行式样",
-        "eg": ""
+        "eg": "Short skirts are in fashion now."
       },
       {
         "word": "uncomfortable",
         "phon": "/ʌn'kʌmf(ə)təb(ə)l/",
         "pos": "a.",
         "cn": "不舒服的",
-        "eg": ""
+        "eg": "Uncomfortable shoes"
       },
       {
         "word": "wear",
         "phon": "/weə/",
         "pos": "v.",
         "cn": "穿着",
-        "eg": ""
+        "eg": "\"I tried it on at home yesterday, and I couldn't wear it.\""
       },
       {
         "word": "appointment",
         "phon": "/ə'pɔɪntmənt/",
         "pos": "n.",
         "cn": "约会，预约",
-        "eg": ""
+        "eg": "Do you have an appointment?"
       },
       {
         "word": "urgent",
         "phon": "/'ɜːrdʒənt/",
         "pos": "a.",
         "cn": "紧急的，急迫的",
-        "eg": ""
+        "eg": "Is it urgent?"
       },
       {
         "word": "till",
         "phon": "/tɪl/",
         "pos": "prep.",
         "cn": "直到…为",
-        "eg": ""
+        "eg": "Can't you wait till this afternoon?"
       },
       {
         "word": "shopping",
         "phon": "/'ʃɒpɪŋ/",
         "pos": "n.",
         "cn": "购物",
-        "eg": ""
+        "eg": "Carol's shopping list"
       },
       {
         "word": "list",
         "phon": "/lɪst/",
         "pos": "n.",
         "cn": "单子",
-        "eg": ""
+        "eg": "Carol's shopping list"
       },
       {
         "word": "vegetable",
         "phon": "/ˈvedʒtəbl/",
         "pos": "n.",
         "cn": "蔬菜",
-        "eg": ""
+        "eg": "What about vegetables?"
       }
     ],
     "grammar": [
@@ -1019,28 +1019,28 @@
         "phon": "/niːd/",
         "pos": "v.",
         "cn": "需要",
-        "eg": ""
+        "eg": "I'm sure that you need an X-ray, Andy."
       },
       {
         "word": "hope",
         "phon": "/həʊp/",
         "pos": "v.",
         "cn": "希望",
-        "eg": ""
+        "eg": "I hope you are all well.'"
       },
       {
         "word": "thing",
         "phon": "/θɪŋ/",
         "pos": "n.",
         "cn": "事情",
-        "eg": ""
+        "eg": "Millionaires don't buy things on instalments!"
       },
       {
         "word": "money",
         "phon": "/'mʌnɪ/",
         "pos": "n.",
         "cn": "钱",
-        "eg": ""
+        "eg": "That's a lot of money!"
       },
       {
         "word": "groceries",
@@ -1054,7 +1054,7 @@
         "phon": "/fruːt/",
         "pos": "n.",
         "cn": "水果",
-        "eg": ""
+        "eg": "Ripe fruit falls from the trees and you never have to work."
       },
       {
         "word": "stationery",
@@ -1082,28 +1082,28 @@
         "phon": "/bɑːθ/",
         "pos": "n.",
         "cn": "洗澡",
-        "eg": ""
+        "eg": "He's having a bath."
       },
       {
         "word": "nearly",
         "phon": "/'nɪəlɪ/",
         "pos": "adv.",
         "cn": "几乎，将近",
-        "eg": ""
+        "eg": "and he has already been to nearly every country in the world."
       },
       {
         "word": "ready",
         "phon": "/'redɪ/",
         "pos": "a.",
         "cn": "准备好的，完好的",
-        "eg": ""
+        "eg": "Is my car ready yet?"
       },
       {
         "word": "dinner",
         "phon": "/'dɪnə/",
         "pos": "n.",
         "cn": "正餐，晚餐",
-        "eg": ""
+        "eg": "We can have dinner at seven o'clock."
       }
     ],
     "grammar": [
