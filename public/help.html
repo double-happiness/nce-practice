@@ -56,8 +56,9 @@
 
     <h2>1. 快速开始</h2>
     <pre>npm install    # 首次需联网
+git lfs install &amp;&amp; git lfs pull   # 从 Git 克隆后拉原声 MP3
 npm start      # 打开 http://localhost:3737</pre>
-    <p>学习记录在本机 <code>data/</code>，无需账号。服务启动后<strong>断网仍可使用</strong>（不依赖云端）。</p>
+    <p>学习记录在本机 <code>data/</code>，无需账号。服务启动后<strong>断网仍可使用</strong>（原声/真人发音本地内置）。</p>
 
     <h2>2. 界面四组标签</h2>
     <table>
@@ -72,12 +73,12 @@ npm start      # 打开 http://localhost:3737</pre>
     <h2>3. 功能地图</h2>
     <table>
       <tr><th>功能</th><th>做什么</th></tr>
-      <tr><td>📖 教材学习</td><td>单词、语法、<strong>🎧 原声课文</strong> / 精读；可练本课、听写、背单词</td></tr>
+      <tr><td>📖 教材学习</td><td>单词、语法、<strong>🎧 原声课文</strong> / 精读；可练本课语法、<strong>🔀 练本课句型</strong>、听写、背单词；语法区可点剑桥单元</td></tr>
       <tr><td>📕 查词典</td><td>检索教材+全局词库；展开看搭配、句型、例句</td></tr>
       <tr><td>✏️ 刷题</td><td>按册/课/语法筛选；单选+填空；错题自动收录</td></tr>
       <tr><td>🎧 听写</td><td>听音打句，逐词批改，记最好成绩</td></tr>
-      <tr><td>🔀 句型转换</td><td>中译英→改疑问/否定/特殊疑问；错步进复习</td></tr>
-      <tr><td>💬 情景对话</td><td>生活/学术场景角色扮演；含学术英语 8 环链</td></tr>
+      <tr><td>🔀 句型转换</td><td>中译英→改疑问/否定/特殊疑问；可按<strong>语法点</strong>、<strong>步骤类型</strong>或<strong>剑桥单元</strong>专练；教材页可练本课句型；错步进复习</td></tr>
+      <tr><td>💬 情景对话</td><td>左侧 <strong>8 大类 → 73 场景</strong> 二级目录；1202 组角色扮演（含 64 条多环对话链）</td></tr>
       <tr><td>📝 阶段测验</td><td>选课区间限时组卷；第四册可一键分段/全书模考</td></tr>
       <tr><td>🔁 间隔复习</td><td>错题按遗忘曲线到期重现</td></tr>
       <tr><td>🔤 背单词</td><td>卡片自评 + 默写；词表 ☆ 生词本</td></tr>
@@ -108,7 +109,15 @@ npm start      # 打开 http://localhost:3737</pre>
       276 课原声已内置，离线可用。顶栏语速只影响 TTS。
     </div>
 
-    <h2>6. 常用技巧</h2>
+    <h2>6. 💬 情景对话怎么用</h2>
+    <p>进入 <strong>💬 情景对话</strong> 后，左侧为两层目录：</p>
+    <ol>
+      <li><strong>大类</strong>（8 个）— 居家社交、餐饮购物、出行旅游、职场学习、住房物业、健康运动、生活服务、休闲文娱</li>
+      <li><strong>具体场景</strong>（73 类）— 如打电话、超市、机场、IT 工作等</li>
+    </ol>
+    <p>点击大类名展开/收起，再点场景，右侧挑选对话练习。搜索框可搜大类或场景名。</p>
+
+    <h2>7. 常用技巧</h2>
     <ul>
       <li>课文单词点 <strong>📕</strong> 查词典；选中英文短语也可查词</li>
       <li>词典内按 <code>/</code> 快速聚焦搜索框</li>
@@ -117,7 +126,7 @@ npm start      # 打开 http://localhost:3737</pre>
       <li>定期 <strong>💾 数据备份</strong> 导出 JSON</li>
     </ul>
 
-    <h2>7. 内容覆盖</h2>
+    <h2>8. 内容覆盖</h2>
     <table>
       <tr><th>册</th><th>教材</th><th>题库</th><th>句型转换</th></tr>
       <tr><td>第 1 册</td><td>72 课 ✓</td><td>✓</td><td>✓</td></tr>
@@ -126,10 +135,10 @@ npm start      # 打开 http://localhost:3737</pre>
       <tr><td>第 4 册</td><td>48 课 ✓</td><td>✓</td><td>✓</td></tr>
     </table>
 
-    <p>💬 情景对话：<strong>73</strong> 类场景、<strong>1202</strong> 组角色扮演（含 <strong>64</strong> 条多环对话链）。</p>
+    <p>💬 情景对话：左侧 <strong>8 大类</strong> 二级目录 · <strong>73</strong> 类场景 · <strong>1202</strong> 组 · <strong>64</strong> 条对话链。</p>
     <p>🎧 原声课文：276 课英音 MP3（1–4 册），详见 <code>docs/原声与发音.md</code>。</p>
 
-    <h2>8. 常见问题</h2>
+    <h2>9. 常见问题</h2>
     <dl class="help-faq">
       <dt>打不开页面？</dt>
       <dd>确认终端已运行 <code>npm start</code>，访问 <code>http://localhost:3737</code>。</dd>
@@ -137,6 +146,8 @@ npm start      # 打开 http://localhost:3737</pre>
       <dd>检查音量。课文句优先原声 MP3；单词用真人库或 TTS。TTS 需已安装英文语音。</dd>
       <dt>为什么是机器声不是原声？</dt>
       <dd>内容与 LRC 课文句不一致时会用 TTS；单独点单词通常播词发音。</dd>
+      <dt>情景对话左侧是空的？</dt>
+      <dd>硬刷新（Cmd+Shift+R）；确认 <code>npm start</code> 已重启。正常应显示 8 个大类及其下场景。</dd>
       <dt>克隆后原声播不了？</dt>
       <dd>需安装 Git LFS 并执行 <code>git lfs pull</code>，见 <code>docs/原声与发音.md</code>。</dd>
       <dt>两台设备怎么同步？</dt>
