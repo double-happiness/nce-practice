@@ -1,0 +1,192 @@
+[
+  {
+    "id": "b3-001",
+    "book": 3,
+    "lesson": 3,
+    "lessonTitle": "An unknown goddess",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "The thief ___ the shop last night and stole the money.",
+    "options": [
+      "broke into",
+      "broke",
+      "broke down",
+      "broke up"
+    ],
+    "answer": "broke into",
+    "explanation": "break into 表示“闯入、破门而入”。"
+  },
+  {
+    "id": "b3-002",
+    "book": 3,
+    "lesson": 10,
+    "lessonTitle": "The loss of the Titanic",
+    "grammar": [
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Not only ___ late, but he also forgot the tickets.",
+    "options": [
+      "was he",
+      "he was",
+      "did he",
+      "he did"
+    ],
+    "answer": "was he",
+    "explanation": "否定词 Not only 置于句首，句子部分倒装，助/系动词提前。"
+  },
+  {
+    "id": "b3-003",
+    "book": 3,
+    "lesson": 15,
+    "lessonTitle": "Fifty pence worth of trouble",
+    "grammar": [
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "I wish I ___ how to drive a car.",
+    "options": [
+      "knew",
+      "know",
+      "known",
+      "knows"
+    ],
+    "answer": "knew",
+    "explanation": "wish 后与现在事实相反用一般过去时表虚拟。"
+  },
+  {
+    "id": "b3-004",
+    "book": 3,
+    "lesson": 20,
+    "lessonTitle": "Pioneer pilots",
+    "grammar": [
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "___ tired, he went to bed early.",
+    "options": [
+      "Feeling",
+      "Felt",
+      "Feel",
+      "To feel"
+    ],
+    "answer": "Feeling",
+    "explanation": "现在分词作状语，逻辑主语 he 主动“感到”，用 -ing 形式。"
+  },
+  {
+    "id": "b3-005",
+    "book": 3,
+    "lesson": 25,
+    "lessonTitle": "The Cutty Sark",
+    "grammar": [
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "London, ___ is the capital of England, is a big city.",
+    "options": [
+      "which",
+      "that",
+      "where",
+      "who"
+    ],
+    "answer": "which",
+    "explanation": "非限制性定语从句指物用 which，不能用 that。"
+  },
+  {
+    "id": "b3-006",
+    "book": 3,
+    "lesson": 30,
+    "lessonTitle": "The death of a ghost",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "The new medicine had a good ___ on the patient.",
+    "options": [
+      "effect",
+      "affect",
+      "effort",
+      "affair"
+    ],
+    "answer": "effect",
+    "explanation": "effect 是名词“效果、影响”；affect 是动词。"
+  },
+  {
+    "id": "b3-007",
+    "book": 3,
+    "lesson": 35,
+    "lessonTitle": "Justice was done",
+    "grammar": [
+      "状语从句"
+    ],
+    "type": "mcq",
+    "stem": "___ he was very tired, he continued working.",
+    "options": [
+      "Although",
+      "Despite",
+      "However",
+      "But"
+    ],
+    "answer": "Although",
+    "explanation": "Although 引导让步状语从句，后接句子；Despite 后接名词。"
+  },
+  {
+    "id": "b3-008",
+    "book": 3,
+    "lesson": 40,
+    "lessonTitle": "Who's who",
+    "grammar": [
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "It was in Paris ___ I first met her.",
+    "options": [
+      "that",
+      "which",
+      "where",
+      "when"
+    ],
+    "answer": "that",
+    "explanation": "强调句型 It is/was + 强调部分 + that...，强调地点状语也用 that。"
+  },
+  {
+    "id": "b3-009",
+    "book": 3,
+    "lesson": 45,
+    "lessonTitle": "A clear conscience",
+    "grammar": [
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Prices continue to ___ every year.",
+    "options": [
+      "rise",
+      "raise",
+      "arise",
+      "rouse"
+    ],
+    "answer": "rise",
+    "explanation": "rise 是不及物动词“上升”；raise 是及物动词，后需宾语。"
+  },
+  {
+    "id": "b3-010",
+    "book": 3,
+    "lesson": 50,
+    "lessonTitle": "New Year resolutions",
+    "grammar": [
+      "时态"
+    ],
+    "type": "mcq",
+    "stem": "By the time you arrive, I ___ everything.",
+    "options": [
+      "will have finished",
+      "finish",
+      "finished",
+      "have finished"
+    ],
+    "answer": "will have finished",
+    "explanation": "By the time + 将来动作，主句用将来完成时 will have + 过去分词。"
+  }
+]

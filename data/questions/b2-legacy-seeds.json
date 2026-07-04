@@ -1,0 +1,354 @@
+[
+  {
+    "id": "b2-001",
+    "book": 2,
+    "lesson": 5,
+    "lessonTitle": "No wrong numbers",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "I ___ my keys. I can't find them now.",
+    "options": [
+      "have lost",
+      "lost",
+      "lose",
+      "had lost"
+    ],
+    "answer": "have lost",
+    "explanation": "过去丢钥匙对现在造成影响（现在找不到），用现在完成时。"
+  },
+  {
+    "id": "b2-002",
+    "book": 2,
+    "lesson": 12,
+    "lessonTitle": "Goodbye and good luck",
+    "grammar": [
+      "过去完成时"
+    ],
+    "type": "mcq",
+    "stem": "When I arrived at the station, the train ___ already left.",
+    "options": [
+      "had",
+      "has",
+      "have",
+      "was"
+    ],
+    "answer": "had",
+    "explanation": "“过去的过去”用过去完成时 had + 过去分词。"
+  },
+  {
+    "id": "b2-003",
+    "book": 2,
+    "lesson": 8,
+    "lessonTitle": "The best and the worst",
+    "grammar": [
+      "used to"
+    ],
+    "type": "mcq",
+    "stem": "He ___ smoke, but he stopped last year.",
+    "options": [
+      "used to",
+      "use to",
+      "is used to",
+      "used"
+    ],
+    "answer": "used to",
+    "explanation": "used to do 表示过去常常做而现在不再做。"
+  },
+  {
+    "id": "b2-004",
+    "book": 2,
+    "lesson": 20,
+    "lessonTitle": "One man in a boat",
+    "grammar": [
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "This house ___ in 1990.",
+    "options": [
+      "was built",
+      "built",
+      "is build",
+      "has built"
+    ],
+    "answer": "was built",
+    "explanation": "房子是被建造的，过去时间用一般过去时被动语态 was + 过去分词。"
+  },
+  {
+    "id": "b2-006",
+    "book": 2,
+    "lesson": 25,
+    "lessonTitle": "Do the English speak English?",
+    "grammar": [
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The man ___ lives next door is a doctor.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "先行词 the man 指人且在从句作主语，用 who。"
+  },
+  {
+    "id": "b2-007",
+    "book": 2,
+    "lesson": 25,
+    "lessonTitle": "Do the English speak English?",
+    "grammar": [
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The book ___ I bought yesterday is interesting.",
+    "options": [
+      "which",
+      "who",
+      "whose",
+      "where"
+    ],
+    "answer": "which",
+    "explanation": "先行词 the book 指物且在从句作宾语，用 which（也可用 that）。"
+  },
+  {
+    "id": "b2-008",
+    "book": 2,
+    "lesson": 30,
+    "lessonTitle": "Football or polo?",
+    "grammar": [
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "This is the house ___ I was born.",
+    "options": [
+      "where",
+      "which",
+      "that",
+      "who"
+    ],
+    "answer": "where",
+    "explanation": "先行词是地点且从句缺状语，用关系副词 where。"
+  },
+  {
+    "id": "b2-009",
+    "book": 2,
+    "lesson": 35,
+    "lessonTitle": "Stop thief!",
+    "grammar": [
+      "间接引语"
+    ],
+    "type": "mcq",
+    "stem": "He said that he ___ tired.",
+    "options": [
+      "was",
+      "is",
+      "be",
+      "were"
+    ],
+    "answer": "was",
+    "explanation": "间接引语中主句为过去时，从句时态相应后移，is → was。"
+  },
+  {
+    "id": "b2-010",
+    "book": 2,
+    "lesson": 35,
+    "lessonTitle": "Stop thief!",
+    "grammar": [
+      "间接引语"
+    ],
+    "type": "mcq",
+    "stem": "She asked me where I ___.",
+    "options": [
+      "lived",
+      "live",
+      "do live",
+      "living"
+    ],
+    "answer": "lived",
+    "explanation": "间接引语的宾语从句用陈述语序，且时态后移 live → lived。"
+  },
+  {
+    "id": "b2-011",
+    "book": 2,
+    "lesson": 40,
+    "lessonTitle": "Food and talk",
+    "grammar": [
+      "条件句"
+    ],
+    "type": "mcq",
+    "stem": "If it ___ tomorrow, we'll stay at home.",
+    "options": [
+      "rains",
+      "will rain",
+      "rained",
+      "rain"
+    ],
+    "answer": "rains",
+    "explanation": "真实条件句主将从现：从句用一般现在时 rains，主句用 will。"
+  },
+  {
+    "id": "b2-012",
+    "book": 2,
+    "lesson": 45,
+    "lessonTitle": "A clear conscience",
+    "grammar": [
+      "条件句",
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "If I ___ rich, I would travel around the world.",
+    "options": [
+      "were",
+      "am",
+      "was",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "与现在事实相反的虚拟语气，be 动词一律用 were。"
+  },
+  {
+    "id": "b2-013",
+    "book": 2,
+    "lesson": 50,
+    "lessonTitle": "Taken for a ride",
+    "grammar": [
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "The lights are on, so he ___ be at home.",
+    "options": [
+      "must",
+      "can't",
+      "needn't",
+      "shouldn't"
+    ],
+    "answer": "must",
+    "explanation": "must 表示有把握的肯定推测“一定”。"
+  },
+  {
+    "id": "b2-014",
+    "book": 2,
+    "lesson": 50,
+    "lessonTitle": "Taken for a ride",
+    "grammar": [
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "She has just eaten, so she ___ be hungry.",
+    "options": [
+      "can't",
+      "must",
+      "should",
+      "may"
+    ],
+    "answer": "can't",
+    "explanation": "can't 表示有把握的否定推测“不可能”。"
+  },
+  {
+    "id": "b2-015",
+    "book": 2,
+    "lesson": 15,
+    "lessonTitle": "Good news",
+    "grammar": [
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "I enjoy ___ football at weekends.",
+    "options": [
+      "playing",
+      "to play",
+      "play",
+      "played"
+    ],
+    "answer": "playing",
+    "explanation": "enjoy 后接动名词 doing。"
+  },
+  {
+    "id": "b2-016",
+    "book": 2,
+    "lesson": 15,
+    "lessonTitle": "Good news",
+    "grammar": [
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "He decided ___ abroad next year.",
+    "options": [
+      "to go",
+      "going",
+      "go",
+      "went"
+    ],
+    "answer": "to go",
+    "explanation": "decide 后接动词不定式 to do。"
+  },
+  {
+    "id": "b2-017",
+    "book": 2,
+    "lesson": 55,
+    "lessonTitle": "Not a gold mine",
+    "grammar": [
+      "现在完成进行时"
+    ],
+    "type": "mcq",
+    "stem": "I ___ for you for two hours!",
+    "options": [
+      "have been waiting",
+      "wait",
+      "waited",
+      "am waiting"
+    ],
+    "answer": "have been waiting",
+    "explanation": "强调动作从过去持续到现在并可能继续，用现在完成进行时 have been doing。"
+  },
+  {
+    "id": "b2-018",
+    "book": 2,
+    "lesson": 18,
+    "lessonTitle": "He often does this!",
+    "grammar": [
+      "反义疑问句"
+    ],
+    "type": "mcq",
+    "stem": "You are a student, ___?",
+    "options": [
+      "aren't you",
+      "are you",
+      "isn't it",
+      "don't you"
+    ],
+    "answer": "aren't you",
+    "explanation": "前肯定后否定；陈述句用 are，反义疑问用 aren't you。"
+  },
+  {
+    "id": "b2-f01",
+    "book": 2,
+    "lesson": 5,
+    "lessonTitle": "No wrong numbers",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "fill",
+    "stem": "I have ___ (see) that film already.",
+    "answer": "seen",
+    "explanation": "see 的过去分词是 seen。"
+  },
+  {
+    "id": "b2-f02",
+    "book": 2,
+    "lesson": 20,
+    "lessonTitle": "One man in a boat",
+    "grammar": [
+      "被动语态"
+    ],
+    "type": "fill",
+    "stem": "The letter ___ (write) by Tom yesterday.",
+    "answer": [
+      "was written"
+    ],
+    "explanation": "过去被动语态：was + 过去分词 written。"
+  }
+]
