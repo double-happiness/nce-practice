@@ -10,6 +10,7 @@ const state = {
   learnLessons: [], // 当前册的课程目录（供翻页）
   lessonStats: {}, // 每课练习正确率（key: "book-lesson"，来自 /api/stats/lesson）
   vocabStars: new Set(), // 生词本已收藏的单词
+  speakContext: null, // { book, lesson } 听写等无 currentLesson 时的朗读上下文
 };
 
 const $ = (id) => document.getElementById(id);
@@ -44,18 +45,34 @@ function apiErrorToast(msg) {
   toast(msg, 'bad');
 }
 
-// ---------- 语音朗读（浏览器内置 TTS，优先英音）----------
+// ---------- 语音朗读（浏览器内置 TTS，优先英音 + 本地语音，离线可用）----------
 let VOICE = null;
+let TTS_CLOUD_ONLY = false; // 当前选中的是否为需联网的云端语音
+let ttsWarnedOffline = false;
 // macOS/部分系统的“趣味语音”会发出音乐/机器噪音而非清晰人声，且常被标成 en_US 排在前面，
 // 若无 en-GB 就绪时退回 /^en/ 很容易误选它们（用户听到“声音不对、有噪音”）。这里显式排除。
 const NOVELTY_VOICE = /Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Jester|Organ|Superstar|Trinoids|Wobble|Zarvox|Hysterical|Whisper|Pipe Organ|Albert|Fred/i;
+
+function voicePool(all) {
+  const usable = all.filter((v) => !NOVELTY_VOICE.test(v.name));
+  return usable.length ? usable : all;
+}
+
+// 优先 localService===true 的本地语音；离线时跳过明确需联网的云端语音
+function preferOfflineCapable(list) {
+  if (!list.length) return list;
+  const local = list.filter((v) => v.localService === true);
+  const unknown = list.filter((v) => v.localService !== true && v.localService !== false);
+  const cloud = list.filter((v) => v.localService === false);
+  if (!navigator.onLine) return local.length ? local : unknown;
+  return local.length ? local : (unknown.length ? unknown : cloud);
+}
+
 function pickVoice() {
   if (!window.speechSynthesis) return;
   const all = speechSynthesis.getVoices();
   if (!all.length) return; // 语音尚未加载，onvoiceschanged 会再次触发
-  // 排除趣味语音；若过滤后为空（极少数系统只有趣味语音）再退回全量，保证有声可读
-  const usable = all.filter((v) => !NOVELTY_VOICE.test(v.name));
-  const pool = usable.length ? usable : all;
+  const pool = preferOfflineCapable(voicePool(all));
   const byLang = (re) => pool.filter((v) => re.test(v.lang));
   // 每个语言档里优先挑公认高质量的英音/美音（Daniel/Serena/Kate/Samantha…）或标注 enhanced/premium 的
   const best = (list) =>
@@ -64,10 +81,46 @@ function pickVoice() {
   const us = byLang(/en[-_]US/i);
   const en = byLang(/^en/i);
   VOICE = (gb.length && best(gb)) || (us.length && best(us)) || (en.length && best(en)) || null;
+  TTS_CLOUD_ONLY = !!(VOICE && VOICE.localService === false);
 }
+
+function ensureVoice() {
+  if (!window.speechSynthesis) return null;
+  if (!VOICE) pickVoice();
+  if (!VOICE) speechSynthesis.getVoices(); // 部分浏览器需再次触发才能加载语音列表
+  return VOICE;
+}
+
+function makeUtterance(text, rateMul) {
+  ensureVoice();
+  const u = new SpeechSynthesisUtterance(text);
+  if (VOICE) {
+    u.voice = VOICE;
+    u.lang = VOICE.lang || 'en-GB';
+  } else {
+    u.lang = 'en-GB';
+  }
+  u.rate = TTS_RATE * (rateMul != null ? rateMul : 1);
+  u.onerror = function (ev) {
+    if (!ev || ev.error === 'interrupted' || ev.error === 'canceled') return;
+    if (!navigator.onLine || TTS_CLOUD_ONLY) {
+      if (!ttsWarnedOffline) {
+        ttsWarnedOffline = true;
+        toast('朗读失败：当前无可用本地语音。请联网后重试，或在系统设置中安装英文语音包。', 'warn');
+      }
+    }
+  };
+  return u;
+}
+
 if (window.speechSynthesis) {
   pickVoice();
   speechSynthesis.onvoiceschanged = pickVoice;
+  window.addEventListener('online', function () {
+    ttsWarnedOffline = false;
+    pickVoice();
+  });
+  window.addEventListener('offline', pickVoice);
 }
 // 只保留英文部分再朗读：去掉中文、全角标点，以及 emoji/符号（否则 TTS 会读出杂音）
 function enOnly(s) {
@@ -82,43 +135,271 @@ function enOnly(s) {
 // 全局语速（顶栏可调，localStorage 记忆），听写/慢速跟读都靠它
 let TTS_RATE = 0.9;
 try { TTS_RATE = Number(localStorage.getItem('nce-tts-rate')) || 0.9; } catch (e) {}
+function asAnswerList(answers) {
+  if (answers == null || answers === '') return [];
+  const list = Array.isArray(answers) ? answers : [answers];
+  return list.filter((a) => a != null && String(a).trim());
+}
+
+function firstAnswer(answers) {
+  const list = asAnswerList(answers);
+  return list.length ? list[0] : '';
+}
+
+// 多个可接受答案时，每个答案后各跟一个 🔊
+function formatAnswersWithSpeak(answers, opts) {
+  const list = asAnswerList(answers);
+  if (!list.length) return '';
+  const o = opts || {};
+  const wrap = o.wrapPassage ? wrapPassageWords : escapeHtml;
+  const sep = o.sep != null ? o.sep : ' <span style="color:#94a3b8">/</span> ';
+  const btnClass = o.btnClass || '';
+  const btnStyle = o.btnStyle || 'padding:2px 8px;font-size:13px';
+  return list.map((a) => {
+    const cls = btnClass ? ` class="${btnClass}"` : '';
+    return `${wrap(a)} <button${cls} style="${btnStyle}" data-speak="${escapeAttr(a)}" title="朗读">🔊</button>`;
+  }).join(sep);
+}
+
+function bindSpeakClicks(root) {
+  if (!root) return;
+  root.querySelectorAll('button[data-speak]').forEach((btn) => {
+    btn.onclick = () => speak(btn.dataset.speak);
+  });
+}
+
+// ---------- 真人发音库（Wikimedia Commons，本地缓存）----------
+let PRONUNC_INDEX = null;
+let humanAudio = null;
+
+// ---------- 原声课文片段（LRC 时间轴，优先于真人单词/TTS）----------
+let OFFICIAL_SEGMENTS = null;
+let officialSegmentAudio = null;
+
+function normSpeakLine(s) {
+  return String(s || '')
+    .toLowerCase()
+    .replace(/[‘’ʼ]/g, "'")
+    .replace(/[一-鿿]/g, ' ')
+    .replace(/[^a-z0-9'\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function speakContextLesson() {
+  if (state.currentOfficialPassage && state.currentOfficialPassage.book != null) {
+    return { book: state.currentOfficialPassage.book, lesson: state.currentOfficialPassage.lesson };
+  }
+  if (state.currentLesson) {
+    return { book: state.currentLesson.book, lesson: state.currentLesson.lesson };
+  }
+  if (state.speakContext) return state.speakContext;
+  return null;
+}
+
+function segmentsFromPassage(p) {
+  const segs = [];
+  const lines = p.lines || [];
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const next = lines[i + 1];
+    const n = normSpeakLine(line.en);
+    if (!n) continue;
+    segs.push({ n, audio: p.audio, start: line.t, end: next ? next.t : line.t + 5 });
+  }
+  return segs;
+}
+
+function lookupOfficialSegment(text) {
+  const ctx = speakContextLesson();
+  if (!ctx) return null;
+  const n = normSpeakLine(enOnly(firstAnswer(text) || text));
+  if (!n) return null;
+
+  let segs = null;
+  const p = state.currentOfficialPassage;
+  if (p && p.book === ctx.book && p.lesson === ctx.lesson && p.lines && p.lines.length) {
+    segs = segmentsFromPassage(p);
+  } else if (OFFICIAL_SEGMENTS) {
+    segs = OFFICIAL_SEGMENTS[`${ctx.book}-${ctx.lesson}`];
+  }
+  if (!segs || !segs.length) return null;
+
+  let hit = segs.find((s) => s.n === n);
+  if (hit) return hit;
+  hit = segs.find((s) => n.startsWith(s.n) || s.n.startsWith(n));
+  return hit || null;
+}
+
+function stopOfficialSegmentAudio() {
+  if (officialSegmentAudio) {
+    officialSegmentAudio.pause();
+    officialSegmentAudio.onended = null;
+    officialSegmentAudio.ontimeupdate = null;
+    officialSegmentAudio = null;
+  }
+}
+
+function stopAllSpeakAudio() {
+  stopHumanAudio();
+  stopOfficialAudio();
+  if (window.speechSynthesis) speechSynthesis.cancel();
+}
+
+function pronuncSlugClient(text) {
+  return String(text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s'-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function pronuncLookupKeys(text) {
+  const raw = String(text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9\s'-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!raw) return [];
+  const slug = pronuncSlugClient(raw);
+  const keys = [slug, raw];
+  if (raw.includes(' ')) keys.push(raw.replace(/\s+/g, ''));
+  return [...new Set(keys.filter(Boolean))];
+}
+
+function isPronuncLookupCandidate(text) {
+  const t = String(text || '').trim();
+  if (!t) return false;
+  return t.split(/\s+/).filter(Boolean).length <= 4 && t.length <= 48;
+}
+
+function lookupHumanPronunc(text) {
+  if (!PRONUNC_INDEX || !isPronuncLookupCandidate(text)) return null;
+  for (const k of pronuncLookupKeys(text)) {
+    const e = PRONUNC_INDEX[k];
+    if (e && e.file) return e;
+  }
+  return null;
+}
+
+function stopHumanAudio() {
+  if (humanAudio) {
+    humanAudio.pause();
+    humanAudio.currentTime = 0;
+    humanAudio = null;
+  }
+}
+
+function trySpeakHuman(text) {
+  const entry = lookupHumanPronunc(text);
+  if (!entry) return false;
+  stopAllSpeakAudio();
+  const a = new Audio(entry.file);
+  humanAudio = a;
+  a.onended = function () { if (humanAudio === a) humanAudio = null; };
+  a.onerror = function () { if (humanAudio === a) humanAudio = null; };
+  a.play().catch(function () {
+    if (humanAudio === a) humanAudio = null;
+  });
+  return true;
+}
+
+function trySpeakOfficial(text) {
+  const seg = lookupOfficialSegment(text);
+  if (!seg) return false;
+  stopAllSpeakAudio();
+  const a = new Audio(seg.audio);
+  officialSegmentAudio = a;
+  const endAt = seg.end > seg.start ? seg.end : seg.start + 5;
+  const maxMs = Math.max(400, (endAt - seg.start) * 1000 + 250);
+  let stopTimer = null;
+
+  function cleanup() {
+    if (stopTimer) clearTimeout(stopTimer);
+    if (officialSegmentAudio === a) officialSegmentAudio = null;
+    a.onended = null;
+    a.ontimeupdate = null;
+  }
+
+  a.currentTime = seg.start;
+  a.ontimeupdate = function () {
+    if (a.currentTime >= endAt - 0.05) {
+      a.pause();
+      cleanup();
+    }
+  };
+  a.onended = cleanup;
+  a.onerror = cleanup;
+  stopTimer = setTimeout(function () {
+    if (officialSegmentAudio === a) {
+      a.pause();
+      cleanup();
+    }
+  }, maxMs);
+  a.play().catch(cleanup);
+  return true;
+}
+
+async function loadPronuncIndex() {
+  try {
+    const r = await fetch('/audio/pronunc-index.json');
+    if (!r.ok) return;
+    const j = await r.json();
+    PRONUNC_INDEX = {};
+    for (const k of Object.keys(j)) {
+      if (k.startsWith('_')) continue;
+      PRONUNC_INDEX[k] = j[k];
+    }
+  } catch (e) {
+    PRONUNC_INDEX = {};
+  }
+}
+
+async function loadOfficialSegments() {
+  try {
+    const r = await fetch('/audio/official-segments.json');
+    if (!r.ok) return;
+    OFFICIAL_SEGMENTS = await r.json();
+  } catch (e) {
+    OFFICIAL_SEGMENTS = {};
+  }
+}
+
 function speak(text) {
+  const t = enOnly(firstAnswer(text) || text);
+  if (!t) return;
+  if (trySpeakOfficial(t)) return;
+  if (trySpeakHuman(t)) return;
   if (!window.speechSynthesis) {
     toast('当前浏览器不支持语音朗读，建议使用 Chrome / Edge / Safari。', 'bad');
     return;
   }
-  const t = enOnly(text);
-  if (!t) return;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(t);
-  u.lang = 'en-GB';
-  if (VOICE) u.voice = VOICE;
-  u.rate = TTS_RATE;
-  speechSynthesis.speak(u);
+  stopAllSpeakAudio();
+  // Chrome 有时在 cancel 后 pending 队列会卡住，resume 可恢复
+  try { speechSynthesis.resume(); } catch (e) {}
+  speechSynthesis.speak(makeUtterance(t));
 }
 // 依次朗读一组词（用于“全部单词连读”）
 function speakSequence(list) {
+  stopAllSpeakAudio();
   if (!window.speechSynthesis) return;
-  speechSynthesis.cancel();
+  try { speechSynthesis.resume(); } catch (e) {}
   list.map(enOnly).filter(Boolean).forEach((t) => {
-    const u = new SpeechSynthesisUtterance(t);
-    u.lang = 'en-GB';
-    if (VOICE) u.voice = VOICE;
-    u.rate = TTS_RATE * 0.95;
-    speechSynthesis.speak(u);
+    speechSynthesis.speak(makeUtterance(t, 0.95));
   });
 }
 // 顺序连读多句并在读完最后一句时回调（用于精读“朗读全文”，供按钮复位）
 function speakLines(lines, onEnd) {
   if (!window.speechSynthesis) return;
-  speechSynthesis.cancel();
+  stopAllSpeakAudio();
+  try { speechSynthesis.resume(); } catch (e) {}
   const items = (lines || []).map(enOnly).filter(Boolean);
   if (!items.length) { if (onEnd) onEnd(); return; }
   items.forEach((t, i) => {
-    const u = new SpeechSynthesisUtterance(t);
-    u.lang = 'en-GB';
-    if (VOICE) u.voice = VOICE;
-    u.rate = TTS_RATE * 0.95;
+    const u = makeUtterance(t, 0.95);
     if (i === items.length - 1 && onEnd) u.onend = onEnd;
     speechSynthesis.speak(u);
   });
@@ -145,6 +426,8 @@ function toast(msg, type) {
 // ---------- 初始化 ----------
 async function init() {
   await NCEStore.ready; // 学习状态（最近课/已学/已掌握等）加载完再渲染，避免读到空值
+  await loadPronuncIndex(); // 真人发音索引（离线可读 public/audio/）
+  await loadOfficialSegments(); // 原声课文句子时间轴（离线可读）
   state.meta = await api('/api/meta');
   renderBookChips();
   renderUnitChips();
@@ -293,10 +576,17 @@ function applyHashTab() {
 document.addEventListener('click', (e) => {
   const el = e.target.closest('.tab, .subtab');
   if (!el || !el.dataset.tab) return;
+  if (window.NCE.isDictOverlayOpen && window.NCE.isDictOverlayOpen()) {
+    window.NCE.closeDictOverlay({ restoreScroll: false });
+  }
   // 切换标签时打断正在进行的朗读，避免听写/对话等页面的自动朗读串到新页面继续读
-  if (window.speechSynthesis) speechSynthesis.cancel();
+  stopAllSpeakAudio();
   const tabId = el.dataset.tab;
   if (tabId === 'dictionary' && location.hash.startsWith('#dictionary?')) return;
+  if (tabId === 'dictionary' && !location.hash.includes('?')) {
+    window.NCE.dictReturnState = null;
+    hideDictReturnBar();
+  }
   if (tabId === 'learn' && location.hash.startsWith('#learn?')) return;
   if (location.hash !== '#' + tabId) history.replaceState(null, '', '#' + tabId);
 });
@@ -315,6 +605,56 @@ function gotoTab(id) {
   }
   const tab = document.querySelector(`.tab[data-tab="${id}"]`);
   if (tab) tab.click();
+}
+
+// 仅切换可见面板，不触发 onShow（用于词典返回，避免打断进行中的练习）
+function showTabSilent(id, ret) {
+  document.querySelectorAll('.tab').forEach((t) => t.classList.remove('active'));
+  if (id === 'home') {
+    document.querySelector('.tab[data-tab="home"]')?.classList.add('active');
+    hideAll();
+    $('homePanel').classList.remove('hidden');
+    return;
+  }
+  if (id === 'learn') {
+    document.querySelector('.tab[data-tab="learn"]')?.classList.add('active');
+    hideAll();
+    $('lessonsPanel').classList.remove('hidden');
+    return;
+  }
+  if (id === 'practice') {
+    document.querySelector('.tab[data-tab="practice"]')?.classList.add('active');
+    hideAll();
+    const pp = (ret && ret.practicePanel) || 'setup';
+    if (pp === 'quiz') $('quizPanel').classList.remove('hidden');
+    else $('setupPanel').classList.remove('hidden');
+    return;
+  }
+  const sub = document.querySelector(`.subtab[data-tab="${id}"]`);
+  if (sub) {
+    const hostId = sub.dataset.host;
+    document.querySelector(`.tab[data-tab="${hostId}"]`)?.classList.add('active');
+    hideAll();
+    const hostPanel = $('feat-' + hostId);
+    if (hostPanel) {
+      hostPanel.classList.remove('hidden');
+      hostPanel.querySelectorAll('.subtabs .subtab').forEach((s) => {
+        s.classList.toggle('active', s === sub);
+      });
+      hostPanel.querySelectorAll('.subpanel').forEach((p) => p.classList.add('hidden'));
+    }
+    const panel = $('feat-' + id);
+    if (panel) panel.classList.remove('hidden');
+    if (mergeHost) mergeHost.current = sub;
+    return;
+  }
+  const tab = document.querySelector(`.tab[data-tab="${id}"]`);
+  if (tab) {
+    tab.classList.add('active');
+    hideAll();
+    const panel = $('feat-' + id);
+    if (panel) panel.classList.remove('hidden');
+  }
 }
 
 function hideAll() {
@@ -445,19 +785,163 @@ function goToVocab(opts) {
   gotoTab('vocab');
 }
 
-function goToDictionary(q, book) {
+function captureDictReturn() {
+  if (window.NCE.isDictionaryPageActive && window.NCE.isDictionaryPageActive()) return;
+  let hash = location.hash || '#home';
+  const tabId = hash.replace(/^#/, '').split('?')[0];
+  if ((tabId === 'learn' || hash.startsWith('#learn')) && state.currentLesson) {
+    const l = state.currentLesson;
+    hash = `#learn?book=${l.book}&lesson=${l.lesson}`;
+  }
+  let practicePanel = '';
+  if (!$('quizPanel').classList.contains('hidden')) practicePanel = 'quiz';
+  else if (!$('setupPanel').classList.contains('hidden')) practicePanel = 'setup';
+  const id = hash.replace(/^#/, '').split('?')[0];
+  window.NCE.dictReturnState = {
+    scrollY: window.scrollY,
+    hash,
+    practicePanel,
+    label: dictReturnLabel(id, hash),
+  };
+}
+
+const DICT_RETURN_LABELS = {
+  home: '🏠 返回今日学习',
+  learn: '📖 返回教材学习',
+  practice: '✏️ 返回刷题练习',
+  transform: '🔀 返回句型转换',
+  dictation: '🎧 返回听写',
+  dialogue: '💬 返回情景对话',
+  review: '🔁 返回间隔复习',
+  vocab: '📚 返回词表',
+  words: '🔤 返回背单词',
+  listenvocab: '👂 返回听力测试',
+  readvocab: '📖 返回阅读测试',
+  globalvocab: '🌐 返回总词汇测试',
+  vocabtrend: '📈 返回词汇趋势',
+  exam: '📝 返回阶段测验',
+  stats: '📊 返回薄弱分析',
+  plan: '📅 返回学习计划',
+  wordhub: '🔤 返回单词',
+  comprehension: '📖 返回阅读理解',
+  level: '📊 返回水平评估',
+};
+
+function dictReturnLabel(tabId, hash) {
+  if (tabId === 'learn' && hash && hash.includes('lesson=')) {
+    const params = new URLSearchParams(hash.split('?')[1] || '');
+    const lesson = params.get('lesson');
+    const book = params.get('book');
+    if (book && lesson) return `📖 返回第${book}册 · Lesson ${lesson}`;
+  }
+  return DICT_RETURN_LABELS[tabId] || '← 返回继续';
+}
+
+function ensureDictReturnBar() {
+  let bar = document.getElementById('dictReturnBar');
+  if (bar) return bar;
+  if (!document.getElementById('dict-return-style')) {
+    const st = document.createElement('style');
+    st.id = 'dict-return-style';
+    st.textContent =
+      '.dict-return-fixed{position:fixed;top:0;left:0;right:0;z-index:8500;display:none;' +
+      'padding:10px 16px;background:linear-gradient(135deg,#eff6ff,#f0fdf4);' +
+      'border-bottom:1px solid #bfdbfe;box-shadow:0 2px 10px rgba(15,23,42,.08)}' +
+      '.dict-return-fixed.show{display:flex;align-items:center;justify-content:center}' +
+      '.dict-return-fixed button{padding:9px 22px;border:none;border-radius:10px;' +
+      'background:var(--brand,#2f6fed);color:#fff;font-size:15px;font-weight:700;cursor:pointer}' +
+      '.dict-return-fixed button:hover{opacity:.92}' +
+      'body.dict-return-active{padding-top:48px}' +
+      'body.dict-return-active .dict-return-fixed{top:0}';
+    document.head.appendChild(st);
+  }
+  bar = document.createElement('div');
+  bar.id = 'dictReturnBar';
+  bar.className = 'dict-return-fixed';
+  document.body.prepend(bar);
+  return bar;
+}
+
+function showDictReturnBar() {
+  if (window.NCE.isDictOverlayOpen && window.NCE.isDictOverlayOpen()) {
+    hideDictReturnBar();
+    return;
+  }
+  const ret = window.NCE.dictReturnState;
+  if (!ret) {
+    hideDictReturnBar();
+    return;
+  }
+  const dictPanel = document.getElementById('feat-dictionary');
+  if (!dictPanel || dictPanel.classList.contains('hidden')) {
+    hideDictReturnBar();
+    return;
+  }
+  const bar = ensureDictReturnBar();
+  bar.innerHTML = `<button type="button" id="dictReturnBtn">${escapeHtml(ret.label || '← 返回继续')}</button>`;
+  bar.classList.add('show');
+  document.body.classList.add('dict-return-active');
+  bar.querySelector('#dictReturnBtn').onclick = () => restoreDictReturn();
+}
+
+function hideDictReturnBar() {
+  const bar = document.getElementById('dictReturnBar');
+  if (bar) bar.classList.remove('show');
+  document.body.classList.remove('dict-return-active');
+}
+
+function restoreDictReturn() {
+  const ret = window.NCE.dictReturnState;
+  window.NCE.dictReturnState = null;
+  hideDictReturnBar();
+  if (window.NCE.closeDictOverlay) window.NCE.closeDictOverlay({ restoreScroll: false });
+  if (!ret) return;
+  if (ret.hash && location.hash !== ret.hash) history.replaceState(null, '', ret.hash);
+  const tabId = (ret.hash || '').replace(/^#/, '').split('?')[0];
+  if (tabId && tabId !== 'dictionary') {
+    if (tabId === 'learn' && ret.hash.includes('book=')) {
+      showTabSilent('learn', ret);
+      const params = new URLSearchParams((ret.hash.split('?')[1]) || '');
+      const book = params.get('book');
+      const lesson = params.get('lesson');
+      const cur = state.currentLesson;
+      if (book && lesson && (!cur || String(cur.book) !== String(book) || String(cur.lesson) !== String(lesson))) {
+        goToLesson(book, lesson);
+      }
+    } else {
+      showTabSilent(tabId, ret);
+    }
+  }
+  if (typeof ret.scrollY === 'number') {
+    setTimeout(() => window.scrollTo(0, ret.scrollY), 80);
+  }
+}
+
+function goToDictionary(q, book, opts) {
+  opts = opts || {};
   const params = new URLSearchParams();
   const qs = String(q == null ? '' : q).trim();
   if (qs) params.set('q', qs);
   if (book != null && book !== '') params.set('book', String(book));
   const tail = params.toString();
+  const onDictPage = window.NCE.isDictionaryPageActive && window.NCE.isDictionaryPageActive();
+  if (!opts.forcePage && !opts.reviewQueue && !onDictPage) {
+    captureDictReturn();
+    if (typeof window.NCE.openDictOverlay === 'function') {
+      window.NCE.openDictOverlay(q, book);
+      return;
+    }
+  }
+  if (!onDictPage) captureDictReturn();
   window.NCE.pendingDictionary = {
     q: qs,
     book: book != null && book !== '' ? String(book) : '',
     expandDetail: !!qs,
+    reviewQueue: !!opts.reviewQueue,
   };
   history.replaceState(null, '', '#dictionary' + (tail ? '?' + tail : ''));
   gotoTab('dictionary');
+  showDictReturnBar();
 }
 
 // 暴露给 feature 模块的公共 API
@@ -465,14 +949,27 @@ window.NCE = {
   api,
   speak,
   speakSequence,
+  setSpeakContext: function (ctx) { state.speakContext = ctx || null; },
+  hasOfficialSegment: function (text) { return !!lookupOfficialSegment(text); },
+  hasHumanPronunc: function (text) { return !!lookupHumanPronunc(enOnly(firstAnswer(text) || text)); },
   enOnly,
+  asAnswerList,
+  firstAnswer,
+  formatAnswersWithSpeak,
+  bindSpeakClicks,
   registerFeature,
   gotoTab,
   goToLesson,
   goToDictionary,
   goToVocab,
+  restoreDictReturn,
+  showDictReturnBar,
+  hideDictReturnBar,
+  captureDictReturn,
   normWordKey,
   toast,
+  speechRecNeedsNetwork: function () { return true; },
+  isOnline: function () { return navigator.onLine; },
   bindPassageLookup,
   bindPassageWords,
   wrapPassageWords,
@@ -739,16 +1236,13 @@ async function renderHome() {
   const homeDictQ = $('homeDictQ');
   const homeDictBtn = $('homeDictBtn');
   if (homeDictQ && homeDictBtn) {
-    const runHomeDict = () => goToDictionary(homeDictQ.value, last ? last.book : '');
+    const runHomeDict = () => goToDictionary(homeDictQ.value, last ? last.book : '', { forcePage: true });
     homeDictBtn.onclick = runHomeDict;
     homeDictQ.onkeydown = (e) => { if (e.key === 'Enter') runHomeDict(); };
   }
   const dictQueueBtn = $('homeDictQueueBtn');
   if (dictQueueBtn) {
-    dictQueueBtn.onclick = () => {
-      NCE.pendingDictionary = { reviewQueue: true };
-      gotoTab('dictionary');
-    };
+    dictQueueBtn.onclick = () => goToDictionary('', '', { forcePage: true, reviewQueue: true });
   }
   const starredBtn = $('homeStarredBtn');
   if (starredBtn && starCount && NCE.vocabTestUi) {
@@ -1083,6 +1577,96 @@ function renderPassage(en, cn) {
   return `${tools}<div class="passage">${body}</div>${cnBlock}`;
 }
 
+// ---------- 原声课文（MP3 + LRC 时间轴）----------
+let officialLessonAudio = null;
+
+function stopOfficialAudio() {
+  stopOfficialSegmentAudio();
+  if (officialLessonAudio) {
+    officialLessonAudio.pause();
+    officialLessonAudio.currentTime = 0;
+    officialLessonAudio = null;
+  }
+  document.querySelectorAll('.official-line.active').forEach((el) => el.classList.remove('active'));
+}
+
+function fmtAudioTime(sec) {
+  if (!sec || !Number.isFinite(sec)) return '0:00';
+  const m = Math.floor(sec / 60);
+  const s = Math.floor(sec % 60);
+  return m + ':' + String(s).padStart(2, '0');
+}
+
+function renderOfficialPassage(p) {
+  const lines = (p.lines || []).map((line, i) =>
+    `<div class="pl official-line" data-t="${line.t}" data-i="${i}">${wrapPassageWords(line.en)}</div>`
+  ).join('');
+  return (
+    `<div class="art-note">🎧 新概念<b>英音原声</b> · ${escapeHtml(p.title || '')} · 点击句子可跳转到对应位置</div>` +
+    `<div class="official-player">` +
+    `<button type="button" class="btn primary small" id="officialPlayBtn">▶ 播放原声</button>` +
+    `<span class="official-time" id="officialTime">0:00</span>` +
+    `<audio id="officialAudio" src="${escapeAttr(p.audio)}" preload="metadata"></audio>` +
+    `</div>` +
+    `<div class="passage official-passage">${lines || escapeHtml(p.en || '')}</div>`
+  );
+}
+
+function bindOfficialPassage(view) {
+  const audio = view.querySelector('#officialAudio');
+  const playBtn = view.querySelector('#officialPlayBtn');
+  const timeEl = view.querySelector('#officialTime');
+  if (!audio || !playBtn) return;
+
+  officialLessonAudio = audio;
+  const lines = view.querySelectorAll('.official-line');
+
+  function syncHighlight() {
+    const t = audio.currentTime;
+    let active = null;
+    lines.forEach((el) => {
+      const ts = Number(el.dataset.t);
+      if (ts <= t + 0.05) active = el;
+    });
+    lines.forEach((el) => el.classList.toggle('active', el === active));
+    if (timeEl) timeEl.textContent = fmtAudioTime(t);
+  }
+
+  playBtn.onclick = function () {
+    stopAllSpeakAudio();
+    if (!audio.paused && !audio.ended) {
+      audio.pause();
+      playBtn.textContent = '▶ 播放原声';
+      return;
+    }
+    if (audio.ended) audio.currentTime = 0;
+    audio.play().catch(function () {
+      toast('原声文件无法播放，请确认 public/audio/nce/ 下已有 MP3 文件', 'warn');
+    });
+    playBtn.textContent = '⏸ 暂停';
+  };
+
+  audio.ontimeupdate = syncHighlight;
+  audio.onended = function () {
+    playBtn.textContent = '▶ 播放原声';
+    lines.forEach((el) => el.classList.remove('active'));
+  };
+  audio.onloadedmetadata = function () {
+    if (timeEl) timeEl.textContent = '0:00 / ' + fmtAudioTime(audio.duration);
+  };
+
+  lines.forEach(function (el) {
+    el.onclick = function () {
+      stopAllSpeakAudio();
+      audio.currentTime = Number(el.dataset.t) || 0;
+      audio.play().catch(function () {});
+      playBtn.textContent = '⏸ 暂停';
+      lines.forEach((x) => x.classList.remove('active'));
+      el.classList.add('active');
+    };
+  });
+}
+
 // 原文录入编辑器（方案 B：内容由用户粘贴，存到项目内）
 function renderTextEditor(l) {
   const view = $('articleView');
@@ -1109,10 +1693,23 @@ async function saveLessonText(l, en, cn) {
   renderArticleView(l, 'orig');
 }
 
-// 渲染当前子页：orig=教材原文(用户录入) / mine=原创精读(AI)
+// 渲染当前子页：official=原声课文 / orig=教材原文(用户录入) / mine=原创精读
 function renderArticleView(l, which) {
   const view = $('articleView');
   if (!view) return;
+  stopOfficialAudio();
+  if (which === 'official') {
+    const p = state.currentOfficialPassage;
+    if (p && p.en) {
+      view.innerHTML = renderOfficialPassage(p);
+      bindOfficialPassage(view);
+      bindPassageLookup(view, l.book);
+      bindPassageWords(view, l.book);
+    } else {
+      view.innerHTML = '<div class="art-empty">本课原声文件缺失。请确认 <code>public/audio/nce/</code> 目录下已有对应 MP3，或运行 <code>npm run import:official -- --source "…/英音"</code> 重新导入。</div>';
+    }
+    return;
+  }
   if (which === 'mine') {
     if (l.article && l.article.en) {
       view.innerHTML = `<div class="art-note">✍️ 原创精读短文（同主题、同语法、同核心词）· 点击单词或选中短语可查词典</div>` +
@@ -1136,10 +1733,26 @@ function renderArticleView(l, which) {
   view.querySelectorAll('.spk').forEach((el) => { el.onclick = () => { speak(el.dataset.speak); resetRead(); }; });
   if (readBtn) {
     readBtn.onclick = () => {
-      // 正在朗读 → 停止；否则从头顺序连读全篇，读完由 speakLines 回调复位
-      if (window.speechSynthesis && speechSynthesis.speaking) {
-        speechSynthesis.cancel();
+      const reading = (humanAudio && !humanAudio.paused)
+        || officialSegmentAudio
+        || (officialLessonAudio && !officialLessonAudio.paused)
+        || (window.speechSynthesis && speechSynthesis.speaking);
+      if (reading) {
+        stopAllSpeakAudio();
         resetRead();
+        return;
+      }
+      const p = state.currentOfficialPassage;
+      if (p && p.audio && which !== 'official') {
+        const a = new Audio(p.audio);
+        officialLessonAudio = a;
+        readBtn.textContent = '⏹ 停止';
+        a.onended = resetRead;
+        a.onerror = resetRead;
+        a.play().catch(function () {
+          toast('原声文件无法播放，请确认 public/audio/nce/ 下已有 MP3 文件', 'warn');
+          resetRead();
+        });
         return;
       }
       const lines = Array.from(view.querySelectorAll('.passage .pl .spk')).map((s) => s.dataset.speak);
@@ -1153,13 +1766,17 @@ function renderArticleView(l, which) {
 
 function bindArticle(l) {
   const tabs = $('lessonDetail').querySelectorAll('.art-tab');
+  const hasOfficial = !!(state.currentOfficialPassage && state.currentOfficialPassage.en);
   const hasOrig = !!(state.currentLessonText && state.currentLessonText.en);
   const hasMine = !!(l.article && l.article.en);
-  let which = 'orig';
-  if (!hasOrig && hasMine) which = 'mine';
+  let which = hasOfficial ? 'official' : 'orig';
+  if (!hasOfficial && !hasOrig && hasMine) which = 'mine';
   tabs.forEach((t) => {
+    const show = t.dataset.at !== 'official' || hasOfficial;
+    t.style.display = show ? '' : 'none';
     t.classList.toggle('on', t.dataset.at === which);
     t.onclick = () => {
+      stopOfficialAudio();
       tabs.forEach((x) => x.classList.toggle('on', x === t));
       renderArticleView(l, t.dataset.at);
     };
@@ -1168,18 +1785,20 @@ function bindArticle(l) {
 }
 
 async function openLesson(book, lesson, opts) {
-  let l, starsRes, textRes;
+  let l, starsRes, textRes, officialRes;
   try {
-    [l, starsRes, textRes] = await Promise.all([
+    [l, starsRes, textRes, officialRes] = await Promise.all([
       api(`/api/lesson/${book}/${lesson}`),
       api('/api/vocab/stars').catch(() => ({ words: [] })),
       api(`/api/lesson-text/${book}/${lesson}`).catch(() => ({ text: null })),
+      api(`/api/official/${book}/${lesson}`).catch(() => null),
     ]);
   } catch (e) {
     return; // api() 已 toast 具体错误（如「该课程尚未收录」）
   }
   state.currentLesson = l;
   state.currentLessonText = (textRes && textRes.text) || null;
+  state.currentOfficialPassage = (officialRes && officialRes.en && !officialRes.error) ? officialRes : null;
   state.vocabStars = new Set((starsRes.words || []).map((w) => normWordKey(w.word)));
   // 记录最近学习的课，供首页「继续学习」使用
   NCEStore.set('nce-last-lesson', { book: l.book, lesson: l.lesson, title: l.title, titleCn: l.titleCn });
@@ -1210,7 +1829,8 @@ async function openLesson(book, lesson, opts) {
     `<div class="sec-title">📄 课文</div>` +
     `<div class="article-box">
       <div class="article-tabs">
-        <button class="art-tab on" data-at="orig">📖 教材原文</button>
+        <button class="art-tab" data-at="official">🎧 原声课文</button>
+        <button class="art-tab" data-at="orig">📖 教材原文</button>
         <button class="art-tab" data-at="mine">✍️ 原创精读</button>
       </div>
       <div class="article-view" id="articleView"></div>

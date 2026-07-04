@@ -8,10 +8,14 @@
     "dev": "node server.js",
     "validate": "node scripts/validate.js",
     "test:equiv": "node scripts/test-answer-equiv.js",
+    "test:wordlookup": "node scripts/test-wordlookup.js",
     "scan:dialogue": "node scripts/scan-dialogue-coverage.js",
     "build:word-enrich": "node scripts/build-word-enrich.js",
     "import": "node scripts/import.js",
-    "import:tf": "node scripts/import-transforms.js"
+    "import:tf": "node scripts/import-transforms.js",
+    "fetch:pronunc": "node scripts/fetch-pronunc.js",
+    "import:official": "node scripts/import-nce-official.js",
+    "import:lesson-texts": "node scripts/import-lesson-texts.js"
   },
   "dependencies": {
     "express": "^4.19.2"

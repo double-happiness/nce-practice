@@ -155,7 +155,7 @@
     setup.innerHTML =
       '<label style="font-size:15px">册：</label>' +
       '<select class="dct-select" id="dct-book" style="min-width:100px">' +
-      '<option value="1">第1册</option><option value="2">第2册</option>' +
+      '<option value="">加载中…</option>' +
       '</select>' +
       '<label style="font-size:15px">课程：</label>' +
       '<select class="dct-select" id="dct-lesson"><option value="">加载课程中…</option></select>' +
@@ -170,6 +170,23 @@
     var sel = setup.querySelector('#dct-lesson');
     var startBtn = setup.querySelector('#dct-start');
     var curBook = '1';
+
+    function populateBookSelect(books, lessonsByBook, preferred) {
+      var opts = (books || []).filter(function (b) {
+        return (lessonsByBook && lessonsByBook[b.id]) > 0;
+      });
+      if (!opts.length) {
+        bookSel.innerHTML = '<option value="">暂无可用册</option>';
+        return;
+      }
+      bookSel.innerHTML = opts.map(function (b) {
+        return '<option value="' + b.id + '">第' + b.id + '册</option>';
+      }).join('');
+      var pick = preferred && opts.some(function (b) { return String(b.id) === String(preferred); })
+        ? String(preferred) : String(opts[0].id);
+      curBook = pick;
+      bookSel.value = pick;
+    }
 
     function loadLessonList(book, pend) {
       curBook = String(book);
@@ -208,7 +225,17 @@
 
     var pend = NCE.pendingDictation;
     NCE.pendingDictation = null;
-    loadLessonList(pend && pend.book ? pend.book : '1', pend).then(function () {
+    NCE.api('/api/meta').then(function (meta) {
+      populateBookSelect(
+        (meta && meta.books) || [],
+        meta && meta.stats && meta.stats.lessonsByBook,
+        pend && pend.book ? pend.book : '1'
+      );
+      return loadLessonList(curBook, pend);
+    }).catch(function () {
+      populateBookSelect([{ id: 1 }, { id: 2 }], { 1: 1, 2: 1 }, pend && pend.book ? pend.book : '1');
+      return loadLessonList(curBook, pend);
+    }).then(function () {
       if (pend && pend.lesson && sel.value === String(pend.lesson)) startBtn.click();
     });
 
@@ -303,6 +330,7 @@
 
   // ---------- 单次听写会话 ----------
   function runSession(stage, book, lesson, sentences) {
+    if (NCE.setSpeakContext) NCE.setSpeakContext({ book: Number(book), lesson: Number(lesson) });
     var idx = 0;
     var pk = posKey(book, lesson);
     var savedPos = Number(loadPosMap()[pk]);
