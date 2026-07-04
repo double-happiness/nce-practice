@@ -799,7 +799,13 @@ table.words .pos { color: var(--brand); font-size: 12px; font-weight: 600; }
 .passage .pl .spk { cursor: pointer; opacity: .55; margin-right: 4px; }
 .passage .pl .spk:hover { opacity: 1; }
 .passage-cn { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border, #e4e8f2);
-  font-size: 14px; line-height: 1.8; color: var(--ink-soft, #3a4356); }
+  color: var(--muted, #667); font-size: 14px; line-height: 1.7; }
+.official-player { display: flex; align-items: center; gap: 12px; margin: 10px 0 14px; flex-wrap: wrap; }
+.official-player audio { display: none; }
+.official-time { font-size: 13px; color: var(--muted, #667); font-variant-numeric: tabular-nums; }
+.official-line { cursor: pointer; border-radius: 6px; padding: 2px 4px; margin: 2px -4px; transition: background .15s; }
+.official-line:hover { background: #eef2ff; }
+.official-line.active { background: #dbeafe; border-left: 3px solid #2b57d6; padding-left: 8px; }
 .art-ta { width: 100%; min-height: 90px; padding: 10px 12px; border: 1px solid var(--border, #e4e8f2);
   border-radius: 10px; font-size: 14px; line-height: 1.6; margin-bottom: 10px; resize: vertical; font-family: inherit; }
 .art-ta:focus { outline: none; border-color: var(--brand, #2f6fed); box-shadow: 0 0 0 3px rgba(47,111,237,.16); }

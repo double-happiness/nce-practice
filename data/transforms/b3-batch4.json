@@ -1,0 +1,554 @@
+[
+  {
+    "id": "tf-b3-037",
+    "book": 3,
+    "lesson": 37,
+    "grammar": ["prefer", "would rather"],
+    "cn": "有几位旅客宁愿在餐车等候，也不愿在月台上站着。",
+    "explanation": "prefer to do rather than do 表偏好；would rather do than do 语气更强，后接动词原形。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "A few passengers preferred to wait in the buffet rather than stand on the platform.",
+          "Some passengers would rather wait in the buffet than stand outside on the platform."
+        ],
+        "cn": "有几位旅客宁愿在餐车等候，也不愿在月台上站着。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "A few passengers did not prefer to wait in the buffet.",
+          "Some passengers would rather not wait in the buffet."
+        ],
+        "cn": "有几位旅客不愿在餐车等候。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the buffet」提问（问\"宁愿在哪里等候\"）",
+        "answers": [
+          "Where did a few passengers prefer to wait?",
+          "Where would some passengers rather wait?"
+        ],
+        "cn": "旅客宁愿在哪里等候？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did a few passengers prefer to wait in the buffet rather than stand on the platform?",
+          "Would some passengers rather wait in the buffet than stand outside?"
+        ],
+        "cn": "有几位旅客宁愿在餐车等候吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-038",
+    "book": 3,
+    "lesson": 38,
+    "grammar": ["needn't have done", "didn't need to"],
+    "cn": "建造巨石阵的劳工本不必懂天文学。",
+    "explanation": "needn't have done 暗示做了不必要的事；本课语境强调客观上不必具备该知识。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The workers who built Stonehenge didn't need to understand astronomy.",
+          "Workers did not need to understand astronomy to build Stonehenge."
+        ],
+        "cn": "建造巨石阵的劳工本不必懂天文学。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改用 needn't have done 改写（暗示他们以为需要懂）",
+        "answers": [
+          "The workers needn't have understood astronomy to build it.",
+          "They needn't have learned astronomy for the construction."
+        ],
+        "cn": "劳工本不必懂天文学（却可能以为需要）。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「astronomy」提问（问\"不必懂什么\"）",
+        "answers": [
+          "What didn't the workers need to understand?",
+          "What did workers not need to know to build Stonehenge?"
+        ],
+        "cn": "劳工不必懂什么？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the workers need to understand astronomy to build Stonehenge?",
+          "Did workers need to know astronomy?"
+        ],
+        "cn": "劳工需要懂天文学吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-039",
+    "book": 3,
+    "lesson": 39,
+    "grammar": ["notice/realize/point out + that", "宾语从句"],
+    "cn": "医生注意到他脸色苍白，并指出他其实在为并不存在的病担忧。",
+    "explanation": "notice/point out + that 从句用陈述语序；that 在口语中可省略。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The doctor noticed that he looked pale and pointed out that he was worrying about illnesses he did not have.",
+          "The doctor noticed he looked pale and pointed out he was worrying about imaginary illnesses."
+        ],
+        "cn": "医生注意到他脸色苍白，并指出他其实在为并不存在的病担忧。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把 point out 部分改为直接引语",
+        "answers": [
+          "The doctor pointed out, \"You are worrying about illnesses you do not have.\"",
+          "He pointed out, \"You are worrying about imaginary illnesses.\""
+        ],
+        "cn": "医生指出：「你在为并不存在的病担忧。」"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「that he looked pale」提问（问\"注意到什么\"）",
+        "answers": [
+          "What did the doctor notice?",
+          "What did the doctor notice about the patient?"
+        ],
+        "cn": "医生注意到什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The doctor did not notice anything abnormal.",
+          "The doctor didn't find anything wrong with him."
+        ],
+        "cn": "医生未注意到任何异常。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-040",
+    "book": 3,
+    "lesson": 40,
+    "grammar": ["反身代词"],
+    "cn": "亨利向新同事做了自我介绍，员工们常暗自琢磨正在跟哪一位双胞胎说话。",
+    "explanation": "introduce oneself 自我介绍；ask oneself 暗自琢磨，反身代词指主语自身。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Henry introduced himself to a new colleague, and staff often asked themselves whether they were speaking to Henry or James.",
+          "Henry introduced himself, and colleagues often asked themselves which twin they were talking to."
+        ],
+        "cn": "亨利向新同事做了自我介绍，员工们常暗自琢磨正在跟哪一位双胞胎说话。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Henry or James」提问（问\"暗自琢磨跟谁说话\"）",
+        "answers": [
+          "Who did staff often ask themselves they were speaking to?",
+          "Which twin did colleagues wonder they were talking to?"
+        ],
+        "cn": "员工们暗自琢磨正在跟谁说话？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Staff did not always ask themselves which twin they were speaking to.",
+          "Colleagues didn't always know whether they were talking to Henry or James."
+        ],
+        "cn": "员工们并非总能分辨正在跟哪一位说话。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did Henry introduce himself to a new colleague?",
+          "Did staff often ask themselves which twin they were speaking to?"
+        ],
+        "cn": "亨利向新同事做了自我介绍吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-041",
+    "book": 3,
+    "lesson": 41,
+    "grammar": ["wish + 过去时/过去完成时"],
+    "cn": "他希望自己再度年轻，又后悔当年没向她表白。",
+    "explanation": "wish + 过去时表与现在相反；wish + had done 表与过去相反的遗憾。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He wished he were young again, and he wished he had told her how he felt.",
+          "He wished he were young again and regretted that he had not told her how he felt."
+        ],
+        "cn": "他希望自己再度年轻，又后悔当年没向她表白。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 wish he had told 改为否定愿望",
+        "answers": [
+          "He wished he had not waited so long to speak.",
+          "He wished he hadn't kept silent for so many years."
+        ],
+        "cn": "他后悔当年沉默那么久。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「young again」提问（问\"希望怎样\"）",
+        "answers": [
+          "How did he wish he were?",
+          "What did he wish about his age?"
+        ],
+        "cn": "他希望自己怎样？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句（用 Did he wish...）",
+        "answers": [
+          "Did he wish he were young again?",
+          "Did he wish he had told her how he felt?"
+        ],
+        "cn": "他希望自己再度年轻吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-042",
+    "book": 3,
+    "lesson": 42,
+    "grammar": ["have/get something done"],
+    "cn": "玻璃震裂后，我请人给卧室门装了隔音板。",
+    "explanation": "have/get + 宾语 + 过去分词表请别人做某事，主语不亲自做。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "After the glass cracked, I had soundproof panels fitted to the bedroom door.",
+          "We had soundproof panels fitted to the door after the vibrations cracked the glass."
+        ],
+        "cn": "玻璃震裂后，我请人给卧室门装了隔音板。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "Soundproof panels were fitted to the bedroom door after the glass cracked.",
+          "The door was fitted with soundproof panels after the glass broke."
+        ],
+        "cn": "玻璃震裂后，卧室门被装上了隔音板。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「soundproof panels」提问（问\"请人装了什么\"）",
+        "answers": [
+          "What did you have fitted to the bedroom door?",
+          "What was fitted to the door after the glass cracked?"
+        ],
+        "cn": "请人给门装了什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I did not have soundproof panels fitted to the door.",
+          "We didn't have the windows repaired until later."
+        ],
+        "cn": "我没有请人给门装隔音板。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-043",
+    "book": 3,
+    "lesson": 43,
+    "grammar": ["whether...or", "动词介词搭配"],
+    "cn": "探险队员们争论是携带额外燃料还是减轻负重。",
+    "explanation": "whether...or... 表两者择一；debate whether to do or do 后接不定式。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The explorers debated whether to carry extra fuel or reduce weight.",
+          "They debated whether to take more fuel or to lighten the load."
+        ],
+        "cn": "探险队员们争论是携带额外燃料还是减轻负重。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「whether to carry extra fuel or reduce weight」提问",
+        "answers": [
+          "What did the explorers debate?",
+          "What were they debating about?"
+        ],
+        "cn": "探险队员们争论什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The explorers did not debate whether to carry extra fuel or reduce weight.",
+          "They didn't argue about fuel or weight."
+        ],
+        "cn": "探险队员们并未争论燃料与负重的问题。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the explorers debate whether to carry extra fuel or reduce weight?",
+          "Did they debate whether to take more fuel or lighten the load?"
+        ],
+        "cn": "探险队员们争论是否携带额外燃料吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-044",
+    "book": 3,
+    "lesson": 44,
+    "grammar": ["had better", "would rather"],
+    "cn": "护林员告诫他们最好不要独自进森林。",
+    "explanation": "had better not do 表强烈建议不要做，含警告意味；would rather 表个人偏好。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The ranger warned that they had better not enter the forest alone.",
+          "The ranger told them they had better not go into the forest by themselves."
+        ],
+        "cn": "护林员告诫他们最好不要独自进森林。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 had better not 改为肯定建议",
+        "answers": [
+          "They had better take a compass before entering the forest.",
+          "You had better mark your path in the forest."
+        ],
+        "cn": "他们最好带上指南针再进森林。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「enter the forest alone」提问（问\"最好不要做什么\"）",
+        "answers": [
+          "What had they better not do?",
+          "What did the ranger warn them not to do?"
+        ],
+        "cn": "他们最好不要做什么？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Had they better not enter the forest alone?",
+          "Did the ranger warn them not to enter the forest alone?"
+        ],
+        "cn": "他们最好不要独自进森林吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-045",
+    "book": 3,
+    "lesson": 45,
+    "grammar": ["so/such...that"],
+    "cn": "他内疚得几乎不敢见老板，于是和盘托出。",
+    "explanation": "so + 形容词 + that 从句表「如此……以至于……」；such 修饰名词短语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He felt so guilty that he could hardly face his employer, and he confessed everything.",
+          "He was so guilty that he confessed everything to his boss."
+        ],
+        "cn": "他内疚得几乎不敢见老板，于是和盘托出。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not feel so guilty that he had to confess.",
+          "He wasn't guilty enough to confess everything."
+        ],
+        "cn": "他并未内疚到需要和盘托出的程度。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「so guilty」提问（问\"感觉怎样\"）",
+        "answers": [
+          "How did he feel?",
+          "How guilty did he feel?"
+        ],
+        "cn": "他感觉怎样？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he feel so guilty that he confessed everything?",
+          "Was he so guilty that he could hardly face his employer?"
+        ],
+        "cn": "他内疚得和盘托出了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-046",
+    "book": 3,
+    "lesson": 46,
+    "grammar": ["in spite of", "despite"],
+    "cn": "尽管座位豪华，这位怕飞的商人仍紧抓着扶手。",
+    "explanation": "despite/in spite of + 名词或动名词表让步；不接从句。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "In spite of the luxurious seat, the businessman who was afraid of flying gripped the armrest.",
+          "Despite the luxurious seat, he still gripped the armrest tightly."
+        ],
+        "cn": "尽管座位豪华，这位怕飞的商人仍紧抓着扶手。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改用 although 引导从句改写",
+        "answers": [
+          "Although the seat was luxurious, he gripped the armrest.",
+          "Although he had an expensive ticket, he was still afraid."
+        ],
+        "cn": "虽然座位豪华，他仍紧抓着扶手。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the luxurious seat」提问",
+        "answers": [
+          "In spite of what did he still grip the armrest?",
+          "Despite what was he still afraid?"
+        ],
+        "cn": "尽管什么，他仍紧抓扶手？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he grip the armrest in spite of the luxurious seat?",
+          "Did he still grip the armrest despite the comfortable seat?"
+        ],
+        "cn": "尽管座位豪华，他仍紧抓扶手吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-047",
+    "book": 3,
+    "lesson": 47,
+    "grammar": ["可数不可数名词", "数量词"],
+    "cn": "一夜之内，大量啤酒不翼而飞。",
+    "explanation": "a great deal of / a large amount of 修饰不可数名词；many 修饰可数复数。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "A great deal of beer had disappeared overnight.",
+          "A large amount of beer was wasted overnight."
+        ],
+        "cn": "一夜之内，大量啤酒不翼而飞。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "A great deal of beer had been wasted overnight.",
+          "A large amount of beer had been drunk overnight."
+        ],
+        "cn": "一夜之内，大量啤酒被喝掉了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「beer」提问（问\"大量什么消失了\"）",
+        "answers": [
+          "What had disappeared overnight in large amounts?",
+          "What had been wasted overnight?"
+        ],
+        "cn": "什么大量消失了？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Not much beer had disappeared overnight.",
+          "Little beer was wasted overnight."
+        ],
+        "cn": "一夜之内，并没有大量啤酒消失。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-048",
+    "book": 3,
+    "lesson": 48,
+    "grammar": ["反意疑问句", "间接疑问句"],
+    "cn": "病人不确定牙医想告诉他什么。",
+    "explanation": "间接疑问句用陈述语序：be unsure + 疑问词 + 主语 + 谓语；反意疑问句前肯后否。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The patient was unsure what the dentist wanted to tell him.",
+          "He was not sure what the doctor wanted to say."
+        ],
+        "cn": "病人不确定牙医想告诉他什么。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把间接疑问句改为直接疑问句",
+        "answers": [
+          "The patient wondered, \"What do you want to tell me?\"",
+          "He asked, \"What do you want to tell me, doctor?\""
+        ],
+        "cn": "病人问：「你想告诉我什么？」"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "添加反意疑问句（You wanted to tell me something, didn't you?）",
+        "answers": [
+          "You wanted to tell me something, didn't you?",
+          "You want to tell me something, don't you?"
+        ],
+        "cn": "你想告诉我什么，不是吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「what the dentist wanted to tell him」提问",
+        "answers": [
+          "What was the patient unsure about?",
+          "What didn't the patient know?"
+        ],
+        "cn": "病人不确定什么？"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2924 @@
+{
+  "accept": {
+    "synonyms": [
+      {
+        "w": "receive",
+        "note": "收到"
+      }
+    ]
+  },
+  "admit": {
+    "synonyms": [
+      {
+        "w": "confess",
+        "note": "承认"
+      }
+    ]
+  },
+  "detective": {
+    "synonyms": [
+      {
+        "w": "inspector",
+        "note": "探长"
+      },
+      {
+        "w": "policeman",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "murder",
+      "arrest",
+      "accuse"
+    ]
+  },
+  "witness": {
+    "synonyms": [
+      {
+        "w": "thief",
+        "note": "小偷"
+      },
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "weird": {
+    "synonyms": [
+      {
+        "w": "unusual",
+        "note": "不寻常"
+      },
+      {
+        "w": "extraordinary",
+        "note": "同类词"
+      }
+    ]
+  },
+  "valuable": {
+    "synonyms": [
+      {
+        "w": "precious",
+        "note": "珍贵"
+      },
+      {
+        "w": "expensive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "complete": {
+    "synonyms": [
+      {
+        "w": "whole",
+        "note": "整个"
+      }
+    ]
+  },
+  "tired": {
+    "synonyms": [
+      {
+        "w": "exhausted",
+        "note": "精疲力竭"
+      }
+    ]
+  },
+  "nervous": {
+    "synonyms": [
+      {
+        "w": "anxious",
+        "note": "焦虑"
+      },
+      {
+        "w": "worried",
+        "note": "同类词"
+      }
+    ]
+  },
+  "calm": {
+    "synonyms": [
+      {
+        "w": "patient",
+        "note": "冷静"
+      }
+    ]
+  },
+  "honest": {
+    "synonyms": [
+      {
+        "w": "fair",
+        "note": "公正"
+      }
+    ]
+  },
+  "surprise": {
+    "synonyms": [
+      {
+        "w": "astonish",
+        "note": "使惊讶"
+      },
+      {
+        "w": "wonder",
+        "note": "同类词"
+      }
+    ]
+  },
+  "shock": {
+    "synonyms": [
+      {
+        "w": "frighten",
+        "note": "惊吓"
+      }
+    ]
+  },
+  "delighted": {
+    "synonyms": [
+      {
+        "w": "pleased",
+        "note": "高兴"
+      }
+    ]
+  },
+  "damage": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "毁坏"
+      },
+      {
+        "w": "smash",
+        "note": "同类词"
+      }
+    ]
+  },
+  "repair": {
+    "synonyms": [
+      {
+        "w": "fix",
+        "note": "修理"
+      },
+      {
+        "w": "mend",
+        "note": "同类词"
+      },
+      {
+        "w": "restore",
+        "note": "同类词"
+      }
+    ]
+  },
+  "mend": {
+    "synonyms": [
+      {
+        "w": "fix",
+        "note": "修补"
+      },
+      {
+        "w": "repair",
+        "note": "修理"
+      }
+    ]
+  },
+  "afford": {
+    "synonyms": [
+      {
+        "w": "manage",
+        "note": "负担得起"
+      }
+    ]
+  },
+  "salary": {
+    "synonyms": [
+      {
+        "w": "income",
+        "note": "收入"
+      }
+    ]
+  },
+  "borrow": {
+    "synonyms": [
+      {
+        "w": "lend",
+        "note": "借出"
+      }
+    ]
+  },
+  "firm": {
+    "synonyms": [
+      {
+        "w": "company",
+        "note": "公司"
+      },
+      {
+        "w": "business",
+        "note": "同类词"
+      },
+      {
+        "w": "solid",
+        "note": "同类词"
+      },
+      {
+        "w": "stable",
+        "note": "同类词"
+      },
+      {
+        "w": "tight",
+        "note": "同类词"
+      },
+      {
+        "w": "close",
+        "note": "同类词"
+      }
+    ]
+  },
+  "product": {
+    "synonyms": [
+      {
+        "w": "goods",
+        "note": "货物"
+      },
+      {
+        "w": "article",
+        "note": "同类词"
+      }
+    ]
+  },
+  "quantity": {
+    "synonyms": [
+      {
+        "w": "amount",
+        "note": "数量"
+      }
+    ]
+  },
+  "compete": {
+    "synonyms": [
+      {
+        "w": "rival",
+        "note": "竞争"
+      },
+      {
+        "w": "race",
+        "note": "同类词"
+      }
+    ]
+  },
+  "waiter": {
+    "synonyms": [
+      {
+        "w": "servant",
+        "note": "仆人"
+      }
+    ]
+  },
+  "aeroplane": {
+    "synonyms": [
+      {
+        "w": "aircraft",
+        "note": "飞机"
+      }
+    ],
+    "variants": [
+      {
+        "form": "airplane",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "airport": {
+    "synonyms": [
+      {
+        "w": "station",
+        "note": "车站"
+      },
+      {
+        "w": "port",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "aeroplane"
+    ]
+  },
+  "hurry": {
+    "synonyms": [
+      {
+        "w": "rush",
+        "note": "匆忙"
+      }
+    ]
+  },
+  "land": {
+    "synonyms": [
+      {
+        "w": "ashore",
+        "note": "上岸"
+      },
+      {
+        "w": "arrive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "orbit": {
+    "synonyms": [
+      {
+        "w": "circle",
+        "note": "环绕"
+      }
+    ]
+  },
+  "cause": {
+    "synonyms": [
+      {
+        "w": "reason",
+        "note": "原因"
+      },
+      {
+        "w": "source",
+        "note": "同类词"
+      }
+    ]
+  },
+  "single": {
+    "synonyms": [
+      {
+        "w": "alone",
+        "note": "独自"
+      },
+      {
+        "w": "lonely",
+        "note": "同类词"
+      }
+    ]
+  },
+  "crowd": {
+    "synonyms": [
+      {
+        "w": "group",
+        "note": "人群"
+      }
+    ]
+  },
+  "neighbour": {
+    "synonyms": [
+      {
+        "w": "stranger",
+        "note": "陌生人"
+      },
+      {
+        "w": "foreigner",
+        "note": "同类词"
+      }
+    ]
+  },
+  "relative": {
+    "synonyms": [
+      {
+        "w": "relation",
+        "note": "亲戚"
+      }
+    ]
+  },
+  "authority": {
+    "synonyms": [
+      {
+        "w": "government",
+        "note": "政府"
+      },
+      {
+        "w": "official",
+        "note": "同类词"
+      }
+    ]
+  },
+  "language": {
+    "synonyms": [
+      {
+        "w": "speech",
+        "note": "言语"
+      }
+    ]
+  },
+  "discover": {
+    "synonyms": [
+      {
+        "w": "invent",
+        "note": "发明"
+      },
+      {
+        "w": "find",
+        "note": "同类词"
+      },
+      {
+        "w": "search",
+        "note": "同类词"
+      }
+    ]
+  },
+  "noise": {
+    "synonyms": [
+      {
+        "w": "sound",
+        "note": "声音"
+      }
+    ]
+  },
+  "avoid": {
+    "synonyms": [
+      {
+        "w": "escape",
+        "note": "逃脱"
+      }
+    ]
+  },
+  "admire": {
+    "synonyms": [
+      {
+        "w": "appreciate",
+        "note": "欣赏"
+      },
+      {
+        "w": "honour",
+        "note": "同类词"
+      }
+    ]
+  },
+  "appear": {
+    "synonyms": [
+      {
+        "w": "seem",
+        "note": "似乎"
+      }
+    ]
+  },
+  "extraordinary": {
+    "synonyms": [
+      {
+        "w": "unusual",
+        "note": "不寻常"
+      },
+      {
+        "w": "weird",
+        "note": "同类词"
+      }
+    ]
+  },
+  "gather": {
+    "synonyms": [
+      {
+        "w": "collect",
+        "note": "收集"
+      },
+      {
+        "w": "assemble",
+        "note": "同类词"
+      }
+    ]
+  },
+  "guest": {
+    "synonyms": [
+      {
+        "w": "visitor",
+        "note": "来访者"
+      },
+      {
+        "w": "stranger",
+        "note": "同类词"
+      },
+      {
+        "w": "companion",
+        "note": "同类词"
+      }
+    ]
+  },
+  "harbour": {
+    "synonyms": [
+      {
+        "w": "port",
+        "note": "港口"
+      }
+    ]
+  },
+  "hesitate": {
+    "synonyms": [
+      {
+        "w": "pause",
+        "note": "犹豫"
+      },
+      {
+        "w": "delay",
+        "note": "同类词"
+      }
+    ]
+  },
+  "hide": {
+    "synonyms": [
+      {
+        "w": "cover",
+        "note": "遮盖"
+      },
+      {
+        "w": "skin",
+        "note": "同类词"
+      },
+      {
+        "w": "surface",
+        "note": "同类词"
+      }
+    ]
+  },
+  "imagine": {
+    "synonyms": [
+      {
+        "w": "dream",
+        "note": "梦想"
+      },
+      {
+        "w": "suppose",
+        "note": "同类词"
+      }
+    ]
+  },
+  "lonely": {
+    "synonyms": [
+      {
+        "w": "alone",
+        "note": "孤独"
+      },
+      {
+        "w": "single",
+        "note": "同类词"
+      }
+    ]
+  },
+  "luck": {
+    "synonyms": [
+      {
+        "w": "fortune",
+        "note": "运气"
+      },
+      {
+        "w": "chance",
+        "note": "同类词"
+      }
+    ]
+  },
+  "manage": {
+    "synonyms": [
+      {
+        "w": "control",
+        "note": "控制"
+      },
+      {
+        "w": "afford",
+        "note": "同类词"
+      },
+      {
+        "w": "succeed",
+        "note": "同类词"
+      }
+    ]
+  },
+  "message": {
+    "synonyms": [
+      {
+        "w": "letter",
+        "note": "信件"
+      },
+      {
+        "w": "note",
+        "note": "同类词"
+      }
+    ]
+  },
+  "minister": {
+    "synonyms": [
+      {
+        "w": "official",
+        "note": "官员"
+      }
+    ]
+  },
+  "noble": {
+    "synonyms": [
+      {
+        "w": "royal",
+        "note": "皇家"
+      }
+    ]
+  },
+  "opportunity": {
+    "synonyms": [
+      {
+        "w": "chance",
+        "note": "机会"
+      },
+      {
+        "w": "occasion",
+        "note": "同类词"
+      }
+    ]
+  },
+  "package": {
+    "synonyms": [
+      {
+        "w": "parcel",
+        "note": "包裹"
+      }
+    ]
+  },
+  "patient": {
+    "synonyms": [
+      {
+        "w": "calm",
+        "note": "冷静"
+      }
+    ]
+  },
+  "pilot": {
+    "synonyms": [
+      {
+        "w": "captain",
+        "note": "机长"
+      }
+    ]
+  },
+  "possess": {
+    "synonyms": [
+      {
+        "w": "own",
+        "note": "拥有"
+      },
+      {
+        "w": "hold",
+        "note": "同类词"
+      }
+    ]
+  },
+  "precious": {
+    "synonyms": [
+      {
+        "w": "valuable",
+        "note": "贵重"
+      },
+      {
+        "w": "expensive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "pretend": {
+    "synonyms": [
+      {
+        "w": "act",
+        "note": "扮演"
+      }
+    ]
+  },
+  "purse": {
+    "synonyms": [
+      {
+        "w": "wallet",
+        "note": "钱包"
+      }
+    ]
+  },
+  "record": {
+    "synonyms": [
+      {
+        "w": "note",
+        "note": "记录"
+      },
+      {
+        "w": "register",
+        "note": "同类词"
+      }
+    ]
+  },
+  "register": {
+    "synonyms": [
+      {
+        "w": "record",
+        "note": "登记"
+      },
+      {
+        "w": "note",
+        "note": "同类词"
+      }
+    ]
+  },
+  "remote": {
+    "synonyms": [
+      {
+        "w": "distant",
+        "note": "遥远"
+      },
+      {
+        "w": "far",
+        "note": "同类词"
+      }
+    ]
+  },
+  "rescue": {
+    "synonyms": [
+      {
+        "w": "save",
+        "note": "拯救"
+      }
+    ]
+  },
+  "restore": {
+    "synonyms": [
+      {
+        "w": "repair",
+        "note": "修复"
+      },
+      {
+        "w": "recover",
+        "note": "同类词"
+      }
+    ]
+  },
+  "reward": {
+    "synonyms": [
+      {
+        "w": "prize",
+        "note": "奖赏"
+      },
+      {
+        "w": "gift",
+        "note": "同类词"
+      }
+    ]
+  },
+  "routine": {
+    "synonyms": [
+      {
+        "w": "habit",
+        "note": "习惯"
+      }
+    ]
+  },
+  "scene": {
+    "synonyms": [
+      {
+        "w": "sight",
+        "note": "景象"
+      },
+      {
+        "w": "view",
+        "note": "同类词"
+      }
+    ]
+  },
+  "scratch": {
+    "synonyms": [
+      {
+        "w": "cut",
+        "note": "划伤"
+      }
+    ]
+  },
+  "servant": {
+    "synonyms": [
+      {
+        "w": "helper",
+        "note": "帮手"
+      }
+    ]
+  },
+  "settle": {
+    "synonyms": [
+      {
+        "w": "solve",
+        "note": "解决"
+      }
+    ]
+  },
+  "shore": {
+    "synonyms": [
+      {
+        "w": "coast",
+        "note": "海岸"
+      }
+    ]
+  },
+  "sight": {
+    "synonyms": [
+      {
+        "w": "view",
+        "note": "视野"
+      },
+      {
+        "w": "scene",
+        "note": "同类词"
+      }
+    ]
+  },
+  "signal": {
+    "synonyms": [
+      {
+        "w": "sign",
+        "note": "信号"
+      },
+      {
+        "w": "mark",
+        "note": "同类词"
+      },
+      {
+        "w": "symptom",
+        "note": "同类词"
+      }
+    ]
+  },
+  "skin": {
+    "synonyms": [
+      {
+        "w": "hide",
+        "note": "皮"
+      },
+      {
+        "w": "surface",
+        "note": "同类词"
+      }
+    ]
+  },
+  "solid": {
+    "synonyms": [
+      {
+        "w": "firm",
+        "note": "坚固"
+      }
+    ]
+  },
+  "splendid": {
+    "synonyms": [
+      {
+        "w": "wonderful",
+        "note": "极好"
+      }
+    ]
+  },
+  "spring": {
+    "synonyms": [
+      {
+        "w": "leap",
+        "note": "跳跃"
+      }
+    ]
+  },
+  "statue": {
+    "synonyms": [
+      {
+        "w": "figure",
+        "note": "雕像"
+      }
+    ]
+  },
+  "steel": {
+    "synonyms": [
+      {
+        "w": "iron",
+        "note": "铁"
+      }
+    ]
+  },
+  "studio": {
+    "synonyms": [
+      {
+        "w": "workshop",
+        "note": "车间"
+      }
+    ]
+  },
+  "suffer": {
+    "synonyms": [
+      {
+        "w": "bear",
+        "note": "忍受"
+      }
+    ]
+  },
+  "surface": {
+    "synonyms": [
+      {
+        "w": "outside",
+        "note": "表面"
+      },
+      {
+        "w": "skin",
+        "note": "同类词"
+      },
+      {
+        "w": "hide",
+        "note": "同类词"
+      }
+    ]
+  },
+  "survey": {
+    "synonyms": [
+      {
+        "w": "examine",
+        "note": "调查"
+      }
+    ]
+  },
+  "symbol": {
+    "synonyms": [
+      {
+        "w": "sign",
+        "note": "象征"
+      },
+      {
+        "w": "mark",
+        "note": "同类词"
+      }
+    ]
+  },
+  "symptom": {
+    "synonyms": [
+      {
+        "w": "sign",
+        "note": "症状"
+      },
+      {
+        "w": "signal",
+        "note": "同类词"
+      }
+    ]
+  },
+  "temple": {
+    "synonyms": [
+      {
+        "w": "church",
+        "note": "教堂"
+      }
+    ]
+  },
+  "through": {
+    "synonyms": [
+      {
+        "w": "across",
+        "note": "穿过"
+      }
+    ]
+  },
+  "tight": {
+    "synonyms": [
+      {
+        "w": "firm",
+        "note": "紧"
+      },
+      {
+        "w": "close",
+        "note": "同类词"
+      }
+    ]
+  },
+  "total": {
+    "synonyms": [
+      {
+        "w": "whole",
+        "note": "全部"
+      }
+    ]
+  },
+  "traffic": {
+    "synonyms": [
+      {
+        "w": "transport",
+        "note": "运输"
+      }
+    ]
+  },
+  "tunnel": {
+    "synonyms": [
+      {
+        "w": "passage",
+        "note": "通道"
+      },
+      {
+        "w": "channel",
+        "note": "同类词"
+      }
+    ]
+  },
+  "urgent": {
+    "synonyms": [
+      {
+        "w": "important",
+        "note": "重要"
+      }
+    ]
+  },
+  "view": {
+    "synonyms": [
+      {
+        "w": "sight",
+        "note": "景色"
+      },
+      {
+        "w": "scene",
+        "note": "同类词"
+      }
+    ]
+  },
+  "visitor": {
+    "synonyms": [
+      {
+        "w": "guest",
+        "note": "客人"
+      },
+      {
+        "w": "stranger",
+        "note": "同类词"
+      }
+    ]
+  },
+  "waste": {
+    "synonyms": [
+      {
+        "w": "spoil",
+        "note": "糟蹋"
+      },
+      {
+        "w": "ruin",
+        "note": "同类词"
+      }
+    ]
+  },
+  "wonder": {
+    "synonyms": [
+      {
+        "w": "surprise",
+        "note": "惊奇"
+      }
+    ]
+  },
+  "wrap": {
+    "synonyms": [
+      {
+        "w": "cover",
+        "note": "包裹"
+      }
+    ]
+  },
+  "wreck": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "残骸"
+      },
+      {
+        "w": "spoil",
+        "note": "同类词"
+      }
+    ]
+  },
+  "send": {
+    "synonyms": [
+      {
+        "w": "post",
+        "note": "邮寄"
+      }
+    ]
+  },
+  "find": {
+    "synonyms": [
+      {
+        "w": "search",
+        "note": "寻找"
+      },
+      {
+        "w": "discover",
+        "note": "同类词"
+      },
+      {
+        "w": "invent",
+        "note": "同类词"
+      }
+    ]
+  },
+  "catch": {
+    "synonyms": [
+      {
+        "w": "hold",
+        "note": "握住"
+      }
+    ]
+  },
+  "boat": {
+    "synonyms": [
+      {
+        "w": "ship",
+        "note": "轮船"
+      }
+    ]
+  },
+  "receive": {
+    "synonyms": [
+      {
+        "w": "accept",
+        "note": "同类词"
+      },
+      {
+        "w": "welcome",
+        "note": "同类词"
+      }
+    ]
+  },
+  "inspector": {
+    "synonyms": [
+      {
+        "w": "detective",
+        "note": "同类词"
+      },
+      {
+        "w": "policeman",
+        "note": "同类词"
+      }
+    ]
+  },
+  "policeman": {
+    "synonyms": [
+      {
+        "w": "detective",
+        "note": "同类词"
+      },
+      {
+        "w": "inspector",
+        "note": "同类词"
+      },
+      {
+        "w": "guard",
+        "note": "同类词"
+      }
+    ]
+  },
+  "arrest": {
+    "synonyms": [
+      {
+        "w": "charge",
+        "note": "同类词"
+      }
+    ]
+  },
+  "charge": {
+    "synonyms": [
+      {
+        "w": "arrest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "accuse": {
+    "synonyms": [
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "suspect": {
+    "synonyms": [
+      {
+        "w": "accuse",
+        "note": "同类词"
+      },
+      {
+        "w": "witness",
+        "note": "同类词"
+      }
+    ]
+  },
+  "prisoner": {
+    "synonyms": [
+      {
+        "w": "thief",
+        "note": "同类词"
+      }
+    ]
+  },
+  "thief": {
+    "synonyms": [
+      {
+        "w": "prisoner",
+        "note": "同类词"
+      }
+    ]
+  },
+  "strange": {
+    "synonyms": [
+      {
+        "w": "curious",
+        "note": "同类词"
+      }
+    ]
+  },
+  "curious": {
+    "synonyms": [
+      {
+        "w": "strange",
+        "note": "同类词"
+      },
+      {
+        "w": "suspicious",
+        "note": "同类词"
+      }
+    ]
+  },
+  "unusual": {
+    "synonyms": [
+      {
+        "w": "weird",
+        "note": "同类词"
+      },
+      {
+        "w": "extraordinary",
+        "note": "同类词"
+      }
+    ]
+  },
+  "wonderful": {
+    "synonyms": [
+      {
+        "w": "splendid",
+        "note": "同类词"
+      }
+    ]
+  },
+  "expensive": {
+    "synonyms": [
+      {
+        "w": "valuable",
+        "note": "同类词"
+      },
+      {
+        "w": "precious",
+        "note": "同类词"
+      }
+    ]
+  },
+  "whole": {
+    "synonyms": [
+      {
+        "w": "complete",
+        "note": "同类词"
+      },
+      {
+        "w": "total",
+        "note": "同类词"
+      }
+    ]
+  },
+  "anxious": {
+    "synonyms": [
+      {
+        "w": "nervous",
+        "note": "同类词"
+      },
+      {
+        "w": "worried",
+        "note": "同类词"
+      }
+    ]
+  },
+  "worried": {
+    "synonyms": [
+      {
+        "w": "nervous",
+        "note": "同类词"
+      },
+      {
+        "w": "anxious",
+        "note": "同类词"
+      }
+    ]
+  },
+  "proud": {
+    "synonyms": [
+      {
+        "w": "confident",
+        "note": "同类词"
+      }
+    ]
+  },
+  "confident": {
+    "synonyms": [
+      {
+        "w": "proud",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fair": {
+    "synonyms": [
+      {
+        "w": "honest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "astonish": {
+    "synonyms": [
+      {
+        "w": "surprise",
+        "note": "同类词"
+      }
+    ]
+  },
+  "frighten": {
+    "synonyms": [
+      {
+        "w": "shock",
+        "note": "同类词"
+      },
+      {
+        "w": "threaten",
+        "note": "同类词"
+      }
+    ]
+  },
+  "pleased": {
+    "synonyms": [
+      {
+        "w": "delighted",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ruin": {
+    "synonyms": [
+      {
+        "w": "damage",
+        "note": "同类词"
+      },
+      {
+        "w": "spoil",
+        "note": "同类词"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      },
+      {
+        "w": "waste",
+        "note": "同类词"
+      }
+    ]
+  },
+  "spoil": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "同类词"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      },
+      {
+        "w": "waste",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fix": {
+    "synonyms": [
+      {
+        "w": "repair",
+        "note": "同类词"
+      },
+      {
+        "w": "mend",
+        "note": "同类词"
+      }
+    ]
+  },
+  "develop": {
+    "synonyms": [
+      {
+        "w": "progress",
+        "note": "同类词"
+      }
+    ]
+  },
+  "progress": {
+    "synonyms": [
+      {
+        "w": "develop",
+        "note": "同类词"
+      }
+    ]
+  },
+  "increase": {
+    "synonyms": [
+      {
+        "w": "grow",
+        "note": "同类词"
+      }
+    ]
+  },
+  "grow": {
+    "synonyms": [
+      {
+        "w": "increase",
+        "note": "同类词"
+      }
+    ]
+  },
+  "profit": {
+    "synonyms": [
+      {
+        "w": "income",
+        "note": "同类词"
+      }
+    ]
+  },
+  "income": {
+    "synonyms": [
+      {
+        "w": "profit",
+        "note": "同类词"
+      },
+      {
+        "w": "salary",
+        "note": "同类词"
+      }
+    ]
+  },
+  "lend": {
+    "synonyms": [
+      {
+        "w": "borrow",
+        "note": "同类词"
+      }
+    ]
+  },
+  "company": {
+    "synonyms": [
+      {
+        "w": "firm",
+        "note": "同类词"
+      },
+      {
+        "w": "business",
+        "note": "同类词"
+      }
+    ]
+  },
+  "business": {
+    "synonyms": [
+      {
+        "w": "firm",
+        "note": "同类词"
+      },
+      {
+        "w": "company",
+        "note": "同类词"
+      }
+    ]
+  },
+  "goods": {
+    "synonyms": [
+      {
+        "w": "product",
+        "note": "同类词"
+      },
+      {
+        "w": "article",
+        "note": "同类词"
+      }
+    ]
+  },
+  "article": {
+    "synonyms": [
+      {
+        "w": "product",
+        "note": "同类词"
+      },
+      {
+        "w": "goods",
+        "note": "同类词"
+      }
+    ]
+  },
+  "amount": {
+    "synonyms": [
+      {
+        "w": "quantity",
+        "note": "同类词"
+      }
+    ]
+  },
+  "rival": {
+    "synonyms": [
+      {
+        "w": "compete",
+        "note": "同类词"
+      },
+      {
+        "w": "race",
+        "note": "同类词"
+      },
+      {
+        "w": "opponent",
+        "note": "同类词"
+      }
+    ]
+  },
+  "race": {
+    "synonyms": [
+      {
+        "w": "compete",
+        "note": "同类词"
+      },
+      {
+        "w": "rival",
+        "note": "同类词"
+      }
+    ]
+  },
+  "succeed": {
+    "synonyms": [
+      {
+        "w": "manage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fire": {
+    "synonyms": [
+      {
+        "w": "sack",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sack": {
+    "synonyms": [
+      {
+        "w": "fire",
+        "note": "同类词"
+      }
+    ]
+  },
+  "aircraft": {
+    "synonyms": [
+      {
+        "w": "aeroplane",
+        "note": "同类词"
+      }
+    ]
+  },
+  "station": {
+    "synonyms": [
+      {
+        "w": "airport",
+        "note": "同类词"
+      },
+      {
+        "w": "port",
+        "note": "同类词"
+      }
+    ]
+  },
+  "port": {
+    "synonyms": [
+      {
+        "w": "airport",
+        "note": "同类词"
+      },
+      {
+        "w": "station",
+        "note": "同类词"
+      },
+      {
+        "w": "harbour",
+        "note": "同类词"
+      }
+    ]
+  },
+  "rush": {
+    "synonyms": [
+      {
+        "w": "hurry",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ashore": {
+    "synonyms": [
+      {
+        "w": "land",
+        "note": "同类词"
+      },
+      {
+        "w": "arrive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "arrive": {
+    "synonyms": [
+      {
+        "w": "land",
+        "note": "同类词"
+      },
+      {
+        "w": "ashore",
+        "note": "同类词"
+      },
+      {
+        "w": "return",
+        "note": "同类词"
+      }
+    ]
+  },
+  "float": {
+    "synonyms": [
+      {
+        "w": "drift",
+        "note": "同类词"
+      }
+    ]
+  },
+  "drift": {
+    "synonyms": [
+      {
+        "w": "float",
+        "note": "同类词"
+      }
+    ]
+  },
+  "circle": {
+    "synonyms": [
+      {
+        "w": "orbit",
+        "note": "同类词"
+      }
+    ]
+  },
+  "reason": {
+    "synonyms": [
+      {
+        "w": "cause",
+        "note": "同类词"
+      },
+      {
+        "w": "source",
+        "note": "同类词"
+      }
+    ]
+  },
+  "source": {
+    "synonyms": [
+      {
+        "w": "cause",
+        "note": "同类词"
+      },
+      {
+        "w": "reason",
+        "note": "同类词"
+      }
+    ]
+  },
+  "alone": {
+    "synonyms": [
+      {
+        "w": "single",
+        "note": "同类词"
+      },
+      {
+        "w": "lonely",
+        "note": "同类词"
+      }
+    ]
+  },
+  "group": {
+    "synonyms": [
+      {
+        "w": "crowd",
+        "note": "同类词"
+      }
+    ]
+  },
+  "stranger": {
+    "synonyms": [
+      {
+        "w": "neighbour",
+        "note": "同类词"
+      },
+      {
+        "w": "foreigner",
+        "note": "同类词"
+      },
+      {
+        "w": "guest",
+        "note": "同类词"
+      },
+      {
+        "w": "visitor",
+        "note": "同类词"
+      }
+    ]
+  },
+  "foreigner": {
+    "synonyms": [
+      {
+        "w": "neighbour",
+        "note": "同类词"
+      },
+      {
+        "w": "stranger",
+        "note": "同类词"
+      }
+    ]
+  },
+  "relation": {
+    "synonyms": [
+      {
+        "w": "relative",
+        "note": "同类词"
+      }
+    ]
+  },
+  "government": {
+    "synonyms": [
+      {
+        "w": "authority",
+        "note": "同类词"
+      },
+      {
+        "w": "official",
+        "note": "同类词"
+      }
+    ]
+  },
+  "official": {
+    "synonyms": [
+      {
+        "w": "authority",
+        "note": "同类词"
+      },
+      {
+        "w": "government",
+        "note": "同类词"
+      },
+      {
+        "w": "lawyer",
+        "note": "同类词"
+      },
+      {
+        "w": "minister",
+        "note": "同类词"
+      }
+    ]
+  },
+  "speech": {
+    "synonyms": [
+      {
+        "w": "language",
+        "note": "同类词"
+      }
+    ]
+  },
+  "invent": {
+    "synonyms": [
+      {
+        "w": "discover",
+        "note": "同类词"
+      },
+      {
+        "w": "find",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sound": {
+    "synonyms": [
+      {
+        "w": "noise",
+        "note": "同类词"
+      },
+      {
+        "w": "tone",
+        "note": "同类词"
+      }
+    ]
+  },
+  "escape": {
+    "synonyms": [
+      {
+        "w": "avoid",
+        "note": "同类词"
+      }
+    ]
+  },
+  "control": {
+    "synonyms": [
+      {
+        "w": "order",
+        "note": "同类词"
+      },
+      {
+        "w": "manage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "order": {
+    "synonyms": [
+      {
+        "w": "control",
+        "note": "同类词"
+      }
+    ]
+  },
+  "appreciate": {
+    "synonyms": [
+      {
+        "w": "admire",
+        "note": "同类词"
+      }
+    ]
+  },
+  "seem": {
+    "synonyms": [
+      {
+        "w": "appear",
+        "note": "同类词"
+      }
+    ]
+  },
+  "collect": {
+    "synonyms": [
+      {
+        "w": "gather",
+        "note": "同类词"
+      },
+      {
+        "w": "assemble",
+        "note": "同类词"
+      }
+    ]
+  },
+  "assemble": {
+    "synonyms": [
+      {
+        "w": "gather",
+        "note": "同类词"
+      },
+      {
+        "w": "collect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "pause": {
+    "synonyms": [
+      {
+        "w": "hesitate",
+        "note": "同类词"
+      },
+      {
+        "w": "delay",
+        "note": "同类词"
+      }
+    ]
+  },
+  "delay": {
+    "synonyms": [
+      {
+        "w": "hesitate",
+        "note": "同类词"
+      },
+      {
+        "w": "pause",
+        "note": "同类词"
+      }
+    ]
+  },
+  "cover": {
+    "synonyms": [
+      {
+        "w": "hide",
+        "note": "同类词"
+      },
+      {
+        "w": "wrap",
+        "note": "同类词"
+      }
+    ]
+  },
+  "honour": {
+    "synonyms": [
+      {
+        "w": "admire",
+        "note": "同类词"
+      },
+      {
+        "w": "reputation",
+        "note": "同类词"
+      }
+    ],
+    "variants": [
+      {
+        "form": "honor",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "dream": {
+    "synonyms": [
+      {
+        "w": "imagine",
+        "note": "同类词"
+      }
+    ]
+  },
+  "instruct": {
+    "synonyms": [
+      {
+        "w": "train",
+        "note": "同类词"
+      }
+    ]
+  },
+  "train": {
+    "synonyms": [
+      {
+        "w": "instruct",
+        "note": "同类词"
+      }
+    ]
+  },
+  "lawyer": {
+    "synonyms": [
+      {
+        "w": "official",
+        "note": "同类词"
+      }
+    ]
+  },
+  "fortune": {
+    "synonyms": [
+      {
+        "w": "luck",
+        "note": "同类词"
+      },
+      {
+        "w": "chance",
+        "note": "同类词"
+      },
+      {
+        "w": "treasure",
+        "note": "同类词"
+      }
+    ]
+  },
+  "chance": {
+    "synonyms": [
+      {
+        "w": "luck",
+        "note": "同类词"
+      },
+      {
+        "w": "fortune",
+        "note": "同类词"
+      },
+      {
+        "w": "opportunity",
+        "note": "同类词"
+      },
+      {
+        "w": "occasion",
+        "note": "同类词"
+      }
+    ]
+  },
+  "letter": {
+    "synonyms": [
+      {
+        "w": "message",
+        "note": "同类词"
+      },
+      {
+        "w": "note",
+        "note": "同类词"
+      }
+    ]
+  },
+  "note": {
+    "synonyms": [
+      {
+        "w": "message",
+        "note": "同类词"
+      },
+      {
+        "w": "letter",
+        "note": "同类词"
+      },
+      {
+        "w": "record",
+        "note": "同类词"
+      },
+      {
+        "w": "register",
+        "note": "同类词"
+      }
+    ]
+  },
+  "museum": {
+    "synonyms": [
+      {
+        "w": "exhibition",
+        "note": "同类词"
+      }
+    ]
+  },
+  "exhibition": {
+    "synonyms": [
+      {
+        "w": "museum",
+        "note": "同类词"
+      }
+    ]
+  },
+  "royal": {
+    "synonyms": [
+      {
+        "w": "noble",
+        "note": "同类词"
+      }
+    ]
+  },
+  "operation": {
+    "synonyms": [
+      {
+        "w": "process",
+        "note": "同类词"
+      }
+    ]
+  },
+  "process": {
+    "synonyms": [
+      {
+        "w": "operation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "opponent": {
+    "synonyms": [
+      {
+        "w": "rival",
+        "note": "同类词"
+      }
+    ]
+  },
+  "occasion": {
+    "synonyms": [
+      {
+        "w": "opportunity",
+        "note": "同类词"
+      },
+      {
+        "w": "chance",
+        "note": "同类词"
+      }
+    ]
+  },
+  "parcel": {
+    "synonyms": [
+      {
+        "w": "package",
+        "note": "同类词"
+      }
+    ]
+  },
+  "pattern": {
+    "synonyms": [
+      {
+        "w": "design",
+        "note": "同类词"
+      }
+    ]
+  },
+  "design": {
+    "synonyms": [
+      {
+        "w": "pattern",
+        "note": "同类词"
+      }
+    ]
+  },
+  "performance": {
+    "synonyms": [
+      {
+        "w": "play",
+        "note": "同类词"
+      }
+    ]
+  },
+  "play": {
+    "synonyms": [
+      {
+        "w": "performance",
+        "note": "同类词"
+      },
+      {
+        "w": "dance",
+        "note": "同类词"
+      }
+    ]
+  },
+  "captain": {
+    "synonyms": [
+      {
+        "w": "pilot",
+        "note": "同类词"
+      },
+      {
+        "w": "sailor",
+        "note": "同类词"
+      }
+    ]
+  },
+  "plain": {
+    "synonyms": [
+      {
+        "w": "clear",
+        "note": "同类词"
+      }
+    ]
+  },
+  "clear": {
+    "synonyms": [
+      {
+        "w": "plain",
+        "note": "同类词"
+      }
+    ]
+  },
+  "pocket": {
+    "synonyms": [
+      {
+        "w": "wallet",
+        "note": "同类词"
+      }
+    ]
+  },
+  "wallet": {
+    "synonyms": [
+      {
+        "w": "pocket",
+        "note": "同类词"
+      },
+      {
+        "w": "purse",
+        "note": "同类词"
+      }
+    ]
+  },
+  "guard": {
+    "synonyms": [
+      {
+        "w": "policeman",
+        "note": "同类词"
+      }
+    ]
+  },
+  "own": {
+    "synonyms": [
+      {
+        "w": "possess",
+        "note": "同类词"
+      },
+      {
+        "w": "hold",
+        "note": "同类词"
+      }
+    ]
+  },
+  "hold": {
+    "synonyms": [
+      {
+        "w": "possess",
+        "note": "同类词"
+      },
+      {
+        "w": "own",
+        "note": "同类词"
+      },
+      {
+        "w": "catch",
+        "note": "同类词"
+      }
+    ]
+  },
+  "predict": {
+    "synonyms": [
+      {
+        "w": "expect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "expect": {
+    "synonyms": [
+      {
+        "w": "predict",
+        "note": "同类词"
+      }
+    ]
+  },
+  "act": {
+    "synonyms": [
+      {
+        "w": "pretend",
+        "note": "同类词"
+      }
+    ]
+  },
+  "protest": {
+    "synonyms": [
+      {
+        "w": "object",
+        "note": "同类词"
+      }
+    ]
+  },
+  "object": {
+    "synonyms": [
+      {
+        "w": "protest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "queue": {
+    "synonyms": [
+      {
+        "w": "row",
+        "note": "同类词"
+      }
+    ]
+  },
+  "row": {
+    "synonyms": [
+      {
+        "w": "queue",
+        "note": "同类词"
+      }
+    ]
+  },
+  "react": {
+    "synonyms": [
+      {
+        "w": "reply",
+        "note": "同类词"
+      }
+    ]
+  },
+  "reply": {
+    "synonyms": [
+      {
+        "w": "react",
+        "note": "同类词"
+      }
+    ]
+  },
+  "realize": {
+    "synonyms": [
+      {
+        "w": "recognize",
+        "note": "同类词"
+      }
+    ]
+  },
+  "recognize": {
+    "synonyms": [
+      {
+        "w": "realize",
+        "note": "同类词"
+      }
+    ]
+  },
+  "recover": {
+    "synonyms": [
+      {
+        "w": "restore",
+        "note": "同类词"
+      }
+    ]
+  },
+  "distant": {
+    "synonyms": [
+      {
+        "w": "remote",
+        "note": "同类词"
+      },
+      {
+        "w": "far",
+        "note": "同类词"
+      }
+    ]
+  },
+  "far": {
+    "synonyms": [
+      {
+        "w": "remote",
+        "note": "同类词"
+      },
+      {
+        "w": "distant",
+        "note": "同类词"
+      }
+    ]
+  },
+  "reputation": {
+    "synonyms": [
+      {
+        "w": "honour",
+        "note": "同类词"
+      }
+    ]
+  },
+  "save": {
+    "synonyms": [
+      {
+        "w": "rescue",
+        "note": "同类词"
+      }
+    ]
+  },
+  "prize": {
+    "synonyms": [
+      {
+        "w": "reward",
+        "note": "同类词"
+      },
+      {
+        "w": "gift",
+        "note": "同类词"
+      }
+    ]
+  },
+  "gift": {
+    "synonyms": [
+      {
+        "w": "reward",
+        "note": "同类词"
+      },
+      {
+        "w": "prize",
+        "note": "同类词"
+      }
+    ]
+  },
+  "habit": {
+    "synonyms": [
+      {
+        "w": "routine",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sailor": {
+    "synonyms": [
+      {
+        "w": "captain",
+        "note": "同类词"
+      }
+    ]
+  },
+  "cut": {
+    "synonyms": [
+      {
+        "w": "scratch",
+        "note": "同类词"
+      }
+    ]
+  },
+  "helper": {
+    "synonyms": [
+      {
+        "w": "servant",
+        "note": "同类词"
+      }
+    ]
+  },
+  "solve": {
+    "synonyms": [
+      {
+        "w": "settle",
+        "note": "同类词"
+      }
+    ]
+  },
+  "shadow": {
+    "synonyms": [
+      {
+        "w": "dark",
+        "note": "同类词"
+      }
+    ]
+  },
+  "dark": {
+    "synonyms": [
+      {
+        "w": "shadow",
+        "note": "同类词"
+      }
+    ]
+  },
+  "coast": {
+    "synonyms": [
+      {
+        "w": "shore",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sign": {
+    "synonyms": [
+      {
+        "w": "signal",
+        "note": "同类词"
+      },
+      {
+        "w": "mark",
+        "note": "同类词"
+      },
+      {
+        "w": "symbol",
+        "note": "同类词"
+      },
+      {
+        "w": "symptom",
+        "note": "同类词"
+      }
+    ]
+  },
+  "mark": {
+    "synonyms": [
+      {
+        "w": "signal",
+        "note": "同类词"
+      },
+      {
+        "w": "sign",
+        "note": "同类词"
+      },
+      {
+        "w": "symbol",
+        "note": "同类词"
+      }
+    ]
+  },
+  "slowly": {
+    "synonyms": [
+      {
+        "w": "gently",
+        "note": "同类词"
+      }
+    ]
+  },
+  "gently": {
+    "synonyms": [
+      {
+        "w": "slowly",
+        "note": "同类词"
+      }
+    ]
+  },
+  "space": {
+    "synonyms": [
+      {
+        "w": "area",
+        "note": "同类词"
+      }
+    ]
+  },
+  "area": {
+    "synonyms": [
+      {
+        "w": "space",
+        "note": "同类词"
+      }
+    ]
+  },
+  "stable": {
+    "synonyms": [
+      {
+        "w": "firm",
+        "note": "同类词"
+      }
+    ]
+  },
+  "figure": {
+    "synonyms": [
+      {
+        "w": "statue",
+        "note": "同类词"
+      }
+    ]
+  },
+  "steam": {
+    "synonyms": [
+      {
+        "w": "smoke",
+        "note": "同类词"
+      }
+    ]
+  },
+  "smoke": {
+    "synonyms": [
+      {
+        "w": "steam",
+        "note": "同类词"
+      }
+    ]
+  },
+  "iron": {
+    "synonyms": [
+      {
+        "w": "steel",
+        "note": "同类词"
+      }
+    ]
+  },
+  "structure": {
+    "synonyms": [
+      {
+        "w": "framework",
+        "note": "同类词"
+      },
+      {
+        "w": "tower",
+        "note": "同类词"
+      }
+    ]
+  },
+  "framework": {
+    "synonyms": [
+      {
+        "w": "structure",
+        "note": "同类词"
+      }
+    ]
+  },
+  "workshop": {
+    "synonyms": [
+      {
+        "w": "studio",
+        "note": "同类词"
+      }
+    ]
+  },
+  "bear": {
+    "synonyms": [
+      {
+        "w": "suffer",
+        "note": "同类词"
+      }
+    ]
+  },
+  "outside": {
+    "synonyms": [
+      {
+        "w": "surface",
+        "note": "同类词"
+      }
+    ]
+  },
+  "examine": {
+    "synonyms": [
+      {
+        "w": "survey",
+        "note": "同类词"
+      }
+    ]
+  },
+  "suspicious": {
+    "synonyms": [
+      {
+        "w": "curious",
+        "note": "同类词"
+      }
+    ]
+  },
+  "church": {
+    "synonyms": [
+      {
+        "w": "temple",
+        "note": "同类词"
+      }
+    ]
+  },
+  "threaten": {
+    "synonyms": [
+      {
+        "w": "frighten",
+        "note": "同类词"
+      }
+    ]
+  },
+  "across": {
+    "synonyms": [
+      {
+        "w": "through",
+        "note": "同类词"
+      }
+    ]
+  },
+  "close": {
+    "synonyms": [
+      {
+        "w": "tight",
+        "note": "同类词"
+      },
+      {
+        "w": "firm",
+        "note": "同类词"
+      }
+    ]
+  },
+  "tone": {
+    "synonyms": [
+      {
+        "w": "sound",
+        "note": "同类词"
+      }
+    ]
+  },
+  "tower": {
+    "synonyms": [
+      {
+        "w": "structure",
+        "note": "同类词"
+      }
+    ]
+  },
+  "transport": {
+    "synonyms": [
+      {
+        "w": "traffic",
+        "note": "同类词"
+      }
+    ]
+  },
+  "treasure": {
+    "synonyms": [
+      {
+        "w": "fortune",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "gold"
+    ]
+  },
+  "passage": {
+    "synonyms": [
+      {
+        "w": "tunnel",
+        "note": "同类词"
+      },
+      {
+        "w": "channel",
+        "note": "同类词"
+      }
+    ]
+  },
+  "channel": {
+    "synonyms": [
+      {
+        "w": "tunnel",
+        "note": "同类词"
+      },
+      {
+        "w": "passage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "important": {
+    "synonyms": [
+      {
+        "w": "urgent",
+        "note": "同类词"
+      }
+    ]
+  },
+  "welcome": {
+    "synonyms": [
+      {
+        "w": "receive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "believe": {
+    "synonyms": [
+      {
+        "w": "suppose",
+        "note": "同类词"
+      }
+    ]
+  },
+  "suppose": {
+    "synonyms": [
+      {
+        "w": "believe",
+        "note": "同类词"
+      },
+      {
+        "w": "imagine",
+        "note": "同类词"
+      }
+    ]
+  },
+  "search": {
+    "synonyms": [
+      {
+        "w": "find",
+        "note": "同类词"
+      },
+      {
+        "w": "discover",
+        "note": "同类词"
+      }
+    ]
+  },
+  "drop": {
+    "synonyms": [
+      {
+        "w": "sink",
+        "note": "同类词"
+      }
+    ]
+  },
+  "sink": {
+    "synonyms": [
+      {
+        "w": "drop",
+        "note": "同类词"
+      }
+    ]
+  },
+  "call": {
+    "synonyms": [
+      {
+        "w": "approach",
+        "note": "同类词"
+      }
+    ]
+  },
+  "approach": {
+    "synonyms": [
+      {
+        "w": "call",
+        "note": "同类词"
+      }
+    ]
+  },
+  "return": {
+    "synonyms": [
+      {
+        "w": "arrive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "smash": {
+    "synonyms": [
+      {
+        "w": "damage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "dance": {
+    "synonyms": [
+      {
+        "w": "play",
+        "note": "同类词"
+      }
+    ]
+  },
+  "leap": {
+    "synonyms": [
+      {
+        "w": "spring",
+        "note": "同类词"
+      }
+    ]
+  },
+  "request": {
+    "synonyms": [
+      {
+        "w": "inquire",
+        "note": "同类词"
+      }
+    ]
+  },
+  "inquire": {
+    "synonyms": [
+      {
+        "w": "request",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ship": {
+    "synonyms": [
+      {
+        "w": "boat",
+        "note": "同类词"
+      }
+    ]
+  },
+  "companion": {
+    "synonyms": [
+      {
+        "w": "guest",
+        "note": "同类词"
+      }
+    ]
+  },
+  "steal": {
+    "related": [
+      "thief",
+      "policeman"
+    ]
+  },
+  "murder": {
+    "related": [
+      "detective",
+      "prisoner"
+    ]
+  },
+  "centre": {
+    "variants": [
+      {
+        "form": "center",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "grey": {
+    "variants": [
+      {
+        "form": "gray",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "woollen": {
+    "variants": [
+      {
+        "form": "woolen",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "bank": {
+    "related": [
+      "salary",
+      "income"
+    ]
+  },
+  "hospital": {
+    "related": [
+      "patient"
+    ]
+  },
+  "olympic": {
+    "related": [
+      "compete",
+      "defeat"
+    ]
+  },
+  "atmosphere": {
+    "related": [
+      "orbit",
+      "space"
+    ]
+  },
+  "cave": {
+    "related": [
+      "treasure",
+      "explorer"
+    ]
+  },
+  "explorer": {
+    "related": [
+      "discover",
+      "treasure"
+    ]
+  }
+}

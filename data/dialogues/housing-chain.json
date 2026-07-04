@@ -1,0 +1,189 @@
+[
+  {
+    "id": "dlg-chain-house-01",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Schedule a Viewing",
+    "titleCn": "第1环：预约看房",
+    "scene": "你在网上看到一套公寓，打电话预约看房。（对话链：租房入住）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，Oak 公寓租赁。", "en": "Hello, Oak Apartments leasing." },
+      { "role": "You", "cn": "我想看一室一厅，明天下午有空吗？", "en": "I'd like to see a one-bedroom. Any openings tomorrow afternoon?" },
+      { "role": "Agent", "cn": "三点可以，请问怎么称呼？", "en": "Three PM works. May I have your name?" },
+      { "role": "You", "cn": "张伟，需要带什么材料？", "en": "Zhang Wei. What should I bring?" },
+      { "role": "Agent", "cn": "身份证就行，到了前台登记。", "en": "Just ID. Check in at the front desk." },
+      { "role": "You", "cn": "好的，明天见。", "en": "Okay. See you tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-02",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Apartment Tour",
+    "titleCn": "第2环：实地看房",
+    "scene": "中介带你参观公寓。（对话链：租房入住）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "欢迎，这套一室一厅，月租一千八。", "en": "Welcome. This is a one-bedroom, eighteen hundred a month." },
+      { "role": "You", "cn": "水电费包含在房租里吗？", "en": "Are utilities included in the rent?" },
+      { "role": "Agent", "cn": "不含，暖气另算，大概每月八十。", "en": "No, heat is separate, about eighty a month." },
+      { "role": "You", "cn": "可以养宠物吗？", "en": "Are pets allowed?" },
+      { "role": "Agent", "cn": "可以养猫，狗需要额外押金。", "en": "Cats are fine. Dogs require an extra deposit." },
+      { "role": "You", "cn": "什么时候可以入住？", "en": "When is it available?" },
+      { "role": "Agent", "cn": "下月一号，要先交一个月押金。", "en": "The first of next month. One month's deposit required." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-03",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Apply for Lease",
+    "titleCn": "第3环：提交申请",
+    "scene": "你看中了，问中介申请流程。（对话链：租房入住）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "我想申请这套，需要什么材料？", "en": "I'd like to apply. What documents do you need?" },
+      { "role": "Agent", "cn": "申请表、收入证明、推荐信。", "en": "Application form, proof of income, and a reference letter." },
+      { "role": "You", "cn": "申请费多少？多久出结果？", "en": "What's the application fee? How long for approval?" },
+      { "role": "Agent", "cn": "五十块，通常三到五个工作日。", "en": "Fifty dollars. Usually three to five business days." },
+      { "role": "You", "cn": "好，我今天填好发您。", "en": "Okay. I'll fill it out and send it today." },
+      { "role": "Agent", "cn": "收到后我帮您跟进。", "en": "I'll follow up once I receive it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-04",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Sign the Lease",
+    "titleCn": "第4环：签约入住",
+    "scene": "申请通过，你来签租约拿钥匙。（对话链：租房入住）",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "恭喜通过，这是租约，请过目。", "en": "Congratulations. Here's the lease. Please review it." },
+      { "role": "You", "cn": "租期一年，提前退租要赔一个月对吧？", "en": "One-year term. Early termination costs one month's rent, right?" },
+      { "role": "Landlord", "cn": "对，首月房租加押金今天一起付。", "en": "Correct. First month's rent plus deposit due today." },
+      { "role": "You", "cn": "刷卡可以吗？钥匙几把？", "en": "Can I pay by card? How many keys?" },
+      { "role": "Landlord", "cn": "可以，大门和信箱各一把。", "en": "Yes. One for the door and one for the mailbox." },
+      { "role": "You", "cn": "谢谢，我周末搬进来。", "en": "Thank you. I'll move in this weekend." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-05",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Set Up Utilities",
+    "titleCn": "第5环：开通水电",
+    "scene": "搬进新家，你打电话开通电费账户。（对话链：租房入住）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "电力公司客服，有什么可以帮您？", "en": "Power company. How can I help you?" },
+      { "role": "You", "cn": "我搬了新家，想开通电账户。", "en": "I just moved and need to set up an electricity account." },
+      { "role": "Agent", "cn": "请提供新地址和社会安全号后四位。", "en": "May I have your new address and the last four of your Social Security number?" },
+      { "role": "You", "cn": "456 Oak Avenue，后四位是1234。", "en": "Four fifty-six Oak Avenue. Last four digits are one two three four." },
+      { "role": "Agent", "cn": "从明天起生效，首月账单下月寄出。", "en": "Service starts tomorrow. Your first bill comes next month." },
+      { "role": "You", "cn": "可以自动扣款吗？", "en": "Can I set up auto-pay?" },
+      { "role": "Agent", "cn": "可以，我帮您登记银行账户。", "en": "Yes. I'll register your bank account for that." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-06",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Report a Repair",
+    "titleCn": "第6环：报修空调",
+    "scene": "入住两周后空调不制冷，你联系物业。（对话链：租房入住）",
+    "roles": ["You", "Maintenance"],
+    "turns": [
+      { "role": "Maintenance", "cn": "物业维修，请问什么问题？", "en": "Building maintenance. What's the issue?" },
+      { "role": "You", "cn": "空调不制冷了，房间很热。", "en": "The AC isn't cooling. The apartment is really hot." },
+      { "role": "Maintenance", "cn": "您的房号是多少？", "en": "What's your unit number?" },
+      { "role": "You", "cn": "802，过滤器上个月刚换过。", "en": "802. I changed the filter last month." },
+      { "role": "Maintenance", "cn": "我下午两点过去看看。", "en": "I'll come by around two PM." },
+      { "role": "You", "cn": "需要在家等吗？", "en": "Do I need to be home?" },
+      { "role": "Maintenance", "cn": "最好有人在，方便开门。", "en": "It's better if someone's there to let me in." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-07",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Laundry Room",
+    "titleCn": "第7环：洗衣房",
+    "scene": "你在公寓洗衣房，洗衣机被占满了。（对话链：租房入住）",
+    "roles": ["You", "Resident"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这台洗衣机是您用的吗？", "en": "Excuse me, is this your laundry in the washer?" },
+      { "role": "Resident", "cn": "是的，还有五分钟就好。", "en": "Yes, about five more minutes." },
+      { "role": "You", "cn": "烘干机有空吗？", "en": "Are any dryers available?" },
+      { "role": "Resident", "cn": "左边那台刚空出来。", "en": "The one on the left just opened up." },
+      { "role": "You", "cn": "谢谢，这栋楼洗衣房几点关？", "en": "Thanks. What time does the laundry room close?" },
+      { "role": "Resident", "cn": "晚上十点。", "en": "Ten PM." }
+    ]
+  },
+  {
+    "id": "dlg-chain-house-08",
+    "category": "housing",
+    "chain": {
+      "id": "renting-apartment",
+      "title": "Renting and Moving In",
+      "titleCn": "对话链：租房入住全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Lease Renewal",
+    "titleCn": "第8环：续租商量",
+    "scene": "租约快到期，房东问你续不续租。（对话链：租房入住）",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "张先生，租约下月到期，续租吗？", "en": "Mr. Zhang, your lease ends next month. Renewing?" },
+      { "role": "You", "cn": "想续，租金会涨吗？", "en": "I'd like to. Will the rent go up?" },
+      { "role": "Landlord", "cn": "涨五十，一千八百五，其他条件不变。", "en": "Fifty more, eighteen fifty. Other terms stay the same." },
+      { "role": "You", "cn": "能接受，能签两年吗？", "en": "I can accept that. Can we do a two-year lease?" },
+      { "role": "Landlord", "cn": "两年可以，不涨第二次。", "en": "Two years works. No second increase." },
+      { "role": "You", "cn": "好，我下周来签。", "en": "Great. I'll come sign next week." }
+    ]
+  }
+]

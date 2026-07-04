@@ -1,0 +1,189 @@
+[
+  {
+    "id": "dlg-chain-air-01",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Check-in Counter",
+    "titleCn": "第1环：办理登机",
+    "scene": "你到达机场，准备办理登机手续。（对话链：机场乘机）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，请出示护照和机票。", "en": "Good morning. May I see your passport and ticket, please?" },
+      { "role": "You", "cn": "给您。我想靠窗的座位。", "en": "Here you go. I'd like a window seat, please." },
+      { "role": "Agent", "cn": "好的，12A。您有行李要托运吗？", "en": "Sure, that's 12A. Do you have any bags to check?" },
+      { "role": "You", "cn": "有一个行李箱。", "en": "Yes, just one suitcase." },
+      { "role": "Agent", "cn": "请把行李放到传送带上。", "en": "Please place your bag on the conveyor belt." },
+      { "role": "Agent", "cn": "这是您的登机牌，登机口 B7。", "en": "Here's your boarding pass. Your gate is B7." },
+      { "role": "You", "cn": "几点开始登机？", "en": "What time does boarding start?" },
+      { "role": "Agent", "cn": "下午两点三十分，祝您旅途愉快！", "en": "Boarding begins at 2:30 PM. Have a great flight!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-02",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Security Check",
+    "titleCn": "第2环：安检",
+    "scene": "你正在通过机场安检。（对话链：机场乘机）",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "请把笔记本电脑从包里拿出来。", "en": "Please take your laptop out of your bag." },
+      { "role": "You", "cn": "好的，需要脱鞋吗？", "en": "Sure. Do I need to take off my shoes?" },
+      { "role": "Officer", "cn": "是的，请把外套也脱掉。", "en": "Yes, and please remove your jacket as well." },
+      { "role": "You", "cn": "我口袋里有一瓶水。", "en": "I have a water bottle in my pocket." },
+      { "role": "Officer", "cn": "液体不能过安检，请倒掉或扔掉。", "en": "Liquids aren't allowed. Please empty it or throw it away." },
+      { "role": "You", "cn": "好的，我这就倒掉。", "en": "Okay, I'll empty it right now." },
+      { "role": "Officer", "cn": "请走过安检门。", "en": "Please walk through the scanner." },
+      { "role": "Officer", "cn": "没问题，祝您旅途愉快。", "en": "You're all set. Have a nice trip." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-03",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Find Your Gate",
+    "titleCn": "第3环：找登机口",
+    "scene": "你在机场转机，找不到登机口 B7。（对话链：机场乘机）",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，去 B7 登机口怎么走？", "en": "Excuse me, how do I get to gate B7?" },
+      { "role": "Passenger", "cn": "坐扶梯上到二楼，然后左转。", "en": "Take the escalator up to the second floor, then turn left." },
+      { "role": "You", "cn": "大概要走多久？", "en": "How long does it take to get there?" },
+      { "role": "Passenger", "cn": "大约十分钟，你的航班几点？", "en": "About ten minutes. What time is your flight?" },
+      { "role": "You", "cn": "三点起飞，现在两点半了。", "en": "It departs at three. It's two thirty now." },
+      { "role": "Passenger", "cn": "来得及，走快点。", "en": "You'll make it. Just walk briskly." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-04",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Duty-Free Shopping",
+    "titleCn": "第4环：免税店购物",
+    "scene": "路过免税店，你想买巧克力当礼物。（对话链：机场乘机）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙吗？", "en": "Can I help you?" },
+      { "role": "You", "cn": "这盒巧克力可以带上飞机吗？", "en": "Can I bring this chocolate box on the plane?" },
+      { "role": "Clerk", "cn": "可以，已安检区域买的都能带。", "en": "Yes. Anything bought past security is fine." },
+      { "role": "You", "cn": "好，就要这个。", "en": "Great. I'll take this one." },
+      { "role": "Clerk", "cn": "十二块，刷卡吗？", "en": "Twelve dollars. Card?" },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card, please. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-05",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Gate Change",
+    "titleCn": "第5环：登机口变更",
+    "scene": "登机口屏幕显示 B7 改到 C12。（对话链：机场乘机）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，B7 改到 C12，请尽快过去。", "en": "Hi, gate B7 moved to C12. Please head there soon." },
+      { "role": "You", "cn": "C12 远吗？还来得及登机吗？", "en": "Is C12 far? Will I still make boarding?" },
+      { "role": "Agent", "cn": "走路八分钟，两点四十五开始登机。", "en": "Eight minutes on foot. Boarding starts at two forty-five." },
+      { "role": "You", "cn": "好，我现在过去。", "en": "Okay. I'm heading there now." },
+      { "role": "Agent", "cn": "祝您旅途愉快。", "en": "Have a good flight." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-06",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Flight Delay",
+    "titleCn": "第6环：航班延误",
+    "scene": "到了登机口，广播说航班延误一小时。（对话链：机场乘机）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "各位旅客，本次航班延误一小时，原因天气。", "en": "Ladies and gentlemen, the flight is delayed one hour due to weather." },
+      { "role": "You", "cn": "会错过转机吗？我在芝加哥转机。", "en": "Will I miss my connection? I connect in Chicago." },
+      { "role": "Agent", "cn": "我查一下……应该来得及，我们会协调。", "en": "Let me check. You should make it. We'll coordinate." },
+      { "role": "You", "cn": "能发个延误证明吗？公司报销用。", "en": "Can I get a delay certificate? My company needs it." },
+      { "role": "Agent", "cn": "到柜台填表，我们盖章。", "en": "Fill out a form at the desk. We'll stamp it." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-07",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Boarding",
+    "titleCn": "第7环：登机",
+    "scene": "开始登机，你在登机口排队。（对话链：机场乘机）",
+    "roles": ["You", "Gate Agent"],
+    "turns": [
+      { "role": "Gate Agent", "cn": "请出示登机牌和护照。", "en": "Boarding pass and passport, please." },
+      { "role": "You", "cn": "给您，12A。", "en": "Here you go. Seat 12A." },
+      { "role": "Gate Agent", "cn": "随身行李只能一件，这个也要托运吗？", "en": "One carry-on only. Does this need to be checked too?" },
+      { "role": "You", "cn": "不用，这个是小背包。", "en": "No, this is a small backpack." },
+      { "role": "Gate Agent", "cn": "好的，祝您旅途愉快。", "en": "Okay. Have a pleasant flight." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-air-08",
+    "category": "airport",
+    "chain": {
+      "id": "airport-flight",
+      "title": "Airport Trip from Check-in to Landing",
+      "titleCn": "对话链：机场乘机全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Baggage Claim",
+    "titleCn": "第8环：落地取行李",
+    "scene": "飞机落地，你到行李转盘取托运的箱子。（对话链：机场乘机）",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "我的行李还没出来，正常吗？", "en": "My bag hasn't come out yet. Is that normal?" },
+      { "role": "Attendant", "cn": "国际航班有时慢，再等五分钟。", "en": "International flights can be slow. Give it five more minutes." },
+      { "role": "You", "cn": "看到了，蓝色行李箱。", "en": "There it is. Blue suitcase." },
+      { "role": "Attendant", "cn": "核对一下行李牌号码。", "en": "Please match the baggage tag number." },
+      { "role": "You", "cn": "对上了，谢谢。", "en": "It matches. Thank you." },
+      { "role": "Attendant", "cn": "欢迎到达，祝您愉快。", "en": "Welcome. Have a great stay." }
+    ]
+  }
+]

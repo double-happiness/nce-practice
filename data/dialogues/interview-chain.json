@@ -1,0 +1,188 @@
+[
+  {
+    "id": "dlg-chain-intv-01",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Phone Screening",
+    "titleCn": "第1环：电话初筛",
+    "scene": "HR 打电话做初步筛选。（对话链：求职面试）",
+    "roles": ["You", "Recruiter"],
+    "turns": [
+      { "role": "Recruiter", "cn": "您好，我是 ABC 公司的招聘。", "en": "Hi, I'm calling from ABC Company recruiting." },
+      { "role": "You", "cn": "您好，我现在方便说话。", "en": "Hello. Yes, this is a good time to talk." },
+      { "role": "Recruiter", "cn": "您目前在职吗？最早什么时候能入职？", "en": "Are you currently employed? When could you start?" },
+      { "role": "You", "cn": "在职，需要两周通知期。", "en": "Yes. I'd need to give two weeks' notice." },
+      { "role": "Recruiter", "cn": "需要现场面试吗？您方便来办公室吗？", "en": "Can you come in for an on-site interview?" },
+      { "role": "You", "cn": "可以，下周任意工作日下午都行。", "en": "Sure. Any weekday afternoon next week works." },
+      { "role": "Recruiter", "cn": "好的，我发日历邀请给您。", "en": "Great. I'll send you a calendar invite." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-02",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Arrive at Reception",
+    "titleCn": "第2环：到达前台",
+    "scene": "面试当天，你到了公司前台。（对话链：求职面试）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "你好，我约了下午两点面试，张伟。", "en": "Hi, I have an interview at two PM. Zhang Wei." },
+      { "role": "Receptionist", "cn": "请稍坐，我通知面试官。", "en": "Please have a seat. I'll let them know." },
+      { "role": "You", "cn": "需要填访客表吗？", "en": "Do I need to fill out a visitor form?" },
+      { "role": "Receptionist", "cn": "请在这签名，戴上访客牌。", "en": "Please sign here and wear this visitor badge." },
+      { "role": "You", "cn": "洗手间在哪？", "en": "Where's the restroom?" },
+      { "role": "Receptionist", "cn": "左转尽头。他们马上来。", "en": "Down the hall on the left. They'll be right out." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-03",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Self Introduction",
+    "titleCn": "第3环：自我介绍",
+    "scene": "面试官请你做自我介绍。（对话链：求职面试）",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "请坐，感谢您今天过来。", "en": "Please have a seat. Thank you for coming in today." },
+      { "role": "You", "cn": "谢谢给我这个机会。", "en": "Thank you for the opportunity." },
+      { "role": "Interviewer", "cn": "先简单介绍一下自己吧。", "en": "Tell me a little about yourself." },
+      { "role": "You", "cn": "我有五年软件开发经验，擅长前端。", "en": "I have five years of software development experience, mostly in front-end." },
+      { "role": "Interviewer", "cn": "为什么想加入我们公司？", "en": "Why do you want to join our company?" },
+      { "role": "You", "cn": "我很认同你们的产品理念，也想在更大平台成长。", "en": "I admire your product vision and want to grow on a larger platform." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-04",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Technical Questions",
+    "titleCn": "第4环：技术问题",
+    "scene": "面试官开始问技术问题。（对话链：求职面试）",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "讲一个你最有挑战的项目。", "en": "Tell me about your most challenging project." },
+      { "role": "You", "cn": "去年做过千人并发直播页，要优化首屏。", "en": "Last year I built a live-streaming page for thousands of concurrent users. I had to optimize first paint." },
+      { "role": "Interviewer", "cn": "具体怎么优化的？", "en": "How did you optimize it specifically?" },
+      { "role": "You", "cn": "代码分割、懒加载、CDN，首屏从四秒降到一点二秒。", "en": "Code splitting, lazy loading, and CDN. First paint dropped from four seconds to one point two." },
+      { "role": "Interviewer", "cn": "团队里你负责什么？", "en": "What was your role on the team?" },
+      { "role": "You", "cn": "前端负责人，带两个人。", "en": "Front-end lead. I managed two developers." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-05",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Behavioral Questions",
+    "titleCn": "第5环：行为面试",
+    "scene": "面试官问团队合作和冲突处理。（对话链：求职面试）",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "说一次你和同事意见不合的经历。", "en": "Tell me about a time you disagreed with a colleague." },
+      { "role": "You", "cn": "和产品经理在排期上有分歧，我提议先做 MVP。", "en": "A PM and I disagreed on timeline. I proposed shipping an MVP first." },
+      { "role": "Interviewer", "cn": "结果怎么样？", "en": "How did it turn out?" },
+      { "role": "You", "cn": "两周上线核心功能，数据验证后再迭代。", "en": "We launched core features in two weeks and iterated after data validated." },
+      { "role": "Interviewer", "cn": "你从中学到什么？", "en": "What did you learn from that?" },
+      { "role": "You", "cn": "先对齐目标，用数据说话。", "en": "Align on goals first and let data guide decisions." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-06",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Your Questions",
+    "titleCn": "第6环：反问环节",
+    "scene": "面试官问你有什么问题。（对话链：求职面试）",
+    "roles": ["You", "Interviewer"],
+    "turns": [
+      { "role": "Interviewer", "cn": "您有什么问题想问我们吗？", "en": "Do you have any questions for us?" },
+      { "role": "You", "cn": "团队目前最大的挑战是什么？", "en": "What's the biggest challenge the team is facing right now?" },
+      { "role": "Interviewer", "cn": "主要是产品迭代速度和质量的平衡。", "en": "Mainly balancing speed of delivery with quality." },
+      { "role": "You", "cn": "新人入职有哪些培训？", "en": "What kind of onboarding do new hires get?" },
+      { "role": "Interviewer", "cn": "有两周导师制，还有内部技术分享。", "en": "Two weeks of mentorship plus internal tech talks." },
+      { "role": "You", "cn": "决策流程是怎样的？", "en": "How are decisions typically made?" },
+      { "role": "Interviewer", "cn": "小团队自治，大方向由管理层定。", "en": "Small teams are autonomous. Leadership sets the direction." }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-07",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Salary Talk",
+    "titleCn": "第7环：谈薪资",
+    "scene": "HR 来电谈录用条件和薪资。（对话链：求职面试）",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "恭喜您通过终面，我们想发 offer。", "en": "Congratulations on passing the final round. We'd like to extend an offer." },
+      { "role": "You", "cn": "谢谢！职位和团队我都很有兴趣。", "en": "Thank you! I'm very interested in the role and the team." },
+      { "role": "HR", "cn": "年薪九万五，含标准福利。", "en": "The base salary is ninety-five thousand, with standard benefits." },
+      { "role": "You", "cn": "根据我的经验和市场行情，希望能到十万。", "en": "Based on my experience and the market, I'd hope for a hundred thousand." },
+      { "role": "HR", "cn": "我们最多九万八，加签字费两千。", "en": "We can do ninety-eight thousand plus a two-thousand signing bonus." },
+      { "role": "You", "cn": "可以接受，入职日能定在两周后吗？", "en": "I can accept that. Can my start date be two weeks from now?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-intv-08",
+    "category": "interview",
+    "chain": {
+      "id": "job-hunt",
+      "title": "Job Interview from Screening to Offer",
+      "titleCn": "对话链：求职面试全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Accept the Offer",
+    "titleCn": "第8环：确认入职",
+    "scene": "你收到正式 offer 邮件，回电话确认。（对话链：求职面试）",
+    "roles": ["You", "HR"],
+    "turns": [
+      { "role": "HR", "cn": "offer 邮件收到了吗？有问题吗？", "en": "Did you get the offer email? Any questions?" },
+      { "role": "You", "cn": "收到了，条款都清楚，我接受。", "en": "Yes. Everything is clear. I accept." },
+      { "role": "HR", "cn": "请签电子合同，周一入职九点报到。", "en": "Please sign the e-contract. Report Monday at nine AM." },
+      { "role": "You", "cn": "需要带什么材料？", "en": "What documents should I bring?" },
+      { "role": "HR", "cn": "护照、社会安全卡、银行账户信息。", "en": "Passport, Social Security card, and bank account details." },
+      { "role": "You", "cn": "好的，周一见。", "en": "Okay. See you Monday." }
+    ]
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-post-01",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Pack at Home",
+    "titleCn": "第1环：在家打包",
+    "scene": "你要给国内家人寄礼物，跟室友确认包裹内容。（对话链：邮局）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "寄什么？要报关吗？", "en": "What are you sending? Need customs forms?" },
+      { "role": "You", "cn": "衣服和零食，应该填申报单。", "en": "Clothes and snacks. I'll need a customs form." },
+      { "role": "Roommate", "cn": "箱子够结实吗？我有多余胶带。", "en": "Is the box sturdy enough? I have extra tape." },
+      { "role": "You", "cn": "帮封一下，下午去邮局。", "en": "Please seal it. I'm going to the post office this afternoon." },
+      { "role": "Roommate", "cn": "地址写中文还是英文？", "en": "Address in Chinese or English?" },
+      { "role": "You", "cn": "英文加中文，双保险。", "en": "Both English and Chinese, just in case." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-02",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Ship International",
+    "titleCn": "第2环：国际寄件",
+    "scene": "你在邮局柜台寄包裹到中国。（对话链：邮局）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，寄国内还是国际？", "en": "Hi, domestic or international?" },
+      { "role": "You", "cn": "寄到中国，最快要多久？", "en": "To China. What's the fastest option?" },
+      { "role": "Clerk", "cn": "特快大概五到七天，标准件两周。", "en": "Express is about five to seven days. Standard is two weeks." },
+      { "role": "You", "cn": "这个盒子五磅，特快多少钱？", "en": "This box is five pounds. How much for express?" },
+      { "role": "Clerk", "cn": "六十八美元，要填海关申报单。", "en": "Sixty-eight dollars. You'll need to fill out a customs form." },
+      { "role": "You", "cn": "里面是衣服和零食，价值大概五十美元。", "en": "It's clothes and snacks, worth about fifty dollars." },
+      { "role": "Clerk", "cn": "好的，这是追踪号码。", "en": "Okay. Here's your tracking number." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-03",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Buy Stamps",
+    "titleCn": "第3环：买邮票寄信",
+    "scene": "顺便买邮票寄几封国内信件。（对话链：邮局）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，我要寄三封信到美国国内。", "en": "Hi, I need to mail three letters domestically." },
+      { "role": "Clerk", "cn": "普通信还是挂号？", "en": "Regular or certified mail?" },
+      { "role": "You", "cn": "普通就行，邮票多少钱？", "en": "Regular is fine. How much are stamps?" },
+      { "role": "Clerk", "cn": "一张六十八美分，三张两美元零四。", "en": "Sixty-eight cents each, two oh four for three." },
+      { "role": "You", "cn": "邮箱在哪里？", "en": "Where's the mailbox?" },
+      { "role": "Clerk", "cn": "出门左手边蓝色那个。", "en": "The blue one on your left as you exit." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-04",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Track a Package",
+    "titleCn": "第4环：追踪包裹",
+    "scene": "几天后，你查国内寄来的包裹进度。（对话链：邮局）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "你妈寄的包裹到了吗？", "en": "Did your mom's package arrive yet?" },
+      { "role": "You", "cn": "显示在海关，可能还要几天。", "en": "It shows at customs. Might take a few more days." },
+      { "role": "Roommate", "cn": "追踪号发我，我帮你盯。", "en": "Send me the tracking number. I'll watch it." },
+      { "role": "You", "cn": "发你了，到了我请你吃饭。", "en": "Sent. Dinner's on me when it lands." },
+      { "role": "Roommate", "cn": "成交。", "en": "Deal." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-05",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Pick Up Held Package",
+    "titleCn": "第5环：取滞留包裹",
+    "scene": "你收到黄色通知单，去邮局取包裹。（对话链：邮局）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "取件吗？请出示通知单和证件。", "en": "Picking up a package? Notice slip and ID, please." },
+      { "role": "You", "cn": "给您，是黄色通知单。", "en": "Here you go. It's the yellow slip." },
+      { "role": "Clerk", "cn": "请在这里签名。", "en": "Please sign here." },
+      { "role": "You", "cn": "包裹能再保留几天吗？我周末没空。", "en": "Can you hold it a few more days? I wasn't free this weekend." },
+      { "role": "Clerk", "cn": "免费保留十五天，超期会退回。", "en": "We hold it fifteen days for free. After that it goes back." },
+      { "role": "You", "cn": "好的，我今天就拿走。", "en": "Okay, I'll take it today." },
+      { "role": "Clerk", "cn": "给您，小心有点重。", "en": "Here you go. Careful, it's a bit heavy." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-06",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Wrong Address",
+    "titleCn": "第6环：地址有误",
+    "scene": "你寄出的包裹被退回，邮局通知你来处理。（对话链：邮局）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "这个包裹地址不全，退回来了。", "en": "This package came back. The address was incomplete." },
+      { "role": "You", "cn": "能帮我改地址重新寄吗？", "en": "Can you help me fix the address and resend it?" },
+      { "role": "Clerk", "cn": "可以，补邮费十二块。", "en": "Yes. Additional postage is twelve dollars." },
+      { "role": "You", "cn": "我写上邮编，这次应该没问题。", "en": "I'll add the zip code. Should be fine this time." },
+      { "role": "Clerk", "cn": "好了，新追踪号在这。", "en": "All set. Here's the new tracking number." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-07",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Courier at the Door",
+    "titleCn": "第7环：快递上门",
+    "scene": "快递员送货上门，你在家签收。（对话链：邮局）",
+    "roles": ["You", "Courier"],
+    "turns": [
+      { "role": "Courier", "cn": "您好，请签收这个包裹。", "en": "Hi, please sign for this package." },
+      { "role": "You", "cn": "外包装有点压扁，能先检查一下吗？", "en": "The box looks crushed. Can I inspect it first?" },
+      { "role": "Courier", "cn": "可以，有问题拍照报损。", "en": "Sure. Take photos if anything's damaged." },
+      { "role": "You", "cn": "里面没事，我签收。", "en": "Contents are fine. I'll sign." },
+      { "role": "Courier", "cn": "谢谢，祝您愉快。", "en": "Thanks. Have a good day." }
+    ]
+  },
+  {
+    "id": "dlg-chain-post-08",
+    "category": "postoffice",
+    "chain": {
+      "id": "post-office-run",
+      "title": "Post Office from Mailing to Pickup",
+      "titleCn": "对话链：邮局寄件取件",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Family Package Arrives",
+    "titleCn": "第8环：收到家人寄来",
+    "scene": "你拆开妈妈寄来的包裹，打电话报平安。（对话链：邮局）",
+    "roles": ["You", "Mom"],
+    "turns": [
+      { "role": "Mom", "cn": "包裹收到了吗？", "en": "Did you get the package?" },
+      { "role": "You", "cn": "刚收到，腊肉和茶叶都完好。", "en": "Just got it. The cured meat and tea are fine." },
+      { "role": "Mom", "cn": "海关没扣吧？", "en": "Customs didn't seize anything?" },
+      { "role": "You", "cn": "没有，就是晚了一周。", "en": "No, just a week late." },
+      { "role": "Mom", "cn": "好吃就跟我说。", "en": "Let me know if you like the food." },
+      { "role": "You", "cn": "一定，谢谢妈。", "en": "Will do. Thanks, Mom." }
+    ]
+  }
+]

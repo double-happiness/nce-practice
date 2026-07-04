@@ -569,7 +569,7 @@
     "id": "b1-25-q1",
     "book": 1,
     "lesson": 25,
-    "lessonTitle": "Mrs. Smith's kitchen",
+    "lessonTitle": "Mrs Smith's kitchen",
     "grammar": ["there be句型"],
     "type": "mcq",
     "stem": "There ___ a refrigerator in the kitchen.",
@@ -581,7 +581,7 @@
     "id": "b1-25-q2",
     "book": 1,
     "lesson": 25,
-    "lessonTitle": "Mrs. Smith's kitchen",
+    "lessonTitle": "Mrs Smith's kitchen",
     "grammar": ["介词"],
     "type": "mcq",
     "stem": "The table is ___ the middle of the room.",
@@ -593,11 +593,34 @@
     "id": "b1-25-q3",
     "book": 1,
     "lesson": 25,
-    "lessonTitle": "Mrs. Smith's kitchen",
+    "lessonTitle": "Mrs Smith's kitchen",
     "grammar": ["there be句型", "介词"],
     "type": "fill",
     "stem": "There ___ (be) a cup on the table. The refrigerator is on the right.",
     "answer": ["is"],
     "explanation": "a cup 是单数，there be 句型用 is；on the right 表示“在右边”。"
+  },
+  {
+    "id": "b1-25-q4",
+    "book": 1,
+    "lesson": 25,
+    "lessonTitle": "Mrs Smith's kitchen",
+    "grammar": ["there be句型"],
+    "type": "mcq",
+    "stem": "There ___ two cups on the shelf.",
+    "options": ["are", "is", "has", "have"],
+    "answer": "are",
+    "explanation": "考点:there be 句型。主语 two cups 是复数，用 are。"
+  },
+  {
+    "id": "b1-25-q5",
+    "book": 1,
+    "lesson": 25,
+    "lessonTitle": "Mrs Smith's kitchen",
+    "grammar": ["介词"],
+    "type": "fill",
+    "stem": "The bottle of water is ___ the table. (介词：在……上面)",
+    "answer": ["on"],
+    "explanation": "考点:介词。on the table 表示在桌子上。"
   }
 ]

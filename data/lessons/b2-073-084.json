@@ -5,15 +5,124 @@
     "title": "The record-holder",
     "titleCn": "纪录保持者",
     "scene": "一个男孩和朋友打赌，夸口自己能一口气吞下很多鸡蛋。起初大家都把这当成玩笑，可他真的当场开始挑战：先吞下十三个生鸡蛋，最后还加了一个煮鸡蛋，围观者全都看呆了。有人觉得他比同龄人更大胆，也有人担心这种行为太危险。虽然他暂时赢得了“纪录保持者”的称号，但老师提醒大家，盲目追求“最多、最快、最强”并不一定值得模仿，健康比炫耀更重要。",
-    "grammarTags": ["一般过去时", "比较级", "最高级"],
+    "grammarTags": [
+      "一般过去时",
+      "比较级",
+      "最高级"
+    ],
     "words": [
-      { "word": "record-holder", "phon": "/ˈrekɔːd ˌhəʊldə/", "pos": "n.", "cn": "纪录保持者", "eg": "He became the record-holder after the bet. 打赌后他成了纪录保持者。" },
-      { "word": "bet", "phon": "/bet/", "pos": "n./v.", "cn": "打赌", "eg": "The boy made a bet with his friend. 男孩和朋友打了个赌。" },
-      { "word": "swallow", "phon": "/ˈswɒləʊ/", "pos": "v.", "cn": "吞下", "eg": "He swallowed the eggs one by one. 他把鸡蛋一个接一个吞下。" },
-      { "word": "boiled", "phon": "/bɔɪld/", "pos": "adj.", "cn": "煮熟的", "eg": "He even ate one boiled egg at the end. 最后他甚至还吃了一个煮鸡蛋。" },
-      { "word": "daring", "phon": "/ˈdeərɪŋ/", "pos": "adj.", "cn": "大胆的", "eg": "His friends thought he was very daring. 朋友们觉得他非常大胆。" },
-      { "word": "dangerous", "phon": "/ˈdeɪndʒərəs/", "pos": "adj.", "cn": "危险的", "eg": "The teacher said the act was dangerous. 老师说这种行为很危险。" },
-      { "word": "challenge", "phon": "/ˈtʃælɪndʒ/", "pos": "n./v.", "cn": "挑战", "eg": "He accepted the strange challenge immediately. 他立刻接受了这个奇怪的挑战。" }
+      {
+        "word": "record-holder",
+        "phon": "/ˈrekɔːd ˌhəʊldə/",
+        "pos": "n.",
+        "cn": "纪录保持者",
+        "eg": "He became the record-holder after the bet. 打赌后他成了纪录保持者。"
+      },
+      {
+        "word": "bet",
+        "phon": "/bet/",
+        "pos": "n./v.",
+        "cn": "打赌",
+        "eg": "The boy made a bet with his friend. 男孩和朋友打了个赌。"
+      },
+      {
+        "word": "swallow",
+        "phon": "/ˈswɒləʊ/",
+        "pos": "v.",
+        "cn": "吞下",
+        "eg": "He swallowed the eggs one by one. 他把鸡蛋一个接一个吞下。"
+      },
+      {
+        "word": "boiled",
+        "phon": "/bɔɪld/",
+        "pos": "adj.",
+        "cn": "煮熟的",
+        "eg": "He even ate one boiled egg at the end. 最后他甚至还吃了一个煮鸡蛋。"
+      },
+      {
+        "word": "daring",
+        "phon": "/ˈdeərɪŋ/",
+        "pos": "adj.",
+        "cn": "大胆的",
+        "eg": "His friends thought he was very daring. 朋友们觉得他非常大胆。"
+      },
+      {
+        "word": "dangerous",
+        "phon": "/ˈdeɪndʒərəs/",
+        "pos": "adj.",
+        "cn": "危险的",
+        "eg": "The teacher said the act was dangerous. 老师说这种行为很危险。"
+      },
+      {
+        "word": "challenge",
+        "phon": "/ˈtʃælɪndʒ/",
+        "pos": "n./v.",
+        "cn": "挑战",
+        "eg": "He accepted the strange challenge immediately. 他立刻接受了这个奇怪的挑战。"
+      },
+      {
+        "word": "survivor",
+        "phon": "/sə'vaɪvə/",
+        "pos": "n.",
+        "cn": "幸存者",
+        "eg": ""
+      },
+      {
+        "word": "fool",
+        "phon": "/fuːl/",
+        "pos": "n.",
+        "cn": "傻瓜",
+        "eg": ""
+      },
+      {
+        "word": "bulletin",
+        "phon": "/'bulətɪn/",
+        "pos": "n.",
+        "cn": "亲闻简报",
+        "eg": ""
+      },
+      {
+        "word": "announcer",
+        "phon": "/ə'naʊnsə/",
+        "pos": "n.",
+        "cn": "(电视、电台)播音员",
+        "eg": ""
+      },
+      {
+        "word": "macaroni",
+        "phon": "/,mækə'rəʊnɪ/",
+        "pos": "n.",
+        "cn": "通心面，空心面条",
+        "eg": ""
+      },
+      {
+        "word": "leading",
+        "phon": "/'liːdɪŋ/",
+        "pos": "a.",
+        "cn": "主要的",
+        "eg": ""
+      },
+      {
+        "word": "grower",
+        "phon": "/'grəʊə/",
+        "pos": "n.",
+        "cn": "种植者",
+        "eg": ""
+      },
+      {
+        "word": "splendid",
+        "phon": "/'splendɪd/",
+        "pos": "a.",
+        "cn": "极好的",
+        "eg": ""
+      },
+      {
+        "word": "stalk",
+        "phon": "/stɔːk/",
+        "pos": "n.",
+        "cn": "梗",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -41,15 +150,123 @@
     "title": "Out of the limelight",
     "titleCn": "不再成为焦点",
     "scene": "一位著名女演员厌倦了聚光灯下的生活，决定暂时离开大众视线。她没有去大剧院，而是悄悄进入一家小剧场，甚至在新戏里扮演一个女仆角色。观众起初并没有认出她，因为她穿着朴素、台词不多，也总是站在主角后面。演出结束后，工作人员才发现这位“普通演员”其实是名人。她说自己只是想在舞台上安静地演戏，不想总被媒体包围。这个故事适合练习一般过去时与介词搭配。",
-    "grammarTags": ["一般过去时", "介词"],
+    "grammarTags": [
+      "一般过去时",
+      "介词"
+    ],
     "words": [
-      { "word": "limelight", "phon": "/ˈlaɪmlaɪt/", "pos": "n.", "cn": "公众关注中心", "eg": "She wanted to stay out of the limelight. 她想远离公众焦点。" },
-      { "word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "The famous actress chose a small theatre. 这位著名女演员选择了小剧场。" },
-      { "word": "servant", "phon": "/ˈsɜːvənt/", "pos": "n.", "cn": "仆人", "eg": "She played the role of a servant. 她扮演了一个仆人角色。" },
-      { "word": "theatre", "phon": "/ˈθɪətə/", "pos": "n.", "cn": "剧院", "eg": "The theatre was hidden in a quiet street. 这家剧院藏在一条安静街道里。" },
-      { "word": "audience", "phon": "/ˈɔːdiəns/", "pos": "n.", "cn": "观众", "eg": "The audience did not recognize her at first. 观众起初没有认出她。" },
-      { "word": "behind", "phon": "/bɪˈhaɪnd/", "pos": "prep.", "cn": "在……后面", "eg": "She stood behind the main actors on stage. 她在舞台上站在主角后面。" },
-      { "word": "quietly", "phon": "/ˈkwaɪətli/", "pos": "adv.", "cn": "安静地", "eg": "She left the theatre quietly after the show. 演出后她安静地离开了剧院。" }
+      {
+        "word": "limelight",
+        "phon": "/ˈlaɪmlaɪt/",
+        "pos": "n.",
+        "cn": "公众关注中心",
+        "eg": "She wanted to stay out of the limelight. 她想远离公众焦点。"
+      },
+      {
+        "word": "actress",
+        "phon": "/ˈæktrəs/",
+        "pos": "n.",
+        "cn": "女演员",
+        "eg": "The famous actress chose a small theatre. 这位著名女演员选择了小剧场。"
+      },
+      {
+        "word": "servant",
+        "phon": "/ˈsɜːvənt/",
+        "pos": "n.",
+        "cn": "仆人",
+        "eg": "She played the role of a servant. 她扮演了一个仆人角色。"
+      },
+      {
+        "word": "theatre",
+        "phon": "/ˈθɪətə/",
+        "pos": "n.",
+        "cn": "剧院",
+        "eg": "The theatre was hidden in a quiet street. 这家剧院藏在一条安静街道里。"
+      },
+      {
+        "word": "audience",
+        "phon": "/ˈɔːdiəns/",
+        "pos": "n.",
+        "cn": "观众",
+        "eg": "The audience did not recognize her at first. 观众起初没有认出她。"
+      },
+      {
+        "word": "behind",
+        "phon": "/bɪˈhaɪnd/",
+        "pos": "prep.",
+        "cn": "在……后面",
+        "eg": "She stood behind the main actors on stage. 她在舞台上站在主角后面。"
+      },
+      {
+        "word": "quietly",
+        "phon": "/ˈkwaɪətli/",
+        "pos": "adv.",
+        "cn": "安静地",
+        "eg": "She left the theatre quietly after the show. 演出后她安静地离开了剧院。"
+      },
+      {
+        "word": "gather",
+        "phon": "/'gæðə/",
+        "pos": "v.",
+        "cn": "收庄稼",
+        "eg": ""
+      },
+      {
+        "word": "thresh",
+        "phon": "/θreʃ/",
+        "pos": "v.",
+        "cn": "打(庄稼)",
+        "eg": ""
+      },
+      {
+        "word": "process",
+        "phon": "/'prɑːses/",
+        "pos": "v.",
+        "cn": "加工",
+        "eg": ""
+      },
+      {
+        "word": "signor",
+        "phon": "/'si:njɔ:/",
+        "pos": "n.",
+        "cn": "(意大利语)先生",
+        "eg": ""
+      },
+      {
+        "word": "present",
+        "phon": "/prɪˈzent;(for n.)ˈpreznt/",
+        "pos": "a.",
+        "cn": "目前的",
+        "eg": ""
+      },
+      {
+        "word": "champion",
+        "phon": "/'tʃæmpiən/",
+        "pos": "n.",
+        "cn": "冠军",
+        "eg": ""
+      },
+      {
+        "word": "studio",
+        "phon": "/'stjuːdɪəʊ/",
+        "pos": "n.",
+        "cn": "播音室",
+        "eg": ""
+      },
+      {
+        "word": "mummy",
+        "phon": "/'mʌmɪ/",
+        "pos": "n.",
+        "cn": "木乃伊",
+        "eg": ""
+      },
+      {
+        "word": "Egyptian",
+        "phon": "/i'dʒipʃən/",
+        "pos": "a.",
+        "cn": "埃及的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -77,15 +294,123 @@
     "title": "SOS",
     "titleCn": "求救信号",
     "scene": "大型油轮托里峡谷号在海上触礁后，船体严重受损，情况迅速恶化。船员一边抢修，一边向外界发出求救信息，历史上著名的 SOS 信号也因此被更多人记住。无线电台很快收到了这条信息，附近船只和救援力量被紧急调动。虽然部分人员及时获救，但泄漏造成的污染仍然十分严重。整件事后来被反复研究，成为海上安全教育中的经典案例，也提醒人们在危机时刻准确传递信息的重要性。",
-    "grammarTags": ["一般过去时", "被动语态"],
+    "grammarTags": [
+      "一般过去时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "SOS", "phon": "/ˌes əʊ ˈes/", "pos": "n.", "cn": "紧急求救信号", "eg": "An SOS message was sent immediately. 一条 SOS 求救信息被立刻发出。" },
-      { "word": "ship", "phon": "/ʃɪp/", "pos": "n.", "cn": "船", "eg": "The ship hit rocks near the coast. 这艘船在海岸附近撞上礁石。" },
-      { "word": "radio", "phon": "/ˈreɪdiəʊ/", "pos": "n.", "cn": "无线电", "eg": "The radio operator stayed calm under pressure. 无线电员在压力下保持冷静。" },
-      { "word": "rescue", "phon": "/ˈreskjuː/", "pos": "v./n.", "cn": "救援", "eg": "Rescue teams reached the area quickly. 救援队很快到达该区域。" },
-      { "word": "leak", "phon": "/liːk/", "pos": "v./n.", "cn": "泄漏", "eg": "Oil leaked into the sea for hours. 石油向海里泄漏了数小时。" },
-      { "word": "coast", "phon": "/kəʊst/", "pos": "n.", "cn": "海岸", "eg": "The accident happened off the coast. 事故发生在近海区域。" },
-      { "word": "emergency", "phon": "/ɪˈmɜːdʒənsi/", "pos": "n.", "cn": "紧急情况", "eg": "Everyone followed emergency instructions. 所有人都遵循了紧急指令。" }
+      {
+        "word": "SOS",
+        "phon": "/ˌes əʊ ˈes/",
+        "pos": "n.",
+        "cn": "紧急求救信号",
+        "eg": "An SOS message was sent immediately. 一条 SOS 求救信息被立刻发出。"
+      },
+      {
+        "word": "ship",
+        "phon": "/ʃɪp/",
+        "pos": "n.",
+        "cn": "船",
+        "eg": "The ship hit rocks near the coast. 这艘船在海岸附近撞上礁石。"
+      },
+      {
+        "word": "radio",
+        "phon": "/ˈreɪdiəʊ/",
+        "pos": "n.",
+        "cn": "无线电",
+        "eg": "The radio operator stayed calm under pressure. 无线电员在压力下保持冷静。"
+      },
+      {
+        "word": "rescue",
+        "phon": "/ˈreskjuː/",
+        "pos": "v./n.",
+        "cn": "救援",
+        "eg": "Rescue teams reached the area quickly. 救援队很快到达该区域。"
+      },
+      {
+        "word": "leak",
+        "phon": "/liːk/",
+        "pos": "v./n.",
+        "cn": "泄漏",
+        "eg": "Oil leaked into the sea for hours. 石油向海里泄漏了数小时。"
+      },
+      {
+        "word": "coast",
+        "phon": "/kəʊst/",
+        "pos": "n.",
+        "cn": "海岸",
+        "eg": "The accident happened off the coast. 事故发生在近海区域。"
+      },
+      {
+        "word": "emergency",
+        "phon": "/ɪˈmɜːdʒənsi/",
+        "pos": "n.",
+        "cn": "紧急情况",
+        "eg": "Everyone followed emergency instructions. 所有人都遵循了紧急指令。"
+      },
+      {
+        "word": "temple",
+        "phon": "/'templ/",
+        "pos": "n.",
+        "cn": "庙",
+        "eg": ""
+      },
+      {
+        "word": "mark",
+        "phon": "/mɑ:k/",
+        "pos": "n.",
+        "cn": "斑点",
+        "eg": ""
+      },
+      {
+        "word": "plate",
+        "phon": "/pleɪt/",
+        "pos": "n.",
+        "cn": "(照相)底片",
+        "eg": ""
+      },
+      {
+        "word": "disease",
+        "phon": "/dɪ'ziːz/",
+        "pos": "n.",
+        "cn": "疾病",
+        "eg": ""
+      },
+      {
+        "word": "last",
+        "phon": "/lɑːst/",
+        "pos": "v.",
+        "cn": "持续",
+        "eg": ""
+      },
+      {
+        "word": "prove",
+        "phon": "/pruːv/",
+        "pos": "v.",
+        "cn": "显示出",
+        "eg": ""
+      },
+      {
+        "word": "resin",
+        "phon": "/'rezn/",
+        "pos": "n.",
+        "cn": "树脂",
+        "eg": ""
+      },
+      {
+        "word": "skin",
+        "phon": "/skɪn/",
+        "pos": "n.",
+        "cn": "皮，皮肤",
+        "eg": ""
+      },
+      {
+        "word": "section",
+        "phon": "/'sekʃn/",
+        "pos": "n.",
+        "cn": "切片",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -113,15 +438,123 @@
     "title": "April Fools' Day",
     "titleCn": "愚人节",
     "scene": "愚人节当天，英国广播公司在电视节目里一本正经地介绍“意大利面树”，画面中人们从树上采下面条，解说员还讲得头头是道。很多观众看完后信以为真，甚至打电话询问自己是否也能种这种“面条树”。节目播出后，编辑部接到大量来电，工作人员才公开说明这只是节日玩笑。虽然有人觉得被捉弄很尴尬，但更多人被这个创意逗笑。这则经典案例展示了媒体影响力，也适合练习过去时和被动表达。",
-    "grammarTags": ["一般过去时", "被动语态"],
+    "grammarTags": [
+      "一般过去时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "April Fools' Day", "phon": "/ˌeɪprəl ˈfuːlz deɪ/", "pos": "n.", "cn": "愚人节", "eg": "The joke was broadcast on April Fools' Day. 这个玩笑在愚人节播出。" },
-      { "word": "broadcast", "phon": "/ˈbrɔːdkɑːst/", "pos": "v./n.", "cn": "播出", "eg": "The BBC broadcast a famous hoax. BBC 播出了一场著名恶作剧。" },
-      { "word": "spaghetti", "phon": "/spəˈɡeti/", "pos": "n.", "cn": "意大利面", "eg": "Viewers saw spaghetti hanging on trees. 观众看到树上挂着意大利面。" },
-      { "word": "viewer", "phon": "/ˈvjuːə/", "pos": "n.", "cn": "观众", "eg": "Many viewers were completely fooled. 许多观众完全被骗了。" },
-      { "word": "hoax", "phon": "/həʊks/", "pos": "n.", "cn": "恶作剧；骗局", "eg": "It became one of the most famous TV hoaxes. 它成了最著名的电视恶作剧之一。" },
-      { "word": "plant", "phon": "/plɑːnt/", "pos": "v.", "cn": "种植", "eg": "Some people asked how to plant spaghetti trees. 有些人询问怎么种意大利面树。" },
-      { "word": "serious", "phon": "/ˈsɪəriəs/", "pos": "adj.", "cn": "严肃的", "eg": "The presenter looked very serious on screen. 主持人在屏幕上看起来非常严肃。" }
+      {
+        "word": "April Fools' Day",
+        "phon": "/ˌeɪprəl ˈfuːlz deɪ/",
+        "pos": "n.",
+        "cn": "愚人节",
+        "eg": "The joke was broadcast on April Fools' Day. 这个玩笑在愚人节播出。"
+      },
+      {
+        "word": "broadcast",
+        "phon": "/ˈbrɔːdkɑːst/",
+        "pos": "v./n.",
+        "cn": "播出",
+        "eg": "The BBC broadcast a famous hoax. BBC 播出了一场著名恶作剧。"
+      },
+      {
+        "word": "spaghetti",
+        "phon": "/spəˈɡeti/",
+        "pos": "n.",
+        "cn": "意大利面",
+        "eg": "Viewers saw spaghetti hanging on trees. 观众看到树上挂着意大利面。"
+      },
+      {
+        "word": "viewer",
+        "phon": "/ˈvjuːə/",
+        "pos": "n.",
+        "cn": "观众",
+        "eg": "Many viewers were completely fooled. 许多观众完全被骗了。"
+      },
+      {
+        "word": "hoax",
+        "phon": "/həʊks/",
+        "pos": "n.",
+        "cn": "恶作剧；骗局",
+        "eg": "It became one of the most famous TV hoaxes. 它成了最著名的电视恶作剧之一。"
+      },
+      {
+        "word": "plant",
+        "phon": "/plɑːnt/",
+        "pos": "v.",
+        "cn": "种植",
+        "eg": "Some people asked how to plant spaghetti trees. 有些人询问怎么种意大利面树。"
+      },
+      {
+        "word": "serious",
+        "phon": "/ˈsɪəriəs/",
+        "pos": "adj.",
+        "cn": "严肃的",
+        "eg": "The presenter looked very serious on screen. 主持人在屏幕上看起来非常严肃。"
+      },
+      {
+        "word": "figure",
+        "phon": "/'fɪgjər/",
+        "pos": "n.",
+        "cn": "(人的)体形；人像",
+        "eg": ""
+      },
+      {
+        "word": "normally",
+        "phon": "/'nɔːrməli/",
+        "pos": "adv.",
+        "cn": "通常地",
+        "eg": ""
+      },
+      {
+        "word": "survive",
+        "phon": "/sər'vaɪv/",
+        "pos": "v.",
+        "cn": "幸免于",
+        "eg": ""
+      },
+      {
+        "word": "entitle",
+        "phon": "/ɪn'taɪtl/",
+        "pos": "v.",
+        "cn": "以…为名",
+        "eg": ""
+      },
+      {
+        "word": "calm",
+        "phon": "/kɑːm/",
+        "pos": "v.",
+        "cn": "使镇定",
+        "eg": ""
+      },
+      {
+        "word": "nerve",
+        "phon": "/nɜːv/",
+        "pos": "n.",
+        "cn": "神经",
+        "eg": ""
+      },
+      {
+        "word": "concentration",
+        "phon": "/ˌkɑːnsn'treɪʃn/",
+        "pos": "n.",
+        "cn": "集中，专心",
+        "eg": ""
+      },
+      {
+        "word": "suffer",
+        "phon": "/'sʌfə/",
+        "pos": "v.",
+        "cn": "受苦，受害",
+        "eg": ""
+      },
+      {
+        "word": "symptom",
+        "phon": "/'sɪmptəm/",
+        "pos": "n.",
+        "cn": "症状",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -149,15 +582,123 @@
     "title": "A successful operation",
     "titleCn": "一次成功的手术",
     "scene": "考古学家在发掘现场发现一具木乃伊，准备把它送往医院做精细处理。由于遗体极其脆弱，医疗团队在正式操作前已经制定了完整方案，相关器械也提前完成消毒和测试。手术当天，木乃伊被小心固定，外层包裹被逐步分离，研究人员全程记录每个细节。经过数小时努力，关键步骤顺利完成，现场人员都松了一口气。后来专家表示，这次处理不仅保护了文物，也为古代医学研究提供了宝贵资料。",
-    "grammarTags": ["过去完成时", "被动语态"],
+    "grammarTags": [
+      "过去完成时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "operation", "phon": "/ˌɒpəˈreɪʃn/", "pos": "n.", "cn": "手术；操作", "eg": "The operation lasted for several hours. 这次手术持续了几个小时。" },
-      { "word": "mummy", "phon": "/ˈmʌmi/", "pos": "n.", "cn": "木乃伊", "eg": "The mummy was moved to the hospital carefully. 木乃伊被小心送到医院。" },
-      { "word": "archaeologist", "phon": "/ˌɑːkiˈɒlədʒɪst/", "pos": "n.", "cn": "考古学家", "eg": "Archaeologists had prepared detailed notes. 考古学家之前已准备好详细笔记。" },
-      { "word": "fragile", "phon": "/ˈfrædʒaɪl/", "pos": "adj.", "cn": "脆弱的", "eg": "The body was too fragile to move quickly. 这具遗体太脆弱，不能快速移动。" },
-      { "word": "sterilize", "phon": "/ˈsterəlaɪz/", "pos": "v.", "cn": "消毒", "eg": "All tools had been sterilized in advance. 所有工具都已提前消毒。" },
-      { "word": "preserve", "phon": "/prɪˈzɜːv/", "pos": "v.", "cn": "保护，保存", "eg": "The team worked hard to preserve the remains. 团队努力保护遗体。" },
-      { "word": "successful", "phon": "/səkˈsesfl/", "pos": "adj.", "cn": "成功的", "eg": "It was a successful operation in the end. 最终这是一次成功的手术。" }
+      {
+        "word": "operation",
+        "phon": "/ˌɒpəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "手术；操作",
+        "eg": "The operation lasted for several hours. 这次手术持续了几个小时。"
+      },
+      {
+        "word": "mummy",
+        "phon": "/ˈmʌmi/",
+        "pos": "n.",
+        "cn": "木乃伊",
+        "eg": "The mummy was moved to the hospital carefully. 木乃伊被小心送到医院。"
+      },
+      {
+        "word": "archaeologist",
+        "phon": "/ˌɑːkiˈɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "考古学家",
+        "eg": "Archaeologists had prepared detailed notes. 考古学家之前已准备好详细笔记。"
+      },
+      {
+        "word": "fragile",
+        "phon": "/ˈfrædʒaɪl/",
+        "pos": "adj.",
+        "cn": "脆弱的",
+        "eg": "The body was too fragile to move quickly. 这具遗体太脆弱，不能快速移动。"
+      },
+      {
+        "word": "sterilize",
+        "phon": "/ˈsterəlaɪz/",
+        "pos": "v.",
+        "cn": "消毒",
+        "eg": "All tools had been sterilized in advance. 所有工具都已提前消毒。"
+      },
+      {
+        "word": "preserve",
+        "phon": "/prɪˈzɜːv/",
+        "pos": "v.",
+        "cn": "保护，保存",
+        "eg": "The team worked hard to preserve the remains. 团队努力保护遗体。"
+      },
+      {
+        "word": "successful",
+        "phon": "/səkˈsesfl/",
+        "pos": "adj.",
+        "cn": "成功的",
+        "eg": "It was a successful operation in the end. 最终这是一次成功的手术。"
+      },
+      {
+        "word": "temper",
+        "phon": "/'tempər/",
+        "pos": "n.",
+        "cn": "脾气",
+        "eg": ""
+      },
+      {
+        "word": "appetite",
+        "phon": "/'æpɪtaɪt/",
+        "pos": "n.",
+        "cn": "胃口，食欲",
+        "eg": ""
+      },
+      {
+        "word": "produce",
+        "phon": "/prəˈdju:s;(for n.)ˈprɒdju:s/",
+        "pos": "v.",
+        "cn": "拿出",
+        "eg": ""
+      },
+      {
+        "word": "urge",
+        "phon": "/ɜːrdʒ/",
+        "pos": "v.",
+        "cn": "力劝，怂恿",
+        "eg": ""
+      },
+      {
+        "word": "satisfaction",
+        "phon": "/sætɪs'fækʃ(ə)n/",
+        "pos": "n.",
+        "cn": "满意，满足",
+        "eg": ""
+      },
+      {
+        "word": "delighted",
+        "phon": "/dɪ'laɪtɪd/",
+        "pos": "a.",
+        "cn": "欣喜的",
+        "eg": ""
+      },
+      {
+        "word": "parent",
+        "phon": "/'peər(ə)nt/",
+        "pos": "n.",
+        "cn": "父(母)亲",
+        "eg": ""
+      },
+      {
+        "word": "flight attendant",
+        "phon": "/'flait əˌtendənt/",
+        "pos": "",
+        "cn": "空中乘务员",
+        "eg": ""
+      },
+      {
+        "word": "frightened",
+        "phon": "/'fraɪtnd/",
+        "pos": "a.",
+        "cn": "害怕，担惊",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -185,15 +726,123 @@
     "title": "The last one?",
     "titleCn": "最后一支吗？",
     "scene": "一位长期吸烟的男士在朋友劝说下决定戒烟。他点燃“最后一支”时信心满满，但几小时后又开始犹豫。为了彻底改变习惯，他把家里的烟盒都扔掉，并告诉同事自己已经戒烟。接下来几周里，他一直在刻意避免去吸烟区，也不断提醒自己别再复吸。虽然过程很难，他还是逐渐适应了无烟生活。这个故事既涉及“已经完成的结果”，也强调“持续进行的努力”，非常适合练习现在完成时和现在完成进行时。",
-    "grammarTags": ["现在完成时", "现在完成进行时"],
+    "grammarTags": [
+      "现在完成时",
+      "现在完成进行时"
+    ],
     "words": [
-      { "word": "cigarette", "phon": "/ˌsɪɡəˈret/", "pos": "n.", "cn": "香烟", "eg": "He smoked his last cigarette yesterday. 他昨天抽了最后一支烟。" },
-      { "word": "give up", "phon": "/ɡɪv ʌp/", "pos": "phr.v.", "cn": "戒掉；放弃", "eg": "He has given up smoking at last. 他终于已经戒烟了。" },
-      { "word": "habit", "phon": "/ˈhæbɪt/", "pos": "n.", "cn": "习惯", "eg": "Smoking had become a bad habit for him. 吸烟曾是他的坏习惯。" },
-      { "word": "avoid", "phon": "/əˈvɔɪd/", "pos": "v.", "cn": "避免", "eg": "He has been avoiding smoking areas recently. 他最近一直在避开吸烟区。" },
-      { "word": "healthy", "phon": "/ˈhelθi/", "pos": "adj.", "cn": "健康的", "eg": "He feels healthier after quitting. 戒烟后他感觉更健康了。" },
-      { "word": "temptation", "phon": "/tempˈteɪʃn/", "pos": "n.", "cn": "诱惑", "eg": "He still faces temptation at parties. 在聚会上他仍会面对诱惑。" },
-      { "word": "forever", "phon": "/fəˈrevə/", "pos": "adv.", "cn": "永远", "eg": "He says he will stay away from cigarettes forever. 他说自己会永远远离香烟。" }
+      {
+        "word": "cigarette",
+        "phon": "/ˌsɪɡəˈret/",
+        "pos": "n.",
+        "cn": "香烟",
+        "eg": "He smoked his last cigarette yesterday. 他昨天抽了最后一支烟。"
+      },
+      {
+        "word": "give up",
+        "phon": "/ɡɪv ʌp/",
+        "pos": "phr.v.",
+        "cn": "戒掉；放弃",
+        "eg": "He has given up smoking at last. 他终于已经戒烟了。"
+      },
+      {
+        "word": "habit",
+        "phon": "/ˈhæbɪt/",
+        "pos": "n.",
+        "cn": "习惯",
+        "eg": "Smoking had become a bad habit for him. 吸烟曾是他的坏习惯。"
+      },
+      {
+        "word": "avoid",
+        "phon": "/əˈvɔɪd/",
+        "pos": "v.",
+        "cn": "避免",
+        "eg": "He has been avoiding smoking areas recently. 他最近一直在避开吸烟区。"
+      },
+      {
+        "word": "healthy",
+        "phon": "/ˈhelθi/",
+        "pos": "adj.",
+        "cn": "健康的",
+        "eg": "He feels healthier after quitting. 戒烟后他感觉更健康了。"
+      },
+      {
+        "word": "temptation",
+        "phon": "/tempˈteɪʃn/",
+        "pos": "n.",
+        "cn": "诱惑",
+        "eg": "He still faces temptation at parties. 在聚会上他仍会面对诱惑。"
+      },
+      {
+        "word": "forever",
+        "phon": "/fəˈrevə/",
+        "pos": "adv.",
+        "cn": "永远",
+        "eg": "He says he will stay away from cigarettes forever. 他说自己会永远远离香烟。"
+      },
+      {
+        "word": "curious",
+        "phon": "/'kjʊərɪəs/",
+        "pos": "a.",
+        "cn": "急于了解，好奇的",
+        "eg": ""
+      },
+      {
+        "word": "bomb",
+        "phon": "/bɒm/",
+        "pos": "n.",
+        "cn": "炸弹",
+        "eg": ""
+      },
+      {
+        "word": "plant",
+        "phon": "/plɑːnt/",
+        "pos": "v.",
+        "cn": "安放",
+        "eg": ""
+      },
+      {
+        "word": "palace",
+        "phon": "/'pælɪs/",
+        "pos": "n.",
+        "cn": "宫殿",
+        "eg": ""
+      },
+      {
+        "word": "extraordinary",
+        "phon": "/ɪk'strɔːrdəneri/",
+        "pos": "a.",
+        "cn": "不平常的.非凡的",
+        "eg": ""
+      },
+      {
+        "word": "exhibition",
+        "phon": "/ˌeksɪˈbɪʃn/",
+        "pos": "n.",
+        "cn": "展览",
+        "eg": ""
+      },
+      {
+        "word": "iron",
+        "phon": "/'aɪən/",
+        "pos": "n.",
+        "cn": "铁",
+        "eg": ""
+      },
+      {
+        "word": "various",
+        "phon": "/'veərɪəs/",
+        "pos": "a.",
+        "cn": "各种各样的",
+        "eg": ""
+      },
+      {
+        "word": "machinery",
+        "phon": "/mə'ʃiːnəri/",
+        "pos": "n.",
+        "cn": "机器",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -221,15 +870,123 @@
     "title": "By air",
     "titleCn": "乘飞机",
     "scene": "一名旅客曾兴奋地乘飞机飞往布宜诺斯艾利斯，途中一路欣赏云层和海岸线。可返程时他在机场突然紧张起来，担心再次乘机会出问题。最终他临时改主意，选择坐船回国，虽然旅程更慢，却让他安心许多。朋友们听后都觉得意外，因为他去程明明飞得很顺利。这个故事展示了同一个人在不同时刻的心理变化，也提供了大量交通方式介词表达，如 by air、by sea、on board 等。",
-    "grammarTags": ["一般过去时", "介词"],
+    "grammarTags": [
+      "一般过去时",
+      "介词"
+    ],
     "words": [
-      { "word": "air", "phon": "/eə/", "pos": "n.", "cn": "空中；航空", "eg": "He travelled by air to Buenos Aires. 他乘飞机去了布宜诺斯艾利斯。" },
-      { "word": "sea", "phon": "/siː/", "pos": "n.", "cn": "海；海路", "eg": "He came back by sea instead. 他改为走海路回来。" },
-      { "word": "flight", "phon": "/flaɪt/", "pos": "n.", "cn": "航班；飞行", "eg": "The first flight was smooth and quiet. 第一段飞行平稳安静。" },
-      { "word": "boat", "phon": "/bəʊt/", "pos": "n.", "cn": "船", "eg": "The boat took much longer than the plane. 坐船比坐飞机花了更久。" },
-      { "word": "afraid", "phon": "/əˈfreɪd/", "pos": "adj.", "cn": "害怕的", "eg": "He was afraid of flying back. 他害怕坐飞机返程。" },
-      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v./n.", "cn": "返回", "eg": "He returned home a week later. 一周后他回到了家。" },
-      { "word": "on board", "phon": "/ɒn bɔːd/", "pos": "prep. phr.", "cn": "在船上/机上", "eg": "He felt calmer on board the ship. 在船上时他更平静。" }
+      {
+        "word": "air",
+        "phon": "/eə/",
+        "pos": "n.",
+        "cn": "空中；航空",
+        "eg": "He travelled by air to Buenos Aires. 他乘飞机去了布宜诺斯艾利斯。"
+      },
+      {
+        "word": "sea",
+        "phon": "/siː/",
+        "pos": "n.",
+        "cn": "海；海路",
+        "eg": "He came back by sea instead. 他改为走海路回来。"
+      },
+      {
+        "word": "flight",
+        "phon": "/flaɪt/",
+        "pos": "n.",
+        "cn": "航班；飞行",
+        "eg": "The first flight was smooth and quiet. 第一段飞行平稳安静。"
+      },
+      {
+        "word": "boat",
+        "phon": "/bəʊt/",
+        "pos": "n.",
+        "cn": "船",
+        "eg": "The boat took much longer than the plane. 坐船比坐飞机花了更久。"
+      },
+      {
+        "word": "afraid",
+        "phon": "/əˈfreɪd/",
+        "pos": "adj.",
+        "cn": "害怕的",
+        "eg": "He was afraid of flying back. 他害怕坐飞机返程。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v./n.",
+        "cn": "返回",
+        "eg": "He returned home a week later. 一周后他回到了家。"
+      },
+      {
+        "word": "on board",
+        "phon": "/ɒn bɔːd/",
+        "pos": "prep. phr.",
+        "cn": "在船上/机上",
+        "eg": "He felt calmer on board the ship. 在船上时他更平静。"
+      },
+      {
+        "word": "display",
+        "phon": "/dɪ'spleɪ/",
+        "pos": "n.",
+        "cn": "展览",
+        "eg": ""
+      },
+      {
+        "word": "steam",
+        "phon": "/stiːm/",
+        "pos": "n.",
+        "cn": "蒸汽",
+        "eg": ""
+      },
+      {
+        "word": "profit",
+        "phon": "/'prɒfɪt/",
+        "pos": "n.",
+        "cn": "利润",
+        "eg": ""
+      },
+      {
+        "word": "college",
+        "phon": "/'kɒlɪdʒ/",
+        "pos": "n.",
+        "cn": "学院",
+        "eg": ""
+      },
+      {
+        "word": "prisoner",
+        "phon": "/'prɪz(ə)nə/",
+        "pos": "n.",
+        "cn": "囚犯",
+        "eg": ""
+      },
+      {
+        "word": "bush",
+        "phon": "/buʃ/",
+        "pos": "n.",
+        "cn": "灌木丛",
+        "eg": ""
+      },
+      {
+        "word": "rapidly",
+        "phon": "/'ræpɪdlɪ/",
+        "pos": "adv.",
+        "cn": "迅速地",
+        "eg": ""
+      },
+      {
+        "word": "uniform",
+        "phon": "/'juːnɪfɔːrm/",
+        "pos": "n.",
+        "cn": "制服",
+        "eg": ""
+      },
+      {
+        "word": "rifle",
+        "phon": "/'raɪf(ə)l/",
+        "pos": "n.",
+        "cn": "来福枪，步枪",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -257,15 +1014,123 @@
     "title": "The Crystal Palace",
     "titleCn": "水晶宫",
     "scene": "1851 年伦敦举办万国博览会，为了展示工业成就，工程师们设计了一座前所未有的玻璃与钢结构建筑——水晶宫。它建造速度惊人，巨大的构件被提前制作后运到现场组装，施工过程井然有序。开幕那天，来自各国的参观者涌入展馆，对透明穹顶和宽阔空间赞叹不已。水晶宫后来被迁移到新址，继续承载展览和公共活动。虽然建筑最终毁于火灾，但它在建筑史上的影响一直被反复提及。",
-    "grammarTags": ["一般过去时", "被动语态"],
+    "grammarTags": [
+      "一般过去时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "Crystal Palace", "phon": "/ˌkrɪstl ˈpæləs/", "pos": "n.", "cn": "水晶宫", "eg": "The Crystal Palace was built for the exhibition. 水晶宫是为博览会而建的。" },
-      { "word": "exhibition", "phon": "/ˌeksɪˈbɪʃn/", "pos": "n.", "cn": "展览会", "eg": "The Great Exhibition opened in 1851. 万国博览会于 1851 年开幕。" },
-      { "word": "steel", "phon": "/stiːl/", "pos": "n.", "cn": "钢材", "eg": "Steel frames supported the whole structure. 钢架支撑了整个结构。" },
-      { "word": "glass", "phon": "/ɡlɑːs/", "pos": "n.", "cn": "玻璃", "eg": "Large glass panels were used everywhere. 各处都使用了大型玻璃板。" },
-      { "word": "structure", "phon": "/ˈstrʌktʃə/", "pos": "n.", "cn": "结构", "eg": "The structure looked light but strong. 这个结构看起来轻巧却结实。" },
-      { "word": "visitor", "phon": "/ˈvɪzɪtə/", "pos": "n.", "cn": "参观者", "eg": "Visitors came from many countries. 参观者来自很多国家。" },
-      { "word": "rebuild", "phon": "/ˌriːˈbɪld/", "pos": "v.", "cn": "重建", "eg": "Parts were rebuilt after being moved. 建筑迁移后部分区域被重建。" }
+      {
+        "word": "Crystal Palace",
+        "phon": "/ˌkrɪstl ˈpæləs/",
+        "pos": "n.",
+        "cn": "水晶宫",
+        "eg": "The Crystal Palace was built for the exhibition. 水晶宫是为博览会而建的。"
+      },
+      {
+        "word": "exhibition",
+        "phon": "/ˌeksɪˈbɪʃn/",
+        "pos": "n.",
+        "cn": "展览会",
+        "eg": "The Great Exhibition opened in 1851. 万国博览会于 1851 年开幕。"
+      },
+      {
+        "word": "steel",
+        "phon": "/stiːl/",
+        "pos": "n.",
+        "cn": "钢材",
+        "eg": "Steel frames supported the whole structure. 钢架支撑了整个结构。"
+      },
+      {
+        "word": "glass",
+        "phon": "/ɡlɑːs/",
+        "pos": "n.",
+        "cn": "玻璃",
+        "eg": "Large glass panels were used everywhere. 各处都使用了大型玻璃板。"
+      },
+      {
+        "word": "structure",
+        "phon": "/ˈstrʌktʃə/",
+        "pos": "n.",
+        "cn": "结构",
+        "eg": "The structure looked light but strong. 这个结构看起来轻巧却结实。"
+      },
+      {
+        "word": "visitor",
+        "phon": "/ˈvɪzɪtə/",
+        "pos": "n.",
+        "cn": "参观者",
+        "eg": "Visitors came from many countries. 参观者来自很多国家。"
+      },
+      {
+        "word": "rebuild",
+        "phon": "/ˌriːˈbɪld/",
+        "pos": "v.",
+        "cn": "重建",
+        "eg": "Parts were rebuilt after being moved. 建筑迁移后部分区域被重建。"
+      },
+      {
+        "word": "shoulder",
+        "phon": "/'ʃəʊldə/",
+        "pos": "n.",
+        "cn": "肩",
+        "eg": ""
+      },
+      {
+        "word": "march",
+        "phon": "/mɑːrtʃ/",
+        "pos": "v.",
+        "cn": "行进",
+        "eg": ""
+      },
+      {
+        "word": "boldly",
+        "phon": "/'bəuldli/",
+        "pos": "adv.",
+        "cn": "大胆地",
+        "eg": ""
+      },
+      {
+        "word": "blaze",
+        "phon": "/bleɪz/",
+        "pos": "v.",
+        "cn": "闪耀",
+        "eg": ""
+      },
+      {
+        "word": "salute",
+        "phon": "/sə'l(j)uːt/",
+        "pos": "v.",
+        "cn": "行礼",
+        "eg": ""
+      },
+      {
+        "word": "elderly",
+        "phon": "/'eldəlɪ/",
+        "pos": "a.",
+        "cn": "上了年纪的",
+        "eg": ""
+      },
+      {
+        "word": "grey",
+        "phon": "/greɪ/",
+        "pos": "a.",
+        "cn": "灰白的",
+        "eg": ""
+      },
+      {
+        "word": "sharp",
+        "phon": "/ʃɑːp/",
+        "pos": "a.",
+        "cn": "猛烈的",
+        "eg": ""
+      },
+      {
+        "word": "blow",
+        "phon": "/bləʊ/",
+        "pos": "n.",
+        "cn": "打击",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -293,15 +1158,123 @@
     "title": "Escape",
     "titleCn": "逃脱",
     "scene": "战争期间，一名战俘趁夜色设法逃离看守营地。他没有立刻远走，而是先躲在野外开阔地附近，白天伏低身形，夜晚才缓慢前进。为了不暴露行踪，他总在树后、石墙旁或草丛间短暂停留，并尽量绕开道路和村庄。几天后，他终于接近友军控制区，获得安全保护。整个经历惊险而克制，既体现了过去叙事节奏，也依赖大量介词来说明路线与位置关系，是练习“动作+方位”表达的好材料。",
-    "grammarTags": ["一般过去时", "介词"],
+    "grammarTags": [
+      "一般过去时",
+      "介词"
+    ],
     "words": [
-      { "word": "escape", "phon": "/ɪˈskeɪp/", "pos": "v./n.", "cn": "逃脱", "eg": "The prisoner escaped at night. 这名囚犯在夜里逃脱了。" },
-      { "word": "prisoner of war", "phon": "/ˌprɪznə əv ˈwɔː/", "pos": "n.", "cn": "战俘", "eg": "The prisoner of war waited for a chance. 这名战俘等待着机会。" },
-      { "word": "camp", "phon": "/kæmp/", "pos": "n.", "cn": "营地", "eg": "He ran away from the camp quietly. 他悄悄逃离了营地。" },
-      { "word": "open air", "phon": "/ˌəʊpən ˈeə/", "pos": "n.", "cn": "露天", "eg": "He hid in the open air for days. 他在露天环境中躲了好几天。" },
-      { "word": "hide", "phon": "/haɪd/", "pos": "v.", "cn": "躲藏", "eg": "He hid behind rocks during daylight. 白天他躲在岩石后面。" },
-      { "word": "across", "phon": "/əˈkrɒs/", "pos": "prep.", "cn": "穿过", "eg": "He moved across fields at night. 他夜里穿过田野移动。" },
-      { "word": "towards", "phon": "/təˈwɔːdz/", "pos": "prep.", "cn": "朝向", "eg": "He walked towards friendly territory. 他朝友军控制区前进。" }
+      {
+        "word": "escape",
+        "phon": "/ɪˈskeɪp/",
+        "pos": "v./n.",
+        "cn": "逃脱",
+        "eg": "The prisoner escaped at night. 这名囚犯在夜里逃脱了。"
+      },
+      {
+        "word": "prisoner of war",
+        "phon": "/ˌprɪznə əv ˈwɔː/",
+        "pos": "n.",
+        "cn": "战俘",
+        "eg": "The prisoner of war waited for a chance. 这名战俘等待着机会。"
+      },
+      {
+        "word": "camp",
+        "phon": "/kæmp/",
+        "pos": "n.",
+        "cn": "营地",
+        "eg": "He ran away from the camp quietly. 他悄悄逃离了营地。"
+      },
+      {
+        "word": "open air",
+        "phon": "/ˌəʊpən ˈeə/",
+        "pos": "n.",
+        "cn": "露天",
+        "eg": "He hid in the open air for days. 他在露天环境中躲了好几天。"
+      },
+      {
+        "word": "hide",
+        "phon": "/haɪd/",
+        "pos": "v.",
+        "cn": "躲藏",
+        "eg": "He hid behind rocks during daylight. 白天他躲在岩石后面。"
+      },
+      {
+        "word": "across",
+        "phon": "/əˈkrɒs/",
+        "pos": "prep.",
+        "cn": "穿过",
+        "eg": "He moved across fields at night. 他夜里穿过田野移动。"
+      },
+      {
+        "word": "towards",
+        "phon": "/təˈwɔːdz/",
+        "pos": "prep.",
+        "cn": "朝向",
+        "eg": "He walked towards friendly territory. 他朝友军控制区前进。"
+      },
+      {
+        "word": "monster",
+        "phon": "/'mɑːnstər/",
+        "pos": "n.",
+        "cn": "怪物",
+        "eg": ""
+      },
+      {
+        "word": "sailor",
+        "phon": "/'seɪlə/",
+        "pos": "n.",
+        "cn": "海员",
+        "eg": ""
+      },
+      {
+        "word": "sight",
+        "phon": "/saɪt/",
+        "pos": "v.",
+        "cn": "见到",
+        "eg": ""
+      },
+      {
+        "word": "creature",
+        "phon": "/'kriːtʃə/",
+        "pos": "n.",
+        "cn": "动物，生物",
+        "eg": ""
+      },
+      {
+        "word": "peculiar",
+        "phon": "/pɪ'kjuːliər/",
+        "pos": "a.",
+        "cn": "奇怪的，不寻常的",
+        "eg": ""
+      },
+      {
+        "word": "shining",
+        "phon": "/'ʃainiŋ/",
+        "pos": "a.",
+        "cn": "闪闪发光的",
+        "eg": ""
+      },
+      {
+        "word": "oarfish",
+        "phon": "/'ɔ:fiʃ/",
+        "pos": "n.",
+        "cn": "桨鱼",
+        "eg": ""
+      },
+      {
+        "word": "election",
+        "phon": "/ɪ'lekʃ(ə)n/",
+        "pos": "n.",
+        "cn": "选举",
+        "eg": ""
+      },
+      {
+        "word": "former",
+        "phon": "/'fɔːrmər/",
+        "pos": "a.",
+        "cn": "从前的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -329,15 +1302,123 @@
     "title": "Monster or fish?",
     "titleCn": "怪物还是鱼？",
     "scene": "一位渔夫在海上捕到一种外形奇特的生物，头部宽大、皮肤粗糙，和他平时见过的鱼完全不同。他把这条“怪鱼”带回码头后，围观者议论纷纷，有人说是深海怪物，有人坚持它只是罕见鱼类。渔夫随后把样本拿给鱼贩查看，后者虽然经验丰富，也一时难以判断。记者赶来采访时，不少人仍争论不休。故事里常出现“这不是……吗？”“它看起来像……，对吧？”这类反意疑问句，语气生动。",
-    "grammarTags": ["一般过去时", "反意疑问句"],
+    "grammarTags": [
+      "一般过去时",
+      "反意疑问句"
+    ],
     "words": [
-      { "word": "monster", "phon": "/ˈmɒnstə/", "pos": "n.", "cn": "怪物", "eg": "Some people thought it was a sea monster. 有人认为它是海怪。" },
-      { "word": "fisherman", "phon": "/ˈfɪʃəmən/", "pos": "n.", "cn": "渔夫", "eg": "The fisherman caught the strange creature. 渔夫捕到了这个奇怪生物。" },
-      { "word": "creature", "phon": "/ˈkriːtʃə/", "pos": "n.", "cn": "生物", "eg": "No one had seen such a creature before. 以前没人见过这种生物。" },
-      { "word": "fishmonger", "phon": "/ˈfɪʃˌmʌŋɡə/", "pos": "n.", "cn": "鱼贩", "eg": "He showed it to a local fishmonger. 他把它拿给当地鱼贩看。" },
-      { "word": "strange", "phon": "/streɪndʒ/", "pos": "adj.", "cn": "奇怪的", "eg": "Its strange shape shocked everyone. 它奇怪的外形让大家震惊。" },
-      { "word": "argue", "phon": "/ˈɑːɡjuː/", "pos": "v.", "cn": "争论", "eg": "People argued about it for hours. 人们为它争论了好几个小时。" },
-      { "word": "scale", "phon": "/skeɪl/", "pos": "n.", "cn": "鳞片", "eg": "The fish had thick and dark scales. 这条鱼有厚厚的深色鳞片。" }
+      {
+        "word": "monster",
+        "phon": "/ˈmɒnstə/",
+        "pos": "n.",
+        "cn": "怪物",
+        "eg": "Some people thought it was a sea monster. 有人认为它是海怪。"
+      },
+      {
+        "word": "fisherman",
+        "phon": "/ˈfɪʃəmən/",
+        "pos": "n.",
+        "cn": "渔夫",
+        "eg": "The fisherman caught the strange creature. 渔夫捕到了这个奇怪生物。"
+      },
+      {
+        "word": "creature",
+        "phon": "/ˈkriːtʃə/",
+        "pos": "n.",
+        "cn": "生物",
+        "eg": "No one had seen such a creature before. 以前没人见过这种生物。"
+      },
+      {
+        "word": "fishmonger",
+        "phon": "/ˈfɪʃˌmʌŋɡə/",
+        "pos": "n.",
+        "cn": "鱼贩",
+        "eg": "He showed it to a local fishmonger. 他把它拿给当地鱼贩看。"
+      },
+      {
+        "word": "strange",
+        "phon": "/streɪndʒ/",
+        "pos": "adj.",
+        "cn": "奇怪的",
+        "eg": "Its strange shape shocked everyone. 它奇怪的外形让大家震惊。"
+      },
+      {
+        "word": "argue",
+        "phon": "/ˈɑːɡjuː/",
+        "pos": "v.",
+        "cn": "争论",
+        "eg": "People argued about it for hours. 人们为它争论了好几个小时。"
+      },
+      {
+        "word": "scale",
+        "phon": "/skeɪl/",
+        "pos": "n.",
+        "cn": "鳞片",
+        "eg": "The fish had thick and dark scales. 这条鱼有厚厚的深色鳞片。"
+      },
+      {
+        "word": "defeat",
+        "phon": "/dɪ'fiːt/",
+        "pos": "v.",
+        "cn": "打败",
+        "eg": ""
+      },
+      {
+        "word": "fanatical",
+        "phon": "/fə'nætɪkəl/",
+        "pos": "a.",
+        "cn": "狂热的",
+        "eg": ""
+      },
+      {
+        "word": "opponent",
+        "phon": "/ə'pounənt/",
+        "pos": "n.",
+        "cn": "反对者，对手",
+        "eg": ""
+      },
+      {
+        "word": "radical",
+        "phon": "/'rædɪkl/",
+        "pos": "a.",
+        "cn": "激进的",
+        "eg": ""
+      },
+      {
+        "word": "progressive",
+        "phon": "/prə'gresɪv/",
+        "pos": "a.",
+        "cn": "进步的",
+        "eg": ""
+      },
+      {
+        "word": "ex- prefix.(",
+        "phon": "",
+        "pos": "",
+        "cn": "前缀，用于名词前)前…",
+        "eg": ""
+      },
+      {
+        "word": "suspicious",
+        "phon": "/sə'spɪʃəs/",
+        "pos": "a.",
+        "cn": "怀疑的",
+        "eg": ""
+      },
+      {
+        "word": "strike",
+        "phon": "/straɪk/",
+        "pos": "n.",
+        "cn": "罢工",
+        "eg": ""
+      },
+      {
+        "word": "busman",
+        "phon": "/'bʌsmən/",
+        "pos": "n.",
+        "cn": "公共汽车司机",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -365,15 +1446,123 @@
     "title": "After the elections",
     "titleCn": "大选之后",
     "scene": "大选结束后，曾经流亡海外的前首相宣布回国。消息传出时，支持者已经在机场外等待许久，现场秩序一度紧张。飞机落地后，他在简短讲话中表示，自己离开祖国多年，如今终于能再次站在人民面前。记者随后追问他未来计划，他强调会先倾听公众意见，再决定是否重返政治核心。整件事既包含“先发生后报道”的关系，也有清晰的过去时间线，非常适合结合过去完成时与一般过去时进行训练。",
-    "grammarTags": ["过去完成时", "一般过去时"],
+    "grammarTags": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "election", "phon": "/ɪˈlekʃn/", "pos": "n.", "cn": "选举", "eg": "The elections ended last week. 选举在上周结束了。" },
-      { "word": "former", "phon": "/ˈfɔːmə/", "pos": "adj.", "cn": "前任的", "eg": "The former prime minister returned home. 前首相回到了国内。" },
-      { "word": "exile", "phon": "/ˈeɡzaɪl/", "pos": "n.", "cn": "流亡", "eg": "He had lived in exile for years. 他已经流亡多年。" },
-      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "He stayed abroad after the crisis. 危机后他留在了国外。" },
-      { "word": "supporter", "phon": "/səˈpɔːtə/", "pos": "n.", "cn": "支持者", "eg": "Supporters waited outside the airport. 支持者在机场外等待。" },
-      { "word": "speech", "phon": "/spiːtʃ/", "pos": "n.", "cn": "演讲", "eg": "He gave a short speech after landing. 落地后他发表了简短演讲。" },
-      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v./n.", "cn": "返回", "eg": "His return changed the political atmosphere. 他的归来改变了政治氛围。" }
+      {
+        "word": "election",
+        "phon": "/ɪˈlekʃn/",
+        "pos": "n.",
+        "cn": "选举",
+        "eg": "The elections ended last week. 选举在上周结束了。"
+      },
+      {
+        "word": "former",
+        "phon": "/ˈfɔːmə/",
+        "pos": "adj.",
+        "cn": "前任的",
+        "eg": "The former prime minister returned home. 前首相回到了国内。"
+      },
+      {
+        "word": "exile",
+        "phon": "/ˈeɡzaɪl/",
+        "pos": "n.",
+        "cn": "流亡",
+        "eg": "He had lived in exile for years. 他已经流亡多年。"
+      },
+      {
+        "word": "abroad",
+        "phon": "/əˈbrɔːd/",
+        "pos": "adv.",
+        "cn": "在国外",
+        "eg": "He stayed abroad after the crisis. 危机后他留在了国外。"
+      },
+      {
+        "word": "supporter",
+        "phon": "/səˈpɔːtə/",
+        "pos": "n.",
+        "cn": "支持者",
+        "eg": "Supporters waited outside the airport. 支持者在机场外等待。"
+      },
+      {
+        "word": "speech",
+        "phon": "/spiːtʃ/",
+        "pos": "n.",
+        "cn": "演讲",
+        "eg": "He gave a short speech after landing. 落地后他发表了简短演讲。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v./n.",
+        "cn": "返回",
+        "eg": "His return changed the political atmosphere. 他的归来改变了政治氛围。"
+      },
+      {
+        "word": "state",
+        "phon": "/steɪt/",
+        "pos": "v.",
+        "cn": "正式提出，宣布",
+        "eg": ""
+      },
+      {
+        "word": "agreement",
+        "phon": "/ə'griːm(ə)nt/",
+        "pos": "n.",
+        "cn": "协议",
+        "eg": ""
+      },
+      {
+        "word": "relieve",
+        "phon": "/rɪ'liːv/",
+        "pos": "v.",
+        "cn": "减轻",
+        "eg": ""
+      },
+      {
+        "word": "pressure",
+        "phon": "/'preʃə/",
+        "pos": "n.",
+        "cn": "压力，麻烦",
+        "eg": ""
+      },
+      {
+        "word": "extent",
+        "phon": "/ɪk'stent/",
+        "pos": "n.",
+        "cn": "程度",
+        "eg": ""
+      },
+      {
+        "word": "volunteer",
+        "phon": "/,vɒlən'tɪə/",
+        "pos": "v.",
+        "cn": "自动提出，自愿",
+        "eg": ""
+      },
+      {
+        "word": "gratitude",
+        "phon": "/'grætɪtjuːd/",
+        "pos": "n.",
+        "cn": "感激",
+        "eg": ""
+      },
+      {
+        "word": "Press",
+        "phon": "/pres/",
+        "pos": "n.",
+        "cn": "新闻界",
+        "eg": ""
+      },
+      {
+        "word": "object",
+        "phon": "/'ɔbdʒikt/",
+        "pos": "v.",
+        "cn": "不赞成，反对",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -401,15 +1590,123 @@
     "title": "On strike",
     "titleCn": "罢工",
     "scene": "公交司机罢工期间，城市交通几乎陷入停顿。许多乘客一早就在站台等待，却迟迟看不到正常班车。就在混乱中，一辆本不该载客的公交车突然开进主路，车上还出现了一位不请自来的“乘客”，引起大家注意。有人猜他是路过者，有人怀疑他想借机占便宜。执勤人员赶到后进行了询问，现场秩序才恢复。整篇故事强调“到现在已经造成的结果”和“这段时间一直在发生的状态”，适合练习现在完成时与现在完成进行时。",
-    "grammarTags": ["现在完成时", "现在完成进行时"],
+    "grammarTags": [
+      "现在完成时",
+      "现在完成进行时"
+    ],
     "words": [
-      { "word": "strike", "phon": "/straɪk/", "pos": "n./v.", "cn": "罢工", "eg": "The busmen have been on strike for days. 公交司机已经罢工好几天了。" },
-      { "word": "busman", "phon": "/ˈbʌsmən/", "pos": "n.", "cn": "公交司机", "eg": "Busmen have refused to work this week. 公交司机这周拒绝上班。" },
-      { "word": "passenger", "phon": "/ˈpæsɪndʒə/", "pos": "n.", "cn": "乘客", "eg": "An uninvited passenger appeared on the bus. 一位不速之客出现在公交上。" },
-      { "word": "uninvited", "phon": "/ˌʌnɪnˈvaɪtɪd/", "pos": "adj.", "cn": "未被邀请的", "eg": "The uninvited man sat quietly in the back. 那名不请自来的人安静坐在后排。" },
-      { "word": "delay", "phon": "/dɪˈleɪ/", "pos": "n./v.", "cn": "延误", "eg": "The strike has caused serious delays. 罢工已经造成严重延误。" },
-      { "word": "queue", "phon": "/kjuː/", "pos": "n./v.", "cn": "排队", "eg": "People have been queuing since dawn. 人们从黎明起一直在排队。" },
-      { "word": "commuter", "phon": "/kəˈmjuːtə/", "pos": "n.", "cn": "通勤者", "eg": "Commuters have suffered a lot this week. 通勤者这周吃了不少苦。" }
+      {
+        "word": "strike",
+        "phon": "/straɪk/",
+        "pos": "n./v.",
+        "cn": "罢工",
+        "eg": "The busmen have been on strike for days. 公交司机已经罢工好几天了。"
+      },
+      {
+        "word": "busman",
+        "phon": "/ˈbʌsmən/",
+        "pos": "n.",
+        "cn": "公交司机",
+        "eg": "Busmen have refused to work this week. 公交司机这周拒绝上班。"
+      },
+      {
+        "word": "passenger",
+        "phon": "/ˈpæsɪndʒə/",
+        "pos": "n.",
+        "cn": "乘客",
+        "eg": "An uninvited passenger appeared on the bus. 一位不速之客出现在公交上。"
+      },
+      {
+        "word": "uninvited",
+        "phon": "/ˌʌnɪnˈvaɪtɪd/",
+        "pos": "adj.",
+        "cn": "未被邀请的",
+        "eg": "The uninvited man sat quietly in the back. 那名不请自来的人安静坐在后排。"
+      },
+      {
+        "word": "delay",
+        "phon": "/dɪˈleɪ/",
+        "pos": "n./v.",
+        "cn": "延误",
+        "eg": "The strike has caused serious delays. 罢工已经造成严重延误。"
+      },
+      {
+        "word": "queue",
+        "phon": "/kjuː/",
+        "pos": "n./v.",
+        "cn": "排队",
+        "eg": "People have been queuing since dawn. 人们从黎明起一直在排队。"
+      },
+      {
+        "word": "commuter",
+        "phon": "/kəˈmjuːtə/",
+        "pos": "n.",
+        "cn": "通勤者",
+        "eg": "Commuters have suffered a lot this week. 通勤者这周吃了不少苦。"
+      },
+      {
+        "word": "inform",
+        "phon": "/ɪn'fɔːrm/",
+        "pos": "v.",
+        "cn": "告诉，通知",
+        "eg": ""
+      },
+      {
+        "word": "headmaster",
+        "phon": "/hed'mɑːstə/",
+        "pos": "n.",
+        "cn": "校长",
+        "eg": ""
+      },
+      {
+        "word": "contribute",
+        "phon": "/kən'trɪbjuːt/",
+        "pos": "v.",
+        "cn": "捐助，援助",
+        "eg": ""
+      },
+      {
+        "word": "gift",
+        "phon": "/gɪft/",
+        "pos": "n.",
+        "cn": "礼物，赠品",
+        "eg": ""
+      },
+      {
+        "word": "album",
+        "phon": "/'ælbəm/",
+        "pos": "n.",
+        "cn": "签名簿，相册",
+        "eg": ""
+      },
+      {
+        "word": "patience",
+        "phon": "/'peɪʃ(ə)ns/",
+        "pos": "n.",
+        "cn": "耐心",
+        "eg": ""
+      },
+      {
+        "word": "encouragement",
+        "phon": "/ɪn'kʌrɪdʒm(ə)nt/",
+        "pos": "n.",
+        "cn": "鼓励",
+        "eg": ""
+      },
+      {
+        "word": "farewell",
+        "phon": "/feə'wel/",
+        "pos": "n.",
+        "cn": "告别",
+        "eg": ""
+      },
+      {
+        "word": "honour",
+        "phon": "/'ɒnə/",
+        "pos": "n.",
+        "cn": "敬意",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

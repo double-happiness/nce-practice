@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "b4-13-q1",
+    "book": 4,
+    "lesson": 13,
+    "lessonTitle": "The search for oil",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Geologists identify areas ___ oil may have accumulated over millions of years.",
+    "options": [
+      "where",
+      "which",
+      "that",
+      "whose"
+    ],
+    "answer": "where",
+    "explanation": "考点:定语从句。先行词 areas 表地点，从句中作地点状语，用 where。"
+  },
+  {
+    "id": "b4-13-q2",
+    "book": 4,
+    "lesson": 13,
+    "lessonTitle": "The search for oil",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Wells ___ in promising zones cost millions of dollars each.",
+    "options": [
+      "drilled",
+      "drilling",
+      "to drill",
+      "drill"
+    ],
+    "answer": "drilled",
+    "explanation": "考点:过去分词作定语。wells 与 drill 是被动关系（被钻探的油井），用 drilled。"
+  },
+  {
+    "id": "b4-13-q3",
+    "book": 4,
+    "lesson": 13,
+    "lessonTitle": "The search for oil",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "A large reservoir ___ beneath the continental shelf by seismic surveys.",
+    "options": [
+      "has been located",
+      "has located",
+      "was locating",
+      "locates"
+    ],
+    "answer": "has been located",
+    "explanation": "考点:现在完成时被动。reservoir 是被定位的对象，强调至今结果，用 has been located。"
+  },
+  {
+    "id": "b4-13-q4",
+    "book": 4,
+    "lesson": 13,
+    "lessonTitle": "The search for oil",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Rock samples ___ from the well are analysed in the laboratory.",
+    "options": [
+      "taken",
+      "taking",
+      "to take",
+      "take"
+    ],
+    "answer": "taken",
+    "explanation": "考点:过去分词作定语。samples 与 take 是被动关系（被取出的岩样），用 taken。"
+  },
+  {
+    "id": "b4-13-q5",
+    "book": 4,
+    "lesson": 13,
+    "lessonTitle": "The search for oil",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "fill",
+    "stem": "Seismic data ___ (analyse) to reveal underground structures.",
+    "answer": [
+      "is analysed",
+      "are analysed"
+    ],
+    "explanation": "考点:一般现在时被动。data 是被分析的对象，陈述常规流程，填 is/are analysed。"
+  },
+  {
+    "id": "b4-14-q1",
+    "book": 4,
+    "lesson": 14,
+    "lessonTitle": "The Butterfly Effect",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "If the initial conditions ___ even slightly different, the outcome would be utterly changed.",
+    "options": [
+      "were",
+      "are",
+      "had been",
+      "would be"
+    ],
+    "answer": "were",
+    "explanation": "考点:虚拟语气(对现在)。与现在事实相反的假设，if 从句 be 动词用 were，主句 would do。"
+  },
+  {
+    "id": "b4-14-q2",
+    "book": 4,
+    "lesson": 14,
+    "lessonTitle": "The Butterfly Effect",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "If forecasters ___ perfect data, they still could not have predicted the storm.",
+    "options": [
+      "had possessed",
+      "possessed",
+      "have possessed",
+      "would possess"
+    ],
+    "answer": "had possessed",
+    "explanation": "考点:虚拟语气(对过去)。主句 could not have done 表对过去的假设，if 从句用 had possessed。"
+  },
+  {
+    "id": "b4-14-q3",
+    "book": 4,
+    "lesson": 14,
+    "lessonTitle": "The Butterfly Effect",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "___ the initial temperature been a fraction higher, the entire pattern would have altered.",
+    "options": [
+      "Had",
+      "If",
+      "Were",
+      "Should"
+    ],
+    "answer": "Had",
+    "explanation": "考点:虚拟倒装。Had + 主语 + done 置句首 = If ... had done，省略 if。"
+  },
+  {
+    "id": "b4-14-q4",
+    "book": 4,
+    "lesson": 14,
+    "lessonTitle": "The Butterfly Effect",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Only when scientists accepted the limits of prediction ___ chaos theory gain recognition.",
+    "options": [
+      "did",
+      "do",
+      "was",
+      "had"
+    ],
+    "answer": "did",
+    "explanation": "考点:部分倒装。Only when ... 置句首，主句用 did + 主语 + 动词原形。"
+  },
+  {
+    "id": "b4-14-q5",
+    "book": 4,
+    "lesson": 14,
+    "lessonTitle": "The Butterfly Effect",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "fill",
+    "stem": "If the butterfly ___ (not/flap) its wings, the tornado might never have occurred.",
+    "answer": [
+      "had not flapped"
+    ],
+    "explanation": "考点:虚拟语气(对过去)。与过去事实相反，if 从句用 had not flapped，主句 might have done。"
+  },
+  {
+    "id": "b4-15-q1",
+    "book": 4,
+    "lesson": 15,
+    "lessonTitle": "Secrecy in industry",
+    "grammar": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The fact ___ industrial espionage is widespread alarms many executives.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "whether"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。that 从句解释 the fact 的内容，that 在从句中不作成分。"
+  },
+  {
+    "id": "b4-15-q2",
+    "book": 4,
+    "lesson": 15,
+    "lessonTitle": "Secrecy in industry",
+    "grammar": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Employees ___ have access to secrets must sign confidentiality agreements.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "考点:定语从句。先行词 employees 指人且在从句中作主语，用 who。"
+  },
+  {
+    "id": "b4-15-q3",
+    "book": 4,
+    "lesson": 15,
+    "lessonTitle": "Secrecy in industry",
+    "grammar": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "There is a risk ___ confidential information may be leaked through careless talk.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "if"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。that 从句说明 risk 的具体内容，从句成分完整，用 that。"
+  },
+  {
+    "id": "b4-15-q4",
+    "book": 4,
+    "lesson": 15,
+    "lessonTitle": "Secrecy in industry",
+    "grammar": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Documents ___ contain proprietary data are stored in a secure vault.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 documents 指物且在从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-15-q5",
+    "book": 4,
+    "lesson": 15,
+    "lessonTitle": "Secrecy in industry",
+    "grammar": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Employees who leave the firm are bound not ___ (disclose) trade secrets.",
+    "answer": [
+      "to disclose"
+    ],
+    "explanation": "考点:不定式。be bound to do 表「有义务做」，填 to disclose。"
+  },
+  {
+    "id": "b4-16-q1",
+    "book": 4,
+    "lesson": 16,
+    "lessonTitle": "The modern city",
+    "grammar": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "People ___ to cities from the countryside strain existing infrastructure.",
+    "options": [
+      "flocking",
+      "flocked",
+      "to flock",
+      "flock"
+    ],
+    "answer": "flocking",
+    "explanation": "考点:现在分词作定语。people 与 flock 是主动关系（涌入城市的人们），用 flocking。"
+  },
+  {
+    "id": "b4-16-q2",
+    "book": 4,
+    "lesson": 16,
+    "lessonTitle": "The modern city",
+    "grammar": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "It is the sheer scale of modern cities ___ makes them so difficult to manage.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "who"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It is ... that 结构，强调主语 the sheer scale，用 that。"
+  },
+  {
+    "id": "b4-16-q3",
+    "book": 4,
+    "lesson": 16,
+    "lessonTitle": "The modern city",
+    "grammar": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "Areas ___ by pollution spread outward as cities continue to grow.",
+    "options": [
+      "affected",
+      "affecting",
+      "to affect",
+      "affect"
+    ],
+    "answer": "affected",
+    "explanation": "考点:过去分词作定语。areas 与 affect 是被动关系（受影响的区域），用 affected。"
+  },
+  {
+    "id": "b4-16-q4",
+    "book": 4,
+    "lesson": 16,
+    "lessonTitle": "The modern city",
+    "grammar": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "Planners build ring roads ___ divert traffic from the city centre.",
+    "options": [
+      "to",
+      "for",
+      "by",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "考点:不定式表目的。修建环城路的目的是疏导交通，用 to divert；此处 to 后接动词原形。"
+  },
+  {
+    "id": "b4-16-q5",
+    "book": 4,
+    "lesson": 16,
+    "lessonTitle": "The modern city",
+    "grammar": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "type": "fill",
+    "stem": "It was only in the twentieth century that the metropolis ___ (become) the dominant form of settlement.",
+    "answer": [
+      "became"
+    ],
+    "explanation": "考点:强调句+一般过去时。强调句 It was ... that 中，谓语随时间用一般过去时 became。"
+  },
+  {
+    "id": "b4-17-q1",
+    "book": 4,
+    "lesson": 17,
+    "lessonTitle": "A man-made disease",
+    "grammar": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "Millions of cattle ___ to contain the epidemic.",
+    "options": [
+      "were slaughtered",
+      "slaughtered",
+      "had slaughtered",
+      "were slaughtering"
+    ],
+    "answer": "were slaughtered",
+    "explanation": "考点:一般过去时被动。cattle 是被屠宰的对象，用 were slaughtered。"
+  },
+  {
+    "id": "b4-17-q2",
+    "book": 4,
+    "lesson": 17,
+    "lessonTitle": "A man-made disease",
+    "grammar": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "The feed supply ___ with infected material before the outbreak was detected.",
+    "options": [
+      "had been contaminated",
+      "contaminated",
+      "was contaminating",
+      "has contaminated"
+    ],
+    "answer": "had been contaminated",
+    "explanation": "考点:过去完成时被动。污染发生在 was detected 之前，feed 是受动者，用 had been contaminated。"
+  },
+  {
+    "id": "b4-17-q3",
+    "book": 4,
+    "lesson": 17,
+    "lessonTitle": "A man-made disease",
+    "grammar": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "If farmers ___ the cattle's diet, the epidemic might never have occurred.",
+    "options": [
+      "had not changed",
+      "did not change",
+      "have not changed",
+      "would not change"
+    ],
+    "answer": "had not changed",
+    "explanation": "考点:虚拟语气(对过去)。与过去事实相反，if 从句用 had not changed，主句 might have done。"
+  },
+  {
+    "id": "b4-17-q4",
+    "book": 4,
+    "lesson": 17,
+    "lessonTitle": "A man-made disease",
+    "grammar": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "type": "mcq",
+    "stem": "The practice of feeding meat-and-bone meal to cattle ___ since the epidemic.",
+    "options": [
+      "has been banned",
+      "banned",
+      "has banned",
+      "was banning"
+    ],
+    "answer": "has been banned",
+    "explanation": "考点:现在完成时被动。practice 是被禁止的对象，since 提示用 has been banned。"
+  },
+  {
+    "id": "b4-17-q5",
+    "book": 4,
+    "lesson": 17,
+    "lessonTitle": "A man-made disease",
+    "grammar": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "type": "fill",
+    "stem": "If only stricter precautions ___ (impose) at an earlier stage.",
+    "answer": [
+      "had been imposed"
+    ],
+    "explanation": "考点:If only 虚拟语气。对过去的遗憾，If only + had been done，填 had been imposed。"
+  },
+  {
+    "id": "b4-18-q1",
+    "book": 4,
+    "lesson": 18,
+    "lessonTitle": "Porpoises",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "___ I known earlier, I would have helped you.",
+    "options": [
+      "Had",
+      "If",
+      "Were",
+      "Have"
+    ],
+    "answer": "Had",
+    "explanation": "考点:虚拟倒装。Had I known earlier = If I had known earlier，Had 置句首省略 if，主句 would have done。"
+  },
+  {
+    "id": "b4-18-q2",
+    "book": 4,
+    "lesson": 18,
+    "lessonTitle": "Porpoises",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "If conservation laws ___ earlier, fewer porpoises would have perished.",
+    "options": [
+      "had been enforced",
+      "were enforced",
+      "have been enforced",
+      "would enforce"
+    ],
+    "answer": "had been enforced",
+    "explanation": "考点:虚拟语气(对过去)。主句 would have done 表对过去假设，if 从句用 had been enforced。"
+  },
+  {
+    "id": "b4-18-q3",
+    "book": 4,
+    "lesson": 18,
+    "lessonTitle": "Porpoises",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Never before ___ scientists observed such complex communication among porpoises.",
+    "options": [
+      "had",
+      "have",
+      "did",
+      "were"
+    ],
+    "answer": "had",
+    "explanation": "考点:部分倒装。Never before 置句首，主句用过去完成时倒装 had scientists observed。"
+  },
+  {
+    "id": "b4-18-q4",
+    "book": 4,
+    "lesson": 18,
+    "lessonTitle": "Porpoises",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Porpoises are marine mammals ___ breathe air at the surface.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 mammals 指物且在从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-18-q5",
+    "book": 4,
+    "lesson": 18,
+    "lessonTitle": "Porpoises",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "fill",
+    "stem": "Had the nets ___ (fit) with escape devices, countless porpoises would have been saved.",
+    "answer": [
+      "been fitted"
+    ],
+    "explanation": "考点:虚拟倒装。Had + 主语 + been done = If ... had been done，填 been fitted。"
+  },
+  {
+    "id": "b4-19-q1",
+    "book": 4,
+    "lesson": 19,
+    "lessonTitle": "The stuff of dreams",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Freud held the belief ___ dreams are the royal road to the unconscious.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "whether"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。that 从句解释 the belief 的内容，that 在从句中不作成分。"
+  },
+  {
+    "id": "b4-19-q2",
+    "book": 4,
+    "lesson": 19,
+    "lessonTitle": "The stuff of dreams",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "There is growing evidence ___ the brain processes memories during sleep.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "if"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。that 从句说明 evidence 的具体内容，用 that。"
+  },
+  {
+    "id": "b4-19-q3",
+    "book": 4,
+    "lesson": 19,
+    "lessonTitle": "The stuff of dreams",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "___ dreams helps psychologists understand repressed emotions.",
+    "options": [
+      "Studying",
+      "Study",
+      "To studying",
+      "Studied"
+    ],
+    "answer": "Studying",
+    "explanation": "考点:动名词作主语。「研究梦」作主语，用动名词 Studying。"
+  },
+  {
+    "id": "b4-19-q4",
+    "book": 4,
+    "lesson": 19,
+    "lessonTitle": "The stuff of dreams",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Images ___ in dreams often symbolize anxieties experienced while awake.",
+    "options": [
+      "appearing",
+      "appeared",
+      "to appear",
+      "appear"
+    ],
+    "answer": "appearing",
+    "explanation": "考点:现在分词作定语。images 与 appear 是主动关系（出现的意象），用 appearing。"
+  },
+  {
+    "id": "b4-19-q5",
+    "book": 4,
+    "lesson": 19,
+    "lessonTitle": "The stuff of dreams",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "fill",
+    "stem": "Psychologists avoid ___ (jump) to conclusions when interpreting dream symbols.",
+    "answer": [
+      "jumping"
+    ],
+    "explanation": "考点:动名词。avoid 后接 doing，填 jumping。"
+  },
+  {
+    "id": "b4-20-q1",
+    "book": 4,
+    "lesson": 20,
+    "lessonTitle": "Snake poison",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Snakes ___ venom attacks the nervous system are among the most dangerous.",
+    "options": [
+      "whose",
+      "which",
+      "that",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "考点:定语从句(whose)。whose 表所属关系「其毒液攻击神经系统的蛇」。"
+  },
+  {
+    "id": "b4-20-q2",
+    "book": 4,
+    "lesson": 20,
+    "lessonTitle": "Snake poison",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Compounds ___ from venom are used in heart medication.",
+    "options": [
+      "isolated",
+      "isolating",
+      "to isolate",
+      "isolate"
+    ],
+    "answer": "isolated",
+    "explanation": "考点:过去分词作定语。compounds 与 isolate 是被动关系（被分离的化合物），用 isolated。"
+  },
+  {
+    "id": "b4-20-q3",
+    "book": 4,
+    "lesson": 20,
+    "lessonTitle": "Snake poison",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Antivenom must ___ quickly after a snake bite.",
+    "options": [
+      "be administered",
+      "administer",
+      "have administered",
+      "administering"
+    ],
+    "answer": "be administered",
+    "explanation": "考点:情态动词被动。antivenom 是被注射的对象，must be administered。"
+  },
+  {
+    "id": "b4-20-q4",
+    "book": 4,
+    "lesson": 20,
+    "lessonTitle": "Snake poison",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Useful proteins ___ from venom in specialised laboratories.",
+    "options": [
+      "are extracted",
+      "extract",
+      "extracted",
+      "are extracting"
+    ],
+    "answer": "are extracted",
+    "explanation": "考点:一般现在时被动。proteins 是被提取的对象，陈述常规流程，用 are extracted。"
+  },
+  {
+    "id": "b4-20-q5",
+    "book": 4,
+    "lesson": 20,
+    "lessonTitle": "Snake poison",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "fill",
+    "stem": "Antivenom ___ (develop) for most dangerous snake species.",
+    "answer": [
+      "has been developed"
+    ],
+    "explanation": "考点:现在完成时被动。antivenom 是被研制的对象，强调至今结果，填 has been developed。"
+  },
+  {
+    "id": "b4-21-q1",
+    "book": 4,
+    "lesson": 21,
+    "lessonTitle": "William Shakespeare",
+    "grammar": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "type": "mcq",
+    "stem": "The plays ___ Shakespeare wrote continue to be performed worldwide.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 plays 指物且在从句中作 wrote 的宾语，用 that/which。"
+  },
+  {
+    "id": "b4-21-q2",
+    "book": 4,
+    "lesson": 21,
+    "lessonTitle": "William Shakespeare",
+    "grammar": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "type": "mcq",
+    "stem": "By the time he returned to Stratford, Shakespeare ___ most of his major plays.",
+    "options": [
+      "had written",
+      "wrote",
+      "has written",
+      "was writing"
+    ],
+    "answer": "had written",
+    "explanation": "考点:过去完成时。「写完」发生在 returned 之前，用 had written。"
+  },
+  {
+    "id": "b4-21-q3",
+    "book": 4,
+    "lesson": 21,
+    "lessonTitle": "William Shakespeare",
+    "grammar": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "type": "mcq",
+    "stem": "The Elizabethan era, ___ which he produced his greatest works, was a golden age.",
+    "options": [
+      "during",
+      "in",
+      "at",
+      "on"
+    ],
+    "answer": "during",
+    "explanation": "考点:介词+which 定语从句。during which = in which era，表「在该时代期间」。"
+  },
+  {
+    "id": "b4-21-q4",
+    "book": 4,
+    "lesson": 21,
+    "lessonTitle": "William Shakespeare",
+    "grammar": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "type": "mcq",
+    "stem": "Critics argued that others ___ to some works attributed to Shakespeare.",
+    "options": [
+      "had contributed",
+      "contributed",
+      "have contributed",
+      "were contributing"
+    ],
+    "answer": "had contributed",
+    "explanation": "考点:过去完成时。「参与创作」发生在 argued 所指的过去之前，用 had contributed。"
+  },
+  {
+    "id": "b4-21-q5",
+    "book": 4,
+    "lesson": 21,
+    "lessonTitle": "William Shakespeare",
+    "grammar": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "type": "fill",
+    "stem": "Many of his plays ___ (first/perform) at the Globe Theatre.",
+    "answer": [
+      "were first performed"
+    ],
+    "explanation": "考点:一般过去时被动。plays 是被上演的对象，填 were first performed。"
+  },
+  {
+    "id": "b4-22-q1",
+    "book": 4,
+    "lesson": 22,
+    "lessonTitle": "Not Guilty",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "If he ___ the contents of the packages, he would have declared them at customs.",
+    "options": [
+      "had known",
+      "knew",
+      "has known",
+      "would know"
+    ],
+    "answer": "had known",
+    "explanation": "考点:虚拟语气(对过去)。主句 would have done，if 从句用 had known。"
+  },
+  {
+    "id": "b4-22-q2",
+    "book": 4,
+    "lesson": 22,
+    "lessonTitle": "Not Guilty",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "___ the defendant known what was inside, he would never have crossed the border.",
+    "options": [
+      "Had",
+      "If",
+      "Were",
+      "Has"
+    ],
+    "answer": "Had",
+    "explanation": "考点:虚拟倒装。Had the defendant known = If the defendant had known。"
+  },
+  {
+    "id": "b4-22-q3",
+    "book": 4,
+    "lesson": 22,
+    "lessonTitle": "Not Guilty",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Little ___ he suspect that the gifts contained contraband.",
+    "options": [
+      "did",
+      "do",
+      "does",
+      "had"
+    ],
+    "answer": "did",
+    "explanation": "考点:部分倒装。Little 置句首表否定，主句用 did + 主语 + 动词原形。"
+  },
+  {
+    "id": "b4-22-q4",
+    "book": 4,
+    "lesson": 22,
+    "lessonTitle": "Not Guilty",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "The jury ___ him of all charges after finding insufficient evidence of intent.",
+    "options": [
+      "acquitted",
+      "acquits",
+      "has acquitted",
+      "was acquitting"
+    ],
+    "answer": "acquitted",
+    "explanation": "考点:一般过去时。案件叙述用一般过去时，陪审团裁定无罪用 acquitted。"
+  },
+  {
+    "id": "b4-22-q5",
+    "book": 4,
+    "lesson": 22,
+    "lessonTitle": "Not Guilty",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "fill",
+    "stem": "If only he ___ (open) the gifts before packing them in his suitcase.",
+    "answer": [
+      "had opened"
+    ],
+    "explanation": "考点:If only 虚拟语气。对过去的遗憾，If only + had done，填 had opened。"
+  },
+  {
+    "id": "b4-23-q1",
+    "book": 4,
+    "lesson": 23,
+    "lessonTitle": "One man's meat is another man's poison",
+    "grammar": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Many people prefer spicy food ___ bland dishes.",
+    "options": [
+      "to",
+      "than",
+      "over",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "考点:词汇辨析。prefer A to B 固定搭配，to 是介词，表「较偏爱 A 而非 B」。"
+  },
+  {
+    "id": "b4-23-q2",
+    "book": 4,
+    "lesson": 23,
+    "lessonTitle": "One man's meat is another man's poison",
+    "grammar": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Visitors from abroad often find it hard ___ suet pudding.",
+    "options": [
+      "to enjoy",
+      "enjoying",
+      "enjoy",
+      "enjoyed"
+    ],
+    "answer": "to enjoy",
+    "explanation": "考点:不定式。find it + adj. + to do 结构，填 to enjoy。"
+  },
+  {
+    "id": "b4-23-q3",
+    "book": 4,
+    "lesson": 23,
+    "lessonTitle": "One man's meat is another man's poison",
+    "grammar": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "A taste for strong cheese is an ___ taste.",
+    "options": [
+      "acquired",
+      "acquiring",
+      "acquire",
+      "acquisition"
+    ],
+    "answer": "acquired",
+    "explanation": "考点:词汇辨析。acquired taste 固定搭配，表「后天养成的口味」，用过去分词形容词 acquired。"
+  },
+  {
+    "id": "b4-23-q4",
+    "book": 4,
+    "lesson": 23,
+    "lessonTitle": "One man's meat is another man's poison",
+    "grammar": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "What one culture enjoys, another may find impossible ___.",
+    "options": [
+      "to appreciate",
+      "appreciating",
+      "appreciate",
+      "appreciated"
+    ],
+    "answer": "to appreciate",
+    "explanation": "考点:不定式。find sth. + adj. + to do，填 to appreciate。"
+  },
+  {
+    "id": "b4-23-q5",
+    "book": 4,
+    "lesson": 23,
+    "lessonTitle": "One man's meat is another man's poison",
+    "grammar": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "type": "fill",
+    "stem": "It takes years of exposure ___ (cultivate) a taste for unfamiliar cuisine.",
+    "answer": [
+      "to cultivate"
+    ],
+    "explanation": "考点:不定式。It takes ... to do 结构，填 to cultivate。"
+  },
+  {
+    "id": "b4-24-q1",
+    "book": 4,
+    "lesson": 24,
+    "lessonTitle": "A skeleton in the cupboard",
+    "grammar": [
+      "定语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "The cupboard ___ the skeleton was concealed had not been opened for decades.",
+    "options": [
+      "in which",
+      "which",
+      "where",
+      "that"
+    ],
+    "answer": "in which",
+    "explanation": "考点:介词+which 定语从句。in which = where，修饰 cupboard 表地点。"
+  },
+  {
+    "id": "b4-24-q2",
+    "book": 4,
+    "lesson": 24,
+    "lessonTitle": "A skeleton in the cupboard",
+    "grammar": [
+      "定语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "It was inside an old cupboard ___ the dealer made the grisly discovery.",
+    "options": [
+      "that",
+      "which",
+      "where",
+      "when"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It was ... that 强调地点状语 inside an old cupboard，用 that。"
+  },
+  {
+    "id": "b4-24-q3",
+    "book": 4,
+    "lesson": 24,
+    "lessonTitle": "A skeleton in the cupboard",
+    "grammar": [
+      "定语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "The antique dealer bought furniture ___ had belonged to a distinguished family.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 furniture 指物且在从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-24-q4",
+    "book": 4,
+    "lesson": 24,
+    "lessonTitle": "A skeleton in the cupboard",
+    "grammar": [
+      "定语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "It was the fear of scandal ___ prompted the owner to buy back the furniture.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "who"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。强调主语 the fear of scandal，用 It was ... that 结构。"
+  },
+  {
+    "id": "b4-24-q5",
+    "book": 4,
+    "lesson": 24,
+    "lessonTitle": "A skeleton in the cupboard",
+    "grammar": [
+      "定语从句",
+      "强调句"
+    ],
+    "type": "fill",
+    "stem": "The family ___ (conceal) the truth for generations feared damage to their reputation.",
+    "answer": [
+      "had concealed",
+      "concealed"
+    ],
+    "explanation": "考点:过去完成时/一般过去时。隐瞒发生在 feared 之前用 had concealed；表持续状态也可用 concealed。"
+  }
+]

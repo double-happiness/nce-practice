@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-mkt-01",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Farmers Market",
+    "titleCn": "第1环：农夫市集",
+    "scene": "周末你去农夫市集买新鲜蔬果。（对话链：菜市场）",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "早上好！今天的草莓刚摘的。", "en": "Good morning! These strawberries were picked today." },
+      { "role": "You", "cn": "怎么卖？能尝一个吗？", "en": "How much? Can I try one?" },
+      { "role": "Vendor", "cn": "四美元一篮，随便尝。", "en": "Four dollars a basket. Go ahead and taste." },
+      { "role": "You", "cn": "很甜！再来一篮西红柿。", "en": "So sweet! I'll take a basket of tomatoes too." },
+      { "role": "Vendor", "cn": "一共九块，只收现金或 Venmo。", "en": "Nine total. Cash or Venmo only." },
+      { "role": "You", "cn": "刷卡不行吗？", "en": "No cards?" },
+      { "role": "Vendor", "cn": "抱歉，小摊没装刷卡机。", "en": "Sorry, we don't have a card reader." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-02",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Buy Fresh Fish",
+    "titleCn": "第2环：买海鲜",
+    "scene": "你在市场鱼摊买海鲜。（对话链：菜市场）",
+    "roles": ["You", "Fishmonger"],
+    "turns": [
+      { "role": "Fishmonger", "cn": "今天的三文鱼很新鲜。", "en": "The salmon is really fresh today." },
+      { "role": "You", "cn": "要一块两磅左右的，能帮忙去骨吗？", "en": "I'd like about two pounds, boneless, please." },
+      { "role": "Fishmonger", "cn": "可以，要切片还是整块？", "en": "Sure. Fillets or a whole side?" },
+      { "role": "You", "cn": "切片，今晚烧烤用。", "en": "Fillets. I'm grilling tonight." },
+      { "role": "Fishmonger", "cn": "建议挤点柠檬，别烤太久。", "en": "A little lemon helps. Don't overcook it." },
+      { "role": "You", "cn": "好的，再加半磅虾。", "en": "Sounds good. Add half a pound of shrimp too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-03",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Bargain for Scarf",
+    "titleCn": "第3环：讨价还价",
+    "scene": "你在露天市场买手工围巾。（对话链：菜市场）",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "手工围巾，二十五块。", "en": "Handmade scarf, twenty-five dollars." },
+      { "role": "You", "cn": "买两条能便宜吗？", "en": "Can you do a better price for two?" },
+      { "role": "Vendor", "cn": "两条四十。", "en": "Forty for two." },
+      { "role": "You", "cn": "三十五怎么样？现金付。", "en": "How about thirty-five? Cash." },
+      { "role": "Vendor", "cn": "三十八，不能再低了。", "en": "Thirty-eight. That's my final offer." },
+      { "role": "You", "cn": "成交。", "en": "Deal." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-04",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Asian Grocery",
+    "titleCn": "第4环：亚洲超市",
+    "scene": "你在亚洲超市找调料。（对话链：菜市场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "请问老干妈在哪？", "en": "Excuse me, where can I find Lao Gan Ma chili sauce?" },
+      { "role": "Clerk", "cn": "调料区，过道七，左边货架。", "en": "Aisle seven, sauces section, left side." },
+      { "role": "You", "cn": "有新鲜豆腐吗？", "en": "Do you have fresh tofu?" },
+      { "role": "Clerk", "cn": "在冷藏柜，每天上午到货。", "en": "In the refrigerated case. Deliveries come every morning." },
+      { "role": "You", "cn": "谢谢！你们几点关门？", "en": "Thanks! What time do you close?" },
+      { "role": "Clerk", "cn": "晚上十点。", "en": "Ten PM." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-05",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Pick Vegetables",
+    "titleCn": "第5环：挑蔬菜",
+    "scene": "你在蔬菜摊挑青菜，问摊主新不新鲜。（对话链：菜市场）",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "You", "cn": "这菠菜今天到的吗？", "en": "Did this spinach arrive today?" },
+      { "role": "Vendor", "cn": "早上刚卸货，很嫩。", "en": "Unloaded this morning. Very tender." },
+      { "role": "You", "cn": "来两把，青椒要红的还是绿的？", "en": "Two bunches. Red or green bell peppers?" },
+      { "role": "Vendor", "cn": "红的甜，绿的脆，做菜都行。", "en": "Red is sweeter, green is crunchier. Both work for cooking." },
+      { "role": "You", "cn": "各来三个吧。", "en": "Three of each, please." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-06",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Meat Counter",
+    "titleCn": "第6环：买肉",
+    "scene": "你在肉铺买猪肉馅。（对话链：菜市场）",
+    "roles": ["You", "Butcher"],
+    "turns": [
+      { "role": "You", "cn": "要一磅猪肉馅，瘦一点的。", "en": "One pound of ground pork, on the lean side." },
+      { "role": "Butcher", "cn": "八成瘦的行吗？", "en": "Eighty percent lean okay?" },
+      { "role": "You", "cn": "行，晚上包饺子用。", "en": "Sure. Making dumplings tonight." },
+      { "role": "Butcher", "cn": "要帮您绞现成还是已有？", "en": "Grind it fresh or use what's ready?" },
+      { "role": "You", "cn": "现绞吧，谢谢。", "en": "Fresh, please. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-07",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Parking Meter",
+    "titleCn": "第7环：付停车费",
+    "scene": "采购完回车上，你发现停车时间快到了。（对话链：菜市场）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "买得够多的，车放得下吗？", "en": "That's a lot. Will it fit in the car?" },
+      { "role": "You", "cn": "后备箱应该行，快，停车计时快过期了。", "en": "Trunk should work. Quick, the meter's almost up." },
+      { "role": "Friend", "cn": "我去续费，你先装车。", "en": "I'll feed the meter. You load the car." },
+      { "role": "You", "cn": "好，鱼放最上面别压。", "en": "Okay. Fish on top, don't crush it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mkt-08",
+    "category": "market",
+    "chain": {
+      "id": "market-shopping",
+      "title": "Shopping at the Market",
+      "titleCn": "对话链：菜市场采购",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Cook at Home",
+    "titleCn": "第8环：回家做饭",
+    "scene": "你们回家准备用刚买的食材做饭。（对话链：菜市场）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "今晚烧烤还是包饺子？", "en": "Grill or dumplings tonight?" },
+      { "role": "You", "cn": "鱼烧烤，肉馅包饺子，蔬菜炒一盘。", "en": "Grill the fish, dumplings from the pork, stir-fry the veggies." },
+      { "role": "Roommate", "cn": "我来揉面，你处理鱼。", "en": "I'll knead the dough. You prep the fish." },
+      { "role": "You", "cn": "草莓饭后当甜点。", "en": "Strawberries for dessert." },
+      { "role": "Roommate", "cn": "完美的一餐。", "en": "Perfect market run." },
+      { "role": "You", "cn": "周末买菜就爱来这。", "en": "Love shopping here on weekends." }
+    ]
+  }
+]

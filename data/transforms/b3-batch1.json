@@ -1,0 +1,338 @@
+[
+  {
+    "id": "tf-b3-001",
+    "book": 3,
+    "lesson": 1,
+    "grammar": ["过去完成时", "must have done 推测"],
+    "cn": "专家赶到时，美洲狮已经离开了村子。",
+    "explanation": "过去完成时表「过去的过去」；must have done 表对过去有把握的推测。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["When the experts arrived, the puma had already left the village."],
+        "cn": "专家赶到时，美洲狮已经离开了村子。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the puma」提问（问\"谁/什么已经离开\"）",
+        "answers": ["What had already left the village when the experts arrived?"],
+        "cn": "专家赶到时，什么已经离开了村子？"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：这只美洲狮一定是从私人收藏者那里逃出来的。",
+        "answers": ["The puma must have escaped from a private collection."],
+        "cn": "这只美洲狮一定是从私人收藏者那里逃出来的。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-002",
+    "book": 3,
+    "lesson": 2,
+    "grammar": ["现在完成进行时", "现在完成时"],
+    "cn": "几个星期以来他每晚都在爬上钟楼修钟。",
+    "explanation": "have been doing 强调持续；have done 强调结果。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["He has been climbing the tower every night for weeks."],
+        "cn": "几个星期以来他每晚都在爬上钟楼修钟。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for weeks」提问（问时间长度）",
+        "answers": ["How long has he been climbing the tower every night?"],
+        "cn": "他每晚爬钟楼已经多久了？"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：旧钟又开始报时了。",
+        "answers": ["The old bell has started working again."],
+        "cn": "旧钟又开始报时了。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-003",
+    "book": 3,
+    "lesson": 3,
+    "grammar": ["被动语态", "过去完成时"],
+    "cn": "一座繁荣的城市曾在数千年前矗立于此。",
+    "explanation": "叙述考古发现常用被动；had stood 表在过去某时之前。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["A prosperous city had stood there thousands of years ago."],
+        "cn": "一座繁荣的城市曾在数千年前矗立于此。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态（主语改为 a graceful goddess）",
+        "answers": ["A graceful goddess had been worshipped by the people of this early civilization."],
+        "cn": "这位优雅的女神像曾受到这个早期文明人们的崇拜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「thousands of years ago」提问",
+        "answers": ["When had a prosperous city stood there?"],
+        "cn": "一座繁荣的城市何时曾矗立于此？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-004",
+    "book": 3,
+    "lesson": 4,
+    "grammar": ["定语从句", "现在完成时"],
+    "cn": "他是一位为自己的工作感到自豪的男子。",
+    "explanation": "who 引导定语从句修饰人；现在完成时表持续至今。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["He is a man who takes pride in his work."],
+        "cn": "他是一位为自己的工作感到自豪的男子。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「who takes pride in his work」提问（问\"是怎样的人\"）",
+        "answers": ["What kind of man is he?"],
+        "cn": "他是怎样的人？"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：他在市政部门当清洁工已经十年了。",
+        "answers": ["He has worked for the Corporation as a dustman for ten years."],
+        "cn": "他在市政部门当清洁工已经十年了。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-005",
+    "book": 3,
+    "lesson": 5,
+    "grammar": ["非谓语动词(不定式)", "过去完成时"],
+    "cn": "记者想把一切都写下来。",
+    "explanation": "want to do；过去完成时表先于主句动作。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["The journalist wanted to describe everything."],
+        "cn": "记者想把一切都写下来。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": ["The journalist did not want to describe everything.", "The journalist didn't want to describe everything."],
+        "cn": "记者不想把一切都写下来。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：杂志付印时，记者已经回去核对数字了。",
+        "answers": ["By the time the magazine went to press, the journalist had returned to check the figures."],
+        "cn": "杂志付印时，记者已经回去核对数字了。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-006",
+    "book": 3,
+    "lesson": 6,
+    "grammar": ["过去进行时", "with 复合结构"],
+    "cn": "他们正忙着摆项链时，一辆大轿车停在店外。",
+    "explanation": "过去进行时铺背景；with + 名词 + 分词表伴随。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["While they were arranging necklaces, a large car stopped outside."],
+        "cn": "他们正忙着摆项链时，一辆大轿车停在店外。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：那辆车前灯亮着、喇叭长鸣地沿拱廊街飞驰而去。",
+        "answers": ["The car raced down the arcade with its headlights on and its horn blaring."],
+        "cn": "那辆车前灯亮着、喇叭长鸣地沿拱廊街飞驰而去。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「While they were arranging necklaces」提问（问时间）",
+        "answers": ["When did a large car stop outside?"],
+        "cn": "一辆大轿车何时停在店外？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-007",
+    "book": 3,
+    "lesson": 7,
+    "grammar": ["现在完成时", "被动语态"],
+    "cn": "你有没有失手洗过一张钞票？",
+    "explanation": "Have you ever done 问经历；被动表处理流程。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["Have you ever washed a banknote by mistake?"],
+        "cn": "你有没有失手洗过一张钞票？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句（原句已是疑问句，改为陈述句再转回）",
+        "answers": ["You have washed a banknote by mistake, haven't you?"],
+        "cn": "你失手洗过一张钞票，不是吗？"
+      },
+      {
+        "kind": "passive",
+        "prompt": "翻译并改为被动：银行已经兑换了所有的钱。",
+        "answers": ["All the money has been replaced by the bank."],
+        "cn": "所有的钱都已由银行兑换。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-008",
+    "book": 3,
+    "lesson": 8,
+    "grammar": ["被动语态", "非谓语动词(分词)"],
+    "cn": "这座修道院创建于十一世纪。",
+    "explanation": "was founded 一般过去被动；分词作定语/状语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["The monastery was founded in the eleventh century."],
+        "cn": "这座修道院创建于十一世纪。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "翻译被动句：一条公路已经修过了群山。",
+        "answers": ["A road has been built through the mountains."],
+        "cn": "一条公路已经修过了群山。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：经过修士训练，这些狗能在深雪中找到旅人。",
+        "answers": ["Trained by the monks, the dogs can find travellers in deep snow."],
+        "cn": "经过修士训练，这些狗能在深雪中找到旅人。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-009",
+    "book": 3,
+    "lesson": 9,
+    "grammar": ["同位语从句", "一般现在时"],
+    "cn": "猫通常四脚着地这一事实令科学家着迷。",
+    "explanation": "the fact that 同位语从句；科普用一般现在时。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["The fact that cats usually land on their feet fascinates scientists."],
+        "cn": "猫通常四脚着地这一事实令科学家着迷。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「that cats usually land on their feet」提问（问\"什么事实\"）",
+        "answers": ["What fact fascinates scientists?"],
+        "cn": "什么事实令科学家着迷？"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：下落的猫凭本能在空中转正身体。",
+        "answers": ["A falling cat turns its body in the air by instinct."],
+        "cn": "下落的猫凭本能在空中转正身体。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-010",
+    "book": 3,
+    "lesson": 10,
+    "grammar": ["虚拟条件句", "过去完成时"],
+    "cn": "如果当时有足够的救生艇，本可以多救下许多生命。",
+    "explanation": "与过去相反：If had done, would have done。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["If there had been enough lifeboats, many more lives would have been saved."],
+        "cn": "如果当时有足够的救生艇，本可以多救下许多生命。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "将主句改为被动语态（保留 would have been）",
+        "answers": ["If there had been enough lifeboats, many more lives would have been saved."],
+        "cn": "如果当时有足够的救生艇，本可以多救下许多生命。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：离港四天之后，五个船舱进了水。",
+        "answers": ["Five compartments were flooded four days after the ship had left port."],
+        "cn": "离港四天之后，五个船舱进了水。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-011",
+    "book": 3,
+    "lesson": 11,
+    "grammar": ["间接引语", "一般过去时"],
+    "cn": "官员问我是否有东西要申报。",
+    "explanation": "间接引语时态后移；陈述语序。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["The officer asked me whether I had anything to declare."],
+        "cn": "官员问我是否有东西要申报。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "将下列直接引语改为间接引语：\"Do you have anything to declare?\" the officer asked.",
+        "answers": ["The officer asked whether I had anything to declare.", "The officer asked if I had anything to declare."],
+        "cn": "官员问我是否有东西要申报。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：我告诉他那瓶是发胶，不是香水。",
+        "answers": ["I told him that the bottle was hair gel, not perfume."],
+        "cn": "我告诉他那瓶是发胶，不是香水。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-012",
+    "book": 3,
+    "lesson": 12,
+    "grammar": ["虚拟条件句", "现在完成时"],
+    "cn": "如果我真的住在那里，我很快就会发现事情的另一面。",
+    "explanation": "与现在事实相反：If + 过去式, would + 原形。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["If I actually lived there, I would soon discover the other side of the picture."],
+        "cn": "如果我真的住在那里，我很快就会发现事情的另一面。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为与现在事实相反的否定假设：If I did not live there...",
+        "answers": ["If I did not live there, I would not discover the other side of the picture.", "If I didn't live there, I wouldn't discover the other side of the picture."],
+        "cn": "如果我不住在那里，我就不会发现事情的另一面。"
+      },
+      {
+        "kind": "translate",
+        "prompt": "翻译：我们中很少有人真正验证过这些看法。",
+        "answers": ["Few of us have ever tested them."],
+        "cn": "我们中很少有人真正验证过这些看法。"
+      }
+    ]
+  }
+]

@@ -5,17 +5,144 @@
     "title": "A puma at large",
     "titleCn": "逃遁的美洲狮",
     "scene": "英国伦敦以南的乡间接连有人报告看到一只美洲狮出没。专家起初并不相信，因为美洲狮原产美洲，不可能在英国野外生存。可随着目击报告不断积累，细节又惊人一致：有人看到大型猫科动物，有人发现巨大的爪印，还有小动物被咬死、树上留下很深的抓痕。专家们只好认真对待，展开搜捕。他们推测这只美洲狮一定是从某位私人收藏者那里逃出来的，但搜寻数周后始终没有抓到它。本课的语法重心是叙事中的过去完成时，以及用 must have done 对过去情况作肯定推测。",
-    "grammarTags": ["过去完成时", "must have done 推测"],
+    "grammarTags": [
+      "过去完成时",
+      "must have done 推测"
+    ],
     "words": [
-      { "word": "puma", "phon": "/ˈpjuːmə/", "pos": "n.", "cn": "美洲狮", "eg": "Experts believe a puma can travel long distances at night. 专家认为美洲狮能在夜间长途移动。" },
-      { "word": "spot", "phon": "/spɒt/", "pos": "v.", "cn": "看出；发现", "eg": "A farmer spotted a large cat near the woods. 一位农民在树林附近发现了一只大型猫科动物。" },
-      { "word": "evidence", "phon": "/ˈevɪdəns/", "pos": "n.", "cn": "证据", "eg": "The paw prints were strong evidence of a wild animal. 这些爪印是野兽出没的有力证据。" },
-      { "word": "accumulate", "phon": "/əˈkjuːmjəleɪt/", "pos": "v.", "cn": "积累；积聚", "eg": "Reports of the strange animal accumulated within a week. 一周之内，关于这只怪兽的报告越积越多。" },
-      { "word": "oblige", "phon": "/əˈblaɪdʒ/", "pos": "v.", "cn": "使感到必须；迫使", "eg": "The new facts obliged the police to take the matter seriously. 新的事实迫使警方认真对待此事。" },
-      { "word": "hunt", "phon": "/hʌnt/", "pos": "n./v.", "cn": "追捕；搜寻", "eg": "The hunt for the animal lasted several days. 对这只动物的搜捕持续了好几天。" },
-      { "word": "trail", "phon": "/treɪl/", "pos": "n.", "cn": "一串足迹；踪迹", "eg": "The dogs followed the trail into the hills. 猎犬顺着足迹一路追进山里。" },
-      { "word": "print", "phon": "/prɪnt/", "pos": "n.", "cn": "印痕；足迹", "eg": "Fresh prints were found by the stream. 溪边发现了新鲜的印痕。" },
-      { "word": "disturbing", "phon": "/dɪˈstɜːbɪŋ/", "pos": "adj.", "cn": "令人不安的", "eg": "The most disturbing thing was the deep scratch on the tree. 最令人不安的是树上那道很深的抓痕。" }
+      {
+        "word": "puma",
+        "phon": "/ˈpjuːmə/",
+        "pos": "n.",
+        "cn": "美洲狮",
+        "eg": "Experts believe a puma can travel long distances at night. 专家认为美洲狮能在夜间长途移动。"
+      },
+      {
+        "word": "spot",
+        "phon": "/spɒt/",
+        "pos": "v.",
+        "cn": "看出；发现",
+        "eg": "A farmer spotted a large cat near the woods. 一位农民在树林附近发现了一只大型猫科动物。"
+      },
+      {
+        "word": "evidence",
+        "phon": "/ˈevɪdəns/",
+        "pos": "n.",
+        "cn": "证据",
+        "eg": "The paw prints were strong evidence of a wild animal. 这些爪印是野兽出没的有力证据。"
+      },
+      {
+        "word": "accumulate",
+        "phon": "/əˈkjuːmjəleɪt/",
+        "pos": "v.",
+        "cn": "积累；积聚",
+        "eg": "Reports of the strange animal accumulated within a week. 一周之内，关于这只怪兽的报告越积越多。"
+      },
+      {
+        "word": "oblige",
+        "phon": "/əˈblaɪdʒ/",
+        "pos": "v.",
+        "cn": "使感到必须；迫使",
+        "eg": "The new facts obliged the police to take the matter seriously. 新的事实迫使警方认真对待此事。"
+      },
+      {
+        "word": "hunt",
+        "phon": "/hʌnt/",
+        "pos": "n./v.",
+        "cn": "追捕；搜寻",
+        "eg": "The hunt for the animal lasted several days. 对这只动物的搜捕持续了好几天。"
+      },
+      {
+        "word": "trail",
+        "phon": "/treɪl/",
+        "pos": "n.",
+        "cn": "一串足迹；踪迹",
+        "eg": "The dogs followed the trail into the hills. 猎犬顺着足迹一路追进山里。"
+      },
+      {
+        "word": "print",
+        "phon": "/prɪnt/",
+        "pos": "n.",
+        "cn": "印痕；足迹",
+        "eg": "Fresh prints were found by the stream. 溪边发现了新鲜的印痕。"
+      },
+      {
+        "word": "disturbing",
+        "phon": "/dɪˈstɜːbɪŋ/",
+        "pos": "adj.",
+        "cn": "令人不安的",
+        "eg": "The most disturbing thing was the deep scratch on the tree. 最令人不安的是树上那道很深的抓痕。"
+      },
+      {
+        "word": "blackberry",
+        "phon": "/'blækbәri/",
+        "pos": "n.",
+        "cn": "黑莓",
+        "eg": ""
+      },
+      {
+        "word": "human",
+        "phon": "/'hjuːmən/",
+        "pos": "",
+        "cn": "人类",
+        "eg": "and experts confirmed that a puma will not attack a human being unless it is cornered."
+      },
+      {
+        "word": "corner",
+        "phon": "/'kɔːnə/",
+        "pos": "v.",
+        "cn": "使走投无路，使陷入困境；n.角落",
+        "eg": ""
+      },
+      {
+        "word": "cling",
+        "phon": "/klɪŋ/",
+        "pos": "v.",
+        "cn": "粘",
+        "eg": ""
+      },
+      {
+        "word": "convince",
+        "phon": "/kən'vɪns/",
+        "pos": "v.",
+        "cn": "使…信服",
+        "eg": ""
+      },
+      {
+        "word": "somehow",
+        "phon": "/'sʌmhaʊ/",
+        "pos": "adv.",
+        "cn": "不知怎么搞的，不知什么原因",
+        "eg": "this one must have been in the possession of a private collector and somehow managed to escape."
+      },
+      {
+        "word": "disturb",
+        "phon": "/dɪ'stɜːrb/",
+        "pos": "v.",
+        "cn": "令人不安",
+        "eg": ""
+      },
+      {
+        "word": "equal",
+        "phon": "/'iːkwəl/",
+        "pos": "v.",
+        "cn": "等于",
+        "eg": ""
+      },
+      {
+        "word": "vicar",
+        "phon": "/'vɪkə/",
+        "pos": "n.",
+        "cn": "牧师",
+        "eg": ""
+      },
+      {
+        "word": "raise",
+        "phon": "/reɪz/",
+        "pos": "v.",
+        "cn": "募集，筹(款)",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -43,16 +170,186 @@
     "title": "Thirteen equals one",
     "titleCn": "十三等于一",
     "scene": "村里教堂的大钟坏了很多年，牧师一直在为修钟筹款却总凑不够钱。一天午夜，钟声突然敲响了十三下，把牧师惊醒。他拿着手电筒爬上漆黑的钟楼，发现老比尔正在敲钟——原来比尔几个星期以来每晚都偷偷上来修钟，想给牧师一个惊喜。钟总算能走了，只是一点钟会敲十三下，而比尔对此毫无办法。牧师宽厚地笑道：十三下不如一下好，但总比没有强。本课重点比较现在完成进行时（强调一直在做）与现在完成时（强调已经做成）。",
-    "grammarTags": ["现在完成进行时", "现在完成时"],
+    "grammarTags": [
+      "现在完成进行时",
+      "现在完成时"
+    ],
     "words": [
-      { "word": "equal", "phon": "/ˈiːkwəl/", "pos": "v.", "cn": "等于", "eg": "In this funny story, thirteen equals one. 在这个有趣的故事里，十三等于一。" },
-      { "word": "vicar", "phon": "/ˈvɪkə/", "pos": "n.", "cn": "牧师", "eg": "The vicar smiled kindly at the old man. 牧师和蔼地朝老人笑了笑。" },
-      { "word": "raise", "phon": "/reɪz/", "pos": "v.", "cn": "筹集（资金）", "eg": "They have been raising money for the school hall. 他们一直在为学校礼堂筹款。" },
-      { "word": "torchlight", "phon": "/ˈtɔːtʃlaɪt/", "pos": "n.", "cn": "手电筒光", "eg": "By torchlight he saw a figure in the tower. 借着手电筒光，他看见塔里有个人影。" },
-      { "word": "strike", "phon": "/straɪk/", "pos": "v.", "cn": "（钟）敲响", "eg": "The old clock strikes every hour. 这座旧钟每小时报时一次。" },
-      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "It costs a lot to repair such an old clock. 修这么旧的钟要花很多钱。" },
-      { "word": "manage", "phon": "/ˈmænɪdʒ/", "pos": "v.", "cn": "设法做成", "eg": "He finally managed to make the bell work. 他终于设法让钟响了起来。" },
-      { "word": "surprise", "phon": "/səˈpraɪz/", "pos": "n./v.", "cn": "惊奇；使吃惊", "eg": "He wanted to give the vicar a big surprise. 他想给牧师一个大大的惊喜。" }
+      {
+        "word": "equal",
+        "phon": "/ˈiːkwəl/",
+        "pos": "v.",
+        "cn": "等于",
+        "eg": "In this funny story, thirteen equals one. 在这个有趣的故事里，十三等于一。"
+      },
+      {
+        "word": "vicar",
+        "phon": "/ˈvɪkə/",
+        "pos": "n.",
+        "cn": "牧师",
+        "eg": "The vicar smiled kindly at the old man. 牧师和蔼地朝老人笑了笑。"
+      },
+      {
+        "word": "raise",
+        "phon": "/reɪz/",
+        "pos": "v.",
+        "cn": "筹集（资金）",
+        "eg": "They have been raising money for the school hall. 他们一直在为学校礼堂筹款。"
+      },
+      {
+        "word": "torchlight",
+        "phon": "/ˈtɔːtʃlaɪt/",
+        "pos": "n.",
+        "cn": "手电筒光",
+        "eg": "By torchlight he saw a figure in the tower. 借着手电筒光，他看见塔里有个人影。"
+      },
+      {
+        "word": "strike",
+        "phon": "/straɪk/",
+        "pos": "v.",
+        "cn": "（钟）敲响",
+        "eg": "The old clock strikes every hour. 这座旧钟每小时报时一次。"
+      },
+      {
+        "word": "repair",
+        "phon": "/rɪˈpeə/",
+        "pos": "v.",
+        "cn": "修理",
+        "eg": "It costs a lot to repair such an old clock. 修这么旧的钟要花很多钱。"
+      },
+      {
+        "word": "manage",
+        "phon": "/ˈmænɪdʒ/",
+        "pos": "v.",
+        "cn": "设法做成",
+        "eg": "He finally managed to make the bell work. 他终于设法让钟响了起来。"
+      },
+      {
+        "word": "surprise",
+        "phon": "/səˈpraɪz/",
+        "pos": "n./v.",
+        "cn": "惊奇；使吃惊",
+        "eg": "He wanted to give the vicar a big surprise. 他想给牧师一个大大的惊喜。"
+      },
+      {
+        "word": "goddess",
+        "phon": "/ˈgɒdɪs/",
+        "pos": "n.",
+        "cn": "女神",
+        "eg": ""
+      },
+      {
+        "word": "archaeologist",
+        "phon": "/,ɑːkɪ'ɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "考古学家",
+        "eg": ""
+      },
+      {
+        "word": "aegean",
+        "phon": "/i:'dʒi:әn/",
+        "pos": "a.",
+        "cn": "爱琴海的",
+        "eg": ""
+      },
+      {
+        "word": "explore",
+        "phon": "/ɪk'splɔːr/",
+        "pos": "v.",
+        "cn": "考察，勘探",
+        "eg": ""
+      },
+      {
+        "word": "promontory",
+        "phon": "/'prɒm(ə)nt(ə)rɪ/",
+        "pos": "n.",
+        "cn": "海角",
+        "eg": ""
+      },
+      {
+        "word": "prosperous",
+        "phon": "/'prɒsp(ə)rəs/",
+        "pos": "a.",
+        "cn": "(经济上)繁荣的，昌盛的",
+        "eg": ""
+      },
+      {
+        "word": "civilization",
+        "phon": "/ˌsɪvɪlaɪˈzeɪʃən/",
+        "pos": "n.",
+        "cn": "文明",
+        "eg": ""
+      },
+      {
+        "word": "storey",
+        "phon": "/'stɔːrɪ/",
+        "pos": "n.",
+        "cn": "楼层",
+        "eg": ""
+      },
+      {
+        "word": "drainage",
+        "phon": "/'dreɪnɪdʒ/",
+        "pos": "n.",
+        "cn": "排水",
+        "eg": ""
+      },
+      {
+        "word": "worship",
+        "phon": "/'wɜːrʃɪp/",
+        "pos": "n.",
+        "cn": "祟拜",
+        "eg": ""
+      },
+      {
+        "word": "sacred",
+        "phon": "/'seɪkrɪd/",
+        "pos": "a.",
+        "cn": "宗教的，神圣的",
+        "eg": ""
+      },
+      {
+        "word": "fragment",
+        "phon": "/'frægm(ə)nt/",
+        "pos": "n.",
+        "cn": "碎片",
+        "eg": ""
+      },
+      {
+        "word": "remains",
+        "phon": "/rɪ'meɪnz/",
+        "pos": "n.",
+        "cn": "遗物，遗迹，废墟",
+        "eg": ""
+      },
+      {
+        "word": "classical",
+        "phon": "/'klæsɪk(ə)l/",
+        "pos": "a.",
+        "cn": "(希腊和罗马)古文化的",
+        "eg": ""
+      },
+      {
+        "word": "reconstruct",
+        "phon": "/riːkən'strʌkt/",
+        "pos": "v.",
+        "cn": "修复",
+        "eg": ""
+      },
+      {
+        "word": "rest",
+        "phon": "/rest/",
+        "pos": "v.",
+        "cn": "倚放，放置",
+        "eg": ""
+      },
+      {
+        "word": "hip",
+        "phon": "/hɪp/",
+        "pos": "n.",
+        "cn": "屁股，臀部",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -80,17 +377,193 @@
     "title": "An unknown goddess",
     "titleCn": "无名女神",
     "scene": "考古学家在爱琴海一处海岬上发掘出一座古城遗址，证明几千年前这里曾是一个繁荣的文明中心。他们清理出房屋、街道，甚至还有相当先进的排水系统。在一间显然用于祭祀的圣室里，出土了一尊石雕像的许多碎片。碎片被小心拼合复原后，呈现出一位体态优雅的女神全身像。她显然曾受到当地人的崇拜，但由于没有留下任何文字记录，她的身份至今仍是一个谜。本课语法围绕考古报道中大量使用的被动语态，以及交代“更早历史”的过去完成时。",
-    "grammarTags": ["被动语态", "过去完成时"],
+    "grammarTags": [
+      "被动语态",
+      "过去完成时"
+    ],
     "words": [
-      { "word": "goddess", "phon": "/ˈɡɒdes/", "pos": "n.", "cn": "女神", "eg": "The stone figure shows a graceful goddess. 这尊石像展现了一位优雅的女神。" },
-      { "word": "archaeologist", "phon": "/ˌɑːkiˈɒlədʒɪst/", "pos": "n.", "cn": "考古学家", "eg": "Archaeologists worked on the site for two summers. 考古学家们在这处遗址工作了两个夏天。" },
-      { "word": "explore", "phon": "/ɪkˈsplɔː/", "pos": "v.", "cn": "勘察；探索", "eg": "The team explored the whole hill carefully. 考古队仔细勘察了整座小山。" },
-      { "word": "prosperous", "phon": "/ˈprɒspərəs/", "pos": "adj.", "cn": "繁荣的", "eg": "The city had once been a prosperous port. 这座城市曾是一个繁荣的港口。" },
-      { "word": "civilization", "phon": "/ˌsɪvəlaɪˈzeɪʃn/", "pos": "n.", "cn": "文明", "eg": "The ruins belong to a very early civilization. 这些遗迹属于一个非常早期的文明。" },
-      { "word": "sacred", "phon": "/ˈseɪkrɪd/", "pos": "adj.", "cn": "神圣的；祭祀的", "eg": "The small room was clearly a sacred place. 这个小房间显然是一处圣地。" },
-      { "word": "fragment", "phon": "/ˈfræɡmənt/", "pos": "n.", "cn": "碎片", "eg": "Dozens of fragments lay under the dust. 几十块碎片埋在尘土之下。" },
-      { "word": "reconstruct", "phon": "/ˌriːkənˈstrʌkt/", "pos": "v.", "cn": "复原；重建", "eg": "The statue was reconstructed piece by piece. 这尊雕像被一片一片地复原。" },
-      { "word": "identity", "phon": "/aɪˈdentəti/", "pos": "n.", "cn": "身份", "eg": "The identity of the goddess remains a mystery. 这位女神的身份仍是一个谜。" }
+      {
+        "word": "goddess",
+        "phon": "/ˈɡɒdes/",
+        "pos": "n.",
+        "cn": "女神",
+        "eg": "The stone figure shows a graceful goddess. 这尊石像展现了一位优雅的女神。"
+      },
+      {
+        "word": "archaeologist",
+        "phon": "/ˌɑːkiˈɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "考古学家",
+        "eg": "Archaeologists worked on the site for two summers. 考古学家们在这处遗址工作了两个夏天。"
+      },
+      {
+        "word": "explore",
+        "phon": "/ɪkˈsplɔː/",
+        "pos": "v.",
+        "cn": "勘察；探索",
+        "eg": "The team explored the whole hill carefully. 考古队仔细勘察了整座小山。"
+      },
+      {
+        "word": "prosperous",
+        "phon": "/ˈprɒspərəs/",
+        "pos": "adj.",
+        "cn": "繁荣的",
+        "eg": "The city had once been a prosperous port. 这座城市曾是一个繁荣的港口。"
+      },
+      {
+        "word": "civilization",
+        "phon": "/ˌsɪvəlaɪˈzeɪʃn/",
+        "pos": "n.",
+        "cn": "文明",
+        "eg": "The ruins belong to a very early civilization. 这些遗迹属于一个非常早期的文明。"
+      },
+      {
+        "word": "sacred",
+        "phon": "/ˈseɪkrɪd/",
+        "pos": "adj.",
+        "cn": "神圣的；祭祀的",
+        "eg": "The small room was clearly a sacred place. 这个小房间显然是一处圣地。"
+      },
+      {
+        "word": "fragment",
+        "phon": "/ˈfræɡmənt/",
+        "pos": "n.",
+        "cn": "碎片",
+        "eg": "Dozens of fragments lay under the dust. 几十块碎片埋在尘土之下。"
+      },
+      {
+        "word": "reconstruct",
+        "phon": "/ˌriːkənˈstrʌkt/",
+        "pos": "v.",
+        "cn": "复原；重建",
+        "eg": "The statue was reconstructed piece by piece. 这尊雕像被一片一片地复原。"
+      },
+      {
+        "word": "identity",
+        "phon": "/aɪˈdentəti/",
+        "pos": "n.",
+        "cn": "身份",
+        "eg": "The identity of the goddess remains a mystery. 这位女神的身份仍是一个谜。"
+      },
+      {
+        "word": "full-length",
+        "phon": "",
+        "pos": "a.",
+        "cn": "(裙衣)拖地长的",
+        "eg": "She was wearing a full-length skirt which swept the ground."
+      },
+      {
+        "word": "graceful",
+        "phon": "/'greɪsfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "优雅的",
+        "eg": "Despite her great age, she was very graceful indeed, but, so far, the archaeologists have been unable to discover her identity."
+      },
+      {
+        "word": "manual",
+        "phon": "/'mænjuəl/",
+        "pos": "a.",
+        "cn": "体力的",
+        "eg": ""
+      },
+      {
+        "word": "collar",
+        "phon": "/'kɒlə/",
+        "pos": "n.",
+        "cn": "衣领",
+        "eg": ""
+      },
+      {
+        "word": "sacrifice",
+        "phon": "/'sækrɪfaɪs/",
+        "pos": "v.",
+        "cn": "牺牲，献出",
+        "eg": ""
+      },
+      {
+        "word": "privilege",
+        "phon": "/'prɪvəlɪdʒ/",
+        "pos": "n.",
+        "cn": "好处，特权",
+        "eg": ""
+      },
+      {
+        "word": "dustman",
+        "phon": "/'dʌs(t)mən/",
+        "pos": "n.",
+        "cn": "清洁工",
+        "eg": ""
+      },
+      {
+        "word": "corporation",
+        "phon": "/kɔːpə'reɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "公司",
+        "eg": ""
+      },
+      {
+        "word": "overalls",
+        "phon": "",
+        "pos": "n.",
+        "cn": "工作服",
+        "eg": ""
+      },
+      {
+        "word": "shower",
+        "phon": "/'ʃaʊə/",
+        "pos": "n.",
+        "cn": "淋浴",
+        "eg": ""
+      },
+      {
+        "word": "secret",
+        "phon": "/'siːkrɪt/",
+        "pos": "n.",
+        "cn": "秘密",
+        "eg": ""
+      },
+      {
+        "word": "status",
+        "phon": "/'steɪtəs/",
+        "pos": "n.",
+        "cn": "地位",
+        "eg": ""
+      },
+      {
+        "word": "editor",
+        "phon": "/'edɪtə/",
+        "pos": "n.",
+        "cn": "编辑",
+        "eg": ""
+      },
+      {
+        "word": "extreme",
+        "phon": "/ɪk'striːm/",
+        "pos": "n.",
+        "cn": "极端",
+        "eg": ""
+      },
+      {
+        "word": "statistics",
+        "phon": "/stə'tɪstɪks/",
+        "pos": "n.",
+        "cn": "统计数字",
+        "eg": ""
+      },
+      {
+        "word": "journalist",
+        "phon": "/'dʒɜːn(ə)lɪst/",
+        "pos": "n.",
+        "cn": "新闻记者",
+        "eg": ""
+      },
+      {
+        "word": "president",
+        "phon": "/'prezɪd(ə)nt/",
+        "pos": "n.",
+        "cn": "总统",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -118,17 +591,200 @@
     "title": "The double life of Alfred Bloggs",
     "titleCn": "阿尔弗雷德·布洛格斯的双重生活",
     "scene": "如今许多干体力活的“蓝领”收入常常超过坐办公室的“白领”，可人们还是普遍羡慕白领：西装革履、体面光鲜。清洁工阿尔弗雷德就过着这样的双重生活：每天早上穿着笔挺西装出门，让邻居以为他在办公室上班；到了单位再换上工作服去扫大街，下班冲个澡换回西装回家。十多年来他一直向邻居隐瞒真相，只因为在意所谓的身份地位。知情的妻子觉得他为面子牺牲得太多——诚实的体力劳动没什么可羞愧的。本课语法重点是定语从句和现在完成时。",
-    "grammarTags": ["定语从句", "现在完成时"],
+    "grammarTags": [
+      "定语从句",
+      "现在完成时"
+    ],
     "words": [
-      { "word": "manual", "phon": "/ˈmænjuəl/", "pos": "adj.", "cn": "体力的", "eg": "People who do manual work often earn good wages now. 如今干体力活的人往往收入不错。" },
-      { "word": "collar", "phon": "/ˈkɒlə/", "pos": "n.", "cn": "衣领", "eg": "White-collar workers wear clean shirts every day. 白领职员每天都穿干净的衬衫。" },
-      { "word": "sacrifice", "phon": "/ˈsækrɪfaɪs/", "pos": "v./n.", "cn": "牺牲", "eg": "He has sacrificed a lot for his so-called status. 为了所谓的地位，他牺牲了很多。" },
-      { "word": "privilege", "phon": "/ˈprɪvəlɪdʒ/", "pos": "n.", "cn": "特权；殊荣", "eg": "A clean job used to be a privilege of the few. 干净体面的工作曾是少数人的特权。" },
-      { "word": "dustman", "phon": "/ˈdʌstmən/", "pos": "n.", "cn": "清洁工", "eg": "The dustman empties our bins twice a week. 清洁工每周来倒两次垃圾。" },
-      { "word": "corporation", "phon": "/ˌkɔːpəˈreɪʃn/", "pos": "n.", "cn": "市政机构；公司", "eg": "He has worked for the Corporation for ten years. 他已经为市政部门工作了十年。" },
-      { "word": "overalls", "phon": "/ˈəʊvərɔːlz/", "pos": "n.", "cn": "工作服", "eg": "He changes into overalls before he starts work. 开工前他换上工作服。" },
-      { "word": "status", "phon": "/ˈsteɪtəs/", "pos": "n.", "cn": "地位；身份", "eg": "Some people care too much about social status. 有些人太在意社会地位。" },
-      { "word": "secret", "phon": "/ˈsiːkrət/", "pos": "n./adj.", "cn": "秘密；秘密的", "eg": "He has kept his job a secret from the neighbours. 他一直对邻居隐瞒自己的工作。" }
+      {
+        "word": "manual",
+        "phon": "/ˈmænjuəl/",
+        "pos": "adj.",
+        "cn": "体力的",
+        "eg": "People who do manual work often earn good wages now. 如今干体力活的人往往收入不错。"
+      },
+      {
+        "word": "collar",
+        "phon": "/ˈkɒlə/",
+        "pos": "n.",
+        "cn": "衣领",
+        "eg": "White-collar workers wear clean shirts every day. 白领职员每天都穿干净的衬衫。"
+      },
+      {
+        "word": "sacrifice",
+        "phon": "/ˈsækrɪfaɪs/",
+        "pos": "v./n.",
+        "cn": "牺牲",
+        "eg": "He has sacrificed a lot for his so-called status. 为了所谓的地位，他牺牲了很多。"
+      },
+      {
+        "word": "privilege",
+        "phon": "/ˈprɪvəlɪdʒ/",
+        "pos": "n.",
+        "cn": "特权；殊荣",
+        "eg": "A clean job used to be a privilege of the few. 干净体面的工作曾是少数人的特权。"
+      },
+      {
+        "word": "dustman",
+        "phon": "/ˈdʌstmən/",
+        "pos": "n.",
+        "cn": "清洁工",
+        "eg": "The dustman empties our bins twice a week. 清洁工每周来倒两次垃圾。"
+      },
+      {
+        "word": "corporation",
+        "phon": "/ˌkɔːpəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "市政机构；公司",
+        "eg": "He has worked for the Corporation for ten years. 他已经为市政部门工作了十年。"
+      },
+      {
+        "word": "overalls",
+        "phon": "/ˈəʊvərɔːlz/",
+        "pos": "n.",
+        "cn": "工作服",
+        "eg": "He changes into overalls before he starts work. 开工前他换上工作服。"
+      },
+      {
+        "word": "status",
+        "phon": "/ˈsteɪtəs/",
+        "pos": "n.",
+        "cn": "地位；身份",
+        "eg": "Some people care too much about social status. 有些人太在意社会地位。"
+      },
+      {
+        "word": "secret",
+        "phon": "/ˈsiːkrət/",
+        "pos": "n./adj.",
+        "cn": "秘密；秘密的",
+        "eg": "He has kept his job a secret from the neighbours. 他一直对邻居隐瞒自己的工作。"
+      },
+      {
+        "word": "palace",
+        "phon": "/'pælɪs/",
+        "pos": "n.",
+        "cn": "王宫；宏伟的住宅",
+        "eg": ""
+      },
+      {
+        "word": "publish",
+        "phon": "/'pʌblɪʃ/",
+        "pos": "v.",
+        "cn": "出版",
+        "eg": ""
+      },
+      {
+        "word": "fax",
+        "phon": "/fæks/",
+        "pos": "n.",
+        "cn": "传真",
+        "eg": ""
+      },
+      {
+        "word": "impatient",
+        "phon": "/ɪm'peɪʃ(ə)nt/",
+        "pos": "a.",
+        "cn": "不耐烦的",
+        "eg": ""
+      },
+      {
+        "word": "fire",
+        "phon": "/'faɪə/",
+        "pos": "v.",
+        "cn": "解雇",
+        "eg": ""
+      },
+      {
+        "word": "originally",
+        "phon": "/ə'rɪdʒɪn(ə)lɪ/",
+        "pos": "adv.",
+        "cn": "起初，原先，从前",
+        "eg": ""
+      },
+      {
+        "word": "smash-and-grab",
+        "phon": "",
+        "pos": "n.",
+        "cn": "砸窗户抢劫",
+        "eg": ""
+      },
+      {
+        "word": "arcade",
+        "phon": "/ɑː'keɪd/",
+        "pos": "n.",
+        "cn": "有拱廊的街道(两旁常设商店)",
+        "eg": ""
+      },
+      {
+        "word": "Piccadilly",
+        "phon": "/pikә'dili/",
+        "pos": "n.",
+        "cn": "皮卡迪利大街（伦敦市中心一条著名的街道）",
+        "eg": ""
+      },
+      {
+        "word": "jewellery",
+        "phon": "/'dʒuːəlrɪ/",
+        "pos": "n.",
+        "cn": "珠宝(总称)",
+        "eg": ""
+      },
+      {
+        "word": "necklace",
+        "phon": "/'neklɪs/",
+        "pos": "n.",
+        "cn": "项链",
+        "eg": ""
+      },
+      {
+        "word": "ring",
+        "phon": "/rɪŋ/",
+        "pos": "n.",
+        "cn": "戒指；环形物",
+        "eg": ""
+      },
+      {
+        "word": "background",
+        "phon": "/'bækgraʊnd/",
+        "pos": "n.",
+        "cn": "背景",
+        "eg": ""
+      },
+      {
+        "word": "velvet",
+        "phon": "/ˈvɛlvɪt/",
+        "pos": "n.",
+        "cn": "天鹅绒，丝绒",
+        "eg": ""
+      },
+      {
+        "word": "headlight",
+        "phon": "/'hedlaɪt/",
+        "pos": "n.",
+        "cn": "(汽车等)前灯",
+        "eg": ""
+      },
+      {
+        "word": "blare",
+        "phon": "/bleə/",
+        "pos": "v.",
+        "cn": "发嘟嘟声，吼叫",
+        "eg": ""
+      },
+      {
+        "word": "staff",
+        "phon": "/stæf/",
+        "pos": "n.",
+        "cn": "全体工作人员",
+        "eg": ""
+      },
+      {
+        "word": "raid",
+        "phon": "/reɪd/",
+        "pos": "n.",
+        "cn": "偷袭",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -156,17 +812,207 @@
     "title": "The facts",
     "titleCn": "确切数字",
     "scene": "杂志主编们最讲究向读者提供准确事实。一位主编派记者远赴某国，去报道总统新建的宫殿。记者洋洋洒洒写了数百页寄回来，文章精彩细节丰富，却偏偏漏掉了宫殿造价这个关键数字。主编立刻发传真，要求对方火速发回确切数字。等了几天没有回音，杂志付印在即，主编只好再三催促。最后记者的答复让人哭笑不得：确切数字无从得到，他因为打听造价已经被那个国家请了出去。本课语法重点是不定式（作目的状语和宾语）以及过去完成时。",
-    "grammarTags": ["非谓语动词(不定式)", "过去完成时"],
+    "grammarTags": [
+      "非谓语动词(不定式)",
+      "过去完成时"
+    ],
     "words": [
-      { "word": "editor", "phon": "/ˈedɪtə/", "pos": "n.", "cn": "主编；编辑", "eg": "The editor checks every fact before printing. 付印之前主编要核对每一个事实。" },
-      { "word": "extreme", "phon": "/ɪkˈstriːm/", "pos": "n./adj.", "cn": "极端；极度的", "eg": "He goes to extremes to get accurate figures. 为了拿到准确数字，他不惜走极端。" },
-      { "word": "statistics", "phon": "/stəˈtɪstɪks/", "pos": "n.", "cn": "统计数字", "eg": "Readers trust articles with clear statistics. 读者信任有清晰统计数字的文章。" },
-      { "word": "journalist", "phon": "/ˈdʒɜːnəlɪst/", "pos": "n.", "cn": "记者", "eg": "The journalist was sent abroad to gather facts. 这名记者被派往国外收集事实。" },
-      { "word": "president", "phon": "/ˈprezɪdənt/", "pos": "n.", "cn": "总统", "eg": "The president refused to answer that question. 总统拒绝回答那个问题。" },
-      { "word": "palace", "phon": "/ˈpæləs/", "pos": "n.", "cn": "宫殿", "eg": "The new palace stands on a hill outside the city. 新宫殿坐落在城外的小山上。" },
-      { "word": "publish", "phon": "/ˈpʌblɪʃ/", "pos": "v.", "cn": "出版；刊登", "eg": "The magazine decided not to publish the article. 杂志决定不刊登这篇文章。" },
-      { "word": "fax", "phon": "/fæks/", "pos": "n./v.", "cn": "传真", "eg": "He sent a fax to ask for the exact figures. 他发传真索要确切数字。" },
-      { "word": "impatient", "phon": "/ɪmˈpeɪʃnt/", "pos": "adj.", "cn": "不耐烦的", "eg": "The impatient editor waited for days without an answer. 不耐烦的主编等了好几天也没有回音。" }
+      {
+        "word": "editor",
+        "phon": "/ˈedɪtə/",
+        "pos": "n.",
+        "cn": "主编；编辑",
+        "eg": "The editor checks every fact before printing. 付印之前主编要核对每一个事实。"
+      },
+      {
+        "word": "extreme",
+        "phon": "/ɪkˈstriːm/",
+        "pos": "n./adj.",
+        "cn": "极端；极度的",
+        "eg": "He goes to extremes to get accurate figures. 为了拿到准确数字，他不惜走极端。"
+      },
+      {
+        "word": "statistics",
+        "phon": "/stəˈtɪstɪks/",
+        "pos": "n.",
+        "cn": "统计数字",
+        "eg": "Readers trust articles with clear statistics. 读者信任有清晰统计数字的文章。"
+      },
+      {
+        "word": "journalist",
+        "phon": "/ˈdʒɜːnəlɪst/",
+        "pos": "n.",
+        "cn": "记者",
+        "eg": "The journalist was sent abroad to gather facts. 这名记者被派往国外收集事实。"
+      },
+      {
+        "word": "president",
+        "phon": "/ˈprezɪdənt/",
+        "pos": "n.",
+        "cn": "总统",
+        "eg": "The president refused to answer that question. 总统拒绝回答那个问题。"
+      },
+      {
+        "word": "palace",
+        "phon": "/ˈpæləs/",
+        "pos": "n.",
+        "cn": "宫殿",
+        "eg": "The new palace stands on a hill outside the city. 新宫殿坐落在城外的小山上。"
+      },
+      {
+        "word": "publish",
+        "phon": "/ˈpʌblɪʃ/",
+        "pos": "v.",
+        "cn": "出版；刊登",
+        "eg": "The magazine decided not to publish the article. 杂志决定不刊登这篇文章。"
+      },
+      {
+        "word": "fax",
+        "phon": "/fæks/",
+        "pos": "n./v.",
+        "cn": "传真",
+        "eg": "He sent a fax to ask for the exact figures. 他发传真索要确切数字。"
+      },
+      {
+        "word": "impatient",
+        "phon": "/ɪmˈpeɪʃnt/",
+        "pos": "adj.",
+        "cn": "不耐烦的",
+        "eg": "The impatient editor waited for days without an answer. 不耐烦的主编等了好几天也没有回音。"
+      },
+      {
+        "word": "raid",
+        "phon": "/reɪd/",
+        "pos": "n.",
+        "cn": "偷袭",
+        "eg": ""
+      },
+      {
+        "word": "scramble",
+        "phon": "/'skræmb(ə)l/",
+        "pos": "v.",
+        "cn": "爬行",
+        "eg": ""
+      },
+      {
+        "word": "fantastic",
+        "phon": "/fæn'tæstɪk/",
+        "pos": "a.",
+        "cn": "非常大的",
+        "eg": ""
+      },
+      {
+        "word": "ashtray",
+        "phon": "/'æʃtreɪ/",
+        "pos": "n.",
+        "cn": "烟灰缸",
+        "eg": ""
+      },
+      {
+        "word": "mutilate",
+        "phon": "/'mjuːtileit/",
+        "pos": "v.",
+        "cn": "使残缺不全，毁坏",
+        "eg": ""
+      },
+      {
+        "word": "chew",
+        "phon": "/tʃuː/",
+        "pos": "v.",
+        "cn": "咀嚼",
+        "eg": ""
+      },
+      {
+        "word": "microwave",
+        "phon": "/'maɪkrəweɪv/",
+        "pos": "n.",
+        "cn": "微波，微波炉",
+        "eg": ""
+      },
+      {
+        "word": "oven",
+        "phon": "/'ʌv(ə)n/",
+        "pos": "n.",
+        "cn": "炉灶",
+        "eg": ""
+      },
+      {
+        "word": "safekeeping",
+        "phon": "/'seif'ki:piŋ/",
+        "pos": "n.",
+        "cn": "妥善保管",
+        "eg": ""
+      },
+      {
+        "word": "Newcastle",
+        "phon": "/'nju:'ka:sl/",
+        "pos": "n.",
+        "cn": "纽卡斯尔(英国港口城市)",
+        "eg": ""
+      },
+      {
+        "word": "identify",
+        "phon": "/aɪ'dentɪfaɪ/",
+        "pos": "v.",
+        "cn": "鉴定，识别",
+        "eg": ""
+      },
+      {
+        "word": "spokeswoman",
+        "phon": "",
+        "pos": "n.",
+        "cn": "女发言人",
+        "eg": ""
+      },
+      {
+        "word": "monastery",
+        "phon": "/'mɑːnəsteri/",
+        "pos": "n.",
+        "cn": "寺院，修道院",
+        "eg": ""
+      },
+      {
+        "word": "St.Bernard",
+        "phon": "",
+        "pos": "",
+        "cn": "圣伯纳德",
+        "eg": ""
+      },
+      {
+        "word": "pass",
+        "phon": "/pɑːs/",
+        "pos": "n.",
+        "cn": "关隘",
+        "eg": ""
+      },
+      {
+        "word": "watchdog",
+        "phon": "/'wɔtʃdɔ:g/",
+        "pos": "n.",
+        "cn": "看门狗",
+        "eg": ""
+      },
+      {
+        "word": "rashly",
+        "phon": "/'ræʃli/",
+        "pos": "a.",
+        "cn": "莽撞地，冒失地",
+        "eg": ""
+      },
+      {
+        "word": "enclosure",
+        "phon": "/ɪn'kləʊʒə; en-/",
+        "pos": "n.",
+        "cn": "围场，圈地",
+        "eg": ""
+      },
+      {
+        "word": "monk",
+        "phon": "/mʌŋk/",
+        "pos": "n.",
+        "cn": "和尚，僧侣,修道士",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -194,17 +1040,201 @@
     "title": "Smash-and-grab",
     "titleCn": "砸橱窗抢劫",
     "scene": "皮卡迪利拱廊街上一家珠宝店清晨刚开门，店员们正忙着把钻石项链摆上天鹅绒托盘。就在这时，一辆大轿车停在店外，车灯亮着、喇叭长鸣。两名劫匪跳下车，用铁锤砸碎橱窗，抓起珠宝就跑。店主冲出来投掷物件反击，劫匪慌乱中掉落了一些戒指，路人纷纷争抢拾捡。整个抢劫过程不到一分钟，轿车呼啸着冲出拱廊街扬长而去，等警察赶到时早已不见踪影。本课语法重点是过去进行时铺垫背景、with 复合结构描写伴随状态，以及一般过去时叙述主线动作。",
-    "grammarTags": ["过去进行时", "with 复合结构", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "with 复合结构",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "smash", "phon": "/smæʃ/", "pos": "v.", "cn": "打碎；砸烂", "eg": "The men smashed the window with hammers. 那两个人用铁锤砸碎了橱窗。" },
-      { "word": "grab", "phon": "/ɡræb/", "pos": "v.", "cn": "抢夺", "eg": "They grabbed everything within reach. 他们把够得着的东西全抢走了。" },
-      { "word": "arcade", "phon": "/ɑːˈkeɪd/", "pos": "n.", "cn": "拱廊商业街", "eg": "The shop stands in a quiet arcade. 这家店位于一条安静的拱廊街里。" },
-      { "word": "jewellery", "phon": "/ˈdʒuːəlri/", "pos": "n.", "cn": "珠宝（总称）", "eg": "The jewellery in the window was worth thousands. 橱窗里的珠宝价值数千英镑。" },
-      { "word": "necklace", "phon": "/ˈnekləs/", "pos": "n.", "cn": "项链", "eg": "A diamond necklace lay on the tray. 一条钻石项链摆在托盘上。" },
-      { "word": "velvet", "phon": "/ˈvelvɪt/", "pos": "n.", "cn": "天鹅绒", "eg": "The rings were displayed on dark velvet. 戒指陈列在深色天鹅绒上。" },
-      { "word": "headlight", "phon": "/ˈhedlaɪt/", "pos": "n.", "cn": "（汽车）前灯", "eg": "The car waited outside with its headlights on. 那辆车亮着前灯在外面等着。" },
-      { "word": "raid", "phon": "/reɪd/", "pos": "n./v.", "cn": "抢劫；突袭", "eg": "The raid lasted less than a minute. 这场抢劫前后不到一分钟。" },
-      { "word": "scramble", "phon": "/ˈskræmbl/", "pos": "v.", "cn": "争抢", "eg": "People scrambled to pick up the fallen rings. 人们争着去捡掉落的戒指。" }
+      {
+        "word": "smash",
+        "phon": "/smæʃ/",
+        "pos": "v.",
+        "cn": "打碎；砸烂",
+        "eg": "The men smashed the window with hammers. 那两个人用铁锤砸碎了橱窗。"
+      },
+      {
+        "word": "grab",
+        "phon": "/ɡræb/",
+        "pos": "v.",
+        "cn": "抢夺",
+        "eg": "They grabbed everything within reach. 他们把够得着的东西全抢走了。"
+      },
+      {
+        "word": "arcade",
+        "phon": "/ɑːˈkeɪd/",
+        "pos": "n.",
+        "cn": "拱廊商业街",
+        "eg": "The shop stands in a quiet arcade. 这家店位于一条安静的拱廊街里。"
+      },
+      {
+        "word": "jewellery",
+        "phon": "/ˈdʒuːəlri/",
+        "pos": "n.",
+        "cn": "珠宝（总称）",
+        "eg": "The jewellery in the window was worth thousands. 橱窗里的珠宝价值数千英镑。"
+      },
+      {
+        "word": "necklace",
+        "phon": "/ˈnekləs/",
+        "pos": "n.",
+        "cn": "项链",
+        "eg": "A diamond necklace lay on the tray. 一条钻石项链摆在托盘上。"
+      },
+      {
+        "word": "velvet",
+        "phon": "/ˈvelvɪt/",
+        "pos": "n.",
+        "cn": "天鹅绒",
+        "eg": "The rings were displayed on dark velvet. 戒指陈列在深色天鹅绒上。"
+      },
+      {
+        "word": "headlight",
+        "phon": "/ˈhedlaɪt/",
+        "pos": "n.",
+        "cn": "（汽车）前灯",
+        "eg": "The car waited outside with its headlights on. 那辆车亮着前灯在外面等着。"
+      },
+      {
+        "word": "raid",
+        "phon": "/reɪd/",
+        "pos": "n./v.",
+        "cn": "抢劫；突袭",
+        "eg": "The raid lasted less than a minute. 这场抢劫前后不到一分钟。"
+      },
+      {
+        "word": "scramble",
+        "phon": "/ˈskræmbl/",
+        "pos": "v.",
+        "cn": "争抢",
+        "eg": "People scrambled to pick up the fallen rings. 人们争着去捡掉落的戒指。"
+      },
+      {
+        "word": "monk",
+        "phon": "/mʌŋk/",
+        "pos": "n.",
+        "cn": "和尚，僧侣,修道士",
+        "eg": ""
+      },
+      {
+        "word": "privacy",
+        "phon": "/'privəsi/",
+        "pos": "n.",
+        "cn": "清静，隐居",
+        "eg": ""
+      },
+      {
+        "word": "skier",
+        "phon": "/'ski:ә/",
+        "pos": "n.",
+        "cn": "滑雪者",
+        "eg": ""
+      },
+      {
+        "word": "Easter",
+        "phon": "/'iːstər/",
+        "pos": "n.",
+        "cn": "复活节",
+        "eg": ""
+      },
+      {
+        "word": "fascinate",
+        "phon": "/'fæsɪneɪt/",
+        "pos": "v.",
+        "cn": "迷住，吸引住",
+        "eg": ""
+      },
+      {
+        "word": "affectionate",
+        "phon": "/ə'fekʃ(ə)nət/",
+        "pos": "a.",
+        "cn": "充满深情的，柔情的",
+        "eg": ""
+      },
+      {
+        "word": "mysterious",
+        "phon": "/mɪ'stɪərɪəs/",
+        "pos": "a.",
+        "cn": "神秘的，难以理解的",
+        "eg": ""
+      },
+      {
+        "word": "submissive",
+        "phon": "/səb'mɪsɪv/",
+        "pos": "a.",
+        "cn": "服从的，顺从的",
+        "eg": ""
+      },
+      {
+        "word": "feline",
+        "phon": "/'fiːlaɪn/",
+        "pos": "a.",
+        "cn": "猫的",
+        "eg": ""
+      },
+      {
+        "word": "independence",
+        "phon": "/ɪndɪ'pend(ə)ns/",
+        "pos": "n.",
+        "cn": "独立，独立性",
+        "eg": ""
+      },
+      {
+        "word": "high-rise",
+        "phon": "/'hai'raiz/",
+        "pos": "a.",
+        "cn": "高层的",
+        "eg": ""
+      },
+      {
+        "word": "windowsill",
+        "phon": "",
+        "pos": "n.",
+        "cn": "窗槛，窗台",
+        "eg": ""
+      },
+      {
+        "word": "paratrooper",
+        "phon": "/'pærәtru:pә/",
+        "pos": "n.",
+        "cn": "伞兵",
+        "eg": ""
+      },
+      {
+        "word": "squirrel",
+        "phon": "/'skwɜːrəl/",
+        "pos": "n.",
+        "cn": "松鼠",
+        "eg": ""
+      },
+      {
+        "word": "air-resistance",
+        "phon": "",
+        "pos": "n.",
+        "cn": "空气阻力",
+        "eg": ""
+      },
+      {
+        "word": "impact",
+        "phon": "/'ɪmpækt/",
+        "pos": "n.",
+        "cn": "冲击力",
+        "eg": ""
+      },
+      {
+        "word": "Southampton",
+        "phon": "/sauθ'æmptәn,sauθ'hæmptәn/",
+        "pos": "n.",
+        "cn": "南安普敦(英国港口城市)",
+        "eg": ""
+      },
+      {
+        "word": "colossal",
+        "phon": "/kə'lɒs(ə)l/",
+        "pos": "a.",
+        "cn": "庞大的,巨大的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -240,16 +1270,200 @@
     "title": "Mutilated ladies",
     "titleCn": "残钞鉴别组",
     "scene": "你有没有把纸币忘在裤兜里、连衣服一起扔进洗衣机的经历？钞票被洗烂、被狗嚼碎、被塞进机器搅坏，这类倒霉事其实相当常见。英格兰银行专门设有一个绰号“残钞鉴别组”的团队，负责处理这类索赔。一对新婚夫妇的积蓄曾被家里的小狗咬得粉碎，他们把残片小心收集起来寄给银行，专家们检验后证明这些钞票确实存在过，最终全额兑换了新钞。只要残留部分足以证明钞票真实存在，银行就会赔付。本课语法重点是谈经历的现在完成时和说明处理流程的被动语态。",
-    "grammarTags": ["现在完成时", "被动语态"],
+    "grammarTags": [
+      "现在完成时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "mutilate", "phon": "/ˈmjuːtɪleɪt/", "pos": "v.", "cn": "使残缺不全", "eg": "The notes were badly mutilated in the machine. 这些钞票在机器里被搅得残缺不全。" },
-      { "word": "chew", "phon": "/tʃuː/", "pos": "v.", "cn": "咀嚼；咬", "eg": "Dogs seem to love chewing up banknotes. 狗似乎特别爱咬碎钞票。" },
-      { "word": "banknote", "phon": "/ˈbæŋknəʊt/", "pos": "n.", "cn": "纸币；钞票", "eg": "He left a banknote in his back pocket. 他把一张钞票忘在了后兜里。" },
-      { "word": "claim", "phon": "/kleɪm/", "pos": "n./v.", "cn": "索赔；索取", "eg": "The bank deals with hundreds of claims each year. 银行每年处理数百起索赔。" },
-      { "word": "fiancé", "phon": "/fiˈɒnseɪ/", "pos": "n.", "cn": "未婚夫", "eg": "Her fiancé kept their savings in a drawer. 她的未婚夫把两人的积蓄放在抽屉里。" },
-      { "word": "identify", "phon": "/aɪˈdentɪfaɪ/", "pos": "v.", "cn": "鉴别；辨认", "eg": "Experts can identify a note from tiny pieces. 专家能从小碎片鉴别出一张钞票。" },
-      { "word": "prove", "phon": "/pruːv/", "pos": "v.", "cn": "证明", "eg": "You must prove that the note really existed. 你必须证明这张钞票确实存在过。" },
-      { "word": "replace", "phon": "/rɪˈpleɪs/", "pos": "v.", "cn": "更换；兑换", "eg": "The damaged money has been replaced with new notes. 损坏的钱已被兑换成新钞。" }
+      {
+        "word": "mutilate",
+        "phon": "/ˈmjuːtɪleɪt/",
+        "pos": "v.",
+        "cn": "使残缺不全",
+        "eg": "The notes were badly mutilated in the machine. 这些钞票在机器里被搅得残缺不全。"
+      },
+      {
+        "word": "chew",
+        "phon": "/tʃuː/",
+        "pos": "v.",
+        "cn": "咀嚼；咬",
+        "eg": "Dogs seem to love chewing up banknotes. 狗似乎特别爱咬碎钞票。"
+      },
+      {
+        "word": "banknote",
+        "phon": "/ˈbæŋknəʊt/",
+        "pos": "n.",
+        "cn": "纸币；钞票",
+        "eg": "He left a banknote in his back pocket. 他把一张钞票忘在了后兜里。"
+      },
+      {
+        "word": "claim",
+        "phon": "/kleɪm/",
+        "pos": "n./v.",
+        "cn": "索赔；索取",
+        "eg": "The bank deals with hundreds of claims each year. 银行每年处理数百起索赔。"
+      },
+      {
+        "word": "fiancé",
+        "phon": "/fiˈɒnseɪ/",
+        "pos": "n.",
+        "cn": "未婚夫",
+        "eg": "Her fiancé kept their savings in a drawer. 她的未婚夫把两人的积蓄放在抽屉里。"
+      },
+      {
+        "word": "identify",
+        "phon": "/aɪˈdentɪfaɪ/",
+        "pos": "v.",
+        "cn": "鉴别；辨认",
+        "eg": "Experts can identify a note from tiny pieces. 专家能从小碎片鉴别出一张钞票。"
+      },
+      {
+        "word": "prove",
+        "phon": "/pruːv/",
+        "pos": "v.",
+        "cn": "证明",
+        "eg": "You must prove that the note really existed. 你必须证明这张钞票确实存在过。"
+      },
+      {
+        "word": "replace",
+        "phon": "/rɪˈpleɪs/",
+        "pos": "v.",
+        "cn": "更换；兑换",
+        "eg": "The damaged money has been replaced with new notes. 损坏的钱已被兑换成新钞。"
+      },
+      {
+        "word": "colossal",
+        "phon": "/kə'lɒs(ə)l/",
+        "pos": "a.",
+        "cn": "庞大的,巨大的",
+        "eg": ""
+      },
+      {
+        "word": "watertight",
+        "phon": "/'wɔːtətaɪt/",
+        "pos": "a.",
+        "cn": "不漏水的",
+        "eg": ""
+      },
+      {
+        "word": "compartment",
+        "phon": "/kəm'pɑːtm(ə)nt/",
+        "pos": "n.",
+        "cn": "(轮船的)密封舱",
+        "eg": ""
+      },
+      {
+        "word": "flood",
+        "phon": "/flʌd/",
+        "pos": "v.",
+        "cn": "充满水",
+        "eg": ""
+      },
+      {
+        "word": "float",
+        "phon": "/flout/",
+        "pos": "v.",
+        "cn": "漂浮，飘浮",
+        "eg": ""
+      },
+      {
+        "word": "tragic",
+        "phon": "/'trædʒɪk/",
+        "pos": "a.",
+        "cn": "悲惨的",
+        "eg": ""
+      },
+      {
+        "word": "liner",
+        "phon": "/'laɪnə/",
+        "pos": "n.",
+        "cn": "班船, 大客轮；班机",
+        "eg": ""
+      },
+      {
+        "word": "voyage",
+        "phon": "/'vɔɪɪdʒ/",
+        "pos": "n.",
+        "cn": "航行",
+        "eg": ""
+      },
+      {
+        "word": "iceberg",
+        "phon": "/'aɪsbɜːrg/",
+        "pos": "n.",
+        "cn": "冰山",
+        "eg": ""
+      },
+      {
+        "word": "lookout",
+        "phon": "/'lʊkaʊt/",
+        "pos": "n.",
+        "cn": "瞭望员",
+        "eg": ""
+      },
+      {
+        "word": "collision",
+        "phon": "/kə'lɪʒn/",
+        "pos": "n.",
+        "cn": "碰撞",
+        "eg": ""
+      },
+      {
+        "word": "narrowly",
+        "phon": "/'nærəʊlɪ/",
+        "pos": "adv.",
+        "cn": "刚刚，勉强地",
+        "eg": ""
+      },
+      {
+        "word": "miss",
+        "phon": "/mɪs/",
+        "pos": "v.",
+        "cn": "避开",
+        "eg": ""
+      },
+      {
+        "word": "slight",
+        "phon": "/slaɪt/",
+        "pos": "a.",
+        "cn": "轻微的",
+        "eg": ""
+      },
+      {
+        "word": "tremble",
+        "phon": "/'tremb(ə)l/",
+        "pos": "v.",
+        "cn": "震颤",
+        "eg": ""
+      },
+      {
+        "word": "faint",
+        "phon": "/feɪnt/",
+        "pos": "a.",
+        "cn": "微弱的",
+        "eg": ""
+      },
+      {
+        "word": "horror",
+        "phon": "/'hɒrə/",
+        "pos": "n.",
+        "cn": "恐惧",
+        "eg": ""
+      },
+      {
+        "word": "abandon",
+        "phon": "/ə'bændən/",
+        "pos": "v.",
+        "cn": "抛弃",
+        "eg": ""
+      },
+      {
+        "word": "plunge",
+        "phon": "/plʌndʒ/",
+        "pos": "v.",
+        "cn": "投入，跳入；陷入",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -277,16 +1491,193 @@
     "title": "A famous monastery",
     "titleCn": "著名的修道院",
     "scene": "连接瑞士和意大利的圣伯纳德山口海拔很高，是欧洲著名的险要通道。山口旁的修道院建于十一世纪，千百年来一直为过往旅人提供食宿。修道院饲养的圣伯纳德犬经过修士训练，曾在暴风雪中救过许多人的性命。如今山间公路早已修通，隧道让穿越变得安全，夏天游客的汽车络绎不绝，修士们的清静反而常被打扰。因此他们更喜欢大雪封山的冬天——人群散去，群山重归宁静。本课语法重点是介绍历史与现状的被动语态，以及分词作定语和状语的非谓语用法。",
-    "grammarTags": ["被动语态", "非谓语动词(分词)"],
+    "grammarTags": [
+      "被动语态",
+      "非谓语动词(分词)"
+    ],
     "words": [
-      { "word": "monastery", "phon": "/ˈmɒnəstri/", "pos": "n.", "cn": "修道院", "eg": "The monastery stands high above the valley. 修道院高高地矗立在山谷之上。" },
-      { "word": "monk", "phon": "/mʌŋk/", "pos": "n.", "cn": "修士；僧侣", "eg": "The monks welcome travellers all year round. 修士们一年四季接待旅人。" },
-      { "word": "pass", "phon": "/pɑːs/", "pos": "n.", "cn": "山口；隘口", "eg": "The pass connects the two countries. 这个山口连接着两个国家。" },
-      { "word": "rescue", "phon": "/ˈreskjuː/", "pos": "v./n.", "cn": "营救", "eg": "The dogs once rescued travellers lost in the snow. 这些狗曾营救过在雪中迷路的旅人。" },
-      { "word": "privacy", "phon": "/ˈprɪvəsi/", "pos": "n.", "cn": "清静；隐居", "eg": "Summer visitors often disturb the monks' privacy. 夏天的游客常常打扰修士们的清静。" },
-      { "word": "shelter", "phon": "/ˈʃeltə/", "pos": "n./v.", "cn": "住处；庇护", "eg": "The building offers shelter from the storm. 这座建筑为人们提供躲避风暴的住处。" },
-      { "word": "found", "phon": "/faʊnd/", "pos": "v.", "cn": "创建；建立", "eg": "The monastery was founded about a thousand years ago. 这座修道院创建于约一千年前。" },
-      { "word": "crossing", "phon": "/ˈkrɒsɪŋ/", "pos": "n.", "cn": "穿越；越过", "eg": "The crossing is no longer dangerous today. 如今穿越山口已不再危险。" }
+      {
+        "word": "monastery",
+        "phon": "/ˈmɒnəstri/",
+        "pos": "n.",
+        "cn": "修道院",
+        "eg": "The monastery stands high above the valley. 修道院高高地矗立在山谷之上。"
+      },
+      {
+        "word": "monk",
+        "phon": "/mʌŋk/",
+        "pos": "n.",
+        "cn": "修士；僧侣",
+        "eg": "The monks welcome travellers all year round. 修士们一年四季接待旅人。"
+      },
+      {
+        "word": "pass",
+        "phon": "/pɑːs/",
+        "pos": "n.",
+        "cn": "山口；隘口",
+        "eg": "The pass connects the two countries. 这个山口连接着两个国家。"
+      },
+      {
+        "word": "rescue",
+        "phon": "/ˈreskjuː/",
+        "pos": "v./n.",
+        "cn": "营救",
+        "eg": "The dogs once rescued travellers lost in the snow. 这些狗曾营救过在雪中迷路的旅人。"
+      },
+      {
+        "word": "privacy",
+        "phon": "/ˈprɪvəsi/",
+        "pos": "n.",
+        "cn": "清静；隐居",
+        "eg": "Summer visitors often disturb the monks' privacy. 夏天的游客常常打扰修士们的清静。"
+      },
+      {
+        "word": "shelter",
+        "phon": "/ˈʃeltə/",
+        "pos": "n./v.",
+        "cn": "住处；庇护",
+        "eg": "The building offers shelter from the storm. 这座建筑为人们提供躲避风暴的住处。"
+      },
+      {
+        "word": "found",
+        "phon": "/faʊnd/",
+        "pos": "v.",
+        "cn": "创建；建立",
+        "eg": "The monastery was founded about a thousand years ago. 这座修道院创建于约一千年前。"
+      },
+      {
+        "word": "crossing",
+        "phon": "/ˈkrɒsɪŋ/",
+        "pos": "n.",
+        "cn": "穿越；越过",
+        "eg": "The crossing is no longer dangerous today. 如今穿越山口已不再危险。"
+      },
+      {
+        "word": "plunge",
+        "phon": "/plʌndʒ/",
+        "pos": "v.",
+        "cn": "投入，跳入；陷入",
+        "eg": ""
+      },
+      {
+        "word": "lifeboat",
+        "phon": "",
+        "pos": "n.",
+        "cn": "救生船",
+        "eg": ""
+      },
+      {
+        "word": "guilty",
+        "phon": "/'gɪlti/",
+        "pos": "a.",
+        "cn": "犯罪的，违法的",
+        "eg": ""
+      },
+      {
+        "word": "tolerant",
+        "phon": "/'tɑːlərənt/",
+        "pos": "a.",
+        "cn": "宽容的",
+        "eg": ""
+      },
+      {
+        "word": "declare",
+        "phon": "/dɪ'kler/",
+        "pos": "v.",
+        "cn": "申报",
+        "eg": ""
+      },
+      {
+        "word": "hardened",
+        "phon": "",
+        "pos": "a.",
+        "cn": "有经验的",
+        "eg": ""
+      },
+      {
+        "word": "professional",
+        "phon": "/prə'feʃ(ə)n(ə)l/",
+        "pos": "a.",
+        "cn": "职业的，专业的",
+        "eg": ""
+      },
+      {
+        "word": "smuggler",
+        "phon": "/'smʌglər/",
+        "pos": "n.",
+        "cn": "走私者",
+        "eg": ""
+      },
+      {
+        "word": "officious",
+        "phon": "/ə'fɪʃəs/",
+        "pos": "a.",
+        "cn": "爱管闲事的",
+        "eg": ""
+      },
+      {
+        "word": "confidently",
+        "phon": "/ˈkɒnfɪdəntli/",
+        "pos": "adv.",
+        "cn": "自信地",
+        "eg": ""
+      },
+      {
+        "word": "dreadful",
+        "phon": "/'dredfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "可怕的，一团糟的",
+        "eg": ""
+      },
+      {
+        "word": "pounce",
+        "phon": "/paʊns/",
+        "pos": "v.",
+        "cn": "猛抓，扑住",
+        "eg": ""
+      },
+      {
+        "word": "perfume",
+        "phon": "/pər'fjuːm/",
+        "pos": "n.",
+        "cn": "香水",
+        "eg": ""
+      },
+      {
+        "word": "sarcastically",
+        "phon": "/sa:'kæstikәli/",
+        "pos": "adv.",
+        "cn": "讽刺地",
+        "eg": ""
+      },
+      {
+        "word": "exempt",
+        "phon": "/ɪg'zempt/",
+        "pos": "a.",
+        "cn": "被免除的",
+        "eg": ""
+      },
+      {
+        "word": "duty",
+        "phon": "/'djuːtɪ/",
+        "pos": "n.",
+        "cn": "税",
+        "eg": ""
+      },
+      {
+        "word": "gel",
+        "phon": "/dʒel/",
+        "pos": "n.",
+        "cn": "凝胶，发胶",
+        "eg": ""
+      },
+      {
+        "word": "mixture",
+        "phon": "/'mɪkstʃə/",
+        "pos": "n.",
+        "cn": "混合物",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -314,17 +1705,207 @@
     "title": "Flying cats",
     "titleCn": "飞猫",
     "scene": "猫总能引起人类的极大兴趣，它们独立而神秘，只在自己愿意时才接受人的宠爱。科学家格外关注一个事实：猫从高处坠落时几乎总能四脚着地。研究发现，猫下落时本能地在空中转正身体，然后像撑开降落伞一样伸展四肢减缓下坠速度。更令人惊讶的统计是：从更高楼层坠落的猫，受的伤反而常常更轻，因为它们有更充分的时间放松和调整姿态。有记录的一只猫从三十二层坠落到硬地上竟然幸存。仿佛地心引力这条法则，猫天生就爱挑战。本课语法重点是同位语从句（the fact that...）和科普陈述常用的一般现在时。",
-    "grammarTags": ["同位语从句", "一般现在时"],
+    "grammarTags": [
+      "同位语从句",
+      "一般现在时"
+    ],
     "words": [
-      { "word": "fascinate", "phon": "/ˈfæsɪneɪt/", "pos": "v.", "cn": "使着迷", "eg": "Cats never fail to fascinate human beings. 猫总能使人类着迷。" },
-      { "word": "affection", "phon": "/əˈfekʃn/", "pos": "n.", "cn": "喜爱；感情", "eg": "A cat accepts affection only when it chooses. 猫只在自己愿意时才接受宠爱。" },
-      { "word": "instinct", "phon": "/ˈɪnstɪŋkt/", "pos": "n.", "cn": "本能", "eg": "Instinct makes a falling cat turn in the air. 本能使下落的猫在空中转正身体。" },
-      { "word": "height", "phon": "/haɪt/", "pos": "n.", "cn": "高度", "eg": "Cats falling from great heights often survive. 从很高处坠落的猫常常能活下来。" },
-      { "word": "injury", "phon": "/ˈɪndʒəri/", "pos": "n.", "cn": "伤害；损伤", "eg": "The cat suffered only slight injuries. 这只猫只受了轻伤。" },
-      { "word": "survive", "phon": "/səˈvaɪv/", "pos": "v.", "cn": "幸存", "eg": "One cat survived a fall of thirty-two floors. 一只猫从三十二层坠落后幸存。" },
-      { "word": "parachute", "phon": "/ˈpærəʃuːt/", "pos": "n.", "cn": "降落伞", "eg": "The cat spreads its legs like a parachute. 猫像撑开降落伞一样伸展四肢。" },
-      { "word": "gravity", "phon": "/ˈɡrævəti/", "pos": "n.", "cn": "地心引力", "eg": "Gravity pulls everything towards the ground. 地心引力把万物拉向地面。" },
-      { "word": "defy", "phon": "/dɪˈfaɪ/", "pos": "v.", "cn": "（似乎）违抗；使难以置信", "eg": "Cats seem to defy the law of gravity. 猫似乎能违抗地心引力法则。" }
+      {
+        "word": "fascinate",
+        "phon": "/ˈfæsɪneɪt/",
+        "pos": "v.",
+        "cn": "使着迷",
+        "eg": "Cats never fail to fascinate human beings. 猫总能使人类着迷。"
+      },
+      {
+        "word": "affection",
+        "phon": "/əˈfekʃn/",
+        "pos": "n.",
+        "cn": "喜爱；感情",
+        "eg": "A cat accepts affection only when it chooses. 猫只在自己愿意时才接受宠爱。"
+      },
+      {
+        "word": "instinct",
+        "phon": "/ˈɪnstɪŋkt/",
+        "pos": "n.",
+        "cn": "本能",
+        "eg": "Instinct makes a falling cat turn in the air. 本能使下落的猫在空中转正身体。"
+      },
+      {
+        "word": "height",
+        "phon": "/haɪt/",
+        "pos": "n.",
+        "cn": "高度",
+        "eg": "Cats falling from great heights often survive. 从很高处坠落的猫常常能活下来。"
+      },
+      {
+        "word": "injury",
+        "phon": "/ˈɪndʒəri/",
+        "pos": "n.",
+        "cn": "伤害；损伤",
+        "eg": "The cat suffered only slight injuries. 这只猫只受了轻伤。"
+      },
+      {
+        "word": "survive",
+        "phon": "/səˈvaɪv/",
+        "pos": "v.",
+        "cn": "幸存",
+        "eg": "One cat survived a fall of thirty-two floors. 一只猫从三十二层坠落后幸存。"
+      },
+      {
+        "word": "parachute",
+        "phon": "/ˈpærəʃuːt/",
+        "pos": "n.",
+        "cn": "降落伞",
+        "eg": "The cat spreads its legs like a parachute. 猫像撑开降落伞一样伸展四肢。"
+      },
+      {
+        "word": "gravity",
+        "phon": "/ˈɡrævəti/",
+        "pos": "n.",
+        "cn": "地心引力",
+        "eg": "Gravity pulls everything towards the ground. 地心引力把万物拉向地面。"
+      },
+      {
+        "word": "defy",
+        "phon": "/dɪˈfaɪ/",
+        "pos": "v.",
+        "cn": "（似乎）违抗；使难以置信",
+        "eg": "Cats seem to defy the law of gravity. 猫似乎能违抗地心引力法则。"
+      },
+      {
+        "word": "mixture",
+        "phon": "/'mɪkstʃə/",
+        "pos": "n.",
+        "cn": "混合物",
+        "eg": ""
+      },
+      {
+        "word": "unscrew",
+        "phon": "/ʌn'skruː/",
+        "pos": "v.",
+        "cn": "拧开",
+        "eg": ""
+      },
+      {
+        "word": "nostril",
+        "phon": "/'nɒstr(ə)l/",
+        "pos": "n.",
+        "cn": "鼻孔",
+        "eg": ""
+      },
+      {
+        "word": "chalk",
+        "phon": "/tʃɔːk/",
+        "pos": "n.",
+        "cn": "粉笔",
+        "eg": ""
+      },
+      {
+        "word": "baggage",
+        "phon": "/'bægɪdʒ/",
+        "pos": "n.",
+        "cn": "行李",
+        "eg": ""
+      },
+      {
+        "word": "desert",
+        "phon": "/(for v.) dɪ'zɜːt; (for n.) 'dezət/",
+        "pos": "v.",
+        "cn": "(军队中)开小差",
+        "eg": ""
+      },
+      {
+        "word": "unrealistic",
+        "phon": "/ˌʌnrɪə'lɪstɪk/",
+        "pos": "a.",
+        "cn": "不真实的",
+        "eg": ""
+      },
+      {
+        "word": "paradise",
+        "phon": "/'pærədaɪs/",
+        "pos": "n.",
+        "cn": "天堂，乐土",
+        "eg": ""
+      },
+      {
+        "word": "wretched",
+        "phon": "/'retʃɪd/",
+        "pos": "a.",
+        "cn": "可怜的，艰苦的",
+        "eg": ""
+      },
+      {
+        "word": "starve",
+        "phon": "/stɑːv/",
+        "pos": "v.",
+        "cn": "挨饿",
+        "eg": ""
+      },
+      {
+        "word": "element",
+        "phon": "/'elɪmənt/",
+        "pos": "n.",
+        "cn": "成分",
+        "eg": ""
+      },
+      {
+        "word": "opportunity",
+        "phon": "/ˌɑːpər'tuːnəti/",
+        "pos": "n.",
+        "cn": "机会",
+        "eg": ""
+      },
+      {
+        "word": "coral",
+        "phon": "/'kɔːrəl/",
+        "pos": "n.",
+        "cn": "珊瑚",
+        "eg": ""
+      },
+      {
+        "word": "Virgin",
+        "phon": "/'vә:dʒin/",
+        "pos": "",
+        "cn": "维尔京群岛",
+        "eg": ""
+      },
+      {
+        "word": "Miami",
+        "phon": "/mai'æmi/",
+        "pos": "n.",
+        "cn": "迈阿密(美国最南的城市)",
+        "eg": ""
+      },
+      {
+        "word": "dinghy",
+        "phon": "/'dɪŋgɪ; 'dɪŋɪ/",
+        "pos": "n.",
+        "cn": "救生筏，小船",
+        "eg": ""
+      },
+      {
+        "word": "Caribbean",
+        "phon": "/'kæri'bi:әn/",
+        "pos": "n.",
+        "cn": "加勒比海",
+        "eg": ""
+      },
+      {
+        "word": "spear",
+        "phon": "/spɪr/",
+        "pos": "",
+        "cn": "捕鱼枪",
+        "eg": ""
+      },
+      {
+        "word": "lobster",
+        "phon": "/'lɒbstə/",
+        "pos": "n.",
+        "cn": "龙虾",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -352,17 +1933,200 @@
     "title": "The loss of the Titanic",
     "titleCn": "“泰坦尼克”号的沉没",
     "scene": "巨轮“泰坦尼克”号启航前被誉为世界上最安全的船：船体分成十六个密封舱，据说即使其中两个进水，船仍能浮在海面上。1912 年 4 月，它满载乘客开始处女航。第四天夜里，瞭望员发现前方冰山，巨轮紧急转向躲过了正面相撞，船身却被水下的冰棱划开一道长长的口子。五个密封舱进水——比设计能承受的多了一个，命运就此注定。船在震颤中缓缓下沉，救生艇远远不够，这场悲剧震惊了全世界。本课语法重点是 even if 引导的虚拟条件句和交代先后的过去完成时。",
-    "grammarTags": ["虚拟条件句(even if)", "过去完成时"],
+    "grammarTags": [
+      "虚拟条件句(even if)",
+      "过去完成时"
+    ],
     "words": [
-      { "word": "tragic", "phon": "/ˈtrædʒɪk/", "pos": "adj.", "cn": "悲惨的", "eg": "The tragic voyage shocked the whole world. 这次悲惨的航行震惊了全世界。" },
-      { "word": "liner", "phon": "/ˈlaɪnə/", "pos": "n.", "cn": "班轮；邮轮", "eg": "The great liner carried over two thousand people. 这艘巨轮载有两千多人。" },
-      { "word": "luxurious", "phon": "/lʌɡˈʒʊəriəs/", "pos": "adj.", "cn": "豪华的", "eg": "Rich passengers filled the luxurious rooms. 富有的乘客住满了豪华客舱。" },
-      { "word": "voyage", "phon": "/ˈvɔɪɪdʒ/", "pos": "n.", "cn": "航行；航程", "eg": "It was the ship's first voyage across the Atlantic. 这是这艘船首次横渡大西洋的航行。" },
-      { "word": "iceberg", "phon": "/ˈaɪsbɜːɡ/", "pos": "n.", "cn": "冰山", "eg": "An iceberg suddenly appeared in the darkness. 黑暗中突然出现一座冰山。" },
-      { "word": "watertight", "phon": "/ˈwɔːtətaɪt/", "pos": "adj.", "cn": "不漏水的；密封的", "eg": "The ship had sixteen watertight compartments. 这艘船有十六个密封舱。" },
-      { "word": "flood", "phon": "/flʌd/", "pos": "v./n.", "cn": "淹没；进水", "eg": "Five compartments were flooded within an hour. 一小时内五个船舱进了水。" },
-      { "word": "tremble", "phon": "/ˈtrembl/", "pos": "v.", "cn": "震颤；发抖", "eg": "The huge ship trembled from end to end. 巨轮从头到尾震颤起来。" },
-      { "word": "lifeboat", "phon": "/ˈlaɪfbəʊt/", "pos": "n.", "cn": "救生艇", "eg": "There were far too few lifeboats on board. 船上的救生艇远远不够。" }
+      {
+        "word": "tragic",
+        "phon": "/ˈtrædʒɪk/",
+        "pos": "adj.",
+        "cn": "悲惨的",
+        "eg": "The tragic voyage shocked the whole world. 这次悲惨的航行震惊了全世界。"
+      },
+      {
+        "word": "liner",
+        "phon": "/ˈlaɪnə/",
+        "pos": "n.",
+        "cn": "班轮；邮轮",
+        "eg": "The great liner carried over two thousand people. 这艘巨轮载有两千多人。"
+      },
+      {
+        "word": "luxurious",
+        "phon": "/lʌɡˈʒʊəriəs/",
+        "pos": "adj.",
+        "cn": "豪华的",
+        "eg": "Rich passengers filled the luxurious rooms. 富有的乘客住满了豪华客舱。"
+      },
+      {
+        "word": "voyage",
+        "phon": "/ˈvɔɪɪdʒ/",
+        "pos": "n.",
+        "cn": "航行；航程",
+        "eg": "It was the ship's first voyage across the Atlantic. 这是这艘船首次横渡大西洋的航行。"
+      },
+      {
+        "word": "iceberg",
+        "phon": "/ˈaɪsbɜːɡ/",
+        "pos": "n.",
+        "cn": "冰山",
+        "eg": "An iceberg suddenly appeared in the darkness. 黑暗中突然出现一座冰山。"
+      },
+      {
+        "word": "watertight",
+        "phon": "/ˈwɔːtətaɪt/",
+        "pos": "adj.",
+        "cn": "不漏水的；密封的",
+        "eg": "The ship had sixteen watertight compartments. 这艘船有十六个密封舱。"
+      },
+      {
+        "word": "flood",
+        "phon": "/flʌd/",
+        "pos": "v./n.",
+        "cn": "淹没；进水",
+        "eg": "Five compartments were flooded within an hour. 一小时内五个船舱进了水。"
+      },
+      {
+        "word": "tremble",
+        "phon": "/ˈtrembl/",
+        "pos": "v.",
+        "cn": "震颤；发抖",
+        "eg": "The huge ship trembled from end to end. 巨轮从头到尾震颤起来。"
+      },
+      {
+        "word": "lifeboat",
+        "phon": "/ˈlaɪfbəʊt/",
+        "pos": "n.",
+        "cn": "救生艇",
+        "eg": "There were far too few lifeboats on board. 船上的救生艇远远不够。"
+      },
+      {
+        "word": "lobster",
+        "phon": "/'lɒbstə/",
+        "pos": "n.",
+        "cn": "龙虾",
+        "eg": ""
+      },
+      {
+        "word": "tanker",
+        "phon": "/'tæŋkə/",
+        "pos": "n.",
+        "cn": "油轮",
+        "eg": ""
+      },
+      {
+        "word": "genuinely",
+        "phon": "/'dʒenjuinli/",
+        "pos": "adv.",
+        "cn": "由衷地",
+        "eg": ""
+      },
+      {
+        "word": "RobinsonCrusoe",
+        "phon": "",
+        "pos": "",
+        "cn": "鲁滨孙·克鲁索(《鲁滨孙漂流记》主人公)",
+        "eg": ""
+      },
+      {
+        "word": "costume",
+        "phon": "/'kɑːstjuːm/",
+        "pos": "n.",
+        "cn": "化装服",
+        "eg": ""
+      },
+      {
+        "word": "consist",
+        "phon": "/kən'sɪst/",
+        "pos": "v.",
+        "cn": "由…组成",
+        "eg": ""
+      },
+      {
+        "word": "sheet",
+        "phon": "/ʃiːt/",
+        "pos": "n.",
+        "cn": "被单",
+        "eg": ""
+      },
+      {
+        "word": "effective",
+        "phon": "/ɪ'fektɪv/",
+        "pos": "a.",
+        "cn": "有明显效果的，有作用的; 生效的",
+        "eg": ""
+      },
+      {
+        "word": "comfortable",
+        "phon": "/ˈkʌmftəbl/",
+        "pos": "a.",
+        "cn": "舒适的",
+        "eg": ""
+      },
+      {
+        "word": "storeroom",
+        "phon": "/'stɔːruːm; -rʊm/",
+        "pos": "n.",
+        "cn": "储藏室",
+        "eg": ""
+      },
+      {
+        "word": "electricity",
+        "phon": "/,ɪlek'trɪsɪtɪ; ,el-; ,iːl-/",
+        "pos": "n.",
+        "cn": "电",
+        "eg": ""
+      },
+      {
+        "word": "ammeter",
+        "phon": "/'æmɪtə/",
+        "pos": "n.",
+        "cn": "电表",
+        "eg": ""
+      },
+      {
+        "word": "pace",
+        "phon": "/peɪs/",
+        "pos": "n.",
+        "cn": "一步",
+        "eg": ""
+      },
+      {
+        "word": "flee",
+        "phon": "/fliː/",
+        "pos": "v.",
+        "cn": "逃走",
+        "eg": ""
+      },
+      {
+        "word": "slam",
+        "phon": "/slæm/",
+        "pos": "v.",
+        "cn": "砰地关上",
+        "eg": ""
+      },
+      {
+        "word": "gangster",
+        "phon": "/'gæŋstə/",
+        "pos": "n.",
+        "cn": "歹徒，强盗",
+        "eg": ""
+      },
+      {
+        "word": "Chicago",
+        "phon": "/ʃɪˈkɑːɡəʊ/",
+        "pos": "n.",
+        "cn": "芝加哥(美国城市)",
+        "eg": ""
+      },
+      {
+        "word": "protection",
+        "phon": "/prə'tekʃ(ə)n/",
+        "pos": "n.",
+        "cn": "保护",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -390,17 +2154,207 @@
     "title": "Not guilty",
     "titleCn": "无罪",
     "scene": "乘船回国过海关时，“我”明明没有携带任何违禁品，排队时却莫名觉得心虚。轮到“我”时，海关官员冷冷地问是否有东西要申报，“我”如实回答没有。他还是打开箱子，把每个角落都翻查了一遍，忽然一把抓出一个绿色小瓶，讥讽地说香水可是要交税的。“我”解释那只是发胶，他拧开瓶盖闻了闻，脸色顿时尴尬起来。最后这位还算宽容的官员用粉笔在箱子上画了道线，挥手放行——“我”这才如释重负。本课语法重点是转述问答的间接引语和叙事主线的一般过去时。",
-    "grammarTags": ["间接引语", "一般过去时"],
+    "grammarTags": [
+      "间接引语",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "guilty", "phon": "/ˈɡɪlti/", "pos": "adj.", "cn": "内疚的；有罪的", "eg": "I always feel strangely guilty at customs. 过海关时我总是莫名觉得心虚。" },
-      { "word": "customs", "phon": "/ˈkʌstəmz/", "pos": "n.", "cn": "海关", "eg": "The customs hall was crowded that morning. 那天早上海关大厅很拥挤。" },
-      { "word": "declare", "phon": "/dɪˈkleə/", "pos": "v.", "cn": "申报", "eg": "You must declare dutiable goods at the desk. 应税物品必须在柜台申报。" },
-      { "word": "tolerant", "phon": "/ˈtɒlərənt/", "pos": "adj.", "cn": "宽容的", "eg": "The officer was more tolerant than he looked. 这位官员比看上去宽容。" },
-      { "word": "perfume", "phon": "/ˈpɜːfjuːm/", "pos": "n.", "cn": "香水", "eg": "Perfume is not free of import duty. 香水并不免进口税。" },
-      { "word": "sarcastic", "phon": "/sɑːˈkæstɪk/", "pos": "adj.", "cn": "讥讽的", "eg": "He asked the question in a sarcastic voice. 他用讥讽的语气问了那个问题。" },
-      { "word": "pounce", "phon": "/paʊns/", "pos": "v.", "cn": "猛扑；一把抓住", "eg": "He pounced on the small green bottle at once. 他立刻一把抓住那个绿色小瓶。" },
-      { "word": "examine", "phon": "/ɪɡˈzæmɪn/", "pos": "v.", "cn": "检查", "eg": "The officer examined every corner of my case. 官员检查了我箱子的每个角落。" },
-      { "word": "chalk", "phon": "/tʃɔːk/", "pos": "n.", "cn": "粉笔", "eg": "He drew a line on the case with a piece of chalk. 他用一支粉笔在箱子上画了道线。" }
+      {
+        "word": "guilty",
+        "phon": "/ˈɡɪlti/",
+        "pos": "adj.",
+        "cn": "内疚的；有罪的",
+        "eg": "I always feel strangely guilty at customs. 过海关时我总是莫名觉得心虚。"
+      },
+      {
+        "word": "customs",
+        "phon": "/ˈkʌstəmz/",
+        "pos": "n.",
+        "cn": "海关",
+        "eg": "The customs hall was crowded that morning. 那天早上海关大厅很拥挤。"
+      },
+      {
+        "word": "declare",
+        "phon": "/dɪˈkleə/",
+        "pos": "v.",
+        "cn": "申报",
+        "eg": "You must declare dutiable goods at the desk. 应税物品必须在柜台申报。"
+      },
+      {
+        "word": "tolerant",
+        "phon": "/ˈtɒlərənt/",
+        "pos": "adj.",
+        "cn": "宽容的",
+        "eg": "The officer was more tolerant than he looked. 这位官员比看上去宽容。"
+      },
+      {
+        "word": "perfume",
+        "phon": "/ˈpɜːfjuːm/",
+        "pos": "n.",
+        "cn": "香水",
+        "eg": "Perfume is not free of import duty. 香水并不免进口税。"
+      },
+      {
+        "word": "sarcastic",
+        "phon": "/sɑːˈkæstɪk/",
+        "pos": "adj.",
+        "cn": "讥讽的",
+        "eg": "He asked the question in a sarcastic voice. 他用讥讽的语气问了那个问题。"
+      },
+      {
+        "word": "pounce",
+        "phon": "/paʊns/",
+        "pos": "v.",
+        "cn": "猛扑；一把抓住",
+        "eg": "He pounced on the small green bottle at once. 他立刻一把抓住那个绿色小瓶。"
+      },
+      {
+        "word": "examine",
+        "phon": "/ɪɡˈzæmɪn/",
+        "pos": "v.",
+        "cn": "检查",
+        "eg": "The officer examined every corner of my case. 官员检查了我箱子的每个角落。"
+      },
+      {
+        "word": "chalk",
+        "phon": "/tʃɔːk/",
+        "pos": "n.",
+        "cn": "粉笔",
+        "eg": "He drew a line on the case with a piece of chalk. 他用一支粉笔在箱子上画了道线。"
+      },
+      {
+        "word": "protection",
+        "phon": "/prə'tekʃ(ə)n/",
+        "pos": "n.",
+        "cn": "保护",
+        "eg": ""
+      },
+      {
+        "word": "promptly",
+        "phon": "/'prɒm(p)tlɪ/",
+        "pos": "adv.",
+        "cn": "准时地；迅速的",
+        "eg": ""
+      },
+      {
+        "word": "destroy",
+        "phon": "/dɪ'strɒɪ/",
+        "pos": "v.",
+        "cn": "毁掉；消灭",
+        "eg": ""
+      },
+      {
+        "word": "remarkable",
+        "phon": "/rɪ'mɑːrkəbl/",
+        "pos": "a.",
+        "cn": "不寻常的",
+        "eg": ""
+      },
+      {
+        "word": "band",
+        "phon": "/bænd/",
+        "pos": "n.",
+        "cn": "帮，团伙",
+        "eg": ""
+      },
+      {
+        "word": "Florence",
+        "phon": "/'flɔrәns/",
+        "pos": "n.",
+        "cn": "佛罗伦萨(意大利城市)",
+        "eg": ""
+      },
+      {
+        "word": "city-state",
+        "phon": "",
+        "pos": "n.",
+        "cn": "(古代)城邦",
+        "eg": ""
+      },
+      {
+        "word": "hire",
+        "phon": "/'haɪə/",
+        "pos": "v.",
+        "cn": "租出，雇佣",
+        "eg": ""
+      },
+      {
+        "word": "prince",
+        "phon": "/prɪns/",
+        "pos": "n.",
+        "cn": "(小附属国的)君主，诸侯；王子",
+        "eg": ""
+      },
+      {
+        "word": "Florentine",
+        "phon": "/'flɔrәntain/",
+        "pos": "n.",
+        "cn": "佛罗伦萨人",
+        "eg": ""
+      },
+      {
+        "word": "funeral",
+        "phon": "/'fjuːn(ə)r(ə)l/",
+        "pos": "n.",
+        "cn": "葬礼",
+        "eg": ""
+      },
+      {
+        "word": "dedicate",
+        "phon": "/'dedɪkeɪt/",
+        "pos": "v.",
+        "cn": "奉献，题献给",
+        "eg": ""
+      },
+      {
+        "word": "memory",
+        "phon": "/'mem(ə)rɪ/",
+        "pos": "n.",
+        "cn": "纪念",
+        "eg": ""
+      },
+      {
+        "word": "valiant",
+        "phon": "/'vælɪənt/",
+        "pos": "a.",
+        "cn": "英勇的",
+        "eg": ""
+      },
+      {
+        "word": "appreciate",
+        "phon": "/ə'priːʃieɪt/",
+        "pos": "v.",
+        "cn": "欣赏，感激",
+        "eg": ""
+      },
+      {
+        "word": "pocket",
+        "phon": "/'pɒkɪt/",
+        "pos": "",
+        "cn": "零用钱",
+        "eg": ""
+      },
+      {
+        "word": "rattle",
+        "phon": "/'rætl/",
+        "pos": "v.",
+        "cn": "格格作响",
+        "eg": ""
+      },
+      {
+        "word": "thrifty",
+        "phon": "/'θrɪfti/",
+        "pos": "a.",
+        "cn": "节俭的",
+        "eg": ""
+      },
+      {
+        "word": "nephew",
+        "phon": "/'nefjuː; 'nevjuː/",
+        "pos": "n.",
+        "cn": "侄子，外甥",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -428,17 +2382,200 @@
     "title": "Life on a desert island",
     "titleCn": "荒岛生活",
     "scene": "对荒岛生活，多数人的想象都很不真实。有人把它想成阳光永驻的人间天堂：无所事事，果实伸手可得；也有人把它想成缺水断粮的人间地狱。两种想象各有几分道理，可我们中很少有人真正验证过。去年，两名水手的船只失事，他们漂流到太平洋一座有环礁湖的小岛上。他们没有挨饿：天天捕鱼、收集雨水和椰子，还搭起简陋的木筏。获救时两人都说，愿意再回那座岛——不过是去度假，而不是求生。本课语法重点是虚拟条件句和谈论人类共同经验的现在完成时。",
-    "grammarTags": ["虚拟条件句", "现在完成时"],
+    "grammarTags": [
+      "虚拟条件句",
+      "现在完成时"
+    ],
     "words": [
-      { "word": "desert", "phon": "/ˈdezət/", "pos": "adj.", "cn": "荒芜无人的", "eg": "They landed on a small desert island. 他们上了一座无人的小荒岛。" },
-      { "word": "unrealistic", "phon": "/ˌʌnriəˈlɪstɪk/", "pos": "adj.", "cn": "不切实际的", "eg": "Most of us have an unrealistic picture of island life. 我们大多数人对荒岛生活的想象都不切实际。" },
-      { "word": "paradise", "phon": "/ˈpærədaɪs/", "pos": "n.", "cn": "天堂；乐园", "eg": "In dreams the island is a paradise of sunshine. 在梦里，那座岛是阳光普照的天堂。" },
-      { "word": "element", "phon": "/ˈelɪmənt/", "pos": "n.", "cn": "成分；少许", "eg": "There is an element of truth in both views. 两种看法都有几分道理。" },
-      { "word": "starve", "phon": "/stɑːv/", "pos": "v.", "cn": "挨饿", "eg": "The two men did not starve on the island. 那两个人在岛上没有挨饿。" },
-      { "word": "wreck", "phon": "/rek/", "pos": "v./n.", "cn": "使失事；失事船只", "eg": "Their boat was wrecked in a storm. 他们的船在风暴中失事了。" },
-      { "word": "raft", "phon": "/rɑːft/", "pos": "n.", "cn": "木筏", "eg": "They built a rough raft out of driftwood. 他们用漂流木造了一只简陋的木筏。" },
-      { "word": "lagoon", "phon": "/ləˈɡuːn/", "pos": "n.", "cn": "环礁湖；泻湖", "eg": "Fish were easy to catch in the quiet lagoon. 在平静的环礁湖里很容易捕到鱼。" },
-      { "word": "survival", "phon": "/səˈvaɪvl/", "pos": "n.", "cn": "生存；幸存", "eg": "On a real island, survival comes before comfort. 在真正的荒岛上，生存先于享受。" }
+      {
+        "word": "desert",
+        "phon": "/ˈdezət/",
+        "pos": "adj.",
+        "cn": "荒芜无人的",
+        "eg": "They landed on a small desert island. 他们上了一座无人的小荒岛。"
+      },
+      {
+        "word": "unrealistic",
+        "phon": "/ˌʌnriəˈlɪstɪk/",
+        "pos": "adj.",
+        "cn": "不切实际的",
+        "eg": "Most of us have an unrealistic picture of island life. 我们大多数人对荒岛生活的想象都不切实际。"
+      },
+      {
+        "word": "paradise",
+        "phon": "/ˈpærədaɪs/",
+        "pos": "n.",
+        "cn": "天堂；乐园",
+        "eg": "In dreams the island is a paradise of sunshine. 在梦里，那座岛是阳光普照的天堂。"
+      },
+      {
+        "word": "element",
+        "phon": "/ˈelɪmənt/",
+        "pos": "n.",
+        "cn": "成分；少许",
+        "eg": "There is an element of truth in both views. 两种看法都有几分道理。"
+      },
+      {
+        "word": "starve",
+        "phon": "/stɑːv/",
+        "pos": "v.",
+        "cn": "挨饿",
+        "eg": "The two men did not starve on the island. 那两个人在岛上没有挨饿。"
+      },
+      {
+        "word": "wreck",
+        "phon": "/rek/",
+        "pos": "v./n.",
+        "cn": "使失事；失事船只",
+        "eg": "Their boat was wrecked in a storm. 他们的船在风暴中失事了。"
+      },
+      {
+        "word": "raft",
+        "phon": "/rɑːft/",
+        "pos": "n.",
+        "cn": "木筏",
+        "eg": "They built a rough raft out of driftwood. 他们用漂流木造了一只简陋的木筏。"
+      },
+      {
+        "word": "lagoon",
+        "phon": "/ləˈɡuːn/",
+        "pos": "n.",
+        "cn": "环礁湖；泻湖",
+        "eg": "Fish were easy to catch in the quiet lagoon. 在平静的环礁湖里很容易捕到鱼。"
+      },
+      {
+        "word": "survival",
+        "phon": "/səˈvaɪvl/",
+        "pos": "n.",
+        "cn": "生存；幸存",
+        "eg": "On a real island, survival comes before comfort. 在真正的荒岛上，生存先于享受。"
+      },
+      {
+        "word": "nephew",
+        "phon": "/'nefjuː; 'nevjuː/",
+        "pos": "n.",
+        "cn": "侄子，外甥",
+        "eg": ""
+      },
+      {
+        "word": "bounce",
+        "phon": "/bauns/",
+        "pos": "v.",
+        "cn": "弹起，跳起",
+        "eg": ""
+      },
+      {
+        "word": "pavement",
+        "phon": "/'peɪvm(ə)nt/",
+        "pos": "n.",
+        "cn": "人行道",
+        "eg": ""
+      },
+      {
+        "word": "stick",
+        "phon": "/stɪk/",
+        "pos": "v.",
+        "cn": "卡住，夹住，不能再动",
+        "eg": ""
+      },
+      {
+        "word": "brigade",
+        "phon": "/bri'geid/",
+        "pos": "n.",
+        "cn": "旅，(消防)队",
+        "eg": ""
+      },
+      {
+        "word": "grease",
+        "phon": "/griːs/",
+        "pos": "n.",
+        "cn": "润滑油",
+        "eg": ""
+      },
+      {
+        "word": "prize",
+        "phon": "/praɪz/",
+        "pos": "a.",
+        "cn": "珍贵的，宝贵的",
+        "eg": ""
+      },
+      {
+        "word": "tie",
+        "phon": "/taɪ/",
+        "pos": "v.",
+        "cn": "拴，系",
+        "eg": ""
+      },
+      {
+        "word": "theft",
+        "phon": "/θeft/",
+        "pos": "n.",
+        "cn": "偷盗行为，偷盗案",
+        "eg": ""
+      },
+      {
+        "word": "accuse",
+        "phon": "/ə'kjuːz/",
+        "pos": "v.",
+        "cn": "指控",
+        "eg": ""
+      },
+      {
+        "word": "deny",
+        "phon": "/dɪ'naɪ/",
+        "pos": "v.",
+        "cn": "否认",
+        "eg": ""
+      },
+      {
+        "word": "ashamed",
+        "phon": "/ə'ʃeɪmd/",
+        "pos": "a.",
+        "cn": "感到羞耻，惭愧",
+        "eg": ""
+      },
+      {
+        "word": "apologize",
+        "phon": "/ə'pɑːlədʒaɪz/",
+        "pos": "v.",
+        "cn": "道歉",
+        "eg": ""
+      },
+      {
+        "word": "dye",
+        "phon": "/daɪ/",
+        "pos": "v.",
+        "cn": "染",
+        "eg": ""
+      },
+      {
+        "word": "suspension",
+        "phon": "/sə'spenʃn/",
+        "pos": "n.",
+        "cn": "悬，吊",
+        "eg": ""
+      },
+      {
+        "word": "agreeable",
+        "phon": "/ə'griːəbl/",
+        "pos": "a.",
+        "cn": "宜人的",
+        "eg": ""
+      },
+      {
+        "word": "situation",
+        "phon": "/sɪtjʊ'eɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "地点，地方",
+        "eg": ""
+      },
+      {
+        "word": "locate",
+        "phon": "/'loukeɪt/",
+        "pos": "v.",
+        "cn": "位于",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

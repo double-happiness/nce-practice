@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-lay-01",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Flight Delay",
+    "titleCn": "第1环：航班延误",
+    "scene": "机场广播你的航班延误，你问柜台。（对话链：机场）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "您好，航班延误两小时，机械检修。", "en": "Hello. Your flight is delayed two hours for maintenance." },
+      { "role": "You", "cn": "会错过转机吗？下一班去芝加哥。", "en": "Will I miss my connection? Next flight to Chicago." },
+      { "role": "Agent", "cn": "我查一下……来得及，登机口会改。", "en": "Let me check… You should make it. Gate will change." },
+      { "role": "You", "cn": "能发新登机牌吗？", "en": "Can you print a new boarding pass?" },
+      { "role": "Agent", "cn": "在这，新登机口 C12。", "en": "Here you go. New gate C twelve." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-02",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Missed Connection",
+    "titleCn": "第2环：错过转机",
+    "scene": "你错过了转机，在柜台改签。（对话链：机场）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "刚落地，上一班延误，赶不上芝加哥那班了。", "en": "I just landed. The delay made me miss Chicago." },
+      { "role": "Agent", "cn": "抱歉，最近一班今晚八点，要吗？", "en": "Sorry. The next one is eight PM tonight. Want it?" },
+      { "role": "You", "cn": "要，有餐券吗？等很久。", "en": "Yes. Any meal vouchers? It's a long wait." },
+      { "role": "Agent", "cn": "延误超过三小时，给您十五块餐券。", "en": "Delay over three hours. Here's a fifteen-dollar meal voucher." },
+      { "role": "You", "cn": "好，行李会自动转吗？", "en": "Okay. Will my bags transfer automatically?" },
+      { "role": "Agent", "cn": "会，到芝加哥直接取。", "en": "Yes. Pick them up in Chicago." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-03",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Airport Lounge",
+    "titleCn": "第3环：候机休息室",
+    "scene": "你有信用卡权益，进机场休息室。（对话链：机场）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "请出示登机牌和会员卡。", "en": "Boarding pass and membership card, please." },
+      { "role": "You", "cn": "在这，转机要等三小时。", "en": "Here you go. Three-hour layover." },
+      { "role": "Staff", "cn": "欢迎，淋浴间在那边，餐食自助。", "en": "Welcome. Showers are over there. Food is self-serve." },
+      { "role": "You", "cn": "Wi-Fi 密码多少？", "en": "What's the Wi-Fi password?" },
+      { "role": "Staff", "cn": "桌上卡片有，免费。", "en": "On the card at the table. It's free." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-04",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Gate Change",
+    "titleCn": "第4环：登机口变更",
+    "scene": "登机口临时变更，你向工作人员确认。（对话链：机场）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "去丹佛的航班改登机口了吗？App 显示 B7。", "en": "Did the Denver flight change gates? The app shows B seven." },
+      { "role": "Staff", "cn": "改到 B15 了，走过去十分钟。", "en": "Moved to B fifteen. Ten-minute walk." },
+      { "role": "You", "cn": "登机时间变吗？", "en": "Does boarding time change?" },
+      { "role": "Staff", "cn": "不变，还是三点二十。", "en": "No. Still three twenty." },
+      { "role": "You", "cn": "好，我赶紧过去。", "en": "Okay. I'd better head over." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-05",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Duty Free Shopping",
+    "titleCn": "第5环：免税店购物",
+    "scene": "转机间隙你在免税店买礼物。（对话链：机场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "最后登机前三十分钟结账哦。", "en": "Please check out thirty minutes before boarding." },
+      { "role": "You", "cn": "这盒巧克力免税吗？去国内。", "en": "Is this chocolate tax-free? Flying domestically." },
+      { "role": "Clerk", "cn": "国内航班含税价，国际才免税。", "en": "Domestic flights pay tax. Duty-free is international only." },
+      { "role": "You", "cn": "那还是要，当伴手礼。", "en": "I'll still take it. Souvenir gift." },
+      { "role": "Clerk", "cn": "需要礼品袋吗？", "en": "Gift bag?" },
+      { "role": "You", "cn": "要，谢谢。", "en": "Yes, please." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-06",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Security Again",
+    "titleCn": "第6环：再次安检",
+    "scene": "国内转机需要重新安检。（对话链：机场）",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "笔记本电脑单独放筐，液体拿出来。", "en": "Laptop in its own bin. Liquids out, please." },
+      { "role": "You", "cn": "水刚买的，要倒掉吗？", "en": "I just bought this water. Do I dump it?" },
+      { "role": "Officer", "cn": "过安检不能带水，那边有过滤饮水。", "en": "No liquids through security. Filtered water over there." },
+      { "role": "You", "cn": "好。", "en": "Okay." },
+      { "role": "Officer", "cn": "可以通过了。", "en": "You're clear." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-07",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Board Connecting Flight",
+    "titleCn": "第7环：转登机",
+    "scene": "你开始登转机航班。（对话链：机场）",
+    "roles": ["You", "Gate Agent"],
+    "turns": [
+      { "role": "Gate Agent", "cn": "登机牌和 ID 看一下。", "en": "Boarding pass and ID, please." },
+      { "role": "You", "cn": "给，座位还是 22C 吗？", "en": "Here you go. Still seat twenty-two C?" },
+      { "role": "Gate Agent", "cn": "对，飞机小，可能换座位，上机问空姐。", "en": "Yes. Smaller aircraft—seat might change. Ask the flight attendant." },
+      { "role": "You", "cn": "头顶行李舱空间够吗？", "en": "Enough overhead bin space?" },
+      { "role": "Gate Agent", "cn": "早登机够，晚了可能要托运。", "en": "If you're early, yes. Late boarders may need to gate-check." },
+      { "role": "You", "cn": "明白，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-lay-08",
+    "category": "airport",
+    "chain": {
+      "id": "airport-layover",
+      "title": "Airport Layover and Connections",
+      "titleCn": "对话链：机场转机",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Arrive at Destination",
+    "titleCn": "第8环：抵达目的地",
+    "scene": "转机后你终于抵达芝加哥，取行李。（对话链：机场）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "行李还没出来，正常吗？转机过来的。", "en": "Bags aren't out yet. Is that normal? I connected." },
+      { "role": "Agent", "cn": "转机行李稍慢，您的航班在这转盘。", "en": "Connected bags take a bit longer. Your flight is on this carousel." },
+      { "role": "You", "cn": "看到了，蓝色箱子。", "en": "There it is. Blue suitcase." },
+      { "role": "Agent", "cn": "出口左转打车，祝您愉快。", "en": "Taxis are left out the exit. Have a good stay." },
+      { "role": "You", "cn": "终于到了，谢谢！", "en": "Finally made it. Thank you!" }
+    ]
+  }
+]

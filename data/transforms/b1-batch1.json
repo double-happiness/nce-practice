@@ -3,204 +3,738 @@
     "id": "tf-b1-001",
     "book": 1,
     "lesson": 1,
-    "grammar": ["be动词", "疑问句"],
+    "grammar": [
+      "be动词",
+      "疑问句"
+    ],
     "cn": "这是一本书。",
     "explanation": "be 动词句转换：一般疑问句把 be 提前；否定句在 be 后加 not；对物提问用 What。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is a book."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this a book?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not a book.", "This isn't a book."] },
-      { "kind": "wh", "prompt": "对「a book」提问（问\"是什么\"）", "answers": ["What is this?", "What's this?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is a book."
+        ],
+        "cn": "这是一本书。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this a book?"
+        ],
+        "cn": "这是一本书吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not a book.",
+          "This isn't a book."
+        ],
+        "cn": "这不是一本书。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a book」提问（问\"是什么\"）",
+        "answers": [
+          "What is this?",
+          "What's this?"
+        ],
+        "cn": "这是什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-002",
     "book": 1,
     "lesson": 7,
-    "grammar": ["be动词", "疑问句"],
+    "grammar": [
+      "be动词",
+      "疑问句"
+    ],
     "cn": "她是一名护士。",
     "explanation": "问职业用 What is she? / What's her job?；对主语提问用 Who，语序不变。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is a nurse.", "She's a nurse."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she a nurse?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not a nurse.", "She isn't a nurse.", "She's not a nurse."] },
-      { "kind": "wh", "prompt": "对「a nurse」提问（问职业）", "answers": ["What is she?", "What's she?", "What is her job?", "What's her job?"] },
-      { "kind": "wh", "prompt": "对「She」提问（问\"谁\"）", "answers": ["Who is a nurse?", "Who's a nurse?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is a nurse.",
+          "She's a nurse."
+        ],
+        "cn": "她是一名护士。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she a nurse?"
+        ],
+        "cn": "她是一名护士吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not a nurse.",
+          "She isn't a nurse.",
+          "She's not a nurse."
+        ],
+        "cn": "她不是一名护士。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a nurse」提问（问职业）",
+        "answers": [
+          "What is she?",
+          "What's she?",
+          "What is her job?",
+          "What's her job?"
+        ],
+        "cn": "她是做什么的？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「She」提问（问\"谁\"）",
+        "answers": [
+          "Who is a nurse?",
+          "Who's a nurse?"
+        ],
+        "cn": "谁是护士？"
+      }
     ]
   },
   {
     "id": "tf-b1-003",
     "book": 1,
     "lesson": 13,
-    "grammar": ["be动词", "形容词"],
+    "grammar": [
+      "be动词",
+      "形容词"
+    ],
     "cn": "她的伞是红色的。",
     "explanation": "对颜色提问用 What colour（美式 What color），后接一般疑问句语序。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Her umbrella is red."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is her umbrella red?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Her umbrella is not red.", "Her umbrella isn't red."] },
-      { "kind": "wh", "prompt": "对「red」提问（问颜色）", "answers": ["What colour is her umbrella?", "What color is her umbrella?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Her umbrella is red."
+        ],
+        "cn": "她的伞是红色的。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is her umbrella red?"
+        ],
+        "cn": "她的伞是红色的吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Her umbrella is not red.",
+          "Her umbrella isn't red."
+        ],
+        "cn": "她的伞不是红色的。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「red」提问（问颜色）",
+        "answers": [
+          "What colour is her umbrella?",
+          "What color is her umbrella?"
+        ],
+        "cn": "她的伞是什么颜色的？"
+      }
     ]
   },
   {
     "id": "tf-b1-004",
     "book": 1,
     "lesson": 23,
-    "grammar": ["be动词", "名词单复数"],
+    "grammar": [
+      "be动词",
+      "名词单复数"
+    ],
     "cn": "那些男人是警察。",
     "explanation": "复数 be 动词用 are；问\"（做）什么的\"用 What are those men?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Those men are policemen.", "Those men are police officers."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are those men policemen?", "Are those men police officers?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Those men are not policemen.", "Those men aren't policemen.", "Those men are not police officers.", "Those men aren't police officers."] },
-      { "kind": "wh", "prompt": "对「policemen」提问（问职业）", "answers": ["What are those men?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Those men are policemen.",
+          "Those men are police officers."
+        ],
+        "cn": "那些男人是警察。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are those men policemen?",
+          "Are those men police officers?"
+        ],
+        "cn": "那些男人是警察吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Those men are not policemen.",
+          "Those men aren't policemen.",
+          "Those men are not police officers.",
+          "Those men aren't police officers."
+        ],
+        "cn": "那些男人不是警察。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「policemen」提问（问职业）",
+        "answers": [
+          "What are those men?"
+        ],
+        "cn": "那些男人是做什么的？"
+      }
     ]
   },
   {
     "id": "tf-b1-005",
     "book": 1,
     "lesson": 25,
-    "grammar": ["there be句型", "介词"],
+    "grammar": [
+      "there be句型",
+      "介词"
+    ],
     "cn": "桌子上有一本书。",
     "explanation": "there be 句一般疑问句把 be 提到 there 前；对地点提问用 Where，对主语提问用 What。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["There is a book on the table.", "There's a book on the table."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is there a book on the table?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["There is not a book on the table.", "There isn't a book on the table.", "There's no book on the table.", "There is no book on the table."] },
-      { "kind": "wh", "prompt": "对「on the table」提问（问地点）", "answers": ["Where is the book?", "Where's the book?"] },
-      { "kind": "wh", "prompt": "对「a book」提问（问\"有什么\"）", "answers": ["What is on the table?", "What's on the table?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is a book on the table.",
+          "There's a book on the table."
+        ],
+        "cn": "桌子上有一本书。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is there a book on the table?"
+        ],
+        "cn": "桌子上有一本书吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not a book on the table.",
+          "There isn't a book on the table.",
+          "There's no book on the table.",
+          "There is no book on the table."
+        ],
+        "cn": "桌子上没有一本书。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on the table」提问（问地点）",
+        "answers": [
+          "Where is the book?",
+          "Where's the book?"
+        ],
+        "cn": "桌子上有一本书在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a book」提问（问\"有什么\"）",
+        "answers": [
+          "What is on the table?",
+          "What's on the table?"
+        ],
+        "cn": "桌子有什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-006",
     "book": 1,
     "lesson": 29,
-    "grammar": ["there be句型", "名词单复数"],
+    "grammar": [
+      "there be句型",
+      "名词单复数"
+    ],
     "cn": "房间里有两把椅子。",
     "explanation": "对数量提问用 How many + 复数名词 + are there…。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["There are two chairs in the room."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are there two chairs in the room?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["There are not two chairs in the room.", "There aren't two chairs in the room."] },
-      { "kind": "wh", "prompt": "对「two」提问（问数量）", "answers": ["How many chairs are there in the room?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There are two chairs in the room."
+        ],
+        "cn": "房间里有两把椅子。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are there two chairs in the room?"
+        ],
+        "cn": "房间里有两把椅子吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There are not two chairs in the room.",
+          "There aren't two chairs in the room."
+        ],
+        "cn": "房间里有两没有把椅子。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「two」提问（问数量）",
+        "answers": [
+          "How many chairs are there in the room?"
+        ],
+        "cn": "房间里有多少把椅子？"
+      }
     ]
   },
   {
     "id": "tf-b1-007",
     "book": 1,
     "lesson": 31,
-    "grammar": ["现在进行时", "疑问句"],
+    "grammar": [
+      "现在进行时",
+      "疑问句"
+    ],
     "cn": "他正在打扫房间。",
     "explanation": "现在进行时转换只动 be；对动作提问用 What…doing，对主语提问用 Who + 进行时原语序。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is cleaning the room.", "He's cleaning the room."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he cleaning the room?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not cleaning the room.", "He isn't cleaning the room.", "He's not cleaning the room."] },
-      { "kind": "wh", "prompt": "对「cleaning the room」提问（问\"在做什么\"）", "answers": ["What is he doing?", "What's he doing?"] },
-      { "kind": "wh", "prompt": "对「He」提问（问\"谁\"）", "answers": ["Who is cleaning the room?", "Who's cleaning the room?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He is cleaning the room.",
+          "He's cleaning the room."
+        ],
+        "cn": "他正在打扫房间。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is he cleaning the room?"
+        ],
+        "cn": "他正在打扫房间吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He is not cleaning the room.",
+          "He isn't cleaning the room.",
+          "He's not cleaning the room."
+        ],
+        "cn": "他没有在打扫房间。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「cleaning the room」提问（问\"在做什么\"）",
+        "answers": [
+          "What is he doing?",
+          "What's he doing?"
+        ],
+        "cn": "他在做什么？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「He」提问（问\"谁\"）",
+        "answers": [
+          "Who is cleaning the room?",
+          "Who's cleaning the room?"
+        ],
+        "cn": "谁他正在打扫房间？"
+      }
     ]
   },
   {
     "id": "tf-b1-008",
     "book": 1,
     "lesson": 33,
-    "grammar": ["现在进行时"],
+    "grammar": [
+      "现在进行时"
+    ],
     "cn": "她正在打一封信。",
     "explanation": "对进行时的宾语提问：What + is + 主语 + 动词-ing。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is typing a letter.", "She's typing a letter."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she typing a letter?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not typing a letter.", "She isn't typing a letter.", "She's not typing a letter."] },
-      { "kind": "wh", "prompt": "对「a letter」提问（问\"在打什么\"）", "answers": ["What is she typing?", "What's she typing?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is typing a letter.",
+          "She's typing a letter."
+        ],
+        "cn": "她正在打一封信。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she typing a letter?"
+        ],
+        "cn": "她正在打一封信吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not typing a letter.",
+          "She isn't typing a letter.",
+          "She's not typing a letter."
+        ],
+        "cn": "她没有在打一封信。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a letter」提问（问\"在打什么\"）",
+        "answers": [
+          "What is she typing?",
+          "What's she typing?"
+        ],
+        "cn": "她在打什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-009",
     "book": 1,
     "lesson": 55,
-    "grammar": ["一般现在时", "疑问句"],
+    "grammar": [
+      "一般现在时",
+      "疑问句"
+    ],
     "cn": "他住在伦敦。",
     "explanation": "一般现在时第三人称单数：疑问/否定借助 does，动词还原原形；对主语提问 Who 后动词仍用三单。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He lives in London."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he live in London?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not live in London.", "He doesn't live in London."] },
-      { "kind": "wh", "prompt": "对「in London」提问（问地点）", "answers": ["Where does he live?"] },
-      { "kind": "wh", "prompt": "对「He」提问（问\"谁\"）", "answers": ["Who lives in London?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He lives in London."
+        ],
+        "cn": "他住在伦敦。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does he live in London?"
+        ],
+        "cn": "他住在伦敦吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He does not live in London.",
+          "He doesn't live in London."
+        ],
+        "cn": "他住不在伦敦。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in London」提问（问地点）",
+        "answers": [
+          "Where does he live?"
+        ],
+        "cn": "他住在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「He」提问（问\"谁\"）",
+        "answers": [
+          "Who lives in London?"
+        ],
+        "cn": "谁他住在伦敦？"
+      }
     ]
   },
   {
     "id": "tf-b1-010",
     "book": 1,
     "lesson": 55,
-    "grammar": ["一般现在时", "频率副词"],
+    "grammar": [
+      "一般现在时",
+      "频率副词"
+    ],
     "cn": "她每天喝咖啡。",
     "explanation": "对频率（every day）提问用 How often；注意疑问句中动词还原为 drink。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She drinks coffee every day."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does she drink coffee every day?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She does not drink coffee every day.", "She doesn't drink coffee every day."] },
-      { "kind": "wh", "prompt": "对「coffee」提问（问\"喝什么\"）", "answers": ["What does she drink every day?"] },
-      { "kind": "wh", "prompt": "对「every day」提问（问频率）", "answers": ["How often does she drink coffee?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She drinks coffee every day."
+        ],
+        "cn": "她每天喝咖啡。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does she drink coffee every day?"
+        ],
+        "cn": "她每天喝咖啡吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She does not drink coffee every day.",
+          "She doesn't drink coffee every day."
+        ],
+        "cn": "她不每天喝咖啡。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「coffee」提问（问\"喝什么\"）",
+        "answers": [
+          "What does she drink every day?"
+        ],
+        "cn": "她喝什么？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every day」提问（问频率）",
+        "answers": [
+          "How often does she drink coffee?"
+        ],
+        "cn": "他多久打一次电话？"
+      }
     ]
   },
   {
     "id": "tf-b1-011",
     "book": 1,
     "lesson": 57,
-    "grammar": ["一般现在时"],
+    "grammar": [
+      "一般现在时"
+    ],
     "cn": "他们住在乡下。",
     "explanation": "主语为复数时疑问/否定借助 do；对地点提问用 Where do they live?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They live in the country.", "They live in the countryside."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do they live in the country?", "Do they live in the countryside?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They do not live in the country.", "They don't live in the country.", "They do not live in the countryside.", "They don't live in the countryside."] },
-      { "kind": "wh", "prompt": "对「in the country」提问（问地点）", "answers": ["Where do they live?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They live in the country.",
+          "They live in the countryside."
+        ],
+        "cn": "他们住在乡下。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do they live in the country?",
+          "Do they live in the countryside?"
+        ],
+        "cn": "他们住在乡下吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They do not live in the country.",
+          "They don't live in the country.",
+          "They do not live in the countryside.",
+          "They don't live in the countryside."
+        ],
+        "cn": "他们住不在乡下。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the country」提问（问地点）",
+        "answers": [
+          "Where do they live?"
+        ],
+        "cn": "他们住在哪里？"
+      }
     ]
   },
   {
     "id": "tf-b1-012",
     "book": 1,
     "lesson": 65,
-    "grammar": ["情态动词can"],
+    "grammar": [
+      "情态动词can"
+    ],
     "cn": "她会说英语。",
     "explanation": "情态动词 can 转换不借助 do：疑问句 can 提前，否定句 can 后加 not（cannot / can't）。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She can speak English."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Can she speak English?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She cannot speak English.", "She can't speak English.", "She can not speak English."] },
-      { "kind": "wh", "prompt": "对「English」提问（问\"会说什么\"）", "answers": ["What can she speak?", "What language can she speak?"] },
-      { "kind": "wh", "prompt": "对「She」提问（问\"谁\"）", "answers": ["Who can speak English?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She can speak English."
+        ],
+        "cn": "她会说英语。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Can she speak English?"
+        ],
+        "cn": "她会说英语吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She cannot speak English.",
+          "She can't speak English.",
+          "She can not speak English."
+        ],
+        "cn": "她不会说英语。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「English」提问（问\"会说什么\"）",
+        "answers": [
+          "What can she speak?",
+          "What language can she speak?"
+        ],
+        "cn": "他会说什么？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「She」提问（问\"谁\"）",
+        "answers": [
+          "Who can speak English?"
+        ],
+        "cn": "谁她会说英语？"
+      }
     ]
   },
   {
     "id": "tf-b1-013",
     "book": 1,
     "lesson": 69,
-    "grammar": ["一般过去时", "疑问句"],
+    "grammar": [
+      "一般过去时",
+      "疑问句"
+    ],
     "cn": "他昨天去了银行。",
     "explanation": "一般过去时疑问/否定借助 did，动词还原原形（went → go）；问地点用 Where，问时间用 When。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He went to the bank yesterday."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he go to the bank yesterday?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not go to the bank yesterday.", "He didn't go to the bank yesterday."] },
-      { "kind": "wh", "prompt": "对「to the bank」提问（问地点）", "answers": ["Where did he go yesterday?"] },
-      { "kind": "wh", "prompt": "对「yesterday」提问（问时间）", "answers": ["When did he go to the bank?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He went to the bank yesterday."
+        ],
+        "cn": "他昨天去了银行。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he go to the bank yesterday?"
+        ],
+        "cn": "他昨天去了银行吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not go to the bank yesterday.",
+          "He didn't go to the bank yesterday."
+        ],
+        "cn": "他不昨天去了银行。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「to the bank」提问（问地点）",
+        "answers": [
+          "Where did he go yesterday?"
+        ],
+        "cn": "他昨天去了银行在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「yesterday」提问（问时间）",
+        "answers": [
+          "When did he go to the bank?"
+        ],
+        "cn": "什么时候他昨天去了银行？"
+      }
     ]
   },
   {
     "id": "tf-b1-014",
     "book": 1,
     "lesson": 101,
-    "grammar": ["一般将来时"],
+    "grammar": [
+      "一般将来时"
+    ],
     "cn": "她打算买一辆新车。",
     "explanation": "be going to 结构转换只动 be；对宾语提问 What is she going to buy?，问\"打算做什么\"用 What is she going to do?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（用 be going to）", "answers": ["She is going to buy a new car.", "She's going to buy a new car."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she going to buy a new car?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not going to buy a new car.", "She isn't going to buy a new car.", "She's not going to buy a new car."] },
-      { "kind": "wh", "prompt": "对「a new car」提问（问\"买什么\"）", "answers": ["What is she going to buy?", "What's she going to buy?"] },
-      { "kind": "wh", "prompt": "对「buy a new car」提问（问\"打算做什么\"）", "answers": ["What is she going to do?", "What's she going to do?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（用 be going to）",
+        "answers": [
+          "She is going to buy a new car.",
+          "She's going to buy a new car."
+        ],
+        "cn": "她打算买一辆新车。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she going to buy a new car?"
+        ],
+        "cn": "她打算买一辆新车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not going to buy a new car.",
+          "She isn't going to buy a new car.",
+          "She's not going to buy a new car."
+        ],
+        "cn": "她不打算买一辆新车。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a new car」提问（问\"买什么\"）",
+        "answers": [
+          "What is she going to buy?",
+          "What's she going to buy?"
+        ],
+        "cn": "她买什么？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「buy a new car」提问（问\"打算做什么\"）",
+        "answers": [
+          "What is she going to do?",
+          "What's she going to do?"
+        ],
+        "cn": "你打算做什么？"
+      }
     ]
   }
 ]

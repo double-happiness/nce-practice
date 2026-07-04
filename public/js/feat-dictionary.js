@@ -149,7 +149,8 @@
       font-size: 14px; line-height: 1.55; color: var(--ink-soft, #3a4356);
       padding: 8px 10px; background: #f8fafc; border-radius: 8px;
     }
-    .dict-col-en, .dict-ex-en { font-weight: 600; color: var(--ink, #1b2030); }
+    .dict-col-en, .dict-ex-en { font-weight: 600; color: var(--ink, #1b2030); display: flex; align-items: flex-start; gap: 6px; }
+    .dict-col-en > span, .dict-ex-en > span, .dict-pat-li-en > span { flex: 1; min-width: 0; }
     .dict-col-cn, .dict-ex-cn, .dict-ex-src { font-size: 13px; color: var(--muted, #6b7280); margin-top: 2px; }
     .dict-ex-src { margin-top: 4px; }
     .dict-ex-go { margin-top: 4px; font-size: 13px; }
@@ -158,12 +159,85 @@
     }
     .dict-pat-title { font-size: 14px; font-weight: 700; color: var(--ink, #1b2030); }
     .dict-pat-explain { font-size: 13px; color: var(--ink-soft, #3a4356); margin-top: 4px; line-height: 1.55; }
-    .dict-pat-exs { margin: 8px 0 0; padding-left: 18px; font-size: 13px; color: var(--muted, #6b7280); line-height: 1.6; }
+    .dict-pat-exs { margin: 8px 0 0; padding-left: 0; list-style: none; font-size: 13px; color: var(--muted, #6b7280); line-height: 1.6; }
+    .dict-pat-li { margin-bottom: 8px; }
+    .dict-pat-li:last-child { margin-bottom: 0; }
+    .dict-pat-li-en { display: flex; align-items: flex-start; gap: 6px; color: var(--ink, #1b2030); font-weight: 600; }
+    .dict-pat-cn { font-size: 13px; color: var(--muted, #6b7280); margin-top: 2px; padding-left: 28px; }
     .dict-detail-empty { font-size: 13px; color: var(--muted-2, #9aa2b1); }
+    .dict-form-groups { display: flex; flex-direction: column; gap: 10px; }
+    .dict-form-group { padding: 10px 12px; background: #f8fafc; border-radius: 8px; }
+    .dict-form-group-title { font-size: 12px; font-weight: 700; color: var(--ink-soft, #3a4356); margin-bottom: 6px; }
+    .dict-form-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    .dict-form-table td { padding: 4px 0; vertical-align: top; line-height: 1.5; }
+    .dict-form-label { color: var(--muted, #6b7280); width: 38%; padding-right: 8px; white-space: nowrap; }
+    .dict-form-val { color: var(--ink, #1b2030); font-weight: 600; display: flex; align-items: flex-start; gap: 6px; }
+    .dict-syn-list, .dict-rel-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .dict-syn-item, .dict-rel-item {
+      display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap;
+      padding: 6px 10px; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px;
+      font-size: 14px;
+    }
+    .dict-rel-item { background: #fefce8; border-color: #fde68a; }
+    .dict-syn-link, .dict-rel-link {
+      border: none; background: none; cursor: pointer; font-size: 14px; font-weight: 700;
+      color: var(--brand, #2f6fed); padding: 0;
+    }
+    .dict-syn-link:hover, .dict-rel-link:hover { text-decoration: underline; }
+    .dict-syn-cn, .dict-syn-note, .dict-rel-note { font-size: 12px; color: var(--muted, #6b7280); }
+    .dict-var-list { display: flex; flex-direction: column; gap: 6px; }
+    .dict-var-item { font-size: 14px; color: var(--ink-soft, #3a4356); padding: 6px 10px; background: #f8fafc; border-radius: 8px; }
+    .dict-var-form { font-weight: 600; color: var(--ink, #1b2030); }
+    .dict-overlay {
+      position: fixed; inset: 0; z-index: 9000; display: none;
+      align-items: flex-end; justify-content: center;
+    }
+    .dict-overlay.open { display: flex; }
+    .dict-overlay-backdrop {
+      position: absolute; inset: 0; background: rgba(15, 23, 42, .42);
+    }
+    .dict-overlay-sheet {
+      position: relative; z-index: 1; width: min(760px, 100%); max-height: min(88vh, 900px);
+      background: var(--bg, #f6f8fc); border-radius: 16px 16px 0 0;
+      box-shadow: 0 -8px 40px rgba(15, 23, 42, .18);
+      display: flex; flex-direction: column; overflow: hidden;
+    }
+    @media (min-width: 720px) {
+      .dict-overlay { align-items: center; padding: 24px 16px; }
+      .dict-overlay-sheet { border-radius: 16px; max-height: min(84vh, 900px); }
+    }
+    .dict-overlay-bar {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      padding: 12px 16px; border-bottom: 1px solid var(--border, #e4e8f2);
+      background: #fff; flex: none;
+    }
+    .dict-overlay-back {
+      border: none; background: none; cursor: pointer; font-size: 15px; font-weight: 700;
+      color: var(--brand, #2f6fed); padding: 4px 0;
+    }
+    .dict-overlay-back:hover { text-decoration: underline; }
+    .dict-overlay-full {
+      border: 1px solid var(--border, #e4e8f2); background: #fff; cursor: pointer;
+      font-size: 12px; font-weight: 600; color: var(--muted, #6b7280);
+      padding: 6px 10px; border-radius: 8px; white-space: nowrap;
+    }
+    .dict-overlay-full:hover { border-color: var(--brand, #2f6fed); color: var(--brand, #2f6fed); }
+    .dict-overlay-body { flex: 1; overflow: auto; padding: 16px; -webkit-overflow-scrolling: touch; }
+    body.dict-overlay-open { overflow: hidden; }
+    .dict-overlay-body .dict-head h2 { font-size: 18px; }
+    .dict-return-bar {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 14px;
+    }
+    .dict-return-bar .dict-queue-btn { font-size: 14px; }
   `;
   document.head.appendChild(style);
 
   let panelEl = null;
+  let mainPanelEl = null;
+  let overlayRoot = null;
+  let overlayBodyEl = null;
+  let overlayMode = false;
+  let overlayReturn = null;
   let META = null;
   let totalWords = 0;
   let timer = null;
@@ -195,6 +269,7 @@
   }
 
   function syncHash() {
+    if (overlayMode) return;
     const params = new URLSearchParams();
     const q = st.q.trim();
     if (q) params.set('q', q);
@@ -202,6 +277,82 @@
     const tail = params.toString();
     const hash = '#dictionary' + (tail ? '?' + tail : '');
     if (location.hash !== hash) history.replaceState(null, '', hash);
+  }
+
+  function isDictionaryPageActive() {
+    const panel = document.getElementById('feat-dictionary');
+    return !!(panel && !panel.classList.contains('hidden') && !overlayMode);
+  }
+
+  function ensureOverlay() {
+    if (overlayRoot) return;
+    overlayRoot = document.createElement('div');
+    overlayRoot.className = 'dict-overlay';
+    overlayRoot.id = 'dictOverlay';
+    overlayRoot.innerHTML =
+      '<div class="dict-overlay-backdrop" data-act="close"></div>' +
+      '<div class="dict-overlay-sheet" role="dialog" aria-modal="true" aria-label="查词典">' +
+      '<div class="dict-overlay-bar">' +
+      '<button type="button" class="dict-overlay-back" data-act="back">← 返回继续</button>' +
+      '<button type="button" class="dict-overlay-full" data-act="full">在词典页打开</button>' +
+      '</div>' +
+      '<div class="dict-overlay-body"></div>' +
+      '</div>';
+    document.body.appendChild(overlayRoot);
+    overlayBodyEl = overlayRoot.querySelector('.dict-overlay-body');
+    overlayRoot.querySelector('[data-act="back"]').onclick = () => closeDictOverlay();
+    overlayRoot.querySelector('[data-act="close"]').onclick = () => closeDictOverlay();
+    overlayRoot.querySelector('[data-act="full"]').onclick = () => {
+      const q = st.q;
+      const book = st.book;
+      closeDictOverlay({ restoreScroll: false });
+      NCE.goToDictionary(q, book, { forcePage: true });
+    };
+  }
+
+  function closeDictOverlay(opts) {
+    if (!overlayMode) return;
+    overlayMode = false;
+    panelEl = mainPanelEl;
+    if (overlayRoot) overlayRoot.classList.remove('open');
+    document.body.classList.remove('dict-overlay-open');
+    const ret = overlayReturn;
+    overlayReturn = null;
+    const keepReturn = opts && opts.restoreScroll === false;
+    if (!keepReturn && NCE.dictReturnState) NCE.dictReturnState = null;
+    if (opts && opts.restoreScroll === false) return;
+    if (ret && typeof ret.scrollY === 'number') {
+      setTimeout(() => window.scrollTo(0, ret.scrollY), 80);
+    }
+  }
+
+  function refreshOverlayBackLabel() {
+    if (!overlayRoot) return;
+    const btn = overlayRoot.querySelector('[data-act="back"]');
+    if (!btn) return;
+    const label = (NCE.dictReturnState && NCE.dictReturnState.label) || '← 返回继续';
+    btn.textContent = label;
+  }
+
+  async function openDictOverlay(q, book) {
+    if (NCE.hideDictReturnBar) NCE.hideDictReturnBar();
+    ensureOverlay();
+    overlayReturn = { scrollY: window.scrollY };
+    overlayMode = true;
+    panelEl = overlayBodyEl;
+    st.q = String(q == null ? '' : q);
+    if (book != null && book !== '') st.book = String(book);
+    else if (!st.book) st.book = loadBookPref();
+    st.page = 0;
+    st.expandDetail = !!st.q.trim();
+    refreshOverlayBackLabel();
+    overlayRoot.classList.add('open');
+    document.body.classList.add('dict-overlay-open');
+    if (!META) META = await api('/api/meta').catch(() => ({ books: [{ id: 1 }] }));
+    await Promise.all([loadTotal(), loadStars()]);
+    renderShell();
+    if (st.q.trim()) search();
+    else renderIdle();
   }
 
   function hl(text, q) {
@@ -293,10 +444,41 @@
     }
   }
 
+  function spkBtn(text) {
+    const t = String(text || '').trim();
+    if (!t) return '';
+    return `<button type="button" class="dict-spk" data-speak="${escapeAttr(t)}" title="朗读">🔊</button>`;
+  }
+
+  function patExampleHtml(ex, q) {
+    let en = '';
+    let cn = '';
+    if (ex && typeof ex === 'object') {
+      en = ex.en || '';
+      cn = ex.cn || '';
+    } else {
+      const raw = String(ex || '');
+      en = raw.replace(/\s*[（(][^）)]+[）)]\s*$/, '').trim();
+      const m = raw.match(/[（(]([^）)]+)[）)]\s*$/);
+      cn = m ? m[1].trim() : '';
+    }
+    if (!en) return '';
+    return (
+      '<li class="dict-pat-li">' +
+      `<div class="dict-pat-li-en">${spkBtn(en)}<span>${hl(en, q)}</span></div>` +
+      (cn ? `<div class="dict-pat-cn">${hl(cn, q)}</div>` : '') +
+      '</li>'
+    );
+  }
+
   function detailSectionHtml(detail, q) {
     const cols = detail.collocations || [];
     const pats = detail.patterns || [];
     const exs = detail.examples || [];
+    const forms = detail.forms || [];
+    const syns = detail.synonyms || [];
+    const related = detail.related || [];
+    const variants = detail.variants || [];
     let html = '';
     if (detail.source === 'global') {
       html +=
@@ -305,7 +487,59 @@
         ' · 仅词库释义，无教材例句' +
         '</div>';
     }
-    if (!cols.length && !pats.length && !exs.length) {
+    if (forms.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">词形变化</div><div class="dict-form-groups">' +
+        forms.map((g) =>
+          '<div class="dict-form-group">' +
+          (g.group ? `<div class="dict-form-group-title">${escapeHtml(g.group)}</div>` : '') +
+          '<table class="dict-form-table"><tbody>' +
+          (g.items || []).map((it) =>
+            '<tr>' +
+            `<td class="dict-form-label">${escapeHtml(it.label)}</td>` +
+            `<td class="dict-form-val">${spkBtn(it.form)}<span>${hl(it.form, q)}</span></td>` +
+            '</tr>'
+          ).join('') +
+          '</tbody></table></div>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (syns.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">同义词 / 近义词</div><div class="dict-syn-list">' +
+        syns.map((s) =>
+          '<span class="dict-syn-item">' +
+          `<button type="button" class="dict-syn-link" data-word="${escapeAttr(s.word)}">${escapeHtml(s.word)}</button>` +
+          (s.cn ? `<span class="dict-syn-cn">${escapeHtml(s.cn)}</span>` : '') +
+          (s.note ? `<span class="dict-syn-note">${escapeHtml(s.note)}</span>` : '') +
+          '</span>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (related.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">相关表达</div><div class="dict-rel-list">' +
+        related.map((r) =>
+          '<span class="dict-rel-item">' +
+          `<button type="button" class="dict-rel-link" data-word="${escapeAttr(r.word)}">${escapeHtml(r.word)}</button>` +
+          (r.cn ? `<span class="dict-syn-cn">${escapeHtml(r.cn)}</span>` : '') +
+          (r.note ? `<span class="dict-rel-note">${escapeHtml(r.note)}</span>` : '') +
+          '</span>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (variants.length) {
+      html +=
+        '<div class="dict-sec"><div class="dict-sec-title">拼写变体</div><div class="dict-var-list">' +
+        variants.map((v) =>
+          '<div class="dict-var-item">' +
+          `<span class="dict-var-form">${hl(v.form, q)}</span>` +
+          (v.note ? ` <span class="dict-syn-note">${escapeHtml(v.note)}</span>` : '') +
+          '</div>'
+        ).join('') +
+        '</div></div>';
+    }
+    if (!cols.length && !pats.length && !exs.length && !forms.length && !syns.length && !related.length && !variants.length) {
       return html + '<div class="dict-detail-empty">暂无更多搭配与例句</div>';
     }
     if (cols.length) {
@@ -313,7 +547,7 @@
         '<div class="dict-sec"><div class="dict-sec-title">固定搭配 / 短语</div><div class="dict-col-list">' +
         cols.map((c) =>
           '<div class="dict-col-item">' +
-          `<div class="dict-col-en">${hl(c.en, q)}</div>` +
+          `<div class="dict-col-en">${spkBtn(c.en)}<span>${hl(c.en, q)}</span></div>` +
           (c.cn ? `<div class="dict-col-cn">${hl(c.cn, q)}</div>` : '') +
           '</div>'
         ).join('') +
@@ -328,7 +562,7 @@
           (p.explain ? `<div class="dict-pat-explain">${escapeHtml(p.explain)}</div>` : '') +
           (p.examples && p.examples.length
             ? '<ul class="dict-pat-exs">' +
-              p.examples.map((ex) => `<li>${hl(String(ex), q)}</li>`).join('') +
+              p.examples.map((ex) => patExampleHtml(ex, q)).join('') +
               '</ul>'
             : '') +
           '</div>'
@@ -340,7 +574,7 @@
         '<div class="dict-sec"><div class="dict-sec-title">教材例句</div><div class="dict-ex-list">' +
         exs.map((ex) =>
           '<div class="dict-ex-item">' +
-          `<div class="dict-ex-en">${hl(ex.en, q)}</div>` +
+          `<div class="dict-ex-en">${spkBtn(ex.en)}<span>${hl(ex.en, q)}</span></div>` +
           (ex.cn ? `<div class="dict-ex-cn">${hl(ex.cn, q)}</div>` : '') +
           (ex.lesson
             ? `<button type="button" class="dict-ex-go dict-src" data-book="${ex.book}" data-lesson="${ex.lesson}" data-word="${escapeAttr(q)}">` +
@@ -368,10 +602,10 @@
     if (!box) return;
     if (forceOpen && !box.classList.contains('open')) {
       box.classList.add('open');
-      btn.textContent = '收起搭配与例句 ▲';
+      btn.textContent = '收起详情 ▲';
     } else if (!forceOpen) {
       const open = box.classList.toggle('open');
-      btn.textContent = open ? '收起搭配与例句 ▲' : '展开搭配 · 句型 · 例句 ▼';
+      btn.textContent = open ? '收起详情 ▲' : '展开词形 · 搭配 · 例句 ▼';
       if (!open) return;
     }
     if (box.dataset.loaded === '1') return;
@@ -400,7 +634,7 @@
     const box = btn.closest('.dict-item')?.querySelector('.dict-detail');
     if (box && box.classList.contains('open')) {
       box.classList.remove('open');
-      btn.textContent = '展开搭配 · 句型 · 例句 ▼';
+      btn.textContent = '展开词形 · 搭配 · 例句 ▼';
       return;
     }
     await openDetail(btn, true);
@@ -448,6 +682,7 @@
     root.querySelectorAll('.dict-src').forEach((btn) => {
       btn.onclick = () => {
         if (!goToLesson) return;
+        if (overlayMode) closeDictOverlay();
         goToLesson(btn.dataset.book, btn.dataset.lesson, { highlightWord: btn.dataset.word });
       };
     });
@@ -455,6 +690,14 @@
       btn.onclick = (e) => {
         e.stopPropagation();
         toggleDetail(btn);
+      };
+    });
+    root.querySelectorAll('.dict-syn-link, .dict-rel-link').forEach((btn) => {
+      btn.onclick = (e) => {
+        e.stopPropagation();
+        const w = btn.dataset.word || '';
+        if (!w || !NCE.goToDictionary) return;
+        NCE.goToDictionary(w);
       };
     });
   }
@@ -506,7 +749,7 @@
       '</div>' +
       (w.cn ? `<div class="dict-cn">${hl(w.cn, q || w.word)}</div>` : '') +
       (w.eg ? `<div class="dict-eg">${hl(w.eg, q || w.word)}</div>` : '') +
-      `<button type="button" class="dict-more" data-word="${escapeAttr(w.word)}">展开搭配 · 句型 · 例句 ▼</button>` +
+      `<button type="button" class="dict-more" data-word="${escapeAttr(w.word)}">展开词形 · 搭配 · 例句 ▼</button>` +
       `<div class="dict-detail" data-word="${escapeAttr(w.word)}"></div>` +
       (w.lesson
         ? '<div class="dict-foot">' +
@@ -617,7 +860,7 @@
     box.innerHTML =
       queueHint +
       historyHtml() +
-      '<div class="dict-hint">输入关键词开始查询<br><span style="font-size:13px">支持英文、中文释义、例句与音标 · 按 <b>/</b> 快速聚焦 · 可展开固定搭配与课内句型</span></div>';
+      '<div class="dict-hint">输入关键词开始查询<br><span style="font-size:13px">英文查整词 · 中文查释义（不含例句碎片）· 按 <b>/</b> 快速聚焦</span></div>';
     bindHistory(box);
     const resume = box.querySelector('#dictResumeQueue');
     if (resume) {
@@ -630,10 +873,15 @@
 
   function renderShell() {
     const books = (META && META.books) || [{ id: 1, title: '第一册' }];
+    const headTitle = overlayMode ? '📕 查词' : '📕 查词典';
+    const returnBar = (!overlayMode && NCE.dictReturnState)
+      ? `<div class="dict-return-bar"><button type="button" class="dict-queue-btn primary" id="dictPageBack">${escapeHtml(NCE.dictReturnState.label || '← 返回继续')}</button></div>`
+      : '';
     panelEl.innerHTML =
+      returnBar +
       '<div class="dict-wrap">' +
       '<div class="dict-head">' +
-      '<h2>📕 查词典</h2>' +
+      `<h2>${headTitle}</h2>` +
       `<p>在${st.book ? `第${st.book}册教材 + 全局` : '教材 + 全局'}词库共 <b>${totalWords || '…'}</b> 个词条中检索。</p>` +
       '</div>' +
       '<div class="dict-queue-slot"></div>' +
@@ -673,6 +921,11 @@
         search();
       }
       if (e.key === 'Escape') {
+        if (overlayMode) {
+          e.preventDefault();
+          closeDictOverlay();
+          return;
+        }
         st.q = '';
         st.page = 0;
         qInput.value = '';
@@ -709,6 +962,12 @@
     if (!st.q.trim() && !inQueueMode()) renderIdle();
     setTimeout(() => qInput.focus(), 50);
     updateQueueChrome();
+    const pageBack = panelEl.querySelector('#dictPageBack');
+    if (pageBack) {
+      pageBack.onclick = () => {
+        if (NCE.restoreDictReturn) NCE.restoreDictReturn();
+      };
+    }
   }
 
   function updateQueueChrome() {
@@ -731,18 +990,29 @@
       head.querySelector('p').style.display = 'none';
     }
     const { words, idx } = st.queue;
+    const returnTo = st.queue.returnTo;
+    const returnBtn = returnTo && returnTo.tab && RETURN_LABELS[returnTo.tab]
+      ? `<button type="button" class="dict-queue-btn" data-qact="return">${RETURN_LABELS[returnTo.tab]}</button>`
+      : '';
     if (slot) {
       slot.innerHTML =
         '<div class="dict-queue-bar">' +
         `<span class="ql">逐个复习错词 · 第 ${idx + 1} / ${words.length}</span>` +
         '<span class="qr">' +
+        returnBtn +
         `<button type="button" class="dict-queue-btn" data-qact="prev" ${idx <= 0 ? 'disabled' : ''}>← 上一个</button>` +
         `<button type="button" class="dict-queue-btn primary" data-qact="next">${idx >= words.length - 1 ? '完成 ✓' : '下一个 →'}</button>` +
         '<button type="button" class="dict-queue-btn" data-qact="exit">退出复习</button>' +
         '</span></div>';
       slot.querySelectorAll('[data-qact]').forEach((btn) => {
         btn.onclick = () => {
-          if (btn.dataset.qact === 'prev' && st.queue.idx > 0) {
+          if (btn.dataset.qact === 'return') {
+            const tab = st.queue.returnTo && st.queue.returnTo.tab;
+            exitQueue();
+            updateQueueChrome();
+            renderIdle();
+            if (tab) NCE.gotoTab(tab);
+          } else if (btn.dataset.qact === 'prev' && st.queue.idx > 0) {
             st.queue.idx--;
             saveQueue();
             renderQueueContent();
@@ -873,7 +1143,7 @@
 
     if (!lastWords.length) {
       panelEl.querySelector('.dict-count').textContent = '';
-      box.innerHTML = '<div class="dict-empty">没有匹配的单词，换个关键词试试。<br><span style="font-size:13px">可搜英文、中文、例句或音标</span></div>';
+      box.innerHTML = '<div class="dict-empty">没有匹配的单词，换个关键词试试。<br><span style="font-size:13px">英文请输入完整单词；中文可搜释义</span></div>';
       return;
     }
 
@@ -884,7 +1154,20 @@
     if (keyBound) return;
     keyBound = true;
     document.addEventListener('keydown', (e) => {
+      if (overlayMode && e.key === 'Escape') {
+        e.preventDefault();
+        e.stopPropagation();
+        closeDictOverlay();
+        return;
+      }
       if (!panelEl || !panelEl.isConnected) return;
+      if (overlayMode) {
+        if (e.key === '/' && !/^(input|textarea|select)$/i.test(e.target.tagName)) {
+          e.preventDefault();
+          panelEl.querySelector('.dict-q')?.focus();
+        }
+        return;
+      }
       const panel = panelEl.closest('.panel');
       if (!panel || panel.classList.contains('hidden')) return;
       if (e.key === '/' && !/^(input|textarea|select)$/i.test(e.target.tagName)) {
@@ -920,6 +1203,8 @@
     label: '查词典',
     icon: '📕',
     async onShow(panel) {
+      if (overlayMode) closeDictOverlay({ restoreScroll: false });
+      mainPanelEl = panel;
       panelEl = panel;
       bindGlobalKeys();
       loadQueue();
@@ -960,6 +1245,12 @@
       } else if (st.q.trim()) {
         search();
       }
+      if (NCE.showDictReturnBar) NCE.showDictReturnBar();
     },
   });
+
+  NCE.openDictOverlay = openDictOverlay;
+  NCE.closeDictOverlay = closeDictOverlay;
+  NCE.isDictionaryPageActive = isDictionaryPageActive;
+  NCE.isDictOverlayOpen = () => overlayMode;
 })();

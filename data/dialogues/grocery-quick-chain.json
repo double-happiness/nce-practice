@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-qgroc-01",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Need One Item",
+    "titleCn": "第1环：急买一样东西",
+    "scene": "做饭发现没酱油，你赶去楼下超市。（对话链：超市）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "酱油在哪？急用。", "en": "Where's the soy sauce? I'm in a hurry." },
+      { "role": "Clerk", "cn": "调味品区，过道七，最上面一层。", "en": "Condiment aisle seven, top shelf." },
+      { "role": "You", "cn": "有低钠的吗？", "en": "Do you have low-sodium?" },
+      { "role": "Clerk", "cn": "有，旁边绿色标签。", "en": "Yes. Green label next to it." },
+      { "role": "You", "cn": "谢谢，我去结账。", "en": "Thanks. Heading to checkout." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-02",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Self Checkout",
+    "titleCn": "第2环：自助结账",
+    "scene": "你使用自助收银机结账。（对话链：超市）",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "Attendant", "cn": "需要帮忙吗？", "en": "Need any help?" },
+      { "role": "You", "cn": "这个扫不上，条码坏了。", "en": "This won't scan. The barcode's damaged." },
+      { "role": "Attendant", "cn": "我输代码，是低钠酱油对吧？", "en": "I'll enter the code. Low-sodium soy sauce, right?" },
+      { "role": "You", "cn": "对，再加这个牛奶。", "en": "Yes. And this milk too." },
+      { "role": "Attendant", "cn": "好了，刷卡在这。", "en": "All set. Card reader's here." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-03",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Deli Counter",
+    "titleCn": "第3环：熟食柜台",
+    "scene": "你在熟食柜台买切片火腿。（对话链：超市）",
+    "roles": ["You", "Deli Clerk"],
+    "turns": [
+      { "role": "Deli Clerk", "cn": "下一位！要什么？", "en": "Next! What can I get you?" },
+      { "role": "You", "cn": "半磅蜂蜜火腿，切薄一点。", "en": "Half a pound of honey ham, sliced thin." },
+      { "role": "Deli Clerk", "cn": "还要别的吗？芝士今天特价。", "en": "Anything else? Cheese is on sale today." },
+      { "role": "You", "cn": "来四分之一磅瑞士芝士。", "en": "A quarter pound of Swiss, please." },
+      { "role": "Deli Clerk", "cn": "一共八块五。", "en": "Eight fifty total." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Great. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-04",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Bakery",
+    "titleCn": "第4环：面包房",
+    "scene": "你在超市面包房买新鲜面包。（对话链：超市）",
+    "roles": ["You", "Baker"],
+    "turns": [
+      { "role": "Baker", "cn": "刚出炉的法棍，要试试吗？", "en": "Fresh baguettes just out. Want one?" },
+      { "role": "You", "cn": "要一根，再要六个餐包。", "en": "One baguette and six dinner rolls, please." },
+      { "role": "Baker", "cn": "法棍要切吗？", "en": "Want the baguette sliced?" },
+      { "role": "You", "cn": "不切，晚上当晚餐。", "en": "Whole, please. Dinner tonight." },
+      { "role": "Baker", "cn": "趁热好吃，在这。", "en": "Best while warm. Here you go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-05",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Seafood Counter",
+    "titleCn": "第5环：海鲜柜台",
+    "scene": "你想买鱼，问海鲜部员工。（对话链：超市）",
+    "roles": ["You", "Fishmonger"],
+    "turns": [
+      { "role": "You", "cn": "三文鱼新鲜吗？两个人份量。", "en": "Is the salmon fresh? Enough for two." },
+      { "role": "Fishmonger", "cn": "今早到的，两块这块大小刚好。", "en": "Came in this morning. These two fillets are perfect." },
+      { "role": "You", "cn": "能帮忙去骨吗？", "en": "Can you debone them?" },
+      { "role": "Fishmonger", "cn": "可以，五分钟。", "en": "Sure. Five minutes." },
+      { "role": "You", "cn": "好，我去挑蔬菜，一会儿回来取。", "en": "Okay. I'll grab vegetables and be back." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-06",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Price Check",
+    "titleCn": "第6环：查价格",
+    "scene": "货架标签掉了，你请员工查价。（对话链：超市）",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "这罐番茄酱没标价，能查吗？", "en": "This ketchup has no price tag. Can you check?" },
+      { "role": "Employee", "cn": "我扫一下……两块九，在打折。", "en": "Let me scan… Two ninety-nine. It's on sale." },
+      { "role": "You", "cn": "好，拿三罐。", "en": "Okay. I'll take three." },
+      { "role": "Employee", "cn": "需要帮忙搬吗？", "en": "Need help carrying them?" },
+      { "role": "You", "cn": "不用，手推车就行。", "en": "No, the cart is fine." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-07",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Rain Check",
+    "titleCn": "第7环：缺货雨票",
+    "scene": "特价鸡蛋卖光了，你问雨票。（对话链：超市）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "特价鸡蛋没了，能开 rain check 吗？", "en": "The sale eggs are gone. Can I get a rain check?" },
+      { "role": "Manager", "cn": "可以，下周内同款特价有效。", "en": "Yes. Same sale price any time next week." },
+      { "role": "You", "cn": "限购两盒对吧？", "en": "Limit two cartons, right?" },
+      { "role": "Manager", "cn": "对，凭这张票结账。", "en": "Correct. Present this at checkout." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-qgroc-08",
+    "category": "grocery",
+    "chain": {
+      "id": "quick-grocery",
+      "title": "A Quick Weeknight Grocery Run",
+      "titleCn": "对话链：超市速购",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Express Lane",
+    "titleCn": "第8环：快速通道",
+    "scene": "你排队结账，前面顾客商品超限。（对话链：超市）",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "快速通道十五件以内哦。", "en": "Express lane is fifteen items or fewer." },
+      { "role": "You", "cn": "我数了一下十二件，可以吗？", "en": "I counted twelve. Is that okay?" },
+      { "role": "Cashier", "cn": "可以，会员号？", "en": "Sure. Membership number?" },
+      { "role": "You", "cn": "手机号是这个。", "en": "Phone number is this one." },
+      { "role": "Cashier", "cn": "积了两分，一共三十四块。", "en": "Two points earned. Thirty-four total." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card. Thank you." }
+    ]
+  }
+]

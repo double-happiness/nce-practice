@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-store-01",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Morning Breakfast",
+    "titleCn": "第1环：早上买早餐",
+    "scene": "工作日早上，你在便利店买早餐。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "早上好，要点什么？", "en": "Good morning. What can I get you?" },
+      { "role": "You", "cn": "一个三明治和一大杯咖啡。", "en": "A sandwich and a large coffee, please." },
+      { "role": "Clerk", "cn": "要加热吗？奶和糖自己加。", "en": "Want it heated? Cream and sugar are over there." },
+      { "role": "You", "cn": "加热，谢谢。再加一瓶水。", "en": "Yes, please. And a bottle of water." },
+      { "role": "Clerk", "cn": "一共九块二。", "en": "That'll be nine twenty." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card, please. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-02",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Find Batteries",
+    "titleCn": "第2环：找电池",
+    "scene": "中午遥控器没电，你顺路进便利店。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "请问有 AA 电池吗？", "en": "Do you carry double-A batteries?" },
+      { "role": "Clerk", "cn": "在收银台后面，要几节？", "en": "Behind the register. How many do you need?" },
+      { "role": "You", "cn": "一包四节的就行。", "en": "One four-pack is fine." },
+      { "role": "Clerk", "cn": "四块九，要袋子吗？", "en": "Four ninety-nine. Need a bag?" },
+      { "role": "You", "cn": "不用，谢谢。", "en": "No thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-03",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Heat a Meal",
+    "titleCn": "第3环：加热便当",
+    "scene": "傍晚你买便当，请店员加热。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "这个鸡肉饭便当，请加热。", "en": "This chicken rice bowl, please heat it up." },
+      { "role": "Clerk", "cn": "微波一分钟半，要筷子吗？", "en": "One and a half minutes in the microwave. Need chopsticks?" },
+      { "role": "You", "cn": "要，再来一罐绿茶。", "en": "Yes, and a can of green tea." },
+      { "role": "Clerk", "cn": "六块五，在这边吃还是带走？", "en": "Six fifty. For here or to go?" },
+      { "role": "You", "cn": "带走，赶时间。", "en": "To go. I'm in a hurry." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-04",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: ATM Swallowed Card",
+    "titleCn": "第4环：取款机吞卡",
+    "scene": "店里取款机吞了你的卡。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，取款机把我的卡吞了。", "en": "Hi, the ATM ate my card." },
+      { "role": "Clerk", "cn": "机器不是我们管的，要打银行电话。", "en": "We don't manage that machine. You'll need to call your bank." },
+      { "role": "You", "cn": "银行电话在机器上有吗？", "en": "Is the bank's number on the machine?" },
+      { "role": "Clerk", "cn": "有，贴在机器侧面。", "en": "Yes, it's on the side of the machine." },
+      { "role": "You", "cn": "能借我用一下电话吗？", "en": "Could I use your phone to call?" },
+      { "role": "Clerk", "cn": "可以，请到柜台这边。", "en": "Sure, come to the counter." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-05",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Late Night Run",
+    "titleCn": "第5环：深夜应急",
+    "scene": "深夜肚子不舒服，你去便利店买应急用品。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "晚上好，需要什么？", "en": "Good evening. What do you need?" },
+      { "role": "You", "cn": "胃不舒服，有止疼药和胃药吗？", "en": "My stomach hurts. Do you have pain relief and antacid?" },
+      { "role": "Clerk", "cn": "止疼药在第三过道，胃药在柜台后。", "en": "Pain relief is aisle three. Antacid is behind the counter." },
+      { "role": "You", "cn": "都要，再来一瓶温水。", "en": "Both, please. And a bottle of warm water." },
+      { "role": "Clerk", "cn": "一共十一块。", "en": "Eleven dollars total." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-06",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pay a Bill",
+    "titleCn": "第6环：代缴账单",
+    "scene": "你在便利店柜台缴电费。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "能代缴电费吗？账单在这。", "en": "Can I pay my electric bill here? Here's the statement." },
+      { "role": "Clerk", "cn": "可以，账号和金额确认一下。", "en": "Sure. Please confirm the account and amount." },
+      { "role": "You", "cn": "八十五块六，账号尾号4321。", "en": "Eighty-five sixty, account ending in four three two one." },
+      { "role": "Clerk", "cn": "加手续费一块五，现金还是卡？", "en": "Plus a dollar fifty fee. Cash or card?" },
+      { "role": "You", "cn": "卡，请给收据。", "en": "Card. Receipt, please." },
+      { "role": "Clerk", "cn": "好了，一两天内到账。", "en": "Done. It posts in a day or two." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-07",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Wrong Change",
+    "titleCn": "第7环：找零有误",
+    "scene": "你发现店员找零少了一块，回去说明。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，刚才找零好像少了一块。", "en": "Sorry, I think I was shortchanged by a dollar." },
+      { "role": "Clerk", "cn": "我查一下小票……您说得对。", "en": "Let me check the receipt. You're right." },
+      { "role": "You", "cn": "没事，可能太忙了。", "en": "No worries. Must've been busy." },
+      { "role": "Clerk", "cn": "抱歉，这是您的一块。", "en": "Sorry about that. Here's your dollar." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-store-08",
+    "category": "convenience",
+    "chain": {
+      "id": "convenience-day",
+      "title": "A Day at the Convenience Store",
+      "titleCn": "对话链：便利店一天",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Regular Customer",
+    "titleCn": "第8环：熟客道别",
+    "scene": "第二天早上，店员认出你是常客。（对话链：便利店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "还是老样子？大杯咖啡加三明治？", "en": "The usual? Large coffee and a sandwich?" },
+      { "role": "You", "cn": "对，今天不加糖，谢谢。", "en": "Yes. No sugar today, please." },
+      { "role": "Clerk", "cn": "新到的蓝莓马芬，要试试吗？", "en": "New blueberry muffins. Want to try one?" },
+      { "role": "You", "cn": "来一个吧，昨天谢谢借电话。", "en": "I'll take one. Thanks again for the phone yesterday." },
+      { "role": "Clerk", "cn": "不客气，一共十块五。", "en": "No problem. Ten fifty total." },
+      { "role": "You", "cn": "刷卡，明天见。", "en": "Card. See you tomorrow." }
+    ]
+  }
+]

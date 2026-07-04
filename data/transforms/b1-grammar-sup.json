@@ -1,0 +1,16 @@
+[
+  {
+    "id": "tf-b1-075",
+    "book": 1,
+    "lesson": 115,
+    "grammar": ["词汇辨析"],
+    "cn": "他在看窗外的鸟。（watch 表持续观看）",
+    "explanation": "watch 强调持续观看；see 强调看见结果；look at 强调看的动作。本句用 watch 或 look at 均可表「在看」。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is watching the birds outside the window.", "He is looking at the birds outside the window."], "cn": "他在看窗外的鸟。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he watching the birds outside the window?", "Is he looking at the birds outside the window?"], "cn": "他在看窗外的鸟吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not watching the birds outside the window.", "He isn't watching the birds outside the window."], "cn": "他不在看窗外的鸟。" },
+      { "kind": "wh", "prompt": "对「the birds」提问（问\"在看什么\"）", "answers": ["What is he watching outside the window?", "What is he looking at outside the window?"], "cn": "他在窗外看什么？" }
+    ]
+  }
+]

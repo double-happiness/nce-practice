@@ -1,0 +1,2521 @@
+[
+  {
+    "book": 3,
+    "lesson": 49,
+    "title": "The ideal servant",
+    "titleCn": "理想的仆人",
+    "scene": "特雷弗西斯在宴会上谨慎高效，酒斟好、盘撤净，客人赞不绝口，主人完全依赖他，却觉得从不犯错的仆人好得不像真的。本课语法重点是被动语态与并列结构。",
+    "grammarTags": [
+      "被动语态",
+      "并列结构"
+    ],
+    "words": [
+      {
+        "word": "resolution",
+        "phon": "/rezə'luːʃ(ə)n/",
+        "pos": "n.",
+        "cn": "决心",
+        "eg": ""
+      },
+      {
+        "word": "mentally",
+        "phon": "/'ment(ə)lɪ/",
+        "pos": "ad.",
+        "cn": "内心里",
+        "eg": ""
+      },
+      {
+        "word": "compile",
+        "phon": "/kəm'paɪl/",
+        "pos": "v.",
+        "cn": "编辑，编制",
+        "eg": ""
+      },
+      {
+        "word": "formidable",
+        "phon": "/'fɔːmɪdəb(ə)l; fɔː'mɪd-/",
+        "pos": "a.",
+        "cn": "令人畏惧的",
+        "eg": ""
+      },
+      {
+        "word": "recur",
+        "phon": "/rɪ'kɜː/",
+        "pos": "v.",
+        "cn": "再发生，又出现",
+        "eg": ""
+      },
+      {
+        "word": "regularity",
+        "phon": "/reɡjʊ'lærətɪ/",
+        "pos": "n.",
+        "cn": "规律性",
+        "eg": ""
+      },
+      {
+        "word": "accomplishment",
+        "phon": "/ə'kɑːmplɪʃmənt/",
+        "pos": "n.",
+        "cn": "成就",
+        "eg": ""
+      },
+      {
+        "word": "attainment",
+        "phon": "/ə'teɪnm(ə)nt/",
+        "pos": "n.",
+        "cn": "达到；成就，造诣",
+        "eg": ""
+      },
+      {
+        "word": "inveterate",
+        "phon": "/in'vetərit/",
+        "pos": "a.",
+        "cn": "根深蒂固的",
+        "eg": ""
+      },
+      {
+        "word": "self-improvement",
+        "phon": "",
+        "pos": "n.",
+        "cn": "自我完善",
+        "eg": ""
+      },
+      {
+        "word": "scheme",
+        "phon": "/skiːm/",
+        "pos": "n.",
+        "cn": "简单的计划，方案",
+        "eg": ""
+      },
+      {
+        "word": "ambitious",
+        "phon": "/æm'bɪʃəs/",
+        "pos": "a.",
+        "cn": "雄心勃勃的",
+        "eg": ""
+      },
+      {
+        "word": "pitfall",
+        "phon": "/'pɪtfɔːl/",
+        "pos": "n.",
+        "cn": "意外的困难，易犯的错误",
+        "eg": ""
+      },
+      {
+        "word": "modest",
+        "phon": "/'mɑːdɪst/",
+        "pos": "a.",
+        "cn": "要求不过分的,谦虚的",
+        "eg": ""
+      },
+      {
+        "word": "assiduously",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "刻苦地",
+        "eg": ""
+      },
+      {
+        "word": "self-discipline",
+        "phon": "",
+        "pos": "n.",
+        "cn": "自我约束",
+        "eg": ""
+      },
+      {
+        "word": "frame",
+        "phon": "/freɪm/",
+        "pos": "n.",
+        "cn": "躯体",
+        "eg": ""
+      },
+      {
+        "word": "betray",
+        "phon": "/bɪ'treɪ/",
+        "pos": "v.",
+        "cn": "暴露，显露",
+        "eg": ""
+      },
+      {
+        "word": "troop",
+        "phon": "/truːp/",
+        "pos": "v.",
+        "cn": "成群结队地走动",
+        "eg": ""
+      },
+      {
+        "word": "unsettle",
+        "phon": "/ʌn'set(ə)l/",
+        "pos": "v.",
+        "cn": "使不安",
+        "eg": ""
+      },
+      {
+        "word": "taunt",
+        "phon": "/tɔːnt/",
+        "pos": "n.v.",
+        "cn": "嘲笑，奚落人的话",
+        "eg": ""
+      },
+      {
+        "word": "jibe",
+        "phon": "/dʒaɪb/",
+        "pos": "n.",
+        "cn": "嘲弄，挖苦",
+        "eg": ""
+      },
+      {
+        "word": "good-humouredly",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "和气地，心情好地",
+        "eg": ""
+      },
+      {
+        "word": "wane",
+        "phon": "/weɪn/",
+        "pos": "v.",
+        "cn": "逐渐变小，变弱",
+        "eg": ""
+      },
+      {
+        "word": "diminish",
+        "phon": "/dɪ'mɪnɪʃ/",
+        "pos": "v.",
+        "cn": "减少，缩小",
+        "eg": ""
+      },
+      {
+        "word": "hypnotize",
+        "phon": "/'hɪpnətaɪz/",
+        "pos": "v.",
+        "cn": "使欲睡，使朦胧",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "介绍建筑的历史与现状时，常用被动语态：历史事件用一般过去时被动（was founded），延续至今的情况用现在完成时被动（has been used）。易错点：found（创建）的过去分词是 founded，别与 find-found 混淆。",
+        "examples": [
+          "The monastery was founded in the eleventh century. （这座修道院创建于十一世纪。）",
+          "A road has been built through the mountains. （一条公路已经修过了群山。）"
+        ]
+      },
+      {
+        "point": "并列结构",
+        "explain": "and/but 连接并列成分；被动语态可并列。",
+        "examples": [
+          "He was discreet, efficient and almost invisible. （他谨慎、高效，几乎不显存在感。）",
+          "Wine was poured, plates were cleared, and every guest was attended to. （酒斟好，盘撤净，每位客人都被照料到。）"
+        ]
+      }
+    ],
+    "tips": "①主语是承受者用被动 be + done；②时态体现在 be 上；③并列被动可对称省略。"
+  },
+  {
+    "book": 3,
+    "lesson": 50,
+    "title": "New Year resolutions",
+    "titleCn": "新年决心",
+    "scene": "元旦作者下雄心勃勃的新年决心：六点起、戒烟、多锻炼，头三天信守承诺，第四天闹钟响后又睡回去，到二月已放弃大部分计划。本课语法重点是 will/be going to 表意图。",
+    "grammarTags": [
+      "will / be going to",
+      "表示意图"
+    ],
+    "words": [
+      {
+        "word": "resolution",
+        "phon": "/rezə'luːʃ(ə)n/",
+        "pos": "n.",
+        "cn": "决心",
+        "eg": "On New Year's Day I made several ambitious resolutions."
+      },
+      {
+        "word": "troop",
+        "phon": "/truːp/",
+        "pos": "v.",
+        "cn": "成群结队地走动",
+        "eg": ""
+      },
+      {
+        "word": "unsettle",
+        "phon": "/ʌn'set(ə)l/",
+        "pos": "v.",
+        "cn": "使不安",
+        "eg": ""
+      },
+      {
+        "word": "taunt",
+        "phon": "/tɔːnt/",
+        "pos": "n.v.",
+        "cn": "嘲笑，奚落人的话",
+        "eg": ""
+      },
+      {
+        "word": "jibe",
+        "phon": "/dʒaɪb/",
+        "pos": "n.",
+        "cn": "嘲弄，挖苦",
+        "eg": ""
+      },
+      {
+        "word": "good-humouredly",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "和气地，心情好地",
+        "eg": ""
+      },
+      {
+        "word": "wane",
+        "phon": "/weɪn/",
+        "pos": "v.",
+        "cn": "逐渐变小，变弱",
+        "eg": ""
+      },
+      {
+        "word": "diminish",
+        "phon": "/dɪ'mɪnɪʃ/",
+        "pos": "v.",
+        "cn": "减少，缩小",
+        "eg": ""
+      },
+      {
+        "word": "hypnotize",
+        "phon": "/'hɪpnətaɪz/",
+        "pos": "v.",
+        "cn": "使欲睡，使朦胧",
+        "eg": ""
+      },
+      {
+        "word": "undoing",
+        "phon": "/ʌn'duːɪŋ/",
+        "pos": "n.",
+        "cn": "祸根，毁灭的原因",
+        "eg": ""
+      },
+      {
+        "word": "screen",
+        "phon": "/skriːn/",
+        "pos": "n.",
+        "cn": "电视机屏幕",
+        "eg": ""
+      },
+      {
+        "word": "full-time",
+        "phon": "/,fʊl'taɪm/",
+        "pos": "a.",
+        "cn": "专职的",
+        "eg": ""
+      },
+      {
+        "word": "technician",
+        "phon": "/tek'nɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "技师",
+        "eg": ""
+      },
+      {
+        "word": "software",
+        "phon": "/'sɒf(t)weə/",
+        "pos": "n.",
+        "cn": "软件",
+        "eg": ""
+      },
+      {
+        "word": "IBM",
+        "phon": "",
+        "pos": "",
+        "cn": "国际商用机器公司",
+        "eg": ""
+      },
+      {
+        "word": "DOS",
+        "phon": "",
+        "pos": "",
+        "cn": "磁盘操作系统(Disk Operating System)",
+        "eg": ""
+      },
+      {
+        "word": "Microsoft",
+        "phon": "",
+        "pos": "n.",
+        "cn": "(美国)微软公司",
+        "eg": ""
+      },
+      {
+        "word": "user-friendly",
+        "phon": "",
+        "pos": "a.",
+        "cn": "容易操作的，好用的",
+        "eg": ""
+      },
+      {
+        "word": "multimedia",
+        "phon": "/'mʌltɪmiːdɪə/",
+        "pos": "a.",
+        "cn": "多媒体的",
+        "eg": ""
+      },
+      {
+        "word": "alternative",
+        "phon": "/ɔːl'tɜːrnətɪv/",
+        "pos": "a.",
+        "cn": "选择的",
+        "eg": ""
+      },
+      {
+        "word": "diagnose",
+        "phon": "/ˌdaɪəg'nous/",
+        "pos": "v.",
+        "cn": "诊断",
+        "eg": ""
+      },
+      {
+        "word": "relieve",
+        "phon": "/rɪ'liːv/",
+        "pos": "v.",
+        "cn": "减轻",
+        "eg": ""
+      },
+      {
+        "word": "accountant",
+        "phon": "/ə'kaʊnt(ə)nt/",
+        "pos": "n.",
+        "cn": "会计",
+        "eg": ""
+      },
+      {
+        "word": "repetitive",
+        "phon": "/rɪ'petɪtɪv/",
+        "pos": "a.",
+        "cn": "重复的",
+        "eg": ""
+      },
+      {
+        "word": "clerical",
+        "phon": "/'klerikәl/",
+        "pos": "a.",
+        "cn": "办公室工作的",
+        "eg": ""
+      },
+      {
+        "word": "Internet",
+        "phon": "/'ɪntənet/",
+        "pos": "n.",
+        "cn": "国际交互网",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "will / be going to",
+        "explain": "be going to 表打算；will 表承诺或意愿。",
+        "examples": [
+          "I am going to get up at six every morning. （我打算每天早晨六点起。）",
+          "I will never smoke again, he promised. （他承诺再也不抽烟。）"
+        ]
+      },
+      {
+        "point": "表示意图",
+        "explain": "intend/plan/be determined to do 表意图。",
+        "examples": [
+          "He was determined to lose weight. （他决心减肥。）",
+          "On New Year's Day I made several ambitious resolutions. （元旦那天我下了好几个雄心勃勃的决心。）"
+        ]
+      }
+    ],
+    "tips": "①will / be going to；②表示意图。"
+  },
+  {
+    "book": 3,
+    "lesson": 51,
+    "title": "Predicting the future",
+    "titleCn": "预测未来",
+    "scene": "人们一直试图预测未来，少有预言能长期准确；等一条预言被检验时，世界往往已变，到下个十年当今许多警告将被遗忘。本课语法重点是将来完成时与 by + 将来时间。",
+    "grammarTags": [
+      "将来完成时",
+      "by + 将来时间"
+    ],
+    "words": [
+      {
+        "word": "multimedia",
+        "phon": "/'mʌltɪmiːdɪə/",
+        "pos": "a.",
+        "cn": "多媒体的",
+        "eg": ""
+      },
+      {
+        "word": "alternative",
+        "phon": "/ɔːl'tɜːrnətɪv/",
+        "pos": "a.",
+        "cn": "选择的",
+        "eg": ""
+      },
+      {
+        "word": "diagnose",
+        "phon": "/ˌdaɪəg'nous/",
+        "pos": "v.",
+        "cn": "诊断",
+        "eg": ""
+      },
+      {
+        "word": "relieve",
+        "phon": "/rɪ'liːv/",
+        "pos": "v.",
+        "cn": "减轻",
+        "eg": ""
+      },
+      {
+        "word": "accountant",
+        "phon": "/ə'kaʊnt(ə)nt/",
+        "pos": "n.",
+        "cn": "会计",
+        "eg": ""
+      },
+      {
+        "word": "repetitive",
+        "phon": "/rɪ'petɪtɪv/",
+        "pos": "a.",
+        "cn": "重复的",
+        "eg": ""
+      },
+      {
+        "word": "clerical",
+        "phon": "/'klerikәl/",
+        "pos": "a.",
+        "cn": "办公室工作的",
+        "eg": ""
+      },
+      {
+        "word": "Internet",
+        "phon": "/'ɪntənet/",
+        "pos": "n.",
+        "cn": "国际交互网",
+        "eg": ""
+      },
+      {
+        "word": "network",
+        "phon": "/'netwɜːk/",
+        "pos": "n.",
+        "cn": "网络",
+        "eg": ""
+      },
+      {
+        "word": "permanent",
+        "phon": "/'pɜːrmənənt/",
+        "pos": "a.",
+        "cn": "永久的",
+        "eg": ""
+      },
+      {
+        "word": "tint",
+        "phon": "/tɪnt/",
+        "pos": "v.",
+        "cn": "给染色",
+        "eg": ""
+      },
+      {
+        "word": "delicate",
+        "phon": "/'delɪkət/",
+        "pos": "a.",
+        "cn": "淡色的",
+        "eg": ""
+      },
+      {
+        "word": "shade",
+        "phon": "/ʃeɪd/",
+        "pos": "n.",
+        "cn": "色度",
+        "eg": ""
+      },
+      {
+        "word": "observant",
+        "phon": "/əb'zɜːv(ə)nt/",
+        "pos": "a.",
+        "cn": "观察力敏锐的",
+        "eg": ""
+      },
+      {
+        "word": "grayish",
+        "phon": "",
+        "pos": "a.",
+        "cn": "浅灰色的",
+        "eg": ""
+      },
+      {
+        "word": "dispel",
+        "phon": "/dɪ'spel/",
+        "pos": "v.",
+        "cn": "驱散，消除",
+        "eg": ""
+      },
+      {
+        "word": "outlandish",
+        "phon": "/aut'lændiʃ/",
+        "pos": "a.",
+        "cn": "稀奇古怪的",
+        "eg": ""
+      },
+      {
+        "word": "acquisition",
+        "phon": "/ˌækwɪ'zɪʃn/",
+        "pos": "n.",
+        "cn": "获得",
+        "eg": ""
+      },
+      {
+        "word": "cosmetic",
+        "phon": "/kɒz'metɪk/",
+        "pos": "n.",
+        "cn": "化妆品",
+        "eg": ""
+      },
+      {
+        "word": "outrageous",
+        "phon": "/aut'reɪdʒəs/",
+        "pos": "a.",
+        "cn": "出人预料的；令人不悦的",
+        "eg": ""
+      },
+      {
+        "word": "fanciful",
+        "phon": "/'fænsɪfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "想象出来的",
+        "eg": ""
+      },
+      {
+        "word": "insoluble",
+        "phon": "/ɪn'sɒljʊb(ə)l/",
+        "pos": "a.",
+        "cn": "不可溶解的",
+        "eg": ""
+      },
+      {
+        "word": "prompt",
+        "phon": "/prɑːmpt/",
+        "pos": "v.",
+        "cn": "敦促，激励",
+        "eg": ""
+      },
+      {
+        "word": "exclusive",
+        "phon": "/ɪk'skluːsɪv/",
+        "pos": "a.",
+        "cn": "独占的，独家的",
+        "eg": ""
+      },
+      {
+        "word": "syllable",
+        "phon": "/'sɪləbl/",
+        "pos": "n.",
+        "cn": "音节",
+        "eg": ""
+      },
+      {
+        "word": "bewilderment",
+        "phon": "/bi'wildәmәnt/",
+        "pos": "n.",
+        "cn": "迷惑，糊涂",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "将来完成时",
+        "explain": "will have done 表在将来某时之前将已完成。",
+        "examples": [
+          "By next decade, many of today's warnings will have been forgotten. （到下个十年，当今许多警告将被遗忘。）",
+          "By the time one prediction is tested, the world will often have moved on. （等一条预言被检验时，世界往往已变。）"
+        ]
+      },
+      {
+        "point": "by + 将来时间",
+        "explain": "by + 将来时间点，主句用将来完成时。",
+        "examples": [
+          "By next year, many predictions will have been forgotten. （到明年许多预言将被遗忘。）",
+          "By 2050, scientists will have found new methods. （到二〇五〇年科学家将找到新方法。）"
+        ]
+      }
+    ],
+    "tips": "①by + 将来时间用 will have done；②by the time + 现在时（表将来），主句 will have done。"
+  },
+  {
+    "book": 3,
+    "lesson": 52,
+    "title": "Mud is mud",
+    "titleCn": "泥就是泥",
+    "scene": "推销员向主妇吹嘘面霜含稀有矿物，她送化验后显示主要是泥土：泥就是泥，包装改变不了本质。本课语法重点是 what 主语从句与强调本质。",
+    "grammarTags": [
+      "what 主语从句",
+      "强调本质"
+    ],
+    "words": [
+      {
+        "word": "luxury",
+        "phon": "/'lʌkʃəri/",
+        "pos": "n.",
+        "cn": "奢侈品，珍品",
+        "eg": "What looked like luxury was still mud at heart."
+      },
+      {
+        "word": "cosmetic",
+        "phon": "/kɒz'metɪk/",
+        "pos": "n.",
+        "cn": "化妆品",
+        "eg": "A salesman praised a jar of cosmetic cream to a housewife."
+      },
+      {
+        "word": "outrageous",
+        "phon": "/aut'reɪdʒəs/",
+        "pos": "a.",
+        "cn": "出人预料的；令人不悦的",
+        "eg": ""
+      },
+      {
+        "word": "fanciful",
+        "phon": "/'fænsɪfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "想象出来的",
+        "eg": ""
+      },
+      {
+        "word": "insoluble",
+        "phon": "/ɪn'sɒljʊb(ə)l/",
+        "pos": "a.",
+        "cn": "不可溶解的",
+        "eg": ""
+      },
+      {
+        "word": "prompt",
+        "phon": "/prɑːmpt/",
+        "pos": "v.",
+        "cn": "敦促，激励",
+        "eg": ""
+      },
+      {
+        "word": "exclusive",
+        "phon": "/ɪk'skluːsɪv/",
+        "pos": "a.",
+        "cn": "独占的，独家的",
+        "eg": ""
+      },
+      {
+        "word": "syllable",
+        "phon": "/'sɪləbl/",
+        "pos": "n.",
+        "cn": "音节",
+        "eg": ""
+      },
+      {
+        "word": "bewilderment",
+        "phon": "/bi'wildәmәnt/",
+        "pos": "n.",
+        "cn": "迷惑，糊涂",
+        "eg": ""
+      },
+      {
+        "word": "freckle",
+        "phon": "/'frek(ə)l/",
+        "pos": "n.",
+        "cn": "雀斑",
+        "eg": ""
+      },
+      {
+        "word": "evidently",
+        "phon": "/'evɪd(ə)ntlɪ/",
+        "pos": "ad.",
+        "cn": "显然地，明显地",
+        "eg": ""
+      },
+      {
+        "word": "weird",
+        "phon": "/wɪrd/",
+        "pos": "a.",
+        "cn": "奇异的，古怪的",
+        "eg": ""
+      },
+      {
+        "word": "concoction",
+        "phon": "/kən'kɑːkʃn/",
+        "pos": "n.",
+        "cn": "调制品",
+        "eg": ""
+      },
+      {
+        "word": "intoxicate",
+        "phon": "/in'tɔksikeit/",
+        "pos": "v.",
+        "cn": "陶醉，得意忘形",
+        "eg": ""
+      },
+      {
+        "word": "blank",
+        "phon": "/blæŋk/",
+        "pos": "a.",
+        "cn": "空白的",
+        "eg": ""
+      },
+      {
+        "word": "discreetly",
+        "phon": "/dis'kri:tli/",
+        "pos": "ad.",
+        "cn": "谨慎地",
+        "eg": ""
+      },
+      {
+        "word": "clutch",
+        "phon": "/klʌtʃ/",
+        "pos": "v.",
+        "cn": "抓住",
+        "eg": ""
+      },
+      {
+        "word": "adorn",
+        "phon": "/ə'dɔːrn/",
+        "pos": "v.",
+        "cn": "装饰，打扮",
+        "eg": ""
+      },
+      {
+        "word": "evolve",
+        "phon": "/i'vɑːlv/",
+        "pos": "v.",
+        "cn": "逐渐形成",
+        "eg": ""
+      },
+      {
+        "word": "high-handed",
+        "phon": "",
+        "pos": "a.",
+        "cn": "高压的，专横的",
+        "eg": ""
+      },
+      {
+        "word": "incompetent",
+        "phon": "/ɪn'kɒmpɪt(ə)nt/",
+        "pos": "a.",
+        "cn": "不够格的，不称职的",
+        "eg": ""
+      },
+      {
+        "word": "over-zealously",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "过分热情地",
+        "eg": ""
+      },
+      {
+        "word": "safeguard",
+        "phon": "/'seifgɑːd/",
+        "pos": "v.",
+        "cn": "保护",
+        "eg": ""
+      },
+      {
+        "word": "parliamentary",
+        "phon": "/,pɑːlə'ment(ə)rɪ/",
+        "pos": "a.",
+        "cn": "国会的",
+        "eg": ""
+      },
+      {
+        "word": "qualified",
+        "phon": "/'kwɑːlɪfaɪd/",
+        "pos": "a.",
+        "cn": "合格的",
+        "eg": ""
+      },
+      {
+        "word": "grievance",
+        "phon": "/'griːv(ə)ns/",
+        "pos": "n.",
+        "cn": "不平，冤屈",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "what 主语从句",
+        "explain": "What + 从句 + 谓语，what 在从句中作成分。",
+        "examples": [
+          "What the tests revealed was mostly ordinary mud. （化验显示所含主要是普通泥土。）",
+          "What matters is the ingredient, not the price. （重要的是成分，不是价格。）"
+        ]
+      },
+      {
+        "point": "强调本质",
+        "explain": "Mud is mud 强调本质不因包装改变。",
+        "examples": [
+          "Mud is mud, whatever fancy label you put on the jar. （泥就是泥，标签再花哨也没用。）",
+          "What looked like luxury was still mud at heart. （看似奢华，骨子里仍是泥。）"
+        ]
+      }
+    ],
+    "tips": "①What + 从句作主语；②Mud is mud 强调本质不因包装改变。"
+  },
+  {
+    "book": 3,
+    "lesson": 53,
+    "title": "In the public interest",
+    "titleCn": "为了公众的利益",
+    "scene": "电视台以公众利益为由取消又长又闷的节目，公众抗议，一周内恢复播出，可见官员所说的公众利益并非观众所愿。本课语法重点是 in the interest of 与动名词复合结构。",
+    "grammarTags": [
+      "in the interest of",
+      "动名词复合结构"
+    ],
+    "words": [
+      {
+        "word": "evolve",
+        "phon": "/i'vɑːlv/",
+        "pos": "v.",
+        "cn": "逐渐形成",
+        "eg": ""
+      },
+      {
+        "word": "high-handed",
+        "phon": "",
+        "pos": "a.",
+        "cn": "高压的，专横的",
+        "eg": ""
+      },
+      {
+        "word": "incompetent",
+        "phon": "/ɪn'kɒmpɪt(ə)nt/",
+        "pos": "a.",
+        "cn": "不够格的，不称职的",
+        "eg": ""
+      },
+      {
+        "word": "over-zealously",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "过分热情地",
+        "eg": ""
+      },
+      {
+        "word": "safeguard",
+        "phon": "/'seifgɑːd/",
+        "pos": "v.",
+        "cn": "保护",
+        "eg": ""
+      },
+      {
+        "word": "parliamentary",
+        "phon": "/,pɑːlə'ment(ə)rɪ/",
+        "pos": "a.",
+        "cn": "国会的",
+        "eg": ""
+      },
+      {
+        "word": "qualified",
+        "phon": "/'kwɑːlɪfaɪd/",
+        "pos": "a.",
+        "cn": "合格的",
+        "eg": ""
+      },
+      {
+        "word": "grievance",
+        "phon": "/'griːv(ə)ns/",
+        "pos": "n.",
+        "cn": "不平，冤屈",
+        "eg": ""
+      },
+      {
+        "word": "Justiteombudsman",
+        "phon": "",
+        "pos": "n.",
+        "cn": "(瑞典的)司法特派员",
+        "eg": ""
+      },
+      {
+        "word": "ombudsman",
+        "phon": "/'ɔmbәdzmæn/",
+        "pos": "n.",
+        "cn": "(瑞典和英国的)司法特派员",
+        "eg": ""
+      },
+      {
+        "word": "secretive",
+        "phon": "/'sikriːtiv/",
+        "pos": "a.",
+        "cn": "保密的",
+        "eg": ""
+      },
+      {
+        "word": "correspondence",
+        "phon": "/kɒrɪ'spɒnd(ə)ns/",
+        "pos": "n.",
+        "cn": "来往信件",
+        "eg": ""
+      },
+      {
+        "word": "alter",
+        "phon": "/'ɔːltər/",
+        "pos": "v.",
+        "cn": "改变",
+        "eg": ""
+      },
+      {
+        "word": "accusation",
+        "phon": "/ækjʊ'zeɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "谴责，指控",
+        "eg": ""
+      },
+      {
+        "word": "ascertain",
+        "phon": "/ˌæsər'teɪn/",
+        "pos": "v.",
+        "cn": "查出，查明",
+        "eg": ""
+      },
+      {
+        "word": "prejudiced",
+        "phon": "/'predʒədɪst/",
+        "pos": "a.",
+        "cn": "有偏见的，不公平的",
+        "eg": ""
+      },
+      {
+        "word": "prompt",
+        "phon": "/prɑːmpt/",
+        "pos": "v.",
+        "cn": "敦促，激励",
+        "eg": ""
+      },
+      {
+        "word": "insect",
+        "phon": "/'ɪnsekt/",
+        "pos": "n.",
+        "cn": "昆虫",
+        "eg": ""
+      },
+      {
+        "word": "wage",
+        "phon": "/weɪdʒ/",
+        "pos": "v.",
+        "cn": "进行(斗争)",
+        "eg": ""
+      },
+      {
+        "word": "contaminate",
+        "phon": "/kən'tæmɪneɪt/",
+        "pos": "v.",
+        "cn": "弄脏",
+        "eg": ""
+      },
+      {
+        "word": "provocation",
+        "phon": "/,prɒvə'keɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "惹怒",
+        "eg": ""
+      },
+      {
+        "word": "spider",
+        "phon": "/'spaɪdə/",
+        "pos": "n.",
+        "cn": "蜘蛛",
+        "eg": ""
+      },
+      {
+        "word": "wasp",
+        "phon": "/wɑːsp/",
+        "pos": "n.",
+        "cn": "黄蜂",
+        "eg": ""
+      },
+      {
+        "word": "moth",
+        "phon": "/mɔːθ/",
+        "pos": "n.",
+        "cn": "飞蛾",
+        "eg": ""
+      },
+      {
+        "word": "ant",
+        "phon": "/ænt/",
+        "pos": "n.",
+        "cn": "蚂蚁",
+        "eg": ""
+      },
+      {
+        "word": "revulsion",
+        "phon": "/rɪ'vʌlʃ(ə)n/",
+        "pos": "n.",
+        "cn": "厌恶",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "in the interest of",
+        "explain": "in the interest(s) of 表「为了……的利益」。",
+        "examples": [
+          "The channel cancelled the programme in the public interest. （电视台以公众利益为由取消节目。）",
+          "It seemed that what officials called the public interest was not what viewers wanted. （官员所说的公众利益并非观众所愿。）"
+        ]
+      },
+      {
+        "point": "动名词复合结构",
+        "explain": "There being no support... 是 there be 的动名词复合结构，作原因状语。",
+        "examples": [
+          "There being no support for the decision, the channel faced an outcry. （决定得不到支持，电视台面临强烈抗议。）",
+          "The broadcast was restored within a week. （一周内节目恢复播出。）"
+        ]
+      }
+    ],
+    "tips": "①in the interest of；②动名词复合结构。"
+  },
+  {
+    "book": 3,
+    "lesson": 54,
+    "title": "Instinct or cleverness?",
+    "titleCn": "是本能还是机智",
+    "scene": "养蜂人打开蜂箱，黄蜂大胆偷蜜，蜜蜂犹豫是否进攻，混乱中黄蜂逃走，很难说本能还是机灵占了上风。本课语法重点是 whether...or 与疑问词 + to do。",
+    "grammarTags": [
+      "whether...or",
+      "疑问词 + to do"
+    ],
+    "words": [
+      {
+        "word": "wage",
+        "phon": "/weɪdʒ/",
+        "pos": "v.",
+        "cn": "进行(斗争)",
+        "eg": ""
+      },
+      {
+        "word": "contaminate",
+        "phon": "/kən'tæmɪneɪt/",
+        "pos": "v.",
+        "cn": "弄脏",
+        "eg": ""
+      },
+      {
+        "word": "provocation",
+        "phon": "/,prɒvə'keɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "惹怒",
+        "eg": ""
+      },
+      {
+        "word": "spider",
+        "phon": "/'spaɪdə/",
+        "pos": "n.",
+        "cn": "蜘蛛",
+        "eg": ""
+      },
+      {
+        "word": "wasp",
+        "phon": "/wɑːsp/",
+        "pos": "n.",
+        "cn": "黄蜂",
+        "eg": "A beekeeper opened a hive while a wasp hovered nearby."
+      },
+      {
+        "word": "moth",
+        "phon": "/mɔːθ/",
+        "pos": "n.",
+        "cn": "飞蛾",
+        "eg": ""
+      },
+      {
+        "word": "ant",
+        "phon": "/ænt/",
+        "pos": "n.",
+        "cn": "蚂蚁",
+        "eg": ""
+      },
+      {
+        "word": "revulsion",
+        "phon": "/rɪ'vʌlʃ(ə)n/",
+        "pos": "n.",
+        "cn": "厌恶",
+        "eg": ""
+      },
+      {
+        "word": "horde",
+        "phon": "/hɔːrd/",
+        "pos": "n.",
+        "cn": "群",
+        "eg": ""
+      },
+      {
+        "word": "uncanny",
+        "phon": "/ʌn'kæni/",
+        "pos": "a.",
+        "cn": "神秘的，不可思议的",
+        "eg": ""
+      },
+      {
+        "word": "erase",
+        "phon": "/ɪ'reɪz/",
+        "pos": "v.",
+        "cn": "擦，抹去",
+        "eg": ""
+      },
+      {
+        "word": "prayingmantis",
+        "phon": "",
+        "pos": "",
+        "cn": "螳螂",
+        "eg": ""
+      },
+      {
+        "word": "entranced",
+        "phon": "",
+        "pos": "a.",
+        "cn": "出神的",
+        "eg": ""
+      },
+      {
+        "word": "beetle",
+        "phon": "/'biːt(ə)l/",
+        "pos": "n.",
+        "cn": "甲虫",
+        "eg": ""
+      },
+      {
+        "word": "sheltered",
+        "phon": "/'ʃeltərd/",
+        "pos": "a.",
+        "cn": "伤不着的，无危险的",
+        "eg": ""
+      },
+      {
+        "word": "luscious",
+        "phon": "/'lʌʃəs/",
+        "pos": "a.",
+        "cn": "甘美的",
+        "eg": ""
+      },
+      {
+        "word": "cluster",
+        "phon": "/'klʌstər/",
+        "pos": "n.",
+        "cn": "一簇，一群",
+        "eg": ""
+      },
+      {
+        "word": "aphid",
+        "phon": "/'eɪfɪd/",
+        "pos": "n.",
+        "cn": "蚜虫",
+        "eg": ""
+      },
+      {
+        "word": "underside",
+        "phon": "/'ʌndəsaɪd/",
+        "pos": "n.",
+        "cn": "底面，下侧",
+        "eg": ""
+      },
+      {
+        "word": "colony",
+        "phon": "/'kɑːləni/",
+        "pos": "n.",
+        "cn": "一群",
+        "eg": ""
+      },
+      {
+        "word": "sticky",
+        "phon": "/'stɪki/",
+        "pos": "a.",
+        "cn": "粘的",
+        "eg": ""
+      },
+      {
+        "word": "scurry",
+        "phon": "/'skɜːri/",
+        "pos": "v.",
+        "cn": "小步跑",
+        "eg": ""
+      },
+      {
+        "word": "swarm",
+        "phon": "/swɔːrm/",
+        "pos": "v.",
+        "cn": "聚集",
+        "eg": ""
+      },
+      {
+        "word": "ingenuity",
+        "phon": "/,ɪndʒɪ'njuːɪtɪ/",
+        "pos": "n.",
+        "cn": "机灵",
+        "eg": ""
+      },
+      {
+        "word": "astronomy",
+        "phon": "/ə'strɑːnəmi/",
+        "pos": "n.",
+        "cn": "天文学",
+        "eg": ""
+      },
+      {
+        "word": "relative",
+        "phon": "/'relətɪv/",
+        "pos": "a.",
+        "cn": "相对的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "whether...or",
+        "explain": "whether ... or ... 表「无论……还是……」；whether to do 表「是否做」。",
+        "examples": [
+          "They debated whether to carry extra fuel or reduce weight. （他们争论是带额外燃料还是减轻负重。）",
+          "It is hard to say whether instinct or cleverness won the day. （很难说本能还是机灵占了上风。）"
+        ]
+      },
+      {
+        "point": "疑问词 + to do",
+        "explain": "know/decide/wonder + 疑问词 + to do 作宾语。",
+        "examples": [
+          "It is hard to say whether instinct or cleverness won the day. （很难说本能还是机灵占了上风。）",
+          "The bees hesitated, unsure whether to attack. （蜜蜂犹豫了，不知是否该进攻。）"
+        ]
+      }
+    ],
+    "tips": "①whether...or；②疑问词 + to do。"
+  },
+  {
+    "book": 3,
+    "lesson": 55,
+    "title": "From the earth: Greetings",
+    "titleCn": "来自地球的问候",
+    "scene": "射电望远镜扫描天空寻找其他文明，来自地球的问候已送入宇宙深处，迄今未探测到智慧信号，但这项工作已教会人类许多关于宇宙的知识。本课语法重点是现在完成时与 it 形式主语。",
+    "grammarTags": [
+      "现在完成时",
+      "it 形式主语"
+    ],
+    "words": [
+      {
+        "word": "aphid",
+        "phon": "/'eɪfɪd/",
+        "pos": "n.",
+        "cn": "蚜虫",
+        "eg": ""
+      },
+      {
+        "word": "underside",
+        "phon": "/'ʌndəsaɪd/",
+        "pos": "n.",
+        "cn": "底面，下侧",
+        "eg": ""
+      },
+      {
+        "word": "colony",
+        "phon": "/'kɑːləni/",
+        "pos": "n.",
+        "cn": "一群",
+        "eg": ""
+      },
+      {
+        "word": "sticky",
+        "phon": "/'stɪki/",
+        "pos": "a.",
+        "cn": "粘的",
+        "eg": ""
+      },
+      {
+        "word": "scurry",
+        "phon": "/'skɜːri/",
+        "pos": "v.",
+        "cn": "小步跑",
+        "eg": ""
+      },
+      {
+        "word": "swarm",
+        "phon": "/swɔːrm/",
+        "pos": "v.",
+        "cn": "聚集",
+        "eg": ""
+      },
+      {
+        "word": "ingenuity",
+        "phon": "/,ɪndʒɪ'njuːɪtɪ/",
+        "pos": "n.",
+        "cn": "机灵",
+        "eg": ""
+      },
+      {
+        "word": "astronomy",
+        "phon": "/ə'strɑːnəmi/",
+        "pos": "n.",
+        "cn": "天文学",
+        "eg": ""
+      },
+      {
+        "word": "relative",
+        "phon": "/'relətɪv/",
+        "pos": "a.",
+        "cn": "相对的",
+        "eg": ""
+      },
+      {
+        "word": "infinitely",
+        "phon": "/'ɪnfɪnɪtlɪ/",
+        "pos": "ad.",
+        "cn": "无限地，无穷地",
+        "eg": ""
+      },
+      {
+        "word": "solar",
+        "phon": "/'səʊlə/",
+        "pos": "a.",
+        "cn": "太阳系的",
+        "eg": ""
+      },
+      {
+        "word": "Venus",
+        "phon": "/'viːnəs/",
+        "pos": "n.",
+        "cn": "金星",
+        "eg": ""
+      },
+      {
+        "word": "Mars",
+        "phon": "/mɑːz/",
+        "pos": "n.",
+        "cn": "火星",
+        "eg": ""
+      },
+      {
+        "word": "orbit",
+        "phon": "/'ɔːrbɪt/",
+        "pos": "n.",
+        "cn": "运行轨道",
+        "eg": ""
+      },
+      {
+        "word": "astronomical",
+        "phon": "/ˌæstrə'nɑːmɪkl/",
+        "pos": "a.",
+        "cn": "天文学的",
+        "eg": ""
+      },
+      {
+        "word": "generate",
+        "phon": "/'dʒenəreɪt/",
+        "pos": "v.",
+        "cn": "产生",
+        "eg": ""
+      },
+      {
+        "word": "particle",
+        "phon": "/'pɑːrtɪkl/",
+        "pos": "n.",
+        "cn": "微粒，粒子",
+        "eg": ""
+      },
+      {
+        "word": "Jupiter",
+        "phon": "/'dʒuːpɪtər/",
+        "pos": "n.",
+        "cn": "木星",
+        "eg": ""
+      },
+      {
+        "word": "blot",
+        "phon": "/blɒt/",
+        "pos": "v.",
+        "cn": "遮暗",
+        "eg": ""
+      },
+      {
+        "word": "analyse",
+        "phon": "/'æn(ə)laɪz/",
+        "pos": "v.",
+        "cn": "分析",
+        "eg": ""
+      },
+      {
+        "word": "bacteria",
+        "phon": "/bæk'tɪriə/",
+        "pos": "n.",
+        "cn": "细菌",
+        "eg": ""
+      },
+      {
+        "word": "oxygen",
+        "phon": "/'ɑːksɪdʒən/",
+        "pos": "n.",
+        "cn": "氧气",
+        "eg": ""
+      },
+      {
+        "word": "realm",
+        "phon": "/relm/",
+        "pos": "n.",
+        "cn": "领域",
+        "eg": ""
+      },
+      {
+        "word": "endeavour",
+        "phon": "",
+        "pos": "n.",
+        "cn": "努力",
+        "eg": ""
+      },
+      {
+        "word": "boundary",
+        "phon": "/'baundri/",
+        "pos": "n.",
+        "cn": "界线；边界",
+        "eg": ""
+      },
+      {
+        "word": "pump",
+        "phon": "/pʌmp/",
+        "pos": "v.",
+        "cn": "用泵抽",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时",
+        "explain": "谈论“到目前为止人们的普遍经验”用现在完成时，如 have formed、have never had the chance。易错点：few/most of us 等作主语时注意谓语用 have。",
+        "examples": [
+          "Most of us have formed an unrealistic picture of island life. （我们大多数人对荒岛生活形成了不切实际的想象。）",
+          "Few of us have ever had the chance to test it. （我们中很少有人有机会验证它。）"
+        ]
+      },
+      {
+        "point": "it 形式主语",
+        "explain": "It is + adj. + to do / that 从句，it 作形式主语。",
+        "examples": [
+          "It is not easy to explain why a single line makes one person laugh. （很难解释为何一句话有人捧腹有人皱眉。）",
+          "It is worth trying, however slight the hope. （希望再小也值得尝试。）"
+        ]
+      }
+    ],
+    "tips": "①现在完成时；②it 形式主语。"
+  },
+  {
+    "book": 3,
+    "lesson": 56,
+    "title": "Our neighbour, the river",
+    "titleCn": "邻居是条河",
+    "scene": "泰晤士河大多时候静静流淌，坏年景却可能威胁全城；每年春天人们观察水位、准备沙袋，一场暴雨就能淹地下室，城市依赖这条河也惧怕它的洪水。本课语法重点是 would 表过去习惯与 could 表过去可能。",
+    "grammarTags": [
+      "would 表过去习惯",
+      "could 表过去可能"
+    ],
+    "words": [
+      {
+        "word": "flood",
+        "phon": "/flʌd/",
+        "pos": "v.",
+        "cn": "充满水",
+        "eg": "A single storm could flood basements and block roads."
+      },
+      {
+        "word": "blot",
+        "phon": "/blɒt/",
+        "pos": "v.",
+        "cn": "遮暗",
+        "eg": ""
+      },
+      {
+        "word": "analyse",
+        "phon": "/'æn(ə)laɪz/",
+        "pos": "v.",
+        "cn": "分析",
+        "eg": ""
+      },
+      {
+        "word": "bacteria",
+        "phon": "/bæk'tɪriə/",
+        "pos": "n.",
+        "cn": "细菌",
+        "eg": ""
+      },
+      {
+        "word": "oxygen",
+        "phon": "/'ɑːksɪdʒən/",
+        "pos": "n.",
+        "cn": "氧气",
+        "eg": ""
+      },
+      {
+        "word": "realm",
+        "phon": "/relm/",
+        "pos": "n.",
+        "cn": "领域",
+        "eg": ""
+      },
+      {
+        "word": "endeavour",
+        "phon": "",
+        "pos": "n.",
+        "cn": "努力",
+        "eg": ""
+      },
+      {
+        "word": "boundary",
+        "phon": "/'baundri/",
+        "pos": "n.",
+        "cn": "界线；边界",
+        "eg": ""
+      },
+      {
+        "word": "pump",
+        "phon": "/pʌmp/",
+        "pos": "v.",
+        "cn": "用泵抽",
+        "eg": "Pumps ran all night, but the river could do great damage before it fell."
+      },
+      {
+        "word": "overtake",
+        "phon": "/əʊvə'teɪk/",
+        "pos": "v.",
+        "cn": "(坏天气、麻烦等)突然降临",
+        "eg": ""
+      },
+      {
+        "word": "backwater",
+        "phon": "/'bækwɔːtə/",
+        "pos": "n.",
+        "cn": "回水河汊",
+        "eg": ""
+      },
+      {
+        "word": "predecessor",
+        "phon": "/'predəsesər/",
+        "pos": "n.",
+        "cn": "前任",
+        "eg": ""
+      },
+      {
+        "word": "meadow",
+        "phon": "/'medəʊ/",
+        "pos": "n.",
+        "cn": "草地，草场",
+        "eg": ""
+      },
+      {
+        "word": "crown",
+        "phon": "/kraun/",
+        "pos": "v.",
+        "cn": "给…戴花环",
+        "eg": ""
+      },
+      {
+        "word": "holly",
+        "phon": "/'hɒlɪ/",
+        "pos": "n.",
+        "cn": "一种冬青植物",
+        "eg": ""
+      },
+      {
+        "word": "wreath",
+        "phon": "/riːθ/",
+        "pos": "n.",
+        "cn": "花环",
+        "eg": ""
+      },
+      {
+        "word": "occurrence",
+        "phon": "/ə'kʌr(ə)ns/",
+        "pos": "n.",
+        "cn": "偶发事件",
+        "eg": ""
+      },
+      {
+        "word": "proportion",
+        "phon": "/prə'pɔːrʃn/",
+        "pos": "n.",
+        "cn": "部分",
+        "eg": ""
+      },
+      {
+        "word": "site",
+        "phon": "/saɪt/",
+        "pos": "v.",
+        "cn": "使位于",
+        "eg": ""
+      },
+      {
+        "word": "spell",
+        "phon": "/spel/",
+        "pos": "v.",
+        "cn": "招致，带来",
+        "eg": ""
+      },
+      {
+        "word": "stall",
+        "phon": "/stɔːl/",
+        "pos": "n.",
+        "cn": "牲口棚",
+        "eg": ""
+      },
+      {
+        "word": "attic",
+        "phon": "/'ætɪk/",
+        "pos": "n.",
+        "cn": "顶楼",
+        "eg": ""
+      },
+      {
+        "word": "sweeping",
+        "phon": "/'swiːpɪŋ/",
+        "pos": "a.",
+        "cn": "范围广大的",
+        "eg": ""
+      },
+      {
+        "word": "critical",
+        "phon": "/'krɪtɪk(ə)l/",
+        "pos": "a.",
+        "cn": "危急的",
+        "eg": ""
+      },
+      {
+        "word": "juncture",
+        "phon": "/'dʒʌŋktʃə/",
+        "pos": "n.",
+        "cn": "时刻，关头",
+        "eg": ""
+      },
+      {
+        "word": "raft",
+        "phon": "/ræft/",
+        "pos": "n.",
+        "cn": "木筏",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "would 表过去习惯",
+        "explain": "would 表过去反复发生的动作；不用于 be 表状态。",
+        "examples": [
+          "Every Christmas he would drive an old carriage through the streets. （每年圣诞节他都驾旧马车穿街过巷。）",
+          "People would watch the river level every spring. （每年春天人们都会观察水位。）"
+        ]
+      },
+      {
+        "point": "could 表过去可能",
+        "explain": "could 表过去可能性。",
+        "examples": [
+          "In the worst years water could burst the embankment. （最糟的年头水会冲垮堤岸。）",
+          "A single storm could flood basements and block roads. （一场暴雨就能淹地下室、堵道路。）"
+        ]
+      }
+    ],
+    "tips": "①would 表过去习惯；②could 表过去可能。"
+  },
+  {
+    "book": 3,
+    "lesson": 57,
+    "title": "Back in the old country",
+    "titleCn": "重返故里",
+    "scene": "侨居四十年后老人回到故乡，房子已拆、朋友不在，拐角集市变成停车场，他意识到回到的只是记忆中的地方。本课语法重点是现在完成时与一般过去时及 used to。",
+    "grammarTags": [
+      "现在完成时 vs 一般过去时",
+      "used to"
+    ],
+    "words": [
+      {
+        "word": "site",
+        "phon": "/saɪt/",
+        "pos": "v.",
+        "cn": "使位于",
+        "eg": ""
+      },
+      {
+        "word": "spell",
+        "phon": "/spel/",
+        "pos": "v.",
+        "cn": "招致，带来",
+        "eg": ""
+      },
+      {
+        "word": "stall",
+        "phon": "/stɔːl/",
+        "pos": "n.",
+        "cn": "牲口棚",
+        "eg": ""
+      },
+      {
+        "word": "attic",
+        "phon": "/'ætɪk/",
+        "pos": "n.",
+        "cn": "顶楼",
+        "eg": ""
+      },
+      {
+        "word": "sweeping",
+        "phon": "/'swiːpɪŋ/",
+        "pos": "a.",
+        "cn": "范围广大的",
+        "eg": ""
+      },
+      {
+        "word": "critical",
+        "phon": "/'krɪtɪk(ə)l/",
+        "pos": "a.",
+        "cn": "危急的",
+        "eg": ""
+      },
+      {
+        "word": "juncture",
+        "phon": "/'dʒʌŋktʃə/",
+        "pos": "n.",
+        "cn": "时刻，关头",
+        "eg": ""
+      },
+      {
+        "word": "raft",
+        "phon": "/ræft/",
+        "pos": "n.",
+        "cn": "木筏",
+        "eg": ""
+      },
+      {
+        "word": "unduly",
+        "phon": "/'ʌn'djuːli/",
+        "pos": "ad.",
+        "cn": "过度地",
+        "eg": ""
+      },
+      {
+        "word": "foundations",
+        "phon": "",
+        "pos": "n.",
+        "cn": "地基",
+        "eg": ""
+      },
+      {
+        "word": "stoutly",
+        "phon": "/'stautli/",
+        "pos": "ad.",
+        "cn": "牢固地，粗壮的",
+        "eg": ""
+      },
+      {
+        "word": "submerge",
+        "phon": "/səb'mɜːrdʒ/",
+        "pos": "v.",
+        "cn": "浸没",
+        "eg": ""
+      },
+      {
+        "word": "grapple",
+        "phon": "/'græp(ə)l/",
+        "pos": "v.",
+        "cn": "抓住",
+        "eg": ""
+      },
+      {
+        "word": "alien",
+        "phon": "/'eɪliən/",
+        "pos": "a.",
+        "cn": "异国的，外国的",
+        "eg": ""
+      },
+      {
+        "word": "emigrate",
+        "phon": "/'emɪgreɪt/",
+        "pos": "v.",
+        "cn": "移居(国外)",
+        "eg": ""
+      },
+      {
+        "word": "absorb",
+        "phon": "/əb'sɔːrb/",
+        "pos": "v.",
+        "cn": "全神贯注于",
+        "eg": ""
+      },
+      {
+        "word": "embedded",
+        "phon": "",
+        "pos": "a.",
+        "cn": "扎牢的",
+        "eg": ""
+      },
+      {
+        "word": "mortally",
+        "phon": "/-tәli/",
+        "pos": "ad.",
+        "cn": "致命地",
+        "eg": ""
+      },
+      {
+        "word": "comprehensive",
+        "phon": "/ˌkɑːmprɪ'hensɪv/",
+        "pos": "a.",
+        "cn": "广泛的；丰富的",
+        "eg": ""
+      },
+      {
+        "word": "milestone",
+        "phon": "/'mailstəun/",
+        "pos": "n.",
+        "cn": "里程碑",
+        "eg": ""
+      },
+      {
+        "word": "territory",
+        "phon": "/'terətɔːri/",
+        "pos": "n.",
+        "cn": "领地；地区",
+        "eg": ""
+      },
+      {
+        "word": "milometer",
+        "phon": "/mai'lɔmitә/",
+        "pos": "n.",
+        "cn": "计程表",
+        "eg": ""
+      },
+      {
+        "word": "spire",
+        "phon": "/spaɪə/",
+        "pos": "n.",
+        "cn": "(教堂的)塔尖",
+        "eg": ""
+      },
+      {
+        "word": "retrace",
+        "phon": "/ri'treis/",
+        "pos": "v.",
+        "cn": "返回，重走",
+        "eg": ""
+      },
+      {
+        "word": "stumble",
+        "phon": "/'stʌmbl/",
+        "pos": "v.",
+        "cn": "趔趄地走",
+        "eg": ""
+      },
+      {
+        "word": "horizon",
+        "phon": "/hə'raɪzn/",
+        "pos": "n.",
+        "cn": "地平线",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "现在完成时 vs 一般过去时",
+        "explain": "现在完成时强调与现在的联系；一般过去时叙述已结束的过去。",
+        "examples": [
+          "He had dreamed of this journey for decades. （他梦想这次归来已数十年。）",
+          "The house where he used to live had been pulled down. （他过去住的房子已拆除。）"
+        ]
+      },
+      {
+        "point": "used to",
+        "explain": "本课重点语法：used to。请结合课文与题库理解用法。",
+        "examples": [
+          "（见课文相关例句。）",
+          "（见题库与句型转换练习。）"
+        ]
+      }
+    ],
+    "tips": "①过去习惯现已不再用 used to do，否定 didn't use to；②习惯于用 be used to doing；③would 表过去反复动作但不用于 be。"
+  },
+  {
+    "book": 3,
+    "lesson": 58,
+    "title": "Collecting",
+    "titleCn": "收藏",
+    "scene": "收藏本可成为愉快爱好，也可能变成痴迷：有人把房间塞满火柴盒和旧报纸，一件也舍不得扔，访客只能从箱堆间挤过去。本课语法重点是动名词与 be obsessed with。",
+    "grammarTags": [
+      "动名词",
+      "be obsessed with"
+    ],
+    "words": [
+      {
+        "word": "comprehensive",
+        "phon": "/ˌkɑːmprɪ'hensɪv/",
+        "pos": "a.",
+        "cn": "广泛的；丰富的",
+        "eg": ""
+      },
+      {
+        "word": "milestone",
+        "phon": "/'mailstəun/",
+        "pos": "n.",
+        "cn": "里程碑",
+        "eg": ""
+      },
+      {
+        "word": "territory",
+        "phon": "/'terətɔːri/",
+        "pos": "n.",
+        "cn": "领地；地区",
+        "eg": ""
+      },
+      {
+        "word": "milometer",
+        "phon": "/mai'lɔmitә/",
+        "pos": "n.",
+        "cn": "计程表",
+        "eg": ""
+      },
+      {
+        "word": "spire",
+        "phon": "/spaɪə/",
+        "pos": "n.",
+        "cn": "(教堂的)塔尖",
+        "eg": ""
+      },
+      {
+        "word": "retrace",
+        "phon": "/ri'treis/",
+        "pos": "v.",
+        "cn": "返回，重走",
+        "eg": ""
+      },
+      {
+        "word": "stumble",
+        "phon": "/'stʌmbl/",
+        "pos": "v.",
+        "cn": "趔趄地走",
+        "eg": ""
+      },
+      {
+        "word": "horizon",
+        "phon": "/hə'raɪzn/",
+        "pos": "n.",
+        "cn": "地平线",
+        "eg": ""
+      },
+      {
+        "word": "reservoir",
+        "phon": "/'rezərvwɑːr/",
+        "pos": "n.",
+        "cn": "水库",
+        "eg": ""
+      },
+      {
+        "word": "lurk",
+        "phon": "/lɜːk/",
+        "pos": "v.",
+        "cn": "潜藏",
+        "eg": ""
+      },
+      {
+        "word": "hinder",
+        "phon": "/'hɪndər/",
+        "pos": "v.",
+        "cn": "妨碍",
+        "eg": ""
+      },
+      {
+        "word": "fingerprint",
+        "phon": "/'fɪŋgəprɪnt/",
+        "pos": "n.",
+        "cn": "指纹",
+        "eg": ""
+      },
+      {
+        "word": "chaos",
+        "phon": "/'keɪɑːs/",
+        "pos": "n.",
+        "cn": "混乱，无秩序",
+        "eg": ""
+      },
+      {
+        "word": "inconceivable",
+        "phon": "/ɪnkən'siːvəb(ə)l/",
+        "pos": "a.",
+        "cn": "不可思议的",
+        "eg": ""
+      },
+      {
+        "word": "veritable",
+        "phon": "/'veritəbl/",
+        "pos": "a.",
+        "cn": "真正的，地地道道的",
+        "eg": ""
+      },
+      {
+        "word": "magpie",
+        "phon": "/'mægpaɪ/",
+        "pos": "n.",
+        "cn": "喜欢收藏物品的人",
+        "eg": ""
+      },
+      {
+        "word": "toss",
+        "phon": "/tɒs/",
+        "pos": "v.",
+        "cn": "扔",
+        "eg": ""
+      },
+      {
+        "word": "discard",
+        "phon": "/dɪs'kɑːrd/",
+        "pos": "v.",
+        "cn": "丢弃",
+        "eg": ""
+      },
+      {
+        "word": "constable",
+        "phon": "/'kʌnstəb(ə)l; 'kɒn-/",
+        "pos": "n.",
+        "cn": "警察",
+        "eg": ""
+      },
+      {
+        "word": "ransack",
+        "phon": "/'rænsæk/",
+        "pos": "v.",
+        "cn": "洗劫",
+        "eg": ""
+      },
+      {
+        "word": "balcony",
+        "phon": "/'bælkəni/",
+        "pos": "n.",
+        "cn": "阳台",
+        "eg": ""
+      },
+      {
+        "word": "fussy",
+        "phon": "/'fʌsɪ/",
+        "pos": "a.",
+        "cn": "大惊小怪的，小题大做的",
+        "eg": ""
+      },
+      {
+        "word": "amass",
+        "phon": "/ə'mæs/",
+        "pos": "v.",
+        "cn": "积聚，收集",
+        "eg": ""
+      },
+      {
+        "word": "indiscriminate",
+        "phon": "/ˌindis'kriminət/",
+        "pos": "a.",
+        "cn": "不加选择的",
+        "eg": ""
+      },
+      {
+        "word": "clutter",
+        "phon": "/'klʌtə/",
+        "pos": "v.",
+        "cn": "一堆杂物;乱糟糟地堆满",
+        "eg": ""
+      },
+      {
+        "word": "string",
+        "phon": "/strɪŋ/",
+        "pos": "n.",
+        "cn": "细线, 细绳",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "动名词",
+        "explain": "动名词 doing 作主语、宾语或介词宾语。",
+        "examples": [
+          "Collecting can be a pleasant hobby. （收藏可以是愉快的爱好。）",
+          "He became obsessed with finding one more piece. （他痴迷于再添一件。）"
+        ]
+      },
+      {
+        "point": "be obsessed with",
+        "explain": "be obsessed with doing/sth. 表「痴迷于」。",
+        "examples": [
+          "He became obsessed with finding one more piece for his piles. （他痴迷于再往堆里添一件。）",
+          "Collecting can also become an obsession. （收藏也可能变成痴迷。）"
+        ]
+      }
+    ],
+    "tips": "①动名词；②be obsessed with。"
+  },
+  {
+    "book": 3,
+    "lesson": 59,
+    "title": "A dream of freedom",
+    "titleCn": "自由的梦",
+    "scene": "船上囚犯一夜又一夜梦想自由，一晚梦见穿过树林奔向家，激动得翻下铺位摔断胳膊，仍在牢中，自由的梦来得突然去得也突然。本课语法重点是过去完成时与过去完成进行时。",
+    "grammarTags": [
+      "过去完成时",
+      "过去完成进行时"
+    ],
+    "words": [
+      {
+        "word": "discard",
+        "phon": "/dɪs'kɑːrd/",
+        "pos": "v.",
+        "cn": "丢弃",
+        "eg": ""
+      },
+      {
+        "word": "constable",
+        "phon": "/'kʌnstəb(ə)l; 'kɒn-/",
+        "pos": "n.",
+        "cn": "警察",
+        "eg": ""
+      },
+      {
+        "word": "ransack",
+        "phon": "/'rænsæk/",
+        "pos": "v.",
+        "cn": "洗劫",
+        "eg": ""
+      },
+      {
+        "word": "balcony",
+        "phon": "/'bælkəni/",
+        "pos": "n.",
+        "cn": "阳台",
+        "eg": ""
+      },
+      {
+        "word": "fussy",
+        "phon": "/'fʌsɪ/",
+        "pos": "a.",
+        "cn": "大惊小怪的，小题大做的",
+        "eg": ""
+      },
+      {
+        "word": "amass",
+        "phon": "/ə'mæs/",
+        "pos": "v.",
+        "cn": "积聚，收集",
+        "eg": ""
+      },
+      {
+        "word": "indiscriminate",
+        "phon": "/ˌindis'kriminət/",
+        "pos": "a.",
+        "cn": "不加选择的",
+        "eg": ""
+      },
+      {
+        "word": "clutter",
+        "phon": "/'klʌtə/",
+        "pos": "v.",
+        "cn": "一堆杂物;乱糟糟地堆满",
+        "eg": ""
+      },
+      {
+        "word": "string",
+        "phon": "/strɪŋ/",
+        "pos": "n.",
+        "cn": "细线, 细绳",
+        "eg": ""
+      },
+      {
+        "word": "requisite",
+        "phon": "/'rekwizit/",
+        "pos": "n.",
+        "cn": "必需品",
+        "eg": ""
+      },
+      {
+        "word": "mania",
+        "phon": "/'meɪniə/",
+        "pos": "n.",
+        "cn": "癖好,狂热",
+        "eg": ""
+      },
+      {
+        "word": "sketch",
+        "phon": "/sketʃ/",
+        "pos": "n.",
+        "cn": "草图，图样",
+        "eg": ""
+      },
+      {
+        "word": "remote",
+        "phon": "/rɪ'mout/",
+        "pos": "a.",
+        "cn": "(机会，可能性)极少的，小的",
+        "eg": ""
+      },
+      {
+        "word": "strong-minded",
+        "phon": "",
+        "pos": "a.",
+        "cn": "意志坚强的",
+        "eg": ""
+      },
+      {
+        "word": "relaxation",
+        "phon": "/riːlæk'seɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "休息，娱乐",
+        "eg": ""
+      },
+      {
+        "word": "verify",
+        "phon": "/'verɪfaɪ/",
+        "pos": "v.",
+        "cn": "查证，核实",
+        "eg": ""
+      },
+      {
+        "word": "bearing",
+        "phon": "/'beərɪŋ/",
+        "pos": "n.",
+        "cn": "关系，联系",
+        "eg": ""
+      },
+      {
+        "word": "like-minded",
+        "phon": "",
+        "pos": "a.",
+        "cn": "志趣相投的",
+        "eg": ""
+      },
+      {
+        "word": "specimen",
+        "phon": "/'spesɪmən/",
+        "pos": "n.",
+        "cn": "标本",
+        "eg": ""
+      },
+      {
+        "word": "constructively",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "有益的，积极的",
+        "eg": ""
+      },
+      {
+        "word": "contented",
+        "phon": "/kən'tentɪd/",
+        "pos": "a.",
+        "cn": "心满意足的",
+        "eg": ""
+      },
+      {
+        "word": "boredom",
+        "phon": "/'bɔːdəm/",
+        "pos": "n.",
+        "cn": "烦恼，无聊",
+        "eg": ""
+      },
+      {
+        "word": "punctuality",
+        "phon": "/ˌpʌŋktju'æləti/",
+        "pos": "n.",
+        "cn": "准时",
+        "eg": ""
+      },
+      {
+        "word": "rural",
+        "phon": "/'rurəl/",
+        "pos": "ad.",
+        "cn": "农村的",
+        "eg": ""
+      },
+      {
+        "word": "disregard",
+        "phon": "/ˌdisri'gɑːd/",
+        "pos": "v.",
+        "cn": "不顾，无视",
+        "eg": ""
+      },
+      {
+        "word": "intellectual",
+        "phon": "/,ɪntə'lektʃʊəl; -tjʊəl/",
+        "pos": "n.",
+        "cn": "知识分子",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "海难叙事中，“出事之前已经发生的事”用过去完成时，如 had been described、had set out。易错点：主线事件（相撞、下沉）用一般过去时，只有更早一层的动作才用 had done。",
+        "examples": [
+          "The liner had been described as unsinkable before she set out. （启航之前，这艘班轮曾被描述为永不沉没。）",
+          "By the time the lifeboats were lowered, the ship had begun to sink. （放下救生艇时，船已经开始下沉。）"
+        ]
+      },
+      {
+        "point": "过去完成进行时",
+        "explain": "had been doing 表过去某时点之前一直在进行的动作。",
+        "examples": [
+          "Workers had been restoring the vessel for months when a blaze broke out. （修缮持续数月后突发大火。）",
+          "He had been rehearsing for weeks before opening night. （首演前他已排练数周。）"
+        ]
+      }
+    ],
+    "tips": "①had done 表「过去的过去」；②常与 by the time、before 连用；③主线用一般过去时，更早一层用 had done。"
+  },
+  {
+    "book": 3,
+    "lesson": 60,
+    "title": "Too early and too late",
+    "titleCn": "太早和太晚",
+    "scene": "到站时间充裕却在站台散步，以为还早不急着检票，发车铃响后狂奔却差几秒没赶上——火车比时刻表早开了一分钟，既太早又太晚。本课语法重点是 too...to 与过去完成时。",
+    "grammarTags": [
+      "too...to",
+      "过去完成时"
+    ],
+    "words": [
+      {
+        "word": "punctual",
+        "phon": "/'pʌŋktʃuəl/",
+        "pos": "a.",
+        "cn": "准时的",
+        "eg": "Missing it by seconds taught me a lesson in punctuality."
+      },
+      {
+        "word": "specimen",
+        "phon": "/'spesɪmən/",
+        "pos": "n.",
+        "cn": "标本",
+        "eg": ""
+      },
+      {
+        "word": "constructively",
+        "phon": "",
+        "pos": "ad.",
+        "cn": "有益的，积极的",
+        "eg": ""
+      },
+      {
+        "word": "contented",
+        "phon": "/kən'tentɪd/",
+        "pos": "a.",
+        "cn": "心满意足的",
+        "eg": ""
+      },
+      {
+        "word": "boredom",
+        "phon": "/'bɔːdəm/",
+        "pos": "n.",
+        "cn": "烦恼，无聊",
+        "eg": ""
+      },
+      {
+        "word": "punctuality",
+        "phon": "/ˌpʌŋktju'æləti/",
+        "pos": "n.",
+        "cn": "准时",
+        "eg": "Missing it by seconds taught me a lesson in punctuality."
+      },
+      {
+        "word": "rural",
+        "phon": "/'rurəl/",
+        "pos": "ad.",
+        "cn": "农村的",
+        "eg": ""
+      },
+      {
+        "word": "disregard",
+        "phon": "/ˌdisri'gɑːd/",
+        "pos": "v.",
+        "cn": "不顾，无视",
+        "eg": ""
+      },
+      {
+        "word": "intellectual",
+        "phon": "/,ɪntə'lektʃʊəl; -tjʊəl/",
+        "pos": "n.",
+        "cn": "知识分子",
+        "eg": ""
+      },
+      {
+        "word": "abstruse",
+        "phon": "/æb'struːs/",
+        "pos": "a.",
+        "cn": "深奥的",
+        "eg": ""
+      },
+      {
+        "word": "coordinate",
+        "phon": "/kəʊ'ɔ:dɪneɪt/",
+        "pos": "v.",
+        "cn": "协调",
+        "eg": ""
+      },
+      {
+        "word": "reproach",
+        "phon": "/rɪ'proutʃ/",
+        "pos": "v.",
+        "cn": "责备",
+        "eg": ""
+      },
+      {
+        "word": "puncture",
+        "phon": "/'pʌŋktʃər/",
+        "pos": "v.",
+        "cn": "刺破(轮胎)",
+        "eg": ""
+      },
+      {
+        "word": "diversion",
+        "phon": "/daɪ'vɜːrʒn/",
+        "pos": "n.",
+        "cn": "改道，绕道",
+        "eg": ""
+      },
+      {
+        "word": "trial",
+        "phon": "/'traɪəl/",
+        "pos": "n.",
+        "cn": "讨厌的事、人",
+        "eg": ""
+      },
+      {
+        "word": "fraction",
+        "phon": "/'frækʃn/",
+        "pos": "n.",
+        "cn": "很小一点儿",
+        "eg": ""
+      },
+      {
+        "word": "flourish",
+        "phon": "/'flɜːrɪʃ/",
+        "pos": "n.",
+        "cn": "挥舞(打手势)",
+        "eg": ""
+      },
+      {
+        "word": "microscopic",
+        "phon": "/ˌmaɪkrə'skɑːpɪk/",
+        "pos": "a.",
+        "cn": "微小的",
+        "eg": ""
+      },
+      {
+        "word": "adamant",
+        "phon": "/'ædəmənt/",
+        "pos": "a.",
+        "cn": "坚定的，不动摇的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "too...to",
+        "explain": "too + 形容词 + to do 表「太……而不能……」。",
+        "examples": [
+          "The offer was too low to accept. （出价太低，无法接受。）",
+          "I was too late to catch the train. （太晚，赶不上火车了。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "海难叙事中，“出事之前已经发生的事”用过去完成时，如 had been described、had set out。易错点：主线事件（相撞、下沉）用一般过去时，只有更早一层的动作才用 had done。",
+        "examples": [
+          "The liner had been described as unsinkable before she set out. （启航之前，这艘班轮曾被描述为永不沉没。）",
+          "By the time the lifeboats were lowered, the ship had begun to sink. （放下救生艇时，船已经开始下沉。）"
+        ]
+      }
+    ],
+    "tips": "①too + 形容词 + to do 表「太……而不能」；②可与过去完成时连用表遗憾结果。"
+  }
+]

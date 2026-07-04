@@ -5,15 +5,123 @@
     "title": "The Greenwood Boys",
     "titleCn": "格林伍德少年合唱团",
     "scene": "一支走红的流行歌唱组合正在全国巡演，明天就要乘火车来到本地小镇。镇上的年轻歌迷早已按捺不住，打算涌到车站迎接偶像；乐队将在工人俱乐部连演数场，警察照例要为维持秩序忙上好几天。全文以“明天、未来五天”的日程展开，大量使用一般将来时和将来进行时（will do / will be doing）描述即将发生和按计划进行的事。",
-    "grammarTags": ["一般将来时", "将来进行时"],
+    "grammarTags": [
+      "一般将来时",
+      "将来进行时"
+    ],
     "words": [
-      {"word": "group", "phon": "/ɡruːp/", "pos": "n.", "cn": "小组，团体；乐队组合", "eg": "A group of tourists is standing outside the museum. 一群游客正站在博物馆外面。"},
-      {"word": "pop singer", "phon": "/pɒp ˈsɪŋə/", "pos": "n.", "cn": "流行歌手", "eg": "My cousin wants to be a pop singer. 我表弟想当一名流行歌手。"},
-      {"word": "club", "phon": "/klʌb/", "pos": "n.", "cn": "俱乐部", "eg": "He joined a chess club last month. 他上个月加入了一个国际象棋俱乐部。"},
-      {"word": "performance", "phon": "/pəˈfɔːməns/", "pos": "n.", "cn": "演出，表演", "eg": "Her performance last night was wonderful. 她昨晚的演出非常精彩。"},
-      {"word": "occasion", "phon": "/əˈkeɪʒən/", "pos": "n.", "cn": "场合，时刻", "eg": "We only wear these clothes on special occasions. 我们只在特殊场合才穿这些衣服。"},
-      {"word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达，抵达", "eg": "The train will arrive at six in the evening. 火车将于傍晚六点到达。"},
-      {"word": "order", "phon": "/ˈɔːdə/", "pos": "n.", "cn": "秩序；顺序", "eg": "The teacher asked the class to keep order. 老师要求全班保持秩序。"}
+      {
+        "word": "group",
+        "phon": "/ɡruːp/",
+        "pos": "n.",
+        "cn": "小组，团体；乐队组合",
+        "eg": "A group of tourists is standing outside the museum. 一群游客正站在博物馆外面。"
+      },
+      {
+        "word": "pop singer",
+        "phon": "/pɒp ˈsɪŋə/",
+        "pos": "n.",
+        "cn": "流行歌手",
+        "eg": "My cousin wants to be a pop singer. 我表弟想当一名流行歌手。"
+      },
+      {
+        "word": "club",
+        "phon": "/klʌb/",
+        "pos": "n.",
+        "cn": "俱乐部",
+        "eg": "He joined a chess club last month. 他上个月加入了一个国际象棋俱乐部。"
+      },
+      {
+        "word": "performance",
+        "phon": "/pəˈfɔːməns/",
+        "pos": "n.",
+        "cn": "演出，表演",
+        "eg": "Her performance last night was wonderful. 她昨晚的演出非常精彩。"
+      },
+      {
+        "word": "occasion",
+        "phon": "/əˈkeɪʒən/",
+        "pos": "n.",
+        "cn": "场合，时刻",
+        "eg": "We only wear these clothes on special occasions. 我们只在特殊场合才穿这些衣服。"
+      },
+      {
+        "word": "arrive",
+        "phon": "/əˈraɪv/",
+        "pos": "v.",
+        "cn": "到达，抵达",
+        "eg": "The train will arrive at six in the evening. 火车将于傍晚六点到达。"
+      },
+      {
+        "word": "order",
+        "phon": "/ˈɔːdə/",
+        "pos": "n.",
+        "cn": "秩序；顺序",
+        "eg": "The teacher asked the class to keep order. 老师要求全班保持秩序。"
+      },
+      {
+        "word": "weak",
+        "phon": "/wiːk/",
+        "pos": "a.",
+        "cn": "弱的",
+        "eg": ""
+      },
+      {
+        "word": "interrupt",
+        "phon": "/ˌɪntə'rʌpt/",
+        "pos": "v.",
+        "cn": "插话，打断",
+        "eg": ""
+      },
+      {
+        "word": "park",
+        "phon": "/pɑːk/",
+        "pos": "v.",
+        "cn": "停放(汽车)",
+        "eg": ""
+      },
+      {
+        "word": "traffic",
+        "phon": "/'træfɪk/",
+        "pos": "n.",
+        "cn": "交通",
+        "eg": ""
+      },
+      {
+        "word": "ticket",
+        "phon": "/'tɪkɪt/",
+        "pos": "n.",
+        "cn": "交通法规罚款单",
+        "eg": ""
+      },
+      {
+        "word": "note",
+        "phon": "/nəʊt/",
+        "pos": "n.",
+        "cn": "便条",
+        "eg": ""
+      },
+      {
+        "word": "area",
+        "phon": "/'eərɪə/",
+        "pos": "n.",
+        "cn": "地点",
+        "eg": ""
+      },
+      {
+        "word": "sign",
+        "phon": "/saɪn/",
+        "pos": "n.",
+        "cn": "指示牌",
+        "eg": ""
+      },
+      {
+        "word": "reminder",
+        "phon": "/rɪ'maɪndə/",
+        "pos": "n.",
+        "cn": "指示",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -48,16 +156,129 @@
     "title": "Do you speak English?",
     "titleCn": "你会讲英语吗？",
     "scene": "作者去年在法国南部自驾旅行时遇到一件趣事：离开一个小村庄后，他让一位挥手拦车的年轻人搭了便车。作者不太会法语，用法语打过招呼后两人一路沉默。快到目的地时，年轻人忽然一字一顿地用英语问他会不会讲英语——原来对方是英国人。文中大量使用过去完成时（had done）交代“上车之前、开口之前”已经发生的动作，体现动作先后。",
-    "grammarTags": ["过去完成时"],
+    "grammarTags": [
+      "过去完成时"
+    ],
     "words": [
-      {"word": "amusing", "phon": "/əˈmjuːzɪŋ/", "pos": "adj.", "cn": "好笑的，有趣的", "eg": "He told us an amusing story about his dog. 他给我们讲了一个关于他的狗的趣事。"},
-      {"word": "experience", "phon": "/ɪkˈspɪəriəns/", "pos": "n.", "cn": "经历；经验", "eg": "Working on the farm was a new experience for me. 在农场干活对我来说是一次新的经历。"},
-      {"word": "wave", "phon": "/weɪv/", "pos": "v.", "cn": "招手，挥手", "eg": "The children waved to us as the bus left. 汽车开走时，孩子们向我们挥手。"},
-      {"word": "lift", "phon": "/lɪft/", "pos": "n.", "cn": "搭便车", "eg": "Can you give me a lift to the airport? 你能让我搭车去机场吗？"},
-      {"word": "reply", "phon": "/rɪˈplaɪ/", "pos": "v.", "cn": "回答，答复", "eg": "She replied to my question with a smile. 她微笑着回答了我的问题。"},
-      {"word": "language", "phon": "/ˈlæŋɡwɪdʒ/", "pos": "n.", "cn": "语言", "eg": "How many languages can you speak? 你会说几种语言？"},
-      {"word": "journey", "phon": "/ˈdʒɜːni/", "pos": "n.", "cn": "旅行，旅程", "eg": "The journey to the mountain village took five hours. 去山村的旅程花了五个小时。"},
-      {"word": "apart from", "phon": "/əˈpɑːt frəm/", "pos": "phr.", "cn": "除……之外", "eg": "Apart from a little bread, we had nothing to eat. 除了一点面包，我们没有任何吃的。"}
+      {
+        "word": "amusing",
+        "phon": "/əˈmjuːzɪŋ/",
+        "pos": "adj.",
+        "cn": "好笑的，有趣的",
+        "eg": "He told us an amusing story about his dog. 他给我们讲了一个关于他的狗的趣事。"
+      },
+      {
+        "word": "experience",
+        "phon": "/ɪkˈspɪəriəns/",
+        "pos": "n.",
+        "cn": "经历；经验",
+        "eg": "Working on the farm was a new experience for me. 在农场干活对我来说是一次新的经历。"
+      },
+      {
+        "word": "wave",
+        "phon": "/weɪv/",
+        "pos": "v.",
+        "cn": "招手，挥手",
+        "eg": "The children waved to us as the bus left. 汽车开走时，孩子们向我们挥手。"
+      },
+      {
+        "word": "lift",
+        "phon": "/lɪft/",
+        "pos": "n.",
+        "cn": "搭便车",
+        "eg": "Can you give me a lift to the airport? 你能让我搭车去机场吗？"
+      },
+      {
+        "word": "reply",
+        "phon": "/rɪˈplaɪ/",
+        "pos": "v.",
+        "cn": "回答，答复",
+        "eg": "She replied to my question with a smile. 她微笑着回答了我的问题。"
+      },
+      {
+        "word": "language",
+        "phon": "/ˈlæŋɡwɪdʒ/",
+        "pos": "n.",
+        "cn": "语言",
+        "eg": "How many languages can you speak? 你会说几种语言？"
+      },
+      {
+        "word": "journey",
+        "phon": "/ˈdʒɜːni/",
+        "pos": "n.",
+        "cn": "旅行，旅程",
+        "eg": "The journey to the mountain village took five hours. 去山村的旅程花了五个小时。"
+      },
+      {
+        "word": "apart from",
+        "phon": "/əˈpɑːt frəm/",
+        "pos": "phr.",
+        "cn": "除……之外",
+        "eg": "Apart from a little bread, we had nothing to eat. 除了一点面包，我们没有任何吃的。"
+      },
+      {
+        "word": "fail",
+        "phon": "/feɪl/",
+        "pos": "v.",
+        "cn": "无视，忘记",
+        "eg": ""
+      },
+      {
+        "word": "obey",
+        "phon": "/ə(ʊ)'beɪ/",
+        "pos": "v.",
+        "cn": "服从",
+        "eg": ""
+      },
+      {
+        "word": "appear",
+        "phon": "/ə'pɪə/",
+        "pos": "v.",
+        "cn": "登场，扮演",
+        "eg": ""
+      },
+      {
+        "word": "stage",
+        "phon": "/steɪdʒ/",
+        "pos": "n.",
+        "cn": "舞台",
+        "eg": ""
+      },
+      {
+        "word": "bright",
+        "phon": "/braɪt/",
+        "pos": "a.",
+        "cn": "鲜艳的",
+        "eg": ""
+      },
+      {
+        "word": "stocking",
+        "phon": "/'stɒkɪŋ/",
+        "pos": "n.",
+        "cn": "(女用)长筒袜",
+        "eg": ""
+      },
+      {
+        "word": "sock",
+        "phon": "/sɒk/",
+        "pos": "n.",
+        "cn": "短袜",
+        "eg": ""
+      },
+      {
+        "word": "pub",
+        "phon": "/pʌb/",
+        "pos": "n.",
+        "cn": "小酒店",
+        "eg": ""
+      },
+      {
+        "word": "landlord",
+        "phon": "/'læn(d)lɔːd/",
+        "pos": "n.",
+        "cn": "店主",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -91,15 +312,122 @@
     "title": "Good news",
     "titleCn": "佳音",
     "scene": "公司业务不景气，已有二十人离职。秘书通知“我”老板要见面，“我”以为轮到自己被辞退，紧张地走进办公室。老板先大谈公司困难、付不起高薪，“我”正想开口辩解却被打断，没想到最后等来的竟是加薪的好消息。全文以转述为主：秘书说了什么、老板说了什么，全部用间接引语表达，动词时态相应后移（will→would，can→could）。",
-    "grammarTags": ["间接引语"],
+    "grammarTags": [
+      "间接引语"
+    ],
     "words": [
-      {"word": "secretary", "phon": "/ˈsekrətri/", "pos": "n.", "cn": "秘书", "eg": "The secretary asked me to wait outside. 秘书让我在外面等候。"},
-      {"word": "nervous", "phon": "/ˈnɜːvəs/", "pos": "adj.", "cn": "紧张的，不安的", "eg": "I always feel nervous before an exam. 考试前我总是感到紧张。"},
-      {"word": "afford", "phon": "/əˈfɔːd/", "pos": "v.", "cn": "负担得起，买得起", "eg": "We cannot afford such an expensive car. 我们买不起这么贵的车。"},
-      {"word": "weak", "phon": "/wiːk/", "pos": "adj.", "cn": "虚弱的，微弱的", "eg": "His voice was so weak that I could hardly hear him. 他的声音非常微弱，我几乎听不见。"},
-      {"word": "interrupt", "phon": "/ˌɪntəˈrʌpt/", "pos": "v.", "cn": "打断，插话", "eg": "Please do not interrupt me while I am speaking. 我讲话时请不要打断我。"},
-      {"word": "salary", "phon": "/ˈsæləri/", "pos": "n.", "cn": "薪水，工资", "eg": "He gets a good salary at the new company. 他在新公司薪水不错。"},
-      {"word": "firm", "phon": "/fɜːm/", "pos": "n.", "cn": "公司，商行", "eg": "My uncle works for a large firm in Shanghai. 我叔叔在上海一家大公司工作。"}
+      {
+        "word": "secretary",
+        "phon": "/ˈsekrətri/",
+        "pos": "n.",
+        "cn": "秘书",
+        "eg": "The secretary asked me to wait outside. 秘书让我在外面等候。"
+      },
+      {
+        "word": "nervous",
+        "phon": "/ˈnɜːvəs/",
+        "pos": "adj.",
+        "cn": "紧张的，不安的",
+        "eg": "I always feel nervous before an exam. 考试前我总是感到紧张。"
+      },
+      {
+        "word": "afford",
+        "phon": "/əˈfɔːd/",
+        "pos": "v.",
+        "cn": "负担得起，买得起",
+        "eg": "We cannot afford such an expensive car. 我们买不起这么贵的车。"
+      },
+      {
+        "word": "weak",
+        "phon": "/wiːk/",
+        "pos": "adj.",
+        "cn": "虚弱的，微弱的",
+        "eg": "His voice was so weak that I could hardly hear him. 他的声音非常微弱，我几乎听不见。"
+      },
+      {
+        "word": "interrupt",
+        "phon": "/ˌɪntəˈrʌpt/",
+        "pos": "v.",
+        "cn": "打断，插话",
+        "eg": "Please do not interrupt me while I am speaking. 我讲话时请不要打断我。"
+      },
+      {
+        "word": "salary",
+        "phon": "/ˈsæləri/",
+        "pos": "n.",
+        "cn": "薪水，工资",
+        "eg": "He gets a good salary at the new company. 他在新公司薪水不错。"
+      },
+      {
+        "word": "firm",
+        "phon": "/fɜːm/",
+        "pos": "n.",
+        "cn": "公司，商行",
+        "eg": "My uncle works for a large firm in Shanghai. 我叔叔在上海一家大公司工作。"
+      },
+      {
+        "word": "bill",
+        "phon": "/bɪl/",
+        "pos": "n.",
+        "cn": "帐单",
+        "eg": ""
+      },
+      {
+        "word": "hurry",
+        "phon": "/'hʌrɪ/",
+        "pos": "v.",
+        "cn": "匆忙",
+        "eg": ""
+      },
+      {
+        "word": "ticket office",
+        "phon": "",
+        "pos": "",
+        "cn": "售票处",
+        "eg": ""
+      },
+      {
+        "word": "pity",
+        "phon": "/'pɪtɪ/",
+        "pos": "n.",
+        "cn": "令人遗憾的事",
+        "eg": ""
+      },
+      {
+        "word": "exclaim",
+        "phon": "/ɪk'skleɪm/",
+        "pos": "v.",
+        "cn": "大声说",
+        "eg": ""
+      },
+      {
+        "word": "return",
+        "phon": "/rɪ'tɜːn/",
+        "pos": "v.",
+        "cn": "退回",
+        "eg": ""
+      },
+      {
+        "word": "sadly",
+        "phon": "/'sædli/",
+        "pos": "adv.",
+        "cn": "悲哀地，丧气地",
+        "eg": ""
+      },
+      {
+        "word": "catch",
+        "phon": "/kætʃ/",
+        "pos": "v.",
+        "cn": "抓到",
+        "eg": ""
+      },
+      {
+        "word": "fisherman",
+        "phon": "/'fɪʃəmən/",
+        "pos": "n.",
+        "cn": "钓鱼人，渔民",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -133,17 +461,136 @@
     "title": "A polite request",
     "titleCn": "彬彬有礼的要求",
     "scene": "乱停车通常逃不过交通警察的眼睛，弄不好就要吃罚单。可作者在瑞典度假时却遇到了少见的温和执法：他把车停错了地方，回来时发现车上只留了一张措辞客气的字条，欢迎他来到该市，提醒他注意街道标志，并说明这张字条只是善意的提示。面对如此礼貌的要求，谁能不遵守呢？全文围绕真实条件句展开：如果你乱停车、如果你留意标志，就会有相应的结果。",
-    "grammarTags": ["条件句"],
+    "grammarTags": [
+      "条件句"
+    ],
     "words": [
-      {"word": "park", "phon": "/pɑːk/", "pos": "v.", "cn": "停放（汽车）", "eg": "You must not park your car in front of the gate. 你不可以把车停在大门前。"},
-      {"word": "traffic", "phon": "/ˈtræfɪk/", "pos": "n.", "cn": "交通，来往车辆", "eg": "The traffic is very heavy during rush hours. 高峰时段交通非常拥挤。"},
-      {"word": "ticket", "phon": "/ˈtɪkɪt/", "pos": "n.", "cn": "罚款单；票", "eg": "He got a ticket for driving too fast. 他因开车超速吃了一张罚单。"},
-      {"word": "note", "phon": "/nəʊt/", "pos": "n.", "cn": "便条，短笺", "eg": "She left a note on the table before leaving. 她离开前在桌上留了一张便条。"},
-      {"word": "area", "phon": "/ˈeəriə/", "pos": "n.", "cn": "地区，区域", "eg": "This area is famous for its beautiful lakes. 这个地区以美丽的湖泊闻名。"},
-      {"word": "sign", "phon": "/saɪn/", "pos": "n.", "cn": "标志，指示牌", "eg": "The sign says that the road is closed. 指示牌上写着这条路封闭了。"},
-      {"word": "reminder", "phon": "/rɪˈmaɪndə/", "pos": "n.", "cn": "提示，提醒物", "eg": "I wrote myself a reminder to buy milk. 我给自己写了个买牛奶的提醒。"},
-      {"word": "fail", "phon": "/feɪl/", "pos": "v.", "cn": "不能，未能；失败", "eg": "He failed to catch the early bus this morning. 他今天早上没能赶上早班车。"},
-      {"word": "obey", "phon": "/əˈbeɪ/", "pos": "v.", "cn": "服从，遵守", "eg": "Drivers must obey the traffic rules. 司机必须遵守交通规则。"}
+      {
+        "word": "park",
+        "phon": "/pɑːk/",
+        "pos": "v.",
+        "cn": "停放（汽车）",
+        "eg": "You must not park your car in front of the gate. 你不可以把车停在大门前。"
+      },
+      {
+        "word": "traffic",
+        "phon": "/ˈtræfɪk/",
+        "pos": "n.",
+        "cn": "交通，来往车辆",
+        "eg": "The traffic is very heavy during rush hours. 高峰时段交通非常拥挤。"
+      },
+      {
+        "word": "ticket",
+        "phon": "/ˈtɪkɪt/",
+        "pos": "n.",
+        "cn": "罚款单；票",
+        "eg": "He got a ticket for driving too fast. 他因开车超速吃了一张罚单。"
+      },
+      {
+        "word": "note",
+        "phon": "/nəʊt/",
+        "pos": "n.",
+        "cn": "便条，短笺",
+        "eg": "She left a note on the table before leaving. 她离开前在桌上留了一张便条。"
+      },
+      {
+        "word": "area",
+        "phon": "/ˈeəriə/",
+        "pos": "n.",
+        "cn": "地区，区域",
+        "eg": "This area is famous for its beautiful lakes. 这个地区以美丽的湖泊闻名。"
+      },
+      {
+        "word": "sign",
+        "phon": "/saɪn/",
+        "pos": "n.",
+        "cn": "标志，指示牌",
+        "eg": "The sign says that the road is closed. 指示牌上写着这条路封闭了。"
+      },
+      {
+        "word": "reminder",
+        "phon": "/rɪˈmaɪndə/",
+        "pos": "n.",
+        "cn": "提示，提醒物",
+        "eg": "I wrote myself a reminder to buy milk. 我给自己写了个买牛奶的提醒。"
+      },
+      {
+        "word": "fail",
+        "phon": "/feɪl/",
+        "pos": "v.",
+        "cn": "不能，未能；失败",
+        "eg": "He failed to catch the early bus this morning. 他今天早上没能赶上早班车。"
+      },
+      {
+        "word": "obey",
+        "phon": "/əˈbeɪ/",
+        "pos": "v.",
+        "cn": "服从，遵守",
+        "eg": "Drivers must obey the traffic rules. 司机必须遵守交通规则。"
+      },
+      {
+        "word": "boot",
+        "phon": "/buːt/",
+        "pos": "n.",
+        "cn": "靴子",
+        "eg": ""
+      },
+      {
+        "word": "waste",
+        "phon": "/weɪst/",
+        "pos": "n.",
+        "cn": "浪费",
+        "eg": ""
+      },
+      {
+        "word": "realize",
+        "phon": "/'riːəlaɪz/",
+        "pos": "v.",
+        "cn": "意识到",
+        "eg": ""
+      },
+      {
+        "word": "mad",
+        "phon": "/mæd/",
+        "pos": "a.",
+        "cn": "发疯",
+        "eg": ""
+      },
+      {
+        "word": "reason",
+        "phon": "/'riːz(ə)n/",
+        "pos": "n.",
+        "cn": "原因",
+        "eg": ""
+      },
+      {
+        "word": "sum",
+        "phon": "/sʌm/",
+        "pos": "n.",
+        "cn": "量",
+        "eg": ""
+      },
+      {
+        "word": "determined",
+        "phon": "/dɪ'tɜːmɪnd/",
+        "pos": "a.",
+        "cn": "坚定的，下决心的",
+        "eg": ""
+      },
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "v.",
+        "cn": "做梦，梦想",
+        "eg": ""
+      },
+      {
+        "word": "age",
+        "phon": "/eɪdʒ/",
+        "pos": "n.",
+        "cn": "年龄",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -171,15 +618,122 @@
     "title": "Always young",
     "titleCn": "青春常驻",
     "scene": "作者的姑妈是位演员，实际年龄肯定不小了，可她在舞台上总是扮演十七岁的少女角色。这次她又要登台演出，还得穿上少女式的鲜艳服装和长筒袜。作者受邀去看戏，却被姑妈再三叮嘱：绝不能把她的真实年龄告诉别人。文中的 must 用法丰富：must be 表示有把握的推测（她肯定三十五岁以上了），mustn't 表示禁止（一定不能说出去），是本课的语法核心。",
-    "grammarTags": ["情态动词must"],
+    "grammarTags": [
+      "情态动词must"
+    ],
     "words": [
-      {"word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "The young actress became famous overnight. 这位年轻女演员一夜成名。"},
-      {"word": "appear", "phon": "/əˈpɪə/", "pos": "v.", "cn": "登场，出现", "eg": "The singer will appear on television tonight. 这位歌手今晚将在电视上亮相。"},
-      {"word": "stage", "phon": "/steɪdʒ/", "pos": "n.", "cn": "舞台", "eg": "She walked onto the stage and began to sing. 她走上舞台，开始唱歌。"},
-      {"word": "bright", "phon": "/braɪt/", "pos": "adj.", "cn": "鲜艳的；明亮的", "eg": "She likes wearing bright colours in summer. 她夏天喜欢穿颜色鲜艳的衣服。"},
-      {"word": "stocking", "phon": "/ˈstɒkɪŋ/", "pos": "n.", "cn": "长筒袜", "eg": "She bought a pair of silk stockings. 她买了一双丝质长筒袜。"},
-      {"word": "sock", "phon": "/sɒk/", "pos": "n.", "cn": "短袜", "eg": "There is a hole in my left sock. 我的左脚袜子上有个洞。"},
-      {"word": "grown-up", "phon": "/ˈɡrəʊnʌp/", "pos": "n.", "cn": "成年人", "eg": "The little girl likes talking with grown-ups. 这个小女孩喜欢和大人聊天。"}
+      {
+        "word": "actress",
+        "phon": "/ˈæktrəs/",
+        "pos": "n.",
+        "cn": "女演员",
+        "eg": "The young actress became famous overnight. 这位年轻女演员一夜成名。"
+      },
+      {
+        "word": "appear",
+        "phon": "/əˈpɪə/",
+        "pos": "v.",
+        "cn": "登场，出现",
+        "eg": "The singer will appear on television tonight. 这位歌手今晚将在电视上亮相。"
+      },
+      {
+        "word": "stage",
+        "phon": "/steɪdʒ/",
+        "pos": "n.",
+        "cn": "舞台",
+        "eg": "She walked onto the stage and began to sing. 她走上舞台，开始唱歌。"
+      },
+      {
+        "word": "bright",
+        "phon": "/braɪt/",
+        "pos": "adj.",
+        "cn": "鲜艳的；明亮的",
+        "eg": "She likes wearing bright colours in summer. 她夏天喜欢穿颜色鲜艳的衣服。"
+      },
+      {
+        "word": "stocking",
+        "phon": "/ˈstɒkɪŋ/",
+        "pos": "n.",
+        "cn": "长筒袜",
+        "eg": "She bought a pair of silk stockings. 她买了一双丝质长筒袜。"
+      },
+      {
+        "word": "sock",
+        "phon": "/sɒk/",
+        "pos": "n.",
+        "cn": "短袜",
+        "eg": "There is a hole in my left sock. 我的左脚袜子上有个洞。"
+      },
+      {
+        "word": "grown-up",
+        "phon": "/ˈɡrəʊnʌp/",
+        "pos": "n.",
+        "cn": "成年人",
+        "eg": "The little girl likes talking with grown-ups. 这个小女孩喜欢和大人聊天。"
+      },
+      {
+        "word": "channel",
+        "phon": "/'tʃænl/",
+        "pos": "n.",
+        "cn": "海峡",
+        "eg": ""
+      },
+      {
+        "word": "throw",
+        "phon": "/θrəʊ/",
+        "pos": "v.",
+        "cn": "扔，抛",
+        "eg": ""
+      },
+      {
+        "word": "complete",
+        "phon": "/kəm'pliːt/",
+        "pos": "v.",
+        "cn": "完成",
+        "eg": ""
+      },
+      {
+        "word": "modern",
+        "phon": "/'mɒd(ə)n/",
+        "pos": "a.",
+        "cn": "新式的，与以往不同的",
+        "eg": ""
+      },
+      {
+        "word": "strange",
+        "phon": "/streɪndʒ/",
+        "pos": "a.",
+        "cn": "奇怪的",
+        "eg": ""
+      },
+      {
+        "word": "district",
+        "phon": "/'dɪstrɪkt/",
+        "pos": "n.",
+        "cn": "地区",
+        "eg": ""
+      },
+      {
+        "word": "manager",
+        "phon": "/'mænɪdʒə/",
+        "pos": "n.",
+        "cn": "经理",
+        "eg": ""
+      },
+      {
+        "word": "upset",
+        "phon": "/ʌp'set/",
+        "pos": "a.",
+        "cn": "不安",
+        "eg": ""
+      },
+      {
+        "word": "sympathetic",
+        "phon": "/ˌsɪmpə'θetɪk/",
+        "pos": "a.",
+        "cn": "表示同情的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -213,15 +767,123 @@
     "title": "He often does this!",
     "titleCn": "他经常干这种事！",
     "scene": "作者在乡村小酒店用过午餐后，发现原本放在门边椅子上的提包不翼而飞。正当他四处寻找、担心付不了账时，店主走了进来，问他饭菜是否可口，随即笑着出门，不一会儿就把提包完好地送了回来——原来是店里的狗把包叼进了花园，而且“它经常干这种事”。本课语法重点是动名词：动词后、介词后接 -ing 形式表示动作，如感谢某人做了某事、找不到包时不停地找等。",
-    "grammarTags": ["动名词", "过去完成时"],
+    "grammarTags": [
+      "动名词",
+      "过去完成时"
+    ],
     "words": [
-      {"word": "pub", "phon": "/pʌb/", "pos": "n.", "cn": "小酒店，酒馆", "eg": "We had supper at a small pub near the river. 我们在河边一家小酒馆吃了晚饭。"},
-      {"word": "landlord", "phon": "/ˈlændlɔːd/", "pos": "n.", "cn": "店主；房东", "eg": "The landlord greeted every guest warmly. 店主热情地招呼每一位客人。"},
-      {"word": "bill", "phon": "/bɪl/", "pos": "n.", "cn": "账单", "eg": "Could you bring me the bill, please? 请把账单拿给我好吗？"},
-      {"word": "meal", "phon": "/miːl/", "pos": "n.", "cn": "一餐，一顿饭", "eg": "We enjoyed a delicious meal together. 我们一起享用了一顿美餐。"},
-      {"word": "immediately", "phon": "/ɪˈmiːdiətli/", "pos": "adv.", "cn": "立刻，马上", "eg": "She answered the phone immediately. 她立刻接了电话。"},
-      {"word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "返回；归还", "eg": "Please return the books to the library on time. 请按时把书还给图书馆。"},
-      {"word": "beside", "phon": "/bɪˈsaɪd/", "pos": "prep.", "cn": "在……旁边", "eg": "He put his umbrella beside the door. 他把伞放在门边。"}
+      {
+        "word": "pub",
+        "phon": "/pʌb/",
+        "pos": "n.",
+        "cn": "小酒店，酒馆",
+        "eg": "We had supper at a small pub near the river. 我们在河边一家小酒馆吃了晚饭。"
+      },
+      {
+        "word": "landlord",
+        "phon": "/ˈlændlɔːd/",
+        "pos": "n.",
+        "cn": "店主；房东",
+        "eg": "The landlord greeted every guest warmly. 店主热情地招呼每一位客人。"
+      },
+      {
+        "word": "bill",
+        "phon": "/bɪl/",
+        "pos": "n.",
+        "cn": "账单",
+        "eg": "Could you bring me the bill, please? 请把账单拿给我好吗？"
+      },
+      {
+        "word": "meal",
+        "phon": "/miːl/",
+        "pos": "n.",
+        "cn": "一餐，一顿饭",
+        "eg": "We enjoyed a delicious meal together. 我们一起享用了一顿美餐。"
+      },
+      {
+        "word": "immediately",
+        "phon": "/ɪˈmiːdiətli/",
+        "pos": "adv.",
+        "cn": "立刻，马上",
+        "eg": "She answered the phone immediately. 她立刻接了电话。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v.",
+        "cn": "返回；归还",
+        "eg": "Please return the books to the library on time. 请按时把书还给图书馆。"
+      },
+      {
+        "word": "beside",
+        "phon": "/bɪˈsaɪd/",
+        "pos": "prep.",
+        "cn": "在……旁边",
+        "eg": "He put his umbrella beside the door. 他把伞放在门边。"
+      },
+      {
+        "word": "complain",
+        "phon": "/kəm'pleɪn/",
+        "pos": "v.",
+        "cn": "抱怨",
+        "eg": ""
+      },
+      {
+        "word": "wicked",
+        "phon": "/'wɪkɪd/",
+        "pos": "a.",
+        "cn": "很坏的，邪恶的",
+        "eg": ""
+      },
+      {
+        "word": "contain",
+        "phon": "/kən'teɪn/",
+        "pos": "v.",
+        "cn": "包含，内装",
+        "eg": ""
+      },
+      {
+        "word": "honesty",
+        "phon": "/'ɒnɪstɪ/",
+        "pos": "n.",
+        "cn": "诚实",
+        "eg": ""
+      },
+      {
+        "word": "railway",
+        "phon": "/'reɪlweɪ/",
+        "pos": "n.",
+        "cn": "铁路",
+        "eg": ""
+      },
+      {
+        "word": "porter",
+        "phon": "/'pɔːtə/",
+        "pos": "n.",
+        "cn": "搬运工",
+        "eg": ""
+      },
+      {
+        "word": "several",
+        "phon": "/ˈsevrəl/",
+        "pos": "",
+        "cn": "几个",
+        "eg": ""
+      },
+      {
+        "word": "foreigner",
+        "phon": "/'fɒrɪnə/",
+        "pos": "n.",
+        "cn": "外国人",
+        "eg": ""
+      },
+      {
+        "word": "wonder",
+        "phon": "/'wʌndə/",
+        "pos": "v.",
+        "cn": "感到奇怪",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -256,15 +918,123 @@
     "title": "Sold out",
     "titleCn": "票已售完",
     "scene": "“我”和同伴赶到剧院时开演在即，匆忙跑到售票处买票，却被告知票已售完，两人失望不已。恰在此时，一位男士赶来退掉两张票，“我”喜出望外立刻买下，不料售票员说明这是下周三演出的票——“我”只好无奈地表示：那也不妨买下吧。全文对话中集中出现 may、might、can、could 等情态动词，用于表达可能性、请求许可和委婉建议，是本课的语法主线。",
-    "grammarTags": ["情态动词", "疑问句"],
+    "grammarTags": [
+      "情态动词",
+      "疑问句"
+    ],
     "words": [
-      {"word": "hurry", "phon": "/ˈhʌri/", "pos": "v.", "cn": "匆忙，赶紧", "eg": "You must hurry, or you will miss the plane. 你得赶紧，不然会误了飞机。"},
-      {"word": "ticket office", "phon": "/ˈtɪkɪt ˈɒfɪs/", "pos": "n.", "cn": "售票处", "eg": "There was a long queue at the ticket office. 售票处排起了长队。"},
-      {"word": "pity", "phon": "/ˈpɪti/", "pos": "n.", "cn": "遗憾，可惜的事", "eg": "It is a pity that you cannot come to the party. 你不能来参加聚会真是遗憾。"},
-      {"word": "exclaim", "phon": "/ɪkˈskleɪm/", "pos": "v.", "cn": "大声说，惊叫", "eg": "How beautiful it is! she exclaimed. 她大声说道：多美啊！"},
-      {"word": "sadly", "phon": "/ˈsædli/", "pos": "adv.", "cn": "难过地，悲伤地", "eg": "He shook his head sadly and walked away. 他难过地摇了摇头走开了。"},
-      {"word": "certainly", "phon": "/ˈsɜːtnli/", "pos": "adv.", "cn": "当然，没问题", "eg": "Certainly, you can borrow my bike. 当然可以，你可以借我的自行车。"},
-      {"word": "play", "phon": "/pleɪ/", "pos": "n.", "cn": "戏剧，话剧", "eg": "We saw an interesting play at the theatre. 我们在剧院看了一出有趣的话剧。"}
+      {
+        "word": "hurry",
+        "phon": "/ˈhʌri/",
+        "pos": "v.",
+        "cn": "匆忙，赶紧",
+        "eg": "You must hurry, or you will miss the plane. 你得赶紧，不然会误了飞机。"
+      },
+      {
+        "word": "ticket office",
+        "phon": "/ˈtɪkɪt ˈɒfɪs/",
+        "pos": "n.",
+        "cn": "售票处",
+        "eg": "There was a long queue at the ticket office. 售票处排起了长队。"
+      },
+      {
+        "word": "pity",
+        "phon": "/ˈpɪti/",
+        "pos": "n.",
+        "cn": "遗憾，可惜的事",
+        "eg": "It is a pity that you cannot come to the party. 你不能来参加聚会真是遗憾。"
+      },
+      {
+        "word": "exclaim",
+        "phon": "/ɪkˈskleɪm/",
+        "pos": "v.",
+        "cn": "大声说，惊叫",
+        "eg": "How beautiful it is! she exclaimed. 她大声说道：多美啊！"
+      },
+      {
+        "word": "sadly",
+        "phon": "/ˈsædli/",
+        "pos": "adv.",
+        "cn": "难过地，悲伤地",
+        "eg": "He shook his head sadly and walked away. 他难过地摇了摇头走开了。"
+      },
+      {
+        "word": "certainly",
+        "phon": "/ˈsɜːtnli/",
+        "pos": "adv.",
+        "cn": "当然，没问题",
+        "eg": "Certainly, you can borrow my bike. 当然可以，你可以借我的自行车。"
+      },
+      {
+        "word": "play",
+        "phon": "/pleɪ/",
+        "pos": "n.",
+        "cn": "戏剧，话剧",
+        "eg": "We saw an interesting play at the theatre. 我们在剧院看了一出有趣的话剧。"
+      },
+      {
+        "word": "art",
+        "phon": "/ɑːt/",
+        "pos": "n.",
+        "cn": "艺术",
+        "eg": ""
+      },
+      {
+        "word": "critic",
+        "phon": "/'krɪtɪk/",
+        "pos": "n.",
+        "cn": "评论家",
+        "eg": ""
+      },
+      {
+        "word": "paint",
+        "phon": "/peɪnt/",
+        "pos": "v.",
+        "cn": "画",
+        "eg": ""
+      },
+      {
+        "word": "pretend",
+        "phon": "/prɪ'tend/",
+        "pos": "v.",
+        "cn": "假装",
+        "eg": ""
+      },
+      {
+        "word": "pattern",
+        "phon": "/'pætərn/",
+        "pos": "n.",
+        "cn": "图案",
+        "eg": ""
+      },
+      {
+        "word": "curtain",
+        "phon": "/'kɜːt(ə)n/",
+        "pos": "n.",
+        "cn": "窗帘，幕布",
+        "eg": ""
+      },
+      {
+        "word": "material",
+        "phon": "/mə'tɪriəl/",
+        "pos": "n.",
+        "cn": "材料",
+        "eg": ""
+      },
+      {
+        "word": "appreciate",
+        "phon": "/ə'priːʃieɪt/",
+        "pos": "v.",
+        "cn": "鉴赏",
+        "eg": ""
+      },
+      {
+        "word": "notice",
+        "phon": "/'nəʊtɪs/",
+        "pos": "v.",
+        "cn": "注意到",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -298,15 +1068,122 @@
     "title": "One man in a boat",
     "titleCn": "独坐孤舟",
     "scene": "钓鱼是作者最喜爱的运动，可他的“战绩”却惨不忍睹：常常一坐一整天，连一条小鱼也钓不到，渔友劝他干脆放弃，他却依然乐此不疲。原来他真正感兴趣的并不是钓鱼本身，而是独自坐在船上无所事事地消磨时光。全文是动名词的集中示范：钓鱼这项运动（fishing）、对做某事感兴趣（interested in sitting）、不做任何事（doing nothing），处处体现 -ing 形式作主语和介词宾语的用法。",
-    "grammarTags": ["动名词"],
+    "grammarTags": [
+      "动名词"
+    ],
     "words": [
-      {"word": "catch", "phon": "/kætʃ/", "pos": "v.", "cn": "抓到，钓到", "eg": "The old man caught a big fish this morning. 老人今天早上钓到了一条大鱼。"},
-      {"word": "fisherman", "phon": "/ˈfɪʃəmən/", "pos": "n.", "cn": "钓鱼人，渔民", "eg": "The fishermen go out to sea before dawn. 渔民们天不亮就出海。"},
-      {"word": "boot", "phon": "/buːt/", "pos": "n.", "cn": "靴子", "eg": "He put on his boots and went out into the snow. 他穿上靴子走进雪地。"},
-      {"word": "waste", "phon": "/weɪst/", "pos": "n.", "cn": "浪费", "eg": "Watching TV all day is a waste of time. 整天看电视是浪费时间。"},
-      {"word": "realize", "phon": "/ˈrɪəlaɪz/", "pos": "v.", "cn": "意识到，认识到", "eg": "She soon realized that she had taken the wrong bus. 她很快意识到自己坐错了公共汽车。"},
-      {"word": "interested", "phon": "/ˈɪntrəstɪd/", "pos": "adj.", "cn": "感兴趣的", "eg": "My brother is interested in collecting stamps. 我弟弟对集邮感兴趣。"},
-      {"word": "give up", "phon": "/ɡɪv ʌp/", "pos": "phr.", "cn": "放弃", "eg": "He decided to give up smoking last year. 他去年决定戒烟。"}
+      {
+        "word": "catch",
+        "phon": "/kætʃ/",
+        "pos": "v.",
+        "cn": "抓到，钓到",
+        "eg": "The old man caught a big fish this morning. 老人今天早上钓到了一条大鱼。"
+      },
+      {
+        "word": "fisherman",
+        "phon": "/ˈfɪʃəmən/",
+        "pos": "n.",
+        "cn": "钓鱼人，渔民",
+        "eg": "The fishermen go out to sea before dawn. 渔民们天不亮就出海。"
+      },
+      {
+        "word": "boot",
+        "phon": "/buːt/",
+        "pos": "n.",
+        "cn": "靴子",
+        "eg": "He put on his boots and went out into the snow. 他穿上靴子走进雪地。"
+      },
+      {
+        "word": "waste",
+        "phon": "/weɪst/",
+        "pos": "n.",
+        "cn": "浪费",
+        "eg": "Watching TV all day is a waste of time. 整天看电视是浪费时间。"
+      },
+      {
+        "word": "realize",
+        "phon": "/ˈrɪəlaɪz/",
+        "pos": "v.",
+        "cn": "意识到，认识到",
+        "eg": "She soon realized that she had taken the wrong bus. 她很快意识到自己坐错了公共汽车。"
+      },
+      {
+        "word": "interested",
+        "phon": "/ˈɪntrəstɪd/",
+        "pos": "adj.",
+        "cn": "感兴趣的",
+        "eg": "My brother is interested in collecting stamps. 我弟弟对集邮感兴趣。"
+      },
+      {
+        "word": "give up",
+        "phon": "/ɡɪv ʌp/",
+        "pos": "phr.",
+        "cn": "放弃",
+        "eg": "He decided to give up smoking last year. 他去年决定戒烟。"
+      },
+      {
+        "word": "whether",
+        "phon": "/'weðə/",
+        "pos": "conj.",
+        "cn": "是否",
+        "eg": ""
+      },
+      {
+        "word": "hang",
+        "phon": "/hæŋ/",
+        "pos": "v.",
+        "cn": "悬挂，吊",
+        "eg": ""
+      },
+      {
+        "word": "critically",
+        "phon": "/'krɪtɪklɪ/",
+        "pos": "adv.",
+        "cn": "批评地",
+        "eg": ""
+      },
+      {
+        "word": "upside",
+        "phon": "/'ʌpsaɪd/",
+        "pos": "",
+        "cn": "上下颠倒地",
+        "eg": ""
+      },
+      {
+        "word": "tent",
+        "phon": "/tent/",
+        "pos": "n.",
+        "cn": "帐篷",
+        "eg": ""
+      },
+      {
+        "word": "field",
+        "phon": "/fiːld/",
+        "pos": "n.",
+        "cn": "田地，田野",
+        "eg": ""
+      },
+      {
+        "word": "smell",
+        "phon": "/smel/",
+        "pos": "v.",
+        "cn": "闻起来",
+        "eg": ""
+      },
+      {
+        "word": "wonderful",
+        "phon": "/ˈwʌndə(r)fl/",
+        "pos": "a.",
+        "cn": "极好的",
+        "eg": ""
+      },
+      {
+        "word": "campfire",
+        "phon": "/'kæmpfaɪə(r)/",
+        "pos": "n.",
+        "cn": "营火，篝火",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -341,15 +1218,122 @@
     "title": "Mad or not?",
     "titleCn": "是不是疯了？",
     "scene": "作者的家紧挨着机场，飞机成天从屋顶上呼啸而过，噪音扰人。机场是几年前建成的，当时附近居民纷纷把房子卖掉搬走，只有作者不肯离开，别人都说住在这里简直是发疯。作者却下定决心留下：也许有一天他真的会被飞机噪音逼疯。本课语法核心是被动语态：机场“被建成”、房子“被卖掉”、人“将被逼疯”，动作承受者作主语，be + 过去分词贯穿全文。",
-    "grammarTags": ["被动语态"],
+    "grammarTags": [
+      "被动语态"
+    ],
     "words": [
-      {"word": "mad", "phon": "/mæd/", "pos": "adj.", "cn": "发疯的，疯狂的", "eg": "The loud music nearly drove me mad. 嘈杂的音乐差点把我逼疯。"},
-      {"word": "reason", "phon": "/ˈriːzən/", "pos": "n.", "cn": "原因，理由", "eg": "What is the reason for your being late? 你迟到的原因是什么？"},
-      {"word": "sum", "phon": "/sʌm/", "pos": "n.", "cn": "金额，一笔钱", "eg": "He paid a large sum of money for that painting. 他花了一大笔钱买那幅画。"},
-      {"word": "determined", "phon": "/dɪˈtɜːmɪnd/", "pos": "adj.", "cn": "下定决心的，坚决的", "eg": "She is determined to finish the race. 她下定决心跑完比赛。"},
-      {"word": "aeroplane", "phon": "/ˈeərəpleɪn/", "pos": "n.", "cn": "飞机", "eg": "An aeroplane flew low over the village. 一架飞机低低地从村庄上空飞过。"},
-      {"word": "noise", "phon": "/nɔɪz/", "pos": "n.", "cn": "噪音，喧闹声", "eg": "The noise from the street kept me awake all night. 街上的噪音吵得我整夜没睡。"},
-      {"word": "drive", "phon": "/draɪv/", "pos": "v.", "cn": "迫使，逼得（某人发疯）", "eg": "The endless housework is driving her mad. 干不完的家务活快把她逼疯了。"}
+      {
+        "word": "mad",
+        "phon": "/mæd/",
+        "pos": "adj.",
+        "cn": "发疯的，疯狂的",
+        "eg": "The loud music nearly drove me mad. 嘈杂的音乐差点把我逼疯。"
+      },
+      {
+        "word": "reason",
+        "phon": "/ˈriːzən/",
+        "pos": "n.",
+        "cn": "原因，理由",
+        "eg": "What is the reason for your being late? 你迟到的原因是什么？"
+      },
+      {
+        "word": "sum",
+        "phon": "/sʌm/",
+        "pos": "n.",
+        "cn": "金额，一笔钱",
+        "eg": "He paid a large sum of money for that painting. 他花了一大笔钱买那幅画。"
+      },
+      {
+        "word": "determined",
+        "phon": "/dɪˈtɜːmɪnd/",
+        "pos": "adj.",
+        "cn": "下定决心的，坚决的",
+        "eg": "She is determined to finish the race. 她下定决心跑完比赛。"
+      },
+      {
+        "word": "aeroplane",
+        "phon": "/ˈeərəpleɪn/",
+        "pos": "n.",
+        "cn": "飞机",
+        "eg": "An aeroplane flew low over the village. 一架飞机低低地从村庄上空飞过。"
+      },
+      {
+        "word": "noise",
+        "phon": "/nɔɪz/",
+        "pos": "n.",
+        "cn": "噪音，喧闹声",
+        "eg": "The noise from the street kept me awake all night. 街上的噪音吵得我整夜没睡。"
+      },
+      {
+        "word": "drive",
+        "phon": "/draɪv/",
+        "pos": "v.",
+        "cn": "迫使，逼得（某人发疯）",
+        "eg": "The endless housework is driving her mad. 干不完的家务活快把她逼疯了。"
+      },
+      {
+        "word": "creep",
+        "phon": "/kriːp/",
+        "pos": "v.",
+        "cn": "爬行",
+        "eg": ""
+      },
+      {
+        "word": "sleeping bag",
+        "phon": "/'sli:piŋ/",
+        "pos": "",
+        "cn": "睡袋",
+        "eg": ""
+      },
+      {
+        "word": "comfortable",
+        "phon": "/ˈkʌmftəbl/",
+        "pos": "a.",
+        "cn": "舒适的，安逸的",
+        "eg": ""
+      },
+      {
+        "word": "soundly",
+        "phon": "/'saundli/",
+        "pos": "adv.",
+        "cn": "香甜地",
+        "eg": ""
+      },
+      {
+        "word": "leap",
+        "phon": "/liːp/",
+        "pos": "v.",
+        "cn": "跳跃，跳起",
+        "eg": ""
+      },
+      {
+        "word": "heavily",
+        "phon": "/'hevɪlɪ/",
+        "pos": "adv.",
+        "cn": "大量地",
+        "eg": ""
+      },
+      {
+        "word": "stream",
+        "phon": "/striːm/",
+        "pos": "n.",
+        "cn": "小溪",
+        "eg": ""
+      },
+      {
+        "word": "form",
+        "phon": "/fɔːm/",
+        "pos": "v.",
+        "cn": "形成",
+        "eg": ""
+      },
+      {
+        "word": "wind",
+        "phon": "/wɪnd; (for v.) waɪnd/",
+        "pos": "v.",
+        "cn": "蜿蜒",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -383,15 +1367,123 @@
     "title": "A glass envelope",
     "titleCn": "玻璃信封",
     "scene": "女儿简做梦也没想到会收到一位荷兰同龄女孩的来信。去年乘船过海峡时，她把写有自己姓名和住址的纸条塞进瓶子扔进大海，之后便把这事忘得一干二净；十个月后，回信竟真的漂洋过海而来。如今两个女孩已经通信成为朋友，还决定改用邮局寄信——贵一点，但快多了。文中的现在完成时用来表达“已经决定、从未想到”等对现在仍有影响的动作，与叙述往事的一般过去时形成对照。",
-    "grammarTags": ["现在完成时", "一般过去时"],
+    "grammarTags": [
+      "现在完成时",
+      "一般过去时"
+    ],
     "words": [
-      {"word": "dream", "phon": "/driːm/", "pos": "v.", "cn": "做梦；梦想（of）", "eg": "She has always dreamed of visiting Paris. 她一直梦想去巴黎游览。"},
-      {"word": "age", "phon": "/eɪdʒ/", "pos": "n.", "cn": "年龄", "eg": "The two boys are of the same age. 这两个男孩同龄。"},
-      {"word": "channel", "phon": "/ˈtʃænl/", "pos": "n.", "cn": "海峡；水道", "eg": "The ship crossed the channel in thick fog. 船在浓雾中穿过了海峡。"},
-      {"word": "throw", "phon": "/θrəʊ/", "pos": "v.", "cn": "扔，抛", "eg": "Do not throw rubbish into the river. 不要往河里扔垃圾。"},
-      {"word": "receive", "phon": "/rɪˈsiːv/", "pos": "v.", "cn": "收到，接到", "eg": "I received a postcard from my pen friend yesterday. 我昨天收到了笔友寄来的明信片。"},
-      {"word": "regularly", "phon": "/ˈreɡjələli/", "pos": "adv.", "cn": "定期地，经常地", "eg": "They write to each other regularly. 他们定期互相通信。"},
-      {"word": "cost", "phon": "/kɒst/", "pos": "v.", "cn": "花费，价钱为", "eg": "Sending the parcel by air will cost more. 空运这个包裹要多花些钱。"}
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "v.",
+        "cn": "做梦；梦想（of）",
+        "eg": "She has always dreamed of visiting Paris. 她一直梦想去巴黎游览。"
+      },
+      {
+        "word": "age",
+        "phon": "/eɪdʒ/",
+        "pos": "n.",
+        "cn": "年龄",
+        "eg": "The two boys are of the same age. 这两个男孩同龄。"
+      },
+      {
+        "word": "channel",
+        "phon": "/ˈtʃænl/",
+        "pos": "n.",
+        "cn": "海峡；水道",
+        "eg": "The ship crossed the channel in thick fog. 船在浓雾中穿过了海峡。"
+      },
+      {
+        "word": "throw",
+        "phon": "/θrəʊ/",
+        "pos": "v.",
+        "cn": "扔，抛",
+        "eg": "Do not throw rubbish into the river. 不要往河里扔垃圾。"
+      },
+      {
+        "word": "receive",
+        "phon": "/rɪˈsiːv/",
+        "pos": "v.",
+        "cn": "收到，接到",
+        "eg": "I received a postcard from my pen friend yesterday. 我昨天收到了笔友寄来的明信片。"
+      },
+      {
+        "word": "regularly",
+        "phon": "/ˈreɡjələli/",
+        "pos": "adv.",
+        "cn": "定期地，经常地",
+        "eg": "They write to each other regularly. 他们定期互相通信。"
+      },
+      {
+        "word": "cost",
+        "phon": "/kɒst/",
+        "pos": "v.",
+        "cn": "花费，价钱为",
+        "eg": "Sending the parcel by air will cost more. 空运这个包裹要多花些钱。"
+      },
+      {
+        "word": "right",
+        "phon": "/raɪt/",
+        "pos": "adv.",
+        "cn": "正好",
+        "eg": ""
+      },
+      {
+        "word": "rare",
+        "phon": "/rer/",
+        "pos": "a.",
+        "cn": "罕见的",
+        "eg": ""
+      },
+      {
+        "word": "ancient",
+        "phon": "/ˈeɪnʃənt/",
+        "pos": "a.",
+        "cn": "古代的，古老的",
+        "eg": ""
+      },
+      {
+        "word": "myth",
+        "phon": "/mɪθ/",
+        "pos": "n.",
+        "cn": "神话故事",
+        "eg": ""
+      },
+      {
+        "word": "trouble",
+        "phon": "/'trʌb(ə)l/",
+        "pos": "n.",
+        "cn": "麻烦",
+        "eg": ""
+      },
+      {
+        "word": "effect",
+        "phon": "/ɪ'fekt/",
+        "pos": "n.",
+        "cn": "结果，效果",
+        "eg": ""
+      },
+      {
+        "word": "Medusa",
+        "phon": "/mi'dju:zə/",
+        "pos": "n.",
+        "cn": "美杜莎(古希腊神话中位蛇发女怪之一)",
+        "eg": ""
+      },
+      {
+        "word": "Gorgon",
+        "phon": "/'gɔ:gən/",
+        "pos": "n.",
+        "cn": "(古希腊神话中的)位蛇发女怪之一",
+        "eg": ""
+      },
+      {
+        "word": "taxi",
+        "phon": "/'tæksɪ/",
+        "pos": "n.",
+        "cn": "出租汽车",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -426,15 +1518,123 @@
     "title": "A new house",
     "titleCn": "新居",
     "scene": "“我”昨天收到了远在国外的姐姐的来信，她说明年要回国探亲。她若回来定会大吃一惊：因为我们全家如今已搬进乡下一栋漂亮的新居。这房子在姐姐离开之前就已动工，五个月前刚刚落成。信中还提到姐姐一直想看看这栋房子的模样。全文以一般过去时为主线叙述收信、动工、竣工等往事，其间穿插过去完成时（动工在离开之前）和过去时的被动式（房子被建成），层次分明。",
-    "grammarTags": ["一般过去时", "被动语态"],
+    "grammarTags": [
+      "一般过去时",
+      "被动语态"
+    ],
     "words": [
-      {"word": "complete", "phon": "/kəmˈpliːt/", "pos": "v.", "cn": "完成，建成", "eg": "The new railway was completed last spring. 新铁路于去年春天建成。"},
-      {"word": "modern", "phon": "/ˈmɒdən/", "pos": "adj.", "cn": "现代的，新式的", "eg": "They live in a modern flat in the city centre. 他们住在市中心一套现代化的公寓里。"},
-      {"word": "strange", "phon": "/streɪndʒ/", "pos": "adj.", "cn": "奇怪的，陌生的", "eg": "I heard a strange sound in the garden last night. 昨晚我听到花园里有奇怪的声音。"},
-      {"word": "surprise", "phon": "/səˈpraɪz/", "pos": "n.", "cn": "惊奇，意外之事", "eg": "The gift was a big surprise to her. 这份礼物让她大感意外。"},
-      {"word": "country", "phon": "/ˈkʌntri/", "pos": "n.", "cn": "乡下，农村；国家", "eg": "My grandparents live in the country. 我的祖父母住在乡下。"},
-      {"word": "pleased", "phon": "/pliːzd/", "pos": "adj.", "cn": "高兴的，满意的", "eg": "We were very pleased with the new classroom. 我们对新教室非常满意。"},
-      {"word": "own", "phon": "/əʊn/", "pos": "adj.", "cn": "自己的", "eg": "The boy wants a room of his own. 这个男孩想要一间自己的房间。"}
+      {
+        "word": "complete",
+        "phon": "/kəmˈpliːt/",
+        "pos": "v.",
+        "cn": "完成，建成",
+        "eg": "The new railway was completed last spring. 新铁路于去年春天建成。"
+      },
+      {
+        "word": "modern",
+        "phon": "/ˈmɒdən/",
+        "pos": "adj.",
+        "cn": "现代的，新式的",
+        "eg": "They live in a modern flat in the city centre. 他们住在市中心一套现代化的公寓里。"
+      },
+      {
+        "word": "strange",
+        "phon": "/streɪndʒ/",
+        "pos": "adj.",
+        "cn": "奇怪的，陌生的",
+        "eg": "I heard a strange sound in the garden last night. 昨晚我听到花园里有奇怪的声音。"
+      },
+      {
+        "word": "surprise",
+        "phon": "/səˈpraɪz/",
+        "pos": "n.",
+        "cn": "惊奇，意外之事",
+        "eg": "The gift was a big surprise to her. 这份礼物让她大感意外。"
+      },
+      {
+        "word": "country",
+        "phon": "/ˈkʌntri/",
+        "pos": "n.",
+        "cn": "乡下，农村；国家",
+        "eg": "My grandparents live in the country. 我的祖父母住在乡下。"
+      },
+      {
+        "word": "pleased",
+        "phon": "/pliːzd/",
+        "pos": "adj.",
+        "cn": "高兴的，满意的",
+        "eg": "We were very pleased with the new classroom. 我们对新教室非常满意。"
+      },
+      {
+        "word": "own",
+        "phon": "/əʊn/",
+        "pos": "adj.",
+        "cn": "自己的",
+        "eg": "The boy wants a room of his own. 这个男孩想要一间自己的房间。"
+      },
+      {
+        "word": "Pilatus Porter",
+        "phon": "",
+        "pos": "",
+        "cn": "皮勒特斯·波特(飞机机名)",
+        "eg": ""
+      },
+      {
+        "word": "land",
+        "phon": "/lænd/",
+        "pos": "v.",
+        "cn": "着陆",
+        "eg": ""
+      },
+      {
+        "word": "plough",
+        "phon": "/plaʊ/",
+        "pos": "v.",
+        "cn": "耕地",
+        "eg": ""
+      },
+      {
+        "word": "lonely",
+        "phon": "/'ləʊnlɪ/",
+        "pos": "a.",
+        "cn": "偏僻的，人迹罕至的",
+        "eg": ""
+      },
+      {
+        "word": "Welsh",
+        "phon": "/welʃ/",
+        "pos": "a.",
+        "cn": "威尔士的",
+        "eg": ""
+      },
+      {
+        "word": "roof",
+        "phon": "/ruːf/",
+        "pos": "n.",
+        "cn": "楼顶",
+        "eg": ""
+      },
+      {
+        "word": "block",
+        "phon": "/blɑːk/",
+        "pos": "n.",
+        "cn": "一座大楼",
+        "eg": ""
+      },
+      {
+        "word": "flat",
+        "phon": "/flæt/",
+        "pos": "n.",
+        "cn": "公寓房",
+        "eg": ""
+      },
+      {
+        "word": "desert",
+        "phon": "/(for v.) dɪ'zɜːt; (for n.) 'dezət/",
+        "pos": "v.",
+        "cn": "废弃",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -468,16 +1668,130 @@
     "title": "It could be worse",
     "titleCn": "还算幸运",
     "scene": "“我”发现放在旅馆房间里的五十英镑不见了，心情沮丧地走进经理办公室报告。经理深表同情却也无能为力，感叹如今丢钱的人太多、世风日下。他正抱怨着，敲门声响起：一位姑娘走进来，把一个信封放在桌上——里面正是那五十英镑，是她在“我”的房门外捡到的。看来这世上还是有诚实的人。本课延续间接引语的训练：“我”对经理说了什么、经理说了什么，转述时时态后移、人称转换。",
-    "grammarTags": ["间接引语", "过去完成时"],
+    "grammarTags": [
+      "间接引语",
+      "过去完成时"
+    ],
     "words": [
-      {"word": "manager", "phon": "/ˈmænɪdʒə/", "pos": "n.", "cn": "经理", "eg": "The manager of the hotel is a kind old man. 这家旅馆的经理是位和蔼的老人。"},
-      {"word": "upset", "phon": "/ʌpˈset/", "pos": "adj.", "cn": "心烦的，苦恼的", "eg": "She was very upset about losing her ring. 丢了戒指让她非常苦恼。"},
-      {"word": "sympathetic", "phon": "/ˌsɪmpəˈθetɪk/", "pos": "adj.", "cn": "表示同情的", "eg": "The doctor gave me a sympathetic smile. 医生向我投来同情的微笑。"},
-      {"word": "complain", "phon": "/kəmˈpleɪn/", "pos": "v.", "cn": "抱怨，诉苦", "eg": "He is always complaining about the weather. 他总是抱怨天气。"},
-      {"word": "wicked", "phon": "/ˈwɪkɪd/", "pos": "adj.", "cn": "很坏的，邪恶的", "eg": "The wicked man was punished in the end. 那个恶人最终受到了惩罚。"},
-      {"word": "contain", "phon": "/kənˈteɪn/", "pos": "v.", "cn": "包含，内装", "eg": "The box contains some old photos. 盒子里装着一些旧照片。"},
-      {"word": "honesty", "phon": "/ˈɒnəsti/", "pos": "n.", "cn": "诚实，正直", "eg": "Honesty is the best policy. 诚实是上策。"},
-      {"word": "knock", "phon": "/nɒk/", "pos": "n.", "cn": "敲门声；敲", "eg": "There was a loud knock at the door. 传来一阵响亮的敲门声。"}
+      {
+        "word": "manager",
+        "phon": "/ˈmænɪdʒə/",
+        "pos": "n.",
+        "cn": "经理",
+        "eg": "The manager of the hotel is a kind old man. 这家旅馆的经理是位和蔼的老人。"
+      },
+      {
+        "word": "upset",
+        "phon": "/ʌpˈset/",
+        "pos": "adj.",
+        "cn": "心烦的，苦恼的",
+        "eg": "She was very upset about losing her ring. 丢了戒指让她非常苦恼。"
+      },
+      {
+        "word": "sympathetic",
+        "phon": "/ˌsɪmpəˈθetɪk/",
+        "pos": "adj.",
+        "cn": "表示同情的",
+        "eg": "The doctor gave me a sympathetic smile. 医生向我投来同情的微笑。"
+      },
+      {
+        "word": "complain",
+        "phon": "/kəmˈpleɪn/",
+        "pos": "v.",
+        "cn": "抱怨，诉苦",
+        "eg": "He is always complaining about the weather. 他总是抱怨天气。"
+      },
+      {
+        "word": "wicked",
+        "phon": "/ˈwɪkɪd/",
+        "pos": "adj.",
+        "cn": "很坏的，邪恶的",
+        "eg": "The wicked man was punished in the end. 那个恶人最终受到了惩罚。"
+      },
+      {
+        "word": "contain",
+        "phon": "/kənˈteɪn/",
+        "pos": "v.",
+        "cn": "包含，内装",
+        "eg": "The box contains some old photos. 盒子里装着一些旧照片。"
+      },
+      {
+        "word": "honesty",
+        "phon": "/ˈɒnəsti/",
+        "pos": "n.",
+        "cn": "诚实，正直",
+        "eg": "Honesty is the best policy. 诚实是上策。"
+      },
+      {
+        "word": "knock",
+        "phon": "/nɒk/",
+        "pos": "n.",
+        "cn": "敲门声；敲",
+        "eg": "There was a loud knock at the door. 传来一阵响亮的敲门声。"
+      },
+      {
+        "word": "polo",
+        "phon": "/'pəʊləʊ/",
+        "pos": "n.",
+        "cn": "水球",
+        "eg": ""
+      },
+      {
+        "word": "cut",
+        "phon": "/kʌt/",
+        "pos": "v.",
+        "cn": "穿过",
+        "eg": ""
+      },
+      {
+        "word": "row",
+        "phon": "/rəʊ/",
+        "pos": "v.",
+        "cn": "划(船)",
+        "eg": ""
+      },
+      {
+        "word": "kick",
+        "phon": "/kɪk/",
+        "pos": "v.",
+        "cn": "踢",
+        "eg": ""
+      },
+      {
+        "word": "towards",
+        "phon": "/tə'wɔːdz; twɔːdz; 'tɔːdz/",
+        "pos": "prep.",
+        "cn": "朝，向",
+        "eg": ""
+      },
+      {
+        "word": "nearly",
+        "phon": "/'nɪəlɪ/",
+        "pos": "adv.",
+        "cn": "几乎",
+        "eg": ""
+      },
+      {
+        "word": "sight",
+        "phon": "/saɪt/",
+        "pos": "n.",
+        "cn": "眼界，视域",
+        "eg": ""
+      },
+      {
+        "word": "retire",
+        "phon": "/rɪ'taɪər/",
+        "pos": "v.",
+        "cn": "退休",
+        "eg": ""
+      },
+      {
+        "word": "company",
+        "phon": "/'kʌmp(ə)nɪ/",
+        "pos": "n.",
+        "cn": "公司",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

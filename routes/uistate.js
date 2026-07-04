@@ -21,6 +21,7 @@ const KEYS = new Set([
   'nce-wordhub-tab', // 单词子页上次选中
   'nce-dict-book', // 查词典册筛选
   'nce-dict-history', // 查词典搜索历史
+  'nce-last-dialogue', // 情景对话上次场景与篇目（对象）
 ]);
 
 const fileOf = () => profile.file('ui.json');

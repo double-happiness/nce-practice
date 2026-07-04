@@ -1,0 +1,182 @@
+[
+  {
+    "id": "dlg-chain-deliv-01",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Decide What to Order",
+    "titleCn": "第1环：商量点什么",
+    "scene": "周六晚上，你和室友商量晚饭点外卖。（对话链：点外卖）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "今晚做饭还是点外卖？", "en": "Cook tonight or order in?" },
+      { "role": "You", "cn": "外卖吧，我想吃泰餐。", "en": "Delivery. I'm craving Thai." },
+      { "role": "Roommate", "cn": "辣度你能接受吗？", "en": "How spicy can you handle?" },
+      { "role": "You", "cn": "中辣，你点炒河粉我点绿咖喱。", "en": "Medium. You get pad see ew, I'll get green curry." },
+      { "role": "Roommate", "cn": "好，我来下单。", "en": "Okay. I'll place the order." },
+      { "role": "You", "cn": "记得备注不要花生。", "en": "Remember no peanuts in the notes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-02",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Add Delivery Notes",
+    "titleCn": "第2环：填写送餐备注",
+    "scene": "室友下单时问你送餐细节。（对话链：点外卖）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "骑手留言写什么？", "en": "What should I put in the delivery notes?" },
+      { "role": "You", "cn": "走侧门，在停车场那边，到了打电话。", "en": "Use the side door by the parking lot. Call when you arrive." },
+      { "role": "Roommate", "cn": "小费给多少？", "en": "How much tip?" },
+      { "role": "You", "cn": "四块吧，雨天不容易。", "en": "Four dollars. Rainy day is tough." },
+      { "role": "Roommate", "cn": "下单了，预计三十五分钟。", "en": "Ordered. ETA thirty-five minutes." },
+      { "role": "You", "cn": "好，我去洗个澡。", "en": "Great. I'll take a quick shower." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-03",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Driver Can't Find You",
+    "titleCn": "第3环：骑手找不到门",
+    "scene": "外卖员打电话说找不到楼。（对话链：点外卖）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "喂，我是送您外卖的，找不到入口。", "en": "Hi, I'm delivering your food. I can't find the entrance." },
+      { "role": "You", "cn": "走侧门，在停车场那边，我下来接你。", "en": "Use the side door by the parking lot. I'll come down." },
+      { "role": "Driver", "cn": "好的，我穿黄色雨衣。", "en": "Okay. I'm wearing a yellow rain jacket." },
+      { "role": "You", "cn": "看到了，在这边！", "en": "I see you. Over here!" },
+      { "role": "Driver", "cn": "给您，趁热吃。", "en": "Here you go. Enjoy it while it's hot." },
+      { "role": "You", "cn": "谢谢，路上小心！", "en": "Thanks. Drive safe!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-04",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Check the Order",
+    "titleCn": "第4环：核对餐品",
+    "scene": "你拿外卖上楼，和室友核对袋子。（对话链：点外卖）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "餐到了，袋子没漏吧？", "en": "Food's here. Bag didn't leak, right?" },
+      { "role": "Roommate", "cn": "看起来没事，筷子够吗？", "en": "Looks fine. Enough chopsticks?" },
+      { "role": "You", "cn": "有两双，饮料呢？", "en": "Two pairs. Where's the drink?" },
+      { "role": "Roommate", "cn": "在袋底，泰式奶茶。", "en": "At the bottom. Thai iced tea." },
+      { "role": "You", "cn": "好，开吃。", "en": "Great. Let's eat." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-05",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Missing Item",
+    "titleCn": "第5环：发现少了一份",
+    "scene": "打开盒子发现少了一碗炒饭。（对话链：点外卖）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "我那份炒饭呢？只有咖喱和河粉。", "en": "Where's my fried rice? Just curry and noodles." },
+      { "role": "You", "cn": "确实少了，我联系餐厅。", "en": "It's missing. I'll contact the restaurant." },
+      { "role": "Roommate", "cn": "要不先吃我的河粉分你一半？", "en": "Want half my noodles while we wait?" },
+      { "role": "You", "cn": "不用，我打电话问问。", "en": "No need. I'll call them." },
+      { "role": "Roommate", "cn": "收据在袋子里。", "en": "Receipt's in the bag." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-06",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Call Support",
+    "titleCn": "第6环：联系客服",
+    "scene": "你打客服电话反映漏送。（对话链：点外卖）",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "Support", "cn": "客服中心，请问有什么可以帮您？", "en": "Customer support. How can I help?" },
+      { "role": "You", "cn": "订单少了炒饭，能补送吗？", "en": "My order is missing fried rice. Can you resend it?" },
+      { "role": "Support", "cn": "抱歉，我查一下……确实漏了。", "en": "I'm sorry. Let me check. It was missed." },
+      { "role": "You", "cn": "大概多久能到？", "en": "How long will the resend take?" },
+      { "role": "Support", "cn": "二十分钟，给您退炒饭的钱。", "en": "Twenty minutes. We'll refund the rice too." },
+      { "role": "You", "cn": "好吧，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-07",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Resend Arrives",
+    "titleCn": "第7环：补送到达",
+    "scene": "补送的炒饭到了门口。（对话链：点外卖）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "补送的炒饭，张伟先生？", "en": "Resend fried rice for Mr. Zhang?" },
+      { "role": "You", "cn": "对，谢谢这么快。", "en": "Yes. Thanks for being quick." },
+      { "role": "Driver", "cn": "餐厅道歉了，祝您用餐愉快。", "en": "The restaurant apologizes. Enjoy your meal." },
+      { "role": "You", "cn": "好的，再见。", "en": "Okay. Bye." }
+    ]
+  },
+  {
+    "id": "dlg-chain-deliv-08",
+    "category": "delivery",
+    "chain": {
+      "id": "food-delivery",
+      "title": "Ordering Food Delivery",
+      "titleCn": "对话链：点外卖一顿",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Rate the Order",
+    "titleCn": "第8环：餐后评价",
+    "scene": "吃完后，App 弹出评价请求。（对话链：点外卖）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "味道怎么样？给几颗星？", "en": "How was the food? How many stars?" },
+      { "role": "You", "cn": "咖喱不错，漏送扣一星，四星吧。", "en": "Curry was good. Minus one for the missing item. Four stars." },
+      { "role": "Roommate", "cn": "备注里写一下漏送处理了？", "en": "Note that they fixed the missing item?" },
+      { "role": "You", "cn": "行，客服响应挺快。", "en": "Sure. Support was fast." },
+      { "role": "Roommate", "cn": "下次还点这家？", "en": "Order from them again?" },
+      { "role": "You", "cn": "可以，记得核对袋子。", "en": "Yeah. Just double-check the bag." }
+    ]
+  }
+]

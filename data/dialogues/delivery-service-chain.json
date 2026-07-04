@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-delv-01",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Order on the App",
+    "titleCn": "第1环：App 下单",
+    "scene": "晚上你用外卖 App 点餐。（对话链：外卖配送）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "这家有满三十减五，凑一下？", "en": "This place has five off thirty. Want to hit the minimum?" },
+      { "role": "You", "cn": "加份春卷够了，我付。", "en": "Add spring rolls and we're good. I'll pay." },
+      { "role": "Roommate", "cn": "地址还是咱家吧？门牌写清楚。", "en": "Same address? Make sure the unit number is clear." },
+      { "role": "You", "cn": "写了 3B，备注放门口别按铃，孩子在睡。", "en": "Unit 3B. Note says leave at door, don't ring—kid's asleep." },
+      { "role": "Roommate", "cn": "预计四十分钟，行。", "en": "Forty minutes estimated. Sounds good." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-02",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Track the Order",
+    "titleCn": "第2环：追踪订单",
+    "scene": "下单后你在 App 上看配送进度。（对话链：外卖配送）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "商家已接单，正在做。", "en": "Restaurant accepted. They're cooking now." },
+      { "role": "Roommate", "cn": "骑手接单了吗？", "en": "Has a driver picked it up yet?" },
+      { "role": "You", "cn": "还没，显示预计三十五分钟到。", "en": "Not yet. Shows thirty-five minutes ETA." },
+      { "role": "Roommate", "cn": "要是超时能投诉吧？", "en": "We can complain if it's late, right?" },
+      { "role": "You", "cn": "能，先等等看。", "en": "Yeah. Let's wait and see." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-03",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Driver Calls",
+    "titleCn": "第3环：骑手来电",
+    "scene": "骑手打电话说找不到楼。（对话链：外卖配送）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "您好，外卖到了，3B 在哪？", "en": "Hi, delivery here. Where's unit 3B?" },
+      { "role": "You", "cn": "进大门左转，三楼右手边。", "en": "Left after the main door, third floor on the right." },
+      { "role": "Driver", "cn": "门禁密码多少？", "en": "What's the gate code?" },
+      { "role": "You", "cn": "按 2580 再按铃。", "en": "Press two-five-eight-zero, then the buzzer." },
+      { "role": "Driver", "cn": "好了，马上到门口。", "en": "Got it. Be right at your door." },
+      { "role": "You", "cn": "谢谢，放门口就行。", "en": "Thanks. Just leave it at the door." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-04",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Receive the Food",
+    "titleCn": "第4环：取餐",
+    "scene": "你开门取外卖。（对话链：外卖配送）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "您的外卖，请确认。", "en": "Your order. Please confirm." },
+      { "role": "You", "cn": "谢谢，袋子封好了吗？", "en": "Thanks. Is the bag sealed?" },
+      { "role": "Driver", "cn": "封好了，饮料单独袋子里。", "en": "Yes. Drinks are in a separate bag." },
+      { "role": "You", "cn": "好，小费在 App 里给了。", "en": "Great. I tipped in the app." },
+      { "role": "Driver", "cn": "感谢，用餐愉快！", "en": "Thank you. Enjoy!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-05",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Wrong Item",
+    "titleCn": "第5环：送错餐",
+    "scene": "打开发现少了一份饭，你联系客服。（对话链：外卖配送）",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "Support", "cn": "客服，请问什么问题？", "en": "Support here. What's the issue?" },
+      { "role": "You", "cn": "订单里两份炒饭只收到一份。", "en": "We ordered two fried rice but only got one." },
+      { "role": "Support", "cn": "抱歉，我查一下……确实漏了，补送还是退款？", "en": "Sorry. Let me check… You're right. Redeliver or refund?" },
+      { "role": "You", "cn": "补送吧，我们还等着吃。", "en": "Redeliver, please. We're still waiting to eat." },
+      { "role": "Support", "cn": "好的，二十分钟到，送您优惠券。", "en": "Okay. Twenty minutes. We'll add a coupon for you." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-06",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Rate the Order",
+    "titleCn": "第6环：评价订单",
+    "scene": "吃完后你在 App 上评价。（对话链：外卖配送）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "味道不错，给骑手五星吧。", "en": "Food was good. Five stars for the driver?" },
+      { "role": "You", "cn": "行，虽然晚了几分钟但态度好。", "en": "Sure. A few minutes late but they were polite." },
+      { "role": "Roommate", "cn": "店也四星，汤有点咸。", "en": "Four stars for the restaurant. Soup was salty." },
+      { "role": "You", "cn": "我写「汤偏咸，其余满意」。", "en": "I'll write soup was salty, otherwise satisfied." },
+      { "role": "Roommate", "cn": "下次换一家试。", "en": "We'll try a different place next time." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-07",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Grocery Delivery",
+    "titleCn": "第7环：生鲜配送",
+    "scene": "你订了超市生鲜配送，配送员到了。（对话链：外卖配送）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "生鲜配送，三袋，有冷冻品请尽快放冰箱。", "en": "Grocery delivery. Three bags. Please refrigerate frozen items soon." },
+      { "role": "You", "cn": "好的，鸡蛋没碎吧？", "en": "Okay. Are the eggs intact?" },
+      { "role": "Driver", "cn": "我小心放的，您检查一下。", "en": "I packed them carefully. Please check." },
+      { "role": "You", "cn": "都没事，谢谢。", "en": "All good. Thank you." },
+      { "role": "Driver", "cn": "回收纸袋放门口就行。", "en": "Leave bags for pickup at the door if you'd like." }
+    ]
+  },
+  {
+    "id": "dlg-chain-delv-08",
+    "category": "delivery",
+    "chain": {
+      "id": "delivery-service",
+      "title": "Food Delivery from Order to Door",
+      "titleCn": "对话链：外卖配送到家",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Subscribe for Regular Delivery",
+    "titleCn": "第8环：订定期配送",
+    "scene": "你觉得牛奶配送方便，咨询定期送。（对话链：外卖配送）",
+    "roles": ["You", "Support"],
+    "turns": [
+      { "role": "You", "cn": "能每周固定送牛奶吗？", "en": "Can I get milk delivered every week?" },
+      { "role": "Support", "cn": "可以，选订阅每周一早上送。", "en": "Yes. Subscribe for Monday morning delivery." },
+      { "role": "You", "cn": "随时能暂停吗？", "en": "Can I pause anytime?" },
+      { "role": "Support", "cn": "提前一天在 App 里改就行。", "en": "Change it in the app one day ahead." },
+      { "role": "You", "cn": "好，我订两周试试。", "en": "Okay. I'll try two weeks." },
+      { "role": "Support", "cn": "已设置，首单明天送。", "en": "All set. First delivery is tomorrow." }
+    ]
+  }
+]

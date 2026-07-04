@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tf-b4-049",
+    "book": 4,
+    "lesson": 3,
+    "grammar": ["学术词汇(comprise)"],
+    "cn": "该课程包括听、说、读、写四个部分。",
+    "explanation": "comprise 表「由……组成」，主语为整体，不用被动 be comprised of（虽常见但 purists 反对）；include 可互换。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The course comprises listening, speaking, reading and writing.", "The programme comprises four skills."], "cn": "该课程包括听、说、读、写四个部分。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The course does not comprise only reading.", "The programme does not comprise three parts only."], "cn": "该课程并非只包括阅读。" },
+      { "kind": "wh", "prompt": "对「listening, speaking, reading and writing」提问（问\"包括什么\"）", "answers": ["What does the course comprise?", "What does the programme comprise?"], "cn": "该课程包括什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does the course comprise four skills?"], "cn": "该课程包括四项技能吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-050",
+    "book": 4,
+    "lesson": 6,
+    "grammar": ["定语从句(非限制性)"],
+    "cn": "我哥哥是医生，他住在伦敦。",
+    "explanation": "非限制性定语从句用逗号隔开，who 指代前面整个名词且不可省略；补充说明而非限定。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用非限制性定语从句）", "answers": ["My brother, who is a doctor, lives in London.", "My brother, who works as a doctor, lives in London."], "cn": "我哥哥是医生，他住在伦敦。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["My brother, who is a doctor, does not live in London.", "My brother doesn't live in London."], "cn": "我哥哥不住在伦敦。" },
+      { "kind": "wh", "prompt": "对「London」提问（问\"住在哪里\"）", "answers": ["Where does your brother live?", "Where does your brother, who is a doctor, live?"], "cn": "你哥哥住在哪里？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does your brother, who is a doctor, live in London?", "Does your brother live in London?"], "cn": "你哥哥住在伦敦吗？" }
+    ]
+  },
+  {
+    "id": "tf-b4-051",
+    "book": 4,
+    "lesson": 19,
+    "grammar": ["非谓语动词(动名词)"],
+    "cn": "否认见过他是不诚实的。",
+    "explanation": "动名词作主语：Denying that... is dishonest；deny 后接动名词或 that 从句。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Denying that you have seen him is dishonest.", "It is dishonest to deny having seen him."], "cn": "否认见过他是不诚实的。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Denying that you have seen him is not honest.", "It is not honest to deny having seen him."], "cn": "否认见过他并非诚实。" },
+      { "kind": "wh", "prompt": "对「Denying that you have seen him」提问（问\"什么是诚实的\"）", "answers": ["What is dishonest?", "What is not honest?"], "cn": "什么是不诚实的？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is denying that you have seen him dishonest?", "Is it dishonest to deny having seen him?"], "cn": "否认见过他是不诚实的吗？" }
+    ]
+  }
+]

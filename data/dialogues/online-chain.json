@@ -1,0 +1,182 @@
+[
+  {
+    "id": "dlg-chain-onl-01",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Browse and Compare",
+    "titleCn": "第1环：选商品看评价",
+    "scene": "你想买一双跑鞋，跟朋友讨论选哪款。（对话链：网购）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "看中哪双？评价怎么样？", "en": "Which pair? How are the reviews?" },
+      { "role": "You", "cn": "这款四星半，但有人说偏小半码。", "en": "This one's four and a half stars, but some say it runs small." },
+      { "role": "Friend", "cn": "那你买大半码，免费退货就行。", "en": "Size up half. Free returns, right?" },
+      { "role": "You", "cn": "对，三十天内免费退。", "en": "Yes. Free returns within thirty days." },
+      { "role": "Friend", "cn": "黑色百搭，下单吧。", "en": "Black goes with everything. Go for it." },
+      { "role": "You", "cn": "好，我结账了。", "en": "Okay. Checking out now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-02",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Checkout Questions",
+    "titleCn": "第2环：结账问运费",
+    "scene": "结账时在线客服弹出，你问配送时间。（对话链：网购）",
+    "roles": ["You", "Chatbot"],
+    "turns": [
+      { "role": "Chatbot", "cn": "需要帮助吗？", "en": "Need help?" },
+      { "role": "You", "cn": "这双鞋几天能到？运费多少？", "en": "How many days for these shoes? What's shipping?" },
+      { "role": "Chatbot", "cn": "Prime 会员两天到，免运费。", "en": "Prime members get it in two days. Free shipping." },
+      { "role": "You", "cn": "能送到侧门吗？", "en": "Can you deliver to the side entrance?" },
+      { "role": "Chatbot", "cn": "可以在结账备注里写。", "en": "Add it in delivery notes at checkout." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-03",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Track the Package",
+    "titleCn": "第3环：追踪物流",
+    "scene": "第二天，快递显示「派送中」，室友问你到了没。（对话链：网购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "你的鞋今天到吧？", "en": "Your shoes arrive today, right?" },
+      { "role": "You", "cn": "App 显示下午三点到六点之间。", "en": "App says between three and six PM." },
+      { "role": "Roommate", "cn": "我不在家，你收？", "en": "I won't be home. Can you get it?" },
+      { "role": "You", "cn": "行，到了发照片给你。", "en": "Sure. I'll text you a photo when it arrives." },
+      { "role": "Roommate", "cn": "放门口记得拍照。", "en": "Snap a photo if they leave it at the door." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-04",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Package Arrives",
+    "titleCn": "第4环：快递送到",
+    "scene": "下午四点，快递员把包裹放在门口。（对话链：网购）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "Amazon 包裹，放门口了。", "en": "Amazon package. Left it at the door." },
+      { "role": "You", "cn": "谢谢，我看到了。", "en": "Thanks. I see it." },
+      { "role": "Driver", "cn": "祝您愉快！", "en": "Have a good one!" },
+      { "role": "You", "cn": "你也是。", "en": "You too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-05",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Wrong Size",
+    "titleCn": "第5环：尺码不对",
+    "scene": "你试穿后发现确实偏小，决定退货。（对话链：网购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "果然偏小，脚趾顶前面了。", "en": "Yep, too small. My toes hit the front." },
+      { "role": "Roommate", "cn": "换大半码？", "en": "Exchange for half a size up?" },
+      { "role": "You", "cn": "先退再买大的，换货慢。", "en": "Return first, then reorder. Exchange is slower." },
+      { "role": "Roommate", "cn": "盒子还在吧？", "en": "You still have the box?" },
+      { "role": "You", "cn": "在，我 App 里申请退货。", "en": "Yes. I'll start the return in the app." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-06",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Start Return Online",
+    "titleCn": "第6环：App申请退货",
+    "scene": "你打客服电话确认退货流程。（对话链：网购）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "在线客服，请问什么问题？", "en": "Online support. What's the issue?" },
+      { "role": "You", "cn": "鞋偏小，要退货，二维码已生成。", "en": "Shoes run small. I want to return them. QR code is ready." },
+      { "role": "Agent", "cn": "可以去 UPS 或 Kohl's 退货点。", "en": "You can drop off at UPS or Kohl's." },
+      { "role": "You", "cn": "需要付退货运费吗？", "en": "Do I pay return shipping?" },
+      { "role": "Agent", "cn": "不用，卖家已预付。", "en": "No, the seller prepaid it." },
+      { "role": "You", "cn": "退款多久到账？", "en": "How long for the refund?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-07",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Drop Off Return",
+    "titleCn": "第7环：去UPS退货",
+    "scene": "你去 UPS 门店退包裹。（对话链：网购）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，需要帮忙吗？", "en": "Hi, can I help you?" },
+      { "role": "You", "cn": "我要退这个亚马逊包裹。", "en": "I need to return this Amazon package." },
+      { "role": "Clerk", "cn": "请出示退货二维码。", "en": "Please show me the return QR code." },
+      { "role": "You", "cn": "在这，尺码不合适。", "en": "Here it is. The size doesn't fit." },
+      { "role": "Clerk", "cn": "好了，退款三到五个工作日到账。", "en": "All set. Your refund will arrive in three to five business days." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-onl-08",
+    "category": "online",
+    "chain": {
+      "id": "online-shopping",
+      "title": "Online Shopping End to End",
+      "titleCn": "对话链：网购从下单到售后",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Reorder Correct Size",
+    "titleCn": "第8环：重新下单",
+    "scene": "退款处理中，你重新下单大半码。（对话链：网购）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "重新买了吗？", "en": "Did you reorder?" },
+      { "role": "You", "cn": "买了大半码，两天到。", "en": "Half size up. Arrives in two days." },
+      { "role": "Friend", "cn": "这次应该合适。", "en": "Should fit this time." },
+      { "role": "You", "cn": "希望如此，退货流程还挺顺的。", "en": "Hope so. Return process was smooth." },
+      { "role": "Friend", "cn": "到了试穿给我看看。", "en": "Try them on and show me." },
+      { "role": "You", "cn": "一定。", "en": "Will do." }
+    ]
+  }
+]

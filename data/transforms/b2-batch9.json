@@ -3,168 +3,624 @@
     "id": "tf-b2-074",
     "book": 2,
     "lesson": 73,
-    "grammar": ["最高级", "一般过去时"],
+    "grammar": [
+      "最高级",
+      "一般过去时"
+    ],
     "cn": "他成了吃鸡蛋最多的纪录保持者。",
     "explanation": "最高级 the most eggs；一般过去时 became 表成为纪录保持者。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He became the record-holder for eating the most eggs.", "He became the record-holder after eating the most eggs.", "He became a record-holder for eating the most eggs."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he become the record-holder for eating the most eggs?", "Did he become the record-holder after eating the most eggs?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not become the record-holder for eating the most eggs.", "He didn't become the record-holder for eating the most eggs."] },
-      { "kind": "wh", "prompt": "对「the record-holder」提问（问\"成了什么\"）", "answers": ["What did he become?", "What did he become after eating the most eggs?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He became the record-holder for eating the most eggs.",
+          "He became the record-holder after eating the most eggs.",
+          "He became a record-holder for eating the most eggs."
+        ],
+        "cn": "他成了吃鸡蛋最多的纪录保持者。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he become the record-holder for eating the most eggs?",
+          "Did he become the record-holder after eating the most eggs?"
+        ],
+        "cn": "他成了吃鸡蛋最多的纪录保持者吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not become the record-holder for eating the most eggs.",
+          "He didn't become the record-holder for eating the most eggs."
+        ],
+        "cn": "他不成了吃鸡蛋最多的纪录保持者。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the record-holder」提问（问\"成了什么\"）",
+        "answers": [
+          "What did he become?",
+          "What did he become after eating the most eggs?"
+        ],
+        "cn": "他成了什么？"
+      }
     ]
   },
   {
     "id": "tf-b2-075",
     "book": 2,
     "lesson": 74,
-    "grammar": ["一般过去时", "介词"],
+    "grammar": [
+      "一般过去时",
+      "介词"
+    ],
     "cn": "她想远离公众的焦点。",
     "explanation": "介词短语 out of the limelight 表\"离开聚光灯/公众关注\"；wanted to stay。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She wanted to stay out of the limelight.", "She wanted to get out of the limelight."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did she want to stay out of the limelight?", "Did she want to get out of the limelight?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She did not want to stay out of the limelight.", "She didn't want to stay out of the limelight.", "She did not want to get out of the limelight.", "She didn't want to get out of the limelight."] },
-      { "kind": "wh", "prompt": "对「out of the limelight」提问（问\"想怎样\"）", "answers": ["Where did she want to stay?", "What did she want to stay out of?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She wanted to stay out of the limelight.",
+          "She wanted to get out of the limelight."
+        ],
+        "cn": "她想远离公众的焦点。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did she want to stay out of the limelight?",
+          "Did she want to get out of the limelight?"
+        ],
+        "cn": "她想远离公众的焦点吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She did not want to stay out of the limelight.",
+          "She didn't want to stay out of the limelight.",
+          "She did not want to get out of the limelight.",
+          "She didn't want to get out of the limelight."
+        ],
+        "cn": "她不想远离公众的焦点。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「out of the limelight」提问（问\"想怎样\"）",
+        "answers": [
+          "Where did she want to stay?",
+          "What did she want to stay out of?"
+        ],
+        "cn": "想怎样？"
+      }
     ]
   },
   {
     "id": "tf-b2-076",
     "book": 2,
     "lesson": 75,
-    "grammar": ["被动语态", "一般过去时"],
+    "grammar": [
+      "被动语态",
+      "一般过去时"
+    ],
     "cn": "一条 SOS 求救信息被立刻发出。",
     "explanation": "一般过去时被动 was sent；immediately 表\"立刻\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["An SOS message was sent immediately.", "An SOS signal was sent immediately."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was an SOS message sent immediately?", "Was an SOS signal sent immediately?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["An SOS message was not sent immediately.", "An SOS message wasn't sent immediately.", "An SOS signal was not sent immediately.", "An SOS signal wasn't sent immediately."] },
-      { "kind": "passive", "prompt": "改为主动语态", "answers": ["They sent an SOS message immediately.", "The crew sent an SOS message immediately.", "They sent an SOS signal immediately."] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（被动语态）",
+        "answers": [
+          "An SOS message was sent immediately.",
+          "An SOS signal was sent immediately."
+        ],
+        "cn": "一条 SOS 求救信息被立刻发出。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was an SOS message sent immediately?",
+          "Was an SOS signal sent immediately?"
+        ],
+        "cn": "一条 SOS 求救信息被立刻发出吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "An SOS message was not sent immediately.",
+          "An SOS message wasn't sent immediately.",
+          "An SOS signal was not sent immediately.",
+          "An SOS signal wasn't sent immediately."
+        ],
+        "cn": "一条 SOS 求救信息没有被立刻发出。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "They sent an SOS message immediately.",
+          "The crew sent an SOS message immediately.",
+          "They sent an SOS signal immediately."
+        ],
+        "cn": "一条 SOS 求救信息被立刻发出。"
+      }
     ]
   },
   {
     "id": "tf-b2-077",
     "book": 2,
     "lesson": 76,
-    "grammar": ["被动语态", "一般过去时"],
+    "grammar": [
+      "被动语态",
+      "一般过去时"
+    ],
     "cn": "这个玩笑在愚人节播出了。",
     "explanation": "一般过去时被动 was broadcast；on April Fools' Day 作时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The joke was broadcast on April Fools' Day.", "The programme was broadcast on April Fools' Day."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the joke broadcast on April Fools' Day?", "Was the programme broadcast on April Fools' Day?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The joke was not broadcast on April Fools' Day.", "The joke wasn't broadcast on April Fools' Day.", "The programme was not broadcast on April Fools' Day.", "The programme wasn't broadcast on April Fools' Day."] },
-      { "kind": "wh", "prompt": "对「on April Fools' Day」提问（问\"何时播出\"）", "answers": ["When was the joke broadcast?", "When was the programme broadcast?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（被动语态）",
+        "answers": [
+          "The joke was broadcast on April Fools' Day.",
+          "The programme was broadcast on April Fools' Day."
+        ],
+        "cn": "这个玩笑在愚人节播出了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the joke broadcast on April Fools' Day?",
+          "Was the programme broadcast on April Fools' Day?"
+        ],
+        "cn": "这个玩笑在愚人节播出了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The joke was not broadcast on April Fools' Day.",
+          "The joke wasn't broadcast on April Fools' Day.",
+          "The programme was not broadcast on April Fools' Day.",
+          "The programme wasn't broadcast on April Fools' Day."
+        ],
+        "cn": "这个玩笑不在愚人节播出了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on April Fools' Day」提问（问\"何时播出\"）",
+        "answers": [
+          "When was the joke broadcast?",
+          "When was the programme broadcast?"
+        ],
+        "cn": "何时播出？"
+      }
     ]
   },
   {
     "id": "tf-b2-078",
     "book": 2,
     "lesson": 77,
-    "grammar": ["过去完成时", "被动语态"],
+    "grammar": [
+      "过去完成时",
+      "被动语态"
+    ],
     "cn": "手术开始前，相关器械已经消毒完毕。",
     "explanation": "过去完成时被动 had been sterilized 表\"手术开始之前的过去\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The instruments had been sterilized before the operation began.", "Before the operation began, the instruments had been sterilized.", "The equipment had been sterilized before the operation began."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the instruments been sterilized before the operation began?", "Before the operation began, had the instruments been sterilized?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The instruments had not been sterilized before the operation began.", "The instruments hadn't been sterilized before the operation began."] },
-      { "kind": "wh", "prompt": "对「before the operation began」提问（问\"何时已消毒\"）", "answers": ["When had the instruments been sterilized?", "When had the equipment been sterilized?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（被动语态）",
+        "answers": [
+          "The instruments had been sterilized before the operation began.",
+          "Before the operation began, the instruments had been sterilized.",
+          "The equipment had been sterilized before the operation began."
+        ],
+        "cn": "手术开始前，相关器械已经消毒完毕。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句",
+        "answers": [
+          "Had the instruments been sterilized before the operation began?",
+          "Before the operation began, had the instruments been sterilized?"
+        ],
+        "cn": "手术开始前，相关器械已经消毒完毕吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "The instruments had not been sterilized before the operation began.",
+          "The instruments hadn't been sterilized before the operation began."
+        ],
+        "cn": "手术开始前，相关器械还没有消毒完毕。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「before the operation began」提问（问\"何时已消毒\"）",
+        "answers": [
+          "When had the instruments been sterilized?",
+          "When had the equipment been sterilized?"
+        ],
+        "cn": "何时已消毒？"
+      }
     ]
   },
   {
     "id": "tf-b2-079",
     "book": 2,
     "lesson": 78,
-    "grammar": ["现在完成时", "现在完成进行时"],
+    "grammar": [
+      "现在完成时",
+      "现在完成进行时"
+    ],
     "cn": "他已经戒烟好几个星期了。",
     "explanation": "现在完成时 has given up 表结果；for several weeks 表持续时长。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He has given up smoking for several weeks.", "He has stopped smoking for several weeks.", "He has not smoked for several weeks.", "He hasn't smoked for several weeks."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has he given up smoking for several weeks?", "Has he stopped smoking for several weeks?", "Has he not smoked for several weeks?", "Hasn't he smoked for several weeks?"] },
-      { "kind": "negative", "prompt": "改为否定句（尚未戒烟）", "answers": ["He has not given up smoking for several weeks.", "He hasn't given up smoking for several weeks.", "He has not stopped smoking for several weeks.", "He hasn't stopped smoking for several weeks."] },
-      { "kind": "wh", "prompt": "对「for several weeks」提问（问\"多久了\"）", "answers": ["How long has he given up smoking?", "How long has he stopped smoking?", "How long has he not smoked?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He has given up smoking for several weeks.",
+          "He has stopped smoking for several weeks.",
+          "He has not smoked for several weeks.",
+          "He hasn't smoked for several weeks."
+        ],
+        "cn": "他已经戒烟好几个星期了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has he given up smoking for several weeks?",
+          "Has he stopped smoking for several weeks?",
+          "Has he not smoked for several weeks?",
+          "Hasn't he smoked for several weeks?"
+        ],
+        "cn": "他已经戒烟好几个星期了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（尚未戒烟）",
+        "answers": [
+          "He has not given up smoking for several weeks.",
+          "He hasn't given up smoking for several weeks.",
+          "He has not stopped smoking for several weeks.",
+          "He hasn't stopped smoking for several weeks."
+        ],
+        "cn": "他还没有戒烟好几个星期了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for several weeks」提问（问\"多久了\"）",
+        "answers": [
+          "How long has he given up smoking?",
+          "How long has he stopped smoking?",
+          "How long has he not smoked?"
+        ],
+        "cn": "他拥有这辆车多久了？"
+      }
     ]
   },
   {
     "id": "tf-b2-080",
     "book": 2,
     "lesson": 79,
-    "grammar": ["一般过去时", "介词"],
+    "grammar": [
+      "一般过去时",
+      "介词"
+    ],
     "cn": "他乘飞机去了布宜诺斯艾利斯。",
     "explanation": "介词 by air 表交通方式；travel to 表目的地。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He travelled by air to Buenos Aires.", "He went by air to Buenos Aires.", "He flew to Buenos Aires."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he travel by air to Buenos Aires?", "Did he go by air to Buenos Aires?", "Did he fly to Buenos Aires?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not travel by air to Buenos Aires.", "He didn't travel by air to Buenos Aires.", "He did not go by air to Buenos Aires.", "He didn't go by air to Buenos Aires.", "He did not fly to Buenos Aires.", "He didn't fly to Buenos Aires."] },
-      { "kind": "wh", "prompt": "对「by air」提问（问\"怎样去的\"）", "answers": ["How did he travel to Buenos Aires?", "How did he go to Buenos Aires?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He travelled by air to Buenos Aires.",
+          "He went by air to Buenos Aires.",
+          "He flew to Buenos Aires."
+        ],
+        "cn": "他乘飞机去了布宜诺斯艾利斯。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he travel by air to Buenos Aires?",
+          "Did he go by air to Buenos Aires?",
+          "Did he fly to Buenos Aires?"
+        ],
+        "cn": "他乘飞机去了布宜诺斯艾利斯吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not travel by air to Buenos Aires.",
+          "He didn't travel by air to Buenos Aires.",
+          "He did not go by air to Buenos Aires.",
+          "He didn't go by air to Buenos Aires.",
+          "He did not fly to Buenos Aires.",
+          "He didn't fly to Buenos Aires."
+        ],
+        "cn": "他不乘飞机去了布宜诺斯艾利斯。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「by air」提问（问\"怎样去的\"）",
+        "answers": [
+          "How did he travel to Buenos Aires?",
+          "How did he go to Buenos Aires?"
+        ],
+        "cn": "怎样去的？"
+      }
     ]
   },
   {
     "id": "tf-b2-081",
     "book": 2,
     "lesson": 80,
-    "grammar": ["被动语态", "一般过去时"],
+    "grammar": [
+      "被动语态",
+      "一般过去时"
+    ],
     "cn": "水晶宫是为博览会而建的。",
     "explanation": "一般过去时被动 was built for；for the exhibition 表目的。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["The Crystal Palace was built for the exhibition.", "The Crystal Palace was built for the Great Exhibition."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was the Crystal Palace built for the exhibition?", "Was the Crystal Palace built for the Great Exhibition?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The Crystal Palace was not built for the exhibition.", "The Crystal Palace wasn't built for the exhibition.", "The Crystal Palace was not built for the Great Exhibition.", "The Crystal Palace wasn't built for the Great Exhibition."] },
-      { "kind": "passive", "prompt": "改为主动语态", "answers": ["They built the Crystal Palace for the exhibition.", "Engineers built the Crystal Palace for the exhibition.", "They built the Crystal Palace for the Great Exhibition."] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（被动语态）",
+        "answers": [
+          "The Crystal Palace was built for the exhibition.",
+          "The Crystal Palace was built for the Great Exhibition."
+        ],
+        "cn": "水晶宫是为博览会而建的。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the Crystal Palace built for the exhibition?",
+          "Was the Crystal Palace built for the Great Exhibition?"
+        ],
+        "cn": "水晶宫是为博览会而建的吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The Crystal Palace was not built for the exhibition.",
+          "The Crystal Palace wasn't built for the exhibition.",
+          "The Crystal Palace was not built for the Great Exhibition.",
+          "The Crystal Palace wasn't built for the Great Exhibition."
+        ],
+        "cn": "水晶宫是为博览不会而建的。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "They built the Crystal Palace for the exhibition.",
+          "Engineers built the Crystal Palace for the exhibition.",
+          "They built the Crystal Palace for the Great Exhibition."
+        ],
+        "cn": "水晶宫是为博览会而建的。"
+      }
     ]
   },
   {
     "id": "tf-b2-082",
     "book": 2,
     "lesson": 81,
-    "grammar": ["一般过去时", "介词"],
+    "grammar": [
+      "一般过去时",
+      "介词"
+    ],
     "cn": "战俘躲在树后避开看守。",
     "explanation": "介词 behind 表位置；hid behind a tree；to avoid 表目的。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The prisoner hid behind a tree to avoid the guards.", "He hid behind a tree to avoid the guards.", "The prisoner hid behind trees to avoid the guards."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the prisoner hide behind a tree to avoid the guards?", "Did he hide behind a tree to avoid the guards?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The prisoner did not hide behind a tree to avoid the guards.", "The prisoner didn't hide behind a tree to avoid the guards.", "He did not hide behind a tree to avoid the guards.", "He didn't hide behind a tree to avoid the guards."] },
-      { "kind": "wh", "prompt": "对「behind a tree」提问（问\"躲在哪里\"）", "answers": ["Where did the prisoner hide?", "Where did he hide to avoid the guards?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The prisoner hid behind a tree to avoid the guards.",
+          "He hid behind a tree to avoid the guards.",
+          "The prisoner hid behind trees to avoid the guards."
+        ],
+        "cn": "战俘躲在树后避开看守。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the prisoner hide behind a tree to avoid the guards?",
+          "Did he hide behind a tree to avoid the guards?"
+        ],
+        "cn": "战俘躲在树后避开看守吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The prisoner did not hide behind a tree to avoid the guards.",
+          "The prisoner didn't hide behind a tree to avoid the guards.",
+          "He did not hide behind a tree to avoid the guards.",
+          "He didn't hide behind a tree to avoid the guards."
+        ],
+        "cn": "战俘躲不在树后避开看守。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「behind a tree」提问（问\"躲在哪里\"）",
+        "answers": [
+          "Where did the prisoner hide?",
+          "Where did he hide to avoid the guards?"
+        ],
+        "cn": "躲在哪里？"
+      }
     ]
   },
   {
     "id": "tf-b2-083",
     "book": 2,
     "lesson": 82,
-    "grammar": ["反意疑问句", "一般过去时"],
+    "grammar": [
+      "反意疑问句",
+      "一般过去时"
+    ],
     "cn": "这不是海怪，对吗？",
     "explanation": "反意疑问句：前否后肯 isn't it / is it；monster 表\"怪物\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（含反意疑问句）", "answers": ["It isn't a sea monster, is it?", "It's not a sea monster, is it?", "That isn't a sea monster, is it?"] },
-      { "kind": "yesno", "prompt": "去掉反意疑问，改为一般疑问句", "answers": ["Is it a sea monster?", "Is that a sea monster?"] },
-      { "kind": "negative", "prompt": "改为否定陈述句（不含反意疑问）", "answers": ["It is not a sea monster.", "It isn't a sea monster.", "That is not a sea monster.", "That isn't a sea monster."] },
-      { "kind": "wh", "prompt": "对「a sea monster」提问（问\"不是什么\"）", "answers": ["What isn't it?", "What is it not?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（含反意疑问句）",
+        "answers": [
+          "It isn't a sea monster, is it?",
+          "It's not a sea monster, is it?",
+          "That isn't a sea monster, is it?"
+        ],
+        "cn": "这不是海怪，对吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "去掉反意疑问，改为一般疑问句",
+        "answers": [
+          "Is it a sea monster?",
+          "Is that a sea monster?"
+        ],
+        "cn": "这不是海怪，对吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定陈述句（不含反意疑问）",
+        "answers": [
+          "It is not a sea monster.",
+          "It isn't a sea monster.",
+          "That is not a sea monster.",
+          "That isn't a sea monster."
+        ],
+        "cn": "这不是海怪，对吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a sea monster」提问（问\"不是什么\"）",
+        "answers": [
+          "What isn't it?",
+          "What is it not?"
+        ],
+        "cn": "这不不是什么？"
+      }
     ]
   },
   {
     "id": "tf-b2-084",
     "book": 2,
     "lesson": 83,
-    "grammar": ["过去完成时", "一般过去时"],
+    "grammar": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "cn": "飞机落地前，支持者已在机场外等了很久。",
     "explanation": "过去完成时 had been waiting 表\"落地之前的过去\"；before 引导时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The supporters had been waiting outside the airport for a long time before the plane landed.", "Before the plane landed, the supporters had been waiting outside the airport for a long time.", "His supporters had been waiting at the airport for a long time before the plane landed."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the supporters been waiting outside the airport for a long time before the plane landed?", "Before the plane landed, had the supporters been waiting outside the airport for a long time?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The supporters had not been waiting outside the airport for a long time before the plane landed.", "The supporters hadn't been waiting outside the airport for a long time before the plane landed."] },
-      { "kind": "wh", "prompt": "对「for a long time」提问（问\"等了多久\"）", "answers": ["How long had the supporters been waiting before the plane landed?", "How long had his supporters been waiting before the plane landed?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The supporters had been waiting outside the airport for a long time before the plane landed.",
+          "Before the plane landed, the supporters had been waiting outside the airport for a long time.",
+          "His supporters had been waiting at the airport for a long time before the plane landed."
+        ],
+        "cn": "飞机落地前，支持者已在机场外等了很久。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句",
+        "answers": [
+          "Had the supporters been waiting outside the airport for a long time before the plane landed?",
+          "Before the plane landed, had the supporters been waiting outside the airport for a long time?"
+        ],
+        "cn": "飞机落地前，支持者已在机场外等了很久吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "The supporters had not been waiting outside the airport for a long time before the plane landed.",
+          "The supporters hadn't been waiting outside the airport for a long time before the plane landed."
+        ],
+        "cn": "飞机落地前，支持者已不在机场外等了很久。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for a long time」提问（问\"等了多久\"）",
+        "answers": [
+          "How long had the supporters been waiting before the plane landed?",
+          "How long had his supporters been waiting before the plane landed?"
+        ],
+        "cn": "等了多久？"
+      }
     ]
   },
   {
     "id": "tf-b2-085",
     "book": 2,
     "lesson": 84,
-    "grammar": ["现在完成进行时", "现在完成时"],
+    "grammar": [
+      "现在完成进行时",
+      "现在完成时"
+    ],
     "cn": "公交司机已经罢工好几天了。",
     "explanation": "现在完成进行时 have been on strike 表持续状态；for days 表时长。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The busmen have been on strike for days.", "The bus drivers have been on strike for days.", "The busmen have been on strike for several days."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have the busmen been on strike for days?", "Have the bus drivers been on strike for days?", "Have the busmen been on strike for several days?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The busmen have not been on strike for days.", "The busmen haven't been on strike for days.", "The bus drivers have not been on strike for days.", "The bus drivers haven't been on strike for days."] },
-      { "kind": "wh", "prompt": "对「for days」提问（问\"罢工多久了\"）", "answers": ["How long have the busmen been on strike?", "How long have the bus drivers been on strike?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The busmen have been on strike for days.",
+          "The bus drivers have been on strike for days.",
+          "The busmen have been on strike for several days."
+        ],
+        "cn": "公交司机已经罢工好几天了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have the busmen been on strike for days?",
+          "Have the bus drivers been on strike for days?",
+          "Have the busmen been on strike for several days?"
+        ],
+        "cn": "公交司机已经罢工好几天了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The busmen have not been on strike for days.",
+          "The busmen haven't been on strike for days.",
+          "The bus drivers have not been on strike for days.",
+          "The bus drivers haven't been on strike for days."
+        ],
+        "cn": "公交司机还没有罢工好几天了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for days」提问（问\"罢工多久了\"）",
+        "answers": [
+          "How long have the busmen been on strike?",
+          "How long have the bus drivers been on strike?"
+        ],
+        "cn": "他拥有这辆车多久了？"
+      }
     ]
   }
 ]

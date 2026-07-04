@@ -1,0 +1,158 @@
+[
+  {
+    "id": "tf-b4-037",
+    "book": 4,
+    "lesson": 37,
+    "grammar": ["祈使句", "条件句"],
+    "cn": "若想致富，就必须愿意承担风险。",
+    "explanation": "if you wish to grow rich 条件从句；must be willing to 情态动词表必要。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["If you wish to grow rich, you must be willing to take risks.", "To grow rich, you must be willing to take risks."], "cn": "若想致富，就必须愿意承担风险。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["You cannot grow rich without taking risks.", "If you are unwilling to take risks, you will not grow rich."], "cn": "不愿承担风险便无法致富。" },
+      { "kind": "wh", "prompt": "对「risks」提问（问\"必须愿意承担什么\"）", "answers": ["What must you be willing to take if you wish to grow rich?"], "cn": "若想致富必须愿意承担什么？" }
+    ]
+  },
+  {
+    "id": "tf-b4-038",
+    "book": 4,
+    "lesson": 38,
+    "grammar": ["词汇辨析", "定语从句"],
+    "cn": "新发现与先前研究一致。",
+    "explanation": "be consistent with 固定搭配；findings that surprised experts 定语从句。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The new findings are consistent with previous research.", "The latest results are consistent with earlier studies."], "cn": "新发现与先前研究一致。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The new findings are not consistent with previous research.", "The results are inconsistent with earlier studies."], "cn": "新发现与先前研究不一致。" },
+      { "kind": "wh", "prompt": "对「previous research」提问（问\"与什么一致\"）", "answers": ["What are the new findings consistent with?"], "cn": "新发现与什么一致？" }
+    ]
+  },
+  {
+    "id": "tf-b4-039",
+    "book": 4,
+    "lesson": 39,
+    "grammar": ["比较结构", "定语从句"],
+    "cn": "可怕的竞争迫使小企业退出市场。",
+    "explanation": "competition that leaves no room 定语从句；force...out of 使……退出。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Dreadful competition forces small firms out of the market.", "Fierce competition drives small businesses out of the market."], "cn": "可怕的竞争迫使小企业退出市场。" },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["Small firms are forced out of the market by dreadful competition."], "cn": "小企业被可怕的竞争挤出市场。" },
+      { "kind": "wh", "prompt": "对「small firms」提问（问\"谁被迫退出\"）", "answers": ["Who is forced out of the market by dreadful competition?"], "cn": "谁被可怕的竞争挤出市场？" }
+    ]
+  },
+  {
+    "id": "tf-b4-040",
+    "book": 4,
+    "lesson": 40,
+    "grammar": ["定语从句", "疑问句"],
+    "cn": "在名人圈里，真假身份往往难以分辨。",
+    "explanation": "who's who 习语；people who pretend to be famous 定语从句。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["In celebrity circles, it is hard to tell who's who.", "Among the guests, nobody could tell who's who."], "cn": "在名人圈里，真假身份往往难以分辨。" },
+      { "kind": "wh", "prompt": "对「celebrity circles」提问（问\"在哪里难以分辨\"）", "answers": ["Where is it hard to tell who's who?"], "cn": "在哪里难以分辨真假身份？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Not everyone at the party was who they claimed to be."], "cn": "并非派对上每个人都是其所声称的身份。" }
+    ]
+  },
+  {
+    "id": "tf-b4-041",
+    "book": 4,
+    "lesson": 41,
+    "grammar": ["定语从句", "对比结构"],
+    "cn": "田园宁静的幻想与城市的现实形成鲜明对比。",
+    "explanation": "illusions that city dwellers cherish 定语从句；stand in contrast to 对比。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Illusions of pastoral peace stand in sharp contrast to urban reality.", "City dwellers cherish illusions of pastoral peace."], "cn": "田园宁静的幻想与城市的现实形成鲜明对比。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Pastoral peace is not the reality most city dwellers experience.", "The countryside is not always as peaceful as people imagine."], "cn": "田园并非总如人们想象的那般宁静。" },
+      { "kind": "wh", "prompt": "对「urban reality」提问（问\"与什么形成对比\"）", "answers": ["What do illusions of pastoral peace stand in contrast to?"], "cn": "田园幻想与什么形成对比？" }
+    ]
+  },
+  {
+    "id": "tf-b4-042",
+    "book": 4,
+    "lesson": 42,
+    "grammar": ["定语从句", "比较结构"],
+    "cn": "现代洞穴人仍偏爱狭小、封闭的空间。",
+    "explanation": "cavemen who prefer small rooms 定语从句；just as their ancestors did 比较状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Modern cavemen still prefer small, enclosed spaces.", "Some people still live like cavemen in cramped flats."], "cn": "现代洞穴人仍偏爱狭小、封闭的空间。" },
+      { "kind": "wh", "prompt": "对「small, enclosed spaces」提问（问\"偏爱什么\"）", "answers": ["What do modern cavemen still prefer?"], "cn": "现代洞穴人仍偏爱什么？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Not everyone prefers the spacious rooms architects design."], "cn": "并非人人都偏爱建筑师设计的大房间。" }
+    ]
+  },
+  {
+    "id": "tf-b4-043",
+    "book": 4,
+    "lesson": 43,
+    "grammar": ["被动语态", "条件句"],
+    "cn": "若买了全险，损失将由保险公司赔付。",
+    "explanation": "if fully insured 条件；will be covered by 将来被动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["If you are fully insured, your losses will be covered by the company.", "When fully insured, you are protected against loss."], "cn": "若买了全险，损失将由保险公司赔付。" },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["Losses will be covered by the insurance company if you are fully insured."], "cn": "若全险投保，损失将由保险公司赔付。" },
+      { "kind": "wh", "prompt": "对「the insurance company」提问（问\"由谁赔付\"）", "answers": ["By whom will losses be covered if you are fully insured?"], "cn": "全险之下损失由谁赔付？" }
+    ]
+  },
+  {
+    "id": "tf-b4-044",
+    "book": 4,
+    "lesson": 44,
+    "grammar": ["被动语态", "情态动词"],
+    "cn": "时速限制必须严格执行。",
+    "explanation": "speed limits that must be enforced 定语从句；must be observed 被动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Speed limits must be strictly enforced.", "The speed limit must be observed on this road."], "cn": "时速限制必须严格执行。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Speed limits are not always observed by drivers.", "The limit must not be exceeded."], "cn": "司机并非总遵守限速。" },
+      { "kind": "wh", "prompt": "对「speed limits」提问（问\"必须执行什么\"）", "answers": ["What must be strictly enforced?"], "cn": "必须严格执行什么？" }
+    ]
+  },
+  {
+    "id": "tf-b4-045",
+    "book": 4,
+    "lesson": 45,
+    "grammar": ["过去完成时", "定语从句"],
+    "cn": "迁徙的记忆在他心中萦绕了数十年。",
+    "explanation": "had haunted 过去完成时；memories of the village 介词短语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Memories of migration had haunted him for decades.", "He had been haunted by memories of his old home."], "cn": "迁徙的记忆在他心中萦绕了数十年。" },
+      { "kind": "wh", "prompt": "对「decades」提问（问时间长度）", "answers": ["How long had memories of migration haunted him?"], "cn": "迁徙的记忆萦绕了他多久？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He had not forgotten the village he left behind."], "cn": "他未曾忘记离开的那个村庄。" }
+    ]
+  },
+  {
+    "id": "tf-b4-046",
+    "book": 4,
+    "lesson": 46,
+    "grammar": ["被动语态", "定语从句"],
+    "cn": "蜜蜂的语言至今仍令科学家着迷。",
+    "explanation": "language that bees use 定语从句；is still being studied 现在进行时被动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The language of bees still fascinates scientists.", "The dance bees use is still being studied."], "cn": "蜜蜂的语言至今仍令科学家着迷。" },
+      { "kind": "passive", "prompt": "改为被动语态", "answers": ["The language of bees is still studied by scientists.", "Scientists are still fascinated by the language of bees."], "cn": "蜜蜂的语言仍被科学家研究。" },
+      { "kind": "wh", "prompt": "对「scientists」提问（问\"谁仍着迷于\"）", "answers": ["Who is still fascinated by the language of bees?"], "cn": "谁仍对蜜蜂的语言着迷？" }
+    ]
+  },
+  {
+    "id": "tf-b4-047",
+    "book": 4,
+    "lesson": 47,
+    "grammar": ["定语从句", "非谓语动词"],
+    "cn": "过着高层生活的人往往承受着巨大压力。",
+    "explanation": "those who live a high life 定语从句；suffering from stress 分词作状语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Those who live a high life often suffer great pressure.", "People living at the top often face enormous stress."], "cn": "过着高层生活的人往往承受着巨大压力。" },
+      { "kind": "wh", "prompt": "对「great pressure」提问（问\"承受什么\"）", "answers": ["What do those who live a high life often suffer?"], "cn": "高层生活的人往往承受什么？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["A high life does not always bring happiness."], "cn": "高层生活并非总带来幸福。" }
+    ]
+  },
+  {
+    "id": "tf-b4-048",
+    "book": 4,
+    "lesson": 48,
+    "grammar": ["定语从句", "被动语态"],
+    "cn": "援助之手在灾难后伸向灾民。",
+    "explanation": "hands that were extended 定语从句；were offered to 被动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Helping hands were extended to the victims after the disaster.", "Aid was offered to those who had lost their homes."], "cn": "灾难后援助之手伸向灾民。" },
+      { "kind": "passive", "prompt": "改为主动语态", "answers": ["Volunteers extended helping hands to the victims after the disaster."], "cn": "灾难后志愿者向灾民伸出了援助之手。" },
+      { "kind": "wh", "prompt": "对「the victims」提问（问\"向谁伸出\"）", "answers": ["To whom were helping hands extended after the disaster?"], "cn": "灾难后向谁伸出了援助之手？" }
+    ]
+  }
+]

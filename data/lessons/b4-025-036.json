@@ -1,0 +1,2423 @@
+[
+  {
+    "book": 4,
+    "lesson": 25,
+    "title": "Non-auditory effects of noise",
+    "titleCn": "噪音的非听觉效应",
+    "scene": "许多在工业部门和军队服役、对噪音有实际经验的人，认为研究噪音影响纯属浪费时间，甚至不愿承认噪音可能对人产生任何影响。另一方面，厌恶噪音者有时用极不充分证据支持「更安静社会」的呼吁——这令人遗憾，因为降低噪音确是一桩好事，若与拙劣科学扯在一起，很可能名誉扫地。常见说法是噪音导致精神疾病，但轶事无法区分因果：噪音是病因，还是对噪音的抱怨只是症状？需要对大量生活在嘈杂环境中的人进行研究；即便是美国海军在航空母舰上的大规模调查，也未能一劳永逸地解决这一问题。本课语法侧重 symptom/cause 等词汇辨析，以及 the possibility that、people who 引导的从句。",
+    "grammarTags": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "abatement",
+        "phon": "/əˈbeɪtmənt/",
+        "pos": "n.",
+        "cn": "降低；减少",
+        "eg": "Noise abatement is a good cause. 降低噪音确是一桩好事。"
+      },
+      {
+        "word": "allegation",
+        "phon": "/ˌæləˈɡeɪʃn/",
+        "pos": "n.",
+        "cn": "说法；指控",
+        "eg": "One allegation often made is that noise produces mental illness. 一种常见说法是噪音会导致精神疾病。"
+      },
+      {
+        "word": "anecdote",
+        "phon": "/ˈænɪkdəʊt/",
+        "pos": "n.",
+        "cn": "轶事",
+        "eg": "The snag in such anecdotes is that cause cannot be distinguished from effect. 这类轶事的症结在于无法区分因果。"
+      },
+      {
+        "word": "symptom",
+        "phon": "/ˈsɪmptəm/",
+        "pos": "n.",
+        "cn": "症状",
+        "eg": "Were complaints about noise merely a symptom? 对噪音的抱怨只是症状吗？"
+      },
+      {
+        "word": "snag",
+        "phon": "/snæɡ/",
+        "pos": "n.",
+        "cn": "症结；障碍",
+        "eg": "The snag in such anecdotes is hard to resolve. 这类轶事的症结难以解决。"
+      },
+      {
+        "word": "inadequate",
+        "phon": "/ɪnˈædɪkwət/",
+        "pos": "adj.",
+        "cn": "不充分的",
+        "eg": "They use most inadequate evidence to support their pleas. 他们用极不充分的证据支持呼吁。"
+      },
+      {
+        "word": "discredit",
+        "phon": "/dɪsˈkredɪt/",
+        "pos": "v.",
+        "cn": "使名誉扫地",
+        "eg": "A good cause may be discredited by bad science. 好事可能因拙劣科学而名誉扫地。"
+      },
+      {
+        "word": "dismiss",
+        "phon": "/dɪsˈmɪs/",
+        "pos": "v.",
+        "cn": "不予理会；驳回",
+        "eg": "Experts often dismiss research into noise effects. 专家常对噪音影响研究不予理会。"
+      },
+      {
+        "word": "investigation",
+        "phon": "/ɪnˌvestɪˈɡeɪʃn/",
+        "pos": "n.",
+        "cn": "调查；研究",
+        "eg": "They regard any investigation of noise as a waste of time. 他们认为研究噪音纯属浪费时间。"
+      },
+      {
+        "word": "silt",
+        "phon": "/sɪlt/",
+        "pos": "n.",
+        "cn": "淤泥",
+        "eg": ""
+      },
+      {
+        "word": "scavenger",
+        "phon": "/'skævɪndʒər/",
+        "pos": "n.",
+        "cn": "食腐动物",
+        "eg": ""
+      },
+      {
+        "word": "vole",
+        "phon": "/vəʊl/",
+        "pos": "n.",
+        "cn": "野鼠，鼹鼠",
+        "eg": ""
+      },
+      {
+        "word": "decompose",
+        "phon": "/ˌdiːkəm'pouz/",
+        "pos": "v.",
+        "cn": "腐烂",
+        "eg": ""
+      },
+      {
+        "word": "inaccessible",
+        "phon": "/ˌɪnæk'sesəbl/",
+        "pos": "a.",
+        "cn": "不能到达的",
+        "eg": ""
+      },
+      {
+        "word": "crevasse",
+        "phon": "/[kri'væs]/",
+        "pos": "n.",
+        "cn": "缝隙",
+        "eg": ""
+      },
+      {
+        "word": "Siberian",
+        "phon": "/[sai'biәriәn]/",
+        "pos": "a.",
+        "cn": "西伯利亚的",
+        "eg": ""
+      },
+      {
+        "word": "paleontological",
+        "phon": "",
+        "pos": "a.",
+        "cn": "古生物学的",
+        "eg": ""
+      },
+      {
+        "word": "St.Petersbrug",
+        "phon": "",
+        "pos": "n.",
+        "cn": "圣彼得堡",
+        "eg": ""
+      },
+      {
+        "word": "sabre-toothed",
+        "phon": "",
+        "pos": "a.",
+        "cn": "长着锐利的长犬牙的",
+        "eg": ""
+      },
+      {
+        "word": "venture",
+        "phon": "/'ventʃər/",
+        "pos": "v.",
+        "cn": "冒险",
+        "eg": ""
+      },
+      {
+        "word": "bogged",
+        "phon": "",
+        "pos": "a.",
+        "cn": "陷入泥沼的，陷于困境的",
+        "eg": ""
+      },
+      {
+        "word": "galleon",
+        "phon": "/'gælɪən/",
+        "pos": "n.",
+        "cn": "大型帆船",
+        "eg": ""
+      },
+      {
+        "word": "Stockholm",
+        "phon": "/['stɔkhәum]/",
+        "pos": "n.",
+        "cn": "斯德哥尔摩",
+        "eg": ""
+      },
+      {
+        "word": "flagship",
+        "phon": "/'flægʃɪp/",
+        "pos": "n.",
+        "cn": "旗舰",
+        "eg": ""
+      },
+      {
+        "word": "imperial",
+        "phon": "/ɪm'pɪriəl/",
+        "pos": "a.",
+        "cn": "帝国的",
+        "eg": ""
+      },
+      {
+        "word": "hurricane",
+        "phon": "/'hɜːrəkən/",
+        "pos": "n.",
+        "cn": "飓风",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "词汇辨析",
+        "explain": "symptom 表「症状」，与 cause「原因」相对；noise abatement 表「降低噪音」；dismiss 表「不予理会」，discredit 表「使名誉扫地」。易错点：abatement 不可与 containment 混淆。",
+        "examples": [
+          "Was the noise a cause of the illness, or were complaints about noise merely a symptom? （噪音是致病原因，还是对噪音的抱怨只是症状？）",
+          "Noise abatement really is a good cause, and it is likely to be discredited if linked to bad science. （降低噪音确是一桩好事，若与拙劣科学扯在一起，很可能名誉扫地。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 people、evidence、conditions 时用定语从句：people who have practical experience of noise、people who live under noisy conditions。the possibility that 引导同位语从句解释 possibility 内容。易错点：先行词指人作主语用 who。",
+        "examples": [
+          "People who have practical experience of noise often dismiss research into its effects. （对噪音有实际经验的人常对研究不予理会。）",
+          "They are not prepared to admit the possibility that noise affects people in any way. （他们甚至不愿承认噪音可能对人产生任何影响。）"
+        ]
+      }
+    ],
+    "tips": "①symptom 与 cause 相对；②noise abatement 降低噪音；③the possibility that 同位语从句，that 不可省。"
+  },
+  {
+    "book": 4,
+    "lesson": 26,
+    "title": "The past life of the earth",
+    "titleCn": "地球的昔日生命",
+    "scene": "正是生活在水中或水边的动植物，其遗骸最易保存下来。地质记录揭示生命历经无数世代演化，在沉积物和岩层中留下痕迹；暴露于空气并腐烂的遗骸很快消失，除非在分解开始之前被掩埋。保存在古老湖床中的化石，比开阔平原上散落的骨骼更能说明问题。直到不久前，科学家还只能猜测数百万年前地球的模样；对含化石地层的研究，彻底改变了我们对地球远古面貌的认识。本课语法侧重 unless/until 等连词，以及修饰 fossils、remains 的定语从句与过去分词作定语。",
+    "grammarTags": [
+      "连词",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "fossil",
+        "phon": "/ˈfɒsl/",
+        "pos": "n.",
+        "cn": "化石",
+        "eg": "Fossils preserved in ancient lake beds tell us much. 保存在古老湖床中的化石告诉我们很多。"
+      },
+      {
+        "word": "sediment",
+        "phon": "/ˈsedɪmənt/",
+        "pos": "n.",
+        "cn": "沉积物",
+        "eg": "Life left traces buried in sediments and rock formations. 生命在沉积物和岩层中留下痕迹。"
+      },
+      {
+        "word": "stratum",
+        "phon": "/ˈstrɑːtəm/",
+        "pos": "n.",
+        "cn": "地层",
+        "eg": "The study of strata in which fossils are embedded transformed our picture. 对含化石地层的研究改变了我们的认识。"
+      },
+      {
+        "word": "preserve",
+        "phon": "/prɪˈzɜːv/",
+        "pos": "v.",
+        "cn": "保存",
+        "eg": "Remains are most likely to be preserved near water. 遗骸在水边最易保存。"
+      },
+      {
+        "word": "decompose",
+        "phon": "/ˌdiːkəmˈpəʊz/",
+        "pos": "v.",
+        "cn": "分解；腐烂",
+        "eg": "Remains vanish unless buried before decomposition sets in. 遗骸除非在分解前被掩埋，否则消失。"
+      },
+      {
+        "word": "geological",
+        "phon": "/ˌdʒiːəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "cn": "地质的",
+        "eg": "Impressions endure for geological ages. 印痕绵延地质年代。"
+      },
+      {
+        "word": "impression",
+        "phon": "/ɪmˈpreʃn/",
+        "pos": "n.",
+        "cn": "印痕",
+        "eg": "Creatures left impressions that endure for ages. 生物留下了绵延年代的印痕。"
+      },
+      {
+        "word": "ecosystem",
+        "phon": "/ˈiːkəʊsɪstəm/",
+        "pos": "n.",
+        "cn": "生态系统",
+        "eg": "We must read the story written by vanished ecosystems. 必须解读消逝生态系统铭刻的故事。"
+      },
+      {
+        "word": "remain",
+        "phon": "/rɪˈmeɪn/",
+        "pos": "n.",
+        "cn": "遗骸；遗迹",
+        "eg": "It is animals and plants whose remains are most likely to be preserved. 正是动植物的遗骸最易保存。"
+      },
+      {
+        "word": "might",
+        "phon": "/maɪt/",
+        "pos": "n.",
+        "cn": "力量",
+        "eg": ""
+      },
+      {
+        "word": "ferment",
+        "phon": "/fə'ment/",
+        "pos": "n.",
+        "cn": "激动不安",
+        "eg": ""
+      },
+      {
+        "word": "ornament",
+        "phon": "/'ɔːnəm(ə)nt/",
+        "pos": "v.",
+        "cn": "装饰",
+        "eg": ""
+      },
+      {
+        "word": "riot",
+        "phon": "/'raɪət/",
+        "pos": "n.",
+        "cn": "丰富",
+        "eg": ""
+      },
+      {
+        "word": "demon",
+        "phon": "/'diːmən/",
+        "pos": "n.",
+        "cn": "恶魔",
+        "eg": ""
+      },
+      {
+        "word": "mermaid",
+        "phon": "/'mɜːmeɪd/",
+        "pos": "n.",
+        "cn": "美人鱼",
+        "eg": ""
+      },
+      {
+        "word": "cherub",
+        "phon": "/['tʃerәb]/",
+        "pos": "n.",
+        "cn": "小天使",
+        "eg": ""
+      },
+      {
+        "word": "zoomorphic",
+        "phon": "/['zouә'mɔ:fik]/",
+        "pos": "a.",
+        "cn": "兽形的",
+        "eg": ""
+      },
+      {
+        "word": "ablaze",
+        "phon": "/ə'bleɪz/",
+        "pos": "a.",
+        "cn": "光彩的",
+        "eg": ""
+      },
+      {
+        "word": "portray",
+        "phon": "/pɔːr'treɪ/",
+        "pos": "v.",
+        "cn": "绘制",
+        "eg": ""
+      },
+      {
+        "word": "drifting",
+        "phon": "",
+        "pos": "a.",
+        "cn": "弥漫的",
+        "eg": ""
+      },
+      {
+        "word": "churn",
+        "phon": "/tʃɜːn/",
+        "pos": "v.",
+        "cn": "翻滚",
+        "eg": ""
+      },
+      {
+        "word": "pennant",
+        "phon": "/'penənt/",
+        "pos": "n.",
+        "cn": "三角旗",
+        "eg": ""
+      },
+      {
+        "word": "superstructure",
+        "phon": "/'suːpəstrʌktʃə; 'sjuː-/",
+        "pos": "n.",
+        "cn": "上部结构",
+        "eg": ""
+      },
+      {
+        "word": "armament",
+        "phon": "/'ɑːməm(ə)nt/",
+        "pos": "n.",
+        "cn": "军械",
+        "eg": ""
+      },
+      {
+        "word": "triple",
+        "phon": "/'trɪpl/",
+        "pos": "a.",
+        "cn": "三层的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "连词",
+        "explain": "unless = if not，表「除非」：Remains vanish unless they are buried before decomposition sets in。not ... until 表「直到……才」：Scientists could not read the past until the study of strata began。易错点：unless 后接肯定形式。",
+        "examples": [
+          "Remains exposed to air quickly vanish unless they are buried before decomposition sets in. （暴露于空气的遗骸很快消失，除非在分解前被掩埋。）",
+          "Scientists could not read the earth's distant past until the study of fossil-bearing strata began. （直到地层研究开始，科学家才能解读地球远古面貌。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "It is ... which/that ... whose 强调结构：It is animals and plants which lived in or near water whose remains are preserved。修饰 fossils、creatures 用定语从句；fossils preserved 过去分词作定语表被动。易错点：强调句中 which 指物。",
+        "examples": [
+          "It is animals and plants which lived in or near water whose remains are most likely to be preserved. （正是生活在水中或水边的动植物，其遗骸最易保存。）",
+          "Fossils preserved in ancient lake beds tell us far more than scattered bones. （保存在古老湖床中的化石比散落骨骼更能说明问题。）"
+        ]
+      }
+    ],
+    "tips": "①unless = if not；②not ... until 直到……才；③fossils preserved 过去分词作定语表被动。"
+  },
+  {
+    "book": 4,
+    "lesson": 27,
+    "title": "The Vasa",
+    "titleCn": "「瓦萨」号沉船",
+    "scene": "威力无比的「瓦萨」号本欲称霸波罗的海，在斯德哥尔摩下水之前，工匠们已为之劳作了三年。她配备三层炮甲板、六十四门青铜加农炮，其雄伟景象斯德哥尔摩人前所未见。风势加剧时突然袭来暴风，船身向左舷倾侧；军械官下令将左舷大炮移至右舷以抵消倾斜，但甲板倾角愈发陡峭。货物、压舱物、弹药和四百人滑向左舷，下层炮眼没入水下，海水涌入注定了命运——几分钟之内，为展示瑞典海军威力而建造的瓦萨号便沉入了港底。本课语法侧重叙述沉船经过的过去完成时，以及修饰 the Vasa、gun-decks 的定语从句与分词作定语。",
+    "grammarTags": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "Vasa",
+        "phon": "/ˈvɑːsə/",
+        "pos": "n.",
+        "cn": "瓦萨号",
+        "eg": "The mighty Vasa was intended to rule the Baltic. 威力无比的瓦萨号本欲称霸波罗的海。"
+      },
+      {
+        "word": "Baltic",
+        "phon": "/ˈbɔːltɪk/",
+        "pos": "n.",
+        "cn": "波罗的海",
+        "eg": "She was built to display Sweden's naval might in the Baltic. 她为展示瑞典在波罗的海的海军威力而建造。"
+      },
+      {
+        "word": "list",
+        "phon": "/lɪst/",
+        "pos": "v.",
+        "cn": "倾斜",
+        "eg": "The ship made a strange movement, listing to port. 船身奇怪地倾斜，向左舷倾侧。"
+      },
+      {
+        "word": "gun-port",
+        "phon": "/ˈɡʌnpɔːt/",
+        "pos": "n.",
+        "cn": "炮眼",
+        "eg": "The lower gun-ports went below water. 下层炮眼没入水下。"
+      },
+      {
+        "word": "ballast",
+        "phon": "/ˈbæləst/",
+        "pos": "n.",
+        "cn": "压舱物",
+        "eg": "Cargo, ballast and ammunition slid to port. 货物、压舱物和弹药滑向左舷。"
+      },
+      {
+        "word": "ordnance",
+        "phon": "/ˈɔːdnəns/",
+        "pos": "n.",
+        "cn": "军械；大炮",
+        "eg": "The Ordnance officer ordered the port cannon heaved to starboard. 军械官下令将左舷大炮移至右舷。"
+      },
+      {
+        "word": "squall",
+        "phon": "/skwɔːl/",
+        "pos": "n.",
+        "cn": "暴风",
+        "eg": "As the wind freshened, there came a sudden squall. 风势加剧时突然袭来暴风。"
+      },
+      {
+        "word": "cannon",
+        "phon": "/ˈkænən/",
+        "pos": "n.",
+        "cn": "加农炮",
+        "eg": "Triple gun-decks mounting sixty-four bronze cannon. 三层炮甲板搭载六十四门青铜加农炮。"
+      },
+      {
+        "word": "launch",
+        "phon": "/lɔːntʃ/",
+        "pos": "v.",
+        "cn": "下水",
+        "eg": "She had been laboured over for three years before she was launched. 下水之前已为之劳作了三年。"
+      },
+      {
+        "word": "mount",
+        "phon": "/maunt/",
+        "pos": "v.",
+        "cn": "登上",
+        "eg": ""
+      },
+      {
+        "word": "bronze",
+        "phon": "/brɑːnz/",
+        "pos": "n.",
+        "cn": "青铜",
+        "eg": "Triple gun-decks mounted sixty-four bronze cannon."
+      },
+      {
+        "word": "majestic",
+        "phon": "/mə'dʒestɪk/",
+        "pos": "a.",
+        "cn": "威严的",
+        "eg": "she presented a more majestic spectacle than Stockholmers had ever seen before."
+      },
+      {
+        "word": "muzzle",
+        "phon": "/'mʌz(ə)l/",
+        "pos": "n.",
+        "cn": "炮口",
+        "eg": ""
+      },
+      {
+        "word": "freshen",
+        "phon": "/'freʃ(ə)n/",
+        "pos": "v.",
+        "cn": "变强",
+        "eg": ""
+      },
+      {
+        "word": "port",
+        "phon": "/pɔːt/",
+        "pos": "n.",
+        "cn": "(船、飞机的)左舷",
+        "eg": "As the wind freshened there came a sudden squall and the ship made a strange movement, listing to port."
+      },
+      {
+        "word": "heave",
+        "phon": "/hiːv/",
+        "pos": "v.",
+        "cn": "拖",
+        "eg": ""
+      },
+      {
+        "word": "starboard",
+        "phon": "/ˈstɑ:bəd/",
+        "pos": "n.",
+        "cn": "(船、飞机的)右舷",
+        "eg": "The Ordnance officer ordered all the port cannon to be heaved to starboard"
+      },
+      {
+        "word": "counteract",
+        "phon": "/ˌkauntər'ækt/",
+        "pos": "v.",
+        "cn": "抵消",
+        "eg": "to counteract the list but the steepening angle of the decks increased."
+      },
+      {
+        "word": "steepen",
+        "phon": "/['sti:pәn]/",
+        "pos": "v.",
+        "cn": "变得更陡峭",
+        "eg": ""
+      },
+      {
+        "word": "inrush",
+        "phon": "/['inrʌʃ]/",
+        "pos": "n.",
+        "cn": "水的涌入",
+        "eg": "The lower gun-ports were now below water and the inrush sealed the ship's fate."
+      }
+    ],
+    "grammar": [
+      {
+        "point": "过去完成时",
+        "explain": "叙述「在过去某动作之前已完成的事」用 had done：had laboured、had been listing。by the time + 过去时，主句用过去完成（进行）时。易错点：下水（launched）之前的劳作用 had laboured。",
+        "examples": [
+          "Workers had laboured for three years before the Vasa was launched at Stockholm. （瓦萨号在斯德哥尔摩下水之前，工匠们已为之劳作了三年。）",
+          "By the time the lower gun-ports went below water, the ship had been listing to port for several minutes. （下层炮眼没入水下时，船已向左舷倾斜数分钟。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 the Vasa、gun-decks 时用定语从句与非限制性定语从句：The Vasa, which was intended to rule the Baltic...。现在分词 mounting 作定语表主动：gun-decks mounting sixty-four cannon。易错点：非限制性定语从句用 which，不可用 that。",
+        "examples": [
+          "The Vasa, which was intended to rule the Baltic, sank within minutes of her maiden voyage. （本欲称霸波罗的海的瓦萨号，在首航数分钟内沉没。）",
+          "Triple gun-decks mounting sixty-four bronze cannon made the Vasa a majestic sight. （搭载六十四门青铜炮的三层炮甲板使瓦萨号景象雄伟。）"
+        ]
+      }
+    ],
+    "tips": "①下水之前的劳作用 had laboured；②非限制性定语从句用 which；③mounting cannon 现在分词作定语表主动。"
+  },
+  {
+    "book": 4,
+    "lesson": 28,
+    "title": "Patients and doctors",
+    "titleCn": "病人与医生",
+    "scene": "大多数门诊病人觉得，除非能带回家的有形药物，否则便未得到充分治疗——他们所要的是一瓶药、一盒药丸，或至少一小罐药膏。没有比开些可带走的药更快打发病人的办法了。迷信药瓶疗效的并非只有无知少识之人；尽管我们对许多疗法的怀疑日增，对有形处方的信心却依然根深蒂固。托马斯·卡莱尔曾揣着一瓶曾为其妻轻微不适而开的余药去看望朋友。期望立即痊愈的病人，往往在医生只给建议与安慰时大失所望。本课语法侧重 unless 引导的条件，以及修饰 patients、drugs 的定语从句与被动语态。",
+    "grammarTags": [
+      "定语从句",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "tangible",
+        "phon": "/ˈtændʒəbl/",
+        "pos": "adj.",
+        "cn": "有形的；切实的",
+        "eg": "Patients want a tangible remedy to take home. 病人想要可以带回家的有形药物。"
+      },
+      {
+        "word": "remedy",
+        "phon": "/ˈremədi/",
+        "pos": "n.",
+        "cn": "药物；疗法",
+        "eg": "What they demand is a bottle of medicine. 他们所要的是一瓶药。"
+      },
+      {
+        "word": "out-patient",
+        "phon": "/ˈaʊtpeɪʃnt/",
+        "pos": "n.",
+        "cn": "门诊病人",
+        "eg": "The majority of out-patients feel inadequately treated. 大多数门诊病人觉得治疗不足。"
+      },
+      {
+        "word": "ointment",
+        "phon": "/ˈɔɪntmənt/",
+        "pos": "n.",
+        "cn": "药膏",
+        "eg": "They want at least a small jar of ointment. 他们至少想要一小罐药膏。"
+      },
+      {
+        "word": "prescribe",
+        "phon": "/prɪˈskraɪb/",
+        "pos": "v.",
+        "cn": "开处方",
+        "eg": "There is no quicker way than prescribing a drug they can carry away. 没有比开可带走的药更快的办法。"
+      },
+      {
+        "word": "dispose",
+        "phon": "/dɪˈspəʊz/",
+        "pos": "v.",
+        "cn": "处理；打发",
+        "eg": "There is no quicker way of disposing of patients. 没有更快打发病人的办法。"
+      },
+      {
+        "word": "sceptical",
+        "phon": "/ˈskeptɪkl/",
+        "pos": "adj.",
+        "cn": "怀疑的",
+        "eg": "Our scepticism about many remedies has grown. 我们对许多疗法的怀疑日增。"
+      },
+      {
+        "word": "curative",
+        "phon": "/ˈkjʊərətɪv/",
+        "pos": "adj.",
+        "cn": "有疗效的",
+        "eg": "Faith in the curative properties of the medicine bottle persists. 对药物疗效的信念依然存在。"
+      },
+      {
+        "word": "indisposition",
+        "phon": "/ˌɪndɪspəˈzɪʃn/",
+        "pos": "n.",
+        "cn": "轻微不适",
+        "eg": "A bottle formerly prescribed for a minor indisposition remained in his pocket. 一瓶曾为轻微不适而开的余药留在他口袋里。"
+      },
+      {
+        "word": "skeptical",
+        "phon": "/'skeptɪkl/",
+        "pos": "a.",
+        "cn": "怀疑的",
+        "eg": ""
+      },
+      {
+        "word": "forefathers",
+        "phon": "",
+        "pos": "n.",
+        "cn": "祖先",
+        "eg": "but although our faith in many of the things in which our forefathers fervently believed has weakened,"
+      },
+      {
+        "word": "fervently",
+        "phon": "/['fә:vәntli]/",
+        "pos": "adv.",
+        "cn": "热情地",
+        "eg": "but although our faith in many of the things in which our forefathers fervently believed has weakened,"
+      },
+      {
+        "word": "astronomical",
+        "phon": "/ˌæstrə'nɑːmɪkl/",
+        "pos": "a.",
+        "cn": "天文学的",
+        "eg": "that the annual drug bill of the Health Services is mounting to astronomical figures."
+      },
+      {
+        "word": "disgusting",
+        "phon": "/dɪs'gʌstɪŋ/",
+        "pos": "a.",
+        "cn": "令人讨厌的",
+        "eg": "beyond that of putting up for a moment with a disgusting taste,"
+      },
+      {
+        "word": "inconvenience",
+        "phon": "/ɪnkən'viːnɪəns/",
+        "pos": "n.",
+        "cn": "不便",
+        "eg": "and that is what all patients demand of their doctors--to be cured at no inconvenience to themselves."
+      },
+      {
+        "word": "hovercraft",
+        "phon": "/'hɔvәkra:ft/",
+        "pos": "n.",
+        "cn": "气垫船",
+        "eg": ""
+      },
+      {
+        "word": "Norfolk Broads",
+        "phon": "",
+        "pos": "n.",
+        "cn": "诺福克郡的湖泊地区",
+        "eg": ""
+      },
+      {
+        "word": "cushion",
+        "phon": "/'kuʃn/",
+        "pos": "n.",
+        "cn": "座垫",
+        "eg": ""
+      },
+      {
+        "word": "ring",
+        "phon": "/rɪŋ/",
+        "pos": "v.",
+        "cn": "围",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "修饰 patients、drugs、bottle 时用定语从句：patients who attend a physician、a drug which they can carry away。Nor 置句首引起部分倒装：Nor is it only the ignorant who...。过去分词 prescribed 作定语表被动。易错点：the ignorant 指人，用 who。",
+        "examples": [
+          "There is no quicker way of disposing of patients than by prescribing a drug which they can carry away. （没有比开些可带走的药更快打发病人的办法。）",
+          "Nor is it only the ignorant who have such faith in the curative properties of the medicine bottle. （迷信药瓶疗效的并非只有无知少识之人。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "病人觉得「未被充分治疗」用被动：feel they have not been treated adequately。prescribed for 过去分词表被动：a bottle formerly prescribed。易错点：unless 后接肯定形式，表「除非带药回家」。",
+        "examples": [
+          "Patients feel inadequately treated unless they carry home a tangible remedy. （病人除非带回家的有形药物，否则便觉治疗不足。）",
+          "Patients who leave without pills often feel they have not been treated adequately. （未带药离开的病人常觉得未被充分治疗。）"
+        ]
+      }
+    ],
+    "tips": "①unless = if not，病人带药才觉治疗充分；②Nor 置句首部分倒装；③prescribed 过去分词作定语表被动。"
+  },
+  {
+    "book": 4,
+    "lesson": 29,
+    "title": "The hovercraft",
+    "titleCn": "气垫船",
+    "scene": "曾从造船转向研究的克里斯托弗·科克雷尔，提出了一个他已酝酿多年的构想。他的气垫船依靠围在船体外的柔性橡胶裙内形成的气垫行驶，借此与地面或水面的摩擦力大为减小。一九五九年在索伦特海峡的首次试验在工程师和记者中引起轰动——一种交通工具能仅凭气垫在陆地和水面滑行，这似乎近乎奇迹。科克雷尔历经多年质疑，气垫船才获得官方支持与资助。依靠排水量航行的船须推开海水；乘气垫行驶的船阻力小得多。本课语法侧重 no doubt that 等同位语从句，以及 friction/sensation 等词汇辨析。",
+    "grammarTags": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "words": [
+      {
+        "word": "hovercraft",
+        "phon": "/ˈhɒvəkrɑːft/",
+        "pos": "n.",
+        "cn": "气垫船",
+        "eg": "His hovercraft rides on a cushion of air. 他的气垫船依靠气垫行驶。"
+      },
+      {
+        "word": "cushion",
+        "phon": "/ˈkʊʃn/",
+        "pos": "n.",
+        "cn": "气垫；缓冲",
+        "eg": "A craft could skim over land on a mere cushion of air. 交通工具能仅凭气垫在陆地滑行。"
+      },
+      {
+        "word": "skirt",
+        "phon": "/skɜːt/",
+        "pos": "n.",
+        "cn": "裙边；围裙",
+        "eg": "Air is trapped inside a flexible rubber skirt. 空气被围在柔性橡胶裙内。"
+      },
+      {
+        "word": "friction",
+        "phon": "/ˈfrɪkʃn/",
+        "pos": "n.",
+        "cn": "摩擦",
+        "eg": "Friction with the ground or water is greatly reduced. 与地面或水面的摩擦力大为减小。"
+      },
+      {
+        "word": "sensation",
+        "phon": "/senˈseɪʃn/",
+        "pos": "n.",
+        "cn": "轰动",
+        "eg": "The first tests caused a sensation among engineers. 首次试验在工程师中引起轰动。"
+      },
+      {
+        "word": "miraculous",
+        "phon": "/mɪˈrækjələs/",
+        "pos": "adj.",
+        "cn": "奇迹般的",
+        "eg": "Skimming on air seemed almost miraculous. 凭气垫滑行似乎近乎奇迹。"
+      },
+      {
+        "word": "scepticism",
+        "phon": "/ˈskeptɪsɪzəm/",
+        "pos": "n.",
+        "cn": "怀疑",
+        "eg": "Cockerell faced years of scepticism. 科克雷尔历经多年质疑。"
+      },
+      {
+        "word": "displacement",
+        "phon": "/dɪsˈpleɪsmənt/",
+        "pos": "n.",
+        "cn": "排水量",
+        "eg": "Ships that depend on displacement must push water aside. 依靠排水量的船须推开海水。"
+      },
+      {
+        "word": "craft",
+        "phon": "/krɑːft/",
+        "pos": "n.",
+        "cn": "船只；飞行器",
+        "eg": "A craft could skim over land and water. 一种交通工具能在陆地和水面滑行。"
+      },
+      {
+        "word": "Solent",
+        "phon": "",
+        "pos": "n.",
+        "cn": "(英国的)苏伦特海峡",
+        "eg": "The first tests on the Solent in 1959 caused a sensation."
+      },
+      {
+        "word": "dune",
+        "phon": "/djuːn/",
+        "pos": "n.",
+        "cn": "沙丘",
+        "eg": ""
+      },
+      {
+        "word": "plantation",
+        "phon": "/plæn'teɪʃn/",
+        "pos": "n.",
+        "cn": "种植园",
+        "eg": ""
+      },
+      {
+        "word": "hover-train",
+        "phon": "",
+        "pos": "n.",
+        "cn": "气垫火车",
+        "eg": ""
+      },
+      {
+        "word": "navigation",
+        "phon": "/nævɪ'geɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "航海",
+        "eg": ""
+      },
+      {
+        "word": "sounding",
+        "phon": "",
+        "pos": "n.",
+        "cn": "水深度",
+        "eg": ""
+      },
+      {
+        "word": "porcupine",
+        "phon": "/'pɔːkjʊpaɪn/",
+        "pos": "n.",
+        "cn": "箭猪",
+        "eg": ""
+      },
+      {
+        "word": "dredge",
+        "phon": "/dredʒ/",
+        "pos": "v.",
+        "cn": "挖掘",
+        "eg": ""
+      },
+      {
+        "word": "expedition",
+        "phon": "/ˌekspə'dɪʃn/",
+        "pos": "n.",
+        "cn": "远征",
+        "eg": ""
+      },
+      {
+        "word": "physicist",
+        "phon": "/'fɪzɪsɪst/",
+        "pos": "n.",
+        "cn": "物理学家",
+        "eg": ""
+      },
+      {
+        "word": "magnitude",
+        "phon": "/'mægnɪtjuːd/",
+        "pos": "n.",
+        "cn": "很多",
+        "eg": ""
+      },
+      {
+        "word": "topography",
+        "phon": "/tə'pɑːgrəfi/",
+        "pos": "n.",
+        "cn": "地形",
+        "eg": ""
+      },
+      {
+        "word": "crust",
+        "phon": "/krʌst/",
+        "pos": "n.",
+        "cn": "地壳",
+        "eg": ""
+      },
+      {
+        "word": "rugged",
+        "phon": "/'rʌgɪd/",
+        "pos": "a.",
+        "cn": "崎岖不平的",
+        "eg": ""
+      },
+      {
+        "word": "tableland",
+        "phon": "/'teɪbllænd/",
+        "pos": "n.",
+        "cn": "高地",
+        "eg": ""
+      },
+      {
+        "word": "sediment",
+        "phon": "/'sedɪmənt/",
+        "pos": "n.",
+        "cn": "沉淀物",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "no doubt / the fact + that 从句说明名词内容：There is no doubt that a hovercraft rides on a cushion of air。an idea on which he had been working 中 which 引导定语从句，介词 on 提前。易错点：that 在同位语从句中不作成分，不可省略。",
+        "examples": [
+          "There is no doubt that a hovercraft rides on a cushion of air trapped inside a rubber skirt. （毫无疑问，气垫船依靠橡胶裙内形成的气垫行驶。）",
+          "Cockerell suggested an idea on which he had been working for many years. （科克雷尔提出了一个他已酝酿多年的构想。）"
+        ]
+      },
+      {
+        "point": "词汇辨析",
+        "explain": "reduce friction 减少摩擦；cause a sensation 引起轰动；exert 表「施加」常与 influence 搭配，不与 friction 搭配。depend on displacement 依靠排水量。易错点：sensation 是「轰动」，不是 sensation「感觉」的普通义在此课文中。",
+        "examples": [
+          "By riding on a cushion of air, the hovercraft greatly reduces friction with water. （乘气垫行驶，气垫船大大减小与水的摩擦。）",
+          "The first tests on the Solent in 1959 caused a sensation among engineers and journalists. （一九五九年索伦特海峡首次试验引起轰动。）"
+        ]
+      }
+    ],
+    "tips": "①no doubt that 同位语从句；②reduce friction 减少摩擦；③on which 介词+关系代词，that 不能紧跟介词。"
+  },
+  {
+    "book": 4,
+    "lesson": 30,
+    "title": "Exploring the sea-floor",
+    "titleCn": "海底勘探",
+    "scene": "数个世纪以来，深海海底仍像月球表面一样神秘莫测。直到一八六九年，才通过挖掘在大西洋取得一系列深海测深数据。物理学家和地质学家很快意识到，海底地形远比任何人想象的更为崎岖；隐藏在波浪下的山脉可与陆地最高峰相媲美。沉积在海床上的沉积物保存着气候与地质变迁的记录。勇闯深海巨大压力的探险者带回的证据，改变了我们对地球的认识——要全面了解这个星球，必须潜入光线永不到达的深渊。本课语法侧重 It was not until ... that 强调句与 Not until 倒装，以及 therefore 等连接词和定语从句。",
+    "grammarTags": [
+      "连接词",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "sounding",
+        "phon": "/ˈsaʊndɪŋ/",
+        "pos": "n.",
+        "cn": "测深",
+        "eg": "Deep soundings were obtained in the Atlantic by dredging. 通过挖掘在大西洋取得深海测深数据。"
+      },
+      {
+        "word": "dredge",
+        "phon": "/dredʒ/",
+        "pos": "v.",
+        "cn": "挖掘；疏浚",
+        "eg": "Soundings were obtained by dredging the ocean floor. 通过挖掘海床取得测深数据。"
+      },
+      {
+        "word": "topography",
+        "phon": "/təˈpɒɡrəfi/",
+        "pos": "n.",
+        "cn": "地形",
+        "eg": "The topography of the ocean floor proved far more rugged. 海底地形远比想象的崎岖。"
+      },
+      {
+        "word": "rugged",
+        "phon": "/ˈrʌɡɪd/",
+        "pos": "adj.",
+        "cn": "崎岖的",
+        "eg": "Mountain ranges hidden beneath the waves are rugged. 波浪下的山脉崎岖险峻。"
+      },
+      {
+        "word": "sediment",
+        "phon": "/ˈsedɪmənt/",
+        "pos": "n.",
+        "cn": "沉积物",
+        "eg": "Sediments that settle on the sea-floor preserve a record of change. 海床沉积物保存变迁记录。"
+      },
+      {
+        "word": "abyss",
+        "phon": "/əˈbɪs/",
+        "pos": "n.",
+        "cn": "深渊",
+        "eg": "We must descend into the abyss where light never falls. 必须潜入光线永不到达的深渊。"
+      },
+      {
+        "word": "crust",
+        "phon": "/krʌst/",
+        "pos": "n.",
+        "cn": "地壳",
+        "eg": "The crust beneath the oceans shapes continental movement. 海洋地壳左右大陆运动。"
+      },
+      {
+        "word": "inconclusive",
+        "phon": "/ˌɪnkənˈkluːsɪv/",
+        "pos": "adj.",
+        "cn": "无定论的",
+        "eg": "Early evidence was inconclusive; therefore, further exploration was needed. 早期证据无定论，因此需进一步探索。"
+      },
+      {
+        "word": "continental",
+        "phon": "/ˌkɒntɪˈnentl/",
+        "pos": "adj.",
+        "cn": "大陆的",
+        "eg": "Ocean crust shapes the movement of continents. 海洋地壳左右大陆运动。"
+      },
+      {
+        "word": "terrace",
+        "phon": "/'terəs/",
+        "pos": "n.",
+        "cn": "阶地",
+        "eg": ""
+      },
+      {
+        "word": "erode",
+        "phon": "/ɪ'roud/",
+        "pos": "v.",
+        "cn": "侵蚀",
+        "eg": ""
+      },
+      {
+        "word": "colour-blind",
+        "phon": "/'kʌləblaɪnd/",
+        "pos": "a.",
+        "cn": "色盲的",
+        "eg": ""
+      },
+      {
+        "word": "perception",
+        "phon": "/pər'sepʃn/",
+        "pos": "n.",
+        "cn": "知觉",
+        "eg": ""
+      },
+      {
+        "word": "comprehend",
+        "phon": "/ˌkɑːmprɪ'hend/",
+        "pos": "v.",
+        "cn": "理解",
+        "eg": ""
+      },
+      {
+        "word": "spatial",
+        "phon": "/'speɪʃl/",
+        "pos": "a.",
+        "cn": "空间的",
+        "eg": ""
+      },
+      {
+        "word": "visualize",
+        "phon": "/'vɪʒuəlaɪz/",
+        "pos": "v.",
+        "cn": "使具形象，设想",
+        "eg": ""
+      },
+      {
+        "word": "reminiscence",
+        "phon": "/remɪ'nɪs(ə)ns/",
+        "pos": "n.",
+        "cn": "回忆，联想",
+        "eg": ""
+      },
+      {
+        "word": "tadpole",
+        "phon": "/'tædpəʊl/",
+        "pos": "n.",
+        "cn": "蝌蚪",
+        "eg": ""
+      },
+      {
+        "word": "mushroom",
+        "phon": "/'mʌʃrum/",
+        "pos": "n.",
+        "cn": "蘑菇",
+        "eg": ""
+      },
+      {
+        "word": "carrot",
+        "phon": "/'kærət/",
+        "pos": "n.",
+        "cn": "胡萝卜",
+        "eg": ""
+      },
+      {
+        "word": "bud",
+        "phon": "/bʌd/",
+        "pos": "n.",
+        "cn": "花蕾",
+        "eg": ""
+      },
+      {
+        "word": "lark",
+        "phon": "/lɑːk/",
+        "pos": "n.",
+        "cn": "云雀",
+        "eg": ""
+      },
+      {
+        "word": "ladybird",
+        "phon": "",
+        "pos": "n.",
+        "cn": "瓢虫",
+        "eg": ""
+      },
+      {
+        "word": "bulrush",
+        "phon": "/['bulrʌʃ]/",
+        "pos": "n.",
+        "cn": "芦苇",
+        "eg": ""
+      },
+      {
+        "word": "controversy",
+        "phon": "/'kɑːntrəvɜːrsi/",
+        "pos": "n.",
+        "cn": "争议，争论",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "连接词",
+        "explain": "It was not until ... that ... 强调时间：It was not until 1869 that deep soundings were obtained。therefore 表因果，前常接分号；however 表转折。Not until 置句首引起倒装。易错点：强调句中 that 不可换 when。",
+        "examples": [
+          "It was not until 1869 that a series of deep soundings was obtained in the Atlantic. （直到一八六九年，才在大西洋取得一系列深海测深数据。）",
+          "The evidence from dredging was inconclusive; therefore, further exploration of the depths was needed. （挖掘证据无定论，因此需要进一步探索深海。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 sediments、geologists、explorers 时用定语从句：sediments that settle on the sea-floor、than geologists had imagined（比较状语从句省略主语）。易错点：had imagined 表「过去之前」的想象，用过去完成时。",
+        "examples": [
+          "Sediments that settle on the sea-floor preserve a record of climatic change. （沉积在海床上的沉积物保存着气候变迁记录。）",
+          "The topography proved far more rugged than geologists had imagined. （海底地形远比地质学家此前想象的更为崎岖。）"
+        ]
+      }
+    ],
+    "tips": "①It was not until ... that 强调句；②therefore 表因此，however 表然而；③than geologists had imagined 过去完成时。"
+  },
+  {
+    "book": 4,
+    "lesson": 31,
+    "title": "The sculptor speaks",
+    "titleCn": "雕塑家的语言",
+    "scene": "欣赏雕塑取决于对三维形态的感知能力。我们或许一眼便能欣赏画作，雕塑却要求我们绕行观赏，从多角度审视。从事石雕或青铜创作的雕塑家，以体量、体积和阴影来思考；与在平面上制造幻觉的画家不同，雕塑家塑造占据真实空间的材料。自幼学习捏塑粘土的儿童，往往对三维形态产生天然的敏感。最伟大的作品邀请我们环绕而行，每一步都发现曲线与平面之间新的关系。雕塑诉诸触觉与视觉，提供其他艺术无法复制的体验。本课语法侧重 evidence that 等同位语从句，以及动名词、不定式等非谓语动词用法。",
+    "grammarTags": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "words": [
+      {
+        "word": "sculpture",
+        "phon": "/ˈskʌlptʃə/",
+        "pos": "n.",
+        "cn": "雕塑",
+        "eg": "Appreciation of sculpture depends upon responding to form. 欣赏雕塑取决于对形态的感知。"
+      },
+      {
+        "word": "dimension",
+        "phon": "/dɪˈmenʃn/",
+        "pos": "n.",
+        "cn": "维度；尺寸",
+        "eg": "Sculpture demands response to form in three dimensions. 雕塑要求感知三维形态。"
+      },
+      {
+        "word": "volume",
+        "phon": "/ˈvɒljuːm/",
+        "pos": "n.",
+        "cn": "体积",
+        "eg": "The sculptor thinks in terms of mass, volume and shadow. 雕塑家以体量、体积和阴影来思考。"
+      },
+      {
+        "word": "mass",
+        "phon": "/mæs/",
+        "pos": "n.",
+        "cn": "体量；质量",
+        "eg": "Bronze sculpture involves real mass occupying space. 青铜雕塑涉及占据真实空间的体量。"
+      },
+      {
+        "word": "bronze",
+        "phon": "/brɒnz/",
+        "pos": "n.",
+        "cn": "青铜",
+        "eg": "The sculptor who works in bronze thinks in three dimensions. 从事青铜创作的雕塑家以三维思考。"
+      },
+      {
+        "word": "curve",
+        "phon": "/kɜːv/",
+        "pos": "n.",
+        "cn": "曲线",
+        "eg": "We discover new relationships between curve and plane. 我们发现曲线与平面之间新的关系。"
+      },
+      {
+        "word": "appreciation",
+        "phon": "/əˌpriːʃiˈeɪʃn/",
+        "pos": "n.",
+        "cn": "欣赏",
+        "eg": "Full appreciation requires viewing from every angle. 真正欣赏需从各角度观看。"
+      },
+      {
+        "word": "shadow",
+        "phon": "/ˈʃædəʊ/",
+        "pos": "n.",
+        "cn": "阴影",
+        "eg": "Sculptors think in terms of mass, volume and shadow. 雕塑家以体量、体积和阴影来思考。"
+      },
+      {
+        "word": "plane",
+        "phon": "/pleɪn/",
+        "pos": "n.",
+        "cn": "平面",
+        "eg": "New relationships between curve and plane emerge at every step. 每一步都出现曲线与平面的新关系。"
+      },
+      {
+        "word": "dust",
+        "phon": "/dʌst/",
+        "pos": "n.",
+        "cn": "纠纷，骚动",
+        "eg": ""
+      },
+      {
+        "word": "clash",
+        "phon": "/klæʃ/",
+        "pos": "n.",
+        "cn": "冲突",
+        "eg": ""
+      },
+      {
+        "word": "Inquisition",
+        "phon": "/[inkwi'ziʃәn]/",
+        "pos": "n.",
+        "cn": "(罗马天主教的)宗教法庭",
+        "eg": ""
+      },
+      {
+        "word": "perspective",
+        "phon": "/pər'spektɪv/",
+        "pos": "n.",
+        "cn": "观点，看法",
+        "eg": ""
+      },
+      {
+        "word": "despise",
+        "phon": "/dɪ'spaɪz/",
+        "pos": "v.",
+        "cn": "蔑视",
+        "eg": ""
+      },
+      {
+        "word": "generalize",
+        "phon": "/'dʒenrəlaɪz/",
+        "pos": "v.",
+        "cn": "归纳",
+        "eg": ""
+      },
+      {
+        "word": "undercurrent",
+        "phon": "/['ʌndә'kʌrәnt]/",
+        "pos": "n.",
+        "cn": "潜流",
+        "eg": ""
+      },
+      {
+        "word": "theoretical",
+        "phon": "/ˌθiːə'retɪkl/",
+        "pos": "a.",
+        "cn": "理论上的",
+        "eg": ""
+      },
+      {
+        "word": "potentiality",
+        "phon": "/pəʊtenʃɪ'ælɪtɪ/",
+        "pos": "n.",
+        "cn": "潜能",
+        "eg": ""
+      },
+      {
+        "word": "intimate",
+        "phon": "/'ɪntɪmət/",
+        "pos": "a.",
+        "cn": "详尽的",
+        "eg": ""
+      },
+      {
+        "word": "familiarity",
+        "phon": "/fəmɪlɪ'ærɪtɪ/",
+        "pos": "n.",
+        "cn": "熟悉",
+        "eg": ""
+      },
+      {
+        "word": "culpable",
+        "phon": "/'kʌlpəb/",
+        "pos": "a.",
+        "cn": "应受谴责的",
+        "eg": ""
+      },
+      {
+        "word": "Aristotelian",
+        "phon": "/[æristә'ti:liәn]/",
+        "pos": "n.",
+        "cn": "亚里士多德学派的人",
+        "eg": ""
+      },
+      {
+        "word": "Aristotle",
+        "phon": "/['æristɔtl]/",
+        "pos": "n.",
+        "cn": "亚里士多德(古希腊哲学家)",
+        "eg": ""
+      },
+      {
+        "word": "Leaning Tower Pisa",
+        "phon": "",
+        "pos": "",
+        "cn": "比萨斜塔",
+        "eg": ""
+      },
+      {
+        "word": "spiral",
+        "phon": "/'spaɪrəl/",
+        "pos": "a.",
+        "cn": "螺旋状的",
+        "eg": ""
+      },
+      {
+        "word": "nebula",
+        "phon": "/'nebjʊlə/",
+        "pos": "n.",
+        "cn": "星云",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "evidence / belief + that 从句说明名词内容：There is growing evidence that children acquire sensitivity to form。the ability to respond 中 ability 后接不定式。易错点：that 在同位语从句中不作成分。",
+        "examples": [
+          "There is growing evidence that children who model clay early develop sensitivity to three-dimensional form. （越来越多的证据表明，自幼捏塑粘土的儿童对三维形态更敏感。）",
+          "Appreciation of sculpture depends upon the ability to respond to form in three dimensions. （欣赏雕塑取决于对三维形态的感知能力。）"
+        ]
+      },
+      {
+        "point": "非谓语动词",
+        "explain": "动名词 doing 作主语：Viewing a sculpture from every angle is essential。ability 后接不定式 to respond；enjoy 后接动名词 modeling，不接 to do。易错点：enjoy/modeling 不用 enjoy to model。",
+        "examples": [
+          "Viewing a native sculpture from every angle is essential to full appreciation. （从各角度观看雕塑对真正欣赏至关重要。）",
+          "Children enjoy modeling clay because it helps them sense three-dimensional form. （儿童喜欢捏塑粘土，因为这有助于感知三维形态。）"
+        ]
+      }
+    ],
+    "tips": "①evidence that 同位语从句；②the ability to respond 后接不定式；③enjoy 后接动名词 modeling。"
+  },
+  {
+    "book": 4,
+    "lesson": 32,
+    "title": "Galileo reborn",
+    "titleCn": "伽利略的复生",
+    "scene": "伽利略首先是实验者，他向自然而非古人提问。他从比萨斜塔上抛下重物，挑战了延续数世纪的亚里士多德权威；用望远镜观测天空，发现绕木星运转的卫星，以及证明金星绕日运行的盈亏现象。记得这一点的科学家很少忘记：进步依赖直接观察，而非沿袭的教条。曾被宗教法庭谴责的伽利略方法，已成为现代物理学的基础。他被迫收回言论，但地球依然绕太阳运转。本课语法侧重历史叙述中的被动语态，以及修饰 methods、moons 的定语从句。",
+    "grammarTags": [
+      "被动语态",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "Galileo",
+        "phon": "/ˌɡælɪˈleɪəʊ/",
+        "pos": "n.",
+        "cn": "伽利略",
+        "eg": "Galileo put his questions to nature instead of to the ancients. 伽利略向自然而非古人提问。"
+      },
+      {
+        "word": "recant",
+        "phon": "/rɪˈkænt/",
+        "pos": "v.",
+        "cn": "收回（言论）",
+        "eg": "He was forced to recant his views. 他被迫收回言论。"
+      },
+      {
+        "word": "telescope",
+        "phon": "/ˈtelɪskəʊp/",
+        "pos": "n.",
+        "cn": "望远镜",
+        "eg": "He observed the heavens through a telescope. 他用望远镜观测天空。"
+      },
+      {
+        "word": "Inquisition",
+        "phon": "/ˌɪŋkwɪˈzɪʃn/",
+        "pos": "n.",
+        "cn": "宗教法庭",
+        "eg": "Galileo's methods were once condemned by the Inquisition. 伽利略方法曾被宗教法庭谴责。"
+      },
+      {
+        "word": "observation",
+        "phon": "/ˌɒbzəˈveɪʃn/",
+        "pos": "n.",
+        "cn": "观察",
+        "eg": "Progress depends on direct observation rather than dogma. 进步依赖直接观察而非教条。"
+      },
+      {
+        "word": "Jupiter",
+        "phon": "/ˈdʒuːpɪtə/",
+        "pos": "n.",
+        "cn": "木星",
+        "eg": "He discovered moons that revolve around Jupiter. 他发现绕木星运转的卫星。"
+      },
+      {
+        "word": "orbit",
+        "phon": "/ˈɔːbɪt/",
+        "pos": "v./n.",
+        "cn": "绕轨道运行",
+        "eg": "Phases proved Venus orbits the sun. 盈亏现象证明金星绕日运行。"
+      },
+      {
+        "word": "dogma",
+        "phon": "/ˈdɒɡmə/",
+        "pos": "n.",
+        "cn": "教条",
+        "eg": "He challenged inherited dogma with experiment. 他以实验挑战沿袭教条。"
+      },
+      {
+        "word": "revolutionary",
+        "phon": "/ˌrevəˈluːʃənəri/",
+        "pos": "adj.",
+        "cn": "革命性的",
+        "eg": "His discoveries were regarded as revolutionary. 他的发现被视为革命性的。"
+      },
+      {
+        "word": "scratch",
+        "phon": "/skrætʃ/",
+        "pos": "n.",
+        "cn": "擦痕",
+        "eg": ""
+      },
+      {
+        "word": "contrivance",
+        "phon": "/[kәn'traivәns]/",
+        "pos": "n.",
+        "cn": "器械",
+        "eg": "as for centuries before, curved glass was the popular contrivance for producing not truth but illusion, untruth;"
+      },
+      {
+        "word": "distort",
+        "phon": "/dɪ'stɔːrt/",
+        "pos": "v.",
+        "cn": "歪曲",
+        "eg": "and if a single curved glass would distort nature, how much more would a pair of them?"
+      },
+      {
+        "word": "adverse",
+        "phon": "/'ædvɜːrs/",
+        "pos": "a.",
+        "cn": "逆的，相反的",
+        "eg": ""
+      },
+      {
+        "word": "purchasable",
+        "phon": "/['pә:tʃәsәbl]/",
+        "pos": "a.",
+        "cn": "可买到的",
+        "eg": ""
+      },
+      {
+        "word": "preacher",
+        "phon": "/['pri:tʃә]/",
+        "pos": "n.",
+        "cn": "传教士",
+        "eg": ""
+      },
+      {
+        "word": "defendant",
+        "phon": "/di'fendənt/",
+        "pos": "n.",
+        "cn": "被告",
+        "eg": ""
+      },
+      {
+        "word": "outlook",
+        "phon": "/'aʊtlʊk/",
+        "pos": "n.",
+        "cn": "视野",
+        "eg": ""
+      },
+      {
+        "word": "capacity",
+        "phon": "/kə'pæsəti/",
+        "pos": "n.",
+        "cn": "能力",
+        "eg": ""
+      },
+      {
+        "word": "means",
+        "phon": "/miːnz/",
+        "pos": "n.",
+        "cn": "方法，手段，财产，资力",
+        "eg": ""
+      },
+      {
+        "word": "hamper",
+        "phon": "/'hæmpər/",
+        "pos": "v.",
+        "cn": "妨碍",
+        "eg": ""
+      },
+      {
+        "word": "savannah",
+        "phon": "/sə'vænə/",
+        "pos": "n.",
+        "cn": "大草原",
+        "eg": ""
+      },
+      {
+        "word": "democratic",
+        "phon": "/demə'krætɪk/",
+        "pos": "a.",
+        "cn": "民主的",
+        "eg": ""
+      },
+      {
+        "word": "tribal",
+        "phon": "/'traɪbl/",
+        "pos": "a.",
+        "cn": "部落的",
+        "eg": ""
+      },
+      {
+        "word": "tribe",
+        "phon": "/traɪb/",
+        "pos": "n.",
+        "cn": "部落",
+        "eg": ""
+      },
+      {
+        "word": "illiterate",
+        "phon": "/ɪ'lɪt(ə)rət/",
+        "pos": "n.",
+        "cn": "文盲",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "历史叙述强调「被发现、被谴责、被迫」：were discovered、were condemned、was forced to recant。moons that revolve around Jupiter were discovered by Galileo。易错点：非限制性定语从句修饰 methods 用 which were condemned。",
+        "examples": [
+          "Galileo's methods, which were once condemned, became the foundation of modern science. （曾被谴责的伽利略方法，成为现代科学的基础。）",
+          "Moons that revolve around Jupiter were discovered through a telescope by Galileo. （绕木星运转的卫星由伽利略用望远镜发现。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 Galileo、methods、moons 时用定语从句：a man who experimented、methods which were condemned、moons that revolve around Jupiter。非限制性定语从句用 which，不可用 that。易错点：the ancients 指「古人」，不是 ancient 的复数形容词用法。",
+        "examples": [
+          "Galileo was a man who put his questions to nature instead of to the ancients. （伽利略是向自然而非古人提问的人。）",
+          "Galileo is remembered as a scientist who was forced to recant yet never abandoned the truth. （伽利略是被迫收回言论却未放弃真理的科学家。）"
+        ]
+      }
+    ],
+    "tips": "①were condemned / was forced 被动语态；②非限制性定语从句用 which；③the ancients 指「古人」。"
+  },
+  {
+    "book": 4,
+    "lesson": 33,
+    "title": "Education",
+    "titleCn": "教育",
+    "scene": "正规教育常与没有书本和学校的部落社会中的非正式学习相比，显得逊色。若我们的教育体系仿效其无书的过去，我们将拥有可以想象的最民主的学院形式。丛林与大草原中没有困扰现代城市的那种青少年犯罪。在此类社群中长大的儿童，通过模仿和直接体验掌握复杂技能，而非靠义务教育。没有文字的民族中没有文盲，而德国早在1642年就将义务教育定为法律。贴近自然的部落让年轻人参与一切必要劳作，以此教育他们。本课语法侧重 It is through ... that 强调句，以及修饰 tribes、children 的定语从句。",
+    "grammarTags": [
+      "强调句",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "tribal",
+        "phon": "/ˈtraɪbl/",
+        "pos": "adj.",
+        "cn": "部落的",
+        "eg": "Informal learning takes place in tribal societies. 非正式学习发生在部落社会。"
+      },
+      {
+        "word": "delinquency",
+        "phon": "/dɪˈlɪŋkwənsi/",
+        "pos": "n.",
+        "cn": "犯罪；过失",
+        "eg": "There is no juvenile delinquency of the kind that troubles modern cities. 没有困扰现代城市的那种青少年犯罪。"
+      },
+      {
+        "word": "illiterate",
+        "phon": "/ɪˈlɪtərət/",
+        "pos": "adj.",
+        "cn": "文盲的",
+        "eg": "There are no illiterates among peoples without a written script. 没有文字的民族中没有文盲。"
+      },
+      {
+        "word": "compulsory",
+        "phon": "/kəmˈpʌlsəri/",
+        "pos": "adj.",
+        "cn": "义务的；强制的",
+        "eg": "Compulsory schooling became law in Germany as early as 1642. 德国早在1642年将义务教育定为法律。"
+      },
+      {
+        "word": "imitation",
+        "phon": "/ˌɪmɪˈteɪʃn/",
+        "pos": "n.",
+        "cn": "模仿",
+        "eg": "Children master skills through imitation and direct experience. 儿童通过模仿和直接体验掌握技能。"
+      },
+      {
+        "word": "bookless",
+        "phon": "/ˈbʊkləs/",
+        "pos": "adj.",
+        "cn": "无书的",
+        "eg": "If our system were fashioned after its bookless past. 若我们的体系仿效无书的过去。"
+      },
+      {
+        "word": "democratic",
+        "phon": "/ˌdeməˈkrætɪk/",
+        "pos": "adj.",
+        "cn": "民主的",
+        "eg": "We would have the most democratic form of college imaginable. 我们将拥有最民主的学院形式。"
+      },
+      {
+        "word": "wisdom",
+        "phon": "/ˈwɪzdəm/",
+        "pos": "n.",
+        "cn": "智慧",
+        "eg": "Formal schooling is only one path to wisdom. 正规学校教育只是通往智慧的一条路。"
+      },
+      {
+        "word": "savannah",
+        "phon": "/səˈvænə/",
+        "pos": "n.",
+        "cn": "大草原",
+        "eg": "In jungles and on savannahs, learning is informal. 丛林与大草原中，学习是非正式的。"
+      },
+      {
+        "word": "deem",
+        "phon": "/diːm/",
+        "pos": "v.",
+        "cn": "认为",
+        "eg": ""
+      },
+      {
+        "word": "juvenile",
+        "phon": "/'dʒuːvənl/",
+        "pos": "a.",
+        "cn": "青少年的",
+        "eg": "therefore the jungles and the savannahs know of no 'juvenile delinquency'."
+      },
+      {
+        "word": "adolescence",
+        "phon": "/ˌædə'lesns/",
+        "pos": "n.",
+        "cn": "青春期",
+        "eg": ""
+      },
+      {
+        "word": "slur",
+        "phon": "/slɜː/",
+        "pos": "n.",
+        "cn": "诋毁",
+        "eg": ""
+      },
+      {
+        "word": "adolescent",
+        "phon": "/ædə'les(ə)nt/",
+        "pos": "n.",
+        "cn": "青少年(-岁)",
+        "eg": ""
+      },
+      {
+        "word": "disloyalty",
+        "phon": "/dɪs'lɒɪ(ə)ltɪ/",
+        "pos": "n.",
+        "cn": "不忠实",
+        "eg": ""
+      },
+      {
+        "word": "spiteful",
+        "phon": "/'spaɪtfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "恶意的，怀恨的",
+        "eg": ""
+      },
+      {
+        "word": "disillusionment",
+        "phon": "/ˌdɪsɪ'luːʒnmənt/",
+        "pos": "n.",
+        "cn": "幻灭感",
+        "eg": ""
+      },
+      {
+        "word": "evaluation",
+        "phon": "/ɪˌvæljuˈeɪʃn/",
+        "pos": "n.",
+        "cn": "评价",
+        "eg": ""
+      },
+      {
+        "word": "Infallibility",
+        "phon": "/[n'fælә'bilәti]/",
+        "pos": "n.",
+        "cn": "一贯正确",
+        "eg": ""
+      },
+      {
+        "word": "resent",
+        "phon": "/rɪ'zent/",
+        "pos": "v.",
+        "cn": "怨恨",
+        "eg": ""
+      },
+      {
+        "word": "sincerity",
+        "phon": "/sɪn'serətɪ/",
+        "pos": "n.",
+        "cn": "诚挚",
+        "eg": ""
+      },
+      {
+        "word": "victorian",
+        "phon": "/[vik'tɔ:riәn]/",
+        "pos": "a.",
+        "cn": "维多利亚式的",
+        "eg": ""
+      },
+      {
+        "word": "retreat",
+        "phon": "/rɪ'triːt/",
+        "pos": "v.",
+        "cn": "后退",
+        "eg": ""
+      },
+      {
+        "word": "unreasoning",
+        "phon": "/[ʌn'ri:zәniŋ]/",
+        "pos": "a.",
+        "cn": "不凭理智的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "强调句",
+        "explain": "It is/was + 被强调部分 + that + 其余：It is through direct experience that children master skills。It was in tribal societies without schools that children learned。易错点：强调方式状语用 that，不可换 which。",
+        "examples": [
+          "It is through imitation and practice that children in bookless communities learn complex skills. （正是通过模仿和练习，无书社群的儿童掌握复杂技能。）",
+          "It was in tribal societies without schools that children mastered skills through direct experience. （正是在没有学校的部落社会，儿童通过直接体验掌握技能。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 tribes、children、societies 时用定语从句：tribes that remain close to nature、children who grow up in such communities。if + were 表虚拟：If our educational system were fashioned...。易错点：虚拟语气 if 从句用 were，主句用 would。",
+        "examples": [
+          "Tribes that remain close to nature educate their young by involving them in daily tasks. （贴近自然的部落让年轻人参与日常劳作，以此教育他们。）",
+          "If our educational system were fashioned after its bookless past, we would have the most democratic college imaginable. （若教育体系仿效无书的过去，我们将拥有最民主的学院。）"
+        ]
+      }
+    ],
+    "tips": "①It is through ... that 强调方式；②tribes that remain close to nature 定语从句；③if + were 表虚拟语气。"
+  },
+  {
+    "book": 4,
+    "lesson": 34,
+    "title": "Adolescence",
+    "titleCn": "青春期",
+    "scene": "正是青少年第一次看穿成人生活的伪装，并怨恨所察觉的虚伪。若父母对这种反应有所准备，子女批评他们时便不会如此受伤。曾经接受一切父母裁决的年轻人，如今质疑从未被质疑过的动机。历史上从未有如此多的青少年享有自由，却也从未有如此多的人感到被误解。固守维多利亚式非理性权威态度的父母，往往把子女逼入敌意的沉默。青春期既是幻灭也是成长的时期：理想褪色，世界不如童年所许诺的那般完美。本课语法侧重 if + were 虚拟语气，以及 Were/Never before 等引发的倒装。",
+    "grammarTags": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "words": [
+      {
+        "word": "adolescent",
+        "phon": "/ˈædəlesnt/",
+        "pos": "n./adj.",
+        "cn": "青少年",
+        "eg": "It is the adolescent who sees through adult pretensions. 正是青少年看穿成人伪装。"
+      },
+      {
+        "word": "hypocrisy",
+        "phon": "/hɪˈpɒkrəsi/",
+        "pos": "n.",
+        "cn": "虚伪",
+        "eg": "The young resent the hypocrisy they detect. 年轻人怨恨所察觉的虚伪。"
+      },
+      {
+        "word": "resentment",
+        "phon": "/rɪˈzentmənt/",
+        "pos": "n.",
+        "cn": "怨恨",
+        "eg": "If only parents were prepared for adolescent resentment. 若父母对青少年的怨恨有所准备。"
+      },
+      {
+        "word": "infallibility",
+        "phon": "/ɪnˌfæləˈbɪləti/",
+        "pos": "n.",
+        "cn": "一贯正确",
+        "eg": "Parents less convinced of their own infallibility might welcome disagreement. 不那么确信自己一贯正确的父母或许欢迎分歧。"
+      },
+      {
+        "word": "disillusionment",
+        "phon": "/ˌdɪsɪˈluːʒnmənt/",
+        "pos": "n.",
+        "cn": "幻灭",
+        "eg": "Adolescence is a period of disillusionment as well as growth. 青春期既是幻灭也是成长。"
+      },
+      {
+        "word": "Victorian",
+        "phon": "/vɪkˈtɔːriən/",
+        "pos": "adj.",
+        "cn": "维多利亚时代的",
+        "eg": "Parents who cling to Victorian attitudes drive children into silence. 固守维多利亚态度的父母把子女逼入沉默。"
+      },
+      {
+        "word": "maturity",
+        "phon": "/məˈtʃʊərəti/",
+        "pos": "n.",
+        "cn": "成熟",
+        "eg": "Honest disagreement may be a sign of growing maturity. 坦诚分歧或许是成熟的标志。"
+      },
+      {
+        "word": "hostile",
+        "phon": "/ˈhɒstaɪl/",
+        "pos": "adj.",
+        "cn": "敌意的",
+        "eg": "Unreasoning authority drives children into hostile silence. 非理性权威把子女逼入敌意沉默。"
+      },
+      {
+        "word": "pretension",
+        "phon": "/prɪˈtenʃn/",
+        "pos": "n.",
+        "cn": "伪装；做作",
+        "eg": "Adolescents see through the pretensions of adult life. 青少年看穿成人生活的伪装。"
+      },
+      {
+        "word": "authoritarian",
+        "phon": "/ɔː,θɒrɪ'teərɪən/",
+        "pos": "a.",
+        "cn": "专制的",
+        "eg": "Victorian parents believed that they kept their dignity by retreating behind an unreasoning authoritarian attitude in fact they did nothing of the kind,"
+      },
+      {
+        "word": "cow",
+        "phon": "/kaʊ/",
+        "pos": "v.",
+        "cn": "吓唬",
+        "eg": ""
+      },
+      {
+        "word": "hub",
+        "phon": "/hʌb/",
+        "pos": "n.",
+        "cn": "(活动的)中心",
+        "eg": ""
+      },
+      {
+        "word": "lunar",
+        "phon": "/'luːnər/",
+        "pos": "a.",
+        "cn": "月球的",
+        "eg": ""
+      },
+      {
+        "word": "oxygen",
+        "phon": "/'ɑːksɪdʒən/",
+        "pos": "n.",
+        "cn": "氧气",
+        "eg": ""
+      },
+      {
+        "word": "Apollo",
+        "phon": "/[ә'pɔlәu]/",
+        "pos": "n.",
+        "cn": "阿波罗",
+        "eg": ""
+      },
+      {
+        "word": "accelerate",
+        "phon": "/ək'seləreɪt/",
+        "pos": "v.",
+        "cn": "加速",
+        "eg": ""
+      },
+      {
+        "word": "terrestrial",
+        "phon": "/tə'restriəl/",
+        "pos": "a.",
+        "cn": "地球",
+        "eg": ""
+      },
+      {
+        "word": "ermanently",
+        "phon": "",
+        "pos": "adv.",
+        "cn": "永远地",
+        "eg": ""
+      },
+      {
+        "word": "fascination",
+        "phon": "/,fæsɪ'neɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "魅力",
+        "eg": ""
+      },
+      {
+        "word": "senior",
+        "phon": "/'siːniər/",
+        "pos": "a.",
+        "cn": "资历深的，年长的",
+        "eg": ""
+      },
+      {
+        "word": "chasm",
+        "phon": "/'kæzəm/",
+        "pos": "n.",
+        "cn": "断层，裂口",
+        "eg": ""
+      },
+      {
+        "word": "canyon",
+        "phon": "/'kænjən/",
+        "pos": "n.",
+        "cn": "峡谷",
+        "eg": ""
+      },
+      {
+        "word": "disunited",
+        "phon": "",
+        "pos": "a.",
+        "cn": "分裂的",
+        "eg": ""
+      },
+      {
+        "word": "correspondingly",
+        "phon": "/,kɔris'pɔndiŋli/",
+        "pos": "adv.",
+        "cn": "相应地",
+        "eg": ""
+      },
+      {
+        "word": "backward",
+        "phon": "/'bækwəd/",
+        "pos": "a.",
+        "cn": "落后的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "if + were 表与现在事实相反，主句用 would do：If parents were prepared, they would not be so hurt。If only + were/had been 表愿望。易错点：if 从句表假设不用 would。",
+        "examples": [
+          "If parents were prepared for this adolescent reaction, they would not be so deeply hurt. （若父母对这种反应有所准备，子女批评他们时便不会如此受伤。）",
+          "If only parents were prepared for adolescent resentment, family conflicts would be less painful. （若父母对青少年的怨恨有所准备，家庭冲突本会更少痛苦。）"
+        ]
+      },
+      {
+        "point": "倒装",
+        "explain": "Were + 主语 + ... 省略 if：Were parents prepared = If parents were prepared。Never before 置句首，主句部分倒装：Never before have so many adolescents felt so misunderstood。易错点：Were 置句首是虚拟倒装。",
+        "examples": [
+          "Were parents prepared for this reaction, they would not be so hurt. （若父母对这种反应有所准备，他们便不会如此受伤。）",
+          "Never before have so many adolescents felt so misunderstood by their elders. （历史上从未有如此多青少年感到被长辈误解。）"
+        ]
+      }
+    ],
+    "tips": "①if + were，主句 would not be；②Were parents prepared = If parents were；③Never before 置句首用完成时倒装。"
+  },
+  {
+    "book": 4,
+    "lesson": 35,
+    "title": "Space odyssey",
+    "titleCn": "太空探索",
+    "scene": "由于月球质量仅为地球的八十分之一，从月球表面到地球轨道所需的能量比从地球表面到同一位置少百分之九十七。月球是与地球最相似的天体，可能成为未来太空探索的中心。从月球基地发射航天器所需燃料少得多，使前往火星及更远处的旅程在经济上成为可能。在另一世界尘土上行走的阿波罗宇航员，证明了人类可以在大气层外生存。冻结在月球阴影中的氧气、水和矿物，可维持自给自足的殖民地。我们的太空漫游才刚刚开始：在月球上的每一小步，都指向群星间更漫长的旅程。本课语法侧重 whose/who 引导的定语从句，以及 require/hub 等词汇辨析。",
+    "grammarTags": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "words": [
+      {
+        "word": "lunar",
+        "phon": "/ˈluːnə/",
+        "pos": "adj.",
+        "cn": "月球的",
+        "eg": "A lunar base may become the hub of exploration. 月球基地可能成为探索中心。"
+      },
+      {
+        "word": "odyssey",
+        "phon": "/ˈɒdɪsi/",
+        "pos": "n.",
+        "cn": "漫长旅程；漫游",
+        "eg": "Our space odyssey has barely begun. 我们的太空漫游才刚刚开始。"
+      },
+      {
+        "word": "extraterrestrial",
+        "phon": "/ˌekstrətəˈrestriəl/",
+        "pos": "adj.",
+        "cn": "地外的",
+        "eg": "Engineers must account for extraterrestrial conditions. 工程师须考虑地外环境。"
+      },
+      {
+        "word": "colony",
+        "phon": "/ˈkɒləni/",
+        "pos": "n.",
+        "cn": "殖民地",
+        "eg": "Oxygen and water could sustain lunar colonies. 氧气和水可维持月球殖民地。"
+      },
+      {
+        "word": "hub",
+        "phon": "/hʌb/",
+        "pos": "n.",
+        "cn": "中心；枢纽",
+        "eg": "The Moon may become the hub of future missions. 月球可能成为未来任务中心。"
+      },
+      {
+        "word": "astronaut",
+        "phon": "/ˈæstrənɔːt/",
+        "pos": "n.",
+        "cn": "宇航员",
+        "eg": "Apollo astronauts walked on the dust of another world. 阿波罗宇航员在另一世界尘土上行走。"
+      },
+      {
+        "word": "gravity",
+        "phon": "/ˈɡrævəti/",
+        "pos": "n.",
+        "cn": "重力",
+        "eg": "Because the Moon has less gravity, less fuel is required. 因月球重力较小，所需燃料更少。"
+      },
+      {
+        "word": "orbit",
+        "phon": "/ˈɔːbɪt/",
+        "pos": "n.",
+        "cn": "轨道",
+        "eg": "Less energy is needed to reach Earth orbit from the Moon. 从月球到地球轨道所需能量更少。"
+      },
+      {
+        "word": "conceivable",
+        "phon": "/kənˈsiːvəbl/",
+        "pos": "adj.",
+        "cn": "可想象的",
+        "eg": "Journeys to Mars become economically conceivable. 前往火星的旅程在经济上成为可能。"
+      },
+      {
+        "word": "incur",
+        "phon": "/ɪn'kɜːr/",
+        "pos": "v.",
+        "cn": "承担",
+        "eg": ""
+      },
+      {
+        "word": "administer",
+        "phon": "/əd'mɪnɪstər/",
+        "pos": "v.",
+        "cn": "管理",
+        "eg": ""
+      },
+      {
+        "word": "administrative",
+        "phon": "/əd'mɪnɪstrətɪv/",
+        "pos": "a.",
+        "cn": "行政管理的",
+        "eg": ""
+      },
+      {
+        "word": "analogous",
+        "phon": "/ə'næləgəs/",
+        "pos": "a.",
+        "cn": "类似的",
+        "eg": ""
+      },
+      {
+        "word": "overheads",
+        "phon": "",
+        "pos": "n.",
+        "cn": "一般费用",
+        "eg": ""
+      },
+      {
+        "word": "initiative",
+        "phon": "/ɪ'nɪʃɪətɪv; -ʃə-/",
+        "pos": "n.",
+        "cn": "主动，积极性",
+        "eg": ""
+      },
+      {
+        "word": "checker",
+        "phon": "",
+        "pos": "n.",
+        "cn": "检查人员",
+        "eg": ""
+      },
+      {
+        "word": "foreman",
+        "phon": "/'fɔːmən/",
+        "pos": "n.",
+        "cn": "监工",
+        "eg": ""
+      },
+      {
+        "word": "dividend",
+        "phon": "/'dɪvɪdend/",
+        "pos": "n.",
+        "cn": "红利",
+        "eg": ""
+      },
+      {
+        "word": "unduly",
+        "phon": "/'ʌn'djuːli/",
+        "pos": "adv.",
+        "cn": "过度地",
+        "eg": ""
+      },
+      {
+        "word": "likelihood",
+        "phon": "/'laɪklɪhʊd/",
+        "pos": "n.",
+        "cn": "可能性",
+        "eg": ""
+      },
+      {
+        "word": "infant",
+        "phon": "/'ɪnfənt/",
+        "pos": "n.",
+        "cn": "婴儿",
+        "eg": ""
+      },
+      {
+        "word": "vulnerable",
+        "phon": "/'vʌlnərəbl/",
+        "pos": "a.",
+        "cn": "脆弱的",
+        "eg": ""
+      },
+      {
+        "word": "imperceptible",
+        "phon": "/ɪmpə'septɪb(ə)l/",
+        "pos": "a.",
+        "cn": "感觉不到的",
+        "eg": ""
+      },
+      {
+        "word": "robust",
+        "phon": "/rou'bʌst/",
+        "pos": "a.",
+        "cn": "强健的",
+        "eg": ""
+      },
+      {
+        "word": "organism",
+        "phon": "/'ɔːrgənɪzəm/",
+        "pos": "n.",
+        "cn": "有机体",
+        "eg": ""
+      },
+      {
+        "word": "thermodynamics",
+        "phon": "/,θɜːmə(ʊ)daɪ'næmɪks/",
+        "pos": "n.",
+        "cn": "热力学",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "whose 表所属：The Moon, whose mass is only an eightieth of the Earth's。先行词 astronauts 指人用 who：Apollo astronauts, who walked on the lunar surface。易错点：whose 既可指人也可指物。",
+        "examples": [
+          "The Moon, whose mass is only an eightieth of the Earth's, requires far less fuel to reach orbit. （月球质量仅为地球的八十分之一，到轨道所需燃料少得多。）",
+          "Apollo astronauts, who walked on the lunar surface, proved humans can survive beyond Earth. （在月球表面行走的阿波罗宇航员，证明人类可在地球外生存。）"
+        ]
+      },
+      {
+        "point": "词汇辨析",
+        "explain": "require energy/fuel 表「需要能量/燃料」；hub 表「中心、枢纽」；cater to 迎合，appeal to 吸引，exert 施加。vast difference between A and B 表巨大差异。易错点：require 后接宾语，不与 to 搭配。",
+        "examples": [
+          "Spacecraft launched from the lunar surface require far less energy. （从月球表面发射的航天器所需能量少得多。）",
+          "A lunar base may become the hub of future missions to Mars and beyond. （月球基地可能成为前往火星及更远处的任务中心。）"
+        ]
+      }
+    ],
+    "tips": "①whose mass 表所属；②require energy/fuel 需要能量；③hub 表中心，非新闻课 circulation。"
+  },
+  {
+    "book": 4,
+    "lesson": 36,
+    "title": "The cost of government",
+    "titleCn": "政府的开支",
+    "scene": "一个国家的行政开支，类似于企业的管理费用。若国民可以信赖、能忠诚负责地行事，政府开支便会保持低位；本质上分裂的国家必须维持大批官僚和警察。人民越分裂，维持秩序所需的行政机器就越庞大。本可用于教育和发展的事业经费，被转用于以武力维持权威。在公民自愿参与公共生活的程度上，国家无需施加持续监视。互相信任的国家在执法与内部管控上的花费相应更少。本课语法侧重 analogous to、to the extent that 等比较结构，以及修饰 nation、people 的定语从句。",
+    "grammarTags": [
+      "定语从句",
+      "比较结构"
+    ],
+    "words": [
+      {
+        "word": "overhead",
+        "phon": "/ˈəʊvəhed/",
+        "pos": "n.",
+        "cn": "管理费用；行政开支",
+        "eg": "Administrative overheads rise when trust is low. 信任不足时行政开支上升。"
+      },
+      {
+        "word": "analogous",
+        "phon": "/əˈnæləɡəs/",
+        "pos": "adj.",
+        "cn": "类似的",
+        "eg": "Government overheads are analogous to business costs. 政府开支类似企业费用。"
+      },
+      {
+        "word": "disunited",
+        "phon": "/ˌdɪsjuˈnaɪtɪd/",
+        "pos": "adj.",
+        "cn": "分裂的",
+        "eg": "A disunited nation must maintain large bureaucracies. 分裂的国家须维持大批官僚。"
+      },
+      {
+        "word": "bureaucrat",
+        "phon": "/ˈbjʊərəkræt/",
+        "pos": "n.",
+        "cn": "官僚",
+        "eg": "Distrust breeds armies of bureaucrats and police. 不信任滋生大批官僚与警察。"
+      },
+      {
+        "word": "surveillance",
+        "phon": "/sɜːˈveɪləns/",
+        "pos": "n.",
+        "cn": "监视",
+        "eg": "The state need not exert constant surveillance. 国家无需施加持续监视。"
+      },
+      {
+        "word": "incur",
+        "phon": "/ɪnˈkɜː/",
+        "pos": "v.",
+        "cn": "招致；承担",
+        "eg": "A disunited nation has to incur unduly high costs. 分裂的国家不得不承担过高开支。"
+      },
+      {
+        "word": "administer",
+        "phon": "/ədˈmɪnɪstə/",
+        "pos": "v.",
+        "cn": "管理",
+        "eg": "Administrative machinery is needed to keep order. 维持秩序需要行政机器。"
+      },
+      {
+        "word": "extent",
+        "phon": "/ɪkˈstent/",
+        "pos": "n.",
+        "cn": "程度；范围",
+        "eg": "To the extent that citizens participate, overheads will be low. 在公民参与的程度上，开支保持低位。"
+      },
+      {
+        "word": "unity",
+        "phon": "/ˈjuːnəti/",
+        "pos": "n.",
+        "cn": "团结",
+        "eg": "The price of disunity is measured in bureaucracy. 分裂的代价以官僚体制衡量。"
+      },
+      {
+        "word": "steep",
+        "phon": "/stiːp/",
+        "pos": "a.",
+        "cn": "急转直下的",
+        "eg": ""
+      },
+      {
+        "word": "ageing",
+        "phon": "",
+        "pos": "n.",
+        "cn": "老化",
+        "eg": ""
+      },
+      {
+        "word": "odds",
+        "phon": "/ɔdz/",
+        "pos": "n.",
+        "cn": "可能性",
+        "eg": ""
+      },
+      {
+        "word": "virtual",
+        "phon": "/'vɜːrtʃuəl/",
+        "pos": "a.",
+        "cn": "实际上的",
+        "eg": ""
+      },
+      {
+        "word": "moot",
+        "phon": "/[mu:t]/",
+        "pos": "a.",
+        "cn": "争论未决的",
+        "eg": ""
+      },
+      {
+        "word": "run-down",
+        "phon": "",
+        "pos": "a.",
+        "cn": "破旧的",
+        "eg": ""
+      },
+      {
+        "word": "friction",
+        "phon": "/'frɪkʃn/",
+        "pos": "n.",
+        "cn": "摩擦",
+        "eg": ""
+      },
+      {
+        "word": "contamination",
+        "phon": "/kənˌtæmɪ'neɪʃn/",
+        "pos": "n.",
+        "cn": "污染",
+        "eg": ""
+      },
+      {
+        "word": "sanitation",
+        "phon": "/ˌsænɪ'teɪʃn/",
+        "pos": "n.",
+        "cn": "卫生，卫生设备",
+        "eg": ""
+      },
+      {
+        "word": "sewage",
+        "phon": "/'suːɪdʒ/",
+        "pos": "n.",
+        "cn": "污水",
+        "eg": ""
+      },
+      {
+        "word": "leakage",
+        "phon": "/'liːkɪdʒ/",
+        "pos": "n.",
+        "cn": "泄漏",
+        "eg": ""
+      },
+      {
+        "word": "intermittent",
+        "phon": "/ɪntə'mɪt(ə)nt/",
+        "pos": "a.",
+        "cn": "间歇的，断断续续的",
+        "eg": ""
+      },
+      {
+        "word": "carbonated",
+        "phon": "",
+        "pos": "a.",
+        "cn": "碳化的，碳酸的",
+        "eg": ""
+      },
+      {
+        "word": "acidic",
+        "phon": "/ə'sɪdɪk/",
+        "pos": "a.",
+        "cn": "酸的，酸性的",
+        "eg": ""
+      },
+      {
+        "word": "alcohol",
+        "phon": "/'ælkəhɒl/",
+        "pos": "n.",
+        "cn": "酒精",
+        "eg": ""
+      },
+      {
+        "word": "disinfectant",
+        "phon": "/dɪsɪn'fekt(ə)nt/",
+        "pos": "n.",
+        "cn": "消毒剂",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "修饰 nation、people、resources 时用定语从句：a nation that is essentially disunited、resources which could fund development。to the extent that 引导程度状语从句。易错点：that 在 to the extent that 中不可省略。",
+        "examples": [
+          "A nation that is essentially disunited must spend heavily on bureaucracy. （本质上分裂的国家必须在官僚体制上大量花费。）",
+          "To the extent that citizens can be trusted, government overheads will be low. （在公民可受信赖的程度上，政府开支保持低位。）"
+        ]
+      },
+      {
+        "point": "比较结构",
+        "explain": "analogous to 表「与……类似」；the more ... the greater ... 比较级平行：The more disunited a people, the greater the machinery required。correspondingly 表「相应地」。易错点：analogous to 中 to 是介词。",
+        "examples": [
+          "Administrative overheads in government are analogous to those in business. （政府行政开支类似企业费用。）",
+          "The more disunited a people, the greater the administrative machinery required. （人民越分裂，所需行政机器越庞大。）"
+        ]
+      }
+    ],
+    "tips": "①analogous to 与……类似；②the more ... the greater 比较级平行；③to the extent that 在……程度上。"
+  }
+]

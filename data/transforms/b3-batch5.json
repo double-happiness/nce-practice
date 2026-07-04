@@ -1,0 +1,554 @@
+[
+  {
+    "id": "tf-b3-049",
+    "book": 3,
+    "lesson": 49,
+    "grammar": ["seem/appear as if", "虚拟语气"],
+    "cn": "巴塞尔看似理想的仆人，却在镜子前练习，仿佛自己是主人。",
+    "explanation": "seem to be 表看似；as if + 过去时（were）表与现在事实相反的虚拟语气。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Basil seemed to be the ideal servant, but he practised in front of the mirror as if he were the master.",
+          "Basil appeared to be perfect, yet he acted as if he owned the house."
+        ],
+        "cn": "巴塞尔看似理想的仆人，却在镜子前练习，仿佛自己是主人。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Basil did not seem to be the ideal servant.",
+          "He didn't appear to be as perfect as everyone thought."
+        ],
+        "cn": "巴塞尔看似并非理想的仆人。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「as if he were the master」提问（问\"练习时表现得怎样\"）",
+        "answers": [
+          "How did Basil act as he practised in front of the mirror?",
+          "How did he practise?"
+        ],
+        "cn": "巴塞尔练习时表现得怎样？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did Basil seem to be the ideal servant?",
+          "Was he practising as if he were the master?"
+        ],
+        "cn": "巴塞尔看似理想的仆人吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-050",
+    "book": 3,
+    "lesson": 50,
+    "grammar": ["动名词与不定式", "resolution 相关表达"],
+    "cn": "他许诺每天早起锻炼，三课后却放弃了学语言。",
+    "explanation": "promise/vow to do 后接不定式；give up doing 后接动名词，不能接不定式。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He promised to get up early and take more exercise, but he gave up learning a language after three lessons.",
+          "He vowed to exercise every day, yet he gave up learning after three lessons."
+        ],
+        "cn": "他许诺每天早起锻炼，三课后却放弃了学语言。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not keep his resolution to get up early.",
+          "He didn't continue learning a language after three lessons."
+        ],
+        "cn": "他未能遵守早起的决心，也没继续学语言。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「learning a language」提问（问\"放弃了什么\"）",
+        "answers": [
+          "What did he give up after three lessons?",
+          "What did he stop doing?"
+        ],
+        "cn": "他放弃了什么？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he promise to get up early and take more exercise?",
+          "Did he give up learning a language after three lessons?"
+        ],
+        "cn": "他许诺每天锻炼吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-051",
+    "book": 3,
+    "lesson": 51,
+    "grammar": ["将来时", "情态动词表推测"],
+    "cn": "预言家宣称世界将改变，但未来或许仍会让我们所有人吃惊。",
+    "explanation": "will + do 表预测；may 表对将来的可能性推测，把握不如 must。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The prophet declared that the world would change, but the future may still surprise us all.",
+          "He said the world will change, yet the future may surprise everyone."
+        ],
+        "cn": "预言家宣称世界将改变，但未来或许仍会让我们所有人吃惊。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把 declared 部分改为直接引语",
+        "answers": [
+          "The prophet declared, \"The world will change.\"",
+          "He declared, \"The world is going to change.\""
+        ],
+        "cn": "预言家宣称：「世界将改变。」"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 may still surprise 改为 can't 表不可能",
+        "answers": [
+          "The future can't be fully predicted.",
+          "It can't surprise no one; it always holds surprises."
+        ],
+        "cn": "未来不可能被完全预测。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the world would change」提问（问\"宣称什么将发生\"）",
+        "answers": [
+          "What did the prophet declare would change?",
+          "What did he say would happen?"
+        ],
+        "cn": "预言家宣称什么将改变？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-052",
+    "book": 3,
+    "lesson": 52,
+    "grammar": ["比较结构", "no better than"],
+    "cn": "这些丝绸彼此无异，泥终究是泥。",
+    "explanation": "no better than 表「和……一样差/不过如此」；as...as 表同级比较。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "These rolls of silk are no better than the rest — mud is mud.",
+          "This silk is no better than the others; mud is mud."
+        ],
+        "cn": "这些丝绸彼此无异，泥终究是泥。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改用 not as...as 改写",
+        "answers": [
+          "Fine words are not as useful as the right cloth.",
+          "This silk is not as durable as the customer needs."
+        ],
+        "cn": "漂亮话不如合适的布料有用。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the rest」提问（问\"不比什么更好\"）",
+        "answers": [
+          "What is this silk no better than?",
+          "Than what is it no better?"
+        ],
+        "cn": "这匹丝绸不比什么更好？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this silk no better than the rest?",
+          "Is it no better than the others?"
+        ],
+        "cn": "这匹丝绸并不比别人那几匹好吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-053",
+    "book": 3,
+    "lesson": 53,
+    "grammar": ["被动语态", "新闻报道用语"],
+    "cn": "这篇文章为公众利益发表，案件在法庭审理了数周。",
+    "explanation": "新闻报道常用被动突出事件：was published, was heard；in the public interest 为公众利益。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The article was published in the public interest, and the case was heard in court for weeks.",
+          "The article had been published in the public interest; the case was heard for weeks."
+        ],
+        "cn": "这篇文章为公众利益发表，案件在法庭审理了数周。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态（记者发表了文章）",
+        "answers": [
+          "The journalist published the article in the public interest.",
+          "A journalist published it in the public interest."
+        ],
+        "cn": "记者为公众利益发表了这篇文章。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in the public interest」提问（问\"为何发表\"）",
+        "answers": [
+          "Why was the article published?",
+          "In whose interest was the article published?"
+        ],
+        "cn": "文章为何发表？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The article was not published for private gain.",
+          "The case was not heard in a single day."
+        ],
+        "cn": "文章并非为私利发表。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-054",
+    "book": 3,
+    "lesson": 54,
+    "grammar": ["wonder whether", "宾语从句"],
+    "cn": "她想知道黄蜂找到出口是靠本能还是机智。",
+    "explanation": "wonder whether/if + 陈述语序；whether 可表「是……还是……」。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She wondered whether the wasp found the exit by instinct or by cleverness.",
+          "She wondered if it was instinct or cleverness that guided the wasp."
+        ],
+        "cn": "她想知道黄蜂找到出口是靠本能还是机智。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "改为直接疑问句",
+        "answers": [
+          "She wondered, \"Did the wasp find the exit by instinct or by cleverness?\"",
+          "She asked herself, \"Is it instinct or cleverness?\""
+        ],
+        "cn": "她自问：「黄蜂是靠本能还是机智找到出口的？」"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「whether it was instinct or cleverness」提问",
+        "answers": [
+          "What did she wonder about the wasp?",
+          "What did she want to know?"
+        ],
+        "cn": "她想知道什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She did not wonder whether it was instinct or cleverness.",
+          "She wasn't sure how the wasp found the exit."
+        ],
+        "cn": "她不确定黄蜂如何找到出口。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-055",
+    "book": 3,
+    "lesson": 55,
+    "grammar": ["短语动词", "现在完成时"],
+    "cn": "天文学家们收到奇怪信号后，最终将源头追溯到一座灯塔。",
+    "explanation": "pick up 接收；trace...to 把……追溯到；现在完成时表与现在有联系的结果。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "After the astronomers picked up a strange signal, they finally traced the source to a lighthouse.",
+          "They picked up a strange signal and eventually traced it to a distant lighthouse."
+        ],
+        "cn": "天文学家们收到奇怪信号后，最终将源头追溯到一座灯塔。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a lighthouse」提问（问\"追溯到哪里\"）",
+        "answers": [
+          "Where did they trace the source to?",
+          "What did they trace the signal to?"
+        ],
+        "cn": "他们把信号源头追溯到哪里？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They did not trace the signal to an alien civilization.",
+          "The source was not from outer space."
+        ],
+        "cn": "信号源头并非来自外星文明。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did they trace the source to a lighthouse?",
+          "Did the astronomers pick up a strange signal?"
+        ],
+        "cn": "他们把源头追溯到灯塔了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-056",
+    "book": 3,
+    "lesson": 56,
+    "grammar": ["动词搭配", "原因状语从句"],
+    "cn": "农民依赖这条河灌溉，父母告诫孩子暗流可能很危险。",
+    "explanation": "depend on 依赖，须加 on；because 引导原因从句；warn sb of/about sth 警告。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Farmers depend on the river for water, and parents warn children of the currents because they can be dangerous.",
+          "Farmers depend on it for irrigation; parents warn children about the currents because they are dangerous."
+        ],
+        "cn": "农民依赖这条河灌溉，父母告诫孩子暗流可能很危险。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「because they can be dangerous」提问（问\"为何告诫\"）",
+        "answers": [
+          "Why do parents warn children of the currents?",
+          "Why are children warned about the currents?"
+        ],
+        "cn": "父母为何告诫孩子暗流？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Farmers do not depend on the river in dry seasons.",
+          "Parents don't always warn children of every danger."
+        ],
+        "cn": "农民并非总是依赖这条河。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do farmers depend on the river for water?",
+          "Do parents warn children of the currents?"
+        ],
+        "cn": "农民依赖这条河灌溉吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-057",
+    "book": 3,
+    "lesson": 57,
+    "grammar": ["expect/find + 宾语从句", "过去完成时"],
+    "cn": "罗德里克以为一切都变了，却发现正午的钟声仍在响。",
+    "explanation": "expect/find + that 从句用陈述语序；had changed 表回乡之前更早的变化。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Roderick expected that everything had changed, but he found that the bell still rang at noon.",
+          "He expected everything to have changed, yet he found the bell still rang at noon."
+        ],
+        "cn": "罗德里克以为一切都变了，却发现正午的钟声仍在响。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把 found 部分改为直接引语",
+        "answers": [
+          "He found and said to himself, \"The bell still rings at noon.\"",
+          "He thought, \"The bell still rings at noon.\""
+        ],
+        "cn": "他发现：「钟声仍在正午响。」"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「that the bell still rang at noon」提问（问\"发现了什么\"）",
+        "answers": [
+          "What did Roderick find?",
+          "What did he discover when he returned?"
+        ],
+        "cn": "罗德里克发现了什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Roderick did not find that everything had changed beyond recognition.",
+          "He didn't expect the village to be exactly the same."
+        ],
+        "cn": "罗德里克并非发现一切都原封未变。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-058",
+    "book": 3,
+    "lesson": 58,
+    "grammar": ["a spot of", "apologize/insist"],
+    "cn": "卡特赖特太太为添了点儿小麻烦道歉，邻居们坚称不算什么。",
+    "explanation": "a spot of bother 英式口语「一点儿小麻烦」；apologize for doing；insist (that) 坚称。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Mrs Cartwright apologized for causing a spot of bother, and the neighbours insisted it was nothing.",
+          "She apologized for the spot of bother; everyone insisted it was nothing serious."
+        ],
+        "cn": "卡特赖特太太为添了点儿小麻烦道歉，邻居们坚称不算什么。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Mrs Cartwright did not cause much trouble.",
+          "The neighbours did not think it was serious."
+        ],
+        "cn": "卡特赖特太太并未惹多大麻烦。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a spot of bother」提问（问\"为什么道歉\"）",
+        "answers": [
+          "What did Mrs Cartwright apologize for?",
+          "Why did she apologize?"
+        ],
+        "cn": "卡特赖特太太为什么道歉？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did Mrs Cartwright apologize for causing a spot of bother?",
+          "Did the neighbours insist it was nothing?"
+        ],
+        "cn": "卡特赖特太太为小麻烦道歉了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-059",
+    "book": 3,
+    "lesson": 59,
+    "grammar": ["spend time doing", "现在完成进行时"],
+    "cn": "他四十年如一日收集火柴盒，博物馆一直在向他索要珍品。",
+    "explanation": "spend + 时间 + doing；have been doing 表从过去持续到现在并可能继续。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He has spent forty years collecting matchboxes, and museums have been asking him for the rarest items.",
+          "He has been collecting matchboxes for forty years; museums have been asking for his rarest pieces."
+        ],
+        "cn": "他四十年如一日收集火柴盒，博物馆一直在向他索要珍品。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He has not spent forty years collecting anything else.",
+          "He refuses to part with his rarest matchboxes."
+        ],
+        "cn": "他拒绝割舍最珍爱的火柴盒。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「forty years」提问（问\"收集了多久\"）",
+        "answers": [
+          "How long has he spent collecting matchboxes?",
+          "How long has he been collecting?"
+        ],
+        "cn": "他收集火柴盒多久了？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has he spent forty years collecting matchboxes?",
+          "Have museums been asking him for the rarest items?"
+        ],
+        "cn": "他收集火柴盒四十年了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-060",
+    "book": 3,
+    "lesson": 60,
+    "grammar": ["too...to", "时间状语从句"],
+    "cn": "他在错误的月台等得太早，赶到正确月台时快车已经开走了。",
+    "explanation": "too early 太早；when/before 引导时间从句，主句过去时，从句表先后。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He waited too early on the wrong platform, and when he reached the right one, the express had already left.",
+          "He was too early for the first train; when he rushed to the right platform, the express was gone."
+        ],
+        "cn": "他在错误的月台等得太早，赶到正确月台时快车已经开走了。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He was not early enough to catch the express.",
+          "He didn't reach the right platform before the train left."
+        ],
+        "cn": "他未能及时赶到正确月台赶上快车。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the wrong platform」提问（问\"在哪里等得太早\"）",
+        "answers": [
+          "Where did he wait too early?",
+          "On which platform did he wait?"
+        ],
+        "cn": "他在哪里等得太早？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was he too early on the wrong platform?",
+          "Had the express already left when he reached the right platform?"
+        ],
+        "cn": "他在错误月台等得太早了吗？"
+      }
+    ]
+  }
+]

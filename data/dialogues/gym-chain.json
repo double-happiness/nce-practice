@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-gym-01",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Sign Up",
+    "titleCn": "第1环：办会员",
+    "scene": "你第一次去健身房，在前台办会员。（对话链：健身房）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "欢迎光临！第一次来吗？", "en": "Welcome! Is this your first time here?" },
+      { "role": "You", "cn": "是的，我想了解一下会员套餐。", "en": "Yes, I'd like to learn about your membership plans." },
+      { "role": "Receptionist", "cn": "月卡四十九，年卡四百九十九。", "en": "It's forty-nine a month, or four ninety-nine for the year." },
+      { "role": "You", "cn": "年卡包含私教课吗？", "en": "Does the annual plan include personal training sessions?" },
+      { "role": "Receptionist", "cn": "包含两节免费体验课。", "en": "It includes two free trial sessions." },
+      { "role": "You", "cn": "好的，我办年卡。", "en": "Great, I'll sign up for the annual membership." },
+      { "role": "Receptionist", "cn": "请填一下这张表，我带您参观一下。", "en": "Please fill out this form, and I'll give you a tour." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-02",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Gym Tour",
+    "titleCn": "第2环：参观设施",
+    "scene": "前台带你参观健身房各区域。（对话链：健身房）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "更衣室在哪里？", "en": "Where are the locker rooms?" },
+      { "role": "Receptionist", "cn": "左转，男女分开，带密码锁。", "en": "Turn left. Men's and women's, with keypad locks." },
+      { "role": "You", "cn": "毛巾要自己带吗？", "en": "Do I need to bring my own towel?" },
+      { "role": "Receptionist", "cn": "前台可租，一美元一条。", "en": "You can rent one at the desk for a dollar." },
+      { "role": "You", "cn": "饮水机在哪？", "en": "Where's the water fountain?" },
+      { "role": "Receptionist", "cn": "有氧区角落，祝锻炼愉快。", "en": "By the cardio area. Enjoy your workout." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-03",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Wait for Treadmill",
+    "titleCn": "第3环：等跑步机",
+    "scene": "你想用跑步机，但有人在用。（对话链：健身房）",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "你好，这台跑步机你还要用很久吗？", "en": "Hi, are you going to be on the treadmill much longer?" },
+      { "role": "Member", "cn": "还有大概五分钟。", "en": "About five more minutes." },
+      { "role": "You", "cn": "好的，我等你。谢谢！", "en": "No problem. I'll wait. Thanks!" },
+      { "role": "Member", "cn": "好了，给你用吧。", "en": "All done. It's all yours." },
+      { "role": "You", "cn": "谢谢！你知道哑铃区在哪里吗？", "en": "Thanks! Do you know where the free weights are?" },
+      { "role": "Member", "cn": "在后面，过那个双开门就是。", "en": "In the back, just past those double doors." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-04",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: First PT Session",
+    "titleCn": "第4环：私教体验课",
+    "scene": "你的第一节私教课，教练在指导你。（对话链：健身房）",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "先热身五分钟，慢跑或者跳绳。", "en": "Let's warm up for five minutes, jogging or jump rope." },
+      { "role": "You", "cn": "好的。我今天主要练什么？", "en": "Okay. What are we focusing on today?" },
+      { "role": "Trainer", "cn": "上肢和核心，先做三组俯卧撑。", "en": "Upper body and core. Start with three sets of push-ups." },
+      { "role": "You", "cn": "标准俯卧撑我做不了几个。", "en": "I can't do many regular push-ups." },
+      { "role": "Trainer", "cn": "没关系，膝盖着地先做。", "en": "That's fine. Do them on your knees for now." },
+      { "role": "You", "cn": "做完这组感觉手臂好酸。", "en": "My arms are burning after that set." },
+      { "role": "Trainer", "cn": "很正常，休息一分钟再继续。", "en": "That's normal. Rest one minute and we'll continue." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-05",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Ask About Equipment",
+    "titleCn": "第5环：问器材用法",
+    "scene": "你想用史密斯机，不确定怎么调。（对话链：健身房）",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，史密斯机安全扣怎么卡？", "en": "Excuse me, how do I lock the safety on the Smith machine?" },
+      { "role": "Trainer", "cn": "两边旋钮拧紧，杆别滑下来。", "en": "Tighten both knobs so the bar won't slip." },
+      { "role": "You", "cn": "练深蹲重量怎么选？", "en": "What weight should I start with for squats?" },
+      { "role": "Trainer", "cn": "空杆先找感觉，再加十磅。", "en": "Start with the empty bar, then add ten pounds." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-06",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Forgot Towel",
+    "titleCn": "第6环：忘带毛巾",
+    "scene": "练完后你在更衣室，发现忘带毛巾。（对话链：健身房）",
+    "roles": ["You", "Member"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，有多余的毛巾吗？", "en": "Excuse me, do you have an extra towel?" },
+      { "role": "Member", "cn": "前台可以租，一美元一条。", "en": "You can rent one at the front desk for a dollar." },
+      { "role": "You", "cn": "淋浴间要排队吗？", "en": "Is there a wait for the showers?" },
+      { "role": "Member", "cn": "这个点不用，快去吧。", "en": "Not at this hour. Go ahead." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-07",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: After the Workout",
+    "titleCn": "第7环：练完聊天",
+    "scene": "你刚练完，在休息区和朋友聊天。（对话链：健身房）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "今天练得怎么样？", "en": "How was your workout today?" },
+      { "role": "You", "cn": "挺累的，但感觉很爽。", "en": "Pretty tough, but I feel great." },
+      { "role": "Friend", "cn": "你练了多久？", "en": "How long did you work out?" },
+      { "role": "You", "cn": "大概四十五分钟，主要练了腿。", "en": "About forty-five minutes. Mostly leg day." },
+      { "role": "Friend", "cn": "要不要一起去喝杯蛋白奶昔？", "en": "Want to grab a protein shake together?" },
+      { "role": "You", "cn": "好啊，我正好渴了。", "en": "Sure, I'm pretty thirsty." }
+    ]
+  },
+  {
+    "id": "dlg-chain-gym-08",
+    "category": "gym",
+    "chain": {
+      "id": "gym-workout",
+      "title": "A Full Gym Session",
+      "titleCn": "对话链：健身房锻炼一次",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Book Next PT",
+    "titleCn": "第8环：约下次私教",
+    "scene": "离开前，你跟教练约下次课。（对话链：健身房）",
+    "roles": ["You", "Trainer"],
+    "turns": [
+      { "role": "Trainer", "cn": "今天不错，要继续上私教吗？", "en": "Good session today. Want to keep training with me?" },
+      { "role": "You", "cn": "想，怎么收费？", "en": "Yes. What's the rate?" },
+      { "role": "Trainer", "cn": "单次六十，十节套餐五百。", "en": "Sixty per session, or five hundred for ten." },
+      { "role": "You", "cn": "先买十节，周三晚上行吗？", "en": "I'll take the ten-pack. Wednesday evenings work?" },
+      { "role": "Trainer", "cn": "七点可以，我发日历给你。", "en": "Seven PM works. I'll send you a calendar invite." },
+      { "role": "You", "cn": "好，下周见。", "en": "Great. See you next week." }
+    ]
+  }
+]

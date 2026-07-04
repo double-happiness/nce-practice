@@ -211,14 +211,19 @@
         if (r.correct) right++; else wrong++;
 
         const ansText = Array.isArray(r.answer) ? r.answer.join(' / ') : r.answer;
+        const ansHtml = !r.correct && NCE.formatAnswersWithSpeak
+          ? NCE.formatAnswersWithSpeak(r.answer, { btnClass: 'srv-btn', btnStyle: 'padding:2px 8px;font-size:13px;margin-left:4px' })
+          : `<b>${esc(String(ansText))}</b>`;
         const fb = document.createElement('div');
         fb.className = 'srv-fb ' + (r.correct ? 'ok' : 'no');
         fb.innerHTML =
           `<span class="tag ${r.correct ? 'ok' : 'no'}">${r.correct ? '✓ 回答正确' : '✗ 回答错误'}</span>` +
-          (r.correct ? '' : `　正确答案：<b>${esc(String(ansText))}</b>`) +
+          (r.correct ? '' : `　正确答案：${ansHtml}`) +
+          (!r.correct && r.answerCn ? `<div class="srv-exp">译：${esc(r.answerCn)}</div>` : '') +
           (r.explanation ? `<div class="srv-exp">💡 ${esc(r.explanation)}</div>` : '') +
           `<div class="srv-next">⏰ 下次复习：${esc(fmtDue(r.nextDueAt))}</div>`;
         card.insertBefore(fb, actions);
+        if (!r.correct && NCE.bindSpeakClicks) NCE.bindSpeakClicks(fb);
 
         if (!r.correct) {
           const stemWords = extractWords(q.stem);

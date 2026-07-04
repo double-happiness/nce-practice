@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "b4-37-q1",
+    "book": 4,
+    "lesson": 37,
+    "lessonTitle": "The process of ageing",
+    "grammar": [
+      "定语从句",
+      "让步状语"
+    ],
+    "type": "mcq",
+    "stem": "We can live no longer, ___ well society and our doctors look after us.",
+    "options": [
+      "however",
+      "whatever",
+      "whichever",
+      "wherever"
+    ],
+    "answer": "however",
+    "explanation": "考点:让步状语。however well 表「无论多么妥善地」，引导让步状语从句。"
+  },
+  {
+    "id": "b4-37-q2",
+    "book": 4,
+    "lesson": 37,
+    "lessonTitle": "The process of ageing",
+    "grammar": [
+      "定语从句",
+      "让步状语"
+    ],
+    "type": "mcq",
+    "stem": "It is one of the most unpleasant discoveries ___ we all make that we must decline in this way.",
+    "options": [
+      "which",
+      "where",
+      "when",
+      "what"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。先行词 discoveries 在从句中作 make 的宾语，用 which/that。"
+  },
+  {
+    "id": "b4-37-q3",
+    "book": 4,
+    "lesson": 37,
+    "lessonTitle": "The process of ageing",
+    "grammar": [
+      "定语从句",
+      "让步状语"
+    ],
+    "type": "mcq",
+    "stem": "Ageing is a process ___ differs little from person to person at a given rate.",
+    "options": [
+      "that",
+      "where",
+      "when",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 process 在从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-37-q4",
+    "book": 4,
+    "lesson": 37,
+    "lessonTitle": "The process of ageing",
+    "grammar": [
+      "定语从句",
+      "让步状语"
+    ],
+    "type": "mcq",
+    "stem": "___ lucky and robust we are, there is a virtual limit on how long we can hope to remain alive.",
+    "options": [
+      "However",
+      "Whatever",
+      "Whichever",
+      "Wherever"
+    ],
+    "answer": "However",
+    "explanation": "考点:让步状语。However + adj + 主语 + 谓语，表无论多么……。"
+  },
+  {
+    "id": "b4-37-q5",
+    "book": 4,
+    "lesson": 37,
+    "lessonTitle": "The process of ageing",
+    "grammar": [
+      "定语从句",
+      "让步状语"
+    ],
+    "type": "fill",
+    "stem": "We gradually lose the power to repair ourselves between twelve and eighty, however well we ___ (look) after ourselves.",
+    "answer": [
+      "look",
+      "are looked"
+    ],
+    "explanation": "考点:主动语态。主语 we 与 look after 为主动关系。"
+  },
+  {
+    "id": "b4-38-q1",
+    "book": 4,
+    "lesson": 38,
+    "lessonTitle": "Water and the traveller",
+    "grammar": [
+      "被动语态",
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "Intermittent tap-water supplies ___ as particularly suspect.",
+    "options": [
+      "should be regarded",
+      "should regard",
+      "should be regard",
+      "should have regarded"
+    ],
+    "answer": "should be regarded",
+    "explanation": "考点:被动语态。supply 是被视为的对象，用 should be regarded as。"
+  },
+  {
+    "id": "b4-38-q2",
+    "book": 4,
+    "lesson": 38,
+    "lessonTitle": "Water and the traveller",
+    "grammar": [
+      "被动语态",
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "Contamination of water supplies is usually ___ to poor sanitation close to water sources.",
+    "options": [
+      "due",
+      "owing",
+      "because",
+      "thanks"
+    ],
+    "answer": "due",
+    "explanation": "考点:被动语态。be due to 表原因，后接名词。"
+  },
+  {
+    "id": "b4-38-q3",
+    "book": 4,
+    "lesson": 38,
+    "lessonTitle": "Water and the traveller",
+    "grammar": [
+      "被动语态",
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "Water from unknown sources ___ before drinking.",
+    "options": [
+      "should be boiled",
+      "should boil",
+      "should have boiled",
+      "boils"
+    ],
+    "answer": "should be boiled",
+    "explanation": "考点:情态动词被动。水应被煮沸，用 should be boiled。"
+  },
+  {
+    "id": "b4-38-q4",
+    "book": 4,
+    "lesson": 38,
+    "lessonTitle": "Water and the traveller",
+    "grammar": [
+      "被动语态",
+      "情态动词"
+    ],
+    "type": "mcq",
+    "stem": "Alcohol should not be ___ upon to sterilize water.",
+    "options": [
+      "relied",
+      "rely",
+      "relying",
+      "relies"
+    ],
+    "answer": "relied",
+    "explanation": "考点:被动语态。rely upon 的被动 be relied upon。"
+  },
+  {
+    "id": "b4-38-q5",
+    "book": 4,
+    "lesson": 38,
+    "lessonTitle": "Water and the traveller",
+    "grammar": [
+      "被动语态",
+      "情态动词"
+    ],
+    "type": "fill",
+    "stem": "Intermittent tap-water supplies should be ___ (regard) as particularly suspect.",
+    "answer": [
+      "regarded"
+    ],
+    "explanation": "考点:被动语态。should be regarded as 被动态。"
+  },
+  {
+    "id": "b4-39-q1",
+    "book": 4,
+    "lesson": 39,
+    "lessonTitle": "What every writer wants",
+    "grammar": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The talent goes into the first draft, and the art into the drafts that ___.",
+    "options": [
+      "follow",
+      "follows",
+      "following",
+      "followed"
+    ],
+    "answer": "follow",
+    "explanation": "考点:定语从句。先行词 drafts 复数，从句谓语用 follow。"
+  },
+  {
+    "id": "b4-39-q2",
+    "book": 4,
+    "lesson": 39,
+    "lessonTitle": "What every writer wants",
+    "grammar": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "In the breaking and remaking, the writer comes to discern things in his material which were not consciously in his mind when he ___.",
+    "options": [
+      "began",
+      "begins",
+      "begin",
+      "begun"
+    ],
+    "answer": "began",
+    "explanation": "考点:定语从句+时态。时间状语从句用一般过去时 began。"
+  },
+  {
+    "id": "b4-39-q3",
+    "book": 4,
+    "lesson": 39,
+    "lessonTitle": "What every writer wants",
+    "grammar": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Writing to please can be his undoing: he has begun ___ to please.",
+    "options": [
+      "to write",
+      "writing",
+      "write",
+      "wrote"
+    ],
+    "answer": "to write",
+    "explanation": "考点:非谓语动词。begin to do 开始做某事。"
+  },
+  {
+    "id": "b4-39-q4",
+    "book": 4,
+    "lesson": 39,
+    "lessonTitle": "What every writer wants",
+    "grammar": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Writers talk interminably about their own books, ___ out hidden meanings.",
+    "options": [
+      "winkling",
+      "winkle",
+      "winkled",
+      "winkles"
+    ],
+    "answer": "winkling",
+    "explanation": "考点:非谓语动词。现在分词 winkling 表伴随动作。"
+  },
+  {
+    "id": "b4-39-q5",
+    "book": 4,
+    "lesson": 39,
+    "lessonTitle": "What every writer wants",
+    "grammar": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "The talent goes into the first draft, and the art into the drafts that ___ (follow).",
+    "answer": [
+      "follow"
+    ],
+    "explanation": "考点:定语从句。定语从句谓语与先行词 drafts 一致，用 follow。"
+  },
+  {
+    "id": "b4-40-q1",
+    "book": 4,
+    "lesson": 40,
+    "lessonTitle": "Waves",
+    "grammar": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "___ an ocean wave gives the impression of a wall of water, the water stays where it was.",
+    "options": [
+      "Although",
+      "Because",
+      "Unless",
+      "If"
+    ],
+    "answer": "Although",
+    "explanation": "考点:让步状语。although 引导让步从句，主句不用 but。"
+  },
+  {
+    "id": "b4-40-q2",
+    "book": 4,
+    "lesson": 40,
+    "lessonTitle": "Waves",
+    "grammar": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Waves move through the water ___ the water about where it was.",
+    "options": [
+      "leaving",
+      "leave",
+      "left",
+      "leaves"
+    ],
+    "answer": "leaving",
+    "explanation": "考点:非谓语动词。现在分词 leaving 表结果。"
+  },
+  {
+    "id": "b4-40-q3",
+    "book": 4,
+    "lesson": 40,
+    "lessonTitle": "Waves",
+    "grammar": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Each particle moves in a roughly circular ___ as the wave passes.",
+    "options": [
+      "orbit",
+      "orbitual",
+      "orbital",
+      "orbiting"
+    ],
+    "answer": "orbit",
+    "explanation": "考点:词汇。orbit 表轨道、轨迹。"
+  },
+  {
+    "id": "b4-40-q4",
+    "book": 4,
+    "lesson": 40,
+    "lessonTitle": "Waves",
+    "grammar": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Gravity is the force that drives them in a continual attempt ___ the ocean surface to a flat plain.",
+    "options": [
+      "to restore",
+      "restoring",
+      "restore",
+      "restored"
+    ],
+    "answer": "to restore",
+    "explanation": "考点:非谓语动词。attempt 后接不定式 to restore。"
+  },
+  {
+    "id": "b4-40-q5",
+    "book": 4,
+    "lesson": 40,
+    "lessonTitle": "Waves",
+    "grammar": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "type": "fill",
+    "stem": "Although a wave gives the impression of a wall of water, the water stays about where it ___ (be).",
+    "answer": [
+      "was",
+      "is"
+    ],
+    "explanation": "考点:一般现在时/过去时。陈述事实可用 is 或 was。"
+  },
+  {
+    "id": "b4-41-q1",
+    "book": 4,
+    "lesson": 41,
+    "lessonTitle": "Training elephants",
+    "grammar": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "The former method produces a resentful animal ___ at a later stage may turn man-killer.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "考点:定语从句。先行词 animal 指动物，从句作主语用 who/that。"
+  },
+  {
+    "id": "b4-41-q2",
+    "book": 4,
+    "lesson": 41,
+    "lessonTitle": "Training elephants",
+    "grammar": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "The gentle method simply consists ___ setting an elephant to work and beating him.",
+    "options": [
+      "of",
+      "in",
+      "with",
+      "from"
+    ],
+    "answer": "of",
+    "explanation": "考点:非谓语动词。consist of 固定搭配。"
+  },
+  {
+    "id": "b4-41-q3",
+    "book": 4,
+    "lesson": 41,
+    "lessonTitle": "Training elephants",
+    "grammar": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Elephants ___ by cruel methods never fully trust their handlers.",
+    "options": [
+      "trained",
+      "training",
+      "train",
+      "trains"
+    ],
+    "answer": "trained",
+    "explanation": "考点:非谓语动词。elephants 与 train 被动，用过去分词 trained。"
+  },
+  {
+    "id": "b4-41-q4",
+    "book": 4,
+    "lesson": 41,
+    "lessonTitle": "Training elephants",
+    "grammar": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "The relationship between elephant and mahout is the key ___ successful training.",
+    "options": [
+      "to",
+      "for",
+      "of",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "考点:词汇。the key to 固定搭配。"
+  },
+  {
+    "id": "b4-41-q5",
+    "book": 4,
+    "lesson": 41,
+    "lessonTitle": "Training elephants",
+    "grammar": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "type": "fill",
+    "stem": "A tame elephant may be ___ (tether) nearby to give the wild one confidence.",
+    "answer": [
+      "tethered"
+    ],
+    "explanation": "考点:被动语态。may be tethered 被拴住。"
+  },
+  {
+    "id": "b4-42-q1",
+    "book": 4,
+    "lesson": 42,
+    "lessonTitle": "Recording an earthquake",
+    "grammar": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "If the shock ___ gentle, only the more unstable rods fell.",
+    "options": [
+      "were",
+      "was",
+      "is",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "考点:虚拟语气。if + were 表假设，与事实可能相反。"
+  },
+  {
+    "id": "b4-42-q2",
+    "book": 4,
+    "lesson": 42,
+    "lessonTitle": "Recording an earthquake",
+    "grammar": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "___ the shock violent, every rod would topple.",
+    "options": [
+      "Were",
+      "Was",
+      "If",
+      "Should"
+    ],
+    "answer": "Were",
+    "explanation": "考点:虚拟语气。Were 置句首省略 if，构成倒装虚拟条件句。"
+  },
+  {
+    "id": "b4-42-q3",
+    "book": 4,
+    "lesson": 42,
+    "lessonTitle": "Recording an earthquake",
+    "grammar": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Its movement would be ___ in ink upon the surface of the paper.",
+    "options": [
+      "recorded",
+      "record",
+      "recording",
+      "records"
+    ],
+    "answer": "recorded",
+    "explanation": "考点:被动语态。movement 被记录，用 would be recorded。"
+  },
+  {
+    "id": "b4-42-q4",
+    "book": 4,
+    "lesson": 42,
+    "lessonTitle": "Recording an earthquake",
+    "grammar": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "A weight on a string moves only slightly when the hand is shaken, while the pen stays ___.",
+    "options": [
+      "still",
+      "silent",
+      "steady",
+      "stable"
+    ],
+    "answer": "still",
+    "explanation": "考点:词汇。stay still 保持静止。"
+  },
+  {
+    "id": "b4-42-q5",
+    "book": 4,
+    "lesson": 42,
+    "lessonTitle": "Recording an earthquake",
+    "grammar": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "type": "fill",
+    "stem": "If the shock ___ (be) gentle, only the more unstable rods fell.",
+    "answer": [
+      "were"
+    ],
+    "explanation": "考点:虚拟语气。if + were 虚拟假设。"
+  },
+  {
+    "id": "b4-43-q1",
+    "book": 4,
+    "lesson": 43,
+    "lessonTitle": "Are there strangers in space",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "___ a planet only approximately like our own, life is almost certain to start.",
+    "options": [
+      "Given",
+      "Giving",
+      "Gave",
+      "Give"
+    ],
+    "answer": "Given",
+    "explanation": "考点:条件句。Given + 名词短语表「给定/假设」。"
+  },
+  {
+    "id": "b4-43-q2",
+    "book": 4,
+    "lesson": 43,
+    "lessonTitle": "Are there strangers in space",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The Earth is the only one on ___ life can survive.",
+    "options": [
+      "which",
+      "that",
+      "where",
+      "whom"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。on which = where，介词 + which。"
+  },
+  {
+    "id": "b4-43-q3",
+    "book": 4,
+    "lesson": 43,
+    "lessonTitle": "Are there strangers in space",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "If intelligent beings exist elsewhere, they ___ use radio waves to communicate.",
+    "options": [
+      "may",
+      "must",
+      "should",
+      "would"
+    ],
+    "answer": "may",
+    "explanation": "考点:条件句。第一类条件句，主句 may 表可能。"
+  },
+  {
+    "id": "b4-43-q4",
+    "book": 4,
+    "lesson": 43,
+    "lessonTitle": "Are there strangers in space",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Radio waves travel at the speed of light, ___ our chemical rockets cannot match.",
+    "options": [
+      "which",
+      "that",
+      "what",
+      "where"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。which 指代前面整句或 speed。"
+  },
+  {
+    "id": "b4-43-q5",
+    "book": 4,
+    "lesson": 43,
+    "lessonTitle": "Are there strangers in space",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Our galaxy ___ (contain) billions of stars.",
+    "answer": [
+      "contains"
+    ],
+    "explanation": "考点:一般现在时。陈述事实用一般现在时 contains。"
+  },
+  {
+    "id": "b4-44-q1",
+    "book": 4,
+    "lesson": 44,
+    "lessonTitle": "Patterns of culture",
+    "grammar": [
+      "同位语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "It is from the moment of his birth ___ custom shapes his experience.",
+    "options": [
+      "that",
+      "which",
+      "when",
+      "where"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It is from ... that 强调时间起点。"
+  },
+  {
+    "id": "b4-44-q2",
+    "book": 4,
+    "lesson": 44,
+    "lessonTitle": "Patterns of culture",
+    "grammar": [
+      "同位语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "We are so familiar with the fact ___ man ages that we assume the process is self-evident.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "where"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。the fact that 从句解释 fact 内容，that 不可省。"
+  },
+  {
+    "id": "b4-44-q3",
+    "book": 4,
+    "lesson": 44,
+    "lessonTitle": "Patterns of culture",
+    "grammar": [
+      "同位语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "The customs into ___ he is born shape his behaviour.",
+    "options": [
+      "which",
+      "that",
+      "where",
+      "whom"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。into which = where，介词 + which。"
+  },
+  {
+    "id": "b4-44-q4",
+    "book": 4,
+    "lesson": 44,
+    "lessonTitle": "Patterns of culture",
+    "grammar": [
+      "同位语从句",
+      "强调句"
+    ],
+    "type": "mcq",
+    "stem": "The predominant role ___ custom plays in experience is of first-rate importance.",
+    "options": [
+      "that",
+      "where",
+      "when",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。role 在从句中作 plays 的宾语，用 that/which。"
+  },
+  {
+    "id": "b4-44-q5",
+    "book": 4,
+    "lesson": 44,
+    "lessonTitle": "Patterns of culture",
+    "grammar": [
+      "同位语从句",
+      "强调句"
+    ],
+    "type": "fill",
+    "stem": "Cultural ___ (pattern) vary widely between societies.",
+    "answer": [
+      "patterns"
+    ],
+    "explanation": "考点:主谓一致。复数主语 patterns，vary 用原形。"
+  },
+  {
+    "id": "b4-45-q1",
+    "book": 4,
+    "lesson": 45,
+    "lessonTitle": "Of men and galaxies",
+    "grammar": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Twenty or thirty pages of ideas ___ capable of turning the world upside down.",
+    "options": [
+      "would be",
+      "will be",
+      "are",
+      "were"
+    ],
+    "answer": "would be",
+    "explanation": "考点:虚拟语气。would be capable of 表假设下的可能结果。"
+  },
+  {
+    "id": "b4-45-q2",
+    "book": 4,
+    "lesson": 45,
+    "lessonTitle": "Of men and galaxies",
+    "grammar": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Our environment is chiefly conditioned by the things ___.",
+    "options": [
+      "we believe",
+      "which believe",
+      "believing",
+      "believed"
+    ],
+    "answer": "we believe",
+    "explanation": "考点:定语从句。things (that) we believe，省略关系代词。"
+  },
+  {
+    "id": "b4-45-q3",
+    "book": 4,
+    "lesson": 45,
+    "lessonTitle": "Of men and galaxies",
+    "grammar": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "On a galactic timescale, human history is ___.",
+    "options": [
+      "negligible",
+      "negligent",
+      "negotiable",
+      "numerous"
+    ],
+    "answer": "negligible",
+    "explanation": "考点:词汇。negligible 表微不足道的。"
+  },
+  {
+    "id": "b4-45-q4",
+    "book": 4,
+    "lesson": 45,
+    "lessonTitle": "Of men and galaxies",
+    "grammar": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "If we could view the universe from outside, we ___ see its true scale.",
+    "options": [
+      "would",
+      "will",
+      "can",
+      "shall"
+    ],
+    "answer": "would",
+    "explanation": "考点:虚拟语气。if + could，主句 would do。"
+  },
+  {
+    "id": "b4-45-q5",
+    "book": 4,
+    "lesson": 45,
+    "lessonTitle": "Of men and galaxies",
+    "grammar": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Distances in space are measured in light ___ (year).",
+    "answer": [
+      "years"
+    ],
+    "explanation": "考点:固定搭配。light years 光年，复数。"
+  },
+  {
+    "id": "b4-46-q1",
+    "book": 4,
+    "lesson": 46,
+    "lessonTitle": "Hobbies",
+    "grammar": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "It is no use ___ late in life to say you will take an interest.",
+    "options": [
+      "starting",
+      "to start",
+      "start",
+      "started"
+    ],
+    "answer": "starting",
+    "explanation": "考点:非谓语动词。it is no use + doing。"
+  },
+  {
+    "id": "b4-46-q2",
+    "book": 4,
+    "lesson": 46,
+    "lessonTitle": "Hobbies",
+    "grammar": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Such an attempt only ___ the strain of mental effort.",
+    "options": [
+      "aggravates",
+      "aggravate",
+      "irritates",
+      "irritate"
+    ],
+    "answer": "aggravates",
+    "explanation": "考点:词汇辨析。aggravate 表加重负担。"
+  },
+  {
+    "id": "b4-46-q3",
+    "book": 4,
+    "lesson": 46,
+    "lessonTitle": "Hobbies",
+    "grammar": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Active hobbies are ___ to passive amusement.",
+    "options": [
+      "preferable",
+      "preferred",
+      "preferring",
+      "preference"
+    ],
+    "answer": "preferable",
+    "explanation": "考点:词汇。be preferable to 优于。"
+  },
+  {
+    "id": "b4-46-q4",
+    "book": 4,
+    "lesson": 46,
+    "lessonTitle": "Hobbies",
+    "grammar": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Fortune's favoured children belong to the class ___ work and pleasure are one.",
+    "options": [
+      "whose",
+      "who",
+      "which",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "考点:定语从句。whose 表所属，work and pleasure are one。"
+  },
+  {
+    "id": "b4-46-q5",
+    "book": 4,
+    "lesson": 46,
+    "lessonTitle": "Hobbies",
+    "grammar": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "type": "fill",
+    "stem": "An ___ (absorb) hobby drives out petty worries.",
+    "answer": [
+      "absorbing"
+    ],
+    "explanation": "考点:非谓语动词。absorbing 现在分词作定语，表令人着迷的。"
+  },
+  {
+    "id": "b4-47-q1",
+    "book": 4,
+    "lesson": 47,
+    "lessonTitle": "The great escape",
+    "grammar": [
+      "让步状语",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "___, a snobbery of camping based on equipment already exists.",
+    "options": [
+      "Granted",
+      "Granting",
+      "Grants",
+      "Grant"
+    ],
+    "answer": "Granted",
+    "explanation": "考点:让步状语。Granted 置于句首表「诚然」。"
+  },
+  {
+    "id": "b4-47-q2",
+    "book": 4,
+    "lesson": 47,
+    "lessonTitle": "The great escape",
+    "grammar": [
+      "让步状语",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The man who ___ carelessly into his twenty pounds' worth of space may find himself bumping a Bentley.",
+    "options": [
+      "manoeuvres",
+      "manoeuvre",
+      "manoeuvring",
+      "manoeuvred"
+    ],
+    "answer": "manoeuvres",
+    "explanation": "考点:定语从句。定语从句中谓语与 who 一致，第三人称单数 manoeuvres。"
+  },
+  {
+    "id": "b4-47-q3",
+    "book": 4,
+    "lesson": 47,
+    "lessonTitle": "The great escape",
+    "grammar": [
+      "让步状语",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Holiday hotels tend to cater for one nationality; camping sites are highly ___.",
+    "options": [
+      "cosmopolitan",
+      "isolated",
+      "provincial",
+      "uniform"
+    ],
+    "answer": "cosmopolitan",
+    "explanation": "考点:词汇。cosmopolitan 表国际化的。"
+  },
+  {
+    "id": "b4-47-q4",
+    "book": 4,
+    "lesson": 47,
+    "lessonTitle": "The great escape",
+    "grammar": [
+      "让步状语",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "From all such fears camping ___ him.",
+    "options": [
+      "releases",
+      "release",
+      "releasing",
+      "released"
+    ],
+    "answer": "releases",
+    "explanation": "考点:一般现在时。陈述事实用 releases。"
+  },
+  {
+    "id": "b4-47-q5",
+    "book": 4,
+    "lesson": 47,
+    "lessonTitle": "The great escape",
+    "grammar": [
+      "让步状语",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Camping ___ (release) him from hotel hierarchies.",
+    "answer": [
+      "releases"
+    ],
+    "explanation": "考点:一般现在时。主语 camping 单数，用 releases。"
+  },
+  {
+    "id": "b4-48-q1",
+    "book": 4,
+    "lesson": 48,
+    "lessonTitle": "Planning a share portfolio",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "If you are older, preserving capital and generating income ___ your main priorities.",
+    "options": [
+      "are",
+      "is",
+      "was",
+      "were"
+    ],
+    "answer": "are",
+    "explanation": "考点:条件句。两个动名词作主语，谓语用复数 are。"
+  },
+  {
+    "id": "b4-48-q2",
+    "book": 4,
+    "lesson": 48,
+    "lessonTitle": "Planning a share portfolio",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Every serious investor needs a portfolio that ___ a definite structure.",
+    "options": [
+      "has",
+      "have",
+      "having",
+      "had"
+    ],
+    "answer": "has",
+    "explanation": "考点:定语从句。先行词 portfolio 单数，从句谓语 has。"
+  },
+  {
+    "id": "b4-48-q3",
+    "book": 4,
+    "lesson": 48,
+    "lessonTitle": "Planning a share portfolio",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "There is no single right way to invest, ___ putting every penny into one venture is wrong.",
+    "options": [
+      "yet",
+      "so",
+      "because",
+      "unless"
+    ],
+    "answer": "yet",
+    "explanation": "考点:并列连词。yet 表转折「然而/却」。"
+  },
+  {
+    "id": "b4-48-q4",
+    "book": 4,
+    "lesson": 48,
+    "lessonTitle": "Planning a share portfolio",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Younger investors may accept greater ___ in pursuit of growth.",
+    "options": [
+      "volatility",
+      "volatile",
+      "volatilize",
+      "volatilizes"
+    ],
+    "answer": "volatility",
+    "explanation": "考点:词汇。accept 后接名词 volatility。"
+  },
+  {
+    "id": "b4-48-q5",
+    "book": 4,
+    "lesson": 48,
+    "lessonTitle": "Planning a share portfolio",
+    "grammar": [
+      "条件句",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "You should ___ (diversify) across assets that behave differently.",
+    "answer": [
+      "diversify"
+    ],
+    "explanation": "考点:情态动词。should + 动词原形 diversify。"
+  }
+]

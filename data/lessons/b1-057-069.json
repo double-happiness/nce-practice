@@ -51,6 +51,97 @@
         "pos": "adj.",
         "cn": "漂亮的",
         "eg": "That is a pretty dress. 那是一条漂亮的连衣裙。"
+      },
+      {
+        "word": "fresh",
+        "phon": "/freʃ/",
+        "pos": "a.",
+        "cn": "新鲜的",
+        "eg": ""
+      },
+      {
+        "word": "egg",
+        "phon": "/eg/",
+        "pos": "n.",
+        "cn": "鸡蛋",
+        "eg": ""
+      },
+      {
+        "word": "butter",
+        "phon": "/'bʌtər/",
+        "pos": "n.",
+        "cn": "黄油",
+        "eg": ""
+      },
+      {
+        "word": "pure",
+        "phon": "/pjur/",
+        "pos": "a.",
+        "cn": "纯净的",
+        "eg": ""
+      },
+      {
+        "word": "honey",
+        "phon": "/'hʌnɪ/",
+        "pos": "n.",
+        "cn": "蜂蜜",
+        "eg": ""
+      },
+      {
+        "word": "ripe",
+        "phon": "/raɪp/",
+        "pos": "a.",
+        "cn": "成熟的",
+        "eg": ""
+      },
+      {
+        "word": "banana",
+        "phon": "/bə'nɑːnə/",
+        "pos": "n.",
+        "cn": "香蕉",
+        "eg": ""
+      },
+      {
+        "word": "jam",
+        "phon": "/dʒæm/",
+        "pos": "n.",
+        "cn": "果酱",
+        "eg": ""
+      },
+      {
+        "word": "sweet",
+        "phon": "/swiːt/",
+        "pos": "a.",
+        "cn": "甜的",
+        "eg": ""
+      },
+      {
+        "word": "orange",
+        "phon": "/'ɒrɪn(d)ʒ/",
+        "pos": "n.",
+        "cn": "橙",
+        "eg": ""
+      },
+      {
+        "word": "Scotch whisky",
+        "phon": "",
+        "pos": "",
+        "cn": "苏格兰威士忌",
+        "eg": ""
+      },
+      {
+        "word": "choice",
+        "phon": "/tʃɒɪs/",
+        "pos": "a.",
+        "cn": "上等的，精选的",
+        "eg": ""
+      },
+      {
+        "word": "apple",
+        "phon": "/'æp(ə)l/",
+        "pos": "n.",
+        "cn": "苹果",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -125,6 +216,90 @@
         "pos": "n.",
         "cn": "奶酪",
         "eg": "Do you want any cheese? 你要一些奶酪吗？"
+      },
+      {
+        "word": "wine",
+        "phon": "/waɪn/",
+        "pos": "n.",
+        "cn": "酒，果酒",
+        "eg": ""
+      },
+      {
+        "word": "beer",
+        "phon": "/bɪə/",
+        "pos": "n.",
+        "cn": "啤酒",
+        "eg": ""
+      },
+      {
+        "word": "blackboard",
+        "phon": "/'blækbɔːd/",
+        "pos": "n.",
+        "cn": "黑板",
+        "eg": ""
+      },
+      {
+        "word": "butcher",
+        "phon": "/ˈbʊtʃə(r)/",
+        "pos": "n.",
+        "cn": "屠夫，卖肉的",
+        "eg": ""
+      },
+      {
+        "word": "meat",
+        "phon": "/miːt/",
+        "pos": "n.",
+        "cn": "(食用)肉",
+        "eg": ""
+      },
+      {
+        "word": "beef",
+        "phon": "/biːf/",
+        "pos": "n.",
+        "cn": "牛肉",
+        "eg": ""
+      },
+      {
+        "word": "lamb",
+        "phon": "/læm/",
+        "pos": "n.",
+        "cn": "羔羊肉",
+        "eg": ""
+      },
+      {
+        "word": "husband",
+        "phon": "/'hʌzbənd/",
+        "pos": "n.",
+        "cn": "丈夫",
+        "eg": ""
+      },
+      {
+        "word": "steak",
+        "phon": "/steɪk/",
+        "pos": "n.",
+        "cn": "牛排",
+        "eg": ""
+      },
+      {
+        "word": "mince",
+        "phon": "/mɪns/",
+        "pos": "n.",
+        "cn": "肉馅，绞肉",
+        "eg": ""
+      },
+      {
+        "word": "chicken",
+        "phon": "/'tʃɪkɪn/",
+        "pos": "n.",
+        "cn": "鸡",
+        "eg": ""
+      },
+      {
+        "word": "tell",
+        "phon": "/tel/",
+        "pos": "v.",
+        "cn": "告诉",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -199,6 +374,97 @@
         "pos": "n./v.",
         "cn": "休息",
         "eg": "You need a lot of rest. 你需要好好休息。"
+      },
+      {
+        "word": "truth",
+        "phon": "/truːθ/",
+        "pos": "n.",
+        "cn": "实情",
+        "eg": ""
+      },
+      {
+        "word": "either",
+        "phon": "/'aɪðə; 'iː-/",
+        "pos": "adv.",
+        "cn": "也(用于否定句)",
+        "eg": ""
+      },
+      {
+        "word": "tomato",
+        "phon": "/tə'mɑːtəʊ/",
+        "pos": "n.",
+        "cn": "西红柿",
+        "eg": ""
+      },
+      {
+        "word": "potato",
+        "phon": "/pə'teɪtəʊ/",
+        "pos": "n.",
+        "cn": "土豆",
+        "eg": ""
+      },
+      {
+        "word": "cabbage",
+        "phon": "/ˈkæbɪdʒ/",
+        "pos": "n.",
+        "cn": "卷心菜",
+        "eg": ""
+      },
+      {
+        "word": "lettuce",
+        "phon": "/'letɪs/",
+        "pos": "n.",
+        "cn": "莴苣",
+        "eg": ""
+      },
+      {
+        "word": "pea",
+        "phon": "/piː/",
+        "pos": "n.",
+        "cn": "豌豆",
+        "eg": ""
+      },
+      {
+        "word": "bean",
+        "phon": "/biːn/",
+        "pos": "n.",
+        "cn": "豆角",
+        "eg": ""
+      },
+      {
+        "word": "pear",
+        "phon": "/peə/",
+        "pos": "n.",
+        "cn": "梨",
+        "eg": ""
+      },
+      {
+        "word": "grape",
+        "phon": "/greɪp/",
+        "pos": "n.",
+        "cn": "葡萄",
+        "eg": ""
+      },
+      {
+        "word": "peach",
+        "phon": "/piːtʃ/",
+        "pos": "n.",
+        "cn": "桃",
+        "eg": ""
+      },
+      {
+        "word": "Greece",
+        "phon": "/gri:s/",
+        "pos": "n.",
+        "cn": "希腊",
+        "eg": ""
+      },
+      {
+        "word": "climate",
+        "phon": "/'klaɪmət/",
+        "pos": "n.",
+        "cn": "气候",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -273,6 +539,90 @@
         "pos": "adv.",
         "cn": "很快；不久",
         "eg": "He will get well soon. 他很快就会好起来。"
+      },
+      {
+        "word": "country",
+        "phon": "/'kʌntrɪ/",
+        "pos": "n.",
+        "cn": "国家",
+        "eg": ""
+      },
+      {
+        "word": "pleasant",
+        "phon": "/'plez(ə)nt/",
+        "pos": "a.",
+        "cn": "宜人的",
+        "eg": ""
+      },
+      {
+        "word": "weather",
+        "phon": "/'weðə/",
+        "pos": "n.",
+        "cn": "天气",
+        "eg": ""
+      },
+      {
+        "word": "spring",
+        "phon": "/sprɪŋ/",
+        "pos": "n.",
+        "cn": "春季",
+        "eg": ""
+      },
+      {
+        "word": "windy",
+        "phon": "/'wɪndɪ/",
+        "pos": "a.",
+        "cn": "有风的",
+        "eg": ""
+      },
+      {
+        "word": "warm",
+        "phon": "/wɔːm/",
+        "pos": "a.",
+        "cn": "温暖的",
+        "eg": "He can get up for about two hours each day, but you must keep the room warm."
+      },
+      {
+        "word": "rain",
+        "phon": "/reɪn/",
+        "pos": "v.",
+        "cn": "下雨",
+        "eg": ""
+      },
+      {
+        "word": "sometimes",
+        "phon": "/'sʌmtaɪmz/",
+        "pos": "adv.",
+        "cn": "有时",
+        "eg": ""
+      },
+      {
+        "word": "summer",
+        "phon": "/'sʌmə/",
+        "pos": "n.",
+        "cn": "夏天",
+        "eg": ""
+      },
+      {
+        "word": "autumn",
+        "phon": "/'ɔːtəm/",
+        "pos": "n.",
+        "cn": "秋天",
+        "eg": ""
+      },
+      {
+        "word": "winter",
+        "phon": "/'wɪntə/",
+        "pos": "n.",
+        "cn": "冬天",
+        "eg": ""
+      },
+      {
+        "word": "snow",
+        "phon": "/snəʊ/",
+        "pos": "v.",
+        "cn": "下雪",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -347,6 +697,97 @@
         "pos": "modal v.",
         "cn": "必须",
         "eg": "You must listen to me. 你必须听我的。"
+      },
+      {
+        "word": "January",
+        "phon": "/'dʒænjʊ(ə)rɪ/",
+        "pos": "n.",
+        "cn": "一月",
+        "eg": ""
+      },
+      {
+        "word": "February",
+        "phon": "/ˈfebrʊərɪ/",
+        "pos": "n.",
+        "cn": "二月",
+        "eg": ""
+      },
+      {
+        "word": "March",
+        "phon": "/mɑːtʃ/",
+        "pos": "n.",
+        "cn": "三月",
+        "eg": ""
+      },
+      {
+        "word": "April",
+        "phon": "/'eɪprəl/",
+        "pos": "n.",
+        "cn": "四月",
+        "eg": ""
+      },
+      {
+        "word": "May",
+        "phon": "/meɪ/",
+        "pos": "n.",
+        "cn": "五月",
+        "eg": ""
+      },
+      {
+        "word": "June",
+        "phon": "/dʒu:n/",
+        "pos": "n.",
+        "cn": "六月",
+        "eg": ""
+      },
+      {
+        "word": "July",
+        "phon": "/dʒʊˈlaɪ/",
+        "pos": "n.",
+        "cn": "七月",
+        "eg": ""
+      },
+      {
+        "word": "August",
+        "phon": "/ˈɔːɡəst/",
+        "pos": "n.",
+        "cn": "八月",
+        "eg": ""
+      },
+      {
+        "word": "September",
+        "phon": "/sep'tembə/",
+        "pos": "n.",
+        "cn": "九月",
+        "eg": ""
+      },
+      {
+        "word": "October",
+        "phon": "/ɒk'təʊbə/",
+        "pos": "n.",
+        "cn": "十月",
+        "eg": ""
+      },
+      {
+        "word": "November",
+        "phon": "/nə(ʊ)'vembə/",
+        "pos": "n.",
+        "cn": "十一月",
+        "eg": ""
+      },
+      {
+        "word": "December",
+        "phon": "/dɪ'sembə/",
+        "pos": "n.",
+        "cn": "十二月",
+        "eg": ""
+      },
+      {
+        "word": "the U.S.",
+        "phon": "",
+        "pos": "",
+        "cn": "美国",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -420,6 +861,90 @@
         "pos": "n.",
         "cn": "一餐；饭",
         "eg": "We are cooking a big meal for them. 我们正在为他们做一顿丰盛的饭。"
+      },
+      {
+        "word": "Brazil",
+        "phon": "/brə'zil/",
+        "pos": "n.",
+        "cn": "巴西",
+        "eg": ""
+      },
+      {
+        "word": "Holland",
+        "phon": "/'hɒlənd/",
+        "pos": "n.",
+        "cn": "荷兰",
+        "eg": ""
+      },
+      {
+        "word": "England",
+        "phon": "/ˈɪŋɡlənd/",
+        "pos": "n.",
+        "cn": "英国",
+        "eg": ""
+      },
+      {
+        "word": "France",
+        "phon": "/'fræns/",
+        "pos": "n.",
+        "cn": "法国",
+        "eg": ""
+      },
+      {
+        "word": "Germany",
+        "phon": "/'dʒɜːmənɪ/",
+        "pos": "n.",
+        "cn": "德国",
+        "eg": ""
+      },
+      {
+        "word": "Italy",
+        "phon": "/'ɪtəlɪ/",
+        "pos": "n.",
+        "cn": "意大利",
+        "eg": ""
+      },
+      {
+        "word": "Norway",
+        "phon": "/'nɔ:weɪ/",
+        "pos": "n.",
+        "cn": "挪威",
+        "eg": ""
+      },
+      {
+        "word": "Russia",
+        "phon": "/'rʌʃə/",
+        "pos": "n.",
+        "cn": "俄罗斯",
+        "eg": ""
+      },
+      {
+        "word": "Spain",
+        "phon": "/spein/",
+        "pos": "n.",
+        "cn": "西班牙",
+        "eg": ""
+      },
+      {
+        "word": "Sweden",
+        "phon": "/'swidən/",
+        "pos": "n.",
+        "cn": "瑞典",
+        "eg": ""
+      },
+      {
+        "word": "mild",
+        "phon": "/maɪld/",
+        "pos": "a.",
+        "cn": "温和的，轻微的",
+        "eg": ""
+      },
+      {
+        "word": "always",
+        "phon": "/ˈɔ:lweɪz/",
+        "pos": "adv.",
+        "cn": "总是",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -487,6 +1012,97 @@
         "pos": "adj.",
         "cn": "激动人心的",
         "eg": "It is a very exciting race. 这是一场非常激动人心的比赛。"
+      },
+      {
+        "word": "north",
+        "phon": "/nɔːθ/",
+        "pos": "n.",
+        "cn": "北方",
+        "eg": ""
+      },
+      {
+        "word": "east",
+        "phon": "/iːst/",
+        "pos": "n.",
+        "cn": "东方",
+        "eg": ""
+      },
+      {
+        "word": "wet",
+        "phon": "/wet/",
+        "pos": "a.",
+        "cn": "潮湿的",
+        "eg": ""
+      },
+      {
+        "word": "west",
+        "phon": "/west/",
+        "pos": "n.",
+        "cn": "西方",
+        "eg": ""
+      },
+      {
+        "word": "south",
+        "phon": "/saʊθ/",
+        "pos": "n.",
+        "cn": "南方",
+        "eg": ""
+      },
+      {
+        "word": "season",
+        "phon": "/'siːz(ə)n/",
+        "pos": "n.",
+        "cn": "季节",
+        "eg": ""
+      },
+      {
+        "word": "best",
+        "phon": "/best/",
+        "pos": "adv.",
+        "cn": "最",
+        "eg": ""
+      },
+      {
+        "word": "night",
+        "phon": "/naɪt/",
+        "pos": "n.",
+        "cn": "夜晚",
+        "eg": ""
+      },
+      {
+        "word": "rise",
+        "phon": "/raɪz/",
+        "pos": "v.",
+        "cn": "升起",
+        "eg": ""
+      },
+      {
+        "word": "early",
+        "phon": "/'ɜːlɪ/",
+        "pos": "adv.",
+        "cn": "早期的",
+        "eg": ""
+      },
+      {
+        "word": "set",
+        "phon": "/set/",
+        "pos": "v.",
+        "cn": "(太阳)落下去",
+        "eg": ""
+      },
+      {
+        "word": "late",
+        "phon": "/leɪt/",
+        "pos": "adv.",
+        "cn": "晚，迟",
+        "eg": ""
+      },
+      {
+        "word": "interesting",
+        "phon": "/ˈɪntrəstɪŋ/",
+        "pos": "a.",
+        "cn": "有趣的，有意思的",
+        "eg": ""
       }
     ],
     "grammar": [

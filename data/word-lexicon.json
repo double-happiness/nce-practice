@@ -1,0 +1,187 @@
+{
+  "hello": {
+    "synonyms": [{ "w": "hi", "note": "更口语" }],
+    "related": ["good morning", "good afternoon", "good evening"]
+  },
+  "hi": {
+    "synonyms": [{ "w": "hello", "note": "更通用" }]
+  },
+  "big": {
+    "synonyms": [{ "w": "large" }, { "w": "great", "note": "程度较强" }]
+  },
+  "large": {
+    "synonyms": [{ "w": "big" }, { "w": "huge", "note": "更大" }]
+  },
+  "small": {
+    "synonyms": [{ "w": "little" }, { "w": "tiny", "note": "更小" }]
+  },
+  "little": {
+    "synonyms": [{ "w": "small" }]
+  },
+  "begin": {
+    "synonyms": [{ "w": "start" }]
+  },
+  "start": {
+    "synonyms": [{ "w": "begin" }]
+  },
+  "finish": {
+    "synonyms": [{ "w": "end" }, { "w": "complete", "note": "完成" }]
+  },
+  "end": {
+    "synonyms": [{ "w": "finish" }]
+  },
+  "excuse": {
+    "synonyms": [{ "w": "forgive", "note": "原谅" }],
+    "related": ["excuse me", "pardon"]
+  },
+  "forgive": {
+    "synonyms": [{ "w": "excuse" }]
+  },
+  "quick": {
+    "synonyms": [{ "w": "fast" }, { "w": "rapid", "note": "较正式" }]
+  },
+  "fast": {
+    "synonyms": [{ "w": "quick" }, { "w": "rapid" }]
+  },
+  "slow": {
+    "synonyms": [{ "w": "sluggish", "note": "迟缓" }]
+  },
+  "beautiful": {
+    "synonyms": [{ "w": "pretty" }, { "w": "lovely" }]
+  },
+  "pretty": {
+    "synonyms": [{ "w": "beautiful" }, { "w": "lovely" }]
+  },
+  "happy": {
+    "synonyms": [{ "w": "glad" }, { "w": "pleased" }]
+  },
+  "glad": {
+    "synonyms": [{ "w": "happy" }, { "w": "pleased" }]
+  },
+  "sad": {
+    "synonyms": [{ "w": "unhappy" }, { "w": "upset" }]
+  },
+  "unhappy": {
+    "synonyms": [{ "w": "sad" }]
+  },
+  "angry": {
+    "synonyms": [{ "w": "mad", "note": "口语" }, { "w": "cross", "note": "英式" }]
+  },
+  "mad": {
+    "synonyms": [{ "w": "angry" }]
+  },
+  "afraid": {
+    "synonyms": [{ "w": "frightened" }, { "w": "scared" }]
+  },
+  "scared": {
+    "synonyms": [{ "w": "afraid" }, { "w": "frightened" }]
+  },
+  "clever": {
+    "synonyms": [{ "w": "smart" }, { "w": "bright" }]
+  },
+  "smart": {
+    "synonyms": [{ "w": "clever" }, { "w": "bright" }]
+  },
+  "stupid": {
+    "synonyms": [{ "w": "foolish" }, { "w": "silly", "note": "较温和" }]
+  },
+  "foolish": {
+    "synonyms": [{ "w": "stupid" }]
+  },
+  "old": {
+    "synonyms": [{ "w": "ancient", "note": "古老" }, { "w": "aged", "note": "年迈" }]
+  },
+  "young": {
+    "synonyms": [{ "w": "youthful" }]
+  },
+  "rich": {
+    "synonyms": [{ "w": "wealthy" }]
+  },
+  "wealthy": {
+    "synonyms": [{ "w": "rich" }]
+  },
+  "poor": {
+    "synonyms": [{ "w": "needy" }, { "w": "broke", "note": "口语" }]
+  },
+  "job": {
+    "synonyms": [{ "w": "work" }, { "w": "position", "note": "职位" }]
+  },
+  "work": {
+    "synonyms": [{ "w": "job" }]
+  },
+  "buy": {
+    "synonyms": [{ "w": "purchase", "note": "较正式" }]
+  },
+  "purchase": {
+    "synonyms": [{ "w": "buy" }]
+  },
+  "sell": {
+    "synonyms": [{ "w": "sale", "note": "名词" }]
+  },
+  "help": {
+    "synonyms": [{ "w": "assist", "note": "较正式" }, { "w": "aid" }]
+  },
+  "assist": {
+    "synonyms": [{ "w": "help" }]
+  },
+  "like": {
+    "synonyms": [{ "w": "love", "note": "程度更强" }, { "w": "enjoy" }]
+  },
+  "love": {
+    "synonyms": [{ "w": "like", "note": "程度较弱" }, { "w": "adore", "note": "深爱" }]
+  },
+  "hate": {
+    "synonyms": [{ "w": "dislike" }]
+  },
+  "dislike": {
+    "synonyms": [{ "w": "hate", "note": "程度较弱" }]
+  },
+  "want": {
+    "synonyms": [{ "w": "need", "note": "需要" }, { "w": "wish" }]
+  },
+  "need": {
+    "synonyms": [{ "w": "want" }, { "w": "require", "note": "较正式" }]
+  },
+  "think": {
+    "synonyms": [{ "w": "believe" }, { "w": "consider" }]
+  },
+  "believe": {
+    "synonyms": [{ "w": "think" }]
+  },
+  "see": {
+    "synonyms": [{ "w": "look" }, { "w": "watch", "note": "持续看" }]
+  },
+  "look": {
+    "synonyms": [{ "w": "see" }, { "w": "watch" }]
+  },
+  "watch": {
+    "synonyms": [{ "w": "look" }, { "w": "see" }]
+  },
+  "hear": {
+    "synonyms": [{ "w": "listen", "note": "主动听" }]
+  },
+  "listen": {
+    "synonyms": [{ "w": "hear" }]
+  },
+  "speak": {
+    "synonyms": [{ "w": "talk" }, { "w": "say" }]
+  },
+  "talk": {
+    "synonyms": [{ "w": "speak" }]
+  },
+  "say": {
+    "synonyms": [{ "w": "tell" }, { "w": "speak" }]
+  },
+  "tell": {
+    "synonyms": [{ "w": "say" }]
+  },
+  "travel": {
+    "variants": [{ "form": "travelled/traveled", "note": "过去式" }, { "form": "travelling/traveling", "note": "现在分词" }]
+  },
+  "colour": {
+    "variants": [{ "form": "color", "note": "美式拼写" }]
+  },
+  "color": {
+    "variants": [{ "form": "colour", "note": "英式拼写" }]
+  }
+}

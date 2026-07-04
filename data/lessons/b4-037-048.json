@@ -1,0 +1,2423 @@
+[
+  {
+    "book": 4,
+    "lesson": 37,
+    "title": "The process of ageing",
+    "titleCn": "衰老的过程",
+    "scene": "十二岁时人体最为强健，死亡概率最低；此后活力与抵抗力逐渐丧失，终至无论自我保养、社会与医生如何照料都无法继续存活——这种随时间流逝的衰退称为衰老。令人不快的是，我们终将「老死」，且多数人会在六十五至八十岁之间辞世。人们常把衰老比作热水壶变凉或鞋子磨穿，但人体与机械不同：十二至八十岁之间我们逐渐失去自我修复能力，若保持十二岁时的活力，半数人需约七百年才会死去。本课语法侧重 however well 引导的让步状语从句，以及修饰 discoveries、process 的定语从句。",
+    "grammarTags": [
+      "定语从句",
+      "让步状语"
+    ],
+    "words": [
+      {
+        "word": "ageing",
+        "phon": "/ˈeɪdʒɪŋ/",
+        "pos": "n.",
+        "cn": "衰老",
+        "eg": "This decline in vigour is called ageing. 这种活力的衰退称为衰老。"
+      },
+      {
+        "word": "vigour",
+        "phon": "/ˈvɪɡə/",
+        "pos": "n.",
+        "cn": "活力",
+        "eg": "At twelve the body is at its most vigorous. 十二岁时人体最为强健。"
+      },
+      {
+        "word": "vulnerable",
+        "phon": "/ˈvʌlnərəbl/",
+        "pos": "adj.",
+        "cn": "脆弱的",
+        "eg": "Infants and young children are more vulnerable. 婴幼儿更为脆弱。"
+      },
+      {
+        "word": "imperceptible",
+        "phon": "/ˌɪmpəˈseptəbl/",
+        "pos": "adj.",
+        "cn": "难以察觉的",
+        "eg": "The loss of vigour is imperceptible at first. 活力丧失起初难以察觉。"
+      },
+      {
+        "word": "robust",
+        "phon": "/rəʊˈbʌst/",
+        "pos": "adj.",
+        "cn": "强健的",
+        "eg": "However lucky and robust we are, there is a limit. 无论多么幸运强健，寿命都有极限。"
+      },
+      {
+        "word": "thermodynamics",
+        "phon": "/ˌθɜːməʊdaɪˈnæmɪks/",
+        "pos": "n.",
+        "cn": "热力学",
+        "eg": "Mechanical systems run out of energy in accordance with thermodynamics. 机械系统依热力学定律耗尽能量。"
+      },
+      {
+        "word": "friction",
+        "phon": "/ˈfrɪkʃn/",
+        "pos": "n.",
+        "cn": "摩擦",
+        "eg": "Metal wears away by friction. 金属因摩擦而磨损。"
+      },
+      {
+        "word": "analogous",
+        "phon": "/əˈnæləɡəs/",
+        "pos": "adj.",
+        "cn": "类似的",
+        "eg": "Animal ageing is not analogous to a run-down watch. 动物衰老与停摆的表不可类比。"
+      },
+      {
+        "word": "moot",
+        "phon": "/muːt/",
+        "pos": "adj.",
+        "cn": "未决的；有争议的",
+        "eg": "Whether the universe wears out is a moot point. 宇宙是否会耗尽仍是未决之题。"
+      },
+      {
+        "word": "sterilize",
+        "phon": "/'sterəlaiz/",
+        "pos": "v.",
+        "cn": "消毒",
+        "eg": ""
+      },
+      {
+        "word": "ethanol",
+        "phon": "/'eθənɔːl/",
+        "pos": "n.",
+        "cn": "乙醇",
+        "eg": ""
+      },
+      {
+        "word": "bactericidal",
+        "phon": "/[bæktirә'saidl]/",
+        "pos": "a.",
+        "cn": "杀菌的",
+        "eg": ""
+      },
+      {
+        "word": "negligible",
+        "phon": "/'neglɪdʒəbl/",
+        "pos": "a.",
+        "cn": "可以忽略的，微不足道的",
+        "eg": ""
+      },
+      {
+        "word": "methylated",
+        "phon": "",
+        "pos": "a.",
+        "cn": "加入甲醇的",
+        "eg": ""
+      },
+      {
+        "word": "confess",
+        "phon": "/kən'fes/",
+        "pos": "v.",
+        "cn": "承认",
+        "eg": ""
+      },
+      {
+        "word": "inspiration",
+        "phon": "/ˌɪnspəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "灵感",
+        "eg": ""
+      },
+      {
+        "word": "Kashmir",
+        "phon": "/['kæʃ'miә]/",
+        "pos": "n.",
+        "cn": "克什米尔",
+        "eg": ""
+      },
+      {
+        "word": "interweave",
+        "phon": "/ˌɪntər'wiːv/",
+        "pos": "v.",
+        "cn": "交织",
+        "eg": ""
+      },
+      {
+        "word": "afresh",
+        "phon": "/ə'freʃ/",
+        "pos": "adv.",
+        "cn": "重新",
+        "eg": ""
+      },
+      {
+        "word": "discern",
+        "phon": "/dɪ'sɜːrn/",
+        "pos": "v.",
+        "cn": "辨明，领悟",
+        "eg": ""
+      },
+      {
+        "word": "indescribable",
+        "phon": "/ɪndɪ'skraɪbəb(ə)l/",
+        "pos": "a.",
+        "cn": "无法描述的",
+        "eg": ""
+      },
+      {
+        "word": "blur",
+        "phon": "/blɜːr/",
+        "pos": "v.",
+        "cn": "使…模糊不清",
+        "eg": ""
+      },
+      {
+        "word": "yeast",
+        "phon": "/jiːst/",
+        "pos": "n.",
+        "cn": "激动",
+        "eg": ""
+      },
+      {
+        "word": "fathom",
+        "phon": "/'fæð(ə)m/",
+        "pos": "n.",
+        "cn": "噚（噚等于.米）",
+        "eg": ""
+      },
+      {
+        "word": "interminably",
+        "phon": "",
+        "pos": "a.",
+        "cn": ".没完没了地",
+        "eg": ""
+      },
+      {
+        "word": "winkle",
+        "phon": "/'wɪŋkl/",
+        "pos": "v.",
+        "cn": "挖掘",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "让步状语",
+        "explain": "however + 形容词/副词 + 主谓 表「无论多么……」：however well we look after ourselves, however well society and our doctors look after us。易错点：however 在此不等于 however「然而」；不可与 but 连用。",
+        "examples": [
+          "We can live no longer, however well we look after ourselves, and however well society, and our doctors, look after us. （无论自我保养、社会与医生如何照料，我们终将无法继续存活。）",
+          "There is a virtual limit on how long we can hope to remain alive, however lucky and robust we are. （无论多么幸运强健，我们能期望存活的岁月都有实际极限。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 discoveries、rate、process 等：discoveries which we all make、the rate which differs little、a process which was assumed self-evident。易错点：先行词指物作主语用 which/that。",
+        "examples": [
+          "It is one of the most unpleasant discoveries which we all make that we must decline in this way. （我们终将如此衰退，这是最令所有人不快的发觉之一。）",
+          "People assumed that the process of losing vigour with time was something self-evident. （人们曾以为随时间丧失活力是不言自明的。）"
+        ]
+      }
+    ],
+    "tips": "①however + adj/adv + 主谓 = 无论多么……；②discoveries which we make 中 which 在从句中作宾语；③ageing 英式拼写，美式常作 aging。"
+  },
+  {
+    "book": 4,
+    "lesson": 38,
+    "title": "Water and the traveller",
+    "titleCn": "水与旅行者",
+    "scene": "水源污染常因近源卫生差、污水排入、管网渗漏或工业农业废水所致；即便源头安全，自来水抵达龙头时未必仍安全，间歇性供水尤应视为可疑。短途旅行者应避免饮用未经处理的自来水，宜选热饮或知名品牌瓶装/罐装饮料；开瓶应在场、瓶口洁净干燥。煮沸是可靠消毒法；冰的安全性取决于制冰用水，未知来源的冷饮应婉拒。酒精不可依赖以灭菌，甲醇剧毒。若无其他安全水源，烫手难触的自来水放凉后通常可饮。本课语法侧重 should be regarded as 等情态被动，以及 is due to 表原因的被动结构。",
+    "grammarTags": [
+      "被动语态",
+      "情态动词"
+    ],
+    "words": [
+      {
+        "word": "contamination",
+        "phon": "/kənˌtæmɪˈneɪʃn/",
+        "pos": "n.",
+        "cn": "污染",
+        "eg": "Contamination of water supplies is usually due to poor sanitation. 水源污染通常因卫生差所致。"
+      },
+      {
+        "word": "sanitation",
+        "phon": "/ˌsænɪˈteɪʃn/",
+        "pos": "n.",
+        "cn": "卫生设施",
+        "eg": "Poor sanitation close to water sources causes contamination. 水源附近卫生差导致污染。"
+      },
+      {
+        "word": "intermittent",
+        "phon": "/ˌɪntəˈmɪtənt/",
+        "pos": "adj.",
+        "cn": "间歇的",
+        "eg": "Intermittent tap-water supplies should be regarded as suspect. 间歇性自来水应视为可疑。"
+      },
+      {
+        "word": "suspect",
+        "phon": "/səˈspekt/",
+        "pos": "adj.",
+        "cn": "可疑的",
+        "eg": "Untreated water from any source is suspect. 任何来源的未经处理水都可疑。"
+      },
+      {
+        "word": "carbonated",
+        "phon": "/ˈkɑːbəneɪtɪd/",
+        "pos": "adj.",
+        "cn": "碳酸的",
+        "eg": "Carbonated drinks are acidic and slightly safer. 碳酸饮料呈酸性，略为安全。"
+      },
+      {
+        "word": "disinfectant",
+        "phon": "/ˌdɪsɪnˈfektənt/",
+        "pos": "n.",
+        "cn": "消毒剂",
+        "eg": "Alcohol should not be relied upon as a disinfectant. 不应依赖酒精作消毒剂。"
+      },
+      {
+        "word": "methylated",
+        "phon": "/ˈmeθɪleɪtɪd/",
+        "pos": "adj.",
+        "cn": "变性的（酒精）",
+        "eg": "Methylated alcohol is very poisonous. 变性酒精剧毒。"
+      },
+      {
+        "word": "bactericidal",
+        "phon": "/bækˌtɪərɪˈsaɪdl/",
+        "pos": "adj.",
+        "cn": "杀菌的",
+        "eg": "Below 20%, its bactericidal action is negligible. 低于百分之二十，杀菌作用可忽略。"
+      },
+      {
+        "word": "sewage",
+        "phon": "/ˈsuːɪdʒ/",
+        "pos": "n.",
+        "cn": "污水",
+        "eg": "Sewage disposal into sources causes contamination. 污水排入水源造成污染。"
+      },
+      {
+        "word": "incidentally",
+        "phon": "/ɪnsɪ'dent(ə)lɪ/",
+        "pos": "adv.",
+        "cn": "顺便说一下",
+        "eg": ""
+      },
+      {
+        "word": "pertinent",
+        "phon": "/'pɜːrtnənt/",
+        "pos": "a.",
+        "cn": "中肯的",
+        "eg": ""
+      },
+      {
+        "word": "flirt",
+        "phon": "/flɜːt/",
+        "pos": "v.",
+        "cn": "调情",
+        "eg": ""
+      },
+      {
+        "word": "inmost",
+        "phon": "/'ɪnməʊst/",
+        "pos": "a.",
+        "cn": "内心深处的",
+        "eg": ""
+      },
+      {
+        "word": "signature",
+        "phon": "/'sɪgnətʃə/",
+        "pos": "n.",
+        "cn": "签名，标记",
+        "eg": ""
+      },
+      {
+        "word": "infinity",
+        "phon": "/ɪn'fɪnɪtɪ/",
+        "pos": "n.",
+        "cn": "无穷",
+        "eg": ""
+      },
+      {
+        "word": "ray",
+        "phon": "/reɪ/",
+        "pos": "n.",
+        "cn": "光线",
+        "eg": ""
+      },
+      {
+        "word": "energize",
+        "phon": "/'enədʒaɪz/",
+        "pos": "v.",
+        "cn": "给与…能量",
+        "eg": ""
+      },
+      {
+        "word": "rhythm",
+        "phon": "/'rɪðəm/",
+        "pos": "n.",
+        "cn": "节奏",
+        "eg": ""
+      },
+      {
+        "word": "transmit",
+        "phon": "/træns'mɪt/",
+        "pos": "v.",
+        "cn": "传送",
+        "eg": ""
+      },
+      {
+        "word": "exquisite",
+        "phon": "/'ekskwɪzɪt; ɪk'skwɪzɪt; ek-/",
+        "pos": "a.",
+        "cn": "高雅的",
+        "eg": ""
+      },
+      {
+        "word": "phenomena",
+        "phon": "/[fi'nɔminә]/",
+        "pos": "n.",
+        "cn": "现象",
+        "eg": ""
+      },
+      {
+        "word": "crest",
+        "phon": "/krest/",
+        "pos": "n.",
+        "cn": "浪峰",
+        "eg": ""
+      },
+      {
+        "word": "trough",
+        "phon": "/trɔːf/",
+        "pos": "n.",
+        "cn": "波谷",
+        "eg": ""
+      },
+      {
+        "word": "vertical",
+        "phon": "/'vɜːrtɪkl/",
+        "pos": "a.",
+        "cn": "垂直的",
+        "eg": ""
+      },
+      {
+        "word": "horizontal",
+        "phon": "/ˌhɔːrə'zɑːntl/",
+        "pos": "a.",
+        "cn": "水平的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "科普说明常用被动强调客观事实：is usually due to、should be regarded as、is not always safe、can be left to cool。易错点：due to 表原因；regard A as B 被动为 A should be regarded as B。",
+        "examples": [
+          "Contamination of water supplies is usually due to poor sanitation close to water sources. （水源污染通常因近源卫生差所致。）",
+          "Intermittent tap-water supplies should be regarded as particularly suspect. （间歇性自来水供应应特别视为可疑。）"
+        ]
+      },
+      {
+        "point": "情态动词",
+        "explain": "should 表建议：should avoid drinking、should be regarded as、should not be relied upon、should never be added。易错点：should not be relied upon to do 不可省略 upon。",
+        "examples": [
+          "Travellers on short trips should avoid drinking tap-water from uncertain sources. （短途旅行者应避免饮用来源不明的水。）",
+          "Alcohol may be a medical disinfectant, but should not be relied upon to sterilize water. （酒精或为医用消毒剂，但不可依赖以灭菌。）"
+        ]
+      }
+    ],
+    "tips": "①should be regarded as = 应被视为；②due to 表原因；③insure 投保，ensure 确保，勿混淆。"
+  },
+  {
+    "book": 4,
+    "lesson": 39,
+    "title": "What every writer wants",
+    "titleCn": "作家之所需",
+    "scene": "作者所识的杰出作家几乎无人初落笔时便清楚方向；他们带着一两个角色，处于被称为灵感的 eager discomfort，且承认旅程开始后目的地常彻底改变——有人将克什米尔题材小说整体改设于苏格兰高地。无人按学校所教先写「骨架」。在反复打破与重组、交织时序、重新开篇的过程中，作者渐悟初未意识到的素材内涵——这种有机过程常引至惊人的自我发现。作家亦易 endlessly 谈论自己的书，挖 hidden meanings，但这往往令人生厌；为取悦读者而写可能是 undoing。才华倾注于初稿，艺术成就于后续修改；作家如其他艺术家，无 resting place，须以内心判断为准。本课语法侧重 breaking and remaking 等动名词结构，以及修饰 drafts、writer 的定语从句。",
+    "grammarTags": [
+      "非谓语动词",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "draft",
+        "phon": "/drɑːft/",
+        "pos": "n.",
+        "cn": "草稿",
+        "eg": "The talent goes into the first draft. 才华倾注于初稿。"
+      },
+      {
+        "word": "remake",
+        "phon": "/ˌriːˈmeɪk/",
+        "pos": "v.",
+        "cn": "重新制作",
+        "eg": "In the breaking and remaking, the writer discovers new things. 在打破与重组中，作者发现新内涵。"
+      },
+      {
+        "word": "interweave",
+        "phon": "/ˌɪntəˈwiːv/",
+        "pos": "v.",
+        "cn": "交织",
+        "eg": "Timing and interweaving require patience. 时序与交织需要耐心。"
+      },
+      {
+        "word": "fathom",
+        "phon": "/ˈfæðəm/",
+        "pos": "v.",
+        "cn": "领会；测深",
+        "eg": "They cannot fathom the exact outline of the vision. 他们无法领会愿景的确切轮廓。"
+      },
+      {
+        "word": "anarchy",
+        "phon": "/ˈænəki/",
+        "pos": "n.",
+        "cn": "无秩序",
+        "eg": "A writer makes order out of the anarchy of his heart. 作家将内心的无序化为秩序。"
+      },
+      {
+        "word": "pertinent",
+        "phon": "/ˈpɜːtɪnənt/",
+        "pos": "adj.",
+        "cn": "切题的",
+        "eg": "A young writer made a pertinent observation. 一位年轻作家作了切题评论。"
+      },
+      {
+        "word": "undoing",
+        "phon": "/ʌnˈduːɪŋ/",
+        "pos": "n.",
+        "cn": "毁灭；祸根",
+        "eg": "Writing to please can be his undoing. 为取悦而写可能是祸根。"
+      },
+      {
+        "word": "incidentally",
+        "phon": "/ˌɪnsɪˈdentli/",
+        "pos": "adv.",
+        "cn": "顺便说",
+        "eg": "He is, incidentally, an unforgivable bore. 顺便说，他也是令人难以容忍的 bore。"
+      },
+      {
+        "word": "winkle",
+        "phon": "/ˈwɪŋkl/",
+        "pos": "v.",
+        "cn": "挖出；探出",
+        "eg": "Writers winkle out hidden meanings from their books. 作家从书中探出隐藏含义。"
+      },
+      {
+        "word": "actuality",
+        "phon": "/æktjʊ'ælɪtɪ; -tʃʊ-/",
+        "pos": "n.",
+        "cn": "现实",
+        "eg": ""
+      },
+      {
+        "word": "catastrophic",
+        "phon": "/kætə'strɒfɪk/",
+        "pos": "a.",
+        "cn": "大灾难的",
+        "eg": ""
+      },
+      {
+        "word": "particle",
+        "phon": "/'pɑːrtɪkl/",
+        "pos": "n.",
+        "cn": "微粒",
+        "eg": ""
+      },
+      {
+        "word": "maturity",
+        "phon": "/mə'turəti/",
+        "pos": "n.",
+        "cn": "成熟",
+        "eg": ""
+      },
+      {
+        "word": "undulate",
+        "phon": "/'ʌndjuleit/",
+        "pos": "v.",
+        "cn": "波动，形成波浪",
+        "eg": ""
+      },
+      {
+        "word": "tremor",
+        "phon": "/'tremə/",
+        "pos": "n.",
+        "cn": "震颤",
+        "eg": ""
+      },
+      {
+        "word": "gravitational",
+        "phon": "/ˌgrævɪ'teɪʃənl/",
+        "pos": "a.",
+        "cn": "地心吸力的",
+        "eg": ""
+      },
+      {
+        "word": "technique",
+        "phon": "/tek'niːk/",
+        "pos": "n.",
+        "cn": "技术",
+        "eg": ""
+      },
+      {
+        "word": "tough",
+        "phon": "/tʌf/",
+        "pos": "a.",
+        "cn": "强硬的",
+        "eg": ""
+      },
+      {
+        "word": "resentful",
+        "phon": "/rɪ'zentfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "仇恨不满的",
+        "eg": ""
+      },
+      {
+        "word": "assign",
+        "phon": "/ə'saɪn/",
+        "pos": "v.",
+        "cn": "分配，指派",
+        "eg": ""
+      },
+      {
+        "word": "mahout",
+        "phon": "/[mә'haut]/",
+        "pos": "n.",
+        "cn": "驯象的人",
+        "eg": ""
+      },
+      {
+        "word": "calf",
+        "phon": "/kɑːf/",
+        "pos": "n.",
+        "cn": "幼仔",
+        "eg": ""
+      },
+      {
+        "word": "pine",
+        "phon": "/paɪn/",
+        "pos": "v.",
+        "cn": "消瘦",
+        "eg": ""
+      },
+      {
+        "word": "underline",
+        "phon": "/ʌndə'laɪn/",
+        "pos": "v.",
+        "cn": "着重说明，强调",
+        "eg": ""
+      },
+      {
+        "word": "keep",
+        "phon": "/kiːp/",
+        "pos": "n.",
+        "cn": "生计",
+        "eg": ""
+      },
+      {
+        "word": "subservient",
+        "phon": "/səb'sɜːrviənt/",
+        "pos": "a.",
+        "cn": "屈从的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词",
+        "explain": "动名词 breaking and remaking、starting afresh 作介词宾语；writing to please 不定式表目的；those I respect 省略关系代词。易错点：in the breaking and remaking 中 and 连接两个动名词。",
+        "examples": [
+          "In the breaking and remaking, in the timing interweaving, beginning afresh, the writer comes to discern things in his material. （在打破重组、时序交织、重新开篇中，作者渐悟素材中的内涵。）",
+          "This temptation to cover the distance between himself and the reader can be his undoing: he has begun to write to please. （欲拉近与读者距离的诱惑可能是祸根：他开始为取悦而写。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 writers、drafts、books：writers who read nothing but their own books、the drafts that follow、meanings that were not consciously in his mind。易错点：that follow 修饰 drafts；who 指人。",
+        "examples": [
+          "The talent goes into the first draft, and the art into the drafts that follow. （才华倾注于初稿，艺术成就于后续修改。）",
+          "I have known very few writers, but those I have known and whom I respect, confess at once that they have little idea where they are going. （所识作家不多，但所敬者均承认初落笔时方向不明。）"
+        ]
+      }
+    ],
+    "tips": "①the drafts that follow = 后续修改稿；②write to please 为取悦而写；③动名词短语可作介词宾语（in breaking and remaking）。"
+  },
+  {
+    "book": 4,
+    "lesson": 40,
+    "title": "Waves",
+    "titleCn": "波浪",
+    "scene": "波浪是海洋与大气斗争的产物，是无限持续的签名。阳光激发大气流动，风将太阳的信息传予大海，海浪再将古老而有力的信息传递下去。波浪有 crest、trough、height、wavelength 与 period 等基本特征。尽管海浪给人以水墙扑面而来的印象，水质点实则大致留在原位——若水体随浪整体推进，一切将灾难性地冲向海岸。深海中水质点作近似圆周运动；波浪从成熟到消亡，服从与其他「生命体」相同的法则。开阔海面波浪由风、地壳运动及日月引力产生，一旦生成，重力则驱使它们不断试图恢复海面的平坦。本课语法侧重 although 引导的让步从句，以及 leaving the water about where it was 等分词结构。",
+    "grammarTags": [
+      "让步状语",
+      "非谓语动词"
+    ],
+    "words": [
+      {
+        "word": "crest",
+        "phon": "/krest/",
+        "pos": "n.",
+        "cn": "波峰",
+        "eg": "A crest is the highest point of a wave. 波峰是波浪最高点。"
+      },
+      {
+        "word": "trough",
+        "phon": "/trɒf/",
+        "pos": "n.",
+        "cn": "波谷",
+        "eg": "The trough is the lowest point of the wave. 波谷是波浪最低点。"
+      },
+      {
+        "word": "wavelength",
+        "phon": "/ˈweɪvleŋθ/",
+        "pos": "n.",
+        "cn": "波长",
+        "eg": "Wave length is the distance between two crests. 波长是两波峰间的水平距离。"
+      },
+      {
+        "word": "orbit",
+        "phon": "/ˈɔːbɪt/",
+        "pos": "n.",
+        "cn": "轨道；轨迹",
+        "eg": "A particle moves in a roughly circular orbit. 水质点作近似圆周运动。"
+      },
+      {
+        "word": "undulate",
+        "phon": "/ˈʌndjuleɪt/",
+        "pos": "v.",
+        "cn": "波动",
+        "eg": "Undulating waves are generated by wind. 起伏的波浪由风产生。"
+      },
+      {
+        "word": "tremor",
+        "phon": "/ˈtremə/",
+        "pos": "n.",
+        "cn": "震颤",
+        "eg": "Earth movements or tremors generate waves. 地壳运动或震颤产生波浪。"
+      },
+      {
+        "word": "gravitational",
+        "phon": "/ˌɡrævɪˈteɪʃənl/",
+        "pos": "adj.",
+        "cn": "引力的",
+        "eg": "The gravitational pull of the moon generates tides. 月球引力产生潮汐。"
+      },
+      {
+        "word": "catastrophic",
+        "phon": "/ˌkætəˈstrɒfɪk/",
+        "pos": "adj.",
+        "cn": "灾难性的",
+        "eg": "Everything would race shoreward with catastrophic results. 一切将灾难性地冲向海岸。"
+      },
+      {
+        "word": "reabsorb",
+        "phon": "/ˌriːəbˈzɔːb/",
+        "pos": "v.",
+        "cn": "重新吸收",
+        "eg": "A wave is finally reabsorbed into the great ocean of life. 波浪终被重新吸纳入生命的大洋。"
+      },
+      {
+        "word": "plunge",
+        "phon": "/plʌndʒ/",
+        "pos": "v.",
+        "cn": "向前冲",
+        "eg": ""
+      },
+      {
+        "word": "tame",
+        "phon": "/teɪm/",
+        "pos": "a.",
+        "cn": "养驯服了的",
+        "eg": ""
+      },
+      {
+        "word": "tether",
+        "phon": "/'teðə/",
+        "pos": "v.",
+        "cn": "(用绳)拴",
+        "eg": ""
+      },
+      {
+        "word": "ticklish",
+        "phon": "/'tɪklɪʃ/",
+        "pos": "a.",
+        "cn": "难对付的，棘手的",
+        "eg": ""
+      },
+      {
+        "word": "alarming",
+        "phon": "",
+        "pos": "a.",
+        "cn": "引起惊恐的",
+        "eg": ""
+      },
+      {
+        "word": "accompaniment",
+        "phon": "/ə'kʌmp(ə)nɪm(ə)nt/",
+        "pos": "n.",
+        "cn": "伴奏",
+        "eg": ""
+      },
+      {
+        "word": "soothe",
+        "phon": "/suːð/",
+        "pos": "v.",
+        "cn": "镇定",
+        "eg": ""
+      },
+      {
+        "word": "chant",
+        "phon": "/tʃænt/",
+        "pos": "n.",
+        "cn": "单调的歌",
+        "eg": ""
+      },
+      {
+        "word": "reinforce",
+        "phon": "/ˌriːɪn'fɔːrs/",
+        "pos": "v.",
+        "cn": "加强",
+        "eg": ""
+      },
+      {
+        "word": "endearing",
+        "phon": "/ɪn'dɪrɪŋ/",
+        "pos": "a.",
+        "cn": "惹人喜爱的",
+        "eg": ""
+      },
+      {
+        "word": "epithet",
+        "phon": "/'epɪθet/",
+        "pos": "n.",
+        "cn": "称呼",
+        "eg": ""
+      },
+      {
+        "word": "susceptible",
+        "phon": "/sə'septəbl/",
+        "pos": "a.",
+        "cn": "易受感染的",
+        "eg": ""
+      },
+      {
+        "word": "blandishment",
+        "phon": "/'blændiʃmənt/",
+        "pos": "n.",
+        "cn": "奉承",
+        "eg": ""
+      },
+      {
+        "word": "lash",
+        "phon": "/læʃ/",
+        "pos": "v.",
+        "cn": "猛烈地甩",
+        "eg": ""
+      },
+      {
+        "word": "curl",
+        "phon": "/kɜːrl/",
+        "pos": "v.",
+        "cn": "使卷曲",
+        "eg": ""
+      },
+      {
+        "word": "earthquake",
+        "phon": "/'ɜːθkweɪk/",
+        "pos": "n.",
+        "cn": "地震",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "让步状语",
+        "explain": "although 引导让步从句，主句不可用 but：Although an ocean wave gives the impression of a wall of water, the water stays about where it was。易错点：although 与 but 不可同用；in actuality 引出现实情况。",
+        "examples": [
+          "Although an ocean wave gives the impression of a wall of water moving in your direction, in actuality waves move through the water leaving the water about where it was. （尽管海浪给人以水墙扑面而来的印象，水质点实则大致留在原位。）",
+          "Although the basic features include a crest and a trough, ocean waves are among the earth's most complicated phenomena. （尽管有波峰波谷等基本特征，海浪仍是最复杂的现象之一。）"
+        ]
+      },
+      {
+        "point": "非谓语动词",
+        "explain": "现在分词表伴随或结果：leaving the water about where it was、drawing the particle first towards the wave；不定式表目的：to restore the ocean surface。易错点：leaving 的逻辑主语是 waves。",
+        "examples": [
+          "Waves move through the water leaving the water about where it was. （波浪穿过水体，水质点大致留在原位。）",
+          "Gravity is the force that drives them in a continual attempt to restore the ocean surface to a flat plain. （重力驱使波浪不断试图恢复海面平坦。）"
+        ]
+      }
+    ],
+    "tips": "①although 引导让步，主句不用 but；②leave the water about where it was 水质点留在原位；③period 指波峰通过一个波长所需时间。"
+  },
+  {
+    "book": 4,
+    "lesson": 41,
+    "title": "Training elephants",
+    "titleCn": "训练大象",
+    "scene": "驯象有「强硬」与「温和」两法：前者鞭打至服从，易养成愤恨之兽，日后或袭击人类；后者需更多耐心，却得性情开朗、多年忠诚服役之象。首要须指定单一 mahout 全权负责；象喜单一主人，甚至可生深厚情感。十五至二十岁捕获最经济，然此时野性难驯，须铁腕。野象先拴树旁，常伴驯象以增信心；进食正常后方始训练，辅以单调抚慰吟唱与亲昵称呼。本课语法侧重修饰 animal、elephants 的定语从句，以及 consisting of、setting an elephant to work 等非谓语结构。",
+    "grammarTags": [
+      "定语从句",
+      "非谓语动词"
+    ],
+    "words": [
+      {
+        "word": "mahout",
+        "phon": "/məˈhaʊt/",
+        "pos": "n.",
+        "cn": "象夫",
+        "eg": "A single mahout is entirely responsible for the elephant. 一名象夫全权负责这头象。"
+      },
+      {
+        "word": "subservient",
+        "phon": "/səbˈsɜːviənt/",
+        "pos": "adj.",
+        "cn": "顺从的",
+        "eg": "Animals of this age do not easily become subservient to man. 这个年龄的动物不易顺从人类。"
+      },
+      {
+        "word": "tether",
+        "phon": "/ˈteðə/",
+        "pos": "v.",
+        "cn": "拴住",
+        "eg": "A tame elephant is tethered nearby to give confidence. 一头驯象拴在附近以增信心。"
+      },
+      {
+        "word": "blandishment",
+        "phon": "/ˈblændɪʃmənt/",
+        "pos": "n.",
+        "cn": "奉承；抚慰",
+        "eg": "The elephant is not immediately susceptible to blandishments. 大象不会立刻被奉承打动。"
+      },
+      {
+        "word": "epithet",
+        "phon": "/ˈepɪθet/",
+        "pos": "n.",
+        "cn": "称呼；绰号",
+        "eg": "Endearing epithets reinforce pleasurable sensations. 亲昵称呼强化愉悦感。"
+      },
+      {
+        "word": "resentful",
+        "phon": "/rɪˈzentfl/",
+        "pos": "adj.",
+        "cn": "愤恨的",
+        "eg": "The tough method produces a resentful animal. 强硬法养成愤恨的野兽。"
+      },
+      {
+        "word": "plunge",
+        "phon": "/plʌndʒ/",
+        "pos": "v.",
+        "cn": "猛冲；挣扎",
+        "eg": "The captive plunges and screams when a man approaches. 野象见人便猛冲尖叫。"
+      },
+      {
+        "word": "ticklish",
+        "phon": "/ˈtɪklɪʃ/",
+        "pos": "adj.",
+        "cn": "棘手的；需小心处理的",
+        "eg": "Getting the elephant to the training establishment is a ticklish business. 将象送至训练场是棘手之事。"
+      },
+      {
+        "word": "offensive",
+        "phon": "/əˈfensɪv/",
+        "pos": "adj.",
+        "cn": "攻击性的",
+        "eg": "The trunk seldom afterwards uses it for offensive purposes. 象鼻此后很少用于攻击。"
+      },
+      {
+        "word": "slumber",
+        "phon": "/'slʌmbər/",
+        "pos": "v.",
+        "cn": "睡眠",
+        "eg": ""
+      },
+      {
+        "word": "ninepin",
+        "phon": "",
+        "pos": "n.",
+        "cn": "九柱戏中的木柱",
+        "eg": ""
+      },
+      {
+        "word": "rigid",
+        "phon": "/'rɪdʒɪd/",
+        "pos": "a.",
+        "cn": "坚硬的",
+        "eg": ""
+      },
+      {
+        "word": "delicate",
+        "phon": "/'delɪkət/",
+        "pos": "a.",
+        "cn": "灵敏的",
+        "eg": ""
+      },
+      {
+        "word": "seismometer",
+        "phon": "/[saiz'mɔmitә]/",
+        "pos": "n.",
+        "cn": "地震仪",
+        "eg": ""
+      },
+      {
+        "word": "penholder",
+        "phon": "",
+        "pos": "n.",
+        "cn": "笔杆",
+        "eg": ""
+      },
+      {
+        "word": "legibly",
+        "phon": "/['ledʒәbli]/",
+        "pos": "adv.",
+        "cn": "字迹清楚地",
+        "eg": ""
+      },
+      {
+        "word": "drum",
+        "phon": "/drʌm/",
+        "pos": "n.",
+        "cn": "鼓状物",
+        "eg": ""
+      },
+      {
+        "word": "wriggle",
+        "phon": "/'rɪg(ə)l/",
+        "pos": "v.",
+        "cn": "扭动",
+        "eg": ""
+      },
+      {
+        "word": "bluebottle",
+        "phon": "/['blu:bɔtl]/",
+        "pos": "n.",
+        "cn": "绿头苍蝇",
+        "eg": ""
+      },
+      {
+        "word": "graph",
+        "phon": "/græf/",
+        "pos": "n.",
+        "cn": "图表",
+        "eg": ""
+      },
+      {
+        "word": "graphic",
+        "phon": "/'græfɪk/",
+        "pos": "a.",
+        "cn": "图示的",
+        "eg": ""
+      },
+      {
+        "word": "longitudinal",
+        "phon": "/ˌlɒndʒɪ'tjuːdɪnl/",
+        "pos": "a.",
+        "cn": "纵向的",
+        "eg": ""
+      },
+      {
+        "word": "transverse",
+        "phon": "/træns'vəːs/",
+        "pos": "a.",
+        "cn": "横向的",
+        "eg": ""
+      },
+      {
+        "word": "Mercury",
+        "phon": "/['mә:kjuri]/",
+        "pos": "n.",
+        "cn": "水星",
+        "eg": ""
+      },
+      {
+        "word": "hydrogen",
+        "phon": "/'haɪdrədʒən/",
+        "pos": "n.",
+        "cn": "氢气",
+        "eg": ""
+      },
+      {
+        "word": "prevailing",
+        "phon": "/prɪ'veɪlɪŋ/",
+        "pos": "a.",
+        "cn": "普遍的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "修饰 animal、elephants、mahout：a resentful animal who may turn man-killer、elephants who have refused to feed、the relationship between elephant and mahout which is the key。易错点：指动物作主语可用 who/that。",
+        "examples": [
+          "The former method produces a resentful animal who at a later stage may well turn man-killer. （前者养成愤恨的野兽，日后很可能袭击人类。）",
+          "Elephants like to have one master just as dogs do, and are capable of a considerable degree of personal affection. （象喜单一主人，且可生深厚情感。）"
+        ]
+      },
+      {
+        "point": "非谓语动词",
+        "explain": "consist of + doing、setting an elephant to work、beating him until...、rubbing their hands 等动名词/分词结构。易错点：method consisting of 中 consisting 修饰 method。",
+        "examples": [
+          "The former method simply consists of setting an elephant to work and beating him until he does what is expected. （前者即让象干活并鞭打至其服从。）",
+          "Others rub their hands over his skin to the accompaniment of a monotonous and soothing chant. （旁人抚其皮肤，伴以单调抚慰吟唱。）"
+        ]
+      }
+    ],
+    "tips": "①who 可指动物；②consist of + doing；③turn man-killer 成为杀人象。"
+  },
+  {
+    "book": 4,
+    "lesson": 42,
+    "title": "Recording an earthquake",
+    "titleCn": "记录地震",
+    "scene": "地震悄然而至，须发明不眠不休的仪器。早期装置用长短不一的杆倾倒记录震级与方向；更精密的理想是笔尖在纸上记录地面运动。早期地震仪反其道而行：固定笔尖、移动纸张——如持笔不动、移纸书写。重物悬于绳端，手摇动时重物几乎不动，故地震中笔相对静止而纸动，墨迹记下震动。仪器可记录纵波、横波与表面波。本课语法侧重 if the shock were gentle 虚拟语气，以及 was recorded、were needed 等被动结构。",
+    "grammarTags": [
+      "虚拟语气",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "seismometer",
+        "phon": "/saɪzˈmɒmɪtə/",
+        "pos": "n.",
+        "cn": "地震仪",
+        "eg": "Early seismometers kept the pen still while the paper moved. 早期地震仪固定笔尖、移动纸张。"
+      },
+      {
+        "word": "vibration",
+        "phon": "/vaɪˈbreɪʃn/",
+        "pos": "n.",
+        "cn": "震动",
+        "eg": "Instruments record the vibrations generated by an earthquake. 仪器记录地震产生的震动。"
+      },
+      {
+        "word": "longitudinal",
+        "phon": "/ˌlɒndʒɪˈtjuːdɪnl/",
+        "pos": "adj.",
+        "cn": "纵向的",
+        "eg": "The first wave records longitudinal vibrations. 首波记录纵向振动。"
+      },
+      {
+        "word": "transverse",
+        "phon": "/trænzˈvɜːs/",
+        "pos": "adj.",
+        "cn": "横向的",
+        "eg": "Transverse vibrations travel more slowly through the earth. 横波在地球内部传播较慢。"
+      },
+      {
+        "word": "legibly",
+        "phon": "/ˈledʒəbli/",
+        "pos": "adv.",
+        "cn": "清晰地",
+        "eg": "How is it possible to write legibly when everything is moving? 一切都在动时如何清晰书写？"
+      },
+      {
+        "word": "component",
+        "phon": "/kəmˈpəʊnənt/",
+        "pos": "n.",
+        "cn": "组成部分",
+        "eg": "The apparatus records only the horizontal component of the wave. 该装置仅记录波的水平分量。"
+      },
+      {
+        "word": "delicate",
+        "phon": "/ˈdelɪkət/",
+        "pos": "adj.",
+        "cn": "精密的",
+        "eg": "Far more delicate instruments were needed for serious advance. 真正进展需要更精密仪器。"
+      },
+      {
+        "word": "slumber",
+        "phon": "/ˈslʌmbə/",
+        "pos": "v.",
+        "cn": "睡眠",
+        "eg": "Instruments that neither slumbered nor slept were invented. 须发明不眠不休的仪器。"
+      },
+      {
+        "word": "wriggle",
+        "phon": "/ˈrɪɡl/",
+        "pos": "v.",
+        "cn": "扭动",
+        "eg": "While the drum was shaken, the line wriggled from side to side. 鼓震动时，线条左右扭动。"
+      },
+      {
+        "word": "uniquely",
+        "phon": "/ju:'ni:kli/",
+        "pos": "a.",
+        "cn": ".唯一地",
+        "eg": ""
+      },
+      {
+        "word": "rational",
+        "phon": "/'ræʃ(ə)n(ə)l/",
+        "pos": "a.",
+        "cn": "合理的",
+        "eg": ""
+      },
+      {
+        "word": "radio frequency",
+        "phon": "",
+        "pos": "n.",
+        "cn": "无线电频率",
+        "eg": ""
+      },
+      {
+        "word": "cm",
+        "phon": "",
+        "pos": "n.",
+        "cn": "厘米(=centimetre)",
+        "eg": ""
+      },
+      {
+        "word": "megacycle",
+        "phon": "/['megәsaikl]/",
+        "pos": "n.",
+        "cn": "兆周",
+        "eg": ""
+      },
+      {
+        "word": "emission",
+        "phon": "/i'mɪʃn/",
+        "pos": "n.",
+        "cn": "散发",
+        "eg": ""
+      },
+      {
+        "word": "interstellar",
+        "phon": "/ˌɪntər'stelər/",
+        "pos": "a.",
+        "cn": "星际的",
+        "eg": ""
+      },
+      {
+        "word": "rendezvous",
+        "phon": "/'rɔndiˌvuː/",
+        "pos": "n.",
+        "cn": "约会地点",
+        "eg": ""
+      },
+      {
+        "word": "encounter",
+        "phon": "/ɪn'kauntər/",
+        "pos": "n.",
+        "cn": "相遇",
+        "eg": ""
+      },
+      {
+        "word": "commonplace",
+        "phon": "/'kɑːmənpleɪs/",
+        "pos": "a.",
+        "cn": "平凡的",
+        "eg": ""
+      },
+      {
+        "word": "aberrant",
+        "phon": "/æ'berənt/",
+        "pos": "a.",
+        "cn": "脱离常轨的，异常的",
+        "eg": ""
+      },
+      {
+        "word": "trivial",
+        "phon": "/'trɪviəl/",
+        "pos": "a.",
+        "cn": "微不足道的",
+        "eg": ""
+      },
+      {
+        "word": "predominant",
+        "phon": "/prɪ'dɑːmɪnənt/",
+        "pos": "a.",
+        "cn": "占优势的，起支配作用的",
+        "eg": ""
+      },
+      {
+        "word": "manifest",
+        "phon": "/'mænɪfest/",
+        "pos": "a.",
+        "cn": "明显的",
+        "eg": ""
+      },
+      {
+        "word": "pristine",
+        "phon": "/'prɪstiːn; -staɪn/",
+        "pos": "a.",
+        "cn": "纯洁的，质朴的",
+        "eg": ""
+      },
+      {
+        "word": "stereotype",
+        "phon": "/'steriətaɪp/",
+        "pos": "n.",
+        "cn": "陈规",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "if + were 表与事实可能相反的假设：If the shock were gentle, only the more unstable rods fell；Were the shock violent, every rod would topple。易错点：正式文体中 if 后用 were 不用 was。",
+        "examples": [
+          "If it were gentle, only the more unstable rods fell. （若震动轻微，仅较不稳的杆倾倒。）",
+          "But instruments far more delicate than that were needed if any really serious advance was to be made. （若要真正进展，需远为精密的仪器。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "科普叙述常用被动：was recorded、were needed、is shaken、are devised。易错点：record for the scientist 中 record 作动词表「为……记录」。",
+        "examples": [
+          "Thus the rods recorded for the slumbering scientist the strength of a shock. （杆为沉睡的科学家记录下震动强度。）",
+          "Its movement would be recorded in ink upon the surface of the paper. （其运动将以墨迹记录在纸面上。）"
+        ]
+      }
+    ],
+    "tips": "①if + were 虚拟；②seismometer 地震仪；③longitudinal/transverse 纵波/横波。"
+  },
+  {
+    "book": 4,
+    "lesson": 43,
+    "title": "Are there strangers in space",
+    "titleCn": "宇宙中有外星人吗",
+    "scene": "给定一颗仅与地球相近的行星，生命几乎必然萌生；宇宙恒星数以万亿计，智慧生命应是自然组成部分。然为何尚无外星访客？或许他们早已来访，视当时人类为无趣原始。无线电波以光速传播，我们1920年代广播的信号尚在中途；化学火箭无法抵达数光年外的恒星。与外星智慧沟通有「唯一理性方式」：21厘米氢原子辐射频率1420兆周，宇宙任何射电天文学家都应知晓。本课语法侧重 Given a planet 条件结构，以及修饰 planets、stars 的定语从句。",
+    "grammarTags": [
+      "条件句",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "astronomer",
+        "phon": "/əˈstrɒnəmə/",
+        "pos": "n.",
+        "cn": "天文学家",
+        "eg": "Other suns, as astronomers call them, are bound to have planets. 其他恒星，天文学家所称，必有行星。"
+      },
+      {
+        "word": "megacycle",
+        "phon": "/ˈmeɡəsaɪkl/",
+        "pos": "n.",
+        "cn": "兆周",
+        "eg": "The frequency is 1420 megacycles per second. 频率为每秒1420兆周。"
+      },
+      {
+        "word": "interstellar",
+        "phon": "/ˌɪntəˈstelə/",
+        "pos": "adj.",
+        "cn": "星际的",
+        "eg": "It was suggested as a broadcasting frequency for interstellar communication. 它被建议为星际通讯广播频率。"
+      },
+      {
+        "word": "rendezvous",
+        "phon": "/ˈrɒndeɪvuː/",
+        "pos": "n.",
+        "cn": "约会地点",
+        "eg": "Meeting a friend without a pre-arranged rendezvous is absurd. 无预定地点见朋友是荒唐的。"
+      },
+      {
+        "word": "automatic",
+        "phon": "/ˌɔːtəˈmætɪk/",
+        "pos": "adj.",
+        "cn": "自动的",
+        "eg": "A superior civilization may have left an automatic messenger behind. 高等文明或留下自动信使。"
+      },
+      {
+        "word": "primitive",
+        "phon": "/ˈprɪmətɪv/",
+        "pos": "adj.",
+        "cn": "原始的",
+        "eg": "They found our primitive state uninteresting. 他们视我们原始状态为无趣。"
+      },
+      {
+        "word": "obstacle",
+        "phon": "/ˈɒbstəkl/",
+        "pos": "n.",
+        "cn": "障碍",
+        "eg": "Astronomical distances are the most difficult obstacle to contact. 天文距离是联络最大障碍。"
+      },
+      {
+        "word": "dominate",
+        "phon": "/ˈdɒmɪneɪt/",
+        "pos": "v.",
+        "cn": "支配；占主导",
+        "eg": "Hydrogen-dominated atmospheres cannot sustain life as we know it. 氢主导的大气无法维持我们所知的生命。"
+      },
+      {
+        "word": "emission",
+        "phon": "/ɪˈmɪʃn/",
+        "pos": "n.",
+        "cn": "辐射；发射",
+        "eg": "It is the natural frequency of emission of hydrogen atoms in space. 它是空间氢原子的自然辐射频率。"
+      },
+      {
+        "word": "vernacular",
+        "phon": "/və'nækjulə/",
+        "pos": "n.",
+        "cn": "方言",
+        "eg": ""
+      },
+      {
+        "word": "accommodation",
+        "phon": "/əkɒmə'deɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "适应",
+        "eg": ""
+      },
+      {
+        "word": "incumbent",
+        "phon": "/in'kʌmbənt/",
+        "pos": "a.",
+        "cn": "义不容辞的，有责任的",
+        "eg": ""
+      },
+      {
+        "word": "preliminary",
+        "phon": "/prɪ'lɪmɪneri/",
+        "pos": "a.",
+        "cn": "初步的",
+        "eg": ""
+      },
+      {
+        "word": "proposition",
+        "phon": "/prɒpə'zɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "主张",
+        "eg": ""
+      },
+      {
+        "word": "preferential",
+        "phon": "/,prefə'renʃ(ə)l/",
+        "pos": "a.",
+        "cn": "优先的",
+        "eg": ""
+      },
+      {
+        "word": "controversial",
+        "phon": "/ˌkɑːntrə'vɜːrʃl/",
+        "pos": "a.",
+        "cn": "引起争论的",
+        "eg": ""
+      },
+      {
+        "word": "cactus",
+        "phon": "/'kæktəs/",
+        "pos": "n.",
+        "cn": "仙人掌",
+        "eg": ""
+      },
+      {
+        "word": "termite",
+        "phon": "/'tɜːmaɪt/",
+        "pos": "n.",
+        "cn": "白蚁",
+        "eg": ""
+      },
+      {
+        "word": "nebula",
+        "phon": "/'nebjʊlə/",
+        "pos": "n.",
+        "cn": "星云",
+        "eg": ""
+      },
+      {
+        "word": "variant",
+        "phon": "/'veriənt/",
+        "pos": "a.",
+        "cn": "不同的",
+        "eg": ""
+      },
+      {
+        "word": "barbarian",
+        "phon": "/bɑː'beəriən/",
+        "pos": "n.",
+        "cn": "野蛮人",
+        "eg": ""
+      },
+      {
+        "word": "pagan",
+        "phon": "/'peɪg(ə)n/",
+        "pos": "n.",
+        "cn": "异教徒",
+        "eg": ""
+      },
+      {
+        "word": "sophistication",
+        "phon": "/sə,fɪstɪ'keɪʃn/",
+        "pos": "n.",
+        "cn": "老练",
+        "eg": ""
+      },
+      {
+        "word": "premise",
+        "phon": "/'premɪs/",
+        "pos": "n.",
+        "cn": "前提",
+        "eg": ""
+      },
+      {
+        "word": "supernatural",
+        "phon": "/,suːpə'nætʃ(ə)r(ə)l; ,sjuː-/",
+        "pos": "a.",
+        "cn": "超自然的",
+        "eg": ""
+      },
+      {
+        "word": "dispute",
+        "phon": "/dɪ'spjuːt/",
+        "pos": "v.",
+        "cn": "争夺",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "条件句",
+        "explain": "Given + 名词短语 = 给定/假设：Given a planet only approximately like our own, life is almost certain to start；if + 现在时表可能：If intelligent life exists...。易错点：Given 置于句首无需 if。",
+        "examples": [
+          "Given a planet only approximately like our own, life is almost certain to start. （给定一颗仅与地球相近的行星，生命几乎必然萌生。）",
+          "Without something of this kind, searching for intelligences would be like wandering the streets in hope of a chance encounter. （若无此类约定，搜寻智慧生命犹如盲目游荡街头碰运气。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 planets、stars、rockets：planets like our own、stars that we know exist、rockets that have no chance。易错点：the only one on which life can survive 介词 + which。",
+        "examples": [
+          "We are now pretty certain the Earth is the only one on which life can survive. （我们相当确定地球是唯一可维持生命的行星。）",
+          "Similarly, our own present primitive chemical rockets have no chance of transporting us to the nearest other star. （同理，我们现今的化学火箭无法将我们送至最近恒星。）"
+        ]
+      }
+    ],
+    "tips": "①Given = 给定/假设；②light year 光年；③21-cm wavelength 氢原子辐射频率。"
+  },
+  {
+    "book": 4,
+    "lesson": 44,
+    "title": "Patterns of culture",
+    "titleCn": "文化的模式",
+    "scene": "习俗在经验与信仰中占主导，我们却常忽视其研究。无人以 pristine eyes 看世界；一切经传统习俗与制度过滤。正是从出生那一刻起，所承习俗塑造其经验与行为；至成年，文化之习惯即其习惯、文化之不可能即其不可能。约翰·杜威以母语词汇量对比儿语说明习俗影响之巨。人类学曾不可能，因人们将己与「野蛮人」对立；须将基于相同前提的制度一并研究，己文化亦在其中。本课语法侧重 It is from ... that 强调句，以及 the fact that 同位语从句。",
+    "grammarTags": [
+      "同位语从句",
+      "强调句"
+    ],
+    "words": [
+      {
+        "word": "custom",
+        "phon": "/ˈkʌstəm/",
+        "pos": "n.",
+        "cn": "习俗",
+        "eg": "Custom plays a predominant role in experience. 习俗在经验中占主导。"
+      },
+      {
+        "word": "pristine",
+        "phon": "/ˈprɪstiːn/",
+        "pos": "adj.",
+        "cn": "原始的；未受影响的",
+        "eg": "No man ever looks at the world with pristine eyes. 无人以未受影响的目光看世界。"
+      },
+      {
+        "word": "stereotype",
+        "phon": "/ˈsteriətaɪp/",
+        "pos": "n.",
+        "cn": "刻板模式",
+        "eg": "He cannot go behind these stereotypes in his philosophical probings. 哲学探究中他无法超越这些刻板模式。"
+      },
+      {
+        "word": "vernacular",
+        "phon": "/vəˈnækjələ/",
+        "pos": "n.",
+        "cn": "方言；本地语",
+        "eg": "Baby talk is taken up into the vernacular of his family. 儿语被纳入家庭本地语。"
+      },
+      {
+        "word": "autonomously",
+        "phon": "/ɔːˈtɒnəməsli/",
+        "pos": "adv.",
+        "cn": "自主地",
+        "eg": "Social orders that developed autonomously show the point clearly. 自主发展的社会秩序清楚说明此点。"
+      },
+      {
+        "word": "accommodation",
+        "phon": "/əˌkɒməˈdeɪʃn/",
+        "pos": "n.",
+        "cn": "适应",
+        "eg": "Life history is first and foremost an accommodation to community patterns. 生命史首先是对社群模式的适应。"
+      },
+      {
+        "word": "anthropology",
+        "phon": "/ˌænθrəˈpɒlədʒi/",
+        "pos": "n.",
+        "cn": "人类学",
+        "eg": "Anthropology was by definition impossible under old distinctions. 在旧有区分下人类学按定义不可能。"
+      },
+      {
+        "word": "supernatural",
+        "phon": "/ˌsuːpəˈnætʃrəl/",
+        "pos": "adj.",
+        "cn": "超自然的",
+        "eg": "Institutions based on the supernatural must be considered together. 基于超自然前提的制度须一并考量。"
+      },
+      {
+        "word": "predominant",
+        "phon": "/prɪˈdɒmɪnənt/",
+        "pos": "adj.",
+        "cn": "主导的",
+        "eg": "The predominant role of custom is of first-rate importance. 习俗的主导作用至关重要。"
+      },
+      {
+        "word": "mosquito",
+        "phon": "/mə'skiːtou/",
+        "pos": "n.",
+        "cn": "蚊虫",
+        "eg": ""
+      },
+      {
+        "word": "subdue",
+        "phon": "/səb'duː/",
+        "pos": "v.",
+        "cn": "征服",
+        "eg": ""
+      },
+      {
+        "word": "drainage",
+        "phon": "/'dreɪnɪdʒ/",
+        "pos": "n.",
+        "cn": "下水系统",
+        "eg": ""
+      },
+      {
+        "word": "envision",
+        "phon": "/ɪn'vɪʒn/",
+        "pos": "n.",
+        "cn": "预想",
+        "eg": ""
+      },
+      {
+        "word": "Morocco",
+        "phon": "/[mә'rɔkәu]/",
+        "pos": "n.",
+        "cn": "摩洛哥",
+        "eg": ""
+      },
+      {
+        "word": "latitude",
+        "phon": "/'lætɪtjuːd/",
+        "pos": "n.",
+        "cn": "纬度",
+        "eg": ""
+      },
+      {
+        "word": "heretic",
+        "phon": "/'herɪtɪk/",
+        "pos": "n.",
+        "cn": "异教徒，异端邪说",
+        "eg": ""
+      },
+      {
+        "word": "conceive",
+        "phon": "/kən'siːv/",
+        "pos": "v.",
+        "cn": "想像",
+        "eg": ""
+      },
+      {
+        "word": "suffice",
+        "phon": "/sə'faɪs/",
+        "pos": "v.",
+        "cn": "足够",
+        "eg": ""
+      },
+      {
+        "word": "nuclear",
+        "phon": "/'njuːklɪə/",
+        "pos": "a.",
+        "cn": "原子弹的",
+        "eg": ""
+      },
+      {
+        "word": "original",
+        "phon": "/ə'rɪdʒɪn(ə)l; ɒ-/",
+        "pos": "a.",
+        "cn": "有独到见解的",
+        "eg": ""
+      },
+      {
+        "word": "gifted",
+        "phon": "/'gɪftɪd/",
+        "pos": "a.",
+        "cn": "有天才的",
+        "eg": ""
+      },
+      {
+        "word": "psychologist",
+        "phon": "/saɪ'kɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "心理学家",
+        "eg": ""
+      },
+      {
+        "word": "spasm",
+        "phon": "/'spæz(ə)m/",
+        "pos": "n.",
+        "cn": "一阵(感情)发作",
+        "eg": ""
+      },
+      {
+        "word": "futile",
+        "phon": "/'fjuːtl/",
+        "pos": "a.",
+        "cn": "无用的",
+        "eg": ""
+      },
+      {
+        "word": "insinuate",
+        "phon": "/in'sinjueit/",
+        "pos": "v.",
+        "cn": "使潜入，暗示",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "强调句",
+        "explain": "It is/was + 被强调部分 + that/who：It is from the moment of his birth that the customs shape his experience；It is the predominant role that custom plays...。易错点：强调时间、地点用 that，不用 when/where（正式语法）。",
+        "examples": [
+          "From the moment of his birth, the customs into which he is born shape his experience and behaviour. （从出生那一刻起，所承习俗塑造其经验与行为。）",
+          "The fact of first-rate importance is the predominant role that custom plays in experience and in belief. （至关重要的事实是习俗在经验与信仰中的主导作用。）"
+        ]
+      },
+      {
+        "point": "同位语从句",
+        "explain": "the fact that、the belief that 等后接 that 从句解释名词内容，that 不作成分不可省。易错点：同位语从句 that 与定语从句 that（作成分）区分。",
+        "examples": [
+          "We are so familiar with the fact that man ages, that people have assumed the process was self-evident. （我们如此熟悉人会衰老这一事实，以致以为该过程不言而喻。）",
+          "There is no social problem it is more incumbent upon us to understand than this of the role of custom. （再没有比理解习俗作用更应承担的社会问题。）"
+        ]
+      }
+    ],
+    "tips": "①It is ... that 强调句；②the fact that 同位语从句；③pristine eyes 未受影响的目光。"
+  },
+  {
+    "book": 4,
+    "lesson": 45,
+    "title": "Of men and galaxies",
+    "titleCn": "人与星系",
+    "scene": "与其他物种的竞争已结束，人与人、社群与社群的竞争却依然激烈。决定我们演化的环境已非本质上的物理环境，而主要为我们所信之物。摩洛哥与加利福尼亚纬度气候相似，发展却截然不同，因居民心中观念不同。观念比武器更具破坏性；二三十页信息足以颠覆当今世界。在星系时间尺度上人类历史微不足道，然短暂岁月中的观念可倾覆文明。我们无法跳出文化植入脑海的思维模式。本课语法侧重 would be capable of 虚拟结果，以及修饰 environment、ideas 的定语从句。",
+    "grammarTags": [
+      "虚拟语气",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "galaxy",
+        "phon": "/ˈɡæləksi/",
+        "pos": "n.",
+        "cn": "星系",
+        "eg": "There are three thousand million galaxies in the universe. 宇宙中有三十亿个星系。"
+      },
+      {
+        "word": "heretic",
+        "phon": "/ˈherətɪk/",
+        "pos": "n.",
+        "cn": "异端者",
+        "eg": "The Holy Office caused heretics to be burned. 宗教裁判所曾焚烧异端者。"
+      },
+      {
+        "word": "inject",
+        "phon": "/ɪnˈdʒekt/",
+        "pos": "v.",
+        "cn": "注入",
+        "eg": "It would be possible to inject ideas that would utterly destroy us. 或可注入足以毁灭我们的观念。"
+      },
+      {
+        "word": "suffice",
+        "phon": "/səˈfaɪs/",
+        "pos": "v.",
+        "cn": "足够",
+        "eg": "Perhaps it will suffice to mention the nuclear bomb. 或许提及核弹便已足够。"
+      },
+      {
+        "word": "latitude",
+        "phon": "/ˈlætɪtjuːd/",
+        "pos": "n.",
+        "cn": "纬度",
+        "eg": "Morocco and California are in very similar latitudes. 摩洛哥与加州纬度非常相近。"
+      },
+      {
+        "word": "condition",
+        "phon": "/kənˈdɪʃn/",
+        "pos": "v.",
+        "cn": "使适应；影响",
+        "eg": "Our environment is chiefly conditioned by the things we believe. 环境主要为我们所信之物所塑造。"
+      },
+      {
+        "word": "envision",
+        "phon": "/ɪnˈvɪʒn/",
+        "pos": "v.",
+        "cn": "设想",
+        "eg": "Competition is not the simple process envisioned in biology. 竞争非生物学所设想的简单过程。"
+      },
+      {
+        "word": "destructive",
+        "phon": "/dɪˈstrʌktɪv/",
+        "pos": "adj.",
+        "cn": "破坏性的",
+        "eg": "The most destructive effects have come from ideas, not weapons. 最具破坏性的影响来自观念，非武器。"
+      },
+      {
+        "word": "conceive",
+        "phon": "/kənˈsiːv/",
+        "pos": "v.",
+        "cn": "设想；构想",
+        "eg": "It is very difficult to conceive of anything really destructive from within. 从内部很难构想真正具破坏性的东西。"
+      },
+      {
+        "word": "convulsive",
+        "phon": "/[kәn'vʌlsiv]/",
+        "pos": "a.",
+        "cn": "起痉挛的",
+        "eg": ""
+      },
+      {
+        "word": "illumination",
+        "phon": "/ɪ,ljuːmɪ'neɪʃən/",
+        "pos": "n.",
+        "cn": "启发，照明",
+        "eg": ""
+      },
+      {
+        "word": "undue",
+        "phon": "/ˌʌn'djuː/",
+        "pos": "a.",
+        "cn": "不适当的",
+        "eg": ""
+      },
+      {
+        "word": "grip",
+        "phon": "/grɪp/",
+        "pos": "n.",
+        "cn": "紧张",
+        "eg": ""
+      },
+      {
+        "word": "recuperation",
+        "phon": "/[ri'kju:pә'reiʃәn]/",
+        "pos": "n.",
+        "cn": "休息",
+        "eg": ""
+      },
+      {
+        "word": "improvise",
+        "phon": "/'ɪmprəvaɪz/",
+        "pos": "v.",
+        "cn": "临时作成",
+        "eg": ""
+      },
+      {
+        "word": "sedulously",
+        "phon": "",
+        "pos": "adv.",
+        "cn": "孜孜不倦地",
+        "eg": ""
+      },
+      {
+        "word": "vivify",
+        "phon": "/'vɪvɪfaɪ/",
+        "pos": "v.",
+        "cn": "使生气勃勃",
+        "eg": ""
+      },
+      {
+        "word": "aggravate",
+        "phon": "/'ægrəveɪt/",
+        "pos": "v.",
+        "cn": "加剧",
+        "eg": ""
+      },
+      {
+        "word": "trifling",
+        "phon": "/['traifliŋ]/",
+        "pos": "a.",
+        "cn": "微小的",
+        "eg": ""
+      },
+      {
+        "word": "gratify",
+        "phon": "/'grætɪfaɪ/",
+        "pos": "v.",
+        "cn": "使满意",
+        "eg": ""
+      },
+      {
+        "word": "caprice",
+        "phon": "/kə'priːs/",
+        "pos": "n.",
+        "cn": "任性",
+        "eg": ""
+      },
+      {
+        "word": "satiation",
+        "phon": "/'seiʃi'eiʃәn/",
+        "pos": "n.",
+        "cn": "满足",
+        "eg": ""
+      },
+      {
+        "word": "frantically",
+        "phon": "/'fræntikəli/",
+        "pos": "adv.",
+        "cn": "狂乱地",
+        "eg": ""
+      },
+      {
+        "word": "avenge",
+        "phon": "/ə'vendʒ/",
+        "pos": "v.",
+        "cn": "替…报复",
+        "eg": ""
+      },
+      {
+        "word": "boredom",
+        "phon": "/'bɔːdəm/",
+        "pos": "n.",
+        "cn": "厌烦",
+        "eg": ""
+      },
+      {
+        "word": "clatter",
+        "phon": "/'klætə/",
+        "pos": "n.",
+        "cn": "喧闹的谈话",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "would be capable of / would have been sufficient / could turn 表假设或推测结果：twenty pages would be capable of turning the world upside down；I would make a very poor show without modern weapons。易错点：与事实相反或推测用 would/could。",
+        "examples": [
+          "Twenty or thirty pages of ideas and information would be capable of turning the present-day world upside down. （二三十页观念足以颠覆当今世界。）",
+          "I am sure that, without modern weapons, I would make a very poor show of disputing the ownership of a cave with a bear. （若无现代武器，我与熊争洞穴必大败。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 environment、ideas、community：the environment that determines our evolution、ideas that would utterly destroy us、the conventions of the community that condition you。易错点：chiefly conditioned by the things (that) we believe。",
+        "examples": [
+          "Our environment is chiefly conditioned by the things we believe. （环境主要为我们所信之物所塑造。）",
+          "It is only someone looking on from outside that can inject the dangerous thoughts. （只有局外人能注入危险思想。）"
+        ]
+      }
+    ],
+    "tips": "①would be capable of 表可能结果；②condition 作动词=塑造/影响；③ideas are dangerous 观念危险。"
+  },
+  {
+    "book": 4,
+    "lesson": 46,
+    "title": "Hobbies",
+    "titleCn": "业余爱好",
+    "scene": "忧虑是情绪痉挛，心灵抓住某物不放；只能温和引入另一兴趣领域，旧握力渐松，恢复始。培养爱好对公众人物至关重要，却不可一日速成。须有两三种真正爱好；晚年方说「我要产生兴趣」毫无用处——须喜欢所做之事，而非只做喜欢之事。丘吉尔所谓「命运宠儿」属工作即乐趣之人；然其最需间歇将工作逐出脑海。人分劳死、愁死、闷死三类。本课语法侧重 it is no use + doing，以及 aggravate/irritate、preferable/preferred 等词汇辨析。",
+    "grammarTags": [
+      "非谓语动词",
+      "词汇辨析"
+    ],
+    "words": [
+      {
+        "word": "spasm",
+        "phon": "/ˈspæzəm/",
+        "pos": "n.",
+        "cn": "痉挛",
+        "eg": "Worry is a spasm of the emotion. 忧虑是情绪痉挛。"
+      },
+      {
+        "word": "insinuate",
+        "phon": "/ɪnˈsɪnjueɪt/",
+        "pos": "v.",
+        "cn": "缓慢引入",
+        "eg": "One can only gently insinuate something else into its grasp. 只能温和引入他物。"
+      },
+      {
+        "word": "recuperation",
+        "phon": "/rɪˌkjuːpəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "恢复",
+        "eg": "The process of recuperation and repair begins. 恢复与修复过程开始。"
+      },
+      {
+        "word": "sedulously",
+        "phon": "/ˈsedjələsli/",
+        "pos": "adv.",
+        "cn": "孜孜不倦地",
+        "eg": "The seeds must be sedulously tended. 种子须悉心培育。"
+      },
+      {
+        "word": "aggravate",
+        "phon": "/ˈæɡrəveɪt/",
+        "pos": "v.",
+        "cn": "加重（负担）",
+        "eg": "Such an attempt only aggravates the strain of mental effort. 此举只会加重精神负担。"
+      },
+      {
+        "word": "caprice",
+        "phon": "/kəˈpriːs/",
+        "pos": "n.",
+        "cn": "突发奇想",
+        "eg": "They can gratify every caprice. 他们可满足一切突发奇想。"
+      },
+      {
+        "word": "satiation",
+        "phon": "/ˌseɪʃiˈeɪʃn/",
+        "pos": "n.",
+        "cn": "厌腻",
+        "eg": "A new excitement is only an additional satiation. 新刺激只是再添厌腻。"
+      },
+      {
+        "word": "grudge",
+        "phon": "/ɡrʌdʒ/",
+        "pos": "v.",
+        "cn": "不情愿给予",
+        "eg": "Ordinary holidays are grudged as enforced interruptions. 寻常假期被视作被迫中断而不情愿享受。"
+      },
+      {
+        "word": "vivifying",
+        "phon": "/ˈvɪvɪfaɪɪŋ/",
+        "pos": "adj.",
+        "cn": "赋予活力的",
+        "eg": "Sedulous tending yields vivifying fruits when needed. 悉心培育方能在需要时结出活力之果。"
+      },
+      {
+        "word": "sustenance",
+        "phon": "/'sʌstənəns/",
+        "pos": "n.",
+        "cn": "支撑力",
+        "eg": "not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms."
+      },
+      {
+        "word": "appetite",
+        "phon": "/'æpɪtaɪt/",
+        "pos": "n.",
+        "cn": "欲望",
+        "eg": "not only the means of sustenance, but a keen appetite for pleasure even in its simplest and most modest forms."
+      },
+      {
+        "word": "absorbing",
+        "phon": "/[әb'sɔ:biŋ]/",
+        "pos": "a.",
+        "cn": "引人入胜的",
+        "eg": "Each day is a holiday, and ordinary holidays, when they come, are grudged as enforced interruptions in an absorbing vocation."
+      },
+      {
+        "word": "banish",
+        "phon": "/'bænɪʃ/",
+        "pos": "v.",
+        "cn": "排除，放弃",
+        "eg": ""
+      },
+      {
+        "word": "assumption",
+        "phon": "/ə'sʌm(p)ʃ(ə)n/",
+        "pos": "n.",
+        "cn": "假定",
+        "eg": ""
+      },
+      {
+        "word": "manoeuvre",
+        "phon": "/mə'nuːvə/",
+        "pos": "v.",
+        "cn": "(驱车)移动",
+        "eg": ""
+      },
+      {
+        "word": "myriad",
+        "phon": "/'mɪriəd/",
+        "pos": "a.",
+        "cn": "无数的",
+        "eg": ""
+      },
+      {
+        "word": "paradox",
+        "phon": "/'pærədɑːks/",
+        "pos": "n.",
+        "cn": "自相矛盾的事",
+        "eg": ""
+      },
+      {
+        "word": "cynic",
+        "phon": "/'sɪnɪk/",
+        "pos": "n.",
+        "cn": "愤世嫉俗者",
+        "eg": ""
+      },
+      {
+        "word": "sociologist",
+        "phon": "/,səʊsɪ'ɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "社会学家",
+        "eg": ""
+      },
+      {
+        "word": "shun",
+        "phon": "/ʃʌn/",
+        "pos": "v.",
+        "cn": "避开",
+        "eg": ""
+      },
+      {
+        "word": "affluent",
+        "phon": "/'æfluənt/",
+        "pos": "a.",
+        "cn": "富有的",
+        "eg": ""
+      },
+      {
+        "word": "chambermaid",
+        "phon": "",
+        "pos": "n.",
+        "cn": "女招待员",
+        "eg": ""
+      },
+      {
+        "word": "boo",
+        "phon": "/buː/",
+        "pos": "n.",
+        "cn": "呸的一声",
+        "eg": ""
+      },
+      {
+        "word": "maitre d'hotel",
+        "phon": "",
+        "pos": "n.",
+        "cn": "［法语］总管",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词",
+        "explain": "it is no use + doing：It is no use starting late in life to say...；动名词作主语：cultivating a hobby is a policy；分词作定语：those toiled to death。易错点：no use 后接 doing 不接 to do。",
+        "examples": [
+          "It is no use starting late in life to say: \"I will take an interest in this or that.\" （晚年方说要产生兴趣毫无用处。）",
+          "The cultivation of a hobby and new forms of interest is therefore a policy of the first importance. （培养爱好因此是首要方针。）"
+        ]
+      },
+      {
+        "point": "词汇辨析",
+        "explain": "aggravate 加重（负担、病情），irritate 激怒；preferable to 优于（adj），preferred 被偏爱的；no use doing vs useless to do。易错点：aggravate 非「激怒」首选。",
+        "examples": [
+          "It is no use doing what you like; you have got to like what you do. （做你喜欢的事无用；须喜欢你所做之事。）",
+          "Active hobbies are preferable to passive amusement for relieving strain. （积极爱好优于被动娱乐以缓解压力。）"
+        ]
+      }
+    ],
+    "tips": "①it is no use + doing；②aggravate 加重，irritate 激怒；③Fortune's favoured children 命运宠儿。"
+  },
+  {
+    "book": 4,
+    "lesson": 47,
+    "title": "The great escape",
+    "titleCn": "大逃亡",
+    "scene": "经济是露营动机之一，却远非唯一或最大。现代露营装备日益精良，为誓要「远离尘世」的旅人带来更亮承诺。露营还提供另一种逃离：富裕旅人未必付不起酒店，却怕门童小费与经理阶层——露营将其解放。汽车崇拜源于独立感，露营将之精炼：从自家门前至山海再返回，一切尽在掌握；海滩过挤或天气恶劣，帐篷外即是退路。大陆营地高度国际化，德、英、法、荷语告示并列。本课语法侧重 Granted 让步，以及修饰 traveller、sites 的定语从句。",
+    "grammarTags": [
+      "让步状语",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "manoeuvre",
+        "phon": "/məˈnuːvə/",
+        "pos": "v.",
+        "cn": "操纵；驶入",
+        "eg": "He manoeuvres into his twenty pounds' worth of space. 他将车驶入二十英镑租位的空间。"
+      },
+      {
+        "word": "cosmopolitan",
+        "phon": "/ˌkɒzməˈpɒlɪtən/",
+        "pos": "adj.",
+        "cn": "国际化的",
+        "eg": "Camping sites are highly cosmopolitan. 露营地高度国际化。"
+      },
+      {
+        "word": "snobbery",
+        "phon": "/ˈsnɒbəri/",
+        "pos": "n.",
+        "cn": "势利",
+        "eg": "A snobbery of camping based on equipment already exists. 基于装备的露营势利已存在。"
+      },
+      {
+        "word": "itinerant",
+        "phon": "/ɪˈtɪnərənt/",
+        "pos": "adj.",
+        "cn": "流动的",
+        "eg": "Police are wary of itinerants who cannot be traced. 警察警惕无法追踪的流动露营者。"
+      },
+      {
+        "word": "preponderance",
+        "phon": "/prɪˈpɒndərəns/",
+        "pos": "n.",
+        "cn": "占优势",
+        "eg": "A preponderance of Germans is common to Mediterranean sites. 地中海营地常见德国人占多数。"
+      },
+      {
+        "word": "inclement",
+        "phon": "/ɪnˈklemənt/",
+        "pos": "adj.",
+        "cn": "恶劣的（天气）",
+        "eg": "Escape if the local weather proves too inclement. 天气恶劣时即可撤离。"
+      },
+      {
+        "word": "insularity",
+        "phon": "/ˌɪnsjʊˈlærəti/",
+        "pos": "n.",
+        "cn": "狭隘；孤立",
+        "eg": "Insularity and self-containment go hand in hand, it is argued. 据称狭隘与自闭相伴。"
+      },
+      {
+        "word": "alienate",
+        "phon": "/ˈeɪliəneɪt/",
+        "pos": "v.",
+        "cn": "疏远",
+        "eg": "Campers may wholly alienate landowners. 露营者或完全疏远地主。"
+      },
+      {
+        "word": "paradox",
+        "phon": "/ˈpærədɒks/",
+        "pos": "n.",
+        "cn": "悖论",
+        "eg": "Sophisticated equipment is an entertaining paradox for the cynic. 精良装备对愤世者而言是有趣悖论。"
+      },
+      {
+        "word": "hierarchy",
+        "phon": "/'haɪərɑːrki/",
+        "pos": "n.",
+        "cn": "等级制度",
+        "eg": ""
+      },
+      {
+        "word": "entail",
+        "phon": "/ɪn'teɪl/",
+        "pos": "v.",
+        "cn": "使成为必要",
+        "eg": ""
+      },
+      {
+        "word": "package tour",
+        "phon": "",
+        "pos": "n.",
+        "cn": "由旅行社安排一切的一揽子旅游",
+        "eg": "Idealists have objected to the practice of camping, as to the package tour,"
+      },
+      {
+        "word": "cater",
+        "phon": "/'keɪtər/",
+        "pos": "v.",
+        "cn": "迎合",
+        "eg": "Holiday hotels tend to cater for one nationality of visitors especially, sometimes exclusively."
+      },
+      {
+        "word": "overwhelmingly",
+        "phon": "/,ovə'hwelmiŋli/",
+        "pos": "adv.",
+        "cn": "以压倒优势地，清一色地",
+        "eg": "but as yet there is no overwhelmingly specialized patronage."
+      },
+      {
+        "word": "patronage",
+        "phon": "/ˈpeɪtrənɪdʒ/",
+        "pos": "n.",
+        "cn": "恩惠，惠顾",
+        "eg": "but as yet there is no overwhelmingly specialized patronage."
+      },
+      {
+        "word": "sauerkraut",
+        "phon": "/['sauәkraut]/",
+        "pos": "n.",
+        "cn": "泡菜",
+        "eg": "At meal times the odour of sauerkraut vies with that of garlic."
+      },
+      {
+        "word": "vie",
+        "phon": "/vaɪ/",
+        "pos": "v.",
+        "cn": "竞争",
+        "eg": ""
+      },
+      {
+        "word": "municipality",
+        "phon": "/mjʊ,nɪsɪ'pælɪtɪ/",
+        "pos": "n.",
+        "cn": "市政当局",
+        "eg": ""
+      },
+      {
+        "word": "heath",
+        "phon": "/hiːθ/",
+        "pos": "n.",
+        "cn": "荒地",
+        "eg": "But most probably it will all depend upon campers themselves: how many heath fires they cause; how much litter they leave;"
+      }
+    ],
+    "grammar": [
+      {
+        "point": "让步状语",
+        "explain": "Granted 引导让步，承认事实后转折：Granted, a snobbery exists; but he can deal with it。Contrary to 亦表让步对比。易错点：Granted 后可用逗号或分号接主句。",
+        "examples": [
+          "Granted, a snobbery of camping itself, based upon equipment and techniques, already exists; but it is of a kind that he can readily understand. （诚然，基于装备的露营势利已存在；但旅人能够应对。）",
+          "But, contrary to a popular assumption, it is far from being the only motive, or even the greatest. （然而与普遍看法相反，经济远非唯一甚至最大动机。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 traveller、equipment、sites：the man who manoeuvres into his space、equipment that becomes yearly more sophisticated、sites that are highly cosmopolitan。易错点：the Splendide and the Bellavista 为酒店名。",
+        "examples": [
+          "The modern traveller is often a man who dislikes the Splendide and the Bellavista, not because he cannot afford them. （现代旅人常厌恶豪华酒店，并非因付不起。）",
+          "Holiday hotels tend to cater for one nationality of visitors especially; camping sites, by contrast, are highly cosmopolitan. （度假酒店常专伺一国游客；露营地则高度国际化。）"
+        ]
+      }
+    ],
+    "tips": "①Granted = 诚然；②cosmopolitan 国际化；③manoeuvre 操纵驶入车位。"
+  },
+  {
+    "book": 4,
+    "lesson": 48,
+    "title": "Planning a share portfolio",
+    "titleCn": "规划股份投资",
+    "scene": "「一夜暴富」的贴士者比比皆是，严肃私人投资者却须规划良好的 portfolio——结构明确、目标清晰。问五家经纪商或得五种答案，因无唯一正确配置；将全部资金投入单一高风险股 Periwigs 等属明确错误。年长投资者优先保值与获取收益，宜配国债、存款及稳健股；年轻且心态乐观者可承受更高风险、配置成长股。黄金法则：分散风险，勿将全部资金投入单一标的。把拉斯维加斯心态留给挥霍者。本课语法侧重 if you are older 真实条件句，以及修饰 portfolio、investments 的定语从句。",
+    "grammarTags": [
+      "条件句",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "portfolio",
+        "phon": "/pɔːtˈfəʊliəʊ/",
+        "pos": "n.",
+        "cn": "投资组合",
+        "eg": "A serious investor needs a proper portfolio with a clear aim. 严肃投资者需目标明确的投资组合。"
+      },
+      {
+        "word": "tipster",
+        "phon": "/ˈtɪpstə/",
+        "pos": "n.",
+        "cn": "提供内幕消息者",
+        "eg": "There is no shortage of tipsters offering get-rich-quick schemes. 一夜暴富贴士者比比皆是。"
+      },
+      {
+        "word": "gilt",
+        "phon": "/ɡɪlt/",
+        "pos": "n.",
+        "cn": "国债",
+        "eg": "Older investors may hold gilts alongside conservative shares. 年长投资者可持国债与稳健股。"
+      },
+      {
+        "word": "convertible",
+        "phon": "/kənˈvɜːtəbl/",
+        "pos": "n.",
+        "cn": "可转换证券",
+        "eg": "A portfolio may include convertibles or income shares. 组合可含可转换债或收益股。"
+      },
+      {
+        "word": "sanguine",
+        "phon": "/ˈsæŋɡwɪn/",
+        "pos": "adj.",
+        "cn": "乐观的",
+        "eg": "Only if you are blessed with a sanguine disposition should you take an aggressive approach. 唯有乐观心态方可采取激进策略。"
+      },
+      {
+        "word": "pedestrian",
+        "phon": "/pəˈdestriən/",
+        "pos": "adj.",
+        "cn": "平庸的；乏味的",
+        "eg": "Include growth stocks alongside more pedestrian investments. 在平庸投资旁配置成长股。"
+      },
+      {
+        "word": "diversify",
+        "phon": "/daɪˈvɜːsɪfaɪ/",
+        "pos": "v.",
+        "cn": "分散投资",
+        "eg": "The golden rule is to spread your risk and diversify. 黄金法则是分散风险。"
+      },
+      {
+        "word": "fritter",
+        "phon": "/ˈfrɪtə/",
+        "pos": "v.",
+        "cn": "挥霍",
+        "eg": "Leave the Las Vegas mentality to those with money to fritter. 把赌博心态留给挥霍者。"
+      },
+      {
+        "word": "volatile",
+        "phon": "/ˈvɒlətaɪl/",
+        "pos": "adj.",
+        "cn": "波动剧烈的",
+        "eg": "Younger investors may accept more volatile growth stocks. 年轻投资者或可接受更波动的成长股。"
+      },
+      {
+        "word": "eternal",
+        "phon": "/ɪ'tɜːrnl/",
+        "pos": "a.",
+        "cn": "永久的",
+        "eg": ""
+      },
+      {
+        "word": "reputable",
+        "phon": "/'repjutəbl/",
+        "pos": "a.",
+        "cn": "享有声望的",
+        "eg": "Well, if you go to five reputable stock brokers and ask them what you should do with your money,"
+      },
+      {
+        "word": "broker",
+        "phon": "/'brəʊkə/",
+        "pos": "n.",
+        "cn": "经纪人",
+        "eg": ""
+      },
+      {
+        "word": "finance",
+        "phon": "/'faɪnæns/",
+        "pos": "n.",
+        "cn": "资金，财源",
+        "eg": ""
+      },
+      {
+        "word": "mortgage",
+        "phon": "/'mɔːrgɪdʒ/",
+        "pos": "n.",
+        "cn": "抵押贷款",
+        "eg": ""
+      },
+      {
+        "word": "pension",
+        "phon": "/'penʃən/",
+        "pos": "n.",
+        "cn": "养老金",
+        "eg": "For instance, if you are older you have less time to recover from any major losses, and you may well wish to boost your pension income."
+      },
+      {
+        "word": "priority",
+        "phon": "/praɪ'ɔːrəti/",
+        "pos": "n.",
+        "cn": "优先权",
+        "eg": ""
+      },
+      {
+        "word": "heady",
+        "phon": "/['hedi]/",
+        "pos": "a.",
+        "cn": "令人陶醉的",
+        "eg": "you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments."
+      },
+      {
+        "word": "alongside",
+        "phon": "/əlɒŋ'saɪd/",
+        "pos": "prep.",
+        "cn": "在…旁边，和…一起",
+        "eg": "you might include a couple of heady growth stocks in your portfolio, alongside your more pedestrian investments."
+      }
+    ],
+    "grammar": [
+      {
+        "point": "条件句",
+        "explain": "if + 现在时表将来真实条件：If you are older, preserving capital... are your main priorities；If you are younger, you may decide...。易错点：条件句用一般现在时表将来。",
+        "examples": [
+          "If you are older you have less time to recover from any major losses, and you may well wish to boost your pension income. （若年事已高，挽回重大损失的时间较少，或愿增加养老金收入。）",
+          "If you recognize yourself in this description, you might include a couple of heady growth stocks in your portfolio. （若自认如此，可在组合中加入几只激进成长股。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 portfolio、investments、advisers：a portfolio with a definite structure、investments that behave differently、five advisers who would not have suggested...。易错点：a well-planned selection of investments, with a definite structure。",
+        "examples": [
+          "The serious investor needs a proper portfolio — a well-planned selection of investments, with a definite structure and a clear aim. （严肃投资者需结构明确、目标清晰的投资组合。）",
+          "The golden rule here is spread your risk — if you put all of your money into Periwigs International, you are setting yourself up as a hostage to fortune. （黄金法则：分散风险——全押单一标的即听天由命。）"
+        ]
+      }
+    ],
+    "tips": "①if + 现在时表将来；②spread your risk 分散风险；③gilt 国债，volatile 波动的。"
+  }
+]

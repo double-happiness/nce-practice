@@ -1,0 +1,554 @@
+[
+  {
+    "id": "tf-b3-025",
+    "book": 3,
+    "lesson": 25,
+    "grammar": ["过去完成时", "过去完成进行时"],
+    "cn": "大火爆发时，工人们已修缮「卡蒂萨克」号好几个月了。",
+    "explanation": "had been doing 表过去某时之前一直在进行的动作；had done 表过去某时之前已完成。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Workers had been restoring the Cutty Sark for months when the fire broke out.",
+          "When the fire broke out, workers had been restoring the Cutty Sark for months."
+        ],
+        "cn": "大火爆发时，工人们已修缮「卡蒂萨克」号好几个月了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for months」提问（问\"修缮了多久\"）",
+        "answers": [
+          "How long had workers been restoring the Cutty Sark when the fire broke out?",
+          "For how long had they been restoring the ship?"
+        ],
+        "cn": "大火爆发时，工人们已修缮了多久？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Workers had not been restoring the Cutty Sark for months when the fire broke out.",
+          "Workers hadn't been restoring the ship for months when the blaze started."
+        ],
+        "cn": "大火爆发时，工人们并未修缮「卡蒂萨克」号好几个月。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Had workers been restoring the Cutty Sark for months when the fire broke out?",
+          "Had they been restoring the ship for months when the blaze started?"
+        ],
+        "cn": "大火爆发时，工人们已修缮好几个月了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-026",
+    "book": 3,
+    "lesson": 26,
+    "grammar": ["被动语态", "复合句时态"],
+    "cn": "那位老人说他从来不知道这个饼干筒的价值。",
+    "explanation": "主句 said 为过去时，从句表更早的事用过去完成时 had never known；被动 has been kept 表现在完成被动。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The old man said that he had never known the value of the biscuit tin.",
+          "He said he had never known how valuable the tin was."
+        ],
+        "cn": "那位老人说他从来不知道这个饼干筒的价值。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把主句改为直接引语",
+        "answers": [
+          "The old man said, \"I have never known the value of this biscuit tin.\"",
+          "He said, \"I never knew the value of this tin.\""
+        ],
+        "cn": "那位老人说：「我从来不知道这个饼干筒的价值。」"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态（这个饼干筒在他家已传了好几代）",
+        "answers": [
+          "The tin has been kept in his family for generations.",
+          "The biscuit tin has been kept in the old man's family for generations."
+        ],
+        "cn": "这个饼干筒在他家已传了好几代。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the value of the biscuit tin」提问（问\"从来不知道什么\"）",
+        "answers": [
+          "What did the old man say he had never known?",
+          "What had he never known, according to what he said?"
+        ],
+        "cn": "老人说他从来不知道什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-027",
+    "book": 3,
+    "lesson": 27,
+    "grammar": ["否定代词", "双重否定"],
+    "cn": "小贩无货可售，村民也无物可买。",
+    "explanation": "nothing 本身含否定，谓语用肯定形式；一句中不再加 not 构成标准双重否定。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The pedlar had nothing to sell and the villagers had nothing to buy.",
+          "He had nothing to sell and they had nothing to buy."
+        ],
+        "cn": "小贩无货可售，村民也无物可买。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为肯定句（用 anything）",
+        "answers": [
+          "The pedlar had something to sell and the villagers had something to buy.",
+          "He had something to sell and they had something to buy."
+        ],
+        "cn": "小贩有货可售，村民也有物可买。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the pedlar」提问（问\"谁无货可售\"）",
+        "answers": [
+          "Who had nothing to sell?",
+          "Who had nothing to sell and found the villagers had nothing to buy?"
+        ],
+        "cn": "谁无货可售？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the pedlar have nothing to sell?",
+          "Did he have anything to sell?"
+        ],
+        "cn": "小贩无货可售吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-028",
+    "book": 3,
+    "lesson": 28,
+    "grammar": ["too...to", "enough...to"],
+    "cn": "珍珠商的出价太低，渔夫根本无法接受。",
+    "explanation": "too + 形容词 + to do 表「太……而不能……」，本身含否定意味。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The pearl merchant's offer was too low for the fisherman to accept.",
+          "The offer was too low to accept."
+        ],
+        "cn": "珍珠商的出价太低，渔夫根本无法接受。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为肯定句（用 enough）",
+        "answers": [
+          "The pearl merchant's offer was not high enough for the fisherman to accept.",
+          "The offer was not high enough to satisfy the fisherman."
+        ],
+        "cn": "珍珠商的出价不够高，渔夫无法接受。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「too low」提问（问\"出价怎么了\"）",
+        "answers": [
+          "Why was the pearl merchant's offer unacceptable?",
+          "What was wrong with the offer?"
+        ],
+        "cn": "珍珠商的出价怎么了？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the pearl merchant's offer too low for the fisherman to accept?",
+          "Was the offer too low to accept?"
+        ],
+        "cn": "珍珠商的出价太低，渔夫无法接受吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-029",
+    "book": 3,
+    "lesson": 29,
+    "grammar": ["动名词作主语", "it 形式主语"],
+    "cn": "要说出什么让笑话好笑并不容易。",
+    "explanation": "It is + adj. + to do 用 it 作形式主语；动名词作主语谓语用单数。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is not easy to tell what makes a joke funny.",
+          "It is hard to say what makes people laugh."
+        ],
+        "cn": "要说出什么让笑话好笑并不容易。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改用动名词作主语改写",
+        "answers": [
+          "Telling what makes a joke funny is not easy.",
+          "Saying what makes people laugh is hard."
+        ],
+        "cn": "说出什么让笑话好笑并不容易。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「what makes a joke funny」提问",
+        "answers": [
+          "What is it not easy to tell?",
+          "What is hard to say?"
+        ],
+        "cn": "说出什么并不容易？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is it easy to tell what makes a joke funny?",
+          "Is it hard to say what makes people laugh?"
+        ],
+        "cn": "要说出什么让笑话好笑容易吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-030",
+    "book": 3,
+    "lesson": 30,
+    "grammar": ["过去完成时", "宾语从句"],
+    "cn": "租客意识到有人多年来一直偷偷住在屋里。",
+    "explanation": "realize + that 从句用陈述语序；从句表更早的持续动作用过去完成进行时 had been living。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The tenant realized that someone had been living in the house secretly for years.",
+          "He realized that someone had been living there secretly for years."
+        ],
+        "cn": "租客意识到有人多年来一直偷偷住在屋里。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "把宾语从句改为直接引语",
+        "answers": [
+          "The tenant said, \"Someone has been living in the house secretly for years.\"",
+          "He said, \"Someone has been living here secretly.\""
+        ],
+        "cn": "租客说：「有人多年来一直偷偷住在屋里。」"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「someone had been living in the house」提问（问\"意识到什么\"）",
+        "answers": [
+          "What did the tenant realize?",
+          "What had been happening in the house, according to the tenant?"
+        ],
+        "cn": "租客意识到什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The tenant did not realize that someone had been living in the house secretly.",
+          "He didn't realize anyone had been living there secretly."
+        ],
+        "cn": "租客没意识到有人偷偷住在屋里。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-031",
+    "book": 3,
+    "lesson": 31,
+    "grammar": ["would 表过去习惯", "人物描写"],
+    "cn": "每年圣诞节，莱尼涅勋爵都会驾着旧马车穿街过巷。",
+    "explanation": "would + 动词原形表过去反复发生的习惯，常带回忆色彩；不表过去状态。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Every Christmas, Lord Ligonier would drive through the streets in his old carriage.",
+          "Lord Ligonier would drive his old carriage through the streets every Christmas."
+        ],
+        "cn": "每年圣诞节，莱尼涅勋爵都会驾着旧马车穿街过巷。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Lord Ligonier would not drive through the streets in his old carriage every Christmas.",
+          "He wouldn't drive his carriage through the streets every Christmas."
+        ],
+        "cn": "莱尼涅勋爵并非每年圣诞节都驾马车穿街过巷。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「every Christmas」提问（问\"何时驾马车\"）",
+        "answers": [
+          "When would Lord Ligonier drive through the streets in his old carriage?",
+          "How often would he drive his carriage through the streets?"
+        ],
+        "cn": "莱尼涅勋爵何时驾马车穿街过巷？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Would Lord Ligonier drive through the streets in his old carriage every Christmas?",
+          "Would he drive his carriage through the streets every Christmas?"
+        ],
+        "cn": "莱尼涅勋爵每年圣诞节都驾马车穿街过巷吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-032",
+    "book": 3,
+    "lesson": 32,
+    "grammar": ["过去完成时被动", "介词短语"],
+    "cn": "数百年间，无数探险者曾搜寻过这艘沉船。",
+    "explanation": "had been + 过去分词表过去某时之前已被……；介词短语 for centuries 作时间状语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The wreck had been searched for by hundreds of explorers over the centuries.",
+          "For centuries, the wreck had been searched for by countless explorers."
+        ],
+        "cn": "数百年间，无数探险者曾搜寻过这艘沉船。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "Hundreds of explorers had searched for the wreck over the centuries.",
+          "Countless explorers had searched for the wreck for centuries."
+        ],
+        "cn": "数百年间，无数探险者搜寻过这艘沉船。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the wreck」提问（问\"搜寻过什么\"）",
+        "answers": [
+          "What had been searched for by hundreds of explorers over the centuries?",
+          "What had countless explorers been looking for?"
+        ],
+        "cn": "探险者们搜寻过什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The wreck had not been found by any explorer for centuries.",
+          "No explorer had located the wreck for centuries."
+        ],
+        "cn": "数百年间，没有任何探险者找到过这艘沉船。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-033",
+    "book": 3,
+    "lesson": 33,
+    "grammar": ["when/while 时间从句", "过去进行时"],
+    "cn": "我正开车上班，一辆卡车突然冲到我面前。",
+    "explanation": "was doing 描写背景，when 引出突发的一般过去时动作；长背景用进行时，短促动作用过去时。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I was driving to work when a truck ran out in front of me.",
+          "I was driving to work when a truck suddenly appeared in front of me."
+        ],
+        "cn": "我正开车上班，一辆卡车突然冲到我面前。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a truck」提问（问\"什么突然冲出来\"）",
+        "answers": [
+          "What ran out in front of me while I was driving to work?",
+          "What appeared in front of me when I was driving?"
+        ],
+        "cn": "什么突然冲到我面前？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I was driving to work when no truck ran out in front of me.",
+          "Nothing ran out in front of me while I was driving to work."
+        ],
+        "cn": "我正开车上班，没有卡车冲到我面前。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Were you driving to work when a truck ran out in front of you?",
+          "Was a truck running out in front of you while you were driving?"
+        ],
+        "cn": "你正开车上班时，有卡车冲到你面前吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-034",
+    "book": 3,
+    "lesson": 34,
+    "grammar": ["过去完成时", "条件句"],
+    "cn": "农夫若早知道箱子的价值，就不会卖得那么便宜了。",
+    "explanation": "与过去事实相反的虚拟：If + had done, would have done；if 从句用过去完成时。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "If the farmer had known the value of the chest, he would not have sold it so cheaply.",
+          "The farmer would not have sold the chest so cheaply if he had known its value."
+        ],
+        "cn": "农夫若早知道箱子的价值，就不会卖得那么便宜了。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为与事实相反的陈述（他并不知道）",
+        "answers": [
+          "The farmer did not know the value of the chest, so he sold it cheaply.",
+          "He sold the chest cheaply because he did not know its value."
+        ],
+        "cn": "农夫不知道箱子的价值，所以卖得很便宜。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the value of the chest」提问",
+        "answers": [
+          "What would the farmer not have sold so cheaply if he had known?",
+          "If he had known what, would he not have sold the chest so cheaply?"
+        ],
+        "cn": "农夫若早知道什么，就不会卖得那么便宜？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对 if 从句改为一般疑问句",
+        "answers": [
+          "Would the farmer have sold it so cheaply if he had known the value?",
+          "If the farmer had known the value, would he have sold it so cheaply?"
+        ],
+        "cn": "农夫若早知道价值，还会卖得那么便宜吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-035",
+    "book": 3,
+    "lesson": 35,
+    "grammar": ["as if/as though", "过去完成时"],
+    "cn": "店主表现得好像整条街都是他的。",
+    "explanation": "as if + 过去时表与现在事实相反的虚拟语气；as if he owned 仿佛他拥有（实际没有）。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The shop owner acted as if he owned the street.",
+          "He behaved as though the whole street belonged to him."
+        ],
+        "cn": "店主表现得好像整条街都是他的。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The shop owner did not act as if he owned the street.",
+          "He didn't behave as though the street belonged to him."
+        ],
+        "cn": "店主表现得并不像整条街都是他的。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「as if he owned the street」提问（问\"表现得怎样\"）",
+        "answers": [
+          "How did the shop owner act?",
+          "How did he behave?"
+        ],
+        "cn": "店主表现得怎样？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the shop owner act as if he owned the street?",
+          "Did he behave as though the whole street belonged to him?"
+        ],
+        "cn": "店主表现得好像整条街都是他的吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-036",
+    "book": 3,
+    "lesson": 36,
+    "grammar": ["情态动词 + have done 推测"],
+    "cn": "这枚胸针一定曾属于王室，不可能是仿品。",
+    "explanation": "must have done 表对过去有把握的肯定推测；can't have done 表对过去的否定推测。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The brooch must have belonged to the royal family; it can't have been a copy.",
+          "It must have belonged to royalty and can't have been a fake."
+        ],
+        "cn": "这枚胸针一定曾属于王室，不可能是仿品。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 must have 改为 might have（把握减弱）",
+        "answers": [
+          "The brooch might have belonged to the royal family; it might have been a copy.",
+          "It might have belonged to royalty and might have been a fake."
+        ],
+        "cn": "这枚胸针可能曾属于王室，也可能是仿品。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the royal family」提问（问\"一定曾属于谁\"）",
+        "answers": [
+          "Who must the brooch have belonged to?",
+          "Whom must it have belonged to?"
+        ],
+        "cn": "这枚胸针一定曾属于谁？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对 can't have been 改为一般疑问句",
+        "answers": [
+          "Can it have been a copy?",
+          "Could the brooch have been a fake?"
+        ],
+        "cn": "这枚胸针可能是仿品吗？"
+      }
+    ]
+  }
+]

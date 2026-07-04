@@ -1,503 +1,4424 @@
 [
   {
-    "book": 1, "lesson": 1, "title": "Excuse me!", "titleCn": "对不起！",
+    "book": 1,
+    "lesson": 1,
+    "title": "Excuse me!",
+    "titleCn": "对不起！",
     "scene": "在公共场合捡到别人的手提包，礼貌询问失主。这是全书第一课，建立最基本的“提问—回答—致谢”交流框架。",
-    "grammarTags": ["be动词", "疑问句", "物主代词"],
+    "grammarTags": [
+      "be动词",
+      "疑问句",
+      "物主代词"
+    ],
     "words": [
-      { "word": "excuse", "phon": "/ɪkˈskjuːz/", "pos": "v.", "cn": "原谅；打扰一下", "eg": "Excuse me, is this seat free? 打扰一下，这个座位空着吗？" },
-      { "word": "me", "phon": "/miː/", "pos": "pron.", "cn": "我（宾格）", "eg": "Give it to me. 把它给我。" },
-      { "word": "yes", "phon": "/jes/", "pos": "adv.", "cn": "是的", "eg": "Yes, I am. 是的，我是。" },
-      { "word": "this", "phon": "/ðɪs/", "pos": "pron.", "cn": "这；这个", "eg": "This is my bag. 这是我的包。" },
-      { "word": "your", "phon": "/jɔː/", "pos": "adj.", "cn": "你的", "eg": "Is this your pen? 这是你的钢笔吗？" },
-      { "word": "handbag", "phon": "/ˈhændbæɡ/", "pos": "n.", "cn": "（女用）手提包", "eg": "Her handbag is black. 她的手提包是黑色的。" },
-      { "word": "thank you", "phon": "", "pos": "phr.", "cn": "谢谢你", "eg": "Thank you very much. 非常感谢。" }
+      {
+        "word": "excuse",
+        "phon": "/ɪkˈskjuːz/",
+        "pos": "v.",
+        "cn": "原谅；打扰一下",
+        "eg": "Excuse me, is this seat free? 打扰一下，这个座位空着吗？"
+      },
+      {
+        "word": "me",
+        "phon": "/miː/",
+        "pos": "pron.",
+        "cn": "我（宾格）",
+        "eg": "Give it to me. 把它给我。"
+      },
+      {
+        "word": "yes",
+        "phon": "/jes/",
+        "pos": "adv.",
+        "cn": "是的",
+        "eg": "Yes, I am. 是的，我是。"
+      },
+      {
+        "word": "this",
+        "phon": "/ðɪs/",
+        "pos": "pron.",
+        "cn": "这；这个",
+        "eg": "This is my bag. 这是我的包。"
+      },
+      {
+        "word": "your",
+        "phon": "/jɔː/",
+        "pos": "adj.",
+        "cn": "你的",
+        "eg": "Is this your pen? 这是你的钢笔吗？"
+      },
+      {
+        "word": "handbag",
+        "phon": "/ˈhændbæɡ/",
+        "pos": "n.",
+        "cn": "（女用）手提包",
+        "eg": "Her handbag is black. 她的手提包是黑色的。"
+      },
+      {
+        "word": "thank you",
+        "phon": "",
+        "pos": "phr.",
+        "cn": "谢谢你",
+        "eg": "Thank you very much. 非常感谢。"
+      },
+      {
+        "word": "is",
+        "phon": "/ɪz/",
+        "pos": "v.",
+        "cn": "be动词现在时第三人称单数",
+        "eg": "Is this your handbag?"
+      },
+      {
+        "word": "pardon",
+        "phon": "/ˈpɑːdn/",
+        "pos": "int.",
+        "cn": "原谅，请再说一遍",
+        "eg": "Pardon?"
+      },
+      {
+        "word": "it",
+        "phon": "/ɪt/",
+        "pos": "pron.",
+        "cn": "它",
+        "eg": "Yes it is."
+      },
+      {
+        "word": "very much",
+        "phon": "",
+        "pos": "phr.",
+        "cn": "非常地",
+        "eg": "Thank you very much."
+      },
+      {
+        "word": "pen",
+        "phon": "/pen/",
+        "pos": "n.",
+        "cn": "钢笔",
+        "eg": ""
+      },
+      {
+        "word": "pencil",
+        "phon": "/'pens(ə)l; -sɪl/",
+        "pos": "n.",
+        "cn": "铅笔",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "指示代词 this", "explain": "this 表示“这（个）”，指近处单数的人或物，可作主语。", "examples": ["This is a book.（这是一本书。）", "Is this your key?（这是你的钥匙吗？）"] },
-      { "point": "一般疑问句（be 动词）", "explain": "陈述句 This is... 变一般疑问句，把 be 动词 is 提到句首：Is this...? 回答用 Yes, it is. / No, it isn't.", "examples": ["Is this your handbag? — Yes, it is.", "Is this a pen? — No, it isn't."] },
-      { "point": "形容词性物主代词 your", "explain": "your（你的）后面必须接名词，表示所属关系。", "examples": ["your book（你的书）", "your name（你的名字）"] }
+      {
+        "point": "指示代词 this",
+        "explain": "this 表示“这（个）”，指近处单数的人或物，可作主语。",
+        "examples": [
+          "This is a book.（这是一本书。）",
+          "Is this your key?（这是你的钥匙吗？）"
+        ]
+      },
+      {
+        "point": "一般疑问句（be 动词）",
+        "explain": "陈述句 This is... 变一般疑问句，把 be 动词 is 提到句首：Is this...? 回答用 Yes, it is. / No, it isn't.",
+        "examples": [
+          "Is this your handbag? — Yes, it is.",
+          "Is this a pen? — No, it isn't."
+        ]
+      },
+      {
+        "point": "形容词性物主代词 your",
+        "explain": "your（你的）后面必须接名词，表示所属关系。",
+        "examples": [
+          "your book（你的书）",
+          "your name（你的名字）"
+        ]
+      }
     ],
     "tips": "① 把 “Excuse me!” 当成开口万能句，用于搭话、道歉、请人让路。② 记忆物主代词从 my/your 两个入手，后面永远跟名词。③ 训练“一般疑问句降调变升调”的语感：Is this…? 句尾读升调。"
   },
   {
-    "book": 1, "lesson": 3, "title": "Sorry sir!", "titleCn": "对不起，先生！",
+    "book": 1,
+    "lesson": 3,
+    "title": "Sorry sir!",
+    "titleCn": "对不起，先生！",
     "scene": "在存衣处取大衣和雨伞，工作人员拿错了，反复确认物品归属。巩固 this/it、肯定与否定回答。",
-    "grammarTags": ["be动词", "疑问句", "物主代词"],
+    "grammarTags": [
+      "be动词",
+      "疑问句",
+      "物主代词"
+    ],
     "words": [
-      { "word": "umbrella", "phon": "/ʌmˈbrelə/", "pos": "n.", "cn": "雨伞", "eg": "Take your umbrella. 带上你的雨伞。" },
-      { "word": "please", "phon": "/pliːz/", "pos": "int.", "cn": "请", "eg": "Sit down, please. 请坐。" },
-      { "word": "here", "phon": "/hɪə/", "pos": "adv.", "cn": "这里", "eg": "Here is your ticket. 这是你的票。" },
-      { "word": "ticket", "phon": "/ˈtɪkɪt/", "pos": "n.", "cn": "票", "eg": "Number five ticket. 五号票。" },
-      { "word": "sorry", "phon": "/ˈsɒri/", "pos": "adj.", "cn": "对不起的", "eg": "I'm sorry. 我很抱歉。" },
-      { "word": "coat", "phon": "/kəʊt/", "pos": "n.", "cn": "外套；大衣", "eg": "This is my coat. 这是我的大衣。" }
+      {
+        "word": "umbrella",
+        "phon": "/ʌmˈbrelə/",
+        "pos": "n.",
+        "cn": "雨伞",
+        "eg": "Take your umbrella. 带上你的雨伞。"
+      },
+      {
+        "word": "please",
+        "phon": "/pliːz/",
+        "pos": "int.",
+        "cn": "请",
+        "eg": "Sit down, please. 请坐。"
+      },
+      {
+        "word": "here",
+        "phon": "/hɪə/",
+        "pos": "adv.",
+        "cn": "这里",
+        "eg": "Here is your ticket. 这是你的票。"
+      },
+      {
+        "word": "ticket",
+        "phon": "/ˈtɪkɪt/",
+        "pos": "n.",
+        "cn": "票",
+        "eg": "Number five ticket. 五号票。"
+      },
+      {
+        "word": "sorry",
+        "phon": "/ˈsɒri/",
+        "pos": "adj.",
+        "cn": "对不起的",
+        "eg": "I'm sorry. 我很抱歉。"
+      },
+      {
+        "word": "coat",
+        "phon": "/kəʊt/",
+        "pos": "n.",
+        "cn": "外套；大衣",
+        "eg": "This is my coat. 这是我的大衣。"
+      },
+      {
+        "word": "book",
+        "phon": "/bʊk/",
+        "pos": "n.",
+        "cn": "书",
+        "eg": ""
+      },
+      {
+        "word": "watch",
+        "phon": "/wɒtʃ/",
+        "pos": "n.",
+        "cn": "手表",
+        "eg": ""
+      },
+      {
+        "word": "dress",
+        "phon": "/dres/",
+        "pos": "n.",
+        "cn": "连衣裙",
+        "eg": ""
+      },
+      {
+        "word": "skirt",
+        "phon": "/skɜːt/",
+        "pos": "n.",
+        "cn": "裙子",
+        "eg": ""
+      },
+      {
+        "word": "shirt",
+        "phon": "/ʃɜːt/",
+        "pos": "n.",
+        "cn": "衬衣",
+        "eg": ""
+      },
+      {
+        "word": "car",
+        "phon": "/kɑː/",
+        "pos": "n.",
+        "cn": "小汽车",
+        "eg": ""
+      },
+      {
+        "word": "house",
+        "phon": "/haʊs/",
+        "pos": "n.",
+        "cn": "房子",
+        "eg": ""
+      },
+      {
+        "word": "my",
+        "phon": "/maɪ/",
+        "pos": "det.",
+        "cn": "我的",
+        "eg": "My coat and my umbrella please."
+      }
     ],
     "grammar": [
-      { "point": "否定回答 No, it isn't.", "explain": "对一般疑问句作否定回答：No, it isn't.（isn't = is not）。", "examples": ["Is this your coat? — No, it isn't.", "Is this it? — Yes, it is."] },
-      { "point": "here is / here's", "explain": "Here is (Here's) + 单数名词，用于把东西递给别人：“这是……/给你……”。", "examples": ["Here's your umbrella.（给你雨伞。）", "Here is my ticket.（这是我的票。）"] }
+      {
+        "point": "否定回答 No, it isn't.",
+        "explain": "对一般疑问句作否定回答：No, it isn't.（isn't = is not）。",
+        "examples": [
+          "Is this your coat? — No, it isn't.",
+          "Is this it? — Yes, it is."
+        ]
+      },
+      {
+        "point": "here is / here's",
+        "explain": "Here is (Here's) + 单数名词，用于把东西递给别人：“这是……/给你……”。",
+        "examples": [
+          "Here's your umbrella.（给你雨伞。）",
+          "Here is my ticket.（这是我的票。）"
+        ]
+      }
     ],
     "tips": "① it 用来代替上文提到的单数事物，避免重复 the umbrella。② 记住缩写：isn't、here's、it's，口语更自然。③ 用“失物招领”的场景在脑中演练整段对话，帮助记忆。"
   },
   {
-    "book": 1, "lesson": 5, "title": "Nice to meet you.", "titleCn": "很高兴见到你。",
+    "book": 1,
+    "lesson": 5,
+    "title": "Nice to meet you.",
+    "titleCn": "很高兴见到你。",
     "scene": "老师把新同学介绍给班上其他同学，逐一说出各人的国籍。核心是国籍形容词与 he/she 的用法。",
-    "grammarTags": ["be动词", "人称代词"],
+    "grammarTags": [
+      "be动词",
+      "人称代词"
+    ],
     "words": [
-      { "word": "new", "phon": "/njuː/", "pos": "adj.", "cn": "新的", "eg": "a new student 一名新学生" },
-      { "word": "student", "phon": "/ˈstjuːdnt/", "pos": "n.", "cn": "学生", "eg": "She is a student. 她是学生。" },
-      { "word": "French", "phon": "/frentʃ/", "pos": "adj.", "cn": "法国的；法国人", "eg": "She is French. 她是法国人。" },
-      { "word": "German", "phon": "/ˈdʒɜːmən/", "pos": "adj.", "cn": "德国的；德国人", "eg": "He is German. 他是德国人。" },
-      { "word": "Japanese", "phon": "/ˌdʒæpəˈniːz/", "pos": "adj.", "cn": "日本的；日本人", "eg": "She is Japanese. 她是日本人。" },
-      { "word": "Chinese", "phon": "/ˌtʃaɪˈniːz/", "pos": "adj.", "cn": "中国的；中国人", "eg": "He is Chinese. 他是中国人。" }
+      {
+        "word": "new",
+        "phon": "/njuː/",
+        "pos": "adj.",
+        "cn": "新的",
+        "eg": "a new student 一名新学生"
+      },
+      {
+        "word": "student",
+        "phon": "/ˈstjuːdnt/",
+        "pos": "n.",
+        "cn": "学生",
+        "eg": "She is a student. 她是学生。"
+      },
+      {
+        "word": "French",
+        "phon": "/frentʃ/",
+        "pos": "adj.",
+        "cn": "法国的；法国人",
+        "eg": "She is French. 她是法国人。"
+      },
+      {
+        "word": "German",
+        "phon": "/ˈdʒɜːmən/",
+        "pos": "adj.",
+        "cn": "德国的；德国人",
+        "eg": "He is German. 他是德国人。"
+      },
+      {
+        "word": "Japanese",
+        "phon": "/ˌdʒæpəˈniːz/",
+        "pos": "adj.",
+        "cn": "日本的；日本人",
+        "eg": "She is Japanese. 她是日本人。"
+      },
+      {
+        "word": "Chinese",
+        "phon": "/ˌtʃaɪˈniːz/",
+        "pos": "adj.",
+        "cn": "中国的；中国人",
+        "eg": "He is Chinese. 他是中国人。"
+      },
+      {
+        "word": "ticket",
+        "phon": "/'tɪkɪt/",
+        "pos": "n.",
+        "cn": "票",
+        "eg": ""
+      },
+      {
+        "word": "number",
+        "phon": "/'nʌmbə/",
+        "pos": "n.",
+        "cn": "号码",
+        "eg": ""
+      },
+      {
+        "word": "five",
+        "phon": "/faɪv/",
+        "pos": "num.",
+        "cn": "五",
+        "eg": ""
+      },
+      {
+        "word": "sorry",
+        "phon": "/'sɒrɪ/",
+        "pos": "a.",
+        "cn": "对不起的",
+        "eg": ""
+      },
+      {
+        "word": "sir",
+        "phon": "/sɜː/",
+        "pos": "n.",
+        "cn": "先生",
+        "eg": ""
+      },
+      {
+        "word": "cloakroom",
+        "phon": "/'kləukruːm/",
+        "pos": "n.",
+        "cn": "衣帽存放处",
+        "eg": ""
+      },
+      {
+        "word": "suit",
+        "phon": "/sju:t; su:t/",
+        "pos": "n.",
+        "cn": "一套衣服",
+        "eg": ""
+      },
+      {
+        "word": "school",
+        "phon": "/skuːl/",
+        "pos": "n.",
+        "cn": "学校",
+        "eg": ""
+      },
+      {
+        "word": "teacher",
+        "phon": "/'tiːtʃə/",
+        "pos": "n.",
+        "cn": "老师",
+        "eg": ""
+      },
+      {
+        "word": "son",
+        "phon": "/sʌn/",
+        "pos": "n.",
+        "cn": "儿子",
+        "eg": ""
+      },
+      {
+        "word": "daughter",
+        "phon": "/'dɔːtə/",
+        "pos": "n.",
+        "cn": "女儿",
+        "eg": ""
+      },
+      {
+        "word": "Mr.",
+        "phon": "/'mistə/",
+        "pos": "n.",
+        "cn": "先生",
+        "eg": ""
+      },
+      {
+        "word": "good",
+        "phon": "/gʊd/",
+        "pos": "a.",
+        "cn": "好",
+        "eg": "Good morning."
+      }
     ],
     "grammar": [
-      { "point": "人称代词 he / she", "explain": "he 指“他”（男性），she 指“她”（女性），作主语，谓语 be 用 is。", "examples": ["He is German.（他是德国人。）", "She is Japanese.（她是日本人。）"] },
-      { "point": "国籍形容词表身份", "explain": "国籍形容词（French/Chinese…）可直接跟在 be 动词后表示“是某国人”，此时不加冠词。", "examples": ["I am Chinese.（我是中国人。）", "They are French.（他们是法国人。）"] }
+      {
+        "point": "人称代词 he / she",
+        "explain": "he 指“他”（男性），she 指“她”（女性），作主语，谓语 be 用 is。",
+        "examples": [
+          "He is German.（他是德国人。）",
+          "She is Japanese.（她是日本人。）"
+        ]
+      },
+      {
+        "point": "国籍形容词表身份",
+        "explain": "国籍形容词（French/Chinese…）可直接跟在 be 动词后表示“是某国人”，此时不加冠词。",
+        "examples": [
+          "I am Chinese.（我是中国人。）",
+          "They are French.（他们是法国人。）"
+        ]
+      }
     ],
     "tips": "① 国籍词首字母要大写。② 归类记忆：-ese 结尾（Chinese/Japanese）、-an 结尾（German/American）、其他（French）。③ 用班里同学“造句介绍”来记 he/she + is + 国籍。"
   },
   {
-    "book": 1, "lesson": 7, "title": "Are you a teacher?", "titleCn": "你是教师吗？",
+    "book": 1,
+    "lesson": 7,
+    "title": "Are you a teacher?",
+    "titleCn": "你是教师吗？",
     "scene": "两位新同学互相认识，询问对方国籍和职业。重点是 a/an 与职业名词、What's your job 句型。",
-    "grammarTags": ["be动词", "冠词a/an", "疑问句"],
+    "grammarTags": [
+      "be动词",
+      "冠词a/an",
+      "疑问句"
+    ],
     "words": [
-      { "word": "name", "phon": "/neɪm/", "pos": "n.", "cn": "名字", "eg": "My name is Tom. 我叫汤姆。" },
-      { "word": "teacher", "phon": "/ˈtiːtʃə/", "pos": "n.", "cn": "教师", "eg": "She is a teacher. 她是老师。" },
-      { "word": "job", "phon": "/dʒɒb/", "pos": "n.", "cn": "工作；职业", "eg": "What's your job? 你做什么工作？" },
-      { "word": "engineer", "phon": "/ˌendʒɪˈnɪə/", "pos": "n.", "cn": "工程师", "eg": "He is an engineer. 他是工程师。" },
-      { "word": "operator", "phon": "/ˈɒpəreɪtə/", "pos": "n.", "cn": "操作员", "eg": "a keyboard operator 键盘操作员" }
+      {
+        "word": "name",
+        "phon": "/neɪm/",
+        "pos": "n.",
+        "cn": "名字",
+        "eg": "My name is Tom. 我叫汤姆。"
+      },
+      {
+        "word": "teacher",
+        "phon": "/ˈtiːtʃə/",
+        "pos": "n.",
+        "cn": "教师",
+        "eg": "She is a teacher. 她是老师。"
+      },
+      {
+        "word": "job",
+        "phon": "/dʒɒb/",
+        "pos": "n.",
+        "cn": "工作；职业",
+        "eg": "What's your job? 你做什么工作？"
+      },
+      {
+        "word": "engineer",
+        "phon": "/ˌendʒɪˈnɪə/",
+        "pos": "n.",
+        "cn": "工程师",
+        "eg": "He is an engineer. 他是工程师。"
+      },
+      {
+        "word": "operator",
+        "phon": "/ˈɒpəreɪtə/",
+        "pos": "n.",
+        "cn": "操作员",
+        "eg": "a keyboard operator 键盘操作员"
+      },
+      {
+        "word": "morning",
+        "phon": "/'mɔːnɪŋ/",
+        "pos": "n.",
+        "cn": "早晨",
+        "eg": ""
+      },
+      {
+        "word": "Miss",
+        "phon": "/mis/",
+        "pos": "n.",
+        "cn": "小姐",
+        "eg": ""
+      },
+      {
+        "word": "new",
+        "phon": "/njuː/",
+        "pos": "a.",
+        "cn": "新的",
+        "eg": "I am a new student."
+      },
+      {
+        "word": "student",
+        "phon": "/'stjuːd(ə)nt/",
+        "pos": "n.",
+        "cn": "学生",
+        "eg": "I am a new student."
+      },
+      {
+        "word": "French",
+        "phon": "/frentʃ/",
+        "pos": "a.",
+        "cn": "& n.法国人",
+        "eg": "Are you French?"
+      },
+      {
+        "word": "German",
+        "phon": "/'dʒə:mən/",
+        "pos": "a.",
+        "cn": "& n.德国人",
+        "eg": ""
+      },
+      {
+        "word": "nice",
+        "phon": "/naɪs/",
+        "pos": "a.",
+        "cn": "美好的",
+        "eg": "Nice to meet you."
+      },
+      {
+        "word": "meet",
+        "phon": "/miːt/",
+        "pos": "v.",
+        "cn": "遇见",
+        "eg": "Nice to meet you."
+      },
+      {
+        "word": "Japanese",
+        "phon": "/ˌdʒæpə'ni:z/",
+        "pos": "a.",
+        "cn": "& n.日本人",
+        "eg": ""
+      },
+      {
+        "word": "Korean",
+        "phon": "/kə'riən/",
+        "pos": "a.",
+        "cn": "& n.韩国人",
+        "eg": ""
+      },
+      {
+        "word": "Chinese",
+        "phon": "/ˌtʃai'ni:z/",
+        "pos": "a.",
+        "cn": "& n.中国人",
+        "eg": ""
+      },
+      {
+        "word": "too",
+        "phon": "/tuː/",
+        "pos": "adv.",
+        "cn": "也",
+        "eg": "Are you French too?"
+      }
     ],
     "grammar": [
-      { "point": "不定冠词 a / an", "explain": "表示“一个”，用于单数可数名词前。读音以辅音音素开头用 a，以元音音素开头用 an。", "examples": ["a teacher（一名教师）", "an engineer（一名工程师）", "an hour（注意 h 不发音，用 an）"] },
-      { "point": "What's your job?", "explain": "询问职业的常用句型，等于 What do you do? 回答：I'm a/an + 职业。", "examples": ["What's your job? — I'm a nurse.", "What's her job? — She's a doctor."] }
+      {
+        "point": "不定冠词 a / an",
+        "explain": "表示“一个”，用于单数可数名词前。读音以辅音音素开头用 a，以元音音素开头用 an。",
+        "examples": [
+          "a teacher（一名教师）",
+          "an engineer（一名工程师）",
+          "an hour（注意 h 不发音，用 an）"
+        ]
+      },
+      {
+        "point": "What's your job?",
+        "explain": "询问职业的常用句型，等于 What do you do? 回答：I'm a/an + 职业。",
+        "examples": [
+          "What's your job? — I'm a nurse.",
+          "What's her job? — She's a doctor."
+        ]
+      }
     ],
     "tips": "① a/an 看的是“读音”不是字母：an hour（元音开头）、a university（读 /juː/ 用 a）。② 回答职业别忘冠词：I'm a teacher，不能说 I'm teacher。③ 用 “I'm a…” 造句介绍身边人的职业。"
   },
   {
-    "book": 1, "lesson": 9, "title": "How are you today?", "titleCn": "你今天好吗？",
+    "book": 1,
+    "lesson": 9,
+    "title": "How are you today?",
+    "titleCn": "你今天好吗？",
     "scene": "两位朋友见面寒暄，互问身体状况并问候彼此家人。核心是问候语与 How is…、形容词性物主代词。",
-    "grammarTags": ["be动词", "物主代词", "疑问句"],
+    "grammarTags": [
+      "be动词",
+      "物主代词",
+      "疑问句"
+    ],
     "words": [
-      { "word": "hello", "phon": "/həˈləʊ/", "pos": "int.", "cn": "你好", "eg": "Hello, Helen! 你好，海伦！" },
-      { "word": "hi", "phon": "/haɪ/", "pos": "int.", "cn": "嗨；你好（更随意）", "eg": "Hi, Steven! 嗨，史蒂文！" },
-      { "word": "today", "phon": "/təˈdeɪ/", "pos": "adv.", "cn": "今天", "eg": "How are you today? 你今天好吗？" },
-      { "word": "well", "phon": "/wel/", "pos": "adj.", "cn": "健康的；好的", "eg": "I'm very well. 我很好。" },
-      { "word": "fine", "phon": "/faɪn/", "pos": "adj.", "cn": "很好的", "eg": "I'm fine, thanks. 我很好，谢谢。" },
-      { "word": "goodbye", "phon": "/ˌɡʊdˈbaɪ/", "pos": "int.", "cn": "再见", "eg": "Goodbye! 再见！" }
+      {
+        "word": "hello",
+        "phon": "/həˈləʊ/",
+        "pos": "int.",
+        "cn": "你好",
+        "eg": "Hello, Helen! 你好，海伦！"
+      },
+      {
+        "word": "hi",
+        "phon": "/haɪ/",
+        "pos": "int.",
+        "cn": "嗨；你好（更随意）",
+        "eg": "Hi, Steven! 嗨，史蒂文！"
+      },
+      {
+        "word": "today",
+        "phon": "/təˈdeɪ/",
+        "pos": "adv.",
+        "cn": "今天",
+        "eg": "How are you today? 你今天好吗？"
+      },
+      {
+        "word": "well",
+        "phon": "/wel/",
+        "pos": "adj.",
+        "cn": "健康的；好的",
+        "eg": "I'm very well. 我很好。"
+      },
+      {
+        "word": "fine",
+        "phon": "/faɪn/",
+        "pos": "adj.",
+        "cn": "很好的",
+        "eg": "I'm fine, thanks. 我很好，谢谢。"
+      },
+      {
+        "word": "goodbye",
+        "phon": "/ˌɡʊdˈbaɪ/",
+        "pos": "int.",
+        "cn": "再见",
+        "eg": "Goodbye! 再见！"
+      },
+      {
+        "word": "make",
+        "phon": "/meɪk/",
+        "pos": "n.",
+        "cn": "(产品的)牌号",
+        "eg": ""
+      },
+      {
+        "word": "Swedish",
+        "phon": "/'swi:diʃ/",
+        "pos": "a.",
+        "cn": "瑞典的",
+        "eg": ""
+      },
+      {
+        "word": "English",
+        "phon": "/'ɪŋɡlɪʃ/",
+        "pos": "a.",
+        "cn": "英国的",
+        "eg": ""
+      },
+      {
+        "word": "American",
+        "phon": "/əˈmerɪkən/",
+        "pos": "a.",
+        "cn": "美国的",
+        "eg": ""
+      },
+      {
+        "word": "Italian",
+        "phon": "/ɪˈtælɪən/",
+        "pos": "a.",
+        "cn": "意大利的",
+        "eg": ""
+      },
+      {
+        "word": "Volvo",
+        "phon": "/'vɔlvəʊ/",
+        "pos": "n.",
+        "cn": "沃尔沃",
+        "eg": ""
+      },
+      {
+        "word": "Peugeot",
+        "phon": "",
+        "pos": "n.",
+        "cn": "标致",
+        "eg": ""
+      },
+      {
+        "word": "Mercedes",
+        "phon": "/'mə:sidi:z/",
+        "pos": "n.",
+        "cn": "梅赛德斯",
+        "eg": ""
+      },
+      {
+        "word": "Toyota",
+        "phon": "/'təʊjəʊtə/",
+        "pos": "n.",
+        "cn": "丰田",
+        "eg": ""
+      },
+      {
+        "word": "Daewoo",
+        "phon": "",
+        "pos": "n.",
+        "cn": "大宇",
+        "eg": ""
+      },
+      {
+        "word": "Mini",
+        "phon": "/'mini/",
+        "pos": "n.",
+        "cn": "迷你",
+        "eg": ""
+      },
+      {
+        "word": "Ford",
+        "phon": "/fɔ:d/",
+        "pos": "n.",
+        "cn": "福特",
+        "eg": ""
+      },
+      {
+        "word": "Fiat",
+        "phon": "/'faiæt, -ət/",
+        "pos": "n.",
+        "cn": "菲亚特",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "How is / How's 问候", "explain": "How is + 人？用来问某人身体/近况，回答 He's/She's very well.", "examples": ["How's Tony? — He's very well.", "How is Emma? — She's fine."] },
-      { "point": "his / her", "explain": "his=他的，her=她的，均为形容词性物主代词，后接名词。", "examples": ["his name（他的名字）", "her job（她的工作）"] }
+      {
+        "point": "How is / How's 问候",
+        "explain": "How is + 人？用来问某人身体/近况，回答 He's/She's very well.",
+        "examples": [
+          "How's Tony? — He's very well.",
+          "How is Emma? — She's fine."
+        ]
+      },
+      {
+        "point": "his / her",
+        "explain": "his=他的，her=她的，均为形容词性物主代词，后接名词。",
+        "examples": [
+          "his name（他的名字）",
+          "her job（她的工作）"
+        ]
+      }
     ],
     "tips": "① 一整套问候闭环：Hello → How are you? → I'm fine, thank you, and you? → Goodbye。背成条件反射。② 物主代词配对记：I-my, you-your, he-his, she-her。③ well 在这里是形容词“身体好”，别只记成副词。"
   },
   {
-    "book": 1, "lesson": 11, "title": "Is this your shirt?", "titleCn": "这是你的衬衫吗？",
+    "book": 1,
+    "lesson": 11,
+    "title": "Is this your shirt?",
+    "titleCn": "这是你的衬衫吗？",
     "scene": "老师询问一件衬衫是谁的，通过颜色排除，最后确认归属。重点是 whose、名词所有格和颜色词。",
-    "grammarTags": ["物主代词", "疑问句"],
+    "grammarTags": [
+      "物主代词",
+      "疑问句"
+    ],
     "words": [
-      { "word": "whose", "phon": "/huːz/", "pos": "pron.", "cn": "谁的", "eg": "Whose book is this? 这是谁的书？" },
-      { "word": "shirt", "phon": "/ʃɜːt/", "pos": "n.", "cn": "衬衫", "eg": "a blue shirt 一件蓝衬衫" },
-      { "word": "blue", "phon": "/bluː/", "pos": "adj.", "cn": "蓝色的", "eg": "The sky is blue. 天空是蓝色的。" },
-      { "word": "perhaps", "phon": "/pəˈhæps/", "pos": "adv.", "cn": "可能；大概", "eg": "Perhaps it is. 可能是的。" },
-      { "word": "catch", "phon": "/kætʃ/", "pos": "v.", "cn": "接住", "eg": "Catch! 接住！" }
+      {
+        "word": "whose",
+        "phon": "/huːz/",
+        "pos": "pron.",
+        "cn": "谁的",
+        "eg": "Whose book is this? 这是谁的书？"
+      },
+      {
+        "word": "shirt",
+        "phon": "/ʃɜːt/",
+        "pos": "n.",
+        "cn": "衬衫",
+        "eg": "a blue shirt 一件蓝衬衫"
+      },
+      {
+        "word": "blue",
+        "phon": "/bluː/",
+        "pos": "adj.",
+        "cn": "蓝色的",
+        "eg": "The sky is blue. 天空是蓝色的。"
+      },
+      {
+        "word": "perhaps",
+        "phon": "/pəˈhæps/",
+        "pos": "adv.",
+        "cn": "可能；大概",
+        "eg": "Perhaps it is. 可能是的。"
+      },
+      {
+        "word": "catch",
+        "phon": "/kætʃ/",
+        "pos": "v.",
+        "cn": "接住",
+        "eg": "Catch! 接住！"
+      },
+      {
+        "word": "I",
+        "phon": "/ai/",
+        "pos": "pron.",
+        "cn": "我",
+        "eg": ""
+      },
+      {
+        "word": "am",
+        "phon": "/æm/",
+        "pos": "v.",
+        "cn": "be动词现在时第一人称单数",
+        "eg": ""
+      },
+      {
+        "word": "are",
+        "phon": "/ɑ:(r)/",
+        "pos": "v.",
+        "cn": "be动词现在时复数",
+        "eg": "Here you are."
+      },
+      {
+        "word": "name",
+        "phon": "/neɪm/",
+        "pos": "n.",
+        "cn": "名字",
+        "eg": ""
+      },
+      {
+        "word": "what",
+        "phon": "/wɒt/",
+        "pos": "a.",
+        "cn": "& pron.什么",
+        "eg": ""
+      },
+      {
+        "word": "nationality",
+        "phon": "/ˌnæʃə'næləti/",
+        "pos": "n.",
+        "cn": "国籍",
+        "eg": ""
+      },
+      {
+        "word": "job",
+        "phon": "/dʒɔb/",
+        "pos": "n.",
+        "cn": "工作",
+        "eg": ""
+      },
+      {
+        "word": "keyboard",
+        "phon": "/'kiːbɔːd/",
+        "pos": "n.",
+        "cn": "电脑键盘",
+        "eg": ""
+      },
+      {
+        "word": "operator",
+        "phon": "/'ɒpəreɪtə/",
+        "pos": "n.",
+        "cn": "操作人员",
+        "eg": ""
+      },
+      {
+        "word": "engineer",
+        "phon": "/endʒɪ'nɪə/",
+        "pos": "n.",
+        "cn": "工程师",
+        "eg": ""
+      },
+      {
+        "word": "policeman",
+        "phon": "/pə'liːsmən/",
+        "pos": "n.",
+        "cn": "警察",
+        "eg": ""
+      },
+      {
+        "word": "policewoman",
+        "phon": "/pə'liːswʊmən/",
+        "pos": "n.",
+        "cn": "女警察",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "疑问词 whose", "explain": "whose 意为“谁的”，后接名词构成疑问：Whose + 名词 + is this? 注意别与 who's(=who is) 混淆。", "examples": ["Whose shirt is this? — It's Tim's.", "Whose keys are these? — They're mine."] },
-      { "point": "名词所有格 's", "explain": "在名词后加 's 表示“……的”，如 Tim's（蒂姆的）。", "examples": ["Tim's shirt（蒂姆的衬衫）", "my mother's bag（我妈妈的包）"] }
+      {
+        "point": "疑问词 whose",
+        "explain": "whose 意为“谁的”，后接名词构成疑问：Whose + 名词 + is this? 注意别与 who's(=who is) 混淆。",
+        "examples": [
+          "Whose shirt is this? — It's Tim's.",
+          "Whose keys are these? — They're mine."
+        ]
+      },
+      {
+        "point": "名词所有格 's",
+        "explain": "在名词后加 's 表示“……的”，如 Tim's（蒂姆的）。",
+        "examples": [
+          "Tim's shirt（蒂姆的衬衫）",
+          "my mother's bag（我妈妈的包）"
+        ]
+      }
     ],
     "tips": "① whose 与 who's 同音不同义：whose=谁的（+名词），who's=who is。② 回答归属可用 It's Tim's. 省略后面的名词。③ 颜色词是高频，趁本课把 red/blue/green/black/white 一起记。"
   },
   {
-    "book": 1, "lesson": 13, "title": "A new dress", "titleCn": "一件新连衣裙",
+    "book": 1,
+    "lesson": 13,
+    "title": "A new dress",
+    "titleCn": "一件新连衣裙",
     "scene": "朋友展示自己不同颜色的新连衣裙，围绕颜色展开对话。重点是 What colour 提问与颜色形容词。",
-    "grammarTags": ["疑问句", "be动词"],
+    "grammarTags": [
+      "疑问句",
+      "be动词"
+    ],
     "words": [
-      { "word": "colour", "phon": "/ˈkʌlə/", "pos": "n.", "cn": "颜色", "eg": "What colour is it? 它是什么颜色？" },
-      { "word": "dress", "phon": "/dres/", "pos": "n.", "cn": "连衣裙", "eg": "a red dress 一条红裙子" },
-      { "word": "green", "phon": "/ɡriːn/", "pos": "adj.", "cn": "绿色的", "eg": "green leaves 绿叶" },
-      { "word": "lovely", "phon": "/ˈlʌvli/", "pos": "adj.", "cn": "可爱的；好看的", "eg": "It's lovely! 真好看！" },
-      { "word": "upstairs", "phon": "/ˌʌpˈsteəz/", "pos": "adv.", "cn": "在楼上", "eg": "Come upstairs. 上楼来。" }
+      {
+        "word": "colour",
+        "phon": "/ˈkʌlə/",
+        "pos": "n.",
+        "cn": "颜色",
+        "eg": "What colour is it? 它是什么颜色？"
+      },
+      {
+        "word": "dress",
+        "phon": "/dres/",
+        "pos": "n.",
+        "cn": "连衣裙",
+        "eg": "a red dress 一条红裙子"
+      },
+      {
+        "word": "green",
+        "phon": "/ɡriːn/",
+        "pos": "adj.",
+        "cn": "绿色的",
+        "eg": "green leaves 绿叶"
+      },
+      {
+        "word": "lovely",
+        "phon": "/ˈlʌvli/",
+        "pos": "adj.",
+        "cn": "可爱的；好看的",
+        "eg": "It's lovely! 真好看！"
+      },
+      {
+        "word": "upstairs",
+        "phon": "/ˌʌpˈsteəz/",
+        "pos": "adv.",
+        "cn": "在楼上",
+        "eg": "Come upstairs. 上楼来。"
+      },
+      {
+        "word": "taxi driver",
+        "phon": "",
+        "pos": "n.",
+        "cn": "出租汽车司机",
+        "eg": ""
+      },
+      {
+        "word": "air hostess",
+        "phon": "",
+        "pos": "phr.",
+        "cn": "空中小姐",
+        "eg": ""
+      },
+      {
+        "word": "postman",
+        "phon": "/'pəʊs(t)mən/",
+        "pos": "n.",
+        "cn": "邮递员",
+        "eg": ""
+      },
+      {
+        "word": "nurse",
+        "phon": "/nɜːs/",
+        "pos": "n.",
+        "cn": "护士",
+        "eg": ""
+      },
+      {
+        "word": "mechanic",
+        "phon": "/mə'kænɪk/",
+        "pos": "n.",
+        "cn": "机械师",
+        "eg": ""
+      },
+      {
+        "word": "hairdresser",
+        "phon": "/'heədresə(r)/",
+        "pos": "n.",
+        "cn": "理发师",
+        "eg": ""
+      },
+      {
+        "word": "housewife",
+        "phon": "/'haʊswaɪf/",
+        "pos": "n.",
+        "cn": "家庭妇女",
+        "eg": ""
+      },
+      {
+        "word": "milkman",
+        "phon": "/'mɪlkmən/",
+        "pos": "n.",
+        "cn": "送牛奶的人",
+        "eg": ""
+      },
+      {
+        "word": "hello",
+        "phon": "/həˈləʊ/",
+        "pos": "int.",
+        "cn": "喂(表示问候)",
+        "eg": ""
+      },
+      {
+        "word": "hi",
+        "phon": "/haɪ/",
+        "pos": "int.",
+        "cn": "喂，嗨",
+        "eg": ""
+      },
+      {
+        "word": "how",
+        "phon": "/haʊ/",
+        "pos": "adv.",
+        "cn": "怎样",
+        "eg": ""
+      },
+      {
+        "word": "today",
+        "phon": "/tə'deɪ/",
+        "pos": "adv.",
+        "cn": "今天",
+        "eg": ""
+      },
+      {
+        "word": "well",
+        "phon": "/wel/",
+        "pos": "a.",
+        "cn": "身体好",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "What colour…? 问颜色", "explain": "询问颜色用 What colour is/are + 主语？回答 It's + 颜色。", "examples": ["What colour is your car? — It's white.", "What colour are the shoes? — They're black."] },
-      { "point": "形容词作定语/表语", "explain": "颜色形容词放在名词前作定语（a green dress），或放在 be 后作表语（The dress is green）。", "examples": ["a blue shirt", "The shirt is blue."] }
+      {
+        "point": "What colour…? 问颜色",
+        "explain": "询问颜色用 What colour is/are + 主语？回答 It's + 颜色。",
+        "examples": [
+          "What colour is your car? — It's white.",
+          "What colour are the shoes? — They're black."
+        ]
+      },
+      {
+        "point": "形容词作定语/表语",
+        "explain": "颜色形容词放在名词前作定语（a green dress），或放在 be 后作表语（The dress is green）。",
+        "examples": [
+          "a blue shirt",
+          "The shirt is blue."
+        ]
+      }
     ],
     "tips": "① colour 是英式拼写，美式为 color。② 形容词放名词前不加复数：two red apples（red 不变）。③ 用衣柜里的衣物练 “What colour is…? It's…”。"
   },
   {
-    "book": 1, "lesson": 15, "title": "Your passports, please.", "titleCn": "请出示护照。",
+    "book": 1,
+    "lesson": 15,
+    "title": "Your passports, please.",
+    "titleCn": "请出示护照。",
     "scene": "过海关时查验护照，旅客来自不同国家。重点是国籍名词（表人）与国籍形容词的区别、名词复数。",
-    "grammarTags": ["名词单复数", "be动词"],
+    "grammarTags": [
+      "名词单复数",
+      "be动词"
+    ],
     "words": [
-      { "word": "passport", "phon": "/ˈpɑːspɔːt/", "pos": "n.", "cn": "护照", "eg": "Here is my passport. 这是我的护照。" },
-      { "word": "Swedish", "phon": "/ˈswiːdɪʃ/", "pos": "adj.", "cn": "瑞典的", "eg": "She is Swedish. 她是瑞典人。" },
-      { "word": "Norwegian", "phon": "/nɔːˈwiːdʒən/", "pos": "adj.", "cn": "挪威的", "eg": "He is Norwegian. 他是挪威人。" },
-      { "word": "tourist", "phon": "/ˈtʊərɪst/", "pos": "n.", "cn": "游客", "eg": "many tourists 许多游客" },
-      { "word": "brown", "phon": "/braʊn/", "pos": "adj.", "cn": "棕色的", "eg": "a brown bag 一个棕色的包" }
+      {
+        "word": "passport",
+        "phon": "/ˈpɑːspɔːt/",
+        "pos": "n.",
+        "cn": "护照",
+        "eg": "Here is my passport. 这是我的护照。"
+      },
+      {
+        "word": "Swedish",
+        "phon": "/ˈswiːdɪʃ/",
+        "pos": "adj.",
+        "cn": "瑞典的",
+        "eg": "She is Swedish. 她是瑞典人。"
+      },
+      {
+        "word": "Norwegian",
+        "phon": "/nɔːˈwiːdʒən/",
+        "pos": "adj.",
+        "cn": "挪威的",
+        "eg": "He is Norwegian. 他是挪威人。"
+      },
+      {
+        "word": "tourist",
+        "phon": "/ˈtʊərɪst/",
+        "pos": "n.",
+        "cn": "游客",
+        "eg": "many tourists 许多游客"
+      },
+      {
+        "word": "brown",
+        "phon": "/braʊn/",
+        "pos": "adj.",
+        "cn": "棕色的",
+        "eg": "a brown bag 一个棕色的包"
+      },
+      {
+        "word": "fine",
+        "phon": "/faɪn/",
+        "pos": "a.",
+        "cn": "美好的",
+        "eg": "That's fine."
+      },
+      {
+        "word": "thanks",
+        "phon": "/θæŋks/",
+        "pos": "int.",
+        "cn": "谢谢",
+        "eg": ""
+      },
+      {
+        "word": "goodbye",
+        "phon": "/ˌgud'bai/",
+        "pos": "int.",
+        "cn": "再见",
+        "eg": ""
+      },
+      {
+        "word": "see",
+        "phon": "/siː/",
+        "pos": "v.",
+        "cn": "看见",
+        "eg": ""
+      },
+      {
+        "word": "fat",
+        "phon": "/fæt/",
+        "pos": "a.",
+        "cn": "胖的",
+        "eg": ""
+      },
+      {
+        "word": "woman",
+        "phon": "/'wʊmən/",
+        "pos": "n.",
+        "cn": "女人",
+        "eg": ""
+      },
+      {
+        "word": "thin",
+        "phon": "/θɪn/",
+        "pos": "a.",
+        "cn": "瘦的",
+        "eg": ""
+      },
+      {
+        "word": "tall",
+        "phon": "/tɔːl/",
+        "pos": "a.",
+        "cn": "高的",
+        "eg": ""
+      },
+      {
+        "word": "short",
+        "phon": "/ʃɔːt/",
+        "pos": "a.",
+        "cn": "矮的",
+        "eg": ""
+      },
+      {
+        "word": "dirty",
+        "phon": "/'dɜːtɪ/",
+        "pos": "a.",
+        "cn": "脏的",
+        "eg": ""
+      },
+      {
+        "word": "clean",
+        "phon": "/kliːn/",
+        "pos": "a.",
+        "cn": "干净的",
+        "eg": ""
+      },
+      {
+        "word": "hot",
+        "phon": "/hɒt/",
+        "pos": "a.",
+        "cn": "热的",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "国籍：形容词 vs 名词", "explain": "国籍词既可作形容词（He is Swedish），也可作名词表“某国人”，作名词时可加复数（two Swedes 等）。本课先掌握“be + 国籍形容词”。", "examples": ["They are Norwegian.（他们是挪威人。）", "We are Chinese.（我们是中国人。）"] },
-      { "point": "名词复数一般规则", "explain": "多数可数名词加 -s 构成复数：passport → passports, tourist → tourists。", "examples": ["two passports", "some tourists"] }
+      {
+        "point": "国籍：形容词 vs 名词",
+        "explain": "国籍词既可作形容词（He is Swedish），也可作名词表“某国人”，作名词时可加复数（two Swedes 等）。本课先掌握“be + 国籍形容词”。",
+        "examples": [
+          "They are Norwegian.（他们是挪威人。）",
+          "We are Chinese.（我们是中国人。）"
+        ]
+      },
+      {
+        "point": "名词复数一般规则",
+        "explain": "多数可数名词加 -s 构成复数：passport → passports, tourist → tourists。",
+        "examples": [
+          "two passports",
+          "some tourists"
+        ]
+      }
     ],
     "tips": "① 复习 be 动词随人称/单复数变化：I am / you are / he is / they are。② 复数最基础规则先加 -s，特殊规则（-es、变 y、变 ves）后面课文再深化。③ 想象过关口语场景强化记忆。"
   },
   {
-    "book": 1, "lesson": 17, "title": "How do you do?", "titleCn": "你好！（初次见面）",
+    "book": 1,
+    "lesson": 17,
+    "title": "How do you do?",
+    "titleCn": "你好！（初次见面）",
     "scene": "公司里介绍同事互相认识，说明各自职务。重点是初次见面用语 How do you do 与职业词汇。",
-    "grammarTags": ["be动词", "冠词a/an"],
+    "grammarTags": [
+      "be动词",
+      "冠词a/an"
+    ],
     "words": [
-      { "word": "employee", "phon": "/ˌemplɔɪˈiː/", "pos": "n.", "cn": "雇员", "eg": "a new employee 一名新雇员" },
-      { "word": "manager", "phon": "/ˈmænɪdʒə/", "pos": "n.", "cn": "经理", "eg": "She is a manager. 她是经理。" },
-      { "word": "assistant", "phon": "/əˈsɪstənt/", "pos": "n.", "cn": "助手；助理", "eg": "a sales assistant 售货员" },
-      { "word": "hard-working", "phon": "/ˌhɑːdˈwɜːkɪŋ/", "pos": "adj.", "cn": "勤奋的", "eg": "a hard-working man 一个勤奋的人" }
+      {
+        "word": "employee",
+        "phon": "/ˌemplɔɪˈiː/",
+        "pos": "n.",
+        "cn": "雇员",
+        "eg": "a new employee 一名新雇员"
+      },
+      {
+        "word": "manager",
+        "phon": "/ˈmænɪdʒə/",
+        "pos": "n.",
+        "cn": "经理",
+        "eg": "She is a manager. 她是经理。"
+      },
+      {
+        "word": "assistant",
+        "phon": "/əˈsɪstənt/",
+        "pos": "n.",
+        "cn": "助手；助理",
+        "eg": "a sales assistant 售货员"
+      },
+      {
+        "word": "hard-working",
+        "phon": "/ˌhɑːdˈwɜːkɪŋ/",
+        "pos": "adj.",
+        "cn": "勤奋的",
+        "eg": "a hard-working man 一个勤奋的人"
+      },
+      {
+        "word": "cold",
+        "phon": "/kəʊld/",
+        "pos": "a.",
+        "cn": "冷的",
+        "eg": ""
+      },
+      {
+        "word": "old",
+        "phon": "/əʊld/",
+        "pos": "a.",
+        "cn": "老的",
+        "eg": ""
+      },
+      {
+        "word": "young",
+        "phon": "/jʌŋ/",
+        "pos": "a.",
+        "cn": "年轻的",
+        "eg": "Who is this young man?"
+      },
+      {
+        "word": "busy",
+        "phon": "/'bɪzɪ/",
+        "pos": "a.",
+        "cn": "忙的",
+        "eg": "They aren't very busy!"
+      },
+      {
+        "word": "lazy",
+        "phon": "/'leɪzɪ/",
+        "pos": "a.",
+        "cn": "懒的",
+        "eg": "They're very lazy."
+      },
+      {
+        "word": "whose",
+        "phon": "/huːz/",
+        "pos": "pron.",
+        "cn": "谁的",
+        "eg": ""
+      },
+      {
+        "word": "blue",
+        "phon": "/bluː/",
+        "pos": "a.",
+        "cn": "蓝色的",
+        "eg": ""
+      },
+      {
+        "word": "perhaps",
+        "phon": "/pəˈhæps/",
+        "pos": "adv.",
+        "cn": "大概",
+        "eg": ""
+      },
+      {
+        "word": "white",
+        "phon": "/waɪt/",
+        "pos": "a.",
+        "cn": "白色的",
+        "eg": ""
+      },
+      {
+        "word": "catch",
+        "phon": "/kætʃ/",
+        "pos": "v.",
+        "cn": "抓住",
+        "eg": ""
+      },
+      {
+        "word": "father",
+        "phon": "/'fɑːðə/",
+        "pos": "n.",
+        "cn": "父亲",
+        "eg": ""
+      },
+      {
+        "word": "mother",
+        "phon": "/'mʌðə/",
+        "pos": "n.",
+        "cn": "母亲",
+        "eg": ""
+      },
+      {
+        "word": "blouse",
+        "phon": "/'blaʊz/",
+        "pos": "n.",
+        "cn": "女衬衫",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "How do you do?", "explain": "初次见面的正式问候，对方同样回答 How do you do?（并非真的在问“怎么做”）。", "examples": ["How do you do? — How do you do?"] },
-      { "point": "a + 形容词 + 名词", "explain": "冠词、形容词、名词的语序：a + 形容词 + 单数名词。", "examples": ["a hard-working employee", "a new manager"] }
+      {
+        "point": "How do you do?",
+        "explain": "初次见面的正式问候，对方同样回答 How do you do?（并非真的在问“怎么做”）。",
+        "examples": [
+          "How do you do? — How do you do?"
+        ]
+      },
+      {
+        "point": "a + 形容词 + 名词",
+        "explain": "冠词、形容词、名词的语序：a + 形容词 + 单数名词。",
+        "examples": [
+          "a hard-working employee",
+          "a new manager"
+        ]
+      }
     ],
     "tips": "① How do you do?（初次见面）≠ How are you?（问近况）。② 冠词位置：a/an 永远在最前面，即使中间加了形容词。③ 把公司职务词按层级记：manager > assistant > employee。"
   },
   {
-    "book": 1, "lesson": 19, "title": "Tired and thirsty", "titleCn": "又累又渴",
+    "book": 1,
+    "lesson": 19,
+    "title": "Tired and thirsty",
+    "titleCn": "又累又渴",
     "scene": "孩子们放学回家又累又渴又饿，妈妈准备食物。重点是 be 动词 + 感觉类形容词（I am tired/hungry/thirsty）。",
-    "grammarTags": ["be动词"],
+    "grammarTags": [
+      "be动词"
+    ],
     "words": [
-      { "word": "tired", "phon": "/ˈtaɪəd/", "pos": "adj.", "cn": "累的", "eg": "I am tired. 我累了。" },
-      { "word": "thirsty", "phon": "/ˈθɜːsti/", "pos": "adj.", "cn": "渴的", "eg": "The children are thirsty. 孩子们渴了。" },
-      { "word": "hungry", "phon": "/ˈhʌŋɡri/", "pos": "adj.", "cn": "饿的", "eg": "I'm very hungry. 我很饿。" },
-      { "word": "cup", "phon": "/kʌp/", "pos": "n.", "cn": "杯子", "eg": "a cup of tea 一杯茶" },
-      { "word": "biscuit", "phon": "/ˈbɪskɪt/", "pos": "n.", "cn": "饼干", "eg": "some biscuits 一些饼干" }
+      {
+        "word": "tired",
+        "phon": "/ˈtaɪəd/",
+        "pos": "adj.",
+        "cn": "累的",
+        "eg": "I am tired. 我累了。"
+      },
+      {
+        "word": "thirsty",
+        "phon": "/ˈθɜːsti/",
+        "pos": "adj.",
+        "cn": "渴的",
+        "eg": "The children are thirsty. 孩子们渴了。"
+      },
+      {
+        "word": "hungry",
+        "phon": "/ˈhʌŋɡri/",
+        "pos": "adj.",
+        "cn": "饿的",
+        "eg": "I'm very hungry. 我很饿。"
+      },
+      {
+        "word": "cup",
+        "phon": "/kʌp/",
+        "pos": "n.",
+        "cn": "杯子",
+        "eg": "a cup of tea 一杯茶"
+      },
+      {
+        "word": "biscuit",
+        "phon": "/ˈbɪskɪt/",
+        "pos": "n.",
+        "cn": "饼干",
+        "eg": "some biscuits 一些饼干"
+      },
+      {
+        "word": "sister",
+        "phon": "/'sɪstə/",
+        "pos": "n.",
+        "cn": "姐，妹",
+        "eg": ""
+      },
+      {
+        "word": "tie",
+        "phon": "/taɪ/",
+        "pos": "n.",
+        "cn": "领带",
+        "eg": ""
+      },
+      {
+        "word": "brother",
+        "phon": "/'brʌðə/",
+        "pos": "n.",
+        "cn": "兄，弟",
+        "eg": ""
+      },
+      {
+        "word": "his",
+        "phon": "/hɪz/",
+        "pos": "det.",
+        "cn": "他的",
+        "eg": ""
+      },
+      {
+        "word": "her",
+        "phon": "/hɜː/",
+        "pos": "det.",
+        "cn": "她的",
+        "eg": ""
+      },
+      {
+        "word": "colour",
+        "phon": "/'kʌlə/",
+        "pos": "n.",
+        "cn": "颜色",
+        "eg": ""
+      },
+      {
+        "word": "green",
+        "phon": "/griːn/",
+        "pos": "a.",
+        "cn": "绿色",
+        "eg": ""
+      },
+      {
+        "word": "come",
+        "phon": "/kʌm/",
+        "pos": "v.",
+        "cn": "来",
+        "eg": ""
+      },
+      {
+        "word": "upstairs",
+        "phon": "/ʌp'steəz/",
+        "pos": "adv.",
+        "cn": "楼上",
+        "eg": ""
+      },
+      {
+        "word": "smart",
+        "phon": "/smɑːt/",
+        "pos": "a.",
+        "cn": "时髦的，巧妙的，聪明的",
+        "eg": ""
+      },
+      {
+        "word": "hat",
+        "phon": "/hæt/",
+        "pos": "n.",
+        "cn": "帽子",
+        "eg": ""
+      },
+      {
+        "word": "same",
+        "phon": "/seɪm/",
+        "pos": "a.",
+        "cn": "相同的",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "be + 感觉形容词", "explain": "表达身体感受用 be + 形容词：I am tired/hungry/thirsty。注意中文说“我饿了”，英语必须有 be 动词。", "examples": ["I am hungry.（我饿了。）", "They are tired.（他们累了。）"] },
-      { "point": "and 连接并列成分", "explain": "and 连接两个对等的词或句子：tired and thirsty。", "examples": ["tired and hungry（又累又饿）", "You and I are friends.（你和我是朋友。）"] }
+      {
+        "point": "be + 感觉形容词",
+        "explain": "表达身体感受用 be + 形容词：I am tired/hungry/thirsty。注意中文说“我饿了”，英语必须有 be 动词。",
+        "examples": [
+          "I am hungry.（我饿了。）",
+          "They are tired.（他们累了。）"
+        ]
+      },
+      {
+        "point": "and 连接并列成分",
+        "explain": "and 连接两个对等的词或句子：tired and thirsty。",
+        "examples": [
+          "tired and hungry（又累又饿）",
+          "You and I are friends.（你和我是朋友。）"
+        ]
+      }
     ],
     "tips": "① 中文“我渴”没有动词，英语一定要 I am thirsty，牢记 be 动词不能丢。② 形容词押韵/成对记：hungry & thirsty、tired & sleepy。③ 顺带记 a cup of…、some… 为后面 some/any 课打基础。"
   },
   {
-    "book": 1, "lesson": 21, "title": "Which book?", "titleCn": "哪一本书？",
+    "book": 1,
+    "lesson": 21,
+    "title": "Which book?",
+    "titleCn": "哪一本书？",
     "scene": "在书架前指认要哪一本书，通过 this/that 区分远近。重点是指示代词与 which 提问、形容词辨物。",
-    "grammarTags": ["this/that/these/those", "疑问句"],
+    "grammarTags": [
+      "this/that/these/those",
+      "疑问句"
+    ],
     "words": [
-      { "word": "which", "phon": "/wɪtʃ/", "pos": "pron.", "cn": "哪一个", "eg": "Which book? 哪本书？" },
-      { "word": "give", "phon": "/ɡɪv/", "pos": "v.", "cn": "给", "eg": "Give me the book. 把书给我。" },
-      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "an empty box 一个空盒子" },
-      { "word": "full", "phon": "/fʊl/", "pos": "adj.", "cn": "满的", "eg": "a full cup 一满杯" },
-      { "word": "old", "phon": "/əʊld/", "pos": "adj.", "cn": "旧的；老的", "eg": "an old book 一本旧书" }
+      {
+        "word": "which",
+        "phon": "/wɪtʃ/",
+        "pos": "pron.",
+        "cn": "哪一个",
+        "eg": "Which book? 哪本书？"
+      },
+      {
+        "word": "give",
+        "phon": "/ɡɪv/",
+        "pos": "v.",
+        "cn": "给",
+        "eg": "Give me the book. 把书给我。"
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈempti/",
+        "pos": "adj.",
+        "cn": "空的",
+        "eg": "an empty box 一个空盒子"
+      },
+      {
+        "word": "full",
+        "phon": "/fʊl/",
+        "pos": "adj.",
+        "cn": "满的",
+        "eg": "a full cup 一满杯"
+      },
+      {
+        "word": "old",
+        "phon": "/əʊld/",
+        "pos": "adj.",
+        "cn": "旧的；老的",
+        "eg": "an old book 一本旧书"
+      },
+      {
+        "word": "lovely",
+        "phon": "/'lʌvlɪ/",
+        "pos": "a.",
+        "cn": "可爱的，秀丽的",
+        "eg": ""
+      },
+      {
+        "word": "case",
+        "phon": "/keɪs/",
+        "pos": "n.",
+        "cn": "箱子",
+        "eg": ""
+      },
+      {
+        "word": "carpet",
+        "phon": "/'kɑːpɪt/",
+        "pos": "n.",
+        "cn": "地毯",
+        "eg": ""
+      },
+      {
+        "word": "dog",
+        "phon": "/dɒg/",
+        "pos": "n.",
+        "cn": "狗",
+        "eg": ""
+      },
+      {
+        "word": "Customs",
+        "phon": "/'kʌstəmz/",
+        "pos": "n.",
+        "cn": "海关",
+        "eg": ""
+      },
+      {
+        "word": "officer",
+        "phon": "/'ɒfɪsə/",
+        "pos": "n.",
+        "cn": "官员",
+        "eg": ""
+      },
+      {
+        "word": "girl",
+        "phon": "/gɜːl/",
+        "pos": "n.",
+        "cn": "女孩，姑娘",
+        "eg": ""
+      },
+      {
+        "word": "Danish",
+        "phon": "/'deɪnɪʃ/",
+        "pos": "a.",
+        "cn": "& n. 丹麦人",
+        "eg": ""
+      },
+      {
+        "word": "friend",
+        "phon": "/frend/",
+        "pos": "n.",
+        "cn": "朋友",
+        "eg": ""
+      },
+      {
+        "word": "Norwegian",
+        "phon": "/nɔ:'wi:dʒən/",
+        "pos": "a.",
+        "cn": "& n. 挪威人",
+        "eg": ""
+      },
+      {
+        "word": "passport",
+        "phon": "/'pɑːspɔːt/",
+        "pos": "n.",
+        "cn": "护照",
+        "eg": ""
+      },
+      {
+        "word": "brown",
+        "phon": "/braʊn/",
+        "pos": "a.",
+        "cn": "棕色的",
+        "eg": ""
+      },
+      {
+        "word": "tourist",
+        "phon": "/'tʊərɪst/",
+        "pos": "n.",
+        "cn": "旅游者",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "which 二选一/多选一", "explain": "which 用于在一定范围内选择“哪一个”，可单独用或后接名词：Which one? / Which book?", "examples": ["Which is your bag? — This one.", "Which book do you want?"] },
-      { "point": "this（近）/ that（远）", "explain": "this 指近处的“这个”，that 指远处的“那个”，均为单数。", "examples": ["This book is new.（这本书是新的。）", "That book is old.（那本书是旧的。）"] }
+      {
+        "point": "which 二选一/多选一",
+        "explain": "which 用于在一定范围内选择“哪一个”，可单独用或后接名词：Which one? / Which book?",
+        "examples": [
+          "Which is your bag? — This one.",
+          "Which book do you want?"
+        ]
+      },
+      {
+        "point": "this（近）/ that（远）",
+        "explain": "this 指近处的“这个”，that 指远处的“那个”，均为单数。",
+        "examples": [
+          "This book is new.（这本书是新的。）",
+          "That book is old.（那本书是旧的。）"
+        ]
+      }
     ],
     "tips": "① 反义形容词成对记：empty↔full, old↔new, big↔small。② which 强调“在选项中挑”，what 是开放式提问。③ 用手指近处/远处物体练 this/that，形成空间语感。"
   },
   {
-    "book": 1, "lesson": 23, "title": "Which glasses?", "titleCn": "哪几副眼镜？",
+    "book": 1,
+    "lesson": 23,
+    "title": "Which glasses?",
+    "titleCn": "哪几副眼镜？",
     "scene": "在一堆眼镜中指认要哪几副，进入复数世界。重点是 these/those 与名词复数、复数的指代。",
-    "grammarTags": ["this/that/these/those", "名词单复数"],
+    "grammarTags": [
+      "this/that/these/those",
+      "名词单复数"
+    ],
     "words": [
-      { "word": "glasses", "phon": "/ˈɡlɑːsɪz/", "pos": "n.", "cn": "眼镜（恒复数）", "eg": "my glasses 我的眼镜" },
-      { "word": "knife", "phon": "/naɪf/", "pos": "n.", "cn": "刀（复数 knives）", "eg": "two knives 两把刀" },
-      { "word": "box", "phon": "/bɒks/", "pos": "n.", "cn": "盒子（复数 boxes）", "eg": "three boxes 三个盒子" },
-      { "word": "these", "phon": "/ðiːz/", "pos": "pron.", "cn": "这些", "eg": "These are books. 这些是书。" },
-      { "word": "those", "phon": "/ðəʊz/", "pos": "pron.", "cn": "那些", "eg": "Those are pens. 那些是钢笔。" }
+      {
+        "word": "glasses",
+        "phon": "/ˈɡlɑːsɪz/",
+        "pos": "n.",
+        "cn": "眼镜（恒复数）",
+        "eg": "my glasses 我的眼镜"
+      },
+      {
+        "word": "knife",
+        "phon": "/naɪf/",
+        "pos": "n.",
+        "cn": "刀（复数 knives）",
+        "eg": "two knives 两把刀"
+      },
+      {
+        "word": "box",
+        "phon": "/bɒks/",
+        "pos": "n.",
+        "cn": "盒子（复数 boxes）",
+        "eg": "three boxes 三个盒子"
+      },
+      {
+        "word": "these",
+        "phon": "/ðiːz/",
+        "pos": "pron.",
+        "cn": "这些",
+        "eg": "These are books. 这些是书。"
+      },
+      {
+        "word": "those",
+        "phon": "/ðəʊz/",
+        "pos": "pron.",
+        "cn": "那些",
+        "eg": "Those are pens. 那些是钢笔。"
+      },
+      {
+        "word": "Russian",
+        "phon": "/'rʌʃ(ə)n/",
+        "pos": "a.",
+        "cn": "& n. 俄罗斯人",
+        "eg": ""
+      },
+      {
+        "word": "Dutch",
+        "phon": "/dʌtʃ/",
+        "pos": "a.",
+        "cn": "& n. 荷兰人",
+        "eg": ""
+      },
+      {
+        "word": "red",
+        "phon": "/red/",
+        "pos": "a.",
+        "cn": "红色的",
+        "eg": ""
+      },
+      {
+        "word": "grey",
+        "phon": "/greɪ/",
+        "pos": "a.",
+        "cn": "灰色的",
+        "eg": ""
+      },
+      {
+        "word": "yellow",
+        "phon": "/'jeləʊ/",
+        "pos": "a.",
+        "cn": "黄色的",
+        "eg": ""
+      },
+      {
+        "word": "black",
+        "phon": "/blæk/",
+        "pos": "a.",
+        "cn": "黑色的",
+        "eg": ""
+      },
+      {
+        "word": "orange",
+        "phon": "/'ɒrɪn(d)ʒ/",
+        "pos": "a.",
+        "cn": "橘黄色的",
+        "eg": ""
+      },
+      {
+        "word": "employee",
+        "phon": "/emplɒɪ'iː; em'plɒɪiː; ɪm-/",
+        "pos": "n.",
+        "cn": "雇员",
+        "eg": ""
+      },
+      {
+        "word": "hard-working",
+        "phon": "/'hɑ:dwə:kiŋ/",
+        "pos": "a.",
+        "cn": "勤奋的",
+        "eg": ""
+      },
+      {
+        "word": "sales reps",
+        "phon": "",
+        "pos": "phr.",
+        "cn": "推销员",
+        "eg": ""
+      },
+      {
+        "word": "man",
+        "phon": "/mæn/",
+        "pos": "n.",
+        "cn": "男人",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "these（近）/ those（远）复数", "explain": "these 是 this 的复数，those 是 that 的复数，后接复数名词，谓语用 are。", "examples": ["These glasses are mine.", "Those boxes are heavy."] },
-      { "point": "名词复数特殊变化", "explain": "以 s/x/ch/sh 结尾加 -es（box→boxes）；以 f/fe 结尾变 ves（knife→knives）。", "examples": ["box → boxes", "knife → knives", "glass → glasses"] }
+      {
+        "point": "these（近）/ those（远）复数",
+        "explain": "these 是 this 的复数，those 是 that 的复数，后接复数名词，谓语用 are。",
+        "examples": [
+          "These glasses are mine.",
+          "Those boxes are heavy."
+        ]
+      },
+      {
+        "point": "名词复数特殊变化",
+        "explain": "以 s/x/ch/sh 结尾加 -es（box→boxes）；以 f/fe 结尾变 ves（knife→knives）。",
+        "examples": [
+          "box → boxes",
+          "knife → knives",
+          "glass → glasses"
+        ]
+      }
     ],
     "tips": "① glasses（眼镜）、trousers（裤子）永远是复数。② 复数配套变：this→these, that→those, is→are。③ 把单复数对照成表记：knife/knives、box/boxes、child/children。"
   },
   {
-    "book": 1, "lesson": 25, "title": "Mrs Smith's kitchen", "titleCn": "史密斯太太的厨房",
+    "book": 1,
+    "lesson": 25,
+    "title": "Mrs Smith's kitchen",
+    "titleCn": "史密斯太太的厨房",
     "scene": "描述厨房里各种物品的位置。重点是 There is 句型与方位介词，学会“描述一个空间里有什么、在哪里”。",
-    "grammarTags": ["there be句型", "介词"],
+    "grammarTags": [
+      "there be句型",
+      "介词"
+    ],
     "words": [
-      { "word": "kitchen", "phon": "/ˈkɪtʃɪn/", "pos": "n.", "cn": "厨房", "eg": "in the kitchen 在厨房里" },
-      { "word": "refrigerator", "phon": "/rɪˈfrɪdʒəreɪtə/", "pos": "n.", "cn": "冰箱", "eg": "The milk is in the refrigerator. 牛奶在冰箱里。" },
-      { "word": "bottle", "phon": "/ˈbɒtl/", "pos": "n.", "cn": "瓶子", "eg": "a bottle of milk 一瓶牛奶" },
-      { "word": "on", "phon": "/ɒn/", "pos": "prep.", "cn": "在……上面", "eg": "on the table 在桌子上" },
-      { "word": "in", "phon": "/ɪn/", "pos": "prep.", "cn": "在……里面", "eg": "in the box 在盒子里" }
+      {
+        "word": "kitchen",
+        "phon": "/ˈkɪtʃɪn/",
+        "pos": "n.",
+        "cn": "厨房",
+        "eg": "in the kitchen 在厨房里"
+      },
+      {
+        "word": "refrigerator",
+        "phon": "/rɪˈfrɪdʒəreɪtə/",
+        "pos": "n.",
+        "cn": "冰箱",
+        "eg": "The milk is in the refrigerator. 牛奶在冰箱里。"
+      },
+      {
+        "word": "bottle",
+        "phon": "/ˈbɒtl/",
+        "pos": "n.",
+        "cn": "瓶子",
+        "eg": "a bottle of milk 一瓶牛奶"
+      },
+      {
+        "word": "on",
+        "phon": "/ɒn/",
+        "pos": "prep.",
+        "cn": "在……上面",
+        "eg": "on the table 在桌子上"
+      },
+      {
+        "word": "in",
+        "phon": "/ɪn/",
+        "pos": "prep.",
+        "cn": "在……里面",
+        "eg": "in the box 在盒子里"
+      },
+      {
+        "word": "office",
+        "phon": "/'ɒfɪs/",
+        "pos": "n.",
+        "cn": "办公室",
+        "eg": ""
+      },
+      {
+        "word": "assistant",
+        "phon": "/ə'sɪstənt/",
+        "pos": "n.",
+        "cn": "助手",
+        "eg": ""
+      },
+      {
+        "word": "matter",
+        "phon": "/'mætə/",
+        "pos": "n.",
+        "cn": "事情",
+        "eg": ""
+      },
+      {
+        "word": "children",
+        "phon": "/'tʃɪldrən/",
+        "pos": "n.",
+        "cn": "孩子们(child 的复数)",
+        "eg": ""
+      },
+      {
+        "word": "tired",
+        "phon": "/taɪəd/",
+        "pos": "a.",
+        "cn": "累，疲乏",
+        "eg": ""
+      },
+      {
+        "word": "boy",
+        "phon": "/bɒɪ/",
+        "pos": "n.",
+        "cn": "男孩",
+        "eg": ""
+      },
+      {
+        "word": "thirsty",
+        "phon": "/'θɜːstɪ/",
+        "pos": "a.",
+        "cn": "渴",
+        "eg": ""
+      },
+      {
+        "word": "mum",
+        "phon": "/mʌm/",
+        "pos": "n.",
+        "cn": "妈妈(儿语)",
+        "eg": ""
+      },
+      {
+        "word": "sit down",
+        "phon": "/ˌsit'daun/",
+        "pos": "",
+        "cn": "坐下",
+        "eg": ""
+      },
+      {
+        "word": "right",
+        "phon": "/raɪt/",
+        "pos": "a.",
+        "cn": "好，可以",
+        "eg": "It is on the right."
+      },
+      {
+        "word": "ice cream",
+        "phon": "/aɪs kri:m/",
+        "pos": "",
+        "cn": "冰淇淋",
+        "eg": ""
+      },
+      {
+        "word": "big",
+        "phon": "/bɪg/",
+        "pos": "a.",
+        "cn": "大的",
+        "eg": ""
+      },
+      {
+        "word": "small",
+        "phon": "/smɔːl/",
+        "pos": "a.",
+        "cn": "小的",
+        "eg": "Mrs. Smith's kitchen is small."
+      }
     ],
     "grammar": [
-      { "point": "There is / There are", "explain": "表示“某处有某物”。单数用 There is，复数用 There are，遵循就近原则。", "examples": ["There is a cup on the table.", "There are some bottles in the fridge."] },
-      { "point": "方位介词 in / on / under", "explain": "in 在里面，on 在表面上，under 在下面，构成介词短语作地点状语。", "examples": ["in the kitchen（在厨房里）", "on the shelf（在架子上）", "under the table（在桌子下）"] }
+      {
+        "point": "There is / There are",
+        "explain": "表示“某处有某物”。单数用 There is，复数用 There are，遵循就近原则。",
+        "examples": [
+          "There is a cup on the table.",
+          "There are some bottles in the fridge."
+        ]
+      },
+      {
+        "point": "方位介词 in / on / under",
+        "explain": "in 在里面，on 在表面上，under 在下面，构成介词短语作地点状语。",
+        "examples": [
+          "in the kitchen（在厨房里）",
+          "on the shelf（在架子上）",
+          "under the table（在桌子下）"
+        ]
+      }
     ],
     "tips": "① There is 句型的主语是 be 后面的名词，不是 there，判断单复数看它。② 区分 There is a cup（客观存在“有”）与 The cup is…（特指某物“在哪”）。③ 画一张厨房简图，用介词短语标注每样东西的位置来记忆。"
   },
   {
-    "book": 1, "lesson": 27, "title": "Mrs Smith's living room", "titleCn": "史密斯太太的客厅",
+    "book": 1,
+    "lesson": 27,
+    "title": "Mrs Smith's living room",
+    "titleCn": "史密斯太太的客厅",
     "scene": "继续描述房间陈设，说明客厅里各件家具的相对位置。重点巩固 There is/There are 与更多方位介词（near/behind/between）。",
-    "grammarTags": ["there be句型", "介词"],
+    "grammarTags": [
+      "there be句型",
+      "介词"
+    ],
     "words": [
-      { "word": "living room", "phon": "/ˈlɪvɪŋ ruːm/", "pos": "n.", "cn": "起居室；客厅", "eg": "We watch TV in the living room. 我们在客厅看电视。" },
-      { "word": "armchair", "phon": "/ˈɑːmtʃeə/", "pos": "n.", "cn": "扶手椅", "eg": "Grandpa sits in the armchair. 爷爷坐在扶手椅上。" },
-      { "word": "picture", "phon": "/ˈpɪktʃə/", "pos": "n.", "cn": "图画；照片", "eg": "There is a picture on the wall. 墙上有一幅画。" },
-      { "word": "near", "phon": "/nɪə/", "pos": "prep.", "cn": "在……附近", "eg": "The lamp is near the sofa. 台灯在沙发附近。" },
-      { "word": "behind", "phon": "/bɪˈhaɪnd/", "pos": "prep.", "cn": "在……后面", "eg": "The ball is behind the door. 球在门后面。" },
-      { "word": "radio", "phon": "/ˈreɪdiəʊ/", "pos": "n.", "cn": "收音机", "eg": "She listens to the radio. 她在听收音机。" },
-      { "word": "television", "phon": "/ˈtelɪvɪʒn/", "pos": "n.", "cn": "电视机", "eg": "Turn off the television. 把电视关掉。" }
+      {
+        "word": "living room",
+        "phon": "/ˈlɪvɪŋ ruːm/",
+        "pos": "n.",
+        "cn": "起居室；客厅",
+        "eg": "We watch TV in the living room. 我们在客厅看电视。"
+      },
+      {
+        "word": "armchair",
+        "phon": "/ˈɑːmtʃeə/",
+        "pos": "n.",
+        "cn": "扶手椅",
+        "eg": "Grandpa sits in the armchair. 爷爷坐在扶手椅上。"
+      },
+      {
+        "word": "picture",
+        "phon": "/ˈpɪktʃə/",
+        "pos": "n.",
+        "cn": "图画；照片",
+        "eg": "There is a picture on the wall. 墙上有一幅画。"
+      },
+      {
+        "word": "near",
+        "phon": "/nɪə/",
+        "pos": "prep.",
+        "cn": "在……附近",
+        "eg": "The lamp is near the sofa. 台灯在沙发附近。"
+      },
+      {
+        "word": "behind",
+        "phon": "/bɪˈhaɪnd/",
+        "pos": "prep.",
+        "cn": "在……后面",
+        "eg": "The ball is behind the door. 球在门后面。"
+      },
+      {
+        "word": "radio",
+        "phon": "/ˈreɪdiəʊ/",
+        "pos": "n.",
+        "cn": "收音机",
+        "eg": "She listens to the radio. 她在听收音机。"
+      },
+      {
+        "word": "television",
+        "phon": "/ˈtelɪvɪʒn/",
+        "pos": "n.",
+        "cn": "电视机",
+        "eg": "Turn off the television. 把电视关掉。"
+      },
+      {
+        "word": "open",
+        "phon": "/'əʊp(ə)n/",
+        "pos": "a.",
+        "cn": "开着的",
+        "eg": ""
+      },
+      {
+        "word": "shut",
+        "phon": "/ʃʌt/",
+        "pos": "a.",
+        "cn": "关着的",
+        "eg": ""
+      },
+      {
+        "word": "light",
+        "phon": "/laɪt/",
+        "pos": "a.",
+        "cn": "轻的",
+        "eg": ""
+      },
+      {
+        "word": "heavy",
+        "phon": "/'hevɪ/",
+        "pos": "a.",
+        "cn": "重的",
+        "eg": ""
+      },
+      {
+        "word": "long",
+        "phon": "/lɒŋ/",
+        "pos": "a.",
+        "cn": "长的",
+        "eg": ""
+      },
+      {
+        "word": "shoe",
+        "phon": "/ʃuː/",
+        "pos": "n.",
+        "cn": "鞋子",
+        "eg": ""
+      },
+      {
+        "word": "grandfather",
+        "phon": "/'græn(d)fɑːðə/",
+        "pos": "n.",
+        "cn": "祖父，外祖父",
+        "eg": ""
+      },
+      {
+        "word": "grandmother",
+        "phon": "/'græn(d)mʌðə/",
+        "pos": "n.",
+        "cn": "祖母，外祖母",
+        "eg": ""
+      },
+      {
+        "word": "give",
+        "phon": "/gɪv/",
+        "pos": "v.",
+        "cn": "给",
+        "eg": ""
+      },
+      {
+        "word": "one",
+        "phon": "/wʌn/",
+        "pos": "pron.",
+        "cn": "一个",
+        "eg": ""
+      },
+      {
+        "word": "which",
+        "phon": "/wɪtʃ/",
+        "pos": "pron.",
+        "cn": "哪一个",
+        "eg": ""
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈemptɪ/",
+        "pos": "a.",
+        "cn": "空的",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "There is / There are 描述陈设", "explain": "描述某处“有什么”仍用 There is + 单数 / There are + 复数，主语是 be 后面的名词。", "examples": ["There is an armchair near the window.（窗户附近有一把扶手椅。）", "There are two pictures on the wall.（墙上有两幅画。）"] },
-      { "point": "方位介词 near / behind / between", "explain": "near 在……附近，behind 在……后面，between A and B 在两者之间，均构成介词短语作地点状语。", "examples": ["The cat is behind the sofa.（猫在沙发后面。）", "The table is between the two chairs.（桌子在两把椅子之间。）"] }
+      {
+        "point": "There is / There are 描述陈设",
+        "explain": "描述某处“有什么”仍用 There is + 单数 / There are + 复数，主语是 be 后面的名词。",
+        "examples": [
+          "There is an armchair near the window.（窗户附近有一把扶手椅。）",
+          "There are two pictures on the wall.（墙上有两幅画。）"
+        ]
+      },
+      {
+        "point": "方位介词 near / behind / between",
+        "explain": "near 在……附近，behind 在……后面，between A and B 在两者之间，均构成介词短语作地点状语。",
+        "examples": [
+          "The cat is behind the sofa.（猫在沙发后面。）",
+          "The table is between the two chairs.（桌子在两把椅子之间。）"
+        ]
+      }
     ],
     "tips": "① 记方位介词的“空间画面”：near（旁边）、behind（背后）、between（夹在中间）。② There are 后接复数名词，别忘了名词加 -s。③ between 常与 and 搭配：between A and B。"
   },
   {
-    "book": 1, "lesson": 29, "title": "Come in, Amy.", "titleCn": "进来，艾米。",
+    "book": 1,
+    "lesson": 29,
+    "title": "Come in, Amy.",
+    "titleCn": "进来，艾米。",
     "scene": "大人吩咐孩子进屋、擦鞋、洗手等一连串动作，语气是命令或叮嘱。重点是祈使句与情态动词 must。",
-    "grammarTags": ["祈使句", "情态动词must"],
+    "grammarTags": [
+      "祈使句",
+      "情态动词must"
+    ],
     "words": [
-      { "word": "come in", "phon": "/kʌm ɪn/", "pos": "phr.", "cn": "进来", "eg": "Come in and sit down. 进来坐下。" },
-      { "word": "shut", "phon": "/ʃʌt/", "pos": "v.", "cn": "关上", "eg": "Shut the door, please. 请把门关上。" },
-      { "word": "clean", "phon": "/kliːn/", "pos": "v./adj.", "cn": "打扫；干净的", "eg": "Clean your shoes. 把你的鞋擦干净。" },
-      { "word": "wash", "phon": "/wɒʃ/", "pos": "v.", "cn": "洗", "eg": "Wash your hands first. 先洗手。" },
-      { "word": "must", "phon": "/mʌst/", "pos": "modal", "cn": "必须", "eg": "You must be quiet. 你必须安静。" },
-      { "word": "dirty", "phon": "/ˈdɜːti/", "pos": "adj.", "cn": "脏的", "eg": "Your hands are dirty. 你的手很脏。" },
-      { "word": "quiet", "phon": "/ˈkwaɪət/", "pos": "adj.", "cn": "安静的", "eg": "Please be quiet. 请安静。" }
+      {
+        "word": "come in",
+        "phon": "/kʌm ɪn/",
+        "pos": "phr.",
+        "cn": "进来",
+        "eg": "Come in and sit down. 进来坐下。"
+      },
+      {
+        "word": "shut",
+        "phon": "/ʃʌt/",
+        "pos": "v.",
+        "cn": "关上",
+        "eg": "Shut the door, please. 请把门关上。"
+      },
+      {
+        "word": "clean",
+        "phon": "/kliːn/",
+        "pos": "v./adj.",
+        "cn": "打扫；干净的",
+        "eg": "Clean your shoes. 把你的鞋擦干净。"
+      },
+      {
+        "word": "wash",
+        "phon": "/wɒʃ/",
+        "pos": "v.",
+        "cn": "洗",
+        "eg": "Wash your hands first. 先洗手。"
+      },
+      {
+        "word": "must",
+        "phon": "/mʌst/",
+        "pos": "modal",
+        "cn": "必须",
+        "eg": "You must be quiet. 你必须安静。"
+      },
+      {
+        "word": "dirty",
+        "phon": "/ˈdɜːti/",
+        "pos": "adj.",
+        "cn": "脏的",
+        "eg": "Your hands are dirty. 你的手很脏。"
+      },
+      {
+        "word": "quiet",
+        "phon": "/ˈkwaɪət/",
+        "pos": "adj.",
+        "cn": "安静的",
+        "eg": "Please be quiet. 请安静。"
+      },
+      {
+        "word": "full",
+        "phon": "/fʊl/",
+        "pos": "a.",
+        "cn": "满的",
+        "eg": ""
+      },
+      {
+        "word": "large",
+        "phon": "/lɑːdʒ/",
+        "pos": "a.",
+        "cn": "大的",
+        "eg": ""
+      },
+      {
+        "word": "little",
+        "phon": "/'lɪt(ə)l/",
+        "pos": "a.",
+        "cn": "小的",
+        "eg": ""
+      },
+      {
+        "word": "sharp",
+        "phon": "/ʃɑːp/",
+        "pos": "a.",
+        "cn": "尖的，锋利的",
+        "eg": ""
+      },
+      {
+        "word": "small",
+        "phon": "/smɔːl/",
+        "pos": "a.",
+        "cn": "小的",
+        "eg": ""
+      },
+      {
+        "word": "big",
+        "phon": "/bɪg/",
+        "pos": "a.",
+        "cn": "大的",
+        "eg": ""
+      },
+      {
+        "word": "blunt",
+        "phon": "/blʌnt/",
+        "pos": "a.",
+        "cn": "钝的",
+        "eg": ""
+      },
+      {
+        "word": "box",
+        "phon": "/bɒks/",
+        "pos": "n.",
+        "cn": "盒子，箱子",
+        "eg": ""
+      },
+      {
+        "word": "glass",
+        "phon": "/glɑːs/",
+        "pos": "n.",
+        "cn": "杯子",
+        "eg": ""
+      },
+      {
+        "word": "cup",
+        "phon": "/kʌp/",
+        "pos": "n.",
+        "cn": "茶杯",
+        "eg": ""
+      },
+      {
+        "word": "bottle",
+        "phon": "/'bɒt(ə)l/",
+        "pos": "n.",
+        "cn": "瓶子",
+        "eg": ""
+      },
+      {
+        "word": "tin",
+        "phon": "/tɪn/",
+        "pos": "n.",
+        "cn": "罐头",
+        "eg": ""
+      },
+      {
+        "word": "knife",
+        "phon": "/naɪf/",
+        "pos": "n.",
+        "cn": "刀子",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "祈使句（肯定）", "explain": "祈使句以动词原形开头，省略主语 you，表示请求、命令或叮嘱，句末加 please 更礼貌。", "examples": ["Sit down, please.（请坐。）", "Shut the window.（把窗户关上。）"] },
-      { "point": "情态动词 must", "explain": "must 表示“必须、应该”，没有人称变化，后面直接接动词原形。", "examples": ["You must wash your hands.（你必须洗手。）", "We must be quiet here.（我们在这里必须安静。）"] }
+      {
+        "point": "祈使句（肯定）",
+        "explain": "祈使句以动词原形开头，省略主语 you，表示请求、命令或叮嘱，句末加 please 更礼貌。",
+        "examples": [
+          "Sit down, please.（请坐。）",
+          "Shut the window.（把窗户关上。）"
+        ]
+      },
+      {
+        "point": "情态动词 must",
+        "explain": "must 表示“必须、应该”，没有人称变化，后面直接接动词原形。",
+        "examples": [
+          "You must wash your hands.（你必须洗手。）",
+          "We must be quiet here.（我们在这里必须安静。）"
+        ]
+      }
     ],
     "tips": "① 祈使句永远用动词原形开头，不加 to、不加 -s。② must 后接动词原形：must go 而非 must goes/must to go。③ 加 please 或称呼语（Amy）能软化命令语气。"
   },
   {
-    "book": 1, "lesson": 31, "title": "Where's Sally?", "titleCn": "萨莉在哪里？",
+    "book": 1,
+    "lesson": 31,
+    "title": "Where's Sally?",
+    "titleCn": "萨莉在哪里？",
     "scene": "家人四处寻找一个孩子，最后发现她正在户外玩耍。重点是现在进行时，描述“此刻正在做的事”。",
-    "grammarTags": ["现在进行时", "疑问句"],
+    "grammarTags": [
+      "现在进行时",
+      "疑问句"
+    ],
     "words": [
-      { "word": "garden", "phon": "/ˈɡɑːdn/", "pos": "n.", "cn": "花园", "eg": "The kids are in the garden. 孩子们在花园里。" },
-      { "word": "climb", "phon": "/klaɪm/", "pos": "v.", "cn": "爬；攀登", "eg": "The boy is climbing a tree. 男孩正在爬树。" },
-      { "word": "tree", "phon": "/triː/", "pos": "n.", "cn": "树", "eg": "There is a bird in the tree. 树上有一只鸟。" },
-      { "word": "run after", "phon": "/rʌn ˈɑːftə/", "pos": "phr.", "cn": "追赶", "eg": "The dog is running after the cat. 狗正在追猫。" },
-      { "word": "cat", "phon": "/kæt/", "pos": "n.", "cn": "猫", "eg": "The cat is sleeping. 猫正在睡觉。" },
-      { "word": "into", "phon": "/ˈɪntə/", "pos": "prep.", "cn": "到……里面", "eg": "She is going into the house. 她正走进屋里。" }
+      {
+        "word": "garden",
+        "phon": "/ˈɡɑːdn/",
+        "pos": "n.",
+        "cn": "花园",
+        "eg": "The kids are in the garden. 孩子们在花园里。"
+      },
+      {
+        "word": "climb",
+        "phon": "/klaɪm/",
+        "pos": "v.",
+        "cn": "爬；攀登",
+        "eg": "The boy is climbing a tree. 男孩正在爬树。"
+      },
+      {
+        "word": "tree",
+        "phon": "/triː/",
+        "pos": "n.",
+        "cn": "树",
+        "eg": "There is a bird in the tree. 树上有一只鸟。"
+      },
+      {
+        "word": "run after",
+        "phon": "/rʌn ˈɑːftə/",
+        "pos": "phr.",
+        "cn": "追赶",
+        "eg": "The dog is running after the cat. 狗正在追猫。"
+      },
+      {
+        "word": "cat",
+        "phon": "/kæt/",
+        "pos": "n.",
+        "cn": "猫",
+        "eg": "The cat is sleeping. 猫正在睡觉。"
+      },
+      {
+        "word": "into",
+        "phon": "/ˈɪntə/",
+        "pos": "prep.",
+        "cn": "到……里面",
+        "eg": "She is going into the house. 她正走进屋里。"
+      },
+      {
+        "word": "fork",
+        "phon": "/fɔːk/",
+        "pos": "n.",
+        "cn": "叉子",
+        "eg": ""
+      },
+      {
+        "word": "on",
+        "phon": "/ɒn/",
+        "pos": "prep.",
+        "cn": "在…之上",
+        "eg": ""
+      },
+      {
+        "word": "shelf",
+        "phon": "/ʃelf/",
+        "pos": "n.",
+        "cn": "架子，搁板",
+        "eg": ""
+      },
+      {
+        "word": "desk",
+        "phon": "/desk/",
+        "pos": "n.",
+        "cn": "课桌",
+        "eg": ""
+      },
+      {
+        "word": "table",
+        "phon": "/'teɪb(ə)l/",
+        "pos": "n.",
+        "cn": "桌子",
+        "eg": ""
+      },
+      {
+        "word": "plate",
+        "phon": "/pleɪt/",
+        "pos": "n.",
+        "cn": "盘子",
+        "eg": ""
+      },
+      {
+        "word": "cupboard",
+        "phon": "/'kʌbəd/",
+        "pos": "n.",
+        "cn": "食橱",
+        "eg": ""
+      },
+      {
+        "word": "cigarette",
+        "phon": "/sɪgə'ret/",
+        "pos": "n.",
+        "cn": "香烟",
+        "eg": ""
+      },
+      {
+        "word": "television",
+        "phon": "/'telɪvɪʒ(ə)n; telɪ'vɪʒ(ə)n/",
+        "pos": "n.",
+        "cn": "电视机",
+        "eg": ""
+      },
+      {
+        "word": "floor",
+        "phon": "/flɔː/",
+        "pos": "n.",
+        "cn": "地板",
+        "eg": ""
+      },
+      {
+        "word": "dressing table",
+        "phon": "",
+        "pos": "",
+        "cn": "梳妆台",
+        "eg": ""
+      },
+      {
+        "word": "magazine",
+        "phon": "/mægə'ziːn/",
+        "pos": "n.",
+        "cn": "杂志",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "现在进行时 be + doing", "explain": "表示“此刻正在进行”的动作，结构为 am/is/are + 动词-ing；主语单数用 is，复数用 are，第一人称单数用 am。", "examples": ["He is climbing the tree.（他正在爬树。）", "The children are running in the garden.（孩子们正在花园里奔跑。）"] },
-      { "point": "Where is + 主语 + 进行时", "explain": "用 Where is/are 提问某人在哪里，答句常用现在进行时说明对方正在做什么。", "examples": ["Where is Sally? — She is playing in the garden.（她正在花园里玩。）", "Where are the boys? — They are climbing the tree.（他们正在爬树。）"] }
+      {
+        "point": "现在进行时 be + doing",
+        "explain": "表示“此刻正在进行”的动作，结构为 am/is/are + 动词-ing；主语单数用 is，复数用 are，第一人称单数用 am。",
+        "examples": [
+          "He is climbing the tree.（他正在爬树。）",
+          "The children are running in the garden.（孩子们正在花园里奔跑。）"
+        ]
+      },
+      {
+        "point": "Where is + 主语 + 进行时",
+        "explain": "用 Where is/are 提问某人在哪里，答句常用现在进行时说明对方正在做什么。",
+        "examples": [
+          "Where is Sally? — She is playing in the garden.（她正在花园里玩。）",
+          "Where are the boys? — They are climbing the tree.（他们正在爬树。）"
+        ]
+      }
     ],
     "tips": "① 现在进行时三步：找准 be 动词（am/is/are）+ 动词加 -ing。② 动词加 -ing 的拼写：run→running（双写）、climb→climbing、come→coming（去 e）。③ 看到 Look!/Listen! 或“此刻”多半用进行时。"
   },
   {
-    "book": 1, "lesson": 33, "title": "A fine day", "titleCn": "晴朗的一天",
+    "book": 1,
+    "lesson": 33,
+    "title": "A fine day",
+    "titleCn": "晴朗的一天",
     "scene": "描述一个晴天里人们在户外的各种活动。重点是现在进行时的连续运用，并配合地点介词短语。",
-    "grammarTags": ["现在进行时", "介词"],
+    "grammarTags": [
+      "现在进行时",
+      "介词"
+    ],
     "words": [
-      { "word": "fine", "phon": "/faɪn/", "pos": "adj.", "cn": "晴朗的；美好的", "eg": "It is a fine day today. 今天是晴天。" },
-      { "word": "cloud", "phon": "/klaʊd/", "pos": "n.", "cn": "云", "eg": "There are no clouds in the sky. 天上没有云。" },
-      { "word": "sky", "phon": "/skaɪ/", "pos": "n.", "cn": "天空", "eg": "The birds fly in the sky. 鸟儿在天空飞。" },
-      { "word": "sun", "phon": "/sʌn/", "pos": "n.", "cn": "太阳", "eg": "The sun is shining. 太阳正照耀着。" },
-      { "word": "shine", "phon": "/ʃaɪn/", "pos": "v.", "cn": "照耀；发光", "eg": "The sun is shining brightly. 阳光灿烂。" },
-      { "word": "grass", "phon": "/ɡrɑːs/", "pos": "n.", "cn": "草；草地", "eg": "They are sitting on the grass. 他们正坐在草地上。" },
-      { "word": "kite", "phon": "/kaɪt/", "pos": "n.", "cn": "风筝", "eg": "A boy is flying a kite. 一个男孩正在放风筝。" }
+      {
+        "word": "fine",
+        "phon": "/faɪn/",
+        "pos": "adj.",
+        "cn": "晴朗的；美好的",
+        "eg": "It is a fine day today. 今天是晴天。"
+      },
+      {
+        "word": "cloud",
+        "phon": "/klaʊd/",
+        "pos": "n.",
+        "cn": "云",
+        "eg": "There are no clouds in the sky. 天上没有云。"
+      },
+      {
+        "word": "sky",
+        "phon": "/skaɪ/",
+        "pos": "n.",
+        "cn": "天空",
+        "eg": "The birds fly in the sky. 鸟儿在天空飞。"
+      },
+      {
+        "word": "sun",
+        "phon": "/sʌn/",
+        "pos": "n.",
+        "cn": "太阳",
+        "eg": "The sun is shining. 太阳正照耀着。"
+      },
+      {
+        "word": "shine",
+        "phon": "/ʃaɪn/",
+        "pos": "v.",
+        "cn": "照耀；发光",
+        "eg": "The sun is shining brightly. 阳光灿烂。"
+      },
+      {
+        "word": "grass",
+        "phon": "/ɡrɑːs/",
+        "pos": "n.",
+        "cn": "草；草地",
+        "eg": "They are sitting on the grass. 他们正坐在草地上。"
+      },
+      {
+        "word": "kite",
+        "phon": "/kaɪt/",
+        "pos": "n.",
+        "cn": "风筝",
+        "eg": "A boy is flying a kite. 一个男孩正在放风筝。"
+      },
+      {
+        "word": "bed",
+        "phon": "/bed/",
+        "pos": "n.",
+        "cn": "床",
+        "eg": ""
+      },
+      {
+        "word": "newspaper",
+        "phon": "/'njuːzpeɪpə; 'njuːs-/",
+        "pos": "n.",
+        "cn": "报纸",
+        "eg": ""
+      },
+      {
+        "word": "stereo",
+        "phon": "/'steriou/",
+        "pos": "n.",
+        "cn": "立体声音响",
+        "eg": ""
+      },
+      {
+        "word": "Mrs.",
+        "phon": "/'misiz/",
+        "pos": "",
+        "cn": "夫人",
+        "eg": ""
+      },
+      {
+        "word": "kitchen",
+        "phon": "/'kɪtʃɪn; -tʃ(ə)n/",
+        "pos": "n.",
+        "cn": "厨房",
+        "eg": ""
+      },
+      {
+        "word": "refrigerator",
+        "phon": "/rɪ'frɪdʒəreɪtə/",
+        "pos": "n.",
+        "cn": "电冰箱",
+        "eg": ""
+      },
+      {
+        "word": "right",
+        "phon": "/raɪt/",
+        "pos": "n.",
+        "cn": "右边",
+        "eg": ""
+      },
+      {
+        "word": "electric",
+        "phon": "/ɪ'lektrɪk/",
+        "pos": "a.",
+        "cn": "带电的，可通电的",
+        "eg": ""
+      },
+      {
+        "word": "left",
+        "phon": "/left/",
+        "pos": "n.",
+        "cn": "左边",
+        "eg": ""
+      },
+      {
+        "word": "cooker",
+        "phon": "/'kʊkə/",
+        "pos": "n.",
+        "cn": "炉子，炊具",
+        "eg": ""
+      },
+      {
+        "word": "middle",
+        "phon": "/'mɪd(ə)l/",
+        "pos": "n.",
+        "cn": "中间",
+        "eg": ""
+      },
+      {
+        "word": "of",
+        "phon": "/ɒv; (ə)v/",
+        "pos": "prep.",
+        "cn": "(属于)…的",
+        "eg": ""
+      },
+      {
+        "word": "room",
+        "phon": "/ruːm; rʊm/",
+        "pos": "n.",
+        "cn": "房间",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "现在进行时描述场景", "explain": "描述一幅“正在发生”的画面时，多个动作都用 be + doing，串起整段情景。", "examples": ["The sun is shining and the birds are singing.（太阳照耀，鸟儿歌唱。）", "Some children are playing on the grass.（一些孩子正在草地上玩。）"] },
-      { "point": "地点介词 in / on / in the sky", "explain": "in the sky（在天空中）、on the grass（在草地上）等固定介词短语作地点状语，注意搭配。", "examples": ["The kite is in the sky.（风筝在天空中。）", "The dog is lying on the grass.（狗躺在草地上。）"] }
+      {
+        "point": "现在进行时描述场景",
+        "explain": "描述一幅“正在发生”的画面时，多个动作都用 be + doing，串起整段情景。",
+        "examples": [
+          "The sun is shining and the birds are singing.（太阳照耀，鸟儿歌唱。）",
+          "Some children are playing on the grass.（一些孩子正在草地上玩。）"
+        ]
+      },
+      {
+        "point": "地点介词 in / on / in the sky",
+        "explain": "in the sky（在天空中）、on the grass（在草地上）等固定介词短语作地点状语，注意搭配。",
+        "examples": [
+          "The kite is in the sky.（风筝在天空中。）",
+          "The dog is lying on the grass.（狗躺在草地上。）"
+        ]
+      }
     ],
     "tips": "① 固定搭配要整块记：in the sky、on the grass、in the tree。② 天气句常用 It is fine/sunny/cloudy，It 指天气。③ 进行时连用能生动描写画面，练习“看图说正在做什么”。"
   },
   {
-    "book": 1, "lesson": 35, "title": "Our village", "titleCn": "我们的村庄",
+    "book": 1,
+    "lesson": 35,
+    "title": "Our village",
+    "titleCn": "我们的村庄",
     "scene": "介绍自己村庄的地理位置和周围的景物，属于对常态的客观描述。重点是一般现在时与更多方位介词。",
-    "grammarTags": ["一般现在时", "介词"],
+    "grammarTags": [
+      "一般现在时",
+      "介词"
+    ],
     "words": [
-      { "word": "village", "phon": "/ˈvɪlɪdʒ/", "pos": "n.", "cn": "村庄", "eg": "Our village is small. 我们的村庄很小。" },
-      { "word": "valley", "phon": "/ˈvæli/", "pos": "n.", "cn": "山谷", "eg": "The village is in a valley. 村庄坐落在山谷里。" },
-      { "word": "between", "phon": "/bɪˈtwiːn/", "pos": "prep.", "cn": "在……之间", "eg": "The river runs between two hills. 河流从两座山之间流过。" },
-      { "word": "hill", "phon": "/hɪl/", "pos": "n.", "cn": "小山", "eg": "There is a house on the hill. 山上有一座房子。" },
-      { "word": "bank", "phon": "/bæŋk/", "pos": "n.", "cn": "河岸", "eg": "Trees grow along the bank. 树木沿河岸生长。" },
-      { "word": "wall", "phon": "/wɔːl/", "pos": "n.", "cn": "墙", "eg": "There is a wall around the garden. 花园周围有一道墙。" },
-      { "word": "lake", "phon": "/leɪk/", "pos": "n.", "cn": "湖", "eg": "The children swim in the lake. 孩子们在湖里游泳。" }
+      {
+        "word": "village",
+        "phon": "/ˈvɪlɪdʒ/",
+        "pos": "n.",
+        "cn": "村庄",
+        "eg": "Our village is small. 我们的村庄很小。"
+      },
+      {
+        "word": "valley",
+        "phon": "/ˈvæli/",
+        "pos": "n.",
+        "cn": "山谷",
+        "eg": "The village is in a valley. 村庄坐落在山谷里。"
+      },
+      {
+        "word": "between",
+        "phon": "/bɪˈtwiːn/",
+        "pos": "prep.",
+        "cn": "在……之间",
+        "eg": "The river runs between two hills. 河流从两座山之间流过。"
+      },
+      {
+        "word": "hill",
+        "phon": "/hɪl/",
+        "pos": "n.",
+        "cn": "小山",
+        "eg": "There is a house on the hill. 山上有一座房子。"
+      },
+      {
+        "word": "bank",
+        "phon": "/bæŋk/",
+        "pos": "n.",
+        "cn": "河岸",
+        "eg": "Trees grow along the bank. 树木沿河岸生长。"
+      },
+      {
+        "word": "wall",
+        "phon": "/wɔːl/",
+        "pos": "n.",
+        "cn": "墙",
+        "eg": "There is a wall around the garden. 花园周围有一道墙。"
+      },
+      {
+        "word": "lake",
+        "phon": "/leɪk/",
+        "pos": "n.",
+        "cn": "湖",
+        "eg": "The children swim in the lake. 孩子们在湖里游泳。"
+      },
+      {
+        "word": "cup",
+        "phon": "/kʌp/",
+        "pos": "n.",
+        "cn": "杯子",
+        "eg": ""
+      },
+      {
+        "word": "where",
+        "phon": "/weə/",
+        "pos": "adv.",
+        "cn": "在哪里",
+        "eg": ""
+      },
+      {
+        "word": "in",
+        "phon": "/ɪn/",
+        "pos": "prep.",
+        "cn": "在…里",
+        "eg": "Our village is in a valley."
+      },
+      {
+        "word": "living room",
+        "phon": "/'lɪvɪŋ ru:m/",
+        "pos": "",
+        "cn": "客厅",
+        "eg": ""
+      },
+      {
+        "word": "near",
+        "phon": "/nɪə/",
+        "pos": "prep.",
+        "cn": "靠近",
+        "eg": ""
+      },
+      {
+        "word": "window",
+        "phon": "/'wɪndəʊ/",
+        "pos": "n.",
+        "cn": "窗户",
+        "eg": ""
+      },
+      {
+        "word": "armchair",
+        "phon": "/ɑːm'tʃeə; 'ɑːm-/",
+        "pos": "n.",
+        "cn": "手扶椅",
+        "eg": ""
+      },
+      {
+        "word": "door",
+        "phon": "/dɔː/",
+        "pos": "n.",
+        "cn": "门",
+        "eg": ""
+      },
+      {
+        "word": "picture",
+        "phon": "/'pɪktʃə/",
+        "pos": "n.",
+        "cn": "图画",
+        "eg": ""
+      },
+      {
+        "word": "trousers",
+        "phon": "/'traʊzəz/",
+        "pos": "n.",
+        "cn": "〔复数〕长裤",
+        "eg": ""
+      },
+      {
+        "word": "shut",
+        "phon": "/ʃʌt/",
+        "pos": "v.",
+        "cn": "关门",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "一般现在时描述常态", "explain": "描述客观事实、地理位置、习惯性状态时用一般现在时；主语第三人称单数时动词加 -s/-es。", "examples": ["Our village stands in a valley.（我们的村庄坐落在山谷里。）", "The river flows past the wall.（河流从墙边流过。）"] },
-      { "point": "方位介词 between / along / around", "explain": "between…and… 在两者之间，along 沿着，around 围绕，都表示位置或走向。", "examples": ["The path runs along the river.（小路沿着河延伸。）", "There are trees around the lake.（湖的周围有树。）"] }
+      {
+        "point": "一般现在时描述常态",
+        "explain": "描述客观事实、地理位置、习惯性状态时用一般现在时；主语第三人称单数时动词加 -s/-es。",
+        "examples": [
+          "Our village stands in a valley.（我们的村庄坐落在山谷里。）",
+          "The river flows past the wall.（河流从墙边流过。）"
+        ]
+      },
+      {
+        "point": "方位介词 between / along / around",
+        "explain": "between…and… 在两者之间，along 沿着，around 围绕，都表示位置或走向。",
+        "examples": [
+          "The path runs along the river.（小路沿着河延伸。）",
+          "There are trees around the lake.（湖的周围有树。）"
+        ]
+      }
     ],
     "tips": "① 描述“一直如此”的地理与习惯用一般现在时，区别于“此刻正在”的进行时。② 第三人称单数动词记得变形：stand→stands、flow→flows。③ between 强调两者之间，among 用于三者以上。"
   },
   {
-    "book": 1, "lesson": 37, "title": "Making a bookcase", "titleCn": "做书橱",
+    "book": 1,
+    "lesson": 37,
+    "title": "Making a bookcase",
+    "titleCn": "做书橱",
     "scene": "一个人正在动手做书橱，另一人问他在做什么、打算怎样上漆。重点是现在进行时与 be going to 表打算。",
-    "grammarTags": ["现在进行时", "一般将来时"],
+    "grammarTags": [
+      "现在进行时",
+      "一般将来时"
+    ],
     "words": [
-      { "word": "make", "phon": "/meɪk/", "pos": "v.", "cn": "制作", "eg": "He is making a bookcase. 他正在做书橱。" },
-      { "word": "bookcase", "phon": "/ˈbʊkkeɪs/", "pos": "n.", "cn": "书橱；书架", "eg": "The bookcase is full of books. 书橱里装满了书。" },
-      { "word": "wood", "phon": "/wʊd/", "pos": "n.", "cn": "木头", "eg": "The table is made of wood. 桌子是木头做的。" },
-      { "word": "paint", "phon": "/peɪnt/", "pos": "v./n.", "cn": "上漆；油漆", "eg": "I am going to paint it blue. 我打算把它漆成蓝色。" },
-      { "word": "ready", "phon": "/ˈredi/", "pos": "adj.", "cn": "准备好的", "eg": "Dinner is ready. 晚饭准备好了。" },
-      { "word": "soon", "phon": "/suːn/", "pos": "adv.", "cn": "不久；很快", "eg": "It will be ready soon. 它很快就好了。" },
-      { "word": "afraid", "phon": "/əˈfreɪd/", "pos": "adj.", "cn": "恐怕；害怕的", "eg": "I'm afraid it is too small. 恐怕它太小了。" }
+      {
+        "word": "make",
+        "phon": "/meɪk/",
+        "pos": "v.",
+        "cn": "制作",
+        "eg": "He is making a bookcase. 他正在做书橱。"
+      },
+      {
+        "word": "bookcase",
+        "phon": "/ˈbʊkkeɪs/",
+        "pos": "n.",
+        "cn": "书橱；书架",
+        "eg": "The bookcase is full of books. 书橱里装满了书。"
+      },
+      {
+        "word": "wood",
+        "phon": "/wʊd/",
+        "pos": "n.",
+        "cn": "木头",
+        "eg": "The table is made of wood. 桌子是木头做的。"
+      },
+      {
+        "word": "paint",
+        "phon": "/peɪnt/",
+        "pos": "v./n.",
+        "cn": "上漆；油漆",
+        "eg": "I am going to paint it blue. 我打算把它漆成蓝色。"
+      },
+      {
+        "word": "ready",
+        "phon": "/ˈredi/",
+        "pos": "adj.",
+        "cn": "准备好的",
+        "eg": "Dinner is ready. 晚饭准备好了。"
+      },
+      {
+        "word": "soon",
+        "phon": "/suːn/",
+        "pos": "adv.",
+        "cn": "不久；很快",
+        "eg": "It will be ready soon. 它很快就好了。"
+      },
+      {
+        "word": "afraid",
+        "phon": "/əˈfreɪd/",
+        "pos": "adj.",
+        "cn": "恐怕；害怕的",
+        "eg": "I'm afraid it is too small. 恐怕它太小了。"
+      },
+      {
+        "word": "bedroom",
+        "phon": "/'bedruːm; -rʊm/",
+        "pos": "n.",
+        "cn": "卧室",
+        "eg": ""
+      },
+      {
+        "word": "untidy",
+        "phon": "/ʌn'taɪdɪ/",
+        "pos": "a.",
+        "cn": "乱，不整齐",
+        "eg": ""
+      },
+      {
+        "word": "must",
+        "phon": "/mʌst/",
+        "pos": "",
+        "cn": "modal verb.必须，应该",
+        "eg": ""
+      },
+      {
+        "word": "open",
+        "phon": "/'əʊp(ə)n/",
+        "pos": "v.",
+        "cn": "打开",
+        "eg": ""
+      },
+      {
+        "word": "air",
+        "phon": "/eə/",
+        "pos": "v.",
+        "cn": "使…通风，换换空气",
+        "eg": ""
+      },
+      {
+        "word": "put",
+        "phon": "/pʊt/",
+        "pos": "v.",
+        "cn": "放置",
+        "eg": ""
+      },
+      {
+        "word": "clothes",
+        "phon": "/kləʊ(ð)z/",
+        "pos": "n.",
+        "cn": "衣服",
+        "eg": ""
+      },
+      {
+        "word": "wardrobe",
+        "phon": "/'wɔːdrəʊb/",
+        "pos": "n.",
+        "cn": "大衣柜",
+        "eg": ""
+      },
+      {
+        "word": "dust",
+        "phon": "/dʌst/",
+        "pos": "v.",
+        "cn": "掸掉灰尘",
+        "eg": ""
+      },
+      {
+        "word": "sweep",
+        "phon": "/swiːp/",
+        "pos": "v.",
+        "cn": "扫",
+        "eg": ""
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈemptɪ/",
+        "pos": "v.",
+        "cn": "倒空，使…变空",
+        "eg": ""
+      },
+      {
+        "word": "read",
+        "phon": "/ri:d;red/",
+        "pos": "v.",
+        "cn": "读",
+        "eg": ""
+      },
+      {
+        "word": "sharpen",
+        "phon": "/'ʃɑːrpən/",
+        "pos": "v.",
+        "cn": "削尖，使锋利",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "现在进行时问答", "explain": "问“正在做什么”用 What + be + 主语 + doing？答句用 be + doing。", "examples": ["What are you making? — I am making a bookcase.（你在做什么？——我在做书橱。）", "What is she doing? — She is painting the wall.（她正在刷墙。）"] },
-      { "point": "be going to 表打算", "explain": "be going to + 动词原形，表示打算或计划要做的事，是一种将来时表达。", "examples": ["I am going to paint it green.（我打算把它漆成绿色。）", "They are going to plant trees.（他们打算种树。）"] }
+      {
+        "point": "现在进行时问答",
+        "explain": "问“正在做什么”用 What + be + 主语 + doing？答句用 be + doing。",
+        "examples": [
+          "What are you making? — I am making a bookcase.（你在做什么？——我在做书橱。）",
+          "What is she doing? — She is painting the wall.（她正在刷墙。）"
+        ]
+      },
+      {
+        "point": "be going to 表打算",
+        "explain": "be going to + 动词原形，表示打算或计划要做的事，是一种将来时表达。",
+        "examples": [
+          "I am going to paint it green.（我打算把它漆成绿色。）",
+          "They are going to plant trees.（他们打算种树。）"
+        ]
+      }
     ],
     "tips": "① 区分：am doing（此刻正在做）与 am going to do（打算将来做）。② be going to 的 be 随主语变：I am / he is / we are going to…。③ I'm afraid… 是委婉表达“恐怕”，后接坏消息。"
   },
   {
-    "book": 1, "lesson": 39, "title": "Don't drop it!", "titleCn": "别摔了它！",
+    "book": 1,
+    "lesson": 39,
+    "title": "Don't drop it!",
+    "titleCn": "别摔了它！",
     "scene": "两个人合力搬运一件易碎物品，一方不断叮嘱对方小心别摔坏。重点是否定祈使句与现在进行时。",
-    "grammarTags": ["祈使句", "现在进行时"],
+    "grammarTags": [
+      "祈使句",
+      "现在进行时"
+    ],
     "words": [
-      { "word": "carry", "phon": "/ˈkæri/", "pos": "v.", "cn": "搬；提；运", "eg": "They are carrying a heavy box. 他们正在搬一个重箱子。" },
-      { "word": "drop", "phon": "/drɒp/", "pos": "v.", "cn": "使掉下；摔落", "eg": "Don't drop the plate. 别把盘子摔了。" },
-      { "word": "careful", "phon": "/ˈkeəfl/", "pos": "adj.", "cn": "小心的", "eg": "Be careful with the glass. 拿玻璃杯要小心。" },
-      { "word": "carefully", "phon": "/ˈkeəfli/", "pos": "adv.", "cn": "小心地", "eg": "Carry it carefully. 小心地搬它。" },
-      { "word": "vase", "phon": "/vɑːz/", "pos": "n.", "cn": "花瓶", "eg": "The vase is on the table. 花瓶在桌子上。" },
-      { "word": "hold", "phon": "/həʊld/", "pos": "v.", "cn": "拿住；握住", "eg": "Hold it with both hands. 用双手拿住它。" },
-      { "word": "downstairs", "phon": "/ˌdaʊnˈsteəz/", "pos": "adv.", "cn": "到楼下；在楼下", "eg": "Take the box downstairs. 把箱子搬到楼下。" }
+      {
+        "word": "carry",
+        "phon": "/ˈkæri/",
+        "pos": "v.",
+        "cn": "搬；提；运",
+        "eg": "They are carrying a heavy box. 他们正在搬一个重箱子。"
+      },
+      {
+        "word": "drop",
+        "phon": "/drɒp/",
+        "pos": "v.",
+        "cn": "使掉下；摔落",
+        "eg": "Don't drop the plate. 别把盘子摔了。"
+      },
+      {
+        "word": "careful",
+        "phon": "/ˈkeəfl/",
+        "pos": "adj.",
+        "cn": "小心的",
+        "eg": "Be careful with the glass. 拿玻璃杯要小心。"
+      },
+      {
+        "word": "carefully",
+        "phon": "/ˈkeəfli/",
+        "pos": "adv.",
+        "cn": "小心地",
+        "eg": "Carry it carefully. 小心地搬它。"
+      },
+      {
+        "word": "vase",
+        "phon": "/vɑːz/",
+        "pos": "n.",
+        "cn": "花瓶",
+        "eg": "The vase is on the table. 花瓶在桌子上。"
+      },
+      {
+        "word": "hold",
+        "phon": "/həʊld/",
+        "pos": "v.",
+        "cn": "拿住；握住",
+        "eg": "Hold it with both hands. 用双手拿住它。"
+      },
+      {
+        "word": "downstairs",
+        "phon": "/ˌdaʊnˈsteəz/",
+        "pos": "adv.",
+        "cn": "到楼下；在楼下",
+        "eg": "Take the box downstairs. 把箱子搬到楼下。"
+      },
+      {
+        "word": "put on",
+        "phon": "/pʊt ɒn/",
+        "pos": "",
+        "cn": "穿上",
+        "eg": ""
+      },
+      {
+        "word": "take off",
+        "phon": "",
+        "pos": "",
+        "cn": "脱掉",
+        "eg": ""
+      },
+      {
+        "word": "turn on",
+        "phon": "/tɜ:n ɒn/",
+        "pos": "",
+        "cn": "开(电灯)",
+        "eg": ""
+      },
+      {
+        "word": "turn off",
+        "phon": "/tɜ:n ɒf/",
+        "pos": "",
+        "cn": "关(电灯)",
+        "eg": ""
+      },
+      {
+        "word": "garden",
+        "phon": "/'gɑːd(ə)n/",
+        "pos": "n.",
+        "cn": "花园",
+        "eg": ""
+      },
+      {
+        "word": "under",
+        "phon": "/'ʌndə/",
+        "pos": "prep.",
+        "cn": "在…之下",
+        "eg": ""
+      },
+      {
+        "word": "tree",
+        "phon": "/triː/",
+        "pos": "n.",
+        "cn": "树",
+        "eg": ""
+      },
+      {
+        "word": "climb",
+        "phon": "/klaɪm/",
+        "pos": "v.",
+        "cn": "爬，攀登",
+        "eg": ""
+      },
+      {
+        "word": "who",
+        "phon": "/huː; hʊ/",
+        "pos": "pron.",
+        "cn": "谁",
+        "eg": ""
+      },
+      {
+        "word": "run",
+        "phon": "/rʌn/",
+        "pos": "v.",
+        "cn": "跑",
+        "eg": ""
+      },
+      {
+        "word": "grass",
+        "phon": "/grɑːs/",
+        "pos": "n.",
+        "cn": "草，草地",
+        "eg": ""
+      },
+      {
+        "word": "after",
+        "phon": "/'ɑːftə/",
+        "pos": "prep.",
+        "cn": "在…之后",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "否定祈使句 Don't + 动词原形", "explain": "在祈使句前加 Don't，表示“别……”，语气是劝阻或警告，后接动词原形。", "examples": ["Don't drop the vase.（别把花瓶摔了。）", "Don't run in the room.（别在屋里跑。）"] },
-      { "point": "现在进行时描述当下动作", "explain": "叙述两人正在合作搬东西的过程，用 be + doing 描述此刻正在做的事。", "examples": ["We are carrying it downstairs.（我们正把它搬到楼下。）", "He is holding the other end.（他正握着另一头。）"] }
+      {
+        "point": "否定祈使句 Don't + 动词原形",
+        "explain": "在祈使句前加 Don't，表示“别……”，语气是劝阻或警告，后接动词原形。",
+        "examples": [
+          "Don't drop the vase.（别把花瓶摔了。）",
+          "Don't run in the room.（别在屋里跑。）"
+        ]
+      },
+      {
+        "point": "现在进行时描述当下动作",
+        "explain": "叙述两人正在合作搬东西的过程，用 be + doing 描述此刻正在做的事。",
+        "examples": [
+          "We are carrying it downstairs.（我们正把它搬到楼下。）",
+          "He is holding the other end.（他正握着另一头。）"
+        ]
+      }
     ],
     "tips": "① 否定祈使句固定用 Don't 开头，别用 No + 动词。② Be careful! 是万能提醒句，加 with + 物 表示“对……小心”。③ careful 是形容词、carefully 是副词，修饰动词用 -ly 形式。"
   },
   {
-    "book": 1, "lesson": 41, "title": "Penny's bag", "titleCn": "彭妮的手提包",
+    "book": 1,
+    "lesson": 41,
+    "title": "Penny's bag",
+    "titleCn": "彭妮的手提包",
     "scene": "有人指着一个手提包询问它属于谁，另一方说明这是某个女孩的东西，顺带辨认几件小物品的归属。重点是名词所有格 's 与物主代词。",
-    "grammarTags": ["物主代词", "名词所有格"],
+    "grammarTags": [
+      "物主代词",
+      "名词所有格"
+    ],
     "words": [
-      { "word": "bag", "phon": "/bæɡ/", "pos": "n.", "cn": "手提包；袋子", "eg": "This bag is very light. 这个包很轻。" },
-      { "word": "handbag", "phon": "/ˈhændbæɡ/", "pos": "n.", "cn": "女用手提包", "eg": "Her handbag is on the chair. 她的手提包在椅子上。" },
-      { "word": "wife", "phon": "/waɪf/", "pos": "n.", "cn": "妻子", "eg": "This is my wife's coat. 这是我妻子的外套。" },
-      { "word": "husband", "phon": "/ˈhʌzbənd/", "pos": "n.", "cn": "丈夫", "eg": "Her husband is a teacher. 她丈夫是老师。" },
-      { "word": "belong", "phon": "/bɪˈlɒŋ/", "pos": "v.", "cn": "属于", "eg": "This pen belongs to Tom. 这支笔是汤姆的。" },
-      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "The box is empty now. 盒子现在是空的。" }
+      {
+        "word": "bag",
+        "phon": "/bæɡ/",
+        "pos": "n.",
+        "cn": "手提包；袋子",
+        "eg": "This bag is very light. 这个包很轻。"
+      },
+      {
+        "word": "handbag",
+        "phon": "/ˈhændbæɡ/",
+        "pos": "n.",
+        "cn": "女用手提包",
+        "eg": "Her handbag is on the chair. 她的手提包在椅子上。"
+      },
+      {
+        "word": "wife",
+        "phon": "/waɪf/",
+        "pos": "n.",
+        "cn": "妻子",
+        "eg": "This is my wife's coat. 这是我妻子的外套。"
+      },
+      {
+        "word": "husband",
+        "phon": "/ˈhʌzbənd/",
+        "pos": "n.",
+        "cn": "丈夫",
+        "eg": "Her husband is a teacher. 她丈夫是老师。"
+      },
+      {
+        "word": "belong",
+        "phon": "/bɪˈlɒŋ/",
+        "pos": "v.",
+        "cn": "属于",
+        "eg": "This pen belongs to Tom. 这支笔是汤姆的。"
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈempti/",
+        "pos": "adj.",
+        "cn": "空的",
+        "eg": "The box is empty now. 盒子现在是空的。"
+      },
+      {
+        "word": "cat",
+        "phon": "/kæt/",
+        "pos": "n.",
+        "cn": "猫",
+        "eg": ""
+      },
+      {
+        "word": "type",
+        "phon": "/taɪp/",
+        "pos": "v.",
+        "cn": "打字",
+        "eg": ""
+      },
+      {
+        "word": "letter",
+        "phon": "/'letə/",
+        "pos": "n.",
+        "cn": "信",
+        "eg": ""
+      },
+      {
+        "word": "basket",
+        "phon": "/'bɑːskɪt/",
+        "pos": "n.",
+        "cn": "篮子",
+        "eg": ""
+      },
+      {
+        "word": "eat",
+        "phon": "/iːt/",
+        "pos": "v.",
+        "cn": "吃",
+        "eg": ""
+      },
+      {
+        "word": "bone",
+        "phon": "/bəʊn/",
+        "pos": "n.",
+        "cn": "骨头",
+        "eg": ""
+      },
+      {
+        "word": "clean",
+        "phon": "/kliːn/",
+        "pos": "v.",
+        "cn": "清洗",
+        "eg": ""
+      },
+      {
+        "word": "tooth",
+        "phon": "/tuːθ/",
+        "pos": "n.",
+        "cn": "牙齿",
+        "eg": ""
+      },
+      {
+        "word": "cook",
+        "phon": "/kʊk/",
+        "pos": "v.",
+        "cn": "做(饭菜)",
+        "eg": ""
+      },
+      {
+        "word": "milk",
+        "phon": "/mɪlk/",
+        "pos": "n.",
+        "cn": "牛奶",
+        "eg": "A bottle of milk."
+      },
+      {
+        "word": "meal",
+        "phon": "/miːl/",
+        "pos": "n.",
+        "cn": "饭，一顿饭",
+        "eg": ""
+      },
+      {
+        "word": "drink",
+        "phon": "/drɪŋk/",
+        "pos": "v.",
+        "cn": "喝",
+        "eg": ""
+      },
+      {
+        "word": "tap",
+        "phon": "/tæp/",
+        "pos": "n.",
+        "cn": "(水)龙头",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "名词所有格 's 表所属", "explain": "在表示人或动物的名词后加 's，表示“……的”，构成所有格，后面接被拥有的东西。", "examples": ["This is Penny's bag.（这是彭妮的包。）", "Tom's book is on the desk.（汤姆的书在桌子上。）"] },
-      { "point": "物主代词 my/your/her/his", "explain": "形容词性物主代词放在名词前，说明东西的归属，本身不加 -s，也不与冠词连用。", "examples": ["Her handbag is new.（她的手提包是新的。）", "Is this your coat?（这是你的外套吗？）"] }
+      {
+        "point": "名词所有格 's 表所属",
+        "explain": "在表示人或动物的名词后加 's，表示“……的”，构成所有格，后面接被拥有的东西。",
+        "examples": [
+          "This is Penny's bag.（这是彭妮的包。）",
+          "Tom's book is on the desk.（汤姆的书在桌子上。）"
+        ]
+      },
+      {
+        "point": "物主代词 my/your/her/his",
+        "explain": "形容词性物主代词放在名词前，说明东西的归属，本身不加 -s，也不与冠词连用。",
+        "examples": [
+          "Her handbag is new.（她的手提包是新的。）",
+          "Is this your coat?（这是你的外套吗？）"
+        ]
+      }
     ],
     "tips": "① 名词所有格：单数名词直接加 's（Penny's）。② 物主代词 my/your/his/her 后面必须跟名词。③ 提问归属常用 Whose is this?（这是谁的？）"
   },
   {
-    "book": 1, "lesson": 43, "title": "Hurry up!", "titleCn": "快点儿！",
+    "book": 1,
+    "lesson": 43,
+    "title": "Hurry up!",
+    "titleCn": "快点儿！",
     "scene": "一个人四处找不到某样常用小物件，急得催促同伴帮忙，同伴一边找一边说明各人此刻正在做的事。重点是现在进行时。",
-    "grammarTags": ["现在进行时", "疑问句"],
+    "grammarTags": [
+      "现在进行时",
+      "疑问句"
+    ],
     "words": [
-      { "word": "hurry", "phon": "/ˈhʌri/", "pos": "v.", "cn": "赶快；匆忙", "eg": "Please hurry, we are late. 请快点，我们迟到了。" },
-      { "word": "look for", "phon": "/lʊk fɔː/", "pos": "phr.", "cn": "寻找", "eg": "I am looking for my keys. 我正在找我的钥匙。" },
-      { "word": "tin", "phon": "/tɪn/", "pos": "n.", "cn": "罐头；听", "eg": "There is a tin on the shelf. 架子上有一个罐头。" },
-      { "word": "polish", "phon": "/ˈpɒlɪʃ/", "pos": "n./v.", "cn": "擦亮剂；擦亮", "eg": "She is looking for the polish. 她正在找擦亮剂。" },
-      { "word": "spoon", "phon": "/spuːn/", "pos": "n.", "cn": "勺子", "eg": "The spoon is in the drawer. 勺子在抽屉里。" },
-      { "word": "cupboard", "phon": "/ˈkʌbəd/", "pos": "n.", "cn": "橱柜", "eg": "Look in the cupboard. 在橱柜里找找。" }
+      {
+        "word": "hurry",
+        "phon": "/ˈhʌri/",
+        "pos": "v.",
+        "cn": "赶快；匆忙",
+        "eg": "Please hurry, we are late. 请快点，我们迟到了。"
+      },
+      {
+        "word": "look for",
+        "phon": "/lʊk fɔː/",
+        "pos": "phr.",
+        "cn": "寻找",
+        "eg": "I am looking for my keys. 我正在找我的钥匙。"
+      },
+      {
+        "word": "tin",
+        "phon": "/tɪn/",
+        "pos": "n.",
+        "cn": "罐头；听",
+        "eg": "There is a tin on the shelf. 架子上有一个罐头。"
+      },
+      {
+        "word": "polish",
+        "phon": "/ˈpɒlɪʃ/",
+        "pos": "n./v.",
+        "cn": "擦亮剂；擦亮",
+        "eg": "She is looking for the polish. 她正在找擦亮剂。"
+      },
+      {
+        "word": "spoon",
+        "phon": "/spuːn/",
+        "pos": "n.",
+        "cn": "勺子",
+        "eg": "The spoon is in the drawer. 勺子在抽屉里。"
+      },
+      {
+        "word": "cupboard",
+        "phon": "/ˈkʌbəd/",
+        "pos": "n.",
+        "cn": "橱柜",
+        "eg": "Look in the cupboard. 在橱柜里找找。"
+      },
+      {
+        "word": "day",
+        "phon": "/deɪ/",
+        "pos": "n.",
+        "cn": "日子",
+        "eg": ""
+      },
+      {
+        "word": "cloud",
+        "phon": "/klaʊd/",
+        "pos": "n.",
+        "cn": "云",
+        "eg": ""
+      },
+      {
+        "word": "sky",
+        "phon": "/skaɪ/",
+        "pos": "n.",
+        "cn": "天空",
+        "eg": ""
+      },
+      {
+        "word": "sun",
+        "phon": "/sʌn/",
+        "pos": "n.",
+        "cn": "太阳",
+        "eg": ""
+      },
+      {
+        "word": "shine",
+        "phon": "/ʃaɪn/",
+        "pos": "v.",
+        "cn": "照耀",
+        "eg": ""
+      },
+      {
+        "word": "with",
+        "phon": "/wɪð/",
+        "pos": "prep.",
+        "cn": "和…在一起",
+        "eg": ""
+      },
+      {
+        "word": "family",
+        "phon": "/ˈfæməlɪ/",
+        "pos": "n.",
+        "cn": "家庭(成员)",
+        "eg": ""
+      },
+      {
+        "word": "walk",
+        "phon": "/wɔːk/",
+        "pos": "v.",
+        "cn": "走路，步行",
+        "eg": ""
+      },
+      {
+        "word": "over",
+        "phon": "/'əʊvə/",
+        "pos": "prep.",
+        "cn": "跨越，在…之上",
+        "eg": "It's over there, behind the teapot."
+      },
+      {
+        "word": "bridge",
+        "phon": "/brɪdʒ/",
+        "pos": "n.",
+        "cn": "桥",
+        "eg": ""
+      },
+      {
+        "word": "boat",
+        "phon": "/bəʊt/",
+        "pos": "n.",
+        "cn": "船",
+        "eg": ""
+      },
+      {
+        "word": "river",
+        "phon": "/'rɪvə/",
+        "pos": "n.",
+        "cn": "河",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "现在进行时表此刻动作", "explain": "用 be（am/is/are）+ 动词 -ing，表示说话时正在发生的动作，常与 now 连用。", "examples": ["I am looking for my spoon.（我正在找我的勺子。）", "She is cleaning the cupboard now.（她此刻正在擦橱柜。）"] },
-      { "point": "现在进行时的疑问式", "explain": "把 be 动词提到主语前，构成 Are you doing…? 这样的一般疑问句。", "examples": ["Are you looking for the tin?（你在找那个罐头吗？）", "Is he helping you?（他在帮你吗？）"] }
+      {
+        "point": "现在进行时表此刻动作",
+        "explain": "用 be（am/is/are）+ 动词 -ing，表示说话时正在发生的动作，常与 now 连用。",
+        "examples": [
+          "I am looking for my spoon.（我正在找我的勺子。）",
+          "She is cleaning the cupboard now.（她此刻正在擦橱柜。）"
+        ]
+      },
+      {
+        "point": "现在进行时的疑问式",
+        "explain": "把 be 动词提到主语前，构成 Are you doing…? 这样的一般疑问句。",
+        "examples": [
+          "Are you looking for the tin?（你在找那个罐头吗？）",
+          "Is he helping you?（他在帮你吗？）"
+        ]
+      }
     ],
     "tips": "① Hurry up! 是常用催促语，意为“快点”。② look for 强调“找”的过程，find 强调“找到”的结果。③ 现在进行时结构：be + 动词ing，别漏掉 be。"
   },
   {
-    "book": 1, "lesson": 45, "title": "The boss's letter", "titleCn": "老板的信",
+    "book": 1,
+    "lesson": 45,
+    "title": "The boss's letter",
+    "titleCn": "老板的信",
     "scene": "秘书受老板之托处理一封信件，两人就这封信是谁的、该交给谁展开简短对话。重点是名词所有格。",
-    "grammarTags": ["物主代词", "名词所有格"],
+    "grammarTags": [
+      "物主代词",
+      "名词所有格"
+    ],
     "words": [
-      { "word": "boss", "phon": "/bɒs/", "pos": "n.", "cn": "老板", "eg": "My boss is very kind. 我的老板很和气。" },
-      { "word": "secretary", "phon": "/ˈsekrətri/", "pos": "n.", "cn": "秘书", "eg": "The secretary is busy today. 秘书今天很忙。" },
-      { "word": "typewriter", "phon": "/ˈtaɪpraɪtə/", "pos": "n.", "cn": "打字机", "eg": "The typewriter is on her desk. 打字机在她桌上。" },
-      { "word": "letter", "phon": "/ˈletə/", "pos": "n.", "cn": "信；字母", "eg": "This letter is for you. 这封信是给你的。" },
-      { "word": "typist", "phon": "/ˈtaɪpɪst/", "pos": "n.", "cn": "打字员", "eg": "She is a good typist. 她是个好打字员。" },
-      { "word": "send", "phon": "/send/", "pos": "v.", "cn": "寄；送", "eg": "Please send this letter today. 请今天把这封信寄出。" }
+      {
+        "word": "boss",
+        "phon": "/bɒs/",
+        "pos": "n.",
+        "cn": "老板",
+        "eg": "My boss is very kind. 我的老板很和气。"
+      },
+      {
+        "word": "secretary",
+        "phon": "/ˈsekrətri/",
+        "pos": "n.",
+        "cn": "秘书",
+        "eg": "The secretary is busy today. 秘书今天很忙。"
+      },
+      {
+        "word": "typewriter",
+        "phon": "/ˈtaɪpraɪtə/",
+        "pos": "n.",
+        "cn": "打字机",
+        "eg": "The typewriter is on her desk. 打字机在她桌上。"
+      },
+      {
+        "word": "letter",
+        "phon": "/ˈletə/",
+        "pos": "n.",
+        "cn": "信；字母",
+        "eg": "This letter is for you. 这封信是给你的。"
+      },
+      {
+        "word": "typist",
+        "phon": "/ˈtaɪpɪst/",
+        "pos": "n.",
+        "cn": "打字员",
+        "eg": "She is a good typist. 她是个好打字员。"
+      },
+      {
+        "word": "send",
+        "phon": "/send/",
+        "pos": "v.",
+        "cn": "寄；送",
+        "eg": "Please send this letter today. 请今天把这封信寄出。"
+      },
+      {
+        "word": "ship",
+        "phon": "/ʃɪp/",
+        "pos": "n.",
+        "cn": "轮船",
+        "eg": ""
+      },
+      {
+        "word": "aeroplane",
+        "phon": "/'eərəpleɪn/",
+        "pos": "n.",
+        "cn": "飞机",
+        "eg": ""
+      },
+      {
+        "word": "fly",
+        "phon": "/flaɪ/",
+        "pos": "v.",
+        "cn": "飞",
+        "eg": ""
+      },
+      {
+        "word": "sleep",
+        "phon": "/sliːp/",
+        "pos": "v.",
+        "cn": "睡觉",
+        "eg": ""
+      },
+      {
+        "word": "shave",
+        "phon": "/ʃeɪv/",
+        "pos": "v.",
+        "cn": "刮脸",
+        "eg": ""
+      },
+      {
+        "word": "cry",
+        "phon": "/kraɪ/",
+        "pos": "v.",
+        "cn": "哭，喊",
+        "eg": ""
+      },
+      {
+        "word": "wash",
+        "phon": "/wɒʃ/",
+        "pos": "v.",
+        "cn": "洗",
+        "eg": ""
+      },
+      {
+        "word": "wait",
+        "phon": "/weɪt/",
+        "pos": "v.",
+        "cn": "等",
+        "eg": ""
+      },
+      {
+        "word": "jump",
+        "phon": "/dʒʌmp/",
+        "pos": "v.",
+        "cn": "跳",
+        "eg": ""
+      },
+      {
+        "word": "photograph",
+        "phon": "/'foutəgræf/",
+        "pos": "n.",
+        "cn": "照片",
+        "eg": ""
+      },
+      {
+        "word": "village",
+        "phon": "/'vɪlɪdʒ/",
+        "pos": "n.",
+        "cn": "村庄",
+        "eg": ""
+      },
+      {
+        "word": "valley",
+        "phon": "/'vælɪ/",
+        "pos": "n.",
+        "cn": "山谷",
+        "eg": ""
+      },
+      {
+        "word": "between",
+        "phon": "/bɪ'twiːn/",
+        "pos": "prep.",
+        "cn": "在…之间",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "名词所有格 's（含以 s 结尾）", "explain": "表示人的单数名词后加 's 构成所有格；以 -s 结尾的名词（如 boss）通常加 's，读作 /ɪz/。", "examples": ["This is the boss's letter.（这是老板的信。）", "It is the secretary's desk.（这是秘书的桌子。）"] },
-      { "point": "of 短语表所属", "explain": "表示无生命事物的所属时，多用 the + 名词 + of + 名词，而不用 's。", "examples": ["The cover of the book is blue.（这本书的封面是蓝色的。）", "The door of the office is open.（办公室的门开着。）"] }
+      {
+        "point": "名词所有格 's（含以 s 结尾）",
+        "explain": "表示人的单数名词后加 's 构成所有格；以 -s 结尾的名词（如 boss）通常加 's，读作 /ɪz/。",
+        "examples": [
+          "This is the boss's letter.（这是老板的信。）",
+          "It is the secretary's desk.（这是秘书的桌子。）"
+        ]
+      },
+      {
+        "point": "of 短语表所属",
+        "explain": "表示无生命事物的所属时，多用 the + 名词 + of + 名词，而不用 's。",
+        "examples": [
+          "The cover of the book is blue.（这本书的封面是蓝色的。）",
+          "The door of the office is open.（办公室的门开着。）"
+        ]
+      }
     ],
     "tips": "① boss 以 -s 结尾，所有格仍加 's：boss's。② 人用 's，物多用 of 结构。③ 提问用 Whose letter is this?（这是谁的信？）"
   },
   {
-    "book": 1, "lesson": 47, "title": "A cup of coffee", "titleCn": "一杯咖啡",
+    "book": 1,
+    "lesson": 47,
+    "title": "A cup of coffee",
+    "titleCn": "一杯咖啡",
     "scene": "在厨房里两人核对做饮料还缺哪些原料，逐样确认有没有糖、牛奶、咖啡等。重点是 some/any 与可数不可数名词。",
-    "grammarTags": ["some/any", "可数不可数"],
+    "grammarTags": [
+      "some/any",
+      "可数不可数"
+    ],
     "words": [
-      { "word": "coffee", "phon": "/ˈkɒfi/", "pos": "n.", "cn": "咖啡", "eg": "I want a cup of coffee. 我想要一杯咖啡。" },
-      { "word": "sugar", "phon": "/ˈʃʊɡə/", "pos": "n.", "cn": "糖", "eg": "Is there any sugar? 有糖吗？" },
-      { "word": "milk", "phon": "/mɪlk/", "pos": "n.", "cn": "牛奶", "eg": "There is some milk in the bottle. 瓶里有一些牛奶。" },
-      { "word": "bottle", "phon": "/ˈbɒtl/", "pos": "n.", "cn": "瓶子", "eg": "The bottle is full. 瓶子是满的。" },
-      { "word": "tea", "phon": "/tiː/", "pos": "n.", "cn": "茶", "eg": "Would you like some tea? 你想喝点茶吗？" },
-      { "word": "biscuit", "phon": "/ˈbɪskɪt/", "pos": "n.", "cn": "饼干", "eg": "There are some biscuits on the plate. 盘子上有一些饼干。" }
+      {
+        "word": "coffee",
+        "phon": "/ˈkɒfi/",
+        "pos": "n.",
+        "cn": "咖啡",
+        "eg": "I want a cup of coffee. 我想要一杯咖啡。"
+      },
+      {
+        "word": "sugar",
+        "phon": "/ˈʃʊɡə/",
+        "pos": "n.",
+        "cn": "糖",
+        "eg": "Is there any sugar? 有糖吗？"
+      },
+      {
+        "word": "milk",
+        "phon": "/mɪlk/",
+        "pos": "n.",
+        "cn": "牛奶",
+        "eg": "There is some milk in the bottle. 瓶里有一些牛奶。"
+      },
+      {
+        "word": "bottle",
+        "phon": "/ˈbɒtl/",
+        "pos": "n.",
+        "cn": "瓶子",
+        "eg": "The bottle is full. 瓶子是满的。"
+      },
+      {
+        "word": "tea",
+        "phon": "/tiː/",
+        "pos": "n.",
+        "cn": "茶",
+        "eg": "Would you like some tea? 你想喝点茶吗？"
+      },
+      {
+        "word": "biscuit",
+        "phon": "/ˈbɪskɪt/",
+        "pos": "n.",
+        "cn": "饼干",
+        "eg": "There are some biscuits on the plate. 盘子上有一些饼干。"
+      },
+      {
+        "word": "hill",
+        "phon": "/hɪl/",
+        "pos": "n.",
+        "cn": "小山",
+        "eg": ""
+      },
+      {
+        "word": "another",
+        "phon": "/ə'nʌðə/",
+        "pos": "prep.",
+        "cn": "另一个",
+        "eg": ""
+      },
+      {
+        "word": "wife",
+        "phon": "/wʌɪf/",
+        "pos": "n.",
+        "cn": "妻子",
+        "eg": ""
+      },
+      {
+        "word": "along",
+        "phon": "/ə'lɒŋ/",
+        "pos": "prep.",
+        "cn": "沿着",
+        "eg": ""
+      },
+      {
+        "word": "bank",
+        "phon": "/bæŋk/",
+        "pos": "n.",
+        "cn": "河岸",
+        "eg": ""
+      },
+      {
+        "word": "water",
+        "phon": "/'wɔːtə/",
+        "pos": "n.",
+        "cn": "水",
+        "eg": ""
+      },
+      {
+        "word": "swim",
+        "phon": "/swɪm/",
+        "pos": "v.",
+        "cn": "游泳",
+        "eg": ""
+      },
+      {
+        "word": "across",
+        "phon": "/ə'krɒs/",
+        "pos": "prep.",
+        "cn": "横过",
+        "eg": ""
+      },
+      {
+        "word": "building",
+        "phon": "/'bɪldɪŋ/",
+        "pos": "n.",
+        "cn": "大楼，建筑物",
+        "eg": ""
+      },
+      {
+        "word": "park",
+        "phon": "/pɑːk/",
+        "pos": "n.",
+        "cn": "公园",
+        "eg": ""
+      },
+      {
+        "word": "into",
+        "phon": "/'ɪntʊ; 'ɪntə/",
+        "pos": "prep.",
+        "cn": "进入",
+        "eg": ""
+      },
+      {
+        "word": "beside",
+        "phon": "/bɪ'saɪd/",
+        "pos": "prep.",
+        "cn": "在…旁",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "some 与 any 的用法", "explain": "some 常用于肯定句，any 常用于否定句和疑问句，二者都可修饰不可数名词和复数名词。", "examples": ["There is some sugar in the cup.（杯子里有一些糖。）", "Is there any milk in the bottle?（瓶里有牛奶吗？）"] },
-      { "point": "可数与不可数名词", "explain": "可数名词有单复数（a biscuit / biscuits）；不可数名词（coffee, milk, sugar）无复数，量用 a cup of / a bottle of 表达。", "examples": ["a cup of coffee（一杯咖啡）", "two bottles of milk（两瓶牛奶）"] }
+      {
+        "point": "some 与 any 的用法",
+        "explain": "some 常用于肯定句，any 常用于否定句和疑问句，二者都可修饰不可数名词和复数名词。",
+        "examples": [
+          "There is some sugar in the cup.（杯子里有一些糖。）",
+          "Is there any milk in the bottle?（瓶里有牛奶吗？）"
+        ]
+      },
+      {
+        "point": "可数与不可数名词",
+        "explain": "可数名词有单复数（a biscuit / biscuits）；不可数名词（coffee, milk, sugar）无复数，量用 a cup of / a bottle of 表达。",
+        "examples": [
+          "a cup of coffee（一杯咖啡）",
+          "two bottles of milk（两瓶牛奶）"
+        ]
+      }
     ],
     "tips": "① 肯定句用 some，疑问/否定用 any。② 不可数名词前不加 a/an，也不加复数 -s。③ 表数量借助单位：a cup of coffee, a piece of bread。"
   },
   {
-    "book": 1, "lesson": 49, "title": "At the butcher's", "titleCn": "在肉店",
+    "book": 1,
+    "lesson": 49,
+    "title": "At the butcher's",
+    "titleCn": "在肉店",
     "scene": "顾客在肉店挑选食材，与店员确认要买多少、还有没有存货，涉及重量与数量的问答。重点是 some/any 与 how much/how many。",
-    "grammarTags": ["some/any", "可数不可数"],
+    "grammarTags": [
+      "some/any",
+      "可数不可数"
+    ],
     "words": [
-      { "word": "butcher", "phon": "/ˈbʊtʃə/", "pos": "n.", "cn": "卖肉的人；肉商", "eg": "The butcher is very friendly. 那位肉商很友好。" },
-      { "word": "meat", "phon": "/miːt/", "pos": "n.", "cn": "肉", "eg": "How much meat do you want? 你要多少肉？" },
-      { "word": "beef", "phon": "/biːf/", "pos": "n.", "cn": "牛肉", "eg": "We need some beef. 我们需要一些牛肉。" },
-      { "word": "chicken", "phon": "/ˈtʃɪkɪn/", "pos": "n.", "cn": "鸡；鸡肉", "eg": "There is no chicken today. 今天没有鸡肉。" },
-      { "word": "kilo", "phon": "/ˈkiːləʊ/", "pos": "n.", "cn": "公斤", "eg": "I want two kilos of beef. 我要两公斤牛肉。" },
-      { "word": "egg", "phon": "/eɡ/", "pos": "n.", "cn": "鸡蛋", "eg": "How many eggs do you need? 你需要多少个鸡蛋？" }
+      {
+        "word": "butcher",
+        "phon": "/ˈbʊtʃə/",
+        "pos": "n.",
+        "cn": "卖肉的人；肉商",
+        "eg": "The butcher is very friendly. 那位肉商很友好。"
+      },
+      {
+        "word": "meat",
+        "phon": "/miːt/",
+        "pos": "n.",
+        "cn": "肉",
+        "eg": "How much meat do you want? 你要多少肉？"
+      },
+      {
+        "word": "beef",
+        "phon": "/biːf/",
+        "pos": "n.",
+        "cn": "牛肉",
+        "eg": "We need some beef. 我们需要一些牛肉。"
+      },
+      {
+        "word": "chicken",
+        "phon": "/ˈtʃɪkɪn/",
+        "pos": "n.",
+        "cn": "鸡；鸡肉",
+        "eg": "There is no chicken today. 今天没有鸡肉。"
+      },
+      {
+        "word": "kilo",
+        "phon": "/ˈkiːləʊ/",
+        "pos": "n.",
+        "cn": "公斤",
+        "eg": "I want two kilos of beef. 我要两公斤牛肉。"
+      },
+      {
+        "word": "egg",
+        "phon": "/eɡ/",
+        "pos": "n.",
+        "cn": "鸡蛋",
+        "eg": "How many eggs do you need? 你需要多少个鸡蛋？"
+      },
+      {
+        "word": "off",
+        "phon": "/ɒf/",
+        "pos": "prep.",
+        "cn": "离开",
+        "eg": ""
+      },
+      {
+        "word": "work",
+        "phon": "/wɜːk/",
+        "pos": "v.",
+        "cn": "工作",
+        "eg": ""
+      },
+      {
+        "word": "hard",
+        "phon": "/hɑːd/",
+        "pos": "adv.",
+        "cn": "努力地",
+        "eg": ""
+      },
+      {
+        "word": "make",
+        "phon": "/meɪk/",
+        "pos": "v.",
+        "cn": "做",
+        "eg": ""
+      },
+      {
+        "word": "bookcase",
+        "phon": "/'bʊkkeɪs/",
+        "pos": "n.",
+        "cn": "书橱，书架",
+        "eg": ""
+      },
+      {
+        "word": "hammer",
+        "phon": "/'hæmər/",
+        "pos": "n.",
+        "cn": "锤子",
+        "eg": ""
+      },
+      {
+        "word": "paint",
+        "phon": "/peɪnt/",
+        "pos": "v.",
+        "cn": "上漆，涂",
+        "eg": ""
+      },
+      {
+        "word": "pink",
+        "phon": "/pɪŋk/",
+        "pos": "n.",
+        "cn": "& a.粉红色",
+        "eg": ""
+      },
+      {
+        "word": "favourite",
+        "phon": "/'feɪv(ə)rɪt/",
+        "pos": "a.",
+        "cn": "最喜欢的",
+        "eg": ""
+      },
+      {
+        "word": "homework",
+        "phon": "/'həʊmwɜːk/",
+        "pos": "n.",
+        "cn": "作业",
+        "eg": ""
+      },
+      {
+        "word": "listen",
+        "phon": "/'lɪs(ə)n/",
+        "pos": "v.",
+        "cn": "听",
+        "eg": ""
+      },
+      {
+        "word": "dish",
+        "phon": "/dɪʃ/",
+        "pos": "n.",
+        "cn": "盘子，碟子",
+        "eg": ""
+      },
+      {
+        "word": "front",
+        "phon": "/frʌnt/",
+        "pos": "n.",
+        "cn": "前面",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "how much / how many 提问数量", "explain": "how much 问不可数名词的量（meat, beef），how many 问可数名词复数的数目（eggs）。", "examples": ["How much beef do you want?（你要多少牛肉？）", "How many eggs are there?（有多少个鸡蛋？）"] },
-      { "point": "疑问句中的 any", "explain": "疑问句和否定句一般用 any，修饰不可数名词或复数名词，表示“一些、任何”。", "examples": ["Is there any chicken today?（今天有鸡肉吗？）", "We haven't got any eggs.（我们没有鸡蛋了。）"] }
+      {
+        "point": "how much / how many 提问数量",
+        "explain": "how much 问不可数名词的量（meat, beef），how many 问可数名词复数的数目（eggs）。",
+        "examples": [
+          "How much beef do you want?（你要多少牛肉？）",
+          "How many eggs are there?（有多少个鸡蛋？）"
+        ]
+      },
+      {
+        "point": "疑问句中的 any",
+        "explain": "疑问句和否定句一般用 any，修饰不可数名词或复数名词，表示“一些、任何”。",
+        "examples": [
+          "Is there any chicken today?（今天有鸡肉吗？）",
+          "We haven't got any eggs.（我们没有鸡蛋了。）"
+        ]
+      }
     ],
     "tips": "① how much 问不可数，how many 问可数复数。② how many 后接名词复数。③ 疑问句/否定句里 some 一般换成 any。"
   },
   {
-    "book": 1, "lesson": 51, "title": "A pleasant climate", "titleCn": "宜人的气候",
+    "book": 1,
+    "lesson": 51,
+    "title": "A pleasant climate",
+    "titleCn": "宜人的气候",
     "scene": "两个来自不同地方的人聊各自家乡的天气，说到一年四季通常是什么样、常常下不下雨。重点是一般现在时描述气候。",
-    "grammarTags": ["一般现在时", "疑问句"],
+    "grammarTags": [
+      "一般现在时",
+      "疑问句"
+    ],
     "words": [
-      { "word": "climate", "phon": "/ˈklaɪmət/", "pos": "n.", "cn": "气候", "eg": "The climate here is mild. 这里的气候温和。" },
-      { "word": "pleasant", "phon": "/ˈpleznt/", "pos": "adj.", "cn": "宜人的；令人愉快的", "eg": "We have a pleasant climate. 我们这儿气候宜人。" },
-      { "word": "season", "phon": "/ˈsiːzn/", "pos": "n.", "cn": "季节", "eg": "Autumn is my favourite season. 秋天是我最喜欢的季节。" },
-      { "word": "spring", "phon": "/sprɪŋ/", "pos": "n.", "cn": "春天", "eg": "It is warm in spring. 春天很暖和。" },
-      { "word": "shine", "phon": "/ʃaɪn/", "pos": "v.", "cn": "照耀；发光", "eg": "The sun shines every day. 太阳每天都照耀着。" },
-      { "word": "degree", "phon": "/dɪˈɡriː/", "pos": "n.", "cn": "度（温度单位）", "eg": "It is twenty degrees today. 今天二十度。" }
+      {
+        "word": "climate",
+        "phon": "/ˈklaɪmət/",
+        "pos": "n.",
+        "cn": "气候",
+        "eg": "The climate here is mild. 这里的气候温和。"
+      },
+      {
+        "word": "pleasant",
+        "phon": "/ˈpleznt/",
+        "pos": "adj.",
+        "cn": "宜人的；令人愉快的",
+        "eg": "We have a pleasant climate. 我们这儿气候宜人。"
+      },
+      {
+        "word": "season",
+        "phon": "/ˈsiːzn/",
+        "pos": "n.",
+        "cn": "季节",
+        "eg": "Autumn is my favourite season. 秋天是我最喜欢的季节。"
+      },
+      {
+        "word": "spring",
+        "phon": "/sprɪŋ/",
+        "pos": "n.",
+        "cn": "春天",
+        "eg": "It is warm in spring. 春天很暖和。"
+      },
+      {
+        "word": "shine",
+        "phon": "/ʃaɪn/",
+        "pos": "v.",
+        "cn": "照耀；发光",
+        "eg": "The sun shines every day. 太阳每天都照耀着。"
+      },
+      {
+        "word": "degree",
+        "phon": "/dɪˈɡriː/",
+        "pos": "n.",
+        "cn": "度（温度单位）",
+        "eg": "It is twenty degrees today. 今天二十度。"
+      },
+      {
+        "word": "in front of",
+        "phon": "/ɪn frʌnt əv/",
+        "pos": "",
+        "cn": "在…之前",
+        "eg": ""
+      },
+      {
+        "word": "careful",
+        "phon": "/ˈkeəfl/",
+        "pos": "a.",
+        "cn": "小心的，仔细的",
+        "eg": ""
+      },
+      {
+        "word": "vase",
+        "phon": "/vɑːz/",
+        "pos": "n.",
+        "cn": "花瓶",
+        "eg": ""
+      },
+      {
+        "word": "drop",
+        "phon": "/drɒp/",
+        "pos": "v.",
+        "cn": "掉下",
+        "eg": ""
+      },
+      {
+        "word": "flower",
+        "phon": "/'flaʊə/",
+        "pos": "n.",
+        "cn": "花",
+        "eg": ""
+      },
+      {
+        "word": "show",
+        "phon": "/ʃəʊ/",
+        "pos": "v.",
+        "cn": "给…看",
+        "eg": ""
+      },
+      {
+        "word": "send",
+        "phon": "/send/",
+        "pos": "v.",
+        "cn": "发送",
+        "eg": ""
+      },
+      {
+        "word": "take",
+        "phon": "/teɪk/",
+        "pos": "v.",
+        "cn": "带给",
+        "eg": ""
+      },
+      {
+        "word": "cheese",
+        "phon": "/tʃiːz/",
+        "pos": "n.",
+        "cn": "乳酪，干酪",
+        "eg": ""
+      },
+      {
+        "word": "bread",
+        "phon": "/bred/",
+        "pos": "n.",
+        "cn": "面包",
+        "eg": ""
+      },
+      {
+        "word": "soap",
+        "phon": "/səʊp/",
+        "pos": "n.",
+        "cn": "肥皂",
+        "eg": ""
+      },
+      {
+        "word": "chocolate",
+        "phon": "/'tʃɒk(ə)lət/",
+        "pos": "n.",
+        "cn": "巧克力",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "一般现在时表习惯性/普遍情况", "explain": "描述气候、季节等经常性、规律性的事实用一般现在时，主语为第三人称单数时动词加 -s/-es。", "examples": ["It often rains in autumn.（秋天常下雨。）", "The sun shines in summer.（夏天阳光普照。）"] },
-      { "point": "一般现在时的一般疑问句", "explain": "借助 do/does 提问，主语第三人称单数用 does，后面动词还原为原形。", "examples": ["Does it snow here in winter?（这儿冬天下雪吗？）", "Do you like the climate?（你喜欢这种气候吗？）"] }
+      {
+        "point": "一般现在时表习惯性/普遍情况",
+        "explain": "描述气候、季节等经常性、规律性的事实用一般现在时，主语为第三人称单数时动词加 -s/-es。",
+        "examples": [
+          "It often rains in autumn.（秋天常下雨。）",
+          "The sun shines in summer.（夏天阳光普照。）"
+        ]
+      },
+      {
+        "point": "一般现在时的一般疑问句",
+        "explain": "借助 do/does 提问，主语第三人称单数用 does，后面动词还原为原形。",
+        "examples": [
+          "Does it snow here in winter?（这儿冬天下雪吗？）",
+          "Do you like the climate?（你喜欢这种气候吗？）"
+        ]
+      }
     ],
     "tips": "① 表规律天气用一般现在时，不用进行时。② 第三人称单数动词加 -s：rains, shines。③ 疑问句借助 do/does，后接动词原形。"
   },
   {
-    "book": 1, "lesson": 53, "title": "An interesting climate", "titleCn": "有趣的气候",
+    "book": 1,
+    "lesson": 53,
+    "title": "An interesting climate",
+    "titleCn": "有趣的气候",
     "scene": "一个人向朋友介绍某地四季分明的天气特点，比较不同季节的冷暖差异，觉得这种气候很有意思。重点是一般现在时与形容词比较。",
-    "grammarTags": ["一般现在时", "形容词比较级"],
+    "grammarTags": [
+      "一般现在时",
+      "形容词比较级"
+    ],
     "words": [
-      { "word": "interesting", "phon": "/ˈɪntrəstɪŋ/", "pos": "adj.", "cn": "有趣的", "eg": "This is an interesting book. 这是一本有趣的书。" },
-      { "word": "summer", "phon": "/ˈsʌmə/", "pos": "n.", "cn": "夏天", "eg": "Summer is hotter than spring. 夏天比春天热。" },
-      { "word": "winter", "phon": "/ˈwɪntə/", "pos": "n.", "cn": "冬天", "eg": "Winter is the coldest season. 冬天是最冷的季节。" },
-      { "word": "warm", "phon": "/wɔːm/", "pos": "adj.", "cn": "温暖的", "eg": "It is warm today. 今天很暖和。" },
-      { "word": "cold", "phon": "/kəʊld/", "pos": "adj.", "cn": "寒冷的", "eg": "It gets colder in winter. 冬天变得更冷。" },
-      { "word": "wet", "phon": "/wet/", "pos": "adj.", "cn": "潮湿的；下雨的", "eg": "The weather is wet in autumn. 秋天天气潮湿。" }
+      {
+        "word": "interesting",
+        "phon": "/ˈɪntrəstɪŋ/",
+        "pos": "adj.",
+        "cn": "有趣的",
+        "eg": "This is an interesting book. 这是一本有趣的书。"
+      },
+      {
+        "word": "summer",
+        "phon": "/ˈsʌmə/",
+        "pos": "n.",
+        "cn": "夏天",
+        "eg": "Summer is hotter than spring. 夏天比春天热。"
+      },
+      {
+        "word": "winter",
+        "phon": "/ˈwɪntə/",
+        "pos": "n.",
+        "cn": "冬天",
+        "eg": "Winter is the coldest season. 冬天是最冷的季节。"
+      },
+      {
+        "word": "warm",
+        "phon": "/wɔːm/",
+        "pos": "adj.",
+        "cn": "温暖的",
+        "eg": "It is warm today. 今天很暖和。"
+      },
+      {
+        "word": "cold",
+        "phon": "/kəʊld/",
+        "pos": "adj.",
+        "cn": "寒冷的",
+        "eg": "It gets colder in winter. 冬天变得更冷。"
+      },
+      {
+        "word": "wet",
+        "phon": "/wet/",
+        "pos": "adj.",
+        "cn": "潮湿的；下雨的",
+        "eg": "The weather is wet in autumn. 秋天天气潮湿。"
+      },
+      {
+        "word": "sugar",
+        "phon": "/'ʃʊgə/",
+        "pos": "n.",
+        "cn": "糖",
+        "eg": ""
+      },
+      {
+        "word": "coffee",
+        "phon": "/'kɒfɪ/",
+        "pos": "n.",
+        "cn": "咖啡",
+        "eg": ""
+      },
+      {
+        "word": "tea",
+        "phon": "/tiː/",
+        "pos": "n.",
+        "cn": "茶",
+        "eg": ""
+      },
+      {
+        "word": "tobacco",
+        "phon": "/tə'bækəʊ/",
+        "pos": "n.",
+        "cn": "烟草，烟丝",
+        "eg": ""
+      },
+      {
+        "word": "bird",
+        "phon": "/bɜːd/",
+        "pos": "n.",
+        "cn": "鸟",
+        "eg": ""
+      },
+      {
+        "word": "any",
+        "phon": "/'enɪ/",
+        "pos": "det.",
+        "cn": "一些",
+        "eg": ""
+      },
+      {
+        "word": "some",
+        "phon": "/sʌm;səm/",
+        "pos": "det.",
+        "cn": "一些",
+        "eg": ""
+      },
+      {
+        "word": "of course",
+        "phon": "/əv'kɔ:s/",
+        "pos": "",
+        "cn": "当然",
+        "eg": ""
+      },
+      {
+        "word": "kettle",
+        "phon": "/'ket(ə)l/",
+        "pos": "n.",
+        "cn": "水壶",
+        "eg": ""
+      },
+      {
+        "word": "behind",
+        "phon": "/bɪ'haɪnd/",
+        "pos": "prep.",
+        "cn": "在…后面",
+        "eg": ""
+      },
+      {
+        "word": "teapot",
+        "phon": "/'tiːpɒt/",
+        "pos": "n.",
+        "cn": "茶壶",
+        "eg": ""
+      },
+      {
+        "word": "now",
+        "phon": "/naʊ/",
+        "pos": "adv.",
+        "cn": "现在，此刻",
+        "eg": ""
+      },
+      {
+        "word": "find",
+        "phon": "/faɪnd/",
+        "pos": "v.",
+        "cn": "找到",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "形容词比较级 -er / more", "explain": "两者比较用比较级：短形容词加 -er（colder, warmer），后接 than；多音节形容词用 more + 原级。", "examples": ["Summer is warmer than spring.（夏天比春天暖和。）", "This climate is more interesting than that one.（这种气候比那种更有趣。）"] },
-      { "point": "一般现在时叙述气候特征", "explain": "描述某地一年四季的规律性天气用一般现在时，动词第三人称单数加 -s。", "examples": ["It rains a lot in autumn.（秋天常下雨。）", "The weather changes quickly here.（这儿天气变化很快。）"] }
+      {
+        "point": "形容词比较级 -er / more",
+        "explain": "两者比较用比较级：短形容词加 -er（colder, warmer），后接 than；多音节形容词用 more + 原级。",
+        "examples": [
+          "Summer is warmer than spring.（夏天比春天暖和。）",
+          "This climate is more interesting than that one.（这种气候比那种更有趣。）"
+        ]
+      },
+      {
+        "point": "一般现在时叙述气候特征",
+        "explain": "描述某地一年四季的规律性天气用一般现在时，动词第三人称单数加 -s。",
+        "examples": [
+          "It rains a lot in autumn.（秋天常下雨。）",
+          "The weather changes quickly here.（这儿天气变化很快。）"
+        ]
+      }
     ],
     "tips": "① 比较级：短词 + er，长词用 more。② 比较对象前用 than。③ 表规律天气仍用一般现在时。"
   },
   {
-    "book": 1, "lesson": 55, "title": "The Sawyer family", "titleCn": "索耶一家",
+    "book": 1,
+    "lesson": 55,
+    "title": "The Sawyer family",
+    "titleCn": "索耶一家",
     "scene": "介绍一个普通家庭每天的作息：谁通常几点起床、常做什么、晚上一般一起做什么，勾勒出他们规律的日常。重点是一般现在时与频率副词。",
-    "grammarTags": ["频率副词", "一般现在时"],
+    "grammarTags": [
+      "频率副词",
+      "一般现在时"
+    ],
     "words": [
-      { "word": "family", "phon": "/ˈfæməli/", "pos": "n.", "cn": "家庭；家人", "eg": "My family is very big. 我家人很多。" },
-      { "word": "always", "phon": "/ˈɔːlweɪz/", "pos": "adv.", "cn": "总是", "eg": "He always gets up early. 他总是起得很早。" },
-      { "word": "usually", "phon": "/ˈjuːʒuəli/", "pos": "adv.", "cn": "通常", "eg": "We usually have dinner at seven. 我们通常七点吃晚饭。" },
-      { "word": "evening", "phon": "/ˈiːvnɪŋ/", "pos": "n.", "cn": "傍晚；晚上", "eg": "They read in the evening. 他们晚上看书。" },
-      { "word": "together", "phon": "/təˈɡeðə/", "pos": "adv.", "cn": "一起", "eg": "We watch TV together. 我们一起看电视。" },
-      { "word": "sometimes", "phon": "/ˈsʌmtaɪmz/", "pos": "adv.", "cn": "有时", "eg": "Sometimes he walks to work. 有时他步行去上班。" }
+      {
+        "word": "family",
+        "phon": "/ˈfæməli/",
+        "pos": "n.",
+        "cn": "家庭；家人",
+        "eg": "My family is very big. 我家人很多。"
+      },
+      {
+        "word": "always",
+        "phon": "/ˈɔːlweɪz/",
+        "pos": "adv.",
+        "cn": "总是",
+        "eg": "He always gets up early. 他总是起得很早。"
+      },
+      {
+        "word": "usually",
+        "phon": "/ˈjuːʒuəli/",
+        "pos": "adv.",
+        "cn": "通常",
+        "eg": "We usually have dinner at seven. 我们通常七点吃晚饭。"
+      },
+      {
+        "word": "evening",
+        "phon": "/ˈiːvnɪŋ/",
+        "pos": "n.",
+        "cn": "傍晚；晚上",
+        "eg": "They read in the evening. 他们晚上看书。"
+      },
+      {
+        "word": "together",
+        "phon": "/təˈɡeðə/",
+        "pos": "adv.",
+        "cn": "一起",
+        "eg": "We watch TV together. 我们一起看电视。"
+      },
+      {
+        "word": "sometimes",
+        "phon": "/ˈsʌmtaɪmz/",
+        "pos": "adv.",
+        "cn": "有时",
+        "eg": "Sometimes he walks to work. 有时他步行去上班。"
+      },
+      {
+        "word": "boil",
+        "phon": "/bɒɪl/",
+        "pos": "v.",
+        "cn": "沸腾，开",
+        "eg": ""
+      },
+      {
+        "word": "can",
+        "phon": "/kæn/",
+        "pos": "",
+        "cn": "能够",
+        "eg": ""
+      },
+      {
+        "word": "boss",
+        "phon": "/bɒs/",
+        "pos": "n.",
+        "cn": "老板，上司",
+        "eg": ""
+      },
+      {
+        "word": "minute",
+        "phon": "/'mɪnɪt/",
+        "pos": "n.",
+        "cn": "分(钟)",
+        "eg": ""
+      },
+      {
+        "word": "ask",
+        "phon": "/ɑːsk/",
+        "pos": "v.",
+        "cn": "请求，要求",
+        "eg": ""
+      },
+      {
+        "word": "handwriting",
+        "phon": "/'hændraɪtɪŋ/",
+        "pos": "n.",
+        "cn": "书写",
+        "eg": ""
+      },
+      {
+        "word": "terrible",
+        "phon": "/ˈterəbl/",
+        "pos": "a.",
+        "cn": "糟糕的，可怕的",
+        "eg": ""
+      },
+      {
+        "word": "lift",
+        "phon": "/lɪft/",
+        "pos": "v.",
+        "cn": "拿起，搬起，举起",
+        "eg": ""
+      },
+      {
+        "word": "cake",
+        "phon": "/keɪk/",
+        "pos": "n.",
+        "cn": "饼，蛋糕",
+        "eg": ""
+      },
+      {
+        "word": "biscuit",
+        "phon": "/'bɪskɪt/",
+        "pos": "n.",
+        "cn": "饼干",
+        "eg": ""
+      },
+      {
+        "word": "like",
+        "phon": "/laɪk/",
+        "pos": "v.",
+        "cn": "喜欢，想要",
+        "eg": ""
+      },
+      {
+        "word": "want",
+        "phon": "/wɒnt/",
+        "pos": "v.",
+        "cn": "想",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "频率副词的位置", "explain": "always, usually, often, sometimes 等频率副词一般放在实义动词之前、be 动词之后。", "examples": ["She usually gets up at six.（她通常六点起床。）", "He is always busy in the morning.（他早上总是很忙。）"] },
-      { "point": "一般现在时描述日常", "explain": "叙述家庭成员每天规律性的活动用一般现在时，主语第三人称单数动词加 -s/-es。", "examples": ["He goes to work at eight.（他八点去上班。）", "They watch TV every evening.（他们每天晚上看电视。）"] }
+      {
+        "point": "频率副词的位置",
+        "explain": "always, usually, often, sometimes 等频率副词一般放在实义动词之前、be 动词之后。",
+        "examples": [
+          "She usually gets up at six.（她通常六点起床。）",
+          "He is always busy in the morning.（他早上总是很忙。）"
+        ]
+      },
+      {
+        "point": "一般现在时描述日常",
+        "explain": "叙述家庭成员每天规律性的活动用一般现在时，主语第三人称单数动词加 -s/-es。",
+        "examples": [
+          "He goes to work at eight.（他八点去上班。）",
+          "They watch TV every evening.（他们每天晚上看电视。）"
+        ]
+      }
     ],
     "tips": "① 频率副词多放在实义动词前、be 动词后。② always/usually/sometimes 常与一般现在时搭配。③ 第三人称单数别忘动词加 -s：gets, goes, watches。"
   }

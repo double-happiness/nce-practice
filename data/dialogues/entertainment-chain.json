@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-fun-01",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Pick a Movie",
+    "titleCn": "第1环：选电影",
+    "scene": "你和朋友说今晚看电影，商量看哪部。（对话链：休闲娱乐）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "看动作片还是喜剧？", "en": "Action or comedy?" },
+      { "role": "You", "cn": "动作片吧，七点那场怎么样？", "en": "Action. How about the seven o'clock show?" },
+      { "role": "Friend", "cn": "行，网上订票还是现场买？", "en": "Sure. Book online or at the box office?" },
+      { "role": "You", "cn": "网上吧，能选座。", "en": "Online. We can pick seats." },
+      { "role": "Friend", "cn": "好，我来看场次。", "en": "Okay. I'll check showtimes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-02",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Buy Tickets",
+    "titleCn": "第2环：买电影票",
+    "scene": "你在电影院售票处取票。（对话链：休闲娱乐）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，看哪场？", "en": "Hi, which showtime?" },
+      { "role": "You", "cn": "七点那场动作片，网上订了两张。", "en": "The seven o'clock action movie. I booked two online." },
+      { "role": "Clerk", "cn": "请出示确认码。", "en": "Confirmation code, please?" },
+      { "role": "You", "cn": "在这，能买爆米花套餐吗？", "en": "Here it is. Can I add a popcorn combo?" },
+      { "role": "Clerk", "cn": "加十二块，七号厅在这边。", "en": "Twelve more. Theater seven is this way." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-03",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Wrong Theater",
+    "titleCn": "第3环：走错影厅",
+    "scene": "你们进了影厅发现是错的，问工作人员。（对话链：休闲娱乐）",
+    "roles": ["You", "Usher"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我们应该是七号厅。", "en": "Sorry, we should be in theater seven." },
+      { "role": "Usher", "cn": "这是六号，七号在楼上左转。", "en": "This is six. Seven is upstairs on the left." },
+      { "role": "You", "cn": "电影开始了吗？", "en": "Has the movie started?" },
+      { "role": "Usher", "cn": "刚放预告，还来得及。", "en": "Just previews. You still have time." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-04",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: After the Movie",
+    "titleCn": "第4环：散场讨论",
+    "scene": "电影散场，你和朋友聊观后感。（对话链：休闲娱乐）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "结局没想到吧？", "en": "Did you see that ending coming?" },
+      { "role": "You", "cn": "完全没想到，特效不错。", "en": "Not at all. The effects were great." },
+      { "role": "Friend", "cn": "去打保龄球还是直接回家？", "en": "Bowling or head home?" },
+      { "role": "You", "cn": "保龄球吧，还早。", "en": "Bowling. It's still early." },
+      { "role": "Friend", "cn": "走，我知道一家开到半夜。", "en": "Let's go. I know a place open late." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-05",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Bowling Alley",
+    "titleCn": "第5环：打保龄球",
+    "scene": "你和朋友去保龄球馆。（对话链：休闲娱乐）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "几位？玩多久？", "en": "How many people, and how long?" },
+      { "role": "You", "cn": "两个人，一小时。", "en": "Two of us, one hour." },
+      { "role": "Staff", "cn": "鞋码多少？租鞋每人五块。", "en": "Shoe sizes? Rental is five per person." },
+      { "role": "You", "cn": "九和十，要轻一点的球。", "en": "Nine and ten. We'd like lighter balls." },
+      { "role": "Staff", "cn": "6号道空着，屏幕会记分。", "en": "Lane six is open. The screen keeps score." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Great. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-06",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Arcade Games",
+    "titleCn": "第6环：电玩城",
+    "scene": "保龄球馆旁边有电玩，你去买游戏币。（对话链：休闲娱乐）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "二十块能换多少币？", "en": "How many tokens for twenty dollars?" },
+      { "role": "Clerk", "cn": "四十个，买五十送十个。", "en": "Forty. Fifty gets you ten bonus tokens." },
+      { "role": "You", "cn": "那就五十的吧。", "en": "I'll take fifty then." },
+      { "role": "Clerk", "cn": "刷卡还是现金？", "en": "Card or cash?" },
+      { "role": "You", "cn": "刷卡。", "en": "Card." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-07",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Late Night Snack",
+    "titleCn": "第7环：深夜小吃",
+    "scene": "玩完你们去附近餐车买夜宵。（对话链：休闲娱乐）",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "要什么？热狗还是炸鸡？", "en": "What'll it be? Hot dog or fried chicken?" },
+      { "role": "You", "cn": "两个热狗，多加洋葱。", "en": "Two hot dogs, extra onions." },
+      { "role": "Vendor", "cn": "饮料呢？", "en": "Anything to drink?" },
+      { "role": "You", "cn": "两杯可乐。", "en": "Two Cokes." },
+      { "role": "Vendor", "cn": "十四块。", "en": "Fourteen dollars." },
+      { "role": "You", "cn": "现金，谢谢。", "en": "Cash. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fun-08",
+    "category": "entertainment",
+    "chain": {
+      "id": "night-out",
+      "title": "A Night Out for Fun",
+      "titleCn": "对话链：休闲娱乐一晚",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Head Home",
+    "titleCn": "第8环：回家道别",
+    "scene": "深夜你们各自打车回家。（对话链：休闲娱乐）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "今晚玩得开心，你球技进步了。", "en": "Fun night. Your bowling's getting better." },
+      { "role": "You", "cn": "你也是，下次看演唱会？", "en": "You too. Concert next time?" },
+      { "role": "Friend", "cn": "好啊，有票告诉我。", "en": "Sure. Let me know when you get tickets." },
+      { "role": "You", "cn": "一定，路上小心。", "en": "Will do. Get home safe." },
+      { "role": "Friend", "cn": "你也是，晚安。", "en": "You too. Good night." }
+    ]
+  }
+]

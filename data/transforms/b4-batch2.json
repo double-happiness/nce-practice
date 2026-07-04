@@ -1,0 +1,446 @@
+[
+  {
+    "id": "tf-b4-013",
+    "book": 4,
+    "lesson": 13,
+    "grammar": ["定语从句", "被动语态"],
+    "cn": "地质学家标定了石油可能历经数百万年积聚的区域。",
+    "explanation": "areas where 定语从句表地点；have been located 现在完成时被动表至今结果。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Geologists have identified areas where oil may have accumulated over millions of years.",
+          "Geologists have located areas where oil may have accumulated for millions of years."
+        ],
+        "cn": "地质学家标定了石油可能历经数百万年积聚的区域。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态（强调区域被标定）",
+        "answers": [
+          "Areas where oil may have accumulated over millions of years have been identified by geologists.",
+          "Areas where oil may have accumulated over millions of years have been located."
+        ],
+        "cn": "石油可能历经数百万年积聚的区域已被标定。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「millions of years」提问（问时间多久）",
+        "answers": [
+          "How long may oil have accumulated in the areas identified by geologists?",
+          "For how long may oil have accumulated in those areas?"
+        ],
+        "cn": "石油在那些区域可能积聚了多久？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-014",
+    "book": 4,
+    "lesson": 14,
+    "grammar": ["虚拟语气", "倒装"],
+    "cn": "若初始温度略高一点，整个天气模式便会改变。",
+    "explanation": "if + 过去式表与现在事实相反的假设；Had ... been 置句首可省略 if 构成倒装。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "If the initial temperature were even slightly higher, the entire weather pattern would change.",
+          "If the initial temperature had been even slightly higher, the entire weather pattern would have changed."
+        ],
+        "cn": "若初始温度略高一点，整个天气模式便会改变。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "用 Had 置句首改写（省略 if）",
+        "answers": [
+          "Had the initial temperature been even slightly higher, the entire weather pattern would have changed.",
+          "Had the initial temperature been a fraction higher, the entire pattern would have altered."
+        ],
+        "cn": "若初始温度略高一点，整个天气模式便会改变。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the entire weather pattern」提问（问\"什么会改变\"）",
+        "answers": [
+          "What would have changed if the initial temperature had been even slightly higher?",
+          "What would change if the initial temperature were even slightly higher?"
+        ],
+        "cn": "若初始温度略高一点，什么会改变？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-015",
+    "book": 4,
+    "lesson": 15,
+    "grammar": ["同位语从句", "定语从句"],
+    "cn": "工业间谍活动普遍存在这一事实令许多高管担忧。",
+    "explanation": "the fact that 引导同位语从句解释 fact 的内容；that 在从句中不作成分。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The fact that industrial espionage is widespread alarms many executives.",
+          "The fact that industrial espionage is common worries many executives."
+        ],
+        "cn": "工业间谍活动普遍存在这一事实令许多高管担忧。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「many executives」提问（问\"令谁担忧\"）",
+        "answers": [
+          "Who does the fact that industrial espionage is widespread alarm?",
+          "Whom does the fact that industrial espionage is widespread worry?"
+        ],
+        "cn": "工业间谍活动普遍存在这一事实令谁担忧？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非所有高管都担忧）",
+        "answers": [
+          "The fact that industrial espionage is widespread does not alarm all executives.",
+          "Not all executives are alarmed by the fact that industrial espionage is widespread."
+        ],
+        "cn": "工业间谍活动普遍存在这一事实并非令所有高管担忧。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-016",
+    "book": 4,
+    "lesson": 16,
+    "grammar": ["非谓语动词", "强调句"],
+    "cn": "正是大都市的巨大规模使其如此难以管理。",
+    "explanation": "It is ... that 强调句突出被强调部分；flocking to cities 现在分词作定语表主动。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is the sheer scale of the metropolis that makes it so difficult to manage.",
+          "It is the enormous size of the modern city that makes it so hard to manage."
+        ],
+        "cn": "正是大都市的巨大规模使其如此难以管理。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为普通陈述句（去掉强调）",
+        "answers": [
+          "The sheer scale of the metropolis makes it so difficult to manage.",
+          "The enormous size of the modern city makes it so hard to manage."
+        ],
+        "cn": "大都市的巨大规模使其如此难以管理。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the sheer scale of the metropolis」提问（问\"是什么使其难以管理\"）",
+        "answers": [
+          "What is it that makes the metropolis so difficult to manage?",
+          "What makes the metropolis so difficult to manage?"
+        ],
+        "cn": "是什么使大都市如此难以管理？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-017",
+    "book": 4,
+    "lesson": 17,
+    "grammar": ["被动语态", "虚拟语气"],
+    "cn": "为控制疫情，数百万头牛被屠宰。",
+    "explanation": "were slaughtered 一般过去时被动；if + had done 表对过去的虚拟假设。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Millions of cattle were slaughtered to contain the epidemic.",
+          "Millions of cattle were slaughtered to control the outbreak."
+        ],
+        "cn": "为控制疫情，数百万头牛被屠宰。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "Authorities slaughtered millions of cattle to contain the epidemic.",
+          "The government slaughtered millions of cattle to control the outbreak."
+        ],
+        "cn": "当局为控制疫情屠宰了数百万头牛。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Millions of cattle」提问（问\"什么被屠宰\"）",
+        "answers": [
+          "What were slaughtered to contain the epidemic?",
+          "What was slaughtered to control the outbreak?"
+        ],
+        "cn": "为控制疫情，什么被屠宰了？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-018",
+    "book": 4,
+    "lesson": 18,
+    "grammar": ["虚拟语气", "倒装"],
+    "cn": "若保护法规更早实施，无数鼠海豚本可获救。",
+    "explanation": "if + had done，主句 would have done 表与过去事实相反；Had 置句首省略 if。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "If conservation laws had been enforced earlier, countless porpoises would have been saved.",
+          "If protection laws had been introduced sooner, many porpoises would have been saved."
+        ],
+        "cn": "若保护法规更早实施，无数鼠海豚本可获救。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "用 Had 置句首改写（省略 if）",
+        "answers": [
+          "Had conservation laws been enforced earlier, countless porpoises would have been saved.",
+          "Had protection laws been introduced sooner, many porpoises would have been saved."
+        ],
+        "cn": "若保护法规更早实施，无数鼠海豚本可获救。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「countless porpoises」提问（问\"什么本可获救\"）",
+        "answers": [
+          "What would have been saved if conservation laws had been enforced earlier?",
+          "What would have been saved had protection laws been introduced sooner?"
+        ],
+        "cn": "若保护法规更早实施，什么本可获救？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-019",
+    "book": 4,
+    "lesson": 19,
+    "grammar": ["同位语从句", "非谓语动词"],
+    "cn": "弗洛伊德持有这一信念：梦是通往潜意识的皇家大道。",
+    "explanation": "the belief that 同位语从句说明 belief 内容；studying dreams 动名词作主语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Freud held the belief that dreams are the royal road to the unconscious.",
+          "Freud believed that dreams are the royal road to the unconscious mind."
+        ],
+        "cn": "弗洛伊德持有这一信念：梦是通往潜意识的皇家大道。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the royal road to the unconscious」提问（问\"梦是什么\"）",
+        "answers": [
+          "What did Freud believe dreams are?",
+          "What did Freud hold the belief that dreams are?"
+        ],
+        "cn": "弗洛伊德认为梦是什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非所有人都接受这一信念）",
+        "answers": [
+          "Not everyone accepts the belief that dreams are the royal road to the unconscious.",
+          "Not all psychologists share the belief that dreams are the royal road to the unconscious."
+        ],
+        "cn": "并非所有人都接受梦是通往潜意识皇家大道这一信念。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-020",
+    "book": 4,
+    "lesson": 20,
+    "grammar": ["定语从句", "被动语态"],
+    "cn": "从毒液中分离出的化合物用于心脏病药物。",
+    "explanation": "compounds that have been isolated 定语从句；are used 一般现在时被动表用途。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Compounds that have been isolated from venom are used in medicines for heart disease.",
+          "Compounds isolated from snake venom are used in heart medication."
+        ],
+        "cn": "从毒液中分离出的化合物用于心脏病药物。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "强调化合物被分离的过程（改为完成时被动主句）",
+        "answers": [
+          "Useful compounds have been isolated from venom for use in heart medication.",
+          "Useful compounds have been isolated from snake venom to treat heart disease."
+        ],
+        "cn": "有用化合物已从毒液中分离出来，用于治疗心脏病。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「heart disease」提问（问\"用于治疗什么\"）",
+        "answers": [
+          "What are compounds isolated from venom used to treat?",
+          "What disease are compounds from venom used to treat?"
+        ],
+        "cn": "从毒液中分离出的化合物用于治疗什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-021",
+    "book": 4,
+    "lesson": 21,
+    "grammar": ["定语从句", "过去完成时"],
+    "cn": "他回到斯特拉特福时，已写完大部分主要戏剧。",
+    "explanation": "By the time + 过去时，主句用过去完成时表更早完成的动作；plays that he wrote 定语从句。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "By the time he returned to Stratford, Shakespeare had written most of his major plays.",
+          "By the time he went back to Stratford, he had written most of his greatest plays."
+        ],
+        "cn": "他回到斯特拉特福时，已写完大部分主要戏剧。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「most of his major plays」提问（问\"已写完什么\"）",
+        "answers": [
+          "What had Shakespeare written by the time he returned to Stratford?",
+          "What had he written by the time he went back to Stratford?"
+        ],
+        "cn": "他回到斯特拉特福时，已写完什么？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Had Shakespeare written most of his major plays by the time he returned to Stratford?",
+          "Had he written most of his greatest plays by the time he went back to Stratford?"
+        ],
+        "cn": "他回到斯特拉特福时，已写完大部分主要戏剧了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-022",
+    "book": 4,
+    "lesson": 22,
+    "grammar": ["虚拟语气", "倒装"],
+    "cn": "若他知道包裹内容，本会在海关申报。",
+    "explanation": "if + had done，主句 would have done 表与过去事实相反；Had he known 倒装省略 if。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "If he had known the contents of the packages, he would have declared them at customs.",
+          "If he had known what was inside, he would have declared the goods at customs."
+        ],
+        "cn": "若他知道包裹内容，本会在海关申报。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "用 Had 置句首改写（省略 if）",
+        "answers": [
+          "Had he known the contents of the packages, he would have declared them at customs.",
+          "Had he known what was inside, he would have declared the goods at customs."
+        ],
+        "cn": "若他知道包裹内容，本会在海关申报。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at customs」提问（问\"会在哪里申报\"）",
+        "answers": [
+          "Where would he have declared the packages if he had known the contents?",
+          "Where would he have declared the goods had he known what was inside?"
+        ],
+        "cn": "若他知道内容，会在哪里申报？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-023",
+    "book": 4,
+    "lesson": 23,
+    "grammar": ["词汇辨析", "非谓语动词"],
+    "cn": "许多人偏爱辛辣食物而非清淡菜肴。",
+    "explanation": "prefer A to B 中 to 是介词；enjoy/appreciate 后接 doing 或名词。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Many people prefer spicy food to bland dishes.",
+          "Many people prefer highly spiced food to mild dishes."
+        ],
+        "cn": "许多人偏爱辛辣食物而非清淡菜肴。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非所有人都偏爱辛辣）",
+        "answers": [
+          "Not everyone prefers spicy food to bland dishes.",
+          "Not all people prefer highly spiced food to mild dishes."
+        ],
+        "cn": "并非所有人都偏爱辛辣食物而非清淡菜肴。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「spicy food」提问（问\"偏爱什么\"）",
+        "answers": [
+          "What do many people prefer to bland dishes?",
+          "What do many people prefer rather than bland dishes?"
+        ],
+        "cn": "许多人偏爱什么而非清淡菜肴？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-024",
+    "book": 4,
+    "lesson": 24,
+    "grammar": ["定语从句", "强调句"],
+    "cn": "正是在一只旧橱柜里，古董商有了那可怕的发现。",
+    "explanation": "It was ... that 强调句；the cupboard in which 定语从句表地点。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It was inside an old cupboard that the dealer made the grisly discovery.",
+          "It was in an old cupboard that the antique dealer found the skeleton."
+        ],
+        "cn": "正是在一只旧橱柜里，古董商有了那可怕的发现。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为普通陈述句（去掉强调）",
+        "answers": [
+          "The dealer made the grisly discovery inside an old cupboard.",
+          "The antique dealer found the skeleton in an old cupboard."
+        ],
+        "cn": "古董商在一只旧橱柜里有了那可怕的发现。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「inside an old cupboard」提问（问\"在哪里发现\"）",
+        "answers": [
+          "Where did the dealer make the grisly discovery?",
+          "Where was it that the antique dealer found the skeleton?"
+        ],
+        "cn": "古董商在哪里有了那可怕的发现？"
+      }
+    ]
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-nehb-01",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Borrow Something",
+    "titleCn": "第1环：借东西",
+    "scene": "你做蛋糕缺鸡蛋，去敲邻居门。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，能借三个鸡蛋吗？明天还。", "en": "Sorry to bother you. Could I borrow three eggs? I'll replace them tomorrow." },
+      { "role": "Neighbor", "cn": "当然，等一下。", "en": "Of course. One moment." },
+      { "role": "You", "cn": "太感谢了，做蛋糕急用。", "en": "Thanks so much. I need them for a cake." },
+      { "role": "Neighbor", "cn": "没事，邻里之间嘛。", "en": "No problem. That's what neighbors are for." },
+      { "role": "You", "cn": "做好了分你一块。", "en": "I'll bring you a slice when it's done." },
+      { "role": "Neighbor", "cn": "好啊，期待！", "en": "I'd love that!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-02",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Hold a Package",
+    "titleCn": "第2环：代收快递",
+    "scene": "你帮邻居代收快递。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "明天有快递能帮我收一下吗？我不在家。", "en": "Could you grab a package for me tomorrow? I won't be home." },
+      { "role": "You", "cn": "可以，放我门口就行。", "en": "Sure. They can leave it at my door." },
+      { "role": "Neighbor", "cn": "到了我发短信，晚上来取。", "en": "I'll text when it arrives. I'll pick it up tonight." },
+      { "role": "You", "cn": "好，别太晚，我十点睡。", "en": "Okay. Not too late—I sleep around ten." },
+      { "role": "Neighbor", "cn": "九点前到，谢谢！", "en": "Before nine. Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-03",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Noise Issue",
+    "titleCn": "第3环：噪音问题",
+    "scene": "邻居装修太吵，你礼貌去沟通。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，装修能十点后再钻吗？孩子在睡。", "en": "Sorry, could drilling wait until after ten? My kid's sleeping." },
+      { "role": "Neighbor", "cn": "抱歉不知道，我让工人下午再弄。", "en": "Sorry, I didn't realize. I'll have them do it this afternoon." },
+      { "role": "You", "cn": "谢谢理解，大概装多久？", "en": "Thanks for understanding. How long will the work take?" },
+      { "role": "Neighbor", "cn": "这周内完工，尽量安静。", "en": "Should finish this week. We'll keep it as quiet as we can." },
+      { "role": "You", "cn": "好，有事随时说。", "en": "Okay. Let me know if anything comes up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-04",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Water Leak",
+    "titleCn": "第4环：漏水应急",
+    "scene": "楼上漏水到你家，你紧急联系邻居。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "您好，我家天花板在滴水，能上楼看看吗？", "en": "Hi, water's dripping through my ceiling. Can we check upstairs?" },
+      { "role": "Neighbor", "cn": "天哪，我马上关总阀！", "en": "Oh no. I'll shut off the main valve right now!" },
+      { "role": "You", "cn": "我也联系了物业。", "en": "I've called building management too." },
+      { "role": "Neighbor", "cn": "是洗衣机接口松了，对不起。", "en": "The washer hookup was loose. I'm so sorry." },
+      { "role": "You", "cn": "人没事就好，一起等物业。", "en": "As long as everyone's okay. Let's wait for management together." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-05",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Share Tools",
+    "titleCn": "第5环：借工具",
+    "scene": "邻居向你借电钻。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "能借电钻挂幅画吗？半小时就还。", "en": "Could I borrow your drill to hang a picture? Half an hour tops." },
+      { "role": "You", "cn": "在储物间，钻头在盒子里。", "en": "It's in the storage room. Bits are in the case." },
+      { "role": "Neighbor", "cn": "需要几个膨胀螺丝，你有吗？", "en": "I need wall anchors. Do you have any?" },
+      { "role": "You", "cn": "有，我给你拿几个。", "en": "Yes. I'll grab a few for you." },
+      { "role": "Neighbor", "cn": "太感谢，挂完请你喝咖啡。", "en": "Thanks a lot. Coffee's on me when I'm done." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-06",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pet Sitting",
+    "titleCn": "第6环：帮忙看宠物",
+    "scene": "你出差，请邻居帮忙喂猫。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "周五到周日能帮忙喂猫吗？钥匙给你。", "en": "Could you feed my cat Friday through Sunday? I'll give you a key." },
+      { "role": "Neighbor", "cn": "没问题，一天喂两次？", "en": "No problem. Twice a day?" },
+      { "role": "You", "cn": "对，粮在水碗旁，猫砂在阳台。", "en": "Yes. Food's by the water bowl. Litter box is on the balcony." },
+      { "role": "Neighbor", "cn": "猫怕生吗？", "en": "Is the cat shy?" },
+      { "role": "You", "cn": "有点，放粮就行不用抱。", "en": "A bit. Just leave food, no need to hold her." },
+      { "role": "Neighbor", "cn": "好，每天给你发照片。", "en": "Okay. I'll send you photos each day." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-07",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Block Party",
+    "titleCn": "第7环：街区聚会",
+    "scene": "邻居邀请你参加楼下街区烧烤。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "周六楼下街区烧烤，来吗？", "en": "Block barbecue Saturday downstairs. Coming?" },
+      { "role": "You", "cn": "好啊，要带什么？", "en": "Sure. What should I bring?" },
+      { "role": "Neighbor", "cn": "饮料或沙拉都行，肉我们准备。", "en": "Drinks or a salad. We're providing the meat." },
+      { "role": "You", "cn": "我带沙拉和果汁。", "en": "I'll bring salad and juice." },
+      { "role": "Neighbor", "cn": "下午四点开始，欢迎带孩子。", "en": "Starts at four PM. Kids are welcome." },
+      { "role": "You", "cn": "一定到。", "en": "We'll be there." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nehb-08",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-help",
+      "title": "Helping Each Other as Neighbors",
+      "titleCn": "对话链：邻里互助",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Thank the Neighbor",
+    "titleCn": "第8环：感谢邻居",
+    "scene": "出差回来，你带礼物感谢邻居。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "谢谢帮忙照顾猫，这是旅行带的小礼物。", "en": "Thanks for watching the cat. Brought you a little gift from my trip." },
+      { "role": "Neighbor", "cn": "太客气了！猫很乖，天天蹲门口等我。", "en": "That's so kind! She was great—waited by the door every day." },
+      { "role": "You", "cn": "照片都看了，真心感谢。", "en": "I saw all the photos. Really appreciate it." },
+      { "role": "Neighbor", "cn": "以后互相帮忙，别客气。", "en": "Anytime. We're neighbors." },
+      { "role": "You", "cn": "对，有事随时找我。", "en": "Same. Call me anytime you need something." }
+    ]
+  }
+]

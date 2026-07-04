@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-kids-01",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Plan the Outing",
+    "titleCn": "第1环：计划出游",
+    "scene": "周六早上你和配偶商量带孩子去哪。（对话链：亲子）",
+    "roles": ["You", "Spouse"],
+    "turns": [
+      { "role": "Spouse", "cn": "今天去动物园还是公园？", "en": "Zoo or park today?" },
+      { "role": "You", "cn": "动物园吧，孩子想看熊猫。", "en": "Zoo. The kid wants to see pandas." },
+      { "role": "Spouse", "cn": "带零食、水壶和换洗衣服。", "en": "Pack snacks, water bottles, and a change of clothes." },
+      { "role": "You", "cn": "推车也带上，下午可能要睡。", "en": "Bring the stroller too. Might nap in the afternoon." },
+      { "role": "Spouse", "cn": "好，十点出发。", "en": "Okay. Leave at ten." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-02",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Buy Tickets",
+    "titleCn": "第2环：买票入园",
+    "scene": "你们在动物园门口买票。（对话链：亲子）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "两位大人和一个小孩对吗？", "en": "Two adults and one child?" },
+      { "role": "You", "cn": "对，孩子五岁，有儿童票吗？", "en": "Yes. She's five. Is there a child rate?" },
+      { "role": "Clerk", "cn": "五岁以下免费，给您三张票。", "en": "Under five is free. Here are three tickets." },
+      { "role": "You", "cn": "地图有吗？熊猫馆在哪？", "en": "Do you have a map? Where's the panda exhibit?" },
+      { "role": "Clerk", "cn": "入口右手边拿地图，熊猫在东北区。", "en": "Maps on the right. Pandas are in the northeast section." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-03",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: At the Playground",
+    "titleCn": "第3环：儿童乐园",
+    "scene": "孩子在游乐场玩，你和其他家长聊天。（对话链：亲子）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "你家也是第一次来这个动物园？", "en": "First time at this zoo for you too?" },
+      { "role": "You", "cn": "对，平时太忙，难得周末出来。", "en": "Yes. Usually too busy. Rare weekend out." },
+      { "role": "Parent", "cn": "那边喂羊区十一点开，孩子喜欢。", "en": "Petting zoo opens at eleven. Kids love it." },
+      { "role": "You", "cn": "好，等会儿去，先玩滑梯。", "en": "We'll go later. Slides first." },
+      { "role": "Parent", "cn": "记得洗手，人多。", "en": "Remember hand sanitizer. It gets crowded." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-04",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Child Gets Hurt",
+    "titleCn": "第4环：孩子磕碰",
+    "scene": "孩子跑摔破了膝盖，你找医务站。（对话链：亲子）",
+    "roles": ["You", "Nurse"],
+    "turns": [
+      { "role": "You", "cn": "孩子摔了，膝盖擦伤，有医务站吗？", "en": "My child fell and scraped a knee. Is there a first-aid station?" },
+      { "role": "Nurse", "cn": "在这，我看看……不严重，消消毒贴创可贴。", "en": "Right here. Let me see… Not bad. We'll clean it and add a bandage." },
+      { "role": "You", "cn": "谢谢，他还哭，有贴纸吗？", "en": "Thank you. He's still crying. Any stickers?" },
+      { "role": "Nurse", "cn": "有，勇敢小狮子贴纸，乖。", "en": "Yes. A brave little lion sticker. There you go." },
+      { "role": "You", "cn": "好多了，谢谢照顾。", "en": "Much better. Thanks for taking care of him." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-05",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Lunch with Kids",
+    "titleCn": "第5环：带孩子吃午饭",
+    "scene": "中午你们在动物园餐厅吃饭。（对话链：亲子）",
+    "roles": ["You", "Server"],
+    "turns": [
+      { "role": "Server", "cn": "儿童餐有鸡块和意面，要哪个？", "en": "Kids' meal is nuggets or pasta. Which one?" },
+      { "role": "You", "cn": "鸡块，果汁要苹果汁，少冰。", "en": "Nuggets. Apple juice, light ice." },
+      { "role": "Server", "cn": "大人呢？", "en": "And for you?" },
+      { "role": "You", "cn": "一份沙拉一份汉堡，外带一杯咖啡。", "en": "A salad and a burger. Coffee to go." },
+      { "role": "Server", "cn": "号码 28，好了叫号。", "en": "Number twenty-eight. We'll call when it's ready." },
+      { "role": "You", "cn": "有高脚椅吗？", "en": "Do you have a high chair?" },
+      { "role": "Server", "cn": "有，马上搬来。", "en": "Yes. I'll bring one right over." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-06",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Souvenir Shop",
+    "titleCn": "第6环：买纪念品",
+    "scene": "离开前孩子想买玩具，你和他商量。（对话链：亲子）",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "Child", "cn": "爸爸，我要这个熊猫玩偶！", "en": "Daddy, I want this panda plush!" },
+      { "role": "You", "cn": "家里玩具很多了，选一个小的好吗？", "en": "You have lots of toys. How about a small one?" },
+      { "role": "Child", "cn": "那这个钥匙扣？", "en": "What about this keychain?" },
+      { "role": "You", "cn": "可以，挂你书包上，要说谢谢。", "en": "Okay. Put it on your backpack. Say thank you." },
+      { "role": "Child", "cn": "谢谢爸爸！", "en": "Thank you, Daddy!" },
+      { "role": "You", "cn": "乖，我们去收银台。", "en": "Good. Let's go to checkout." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-07",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Bedtime Routine",
+    "titleCn": "第7环：睡前流程",
+    "scene": "玩了一天，晚上你哄孩子睡觉。（对话链：亲子）",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "You", "cn": "洗澡刷牙，明天还要上学。", "en": "Bath and brush teeth. School tomorrow." },
+      { "role": "Child", "cn": "再讲一个故事嘛。", "en": "One more story, please?" },
+      { "role": "You", "cn": "一个短的，讲熊猫今天的事。", "en": "A short one. About the panda we saw today." },
+      { "role": "Child", "cn": "熊猫吃竹子……", "en": "The panda ate bamboo…" },
+      { "role": "You", "cn": "对，然后乖乖睡觉，晚安。", "en": "Right. Now sleep tight. Good night." },
+      { "role": "Child", "cn": "晚安爸爸。", "en": "Good night, Daddy." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kids-08",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-outing",
+      "title": "A Family Outing with Kids",
+      "titleCn": "对话链：亲子外出",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Talk with Spouse",
+    "titleCn": "第8环：和配偶复盘",
+    "scene": "孩子睡了，你和配偶聊今天的出游。（对话链：亲子）",
+    "roles": ["You", "Spouse"],
+    "turns": [
+      { "role": "Spouse", "cn": "今天累但值得，他开心极了。", "en": "Tiring but worth it. He was so happy." },
+      { "role": "You", "cn": "膝盖没事吧？创可贴还在。", "en": "Knee okay? Bandage is still on." },
+      { "role": "Spouse", "cn": "没事，下个月可以去科技馆。", "en": "He's fine. Science museum next month?" },
+      { "role": "You", "cn": "好，他最近爱恐龙。", "en": "Sure. He's into dinosaurs lately." },
+      { "role": "Spouse", "cn": "那提前订票，周末人多。", "en": "Book ahead then. Weekends get crowded." },
+      { "role": "You", "cn": "我来订，早点休息。", "en": "I'll handle it. Let's get some rest." }
+    ]
+  }
+]

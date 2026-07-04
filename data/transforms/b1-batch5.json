@@ -3,168 +3,589 @@
     "id": "tf-b1-043",
     "book": 1,
     "lesson": 79,
-    "grammar": ["some/any", "可数不可数"],
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
     "cn": "我需要一些西红柿。",
     "explanation": "some 用于肯定句；tomatoes 可数名词复数。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I need some tomatoes.", "I want some tomatoes."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do you need any tomatoes?", "Do you want any tomatoes?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["I do not need any tomatoes.", "I don't need any tomatoes.", "I don't need tomatoes."] },
-      { "kind": "wh", "prompt": "对「some tomatoes」提问（问\"需要什么\"）", "answers": ["What do you need?", "What do you want?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I need some tomatoes.",
+          "I want some tomatoes."
+        ],
+        "cn": "我需要一些西红柿。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do you need any tomatoes?",
+          "Do you want any tomatoes?"
+        ],
+        "cn": "我需要一些西红柿吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I do not need any tomatoes.",
+          "I don't need any tomatoes.",
+          "I don't need tomatoes."
+        ],
+        "cn": "我需不要一些西红柿。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「some tomatoes」提问（问\"需要什么\"）",
+        "answers": [
+          "What do you need?",
+          "What do you want?"
+        ],
+        "cn": "你要什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-044",
     "book": 1,
     "lesson": 81,
-    "grammar": ["一般将来时", "some/any"],
+    "grammar": [
+      "一般将来时",
+      "some/any"
+    ],
     "cn": "她打算做烤牛肉当晚餐。",
     "explanation": "be going to 表打算；cook roast beef 作晚餐。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is going to cook roast beef for dinner.", "She's going to cook roast beef for dinner."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she going to cook roast beef for dinner?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not going to cook roast beef for dinner.", "She isn't going to cook roast beef for dinner.", "She's not going to cook roast beef for dinner."] },
-      { "kind": "wh", "prompt": "对「cook roast beef」提问（问\"打算做什么\"）", "answers": ["What is she going to cook for dinner?", "What's she going to cook for dinner?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is going to cook roast beef for dinner.",
+          "She's going to cook roast beef for dinner."
+        ],
+        "cn": "她打算做烤牛肉当晚餐。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she going to cook roast beef for dinner?"
+        ],
+        "cn": "她打算做烤牛肉当晚餐吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not going to cook roast beef for dinner.",
+          "She isn't going to cook roast beef for dinner.",
+          "She's not going to cook roast beef for dinner."
+        ],
+        "cn": "她不打算做烤牛肉当晚餐。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「cook roast beef」提问（问\"打算做什么\"）",
+        "answers": [
+          "What is she going to cook for dinner?",
+          "What's she going to cook for dinner?"
+        ],
+        "cn": "你打算做什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-045",
     "book": 1,
     "lesson": 83,
-    "grammar": ["现在完成时"],
+    "grammar": [
+      "现在完成时"
+    ],
     "cn": "他们已经收拾好行李了。",
     "explanation": "现在完成时 have packed 表已完成；already 可省略或加在句中。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They have already packed their suitcases.", "They have packed their suitcases already.", "They've already packed their suitcases."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have they already packed their suitcases?", "Have they packed their suitcases already?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They have not packed their suitcases yet.", "They haven't packed their suitcases yet."] },
-      { "kind": "wh", "prompt": "对「their suitcases」提问（问\"收拾了什么\"）", "answers": ["What have they already packed?", "What have they packed?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They have already packed their suitcases.",
+          "They have packed their suitcases already.",
+          "They've already packed their suitcases."
+        ],
+        "cn": "他们已经收拾好行李了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have they already packed their suitcases?",
+          "Have they packed their suitcases already?"
+        ],
+        "cn": "他们已经收拾好行李了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They have not packed their suitcases yet.",
+          "They haven't packed their suitcases yet."
+        ],
+        "cn": "他们还没有收拾好行李了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「their suitcases」提问（问\"收拾了什么\"）",
+        "answers": [
+          "What have they already packed?",
+          "What have they packed?"
+        ],
+        "cn": "他们收拾了什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-046",
     "book": 1,
     "lesson": 85,
-    "grammar": ["现在完成时"],
+    "grammar": [
+      "现在完成时"
+    ],
     "cn": "她去过巴黎。",
     "explanation": "have been to 表\"去过某地（已返回）\"；Paris 专有名词。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She has been to Paris.", "She's been to Paris."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has she been to Paris?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She has not been to Paris.", "She hasn't been to Paris.", "She has never been to Paris."] },
-      { "kind": "wh", "prompt": "对「Paris」提问（问\"去过哪里\"）", "answers": ["Where has she been?", "Where has she been to?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She has been to Paris.",
+          "She's been to Paris."
+        ],
+        "cn": "她去过巴黎。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has she been to Paris?"
+        ],
+        "cn": "她去过巴黎吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She has not been to Paris.",
+          "She hasn't been to Paris.",
+          "She has never been to Paris."
+        ],
+        "cn": "她不去过巴黎。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Paris」提问（问\"去过哪里\"）",
+        "answers": [
+          "Where has she been?",
+          "Where has she been to?"
+        ],
+        "cn": "她去过哪里？"
+      }
     ]
   },
   {
     "id": "tf-b1-047",
     "book": 1,
     "lesson": 87,
-    "grammar": ["过去进行时"],
+    "grammar": [
+      "过去进行时"
+    ],
     "cn": "车祸发生时，我正在过马路。",
     "explanation": "过去进行时 was crossing 表背景；when 从句用一般过去时。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I was crossing the road when the car crashed.", "When the car crashed, I was crossing the road.", "I was crossing the street when the car crashed."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Was I crossing the road when the car crashed?", "Was I crossing the street when the car crashed?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["I was not crossing the road when the car crashed.", "I wasn't crossing the road when the car crashed."] },
-      { "kind": "wh", "prompt": "对「when the car crashed」提问（问\"何时在过马路\"）", "answers": ["When were you crossing the road?", "When were you crossing the street?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I was crossing the road when the car crashed.",
+          "When the car crashed, I was crossing the road.",
+          "I was crossing the street when the car crashed."
+        ],
+        "cn": "车祸发生时，我正在过马路。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句",
+        "answers": [
+          "Was I crossing the road when the car crashed?",
+          "Was I crossing the street when the car crashed?"
+        ],
+        "cn": "车祸发生时，我正在过马路吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "I was not crossing the road when the car crashed.",
+          "I wasn't crossing the road when the car crashed."
+        ],
+        "cn": "车祸发生时，我没有在过马路。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「when the car crashed」提问（问\"何时在过马路\"）",
+        "answers": [
+          "When were you crossing the road?",
+          "When were you crossing the street?"
+        ],
+        "cn": "何时在过马路？"
+      }
     ]
   },
   {
     "id": "tf-b1-048",
     "book": 1,
     "lesson": 89,
-    "grammar": ["现在完成时"],
+    "grammar": [
+      "现在完成时"
+    ],
     "cn": "他拥有这辆车已经十年了。",
     "explanation": "have had 现在完成时表持续拥有；for ten years 表时长。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He has had the car for ten years.", "He's had the car for ten years."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has he had the car for ten years?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He has not had the car for ten years.", "He hasn't had the car for ten years."] },
-      { "kind": "wh", "prompt": "对「for ten years」提问（问\"多久了\"）", "answers": ["How long has he had the car?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He has had the car for ten years.",
+          "He's had the car for ten years."
+        ],
+        "cn": "他拥有这辆车已经十年了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has he had the car for ten years?"
+        ],
+        "cn": "他拥有这辆车已经十年了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He has not had the car for ten years.",
+          "He hasn't had the car for ten years."
+        ],
+        "cn": "他拥有这辆车还没有十年了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for ten years」提问（问\"多久了\"）",
+        "answers": [
+          "How long has he had the car?"
+        ],
+        "cn": "他拥有这辆车多久了？"
+      }
     ]
   },
   {
     "id": "tf-b1-049",
     "book": 1,
     "lesson": 91,
-    "grammar": ["现在完成时"],
+    "grammar": [
+      "现在完成时"
+    ],
     "cn": "伊恩刚刚搬走了。",
     "explanation": "现在完成时 has just moved 表刚刚完成；just 放在 have 与过去分词之间。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Ian has just moved away.", "Ian has just moved out.", "He has just moved away."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Has Ian just moved away?", "Has Ian just moved out?", "Has he just moved away?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Ian has not moved away yet.", "Ian hasn't moved away yet.", "He has not moved away yet.", "He hasn't moved away yet."] },
-      { "kind": "wh", "prompt": "对「Ian」提问（问\"谁搬走了\"）", "answers": ["Who has just moved away?", "Who has just moved out?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Ian has just moved away.",
+          "Ian has just moved out.",
+          "He has just moved away."
+        ],
+        "cn": "伊恩刚刚搬走了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has Ian just moved away?",
+          "Has Ian just moved out?",
+          "Has he just moved away?"
+        ],
+        "cn": "伊恩刚刚搬走了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Ian has not moved away yet.",
+          "Ian hasn't moved away yet.",
+          "He has not moved away yet.",
+          "He hasn't moved away yet."
+        ],
+        "cn": "伊恩还没有搬走了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Ian」提问（问\"谁搬走了\"）",
+        "answers": [
+          "Who has just moved away?",
+          "Who has just moved out?"
+        ],
+        "cn": "谁搬走了？"
+      }
     ]
   },
   {
     "id": "tf-b1-050",
     "book": 1,
     "lesson": 93,
-    "grammar": ["一般将来时"],
+    "grammar": [
+      "一般将来时"
+    ],
     "cn": "他们将粉刷墙壁。",
     "explanation": "will paint 表将来；the walls 作宾语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They will paint the walls.", "They'll paint the walls."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will they paint the walls?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They will not paint the walls.", "They won't paint the walls."] },
-      { "kind": "wh", "prompt": "对「the walls」提问（问\"将粉刷什么\"）", "answers": ["What will they paint?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They will paint the walls.",
+          "They'll paint the walls."
+        ],
+        "cn": "他们将粉刷墙壁。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will they paint the walls?"
+        ],
+        "cn": "他们将粉刷墙壁吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They will not paint the walls.",
+          "They won't paint the walls."
+        ],
+        "cn": "他们不会粉刷墙壁。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the walls」提问（问\"将粉刷什么\"）",
+        "answers": [
+          "What will they paint?"
+        ],
+        "cn": "他们将粉刷什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-051",
     "book": 1,
     "lesson": 95,
-    "grammar": ["一般将来时"],
+    "grammar": [
+      "一般将来时"
+    ],
     "cn": "我打算在下一站下车。",
     "explanation": "be going to get off 表打算；at the next station 表地点。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I am going to get off at the next station.", "I'm going to get off at the next station."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are you going to get off at the next station?", "Am I going to get off at the next station?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["I am not going to get off at the next station.", "I'm not going to get off at the next station."] },
-      { "kind": "wh", "prompt": "对「at the next station」提问（问\"在哪里下车\"）", "answers": ["Where are you going to get off?", "Where am I going to get off?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I am going to get off at the next station.",
+          "I'm going to get off at the next station."
+        ],
+        "cn": "我打算在下一站下车。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are you going to get off at the next station?",
+          "Am I going to get off at the next station?"
+        ],
+        "cn": "我打算在下一站下车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I am not going to get off at the next station.",
+          "I'm not going to get off at the next station."
+        ],
+        "cn": "我不打算在下一站下车。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at the next station」提问（问\"在哪里下车\"）",
+        "answers": [
+          "Where are you going to get off?",
+          "Where am I going to get off?"
+        ],
+        "cn": "在哪里下车？"
+      }
     ]
   },
   {
     "id": "tf-b1-052",
     "book": 1,
     "lesson": 97,
-    "grammar": ["一般过去时"],
+    "grammar": [
+      "一般过去时"
+    ],
     "cn": "她昨天丢了箱子。",
     "explanation": "一般过去时 lost 表过去发生；yesterday 作时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She lost her case yesterday.", "She lost her suitcase yesterday."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did she lose her case yesterday?", "Did she lose her suitcase yesterday?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She did not lose her case yesterday.", "She didn't lose her case yesterday.", "She did not lose her suitcase yesterday.", "She didn't lose her suitcase yesterday."] },
-      { "kind": "wh", "prompt": "对「yesterday」提问（问时间）", "answers": ["When did she lose her case?", "When did she lose her suitcase?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She lost her case yesterday.",
+          "She lost her suitcase yesterday."
+        ],
+        "cn": "她昨天丢了箱子。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did she lose her case yesterday?",
+          "Did she lose her suitcase yesterday?"
+        ],
+        "cn": "她昨天丢了箱子吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She did not lose her case yesterday.",
+          "She didn't lose her case yesterday.",
+          "She did not lose her suitcase yesterday.",
+          "She didn't lose her suitcase yesterday."
+        ],
+        "cn": "她不昨天丢了箱子。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「yesterday」提问（问时间）",
+        "answers": [
+          "When did she lose her case?",
+          "When did she lose her suitcase?"
+        ],
+        "cn": "什么时候她昨天丢了箱子？"
+      }
     ]
   },
   {
     "id": "tf-b1-053",
     "book": 1,
     "lesson": 99,
-    "grammar": ["现在完成时"],
+    "grammar": [
+      "现在完成时"
+    ],
     "cn": "我把胳膊弄伤了。",
     "explanation": "现在完成时 have hurt 表结果对现在有影响；my arm 作宾语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I have hurt my arm.", "I've hurt my arm."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have you hurt your arm?", "Have I hurt my arm?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["I have not hurt my arm.", "I haven't hurt my arm.", "I have not hurt my arm badly.", "I haven't hurt my arm badly."] },
-      { "kind": "wh", "prompt": "对「my arm」提问（问\"弄伤了什么\"）", "answers": ["What have you hurt?", "What have I hurt?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "I have hurt my arm.",
+          "I've hurt my arm."
+        ],
+        "cn": "我把胳膊弄伤了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have you hurt your arm?",
+          "Have I hurt my arm?"
+        ],
+        "cn": "我把胳膊弄伤了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I have not hurt my arm.",
+          "I haven't hurt my arm.",
+          "I have not hurt my arm badly.",
+          "I haven't hurt my arm badly."
+        ],
+        "cn": "我没有把胳膊弄伤了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「my arm」提问（问\"弄伤了什么\"）",
+        "answers": [
+          "What have you hurt?",
+          "What have I hurt?"
+        ],
+        "cn": "我弄伤了什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-054",
     "book": 1,
     "lesson": 103,
-    "grammar": ["现在完成时", "疑问句"],
+    "grammar": [
+      "现在完成时",
+      "疑问句"
+    ],
     "cn": "你做完法语试卷了吗？",
     "explanation": "现在完成时 Have you finished…? 询问是否已完成。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Have you finished the French test?", "Have you finished your French test?"] },
-      { "kind": "yesno", "prompt": "改为陈述句（肯定）", "answers": ["You have finished the French test.", "You've finished the French test.", "You have finished your French test."] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["You have not finished the French test yet.", "You haven't finished the French test yet.", "You have not finished your French test yet.", "You haven't finished your French test yet."] },
-      { "kind": "wh", "prompt": "对「the French test」提问（问\"做完了什么\"）", "answers": ["What have you finished?", "Which test have you finished?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Have you finished the French test?",
+          "Have you finished your French test?"
+        ],
+        "cn": "你做完法语试卷了吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为陈述句（肯定）",
+        "answers": [
+          "You have finished the French test.",
+          "You've finished the French test.",
+          "You have finished your French test."
+        ],
+        "cn": "你做完法语试卷了。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You have not finished the French test yet.",
+          "You haven't finished the French test yet.",
+          "You have not finished your French test yet.",
+          "You haven't finished your French test yet."
+        ],
+        "cn": "你不做完法语试卷了吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the French test」提问（问\"做完了什么\"）",
+        "answers": [
+          "What have you finished?",
+          "Which test have you finished?"
+        ],
+        "cn": "他做完了什么？"
+      }
     ]
   }
 ]

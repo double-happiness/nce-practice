@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-hol-01",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Halloween Costumes",
+    "titleCn": "第1环：买万圣节服装",
+    "scene": "十月底，你在派对用品店买万圣节服装。（对话链：节日）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙吗？今晚很多人买。", "en": "Need help? It's busy tonight." },
+      { "role": "You", "cn": "有适合成人的吸血鬼套装吗？", "en": "Do you have an adult vampire costume?" },
+      { "role": "Clerk", "cn": "中码在这，含披风和假牙。", "en": "Medium is here. Cape and fangs included." },
+      { "role": "You", "cn": "化妆颜料有吗？", "en": "Do you sell face paint?" },
+      { "role": "Clerk", "cn": "过道三，防水的那种。", "en": "Aisle three. Get the waterproof kind." },
+      { "role": "You", "cn": "孩子糖果桶也拿一个。", "en": "I'll take a trick-or-treat bucket for my kid too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-02",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Trick or Treat",
+    "titleCn": "第2环：讨糖",
+    "scene": "万圣节晚上，孩子在你家门口讨糖。（对话链：节日）",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "Child", "cn": "不给糖就捣蛋！", "en": "Trick or treat!" },
+      { "role": "You", "cn": "哇，好酷的宇航员！给你几块糖。", "en": "Wow, cool astronaut! Here are some candies." },
+      { "role": "Child", "cn": "谢谢！", "en": "Thank you!" },
+      { "role": "You", "cn": "记得只说一份，别拿太多哦。", "en": "Just take one piece, okay?" },
+      { "role": "Child", "cn": "好的！", "en": "Okay!" },
+      { "role": "You", "cn": "晚上注意安全，让家长陪着。", "en": "Stay safe tonight. Go with your parents." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-03",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Thanksgiving Invite",
+    "titleCn": "第3环：感恩节邀请",
+    "scene": "朋友邀请你感恩节去他家吃饭。（对话链：节日）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "感恩节来我家吧，火鸡管够。", "en": "Come over for Thanksgiving. Plenty of turkey." },
+      { "role": "You", "cn": "谢谢！我带什么？南瓜派？", "en": "Thanks! What should I bring? Pumpkin pie?" },
+      { "role": "Friend", "cn": "太好了，下午三点到。", "en": "Perfect. Come around three PM." },
+      { "role": "You", "cn": "需要帮忙准备吗？", "en": "Need help with prep?" },
+      { "role": "Friend", "cn": "早点来摆桌子就行。", "en": "Just come early to help set the table." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-04",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Thanksgiving Dinner",
+    "titleCn": "第4环：感恩节晚餐",
+    "scene": "感恩节你去朋友家，帮忙准备晚餐。（对话链：节日）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "火鸡还要烤一小时，先喝点？", "en": "The turkey needs another hour. Want a drink?" },
+      { "role": "You", "cn": "好的，我能帮忙摆桌子吗？", "en": "Sure. Can I help set the table?" },
+      { "role": "Host", "cn": "餐具在橱柜，要八副。", "en": "Silverware is in the cabinet. We need eight places." },
+      { "role": "You", "cn": "南瓜派我带来了，放哪？", "en": "I brought pumpkin pie. Where should I put it?" },
+      { "role": "Host", "cn": "厨房岛台，等会儿一起切。", "en": "On the kitchen island. We'll slice it later." },
+      { "role": "You", "cn": "闻起来太香了。", "en": "It smells amazing in here." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-05",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Black Friday Plans",
+    "titleCn": "第5环：黑五购物计划",
+    "scene": "感恩节饭后，朋友聊第二天黑五抢购。（对话链：节日）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "明天黑五，你排队吗？", "en": "Black Friday tomorrow. Are you lining up?" },
+      { "role": "You", "cn": "网上买就行，不想凌晨排队。", "en": "I'll shop online. No dawn lines for me." },
+      { "role": "Friend", "cn": "电视五折，我有点心动。", "en": "TVs are half off. I'm tempted." },
+      { "role": "You", "cn": "记得比价，有时候网上更便宜。", "en": "Compare prices. Sometimes online is cheaper." },
+      { "role": "Friend", "cn": "有道理，我查查。", "en": "Good point. I'll check." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-06",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Christmas Shopping",
+    "titleCn": "第6环：圣诞购物",
+    "scene": "十二月在商场买圣诞礼物。（对话链：节日）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要礼品包装吗？", "en": "Would you like gift wrapping?" },
+      { "role": "You", "cn": "要，这是给我妈的围巾。", "en": "Yes, please. It's a scarf for my mom." },
+      { "role": "Clerk", "cn": "红丝带还是金丝带？", "en": "Red ribbon or gold?" },
+      { "role": "You", "cn": "金色。能写贺卡吗？", "en": "Gold. Can you write a gift card?" },
+      { "role": "Clerk", "cn": "当然可以，请把祝福语告诉我。", "en": "Sure. Tell me what to write." },
+      { "role": "You", "cn": "写「圣诞快乐，爱你」。", "en": "Write Merry Christmas, love you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-07",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Christmas Party",
+    "titleCn": "第7环：圣诞派对",
+    "scene": "公司圣诞派对，你和同事聊天。（对话链：节日）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "Secret Santa 你抽到谁了？", "en": "Who did you get for Secret Santa?" },
+      { "role": "You", "cn": "不能说吧，限二十块。", "en": "Can't say. Twenty-dollar limit." },
+      { "role": "Colleague", "cn": "我买了马克杯，实用。", "en": "I got a mug. Practical." },
+      { "role": "You", "cn": "交换礼物几点开始？", "en": "What time is the gift exchange?" },
+      { "role": "Colleague", "cn": "八点，先吃饭。", "en": "Eight. Dinner first." },
+      { "role": "You", "cn": "好，期待。", "en": "Looking forward to it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hol-08",
+    "category": "holiday",
+    "chain": {
+      "id": "holiday-season",
+      "title": "Through the Holiday Season",
+      "titleCn": "对话链：节日季体验",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: New Year Wishes",
+    "titleCn": "第8环：新年祝福",
+    "scene": "跨年夜，你和朋友说新年计划。（对话链：节日）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "新年快乐！明年有什么打算？", "en": "Happy New Year! Any resolutions?" },
+      { "role": "You", "cn": "多运动，少熬夜。你呢？", "en": "Exercise more, sleep earlier. You?" },
+      { "role": "Friend", "cn": "学一门新技能，也许吉他。", "en": "Learn something new. Maybe guitar." },
+      { "role": "You", "cn": "加油，一年后检查。", "en": "Go for it. We'll check in a year." },
+      { "role": "Friend", "cn": "一言为定，新年快乐！", "en": "Deal. Happy New Year!" },
+      { "role": "You", "cn": "新年快乐！", "en": "Happy New Year!" }
+    ]
+  }
+]

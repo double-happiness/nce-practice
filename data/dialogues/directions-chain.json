@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-dir-01",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Lost on the Street",
+    "titleCn": "第1环：街上迷路",
+    "scene": "你在街上迷路了，向路人问路。（对话链：问路）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，请问百老汇大街怎么走？", "en": "Excuse me, how do I get to Broadway?" },
+      { "role": "Stranger", "cn": "往前直走两个路口，然后右转。", "en": "Go straight for two blocks, then turn right." },
+      { "role": "You", "cn": "走路大概要多久？", "en": "How long does it take on foot?" },
+      { "role": "Stranger", "cn": "大概十分钟。", "en": "About ten minutes." },
+      { "role": "You", "cn": "这附近有地铁站吗？", "en": "Is there a subway station nearby?" },
+      { "role": "Stranger", "cn": "有，百老汇大街那头就有一个。", "en": "Yes, there's one at the end of Broadway." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thank you so much!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-02",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Which Way to Turn",
+    "titleCn": "第2环：左转还是右转",
+    "scene": "你在十字路口，不确定该往哪边走。（对话链：问路）",
+    "roles": ["You", "Shopkeeper"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，中央车站是在这边吗？", "en": "Sorry, is Grand Central Station this way?" },
+      { "role": "Shopkeeper", "cn": "不是，你得往回走，在第二个红绿灯左转。", "en": "No, you need to go back and turn left at the second light." },
+      { "role": "You", "cn": "是左边那条路吗？", "en": "The road on the left?" },
+      { "role": "Shopkeeper", "cn": "对，一直走到底就能看到。", "en": "Yes, keep going until you see it." },
+      { "role": "You", "cn": "远不远？我在赶时间。", "en": "Is it far? I'm in a hurry." },
+      { "role": "Shopkeeper", "cn": "走路十五分钟，打车五分钟。", "en": "Fifteen minutes walking, five by taxi." }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-03",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Find the Subway",
+    "titleCn": "第3环：找地铁站",
+    "scene": "你想坐地铁，问地铁站入口在哪。（对话链：问路）",
+    "roles": ["You", "Pedestrian"],
+    "turns": [
+      { "role": "You", "cn": "最近的地铁入口在哪？", "en": "Where's the nearest subway entrance?" },
+      { "role": "Pedestrian", "cn": "前面那个绿色亭子就是。", "en": "That green kiosk up ahead." },
+      { "role": "You", "cn": "去时代广场坐哪条线？", "en": "Which line goes to Times Square?" },
+      { "role": "Pedestrian", "cn": "下去看指示牌，N 线或 R 线。", "en": "Check the signs downstairs. N or R train." },
+      { "role": "You", "cn": "谢谢！", "en": "Thanks!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-04",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Inside a Building",
+    "titleCn": "第4环：大楼里找会议室",
+    "scene": "你在一栋办公大楼里找会议室。（对话链：问路）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "You", "cn": "你好，请问 1208 会议室在哪？", "en": "Hi, where is conference room 1208?" },
+      { "role": "Receptionist", "cn": "十二楼，出电梯右转。", "en": "Twelfth floor. Turn right out of the elevator." },
+      { "role": "You", "cn": "访客需要登记吗？", "en": "Do I need to sign in as a visitor?" },
+      { "role": "Receptionist", "cn": "请在这本子上写名字和公司。", "en": "Please write your name and company in this book." },
+      { "role": "You", "cn": "洗手间在哪一层？", "en": "Which floor are the restrooms on?" },
+      { "role": "Receptionist", "cn": "每层电梯口旁边都有。", "en": "On every floor, next to the elevators." }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-05",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Map Not Working",
+    "titleCn": "第5环：导航失灵",
+    "scene": "手机导航不准，你向街边店员求助。（对话链：问路）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，手机导航把我搞糊涂了，博物馆在哪边？", "en": "Sorry, my phone GPS is confused. Which way is the museum?" },
+      { "role": "Clerk", "cn": "出店左转，过两座桥就到了。", "en": "Left out of the store, past two bridges." },
+      { "role": "You", "cn": "是大都会博物馆吗？", "en": "The Met Museum?" },
+      { "role": "Clerk", "cn": "对，大台阶那个。", "en": "Yes, the one with the big steps." },
+      { "role": "You", "cn": "走路要多久？", "en": "How long on foot?" },
+      { "role": "Clerk", "cn": "十二三分钟。", "en": "About twelve or thirteen minutes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-06",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Which Bus Line",
+    "titleCn": "第6环：问公交线路",
+    "scene": "你在公交站，不确定该坐哪辆车。（对话链：问路）",
+    "roles": ["You", "Commuter"],
+    "turns": [
+      { "role": "You", "cn": "去中央公园该坐哪路公交？", "en": "Which bus goes to Central Park?" },
+      { "role": "Commuter", "cn": "M10 往北，在这站等。", "en": "The M10 heading north. Wait at this stop." },
+      { "role": "You", "cn": "多久一班？", "en": "How often does it come?" },
+      { "role": "Commuter", "cn": "大概八到十分钟。", "en": "About every eight to ten minutes." },
+      { "role": "You", "cn": "需要 exact change 吗？", "en": "Do I need exact change?" },
+      { "role": "Commuter", "cn": "刷卡就行，两美元七五。", "en": "Just tap your card. Two seventy-five." }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-07",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Taxi Going Wrong Way",
+    "titleCn": "第7环：出租车走反",
+    "scene": "出租车好像走反了，你礼貌提醒司机。（对话链：问路）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，应该是在第五大道往南，不是往北。", "en": "Sorry, it should be Fifth Avenue south, not north." },
+      { "role": "Driver", "cn": "哦，我绕一下，前面掉头。", "en": "Oh, I'll loop around and turn up front." },
+      { "role": "You", "cn": "没事，我不赶时间了。", "en": "No worries. I'm not in a rush anymore." },
+      { "role": "Driver", "cn": "到了，三十四街门口。", "en": "Here we are. Thirty-Fourth Street entrance." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-dir-08",
+    "category": "directions",
+    "chain": {
+      "id": "finding-way",
+      "title": "Finding Your Way Across Town",
+      "titleCn": "对话链：问路找地方",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Arrive at Destination",
+    "titleCn": "第8环：到达目的地",
+    "scene": "你终于到了面试大楼，向保安确认楼层。（对话链：问路）",
+    "roles": ["You", "Security"],
+    "turns": [
+      { "role": "Security", "cn": "您好，找哪位？", "en": "Hello. Who are you here to see?" },
+      { "role": "You", "cn": "两点面试，ABC 科技，十二楼。", "en": "Interview at two PM, ABC Tech, twelfth floor." },
+      { "role": "Security", "cn": "请登记，电梯需要刷卡，我帮您刷。", "en": "Please sign in. The elevator needs a badge. I'll swipe you up." },
+      { "role": "You", "cn": "谢谢，终于找到了。", "en": "Thank you. Glad I finally made it." },
+      { "role": "Security", "cn": "十二楼左转，祝顺利。", "en": "Twelfth floor, turn left. Good luck." }
+    ]
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "tf-b4-001",
+    "book": 4,
+    "lesson": 1,
+    "grammar": ["被动语态", "非谓语动词(分词)"],
+    "cn": "考古学家在河谷发掘出了可追溯至两百万年前的工具。",
+    "explanation": "考古报道多用被动；分词短语 dating back 作后置定语表主动关系。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": ["Archaeologists have unearthed tools dating back two million years in the valley."],
+        "cn": "考古学家在河谷发掘出了可追溯至两百万年前的工具。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "Tools dating back two million years have been unearthed in the valley by archaeologists.",
+          "Tools dating back two million years have been unearthed in the valley."
+        ],
+        "cn": "可追溯至两百万年前的工具已在河谷被发掘出来。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「two million years」提问（问时间）",
+        "answers": [
+          "How long ago have the tools been unearthed in the valley?",
+          "How far back do the tools date?"
+        ],
+        "cn": "这些工具可追溯至多久以前？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-002",
+    "book": 4,
+    "lesson": 2,
+    "grammar": ["定语从句", "非谓语动词(不定式)"],
+    "cn": "我们不应消灭那些以害虫为食的蜘蛛。",
+    "explanation": "定语从句 that feed on pests 修饰 spiders；不定式 to destroy 表目的。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We should not destroy the spiders that feed on pests.",
+          "We should not kill the spiders that feed on pests."
+        ],
+        "cn": "我们不应消灭那些以害虫为食的蜘蛛。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为肯定句",
+        "answers": [
+          "We should protect the spiders that feed on pests.",
+          "We should spare the spiders that feed on pests."
+        ],
+        "cn": "我们应保护那些以害虫为食的蜘蛛。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「pests」提问（问\"以什么为食\"）",
+        "answers": [
+          "What do the spiders feed on?",
+          "What do the spiders that we should not destroy feed on?"
+        ],
+        "cn": "这些蜘蛛以什么为食？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-003",
+    "book": 4,
+    "lesson": 3,
+    "grammar": ["现在完成时", "让步状语"],
+    "cn": "尽管天气恶劣，登山者仍完成了那次危险的攀登。",
+    "explanation": "in spite of + 名词；现在完成时 has completed 强调至今结果。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "In spite of the bad weather, the climber has completed the dangerous ascent.",
+          "Despite the bad weather, the climber has completed the dangerous ascent."
+        ],
+        "cn": "尽管天气恶劣，登山者仍完成了那次危险的攀登。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has the climber completed the dangerous ascent in spite of the bad weather?",
+          "Has the climber completed the dangerous ascent despite the bad weather?"
+        ],
+        "cn": "尽管天气恶劣，登山者完成了那次危险的攀登吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the dangerous ascent」提问（问\"完成了什么\"）",
+        "answers": [
+          "What has the climber completed in spite of the bad weather?",
+          "What has the climber completed despite the bad weather?"
+        ],
+        "cn": "登山者在恶劣天气下完成了什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-004",
+    "book": 4,
+    "lesson": 4,
+    "grammar": ["so...that", "定语从句"],
+    "cn": "她的指尖如此敏感，以至于能感知最轻微的振动。",
+    "explanation": "so + adj + that 结果状语从句；who is blind 定语从句修饰主语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Her fingertips are so sensitive that she can sense the slightest vibration.",
+          "The blind woman has fingertips so sensitive that she can sense the slightest vibration."
+        ],
+        "cn": "她的指尖如此敏感，以至于能感知最轻微的振动。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（她的指尖并不那么敏感）",
+        "answers": [
+          "Her fingertips are not sensitive enough to sense the slightest vibration.",
+          "Her fingertips are not so sensitive that she can sense the slightest vibration."
+        ],
+        "cn": "她的指尖并不那么敏感，感知不到最轻微的振动。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the slightest vibration」提问（问\"能感知什么\"）",
+        "answers": [
+          "What can she sense with her sensitive fingertips?",
+          "What can her sensitive fingertips sense?"
+        ],
+        "cn": "她能感知什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-005",
+    "book": 4,
+    "lesson": 5,
+    "grammar": ["非谓语动词", "定语从句"],
+    "cn": "年轻人往往讨厌被当作孩子对待。",
+    "explanation": "resent doing 后接动名词；被动含义用 being treated。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Young people often resent being treated like children.",
+          "The young often resent being treated like children."
+        ],
+        "cn": "年轻人往往讨厌被当作孩子对待。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「like children」提问（问\"被当作什么\"）",
+        "answers": [
+          "How do young people often resent being treated?",
+          "Like what do young people often resent being treated?"
+        ],
+        "cn": "年轻人往往讨厌被当作什么来对待？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Young people do not always resent being treated like children.",
+          "The young do not always resent being treated like children."
+        ],
+        "cn": "年轻人并非总是讨厌被当作孩子对待。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-006",
+    "book": 4,
+    "lesson": 6,
+    "grammar": ["定语从句", "介词短语"],
+    "cn": "观众在激烈的比赛中大声呐喊。",
+    "explanation": "amid the excitement 介词短语作状语；who watched 定语从句。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The spectators who watched the match shouted amid the excitement.",
+          "Spectators shouted amid the excitement of the competitive match."
+        ],
+        "cn": "观众在激烈的比赛中大声呐喊。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the spectators who watched the match shout amid the excitement?",
+          "Did spectators shout amid the excitement of the competitive match?"
+        ],
+        "cn": "观众在激烈的比赛中大声呐喊了吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「amid the excitement」提问（问\"在什么情况下\"）",
+        "answers": [
+          "When did the spectators shout?",
+          "In what situation did the spectators shout?"
+        ],
+        "cn": "观众在什么情况下呐喊？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-007",
+    "book": 4,
+    "lesson": 7,
+    "grammar": ["it is said that", "现在分词"],
+    "cn": "据说蝙蝠能在完全黑暗中飞行。",
+    "explanation": "It is said that... 常用被动报道结构；flying 现在分词作伴随状语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is said that bats can fly in complete darkness.",
+          "Bats are said to be able to fly in complete darkness."
+        ],
+        "cn": "据说蝙蝠能在完全黑暗中飞行。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "It is not said that bats cannot fly in complete darkness.",
+          "Bats are not said to be unable to fly in complete darkness."
+        ],
+        "cn": "据说蝙蝠并非不能在完全黑暗中飞行。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in complete darkness」提问（问\"在什么条件下\"）",
+        "answers": [
+          "In what conditions are bats said to be able to fly?",
+          "Where are bats said to be able to fly?"
+        ],
+        "cn": "据说蝙蝠能在什么条件下飞行？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-008",
+    "book": 4,
+    "lesson": 8,
+    "grammar": ["被动语态", "同位语"],
+    "cn": "当局指控一些商贩在食品中掺假。",
+    "explanation": "accuse sb of doing；被动 be accused of；adulteration 同位语说明指控内容。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The authorities accused some grocers of adulterating food.",
+          "Some grocers were accused of adulterating food."
+        ],
+        "cn": "当局指控一些商贩在食品中掺假。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态",
+        "answers": [
+          "Some grocers were accused of adulterating food by the authorities.",
+          "Some grocers were accused of adulterating food."
+        ],
+        "cn": "一些商贩被指控在食品中掺假。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「adulterating food」提问（问\"被指控做了什么\"）",
+        "answers": [
+          "What were some grocers accused of?",
+          "What were some grocers accused of doing?"
+        ],
+        "cn": "一些商贩被指控做了什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-009",
+    "book": 4,
+    "lesson": 9,
+    "grammar": ["倒装", "过去完成时"],
+    "cn": "直到战争结束，间谍才暴露了身份。",
+    "explanation": "Not until... 置于句首引起部分倒装；过去完成时表更早动作。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Not until the war ended did the spy reveal his identity.",
+          "Only after the war ended did the spy reveal his identity."
+        ],
+        "cn": "直到战争结束，间谍才暴露了身份。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（战争结束前未暴露）",
+        "answers": [
+          "The spy did not reveal his identity until the war ended.",
+          "The spy had not revealed his identity before the war ended."
+        ],
+        "cn": "战争结束前间谍没有暴露身份。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「his identity」提问（问\"暴露了什么\"）",
+        "answers": [
+          "What did the spy reveal after the war ended?",
+          "What did the spy not reveal until the war ended?"
+        ],
+        "cn": "间谍暴露了什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-010",
+    "book": 4,
+    "lesson": 10,
+    "grammar": ["定语从句", "现在完成进行时"],
+    "cn": "这位企业家一直在硅谷创办新公司。",
+    "explanation": "who works in Silicon Valley 定语从句；has been founding 强调持续创业过程。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The entrepreneur who works in Silicon Valley has been founding new companies.",
+          "This executive has been launching start-ups in Silicon Valley."
+        ],
+        "cn": "这位企业家一直在硅谷创办新公司。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has the entrepreneur who works in Silicon Valley been founding new companies?",
+          "Has this executive been launching start-ups in Silicon Valley?"
+        ],
+        "cn": "这位企业家一直在硅谷创办新公司吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「new companies」提问（问\"一直在创办什么\"）",
+        "answers": [
+          "What has the entrepreneur been founding in Silicon Valley?",
+          "What has this executive been launching in Silicon Valley?"
+        ],
+        "cn": "这位企业家一直在创办什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-011",
+    "book": 4,
+    "lesson": 11,
+    "grammar": ["祈使句", "would rather"],
+    "cn": "与其沉湎于过去，不如坦然接受年华老去。",
+    "explanation": "would rather do than do 宁愿……而不愿……；live in the past 固定搭配。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "We would rather accept growing old than live in the past.",
+          "It is better to accept growing old than to live in the past."
+        ],
+        "cn": "与其沉湎于过去，不如坦然接受年华老去。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（不应沉湎于过去）",
+        "answers": [
+          "We should not live in the past when we grow old.",
+          "We ought not to live in the past as we grow older."
+        ],
+        "cn": "我们年老时不应沉湎于过去。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「growing old」提问（问\"应接受什么\"）",
+        "answers": [
+          "What should we accept instead of living in the past?",
+          "What would we rather accept than live in the past?"
+        ],
+        "cn": "我们应接受什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-012",
+    "book": 4,
+    "lesson": 12,
+    "grammar": ["comprise", "定语从句"],
+    "cn": "该委员会由十名成员组成。",
+    "explanation": "comprise 直接接宾语，不加 of；定语从句 who deal with complaints 修饰 members。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The committee comprises ten members.",
+          "The committee comprises ten members who deal with complaints."
+        ],
+        "cn": "该委员会由十名成员组成。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「ten members」提问（问\"由多少人组成\"）",
+        "answers": [
+          "How many members does the committee comprise?",
+          "What does the committee comprise?"
+        ],
+        "cn": "该委员会由多少人组成？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The committee does not comprise more than ten members.",
+          "The committee does not comprise fewer than ten members."
+        ],
+        "cn": "该委员会并非由超过十名成员组成。"
+      }
+    ]
+  }
+]

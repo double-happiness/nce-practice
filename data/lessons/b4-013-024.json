@@ -1,0 +1,2514 @@
+[
+  {
+    "book": 4,
+    "lesson": 13,
+    "title": "The search for oil",
+    "titleCn": "石油勘探",
+    "scene": "石油勘探已成为现代工业中最昂贵的赌博之一。地质学家研究岩层、分析地震数据，以标定可能蕴藏石油的区域；一口勘探井耗资数百万美元，须钻至数千米深处。取自油井的岩样在实验室中分析，以判定是否存在可开采的储油层。并非每个前景看好的地点都能产出具有商业价值的原油；大陆架下已发现大型储量，但开采需要先进技术。从初步勘探到全面投产，往往历时数年。尽管风险巨大，重大发现的可能仍推动着全球的石油勘探。本课语法重点是 where 引导的地点定语从句，以及勘探流程中的被动语态与分词定语。",
+    "grammarTags": [
+      "定语从句",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "geologist",
+        "phon": "/dʒiˈɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "地质学家",
+        "eg": "Geologists identify areas where oil may have accumulated. 地质学家标定可能蕴藏石油的区域。"
+      },
+      {
+        "word": "reservoir",
+        "phon": "/ˈrezəvwɑː/",
+        "pos": "n.",
+        "cn": "储油层；水库",
+        "eg": "Rock samples are analysed to determine whether a viable reservoir exists. 岩样经分析以判定是否存在可开采的储油层。"
+      },
+      {
+        "word": "seismic",
+        "phon": "/ˈsaɪzmɪk/",
+        "pos": "adj.",
+        "cn": "地震的；地震勘探的",
+        "eg": "Seismic data is analysed to reveal underground structures. 地震数据经分析以揭示地下结构。"
+      },
+      {
+        "word": "exploratory",
+        "phon": "/ɪkˈsplɒrətri/",
+        "pos": "adj.",
+        "cn": "勘探的；探索的",
+        "eg": "A single exploratory well can cost millions of dollars. 一口勘探井耗资数百万美元。"
+      },
+      {
+        "word": "crude",
+        "phon": "/kruːd/",
+        "pos": "n./adj.",
+        "cn": "原油；天然的",
+        "eg": "Not every site yields commercially viable quantities of crude oil. 并非每个地点都能产出具有商业价值的原油。"
+      },
+      {
+        "word": "continental shelf",
+        "phon": "/ˌkɒntɪˈnentl ʃelf/",
+        "pos": "n.",
+        "cn": "大陆架",
+        "eg": "Large reserves have been located beneath the continental shelf. 大陆架下已发现大型储量。"
+      },
+      {
+        "word": "viable",
+        "phon": "/ˈvaɪəbl/",
+        "pos": "adj.",
+        "cn": "可行的；能生存的",
+        "eg": "Geologists search for commercially viable oil reserves. 地质学家寻找具有商业开采价值的石油储量。"
+      },
+      {
+        "word": "gamble",
+        "phon": "/ˈɡæmbl/",
+        "pos": "n./v.",
+        "cn": "赌博；冒险",
+        "eg": "The search for oil has become one of the most expensive gambles in industry. 石油勘探已成为工业中最昂贵的赌博之一。"
+      },
+      {
+        "word": "drill",
+        "phon": "/drɪl/",
+        "pos": "v.",
+        "cn": "钻探",
+        "eg": "Wells drilled in promising zones cost millions each. 在前景看好的区域钻探的油井每口耗资数百万。"
+      },
+      {
+        "word": "dust devil",
+        "phon": "",
+        "pos": "",
+        "cn": "小尘暴，尘旋风",
+        "eg": ""
+      },
+      {
+        "word": "squall",
+        "phon": "/skwɔːl/",
+        "pos": "n.",
+        "cn": "暴风",
+        "eg": ""
+      },
+      {
+        "word": "eddy",
+        "phon": "/'edɪ/",
+        "pos": "n.",
+        "cn": "旋涡",
+        "eg": ""
+      },
+      {
+        "word": "grid",
+        "phon": "/grɪd/",
+        "pos": "n.",
+        "cn": "坐标方格",
+        "eg": ""
+      },
+      {
+        "word": "sensor",
+        "phon": "/'sensə/",
+        "pos": "n.",
+        "cn": "传感器",
+        "eg": ""
+      },
+      {
+        "word": "humidity",
+        "phon": "/hjuː'mɪdəti/",
+        "pos": "n.",
+        "cn": "湿度",
+        "eg": ""
+      },
+      {
+        "word": "meteorologist",
+        "phon": "/ˌmiːtiə'rɑːlədʒɪst/",
+        "pos": "n.",
+        "cn": "气象学家",
+        "eg": ""
+      },
+      {
+        "word": "Princeton",
+        "phon": "/['prinstәn]/",
+        "pos": "n.",
+        "cn": "普林斯顿(美国城市名)",
+        "eg": ""
+      },
+      {
+        "word": "Mew Jersey",
+        "phon": "",
+        "pos": "n.",
+        "cn": "新泽西(美国州名)",
+        "eg": ""
+      },
+      {
+        "word": "fluctuation",
+        "phon": "/ˌflʌktʃu'eɪʃn/",
+        "pos": "n.",
+        "cn": "起伏，波动",
+        "eg": ""
+      },
+      {
+        "word": "deviation",
+        "phon": "/diːvɪ'eɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "偏差",
+        "eg": ""
+      },
+      {
+        "word": "secrecy (title)",
+        "phon": "",
+        "pos": "n.",
+        "cn": "秘密",
+        "eg": ""
+      },
+      {
+        "word": "effectiveness",
+        "phon": "/ɪ'fektɪvnɪs/",
+        "pos": "n.",
+        "cn": "成效，效力",
+        "eg": ""
+      },
+      {
+        "word": "inquiry",
+        "phon": "/ɪn'kwaɪrɪ/",
+        "pos": "n.",
+        "cn": "调查研究",
+        "eg": ""
+      },
+      {
+        "word": "positive",
+        "phon": "/'pɑːzətɪv/",
+        "pos": "a.",
+        "cn": "确实的",
+        "eg": ""
+      },
+      {
+        "word": "process",
+        "phon": "/'prɑːses/",
+        "pos": "n.",
+        "cn": "过程",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "areas where oil may have accumulated 中 where 引导地点定语从句，先行词表地点，从句中作状语。wells drilled、taken from the well 用过去分词作定语表被动。易错点：先行词是地点且从句缺地点状语时用 where，不用 which。",
+        "examples": [
+          "Geologists identify areas where oil may have accumulated over millions of years. （地质学家标定石油可能历经数百万年积聚的区域。）",
+          "Rock samples taken from the well are analysed in the laboratory. （取自油井的岩样在实验室中分析。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "勘探流程描述多用被动：has been located、is analysed、are drilled。现在完成时被动强调至今结果，一般现在时被动陈述常规流程。易错点：reservoir 是被定位的对象，用 has been located。",
+        "examples": [
+          "A large reservoir has been located beneath the continental shelf. （大陆架下已发现大型储油层。）",
+          "Seismic data is analysed to reveal underground structures. （地震数据经分析以揭示地下结构。）"
+        ]
+      }
+    ],
+    "tips": "①先行词表地点、从句缺地点状语用 where；②wells drilled、taken from 是过去分词作定语表被动；③has been located 是现在完成时被动，is analysed 是一般现在时被动。"
+  },
+  {
+    "book": 4,
+    "lesson": 14,
+    "title": "The Butterfly Effect",
+    "titleCn": "蝴蝶效应",
+    "scene": "混沌理论告诉我们，初始条件的微小变化可能产生截然不同的结果。气象学家早已承认，长期天气预报本质上不可靠；理论上，巴西一只蝴蝶扇动翅膀，或许会在德克萨斯引发龙卷风。这一著名的「蝴蝶效应」揭示了确定性方程与不可预测现实之间的深刻鸿沟。若初始温度略高一点，整个天气模式便会改变；要是科学家更早接受这些局限，本可节省数十亿徒劳的预测开支。科学界认识到复杂系统中的混沌之后，该理论才获得认可。科学能描述自然规律，却无法精确预测一切。本课语法重点是虚拟语气（对现在/过去的假设），以及 Had ...、Only when ... 等倒装结构。",
+    "grammarTags": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "words": [
+      {
+        "word": "chaos",
+        "phon": "/ˈkeɪɒs/",
+        "pos": "n.",
+        "cn": "混沌；混乱",
+        "eg": "Only when scientists recognised the chaos did the theory gain acceptance. 科学界认识到混沌之后，该理论才获认可。"
+      },
+      {
+        "word": "deterministic",
+        "phon": "/dɪˌtɜːmɪˈnɪstɪk/",
+        "pos": "adj.",
+        "cn": "确定性的",
+        "eg": "There is a deep gap between deterministic equations and unpredictable reality. 确定性方程与不可预测现实之间存在深刻鸿沟。"
+      },
+      {
+        "word": "inherently",
+        "phon": "/ɪnˈherəntli/",
+        "pos": "adv.",
+        "cn": "本质上；固有地",
+        "eg": "Long-range weather forecasts are inherently unreliable. 长期天气预报本质上不可靠。"
+      },
+      {
+        "word": "unreliable",
+        "phon": "/ˌʌnrɪˈlaɪəbl/",
+        "pos": "adj.",
+        "cn": "不可靠的",
+        "eg": "Meteorologists have long admitted that long-range forecasts are unreliable. 气象学家早已承认长期预报不可靠。"
+      },
+      {
+        "word": "flap",
+        "phon": "/flæp/",
+        "pos": "v./n.",
+        "cn": "扇动；拍打",
+        "eg": "The flap of a butterfly's wings might set off a tornado in theory. 理论上，蝴蝶扇动翅膀或许会引发龙卷风。"
+      },
+      {
+        "word": "tornado",
+        "phon": "/tɔːˈneɪdəʊ/",
+        "pos": "n.",
+        "cn": "龙卷风",
+        "eg": "A butterfly's wings in Brazil might set off a tornado in Texas. 巴西的蝴蝶翅膀或许会在德克萨斯引发龙卷风。"
+      },
+      {
+        "word": "unpredictable",
+        "phon": "/ˌʌnprɪˈdɪktəbl/",
+        "pos": "adj.",
+        "cn": "不可预测的",
+        "eg": "Reality remains unpredictable despite precise equations. 尽管有精确方程，现实仍不可预测。"
+      },
+      {
+        "word": "precision",
+        "phon": "/prɪˈsɪʒn/",
+        "pos": "n.",
+        "cn": "精确；精度",
+        "eg": "Science cannot predict everything with precision. 科学无法精确预测一切。"
+      },
+      {
+        "word": "meteorologist",
+        "phon": "/ˌmiːtiəˈrɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "气象学家",
+        "eg": "Meteorologists have long admitted the limits of prediction. 气象学家早已承认预测的局限。"
+      },
+      {
+        "word": "patent",
+        "phon": "/'pæt(ə)nt; 'peɪt(ə)nt/",
+        "pos": "n.",
+        "cn": "专利 v.得到专利权",
+        "eg": ""
+      },
+      {
+        "word": "agent",
+        "phon": "/'eɪdʒ(ə)nt/",
+        "pos": "n.",
+        "cn": "情报人员",
+        "eg": ""
+      },
+      {
+        "word": "physiological",
+        "phon": "/,fɪzɪə'lɒdʒɪkəl/",
+        "pos": "a.",
+        "cn": "生理的",
+        "eg": ""
+      },
+      {
+        "word": "maximum",
+        "phon": "/'mæksɪməm/",
+        "pos": "a.",
+        "cn": "最大限度的",
+        "eg": ""
+      },
+      {
+        "word": "consideration",
+        "phon": "/kənˌsɪdə'reɪʃn/",
+        "pos": "n.",
+        "cn": "考虑",
+        "eg": ""
+      },
+      {
+        "word": "descendant",
+        "phon": "/dɪ'send(ə)nt/",
+        "pos": "n.",
+        "cn": "子孙，后代",
+        "eg": ""
+      },
+      {
+        "word": "artificial",
+        "phon": "/ˌɑːrtɪ'fɪʃl/",
+        "pos": "a.",
+        "cn": "人工的",
+        "eg": ""
+      },
+      {
+        "word": "impose",
+        "phon": "/ɪm'pouz/",
+        "pos": "v.",
+        "cn": "强加",
+        "eg": ""
+      },
+      {
+        "word": "dimension",
+        "phon": "/dɪ'menʃn/",
+        "pos": "n.",
+        "cn": "直径",
+        "eg": ""
+      },
+      {
+        "word": "skyscraper",
+        "phon": "/'skaɪskreɪpər/",
+        "pos": "n.",
+        "cn": "摩天大楼",
+        "eg": ""
+      },
+      {
+        "word": "tenant",
+        "phon": "/'tenənt/",
+        "pos": "n.",
+        "cn": "租户",
+        "eg": ""
+      },
+      {
+        "word": "civilized",
+        "phon": "/ˈsɪvəlaɪzd/",
+        "pos": "a.",
+        "cn": "文明的",
+        "eg": ""
+      },
+      {
+        "word": "banal",
+        "phon": "/bə'nɑːl/",
+        "pos": "a.",
+        "cn": "平庸的",
+        "eg": ""
+      },
+      {
+        "word": "luxury",
+        "phon": "/'lʌkʃəri/",
+        "pos": "n.",
+        "cn": "豪华",
+        "eg": ""
+      },
+      {
+        "word": "deprive",
+        "phon": "/dɪ'praɪv/",
+        "pos": "v.",
+        "cn": "剥夺",
+        "eg": ""
+      },
+      {
+        "word": "monstrous",
+        "phon": "/'mɒnstrəs/",
+        "pos": "a.",
+        "cn": "畸形的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "对现在/将来不真实：if + 过去式（were），主句 would do；对过去不真实：if + had done，主句 would/could have done。易错点：would 不进 if 从句；与过去相反主句用 would have done。",
+        "examples": [
+          "If the initial conditions were even slightly different, the outcome would be utterly changed. （若初始条件略不相同，结果便会彻底改变。）",
+          "If forecasters had possessed perfect data, they still could not have predicted the storm. （即使预报员拥有完美数据，他们仍无法预测风暴。）"
+        ]
+      },
+      {
+        "point": "倒装",
+        "explain": "Had + 主语 + done 置句首 = If ... had done，省略 if；Only when ... 置句首，主句用 did + 主语 + 动词原形。易错点：Had the temperature been ... = If the temperature had been ...。",
+        "examples": [
+          "Had the initial temperature been a fraction higher, the entire pattern would have altered. （若初始温度略高一点，整个模式便会改变。）",
+          "Only when scientists accepted the limits of prediction did chaos theory gain recognition. （科学界认识到预测局限之后，混沌理论才获认可。）"
+        ]
+      }
+    ],
+    "tips": "①现在假设：if + 过去式（were）+ would do；②过去假设：if + had done + would have done；③Had ... been 置句首可省略 if，Only when ... 后主句倒装。"
+  },
+  {
+    "book": 4,
+    "lesson": 15,
+    "title": "Secrecy in industry",
+    "titleCn": "工业中的秘密",
+    "scene": "工业间谍活动与商业秘密的保护，是现代经济中不为人知的一面。大公司投入巨资研发新产品，却须防范对手窃取配方；接触机密信息的员工往往须签署保密协议。秘密难以保守这一事实令各行业高管担忧——含专有数据的文件存放在限制出入的保险库中，一次泄密就可能使公司损失数百万美元。存在因疏忽谈话向竞争对手泄露关键信息的风险。公司以严格的内部规章和持续警惕来保护竞争优势。本课语法重点是 the fact/risk that ... 同位语从句，以及修饰 employees、documents 的定语从句。",
+    "grammarTags": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "espionage",
+        "phon": "/ˈespiənɑːʒ/",
+        "pos": "n.",
+        "cn": "间谍活动",
+        "eg": "The fact that industrial espionage is widespread alarms executives. 工业间谍活动普遍存在这一事实令高管担忧。"
+      },
+      {
+        "word": "proprietary",
+        "phon": "/prəˈpraɪətri/",
+        "pos": "adj.",
+        "cn": "专有的；专利的",
+        "eg": "Documents that contain proprietary data are stored in secure vaults. 含专有数据的文件存放在保险库中。"
+      },
+      {
+        "word": "confidentiality",
+        "phon": "/ˌkɒnfɪˌdenʃiˈæləti/",
+        "pos": "n.",
+        "cn": "保密；机密性",
+        "eg": "Employees must sign confidentiality agreements. 员工须签署保密协议。"
+      },
+      {
+        "word": "breach",
+        "phon": "/briːtʃ/",
+        "pos": "n./v.",
+        "cn": "违反；泄密",
+        "eg": "A single breach of confidentiality can cost millions. 一次泄密就可能损失数百万美元。"
+      },
+      {
+        "word": "executive",
+        "phon": "/ɪɡˈzekjətɪv/",
+        "pos": "n.",
+        "cn": "高管；行政人员",
+        "eg": "The fact that secrets are difficult to keep alarms executives. 秘密难以保守令高管担忧。"
+      },
+      {
+        "word": "formula",
+        "phon": "/ˈfɔːmjələ/",
+        "pos": "n.",
+        "cn": "配方；公式",
+        "eg": "Companies must guard against rivals stealing their formulas. 公司须防范对手窃取配方。"
+      },
+      {
+        "word": "rival",
+        "phon": "/ˈraɪvl/",
+        "pos": "n.",
+        "cn": "竞争对手",
+        "eg": "Careless talk may leak vital information to rivals. 疏忽谈话可能向竞争对手泄露关键信息。"
+      },
+      {
+        "word": "vault",
+        "phon": "/vɔːlt/",
+        "pos": "n.",
+        "cn": "保险库；金库",
+        "eg": "Proprietary documents are stored in secure vaults. 专有文件存放在安全保险库中。"
+      },
+      {
+        "word": "vigilant",
+        "phon": "/ˈvɪdʒɪlənt/",
+        "pos": "adj.",
+        "cn": "警惕的",
+        "eg": "Companies safeguard their edge with strict rules and constant vigilance. 公司以严格规章和持续警惕保护竞争优势。"
+      },
+      {
+        "word": "edifice",
+        "phon": "/'edɪfɪs/",
+        "pos": "n.",
+        "cn": "大厦",
+        "eg": ""
+      },
+      {
+        "word": "toxic",
+        "phon": "/'tɑːksɪk/",
+        "pos": "a.",
+        "cn": "有毒的",
+        "eg": ""
+      },
+      {
+        "word": "ceaselessly",
+        "phon": "/['si:slisli]/",
+        "pos": "adv.",
+        "cn": "不停地",
+        "eg": ""
+      },
+      {
+        "word": "throng",
+        "phon": "/θrɔːŋ/",
+        "pos": "v.",
+        "cn": "挤满，壅塞",
+        "eg": ""
+      },
+      {
+        "word": "settlement",
+        "phon": "/'set(ə)lm(ə)nt/",
+        "pos": "n.",
+        "cn": "新拓居地",
+        "eg": ""
+      },
+      {
+        "word": "enterprising",
+        "phon": "/'entəpraɪzɪŋ/",
+        "pos": "a.",
+        "cn": "有事业心的",
+        "eg": ""
+      },
+      {
+        "word": "settler",
+        "phon": "/'setlə/",
+        "pos": "n.",
+        "cn": "移居者",
+        "eg": ""
+      },
+      {
+        "word": "Antipodes",
+        "phon": "/[æn'tipәdi:z]/",
+        "pos": "n.",
+        "cn": "(the～)新西兰和澳大利亚(英)",
+        "eg": ""
+      },
+      {
+        "word": "promiscuous",
+        "phon": "/prəu'miskjuəs/",
+        "pos": "a.",
+        "cn": "杂乱的",
+        "eg": ""
+      },
+      {
+        "word": "abandon",
+        "phon": "/ə'bændən/",
+        "pos": "n.",
+        "cn": "放任，纵情",
+        "eg": ""
+      },
+      {
+        "word": "overrun",
+        "phon": "/ˌouvə'rʌn/",
+        "pos": "v.",
+        "cn": "蔓延，泛滥",
+        "eg": ""
+      },
+      {
+        "word": "devastation",
+        "phon": "/,devə'steɪʃn/",
+        "pos": "n.",
+        "cn": "破坏，劫掠",
+        "eg": ""
+      },
+      {
+        "word": "burrow",
+        "phon": "/'bɜːrou/",
+        "pos": "v.",
+        "cn": "挖、掘",
+        "eg": ""
+      },
+      {
+        "word": "susceptible",
+        "phon": "/sə'septəbl/",
+        "pos": "a.",
+        "cn": "易受感染的",
+        "eg": ""
+      },
+      {
+        "word": "virus",
+        "phon": "/'vaɪrəs/",
+        "pos": "n.",
+        "cn": "病毒",
+        "eg": ""
+      },
+      {
+        "word": "myxomatosis",
+        "phon": "/['miksәmә'tәusis]/",
+        "pos": "n.",
+        "cn": "多发性粘液瘤",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "the fact/risk + that 从句解释具体内容，that 在从句中不作成分：the fact that espionage is widespread；there is a risk that information may be leaked。易错点：risk 后 that 从句说明风险内容，不是定语从句。",
+        "examples": [
+          "The fact that industrial espionage is widespread alarms many executives. （工业间谍活动普遍存在这一事实令许多高管担忧。）",
+          "There is a risk that confidential information may be leaked through careless talk. （存在因疏忽谈话泄露机密信息的风险。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "employees who have access、documents that contain proprietary data 修饰先行词。be bound to do 表「有义务做」。易错点：先行词指人作主语用 who，指物用 that/which。",
+        "examples": [
+          "Employees who have access to secrets must sign confidentiality agreements. （接触机密的员工须签署保密协议。）",
+          "Employees who leave the firm are bound not to disclose trade secrets. （离职员工有义务不泄露商业秘密。）"
+        ]
+      }
+    ],
+    "tips": "①the fact/risk 后解释内容用 that 从句；②employees 用 who，documents 用 that 引导定语从句；③be bound to do 表有义务做，to disclose 是不定式。"
+  },
+  {
+    "book": 4,
+    "lesson": 16,
+    "title": "The modern city",
+    "titleCn": "现代城市",
+    "scene": "现代城市是人类最伟大的造物，也是最令人头疼的难题。涌入城市中心的数百万人使老化基础设施不堪重负；城市规划者修建地铁与环城路以缓解拥堵，交通堵塞却依然存在。正是大都市的巨大规模使其如此难以有效管理——随着城市蔓延，受污染与过度拥挤影响的区域不断向外扩展。分区法规将工厂与居住区隔开，但执法仍是持续挑战。直到二十世纪，大都市才成为主导聚居形态；现代城市按自身逻辑生长，往往超出任何规划者的蓝图。本课语法重点是非谓语动词（分词、不定式）和 It is ... that 强调句。",
+    "grammarTags": [
+      "非谓语动词",
+      "强调句"
+    ],
+    "words": [
+      {
+        "word": "metropolis",
+        "phon": "/məˈtrɒpəlɪs/",
+        "pos": "n.",
+        "cn": "大都市",
+        "eg": "It is the sheer scale of the metropolis that makes it difficult to manage. 正是大都市的巨大规模使其难以管理。"
+      },
+      {
+        "word": "infrastructure",
+        "phon": "/ˈɪnfrəstrʌktʃə/",
+        "pos": "n.",
+        "cn": "基础设施",
+        "eg": "Millions flocking to cities strain ageing infrastructure. 涌入城市的数百万人使老化基础设施不堪重负。"
+      },
+      {
+        "word": "congestion",
+        "phon": "/kənˈdʒestʃən/",
+        "pos": "n.",
+        "cn": "拥堵",
+        "eg": "Planners build ring roads to ease congestion, yet jams persist. 规划者修建环城路缓解拥堵，堵塞却依然存在。"
+      },
+      {
+        "word": "sprawl",
+        "phon": "/sprɔːl/",
+        "pos": "v./n.",
+        "cn": "蔓延；无序扩展",
+        "eg": "Areas affected by pollution spread outward as cities sprawl. 城市蔓延时，受污染影响的区域不断向外扩展。"
+      },
+      {
+        "word": "zoning",
+        "phon": "/ˈzəʊnɪŋ/",
+        "pos": "n.",
+        "cn": "分区规划",
+        "eg": "Zoning laws separate factories from residential districts. 分区法规将工厂与居住区隔开。"
+      },
+      {
+        "word": "enforcement",
+        "phon": "/ɪnˈfɔːsmənt/",
+        "pos": "n.",
+        "cn": "执行；实施",
+        "eg": "Enforcement of zoning laws remains a constant challenge. 分区法规的执行仍是持续挑战。"
+      },
+      {
+        "word": "overcrowding",
+        "phon": "/ˌəʊvəˈkraʊdɪŋ/",
+        "pos": "n.",
+        "cn": "过度拥挤",
+        "eg": "Areas affected by pollution and overcrowding spread outward. 受污染与过度拥挤影响的区域不断向外扩展。"
+      },
+      {
+        "word": "divert",
+        "phon": "/daɪˈvɜːt/",
+        "pos": "v.",
+        "cn": "转移；疏导",
+        "eg": "Planners build ring roads to divert traffic from the centre. 规划者修建环城路以疏导市中心交通。"
+      },
+      {
+        "word": "settlement",
+        "phon": "/ˈsetlmənt/",
+        "pos": "n.",
+        "cn": "聚居地；定居点",
+        "eg": "It was only in the twentieth century that the metropolis became the dominant form of settlement. 直到二十世纪，大都市才成为主导聚居形态。"
+      },
+      {
+        "word": "infect",
+        "phon": "/ɪn'fekt/",
+        "pos": "v.",
+        "cn": "传染",
+        "eg": ""
+      },
+      {
+        "word": "epidemic",
+        "phon": "/ˌepɪ'demɪk/",
+        "pos": "n.",
+        "cn": "流行病",
+        "eg": ""
+      },
+      {
+        "word": "mosquito",
+        "phon": "/mə'skiːtou/",
+        "pos": "n.",
+        "cn": "蚊虫",
+        "eg": ""
+      },
+      {
+        "word": "carrier",
+        "phon": "/'kærɪə/",
+        "pos": "n.",
+        "cn": "带菌者",
+        "eg": ""
+      },
+      {
+        "word": "exterminate",
+        "phon": "/ik'stəːmineit/",
+        "pos": "v.",
+        "cn": "消灭",
+        "eg": ""
+      },
+      {
+        "word": "ironically",
+        "phon": "/aɪ'rɒnɪklɪ/",
+        "pos": "adv.",
+        "cn": "具有讽刺意味地",
+        "eg": ""
+      },
+      {
+        "word": "bequeath",
+        "phon": "/bɪ'kwiːð/",
+        "pos": "v.",
+        "cn": "把…传给",
+        "eg": ""
+      },
+      {
+        "word": "pest",
+        "phon": "/pest/",
+        "pos": "n.",
+        "cn": "害虫，有害动物",
+        "eg": ""
+      },
+      {
+        "word": "pestilence",
+        "phon": "/'pestiləns/",
+        "pos": "n.",
+        "cn": "瘟疫",
+        "eg": ""
+      },
+      {
+        "word": "confine",
+        "phon": "/kən'faɪn/",
+        "pos": "n.",
+        "cn": "范围",
+        "eg": ""
+      },
+      {
+        "word": "domesticate",
+        "phon": "/də'mestɪkeɪt/",
+        "pos": "v.",
+        "cn": "驯养",
+        "eg": ""
+      },
+      {
+        "word": "porpoise(title)",
+        "phon": "",
+        "pos": "n.",
+        "cn": "海豚",
+        "eg": ""
+      },
+      {
+        "word": "mariner",
+        "phon": "/'mærinə/",
+        "pos": "n.",
+        "cn": "水手",
+        "eg": ""
+      },
+      {
+        "word": "shark",
+        "phon": "/ʃɑːk/",
+        "pos": "n.",
+        "cn": "鲨鱼",
+        "eg": ""
+      },
+      {
+        "word": "formation",
+        "phon": "/fɔːr'meɪʃn/",
+        "pos": "n.",
+        "cn": "队形",
+        "eg": ""
+      },
+      {
+        "word": "dolphin",
+        "phon": "/'dɑːlfɪn/",
+        "pos": "n.",
+        "cn": "海豚科动物",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词",
+        "explain": "现在分词 flocking 作定语表主动（涌入城市的人们）；过去分词 affected 表被动（受影响的区域）；to divert 作目的状语（为了疏导交通）。易错点：people 与 flock 是主动关系用 -ing，areas 与 affect 是被动关系用 -ed。",
+        "examples": [
+          "People flocking to cities from the countryside strain existing infrastructure. （从农村涌入城市的人们使现有基础设施不堪重负。）",
+          "Planners build ring roads to divert traffic from the city centre. （规划者修建环城路以疏导市中心交通。）"
+        ]
+      },
+      {
+        "point": "强调句",
+        "explain": "It is/was + 被强调部分 + that + 其余部分。强调主语用 It is the sheer scale that ...；强调时间状语用 It was only in the twentieth century that ...。易错点：强调句中 that 不换成 which/who（强调人时可用 who）。",
+        "examples": [
+          "It is the sheer scale of the metropolis that makes it so difficult to manage. （正是大都市的巨大规模使其如此难以管理。）",
+          "It was only in the twentieth century that the metropolis became the dominant form of settlement. （直到二十世纪，大都市才成为主导聚居形态。）"
+        ]
+      }
+    ],
+    "tips": "①主动关系用 -ing 作定语（flocking），被动用 -ed（affected）；②表目的用 to do（to divert）；③强调句 It is/was ... that ...，去掉后句子仍完整。"
+  },
+  {
+    "book": 4,
+    "lesson": 17,
+    "title": "A man-made disease",
+    "titleCn": "人为的疾病",
+    "scene": "牛海绵状脑病，俗称疯牛病，是一场人为灾难。牛曾被喂食其他动物的加工残骸，朊病毒在牛群中迅速传播；疫情被发现之前，饲料早已被感染物质污染。为控制摧毁英国畜牧业的疫情，数百万头牛被屠宰。食用受感染牛肉的人可能患上致命的脑病——若农民未改变牛的饲料，这场灾难或许根本不会发生。用肉骨粉喂牛的做法此后已被禁止。这场悲剧警示人们：不可为短期利益牺牲安全。本课语法重点是各时态的被动语态，以及对过去不真实情况的虚拟语气。",
+    "grammarTags": [
+      "被动语态",
+      "虚拟语气"
+    ],
+    "words": [
+      {
+        "word": "spongiform",
+        "phon": "/ˈspʌndʒɪfɔːm/",
+        "pos": "adj.",
+        "cn": "海绵状的",
+        "eg": "Bovine spongiform encephalopathy is commonly known as mad cow disease. 牛海绵状脑病俗称疯牛病。"
+      },
+      {
+        "word": "prion",
+        "phon": "/ˈpriːɒn/",
+        "pos": "n.",
+        "cn": "朊病毒",
+        "eg": "Prions spread rapidly through the herds when cattle were fed infected remains. 牛被喂食感染残骸时，朊病毒在牛群中迅速传播。"
+      },
+      {
+        "word": "contaminated",
+        "phon": "/kənˈtæmɪneɪtɪd/",
+        "pos": "adj.",
+        "cn": "受污染的",
+        "eg": "The feed supply had been contaminated before the outbreak was detected. 疫情被发现前饲料已被污染。"
+      },
+      {
+        "word": "slaughter",
+        "phon": "/ˈslɔːtə/",
+        "pos": "v./n.",
+        "cn": "屠宰",
+        "eg": "Millions of cattle were slaughtered to contain the epidemic. 为控制疫情，数百万头牛被屠宰。"
+      },
+      {
+        "word": "epidemic",
+        "phon": "/ˌepɪˈdemɪk/",
+        "pos": "n.",
+        "cn": "流行病；疫情",
+        "eg": "The epidemic devastated British farming. 这场疫情摧毁了英国畜牧业。"
+      },
+      {
+        "word": "outbreak",
+        "phon": "/ˈaʊtbreɪk/",
+        "pos": "n.",
+        "cn": "爆发",
+        "eg": "The feed was contaminated long before the outbreak was detected. 疫情爆发前很久饲料就已受污染。"
+      },
+      {
+        "word": "catastrophe",
+        "phon": "/kəˈtæstrəfi/",
+        "pos": "n.",
+        "cn": "灾难",
+        "eg": "If farmers had not changed the diet, the catastrophe might never have occurred. 若农民未改变饲料，灾难或许根本不会发生。"
+      },
+      {
+        "word": "precaution",
+        "phon": "/prɪˈkɔːʃn/",
+        "pos": "n.",
+        "cn": "预防措施",
+        "eg": "If only stricter precautions had been imposed at an earlier stage. 要是更早采取更严格的预防措施就好了。"
+      },
+      {
+        "word": "ban",
+        "phon": "/bæn/",
+        "pos": "v./n.",
+        "cn": "禁止",
+        "eg": "The practice of using meat-and-bone meal has since been banned. 用肉骨粉喂牛的做法此后已被禁止。"
+      },
+      {
+        "word": "unconscious",
+        "phon": "/ʌn'kɔnʃəs/",
+        "pos": "a.",
+        "cn": "不省人事的",
+        "eg": ""
+      },
+      {
+        "word": "beaver",
+        "phon": "/'biːvər/",
+        "pos": "n.",
+        "cn": "海狸",
+        "eg": ""
+      },
+      {
+        "word": "ashore",
+        "phon": "/ə'ʃɔː/",
+        "pos": "adv.",
+        "cn": "上岸",
+        "eg": ""
+      },
+      {
+        "word": "waterlogged",
+        "phon": "",
+        "pos": "a.",
+        "cn": "浸满水的",
+        "eg": ""
+      },
+      {
+        "word": "scent",
+        "phon": "/sent/",
+        "pos": "n.",
+        "cn": "香味",
+        "eg": ""
+      },
+      {
+        "word": "ensue",
+        "phon": "/ɪn'suː/",
+        "pos": "v.",
+        "cn": "接着发生",
+        "eg": ""
+      },
+      {
+        "word": "intrigue",
+        "phon": "/ɪn'triːg/",
+        "pos": "v.",
+        "cn": "引起兴趣",
+        "eg": ""
+      },
+      {
+        "word": "indignity",
+        "phon": "/ɪn'dɪgnɪtɪ/",
+        "pos": "n.",
+        "cn": "侮辱",
+        "eg": ""
+      },
+      {
+        "word": "snout",
+        "phon": "/snaʊt/",
+        "pos": "n.",
+        "cn": "口鼻部",
+        "eg": ""
+      },
+      {
+        "word": "shove",
+        "phon": "/ʃʌv/",
+        "pos": "v.",
+        "cn": "硬推",
+        "eg": ""
+      },
+      {
+        "word": "aquaplane",
+        "phon": "/['ækwәplein]/",
+        "pos": "n.",
+        "cn": "驾浪滑水板",
+        "eg": ""
+      },
+      {
+        "word": "oceanarium",
+        "phon": "/['ouʃәn'ʒәri-әm]/",
+        "pos": "n.",
+        "cn": "水族馆",
+        "eg": ""
+      },
+      {
+        "word": "swoop",
+        "phon": "/swuːp/",
+        "pos": "v.",
+        "cn": "猛扑",
+        "eg": ""
+      },
+      {
+        "word": "belly",
+        "phon": "/'belɪ/",
+        "pos": "n.",
+        "cn": "腹部",
+        "eg": ""
+      },
+      {
+        "word": "equilibrium",
+        "phon": "/,iːkwɪ'lɪbrɪəm; ,ekwɪ-/",
+        "pos": "n.",
+        "cn": "平衡",
+        "eg": ""
+      },
+      {
+        "word": "butt",
+        "phon": "/bʌt/",
+        "pos": "v.",
+        "cn": "碰撞",
+        "eg": ""
+      },
+      {
+        "word": "crack",
+        "phon": "/kræk/",
+        "pos": "n.",
+        "cn": "重击",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "were slaughtered 一般过去时被动；had been contaminated 过去完成时被动（污染发生在 was detected 之前）；has been banned 现在完成时被动（since 提示）。易错点：「污染」在「发现」之前，用 had been contaminated。",
+        "examples": [
+          "Millions of cattle were slaughtered to contain the epidemic. （为控制疫情，数百万头牛被屠宰。）",
+          "The feed supply had been contaminated with infected material before the outbreak was detected. （疫情被发现前，饲料早已被感染物质污染。）"
+        ]
+      },
+      {
+        "point": "虚拟语气",
+        "explain": "对过去不真实：if + had done，主句 might/would have done；If only + had done 表对过去的遗憾。易错点：might never have occurred 与 had not changed 搭配表与过去事实相反。",
+        "examples": [
+          "If farmers had not changed the cattle's diet, the catastrophe might never have occurred. （若农民未改变牛的饲料，这场灾难或许根本不会发生。）",
+          "If only stricter precautions had been imposed at an earlier stage. （要是更早采取更严格的预防措施就好了。）"
+        ]
+      }
+    ],
+    "tips": "①污染发生在发现之前：had been contaminated；②禁止至今有效：has been banned；③与过去相反：if + had done + might/would have done，If only + had done 表遗憾。"
+  },
+  {
+    "book": 4,
+    "lesson": 18,
+    "title": "Porpoises",
+    "titleCn": "鼠海豚",
+    "scene": "鼠海豚是最聪慧的海洋哺乳动物之一，却每年数千头死于渔网误捕。一群鼠海豚通过人耳听不见的声学信号交流；它们靠天然声呐导航，将高频声波从水中障碍物反弹回来。若干物种现已濒危，面临污染与栖息地破坏的威胁——若保护法规更早实施，无数鼠海豚本可获救。要是我早知道误捕危机，就会帮忙倡导更安全的渔网。研究者从未观察到这些生物之间如此复杂的社交行为。唯有通过国际合作，才能确保鼠海豚继续在公海中繁衍生息。本课语法重点是虚拟语气（含 Had I known 倒装），以及 Never before 等否定词引起的部分倒装。",
+    "grammarTags": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "words": [
+      {
+        "word": "porpoise",
+        "phon": "/ˈpɔːpəs/",
+        "pos": "n.",
+        "cn": "鼠海豚",
+        "eg": "Thousands of porpoises die each year as bycatch in fishing nets. 每年数千头鼠海豚死于渔网误捕。"
+      },
+      {
+        "word": "bycatch",
+        "phon": "/ˈbaɪkætʃ/",
+        "pos": "n.",
+        "cn": "误捕；附带捕捞",
+        "eg": "Porpoises are among the victims of bycatch in commercial fishing. 鼠海豚是商业捕捞误捕的受害者之一。"
+      },
+      {
+        "word": "acoustic",
+        "phon": "/əˈkuːstɪk/",
+        "pos": "adj.",
+        "cn": "声学的；听觉的",
+        "eg": "A pod communicates through acoustic signals beyond human hearing. 一群鼠海豚通过人耳听不见的声学信号交流。"
+      },
+      {
+        "word": "endangered",
+        "phon": "/ɪnˈdeɪndʒəd/",
+        "pos": "adj.",
+        "cn": "濒危的",
+        "eg": "Several species are now endangered by pollution and habitat loss. 若干物种现已因污染和栖息地丧失而濒危。"
+      },
+      {
+        "word": "conservation",
+        "phon": "/ˌkɒnsəˈveɪʃn/",
+        "pos": "n.",
+        "cn": "保护",
+        "eg": "If conservation laws had been enforced earlier, countless porpoises would have been saved. 若保护法规更早实施，无数鼠海豚本可获救。"
+      },
+      {
+        "word": "sonar",
+        "phon": "/ˈsəʊnɑː/",
+        "pos": "n.",
+        "cn": "声呐",
+        "eg": "Porpoises navigate by a natural form of sonar. 鼠海豚靠天然声呐导航。"
+      },
+      {
+        "word": "pod",
+        "phon": "/pɒd/",
+        "pos": "n.",
+        "cn": "（海洋哺乳动物的）一群",
+        "eg": "A pod of porpoises communicates through acoustic signals. 一群鼠海豚通过声学信号交流。"
+      },
+      {
+        "word": "cooperate",
+        "phon": "/kəʊˈɒpəreɪt/",
+        "pos": "v.",
+        "cn": "合作",
+        "eg": "Only through international cooperation can we ensure porpoises continue to thrive. 唯有国际合作才能确保鼠海豚继续繁衍生息。"
+      },
+      {
+        "word": "thrive",
+        "phon": "/θraɪv/",
+        "pos": "v.",
+        "cn": "繁衍生息；茁壮成长",
+        "eg": "Porpoises must continue to thrive in the open sea. 鼠海豚须继续在公海中繁衍生息。"
+      },
+      {
+        "word": "speculation",
+        "phon": "/,spekjʊ'leɪʃn/",
+        "pos": "n.",
+        "cn": "推测",
+        "eg": ""
+      },
+      {
+        "word": "literally",
+        "phon": "/'lɪt(ə)rəlɪ/",
+        "pos": "adv.",
+        "cn": "确实",
+        "eg": ""
+      },
+      {
+        "word": "odd",
+        "phon": "/ɑːd/",
+        "pos": "a.",
+        "cn": "奇特的",
+        "eg": ""
+      },
+      {
+        "word": "tissue",
+        "phon": "/'tɪʃuː/",
+        "pos": "n.",
+        "cn": "组织",
+        "eg": ""
+      },
+      {
+        "word": "plausible",
+        "phon": "/'plɔːzəbl/",
+        "pos": "a.",
+        "cn": "似乎有理的",
+        "eg": ""
+      },
+      {
+        "word": "hypothesis",
+        "phon": "/haɪ'pɑːθəsɪs/",
+        "pos": "n.",
+        "cn": "假说",
+        "eg": ""
+      },
+      {
+        "word": "electroencephalograph",
+        "phon": "",
+        "pos": "n.",
+        "cn": "脑电图仪",
+        "eg": ""
+      },
+      {
+        "word": "electrode",
+        "phon": "/ɪ'lektroud/",
+        "pos": "n.",
+        "cn": "电极",
+        "eg": ""
+      },
+      {
+        "word": "scaly",
+        "phon": "/['skeili]/",
+        "pos": "n.",
+        "cn": "头发",
+        "eg": ""
+      },
+      {
+        "word": "psychiatrist",
+        "phon": "/saɪ'kaɪətrɪst/",
+        "pos": "n.",
+        "cn": "精神病学家",
+        "eg": ""
+      },
+      {
+        "word": "punctuate",
+        "phon": "/'pʌŋktjueit/",
+        "pos": "v.",
+        "cn": "不时介入",
+        "eg": ""
+      },
+      {
+        "word": "jerky",
+        "phon": "/'dʒəːki/",
+        "pos": "a.",
+        "cn": "急动的",
+        "eg": ""
+      },
+      {
+        "word": "disorder",
+        "phon": "/dɪs'ɔːrdər/",
+        "pos": "n.",
+        "cn": "失调",
+        "eg": ""
+      },
+      {
+        "word": "implication",
+        "phon": "/ˌɪmplɪ'keɪʃn/",
+        "pos": "n.",
+        "cn": "表明",
+        "eg": ""
+      },
+      {
+        "word": "saliva",
+        "phon": "/sə'laɪvə/",
+        "pos": "n.",
+        "cn": "唾液",
+        "eg": ""
+      },
+      {
+        "word": "digestive",
+        "phon": "/daɪ'dʒestɪv; dɪ-/",
+        "pos": "a.",
+        "cn": "助消化的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "对过去不真实：if + had done，主句 would have done；Had I known earlier = If I had known earlier（虚拟倒装）。易错点：Had + 主语 + done 置句首省略 if，主句仍用 would have done。",
+        "examples": [
+          "If conservation laws had been enforced earlier, countless porpoises would have been saved. （若保护法规更早实施，无数鼠海豚本可获救。）",
+          "Had I known earlier about the bycatch crisis, I would have helped campaign for safer nets. （要是我早知道误捕危机，就会帮忙倡导更安全的渔网。）"
+        ]
+      },
+      {
+        "point": "倒装",
+        "explain": "Never before 置句首，主句用过去完成时部分倒装（had scientists observed）；Had I known 是虚拟倒装。Only through ... can we ... 也是部分倒装。易错点：Never before 后常用 had + 主语 + 过去分词。",
+        "examples": [
+          "Never before had researchers observed such complex social behaviour among these creatures. （研究者从未观察到这些生物之间如此复杂的社交行为。）",
+          "Only through international cooperation can we ensure that porpoises continue to thrive. （唯有通过国际合作，才能确保鼠海豚继续繁衍生息。）"
+        ]
+      }
+    ],
+    "tips": "①与过去相反：if + had done + would have done；②Had I known = If I had known，省略 if 的虚拟倒装；③Never before 置句首用 had + 主语 + 过去分词。"
+  },
+  {
+    "book": 4,
+    "lesson": 19,
+    "title": "The stuff of dreams",
+    "titleCn": "梦的内容",
+    "scene": "梦究竟是潜意识欲望的宣泄，还是大脑整理记忆的副产品？弗洛伊德持有这一信念：梦是通往潜意识的皇家大道——他认为，被压抑的愿望在睡眠中以象征形式浮现。神经科学提出不同见解，将生动梦境与快速眼动睡眠及脑活动联系起来；越来越多的证据表明，大脑在梦中巩固记忆。梦中出现的意象往往反映清醒时的焦虑，研究梦有助于心理学家理解有意识心灵所隐藏的情感。梦的内容仍是人类经验中最深奥的谜团之一。本课语法重点是 the belief/evidence that ... 同位语从句，以及动名词作主语和宾语的非谓语用法。",
+    "grammarTags": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "words": [
+      {
+        "word": "subconscious",
+        "phon": "/ˌsʌbˈkɒnʃəs/",
+        "pos": "n./adj.",
+        "cn": "潜意识",
+        "eg": "Are dreams an outlet for subconscious desires? 梦是潜意识欲望的宣泄吗？"
+      },
+      {
+        "word": "repressed",
+        "phon": "/rɪˈprest/",
+        "pos": "adj.",
+        "cn": "被压抑的",
+        "eg": "Repressed wishes surface in symbolic form during sleep. 被压抑的愿望在睡眠中以象征形式浮现。"
+      },
+      {
+        "word": "unconscious",
+        "phon": "/ʌnˈkɒnʃəs/",
+        "pos": "n./adj.",
+        "cn": "无意识",
+        "eg": "Freud called dreams the royal road to the unconscious mind. 弗洛伊德称梦是通往潜意识的皇家大道。"
+      },
+      {
+        "word": "neuroscience",
+        "phon": "/ˈnjʊərəʊsaɪəns/",
+        "pos": "n.",
+        "cn": "神经科学",
+        "eg": "Neuroscience offers a different view of dreaming. 神经科学对梦提出不同见解。"
+      },
+      {
+        "word": "consolidate",
+        "phon": "/kənˈsɒlɪdeɪt/",
+        "pos": "v.",
+        "cn": "巩固；加强",
+        "eg": "There is growing evidence that the brain consolidates memories while we dream. 越来越多证据表明大脑在梦中巩固记忆。"
+      },
+      {
+        "word": "symbolize",
+        "phon": "/ˈsɪmbəlaɪz/",
+        "pos": "v.",
+        "cn": "象征",
+        "eg": "Images appearing in dreams often symbolize anxieties experienced while awake. 梦中意象往往象征清醒时的焦虑。"
+      },
+      {
+        "word": "anxiety",
+        "phon": "/æŋˈzaɪəti/",
+        "pos": "n.",
+        "cn": "焦虑",
+        "eg": "Dream images often reflect anxieties experienced during waking hours. 梦中意象往往反映清醒时的焦虑。"
+      },
+      {
+        "word": "psychologist",
+        "phon": "/saɪˈkɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "心理学家",
+        "eg": "Studying dreams helps psychologists understand concealed emotions. 研究梦有助于心理学家理解被隐藏的情感。"
+      },
+      {
+        "word": "mystery",
+        "phon": "/ˈmɪstri/",
+        "pos": "n.",
+        "cn": "谜团；神秘",
+        "eg": "The stuff of dreams remains one of the deepest mysteries of human experience. 梦的内容仍是人类经验中最深奥的谜团之一。"
+      },
+      {
+        "word": "defy",
+        "phon": "/dɪ'faɪ/",
+        "pos": "v.",
+        "cn": "使不可能",
+        "eg": ""
+      },
+      {
+        "word": "analysis",
+        "phon": "/ə'næləsɪs/",
+        "pos": "n.",
+        "cn": "分析",
+        "eg": ""
+      },
+      {
+        "word": "prey",
+        "phon": "/preɪ/",
+        "pos": "n.",
+        "cn": "被捕食的动物",
+        "eg": ""
+      },
+      {
+        "word": "fierce",
+        "phon": "/fɪrs/",
+        "pos": "a.",
+        "cn": "凶猛的",
+        "eg": ""
+      },
+      {
+        "word": "tussle",
+        "phon": "/'tʌs(ə)l/",
+        "pos": "n.",
+        "cn": "扭打",
+        "eg": ""
+      },
+      {
+        "word": "carnivore",
+        "phon": "/'kɑːrnɪvɔːr/",
+        "pos": "n.",
+        "cn": "食肉动物",
+        "eg": ""
+      },
+      {
+        "word": "vertebrate",
+        "phon": "/'vɜːrtɪbrət/",
+        "pos": "n.",
+        "cn": "脊椎动物",
+        "eg": ""
+      },
+      {
+        "word": "lizard",
+        "phon": "/'lɪzərd/",
+        "pos": "n.",
+        "cn": "蜥蜴",
+        "eg": ""
+      },
+      {
+        "word": "concoct",
+        "phon": "/kən'kɒkt/",
+        "pos": "v.",
+        "cn": "调制",
+        "eg": ""
+      },
+      {
+        "word": "potency",
+        "phon": "/'poutnsi/",
+        "pos": "n.",
+        "cn": "效力",
+        "eg": ""
+      },
+      {
+        "word": "conversion",
+        "phon": "/kən'vɜːrʒn/",
+        "pos": "n.",
+        "cn": "转变",
+        "eg": ""
+      },
+      {
+        "word": "arsenic",
+        "phon": "/'ɑːs(ə)nɪk/",
+        "pos": "n.",
+        "cn": "砒霜",
+        "eg": ""
+      },
+      {
+        "word": "strychnine",
+        "phon": "/['striknin]/",
+        "pos": "n.",
+        "cn": "马钱子碱",
+        "eg": ""
+      },
+      {
+        "word": "mamba",
+        "phon": "/['mɔmbә]/",
+        "pos": "n.",
+        "cn": "树眼镜蛇",
+        "eg": ""
+      },
+      {
+        "word": "cobra",
+        "phon": "/'kəʊbrə; 'kɒbrə/",
+        "pos": "n.",
+        "cn": "眼镜蛇",
+        "eg": ""
+      },
+      {
+        "word": "venom",
+        "phon": "/'venəm/",
+        "pos": "n.",
+        "cn": "毒液",
+        "eg": ""
+      },
+      {
+        "word": "neurotoxic",
+        "phon": "/['njuәrou'tɔksik, 'nu-]/",
+        "pos": "a.",
+        "cn": "毒害神经的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "the belief/evidence + that 从句解释具体内容：Freud held the belief that dreams are the royal road；there is evidence that the brain consolidates memories。that 在从句中不作成分。易错点：evidence 后 that 从句是同位语，说明证据的内容。",
+        "examples": [
+          "Freud held the belief that dreams are the royal road to the unconscious mind. （弗洛伊德持有这一信念：梦是通往潜意识的皇家大道。）",
+          "There is growing evidence that the brain consolidates memories while we dream. （越来越多的证据表明，大脑在梦中巩固记忆。）"
+        ]
+      },
+      {
+        "point": "非谓语动词",
+        "explain": "动名词作主语（Studying dreams helps ...）；现在分词作定语表主动（images appearing in dreams）；avoid 后接 doing（avoid jumping to conclusions）。易错点：appearing 表主动「出现的意象」，不是 appeared。",
+        "examples": [
+          "Studying dreams helps psychologists understand repressed emotions. （研究梦有助于心理学家理解被压抑的情感。）",
+          "Psychologists avoid jumping to conclusions when interpreting dream symbols. （心理学家在解读梦的象征时避免草率下结论。）"
+        ]
+      }
+    ],
+    "tips": "①the belief/evidence 后解释内容用 that 从句；②动名词作主语：Studying dreams helps ...；③images appearing 是现在分词作定语表主动，avoid 后接 doing。"
+  },
+  {
+    "book": 4,
+    "lesson": 20,
+    "title": "Snake poison",
+    "titleCn": "蛇毒",
+    "scene": "蛇毒是自然界最复杂的生化武器之一，却也能救人性命。毒液含数十种毒素，有的攻击血液，有的攻击神经系统；毒液影响神经系统的蛇是地球上最危险的物种之一。从毒液中分离出的有用化合物用于心脏病药物——被咬后须迅速注射抗蛇毒血清以中和毒素，取蛇毒需要技巧、勇气与沉稳。针对世界上大多数最致命蛇种已研制出抗蛇毒血清；一剂即可致命之物，经提炼后或可治愈其他药物无法治疗的疾病。本课语法重点是 whose 引导的定语从句和过去分词定语，以及各时态的被动语态。",
+    "grammarTags": [
+      "定语从句",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "venom",
+        "phon": "/ˈvenəm/",
+        "pos": "n.",
+        "cn": "毒液",
+        "eg": "Snake venom contains dozens of different toxins. 蛇毒含数十种不同毒素。"
+      },
+      {
+        "word": "toxin",
+        "phon": "/ˈtɒksɪn/",
+        "pos": "n.",
+        "cn": "毒素",
+        "eg": "Some toxins attack the blood, others the nervous system. 有些毒素攻击血液，有些攻击神经系统。"
+      },
+      {
+        "word": "antivenom",
+        "phon": "/ˈæntivenəm/",
+        "pos": "n.",
+        "cn": "抗蛇毒血清",
+        "eg": "Antivenom must be administered quickly after a bite. 被咬后须迅速注射抗蛇毒血清。"
+      },
+      {
+        "word": "administer",
+        "phon": "/ədˈmɪnɪstə/",
+        "pos": "v.",
+        "cn": "施用；给予（药物）",
+        "eg": "Antivenom must be administered without delay. 抗蛇毒血清须立即注射。"
+      },
+      {
+        "word": "isolate",
+        "phon": "/ˈaɪsəleɪt/",
+        "pos": "v.",
+        "cn": "分离；隔离",
+        "eg": "Useful compounds isolated from venom are used in heart medication. 从毒液中分离出的化合物用于心脏病药物。"
+      },
+      {
+        "word": "neutralise",
+        "phon": "/ˈnjuːtrəlaɪz/",
+        "pos": "v.",
+        "cn": "中和",
+        "eg": "Antivenom is given to neutralise the poison. 注射抗蛇毒血清以中和毒素。"
+      },
+      {
+        "word": "compound",
+        "phon": "/ˈkɒmpaʊnd/",
+        "pos": "n.",
+        "cn": "化合物",
+        "eg": "Compounds isolated from venom are used in medicines. 从毒液中分离的化合物用于药物。"
+      },
+      {
+        "word": "serum",
+        "phon": "/ˈsɪərəm/",
+        "pos": "n.",
+        "cn": "血清",
+        "eg": "Antivenom serum has been developed for most deadly species. 针对大多数致命蛇种已研制抗蛇毒血清。"
+      },
+      {
+        "word": "refined",
+        "phon": "/rɪˈfaɪnd/",
+        "pos": "adj.",
+        "cn": "精炼的；提纯的",
+        "eg": "What kills in one dose may, in refined form, heal serious conditions. 一剂致命之物经提炼后或可治愈重病。"
+      },
+      {
+        "word": "viper",
+        "phon": "/['vaipә]/",
+        "pos": "n.",
+        "cn": "蝰蛇",
+        "eg": ""
+      },
+      {
+        "word": "rattlesnake",
+        "phon": "/'ræt(ə)lsneɪk/",
+        "pos": "n.",
+        "cn": "响尾蛇",
+        "eg": ""
+      },
+      {
+        "word": "haemolytic",
+        "phon": "",
+        "pos": "a.",
+        "cn": "溶血性的",
+        "eg": "Vipers (adders) and rattlesnakes manufacture the blood poison, which is known as haemolytic."
+      },
+      {
+        "word": "viperine",
+        "phon": "/['vaipәrin]/",
+        "pos": "a.",
+        "cn": "毒蛇的",
+        "eg": "and the effects on these of viperine poison is almost immediate."
+      },
+      {
+        "word": "supreme",
+        "phon": "/suː'priːm/",
+        "pos": "a.",
+        "cn": "首屈一指的",
+        "eg": ""
+      },
+      {
+        "word": "protagonist",
+        "phon": "/prə'tægənɪst/",
+        "pos": "n.",
+        "cn": "主角",
+        "eg": ""
+      },
+      {
+        "word": "outlaw",
+        "phon": "/'autlɔː/",
+        "pos": "n.",
+        "cn": "逃犯，亡命之徒",
+        "eg": ""
+      },
+      {
+        "word": "framed",
+        "phon": "",
+        "pos": "a.",
+        "cn": "遭到陷害的",
+        "eg": ""
+      },
+      {
+        "word": "vicious",
+        "phon": "/'vɪʃəs/",
+        "pos": "a.",
+        "cn": "恶毒的",
+        "eg": ""
+      },
+      {
+        "word": "mythology",
+        "phon": "/mɪ'θɑːlədʒi/",
+        "pos": "n.",
+        "cn": "神话",
+        "eg": ""
+      },
+      {
+        "word": "vanished",
+        "phon": "",
+        "pos": "a.",
+        "cn": "消失了的",
+        "eg": ""
+      },
+      {
+        "word": "absurdly",
+        "phon": "/[әb'sә:dli]/",
+        "pos": "adv.",
+        "cn": "荒诞地",
+        "eg": ""
+      },
+      {
+        "word": "arena",
+        "phon": "/ə'riːnə/",
+        "pos": "n.",
+        "cn": "竞技场地",
+        "eg": ""
+      },
+      {
+        "word": "encroaching",
+        "phon": "",
+        "pos": "a.",
+        "cn": "渐渐渗入的",
+        "eg": ""
+      },
+      {
+        "word": "Indian",
+        "phon": "/'ɪndɪən/",
+        "pos": "n.",
+        "cn": "印第安人",
+        "eg": ""
+      },
+      {
+        "word": "bewilder",
+        "phon": "/bɪ'wɪldər/",
+        "pos": "v.",
+        "cn": "使手足无措",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "whose 表所属关系：snakes whose venom attacks the nervous system。过去分词作定语表被动：compounds isolated from venom。易错点：whose 引导定语从句，表示「其毒液……的蛇」。",
+        "examples": [
+          "Snakes whose venom affects the nervous system are among the most dangerous. （毒液影响神经系统的蛇是最危险的物种之一。）",
+          "Compounds isolated from venom are used in medicines for heart disease. （从毒液中分离出的化合物用于心脏病药物。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "must be administered 情态动词被动；are extracted 一般现在时被动；has been developed 现在完成时被动。易错点：antivenom 是被注射、被研制的对象，用被动语态。",
+        "examples": [
+          "Antivenom must be administered quickly after a snake bite. （被蛇咬后须迅速注射抗蛇毒血清。）",
+          "Antivenom has been developed for most of the world's deadliest snake species. （针对世界上大多数最致命蛇种已研制出抗蛇毒血清。）"
+        ]
+      }
+    ],
+    "tips": "①whose 表所属：snakes whose venom ...；②isolated from 是过去分词作定语表被动；③must be administered 是情态动词被动，has been developed 是现在完成时被动。"
+  },
+  {
+    "book": 4,
+    "lesson": 21,
+    "title": "William Shakespeare",
+    "titleCn": "威廉·莎士比亚",
+    "scene": "威廉·莎士比亚一五六四年生于埃文河畔斯特拉特福，一六一六年在故里去世，享年五十二岁。他留给世界三十七部戏剧和一百五十四首隽永的十四行诗；莎士比亚创作的戏剧仍在全球各地上演。他回到斯特拉特福时，已写完大部分最伟大的悲剧与喜剧，许多作品首演于伦敦环球剧场。他声名鹊起的伊丽莎白时代，是英国文学的黄金时期——作者身份争议虽时而激烈，却丝毫未损其声誉。四个世纪过去，他对人性的洞察依旧鲜活有力。本课语法重点是修饰 plays、era 的定语从句（含介词+which），以及交代先后的过去完成时。",
+    "grammarTags": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "words": [
+      {
+        "word": "tragedy",
+        "phon": "/ˈtrædʒədi/",
+        "pos": "n.",
+        "cn": "悲剧",
+        "eg": "By the time he returned to Stratford, he had written most of his greatest tragedies. 回到斯特拉特福时，他已写完大部分最伟大的悲剧。"
+      },
+      {
+        "word": "comedy",
+        "phon": "/ˈkɒmədi/",
+        "pos": "n.",
+        "cn": "喜剧",
+        "eg": "He had written most of his greatest tragedies and comedies before returning home. 回家前他已写完大部分最伟大的悲剧与喜剧。"
+      },
+      {
+        "word": "sonnet",
+        "phon": "/ˈsɒnɪt/",
+        "pos": "n.",
+        "cn": "十四行诗",
+        "eg": "He left the world thirty-seven plays and a hundred and fifty-four sonnets. 他留给世界三十七部戏剧和一百五十四首十四行诗。"
+      },
+      {
+        "word": "Elizabethan",
+        "phon": "/ɪˌlɪzəˈbiːθən/",
+        "pos": "adj.",
+        "cn": "伊丽莎白时代的",
+        "eg": "The Elizabethan era was a golden age of English literature. 伊丽莎白时代是英国文学的黄金时期。"
+      },
+      {
+        "word": "flourish",
+        "phon": "/ˈflʌrɪʃ/",
+        "pos": "v.",
+        "cn": "繁荣；声名鹊起",
+        "eg": "Shakespeare flourished during the Elizabethan era. 莎士比亚在伊丽莎白时代声名鹊起。"
+      },
+      {
+        "word": "authorship",
+        "phon": "/ˈɔːθəʃɪp/",
+        "pos": "n.",
+        "cn": "作者身份",
+        "eg": "The authorship controversy has done little to diminish his reputation. 作者身份争议丝毫未损其声誉。"
+      },
+      {
+        "word": "insight",
+        "phon": "/ˈɪnsaɪt/",
+        "pos": "n.",
+        "cn": "洞察力",
+        "eg": "His insight into human nature remains as fresh as ever. 他对人性的洞察依旧鲜活有力。"
+      },
+      {
+        "word": "enduring",
+        "phon": "/ɪnˈdjʊərɪŋ/",
+        "pos": "adj.",
+        "cn": "持久的；不朽的",
+        "eg": "He left thirty-seven plays of enduring beauty. 他留下了三十七部隽永的戏剧。"
+      },
+      {
+        "word": "reputation",
+        "phon": "/ˌrepjuˈteɪʃn/",
+        "pos": "n.",
+        "cn": "声誉",
+        "eg": "The authorship controversy has done little to diminish his reputation. 作者身份争议丝毫未损其声誉。"
+      },
+      {
+        "word": "alien",
+        "phon": "/'eɪliən/",
+        "pos": "a.",
+        "cn": "外来的",
+        "eg": "and unhorsed by fences, laws and alien taboos."
+      },
+      {
+        "word": "taboo",
+        "phon": "/tə'buː/",
+        "pos": "n.",
+        "cn": "戒律",
+        "eg": ""
+      },
+      {
+        "word": "disinherit",
+        "phon": "/['disin'herit]/",
+        "pos": "v.",
+        "cn": "剥夺…继承权",
+        "eg": ""
+      },
+      {
+        "word": "undeclared",
+        "phon": "/['ʌndi'klєәd]/",
+        "pos": "a.",
+        "cn": "未经宣布的",
+        "eg": "We still do; living in a world in which undeclared aggression, war, hypocrisy,"
+      },
+      {
+        "word": "hypocrisy",
+        "phon": "/hi'pɔkrəsi/",
+        "pos": "n.",
+        "cn": "伪善",
+        "eg": "We still do; living in a world in which undeclared aggression, war, hypocrisy,"
+      },
+      {
+        "word": "chicanery",
+        "phon": "/ʃi'keinəri/",
+        "pos": "n.",
+        "cn": "诈骗",
+        "eg": "chicanery, anarchy and impending immolation are part of our daily lives,"
+      },
+      {
+        "word": "impending",
+        "phon": "/ɪm'pendɪŋ/",
+        "pos": "a.",
+        "cn": "迫近的，迫在眉睫的",
+        "eg": "chicanery, anarchy and impending immolation are part of our daily lives,"
+      },
+      {
+        "word": "immolation",
+        "phon": "/imәu'leiʃәn/",
+        "pos": "n.",
+        "cn": "杀戮",
+        "eg": "chicanery, anarchy and impending immolation are part of our daily lives,"
+      },
+      {
+        "word": "code",
+        "phon": "/koud/",
+        "pos": "n.",
+        "cn": "准则",
+        "eg": "we all want a code to live by."
+      },
+      {
+        "word": "loom",
+        "phon": "/luːm/",
+        "pos": "v.",
+        "cn": "赫然耸起",
+        "eg": ""
+      },
+      {
+        "word": "manifest",
+        "phon": "/'mænɪfest/",
+        "pos": "a.",
+        "cn": "明显的",
+        "eg": ""
+      },
+      {
+        "word": "morality",
+        "phon": "/məˈræləti/",
+        "pos": "n.",
+        "cn": "道德",
+        "eg": ""
+      },
+      {
+        "word": "communicate",
+        "phon": "/kə'mjuːnɪkeɪt/",
+        "pos": "v.",
+        "cn": "交流，交际",
+        "eg": ""
+      },
+      {
+        "word": "compound",
+        "phon": "/'kɒmpaʊnd/",
+        "pos": "a.",
+        "cn": "复合的",
+        "eg": ""
+      },
+      {
+        "word": "enhance",
+        "phon": "/ɪn'hæns/",
+        "pos": "v.",
+        "cn": "增进",
+        "eg": ""
+      },
+      {
+        "word": "tempo",
+        "phon": "/'tempou/",
+        "pos": "n.",
+        "cn": "速率",
+        "eg": ""
+      },
+      {
+        "word": "trickle",
+        "phon": "/'trɪk(ə)l/",
+        "pos": "n.",
+        "cn": "涓涓细流",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "plays that Shakespeare wrote 限制性定语从句；the Elizabethan era, during which he flourished 介词+which 引导定语从句（during which = in which era）。易错点：介词+which 中 which 指代先行词，介词由从句动词搭配决定。",
+        "examples": [
+          "The plays that Shakespeare wrote continue to be performed worldwide. （莎士比亚创作的戏剧仍在全球各地上演。）",
+          "The Elizabethan era, during which he flourished, was a golden age of English literature. （他声名鹊起的伊丽莎白时代是英国文学的黄金时期。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "By the time he returned ... he had written 表「过去的过去」；had contributed 发生在 argued 所指的过去之前。易错点：returned 是一般过去时，had written 发生在 returned 之前。",
+        "examples": [
+          "By the time he returned to Stratford, Shakespeare had written most of his major plays. （他回到斯特拉特福时，已写完大部分主要戏剧。）",
+          "Critics argued that others had contributed to some works attributed to Shakespeare. （评论家认为其他人参与了部分归于莎士比亚的作品。）"
+        ]
+      }
+    ],
+    "tips": "①plays 用 that 引导定语从句；②during which = in which era，是介词+which 结构；③by the time + 过去时，主句用 had done 表更早的过去。"
+  },
+  {
+    "book": 4,
+    "lesson": 22,
+    "title": "Not Guilty",
+    "titleCn": "无罪",
+    "scene": "一位归国旅客在海关被拦下，携带可疑数量的免税香烟与烈酒；商品远超法定限额，官员指控他企图走私。他坚称包裹是朋友所赠，从未拆开——检方未能证明他明知包裹内为何物。若他知道内容，本会在边境毫不犹豫申报；他丝毫没料到看似无害的礼物里藏有违禁品。陪审团裁定他所有指控不成立，宣告无罪。此案引发更广泛的问题：法律认定有罪究竟需要多大程度的主观故意？本课语法重点是对过去不真实的虚拟语气（含 Had ... 倒装），以及 Little did ... 等否定词引起的部分倒装。",
+    "grammarTags": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "words": [
+      {
+        "word": "customs",
+        "phon": "/ˈkʌstəmz/",
+        "pos": "n.",
+        "cn": "海关",
+        "eg": "A returning traveller was stopped at customs with suspicious goods. 一位归国旅客在海关被拦下，携带可疑物品。"
+      },
+      {
+        "word": "smuggle",
+        "phon": "/ˈsmʌɡl/",
+        "pos": "v.",
+        "cn": "走私",
+        "eg": "Officers accused him of attempting to smuggle duty-free goods. 官员指控他企图走私免税商品。"
+      },
+      {
+        "word": "contraband",
+        "phon": "/ˈkɒntrəbænd/",
+        "pos": "n.",
+        "cn": "违禁品；走私货",
+        "eg": "Little did he suspect that the gifts concealed contraband. 他丝毫没料到礼物里藏有违禁品。"
+      },
+      {
+        "word": "prosecution",
+        "phon": "/ˌprɒsɪˈkjuːʃn/",
+        "pos": "n.",
+        "cn": "检方；起诉",
+        "eg": "The prosecution failed to prove that he had known the contents. 检方未能证明他明知内容。"
+      },
+      {
+        "word": "acquit",
+        "phon": "/əˈkwɪt/",
+        "pos": "v.",
+        "cn": "宣告无罪",
+        "eg": "The jury acquitted him, returning a verdict of not guilty. 陪审团宣告他无罪。"
+      },
+      {
+        "word": "intent",
+        "phon": "/ɪnˈtent/",
+        "pos": "n.",
+        "cn": "故意；意图",
+        "eg": "The jury found insufficient evidence of intent. 陪审团发现故意方面的证据不足。"
+      },
+      {
+        "word": "defendant",
+        "phon": "/dɪˈfendənt/",
+        "pos": "n.",
+        "cn": "被告",
+        "eg": "Had the defendant known the contents, he would have declared them. 若被告知道内容，本会在边境申报。"
+      },
+      {
+        "word": "verdict",
+        "phon": "/ˈvɜːdɪkt/",
+        "pos": "n.",
+        "cn": "裁决；裁定",
+        "eg": "The jury returned a verdict of not guilty on all charges. 陪审团裁定所有指控不成立。"
+      },
+      {
+        "word": "suspect",
+        "phon": "/səˈspekt/",
+        "pos": "v.",
+        "cn": "怀疑；料到",
+        "eg": "Little did he suspect that innocent-looking gifts hid contraband. 他丝毫没料到看似无害的礼物藏有违禁品。"
+      },
+      {
+        "word": "torrent",
+        "phon": "/'tɔːrənt/",
+        "pos": "n.",
+        "cn": "滔滔洪流",
+        "eg": "The trickle became a stream: the stream has now become a torrent."
+      },
+      {
+        "word": "humanity",
+        "phon": "/hjuː'mænəti/",
+        "pos": "n.",
+        "cn": "人类",
+        "eg": "The problem now facing humanity is:"
+      },
+      {
+        "word": "indifferently",
+        "phon": "/[in'difrәntli]/",
+        "pos": "adv.",
+        "cn": "不在乎地",
+        "eg": "It is now being used indifferently for both."
+      },
+      {
+        "word": "grimly",
+        "phon": "/'grɪmli/",
+        "pos": "adv.",
+        "cn": "可怖地",
+        "eg": "Could any spectacle, for instance, be more grimly whimsical"
+      },
+      {
+        "word": "whimsical",
+        "phon": "/'hwimzikəl/",
+        "pos": "a.",
+        "cn": "怪诞的",
+        "eg": "Could any spectacle, for instance, be more grimly whimsical"
+      },
+      {
+        "word": "shatter",
+        "phon": "/'ʃætər/",
+        "pos": "v.",
+        "cn": "毁坏",
+        "eg": "than that of gunners using science to shatter men's bodies"
+      },
+      {
+        "word": "twofold",
+        "phon": "/'tuːfəuld/",
+        "pos": "a.",
+        "cn": "双重的",
+        "eg": "what will happen if this twofold use of knowledge,"
+      },
+      {
+        "word": "albatross",
+        "phon": "/['ælbәtrɔs]/",
+        "pos": "n.",
+        "cn": "信天翁",
+        "eg": ""
+      },
+      {
+        "word": "sustenance",
+        "phon": "/'sʌstənəns/",
+        "pos": "n.",
+        "cn": "支撑力",
+        "eg": ""
+      },
+      {
+        "word": "glider",
+        "phon": "/'glaɪdə/",
+        "pos": "n.",
+        "cn": "滑翔者",
+        "eg": ""
+      },
+      {
+        "word": "harness",
+        "phon": "/'hɑːrnɪs/",
+        "pos": "v.",
+        "cn": "利用",
+        "eg": ""
+      },
+      {
+        "word": "endow",
+        "phon": "/ɪn'dau/",
+        "pos": "v.",
+        "cn": "赋有",
+        "eg": ""
+      },
+      {
+        "word": "ply",
+        "phon": "/plaɪ/",
+        "pos": "v.",
+        "cn": "不断地供给",
+        "eg": ""
+      },
+      {
+        "word": "gale",
+        "phon": "/geɪl/",
+        "pos": "n.",
+        "cn": "大风",
+        "eg": ""
+      },
+      {
+        "word": "partridge",
+        "phon": "/'pɑːrtrɪdʒ/",
+        "pos": "n.",
+        "cn": "鹧鸪",
+        "eg": ""
+      },
+      {
+        "word": "like",
+        "phon": "/laɪk/",
+        "pos": "a.",
+        "cn": "类似的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "虚拟语气",
+        "explain": "对过去不真实：if + had done，主句 would have done；If only + had done 表遗憾。Had the defendant known = If the defendant had known。易错点：would have declared 与 had known 搭配表与过去事实相反。",
+        "examples": [
+          "If he had known the contents, he would have declared them at the border. （若他知道内容，本会在边境申报。）",
+          "If only he had opened the gifts before packing them in his suitcase. （要是他装箱前打开礼物就好了。）"
+        ]
+      },
+      {
+        "point": "倒装",
+        "explain": "Had the defendant known ... 虚拟倒装；Little did he suspect ... 否定词置句首部分倒装（did + 主语 + 动词原形）。易错点：Little 置句首表「丝毫不」，主句须倒装。",
+        "examples": [
+          "Had the defendant known what was inside, he would never have crossed the border. （若被告知道里面是什么，绝不会过境。）",
+          "Little did he suspect that the innocent-looking gifts concealed contraband. （他丝毫没料到看似无害的礼物里藏有违禁品。）"
+        ]
+      }
+    ],
+    "tips": "①与过去相反：if + had done + would have done；②Had the defendant known = If the defendant had known；③Little did he suspect 是否定词置句首的倒装。"
+  },
+  {
+    "book": 4,
+    "lesson": 23,
+    "title": "One man's meat is another man's poison",
+    "titleCn": "各有所爱",
+    "scene": "各有所爱，各有所恶——口味与偏好永远无法完全统一。羊油布丁是英国传统佳肴，却足以令许多外国游客却步；许多英国食客对辛辣食物深感厌恶，拉丁美洲人却乐此不疲。味觉主要在童年形成，后天养成的口味需多年培养——一种文化喜爱的东西，另一种文化或许完全无法欣赏。许多人偏爱熟悉菜肴而非异域风味，这并无不合理之处；培养对陌生美食的口味需要耐心与接触。尊重食物偏好的差异，或许是跨文化理解中最重要的一课。本课语法重点是 prefer A to B、acquired taste 等词汇辨析，以及 find it + adj. + to do 等非谓语结构。",
+    "grammarTags": [
+      "词汇辨析",
+      "非谓语动词"
+    ],
+    "words": [
+      {
+        "word": "repel",
+        "phon": "/rɪˈpel/",
+        "pos": "v.",
+        "cn": "使厌恶；击退",
+        "eg": "Suet pudding is enough to repel many visitors from abroad. 羊油布丁足以令许多外国游客却步。"
+      },
+      {
+        "word": "aversion",
+        "phon": "/əˈvɜːʃn/",
+        "pos": "n.",
+        "cn": "厌恶",
+        "eg": "Many English diners have a deep aversion to highly spiced food. 许多英国食客对辛辣食物深感厌恶。"
+      },
+      {
+        "word": "palate",
+        "phon": "/ˈpælət/",
+        "pos": "n.",
+        "cn": "味觉；味蕾",
+        "eg": "Our palate is shaped largely in childhood. 味觉主要在童年形成。"
+      },
+      {
+        "word": "relish",
+        "phon": "/ˈrelɪʃ/",
+        "pos": "v.",
+        "cn": "喜爱；享受",
+        "eg": "Latin Americans relish highly spiced food. 拉丁美洲人喜爱辛辣食物。"
+      },
+      {
+        "word": "delicacy",
+        "phon": "/ˈdelɪkəsi/",
+        "pos": "n.",
+        "cn": "佳肴；美味",
+        "eg": "Suet pudding is a traditional British delicacy. 羊油布丁是英国传统佳肴。"
+      },
+      {
+        "word": "exotic",
+        "phon": "/ɪɡˈzɒtɪk/",
+        "pos": "adj.",
+        "cn": "异域的；外来的",
+        "eg": "Many people prefer familiar dishes to exotic ones. 许多人偏爱熟悉菜肴而非异域风味。"
+      },
+      {
+        "word": "cultivate",
+        "phon": "/ˈkʌltɪveɪt/",
+        "pos": "v.",
+        "cn": "培养；养成",
+        "eg": "It takes patience to cultivate a taste for unfamiliar cuisine. 培养对陌生美食的口味需要耐心。"
+      },
+      {
+        "word": "irrational",
+        "phon": "/ɪˈræʃənl/",
+        "pos": "adj.",
+        "cn": "不合理的",
+        "eg": "There is nothing irrational in preferring familiar food. 偏爱熟悉食物并无不合理之处。"
+      },
+      {
+        "word": "harmonise",
+        "phon": "/ˈhɑːmənaɪz/",
+        "pos": "v.",
+        "cn": "使协调；使一致",
+        "eg": "Tastes and preferences can never be fully harmonised. 口味与偏好永远无法完全统一。"
+      },
+      {
+        "word": "propulsion",
+        "phon": "/[prә'pʌlʃәn]/",
+        "pos": "n.",
+        "cn": "推进力",
+        "eg": "have a like power of strong propulsion, but soon tire."
+      },
+      {
+        "word": "utter",
+        "phon": "/'ʌtər/",
+        "pos": "a.",
+        "cn": "完全的",
+        "eg": "You may pick them up in utter exhaustion,"
+      },
+      {
+        "word": "slip",
+        "phon": "/slɪp/",
+        "pos": "v.",
+        "cn": "滑行",
+        "eg": ""
+      },
+      {
+        "word": "adverse",
+        "phon": "/'ædvɜːrs/",
+        "pos": "a.",
+        "cn": "逆的，相反的",
+        "eg": "that seems to help its passage even when the wind is adverse."
+      },
+      {
+        "word": "omen",
+        "phon": "/'əumən/",
+        "pos": "n.",
+        "cn": "预兆",
+        "eg": ""
+      },
+      {
+        "word": "intense",
+        "phon": "/ɪn'tens/",
+        "pos": "a.",
+        "cn": "强烈的",
+        "eg": ""
+      },
+      {
+        "word": "aesthetic",
+        "phon": "/es'θetɪk/",
+        "pos": "a.",
+        "cn": "审美的",
+        "eg": ""
+      },
+      {
+        "word": "realm",
+        "phon": "/relm/",
+        "pos": "n.",
+        "cn": "世界",
+        "eg": ""
+      },
+      {
+        "word": "serenity",
+        "phon": "/sə'renəti/",
+        "pos": "n.",
+        "cn": "静谧",
+        "eg": ""
+      },
+      {
+        "word": "undeniable",
+        "phon": "/ʌndɪ'naɪəb(ə)l/",
+        "pos": "a.",
+        "cn": "不可否认的",
+        "eg": ""
+      },
+      {
+        "word": "indefinable",
+        "phon": "/ɪndɪ'faɪnəb(ə)l/",
+        "pos": "a.",
+        "cn": "模糊不清的",
+        "eg": ""
+      },
+      {
+        "word": "vulgar",
+        "phon": "/'vʌlgər/",
+        "pos": "a.",
+        "cn": "平庸的",
+        "eg": ""
+      },
+      {
+        "word": "radiance",
+        "phon": "/'reidiəns/",
+        "pos": "n.",
+        "cn": "发光",
+        "eg": ""
+      },
+      {
+        "word": "intimation",
+        "phon": "/ˌɪntɪ'meɪʃn/",
+        "pos": "n.",
+        "cn": "暗示",
+        "eg": ""
+      },
+      {
+        "word": "unutterable",
+        "phon": "/[ʌn'ʌtәrәbl]/",
+        "pos": "a.",
+        "cn": "不可言传的",
+        "eg": ""
+      },
+      {
+        "word": "invest",
+        "phon": "/ɪn'vest/",
+        "pos": "v.",
+        "cn": "赋予",
+        "eg": ""
+      },
+      {
+        "word": "auditory",
+        "phon": "/'ɔːdətɔːri/",
+        "pos": "a.",
+        "cn": "听觉的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "词汇辨析",
+        "explain": "prefer A to B 固定搭配「较偏爱 A 而非 B」，to 是介词；acquired taste 固定搭配「后天养成的口味」，acquired 是过去分词作形容词。易错点：prefer 后接 to 不是 than；acquired taste 不是 acquiring taste。",
+        "examples": [
+          "Many people prefer spicy food to bland dishes. （许多人较偏爱辛辣食物而非清淡菜肴。）",
+          "A taste for strong cheese is an acquired taste. （对浓奶酪的喜好是后天养成的口味。）"
+        ]
+      },
+      {
+        "point": "非谓语动词",
+        "explain": "find it + adj. + to do 结构（find it hard to enjoy）；It takes ... to do（It takes years to cultivate）。不定式作真正宾语，it 是形式宾语。易错点：find it hard to do 中 to do 不可省。",
+        "examples": [
+          "Visitors from abroad often find it hard to enjoy suet pudding. （外国游客往往难以欣赏羊油布丁。）",
+          "It takes years of exposure to cultivate a taste for unfamiliar cuisine. （培养对陌生美食的口味需要多年接触。）"
+        ]
+      }
+    ],
+    "tips": "①prefer A to B，to 是介词不是 than；②acquired taste = 后天养成的口味；③find it + adj. + to do 和 It takes ... to do 中 to do 不可省略。"
+  },
+  {
+    "book": 4,
+    "lesson": 24,
+    "title": "A skeleton in the cupboard",
+    "titleCn": "柜中骷髅",
+    "scene": "几乎每个古老家族都有「家丑」——羞于外扬的秘密。一位专营旧家具的古董商在购买的一只橱柜中有了可怕的发现：里面藏着一具人骨，前任物主世代隐瞒。曾拥有这件家具的家族最怕名誉受损——正是在那只旧橱柜里，古董商揭开了埋藏数十年的丑闻。物主提出不惜代价买回家具，以防事态扩散；藏有骸骨的橱柜五十多年来未曾打开。古董商承诺守口如瓶，明白每个家庭都有宁愿遗忘之事。本课语法重点是 in which 引导的定语从句和 It was ... that 强调句。",
+    "grammarTags": [
+      "定语从句",
+      "强调句"
+    ],
+    "words": [
+      {
+        "word": "grisly",
+        "phon": "/ˈɡrɪzli/",
+        "pos": "adj.",
+        "cn": "可怕的；令人毛骨悚然的",
+        "eg": "The dealer made a grisly discovery in a purchased cupboard. 古董商在购买的一只橱柜中有了可怕的发现。"
+      },
+      {
+        "word": "conceal",
+        "phon": "/kənˈsiːl/",
+        "pos": "v.",
+        "cn": "隐瞒；隐藏",
+        "eg": "The family had concealed the truth for generations. 这个家族世代隐瞒真相。"
+      },
+      {
+        "word": "scandal",
+        "phon": "/ˈskændl/",
+        "pos": "n.",
+        "cn": "丑闻",
+        "eg": "It was inside that old cupboard that the dealer uncovered a scandal. 正是在那只旧橱柜里，古董商揭开了丑闻。"
+      },
+      {
+        "word": "discreet",
+        "phon": "/dɪˈskriːt/",
+        "pos": "adj.",
+        "cn": "谨慎的；守口如瓶的",
+        "eg": "The dealer promised to remain discreet. 古董商承诺守口如瓶。"
+      },
+      {
+        "word": "antique",
+        "phon": "/ænˈtiːk/",
+        "pos": "n./adj.",
+        "cn": "古董；古老的",
+        "eg": "An antique dealer who specialised in old furniture made the discovery. 一位专营旧家具的古董商有了这一发现。"
+      },
+      {
+        "word": "reputation",
+        "phon": "/ˌrepjuˈteɪʃn/",
+        "pos": "n.",
+        "cn": "声誉；名誉",
+        "eg": "The family feared damage to their reputation above all else. 这个家族最怕名誉受损。"
+      },
+      {
+        "word": "generation",
+        "phon": "/ˌdʒenəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "一代人；世代",
+        "eg": "The skeleton had been concealed for generations. 骸骨被隐瞒了世代之久。"
+      },
+      {
+        "word": "uncover",
+        "phon": "/ʌnˈkʌvə/",
+        "pos": "v.",
+        "cn": "揭露；发现",
+        "eg": "The dealer uncovered a scandal buried for decades. 古董商揭开了埋藏数十年的丑闻。"
+      },
+      {
+        "word": "cupboard",
+        "phon": "/ˈkʌbəd/",
+        "pos": "n.",
+        "cn": "橱柜；碗柜",
+        "eg": "The cupboard in which the bones had been hidden had not been opened for fifty years. 藏有骸骨的橱柜五十多年来未曾打开。"
+      },
+      {
+        "word": "inadequate",
+        "phon": "/ɪn'ædɪkwət/",
+        "pos": "a.",
+        "cn": "不适当的",
+        "eg": ""
+      },
+      {
+        "word": "plea",
+        "phon": "/pliː/",
+        "pos": "n.",
+        "cn": "要求",
+        "eg": ""
+      },
+      {
+        "word": "abatement",
+        "phon": "/ə'beɪtmənt/",
+        "pos": "n.",
+        "cn": "减少",
+        "eg": ""
+      },
+      {
+        "word": "discredit",
+        "phon": "/dɪs'kredɪt/",
+        "pos": "v.",
+        "cn": "怀疑",
+        "eg": ""
+      },
+      {
+        "word": "allegation",
+        "phon": "/ælɪ'geɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "断言",
+        "eg": ""
+      },
+      {
+        "word": "caption",
+        "phon": "/'kæpʃn/",
+        "pos": "n.",
+        "cn": "插图说明",
+        "eg": ""
+      },
+      {
+        "word": "wreck",
+        "phon": "/rek/",
+        "pos": "n.",
+        "cn": "残废人",
+        "eg": ""
+      },
+      {
+        "word": "snag",
+        "phon": "/snæg/",
+        "pos": "n.",
+        "cn": "疑难之处，障碍",
+        "eg": ""
+      },
+      {
+        "word": "anecdote",
+        "phon": "/'ænɪkdout/",
+        "pos": "n.",
+        "cn": "轶闻",
+        "eg": ""
+      },
+      {
+        "word": "slander",
+        "phon": "/'slændər/",
+        "pos": "v.",
+        "cn": "诽谤",
+        "eg": ""
+      },
+      {
+        "word": "persecute",
+        "phon": "/'pɜːsɪkjuːt/",
+        "pos": "v.",
+        "cn": "迫害",
+        "eg": ""
+      },
+      {
+        "word": "squadron",
+        "phon": "/'skwɒdrən/",
+        "pos": "n.",
+        "cn": "中队",
+        "eg": ""
+      },
+      {
+        "word": "psychiatric",
+        "phon": "/ˌsaɪki'ætrɪk/",
+        "pos": "a.",
+        "cn": "精神病学的",
+        "eg": ""
+      },
+      {
+        "word": "diagnosis",
+        "phon": "/ˌdaiəg'nəusis/",
+        "pos": "n.",
+        "cn": "诊断",
+        "eg": ""
+      },
+      {
+        "word": "orphanage",
+        "phon": "/'ɔːf(ə)nɪdʒ/",
+        "pos": "n.",
+        "cn": "孤儿院",
+        "eg": ""
+      },
+      {
+        "word": "preservation",
+        "phon": "/prezə'veɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "保存",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "in which 引导定语从句修饰 cupboard（in which = where）；furniture that had belonged to a distinguished family 限制性定语从句。易错点：the cupboard in which ... 中介词 in 与 which 连用，不可拆开。",
+        "examples": [
+          "The cupboard in which the skeleton was concealed had not been opened for decades. （藏有骸骨的橱柜数十年来未曾打开。）",
+          "The antique dealer bought furniture that had belonged to a distinguished family. （古董商购买了曾属名门望族的家具。）"
+        ]
+      },
+      {
+        "point": "强调句",
+        "explain": "It was inside that old cupboard that ... 强调地点状语；It was the fear of scandal that prompted ... 强调主语。去掉 It was ... that 后句子仍完整。易错点：强调地点、原因、主语均用 It is/was ... that 结构。",
+        "examples": [
+          "It was inside an old cupboard that the dealer made the grisly discovery. （正是在一只旧橱柜里，古董商有了可怕的发现。）",
+          "It was the fear of scandal that prompted the owner to buy back the furniture. （正是对丑闻的恐惧促使物主买回家具。）"
+        ]
+      }
+    ],
+    "tips": "①in which = where，修饰表地点的 cupboard；②强调地点：It was inside ... that ...；③强调主语：It was the fear of scandal that prompted ..."
+  }
+]

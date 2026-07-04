@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-mall-01",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Find a Store",
+    "titleCn": "第1环：找店铺",
+    "scene": "你刚进商场，在导览屏前找店。（对话链：商场）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "请问优衣库在几楼？", "en": "Excuse me, which floor is Uniqlo on?" },
+      { "role": "Staff", "cn": "二楼东侧，扶梯上去右转。", "en": "Second floor, east wing. Up the escalator and turn right." },
+      { "role": "You", "cn": "苹果店呢？", "en": "What about the Apple Store?" },
+      { "role": "Staff", "cn": "一楼中庭，很大的玻璃门面。", "en": "First floor, center court. Big glass storefront." },
+      { "role": "You", "cn": "洗手间在哪？", "en": "Where are the restrooms?" },
+      { "role": "Staff", "cn": "每层扶梯旁都有。", "en": "Next to the escalators on every floor." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-02",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Try On Clothes",
+    "titleCn": "第2环：试衣服",
+    "scene": "你在服装店试衣服。（对话链：商场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙找尺码吗？", "en": "Need help finding a size?" },
+      { "role": "You", "cn": "这件中码有吗？想试试。", "en": "Do you have this in medium? I'd like to try it on." },
+      { "role": "Clerk", "cn": "有，试衣间在那边，一次最多三件。", "en": "Yes. Fitting rooms are over there. Three items max." },
+      { "role": "You", "cn": "袖子有点长，能改吗？", "en": "The sleeves are a bit long. Can they be altered?" },
+      { "role": "Clerk", "cn": "可以，改衣部在一楼，大概一周。", "en": "Yes. Alterations on the first floor, about a week." },
+      { "role": "You", "cn": "好，我先买这件。", "en": "Okay. I'll take this one for now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-03",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Food Court",
+    "titleCn": "第3环：美食广场",
+    "scene": "中午你们在美食广场吃饭。（对话链：商场）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "吃日料还是披萨？", "en": "Japanese or pizza?" },
+      { "role": "You", "cn": "日料吧，我想吃拉面。", "en": "Japanese. I'm craving ramen." },
+      { "role": "Friend", "cn": "我去占座，你点餐。", "en": "I'll grab a table. You order." },
+      { "role": "You", "cn": "要什么饮料？", "en": "What do you want to drink?" },
+      { "role": "Friend", "cn": "冰茶，少糖。", "en": "Iced tea, less sugar." },
+      { "role": "You", "cn": "好，号码牌 47，好了叫你。", "en": "Okay. Number forty-seven. They'll call when it's ready." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-04",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Electronics Store",
+    "titleCn": "第4环：买电子产品",
+    "scene": "你在电器店看耳机。（对话链：商场）",
+    "roles": ["You", "Salesperson"],
+    "turns": [
+      { "role": "Salesperson", "cn": "找什么类型的耳机？", "en": "What kind of headphones are you looking for?" },
+      { "role": "You", "cn": "降噪的，通勤用，预算两百以内。", "en": "Noise-canceling for commuting. Budget under two hundred." },
+      { "role": "Salesperson", "cn": "这款口碑好，可以试戴。", "en": "This model gets great reviews. You can try them on." },
+      { "role": "You", "cn": "续航多久？能连两个设备吗？", "en": "How's the battery life? Can it connect to two devices?" },
+      { "role": "Salesperson", "cn": "三十小时，支持双设备切换。", "en": "Thirty hours. Supports switching between two devices." },
+      { "role": "You", "cn": "不错，我买了。", "en": "Nice. I'll take them." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-05",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Gift Wrapping",
+    "titleCn": "第5环：礼品包装",
+    "scene": "你买了礼物，请柜台包装。（对话链：商场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "能帮忙包成礼物吗？", "en": "Could you gift-wrap this?" },
+      { "role": "Clerk", "cn": "可以，五块钱，要贺卡吗？", "en": "Sure. Five dollars. Would you like a card?" },
+      { "role": "You", "cn": "要，写「生日快乐」。", "en": "Yes. Please write Happy Birthday." },
+      { "role": "Clerk", "cn": "用红色还是蓝色包装纸？", "en": "Red or blue wrapping paper?" },
+      { "role": "You", "cn": "红色吧，谢谢。", "en": "Red, please. Thank you." },
+      { "role": "Clerk", "cn": "五分钟好，请到旁边等。", "en": "Five minutes. Please wait over there." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-06",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Department Store Sale",
+    "titleCn": "第6环：百货打折",
+    "scene": "百货公司季末清仓，你问折扣。（对话链：商场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "这件外套还能再打折吗？", "en": "Can you do any better on this coat?" },
+      { "role": "Clerk", "cn": "已经打七折了，会员再减百分之五。", "en": "It's already thirty percent off. Members get another five percent." },
+      { "role": "You", "cn": "我有会员卡。", "en": "I have a membership card." },
+      { "role": "Clerk", "cn": "请刷一下，折后一百四十七。", "en": "Please scan it. After discount, one forty-seven." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card, please. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-07",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Parking Validation",
+    "titleCn": "第7环：停车优惠",
+    "scene": "离开前你在服务台办理停车优惠。（对话链：商场）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "消费满五十可以减停车费对吧？", "en": "Spending fifty gets parking validation, right?" },
+      { "role": "Staff", "cn": "对，请出示收据和停车票。", "en": "Yes. Receipt and parking ticket, please." },
+      { "role": "You", "cn": "在这，停了三个小时。", "en": "Here you go. Parked about three hours." },
+      { "role": "Staff", "cn": "盖好了，出场闸机前插票。", "en": "Stamped. Insert the ticket at the exit gate." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mall-08",
+    "category": "shopping",
+    "chain": {
+      "id": "mall-day-out",
+      "title": "A Day at the Shopping Mall",
+      "titleCn": "对话链：商场逛街一天",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Return at Mall",
+    "titleCn": "第8环：商场退货",
+    "scene": "你回到商场退一件不合身的衣服。（对话链：商场）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "想退这件，尺码不对，有小票。", "en": "I'd like to return this. Wrong size. Here's the receipt." },
+      { "role": "Clerk", "cn": "吊牌还在吗？三十天内可以退。", "en": "Are the tags still on? Returns within thirty days." },
+      { "role": "You", "cn": "在，没穿过。", "en": "Yes. Never worn." },
+      { "role": "Clerk", "cn": "退款回原卡，三到五个工作日。", "en": "Refund to your original card in three to five business days." },
+      { "role": "You", "cn": "能换大一号吗？", "en": "Can I exchange for a larger size?" },
+      { "role": "Clerk", "cn": "可以，我去拿。", "en": "Sure. I'll grab one." }
+    ]
+  }
+]

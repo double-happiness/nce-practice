@@ -3,167 +3,615 @@
     "id": "tf-b2-050",
     "book": 2,
     "lesson": 49,
-    "grammar": ["过去进行时", "一般过去时"],
+    "grammar": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "cn": "他睡着的时候，飞机正在起飞。",
     "explanation": "过去进行时 was taking off 表背景；when 从句用一般过去时 fell asleep / was sleeping。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He was sleeping when the plane was taking off.", "While he was sleeping, the plane was taking off.", "He fell asleep when the plane was taking off."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Was he sleeping…?）", "answers": ["Was he sleeping when the plane was taking off?", "While he was sleeping, was the plane taking off?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["He was not sleeping when the plane was taking off.", "He wasn't sleeping when the plane was taking off."] },
-      { "kind": "wh", "prompt": "对「when the plane was taking off」提问（问\"何时在睡\"）", "answers": ["When was he sleeping?", "When did he fall asleep?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He was sleeping when the plane was taking off.",
+          "While he was sleeping, the plane was taking off.",
+          "He fell asleep when the plane was taking off."
+        ],
+        "cn": "他睡着的时候，飞机正在起飞。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句（Was he sleeping…?）",
+        "answers": [
+          "Was he sleeping when the plane was taking off?",
+          "While he was sleeping, was the plane taking off?"
+        ],
+        "cn": "他睡着的时候，飞机正在起飞吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "He was not sleeping when the plane was taking off.",
+          "He wasn't sleeping when the plane was taking off."
+        ],
+        "cn": "他睡着的时候，飞机没有在起飞。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「when the plane was taking off」提问（问\"何时在睡\"）",
+        "answers": [
+          "When was he sleeping?",
+          "When did he fall asleep?"
+        ],
+        "cn": "何时在睡？"
+      }
     ]
   },
   {
     "id": "tf-b2-051",
     "book": 2,
     "lesson": 50,
-    "grammar": ["被动语态", "一般过去时"],
+    "grammar": [
+      "被动语态",
+      "一般过去时"
+    ],
     "cn": "那位陌生人把我送上了出租车。",
     "explanation": "一般过去时被动 was put into；主动句 The stranger put me into a taxi.",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（被动语态）", "answers": ["I was put into a taxi by the stranger.", "I was put into a taxi by a stranger."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was I put into a taxi by the stranger?", "Was I put into a taxi by a stranger?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["I was not put into a taxi by the stranger.", "I wasn't put into a taxi by the stranger.", "I was not put into a taxi by a stranger.", "I wasn't put into a taxi by a stranger."] },
-      { "kind": "passive", "prompt": "改为主动语态", "answers": ["The stranger put me into a taxi.", "A stranger put me into a taxi."] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（被动语态）",
+        "answers": [
+          "I was put into a taxi by the stranger.",
+          "I was put into a taxi by a stranger."
+        ],
+        "cn": "那位陌生人把我送上了出租车。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was I put into a taxi by the stranger?",
+          "Was I put into a taxi by a stranger?"
+        ],
+        "cn": "那位陌生人把我送上了出租车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "I was not put into a taxi by the stranger.",
+          "I wasn't put into a taxi by the stranger.",
+          "I was not put into a taxi by a stranger.",
+          "I wasn't put into a taxi by a stranger."
+        ],
+        "cn": "那位陌生人没有把我送上了出租车。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "The stranger put me into a taxi.",
+          "A stranger put me into a taxi."
+        ],
+        "cn": "那位陌生人把我送上了出租车（被动语态）"
+      }
     ]
   },
   {
     "id": "tf-b2-052",
     "book": 2,
     "lesson": 51,
-    "grammar": ["一般将来时", "一般过去时"],
+    "grammar": [
+      "一般将来时",
+      "一般过去时"
+    ],
     "cn": "她打算只吃一份清淡的沙拉。",
     "explanation": "be going to 表\"打算做某事\"；was going to eat 与一般过去时叙事配合。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She was going to eat only a light salad.", "She was going to have only a light salad."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was she going to eat only a light salad?", "Was she going to have only a light salad?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She was not going to eat only a light salad.", "She wasn't going to eat only a light salad.", "She was not going to have only a light salad.", "She wasn't going to have only a light salad."] },
-      { "kind": "wh", "prompt": "对「only a light salad」提问（问\"打算吃什么\"）", "answers": ["What was she going to eat?", "What was she going to have?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She was going to eat only a light salad.",
+          "She was going to have only a light salad."
+        ],
+        "cn": "她打算只吃一份清淡的沙拉。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was she going to eat only a light salad?",
+          "Was she going to have only a light salad?"
+        ],
+        "cn": "她打算只吃一份清淡的沙拉吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She was not going to eat only a light salad.",
+          "She wasn't going to eat only a light salad.",
+          "She was not going to have only a light salad.",
+          "She wasn't going to have only a light salad."
+        ],
+        "cn": "她不打算只吃一份清淡的沙拉。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「only a light salad」提问（问\"打算吃什么\"）",
+        "answers": [
+          "What was she going to eat?",
+          "What was she going to have?"
+        ],
+        "cn": "她打算吃什么？"
+      }
     ]
   },
   {
     "id": "tf-b2-053",
     "book": 2,
     "lesson": 52,
-    "grammar": ["现在完成时", "一般过去时"],
+    "grammar": [
+      "现在完成时",
+      "一般过去时"
+    ],
     "cn": "邻居已经做完了三张地毯。",
     "explanation": "现在完成时 have made 强调到现在为止的结果；already 可省略。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The neighbours have already made three carpets.", "Our neighbours have made three carpets.", "The neighbours have made three carpets already."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have the neighbours already made three carpets?", "Have our neighbours made three carpets?", "Have the neighbours made three carpets already?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The neighbours have not made three carpets yet.", "The neighbours haven't made three carpets yet.", "Our neighbours have not made three carpets yet.", "Our neighbours haven't made three carpets yet."] },
-      { "kind": "wh", "prompt": "对「three carpets」提问（问\"做完了多少张\"）", "answers": ["How many carpets have the neighbours made?", "How many carpets have our neighbours made?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The neighbours have already made three carpets.",
+          "Our neighbours have made three carpets.",
+          "The neighbours have made three carpets already."
+        ],
+        "cn": "邻居已经做完了三张地毯。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Have the neighbours already made three carpets?",
+          "Have our neighbours made three carpets?",
+          "Have the neighbours made three carpets already?"
+        ],
+        "cn": "邻居已经做完了三张地毯吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The neighbours have not made three carpets yet.",
+          "The neighbours haven't made three carpets yet.",
+          "Our neighbours have not made three carpets yet.",
+          "Our neighbours haven't made three carpets yet."
+        ],
+        "cn": "邻居还没有做完了三张地毯。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「three carpets」提问（问\"做完了多少张\"）",
+        "answers": [
+          "How many carpets have the neighbours made?",
+          "How many carpets have our neighbours made?"
+        ],
+        "cn": "做完了多少张？"
+      }
     ]
   },
   {
     "id": "tf-b2-054",
     "book": 2,
     "lesson": 53,
-    "grammar": ["过去完成时", "一般过去时"],
+    "grammar": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "cn": "工人在发现它之前，那条蛇已经受伤了。",
     "explanation": "过去完成时 had been injured 表\"发现之前的过去\"；before 引导时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The snake had been injured before the worker found it.", "Before the worker found it, the snake had been injured.", "The snake had been hurt before the worker found it."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had the snake been injured before the worker found it?", "Before the worker found it, had the snake been injured?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The snake had not been injured before the worker found it.", "The snake hadn't been injured before the worker found it."] },
-      { "kind": "wh", "prompt": "对「before the worker found it」提问（问\"何时已受伤\"）", "answers": ["When had the snake been injured?", "When had the snake been hurt?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The snake had been injured before the worker found it.",
+          "Before the worker found it, the snake had been injured.",
+          "The snake had been hurt before the worker found it."
+        ],
+        "cn": "工人在发现它之前，那条蛇已经受伤了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句",
+        "answers": [
+          "Had the snake been injured before the worker found it?",
+          "Before the worker found it, had the snake been injured?"
+        ],
+        "cn": "工人在发现它之前，那条蛇已经受伤了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "The snake had not been injured before the worker found it.",
+          "The snake hadn't been injured before the worker found it."
+        ],
+        "cn": "工人在发现它之前，那条蛇还没有受伤了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「before the worker found it」提问（问\"何时已受伤\"）",
+        "answers": [
+          "When had the snake been injured?",
+          "When had the snake been hurt?"
+        ],
+        "cn": "何时已受伤？"
+      }
     ]
   },
   {
     "id": "tf-b2-055",
     "book": 2,
     "lesson": 54,
-    "grammar": ["过去进行时", "现在完成进行时"],
+    "grammar": [
+      "过去进行时",
+      "现在完成进行时"
+    ],
     "cn": "女宾客们正在紧张地交谈。",
     "explanation": "过去进行时 were talking 表当时正在进行的动作；nervously 修饰动词。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The women guests were talking nervously.", "The ladies were talking nervously.", "The women were talking nervously."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Were the women guests talking nervously?", "Were the ladies talking nervously?", "Were the women talking nervously?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The women guests were not talking nervously.", "The women guests weren't talking nervously.", "The ladies were not talking nervously.", "The ladies weren't talking nervously."] },
-      { "kind": "wh", "prompt": "对「nervously」提问（问\"怎样交谈\"）", "answers": ["How were the women guests talking?", "How were the ladies talking?", "How were the women talking?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The women guests were talking nervously.",
+          "The ladies were talking nervously.",
+          "The women were talking nervously."
+        ],
+        "cn": "女宾客们正在紧张地交谈。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Were the women guests talking nervously?",
+          "Were the ladies talking nervously?",
+          "Were the women talking nervously?"
+        ],
+        "cn": "女宾客们正在紧张地交谈吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The women guests were not talking nervously.",
+          "The women guests weren't talking nervously.",
+          "The ladies were not talking nervously.",
+          "The ladies weren't talking nervously."
+        ],
+        "cn": "女宾客们没有在紧张地交谈。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「nervously」提问（问\"怎样交谈\"）",
+        "answers": [
+          "How were the women guests talking?",
+          "How were the ladies talking?",
+          "How were the women talking?"
+        ],
+        "cn": "怎样交谈？"
+      }
     ]
   },
   {
     "id": "tf-b2-056",
     "book": 2,
     "lesson": 55,
-    "grammar": ["过去完成时", "一般过去时"],
+    "grammar": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "cn": "他砸开烟囱之前已经梦见了黄金三个晚上。",
     "explanation": "过去完成时 had dreamed 表\"砸开烟囱之前已发生\"；for three nights 表持续。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He had dreamed about gold for three nights before he broke open the chimney.", "Before he broke open the chimney, he had dreamed about gold for three nights.", "He had dreamed of gold for three nights before he broke open the chimney."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句", "answers": ["Had he dreamed about gold for three nights before he broke open the chimney?", "Before he broke open the chimney, had he dreamed about gold for three nights?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["He had not dreamed about gold for three nights before he broke open the chimney.", "He hadn't dreamed about gold for three nights before he broke open the chimney."] },
-      { "kind": "wh", "prompt": "对「for three nights」提问（问\"梦了多久\"）", "answers": ["How long had he dreamed about gold before he broke open the chimney?", "How long had he dreamed of gold before he broke open the chimney?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He had dreamed about gold for three nights before he broke open the chimney.",
+          "Before he broke open the chimney, he had dreamed about gold for three nights.",
+          "He had dreamed of gold for three nights before he broke open the chimney."
+        ],
+        "cn": "他砸开烟囱之前已经梦见了黄金三个晚上。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句",
+        "answers": [
+          "Had he dreamed about gold for three nights before he broke open the chimney?",
+          "Before he broke open the chimney, had he dreamed about gold for three nights?"
+        ],
+        "cn": "他砸开烟囱之前已经梦见了黄金三个晚上吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "He had not dreamed about gold for three nights before he broke open the chimney.",
+          "He hadn't dreamed about gold for three nights before he broke open the chimney."
+        ],
+        "cn": "他砸开烟囱之前还没有梦见了黄金三个晚上。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for three nights」提问（问\"梦了多久\"）",
+        "answers": [
+          "How long had he dreamed about gold before he broke open the chimney?",
+          "How long had he dreamed of gold before he broke open the chimney?"
+        ],
+        "cn": "梦了多久？"
+      }
     ]
   },
   {
     "id": "tf-b2-057",
     "book": 2,
     "lesson": 56,
-    "grammar": ["过去完成进行时", "比较级"],
+    "grammar": [
+      "过去完成进行时",
+      "比较级"
+    ],
     "cn": "那块金属板已经敲击了好几分钟，声音越来越响。",
     "explanation": "过去完成进行时 had been knocking 表过去某时之前一直在进行；louder and louder 比较级叠用。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The metal plate had been knocking for several minutes, and the sound was getting louder and louder.", "A metal plate had been knocking for several minutes, and it was getting louder and louder.", "The knocking had been going on for several minutes and was getting louder and louder."] },
-      { "kind": "yesno", "prompt": "把前半句改为一般疑问句（Had the metal plate been knocking…?）", "answers": ["Had the metal plate been knocking for several minutes?", "Had a metal plate been knocking for several minutes?"] },
-      { "kind": "negative", "prompt": "把前半句改为否定句", "answers": ["The metal plate had not been knocking for several minutes.", "The metal plate hadn't been knocking for several minutes.", "A metal plate had not been knocking for several minutes.", "A metal plate hadn't been knocking for several minutes."] },
-      { "kind": "wh", "prompt": "对「for several minutes」提问（问\"敲击了多久\"）", "answers": ["How long had the metal plate been knocking?", "How long had a metal plate been knocking?", "How long had the knocking been going on?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The metal plate had been knocking for several minutes, and the sound was getting louder and louder.",
+          "A metal plate had been knocking for several minutes, and it was getting louder and louder.",
+          "The knocking had been going on for several minutes and was getting louder and louder."
+        ],
+        "cn": "那块金属板已经敲击了好几分钟，声音越来越响。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把前半句改为一般疑问句（Had the metal plate been knocking…?）",
+        "answers": [
+          "Had the metal plate been knocking for several minutes?",
+          "Had a metal plate been knocking for several minutes?"
+        ],
+        "cn": "那块金属板已经敲击了好几分钟，声音越来越响吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把前半句改为否定句",
+        "answers": [
+          "The metal plate had not been knocking for several minutes.",
+          "The metal plate hadn't been knocking for several minutes.",
+          "A metal plate had not been knocking for several minutes.",
+          "A metal plate hadn't been knocking for several minutes."
+        ],
+        "cn": "那块金属板还没有敲击了好几分钟，声音越来越响。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「for several minutes」提问（问\"敲击了多久\"）",
+        "answers": [
+          "How long had the metal plate been knocking?",
+          "How long had a metal plate been knocking?",
+          "How long had the knocking been going on?"
+        ],
+        "cn": "敲击了多久？"
+      }
     ]
   },
   {
     "id": "tf-b2-058",
     "book": 2,
     "lesson": 57,
-    "grammar": ["反身代词", "一般过去时"],
+    "grammar": [
+      "反身代词",
+      "一般过去时"
+    ],
     "cn": "她自己没有察觉钱包掉了。",
     "explanation": "反身代词 herself 强调\"亲自/自己\"；notice 一般过去时 did not notice。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She did not notice that she had dropped her purse herself.", "She didn't notice that she had dropped her purse herself.", "She herself did not notice that she had dropped her purse.", "She herself didn't notice that she had dropped her purse."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did she notice that she had dropped her purse herself?", "Did she herself notice that she had dropped her purse?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She did not notice that she had dropped her purse herself.", "She didn't notice that she had dropped her purse herself.", "She herself did not notice that she had dropped her purse.", "She herself didn't notice that she had dropped her purse."] },
-      { "kind": "wh", "prompt": "对「her purse」提问（问\"掉了什么\"）", "answers": ["What did she not notice that she had dropped?", "What had she dropped without noticing?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She did not notice that she had dropped her purse herself.",
+          "She didn't notice that she had dropped her purse herself.",
+          "She herself did not notice that she had dropped her purse.",
+          "She herself didn't notice that she had dropped her purse."
+        ],
+        "cn": "她自己没有察觉钱包掉了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did she notice that she had dropped her purse herself?",
+          "Did she herself notice that she had dropped her purse?"
+        ],
+        "cn": "她自己没有察觉钱包掉了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She did not notice that she had dropped her purse herself.",
+          "She didn't notice that she had dropped her purse herself.",
+          "She herself did not notice that she had dropped her purse.",
+          "She herself didn't notice that she had dropped her purse."
+        ],
+        "cn": "她自己没有察觉钱包掉了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「her purse」提问（问\"掉了什么\"）",
+        "answers": [
+          "What did she not notice that she had dropped?",
+          "What had she dropped without noticing?"
+        ],
+        "cn": "他掉了什么？"
+      }
     ]
   },
   {
     "id": "tf-b2-059",
     "book": 2,
     "lesson": 58,
-    "grammar": ["一般将来时", "一般过去时"],
+    "grammar": [
+      "一般将来时",
+      "一般过去时"
+    ],
     "cn": "老板以为店铺将会彻底倒闭。",
     "explanation": "was going to close down 表过去视角下的将来预测；thought 引导宾语从句。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The owner thought the shop was going to close down completely.", "The shop owner thought the shop was going to close down completely.", "He thought the shop was going to close down completely."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Did the owner think…?）", "answers": ["Did the owner think the shop was going to close down completely?", "Did the shop owner think the shop was going to close down completely?", "Did he think the shop was going to close down completely?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["The owner did not think the shop was going to close down completely.", "The owner didn't think the shop was going to close down completely.", "He did not think the shop was going to close down completely.", "He didn't think the shop was going to close down completely."] },
-      { "kind": "wh", "prompt": "对「the shop was going to close down completely」提问（问\"以为将会怎样\"）", "answers": ["What did the owner think was going to happen?", "What did he think was going to happen to the shop?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The owner thought the shop was going to close down completely.",
+          "The shop owner thought the shop was going to close down completely.",
+          "He thought the shop was going to close down completely."
+        ],
+        "cn": "老板以为店铺将会彻底倒闭。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句（Did the owner think…?）",
+        "answers": [
+          "Did the owner think the shop was going to close down completely?",
+          "Did the shop owner think the shop was going to close down completely?",
+          "Did he think the shop was going to close down completely?"
+        ],
+        "cn": "老板以为店铺将会彻底倒闭吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "The owner did not think the shop was going to close down completely.",
+          "The owner didn't think the shop was going to close down completely.",
+          "He did not think the shop was going to close down completely.",
+          "He didn't think the shop was going to close down completely."
+        ],
+        "cn": "老板以为店铺将不会彻底倒闭。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the shop was going to close down completely」提问（问\"以为将会怎样\"）",
+        "answers": [
+          "What did the owner think was going to happen?",
+          "What did he think was going to happen to the shop?"
+        ],
+        "cn": "以为将会怎样？"
+      }
     ]
   },
   {
     "id": "tf-b2-060",
     "book": 2,
     "lesson": 59,
-    "grammar": ["too...to", "enough...to"],
+    "grammar": [
+      "too...to",
+      "enough...to"
+    ],
     "cn": "那只狗叫得太厉害，主人无法忽视它。",
     "explanation": "too…to 表\"太……而不能\"；bark too loudly to ignore / too noisy to ignore。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The dog barked too loudly for the owner to ignore.", "Rex barked too loudly for his owner to ignore.", "The dog was too noisy for the owner to ignore.", "Rex was too noisy for his owner to ignore."] },
-      { "kind": "yesno", "prompt": "把「Rex barked too loudly…」改为一般疑问句（Did Rex bark…?）", "answers": ["Did Rex bark too loudly for his owner to ignore?", "Did the dog bark too loudly for the owner to ignore?"] },
-      { "kind": "negative", "prompt": "改为否定句（用 not…enough to 表达相反意义）", "answers": ["The dog did not bark quietly enough for the owner to ignore.", "Rex did not bark quietly enough for his owner to ignore.", "The dog wasn't quiet enough for the owner to ignore.", "Rex wasn't quiet enough for his owner to ignore."] },
-      { "kind": "wh", "prompt": "对「too loudly」提问（问\"怎样叫\"）", "answers": ["How did Rex bark?", "How did the dog bark?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The dog barked too loudly for the owner to ignore.",
+          "Rex barked too loudly for his owner to ignore.",
+          "The dog was too noisy for the owner to ignore.",
+          "Rex was too noisy for his owner to ignore."
+        ],
+        "cn": "那只狗叫得太厉害，主人无法忽视它。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把「Rex barked too loudly…」改为一般疑问句（Did Rex bark…?）",
+        "answers": [
+          "Did Rex bark too loudly for his owner to ignore?",
+          "Did the dog bark too loudly for the owner to ignore?"
+        ],
+        "cn": "那只狗叫得太厉害，主人无法忽视它吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（用 not…enough to 表达相反意义）",
+        "answers": [
+          "The dog did not bark quietly enough for the owner to ignore.",
+          "Rex did not bark quietly enough for his owner to ignore.",
+          "The dog wasn't quiet enough for the owner to ignore.",
+          "Rex wasn't quiet enough for his owner to ignore."
+        ],
+        "cn": "这件裙子不够大。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「too loudly」提问（问\"怎样叫\"）",
+        "answers": [
+          "How did Rex bark?",
+          "How did the dog bark?"
+        ],
+        "cn": "怎样叫？"
+      }
     ]
   },
   {
     "id": "tf-b2-061",
     "book": 2,
     "lesson": 60,
-    "grammar": ["一般将来时", "过去将来时"],
+    "grammar": [
+      "一般将来时",
+      "过去将来时"
+    ],
     "cn": "算命先生说我将会很快遇到一个陌生人。",
     "explanation": "直接引语 will meet → 间接引语 would meet；said 引导时态后移。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（直接引语）", "answers": ["The fortune-teller said, \"You will meet a stranger soon.\"", "The fortune-teller said, \"You will soon meet a stranger.\""] },
-      { "kind": "indirect", "prompt": "改为间接引语", "answers": ["The fortune-teller said that I would meet a stranger soon.", "The fortune-teller said I would meet a stranger soon.", "The fortune-teller said that I would soon meet a stranger.", "The fortune-teller said I would soon meet a stranger."] },
-      { "kind": "yesno", "prompt": "把间接引语改为一般疑问句（Did the fortune-teller say…?）", "answers": ["Did the fortune-teller say that you would meet a stranger soon?", "Did the fortune-teller say you would meet a stranger soon?", "Did the fortune-teller say that you would soon meet a stranger?", "Did the fortune-teller say you would soon meet a stranger?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（直接引语）",
+        "answers": [
+          "The fortune-teller said, \"You will meet a stranger soon.\"",
+          "The fortune-teller said, \"You will soon meet a stranger.\""
+        ],
+        "cn": "算命先生说我将会很快遇到一个陌生人。"
+      },
+      {
+        "kind": "indirect",
+        "prompt": "改为间接引语",
+        "answers": [
+          "The fortune-teller said that I would meet a stranger soon.",
+          "The fortune-teller said I would meet a stranger soon.",
+          "The fortune-teller said that I would soon meet a stranger.",
+          "The fortune-teller said I would soon meet a stranger."
+        ],
+        "cn": "他说算命先生说我将会很快遇到一个陌生人。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把间接引语改为一般疑问句（Did the fortune-teller say…?）",
+        "answers": [
+          "Did the fortune-teller say that you would meet a stranger soon?",
+          "Did the fortune-teller say you would meet a stranger soon?",
+          "Did the fortune-teller say that you would soon meet a stranger?",
+          "Did the fortune-teller say you would soon meet a stranger?"
+        ],
+        "cn": "算命先生说我将会很快遇到一个陌生人吗？"
+      }
     ]
   }
 ]

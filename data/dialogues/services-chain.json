@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-svc-01",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Dry Cleaning Drop-off",
+    "titleCn": "第1环：送干洗",
+    "scene": "你把西装送去干洗店。（对话链：生活服务）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，今天要洗什么？", "en": "Hi, what can we clean for you today?" },
+      { "role": "You", "cn": "这套西装，下周三前要取。", "en": "This suit. I need it by next Wednesday." },
+      { "role": "Clerk", "cn": "袖口有个污渍，我们会重点处理。", "en": "There's a stain on the cuff. We'll treat that." },
+      { "role": "You", "cn": "大概多少钱？", "en": "How much will it be?" },
+      { "role": "Clerk", "cn": "十二块九，加急另收五块。", "en": "Twelve ninety. Rush is five extra." },
+      { "role": "You", "cn": "不用加急，周三取就行。", "en": "No rush. Wednesday is fine." },
+      { "role": "Clerk", "cn": "拿好这张票，凭票取衣。", "en": "Here's your ticket. Bring it when you pick up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-02",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Dentist Checkup",
+    "titleCn": "第2环：看牙医",
+    "scene": "你定期去牙医那里洗牙。（对话链：生活服务）",
+    "roles": ["You", "Dentist"],
+    "turns": [
+      { "role": "Dentist", "cn": "最近刷牙有出血吗？", "en": "Any bleeding when you brush lately?" },
+      { "role": "You", "cn": "偶尔有一点，右边磨牙敏感。", "en": "A little sometimes. My upper right molar is sensitive." },
+      { "role": "Dentist", "cn": "我看看……牙龈有点发炎，今天先洗牙。", "en": "Let me take a look. Your gums are a bit inflamed. We'll clean them today." },
+      { "role": "You", "cn": "需要打麻药吗？", "en": "Will I need a shot?" },
+      { "role": "Dentist", "cn": "洗牙不用，如果补牙再说。", "en": "Not for cleaning. We'll see if you need one for a filling." },
+      { "role": "You", "cn": "好的，麻烦轻一点。", "en": "Okay. Please go easy on me." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-03",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Schedule Filling",
+    "titleCn": "第3环：预约补牙",
+    "scene": "牙医建议你补牙，前台帮你约时间。（对话链：生活服务）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "医生建议补右上磨牙，要约吗？", "en": "The doctor recommends a filling on your upper right molar. Book it?" },
+      { "role": "You", "cn": "要，下周有空档吗？", "en": "Yes. Any openings next week?" },
+      { "role": "Receptionist", "cn": "周二下午三点或周四上午十点。", "en": "Tuesday at three PM or Thursday at ten AM." },
+      { "role": "You", "cn": "周二三点，保险覆盖吗？", "en": "Tuesday at three. Is it covered by insurance?" },
+      { "role": "Receptionist", "cn": "大部分覆盖，自付大概五十。", "en": "Mostly covered. Copay is about fifty." },
+      { "role": "You", "cn": "好，请约上。", "en": "Okay. Please book it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-04",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: DMV Renewal",
+    "titleCn": "第4环：换驾照",
+    "scene": "你去车管所换驾照。（对话链：生活服务）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，办什么业务？", "en": "Hi, what brings you in today?" },
+      { "role": "You", "cn": "驾照快过期了，想 renew。", "en": "My license is expiring. I'd like to renew it." },
+      { "role": "Clerk", "cn": "请填表，做视力测试。", "en": "Please fill out this form and take the vision test." },
+      { "role": "You", "cn": "需要重新考路考吗？", "en": "Do I need to take the road test again?" },
+      { "role": "Clerk", "cn": "不用，视力过了就行。", "en": "No, just pass the vision screening." },
+      { "role": "You", "cn": "新驾照多久能寄到？", "en": "How long until the new license arrives?" },
+      { "role": "Clerk", "cn": "两周左右，这期间用纸质的临时证。", "en": "About two weeks. Use this paper temp license until then." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-05",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Shoe Repair",
+    "titleCn": "第5环：修鞋",
+    "scene": "你去修鞋店换鞋底。（对话链：生活服务）",
+    "roles": ["You", "Cobbler"],
+    "turns": [
+      { "role": "You", "cn": "这双皮鞋鞋底磨平了，能换吗？", "en": "The soles on these dress shoes are worn. Can you replace them?" },
+      { "role": "Cobbler", "cn": "可以，橡胶底四十五，皮底六十。", "en": "Yes. Rubber soles are forty-five, leather sixty." },
+      { "role": "You", "cn": "橡胶就行，几天能好？", "en": "Rubber is fine. How many days?" },
+      { "role": "Cobbler", "cn": "三天，周四来取。", "en": "Three days. Pick up Thursday." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-06",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pick Up Dry Cleaning",
+    "titleCn": "第6环：取干洗",
+    "scene": "周三你去取干洗的西装。（对话链：生活服务）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "取衣吗？请出示票据。", "en": "Pickup? May I see your ticket?" },
+      { "role": "You", "cn": "在这，袖口污渍去掉了吗？", "en": "Here. Did the cuff stain come out?" },
+      { "role": "Clerk", "cn": "处理好了，请试一下。", "en": "We got it out. Please check the fit." },
+      { "role": "You", "cn": "很好，刷卡。", "en": "Looks great. Card, please." },
+      { "role": "Clerk", "cn": "十二块九，谢谢。", "en": "Twelve ninety. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-07",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Key Copy",
+    "titleCn": "第7环：配钥匙",
+    "scene": "你顺路在五金店配一把备用钥匙。（对话链：生活服务）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "能配一把房门钥匙吗？", "en": "Can you copy a house key?" },
+      { "role": "Clerk", "cn": "可以，普通钥匙三块钱。", "en": "Sure. Standard keys are three dollars." },
+      { "role": "You", "cn": "要两把。", "en": "Two copies, please." },
+      { "role": "Clerk", "cn": "五分钟，稍等。", "en": "Five minutes. One moment." },
+      { "role": "You", "cn": "好了告诉我。", "en": "Let me know when they're ready." }
+    ]
+  },
+  {
+    "id": "dlg-chain-svc-08",
+    "category": "services",
+    "chain": {
+      "id": "life-services",
+      "title": "Life Services Errands",
+      "titleCn": "对话链：生活服务一趟",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Errands Done",
+    "titleCn": "第8环：办完回家",
+    "scene": "你办完一堆事回家，跟室友汇报。（对话链：生活服务）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "出去大半天，都办完了？", "en": "You were out forever. Get everything done?" },
+      { "role": "You", "cn": "干洗取了，牙约了，驾照续了，鞋送去修。", "en": "Got the dry cleaning, booked the dentist, renewed my license, shoes at the cobbler." },
+      { "role": "Roommate", "cn": "效率够高，晚饭我来做。", "en": "Productive day. I'll make dinner." },
+      { "role": "You", "cn": "谢了，我歇会儿。", "en": "Thanks. I'll rest a bit." },
+      { "role": "Roommate", "cn": "周四记得取鞋。", "en": "Remember shoes on Thursday." },
+      { "role": "You", "cn": "记手机上了。", "en": "It's on my phone." }
+    ]
+  }
+]

@@ -1,0 +1,1161 @@
+[
+  {
+    "id": "b4-25-q1",
+    "book": 4,
+    "lesson": 25,
+    "lessonTitle": "Non-auditory effects of noise",
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "They are not prepared to admit the possibility ___ noise affects people in any way.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "whether"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。the possibility that 解释 possibility 的具体内容，that 在从句中不作成分。"
+  },
+  {
+    "id": "b4-25-q2",
+    "book": 4,
+    "lesson": 25,
+    "lessonTitle": "Non-auditory effects of noise",
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "People ___ have practical experience of noise often dismiss research into its effects.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "考点:定语从句。先行词 people 指人且在从句作主语，用 who。"
+  },
+  {
+    "id": "b4-25-q3",
+    "book": 4,
+    "lesson": 25,
+    "lessonTitle": "Non-auditory effects of noise",
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Was the noise a cause of the illness, or were the complaints about noise merely a ___?",
+    "options": [
+      "symptom",
+      "slander",
+      "contention",
+      "thrust"
+    ],
+    "answer": "symptom",
+    "explanation": "考点:词汇辨析。symptom 表「症状」，与 cause「原因」相对；slander 是「诽谤」，contention 是「争论」。"
+  },
+  {
+    "id": "b4-25-q4",
+    "book": 4,
+    "lesson": 25,
+    "lessonTitle": "Non-auditory effects of noise",
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Noise ___ is a good cause may be discredited if linked to bad science.",
+    "options": [
+      "abatement",
+      "slander",
+      "contention",
+      "anonymous"
+    ],
+    "answer": "abatement",
+    "explanation": "考点:词汇辨析。noise abatement 表「降低噪音」，是本课核心搭配；其余词与降噪无关。"
+  },
+  {
+    "id": "b4-25-q5",
+    "book": 4,
+    "lesson": 25,
+    "lessonTitle": "Non-auditory effects of noise",
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "A study of people who live under noisy conditions is needed to discover whether they are mentally ill more often than others ___ (be).",
+    "answer": [
+      "are"
+    ],
+    "explanation": "考点:定语从句与一般现在时。than others are 中 are 不可省略，与前面 are mentally ill 呼应。"
+  },
+  {
+    "id": "b4-26-q1",
+    "book": 4,
+    "lesson": 26,
+    "lessonTitle": "The past life of the earth",
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Remains exposed to air quickly vanish ___ they are buried before decomposition sets in.",
+    "options": [
+      "unless",
+      "until",
+      "because",
+      "although"
+    ],
+    "answer": "unless",
+    "explanation": "考点:连词。unless = if not，表「除非被掩埋，否则遗骸会消失」。"
+  },
+  {
+    "id": "b4-26-q2",
+    "book": 4,
+    "lesson": 26,
+    "lessonTitle": "The past life of the earth",
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "It is animals and plants ___ lived in or near water whose remains are most likely to be preserved.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。先行词 animals and plants 指物，从句中作主语，用 which（或 that）。"
+  },
+  {
+    "id": "b4-26-q3",
+    "book": 4,
+    "lesson": 26,
+    "lessonTitle": "The past life of the earth",
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Scientists could not read the earth's distant past ___ the study of fossil-bearing strata began.",
+    "options": [
+      "until",
+      "unless",
+      "while",
+      "since"
+    ],
+    "answer": "until",
+    "explanation": "考点:连词。not ... until 表「直到……才」，强调地层研究开启了对远古地球的认识。"
+  },
+  {
+    "id": "b4-26-q4",
+    "book": 4,
+    "lesson": 26,
+    "lessonTitle": "The past life of the earth",
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Fossils ___ in ancient lake beds tell us more than scattered bones on open plains.",
+    "options": [
+      "preserved",
+      "preserving",
+      "to preserve",
+      "preserve"
+    ],
+    "answer": "preserved",
+    "explanation": "考点:过去分词作定语。fossils 与 preserve 是被动关系（被保存的化石），用 preserved。"
+  },
+  {
+    "id": "b4-26-q5",
+    "book": 4,
+    "lesson": 26,
+    "lessonTitle": "The past life of the earth",
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Creatures that flourished in shallow seas left impressions that ___ (endure) for geological ages.",
+    "answer": [
+      "endure",
+      "endured"
+    ],
+    "explanation": "考点:定语从句与一般现在时/过去时。impressions that endure/endured 修饰先行词 impressions，陈述客观事实可用一般现在时。"
+  },
+  {
+    "id": "b4-27-q1",
+    "book": 4,
+    "lesson": 27,
+    "lessonTitle": "The Vasa",
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Workers ___ for three years before the Vasa was launched at Stockholm.",
+    "options": [
+      "had laboured",
+      "laboured",
+      "have laboured",
+      "were labouring"
+    ],
+    "answer": "had laboured",
+    "explanation": "考点:过去完成时。下水（一般过去时）之前已完成的劳作，用 had laboured。"
+  },
+  {
+    "id": "b4-27-q2",
+    "book": 4,
+    "lesson": 27,
+    "lessonTitle": "The Vasa",
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The Vasa, ___ was intended to rule the Baltic, sank within minutes of her maiden voyage.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。先行词 the Vasa 指物，非限制性定语从句用 which。"
+  },
+  {
+    "id": "b4-27-q3",
+    "book": 4,
+    "lesson": 27,
+    "lessonTitle": "The Vasa",
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "By the time the lower gun-ports went below water, the ship ___ to port for several minutes.",
+    "options": [
+      "had been listing",
+      "was listing",
+      "listed",
+      "has listed"
+    ],
+    "answer": "had been listing",
+    "explanation": "考点:过去完成进行时。by the time 引出的过去时刻之前，倾斜动作已持续一段时间，用 had been listing。"
+  },
+  {
+    "id": "b4-27-q4",
+    "book": 4,
+    "lesson": 27,
+    "lessonTitle": "The Vasa",
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Triple gun-decks ___ sixty-four bronze cannon made the Vasa a majestic sight.",
+    "options": [
+      "mounting",
+      "mounted",
+      "to mount",
+      "mount"
+    ],
+    "answer": "mounting",
+    "explanation": "考点:现在分词作定语。gun-decks 主动搭载大炮，用 mounting sixty-four bronze cannon。"
+  },
+  {
+    "id": "b4-27-q5",
+    "book": 4,
+    "lesson": 27,
+    "lessonTitle": "The Vasa",
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "The inrush of sea water ___ (seal) the ship's fate before anyone could save her.",
+    "answer": [
+      "sealed"
+    ],
+    "explanation": "考点:一般过去时。叙述沉船经过，sealed 表过去完成的动作结果。"
+  },
+  {
+    "id": "b4-28-q1",
+    "book": 4,
+    "lesson": 28,
+    "lessonTitle": "Patients and doctors",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Patients feel inadequately treated ___ they carry home a tangible remedy.",
+    "options": [
+      "unless",
+      "until",
+      "because",
+      "although"
+    ],
+    "answer": "unless",
+    "explanation": "考点:连词。unless = if not，病人除非带药回家，否则觉得治疗不足。"
+  },
+  {
+    "id": "b4-28-q2",
+    "book": 4,
+    "lesson": 28,
+    "lessonTitle": "Patients and doctors",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "There is no quicker way of disposing of patients than by prescribing a drug ___ they can carry away.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。先行词 drug 指物，从句中作 carry away 的宾语，用 which（或 that）。"
+  },
+  {
+    "id": "b4-28-q3",
+    "book": 4,
+    "lesson": 28,
+    "lessonTitle": "Patients and doctors",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "Nor is it only the ignorant ___ have such faith in the curative properties of the medicine bottle.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "考点:定语从句与倒装。the ignorant 指人，定语从句用 who；Nor 置句首引起部分倒装。"
+  },
+  {
+    "id": "b4-28-q4",
+    "book": 4,
+    "lesson": 28,
+    "lessonTitle": "Patients and doctors",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "mcq",
+    "stem": "A bottle formerly ___ for Mrs Carlyle's minor indisposition remained in his pocket.",
+    "options": [
+      "prescribed",
+      "prescribing",
+      "to prescribe",
+      "prescribe"
+    ],
+    "answer": "prescribed",
+    "explanation": "考点:过去分词作定语。bottle 与 prescribe 是被动关系（被开的药瓶），用 prescribed。"
+  },
+  {
+    "id": "b4-28-q5",
+    "book": 4,
+    "lesson": 28,
+    "lessonTitle": "Patients and doctors",
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "type": "fill",
+    "stem": "Patients who leave without pills often feel they ___ (not/treat) adequately.",
+    "answer": [
+      "have not been treated",
+      "are not treated"
+    ],
+    "explanation": "考点:被动语态。病人觉得未被充分治疗，用现在完成时被动 have not been treated 或一般现在时被动 are not treated。"
+  },
+  {
+    "id": "b4-29-q1",
+    "book": 4,
+    "lesson": 29,
+    "lessonTitle": "The hovercraft",
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Cockerell suggested an idea on ___ he had been working for many years.",
+    "options": [
+      "which",
+      "that",
+      "what",
+      "whom"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。idea 是先行词，介词 on 提前，用 on which；that 不能紧跟在介词后。"
+  },
+  {
+    "id": "b4-29-q2",
+    "book": 4,
+    "lesson": 29,
+    "lessonTitle": "The hovercraft",
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "There is no doubt ___ a hovercraft rides on a cushion of air trapped inside a rubber skirt.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "whether"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。no doubt that 从句说明 doubt 的内容，that 不可省略。"
+  },
+  {
+    "id": "b4-29-q3",
+    "book": 4,
+    "lesson": 29,
+    "lessonTitle": "The hovercraft",
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "The first tests on the Solent in 1959 caused a ___ among engineers.",
+    "options": [
+      "sensation",
+      "contention",
+      "prosperity",
+      "abuse"
+    ],
+    "answer": "sensation",
+    "explanation": "考点:词汇辨析。cause a sensation 表「引起轰动」；contention 是「争论」，prosperity 是「繁荣」。"
+  },
+  {
+    "id": "b4-29-q4",
+    "book": 4,
+    "lesson": 29,
+    "lessonTitle": "The hovercraft",
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "By riding on a cushion of air, the hovercraft greatly ___ friction with water.",
+    "options": [
+      "reduces",
+      "exerts",
+      "condemns",
+      "commercialises"
+    ],
+    "answer": "reduces",
+    "explanation": "考点:词汇辨析。气垫船减少（reduces）摩擦；exert 表「施加」，常与 influence/pressure 搭配。"
+  },
+  {
+    "id": "b4-29-q5",
+    "book": 4,
+    "lesson": 29,
+    "lessonTitle": "The hovercraft",
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "type": "fill",
+    "stem": "Christopher Cockerell, who ___ (turn) from boat-building to research, proposed the hovercraft concept.",
+    "answer": [
+      "had turned",
+      "turned"
+    ],
+    "explanation": "考点:过去完成时/一般过去时。提出构想之前已转行，用 had turned；也可用 turned 叙述过去事实。"
+  },
+  {
+    "id": "b4-30-q1",
+    "book": 4,
+    "lesson": 30,
+    "lessonTitle": "Exploring the sea-floor",
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "It was not until 1869 ___ a series of deep soundings was obtained in the Atlantic.",
+    "options": [
+      "that",
+      "when",
+      "which",
+      "then"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It was not until ... that ... 结构中 that 不可换 when。"
+  },
+  {
+    "id": "b4-30-q2",
+    "book": 4,
+    "lesson": 30,
+    "lessonTitle": "Exploring the sea-floor",
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The topography of the ocean floor proved far more rugged than geologists ___ imagined.",
+    "options": [
+      "had",
+      "have",
+      "has",
+      "were"
+    ],
+    "answer": "had",
+    "explanation": "考点:过去完成时。发现海底地形（过去）之前 geologists 已形成的想象，用 had imagined。"
+  },
+  {
+    "id": "b4-30-q3",
+    "book": 4,
+    "lesson": 30,
+    "lessonTitle": "Exploring the sea-floor",
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Sediments ___ on the sea-floor preserve a record of climatic change.",
+    "options": [
+      "that settle",
+      "who settle",
+      "settling",
+      "to settle"
+    ],
+    "answer": "that settle",
+    "explanation": "考点:定语从句。sediments 是物，从句中作主语，用 that settle。"
+  },
+  {
+    "id": "b4-30-q4",
+    "book": 4,
+    "lesson": 30,
+    "lessonTitle": "Exploring the sea-floor",
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "The evidence from dredging was inconclusive; ___, further exploration of the depths was needed.",
+    "options": [
+      "therefore",
+      "however",
+      "moreover",
+      "otherwise"
+    ],
+    "answer": "therefore",
+    "explanation": "考点:连接词。证据不足，因此需要进一步探索，前后为因果关系，用 therefore。"
+  },
+  {
+    "id": "b4-30-q5",
+    "book": 4,
+    "lesson": 30,
+    "lessonTitle": "Exploring the sea-floor",
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Not until 1869 ___ a series of deep soundings ___ (obtain) in the Atlantic by dredging.",
+    "answer": [
+      "was",
+      "obtained"
+    ],
+    "explanation": "考点:倒装与被动语态。Not until 置句首，主句部分倒装 was obtained；soundings 是被取得的对象。"
+  },
+  {
+    "id": "b4-31-q1",
+    "book": 4,
+    "lesson": 31,
+    "lessonTitle": "The sculptor speaks",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "There is growing evidence ___ children acquire grammar without formal instruction.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "whether"
+    ],
+    "answer": "that",
+    "explanation": "考点:同位语从句。evidence that 从句说明 evidence 的内容，that 在从句中不作成分。"
+  },
+  {
+    "id": "b4-31-q2",
+    "book": 4,
+    "lesson": 31,
+    "lessonTitle": "The sculptor speaks",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "Appreciation of sculpture depends upon the ability ___ to form in three dimensions.",
+    "options": [
+      "to respond",
+      "responding",
+      "responded",
+      "respond"
+    ],
+    "answer": "to respond",
+    "explanation": "考点:非谓语动词。the ability to respond 固定搭配，ability 后接不定式。"
+  },
+  {
+    "id": "b4-31-q3",
+    "book": 4,
+    "lesson": 31,
+    "lessonTitle": "The sculptor speaks",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "___ a native sculpture from every angle is essential to full appreciation.",
+    "options": [
+      "Viewing",
+      "View",
+      "To view",
+      "Viewed"
+    ],
+    "answer": "Viewing",
+    "explanation": "考点:动名词作主语。句首需要名词性成分，Viewing ... 动名词短语作主语。"
+  },
+  {
+    "id": "b4-31-q4",
+    "book": 4,
+    "lesson": 31,
+    "lessonTitle": "The sculptor speaks",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "mcq",
+    "stem": "The sculptor who works in bronze thinks in terms of mass, volume and ___.",
+    "options": [
+      "shadow",
+      "grammar",
+      "utterance",
+      "facility"
+    ],
+    "answer": "shadow",
+    "explanation": "考点:词汇辨析。雕塑创作涉及体量与阴影（shadow）；grammar/utterance 属语言课词汇。"
+  },
+  {
+    "id": "b4-31-q5",
+    "book": 4,
+    "lesson": 31,
+    "lessonTitle": "The sculptor speaks",
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "type": "fill",
+    "stem": "Children enjoy ___ (model) clay because it helps them sense three-dimensional form.",
+    "answer": [
+      "modeling",
+      "modelling"
+    ],
+    "explanation": "考点:非谓语动词。enjoy 后接动名词 modeling/modelling，不接不定式。"
+  },
+  {
+    "id": "b4-32-q1",
+    "book": 4,
+    "lesson": 32,
+    "lessonTitle": "Galileo reborn",
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Galileo was a man who put his questions to nature instead of to the ___.",
+    "options": [
+      "ancients",
+      "antivenom",
+      "tourniquet",
+      "venom"
+    ],
+    "answer": "ancients",
+    "explanation": "考点:词汇辨析。the ancients 指「古人」；antivenom/venom/tourniquet 是蛇伤课词汇。"
+  },
+  {
+    "id": "b4-32-q2",
+    "book": 4,
+    "lesson": 32,
+    "lessonTitle": "Galileo reborn",
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Galileo's methods, ___ were once condemned, became the foundation of modern science.",
+    "options": [
+      "which",
+      "who",
+      "whom",
+      "that"
+    ],
+    "answer": "which",
+    "explanation": "考点:定语从句。非限制性定语从句修饰 methods，指物用 which，不能用 that。"
+  },
+  {
+    "id": "b4-32-q3",
+    "book": 4,
+    "lesson": 32,
+    "lessonTitle": "Galileo reborn",
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "He was forced to recant, yet his discoveries ___ by later generations as revolutionary.",
+    "options": [
+      "were regarded",
+      "regarded",
+      "have regarded",
+      "were regarding"
+    ],
+    "answer": "were regarded",
+    "explanation": "考点:被动语态。discoveries 是被后人视为革命性的，用一般过去时被动 were regarded。"
+  },
+  {
+    "id": "b4-32-q4",
+    "book": 4,
+    "lesson": 32,
+    "lessonTitle": "Galileo reborn",
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Moons that revolve around Jupiter ___ through a telescope by Galileo.",
+    "options": [
+      "were discovered",
+      "discovered",
+      "have discovered",
+      "were discovering"
+    ],
+    "answer": "were discovered",
+    "explanation": "考点:被动语态。moons 是被发现的，叙述历史事实用一般过去时被动 were discovered。"
+  },
+  {
+    "id": "b4-32-q5",
+    "book": 4,
+    "lesson": 32,
+    "lessonTitle": "Galileo reborn",
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "Galileo is remembered as a scientist who ___ (force) to recant yet never abandoned the truth.",
+    "answer": [
+      "was forced"
+    ],
+    "explanation": "考点:被动语态。Galileo 是被迫收回言论，用 was forced；who 从句叙述过去事实。"
+  },
+  {
+    "id": "b4-33-q1",
+    "book": 4,
+    "lesson": 33,
+    "lessonTitle": "Education",
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "It is through direct experience ___ children in tribal societies master complex skills.",
+    "options": [
+      "that",
+      "which",
+      "who",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It is through direct experience that ... 强调方式状语，用 that。"
+  },
+  {
+    "id": "b4-33-q2",
+    "book": 4,
+    "lesson": 33,
+    "lessonTitle": "Education",
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "If our educational system were fashioned after its bookless past, we ___ the most democratic college imaginable.",
+    "options": [
+      "would have",
+      "will have",
+      "had",
+      "have"
+    ],
+    "answer": "would have",
+    "explanation": "考点:虚拟语气。if + were 表与现在事实相反，主句用 would do，would have 后接宾语。"
+  },
+  {
+    "id": "b4-33-q3",
+    "book": 4,
+    "lesson": 33,
+    "lessonTitle": "Education",
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "Tribes ___ remain close to nature educate their young by involving them in daily tasks.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 tribes 指集体，从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-33-q4",
+    "book": 4,
+    "lesson": 33,
+    "lessonTitle": "Education",
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "type": "mcq",
+    "stem": "It was in tribal societies without schools ___ children mastered skills through direct experience.",
+    "options": [
+      "that",
+      "which",
+      "who",
+      "where"
+    ],
+    "answer": "that",
+    "explanation": "考点:强调句。It was in tribal societies ... that ... 强调地点，that 不可省略。"
+  },
+  {
+    "id": "b4-33-q5",
+    "book": 4,
+    "lesson": 33,
+    "lessonTitle": "Education",
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "type": "fill",
+    "stem": "It is through imitation and practice ___ children in bookless communities learn complex skills.",
+    "answer": [
+      "that"
+    ],
+    "explanation": "考点:强调句。It is through imitation and practice that ... 强调方式，that 引导强调句。"
+  },
+  {
+    "id": "b4-34-q1",
+    "book": 4,
+    "lesson": 34,
+    "lessonTitle": "Adolescence",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "If parents were prepared for this adolescent reaction, they ___ so deeply hurt.",
+    "options": [
+      "would not be",
+      "will not be",
+      "are not",
+      "had not been"
+    ],
+    "answer": "would not be",
+    "explanation": "考点:虚拟语气。if + were 表与现在事实相反，主句用 would not be。"
+  },
+  {
+    "id": "b4-34-q2",
+    "book": 4,
+    "lesson": 34,
+    "lessonTitle": "Adolescence",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "___ parents prepared for this reaction, they would not be so hurt.",
+    "options": [
+      "Were",
+      "If",
+      "Had",
+      "Should"
+    ],
+    "answer": "Were",
+    "explanation": "考点:倒装。Were parents prepared = If parents were prepared，省略 if 后倒装。"
+  },
+  {
+    "id": "b4-34-q3",
+    "book": 4,
+    "lesson": 34,
+    "lessonTitle": "Adolescence",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Never before ___ so many adolescents felt so misunderstood by their elders.",
+    "options": [
+      "have",
+      "had",
+      "has",
+      "did"
+    ],
+    "answer": "have",
+    "explanation": "考点:倒装。Never before 置句首，主句用现在完成时部分倒装 have felt。"
+  },
+  {
+    "id": "b4-34-q4",
+    "book": 4,
+    "lesson": 34,
+    "lessonTitle": "Adolescence",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "mcq",
+    "stem": "Parents who cling to unreasoning authority often drive their children into ___ silence.",
+    "options": [
+      "hostile",
+      "orderly",
+      "civic",
+      "accountable"
+    ],
+    "answer": "hostile",
+    "explanation": "考点:词汇辨析。hostile silence 表「敌意的沉默」；orderly 是「有秩序的」，civic 是「公民的」。"
+  },
+  {
+    "id": "b4-34-q5",
+    "book": 4,
+    "lesson": 34,
+    "lessonTitle": "Adolescence",
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "type": "fill",
+    "stem": "If only parents ___ (prepare) for adolescent resentment, family conflicts would be less painful.",
+    "answer": [
+      "were prepared",
+      "had been prepared"
+    ],
+    "explanation": "考点:虚拟语气。If only + were/had been prepared 表愿望，与现在或过去事实相反。"
+  },
+  {
+    "id": "b4-35-q1",
+    "book": 4,
+    "lesson": 35,
+    "lessonTitle": "Space odyssey",
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "The Moon, ___ mass is only an eightieth of the Earth's, requires far less fuel to reach orbit.",
+    "options": [
+      "whose",
+      "which",
+      "that",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "考点:定语从句。whose 表所属关系，the Moon whose mass is ...。"
+  },
+  {
+    "id": "b4-35-q2",
+    "book": 4,
+    "lesson": 35,
+    "lessonTitle": "Space odyssey",
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Because the Moon has less gravity, spacecraft launched from its surface ___ far less energy.",
+    "options": [
+      "require",
+      "cater",
+      "appeal",
+      "exert"
+    ],
+    "answer": "require",
+    "explanation": "考点:词汇辨析。require energy 表「需要能量」；cater to 迎合，appeal to 吸引，exert 施加。"
+  },
+  {
+    "id": "b4-35-q3",
+    "book": 4,
+    "lesson": 35,
+    "lessonTitle": "Space odyssey",
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "Apollo astronauts, ___ walked on the lunar surface, proved humans can survive beyond Earth.",
+    "options": [
+      "who",
+      "which",
+      "whom",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "考点:定语从句。先行词 astronauts 指人，非限制性定语从句用 who。"
+  },
+  {
+    "id": "b4-35-q4",
+    "book": 4,
+    "lesson": 35,
+    "lessonTitle": "Space odyssey",
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "type": "mcq",
+    "stem": "A lunar base may become the ___ of future missions to Mars and beyond.",
+    "options": [
+      "hub",
+      "circulation",
+      "editorial",
+      "bias"
+    ],
+    "answer": "hub",
+    "explanation": "考点:词汇辨析。hub 表「中心、枢纽」；circulation/editorial/bias 是新闻课词汇。"
+  },
+  {
+    "id": "b4-35-q5",
+    "book": 4,
+    "lesson": 35,
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "type": "fill",
+    "stem": "Engineers who design lunar missions must account for the vast ___ (differ) between terrestrial and extraterrestrial conditions.",
+    "answer": [
+      "difference",
+      "differences"
+    ],
+    "explanation": "考点:词汇辨析。vast difference(s) between A and B 表「A 与 B 之间的巨大差异」。",
+    "lessonTitle": "Space odyssey"
+  },
+  {
+    "id": "b4-36-q1",
+    "book": 4,
+    "lesson": 36,
+    "lessonTitle": "The cost of government",
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "type": "mcq",
+    "stem": "Administrative overheads in government are analogous ___ those in business.",
+    "options": [
+      "to",
+      "with",
+      "as",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "考点:比较结构。analogous to 表「与……类似」，to 是介词，后接名词。"
+  },
+  {
+    "id": "b4-36-q2",
+    "book": 4,
+    "lesson": 36,
+    "lessonTitle": "The cost of government",
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "type": "mcq",
+    "stem": "A nation ___ is essentially disunited must spend heavily on bureaucracy.",
+    "options": [
+      "that",
+      "who",
+      "whom",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "考点:定语从句。先行词 nation 指物，从句中作主语，用 that/which。"
+  },
+  {
+    "id": "b4-36-q3",
+    "book": 4,
+    "lesson": 36,
+    "lessonTitle": "The cost of government",
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "type": "mcq",
+    "stem": "To the extent ___ citizens can be trusted, government overheads will be low.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "where"
+    ],
+    "answer": "that",
+    "explanation": "考点:比较结构。to the extent that 表「在……程度上」，that 引导程度状语从句。"
+  },
+  {
+    "id": "b4-36-q4",
+    "book": 4,
+    "lesson": 36,
+    "lessonTitle": "The cost of government",
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "type": "mcq",
+    "stem": "The more disunited a people, the ___ the administrative machinery required.",
+    "options": [
+      "greater",
+      "great",
+      "greatest",
+      "greatly"
+    ],
+    "answer": "greater",
+    "explanation": "考点:比较结构。the more ... the greater ... 比较级平行结构。"
+  },
+  {
+    "id": "b4-36-q5",
+    "book": 4,
+    "lesson": 36,
+    "lessonTitle": "The cost of government",
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "type": "fill",
+    "stem": "Resources which could fund development are diverted to maintaining order, and spending on education falls ___ (corresponding).",
+    "answer": [
+      "correspondingly"
+    ],
+    "explanation": "考点:比较结构。correspondingly 副词修饰 falls，表「相应地减少」。"
+  }
+]

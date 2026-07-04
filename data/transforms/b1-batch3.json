@@ -3,168 +3,592 @@
     "id": "tf-b1-019",
     "book": 1,
     "lesson": 3,
-    "grammar": ["be动词", "疑问句", "物主代词"],
+    "grammar": [
+      "be动词",
+      "疑问句",
+      "物主代词"
+    ],
     "cn": "这是你的雨伞吗？",
     "explanation": "be 动词一般疑问句把 Is 提前；your 表所属。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Is this your umbrella?"] },
-      { "kind": "yesno", "prompt": "改为陈述句（肯定）", "answers": ["This is your umbrella."] },
-      { "kind": "negative", "prompt": "改为否定回答句（不是我的）", "answers": ["This is not your umbrella.", "This isn't your umbrella.", "No, it isn't.", "No, it is not."] },
-      { "kind": "wh", "prompt": "对「your umbrella」提问（问\"是什么\"）", "answers": ["What is this?", "What's this?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Is this your umbrella?"
+        ],
+        "cn": "这是你的雨伞吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为陈述句（肯定）",
+        "answers": [
+          "This is your umbrella."
+        ],
+        "cn": "这是你的雨伞。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定回答句（不是我的）",
+        "answers": [
+          "This is not your umbrella.",
+          "This isn't your umbrella.",
+          "No, it isn't.",
+          "No, it is not."
+        ],
+        "cn": "不，这不是我的雨伞。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「your umbrella」提问（问\"是什么\"）",
+        "answers": [
+          "What is this?",
+          "What's this?"
+        ],
+        "cn": "这是什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-020",
     "book": 1,
     "lesson": 5,
-    "grammar": ["be动词", "人称代词"],
+    "grammar": [
+      "be动词",
+      "人称代词"
+    ],
     "cn": "她是法国人。",
     "explanation": "国籍形容词 French 作表语；she 第三人称单数用 is。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is French.", "She's French."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she French?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not French.", "She isn't French.", "She's not French."] },
-      { "kind": "wh", "prompt": "对「French」提问（问国籍）", "answers": ["What nationality is she?", "Where is she from?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is French.",
+          "She's French."
+        ],
+        "cn": "她是法国人。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she French?"
+        ],
+        "cn": "她是法国人吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not French.",
+          "She isn't French.",
+          "She's not French."
+        ],
+        "cn": "她不是法国人。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「French」提问（问国籍）",
+        "answers": [
+          "What nationality is she?",
+          "Where is she from?"
+        ],
+        "cn": "她是哪国人？"
+      }
     ]
   },
   {
     "id": "tf-b1-021",
     "book": 1,
     "lesson": 9,
-    "grammar": ["be动词", "物主代词"],
+    "grammar": [
+      "be动词",
+      "物主代词"
+    ],
     "cn": "他们的母亲很好。",
     "explanation": "形容词 well 作表语；their 表\"他们的\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Their mother is very well.", "Their mother is well."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is their mother very well?", "Is their mother well?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Their mother is not very well.", "Their mother isn't very well.", "Their mother is not well.", "Their mother isn't well."] },
-      { "kind": "wh", "prompt": "对「Their mother」提问（问\"谁很好\"）", "answers": ["Who is very well?", "Who is well?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Their mother is very well.",
+          "Their mother is well."
+        ],
+        "cn": "他们的母亲很好。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is their mother very well?",
+          "Is their mother well?"
+        ],
+        "cn": "他们的母亲很好吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Their mother is not very well.",
+          "Their mother isn't very well.",
+          "Their mother is not well.",
+          "Their mother isn't well."
+        ],
+        "cn": "他不们的母亲很好。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Their mother」提问（问\"谁很好\"）",
+        "answers": [
+          "Who is very well?",
+          "Who is well?"
+        ],
+        "cn": "谁很好？"
+      }
     ]
   },
   {
     "id": "tf-b1-022",
     "book": 1,
     "lesson": 11,
-    "grammar": ["物主代词", "疑问句"],
+    "grammar": [
+      "物主代词",
+      "疑问句"
+    ],
     "cn": "这是你的衬衫吗？",
     "explanation": "Is this your…? 询问归属；your shirt 表\"你的衬衫\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Is this your shirt?"] },
-      { "kind": "yesno", "prompt": "改为陈述句（肯定）", "answers": ["This is your shirt."] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not your shirt.", "This isn't your shirt."] },
-      { "kind": "wh", "prompt": "对「your shirt」提问（用 whose）", "answers": ["Whose shirt is this?", "Whose is this shirt?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Is this your shirt?"
+        ],
+        "cn": "这是你的衬衫吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为陈述句（肯定）",
+        "answers": [
+          "This is your shirt."
+        ],
+        "cn": "这是你的衬衫。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not your shirt.",
+          "This isn't your shirt."
+        ],
+        "cn": "这不是你的衬衫吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「your shirt」提问（用 whose）",
+        "answers": [
+          "Whose shirt is this?",
+          "Whose is this shirt?"
+        ],
+        "cn": "这是谁的衬衫？"
+      }
     ]
   },
   {
     "id": "tf-b1-023",
     "book": 1,
     "lesson": 15,
-    "grammar": ["名词单复数", "be动词"],
+    "grammar": [
+      "名词单复数",
+      "be动词"
+    ],
     "cn": "他们是丹麦人。",
     "explanation": "复数主语用 are；Danish 表国籍。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They are Danish.", "They're Danish."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are they Danish?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They are not Danish.", "They aren't Danish.", "They're not Danish."] },
-      { "kind": "wh", "prompt": "对「Danish」提问（问国籍）", "answers": ["What nationality are they?", "Where are they from?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They are Danish.",
+          "They're Danish."
+        ],
+        "cn": "他们是丹麦人。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are they Danish?"
+        ],
+        "cn": "他们是丹麦人吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They are not Danish.",
+          "They aren't Danish.",
+          "They're not Danish."
+        ],
+        "cn": "他们不是丹麦人。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Danish」提问（问国籍）",
+        "answers": [
+          "What nationality are they?",
+          "Where are they from?"
+        ],
+        "cn": "他们是哪国人？"
+      }
     ]
   },
   {
     "id": "tf-b1-024",
     "book": 1,
     "lesson": 17,
-    "grammar": ["be动词", "冠词a/an"],
+    "grammar": [
+      "be动词",
+      "冠词a/an"
+    ],
     "cn": "她是一名经理。",
     "explanation": "a manager 以辅音音素开头用 a；职业作表语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She is a manager.", "She's a manager."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is she a manager?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She is not a manager.", "She isn't a manager.", "She's not a manager."] },
-      { "kind": "wh", "prompt": "对「a manager」提问（问职业）", "answers": ["What is she?", "What's she?", "What is her job?", "What's her job?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She is a manager.",
+          "She's a manager."
+        ],
+        "cn": "她是一名经理。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is she a manager?"
+        ],
+        "cn": "她是一名经理吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She is not a manager.",
+          "She isn't a manager.",
+          "She's not a manager."
+        ],
+        "cn": "她不是一名经理。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a manager」提问（问职业）",
+        "answers": [
+          "What is she?",
+          "What's she?",
+          "What is her job?",
+          "What's her job?"
+        ],
+        "cn": "她是做什么的？"
+      }
     ]
   },
   {
     "id": "tf-b1-025",
     "book": 1,
     "lesson": 19,
-    "grammar": ["be动词"],
+    "grammar": [
+      "be动词"
+    ],
     "cn": "孩子们又累又渴。",
     "explanation": "be + 形容词并列 tired and thirsty；复数主语用 are。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The children are tired and thirsty.", "They are tired and thirsty.", "They're tired and thirsty."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are the children tired and thirsty?", "Are they tired and thirsty?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The children are not tired and thirsty.", "The children aren't tired and thirsty.", "They are not tired and thirsty.", "They aren't tired and thirsty."] },
-      { "kind": "wh", "prompt": "对「tired and thirsty」提问（问感觉怎样）", "answers": ["How are the children?", "How are they?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The children are tired and thirsty.",
+          "They are tired and thirsty.",
+          "They're tired and thirsty."
+        ],
+        "cn": "孩子们又累又渴。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are the children tired and thirsty?",
+          "Are they tired and thirsty?"
+        ],
+        "cn": "孩子们又累又渴吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The children are not tired and thirsty.",
+          "The children aren't tired and thirsty.",
+          "They are not tired and thirsty.",
+          "They aren't tired and thirsty."
+        ],
+        "cn": "孩子们不又累又渴。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「tired and thirsty」提问（问感觉怎样）",
+        "answers": [
+          "How are the children?",
+          "How are they?"
+        ],
+        "cn": "孩子们感觉怎么样？"
+      }
     ]
   },
   {
     "id": "tf-b1-026",
     "book": 1,
     "lesson": 21,
-    "grammar": ["this/that/these/those", "疑问句"],
+    "grammar": [
+      "this/that/these/those",
+      "疑问句"
+    ],
     "cn": "请给我那本书。",
     "explanation": "that 指较远事物；祈使句 Give me…",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Give me that book, please.", "Please give me that book."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句（Can you give me…?）", "answers": ["Can you give me that book, please?", "Can you give me that book?"] },
-      { "kind": "negative", "prompt": "改为否定祈使句（不要给那本）", "answers": ["Don't give me that book.", "Do not give me that book."] },
-      { "kind": "wh", "prompt": "对「that book」提问（用 which）", "answers": ["Which book, please?", "Which book do you want?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Give me that book, please.",
+          "Please give me that book."
+        ],
+        "cn": "请给我那本书。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句（Can you give me…?）",
+        "answers": [
+          "Can you give me that book, please?",
+          "Can you give me that book?"
+        ],
+        "cn": "请给我那本书吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定祈使句（不要给那本）",
+        "answers": [
+          "Don't give me that book.",
+          "Do not give me that book."
+        ],
+        "cn": "请不要给我那本书。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「that book」提问（用 which）",
+        "answers": [
+          "Which book, please?",
+          "Which book do you want?"
+        ],
+        "cn": "请问是哪一本？"
+      }
     ]
   },
   {
     "id": "tf-b1-027",
     "book": 1,
     "lesson": 27,
-    "grammar": ["there be句型", "介词"],
+    "grammar": [
+      "there be句型",
+      "介词"
+    ],
     "cn": "墙上有两幅画。",
     "explanation": "There are + 复数名词；on the wall 表位置。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["There are two pictures on the wall."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are there two pictures on the wall?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["There are not two pictures on the wall.", "There aren't two pictures on the wall."] },
-      { "kind": "wh", "prompt": "对「two」提问（问数量）", "answers": ["How many pictures are there on the wall?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There are two pictures on the wall."
+        ],
+        "cn": "墙上有两幅画。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Are there two pictures on the wall?"
+        ],
+        "cn": "墙上有两幅画吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There are not two pictures on the wall.",
+          "There aren't two pictures on the wall."
+        ],
+        "cn": "墙上没有两幅画。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「two」提问（问数量）",
+        "answers": [
+          "How many pictures are there on the wall?"
+        ],
+        "cn": "墙上有多少幅画？"
+      }
     ]
   },
   {
     "id": "tf-b1-028",
     "book": 1,
     "lesson": 35,
-    "grammar": ["一般现在时", "介词"],
+    "grammar": [
+      "一般现在时",
+      "介词"
+    ],
     "cn": "我们的村庄坐落在山谷里。",
     "explanation": "一般现在时表客观描述；in a valley 表位置。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Our village is in a valley.", "Our village lies in a valley."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is our village in a valley?", "Does our village lie in a valley?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Our village is not in a valley.", "Our village isn't in a valley."] },
-      { "kind": "wh", "prompt": "对「in a valley」提问（问地点）", "answers": ["Where is our village?", "Where does our village lie?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Our village is in a valley.",
+          "Our village lies in a valley."
+        ],
+        "cn": "我们的村庄坐落在山谷里。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is our village in a valley?",
+          "Does our village lie in a valley?"
+        ],
+        "cn": "我们的村庄坐落在山谷里吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Our village is not in a valley.",
+          "Our village isn't in a valley."
+        ],
+        "cn": "我们的村庄坐落不在山谷里。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in a valley」提问（问地点）",
+        "answers": [
+          "Where is our village?",
+          "Where does our village lie?"
+        ],
+        "cn": "我们的村庄在哪里？"
+      }
     ]
   },
   {
     "id": "tf-b1-029",
     "book": 1,
     "lesson": 39,
-    "grammar": ["祈使句", "现在进行时"],
+    "grammar": [
+      "祈使句",
+      "现在进行时"
+    ],
     "cn": "别摔了它！",
     "explanation": "否定祈使句 Don't + 动词原形；drop 表\"摔落\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Don't drop it!", "Do not drop it!"] },
-      { "kind": "yesno", "prompt": "改为肯定祈使句（小心拿）", "answers": ["Hold it carefully!", "Carry it carefully!"] },
-      { "kind": "negative", "prompt": "改为陈述句（他们正在小心搬）", "answers": ["They are carrying it carefully.", "They're carrying it carefully."] },
-      { "kind": "wh", "prompt": "对「drop it」提问（用 What…do 祈使语气）", "answers": ["What mustn't I do?", "What shouldn't I do?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Don't drop it!",
+          "Do not drop it!"
+        ],
+        "cn": "别摔了它！"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为肯定祈使句（小心拿）",
+        "answers": [
+          "Hold it carefully!",
+          "Carry it carefully!"
+        ],
+        "cn": "别摔了它吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为陈述句（他们正在小心搬）",
+        "answers": [
+          "They are carrying it carefully.",
+          "They're carrying it carefully."
+        ],
+        "cn": "他们正在小心地搬它。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「drop it」提问（用 What…do 祈使语气）",
+        "answers": [
+          "What mustn't I do?",
+          "What shouldn't I do?"
+        ],
+        "cn": "我不应该做什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-030",
     "book": 1,
     "lesson": 41,
-    "grammar": ["物主代词", "名词所有格"],
+    "grammar": [
+      "物主代词",
+      "名词所有格"
+    ],
     "cn": "这是彭妮的手提包。",
     "explanation": "名词所有格 Penny's 表所属；This is… 陈述句。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["This is Penny's handbag.", "This is Penny's bag."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is this Penny's handbag?", "Is this Penny's bag?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["This is not Penny's handbag.", "This isn't Penny's handbag.", "This is not Penny's bag.", "This isn't Penny's bag."] },
-      { "kind": "wh", "prompt": "对「Penny's handbag」提问（用 whose）", "answers": ["Whose handbag is this?", "Whose bag is this?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "This is Penny's handbag.",
+          "This is Penny's bag."
+        ],
+        "cn": "这是彭妮的手提包。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is this Penny's handbag?",
+          "Is this Penny's bag?"
+        ],
+        "cn": "这是彭妮的手提包吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "This is not Penny's handbag.",
+          "This isn't Penny's handbag.",
+          "This is not Penny's bag.",
+          "This isn't Penny's bag."
+        ],
+        "cn": "这不是彭妮的手提包。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Penny's handbag」提问（用 whose）",
+        "answers": [
+          "Whose handbag is this?",
+          "Whose bag is this?"
+        ],
+        "cn": "这是谁的手提包？"
+      }
     ]
   }
 ]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-prop-01",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Move-in Registration",
+    "titleCn": "第1环：入住登记",
+    "scene": "你刚搬进小区，去物业前台登记。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "物业办公室，有什么可以帮您？", "en": "Property management. How can I help?" },
+      { "role": "You", "cn": "我新搬来802，来办入住登记。", "en": "I just moved into 802. I'm here to register." },
+      { "role": "Manager", "cn": "请出示租约和身份证。", "en": "Please show your lease and ID." },
+      { "role": "You", "cn": "在这，门禁卡怎么领？", "en": "Here you go. How do I get access cards?" },
+      { "role": "Manager", "cn": "登记后发两张，丢卡补办二十块。", "en": "Two after registration. Replacement is twenty dollars." },
+      { "role": "You", "cn": "垃圾和快递规则有手册吗？", "en": "Is there a handbook for trash and package rules?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-02",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: HOA Fee Question",
+    "titleCn": "第2环：物业费咨询",
+    "scene": "你收到物业费账单，询问涨幅原因。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我收到物业费涨了，能解释一下吗？", "en": "I got a notice that HOA fees went up. Can you explain?" },
+      { "role": "Manager", "cn": "今年电梯维修基金增加了每月二十块。", "en": "The elevator reserve fund added twenty dollars a month this year." },
+      { "role": "You", "cn": "有会议纪要可以看吗？", "en": "Are there meeting minutes I can review?" },
+      { "role": "Manager", "cn": "在业主网站上下载，上个月已通过。", "en": "They're on the owner portal. The vote passed last month." },
+      { "role": "You", "cn": "好的，怎么在线缴费？", "en": "Okay. How do I pay online?" },
+      { "role": "Manager", "cn": "登录业主账户，用银行卡即可。", "en": "Log into your owner account and use a bank card." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-03",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Parking Permit",
+    "titleCn": "第3环：办停车证",
+    "scene": "你向物业申请小区停车许可证。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想办一张住户停车证。", "en": "I'd like to get a resident parking permit." },
+      { "role": "Manager", "cn": "请填表，附车辆登记和保险复印件。", "en": "Fill out this form with a copy of registration and insurance." },
+      { "role": "You", "cn": "访客停车怎么算？", "en": "What about guest parking?" },
+      { "role": "Manager", "cn": "访客区两小时免费，超时会被拖。", "en": "Guest spots are free for two hours. After that, towing is possible." },
+      { "role": "You", "cn": "地下车位可以另租吗？", "en": "Can I rent an underground spot separately?" },
+      { "role": "Manager", "cn": "有等候名单，目前要等两个月。", "en": "There's a waitlist. About two months right now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-04",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Pick Up Package",
+    "titleCn": "第4环：快递室取件",
+    "scene": "你的快递在物业快递室，你去取。（对话链：物业）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "你好，有我的包裹吗？姓张。", "en": "Hi, do you have a package for Zhang?" },
+      { "role": "Staff", "cn": "有几个，请出示证件。", "en": "A few. May I see your ID?" },
+      { "role": "You", "cn": "这个大箱子是我的，能借小推车吗？", "en": "This big box is mine. Can I borrow a dolly?" },
+      { "role": "Staff", "cn": "可以，用完还到门口。", "en": "Sure. Return it to the entrance when you're done." },
+      { "role": "You", "cn": "快递室几点关？", "en": "What time does the package room close?" },
+      { "role": "Staff", "cn": "晚上九点，节假日到六点。", "en": "Nine PM. Six on holidays." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-05",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Report a Repair",
+    "titleCn": "第5环：报修电梯",
+    "scene": "电梯坏了，你打电话报修。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "B座电梯卡在五楼不动了。", "en": "Elevator B is stuck on the fifth floor." },
+      { "role": "Manager", "cn": "有人在里面吗？", "en": "Is anyone inside?" },
+      { "role": "You", "cn": "没有，我刚走出来它就停了。", "en": "No. I just stepped out and it stopped." },
+      { "role": "Manager", "cn": "已通知维保，大概三十分钟到。", "en": "Maintenance is notified. They'll be here in about thirty minutes." },
+      { "role": "You", "cn": "另一台电梯够用吗？早高峰怕挤。", "en": "Is the other elevator enough? Rush hour might be crowded." },
+      { "role": "Manager", "cn": "会加保安维持秩序，抱歉不便。", "en": "We'll have security manage the line. Sorry for the inconvenience." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-06",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Noise Complaint",
+    "titleCn": "第6环：投诉噪音",
+    "scene": "楼上长期噪音，你向物业投诉。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想投诉502长期深夜噪音。", "en": "I'd like to file a complaint about unit 502. Loud noise late at night." },
+      { "role": "Manager", "cn": "什么时候？持续多久了？", "en": "When does it happen? How long has it been going on?" },
+      { "role": "You", "cn": "几乎每晚十一点后，两周了。", "en": "Almost every night after eleven. For two weeks." },
+      { "role": "Manager", "cn": "我们会发书面警告，请留记录。", "en": "We'll send a written warning. Please keep a log." },
+      { "role": "You", "cn": "需要录音吗？", "en": "Should I record it?" },
+      { "role": "Manager", "cn": "可以，但注意当地法律。", "en": "You can, but check local laws on recording." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-07",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Renovation Permit",
+    "titleCn": "第7环：装修报备",
+    "scene": "你要装修厨房，去物业办施工许可。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "我想装修厨房，需要报备吗？", "en": "I want to renovate my kitchen. Do I need a permit?" },
+      { "role": "Manager", "cn": "要，填施工表，交押金五百。", "en": "Yes. Fill out a work form and pay a five-hundred-dollar deposit." },
+      { "role": "You", "cn": "施工时间有限制吗？", "en": "Are there restricted hours?" },
+      { "role": "Manager", "cn": "工作日九点到六点，周末禁止噪音施工。", "en": "Weekdays nine to six. No noisy work on weekends." },
+      { "role": "You", "cn": "押金什么时候退？", "en": "When is the deposit refunded?" },
+      { "role": "Manager", "cn": "验收合格后两周内。", "en": "Within two weeks after final inspection." }
+    ]
+  },
+  {
+    "id": "dlg-chain-prop-08",
+    "category": "property",
+    "chain": {
+      "id": "property-mgmt",
+      "title": "Dealing with Property Management",
+      "titleCn": "对话链：物业办事",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Owners Meeting",
+    "titleCn": "第8环：业主大会",
+    "scene": "物业通知开业主大会，你打电话确认。（对话链：物业）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "业主大会周六上午十点，社区活动室。", "en": "The owners meeting is Saturday at ten AM in the community room." },
+      { "role": "You", "cn": "主要议题是什么？", "en": "What's on the agenda?" },
+      { "role": "Manager", "cn": "绿化改造和门禁升级预算。", "en": "Landscaping upgrades and access control budget." },
+      { "role": "You", "cn": "不能到场能委托投票吗？", "en": "Can I assign a proxy vote if I can't attend?" },
+      { "role": "Manager", "cn": "可以，填委托书提前交。", "en": "Yes. Submit a proxy form in advance." },
+      { "role": "You", "cn": "好的，我尽量参加。", "en": "Okay. I'll try to be there." }
+    ]
+  }
+]

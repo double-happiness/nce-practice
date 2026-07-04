@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-cmp-01",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Problem at Restaurant",
+    "titleCn": "第1环：餐厅出问题",
+    "scene": "你的菜等了四十分钟还没上，你向经理投诉。（对话链：投诉维权）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "You", "cn": "经理，我们点的菜四十分钟了还没来。", "en": "Excuse me, we've been waiting forty minutes for our food." },
+      { "role": "Manager", "cn": "非常抱歉，厨房人手不够。", "en": "I'm so sorry. We're short-staffed in the kitchen." },
+      { "role": "You", "cn": "能理解，但能优先上孩子的餐吗？", "en": "I understand, but could you prioritize the kids' meals?" },
+      { "role": "Manager", "cn": "当然，我亲自去催，甜点请你们。", "en": "Of course. I'll check myself. Dessert is on the house." },
+      { "role": "You", "cn": "谢谢，希望下次体验更好。", "en": "Thank you. I hope it's better next time." },
+      { "role": "Manager", "cn": "给您一张优惠券，欢迎再来。", "en": "Here's a coupon. We'd love to have you back." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-02",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Store Refund Dispute",
+    "titleCn": "第2环：商店退款纠纷",
+    "scene": "商店拒绝你的退货，你据理力争。（对话链：投诉维权）",
+    "roles": ["You", "Supervisor"],
+    "turns": [
+      { "role": "You", "cn": "这件衣服有瑕疵，我要退款。", "en": "This shirt has a defect. I want a refund." },
+      { "role": "Supervisor", "cn": "超过三十天不能退。", "en": "It's past our thirty-day return window." },
+      { "role": "You", "cn": "但我上周才买，有小票。", "en": "But I bought it last week. Here's the receipt." },
+      { "role": "Supervisor", "cn": "让我看一下……日期确实在期内。", "en": "Let me see. You're right, it's within the window." },
+      { "role": "You", "cn": "可以换一件吗？同款没货就退。", "en": "Can I exchange it? If you're out, I'll take a refund." },
+      { "role": "Supervisor", "cn": "可以退款，抱歉给您添麻烦。", "en": "We'll refund you. Sorry for the trouble." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-03",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Leave a Bad Review",
+    "titleCn": "第3环：写差评",
+    "scene": "外卖体验差，你在 App 上写差评。（对话链：投诉维权）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "真要给一星吗？会不会太狠？", "en": "Really one star? Isn't that harsh?" },
+      { "role": "You", "cn": "凉了还漏送，我写清楚事实。", "en": "It arrived cold and items were missing. I'll state the facts." },
+      { "role": "Friend", "cn": "附上照片更有说服力。", "en": "Photos make it more convincing." },
+      { "role": "You", "cn": "拍了，也点了「食物凉了」标签。", "en": "Done. I tagged cold food too." },
+      { "role": "Friend", "cn": "商家可能会联系你。", "en": "The owner might reach out." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-04",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Owner Calls Back",
+    "titleCn": "第4环：商家回访",
+    "scene": "你给了差评，商家打电话沟通。（对话链：投诉维权）",
+    "roles": ["You", "Owner"],
+    "turns": [
+      { "role": "Owner", "cn": "您好，看到您的评价，想了解一下问题。", "en": "Hi, I saw your review and wanted to understand what went wrong." },
+      { "role": "You", "cn": "外卖凉了，薯条软了。", "en": "The food arrived cold and the fries were soggy." },
+      { "role": "Owner", "cn": "那天骑手不够，我们改进了包装。", "en": "We were short on drivers that day. We've improved our packaging." },
+      { "role": "You", "cn": "希望如此，我经常点你们家。", "en": "I hope so. I order from you often." },
+      { "role": "Owner", "cn": "下次订单我亲自备注加保温，送您饮料。", "en": "I'll note extra insulation on your next order and include a free drink." },
+      { "role": "You", "cn": "好吧，愿意再试一次。", "en": "Okay. I'm willing to try again." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-05",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Hotel Room Problem",
+    "titleCn": "第5环：酒店房间问题",
+    "scene": "酒店房间不干净，你要求换房。（对话链：投诉维权）",
+    "roles": ["You", "Front Desk"],
+    "turns": [
+      { "role": "You", "cn": "房间浴室有头发，床单也不干净。", "en": "There's hair in the bathroom and the sheets aren't clean." },
+      { "role": "Front Desk", "cn": "非常抱歉，我给您换一间。", "en": "I'm terribly sorry. I'll move you to another room." },
+      { "role": "You", "cn": "要安静一点的，别靠电梯。", "en": "Something quiet, away from the elevator." },
+      { "role": "Front Desk", "cn": "八楼角落套房空着，我升级给您。", "en": "A corner suite on eight is open. I'll upgrade you at no charge." },
+      { "role": "You", "cn": "行李能帮忙搬吗？", "en": "Can someone help with our luggage?" },
+      { "role": "Front Desk", "cn": "马上派行李员上去。", "en": "I'll send a bellhop right up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-06",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Flight Delay",
+    "titleCn": "第6环：航班延误投诉",
+    "scene": "航班延误五小时，你在柜台要求补偿。（对话链：投诉维权）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "延误五小时，有餐券或酒店吗？", "en": "Five-hour delay. Any meal vouchers or a hotel?" },
+      { "role": "Agent", "cn": "天气原因，我们可以发二十块餐券。", "en": "It's weather-related. We can offer a twenty-dollar meal voucher." },
+      { "role": "You", "cn": "错过转机，能改签到明早吗？", "en": "I missed my connection. Can you rebook me for tomorrow morning?" },
+      { "role": "Agent", "cn": "可以，七点航班，今晚酒店我们安排。", "en": "Yes. Seven AM flight. We'll arrange a hotel tonight." },
+      { "role": "You", "cn": "请把延误证明发我邮箱，公司报销用。", "en": "Please email a delay certificate for my company." },
+      { "role": "Agent", "cn": "马上发，抱歉不便。", "en": "Sending now. Sorry for the inconvenience." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-07",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Credit Card Dispute",
+    "titleCn": "第7环：信用卡争议",
+    "scene": "商家多扣费，你打电话给银行争议。（对话链：投诉维权）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "信用卡客服，请问什么问题？", "en": "Credit card support. What's the issue?" },
+      { "role": "You", "cn": "商家重复扣款，同一笔收了两次。", "en": "A merchant charged me twice for the same purchase." },
+      { "role": "Agent", "cn": "请报交易日期和金额。", "en": "Transaction date and amount, please?" },
+      { "role": "You", "cn": "上周三，八十九块九，两次。", "en": "Last Wednesday, eighty-nine ninety, twice." },
+      { "role": "Agent", "cn": "已登记争议，四十五天内调查。", "en": "Dispute filed. Investigation within forty-five days." },
+      { "role": "You", "cn": "期间我需要付款吗？", "en": "Do I need to pay that amount meanwhile?" },
+      { "role": "Agent", "cn": "争议金额暂时冻结。", "en": "That amount is on hold during the dispute." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cmp-08",
+    "category": "complaint",
+    "chain": {
+      "id": "consumer-complaint",
+      "title": "Filing and Resolving a Complaint",
+      "titleCn": "对话链：投诉维权全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Complaint Resolved",
+    "titleCn": "第8环：问题得到解决",
+    "scene": "一周后，商家和银行都给了满意答复。（对话链：投诉维权）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "投诉结果怎么样？", "en": "How did the complaints turn out?" },
+      { "role": "You", "cn": "外卖店送了券，银行退了一笔重复扣款。", "en": "The restaurant sent coupons. The bank reversed the duplicate charge." },
+      { "role": "Friend", "cn": "维权还是有用的。", "en": "Speaking up actually works." },
+      { "role": "You", "cn": "对，留好小票和截图很重要。", "en": "Right. Keeping receipts and screenshots matters." },
+      { "role": "Friend", "cn": "下次我遇到问题也跟你学。", "en": "I'll follow your lead next time." },
+      { "role": "You", "cn": "客气，该争取就争取。", "en": "Sure. Stand your ground when it counts." }
+    ]
+  }
+]

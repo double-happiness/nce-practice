@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tf-b2-098",
+    "book": 2,
+    "lesson": 31,
+    "grammar": ["used to"],
+    "cn": "他过去常在这里工作。",
+    "explanation": "used to + 动词原形表过去习惯，疑问用 Did...use to?，否定用 didn't use to / used not to。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He used to work here.", "He used to work in this place."], "cn": "他过去常在这里工作。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he use to work here?", "Used he to work here?"], "cn": "他过去常在这里工作吗？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He didn't use to work here.", "He used not to work here.", "He never used to work here."], "cn": "他过去不常在这里工作。" },
+      { "kind": "wh", "prompt": "对「here」提问（问\"过去常在哪里工作\"）", "answers": ["Where did he use to work?", "Where did he used to work?"], "cn": "他过去常在哪里工作？" }
+    ]
+  },
+  {
+    "id": "tf-b2-099",
+    "book": 2,
+    "lesson": 18,
+    "grammar": ["反义疑问句"],
+    "cn": "你是学生，对吗？",
+    "explanation": "反义疑问句（反意疑问句）：前肯后否，陈述句用 are，附加问句用 aren't you。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（含反义疑问句）", "answers": ["You are a student, aren't you?", "You're a student, aren't you?"], "cn": "你是学生，对吗？" },
+      { "kind": "yesno", "prompt": "去掉反义疑问，改为一般疑问句", "answers": ["Are you a student?"], "cn": "你是学生吗？" },
+      { "kind": "negative", "prompt": "改为否定陈述句（不含反义疑问）", "answers": ["You are not a student.", "You aren't a student.", "You're not a student."], "cn": "你不是学生。" },
+      { "kind": "wh", "prompt": "对「a student」提问（问\"是什么身份\"）", "answers": ["What are you?", "Who are you?"], "cn": "你是什么身份？" }
+    ]
+  },
+  {
+    "id": "tf-b2-100",
+    "book": 2,
+    "lesson": 8,
+    "grammar": ["比较级和最高级"],
+    "cn": "乔的花园是镇上最好的，比尔的花园比乔的差一些。",
+    "explanation": "of all / in the town 用最高级 the best；两者比较用比较级 worse than / better than。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Joe's garden is the best in the town. Bill's garden is worse than Joe's.", "Joe has the best garden in town. Bill's is not as good as Joe's."], "cn": "乔的花园是镇上最好的，比尔的花园比乔的差一些。" },
+      { "kind": "wh", "prompt": "对「the best in the town」提问（问\"乔的花园怎样\"）", "answers": ["How is Joe's garden?", "What is Joe's garden like in the town?"], "cn": "乔的花园在镇上怎样？" },
+      { "kind": "negative", "prompt": "改为否定句（比尔花园不如乔）", "answers": ["Bill's garden is not as good as Joe's.", "Bill's garden is not better than Joe's."], "cn": "比尔的花园不如乔的好。" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（乔花园最好吗）", "answers": ["Is Joe's garden the best in the town?", "Does Joe have the best garden in town?"], "cn": "乔的花园是镇上最好的吗？" }
+    ]
+  },
+  {
+    "id": "tf-b2-101",
+    "book": 2,
+    "lesson": 40,
+    "grammar": ["虚拟语气"],
+    "cn": "要是我是一只鸟，就能飞了。",
+    "explanation": "与现在事实相反的虚拟：If I were... I would...；were 用于所有人称。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["If I were a bird, I could fly.", "If I were a bird, I would fly."], "cn": "要是我是一只鸟，就能飞了。" },
+      { "kind": "negative", "prompt": "改为否定句（我不是鸟，不能飞）", "answers": ["I am not a bird, so I cannot fly.", "I am not a bird and I can't fly."], "cn": "我不是鸟，所以不能飞。" },
+      { "kind": "wh", "prompt": "对「a bird」提问（问\"要是成为什么就能飞\"）", "answers": ["What would you be if you could fly?", "If you were what, could you fly?"], "cn": "要是什么就能飞？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（你是鸟吗）", "answers": ["Are you a bird?", "If you were a bird, could you fly?"], "cn": "你是鸟吗？" }
+    ]
+  },
+  {
+    "id": "tf-b2-102",
+    "book": 2,
+    "lesson": 49,
+    "grammar": ["非谓语动词"],
+    "cn": "他停下来抽烟。",
+    "explanation": "stop to do 停下以便去做另一事；stop doing 停止正在做的事。本句 stop to smoke = 停下来去抽烟。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He stopped to smoke.", "He stopped to have a cigarette."], "cn": "他停下来抽烟。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not stop to smoke.", "He didn't stop to smoke."], "cn": "他没有停下来抽烟。" },
+      { "kind": "wh", "prompt": "对「to smoke」提问（问\"停下来做什么\"）", "answers": ["What did he stop to do?", "Why did he stop?"], "cn": "他停下来做什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he stop to smoke?"], "cn": "他停下来抽烟了吗？" }
+    ]
+  }
+]

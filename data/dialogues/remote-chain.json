@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-rem-01",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Test Equipment",
+    "titleCn": "第1环：会前测试设备",
+    "scene": "早上九点会议前，你检查摄像头和麦克风。（对话链：远程会议）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "九点的会，你设备测过了吗？", "en": "Nine o'clock meeting. Did you test your setup?" },
+      { "role": "You", "cn": "刚测，耳机正常，摄像头有点暗。", "en": "Just did. Headset works, but the camera's a bit dark." },
+      { "role": "Colleague", "cn": "开个台灯，背景别太乱。", "en": "Turn on a desk lamp. Keep the background tidy." },
+      { "role": "You", "cn": "好，我用虚拟背景。", "en": "Okay. I'll use a virtual background." },
+      { "role": "Colleague", "cn": "会议链接发你邮箱了。", "en": "I sent the meeting link to your email." },
+      { "role": "You", "cn": "收到，提前五分钟进。", "en": "Got it. I'll join five minutes early." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-02",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Join the Stand-up",
+    "titleCn": "第2环：参加站会",
+    "scene": "团队站会开始，主持人点名。（对话链：远程会议）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "张伟，昨天进展和今天计划？", "en": "Zhang Wei, what did you finish yesterday and what's the plan today?" },
+      { "role": "You", "cn": "昨天完成了测试，今天修两个 bug。", "en": "Finished testing yesterday. Fixing two bugs today." },
+      { "role": "Manager", "cn": "有阻碍吗？", "en": "Any blockers?" },
+      { "role": "You", "cn": "需要设计稿确认，已私信设计师。", "en": "Need design approval. I messaged the designer." },
+      { "role": "Manager", "cn": "好，下午同步一下。", "en": "Okay. Let's sync this afternoon." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-03",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Share Your Screen",
+    "titleCn": "第3环：共享屏幕演示",
+    "scene": "你向客户演示方案，需要共享屏幕。（对话链：远程会议）",
+    "roles": ["You", "Client"],
+    "turns": [
+      { "role": "Client", "cn": "可以开始演示了吗？", "en": "Ready to walk us through it?" },
+      { "role": "You", "cn": "好的，我共享屏幕，看得到吗？", "en": "Sure. Sharing my screen now. Can you see it?" },
+      { "role": "Client", "cn": "看到了，请翻到第三页。", "en": "Yes. Please go to slide three." },
+      { "role": "You", "cn": "这页是核心功能，加载时间两秒。", "en": "This slide shows the core feature. Load time is two seconds." },
+      { "role": "Client", "cn": "移动端也支持吗？", "en": "Does it work on mobile too?" },
+      { "role": "You", "cn": "支持，我切到手机预览。", "en": "Yes. Let me switch to the mobile preview." },
+      { "role": "Client", "cn": "清楚，继续吧。", "en": "Clear. Please continue." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-04",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Fix Audio Issues",
+    "titleCn": "第4环：解决音频问题",
+    "scene": "会议中你的麦克风突然没声音。（对话链：远程会议）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "张伟，你静音了吗？听不到你。", "en": "Zhang Wei, are you muted? We can't hear you." },
+      { "role": "You", "cn": "抱歉，我换一下麦克风。", "en": "Sorry. Let me switch microphones." },
+      { "role": "Colleague", "cn": "现在呢？", "en": "How about now?" },
+      { "role": "You", "cn": "现在能听到吗？", "en": "Can you hear me now?" },
+      { "role": "Colleague", "cn": "可以了，你接着说。", "en": "Yes. Go ahead." },
+      { "role": "You", "cn": "好，我刚才说的是截止日期。", "en": "Okay. I was saying the deadline is Friday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-05",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Breakout Room",
+    "titleCn": "第5环：分组讨论",
+    "scene": "主持人把你们分到小组讨论室。（对话链：远程会议）",
+    "roles": ["You", "Teammate"],
+    "turns": [
+      { "role": "Teammate", "cn": "咱们组讨论方案 B 对吧？", "en": "We're discussing option B, right?" },
+      { "role": "You", "cn": "对，我觉得成本更低。", "en": "Right. I think it's more cost-effective." },
+      { "role": "Teammate", "cn": "但上线时间要晚两周。", "en": "But launch would be two weeks later." },
+      { "role": "You", "cn": "可以分阶段，先上核心功能。", "en": "We could phase it. Launch core features first." },
+      { "role": "Teammate", "cn": "好，我记要点，五分钟后汇报。", "en": "Good. I'll take notes. We report in five minutes." },
+      { "role": "You", "cn": "你来主讲，我补充技术细节。", "en": "You present. I'll add the technical details." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-06",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: One-on-One with Boss",
+    "titleCn": "第6环：和老板一对一",
+    "scene": "下午你和老板视频一对一。（对话链：远程会议）",
+    "roles": ["You", "Boss"],
+    "turns": [
+      { "role": "Boss", "cn": "最近远程协作还顺利吗？", "en": "How's remote collaboration going lately?" },
+      { "role": "You", "cn": "总体顺利，有时时差开会比较累。", "en": "Mostly fine. Time-zone meetings can be tiring." },
+      { "role": "Boss", "cn": "有需要支持的吗？", "en": "Anything you need support with?" },
+      { "role": "You", "cn": "希望减少不必要的会，留时间写代码。", "en": "Fewer unnecessary meetings would help. More time to code." },
+      { "role": "Boss", "cn": "合理，我会注意。继续保持。", "en": "Fair point. I'll watch that. Keep up the good work." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-07",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Record the Meeting",
+    "titleCn": "第7环：会议录制",
+    "scene": "培训会需要录制，你向组织者确认。（对话链：远程会议）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "这次培训会要录屏，可以吗？", "en": "We'll record this training session. Is that okay?" },
+      { "role": "You", "cn": "可以，录完发哪里？", "en": "Sure. Where will the recording go?" },
+      { "role": "Host", "cn": "上传到内网，只有团队能看。", "en": "Internal site. Team access only." },
+      { "role": "You", "cn": "好，我关一下通知避免弹窗。", "en": "Okay. I'll turn off notifications to avoid pop-ups." },
+      { "role": "Host", "cn": "谢谢，开始了。", "en": "Thanks. Starting now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rem-08",
+    "category": "remote",
+    "chain": {
+      "id": "remote-workday",
+      "title": "A Remote Workday of Video Meetings",
+      "titleCn": "对话链：远程会议一天",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Send Meeting Notes",
+    "titleCn": "第8环：发会议纪要",
+    "scene": "会议结束，你在群里发纪要。（对话链：远程会议）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "You", "cn": "纪要发群了，请确认行动项。", "en": "Notes are in the chat. Please confirm the action items." },
+      { "role": "Colleague", "cn": "看到了，我周五前交报告。", "en": "Got it. I'll submit the report by Friday." },
+      { "role": "You", "cn": "设计稿周三前定稿对吧？", "en": "Design finalizes by Wednesday, right?" },
+      { "role": "Colleague", "cn": "对，有问题随时 ping 我。", "en": "Right. Ping me if anything comes up." },
+      { "role": "You", "cn": "好，今天辛苦了。", "en": "Okay. Good work today." },
+      { "role": "Colleague", "cn": "你也是，明天见。", "en": "You too. See you tomorrow." }
+    ]
+  }
+]

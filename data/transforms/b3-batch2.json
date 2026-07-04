@@ -1,0 +1,554 @@
+[
+  {
+    "id": "tf-b3-013",
+    "book": 3,
+    "lesson": 13,
+    "grammar": ["have (got) to", "remember/forget + 不定式与动名词"],
+    "cn": "丈夫虽然不情愿，却不得不陪妻子去看牙医。",
+    "explanation": "have to 表客观义务，叙述过去用 had to；remember doing 指记得做过某事。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The husband had to accompany his wife to the dentist although he was reluctant.",
+          "Although he was reluctant, the husband had to go with his wife to the dentist."
+        ],
+        "cn": "丈夫虽然不情愿，却不得不陪妻子去看牙医。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 had to 改为否定句（表示「不必」）",
+        "answers": [
+          "The husband did not have to accompany his wife to the dentist.",
+          "The husband didn't have to accompany his wife to the dentist."
+        ],
+        "cn": "丈夫不必陪妻子去看牙医。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「to the dentist」提问（问\"不得不去哪里\"）",
+        "answers": [
+          "Where did the husband have to go with his wife?",
+          "Where did the husband have to accompany his wife?"
+        ],
+        "cn": "丈夫不得不陪妻子去哪里？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the husband have to accompany his wife to the dentist?",
+          "Did the husband have to go with his wife to the dentist?"
+        ],
+        "cn": "丈夫不得不陪妻子去看牙医吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-014",
+    "book": 3,
+    "lesson": 14,
+    "grammar": ["used to", "be used to"],
+    "cn": "这位前黑帮头目过去控制着一整片地盘，如今已习惯于奢华的生活。",
+    "explanation": "used to do 表过去习惯现已不再；be used to doing 表习惯于，to 是介词后接动名词。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The former gangster used to control a whole territory, but he is used to living in luxury now.",
+          "He used to control a large territory, and now he is used to living in luxury."
+        ],
+        "cn": "这位前黑帮头目过去控制着一整片地盘，如今已习惯于奢华的生活。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 used to 部分改为否定句",
+        "answers": [
+          "The former gangster didn't use to control a whole territory.",
+          "He did not use to control a large territory."
+        ],
+        "cn": "这位前黑帮头目过去并不控制着一整片地盘。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对「is used to living in luxury」改为一般疑问句",
+        "answers": [
+          "Is he used to living in luxury now?",
+          "Is the former gangster used to living in luxury?"
+        ],
+        "cn": "他如今已习惯于奢华的生活吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a whole territory」提问（问\"过去控制着什么\"）",
+        "answers": [
+          "What did the former gangster use to control?",
+          "What did he use to control?"
+        ],
+        "cn": "这位前黑帮头目过去控制着什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-015",
+    "book": 3,
+    "lesson": 15,
+    "grammar": ["enough...to", "so/such...that"],
+    "cn": "缝隙太窄，男孩的手根本够不着那枚五十便士硬币。",
+    "explanation": "such + a + 形容词 + 名词 + that 表「如此……以至于……」；enough 修饰形容词放后面。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It was such a narrow gap that the boy could not reach the fifty-pence coin.",
+          "The gap was so narrow that the boy's hand could not reach the fifty-pence coin."
+        ],
+        "cn": "缝隙太窄，男孩的手根本够不着那枚五十便士硬币。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the fifty-pence coin」提问（问\"够不着什么\"）",
+        "answers": [
+          "What could the boy not reach in the narrow gap?",
+          "What couldn't the boy reach?"
+        ],
+        "cn": "男孩够不着什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（缝隙并非太窄）",
+        "answers": [
+          "The gap was not narrow enough to prevent the boy from reaching the coin.",
+          "It was not such a narrow gap that the boy could not reach the coin."
+        ],
+        "cn": "缝隙并非窄到男孩够不着硬币。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was it such a narrow gap that the boy could not reach the fifty-pence coin?",
+          "Was the gap so narrow that the boy could not reach the coin?"
+        ],
+        "cn": "缝隙太窄，男孩够不着硬币吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-016",
+    "book": 3,
+    "lesson": 16,
+    "grammar": ["be accustomed to", "have to"],
+    "cn": "玛丽白天得照料羔羊，而小家伙早已习惯于跟在她身后。",
+    "explanation": "be accustomed to doing 表习惯于；have to 表客观义务，叙述过去用 had to。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Mary had to tend the lamb during the day, and the little creature was accustomed to following her.",
+          "Mary had to look after the lamb by day, while the lamb was accustomed to following her everywhere."
+        ],
+        "cn": "玛丽白天得照料羔羊，而小家伙早已习惯于跟在她身后。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 had to 改为否定句",
+        "answers": [
+          "Mary did not have to tend the lamb during the day.",
+          "Mary didn't have to look after the lamb by day."
+        ],
+        "cn": "玛丽白天不必照料羔羊。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对「was accustomed to following her」改为一般疑问句",
+        "answers": [
+          "Was the lamb accustomed to following her?",
+          "Was the little creature accustomed to following Mary?"
+        ],
+        "cn": "羔羊习惯于跟在她身后吗？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the lamb」提问（问\"白天得照料谁\"）",
+        "answers": [
+          "Who did Mary have to tend during the day?",
+          "What did Mary have to look after by day?"
+        ],
+        "cn": "玛丽白天得照料谁？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-017",
+    "book": 3,
+    "lesson": 17,
+    "grammar": ["现在完成时 + since/for", "数量与尺寸表达"],
+    "cn": "这座悬索桥自1964年通车以来一直承担着繁重的交通任务。",
+    "explanation": "since + 过去时间点与现在完成时连用，表从过去持续到现在的状态。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The suspension bridge has carried heavy traffic since it opened in 1964.",
+          "Since 1964, the suspension bridge has carried heavy traffic."
+        ],
+        "cn": "这座悬索桥自1964年通车以来一直承担着繁重的交通任务。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「1964」提问（问\"自何时以来\"）",
+        "answers": [
+          "Since when has the suspension bridge carried heavy traffic?",
+          "Since what year has the bridge carried heavy traffic?"
+        ],
+        "cn": "这座桥自何时以来一直承担交通任务？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Has the suspension bridge carried heavy traffic since 1964?",
+          "Has the bridge carried heavy traffic since it opened in 1964?"
+        ],
+        "cn": "这座桥自1964年以来一直承担交通任务吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The suspension bridge has not carried heavy traffic since 1964.",
+          "The bridge hasn't carried heavy traffic since it opened in 1964."
+        ],
+        "cn": "这座桥自1964年以来并未一直承担交通任务。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-018",
+    "book": 3,
+    "lesson": 18,
+    "grammar": ["possess / belong to", "所属关系表达"],
+    "cn": "这些受损的雕塑属于一位知名收藏家。",
+    "explanation": "belong to 表所属，主语是物；possess 表拥有，主语是物主。两者一般不用被动。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The damaged sculptures belong to a well-known collector.",
+          "These damaged sculptures belong to a famous collector."
+        ],
+        "cn": "这些受损的雕塑属于一位知名收藏家。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a well-known collector」提问（问\"属于谁\"）",
+        "answers": [
+          "Who do the damaged sculptures belong to?",
+          "Whom do these damaged sculptures belong to?"
+        ],
+        "cn": "这些受损的雕塑属于谁？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句，并用 possess 改写",
+        "answers": [
+          "A well-known collector does not possess these damaged sculptures.",
+          "The well-known collector does not possess the damaged sculptures."
+        ],
+        "cn": "知名收藏家并不拥有这些受损的雕塑。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Do the damaged sculptures belong to a well-known collector?",
+          "Do these sculptures belong to a famous collector?"
+        ],
+        "cn": "这些受损的雕塑属于一位知名收藏家吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-019",
+    "book": 3,
+    "lesson": 19,
+    "grammar": ["过去完成时", "had better"],
+    "cn": "绑匪警告说她最好不要报警，而猫在她察觉异样之前就已经失踪了。",
+    "explanation": "had better not do 表强烈建议不要做；过去完成时 had disappeared 表过去的过去。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The kidnapper warned that she had better not tell the police, and the cat had disappeared before she noticed anything wrong.",
+          "She was warned that she had better not call the police; the cat had already disappeared before she noticed anything was wrong."
+        ],
+        "cn": "绑匪警告说她最好不要报警，而猫在她察觉异样之前就已经失踪了。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把 had better 部分改为肯定建议",
+        "answers": [
+          "She had better tell the police.",
+          "She had better call the police."
+        ],
+        "cn": "她最好报警。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「before she noticed anything wrong」提问（问\"猫何时失踪\"）",
+        "answers": [
+          "When had the cat disappeared?",
+          "Had the cat disappeared before or after she noticed anything wrong?"
+        ],
+        "cn": "猫何时失踪的？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对「had disappeared before she noticed」改为一般疑问句",
+        "answers": [
+          "Had the cat disappeared before she noticed anything wrong?",
+          "Had the cat already disappeared before she noticed anything was wrong?"
+        ],
+        "cn": "猫在她察觉异样之前就已经失踪了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-020",
+    "book": 3,
+    "lesson": 20,
+    "grammar": ["was/were able to", "could 表过去能力"],
+    "cn": "经过多次尝试，桑托斯·杜蒙特终于成功绕埃菲尔铁塔飞了一圈。",
+    "explanation": "was/were able to 强调过去某次具体行动的成功；could 表一般性能力。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "After many attempts, Santos-Dumont was able to fly around the Eiffel Tower.",
+          "Santos-Dumont was finally able to fly around the Eiffel Tower after many attempts."
+        ],
+        "cn": "经过多次尝试，桑托斯·杜蒙特终于成功绕埃菲尔铁塔飞了一圈。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（未能成功）",
+        "answers": [
+          "After many attempts, Santos-Dumont was not able to fly around the Eiffel Tower.",
+          "Santos-Dumont wasn't able to fly around the Eiffel Tower after many attempts."
+        ],
+        "cn": "经过多次尝试，桑托斯·杜蒙特仍未能绕埃菲尔铁塔飞一圈。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the Eiffel Tower」提问（问\"绕什么飞\"）",
+        "answers": [
+          "What was Santos-Dumont able to fly around after many attempts?",
+          "Around what was he able to fly?"
+        ],
+        "cn": "桑托斯·杜蒙特绕什么飞了一圈？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was Santos-Dumont able to fly around the Eiffel Tower after many attempts?",
+          "Was he able to fly around the Eiffel Tower?"
+        ],
+        "cn": "桑托斯·杜蒙特终于成功绕埃菲尔铁塔飞了一圈吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-021",
+    "book": 3,
+    "lesson": 21,
+    "grammar": ["被动语态"],
+    "cn": "门多萨被他那个时代的穷人和富人都所仰慕。",
+    "explanation": "历史叙事常用被动语态 was/were + 过去分词；by 引出执行者可省略。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Mendoza was admired by both the rich and the poor of his day.",
+          "Mendoza was admired by rich and poor alike in his time."
+        ],
+        "cn": "门多萨被他那个时代的穷人和富人都所仰慕。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态",
+        "answers": [
+          "Both the rich and the poor of his day admired Mendoza.",
+          "Rich and poor alike admired Mendoza in his time."
+        ],
+        "cn": "他那个时代的穷人和富人都仰慕门多萨。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Mendoza」提问（问\"谁被仰慕\"）",
+        "answers": [
+          "Who was admired by both the rich and the poor of his day?",
+          "Who was admired by rich and poor alike?"
+        ],
+        "cn": "谁被穷人和富人都所仰慕？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Mendoza was not admired by everyone of his day.",
+          "Mendoza wasn't admired by all the rich and the poor."
+        ],
+        "cn": "门多萨并非被他那个时代所有人都仰慕。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-022",
+    "book": 3,
+    "lesson": 22,
+    "grammar": ["be unaware of", "tell the difference"],
+    "cn": "演员没意识到自己把两段台词的顺序记混了。",
+    "explanation": "be unaware of + 名词/动名词/that 从句表没意识到；tell the difference between A and B 表分辨差别。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The actor was unaware that he had mixed up the order of two scenes.",
+          "He was unaware of mixing up the order of two passages of his lines."
+        ],
+        "cn": "演员没意识到自己把两段台词的顺序记混了。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为肯定句（意识到自己弄混了）",
+        "answers": [
+          "The actor was aware that he had mixed up the order of two scenes.",
+          "He was aware of mixing up the order of two passages."
+        ],
+        "cn": "演员意识到自己把两段台词的顺序记混了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the order of two scenes」提问（问\"没意识到弄混了什么\"）",
+        "answers": [
+          "What was the actor unaware of?",
+          "What had the actor mixed up without realizing it?"
+        ],
+        "cn": "演员没意识到自己弄混了什么？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was the actor unaware that he had mixed up the order of two scenes?",
+          "Was he unaware of mixing up the order of his lines?"
+        ],
+        "cn": "演员没意识到自己把台词顺序记混了吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-023",
+    "book": 3,
+    "lesson": 23,
+    "grammar": ["no matter + 疑问词"],
+    "cn": "无论节目多么受欢迎，观众终究会对同一套路感到厌倦。",
+    "explanation": "no matter how + 形容词/副词引导让步状语从句，相当于 however，表「无论多么……」。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "No matter how popular the programme was, viewers eventually tired of the same format.",
+          "No matter how popular the show became, the audience would eventually tire of it."
+        ],
+        "cn": "无论节目多么受欢迎，观众终究会对同一套路感到厌倦。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "把 no matter how 改为 however 引导",
+        "answers": [
+          "However popular the programme was, viewers eventually tired of the same format.",
+          "However popular the show became, the audience would eventually tire of it."
+        ],
+        "cn": "无论节目多么受欢迎，观众终究会对同一套路感到厌倦。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（观众并未厌倦）",
+        "answers": [
+          "No matter how popular the programme was, viewers did not tire of the same format.",
+          "However popular the show became, the audience did not tire of it."
+        ],
+        "cn": "无论节目多么受欢迎，观众并未对同一套路感到厌倦。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "对主句改为一般疑问句",
+        "answers": [
+          "Did viewers eventually tire of the same format no matter how popular the programme was?",
+          "Would the audience eventually tire of the show however popular it became?"
+        ],
+        "cn": "无论节目多么受欢迎，观众终究会对同一套路感到厌倦吗？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b3-024",
+    "book": 3,
+    "lesson": 24,
+    "grammar": ["needn't have done", "didn't need to"],
+    "cn": "他本不必叫消防队，妻子很快就会下班回家。",
+    "explanation": "needn't have done 表本不必做却做了，含后悔意味；didn't need to 只表不必，语气更中性。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He needn't have called the fire brigade; his wife would have been home soon.",
+          "He needn't have called the fire brigade because his wife would soon have returned from work."
+        ],
+        "cn": "他本不必叫消防队，妻子很快就会下班回家。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改用 didn't need to 改写（客观陈述不必）",
+        "answers": [
+          "He didn't need to call the fire brigade; his wife would have been home soon.",
+          "He did not need to call the fire brigade because his wife would soon have returned."
+        ],
+        "cn": "他不必叫消防队，妻子很快就会下班回家。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the fire brigade」提问（问\"本不必叫谁\"）",
+        "answers": [
+          "Who needn't he have called?",
+          "Whom didn't he need to call?"
+        ],
+        "cn": "他本不必叫谁？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Needn't he have called the fire brigade?",
+          "Didn't he need to call the fire brigade?"
+        ],
+        "cn": "他本不必叫消防队吗？"
+      }
+    ]
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "nceBookLevel": {
+    "1": "egiu",
+    "2": "egiu2",
+    "3": "egiu2",
+    "4": "egiu2"
+  },
+  "levels": {
+    "egiu": {
+      "title": "剑桥初级英语语法",
+      "subtitle": "Essential Grammar in Use",
+      "sections": [
+        {
+          "id": "present",
+          "titleCn": "现在时",
+          "units": [
+            { "unit": 1, "title": "am/is/are", "titleCn": "be 动词（陈述）", "grammar": ["be动词"] },
+            { "unit": 2, "title": "am/is/are (questions)", "titleCn": "be 动词疑问句", "grammar": ["be动词", "疑问句"] },
+            { "unit": 3, "title": "I am doing", "titleCn": "现在进行时（肯定）", "grammar": ["现在进行时"] },
+            { "unit": 4, "title": "are you doing?", "titleCn": "现在进行时疑问句", "grammar": ["现在进行时", "疑问句"] },
+            { "unit": 5, "title": "I do / work / like", "titleCn": "一般现在时（肯定）", "grammar": ["一般现在时"] },
+            { "unit": 6, "title": "I don't…", "titleCn": "一般现在时否定", "grammar": ["一般现在时", "疑问句"], "stepOrder": ["translate", "negative", "yesno", "wh"] },
+            { "unit": 7, "title": "Do you…?", "titleCn": "一般现在时疑问句", "grammar": ["一般现在时", "疑问句"] },
+            { "unit": 8, "title": "I am doing vs I do", "titleCn": "进行时与一般现在时对比", "grammar": ["现在进行时", "一般现在时", "频率副词"] }
+          ]
+        },
+        {
+          "id": "past",
+          "titleCn": "过去时",
+          "units": [
+            { "unit": 9, "title": "I was / you were", "titleCn": "be 动词过去式", "grammar": ["be动词", "一般过去时"] },
+            { "unit": 10, "title": "worked / got / went", "titleCn": "一般过去时（肯定）", "grammar": ["一般过去时"] },
+            { "unit": 11, "title": "I didn't…", "titleCn": "一般过去时否定", "grammar": ["一般过去时", "疑问句"], "stepOrder": ["translate", "negative", "yesno", "wh"] },
+            { "unit": 12, "title": "did you…?", "titleCn": "一般过去时疑问句", "grammar": ["一般过去时", "疑问句"] },
+            { "unit": 13, "title": "I was doing", "titleCn": "过去进行时", "grammar": ["过去进行时"] },
+            { "unit": 14, "title": "I was doing vs I did", "titleCn": "过去进行时与一般过去时", "grammar": ["过去进行时", "一般过去时"] }
+          ]
+        },
+        {
+          "id": "perfect",
+          "titleCn": "现在完成时",
+          "units": [
+            { "unit": 15, "title": "I have done", "titleCn": "现在完成时（肯定）", "grammar": ["现在完成时"] },
+            { "unit": 16, "title": "I've just / already / yet", "titleCn": "just / already / yet", "grammar": ["现在完成时"] },
+            { "unit": 17, "title": "Have you ever…?", "titleCn": "ever 与完成时疑问", "grammar": ["现在完成时", "疑问句"] },
+            { "unit": 18, "title": "How long have you…?", "titleCn": "for / since 与完成时", "grammar": ["现在完成时"] },
+            { "unit": 19, "title": "for / since / ago", "titleCn": "for、since、ago", "grammar": ["现在完成时", "一般过去时"] },
+            { "unit": 20, "title": "I have done vs I did", "titleCn": "完成时与一般过去时对比", "grammar": ["现在完成时", "一般过去时"] }
+          ]
+        },
+        {
+          "id": "future",
+          "titleCn": "将来时",
+          "units": [
+            { "unit": 25, "title": "I will / I'll", "titleCn": "will 表将来", "grammar": ["一般将来时"] },
+            { "unit": 26, "title": "I'm going to", "titleCn": "be going to", "grammar": ["一般将来时"] },
+            { "unit": 27, "title": "will vs going to", "titleCn": "will 与 going to 对比", "grammar": ["一般将来时"] }
+          ]
+        },
+        {
+          "id": "modals",
+          "titleCn": "情态动词与祈使",
+          "units": [
+            { "unit": 30, "title": "can and could", "titleCn": "can / could", "grammar": ["情态动词can"] },
+            { "unit": 31, "title": "must / mustn't", "titleCn": "must / mustn't", "grammar": ["情态动词must"] },
+            { "unit": 35, "title": "Imperatives", "titleCn": "祈使句", "grammar": ["祈使句"] }
+          ]
+        },
+        {
+          "id": "there-it",
+          "titleCn": "there / it",
+          "units": [
+            { "unit": 37, "title": "there is / there are", "titleCn": "there be（现在）", "grammar": ["there be句型"] },
+            { "unit": 38, "title": "there was / will be", "titleCn": "there be（过去/将来）", "grammar": ["there be句型", "一般过去时", "一般将来时"] }
+          ]
+        },
+        {
+          "id": "nouns",
+          "titleCn": "名词与冠词",
+          "units": [
+            { "unit": 64, "title": "my / your / his", "titleCn": "物主代词与所有格", "grammar": ["物主代词", "名词所有格", "人称代词"] },
+            { "unit": 71, "title": "a/an", "titleCn": "不定冠词 a/an", "grammar": ["冠词a/an"] },
+            { "unit": 74, "title": "this/that/these/those", "titleCn": "指示代词", "grammar": ["this/that/these/those"] },
+            { "unit": 76, "title": "some and any", "titleCn": "some / any", "grammar": ["some/any"] },
+            { "unit": 77, "title": "not + any / no / none", "titleCn": "否定与 any/no", "grammar": ["some/any", "可数不可数"] },
+            { "unit": 80, "title": "countable / uncountable", "titleCn": "可数与不可数", "grammar": ["可数不可数", "名词单复数"] }
+          ]
+        },
+        {
+          "id": "adj",
+          "titleCn": "形容词与副词",
+          "units": [
+            { "unit": 84, "title": "old / older / oldest", "titleCn": "比较级与最高级", "grammar": ["形容词比较级", "形容词最高级"] },
+            { "unit": 88, "title": "adverbs", "titleCn": "副词与频率", "grammar": ["频率副词"] }
+          ]
+        },
+        {
+          "id": "other",
+          "titleCn": "其他",
+          "units": [
+            { "unit": 52, "title": "to… (infinitive)", "titleCn": "动词不定式", "grammar": ["动词不定式"] },
+            { "unit": 100, "title": "prepositions", "titleCn": "介词", "grammar": ["介词"] },
+            { "unit": 105, "title": "word order", "titleCn": "词序与词汇辨析", "grammar": ["词汇辨析"] }
+          ]
+        }
+      ]
+    },
+    "egiu2": {
+      "title": "剑桥中级英语语法",
+      "subtitle": "English Grammar in Use",
+      "sections": [
+        {
+          "id": "tense",
+          "titleCn": "时态",
+          "units": [
+            { "unit": 1, "title": "Present continuous", "titleCn": "现在进行时", "grammar": ["现在进行时"] },
+            { "unit": 2, "title": "Present simple", "titleCn": "一般现在时", "grammar": ["一般现在时"] },
+            { "unit": 3, "title": "Present continuous vs simple", "titleCn": "进行时与一般现在时", "grammar": ["现在进行时", "一般现在时"] },
+            { "unit": 5, "title": "Past simple", "titleCn": "一般过去时", "grammar": ["一般过去时", "一般过去时否定"] },
+            { "unit": 6, "title": "Past continuous", "titleCn": "过去进行时", "grammar": ["过去进行时"] },
+            { "unit": 7, "title": "Present perfect 1", "titleCn": "现在完成时（1）", "grammar": ["现在完成时"] },
+            { "unit": 8, "title": "Present perfect 2", "titleCn": "现在完成时（2）", "grammar": ["现在完成时"] },
+            { "unit": 9, "title": "Present perfect continuous", "titleCn": "现在完成进行时", "grammar": ["现在完成进行时"] },
+            { "unit": 10, "title": "Present perfect vs past", "titleCn": "完成时与一般过去时", "grammar": ["现在完成时", "一般过去时"] },
+            { "unit": 13, "title": "Past perfect", "titleCn": "过去完成时", "grammar": ["过去完成时", "过去完成进行时"] },
+            { "unit": 15, "title": "Future (will / going to)", "titleCn": "将来时", "grammar": ["一般将来时", "将来进行时"] },
+            { "unit": 18, "title": "Used to", "titleCn": "used to", "grammar": ["used to"] }
+          ]
+        },
+        {
+          "id": "modals",
+          "titleCn": "情态与被动",
+          "units": [
+            { "unit": 31, "title": "must / can't", "titleCn": "must / can't 表推测", "grammar": ["情态动词", "情态动词must"] },
+            { "unit": 32, "title": "may / might / could", "titleCn": "may / might / could", "grammar": ["情态动词", "虚拟语气"] },
+            { "unit": 41, "title": "Passive 1", "titleCn": "被动语态（1）", "grammar": ["被动语态"] },
+            { "unit": 42, "title": "Passive 2", "titleCn": "被动语态（2）", "grammar": ["被动语态"] },
+            { "unit": 43, "title": "Passive 3", "titleCn": "被动语态（3）", "grammar": ["被动语态", "过去完成时被动"] }
+          ]
+        },
+        {
+          "id": "clauses",
+          "titleCn": "从句与引语",
+          "units": [
+            { "unit": 50, "title": "Relative clauses 1", "titleCn": "定语从句（1）", "grammar": ["定语从句"] },
+            { "unit": 51, "title": "Relative clauses 2", "titleCn": "定语从句（2）", "grammar": ["定语从句", "定语从句(非限制性)"] },
+            { "unit": 47, "title": "Reported speech 1", "titleCn": "间接引语（1）", "grammar": ["间接引语"] },
+            { "unit": 48, "title": "Reported speech 2", "titleCn": "间接引语（2）", "grammar": ["间接引语", "反义疑问句", "反意疑问句"] },
+            { "unit": 38, "title": "If I had…", "titleCn": "虚拟语气", "grammar": ["虚拟语气", "条件句"] },
+            { "unit": 85, "title": "Comparatives / superlatives", "titleCn": "比较级与最高级", "grammar": ["比较级", "最高级", "比较级和最高级"] }
+          ]
+        },
+        {
+          "id": "nonfinite",
+          "titleCn": "非谓语",
+          "units": [
+            { "unit": 52, "title": "Verb + -ing", "titleCn": "动名词", "grammar": ["动名词", "非谓语动词"] },
+            { "unit": 53, "title": "Verb + to…", "titleCn": "不定式", "grammar": ["非谓语动词", "非谓语动词(不定式)"] },
+            { "unit": 55, "title": "Verb + -ing or to…", "titleCn": "动名词与不定式", "grammar": ["非谓语动词", "动名词与不定式"] }
+          ]
+        },
+        {
+          "id": "advanced",
+          "titleCn": "高级结构",
+          "units": [
+            { "unit": 97, "title": "Inversion", "titleCn": "倒装", "grammar": ["倒装"] },
+            { "unit": 98, "title": "Cleft sentences", "titleCn": "强调句", "grammar": ["强调句", "强调本质"] },
+            { "unit": 99, "title": "Non-finite clauses", "titleCn": "非谓语从句", "grammar": ["非谓语动词(分词)", "非谓语动词(动名词)", "定语从句(非限制性)"] },
+            { "unit": 100, "title": "Academic vocabulary", "titleCn": "学术词汇与搭配", "grammar": ["学术词汇(comprise)", "词汇辨析", "比较结构"] }
+          ]
+        }
+      ]
+    }
+  }
+}

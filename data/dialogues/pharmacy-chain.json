@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-pharm-01",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Feel Sick at Home",
+    "titleCn": "第1环：在家不舒服",
+    "scene": "你早上起来喉咙痛，跟室友说。（对话链：药店）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "你声音哑了，感冒？", "en": "You sound hoarse. Coming down with something?" },
+      { "role": "You", "cn": "喉咙痛，可能要去药店买点药。", "en": "Sore throat. I might need to hit the pharmacy." },
+      { "role": "Roommate", "cn": "家里有泰诺，先吃一片？", "en": "We have Tylenol. Want one first?" },
+      { "role": "You", "cn": "先吃一片，下午还不好就去药店。", "en": "I'll take one. If I'm not better by afternoon, I'll go." },
+      { "role": "Roommate", "cn": "多喝水，口罩在抽屉。", "en": "Drink water. Masks are in the drawer." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-02",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: OTC Consultation",
+    "titleCn": "第2环：咨询非处方药",
+    "scene": "下午你到药店柜台咨询感冒药。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "你好，我感冒流鼻涕，有什么推荐？", "en": "Hi, I have a cold and a runny nose. What do you recommend?" },
+      { "role": "Pharmacist", "cn": "这款 DayQuil 白天用，不犯困。", "en": "Try DayQuil for daytime. It won't make you drowsy." },
+      { "role": "You", "cn": "晚上呢？", "en": "What about at night?" },
+      { "role": "Pharmacist", "cn": "NyQuil 助眠，不要开车。", "en": "NyQuil helps you sleep. Don't drive after taking it." },
+      { "role": "You", "cn": "一天吃几次？", "en": "How many times a day?" },
+      { "role": "Pharmacist", "cn": "每四到六小时一次，不要超过四剂。", "en": "Every four to six hours, no more than four doses." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-03",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Doctor Sends Prescription",
+    "titleCn": "第3环：医生开处方",
+    "scene": "症状加重，医生电子处方发到了药店。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "有您的电子处方，姓张对吧？", "en": "We have an e-prescription for you. Zhang, right?" },
+      { "role": "You", "cn": "对，王医生刚开的，要多久能取？", "en": "Yes, Dr. Wang just sent it. How long to fill?" },
+      { "role": "Pharmacist", "cn": "十五分钟，请在旁边等。", "en": "Fifteen minutes. Please wait nearby." },
+      { "role": "You", "cn": "有仿制药吗？便宜点的。", "en": "Is there a generic? Something cheaper?" },
+      { "role": "Pharmacist", "cn": "有，成分一样，自付更低。", "en": "Yes, same ingredients, lower copay." },
+      { "role": "You", "cn": "就要仿制药，谢谢。", "en": "Generic is fine. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-04",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Ask About Side Effects",
+    "titleCn": "第4环：问副作用",
+    "scene": "取药时，药师跟你说明用法。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "一天两次饭后，共七天。", "en": "Twice daily after meals for seven days." },
+      { "role": "You", "cn": "有什么副作用要注意？", "en": "Any side effects I should watch for?" },
+      { "role": "Pharmacist", "cn": "可能胃不舒服，饭中吃更好。", "en": "May upset your stomach. Take it with food." },
+      { "role": "You", "cn": "能喝酒吗？", "en": "Can I drink alcohol?" },
+      { "role": "Pharmacist", "cn": "服药期间不要喝酒。", "en": "Avoid alcohol while on this medication." },
+      { "role": "You", "cn": "明白，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-05",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Insurance Copay",
+    "titleCn": "第5环：保险自付",
+    "scene": "结账时保险自付比预期高，你询问原因。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "自付二十五块。", "en": "Your copay is twenty-five dollars." },
+      { "role": "You", "cn": "上次才十块，怎么涨了？", "en": "It was only ten last time. Why did it go up?" },
+      { "role": "Pharmacist", "cn": "可能 deductible 还没满足，我查一下。", "en": "Your deductible may not be met yet. Let me check." },
+      { "role": "You", "cn": "好，如果太贵我能先不买吗？", "en": "Okay. If it's too much, can I skip it for now?" },
+      { "role": "Pharmacist", "cn": "可以，处方保留三十天。", "en": "Yes. We'll hold the prescription for thirty days." },
+      { "role": "You", "cn": "那我今天先付，谢谢。", "en": "I'll pay today. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-06",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Flu Shot",
+    "titleCn": "第6环：打流感疫苗",
+    "scene": "顺便在药店预约打流感疫苗。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "You", "cn": "能打流感疫苗吗？现在有空吗？", "en": "Can I get a flu shot? Any openings now?" },
+      { "role": "Pharmacist", "cn": "可以，填这张同意书。", "en": "Yes. Please fill out this consent form." },
+      { "role": "You", "cn": "保险覆盖吗？", "en": "Is it covered by insurance?" },
+      { "role": "Pharmacist", "cn": "大多数计划免费，我扫您的卡。", "en": "Most plans cover it free. I'll scan your card." },
+      { "role": "You", "cn": "打左臂可以吗？", "en": "Left arm is okay?" },
+      { "role": "Pharmacist", "cn": "可以，请卷袖子。", "en": "Sure. Roll up your sleeve." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-07",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Buy First Aid Kit",
+    "titleCn": "第7环：买急救用品",
+    "scene": "你在货架区买家用急救包。（对话链：药店）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "需要帮忙找什么吗？", "en": "Can I help you find something?" },
+      { "role": "You", "cn": "我想买一个家用急救包。", "en": "I'm looking for a home first-aid kit." },
+      { "role": "Clerk", "cn": "这款含绷带、消毒液和创可贴。", "en": "This one has bandages, antiseptic, and band-aids." },
+      { "role": "You", "cn": "有体温计吗？", "en": "Do you carry thermometers?" },
+      { "role": "Clerk", "cn": "有数字的，在柜台后面。", "en": "Yes, digital ones are behind the counter." },
+      { "role": "You", "cn": "一起买了，能刷卡吗？", "en": "I'll take both. Can I pay by card?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-pharm-08",
+    "category": "pharmacy",
+    "chain": {
+      "id": "pharmacy-visit",
+      "title": "From Symptoms to the Pharmacy Counter",
+      "titleCn": "对话链：药店买药取药",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Refill Reminder",
+    "titleCn": "第8环：续药提醒",
+    "scene": "一周后药店打电话提醒续药。（对话链：药店）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "您好，您的处方药快吃完了，要续吗？", "en": "Hi, your prescription is running low. Ready for a refill?" },
+      { "role": "You", "cn": "要续，还是仿制药。", "en": "Yes, please. Same generic." },
+      { "role": "Pharmacist", "cn": "医生授权还有两次，今天能取。", "en": "Your doctor authorized two more refills. Ready today." },
+      { "role": "You", "cn": "我下班后来取，大概六点。", "en": "I'll pick it up after work, around six." },
+      { "role": "Pharmacist", "cn": "好，给您留着。", "en": "Okay. We'll hold it for you." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  }
+]

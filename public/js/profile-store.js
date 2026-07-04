@@ -16,6 +16,7 @@
     'nce-wordhub-tab',
     'nce-dict-book',
     'nce-dict-history',
+    'nce-last-dialogue',
   ];
 
   function readPid() {

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-com-01",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Community Center Class",
+    "titleCn": "第1环：报名社区课程",
+    "scene": "你在社区中心报名瑜伽课。（对话链：社区活动）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "社区中心，需要什么帮助？", "en": "Community center. How can I help?" },
+      { "role": "You", "cn": "想报下周开始的瑜伽入门班。", "en": "I'd like to sign up for the beginner yoga class starting next week." },
+      { "role": "Staff", "cn": "十节课六十块，需自备瑜伽垫。", "en": "Sixty dollars for ten sessions. Bring your own mat." },
+      { "role": "You", "cn": "可以试上一节吗？", "en": "Can I try one class first?" },
+      { "role": "Staff", "cn": "第一次免费试听。", "en": "Your first class is free." },
+      { "role": "You", "cn": "好的，我周二晚上那班。", "en": "Great. I'll take the Tuesday evening section." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-02",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: First Yoga Class",
+    "titleCn": "第2环：第一次瑜伽课",
+    "scene": "你参加第一次瑜伽试听。（对话链：社区活动）",
+    "roles": ["You", "Instructor"],
+    "turns": [
+      { "role": "Instructor", "cn": "第一次吗？哪里不舒服告诉我。", "en": "First time? Tell me if anything hurts." },
+      { "role": "You", "cn": "是的，腰有点紧。", "en": "Yes. My lower back is tight." },
+      { "role": "Instructor", "cn": "动作慢一点，不要勉强。", "en": "Go slowly. Don't push too hard." },
+      { "role": "You", "cn": "这个姿势对吗？", "en": "Is this pose correct?" },
+      { "role": "Instructor", "cn": "很好，呼吸再深一点。", "en": "Good. Breathe a little deeper." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-03",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Volunteer Sign-up",
+    "titleCn": "第3环：报名志愿者",
+    "scene": "你想在食物银行做志愿者。（对话链：社区活动）",
+    "roles": ["You", "Coordinator"],
+    "turns": [
+      { "role": "Coordinator", "cn": "感谢有兴趣！之前做过志愿吗？", "en": "Thanks for your interest! Have you volunteered before?" },
+      { "role": "You", "cn": "在大学做过，周末可以来。", "en": "Yes, in college. I'm free on weekends." },
+      { "role": "Coordinator", "cn": "周六上午分拣食品，三小时一班。", "en": "Saturday mornings sorting food, three-hour shifts." },
+      { "role": "You", "cn": "需要培训吗？", "en": "Is there training?" },
+      { "role": "Coordinator", "cn": "第一次来提前半小时 orientation。", "en": "Come thirty minutes early your first day for orientation." },
+      { "role": "You", "cn": "好的，我这周六可以。", "en": "Okay. I can make it this Saturday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-04",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Food Bank Shift",
+    "titleCn": "第4环：食物银行值班",
+    "scene": "周六你在食物银行帮忙分拣。（对话链：社区活动）",
+    "roles": ["You", "Coordinator"],
+    "turns": [
+      { "role": "Coordinator", "cn": "罐头放这边，过期的一律剔除。", "en": "Canned goods here. Toss anything expired." },
+      { "role": "You", "cn": "这个日期还能用吗？", "en": "Is this date still okay?" },
+      { "role": "Coordinator", "cn": "还有一周，可以留。", "en": "A week left. Keep it." },
+      { "role": "You", "cn": "面包装箱满了。", "en": "The bread box is full." },
+      { "role": "Coordinator", "cn": "推到冷库，谢谢。", "en": "Wheel it to the cooler. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-05",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Neighborhood Meeting",
+    "titleCn": "第5环：邻里大会",
+    "scene": "你参加小区业主大会讨论游乐场翻新。（对话链：社区活动）",
+    "roles": ["You", "Chair"],
+    "turns": [
+      { "role": "Chair", "cn": "今晚议题是游乐场翻新，欢迎发言。", "en": "Tonight's topic is playground renovation. Comments are welcome." },
+      { "role": "You", "cn": "我支持翻新，但希望保留大树。", "en": "I support the renovation, but I'd like to keep the big trees." },
+      { "role": "Chair", "cn": "园林方案会尽量保留现有树木。", "en": "The landscape plan will try to preserve existing trees." },
+      { "role": "You", "cn": "预算多少？每户分摊吗？", "en": "What's the budget? Is it split among owners?" },
+      { "role": "Chair", "cn": "十二万，从维修基金出，不另收费。", "en": "A hundred twenty thousand from the reserve fund, no extra assessment." },
+      { "role": "You", "cn": "我赞成。", "en": "I support it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-06",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Community Cleanup",
+    "titleCn": "第6环：社区清洁日",
+    "scene": "社区组织清洁日，你领手套和垃圾袋。（对话链：社区活动）",
+    "roles": ["You", "Organizer"],
+    "turns": [
+      { "role": "Organizer", "cn": "报名清洁日的？领手套和袋子。", "en": "Here for cleanup day? Grab gloves and bags." },
+      { "role": "You", "cn": "我负责哪条街？", "en": "Which block am I assigned?" },
+      { "role": "Organizer", "cn": "橡树街东段，两人一组。", "en": "East Oak Street. Pair up with someone." },
+      { "role": "You", "cn": "几点结束？中午有披萨吗？", "en": "What time do we finish? Pizza at noon?" },
+      { "role": "Organizer", "cn": "十二点，社区中心有披萨和饮料。", "en": "Noon. Pizza and drinks at the community center." },
+      { "role": "You", "cn": "好，出发。", "en": "Great. Let's go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-07",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Church Visit",
+    "titleCn": "第7环：参加礼拜",
+    "scene": "你第一次去当地教堂，工作人员热情接待。（对话链：社区活动）",
+    "roles": ["You", "Greeter"],
+    "turns": [
+      { "role": "Greeter", "cn": "欢迎！第一次来吗？", "en": "Welcome! Is this your first time here?" },
+      { "role": "You", "cn": "是的，不太熟悉流程。", "en": "Yes. I'm not sure how things work." },
+      { "role": "Greeter", "cn": "节目单在门口，礼拜约一小时。", "en": "There's a bulletin by the door. Service is about an hour." },
+      { "role": "You", "cn": "需要预约座位吗？", "en": "Do I need to reserve a seat?" },
+      { "role": "Greeter", "cn": "不用，随便坐，中间是家庭区。", "en": "No, sit anywhere. Families often sit in the middle." },
+      { "role": "You", "cn": "礼拜后有茶点吗？", "en": "Is there coffee after the service?" },
+      { "role": "Greeter", "cn": "有的，大厅免费咖啡和点心。", "en": "Yes, free coffee and snacks in the hall." }
+    ]
+  },
+  {
+    "id": "dlg-chain-com-08",
+    "category": "community",
+    "chain": {
+      "id": "community-involvement",
+      "title": "Getting Involved in the Community",
+      "titleCn": "对话链：参与社区活动",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Reflect on the Month",
+    "titleCn": "第8环：回顾这个月",
+    "scene": "月底，你和瑜伽课同学聊社区参与感受。（对话链：社区活动）",
+    "roles": ["You", "Classmate"],
+    "turns": [
+      { "role": "Classmate", "cn": "这月瑜伽、志愿、清洁日，你挺活跃啊。", "en": "Yoga, volunteering, cleanup day. You've been busy." },
+      { "role": "You", "cn": "感觉更融入社区了。", "en": "I feel more connected to the community." },
+      { "role": "Classmate", "cn": "下月有街头音乐节，来吗？", "en": "Street music festival next month. Coming?" },
+      { "role": "You", "cn": "一定，继续参与。", "en": "Definitely. I'll keep showing up." },
+      { "role": "Classmate", "cn": "到时候见。", "en": "See you there." },
+      { "role": "You", "cn": "到时候见。", "en": "See you then." }
+    ]
+  }
+]

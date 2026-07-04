@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-cus-01",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: On the Plane",
+    "titleCn": "第1环：飞机上填表",
+    "scene": "飞机降落前，空姐发海关申报表。（对话链：入境）",
+    "roles": ["You", "Flight Attendant"],
+    "turns": [
+      { "role": "Flight Attendant", "cn": "请填海关申报表，没有申报的打否。", "en": "Please complete the customs form. Mark no if you have nothing to declare." },
+      { "role": "You", "cn": "带了两瓶红酒，要申报吗？", "en": "I'm bringing two bottles of wine. Should I declare them?" },
+      { "role": "Flight Attendant", "cn": "要，在酒类那一栏填写。", "en": "Yes. Fill in the alcohol section." },
+      { "role": "You", "cn": "现金五百需要报吗？", "en": "Do I need to report five hundred dollars cash?" },
+      { "role": "Flight Attendant", "cn": "超过一万才必须申报。", "en": "Only if it's over ten thousand." },
+      { "role": "You", "cn": "明白，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-02",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Immigration",
+    "titleCn": "第2环：移民局入境",
+    "scene": "你抵达美国，在移民局柜台入境。（对话链：入境）",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "护照和签证请出示。来美国做什么？", "en": "Passport and visa, please. What's the purpose of your visit?" },
+      { "role": "You", "cn": "旅游，待两周，这是返程机票。", "en": "Tourism, two weeks. Here's my return ticket." },
+      { "role": "Officer", "cn": "住哪里？带了多少现金？", "en": "Where will you stay? How much cash are you carrying?" },
+      { "role": "You", "cn": "住在曼哈顿这家酒店，现金五百美元。", "en": "This hotel in Manhattan. Five hundred dollars in cash." },
+      { "role": "Officer", "cn": "有没有带水果、肉类？", "en": "Are you carrying any fruit or meat products?" },
+      { "role": "You", "cn": "没有，我知道不能带。", "en": "No, I know those aren't allowed." },
+      { "role": "Officer", "cn": "欢迎来美国，请按指纹。", "en": "Welcome to the United States. Please scan your fingerprints." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-03",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Baggage Claim",
+    "titleCn": "第3环：取行李",
+    "scene": "过关后你到行李转盘等托运行李。（对话链：入境）",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "You", "cn": "请问这个航班行李在哪个转盘？", "en": "Excuse me, which carousel for this flight?" },
+      { "role": "Passenger", "cn": "屏幕显示4号，刚出来。", "en": "Screen says four. Bags just started." },
+      { "role": "You", "cn": "谢谢，我等到蓝色箱子就行。", "en": "Thanks. I'm waiting for a blue suitcase." },
+      { "role": "Passenger", "cn": "入境队伍长吗？", "en": "Was the immigration line long?" },
+      { "role": "You", "cn": "还好，三十分钟。", "en": "Not too bad. About thirty minutes." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-04",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Customs Declaration",
+    "titleCn": "第4环：海关申报",
+    "scene": "你填写海关申报单，官员询问物品。（对话链：入境）",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "有什么需要申报的吗？", "en": "Anything to declare?" },
+      { "role": "You", "cn": "有，我带了两瓶本国红酒送礼。", "en": "Yes. I have two bottles of wine from home as gifts." },
+      { "role": "Officer", "cn": "每人在免税额度内，请开箱检查。", "en": "Within the duty-free limit per person. Please open the bag." },
+      { "role": "You", "cn": "还有一台旧笔记本电脑，个人用。", "en": "There's also an old laptop for personal use." },
+      { "role": "Officer", "cn": "个人用品没问题，酒也放行。", "en": "Personal items are fine. The wine is okay too." },
+      { "role": "You", "cn": "需要交税吗？", "en": "Do I owe any duty?" },
+      { "role": "Officer", "cn": "不用，请走绿色通道。", "en": "No. Please take the green channel." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-05",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Agriculture Check",
+    "titleCn": "第5环：农产品检查",
+    "scene": "海关警犬区域，官员问你包里有没有食物。（对话链：入境）",
+    "roles": ["You", "Officer"],
+    "turns": [
+      { "role": "Officer", "cn": "包里有水果、种子或肉类吗？", "en": "Any fruit, seeds, or meat in your bags?" },
+      { "role": "You", "cn": "没有，飞机上吃剩的饼干扔了。", "en": "No. I threw away leftover cookies from the flight." },
+      { "role": "Officer", "cn": "请把包放上扫描带。", "en": "Please place your bag on the belt." },
+      { "role": "You", "cn": "好的。", "en": "Okay." },
+      { "role": "Officer", "cn": "没问题，可以走了。", "en": "You're clear. You may go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-06",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Currency Exchange",
+    "titleCn": "第6环：换零钱",
+    "scene": "出关后你在机场换一点美元零钱。（对话链：入境）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "能换一百美元小面额吗？", "en": "Can I exchange for a hundred dollars in small bills?" },
+      { "role": "Clerk", "cn": "可以，汇率在这，手续费五块。", "en": "Yes. Rate's posted here. Five-dollar fee." },
+      { "role": "You", "cn": "刷卡行吗？我只有大额钞票。", "en": "Can I use a card? I only have large notes." },
+      { "role": "Clerk", "cn": "可以刷卡。", "en": "Card is fine." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-07",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Ground Transport",
+    "titleCn": "第7环：离开机场",
+    "scene": "你在机场问讯处咨询去市区交通。（对话链：入境）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "去曼哈顿中城，地铁还是机场大巴？", "en": "To Midtown Manhattan, subway or airport bus?" },
+      { "role": "Agent", "cn": "大巴十八块，地铁便宜但要换乘。", "en": "Bus is eighteen. Subway is cheaper but you transfer." },
+      { "role": "You", "cn": "大巴在哪坐？", "en": "Where do I catch the bus?" },
+      { "role": "Agent", "cn": "出门右转，四号站台。", "en": "Right out the door, gate four." },
+      { "role": "You", "cn": "大概多久？", "en": "How long does it take?" },
+      { "role": "Agent", "cn": "不堵车四十五分钟。", "en": "About forty-five minutes without traffic." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cus-08",
+    "category": "customs",
+    "chain": {
+      "id": "airport-entry",
+      "title": "Entering the Country at the Airport",
+      "titleCn": "对话链：机场入境全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Hotel Check-in",
+    "titleCn": "第8环：酒店入住",
+    "scene": "傍晚你到达预订的酒店办理入住。（对话链：入境）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "欢迎！有预订吗？", "en": "Welcome! Do you have a reservation?" },
+      { "role": "You", "cn": "有的，张伟，两晚。", "en": "Yes. Zhang Wei, two nights." },
+      { "role": "Clerk", "cn": "请出示护照，需要信用卡担保。", "en": "Passport, please. We'll need a card for incidentals." },
+      { "role": "You", "cn": "在这。行李能帮忙送房间吗？", "en": "Here you go. Can someone bring up my luggage?" },
+      { "role": "Clerk", "cn": "当然，行李员马上来。祝您住得愉快！", "en": "Of course. A bellhop will be right up. Enjoy your stay!" },
+      { "role": "You", "cn": "谢谢，终于到了。", "en": "Thank you. Finally made it." }
+    ]
+  }
+]

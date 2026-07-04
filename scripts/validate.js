@@ -158,6 +158,46 @@ function validate() {
     }
   });
 
+  // 题目 lessonTitle 与教材 title 不一致（仅提示，不影响判分）
+  const lessonTitleMap = new Map(
+    data.getLessons().map((l) => [`${l.book}-${l.lesson}`, l.title || ''])
+  );
+  let titleMismatch = 0;
+  qs.forEach((q) => {
+    if (!q.lessonTitle || titleMismatch >= 15) return;
+    const expected = lessonTitleMap.get(`${q.book}-${q.lesson}`);
+    if (expected && q.lessonTitle !== expected) {
+      warnings.push(`questions id=${q.id}: lessonTitle「${q.lessonTitle}」与教材「${expected}」不一致`);
+      titleMismatch++;
+    }
+  });
+  if (titleMismatch >= 15) {
+    warnings.push('questions: 另有 lessonTitle 与教材不一致的题目（已截断显示）');
+  }
+
+  // 第一册课文课（奇数课）合并偶数课练习后，建议每课至少 5 题
+  const qByBookLesson = new Map();
+  qs.forEach((q) => {
+    const k = `${q.book}-${q.lesson}`;
+    qByBookLesson.set(k, (qByBookLesson.get(k) || 0) + 1);
+  });
+  data.getLessons()
+    .filter((l) => l.book === 1 && l.lesson % 2 === 1)
+    .forEach((l) => {
+      const n = (qByBookLesson.get(`1-${l.lesson}`) || 0) + (qByBookLesson.get(`1-${l.lesson + 1}`) || 0);
+      if (n < 5) warnings.push(`book1 lesson ${l.lesson}: 课文课+配套练习仅 ${n} 题，建议补至 5 题`);
+    });
+
+  // 第三、四册：每课文课至少 5 题
+  [3, 4].forEach((book) => {
+    data.getLessons()
+      .filter((l) => l.book === book)
+      .forEach((l) => {
+        const n = qByBookLesson.get(`${book}-${l.lesson}`) || 0;
+        if (n < 5) warnings.push(`book${book} lesson ${l.lesson}: 题量为 ${n}，建议至少 5 题`);
+      });
+  });
+
   // 全局词库：结构完整、每段至少 12 词（4 选 1 出题下限）
   const { buildGlobalDict, getVocabInfo } = require('../lib/globalvocab');
   const gvInfo = getVocabInfo();

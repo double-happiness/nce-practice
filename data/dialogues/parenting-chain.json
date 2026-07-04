@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-kid-01",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Morning Drop-off",
+    "titleCn": "第1环：早上送托儿所",
+    "scene": "早上送孩子去托儿所。（对话链：亲子）",
+    "roles": ["You", "Caregiver"],
+    "turns": [
+      { "role": "Caregiver", "cn": "早上好！昨晚睡得好吗？", "en": "Good morning! Did she sleep well last night?" },
+      { "role": "You", "cn": "还不错，中午可能需要午睡。", "en": "Pretty well. She might need a nap around noon." },
+      { "role": "Caregiver", "cn": "午餐吃过了吗？", "en": "Has she had breakfast?" },
+      { "role": "You", "cn": "吃过了，奶瓶在包里，三点左右喝。", "en": "Yes. The bottle is in the bag, around three o'clock." },
+      { "role": "Caregiver", "cn": "对花生过敏对吧？我们会注意。", "en": "Allergic to peanuts, right? We'll watch for that." },
+      { "role": "You", "cn": "对，EpiPen 在侧袋。五点来接。", "en": "Yes. EpiPen is in the side pocket. I'll pick her up at five." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-02",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Call from Daycare",
+    "titleCn": "第2环：托儿所来电",
+    "scene": "上午托儿所打电话说孩子发烧。（对话链：亲子）",
+    "roles": ["You", "Caregiver"],
+    "turns": [
+      { "role": "Caregiver", "cn": "您好，宝宝有点发烧，三十八点一。", "en": "Hi, she has a slight fever, a hundred point six." },
+      { "role": "You", "cn": "我请一小时假过来，需要带什么？", "en": "I'll take an hour off and come. Should I bring anything?" },
+      { "role": "Caregiver", "cn": "带件外套，她在休息室。", "en": "Bring a jacket. She's in the rest room." },
+      { "role": "You", "cn": "大概二十分钟后到。", "en": "I'll be there in about twenty minutes." },
+      { "role": "Caregiver", "cn": "好的，我们陪着。", "en": "Okay. We'll stay with her." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-03",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Pediatrician Visit",
+    "titleCn": "第3环：看儿科",
+    "scene": "你带孩子看儿科医生。（对话链：亲子）",
+    "roles": ["You", "Doctor"],
+    "turns": [
+      { "role": "Doctor", "cn": "孩子怎么了？", "en": "What's going on with your child?" },
+      { "role": "You", "cn": "发烧两天了，三十八点三度。", "en": "Fever for two days, about a hundred point nine." },
+      { "role": "Doctor", "cn": "咳嗽吗？食欲怎么样？", "en": "Any cough? How's her appetite?" },
+      { "role": "You", "cn": "有点咳，不太想吃饭。", "en": "A little cough. She doesn't want to eat much." },
+      { "role": "Doctor", "cn": "耳朵有点红，可能是耳部感染。", "en": "Her ears are a bit red. Could be an ear infection." },
+      { "role": "You", "cn": "需要抗生素吗？", "en": "Will she need antibiotics?" },
+      { "role": "Doctor", "cn": "开一种儿童口服液，一天两次。", "en": "I'll prescribe a liquid. Twice a day." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-04",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Pick Up from School",
+    "titleCn": "第4环：接孩子放学",
+    "scene": "孩子退烧后上学，你去接他放学。（对话链：亲子）",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "您好，今天小明表现很好。", "en": "Hi. Tommy had a great day today." },
+      { "role": "You", "cn": "谢谢老师！作业多吗？", "en": "Thank you! Is there much homework?" },
+      { "role": "Teacher", "cn": "一页数学题，周五有拼写测验。", "en": "One page of math. There's a spelling test on Friday." },
+      { "role": "You", "cn": "好的，我们会复习。明天带体育服吗？", "en": "Okay, we'll review. Does he need gym clothes tomorrow?" },
+      { "role": "Teacher", "cn": "周三才是体育课。", "en": "Gym is on Wednesday." },
+      { "role": "You", "cn": "明白了，小明，跟老师说再见。", "en": "Got it. Tommy, say goodbye to your teacher." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-05",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Homework Time",
+    "titleCn": "第5环：辅导作业",
+    "scene": "回家后你陪孩子做作业。（对话链：亲子）",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "You", "cn": "先做数学，拼写等会儿复习。", "en": "Math first. We'll review spelling later." },
+      { "role": "Child", "cn": "这道题我不会。", "en": "I don't get this one." },
+      { "role": "You", "cn": "先读题，把数字圈出来。", "en": "Read the problem. Circle the numbers." },
+      { "role": "Child", "cn": "哦，要相加！", "en": "Oh, I need to add them!" },
+      { "role": "You", "cn": "对，写完自己检查一遍。", "en": "Right. Check your work when you're done." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-06",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Parent-Teacher Meeting",
+    "titleCn": "第6环：家长会",
+    "scene": "你参加孩子的家长会。（对话链：亲子）",
+    "roles": ["You", "Teacher"],
+    "turns": [
+      { "role": "Teacher", "cn": "感谢您来，孩子数学进步很大。", "en": "Thanks for coming. He's improved a lot in math." },
+      { "role": "You", "cn": "在家我们也多练，有什么建议吗？", "en": "We practice at home too. Any suggestions?" },
+      { "role": "Teacher", "cn": "阅读可以再加强，每天二十分钟。", "en": "Reading could use a boost. Twenty minutes a day." },
+      { "role": "You", "cn": "他在班上和同学相处怎么样？", "en": "How does he get along with classmates?" },
+      { "role": "Teacher", "cn": "很友善，有时上课有点分心。", "en": "Very friendly. Sometimes a bit distracted in class." },
+      { "role": "You", "cn": "我们会和他谈谈，谢谢老师。", "en": "We'll talk to him about it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-07",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Kids Sports Practice",
+    "titleCn": "第7环：送孩子训练",
+    "scene": "周六早上你送孩子去足球训练。（对话链：亲子）",
+    "roles": ["You", "Coach"],
+    "turns": [
+      { "role": "Coach", "cn": "今天九点训练，带水了吗？", "en": "Practice at nine. Did he bring water?" },
+      { "role": "You", "cn": "带了，护腿板也穿了。", "en": "Yes, and he's wearing shin guards." },
+      { "role": "Coach", "cn": "训练一小时，十点半来接。", "en": "One hour. Pick up at ten thirty." },
+      { "role": "You", "cn": "下雨会在室内吗？", "en": "If it rains, is it indoors?" },
+      { "role": "Coach", "cn": "对，体育馆，短信通知。", "en": "Yes, the gym. We'll text if we switch." },
+      { "role": "You", "cn": "好的，谢谢教练。", "en": "Okay. Thanks, coach." }
+    ]
+  },
+  {
+    "id": "dlg-chain-kid-08",
+    "category": "parenting",
+    "chain": {
+      "id": "parenting-day",
+      "title": "A Parent's Day with Kids",
+      "titleCn": "对话链：亲子日常一天",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Bedtime Routine",
+    "titleCn": "第8环：睡前故事",
+    "scene": "晚上你给孩子读睡前故事。（对话链：亲子）",
+    "roles": ["You", "Child"],
+    "turns": [
+      { "role": "Child", "cn": "再读一页嘛！", "en": "One more page, please!" },
+      { "role": "You", "cn": "最后一页，然后睡觉。", "en": "Last page, then sleep." },
+      { "role": "Child", "cn": "明天还能去公园吗？", "en": "Can we go to the park tomorrow?" },
+      { "role": "You", "cn": "作业做完就可以。", "en": "If homework is done." },
+      { "role": "Child", "cn": "好，晚安爸爸。", "en": "Okay. Good night, Dad." },
+      { "role": "You", "cn": "晚安，做个好梦。", "en": "Good night. Sweet dreams." }
+    ]
+  }
+]

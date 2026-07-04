@@ -5,14 +5,143 @@
     "title": "Paris in the spring",
     "titleCn": "巴黎之春",
     "scene": "小美刚从一趟欧洲旅行回来，兴奋地和同事分享。她说自己去过法国、意大利，还爬过一座著名的塔。同事好奇地追问她都做了些什么，于是引出了大量'已经完成、并对现在有影响'的经历表达。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
-      { "word": "spring", "phon": "/sprɪŋ/", "pos": "n.", "cn": "春天", "eg": "The garden is beautiful in spring. 花园在春天很美。" },
-      { "word": "already", "phon": "/ɔːlˈredi/", "pos": "adv.", "cn": "已经", "eg": "I have already finished my lunch. 我已经吃完午饭了。" },
-      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "She has never been abroad before. 她以前从没出过国。" },
-      { "word": "recently", "phon": "/ˈriːsntli/", "pos": "adv.", "cn": "最近", "eg": "We have moved to a new house recently. 我们最近搬进了新房子。" },
-      { "word": "trip", "phon": "/trɪp/", "pos": "n.", "cn": "旅行", "eg": "Their trip to the mountains was wonderful. 他们的山区之旅棒极了。" },
-      { "word": "experience", "phon": "/ɪkˈspɪəriəns/", "pos": "n.", "cn": "经历，经验", "eg": "Living in another country is a great experience. 在另一个国家生活是很棒的经历。" }
+      {
+        "word": "spring",
+        "phon": "/sprɪŋ/",
+        "pos": "n.",
+        "cn": "春天",
+        "eg": "The garden is beautiful in spring. 花园在春天很美。"
+      },
+      {
+        "word": "already",
+        "phon": "/ɔːlˈredi/",
+        "pos": "adv.",
+        "cn": "已经",
+        "eg": "I have already finished my lunch. 我已经吃完午饭了。"
+      },
+      {
+        "word": "abroad",
+        "phon": "/əˈbrɔːd/",
+        "pos": "adv.",
+        "cn": "在国外",
+        "eg": "She has never been abroad before. 她以前从没出过国。"
+      },
+      {
+        "word": "recently",
+        "phon": "/ˈriːsntli/",
+        "pos": "adv.",
+        "cn": "最近",
+        "eg": "We have moved to a new house recently. 我们最近搬进了新房子。"
+      },
+      {
+        "word": "trip",
+        "phon": "/trɪp/",
+        "pos": "n.",
+        "cn": "旅行",
+        "eg": "Their trip to the mountains was wonderful. 他们的山区之旅棒极了。"
+      },
+      {
+        "word": "experience",
+        "phon": "/ɪkˈspɪəriəns/",
+        "pos": "n.",
+        "cn": "经历，经验",
+        "eg": "Living in another country is a great experience. 在另一个国家生活是很棒的经历。"
+      },
+      {
+        "word": "hear",
+        "phon": "/hɪə/",
+        "pos": "v.",
+        "cn": "听见",
+        "eg": ""
+      },
+      {
+        "word": "enjoy",
+        "phon": "/ɪnˈdʒɔɪ/",
+        "pos": "v.",
+        "cn": "玩得快活，享受",
+        "eg": ""
+      },
+      {
+        "word": "yourself",
+        "phon": "/jɔː'self; jʊə-; jə-/",
+        "pos": "pron.",
+        "cn": "你自己",
+        "eg": ""
+      },
+      {
+        "word": "ourselves",
+        "phon": "/aʊə'selvz/",
+        "pos": "pron.",
+        "cn": "我们自己",
+        "eg": ""
+      },
+      {
+        "word": "myself",
+        "phon": "/maɪ'self/",
+        "pos": "pron.",
+        "cn": "我自己",
+        "eg": ""
+      },
+      {
+        "word": "themselves",
+        "phon": "/ð(ə)m'selvz/",
+        "pos": "pron.",
+        "cn": "他们自己",
+        "eg": ""
+      },
+      {
+        "word": "himself",
+        "phon": "/hɪm'self/",
+        "pos": "pron.",
+        "cn": "他自己",
+        "eg": ""
+      },
+      {
+        "word": "herself",
+        "phon": "/hɜː'self/",
+        "pos": "pron.",
+        "cn": "她自己",
+        "eg": ""
+      },
+      {
+        "word": "greengrocer",
+        "phon": "/'griːngrəʊsə/",
+        "pos": "n.",
+        "cn": "蔬菜水果零售商",
+        "eg": ""
+      },
+      {
+        "word": "absent",
+        "phon": "/ˈæbsənt;(for v.)əbˈsent/",
+        "pos": "a.",
+        "cn": "缺席的",
+        "eg": ""
+      },
+      {
+        "word": "Monday",
+        "phon": "/ˈmʌndeɪ; ˈmʌndi/",
+        "pos": "n.",
+        "cn": "星期一",
+        "eg": ""
+      },
+      {
+        "word": "Tuesday",
+        "phon": "/'tjuːzdeɪ; -dɪ/",
+        "pos": "n.",
+        "cn": "星期二",
+        "eg": ""
+      },
+      {
+        "word": "Wednesday",
+        "phon": "/ˈwenzdɪ/",
+        "pos": "n.",
+        "cn": "星期三",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -40,14 +169,136 @@
     "title": "A car crash",
     "titleCn": "一场车祸",
     "scene": "深夜的十字路口发生了一起碰撞。警察赶到现场，向围观的路人了解情况：事故发生的那一刻，各人正在做什么？大家七嘴八舌地回忆当时正在进行的动作，画面感十足。",
-    "grammarTags": ["过去进行时"],
+    "grammarTags": [
+      "过去进行时"
+    ],
     "words": [
-      { "word": "crash", "phon": "/kræʃ/", "pos": "n.", "cn": "碰撞，坠毁", "eg": "The car crash blocked the whole road. 那场车祸堵住了整条路。" },
-      { "word": "corner", "phon": "/ˈkɔːnə/", "pos": "n.", "cn": "拐角", "eg": "The shop is just around the corner. 那家店就在拐角处。" },
-      { "word": "suddenly", "phon": "/ˈsʌdnli/", "pos": "adv.", "cn": "突然", "eg": "The dog suddenly ran across the street. 那条狗突然跑过马路。" },
-      { "word": "driver", "phon": "/ˈdraɪvə/", "pos": "n.", "cn": "司机", "eg": "The bus driver stopped at the red light. 公交司机在红灯前停下了。" },
-      { "word": "accident", "phon": "/ˈæksɪdənt/", "pos": "n.", "cn": "事故", "eg": "Nobody was hurt in the accident. 事故中没有人受伤。" },
-      { "word": "cross", "phon": "/krɒs/", "pos": "v.", "cn": "穿过", "eg": "Be careful when you cross the road. 过马路时要小心。" }
+      {
+        "word": "crash",
+        "phon": "/kræʃ/",
+        "pos": "n.",
+        "cn": "碰撞，坠毁",
+        "eg": "The car crash blocked the whole road. 那场车祸堵住了整条路。"
+      },
+      {
+        "word": "corner",
+        "phon": "/ˈkɔːnə/",
+        "pos": "n.",
+        "cn": "拐角",
+        "eg": "The shop is just around the corner. 那家店就在拐角处。"
+      },
+      {
+        "word": "suddenly",
+        "phon": "/ˈsʌdnli/",
+        "pos": "adv.",
+        "cn": "突然",
+        "eg": "The dog suddenly ran across the street. 那条狗突然跑过马路。"
+      },
+      {
+        "word": "driver",
+        "phon": "/ˈdraɪvə/",
+        "pos": "n.",
+        "cn": "司机",
+        "eg": "The bus driver stopped at the red light. 公交司机在红灯前停下了。"
+      },
+      {
+        "word": "accident",
+        "phon": "/ˈæksɪdənt/",
+        "pos": "n.",
+        "cn": "事故",
+        "eg": "Nobody was hurt in the accident. 事故中没有人受伤。"
+      },
+      {
+        "word": "cross",
+        "phon": "/krɒs/",
+        "pos": "v.",
+        "cn": "穿过",
+        "eg": "Be careful when you cross the road. 过马路时要小心。"
+      },
+      {
+        "word": "Thursday",
+        "phon": "/'θɜːzdeɪ; -dɪ/",
+        "pos": "",
+        "cn": "星期四",
+        "eg": ""
+      },
+      {
+        "word": "keep",
+        "phon": "/kiːp/",
+        "pos": "v.",
+        "cn": "(身体健康)处于(状况)",
+        "eg": ""
+      },
+      {
+        "word": "spend",
+        "phon": "/spend/",
+        "pos": "v.",
+        "cn": "度过，花费",
+        "eg": ""
+      },
+      {
+        "word": "weekend",
+        "phon": "/wiːkˈɛnd/",
+        "pos": "n.",
+        "cn": "周末",
+        "eg": ""
+      },
+      {
+        "word": "Friday",
+        "phon": "/'fraidi/",
+        "pos": "n.",
+        "cn": "星期五",
+        "eg": ""
+      },
+      {
+        "word": "Saturday",
+        "phon": "/ˈsætədɪ; -deɪ/",
+        "pos": "n.",
+        "cn": "星期六",
+        "eg": ""
+      },
+      {
+        "word": "Sunday",
+        "phon": "/ˈsʌndeɪ; ˈsʌndi/",
+        "pos": "n.",
+        "cn": "星期日",
+        "eg": ""
+      },
+      {
+        "word": "country",
+        "phon": "/'kʌntrɪ/",
+        "pos": "n.",
+        "cn": "乡村",
+        "eg": ""
+      },
+      {
+        "word": "lucky",
+        "phon": "/'lʌkɪ/",
+        "pos": "a.",
+        "cn": "幸运的",
+        "eg": ""
+      },
+      {
+        "word": "church",
+        "phon": "/tʃɜːtʃ/",
+        "pos": "n.",
+        "cn": "教堂",
+        "eg": ""
+      },
+      {
+        "word": "dairy",
+        "phon": "/'deri/",
+        "pos": "n.",
+        "cn": "乳品店",
+        "eg": ""
+      },
+      {
+        "word": "baker",
+        "phon": "/'beɪkə/",
+        "pos": "n.",
+        "cn": "面包师傅",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -75,14 +326,143 @@
     "title": "For sale",
     "titleCn": "待售",
     "scene": "老张想把用了多年的旧车卖掉，在网上登了广告。有位买家打来电话，仔细询问这辆车：开了多久、修过没有、跑了多少公里。老张一一回答，话里全是'从过去持续到现在'的完成时表达。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
-      { "word": "sale", "phon": "/seɪl/", "pos": "n.", "cn": "出售", "eg": "The old house is for sale now. 那座老房子现在正在出售。" },
-      { "word": "owner", "phon": "/ˈəʊnə/", "pos": "n.", "cn": "物主，所有者", "eg": "The owner of the dog lives next door. 这条狗的主人住在隔壁。" },
-      { "word": "engine", "phon": "/ˈendʒɪn/", "pos": "n.", "cn": "发动机", "eg": "The engine of this car is still strong. 这辆车的发动机依然很有力。" },
-      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "He repaired my bike last week. 他上周修好了我的自行车。" },
-      { "word": "since", "phon": "/sɪns/", "pos": "prep.", "cn": "自从", "eg": "I have known her since 2015. 我从2015年就认识她了。" },
-      { "word": "price", "phon": "/praɪs/", "pos": "n.", "cn": "价格", "eg": "The price of the phone is too high. 这部手机的价格太高了。" }
+      {
+        "word": "sale",
+        "phon": "/seɪl/",
+        "pos": "n.",
+        "cn": "出售",
+        "eg": "The old house is for sale now. 那座老房子现在正在出售。"
+      },
+      {
+        "word": "owner",
+        "phon": "/ˈəʊnə/",
+        "pos": "n.",
+        "cn": "物主，所有者",
+        "eg": "The owner of the dog lives next door. 这条狗的主人住在隔壁。"
+      },
+      {
+        "word": "engine",
+        "phon": "/ˈendʒɪn/",
+        "pos": "n.",
+        "cn": "发动机",
+        "eg": "The engine of this car is still strong. 这辆车的发动机依然很有力。"
+      },
+      {
+        "word": "repair",
+        "phon": "/rɪˈpeə/",
+        "pos": "v.",
+        "cn": "修理",
+        "eg": "He repaired my bike last week. 他上周修好了我的自行车。"
+      },
+      {
+        "word": "since",
+        "phon": "/sɪns/",
+        "pos": "prep.",
+        "cn": "自从",
+        "eg": "I have known her since 2015. 我从2015年就认识她了。"
+      },
+      {
+        "word": "price",
+        "phon": "/praɪs/",
+        "pos": "n.",
+        "cn": "价格",
+        "eg": "The price of the phone is too high. 这部手机的价格太高了。"
+      },
+      {
+        "word": "grocer",
+        "phon": "/'grəʊsə/",
+        "pos": "n.",
+        "cn": "食品杂货商",
+        "eg": ""
+      },
+      {
+        "word": "year",
+        "phon": "/jɪə; jɜː/",
+        "pos": "n.",
+        "cn": "年",
+        "eg": ""
+      },
+      {
+        "word": "race",
+        "phon": "/reɪs/",
+        "pos": "n.",
+        "cn": "比赛",
+        "eg": ""
+      },
+      {
+        "word": "town",
+        "phon": "/taʊn/",
+        "pos": "n.",
+        "cn": "城镇",
+        "eg": ""
+      },
+      {
+        "word": "crowd",
+        "phon": "/kraʊd/",
+        "pos": "n.",
+        "cn": "人群",
+        "eg": ""
+      },
+      {
+        "word": "stand",
+        "phon": "/stænd/",
+        "pos": "v.",
+        "cn": "站立",
+        "eg": ""
+      },
+      {
+        "word": "exciting",
+        "phon": "/ɪk'saɪtɪŋ; ek-/",
+        "pos": "a.",
+        "cn": "使人激动的",
+        "eg": ""
+      },
+      {
+        "word": "just",
+        "phon": "/dʒʌst/",
+        "pos": "adv.",
+        "cn": "正好，恰好",
+        "eg": "Because I've just retired."
+      },
+      {
+        "word": "finish",
+        "phon": "/'fɪnɪʃ/",
+        "pos": "n.",
+        "cn": "结尾，结束",
+        "eg": ""
+      },
+      {
+        "word": "winner",
+        "phon": "/'wɪnə/",
+        "pos": "n.",
+        "cn": "获胜者",
+        "eg": ""
+      },
+      {
+        "word": "behind",
+        "phon": "/bɪ'haɪnd/",
+        "pos": "prop.",
+        "cn": "在…之后",
+        "eg": ""
+      },
+      {
+        "word": "way",
+        "phon": "/weɪ/",
+        "pos": "n.",
+        "cn": "路途",
+        "eg": ""
+      },
+      {
+        "word": "awful",
+        "phon": "/'ɔːfʊl/",
+        "pos": "adv.",
+        "cn": "让人讨厌的，坏的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -110,14 +490,136 @@
     "title": "Poor Ian",
     "titleCn": "可怜的伊恩",
     "scene": "朋友们约好一起去看伊恩的新公寓，可到了门口才发现他不在家。原来伊恩刚把公寓卖掉、搬走了！大家一边惊讶一边感叹，反复用到'已经离开、已经去过'这类完成时的表达。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
-      { "word": "poor", "phon": "/pʊə/", "pos": "adj.", "cn": "可怜的；贫穷的", "eg": "Poor Tom lost his keys again. 可怜的汤姆又丢了钥匙。" },
-      { "word": "flat", "phon": "/flæt/", "pos": "n.", "cn": "公寓", "eg": "They rented a small flat near the park. 他们在公园附近租了一间小公寓。" },
-      { "word": "move", "phon": "/muːv/", "pos": "v.", "cn": "搬家；移动", "eg": "We moved to another city last month. 我们上个月搬到了另一座城市。" },
-      { "word": "gone", "phon": "/ɡɒn/", "pos": "v.", "cn": "go 的过去分词", "eg": "He has gone to the airport. 他已经去机场了（还没回来）。" },
-      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "The room was completely empty. 那房间空空如也。" },
-      { "word": "address", "phon": "/əˈdres/", "pos": "n.", "cn": "地址", "eg": "Please write your address here. 请把你的地址写在这里。" }
+      {
+        "word": "poor",
+        "phon": "/pʊə/",
+        "pos": "adj.",
+        "cn": "可怜的；贫穷的",
+        "eg": "Poor Tom lost his keys again. 可怜的汤姆又丢了钥匙。"
+      },
+      {
+        "word": "flat",
+        "phon": "/flæt/",
+        "pos": "n.",
+        "cn": "公寓",
+        "eg": "They rented a small flat near the park. 他们在公园附近租了一间小公寓。"
+      },
+      {
+        "word": "move",
+        "phon": "/muːv/",
+        "pos": "v.",
+        "cn": "搬家；移动",
+        "eg": "We moved to another city last month. 我们上个月搬到了另一座城市。"
+      },
+      {
+        "word": "gone",
+        "phon": "/ɡɒn/",
+        "pos": "v.",
+        "cn": "go 的过去分词",
+        "eg": "He has gone to the airport. 他已经去机场了（还没回来）。"
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈempti/",
+        "pos": "adj.",
+        "cn": "空的",
+        "eg": "The room was completely empty. 那房间空空如也。"
+      },
+      {
+        "word": "address",
+        "phon": "/əˈdres/",
+        "pos": "n.",
+        "cn": "地址",
+        "eg": "Please write your address here. 请把你的地址写在这里。"
+      },
+      {
+        "word": "telephone",
+        "phon": "/'telɪfəʊn/",
+        "pos": "v.",
+        "cn": "& n.打电话",
+        "eg": ""
+      },
+      {
+        "word": "time",
+        "phon": "/taɪm/",
+        "pos": "n.",
+        "cn": "次(数)，时间",
+        "eg": ""
+      },
+      {
+        "word": "answer",
+        "phon": "/'ɑːnsə/",
+        "pos": "v.",
+        "cn": "接(电话)，回答",
+        "eg": ""
+      },
+      {
+        "word": "last",
+        "phon": "/lɑːst/",
+        "pos": "a.",
+        "cn": "最后的，前一次的",
+        "eg": "He sold it last week."
+      },
+      {
+        "word": "phone",
+        "phon": "/fəʊn/",
+        "pos": "n.",
+        "cn": "电话(=telephone)",
+        "eg": ""
+      },
+      {
+        "word": "again",
+        "phon": "/ə'gen; ə'geɪn/",
+        "pos": "adv.",
+        "cn": "又一次地",
+        "eg": ""
+      },
+      {
+        "word": "say",
+        "phon": "/seɪ/",
+        "pos": "v.",
+        "cn": "说",
+        "eg": ""
+      },
+      {
+        "word": "week",
+        "phon": "/wiːk/",
+        "pos": "n.",
+        "cn": "周",
+        "eg": "He sold it last week."
+      },
+      {
+        "word": "London",
+        "phon": "/ˈlʌndən/",
+        "pos": "n.",
+        "cn": "伦敦",
+        "eg": ""
+      },
+      {
+        "word": "suddenly",
+        "phon": "/ˈsʌdnlɪ/",
+        "pos": "adv.",
+        "cn": "突然地",
+        "eg": ""
+      },
+      {
+        "word": "bus stop",
+        "phon": "/'bʌstɔp/",
+        "pos": "",
+        "cn": "公共汽车车站",
+        "eg": ""
+      },
+      {
+        "word": "smile",
+        "phon": "/smaɪl/",
+        "pos": "v.",
+        "cn": "微笑",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -145,14 +647,143 @@
     "title": "Our new neighbour",
     "titleCn": "我们的新邻居",
     "scene": "小区里搬来了一户新邻居。有人透过窗户看见他们正忙着搬家具、粉刷墙壁。邻居们聚在一起议论：这家人打算怎么装修？准备种什么花？处处是对'将来的打算'的猜测。",
-    "grammarTags": ["一般将来时"],
+    "grammarTags": [
+      "一般将来时"
+    ],
     "words": [
-      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Our new neighbour is very friendly. 我们的新邻居非常友好。" },
-      { "word": "paint", "phon": "/peɪnt/", "pos": "v.", "cn": "粉刷，油漆", "eg": "They are going to paint the door blue. 他们打算把门刷成蓝色。" },
-      { "word": "garden", "phon": "/ˈɡɑːdn/", "pos": "n.", "cn": "花园", "eg": "She grows roses in her garden. 她在花园里种玫瑰。" },
-      { "word": "plan", "phon": "/plæn/", "pos": "v.", "cn": "计划", "eg": "We plan to visit them next weekend. 我们打算下周末去看他们。" },
-      { "word": "wall", "phon": "/wɔːl/", "pos": "n.", "cn": "墙", "eg": "There is a big picture on the wall. 墙上有一幅大画。" },
-      { "word": "furniture", "phon": "/ˈfɜːnɪtʃə/", "pos": "n.", "cn": "家具", "eg": "They bought new furniture for the flat. 他们为公寓买了新家具。" }
+      {
+        "word": "neighbour",
+        "phon": "/ˈneɪbə/",
+        "pos": "n.",
+        "cn": "邻居",
+        "eg": "Our new neighbour is very friendly. 我们的新邻居非常友好。"
+      },
+      {
+        "word": "paint",
+        "phon": "/peɪnt/",
+        "pos": "v.",
+        "cn": "粉刷，油漆",
+        "eg": "They are going to paint the door blue. 他们打算把门刷成蓝色。"
+      },
+      {
+        "word": "garden",
+        "phon": "/ˈɡɑːdn/",
+        "pos": "n.",
+        "cn": "花园",
+        "eg": "She grows roses in her garden. 她在花园里种玫瑰。"
+      },
+      {
+        "word": "plan",
+        "phon": "/plæn/",
+        "pos": "v.",
+        "cn": "计划",
+        "eg": "We plan to visit them next weekend. 我们打算下周末去看他们。"
+      },
+      {
+        "word": "wall",
+        "phon": "/wɔːl/",
+        "pos": "n.",
+        "cn": "墙",
+        "eg": "There is a big picture on the wall. 墙上有一幅大画。"
+      },
+      {
+        "word": "furniture",
+        "phon": "/ˈfɜːnɪtʃə/",
+        "pos": "n.",
+        "cn": "家具",
+        "eg": "They bought new furniture for the flat. 他们为公寓买了新家具。"
+      },
+      {
+        "word": "pleasantly",
+        "phon": "/'plezntli/",
+        "pos": "adv.",
+        "cn": "愉快地",
+        "eg": ""
+      },
+      {
+        "word": "understand",
+        "phon": "/ʌndə'stænd/",
+        "pos": "v.",
+        "cn": "懂，明白",
+        "eg": ""
+      },
+      {
+        "word": "speak",
+        "phon": "/spiːk/",
+        "pos": "v.",
+        "cn": "讲，说",
+        "eg": ""
+      },
+      {
+        "word": "hand",
+        "phon": "/hænd/",
+        "pos": "n.",
+        "cn": "手",
+        "eg": ""
+      },
+      {
+        "word": "pocket",
+        "phon": "/'pɒkɪt/",
+        "pos": "n.",
+        "cn": "衣袋",
+        "eg": ""
+      },
+      {
+        "word": "phrasebook",
+        "phon": "",
+        "pos": "n.",
+        "cn": "短语手册， 常用语手册",
+        "eg": ""
+      },
+      {
+        "word": "phrase",
+        "phon": "/freɪz/",
+        "pos": "n.",
+        "cn": "短语",
+        "eg": ""
+      },
+      {
+        "word": "slowly",
+        "phon": "/'sləʊlɪ/",
+        "pos": "adv.",
+        "cn": "缓慢地",
+        "eg": ""
+      },
+      {
+        "word": "hurriedly",
+        "phon": "/'hʌridli/",
+        "pos": "adv.",
+        "cn": "匆忙地",
+        "eg": ""
+      },
+      {
+        "word": "cut",
+        "phon": "/kʌt/",
+        "pos": "v.",
+        "cn": "割，切",
+        "eg": ""
+      },
+      {
+        "word": "thirstily",
+        "phon": "/'θə:stili/",
+        "pos": "adv.",
+        "cn": "口渴地",
+        "eg": ""
+      },
+      {
+        "word": "go",
+        "phon": "/gəʊ/",
+        "pos": "v.",
+        "cn": "走",
+        "eg": ""
+      },
+      {
+        "word": "greet",
+        "phon": "/griːt/",
+        "pos": "v.",
+        "cn": "问候，找招呼",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -180,14 +811,136 @@
     "title": "Tickets, please",
     "titleCn": "请出示车票",
     "scene": "火车快到站了，列车员挨个检票。一位乘客翻遍口袋也找不到车票，急得满头大汗，一边解释一边说自己打算下车后马上去补票。乘务员则告诉他接下来将会怎么处理。",
-    "grammarTags": ["一般将来时"],
+    "grammarTags": [
+      "一般将来时"
+    ],
     "words": [
-      { "word": "ticket", "phon": "/ˈtɪkɪt/", "pos": "n.", "cn": "票", "eg": "I bought two tickets for the concert. 我买了两张音乐会的票。" },
-      { "word": "platform", "phon": "/ˈplætfɔːm/", "pos": "n.", "cn": "站台", "eg": "The train leaves from platform three. 火车从三号站台发车。" },
-      { "word": "passenger", "phon": "/ˈpæsɪndʒə/", "pos": "n.", "cn": "乘客", "eg": "Every passenger must show a ticket. 每位乘客都必须出示车票。" },
-      { "word": "collect", "phon": "/kəˈlekt/", "pos": "v.", "cn": "收取；收集", "eg": "The man collects tickets at the gate. 那个人在门口收票。" },
-      { "word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达", "eg": "The train will arrive at noon. 火车将在中午到达。" },
-      { "word": "station", "phon": "/ˈsteɪʃn/", "pos": "n.", "cn": "车站", "eg": "I will meet you at the station. 我会在车站接你。" }
+      {
+        "word": "ticket",
+        "phon": "/ˈtɪkɪt/",
+        "pos": "n.",
+        "cn": "票",
+        "eg": "I bought two tickets for the concert. 我买了两张音乐会的票。"
+      },
+      {
+        "word": "platform",
+        "phon": "/ˈplætfɔːm/",
+        "pos": "n.",
+        "cn": "站台",
+        "eg": "The train leaves from platform three. 火车从三号站台发车。"
+      },
+      {
+        "word": "passenger",
+        "phon": "/ˈpæsɪndʒə/",
+        "pos": "n.",
+        "cn": "乘客",
+        "eg": "Every passenger must show a ticket. 每位乘客都必须出示车票。"
+      },
+      {
+        "word": "collect",
+        "phon": "/kəˈlekt/",
+        "pos": "v.",
+        "cn": "收取；收集",
+        "eg": "The man collects tickets at the gate. 那个人在门口收票。"
+      },
+      {
+        "word": "arrive",
+        "phon": "/əˈraɪv/",
+        "pos": "v.",
+        "cn": "到达",
+        "eg": "The train will arrive at noon. 火车将在中午到达。"
+      },
+      {
+        "word": "station",
+        "phon": "/ˈsteɪʃn/",
+        "pos": "n.",
+        "cn": "车站",
+        "eg": "I will meet you at the station. 我会在车站接你。"
+      },
+      {
+        "word": "ago",
+        "phon": "/ə'gəʊ/",
+        "pos": "adv.",
+        "cn": "以前",
+        "eg": ""
+      },
+      {
+        "word": "buy",
+        "phon": "/baɪ/",
+        "pos": "v.",
+        "cn": "买",
+        "eg": ""
+      },
+      {
+        "word": "pair",
+        "phon": "/peə/",
+        "pos": "n.",
+        "cn": "双，对",
+        "eg": ""
+      },
+      {
+        "word": "fashion",
+        "phon": "/'fæʃ(ə)n/",
+        "pos": "n.",
+        "cn": "(服装的)流行式样",
+        "eg": ""
+      },
+      {
+        "word": "uncomfortable",
+        "phon": "/ʌn'kʌmf(ə)təb(ə)l/",
+        "pos": "a.",
+        "cn": "不舒服的",
+        "eg": ""
+      },
+      {
+        "word": "wear",
+        "phon": "/weə/",
+        "pos": "v.",
+        "cn": "穿着",
+        "eg": ""
+      },
+      {
+        "word": "appointment",
+        "phon": "/ə'pɔɪntmənt/",
+        "pos": "n.",
+        "cn": "约会，预约",
+        "eg": ""
+      },
+      {
+        "word": "urgent",
+        "phon": "/'ɜːrdʒənt/",
+        "pos": "a.",
+        "cn": "紧急的，急迫的",
+        "eg": ""
+      },
+      {
+        "word": "till",
+        "phon": "/tɪl/",
+        "pos": "prep.",
+        "cn": "直到…为",
+        "eg": ""
+      },
+      {
+        "word": "shopping",
+        "phon": "/'ʃɒpɪŋ/",
+        "pos": "n.",
+        "cn": "购物",
+        "eg": ""
+      },
+      {
+        "word": "list",
+        "phon": "/lɪst/",
+        "pos": "n.",
+        "cn": "单子",
+        "eg": ""
+      },
+      {
+        "word": "vegetable",
+        "phon": "/ˈvedʒtəbl/",
+        "pos": "n.",
+        "cn": "蔬菜",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -215,14 +968,143 @@
     "title": "A small blue case",
     "titleCn": "一个蓝色的小箱子",
     "scene": "机场的失物招领处，一位女士在寻找丢失的行李。工作人员请她描述箱子的样子：什么颜色、多大、什么材质、里面装了什么。女士仔细回忆昨天离开时的情形，一连串描述性的形容词脱口而出。",
-    "grammarTags": ["一般过去时"],
+    "grammarTags": [
+      "一般过去时"
+    ],
     "words": [
-      { "word": "case", "phon": "/keɪs/", "pos": "n.", "cn": "箱子，盒子", "eg": "She put the books in a small case. 她把书装进一个小箱子里。" },
-      { "word": "leather", "phon": "/ˈleðə/", "pos": "n.", "cn": "皮革", "eg": "This bag is made of leather. 这个包是皮革做的。" },
-      { "word": "lose", "phon": "/luːz/", "pos": "v.", "cn": "丢失", "eg": "I lost my umbrella on the bus. 我把伞丢在公交车上了。" },
-      { "word": "describe", "phon": "/dɪˈskraɪb/", "pos": "v.", "cn": "描述", "eg": "Can you describe the man you saw? 你能描述一下你看到的那个人吗？" },
-      { "word": "handle", "phon": "/ˈhændl/", "pos": "n.", "cn": "把手", "eg": "The handle of the case is broken. 箱子的把手坏了。" },
-      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "归还；返回", "eg": "They returned the lost bag to her. 他们把丢失的包还给了她。" }
+      {
+        "word": "case",
+        "phon": "/keɪs/",
+        "pos": "n.",
+        "cn": "箱子，盒子",
+        "eg": "She put the books in a small case. 她把书装进一个小箱子里。"
+      },
+      {
+        "word": "leather",
+        "phon": "/ˈleðə/",
+        "pos": "n.",
+        "cn": "皮革",
+        "eg": "This bag is made of leather. 这个包是皮革做的。"
+      },
+      {
+        "word": "lose",
+        "phon": "/luːz/",
+        "pos": "v.",
+        "cn": "丢失",
+        "eg": "I lost my umbrella on the bus. 我把伞丢在公交车上了。"
+      },
+      {
+        "word": "describe",
+        "phon": "/dɪˈskraɪb/",
+        "pos": "v.",
+        "cn": "描述",
+        "eg": "Can you describe the man you saw? 你能描述一下你看到的那个人吗？"
+      },
+      {
+        "word": "handle",
+        "phon": "/ˈhændl/",
+        "pos": "n.",
+        "cn": "把手",
+        "eg": "The handle of the case is broken. 箱子的把手坏了。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v.",
+        "cn": "归还；返回",
+        "eg": "They returned the lost bag to her. 他们把丢失的包还给了她。"
+      },
+      {
+        "word": "need",
+        "phon": "/niːd/",
+        "pos": "v.",
+        "cn": "需要",
+        "eg": ""
+      },
+      {
+        "word": "hope",
+        "phon": "/həʊp/",
+        "pos": "v.",
+        "cn": "希望",
+        "eg": ""
+      },
+      {
+        "word": "thing",
+        "phon": "/θɪŋ/",
+        "pos": "n.",
+        "cn": "事情",
+        "eg": ""
+      },
+      {
+        "word": "money",
+        "phon": "/'mʌnɪ/",
+        "pos": "n.",
+        "cn": "钱",
+        "eg": ""
+      },
+      {
+        "word": "groceries",
+        "phon": "/'grəʊs(ə)rɪz/",
+        "pos": "n.",
+        "cn": "食品杂货",
+        "eg": ""
+      },
+      {
+        "word": "fruit",
+        "phon": "/fruːt/",
+        "pos": "n.",
+        "cn": "水果",
+        "eg": ""
+      },
+      {
+        "word": "stationery",
+        "phon": "/'steɪʃ(ə)n(ə)rɪ/",
+        "pos": "n.",
+        "cn": "文具",
+        "eg": ""
+      },
+      {
+        "word": "newsagent",
+        "phon": "/'njuːzˌeidʒənt/",
+        "pos": "n.",
+        "cn": "报刊经销人",
+        "eg": ""
+      },
+      {
+        "word": "chemist",
+        "phon": "/'kemɪst/",
+        "pos": "n.",
+        "cn": "化剂师，化学",
+        "eg": ""
+      },
+      {
+        "word": "bath",
+        "phon": "/bɑːθ/",
+        "pos": "n.",
+        "cn": "洗澡",
+        "eg": ""
+      },
+      {
+        "word": "nearly",
+        "phon": "/'nɪəlɪ/",
+        "pos": "adv.",
+        "cn": "几乎，将近",
+        "eg": ""
+      },
+      {
+        "word": "ready",
+        "phon": "/'redɪ/",
+        "pos": "a.",
+        "cn": "准备好的，完好的",
+        "eg": ""
+      },
+      {
+        "word": "dinner",
+        "phon": "/'dɪnə/",
+        "pos": "n.",
+        "cn": "正餐，晚餐",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

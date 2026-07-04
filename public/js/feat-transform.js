@@ -27,6 +27,13 @@
       '.tf-chips{display:flex;gap:8px;flex-wrap:wrap}' +
       '.tf-chip{padding:7px 14px;border:1px solid #cfd6e6;border-radius:999px;background:#fff;cursor:pointer;font-size:14px;color:#223}' +
       '.tf-chip.active{background:#2b57d6;border-color:#2b57d6;color:#fff}' +
+      '.tf-chip.muted{opacity:.45;cursor:not-allowed}' +
+      '.tf-chip.covered{border-style:dashed}' +
+      '.tf-cambridge{font-size:12px;color:#5b6b8a;background:#f0f4ff;border:1px solid #dbe4ff;border-radius:8px;padding:4px 10px;margin-left:8px}' +
+      '.tf-mode{display:flex;gap:6px;margin-bottom:4px}' +
+      '.tf-mode .tf-chip{font-size:13px;padding:5px 12px}' +
+      '.tf-unit-group{width:100%;margin:4px 0 8px}' +
+      '.tf-unit-sec{font-size:12px;color:#889;font-weight:600;margin:8px 0 4px}' +
       '.tf-select{padding:8px 10px;border:1px solid #ccd;border-radius:8px;font-size:15px}' +
       '.tf-btn{padding:9px 16px;border:1px solid #cfd6e6;border-radius:8px;background:#fff;cursor:pointer;font-size:15px;color:#223}' +
       '.tf-btn:hover{background:#f0f3fb}' +
@@ -50,6 +57,7 @@
       '.tf-verdict.ok{color:#178a3a}' +
       '.tf-verdict.bad{color:#d12f2f}' +
       '.tf-answer{margin-top:8px;padding:8px 12px;background:#f6f8fc;border-radius:8px;font-size:15px;color:#345}' +
+      '.tf-cn{margin-top:4px;padding-top:4px;border-top:1px dashed #dbe2ef;color:#67718a;font-size:14px}' +
       '.tf-expl{margin-top:8px;padding:8px 12px;background:#fffaf0;border:1px solid #f4e6c8;border-radius:8px;font-size:14px;color:#654}' +
       '.tf-hint{color:#889;font-size:13px;margin:6px 0}' +
       '.tf-link-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}' +
@@ -79,7 +87,7 @@
 
     var hist = document.createElement('div');
     hist.className = 'tf-hist';
-    hist.innerHTML = '🔀 <b>句型转换</b> —— 先把中文译成英文，再依次改一般疑问句、否定句，并对句子成分提问。';
+    hist.innerHTML = '🔀 <b>句型转换</b> —— 中译英后依次改疑问/否定/提问；练习链参考《剑桥初级/中级英语语法》单元编排，可与教材同步强化。';
     wrap.appendChild(hist);
     // 累计成绩（按当前档案）
     NCE.api('/api/transform/stats')
@@ -92,10 +100,18 @@
       })
       .catch(function () {});
 
-    // 选择区：册数 chips + 题量 + 随机
+    // 选择区：册数 + 筛选模式 + 语法点/剑桥单元 + 题量
     var setup = document.createElement('div');
     setup.innerHTML =
       '<div class="tf-row"><label style="font-size:15px">选择册数：</label><span class="tf-chips" id="tf-books"></span></div>' +
+      '<div class="tf-row" id="tf-filter-row" style="display:none">' +
+      '<label style="font-size:15px">筛选：</label>' +
+      '<span class="tf-mode tf-chips" id="tf-mode">' +
+      '<button type="button" class="tf-chip active" data-mode="grammar">语法点</button>' +
+      '<button type="button" class="tf-chip" data-mode="cambridge">剑桥单元</button>' +
+      '</span></div>' +
+      '<div class="tf-row" id="tf-grammar-row" style="display:none"><label style="font-size:15px">语法点：</label><span class="tf-chips" id="tf-grammar"></span></div>' +
+      '<div class="tf-row" id="tf-cambridge-row" style="display:none"><div id="tf-cambridge" style="width:100%"></div></div>' +
       '<div class="tf-row">' +
       '<label style="font-size:15px">句数：</label>' +
       '<select class="tf-select" id="tf-limit"><option value="5" selected>5 句</option><option value="10">10 句</option><option value="0">全部</option></select>' +
@@ -108,11 +124,147 @@
     wrap.appendChild(stage);
 
     var booksBox = setup.querySelector('#tf-books');
+    var filterRow = setup.querySelector('#tf-filter-row');
+    var modeBox = setup.querySelector('#tf-mode');
+    var grammarRow = setup.querySelector('#tf-grammar-row');
+    var grammarBox = setup.querySelector('#tf-grammar');
+    var cambridgeRow = setup.querySelector('#tf-cambridge-row');
+    var cambridgeBox = setup.querySelector('#tf-cambridge');
     var startBtn = setup.querySelector('#tf-start');
     var curBook = '';
+    var curGrammar = '';
+    var curCambridgeUnit = '';
+    var filterMode = 'grammar';
+    var quizGrammarByBook = {};
+    var tfGrammarByBook = {};
+    var cambridgeByBook = {};
 
-    NCE.api('/api/transform/meta')
-      .then(function (m) {
+    function renderFilterPanels() {
+      if (!curBook) {
+        filterRow.style.display = 'none';
+        grammarRow.style.display = 'none';
+        cambridgeRow.style.display = 'none';
+        curGrammar = '';
+        curCambridgeUnit = '';
+        return;
+      }
+      filterRow.style.display = '';
+      if (filterMode === 'grammar') {
+        grammarRow.style.display = '';
+        cambridgeRow.style.display = 'none';
+        curCambridgeUnit = '';
+        renderGrammarChips();
+      } else {
+        grammarRow.style.display = 'none';
+        cambridgeRow.style.display = '';
+        curGrammar = '';
+        renderCambridgeChips();
+      }
+    }
+
+    function renderGrammarChips() {
+      if (!curBook) {
+        grammarRow.style.display = 'none';
+        grammarBox.innerHTML = '';
+        curGrammar = '';
+        return;
+      }
+      var list = quizGrammarByBook[curBook] || tfGrammarByBook[curBook] || [];
+      var covered = new Set(tfGrammarByBook[curBook] || []);
+      if (!list.length) {
+        grammarRow.style.display = 'none';
+        grammarBox.innerHTML = '';
+        curGrammar = '';
+        return;
+      }
+      grammarRow.style.display = '';
+      grammarBox.innerHTML = '';
+      var all = document.createElement('button');
+      all.type = 'button';
+      all.className = 'tf-chip' + (curGrammar === '' ? ' active' : '');
+      all.textContent = '全部语法';
+      all.dataset.grammar = '';
+      grammarBox.appendChild(all);
+      list.forEach(function (tag) {
+        var c = document.createElement('button');
+        c.type = 'button';
+        c.className = 'tf-chip' + (curGrammar === tag ? ' active' : '') + (covered.has(tag) ? '' : ' muted');
+        c.textContent = tag;
+        c.dataset.grammar = tag;
+        c.title = covered.has(tag) ? '' : '该语法点暂无句型转换';
+        if (!covered.has(tag)) c.disabled = true;
+        grammarBox.appendChild(c);
+      });
+      grammarBox.querySelectorAll('.tf-chip').forEach(function (c) {
+        c.onclick = function () {
+          if (c.disabled) return;
+          grammarBox.querySelectorAll('.tf-chip').forEach(function (x) {
+            x.classList.toggle('active', x === c);
+          });
+          curGrammar = c.dataset.grammar;
+        };
+      });
+    }
+
+    function renderCambridgeChips() {
+      var info = cambridgeByBook[curBook];
+      if (!info || !info.sections || !info.sections.length) {
+        cambridgeBox.innerHTML = '<span class="tf-hint">暂无剑桥单元对照</span>';
+        return;
+      }
+      var covMap = {};
+      (info.coverage || []).forEach(function (c) { covMap[c.unit] = c.count; });
+      var html = '<div class="tf-unit-group"><span class="tf-chips">' +
+        '<button type="button" class="tf-chip' + (curCambridgeUnit === '' ? ' active' : '') + '" data-unit="">全部单元</button>' +
+        '</span></div>';
+      info.sections.forEach(function (sec) {
+        html += '<div class="tf-unit-group"><div class="tf-unit-sec">' + NCE.escapeHtml(sec.titleCn) + '</div><span class="tf-chips">';
+        (sec.units || []).forEach(function (u) {
+          var cnt = covMap[u.unit] || 0;
+          var active = String(curCambridgeUnit) === String(u.unit);
+          var cls = 'tf-chip' + (active ? ' active' : '') + (cnt ? '' : ' muted');
+          html += '<button type="button" class="' + cls + '" data-unit="' + u.unit + '"' +
+            (cnt ? '' : ' disabled') + ' title="' + NCE.escapeAttr(u.title) + '">' +
+            'U' + u.unit + ' ' + NCE.escapeHtml(u.titleCn) + (cnt ? ' ·' + cnt : '') + '</button>';
+        });
+        html += '</span></div>';
+      });
+      if (info.levelTitle) {
+        html = '<div class="tf-hint" style="margin-bottom:6px">📘 ' + NCE.escapeHtml(info.levelTitle) +
+          (info.levelSubtitle ? '（' + NCE.escapeHtml(info.levelSubtitle) + '）' : '') + '</div>' + html;
+      }
+      cambridgeBox.innerHTML = html;
+      cambridgeBox.querySelectorAll('.tf-chip').forEach(function (c) {
+        c.onclick = function () {
+          if (c.disabled) return;
+          cambridgeBox.querySelectorAll('.tf-chip').forEach(function (x) {
+            x.classList.toggle('active', x === c);
+          });
+          curCambridgeUnit = c.dataset.unit;
+        };
+      });
+    }
+
+    modeBox.querySelectorAll('.tf-chip').forEach(function (btn) {
+      btn.onclick = function () {
+        filterMode = btn.dataset.mode;
+        modeBox.querySelectorAll('.tf-chip').forEach(function (x) {
+          x.classList.toggle('active', x === btn);
+        });
+        renderFilterPanels();
+      };
+    });
+
+    Promise.all([
+      NCE.api('/api/transform/meta'),
+      NCE.api('/api/meta').catch(function () { return {}; }),
+    ])
+      .then(function (res) {
+        var m = res[0];
+        var meta = res[1] || {};
+        quizGrammarByBook = meta.grammarByBook || {};
+        tfGrammarByBook = (m && m.grammarByBook) || {};
+        cambridgeByBook = (m && m.cambridgeByBook) || {};
         var byBook = (m && m.byBook) || {};
         var books = Object.keys(byBook).sort();
         if (!books.length) {
@@ -135,8 +287,12 @@
           c.onclick = function () {
             booksBox.querySelectorAll('.tf-chip').forEach(function (x) { x.classList.toggle('active', x === c); });
             curBook = c.dataset.book;
+            curGrammar = '';
+            curCambridgeUnit = '';
+            renderFilterPanels();
           };
         });
+        renderFilterPanels();
         startBtn.disabled = false;
       })
       .catch(function (e) {
@@ -148,6 +304,8 @@
       var limit = setup.querySelector('#tf-limit').value;
       var random = setup.querySelector('#tf-random').checked;
       var qs = '?limit=' + limit + (random ? '&random=1' : '') + (curBook ? '&book=' + curBook : '');
+      if (curGrammar) qs += '&grammar=' + encodeURIComponent(curGrammar);
+      if (curCambridgeUnit) qs += '&cambridgeUnit=' + encodeURIComponent(curCambridgeUnit);
       startBtn.disabled = true;
       NCE.api('/api/transform/exercises' + qs)
         .then(function (d) {
@@ -184,10 +342,15 @@
 
       var card = document.createElement('div');
       card.className = 'tf-card';
+      var camTag = '';
+      if (ex.cambridge && ex.cambridge.unit) {
+        camTag = '<span class="tf-cambridge">📘 U' + ex.cambridge.unit + ' ' +
+          NCE.escapeHtml(ex.cambridge.titleCn || ex.cambridge.title || '') + '</span>';
+      }
       card.innerHTML =
         '<div class="tf-progress"><span>第 ' + (exIdx + 1) + ' / ' + exercises.length + ' 句 · 步骤 ' +
         (stepIdx + 1) + ' / ' + ex.steps.length + '</span>' +
-        '<span class="tf-tags">' + NCE.escapeHtml((ex.grammar || []).join(' · ')) + '</span></div>' +
+        '<span class="tf-tags">' + NCE.escapeHtml((ex.grammar || []).join(' · ')) + camTag + '</span></div>' +
         '<div class="tf-cn">' + NCE.escapeHtml(ex.cn) + '</div>' +
         '<ul class="tf-chain" id="tf-chain"></ul>' +
         '<div class="tf-step-prompt"><span class="k">' + (KIND_LABEL[step.kind] || step.kind) + '</span>' +
@@ -276,21 +439,25 @@
         var isLastEx = exIdx + 1 >= exercises.length;
         var nextLabel = !isLastStep ? '下一步 →' : (!isLastEx ? '下一句 →' : '查看小结 →');
 
+        var answersHtml = NCE.formatAnswersWithSpeak
+          ? NCE.formatAnswersWithSpeak(r.answers, { wrapPassage: true, btnClass: 'tf-btn tf-speak' })
+          : NCE.escapeHtml((r.answers || [])[0] || '');
+
+        var answerCnHtml = r.answerCn
+          ? '<div class="tf-cn">译：' + NCE.escapeHtml(r.answerCn) + '</div>'
+          : '';
+
         feedback.innerHTML =
           '<div class="tf-verdict ' + (r.correct ? 'ok' : 'bad') + '">' +
           (r.correct ? '✓ 正确' : '✗ 不对，看看参考答案（已加入间隔复习）') + '</div>' +
-          '<div class="tf-answer" id="tf-answer">📖 参考答案：' +
-          (r.answers || []).map(function (a) {
-            return NCE.wrapPassageWords ? NCE.wrapPassageWords(a) : NCE.escapeHtml(a);
-          }).join(' <span style="color:#94a3b8">/</span> ') +
-          ' <button class="tf-btn" style="padding:2px 8px;font-size:13px" id="tf-speak">🔊</button></div>' +
-          (isLastStep && r.explanation ? '<div class="tf-expl">💡 ' + NCE.escapeHtml(r.explanation) + '</div>' : '') +
+          '<div class="tf-answer" id="tf-answer">📖 参考答案：' + answersHtml + answerCnHtml + '</div>' +
+          (isLastStep && r.explanation ? '<div class="tf-expl">💡 ' + NCE.escapeHtml(r.explanation) +
+          (r.cambridgeHint ? '<br><span style="color:#5b6b8a">' + NCE.escapeHtml(r.cambridgeHint) + '</span>' : '') +
+          '</div>' : '') +
           '<div class="tf-actions"><button class="tf-btn primary" id="tf-next">' + nextLabel + '</button></div>' +
           '<div class="tf-hint">回车 = 继续</div>';
 
-        feedback.querySelector('#tf-speak').onclick = function () {
-          NCE.speak(r.answers[0]);
-        };
+        if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(feedback);
         var ansEl = feedback.querySelector('#tf-answer');
         if (NCE.bindPassageLookup && ansEl) NCE.bindPassageLookup(ansEl, ex.book);
         if (NCE.bindPassageWords && ansEl) NCE.bindPassageWords(ansEl, ex.book);

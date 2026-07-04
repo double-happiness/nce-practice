@@ -6,6 +6,8 @@ const data = require('../lib/data');
 const profile = require('../lib/profile');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 const { KINDS, isCorrectStep } = require('../lib/transform-util');
+const { answerCn } = require('../lib/transform-cn');
+const cambridge = require('../lib/cambridge-grammar');
 
 const router = express.Router();
 
@@ -31,32 +33,61 @@ function shuffle(arr) {
   return a;
 }
 
-// 下发练习时去掉答案与解析，步骤只保留 kind/prompt
+// 下发练习时去掉答案与解析，步骤只保留 kind/prompt；附带剑桥语法单元对照
 function publicExercise(t) {
+  const cam = t.cambridge || cambridge.inferCambridge(t);
   return {
     id: t.id,
     book: t.book,
     lesson: t.lesson,
     grammar: t.grammar || [],
+    cambridge: cam,
     cn: t.cn,
     steps: t.steps.map((s) => ({ kind: s.kind, prompt: s.prompt })),
   };
 }
 
-// GET /transform/meta —— 各册练习数，供前端筛选 chips
+// GET /transform/meta —— 各册练习数 + 语法标签 + 剑桥单元覆盖
 router.get('/transform/meta', (req, res) => {
+  const transforms = data.getTransforms();
   const byBook = {};
-  for (const t of data.getTransforms()) byBook[t.book] = (byBook[t.book] || 0) + 1;
-  res.json({ total: data.getTransforms().length, byBook });
+  const grammarByBook = {};
+  for (const t of transforms) {
+    byBook[t.book] = (byBook[t.book] || 0) + 1;
+    grammarByBook[t.book] = grammarByBook[t.book] || new Set();
+    (t.grammar || []).forEach((g) => grammarByBook[t.book].add(g));
+  }
+  const grammarOut = {};
+  Object.keys(grammarByBook).forEach((b) => {
+    grammarOut[b] = Array.from(grammarByBook[b]).sort();
+  });
+  const cambridgeByBook = {};
+  for (const b of Object.keys(byBook)) {
+    cambridgeByBook[b] = cambridge.getSectionsForBook(b);
+    cambridgeByBook[b].coverage = cambridge.coverageByBook(transforms, b);
+  }
+  res.json({
+    total: transforms.length,
+    byBook,
+    grammarByBook: grammarOut,
+    cambridgeByBook,
+  });
 });
 
-// GET /transform/exercises?book=&lessonMin=&lessonMax=&limit=&random=1 —— 出题（不含答案）
+// GET /transform/exercises?book=&lessonMin=&lessonMax=&grammar=&cambridgeUnit=&limit=&random=1
 router.get('/transform/exercises', (req, res) => {
-  const { book, lessonMin, lessonMax } = req.query;
+  const { book, lessonMin, lessonMax, grammar, cambridgeUnit } = req.query;
   let list = data.getTransforms().slice();
   if (book) list = list.filter((t) => String(t.book) === String(book));
   if (lessonMin) list = list.filter((t) => t.lesson >= Number(lessonMin));
   if (lessonMax) list = list.filter((t) => t.lesson <= Number(lessonMax));
+  if (grammar) list = list.filter((t) => (t.grammar || []).includes(grammar));
+  if (cambridgeUnit && book) {
+    const level = cambridge.levelForNceBook(book);
+    if (level) {
+      list = list.filter((t) => cambridge.transformMatchesUnit(t, level, cambridgeUnit));
+    }
+  }
   if (req.query.random === '1' || req.query.random === 'true') list = shuffle(list);
   const limit = Number(req.query.limit) || list.length;
   list = list.slice(0, limit);
@@ -88,8 +119,11 @@ router.post('/transform/grade', (req, res) => {
     correct,
     kind: st.kind,
     answers: st.answers,
+    answerCn: st.cn || answerCn(t, st),
     isLast: idx === t.steps.length - 1,
     explanation: t.explanation || '',
+    cambridge: t.cambridge || cambridge.inferCambridge(t),
+    cambridgeHint: cambridge.cambridgeHint(t.cambridge || cambridge.inferCambridge(t)),
   });
 });
 

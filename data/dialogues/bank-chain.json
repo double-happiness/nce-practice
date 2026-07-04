@@ -1,0 +1,189 @@
+[
+  {
+    "id": "dlg-chain-bank-01",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Open an Account",
+    "titleCn": "第1环：开户",
+    "scene": "你刚到美国，去银行开支票账户。（对话链：银行办事）",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "Banker", "cn": "您好，今天需要什么服务？", "en": "Hello. How can I help you today?" },
+      { "role": "You", "cn": "我想开一个支票账户。", "en": "I'd like to open a checking account." },
+      { "role": "Banker", "cn": "请出示护照和地址证明。", "en": "I'll need your passport and proof of address." },
+      { "role": "You", "cn": "这是我的租房合同，可以吗？", "en": "Here's my lease agreement. Will that work?" },
+      { "role": "Banker", "cn": "可以。最低存款二十五美元。", "en": "Yes. The minimum deposit is twenty-five dollars." },
+      { "role": "You", "cn": "学生账户有月费吗？", "en": "Is there a monthly fee for student accounts?" },
+      { "role": "Banker", "cn": "学生账户免月费。", "en": "Student accounts have no monthly fee." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-02",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Deposit a Check",
+    "titleCn": "第2环：存支票",
+    "scene": "开户后，你要存入第一笔工资支票。（对话链：银行办事）",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "Teller", "cn": "您好，需要什么服务？", "en": "Hi. What can I do for you?" },
+      { "role": "You", "cn": "我想存这张支票。", "en": "I'd like to deposit this check." },
+      { "role": "Teller", "cn": "请填背面，账号在这。", "en": "Please endorse the back. Account number here." },
+      { "role": "You", "cn": "多久到账？", "en": "How long until it clears?" },
+      { "role": "Teller", "cn": "一两个工作日，手机会通知。", "en": "One or two business days. You'll get an app alert." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-03",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: ATM Problem",
+    "titleCn": "第3环：取款机吞卡",
+    "scene": "几天后，你的卡被门口 ATM 吞了。（对话链：银行办事）",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "You", "cn": "你好，我的卡卡在 ATM 里了。", "en": "Hi, my card got stuck in the ATM." },
+      { "role": "Teller", "cn": "哪一台？什么时候的事？", "en": "Which machine? When did it happen?" },
+      { "role": "You", "cn": "门口那台，大概十分钟前。", "en": "The one by the entrance, about ten minutes ago." },
+      { "role": "Teller", "cn": "我查一下……卡已经取出来了。", "en": "Let me check. We've already retrieved it." },
+      { "role": "You", "cn": "钱有扣吗？我取了两百。", "en": "Was any money deducted? I was withdrawing two hundred." },
+      { "role": "Teller", "cn": "没有扣款，您可以重新取。", "en": "No charge went through. You can try again." },
+      { "role": "You", "cn": "谢谢，吓死我了。", "en": "Thanks. That was scary!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-04",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Wire Transfer",
+    "titleCn": "第4环：汇款回国",
+    "scene": "你要往国内汇一笔钱，咨询手续费。（对话链：银行办事）",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "我想电汇三千美元到中国。", "en": "I need to wire three thousand dollars to China." },
+      { "role": "Banker", "cn": "请填写收款人姓名和银行信息。", "en": "Please fill in the recipient's name and bank details." },
+      { "role": "You", "cn": "手续费多少？几天到账？", "en": "What's the fee, and how long does it take?" },
+      { "role": "Banker", "cn": "手续费四十五，三到五个工作日。", "en": "Forty-five dollars, three to five business days." },
+      { "role": "You", "cn": "汇率按今天的算吗？", "en": "Is the exchange rate based on today's rate?" },
+      { "role": "Banker", "cn": "对，按处理时的实时汇率。", "en": "Yes, the rate at the time of processing." },
+      { "role": "You", "cn": "好的，请帮我办理。", "en": "Okay, please go ahead." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-05",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Question a Charge",
+    "titleCn": "第5环：查账单",
+    "scene": "你发现账单有一笔不认识的交易。（对话链：银行办事）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "银行客服，请问有什么可以帮您？", "en": "Bank support. How can I help?" },
+      { "role": "You", "cn": "账单上有一笔四十九块九，我不认识。", "en": "There's a charge for forty-nine ninety I don't recognize." },
+      { "role": "Agent", "cn": "请报后四位卡号和交易日期。", "en": "Last four digits of your card and the transaction date?" },
+      { "role": "You", "cn": "卡尾号5678，上周三。", "en": "Card ending in five six seven eight, last Wednesday." },
+      { "role": "Agent", "cn": "像是流媒体订阅，要争议吗？", "en": "Looks like a streaming subscription. Want to dispute it?" },
+      { "role": "You", "cn": "哦想起来了，不用争议。", "en": "Oh, I remember now. No dispute needed." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-06",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Report Lost Card",
+    "titleCn": "第6环：挂失银行卡",
+    "scene": "你丢了钱包，打电话挂失借记卡。（对话链：银行办事）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "挂失专线，请报姓名和生日。", "en": "Card loss hotline. Name and date of birth?" },
+      { "role": "You", "cn": "张伟，三月十五号，卡可能丢了。", "en": "Zhang Wei, March fifteenth. I think I lost my card." },
+      { "role": "Agent", "cn": "已冻结，新卡五到七天寄到。", "en": "It's frozen. A new card ships in five to seven days." },
+      { "role": "You", "cn": "能加急吗？我下周要出差。", "en": "Can you expedite it? I travel next week." },
+      { "role": "Agent", "cn": "加急两天，收十五块。", "en": "Express is two days for fifteen dollars." },
+      { "role": "You", "cn": "好，请加急。", "en": "Yes, please expedite." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-07",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Activate New Card",
+    "titleCn": "第7环：激活新卡",
+    "scene": "新卡到了，你去银行激活并设 PIN。（对话链：银行办事）",
+    "roles": ["You", "Teller"],
+    "turns": [
+      { "role": "Teller", "cn": "您好，需要什么服务？", "en": "Hi. What can I do for you?" },
+      { "role": "You", "cn": "我收到新借记卡，想激活设密码。", "en": "I got my new debit card. I'd like to activate it and set a PIN." },
+      { "role": "Teller", "cn": "请插卡，按提示操作。", "en": "Insert the card and follow the prompts." },
+      { "role": "You", "cn": "好了，旧卡自动作废了吧？", "en": "Done. The old card is cancelled, right?" },
+      { "role": "Teller", "cn": "对，旧卡已失效。", "en": "Yes, the old one is deactivated." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-bank-08",
+    "category": "bank",
+    "chain": {
+      "id": "bank-errands",
+      "title": "Bank Errands in One Trip",
+      "titleCn": "对话链：银行办事一趟",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Set Up Mobile Banking",
+    "titleCn": "第8环：开通手机银行",
+    "scene": "临走前，你请工作人员帮忙装手机银行 App。（对话链：银行办事）",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "能帮我设置手机银行吗？刷脸登录不会弄。", "en": "Can you help me set up mobile banking? I'm not sure about face login." },
+      { "role": "Banker", "cn": "先下载 App，用账号密码登录。", "en": "Download the app first and log in with your username and password." },
+      { "role": "You", "cn": "转账限额默认多少？", "en": "What's the default transfer limit?" },
+      { "role": "Banker", "cn": "每天两千五，可在设置里调高。", "en": "Twenty-five hundred a day. You can raise it in settings." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thank you." },
+      { "role": "Banker", "cn": "有问题随时来或打电话。", "en": "Come in or call anytime if you need help." }
+    ]
+  }
+]

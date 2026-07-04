@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-acad-01",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Conference Registration",
+    "titleCn": "第1环：学术会议签到",
+    "scene": "你参加一场国际学术会议，在签到处登记并领取材料。（对话链：学术英语实战，适合第四册学习者）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "早上好，请出示您的确认邮件或二维码。", "en": "Good morning. May I see your confirmation email or QR code?" },
+      { "role": "You", "cn": "当然，我是张伟，注册的是分会场 B。", "en": "Certainly. I'm Zhang Wei, registered for Session B." },
+      { "role": "Staff", "cn": "找到了。需要名牌吗？发音要标拼音还是英文？", "en": "Found it. Would you like a name badge? Phonetic or English spelling?" },
+      { "role": "You", "cn": "英文拼写就好，谢谢。主旨演讲在哪个厅？", "en": "English spelling, please. Which hall is the keynote in?" },
+      { "role": "Staff", "cn": "主会场在三楼，您的分会场在二楼 201。", "en": "The keynote is on the third floor. Your session is Room 201 on the second floor." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "I see. Thank you very much." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-02",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Question After the Lecture",
+    "titleCn": "第2环：讲座后提问",
+    "scene": "主旨演讲结束，你举手向演讲者提问。（对话链：学术英语实战）",
+    "roles": ["You", "Speaker"],
+    "turns": [
+      { "role": "You", "cn": "感谢您精彩的演讲。我有一个关于方法论的问题。", "en": "Thank you for an excellent lecture. I have a question about your methodology." },
+      { "role": "Speaker", "cn": "请讲。", "en": "Please go ahead." },
+      { "role": "You", "cn": "您如何排除样本选择带来的偏差？", "en": "How did you control for bias in sample selection?" },
+      { "role": "Speaker", "cn": "我们采用了分层随机抽样，并在附录中说明了局限。", "en": "We used stratified random sampling. The limitations are noted in the appendix." },
+      { "role": "You", "cn": "这些发现是否可推广到其他文化背景？", "en": "Are these findings generalisable to other cultural contexts?" },
+      { "role": "Speaker", "cn": "谨慎推广。我们正在跨文化复制研究。", "en": "Only with caution. We're replicating the study cross-culturally now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-03",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Meeting Your Supervisor",
+    "titleCn": "第3环：与导师讨论论文",
+    "scene": "你约导师讨论论文初稿的修改意见。（对话链：学术英语实战）",
+    "roles": ["You", "Supervisor"],
+    "turns": [
+      { "role": "Supervisor", "cn": "初稿我读过了。论点清晰，但文献综述偏薄。", "en": "I've read your draft. The argument is clear, but the literature review is thin." },
+      { "role": "You", "cn": "我会补充近五年的核心研究，尤其是欧洲那边的成果。", "en": "I'll add key studies from the past five years, especially from Europe." },
+      { "role": "Supervisor", "cn": "第三章的数据分析需要更严谨。你考虑过替代模型吗？", "en": "The analysis in Chapter Three needs to be tighter. Have you considered alternative models?" },
+      { "role": "You", "cn": "我打算用稳健性检验比较两种规格。", "en": "I plan to compare two specifications with robustness checks." },
+      { "role": "Supervisor", "cn": "好。两周后带修订提纲再来。", "en": "Good. Come back in two weeks with a revised outline." },
+      { "role": "You", "cn": "谢谢您的指导，我会按时提交。", "en": "Thank you for your guidance. I'll submit on schedule." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-04",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Seminar Presentation",
+    "titleCn": "第4环：研讨会发言",
+    "scene": "研究生研讨会上，你简要汇报研究进展。（对话链：学术英语实战）",
+    "roles": ["You", "Chair"],
+    "turns": [
+      { "role": "Chair", "cn": "张伟，您有十五分钟，包括提问。", "en": "Zhang Wei, you have fifteen minutes, including questions." },
+      { "role": "You", "cn": "谢谢。我今天汇报的主题是媒体对公众舆论的影响。", "en": "Thank you. Today I'll discuss how the press shapes public opinion." },
+      { "role": "You", "cn": "首先概述理论框架，然后展示初步数据。", "en": "I'll outline the theoretical framework first, then present preliminary data." },
+      { "role": "Chair", "cn": "请控制时间，十点前留两分钟讨论。", "en": "Please watch the time. Leave two minutes for discussion before ten." },
+      { "role": "You", "cn": "好的，我会简明扼要。", "en": "Certainly. I'll be concise." },
+      { "role": "Chair", "cn": "开始吧。", "en": "Please begin." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-05",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Peer Review Feedback",
+    "titleCn": "第5环：同行评议反馈",
+    "scene": "同事请你审阅一篇投稿，你给出书面意见后当面讨论。（对话链：学术英语实战）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "您读完手稿了吗？审稿意见对我们很有帮助。", "en": "Have you finished the manuscript? Your review comments were very helpful." },
+      { "role": "You", "cn": "总体扎实，但结论部分超出了证据支持的范围。", "en": "Overall it's solid, but the conclusion goes beyond what the evidence supports." },
+      { "role": "Colleague", "cn": "您建议我们弱化措辞还是补实验？", "en": "Would you suggest softening the claims or adding experiments?" },
+      { "role": "You", "cn": "两者都做更稳妥：收窄结论，并增加一组对照。", "en": "Both would be safer: narrow the claims and add a control condition." },
+      { "role": "Colleague", "cn": "截止日期很紧，您觉得修订需要多久？", "en": "The deadline is tight. How long do you think revision will take?" },
+      { "role": "You", "cn": "若数据现成，一周可完成主要修改。", "en": "If the data are ready, the main revisions could be done within a week." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-06",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Library Research Help",
+    "titleCn": "第6环：图书馆查文献",
+    "scene": "你在大学图书馆请学科馆员帮忙检索数据库。（对话链：学术英语实战）",
+    "roles": ["You", "Librarian"],
+    "turns": [
+      { "role": "You", "cn": "您好，我在找关于民主制度演变的英文期刊文章。", "en": "Hello. I'm looking for journal articles on the evolution of democracy." },
+      { "role": "Librarian", "cn": "您需要同行评审的论文还是也包括专著章节？", "en": "Do you need peer-reviewed articles only, or book chapters as well?" },
+      { "role": "You", "cn": "主要是近十年内的同行评审论文。", "en": "Mainly peer-reviewed papers from the last decade." },
+      { "role": "Librarian", "cn": "可以用 JSTOR 和 Web of Science。需要我演示高级检索吗？", "en": "Try JSTOR and Web of Science. Shall I show you advanced search?" },
+      { "role": "You", "cn": "麻烦演示一下如何用布尔运算符组合关键词。", "en": "Could you demonstrate how to combine keywords with Boolean operators?" },
+      { "role": "Librarian", "cn": "当然，请跟我到参考咨询台。", "en": "Certainly. Please follow me to the reference desk." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-07",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Academic Debate",
+    "titleCn": "第7环：课堂辩论",
+    "scene": "课堂上就「技术是否必然造福人类」展开辩论，你陈述反对观点。（对话链：学术英语实战）",
+    "roles": ["You", "Moderator"],
+    "turns": [
+      { "role": "Moderator", "cn": "反方两分钟陈述，请张伟开始。", "en": "Two minutes for the opposition. Zhang Wei, please begin." },
+      { "role": "You", "cn": "技术本身中立，但利益分配决定它造福谁。", "en": "Technology is neutral in itself, but who benefits depends on how gains are distributed." },
+      { "role": "You", "cn": "历史表明，没有监管的创新往往加剧不平等。", "en": "History shows that innovation without regulation often deepens inequality." },
+      { "role": "Moderator", "cn": "时间到。正方可以回应了。", "en": "Time's up. The proposition may respond." },
+      { "role": "You", "cn": "我稍后会在反驳环节回应监管成本的问题。", "en": "I'll address the cost of regulation in my rebuttal." },
+      { "role": "Moderator", "cn": "好的，请坐。", "en": "Very well. Please be seated." }
+    ]
+  },
+  {
+    "id": "dlg-chain-acad-08",
+    "category": "academic",
+    "chain": {
+      "id": "academic-english",
+      "title": "Academic English in Practice",
+      "titleCn": "对话链：学术英语实战",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Networking at the Reception",
+    "titleCn": "第8环：招待会交流",
+    "scene": "会议茶歇时，你与一位外国学者寒暄并交换研究方向。（对话链：学术英语实战）",
+    "roles": ["You", "Scholar"],
+    "turns": [
+      { "role": "Scholar", "cn": "您对今天上午的分议题有什么看法？", "en": "What did you think of this morning's panel?" },
+      { "role": "You", "cn": "很有启发，尤其是关于语言习得的那场。", "en": "Very stimulating, especially the session on language acquisition." },
+      { "role": "Scholar", "cn": "我研究二语写作，您呢？", "en": "I work on second-language writing. And you?" },
+      { "role": "You", "cn": "我关注媒体话语与公众认知，也许有合作空间。", "en": "I focus on media discourse and public perception. There may be room to collaborate." },
+      { "role": "Scholar", "cn": "乐意保持联系。这是我的名片。", "en": "I'd be glad to stay in touch. Here's my card." },
+      { "role": "You", "cn": "谢谢，我也发您我的邮箱。", "en": "Thank you. I'll send you my email as well." }
+    ]
+  }
+]

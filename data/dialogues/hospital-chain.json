@@ -1,0 +1,190 @@
+[
+  {
+    "id": "dlg-chain-hosp-01",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Call to Book",
+    "titleCn": "第1环：电话预约",
+    "scene": "你感冒发烧三天，打电话预约门诊。（对话链：门诊看病）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "社区医院，有什么可以帮您？", "en": "Community Clinic. How can I help you?" },
+      { "role": "You", "cn": "我想预约看感冒，明天上午有空吗？", "en": "I'd like an appointment for a cold. Anything tomorrow morning?" },
+      { "role": "Receptionist", "cn": "您有保险卡号吗？", "en": "Do you have your insurance card number?" },
+      { "role": "You", "cn": "有的，十点半可以吗？", "en": "Yes. Is ten thirty available?" },
+      { "role": "Receptionist", "cn": "可以，请提前十五分钟到。", "en": "Yes. Please arrive fifteen minutes early." },
+      { "role": "You", "cn": "需要带什么？", "en": "What should I bring?" },
+      { "role": "Receptionist", "cn": "身份证、保险卡，戴口罩。", "en": "ID, insurance card, and a mask." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-02",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Front Desk Check-in",
+    "titleCn": "第2环：前台登记",
+    "scene": "第二天你到了诊所前台。（对话链：门诊看病）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "预约看诊吗？", "en": "Here for an appointment?" },
+      { "role": "You", "cn": "对，十点半，张伟。", "en": "Yes. Ten thirty, Zhang Wei." },
+      { "role": "Receptionist", "cn": "请填这张表，签字同意治疗。", "en": "Please fill out this form and sign consent for treatment." },
+      { "role": "You", "cn": "过敏要写吗？我对青霉素过敏。", "en": "Should I list allergies? I'm allergic to penicillin." },
+      { "role": "Receptionist", "cn": "要，写在第二栏。", "en": "Yes. Put it in section two." },
+      { "role": "You", "cn": "好了，在候诊区等吗？", "en": "Done. Should I wait in the waiting room?" },
+      { "role": "Receptionist", "cn": "对，叫名字再进去。", "en": "Yes. We'll call your name." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-03",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Nurse Triage",
+    "titleCn": "第3环：护士预检",
+    "scene": "护士先叫你进去量体温、量血压。（对话链：门诊看病）",
+    "roles": ["You", "Nurse"],
+    "turns": [
+      { "role": "Nurse", "cn": "请坐，哪里不舒服？", "en": "Have a seat. What's bothering you?" },
+      { "role": "You", "cn": "发烧咳嗽三天，喉咙痛。", "en": "Fever and cough for three days. Sore throat." },
+      { "role": "Nurse", "cn": "张嘴说「啊」，量一下体温。", "en": "Open your mouth and say ah. Let's take your temperature." },
+      { "role": "You", "cn": "三十八点二，比昨天高一点。", "en": "One hundred point eight. A bit higher than yesterday." },
+      { "role": "Nurse", "cn": "医生马上来，先在这等。", "en": "The doctor will be right in. Wait here." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-04",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: See the Doctor",
+    "titleCn": "第4环：医生问诊",
+    "scene": "医生进来详细问诊。（对话链：门诊看病）",
+    "roles": ["You", "Doctor"],
+    "turns": [
+      { "role": "Doctor", "cn": "症状什么时候开始的？", "en": "When did the symptoms start?" },
+      { "role": "You", "cn": "周一开始，越来越没力气。", "en": "Monday. I'm getting weaker." },
+      { "role": "Doctor", "cn": "听诊一下……肺里有点杂音。", "en": "Let me listen. There's some congestion in your lungs." },
+      { "role": "You", "cn": "需要吃抗生素吗？", "en": "Do I need antibiotics?" },
+      { "role": "Doctor", "cn": "像是病毒感染，先不开抗生素。", "en": "Looks viral. No antibiotics for now." },
+      { "role": "You", "cn": "那怎么缓解？", "en": "How can I relieve it?" },
+      { "role": "Doctor", "cn": "多休息多喝水，我开些对症的药。", "en": "Rest and fluids. I'll prescribe something for symptoms." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-05",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Lab Test",
+    "titleCn": "第5环：抽血化验",
+    "scene": "医生让你去检验科抽血。（对话链：门诊看病）",
+    "roles": ["You", "Lab Tech"],
+    "turns": [
+      { "role": "Lab Tech", "cn": "请坐，伸左手，握拳。", "en": "Have a seat. Left arm out, make a fist." },
+      { "role": "You", "cn": "需要空腹吗？我早上吃了面包。", "en": "Did I need to fast? I had toast this morning." },
+      { "role": "Lab Tech", "cn": "这次不用空腹，放松。", "en": "Not for this test. Just relax." },
+      { "role": "You", "cn": "结果多久出？", "en": "How long for results?" },
+      { "role": "Lab Tech", "cn": "两小时内在 App 里看。", "en": "Within two hours on the app." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-06",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pick Up Prescription",
+    "titleCn": "第6环：药房取药",
+    "scene": "你拿着处方去医院药房。（对话链：门诊看病）",
+    "roles": ["You", "Pharmacist"],
+    "turns": [
+      { "role": "Pharmacist", "cn": "取药吗？姓什么？", "en": "Pickup? Last name?" },
+      { "role": "You", "cn": "张，医生刚开的感冒药。", "en": "Zhang. Cold medicine the doctor just prescribed." },
+      { "role": "Pharmacist", "cn": "一天两次饭后，可能犯困。", "en": "Twice daily after meals. May cause drowsiness." },
+      { "role": "You", "cn": "能开车吗？", "en": "Can I drive?" },
+      { "role": "Pharmacist", "cn": "第一次别开车，观察反应。", "en": "Not the first time. See how you react." },
+      { "role": "You", "cn": "自付部分多少？", "en": "What's my copay?" },
+      { "role": "Pharmacist", "cn": "十五块，刷卡在这。", "en": "Fifteen dollars. Card here." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-07",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Pay and Check Out",
+    "titleCn": "第7环：结账离开",
+    "scene": "看完病，你回到前台结账。（对话链：门诊看病）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "今天自付三十块，保险报其余。", "en": "Your copay today is thirty dollars. Insurance covers the rest." },
+      { "role": "You", "cn": "刷卡。需要病假条吗？", "en": "Card. Do I need a sick note for work?" },
+      { "role": "Receptionist", "cn": "医生可以开，要吗？", "en": "The doctor can write one. Want it?" },
+      { "role": "You", "cn": "要，请开两天。", "en": "Yes, please. Two days." },
+      { "role": "Receptionist", "cn": "打印好了，祝早日康复。", "en": "Printed. Feel better soon." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-hosp-08",
+    "category": "hospital",
+    "chain": {
+      "id": "clinic-visit",
+      "title": "A Clinic Visit from Start to Finish",
+      "titleCn": "对话链：门诊看病全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Follow-up Call",
+    "titleCn": "第8环：复诊预约",
+    "scene": "三天后症状没好转，你打电话约复诊。（对话链：门诊看病）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "社区医院，有什么可以帮您？", "en": "Community Clinic. How can I help you?" },
+      { "role": "You", "cn": "我周一来看过感冒，还没好，想复诊。", "en": "I came Monday for a cold. Still not better. I'd like a follow-up." },
+      { "role": "Receptionist", "cn": "还是同一位医生吗？", "en": "Same doctor?" },
+      { "role": "You", "cn": "对，王医生，明天下午行吗？", "en": "Yes, Dr. Wang. Tomorrow afternoon?" },
+      { "role": "Receptionist", "cn": "三点可以，请带之前的化验单。", "en": "Three o'clock works. Bring your lab results." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  }
+]

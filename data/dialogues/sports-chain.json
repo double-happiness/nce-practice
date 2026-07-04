@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-sport-01",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Join a Basketball Game",
+    "titleCn": "第1环：加入篮球局",
+    "scene": "你想加入陌生人的半场篮球。（对话链：运动）",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "Player", "cn": "嘿，要打一局吗？我们缺一个人。", "en": "Hey, want to run a game? We need one more." },
+      { "role": "You", "cn": "好啊，打到几分？", "en": "Sure. What are we playing to?" },
+      { "role": "Player", "cn": "十一分，赢两球。", "en": "Eleven, win by two." },
+      { "role": "You", "cn": "你打什么位置？我打后卫。", "en": "What position do you play? I'm a guard." },
+      { "role": "Player", "cn": "我中锋，来吧，球给你发。", "en": "I'm center. Come on, you check up." },
+      { "role": "You", "cn": "好球！下一局算我一个。", "en": "Nice shot! Count me in for the next one too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-02",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Swim at the Pool",
+    "titleCn": "第2环：游泳池游泳",
+    "scene": "你去社区游泳池游泳。（对话链：运动）",
+    "roles": ["You", "Lifeguard"],
+    "turns": [
+      { "role": "Lifeguard", "cn": "请先冲淋浴再下水。", "en": "Please shower before getting in the pool." },
+      { "role": "You", "cn": "好的。泳道怎么分？", "en": "Okay. How are the lanes divided?" },
+      { "role": "Lifeguard", "cn": "慢速靠右，中间中速，左边快游。", "en": "Slow on the right, medium in the center, fast on the left." },
+      { "role": "You", "cn": "储物柜要硬币吗？", "en": "Do the lockers need coins?" },
+      { "role": "Lifeguard", "cn": "二十五美分押金，前台能换。", "en": "A quarter deposit. We can make change at the desk." },
+      { "role": "You", "cn": "泳池几点关？", "en": "What time does the pool close?" },
+      { "role": "Lifeguard", "cn": "晚上九点，八点四十五停止入场。", "en": "Nine PM. Last entry at eight forty-five." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-03",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Book Tennis Court",
+    "titleCn": "第3环：订网球场",
+    "scene": "你打电话预订网球场。（对话链：运动）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "市立体育馆，有什么可以帮您？", "en": "City rec center. How can I help?" },
+      { "role": "You", "cn": "想订明天下午四点的网球场。", "en": "I'd like to book a tennis court tomorrow at four PM." },
+      { "role": "Staff", "cn": "二号场空着，一小时十五块。", "en": "Court two is open. Fifteen dollars per hour." },
+      { "role": "You", "cn": "可以租球拍吗？", "en": "Can I rent rackets?" },
+      { "role": "Staff", "cn": "五块一对，球另售。", "en": "Five dollars a pair. Balls sold separately." },
+      { "role": "You", "cn": "好，订两小时。", "en": "Okay, book two hours." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-04",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Play Tennis",
+    "titleCn": "第4环：打网球",
+    "scene": "你和朋友在网球场打球。（对话链：运动）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "你发球，我接。", "en": "You serve, I'll receive." },
+      { "role": "You", "cn": "好，打到七局吗？", "en": "Sure. Play to seven games?" },
+      { "role": "Friend", "cn": "行，输了请喝水。", "en": "Deal. Loser buys water." },
+      { "role": "You", "cn": "哈哈，来吧。", "en": "Ha! Let's go." },
+      { "role": "Friend", "cn": "这球出界了吧？", "en": "Was that ball out?" },
+      { "role": "You", "cn": "压线，算你的分。", "en": "On the line. Your point." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-05",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Rent Bikes",
+    "titleCn": "第5环：租自行车",
+    "scene": "打完球你去湖边租自行车骑行。（对话链：运动）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "想租两辆自行车，两小时。", "en": "I'd like two bikes for two hours." },
+      { "role": "Clerk", "cn": "十五块一小时一辆，头盔免费。", "en": "Fifteen an hour each. Helmets are free." },
+      { "role": "You", "cn": "有儿童座椅吗？", "en": "Do you have child seats?" },
+      { "role": "Clerk", "cn": "有，加五块。", "en": "Yes, five extra." },
+      { "role": "You", "cn": "好，沿湖路线推荐哪条？", "en": "Okay. Which lakeside route do you recommend?" },
+      { "role": "Clerk", "cn": "往北十英里平路，风景好。", "en": "North ten miles, flat and scenic." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-06",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Bike Trouble",
+    "titleCn": "第6环：自行车故障",
+    "scene": "骑行中轮胎没气，你向路人求助。（对话链：运动）",
+    "roles": ["You", "Cyclist"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，有打气筒吗？胎瘪了。", "en": "Excuse me, do you have a pump? I have a flat." },
+      { "role": "Cyclist", "cn": "我有，帮你打。", "en": "I do. I'll help you inflate it." },
+      { "role": "You", "cn": "可能是扎了，能撑回租车点吗？", "en": "Might be a puncture. Can I ride back to the rental shop?" },
+      { "role": "Cyclist", "cn": "慢点骑，两英里就到。", "en": "Go slow. Two miles to the shop." },
+      { "role": "You", "cn": "太感谢了。", "en": "Thanks so much." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-07",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Return Bikes",
+    "titleCn": "第7环：还自行车",
+    "scene": "你回到租车点还车说明情况。（对话链：运动）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "这辆胎扎了，另一辆没事。", "en": "This one got a flat. The other is fine." },
+      { "role": "Clerk", "cn": "补胎十块，正常租金照算。", "en": "Patch is ten dollars. Regular rental still applies." },
+      { "role": "You", "cn": "可以，刷卡。", "en": "Fine. Card, please." },
+      { "role": "Clerk", "cn": "今天骑得怎么样？", "en": "How was the ride?" },
+      { "role": "You", "cn": "风景很好，就是胎倒霉。", "en": "Great scenery. Just bad luck with the tire." }
+    ]
+  },
+  {
+    "id": "dlg-chain-sport-08",
+    "category": "sports",
+    "chain": {
+      "id": "sports-outing",
+      "title": "A Day of Sports and Exercise",
+      "titleCn": "对话链：运动锻炼一天",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: After Workout Meal",
+    "titleCn": "第8环：运动后吃饭",
+    "scene": "运动一天后，你和球友去吃健康餐。（对话链：运动）",
+    "roles": ["You", "Player"],
+    "turns": [
+      { "role": "Player", "cn": "今天运动量够大，吃什么？", "en": "Big day. What are we eating?" },
+      { "role": "You", "cn": "沙拉加鸡胸肉吧，我请客。", "en": "Salad and grilled chicken. My treat." },
+      { "role": "Player", "cn": "下周六还打球吗？", "en": "Same time Saturday?" },
+      { "role": "You", "cn": "来，十点老地方。", "en": "Yes. Ten AM, same court." },
+      { "role": "Player", "cn": "行，下周见。", "en": "See you next week." },
+      { "role": "You", "cn": "下周见。", "en": "See you then." }
+    ]
+  }
+]

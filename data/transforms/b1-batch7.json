@@ -3,112 +3,411 @@
     "id": "tf-b1-067",
     "book": 1,
     "lesson": 129,
-    "grammar": ["情态动词must", "形容词比较级"],
+    "grammar": [
+      "情态动词must",
+      "形容词比较级"
+    ],
     "cn": "你绝不能开得比限速更快。",
     "explanation": "must not 表禁止；faster than the speed limit 比较级。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["You must not drive faster than the speed limit.", "You mustn't drive faster than the speed limit.", "You must not drive faster than seventy miles an hour.", "You mustn't drive faster than seventy miles an hour."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Must you not drive faster than the speed limit?", "Mustn't you drive faster than the speed limit?"] },
-      { "kind": "negative", "prompt": "改为肯定句（必须遵守限速）", "answers": ["You must obey the speed limit.", "You must keep to the speed limit.", "You must drive within the speed limit."] },
-      { "kind": "wh", "prompt": "对「faster than the speed limit」提问（问\"不能怎样开\"）", "answers": ["How mustn't you drive?", "How fast must you not drive?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "You must not drive faster than the speed limit.",
+          "You mustn't drive faster than the speed limit.",
+          "You must not drive faster than seventy miles an hour.",
+          "You mustn't drive faster than seventy miles an hour."
+        ],
+        "cn": "你绝不能开得比限速更快。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Must you not drive faster than the speed limit?",
+          "Mustn't you drive faster than the speed limit?"
+        ],
+        "cn": "你绝不能开得比限速更快吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为肯定句（必须遵守限速）",
+        "answers": [
+          "You must obey the speed limit.",
+          "You must keep to the speed limit.",
+          "You must drive within the speed limit."
+        ],
+        "cn": "你绝不能开得比限速不更快。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「faster than the speed limit」提问（问\"不能怎样开\"）",
+        "answers": [
+          "How mustn't you drive?",
+          "How fast must you not drive?"
+        ],
+        "cn": "不能怎样开？"
+      }
     ]
   },
   {
     "id": "tf-b1-068",
     "book": 1,
     "lesson": 131,
-    "grammar": ["祈使句", "一般将来时"],
+    "grammar": [
+      "祈使句",
+      "一般将来时"
+    ],
     "cn": "别那么肯定！",
     "explanation": "否定祈使句 Don't be so sure；so sure 表\"那么肯定\"。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Don't be so sure!", "Do not be so sure!"] },
-      { "kind": "yesno", "prompt": "改为肯定祈使句", "answers": ["Be sure!", "Be confident!"] },
-      { "kind": "negative", "prompt": "改为陈述句（他太肯定了）", "answers": ["He is too sure.", "He's too sure.", "He is so sure.", "He's so sure."] },
-      { "kind": "wh", "prompt": "对「so sure」提问（问\"别怎样\"）", "answers": ["How sure mustn't I be?", "What mustn't I be?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Don't be so sure!",
+          "Do not be so sure!"
+        ],
+        "cn": "别那么肯定！"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为肯定祈使句",
+        "answers": [
+          "Be sure!",
+          "Be confident!"
+        ],
+        "cn": "别那么肯定吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为陈述句（他太肯定了）",
+        "answers": [
+          "He is too sure.",
+          "He's too sure.",
+          "He is so sure.",
+          "He's so sure."
+        ],
+        "cn": "他太肯定了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「so sure」提问（问\"别怎样\"）",
+        "answers": [
+          "How sure mustn't I be?",
+          "What mustn't I be?"
+        ],
+        "cn": "别怎样？"
+      }
     ]
   },
   {
     "id": "tf-b1-069",
     "book": 1,
     "lesson": 133,
-    "grammar": ["现在进行时", "一般将来时"],
+    "grammar": [
+      "现在进行时",
+      "一般将来时"
+    ],
     "cn": "老板打算把公司卖掉。",
     "explanation": "is going to sell 表打算；the company 作宾语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The boss is going to sell the company.", "The boss is going to sell the whole company."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is the boss going to sell the company?", "Is the boss going to sell the whole company?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The boss is not going to sell the company.", "The boss isn't going to sell the company.", "The boss is not going to sell the whole company.", "The boss isn't going to sell the whole company."] },
-      { "kind": "wh", "prompt": "对「the company」提问（问\"打算卖掉什么\"）", "answers": ["What is the boss going to sell?", "What's the boss going to sell?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The boss is going to sell the company.",
+          "The boss is going to sell the whole company."
+        ],
+        "cn": "老板打算把公司卖掉。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is the boss going to sell the company?",
+          "Is the boss going to sell the whole company?"
+        ],
+        "cn": "老板打算把公司卖掉吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The boss is not going to sell the company.",
+          "The boss isn't going to sell the company.",
+          "The boss is not going to sell the whole company.",
+          "The boss isn't going to sell the whole company."
+        ],
+        "cn": "老板不打算把公司卖掉。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the company」提问（问\"打算卖掉什么\"）",
+        "answers": [
+          "What is the boss going to sell?",
+          "What's the boss going to sell?"
+        ],
+        "cn": "老板打算卖掉什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-070",
     "book": 1,
     "lesson": 135,
-    "grammar": ["一般过去时"],
+    "grammar": [
+      "一般过去时"
+    ],
     "cn": "警察昨晚抓住了小偷。",
     "explanation": "一般过去时 caught；last night 作时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The police caught the thief last night.", "The policeman caught the thief last night."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the police catch the thief last night?", "Did the policeman catch the thief last night?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The police did not catch the thief last night.", "The police didn't catch the thief last night.", "The policeman did not catch the thief last night.", "The policeman didn't catch the thief last night."] },
-      { "kind": "wh", "prompt": "对「the thief」提问（问\"抓住了谁\"）", "answers": ["Who did the police catch last night?", "Who did the policeman catch last night?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The police caught the thief last night.",
+          "The policeman caught the thief last night."
+        ],
+        "cn": "警察昨晚抓住了小偷。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the police catch the thief last night?",
+          "Did the policeman catch the thief last night?"
+        ],
+        "cn": "警察昨晚抓住了小偷吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The police did not catch the thief last night.",
+          "The police didn't catch the thief last night.",
+          "The policeman did not catch the thief last night.",
+          "The policeman didn't catch the thief last night."
+        ],
+        "cn": "警察不昨晚抓住了小偷。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the thief」提问（问\"抓住了谁\"）",
+        "answers": [
+          "Who did the police catch last night?",
+          "Who did the policeman catch last night?"
+        ],
+        "cn": "抓住了谁？"
+      }
     ]
   },
   {
     "id": "tf-b1-071",
     "book": 1,
     "lesson": 137,
-    "grammar": ["过去进行时", "一般过去时"],
+    "grammar": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "cn": "他正在沙发上睡觉。",
     "explanation": "过去进行时 was sleeping 表当时正在进行的动作。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He was sleeping on the sofa.", "He was asleep on the sofa."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was he sleeping on the sofa?", "Was he asleep on the sofa?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He was not sleeping on the sofa.", "He wasn't sleeping on the sofa.", "He was not asleep on the sofa.", "He wasn't asleep on the sofa."] },
-      { "kind": "wh", "prompt": "对「on the sofa」提问（问\"在哪里睡觉\"）", "answers": ["Where was he sleeping?", "Where was he asleep?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He was sleeping on the sofa.",
+          "He was asleep on the sofa."
+        ],
+        "cn": "他正在沙发上睡觉。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Was he sleeping on the sofa?",
+          "Was he asleep on the sofa?"
+        ],
+        "cn": "他正在沙发上睡觉吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He was not sleeping on the sofa.",
+          "He wasn't sleeping on the sofa.",
+          "He was not asleep on the sofa.",
+          "He wasn't asleep on the sofa."
+        ],
+        "cn": "他没有在沙发上睡觉。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on the sofa」提问（问\"在哪里睡觉\"）",
+        "answers": [
+          "Where was he sleeping?",
+          "Where was he asleep?"
+        ],
+        "cn": "在哪里睡觉？"
+      }
     ]
   },
   {
     "id": "tf-b1-072",
     "book": 1,
     "lesson": 139,
-    "grammar": ["现在完成时", "一般过去时"],
+    "grammar": [
+      "现在完成时",
+      "一般过去时"
+    ],
     "cn": "你最近见过约翰吗？",
     "explanation": "Have you seen…? 现在完成时询问近期经历；recently 作时间状语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Have you seen John recently?", "Have you seen John lately?"] },
-      { "kind": "yesno", "prompt": "改为陈述句（肯定）", "answers": ["You have seen John recently.", "You've seen John recently.", "You have seen John lately.", "You've seen John lately."] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["You have not seen John recently.", "You haven't seen John recently.", "You have not seen John lately.", "You haven't seen John lately."] },
-      { "kind": "wh", "prompt": "对「John」提问（问\"见过谁\"）", "answers": ["Who have you seen recently?", "Who have you seen lately?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Have you seen John recently?",
+          "Have you seen John lately?"
+        ],
+        "cn": "你最近见过约翰吗？"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为陈述句（肯定）",
+        "answers": [
+          "You have seen John recently.",
+          "You've seen John recently.",
+          "You have seen John lately.",
+          "You've seen John lately."
+        ],
+        "cn": "你最近见过约翰。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "You have not seen John recently.",
+          "You haven't seen John recently.",
+          "You have not seen John lately.",
+          "You haven't seen John lately."
+        ],
+        "cn": "你不最近见过约翰吗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「John」提问（问\"见过谁\"）",
+        "answers": [
+          "Who have you seen recently?",
+          "Who have you seen lately?"
+        ],
+        "cn": "见过谁？"
+      }
     ]
   },
   {
     "id": "tf-b1-073",
     "book": 1,
     "lesson": 141,
-    "grammar": ["一般过去时", "过去进行时"],
+    "grammar": [
+      "一般过去时",
+      "过去进行时"
+    ],
     "cn": "萨莉很喜欢她第一次坐火车。",
     "explanation": "一般过去时 enjoyed 表过去感受；first train ride 作宾语。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Sally enjoyed her first train ride.", "Sally enjoyed her first trip by train."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did Sally enjoy her first train ride?", "Did Sally enjoy her first trip by train?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Sally did not enjoy her first train ride.", "Sally didn't enjoy her first train ride.", "Sally did not enjoy her first trip by train.", "Sally didn't enjoy her first trip by train."] },
-      { "kind": "wh", "prompt": "对「her first train ride」提问（问\"喜欢什么\"）", "answers": ["What did Sally enjoy?", "What did Sally enjoy on her first train ride?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Sally enjoyed her first train ride.",
+          "Sally enjoyed her first trip by train."
+        ],
+        "cn": "萨莉很喜欢她第一次坐火车。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did Sally enjoy her first train ride?",
+          "Did Sally enjoy her first trip by train?"
+        ],
+        "cn": "萨莉很喜欢她第一次坐火车吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Sally did not enjoy her first train ride.",
+          "Sally didn't enjoy her first train ride.",
+          "Sally did not enjoy her first trip by train.",
+          "Sally didn't enjoy her first trip by train."
+        ],
+        "cn": "萨莉很不喜欢她第一次坐火车。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「her first train ride」提问（问\"喜欢什么\"）",
+        "answers": [
+          "What did Sally enjoy?",
+          "What did Sally enjoy on her first train ride?"
+        ],
+        "cn": "他喜欢什么？"
+      }
     ]
   },
   {
     "id": "tf-b1-074",
     "book": 1,
     "lesson": 143,
-    "grammar": ["过去进行时", "一般过去时"],
+    "grammar": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "cn": "我们在林中散步时，天开始下雨了。",
     "explanation": "过去进行时 were walking 表背景；began to rain 一般过去时表突发。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["It began to rain while we were walking through the woods.", "While we were walking through the woods, it began to rain.", "It started to rain while we were walking through the woods."] },
-      { "kind": "yesno", "prompt": "把主句改为一般疑问句（Did it begin…?）", "answers": ["Did it begin to rain while we were walking through the woods?", "Did it start to rain while we were walking through the woods?"] },
-      { "kind": "negative", "prompt": "把主句改为否定句", "answers": ["It did not begin to rain while we were walking through the woods.", "It didn't begin to rain while we were walking through the woods.", "It did not start to rain while we were walking through the woods.", "It didn't start to rain while we were walking through the woods."] },
-      { "kind": "wh", "prompt": "对「while we were walking through the woods」提问（问\"何时下雨\"）", "answers": ["When did it begin to rain?", "When did it start to rain?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It began to rain while we were walking through the woods.",
+          "While we were walking through the woods, it began to rain.",
+          "It started to rain while we were walking through the woods."
+        ],
+        "cn": "我们在林中散步时，天开始下雨了。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "把主句改为一般疑问句（Did it begin…?）",
+        "answers": [
+          "Did it begin to rain while we were walking through the woods?",
+          "Did it start to rain while we were walking through the woods?"
+        ],
+        "cn": "我们在林中散步时，天开始下雨了吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "把主句改为否定句",
+        "answers": [
+          "It did not begin to rain while we were walking through the woods.",
+          "It didn't begin to rain while we were walking through the woods.",
+          "It did not start to rain while we were walking through the woods.",
+          "It didn't start to rain while we were walking through the woods."
+        ],
+        "cn": "我们不在林中散步时，天开始下雨了。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「while we were walking through the woods」提问（问\"何时下雨\"）",
+        "answers": [
+          "When did it begin to rain?",
+          "When did it start to rain?"
+        ],
+        "cn": "何时下雨？"
+      }
     ]
   }
 ]

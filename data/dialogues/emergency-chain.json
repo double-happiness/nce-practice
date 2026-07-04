@@ -1,0 +1,188 @@
+[
+  {
+    "id": "dlg-chain-emer-01",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Witness a Fall",
+    "titleCn": "第1环：发现有人摔倒",
+    "scene": "路边有人摔倒，你上前查看。（对话链：紧急情况）",
+    "roles": ["You", "Bystander"],
+    "turns": [
+      { "role": "Bystander", "cn": "他刚倒下，要不要叫救护车？", "en": "He just collapsed. Should we call an ambulance?" },
+      { "role": "You", "cn": "要，我来打911，你看着别乱动他。", "en": "Yes. I'll call 911. Watch him and don't move him." },
+      { "role": "Bystander", "cn": "他还在呼吸。", "en": "He's still breathing." },
+      { "role": "You", "cn": "好，我说明位置。", "en": "Good. I'll give them our location." },
+      { "role": "Bystander", "cn": "我去做心肺复苏？", "en": "Should I start CPR?" },
+      { "role": "You", "cn": "有呼吸先别按，等接线员指示。", "en": "Not if he's breathing. Wait for the operator." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-02",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Call 911",
+    "titleCn": "第2环：拨打911",
+    "scene": "你拨打紧急电话。（对话链：紧急情况）",
+    "roles": ["You", "Operator"],
+    "turns": [
+      { "role": "Operator", "cn": "911，请问什么紧急情况？", "en": "911, what's your emergency?" },
+      { "role": "You", "cn": "有人摔倒了，好像昏迷了！", "en": "Someone fell down and seems unconscious!" },
+      { "role": "Operator", "cn": "请告诉我您的具体位置。", "en": "Please tell me your exact location." },
+      { "role": "You", "cn": "第五大道和42街交叉口，北边人行道。", "en": "Fifth Avenue and Forty-Second Street, north sidewalk." },
+      { "role": "Operator", "cn": "救护车已派出，他会呼吸吗？", "en": "An ambulance is on the way. Is he breathing?" },
+      { "role": "You", "cn": "有呼吸，但不要乱动他。", "en": "Yes, he's breathing. We're not moving him." },
+      { "role": "Operator", "cn": "做得好，救援人员马上到。", "en": "Good. Help is almost there." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-03",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Paramedics Arrive",
+    "titleCn": "第3环：救护人员到达",
+    "scene": "救护人员到场，你简要说明情况。（对话链：紧急情况）",
+    "roles": ["You", "Paramedic"],
+    "turns": [
+      { "role": "Paramedic", "cn": "他什么时候倒下的？", "en": "When did he go down?" },
+      { "role": "You", "cn": "大概三分钟前，没撞到头。", "en": "About three minutes ago. He didn't hit his head hard." },
+      { "role": "Paramedic", "cn": "有糖尿病或心脏病史吗？", "en": "Any history of diabetes or heart problems?" },
+      { "role": "You", "cn": "不清楚，他一个人。", "en": "I don't know. He was alone." },
+      { "role": "Paramedic", "cn": "请让一下，我们要检查。", "en": "Please step back. We need to examine him." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-04",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Minor Car Accident",
+    "titleCn": "第4环：轻微车祸",
+    "scene": "你轻微追尾，和对方司机交涉。（对话链：紧急情况）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "你没事吧？", "en": "Are you okay?" },
+      { "role": "You", "cn": "我没事，非常抱歉，是我的错。", "en": "I'm fine. I'm so sorry, it was my fault." },
+      { "role": "Driver", "cn": "我们交换一下保险信息吧。", "en": "Let's exchange insurance information." },
+      { "role": "You", "cn": "好的，这是我的驾照和保险卡。", "en": "Sure. Here's my license and insurance card." },
+      { "role": "Driver", "cn": "我拍几张照片留证。", "en": "I'll take some photos for the record." },
+      { "role": "You", "cn": "需要报警吗？", "en": "Should we call the police?" },
+      { "role": "Driver", "cn": "损坏不大，不用了，我联系保险公司。", "en": "The damage is minor. No need. I'll contact my insurer." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-05",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Lost Wallet",
+    "titleCn": "第5环：钱包丢了",
+    "scene": "你在商场发现钱包丢了，向保安求助。（对话链：紧急情况）",
+    "roles": ["You", "Security"],
+    "turns": [
+      { "role": "You", "cn": "你好，我的钱包好像丢了。", "en": "Hi, I think I lost my wallet." },
+      { "role": "Security", "cn": "什么时候最后见到的？什么颜色？", "en": "When did you last have it? What color is it?" },
+      { "role": "You", "cn": "二十分钟前在美食广场，黑色皮夹。", "en": "About twenty minutes ago at the food court. Black leather." },
+      { "role": "Security", "cn": "我查一下失物招领……还没有。", "en": "Let me check lost and found. Nothing yet." },
+      { "role": "You", "cn": "里面有身份证和信用卡，需要挂失。", "en": "It has my ID and credit cards. I need to cancel them." },
+      { "role": "Security", "cn": "请先填这份遗失报告，有消息会联系您。", "en": "Please fill out this report. We'll call if it turns up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-06",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Cancel Cards",
+    "titleCn": "第6环：挂失银行卡",
+    "scene": "你打电话挂失信用卡。（对话链：紧急情况）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "银行挂失专线，请报姓名。", "en": "Card loss hotline. Your name, please?" },
+      { "role": "You", "cn": "张伟，钱包丢了，要冻结所有卡。", "en": "Zhang Wei. I lost my wallet. I need all cards frozen." },
+      { "role": "Agent", "cn": "已冻结，新卡五到七天寄到。", "en": "They're frozen. New cards ship in five to seven days." },
+      { "role": "You", "cn": "最近交易能查吗？怕被盗刷。", "en": "Can you check recent charges? I'm worried about fraud." },
+      { "role": "Agent", "cn": "今天没有异常交易。", "en": "No suspicious activity today." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-07",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Fire Alarm",
+    "titleCn": "第7环：火警疏散",
+    "scene": "办公楼火警响起，保安指挥疏散。（对话链：紧急情况）",
+    "roles": ["You", "Guard"],
+    "turns": [
+      { "role": "Guard", "cn": "请走楼梯，不要使用电梯！", "en": "Please use the stairs. Do not use the elevator!" },
+      { "role": "You", "cn": "出口在哪里？", "en": "Where's the nearest exit?" },
+      { "role": "Guard", "cn": "往前左转，到一楼集合点。", "en": "Go straight and turn left. Assembly point is on the first floor." },
+      { "role": "You", "cn": "是真火警还是演习？", "en": "Is this a real fire or a drill?" },
+      { "role": "Guard", "cn": "目前不确定，请先撤离。", "en": "We're not sure yet. Please evacuate first." },
+      { "role": "You", "cn": "好的，我这就下去。", "en": "Okay, I'm heading down now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-emer-08",
+    "category": "emergency",
+    "chain": {
+      "id": "emergency-response",
+      "title": "Handling an Emergency",
+      "titleCn": "对话链：紧急情况应对",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: All Clear",
+    "titleCn": "第8环：解除警报",
+    "scene": "疏散后确认是误报，保安通知可以回去。（对话链：紧急情况）",
+    "roles": ["You", "Guard"],
+    "turns": [
+      { "role": "Guard", "cn": "各位，误报，可以有序回楼。", "en": "Everyone, false alarm. You may return in an orderly way." },
+      { "role": "You", "cn": "电梯能用了吗？", "en": "Are elevators available now?" },
+      { "role": "Guard", "cn": "可以，但建议走楼梯热身。", "en": "Yes, but stairs are fine if you prefer." },
+      { "role": "You", "cn": "我电脑还在桌上，没事吧？", "en": "My laptop is still on my desk. Everything okay?" },
+      { "role": "Guard", "cn": "没事，各部门正常上班。", "en": "All clear. Back to work as usual." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  }
+]

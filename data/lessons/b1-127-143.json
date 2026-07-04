@@ -5,14 +5,137 @@
     "title": "A famous actress",
     "titleCn": "一位著名的女演员",
     "scene": "两个朋友翻着报纸的娱乐版，看到一张女演员的照片。一个人问她是不是很有名、拍过哪些电影、去过哪些国家；另一个人如数家珍地介绍她的经历。重点用现在完成时谈论一个人的人生阅历。",
-    "grammarTags": ["现在完成时", "疑问句"],
+    "grammarTags": [
+      "现在完成时",
+      "疑问句"
+    ],
     "words": [
-      { "word": "actress", "phon": "/ˈæktrəs/", "pos": "n.", "cn": "女演员", "eg": "She wants to be an actress. 她想当一名女演员。" },
-      { "word": "famous", "phon": "/ˈfeɪməs/", "pos": "adj.", "cn": "著名的", "eg": "He is a famous singer. 他是一位著名的歌手。" },
-      { "word": "film", "phon": "/fɪlm/", "pos": "n.", "cn": "电影", "eg": "I have seen this film before. 我以前看过这部电影。" },
-      { "word": "abroad", "phon": "/əˈbrɔːd/", "pos": "adv.", "cn": "在国外", "eg": "She has never been abroad. 她从未出过国。" },
-      { "word": "successful", "phon": "/səkˈsesfl/", "pos": "adj.", "cn": "成功的", "eg": "Her new film is very successful. 她的新电影很成功。" },
-      { "word": "million", "phon": "/ˈmɪljən/", "pos": "n.", "cn": "百万", "eg": "A million people know her name. 有一百万人知道她的名字。" }
+      {
+        "word": "actress",
+        "phon": "/ˈæktrəs/",
+        "pos": "n.",
+        "cn": "女演员",
+        "eg": "She wants to be an actress. 她想当一名女演员。"
+      },
+      {
+        "word": "famous",
+        "phon": "/ˈfeɪməs/",
+        "pos": "adj.",
+        "cn": "著名的",
+        "eg": "He is a famous singer. 他是一位著名的歌手。"
+      },
+      {
+        "word": "film",
+        "phon": "/fɪlm/",
+        "pos": "n.",
+        "cn": "电影",
+        "eg": "I have seen this film before. 我以前看过这部电影。"
+      },
+      {
+        "word": "abroad",
+        "phon": "/əˈbrɔːd/",
+        "pos": "adv.",
+        "cn": "在国外",
+        "eg": "She has never been abroad. 她从未出过国。"
+      },
+      {
+        "word": "successful",
+        "phon": "/səkˈsesfl/",
+        "pos": "adj.",
+        "cn": "成功的",
+        "eg": "Her new film is very successful. 她的新电影很成功。"
+      },
+      {
+        "word": "million",
+        "phon": "/ˈmɪljən/",
+        "pos": "n.",
+        "cn": "百万",
+        "eg": "A million people know her name. 有一百万人知道她的名字。"
+      },
+      {
+        "word": "dining room",
+        "phon": "",
+        "pos": "",
+        "cn": "饭厅",
+        "eg": ""
+      },
+      {
+        "word": "coin",
+        "phon": "/kɒɪn/",
+        "pos": "n.",
+        "cn": "硬币",
+        "eg": ""
+      },
+      {
+        "word": "mouth",
+        "phon": "/maʊθ/",
+        "pos": "n.",
+        "cn": "嘴",
+        "eg": ""
+      },
+      {
+        "word": "swallow",
+        "phon": "/'swɑːlou/",
+        "pos": "v.",
+        "cn": "吞下",
+        "eg": ""
+      },
+      {
+        "word": "later",
+        "phon": "/'leɪtə/",
+        "pos": "adv.",
+        "cn": "后来",
+        "eg": ""
+      },
+      {
+        "word": "toilet",
+        "phon": "/ˈtɔɪlɪt/",
+        "pos": "n.",
+        "cn": "厕所，盥洗",
+        "eg": ""
+      },
+      {
+        "word": "ring",
+        "phon": "/rɪŋ/",
+        "pos": "v.",
+        "cn": "戒指，铃声",
+        "eg": ""
+      },
+      {
+        "word": "story",
+        "phon": "/'stɔːrɪ/",
+        "pos": "n.",
+        "cn": "故事",
+        "eg": ""
+      },
+      {
+        "word": "happen",
+        "phon": "/'hæp(ə)n/",
+        "pos": "v.",
+        "cn": "发生",
+        "eg": ""
+      },
+      {
+        "word": "thief",
+        "phon": "/θiːf/",
+        "pos": "n.",
+        "cn": "贼",
+        "eg": ""
+      },
+      {
+        "word": "enter",
+        "phon": "/'entə/",
+        "pos": "v.",
+        "cn": "进入",
+        "eg": ""
+      },
+      {
+        "word": "dark",
+        "phon": "/dɑːk/",
+        "pos": "a.",
+        "cn": "黑暗的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -40,14 +163,144 @@
     "title": "Seventy miles an hour",
     "titleCn": "时速七十英里",
     "scene": "父亲开车带家人上高速公路，孩子好奇地问这辆车最快能开多快、这条路限速多少。父亲一边开车一边解释：不同的路有不同的速度限制，而且无论多想快，都必须遵守规则。重点是形容词比较级与情态动词 must。",
-    "grammarTags": ["形容词比较级", "情态动词must"],
+    "grammarTags": [
+      "形容词比较级",
+      "情态动词must"
+    ],
     "words": [
-      { "word": "mile", "phon": "/maɪl/", "pos": "n.", "cn": "英里", "eg": "The station is two miles away. 车站在两英里外。" },
-      { "word": "speed", "phon": "/spiːd/", "pos": "n.", "cn": "速度", "eg": "The car has great speed. 这辆车速度很快。" },
-      { "word": "limit", "phon": "/ˈlɪmɪt/", "pos": "n.", "cn": "限制；限度", "eg": "There is a speed limit here. 这里有速度限制。" },
-      { "word": "careful", "phon": "/ˈkeəfl/", "pos": "adj.", "cn": "小心的", "eg": "Be careful on the road. 在路上要小心。" },
-      { "word": "allow", "phon": "/əˈlaʊ/", "pos": "v.", "cn": "允许", "eg": "You are not allowed to park here. 这里不允许停车。" },
-      { "word": "faster", "phon": "/ˈfɑːstə/", "pos": "adj./adv.", "cn": "更快的（fast 的比较级）", "eg": "A plane is faster than a train. 飞机比火车快。" }
+      {
+        "word": "mile",
+        "phon": "/maɪl/",
+        "pos": "n.",
+        "cn": "英里",
+        "eg": "The station is two miles away. 车站在两英里外。"
+      },
+      {
+        "word": "speed",
+        "phon": "/spiːd/",
+        "pos": "n.",
+        "cn": "速度",
+        "eg": "The car has great speed. 这辆车速度很快。"
+      },
+      {
+        "word": "limit",
+        "phon": "/ˈlɪmɪt/",
+        "pos": "n.",
+        "cn": "限制；限度",
+        "eg": "There is a speed limit here. 这里有速度限制。"
+      },
+      {
+        "word": "careful",
+        "phon": "/ˈkeəfl/",
+        "pos": "adj.",
+        "cn": "小心的",
+        "eg": "Be careful on the road. 在路上要小心。"
+      },
+      {
+        "word": "allow",
+        "phon": "/əˈlaʊ/",
+        "pos": "v.",
+        "cn": "允许",
+        "eg": "You are not allowed to park here. 这里不允许停车。"
+      },
+      {
+        "word": "faster",
+        "phon": "/ˈfɑːstə/",
+        "pos": "adj./adv.",
+        "cn": "更快的（fast 的比较级）",
+        "eg": "A plane is faster than a train. 飞机比火车快。"
+      },
+      {
+        "word": "torch",
+        "phon": "/tɔːtʃ/",
+        "pos": "n.",
+        "cn": "手电筒",
+        "eg": ""
+      },
+      {
+        "word": "voice",
+        "phon": "/vɒɪs/",
+        "pos": "n.",
+        "cn": "(说话的)声音",
+        "eg": ""
+      },
+      {
+        "word": "parrot",
+        "phon": "/'pærət/",
+        "pos": "n.",
+        "cn": "鹦鹉",
+        "eg": ""
+      },
+      {
+        "word": "exercise book",
+        "phon": "",
+        "pos": "",
+        "cn": "练习",
+        "eg": ""
+      },
+      {
+        "word": "customer",
+        "phon": "/'kʌstəmə/",
+        "pos": "n.",
+        "cn": "顾客",
+        "eg": ""
+      },
+      {
+        "word": "forget",
+        "phon": "/fə'get/",
+        "pos": "v.",
+        "cn": "忘记",
+        "eg": ""
+      },
+      {
+        "word": "manager",
+        "phon": "/'mænɪdʒə/",
+        "pos": "n.",
+        "cn": "经理",
+        "eg": ""
+      },
+      {
+        "word": "serve",
+        "phon": "/sɜːv/",
+        "pos": "v.",
+        "cn": "照应，服务，接待",
+        "eg": ""
+      },
+      {
+        "word": "counter",
+        "phon": "/'kauntər/",
+        "pos": "n.",
+        "cn": "柜台",
+        "eg": ""
+      },
+      {
+        "word": "recognize",
+        "phon": "/'rekəgnaɪz/",
+        "pos": "v.",
+        "cn": "认出，认识",
+        "eg": ""
+      },
+      {
+        "word": "road",
+        "phon": "/rəʊd/",
+        "pos": "n.",
+        "cn": "道路",
+        "eg": ""
+      },
+      {
+        "word": "during",
+        "phon": "/'djʊərɪŋ/",
+        "pos": "prep.",
+        "cn": "在…期间",
+        "eg": ""
+      },
+      {
+        "word": "trip",
+        "phon": "/trɪp/",
+        "pos": "n.",
+        "cn": "旅行",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -75,14 +328,137 @@
     "title": "Don't be so sure!",
     "titleCn": "别那么肯定！",
     "scene": "出发前一晚，丈夫得意地列出这次旅行打算带的一大堆东西，越说越多。妻子在旁边收拾行李，提醒他手提箱早就装不下了，劝他别那么肯定自己都能带上。重点是 be going to 将来时与否定祈使句。",
-    "grammarTags": ["一般将来时", "祈使句"],
+    "grammarTags": [
+      "一般将来时",
+      "祈使句"
+    ],
     "words": [
-      { "word": "sure", "phon": "/ʃʊə/", "pos": "adj.", "cn": "肯定的", "eg": "Are you sure about that? 你确定吗？" },
-      { "word": "suitcase", "phon": "/ˈsuːtkeɪs/", "pos": "n.", "cn": "手提箱", "eg": "My suitcase is very heavy. 我的手提箱很重。" },
-      { "word": "heavy", "phon": "/ˈhevi/", "pos": "adj.", "cn": "重的", "eg": "This box is too heavy. 这个箱子太重了。" },
-      { "word": "pack", "phon": "/pæk/", "pos": "v.", "cn": "打包；装箱", "eg": "I must pack my bags tonight. 我今晚得收拾行李。" },
-      { "word": "carry", "phon": "/ˈkæri/", "pos": "v.", "cn": "搬；提", "eg": "Can you carry this bag? 你能提这个包吗？" },
-      { "word": "holiday", "phon": "/ˈhɒlədeɪ/", "pos": "n.", "cn": "假日", "eg": "We are going to have a holiday. 我们要去度假。" }
+      {
+        "word": "sure",
+        "phon": "/ʃʊə/",
+        "pos": "adj.",
+        "cn": "肯定的",
+        "eg": "Are you sure about that? 你确定吗？"
+      },
+      {
+        "word": "suitcase",
+        "phon": "/ˈsuːtkeɪs/",
+        "pos": "n.",
+        "cn": "手提箱",
+        "eg": "My suitcase is very heavy. 我的手提箱很重。"
+      },
+      {
+        "word": "heavy",
+        "phon": "/ˈhevi/",
+        "pos": "adj.",
+        "cn": "重的",
+        "eg": "This box is too heavy. 这个箱子太重了。"
+      },
+      {
+        "word": "pack",
+        "phon": "/pæk/",
+        "pos": "v.",
+        "cn": "打包；装箱",
+        "eg": "I must pack my bags tonight. 我今晚得收拾行李。"
+      },
+      {
+        "word": "carry",
+        "phon": "/ˈkæri/",
+        "pos": "v.",
+        "cn": "搬；提",
+        "eg": "Can you carry this bag? 你能提这个包吗？"
+      },
+      {
+        "word": "holiday",
+        "phon": "/ˈhɒlədeɪ/",
+        "pos": "n.",
+        "cn": "假日",
+        "eg": "We are going to have a holiday. 我们要去度假。"
+      },
+      {
+        "word": "travel",
+        "phon": "/'træv(ə)l/",
+        "pos": "v.",
+        "cn": "旅行",
+        "eg": "Will you travel by sea or by air?"
+      },
+      {
+        "word": "offer",
+        "phon": "/'ɒfə/",
+        "pos": "v.",
+        "cn": "提供",
+        "eg": ""
+      },
+      {
+        "word": "job",
+        "phon": "/dʒɔb/",
+        "pos": "n.",
+        "cn": "工作",
+        "eg": ""
+      },
+      {
+        "word": "guess",
+        "phon": "/ges/",
+        "pos": "v.",
+        "cn": "猜",
+        "eg": ""
+      },
+      {
+        "word": "grow",
+        "phon": "/grəʊ/",
+        "pos": "v.",
+        "cn": "长，让…生长",
+        "eg": ""
+      },
+      {
+        "word": "beard",
+        "phon": "/bɪəd/",
+        "pos": "n.",
+        "cn": "(下巴上的)胡子，络腮胡",
+        "eg": ""
+      },
+      {
+        "word": "kitten",
+        "phon": "/'kɪt(ə)n/",
+        "pos": "n.",
+        "cn": "小猫",
+        "eg": ""
+      },
+      {
+        "word": "water",
+        "phon": "/'wɔːtə/",
+        "pos": "v.",
+        "cn": "浇水",
+        "eg": ""
+      },
+      {
+        "word": "terribly",
+        "phon": "/'terəbli/",
+        "pos": "adv.",
+        "cn": "非常",
+        "eg": ""
+      },
+      {
+        "word": "dry",
+        "phon": "/draɪ/",
+        "pos": "a.",
+        "cn": "干燥的，干的",
+        "eg": ""
+      },
+      {
+        "word": "nuisance",
+        "phon": "/'njuːsəns/",
+        "pos": "n.",
+        "cn": "讨厌的东西或人",
+        "eg": ""
+      },
+      {
+        "word": "mean",
+        "phon": "/miːn/",
+        "pos": "v.",
+        "cn": "意味着，意思是",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -110,14 +486,144 @@
     "title": "Sensational news!",
     "titleCn": "爆炸性新闻！",
     "scene": "午休时，几个同事围在办公室角落里压低声音议论一条刚传来的惊人消息：听说老板打算把整个公司卖掉。大家你一言我一语，猜测接下来会发生什么、自己下周还要不要来上班。重点是现在进行时表将来与 will 将来时。",
-    "grammarTags": ["现在进行时", "一般将来时"],
+    "grammarTags": [
+      "现在进行时",
+      "一般将来时"
+    ],
     "words": [
-      { "word": "news", "phon": "/njuːz/", "pos": "n.", "cn": "消息；新闻", "eg": "I have some good news for you. 我有个好消息告诉你。" },
-      { "word": "sensational", "phon": "/senˈseɪʃənl/", "pos": "adj.", "cn": "轰动的；耸人听闻的", "eg": "The story is really sensational. 这个故事真是耸人听闻。" },
-      { "word": "boss", "phon": "/bɒs/", "pos": "n.", "cn": "老板", "eg": "Our boss is very kind. 我们老板人很好。" },
-      { "word": "sell", "phon": "/sel/", "pos": "v.", "cn": "卖", "eg": "He wants to sell his old car. 他想卖掉他的旧车。" },
-      { "word": "happen", "phon": "/ˈhæpən/", "pos": "v.", "cn": "发生", "eg": "What is going to happen next? 接下来会发生什么？" },
-      { "word": "company", "phon": "/ˈkʌmpəni/", "pos": "n.", "cn": "公司", "eg": "She works for a big company. 她在一家大公司工作。" }
+      {
+        "word": "news",
+        "phon": "/njuːz/",
+        "pos": "n.",
+        "cn": "消息；新闻",
+        "eg": "I have some good news for you. 我有个好消息告诉你。"
+      },
+      {
+        "word": "sensational",
+        "phon": "/senˈseɪʃənl/",
+        "pos": "adj.",
+        "cn": "轰动的；耸人听闻的",
+        "eg": "The story is really sensational. 这个故事真是耸人听闻。"
+      },
+      {
+        "word": "boss",
+        "phon": "/bɒs/",
+        "pos": "n.",
+        "cn": "老板",
+        "eg": "Our boss is very kind. 我们老板人很好。"
+      },
+      {
+        "word": "sell",
+        "phon": "/sel/",
+        "pos": "v.",
+        "cn": "卖",
+        "eg": "He wants to sell his old car. 他想卖掉他的旧车。"
+      },
+      {
+        "word": "happen",
+        "phon": "/ˈhæpən/",
+        "pos": "v.",
+        "cn": "发生",
+        "eg": "What is going to happen next? 接下来会发生什么？"
+      },
+      {
+        "word": "company",
+        "phon": "/ˈkʌmpəni/",
+        "pos": "n.",
+        "cn": "公司",
+        "eg": "She works for a big company. 她在一家大公司工作。"
+      },
+      {
+        "word": "surprise",
+        "phon": "/sə'praɪz/",
+        "pos": "n.",
+        "cn": "惊奇，意外的",
+        "eg": ""
+      },
+      {
+        "word": "immediately",
+        "phon": "/ɪ'miːdɪətlɪ/",
+        "pos": "adv.",
+        "cn": "立即",
+        "eg": ""
+      },
+      {
+        "word": "famous",
+        "phon": "/'feɪməs/",
+        "pos": "a.",
+        "cn": "著名的",
+        "eg": ""
+      },
+      {
+        "word": "actress",
+        "phon": "/'æktrɪs/",
+        "pos": "n.",
+        "cn": "女演员",
+        "eg": ""
+      },
+      {
+        "word": "at least",
+        "phon": "",
+        "pos": "",
+        "cn": "至少",
+        "eg": ""
+      },
+      {
+        "word": "actor",
+        "phon": "/'æktə/",
+        "pos": "n.",
+        "cn": "男演员",
+        "eg": ""
+      },
+      {
+        "word": "read",
+        "phon": "/ri:d;red/",
+        "pos": "v.",
+        "cn": "通过阅读得",
+        "eg": ""
+      },
+      {
+        "word": "wave",
+        "phon": "/weɪv/",
+        "pos": "v.",
+        "cn": "招手",
+        "eg": ""
+      },
+      {
+        "word": "track",
+        "phon": "/træk/",
+        "pos": "n.",
+        "cn": "跑道",
+        "eg": ""
+      },
+      {
+        "word": "mile",
+        "phon": "/maɪl/",
+        "pos": "n.",
+        "cn": "英里",
+        "eg": ""
+      },
+      {
+        "word": "overtake",
+        "phon": "/əʊvə'teɪk/",
+        "pos": "v.",
+        "cn": "从后面超越，超车",
+        "eg": ""
+      },
+      {
+        "word": "speed",
+        "phon": "/spiːd/",
+        "pos": "n.",
+        "cn": "速度",
+        "eg": ""
+      },
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "v.",
+        "cn": "做梦，思想不集中",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -145,14 +651,136 @@
     "title": "The latest report",
     "titleCn": "最新消息",
     "scene": "傍晚的电视新闻里，记者正在播报一起案件的最新进展：昨天夜里发生了什么、警察赶到后做了什么、最后抓到了谁。整段都在讲述过去发生的事，是复习一般过去时的好素材。",
-    "grammarTags": ["一般过去时"],
+    "grammarTags": [
+      "一般过去时"
+    ],
     "words": [
-      { "word": "latest", "phon": "/ˈleɪtɪst/", "pos": "adj.", "cn": "最新的", "eg": "Here is the latest news. 这是最新消息。" },
-      { "word": "report", "phon": "/rɪˈpɔːt/", "pos": "n./v.", "cn": "报道；报告", "eg": "I read the report yesterday. 我昨天读了那篇报道。" },
-      { "word": "police", "phon": "/pəˈliːs/", "pos": "n.", "cn": "警察", "eg": "The police arrived quickly. 警察很快就到了。" },
-      { "word": "catch", "phon": "/kætʃ/", "pos": "v.", "cn": "抓住（过去式 caught）", "eg": "The police caught the thief. 警察抓住了小偷。" },
-      { "word": "thief", "phon": "/θiːf/", "pos": "n.", "cn": "小偷", "eg": "The thief ran away fast. 小偷飞快地跑了。" },
-      { "word": "yesterday", "phon": "/ˈjestədeɪ/", "pos": "adv.", "cn": "昨天", "eg": "It happened yesterday. 这事发生在昨天。" }
+      {
+        "word": "latest",
+        "phon": "/ˈleɪtɪst/",
+        "pos": "adj.",
+        "cn": "最新的",
+        "eg": "Here is the latest news. 这是最新消息。"
+      },
+      {
+        "word": "report",
+        "phon": "/rɪˈpɔːt/",
+        "pos": "n./v.",
+        "cn": "报道；报告",
+        "eg": "I read the report yesterday. 我昨天读了那篇报道。"
+      },
+      {
+        "word": "police",
+        "phon": "/pəˈliːs/",
+        "pos": "n.",
+        "cn": "警察",
+        "eg": "The police arrived quickly. 警察很快就到了。"
+      },
+      {
+        "word": "catch",
+        "phon": "/kætʃ/",
+        "pos": "v.",
+        "cn": "抓住（过去式 caught）",
+        "eg": "The police caught the thief. 警察抓住了小偷。"
+      },
+      {
+        "word": "thief",
+        "phon": "/θiːf/",
+        "pos": "n.",
+        "cn": "小偷",
+        "eg": "The thief ran away fast. 小偷飞快地跑了。"
+      },
+      {
+        "word": "yesterday",
+        "phon": "/ˈjestədeɪ/",
+        "pos": "adv.",
+        "cn": "昨天",
+        "eg": "It happened yesterday. 这事发生在昨天。"
+      },
+      {
+        "word": "sign",
+        "phon": "/saɪn/",
+        "pos": "n.",
+        "cn": "标记，牌子",
+        "eg": ""
+      },
+      {
+        "word": "driving licence",
+        "phon": "/'draiviŋ 'laisəns/",
+        "pos": "",
+        "cn": "驾驶执照",
+        "eg": ""
+      },
+      {
+        "word": "charge",
+        "phon": "/tʃɑːdʒ/",
+        "pos": "v.",
+        "cn": "指控，收费",
+        "eg": ""
+      },
+      {
+        "word": "darling",
+        "phon": "/'dɑːlɪŋ/",
+        "pos": "n.",
+        "cn": "亲爱的(用作表示称呼",
+        "eg": ""
+      },
+      {
+        "word": "Egypt",
+        "phon": "/ˈiːdʒɪpt/",
+        "pos": "n.",
+        "cn": "埃及",
+        "eg": ""
+      },
+      {
+        "word": "abroad",
+        "phon": "/ə'brɔːd/",
+        "pos": "adv.",
+        "cn": "国外",
+        "eg": ""
+      },
+      {
+        "word": "worry",
+        "phon": "/'wʌrɪ/",
+        "pos": "v.",
+        "cn": "担心",
+        "eg": ""
+      },
+      {
+        "word": "reporter",
+        "phon": "/rɪ'pɔːtə/",
+        "pos": "n.",
+        "cn": "记者",
+        "eg": ""
+      },
+      {
+        "word": "sensational",
+        "phon": "/sen'seɪʃənl/",
+        "pos": "a.",
+        "cn": "爆炸性的，耸人听闻的",
+        "eg": "That's sensational news, isn't it, Kate?"
+      },
+      {
+        "word": "mink coat",
+        "phon": "/'miŋk-kəut/",
+        "pos": "",
+        "cn": "貂皮大衣",
+        "eg": ""
+      },
+      {
+        "word": "future",
+        "phon": "/'fjuːtʃə/",
+        "pos": "n.",
+        "cn": "未来的",
+        "eg": "I will have to ask my future husband."
+      },
+      {
+        "word": "get married",
+        "phon": "",
+        "pos": "",
+        "cn": "结婚",
+        "eg": "We're going to get married next week."
+      }
     ],
     "grammar": [
       {
@@ -180,14 +808,144 @@
     "title": "A pleasant dream",
     "titleCn": "一个美梦",
     "scene": "周日早晨，姐姐发现弟弟在沙发上睡着了，把他叫醒后问他刚才梦见了什么。弟弟迷迷糊糊地回忆昨晚的美梦：梦里他正在做各种开心的事。重点复习过去进行时。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "pleasant", "phon": "/ˈpleznt/", "pos": "adj.", "cn": "令人愉快的", "eg": "We had a pleasant evening. 我们度过了一个愉快的夜晚。" },
-      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；做梦", "eg": "I had a strange dream last night. 昨晚我做了个奇怪的梦。" },
-      { "word": "asleep", "phon": "/əˈsliːp/", "pos": "adj.", "cn": "睡着的", "eg": "The baby is asleep. 婴儿睡着了。" },
-      { "word": "sofa", "phon": "/ˈsəʊfə/", "pos": "n.", "cn": "沙发", "eg": "He fell asleep on the sofa. 他在沙发上睡着了。" },
-      { "word": "fly", "phon": "/flaɪ/", "pos": "v.", "cn": "飞（过去式 flew）", "eg": "In my dream I flew over the sea. 梦里我飞过大海。" },
-      { "word": "wake", "phon": "/weɪk/", "pos": "v.", "cn": "醒；叫醒（wake up）", "eg": "I woke up at seven. 我七点醒了。" }
+      {
+        "word": "pleasant",
+        "phon": "/ˈpleznt/",
+        "pos": "adj.",
+        "cn": "令人愉快的",
+        "eg": "We had a pleasant evening. 我们度过了一个愉快的夜晚。"
+      },
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "n./v.",
+        "cn": "梦；做梦",
+        "eg": "I had a strange dream last night. 昨晚我做了个奇怪的梦。"
+      },
+      {
+        "word": "asleep",
+        "phon": "/əˈsliːp/",
+        "pos": "adj.",
+        "cn": "睡着的",
+        "eg": "The baby is asleep. 婴儿睡着了。"
+      },
+      {
+        "word": "sofa",
+        "phon": "/ˈsəʊfə/",
+        "pos": "n.",
+        "cn": "沙发",
+        "eg": "He fell asleep on the sofa. 他在沙发上睡着了。"
+      },
+      {
+        "word": "fly",
+        "phon": "/flaɪ/",
+        "pos": "v.",
+        "cn": "飞（过去式 flew）",
+        "eg": "In my dream I flew over the sea. 梦里我飞过大海。"
+      },
+      {
+        "word": "wake",
+        "phon": "/weɪk/",
+        "pos": "v.",
+        "cn": "醒；叫醒（wake up）",
+        "eg": "I woke up at seven. 我七点醒了。"
+      },
+      {
+        "word": "hotel",
+        "phon": "/həʊˈtel/",
+        "pos": "n.",
+        "cn": "饭店",
+        "eg": ""
+      },
+      {
+        "word": "latest",
+        "phon": "/'leɪtɪst/",
+        "pos": "a.",
+        "cn": "最新的",
+        "eg": ""
+      },
+      {
+        "word": "introduce",
+        "phon": "/ɪntrə'djuːs/",
+        "pos": "v.",
+        "cn": "介绍",
+        "eg": ""
+      },
+      {
+        "word": "football",
+        "phon": "/'fʊtbɔːl/",
+        "pos": "n.",
+        "cn": "足球",
+        "eg": "Are you doing the football pools, Brain?"
+      },
+      {
+        "word": "pool",
+        "phon": "/puːl/",
+        "pos": "n.",
+        "cn": "水池，池塘",
+        "eg": ""
+      },
+      {
+        "word": "win",
+        "phon": "/wɪn/",
+        "pos": "v.",
+        "cn": "赢",
+        "eg": "I'm sure we'll win something this week."
+      },
+      {
+        "word": "world",
+        "phon": "/wɜːld/",
+        "pos": "n.",
+        "cn": "世界",
+        "eg": "I want to see the world."
+      },
+      {
+        "word": "poor",
+        "phon": "/pɔ:(r)/",
+        "pos": "a.",
+        "cn": "贫穷的",
+        "eg": "But if we spend all that money we'll be poor again."
+      },
+      {
+        "word": "depend",
+        "phon": "/dɪ'pend/",
+        "pos": "v.",
+        "cn": "依靠",
+        "eg": ""
+      },
+      {
+        "word": "extra",
+        "phon": "/'ekstrə/",
+        "pos": "a.",
+        "cn": "额外的",
+        "eg": ""
+      },
+      {
+        "word": "engineer",
+        "phon": "/endʒɪ'nɪə/",
+        "pos": "n.",
+        "cn": "工程师",
+        "eg": ""
+      },
+      {
+        "word": "overseas",
+        "phon": "/ˌouvər'siːz/",
+        "pos": "a.",
+        "cn": "海外的，国外的",
+        "eg": ""
+      },
+      {
+        "word": "engineering",
+        "phon": "/ˌendʒɪ'nɪrɪŋ/",
+        "pos": "n.",
+        "cn": "工程",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -215,14 +973,137 @@
     "title": "Is that you, John?",
     "titleCn": "是你吗，约翰？",
     "scene": "电话铃响，一个人接起电话，两人先互相确认身份、寒暄几句，然后问对方最近忙不忙、去了哪里、有没有见到共同的朋友。整段对话在现在完成时和一般过去时之间来回切换。",
-    "grammarTags": ["现在完成时", "一般过去时"],
+    "grammarTags": [
+      "现在完成时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "speaking", "phon": "/ˈspiːkɪŋ/", "pos": "v.", "cn": "（电话用语）我就是", "eg": "Hello, John speaking. 你好，我是约翰。" },
-      { "word": "ring", "phon": "/rɪŋ/", "pos": "v.", "cn": "打电话；（铃）响（过去式 rang）", "eg": "The phone rang twice. 电话响了两次。" },
-      { "word": "busy", "phon": "/ˈbɪzi/", "pos": "adj.", "cn": "忙的", "eg": "I have been very busy lately. 我最近一直很忙。" },
-      { "word": "recently", "phon": "/ˈriːsntli/", "pos": "adv.", "cn": "最近", "eg": "Have you seen him recently? 你最近见过他吗？" },
-      { "word": "glad", "phon": "/ɡlæd/", "pos": "adj.", "cn": "高兴的", "eg": "I am glad to hear from you. 收到你的消息我很高兴。" },
-      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "返回", "eg": "He has just returned from Spain. 他刚从西班牙回来。" }
+      {
+        "word": "speaking",
+        "phon": "/ˈspiːkɪŋ/",
+        "pos": "v.",
+        "cn": "（电话用语）我就是",
+        "eg": "Hello, John speaking. 你好，我是约翰。"
+      },
+      {
+        "word": "ring",
+        "phon": "/rɪŋ/",
+        "pos": "v.",
+        "cn": "打电话；（铃）响（过去式 rang）",
+        "eg": "The phone rang twice. 电话响了两次。"
+      },
+      {
+        "word": "busy",
+        "phon": "/ˈbɪzi/",
+        "pos": "adj.",
+        "cn": "忙的",
+        "eg": "I have been very busy lately. 我最近一直很忙。"
+      },
+      {
+        "word": "recently",
+        "phon": "/ˈriːsntli/",
+        "pos": "adv.",
+        "cn": "最近",
+        "eg": "Have you seen him recently? 你最近见过他吗？"
+      },
+      {
+        "word": "glad",
+        "phon": "/ɡlæd/",
+        "pos": "adj.",
+        "cn": "高兴的",
+        "eg": "I am glad to hear from you. 收到你的消息我很高兴。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v.",
+        "cn": "返回",
+        "eg": "He has just returned from Spain. 他刚从西班牙回来。"
+      },
+      {
+        "word": "company",
+        "phon": "/'kʌmp(ə)nɪ/",
+        "pos": "n.",
+        "cn": "公司",
+        "eg": "You work for the Overseas Engineering Company, don't you?"
+      },
+      {
+        "word": "line",
+        "phon": "/laɪn/",
+        "pos": "n.",
+        "cn": "线",
+        "eg": "I'm John Smith the telephone engineer and I'm repairing your telephone line."
+      },
+      {
+        "word": "excited",
+        "phon": "/ɪk'saɪtɪd/",
+        "pos": "a.",
+        "cn": "兴奋的",
+        "eg": ""
+      },
+      {
+        "word": "get on",
+        "phon": "",
+        "pos": "",
+        "cn": "登上",
+        "eg": ""
+      },
+      {
+        "word": "middle-aged",
+        "phon": "/'midl'eidʒid/",
+        "pos": "a.",
+        "cn": "中年的",
+        "eg": ""
+      },
+      {
+        "word": "opposite",
+        "phon": "/'ɒpəzɪt; -sɪt/",
+        "pos": "prep.",
+        "cn": "在…对面",
+        "eg": ""
+      },
+      {
+        "word": "curiously",
+        "phon": "/'kjʊrɪəslɪ/",
+        "pos": "adv.",
+        "cn": "好奇地",
+        "eg": ""
+      },
+      {
+        "word": "funny",
+        "phon": "/'fʌnɪ/",
+        "pos": "a.",
+        "cn": "可笑的，滑稽的",
+        "eg": ""
+      },
+      {
+        "word": "powder",
+        "phon": "/'paudər/",
+        "pos": "n.",
+        "cn": "香粉",
+        "eg": ""
+      },
+      {
+        "word": "compact",
+        "phon": "/kəm'pækt/",
+        "pos": "n.",
+        "cn": "带镜的化妆盒",
+        "eg": ""
+      },
+      {
+        "word": "kindly",
+        "phon": "/'kaɪndlɪ/",
+        "pos": "adv.",
+        "cn": "和蔼地",
+        "eg": ""
+      },
+      {
+        "word": "ugly",
+        "phon": "/'ʌglɪ/",
+        "pos": "a.",
+        "cn": "丑陋的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -250,14 +1131,144 @@
     "title": "Sally's first train ride",
     "titleCn": "萨莉第一次坐火车",
     "scene": "小女孩萨莉第一次坐火车，一路上兴奋地趴在窗边，看着飞驰而过的田野、河流和小村庄。妈妈坐在旁边，一样样指给她看，告诉她那是什么。重点复习一般过去时叙事与过去进行时写景。",
-    "grammarTags": ["一般过去时", "过去进行时"],
+    "grammarTags": [
+      "一般过去时",
+      "过去进行时"
+    ],
     "words": [
-      { "word": "ride", "phon": "/raɪd/", "pos": "n./v.", "cn": "乘坐；骑（过去式 rode）", "eg": "She had her first train ride. 她第一次坐了火车。" },
-      { "word": "window", "phon": "/ˈwɪndəʊ/", "pos": "n.", "cn": "窗户", "eg": "She looked out of the window. 她望着窗外。" },
-      { "word": "field", "phon": "/fiːld/", "pos": "n.", "cn": "田野", "eg": "Cows were eating grass in the field. 牛在田里吃草。" },
-      { "word": "river", "phon": "/ˈrɪvə/", "pos": "n.", "cn": "河流", "eg": "The train crossed a wide river. 火车驶过一条宽阔的河。" },
-      { "word": "village", "phon": "/ˈvɪlɪdʒ/", "pos": "n.", "cn": "村庄", "eg": "They passed a small village. 他们经过一个小村庄。" },
-      { "word": "excited", "phon": "/ɪkˈsaɪtɪd/", "pos": "adj.", "cn": "兴奋的", "eg": "Sally was very excited on the train. 萨莉在火车上很兴奋。" }
+      {
+        "word": "ride",
+        "phon": "/raɪd/",
+        "pos": "n./v.",
+        "cn": "乘坐；骑（过去式 rode）",
+        "eg": "She had her first train ride. 她第一次坐了火车。"
+      },
+      {
+        "word": "window",
+        "phon": "/ˈwɪndəʊ/",
+        "pos": "n.",
+        "cn": "窗户",
+        "eg": "She looked out of the window. 她望着窗外。"
+      },
+      {
+        "word": "field",
+        "phon": "/fiːld/",
+        "pos": "n.",
+        "cn": "田野",
+        "eg": "Cows were eating grass in the field. 牛在田里吃草。"
+      },
+      {
+        "word": "river",
+        "phon": "/ˈrɪvə/",
+        "pos": "n.",
+        "cn": "河流",
+        "eg": "The train crossed a wide river. 火车驶过一条宽阔的河。"
+      },
+      {
+        "word": "village",
+        "phon": "/ˈvɪlɪdʒ/",
+        "pos": "n.",
+        "cn": "村庄",
+        "eg": "They passed a small village. 他们经过一个小村庄。"
+      },
+      {
+        "word": "excited",
+        "phon": "/ɪkˈsaɪtɪd/",
+        "pos": "adj.",
+        "cn": "兴奋的",
+        "eg": "Sally was very excited on the train. 萨莉在火车上很兴奋。"
+      },
+      {
+        "word": "amused",
+        "phon": "/ə'mju:zd/",
+        "pos": "a.",
+        "cn": "有趣的",
+        "eg": "Sally was amused, but I was very embarrassed!"
+      },
+      {
+        "word": "smile",
+        "phon": "/smaɪl/",
+        "pos": "v.",
+        "cn": "微笑",
+        "eg": ""
+      },
+      {
+        "word": "embarrassed",
+        "phon": "/ɪm'bærəst/",
+        "pos": "a.",
+        "cn": "尴尬的，窘迫",
+        "eg": "Sally was amused, but I was very embarrassed!"
+      },
+      {
+        "word": "worried",
+        "phon": "/'wʌrɪd/",
+        "pos": "a.",
+        "cn": "担心，担忧",
+        "eg": ""
+      },
+      {
+        "word": "regularly",
+        "phon": "/'reɡjələli/",
+        "pos": "adv.",
+        "cn": "经常地，定期",
+        "eg": ""
+      },
+      {
+        "word": "surround",
+        "phon": "/sə'raund/",
+        "pos": "v.",
+        "cn": "包围",
+        "eg": ""
+      },
+      {
+        "word": "wood",
+        "phon": "/wʊd/",
+        "pos": "n.",
+        "cn": "树林",
+        "eg": ""
+      },
+      {
+        "word": "beauty spot",
+        "phon": "",
+        "pos": "",
+        "cn": "风景点",
+        "eg": ""
+      },
+      {
+        "word": "hundred",
+        "phon": "/'hʌndrəd/",
+        "pos": "n.",
+        "cn": "一百",
+        "eg": ""
+      },
+      {
+        "word": "city",
+        "phon": "/'sɪtɪ/",
+        "pos": "n.",
+        "cn": "城市",
+        "eg": ""
+      },
+      {
+        "word": "through",
+        "phon": "/θruː/",
+        "pos": "prep.",
+        "cn": "穿过",
+        "eg": ""
+      },
+      {
+        "word": "visitor",
+        "phon": "/'vɪzɪtə/",
+        "pos": "n.",
+        "cn": "参观者，游客，来访者",
+        "eg": ""
+      },
+      {
+        "word": "tidy",
+        "phon": "/'taɪdɪ/",
+        "pos": "a.",
+        "cn": "整齐的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -285,14 +1296,137 @@
     "title": "A walk through the woods",
     "titleCn": "林中散步",
     "scene": "周末一家人到郊外的树林里散步，孩子们跑在前面捡树叶、追蝴蝶，大人在后面边走边聊。走着走着，天忽然下起了小雨，大家笑着一起往回跑。重点是过去进行时与一般过去时的结合。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "wood", "phon": "/wʊd/", "pos": "n.", "cn": "树林（常用复数 woods）", "eg": "We walked through the woods. 我们穿过树林。" },
-      { "word": "path", "phon": "/pɑːθ/", "pos": "n.", "cn": "小路", "eg": "A narrow path led into the forest. 一条窄路通向森林。" },
-      { "word": "leaf", "phon": "/liːf/", "pos": "n.", "cn": "树叶（复数 leaves）", "eg": "The children picked up some leaves. 孩子们捡了些树叶。" },
-      { "word": "butterfly", "phon": "/ˈbʌtəflaɪ/", "pos": "n.", "cn": "蝴蝶", "eg": "A butterfly landed on the flower. 一只蝴蝶落在花上。" },
-      { "word": "rain", "phon": "/reɪn/", "pos": "v./n.", "cn": "下雨；雨", "eg": "It began to rain suddenly. 突然下起雨来。" },
-      { "word": "suddenly", "phon": "/ˈsʌdənli/", "pos": "adv.", "cn": "突然", "eg": "Suddenly the sky went dark. 天突然暗了下来。" }
+      {
+        "word": "wood",
+        "phon": "/wʊd/",
+        "pos": "n.",
+        "cn": "树林（常用复数 woods）",
+        "eg": "We walked through the woods. 我们穿过树林。"
+      },
+      {
+        "word": "path",
+        "phon": "/pɑːθ/",
+        "pos": "n.",
+        "cn": "小路",
+        "eg": "A narrow path led into the forest. 一条窄路通向森林。"
+      },
+      {
+        "word": "leaf",
+        "phon": "/liːf/",
+        "pos": "n.",
+        "cn": "树叶（复数 leaves）",
+        "eg": "The children picked up some leaves. 孩子们捡了些树叶。"
+      },
+      {
+        "word": "butterfly",
+        "phon": "/ˈbʌtəflaɪ/",
+        "pos": "n.",
+        "cn": "蝴蝶",
+        "eg": "A butterfly landed on the flower. 一只蝴蝶落在花上。"
+      },
+      {
+        "word": "rain",
+        "phon": "/reɪn/",
+        "pos": "v./n.",
+        "cn": "下雨；雨",
+        "eg": "It began to rain suddenly. 突然下起雨来。"
+      },
+      {
+        "word": "suddenly",
+        "phon": "/ˈsʌdənli/",
+        "pos": "adv.",
+        "cn": "突然",
+        "eg": "Suddenly the sky went dark. 天突然暗了下来。"
+      },
+      {
+        "word": "litter",
+        "phon": "/'lɪtə/",
+        "pos": "n.",
+        "cn": "杂乱的东西",
+        "eg": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere."
+      },
+      {
+        "word": "litter basket",
+        "phon": "",
+        "pos": "",
+        "cn": "废物筐",
+        "eg": ""
+      },
+      {
+        "word": "place",
+        "phon": "/pleɪs/",
+        "pos": "v.",
+        "cn": "放置",
+        "eg": ""
+      },
+      {
+        "word": "throw",
+        "phon": "/θrəʊ/",
+        "pos": "v.",
+        "cn": "扔， 抛",
+        "eg": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere."
+      },
+      {
+        "word": "rubbish",
+        "phon": "/'rʌbɪʃ/",
+        "pos": "n.",
+        "cn": "垃圾",
+        "eg": "Litter baskets have been placed under the trees, but people still throw their rubbish everywhere."
+      },
+      {
+        "word": "count",
+        "phon": "/kaʊnt/",
+        "pos": "v.",
+        "cn": "数，点",
+        "eg": ""
+      },
+      {
+        "word": "cover",
+        "phon": "/'kʌvə/",
+        "pos": "v.",
+        "cn": "覆盖",
+        "eg": ""
+      },
+      {
+        "word": "piece",
+        "phon": "/piːs/",
+        "pos": "n.",
+        "cn": "碎片",
+        "eg": ""
+      },
+      {
+        "word": "tyre",
+        "phon": "/'taɪə/",
+        "pos": "n.",
+        "cn": "轮胎",
+        "eg": ""
+      },
+      {
+        "word": "rusty",
+        "phon": "/'rʌstɪ/",
+        "pos": "a.",
+        "cn": "生锈的",
+        "eg": "cigarette ends, old tyres, empty bottles and rusty tins."
+      },
+      {
+        "word": "among",
+        "phon": "/ə'mʌŋ/",
+        "pos": "prep.",
+        "cn": "在…之间",
+        "eg": "Among the rubbish, I found a sign which said, 'Anyone who leaves litter in these woods will be prosecuted!'"
+      },
+      {
+        "word": "prosecute",
+        "phon": "/'prɑːsɪkjuːt/",
+        "pos": "v.",
+        "cn": "依法处置",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

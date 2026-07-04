@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-rest-01",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Call to Reserve",
+    "titleCn": "第1环：电话预订",
+    "scene": "周五下午，你打电话预订今晚的餐厅座位。（对话链：外出就餐）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "红叶餐厅，有什么可以帮您？", "en": "Maple Leaf Restaurant. How may I help you?" },
+      { "role": "You", "cn": "我想订今晚七点半，两位。", "en": "I'd like a table for two tonight at seven thirty." },
+      { "role": "Host", "cn": "姓什么？有靠窗偏好吗？", "en": "Name? Any seating preference?" },
+      { "role": "You", "cn": "张伟，靠窗最好，有花生过敏。", "en": "Zhang Wei. Window if possible. Peanut allergy." },
+      { "role": "Host", "cn": "记下了，保留十五分钟。", "en": "Noted. We'll hold it for fifteen minutes." },
+      { "role": "You", "cn": "谢谢，晚上见。", "en": "Thank you. See you tonight." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-02",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Arrive and Be Seated",
+    "titleCn": "第2环：到店入座",
+    "scene": "七点二十五，你和朋友到了餐厅门口。（对话链：外出就餐）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "You", "cn": "晚上好，预订了七点半，张伟，两位。", "en": "Good evening. Reservation at seven thirty, Zhang Wei, party of two." },
+      { "role": "Host", "cn": "欢迎光临，靠窗准备好了，请跟我来。", "en": "Welcome. Your window table is ready. Right this way." },
+      { "role": "You", "cn": "太好了，能先上杯水吗？", "en": "Great. Could we get water first?" },
+      { "role": "Host", "cn": "当然，服务员马上来。", "en": "Of course. Your server will be right over." },
+      { "role": "You", "cn": "菜单可以看看吗？", "en": "May we see the menus?" },
+      { "role": "Host", "cn": "在桌上，祝用餐愉快。", "en": "They're on the table. Enjoy your meal." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-03",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Order Food",
+    "titleCn": "第3环：点菜",
+    "scene": "服务员来点餐，你和朋友各点一份。（对话链：外出就餐）",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "Waiter", "cn": "晚上好，准备好点餐了吗？", "en": "Good evening. Ready to order?" },
+      { "role": "You", "cn": "我要烤三文鱼，配菜换西兰花。", "en": "I'll have grilled salmon. Swap the sides for broccoli." },
+      { "role": "Waiter", "cn": "饮料呢？", "en": "Anything to drink?" },
+      { "role": "You", "cn": "柠檬水，少冰。", "en": "Lemonade, light ice." },
+      { "role": "Waiter", "cn": "前菜要面包篮吗？", "en": "Would you like the bread basket?" },
+      { "role": "You", "cn": "要，谢谢。", "en": "Yes, please." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-04",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Confirm Allergy",
+    "titleCn": "第4环：确认过敏",
+    "scene": "你再次跟服务员确认花生过敏事项。（对话链：外出就餐）",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "提醒一下，我对花生严重过敏。", "en": "Just a reminder, I'm severely allergic to peanuts." },
+      { "role": "Waiter", "cn": "预订里看到了，厨房会分开处理。", "en": "I see it on the reservation. The kitchen will handle it separately." },
+      { "role": "You", "cn": "酱汁里也没有花生吧？", "en": "The sauces are peanut-free too?" },
+      { "role": "Waiter", "cn": "三文鱼配柠檬黄油酱，安全的。", "en": "The salmon comes with lemon butter. That's safe." },
+      { "role": "You", "cn": "太好了，谢谢确认。", "en": "Perfect. Thanks for checking." },
+      { "role": "Waiter", "cn": "我会在订单上特别标注。", "en": "I'll flag it on the ticket." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-05",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Food Is Slow",
+    "titleCn": "第5环：菜上慢了",
+    "scene": "等了二十五分钟主菜还没来，你礼貌询问。（对话链：外出就餐）",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我们的主菜大概还要多久？", "en": "Excuse me, how much longer on our mains?" },
+      { "role": "Waiter", "cn": "厨房有点忙，大约五分钟。", "en": "The kitchen's backed up. About five more minutes." },
+      { "role": "You", "cn": "没问题，能再加点水吗？", "en": "No problem. Could we get more water?" },
+      { "role": "Waiter", "cn": "马上来，抱歉让您久等。", "en": "Right away. Sorry for the wait." },
+      { "role": "You", "cn": "没事，理解。", "en": "It's okay. We understand." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-06",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Wrong Side Dish",
+    "titleCn": "第6环：配菜上错",
+    "scene": "主菜来了，但你的配菜不是西兰花。（对话链：外出就餐）",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "抱歉，我点的是西兰花，不是薯条。", "en": "Sorry, I asked for broccoli, not fries." },
+      { "role": "Waiter", "cn": "非常抱歉，我马上换。", "en": "My apologies. I'll swap it right away." },
+      { "role": "You", "cn": "三文鱼看起来很好，不用重做。", "en": "The salmon looks great. No need to remake that." },
+      { "role": "Waiter", "cn": "谢谢理解，两分钟。", "en": "Thank you. Two minutes." },
+      { "role": "You", "cn": "好的。", "en": "Okay." }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-07",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Pay the Bill",
+    "titleCn": "第7环：结账",
+    "scene": "用餐结束，你准备结账。（对话链：外出就餐）",
+    "roles": ["You", "Waiter"],
+    "turns": [
+      { "role": "You", "cn": "买单，谢谢。", "en": "Could we have the check, please?" },
+      { "role": "Waiter", "cn": "一共六十八块，含小费吗？", "en": "That's sixty-eight dollars. Is tip included?" },
+      { "role": "You", "cn": "不含的话我付百分之十八小费。", "en": "If not, I'll add eighteen percent." },
+      { "role": "Waiter", "cn": "小费不含，刷卡在这。", "en": "Tip isn't included. You can pay here." },
+      { "role": "You", "cn": "刷卡，服务很好。", "en": "Card, please. Service was excellent." },
+      { "role": "Waiter", "cn": "谢谢光临！", "en": "Thank you for coming!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-rest-08",
+    "category": "restaurant",
+    "chain": {
+      "id": "dining-out",
+      "title": "A Night Out Dining",
+      "titleCn": "对话链：外出就餐一晚",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Leave a Review",
+    "titleCn": "第8环：离店评价",
+    "scene": "走出餐厅，朋友问你今晚怎么样。（对话链：外出就餐）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "怎么样？还会再来吗？", "en": "How was it? Would you come back?" },
+      { "role": "You", "cn": "鱼不错，就是上菜慢了点。", "en": "The fish was good. Just a bit slow." },
+      { "role": "Friend", "cn": "我帮你在 Google 写个好评？", "en": "Want me to leave a good Google review?" },
+      { "role": "You", "cn": "行，记得提一下过敏处理得好。", "en": "Sure. Mention they handled the allergy well." },
+      { "role": "Friend", "cn": "下周换一家试试？", "en": "Try a new place next week?" },
+      { "role": "You", "cn": "好啊，你来订。", "en": "Sounds good. You book it." }
+    ]
+  }
+]

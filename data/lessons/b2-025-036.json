@@ -5,7 +5,10 @@
     "title": "Do the English speak English?",
     "titleCn": "英国人讲的是英语吗？",
     "scene": "作者第一次到伦敦，在火车站想找人问路。他向一位搬运工询问怎么去旅馆，对方语速飞快、口音浓重，作者几乎一个词也没听懂，连问几遍仍是一头雾水，最后只好自嘲：英国人讲的到底是不是英语？全文以第一人称回忆这段经历，通篇使用一般过去时叙事，而作者转述自己心里的疑问和对方的回答时，大量使用宾语从句（I asked him if…, I did not know what he said…），这正是本课要掌握的核心句型。",
-    "grammarTags": ["宾语从句", "一般过去时"],
+    "grammarTags": [
+      "宾语从句",
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "railway",
@@ -62,6 +65,69 @@
         "pos": "n.",
         "cn": "旅馆，酒店",
         "eg": "I asked the way to a cheap hotel near the station. 我打听去车站附近一家便宜旅馆的路。"
+      },
+      {
+        "word": "bicycle",
+        "phon": "/'baɪsɪkl/",
+        "pos": "n.",
+        "cn": "自行车",
+        "eg": ""
+      },
+      {
+        "word": "save",
+        "phon": "/seɪv/",
+        "pos": "v.",
+        "cn": "积蓄",
+        "eg": ""
+      },
+      {
+        "word": "workshop",
+        "phon": "/'wɜːkʃɒp/",
+        "pos": "n.",
+        "cn": "车间",
+        "eg": ""
+      },
+      {
+        "word": "helper",
+        "phon": "/'helpə(r)/",
+        "pos": "n.",
+        "cn": "帮手，助手",
+        "eg": ""
+      },
+      {
+        "word": "employ",
+        "phon": "/ɪm'plɔɪ/",
+        "pos": "v.",
+        "cn": "雇佣",
+        "eg": ""
+      },
+      {
+        "word": "grandson",
+        "phon": "/'græn(d)sʌn/",
+        "pos": "n.",
+        "cn": "孙子",
+        "eg": ""
+      },
+      {
+        "word": "once",
+        "phon": "/wʌns/",
+        "pos": "adv.",
+        "cn": "曾经，以前",
+        "eg": ""
+      },
+      {
+        "word": "temptation",
+        "phon": "/tem(p)'teɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "诱惑",
+        "eg": ""
+      },
+      {
+        "word": "article",
+        "phon": "/'ɑːtɪk(ə)l/",
+        "pos": "n.",
+        "cn": "物品，东西",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -98,7 +164,10 @@
     "title": "The best art critics",
     "titleCn": "最佳美术评论家",
     "scene": "作者是学美术的学生，自认为对绘画很在行。可他觉得最好的评论家却是自己四岁的小妹妹：小姑娘看画从不装腔作势，有一次她把一幅现代抽象画倒过来欣赏，反而让作者发现画作换个角度更有味道。全文用一般现在时描述作者一贯的看法和小妹妹一贯的习惯，而作者表达观点时反复借助宾语从句（I think that…, She always tells me whether…），宾语从句与一般现在时的配合正是本课语法主线。",
-    "grammarTags": ["宾语从句", "一般现在时"],
+    "grammarTags": [
+      "宾语从句",
+      "一般现在时"
+    ],
     "words": [
       {
         "word": "art",
@@ -155,6 +224,69 @@
         "pos": "v.",
         "cn": "欣赏，鉴赏",
         "eg": "You do not need special training to appreciate a beautiful picture. 欣赏一幅美丽的画并不需要专门的训练。"
+      },
+      {
+        "word": "wrap",
+        "phon": "/ræp/",
+        "pos": "v.",
+        "cn": "包裹",
+        "eg": ""
+      },
+      {
+        "word": "simply",
+        "phon": "/'sɪmplɪ/",
+        "pos": "adv.",
+        "cn": "仅仅",
+        "eg": ""
+      },
+      {
+        "word": "arrest",
+        "phon": "/ə'rest/",
+        "pos": "v.",
+        "cn": "逮捕",
+        "eg": ""
+      },
+      {
+        "word": "darkness",
+        "phon": "/'dɑ:knis/",
+        "pos": "n.",
+        "cn": "黑暗",
+        "eg": ""
+      },
+      {
+        "word": "explain",
+        "phon": "/ɪk'spleɪn/",
+        "pos": "v.",
+        "cn": "解释，叙述",
+        "eg": ""
+      },
+      {
+        "word": "coast",
+        "phon": "/kəʊst/",
+        "pos": "n.",
+        "cn": "海岸",
+        "eg": ""
+      },
+      {
+        "word": "storm",
+        "phon": "/stɔːm/",
+        "pos": "n.",
+        "cn": "暴风雨",
+        "eg": ""
+      },
+      {
+        "word": "towards",
+        "phon": "/tə'wɔːdz; twɔːdz; 'tɔːdz/",
+        "pos": "prep.",
+        "cn": "接近",
+        "eg": ""
+      },
+      {
+        "word": "rock",
+        "phon": "/rɒk/",
+        "pos": "n.",
+        "cn": "岩石，礁石",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -191,7 +323,10 @@
     "title": "A wet night",
     "titleCn": "雨夜",
     "scene": "几个男孩子外出野营。他们傍晚到达营地后先搭起帐篷，接着生火做饭，晚饭后围着篝火唱歌讲故事，深夜才钻进睡袋入睡。没想到半夜下起大雨，附近的小河涨水漫进了帐篷，孩子们被冰凉的河水惊醒，只好摸黑收拾行李连夜转移。全文按时间顺序用一般过去时讲述野营经过，其中 as soon as、when、after 引导的时间状语从句把一个个动作串成清晰的先后链条，是本课的语法重点。",
-    "grammarTags": ["一般过去时", "时间状语从句"],
+    "grammarTags": [
+      "一般过去时",
+      "时间状语从句"
+    ],
     "words": [
       {
         "word": "tent",
@@ -248,6 +383,69 @@
         "pos": "n.",
         "cn": "小溪，小河",
         "eg": "Heavy rain made the little stream rise quickly. 大雨使小溪的水位迅速上涨。"
+      },
+      {
+        "word": "shore",
+        "phon": "/ʃɔːr/",
+        "pos": "n.",
+        "cn": "海岸",
+        "eg": ""
+      },
+      {
+        "word": "light",
+        "phon": "/laɪt/",
+        "pos": "n.",
+        "cn": "灯光",
+        "eg": ""
+      },
+      {
+        "word": "ahead",
+        "phon": "/ə'hed/",
+        "pos": "adv.",
+        "cn": "在前面",
+        "eg": ""
+      },
+      {
+        "word": "cliff",
+        "phon": "/klɪf/",
+        "pos": "n.",
+        "cn": "峭壁",
+        "eg": ""
+      },
+      {
+        "word": "struggle",
+        "phon": "/'strʌg(ə)l/",
+        "pos": "v.",
+        "cn": "挣扎",
+        "eg": ""
+      },
+      {
+        "word": "hospital",
+        "phon": "/'hɒspɪt(ə)l/",
+        "pos": "n.",
+        "cn": "医院",
+        "eg": ""
+      },
+      {
+        "word": "station",
+        "phon": "/'steɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "(警察)局",
+        "eg": ""
+      },
+      {
+        "word": "most",
+        "phon": "/məʊst/",
+        "pos": "adv.",
+        "cn": "相当，非常",
+        "eg": ""
+      },
+      {
+        "word": "while",
+        "phon": "/waɪl/",
+        "pos": "n.",
+        "cn": "一段时间",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -284,7 +482,10 @@
     "title": "No parking",
     "titleCn": "禁止停车",
     "scene": "Jasper White 是少数至今仍相信古老神话的人之一。他家门前的空地总被人乱停车，立牌警告也毫无用处。于是他从神话里找灵感，在花园里挂出蛇发女妖美杜莎的头像——传说中凡直视她的人都会变成石头。说来奇怪，自从挂上这个可怕的头像，再也没有人敢把车停在他家门口了。课文介绍人物和讲述近况时大量使用定语从句（one of the few people who…, drivers who park there…）和现在完成时（has put, has never had trouble since…），两者正是本课语法主线。",
-    "grammarTags": ["定语从句", "现在完成时"],
+    "grammarTags": [
+      "定语从句",
+      "现在完成时"
+    ],
     "words": [
       {
         "word": "rare",
@@ -341,6 +542,69 @@
         "pos": "v.",
         "cn": "停放（车辆）",
         "eg": "You must not park your car in front of this gate. 你不可以把车停在这个大门前。"
+      },
+      {
+        "word": "regret",
+        "phon": "/rɪ'gret/",
+        "pos": "v.",
+        "cn": "后悔",
+        "eg": ""
+      },
+      {
+        "word": "far",
+        "phon": "/fɑː/",
+        "pos": "adv.",
+        "cn": "非常",
+        "eg": ""
+      },
+      {
+        "word": "rush",
+        "phon": "/rʌʃ/",
+        "pos": "v.",
+        "cn": "冲",
+        "eg": ""
+      },
+      {
+        "word": "act",
+        "phon": "/ækt/",
+        "pos": "v.",
+        "cn": "行动",
+        "eg": ""
+      },
+      {
+        "word": "straight",
+        "phon": "/streɪt/",
+        "pos": "adv.",
+        "cn": "径直",
+        "eg": ""
+      },
+      {
+        "word": "fright",
+        "phon": "/fraɪt/",
+        "pos": "n.",
+        "cn": "害怕",
+        "eg": ""
+      },
+      {
+        "word": "battered",
+        "phon": "/'bætəd/",
+        "pos": "a.",
+        "cn": "撞坏的",
+        "eg": ""
+      },
+      {
+        "word": "shortly",
+        "phon": "/'ʃɔːrtli/",
+        "pos": "adv.",
+        "cn": "很快，不久",
+        "eg": ""
+      },
+      {
+        "word": "afterwards",
+        "phon": "/'ɑːftəwədz/",
+        "pos": "adv.",
+        "cn": "以后",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -377,7 +641,10 @@
     "title": "Taxi!",
     "titleCn": "出租汽车！",
     "scene": "Ben Fawcett 机长买了一架小型飞机，把它当作\"空中出租车\"来经营。这些年来他接过各种稀奇古怪的生意：送乘客去偏远的农场、给灯塔运送补给，甚至载人环岛观光。其中最惊人的一单，是应邀把飞机稳稳降落在一栋公寓大楼的楼顶上。课文先用现在完成时概括机长\"至今为止\"的经历（has bought, has flown, has carried out…），再用一般过去时具体讲述楼顶降落那一次冒险，两种时态的配合与转换正是本课语法核心。",
-    "grammarTags": ["现在完成时", "一般过去时"],
+    "grammarTags": [
+      "现在完成时",
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "pilot",
@@ -434,6 +701,69 @@
         "pos": "n.",
         "cn": "乘客",
         "eg": "The plane is so small that it can only take one passenger. 这架飞机很小，只能搭载一名乘客。"
+      },
+      {
+        "word": "record",
+        "phon": "/(for v.)rɪˈkɔːd; (for n.) ˈrekɔːd/",
+        "pos": "n.",
+        "cn": "记录",
+        "eg": ""
+      },
+      {
+        "word": "strong",
+        "phon": "/strɒŋ/",
+        "pos": "a.",
+        "cn": "强壮的",
+        "eg": ""
+      },
+      {
+        "word": "swimmer",
+        "phon": "/'swɪmə/",
+        "pos": "n.",
+        "cn": "游泳运动员",
+        "eg": ""
+      },
+      {
+        "word": "succeed",
+        "phon": "/sək'siːd/",
+        "pos": "v.",
+        "cn": "成功",
+        "eg": ""
+      },
+      {
+        "word": "train",
+        "phon": "/treɪn/",
+        "pos": "v.",
+        "cn": "训练",
+        "eg": ""
+      },
+      {
+        "word": "anxiously",
+        "phon": "/'æŋkʃəsli/",
+        "pos": "adv.",
+        "cn": "焦急地",
+        "eg": ""
+      },
+      {
+        "word": "intend",
+        "phon": "/ɪn'tend/",
+        "pos": "v.",
+        "cn": "打算",
+        "eg": ""
+      },
+      {
+        "word": "solid",
+        "phon": "/'sɑːlɪd/",
+        "pos": "a.",
+        "cn": "固体的，硬的",
+        "eg": ""
+      },
+      {
+        "word": "Olympic",
+        "phon": "/əˈlɪmpɪk/",
+        "pos": "a.",
+        "cn": "奥林匹克的",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -470,7 +800,10 @@
     "title": "Football or polo?",
     "titleCn": "足球还是水球？",
     "scene": "作者的家坐落在河边，夏天他常坐在花园里看河上来往的小船。一天傍晚，一个男子撑着平底船缓缓经过，忽然一只皮球不知从哪儿飞来，不偏不倚砸在他身上。男子以为是坐在岸边的作者踢的，怒气冲冲地把球一脚踢回河里，扬长而去，弄得作者哭笑不得——球其实是附近玩耍的孩子们踢过来的。全文用一般过去时讲述这场误会，而 across, towards, into, past, out of 等介词精确描绘了球和船的运动轨迹，是本课的第二个学习重点。",
-    "grammarTags": ["一般过去时", "介词"],
+    "grammarTags": [
+      "一般过去时",
+      "介词"
+    ],
     "words": [
       {
         "word": "polo",
@@ -527,6 +860,69 @@
         "pos": "v.",
         "cn": "使恼怒，使生气",
         "eg": "It annoyed him that everyone on the bank was laughing. 岸上的人都在笑，这让他十分恼火。"
+      },
+      {
+        "word": "hold",
+        "phon": "/həʊld/",
+        "pos": "v.",
+        "cn": "召开",
+        "eg": ""
+      },
+      {
+        "word": "government",
+        "phon": "/ˈgʌvənmənt/",
+        "pos": "n.",
+        "cn": "政府",
+        "eg": ""
+      },
+      {
+        "word": "immense",
+        "phon": "/ɪ'mens/",
+        "pos": "a.",
+        "cn": "巨大的",
+        "eg": ""
+      },
+      {
+        "word": "stadium",
+        "phon": "/'steɪdɪəm/",
+        "pos": "n.",
+        "cn": "露天体育场",
+        "eg": ""
+      },
+      {
+        "word": "standard",
+        "phon": "/'stændəd/",
+        "pos": "n.",
+        "cn": "标准",
+        "eg": ""
+      },
+      {
+        "word": "capital",
+        "phon": "/'kæpɪt(ə)l/",
+        "pos": "n.",
+        "cn": "首都",
+        "eg": ""
+      },
+      {
+        "word": "fantastic",
+        "phon": "/fæn'tæstɪk/",
+        "pos": "a.",
+        "cn": "巨大的",
+        "eg": ""
+      },
+      {
+        "word": "design",
+        "phon": "/dɪ'zaɪn/",
+        "pos": "v.",
+        "cn": "设计",
+        "eg": ""
+      },
+      {
+        "word": "except",
+        "phon": "/ɪkˈsept/",
+        "pos": "prep.",
+        "cn": "除了",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -563,7 +959,10 @@
     "title": "Success story",
     "titleCn": "成功者的故事",
     "scene": "退休富商 Frank 在自家花园里招待客人，向大家回忆起自己的创业史：年轻时家里穷，他从一家修车行的小工干起，一周只挣很少的钱；干了几年后，他向别人借了一笔钱，开了一间小小的修理铺；凭着勤奋和诚信，生意越做越大，如今他已拥有一家大汽车公司，连儿子也当上了公司经理。讲述往事时，课文用过去完成时交代\"更早之前\"发生的背景（had worked, had saved, had borrowed），再用一般过去时推进故事，两个时态的先后配合是本课语法核心。",
-    "grammarTags": ["过去完成时", "一般过去时"],
+    "grammarTags": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "retire",
@@ -620,6 +1019,69 @@
         "pos": "n.",
         "cn": "经理",
         "eg": "His son has become the manager of the company. 他的儿子已经当上了公司的经理。"
+      },
+      {
+        "word": "Mediterranean",
+        "phon": "/ˌmeditə'reiniən/",
+        "pos": "n.",
+        "cn": "(the～)地中海",
+        "eg": ""
+      },
+      {
+        "word": "complain",
+        "phon": "/kəm'pleɪn/",
+        "pos": "v.",
+        "cn": "抱怨",
+        "eg": ""
+      },
+      {
+        "word": "continually",
+        "phon": "/kən'tɪnjʊəlɪ/",
+        "pos": "adv.",
+        "cn": "不断地",
+        "eg": ""
+      },
+      {
+        "word": "bitterly",
+        "phon": "/'bɪtəlɪ/",
+        "pos": "adv.",
+        "cn": "刺骨地",
+        "eg": ""
+      },
+      {
+        "word": "sunshine",
+        "phon": "/'sʌnʃaɪn/",
+        "pos": "n.",
+        "cn": "阳光",
+        "eg": ""
+      },
+      {
+        "word": "operation",
+        "phon": "/ɒpə'reɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "手术",
+        "eg": ""
+      },
+      {
+        "word": "successful",
+        "phon": "/sək'sesfʊl; -f(ə)l/",
+        "pos": "a.",
+        "cn": "成功的",
+        "eg": ""
+      },
+      {
+        "word": "following",
+        "phon": "/'fɒləʊɪŋ/",
+        "pos": "a.",
+        "cn": "下一个",
+        "eg": ""
+      },
+      {
+        "word": "patient",
+        "phon": "/'peɪʃ(ə)nt/",
+        "pos": "n.",
+        "cn": "病人",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -656,7 +1118,10 @@
     "title": "Shopping made easy",
     "titleCn": "购物变得轻松",
     "scene": "如今商店购物越来越方便，可有些人却把\"方便\"用歪了。一名商店侦探注意到一个行为可疑的女子：她在柜台间转悠，趁店员不注意，把一件件商品悄悄塞进自己的大衣里，自以为神不知鬼不觉。侦探一直在暗中观察，等她拿着最便宜的一件小东西去付款时当场将她识破。课文描写\"侦探正在监视时小偷做了什么\"，过去进行时（was watching, was walking）铺设背景，一般过去时（slipped, took, caught）推进关键动作，两种时态的交织是本课语法主线。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "once",
@@ -713,6 +1178,69 @@
         "pos": "v.",
         "cn": "偷窃（过去式 stole，过去分词 stolen）",
         "eg": "It is easy to steal from open shelves, but stealing never pays. 从开放货架上偷东西很容易，但偷窃绝没有好下场。"
+      },
+      {
+        "word": "alone",
+        "phon": "/ə'ləʊn/",
+        "pos": "a.",
+        "cn": "独自的",
+        "eg": ""
+      },
+      {
+        "word": "exchange",
+        "phon": "/ɪks'tʃeɪndʒ/",
+        "pos": "n.",
+        "cn": "(电话的)交换台",
+        "eg": ""
+      },
+      {
+        "word": "inquire",
+        "phon": "/ɪn'kwaɪə/",
+        "pos": "v.",
+        "cn": "询问，打听",
+        "eg": ""
+      },
+      {
+        "word": "certain",
+        "phon": "/'sɜːt(ə)n; -tɪn/",
+        "pos": "a.",
+        "cn": "某个",
+        "eg": ""
+      },
+      {
+        "word": "caller",
+        "phon": "/'kɔːlər/",
+        "pos": "n.",
+        "cn": "打电话的人",
+        "eg": ""
+      },
+      {
+        "word": "relative",
+        "phon": "/'relətɪv/",
+        "pos": "n.",
+        "cn": "亲戚",
+        "eg": ""
+      },
+      {
+        "word": "hostess",
+        "phon": "/'həʊstɪs; -es; həʊ'stes/",
+        "pos": "n.",
+        "cn": "女主人",
+        "eg": ""
+      },
+      {
+        "word": "unsmiling",
+        "phon": "/'ʌn'smailiŋ/",
+        "pos": "a.",
+        "cn": "不笑的，严肃的",
+        "eg": ""
+      },
+      {
+        "word": "tight",
+        "phon": "/taɪt/",
+        "pos": "a.",
+        "cn": "紧身的",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -749,7 +1277,10 @@
     "title": "Out of the darkness",
     "titleCn": "冲出黑暗",
     "scene": "一位女游泳好手乘船出海，不料夜里风暴骤起，小船触礁沉没。落水后她发现远处海岸上有一点微弱的灯光，便认定那是获救的方向，在漆黑冰冷的海水中朝着灯光整整游了一夜。天亮时分，她终于精疲力竭地爬上岸，这才明白自己游过了数英里的海面。课文在讲述获救经过时，不断用过去完成时回溯\"上岸之前已经发生的事\"（had struck, had sunk, had swum），并用 when、by the time 等时间状语从句标出时间坐标，两者正是本课语法重点。",
-    "grammarTags": ["过去完成时", "时间状语从句"],
+    "grammarTags": [
+      "过去完成时",
+      "时间状语从句"
+    ],
     "words": [
       {
         "word": "darkness",
@@ -806,6 +1337,69 @@
         "pos": "n.",
         "cn": "岩石，礁石",
         "eg": "The boat struck a hidden rock in the storm. 小船在风暴中撞上了一块暗礁。"
+      },
+      {
+        "word": "fix",
+        "phon": "/fɪks/",
+        "pos": "v.",
+        "cn": "疑视",
+        "eg": ""
+      },
+      {
+        "word": "globe",
+        "phon": "/gləʊb/",
+        "pos": "n.",
+        "cn": "地球",
+        "eg": ""
+      },
+      {
+        "word": "despair",
+        "phon": "/di'spɛə/",
+        "pos": "n.",
+        "cn": "绝望",
+        "eg": ""
+      },
+      {
+        "word": "rude",
+        "phon": "/ruːd/",
+        "pos": "a.",
+        "cn": "无礼的",
+        "eg": ""
+      },
+      {
+        "word": "mirror",
+        "phon": "/'mɪrə/",
+        "pos": "n.",
+        "cn": "镜子",
+        "eg": ""
+      },
+      {
+        "word": "hole",
+        "phon": "/həʊl/",
+        "pos": "n.",
+        "cn": "孔",
+        "eg": ""
+      },
+      {
+        "word": "remark",
+        "phon": "/rɪ'mɑːrk/",
+        "pos": "v.",
+        "cn": "评说",
+        "eg": ""
+      },
+      {
+        "word": "remind",
+        "phon": "/rɪ'maɪnd/",
+        "pos": "v.",
+        "cn": "提醒",
+        "eg": ""
+      },
+      {
+        "word": "lighthouse",
+        "phon": "/'laɪthaʊs/",
+        "pos": "n.",
+        "cn": "灯塔",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -842,7 +1436,10 @@
     "title": "Quick work",
     "titleCn": "破案神速",
     "scene": "Dan Robinson 早晨收到警察局寄来的一封信，要他去一趟警局。他自问没做过任何违法的事，却仍然坐立不安，一上午都在猜测警察找他到底为了什么。下午他硬着头皮赶到警察局，警察却笑着告诉他一个好消息：他十年前丢失的那辆自行车找到了，警方办事效率\"真高\"——只用了十年。全文用一般过去时讲述这一天的经过，when、as soon as 引导的时间状语从句串起收信、赶路、见警察等一连串动作，是本课语法主线。",
-    "grammarTags": ["一般过去时", "时间状语从句"],
+    "grammarTags": [
+      "一般过去时",
+      "时间状语从句"
+    ],
     "words": [
       {
         "word": "policeman",
@@ -899,6 +1496,62 @@
         "pos": "adj.",
         "cn": "吃惊的",
         "eg": "Dan was surprised to hear the real reason for the letter. 听到来信的真正原因，Dan 十分吃惊。"
+      },
+      {
+        "word": "musical",
+        "phon": "/'mjuːzɪk(ə)l/",
+        "pos": "a.",
+        "cn": "精通音乐的",
+        "eg": ""
+      },
+      {
+        "word": "market",
+        "phon": "/'mɑːkɪt/",
+        "pos": "n.",
+        "cn": "市场，集市",
+        "eg": ""
+      },
+      {
+        "word": "snake",
+        "phon": "/sneɪk/",
+        "pos": "",
+        "cn": "玩蛇者(通常借音乐控制)",
+        "eg": ""
+      },
+      {
+        "word": "pipe",
+        "phon": "/paɪp/",
+        "pos": "n.",
+        "cn": "(吹奏地)管乐器",
+        "eg": ""
+      },
+      {
+        "word": "tune",
+        "phon": "/tjuːn/",
+        "pos": "n.",
+        "cn": "曲调",
+        "eg": ""
+      },
+      {
+        "word": "glimpse",
+        "phon": "/glɪmps/",
+        "pos": "n.",
+        "cn": "一瞥",
+        "eg": ""
+      },
+      {
+        "word": "movement",
+        "phon": "/'muːvm(ə)nt/",
+        "pos": "n.",
+        "cn": "动作",
+        "eg": ""
+      },
+      {
+        "word": "continue",
+        "phon": "/kən'tɪnjuː/",
+        "pos": "v.",
+        "cn": "继续",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -935,7 +1588,10 @@
     "title": "Stop thief!",
     "titleCn": "捉贼！",
     "scene": "Roy Trenton 过去以开出租车为生，不久前改行当了公共汽车司机，正为新工作感到新鲜。昨天他驾车沿街行驶时，忽然看见两名劫匪从银行冲出，在人行道上抢了一位妇女的提包拔腿就跑。Roy 没有犹豫，加大油门驾车直冲过去，吓得劫匪弃包逃窜，其中一人当场被赶来的路人按住。课文描写这场街头擒贼：Roy was driving along（背景），劫匪 rushed out、snatched the bag（突发动作），过去进行时与一般过去时的配合把画面感推到极致，是本课语法核心。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "thief",
@@ -992,6 +1648,69 @@
         "pos": "adj.",
         "cn": "勇敢的",
         "eg": "Everyone praised the brave driver for his quick action. 大家都称赞这位勇敢的司机反应迅速。"
+      },
+      {
+        "word": "dance",
+        "phon": "/dɑːns/",
+        "pos": "v.",
+        "cn": "跳舞",
+        "eg": ""
+      },
+      {
+        "word": "obviously",
+        "phon": "/'ɒbvɪəslɪ/",
+        "pos": "adv.",
+        "cn": "显然",
+        "eg": ""
+      },
+      {
+        "word": "difference",
+        "phon": "/'dɪf(ə)r(ə)ns/",
+        "pos": "n.",
+        "cn": "差别",
+        "eg": ""
+      },
+      {
+        "word": "Indian",
+        "phon": "/'ɪndɪən/",
+        "pos": "a.",
+        "cn": "印度的",
+        "eg": ""
+      },
+      {
+        "word": "pole",
+        "phon": "/poul/",
+        "pos": "n.",
+        "cn": "(地球的)极",
+        "eg": ""
+      },
+      {
+        "word": "flight",
+        "phon": "/flaɪt/",
+        "pos": "n.",
+        "cn": "飞行",
+        "eg": ""
+      },
+      {
+        "word": "explorer",
+        "phon": "/ek'splɔːrə(r)/",
+        "pos": "n.",
+        "cn": "探险家",
+        "eg": ""
+      },
+      {
+        "word": "lie",
+        "phon": "/lai/",
+        "pos": "v.",
+        "cn": "处于",
+        "eg": ""
+      },
+      {
+        "word": "serious",
+        "phon": "/'sɪərɪəs/",
+        "pos": "a.",
+        "cn": "严重的",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -1028,7 +1747,10 @@
     "title": "Across the Channel",
     "titleCn": "横渡海峡",
     "scene": "游泳选手 Debbie Hart 明天就要横渡英吉利海峡了，她为此已刻苦训练多年。按计划她将在凌晨五点出发，届时她的父母将守在岸边焦急地等待，全国的电视观众也将收看直播。出发前她只吃少量清淡食物，教练将乘小艇全程伴随。人人都盼着她打破横渡纪录。课文通篇面向\"明天\"：用一般将来时宣布计划与预测（will set out, will be difficult），用将来进行时描绘届时正在进行的画面（will be swimming, will be waiting, will be watching），两种将来时态的对照是本课语法核心。",
-    "grammarTags": ["一般将来时", "将来进行时"],
+    "grammarTags": [
+      "一般将来时",
+      "将来进行时"
+    ],
     "words": [
       {
         "word": "channel",
@@ -1085,6 +1807,69 @@
         "pos": "phr.",
         "cn": "出发，动身",
         "eg": "The swimmer will set out from the French coast at dawn. 这位游泳选手将于黎明时分从法国海岸出发。"
+      },
+      {
+        "word": "point",
+        "phon": "/pɒɪnt/",
+        "pos": "n.",
+        "cn": "地点",
+        "eg": ""
+      },
+      {
+        "word": "seem",
+        "phon": "/siːm/",
+        "pos": "v.",
+        "cn": "似乎，好像",
+        "eg": ""
+      },
+      {
+        "word": "crash",
+        "phon": "/kræʃ/",
+        "pos": "v.",
+        "cn": "坠毁",
+        "eg": ""
+      },
+      {
+        "word": "sack",
+        "phon": "/sæk/",
+        "pos": "n.",
+        "cn": "袋子",
+        "eg": ""
+      },
+      {
+        "word": "clear",
+        "phon": "/klɪə/",
+        "pos": "v.",
+        "cn": "越过",
+        "eg": ""
+      },
+      {
+        "word": "aircraft",
+        "phon": "/'eəkrɑːft/",
+        "pos": "n.",
+        "cn": "飞机",
+        "eg": ""
+      },
+      {
+        "word": "endless",
+        "phon": "/'endləs/",
+        "pos": "a.",
+        "cn": "无尽的",
+        "eg": ""
+      },
+      {
+        "word": "plain",
+        "phon": "/pleɪn/",
+        "pos": "n.",
+        "cn": "平原",
+        "eg": ""
+      },
+      {
+        "word": "forest",
+        "phon": "/'fɒrɪst/",
+        "pos": "n.",
+        "cn": "森林",
+        "eg": ""
       }
     ],
     "grammar": [

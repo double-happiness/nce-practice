@@ -5,14 +5,138 @@
     "title": "He's awful!",
     "titleCn": "他真讨厌！",
     "scene": "两个人抱怨一位常打电话却从不留下姓名的人，围绕“他多久打一次电话”展开对话。本课用来练习一般现在时和频率副词，表达习惯性、经常性的动作。",
-    "grammarTags": ["一般现在时", "频率副词", "疑问句"],
+    "grammarTags": [
+      "一般现在时",
+      "频率副词",
+      "疑问句"
+    ],
     "words": [
-      { "word": "awful", "phon": "/ˈɔːfʊl/", "pos": "adj.", "cn": "讨厌的；糟糕的", "eg": "The traffic here is awful in the morning. 早上这里的交通很糟糕。" },
-      { "word": "telephone", "phon": "/ˈtelɪfəʊn/", "pos": "v.", "cn": "打电话", "eg": "I telephone my parents every weekend. 我每个周末给父母打电话。" },
-      { "word": "again", "phon": "/əˈɡen/", "pos": "adv.", "cn": "再一次", "eg": "Please say that again. 请再说一遍。" },
-      { "word": "never", "phon": "/ˈnevə/", "pos": "adv.", "cn": "从不", "eg": "He never drinks coffee at night. 他晚上从不喝咖啡。" },
-      { "word": "always", "phon": "/ˈɔːlweɪz/", "pos": "adv.", "cn": "总是", "eg": "She always gets up early. 她总是起得很早。" },
-      { "word": "often", "phon": "/ˈɒfn/", "pos": "adv.", "cn": "经常", "eg": "We often play football on Sundays. 我们周日经常踢足球。" }
+      {
+        "word": "awful",
+        "phon": "/ˈɔːfʊl/",
+        "pos": "adj.",
+        "cn": "讨厌的；糟糕的",
+        "eg": "The traffic here is awful in the morning. 早上这里的交通很糟糕。"
+      },
+      {
+        "word": "telephone",
+        "phon": "/ˈtelɪfəʊn/",
+        "pos": "v.",
+        "cn": "打电话",
+        "eg": "I telephone my parents every weekend. 我每个周末给父母打电话。"
+      },
+      {
+        "word": "again",
+        "phon": "/əˈɡen/",
+        "pos": "adv.",
+        "cn": "再一次",
+        "eg": "Please say that again. 请再说一遍。"
+      },
+      {
+        "word": "never",
+        "phon": "/ˈnevə/",
+        "pos": "adv.",
+        "cn": "从不",
+        "eg": "He never drinks coffee at night. 他晚上从不喝咖啡。"
+      },
+      {
+        "word": "always",
+        "phon": "/ˈɔːlweɪz/",
+        "pos": "adv.",
+        "cn": "总是",
+        "eg": "She always gets up early. 她总是起得很早。"
+      },
+      {
+        "word": "often",
+        "phon": "/ˈɒfn/",
+        "pos": "adv.",
+        "cn": "经常",
+        "eg": "We often play football on Sundays. 我们周日经常踢足球。"
+      },
+      {
+        "word": "subject",
+        "phon": "/ˈsʌbdʒɪkt;(for adj.)ˈsʌbdʒɪkt;(for v.)səbˈdʒekt/",
+        "pos": "n.",
+        "cn": "话题，主题",
+        "eg": ""
+      },
+      {
+        "word": "conversation",
+        "phon": "/kɒnvə'seɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "谈话",
+        "eg": ""
+      },
+      {
+        "word": "Australia",
+        "phon": "/ɒ'streɪlɪə/",
+        "pos": "n.",
+        "cn": "澳大利亚",
+        "eg": ""
+      },
+      {
+        "word": "Australian",
+        "phon": "/ɔ'streiliən/",
+        "pos": "n.",
+        "cn": "澳大利亚人",
+        "eg": ""
+      },
+      {
+        "word": "Austria",
+        "phon": "/'ɔstriə/",
+        "pos": "n.",
+        "cn": "奥地利",
+        "eg": ""
+      },
+      {
+        "word": "Austrian",
+        "phon": "/'ɔstriən/",
+        "pos": "n.",
+        "cn": "奥地利人",
+        "eg": ""
+      },
+      {
+        "word": "Canada",
+        "phon": "/'kænədə/",
+        "pos": "n.",
+        "cn": "加拿大",
+        "eg": ""
+      },
+      {
+        "word": "Canadian",
+        "phon": "/kə'neɪdɪən/",
+        "pos": "n.",
+        "cn": "加拿大人",
+        "eg": ""
+      },
+      {
+        "word": "China",
+        "phon": "/'tʃainə/",
+        "pos": "n.",
+        "cn": "中国",
+        "eg": ""
+      },
+      {
+        "word": "Finland",
+        "phon": "/'finlənd/",
+        "pos": "n.",
+        "cn": "芬兰",
+        "eg": ""
+      },
+      {
+        "word": "Finnish",
+        "phon": "/'finiʃ/",
+        "pos": "n.",
+        "cn": "芬兰人",
+        "eg": ""
+      },
+      {
+        "word": "India",
+        "phon": "/'ɪndɪə/",
+        "pos": "n.",
+        "cn": "印度",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -48,14 +172,144 @@
     "title": "The way to King Street",
     "titleCn": "到国王街的路",
     "scene": "一位陌生人向路人问路，路人用一连串指令告诉他怎样拐弯、直走才能到达目的地。本课重点是用祈使句和方位介词来指路。",
-    "grammarTags": ["祈使句", "介词"],
+    "grammarTags": [
+      "祈使句",
+      "介词"
+    ],
     "words": [
-      { "word": "way", "phon": "/weɪ/", "pos": "n.", "cn": "路；路线", "eg": "Can you show me the way to the park? 你能给我指去公园的路吗？" },
-      { "word": "turn", "phon": "/tɜːn/", "pos": "v.", "cn": "转弯", "eg": "Turn left at the bank. 在银行那里向左转。" },
-      { "word": "straight", "phon": "/streɪt/", "pos": "adv.", "cn": "直地", "eg": "Go straight for two minutes. 直走两分钟。" },
-      { "word": "corner", "phon": "/ˈkɔːnə/", "pos": "n.", "cn": "拐角", "eg": "The shop is on the corner. 那家店在拐角处。" },
-      { "word": "past", "phon": "/pɑːst/", "pos": "prep.", "cn": "经过", "eg": "Walk past the school and stop. 走过学校然后停下。" },
-      { "word": "along", "phon": "/əˈlɒŋ/", "pos": "prep.", "cn": "沿着", "eg": "Go along this road to the river. 沿着这条路走到河边。" }
+      {
+        "word": "way",
+        "phon": "/weɪ/",
+        "pos": "n.",
+        "cn": "路；路线",
+        "eg": "Can you show me the way to the park? 你能给我指去公园的路吗？"
+      },
+      {
+        "word": "turn",
+        "phon": "/tɜːn/",
+        "pos": "v.",
+        "cn": "转弯",
+        "eg": "Turn left at the bank. 在银行那里向左转。"
+      },
+      {
+        "word": "straight",
+        "phon": "/streɪt/",
+        "pos": "adv.",
+        "cn": "直地",
+        "eg": "Go straight for two minutes. 直走两分钟。"
+      },
+      {
+        "word": "corner",
+        "phon": "/ˈkɔːnə/",
+        "pos": "n.",
+        "cn": "拐角",
+        "eg": "The shop is on the corner. 那家店在拐角处。"
+      },
+      {
+        "word": "past",
+        "phon": "/pɑːst/",
+        "pos": "prep.",
+        "cn": "经过",
+        "eg": "Walk past the school and stop. 走过学校然后停下。"
+      },
+      {
+        "word": "along",
+        "phon": "/əˈlɒŋ/",
+        "pos": "prep.",
+        "cn": "沿着",
+        "eg": "Go along this road to the river. 沿着这条路走到河边。"
+      },
+      {
+        "word": "Indian",
+        "phon": "/'ɪndɪən/",
+        "pos": "n.",
+        "cn": "印度人",
+        "eg": ""
+      },
+      {
+        "word": "Japan",
+        "phon": "/dʒə'pæn/",
+        "pos": "n.",
+        "cn": "日本",
+        "eg": ""
+      },
+      {
+        "word": "Nigeria",
+        "phon": "/nai'dʒiəriə/",
+        "pos": "n.",
+        "cn": "尼日利亚",
+        "eg": ""
+      },
+      {
+        "word": "Nigerian",
+        "phon": "/nai'dʒiəriən/",
+        "pos": "n.",
+        "cn": "尼日利亚人",
+        "eg": ""
+      },
+      {
+        "word": "Turkey",
+        "phon": "/'tɜːkɪ/",
+        "pos": "n.",
+        "cn": "土耳其",
+        "eg": ""
+      },
+      {
+        "word": "Turkish",
+        "phon": "/'tə:kiʃ/",
+        "pos": "n.",
+        "cn": "土耳其人",
+        "eg": ""
+      },
+      {
+        "word": "Korea",
+        "phon": "/kə'rɪə/",
+        "pos": "n.",
+        "cn": "韩国",
+        "eg": ""
+      },
+      {
+        "word": "Polish",
+        "phon": "/'pɒlɪʃ/",
+        "pos": "n.",
+        "cn": "波兰人",
+        "eg": ""
+      },
+      {
+        "word": "Poland",
+        "phon": "/'pəulənd/",
+        "pos": "n.",
+        "cn": "波兰",
+        "eg": ""
+      },
+      {
+        "word": "Thai",
+        "phon": "/taɪ/",
+        "pos": "n.",
+        "cn": "泰国人",
+        "eg": ""
+      },
+      {
+        "word": "Thailand",
+        "phon": "/'taɪlænd/",
+        "pos": "n.",
+        "cn": "泰国",
+        "eg": ""
+      },
+      {
+        "word": "live",
+        "phon": "/laɪv；lɪv/",
+        "pos": "v.",
+        "cn": "住，生活",
+        "eg": ""
+      },
+      {
+        "word": "stay",
+        "phon": "/steɪ/",
+        "pos": "v.",
+        "cn": "呆在，停留",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -83,14 +337,137 @@
     "title": "Uncomfortable shoes",
     "titleCn": "不舒适的鞋子",
     "scene": "顾客试穿减价的鞋子，抱怨鞋子太小、穿着不舒服。本课借购物情景练习指示代词 these/those、名词复数以及 too 加形容词的用法。",
-    "grammarTags": ["this/that/these/those", "名词单复数"],
+    "grammarTags": [
+      "this/that/these/those",
+      "名词单复数"
+    ],
     "words": [
-      { "word": "uncomfortable", "phon": "/ʌnˈkʌmftəbl/", "pos": "adj.", "cn": "不舒服的", "eg": "This chair is very uncomfortable. 这把椅子很不舒服。" },
-      { "word": "pair", "phon": "/peə/", "pos": "n.", "cn": "一双；一对", "eg": "I need a new pair of gloves. 我需要一双新手套。" },
-      { "word": "shoe", "phon": "/ʃuː/", "pos": "n.", "cn": "鞋", "eg": "These shoes are too small for me. 这双鞋对我来说太小了。" },
-      { "word": "size", "phon": "/saɪz/", "pos": "n.", "cn": "尺码", "eg": "What size do you take? 你穿多大尺码？" },
-      { "word": "sale", "phon": "/seɪl/", "pos": "n.", "cn": "减价销售", "eg": "The coats are on sale today. 大衣今天减价销售。" },
-      { "word": "dear", "phon": "/dɪə/", "pos": "adj.", "cn": "昂贵的", "eg": "That watch is too dear. 那块表太贵了。" }
+      {
+        "word": "uncomfortable",
+        "phon": "/ʌnˈkʌmftəbl/",
+        "pos": "adj.",
+        "cn": "不舒服的",
+        "eg": "This chair is very uncomfortable. 这把椅子很不舒服。"
+      },
+      {
+        "word": "pair",
+        "phon": "/peə/",
+        "pos": "n.",
+        "cn": "一双；一对",
+        "eg": "I need a new pair of gloves. 我需要一双新手套。"
+      },
+      {
+        "word": "shoe",
+        "phon": "/ʃuː/",
+        "pos": "n.",
+        "cn": "鞋",
+        "eg": "These shoes are too small for me. 这双鞋对我来说太小了。"
+      },
+      {
+        "word": "size",
+        "phon": "/saɪz/",
+        "pos": "n.",
+        "cn": "尺码",
+        "eg": "What size do you take? 你穿多大尺码？"
+      },
+      {
+        "word": "sale",
+        "phon": "/seɪl/",
+        "pos": "n.",
+        "cn": "减价销售",
+        "eg": "The coats are on sale today. 大衣今天减价销售。"
+      },
+      {
+        "word": "dear",
+        "phon": "/dɪə/",
+        "pos": "adj.",
+        "cn": "昂贵的",
+        "eg": "That watch is too dear. 那块表太贵了。"
+      },
+      {
+        "word": "home",
+        "phon": "/həʊm/",
+        "pos": "n.",
+        "cn": "家 ad.在家，到家",
+        "eg": ""
+      },
+      {
+        "word": "housework",
+        "phon": "/'haʊswɜːk/",
+        "pos": "n.",
+        "cn": "家务",
+        "eg": ""
+      },
+      {
+        "word": "lunch",
+        "phon": "/lʌn(t)ʃ/",
+        "pos": "n.",
+        "cn": "午饭",
+        "eg": ""
+      },
+      {
+        "word": "afternoon",
+        "phon": "/ɑːftə'nuːn/",
+        "pos": "n.",
+        "cn": "下午",
+        "eg": ""
+      },
+      {
+        "word": "usually",
+        "phon": "/ˈjuːʒʊəlɪ/",
+        "pos": "adv.",
+        "cn": "通常",
+        "eg": ""
+      },
+      {
+        "word": "together",
+        "phon": "/tə'geðə/",
+        "pos": "adv.",
+        "cn": "一起",
+        "eg": ""
+      },
+      {
+        "word": "evening",
+        "phon": "/'iːv(ə)nɪŋ/",
+        "pos": "n.",
+        "cn": "晚上",
+        "eg": ""
+      },
+      {
+        "word": "arrive",
+        "phon": "/ə'raɪv/",
+        "pos": "v.",
+        "cn": "到达",
+        "eg": ""
+      },
+      {
+        "word": "night",
+        "phon": "/naɪt/",
+        "pos": "n.",
+        "cn": "夜间",
+        "eg": ""
+      },
+      {
+        "word": "o'clock",
+        "phon": "/ə'klɒk/",
+        "pos": "adv.",
+        "cn": "点钟",
+        "eg": ""
+      },
+      {
+        "word": "shop",
+        "phon": "/ʃɒp/",
+        "pos": "n.",
+        "cn": "商店",
+        "eg": ""
+      },
+      {
+        "word": "moment",
+        "phon": "/'məʊm(ə)nt/",
+        "pos": "n.",
+        "cn": "片刻，瞬间",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -126,14 +503,137 @@
     "title": "Terrible toothache",
     "titleCn": "可怕的牙痛",
     "scene": "一个人牙疼得厉害，朋友劝他必须去看牙医。本课通过看病情景练习情态动词 must，表示“必须、不得不”的强烈建议或义务。",
-    "grammarTags": ["情态动词must", "一般现在时"],
+    "grammarTags": [
+      "情态动词must",
+      "一般现在时"
+    ],
     "words": [
-      { "word": "terrible", "phon": "/ˈterəbl/", "pos": "adj.", "cn": "可怕的；糟糕的", "eg": "I have a terrible headache. 我头疼得厉害。" },
-      { "word": "toothache", "phon": "/ˈtuːθeɪk/", "pos": "n.", "cn": "牙痛", "eg": "She has a toothache today. 她今天牙疼。" },
-      { "word": "dentist", "phon": "/ˈdentɪst/", "pos": "n.", "cn": "牙医", "eg": "You must see a dentist soon. 你得赶快去看牙医。" },
-      { "word": "must", "phon": "/mʌst/", "pos": "modal v.", "cn": "必须", "eg": "You must take this medicine. 你必须吃这个药。" },
-      { "word": "ill", "phon": "/ɪl/", "pos": "adj.", "cn": "生病的", "eg": "He is ill and stays in bed. 他病了，躺在床上。" },
-      { "word": "pull", "phon": "/pʊl/", "pos": "v.", "cn": "拔；拉", "eg": "The dentist may pull out the bad tooth. 牙医可能会拔掉那颗坏牙。" }
+      {
+        "word": "terrible",
+        "phon": "/ˈterəbl/",
+        "pos": "adj.",
+        "cn": "可怕的；糟糕的",
+        "eg": "I have a terrible headache. 我头疼得厉害。"
+      },
+      {
+        "word": "toothache",
+        "phon": "/ˈtuːθeɪk/",
+        "pos": "n.",
+        "cn": "牙痛",
+        "eg": "She has a toothache today. 她今天牙疼。"
+      },
+      {
+        "word": "dentist",
+        "phon": "/ˈdentɪst/",
+        "pos": "n.",
+        "cn": "牙医",
+        "eg": "You must see a dentist soon. 你得赶快去看牙医。"
+      },
+      {
+        "word": "must",
+        "phon": "/mʌst/",
+        "pos": "modal v.",
+        "cn": "必须",
+        "eg": "You must take this medicine. 你必须吃这个药。"
+      },
+      {
+        "word": "ill",
+        "phon": "/ɪl/",
+        "pos": "adj.",
+        "cn": "生病的",
+        "eg": "He is ill and stays in bed. 他病了，躺在床上。"
+      },
+      {
+        "word": "pull",
+        "phon": "/pʊl/",
+        "pos": "v.",
+        "cn": "拔；拉",
+        "eg": "The dentist may pull out the bad tooth. 牙医可能会拔掉那颗坏牙。"
+      },
+      {
+        "word": "envelope",
+        "phon": "/'envələup/",
+        "pos": "n.",
+        "cn": "信封",
+        "eg": ""
+      },
+      {
+        "word": "writing paper",
+        "phon": "",
+        "pos": "",
+        "cn": "信纸",
+        "eg": ""
+      },
+      {
+        "word": "shop assistant",
+        "phon": "",
+        "pos": "",
+        "cn": "售货员",
+        "eg": ""
+      },
+      {
+        "word": "size",
+        "phon": "/saɪz/",
+        "pos": "n.",
+        "cn": "尺寸，尺码，大小",
+        "eg": ""
+      },
+      {
+        "word": "pad",
+        "phon": "/pæd/",
+        "pos": "n.",
+        "cn": "信笺簿",
+        "eg": ""
+      },
+      {
+        "word": "glue",
+        "phon": "/gluː/",
+        "pos": "n.",
+        "cn": "胶水",
+        "eg": ""
+      },
+      {
+        "word": "chalk",
+        "phon": "/tʃɔːk/",
+        "pos": "n.",
+        "cn": "粉笔",
+        "eg": ""
+      },
+      {
+        "word": "change",
+        "phon": "/tʃeɪn(d)ʒ/",
+        "pos": "n.",
+        "cn": "零钱v.改变",
+        "eg": ""
+      },
+      {
+        "word": "feel",
+        "phon": "/fiːl/",
+        "pos": "v.",
+        "cn": "感觉",
+        "eg": "I feel awful."
+      },
+      {
+        "word": "look",
+        "phon": "/lʊk/",
+        "pos": "v.",
+        "cn": "看(起来)",
+        "eg": ""
+      },
+      {
+        "word": "call",
+        "phon": "/kɔːl/",
+        "pos": "v.",
+        "cn": "叫，请",
+        "eg": ""
+      },
+      {
+        "word": "doctor",
+        "phon": "/'dɒktə/",
+        "pos": "n.",
+        "cn": "医生",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -161,14 +661,137 @@
     "title": "Carol's shopping list",
     "titleCn": "卡罗尔的购物单",
     "scene": "卡罗尔列了一张购物清单，准备去商店买各种日用品。本课借购物情景练习 some/any 的用法，以及可数与不可数名词的区分。",
-    "grammarTags": ["some/any", "可数不可数"],
+    "grammarTags": [
+      "some/any",
+      "可数不可数"
+    ],
     "words": [
-      { "word": "list", "phon": "/lɪst/", "pos": "n.", "cn": "清单", "eg": "I made a shopping list. 我列了一张购物清单。" },
-      { "word": "pound", "phon": "/paʊnd/", "pos": "n.", "cn": "磅；英镑", "eg": "She bought a pound of sugar. 她买了一磅糖。" },
-      { "word": "magazine", "phon": "/ˌmæɡəˈziːn/", "pos": "n.", "cn": "杂志", "eg": "He reads a magazine on the train. 他在火车上读杂志。" },
-      { "word": "toothpaste", "phon": "/ˈtuːθpeɪst/", "pos": "n.", "cn": "牙膏", "eg": "We need some toothpaste. 我们需要一些牙膏。" },
-      { "word": "soap", "phon": "/səʊp/", "pos": "n.", "cn": "肥皂", "eg": "There isn't any soap here. 这里没有肥皂。" },
-      { "word": "sugar", "phon": "/ˈʃʊɡə/", "pos": "n.", "cn": "糖", "eg": "Do we have any sugar? 我们有糖吗？" }
+      {
+        "word": "list",
+        "phon": "/lɪst/",
+        "pos": "n.",
+        "cn": "清单",
+        "eg": "I made a shopping list. 我列了一张购物清单。"
+      },
+      {
+        "word": "pound",
+        "phon": "/paʊnd/",
+        "pos": "n.",
+        "cn": "磅；英镑",
+        "eg": "She bought a pound of sugar. 她买了一磅糖。"
+      },
+      {
+        "word": "magazine",
+        "phon": "/ˌmæɡəˈziːn/",
+        "pos": "n.",
+        "cn": "杂志",
+        "eg": "He reads a magazine on the train. 他在火车上读杂志。"
+      },
+      {
+        "word": "toothpaste",
+        "phon": "/ˈtuːθpeɪst/",
+        "pos": "n.",
+        "cn": "牙膏",
+        "eg": "We need some toothpaste. 我们需要一些牙膏。"
+      },
+      {
+        "word": "soap",
+        "phon": "/səʊp/",
+        "pos": "n.",
+        "cn": "肥皂",
+        "eg": "There isn't any soap here. 这里没有肥皂。"
+      },
+      {
+        "word": "sugar",
+        "phon": "/ˈʃʊɡə/",
+        "pos": "n.",
+        "cn": "糖",
+        "eg": "Do we have any sugar? 我们有糖吗？"
+      },
+      {
+        "word": "telephone",
+        "phon": "/'telɪfəʊn/",
+        "pos": "n.",
+        "cn": "电话",
+        "eg": ""
+      },
+      {
+        "word": "remember",
+        "phon": "/rɪ'membə/",
+        "pos": "v.",
+        "cn": "记得，记住",
+        "eg": ""
+      },
+      {
+        "word": "mouth",
+        "phon": "/maʊθ/",
+        "pos": "n.",
+        "cn": "嘴",
+        "eg": ""
+      },
+      {
+        "word": "tongue",
+        "phon": "/tʌŋ/",
+        "pos": "n.",
+        "cn": "舌头",
+        "eg": ""
+      },
+      {
+        "word": "bad",
+        "phon": "/bæd/",
+        "pos": "a.",
+        "cn": "坏的，严重的",
+        "eg": ""
+      },
+      {
+        "word": "cold",
+        "phon": "/kəʊld/",
+        "pos": "n.",
+        "cn": "感冒，寒冷",
+        "eg": ""
+      },
+      {
+        "word": "news",
+        "phon": "/njuːz/",
+        "pos": "n.",
+        "cn": "消息",
+        "eg": ""
+      },
+      {
+        "word": "headache",
+        "phon": "/'hedeɪk/",
+        "pos": "n.",
+        "cn": "头痛",
+        "eg": ""
+      },
+      {
+        "word": "aspirin",
+        "phon": "/'æsp(ə)rɪn/",
+        "pos": "n.",
+        "cn": "阿斯匹林",
+        "eg": ""
+      },
+      {
+        "word": "earache",
+        "phon": "/'ɪəreɪk/",
+        "pos": "n.",
+        "cn": "耳痛",
+        "eg": ""
+      },
+      {
+        "word": "toothache",
+        "phon": "/'tuːθeɪk/",
+        "pos": "n.",
+        "cn": "牙痛",
+        "eg": ""
+      },
+      {
+        "word": "dentist",
+        "phon": "/'dentɪst/",
+        "pos": "n.",
+        "cn": "牙医",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -196,14 +819,144 @@
     "title": "Roast beef",
     "titleCn": "烤牛肉",
     "scene": "一个人正计划为晚餐做一顿烤牛肉，考虑要准备哪些蔬菜和甜点。本课用做饭计划的情景练习 be going to 表示打算做的事，以及 some/any 的搭配。",
-    "grammarTags": ["一般将来时", "some/any"],
+    "grammarTags": [
+      "一般将来时",
+      "some/any"
+    ],
     "words": [
-      { "word": "roast", "phon": "/rəʊst/", "pos": "v.", "cn": "烤（肉）", "eg": "I am going to roast some beef. 我打算烤一些牛肉。" },
-      { "word": "beef", "phon": "/biːf/", "pos": "n.", "cn": "牛肉", "eg": "This beef smells very good. 这牛肉闻起来很香。" },
-      { "word": "cabbage", "phon": "/ˈkæbɪdʒ/", "pos": "n.", "cn": "卷心菜", "eg": "She is cutting a cabbage. 她正在切一棵卷心菜。" },
-      { "word": "potato", "phon": "/pəˈteɪtəʊ/", "pos": "n.", "cn": "土豆", "eg": "We need some potatoes for dinner. 晚饭我们需要一些土豆。" },
-      { "word": "bean", "phon": "/biːn/", "pos": "n.", "cn": "豆", "eg": "There are some beans on the plate. 盘子里有一些豆子。" },
-      { "word": "dessert", "phon": "/dɪˈzɜːt/", "pos": "n.", "cn": "甜点", "eg": "What is for dessert tonight? 今晚甜点吃什么？" }
+      {
+        "word": "roast",
+        "phon": "/rəʊst/",
+        "pos": "v.",
+        "cn": "烤（肉）",
+        "eg": "I am going to roast some beef. 我打算烤一些牛肉。"
+      },
+      {
+        "word": "beef",
+        "phon": "/biːf/",
+        "pos": "n.",
+        "cn": "牛肉",
+        "eg": "This beef smells very good. 这牛肉闻起来很香。"
+      },
+      {
+        "word": "cabbage",
+        "phon": "/ˈkæbɪdʒ/",
+        "pos": "n.",
+        "cn": "卷心菜",
+        "eg": "She is cutting a cabbage. 她正在切一棵卷心菜。"
+      },
+      {
+        "word": "potato",
+        "phon": "/pəˈteɪtəʊ/",
+        "pos": "n.",
+        "cn": "土豆",
+        "eg": "We need some potatoes for dinner. 晚饭我们需要一些土豆。"
+      },
+      {
+        "word": "bean",
+        "phon": "/biːn/",
+        "pos": "n.",
+        "cn": "豆",
+        "eg": "There are some beans on the plate. 盘子里有一些豆子。"
+      },
+      {
+        "word": "dessert",
+        "phon": "/dɪˈzɜːt/",
+        "pos": "n.",
+        "cn": "甜点",
+        "eg": "What is for dessert tonight? 今晚甜点吃什么？"
+      },
+      {
+        "word": "stomach ache",
+        "phon": "/ˈstʌmək eɪk/",
+        "pos": "",
+        "cn": "胃痛",
+        "eg": ""
+      },
+      {
+        "word": "medicine",
+        "phon": "/ˈmedsn/",
+        "pos": "n.",
+        "cn": "药",
+        "eg": ""
+      },
+      {
+        "word": "temperature",
+        "phon": "/temprətʃə(r)/",
+        "pos": "n.",
+        "cn": "温度",
+        "eg": ""
+      },
+      {
+        "word": "flu",
+        "phon": "/fluː/",
+        "pos": "n.",
+        "cn": "流行性感冒",
+        "eg": ""
+      },
+      {
+        "word": "measles",
+        "phon": "/'miːz(ə)lz/",
+        "pos": "n.",
+        "cn": "麻疹",
+        "eg": ""
+      },
+      {
+        "word": "mumps",
+        "phon": "/mʌmps/",
+        "pos": "n.",
+        "cn": "腮腺炎",
+        "eg": ""
+      },
+      {
+        "word": "better",
+        "phon": "/'betə/",
+        "pos": "a.",
+        "cn": "形容词well的比较级",
+        "eg": ""
+      },
+      {
+        "word": "certainly",
+        "phon": "/ˈsəːt(ə)nli/",
+        "pos": "adv.",
+        "cn": "当然",
+        "eg": ""
+      },
+      {
+        "word": "get up",
+        "phon": "/get ʌp/",
+        "pos": "",
+        "cn": "起床",
+        "eg": ""
+      },
+      {
+        "word": "yet",
+        "phon": "/jet/",
+        "pos": "adv.",
+        "cn": "还，仍",
+        "eg": ""
+      },
+      {
+        "word": "rich",
+        "phon": "/rɪtʃ/",
+        "pos": "a.",
+        "cn": "油腻的，富有的",
+        "eg": ""
+      },
+      {
+        "word": "food",
+        "phon": "/fuːd/",
+        "pos": "n.",
+        "cn": "食物",
+        "eg": ""
+      },
+      {
+        "word": "remain",
+        "phon": "/rɪ'meɪn/",
+        "pos": "v.",
+        "cn": "保持，继续",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -231,14 +984,136 @@
     "title": "Going on holiday",
     "titleCn": "度假",
     "scene": "一家人准备外出度假，互相询问是否已经收拾好行李、装好了衣物。本课通过出行准备的情景引入现在完成时，重点是 already（已经）的用法。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
-      { "word": "holiday", "phon": "/ˈhɒlədeɪ/", "pos": "n.", "cn": "假期", "eg": "We are going on holiday next week. 我们下周去度假。" },
-      { "word": "already", "phon": "/ɔːlˈredi/", "pos": "adv.", "cn": "已经", "eg": "I have already packed my bag. 我已经收拾好包了。" },
-      { "word": "pack", "phon": "/pæk/", "pos": "v.", "cn": "打包；收拾行李", "eg": "Have you packed the suitcase? 你收拾好手提箱了吗？" },
-      { "word": "suitcase", "phon": "/ˈsuːtkeɪs/", "pos": "n.", "cn": "手提箱", "eg": "This suitcase is very heavy. 这个手提箱很重。" },
-      { "word": "sweater", "phon": "/ˈswetə/", "pos": "n.", "cn": "毛衣", "eg": "Take a warm sweater with you. 带一件暖和的毛衣。" },
-      { "word": "weather", "phon": "/ˈweðə/", "pos": "n.", "cn": "天气", "eg": "The weather is fine today. 今天天气很好。" }
+      {
+        "word": "holiday",
+        "phon": "/ˈhɒlədeɪ/",
+        "pos": "n.",
+        "cn": "假期",
+        "eg": "We are going on holiday next week. 我们下周去度假。"
+      },
+      {
+        "word": "already",
+        "phon": "/ɔːlˈredi/",
+        "pos": "adv.",
+        "cn": "已经",
+        "eg": "I have already packed my bag. 我已经收拾好包了。"
+      },
+      {
+        "word": "pack",
+        "phon": "/pæk/",
+        "pos": "v.",
+        "cn": "打包；收拾行李",
+        "eg": "Have you packed the suitcase? 你收拾好手提箱了吗？"
+      },
+      {
+        "word": "suitcase",
+        "phon": "/ˈsuːtkeɪs/",
+        "pos": "n.",
+        "cn": "手提箱",
+        "eg": "This suitcase is very heavy. 这个手提箱很重。"
+      },
+      {
+        "word": "sweater",
+        "phon": "/ˈswetə/",
+        "pos": "n.",
+        "cn": "毛衣",
+        "eg": "Take a warm sweater with you. 带一件暖和的毛衣。"
+      },
+      {
+        "word": "weather",
+        "phon": "/ˈweðə/",
+        "pos": "n.",
+        "cn": "天气",
+        "eg": "The weather is fine today. 今天天气很好。"
+      },
+      {
+        "word": "play",
+        "phon": "/pleɪ/",
+        "pos": "v.",
+        "cn": "玩",
+        "eg": ""
+      },
+      {
+        "word": "match",
+        "phon": "/mætʃ/",
+        "pos": "n.",
+        "cn": "火柴，比赛",
+        "eg": ""
+      },
+      {
+        "word": "talk",
+        "phon": "/tɔːk/",
+        "pos": "v.",
+        "cn": "谈话",
+        "eg": ""
+      },
+      {
+        "word": "library",
+        "phon": "/ˈlaɪbrərɪ/",
+        "pos": "n.",
+        "cn": "图书馆",
+        "eg": ""
+      },
+      {
+        "word": "drive",
+        "phon": "/draɪv/",
+        "pos": "v.",
+        "cn": "开车",
+        "eg": ""
+      },
+      {
+        "word": "so",
+        "phon": "/səʊ/",
+        "pos": "adv.",
+        "cn": "如此地",
+        "eg": ""
+      },
+      {
+        "word": "quickly",
+        "phon": "/'kwɪklɪ/",
+        "pos": "adv.",
+        "cn": "快地",
+        "eg": ""
+      },
+      {
+        "word": "lean out of",
+        "phon": "",
+        "pos": "",
+        "cn": "身体探出",
+        "eg": ""
+      },
+      {
+        "word": "break",
+        "phon": "/breɪk/",
+        "pos": "v.",
+        "cn": "打破",
+        "eg": ""
+      },
+      {
+        "word": "Dad",
+        "phon": "/dæd/",
+        "pos": "n.",
+        "cn": "爸(儿语)",
+        "eg": ""
+      },
+      {
+        "word": "key",
+        "phon": "/ki:/",
+        "pos": "n.",
+        "cn": "钥匙",
+        "eg": ""
+      },
+      {
+        "word": "baby",
+        "phon": "/'beɪbɪ/",
+        "pos": "n.",
+        "cn": "婴儿",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

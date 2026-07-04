@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dlg-chain-pet-01",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Adopt a Dog",
+    "titleCn": "第1环：领养狗狗",
+    "scene": "你去动物收容所咨询领养。（对话链：养宠物）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "Staff", "cn": "想看哪类？大型还是中型？", "en": "What size are you looking for? Large or medium?" },
+      { "role": "You", "cn": "中型，性格温顺，最好已绝育。", "en": "Medium, calm temperament, preferably already neutered." },
+      { "role": "Staff", "cn": "这只金毛混种两岁，很亲人。", "en": "This golden mix is two years old. Very friendly." },
+      { "role": "You", "cn": "能带它出去走走吗？", "en": "Can I take him for a walk?" },
+      { "role": "Staff", "cn": "可以，后院牵绳区。", "en": "Sure. Leashed area in the back." },
+      { "role": "You", "cn": "很喜欢，领养流程是什么？", "en": "I love him. What's the adoption process?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-02",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Pet Store Shopping",
+    "titleCn": "第2环：宠物店采购",
+    "scene": "你在宠物店买狗粮和用品。（对话链：养宠物）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "找什么？狗还是猫？", "en": "What are you looking for? Dog or cat?" },
+      { "role": "You", "cn": "中型犬的成犬粮，无谷物配方。", "en": "Adult food for a medium dog, grain-free." },
+      { "role": "Clerk", "cn": "这款卖得好，三十磅装六十九块。", "en": "This one sells well. Sixty-nine for a thirty-pound bag." },
+      { "role": "You", "cn": "有试吃小包装吗？", "en": "Do you have a small trial size?" },
+      { "role": "Clerk", "cn": "有，五磅的十九块九。", "en": "Yes, a five-pound bag for nineteen ninety-nine." },
+      { "role": "You", "cn": "先拿小的，再加一个磨牙棒。", "en": "I'll try the small one, plus a chew toy." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-03",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: First Vet Visit",
+    "titleCn": "第3环：首次体检",
+    "scene": "你带狗狗去宠物医院体检。（对话链：养宠物）",
+    "roles": ["You", "Vet"],
+    "turns": [
+      { "role": "Vet", "cn": "它最近食欲怎么样？", "en": "How's his appetite been lately?" },
+      { "role": "You", "cn": "正常，但昨天吐了一次。", "en": "Normal, but he vomited once yesterday." },
+      { "role": "Vet", "cn": "有没有吃不该吃的东西？", "en": "Has he eaten anything he shouldn't?" },
+      { "role": "You", "cn": "可能咬了沙发上的填充物。", "en": "He might have chewed stuffing from the couch." },
+      { "role": "Vet", "cn": "我检查一下，应该不严重。", "en": "Let me examine him. It should be fine." },
+      { "role": "You", "cn": "需要打疫苗吗？", "en": "Does he need any shots?" },
+      { "role": "Vet", "cn": "狂犬疫苗明年到期，今天可以一起打。", "en": "His rabies shot expires next year. We can do it today." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-04",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Dog Park",
+    "titleCn": "第4环：狗公园",
+    "scene": "你在狗公园和其他狗主人聊天。（对话链：养宠物）",
+    "roles": ["You", "Owner"],
+    "turns": [
+      { "role": "Owner", "cn": "你的狗好活泼！什么品种？", "en": "Your dog is so energetic! What breed is he?" },
+      { "role": "You", "cn": "金毛混种，叫 Buddy，一岁半。", "en": "Golden mix. His name is Buddy. He's a year and a half." },
+      { "role": "Owner", "cn": "他经常来这个公园吗？", "en": "Does he come here often?" },
+      { "role": "You", "cn": "每天下班后来，不然在家拆家。", "en": "Every day after work, or he destroys the house." },
+      { "role": "Owner", "cn": "哈哈，这边下午人少一些。", "en": "Ha! It's less crowded here in the afternoon." },
+      { "role": "You", "cn": "是啊，记得带水，喷泉夏天才开。", "en": "Yeah. Bring water. The fountain only runs in summer." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-05",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Pet Grooming",
+    "titleCn": "第5环：宠物美容",
+    "scene": "你带狗去宠物店洗澡剪毛。（对话链：养宠物）",
+    "roles": ["You", "Groomer"],
+    "turns": [
+      { "role": "Groomer", "cn": "今天做什么？洗澡还是全套？", "en": "What are we doing today? Bath or full groom?" },
+      { "role": "You", "cn": "全套，毛太长了，夏天热。", "en": "Full groom. His coat is too long for summer." },
+      { "role": "Groomer", "cn": "指甲也剪吗？", "en": "Trim his nails too?" },
+      { "role": "You", "cn": "要，他怕吹风机，请轻一点。", "en": "Yes. He's scared of the dryer. Please go gently." },
+      { "role": "Groomer", "cn": "大概一小时，好了打电话。", "en": "About an hour. I'll call when he's done." },
+      { "role": "You", "cn": "我在隔壁咖啡店等。", "en": "I'll wait at the coffee shop next door." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-06",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pet Boarding",
+    "titleCn": "第6环：宠物寄养",
+    "scene": "你要出差，咨询宠物寄养。（对话链：养宠物）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "下周出差五天，能寄养中型犬吗？", "en": "I'm traveling five days next week. Can you board a medium dog?" },
+      { "role": "Staff", "cn": "可以，每天三十五，含散步两次。", "en": "Yes. Thirty-five a day, two walks included." },
+      { "role": "You", "cn": "需要自带狗粮吗？", "en": "Should I bring his own food?" },
+      { "role": "Staff", "cn": "建议自带，减少肠胃不适。", "en": "We recommend it to avoid stomach issues." },
+      { "role": "You", "cn": "疫苗记录要带来吗？", "en": "Should I bring vaccination records?" },
+      { "role": "Staff", "cn": "要，狂犬和犬瘟必须有效。", "en": "Yes. Rabies and distemper must be current." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-07",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Dog Got Sick",
+    "titleCn": "第7环：狗狗生病",
+    "scene": "出差回来发现狗拉肚子，你打电话给兽医。（对话链：养宠物）",
+    "roles": ["You", "Vet"],
+    "turns": [
+      { "role": "You", "cn": "它拉肚子两天了，精神还行。", "en": "He's had diarrhea for two days. Energy is okay." },
+      { "role": "Vet", "cn": "寄养期间换食了吗？", "en": "Did his diet change during boarding?" },
+      { "role": "You", "cn": "换了店里的粮，可能不适应。", "en": "They used their kibble. Maybe he didn't adjust." },
+      { "role": "Vet", "cn": "先禁食十二小时，再喂清淡的。", "en": "Fast for twelve hours, then bland food." },
+      { "role": "You", "cn": "需要来诊所吗？", "en": "Should I bring him in?" },
+      { "role": "Vet", "cn": "明天不好转再来。", "en": "Come in tomorrow if it's not better." }
+    ]
+  },
+  {
+    "id": "dlg-chain-pet-08",
+    "category": "pet",
+    "chain": {
+      "id": "pet-care",
+      "title": "Caring for Your Pet",
+      "titleCn": "对话链：养宠物日常",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Back to Normal",
+    "titleCn": "第8环：恢复日常",
+    "scene": "狗好了，你恢复每天遛狗 routine。（对话链：养宠物）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "Buddy 好多了吧？几天没见。", "en": "Buddy's better? Haven't seen you in a few days." },
+      { "role": "You", "cn": "好了，出差寄养吃坏肚子。", "en": "He's fine. Got an upset stomach from boarding food." },
+      { "role": "Neighbor", "cn": "以后寄养自带粮，我家也这样。", "en": "Always bring your own food. We do that too." },
+      { "role": "You", "cn": "学到了，今晚还遛狗吗？", "en": "Lesson learned. Walking tonight?" },
+      { "role": "Neighbor", "cn": "七点楼下见。", "en": "See you downstairs at seven." },
+      { "role": "You", "cn": "好，到时见。", "en": "Sure. See you then." }
+    ]
+  }
+]

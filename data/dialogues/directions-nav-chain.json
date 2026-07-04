@@ -1,0 +1,180 @@
+[
+  {
+    "id": "dlg-chain-nav-01",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Ask in a Store",
+    "titleCn": "第1环：在店里问路",
+    "scene": "你在便利店问附近地铁站怎么走。（对话链：问路）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，最近的地铁站在哪？", "en": "Excuse me, where's the nearest subway station?" },
+      { "role": "Clerk", "cn": "出门左转，走两个路口就到。", "en": "Left out the door, two blocks down." },
+      { "role": "You", "cn": "是几号线？", "en": "Which line is it?" },
+      { "role": "Clerk", "cn": "六号线，入口有标志。", "en": "Line six. You'll see signs at the entrance." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-02",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: On the Bus",
+    "titleCn": "第2环：公交车上问路",
+    "scene": "你坐公交不确定在哪下车。（对话链：问路）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "请问中央公园哪站下？", "en": "Which stop is Central Park?" },
+      { "role": "Driver", "cn": "第五站，到了我叫你。", "en": "Fifth stop. I'll let you know." },
+      { "role": "You", "cn": "需要按铃吗？", "en": "Do I need to pull the cord?" },
+      { "role": "Driver", "cn": "最好按一下，有时不停。", "en": "Better pull it. Sometimes we skip if no signal." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-03",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Taxi Ride",
+    "titleCn": "第3环：打车指路",
+    "scene": "你打车去朋友家，给司机指路。（对话链：问路）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "地址是公园路 128 号？", "en": "One twenty-eight Park Road?" },
+      { "role": "You", "cn": "对，在第三个红绿灯右转。", "en": "Yes. Turn right at the third traffic light." },
+      { "role": "Driver", "cn": "那栋蓝色公寓？", "en": "The blue apartment building?" },
+      { "role": "You", "cn": "对，门口有棵大树，在那停。", "en": "Yes. Big tree out front. Drop me there." },
+      { "role": "Driver", "cn": "到了，二十块。", "en": "We're here. Twenty dollars." },
+      { "role": "You", "cn": "谢谢，不用找了。", "en": "Thanks. Keep the change." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-04",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Subway Exit",
+    "titleCn": "第4环：地铁出站",
+    "scene": "你出地铁后找不到出口，问工作人员。（对话链：问路）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "去现代艺术博物馆走哪个出口？", "en": "Which exit for the Museum of Modern Art?" },
+      { "role": "Staff", "cn": "B 出口，上去后往北走。", "en": "Exit B. Head north when you come up." },
+      { "role": "You", "cn": "大概走多远？", "en": "How far is it?" },
+      { "role": "Staff", "cn": "五分钟，街对面就是。", "en": "Five minutes. It's across the street." },
+      { "role": "You", "cn": "明白了，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-05",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Map App Confusion",
+    "titleCn": "第5环：导航搞混",
+    "scene": "导航把你带到死胡同，你向路人确认。（对话链：问路）",
+    "roles": ["You", "Local"],
+    "turns": [
+      { "role": "You", "cn": "手机导航说在这转，但路封了，图书馆怎么走？", "en": "My app says turn here, but the road's closed. How do I get to the library?" },
+      { "role": "Local", "cn": "施工呢，往回走绕到主街。", "en": "Construction. Go back and loop around to Main Street." },
+      { "role": "You", "cn": "主街往东对吧？", "en": "Main Street east, right?" },
+      { "role": "Local", "cn": "对，过两个路口看见钟楼左转。", "en": "Yes. Two blocks past the clock tower, turn left." },
+      { "role": "You", "cn": "太感谢了，差点走错。", "en": "Thanks a lot. Almost went the wrong way." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-06",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Find Parking",
+    "titleCn": "第6环：找停车位",
+    "scene": "你开车到市区找停车位。（对话链：问路）",
+    "roles": ["You", "Local"],
+    "turns": [
+      { "role": "You", "cn": "这附近好停车吗？", "en": "Is parking easy around here?" },
+      { "role": "Local", "cn": "街边难，后面有个车库，入口在巷子里。", "en": "Street parking's tough. Garage in the back, entrance in the alley." },
+      { "role": "You", "cn": "大概多少钱一小时？", "en": "About how much per hour?" },
+      { "role": "Local", "cn": "八块，六点后便宜。", "en": "Eight bucks. Cheaper after six." },
+      { "role": "You", "cn": "好，我去试试，谢谢。", "en": "Okay. I'll try that. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-07",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Lost in the Mall",
+    "titleCn": "第7环：商场里迷路",
+    "scene": "你在大型商场里找不到朋友说的餐厅。（对话链：问路）",
+    "roles": ["You", "Staff"],
+    "turns": [
+      { "role": "You", "cn": "日式拉面店在几楼？叫一风堂。", "en": "Which floor is the ramen place? Ippudo." },
+      { "role": "Staff", "cn": "四楼美食区，扶梯上去左转。", "en": "Fourth floor food court. Up the escalator, turn left." },
+      { "role": "You", "cn": "要排队很久吗？", "en": "Is the wait long?" },
+      { "role": "Staff", "cn": "饭点大概二十分钟，可以先取号。", "en": "About twenty minutes at peak. You can get a number first." },
+      { "role": "You", "cn": "好，谢谢指路。", "en": "Okay. Thanks for the directions." }
+    ]
+  },
+  {
+    "id": "dlg-chain-nav-08",
+    "category": "directions",
+    "chain": {
+      "id": "getting-around",
+      "title": "Getting Around the City",
+      "titleCn": "对话链：城市问路导航",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Confirm with Friend",
+    "titleCn": "第8环：和朋友确认地址",
+    "scene": "你快到了，打电话和朋友确认门牌。（对话链：问路）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "快到了吗？", "en": "Almost here?" },
+      { "role": "You", "cn": "在公园路了，是 45 号还是 45B？", "en": "I'm on Park Road. Is it forty-five or forty-five B?" },
+      { "role": "Friend", "cn": "45B，侧门，蓝色门铃。", "en": "Forty-five B. Side entrance, blue doorbell." },
+      { "role": "You", "cn": "看到了，两分钟到。", "en": "I see it. Two minutes." },
+      { "role": "Friend", "cn": "门没锁，直接上来。", "en": "Door's unlocked. Just come up." },
+      { "role": "You", "cn": "好，马上。", "en": "Okay. Be right there." }
+    ]
+  }
+]

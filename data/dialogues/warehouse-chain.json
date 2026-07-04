@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-wh-01",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Sign Up for Membership",
+    "titleCn": "第1环：办会员卡",
+    "scene": "你第一次去 Costco，在入口办会员。（对话链：仓储超市）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "有会员卡吗？", "en": "Do you have a membership card?" },
+      { "role": "You", "cn": "没有，想办一张。", "en": "No. I'd like to sign up." },
+      { "role": "Clerk", "cn": "普通会员六十一年，高级一百二含返现。", "en": "Standard is sixty a year. Executive is a hundred twenty with cashback." },
+      { "role": "You", "cn": "普通版就行，今天能用吗？", "en": "Standard is fine. Can I shop today?" },
+      { "role": "Clerk", "cn": "付款后马上生效。", "en": "Yes, as soon as you pay." },
+      { "role": "You", "cn": "可以带朋友进来吗？", "en": "Can I bring a guest?" },
+      { "role": "Clerk", "cn": "可以，但结账要用您的卡。", "en": "Yes, but checkout must be on your card." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-02",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Get a Cart",
+    "titleCn": "第2环：拿推车",
+    "scene": "你进去发现需要大推车，问员工在哪。（对话链：仓储超市）",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "大推车在哪？入口好像没了。", "en": "Where are the big carts? The entrance looks empty." },
+      { "role": "Employee", "cn": "刚用完，等两分钟推一批来。", "en": "They just ran out. Another batch in two minutes." },
+      { "role": "You", "cn": "有平板推车吗？买大件。", "en": "Any flat carts? I'm getting bulky items." },
+      { "role": "Employee", "cn": "在里面家电区旁边。", "en": "By the appliances section inside." },
+      { "role": "You", "cn": "谢谢。", "en": "Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-03",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Food Samples",
+    "titleCn": "第3环：试吃样品",
+    "scene": "你在仓储超市试吃样品。（对话链：仓储超市）",
+    "roles": ["You", "Sampler"],
+    "turns": [
+      { "role": "Sampler", "cn": "要尝尝新款能量棒吗？", "en": "Want to try our new energy bars?" },
+      { "role": "You", "cn": "好的，含坚果吗？", "en": "Sure. Do they contain nuts?" },
+      { "role": "Sampler", "cn": "含杏仁，成分表在这。", "en": "Yes, almonds. Here's the ingredient list." },
+      { "role": "You", "cn": "那我不能吃，家人过敏。", "en": "Then I can't. My family has allergies." },
+      { "role": "Sampler", "cn": "理解，那边有无坚果的饼干试吃。", "en": "Got it. There are nut-free cookies sampling over there." },
+      { "role": "You", "cn": "谢谢提醒。", "en": "Thanks for letting me know." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-04",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Bulk Household Items",
+    "titleCn": "第4环：买大包装日用品",
+    "scene": "你在买大包装日用品，向员工问路。（对话链：仓储超市）",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "大桶洗衣液在哪？", "en": "Where's the bulk laundry detergent?" },
+      { "role": "Employee", "cn": "日用品区，过道十二尽头。", "en": "Household aisle twelve, at the back." },
+      { "role": "You", "cn": "厕纸有特价吗？", "en": "Is toilet paper on sale?" },
+      { "role": "Employee", "cn": "三十卷装减五块，本周有效。", "en": "The thirty-roll pack is five off this week." },
+      { "role": "You", "cn": "好，推车放不下了怎么办？", "en": "Okay. What if my cart is full?" },
+      { "role": "Employee", "cn": "可以开双车，或结账后放车里再逛。", "en": "You can take two carts, or check out and keep shopping." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-05",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Electronics Section",
+    "titleCn": "第5环：买电器",
+    "scene": "你看中一台电视，问保修政策。（对话链：仓储超市）",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "这台电视含几年保修？", "en": "How many years of warranty on this TV?" },
+      { "role": "Employee", "cn": "厂家一年，店里延保另买。", "en": "One year from the maker. Store extended warranty costs extra." },
+      { "role": "You", "cn": "能送货吗？楼梯房。", "en": "Do you deliver? Walk-up apartment." },
+      { "role": "Employee", "cn": "加五十，两人抬上楼。", "en": "Fifty extra for two-person carry upstairs." },
+      { "role": "You", "cn": "好，我考虑一下。", "en": "Okay. I'll think about it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-06",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Checkout Line",
+    "titleCn": "第6环：排队结账",
+    "scene": "结账队伍很长，你和旁边顾客聊天。（对话链：仓储超市）",
+    "roles": ["You", "Shopper"],
+    "turns": [
+      { "role": "Shopper", "cn": "周末人真多，你常来吗？", "en": "Busy weekend. Do you come here often?" },
+      { "role": "You", "cn": "第一次，东西分量真大。", "en": "First time. The portions are huge." },
+      { "role": "Shopper", "cn": "和家庭分着买划算，别一个人囤。", "en": "Split with family. Don't stockpile alone." },
+      { "role": "You", "cn": "有道理，我可能就买太多了。", "en": "Good tip. I probably overdid it." },
+      { "role": "Shopper", "cn": "冷冻室放得下就行。", "en": "As long as it fits in the freezer." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-07",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Gas Station",
+    "titleCn": "第7环：会员加油站",
+    "scene": "你在 Costco 加油站加油。（对话链：仓储超市）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "Driver", "cn": "这队挺长的，但比外面便宜不少。", "en": "Long line, but it's way cheaper than outside." },
+      { "role": "You", "cn": "是啊，必须刷会员卡对吧？", "en": "Yeah. You need your membership card, right?" },
+      { "role": "Driver", "cn": "对，先刷卡再加油。", "en": "Right. Swipe first, then pump." },
+      { "role": "You", "cn": "你一般加多少？", "en": "How much do you usually fill up?" },
+      { "role": "Driver", "cn": "加满，这边每加仑能省二三十美分。", "en": "I fill up. You save twenty or thirty cents a gallon here." },
+      { "role": "You", "cn": "轮到我了，谢啦。", "en": "My turn. Thanks for the tip." }
+    ]
+  },
+  {
+    "id": "dlg-chain-wh-08",
+    "category": "warehouse",
+    "chain": {
+      "id": "warehouse-trip",
+      "title": "A Warehouse Store Shopping Trip",
+      "titleCn": "对话链：仓储超市采购",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Load the Car",
+    "titleCn": "第8环：装车回家",
+    "scene": "你把大包装商品装进后备箱，室友来帮忙。（对话链：仓储超市）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "买这么多，冰箱塞得下吗？", "en": "That's a lot. Will the fridge fit it all?" },
+      { "role": "You", "cn": "厕纸放储物间，吃的分你一半。", "en": "Toilet paper in storage. I'll split the food with you." },
+      { "role": "Roommate", "cn": "行，下次带我，我也想办会员。", "en": "Deal. Take me next time. I want a membership too." },
+      { "role": "You", "cn": "好，副卡可以办。", "en": "Sure. You can get a household card." },
+      { "role": "Roommate", "cn": "完美。", "en": "Perfect." }
+    ]
+  }
+]

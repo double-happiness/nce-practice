@@ -286,7 +286,12 @@
     })();
     const viewedArr = Array.isArray(store.get('nce-viewed-lessons')) ? store.get('nce-viewed-lessons') : [];
     const lessonsByBook = (meta && meta.stats && meta.stats.lessonsByBook) || {};
-    const totals = { 1: Number(lessonsByBook['1']) || 72, 2: Number(lessonsByBook['2']) || 96 };
+    const totals = {
+      1: Number(lessonsByBook['1']) || 72,
+      2: Number(lessonsByBook['2']) || 96,
+      3: Number(lessonsByBook['3']) || 60,
+      4: Number(lessonsByBook['4']) || 48,
+    };
 
     const checkinKeys = Object.keys(checkin);
     const now = Date.now();
@@ -302,9 +307,11 @@
       return n / 2;
     }
 
-    const rows = ['1', '2'].map((bk) =>
-      progRow(`NCE${bk}`, countByBook(checkinKeys, bk), countByBook(viewedArr, bk), totals[bk], perWeekOf(bk))
-    ).join('');
+    const rows = ['1', '2', '3', '4']
+      .filter((bk) => totals[bk] > 0)
+      .map((bk) =>
+        progRow(`NCE${bk}`, countByBook(checkinKeys, bk), countByBook(viewedArr, bk), totals[bk], perWeekOf(bk))
+      ).join('');
     const anyProgress = checkinKeys.length > 0 || viewedArr.length > 0;
     const progCard =
       '<div class="lv-card"><h3>📅 教材进度与节奏</h3>' +

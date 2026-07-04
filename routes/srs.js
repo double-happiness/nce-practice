@@ -6,8 +6,10 @@ const profile = require('../lib/profile');
 const { isCorrect } = require('../lib/grade');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
 const tf = require('../lib/transform-util');
+const { answerCn } = require('../lib/transform-cn');
 const wordSrs = require('../lib/word-srs');
 const dlgSrs = require('../lib/dialogue-srs');
+const { collectTurnAnswers } = require('../lib/dialogue-grade');
 
 const router = express.Router();
 
@@ -67,9 +69,11 @@ function gradeItem(id, response) {
     };
   }
   if (r.kind === 'transform') {
+    const step = r.ts.step;
     return {
-      correct: tf.isCorrectStep(r.ts.step, response),
-      answer: r.ts.step.answers,
+      correct: tf.isCorrectStep(step, response),
+      answer: step.answers,
+      answerCn: step.cn || answerCn(r.ts.t, step),
       explanation: r.ts.t.explanation || '',
     };
   }
@@ -80,10 +84,11 @@ function gradeItem(id, response) {
       explanation: `${r.w.entry.word}：${r.w.entry.cn}`,
     };
   }
-  const answers = Array.isArray(r.d.line.en) ? r.d.line.en : [r.d.line.en];
+  const answers = collectTurnAnswers(r.d.line);
   return {
     correct: dlgSrs.gradeLine(r.d.line, response),
-    answer: answers,
+    answer: answers.length === 1 ? answers[0] : answers,
+    answerCn: r.d.line.cn || '',
     explanation: r.d.d.scene || '',
   };
 }
@@ -164,6 +169,7 @@ router.post('/srs/grade', (req, res) => {
   res.json({
     correct: graded.correct,
     answer: graded.answer,
+    answerCn: graded.answerCn || '',
     explanation: graded.explanation,
     nextDueAt: it.dueAt,
   });

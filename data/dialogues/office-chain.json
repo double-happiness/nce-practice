@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-office-01",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Monday Morning",
+    "titleCn": "第1环：周一早晨",
+    "scene": "周一早上，你刚到办公室和同事打招呼。（对话链：办公室）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "早上好！周末过得怎么样？", "en": "Good morning! How was your weekend?" },
+      { "role": "You", "cn": "挺好的，去看了场电影。你呢？", "en": "It was good. I went to see a movie. How about you?" },
+      { "role": "Colleague", "cn": "在家休息，补了觉。", "en": "I just stayed home and caught up on sleep." },
+      { "role": "You", "cn": "今天有什么会议吗？", "en": "Do we have any meetings today?" },
+      { "role": "Colleague", "cn": "十点有个团队周会。", "en": "There's a team stand-up at ten o'clock." },
+      { "role": "You", "cn": "好的，我准备一下材料。", "en": "Okay, I'll get my materials ready." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-02",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Stand-up Meeting",
+    "titleCn": "第2环：站会发言",
+    "scene": "十点站会轮到你发言。（对话链：办公室）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "张伟，你昨天进展怎么样？", "en": "Zhang Wei, how did things go yesterday?" },
+      { "role": "You", "cn": "完成了登录页改版，今天做联调。", "en": "Finished the login page redesign. Today I'm doing integration." },
+      { "role": "Manager", "cn": "有阻塞吗？", "en": "Any blockers?" },
+      { "role": "You", "cn": "需要后端 API，下午和对方对齐。", "en": "I need the back-end API. I'll sync with them this afternoon." },
+      { "role": "Manager", "cn": "好，有问题随时说。", "en": "Okay. Let me know if anything comes up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-03",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Ask for a Day Off",
+    "titleCn": "第3环：请假",
+    "scene": "你需要请一天假，去找老板商量。（对话链：办公室）",
+    "roles": ["You", "Boss"],
+    "turns": [
+      { "role": "You", "cn": "老板，您现在方便吗？我想请一天假。", "en": "Do you have a moment? I'd like to request a day off." },
+      { "role": "Boss", "cn": "哪天？什么事？", "en": "Which day? What's the reason?" },
+      { "role": "You", "cn": "下周五，家里有点急事要处理。", "en": "Next Friday. I have a family matter to take care of." },
+      { "role": "Boss", "cn": "那天有个项目截止，能提前完成吗？", "en": "There's a project deadline that day. Can you finish ahead of time?" },
+      { "role": "You", "cn": "可以的，我周四之前交。", "en": "Yes, I can have it done by Thursday." },
+      { "role": "Boss", "cn": "好的，批准了。有事提前安排好。", "en": "All right, it's approved. Just make sure everything is covered." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-04",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Conference Call",
+    "titleCn": "第4环：电话会议",
+    "scene": "你正在参加一个国际电话会议。（对话链：办公室）",
+    "roles": ["You", "Manager"],
+    "turns": [
+      { "role": "Manager", "cn": "你能分享一下项目进展吗？", "en": "Could you share an update on the project?" },
+      { "role": "You", "cn": "当然。目前进度正常，预计下周完成。", "en": "Sure. We're on track and expect to finish next week." },
+      { "role": "Manager", "cn": "有什么困难或需要支持的吗？", "en": "Are there any challenges or support you need?" },
+      { "role": "You", "cn": "我们需要设计团队配合，能帮忙协调吗？", "en": "We need help from the design team. Could you coordinate that?" },
+      { "role": "Manager", "cn": "没问题，我今天联系他们。", "en": "No problem. I'll reach out to them today." },
+      { "role": "You", "cn": "谢谢！我周五再发一份详细报告。", "en": "Thank you! I'll send a detailed report on Friday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-05",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Printer Problem",
+    "titleCn": "第5环：打印机故障",
+    "scene": "你需要打印文件，但打印机出了问题。（对话链：办公室）",
+    "roles": ["You", "IT"],
+    "turns": [
+      { "role": "You", "cn": "你好，三楼打印机卡纸了。", "en": "Hi, the printer on the third floor is jammed." },
+      { "role": "IT", "cn": "显示什么错误代码？", "en": "What error code does it show?" },
+      { "role": "You", "cn": "E3，我试了重启没用。", "en": "E3. I tried restarting it. Didn't help." },
+      { "role": "IT", "cn": "我十分钟后过去，先用二楼那台。", "en": "I'll be there in ten minutes. Use the one on the second floor for now." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-06",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Lunch with Colleague",
+    "titleCn": "第6环：同事吃午饭",
+    "scene": "中午你和同事去楼下吃午饭。（对话链：办公室）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "去食堂还是出去吃？", "en": "Cafeteria or eat out?" },
+      { "role": "You", "cn": "出去吧，我知道一家越南粉不错。", "en": "Let's go out. I know a good pho place." },
+      { "role": "Colleague", "cn": "远吗？一点前要回来。", "en": "Is it far? We need to be back before one." },
+      { "role": "You", "cn": "走路五分钟，来得及。", "en": "Five minutes on foot. We'll make it." },
+      { "role": "Colleague", "cn": "行，走。", "en": "Sure, let's go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-07",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Stay Late",
+    "titleCn": "第7环：加班沟通",
+    "scene": "项目赶工，你和老板沟通今晚加班。（对话链：办公室）",
+    "roles": ["You", "Boss"],
+    "turns": [
+      { "role": "You", "cn": "今晚可能要加班到八点，上线窗口是今晚。", "en": "I may need to stay until eight. The release window is tonight." },
+      { "role": "Boss", "cn": "需要谁支援？", "en": "Who do you need for support?" },
+      { "role": "You", "cn": "后端小李在线就行，我前端收尾。", "en": "Just Li on back-end online. I'll wrap up the front end." },
+      { "role": "Boss", "cn": "好，打车报销，明天晚点到。", "en": "Okay. Expense your ride home. Come in late tomorrow." },
+      { "role": "You", "cn": "谢谢老板。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-office-08",
+    "category": "office",
+    "chain": {
+      "id": "workday-office",
+      "title": "A Day at the Office",
+      "titleCn": "对话链：办公室工作日",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Wrap Up the Week",
+    "titleCn": "第8环：周五收尾",
+    "scene": "周五下班前，你和同事聊本周总结。（对话链：办公室）",
+    "roles": ["You", "Colleague"],
+    "turns": [
+      { "role": "Colleague", "cn": "这周够累的，周末有什么计划？", "en": "Busy week. Any plans for the weekend?" },
+      { "role": "You", "cn": "好好睡一觉，周日去爬山。", "en": "Catch up on sleep. Hiking on Sunday." },
+      { "role": "Colleague", "cn": "登录页上线顺利，辛苦了。", "en": "Login page shipped smoothly. Nice work." },
+      { "role": "You", "cn": "团队合作的好，周一见。", "en": "Good teamwork. See you Monday." },
+      { "role": "Colleague", "cn": "周一见，周末愉快！", "en": "See you Monday. Have a great weekend!" }
+    ]
+  }
+]

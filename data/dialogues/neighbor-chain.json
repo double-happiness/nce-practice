@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dlg-chain-neigh-01",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Meet New Neighbor",
+    "titleCn": "第1环：认识新邻居",
+    "scene": "新邻居搬来，你在楼道里打招呼。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "你好！我是新搬来的，住502。", "en": "Hi! I'm new here. I just moved into 502." },
+      { "role": "You", "cn": "欢迎！我住504，有什么需要帮忙的尽管说。", "en": "Welcome! I'm in 504. Let me know if you need anything." },
+      { "role": "Neighbor", "cn": "这附近有超市吗？", "en": "Is there a grocery store nearby?" },
+      { "role": "You", "cn": "拐角就有一家，走路五分钟。", "en": "There's one on the corner, about a five-minute walk." },
+      { "role": "Neighbor", "cn": "垃圾哪天收？", "en": "What day is trash pickup?" },
+      { "role": "You", "cn": "周二和周五早上，晚上十点前放门口。", "en": "Tuesday and Friday mornings. Put it out before ten PM." },
+      { "role": "Neighbor", "cn": "太感谢了，改天请你喝咖啡！", "en": "Thanks so much. Coffee on me sometime!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-02",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Borrow Something",
+    "titleCn": "第2环：借东西",
+    "scene": "你做蛋糕发现没糖了，去敲邻居的门。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "不好意思打扰了，能借一杯糖吗？", "en": "Sorry to bother you. Could I borrow a cup of sugar?" },
+      { "role": "Neighbor", "cn": "当然，等一下。", "en": "Sure, give me a second." },
+      { "role": "Neighbor", "cn": "给你，够吗？", "en": "Here you go. Is that enough?" },
+      { "role": "You", "cn": "够了，非常感谢！", "en": "That's perfect. Thank you so much!" },
+      { "role": "Neighbor", "cn": "在做甜点吗？闻起来好香。", "en": "Are you baking? It smells great." },
+      { "role": "You", "cn": "巧克力蛋糕，做好了给你送一块。", "en": "Chocolate cake. I'll bring you a slice when it's done." }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-03",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Accept a Package",
+    "titleCn": "第3环：代收快递",
+    "scene": "邻居请你帮忙代收快递。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "我明天不在家，能帮我收个包裹吗？", "en": "I'll be out tomorrow. Could you accept a package for me?" },
+      { "role": "You", "cn": "没问题，大概几点送？", "en": "No problem. What time will it arrive?" },
+      { "role": "Neighbor", "cn": "快递说下午两点到六点之间。", "en": "They said between two and six PM." },
+      { "role": "You", "cn": "好的，到了我发短信告诉你。", "en": "Okay. I'll text you when it arrives." },
+      { "role": "Neighbor", "cn": "太谢谢了，晚上我来拿。", "en": "Thanks a lot. I'll pick it up tonight." },
+      { "role": "You", "cn": "放我门口就行，敲我门拿。", "en": "I'll leave it by my door. Just knock when you come." }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-04",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Noise Complaint",
+    "titleCn": "第4环：噪音沟通",
+    "scene": "楼上噪音太大，你礼貌地上门沟通。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "你好，不好意思这么晚来打扰。", "en": "Hi, sorry to bother you so late." },
+      { "role": "Neighbor", "cn": "没关系，怎么了？", "en": "No worries. What's up?" },
+      { "role": "You", "cn": "音乐声有点大，我明天要早起。", "en": "The music is a bit loud. I have to get up early tomorrow." },
+      { "role": "Neighbor", "cn": "非常抱歉，我们不知道。", "en": "I'm so sorry. We didn't realize." },
+      { "role": "You", "cn": "没关系，能小声一点吗？", "en": "It's okay. Could you turn it down a little?" },
+      { "role": "Neighbor", "cn": "当然，马上关小。", "en": "Of course. We'll lower it right now." }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-05",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Share Tools",
+    "titleCn": "第5环：借工具",
+    "scene": "邻居敲门借电钻，你在家。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "能借一下电钻吗？挂个画。", "en": "Could I borrow your drill? I need to hang a picture." },
+      { "role": "You", "cn": "可以，在阳台工具箱里。", "en": "Sure. It's in the toolbox on the balcony." },
+      { "role": "Neighbor", "cn": "钻头要几号的？", "en": "What size bit do I need?" },
+      { "role": "You", "cn": "墙上用六号，膨胀螺丝我这也有。", "en": "Number six for the wall. I have anchors too." },
+      { "role": "Neighbor", "cn": "太感谢了，半小时还你。", "en": "Thanks a lot. I'll return it in half an hour." },
+      { "role": "You", "cn": "不急，用完放门口就行。", "en": "No rush. Just leave it by my door when you're done." }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-06",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Pet Encounter",
+    "titleCn": "第6环：遛狗相遇",
+    "scene": "你在小区遛狗，遇见邻居也带着狗。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "你的狗好可爱，叫什么？", "en": "Your dog is adorable. What's their name?" },
+      { "role": "You", "cn": "豆豆，三岁，很友好。", "en": "Dou Dou. Three years old. Very friendly." },
+      { "role": "Neighbor", "cn": "能一起玩一会儿吗？", "en": "Can they play together for a bit?" },
+      { "role": "You", "cn": "可以，这有牵绳，公园那边草地大。", "en": "Sure. I've got a leash. The grass by the park is bigger." },
+      { "role": "Neighbor", "cn": "小区宠物群你加了吗？", "en": "Are you in the building pet group chat?" },
+      { "role": "You", "cn": "还没，能拉我吗？", "en": "Not yet. Could you add me?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-07",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Water Leak",
+    "titleCn": "第7环：漏水通知",
+    "scene": "你家厨房漏水渗到楼下，你主动找邻居说明。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我家厨房可能漏水到您家了。", "en": "Sorry, my kitchen leak may have reached your place." },
+      { "role": "Neighbor", "cn": "天花板有点湿，刚发现。", "en": "The ceiling is a bit wet. I just noticed." },
+      { "role": "You", "cn": "我已经关水阀，物业明天来修。", "en": "I shut off the valve. Maintenance comes tomorrow." },
+      { "role": "Neighbor", "cn": "需要我拍照留证吗？", "en": "Should I take photos for the record?" },
+      { "role": "You", "cn": "麻烦拍一下，费用我们负责。", "en": "Please do. We'll cover the repair costs." },
+      { "role": "Neighbor", "cn": "好，有事随时联系。", "en": "Okay. Call me anytime." }
+    ]
+  },
+  {
+    "id": "dlg-chain-neigh-08",
+    "category": "neighbor",
+    "chain": {
+      "id": "neighbor-life",
+      "title": "Getting Along with Neighbors",
+      "titleCn": "对话链：邻里相处",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Holiday Gathering",
+    "titleCn": "第8环：节日聚会",
+    "scene": "中秋节，邻居邀请你参加楼道小聚会。（对话链：邻里）",
+    "roles": ["You", "Neighbor"],
+    "turns": [
+      { "role": "Neighbor", "cn": "周六晚上楼道中秋聚会，你来吗？", "en": "We're having a Mid-Autumn get-together in the hall Saturday. Coming?" },
+      { "role": "You", "cn": "当然，我带月饼。", "en": "Sure. I'll bring mooncakes." },
+      { "role": "Neighbor", "cn": "每家带一样吃的就行。", "en": "Just one dish per household is fine." },
+      { "role": "You", "cn": "几点开始？要帮忙布置吗？", "en": "What time? Need help setting up?" },
+      { "role": "Neighbor", "cn": "七点，六点半来帮忙挂灯就好。", "en": "Seven PM. Come at six thirty to hang lights." },
+      { "role": "You", "cn": "好，到时候见。", "en": "Great. See you then." }
+    ]
+  }
+]

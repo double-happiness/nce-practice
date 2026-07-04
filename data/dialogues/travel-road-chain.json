@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-trip-01",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Plan the Trip",
+    "titleCn": "第1环：计划行程",
+    "scene": "你和朋友们商量周末自驾游。（对话链：旅游）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "去海边还是山里？", "en": "Beach or mountains?" },
+      { "role": "You", "cn": "山里吧，秋天看枫叶，开车三小时。", "en": "Mountains. Fall foliage, three hours by car." },
+      { "role": "Friend", "cn": "订民宿还是露营？", "en": "Cabin or camping?" },
+      { "role": "You", "cn": "民宿，两晚，人均一百五。", "en": "Cabin. Two nights, about a hundred fifty each." },
+      { "role": "Friend", "cn": "好，我负责订房，你规划路线。", "en": "Deal. I'll book lodging. You plan the route." },
+      { "role": "You", "cn": "行，周六早上七点出发。", "en": "Okay. Leave Saturday at seven AM." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-02",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Rent a Car",
+    "titleCn": "第2环：租车",
+    "scene": "你在租车公司取车。（对话链：旅游）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "预订了 SUV 对吧？驾照和信用卡。", "en": "Reserved an SUV? License and credit card, please." },
+      { "role": "You", "cn": "对，三天，含全险吗？", "en": "Yes. Three days. Does it include full coverage?" },
+      { "role": "Agent", "cn": "含基础险，全险每天多十五。", "en": "Basic is included. Full coverage is fifteen extra per day." },
+      { "role": "You", "cn": "加全险吧，油箱满还车？", "en": "I'll add full coverage. Return with a full tank?" },
+      { "role": "Agent", "cn": "对，否则按加仑收费。", "en": "Yes. Otherwise we charge per gallon." },
+      { "role": "Agent", "cn": "车在外场 B 区 12 号，钥匙在这。", "en": "Car is in lot B, space twelve. Keys are here." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-03",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Gas Stop",
+    "titleCn": "第3环：途中加油",
+    "scene": "高速公路上你们停车加油。（对话链：旅游）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "油剩四分之一了，下一个出口加吧。", "en": "A quarter tank left. Let's fill up at the next exit." },
+      { "role": "You", "cn": "好，我下去加，你要咖啡吗？", "en": "Okay. I'll pump gas. Want coffee?" },
+      { "role": "Friend", "cn": "大杯冰美式，谢谢。", "en": "Large iced Americano, please." },
+      { "role": "You", "cn": "洗手间在哪问一下店员。", "en": "Ask the clerk where the restroom is." },
+      { "role": "Friend", "cn": "后面左转，快点天要黑了。", "en": "Left in the back. Hurry, it's getting dark." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-04",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Scenic Stop",
+    "titleCn": "第4环：观景台停留",
+    "scene": "你们在观景台停车拍照。（对话链：旅游）",
+    "roles": ["You", "Tourist"],
+    "turns": [
+      { "role": "Tourist", "cn": "这角度好看，能帮我拍张照吗？", "en": "Great angle here. Could you take a photo for me?" },
+      { "role": "You", "cn": "当然，手机还是相机？", "en": "Sure. Phone or camera?" },
+      { "role": "Tourist", "cn": "手机就行，竖屏。", "en": "Phone is fine. Portrait mode." },
+      { "role": "You", "cn": "好了，你看看。", "en": "Done. Take a look." },
+      { "role": "Tourist", "cn": "完美，谢谢！你们也是来赏枫的？", "en": "Perfect, thanks! You here for the foliage too?" },
+      { "role": "You", "cn": "对，周末短途游。", "en": "Yes. Weekend getaway." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-05",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Check In at Cabin",
+    "titleCn": "第5环：民宿入住",
+    "scene": "傍晚你们到达民宿办理入住。（对话链：旅游）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "欢迎！预订两晚对吧？钥匙在盒子里。", "en": "Welcome! Two nights, right? Keys are in the lockbox." },
+      { "role": "You", "cn": "对，暖气怎么开？", "en": "Yes. How do we turn on the heat?" },
+      { "role": "Host", "cn": "墙上温控器，设六十八华氏度。", "en": "Thermostat on the wall. Set it to sixty-eight." },
+      { "role": "You", "cn": "附近有超市吗？", "en": "Is there a grocery store nearby?" },
+      { "role": "Host", "cn": "开车五分钟，地图发你手机了。", "en": "Five minutes by car. I texted you the map." },
+      { "role": "You", "cn": "谢谢，很漂亮的房子。", "en": "Thank you. Beautiful place." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-06",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Local Restaurant",
+    "titleCn": "第6环：当地餐馆",
+    "scene": "晚上你们在镇上小馆吃饭。（对话链：旅游）",
+    "roles": ["You", "Server"],
+    "turns": [
+      { "role": "Server", "cn": "今晚特供是炖牛肉，要试试吗？", "en": "Tonight's special is beef stew. Want to try it?" },
+      { "role": "You", "cn": "听起来不错，来两份，再加沙拉。", "en": "Sounds great. Two of those, plus a salad." },
+      { "role": "Server", "cn": "饮料呢？", "en": "Anything to drink?" },
+      { "role": "You", "cn": "一壶热茶，本地啤酒有吗？", "en": "A pot of hot tea. Any local beer?" },
+      { "role": "Server", "cn": "有，山里酿的，很受欢迎。", "en": "Yes, brewed nearby. Very popular." },
+      { "role": "You", "cn": "来一瓶试试。", "en": "One bottle to try." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-07",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Hiking Trail",
+    "titleCn": "第7环：徒步登山",
+    "scene": "周日早上你们向游客中心问路线。（对话链：旅游）",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "You", "cn": "有半天能走完的步道吗？", "en": "Any trails we can finish in half a day?" },
+      { "role": "Ranger", "cn": "瀑布线四英里，中等难度。", "en": "Falls Trail, four miles, moderate." },
+      { "role": "You", "cn": "需要登山杖吗？", "en": "Do we need hiking poles?" },
+      { "role": "Ranger", "cn": "建议带，有几段较陡。", "en": "Recommended. A few steep sections." },
+      { "role": "You", "cn": "地图能拿一份吗？", "en": "Could we get a trail map?" },
+      { "role": "Ranger", "cn": "给，下午四点前下山，天黑快。", "en": "Here you go. Be back before four PM. Gets dark early." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trip-08",
+    "category": "travel",
+    "chain": {
+      "id": "road-trip",
+      "title": "A Weekend Road Trip",
+      "titleCn": "对话链：自驾出游",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Drive Home",
+    "titleCn": "第8环：开车回家",
+    "scene": "周日下午你们还车踏上归途。（对话链：旅游）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "还车顺利吗？", "en": "Return went smoothly?" },
+      { "role": "You", "cn": "顺利，加满油了，没额外费用。", "en": "Yep. Full tank, no extra charges." },
+      { "role": "Friend", "cn": "下次去哪？海边？", "en": "Where next? The beach?" },
+      { "role": "You", "cn": "夏天吧，这次山里太棒了。", "en": "Maybe summer. Mountains were amazing this time." },
+      { "role": "Friend", "cn": "同意，到家约饭复盘照片。", "en": "Agreed. Dinner and photo review when we're home." },
+      { "role": "You", "cn": "一言为定。", "en": "Deal." }
+    ]
+  }
+]

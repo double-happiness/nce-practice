@@ -2029,7 +2029,7 @@ function renderBookChips() {
     cnt.className = 'chip-count';
     cnt.textContent = n ? `${n}题` : '暂无题';
     el.appendChild(cnt);
-    el.title = b.subtitle + (n < 50 ? ' · 本册题量较少，持续扩充中' : '');
+    el.title = b.subtitle;
     el.onclick = () => {
       state.selectedBook = b.id;
       state.selectedUnit = null;

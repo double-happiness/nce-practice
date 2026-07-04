@@ -1,0 +1,296 @@
+[
+  {
+    "id": "tf-b3-061",
+    "book": 3,
+    "lesson": 51,
+    "grammar": ["be obsessed with"],
+    "cn": "他对收集古董着了迷。",
+    "explanation": "be obsessed with 表痴迷于；obsessed 为过去分词作表语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is obsessed with collecting antiques.", "He has become obsessed with antique collecting."], "cn": "他对收集古董着了迷。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is not obsessed with collecting antiques.", "He isn't obsessed with antiques."], "cn": "他对收集古董并不着迷。" },
+      { "kind": "wh", "prompt": "对「collecting antiques」提问（问\"痴迷于什么\"）", "answers": ["What is he obsessed with?", "What is he obsessed with collecting?"], "cn": "他痴迷于什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he obsessed with collecting antiques?"], "cn": "他对收集古董着迷吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-062",
+    "book": 3,
+    "lesson": 13,
+    "grammar": ["by + 将来时间"],
+    "cn": "火车将在五点前到达。",
+    "explanation": "by + 将来时间点表「在……之前（届时已完成）」，常与将来时连用。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The train will arrive by five o'clock.", "The train will get here by 5 p.m."], "cn": "火车将在五点前到达。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The train will not arrive by five o'clock.", "The train won't arrive by 5 p.m."], "cn": "火车不会在五点前到达。" },
+      { "kind": "wh", "prompt": "对「by five o'clock」提问（问\"何时前到达\"）", "answers": ["When will the train arrive?", "By when will the train arrive?"], "cn": "火车何时前到达？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will the train arrive by five o'clock?"], "cn": "火车会在五点前到达吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-063",
+    "book": 3,
+    "lesson": 17,
+    "grammar": ["could 表过去可能"],
+    "cn": "那可能是真的。",
+    "explanation": "could 表过去某种可能性，语气比 must 弱；could have been 表对过去的推测。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["That could be true.", "It could have been true."], "cn": "那可能是真的。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["That could not be true.", "That couldn't be true.", "It couldn't have been true."], "cn": "那不可能是真的。" },
+      { "kind": "wh", "prompt": "对「true」提问（问\"可能怎样\"）", "answers": ["What could that be?", "What could it have been?"], "cn": "那可能是什么情况？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Could that be true?", "Could it have been true?"], "cn": "那可能是真的吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-064",
+    "book": 3,
+    "lesson": 22,
+    "grammar": ["in the interest of"],
+    "cn": "为了公众利益，必须公开真相。",
+    "explanation": "in the interest of 表为了……的利益；in the public interest 为固定搭配。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["In the interest of the public, the truth must be revealed.", "The truth must be told in the public interest."], "cn": "为了公众利益，必须公开真相。" },
+      { "kind": "passive", "prompt": "改为被动语态（真相被公开）", "answers": ["The truth must be revealed in the interest of the public."], "cn": "真相必须为公众利益而被公开。" },
+      { "kind": "wh", "prompt": "对「the public」提问（问\"为了谁的利益\"）", "answers": ["In whose interest must the truth be revealed?", "For whose interest must the truth be told?"], "cn": "为了谁的利益必须公开真相？" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["The truth must not be hidden in the interest of the public."], "cn": "不应为公众利益而隐瞒真相。" }
+    ]
+  },
+  {
+    "id": "tf-b3-065",
+    "book": 3,
+    "lesson": 35,
+    "grammar": ["what 主语从句"],
+    "cn": "重要的是我们坚持到底。",
+    "explanation": "What 引导主语从句：What matters is...；从句作主语，谓语用单数。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["What matters is that we keep going.", "What is important is that we persist."], "cn": "重要的是我们坚持到底。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["What matters is not giving up.", "What is not important is quitting."], "cn": "重要的不是放弃。" },
+      { "kind": "wh", "prompt": "对「that we keep going」提问（问\"重要的是什么\"）", "answers": ["What matters?", "What is important?"], "cn": "重要的是什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（坚持重要吗）", "answers": ["Is it important that we keep going?", "Does it matter that we persist?"], "cn": "坚持很重要吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-066",
+    "book": 3,
+    "lesson": 13,
+    "grammar": ["will / be going to"],
+    "cn": "我打算明年去日本。",
+    "explanation": "be going to 表计划、打算；will 表意愿或临时决定。本句表已有计划用 be going to。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I am going to Japan next year.", "I'm going to visit Japan next year."], "cn": "我打算明年去日本。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["I am not going to Japan next year.", "I'm not going to visit Japan next year."], "cn": "我明年不打算去日本。" },
+      { "kind": "wh", "prompt": "对「Japan」提问（问\"打算去哪里\"）", "answers": ["Where are you going next year?", "Where are you going to visit next year?"], "cn": "你明年打算去哪里？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Are you going to Japan next year?", "Are you going to visit Japan next year?"], "cn": "你明年打算去日本吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-067",
+    "book": 3,
+    "lesson": 40,
+    "grammar": ["倒装"],
+    "cn": "我从未见过如此美丽的景色。",
+    "explanation": "否定词放句首引起部分倒装：Never have I seen... = I have never seen...。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用倒装）", "answers": ["Never have I seen such a beautiful view.", "Never before have I seen such scenery."], "cn": "我从未见过如此美丽的景色。" },
+      { "kind": "negative", "prompt": "改为陈述语序的否定句", "answers": ["I have never seen such a beautiful view.", "I have never seen such scenery before."], "cn": "我从未见过如此美丽的景色。" },
+      { "kind": "wh", "prompt": "对「such a beautiful view」提问（问\"从未见过什么\"）", "answers": ["What have you never seen?", "What have you never seen before?"], "cn": "你从未见过什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Have you ever seen such a beautiful view?"], "cn": "你见过如此美丽的景色吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-068",
+    "book": 3,
+    "lesson": 41,
+    "grammar": ["动名词"],
+    "cn": "游泳对健康有益。",
+    "explanation": "动名词作主语：Swimming is good for health.；动名词表抽象活动。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Swimming is good for your health.", "Swimming is good for health."], "cn": "游泳对健康有益。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["Swimming is not good for your health.", "Swimming isn't good for health."], "cn": "游泳对健康无益。" },
+      { "kind": "wh", "prompt": "对「Swimming」提问（问\"什么对健康有益\"）", "answers": ["What is good for your health?", "What is good for health?"], "cn": "什么对健康有益？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is swimming good for your health?"], "cn": "游泳对健康有益吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-069",
+    "book": 3,
+    "lesson": 41,
+    "grammar": ["动名词复合结构"],
+    "cn": "我不记得他开过那扇门。",
+    "explanation": "动名词复合结构：remember + 宾语 + doing；his opening 中 his 为逻辑主语。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I don't remember him opening that door.", "I don't remember his opening that door."], "cn": "我不记得他开过那扇门。" },
+      { "kind": "negative", "prompt": "改为肯定句（记得他开过）", "answers": ["I remember him opening that door.", "I remember his opening that door."], "cn": "我记得他开过那扇门。" },
+      { "kind": "wh", "prompt": "对「opening that door」提问（问\"不记得他做过什么\"）", "answers": ["What don't you remember him doing?", "What don't you remember?"], "cn": "你不记得他做过什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do you remember him opening that door?"], "cn": "你记得他开过那扇门吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-070",
+    "book": 3,
+    "lesson": 14,
+    "grammar": ["将来完成时"],
+    "cn": "到明年此时，我将已在这家公司工作十年。",
+    "explanation": "将来完成时 will have done 表将来某时之前已完成的动作；by next year 为标志。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["By this time next year, I will have worked for this company for ten years.", "By next year I will have been with the firm for a decade."], "cn": "到明年此时，我将已在这家公司工作十年。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["By this time next year, I will not have worked here for ten years.", "I won't have completed ten years by then."], "cn": "到明年此时，我将尚未工作满十年。" },
+      { "kind": "wh", "prompt": "对「for ten years」提问（问\"将已工作多久\"）", "answers": ["How long will you have worked for this company by next year?"], "cn": "到明年你将已工作多久？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will you have worked for this company for ten years by next year?"], "cn": "到明年你将已在这家公司工作十年吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-071",
+    "book": 3,
+    "lesson": 23,
+    "grammar": ["并列结构"],
+    "cn": "他既聪明又勤奋。",
+    "explanation": "并列结构 both...and / not only...but also；形容词并列用 and 连接。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He is both clever and hardworking.", "He is clever and diligent."], "cn": "他既聪明又勤奋。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He is neither clever nor hardworking.", "He is not clever or hardworking."], "cn": "他既不聪明也不勤奋。" },
+      { "kind": "wh", "prompt": "对「clever and hardworking」提问（问\"他怎样\"）", "answers": ["What is he like?", "How would you describe him?"], "cn": "他是什么样的人？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is he both clever and hardworking?", "Is he clever and hardworking?"], "cn": "他既聪明又勤奋吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-072",
+    "book": 3,
+    "lesson": 25,
+    "grammar": ["强调句"],
+    "cn": "正是他在事故中救了那个孩子。",
+    "explanation": "强调句 It is/was... that/who...；去掉 It is...that 后句子仍完整。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用强调句）", "answers": ["It was he who saved the child in the accident.", "It was he that saved the child in the accident."], "cn": "正是他在事故中救了那个孩子。" },
+      { "kind": "negative", "prompt": "改为普通陈述句（不用强调）", "answers": ["He saved the child in the accident."], "cn": "他在事故中救了那个孩子。" },
+      { "kind": "wh", "prompt": "对「he」提问（问\"谁救了孩子\"）", "answers": ["Who saved the child in the accident?", "Who was it that saved the child?"], "cn": "谁在事故中救了孩子？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Was it he who saved the child in the accident?", "Did he save the child in the accident?"], "cn": "是他在事故中救了孩子吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-073",
+    "book": 3,
+    "lesson": 28,
+    "grammar": ["强调本质"],
+    "cn": "问题不在于钱，而在于时间。",
+    "explanation": "not...but... 强调对比本质：The point is not A but B；what matters is not...but...。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The problem is not money but time.", "It is not money but time that matters."], "cn": "问题不在于钱，而在于时间。" },
+      { "kind": "negative", "prompt": "改为否定句（问题不在时间）", "answers": ["The problem is not time.", "Time is not the problem."], "cn": "问题不在于时间。" },
+      { "kind": "wh", "prompt": "对「time」提问（问\"问题在于什么\"）", "answers": ["What is the problem?", "What matters, money or time?"], "cn": "问题在于什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句（问题在于时间吗）", "answers": ["Is the problem time?", "Is it time that matters?"], "cn": "问题在于时间吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-074",
+    "book": 3,
+    "lesson": 5,
+    "grammar": ["时态"],
+    "cn": "当我到达时，他们正在吃晚饭。",
+    "explanation": "过去进行时表过去某时正在进行的动作；when 从句用一般过去时表时间点。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["When I arrived, they were having dinner.", "When I got there, they were eating dinner."], "cn": "当我到达时，他们正在吃晚饭。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["When I arrived, they were not having dinner.", "They weren't having dinner when I arrived."], "cn": "当我到达时，他们没在吃晚饭。" },
+      { "kind": "wh", "prompt": "对「having dinner」提问（问\"当时在做什么\"）", "answers": ["What were they doing when you arrived?", "What were they doing?"], "cn": "你到达时他们在做什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Were they having dinner when you arrived?"], "cn": "你到达时他们在吃晚饭吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-075",
+    "book": 3,
+    "lesson": 11,
+    "grammar": ["状语从句"],
+    "cn": "虽然下雨了，比赛仍照常进行。",
+    "explanation": "although/though 引导让步状语从句，主从句时态按语境搭配；although 不与 but 连用。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Although it was raining, the match went on as usual.", "Though it rained, the game continued."], "cn": "虽然下雨了，比赛仍照常进行。" },
+      { "kind": "negative", "prompt": "改为否定句（比赛未进行）", "answers": ["Although it was raining, the match did not go on.", "The match was cancelled although it was only drizzling."], "cn": "虽然下雨了，比赛没有进行。" },
+      { "kind": "wh", "prompt": "对「the match」提问（问\"什么照常进行\"）", "answers": ["What went on as usual although it was raining?"], "cn": "虽然下雨什么仍照常进行？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the match go on although it was raining?"], "cn": "虽然下雨比赛仍进行了吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-076",
+    "book": 3,
+    "lesson": 10,
+    "grammar": ["现在完成时 vs 一般过去时"],
+    "cn": "他去年去了巴黎。（去年=过去具体时间，用一般过去时）",
+    "explanation": "有 yesterday/last year 等过去具体时间用一般过去时；无具体时间、强调与现在有联系用现在完成时。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文（用一般过去时）", "answers": ["He went to Paris last year.", "He visited Paris last year."], "cn": "他去年去了巴黎。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not go to Paris last year.", "He didn't visit Paris last year."], "cn": "他去年没去巴黎。" },
+      { "kind": "wh", "prompt": "对「Paris」提问（问\"去年去了哪里\"）", "answers": ["Where did he go last year?", "Where did he visit last year?"], "cn": "他去年去了哪里？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he go to Paris last year?"], "cn": "他去年去巴黎了吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-077",
+    "book": 3,
+    "lesson": 39,
+    "grammar": ["疑问词 + to do"],
+    "cn": "我不知道该说什么。",
+    "explanation": "疑问词 + 不定式作宾语：don't know what to say；语序为疑问词 + to + 动词原形。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["I don't know what to say.", "I do not know what to say."], "cn": "我不知道该说什么。" },
+      { "kind": "negative", "prompt": "改为肯定句（知道该说什么）", "answers": ["I know what to say."], "cn": "我知道该说什么。" },
+      { "kind": "wh", "prompt": "对「what to say」提问（问\"不知道什么\"）", "answers": ["What don't you know?", "What do you not know?"], "cn": "你不知道什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Do you know what to say?"], "cn": "你知道该说什么吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-078",
+    "book": 3,
+    "lesson": 40,
+    "grammar": ["虚拟条件句(even if)"],
+    "cn": "即使明天下雨，我们也会去野餐。",
+    "explanation": "even if 引导让步条件「即使……也……」，主句仍可用 will 表决心。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Even if it rains tomorrow, we will go for a picnic.", "We'll go picnicking even if it rains tomorrow."], "cn": "即使明天下雨，我们也会去野餐。" },
+      { "kind": "negative", "prompt": "改为否定句（即使下雨也不去）", "answers": ["Even if it rains tomorrow, we will not go for a picnic.", "We won't go even if it rains."], "cn": "即使明天下雨，我们也不去野餐。" },
+      { "kind": "wh", "prompt": "对「go for a picnic」提问（问\"即使下雨也会做什么\"）", "answers": ["What will you do even if it rains tomorrow?"], "cn": "即使下雨你们也会做什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will you go for a picnic even if it rains tomorrow?"], "cn": "即使下雨你们也会去野餐吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-079",
+    "book": 3,
+    "lesson": 36,
+    "grammar": ["表示意图"],
+    "cn": "他打算下周开始学法语。",
+    "explanation": "intend to do / plan to do / mean to do 表打算、意图；intend 较正式。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He intends to start learning French next week.", "He plans to begin French next week."], "cn": "他打算下周开始学法语。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not intend to start French next week.", "He doesn't plan to learn French next week."], "cn": "他不打算下周开始学法语。" },
+      { "kind": "wh", "prompt": "对「learning French」提问（问\"打算开始学什么\"）", "answers": ["What does he intend to start learning next week?", "What does he plan to learn?"], "cn": "他打算开始学什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he intend to start learning French next week?"], "cn": "他打算下周开始学法语吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-080",
+    "book": 3,
+    "lesson": 20,
+    "grammar": ["词汇辨析"],
+    "cn": "他借了我一本书。（lend 借出）",
+    "explanation": "lend 借出（lend sb. sth.）；borrow 借入（borrow sth. from sb.）；两者方向相反。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He lent me a book.", "He lent a book to me."], "cn": "他借了我一本书。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not lend me a book.", "He didn't lend me any book."], "cn": "他没借我书。" },
+      { "kind": "wh", "prompt": "对「a book」提问（问\"借了什么\"）", "answers": ["What did he lend you?", "What did he lend to you?"], "cn": "他借了你什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he lend you a book?"], "cn": "他借了你一本书吗？" }
+    ]
+  },
+  {
+    "id": "tf-b3-081",
+    "book": 3,
+    "lesson": 42,
+    "grammar": ["非谓语动词"],
+    "cn": "看见他进门，她站了起来。",
+    "explanation": "现在分词短语作状语 Seeing him enter...；非谓语动词表伴随或原因。",
+    "steps": [
+      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Seeing him enter, she stood up.", "When she saw him enter, she stood up."], "cn": "看见他进门，她站了起来。" },
+      { "kind": "negative", "prompt": "改为否定句", "answers": ["She did not stand up when she saw him enter.", "Not seeing him enter, she remained seated."], "cn": "没看见他进门，她没站起来。" },
+      { "kind": "wh", "prompt": "对「stood up」提问（问\"她做了什么\"）", "answers": ["What did she do when she saw him enter?", "What did she do?"], "cn": "她做了什么？" },
+      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did she stand up when she saw him enter?"], "cn": "看见他进门她站起来了吗？" }
+    ]
+  }
+]

@@ -1,0 +1,2472 @@
+[
+  {
+    "book": 4,
+    "lesson": 1,
+    "title": "Finding fossil man",
+    "titleCn": "发现化石人",
+    "scene": "直到近年，人类才开始真正理解地球存在了多久。数个世纪以来，人们一直以为人类自古就存在、自创世以来未曾改变。如今在非洲和亚洲工作的考古学家发掘出了可追溯至数百万年前的化石遗骸；这些埋在岩层之下的发现迫使我们修正对人类起源的认识。证据虽稀少，每一次新发现却都可能改变我们的既有观念。骨骼旁发现的工具表明，早期人类已能制造简单器具；化石又碰巧保存在极为罕见的条件下。发现化石人仍是现代科学面临的最大挑战之一。本课语法围绕考古报道中大量使用的分词结构，以及强调「何物被发现、被测定」的被动语态。",
+    "grammarTags": [
+      "非谓语动词(分词)",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "fossil",
+        "phon": "/ˈfɒsl/",
+        "pos": "n.",
+        "cn": "化石",
+        "eg": "Fossil remains dating back millions of years alter our view of human origins. 可追溯至数百万年前的化石遗骸改变了我们对人类起源的认识。"
+      },
+      {
+        "word": "unearth",
+        "phon": "/ʌnˈɜːθ/",
+        "pos": "v.",
+        "cn": "发掘；出土",
+        "eg": "Archaeologists have unearthed tools beside the bones. 考古学家在骨骼旁发掘出了工具。"
+      },
+      {
+        "word": "archaeologist",
+        "phon": "/ˌɑːkiˈɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "考古学家",
+        "eg": "Archaeologists working in Africa study early human sites. 在非洲工作的考古学家研究早期人类遗址。"
+      },
+      {
+        "word": "remains",
+        "phon": "/rɪˈmeɪnz/",
+        "pos": "n.",
+        "cn": "遗骸；遗迹",
+        "eg": "The fossil remains were buried under layers of rock. 这些化石遗骸埋在层层岩石之下。"
+      },
+      {
+        "word": "origin",
+        "phon": "/ˈɒrɪdʒɪn/",
+        "pos": "n.",
+        "cn": "起源",
+        "eg": "Each new find may revise our picture of human origins. 每一次新发现都可能修正我们对人类起源的认识。"
+      },
+      {
+        "word": "evidence",
+        "phon": "/ˈevɪdəns/",
+        "pos": "n.",
+        "cn": "证据",
+        "eg": "The evidence is scarce, yet every discovery matters. 证据虽稀少，每一次发现都至关重要。"
+      },
+      {
+        "word": "scarce",
+        "phon": "/skeəs/",
+        "pos": "adj.",
+        "cn": "稀少的；不足的",
+        "eg": "Evidence from the distant past is often scarce. 来自远古的证据往往十分稀少。"
+      },
+      {
+        "word": "implement",
+        "phon": "/ˈɪmplɪmənt/",
+        "pos": "n.",
+        "cn": "工具；器具",
+        "eg": "Early man was capable of making simple implements. 早期人类已能制造简单器具。"
+      },
+      {
+        "word": "preserve",
+        "phon": "/prɪˈzɜːv/",
+        "pos": "v.",
+        "cn": "保存；使完好",
+        "eg": "Buried for ages, the fossils were preserved by chance. 化石埋藏了数千年，碰巧得以保存。"
+      },
+      {
+        "word": "fossil man",
+        "phon": "",
+        "pos": "a.",
+        "cn": "化石人",
+        "eg": "Finding fossil man"
+      },
+      {
+        "word": "recount",
+        "phon": "/rɪ'kaunt/",
+        "pos": "v.",
+        "cn": "叙述",
+        "eg": "The only way that they can preserve their history is to recount it as sagas legends handed down from one generation of storytellers to another."
+      },
+      {
+        "word": "saga",
+        "phon": "/'sɑːgə/",
+        "pos": "n.",
+        "cn": "英雄故事",
+        "eg": ""
+      },
+      {
+        "word": "legend",
+        "phon": "/'ledʒənd/",
+        "pos": "n.",
+        "cn": "传说，传奇",
+        "eg": ""
+      },
+      {
+        "word": "migration",
+        "phon": "/maɪ'greɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "迁移，移居",
+        "eg": ""
+      },
+      {
+        "word": "anthropologist",
+        "phon": "/,ænθrə'pɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "人类学家",
+        "eg": ""
+      },
+      {
+        "word": "ancestor",
+        "phon": "/'ænsestər/",
+        "pos": "n.",
+        "cn": "祖先",
+        "eg": ""
+      },
+      {
+        "word": "Polynesian",
+        "phon": "/,pɔli'ni:ziən; -ʒiən/",
+        "pos": "a.",
+        "cn": "波利尼西亚(中太平洋之一群岛)的",
+        "eg": "Anthropologists wondered where the remote ancestors of the Polynesian peoples now living in the Pacific Islandscame from."
+      },
+      {
+        "word": "Indonesia",
+        "phon": "/'indəu'ni:zjə,-ʒə/",
+        "pos": "n.",
+        "cn": "印度尼西亚",
+        "eg": "The sagas of these people explain that some of them came from Indonesia about 2, 000 years ago."
+      },
+      {
+        "word": "flint",
+        "phon": "/flɪnt/",
+        "pos": "n.",
+        "cn": "燧石",
+        "eg": "Fortunately, however, ancient men made tools of stone, especially flint,"
+      },
+      {
+        "word": "rot",
+        "phon": "/rɒt/",
+        "pos": "v.",
+        "cn": "烂掉",
+        "eg": ""
+      },
+      {
+        "word": "beast",
+        "phon": "/biːst/",
+        "pos": "n.",
+        "cn": "野兽",
+        "eg": ""
+      },
+      {
+        "word": "census",
+        "phon": "/'sensəs/",
+        "pos": "n.",
+        "cn": "统计数字",
+        "eg": ""
+      },
+      {
+        "word": "acre",
+        "phon": "/'eɪkə/",
+        "pos": "n.",
+        "cn": "英亩",
+        "eg": ""
+      },
+      {
+        "word": "content",
+        "phon": "/kən'tent/",
+        "pos": "a.",
+        "cn": "满足的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词(分词)",
+        "explain": "现在分词作定语或状语表主动关系（tools dating back、archaeologists working）；过去分词表被动或完成（remains unearthed、buried under layers）。易错点：先判断名词与动词是主动还是被动，再选 -ing 或 -ed。",
+        "examples": [
+          "Tools dating back millions of years have been found near the site. （可追溯至数百万年前的工具已在遗址附近发现。）",
+          "Buried under layers of rock, the skull was preserved for ages. （埋在岩层之下，头骨保存了数千年。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "考古报道关注「何物被发现、被测定」，主语常是受动者，如 has been dated、are being unearthed、were preserved。易错点：现在完成时被动是 have/has been done，进行时被动是 are being done。",
+        "examples": [
+          "The site has been dated to the Pleistocene period. （该遗址已被测定为更新世时期。）",
+          "Valuable fossils are still being unearthed in East Africa. （有价值的化石仍在东非被不断发掘出来。）"
+        ]
+      }
+    ],
+    "tips": "①修饰名词时先判断主动/被动：主动用 -ing，被动用 -ed；②报道「发现、测定」多用被动，注意 has been done 与 are being done 的区别；③dating back、buried under 等分词短语可使句子更凝练。"
+  },
+  {
+    "book": 4,
+    "lesson": 2,
+    "title": "Spare that spider",
+    "titleCn": "放过蜘蛛吧",
+    "scene": "蜘蛛并非昆虫，而是属于另一纲类的小生物。花园里的一只蜘蛛一个季节就能消灭两千多只害虫；没有蜘蛛，危害庄稼的昆虫便会失控繁殖。研究蜘蛛丝的科学家希望开发出比钢铁更坚固的材料。蛛网看上去脆弱，实则是自然界最非凡的结构之一。我们不必喜爱蜘蛛，但应学会宽容它们——自然界的平衡依赖这些卑微的盟友，消灭它们会打破历经数百万年才演化而成的生态系统。本课语法重点是修饰 spiders、web 等的定语从句，以及表目的的 to do 不定式。",
+    "grammarTags": [
+      "定语从句",
+      "非谓语动词(不定式)"
+    ],
+    "words": [
+      {
+        "word": "spider",
+        "phon": "/ˈspaɪdə/",
+        "pos": "n.",
+        "cn": "蜘蛛",
+        "eg": "Spiders which live in our gardens destroy thousands of insects. 住在我们花园里的蜘蛛能消灭数以千计的昆虫。"
+      },
+      {
+        "word": "creature",
+        "phon": "/ˈkriːtʃə/",
+        "pos": "n.",
+        "cn": "生物；动物",
+        "eg": "Spiders are small creatures belonging to a class of their own. 蜘蛛是属于另一纲类的小生物。"
+      },
+      {
+        "word": "tolerate",
+        "phon": "/ˈtɒləreɪt/",
+        "pos": "v.",
+        "cn": "宽容；容忍",
+        "eg": "We should learn to tolerate spiders for the sake of nature. 为了自然界的平衡，我们应学会宽容蜘蛛。"
+      },
+      {
+        "word": "delicate",
+        "phon": "/ˈdelɪkət/",
+        "pos": "adj.",
+        "cn": "纤细的；脆弱的",
+        "eg": "The web looks delicate but is remarkably strong. 蛛网看上去纤细，却异常坚固。"
+      },
+      {
+        "word": "remarkable",
+        "phon": "/rɪˈmɑːkəbl/",
+        "pos": "adj.",
+        "cn": "非凡的；显著的",
+        "eg": "Spider silk is one of nature's most remarkable structures. 蜘蛛丝是自然界最非凡的结构之一。"
+      },
+      {
+        "word": "ecological",
+        "phon": "/ˌiːkəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "cn": "生态的",
+        "eg": "Removing spiders would upset the ecological balance. 消灭蜘蛛会打破生态平衡。"
+      },
+      {
+        "word": "balance",
+        "phon": "/ˈbæləns/",
+        "pos": "n.",
+        "cn": "平衡",
+        "eg": "The balance of nature depends on humble allies like spiders. 自然界的平衡依赖蜘蛛这类卑微的盟友。"
+      },
+      {
+        "word": "multiply",
+        "phon": "/ˈmʌltɪplaɪ/",
+        "pos": "v.",
+        "cn": "大量繁殖",
+        "eg": "Pests would multiply beyond control without spiders. 没有蜘蛛，害虫便会失控繁殖。"
+      },
+      {
+        "word": "destroy",
+        "phon": "/dɪˈstrɔɪ/",
+        "pos": "v.",
+        "cn": "消灭；摧毁",
+        "eg": "A single spider may destroy over two thousand insects in a season. 一只蜘蛛一个季节就能消灭两千多只昆虫。"
+      },
+      {
+        "word": "Matterhorn",
+        "phon": "/['mætәhɔ:n]/",
+        "pos": "n.",
+        "cn": "马特霍恩峰(阿尔卑斯山峰之一)",
+        "eg": ""
+      },
+      {
+        "word": "alpinist",
+        "phon": "/['ælpinist]/",
+        "pos": "n.",
+        "cn": "登山运动员",
+        "eg": ""
+      },
+      {
+        "word": "pioneer",
+        "phon": "/paɪə'nɪə/",
+        "pos": "v.",
+        "cn": "开辟，倡导;n.先锋，开辟者",
+        "eg": ""
+      },
+      {
+        "word": "summit",
+        "phon": "/'sʌmɪt/",
+        "pos": "n.",
+        "cn": "顶峰",
+        "eg": ""
+      },
+      {
+        "word": "attain",
+        "phon": "/ə'teɪn/",
+        "pos": "v.",
+        "cn": "到达",
+        "eg": ""
+      },
+      {
+        "word": "perilous",
+        "phon": "/'periləs/",
+        "pos": "a.",
+        "cn": "危险的",
+        "eg": ""
+      },
+      {
+        "word": "shudder",
+        "phon": "/'ʃʌdə/",
+        "pos": "v.",
+        "cn": "不寒而栗",
+        "eg": ""
+      },
+      {
+        "word": "court",
+        "phon": "/kɔːrt/",
+        "pos": "v.",
+        "cn": "追求",
+        "eg": ""
+      },
+      {
+        "word": "solitary",
+        "phon": "/'sɑːləteri/",
+        "pos": "a.",
+        "cn": "唯一的",
+        "eg": ""
+      },
+      {
+        "word": "impoverish",
+        "phon": "/im'pɔvəriʃ/",
+        "pos": "v.",
+        "cn": "使贫困",
+        "eg": ""
+      },
+      {
+        "word": "Alpine",
+        "phon": "/['ælpain]/",
+        "pos": "a.",
+        "cn": "阿尔卑斯山的",
+        "eg": ""
+      },
+      {
+        "word": "flea-ridden",
+        "phon": "",
+        "pos": "a.",
+        "cn": "布满跳蚤的",
+        "eg": ""
+      },
+      {
+        "word": "coarse",
+        "phon": "/kɔːrs/",
+        "pos": "a.",
+        "cn": "粗劣的",
+        "eg": ""
+      },
+      {
+        "word": "boast",
+        "phon": "/boust/",
+        "pos": "v.",
+        "cn": "自恃有",
+        "eg": ""
+      },
+      {
+        "word": "parishioner",
+        "phon": "/[pә'riʃәnә]/",
+        "pos": "n.",
+        "cn": "教区居民",
+        "eg": ""
+      },
+      {
+        "word": "shepherd",
+        "phon": "/'ʃepəd/",
+        "pos": "n.",
+        "cn": "牧羊人",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "who/which/that 修饰先行词说明「哪一种」：spiders which live in gardens、insects that damage crops。非限制性定语从句（逗号隔开）只能用 which，不能用 that。易错点：先行词指物作主语用 which/that，指人用 who。",
+        "examples": [
+          "Scientists study spider silk to develop new materials. （科学家研究蜘蛛丝以开发新材料。）",
+          "The web, which looks fragile, is in fact remarkably strong. （蛛网看上去脆弱，实际上却异常坚固。）"
+        ]
+      },
+      {
+        "point": "非谓语动词(不定式)",
+        "explain": "to do 作目的状语，说明「为了什么」，如 study ... to develop、spare spiders in order to protect。in order to do 与 to do 表目的可互换。易错点：表目的用 to do，不要误用 doing。",
+        "examples": [
+          "We should spare spiders in order to protect the ecological balance. （为了保护生态平衡，我们应放过蜘蛛。）",
+          "Scientists study spider silk to develop materials stronger than steel. （科学家研究蜘蛛丝，以开发比钢铁更坚固的材料。）"
+        ]
+      }
+    ],
+    "tips": "①先行词是物用 which/that，是人用 who；②逗号后的非限制性定语从句只能用 which；③表目的用 to do 或 in order to do，如 to develop、to protect。"
+  },
+  {
+    "book": 4,
+    "lesson": 3,
+    "title": "Matterhorn man",
+    "titleCn": "马特霍恩峰的勇士",
+    "scene": "一八六五年七月十四日，爱德华·Whymper 率领队伍登顶马特霍恩峰——那是最后一座被征服的阿尔卑斯名峰。下山途中绳索断裂，四人坠入悬崖丧生；唯有 Whymper 幸存，但这场悲剧终生萦绕着他。事故之后，登山者才开始更加重视装备安全。马特霍恩峰陡峭地耸立于采尔马特之上，至今仍吸引世界各地的登山者；尽管北壁险峻，它仍是胜利与灾难的双重象征。Whymper 后来承认，断裂的绳索早已出现磨损迹象。本课语法重点是 Only after ...、Fierce as ... 等倒装结构，以及交代「过去的过去」的过去完成时。",
+    "grammarTags": [
+      "倒装",
+      "过去完成时"
+    ],
+    "words": [
+      {
+        "word": "summit",
+        "phon": "/ˈsʌmɪt/",
+        "pos": "n.",
+        "cn": "顶峰",
+        "eg": "The party had reached the summit before the accident on the descent. 队伍在下山事故发生前已登顶。"
+      },
+      {
+        "word": "precipice",
+        "phon": "/ˈpresəpɪs/",
+        "pos": "n.",
+        "cn": "悬崖",
+        "eg": "Four men plunged down the precipice when the rope snapped. 绳索断裂时，四人坠入悬崖。"
+      },
+      {
+        "word": "plunge",
+        "phon": "/plʌndʒ/",
+        "pos": "v.",
+        "cn": "猛跌；坠入",
+        "eg": "Down the precipice plunged the four climbers. 四名登山者坠下悬崖。"
+      },
+      {
+        "word": "descent",
+        "phon": "/dɪˈsent/",
+        "pos": "n.",
+        "cn": "下降；下山",
+        "eg": "The tragedy occurred during the descent from the summit. 悲剧发生在下山途中。"
+      },
+      {
+        "word": "tragedy",
+        "phon": "/ˈtrædʒədi/",
+        "pos": "n.",
+        "cn": "悲剧",
+        "eg": "The tragedy haunted Whymper for the rest of his life. 这场悲剧终生萦绕着 Whymper。"
+      },
+      {
+        "word": "cord",
+        "phon": "/kɔːd/",
+        "pos": "n.",
+        "cn": "绳索",
+        "eg": "The cord had already shown signs of wear before it broke. 绳索断裂前早已出现磨损迹象。"
+      },
+      {
+        "word": "alpinist",
+        "phon": "/ˈælpɪnɪst/",
+        "pos": "n.",
+        "cn": "登山运动员",
+        "eg": "Alpinists now pay greater attention to rope safety. 登山者如今更加重视绳索安全。"
+      },
+      {
+        "word": "conquer",
+        "phon": "/ˈkɒŋkə/",
+        "pos": "v.",
+        "cn": "征服（山峰）",
+        "eg": "The Matterhorn was the last great Alpine peak to be conquered. 马特霍恩峰是最后一座被征服的阿尔卑斯名峰。"
+      },
+      {
+        "word": "wear",
+        "phon": "/weə/",
+        "pos": "n.",
+        "cn": "磨损",
+        "eg": "Signs of wear on the cord were noticed too late. 绳索上的磨损迹象发现得太晚了。"
+      },
+      {
+        "word": "linen",
+        "phon": "/'lɪnɪn/",
+        "pos": "n.",
+        "cn": "亚麻布",
+        "eg": "For men accustomed to eating seven-course dinners and sleeping between fine linen sheets at home,"
+      },
+      {
+        "word": "solid",
+        "phon": "/'sɑːlɪd/",
+        "pos": "a.",
+        "cn": "坚实的",
+        "eg": ""
+      },
+      {
+        "word": "safe",
+        "phon": "/seɪf/",
+        "pos": "n.",
+        "cn": "保险柜",
+        "eg": ""
+      },
+      {
+        "word": "Ulyanovsk",
+        "phon": "/[u:'lja:nɔfsk]/",
+        "pos": "n.",
+        "cn": "乌里扬诺夫斯克",
+        "eg": ""
+      },
+      {
+        "word": "commission",
+        "phon": "/kə'mɪʃn/",
+        "pos": "n.",
+        "cn": "委员会",
+        "eg": ""
+      },
+      {
+        "word": "opaque",
+        "phon": "/ou'peɪk/",
+        "pos": "a.",
+        "cn": "不透明的",
+        "eg": ""
+      },
+      {
+        "word": "lotto",
+        "phon": "/['lɔtou]/",
+        "pos": "n.",
+        "cn": "一种有编号的纸牌",
+        "eg": ""
+      },
+      {
+        "word": "slipper",
+        "phon": "/'slɪpə/",
+        "pos": "n.",
+        "cn": "拖鞋",
+        "eg": ""
+      },
+      {
+        "word": "blindfold",
+        "phon": "/['blaindfәuld]/",
+        "pos": "a.",
+        "cn": ".被蒙上眼睛的",
+        "eg": ""
+      },
+      {
+        "word": "leave",
+        "phon": "/liːv/",
+        "pos": "n.",
+        "cn": "允许",
+        "eg": ""
+      },
+      {
+        "word": "fundamentals",
+        "phon": "",
+        "pos": "n.",
+        "cn": "基本原则",
+        "eg": ""
+      },
+      {
+        "word": "glorious",
+        "phon": "/'glɔːriəs/",
+        "pos": "a.",
+        "cn": "光辉灿烂的",
+        "eg": ""
+      },
+      {
+        "word": "splendid",
+        "phon": "/'splendɪd/",
+        "pos": "a.",
+        "cn": "灿烂的",
+        "eg": ""
+      },
+      {
+        "word": "rub",
+        "phon": "/rʌb/",
+        "pos": "n.",
+        "cn": "难题",
+        "eg": ""
+      },
+      {
+        "word": "identity",
+        "phon": "/aɪ'dentəti/",
+        "pos": "n.",
+        "cn": "身份",
+        "eg": ""
+      },
+      {
+        "word": "dreary",
+        "phon": "/'drɪərɪ/",
+        "pos": "a.",
+        "cn": "沉郁的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "倒装",
+        "explain": "Only after + 从句置句首，主句部分倒装（did climbers pay）；地点状语 Down the precipice 置句首，主谓倒装（plunged the climbers）；Fierce as ... may be 是 as 引导的让步倒装。易错点：Only after 强调「直到……之后才」，主句用 did + 主语 + 动词原形。",
+        "examples": [
+          "Only after the tragedy did climbers pay more attention to rope safety. （事故之后，登山者才开始更加重视绳索安全。）",
+          "Fierce as the north face may be, it still attracts climbers from around the world. （尽管北壁险峻，它仍吸引世界各地的登山者。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "在一般过去时叙述主线（断裂、坠落）之前已发生的事用 had done：had reached the summit、had already shown signs of wear。易错点：只有「过去的过去」才用过去完成时，主线动作仍用一般过去时。",
+        "examples": [
+          "The party had reached the summit when the accident occurred. （事故发生前，队伍已登顶。）",
+          "Whymper realized that the cord had already shown signs of wear. （Whymper 意识到绳索早已出现磨损迹象。）"
+        ]
+      }
+    ],
+    "tips": "①Only after ... 置句首，主句用 did + 主语 + 动词原形；②Fierce/Young/Tired as + 主语 + may be 表「尽管……」；③「到达顶峰」「出现磨损」发生在事故之前，用 had done。"
+  },
+  {
+    "book": 4,
+    "lesson": 4,
+    "title": "Seeing hands",
+    "titleCn": "眼疾手快",
+    "scene": "自幼失明的 Vera Petrova 发展出凭触觉感知世界的非凡能力：她用手指抚过物体，便能辨认其形状、大小乃至颜色。科学家对她描述的准确性深感震惊，对她进行了数周的严格测试。她能凭触觉在脑中形成图像这一事实，挑战了关于人类感官的既有观念——视力丧失时，其他感官可能发展以作补偿。她的案例已被研究数十年，揭示了人脑的巨大潜力；测试证实她的能力真实可信，并非猜测的结果。Petrova 的双手，似乎真的能「看见」。本课语法重点是非限制性定语从句，以及 the fact/belief that ... 同位语从句。",
+    "grammarTags": [
+      "定语从句(非限制性)",
+      "同位语从句"
+    ],
+    "words": [
+      {
+        "word": "blind",
+        "phon": "/blaɪnd/",
+        "pos": "adj.",
+        "cn": "失明的",
+        "eg": "Vera Petrova, who was born blind, can identify objects by touch. 自幼失明的 Vera Petrova 能凭触觉辨认物体。"
+      },
+      {
+        "word": "perceive",
+        "phon": "/pəˈsiːv/",
+        "pos": "v.",
+        "cn": "感知；察觉",
+        "eg": "She could perceive colours through her fingertips. 她能通过指尖感知颜色。"
+      },
+      {
+        "word": "astonish",
+        "phon": "/əˈstɒnɪʃ/",
+        "pos": "v.",
+        "cn": "使震惊",
+        "eg": "Scientists were astonished by the accuracy of her descriptions. 科学家对她描述的准确性深感震惊。"
+      },
+      {
+        "word": "compensate",
+        "phon": "/ˈkɒmpenseɪt/",
+        "pos": "v.",
+        "cn": "补偿",
+        "eg": "Other senses may develop to compensate for lost sight. 其他感官可能发展以补偿丧失的视力。"
+      },
+      {
+        "word": "genuine",
+        "phon": "/ˈdʒenjuɪn/",
+        "pos": "adj.",
+        "cn": "真实的；真正的",
+        "eg": "The tests confirmed that her ability was genuine. 测试证实她的能力真实可信。"
+      },
+      {
+        "word": "potential",
+        "phon": "/pəˈtenʃl/",
+        "pos": "n.",
+        "cn": "潜力",
+        "eg": "Her case reveals the vast potential of the human brain. 她的案例揭示了人脑的巨大潜力。"
+      },
+      {
+        "word": "rigorous",
+        "phon": "/ˈrɪɡərəs/",
+        "pos": "adj.",
+        "cn": "严格的；严密的",
+        "eg": "She was subjected to weeks of rigorous tests. 她接受了数周的严格测试。"
+      },
+      {
+        "word": "mental",
+        "phon": "/ˈmentl/",
+        "pos": "adj.",
+        "cn": "心理的；脑中的",
+        "eg": "She could form mental images by touch alone. 她仅凭触觉便能在脑中形成图像。"
+      },
+      {
+        "word": "commitment",
+        "phon": "/kə'mɪtm(ə)nt/",
+        "pos": "n.",
+        "cn": "信奉",
+        "eg": ""
+      },
+      {
+        "word": "mean",
+        "phon": "/miːn/",
+        "pos": "a.",
+        "cn": "吝啬，小气",
+        "eg": ""
+      },
+      {
+        "word": "social climber",
+        "phon": "",
+        "pos": "",
+        "cn": "追求更高社会地位的人，向上爬的人",
+        "eg": ""
+      },
+      {
+        "word": "devotion",
+        "phon": "/dɪ'vəʊʃ(ə)n/",
+        "pos": "n.",
+        "cn": "热爱",
+        "eg": ""
+      },
+      {
+        "word": "cosmic",
+        "phon": "/'kɑːzmɪk/",
+        "pos": "a.",
+        "cn": "宇宙的",
+        "eg": ""
+      },
+      {
+        "word": "suburban",
+        "phon": "/sə'bɜːb(ə)n/",
+        "pos": "a.",
+        "cn": "见识不广的，偏狭的",
+        "eg": ""
+      },
+      {
+        "word": "conceited",
+        "phon": "/kən'siːtɪd/",
+        "pos": "a.",
+        "cn": "自高自大的",
+        "eg": ""
+      },
+      {
+        "word": "presumptuous",
+        "phon": "/pri'zʌmptjuəs/",
+        "pos": "a.",
+        "cn": "自以为是的，放肆的",
+        "eg": ""
+      },
+      {
+        "word": "fatuous",
+        "phon": "/'fætjuəs/",
+        "pos": "a.",
+        "cn": "愚蠢的",
+        "eg": ""
+      },
+      {
+        "word": "cliche",
+        "phon": "/['kli:ʃei]/",
+        "pos": "n.",
+        "cn": "陈词滥调",
+        "eg": ""
+      },
+      {
+        "word": "goodwill",
+        "phon": "/gʊd'wɪl/",
+        "pos": "n.",
+        "cn": "友好",
+        "eg": ""
+      },
+      {
+        "word": "cricket",
+        "phon": "/'krɪkɪt/",
+        "pos": "n.",
+        "cn": "板球",
+        "eg": ""
+      },
+      {
+        "word": "inclination",
+        "phon": "/ˌɪnklɪ'neɪʃn/",
+        "pos": "n.",
+        "cn": "意愿",
+        "eg": ""
+      },
+      {
+        "word": "contest",
+        "phon": "/'kɒntest/",
+        "pos": "n.",
+        "cn": "比赛",
+        "eg": ""
+      },
+      {
+        "word": "orgy",
+        "phon": "/'ɔːdʒɪ/",
+        "pos": "n.",
+        "cn": "无节制，放荡",
+        "eg": ""
+      },
+      {
+        "word": "deduce",
+        "phon": "/di'djuːs/",
+        "pos": "v.",
+        "cn": "推断",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句(非限制性)",
+        "explain": "逗号隔开的补充说明从句是非限制性定语从句，只能用 who/which，不能用 that，如 Vera Petrova, who was born blind；The tests, which lasted several weeks。易错点：非限制性从句是对先行词的附加说明，去掉后句子仍完整。",
+        "examples": [
+          "Vera Petrova, who was born blind, can identify objects by touch alone. （自幼失明的 Vera Petrova 能仅凭触觉辨认物体。）",
+          "The tests, which lasted several weeks, confirmed her remarkable ability. （持续数周的测试证实了她的非凡能力。）"
+        ]
+      },
+      {
+        "point": "同位语从句",
+        "explain": "the fact/belief + that 从句解释这个名词的具体内容，that 在从句中不作成分、不能省略，也不能换成 which。易错点：定语从句中 that/which 要在从句里充当成分，同位语从句中 that 不作成分。",
+        "examples": [
+          "Scientists were struck by the fact that she could perceive colours by touch. （科学家对她能凭触觉感知颜色这一事实深感震惊。）",
+          "The belief that the brain can compensate for lost senses is now widely accepted. （大脑能补偿丧失的感官这一观点现已广为接受。）"
+        ]
+      }
+    ],
+    "tips": "①逗号后的定语从句是非限制性，只能用 who/which，不能用 that；②the fact/belief 后解释「内容是什么」用 that 从句，that 不可省；③判断法：that 在从句里不缺成分是同位语从句，缺主语或宾语是定语从句。"
+  },
+  {
+    "book": 4,
+    "lesson": 5,
+    "title": "Youth",
+    "titleCn": "青春",
+    "scene": "父母与青春期子女之间的鸿沟，是永无休止的争论话题。年轻人渴望确立自我认同，往往厌恶被当作孩子对待；拥有阅历的父母，可能无法理解当今青年面临的压力。双方相互倾听而非一味批评，至关重要——作者认为，宽容而非权威，才是相互理解的关键。青少年应尊重长辈的意见，父母也应给予他们成长的空间；嫉妒年轻人的自由，与拒绝老人的忠告同样有害。唯有真诚的对话，才能弥合代沟。本课语法重点是非谓语动词（动名词、不定式），以及 It is essential that ... 等虚拟语气。",
+    "grammarTags": [
+      "非谓语动词",
+      "虚拟语气"
+    ],
+    "words": [
+      {
+        "word": "adolescent",
+        "phon": "/ˌædəˈlesnt/",
+        "pos": "n./adj.",
+        "cn": "青少年；青春期的",
+        "eg": "Adolescent children often resent being treated like infants. 青春期的孩子往往厌恶被当作幼儿对待。"
+      },
+      {
+        "word": "identity",
+        "phon": "/aɪˈdentəti/",
+        "pos": "n.",
+        "cn": "身份；自我认同",
+        "eg": "Young people are eager to establish their identity. 年轻人渴望确立自我认同。"
+      },
+      {
+        "word": "resent",
+        "phon": "/rɪˈzent/",
+        "pos": "v.",
+        "cn": "愤恨；厌恶",
+        "eg": "Teenagers resent being treated like children. 青少年厌恶被当作孩子对待。"
+      },
+      {
+        "word": "tolerance",
+        "phon": "/ˈtɒlərəns/",
+        "pos": "n.",
+        "cn": "宽容",
+        "eg": "Tolerance, not authority, is the key to mutual understanding. 宽容而非权威，才是相互理解的关键。"
+      },
+      {
+        "word": "generation",
+        "phon": "/ˌdʒenəˈreɪʃn/",
+        "pos": "n.",
+        "cn": "一代人；代沟",
+        "eg": "Only through dialogue can the generation gap be bridged. 唯有对话才能弥合代沟。"
+      },
+      {
+        "word": "fundamental",
+        "phon": "/ˌfʌndəˈmentl/",
+        "pos": "adj.",
+        "cn": "基本的；根本的",
+        "eg": "Let us get down to fundamentals and agree that the young are human beings. 让我们回到根本，承认年轻人也是人。"
+      },
+      {
+        "word": "dreary",
+        "phon": "/ˈdrɪəri/",
+        "pos": "adj.",
+        "cn": "沉闷的；乏味的",
+        "eg": "The young have not a dreary commitment to mean ambitions. 年轻人并未被平庸的抱负所束缚。"
+      },
+      {
+        "word": "commitment",
+        "phon": "/kəˈmɪtmənt/",
+        "pos": "n.",
+        "cn": "信奉；投入",
+        "eg": "They have an air of freedom without dreary commitment. 他们有一种自由感，没有沉闷的束缚。"
+      },
+      {
+        "word": "exciting",
+        "phon": "/ɪkˈsaɪtɪŋ/",
+        "pos": "adj.",
+        "cn": "令人兴奋的",
+        "eg": "I find young people exciting and full of ideas. 我觉得年轻人令人兴奋、充满想法。"
+      },
+      {
+        "word": "competitive",
+        "phon": "/kəm'petɪtɪv/",
+        "pos": "a.",
+        "cn": "竞争性的",
+        "eg": ""
+      },
+      {
+        "word": "patriotism",
+        "phon": "/'pætriətizəm/",
+        "pos": "n.",
+        "cn": "地方观念，爱国主义",
+        "eg": ""
+      },
+      {
+        "word": "disgrace",
+        "phon": "/dɪs'greɪs/",
+        "pos": "v.",
+        "cn": "使丢脸",
+        "eg": ""
+      },
+      {
+        "word": "savage",
+        "phon": "/'sævɪdʒ/",
+        "pos": "a.",
+        "cn": "野性的",
+        "eg": ""
+      },
+      {
+        "word": "combative",
+        "phon": "/kəm'bætɪv/",
+        "pos": "a.",
+        "cn": "好斗的",
+        "eg": ""
+      },
+      {
+        "word": "mimic warfare",
+        "phon": "",
+        "pos": "n.",
+        "cn": "模拟战争",
+        "eg": ""
+      },
+      {
+        "word": "behaviour",
+        "phon": "/bɪ'heɪvjə/",
+        "pos": "n.",
+        "cn": "行动，举止",
+        "eg": ""
+      },
+      {
+        "word": "absurd",
+        "phon": "/əb'sɜːrd/",
+        "pos": "a.",
+        "cn": "荒唐的",
+        "eg": ""
+      },
+      {
+        "word": "bat",
+        "phon": "/bæt/",
+        "pos": "n.",
+        "cn": "蝙蝠",
+        "eg": ""
+      },
+      {
+        "word": "strictly",
+        "phon": "/'strɪk(t)lɪ/",
+        "pos": "adv.",
+        "cn": "明确地",
+        "eg": ""
+      },
+      {
+        "word": "utilitarian",
+        "phon": "/ˌjuːtɪlɪ'teriən/",
+        "pos": "a.",
+        "cn": "实用的",
+        "eg": ""
+      },
+      {
+        "word": "appreciation",
+        "phon": "/əˌpriːʃi'eɪʃn/",
+        "pos": "n.",
+        "cn": "理解",
+        "eg": ""
+      },
+      {
+        "word": "obstruction",
+        "phon": "/əb'strʌkʃ(ə)n/",
+        "pos": "n.",
+        "cn": "障碍物",
+        "eg": ""
+      },
+      {
+        "word": "elapse",
+        "phon": "/ɪ'læps/",
+        "pos": "v.",
+        "cn": "消逝",
+        "eg": ""
+      },
+      {
+        "word": "hull",
+        "phon": "/[hʌl]/",
+        "pos": "n.",
+        "cn": "船体",
+        "eg": ""
+      },
+      {
+        "word": "interval",
+        "phon": "/'ɪntərvl/",
+        "pos": "n.",
+        "cn": "间隔",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词",
+        "explain": "resent/avoid 后接动名词 doing，被动含义用 being done（resent being treated）；try to do 表「努力/试图做」，与 try doing（试着做看效果）不同。易错点：resent、avoid、enjoy 等动词后固定接 doing，不接 to do。",
+        "examples": [
+          "Teenagers resent being treated like children by their parents. （青少年厌恶被父母当作孩子对待。）",
+          "Young people should try to understand rather than merely criticise their elders. （年轻人应努力理解，而非一味批评长辈。）"
+        ]
+      },
+      {
+        "point": "虚拟语气",
+        "explain": "It is essential/important that + (should) + 动词原形，表建议或要求；suggest 表「建议」时 that 从句也用 (should) + 动词原形。易错点：essential、suggest（建议义）后的从句用动词原形，不用陈述语气。",
+        "examples": [
+          "It is essential that parents listen to their adolescent children. （父母倾听青春期子女至关重要。）",
+          "The author suggests that both sides be more tolerant of each other. （作者建议双方更加宽容彼此。）"
+        ]
+      }
+    ],
+    "tips": "①resent/avoid 后接 doing，被动用 being done；②try to do 表努力做，try doing 表试着做；③It is essential that + 动词原形，suggest 表建议时从句也用动词原形。"
+  },
+  {
+    "book": 4,
+    "lesson": 6,
+    "title": "The sporting spirit",
+    "titleCn": "体育的精神",
+    "scene": "作者认为，现代竞技体育与其标榜的美德已相去甚远。忠诚激烈的观众更在乎胜负，而非技艺或公平竞争；国际赛事常被民族主义利用，而非促进友谊。在巨大的获胜压力下，一些运动员铤而走险服用兴奋剂。尽管竞争激烈，真正的体育精神要求尊重对手——如果体育真正关乎品格，商业利益便不应占这么大比重。只有回归公平竞争的理想，体育运动才能重获尊严；体育应团结人心，而非煽动民族主义所滋生的仇恨。本课语法重点是 Fierce as ...、Only by ... 等倒装，以及对现在/过去不真实情况的虚拟语气。",
+    "grammarTags": [
+      "倒装",
+      "虚拟语气"
+    ],
+    "words": [
+      {
+        "word": "rivalry",
+        "phon": "/ˈraɪvlri/",
+        "pos": "n.",
+        "cn": "竞争；对抗",
+        "eg": "Fierce as the rivalry may be, sportsmanship should never be abandoned. 尽管竞争可能激烈，体育精神绝不可抛弃。"
+      },
+      {
+        "word": "nationalism",
+        "phon": "/ˈnæʃnəlɪzəm/",
+        "pos": "n.",
+        "cn": "民族主义",
+        "eg": "International contests are often exploited for nationalism. 国际赛事常被民族主义所利用。"
+      },
+      {
+        "word": "dope",
+        "phon": "/dəʊp/",
+        "pos": "n./v.",
+        "cn": "兴奋剂；服用兴奋剂",
+        "eg": "Under pressure to win, some athletes have resorted to taking dope. 在获胜压力下，一些运动员铤而走险服用兴奋剂。"
+      },
+      {
+        "word": "prestige",
+        "phon": "/preˈstiːʒ/",
+        "pos": "n.",
+        "cn": "声望；威信",
+        "eg": "As soon as the question of prestige arises, instincts turn savage. 一旦涉及声望，本能就变得野蛮。"
+      },
+      {
+        "word": "savage",
+        "phon": "/ˈsævɪdʒ/",
+        "pos": "adj.",
+        "cn": "野蛮的；激烈的",
+        "eg": "The most savage combative instincts are aroused in international sport. 国际体育中最野蛮的好斗本能被激发出来。"
+      },
+      {
+        "word": "athletics",
+        "phon": "/æθˈletɪks/",
+        "pos": "n.",
+        "cn": "体育运动",
+        "eg": "Only by returning to fair play can athletics regain its dignity. 只有回归公平竞争，体育运动才能重获尊严。"
+      },
+      {
+        "word": "spectator",
+        "phon": "/spekˈteɪtə/",
+        "pos": "n.",
+        "cn": "观众",
+        "eg": "Spectators care more about victory than about skill or fair play. 观众更在乎胜负，而非技艺或公平竞争。"
+      },
+      {
+        "word": "virtue",
+        "phon": "/ˈvɜːtʃuː/",
+        "pos": "n.",
+        "cn": "美德；优点",
+        "eg": "Modern sport has little to do with the virtues it claims to promote. 现代体育与其标榜的美德已相去甚远。"
+      },
+      {
+        "word": "fair play",
+        "phon": "/feə pleɪ/",
+        "pos": "n.",
+        "cn": "公平竞争",
+        "eg": "True sporting spirit demands respect for the opponent and fair play. 真正的体育精神要求尊重对手、公平竞争。"
+      },
+      {
+        "word": "receipt",
+        "phon": "/rɪ'siːt/",
+        "pos": "n.",
+        "cn": "收到",
+        "eg": ""
+      },
+      {
+        "word": "apparatus",
+        "phon": "/ˌæpə'rætəs/",
+        "pos": "n.",
+        "cn": "仪器",
+        "eg": ""
+      },
+      {
+        "word": "shoal",
+        "phon": "/ʃəʊl/",
+        "pos": "n.",
+        "cn": "鱼群",
+        "eg": ""
+      },
+      {
+        "word": "herring",
+        "phon": "/'herɪŋ/",
+        "pos": "n.",
+        "cn": "鲱鱼",
+        "eg": ""
+      },
+      {
+        "word": "cod",
+        "phon": "/kɒd/",
+        "pos": "n.",
+        "cn": "鳕鱼",
+        "eg": ""
+      },
+      {
+        "word": "squeak",
+        "phon": "/skwiːk/",
+        "pos": "n.",
+        "cn": "尖叫声",
+        "eg": ""
+      },
+      {
+        "word": "slaughter",
+        "phon": "/'slɔːtə/",
+        "pos": "v.",
+        "cn": "屠宰",
+        "eg": ""
+      },
+      {
+        "word": "fit",
+        "phon": "/fɪt/",
+        "pos": "a.",
+        "cn": "适合",
+        "eg": ""
+      },
+      {
+        "word": "grace",
+        "phon": "/greɪs/",
+        "pos": "v.",
+        "cn": "给…增光",
+        "eg": ""
+      },
+      {
+        "word": "tariff",
+        "phon": "/'tærɪf/",
+        "pos": "n.",
+        "cn": "关税",
+        "eg": ""
+      },
+      {
+        "word": "standard",
+        "phon": "/'stændəd/",
+        "pos": "n.",
+        "cn": "标准",
+        "eg": ""
+      },
+      {
+        "word": "dialysis",
+        "phon": "/[dai'ælisis]/",
+        "pos": "n.",
+        "cn": "分离，分解；透析，渗析",
+        "eg": ""
+      },
+      {
+        "word": "electrocute",
+        "phon": "/ɪ'lektrəkjuːt/",
+        "pos": "v.",
+        "cn": "使触电身亡",
+        "eg": ""
+      },
+      {
+        "word": "eliminate",
+        "phon": "/ɪ'lɪmɪneɪt/",
+        "pos": "v.",
+        "cn": "消灭",
+        "eg": ""
+      },
+      {
+        "word": "accord",
+        "phon": "/ə'kɔːrd/",
+        "pos": "n.",
+        "cn": "协议",
+        "eg": ""
+      },
+      {
+        "word": "device",
+        "phon": "/dɪ'vaɪs/",
+        "pos": "n.",
+        "cn": "仪器，器械",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "倒装",
+        "explain": "Fierce as ... may be 是 as 让步倒装；Only by doing ... 置句首，主句助动词提前（can sport regain）；Never before 置句首用部分倒装（has sport incited）。易错点：Only by/at/in + 状语置句首，主句须倒装。",
+        "examples": [
+          "Only by returning to fair play can sport regain its virtue. （只有回归公平竞争，体育才能重获美德。）",
+          "Never before has sport incited such fierce nationalism as it does today. （体育从未像今天这样煽动如此激烈的民族主义。）"
+        ]
+      },
+      {
+        "point": "虚拟语气",
+        "explain": "对现在不真实：if + 过去式（be 用 were），主句 would do；对过去不真实：if + had done，主句 would have done。易错点：would 不进 if 从句；与过去相反主句用 would have done。",
+        "examples": [
+          "If sport were truly about friendship, nationalism would play no part. （如果体育真正关乎友谊，民族主义便不应插手。）",
+          "If athletes had been less driven by money, fewer would have taken dope. （如果运动员不那么受金钱驱使，服用兴奋剂的人就会更少。）"
+        ]
+      }
+    ],
+    "tips": "①Fierce as ... may be、Only by doing ... can ... 是第四册常见倒装；②现在假设：if + 过去式 + would do；③过去假设：if + had done + would have done，would 不进 if 从句。"
+  },
+  {
+    "book": 4,
+    "lesson": 7,
+    "title": "Bats",
+    "titleCn": "蝙蝠",
+    "scene": "蝙蝠是唯一能真正飞行的哺乳动物，却是最被误解的生物之一。在完全黑暗中，它们靠回声定位导航，发出人耳听不见的超声尖叫；声波从障碍物反弹回来，使蝙蝠能以惊人精度判断距离。科学家接受这一事实：一只蝙蝠一夜可吃掉相当于自身体重一半的昆虫。蝙蝠夜间活动，在控制害虫数量方面发挥着重要作用；许多物种因栖息地破坏而被推向灭绝边缘。蝙蝠有益于农业的证据现已广为认可——它们绝非恐怖生物，而是生态平衡不可或缺的守护者。本课语法重点是陈述客观事实的被动语态，以及 the fact/evidence that ... 同位语从句。",
+    "grammarTags": [
+      "被动语态",
+      "同位语从句"
+    ],
+    "words": [
+      {
+        "word": "mammal",
+        "phon": "/ˈmæml/",
+        "pos": "n.",
+        "cn": "哺乳动物",
+        "eg": "Bats are the only mammals capable of true flight. 蝙蝠是唯一能真正飞行的哺乳动物。"
+      },
+      {
+        "word": "echolocation",
+        "phon": "/ˌekəʊləʊˈkeɪʃn/",
+        "pos": "n.",
+        "cn": "回声定位",
+        "eg": "Bats navigate by echolocation in total darkness. 蝙蝠在完全黑暗中靠回声定位导航。"
+      },
+      {
+        "word": "ultrasonic",
+        "phon": "/ˌʌltrəˈsɒnɪk/",
+        "pos": "adj.",
+        "cn": "超声的",
+        "eg": "Ultrasonic cries bounce back from obstacles in the dark. 超声尖叫在黑暗中从障碍物反弹回来。"
+      },
+      {
+        "word": "nocturnal",
+        "phon": "/nɒkˈtɜːnl/",
+        "pos": "adj.",
+        "cn": "夜间活动的",
+        "eg": "Being nocturnal, bats play a vital role in controlling pests. 蝙蝠夜间活动，在控制害虫方面发挥着重要作用。"
+      },
+      {
+        "word": "extinction",
+        "phon": "/ɪkˈstɪŋkʃn/",
+        "pos": "n.",
+        "cn": "灭绝",
+        "eg": "Many species have been driven to the edge of extinction. 许多物种已被推向灭绝边缘。"
+      },
+      {
+        "word": "habitat",
+        "phon": "/ˈhæbɪtæt/",
+        "pos": "n.",
+        "cn": "栖息地",
+        "eg": "Habitat destruction threatens bat populations worldwide. 栖息地破坏威胁着全球的蝙蝠种群。"
+      },
+      {
+        "word": "pest",
+        "phon": "/pest/",
+        "pos": "n.",
+        "cn": "害虫",
+        "eg": "A single bat may consume half its body weight in pests each night. 一只蝙蝠一夜可吃掉相当于自身体重一半的害虫。"
+      },
+      {
+        "word": "navigate",
+        "phon": "/ˈnævɪɡeɪt/",
+        "pos": "v.",
+        "cn": "导航；穿行",
+        "eg": "Scientists accept the fact that bats navigate by echolocation. 科学家接受蝙蝠靠回声定位导航这一事实。"
+      },
+      {
+        "word": "ecological",
+        "phon": "/ˌiːkəˈlɒdʒɪkl/",
+        "pos": "adj.",
+        "cn": "生态的",
+        "eg": "Bats are essential guardians of the ecological balance. 蝙蝠是生态平衡不可或缺的守护者。"
+      },
+      {
+        "word": "hammer out",
+        "phon": "",
+        "pos": "v.",
+        "cn": "推敲",
+        "eg": ""
+      },
+      {
+        "word": "pact",
+        "phon": "/pækt/",
+        "pos": "n.",
+        "cn": "合同，条约，公约",
+        "eg": ""
+      },
+      {
+        "word": "espionage(title)",
+        "phon": "",
+        "pos": "n.",
+        "cn": "间谍活动",
+        "eg": ""
+      },
+      {
+        "word": "Danish",
+        "phon": "/'deɪnɪʃ/",
+        "pos": "a.",
+        "cn": "丹麦的，丹麦人的，丹麦语的",
+        "eg": ""
+      },
+      {
+        "word": "minstrel",
+        "phon": "/'mɪnstr(ə)l/",
+        "pos": "n.",
+        "cn": "中世纪的吟游歌手",
+        "eg": ""
+      },
+      {
+        "word": "wandering",
+        "phon": "/['wɔndәriŋ]/",
+        "pos": "a.",
+        "cn": "漫游的",
+        "eg": ""
+      },
+      {
+        "word": "harp",
+        "phon": "/hɑːp/",
+        "pos": "n.",
+        "cn": "竖琴",
+        "eg": ""
+      },
+      {
+        "word": "ballad",
+        "phon": "/'bæləd/",
+        "pos": "n.",
+        "cn": "民歌",
+        "eg": ""
+      },
+      {
+        "word": "acrobatic",
+        "phon": "/ˌækrə'bætɪk/",
+        "pos": "a.",
+        "cn": "杂技的",
+        "eg": ""
+      },
+      {
+        "word": "conjuring",
+        "phon": "/['kʌndʒәriŋ]/",
+        "pos": "n.",
+        "cn": "魔术",
+        "eg": ""
+      },
+      {
+        "word": "Athelney",
+        "phon": "",
+        "pos": "n.",
+        "cn": "阿塞尔纳(英国一个小岛)",
+        "eg": ""
+      },
+      {
+        "word": "Chippenham",
+        "phon": "",
+        "pos": "n.",
+        "cn": "切本哈姆(英国一城市)",
+        "eg": ""
+      },
+      {
+        "word": "thither",
+        "phon": "/['ðiðә]/",
+        "pos": "adv.",
+        "cn": "向那里",
+        "eg": ""
+      },
+      {
+        "word": "Dane",
+        "phon": "/[dein]/",
+        "pos": "n.",
+        "cn": "丹麦人",
+        "eg": ""
+      },
+      {
+        "word": "slack",
+        "phon": "/slæk/",
+        "pos": "a.",
+        "cn": "涣散的",
+        "eg": ""
+      },
+      {
+        "word": "conqueror",
+        "phon": "/'kɒŋk(ə)rə(r)/",
+        "pos": "n.",
+        "cn": "征服者",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "科普报道中主语常是受动者：cries are emitted、species have been driven、habitat has been destroyed。一般现在时被动表客观事实，现在完成时被动强调至今结果。易错点：主语是动作承受者时优先考虑被动。",
+        "examples": [
+          "High-pitched cries are emitted by bats and bounce back from obstacles. （蝙蝠发出高频尖叫，声波从障碍物反弹回来。）",
+          "Many bat species have been driven to the edge of extinction by habitat destruction. （许多蝙蝠物种因栖息地破坏而被推向灭绝边缘。）"
+        ]
+      },
+      {
+        "point": "同位语从句",
+        "explain": "the fact/evidence + that 从句解释具体内容，that 在从句中不作成分。易错点：there is evidence that ... 中 that 引导同位语从句，不是定语从句。",
+        "examples": [
+          "Scientists accept the fact that bats navigate by echolocation. （科学家接受蝙蝠靠回声定位导航这一事实。）",
+          "There is evidence that bats play a vital role in controlling insect populations. （有证据表明蝙蝠在控制昆虫数量方面发挥着重要作用。）"
+        ]
+      }
+    ],
+    "tips": "①科普陈述中受动者作主语用被动：are emitted、have been driven；②the fact/evidence 后解释内容用 that 从句；③现在完成时被动 have/has been done 表至今结果。"
+  },
+  {
+    "book": 4,
+    "lesson": 8,
+    "title": "Trading standards",
+    "titleCn": "贸易标准",
+    "scene": "贸易标准局的存在，是为了保护消费者免受欺诈和不合格商品的侵害。执法人员有权进入任何商店、检查商品并取样化验；近年来，保护公众的规章已得到加强。不符合要求的商品必须下架停售，屡犯者可能被起诉并处以法庭罚款。一位顾客的正式投诉导致缺斤短两的秤被查处，样品被取样并在该部门自有实验室中分析。若无此类监管，普通人的日常购物将危险得多。本课语法重点是各时态的被动语态，以及修饰 shops、goods 的定语从句。",
+    "grammarTags": [
+      "被动语态",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "regulation",
+        "phon": "/ˌreɡjuˈleɪʃn/",
+        "pos": "n.",
+        "cn": "规章；法规",
+        "eg": "Safety regulations have been strengthened in recent years. 近年来安全规章已得到加强。"
+      },
+      {
+        "word": "specimen",
+        "phon": "/ˈspesɪmən/",
+        "pos": "n.",
+        "cn": "样品；样本",
+        "eg": "Officers may take specimens for testing. 执法人员可取样化验。"
+      },
+      {
+        "word": "prosecution",
+        "phon": "/ˌprɒsɪˈkjuːʃn/",
+        "pos": "n.",
+        "cn": "起诉",
+        "eg": "Repeat offenders may be prosecuted in court. 屡犯者可能在法庭被起诉。"
+      },
+      {
+        "word": "complaint",
+        "phon": "/kəmˈpleɪnt/",
+        "pos": "n.",
+        "cn": "投诉",
+        "eg": "A formal complaint lodged by a customer led to an investigation. 一位顾客的正式投诉引发调查。"
+      },
+      {
+        "word": "withdraw",
+        "phon": "/wɪðˈdrɔː/",
+        "pos": "v.",
+        "cn": "撤回；下架",
+        "eg": "Goods that fail to meet standards must be withdrawn from sale. 不合格商品必须下架停售。"
+      },
+      {
+        "word": "fraud",
+        "phon": "/frɔːd/",
+        "pos": "n.",
+        "cn": "欺诈",
+        "eg": "The department exists to protect consumers from fraud. 该部门旨在保护消费者免受欺诈。"
+      },
+      {
+        "word": "consumer",
+        "phon": "/kənˈsjuːmə/",
+        "pos": "n.",
+        "cn": "消费者",
+        "eg": "Consumers rely on trading standards for protection. 消费者依靠贸易标准获得保护。"
+      },
+      {
+        "word": "violate",
+        "phon": "/ˈvaɪəleɪt/",
+        "pos": "v.",
+        "cn": "违反",
+        "eg": "Shops that violate regulations may face prosecution. 违反规章的商店可能被起诉。"
+      },
+      {
+        "word": "vigilance",
+        "phon": "/ˈvɪdʒɪləns/",
+        "pos": "n.",
+        "cn": "警惕；监管",
+        "eg": "Without such vigilance, shopping would be a far riskier affair. 若无此类监管，购物将危险得多。"
+      },
+      {
+        "word": "casual",
+        "phon": "/'kæʒuəl/",
+        "pos": "a.",
+        "cn": "马虎的，随便的",
+        "eg": ""
+      },
+      {
+        "word": "precaution",
+        "phon": "/pri'kɔːʃən/",
+        "pos": "n.",
+        "cn": "预防，警惕",
+        "eg": ""
+      },
+      {
+        "word": "proceeds",
+        "phon": "/'prousiːdz/",
+        "pos": "n.",
+        "cn": "所得",
+        "eg": ""
+      },
+      {
+        "word": "assemble",
+        "phon": "/ə'sembl/",
+        "pos": "v.",
+        "cn": "集合",
+        "eg": ""
+      },
+      {
+        "word": "trivial",
+        "phon": "/'trɪviəl/",
+        "pos": "a.",
+        "cn": "微不足道的",
+        "eg": ""
+      },
+      {
+        "word": "prolonged",
+        "phon": "/prə'lɔːŋd/",
+        "pos": "a.",
+        "cn": "持久的",
+        "eg": ""
+      },
+      {
+        "word": "commissary",
+        "phon": "/['kɔmisәri]/",
+        "pos": "n.",
+        "cn": "军粮供应",
+        "eg": ""
+      },
+      {
+        "word": "episode",
+        "phon": "/'epɪsoud/",
+        "pos": "n.",
+        "cn": "一个事件，片断",
+        "eg": ""
+      },
+      {
+        "word": "epic",
+        "phon": "/'epɪk/",
+        "pos": "n.",
+        "cn": "史诗",
+        "eg": ""
+      },
+      {
+        "word": "harry",
+        "phon": "/'hærɪ/",
+        "pos": "v.",
+        "cn": "骚扰",
+        "eg": ""
+      },
+      {
+        "word": "assail",
+        "phon": "/ə'seɪl/",
+        "pos": "v.",
+        "cn": "袭击",
+        "eg": ""
+      },
+      {
+        "word": "skirmish",
+        "phon": "/'skəːmiʃ/",
+        "pos": "n.",
+        "cn": "小规模战斗",
+        "eg": ""
+      },
+      {
+        "word": "silicon",
+        "phon": "/'sɪlɪkən/",
+        "pos": "n.",
+        "cn": "硅",
+        "eg": ""
+      },
+      {
+        "word": "integrated",
+        "phon": "/'ɪntɪgreɪtɪd/",
+        "pos": "a.",
+        "cn": "综合的",
+        "eg": ""
+      },
+      {
+        "word": "circuit",
+        "phon": "/'sɜːrkɪt/",
+        "pos": "n.",
+        "cn": "线路，电路",
+        "eg": ""
+      },
+      {
+        "word": "California",
+        "phon": "/,kælɪ'fɔ:njə/",
+        "pos": "n.",
+        "cn": "加利福尼亚(美国州名)",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "被动语态",
+        "explain": "规章出台、商品下架、样品分析等流程描述多用被动：have been introduced、must be withdrawn、may be prosecuted、were analysed。情态动词被动 may be prosecuted = 可能被起诉。易错点：may/can/should 后接 be done 构成情态被动。",
+        "examples": [
+          "New safety regulations have been introduced in recent years. （近年来已出台新的安全规章。）",
+          "Repeat offenders may be prosecuted and fined in court. （屡犯者可能在法庭被起诉并罚款。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "修饰 shops、goods、regulations 时用定语从句：shops which sell food、goods that fail to meet standards。先行词是复数时从句谓语用复数形式。易错点：fail to do 表「未能……」，goods that fail 中 fail 用原形。",
+        "examples": [
+          "Officers inspect shops which sell food to the public. （执法人员检查向公众出售食品的商店。）",
+          "Goods that fail to meet the required standards must be withdrawn. （不符合要求的商品必须下架。）"
+        ]
+      }
+    ],
+    "tips": "①流程说明中受动者作主语用被动，注意 may be done 情态被动；②shops/goods 后用 which/that 引导定语从句；③fail to meet 表「未能达到」，goods 是复数，从句谓语用 fail。"
+  },
+  {
+    "book": 4,
+    "lesson": 9,
+    "title": "Royal espionage",
+    "titleCn": "王室间谍活动",
+    "scene": "伊丽莎白一世统治时期，英格兰面临内外威胁。渗入敌营的秘密特工带回了对女王存亡至关重要的情报；阴谋者用密码往来的信件被及时截获并破译。针对女王的阴谋实施之前，女王已得到警告。最受信任的特工之一安东尼·培根代表她在欧洲各地活动。间谍活动虽不光彩，却在维护王国方面发挥了关键作用——特工发现数名阴谋者已密谋数月。在阴谋四伏的时代，可靠的情报比任何军队都更有价值。本课语法重点是修饰 agents、letters 的定语从句，以及交代「过去的过去」的过去完成时。",
+    "grammarTags": [
+      "定语从句",
+      "过去完成时"
+    ],
+    "words": [
+      {
+        "word": "espionage",
+        "phon": "/ˈespiənɑːʒ/",
+        "pos": "n.",
+        "cn": "间谍活动",
+        "eg": "Espionage played a crucial role in preserving the realm. 间谍活动在维护王国方面发挥了关键作用。"
+      },
+      {
+        "word": "conspirator",
+        "phon": "/kənˈspɪrətə/",
+        "pos": "n.",
+        "cn": "阴谋者",
+        "eg": "Several conspirators had been plotting for months. 数名阴谋者已密谋数月。"
+      },
+      {
+        "word": "intercept",
+        "phon": "/ˌɪntəˈsept/",
+        "pos": "v.",
+        "cn": "截获",
+        "eg": "Letters that conspirators had exchanged were intercepted in time. 阴谋者往来的信件被及时截获。"
+      },
+      {
+        "word": "decipher",
+        "phon": "/dɪˈsaɪfə/",
+        "pos": "v.",
+        "cn": "破译",
+        "eg": "Coded letters were intercepted and deciphered in time. 密码信件被及时截获并破译。"
+      },
+      {
+        "word": "plot",
+        "phon": "/plɒt/",
+        "pos": "n./v.",
+        "cn": "阴谋；密谋",
+        "eg": "The Queen had already been warned before the plot was carried out. 阴谋实施前女王已得到警告。"
+      },
+      {
+        "word": "intelligence",
+        "phon": "/ɪnˈtelɪdʒəns/",
+        "pos": "n.",
+        "cn": "情报",
+        "eg": "Secret agents brought back intelligence vital to the Queen's survival. 秘密特工带回了对女王存亡至关重要的情报。"
+      },
+      {
+        "word": "infiltrate",
+        "phon": "/ˈɪnfɪltreɪt/",
+        "pos": "v.",
+        "cn": "渗透；渗入",
+        "eg": "Agents who infiltrated enemy circles gathered valuable information. 渗入敌营的特工收集了宝贵情报。"
+      },
+      {
+        "word": "intrigue",
+        "phon": "/ɪnˈtriːɡ/",
+        "pos": "n.",
+        "cn": "阴谋；密谋",
+        "eg": "In an age of intrigue, reliable intelligence was worth more than any army. 在阴谋四伏的时代，可靠的情报比任何军队都更有价值。"
+      },
+      {
+        "word": "realm",
+        "phon": "/relm/",
+        "pos": "n.",
+        "cn": "王国",
+        "eg": "Espionage helped preserve the realm during Elizabeth's reign. 间谍活动帮助在伊丽莎白统治时期维护了王国。"
+      },
+      {
+        "word": "workstation",
+        "phon": "",
+        "pos": "n.",
+        "cn": "工作站",
+        "eg": ""
+      },
+      {
+        "word": "chip",
+        "phon": "/tʃɪp/",
+        "pos": "n.",
+        "cn": "芯片，集成电路片，集成块",
+        "eg": ""
+      },
+      {
+        "word": "newsletter",
+        "phon": "/'njuːzletər/",
+        "pos": "n.",
+        "cn": "时事通讯",
+        "eg": ""
+      },
+      {
+        "word": "Macintosh",
+        "phon": "",
+        "pos": "n.",
+        "cn": "苹果机，一种个人电脑",
+        "eg": ""
+      },
+      {
+        "word": "penalize",
+        "phon": "/'pi:nəlaɪz/",
+        "pos": "v.",
+        "cn": "处罚，惩罚",
+        "eg": ""
+      },
+      {
+        "word": "customize",
+        "phon": "/'kʌstəmaɪz/",
+        "pos": "v.",
+        "cn": "按顾客具体需要制造",
+        "eg": ""
+      },
+      {
+        "word": "spawn",
+        "phon": "/spɔːn/",
+        "pos": "v.",
+        "cn": "引起，酿成",
+        "eg": ""
+      },
+      {
+        "word": "thrive",
+        "phon": "/θraɪv/",
+        "pos": "v.",
+        "cn": "兴旺，繁荣",
+        "eg": ""
+      },
+      {
+        "word": "anarchy",
+        "phon": "/'ænəki/",
+        "pos": "n.",
+        "cn": "无政府状态，混乱",
+        "eg": ""
+      },
+      {
+        "word": "oriental",
+        "phon": "/ɔːrɪ'ent(ə)l; ɒr-/",
+        "pos": "n.",
+        "cn": "东方人",
+        "eg": ""
+      },
+      {
+        "word": "constitute",
+        "phon": "/'kɑːnstətjuːt/",
+        "pos": "v.",
+        "cn": "构成",
+        "eg": ""
+      },
+      {
+        "word": "drove",
+        "phon": "/drəʊv/",
+        "pos": "n.",
+        "cn": "群",
+        "eg": ""
+      },
+      {
+        "word": "innovator",
+        "phon": "/'ɪnəveɪtə(r)/",
+        "pos": "n.",
+        "cn": "改革者",
+        "eg": ""
+      },
+      {
+        "word": "forge",
+        "phon": "/fɔːdʒ/",
+        "pos": "v.",
+        "cn": "发展",
+        "eg": ""
+      },
+      {
+        "word": "memory-chip",
+        "phon": "",
+        "pos": "n.",
+        "cn": "内存条",
+        "eg": ""
+      },
+      {
+        "word": "Kansas",
+        "phon": "/['kænzәs]/",
+        "pos": "n.",
+        "cn": "堪萨斯(美国州名)",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "定语从句",
+        "explain": "agents who infiltrated、letters that conspirators had exchanged 修饰先行词说明「哪一种」。先行词指人作主语用 who，指物用 that/which。易错点：从句中 exchanged 的宾语是 letters，故 letters that ... exchanged 中 that 作宾语可省略。",
+        "examples": [
+          "Agents who infiltrated enemy circles brought back valuable intelligence. （渗入敌营的特工带回了宝贵情报。）",
+          "Letters that the conspirators had exchanged in code were intercepted. （阴谋者用密码往来的信件被截获。）"
+        ]
+      },
+      {
+        "point": "过去完成时",
+        "explain": "在 was carried out、discovered 等过去动作之前已发生的事用 had done：had already been warned、had been written、had been plotting。易错点：「警告」「密谋」「写成密码」均发生在后续过去动作之前。",
+        "examples": [
+          "The Queen had already been warned before the plot was carried out. （阴谋实施前，女王已得到警告。）",
+          "Agents discovered that the messages had been written in code. （特工发现信件是用密码写成的。）"
+        ]
+      }
+    ],
+    "tips": "①agents 用 who，letters 用 that/which 引导定语从句；②「警告」「密谋」「写成」发生在后续过去动作之前，用 had done；③had been warned、had been written 是过去完成时被动。"
+  },
+  {
+    "book": 4,
+    "lesson": 10,
+    "title": "Silicon valley",
+    "titleCn": "硅谷",
+    "scene": "硅谷绵延于旧金山以南，已成为全球技术创新的中心。从车库起步的公司已成长为颠覆整个行业的巨头；有一种信念：任何有好点子和足够勇气的人都能在这里成功。硅谷文化鼓励创业者快速迭代、容忍失败。半导体研究——该地区由此得名——在数十年前奠定了根基。年轻工程师涌入硅谷，希望打造改变世界的产品；如此多的初创公司失败，却丝毫未减新来者的热情。在加利福尼亚这片非凡的土地上，一个点子仍能改变人类生活。本课语法重点是 the belief/fact that ... 同位语从句，以及修饰 companies、Valley 的定语从句。",
+    "grammarTags": [
+      "同位语从句",
+      "定语从句"
+    ],
+    "words": [
+      {
+        "word": "entrepreneur",
+        "phon": "/ˌɒntrəprəˈnɜː/",
+        "pos": "n.",
+        "cn": "创业者；企业家",
+        "eg": "The culture encourages entrepreneurs to iterate rapidly. 这种文化鼓励创业者快速迭代。"
+      },
+      {
+        "word": "innovate",
+        "phon": "/ˈɪnəveɪt/",
+        "pos": "v.",
+        "cn": "创新",
+        "eg": "Silicon Valley has become the global centre of innovation. 硅谷已成为全球创新中心。"
+      },
+      {
+        "word": "iterate",
+        "phon": "/ˈɪtəreɪt/",
+        "pos": "v.",
+        "cn": "迭代；反复改进",
+        "eg": "Entrepreneurs are encouraged to iterate rapidly on their products. 创业者被鼓励对产品快速迭代。"
+      },
+      {
+        "word": "semiconductor",
+        "phon": "/ˌsemikənˈdʌktə/",
+        "pos": "n.",
+        "cn": "半导体",
+        "eg": "Semiconductor research gave the region its name. 半导体研究使该地区得名。"
+      },
+      {
+        "word": "startup",
+        "phon": "/ˈstɑːtʌp/",
+        "pos": "n.",
+        "cn": "初创公司",
+        "eg": "The fact that so many startups fail does little to dampen enthusiasm. 众多初创公司失败，却未减热情。"
+      },
+      {
+        "word": "anarchy",
+        "phon": "/ˈænəki/",
+        "pos": "n.",
+        "cn": "无政府状态；自由无序",
+        "eg": "The Valley thrives on a kind of creative anarchy. 硅谷在一种创造性的无序中蓬勃发展。"
+      },
+      {
+        "word": "customize",
+        "phon": "/ˈkʌstəmaɪz/",
+        "pos": "v.",
+        "cn": "定制",
+        "eg": "Engineers can perfect powerful customized chips at their desks. 工程师能在办公桌上完善强大的定制芯片。"
+      },
+      {
+        "word": "spawn",
+        "phon": "/spɔːn/",
+        "pos": "v.",
+        "cn": "催生；产生",
+        "eg": "New technology spawns a generation of garage start-ups. 新技术催生了一代车库初创公司。"
+      },
+      {
+        "word": "disrupt",
+        "phon": "/dɪsˈrʌpt/",
+        "pos": "v.",
+        "cn": "颠覆",
+        "eg": "Companies that began in garages have grown into giants that disrupt entire industries. 从车库起步的公司已成长为颠覆整个行业的巨头。"
+      },
+      {
+        "word": "Missouri",
+        "phon": "/mi'zuəri/",
+        "pos": "n.",
+        "cn": "密苏里(美国州名)",
+        "eg": "India-born N. Damodar Reddy's tiny California company reopened an AT&T chip plant in Kansas City last spring with financing from the state of Missouri."
+      },
+      {
+        "word": "oppress",
+        "phon": "/ə'pres/",
+        "pos": "v.",
+        "cn": "忧郁，压抑",
+        "eg": ""
+      },
+      {
+        "word": "justification",
+        "phon": "/ˌdʒʌstifi'keiʃən/",
+        "pos": "n.",
+        "cn": "正当理由",
+        "eg": ""
+      },
+      {
+        "word": "justifiably",
+        "phon": "/[-faiәbli]/",
+        "pos": "adv.",
+        "cn": "无可非议地",
+        "eg": ""
+      },
+      {
+        "word": "cheat",
+        "phon": "/tʃiːt/",
+        "pos": "v.",
+        "cn": "欺骗",
+        "eg": ""
+      },
+      {
+        "word": "abject",
+        "phon": "/'æbdʒekt/",
+        "pos": "a.",
+        "cn": "可怜的",
+        "eg": ""
+      },
+      {
+        "word": "ignoble",
+        "phon": "/ig'nəubl/",
+        "pos": "a.",
+        "cn": "不体面的，可耻的",
+        "eg": ""
+      },
+      {
+        "word": "impersonal",
+        "phon": "/ɪm'pɜːrsənl/",
+        "pos": "a.",
+        "cn": "超脱个人感情影响的",
+        "eg": ""
+      },
+      {
+        "word": "ego",
+        "phon": "/'iːgəʊ; 'e-/",
+        "pos": "n.",
+        "cn": "自我",
+        "eg": ""
+      },
+      {
+        "word": "recede",
+        "phon": "/rɪ'siːd/",
+        "pos": "v.",
+        "cn": "退去",
+        "eg": ""
+      },
+      {
+        "word": "increasingly",
+        "phon": "/ɪn'kriːsɪŋlɪ/",
+        "pos": "adv.",
+        "cn": "日益，不断",
+        "eg": ""
+      },
+      {
+        "word": "passionately",
+        "phon": "",
+        "pos": "a.",
+        "cn": ".激昂地",
+        "eg": ""
+      },
+      {
+        "word": "painlessly",
+        "phon": "",
+        "pos": "a.",
+        "cn": ".毫无痛苦地",
+        "eg": ""
+      },
+      {
+        "word": "vitality",
+        "phon": "/vaɪ'tælɪtɪ/",
+        "pos": "n.",
+        "cn": "精力",
+        "eg": ""
+      },
+      {
+        "word": "weariness",
+        "phon": "/[wiәrinis]/",
+        "pos": "n.",
+        "cn": "疲惫感",
+        "eg": ""
+      },
+      {
+        "word": "current",
+        "phon": "/'kɜːrənt/",
+        "pos": "a.",
+        "cn": "通用的，流行的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "同位语从句",
+        "explain": "the belief/fact + that 从句解释具体内容：there is a belief that anyone can succeed；the fact that so many startups fail。that 在从句中不作成分，不可换 which。易错点：belief 和 fact 后接 that 从句是同位语，不是定语。",
+        "examples": [
+          "There is a belief that anyone with a good idea can succeed in the Valley. （有一种信念：任何有好点子的人都能在这里成功。）",
+          "The fact that so many startups fail does little to dampen the enthusiasm of newcomers. （众多初创公司失败，却丝毫未减新来者的热情。）"
+        ]
+      },
+      {
+        "point": "定语从句",
+        "explain": "companies which began in garages 限制性定语从句；Silicon Valley, which stretches south of San Francisco 非限制性定语从句（逗号隔开，只用 which）。encourage sb. to do 鼓励某人做某事。易错点：地名后的补充说明用 which，不用 that。",
+        "examples": [
+          "Companies which began in garages have grown into global giants. （从车库起步的公司已成长为全球巨头。）",
+          "Silicon Valley, which stretches south of San Francisco, is the centre of innovation. （硅谷绵延于旧金山以南，是创新中心。）"
+        ]
+      }
+    ],
+    "tips": "①the belief/fact 后解释内容用 that 从句，that 不可换 which；②逗号后补充说明地名用 which；③encourage entrepreneurs to iterate 中 to iterate 是宾语补足语。"
+  },
+  {
+    "book": 4,
+    "lesson": 11,
+    "title": "How to grow old",
+    "titleCn": "如何安度晚年",
+    "scene": "伯特兰·罗素就如何有尊严、满足地老去提出了切实建议。他认为，优雅地老去意味着保持广泛的兴趣和活跃的思维；老年人应避免沉溺往事、嫉妒年轻人的自由。有些人过早退出社交生活，失去了适度活动所能保持的活力。他希望更多老年人继续投身于周围的世界——要是他们没有让悔恨主宰晚年就好了。老年的满足并非来自闲散，而是来自对生活的持续参与；罗素的哲学提醒我们，生命的质量比年岁长短更为重要。本课语法重点是动名词作主语和宾语，以及 wish、If only 引导的虚拟语气。",
+    "grammarTags": [
+      "非谓语动词(动名词)",
+      "虚拟语气"
+    ],
+    "words": [
+      {
+        "word": "contentment",
+        "phon": "/kənˈtentmənt/",
+        "pos": "n.",
+        "cn": "满足；满意",
+        "eg": "Contentment in old age comes from continued participation in life. 老年的满足来自对生活的持续参与。"
+      },
+      {
+        "word": "vigour",
+        "phon": "/ˈvɪɡə/",
+        "pos": "n.",
+        "cn": "活力",
+        "eg": "Moderate activity preserves the vigour that idleness destroys. 适度活动保持活力，闲散则消磨活力。"
+      },
+      {
+        "word": "dwell",
+        "phon": "/dwel/",
+        "pos": "v.",
+        "cn": "沉湎于；老是想着",
+        "eg": "The elderly should avoid dwelling on the past. 老年人应避免沉溺往事。"
+      },
+      {
+        "word": "resent",
+        "phon": "/rɪˈzent/",
+        "pos": "v.",
+        "cn": "愤恨；嫉妒",
+        "eg": "Russell advises the elderly to avoid resenting the freedom of youth. 罗素建议老年人不要嫉妒年轻人的自由。"
+      },
+      {
+        "word": "impersonal",
+        "phon": "/ɪmˈpɜːsənl/",
+        "pos": "adj.",
+        "cn": "非个人的；超越私利的",
+        "eg": "Make your interests gradually wider and more impersonal. 使你的兴趣逐渐拓宽、更加超越私利。"
+      },
+      {
+        "word": "merge",
+        "phon": "/mɜːdʒ/",
+        "pos": "v.",
+        "cn": "融入；合并",
+        "eg": "Your life becomes increasingly merged in the universal life. 你的生命逐渐融入更广阔的生活。"
+      },
+      {
+        "word": "gradually",
+        "phon": "/ˈɡrædʒuəli/",
+        "pos": "adv.",
+        "cn": "逐渐地",
+        "eg": "Interests should gradually become wider and more impersonal. 兴趣应逐渐拓宽、更加超越私利。"
+      },
+      {
+        "word": "philosophy",
+        "phon": "/fəˈlɒsəfi/",
+        "pos": "n.",
+        "cn": "哲学；人生态度",
+        "eg": "Russell's philosophy reminds us that quality matters more than quantity. 罗素的哲学提醒我们，质量比数量更重要。"
+      },
+      {
+        "word": "dignity",
+        "phon": "/ˈdɪɡnəti/",
+        "pos": "n.",
+        "cn": "尊严",
+        "eg": "Russell offers advice on how to grow old with dignity. 罗素就如何有尊严地老去提出建议。"
+      },
+      {
+        "word": "account",
+        "phon": "/ə'kaunt/",
+        "pos": "n.",
+        "cn": "账户",
+        "eg": ""
+      },
+      {
+        "word": "cash",
+        "phon": "/kæʃ/",
+        "pos": "n.",
+        "cn": "现金",
+        "eg": ""
+      },
+      {
+        "word": "cheque",
+        "phon": "/tʃek/",
+        "pos": "n.",
+        "cn": "支票",
+        "eg": ""
+      },
+      {
+        "word": "debtor",
+        "phon": "/'detə/",
+        "pos": "n.",
+        "cn": "借方",
+        "eg": ""
+      },
+      {
+        "word": "creditor",
+        "phon": "/'kredɪtə/",
+        "pos": "n.",
+        "cn": "贷方",
+        "eg": ""
+      },
+      {
+        "word": "obligation",
+        "phon": "/ɒblɪ'geɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "义务",
+        "eg": ""
+      },
+      {
+        "word": "complication",
+        "phon": "/kɒmplɪ'keɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "纠纷",
+        "eg": ""
+      },
+      {
+        "word": "debit",
+        "phon": "/'debɪt/",
+        "pos": "v.",
+        "cn": "把…记入借方",
+        "eg": ""
+      },
+      {
+        "word": "specimen",
+        "phon": "/'spesɪmən/",
+        "pos": "n.",
+        "cn": "样本",
+        "eg": ""
+      },
+      {
+        "word": "forge",
+        "phon": "/fɔːdʒ/",
+        "pos": "v.",
+        "cn": "发展",
+        "eg": ""
+      },
+      {
+        "word": "forgery",
+        "phon": "/'fɔːdʒəri/",
+        "pos": "n.",
+        "cn": "伪造(文件，签名等)",
+        "eg": ""
+      },
+      {
+        "word": "adopt",
+        "phon": "/ə'dɑːpt/",
+        "pos": "v.",
+        "cn": "采用",
+        "eg": ""
+      },
+      {
+        "word": "facilitate",
+        "phon": "/fə'sɪlɪteɪt/",
+        "pos": "v.",
+        "cn": "使便利",
+        "eg": ""
+      },
+      {
+        "word": "mineral",
+        "phon": "/'mɪn(ə)r(ə)l/",
+        "pos": "a.",
+        "cn": "矿物的",
+        "eg": ""
+      },
+      {
+        "word": "boring",
+        "phon": "/'bɔːrɪŋ/",
+        "pos": "n.",
+        "cn": "钻孔",
+        "eg": ""
+      },
+      {
+        "word": "derrick",
+        "phon": "/'derɪk/",
+        "pos": "n.",
+        "cn": "井架",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "非谓语动词(动名词)",
+        "explain": "动名词 doing 可作主语（Growing old gracefully means ...）或 avoid 等动词的宾语（avoid dwelling、avoid resenting）。and 连接并列成分时形式要一致（dwelling and resenting）。易错点：avoid 后接 doing，不接 to do。",
+        "examples": [
+          "Growing old gracefully means keeping your interests broad and your mind active. （优雅地老去意味着保持广泛的兴趣和活跃的思维。）",
+          "The elderly should avoid dwelling on regrets and resenting the young. （老年人应避免沉溺悔恨、嫉妒年轻人。）"
+        ]
+      },
+      {
+        "point": "虚拟语气",
+        "explain": "wish 后对现在的愿望用 would/could + 动词原形（I wish more elderly people would remain active）；If only 对过去的遗憾用 had done（If only he had not withdrawn so early）。易错点：wish 现在愿望用 would，过去遗憾用 had done。",
+        "examples": [
+          "I wish more elderly people would remain engaged with the world around them. （我希望更多老年人继续投身于周围的世界。）",
+          "If only he had not withdrawn from social life so early. （要是他没有那么早退出社交生活就好了。）"
+        ]
+      }
+    ],
+    "tips": "①动名词作主语：Growing old means ...；②avoid 后接 doing，and 连接时前后形式一致；③wish + would do 表对现在的愿望，If only + had done 表对过去的遗憾。"
+  },
+  {
+    "book": 4,
+    "lesson": 12,
+    "title": "Banks and their customers",
+    "titleCn": "银行与顾客",
+    "scene": "银行与顾客之间的关系，远比表面看上去复杂。人们把积蓄存入银行以求保障，同时也在把理财责任委托出去；银行建筑那令人敬畏的外观，旨在树立信心与权威。金融部门由银行、保险公司和投资机构组成，服务不同需求。储户对几乎不了解的机构寄予了过多信任——一生积累的储蓄若银行倒闭，便可能不可挽回地损失。银行心理——人们为何如此轻易把钱交出去——值得深入研究。理解这种关系，对希望明智理财的人至关重要。本课语法重点是 comprise 的主动用法，以及陈述普遍现象的被动语态。",
+    "grammarTags": [
+      "学术词汇(comprise)",
+      "被动语态"
+    ],
+    "words": [
+      {
+        "word": "comprise",
+        "phon": "/kəmˈpraɪz/",
+        "pos": "v.",
+        "cn": "包含；由……组成",
+        "eg": "The financial sector comprises banks, insurers and investment firms. 金融部门由银行、保险公司和投资机构组成。"
+      },
+      {
+        "word": "deposit",
+        "phon": "/dɪˈpɒzɪt/",
+        "pos": "v./n.",
+        "cn": "存入；存款",
+        "eg": "People deposit savings in banks, seeking security. 人们把积蓄存入银行以求保障。"
+      },
+      {
+        "word": "formidable",
+        "phon": "/ˈfɔːmɪdəbl/",
+        "pos": "adj.",
+        "cn": "令人敬畏的；强大的",
+        "eg": "The formidable architecture of bank buildings inspires confidence. 银行建筑令人敬畏的外观树立信心。"
+      },
+      {
+        "word": "delegate",
+        "phon": "/ˈdelɪɡeɪt/",
+        "pos": "v.",
+        "cn": "委托；授权",
+        "eg": "Depositors are also delegating responsibility for their money. 储户同时也在把理财责任委托出去。"
+      },
+      {
+        "word": "irrevocably",
+        "phon": "/ɪˈrevəkəbli/",
+        "pos": "adv.",
+        "cn": "不可挽回地",
+        "eg": "Savings may be lost irrevocably if a bank fails. 若银行倒闭，储蓄可能不可挽回地损失。"
+      },
+      {
+        "word": "institution",
+        "phon": "/ˌɪnstɪˈtjuːʃn/",
+        "pos": "n.",
+        "cn": "机构",
+        "eg": "Too much trust is placed in institutions that depositors barely understand. 储户对几乎不了解的机构寄予了过多信任。"
+      },
+      {
+        "word": "accumulate",
+        "phon": "/əˈkjuːmjəleɪt/",
+        "pos": "v.",
+        "cn": "积累",
+        "eg": "Savings accumulated over a lifetime may be lost if a bank fails. 一生积累的储蓄若银行倒闭便可能损失。"
+      },
+      {
+        "word": "sector",
+        "phon": "/ˈsektə/",
+        "pos": "n.",
+        "cn": "部门；行业",
+        "eg": "The financial sector comprises many different types of institution. 金融部门包含多种不同类型的机构。"
+      },
+      {
+        "word": "psychology",
+        "phon": "/saɪˈkɒlədʒi/",
+        "pos": "n.",
+        "cn": "心理；心理学",
+        "eg": "The psychology of banking deserves closer study. 银行心理值得深入研究。"
+      },
+      {
+        "word": "haul",
+        "phon": "/hɔːl/",
+        "pos": "v.",
+        "cn": "拖，拉",
+        "eg": ""
+      },
+      {
+        "word": "rotate",
+        "phon": "/'routeɪt/",
+        "pos": "v.",
+        "cn": "使转动",
+        "eg": ""
+      },
+      {
+        "word": "cutting bit",
+        "phon": "",
+        "pos": "",
+        "cn": "钻头",
+        "eg": ""
+      },
+      {
+        "word": "geologist",
+        "phon": "/dʒɪ'ɒlədʒɪst/",
+        "pos": "n.",
+        "cn": "地质学家",
+        "eg": ""
+      },
+      {
+        "word": "coring bit",
+        "phon": "",
+        "pos": "",
+        "cn": "取芯钻头",
+        "eg": ""
+      },
+      {
+        "word": "cylinder",
+        "phon": "/'sɪlɪndər/",
+        "pos": "n.",
+        "cn": "圆柱体",
+        "eg": ""
+      },
+      {
+        "word": "strata",
+        "phon": "/['streitә]/",
+        "pos": "n.",
+        "cn": "岩层［复］(［单］stratum)",
+        "eg": ""
+      },
+      {
+        "word": "circulate",
+        "phon": "/'sɜːrkjəleɪt/",
+        "pos": "v.",
+        "cn": "注入，环流",
+        "eg": ""
+      },
+      {
+        "word": "gusher",
+        "phon": "/'gʌʃər/",
+        "pos": "n.",
+        "cn": "喷油井",
+        "eg": ""
+      },
+      {
+        "word": "forecast",
+        "phon": "/'fɔːrkæst/",
+        "pos": "n.",
+        "cn": "预报",
+        "eg": ""
+      },
+      {
+        "word": "speculative",
+        "phon": "/'spekjʊlətɪv/",
+        "pos": "a.",
+        "cn": "推测的",
+        "eg": ""
+      },
+      {
+        "word": "blizzard",
+        "phon": "/'blɪzərd/",
+        "pos": "n.",
+        "cn": "暴风雪",
+        "eg": ""
+      },
+      {
+        "word": "deteriorate",
+        "phon": "/dɪ'tɪriəreɪt/",
+        "pos": "v.",
+        "cn": "变坏，恶化",
+        "eg": ""
+      },
+      {
+        "word": "multiply",
+        "phon": "/'mʌltɪplaɪ/",
+        "pos": "v.",
+        "cn": "增加",
+        "eg": ""
+      },
+      {
+        "word": "cascade",
+        "phon": "/kæ'skeɪd/",
+        "pos": "v.",
+        "cn": "瀑布似地落下",
+        "eg": ""
+      },
+      {
+        "word": "turbulent",
+        "phon": "/'tɜːrbjələnt/",
+        "pos": "a.",
+        "cn": "狂暴的",
+        "eg": ""
+      }
+    ],
+    "grammar": [
+      {
+        "point": "学术词汇(comprise)",
+        "explain": "comprise 表「整体包含部分」，主语是整体、宾语是部分，用主动语态：The sector comprises banks。不说 is comprised of（英式规范中 comprise 不用被动）。compose 则说 be composed of。易错点：comprise 不用于被动，主语整体 + comprises + 部分。",
+        "examples": [
+          "The financial sector comprises banks, insurers and investment firms. （金融部门由银行、保险公司和投资机构组成。）",
+          "A typical bank comprises several departments serving different customers. （一家典型银行包含服务不同客户的若干部门。）"
+        ]
+      },
+      {
+        "point": "被动语态",
+        "explain": "陈述普遍现象时主语常是受动者：trust is placed、savings accumulated（过去分词作定语）、responsibility is delegated。accumulated over many years 中 accumulated 是过去分词作定语表被动。易错点：comprise 用主动，被动描述用 is placed、are delegated。",
+        "examples": [
+          "Too much trust is placed in institutions that depositors barely understand. （储户对几乎不了解的机构寄予了过多信任。）",
+          "Savings accumulated over many years may be lost irrevocably if a bank fails. （一生积累的储蓄若银行倒闭，便可能不可挽回地损失。）"
+        ]
+      }
+    ],
+    "tips": "①comprise：主语是整体，宾语是部分，用 comprises，不用 is comprised of；②与 compose 区分：be composed of / consist of；③savings accumulated 中 accumulated 是过去分词作定语，trust is placed 是一般现在时被动。"
+  }
+]

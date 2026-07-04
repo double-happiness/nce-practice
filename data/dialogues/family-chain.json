@@ -1,0 +1,186 @@
+[
+  {
+    "id": "dlg-chain-fam-01",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Invite Family",
+    "titleCn": "第1环：邀请家人",
+    "scene": "你打电话邀请父母周日来家里吃饭。（对话链：家庭）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "You", "cn": "妈，周日来我们家吃饭吧？", "en": "Mom, want to come over for dinner Sunday?" },
+      { "role": "Parent", "cn": "好啊，几点？要带什么吗？", "en": "Sure. What time? Should we bring anything?" },
+      { "role": "You", "cn": "中午十二点，人齐了就行，不用带。", "en": "Noon. Just yourselves. Don't bring anything." },
+      { "role": "Parent", "cn": "你爸说买水果。", "en": "Your dad wants to bring fruit." },
+      { "role": "You", "cn": "行，那买点草莓孩子爱吃。", "en": "Okay. Some strawberries—the kids love them." },
+      { "role": "Parent", "cn": "好，周日见。", "en": "Alright. See you Sunday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-02",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Shop for Ingredients",
+    "titleCn": "第2环：买食材",
+    "scene": "周六你和配偶去超市买聚餐食材。（对话链：家庭）",
+    "roles": ["You", "Spouse"],
+    "turns": [
+      { "role": "Spouse", "cn": "爸妈来，咱做火锅还是炒菜？", "en": "Parents are coming. Hot pot or stir-fry?" },
+      { "role": "You", "cn": "火锅吧，热闹，买羊肉和蔬菜。", "en": "Hot pot. More festive. Get lamb and vegetables." },
+      { "role": "Spouse", "cn": "蘸料呢？芝麻酱有吗？", "en": "Dipping sauce? Do we have sesame paste?" },
+      { "role": "You", "cn": "没了，顺便买豆腐和粉丝。", "en": "We're out. Grab tofu and glass noodles too." },
+      { "role": "Spouse", "cn": "饮料买橙汁和茶。", "en": "Orange juice and tea for drinks." },
+      { "role": "You", "cn": "好，再去买点零食给孩子。", "en": "Okay. And some snacks for the kids." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-03",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Parents Arrive",
+    "titleCn": "第3环：父母到了",
+    "scene": "周日父母到了，孩子在门口迎接。（对话链：家庭）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "到了！想死你们了。", "en": "We're here! We missed you all." },
+      { "role": "You", "cn": "快进来，外面冷，拖鞋在这。", "en": "Come in. It's cold out. Slippers are here." },
+      { "role": "Parent", "cn": "孩子长高了不少！", "en": "The kids have grown so much!" },
+      { "role": "You", "cn": "是啊，去把水果洗一下给孩子吃。", "en": "They have. Go wash the fruit for them." },
+      { "role": "Parent", "cn": "厨房需要帮忙吗？", "en": "Need help in the kitchen?" },
+      { "role": "You", "cn": "不用，你们先坐，马上开饭。", "en": "No, sit down first. Dinner's almost ready." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-04",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Cook Together",
+    "titleCn": "第4环：一起做饭",
+    "scene": "你和妈妈在厨房准备火锅。（对话链：家庭）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "汤底我来做，你切菜。", "en": "I'll make the broth. You prep the vegetables." },
+      { "role": "You", "cn": "好，肉涮多久合适？", "en": "Okay. How long should we cook the meat?" },
+      { "role": "Parent", "cn": "变色就行，别煮老了。", "en": "Just until it changes color. Don't overcook it." },
+      { "role": "You", "cn": "蘸料要加蒜泥吗？", "en": "Should I add minced garlic to the dipping sauce?" },
+      { "role": "Parent", "cn": "要，你爸爱吃辣的，单独放辣椒油。", "en": "Yes. Your dad likes spice—set chili oil aside for him." },
+      { "role": "You", "cn": "好了，叫大家上桌吧。", "en": "Ready. Let's call everyone to the table." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-05",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Dinner Table Chat",
+    "titleCn": "第5环：饭桌上聊天",
+    "scene": "一家人围桌吃饭聊天。（对话链：家庭）",
+    "roles": ["You", "Parent"],
+    "turns": [
+      { "role": "Parent", "cn": "最近工作怎么样？别太累。", "en": "How's work lately? Don't overwork yourself." },
+      { "role": "You", "cn": "还行，项目快上线了，忙一阵就好。", "en": "Not bad. Project launch is soon. Busy for a while, then it'll ease up." },
+      { "role": "Parent", "cn": "孩子学校适应吗？", "en": "Are the kids adjusting at school?" },
+      { "role": "You", "cn": "挺好的，老大交了新朋友。", "en": "Pretty well. The older one made new friends." },
+      { "role": "Parent", "cn": "那就好，多吃点，你瘦了。", "en": "Good. Eat more—you've lost weight." },
+      { "role": "You", "cn": "哈哈，好，您也吃。", "en": "Ha, okay. You eat too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-06",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Family Photos",
+    "titleCn": "第6环：拍全家福",
+    "scene": "饭后你们拍全家福。（对话链：家庭）",
+    "roles": ["You", "Spouse"],
+    "turns": [
+      { "role": "Spouse", "cn": "来，站沙发前面，我设倒计时。", "en": "Come on, stand in front of the couch. I'll set the timer." },
+      { "role": "You", "cn": "爸妈坐中间，孩子蹲前面。", "en": "Parents in the middle. Kids kneel in front." },
+      { "role": "Spouse", "cn": "三、二、一——笑！", "en": "Three, two, one—smile!" },
+      { "role": "You", "cn": "再来一张，这次看镜头。", "en": "One more. Look at the camera this time." },
+      { "role": "Spouse", "cn": "这张不错，我发家庭群。", "en": "This one's good. I'll post it in the family chat." },
+      { "role": "You", "cn": "好，留个纪念。", "en": "Great. A nice keepsake." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-07",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Video Call Overseas",
+    "titleCn": "第7环：和海外亲戚视频",
+    "scene": "晚上你和国外的兄弟姐妹视频。（对话链：家庭）",
+    "roles": ["You", "Sibling"],
+    "turns": [
+      { "role": "Sibling", "cn": "听得见吗？爸妈今天也在吧？", "en": "Can you hear me? Are Mom and Dad there today?" },
+      { "role": "You", "cn": "听得见，他们刚走，今天聚餐了。", "en": "Yes. They just left. We had a family dinner." },
+      { "role": "Sibling", "cn": "羡慕，我这边凌晨，刚下班。", "en": "Lucky you. It's the middle of the night here. Just off work." },
+      { "role": "You", "cn": "注意休息，春节能回来吗？", "en": "Take care of yourself. Can you come back for Spring Festival?" },
+      { "role": "Sibling", "cn": "尽量，票贵但想回。", "en": "I'll try. Tickets are pricey, but I want to come." },
+      { "role": "You", "cn": "好，到时候聚。", "en": "Okay. We'll get together then." }
+    ]
+  },
+  {
+    "id": "dlg-chain-fam-08",
+    "category": "home",
+    "chain": {
+      "id": "family-gathering",
+      "title": "A Family Gathering at Home",
+      "titleCn": "对话链：家庭聚会",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Clean Up Together",
+    "titleCn": "第8环：一起收拾",
+    "scene": "聚会结束，你和配偶收拾厨房。（对话链：家庭）",
+    "roles": ["You", "Spouse"],
+    "turns": [
+      { "role": "Spouse", "cn": "今天挺成功的，剩菜不少。", "en": "Today went well. Lots of leftovers." },
+      { "role": "You", "cn": "我洗碗，你打包剩菜放冰箱。", "en": "I'll wash dishes. You pack leftovers in the fridge." },
+      { "role": "Spouse", "cn": "爸妈说下个月还来。", "en": "Mom and Dad said they'll come again next month." },
+      { "role": "You", "cn": "好，下次换你做主菜。", "en": "Great. Next time you cook the main dish." },
+      { "role": "Spouse", "cn": "行，我去倒垃圾。", "en": "Deal. I'll take out the trash." },
+      { "role": "You", "cn": "辛苦了一天，早点休息。", "en": "Long day. Let's get some rest." }
+    ]
+  }
+]

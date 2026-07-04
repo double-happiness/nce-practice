@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dlg-chain-camp-01",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Book a Campsite",
+    "titleCn": "第1环：预订营地",
+    "scene": "你打电话预订州立公园营地。（对话链：露营）",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "Ranger", "cn": "州立公园营地，需要什么帮助？", "en": "State park campground. How can I help?" },
+      { "role": "You", "cn": "想订下周末两晚，有电的营地。", "en": "I'd like two nights next weekend. A site with electric hookup." },
+      { "role": "Ranger", "cn": "12号还有，每晚三十五块。", "en": "Site twelve is open. Thirty-five a night." },
+      { "role": "You", "cn": "可以带狗吗？", "en": "Are dogs allowed?" },
+      { "role": "Ranger", "cn": "可以，必须拴绳，清理粪便。", "en": "Yes, on leash. Clean up after them." },
+      { "role": "You", "cn": "好，我预订，姓张。", "en": "Great. I'll book it. Last name Zhang." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-02",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Pack Gear",
+    "titleCn": "第2环：收拾装备",
+    "scene": "出发前一天，你和同伴核对露营装备。（对话链：露营）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "帐篷、睡袋、炉具都带了吗？", "en": "Got the tent, sleeping bags, and stove?" },
+      { "role": "You", "cn": "帐篷在我车里，你带睡袋和防潮垫。", "en": "Tent's in my car. You bring bags and pads." },
+      { "role": "Friend", "cn": "手电筒和急救包呢？", "en": "Flashlights and first-aid kit?" },
+      { "role": "You", "cn": "急救包我准备了，你带头灯。", "en": "I packed first aid. You bring headlamps." },
+      { "role": "Friend", "cn": "天气预报周六晚上冷，多带层衣服。", "en": "Forecast says cold Saturday night. Pack extra layers." },
+      { "role": "You", "cn": "好，明早七点出发。", "en": "Okay. Leave at seven tomorrow." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-03",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Check In",
+    "titleCn": "第3环：营地登记",
+    "scene": "你到达营地入口办理入住。（对话链：露营）",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "Ranger", "cn": "有预订吗？请出示 ID。", "en": "Reservation? ID, please." },
+      { "role": "You", "cn": "张伟，12号营地，两晚。", "en": "Zhang Wei, site twelve, two nights." },
+      { "role": "Ranger", "cn": "签这里。禁止明火，用火在指定炉。", "en": "Sign here. No open flames except at designated grills." },
+      { "role": "You", "cn": "饮用水在哪？厕所有吗？", "en": "Where's drinking water? Are there restrooms?" },
+      { "role": "Ranger", "cn": "入口有水龙头，厕所在营地东边。", "en": "Spigots at the entrance. Restrooms east of the sites." },
+      { "role": "Ranger", "cn": "食物放熊箱，别留外面。", "en": "Store food in bear boxes. Don't leave it outside." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-04",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Set Up Tent",
+    "titleCn": "第4环：搭帐篷",
+    "scene": "你第一次搭帐篷，向邻营求助。（对话链：露营）",
+    "roles": ["You", "Camper"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这帐篷杆怎么穿？", "en": "Sorry, how do these poles go together?" },
+      { "role": "Camper", "cn": "两根长的先交叉，插进四角。", "en": "Cross the long ones first, then slot them into the corners." },
+      { "role": "You", "cn": "地钉要打多深？", "en": "How deep should I hammer the stakes?" },
+      { "role": "Camper", "cn": "至少一半，风绳拉紧。", "en": "At least halfway in. Tighten the guy lines." },
+      { "role": "You", "cn": "今晚会下雨吗？", "en": "Will it rain tonight?" },
+      { "role": "Camper", "cn": "预报说无雨，但带上雨布保险。", "en": "Forecast says no rain, but bring a rain fly just in case." },
+      { "role": "You", "cn": "太感谢了！", "en": "Thanks a lot!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-05",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Cook Dinner",
+    "titleCn": "第5环：做晚饭",
+    "scene": "傍晚你们在营地炉子上做饭。（对话链：露营）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "炉子点不着，有气吗？", "en": "Stove won't light. Is there gas?" },
+      { "role": "You", "cn": "气罐满的，可能阀门没开。", "en": "Tank's full. Maybe the valve isn't open." },
+      { "role": "Friend", "cn": "好了，先煮面再加香肠。", "en": "There we go. Noodles first, then sausages." },
+      { "role": "You", "cn": "我去拿水，顺便锁食物进熊箱。", "en": "I'll get water and lock the food in the bear box." },
+      { "role": "Friend", "cn": "洗完碗别往地上倒水。", "en": "Don't dump dishwater on the ground." },
+      { "role": "You", "cn": "知道，倒到指定排水处。", "en": "Got it. I'll use the designated drain." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-06",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Morning Hike",
+    "titleCn": "第6环：早上徒步",
+    "scene": "早上你们向管理员问徒步路线。（对话链：露营）",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "You", "cn": "有适合初学者的步道吗？", "en": "Any trails good for beginners?" },
+      { "role": "Ranger", "cn": "环湖步道三英里，平缓好走。", "en": "The lake loop is three miles, fairly flat." },
+      { "role": "You", "cn": "大概要多久？", "en": "How long does it take?" },
+      { "role": "Ranger", "cn": "慢慢走大概一个半小时，带够水。", "en": "About ninety minutes at a leisurely pace. Bring enough water." },
+      { "role": "You", "cn": "有熊吗？需要喷熊喷雾吗？", "en": "Any bears? Should we carry bear spray?" },
+      { "role": "Ranger", "cn": "偶尔有，出声走路，别喂野生动物。", "en": "Occasionally. Make noise on the trail. Don't feed wildlife." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-07",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Campfire Night",
+    "titleCn": "第7环：篝火夜晚",
+    "scene": "晚上你们在指定火坑旁烤棉花糖。（对话链：露营）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "火不能太大，管理员说过。", "en": "Keep the fire small. The ranger said so." },
+      { "role": "You", "cn": "好，我加两根细柴。", "en": "Okay. I'll add a couple of thin sticks." },
+      { "role": "Friend", "cn": "你烤棉花糖，我讲故事。", "en": "You roast marshmallows. I'll tell a story." },
+      { "role": "You", "cn": "别烤焦了……完美，夹饼干里。", "en": "Don't burn it… Perfect. Sandwich it in crackers." },
+      { "role": "Friend", "cn": "十点前熄灭火，准备睡了。", "en": "Put it out before ten. Time to sleep." },
+      { "role": "You", "cn": "我去浇灭，检查熊箱锁好。", "en": "I'll douse it and make sure the bear box is locked." }
+    ]
+  },
+  {
+    "id": "dlg-chain-camp-08",
+    "category": "camping",
+    "chain": {
+      "id": "camping-weekend",
+      "title": "A Weekend Camping Trip",
+      "titleCn": "对话链：露营周末",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Pack Up and Leave",
+    "titleCn": "第8环：收拾离开",
+    "scene": "周日中午你们退房离开营地。（对话链：露营）",
+    "roles": ["You", "Ranger"],
+    "turns": [
+      { "role": "Ranger", "cn": "退房时间是十一点，营地收拾干净了吗？", "en": "Checkout is eleven. Did you leave the site clean?" },
+      { "role": "You", "cn": "垃圾带走了，火坑也浇灭了。", "en": "Took our trash. Fire pit is doused." },
+      { "role": "Ranger", "cn": "很好，欢迎下次再来。", "en": "Great. Hope you come back." },
+      { "role": "You", "cn": "体验很棒，秋天还想来。", "en": "It was wonderful. We'd love to return in fall." },
+      { "role": "Ranger", "cn": "秋天枫叶季要提前订。", "en": "Book early for fall foliage season." },
+      { "role": "You", "cn": "记住了，谢谢！", "en": "Will do. Thank you!" }
+    ]
+  }
+]

@@ -281,8 +281,7 @@
         returnTo: returnTab ? { tab: returnTab } : null,
       }));
     } catch (e) { /* ignore */ }
-    NCE.pendingDictionary = { reviewQueue: true, book: String(book != null ? book : ''), q: words[0].word };
-    NCE.goToDictionary(words[0].word, book);
+    NCE.goToDictionary(words[0].word, book, { forcePage: true, reviewQueue: true });
   }
 
   async function starAllMissed(missed, book) {

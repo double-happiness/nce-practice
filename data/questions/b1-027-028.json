@@ -1,0 +1,120 @@
+[
+  {
+    "id": "b1-27-q1",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["there be句型"],
+    "type": "mcq",
+    "stem": "There ___ a television near the window.",
+    "options": ["is", "are", "am", "be"],
+    "answer": "is",
+    "explanation": "考点:there be 句型。主语 a television 是单数，用 is。"
+  },
+  {
+    "id": "b1-27-q2",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["there be句型"],
+    "type": "mcq",
+    "stem": "There ___ two armchairs behind the door.",
+    "options": ["are", "is", "have", "has"],
+    "answer": "are",
+    "explanation": "考点:there be 句型。主语 two armchairs 是复数，用 are。"
+  },
+  {
+    "id": "b1-27-q3",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["介词"],
+    "type": "mcq",
+    "stem": "The radio is ___ the two armchairs.",
+    "options": ["between", "behind", "under", "on"],
+    "answer": "between",
+    "explanation": "考点:介词。between 表示在两者之间。"
+  },
+  {
+    "id": "b1-27-q4",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["介词"],
+    "type": "mcq",
+    "stem": "The picture is ___ the wall.",
+    "options": ["on", "in", "under", "behind"],
+    "answer": "on",
+    "explanation": "考点:介词。on the wall 表示在墙上。"
+  },
+  {
+    "id": "b1-27-f1",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["there be句型"],
+    "type": "fill",
+    "stem": "There ___ (be) some milk in the refrigerator.",
+    "answer": ["is"],
+    "explanation": "考点:there be 句型。milk 不可数，视为单数，用 is。"
+  },
+  {
+    "id": "b1-28-q1",
+    "book": 1,
+    "lesson": 28,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["there be句型"],
+    "type": "mcq",
+    "stem": "There ___ some cups in the cupboard.",
+    "options": ["are", "is", "has", "have"],
+    "answer": "are",
+    "explanation": "考点:there be 句型。主语 some cups 是复数，用 are。"
+  },
+  {
+    "id": "b1-28-q2",
+    "book": 1,
+    "lesson": 28,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["介词"],
+    "type": "mcq",
+    "stem": "The dog is ___ the table.",
+    "options": ["under", "on", "in", "at"],
+    "answer": "under",
+    "explanation": "考点:介词。under 表示在……下面。"
+  },
+  {
+    "id": "b1-28-q3",
+    "book": 1,
+    "lesson": 28,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["介词"],
+    "type": "mcq",
+    "stem": "The ball is ___ the door.",
+    "options": ["behind", "on", "near", "in"],
+    "answer": "behind",
+    "explanation": "考点:介词。behind 表示在……后面。"
+  },
+  {
+    "id": "b1-28-q4",
+    "book": 1,
+    "lesson": 28,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["there be句型"],
+    "type": "mcq",
+    "stem": "There ___ a nice picture on the wall.",
+    "options": ["is", "are", "has", "have"],
+    "answer": "is",
+    "explanation": "考点:there be 句型。主语 a picture 是单数，用 is。"
+  },
+  {
+    "id": "b1-28-f1",
+    "book": 1,
+    "lesson": 28,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": ["介词"],
+    "type": "fill",
+    "stem": "The television is ___ the window. (介词：在……旁边)",
+    "answer": ["near", "by"],
+    "explanation": "考点:介词。near/by the window 表示在窗户旁边。"
+  }
+]

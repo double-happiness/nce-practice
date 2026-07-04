@@ -1,0 +1,219 @@
+{
+  "preserve": {
+    "synonyms": [
+      {
+        "w": "keep",
+        "note": "保存"
+      }
+    ]
+  },
+  "keep": {
+    "synonyms": [
+      {
+        "w": "preserve",
+        "note": "同类词"
+      }
+    ]
+  },
+  "wreck": {
+    "synonyms": [
+      {
+        "w": "destroy",
+        "note": "同类词"
+      }
+    ]
+  },
+  "destroy": {
+    "synonyms": [
+      {
+        "w": "wreck",
+        "note": "同类词"
+      }
+    ]
+  },
+  "hypothesis": {
+    "synonyms": [
+      {
+        "w": "assumption",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "evidence",
+      "assumption"
+    ]
+  },
+  "assumption": {
+    "synonyms": [
+      {
+        "w": "hypothesis",
+        "note": "同类词"
+      }
+    ]
+  },
+  "conservation": {
+    "synonyms": [
+      {
+        "w": "preservation",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "preserve"
+    ]
+  },
+  "preservation": {
+    "synonyms": [
+      {
+        "w": "conservation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "subdue": {
+    "synonyms": [
+      {
+        "w": "conquer",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "conquer"
+    ]
+  },
+  "conquer": {
+    "synonyms": [
+      {
+        "w": "subdue",
+        "note": "同类词"
+      }
+    ]
+  },
+  "controversy": {
+    "synonyms": [
+      {
+        "w": "dispute",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "dispute"
+    ]
+  },
+  "dispute": {
+    "synonyms": [
+      {
+        "w": "controversy",
+        "note": "同类词"
+      }
+    ]
+  },
+  "conceive": {
+    "synonyms": [
+      {
+        "w": "envision",
+        "note": "同类词"
+      }
+    ]
+  },
+  "envision": {
+    "synonyms": [
+      {
+        "w": "conceive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "inquisition": {
+    "synonyms": [
+      {
+        "w": "investigation",
+        "note": "同类词"
+      },
+      {
+        "w": "inquiry",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "investigation",
+      "inquiry"
+    ]
+  },
+  "investigation": {
+    "synonyms": [
+      {
+        "w": "inquisition",
+        "note": "同类词"
+      },
+      {
+        "w": "inquiry",
+        "note": "同类词"
+      }
+    ]
+  },
+  "inquiry": {
+    "synonyms": [
+      {
+        "w": "inquisition",
+        "note": "同类词"
+      },
+      {
+        "w": "investigation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "violate": {
+    "synonyms": [
+      {
+        "w": "breach",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "breach"
+    ]
+  },
+  "breach": {
+    "synonyms": [
+      {
+        "w": "violate",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "violate"
+    ]
+  },
+  "withdraw": {
+    "related": [
+      "retreat"
+    ]
+  },
+  "oppress": {
+    "related": [
+      "dominate"
+    ]
+  },
+  "alienate": {
+    "related": [
+      "isolate"
+    ]
+  },
+  "invest": {
+    "related": [
+      "finance"
+    ]
+  },
+  "delegate": {
+    "related": [
+      "assign"
+    ]
+  },
+  "perilous": {
+    "related": [
+      "safe"
+    ]
+  }
+}

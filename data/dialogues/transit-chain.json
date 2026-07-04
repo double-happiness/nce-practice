@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-trans-01",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Buy a Metro Card",
+    "titleCn": "第1环：买地铁卡",
+    "scene": "你第一次去纽约坐地铁，在窗口买 MetroCard。（对话链：公交地铁）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "你好，我想买一张地铁卡。", "en": "Hi, I'd like to buy a MetroCard." },
+      { "role": "Clerk", "cn": "充多少？单次 ride 两点七五。", "en": "How much do you want to load? Each ride is two seventy-five." },
+      { "role": "You", "cn": "充二十美元吧。", "en": "Twenty dollars, please." },
+      { "role": "Clerk", "cn": "刷卡或现金都可以。", "en": "Card or cash is fine." },
+      { "role": "You", "cn": "去时代广场坐哪条线？", "en": "Which line goes to Times Square?" },
+      { "role": "Clerk", "cn": "坐 N 线或 R 线，往北方向。", "en": "Take the N or R train heading uptown." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-02",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Ask for Directions",
+    "titleCn": "第2环：站内问路",
+    "scene": "你进了地铁站，不确定往哪边走。（对话链：公交地铁）",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，去时代广场的 N 线在哪边？", "en": "Excuse me, which way to the uptown N train?" },
+      { "role": "Passenger", "cn": "下楼左转，看指示牌。", "en": "Go downstairs and turn left. Follow the signs." },
+      { "role": "You", "cn": "谢谢，这是往曼哈顿方向吗？", "en": "Thanks. Is this toward Manhattan?" },
+      { "role": "Passenger", "cn": "对，别坐反了。", "en": "Yes. Don't go the wrong way." },
+      { "role": "You", "cn": "明白了。", "en": "Got it." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-03",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: On the Train",
+    "titleCn": "第3环：车上听广播",
+    "scene": "地铁上广播太快，你没听清，问旁边的人。（对话链：公交地铁）",
+    "roles": ["You", "Passenger"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，广播说什么？", "en": "Sorry, what did the announcement say?" },
+      { "role": "Passenger", "cn": "下一站四十二街，可以换乘。", "en": "Next stop Forty-Second Street. You can transfer there." },
+      { "role": "You", "cn": "我要去时代广场，这站下吗？", "en": "I'm going to Times Square. Get off here?" },
+      { "role": "Passenger", "cn": "再一站，时代广场是下一站。", "en": "One more stop. Times Square is next." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-04",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Missed Your Stop",
+    "titleCn": "第4环：坐过站",
+    "scene": "你不小心坐过了站，向工作人员求助。（对话链：公交地铁）",
+    "roles": ["You", "Conductor"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我坐过站了。", "en": "Excuse me, I missed my stop." },
+      { "role": "Conductor", "cn": "您要在哪一站下？", "en": "Which stop were you supposed to get off at?" },
+      { "role": "You", "cn": "上一站，二十八街。", "en": "The last one, Twenty-Eighth Street." },
+      { "role": "Conductor", "cn": "下一站下车，走对面站台坐回去。", "en": "Get off at the next stop and cross to the opposite platform." },
+      { "role": "You", "cn": "需要再刷卡吗？", "en": "Do I need to swipe my card again?" },
+      { "role": "Conductor", "cn": "不用，两小时内换乘免费。", "en": "No, transfers are free within two hours." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-05",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Transfer to Bus",
+    "titleCn": "第5环：换乘公交",
+    "scene": "出了地铁站，你要转公交去博物馆。（对话链：公交地铁）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "这辆车到大都会博物馆吗？", "en": "Does this bus go to the Met Museum?" },
+      { "role": "Driver", "cn": "对，请刷卡或投币两块二五。", "en": "Yes. Please tap your card or pay two twenty-five." },
+      { "role": "You", "cn": "请在第五大道让我下车。", "en": "Could you let me off at Fifth Avenue?" },
+      { "role": "Driver", "cn": "没问题，到站我会喊。", "en": "Sure. I'll call it out when we get there." },
+      { "role": "You", "cn": "大概要坐多久？", "en": "How long will it take?" },
+      { "role": "Driver", "cn": "大约二十分钟，看交通。", "en": "About twenty minutes, depending on traffic." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-06",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Forgot to Tap",
+    "titleCn": "第6环：忘刷卡",
+    "scene": "下车时你发现忘了刷卡，问司机怎么办。（对话链：公交地铁）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "抱歉，上车时忘了刷卡。", "en": "Sorry, I forgot to tap when I got on." },
+      { "role": "Driver", "cn": "现在刷也行，或者下次补。", "en": "You can tap now, or make it up next time." },
+      { "role": "You", "cn": "我现在刷。", "en": "I'll tap now." },
+      { "role": "Driver", "cn": "好了，下次记得。", "en": "All set. Remember next time." },
+      { "role": "You", "cn": "谢谢提醒。", "en": "Thanks for the reminder." }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-07",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Last Stop Directions",
+    "titleCn": "第7环：到站问路",
+    "scene": "公交到站，你问路人博物馆入口在哪。（对话链：公交地铁）",
+    "roles": ["You", "Pedestrian"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，大都会博物馆入口怎么走？", "en": "Excuse me, how do I get to the Met entrance?" },
+      { "role": "Pedestrian", "cn": "往前两个路口，大台阶那边。", "en": "Two blocks ahead, by the big steps." },
+      { "role": "You", "cn": "步行要多久？", "en": "How long on foot?" },
+      { "role": "Pedestrian", "cn": "五分钟，很明显的建筑。", "en": "Five minutes. You can't miss it." },
+      { "role": "You", "cn": "谢谢！", "en": "Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-trans-08",
+    "category": "transit",
+    "chain": {
+      "id": "transit-trip",
+      "title": "Getting Around by Transit",
+      "titleCn": "对话链：公交地铁出行",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Check Card Balance",
+    "titleCn": "第8环：查卡余额",
+    "scene": "回家路上，你在地铁站查 MetroCard 余额。（对话链：公交地铁）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "能帮我查一下卡里还剩多少吗？", "en": "Can you check my card balance?" },
+      { "role": "Clerk", "cn": "插进去……还剩六块五，够两次。", "en": "Insert it. Six fifty left. Enough for two rides." },
+      { "role": "You", "cn": "那我明天再充。", "en": "I'll reload tomorrow then." },
+      { "role": "Clerk", "cn": "机器也能充，不用排队。", "en": "The machines reload too. No line needed." },
+      { "role": "You", "cn": "好，谢谢。", "en": "Okay. Thanks." }
+    ]
+  }
+]

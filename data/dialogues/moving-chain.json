@@ -1,0 +1,185 @@
+[
+  {
+    "id": "dlg-chain-mov-01",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Get Moving Quotes",
+    "titleCn": "第1环：咨询搬家公司",
+    "scene": "你打电话咨询搬家公司报价。（对话链：搬家）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "搬家公司，请问从哪搬到哪？", "en": "Moving company. Where are you moving from and to?" },
+      { "role": "You", "cn": "两居室，同城五英里，有电梯。", "en": "Two-bedroom, five miles across town, both buildings have elevators." },
+      { "role": "Agent", "cn": "大概多少箱子和家具？", "en": "Roughly how many boxes and pieces of furniture?" },
+      { "role": "You", "cn": "三十箱，一张沙发和床。", "en": "About thirty boxes, a sofa, and a bed." },
+      { "role": "Agent", "cn": "报价六百到八百，含车和人。", "en": "Quote is six to eight hundred, including truck and crew." },
+      { "role": "You", "cn": "包拆装吗？有保险吗？", "en": "Does that include assembly? Is there insurance?" },
+      { "role": "Agent", "cn": "基本险包含，拆装另加一百。", "en": "Basic insurance is included. Assembly is a hundred extra." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-02",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Book the Move",
+    "titleCn": "第2环：预约搬家",
+    "scene": "你确定搬家公司，预约下周末。（对话链：搬家）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "You", "cn": "我选八百那档，下周六上午可以吗？", "en": "I'll take the eight-hundred option. Next Saturday morning?" },
+      { "role": "Agent", "cn": "八点 crew 到，预计四小时。", "en": "Crew arrives at eight AM. About four hours." },
+      { "role": "You", "cn": "定金多少？能改期吗？", "en": "What's the deposit? Can I reschedule?" },
+      { "role": "Agent", "cn": "一百定金，提前三天免费改。", "en": "One hundred deposit. Free reschedule three days ahead." },
+      { "role": "You", "cn": "好，我刷卡付定金。", "en": "Okay. I'll pay the deposit by card." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-03",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Pack Boxes",
+    "titleCn": "第3环：打包收拾",
+    "scene": "搬家前一天，你和室友一起打包。（对话链：搬家）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "厨房我包了，你弄书房？", "en": "I'll do the kitchen. You take the study?" },
+      { "role": "You", "cn": "行，易碎品我多裹气泡膜。", "en": "Sure. I'll double-wrap fragile stuff." },
+      { "role": "Roommate", "cn": "箱子要标房间吗？", "en": "Should we label boxes by room?" },
+      { "role": "You", "cn": "要，写上「书房」「厨房」，省得乱。", "en": "Yes. Mark study, kitchen, so nothing gets mixed up." },
+      { "role": "Roommate", "cn": "旧家具不要的贴「捐」。", "en": "Tag unwanted furniture for donation." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-04",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Moving Day",
+    "titleCn": "第4环：搬家当天",
+    "scene": "搬家工人到了，你指挥摆放家具。（对话链：搬家）",
+    "roles": ["You", "Mover"],
+    "turns": [
+      { "role": "Mover", "cn": "沙发放客厅还是楼上？", "en": "Should the sofa go in the living room or upstairs?" },
+      { "role": "You", "cn": "客厅靠窗，床放主卧。", "en": "Living room by the window. Bed in the master bedroom." },
+      { "role": "Mover", "cn": "这个衣柜要拆门才能进。", "en": "We'll need to take the closet doors off to fit this in." },
+      { "role": "You", "cn": "可以，小心别刮墙。", "en": "That's fine. Please be careful not to scratch the walls." },
+      { "role": "Mover", "cn": "放心。小费包含在账单里吗？", "en": "No problem. Is gratuity included in the bill?" },
+      { "role": "You", "cn": "现金另给，你们辛苦了。", "en": "I'll tip in cash. Thanks for the hard work." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-05",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Old Place Check-out",
+    "titleCn": "第5环：旧房退房",
+    "scene": "搬空后，你和房东检查旧房。（对话链：搬家）",
+    "roles": ["You", "Landlord"],
+    "turns": [
+      { "role": "Landlord", "cn": "今天来检查一下房子状况。", "en": "I'm here to inspect the apartment today." },
+      { "role": "You", "cn": "我已经打扫干净了，钥匙在这。", "en": "I've cleaned everything. Here are the keys." },
+      { "role": "Landlord", "cn": "墙上有个小洞，要扣一点押金。", "en": "There's a small hole in the wall. We'll deduct a little from the deposit." },
+      { "role": "You", "cn": "多少？我可以自己补。", "en": "How much? I can fix it myself." },
+      { "role": "Landlord", "cn": "五十美元，或者您修好也行。", "en": "Fifty dollars, or you can repair it." },
+      { "role": "You", "cn": "我周末来补，补好再退押金可以吗？", "en": "I'll patch it this weekend. Can I get the deposit back then?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-06",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Change Address",
+    "titleCn": "第6环：改地址",
+    "scene": "搬家后你去银行改地址。（对话链：搬家）",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "You", "cn": "我搬家了，要更新账户地址。", "en": "I moved and need to update my account address." },
+      { "role": "Banker", "cn": "请填这张表，带新地址证明。", "en": "Please fill out this form with proof of your new address." },
+      { "role": "You", "cn": "水电账单可以吗？", "en": "Will a utility bill work?" },
+      { "role": "Banker", "cn": "可以，三个月内的。", "en": "Yes, from within the last three months." },
+      { "role": "You", "cn": "支票和卡会寄到新地址吗？", "en": "Will checks and cards go to the new address?" },
+      { "role": "Banker", "cn": "对，七到十个工作日更新。", "en": "Yes. It updates in seven to ten business days." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-07",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Set Up Internet",
+    "titleCn": "第7环：装宽带",
+    "scene": "你打电话预约新家装宽带。（对话链：搬家）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "宽带客服，新装还是迁移？", "en": "Internet support. New install or transfer?" },
+      { "role": "You", "cn": "新地址安装，要三百兆套餐。", "en": "New address install. I want the three-hundred-meg plan." },
+      { "role": "Agent", "cn": "周三下午技术员上门，人在家吗？", "en": "Technician Wednesday afternoon. Will someone be home?" },
+      { "role": "You", "cn": "在，需要自带路由器吗？", "en": "Yes. Should I provide my own router?" },
+      { "role": "Agent", "cn": "可以租我们的，每月五块。", "en": "You can rent ours for five a month." },
+      { "role": "You", "cn": "我有，就用我的。", "en": "I have one. I'll use mine." }
+    ]
+  },
+  {
+    "id": "dlg-chain-mov-08",
+    "category": "moving",
+    "chain": {
+      "id": "moving-house",
+      "title": "Moving to a New Home",
+      "titleCn": "对话链：搬家全程",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Housewarming",
+    "titleCn": "第8环：暖房聚会",
+    "scene": "搬完家，你邀请朋友来暖房。（对话链：搬家）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "新家不错！还需要帮忙吗？", "en": "Nice place! Need any more help?" },
+      { "role": "You", "cn": "差不多了，还差几个箱子没开。", "en": "Almost done. A few boxes still unopened." },
+      { "role": "Friend", "cn": "我带了披萨和啤酒。", "en": "I brought pizza and beer." },
+      { "role": "You", "cn": "太及时了，冰箱刚通电。", "en": "Perfect timing. The fridge just got power." },
+      { "role": "Friend", "cn": "恭喜乔迁！", "en": "Congrats on the move!" },
+      { "role": "You", "cn": "谢谢，总算安定下来了。", "en": "Thanks. Finally settling in." }
+    ]
+  }
+]

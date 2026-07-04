@@ -5,18 +5,156 @@
     "title": "Small change",
     "titleCn": "零钱",
     "scene": "在小卖部门口，你想买一瓶饮料，可自动售货机只收硬币。你翻遍钱包，只有几张纸币，没有足够的零钱。于是你向旁边的同学求助，问他能不能借你几枚硬币，并保证明天就还。这一课围绕买东西、找零和借钱的日常对话展开。",
-    "grammarTags": ["some/any", "可数不可数", "疑问句"],
+    "grammarTags": [
+      "some/any",
+      "可数不可数",
+      "疑问句"
+    ],
     "words": [
-      { "word": "change", "phon": "/tʃeɪndʒ/", "pos": "n.", "cn": "零钱；找零", "eg": "Do you have any change for the bus? 你有坐公交车的零钱吗？" },
-      { "word": "coin", "phon": "/kɔɪn/", "pos": "n.", "cn": "硬币", "eg": "She dropped a coin on the floor. 她把一枚硬币掉在了地板上。" },
-      { "word": "borrow", "phon": "/ˈbɒrəʊ/", "pos": "v.", "cn": "借（入）", "eg": "Can I borrow your pen for a minute? 我能借用一下你的笔吗？" },
-      { "word": "spend", "phon": "/spend/", "pos": "v.", "cn": "花费", "eg": "I don't want to spend too much money today. 我今天不想花太多钱。" },
-      { "word": "cash", "phon": "/kæʃ/", "pos": "n.", "cn": "现金", "eg": "Sorry, I have no cash on me now. 抱歉，我现在身上没有现金。" },
-      { "word": "enough", "phon": "/ɪˈnʌf/", "pos": "adj.", "cn": "足够的", "eg": "We don't have enough coins for the machine. 我们没有足够的硬币来用这台机器。" }
+      {
+        "word": "change",
+        "phon": "/tʃeɪndʒ/",
+        "pos": "n.",
+        "cn": "零钱；找零",
+        "eg": "Do you have any change for the bus? 你有坐公交车的零钱吗？"
+      },
+      {
+        "word": "coin",
+        "phon": "/kɔɪn/",
+        "pos": "n.",
+        "cn": "硬币",
+        "eg": "She dropped a coin on the floor. 她把一枚硬币掉在了地板上。"
+      },
+      {
+        "word": "borrow",
+        "phon": "/ˈbɒrəʊ/",
+        "pos": "v.",
+        "cn": "借（入）",
+        "eg": "Can I borrow your pen for a minute? 我能借用一下你的笔吗？"
+      },
+      {
+        "word": "spend",
+        "phon": "/spend/",
+        "pos": "v.",
+        "cn": "花费",
+        "eg": "I don't want to spend too much money today. 我今天不想花太多钱。"
+      },
+      {
+        "word": "cash",
+        "phon": "/kæʃ/",
+        "pos": "n.",
+        "cn": "现金",
+        "eg": "Sorry, I have no cash on me now. 抱歉，我现在身上没有现金。"
+      },
+      {
+        "word": "enough",
+        "phon": "/ɪˈnʌf/",
+        "pos": "adj.",
+        "cn": "足够的",
+        "eg": "We don't have enough coins for the machine. 我们没有足够的硬币来用这台机器。"
+      },
+      {
+        "word": "card",
+        "phon": "/kɑːd/",
+        "pos": "n.",
+        "cn": "明信片，卡片",
+        "eg": ""
+      },
+      {
+        "word": "youth",
+        "phon": "/juːθ/",
+        "pos": "n.",
+        "cn": "青年",
+        "eg": ""
+      },
+      {
+        "word": "hostel",
+        "phon": "/'hɒst(ə)l/",
+        "pos": "n.",
+        "cn": "招待所，旅馆",
+        "eg": ""
+      },
+      {
+        "word": "association",
+        "phon": "/əsəʊsɪ'eɪʃ(ə)n; -ʃɪ-/",
+        "pos": "n.",
+        "cn": "协会",
+        "eg": ""
+      },
+      {
+        "word": "soon",
+        "phon": "/suːn/",
+        "pos": "adv.",
+        "cn": "不久",
+        "eg": ""
+      },
+      {
+        "word": "write",
+        "phon": "/raɪt/",
+        "pos": "v.",
+        "cn": "写",
+        "eg": ""
+      },
+      {
+        "word": "exam",
+        "phon": "/ɪg'zæm; eg-/",
+        "pos": "n.",
+        "cn": "考试",
+        "eg": ""
+      },
+      {
+        "word": "pass",
+        "phon": "/pɑːs/",
+        "pos": "v.",
+        "cn": "及格，通过",
+        "eg": ""
+      },
+      {
+        "word": "mathematics",
+        "phon": "/ˌmæθə'mætɪks/",
+        "pos": "n.",
+        "cn": "数学",
+        "eg": ""
+      },
+      {
+        "word": "question",
+        "phon": "/'kwestʃ(ə)n/",
+        "pos": "n.",
+        "cn": "问题",
+        "eg": ""
+      },
+      {
+        "word": "easy",
+        "phon": "/'iːzɪ/",
+        "pos": "a.",
+        "cn": "容易的",
+        "eg": ""
+      },
+      {
+        "word": "paper",
+        "phon": "/'peɪpə/",
+        "pos": "n.",
+        "cn": "考卷",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "some 与 any", "explain": "some 多用于肯定句，any 多用于否定句和一般疑问句。在表示邀请或请求、希望对方回答 yes 时，疑问句也可用 some。", "examples": ["I have some coins in my pocket. 我口袋里有一些硬币。", "I don't have any change with me. 我身上没有任何零钱。"] },
-      { "point": "可数与不可数名词", "explain": "coin（硬币）、pound（英镑）是可数名词，可以用 How many 提问；money（钱）、cash（现金）、change（零钱）是不可数名词，用 How much 提问。", "examples": ["How many coins do you have? 你有多少枚硬币？", "How much cash do you need? 你需要多少现金？"] }
+      {
+        "point": "some 与 any",
+        "explain": "some 多用于肯定句，any 多用于否定句和一般疑问句。在表示邀请或请求、希望对方回答 yes 时，疑问句也可用 some。",
+        "examples": [
+          "I have some coins in my pocket. 我口袋里有一些硬币。",
+          "I don't have any change with me. 我身上没有任何零钱。"
+        ]
+      },
+      {
+        "point": "可数与不可数名词",
+        "explain": "coin（硬币）、pound（英镑）是可数名词，可以用 How many 提问；money（钱）、cash（现金）、change（零钱）是不可数名词，用 How much 提问。",
+        "examples": [
+          "How many coins do you have? 你有多少枚硬币？",
+          "How much cash do you need? 你需要多少现金？"
+        ]
+      }
     ],
     "tips": "①some 多用于肯定句，any 多用于疑问句和否定句 ②money、cash、change 是不可数名词，coin、pound 可数 ③borrow 是\"借入\"，lend 是\"借出\"，方向相反"
   },
@@ -26,18 +164,148 @@
     "title": "Knock, knock!",
     "titleCn": "敲敲门！",
     "scene": "深夜，全家人都已经睡下。你正躺在床上，忽然听到楼下传来轻轻的敲门声。你屏住呼吸，又听了一会儿，声音还在继续。你悄悄下楼，透过门缝一看，原来是隔壁的邻居忘带钥匙，来敲门求助。本课用过去时讲述这段夜里发生的小插曲。",
-    "grammarTags": ["一般过去时", "be动词"],
+    "grammarTags": [
+      "一般过去时",
+      "be动词"
+    ],
     "words": [
-      { "word": "knock", "phon": "/nɒk/", "pos": "v.", "cn": "敲", "eg": "Someone knocked on the door last night. 昨晚有人敲了门。" },
-      { "word": "upstairs", "phon": "/ˌʌpˈsteəz/", "pos": "adv.", "cn": "在楼上", "eg": "My parents were sleeping upstairs. 我父母当时在楼上睡觉。" },
-      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Our new neighbour is very friendly. 我们的新邻居很友好。" },
-      { "word": "quiet", "phon": "/ˈkwaɪət/", "pos": "adj.", "cn": "安静的", "eg": "Please be quiet; the baby is sleeping. 请安静，宝宝在睡觉。" },
-      { "word": "noise", "phon": "/nɔɪz/", "pos": "n.", "cn": "响声，噪音", "eg": "I heard a strange noise last night. 我昨晚听到一个奇怪的响声。" },
-      { "word": "answer", "phon": "/ˈɑːnsə/", "pos": "v.", "cn": "回应，开（门）", "eg": "Nobody answered the door. 没有人来开门。" }
+      {
+        "word": "knock",
+        "phon": "/nɒk/",
+        "pos": "v.",
+        "cn": "敲",
+        "eg": "Someone knocked on the door last night. 昨晚有人敲了门。"
+      },
+      {
+        "word": "upstairs",
+        "phon": "/ˌʌpˈsteəz/",
+        "pos": "adv.",
+        "cn": "在楼上",
+        "eg": "My parents were sleeping upstairs. 我父母当时在楼上睡觉。"
+      },
+      {
+        "word": "neighbour",
+        "phon": "/ˈneɪbə/",
+        "pos": "n.",
+        "cn": "邻居",
+        "eg": "Our new neighbour is very friendly. 我们的新邻居很友好。"
+      },
+      {
+        "word": "quiet",
+        "phon": "/ˈkwaɪət/",
+        "pos": "adj.",
+        "cn": "安静的",
+        "eg": "Please be quiet; the baby is sleeping. 请安静，宝宝在睡觉。"
+      },
+      {
+        "word": "noise",
+        "phon": "/nɔɪz/",
+        "pos": "n.",
+        "cn": "响声，噪音",
+        "eg": "I heard a strange noise last night. 我昨晚听到一个奇怪的响声。"
+      },
+      {
+        "word": "answer",
+        "phon": "/ˈɑːnsə/",
+        "pos": "v.",
+        "cn": "回应，开（门）",
+        "eg": "Nobody answered the door. 没有人来开门。"
+      },
+      {
+        "word": "fail",
+        "phon": "/feɪl/",
+        "pos": "v.",
+        "cn": "未及格，失败",
+        "eg": ""
+      },
+      {
+        "word": "mark",
+        "phon": "/mɑ:k/",
+        "pos": "n.",
+        "cn": "分数",
+        "eg": ""
+      },
+      {
+        "word": "rest",
+        "phon": "/rest/",
+        "pos": "n.",
+        "cn": "其他的东西，休息",
+        "eg": ""
+      },
+      {
+        "word": "difficult",
+        "phon": "/ˈdɪfɪkəlt/",
+        "pos": "a.",
+        "cn": "困难的",
+        "eg": ""
+      },
+      {
+        "word": "hate",
+        "phon": "/heɪt/",
+        "pos": "v.",
+        "cn": "讨厌",
+        "eg": ""
+      },
+      {
+        "word": "low",
+        "phon": "/ləu/",
+        "pos": "a.",
+        "cn": "低的",
+        "eg": ""
+      },
+      {
+        "word": "cheer",
+        "phon": "/tʃɪə/",
+        "pos": "v.",
+        "cn": "振作，振奋",
+        "eg": ""
+      },
+      {
+        "word": "guy",
+        "phon": "/gaɪ/",
+        "pos": "n.",
+        "cn": "家伙，人",
+        "eg": ""
+      },
+      {
+        "word": "top",
+        "phon": "/tɒp/",
+        "pos": "n.",
+        "cn": "上方，顶",
+        "eg": ""
+      },
+      {
+        "word": "clever",
+        "phon": "/'klevə/",
+        "pos": "a.",
+        "cn": "聪明的",
+        "eg": ""
+      },
+      {
+        "word": "stupid",
+        "phon": "/'stjuːpɪd/",
+        "pos": "a.",
+        "cn": "笨的",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "一般过去时的规则变化", "explain": "表示过去发生并已结束的动作，规则动词在词尾加 -ed，如 knock→knocked、answer→answered、open→opened。常与 last night、yesterday 等时间状语连用。", "examples": ["I knocked on the door twice. 我敲了两下门。", "She answered the phone quickly. 她很快接了电话。"] },
-      { "point": "不规则动词过去式", "explain": "有些动词过去式不规则，需要专门记忆，如 hear→heard、hold→held、come→came。be 动词过去式为 was/were。", "examples": ["I heard a noise downstairs. 我听到楼下有响声。", "They were very quiet. 他们很安静。"] }
+      {
+        "point": "一般过去时的规则变化",
+        "explain": "表示过去发生并已结束的动作，规则动词在词尾加 -ed，如 knock→knocked、answer→answered、open→opened。常与 last night、yesterday 等时间状语连用。",
+        "examples": [
+          "I knocked on the door twice. 我敲了两下门。",
+          "She answered the phone quickly. 她很快接了电话。"
+        ]
+      },
+      {
+        "point": "不规则动词过去式",
+        "explain": "有些动词过去式不规则，需要专门记忆，如 hear→heard、hold→held、come→came。be 动词过去式为 was/were。",
+        "examples": [
+          "I heard a noise downstairs. 我听到楼下有响声。",
+          "They were very quiet. 他们很安静。"
+        ]
+      }
     ],
     "tips": "①规则动词过去式加 -ed ②hear→heard、hold→held、come→came 是不规则变化 ③过去时表示过去发生并已结束的动作"
   },
@@ -47,18 +315,162 @@
     "title": "Tommy's breakfast",
     "titleCn": "汤米的早餐",
     "scene": "早上餐桌旁，小汤米一个人坐在高椅上吃早餐。妈妈刚一转身去厨房，他就把牛奶打翻了，还把盘子里的面包扔到了地上。等妈妈回来，桌上一片狼藉，汤米却笑得很开心。本课用一般过去时描述这个调皮孩子早餐时闹出的乱子。",
-    "grammarTags": ["一般过去时", "be动词"],
+    "grammarTags": [
+      "一般过去时",
+      "be动词"
+    ],
     "words": [
-      { "word": "breakfast", "phon": "/ˈbrekfəst/", "pos": "n.", "cn": "早餐", "eg": "I usually have eggs for breakfast. 我早餐通常吃鸡蛋。" },
-      { "word": "spill", "phon": "/spɪl/", "pos": "v.", "cn": "洒出，泼出", "eg": "The boy spilt his milk on the table. 那个男孩把牛奶洒在桌上了。" },
-      { "word": "plate", "phon": "/pleɪt/", "pos": "n.", "cn": "盘子", "eg": "There is a piece of bread on the plate. 盘子上有一片面包。" },
-      { "word": "hungry", "phon": "/ˈhʌŋɡri/", "pos": "adj.", "cn": "饿的", "eg": "The children were very hungry after school. 孩子们放学后很饿。" },
-      { "word": "finish", "phon": "/ˈfɪnɪʃ/", "pos": "v.", "cn": "完成，吃完", "eg": "He finished his breakfast quickly. 他很快吃完了早餐。" },
-      { "word": "egg", "phon": "/eɡ/", "pos": "n.", "cn": "鸡蛋", "eg": "She ate two eggs this morning. 她今天早上吃了两个鸡蛋。" }
+      {
+        "word": "breakfast",
+        "phon": "/ˈbrekfəst/",
+        "pos": "n.",
+        "cn": "早餐",
+        "eg": "I usually have eggs for breakfast. 我早餐通常吃鸡蛋。"
+      },
+      {
+        "word": "spill",
+        "phon": "/spɪl/",
+        "pos": "v.",
+        "cn": "洒出，泼出",
+        "eg": "The boy spilt his milk on the table. 那个男孩把牛奶洒在桌上了。"
+      },
+      {
+        "word": "plate",
+        "phon": "/pleɪt/",
+        "pos": "n.",
+        "cn": "盘子",
+        "eg": "There is a piece of bread on the plate. 盘子上有一片面包。"
+      },
+      {
+        "word": "hungry",
+        "phon": "/ˈhʌŋɡri/",
+        "pos": "adj.",
+        "cn": "饿的",
+        "eg": "The children were very hungry after school. 孩子们放学后很饿。"
+      },
+      {
+        "word": "finish",
+        "phon": "/ˈfɪnɪʃ/",
+        "pos": "v.",
+        "cn": "完成，吃完",
+        "eg": "He finished his breakfast quickly. 他很快吃完了早餐。"
+      },
+      {
+        "word": "egg",
+        "phon": "/eɡ/",
+        "pos": "n.",
+        "cn": "鸡蛋",
+        "eg": "She ate two eggs this morning. 她今天早上吃了两个鸡蛋。"
+      },
+      {
+        "word": "cheap",
+        "phon": "/tʃiːp/",
+        "pos": "a.",
+        "cn": "便宜的",
+        "eg": ""
+      },
+      {
+        "word": "expensive",
+        "phon": "/ɪkˈspensɪv/",
+        "pos": "a.",
+        "cn": "贵的",
+        "eg": ""
+      },
+      {
+        "word": "fresh",
+        "phon": "/freʃ/",
+        "pos": "a.",
+        "cn": "新鲜的",
+        "eg": ""
+      },
+      {
+        "word": "stale",
+        "phon": "/steɪl/",
+        "pos": "a.",
+        "cn": "变馊的",
+        "eg": ""
+      },
+      {
+        "word": "low",
+        "phon": "/ləu/",
+        "pos": "a.",
+        "cn": "低的，矮的",
+        "eg": ""
+      },
+      {
+        "word": "loud",
+        "phon": "/laʊd/",
+        "pos": "a.",
+        "cn": "大声的",
+        "eg": ""
+      },
+      {
+        "word": "high",
+        "phon": "/haɪ/",
+        "pos": "a.",
+        "cn": "高的",
+        "eg": ""
+      },
+      {
+        "word": "hard",
+        "phon": "/hɑːd/",
+        "pos": "a.",
+        "cn": "硬的",
+        "eg": ""
+      },
+      {
+        "word": "sweet",
+        "phon": "/swiːt/",
+        "pos": "a.",
+        "cn": "甜的",
+        "eg": ""
+      },
+      {
+        "word": "soft",
+        "phon": "/sɒft/",
+        "pos": "a.",
+        "cn": "软的",
+        "eg": ""
+      },
+      {
+        "word": "sour",
+        "phon": "/saʊə/",
+        "pos": "a.",
+        "cn": "酸",
+        "eg": ""
+      },
+      {
+        "word": "spell",
+        "phon": "/spel/",
+        "pos": "v.",
+        "cn": "拼写",
+        "eg": ""
+      },
+      {
+        "word": "intelligent",
+        "phon": "/ɪn'telɪdʒənt/",
+        "pos": "a.",
+        "cn": "聪明的，有智慧的",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "不规则动词过去式", "explain": "描述过去的动作时，许多常用动词是不规则变化，如 eat→ate、drink→drank、have→had、spill→spilt。这些形式需要单独记忆。", "examples": ["Tommy ate all his bread. 汤米吃光了所有面包。", "The baby drank some milk. 婴儿喝了一些牛奶。"] },
-      { "point": "过去时的时间状语", "explain": "this morning、yesterday、last night、just now 等表示过去的时间状语常与一般过去时连用，用来说明动作发生的时间。", "examples": ["We had breakfast at seven this morning. 今天早上七点我们吃了早餐。", "He finished it just now. 他刚才把它吃完了。"] }
+      {
+        "point": "不规则动词过去式",
+        "explain": "描述过去的动作时，许多常用动词是不规则变化，如 eat→ate、drink→drank、have→had、spill→spilt。这些形式需要单独记忆。",
+        "examples": [
+          "Tommy ate all his bread. 汤米吃光了所有面包。",
+          "The baby drank some milk. 婴儿喝了一些牛奶。"
+        ]
+      },
+      {
+        "point": "过去时的时间状语",
+        "explain": "this morning、yesterday、last night、just now 等表示过去的时间状语常与一般过去时连用，用来说明动作发生的时间。",
+        "examples": [
+          "We had breakfast at seven this morning. 今天早上七点我们吃了早餐。",
+          "He finished it just now. 他刚才把它吃完了。"
+        ]
+      }
     ],
     "tips": "①eat→ate、drink→drank、have→had 为不规则过去式 ②this morning、yesterday 等常与过去时连用 ③finish 后可接名词或动名词（finish doing）"
   },
@@ -68,18 +480,155 @@
     "title": "A true story",
     "titleCn": "一个真实的故事",
     "scene": "历史课上，老师给大家讲了一个据说是真实的故事：很多年前，有一位国王住在一座大宫殿里，他的士兵个个勇敢。有一天发生了一件谁也想不到的事，改变了整个王国。同学们听得入了神，都想知道后来到底怎么样了。本课用一般过去时叙述这个古老的传说。",
-    "grammarTags": ["一般过去时", "be动词"],
+    "grammarTags": [
+      "一般过去时",
+      "be动词"
+    ],
     "words": [
-      { "word": "true", "phon": "/truː/", "pos": "adj.", "cn": "真实的", "eg": "Is this story true or not? 这个故事是真的吗？" },
-      { "word": "king", "phon": "/kɪŋ/", "pos": "n.", "cn": "国王", "eg": "The king lived in a big palace. 国王住在一座大宫殿里。" },
-      { "word": "queen", "phon": "/kwiːn/", "pos": "n.", "cn": "女王，王后", "eg": "The queen visited our city last year. 女王去年访问了我们的城市。" },
-      { "word": "palace", "phon": "/ˈpæləs/", "pos": "n.", "cn": "宫殿", "eg": "The old palace is now a museum. 那座古老的宫殿现在是博物馆。" },
-      { "word": "ago", "phon": "/əˈɡəʊ/", "pos": "adv.", "cn": "以前", "eg": "This happened many years ago. 这件事发生在很多年前。" },
-      { "word": "soldier", "phon": "/ˈsəʊldʒə/", "pos": "n.", "cn": "士兵", "eg": "The brave soldier saved the child. 那名勇敢的士兵救了那个孩子。" }
+      {
+        "word": "true",
+        "phon": "/truː/",
+        "pos": "adj.",
+        "cn": "真实的",
+        "eg": "Is this story true or not? 这个故事是真的吗？"
+      },
+      {
+        "word": "king",
+        "phon": "/kɪŋ/",
+        "pos": "n.",
+        "cn": "国王",
+        "eg": "The king lived in a big palace. 国王住在一座大宫殿里。"
+      },
+      {
+        "word": "queen",
+        "phon": "/kwiːn/",
+        "pos": "n.",
+        "cn": "女王，王后",
+        "eg": "The queen visited our city last year. 女王去年访问了我们的城市。"
+      },
+      {
+        "word": "palace",
+        "phon": "/ˈpæləs/",
+        "pos": "n.",
+        "cn": "宫殿",
+        "eg": "The old palace is now a museum. 那座古老的宫殿现在是博物馆。"
+      },
+      {
+        "word": "ago",
+        "phon": "/əˈɡəʊ/",
+        "pos": "adv.",
+        "cn": "以前",
+        "eg": "This happened many years ago. 这件事发生在很多年前。"
+      },
+      {
+        "word": "soldier",
+        "phon": "/ˈsəʊldʒə/",
+        "pos": "n.",
+        "cn": "士兵",
+        "eg": "The brave soldier saved the child. 那名勇敢的士兵救了那个孩子。"
+      },
+      {
+        "word": "mistake",
+        "phon": "/mɪ'steɪk/",
+        "pos": "n.",
+        "cn": "错误",
+        "eg": ""
+      },
+      {
+        "word": "present",
+        "phon": "/prɪˈzent;(for n.)ˈpreznt/",
+        "pos": "n.",
+        "cn": "礼物",
+        "eg": ""
+      },
+      {
+        "word": "dictionary",
+        "phon": "/'dɪkʃ(ə)n(ə)rɪ/",
+        "pos": "n.",
+        "cn": "词典",
+        "eg": ""
+      },
+      {
+        "word": "carry",
+        "phon": "/'kærɪ/",
+        "pos": "v.",
+        "cn": "携带",
+        "eg": ""
+      },
+      {
+        "word": "correct",
+        "phon": "/kə'rekt/",
+        "pos": "v.",
+        "cn": "改正，纠正",
+        "eg": ""
+      },
+      {
+        "word": "madam",
+        "phon": "/'mædəm/",
+        "pos": "n.",
+        "cn": "夫人，女士(对妇女的尊称)",
+        "eg": ""
+      },
+      {
+        "word": "as well",
+        "phon": "",
+        "pos": "",
+        "cn": "同样",
+        "eg": ""
+      },
+      {
+        "word": "suit",
+        "phon": "/sju:t; su:t/",
+        "pos": "v.",
+        "cn": "适合",
+        "eg": ""
+      },
+      {
+        "word": "pretty",
+        "phon": "/'prɪtɪ/",
+        "pos": "a.",
+        "cn": "漂亮",
+        "eg": ""
+      },
+      {
+        "word": "idea",
+        "phon": "/aɪ'dɪə/",
+        "pos": "n.",
+        "cn": "主意",
+        "eg": ""
+      },
+      {
+        "word": "a little",
+        "phon": "",
+        "pos": "",
+        "cn": "少许(用于不可数名词之前)",
+        "eg": ""
+      },
+      {
+        "word": "teaspoonful",
+        "phon": "/'ti:spu:nful/",
+        "pos": "n.",
+        "cn": "一满茶匙",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "ago 的用法", "explain": "\"一段时间 + ago\" 表示\"……以前\"，从现在算起往前推，必须与一般过去时连用，如 two years ago、a moment ago。", "examples": ["The story happened many years ago. 这个故事发生在很多年前。", "He left a few minutes ago. 他几分钟前离开了。"] },
-      { "point": "be 动词的过去式 was/were", "explain": "was 用于 I 和第三人称单数（he/she/it），were 用于 you/we/they 及复数主语，表示过去的状态或身份。", "examples": ["The king was very kind. 那位国王很仁慈。", "The soldiers were brave. 士兵们很勇敢。"] }
+      {
+        "point": "ago 的用法",
+        "explain": "\"一段时间 + ago\" 表示\"……以前\"，从现在算起往前推，必须与一般过去时连用，如 two years ago、a moment ago。",
+        "examples": [
+          "The story happened many years ago. 这个故事发生在很多年前。",
+          "He left a few minutes ago. 他几分钟前离开了。"
+        ]
+      },
+      {
+        "point": "be 动词的过去式 was/were",
+        "explain": "was 用于 I 和第三人称单数（he/she/it），were 用于 you/we/they 及复数主语，表示过去的状态或身份。",
+        "examples": [
+          "The king was very kind. 那位国王很仁慈。",
+          "The soldiers were brave. 士兵们很勇敢。"
+        ]
+      }
     ],
     "tips": "①\"时间段 + ago\" 表示\"……以前\"，与一般过去时连用 ②was 用于 I/he/she/it，were 用于 you/we/they ③many years ago 意为\"许多年前\""
   },
@@ -89,18 +638,162 @@
     "title": "The man in a hat",
     "titleCn": "戴帽子的男人",
     "scene": "傍晚，你独自走在回家的路上。经过一个街角时，你隐约觉得身后有人。你放慢脚步，那人也放慢；你加快，他也加快。回头一看，是个戴黑帽子的男人一直跟着你。你心里有点害怕，突然，他却在下一个路口拐弯不见了。本课用过去进行时和一般过去时讲述这段惊险的经历。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "hat", "phon": "/hæt/", "pos": "n.", "cn": "帽子", "eg": "The man in the black hat looked strange. 那个戴黑帽子的男人看起来很奇怪。" },
-      { "word": "follow", "phon": "/ˈfɒləʊ/", "pos": "v.", "cn": "跟随，跟踪", "eg": "I felt someone was following me. 我觉得有人在跟踪我。" },
-      { "word": "notice", "phon": "/ˈnəʊtɪs/", "pos": "v.", "cn": "注意到", "eg": "She noticed a man behind her. 她注意到身后有个男人。" },
-      { "word": "corner", "phon": "/ˈkɔːnə/", "pos": "n.", "cn": "角落，拐角", "eg": "He was standing at the corner of the street. 他当时站在街角。" },
-      { "word": "suddenly", "phon": "/ˈsʌdənli/", "pos": "adv.", "cn": "突然", "eg": "Suddenly, the man ran away. 突然，那个男人跑开了。" },
-      { "word": "afraid", "phon": "/əˈfreɪd/", "pos": "adj.", "cn": "害怕的", "eg": "She was afraid of the dark street. 她害怕那条黑暗的街道。" }
+      {
+        "word": "hat",
+        "phon": "/hæt/",
+        "pos": "n.",
+        "cn": "帽子",
+        "eg": "The man in the black hat looked strange. 那个戴黑帽子的男人看起来很奇怪。"
+      },
+      {
+        "word": "follow",
+        "phon": "/ˈfɒləʊ/",
+        "pos": "v.",
+        "cn": "跟随，跟踪",
+        "eg": "I felt someone was following me. 我觉得有人在跟踪我。"
+      },
+      {
+        "word": "notice",
+        "phon": "/ˈnəʊtɪs/",
+        "pos": "v.",
+        "cn": "注意到",
+        "eg": "She noticed a man behind her. 她注意到身后有个男人。"
+      },
+      {
+        "word": "corner",
+        "phon": "/ˈkɔːnə/",
+        "pos": "n.",
+        "cn": "角落，拐角",
+        "eg": "He was standing at the corner of the street. 他当时站在街角。"
+      },
+      {
+        "word": "suddenly",
+        "phon": "/ˈsʌdənli/",
+        "pos": "adv.",
+        "cn": "突然",
+        "eg": "Suddenly, the man ran away. 突然，那个男人跑开了。"
+      },
+      {
+        "word": "afraid",
+        "phon": "/əˈfreɪd/",
+        "pos": "adj.",
+        "cn": "害怕的",
+        "eg": "She was afraid of the dark street. 她害怕那条黑暗的街道。"
+      },
+      {
+        "word": "less",
+        "phon": "/les/",
+        "pos": "a.",
+        "cn": "(little的比较级)较少的，更小的",
+        "eg": ""
+      },
+      {
+        "word": "a few",
+        "phon": "",
+        "pos": "",
+        "cn": "几个(用于可数名词之前)",
+        "eg": ""
+      },
+      {
+        "word": "pity",
+        "phon": "/'pɪtɪ/",
+        "pos": "n.",
+        "cn": "遗憾",
+        "eg": ""
+      },
+      {
+        "word": "instead",
+        "phon": "/ɪn'sted/",
+        "pos": "adv.",
+        "cn": "代替",
+        "eg": ""
+      },
+      {
+        "word": "advice",
+        "phon": "/əd'vaɪs/",
+        "pos": "n.",
+        "cn": "建议，忠告",
+        "eg": ""
+      },
+      {
+        "word": "most",
+        "phon": "/məʊst/",
+        "pos": "a.",
+        "cn": "(many,much的最高级)最多的",
+        "eg": ""
+      },
+      {
+        "word": "least",
+        "phon": "/liːst/",
+        "pos": "a.",
+        "cn": "(little的最高级)最小的，最少的",
+        "eg": ""
+      },
+      {
+        "word": "best",
+        "phon": "/best/",
+        "pos": "a.",
+        "cn": "(good的最高级)最好的",
+        "eg": ""
+      },
+      {
+        "word": "worse",
+        "phon": "/wəːs/",
+        "pos": "a.",
+        "cn": "(bad的比较级)更坏的",
+        "eg": ""
+      },
+      {
+        "word": "worst",
+        "phon": "/wə:st/",
+        "pos": "a.",
+        "cn": "(bad的最高级)最坏",
+        "eg": ""
+      },
+      {
+        "word": "model",
+        "phon": "/'mɒdl/",
+        "pos": "n.",
+        "cn": "型号，式样，模型",
+        "eg": ""
+      },
+      {
+        "word": "afford",
+        "phon": "/ə'fɔːd/",
+        "pos": "v.",
+        "cn": "付得起(钱)",
+        "eg": ""
+      },
+      {
+        "word": "deposit",
+        "phon": "/dɪ'pɑːzɪt/",
+        "pos": "n.",
+        "cn": "预付定金",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "过去进行时", "explain": "结构为 was/were + 动词-ing，表示过去某一时刻正在进行的动作，常与 while、at that time 等连用。", "examples": ["I was walking home alone. 我当时正独自走在回家路上。", "They were waiting at the corner. 他们当时在街角等候。"] },
-      { "point": "过去进行时与一般过去时连用", "explain": "\"When + 一般过去时，过去进行时\" 或 \"过去进行时 + when + 一般过去时\"，表示一个短暂动作发生时，另一个动作正在进行。", "examples": ["While I was walking home, a man followed me. 我走回家时，一个男人跟着我。", "She noticed him when she turned around. 她转身时注意到了他。"] }
+      {
+        "point": "过去进行时",
+        "explain": "结构为 was/were + 动词-ing，表示过去某一时刻正在进行的动作，常与 while、at that time 等连用。",
+        "examples": [
+          "I was walking home alone. 我当时正独自走在回家路上。",
+          "They were waiting at the corner. 他们当时在街角等候。"
+        ]
+      },
+      {
+        "point": "过去进行时与一般过去时连用",
+        "explain": "\"When + 一般过去时，过去进行时\" 或 \"过去进行时 + when + 一般过去时\"，表示一个短暂动作发生时，另一个动作正在进行。",
+        "examples": [
+          "While I was walking home, a man followed me. 我走回家时，一个男人跟着我。",
+          "She noticed him when she turned around. 她转身时注意到了他。"
+        ]
+      }
     ],
     "tips": "①过去进行时 = was/were + 动词-ing，表示过去某刻正在进行的动作 ②\"When + 一般过去时，过去进行时\" 表示一个动作发生时另一动作正在进行 ③notice、follow 叙述已完成动作时用一般过去时"
   },
@@ -110,18 +803,155 @@
     "title": "A trip to Australia",
     "titleCn": "澳大利亚之行",
     "scene": "暑假快到了，你正兴奋地和家人商量下个月去澳大利亚看望叔叔的计划。你们打算坐飞机去，航程大约要十几个小时。你已经列好了想去的地方：海边、动物园，还有叔叔家门口的大草坪。本课用一般将来时谈论这次即将到来的旅行安排。",
-    "grammarTags": ["一般将来时", "动词不定式"],
+    "grammarTags": [
+      "一般将来时",
+      "动词不定式"
+    ],
     "words": [
-      { "word": "trip", "phon": "/trɪp/", "pos": "n.", "cn": "旅行", "eg": "We are planning a trip to the mountains. 我们正在计划一次山区旅行。" },
-      { "word": "Australia", "phon": "/ɒsˈtreɪliə/", "pos": "n.", "cn": "澳大利亚", "eg": "My uncle lives in Australia. 我叔叔住在澳大利亚。" },
-      { "word": "plane", "phon": "/pleɪn/", "pos": "n.", "cn": "飞机", "eg": "They are going to travel by plane. 他们打算坐飞机旅行。" },
-      { "word": "journey", "phon": "/ˈdʒɜːni/", "pos": "n.", "cn": "旅程", "eg": "The journey will take about ten hours. 这段旅程大约需要十个小时。" },
-      { "word": "arrive", "phon": "/əˈraɪv/", "pos": "v.", "cn": "到达", "eg": "We will arrive in Sydney tomorrow morning. 我们明天早上将到达悉尼。" },
-      { "word": "visit", "phon": "/ˈvɪzɪt/", "pos": "v.", "cn": "拜访，参观", "eg": "I am going to visit my friends next week. 下周我打算去看望我的朋友。" }
+      {
+        "word": "trip",
+        "phon": "/trɪp/",
+        "pos": "n.",
+        "cn": "旅行",
+        "eg": "We are planning a trip to the mountains. 我们正在计划一次山区旅行。"
+      },
+      {
+        "word": "Australia",
+        "phon": "/ɒsˈtreɪliə/",
+        "pos": "n.",
+        "cn": "澳大利亚",
+        "eg": "My uncle lives in Australia. 我叔叔住在澳大利亚。"
+      },
+      {
+        "word": "plane",
+        "phon": "/pleɪn/",
+        "pos": "n.",
+        "cn": "飞机",
+        "eg": "They are going to travel by plane. 他们打算坐飞机旅行。"
+      },
+      {
+        "word": "journey",
+        "phon": "/ˈdʒɜːni/",
+        "pos": "n.",
+        "cn": "旅程",
+        "eg": "The journey will take about ten hours. 这段旅程大约需要十个小时。"
+      },
+      {
+        "word": "arrive",
+        "phon": "/əˈraɪv/",
+        "pos": "v.",
+        "cn": "到达",
+        "eg": "We will arrive in Sydney tomorrow morning. 我们明天早上将到达悉尼。"
+      },
+      {
+        "word": "visit",
+        "phon": "/ˈvɪzɪt/",
+        "pos": "v.",
+        "cn": "拜访，参观",
+        "eg": "I am going to visit my friends next week. 下周我打算去看望我的朋友。"
+      },
+      {
+        "word": "instalment",
+        "phon": "/ɪn'stɔːlm(ə)nt/",
+        "pos": "n.",
+        "cn": "分期付款",
+        "eg": ""
+      },
+      {
+        "word": "price",
+        "phon": "/praɪs/",
+        "pos": "n.",
+        "cn": "价格",
+        "eg": ""
+      },
+      {
+        "word": "millionaire",
+        "phon": "/mɪljə'neə/",
+        "pos": "n.",
+        "cn": "百万富翁",
+        "eg": ""
+      },
+      {
+        "word": "conductor",
+        "phon": "/kən'dʌktə/",
+        "pos": "n.",
+        "cn": "售票员",
+        "eg": ""
+      },
+      {
+        "word": "fare",
+        "phon": "/fer/",
+        "pos": "n.",
+        "cn": "车费，车票",
+        "eg": ""
+      },
+      {
+        "word": "change",
+        "phon": "/tʃeɪn(d)ʒ/",
+        "pos": "v.",
+        "cn": "兑换(钱)，改变",
+        "eg": ""
+      },
+      {
+        "word": "note",
+        "phon": "/nəʊt/",
+        "pos": "n.",
+        "cn": "纸币，笔记",
+        "eg": ""
+      },
+      {
+        "word": "passenger",
+        "phon": "/'pæsɪndʒə/",
+        "pos": "n.",
+        "cn": "乘客",
+        "eg": ""
+      },
+      {
+        "word": "none",
+        "phon": "/nʌn/",
+        "pos": "pron.",
+        "cn": "没有任何东西",
+        "eg": ""
+      },
+      {
+        "word": "neither",
+        "phon": "/ˈnaɪðə; ˈniːðə/",
+        "pos": "adv.",
+        "cn": "也不",
+        "eg": ""
+      },
+      {
+        "word": "get off",
+        "phon": "",
+        "pos": "",
+        "cn": "下车",
+        "eg": ""
+      },
+      {
+        "word": "tramp",
+        "phon": "/træmp/",
+        "pos": "n.",
+        "cn": "流浪汉",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "be going to 结构", "explain": "\"be going to + 动词原形\" 表示打算、计划做某事，或根据现有迹象推测将要发生的事。be 随主语变为 am/is/are。", "examples": ["We are going to visit Australia next month. 下个月我们打算去澳大利亚。", "It is going to rain. 快要下雨了。"] },
-      { "point": "will 表将来", "explain": "\"will + 动词原形\" 表示将来的动作或状态，各人称通用。常与 next week、tomorrow 等时间状语连用。", "examples": ["The journey will take ten hours. 这段旅程将花十个小时。", "We will arrive tomorrow. 我们明天将到达。"] }
+      {
+        "point": "be going to 结构",
+        "explain": "\"be going to + 动词原形\" 表示打算、计划做某事，或根据现有迹象推测将要发生的事。be 随主语变为 am/is/are。",
+        "examples": [
+          "We are going to visit Australia next month. 下个月我们打算去澳大利亚。",
+          "It is going to rain. 快要下雨了。"
+        ]
+      },
+      {
+        "point": "will 表将来",
+        "explain": "\"will + 动词原形\" 表示将来的动作或状态，各人称通用。常与 next week、tomorrow 等时间状语连用。",
+        "examples": [
+          "The journey will take ten hours. 这段旅程将花十个小时。",
+          "We will arrive tomorrow. 我们明天将到达。"
+        ]
+      }
     ],
     "tips": "①\"be going to + 动词原形\" 表示打算或计划做某事 ②\"will + 动词原形\" 表示将来的动作 ③next week、tomorrow 等常与将来时连用"
   },
@@ -131,18 +961,162 @@
     "title": "Tea for two",
     "titleCn": "两个人的茶",
     "scene": "下午，好朋友来家里做客。你请她坐下，说这就去给她泡茶。你把水壶接满水放到炉子上，等水烧开。她说不放糖，你就往两个杯子里各倒了半杯，端到桌前。两个人一边喝茶一边聊天，度过了一个惬意的下午。本课围绕待客泡茶的对话，练习一般将来时。",
-    "grammarTags": ["一般将来时", "some/any"],
+    "grammarTags": [
+      "一般将来时",
+      "some/any"
+    ],
     "words": [
-      { "word": "tea", "phon": "/tiː/", "pos": "n.", "cn": "茶", "eg": "Would you like a cup of tea? 你想来杯茶吗？" },
-      { "word": "sugar", "phon": "/ˈʃʊɡə/", "pos": "n.", "cn": "糖", "eg": "I don't take sugar in my coffee. 我咖啡里不放糖。" },
-      { "word": "pour", "phon": "/pɔː/", "pos": "v.", "cn": "倒，灌", "eg": "She poured some milk into the cup. 她往杯子里倒了些牛奶。" },
-      { "word": "kettle", "phon": "/ˈketl/", "pos": "n.", "cn": "水壶", "eg": "The kettle is on the stove. 水壶在炉子上。" },
-      { "word": "boil", "phon": "/bɔɪl/", "pos": "v.", "cn": "煮沸，烧开", "eg": "Please boil some water for tea. 请烧些水泡茶。" },
-      { "word": "cup", "phon": "/kʌp/", "pos": "n.", "cn": "杯子", "eg": "There are two cups on the table. 桌上有两个杯子。" }
+      {
+        "word": "tea",
+        "phon": "/tiː/",
+        "pos": "n.",
+        "cn": "茶",
+        "eg": "Would you like a cup of tea? 你想来杯茶吗？"
+      },
+      {
+        "word": "sugar",
+        "phon": "/ˈʃʊɡə/",
+        "pos": "n.",
+        "cn": "糖",
+        "eg": "I don't take sugar in my coffee. 我咖啡里不放糖。"
+      },
+      {
+        "word": "pour",
+        "phon": "/pɔː/",
+        "pos": "v.",
+        "cn": "倒，灌",
+        "eg": "She poured some milk into the cup. 她往杯子里倒了些牛奶。"
+      },
+      {
+        "word": "kettle",
+        "phon": "/ˈketl/",
+        "pos": "n.",
+        "cn": "水壶",
+        "eg": "The kettle is on the stove. 水壶在炉子上。"
+      },
+      {
+        "word": "boil",
+        "phon": "/bɔɪl/",
+        "pos": "v.",
+        "cn": "煮沸，烧开",
+        "eg": "Please boil some water for tea. 请烧些水泡茶。"
+      },
+      {
+        "word": "cup",
+        "phon": "/kʌp/",
+        "pos": "n.",
+        "cn": "杯子",
+        "eg": "There are two cups on the table. 桌上有两个杯子。"
+      },
+      {
+        "word": "except",
+        "phon": "/ɪkˈsept/",
+        "pos": "prep.",
+        "cn": "除…",
+        "eg": ""
+      },
+      {
+        "word": "anyone",
+        "phon": "/'enɪwʌn/",
+        "pos": "ron.",
+        "cn": "(用于疑问句，否定式)任何人",
+        "eg": ""
+      },
+      {
+        "word": "knock",
+        "phon": "/nɒk/",
+        "pos": "v.",
+        "cn": "敲，打",
+        "eg": ""
+      },
+      {
+        "word": "everything",
+        "phon": "/'evrɪθɪŋ/",
+        "pos": "pron.",
+        "cn": "一切事物",
+        "eg": ""
+      },
+      {
+        "word": "quiet",
+        "phon": "/'kwaɪət/",
+        "pos": "a.",
+        "cn": "宁静的，安静的",
+        "eg": ""
+      },
+      {
+        "word": "impossible",
+        "phon": "/ɪm'pɒsɪb(ə)l/",
+        "pos": "a.",
+        "cn": "不可能的",
+        "eg": ""
+      },
+      {
+        "word": "invite",
+        "phon": "/ɪn'vaɪt/",
+        "pos": "v.",
+        "cn": "邀请",
+        "eg": ""
+      },
+      {
+        "word": "anything",
+        "phon": "/'enɪθɪŋ/",
+        "pos": "pron.",
+        "cn": "任何东西",
+        "eg": ""
+      },
+      {
+        "word": "nothing",
+        "phon": "/'nʌθɪŋ/",
+        "pos": "pron.",
+        "cn": "什么也没有",
+        "eg": ""
+      },
+      {
+        "word": "lemonade",
+        "phon": "/lemə'neɪd/",
+        "pos": "n.",
+        "cn": "柠檬水",
+        "eg": ""
+      },
+      {
+        "word": "joke",
+        "phon": "/dʒəʊk/",
+        "pos": "v.",
+        "cn": "开玩笑，笑话",
+        "eg": ""
+      },
+      {
+        "word": "asleep",
+        "phon": "/ə'sliːp/",
+        "pos": "a.",
+        "cn": "睡觉，睡着(用作表语)",
+        "eg": ""
+      },
+      {
+        "word": "glasses",
+        "phon": "/'glɑːsɪz/",
+        "pos": "n.",
+        "cn": "眼镜",
+        "eg": ""
+      }
     ],
     "grammar": [
-      { "point": "will 表临时决定", "explain": "\"I'll（I will）+ 动词原形\" 常用于说话当时临时做出的决定或主动提出帮忙，如 I'll make some tea。", "examples": ["I'll boil some water for you. 我来给你烧点水。", "I'll make you a cup of tea. 我给你泡杯茶。"] },
-      { "point": "some 与 any 修饰不可数名词", "explain": "tea、sugar、water 都是不可数名词。肯定句和表示邀请的疑问句常用 some，否定句和一般疑问句用 any。", "examples": ["Would you like some tea? 你想来点茶吗？", "There isn't any sugar in the cup. 杯子里没有糖。"] }
+      {
+        "point": "will 表临时决定",
+        "explain": "\"I'll（I will）+ 动词原形\" 常用于说话当时临时做出的决定或主动提出帮忙，如 I'll make some tea。",
+        "examples": [
+          "I'll boil some water for you. 我来给你烧点水。",
+          "I'll make you a cup of tea. 我给你泡杯茶。"
+        ]
+      },
+      {
+        "point": "some 与 any 修饰不可数名词",
+        "explain": "tea、sugar、water 都是不可数名词。肯定句和表示邀请的疑问句常用 some，否定句和一般疑问句用 any。",
+        "examples": [
+          "Would you like some tea? 你想来点茶吗？",
+          "There isn't any sugar in the cup. 杯子里没有糖。"
+        ]
+      }
     ],
     "tips": "①\"I'll + 动词原形\" 常表示说话时临时做出的决定 ②tea、sugar、water 是不可数名词 ③疑问句和否定句中常用 any，肯定句和邀请中常用 some"
   }

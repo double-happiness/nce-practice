@@ -42,7 +42,9 @@
     .ex-prog { font-size: 14px; color: #64748b; }
     .ex-q { border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px 18px; margin-bottom: 14px; background: #fff; }
     .ex-q .qn { font-size: 13px; color: #94a3b8; margin-bottom: 4px; }
-    .ex-q .qstem { font-size: 16px; color: #111; margin-bottom: 12px; line-height: 1.6; }
+    .ex-q .qstem { font-size: 16px; color: #111; margin-bottom: 12px; line-height: 1.6; display: flex; align-items: flex-start; gap: 6px; }
+    .ex-spk { border: none; background: none; cursor: pointer; font-size: 16px; opacity: .65; padding: 0; flex: none; }
+    .ex-spk:hover { opacity: 1; }
     .ex-opts { display: flex; flex-direction: column; gap: 8px; }
     .ex-opt { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border: 1px solid #e2e8f0;
       border-radius: 9px; cursor: pointer; font-size: 15px; }
@@ -65,7 +67,7 @@
     .ex-rev { border: 1px solid #e2e8f0; border-radius: 11px; padding: 14px 16px; margin-bottom: 12px; }
     .ex-rev.ok { border-left: 4px solid #16a34a; }
     .ex-rev.bad { border-left: 4px solid #dc2626; }
-    .ex-rev .rstem { font-size: 15px; color: #111; margin-bottom: 8px; line-height: 1.6; }
+    .ex-rev .rstem { font-size: 15px; color: #111; margin-bottom: 8px; line-height: 1.6; display: flex; align-items: flex-start; gap: 6px; flex-wrap: wrap; }
     .ex-rev .rline { font-size: 14px; margin: 3px 0; }
     .ex-rev .rmine.ok { color: #16a34a; }
     .ex-rev .rmine.bad { color: #dc2626; }
@@ -74,11 +76,22 @@
     .ex-rev .rtags { margin-top: 6px; }
     .ex-tag { display: inline-block; background: #eff6ff; color: #2563eb; font-size: 12px;
       padding: 1px 8px; border-radius: 999px; margin-right: 6px; }
+    .ex-presets { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 14px; }
+    .ex-preset { padding: 6px 12px; border: 1px solid #cbd5e1; border-radius: 999px; background: #f8fafc;
+      color: #334155; font-size: 13px; cursor: pointer; }
+    .ex-preset:hover { border-color: #2563eb; color: #2563eb; background: #eff6ff; }
+    .ex-preset.primary { border-color: #2563eb; background: #eff6ff; color: #1d4ed8; font-weight: 600; }
   `;
   document.head.appendChild(style);
 
   const esc = NCE.escapeHtml;
   const escAttr = NCE.escapeAttr || esc;
+
+  function spkBtn(text) {
+    const t = String(text || '').trim();
+    if (!t || !NCE.speak) return '';
+    return `<button type="button" class="ex-spk" data-speak="${escAttr(t)}" title="朗读">🔊</button>`;
+  }
 
   // ---------- 模块状态 ----------
   const st = {
@@ -143,6 +156,28 @@
     }
   }
 
+  function presetHtml(book) {
+    const units = st.units[book] || [];
+    if (!units.length) return '';
+    const chips = units.map((u, i) =>
+      `<button type="button" class="ex-preset" data-unit="${i}" data-count="20" data-limit="20">${esc(u.label)} · 20题</button>`
+    ).join('');
+    const all = Number(book) === 4
+      ? '<button type="button" class="ex-preset primary" data-unit="" data-count="40" data-limit="40">全书模考 · 40题 · 40分钟</button>'
+      : '';
+    return '<div class="ex-presets">' + chips + all + '</div>';
+  }
+
+  function applyPreset(unitIdx, count, limitMin) {
+    const s = st.setup;
+    s.unitIdx = unitIdx === '' || unitIdx == null ? '' : String(unitIdx);
+    s.count = String(count);
+    s.limitMin = String(limitMin);
+    renderSetup();
+    const start = PANEL && PANEL.querySelector('.ex-start');
+    if (start) start.click();
+  }
+
   // ============ 1. 设置页 ============
   async function renderSetup() {
     clearTimer();
@@ -164,12 +199,13 @@
       `<label>册：<select class="ex-book">${bookOpts}</select></label>` +
       `<label>范围：<select class="ex-unit">${unitOpts}</select></label>` +
       '</div>' +
+      presetHtml(s.book) +
       '<div class="ex-row">' +
       '<label>题量：<select class="ex-count">' +
-      ['10', '20', '30'].map((c) => `<option value="${c}"${c === s.count ? ' selected' : ''}>${c} 题</option>`).join('') +
+      ['10', '20', '30', '40'].map((c) => `<option value="${c}"${c === s.count ? ' selected' : ''}>${c} 题</option>`).join('') +
       '</select></label>' +
       '<label>限时：<select class="ex-limit">' +
-      [['0', '不限时'], ['10', '10 分钟'], ['20', '20 分钟']].map(([v, t]) =>
+      [['0', '不限时'], ['10', '10 分钟'], ['20', '20 分钟'], ['30', '30 分钟'], ['40', '40 分钟']].map(([v, t]) =>
         `<option value="${v}"${v === s.limitMin ? ' selected' : ''}>${t}</option>`).join('') +
       '</select></label>' +
       '</div>' +
@@ -190,6 +226,9 @@
     PANEL.querySelector('.ex-unit').onchange = (e) => { s.unitIdx = e.target.value; };
     PANEL.querySelector('.ex-count').onchange = (e) => { s.count = e.target.value; };
     PANEL.querySelector('.ex-limit').onchange = (e) => { s.limitMin = e.target.value; };
+    PANEL.querySelectorAll('.ex-preset').forEach((btn) => {
+      btn.onclick = () => applyPreset(btn.dataset.unit, btn.dataset.count, btn.dataset.limit);
+    });
     PANEL.querySelector('.ex-start').onclick = startExam;
 
     loadHistory();
@@ -273,7 +312,7 @@
       }
       return `<div class="ex-q" data-id="${escAttr(q.id)}">` +
         `<div class="qn">${qn}</div>` +
-        `<div class="qstem">${esc(q.stem)}</div>` +
+        `<div class="qstem">${spkBtn(q.stem)}<span>${esc(q.stem)}</span></div>` +
         input + '</div>';
     }).join('');
 
@@ -296,6 +335,7 @@
     });
     PANEL.querySelector('.ex-submit').onclick = () => confirmSubmit();
     PANEL.querySelector('.ex-submit2').onclick = () => confirmSubmit();
+    if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(PANEL);
     updateProgress();
     startTimer();
   }
@@ -398,8 +438,8 @@
       const mine = r.response && r.response !== '' ? esc(r.response) : '（未作答）';
       const tags = (r.grammar || []).map((t) => `<span class="ex-tag">${esc(t)}</span>`).join('');
       return `<div class="ex-rev ${r.correct ? 'ok' : 'bad'}">` +
-        `<div class="rstem"><b>${i + 1}.</b> ${esc(r.stem)} ` +
-        `<span style="color:${r.correct ? '#16a34a' : '#dc2626'}">${r.correct ? '✓' : '✗'}</span></div>` +
+        `<div class="rstem">${spkBtn(r.stem)}<span><b>${i + 1}.</b> ${esc(r.stem)} ` +
+        `<span style="color:${r.correct ? '#16a34a' : '#dc2626'}">${r.correct ? '✓' : '✗'}</span></span></div>` +
         `<div class="rline rmine ${r.correct ? 'ok' : 'bad'}">你的答案：${mine}</div>` +
         (r.correct ? '' : `<div class="rline rans">正确答案：${esc(ans)}</div>`) +
         (r.explanation ? `<div class="rexp">解析：${esc(r.explanation)}</div>` : '') +
@@ -423,6 +463,7 @@
       '</div>';
 
     PANEL.querySelector('.ex-again').onclick = renderSetup;
+    if (NCE.bindSpeakClicks) NCE.bindSpeakClicks(PANEL);
   }
 
   NCE.registerFeature({ id: 'exam', label: '阶段测验', icon: '📝', onShow });

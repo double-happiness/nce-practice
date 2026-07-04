@@ -3,87 +3,319 @@
     "id": "tf-b2-014",
     "book": 2,
     "lesson": 1,
-    "grammar": ["一般过去时"],
+    "grammar": [
+      "一般过去时"
+    ],
     "cn": "他昨晚去了剧院。",
     "explanation": "一般过去时转换借助 did：疑问句 Did he…?，否定句 did not + 动词原形（went → go）。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He went to the theatre last night.", "He went to the theater last night."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did he go to the theatre last night?", "Did he go to the theater last night?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He did not go to the theatre last night.", "He didn't go to the theatre last night.", "He did not go to the theater last night.", "He didn't go to the theater last night."] },
-      { "kind": "wh", "prompt": "对「the theatre」提问（问地点）", "answers": ["Where did he go last night?"] },
-      { "kind": "wh", "prompt": "对「last night」提问（问时间）", "answers": ["When did he go to the theatre?", "When did he go to the theater?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He went to the theatre last night.",
+          "He went to the theater last night."
+        ],
+        "cn": "他昨晚去了剧院。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did he go to the theatre last night?",
+          "Did he go to the theater last night?"
+        ],
+        "cn": "他昨晚去了剧院吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He did not go to the theatre last night.",
+          "He didn't go to the theatre last night.",
+          "He did not go to the theater last night.",
+          "He didn't go to the theater last night."
+        ],
+        "cn": "他不昨晚去了剧院。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the theatre」提问（问地点）",
+        "answers": [
+          "Where did he go last night?"
+        ],
+        "cn": "他昨晚去了剧院在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「last night」提问（问时间）",
+        "answers": [
+          "When did he go to the theatre?",
+          "When did he go to the theater?"
+        ],
+        "cn": "什么时候他昨晚去了剧院？"
+      }
     ]
   },
   {
     "id": "tf-b2-015",
     "book": 2,
     "lesson": 2,
-    "grammar": ["一般现在时", "现在进行时"],
+    "grammar": [
+      "一般现在时",
+      "现在进行时"
+    ],
     "cn": "她总是在星期天起得很晚。",
     "explanation": "一般现在时表习惯：疑问句用 Does she…?，否定句用 does not + 原形（gets → get）。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["She always gets up late on Sundays.", "She always gets up late on Sunday."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does she always get up late on Sundays?", "Does she always get up late on Sunday?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["She does not always get up late on Sundays.", "She doesn't always get up late on Sundays.", "She does not always get up late on Sunday.", "She doesn't always get up late on Sunday."] },
-      { "kind": "wh", "prompt": "对「on Sundays」提问（问时间）", "answers": ["When does she always get up late?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "She always gets up late on Sundays.",
+          "She always gets up late on Sunday."
+        ],
+        "cn": "她总是在星期天起得很晚。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does she always get up late on Sundays?",
+          "Does she always get up late on Sunday?"
+        ],
+        "cn": "她总是在星期天起得很晚吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "She does not always get up late on Sundays.",
+          "She doesn't always get up late on Sundays.",
+          "She does not always get up late on Sunday.",
+          "She doesn't always get up late on Sunday."
+        ],
+        "cn": "她总不是在星期天起得很晚。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「on Sundays」提问（问时间）",
+        "answers": [
+          "When does she always get up late?"
+        ],
+        "cn": "什么时候她总是在星期天起得很晚？"
+      }
     ]
   },
   {
     "id": "tf-b2-016",
     "book": 2,
     "lesson": 5,
-    "grammar": ["一般过去时", "介词"],
+    "grammar": [
+      "一般过去时",
+      "介词"
+    ],
     "cn": "那位老人昨天在车站等了一整天。",
     "explanation": "一般过去时 + 地点介词 at the station；对地点提问用 Where did…?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["The old man waited at the station all day yesterday.", "The old man waited at the station the whole day yesterday."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did the old man wait at the station all day yesterday?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["The old man did not wait at the station all day yesterday.", "The old man didn't wait at the station all day yesterday."] },
-      { "kind": "wh", "prompt": "对「at the station」提问（问地点）", "answers": ["Where did the old man wait all day yesterday?"] },
-      { "kind": "wh", "prompt": "对「yesterday」提问（问时间）", "answers": ["When did the old man wait at the station all day?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The old man waited at the station all day yesterday.",
+          "The old man waited at the station the whole day yesterday."
+        ],
+        "cn": "那位老人昨天在车站等了一整天。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did the old man wait at the station all day yesterday?"
+        ],
+        "cn": "那位老人昨天在车站等了一整天吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "The old man did not wait at the station all day yesterday.",
+          "The old man didn't wait at the station all day yesterday."
+        ],
+        "cn": "那位老人昨天不在车站等了一整天。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at the station」提问（问地点）",
+        "answers": [
+          "Where did the old man wait all day yesterday?"
+        ],
+        "cn": "那位老人昨天在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「yesterday」提问（问时间）",
+        "answers": [
+          "When did the old man wait at the station all day?"
+        ],
+        "cn": "什么时候那位老人昨天在车站等了一整天？"
+      }
     ]
   },
   {
     "id": "tf-b2-017",
     "book": 2,
     "lesson": 6,
-    "grammar": ["一般现在时", "冠词"],
+    "grammar": [
+      "一般现在时",
+      "冠词"
+    ],
     "cn": "他是一名工程师。",
     "explanation": "一般现在时 be 动词句也可练 Does he…? 结构；本句用 work as 表职业，借助 does 转换。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He works as an engineer.", "He is an engineer."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句（用 He works as…）", "answers": ["Does he work as an engineer?"] },
-      { "kind": "negative", "prompt": "改为否定句（用 He works as…）", "answers": ["He does not work as an engineer.", "He doesn't work as an engineer."] },
-      { "kind": "wh", "prompt": "对「an engineer」提问（问职业）", "answers": ["What does he do?", "What does he work as?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He works as an engineer.",
+          "He is an engineer."
+        ],
+        "cn": "他是一名工程师。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句（用 He works as…）",
+        "answers": [
+          "Does he work as an engineer?"
+        ],
+        "cn": "他是一名工程师吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（用 He works as…）",
+        "answers": [
+          "He does not work as an engineer.",
+          "He doesn't work as an engineer."
+        ],
+        "cn": "他不是一名工程师。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「an engineer」提问（问职业）",
+        "answers": [
+          "What does he do?",
+          "What does he work as?"
+        ],
+        "cn": "他是做什么的？"
+      }
     ]
   },
   {
     "id": "tf-b2-018",
     "book": 2,
     "lesson": 8,
-    "grammar": ["比较级", "最高级"],
+    "grammar": [
+      "比较级",
+      "最高级"
+    ],
     "cn": "汤姆比吉姆高。",
     "explanation": "比较级句一般疑问句把 be 提前；对比较对象提问用 Who is taller than Jim?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Tom is taller than Jim.", "Tom is taller than Jim is."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is Tom taller than Jim?", "Is Tom taller than Jim is?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Tom is not taller than Jim.", "Tom isn't taller than Jim."] },
-      { "kind": "wh", "prompt": "对「Tom」提问（问\"谁比吉姆高\"）", "answers": ["Who is taller than Jim?", "Who's taller than Jim?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Tom is taller than Jim.",
+          "Tom is taller than Jim is."
+        ],
+        "cn": "汤姆比吉姆高。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is Tom taller than Jim?",
+          "Is Tom taller than Jim is?"
+        ],
+        "cn": "汤姆比吉姆高吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Tom is not taller than Jim.",
+          "Tom isn't taller than Jim."
+        ],
+        "cn": "汤姆比吉姆高。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Tom」提问（问\"谁比吉姆高\"）",
+        "answers": [
+          "Who is taller than Jim?",
+          "Who's taller than Jim?"
+        ],
+        "cn": "谁比吉姆高？"
+      }
     ]
   },
   {
     "id": "tf-b2-019",
     "book": 2,
     "lesson": 9,
-    "grammar": ["一般过去时"],
+    "grammar": [
+      "一般过去时"
+    ],
     "cn": "他们上周在聚会上玩得很开心。",
     "explanation": "一般过去时转换；对地点 at the party 用 Where did they…?",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["They enjoyed themselves at the party last week.", "They had a good time at the party last week."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Did they enjoy themselves at the party last week?", "Did they have a good time at the party last week?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They did not enjoy themselves at the party last week.", "They didn't enjoy themselves at the party last week.", "They did not have a good time at the party last week.", "They didn't have a good time at the party last week."] },
-      { "kind": "wh", "prompt": "对「at the party」提问（问地点）", "answers": ["Where did they enjoy themselves last week?", "Where did they have a good time last week?"] },
-      { "kind": "wh", "prompt": "对「last week」提问（问时间）", "answers": ["When did they enjoy themselves at the party?", "When did they have a good time at the party?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They enjoyed themselves at the party last week.",
+          "They had a good time at the party last week."
+        ],
+        "cn": "他们上周在聚会上玩得很开心。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Did they enjoy themselves at the party last week?",
+          "Did they have a good time at the party last week?"
+        ],
+        "cn": "他们上周在聚会上玩得很开心吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They did not enjoy themselves at the party last week.",
+          "They didn't enjoy themselves at the party last week.",
+          "They did not have a good time at the party last week.",
+          "They didn't have a good time at the party last week."
+        ],
+        "cn": "他们上周在聚不会上玩得很开心。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at the party」提问（问地点）",
+        "answers": [
+          "Where did they enjoy themselves last week?",
+          "Where did they have a good time last week?"
+        ],
+        "cn": "他们上周在哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「last week」提问（问时间）",
+        "answers": [
+          "When did they enjoy themselves at the party?",
+          "When did they have a good time at the party?"
+        ],
+        "cn": "什么时候他们上周在聚会上玩得很开心？"
+      }
     ]
   }
 ]

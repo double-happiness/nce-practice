@@ -1,0 +1,2290 @@
+[
+  {
+    "id": "b1-001",
+    "book": 1,
+    "lesson": 2,
+    "lessonTitle": "Is this your...?",
+    "grammar": [
+      "be动词",
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ this your umbrella?",
+    "options": [
+      "Is",
+      "Are",
+      "Am",
+      "Do"
+    ],
+    "answer": "Is",
+    "explanation": "主语 this 是单数第三人称，be 动词用 is；一般疑问句把 is 提到句首。"
+  },
+  {
+    "id": "b1-002",
+    "book": 1,
+    "lesson": 2,
+    "lessonTitle": "Is this your...?",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "Is this ___ pen? — Yes, it's my pen.",
+    "options": [
+      "your",
+      "you",
+      "yours",
+      "you're"
+    ],
+    "answer": "your",
+    "explanation": "形容词性物主代词 your 后面接名词 pen；yours 是名词性物主代词，后面不接名词。"
+  },
+  {
+    "id": "b1-003",
+    "book": 1,
+    "lesson": 7,
+    "lessonTitle": "Are you a teacher?",
+    "grammar": [
+      "冠词a/an"
+    ],
+    "type": "mcq",
+    "stem": "He is ___ engineer.",
+    "options": [
+      "an",
+      "a",
+      "the",
+      "-"
+    ],
+    "answer": "an",
+    "explanation": "engineer 以元音音素 /e/ 开头，不定冠词用 an。"
+  },
+  {
+    "id": "b1-004",
+    "book": 1,
+    "lesson": 7,
+    "lessonTitle": "Are you a teacher?",
+    "grammar": [
+      "冠词a/an"
+    ],
+    "type": "mcq",
+    "stem": "She is ___ nurse.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "-"
+    ],
+    "answer": "a",
+    "explanation": "nurse 以辅音音素 /n/ 开头，不定冠词用 a。"
+  },
+  {
+    "id": "b1-005",
+    "book": 1,
+    "lesson": 21,
+    "lessonTitle": "Which book?",
+    "grammar": [
+      "this/that/these/those"
+    ],
+    "type": "mcq",
+    "stem": "___ book here is mine.",
+    "options": [
+      "This",
+      "That",
+      "These",
+      "Those"
+    ],
+    "answer": "This",
+    "explanation": "here 表示近处，单数名词 book 用 this。"
+  },
+  {
+    "id": "b1-006",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "this/that/these/those",
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "Look at ___ glasses over there.",
+    "options": [
+      "those",
+      "that",
+      "this",
+      "these"
+    ],
+    "answer": "those",
+    "explanation": "over there 表示远处，复数名词 glasses 用 those。"
+  },
+  {
+    "id": "b1-007",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "I have two ___.",
+    "options": [
+      "knives",
+      "knifes",
+      "knife",
+      "knifves"
+    ],
+    "answer": "knives",
+    "explanation": "以 f/fe 结尾的名词多数变复数时把 f/fe 改成 ves：knife → knives。"
+  },
+  {
+    "id": "b1-008",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "There are three ___ on the desk.",
+    "options": [
+      "boxes",
+      "boxs",
+      "box",
+      "boxies"
+    ],
+    "answer": "boxes",
+    "explanation": "以 x 结尾的名词加 -es 构成复数：box → boxes。"
+  },
+  {
+    "id": "b1-009",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "Those ___ are playing in the park.",
+    "options": [
+      "children",
+      "childs",
+      "childrens",
+      "child"
+    ],
+    "answer": "children",
+    "explanation": "child 的复数是不规则形式 children。"
+  },
+  {
+    "id": "b1-010",
+    "book": 1,
+    "lesson": 25,
+    "lessonTitle": "Mrs Smith's kitchen",
+    "grammar": [
+      "there be句型"
+    ],
+    "type": "mcq",
+    "stem": "There ___ a book on the table.",
+    "options": [
+      "is",
+      "are",
+      "have",
+      "has"
+    ],
+    "answer": "is",
+    "explanation": "There be 句型就近原则，主语 a book 是单数，用 is。"
+  },
+  {
+    "id": "b1-012",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "The dog is ___ the table (在桌子下面).",
+    "options": [
+      "under",
+      "on",
+      "in",
+      "at"
+    ],
+    "answer": "under",
+    "explanation": "under 表示“在……下面”。"
+  },
+  {
+    "id": "b1-013",
+    "book": 1,
+    "lesson": 25,
+    "lessonTitle": "Mrs Smith's kitchen",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "The magazine is ___ the newspaper (在报纸上面).",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "on 表示“在……表面上”。"
+  },
+  {
+    "id": "b1-014",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Where is Sally? She ___ in the garden.",
+    "options": [
+      "is playing",
+      "plays",
+      "play",
+      "played"
+    ],
+    "answer": "is playing",
+    "explanation": "现在进行时 be + doing，表示此刻正在进行；主语 she 用 is。"
+  },
+  {
+    "id": "b1-015",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Look! The children ___ football.",
+    "options": [
+      "are playing",
+      "play",
+      "plays",
+      "is playing"
+    ],
+    "answer": "are playing",
+    "explanation": "Look! 提示正在进行，主语 children 为复数用 are + playing。"
+  },
+  {
+    "id": "b1-016",
+    "book": 1,
+    "lesson": 43,
+    "lessonTitle": "Hurry up!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "It's very late, but I ___ now. I'm still reading.",
+    "options": [
+      "am not sleeping",
+      "not sleeping",
+      "don't sleeping",
+      "am not sleep"
+    ],
+    "answer": "am not sleeping",
+    "explanation": "现在进行时否定：am/is/are + not + doing。"
+  },
+  {
+    "id": "b1-017",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "Mr Sawyer ___ to work every day.",
+    "options": [
+      "goes",
+      "go",
+      "going",
+      "is go"
+    ],
+    "answer": "goes",
+    "explanation": "every day 表示习惯，用一般现在时；主语第三人称单数，go → goes。"
+  },
+  {
+    "id": "b1-018",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "She ___ coffee every morning.",
+    "options": [
+      "drinks",
+      "drink",
+      "drinking",
+      "is drink"
+    ],
+    "answer": "drinks",
+    "explanation": "第三人称单数一般现在时动词加 -s：drink → drinks。"
+  },
+  {
+    "id": "b1-019",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "频率副词",
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "He ___ gets up early.",
+    "options": [
+      "always",
+      "is always",
+      "are always",
+      "be always"
+    ],
+    "answer": "always",
+    "explanation": "频率副词 always 放在实义动词 gets 之前，不加 be。"
+  },
+  {
+    "id": "b1-020",
+    "book": 1,
+    "lesson": 57,
+    "lessonTitle": "An unusual day",
+    "grammar": [
+      "一般现在时",
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "He usually ___ tea, but this morning he ___ coffee.",
+    "options": [
+      "drinks; is drinking",
+      "is drinking; drinks",
+      "drink; drinks",
+      "drinks; drink"
+    ],
+    "answer": "drinks; is drinking",
+    "explanation": "usually 用一般现在时 drinks；this morning + 此刻动作用现在进行时 is drinking。"
+  },
+  {
+    "id": "b1-021",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "I want ___ sugar.",
+    "options": [
+      "some",
+      "any",
+      "a",
+      "an"
+    ],
+    "answer": "some",
+    "explanation": "肯定句中表示“一些”用 some；sugar 不可数不能用 a/an。"
+  },
+  {
+    "id": "b1-022",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "mcq",
+    "stem": "Have you got ___ butter?",
+    "options": [
+      "any",
+      "some",
+      "a",
+      "the"
+    ],
+    "answer": "any",
+    "explanation": "一般疑问句中通常用 any 表示“一些/任何”。"
+  },
+  {
+    "id": "b1-023",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "some/any",
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "There isn't ___ milk in the bottle.",
+    "options": [
+      "any",
+      "some",
+      "many",
+      "a"
+    ],
+    "answer": "any",
+    "explanation": "否定句用 any；milk 不可数不用 many。"
+  },
+  {
+    "id": "b1-024",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "可数不可数",
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ apples do you want?",
+    "options": [
+      "How many",
+      "How much",
+      "How",
+      "What"
+    ],
+    "answer": "How many",
+    "explanation": "apples 是可数名词复数，提问数量用 How many。"
+  },
+  {
+    "id": "b1-025",
+    "book": 1,
+    "lesson": 65,
+    "lessonTitle": "Not a baby",
+    "grammar": [
+      "情态动词can"
+    ],
+    "type": "mcq",
+    "stem": "___ you swim? — Yes, I can.",
+    "options": [
+      "Can",
+      "Do",
+      "Are",
+      "Is"
+    ],
+    "answer": "Can",
+    "explanation": "情态动词 can 表示“能够”，疑问句把 can 提到句首。"
+  },
+  {
+    "id": "b1-026",
+    "book": 1,
+    "lesson": 65,
+    "lessonTitle": "Not a baby",
+    "grammar": [
+      "情态动词can"
+    ],
+    "type": "mcq",
+    "stem": "A baby ___ walk.",
+    "options": [
+      "can't",
+      "doesn't",
+      "isn't",
+      "not can"
+    ],
+    "answer": "can't",
+    "explanation": "can 的否定是 can't (cannot)，后接动词原形。"
+  },
+  {
+    "id": "b1-027",
+    "book": 1,
+    "lesson": 77,
+    "lessonTitle": "Terrible toothache",
+    "grammar": [
+      "情态动词must"
+    ],
+    "type": "mcq",
+    "stem": "You ___ see a dentist.",
+    "options": [
+      "must",
+      "musts",
+      "are must",
+      "be must"
+    ],
+    "answer": "must",
+    "explanation": "情态动词 must 表示“必须”，无人称变化，后接动词原形。"
+  },
+  {
+    "id": "b1-028",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ your books, please.",
+    "options": [
+      "Open",
+      "Opens",
+      "Opening",
+      "To open"
+    ],
+    "answer": "Open",
+    "explanation": "祈使句以动词原形开头，表示请求或命令。"
+  },
+  {
+    "id": "b1-029",
+    "book": 1,
+    "lesson": 14,
+    "lessonTitle": "What colour's your...?",
+    "grammar": [
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ colour is your car? — It's red.",
+    "options": [
+      "What",
+      "How",
+      "Which",
+      "Where"
+    ],
+    "answer": "What",
+    "explanation": "问颜色用 What colour。"
+  },
+  {
+    "id": "b1-030",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "物主代词",
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ bag is this? — It's Penny's.",
+    "options": [
+      "Whose",
+      "Who's",
+      "Who",
+      "Whom"
+    ],
+    "answer": "Whose",
+    "explanation": "Whose 提问“谁的”，后接名词；Who's = who is 不同。"
+  },
+  {
+    "id": "b1-031",
+    "book": 1,
+    "lesson": 45,
+    "lessonTitle": "The boss's letter",
+    "grammar": [
+      "人称代词"
+    ],
+    "type": "mcq",
+    "stem": "Give the book to ___.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "介词 to 后用宾格代词 me。"
+  },
+  {
+    "id": "b1-032",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "This pen is ___.",
+    "options": [
+      "mine",
+      "my",
+      "me",
+      "mine's"
+    ],
+    "answer": "mine",
+    "explanation": "名词性物主代词 mine 单独使用，等于 my pen。"
+  },
+  {
+    "id": "b1-033",
+    "book": 1,
+    "lesson": 69,
+    "lessonTitle": "The car race",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "mcq",
+    "stem": "The weather ___ fine yesterday.",
+    "options": [
+      "was",
+      "is",
+      "were",
+      "be"
+    ],
+    "answer": "was",
+    "explanation": "yesterday 用一般过去时；主语 weather 单数，be 的过去式用 was。"
+  },
+  {
+    "id": "b1-034",
+    "book": 1,
+    "lesson": 69,
+    "lessonTitle": "The car race",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "mcq",
+    "stem": "They ___ at home last night.",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "主语 they 为复数，be 的过去式用 were。"
+  },
+  {
+    "id": "b1-035",
+    "book": 1,
+    "lesson": 85,
+    "lessonTitle": "Paris in the spring",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "mcq",
+    "stem": "We ___ Paris last spring.",
+    "options": [
+      "visited",
+      "visit",
+      "visits",
+      "visiting"
+    ],
+    "answer": "visited",
+    "explanation": "last spring 用一般过去时，规则动词加 -ed：visit → visited。"
+  },
+  {
+    "id": "b1-036",
+    "book": 1,
+    "lesson": 95,
+    "lessonTitle": "Tickets, please.",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "mcq",
+    "stem": "He ___ to London yesterday.",
+    "options": [
+      "went",
+      "goed",
+      "go",
+      "gone"
+    ],
+    "answer": "went",
+    "explanation": "go 的过去式是不规则形式 went。"
+  },
+  {
+    "id": "b1-037",
+    "book": 1,
+    "lesson": 91,
+    "lessonTitle": "Poor Ian!",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "mcq",
+    "stem": "I ___ a letter this morning.",
+    "options": [
+      "wrote",
+      "writed",
+      "written",
+      "write"
+    ],
+    "answer": "wrote",
+    "explanation": "write 的过去式是不规则形式 wrote。"
+  },
+  {
+    "id": "b1-038",
+    "book": 1,
+    "lesson": 81,
+    "lessonTitle": "Roast beef",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "The dinner is ready. Mother has ___ cooked it.",
+    "options": [
+      "just",
+      "yet",
+      "ago",
+      "since"
+    ],
+    "answer": "just",
+    "explanation": "现在完成时中 just 表示“刚刚”，放在 have/has 与过去分词之间。"
+  },
+  {
+    "id": "b1-039",
+    "book": 1,
+    "lesson": 99,
+    "lessonTitle": "Ow!",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "I have lived here ___ 2010.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "at"
+    ],
+    "answer": "since",
+    "explanation": "since + 时间点，表示从过去某点持续到现在。"
+  },
+  {
+    "id": "b1-040",
+    "book": 1,
+    "lesson": 99,
+    "lessonTitle": "Ow!",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "She has studied English ___ three years.",
+    "options": [
+      "for",
+      "since",
+      "in",
+      "at"
+    ],
+    "answer": "for",
+    "explanation": "for + 一段时间，表示持续了多久。"
+  },
+  {
+    "id": "b1-041",
+    "book": 1,
+    "lesson": 83,
+    "lessonTitle": "Going on holiday",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "They ___ already finished the work.",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "did"
+    ],
+    "answer": "have",
+    "explanation": "现在完成时 have/has + 过去分词，主语 they 用 have。"
+  },
+  {
+    "id": "b1-042",
+    "book": 1,
+    "lesson": 83,
+    "lessonTitle": "Going on holiday",
+    "grammar": [
+      "现在完成时"
+    ],
+    "type": "mcq",
+    "stem": "He has ___ his homework.",
+    "options": [
+      "done",
+      "did",
+      "do",
+      "doing"
+    ],
+    "answer": "done",
+    "explanation": "现在完成时需用过去分词，do 的过去分词是 done。"
+  },
+  {
+    "id": "b1-043",
+    "book": 1,
+    "lesson": 133,
+    "lessonTitle": "Sensational news!",
+    "grammar": [
+      "过去进行时"
+    ],
+    "type": "mcq",
+    "stem": "While I ___, the phone rang.",
+    "options": [
+      "was reading",
+      "read",
+      "reads",
+      "am reading"
+    ],
+    "answer": "was reading",
+    "explanation": "过去某动作进行中被另一动作打断，用过去进行时 was/were + doing。"
+  },
+  {
+    "id": "b1-044",
+    "book": 1,
+    "lesson": 101,
+    "lessonTitle": "A card from Jimmy",
+    "grammar": [
+      "一般将来时"
+    ],
+    "type": "mcq",
+    "stem": "I ___ call you tomorrow.",
+    "options": [
+      "will",
+      "am",
+      "do",
+      "shall be"
+    ],
+    "answer": "will",
+    "explanation": "tomorrow 表将来，用 will + 动词原形。"
+  },
+  {
+    "id": "b1-045",
+    "book": 1,
+    "lesson": 109,
+    "lessonTitle": "A good idea",
+    "grammar": [
+      "一般将来时"
+    ],
+    "type": "mcq",
+    "stem": "Look at those clouds. It ___ rain.",
+    "options": [
+      "is going to",
+      "will",
+      "goes to",
+      "going to"
+    ],
+    "answer": "is going to",
+    "explanation": "有现时迹象（乌云）预示将要发生，用 be going to。"
+  },
+  {
+    "id": "b1-046",
+    "book": 1,
+    "lesson": 111,
+    "lessonTitle": "Please help me!",
+    "grammar": [
+      "动词不定式"
+    ],
+    "type": "mcq",
+    "stem": "I want ___ you.",
+    "options": [
+      "to help",
+      "help",
+      "helping",
+      "helps"
+    ],
+    "answer": "to help",
+    "explanation": "want 后接动词不定式 to do。"
+  },
+  {
+    "id": "b1-047",
+    "book": 1,
+    "lesson": 75,
+    "lessonTitle": "Uncomfortable shoes",
+    "grammar": [
+      "形容词比较级"
+    ],
+    "type": "mcq",
+    "stem": "This box is ___ than that one.",
+    "options": [
+      "heavier",
+      "heavy",
+      "heaviest",
+      "more heavy"
+    ],
+    "answer": "heavier",
+    "explanation": "than 表示比较，用比较级；heavy 变 y 为 i 加 er → heavier。"
+  },
+  {
+    "id": "b1-048",
+    "book": 1,
+    "lesson": 75,
+    "lessonTitle": "Uncomfortable shoes",
+    "grammar": [
+      "形容词最高级"
+    ],
+    "type": "mcq",
+    "stem": "This is the ___ book in the shop.",
+    "options": [
+      "most expensive",
+      "more expensive",
+      "expensive",
+      "expensiver"
+    ],
+    "answer": "most expensive",
+    "explanation": "in the shop 表示范围用最高级；多音节形容词用 most。"
+  },
+  {
+    "id": "b1-049",
+    "book": 1,
+    "lesson": 61,
+    "lessonTitle": "A bad cold",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "I get up ___ 7 o'clock.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "at + 具体钟点。"
+  },
+  {
+    "id": "b1-050",
+    "book": 1,
+    "lesson": 61,
+    "lessonTitle": "A bad cold",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "My birthday is ___ May.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "in + 月份/年份/季节。"
+  },
+  {
+    "id": "b1-f01",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "fill",
+    "stem": "She ___ (drink) tea every morning.",
+    "answer": "drinks",
+    "explanation": "第三人称单数一般现在时，drink 加 -s。"
+  },
+  {
+    "id": "b1-f02",
+    "book": 1,
+    "lesson": 23,
+    "lessonTitle": "Which glasses?",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "fill",
+    "stem": "There are five ___ (city) in this area.",
+    "answer": "cities",
+    "explanation": "辅音字母 + y 结尾，变 y 为 i 加 es：city → cities。"
+  },
+  {
+    "id": "b1-f03",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "fill",
+    "stem": "Listen! The birds ___ (sing).",
+    "answer": [
+      "are singing"
+    ],
+    "explanation": "Listen! 提示正在进行，用现在进行时 are singing。"
+  },
+  {
+    "id": "b1-f04",
+    "book": 1,
+    "lesson": 95,
+    "lessonTitle": "Tickets, please.",
+    "grammar": [
+      "一般过去时"
+    ],
+    "type": "fill",
+    "stem": "Yesterday he ___ (buy) a new car.",
+    "answer": "bought",
+    "explanation": "buy 的过去式是不规则形式 bought。"
+  },
+  {
+    "id": "b1-f05",
+    "book": 1,
+    "lesson": 7,
+    "lessonTitle": "Are you a teacher?",
+    "grammar": [
+      "冠词a/an"
+    ],
+    "type": "fill",
+    "stem": "There is ___ apple on the table. (填 a 或 an)",
+    "answer": "an",
+    "explanation": "apple 以元音音素开头，用 an。"
+  },
+  {
+    "id": "b1-051",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "there be句型"
+    ],
+    "type": "mcq",
+    "stem": "There ___ two armchairs near the window.",
+    "options": [
+      "are",
+      "is",
+      "have",
+      "has"
+    ],
+    "answer": "are",
+    "explanation": "主语 two armchairs 是复数，There be 用 are。"
+  },
+  {
+    "id": "b1-052",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "The ball is ___ the door (在门后面).",
+    "options": [
+      "behind",
+      "on",
+      "near",
+      "in"
+    ],
+    "answer": "behind",
+    "explanation": "behind 表示“在……后面”。"
+  },
+  {
+    "id": "b1-053",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "The lamp is ___ the two chairs (在两把椅子之间).",
+    "options": [
+      "between",
+      "behind",
+      "under",
+      "near"
+    ],
+    "answer": "between",
+    "explanation": "between…and… 表示“在两者之间”。"
+  },
+  {
+    "id": "b1-054",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "there be句型"
+    ],
+    "type": "mcq",
+    "stem": "There ___ a picture on the wall.",
+    "options": [
+      "is",
+      "are",
+      "has",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "主语 a picture 单数，There be 就近原则用 is。"
+  },
+  {
+    "id": "b1-f06",
+    "book": 1,
+    "lesson": 27,
+    "lessonTitle": "Mrs Smith's living room",
+    "grammar": [
+      "there be句型"
+    ],
+    "type": "fill",
+    "stem": "There ___ (be) some books on the shelf.",
+    "answer": "are",
+    "explanation": "主语 some books 复数，There be 用 are。"
+  },
+  {
+    "id": "b1-055",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ the door, please.",
+    "options": [
+      "Shut",
+      "Shuts",
+      "Shutting",
+      "To shut"
+    ],
+    "answer": "Shut",
+    "explanation": "祈使句以动词原形开头，表示请求。"
+  },
+  {
+    "id": "b1-056",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "情态动词must"
+    ],
+    "type": "mcq",
+    "stem": "You ___ wash your hands before dinner.",
+    "options": [
+      "must",
+      "musts",
+      "are must",
+      "must to"
+    ],
+    "answer": "must",
+    "explanation": "情态动词 must 无人称变化，后接动词原形。"
+  },
+  {
+    "id": "b1-057",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ your shoes; they are dirty.",
+    "options": [
+      "Clean",
+      "Cleans",
+      "Cleaned",
+      "Cleaning"
+    ],
+    "answer": "Clean",
+    "explanation": "祈使句用动词原形 Clean 开头，发出命令。"
+  },
+  {
+    "id": "b1-058",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "情态动词must"
+    ],
+    "type": "mcq",
+    "stem": "We ___ be quiet in the library.",
+    "options": [
+      "must",
+      "musts",
+      "be must",
+      "are must"
+    ],
+    "answer": "must",
+    "explanation": "must 后接动词原形 be，表示“必须”。"
+  },
+  {
+    "id": "b1-f07",
+    "book": 1,
+    "lesson": 29,
+    "lessonTitle": "Come in, Amy.",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "fill",
+    "stem": "___ (come) in and sit down, please.",
+    "answer": "Come",
+    "explanation": "祈使句用动词原形 Come 开头。"
+  },
+  {
+    "id": "b1-059",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Where is Tom? He ___ a tree in the garden.",
+    "options": [
+      "is climbing",
+      "climbs",
+      "climb",
+      "climbed"
+    ],
+    "answer": "is climbing",
+    "explanation": "此刻正在进行，主语 he 用 is + climbing。"
+  },
+  {
+    "id": "b1-060",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "The dog ___ after the cat now.",
+    "options": [
+      "is running",
+      "runs",
+      "run",
+      "ran"
+    ],
+    "answer": "is running",
+    "explanation": "now 提示正在进行；run 双写 n 加 ing → running。"
+  },
+  {
+    "id": "b1-061",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "The children ___ in the garden at the moment.",
+    "options": [
+      "are playing",
+      "plays",
+      "play",
+      "is playing"
+    ],
+    "answer": "are playing",
+    "explanation": "at the moment 表此刻，主语 children 复数用 are playing。"
+  },
+  {
+    "id": "b1-062",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "疑问句",
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "___ is Sally? — She is in the garden.",
+    "options": [
+      "Where",
+      "What",
+      "Who",
+      "How"
+    ],
+    "answer": "Where",
+    "explanation": "询问地点用 Where。"
+  },
+  {
+    "id": "b1-f08",
+    "book": 1,
+    "lesson": 31,
+    "lessonTitle": "Where's Sally?",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "fill",
+    "stem": "Look! The cat ___ (climb) the tree.",
+    "answer": [
+      "is climbing"
+    ],
+    "explanation": "Look! 提示正在进行，主语单数用 is climbing。"
+  },
+  {
+    "id": "b1-063",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "The sun ___ and the birds are singing.",
+    "options": [
+      "is shining",
+      "shines",
+      "shine",
+      "shined"
+    ],
+    "answer": "is shining",
+    "explanation": "描述此刻画面用现在进行时，主语单数用 is shining。"
+  },
+  {
+    "id": "b1-064",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "A boy is flying a kite ___ the sky.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "固定搭配 in the sky（在天空中）。"
+  },
+  {
+    "id": "b1-065",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "Some children are sitting ___ the grass.",
+    "options": [
+      "on",
+      "in",
+      "of",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "固定搭配 on the grass（在草地上）。"
+  },
+  {
+    "id": "b1-066",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Look! Two dogs ___ on the grass.",
+    "options": [
+      "are running",
+      "run",
+      "runs",
+      "is running"
+    ],
+    "answer": "are running",
+    "explanation": "Look! 提示正在进行，主语 two dogs 复数用 are running。"
+  },
+  {
+    "id": "b1-f09",
+    "book": 1,
+    "lesson": 33,
+    "lessonTitle": "A fine day",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "fill",
+    "stem": "The sun ___ (shine) brightly now.",
+    "answer": [
+      "is shining"
+    ],
+    "explanation": "now 提示正在进行，主语单数用 is shining。"
+  },
+  {
+    "id": "b1-067",
+    "book": 1,
+    "lesson": 35,
+    "lessonTitle": "Our village",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "Our village ___ in a green valley.",
+    "options": [
+      "stands",
+      "stand",
+      "standing",
+      "is stand"
+    ],
+    "answer": "stands",
+    "explanation": "描述常态用一般现在时，主语第三人称单数 village，stand 加 -s。"
+  },
+  {
+    "id": "b1-068",
+    "book": 1,
+    "lesson": 35,
+    "lessonTitle": "Our village",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "The river runs ___ two hills (在两座山之间).",
+    "options": [
+      "between",
+      "among",
+      "behind",
+      "on"
+    ],
+    "answer": "between",
+    "explanation": "between 用于两者之间；among 用于三者以上。"
+  },
+  {
+    "id": "b1-069",
+    "book": 1,
+    "lesson": 35,
+    "lessonTitle": "Our village",
+    "grammar": [
+      "介词"
+    ],
+    "type": "mcq",
+    "stem": "There are tall trees ___ the river bank.",
+    "options": [
+      "along",
+      "between",
+      "under",
+      "at"
+    ],
+    "answer": "along",
+    "explanation": "along 表示“沿着”河岸。"
+  },
+  {
+    "id": "b1-070",
+    "book": 1,
+    "lesson": 35,
+    "lessonTitle": "Our village",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "The river ___ past the old wall.",
+    "options": [
+      "flows",
+      "flow",
+      "flowing",
+      "are flow"
+    ],
+    "answer": "flows",
+    "explanation": "一般现在时描述客观状态，主语单数 river，flow 加 -s。"
+  },
+  {
+    "id": "b1-f10",
+    "book": 1,
+    "lesson": 35,
+    "lessonTitle": "Our village",
+    "grammar": [
+      "介词"
+    ],
+    "type": "fill",
+    "stem": "There is a small house ___ (在……之间) the two hills.",
+    "answer": "between",
+    "explanation": "两座山之间用 between。"
+  },
+  {
+    "id": "b1-071",
+    "book": 1,
+    "lesson": 37,
+    "lessonTitle": "Making a bookcase",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "What ___ you ___? — I am making a bookcase.",
+    "options": [
+      "are; doing",
+      "do; do",
+      "are; do",
+      "is; doing"
+    ],
+    "answer": "are; doing",
+    "explanation": "现在进行时问句：What are you doing?（你正在做什么？）"
+  },
+  {
+    "id": "b1-072",
+    "book": 1,
+    "lesson": 37,
+    "lessonTitle": "Making a bookcase",
+    "grammar": [
+      "一般将来时"
+    ],
+    "type": "mcq",
+    "stem": "I ___ paint the bookcase blue.",
+    "options": [
+      "am going to",
+      "going to",
+      "am go to",
+      "will to"
+    ],
+    "answer": "am going to",
+    "explanation": "be going to + 动词原形表打算，主语 I 用 am going to。"
+  },
+  {
+    "id": "b1-073",
+    "book": 1,
+    "lesson": 37,
+    "lessonTitle": "Making a bookcase",
+    "grammar": [
+      "一般将来时"
+    ],
+    "type": "mcq",
+    "stem": "They ___ plant some trees next week.",
+    "options": [
+      "are going to",
+      "is going to",
+      "going to",
+      "am going to"
+    ],
+    "answer": "are going to",
+    "explanation": "主语 they 复数，be going to 中 be 用 are。"
+  },
+  {
+    "id": "b1-074",
+    "book": 1,
+    "lesson": 37,
+    "lessonTitle": "Making a bookcase",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Look, he ___ the wall now.",
+    "options": [
+      "is painting",
+      "paints",
+      "paint",
+      "painted"
+    ],
+    "answer": "is painting",
+    "explanation": "Look/now 提示正在进行，主语单数用 is painting。"
+  },
+  {
+    "id": "b1-f11",
+    "book": 1,
+    "lesson": 37,
+    "lessonTitle": "Making a bookcase",
+    "grammar": [
+      "一般将来时"
+    ],
+    "type": "fill",
+    "stem": "She ___ (be) going to visit her aunt tomorrow.",
+    "answer": "is",
+    "explanation": "be going to 结构中，主语 she 用 is。"
+  },
+  {
+    "id": "b1-075",
+    "book": 1,
+    "lesson": 39,
+    "lessonTitle": "Don't drop it!",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ drop the vase! It's fragile.",
+    "options": [
+      "Don't",
+      "Not",
+      "No",
+      "Doesn't"
+    ],
+    "answer": "Don't",
+    "explanation": "否定祈使句用 Don't + 动词原形，表示劝阻。"
+  },
+  {
+    "id": "b1-076",
+    "book": 1,
+    "lesson": 39,
+    "lessonTitle": "Don't drop it!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Be careful! We ___ a heavy box downstairs.",
+    "options": [
+      "are carrying",
+      "carry",
+      "carries",
+      "is carrying"
+    ],
+    "answer": "are carrying",
+    "explanation": "描述此刻动作，主语 we 用 are carrying。"
+  },
+  {
+    "id": "b1-077",
+    "book": 1,
+    "lesson": 39,
+    "lessonTitle": "Don't drop it!",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "mcq",
+    "stem": "___ run in the room, please.",
+    "options": [
+      "Don't",
+      "Not",
+      "No",
+      "Aren't"
+    ],
+    "answer": "Don't",
+    "explanation": "否定祈使句以 Don't 开头，后接动词原形 run。"
+  },
+  {
+    "id": "b1-078",
+    "book": 1,
+    "lesson": 39,
+    "lessonTitle": "Don't drop it!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "He ___ the other end of the table now.",
+    "options": [
+      "is holding",
+      "holds",
+      "hold",
+      "held"
+    ],
+    "answer": "is holding",
+    "explanation": "now 提示正在进行，主语单数用 is holding。"
+  },
+  {
+    "id": "b1-f12",
+    "book": 1,
+    "lesson": 39,
+    "lessonTitle": "Don't drop it!",
+    "grammar": [
+      "祈使句"
+    ],
+    "type": "fill",
+    "stem": "___ (not drop) the plate! (填否定祈使句开头)",
+    "answer": [
+      "Don't drop"
+    ],
+    "explanation": "否定祈使句用 Don't + 动词原形 drop。"
+  },
+  {
+    "id": "b1-079",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "This is ___ handbag; it belongs to Penny.",
+    "options": [
+      "her",
+      "she",
+      "hers",
+      "he"
+    ],
+    "answer": "her",
+    "explanation": "名词 handbag 前用形容词性物主代词 her（她的）。"
+  },
+  {
+    "id": "b1-080",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "Is this ___ pen? — Yes, it's mine.",
+    "options": [
+      "your",
+      "you",
+      "yours",
+      "yourself"
+    ],
+    "answer": "your",
+    "explanation": "pen 前需要形容词性物主代词 your（你的），回答用名词性物主代词 mine。"
+  },
+  {
+    "id": "b1-081",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "This is ___ bag. (这是汤姆的包)",
+    "options": [
+      "Tom's",
+      "Toms",
+      "Toms'",
+      "Tom"
+    ],
+    "answer": "Tom's",
+    "explanation": "单数人名所有格在名词后加 's，构成 Tom's（汤姆的）。"
+  },
+  {
+    "id": "b1-f13",
+    "book": 1,
+    "lesson": 41,
+    "lessonTitle": "Penny's bag",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "fill",
+    "stem": "That coat is old, but ___ (她的) coat is new.",
+    "answer": [
+      "her"
+    ],
+    "explanation": "coat 前填形容词性物主代词 her（她的）。"
+  },
+  {
+    "id": "b1-082",
+    "book": 1,
+    "lesson": 43,
+    "lessonTitle": "Hurry up!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "Hurry up! I ___ for my keys now.",
+    "options": [
+      "am looking",
+      "look",
+      "looks",
+      "looked"
+    ],
+    "answer": "am looking",
+    "explanation": "now 表示此刻，主语 I 用 am + looking。"
+  },
+  {
+    "id": "b1-083",
+    "book": 1,
+    "lesson": 43,
+    "lessonTitle": "Hurry up!",
+    "grammar": [
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ you looking for the spoon?",
+    "options": [
+      "Are",
+      "Do",
+      "Is",
+      "Does"
+    ],
+    "answer": "Are",
+    "explanation": "现在进行时疑问句把 be 提前，主语 you 用 Are。"
+  },
+  {
+    "id": "b1-084",
+    "book": 1,
+    "lesson": 43,
+    "lessonTitle": "Hurry up!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "mcq",
+    "stem": "She ___ the cupboard at the moment.",
+    "options": [
+      "is cleaning",
+      "cleans",
+      "clean",
+      "cleaned"
+    ],
+    "answer": "is cleaning",
+    "explanation": "at the moment 表此刻，主语单数用 is + cleaning。"
+  },
+  {
+    "id": "b1-f14",
+    "book": 1,
+    "lesson": 43,
+    "lessonTitle": "Hurry up!",
+    "grammar": [
+      "现在进行时"
+    ],
+    "type": "fill",
+    "stem": "Listen! He ___ (help) his mother in the kitchen.",
+    "answer": [
+      "is helping"
+    ],
+    "explanation": "Listen 提示正在进行，主语 he 用 is helping。"
+  },
+  {
+    "id": "b1-085",
+    "book": 1,
+    "lesson": 45,
+    "lessonTitle": "The boss's letter",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "This is the ___ letter, please give it to him.",
+    "options": [
+      "boss's",
+      "bosss",
+      "boss",
+      "bosses"
+    ],
+    "answer": "boss's",
+    "explanation": "boss 以 -s 结尾，所有格仍加 's，读作 /ɪz/。"
+  },
+  {
+    "id": "b1-086",
+    "book": 1,
+    "lesson": 45,
+    "lessonTitle": "The boss's letter",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "mcq",
+    "stem": "It is the ___ typewriter on the desk.",
+    "options": [
+      "secretary's",
+      "secretarys",
+      "secretary",
+      "secretaries"
+    ],
+    "answer": "secretary's",
+    "explanation": "单数名词 secretary 的所有格在词后加 's。"
+  },
+  {
+    "id": "b1-087",
+    "book": 1,
+    "lesson": 45,
+    "lessonTitle": "The boss's letter",
+    "grammar": [
+      "名词单复数"
+    ],
+    "type": "mcq",
+    "stem": "The door ___ the office is open.",
+    "options": [
+      "of",
+      "'s",
+      "in",
+      "at"
+    ],
+    "answer": "of",
+    "explanation": "无生命事物的所属用 the + 名词 + of + 名词，不用 's。"
+  },
+  {
+    "id": "b1-f15",
+    "book": 1,
+    "lesson": 45,
+    "lessonTitle": "The boss's letter",
+    "grammar": [
+      "物主代词"
+    ],
+    "type": "fill",
+    "stem": "Whose desk is this? — It's the ___ (typist 的) desk.",
+    "answer": [
+      "typist's"
+    ],
+    "explanation": "单数名词 typist 所有格加 's，构成 typist's。"
+  },
+  {
+    "id": "b1-088",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "mcq",
+    "stem": "Is there ___ sugar in the cup?",
+    "options": [
+      "any",
+      "some",
+      "a",
+      "many"
+    ],
+    "answer": "any",
+    "explanation": "疑问句中修饰不可数名词 sugar 用 any。"
+  },
+  {
+    "id": "b1-089",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "mcq",
+    "stem": "There is ___ milk in the bottle.",
+    "options": [
+      "some",
+      "any",
+      "a",
+      "an"
+    ],
+    "answer": "some",
+    "explanation": "肯定句中修饰不可数名词 milk 用 some。"
+  },
+  {
+    "id": "b1-090",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "Would you like a cup ___ coffee?",
+    "options": [
+      "of",
+      "for",
+      "in",
+      "to"
+    ],
+    "answer": "of",
+    "explanation": "不可数名词用单位词表量：a cup of coffee。"
+  },
+  {
+    "id": "b1-091",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "There are some ___ on the plate.",
+    "options": [
+      "biscuits",
+      "biscuit",
+      "milk",
+      "sugar"
+    ],
+    "answer": "biscuits",
+    "explanation": "some 修饰可数名词用复数形式 biscuits。"
+  },
+  {
+    "id": "b1-f16",
+    "book": 1,
+    "lesson": 47,
+    "lessonTitle": "A cup of coffee",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "fill",
+    "stem": "There isn't ___ tea in the cup. (填 some 或 any)",
+    "answer": [
+      "any"
+    ],
+    "explanation": "否定句中修饰不可数名词 tea 用 any。"
+  },
+  {
+    "id": "b1-092",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "___ beef do you want?",
+    "options": [
+      "How much",
+      "How many",
+      "How old",
+      "What"
+    ],
+    "answer": "How much",
+    "explanation": "beef 不可数，问量用 How much。"
+  },
+  {
+    "id": "b1-093",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "___ eggs do you need?",
+    "options": [
+      "How many",
+      "How much",
+      "How long",
+      "Whose"
+    ],
+    "answer": "How many",
+    "explanation": "eggs 可数复数，问数目用 How many。"
+  },
+  {
+    "id": "b1-094",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "mcq",
+    "stem": "Sorry, we haven't got ___ chicken today.",
+    "options": [
+      "any",
+      "some",
+      "a",
+      "one"
+    ],
+    "answer": "any",
+    "explanation": "否定句中修饰不可数名词 chicken 用 any。"
+  },
+  {
+    "id": "b1-095",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "可数不可数"
+    ],
+    "type": "mcq",
+    "stem": "I want two ___ of beef, please.",
+    "options": [
+      "kilos",
+      "kilo",
+      "kilo's",
+      "kiloes"
+    ],
+    "answer": "kilos",
+    "explanation": "kilo 是可数名词，two 后用复数 kilos。"
+  },
+  {
+    "id": "b1-f17",
+    "book": 1,
+    "lesson": 49,
+    "lessonTitle": "At the butcher's",
+    "grammar": [
+      "some/any"
+    ],
+    "type": "fill",
+    "stem": "We need ___ meat for dinner. (肯定句填 some 或 any)",
+    "answer": [
+      "some"
+    ],
+    "explanation": "肯定句中修饰不可数名词 meat 用 some。"
+  },
+  {
+    "id": "b1-096",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "It often ___ in autumn here.",
+    "options": [
+      "rains",
+      "rain",
+      "raining",
+      "is rain"
+    ],
+    "answer": "rains",
+    "explanation": "叙述规律天气用一般现在时，主语 it 动词加 -s。"
+  },
+  {
+    "id": "b1-097",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "疑问句"
+    ],
+    "type": "mcq",
+    "stem": "___ it snow here in winter?",
+    "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Are"
+    ],
+    "answer": "Does",
+    "explanation": "一般现在时疑问句主语 it 用 Does，后接动词原形。"
+  },
+  {
+    "id": "b1-098",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "The sun ___ every day in summer.",
+    "options": [
+      "shines",
+      "shine",
+      "is shine",
+      "shining"
+    ],
+    "answer": "shines",
+    "explanation": "一般现在时表规律，主语 the sun 动词加 -s。"
+  },
+  {
+    "id": "b1-f18",
+    "book": 1,
+    "lesson": 51,
+    "lessonTitle": "A pleasant climate",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "fill",
+    "stem": "It ___ (be) warm in spring here.",
+    "answer": [
+      "is"
+    ],
+    "explanation": "一般现在时，主语 it 的 be 动词用 is。"
+  },
+  {
+    "id": "b1-099",
+    "book": 1,
+    "lesson": 53,
+    "lessonTitle": "An interesting climate",
+    "grammar": [
+      "形容词比较级"
+    ],
+    "type": "mcq",
+    "stem": "Summer is ___ than spring.",
+    "options": [
+      "warmer",
+      "warm",
+      "warmest",
+      "more warm"
+    ],
+    "answer": "warmer",
+    "explanation": "短形容词比较级加 -er：warmer，后接 than。"
+  },
+  {
+    "id": "b1-100",
+    "book": 1,
+    "lesson": 53,
+    "lessonTitle": "An interesting climate",
+    "grammar": [
+      "形容词比较级"
+    ],
+    "type": "mcq",
+    "stem": "This climate is ___ than that one.",
+    "options": [
+      "more interesting",
+      "interestinger",
+      "most interesting",
+      "interesting"
+    ],
+    "answer": "more interesting",
+    "explanation": "多音节形容词比较级用 more + 原级。"
+  },
+  {
+    "id": "b1-101",
+    "book": 1,
+    "lesson": 53,
+    "lessonTitle": "An interesting climate",
+    "grammar": [
+      "形容词比较级"
+    ],
+    "type": "mcq",
+    "stem": "It gets ___ in winter than in autumn.",
+    "options": [
+      "colder",
+      "cold",
+      "coldest",
+      "more cold"
+    ],
+    "answer": "colder",
+    "explanation": "短形容词 cold 的比较级为 colder。"
+  },
+  {
+    "id": "b1-102",
+    "book": 1,
+    "lesson": 53,
+    "lessonTitle": "An interesting climate",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "The weather ___ quickly in this place.",
+    "options": [
+      "changes",
+      "change",
+      "changing",
+      "is change"
+    ],
+    "answer": "changes",
+    "explanation": "一般现在时表规律，主语 the weather 动词加 -s。"
+  },
+  {
+    "id": "b1-f19",
+    "book": 1,
+    "lesson": 53,
+    "lessonTitle": "An interesting climate",
+    "grammar": [
+      "形容词比较级"
+    ],
+    "type": "fill",
+    "stem": "The weather in autumn is ___ (wet) than in summer.",
+    "answer": [
+      "wetter"
+    ],
+    "explanation": "wet 重读闭音节，比较级双写 t 加 -er，为 wetter。"
+  },
+  {
+    "id": "b1-103",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "频率副词"
+    ],
+    "type": "mcq",
+    "stem": "He ___ gets up early in the morning.",
+    "options": [
+      "always",
+      "am",
+      "very",
+      "much"
+    ],
+    "answer": "always",
+    "explanation": "频率副词 always 放在实义动词 gets 之前。"
+  },
+  {
+    "id": "b1-104",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "频率副词"
+    ],
+    "type": "mcq",
+    "stem": "They ___ have dinner at seven.",
+    "options": [
+      "usually",
+      "is",
+      "are",
+      "does"
+    ],
+    "answer": "usually",
+    "explanation": "频率副词 usually 放在实义动词 have 之前。"
+  },
+  {
+    "id": "b1-105",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "mcq",
+    "stem": "She ___ to work at eight every day.",
+    "options": [
+      "goes",
+      "go",
+      "going",
+      "is go"
+    ],
+    "answer": "goes",
+    "explanation": "一般现在时表日常，主语 she 动词用 goes。"
+  },
+  {
+    "id": "b1-106",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "频率副词"
+    ],
+    "type": "mcq",
+    "stem": "He is ___ busy in the morning.",
+    "options": [
+      "always",
+      "usual",
+      "every",
+      "do"
+    ],
+    "answer": "always",
+    "explanation": "频率副词放在 be 动词 is 之后：is always busy。"
+  },
+  {
+    "id": "b1-f20",
+    "book": 1,
+    "lesson": 55,
+    "lessonTitle": "The Sawyer family",
+    "grammar": [
+      "一般现在时"
+    ],
+    "type": "fill",
+    "stem": "They ___ (watch) TV together every evening.",
+    "answer": [
+      "watch"
+    ],
+    "explanation": "主语 they 是复数，一般现在时动词用原形 watch。"
+  }
+]

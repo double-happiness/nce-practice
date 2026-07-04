@@ -1,0 +1,257 @@
+{
+  "accuse": {
+    "synonyms": [
+      {
+        "w": "blame",
+        "note": "责备"
+      },
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ruin": {
+    "synonyms": [
+      {
+        "w": "destroy",
+        "note": "毁坏"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      }
+    ]
+  },
+  "stage": {
+    "synonyms": [
+      {
+        "w": "phase",
+        "note": "阶段"
+      }
+    ]
+  },
+  "wreck": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "残骸"
+      },
+      {
+        "w": "destroy",
+        "note": "同类词"
+      }
+    ]
+  },
+  "blame": {
+    "synonyms": [
+      {
+        "w": "accuse",
+        "note": "同类词"
+      },
+      {
+        "w": "suspect",
+        "note": "同类词"
+      }
+    ]
+  },
+  "suspect": {
+    "synonyms": [
+      {
+        "w": "accuse",
+        "note": "同类词"
+      },
+      {
+        "w": "blame",
+        "note": "同类词"
+      }
+    ]
+  },
+  "destroy": {
+    "synonyms": [
+      {
+        "w": "ruin",
+        "note": "同类词"
+      },
+      {
+        "w": "wreck",
+        "note": "同类词"
+      }
+    ]
+  },
+  "convince": {
+    "synonyms": [
+      {
+        "w": "influence",
+        "note": "同类词"
+      }
+    ]
+  },
+  "influence": {
+    "synonyms": [
+      {
+        "w": "convince",
+        "note": "同类词"
+      }
+    ]
+  },
+  "relieve": {
+    "synonyms": [
+      {
+        "w": "ease",
+        "note": "同类词"
+      }
+    ]
+  },
+  "ease": {
+    "synonyms": [
+      {
+        "w": "relieve",
+        "note": "同类词"
+      }
+    ]
+  },
+  "repair": {
+    "synonyms": [
+      {
+        "w": "renew",
+        "note": "同类词"
+      }
+    ]
+  },
+  "renew": {
+    "synonyms": [
+      {
+        "w": "repair",
+        "note": "同类词"
+      }
+    ]
+  },
+  "site": {
+    "synonyms": [
+      {
+        "w": "spot",
+        "note": "同类词"
+      }
+    ]
+  },
+  "spot": {
+    "synonyms": [
+      {
+        "w": "site",
+        "note": "同类词"
+      }
+    ]
+  },
+  "phase": {
+    "synonyms": [
+      {
+        "w": "stage",
+        "note": "同类词"
+      }
+    ]
+  },
+  "condition": {
+    "synonyms": [
+      {
+        "w": "situation",
+        "note": "同类词"
+      }
+    ]
+  },
+  "situation": {
+    "synonyms": [
+      {
+        "w": "condition",
+        "note": "同类词"
+      }
+    ]
+  },
+  "dive": {
+    "synonyms": [
+      {
+        "w": "float",
+        "note": "同类词"
+      }
+    ]
+  },
+  "float": {
+    "synonyms": [
+      {
+        "w": "dive",
+        "note": "同类词"
+      }
+    ]
+  },
+  "abstract": {
+    "synonyms": [
+      {
+        "w": "concrete",
+        "note": "同类词"
+      }
+    ],
+    "related": [
+      "concrete"
+    ]
+  },
+  "concrete": {
+    "synonyms": [
+      {
+        "w": "abstract",
+        "note": "同类词"
+      }
+    ]
+  },
+  "prosperous": {
+    "synonyms": [
+      {
+        "w": "wealthy",
+        "note": "同类词"
+      }
+    ]
+  },
+  "wealthy": {
+    "synonyms": [
+      {
+        "w": "prosperous",
+        "note": "同类词"
+      }
+    ]
+  },
+  "evidence": {
+    "related": [
+      "verify"
+    ]
+  },
+  "poverty": {
+    "related": [
+      "prosperous"
+    ]
+  },
+  "verify": {
+    "related": [
+      "evidence"
+    ]
+  },
+  "withdraw": {
+    "related": [
+      "advance"
+    ]
+  },
+  "favour": {
+    "variants": [
+      {
+        "form": "favor",
+        "note": "美式拼写"
+      }
+    ]
+  },
+  "analyse": {
+    "variants": [
+      {
+        "form": "analyze",
+        "note": "美式拼写"
+      }
+    ]
+  }
+}

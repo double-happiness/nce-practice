@@ -1,0 +1,482 @@
+[
+  {
+    "id": "tf-b4-025",
+    "book": 4,
+    "lesson": 25,
+    "grammar": [
+      "词汇辨析",
+      "定语从句"
+    ],
+    "cn": "他们甚至不愿承认噪音可能对人产生任何影响。",
+    "explanation": "the possibility that 同位语从句；people who 定语从句修饰先行词。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "They are not prepared even to admit the possibility that noise affects people in any way.",
+          "They will not even admit the possibility that noise affects people."
+        ],
+        "cn": "他们甚至不愿承认噪音可能对人产生任何影响。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「noise」提问（问\"什么可能对人产生影响\"）",
+        "answers": [
+          "What are they not prepared to admit may affect people in any way?",
+          "What affects people in any way that they refuse to admit?"
+        ],
+        "cn": "他们不愿承认什么可能对人产生影响？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（他们完全否认这种可能性）",
+        "answers": [
+          "They deny altogether the possibility that noise affects people.",
+          "They completely reject the possibility that noise affects people in any way."
+        ],
+        "cn": "他们完全否认噪音可能对人产生任何影响。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-026",
+    "book": 4,
+    "lesson": 26,
+    "grammar": [
+      "连词",
+      "定语从句"
+    ],
+    "cn": "正是生活在水中或水边的动植物，其遗骸最易保存下来。",
+    "explanation": "It is ... which/whose 强调结构；定语从句修饰 animals and plants。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is animals and plants which lived in or near water whose remains are most likely to be preserved.",
+          "It is the remains of animals and plants that lived in or near water that are most likely to be preserved."
+        ],
+        "cn": "正是生活在水中或水边的动植物，其遗骸最易保存下来。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为普通陈述句（去掉强调）",
+        "answers": [
+          "Animals and plants which lived in or near water have remains most likely to be preserved.",
+          "The remains of animals and plants living in or near water are most likely to be preserved."
+        ],
+        "cn": "生活在水中或水边的动植物，其遗骸最易保存。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「in or near water」提问（问\"在哪里生活的动植物遗骸最易保存\"）",
+        "answers": [
+          "Where must animals and plants have lived for their remains to be most likely preserved?",
+          "In what environment are remains most likely to be preserved?"
+        ],
+        "cn": "在哪里生活的动植物遗骸最易保存？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-027",
+    "book": 4,
+    "lesson": 27,
+    "grammar": [
+      "过去完成时",
+      "定语从句"
+    ],
+    "cn": "瓦萨号在斯德哥尔摩下水之前，工匠们已为之劳作了三年。",
+    "explanation": "had laboured 过去完成时表下水之前已完成的动作；before she was launched 时间状语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Workers had laboured for three years before the Vasa was launched at Stockholm.",
+          "The Vasa had been laboured over for three years before she was launched at Stockholm."
+        ],
+        "cn": "瓦萨号在斯德哥尔摩下水之前，工匠们已为之劳作了三年。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「three years」提问（问\"劳作了多久\"）",
+        "answers": [
+          "How long had workers laboured before the Vasa was launched?",
+          "For how long had the Vasa been laboured over before launch?"
+        ],
+        "cn": "瓦萨号下水前劳作了多久？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非只劳作了一年）",
+        "answers": [
+          "Workers had not laboured for only one year before the Vasa was launched.",
+          "The Vasa had not been laboured over for merely a year before launch."
+        ],
+        "cn": "瓦萨号下水前并非只劳作了一年。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-028",
+    "book": 4,
+    "lesson": 28,
+    "grammar": [
+      "定语从句",
+      "被动语态"
+    ],
+    "cn": "病人除非能带回家的有形药物，否则便觉未得到充分治疗。",
+    "explanation": "unless = if not 引导条件；feel treated 可用被动 have been treated 表达。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Patients feel inadequately treated unless they carry home a tangible remedy.",
+          "Patients feel they have not received adequate treatment unless they can take home some tangible remedy."
+        ],
+        "cn": "病人除非能带回家的有形药物，否则便觉未得到充分治疗。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为被动语态（强调病人觉得未被治疗）",
+        "answers": [
+          "Patients feel they have not been treated adequately unless they carry home a tangible remedy.",
+          "Unless a tangible remedy is given to take home, patients feel inadequately treated."
+        ],
+        "cn": "除非给予可带回家的有形药物，病人便觉得未被充分治疗。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a tangible remedy」提问（问\"除非带什么回家\"）",
+        "answers": [
+          "What must patients carry home to feel adequately treated?",
+          "Unless they carry home what, do patients feel inadequately treated?"
+        ],
+        "cn": "病人除非带什么回家才觉治疗充分？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-029",
+    "book": 4,
+    "lesson": 29,
+    "grammar": [
+      "同位语从句",
+      "词汇辨析"
+    ],
+    "cn": "气垫船依靠围在船体外的柔性橡胶裙内形成的气垫行驶。",
+    "explanation": "rides on a cushion of air 核心搭配；定语从句 that rings the hull 修饰 skirt。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The hovercraft rides on a cushion of air trapped inside a flexible rubber skirt that rings the hull.",
+          "His hovercraft rides on a cushion of air inside a rubber skirt surrounding the hull."
+        ],
+        "cn": "气垫船依靠围在船体外的柔性橡胶裙内形成的气垫行驶。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「a cushion of air」提问（问\"依靠什么行驶\"）",
+        "answers": [
+          "What does the hovercraft ride on?",
+          "On what does the hovercraft travel?"
+        ],
+        "cn": "气垫船依靠什么行驶？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非直接接触水面行驶）",
+        "answers": [
+          "The hovercraft does not ride directly on the water; it rides on a cushion of air.",
+          "The hovercraft does not depend on displacement; it rides on a cushion of air."
+        ],
+        "cn": "气垫船并非直接接触水面行驶，而是依靠气垫。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-030",
+    "book": 4,
+    "lesson": 30,
+    "grammar": [
+      "连接词",
+      "定语从句"
+    ],
+    "cn": "直到一八六九年，才通过挖掘在大西洋取得一系列深海测深数据。",
+    "explanation": "It was not until ... that 强调句；deep soundings 被动 was obtained。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It was not until 1869 that a series of deep soundings was obtained in the Atlantic by dredging.",
+          "Not until 1869 was a series of deep soundings obtained in the Atlantic."
+        ],
+        "cn": "直到一八六九年，才通过挖掘在大西洋取得一系列深海测深数据。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为普通陈述句（去掉强调）",
+        "answers": [
+          "A series of deep soundings was not obtained in the Atlantic until 1869.",
+          "Deep soundings were first obtained in the Atlantic in 1869 by dredging."
+        ],
+        "cn": "深海测深数据直到一八六九年才在大西洋取得。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「1869」提问（问\"直到哪一年\"）",
+        "answers": [
+          "When was a series of deep soundings obtained in the Atlantic?",
+          "Not until which year were deep soundings obtained in the Atlantic?"
+        ],
+        "cn": "直到哪一年才在大西洋取得深海测深数据？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-031",
+    "book": 4,
+    "lesson": 31,
+    "grammar": [
+      "同位语从句",
+      "非谓语动词"
+    ],
+    "cn": "欣赏雕塑取决于对三维形态的感知能力。",
+    "explanation": "depends upon the ability to respond 中 ability 后接不定式；appreciation of sculpture 动名词短语。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Appreciation of sculpture depends upon the ability to respond to form in three dimensions.",
+          "To appreciate sculpture, one must be able to respond to three-dimensional form."
+        ],
+        "cn": "欣赏雕塑取决于对三维形态的感知能力。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「three dimensions」提问（问\"感知几个维度的形态\"）",
+        "answers": [
+          "How many dimensions must one respond to in order to appreciate sculpture?",
+          "In how many dimensions must one respond to form?"
+        ],
+        "cn": "须感知几个维度的形态才能欣赏雕塑？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（不能一眼欣赏）",
+        "answers": [
+          "Sculpture cannot be fully appreciated at a glance; it demands response to three-dimensional form.",
+          "Unlike painting, sculpture cannot be appreciated from a single viewpoint alone."
+        ],
+        "cn": "雕塑不能一眼欣赏，须感知三维形态。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-032",
+    "book": 4,
+    "lesson": 32,
+    "grammar": [
+      "被动语态",
+      "定语从句"
+    ],
+    "cn": "曾被宗教法庭谴责的伽利略方法，已成为现代物理学的基础。",
+    "explanation": "which were once condemned 非限制性定语从句；have become 现在完成时表至今结果。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Galileo's methods, which were once condemned by the Inquisition, have become the foundation of modern physical science.",
+          "Methods once condemned by the Inquisition have become the foundation of modern science."
+        ],
+        "cn": "曾被宗教法庭谴责的伽利略方法，已成为现代物理学的基础。"
+      },
+      {
+        "kind": "passive",
+        "prompt": "改为主动语态（宗教法庭谴责了方法）",
+        "answers": [
+          "The Inquisition once condemned Galileo's methods, yet they have become the foundation of modern physical science.",
+          "The Inquisition condemned Galileo's methods, but they became the foundation of modern science."
+        ],
+        "cn": "宗教法庭曾谴责伽利略方法，但它们已成为现代科学的基础。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the foundation of modern physical science」提问（问\"已成为什么\"）",
+        "answers": [
+          "What have Galileo's once-condemned methods become?",
+          "What have methods condemned by the Inquisition become?"
+        ],
+        "cn": "曾被谴责的伽利略方法已成为什么？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-033",
+    "book": 4,
+    "lesson": 33,
+    "grammar": [
+      "强调句",
+      "定语从句"
+    ],
+    "cn": "正是通过模仿和直接体验，部落社会的儿童掌握复杂技能。",
+    "explanation": "It is through ... that 强调方式状语；children in tribal societies 或 tribes that remain close to nature。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "It is through imitation and direct experience that children in tribal societies master complex skills.",
+          "It is through imitation and practice that children in bookless communities learn complex skills."
+        ],
+        "cn": "正是通过模仿和直接体验，部落社会的儿童掌握复杂技能。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为普通陈述句（去掉强调）",
+        "answers": [
+          "Children in tribal societies master complex skills through imitation and direct experience.",
+          "Tribal children learn complex skills through imitation, not through compulsory schooling."
+        ],
+        "cn": "部落社会的儿童通过模仿和直接体验掌握复杂技能。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「imitation and direct experience」提问（问\"通过什么方式\"）",
+        "answers": [
+          "Through what do children in tribal societies master complex skills?",
+          "How do children in bookless communities learn complex skills?"
+        ],
+        "cn": "部落儿童通过什么方式掌握复杂技能？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-034",
+    "book": 4,
+    "lesson": 34,
+    "grammar": [
+      "虚拟语气",
+      "倒装"
+    ],
+    "cn": "若父母对这种反应有所准备，子女批评他们时便不会如此受伤。",
+    "explanation": "if + were 表与现在事实相反，主句 would not be；Were 置句首可省略 if。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "If parents were prepared for this adolescent reaction, they would not be so deeply hurt when their children criticize them.",
+          "If parents were prepared for this reaction, they would not be so hurt."
+        ],
+        "cn": "若父母对这种反应有所准备，子女批评他们时便不会如此受伤。"
+      },
+      {
+        "kind": "negative",
+        "prompt": "用 Were 置句首改写（省略 if）",
+        "answers": [
+          "Were parents prepared for this adolescent reaction, they would not be so deeply hurt.",
+          "Were parents prepared for this reaction, they would not be so hurt when criticized."
+        ],
+        "cn": "若父母对这种反应有所准备，被批评时便不会如此受伤。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「their children」提问（问\"被谁批评时会受伤\"）",
+        "answers": [
+          "Who would hurt parents so deeply if they were not prepared for the reaction?",
+          "By whom would unprepared parents be so deeply hurt?"
+        ],
+        "cn": "未做好准备的父母会被谁批评而深受伤害？"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-035",
+    "book": 4,
+    "lesson": 35,
+    "grammar": [
+      "定语从句",
+      "词汇辨析"
+    ],
+    "cn": "月球是与地球最相似的天体，可能成为未来太空探索的中心。",
+    "explanation": "whose/which 定语从句；hub of future space exploration 词汇搭配。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The Moon, which is the world most like our own, may become the hub of future space exploration.",
+          "The Moon may become the hub of future missions to Mars and beyond."
+        ],
+        "cn": "月球是与地球最相似的天体，可能成为未来太空探索的中心。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the hub of future space exploration」提问（问\"可能成为什么\"）",
+        "answers": [
+          "What may the Moon become for future space exploration?",
+          "What role may the Moon play in future exploration?"
+        ],
+        "cn": "月球在未来太空探索中可能成为什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句（并非与地球毫无相似之处）",
+        "answers": [
+          "The Moon is not unlike our own world; it may become the hub of exploration.",
+          "The Moon is the world most like Earth, not the least similar."
+        ],
+        "cn": "月球并非与地球毫无相似，它是最像地球的天体。"
+      }
+    ]
+  },
+  {
+    "id": "tf-b4-036",
+    "book": 4,
+    "lesson": 36,
+    "grammar": [
+      "定语从句",
+      "比较结构"
+    ],
+    "cn": "一个国家的行政开支，类似于企业的管理费用。",
+    "explanation": "analogous to 比较结构；administrative overheads 与 business management costs 类比。",
+    "steps": [
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "The administrative overheads of a nation are analogous to the management costs of a business enterprise.",
+          "Government overheads are analogous to business management costs."
+        ],
+        "cn": "一个国家的行政开支，类似于企业的管理费用。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「the management costs of a business enterprise」提问（问\"类似于什么\"）",
+        "answers": [
+          "What are the administrative overheads of a nation analogous to?",
+          "To what are government overheads analogous?"
+        ],
+        "cn": "国家行政开支类似于什么？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为比较级结构（人民越分裂，行政机器越庞大）",
+        "answers": [
+          "The more disunited a people, the greater the administrative machinery required.",
+          "The more disunited a nation, the higher its government overheads."
+        ],
+        "cn": "人民越分裂，所需行政机器越庞大。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-soc-01",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Birthday Invitation",
+    "titleCn": "第1环：生日邀请",
+    "scene": "朋友邀请你参加周六生日派对。（对话链：社交聚会）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "周六晚上我家生日派对，你能来吗？", "en": "Birthday party at my place Saturday night. Can you come?" },
+      { "role": "You", "cn": "当然！几点开始？", "en": "Of course! What time?" },
+      { "role": "Friend", "cn": "七点，随便穿，带肚子来就行。", "en": "Seven PM. Casual dress. Just bring your appetite." },
+      { "role": "You", "cn": "需要带什么吗？", "en": "Should I bring anything?" },
+      { "role": "Friend", "cn": "人到就好，想带酒也行。", "en": "Just yourself. Wine is welcome if you like." },
+      { "role": "You", "cn": "好，周六见。", "en": "Great. See you Saturday." }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-02",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Buy a Gift",
+    "titleCn": "第2环：买礼物",
+    "scene": "你周末前去商场挑生日礼物。（对话链：社交聚会）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "想给朋友买生日礼物，三十左右。", "en": "I need a birthday gift for a friend, around thirty dollars." },
+      { "role": "Clerk", "cn": "男士女士？喜欢实用还是有趣？", "en": "For a man or woman? Practical or fun?" },
+      { "role": "You", "cn": "男的，喜欢咖啡。", "en": "A man. He likes coffee." },
+      { "role": "Clerk", "cn": "这款手冲套装不错，二十八块。", "en": "This pour-over set is nice, twenty-eight." },
+      { "role": "You", "cn": "就要这个，能包装吗？", "en": "I'll take it. Can you gift-wrap it?" },
+      { "role": "Clerk", "cn": "可以，免费。", "en": "Sure, free of charge." }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-03",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Arrive at Party",
+    "titleCn": "第3环：到达派对",
+    "scene": "你参加朋友的生日派对。（对话链：社交聚会）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "来了！谢谢来庆祝！", "en": "You made it! Thanks for coming!" },
+      { "role": "You", "cn": "生日快乐！这是给你的礼物。", "en": "Happy birthday! Here's your gift." },
+      { "role": "Host", "cn": "你太客气了，随便坐，有吃的在那边。", "en": "You're too kind. Make yourself at home. Food's over there." },
+      { "role": "You", "cn": "需要我帮忙吗？", "en": "Do you need any help?" },
+      { "role": "Host", "cn": "不用，一会儿切蛋糕，大概八点。", "en": "We're good. Cake's around eight." },
+      { "role": "You", "cn": "好的，人来得真不少！", "en": "Sounds great. Quite a crowd!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-04",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Meet New People",
+    "titleCn": "第4环：认识新朋友",
+    "scene": "派对上朋友给你介绍新朋友。（对话链：社交聚会）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "嗨，我是 Lisa，寿星的同学。", "en": "Hi, I'm Lisa. I went to school with the birthday boy." },
+      { "role": "You", "cn": "你好，我是张伟，同事。", "en": "Hi, I'm Zhang Wei. We work together." },
+      { "role": "Stranger", "cn": "你做什么工作的？", "en": "What do you do?" },
+      { "role": "You", "cn": "做软件开发的，你呢？", "en": "Software development. How about you?" },
+      { "role": "Stranger", "cn": "设计师，也许以后能合作。", "en": "Designer. Maybe we can collaborate sometime." },
+      { "role": "You", "cn": "好啊，加个微信？", "en": "Sure. Want to exchange contacts?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-05",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Sing Happy Birthday",
+    "titleCn": "第5环：唱生日歌",
+    "scene": "八点大家唱生日歌、切蛋糕。（对话链：社交聚会）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "谢谢大家来，三十岁啦！", "en": "Thanks everyone for coming. I'm thirty!" },
+      { "role": "You", "cn": "生日快乐！许个愿吧。", "en": "Happy birthday! Make a wish." },
+      { "role": "Host", "cn": "许好了，来，吃蛋糕。", "en": "Done. Come get some cake." },
+      { "role": "You", "cn": "巧克力味的，我最爱。", "en": "Chocolate. My favorite." },
+      { "role": "Host", "cn": "留一块给你带走。", "en": "I'll save you a slice to go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-06",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Sunday BBQ Invite",
+    "titleCn": "第6环：周日烧烤邀请",
+    "scene": "派对上另一个朋友邀请你周日烧烤。（对话链：社交聚会）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "明天后院烧烤，来吗？", "en": "BBQ in my backyard tomorrow. Coming?" },
+      { "role": "You", "cn": "几点？我上午有事。", "en": "What time? I have something in the morning." },
+      { "role": "Friend", "cn": "下午两点，带空肚子。", "en": "Two PM. Come hungry." },
+      { "role": "You", "cn": "行，我带沙拉。", "en": "Sure. I'll bring a salad." },
+      { "role": "Friend", "cn": "完美，地址发你。", "en": "Perfect. I'll text you the address." }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-07",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Backyard BBQ",
+    "titleCn": "第7环：后院烧烤",
+    "scene": "周日下午你在朋友家后院烧烤。（对话链：社交聚会）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "肉还要烤十分钟，先喝点？", "en": "Meat needs ten more minutes. Want a drink?" },
+      { "role": "You", "cn": "来杯啤酒，谢谢。需要我翻肉吗？", "en": "A beer, please. Need me to flip anything?" },
+      { "role": "Friend", "cn": "帮我把那盘香肠拿过来就行。", "en": "Just grab that tray of sausages." },
+      { "role": "You", "cn": "你腌的酱真香！", "en": "Your marinade smells amazing!" },
+      { "role": "Friend", "cn": "秘方，下次教你。", "en": "Secret recipe. I'll teach you sometime." },
+      { "role": "You", "cn": "好，我带点甜点下次带过来。", "en": "Deal. I'll bring dessert next time." }
+    ]
+  },
+  {
+    "id": "dlg-chain-soc-08",
+    "category": "social",
+    "chain": {
+      "id": "social-weekend",
+      "title": "A Weekend of Social Events",
+      "titleCn": "对话链：社交聚会周末",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Say Goodbye",
+    "titleCn": "第8环：道别离开",
+    "scene": "烧烤结束，你和主人家道别。（对话链：社交聚会）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "You", "cn": "吃得太饱了，谢谢招待！", "en": "I'm stuffed. Thanks for having us!" },
+      { "role": "Friend", "cn": "客气，下次带你家那位来。", "en": "Anytime. Bring your partner next time." },
+      { "role": "You", "cn": "一定，周末愉快。", "en": "Will do. Have a great weekend." },
+      { "role": "Friend", "cn": "路上小心，回见。", "en": "Drive safe. See you around." },
+      { "role": "You", "cn": "回见。", "en": "See you." }
+    ]
+  }
+]

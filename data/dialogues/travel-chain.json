@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dlg-chain-travel-01",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Book the Hotel",
+    "titleCn": "第1环：预订酒店",
+    "scene": "你计划去纽约玩，打电话确认酒店预订。（对话链：城市旅游）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，曼哈顿酒店前台。", "en": "Hello, Manhattan Hotel front desk." },
+      { "role": "You", "cn": "我订了下周三大床房，张伟，住三晚。", "en": "I booked a king room next Wednesday, Zhang Wei, three nights." },
+      { "role": "Clerk", "cn": "找到了，含早餐，下午三点入住。", "en": "Found it. Breakfast included. Check-in is three PM." },
+      { "role": "You", "cn": "能提前存行李吗？", "en": "Can I store luggage early?" },
+      { "role": "Clerk", "cn": "可以，上午十点起。", "en": "Yes, from ten AM." },
+      { "role": "You", "cn": "谢谢，到时见。", "en": "Thank you. See you then." }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-02",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Hotel Check-in",
+    "titleCn": "第2环：酒店入住",
+    "scene": "你到达酒店前台办理入住。（对话链：城市旅游）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "您好，欢迎入住！请问有预订吗？", "en": "Hello, welcome! Do you have a reservation?" },
+      { "role": "You", "cn": "有的，名字是张伟。", "en": "Yes, the name is Zhang Wei." },
+      { "role": "Clerk", "cn": "找到了，大床房，住三晚。", "en": "I found it. One king room for three nights." },
+      { "role": "You", "cn": "早餐包含在内吗？", "en": "Is breakfast included?" },
+      { "role": "Clerk", "cn": "是的，早上六点半到十点半。", "en": "Yes, it's served from 6:30 to 10:30 AM." },
+      { "role": "Clerk", "cn": "您的房间在八楼，808。", "en": "Your room is on the eighth floor, room 808." },
+      { "role": "You", "cn": "Wi-Fi 密码是多少？", "en": "What's the Wi-Fi password?" },
+      { "role": "Clerk", "cn": "在房卡套上，祝您住得愉快！", "en": "It's on the key card sleeve. Enjoy your stay!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-03",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Tourist Information",
+    "titleCn": "第3环：咨询景点",
+    "scene": "你在旅游咨询中心询问景点信息。（对话链：城市旅游）",
+    "roles": ["You", "Guide"],
+    "turns": [
+      { "role": "You", "cn": "你好，这附近有什么值得看的景点？", "en": "Hi, what are the must-see attractions around here?" },
+      { "role": "Guide", "cn": "自由女神像和中央公园都很受欢迎。", "en": "The Statue of Liberty and Central Park are very popular." },
+      { "role": "You", "cn": "去自由女神像怎么走？", "en": "How do I get to the Statue of Liberty?" },
+      { "role": "Guide", "cn": "可以坐地铁到南街海港，然后坐船。", "en": "Take the subway to South Street Seaport, then catch a ferry." },
+      { "role": "You", "cn": "船票需要提前买吗？", "en": "Do I need to buy ferry tickets in advance?" },
+      { "role": "Guide", "cn": "建议提前在网上订，周末人很多。", "en": "I'd recommend booking online. Weekends get very crowded." }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-04",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Take a Taxi",
+    "titleCn": "第4环：打车去景点",
+    "scene": "你在路边拦出租车去码头。（对话链：城市旅游）",
+    "roles": ["You", "Driver"],
+    "turns": [
+      { "role": "You", "cn": "你好，去南街海港码头，走高速可以吗？", "en": "Hi, to South Street Seaport pier, please. Can we take the highway?" },
+      { "role": "Driver", "cn": "没问题，大概二十分钟。", "en": "Sure. It should take about twenty minutes." },
+      { "role": "You", "cn": "十点的船，来得及吗？", "en": "My ferry is at ten. Will we make it?" },
+      { "role": "Driver", "cn": "没问题，现在路况不错。", "en": "No problem. Traffic looks good right now." },
+      { "role": "You", "cn": "到了能在门口停吗？", "en": "Could you drop me off at the entrance?" },
+      { "role": "Driver", "cn": "当然。", "en": "Of course." }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-05",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Ask for a Photo",
+    "titleCn": "第5环：请人拍照",
+    "scene": "你在自由女神像前，请路人帮忙拍照。（对话链：城市旅游）",
+    "roles": ["You", "Tourist"],
+    "turns": [
+      { "role": "You", "cn": "打扰一下，能帮我们拍张照吗？", "en": "Excuse me, could you take a photo for us?" },
+      { "role": "Tourist", "cn": "当然，竖拍还是横拍？", "en": "Sure. Portrait or landscape?" },
+      { "role": "You", "cn": "竖拍，把雕像拍进去就行。", "en": "Portrait, please. Include the statue." },
+      { "role": "Tourist", "cn": "好了，看看满意吗？", "en": "Done. How does it look?" },
+      { "role": "You", "cn": "很好，谢谢！我帮你也拍一张？", "en": "Great, thanks! Want me to take one for you?" },
+      { "role": "Tourist", "cn": "好啊，谢谢！", "en": "Yes, please. Thank you!" }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-06",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Buy Souvenirs",
+    "titleCn": "第6环：买纪念品",
+    "scene": "你在景点小店买纪念品。（对话链：城市旅游）",
+    "roles": ["You", "Vendor"],
+    "turns": [
+      { "role": "Vendor", "cn": "看看纪念品吧，都是本地手工的。", "en": "Check out our souvenirs. They're all locally made." },
+      { "role": "You", "cn": "这个冰箱贴多少钱？", "en": "How much is this magnet?" },
+      { "role": "Vendor", "cn": "五美元，买三个十二。", "en": "Five dollars, or three for twelve." },
+      { "role": "You", "cn": "那我买三个吧，可以刷卡吗？", "en": "I'll take three. Do you accept cards?" },
+      { "role": "Vendor", "cn": "可以，最低消费十美元。", "en": "Yes, but there's a ten-dollar minimum for cards." },
+      { "role": "You", "cn": "没问题，再加一张明信片。", "en": "No problem. I'll add a postcard too." }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-07",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Room Problem",
+    "titleCn": "第7环：房间问题",
+    "scene": "晚上回酒店，发现隔壁太吵。（对话链：城市旅游）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "隔壁房间太吵了，能换房吗？", "en": "The room next door is too loud. Can I switch rooms?" },
+      { "role": "Clerk", "cn": "抱歉，我查一下空房……八零五可以吗？", "en": "Sorry about that. Let me check. Would 805 work?" },
+      { "role": "You", "cn": "远离电梯更好。", "en": "Away from the elevator would be better." },
+      { "role": "Clerk", "cn": "八零二在走廊尽头，现在帮您换。", "en": "802 is at the end of the hall. I'll move you now." },
+      { "role": "You", "cn": "谢谢，行李我自己搬。", "en": "Thank you. I'll move my luggage myself." }
+    ]
+  },
+  {
+    "id": "dlg-chain-travel-08",
+    "category": "travel",
+    "chain": {
+      "id": "city-trip",
+      "title": "A City Trip from Arrival to Departure",
+      "titleCn": "对话链：城市旅游一趟",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Check Out",
+    "titleCn": "第8环：退房离开",
+    "scene": "最后一天，你在前台退房去机场。（对话链：城市旅游）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "Clerk", "cn": "退房吗？房卡请给我。", "en": "Checking out? Key cards, please." },
+      { "role": "You", "cn": "808，迷你吧没动，能存行李到下午吗？", "en": "808. I didn't use the minibar. Can you hold my bags until afternoon?" },
+      { "role": "Clerk", "cn": "可以，寄存到四点免费。", "en": "Yes, complimentary storage until four PM." },
+      { "role": "You", "cn": "账单没问题，刷卡。", "en": "The bill looks fine. Card, please." },
+      { "role": "Clerk", "cn": "谢谢光临，祝您一路平安。", "en": "Thank you for staying. Have a safe trip." },
+      { "role": "You", "cn": "谢谢，住得很愉快。", "en": "Thank you. I enjoyed my stay." }
+    ]
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "dlg-chain-call-01",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Doctor Appointment",
+    "titleCn": "第1环：预约医生",
+    "scene": "你打电话预约家庭医生。（对话链：打电话）",
+    "roles": ["You", "Receptionist"],
+    "turns": [
+      { "role": "Receptionist", "cn": "阳光诊所，有什么可以帮您？", "en": "Sunny Clinic. How may I help you?" },
+      { "role": "You", "cn": "我想预约体检，下周有空吗？", "en": "I'd like to schedule a checkup. Any openings next week?" },
+      { "role": "Receptionist", "cn": "周三上午十点或周五下午两点。", "en": "Wednesday at ten AM or Friday at two PM." },
+      { "role": "You", "cn": "周三十点，姓张。", "en": "Wednesday at ten. Last name Zhang." },
+      { "role": "Receptionist", "cn": "记下了，提前十五分钟到，带保险卡。", "en": "Got it. Arrive fifteen minutes early with your insurance card." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-02",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Bank Inquiry",
+    "titleCn": "第2环：银行咨询",
+    "scene": "你打电话问银行房贷利率。（对话链：打电话）",
+    "roles": ["You", "Banker"],
+    "turns": [
+      { "role": "Banker", "cn": "感谢您致电，请问需要什么服务？", "en": "Thank you for calling. How can I assist you?" },
+      { "role": "You", "cn": "想咨询三十固定房贷利率。", "en": "I'd like to ask about thirty-year fixed mortgage rates." },
+      { "role": "Banker", "cn": "目前六点二五起，看信用分和首付。", "en": "Starting at six point two five, depending on credit and down payment." },
+      { "role": "You", "cn": "能预约面谈吗？", "en": "Can I schedule an in-person meeting?" },
+      { "role": "Banker", "cn": "可以，周六分行有人，我帮您转预约。", "en": "Yes. Someone's at the branch Saturday. I'll transfer you to scheduling." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-03",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Utility Company",
+    "titleCn": "第3环：水电公司",
+    "scene": "你打电话报修家里没热水。（对话链：打电话）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "公用事业客服，请说账号或地址。", "en": "Utility customer service. Account number or address, please." },
+      { "role": "You", "cn": "公园路 88 号，热水器不工作了。", "en": "Eighty-eight Park Road. The water heater isn't working." },
+      { "role": "Agent", "cn": "完全没热水还是温度不够？", "en": "No hot water at all or just not hot enough?" },
+      { "role": "You", "cn": "完全冷的，昨天还好。", "en": "Completely cold. It was fine yesterday." },
+      { "role": "Agent", "cn": "派技师明天上午八点到十二点之间上门。", "en": "We'll send a technician tomorrow between eight and noon." },
+      { "role": "You", "cn": "好，我在家等。", "en": "Okay. I'll be home." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-04",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Insurance Claim",
+    "titleCn": "第4环：保险理赔",
+    "scene": "你打电话申报车险小额理赔。（对话链：打电话）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "理赔部门，保单号多少？", "en": "Claims department. What's your policy number?" },
+      { "role": "You", "cn": "在这，停车场被刮了，对方跑了。", "en": "Here it is. Someone scraped my car in a parking lot and left." },
+      { "role": "Agent", "cn": "有照片和警方报告吗？", "en": "Do you have photos and a police report?" },
+      { "role": "You", "cn": "有照片，警察说小额不用报告。", "en": "I have photos. Police said no report needed for minor damage." },
+      { "role": "Agent", "cn": "好，我发链接上传材料，三到五天处理。", "en": "Okay. I'll send a link to upload documents. Three to five days." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-05",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Wrong Number",
+    "titleCn": "第5环：打错电话",
+    "scene": "你打错号码，对方礼貌回应。（对话链：打电话）",
+    "roles": ["You", "Stranger"],
+    "turns": [
+      { "role": "Stranger", "cn": "喂？", "en": "Hello?" },
+      { "role": "You", "cn": "请问是李明吗？……抱歉打错了。", "en": "Is this Li Ming? …Sorry, wrong number." },
+      { "role": "Stranger", "cn": "没事，你找谁？", "en": "No problem. Who were you looking for?" },
+      { "role": "You", "cn": "我朋友，可能号差一位。", "en": "A friend. Maybe I misdialed one digit." },
+      { "role": "Stranger", "cn": "好，再见。", "en": "Okay. Bye." },
+      { "role": "You", "cn": "再见，不好意思。", "en": "Bye. Sorry about that." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-06",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Leave a Voicemail",
+    "titleCn": "第6环：留语音留言",
+    "scene": "对方没接，你留语音留言。（对话链：打电话）",
+    "roles": ["You", "Voicemail"],
+    "turns": [
+      { "role": "Voicemail", "cn": "请在嘟声后留言。", "en": "Please leave a message after the tone." },
+      { "role": "You", "cn": "妈，是我，今晚加班晚点回，别等我吃饭。", "en": "Mom, it's me. Working late tonight. Don't wait for me for dinner." },
+      { "role": "You", "cn": "大概九点到，到了给你发短信。", "en": "I'll be home around nine. I'll text when I arrive." },
+      { "role": "You", "cn": "拜拜。", "en": "Bye." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-07",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Customer Service Hold",
+    "titleCn": "第7环：客服等待",
+    "scene": "你打航空公司改机票，需要等待。（对话链：打电话）",
+    "roles": ["You", "Agent"],
+    "turns": [
+      { "role": "Agent", "cn": "感谢等待，怎么帮您？", "en": "Thanks for holding. How can I help?" },
+      { "role": "You", "cn": "我想把周五的航班改到周日，同一航线。", "en": "I'd like to move Friday's flight to Sunday, same route." },
+      { "role": "Agent", "cn": "查一下……周日有空位，改签费七十五。", "en": "Let me check… Sunday has seats. Change fee is seventy-five." },
+      { "role": "You", "cn": "可以，确认改吧。", "en": "That's fine. Please confirm the change." },
+      { "role": "Agent", "cn": "好了，新确认号发您邮箱。", "en": "Done. New confirmation sent to your email." },
+      { "role": "You", "cn": "收到，谢谢。", "en": "Got it. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-call-08",
+    "category": "phone",
+    "chain": {
+      "id": "phone-errands",
+      "title": "Phone Calls for Daily Errands",
+      "titleCn": "对话链：办事打电话",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Confirm Reservation",
+    "titleCn": "第8环：电话确认预订",
+    "scene": "你打电话确认餐厅生日宴预订。（对话链：打电话）",
+    "roles": ["You", "Host"],
+    "turns": [
+      { "role": "Host", "cn": "红叶餐厅。", "en": "Maple Leaf Restaurant." },
+      { "role": "You", "cn": "我订了周六晚六点，八位，姓张，想确认。", "en": "I booked Saturday at six for eight, name Zhang. Just confirming." },
+      { "role": "Host", "cn": "找到了，靠窗长桌，有生日布置吗？", "en": "Yes. Window long table. Any birthday setup?" },
+      { "role": "You", "cn": "要，小蛋糕和蜡烛，我付费。", "en": "Yes. Small cake and candles. I'll pay for that." },
+      { "role": "Host", "cn": "记下了，当天保留十五分钟。", "en": "Noted. We'll hold it for fifteen minutes that day." },
+      { "role": "You", "cn": "谢谢，周六见。", "en": "Thank you. See you Saturday." }
+    ]
+  }
+]

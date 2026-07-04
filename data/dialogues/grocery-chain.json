@@ -1,0 +1,183 @@
+[
+  {
+    "id": "dlg-chain-groc-01",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Make a List",
+    "titleCn": "第1环：列购物清单",
+    "scene": "周日早上，你和室友商量去超市买什么。（对话链：超市采购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "冰箱空了，去超市吗？", "en": "Fridge is empty. Grocery run?" },
+      { "role": "You", "cn": "走，我要牛奶、鸡蛋、酱油、水果。", "en": "Sure. I need milk, eggs, soy sauce, and fruit." },
+      { "role": "Roommate", "cn": "我写清单，你开车？", "en": "I'll make the list. You drive?" },
+      { "role": "You", "cn": "行，带环保袋。", "en": "Okay. Bring the reusable bags." },
+      { "role": "Roommate", "cn": "会员卡在你钱包里吧？", "en": "Loyalty card's in your wallet, right?" },
+      { "role": "You", "cn": "在，走吧。", "en": "Yep. Let's go." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-02",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Find Items",
+    "titleCn": "第2环：找商品问店员",
+    "scene": "你在超市里找不到酱油，问员工。（对话链：超市采购）",
+    "roles": ["You", "Employee"],
+    "turns": [
+      { "role": "You", "cn": "请问酱油在哪条过道？", "en": "Excuse me, which aisle is soy sauce in?" },
+      { "role": "Employee", "cn": "亚洲食品在七号，或者国际食品区。", "en": "Asian foods in aisle seven, or the international section." },
+      { "role": "You", "cn": "低钠的有吗？", "en": "Do you carry low-sodium?" },
+      { "role": "Employee", "cn": "七号中间货架，品牌不多。", "en": "Middle shelf in seven. Not many brands." },
+      { "role": "You", "cn": "牛奶呢？", "en": "Where's the milk?" },
+      { "role": "Employee", "cn": "后面冷藏区最左边。", "en": "Back wall coolers, far left." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-03",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Organic vs Regular",
+    "titleCn": "第3环：选有机还是普通",
+    "scene": "买苹果时，室友问你选哪种。（对话链：超市采购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "有机苹果贵一块五一磅，买吗？", "en": "Organic apples are a dollar fifty more per pound. Worth it?" },
+      { "role": "You", "cn": "做沙拉买有机，煮的话普通就行。", "en": "Organic for salad. Regular is fine for cooking." },
+      { "role": "Roommate", "cn": "那各拿一袋？", "en": "One bag of each?" },
+      { "role": "You", "cn": "好，鸡蛋要大的。", "en": "Sure. Large eggs, please." },
+      { "role": "Roommate", "cn": "清单上差不多了。", "en": "That's everything on the list." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-04",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Self-Checkout Issue",
+    "titleCn": "第4环：自助结账故障",
+    "scene": "自助收银机扫不了条码，你叫店员帮忙。（对话链：超市采购）",
+    "roles": ["You", "Attendant"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，这个罐头扫不出来。", "en": "Excuse me, this can won't scan." },
+      { "role": "Attendant", "cn": "条码磨花了，我帮您手动输入。", "en": "The barcode's worn. I'll key it in." },
+      { "role": "You", "cn": "称重的那袋苹果也卡住了。", "en": "The bag of apples on the scale is stuck too." },
+      { "role": "Attendant", "cn": "请拿开重新放，绿灯亮了再扫别的。", "en": "Remove it and place it again. Wait for the green light before scanning more." },
+      { "role": "You", "cn": "好了，谢谢。", "en": "It's working now. Thanks." },
+      { "role": "Attendant", "cn": "有问题再叫我。", "en": "Call me if anything else comes up." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-05",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Forgot Something",
+    "titleCn": "第5环：忘买一样东西",
+    "scene": "结完账发现忘了买面包，你回去拿。（对话链：超市采购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "You", "cn": "糟了，面包没拿。", "en": "Shoot, we forgot bread." },
+      { "role": "Roommate", "cn": "我去拿，你在门口等？", "en": "I'll grab it. Wait at the entrance?" },
+      { "role": "You", "cn": "行，要全麦的。", "en": "Sure. Get whole wheat." },
+      { "role": "Roommate", "cn": "两分钟回来。", "en": "Back in two minutes." },
+      { "role": "You", "cn": "好，我先把车开过来。", "en": "Okay. I'll pull the car around." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-06",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Checkout with Loyalty Card",
+    "titleCn": "第6环：会员卡结账",
+    "scene": "你在收银台用会员卡结账。（对话链：超市采购）",
+    "roles": ["You", "Cashier"],
+    "turns": [
+      { "role": "Cashier", "cn": "有会员卡吗？", "en": "Do you have a loyalty card?" },
+      { "role": "You", "cn": "有，手机号555-0123。", "en": "Yes. Phone number five five five, zero one two three." },
+      { "role": "Cashier", "cn": "一共五十二块三，要袋子吗？", "en": "Fifty-two thirty total. Need bags?" },
+      { "role": "You", "cn": "我自己带了，刷卡。", "en": "I brought my own. I'll pay by card." },
+      { "role": "Cashier", "cn": "请插卡或贴手机。", "en": "Insert or tap your card." },
+      { "role": "You", "cn": "收据在袋子里就行。", "en": "Receipt in the bag is fine." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-07",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Parking Validation",
+    "titleCn": "第7环：停车小票盖章",
+    "scene": "离开前在客服台盖停车小票。（对话链：超市采购）",
+    "roles": ["You", "Clerk"],
+    "turns": [
+      { "role": "You", "cn": "麻烦盖一下停车小票？", "en": "Could you validate my parking ticket?" },
+      { "role": "Clerk", "cn": "购物小票看一下。", "en": "May I see your receipt?" },
+      { "role": "You", "cn": "在这，超过二十五块了。", "en": "Here. It's over twenty-five dollars." },
+      { "role": "Clerk", "cn": "盖好了，一小时内免费。", "en": "Stamped. First hour is free." },
+      { "role": "You", "cn": "谢谢。", "en": "Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-groc-08",
+    "category": "grocery",
+    "chain": {
+      "id": "grocery-run",
+      "title": "A Grocery Shopping Trip",
+      "titleCn": "对话链：超市采购一趟",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Unpack at Home",
+    "titleCn": "第8环：回家整理",
+    "scene": "你们买完东西回家，一起往冰箱里放。（对话链：超市采购）",
+    "roles": ["You", "Roommate"],
+    "turns": [
+      { "role": "Roommate", "cn": "牛奶放上层，鸡蛋别压。", "en": "Milk on the top shelf. Don't crush the eggs." },
+      { "role": "You", "cn": "酱油放调料架，水果洗一下。", "en": "Soy sauce on the spice rack. I'll wash the fruit." },
+      { "role": "Roommate", "cn": "这周不用再去超市了。", "en": "We shouldn't need groceries this week." },
+      { "role": "You", "cn": "对，中午做炒饭。", "en": "Right. Fried rice for lunch." },
+      { "role": "Roommate", "cn": "我来切菜。", "en": "I'll prep the veggies." },
+      { "role": "You", "cn": "好，完美。", "en": "Perfect." }
+    ]
+  }
+]

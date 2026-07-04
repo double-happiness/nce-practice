@@ -5,16 +5,130 @@
     "title": "The end of a dream",
     "titleCn": "美梦告终",
     "scene": "一位旅客连续工作多日后筋疲力尽，在机场候机时刚坐上飞机便沉沉睡去。等他醒来时，机舱已经在高空平稳飞行，他先是困惑，再是后怕，最后苦笑着承认自己连起飞都没感觉到。这个故事一前一后有两层时间：背景里“当时正在发生”的动作（他正在睡）用过去进行时，推进情节的关键动作（醒来、发现、询问）用一般过去时，正好帮助学习两种时态如何配合叙事。",
-    "grammarTags": ["过去进行时", "一般过去时"],
+    "grammarTags": [
+      "过去进行时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "tired", "phon": "/ˈtaɪəd/", "pos": "adj.", "cn": "疲劳的", "eg": "He was so tired that he fell asleep before take-off. 他太累了，起飞前就睡着了。" },
-      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；做梦", "eg": "His pleasant dream ended when he heard the engine noise. 听到引擎声时，他的美梦结束了。" },
-      { "word": "take-off", "phon": "/ˈteɪk ɒf/", "pos": "n.", "cn": "起飞", "eg": "He missed the whole take-off because he was asleep. 因为睡着了，他错过了整个起飞过程。" },
-      { "word": "flight", "phon": "/flaɪt/", "pos": "n.", "cn": "飞行；航班", "eg": "The flight was already halfway when he woke up. 他醒来时航程已经过半。" },
-      { "word": "wake", "phon": "/weɪk/", "pos": "v.", "cn": "醒来；叫醒", "eg": "I woke suddenly and looked out of the window. 我突然醒来并向窗外看去。" },
-      { "word": "cabin", "phon": "/ˈkæbɪn/", "pos": "n.", "cn": "机舱", "eg": "Everyone in the cabin was calm and quiet. 机舱里的每个人都很平静。" },
-      { "word": "stewardess", "phon": "/ˈstjuːədəs/", "pos": "n.", "cn": "空中小姐", "eg": "A stewardess smiled and told him they were in the air. 一位空姐微笑着告诉他飞机已经在空中。" },
-      { "word": "surprised", "phon": "/səˈpraɪzd/", "pos": "adj.", "cn": "惊讶的", "eg": "He was surprised that he had slept so deeply. 他惊讶于自己睡得那么沉。" }
+      {
+        "word": "tired",
+        "phon": "/ˈtaɪəd/",
+        "pos": "adj.",
+        "cn": "疲劳的",
+        "eg": "He was so tired that he fell asleep before take-off. 他太累了，起飞前就睡着了。"
+      },
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "n./v.",
+        "cn": "梦；做梦",
+        "eg": "His pleasant dream ended when he heard the engine noise. 听到引擎声时，他的美梦结束了。"
+      },
+      {
+        "word": "take-off",
+        "phon": "/ˈteɪk ɒf/",
+        "pos": "n.",
+        "cn": "起飞",
+        "eg": "He missed the whole take-off because he was asleep. 因为睡着了，他错过了整个起飞过程。"
+      },
+      {
+        "word": "flight",
+        "phon": "/flaɪt/",
+        "pos": "n.",
+        "cn": "飞行；航班",
+        "eg": "The flight was already halfway when he woke up. 他醒来时航程已经过半。"
+      },
+      {
+        "word": "wake",
+        "phon": "/weɪk/",
+        "pos": "v.",
+        "cn": "醒来；叫醒",
+        "eg": "I woke suddenly and looked out of the window. 我突然醒来并向窗外看去。"
+      },
+      {
+        "word": "cabin",
+        "phon": "/ˈkæbɪn/",
+        "pos": "n.",
+        "cn": "机舱",
+        "eg": "Everyone in the cabin was calm and quiet. 机舱里的每个人都很平静。"
+      },
+      {
+        "word": "stewardess",
+        "phon": "/ˈstjuːədəs/",
+        "pos": "n.",
+        "cn": "空中小姐",
+        "eg": "A stewardess smiled and told him they were in the air. 一位空姐微笑着告诉他飞机已经在空中。"
+      },
+      {
+        "word": "surprised",
+        "phon": "/səˈpraɪzd/",
+        "pos": "adj.",
+        "cn": "惊讶的",
+        "eg": "He was surprised that he had slept so deeply. 他惊讶于自己睡得那么沉。"
+      },
+      {
+        "word": "pirate",
+        "phon": "/ˈpaɪərət/",
+        "pos": "n.",
+        "cn": "海盗",
+        "eg": ""
+      },
+      {
+        "word": "arm",
+        "phon": "/ɑːm/",
+        "pos": "v.",
+        "cn": "武装",
+        "eg": ""
+      },
+      {
+        "word": "soil",
+        "phon": "/sɔɪl/",
+        "pos": "n.",
+        "cn": "泥土",
+        "eg": ""
+      },
+      {
+        "word": "entrance",
+        "phon": "/'entr(ə)ns/",
+        "pos": "n.",
+        "cn": "入口",
+        "eg": ""
+      },
+      {
+        "word": "finally",
+        "phon": "/'faɪnəlɪ/",
+        "pos": "adv.",
+        "cn": "最后",
+        "eg": ""
+      },
+      {
+        "word": "worthless",
+        "phon": "/ˈwəːθlɪs/",
+        "pos": "a.",
+        "cn": "毫无价值的",
+        "eg": ""
+      },
+      {
+        "word": "thoroughly",
+        "phon": "/ˈθʌrəli/",
+        "pos": "adv.",
+        "cn": "彻底地",
+        "eg": ""
+      },
+      {
+        "word": "trunk",
+        "phon": "/trʌŋk/",
+        "pos": "n.",
+        "cn": "行李箱",
+        "eg": ""
+      },
+      {
+        "word": "confident",
+        "phon": "/'kɒnfɪd(ə)nt/",
+        "pos": "a.",
+        "cn": "有信心的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -42,16 +156,130 @@
     "title": "Taken for a ride",
     "titleCn": "乘车兜风受骗记",
     "scene": "作者在陌生城市里向一位看似热心的路人问路，对方主动拦下一辆出租车并告诉司机目的地。一路上司机绕来绕去，穿过许多街区，最后把他送回离出发点不远的地方，却收了三百英镑。后来他才知道自己被“带着兜了个大圈子”。本课一方面用一般过去时讲清事情经过，另一方面用被动语态表达“我被带去某地”“我被骗了钱”这种受动意义，突出受害者视角。",
-    "grammarTags": ["一般过去时", "被动语态"],
+    "grammarTags": [
+      "一般过去时",
+      "被动语态"
+    ],
     "words": [
-      { "word": "direction", "phon": "/dəˈrekʃn/", "pos": "n.", "cn": "方向；指路", "eg": "I asked a stranger for directions to my hotel. 我向一个陌生人问去酒店的路。" },
-      { "word": "stranger", "phon": "/ˈstreɪndʒə/", "pos": "n.", "cn": "陌生人", "eg": "The stranger seemed friendly but gave wrong advice. 那个陌生人看起来友好，却给了错误建议。" },
-      { "word": "taxi", "phon": "/ˈtæksi/", "pos": "n.", "cn": "出租车", "eg": "He put me into a taxi and waved goodbye. 他把我塞进出租车并挥手告别。" },
-      { "word": "tour", "phon": "/tʊə/", "pos": "n./v.", "cn": "游览；兜圈", "eg": "The driver took me on a long tour of the city. 司机带我在城里兜了很久。" },
-      { "word": "fare", "phon": "/feə/", "pos": "n.", "cn": "车费", "eg": "I had to pay an unbelievable fare at the end. 最后我不得不付一笔离谱的车费。" },
-      { "word": "cheat", "phon": "/tʃiːt/", "pos": "v.", "cn": "欺骗", "eg": "I realized later that I had been cheated. 我后来才意识到自己被骗了。" },
-      { "word": "route", "phon": "/ruːt/", "pos": "n.", "cn": "路线", "eg": "The route was much longer than necessary. 这条路线比必要的长得多。" },
-      { "word": "expensive", "phon": "/ɪkˈspensɪv/", "pos": "adj.", "cn": "昂贵的", "eg": "It was the most expensive taxi ride of my life. 那是我人生中最贵的一次打车。" }
+      {
+        "word": "direction",
+        "phon": "/dəˈrekʃn/",
+        "pos": "n.",
+        "cn": "方向；指路",
+        "eg": "I asked a stranger for directions to my hotel. 我向一个陌生人问去酒店的路。"
+      },
+      {
+        "word": "stranger",
+        "phon": "/ˈstreɪndʒə/",
+        "pos": "n.",
+        "cn": "陌生人",
+        "eg": "The stranger seemed friendly but gave wrong advice. 那个陌生人看起来友好，却给了错误建议。"
+      },
+      {
+        "word": "taxi",
+        "phon": "/ˈtæksi/",
+        "pos": "n.",
+        "cn": "出租车",
+        "eg": "He put me into a taxi and waved goodbye. 他把我塞进出租车并挥手告别。"
+      },
+      {
+        "word": "tour",
+        "phon": "/tʊə/",
+        "pos": "n./v.",
+        "cn": "游览；兜圈",
+        "eg": "The driver took me on a long tour of the city. 司机带我在城里兜了很久。"
+      },
+      {
+        "word": "fare",
+        "phon": "/feə/",
+        "pos": "n.",
+        "cn": "车费",
+        "eg": "I had to pay an unbelievable fare at the end. 最后我不得不付一笔离谱的车费。"
+      },
+      {
+        "word": "cheat",
+        "phon": "/tʃiːt/",
+        "pos": "v.",
+        "cn": "欺骗",
+        "eg": "I realized later that I had been cheated. 我后来才意识到自己被骗了。"
+      },
+      {
+        "word": "route",
+        "phon": "/ruːt/",
+        "pos": "n.",
+        "cn": "路线",
+        "eg": "The route was much longer than necessary. 这条路线比必要的长得多。"
+      },
+      {
+        "word": "expensive",
+        "phon": "/ɪkˈspensɪv/",
+        "pos": "adj.",
+        "cn": "昂贵的",
+        "eg": "It was the most expensive taxi ride of my life. 那是我人生中最贵的一次打车。"
+      },
+      {
+        "word": "value",
+        "phon": "/'væljuː/",
+        "pos": "n.",
+        "cn": "价值",
+        "eg": ""
+      },
+      {
+        "word": "sound",
+        "phon": "/saʊnd/",
+        "pos": "n.",
+        "cn": "声音",
+        "eg": ""
+      },
+      {
+        "word": "excitement",
+        "phon": "/ɪk'saɪtmənt/",
+        "pos": "n.",
+        "cn": "激动，兴奋",
+        "eg": ""
+      },
+      {
+        "word": "handsome",
+        "phon": "/'hæns(ə)m/",
+        "pos": "a.",
+        "cn": "漂亮的，美观的",
+        "eg": ""
+      },
+      {
+        "word": "Rolls-Royce",
+        "phon": "/'rəʊlz'rɔis/",
+        "pos": "",
+        "cn": "罗尔斯—罗伊斯",
+        "eg": ""
+      },
+      {
+        "word": "Benz  n.",
+        "phon": "",
+        "pos": "",
+        "cn": "奔驰",
+        "eg": ""
+      },
+      {
+        "word": "wheel",
+        "phon": "/wiːl/",
+        "pos": "n.",
+        "cn": "轮子",
+        "eg": ""
+      },
+      {
+        "word": "explosion",
+        "phon": "/ɪk'splouʒn/",
+        "pos": "n.",
+        "cn": "爆炸，轰响",
+        "eg": ""
+      },
+      {
+        "word": "course",
+        "phon": "/kɔːs/",
+        "pos": "n.",
+        "cn": "跑道；行程",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -79,16 +307,130 @@
     "title": "Reward for virtue",
     "titleCn": "对美德的奖赏",
     "scene": "一位女士为了减肥下定决心节食，白天克制得很好，连最爱吃的甜点都拒绝了。晚上朋友邀请她去高级餐厅，她本打算只吃一份清淡沙拉，结果在香味诱惑下点了整套大餐，最后连甜点和咖啡都没放过。她一边后悔一边安慰自己：明天一定重新开始。故事里“做了什么”用一般过去时，“本来打算要做什么”用 be going to 这种将来表达，形成有趣反差。",
-    "grammarTags": ["一般过去时", "一般将来时"],
+    "grammarTags": [
+      "一般过去时",
+      "一般将来时"
+    ],
     "words": [
-      { "word": "diet", "phon": "/ˈdaɪət/", "pos": "n./v.", "cn": "节食；按规定饮食", "eg": "She went on a strict diet before summer. 夏天前她开始严格节食。" },
-      { "word": "virtue", "phon": "/ˈvɜːtʃuː/", "pos": "n.", "cn": "美德；自制力", "eg": "Self-control is a difficult virtue for many people. 自制力对很多人来说是一种难得的美德。" },
-      { "word": "tempt", "phon": "/tempt/", "pos": "v.", "cn": "引诱，诱惑", "eg": "The smell of roast chicken tempted her badly. 烤鸡的香味强烈地诱惑了她。" },
-      { "word": "salad", "phon": "/ˈsæləd/", "pos": "n.", "cn": "色拉", "eg": "She said she was going to order only a salad. 她说自己本来只打算点一份色拉。" },
-      { "word": "dessert", "phon": "/dɪˈzɜːt/", "pos": "n.", "cn": "甜点", "eg": "In the end she ordered a large dessert too. 最后她还点了一大份甜点。" },
-      { "word": "regret", "phon": "/rɪˈɡret/", "pos": "v./n.", "cn": "后悔", "eg": "She regretted her decision as soon as she finished eating. 她刚吃完就后悔了。" },
-      { "word": "balance", "phon": "/ˈbæləns/", "pos": "n./v.", "cn": "平衡；权衡", "eg": "It is hard to balance pleasure and health. 在享受和健康之间取得平衡很难。" },
-      { "word": "promise", "phon": "/ˈprɒmɪs/", "pos": "v./n.", "cn": "承诺", "eg": "She promised she would start her diet again tomorrow. 她承诺明天会重新开始节食。" }
+      {
+        "word": "diet",
+        "phon": "/ˈdaɪət/",
+        "pos": "n./v.",
+        "cn": "节食；按规定饮食",
+        "eg": "She went on a strict diet before summer. 夏天前她开始严格节食。"
+      },
+      {
+        "word": "virtue",
+        "phon": "/ˈvɜːtʃuː/",
+        "pos": "n.",
+        "cn": "美德；自制力",
+        "eg": "Self-control is a difficult virtue for many people. 自制力对很多人来说是一种难得的美德。"
+      },
+      {
+        "word": "tempt",
+        "phon": "/tempt/",
+        "pos": "v.",
+        "cn": "引诱，诱惑",
+        "eg": "The smell of roast chicken tempted her badly. 烤鸡的香味强烈地诱惑了她。"
+      },
+      {
+        "word": "salad",
+        "phon": "/ˈsæləd/",
+        "pos": "n.",
+        "cn": "色拉",
+        "eg": "She said she was going to order only a salad. 她说自己本来只打算点一份色拉。"
+      },
+      {
+        "word": "dessert",
+        "phon": "/dɪˈzɜːt/",
+        "pos": "n.",
+        "cn": "甜点",
+        "eg": "In the end she ordered a large dessert too. 最后她还点了一大份甜点。"
+      },
+      {
+        "word": "regret",
+        "phon": "/rɪˈɡret/",
+        "pos": "v./n.",
+        "cn": "后悔",
+        "eg": "She regretted her decision as soon as she finished eating. 她刚吃完就后悔了。"
+      },
+      {
+        "word": "balance",
+        "phon": "/ˈbæləns/",
+        "pos": "n./v.",
+        "cn": "平衡；权衡",
+        "eg": "It is hard to balance pleasure and health. 在享受和健康之间取得平衡很难。"
+      },
+      {
+        "word": "promise",
+        "phon": "/ˈprɒmɪs/",
+        "pos": "v./n.",
+        "cn": "承诺",
+        "eg": "She promised she would start her diet again tomorrow. 她承诺明天会重新开始节食。"
+      },
+      {
+        "word": "rival",
+        "phon": "/'raɪvl/",
+        "pos": "n.",
+        "cn": "对手",
+        "eg": ""
+      },
+      {
+        "word": "speed",
+        "phon": "/spiːd/",
+        "pos": "v.",
+        "cn": "疾驶",
+        "eg": ""
+      },
+      {
+        "word": "downhill",
+        "phon": "/ˌdaun'hil/",
+        "pos": "adv.",
+        "cn": "下坡",
+        "eg": ""
+      },
+      {
+        "word": "madam",
+        "phon": "/'mædəm/",
+        "pos": "n.",
+        "cn": "(对妇女的尊称)太太，夫人",
+        "eg": ""
+      },
+      {
+        "word": "jeans",
+        "phon": "/dʒi:nz/",
+        "pos": "n.",
+        "cn": "牛仔裤",
+        "eg": ""
+      },
+      {
+        "word": "hesitate",
+        "phon": "/'hezɪteɪt/",
+        "pos": "v.",
+        "cn": "犹豫，迟疑",
+        "eg": ""
+      },
+      {
+        "word": "serve",
+        "phon": "/sɜːv/",
+        "pos": "v.",
+        "cn": "接待(顾客)",
+        "eg": ""
+      },
+      {
+        "word": "scornfully",
+        "phon": "/'skɔ:nfuli/",
+        "pos": "adv.",
+        "cn": "轻蔑地",
+        "eg": ""
+      },
+      {
+        "word": "punish",
+        "phon": "/'pʌnɪʃ/",
+        "pos": "v.",
+        "cn": "惩罚",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -116,16 +458,130 @@
     "title": "A pretty carpet",
     "titleCn": "漂亮的地毯",
     "scene": "作者新搬进一套公寓，楼上邻居是一对做手工地毯的夫妇。每天傍晚，他们把一团团彩色羊毛搬进房间，地上、椅子上甚至楼道里都堆满了线团。作者起初觉得杂乱，后来看到地毯成品才惊叹其精美。几周后，邻居已经做完好几张并卖给游客。故事一边回顾过去日常场景用一般过去时，一边用现在完成时强调“到现在为止已经完成的数量和结果”，体现动作对当下的影响。",
-    "grammarTags": ["一般过去时", "现在完成时"],
+    "grammarTags": [
+      "一般过去时",
+      "现在完成时"
+    ],
     "words": [
-      { "word": "carpet", "phon": "/ˈkɑːpɪt/", "pos": "n.", "cn": "地毯", "eg": "The old woman made a beautiful carpet by hand. 这位老妇人手工做出了一张漂亮地毯。" },
-      { "word": "neighbour", "phon": "/ˈneɪbə/", "pos": "n.", "cn": "邻居", "eg": "Our neighbours worked late every night. 我们的邻居每晚都工作到很晚。" },
-      { "word": "wool", "phon": "/wʊl/", "pos": "n.", "cn": "羊毛", "eg": "Bundles of wool were lying all over the room. 房间里到处都是一捆捆羊毛。" },
-      { "word": "pattern", "phon": "/ˈpætn/", "pos": "n.", "cn": "图案", "eg": "She drew the pattern before she started weaving. 开始编织前她先画好了图案。" },
-      { "word": "weave", "phon": "/wiːv/", "pos": "v.", "cn": "编织", "eg": "They have woven three carpets this month. 这个月他们已经织了三张地毯。" },
-      { "word": "colorful", "phon": "/ˈkʌləfl/", "pos": "adj.", "cn": "色彩鲜艳的", "eg": "The colorful threads made the room lively. 鲜艳的线团让房间显得很有生气。" },
-      { "word": "messy", "phon": "/ˈmesi/", "pos": "adj.", "cn": "凌乱的", "eg": "At first I thought their place was too messy. 起初我觉得他们家太乱了。" },
-      { "word": "product", "phon": "/ˈprɒdʌkt/", "pos": "n.", "cn": "成品", "eg": "The final product looked better than I had expected. 成品比我预想的更好看。" }
+      {
+        "word": "carpet",
+        "phon": "/ˈkɑːpɪt/",
+        "pos": "n.",
+        "cn": "地毯",
+        "eg": "The old woman made a beautiful carpet by hand. 这位老妇人手工做出了一张漂亮地毯。"
+      },
+      {
+        "word": "neighbour",
+        "phon": "/ˈneɪbə/",
+        "pos": "n.",
+        "cn": "邻居",
+        "eg": "Our neighbours worked late every night. 我们的邻居每晚都工作到很晚。"
+      },
+      {
+        "word": "wool",
+        "phon": "/wʊl/",
+        "pos": "n.",
+        "cn": "羊毛",
+        "eg": "Bundles of wool were lying all over the room. 房间里到处都是一捆捆羊毛。"
+      },
+      {
+        "word": "pattern",
+        "phon": "/ˈpætn/",
+        "pos": "n.",
+        "cn": "图案",
+        "eg": "She drew the pattern before she started weaving. 开始编织前她先画好了图案。"
+      },
+      {
+        "word": "weave",
+        "phon": "/wiːv/",
+        "pos": "v.",
+        "cn": "编织",
+        "eg": "They have woven three carpets this month. 这个月他们已经织了三张地毯。"
+      },
+      {
+        "word": "colorful",
+        "phon": "/ˈkʌləfl/",
+        "pos": "adj.",
+        "cn": "色彩鲜艳的",
+        "eg": "The colorful threads made the room lively. 鲜艳的线团让房间显得很有生气。"
+      },
+      {
+        "word": "messy",
+        "phon": "/ˈmesi/",
+        "pos": "adj.",
+        "cn": "凌乱的",
+        "eg": "At first I thought their place was too messy. 起初我觉得他们家太乱了。"
+      },
+      {
+        "word": "product",
+        "phon": "/ˈprɒdʌkt/",
+        "pos": "n.",
+        "cn": "成品",
+        "eg": "The final product looked better than I had expected. 成品比我预想的更好看。"
+      },
+      {
+        "word": "fur",
+        "phon": "/fɜː/",
+        "pos": "n.",
+        "cn": "裘皮",
+        "eg": ""
+      },
+      {
+        "word": "eager",
+        "phon": "/'iːgər/",
+        "pos": "a.",
+        "cn": "热切的，热情的",
+        "eg": ""
+      },
+      {
+        "word": "blessing",
+        "phon": "/'blesɪŋ/",
+        "pos": "n.",
+        "cn": "福分，福气",
+        "eg": ""
+      },
+      {
+        "word": "disguise",
+        "phon": "/dɪs'gaɪz/",
+        "pos": "n.",
+        "cn": "伪装",
+        "eg": ""
+      },
+      {
+        "word": "tiny",
+        "phon": "/'taɪnɪ/",
+        "pos": "a.",
+        "cn": "极小的",
+        "eg": ""
+      },
+      {
+        "word": "possess",
+        "phon": "/pə'zes/",
+        "pos": "v.",
+        "cn": "拥有",
+        "eg": ""
+      },
+      {
+        "word": "cursed",
+        "phon": "/'kɜːsɪd; kɜːst/",
+        "pos": "a.",
+        "cn": "可恨的",
+        "eg": ""
+      },
+      {
+        "word": "increase",
+        "phon": "/ɪn'kriːs/",
+        "pos": "v.",
+        "cn": "增加",
+        "eg": ""
+      },
+      {
+        "word": "plant",
+        "phon": "/plɑːnt/",
+        "pos": "v.",
+        "cn": "种值",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -153,16 +609,130 @@
     "title": "Hot snake",
     "titleCn": "触电的蛇",
     "scene": "森林突发大火后，消防员在灰烬中清理现场，发现许多被烧死的蛇。几天后，一名工人在修理电线时又发现一条“死蛇”挂在树枝上，刚要把它扔掉，蛇突然动了一下，吓得他大叫。原来它之前只是被高温烫伤昏迷，并没有真正死亡。这个故事强调动作先后关系：蛇在工人发现之前“已经受伤、已经昏迷”，要用过去完成时准确表达“过去的过去”。",
-    "grammarTags": ["过去完成时", "一般过去时"],
+    "grammarTags": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "forest", "phon": "/ˈfɒrɪst/", "pos": "n.", "cn": "森林", "eg": "A fire broke out in the forest last week. 上周森林里发生了一场火灾。" },
-      { "word": "fire", "phon": "/ˈfaɪə/", "pos": "n.", "cn": "火灾；火", "eg": "The fire had spread quickly before help arrived. 救援到达前火势已经迅速蔓延。" },
-      { "word": "snake", "phon": "/sneɪk/", "pos": "n.", "cn": "蛇", "eg": "Several snakes had been burnt in the fire. 几条蛇在大火中已被烧伤。" },
-      { "word": "branch", "phon": "/brɑːntʃ/", "pos": "n.", "cn": "树枝", "eg": "A long snake was hanging from a branch. 一条长蛇正挂在树枝上。" },
-      { "word": "faint", "phon": "/feɪnt/", "pos": "v./adj.", "cn": "昏倒；微弱的", "eg": "The snake had fainted because of the heat. 那条蛇因高温已经昏迷了。" },
-      { "word": "alive", "phon": "/əˈlaɪv/", "pos": "adj.", "cn": "活着的", "eg": "To everyone's surprise, the snake was still alive. 令所有人惊讶的是，那条蛇还活着。" },
-      { "word": "repair", "phon": "/rɪˈpeə/", "pos": "v.", "cn": "修理", "eg": "The workers were repairing power lines near the trees. 工人们正在树旁修理电线。" },
-      { "word": "ash", "phon": "/æʃ/", "pos": "n.", "cn": "灰烬", "eg": "The ground was covered with black ash. 地面被黑色灰烬覆盖。" }
+      {
+        "word": "forest",
+        "phon": "/ˈfɒrɪst/",
+        "pos": "n.",
+        "cn": "森林",
+        "eg": "A fire broke out in the forest last week. 上周森林里发生了一场火灾。"
+      },
+      {
+        "word": "fire",
+        "phon": "/ˈfaɪə/",
+        "pos": "n.",
+        "cn": "火灾；火",
+        "eg": "The fire had spread quickly before help arrived. 救援到达前火势已经迅速蔓延。"
+      },
+      {
+        "word": "snake",
+        "phon": "/sneɪk/",
+        "pos": "n.",
+        "cn": "蛇",
+        "eg": "Several snakes had been burnt in the fire. 几条蛇在大火中已被烧伤。"
+      },
+      {
+        "word": "branch",
+        "phon": "/brɑːntʃ/",
+        "pos": "n.",
+        "cn": "树枝",
+        "eg": "A long snake was hanging from a branch. 一条长蛇正挂在树枝上。"
+      },
+      {
+        "word": "faint",
+        "phon": "/feɪnt/",
+        "pos": "v./adj.",
+        "cn": "昏倒；微弱的",
+        "eg": "The snake had fainted because of the heat. 那条蛇因高温已经昏迷了。"
+      },
+      {
+        "word": "alive",
+        "phon": "/əˈlaɪv/",
+        "pos": "adj.",
+        "cn": "活着的",
+        "eg": "To everyone's surprise, the snake was still alive. 令所有人惊讶的是，那条蛇还活着。"
+      },
+      {
+        "word": "repair",
+        "phon": "/rɪˈpeə/",
+        "pos": "v.",
+        "cn": "修理",
+        "eg": "The workers were repairing power lines near the trees. 工人们正在树旁修理电线。"
+      },
+      {
+        "word": "ash",
+        "phon": "/æʃ/",
+        "pos": "n.",
+        "cn": "灰烬",
+        "eg": "The ground was covered with black ash. 地面被黑色灰烬覆盖。"
+      },
+      {
+        "word": "church",
+        "phon": "/tʃɜːtʃ/",
+        "pos": "n.",
+        "cn": "教堂",
+        "eg": ""
+      },
+      {
+        "word": "evil",
+        "phon": "/'iːv(ə)l; -vɪl/",
+        "pos": "a.",
+        "cn": "坏的",
+        "eg": ""
+      },
+      {
+        "word": "reputation",
+        "phon": "/ˌrepju'teɪʃn/",
+        "pos": "n.",
+        "cn": "名声",
+        "eg": ""
+      },
+      {
+        "word": "claim",
+        "phon": "/kleɪm/",
+        "pos": "v.",
+        "cn": "以…为其后果",
+        "eg": ""
+      },
+      {
+        "word": "victim",
+        "phon": "/'vɪktɪm/",
+        "pos": "n.",
+        "cn": "受害者，牺牲品",
+        "eg": ""
+      },
+      {
+        "word": "vicar",
+        "phon": "/'vɪkə/",
+        "pos": "n.",
+        "cn": "教区牧师",
+        "eg": ""
+      },
+      {
+        "word": "source",
+        "phon": "/sɔːrs/",
+        "pos": "n.",
+        "cn": "来源",
+        "eg": ""
+      },
+      {
+        "word": "income",
+        "phon": "/'ɪnkʌm/",
+        "pos": "n.",
+        "cn": "收入",
+        "eg": ""
+      },
+      {
+        "word": "trunk",
+        "phon": "/trʌŋk/",
+        "pos": "n.",
+        "cn": "树干",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -190,16 +760,130 @@
     "title": "Sticky fingers",
     "titleCn": "黏糊糊的手指",
     "scene": "一颗名贵钻石在宴会上失窃，警探立刻赶到现场调查。女宾客们正紧张交谈时，他逐个检查手提包。搜到一位优雅女士时，她看似镇定却不断搓手。警探注意到她手指上有黏性糖浆痕迹，追问后发现她之前一直在端甜点，真正的小偷另有其人。故事中“当时正在做什么”适合用过去进行时；而“最近一直在做某事并造成当前结果”可用现在完成进行时，帮助描述持续行为留下的线索。",
-    "grammarTags": ["过去进行时", "现在完成进行时"],
+    "grammarTags": [
+      "过去进行时",
+      "现在完成进行时"
+    ],
     "words": [
-      { "word": "detective", "phon": "/dɪˈtektɪv/", "pos": "n.", "cn": "侦探", "eg": "The detective arrived before the guests left. 侦探在宾客离开前赶到了。" },
-      { "word": "diamond", "phon": "/ˈdaɪəmənd/", "pos": "n.", "cn": "钻石", "eg": "A diamond necklace disappeared during dinner. 一条钻石项链在晚宴期间不见了。" },
-      { "word": "search", "phon": "/sɜːtʃ/", "pos": "v.", "cn": "搜查", "eg": "He searched every purse in the room carefully. 他仔细搜查了房间里的每个手提包。" },
-      { "word": "purse", "phon": "/pɜːs/", "pos": "n.", "cn": "手提包；钱包", "eg": "She opened her purse slowly and looked nervous. 她慢慢打开手提包，看起来很紧张。" },
-      { "word": "sticky", "phon": "/ˈstɪki/", "pos": "adj.", "cn": "黏的", "eg": "There was something sticky on her fingers. 她手指上有黏糊糊的东西。" },
-      { "word": "syrup", "phon": "/ˈsɪrəp/", "pos": "n.", "cn": "糖浆", "eg": "She said she had been serving cakes with syrup. 她说自己一直在端带糖浆的蛋糕。" },
-      { "word": "suspect", "phon": "/ˈsʌspekt/", "pos": "n./v.", "cn": "嫌疑人；怀疑", "eg": "At first she was the main suspect. 一开始她是主要嫌疑人。" },
-      { "word": "evidence", "phon": "/ˈevɪdəns/", "pos": "n.", "cn": "证据", "eg": "The detective followed the evidence instead of guessing. 侦探根据证据而不是猜测行事。" }
+      {
+        "word": "detective",
+        "phon": "/dɪˈtektɪv/",
+        "pos": "n.",
+        "cn": "侦探",
+        "eg": "The detective arrived before the guests left. 侦探在宾客离开前赶到了。"
+      },
+      {
+        "word": "diamond",
+        "phon": "/ˈdaɪəmənd/",
+        "pos": "n.",
+        "cn": "钻石",
+        "eg": "A diamond necklace disappeared during dinner. 一条钻石项链在晚宴期间不见了。"
+      },
+      {
+        "word": "search",
+        "phon": "/sɜːtʃ/",
+        "pos": "v.",
+        "cn": "搜查",
+        "eg": "He searched every purse in the room carefully. 他仔细搜查了房间里的每个手提包。"
+      },
+      {
+        "word": "purse",
+        "phon": "/pɜːs/",
+        "pos": "n.",
+        "cn": "手提包；钱包",
+        "eg": "She opened her purse slowly and looked nervous. 她慢慢打开手提包，看起来很紧张。"
+      },
+      {
+        "word": "sticky",
+        "phon": "/ˈstɪki/",
+        "pos": "adj.",
+        "cn": "黏的",
+        "eg": "There was something sticky on her fingers. 她手指上有黏糊糊的东西。"
+      },
+      {
+        "word": "syrup",
+        "phon": "/ˈsɪrəp/",
+        "pos": "n.",
+        "cn": "糖浆",
+        "eg": "She said she had been serving cakes with syrup. 她说自己一直在端带糖浆的蛋糕。"
+      },
+      {
+        "word": "suspect",
+        "phon": "/ˈsʌspekt/",
+        "pos": "n./v.",
+        "cn": "嫌疑人；怀疑",
+        "eg": "At first she was the main suspect. 一开始她是主要嫌疑人。"
+      },
+      {
+        "word": "evidence",
+        "phon": "/ˈevɪdəns/",
+        "pos": "n.",
+        "cn": "证据",
+        "eg": "The detective followed the evidence instead of guessing. 侦探根据证据而不是猜测行事。"
+      },
+      {
+        "word": "bark",
+        "phon": "/bɑːrk/",
+        "pos": "v.",
+        "cn": "狗叫",
+        "eg": ""
+      },
+      {
+        "word": "press",
+        "phon": "/pres/",
+        "pos": "v.",
+        "cn": "按压",
+        "eg": ""
+      },
+      {
+        "word": "paw",
+        "phon": "/pɔː/",
+        "pos": "n.",
+        "cn": "脚爪",
+        "eg": ""
+      },
+      {
+        "word": "latch",
+        "phon": "/lætʃ/",
+        "pos": "n.",
+        "cn": "门闩",
+        "eg": ""
+      },
+      {
+        "word": "expert",
+        "phon": "/'ekspɜːt/",
+        "pos": "n.",
+        "cn": "专家",
+        "eg": ""
+      },
+      {
+        "word": "develop",
+        "phon": "/dɪ'veləp/",
+        "pos": "v.",
+        "cn": "养成",
+        "eg": ""
+      },
+      {
+        "word": "habit",
+        "phon": "/'hæbɪt/",
+        "pos": "n.",
+        "cn": "习惯",
+        "eg": ""
+      },
+      {
+        "word": "remove",
+        "phon": "/rɪ'muːv/",
+        "pos": "v.",
+        "cn": "拆掉，取下",
+        "eg": ""
+      },
+      {
+        "word": "future",
+        "phon": "/'fjuːtʃə/",
+        "pos": "n.",
+        "cn": "未来，前途",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -227,16 +911,130 @@
     "title": "Not a gold mine",
     "titleCn": "并非金矿",
     "scene": "一位农夫反复做同一个梦：家里烟囱里藏着金子。连续几晚后，他终于半夜爬起来拆开烟囱，忙了几个小时，灰头土脸地挖出一个生锈铁盒。全家以为要发财，结果盒里只有几枚旧锡币，根本不是金矿。故事通过“做梦在前、挖掘在后、发现结果再后”的顺序展示过去完成时：某些动作在另一个过去动作之前已经发生，必须用 had done 才能表达清楚。",
-    "grammarTags": ["过去完成时", "一般过去时"],
+    "grammarTags": [
+      "过去完成时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "mine", "phon": "/maɪn/", "pos": "n.", "cn": "矿；矿井", "eg": "He believed his house was hiding a gold mine. 他相信自己家里藏着金矿。" },
-      { "word": "chimney", "phon": "/ˈtʃɪmni/", "pos": "n.", "cn": "烟囱", "eg": "He broke open the chimney with a hammer. 他用锤子砸开了烟囱。" },
-      { "word": "dream", "phon": "/driːm/", "pos": "n./v.", "cn": "梦；梦想", "eg": "He had dreamed about gold for three nights. 他已经连续三晚梦见黄金。" },
-      { "word": "dig", "phon": "/dɪɡ/", "pos": "v.", "cn": "挖", "eg": "They dug for hours but found little. 他们挖了几个小时却收获很少。" },
-      { "word": "rusty", "phon": "/ˈrʌsti/", "pos": "adj.", "cn": "生锈的", "eg": "A rusty box fell out of the wall. 一个生锈的盒子从墙里掉了出来。" },
-      { "word": "tin", "phon": "/tɪn/", "pos": "n.", "cn": "锡", "eg": "The coins were made of tin, not gold. 那些硬币是锡做的，不是金子。" },
-      { "word": "fortune", "phon": "/ˈfɔːtʃuːn/", "pos": "n.", "cn": "财富；运气", "eg": "He thought he had found a fortune. 他以为自己找到了财富。" },
-      { "word": "disappointed", "phon": "/ˌdɪsəˈpɔɪntɪd/", "pos": "adj.", "cn": "失望的", "eg": "Everyone felt disappointed at the end. 最后每个人都很失望。" }
+      {
+        "word": "mine",
+        "phon": "/maɪn/",
+        "pos": "n.",
+        "cn": "矿；矿井",
+        "eg": "He believed his house was hiding a gold mine. 他相信自己家里藏着金矿。"
+      },
+      {
+        "word": "chimney",
+        "phon": "/ˈtʃɪmni/",
+        "pos": "n.",
+        "cn": "烟囱",
+        "eg": "He broke open the chimney with a hammer. 他用锤子砸开了烟囱。"
+      },
+      {
+        "word": "dream",
+        "phon": "/driːm/",
+        "pos": "n./v.",
+        "cn": "梦；梦想",
+        "eg": "He had dreamed about gold for three nights. 他已经连续三晚梦见黄金。"
+      },
+      {
+        "word": "dig",
+        "phon": "/dɪɡ/",
+        "pos": "v.",
+        "cn": "挖",
+        "eg": "They dug for hours but found little. 他们挖了几个小时却收获很少。"
+      },
+      {
+        "word": "rusty",
+        "phon": "/ˈrʌsti/",
+        "pos": "adj.",
+        "cn": "生锈的",
+        "eg": "A rusty box fell out of the wall. 一个生锈的盒子从墙里掉了出来。"
+      },
+      {
+        "word": "tin",
+        "phon": "/tɪn/",
+        "pos": "n.",
+        "cn": "锡",
+        "eg": "The coins were made of tin, not gold. 那些硬币是锡做的，不是金子。"
+      },
+      {
+        "word": "fortune",
+        "phon": "/ˈfɔːtʃuːn/",
+        "pos": "n.",
+        "cn": "财富；运气",
+        "eg": "He thought he had found a fortune. 他以为自己找到了财富。"
+      },
+      {
+        "word": "disappointed",
+        "phon": "/ˌdɪsəˈpɔɪntɪd/",
+        "pos": "adj.",
+        "cn": "失望的",
+        "eg": "Everyone felt disappointed at the end. 最后每个人都很失望。"
+      },
+      {
+        "word": "fair",
+        "phon": "/feə/",
+        "pos": "n.",
+        "cn": "集市",
+        "eg": ""
+      },
+      {
+        "word": "fortune-teller",
+        "phon": "/'fɔ:tʃən'telə/",
+        "pos": "n.",
+        "cn": "算命人",
+        "eg": ""
+      },
+      {
+        "word": "crystal",
+        "phon": "/'krɪstl/",
+        "pos": "n.",
+        "cn": "水晶",
+        "eg": ""
+      },
+      {
+        "word": "relation",
+        "phon": "/rɪ'leɪʃ(ə)n/",
+        "pos": "n.",
+        "cn": "亲属",
+        "eg": ""
+      },
+      {
+        "word": "impatiently",
+        "phon": "/im'peiʃəntli/",
+        "pos": "adv.",
+        "cn": "不耐烦地",
+        "eg": ""
+      },
+      {
+        "word": "Hubble",
+        "phon": "/'hʌbl/",
+        "pos": "n.",
+        "cn": "哈勃",
+        "eg": ""
+      },
+      {
+        "word": "telescope",
+        "phon": "/'telɪskoup/",
+        "pos": "n.",
+        "cn": "望远镜",
+        "eg": ""
+      },
+      {
+        "word": "launch",
+        "phon": "/lɔːntʃ/",
+        "pos": "v.",
+        "cn": "发射",
+        "eg": ""
+      },
+      {
+        "word": "space",
+        "phon": "/speɪs/",
+        "pos": "n.",
+        "cn": "空间",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -264,16 +1062,130 @@
     "title": "Faster than sound!",
     "titleCn": "比声音还快！",
     "scene": "一位海军飞行员在夜航中突然听到机身传来有节奏的敲击声，声音越来越急。他以为发动机故障，紧张地检查仪表，却没有发现异常。返航后地勤拆检飞机，才发现是一块金属板在强气流中不断震动。飞行员回想起来，这种敲击在过去几分钟里一直持续，并且在超音速附近更明显。课程重点是过去完成进行时（过去某时之前一直在进行的动作）和比较级（faster, louder）来描述速度与程度变化。",
-    "grammarTags": ["过去完成进行时", "比较级"],
+    "grammarTags": [
+      "过去完成进行时",
+      "比较级"
+    ],
     "words": [
-      { "word": "pilot", "phon": "/ˈpaɪlət/", "pos": "n.", "cn": "飞行员", "eg": "The navy pilot kept calm during the strange flight. 这位海军飞行员在异常飞行中保持镇定。" },
-      { "word": "sound", "phon": "/saʊnd/", "pos": "n.", "cn": "声音", "eg": "A knocking sound came from behind the seat. 座位后方传来敲击声。" },
-      { "word": "knock", "phon": "/nɒk/", "pos": "n./v.", "cn": "敲击声；敲", "eg": "The knock grew louder and faster. 敲击声变得更响更快。" },
-      { "word": "supersonic", "phon": "/ˌsuːpəˈsɒnɪk/", "pos": "adj.", "cn": "超音速的", "eg": "He was flying at a supersonic speed. 他正以超音速飞行。" },
-      { "word": "instrument", "phon": "/ˈɪnstrəmənt/", "pos": "n.", "cn": "仪表", "eg": "All the instruments looked normal. 所有仪表看上去都正常。" },
-      { "word": "vibrate", "phon": "/vaɪˈbreɪt/", "pos": "v.", "cn": "振动", "eg": "A loose plate had been vibrating in the wind. 一块松动金属板一直在风中振动。" },
-      { "word": "loud", "phon": "/laʊd/", "pos": "adj.", "cn": "响亮的", "eg": "The noise became louder near the coast. 靠近海岸时噪声变得更大。" },
-      { "word": "speed", "phon": "/spiːd/", "pos": "n.", "cn": "速度", "eg": "The speed was faster than sound. 这速度比声音更快。" }
+      {
+        "word": "pilot",
+        "phon": "/ˈpaɪlət/",
+        "pos": "n.",
+        "cn": "飞行员",
+        "eg": "The navy pilot kept calm during the strange flight. 这位海军飞行员在异常飞行中保持镇定。"
+      },
+      {
+        "word": "sound",
+        "phon": "/saʊnd/",
+        "pos": "n.",
+        "cn": "声音",
+        "eg": "A knocking sound came from behind the seat. 座位后方传来敲击声。"
+      },
+      {
+        "word": "knock",
+        "phon": "/nɒk/",
+        "pos": "n./v.",
+        "cn": "敲击声；敲",
+        "eg": "The knock grew louder and faster. 敲击声变得更响更快。"
+      },
+      {
+        "word": "supersonic",
+        "phon": "/ˌsuːpəˈsɒnɪk/",
+        "pos": "adj.",
+        "cn": "超音速的",
+        "eg": "He was flying at a supersonic speed. 他正以超音速飞行。"
+      },
+      {
+        "word": "instrument",
+        "phon": "/ˈɪnstrəmənt/",
+        "pos": "n.",
+        "cn": "仪表",
+        "eg": "All the instruments looked normal. 所有仪表看上去都正常。"
+      },
+      {
+        "word": "vibrate",
+        "phon": "/vaɪˈbreɪt/",
+        "pos": "v.",
+        "cn": "振动",
+        "eg": "A loose plate had been vibrating in the wind. 一块松动金属板一直在风中振动。"
+      },
+      {
+        "word": "loud",
+        "phon": "/laʊd/",
+        "pos": "adj.",
+        "cn": "响亮的",
+        "eg": "The noise became louder near the coast. 靠近海岸时噪声变得更大。"
+      },
+      {
+        "word": "speed",
+        "phon": "/spiːd/",
+        "pos": "n.",
+        "cn": "速度",
+        "eg": "The speed was faster than sound. 这速度比声音更快。"
+      },
+      {
+        "word": "NASA",
+        "phon": "/'næsə/",
+        "pos": "",
+        "cn": "国家航空和宇宙航行局",
+        "eg": ""
+      },
+      {
+        "word": "billion",
+        "phon": "/'bɪljən/",
+        "pos": "n.",
+        "cn": "亿",
+        "eg": ""
+      },
+      {
+        "word": "faulty",
+        "phon": "/'fɔːltɪ; 'fɒltɪ/",
+        "pos": "a.",
+        "cn": "有错误的",
+        "eg": ""
+      },
+      {
+        "word": "astronaut",
+        "phon": "/'æstrənɔːt/",
+        "pos": "n.",
+        "cn": "宇航员",
+        "eg": ""
+      },
+      {
+        "word": "shuttle",
+        "phon": "/'ʃʌtl/",
+        "pos": "n.",
+        "cn": "宇航飞机",
+        "eg": ""
+      },
+      {
+        "word": "Endeavour",
+        "phon": "/in'devə/",
+        "pos": "n.",
+        "cn": "“奋进”号",
+        "eg": ""
+      },
+      {
+        "word": "robot-arm  n.",
+        "phon": "",
+        "pos": "",
+        "cn": "机器手",
+        "eg": ""
+      },
+      {
+        "word": "grab",
+        "phon": "/græb/",
+        "pos": "v.",
+        "cn": "抓",
+        "eg": ""
+      },
+      {
+        "word": "atmosphere",
+        "phon": "/'ætməsfɪr/",
+        "pos": "n.",
+        "cn": "大气层",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -301,16 +1213,130 @@
     "title": "Can I help you, madam?",
     "titleCn": "您要买什么，夫人？",
     "scene": "一位女士在繁忙街头不慎掉了钱包，自己却没察觉。一个年轻男子捡起后追上她，礼貌地递回钱包。女士连声道谢，回家后打开才发现里面的钱不见了。她这才明白，自己在拥挤中被偷了，而小偷又假装“好心人”把空钱包还给她。故事里大量出现反身代词（myself, yourself）来强调“自己亲自”或“受动作影响者就是自己”，叙述事件则继续使用一般过去时。",
-    "grammarTags": ["反身代词", "一般过去时"],
+    "grammarTags": [
+      "反身代词",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "madam", "phon": "/ˈmædəm/", "pos": "n.", "cn": "夫人，女士", "eg": "Can I help you, madam? the man asked politely. 那人礼貌地问：夫人，我能帮您吗？" },
-      { "word": "drop", "phon": "/drɒp/", "pos": "v.", "cn": "掉落", "eg": "She dropped her purse in the crowd. 她在人群中掉了钱包。" },
-      { "word": "return", "phon": "/rɪˈtɜːn/", "pos": "v.", "cn": "归还", "eg": "The young man returned it at once. 那个年轻人立刻把它还了回来。" },
-      { "word": "empty", "phon": "/ˈempti/", "pos": "adj.", "cn": "空的", "eg": "The purse looked normal but it was empty. 钱包看起来正常，却是空的。" },
-      { "word": "thief", "phon": "/θiːf/", "pos": "n.", "cn": "小偷", "eg": "The thief smiled and disappeared quickly. 小偷笑了笑，很快就消失了。" },
-      { "word": "crowd", "phon": "/kraʊd/", "pos": "n.", "cn": "人群", "eg": "She pushed through the crowd and got on a bus. 她挤过人群，上了公交车。" },
-      { "word": "careless", "phon": "/ˈkeələs/", "pos": "adj.", "cn": "粗心的", "eg": "She blamed herself for being careless. 她责怪自己太粗心。" },
-      { "word": "honest", "phon": "/ˈɒnɪst/", "pos": "adj.", "cn": "诚实的", "eg": "He looked honest, but he was not. 他看起来很诚实，其实并非如此。" }
+      {
+        "word": "madam",
+        "phon": "/ˈmædəm/",
+        "pos": "n.",
+        "cn": "夫人，女士",
+        "eg": "Can I help you, madam? the man asked politely. 那人礼貌地问：夫人，我能帮您吗？"
+      },
+      {
+        "word": "drop",
+        "phon": "/drɒp/",
+        "pos": "v.",
+        "cn": "掉落",
+        "eg": "She dropped her purse in the crowd. 她在人群中掉了钱包。"
+      },
+      {
+        "word": "return",
+        "phon": "/rɪˈtɜːn/",
+        "pos": "v.",
+        "cn": "归还",
+        "eg": "The young man returned it at once. 那个年轻人立刻把它还了回来。"
+      },
+      {
+        "word": "empty",
+        "phon": "/ˈempti/",
+        "pos": "adj.",
+        "cn": "空的",
+        "eg": "The purse looked normal but it was empty. 钱包看起来正常，却是空的。"
+      },
+      {
+        "word": "thief",
+        "phon": "/θiːf/",
+        "pos": "n.",
+        "cn": "小偷",
+        "eg": "The thief smiled and disappeared quickly. 小偷笑了笑，很快就消失了。"
+      },
+      {
+        "word": "crowd",
+        "phon": "/kraʊd/",
+        "pos": "n.",
+        "cn": "人群",
+        "eg": "She pushed through the crowd and got on a bus. 她挤过人群，上了公交车。"
+      },
+      {
+        "word": "careless",
+        "phon": "/ˈkeələs/",
+        "pos": "adj.",
+        "cn": "粗心的",
+        "eg": "She blamed herself for being careless. 她责怪自己太粗心。"
+      },
+      {
+        "word": "honest",
+        "phon": "/ˈɒnɪst/",
+        "pos": "adj.",
+        "cn": "诚实的",
+        "eg": "He looked honest, but he was not. 他看起来很诚实，其实并非如此。"
+      },
+      {
+        "word": "distant",
+        "phon": "/'dɪstənt/",
+        "pos": "a.",
+        "cn": "遥远的",
+        "eg": ""
+      },
+      {
+        "word": "galaxy",
+        "phon": "/'gæləksɪ/",
+        "pos": "n.",
+        "cn": "星系",
+        "eg": ""
+      },
+      {
+        "word": "universe",
+        "phon": "/'juːnɪvɜːs/",
+        "pos": "n.",
+        "cn": "宇宙",
+        "eg": ""
+      },
+      {
+        "word": "eagle eye",
+        "phon": "",
+        "pos": "",
+        "cn": "鹰眼",
+        "eg": ""
+      },
+      {
+        "word": "control",
+        "phon": "/kən'trəʊl/",
+        "pos": "n.",
+        "cn": "控制",
+        "eg": ""
+      },
+      {
+        "word": "smoke",
+        "phon": "/sməʊk/",
+        "pos": "n.",
+        "cn": "烟",
+        "eg": ""
+      },
+      {
+        "word": "desolate",
+        "phon": "/'des(ə)lət/",
+        "pos": "a.",
+        "cn": "荒凉的",
+        "eg": ""
+      },
+      {
+        "word": "threaten",
+        "phon": "/'θret(ə)n/",
+        "pos": "v.",
+        "cn": "威胁",
+        "eg": ""
+      },
+      {
+        "word": "surrounding",
+        "phon": "/sə'raʊndɪŋ/",
+        "pos": "a.",
+        "cn": "周围的",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -338,16 +1364,130 @@
     "title": "A blessing in disguise?",
     "titleCn": "是因祸得福吗？",
     "scene": "一家小店因道路施工被迫停业，老板原本以为生意会彻底完蛋，甚至准备转行。几个月后，附近却建起一座大型商场，客流明显增加，原来无人问津的小店反而被更多人看到。老板回头看才发现，当初看似倒霉的变化其实带来了机会。课文通过过去叙事说明事实，又用 was/were going to、would 表达“当时以为将会发生的事”，帮助区分真实结果与过去的预测。",
-    "grammarTags": ["一般将来时", "一般过去时"],
+    "grammarTags": [
+      "一般将来时",
+      "一般过去时"
+    ],
     "words": [
-      { "word": "blessing", "phon": "/ˈblesɪŋ/", "pos": "n.", "cn": "幸事，福气", "eg": "Losing that old contract became a blessing in disguise. 失去旧合同反而成了因祸得福。" },
-      { "word": "disguise", "phon": "/dɪsˈɡaɪz/", "pos": "n./v.", "cn": "伪装；掩饰", "eg": "At first the chance was hidden in disguise. 起初机会被坏消息掩盖了。" },
-      { "word": "close", "phon": "/kləʊz/", "pos": "v.", "cn": "关闭", "eg": "The shop closed for several weeks. 那家店停业了几周。" },
-      { "word": "nearby", "phon": "/ˌnɪəˈbaɪ/", "pos": "adj./adv.", "cn": "附近的（地）", "eg": "A large store was built nearby soon after. 不久附近建起了一家大商场。" },
-      { "word": "customer", "phon": "/ˈkʌstəmə/", "pos": "n.", "cn": "顾客", "eg": "More customers started coming every day. 每天开始有更多顾客到来。" },
-      { "word": "business", "phon": "/ˈbɪznəs/", "pos": "n.", "cn": "生意", "eg": "His business improved faster than expected. 他的生意比预期改善得更快。" },
-      { "word": "expect", "phon": "/ɪkˈspekt/", "pos": "v.", "cn": "预料", "eg": "He expected he would lose everything. 他原以为自己会失去一切。" },
-      { "word": "opportunity", "phon": "/ˌɒpəˈtjuːnəti/", "pos": "n.", "cn": "机会", "eg": "The new road brought unexpected opportunities. 新道路带来了意想不到的机会。" }
+      {
+        "word": "blessing",
+        "phon": "/ˈblesɪŋ/",
+        "pos": "n.",
+        "cn": "幸事，福气",
+        "eg": "Losing that old contract became a blessing in disguise. 失去旧合同反而成了因祸得福。"
+      },
+      {
+        "word": "disguise",
+        "phon": "/dɪsˈɡaɪz/",
+        "pos": "n./v.",
+        "cn": "伪装；掩饰",
+        "eg": "At first the chance was hidden in disguise. 起初机会被坏消息掩盖了。"
+      },
+      {
+        "word": "close",
+        "phon": "/kləʊz/",
+        "pos": "v.",
+        "cn": "关闭",
+        "eg": "The shop closed for several weeks. 那家店停业了几周。"
+      },
+      {
+        "word": "nearby",
+        "phon": "/ˌnɪəˈbaɪ/",
+        "pos": "adj./adv.",
+        "cn": "附近的（地）",
+        "eg": "A large store was built nearby soon after. 不久附近建起了一家大商场。"
+      },
+      {
+        "word": "customer",
+        "phon": "/ˈkʌstəmə/",
+        "pos": "n.",
+        "cn": "顾客",
+        "eg": "More customers started coming every day. 每天开始有更多顾客到来。"
+      },
+      {
+        "word": "business",
+        "phon": "/ˈbɪznəs/",
+        "pos": "n.",
+        "cn": "生意",
+        "eg": "His business improved faster than expected. 他的生意比预期改善得更快。"
+      },
+      {
+        "word": "expect",
+        "phon": "/ɪkˈspekt/",
+        "pos": "v.",
+        "cn": "预料",
+        "eg": "He expected he would lose everything. 他原以为自己会失去一切。"
+      },
+      {
+        "word": "opportunity",
+        "phon": "/ˌɒpəˈtjuːnəti/",
+        "pos": "n.",
+        "cn": "机会",
+        "eg": "The new road brought unexpected opportunities. 新道路带来了意想不到的机会。"
+      },
+      {
+        "word": "destruction",
+        "phon": "/dɪ'strʌkʃn/",
+        "pos": "n.",
+        "cn": "破坏，毁灭",
+        "eg": ""
+      },
+      {
+        "word": "flood",
+        "phon": "/flʌd/",
+        "pos": "n.",
+        "cn": "洪水，水灾",
+        "eg": ""
+      },
+      {
+        "word": "authority",
+        "phon": "/ə'θɔːrəti/",
+        "pos": "n.",
+        "cn": "(常用复数)当局",
+        "eg": ""
+      },
+      {
+        "word": "grass-seed",
+        "phon": "/'gra:s'si:d/",
+        "pos": "n.",
+        "cn": "草籽",
+        "eg": ""
+      },
+      {
+        "word": "spray",
+        "phon": "/spreɪ/",
+        "pos": "v.",
+        "cn": "喷撒",
+        "eg": ""
+      },
+      {
+        "word": "quantity",
+        "phon": "/'kwɒntɪtɪ/",
+        "pos": "n.",
+        "cn": "量",
+        "eg": ""
+      },
+      {
+        "word": "root",
+        "phon": "/ruːt/",
+        "pos": "n.",
+        "cn": "根",
+        "eg": ""
+      },
+      {
+        "word": "century",
+        "phon": "/ˈsentʃərɪ/",
+        "pos": "n.",
+        "cn": "世纪",
+        "eg": ""
+      },
+      {
+        "word": "patch",
+        "phon": "/pætʃ/",
+        "pos": "n.",
+        "cn": "小片",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -375,16 +1515,130 @@
     "title": "In or out?",
     "titleCn": "进来还是出去？",
     "scene": "Rex 是只脾气古怪的小狗，白天总在门口来回折腾：在外面时拼命叫着要进屋，刚放进来又立刻抓门要出去。主人一整天被它折磨得团团转，几乎无法工作。邻居建议训练它，但主人感叹 Rex 太聪明也太任性。这个场景特别适合练习 too...to 和 enough...to：比如“叫得太厉害，没法忽视”“门开得够快，它就立刻冲出去”，用来表达“程度过高导致不能做”与“程度足以做到”。",
-    "grammarTags": ["too...to", "enough...to"],
+    "grammarTags": [
+      "too...to",
+      "enough...to"
+    ],
     "words": [
-      { "word": "bark", "phon": "/bɑːk/", "pos": "v.", "cn": "吠叫", "eg": "Rex barked loudly at the door all morning. Rex 一上午都在门口大声叫。" },
-      { "word": "let in", "phon": "/let ɪn/", "pos": "phr.", "cn": "让......进来", "eg": "If I let him in, he wanted to go out again. 我一让它进来，它就又想出去。" },
-      { "word": "let out", "phon": "/let aʊt/", "pos": "phr.", "cn": "让......出去", "eg": "She let the dog out five times in an hour. 她一小时内放这只狗出去五次。" },
-      { "word": "scratch", "phon": "/skrætʃ/", "pos": "v.", "cn": "抓，挠", "eg": "The dog scratched the door impatiently. 这只狗不耐烦地抓门。" },
-      { "word": "patient", "phon": "/ˈpeɪʃnt/", "pos": "adj.", "cn": "有耐心的", "eg": "No one was patient enough to ignore him. 没人有足够耐心无视它。" },
-      { "word": "annoy", "phon": "/əˈnɔɪ/", "pos": "v.", "cn": "使恼火", "eg": "His noise annoyed everyone in the house. 它的叫声让屋里每个人都烦躁。" },
-      { "word": "obedient", "phon": "/əˈbiːdiənt/", "pos": "adj.", "cn": "听话的", "eg": "Rex was too stubborn to be obedient. Rex 太倔了，不可能乖乖听话。" },
-      { "word": "doorstep", "phon": "/ˈdɔːstep/", "pos": "n.", "cn": "门阶", "eg": "He sat on the doorstep and cried. 它坐在门阶上呜呜叫。" }
+      {
+        "word": "bark",
+        "phon": "/bɑːk/",
+        "pos": "v.",
+        "cn": "吠叫",
+        "eg": "Rex barked loudly at the door all morning. Rex 一上午都在门口大声叫。"
+      },
+      {
+        "word": "let in",
+        "phon": "/let ɪn/",
+        "pos": "phr.",
+        "cn": "让......进来",
+        "eg": "If I let him in, he wanted to go out again. 我一让它进来，它就又想出去。"
+      },
+      {
+        "word": "let out",
+        "phon": "/let aʊt/",
+        "pos": "phr.",
+        "cn": "让......出去",
+        "eg": "She let the dog out five times in an hour. 她一小时内放这只狗出去五次。"
+      },
+      {
+        "word": "scratch",
+        "phon": "/skrætʃ/",
+        "pos": "v.",
+        "cn": "抓，挠",
+        "eg": "The dog scratched the door impatiently. 这只狗不耐烦地抓门。"
+      },
+      {
+        "word": "patient",
+        "phon": "/ˈpeɪʃnt/",
+        "pos": "adj.",
+        "cn": "有耐心的",
+        "eg": "No one was patient enough to ignore him. 没人有足够耐心无视它。"
+      },
+      {
+        "word": "annoy",
+        "phon": "/əˈnɔɪ/",
+        "pos": "v.",
+        "cn": "使恼火",
+        "eg": "His noise annoyed everyone in the house. 它的叫声让屋里每个人都烦躁。"
+      },
+      {
+        "word": "obedient",
+        "phon": "/əˈbiːdiənt/",
+        "pos": "adj.",
+        "cn": "听话的",
+        "eg": "Rex was too stubborn to be obedient. Rex 太倔了，不可能乖乖听话。"
+      },
+      {
+        "word": "doorstep",
+        "phon": "/ˈdɔːstep/",
+        "pos": "n.",
+        "cn": "门阶",
+        "eg": "He sat on the doorstep and cried. 它坐在门阶上呜呜叫。"
+      },
+      {
+        "word": "blacken",
+        "phon": "/'blæk(ə)n/",
+        "pos": "v.",
+        "cn": "变黑，发暗",
+        "eg": ""
+      },
+      {
+        "word": "circle",
+        "phon": "/'sɜːk(ə)l/",
+        "pos": "n.",
+        "cn": "圈子",
+        "eg": ""
+      },
+      {
+        "word": "admire",
+        "phon": "/əd'maɪər/",
+        "pos": "v.",
+        "cn": "赞美，钦佩",
+        "eg": ""
+      },
+      {
+        "word": "close",
+        "phon": "/kləʊs/",
+        "pos": "a.",
+        "cn": "亲密的",
+        "eg": ""
+      },
+      {
+        "word": "wedding",
+        "phon": "/'wedɪŋ/",
+        "pos": "n.",
+        "cn": "婚礼",
+        "eg": ""
+      },
+      {
+        "word": "reception",
+        "phon": "/rɪ'sepʃn/",
+        "pos": "n.",
+        "cn": "执行会",
+        "eg": ""
+      },
+      {
+        "word": "sort",
+        "phon": "/sɔːt/",
+        "pos": "n.",
+        "cn": "种类",
+        "eg": ""
+      },
+      {
+        "word": "tunnel",
+        "phon": "/'tʌnl/",
+        "pos": "n.",
+        "cn": "隧道",
+        "eg": ""
+      },
+      {
+        "word": "port",
+        "phon": "/pɔːt/",
+        "pos": "n.",
+        "cn": "港口",
+        "eg": ""
+      }
     ],
     "grammar": [
       {
@@ -412,16 +1666,130 @@
     "title": "The future",
     "titleCn": "卜算未来",
     "scene": "作者在集市上遇到一位算命先生，对方看了看手相便笃定地说：你将会很快遇到一个陌生人，他会改变你的生活。作者半信半疑地离开，没想到当天下午就在车站结识了一位陌生旅客，并由此得到一份新工作机会。这个故事同时出现两种“将来”：直接预测用 will（你将会遇到），而转述过去说过的话则用 would（他说我会遇到），即“过去视角下的将来”。",
-    "grammarTags": ["一般将来时", "过去将来时"],
+    "grammarTags": [
+      "一般将来时",
+      "过去将来时"
+    ],
     "words": [
-      { "word": "future", "phon": "/ˈfjuːtʃə/", "pos": "n.", "cn": "未来", "eg": "No one can know the future exactly. 没有人能准确知道未来。" },
-      { "word": "fortune-teller", "phon": "/ˈfɔːtʃuːn ˌtelə/", "pos": "n.", "cn": "算命先生", "eg": "A fortune-teller read my palm in the market. 一位算命先生在集市上给我看手相。" },
-      { "word": "palm", "phon": "/pɑːm/", "pos": "n.", "cn": "手掌，手相", "eg": "He looked at my palm for a long time. 他盯着我的手掌看了很久。" },
-      { "word": "predict", "phon": "/prɪˈdɪkt/", "pos": "v.", "cn": "预言，预测", "eg": "He predicted that I would meet a stranger soon. 他预言我很快会遇到一位陌生人。" },
-      { "word": "stranger", "phon": "/ˈstreɪndʒə/", "pos": "n.", "cn": "陌生人", "eg": "I met a stranger at the station that afternoon. 那天下午我在车站遇到一位陌生人。" },
-      { "word": "believe", "phon": "/bɪˈliːv/", "pos": "v.", "cn": "相信", "eg": "At first I did not believe his words. 起初我并不相信他的话。" },
-      { "word": "chance", "phon": "/tʃɑːns/", "pos": "n.", "cn": "机会", "eg": "The meeting gave me a chance to change jobs. 这次相遇给了我换工作的机会。" },
-      { "word": "destiny", "phon": "/ˈdestəni/", "pos": "n.", "cn": "命运", "eg": "Some people call it destiny, others call it luck. 有人称之为命运，有人称之为运气。" }
+      {
+        "word": "future",
+        "phon": "/ˈfjuːtʃə/",
+        "pos": "n.",
+        "cn": "未来",
+        "eg": "No one can know the future exactly. 没有人能准确知道未来。"
+      },
+      {
+        "word": "fortune-teller",
+        "phon": "/ˈfɔːtʃuːn ˌtelə/",
+        "pos": "n.",
+        "cn": "算命先生",
+        "eg": "A fortune-teller read my palm in the market. 一位算命先生在集市上给我看手相。"
+      },
+      {
+        "word": "palm",
+        "phon": "/pɑːm/",
+        "pos": "n.",
+        "cn": "手掌，手相",
+        "eg": "He looked at my palm for a long time. 他盯着我的手掌看了很久。"
+      },
+      {
+        "word": "predict",
+        "phon": "/prɪˈdɪkt/",
+        "pos": "v.",
+        "cn": "预言，预测",
+        "eg": "He predicted that I would meet a stranger soon. 他预言我很快会遇到一位陌生人。"
+      },
+      {
+        "word": "stranger",
+        "phon": "/ˈstreɪndʒə/",
+        "pos": "n.",
+        "cn": "陌生人",
+        "eg": "I met a stranger at the station that afternoon. 那天下午我在车站遇到一位陌生人。"
+      },
+      {
+        "word": "believe",
+        "phon": "/bɪˈliːv/",
+        "pos": "v.",
+        "cn": "相信",
+        "eg": "At first I did not believe his words. 起初我并不相信他的话。"
+      },
+      {
+        "word": "chance",
+        "phon": "/tʃɑːns/",
+        "pos": "n.",
+        "cn": "机会",
+        "eg": "The meeting gave me a chance to change jobs. 这次相遇给了我换工作的机会。"
+      },
+      {
+        "word": "destiny",
+        "phon": "/ˈdestəni/",
+        "pos": "n.",
+        "cn": "命运",
+        "eg": "Some people call it destiny, others call it luck. 有人称之为命运，有人称之为运气。"
+      },
+      {
+        "word": "ventilate",
+        "phon": "/'ventɪleɪt/",
+        "pos": "v.",
+        "cn": "通风",
+        "eg": ""
+      },
+      {
+        "word": "chimney",
+        "phon": "/'tʃɪmnɪ/",
+        "pos": "n.",
+        "cn": "烟囱",
+        "eg": ""
+      },
+      {
+        "word": "sea level",
+        "phon": "",
+        "pos": "",
+        "cn": "海平面",
+        "eg": ""
+      },
+      {
+        "word": "double",
+        "phon": "/'dʌb(ə)l/",
+        "pos": "a.",
+        "cn": "双的",
+        "eg": ""
+      },
+      {
+        "word": "ventilation",
+        "phon": "/ˌventɪ'leɪʃn/",
+        "pos": "n.",
+        "cn": "通风",
+        "eg": ""
+      },
+      {
+        "word": "fear",
+        "phon": "/fɪə/",
+        "pos": "v.",
+        "cn": "害怕",
+        "eg": ""
+      },
+      {
+        "word": "invasion",
+        "phon": "/ɪn'veɪʒn/",
+        "pos": "n.",
+        "cn": "入侵，侵略",
+        "eg": ""
+      },
+      {
+        "word": "officially",
+        "phon": "/ə'fɪʃəlɪ/",
+        "pos": "adv.",
+        "cn": "正式地",
+        "eg": ""
+      },
+      {
+        "word": "connect",
+        "phon": "/kə'nekt/",
+        "pos": "v.",
+        "cn": "连接",
+        "eg": ""
+      }
     ],
     "grammar": [
       {

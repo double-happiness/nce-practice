@@ -1,0 +1,181 @@
+[
+  {
+    "id": "dlg-chain-cafe-01",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 1,
+      "parts": 8
+    },
+    "title": "Chain 1/8: Find a Seat",
+    "titleCn": "第1环：找座位",
+    "scene": "周六下午，咖啡馆很满，你问店员有没有位。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "还有空位吗？我想待一会儿。", "en": "Any seats available? I'd like to stay a while." },
+      { "role": "Barista", "cn": "靠墙高脚桌刚空出来，有插座。", "en": "A high-top by the wall just opened. It has an outlet." },
+      { "role": "You", "cn": "太好了，我先把包放下。", "en": "Perfect. I'll drop my bag there first." },
+      { "role": "Barista", "cn": "点单请到柜台。", "en": "Order at the counter when you're ready." },
+      { "role": "You", "cn": "马上来。", "en": "Be right there." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-02",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 2,
+      "parts": 8
+    },
+    "title": "Chain 2/8: Order Coffee",
+    "titleCn": "第2环：点咖啡",
+    "scene": "你在柜台点咖啡。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "Barista", "cn": "你好！今天想喝点什么？", "en": "Hi there! What can I get for you today?" },
+      { "role": "You", "cn": "一杯大杯拿铁，燕麦奶，少冰。", "en": "A grande latte with oat milk, light ice." },
+      { "role": "Barista", "cn": "要加糖浆吗？", "en": "Would you like any syrup in that?" },
+      { "role": "You", "cn": "加香草糖浆，谢谢。", "en": "Vanilla syrup, please." },
+      { "role": "Barista", "cn": "在这里吃还是带走？", "en": "For here or to go?" },
+      { "role": "You", "cn": "在这里，谢谢。", "en": "For here, thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-03",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 3,
+      "parts": 8
+    },
+    "title": "Chain 3/8: Wrong Drink",
+    "titleCn": "第3环：饮品做错",
+    "scene": "叫到你的名字，发现拿铁做成了全脂奶。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "不好意思，我点的是燕麦奶。", "en": "Sorry, I ordered oat milk." },
+      { "role": "Barista", "cn": "非常抱歉，我重做一杯。", "en": "My apologies. I'll remake it." },
+      { "role": "You", "cn": "没事，不急。", "en": "No rush." },
+      { "role": "Barista", "cn": "两分钟，请在旁边等。", "en": "Two minutes. Please wait nearby." },
+      { "role": "You", "cn": "好的，谢谢。", "en": "Okay. Thank you." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-04",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 4,
+      "parts": 8
+    },
+    "title": "Chain 4/8: Work on Laptop",
+    "titleCn": "第4环：笔记本办公",
+    "scene": "你用笔记本工作，需要连 Wi-Fi。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "Wi-Fi 密码是多少？", "en": "What's the Wi-Fi password?" },
+      { "role": "Barista", "cn": "印在收据上，用户名是店名。", "en": "It's on your receipt. Username is the shop name." },
+      { "role": "You", "cn": "插座能用吗？要待两小时。", "en": "Is the outlet okay to use? I'll be here about two hours." },
+      { "role": "Barista", "cn": "没问题，高峰时段请分享座位。", "en": "Sure. During rush hour, please share the table." },
+      { "role": "You", "cn": "明白，谢谢。", "en": "Got it. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-05",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 5,
+      "parts": 8
+    },
+    "title": "Chain 5/8: Order a Pastry",
+    "titleCn": "第5环：加点心",
+    "scene": "工作一会儿，你想加个蓝莓司康。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "能再加一个蓝莓司康吗？", "en": "Can I add a blueberry scone?" },
+      { "role": "Barista", "cn": "要加热吗？", "en": "Want it warmed up?" },
+      { "role": "You", "cn": "加热，再来一杯美式续杯。", "en": "Yes, please. And a refill on my Americano." },
+      { "role": "Barista", "cn": "续杯一块五，一共四块八。", "en": "Refill is a dollar fifty. Four eighty total." },
+      { "role": "You", "cn": "刷卡，谢谢。", "en": "Card, please. Thanks." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-06",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 6,
+      "parts": 8
+    },
+    "title": "Chain 6/8: Friend Arrives",
+    "titleCn": "第6环：朋友到了",
+    "scene": "朋友如约来咖啡馆见面。（对话链：咖啡馆）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "嘿！好久不见！", "en": "Hey! Long time no see!" },
+      { "role": "You", "cn": "是啊！最近怎么样？", "en": "I know! How have you been?" },
+      { "role": "Friend", "cn": "还不错，刚换了新工作。", "en": "Pretty good. I just started a new job." },
+      { "role": "You", "cn": "恭喜！做什么的？", "en": "Congratulations! What do you do?" },
+      { "role": "Friend", "cn": "在一家科技公司做产品经理。", "en": "I'm a product manager at a tech company." },
+      { "role": "You", "cn": "太棒了！要不要再点一杯？", "en": "That's awesome! Want another round?" }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-07",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 7,
+      "parts": 8
+    },
+    "title": "Chain 7/8: Who Pays",
+    "titleCn": "第7环：谁买单",
+    "scene": "聊完准备走，朋友说要请客。（对话链：咖啡馆）",
+    "roles": ["You", "Friend"],
+    "turns": [
+      { "role": "Friend", "cn": "今天我请，你上次帮了大忙。", "en": "My treat today. You helped me out last time." },
+      { "role": "You", "cn": "不用吧，AA 就行。", "en": "You don't have to. We can split it." },
+      { "role": "Friend", "cn": "别争了，下次你请。", "en": "Don't argue. You get the next one." },
+      { "role": "You", "cn": "好吧，谢谢。", "en": "Okay. Thanks." },
+      { "role": "Friend", "cn": "下次去那家新开的。", "en": "Next time let's try that new place." },
+      { "role": "You", "cn": "一言为定。", "en": "Deal." }
+    ]
+  },
+  {
+    "id": "dlg-chain-cafe-08",
+    "category": "cafe",
+    "chain": {
+      "id": "cafe-afternoon",
+      "title": "An Afternoon at the Cafe",
+      "titleCn": "对话链：咖啡馆一下午",
+      "part": 8,
+      "parts": 8
+    },
+    "title": "Chain 8/8: Leave and Review",
+    "titleCn": "第8环：离店评价",
+    "scene": "离开前你跟店员道别，打算写评价。（对话链：咖啡馆）",
+    "roles": ["You", "Barista"],
+    "turns": [
+      { "role": "You", "cn": "今天打扰久了，谢谢换燕麦奶那杯。", "en": "Sorry for staying so long. Thanks for remaking the oat milk latte." },
+      { "role": "Barista", "cn": "没事，欢迎常来。", "en": "No problem. Come back anytime." },
+      { "role": "You", "cn": "插座和 Wi-Fi 都很棒，我会写好评。", "en": "Great outlets and Wi-Fi. I'll leave a good review." },
+      { "role": "Barista", "cn": "谢谢！明天见。", "en": "Thank you! See you tomorrow." },
+      { "role": "You", "cn": "明天见。", "en": "See you tomorrow." }
+    ]
+  }
+]

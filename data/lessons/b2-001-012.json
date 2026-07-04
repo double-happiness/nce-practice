@@ -5,7 +5,10 @@
     "title": "A private conversation",
     "titleCn": "私人谈话",
     "scene": "叙述者上周去剧场看戏，戏很有意思，他却看得很不痛快：坐在身后的一对男女一直大声聊天，吵得他无法专心。他忍无可忍回头提醒，对方非但不理，反而无礼地回敬了一句，令他哭笑不得。全文回顾上周发生的事，通篇使用一般过去时叙事（went、sat、turned 等），是本册过去时叙事文的开篇范例。",
-    "grammarTags": ["一般过去时", "感叹句"],
+    "grammarTags": [
+      "一般过去时",
+      "感叹句"
+    ],
     "words": [
       {
         "word": "private",
@@ -76,6 +79,20 @@
         "pos": "adv.",
         "cn": "无礼地，粗鲁地",
         "eg": "He answered the old man rudely. 他粗鲁地回答那位老人。"
+      },
+      {
+        "word": "play",
+        "phon": "/pleɪ/",
+        "pos": "n.",
+        "cn": "戏",
+        "eg": "The play was very interesting."
+      },
+      {
+        "word": "angrily",
+        "phon": "/ˈæŋɡrɪlɪ/",
+        "pos": "adv.",
+        "cn": "生气地",
+        "eg": "I looked at the man and the woman angrily."
       }
     ],
     "grammar": [
@@ -112,7 +129,10 @@
     "title": "Breakfast or lunch?",
     "titleCn": "早餐还是午餐？",
     "scene": "一个下雨的星期天，叙述者赖床到很晚才起。姑妈打来电话说要来看他，他说自己正在吃早饭，姑妈很惊讶：都下午了还在吃早饭？课文以“星期天总是起得晚”这一习惯为线索，把表示习惯的一般现在时（always gets up late）和表示此刻动作的现在进行时（is having breakfast）放在一起对照，是区分这两种时态的经典语篇。",
-    "grammarTags": ["一般现在时", "现在进行时"],
+    "grammarTags": [
+      "一般现在时",
+      "现在进行时"
+    ],
     "words": [
       {
         "word": "until",
@@ -169,6 +189,34 @@
         "pos": "adj.",
         "cn": "黑暗的",
         "eg": "The room was dark, so I turned on the light. 房间很暗，于是我开了灯。"
+      },
+      {
+        "word": "bear",
+        "phon": "/beə/",
+        "pos": "v.",
+        "cn": "容忍",
+        "eg": ""
+      },
+      {
+        "word": "business",
+        "phon": "/ˈbɪznɪs/",
+        "pos": "n.",
+        "cn": "事",
+        "eg": ""
+      },
+      {
+        "word": "rudely",
+        "phon": "/'ru:dli/",
+        "pos": "adv.",
+        "cn": "无礼地，粗鲁地",
+        "eg": ""
+      },
+      {
+        "word": "send",
+        "phon": "/send/",
+        "pos": "v.",
+        "cn": "寄，送",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -197,7 +245,9 @@
     "title": "Please send me a card",
     "titleCn": "请给我寄一张明信片",
     "scene": "叙述者认为明信片总是搅扰他的假期：去年夏天他去度假，心里一直惦记着该给朋友们寄明信片，结果整整一天都耗在琢磨明信片和措辞上，哪儿也没去成，最后一张也没寄出，却做了一个重大决定。全文以 last summer 引领，动词一律采用一般过去时（thought、bought、spent 等），演示了如何用过去时讲述一段假期经历。",
-    "grammarTags": ["一般过去时"],
+    "grammarTags": [
+      "一般过去时"
+    ],
     "words": [
       {
         "word": "send",
@@ -268,6 +318,13 @@
         "pos": "adj.",
         "cn": "唯一的，单一的",
         "eg": "There wasn't a single empty seat on the bus. 公共汽车上连一个空座位都没有。"
+      },
+      {
+        "word": "waiter",
+        "phon": "/'weɪtə/",
+        "pos": "n.",
+        "cn": "服务员，招待员",
+        "eg": "A friendly waiter taught me a few words of Italian."
       }
     ],
     "grammar": [
@@ -304,7 +361,9 @@
     "title": "An exciting trip",
     "titleCn": "激动人心的旅行",
     "scene": "叙述者刚收到弟弟的来信，弟弟在澳大利亚工作，已经在那里待了六个月，去过许多地方，如今在一座大城市安顿下来。弟弟从未出过国，因此觉得这次旅行格外新奇刺激。课文是学习现在完成时的样板：has been、has visited 等表示“到目前为止的经历与延续”，并与从前的状况形成对照。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
       {
         "word": "exciting",
@@ -361,6 +420,27 @@
         "pos": "adv.",
         "cn": "已经",
         "eg": "I have already finished my homework. 我已经做完作业了。"
+      },
+      {
+        "word": "single",
+        "phon": "/'sɪŋg(ə)l/",
+        "pos": "a.",
+        "cn": "唯一的，单一的",
+        "eg": ""
+      },
+      {
+        "word": "pigeon",
+        "phon": "/'pɪdʒɪn/",
+        "pos": "n.",
+        "cn": "鸽子",
+        "eg": ""
+      },
+      {
+        "word": "message",
+        "phon": "/'mesɪdʒ/",
+        "pos": "n.",
+        "cn": "信息",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -397,7 +477,10 @@
     "title": "No wrong numbers",
     "titleCn": "无错号之虞",
     "scene": "一位工厂主需要经常向十英里外的另一处厂址传递紧急信件，他没有依赖电话，而是训练了一只鸽子来送信。鸽子每次只需很短时间就能飞完全程，把装在特制小笼里的信件安全送达，从不出差错，成了一种奇特的“空邮”。课文用一般过去时叙述这段趣闻（sent、covered、carried 等），并出现 in this way 等总结性表达。",
-    "grammarTags": ["一般过去时", "介词"],
+    "grammarTags": [
+      "一般过去时",
+      "介词"
+    ],
     "words": [
       {
         "word": "pigeon",
@@ -454,6 +537,41 @@
         "pos": "adj.",
         "cn": "紧急的",
         "eg": "He received an urgent call from the hospital. 他接到医院打来的紧急电话。"
+      },
+      {
+        "word": "over",
+        "phon": "/'əʊvə/",
+        "pos": "v.",
+        "cn": "越过",
+        "eg": ""
+      },
+      {
+        "word": "beggar",
+        "phon": "/'begə/",
+        "pos": "n.",
+        "cn": "乞丐",
+        "eg": ""
+      },
+      {
+        "word": "food",
+        "phon": "/fuːd/",
+        "pos": "n.",
+        "cn": "食物",
+        "eg": ""
+      },
+      {
+        "word": "pocket",
+        "phon": "/'pɒkɪt/",
+        "pos": "n.",
+        "cn": "衣服口袋",
+        "eg": ""
+      },
+      {
+        "word": "call",
+        "phon": "/kɔːl/",
+        "pos": "v.",
+        "cn": "拜访，光顾",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -490,7 +608,10 @@
     "title": "Percy Buttons",
     "titleCn": "珀西·巴顿斯",
     "scene": "叙述者搬进新街区不久，就见识了一位与众不同的乞丐：他敲门讨要饭食和啤酒，得到之后并不马上离开，而是倒立着唱歌作为回报，逗人一乐。向邻居打听后得知，这位叫珀西·巴顿斯的乞丐每月固定光顾街上的每一户人家。课文前半段用过去时讲述初遇经过，结尾转入一般现在时说明他“每月来一次”的习惯，两种时态的转换是学习重点。",
-    "grammarTags": ["一般现在时", "冠词"],
+    "grammarTags": [
+      "一般现在时",
+      "冠词"
+    ],
     "words": [
       {
         "word": "beggar",
@@ -547,6 +668,69 @@
         "pos": "adv.",
         "cn": "一次",
         "eg": "I go swimming once a week. 我每周游一次泳。"
+      },
+      {
+        "word": "detective",
+        "phon": "/dɪ'tektɪv/",
+        "pos": "n.",
+        "cn": "侦探",
+        "eg": ""
+      },
+      {
+        "word": "airport",
+        "phon": "/'eəpɔːt/",
+        "pos": "n.",
+        "cn": "机场",
+        "eg": ""
+      },
+      {
+        "word": "expect",
+        "phon": "/ɪkˈspekt/",
+        "pos": "v.",
+        "cn": "期待，等待",
+        "eg": ""
+      },
+      {
+        "word": "valuable",
+        "phon": "/'væljʊəb(ə)l/",
+        "pos": "a.",
+        "cn": "贵重的",
+        "eg": ""
+      },
+      {
+        "word": "parcel",
+        "phon": "/'pɑːs(ə)l/",
+        "pos": "n.",
+        "cn": "包裹",
+        "eg": ""
+      },
+      {
+        "word": "diamond",
+        "phon": "/'daɪəmənd/",
+        "pos": "n.",
+        "cn": "钻石",
+        "eg": ""
+      },
+      {
+        "word": "steal",
+        "phon": "/stiːl/",
+        "pos": "v.",
+        "cn": "偷",
+        "eg": ""
+      },
+      {
+        "word": "main",
+        "phon": "/mein/",
+        "pos": "a.",
+        "cn": "主要的",
+        "eg": ""
+      },
+      {
+        "word": "airfield",
+        "phon": "/'eəfiːld/",
+        "pos": "n.",
+        "cn": "飞机起落的场地",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -583,7 +767,9 @@
     "title": "Too late",
     "titleCn": "为时太晚",
     "scene": "几名侦探守候在机场，等待一架从南非飞来的飞机，因为有人报信说机上一个包裹里藏着价值连城的钻石，可能被人盗走。飞机降落后，两名警卫把包裹押上警车送往警局；然而打开一看，里面装的不是钻石，而是石块和沙子——窃贼早已得手。课文大量使用过去进行时（were waiting、was coming）交代背景动作，与表示突发动作的一般过去时交织，悬念感十足。",
-    "grammarTags": ["过去进行时"],
+    "grammarTags": [
+      "过去进行时"
+    ],
     "words": [
       {
         "word": "detective",
@@ -654,6 +840,48 @@
         "pos": "n.",
         "cn": "沙子",
         "eg": "The children were playing with sand on the beach. 孩子们在沙滩上玩沙子。"
+      },
+      {
+        "word": "stone",
+        "phon": "/stəʊn/",
+        "pos": "n.",
+        "cn": "石子",
+        "eg": ""
+      },
+      {
+        "word": "competition",
+        "phon": "/ˌkɒmpəˈtɪʃn/",
+        "pos": "n.",
+        "cn": "比赛,竞赛",
+        "eg": ""
+      },
+      {
+        "word": "neat",
+        "phon": "/niːt/",
+        "pos": "a.",
+        "cn": "整齐的，整洁的",
+        "eg": ""
+      },
+      {
+        "word": "path",
+        "phon": "/pɑːθ/",
+        "pos": "n.",
+        "cn": "小路，小径",
+        "eg": ""
+      },
+      {
+        "word": "wooden",
+        "phon": "/'wʊd(ə)n/",
+        "pos": "a.",
+        "cn": "木头的",
+        "eg": ""
+      },
+      {
+        "word": "pool",
+        "phon": "/puːl/",
+        "pos": "n.",
+        "cn": "水池",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -690,7 +918,9 @@
     "title": "The best and the worst",
     "titleCn": "最好的和最差的",
     "scene": "乔·桑德斯拥有小镇上最漂亮的花园，几乎每年都在花卉比赛中拔得头筹；叙述者的朋友比尔也热心园艺，但样样都比乔略逊一筹。叙述者自己的花园则杂草丛生、一片荒芜，可他自嘲道：自己的花园好歹也是“镇上最差的”，比赛结果毫无悬念。课文围绕三座花园层层比较，是形容词比较级和最高级（better、the best、the worst）的集中示范。",
-    "grammarTags": ["比较级和最高级"],
+    "grammarTags": [
+      "比较级和最高级"
+    ],
     "words": [
       {
         "word": "competition",
@@ -747,6 +977,69 @@
         "pos": "v.",
         "cn": "参加（比赛）；进入",
         "eg": "More than fifty people entered the photo competition. 五十多人参加了摄影比赛。"
+      },
+      {
+        "word": "welcome",
+        "phon": "/ˈwelkəm/",
+        "pos": "n.",
+        "cn": "欢迎 v.欢迎",
+        "eg": ""
+      },
+      {
+        "word": "crowd",
+        "phon": "/kraʊd/",
+        "pos": "n.",
+        "cn": "人群",
+        "eg": ""
+      },
+      {
+        "word": "gather",
+        "phon": "/'gæðə/",
+        "pos": "v.",
+        "cn": "聚集",
+        "eg": ""
+      },
+      {
+        "word": "hand",
+        "phon": "/hænd/",
+        "pos": "n.",
+        "cn": "(表或机器的)指针",
+        "eg": ""
+      },
+      {
+        "word": "shout",
+        "phon": "/ʃaʊt/",
+        "pos": "v.",
+        "cn": "喊叫",
+        "eg": ""
+      },
+      {
+        "word": "refuse",
+        "phon": "/rɪ'fjuːz/",
+        "pos": "v.",
+        "cn": "拒绝",
+        "eg": ""
+      },
+      {
+        "word": "laugh",
+        "phon": "/lɑːf/",
+        "pos": "v.",
+        "cn": "笑",
+        "eg": ""
+      },
+      {
+        "word": "jazz",
+        "phon": "/dʒæz/",
+        "pos": "n.",
+        "cn": "爵士音乐",
+        "eg": ""
+      },
+      {
+        "word": "musical",
+        "phon": "/'mjuːzɪk(ə)l/",
+        "pos": "a.",
+        "cn": "音乐的",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -783,7 +1076,10 @@
     "title": "A cold welcome",
     "titleCn": "冷遇",
     "scene": "除夕之夜，一大群人聚集在市政厅前的广场上，等着大钟敲响午夜十二点迎接新年。差一刻十二点时钟面亮了，人群屏息以待；然而时针分针到了整点却纹丝不动——大钟罢工了，众人只好各自看表，在笑声中喊出了新年的到来。课文按时间顺序用一般过去时推进（gathered、stopped、refused 等），十二点前后的悬念是叙事亮点。",
-    "grammarTags": ["一般过去时", "时间介词"],
+    "grammarTags": [
+      "一般过去时",
+      "时间介词"
+    ],
     "words": [
       {
         "word": "welcome",
@@ -847,6 +1143,69 @@
         "pos": "v.",
         "cn": "（钟）敲响",
         "eg": "The old clock strikes every hour. 那座老钟每小时敲响一次。"
+      },
+      {
+        "word": "instrument",
+        "phon": "/'ɪnstrʊm(ə)nt/",
+        "pos": "n.",
+        "cn": "乐器",
+        "eg": ""
+      },
+      {
+        "word": "clavichord",
+        "phon": "/'klævɪkɔːd/",
+        "pos": "n.",
+        "cn": "古钢琴",
+        "eg": ""
+      },
+      {
+        "word": "recently",
+        "phon": "/'riːsntlɪ/",
+        "pos": "adv.",
+        "cn": "最近",
+        "eg": ""
+      },
+      {
+        "word": "damage",
+        "phon": "/'dæmɪdʒ/",
+        "pos": "v.",
+        "cn": "损坏",
+        "eg": ""
+      },
+      {
+        "word": "key",
+        "phon": "/ki:/",
+        "pos": "n.",
+        "cn": "琴键",
+        "eg": ""
+      },
+      {
+        "word": "string",
+        "phon": "/strɪŋ/",
+        "pos": "n.",
+        "cn": "(乐器的)弦",
+        "eg": ""
+      },
+      {
+        "word": "shock",
+        "phon": "/ʃɒk/",
+        "pos": "v.",
+        "cn": "使不悦或生气，震惊",
+        "eg": ""
+      },
+      {
+        "word": "allow",
+        "phon": "/ə'laʊ/",
+        "pos": "v.",
+        "cn": "允许，让",
+        "eg": ""
+      },
+      {
+        "word": "touch",
+        "phon": "/tʌtʃ/",
+        "pos": "v.",
+        "cn": "触摸",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -883,7 +1242,9 @@
     "title": "Not for jazz",
     "titleCn": "不适于演奏爵士乐",
     "scene": "叙述者家里有一件珍贵的乐器——古钢琴，它很多年前在德国制造，是祖母买下后传下来的传家宝。前不久这件乐器被一位客人碰坏了：客人试图用它弹奏爵士乐，用力过猛把琴弦弄断了，父亲大为光火。如今琴已修好，家人不许外人再碰它。课文围绕这件古董的来历与遭遇，多处使用被动语态（was made、was bought、was damaged、has been repaired），是被动语态入门的典型语篇。",
-    "grammarTags": ["被动语态"],
+    "grammarTags": [
+      "被动语态"
+    ],
     "words": [
       {
         "word": "jazz",
@@ -954,6 +1315,69 @@
         "pos": "v.",
         "cn": "修理",
         "eg": "The old watch was repaired by my grandfather. 这块旧表是我爷爷修好的。"
+      },
+      {
+        "word": "turn",
+        "phon": "/tɜːn/",
+        "pos": "n.",
+        "cn": "行为，举止",
+        "eg": ""
+      },
+      {
+        "word": "deserve",
+        "phon": "/dɪ'zɜːrv/",
+        "pos": "v.",
+        "cn": "应得到，值得",
+        "eg": ""
+      },
+      {
+        "word": "lawyer",
+        "phon": "/'lɔːjə; 'lɒɪə/",
+        "pos": "n.",
+        "cn": "律师",
+        "eg": ""
+      },
+      {
+        "word": "bank",
+        "phon": "/bæŋk/",
+        "pos": "n.",
+        "cn": "银行",
+        "eg": ""
+      },
+      {
+        "word": "salary",
+        "phon": "/'sælərɪ/",
+        "pos": "n.",
+        "cn": "工资",
+        "eg": ""
+      },
+      {
+        "word": "immediately",
+        "phon": "/ɪ'miːdɪətlɪ/",
+        "pos": "adv.",
+        "cn": "立刻",
+        "eg": ""
+      },
+      {
+        "word": "luck",
+        "phon": "/lʌk/",
+        "pos": "n.",
+        "cn": "运气，幸运",
+        "eg": ""
+      },
+      {
+        "word": "captain",
+        "phon": "/'kæptɪn/",
+        "pos": "n.",
+        "cn": "船长",
+        "eg": ""
+      },
+      {
+        "word": "sail",
+        "phon": "/seɪl/",
+        "pos": "v.",
+        "cn": "航行",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -990,7 +1414,9 @@
     "title": "One good turn deserves another",
     "titleCn": "礼尚往来",
     "scene": "叙述者在饭店吃饭时遇到熟人托尼——一位律师，如今在银行工作。几年前叙述者曾在困难时向托尼借过钱并很快还清；托尼向来有借钱的“名声”。这次托尼坐下闲聊几句后，果然开口借钱，叙述者顺水推舟：那就请我把这顿饭钱付了吧，正应了“礼尚往来”。课文用现在完成时交代“到现在为止”的情况（have never borrowed 等），并穿插过去时回忆借钱旧事。",
-    "grammarTags": ["现在完成时"],
+    "grammarTags": [
+      "现在完成时"
+    ],
     "words": [
       {
         "word": "turn",
@@ -1047,6 +1473,69 @@
         "pos": "adv.",
         "cn": "立刻",
         "eg": "He paid back the money immediately. 他立刻把钱还了。"
+      },
+      {
+        "word": "harbour",
+        "phon": "/ˈhɑ:bə(r)/",
+        "pos": "n.",
+        "cn": "港口",
+        "eg": ""
+      },
+      {
+        "word": "proud",
+        "phon": "/praʊd/",
+        "pos": "a.",
+        "cn": "自豪",
+        "eg": ""
+      },
+      {
+        "word": "important",
+        "phon": "/ɪm'pɔːt(ə)nt/",
+        "pos": "a.",
+        "cn": "重要的",
+        "eg": ""
+      },
+      {
+        "word": "group",
+        "phon": "/gruːp/",
+        "pos": "n.",
+        "cn": "小组，团体",
+        "eg": ""
+      },
+      {
+        "word": "pop singer",
+        "phon": "",
+        "pos": "",
+        "cn": "流行歌手",
+        "eg": ""
+      },
+      {
+        "word": "club",
+        "phon": "/klʌb/",
+        "pos": "n.",
+        "cn": "俱乐部",
+        "eg": ""
+      },
+      {
+        "word": "performance",
+        "phon": "/pə'fɔːm(ə)ns/",
+        "pos": "n.",
+        "cn": "演出",
+        "eg": ""
+      },
+      {
+        "word": "occasion",
+        "phon": "/ə'keɪʒ(ə)n/",
+        "pos": "n.",
+        "cn": "场合",
+        "eg": ""
+      },
+      {
+        "word": "amusing",
+        "phon": "/ə'mjuːzɪŋ/",
+        "pos": "a.",
+        "cn": "好笑的，有趣的",
+        "eg": ""
       }
     ],
     "grammar": [
@@ -1083,7 +1572,9 @@
     "title": "Goodbye and good luck",
     "titleCn": "再见，一路顺风",
     "scene": "叙述者的邻居艾利森船长即将驾驶他心爱的小船出海，横渡大西洋参加一场重要的帆船比赛，全程将历时数月。明天一早船就要起航，叙述者将到码头为他送行并道一声“一路顺风”。课文站在出发前夜展望未来，通篇使用一般将来时（will sail、will set out、will meet 等），是学习 will 表将来的入门语篇。",
-    "grammarTags": ["一般将来时"],
+    "grammarTags": [
+      "一般将来时"
+    ],
     "words": [
       {
         "word": "luck",
@@ -1140,6 +1631,69 @@
         "pos": "adj.",
         "cn": "著名的",
         "eg": "This city is famous for its old bridges. 这座城市以古桥闻名。"
+      },
+      {
+        "word": "experience",
+        "phon": "/ɪkˈspɪərɪəns/",
+        "pos": "n.",
+        "cn": "经历",
+        "eg": ""
+      },
+      {
+        "word": "wave",
+        "phon": "/weɪv/",
+        "pos": "v.",
+        "cn": "招手",
+        "eg": ""
+      },
+      {
+        "word": "lift",
+        "phon": "/lɪft/",
+        "pos": "n.",
+        "cn": "搭便车",
+        "eg": ""
+      },
+      {
+        "word": "reply",
+        "phon": "/rɪ'plaɪ/",
+        "pos": "v.",
+        "cn": "回答",
+        "eg": ""
+      },
+      {
+        "word": "language",
+        "phon": "/'læŋgwɪdʒ/",
+        "pos": "n.",
+        "cn": "语言",
+        "eg": ""
+      },
+      {
+        "word": "journey",
+        "phon": "/'dʒɜːnɪ/",
+        "pos": "n.",
+        "cn": "旅行",
+        "eg": ""
+      },
+      {
+        "word": "secretary",
+        "phon": "/ˈsekrətrɪ/",
+        "pos": "n.",
+        "cn": "秘书",
+        "eg": ""
+      },
+      {
+        "word": "nervous",
+        "phon": "/'nɜːvəs/",
+        "pos": "a.",
+        "cn": "精神紧张的",
+        "eg": ""
+      },
+      {
+        "word": "afford",
+        "phon": "/ə'fɔːd/",
+        "pos": "v.",
+        "cn": "负担得起",
+        "eg": ""
       }
     ],
     "grammar": [

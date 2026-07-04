@@ -3,57 +3,201 @@
     "id": "tf-b1-015",
     "book": 1,
     "lesson": 47,
-    "grammar": ["some/any", "可数不可数", "there be句型"],
+    "grammar": [
+      "some/any",
+      "可数不可数",
+      "there be句型"
+    ],
     "cn": "瓶子里有一些牛奶。",
     "explanation": "some 用于肯定句，疑问句和否定句改用 any；milk 不可数，问数量用 How much。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["There is some milk in the bottle.", "There's some milk in the bottle."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句（注意 some 的变化）", "answers": ["Is there any milk in the bottle?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["There is not any milk in the bottle.", "There isn't any milk in the bottle.", "There is no milk in the bottle.", "There's no milk in the bottle."] },
-      { "kind": "wh", "prompt": "对「some milk」提问（问数量）", "answers": ["How much milk is there in the bottle?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "There is some milk in the bottle.",
+          "There's some milk in the bottle."
+        ],
+        "cn": "瓶子里有一些牛奶。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句（注意 some 的变化）",
+        "answers": [
+          "Is there any milk in the bottle?"
+        ],
+        "cn": "瓶子里有一些牛奶吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "There is not any milk in the bottle.",
+          "There isn't any milk in the bottle.",
+          "There is no milk in the bottle.",
+          "There's no milk in the bottle."
+        ],
+        "cn": "瓶子里没有一些牛奶。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「some milk」提问（问数量）",
+        "answers": [
+          "How much milk is there in the bottle?"
+        ],
+        "cn": "瓶子里有一些牛奶有多少？"
+      }
     ]
   },
   {
     "id": "tf-b1-016",
     "book": 1,
     "lesson": 75,
-    "grammar": ["形容词比较级"],
+    "grammar": [
+      "形容词比较级"
+    ],
     "cn": "Tom 比 Jim 高。",
     "explanation": "比较级句转换只动 be；\"谁更高\"用 Who is taller, A or B?（选择疑问）。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["Tom is taller than Jim."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Is Tom taller than Jim?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["Tom is not taller than Jim.", "Tom isn't taller than Jim."] },
-      { "kind": "wh", "prompt": "对「Tom」提问（问\"谁更高\"，用选择疑问）", "answers": ["Who is taller, Tom or Jim?", "Who's taller, Tom or Jim?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "Tom is taller than Jim."
+        ],
+        "cn": "Tom 比 Jim 高。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Is Tom taller than Jim?"
+        ],
+        "cn": "Tom 比 Jim 高吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "Tom is not taller than Jim.",
+          "Tom isn't taller than Jim."
+        ],
+        "cn": "Tom 比 Jim 高。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「Tom」提问（问\"谁更高\"，用选择疑问）",
+        "answers": [
+          "Who is taller, Tom or Jim?",
+          "Who's taller, Tom or Jim?"
+        ],
+        "cn": "谁更高？"
+      }
     ]
   },
   {
     "id": "tf-b1-017",
     "book": 1,
     "lesson": 57,
-    "grammar": ["一般现在时", "频率副词"],
+    "grammar": [
+      "一般现在时",
+      "频率副词"
+    ],
     "cn": "他每天七点起床。",
     "explanation": "对时刻提问用 What time（或 When）；三单疑问/否定借助 does，get up 还原原形。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文", "answers": ["He gets up at seven every day.", "He gets up at seven o'clock every day."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Does he get up at seven every day?", "Does he get up at seven o'clock every day?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["He does not get up at seven every day.", "He doesn't get up at seven every day.", "He does not get up at seven o'clock every day.", "He doesn't get up at seven o'clock every day."] },
-      { "kind": "wh", "prompt": "对「at seven」提问（问时刻）", "answers": ["What time does he get up every day?", "When does he get up every day?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文",
+        "answers": [
+          "He gets up at seven every day.",
+          "He gets up at seven o'clock every day."
+        ],
+        "cn": "他每天七点起床。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Does he get up at seven every day?",
+          "Does he get up at seven o'clock every day?"
+        ],
+        "cn": "他每天七点起床吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "He does not get up at seven every day.",
+          "He doesn't get up at seven every day.",
+          "He does not get up at seven o'clock every day.",
+          "He doesn't get up at seven o'clock every day."
+        ],
+        "cn": "他不每天七点起床。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「at seven」提问（问时刻）",
+        "answers": [
+          "What time does he get up every day?",
+          "When does he get up every day?"
+        ],
+        "cn": "他几点起床？"
+      }
     ]
   },
   {
     "id": "tf-b1-018",
     "book": 1,
     "lesson": 37,
-    "grammar": ["一般将来时"],
+    "grammar": [
+      "一般将来时"
+    ],
     "cn": "他们下周将去北京。",
     "explanation": "will 转换不借助 do：疑问句 will 提前，否定句 will not（won't）；问地点 Where，问时间 When。",
     "steps": [
-      { "kind": "translate", "prompt": "翻译成英文（用 will）", "answers": ["They will go to Beijing next week.", "They'll go to Beijing next week."] },
-      { "kind": "yesno", "prompt": "改为一般疑问句", "answers": ["Will they go to Beijing next week?"] },
-      { "kind": "negative", "prompt": "改为否定句", "answers": ["They will not go to Beijing next week.", "They won't go to Beijing next week."] },
-      { "kind": "wh", "prompt": "对「to Beijing」提问（问地点）", "answers": ["Where will they go next week?"] },
-      { "kind": "wh", "prompt": "对「next week」提问（问时间）", "answers": ["When will they go to Beijing?"] }
+      {
+        "kind": "translate",
+        "prompt": "翻译成英文（用 will）",
+        "answers": [
+          "They will go to Beijing next week.",
+          "They'll go to Beijing next week."
+        ],
+        "cn": "他们下周将去北京。"
+      },
+      {
+        "kind": "yesno",
+        "prompt": "改为一般疑问句",
+        "answers": [
+          "Will they go to Beijing next week?"
+        ],
+        "cn": "他们下周将去北京吗？"
+      },
+      {
+        "kind": "negative",
+        "prompt": "改为否定句",
+        "answers": [
+          "They will not go to Beijing next week.",
+          "They won't go to Beijing next week."
+        ],
+        "cn": "他们下周不会去北京。"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「to Beijing」提问（问地点）",
+        "answers": [
+          "Where will they go next week?"
+        ],
+        "cn": "他们下周要去哪里？"
+      },
+      {
+        "kind": "wh",
+        "prompt": "对「next week」提问（问时间）",
+        "answers": [
+          "When will they go to Beijing?"
+        ],
+        "cn": "他们什么时候去北京？"
+      }
     ]
   }
 ]
