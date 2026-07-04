@@ -11,7 +11,7 @@
  * 新 SW activate 时会清掉旧版本缓存。
  */
 
-var SW_VERSION = 'v3';
+var SW_VERSION = 'v4';
 var CACHE_STATIC = 'nce-static-' + SW_VERSION;
 var CACHE_API = 'nce-api-' + SW_VERSION;
 

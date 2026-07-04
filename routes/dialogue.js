@@ -5,8 +5,8 @@ const express = require('express');
 const data = require('../lib/data');
 const profile = require('../lib/profile');
 const { readJSON, writeJSONAtomic } = require('../lib/store');
-const { isDialogueTurnCorrect } = require('../lib/dialogue-grade');
-const { CATEGORIES, LEARNER_ROLE } = require('../lib/dialogue-meta');
+const { collectTurnAnswers, isDialogueTurnCorrect } = require('../lib/dialogue-grade');
+const { CATEGORIES, LEARNER_ROLE, buildGroupTree } = require('../lib/dialogue-meta');
 const activity = require('../lib/activity');
 const dlgSrs = require('../lib/dialogue-srs');
 
@@ -109,6 +109,7 @@ router.get('/dialogue/meta', (req, res) => {
   res.json({
     total: data.getDialogues().length,
     categories: CATEGORIES,
+    groups: buildGroupTree(byCategory),
     byCategory,
     chains: chainIndex(),
   });
@@ -149,9 +150,10 @@ router.post('/dialogue/grade', (req, res) => {
   save(db);
   activity.record(correct, 'dialogue');
 
+  const answers = collectTurnAnswers(t);
   res.json({
     correct,
-    answer: t.en,
+    answer: answers.length === 1 ? answers[0] : answers,
     cn: t.cn,
     srsKey: correct ? null : dlgSrs.dialogueKey(id, idx),
   });
