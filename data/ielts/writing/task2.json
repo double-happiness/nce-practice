@@ -1,0 +1,669 @@
+[
+  {
+    "id": "w2-edu-01",
+    "task": 2,
+    "topic": "education",
+    "qtype": "opinion",
+    "prompt": "Some people believe that secondary schools should spend more time teaching practical life skills, such as cooking, managing money and basic home repairs, even if this means less time for academic subjects. To what extent do you agree or disagree?",
+    "promptCn": "有人认为，中学应该花更多时间教授实用的生活技能，例如烹饪、理财和基本的家居维修，即使这意味着学术科目的课时会减少。你在多大程度上同意或不同意这一观点？",
+    "ideas": [
+      "很多年轻人离家独立后不会做饭、不会做预算，甚至刚拿到信用卡就欠债，说明这类技能确实欠缺",
+      "并非每个家庭都有时间或能力教孩子这些技能，由学校统一教授更公平，能缩小家庭背景带来的差距",
+      "生活技能能让抽象的学科知识落地，例如用百分比比较手机套餐、计算贷款的真实成本，反而促进数学学习",
+      "让步：升学和许多职业仍依赖扎实的学科基础，学术课程不能被大幅压缩",
+      "立场：基本同意，但应给生活技能固定而适度的课时（每周一两节），而不是取代学术科目"
+    ],
+    "outline": [
+      "Intro: paraphrase the statement; position - largely agree, as long as core academic subjects are not seriously reduced",
+      "Body 1: many school leavers lack basic skills such as cooking and budgeting; schools are the fairest place to teach them because not every family can",
+      "Body 2: practical tasks make academic knowledge meaningful, e.g. using percentages to compare phone contracts or the cost of a loan",
+      "Body 3: concession - academic subjects remain vital for university and careers, so life skills should have a modest, fixed share of the timetable",
+      "Conclusion: restate the position - more emphasis on life skills, but a balance rather than a replacement"
+    ],
+    "phrases": [
+      "be ill-equipped to do sth",
+      "fall into debt",
+      "level the playing field",
+      "bring an abstract concept to life",
+      "at the expense of sth",
+      "That said, ...",
+      "a modest but fixed share of sth",
+      "strike a balance between A and B"
+    ],
+    "modelAnswer": "It is often said that schools prepare young people for exams rather than for life. For this reason, some argue that secondary schools should devote more lessons to skills such as cooking, budgeting and simple repairs, even at the expense of academic subjects. I largely agree, provided that core subjects are not seriously reduced.\n\nThe strongest argument for this change is that many school leavers are ill-equipped to live independently. A considerable number of young adults cannot cook a healthy meal or plan a monthly budget, and some fall into debt soon after getting their first credit card. Parents are expected to pass on these skills, but not every family has the time or knowledge to do so. If schools take on this role, all students receive the same basic preparation, which helps to level the playing field.\n\nPractical lessons can also make academic knowledge more meaningful. Many teenagers see little point in learning percentages because the idea seems abstract. Yet if they use the same maths to compare two mobile phone contracts or to work out the real cost of a loan, the concept suddenly comes to life. In this sense, life skills need not compete with traditional subjects; they can reinforce them.\n\nThat said, academic study should not be sacrificed. University entrance and many skilled careers still depend on a solid foundation in languages, science and mathematics, and cutting these lessons too sharply would leave students at a disadvantage. The sensible approach is therefore to give practical skills a modest but fixed share of the timetable, perhaps one or two lessons a week.\n\nIn conclusion, I believe secondary schools should place greater emphasis on everyday skills, as these prepare students for adult life and show them the value of what they learn in class. The key is to strike a balance rather than replace one kind of education with the other.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-edu-02",
+    "task": 2,
+    "topic": "education",
+    "qtype": "discussion",
+    "prompt": "Some people think that children should begin formal education at the age of four or five, while others believe they should not start school until they are around seven. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为孩子应该在四五岁时开始接受正规教育，也有人认为孩子应该到七岁左右才开始上学。讨论这两种观点并给出你自己的看法。",
+    "ideas": [
+      "早入学：更早打下读写和算术基础，后续学习更轻松",
+      "早入学：为双职工家庭提供稳定的看护；家里缺少书籍和玩具的弱势儿童能获得更公平的起点",
+      "晚入学：幼儿通过游戏学习效果最好（搭积木、讲故事、合作游戏），过早坐在课桌前做练习可能消磨好奇心",
+      "晚入学的例子：芬兰等七岁开始正式上学的国家在国际比较中表现良好，说明起步早不等于后劲足",
+      "立场：支持七岁左右开始正式课程，但此前要有高质量、以游戏为主的幼儿园，同样能照顾双职工家庭和弱势儿童"
+    ],
+    "outline": [
+      "Intro: introduce the debate on school starting age; position - a later start is better if good play-based care is available",
+      "Body 1: reasons for an early start - earlier literacy and numeracy, childcare for working parents, a fairer start for poorer children",
+      "Body 2: reasons for a later start - young children learn best through play; early pressure can weaken curiosity; the example of Finland",
+      "Body 3: my view - the benefits of early schooling can be achieved through high-quality kindergartens without formal lessons",
+      "Conclusion: formal education should begin at around seven, supported by play-based early education"
+    ],
+    "phrases": [
+      "vary widely around the world",
+      "make several reasonable points",
+      "learn most effectively through sth",
+      "turn learning into a chore",
+      "It is also worth noting that ...",
+      "does not guarantee long-term success",
+      "Weighing up both sides, ..."
+    ],
+    "modelAnswer": "The age at which children start formal schooling varies widely around the world. While some people believe that lessons should begin at four or five, others argue that children benefit from waiting until about seven. In my view, the later start is preferable, as long as younger children have access to good play-based care.\n\nThose who support an early start make several reasonable points. First, children who begin school at four or five have more time to build a foundation in reading and numbers, which may make later learning easier. Second, school provides reliable childcare for families in which both parents work. Perhaps most importantly, children from poorer homes, who may have few books or educational toys, can gain a fairer start if they enter a classroom early.\n\nOn the other hand, young children seem to learn most effectively through play rather than formal instruction. Building with blocks, telling stories and playing with others develop language, problem-solving and social skills in a natural way. By contrast, expecting a four-year-old to sit still and complete worksheets can turn learning into a chore and weaken the curiosity that drives later progress. It is also worth noting that several countries where formal schooling begins at seven, such as Finland, have performed well in international comparisons, which suggests that an early start does not guarantee long-term success.\n\nWeighing up both sides, I believe the benefits of early schooling can largely be achieved without formal lessons. High-quality kindergartens can support working parents and give disadvantaged children a richer environment, while still allowing them to learn through play.\n\nIn conclusion, although starting school early has some advantages, I am convinced that formal education should begin at around seven, with well-funded, play-based early education before that age.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-tech-01",
+    "task": 2,
+    "topic": "technology",
+    "qtype": "adv-disadv",
+    "prompt": "Many companies now use artificial intelligence chatbots, rather than human staff, to answer customers' questions. Do the advantages of this development outweigh the disadvantages?",
+    "promptCn": "现在许多公司使用人工智能聊天机器人而不是人工客服来回答顾客的问题。这一趋势的利是否大于弊？",
+    "ideas": [
+      "优点：全天候即时回复，顾客不必长时间排队等待人工客服",
+      "优点：查快递、改密码等大量重复的简单问题可以交给机器，人工客服能专注于需要判断力和同理心的复杂个案；人力成本降低，价格也可能更低",
+      "缺点：遇到少见或情绪化的问题时，机器人常常答非所问，让顾客反复兜圈子",
+      "缺点：老年人等不熟悉技术的群体可能被排除在服务之外；呼叫中心的入门岗位减少",
+      "立场：利大于弊，前提是随时可以转接人工、为弱势群体保留电话渠道，并对员工进行转岗培训"
+    ],
+    "outline": [
+      "Intro: paraphrase the trend; position - the advantages are greater, as long as a human is still reachable",
+      "Body 1: advantages - instant replies at any time; routine questions handled efficiently; staff freed for complex cases; lower costs",
+      "Body 2: disadvantages - poor handling of unusual or emotional problems; older customers shut out; fewer entry-level jobs",
+      "Body 3: why the problems are manageable - easy transfer to human advisers, telephone options for vulnerable groups, retraining staff",
+      "Conclusion: restate that the advantages outweigh the disadvantages, provided human help remains available"
+    ],
+    "phrases": [
+      "at any time of day",
+      "wait on hold",
+      "free sb to concentrate on sth",
+      "require judgement and empathy",
+      "feel shut out of sth",
+      "be trapped by its limitations",
+      "On balance, ...",
+      "Provided that ..., I believe ..."
+    ],
+    "modelAnswer": "In recent years, a growing number of businesses have replaced human customer service staff with chatbots powered by artificial intelligence. Although this trend has some clear drawbacks, I believe its benefits are greater, as long as customers can still reach a real person when necessary.\n\nThe most obvious advantage is speed. A chatbot can respond instantly at any time of day, so customers no longer have to wait on hold for twenty minutes to ask a simple question. Moreover, most enquiries are highly repetitive, such as requests to track a parcel or reset a password, and software can handle these efficiently. This frees human employees to concentrate on complicated cases that genuinely require judgement and empathy. Lower staffing costs may also allow companies to keep their prices down.\n\nHowever, the disadvantages should not be ignored. Chatbots often struggle with unusual or emotional problems, and many people have had the frustrating experience of typing the same question again and again while receiving irrelevant answers. This is particularly difficult for older customers or those who are not confident with technology, who may feel shut out of services they depend on. In addition, automation is reducing the number of entry-level jobs in call centres.\n\nOn balance, I think these problems are reasons to use the technology carefully rather than to reject it. If companies make it easy to transfer to a human adviser and keep a telephone option for vulnerable groups, customers can enjoy the convenience of chatbots without being trapped by their limitations. As for jobs, staff can be retrained to deal with the more complex work that machines cannot do.\n\nIn conclusion, AI chatbots offer faster, cheaper and more convenient service for routine questions. Provided that human help remains available, I believe the advantages of this development outweigh its disadvantages.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-tech-02",
+    "task": 2,
+    "topic": "technology",
+    "qtype": "two-part",
+    "prompt": "Many people now spend several hours a day looking at their smartphones. Why is this the case? Is this a positive or negative development?",
+    "promptCn": "现在许多人每天花好几个小时看手机。为什么会出现这种情况？这是积极的还是消极的发展？",
+    "ideas": [
+      "原因一：手机集工作邮件、支付、订票、新闻和社交于一身，大量日常事务都离不开它",
+      "原因二：很多应用被刻意设计成让人停不下来，例如无限下滑、自动播放和不断弹出的通知",
+      "积极面：随时获取信息和学习资源（语言学习应用、网课），异地的家人每天都能视频见面",
+      "消极面：相当一部分时间用于被动刷社交媒体和短视频，与睡眠变差、注意力变短、面对面交流减少有关",
+      "立场：总体是消极的，问题不在技术本身，而在于屏幕时间主要由刻意成瘾的设计驱动，而非真实需要"
+    ],
+    "outline": [
+      "Intro: describe the scene of people absorbed in their phones; state that the essay explains why and argues the trend is mainly negative",
+      "Body 1: reasons - the smartphone as an all-in-one tool; apps deliberately designed to hold attention",
+      "Body 2: some screen time is valuable (information, learning, staying in touch), but much is passive scrolling linked to poor sleep and less conversation",
+      "Body 3: judgement - negative overall, because addictive design rather than genuine need drives most of the time",
+      "Conclusion: summarise both reasons and restate that the development is largely negative"
+    ],
+    "phrases": [
+      "with one's eyes fixed on sth",
+      "an all-in-one tool",
+      "be deliberately designed to do sth",
+      "hold / capture sb's attention",
+      "Admittedly, ...",
+      "passively scroll through sth",
+      "be linked to sth",
+      "The problem is not X, but Y."
+    ],
+    "modelAnswer": "It is now common to see people on buses, in restaurants and even at family dinners with their eyes fixed on a phone screen. This essay will explain why smartphones take up so much of our time and argue that, overall, this is a negative trend.\n\nThere are two main reasons for this development. The first is that the smartphone has become an all-in-one tool. People use the same device to answer work emails, pay bills, book tickets, follow the news and stay in touch with friends, so a large part of daily life now happens on a small screen. The second reason is more worrying: many popular apps are deliberately designed to hold our attention. Features such as endless scrolling, autoplay videos and constant notifications encourage users to keep checking their phones long after they intended to stop.\n\nAdmittedly, some of this screen time is valuable. Smartphones give people instant access to information, language-learning apps and online courses, and they allow families separated by long distances to see each other every day. For many users, however, a large share of this time is spent passively scrolling through social media and short videos. Such habits are linked to poorer sleep, shorter attention spans and less face-to-face conversation, even among people sitting at the same table.\n\nFor this reason, I believe the overall effect is negative. The problem is not the technology itself, but the fact that much of our screen time is driven by apps designed to be addictive rather than by genuine needs.\n\nIn conclusion, people spend hours on their phones partly because these devices are truly useful and partly because apps are built to capture attention. Since the second factor seems to dominate, I see this as a largely negative development.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-env-01",
+    "task": 2,
+    "topic": "environment",
+    "qtype": "problem-solution",
+    "prompt": "In many cities, the amount of rubbish produced by households is increasing rapidly. What are the main causes of this problem, and what measures could be taken to reduce it?",
+    "promptCn": "在许多城市，家庭产生的垃圾量正在迅速增加。造成这一问题的主要原因是什么？可以采取哪些措施来减少垃圾？",
+    "ideas": [
+      "原因一：网购和外卖成为日常，每一单都带来多层纸箱、塑料和一次性餐具",
+      "原因二：「用坏就扔、过时就换」的消费习惯，快时尚和廉价电子产品很少被修理或再利用",
+      "措施一：让生产商和零售商为包装的回收成本付费，促使其主动减少包装",
+      "措施二：按未分类垃圾的数量收费（按量计费），并配套便利的回收点，让分类成为最省事的选择",
+      "措施三：支持社区维修站和二手市场，延长日用品的使用寿命"
+    ],
+    "outline": [
+      "Intro: state the problem of growing household waste and the purpose of the essay",
+      "Body 1: causes - packaging from online shopping and food delivery; a culture of replacing rather than repairing",
+      "Body 2: solutions - make producers pay for packaging; charge households for unsorted rubbish with convenient recycling points; support repair workshops and second-hand markets",
+      "Conclusion: summarise the causes and the three measures"
+    ],
+    "phrases": [
+      "at an alarming rate",
+      "put pressure on sth",
+      "become part of daily life",
+      "go out of style",
+      "have a strong incentive to do sth",
+      "make sth the easy option",
+      "extend the life of sth",
+      "make a significant difference"
+    ],
+    "modelAnswer": "Household waste is growing at an alarming rate in many urban areas, putting pressure on landfill sites and recycling systems. This essay will examine the main causes of this trend and suggest some practical ways to reverse it.\n\nOne major cause is the change in how people shop and eat. Online shopping and food delivery apps have become part of daily life, and almost every order arrives in layers of cardboard, plastic and bubble wrap. A single takeaway meal, for example, may come with several plastic containers, a bag and disposable cutlery. Another factor is the culture of replacement. Cheap fashion and low-cost electronic goods mean that many people throw items away when they break or go out of style, rather than repairing or reusing them.\n\nSeveral measures could help to address this problem. Firstly, governments should make manufacturers and retailers responsible for the packaging they produce. If companies had to pay towards the cost of collecting and recycling it, they would have a strong incentive to use less. Secondly, cities could charge households according to the amount of unsorted rubbish they throw away, as some places in Asia and Europe already do. This pay-as-you-throw approach works best when it is combined with convenient recycling points, so that sorting waste becomes the easy option. Finally, local authorities can encourage a repair culture by supporting community repair workshops and second-hand markets, which extend the life of everyday products.\n\nIn conclusion, the rapid growth in household waste is driven mainly by packaging from online shopping and a habit of replacing rather than repairing goods. Making producers pay for packaging, charging for unsorted rubbish and promoting repair could all make a significant difference.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-env-02",
+    "task": 2,
+    "topic": "environment",
+    "qtype": "opinion",
+    "prompt": "Some people believe that air travel should be made more expensive through higher taxes in order to protect the environment. To what extent do you agree or disagree?",
+    "promptCn": "有人认为应该通过提高税收让航空旅行变得更贵，以保护环境。你在多大程度上同意或不同意？",
+    "ideas": [
+      "支持：航空业排放大量二氧化碳且仍在增长，目前的机票价格没有体现环境成本",
+      "支持：价格是改变行为最有效的手段之一，如果短途航班比火车贵，很多人会改坐高铁",
+      "反对：对每张机票一刀切加税不公平——富人几乎不受影响，低收入家庭却可能失去一年一次的出行机会",
+      "折中方案：对频繁飞行者累进征税（每年第一次往返轻税，之后逐次提高），税收投入铁路和清洁航空燃料",
+      "立场：部分同意——应当加税，但主要针对飞得最多的人"
+    ],
+    "outline": [
+      "Intro: flying has become cheaper and more common; position - agree in principle, but the tax should target frequent flyers",
+      "Body 1: reasons to raise the cost - high and rising emissions, prices that ignore environmental costs, the power of price to shift travellers to trains",
+      "Body 2: problem - a flat tax on every ticket is unfair to lower-income families and would lack public support",
+      "Body 3: better solution - a frequent flyer levy, with revenue invested in rail and cleaner fuels",
+      "Conclusion: partly agree; higher taxes should be aimed at those who fly most often"
+    ],
+    "phrases": [
+      "grow accordingly",
+      "agree with sth in principle",
+      "reflect the environmental cost of sth",
+      "change behaviour",
+      "make little difference to sb",
+      "the burden falls on sb",
+      "win public support",
+      "be aimed mainly at sb"
+    ],
+    "modelAnswer": "Flying has become far cheaper over the past few decades, and the number of flights has grown accordingly. Some people argue that governments should raise taxes on air travel to reduce its environmental impact. I agree with this idea in principle, but I believe the tax should target frequent flyers rather than everyone equally.\n\nThere are strong reasons to make flying more expensive. Aviation produces large amounts of carbon dioxide, and its emissions are rising as more people travel by air. At present, ticket prices do not reflect this environmental cost, so passengers have little reason to consider alternatives. Price is one of the most effective ways to change behaviour: if a short flight cost more than a train journey, many travellers would choose the train. In countries with good high-speed rail networks, a large share of short-distance flights could be replaced in this way.\n\nHowever, a simple tax on every ticket would be unfair. For wealthy people who fly many times a year, a higher fare would make little difference, while families on lower incomes might no longer be able to afford an annual holiday or a trip to visit relatives abroad. In other words, the burden would fall on those who fly least, which is both unjust and unlikely to win public support.\n\nA better solution would be a frequent flyer levy. Under this system, each person's first return flight of the year would be taxed lightly, but the rate would rise with every additional flight. The money raised could then be invested in rail networks and cleaner aviation fuels, giving people realistic alternatives.\n\nIn conclusion, I partly agree that air travel should cost more for environmental reasons. However, higher taxes should be aimed mainly at those who fly most often, so that the policy is both effective and fair.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-health-01",
+    "task": 2,
+    "topic": "health",
+    "qtype": "problem-solution",
+    "prompt": "In many countries, children are becoming less physically active than in the past. Why is this happening, and what can be done to encourage children to exercise more?",
+    "promptCn": "在许多国家，儿童的身体活动量比过去减少了。为什么会这样？可以采取哪些措施鼓励儿童多运动？",
+    "ideas": [
+      "原因一：电子游戏和短视频等屏幕娱乐吸引力强，取代了户外玩耍",
+      "原因二：城市道路繁忙、家长担心安全，不放心孩子独自步行上学或在外玩耍",
+      "原因三：学业压力大，体育课和课外活动时间被考试科目挤占",
+      "措施：学校保证每天的运动时间，并提供舞蹈、骑行等人人都能参与的活动，而不只是竞技比赛",
+      "措施：政府修建安全的步行和骑行上学路线、社区免费运动设施；家长限制屏幕时间并以身作则"
+    ],
+    "outline": [
+      "Intro: children are less active than previous generations; the essay discusses reasons and solutions",
+      "Body 1: causes - screen-based entertainment, unsafe busy streets, academic pressure squeezing out PE",
+      "Body 2: solutions - daily activity in schools beyond competitive sport; safe routes and free facilities from local government; screen limits and good examples from parents",
+      "Conclusion: summarise the causes and stress cooperation between schools, planners and parents"
+    ],
+    "phrases": [
+      "Compared with previous generations, ...",
+      "be designed to be highly engaging",
+      "be reluctant to do sth",
+      "squeeze sth out of the timetable",
+      "To tackle this problem, ...",
+      "have a role to play",
+      "a realistic option",
+      "set an example"
+    ],
+    "modelAnswer": "Compared with previous generations, many children today spend far less time running, climbing and playing outdoors. This essay will discuss the reasons for this decline and propose some measures that schools, families and local governments could take.\n\nThe most significant cause is the rise of screen-based entertainment. Video games and short-video apps are designed to be highly engaging, so they easily replace outdoor play as children's preferred way of spending free time. A second cause is the changing urban environment. Busy roads and concerns about safety mean that many parents are reluctant to let their children walk to school or play outside without supervision. Finally, in some education systems, intense academic pressure has squeezed physical education out of the timetable, as schools focus on subjects that are tested in exams.\n\nTo tackle this problem, schools should guarantee a minimum amount of physical activity every day. Importantly, this should not only mean competitive sports, which can discourage less athletic pupils, but also activities such as dancing, cycling and outdoor games that every child can enjoy. Local governments also have a role to play. Safe walking and cycling routes to school, together with free sports facilities in residential areas, would make active travel and play a realistic option. At home, parents can limit screen time and, perhaps more importantly, set an example by being active themselves, for instance by going on family walks at the weekend.\n\nIn conclusion, children are less active mainly because of screen entertainment, unsafe streets and academic pressure. If schools, city planners and parents work together, physical activity can once again become a normal and enjoyable part of children's lives.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-health-02",
+    "task": 2,
+    "topic": "health",
+    "qtype": "discussion",
+    "prompt": "Some people think that governments should take action to improve public health, for example by taxing unhealthy food. Others believe that individuals should be responsible for their own health. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为政府应该采取行动改善公众健康，例如对不健康食品征税；另一些人则认为个人应该对自己的健康负责。讨论这两种观点并给出你自己的看法。",
+    "ideas": [
+      "个人负责：吃什么、运动多少是成年人的私人选择，政府不应过度干预",
+      "个人负责：食品税对低收入家庭负担更重，因为他们收入中用于食物的比例更高",
+      "政府行动：不健康食品往往更便宜、广告更多、更容易买到，个人选择并非在真空中做出",
+      "政府行动：慢性病的治疗费用由全体纳税人承担；部分国家的含糖饮料税已促使厂商降低含糖量",
+      "立场：两者都有责任——政府用税收、清晰标签和健康校餐让健康选择成为最容易的选择，最终决定权留给个人"
+    ],
+    "outline": [
+      "Intro: rising obesity and diet-related illness; position - both have a role, but governments must make healthy choices easier",
+      "Body 1: personal responsibility view - freedom of choice; food taxes hit poorer families hardest",
+      "Body 2: government action view - unhealthy food is cheap and heavily advertised; treatment costs are shared; sugar taxes have led to reformulation",
+      "Body 3: my view - individuals choose, but within an environment shaped by taxes, labelling and school meals",
+      "Conclusion: health is both a personal and a public matter"
+    ],
+    "phrases": [
+      "take responsibility for sth",
+      "a matter of personal choice",
+      "Those who stress ... argue that ...",
+      "not be made in a vacuum",
+      "be pushed in the wrong direction",
+      "be shared by all taxpayers",
+      "make the healthy option the easy option"
+    ],
+    "modelAnswer": "Rising rates of obesity and diet-related illness have led to a debate about who should take responsibility for people's health. While some believe it is a matter of personal choice, others argue that governments should intervene through measures such as taxes on unhealthy food. In my view, both individuals and governments have a role, but governments must create conditions in which healthy choices are easier.\n\nThose who stress personal responsibility argue that what we eat and how much we exercise are private decisions. Adults, they say, should be free to enjoy a burger or a fizzy drink without the state telling them what is good for them. They also point out that food taxes can be unfair, since lower-income families spend a larger share of their budget on food and would therefore feel the extra cost most.\n\nOn the other hand, supporters of government action argue that individual choices are not made in a vacuum. Unhealthy products are often cheaper, more heavily advertised and more widely available than healthy ones, so people are constantly pushed in the wrong direction. Furthermore, when diet-related diseases become widespread, the cost of treatment is shared by all taxpayers through the public health system. Taxes on sugary drinks in several countries have led manufacturers to reduce the sugar content of their products, which suggests that such policies can work.\n\nPersonally, I believe that individuals are responsible for their daily choices, but they can only make good decisions in a supportive environment. Governments should therefore use taxes, clear food labelling and healthy school meals to make the healthy option the easy option, while leaving the final decision to the individual.\n\nIn conclusion, health is both a personal and a public matter. Governments should shape the environment, and individuals should make sensible choices within it.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-work-01",
+    "task": 2,
+    "topic": "work",
+    "qtype": "adv-disadv",
+    "prompt": "Some companies have introduced a four-day working week, in which employees work longer hours on each of the four days. Do the advantages of this arrangement outweigh the disadvantages?",
+    "promptCn": "一些公司实行了每周四天工作制，员工在这四天里每天工作更长时间。这种安排的利是否大于弊？",
+    "ideas": [
+      "优点：每周多一整天休息，可以陪伴家人、处理私事、发展爱好，员工满意度和留任率提高，企业招聘成本下降",
+      "优点：少一天通勤，节省时间和交通费用（单程一小时，每月约省八小时），也减少拥堵和污染",
+      "缺点：每天工作十小时容易疲劳，最后两小时效率下降；护理、驾驶等岗位疲劳出错可能有安全风险",
+      "缺点：每天需要接孩子放学的父母难以适应更长的工作日；面向客户的企业需要精心排班",
+      "立场：对大多数办公室工作利大于弊，但应作为可选方案而非强制，且不适用于安全要求高的岗位"
+    ],
+    "outline": [
+      "Intro: describe the compressed four-day week; position - for most office jobs, the advantages are greater",
+      "Body 1: advantages - an extra day off improves satisfaction and retention; one less day of commuting",
+      "Body 2: disadvantages - fatigue and lower productivity in long shifts; safety risks; difficulties for parents and customer-facing firms",
+      "Body 3: evaluation - unsuitable for safety-critical roles and should be voluntary, but beneficial for office workers who choose it",
+      "Conclusion: the advantages outweigh the disadvantages if the scheme is voluntary and limited to suitable jobs"
+    ],
+    "phrases": [
+      "a small but growing number of sth",
+      "take care of family matters",
+      "be less likely to leave",
+      "a more motivated workforce",
+      "Nevertheless, ...",
+      "safety-critical roles",
+      "be offered as an option rather than imposed on everyone",
+      "work-life balance"
+    ],
+    "modelAnswer": "A small but growing number of employers now allow staff to complete their weekly hours in four longer days instead of five. While this arrangement has some drawbacks, I believe that for most office-based jobs the advantages are greater.\n\nThe most attractive benefit is an extra full day off every week. Employees can use this time to rest, take care of family matters or pursue hobbies, which tends to make them more satisfied and less likely to leave the company. For employers, this means lower recruitment costs and a more motivated workforce. In addition, working one day less means commuting one day less. A worker who spends an hour travelling each way saves around eight hours a month, and fewer journeys also reduce traffic congestion and pollution.\n\nNevertheless, longer working days can be exhausting. After eight or nine hours, concentration usually declines, so the final two hours of a ten-hour shift may be far less productive. In jobs where tiredness can lead to serious mistakes, such as nursing or driving, this could even be dangerous. Longer days can also be difficult for parents who need to collect young children from school, and companies that serve customers five days a week must organise staff rotas carefully.\n\nIn my view, these problems are real but manageable. The scheme is clearly unsuitable for safety-critical roles, and it should be offered as an option rather than imposed on everyone. For office workers who choose it, however, the gain of an extra free day is likely to outweigh the strain of slightly longer hours.\n\nIn conclusion, a compressed four-day week brings significant benefits to both employees and employers, mainly through better work-life balance and less commuting. Provided that it is voluntary and limited to suitable jobs, its advantages outweigh its disadvantages.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-work-02",
+    "task": 2,
+    "topic": "work",
+    "qtype": "two-part",
+    "prompt": "A good manager is often seen as the key to a successful workplace. What qualities does a good manager need? Can these qualities be learned, or are people born with them?",
+    "promptCn": "好的管理者通常被视为工作场所成功的关键。一个好的管理者需要具备哪些品质？这些品质可以后天习得，还是与生俱来的？",
+    "ideas": [
+      "品质一：清晰沟通——设定具体目标、解释原因、定期给出反馈，让员工清楚该做什么",
+      "品质二：公平与信任——用同一标准对待每个人，愿意把有意义的任务交给下属，而不是事事过问",
+      "品质三：情绪控制和倾听——压力下保持冷静，营造员工敢于提出想法、承认错误的氛围",
+      "能否习得：自信、沉稳等性格特质有一定先天成分，但给出建设性反馈、学会授权等能力都可以通过实践和导师指导掌握",
+      "立场：天赋只是起点，大部分管理品质来自练习、反思和指导"
+    ],
+    "outline": [
+      "Intro: the influence of a manager on employees; outline the essay - key qualities and whether they can be developed",
+      "Body 1: qualities - clear communication, fairness and trust, emotional control and listening",
+      "Body 2: learned or innate - some traits come naturally, but most skills such as giving feedback and delegating are learned; mentoring helps",
+      "Conclusion: summarise the qualities; personality gives a head start, but practice and guidance matter more"
+    ],
+    "phrases": [
+      "have a huge influence on sth",
+      "play a part",
+      "set specific goals",
+      "delegate meaningful tasks",
+      "stay calm under pressure",
+      "feel safe to do sth",
+      "give sb a head start",
+      "follow clear principles that can be practised"
+    ],
+    "modelAnswer": "Many employees would agree that the person they report to has a huge influence on how much they enjoy their job. In this essay, I will outline the most important qualities of a good manager and argue that, although personality plays a part, most of these qualities can be developed.\n\nThe first essential quality is the ability to communicate clearly. A good manager sets specific goals, explains why they matter and gives regular feedback, so that staff know exactly what is expected of them. Secondly, effective managers are fair and trust their team. They apply the same standards to everyone and delegate meaningful tasks instead of checking every small detail. Finally, emotional control is vital. A manager who stays calm under pressure and listens to employees' concerns creates an atmosphere in which people feel safe to share ideas and admit mistakes.\n\nSome people believe that such qualities are innate, and it is true that certain traits, such as confidence or a naturally calm temperament, seem to come more easily to some individuals than to others. However, most management skills are learned through experience and training. Giving constructive feedback, for example, follows clear principles that can be practised, and many people learn to delegate only after making the mistake of trying to do everything themselves. Mentoring from an experienced leader can speed up this process considerably.\n\nIn conclusion, a good manager needs to communicate clearly, act fairly and stay calm under pressure. While natural personality may give some people a head start, I believe these qualities are mainly the result of practice, reflection and guidance rather than something people are simply born with.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-crime-01",
+    "task": 2,
+    "topic": "crime",
+    "qtype": "discussion",
+    "prompt": "Some people believe that sending criminals to prison is the best way to reduce crime. Others think that education and community programmes are more effective. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为把罪犯送进监狱是减少犯罪的最好方法；另一些人则认为教育和社区项目更有效。讨论这两种观点并给出你自己的看法。",
+    "ideas": [
+      "支持监狱：把危险人物与社会隔离，保护公众；失去自由的威胁能起到威慑作用；让受害者感到正义得到伸张",
+      "监狱的局限：很多人出狱几年内再次犯罪；轻罪者在狱中接触惯犯，有案底后难以找到工作；成本高昂",
+      "教育和社区项目：职业培训提供合法谋生手段，社区服务让犯人弥补损失又不切断与家庭和工作的联系，而且更便宜",
+      "立场：视犯罪类型而定——暴力罪犯必须监禁（并在狱中接受教育），非暴力的初犯更适合社区项目"
+    ],
+    "outline": [
+      "Intro: introduce the debate; position - prison for serious offenders, rehabilitation for most minor crimes",
+      "Body 1: arguments for prison - public protection, deterrence, a sense of justice for victims",
+      "Body 2: limits of prison and the case for education and community programmes - reoffending, criminal records, vocational training, community service, lower cost",
+      "Body 3: my view - the best approach depends on the type of crime",
+      "Conclusion: both have a place, but rehabilitation deserves a larger role"
+    ],
+    "phrases": [
+      "a long-standing debate",
+      "make several valid points",
+      "act as a deterrent",
+      "take sth seriously",
+      "reoffend",
+      "address these problems directly",
+      "cut one's ties with sb/sth",
+      "deserve a much larger role"
+    ],
+    "modelAnswer": "How society should respond to crime is a long-standing debate. Some people argue that prison is the most effective way to cut crime, whereas others believe that education and community-based programmes achieve better results. In my opinion, prison is necessary for serious offenders, but for most minor crimes, rehabilitation is more effective.\n\nSupporters of imprisonment make several valid points. Most obviously, prison protects the public by removing dangerous individuals from society. It may also act as a deterrent, since the threat of losing one's freedom can discourage people from breaking the law. In addition, many victims feel that a prison sentence shows that society takes the harm done to them seriously, which is important for public trust in the justice system.\n\nHowever, prison is often less effective than it appears. In many countries, a large proportion of former prisoners reoffend within a few years of release. One reason is that prisons can expose minor offenders to more experienced criminals, while a criminal record makes it hard to find a job afterwards. Education and community programmes address these problems directly. Vocational training gives offenders a legal way to earn a living, and community service allows them to repair some of the damage they have caused without cutting their ties with family and work. Such schemes are also far cheaper than keeping someone in prison.\n\nWeighing up these arguments, I believe the best approach depends on the type of crime. Violent offenders must be imprisoned for public safety, ideally with access to education while they serve their sentences. For non-violent, first-time offenders, however, community programmes are more likely to prevent future crime.\n\nIn conclusion, prison and rehabilitation both have a place, but the latter deserves a much larger role than it currently has.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-crime-02",
+    "task": 2,
+    "topic": "crime",
+    "qtype": "problem-solution",
+    "prompt": "Online fraud, such as fake shopping websites and scam messages, is becoming increasingly common. What are the causes of this problem, and what can be done to tackle it?",
+    "promptCn": "网络诈骗，例如虚假购物网站和诈骗短信，正变得越来越常见。造成这一问题的原因是什么？可以采取哪些措施来解决？",
+    "ideas": [
+      "原因一：网购、网银和网络社交普及，骗子几乎零成本就能接触到海量潜在受害者",
+      "原因二：被抓风险低——骗子可以在境外用假身份作案，本地警方很难追查",
+      "原因三：很多人缺乏数字素养，而骗局越来越逼真（冒充银行或快递公司的短信，带标志和链接）",
+      "措施：银行延迟向新账户的异常转账并在大额转账前提醒；平台更快下架假网站和广告",
+      "措施：加强国际执法合作；在学校、社区和媒体开展反诈宣传，教授「不点陌生短信链接」等简单规则"
+    ],
+    "outline": [
+      "Intro: fraud follows daily life online; the essay explains causes and solutions",
+      "Body 1: causes - huge numbers of reachable victims, low risk of being caught, weak digital skills and convincing scams",
+      "Body 2: solutions - safeguards by banks and platforms, international police cooperation, public education campaigns",
+      "Conclusion: summarise causes and the combination of measures"
+    ],
+    "phrases": [
+      "As more of our daily lives move online, ...",
+      "at almost no cost",
+      "the risk of being caught",
+      "be difficult to trace",
+      "be in the best position to do sth",
+      "hide behind national borders",
+      "offer the best chance of doing sth"
+    ],
+    "modelAnswer": "As more of our daily lives move online, criminals have found new ways to steal money and personal information. Fake shopping websites and scam text messages are now so common that almost everyone has come across one. This essay will explain why online fraud is spreading and suggest how it can be tackled.\n\nThe first reason is simply opportunity. Now that most people shop, bank and communicate online, fraudsters have millions of potential victims who can be reached at almost no cost. A second factor is the low risk of being caught. Scammers can operate from another country using fake identities, which makes them very difficult for local police to trace. Finally, many people lack the digital skills to recognise fraud, and scams are becoming more convincing. A message that appears to come from a bank or a delivery company, complete with a logo and a realistic link, can easily deceive someone who is busy or unfamiliar with technology.\n\nTackling this problem requires action from several groups. Banks and technology companies are in the best position to stop fraud before it happens. Banks could delay unusual payments to new accounts and warn customers before they transfer large sums, while online platforms should remove fake websites and advertisements much more quickly. At the same time, governments need to strengthen international cooperation so that criminals cannot hide behind national borders. Public education also matters: regular campaigns in schools, community centres and the media could teach people simple rules, such as never clicking on links in unexpected messages.\n\nIn conclusion, online fraud is growing because it offers criminals easy access to victims, a low risk of punishment and methods that are increasingly hard to detect. A combination of stronger safeguards, international policing and public education offers the best chance of reducing it.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-media-01",
+    "task": 2,
+    "topic": "media",
+    "qtype": "opinion",
+    "prompt": "Some people believe that social media companies should be held legally responsible for false information that is shared on their platforms. To what extent do you agree or disagree?",
+    "promptCn": "有人认为社交媒体公司应该对其平台上传播的虚假信息承担法律责任。你在多大程度上同意或不同意？",
+    "ideas": [
+      "支持：平台不是中立的「传声筒」，推荐算法会主动放大吸引眼球的虚假内容，平台还从中赚取广告收入",
+      "支持：虚假的医疗或公共安全信息可能导致危险后果；法律责任能促使平台投入事实核查和内容审核",
+      "反对：每天发布的内容数以十亿计，要求平台为每条帖子负责不现实，可能导致过度删帖、限制言论自由",
+      "立场：大体同意，但责任应限定在平台可以合理控制的范围——被举报后仍未删除的明显有害虚假信息，以及自身算法主动推荐的内容"
+    ],
+    "outline": [
+      "Intro: false stories spread quickly online; position - largely agree, but responsibility must be clearly limited",
+      "Body 1: platforms are not neutral - algorithms amplify sensational content for profit; real harm from false health and safety claims; liability encourages moderation",
+      "Body 2: limits - billions of posts make full liability unrealistic and could lead to over-removal and less free speech",
+      "Body 3: a workable rule - liability for failing to remove reported harmful content and for actively recommending it",
+      "Conclusion: support carefully defined legal responsibility"
+    ],
+    "phrases": [
+      "reach millions of people within hours",
+      "face legal consequences",
+      "neutral messengers",
+      "amplify misinformation",
+      "share the blame",
+      "give sb a strong financial reason to do sth",
+      "restrict free expression",
+      "in a carefully defined way"
+    ],
+    "modelAnswer": "False stories and misleading claims can now reach millions of people within hours, largely through social media. This has led some to argue that the companies running these platforms should face legal consequences for the false information they host. I largely agree, although this responsibility needs to be clearly limited.\n\nThe main argument in favour is that social media companies are not neutral messengers. Their algorithms decide which posts appear at the top of users' feeds, and sensational content, which is often untrue, tends to attract more clicks and therefore more advertising income. In other words, platforms actively amplify misinformation and profit from it. When false claims about medicine or public safety lead people to make dangerous decisions, it seems reasonable that the companies which spread those claims should share the blame. Legal responsibility would also give them a strong financial reason to invest in fact-checking and moderation.\n\nHowever, it would be unrealistic and potentially harmful to make platforms liable for every single post. Billions of messages are shared every day, and no company can check them all. If firms faced heavy fines for any false statement, they might simply delete large amounts of legitimate content to protect themselves, which would restrict free expression and public debate.\n\nFor this reason, the law should focus on what companies can reasonably control. They should be held responsible when they fail to remove clearly harmful false information after it has been reported, and when their own recommendation systems actively promote such content.\n\nIn conclusion, I believe social media companies should bear legal responsibility for misinformation, but only in a carefully defined way that encourages action without threatening freedom of speech.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-media-02",
+    "task": 2,
+    "topic": "media",
+    "qtype": "adv-disadv",
+    "prompt": "Nowadays, more and more people get their news from social media rather than from newspapers or television. Do the advantages of this trend outweigh the disadvantages?",
+    "promptCn": "如今，越来越多的人通过社交媒体而不是报纸或电视获取新闻。这一趋势的利是否大于弊？",
+    "ideas": [
+      "优点：信息传播极快，洪水、地震等紧急情况下能第一时间收到预警和更新",
+      "优点：普通人有了发声渠道，目击者可以分享现场照片和视频，传统媒体忽视的地方小事也能引起关注",
+      "缺点：内容没有经过专业编辑核实，谣言在被更正之前已广泛传播",
+      "缺点：算法只推送用户爱看的内容，许多人只看到一面之词，加剧观点对立；报纸收入下降，耗时数月的调查性新闻缺乏资金",
+      "立场：弊大于利"
+    ],
+    "outline": [
+      "Intro: the shift from newspapers and TV to social media feeds; position - the disadvantages are more significant",
+      "Body 1: advantages - speed in emergencies; a voice for ordinary people and local stories",
+      "Body 2: disadvantages - unchecked rumours, one-sided algorithmic feeds, loss of funding for investigative journalism",
+      "Body 3: evaluation - speed and variety cannot make up for a poorly informed and divided public",
+      "Conclusion: the disadvantages outweigh the advantages"
+    ],
+    "phrases": [
+      "learn about current events",
+      "bring genuine benefits",
+      "give a voice to ordinary people",
+      "come at a considerable cost",
+      "see only one side of a debate",
+      "deepen political divisions",
+      "make up for sth",
+      "When these points are weighed against each other, ..."
+    ],
+    "modelAnswer": "In the past, most people learned about current events from a morning newspaper or the evening news on television. Today, many rely instead on the posts that appear in their social media feeds. Although this shift has brought some genuine benefits, I believe its disadvantages are more significant.\n\nThere are certainly advantages to receiving news through social media. Information spreads extremely quickly, so during emergencies such as floods or earthquakes, people can receive warnings and updates almost immediately. Social media also gives a voice to ordinary people. Eyewitnesses can share photos and videos from the scene, and stories that traditional media might ignore, such as problems in small communities, can attract wide attention.\n\nHowever, these benefits come at a considerable cost. First, much of the content on social media is not checked by professional editors, so rumours and false stories can circulate widely before anyone corrects them. Second, platforms use algorithms that show users more of what they already like. As a result, many people see only one side of a debate, which can deepen political divisions. Third, as readers and advertisers move online, newspapers have lost much of their income. This makes it harder to fund investigative journalism, which often takes months of research and plays a key role in exposing corruption.\n\nWhen these points are weighed against each other, the drawbacks appear more serious. Speed and variety are valuable, but they cannot make up for a public that is poorly informed, divided and increasingly unable to tell reliable reporting from rumour.\n\nIn conclusion, while social media makes news faster and more diverse, its impact on accuracy, balance and quality journalism means that, in my view, the disadvantages of this trend outweigh the advantages.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-urban-01",
+    "task": 2,
+    "topic": "urban",
+    "qtype": "problem-solution",
+    "prompt": "In many large cities, housing has become so expensive that young people cannot afford to buy or even rent a home. What problems does this cause, and what solutions can you suggest?",
+    "promptCn": "在许多大城市，住房变得非常昂贵，年轻人买不起甚至租不起房子。这会带来哪些问题？你能提出哪些解决办法？",
+    "ideas": [
+      "问题一：年轻人推迟人生大事——三十多岁仍与父母同住，推迟结婚生子",
+      "问题二：被迫住到远离市中心的地方，通勤时间长、身心疲惫",
+      "问题三：教师、护士等关键岗位人员住不起，学校和医院招不到人，公共服务受影响",
+      "解决：增加供应——放宽规划限制，在公共交通沿线建造中等密度住宅，把空置写字楼改造成公寓",
+      "解决：政府投资低于市场价的可负担租赁住房；对长期空置的房屋征税，抑制炒房"
+    ],
+    "outline": [
+      "Intro: housing costs have outpaced wages; the essay outlines problems and solutions",
+      "Body 1: problems - delayed independence, marriage and children; long commutes; essential workers priced out and public services harmed",
+      "Body 2: solutions - increase supply through planning reform and office conversions; affordable rental housing; taxes on empty homes",
+      "Conclusion: summarise the problems and the combination of solutions"
+    ],
+    "phrases": [
+      "rise much faster than wages",
+      "spend a large part of one's income on sth",
+      "delay important life decisions",
+      "well into one's thirties",
+      "essential workers",
+      "the root of the problem",
+      "increase supply",
+      "bring more homes onto the market"
+    ],
+    "modelAnswer": "In many of the world's major cities, housing costs have risen much faster than wages, and young adults now spend a large part of their income on rent. This essay will outline the main problems this causes and suggest some possible solutions.\n\nThe most immediate problem is that young people are forced to delay important life decisions. Many continue to live with their parents well into their thirties, while others postpone marriage or having children because they cannot afford a suitable home. Those who do move out often have to live far from the city centre, which means long and tiring commutes. Over time, high housing costs can also damage the city itself. When teachers, nurses and other essential workers cannot afford to live nearby, schools and hospitals struggle to recruit staff, and public services suffer.\n\nSince the root of the problem is a shortage of homes, the most effective solution is to increase supply. Governments could relax planning rules to allow more medium-density housing near public transport, and empty office buildings could be converted into flats. At the same time, the state should invest in affordable rental housing, which can be offered at below-market rents to young workers and key public-sector employees. Finally, taxing homes that are left empty for long periods would discourage property speculation and bring more homes onto the market.\n\nIn conclusion, unaffordable housing restricts young people's independence and makes it harder for cities to keep the workers they rely on. Building more homes, expanding affordable rental housing and discouraging speculation would together make urban housing far more accessible.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-urban-02",
+    "task": 2,
+    "topic": "urban",
+    "qtype": "adv-disadv",
+    "prompt": "In some cities, private cars are no longer allowed to enter the city centre. Do the advantages of this policy outweigh the disadvantages?",
+    "promptCn": "在一些城市，私家车已不允许进入市中心。这项政策的利是否大于弊？",
+    "ideas": [
+      "优点：空气更清洁、噪音更小，涉及行人的交通事故明显减少",
+      "优点：原来的车道和停车位可以改造成步行街、自行车道和小公园，市中心更适合散步、会友和购物，客流往往反而增加",
+      "缺点：老人和残障人士等行动不便的居民更难到达商店和诊所；依赖送货的商家成本上升",
+      "缺点：规划不当时，车流会转移到市中心周边道路，造成新的拥堵",
+      "立场：利大于弊——通过便捷的无障碍公共交通、残障人士通行证和固定送货时段可以解决大部分问题"
+    ],
+    "outline": [
+      "Intro: describe car-free city centres; position - the benefits clearly outweigh the drawbacks",
+      "Body 1: advantages - cleaner, quieter and safer streets; road space turned into pedestrian areas, cycle lanes and parks; more footfall",
+      "Body 2: disadvantages - access problems for people with limited mobility; delivery costs; traffic displaced to surrounding roads",
+      "Body 3: the drawbacks can be solved through planning, whereas the benefits are hard to achieve in other ways",
+      "Conclusion: the advantages outweigh the disadvantages"
+    ],
+    "phrases": [
+      "allow access only to sb",
+      "fall sharply",
+      "a more pleasant place to do sth",
+      "drive customers away",
+      "people with limited mobility",
+      "be solved through careful planning",
+      "people-friendly streets",
+      "Given ..., I believe ..."
+    ],
+    "modelAnswer": "Several cities have recently closed their central districts to private cars, allowing access only to pedestrians, cyclists, public transport and essential vehicles. Although this policy creates some difficulties, I believe that its benefits clearly outweigh its drawbacks.\n\nThe most significant advantage is a healthier and safer environment. Without heavy car traffic, city centres become cleaner and quieter, and the risk of road accidents involving pedestrians falls sharply. In addition, space that was once used for roads and parking can be turned into pedestrian streets, cycle lanes and small parks. Such changes make the centre a more pleasant place to walk, meet friends and shop. Although business owners often fear that car bans will drive customers away, footfall in many cases actually increases once streets become more attractive to pedestrians.\n\nNevertheless, the policy has some disadvantages. People with limited mobility, such as elderly or disabled residents, may find it harder to reach shops, clinics and other services. Businesses that depend on deliveries may also face higher costs and delays. Moreover, if the ban is poorly planned, traffic may simply move to the roads surrounding the centre, creating new congestion there.\n\nHowever, these problems can largely be solved through careful planning. Cities can provide frequent, accessible public transport, issue permits for disabled drivers and allow deliveries during set hours, such as early in the morning. In contrast, the benefits of cleaner air and more people-friendly streets are difficult to achieve in any other way.\n\nIn conclusion, banning private cars from city centres creates some practical problems, but these can be managed. Given the improvements in health, safety and quality of life, I believe the advantages outweigh the disadvantages.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-glob-01",
+    "task": 2,
+    "topic": "globalization",
+    "qtype": "discussion",
+    "prompt": "Some people think that international tourism brings significant benefits to local communities. Others believe that it causes more harm than good. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为国际旅游给当地社区带来了巨大的好处；另一些人则认为它弊大于利。讨论这两种观点并给出你自己的看法。",
+    "ideas": [
+      "弊：热门景点过度拥挤，居民日常生活受干扰；大量住房变成短租民宿，当地人被高房租挤走",
+      "弊：环境压力大（海滩垃圾、旺季缺水）；利润多流向国际连锁酒店和旅行社，当地人只拿到低薪的季节性工作",
+      "利：旅游是许多地区的重要收入来源，不仅惠及酒店餐馆，也带动农民、手工艺人和导游，并改善偏远地区的道路等基础设施",
+      "利：游客愿意付费参观古迹和传统表演，社区因此有钱也有动力保护文化遗产",
+      "立场：利大于弊，但前提是管理得当（脆弱景点限流、管控短租、旅游税用于本地公共服务）"
+    ],
+    "outline": [
+      "Intro: tourism has grown and its impact is debated; position - beneficial overall if properly managed",
+      "Body 1: the harmful view - overcrowding, residents priced out, environmental pressure, profits leaving the community",
+      "Body 2: the beneficial view - jobs across many sectors, better infrastructure, money and motivation to protect heritage",
+      "Body 3: my view - the benefits depend on management such as visitor limits, rental controls and tourist taxes",
+      "Conclusion: with sensible regulation, the benefits outweigh the drawbacks"
+    ],
+    "phrases": [
+      "be widely debated",
+      "go about one's daily life",
+      "be priced out of sth",
+      "put heavy pressure on sth",
+      "a vital source of income",
+      "both the money and the motivation to do sth",
+      "depend on good management"
+    ],
+    "modelAnswer": "International tourism has grown enormously in recent decades, and its impact on the places that receive visitors is widely debated. While some people believe tourism greatly benefits local communities, others feel that the costs are greater. In my view, tourism is beneficial overall, but only when it is properly managed.\n\nThose who see tourism as harmful have good reasons for concern. Popular destinations can become so crowded that residents struggle to go about their daily lives, and as more homes are turned into holiday rentals, local people may be priced out of their own neighbourhoods. Tourism can also put heavy pressure on the environment, from litter on beaches to shortages of water during the busy season. Furthermore, much of the profit often goes to international hotel chains and tour companies, leaving local people with low-paid, seasonal jobs.\n\nOn the other hand, supporters point out that tourism is a vital source of income for many regions. It creates jobs not only in hotels and restaurants but also for farmers, craftspeople and guides, and it can bring better roads and other infrastructure to remote areas. Tourism can also help to protect cultural heritage. When visitors are willing to pay to see historic buildings or traditional performances, communities have both the money and the motivation to preserve them.\n\nI believe these benefits are real, but they depend on good management. Measures such as limits on visitor numbers at fragile sites, controls on short-term rentals and tourist taxes that are spent on local services can reduce the harm while keeping the economic advantages.\n\nIn conclusion, international tourism can cause serious problems, but with sensible regulation, its benefits to local communities outweigh its drawbacks.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-glob-02",
+    "task": 2,
+    "topic": "globalization",
+    "qtype": "two-part",
+    "prompt": "Many skilled professionals, such as doctors and engineers, leave their home countries to work abroad. Why do they do this? What effects does this have on the countries they leave?",
+    "promptCn": "许多高技能专业人才，例如医生和工程师，离开祖国到国外工作。他们为什么这样做？这对他们离开的国家有什么影响？",
+    "ideas": [
+      "原因一：收入差距大，在富裕国家的薪水可能是国内的数倍，足以改变整个家庭的生活水平",
+      "原因二：更好的工作条件——现代化设备、合理的工作量、清晰的晋升通道",
+      "原因三：国内政治或经济不稳定，希望给子女更安全的环境和更好的教育",
+      "负面影响：关键领域人才短缺（如医院人手不足、病人等待更久），国家在培养人才上的投入无法收回",
+      "正面影响：海外汇款支持家庭和本地小企业；部分人后来带着技能、人脉和积蓄回国"
+    ],
+    "outline": [
+      "Intro: skilled workers move more easily than ever; the essay covers reasons and effects",
+      "Body 1: reasons - much higher pay, better working conditions, political or economic instability at home",
+      "Body 2: effects - mostly negative (shortages in vital sectors, lost training investment), with some positives (remittances, returning talent)",
+      "Conclusion: summarise reasons; the loss of essential professionals usually outweighs the gains"
+    ],
+    "phrases": [
+      "In an increasingly connected world, ...",
+      "build one's career abroad",
+      "transform the living standards of sb",
+      "be rarely the only factor",
+      "manageable workloads",
+      "be left understaffed",
+      "On the positive side, ...",
+      "have a more damaging effect on sth"
+    ],
+    "modelAnswer": "In an increasingly connected world, highly qualified workers can move between countries more easily than ever. As a result, many doctors, engineers and other professionals choose to build their careers abroad. This essay will examine the reasons for this trend and its effects on their home countries.\n\nThe most obvious motivation is money. A doctor from a developing country may earn several times more in a wealthy nation, which can transform the living standards of an entire family. However, salary is rarely the only factor. Many professionals are attracted by better working conditions, such as modern equipment, manageable workloads and clear opportunities for promotion, which may be lacking at home. Some also leave because of political or economic instability at home, hoping to give their children a safer environment and a better education.\n\nThe effects on the countries they leave are mixed but mostly negative. The most serious consequence is a shortage of skilled workers in vital areas. When large numbers of nurses or doctors emigrate, hospitals at home are left understaffed, and patients wait longer for treatment. Moreover, the money these countries invested in training such professionals is effectively lost. On the positive side, workers abroad frequently send money home, and these remittances can support families and local businesses. Some emigrants also return later in their careers, bringing new skills, international contacts and savings to invest.\n\nIn conclusion, skilled workers move abroad mainly for higher pay, better working conditions and greater stability. Although their home countries may gain from remittances and returning talent, the loss of essential professionals usually has a more damaging effect, particularly on healthcare.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-gov-01",
+    "task": 2,
+    "topic": "government",
+    "qtype": "opinion",
+    "prompt": "Some people believe that public transport should be free for everyone and paid for by the government. To what extent do you agree or disagree?",
+    "promptCn": "有人认为公共交通应该对所有人免费，费用由政府承担。你在多大程度上同意或不同意？",
+    "ideas": [
+      "支持方的理由：可能让部分司机放弃开车，缓解拥堵、改善空气；帮助求职者、去医院的老人等负担不起车费的人",
+      "反驳一：价格不是人们开车的主要原因，司机更看重速度、舒适和灵活性；免费往往吸引的是原本步行或骑车的人",
+      "反驳二：票款是重要的资金来源，完全依赖财政后，预算紧张时维护和新线路最先被砍，服务反而变差",
+      "替代方案：保留大多数人的票价，对学生、老人和低收入群体大幅优惠，同时投资提高班次和覆盖面",
+      "立场：不同意全面免费"
+    ],
+    "outline": [
+      "Intro: free public transport is appealing; position - disagree, because public money could be used more effectively",
+      "Body 1: concede the benefits - fewer car journeys, help for people who struggle to afford fares",
+      "Body 2: main objections - price is not why people drive; free schemes attract walkers and cyclists; loss of fare income threatens maintenance and new routes",
+      "Body 3: alternative - targeted discounts plus investment in frequency and coverage",
+      "Conclusion: restate disagreement; targeted discounts and better services achieve the same goals more cheaply"
+    ],
+    "phrases": [
+      "an appealing idea",
+      "It is true that ...",
+      "ease congestion",
+      "struggle to afford sth",
+      "persuade sb to switch",
+      "When money is tight, ...",
+      "the first things to be cut",
+      "achieve the same goals at a lower cost"
+    ],
+    "modelAnswer": "Making buses and trains free for all passengers is an appealing idea, and a few places have already introduced it. Supporters argue that it would reduce traffic and help people on low incomes. Although these aims are reasonable, I disagree with this proposal, as I believe public money could be used more effectively.\n\nIt is true that free public transport has some clear benefits. If journeys cost nothing, some drivers might leave their cars at home, which would ease congestion and improve air quality. It would also help those who struggle to afford fares, such as unemployed people looking for work or elderly people travelling to hospital appointments.\n\nHowever, price does not seem to be the main reason people choose to drive. Most drivers value speed, comfort and flexibility, so if buses are slow, crowded or infrequent, removing fares will not persuade them to switch. In fact, free schemes tend to attract people who previously walked or cycled, which does little for the environment. Meanwhile, ticket sales are an important source of funding. Without them, transport authorities would depend entirely on government budgets, and when money is tight, maintenance and new routes are often the first things to be cut. The likely result would be a free service that is worse than the one passengers pay for today.\n\nA better approach would be to keep fares for most passengers but offer large discounts to students, older people and low-income groups. At the same time, governments should invest in more frequent services and wider coverage, because these improvements are far more likely to persuade drivers to change their habits.\n\nIn conclusion, although free public transport sounds attractive, I disagree that it should be introduced for everyone. Targeted discounts combined with better services would achieve the same goals at a lower cost.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-cult-01",
+    "task": 2,
+    "topic": "culture",
+    "qtype": "two-part",
+    "prompt": "Museums and art galleries play an important part in many cities. What role should they play in society today? Should entry to them be free for everyone?",
+    "promptCn": "博物馆和美术馆在许多城市中扮演着重要角色。在当今社会，它们应该发挥什么作用？它们应该对所有人免费开放吗？",
+    "ideas": [
+      "作用一：保存过去——文物和艺术品脆弱且不可替代，需要为后代妥善保护",
+      "作用二：教育——亲眼看到恐龙骨架或古代手稿比课本更能激发孩子的好奇心，也为学校提供学习资源",
+      "作用三：帮助人们理解其他文化和自己的文化，为社区提供展览、讲座和活动的公共空间",
+      "免费的理由：哪怕不高的门票也会让低收入家庭望而却步；英国 2001 年起国家博物馆免费后参观人数大幅上升",
+      "收费的理由与折中：博物馆运营成本高，经费不足会影响维护和新展览；建议常设展免费，特展收费，并鼓励自愿捐款"
+    ],
+    "outline": [
+      "Intro: museums are everywhere but their purpose and funding are debated; position - basic entry free, some charges acceptable",
+      "Body 1: three roles - preserving the past, educating the public, building cultural understanding and community",
+      "Body 2: free entry widens access (the UK example), but running costs and funding are real concerns",
+      "Body 3: compromise - free permanent collections, paid special exhibitions, voluntary donations",
+      "Conclusion: summarise the roles and the recommended charging model"
+    ],
+    "phrases": [
+      "fragile and irreplaceable",
+      "spark a child's curiosity",
+      "in a way that a textbook rarely does",
+      "fulfil these roles",
+      "discourage sb from doing sth",
+      "The best compromise is to ...",
+      "keep sth accessible to all"
+    ],
+    "modelAnswer": "Museums and art galleries are found in almost every major city, yet their purpose and funding are often debated. In this essay, I will discuss the role these institutions should play in modern society and argue that, while basic entry should be free for everyone, charging for some services is acceptable.\n\nMuseums have three main roles. First, they preserve the past. Historical objects and works of art are fragile and irreplaceable, and museums ensure that they are protected for future generations. Second, they educate. Seeing a real dinosaur skeleton or an ancient manuscript can spark a child's curiosity in a way that a textbook rarely does, and museums provide valuable resources for schools. Finally, museums help people understand other cultures, as well as their own, and offer a public space where communities can come together for exhibitions, talks and events.\n\nTo fulfil these roles, museums need to be open to everyone, which is a strong argument for free entry. Even a modest ticket price can discourage low-income families from visiting, and these are often the people who would benefit most. When the UK made many national museums free in 2001, visitor numbers rose sharply. On the other hand, museums are expensive to run, and if governments do not provide enough funding, free entry could lead to poorer maintenance or fewer new exhibitions.\n\nIn my view, the best compromise is to keep permanent collections free while charging for special exhibitions and encouraging voluntary donations. This keeps museums accessible to all and still provides them with additional income.\n\nIn conclusion, museums should preserve heritage, educate the public and bring communities together. Basic entry should be free so that these benefits are shared by everyone, with charges limited to special exhibitions.",
+    "modelBand": 7
+  }
+]
