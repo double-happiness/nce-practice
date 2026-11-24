@@ -70,6 +70,30 @@
     .ie-pill.bad{background:rgba(220,38,38,.10);color:var(--bad)}
     .ie-pill.warn{background:rgba(245,158,11,.14);color:#d97706}
     .ie-pill.mute{background:rgba(127,127,127,.12);color:var(--muted)}
+    /* 四维自评 */
+    .ie-dims{display:flex;flex-direction:column;gap:14px}
+    .ie-dim{border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px;background:rgba(127,127,127,.03)}
+    .ie-dim.done{border-color:rgba(22,163,74,.4)}
+    .ie-dim-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+    .ie-dim-k{font-size:12px;font-weight:800;color:var(--brand);background:rgba(47,111,237,.10);border-radius:6px;padding:1px 7px}
+    .ie-dim-h b{font-size:15px;color:var(--ink)}
+    .ie-dim-val{margin-left:auto;font-size:13px;font-weight:700;color:var(--muted)}
+    .ie-dim.done .ie-dim-val{color:var(--ok)}
+    .ie-lvls{display:flex;flex-direction:column;gap:6px}
+    .ie-lvl{display:flex;gap:10px;align-items:flex-start;padding:7px 10px;border:1px solid var(--border-soft);border-radius:8px;cursor:pointer;font-size:13px;color:var(--ink-soft);line-height:1.6}
+    .ie-lvl:hover{border-color:var(--brand)}
+    .ie-lvl.on{border-color:var(--brand);background:rgba(47,111,237,.08)}
+    .ie-lvl-b{flex:none;font-weight:800;color:var(--ink);min-width:28px}
+    .ie-chk{margin-top:10px;font-size:13px;color:var(--ink-soft)}
+    .ie-chk-t{font-size:12px;font-weight:700;color:var(--muted);margin-bottom:4px}
+    .ie-chk label{display:flex;gap:7px;align-items:flex-start;margin:3px 0;cursor:pointer;line-height:1.55}
+    .ie-chk input{margin-top:3px;accent-color:var(--brand)}
+    .ie-bands{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+    .ie-band-btn{min-width:44px;padding:6px 8px;border:1px solid var(--border);border-radius:8px;background:var(--card);color:var(--ink-soft);font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+    .ie-band-btn:hover{border-color:var(--brand);color:var(--brand)}
+    .ie-band-btn.on{background:var(--accent-grad);border-color:transparent;color:#fff}
+    .ie-score-sum{margin-top:12px;font-size:13.5px;color:var(--ink-soft)}
+    .ie-score-sum b{font-size:18px;color:var(--brand)}
   `;
   document.head.appendChild(style);
 
@@ -176,6 +200,127 @@
   }
   function bindRetry(root, fn) {
     root.querySelectorAll('.ie-retry').forEach((b) => { b.onclick = fn; });
+  }
+
+  // ---------- 评分维度与四维自评（写作 / 口语共用）----------
+  // 选分只能是 4–9 的 0.5 步长
+  const BAND_STEPS = [4, 4.5, 5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9];
+  const DIM_CC = { key: 'CC', name: 'Coherence and Cohesion', nameCn: '连贯与衔接' };
+  const DIM_LR = { key: 'LR', name: 'Lexical Resource', nameCn: '词汇丰富度' };
+  const DIM_GRA = { key: 'GRA', name: 'Grammatical Range and Accuracy', nameCn: '语法多样性与准确性' };
+  const DIM_TA = { key: 'TA', name: 'Task Achievement', nameCn: '任务完成' };
+  // rubrics 接口不可用时的兜底：只有维度名称，没有分档描述，保证仍能自评提交
+  const FALLBACK_DIMS = {
+    task1A: [DIM_TA, DIM_CC, DIM_LR, DIM_GRA],
+    task1G: [DIM_TA, DIM_CC, DIM_LR, DIM_GRA],
+    task2: [{ key: 'TR', name: 'Task Response', nameCn: '任务回应' }, DIM_CC, DIM_LR, DIM_GRA],
+    speaking: [
+      { key: 'FC', name: 'Fluency and Coherence', nameCn: '流利与连贯' },
+      DIM_LR,
+      DIM_GRA,
+      { key: 'P', name: 'Pronunciation', nameCn: '发音' },
+    ],
+  };
+  let rubricsPromise = null;
+  function loadRubrics() {
+    if (!rubricsPromise) {
+      rubricsPromise = get('/api/ielts/rubrics').catch((e) => {
+        rubricsPromise = null; // 失败不缓存，下次再试
+        throw e;
+      });
+    }
+    return rubricsPromise;
+  }
+  // kind: task1A | task1G | task2 | speaking → { dims, fallback, error }
+  async function rubricDims(kind) {
+    try {
+      const r = await loadRubrics();
+      const dims = kind === 'speaking' ? r && r.speaking : r && r.writing && r.writing[kind];
+      if (Array.isArray(dims) && dims.length && dims.every((d) => d && d.key)) return { dims, fallback: false };
+      return { dims: FALLBACK_DIMS[kind] || [], fallback: true, error: new Error('评分维度数据缺失') };
+    } catch (e) {
+      return { dims: FALLBACK_DIMS[kind] || [], fallback: true, error: e };
+    }
+  }
+  // D5：四维平均后向下取整到 0.5（服务端为准，这里只做预览）
+  function floorHalf(v) {
+    return Math.floor(Number(v) * 2) / 2;
+  }
+
+  // 在 container 里渲染四维自评表单；返回 { getScores() → { KEY: band } | null, missing() → [维度名] }
+  function mountScoreForm(container, dims) {
+    const chosen = {};
+    container.innerHTML =
+      '<div class="ie-dims">' +
+      dims.map((d) => {
+        const levels = (Array.isArray(d.levels) ? d.levels : [])
+          .filter((l) => l && Number.isFinite(Number(l.band)))
+          .slice()
+          .sort((a, b) => Number(a.band) - Number(b.band));
+        const checklist = (Array.isArray(d.checklist) ? d.checklist : []).filter((c) => c != null && String(c).trim());
+        return (
+          `<div class="ie-dim" data-key="${esc(d.key)}">` +
+          '<div class="ie-dim-h">' +
+          `<span class="ie-dim-k">${esc(d.key)}</span><b>${esc(d.name || d.key)}</b>` +
+          (d.nameCn ? `<span class="ie-muted">${esc(d.nameCn)}</span>` : '') +
+          '<span class="ie-dim-val">未评分</span>' +
+          '</div>' +
+          (levels.length
+            ? '<div class="ie-lvls">' +
+              levels.map((l) => `<div class="ie-lvl" data-band="${Number(l.band)}" title="选 ${Number(l.band)} 分"><span class="ie-lvl-b">${Number(l.band)}</span><span>${esc(l.desc || '')}</span></div>`).join('') +
+              '</div>'
+            : '') +
+          (checklist.length
+            ? '<div class="ie-chk"><div class="ie-chk-t">自查清单（只帮你回顾，不计分）</div>' +
+              checklist.map((c) => `<label><input type="checkbox"><span>${esc(c)}</span></label>`).join('') +
+              '</div>'
+            : '') +
+          `<div class="ie-bands" role="group" aria-label="${esc(d.key)} 分数">` +
+          BAND_STEPS.map((b) => `<button type="button" class="ie-band-btn" data-v="${b}">${b.toFixed(1)}</button>`).join('') +
+          '</div>' +
+          '</div>'
+        );
+      }).join('') +
+      '</div>' +
+      '<div class="ie-score-sum"></div>';
+
+    const sumEl = container.querySelector('.ie-score-sum');
+    function paintSum() {
+      const vals = dims.map((d) => chosen[d.key]).filter((v) => v != null);
+      if (vals.length < dims.length) {
+        sumEl.innerHTML = `已评 ${vals.length} / ${dims.length} 个维度`;
+        return;
+      }
+      const avg = vals.reduce((a, b) => a + b, 0) / vals.length;
+      sumEl.innerHTML = `四维平均 ${avg.toFixed(2)}，向下取整到 0.5 → 预计总分 <b>${floorHalf(avg).toFixed(1)}</b>（以服务端计算为准）`;
+    }
+    function choose(dimEl, v) {
+      if (!BAND_STEPS.includes(v)) return;
+      chosen[dimEl.dataset.key] = v;
+      dimEl.classList.add('done');
+      dimEl.querySelector('.ie-dim-val').textContent = `${v.toFixed(1)} 分`;
+      dimEl.querySelectorAll('.ie-band-btn').forEach((b) => b.classList.toggle('on', Number(b.dataset.v) === v));
+      dimEl.querySelectorAll('.ie-lvl').forEach((l) => l.classList.toggle('on', Number(l.dataset.band) === v));
+      paintSum();
+    }
+    container.querySelectorAll('.ie-dim').forEach((dimEl) => {
+      dimEl.querySelectorAll('.ie-band-btn').forEach((b) => { b.onclick = () => choose(dimEl, Number(b.dataset.v)); });
+      dimEl.querySelectorAll('.ie-lvl').forEach((l) => { l.onclick = () => choose(dimEl, Number(l.dataset.band)); });
+    });
+    paintSum();
+    return {
+      getScores() {
+        const out = {};
+        for (const d of dims) {
+          if (chosen[d.key] == null) return null;
+          out[d.key] = chosen[d.key];
+        }
+        return out;
+      },
+      missing() {
+        return dims.filter((d) => chosen[d.key] == null).map((d) => d.nameCn || d.name || d.key);
+      },
+    };
   }
 
   // ---------- 壳层状态 ----------
@@ -524,6 +669,10 @@
     storeKey,
     errorHtml,
     bindRetry,
+    rubricDims,
+    mountScoreForm,
+    floorHalf,
+    BAND_STEPS,
     TARGET_OPTIONS,
     PHASE_NAME,
   };
