@@ -164,7 +164,9 @@
     const w = plan.week;
     if (!w) return '';
     const cur = plan.currentWeek;
-    const tmpl = w.week && cur && Number(w.week) !== Number(cur) ? `<span class="ie-h3-sub">对应模板第 ${esc(String(w.week))} 周</span>` : '';
+    // w.week 是实际周，w.templateWeek 才是压缩 / 拉伸后对应的模板周（lib/ielts-plan.js buildPlanView）
+    const tw = Number(w.templateWeek);
+    const tmpl = tw && cur && tw !== Number(cur) ? `<span class="ie-h3-sub">对应模板第 ${esc(String(tw))} 周</span>` : '';
     return (
       '<div class="ie-card">' +
       `<h3>📌 第 ${esc(String(cur || w.week || '—'))} 周重点 ${tmpl}</h3>` +
@@ -244,18 +246,26 @@
     );
   }
 
+  // 后端 upcoming[] 只给 taskCount / minutesPerDay，不带 tasks 数组
+  function upcomingLoadText(w) {
+    const n = Number(w.taskCount);
+    const m = Number(w.minutesPerDay);
+    const parts = [];
+    if (Number.isFinite(n) && n > 0) parts.push(`${n} 项任务`);
+    if (Number.isFinite(m) && m > 0) parts.push(`约 ${m} 分钟/天`);
+    return parts.join(' · ');
+  }
+
   function upcomingHtml(list) {
     if (!Array.isArray(list) || !list.length) return '';
     const rows = list.map((w) => {
-      const tasks = Array.isArray(w.tasks) ? w.tasks : [];
-      const labels = tasks.slice(0, 6).map((t) => esc(t.label || t.key || '')).filter(Boolean).join(' · ');
-      const more = tasks.length > 6 ? ` 等 ${tasks.length} 项` : '';
-      const phase = IE.phaseName(w.phase);
+      const load = upcomingLoadText(w);
+      const phase = w.phaseName || IE.phaseName(w.phase);
       return (
         '<div class="iep-up">' +
         `<div class="iep-up-t">第 ${esc(String(w.week != null ? w.week : '—'))} 周${phase ? ' · ' + esc(phase) : ''}</div>` +
         `<div class="iep-up-s">${esc(w.focus || '')}</div>` +
-        (labels ? `<div class="iep-up-s">任务：${labels}${more}</div>` : '') +
+        (load ? `<div class="iep-up-s">${esc(load)}</div>` : '') +
         '</div>'
       );
     }).join('');
