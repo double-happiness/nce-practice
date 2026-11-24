@@ -22,9 +22,9 @@
 
 | # | 决策 | 理由 |
 |---|---|---|
-| D1 | 新增顶层标签 `ielts`（🎯 雅思备考），归入「学」组，面板内自带子导航：总览计划 / 词汇 / 写作 / 口语 / 记录 | 雅思是主线目标，需要一个入口 |
+| D1 | 新增顶层标签 `ielts`（🎓 雅思备考），归入「学」组，面板内自带子导航：总览计划 / 词汇 / 写作 / 口语 / 记录 | 雅思是主线目标，需要一个入口 |
 | D2 | **不改** `data/global-vocab.json`；另做「雅思词汇诊断」，按 B1/B2/C1 分段抽样，估算雅思词表覆盖率 | 保住「总词汇量」历次成绩的可比性；高段测量交给雅思词表 |
-| D3 | 雅思词汇作为查词典的新来源 `ielts`，优先级为「教材 > extras > ielts > global」；背单词复用 `/api/words/rate`、`/api/words/spell`（带 cn 存 extras） | 掌握度、间隔复习、活动统计全部复用，最小侵入 |
+| D3 | 雅思词汇作为查词典的新来源 `ielts`，优先级为「教材 > extras > global > ielts」（雅思词只补充新词；2026-11-24 审查后由 ielts > global 调整，避免覆盖 346 个已有全局词条）；背单词复用 `/api/words/rate`、`/api/words/spell`（带 cn 存 extras） | 掌握度、间隔复习、活动统计全部复用，最小侵入 |
 | D4 | 录音只存在浏览器内存（MediaRecorder + blob URL），不上传也不落盘；服务端只存时长和自评分 | 隐私、体积，并保持 JSON 存储简单 |
 | D5 | 写作和口语自评分取四维平均后**向下取整到 0.5**；总分估算按官方规则四舍五入到 0.5（.25 进为 .5，.75 进为整数） | 自评偏乐观，向下取整更保守 |
 | D6 | 26 周模板固定，实际周数 = ceil((考试日 − 开始日) / 7)，夹在 [4, 52] 之间；第 i 实际周映射到模板第 round((i−1)×26/实际周数)+1 周 | 改考试日后计划自动压缩或拉伸 |
@@ -168,7 +168,7 @@ desc 和 checklist 一律用自己的话概括，**不得照抄**官方 band des
 **今日完成数**：`lib/ielts-plan.js` 自行读取 progress（quiz）、transforms.json（transform）和 activity 日志，按 source 统计当天次数。**不改** `routes/plan.js` 已有函数，只追加 LEVELS、SOURCE_LABEL 和 sources。
 
 ## 6. 前端（`public/js/`）
-- `feat-ielts.js`：注册 `{ id: 'ielts', label: '雅思备考', icon: '🎯' }`，壳层和子导航；`NCE.pendingIelts = { page }` 用于深链子页。未开启时显示开启引导（默认 A 类 / 2027-05-24 / 7.0，可改），并给出时间线说明
+- `feat-ielts.js`：注册 `{ id: 'ielts', label: '雅思备考', icon: '🎓' }`，壳层和子导航；`NCE.pendingIelts = { page }` 用于深链子页。未开启时显示开启引导（默认 A 类 / 2027-05-24 / 7.0，可改），并给出时间线说明
 - `ielts-plan-ui.js`：倒计时、阶段进度条、本周重点、今日任务清单（「去做 →」用 `NCE.gotoTab`；external 任务可打勾）、检查点卡片和建议
 - `ielts-vocab-ui.js`：按话题和 CEFR 浏览、卡片背诵（调 `/api/words/rate` 并带 cn/eg）、拼写（`/api/words/spell`）、雅思词汇诊断
 - `ielts-writing-ui.js`：题目筛选 → 写作页（计时器：Task 1 20 分钟 / Task 2 40 分钟，实时字数，草稿自动存 localStorage）→ 提交 → 四维自评（rubrics 分档描述 + checklist）→ 范文对照 → band
