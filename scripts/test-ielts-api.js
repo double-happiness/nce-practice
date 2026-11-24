@@ -50,7 +50,7 @@ const path = require('node:path');
 const ROOT = path.join(__dirname, '..');
 const PROFILES_DIR = path.join(ROOT, 'data', 'profiles');
 const READY_LINE = '新概念英语练习系统: http://localhost:';
-const CHOICE_AS_INDEX = true; // 假设 A7
+const CHOICE_AS_INDEX = false; // 与前端一致：choice 传选项原文（空串表示不认识）
 
 // ---------- 小工具 ----------
 const tests = [];
@@ -287,7 +287,7 @@ test('plan: GET 返回今日任务及整体结构', async () => {
   for (const t of p.today.tasks) {
     assert.ok(t.key && t.label, `任务缺 key/label: ${JSON.stringify(t)}`);
     assert.ok(['internal', 'external'].includes(t.kind), `kind 非法: ${t.kind}`);
-    assert.strictEqual(typeof t.done, 'boolean', `${t.key}.done 应为布尔`);
+    assert.strictEqual(typeof t.done, "number", `${t.key}.done 应为完成次数（数字）`);
     assert.strictEqual(typeof t.met, 'boolean', `${t.key}.met 应为布尔`);
   }
   assert.ok(Array.isArray(p.upcoming), 'upcoming 应为数组');
@@ -310,7 +310,7 @@ test('plan: checkpoints 数组结构正确（week/name/criteria/status/suggestio
   assert.ok(p.checkpoints.every((c) => c.status === 'future'), '第 1 周时检查点都应是 future');
 });
 
-test('plan: 到达检查点周且无任何成绩时判为 failed 并给出建议', async () => {
+test('plan: 到达检查点周但尚无成绩时为 due，并给出待测项建议', async () => {
   // 把开始日回拨 8 周、考试日 = 开始日 + 26 周 -> 当前第 9 周，第 8 周检查点已到期
   patchTempIelts((j) => {
     j.profile = j.profile || {};
@@ -322,37 +322,40 @@ test('plan: 到达检查点周且无任何成绩时判为 failed 并给出建议
   assert.strictEqual(p.currentWeek, 9);
   const cp8 = p.checkpoints.find((c) => c.week === 8);
   assert.ok(cp8, '缺第 8 周检查点');
-  assert.ok(['due', 'failed'].includes(cp8.status), `第 8 周状态=${cp8.status}`);
-  assert.strictEqual(cp8.status, 'failed', '没有诊断/写作/口语成绩，应判 failed');
-  assert.ok(cp8.suggestions.length >= 1, 'failed 应给出建议');
+  assert.strictEqual(cp8.status, 'due', `没有诊断/写作/口语成绩时应为 due，实际 ${cp8.status}`);
+  assert.ok(cp8.suggestions.length >= 1, 'due 应列出待完成的测评');
   const later = p.checkpoints.find((c) => c.week === 14);
   assert.strictEqual(later.status, 'future');
 });
 
 let externalKey = null;
-test('plan: external 任务打勾后 done=true，取消后 done=false', async () => {
+test('plan: external 任务打勾后 checkedToday=true、done+1，取消后恢复', async () => {
   const p = isOk(await get('/api/ielts/plan'));
   const ext = p.today.tasks.find((t) => t.kind === 'external');
   assert.ok(ext, `当前第 ${p.currentWeek} 周（模板第 ${p.week.week || '?'} 周）没有 external 任务`);
   externalKey = ext.key;
-  assert.strictEqual(ext.done, false);
+  assert.strictEqual(ext.checkedToday, false);
+  const done0 = ext.done;
 
   isOk(await post('/api/ielts/plan/check', { date: TODAY(), taskKey: externalKey, done: true }));
   let again = isOk(await get('/api/ielts/plan')).today.tasks.find((t) => t.key === externalKey);
-  assert.strictEqual(again.done, true, '打勾后应 done=true');
+  assert.strictEqual(again.checkedToday, true, '打勾后应 checkedToday=true');
+  assert.strictEqual(again.done, done0 + 1, '打勾后 done 应 +1');
+  assert.strictEqual(again.met, again.done >= again.target, 'met 应等于 done >= target');
 
   isOk(await post('/api/ielts/plan/check', { date: TODAY(), taskKey: externalKey, done: false }));
   again = isOk(await get('/api/ielts/plan')).today.tasks.find((t) => t.key === externalKey);
-  assert.strictEqual(again.done, false, '取消后应 done=false');
+  assert.strictEqual(again.checkedToday, false, '取消后应 checkedToday=false');
+  assert.strictEqual(again.done, done0, '取消后 done 应恢复');
 });
 
-test('plan: 重复打勾幂等（done 保持 true，不产生重复记录）', async () => {
+test('plan: 重复打勾幂等（checkedToday 保持 true，不产生重复记录）', async () => {
   assert.ok(externalKey, '依赖上一条用例');
   for (let i = 0; i < 2; i++) {
     isOk(await post('/api/ielts/plan/check', { date: TODAY(), taskKey: externalKey, done: true }));
   }
   const t = isOk(await get('/api/ielts/plan')).today.tasks.find((x) => x.key === externalKey);
-  assert.strictEqual(t.done, true);
+  assert.strictEqual(t.checkedToday, true);
   const f = JSON.parse(fs.readFileSync(tempIeltsFile(), 'utf8'));
   const arr = (f.manualDone || {})[TODAY()] || [];
   assert.strictEqual(arr.filter((k) => k === externalKey).length, 1, 'manualDone 中不应重复');
@@ -395,19 +398,19 @@ test('vocab: 无过滤返回 total、topics、items 结构', async () => {
 test('vocab: topic 过滤只返回该话题，total 等于 topics 里的 count', async () => {
   const all = isOk(await get('/api/ielts/vocab?limit=1'));
   const t = all.topics.find((x) => x.count > 0);
-  const b = isOk(await get(`/api/ielts/vocab?topic=${encodeURIComponent(t.key)}&limit=1000`));
+  const b = isOk(await get(`/api/ielts/vocab?topic=${encodeURIComponent(t.key)}&limit=500`));
   assert.strictEqual(b.total, t.count);
   assert.ok(b.items.length > 0 && b.items.every((i) => i.topic === t.key), '存在非该话题的条目');
 });
 
 test('vocab: cefr 过滤只返回该等级', async () => {
-  const b = isOk(await get('/api/ielts/vocab?cefr=B2&limit=1000'));
+  const b = isOk(await get('/api/ielts/vocab?cefr=B2&limit=500'));
   assert.ok(b.items.length > 0, 'B2 应有词');
   assert.ok(b.items.every((i) => i.cefr === 'B2'), '存在非 B2 的条目');
 });
 
 test('vocab: topic + cefr 组合过滤取交集', async () => {
-  const b = isOk(await get('/api/ielts/vocab?topic=academic&cefr=B2&limit=1000'));
+  const b = isOk(await get('/api/ielts/vocab?topic=academic&cefr=B2&limit=500'));
   assert.ok(b.items.every((i) => i.topic === 'academic' && i.cefr === 'B2'));
 });
 
@@ -427,10 +430,9 @@ test('vocab: offset 超出总数返回空 items，不报错', async () => {
   assert.ok(b.total > 0);
 });
 
-test('vocab: 不存在的话题返回空结果而非报错', async () => {
-  const b = isOk(await get('/api/ielts/vocab?topic=no-such-topic'));
-  assert.strictEqual(b.total, 0);
-  assert.deepStrictEqual(b.items, []);
+test('vocab: 不存在的话题返回 400（显式校验枚举）', async () => {
+  isErr400(await get('/api/ielts/vocab?topic=no-such-topic'), 'topic=no-such-topic');
+  isErr400(await get('/api/ielts/vocab?limit=501'), 'limit=501');
 });
 
 test('vocab: q 关键字搜索只返回相关词', async () => {
