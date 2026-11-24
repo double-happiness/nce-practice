@@ -63,7 +63,7 @@ npm start      # 打开 http://localhost:3737</pre>
     <h2>2. 界面四组标签</h2>
     <table>
       <tr><th>分组</th><th>功能</th><th>用途</th></tr>
-      <tr><td><strong>学</strong></td><td>📖 教材学习、📕 查词典</td><td>学新课、查词、看语法</td></tr>
+      <tr><td><strong>学</strong></td><td>📖 教材学习、📕 查词典、🎯 雅思备考</td><td>学新课、查词、看语法；备考雅思</td></tr>
       <tr><td><strong>练</strong></td><td>✏️ 刷题、🎧 听写、🔀 句型、💬 对话、📝 测验</td><td>巩固与输出</td></tr>
       <tr><td><strong>复习</strong></td><td>🔁 间隔复习、🔤 单词</td><td>抗遗忘、词汇</td></tr>
       <tr><td><strong>我的</strong></td><td>📊 薄弱分析、🎯 计划、💾 备份</td><td>进度与数据</td></tr>
@@ -75,6 +75,7 @@ npm start      # 打开 http://localhost:3737</pre>
       <tr><th>功能</th><th>做什么</th></tr>
       <tr><td>📖 教材学习</td><td>单词、语法、<strong>🎧 原声课文</strong> / 精读；可练本课语法、<strong>🔀 练本课句型</strong>、听写、背单词；语法区可点剑桥单元</td></tr>
       <tr><td>📕 查词典</td><td>检索教材+全局词库；展开看搭配、句型、例句</td></tr>
+      <tr><td>🎯 雅思备考</td><td>倒计时 + 26 周计划 + 今日任务 + 检查点；雅思词汇、写作、口语练习与记录（见第 7 节）</td></tr>
       <tr><td>✏️ 刷题</td><td>按册/课/语法筛选；单选+填空；错题自动收录</td></tr>
       <tr><td>🎧 听写</td><td>听音打句，逐词批改，记最好成绩</td></tr>
       <tr><td>🔀 句型转换</td><td>中译英→改疑问/否定/特殊疑问；可按<strong>语法点</strong>、<strong>步骤类型</strong>或<strong>剑桥单元</strong>专练；教材页可练本课句型；错步进复习</td></tr>
@@ -117,7 +118,67 @@ npm start      # 打开 http://localhost:3737</pre>
     </ol>
     <p>点击大类名展开/收起，再点场景，右侧挑选对话练习。搜索框可搜大类或场景名。</p>
 
-    <h2>7. 常用技巧</h2>
+    <h2>7. 🎯 雅思备考</h2>
+    <p>入口：<strong>学 → 🎯 雅思备考</strong>，子页为 <strong>总览计划 / 词汇 / 写作 / 口语 / 记录</strong>。</p>
+    <div class="help-tip">⏱️ <strong>时间线如实说</strong>：A2 → 雅思 7.0 要跨 B1、B2、C1 三档，约需 <strong>600 小时</strong>有效学习，相当于 26 周<strong>每天 3–3.5 小时</strong>，节奏很紧；计划用三个检查点兜底。</div>
+
+    <h3>开启备考</h3>
+    <ul>
+      <li>默认 <strong>A 类</strong>、考试日 <strong>2027-05-24</strong>、目标 <strong>7.0</strong>，开启前可改，开启后也能改；A 类写作 Task 1 为图表题，G 类为书信。</li>
+      <li>开启当天记为备考开始日；按「开始日 → 考试日」换算实际周数（4–52 周），改考试日后计划自动压缩或拉伸。</li>
+      <li>开启后首页显示考试倒计时卡片。</li>
+    </ul>
+
+    <h3>26 周三阶段</h3>
+    <table>
+      <tr><th>阶段</th><th>模板周</th><th>主要练什么</th></tr>
+      <tr><td><strong>基础期</strong> A2→B1</td><td>1–8</td><td>NCE2 精读 + 题、句型转换、NCE2 听写、背单词（NCE2 + 雅思学术通用 / B1 词）、情景对话、间隔复习；第 3 周起口语 Part 1，第 6 周起每周 1 篇 Task 1</td></tr>
+      <tr><td><strong>专项期</strong> B1→B2</td><td>9–20</td><td>NCE3 精读 + 阅读理解、听力理解、NCE3 听写、每周 2 个雅思话题词、Task 1 / Task 2 每周各 2 篇、口语 Part 1/2/3 每天练、学术对话；剑雅听力、阅读每周各 1 套</td></tr>
+      <tr><td><strong>冲刺期</strong> B2→C1</td><td>21–26</td><td>NCE4 精读、Task 2 每周 5 篇、Task 1 每周 3 篇、每天口语全套模拟、第四册模考、每周 1 次雅思词汇诊断；剑雅全套模考每周 2 套；第 26 周降量复盘</td></tr>
+    </table>
+    <p>每周 5–8 项任务，日均约 180–210 分钟。「剑雅」指《剑桥雅思》真题集，需自备。</p>
+
+    <h3>今日任务</h3>
+    <ul>
+      <li><strong>系统内任务</strong>按真实练习记录自动统计，做够即完成；点 <strong>「去做 →」</strong> 跳到对应功能。</li>
+      <li><strong>外部资料任务</strong>（剑雅听力 / 阅读 / 模考）做完后手动打勾，记在当天。</li>
+      <li>🎯 学习计划新增「<strong>雅思</strong>」预设；雅思写作计入「写」、口语计入「说」、背雅思词计入「记」。</li>
+    </ul>
+
+    <h3>检查点</h3>
+    <table>
+      <tr><th>检查点</th><th>模板周</th><th>词汇诊断</th><th>写作 / 口语近 3 次自评均值</th></tr>
+      <tr><td>B1 检查点</td><td>8</td><td>B1 段 ≥ 70%</td><td>≥ 5.0 / ≥ 5.0</td></tr>
+      <tr><td>B2 中期检查</td><td>14</td><td>B2 段 ≥ 60%</td><td>≥ 5.5 / ≥ 5.5</td></tr>
+      <tr><td>冲刺前检查</td><td>20</td><td>C1 段 ≥ 50%</td><td>≥ 6.5 / ≥ 6.5</td></tr>
+    </table>
+    <p>到了对应周，用最近一次词汇诊断和写作、口语近 3 次自评均值判定。<strong>没达标</strong>时给出建议：① 学习计划切到「雅思」或「冲刺」预设并加量；② 把考试日推迟 4–8 周（给出具体日期）；③ 目标暂调到 6.5。<strong>只提示，不自动修改。</strong></p>
+
+    <h3>词汇</h3>
+    <ul>
+      <li>约 720 词：学术通用 241 个，社会类、自然科技类话题词各约 240 个；可按话题、CEFR 浏览。</li>
+      <li>卡片背诵、拼写与 🔤 背单词共用掌握度和间隔复习；📕 查词典也能查到雅思词。</li>
+      <li><strong>雅思词汇诊断</strong>：B1 / B2 / C1 各抽 10 词，看英文选中文（4 选 1），给出各段覆盖率和错词；不影响 🌐 总词汇量的口径。</li>
+    </ul>
+
+    <h3>写作</h3>
+    <ul>
+      <li>题库：Task 2 共 20 题、Task 1 A 类图表 8 题、G 类书信 6 封，全部原创并带范文。</li>
+      <li>计时：Task 1 20 分钟、Task 2 40 分钟；实时字数，草稿自动存在本浏览器；Task 1 少于 150 词、Task 2 少于 250 词会提示。</li>
+      <li>提交后四维自评（任务完成 / 任务回应、连贯与衔接、词汇、语法），每维对照 <strong>4–8 分五档说明</strong>和检查清单打分，拿不准选低一档；范文提交前隐藏，自评后对照。</li>
+      <li>本篇分数 = 四维平均<strong>向下取整到 0.5</strong>，如 6 / 6 / 5.5 / 5.5 → 5.5。</li>
+    </ul>
+
+    <h3>口语</h3>
+    <ul>
+      <li>题库：Part 1 共 16 个话题 × 4 题；Part 2 题卡 16 张，各配 4 道 Part 3 追问；全部带参考答案。</li>
+      <li>Part 1 逐题答；Part 2 准备 <strong>60 秒</strong> → 作答 <strong>120 秒</strong>；Part 3 追问。</li>
+      <li>浏览器支持时可录音回听。<strong>录音只在本机浏览器里，不上传、不保存</strong>，刷新或关闭页面即消失；系统只记作答时长和自评分。</li>
+      <li>四维自评：流利与连贯、词汇、语法、发音，同样 4–8 分五档，分数取法同写作；打完分再看参考答案。</li>
+    </ul>
+    <div class="help-tip">📌 <strong>分数估算只是粗估</strong>：🧭 我的水平和雅思总览里的总分估算来自你的自评和词汇诊断，本期没有雅思题型的听力、阅读，不能代替真实模考。数据存在当前档案的 <code>ielts.json</code>，随 💾 数据备份导出。</div>
+
+    <h2>8. 常用技巧</h2>
     <ul>
       <li>课文单词点 <strong>📕</strong> 查词典；选中英文短语也可查词</li>
       <li>词典内按 <code>/</code> 快速聚焦搜索框</li>
@@ -126,7 +187,7 @@ npm start      # 打开 http://localhost:3737</pre>
       <li>定期 <strong>💾 数据备份</strong> 导出 JSON</li>
     </ul>
 
-    <h2>8. 内容覆盖</h2>
+    <h2>9. 内容覆盖</h2>
     <table>
       <tr><th>册</th><th>教材</th><th>题库</th><th>句型转换</th></tr>
       <tr><td>第 1 册</td><td>72 课 ✓</td><td>✓</td><td>✓</td></tr>
@@ -137,8 +198,9 @@ npm start      # 打开 http://localhost:3737</pre>
 
     <p>💬 情景对话：左侧 <strong>8 大类</strong> 二级目录 · <strong>73</strong> 类场景 · <strong>1202</strong> 组 · <strong>64</strong> 条对话链。</p>
     <p>🎧 原声课文：276 课英音 MP3（1–4 册），详见 <code>docs/原声与发音.md</code>。</p>
+    <p>🎯 雅思备考：词汇约 720 词 · 写作 34 题（Task 2 共 20、图表 8、书信 6）· 口语 Part 1 共 16 话题 × 4 题、Part 2 题卡 16 张 × Part 3 追问 4 题，全部原创。</p>
 
-    <h2>9. 常见问题</h2>
+    <h2>10. 常见问题</h2>
     <dl class="help-faq">
       <dt>打不开页面？</dt>
       <dd>确认终端已运行 <code>npm start</code>，访问 <code>http://localhost:3737</code>。</dd>
@@ -154,6 +216,10 @@ npm start      # 打开 http://localhost:3737</pre>
       <dd>无云同步。用数据备份导出 JSON，在另一台导入。</dd>
       <dt>断网能用吗？</dt>
       <dd>可以。本机服务在跑即可；不访问外网 API。</dd>
+      <dt>雅思口语录音会上传吗？</dt>
+      <dd>不会。只在本机浏览器里回听，不上传、不保存，刷新或关闭页面即消失。</dd>
+      <dt>雅思口语页没有录音？</dt>
+      <dd>浏览器不支持时会隐藏录音。请允许麦克风权限；浏览器只在 <code>localhost</code> 或 HTTPS 下开放麦克风，用局域网 IP 走 http 访问时无法录音。</dd>
       <dt>全局词为什么没有教材例句？</dt>
       <dd>仅教材收录词有课内例句与句型；全局词展开会标注「仅词库释义」。</dd>
     </dl>
