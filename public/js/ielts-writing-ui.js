@@ -74,7 +74,8 @@
     text: '',
     elapsedBase: 0,
     runningSince: 0,
-    wasRunning: false,
+    wasRunning: false, // pause 时计时器是否在走（resume 只在为 true 时恢复计时）
+    suspended: false, // 标签被隐藏：pause 之后、resume / 重新 render 之前
     timerId: null,
     saveId: null,
     overtimeWarned: false,
@@ -97,9 +98,10 @@
   function curVariant() {
     return st.filter.variant || profileVariant();
   }
+  // 与后端 lib/ielts.js countWords 同一口径：按空白切分计数，编辑器字数与提交后的服务端字数一致
   function countWords(text) {
-    const m = String(text || '').match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g);
-    return m ? m.length : 0;
+    const s = String(text == null ? '' : text).trim();
+    return s ? s.split(/\s+/).length : 0;
   }
   // 先转义，再按空行分段；段内单个换行保留为 <br>
   function paragraphsHtml(text) {
@@ -331,6 +333,9 @@
   // ---------- 写作 ----------
   async function openPrompt(id) {
     stopAll();
+    // 先清掉上一篇：「重写本题」加载期间切走子页时，leave 不会把已提交的作文写回草稿
+    st.item = null;
+    st.text = '';
     st.stage = 'write';
     root.innerHTML = '<div class="ie-loading">正在加载题目…</div>';
     let item;
@@ -442,6 +447,13 @@
     };
     root.querySelector('.iew-done').onclick = () => finishWriting(min);
     clearInterval(st.saveId);
+    st.saveId = null;
+    if (st.suspended) {
+      // 题目加载期间标签被隐藏：先不计时，等 resume 时再开始
+      st.wasRunning = true;
+      tick();
+      return;
+    }
     st.saveId = setInterval(() => saveDraft(false), DRAFT_EVERY_MS);
     startTimer();
   }
@@ -588,25 +600,54 @@
     root.querySelector('.iew-redo').onclick = () => openPrompt(it.id);
   }
 
+  // 关页 / 刷新 / 切到后台时兜底存一次草稿（5 秒定时存之间的内容不丢）；只绑定一次
+  let unloadHooked = false;
+  function hookUnloadSave() {
+    if (unloadHooked) return;
+    unloadHooked = true;
+    const flush = () => {
+      try {
+        if (st.stage === 'write' && st.item) saveDraft(true);
+      } catch (e) {
+        console.warn('[ielts-writing] 离开页面时保存草稿失败', e);
+      }
+    };
+    window.addEventListener('pagehide', flush);
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') flush();
+    });
+  }
+
   IE.registerPage('writing', {
     render(body, c) {
       root = body;
       ctx = c;
+      st.suspended = false;
+      st.wasRunning = false;
       st.filter.variant = null; // 每次进入子页都重新跟随档案的考试类型
+      hookUnloadSave();
       renderList();
     },
-    // 切走再回来：写作 / 自评 / 结果阶段保留现场，写作阶段恢复计时
+    // 切走再回来：写作 / 自评 / 结果阶段保留现场；写作阶段只有 pause 前计时器在走才恢复计时
     resume() {
+      st.suspended = false;
+      const wasRunning = st.wasRunning;
+      st.wasRunning = false; // 用过即清，避免旧值影响下一次
       if (!root || !root.isConnected || st.stage === 'list') return false;
-      if (st.stage === 'write') {
-        if (st.wasRunning) startTimer();
+      if (st.stage === 'write' && st.item) {
+        if (wasRunning) startTimer();
+        else tick(); // 用户手动暂停的保持暂停，只刷新按钮文案
         clearInterval(st.saveId);
         st.saveId = setInterval(() => saveDraft(false), DRAFT_EVERY_MS);
       }
       return true;
     },
     pause() {
-      if (st.stage !== 'write') return;
+      st.suspended = true;
+      if (st.stage !== 'write') {
+        st.wasRunning = false;
+        return;
+      }
       st.wasRunning = !!st.runningSince;
       saveDraft(true);
       stopAll();
