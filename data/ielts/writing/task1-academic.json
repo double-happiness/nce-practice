@@ -1,0 +1,216 @@
+[
+  {
+    "id": "w1a-01",
+    "task": 1,
+    "variant": "A",
+    "topic": "technology",
+    "prompt": "The bar chart below shows the percentage of adults in three age groups who shopped online at least once a month in one European country between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "Adults shopping online at least once a month, by age group",
+      "unit": "%",
+      "categories": ["2010", "2014", "2018", "2022"],
+      "series": [
+        { "name": "Aged 18-34", "values": [38, 52, 68, 81] },
+        { "name": "Aged 35-54", "values": [25, 37, 55, 72] },
+        { "name": "Aged 55+", "values": [8, 14, 27, 49] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：三个年龄段每月网购的比例全部持续上升；18-34 岁始终最高，55 岁以上始终最低",
+      "相对增幅最大的是 55 岁以上群体：从 8% 升至 49%，约为 2010 年的 6 倍，2014-2018 年几乎翻倍；按百分点算 35-54 岁（+47）反而略多于 55 岁以上（+41），描述时用 rate of growth 等相对说法",
+      "18-34 岁和 35-54 岁走势相似，两者差距从 13 个百分点缩小到 9 个百分点",
+      "分组写法：前两个年龄段放在一段比较，55 岁以上单独一段突出变化幅度"
+    ],
+    "modelAnswer": "The bar chart compares the proportion of adults in three age groups who shopped online at least once a month in a European country between 2010 and 2022.\n\nOverall, online shopping became more popular in all three age groups over the period. Younger adults were consistently the most frequent online shoppers, although the oldest group recorded the fastest rate of growth.\n\nIn 2010, 38% of people aged 18-34 shopped online monthly, compared with 25% of those aged 35-54. The figure for the youngest group then climbed steadily, reaching 68% in 2018 and 81% by 2022. The middle age group followed a similar pattern, rising to 55% and then 72%, so the gap between these two groups narrowed slightly, from 13 to 9 percentage points.\n\nThe most striking change was among those aged 55 and over. Only 8% of this group shopped online regularly in 2010, and the figure rose gradually to 14% in 2014. It then almost doubled to 27% in 2018 before reaching 49% in 2022. This means that by the end of the period, nearly half of older adults were regular online shoppers, around six times the 2010 level.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-02",
+    "task": 1,
+    "variant": "A",
+    "topic": "health",
+    "prompt": "The bar chart below shows the average number of minutes per week that men and women in one country spent on six types of physical activity in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "Average weekly time spent on physical activities, by sex (2023)",
+      "unit": "minutes per week",
+      "categories": ["Walking", "Cycling", "Swimming", "Gym training", "Team sports", "Running"],
+      "series": [
+        { "name": "Men", "values": [95, 40, 15, 55, 45, 30] },
+        { "name": "Women", "values": [110, 25, 20, 45, 12, 22] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：步行是男女两性用时最多的运动，且明显领先其他项目",
+      "女性只在步行（110 vs 95 分钟）和游泳（20 vs 15 分钟）上超过男性，其余四项都是男性更多",
+      "性别差距最大的是团体运动：男性 45 分钟，约为女性 12 分钟的近 4 倍；女性用时最少的项目是团体运动，男性是游泳",
+      "分组写法：女性领先的两项放一段，男性领先的四项放一段，避免逐项罗列"
+    ],
+    "modelAnswer": "The bar chart illustrates how many minutes per week men and women in one country spent on six types of physical activity in 2023.\n\nOverall, walking was by far the most common form of exercise for both sexes. Men spent more time than women on most activities, with the largest gender difference in team sports, but women were more active in walking and swimming.\n\nWomen walked for an average of 110 minutes a week, slightly more than men at 95 minutes. They also spent a little longer swimming, at 20 minutes compared with 15 minutes for men, although swimming was the least popular activity among men overall.\n\nIn contrast, men led in the remaining four activities. They spent 55 minutes a week at the gym and 40 minutes cycling, compared with 45 and 25 minutes respectively for women. The gap was greatest for team sports, where men's figure of 45 minutes was almost four times that of women. At just 12 minutes, this was the activity on which women spent the least time. Running showed a smaller difference, at 30 minutes for men and 22 for women.",
+    "modelBand": 7
+  },
+  {
+    "id": "w1a-03",
+    "task": 1,
+    "variant": "A",
+    "topic": "environment",
+    "prompt": "The line graph below shows the percentage of electricity generated from coal, natural gas and renewable sources in one country between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Share of electricity generation by source, 2000-2020",
+      "unit": "%",
+      "categories": ["2000", "2004", "2008", "2012", "2016", "2020"],
+      "series": [
+        { "name": "Coal", "values": [62, 58, 51, 40, 28, 18] },
+        { "name": "Natural gas", "values": [25, 28, 33, 36, 35, 30] },
+        { "name": "Renewables", "values": [5, 6, 9, 17, 29, 44] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：发电结构从煤炭明显转向可再生能源——煤炭从最大来源变为三者中最小，可再生能源到 2020 年成为最大来源",
+      "煤炭持续下降：62% → 40%（2012）→ 18%（2020）",
+      "可再生能源先慢后快：2008 年仅 9%，2016 年以 29% 首次超过煤炭（28%），2020 年达 44%",
+      "天然气相对平稳：从 25% 升至 2012 年峰值 36%，之后小幅回落到 30%，2020 年被可再生能源超过"
+    ],
+    "modelAnswer": "The line graph shows the proportion of electricity produced from coal, natural gas and renewable sources in one country over the twenty years from 2000 to 2020.\n\nOverall, there was a dramatic shift away from coal towards renewable energy. Coal went from being the dominant source to the least significant of the three, while renewables became the largest by 2020. Natural gas, meanwhile, changed relatively little.\n\nIn 2000, coal generated 62% of the country's electricity, far more than natural gas at 25% and renewables, which accounted for only 5%. Over the following two decades, the share of coal fell continuously, dropping to 40% in 2012 and just 18% in 2020.\n\nRenewables showed the opposite trend. Their share grew slowly at first, reaching 9% in 2008, but then accelerated sharply, overtaking coal in 2016 at 29% and climbing to 44% by the end of the period. As for natural gas, its contribution rose gradually to a peak of 36% in 2012, before declining slightly to 30% in 2020, by which time it had also been overtaken by renewables.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-04",
+    "task": 1,
+    "variant": "A",
+    "topic": "culture",
+    "prompt": "The line graph below shows the number of visitors to museums, theme parks and historic sites in one European city from 2017 to 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Annual visitors to three types of attraction, 2017-2023",
+      "unit": "million visitors",
+      "categories": ["2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "series": [
+        { "name": "Museums", "values": [4.2, 4.5, 4.8, 1.6, 2.4, 4.1, 5] },
+        { "name": "Theme parks", "values": [3, 3.1, 3.3, 0.9, 1.8, 3.4, 3.9] },
+        { "name": "Historic sites", "values": [2.1, 2.2, 2.3, 1.1, 1.7, 2.2, 2.4] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：三类景点走势一致——2019 年前小幅增长、2020 年骤降、之后恢复；博物馆始终最多，历史遗迹除 2020 年外都最少",
+      "2020 年骤降：主题公园按比例跌幅最大（3.3 → 0.9 百万，减少约四分之三），当年短暂垫底；博物馆降至 1.6 百万，历史遗迹降至 1.1 百万",
+      "恢复速度：主题公园 2022 年（3.4）已超过 2019 年水平；博物馆和历史遗迹都到 2023 年才超过 2019 年水平（5.0 和 2.4 百万）",
+      "按阶段分段写（2017-2019、2020、2021-2023）比按景点逐条写更清楚"
+    ],
+    "modelAnswer": "The line graph compares the number of visitors to museums, theme parks and historic sites in a European city between 2017 and 2023.\n\nOverall, all three types of attraction followed a similar pattern: modest growth until 2019, a sharp fall in 2020 and a recovery afterwards. Museums were the most visited attraction throughout the period, while historic sites attracted the fewest visitors in most years.\n\nBetween 2017 and 2019, visitor numbers rose gradually for each attraction, with museums increasing from 4.2 to 4.8 million and theme parks from 3.0 to 3.3 million. Historic sites saw only a slight rise, from 2.1 to 2.3 million.\n\nIn 2020, numbers collapsed. Theme parks were hit hardest, losing almost three-quarters of their visitors and falling to just 0.9 million, which briefly made them the least visited attraction. Museums dropped to 1.6 million and historic sites to 1.1 million. The recovery that followed was fastest for theme parks, which had already exceeded their pre-2020 level by 2022, at 3.4 million. Museums took a year longer to recover but reached a peak of 5.0 million in 2023. Historic sites, like museums, only surpassed their 2019 level in 2023, finishing the period at 2.4 million.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-05",
+    "task": 1,
+    "variant": "A",
+    "topic": "environment",
+    "prompt": "The pie chart below shows the composition of household waste collected in one city in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "pie",
+      "title": "Composition of household waste (2023)",
+      "unit": "%",
+      "categories": [
+        "Food and garden waste",
+        "Paper and cardboard",
+        "Plastics",
+        "Glass",
+        "Metals",
+        "Textiles",
+        "Other"
+      ],
+      "series": [
+        { "name": "Share of household waste", "values": [38, 21, 15, 8, 5, 4, 9] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：食物和园林垃圾占比最大且遥遥领先，金属和纺织品占比最小",
+      "食物和园林垃圾 38%，接近第二位纸类（21%）的两倍；两者合计 59%，超过一半",
+      "塑料（15%）排第三；其余各类都不到一成：其他类 9% 略高于玻璃 8%，金属 5%，纺织品 4% 最低",
+      "饼图没有时间变化，重点写排序、倍数和合计，不要写成上升下降"
+    ],
+    "modelAnswer": "The pie chart illustrates the composition of household waste collected in one city in 2023, divided into seven categories.\n\nOverall, food and garden waste formed the largest share by a considerable margin, while metals and textiles made up the smallest proportions. Together, organic waste and paper accounted for more than half of all household rubbish.\n\nFood and garden waste represented 38% of the total, almost twice as much as paper and cardboard, which was the second-largest category at 21%. Combined, these two types of waste, both of which can be composted or recycled relatively easily, made up 59% of household rubbish, or almost three-fifths.\n\nPlastics were the third most significant component, at 15%. All of the remaining categories were much smaller, each accounting for less than a tenth of the total. Miscellaneous items that did not fit into any specific category made up 9%, slightly more than glass at 8%. Metals represented just 5% of household waste, and textiles, such as old clothing and fabrics, only 4%, the lowest figure of all.",
+    "modelBand": 7
+  },
+  {
+    "id": "w1a-06",
+    "task": 1,
+    "variant": "A",
+    "topic": "urban",
+    "prompt": "The pie chart below shows the main methods of travel to work used by employees in one city in 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "pie",
+      "title": "Main method of travel to work (2022)",
+      "unit": "%",
+      "categories": ["Car", "Bus", "Metro", "Bicycle", "Walking", "Other"],
+      "series": [
+        { "name": "Share of commuters", "values": [34, 22, 19, 11, 9, 5] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：汽车是单项最常用的通勤方式（约三分之一），但公交和地铁合计（41%）超过汽车",
+      "公交 22% 居第二，地铁 19% 紧随其后，两者合计比汽车高 7 个百分点",
+      "骑车（11%，约九分之一）和步行（9%）合计占五分之一；其他方式 5%",
+      "分组写法：汽车与公共交通对比为一段，骑车、步行等绿色出行为一段"
+    ],
+    "modelAnswer": "The pie chart shows the main methods that employees in one city used to travel to work in 2022.\n\nOverall, the car was the single most common way of commuting, used by roughly a third of workers. However, buses and the metro together were more popular than driving, while cycling and walking played a smaller but still notable role.\n\nSpecifically, 34% of commuters travelled by car, making it the leading single method by a clear margin. Buses were the second most popular option, at 22%, followed closely by the metro at 19%. Taken together, these two forms of public transport accounted for 41% of journeys to work, seven percentage points more than the car.\n\nCycling and walking were considerably less common. Around one in nine workers (11%) commuted by bicycle, and a slightly smaller proportion, 9%, walked to work. Combined, these active forms of travel represented a fifth of all commutes, still well below the share of car users. The remaining 5% of employees relied on other methods, such as motorcycles or taxis.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-07",
+    "task": 1,
+    "variant": "A",
+    "topic": "media",
+    "prompt": "The table below shows the average number of minutes per day that people in four age groups in one country spent on four leisure activities in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Average daily time spent on leisure activities, by age group (2023)",
+      "unit": "minutes per day",
+      "categories": ["Watching TV", "Using social media", "Reading", "Exercise"],
+      "series": [
+        { "name": "Aged 16-24", "values": [62, 148, 14, 38] },
+        { "name": "Aged 25-44", "values": [95, 84, 18, 27] },
+        { "name": "Aged 45-64", "values": [158, 46, 26, 24] },
+        { "name": "Aged 65+", "values": [214, 18, 41, 29] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：看电视的时间随年龄增加，使用社交媒体的时间随年龄减少，两者呈相反趋势；阅读也随年龄增加，运动时间差异不大",
+      "16-24 岁社交媒体 148 分钟，是看电视（62 分钟）的两倍多；25-44 岁两者接近（84 vs 95）",
+      "65 岁以上看电视 214 分钟，约为其社交媒体时间（18 分钟）的 12 倍",
+      "阅读从 14 分钟升至 41 分钟；运动只在 24-38 分钟之间，最年轻组最多、45-64 岁组最少"
+    ],
+    "modelAnswer": "The table compares how long people in four age groups in one country spent on four leisure activities each day in 2023.\n\nOverall, there was a clear contrast between younger and older people. Television viewing increased steadily with age, whereas the use of social media showed the opposite pattern. Reading was also more popular among older groups, while exercise time varied relatively little.\n\nThe youngest group, aged 16 to 24, spent the most time on social media, at 148 minutes a day, more than twice as long as they spent watching television (62 minutes). Among those aged 25 to 44, the two activities were almost equally popular, at 84 and 95 minutes respectively. For older people, television dominated: the 45-64 age group watched it for 158 minutes daily, and the over-65s for 214 minutes, almost twelve times their 18 minutes on social media.\n\nReading time rose with age, from just 14 minutes among the youngest group to 41 minutes among the oldest. By contrast, exercise ranged only from 24 to 38 minutes, with the youngest people being the most active and the 45-64 group the least.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-08",
+    "task": 1,
+    "variant": "A",
+    "topic": "work",
+    "prompt": "The table below shows the percentage of employees in five industries in one country who worked from home at least one day a week in 2015, 2019 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Employees working from home at least one day a week, by industry",
+      "unit": "%",
+      "categories": ["2015", "2019", "2023"],
+      "series": [
+        { "name": "Information technology", "values": [24, 31, 78] },
+        { "name": "Finance", "values": [15, 20, 62] },
+        { "name": "Manufacturing", "values": [5, 6, 14] },
+        { "name": "Healthcare", "values": [4, 5, 12] },
+        { "name": "Retail", "values": [3, 4, 9] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：五个行业居家办公比例都上升，最大增幅都出现在 2019-2023 年；办公室型行业远高于需要到岗的行业",
+      "信息技术始终最高：24% → 31% → 78%，2019 年后增长一倍多；金融走势相似但水平较低（15% → 20% → 62%）",
+      "制造业、医疗、零售始终低于 15%，零售每年都最低（3% → 9%）；这三个行业虽然约翻了三倍，但仍远低于 IT 和金融",
+      "分组写法：IT 和金融一段，其余三个行业一段"
+    ],
+    "modelAnswer": "The table shows the proportion of employees in five industries who worked from home for at least one day a week in 2015, 2019 and 2023.\n\nOverall, remote working became more common in every industry, with by far the largest increases occurring between 2019 and 2023. However, it was much more widespread in office-based industries than in those that require workers to be physically present.\n\nInformation technology had the highest figures throughout. In 2015, 24% of IT employees worked from home at least once a week, and this rose modestly to 31% in 2019, before more than doubling to 78% in 2023. Finance followed a similar pattern at a lower level, increasing from 15% to 20% and then to 62%.\n\nIn the other three industries, remote working remained relatively rare. In manufacturing, the figure rose from 5% in 2015 to 14% in 2023, while healthcare saw an increase from 4% to 12%. Retail had the lowest proportions in every year, starting at just 3% and reaching only 9% by the end of the period. Although these figures roughly tripled between 2015 and 2023, they remained far below those of IT and finance.",
+    "modelBand": 7
+  }
+]
