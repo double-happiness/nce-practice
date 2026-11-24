@@ -1,0 +1,20 @@
+[
+  { "id": "s1-hometown", "part": 1, "topic": "Hometown", "topicCn": "家乡",
+    "questions": [
+      { "q": "Where is your hometown?",
+        "sample": "My hometown is a small city in the south of China, about two hours from Guangzhou by train. It's known for its tea and the green hills around it, so it's a pretty relaxing place to grow up." },
+      { "q": "Do you like living there? Why?",
+        "sample": "Yes, mostly. The pace of life is slow and the food is fantastic, especially the rice noodles. The only downside is that there aren't many job opportunities, so a lot of young people move to bigger cities after university." }
+    ] },
+  { "id": "s2-person-01", "part": 2, "category": "person",
+    "cueCard": { "title": "Describe a teacher who influenced you.",
+                 "points": ["who this person is", "what subject they taught", "what they did that was special"],
+                 "final": "and explain why this person influenced you." },
+    "sample": "I'd like to talk about Mr Lin, who taught me physics in my last two years of secondary school. He was in his fifties, quite short, and always wore the same grey jacket, so he wasn't exactly the most fashionable teacher in the building.\n\nWhat made him special was the way he turned every lesson into a puzzle. Instead of giving us formulas to memorise, he would start with a simple question, like why a spoon looks bent in a glass of water, and then let us argue about the answer for ten minutes before he explained anything. At first, I found this frustrating because I just wanted to know what would be on the exam. But gradually I realised that I remembered these lessons far better than anything I had copied from the board.\n\nHe also stayed after school twice a week to help anyone who was struggling, and he never made us feel stupid for asking basic questions.\n\nThe reason he influenced me so much is that he changed how I approach problems. Even now, when I face something difficult at work, I try to break it into small questions, just as he taught us. I think that habit is more valuable than any single fact I learned in his class.",
+    "part3": [
+      { "q": "What qualities make a good teacher?",
+        "sample": "I'd say patience is the most important one, because students learn at very different speeds. A good teacher also needs to explain ideas in more than one way, since an example that works for one student might confuse another. And finally, enthusiasm matters a lot. If the teacher clearly enjoys the subject, students are much more likely to take an interest in it too." },
+      { "q": "Will technology replace teachers in the future?",
+        "sample": "I don't think so, at least not completely. Technology is great for practising skills and checking answers instantly, but it can't really notice when a student is losing confidence or needs encouragement. What I expect is that teachers will spend less time marking and more time guiding discussions and supporting individual learners." }
+    ] }
+]

@@ -1,0 +1,5 @@
+[
+  { "word": "curriculum", "pos": "n.", "cn": "课程；全部课程", "phon": "/kəˈrɪkjələm/", "topic": "education", "cefr": "B2", "academic": true,
+    "eg": "The school added coding to its curriculum this year.", "egCn": "这所学校今年把编程加入了课程。",
+    "collocations": ["school curriculum", "national curriculum"] }
+]

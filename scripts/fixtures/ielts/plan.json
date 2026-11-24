@@ -1,0 +1,96 @@
+{
+  "version": 1, "baseline": "A2", "target": 7.0, "templateWeeks": 26,
+  "phases": [
+    {"key":"foundation","name":"基础期","weeks":[1,8],"cefrGoal":"B1","goal":"夹具：基础期"},
+    {"key":"skills","name":"专项期","weeks":[9,20],"cefrGoal":"B2","goal":"夹具：专项期"},
+    {"key":"sprint","name":"冲刺期","weeks":[21,26],"cefrGoal":"C1","goal":"夹具：冲刺期"}
+  ],
+  "weeks": [
+    { "week": 1, "phase": "foundation", "focus": "夹具第 1 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30},
+      {"key":"writing","label":"本周写作 1 篇","kind":"internal","source":["ielts-writing"],"target":1,"unit":"篇","per":"week","tab":"ielts:writing","minutes":60},
+      {"key":"speaking","label":"口语 1 组","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20},
+      {"key":"cam-test","label":"剑雅听力 1 套（外部资料）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":90}
+    ] },
+    { "week": 2, "phase": "foundation", "focus": "夹具第 2 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 3, "phase": "foundation", "focus": "夹具第 3 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 4, "phase": "foundation", "focus": "夹具第 4 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 5, "phase": "foundation", "focus": "夹具第 5 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 6, "phase": "foundation", "focus": "夹具第 6 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 7, "phase": "foundation", "focus": "夹具第 7 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 8, "phase": "foundation", "focus": "夹具第 8 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 9, "phase": "skills", "focus": "夹具第 9 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 10, "phase": "skills", "focus": "夹具第 10 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 11, "phase": "skills", "focus": "夹具第 11 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 12, "phase": "skills", "focus": "夹具第 12 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 13, "phase": "skills", "focus": "夹具第 13 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 14, "phase": "skills", "focus": "夹具第 14 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 15, "phase": "skills", "focus": "夹具第 15 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 16, "phase": "skills", "focus": "夹具第 16 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 17, "phase": "skills", "focus": "夹具第 17 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 18, "phase": "skills", "focus": "夹具第 18 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 19, "phase": "skills", "focus": "夹具第 19 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 20, "phase": "skills", "focus": "夹具第 20 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 21, "phase": "sprint", "focus": "夹具第 21 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 22, "phase": "sprint", "focus": "夹具第 22 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 23, "phase": "sprint", "focus": "夹具第 23 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 24, "phase": "sprint", "focus": "夹具第 24 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 25, "phase": "sprint", "focus": "夹具第 25 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] },
+    { "week": 26, "phase": "sprint", "focus": "夹具第 26 周", "tips": "夹具", "tasks": [
+      {"key":"practice","label":"题库练习 5 题","kind":"internal","source":["quiz"],"target":5,"unit":"题","tab":"practice","minutes":30}
+    ] }
+  ],
+  "checkpoints": [
+    {"week":8,"name":"B1 检查点","criteria":{"vocabBand":"B1","vocabCoverageMin":70,"writingMin":5.0,"speakingMin":5.0}},
+    {"week":14,"name":"B2 中期检查","criteria":{"vocabBand":"B2","vocabCoverageMin":60,"writingMin":5.5,"speakingMin":5.5}},
+    {"week":20,"name":"冲刺前检查","criteria":{"vocabBand":"C1","vocabCoverageMin":50,"writingMin":6.5,"speakingMin":6.5}}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "writing": {
+    "task1A": [
+      { "key": "TA", "name": "Task Achievement", "nameCn": "任务完成",
+        "levels": [ { "band": 5, "desc": "夹具：罗列数据，缺少概述" }, { "band": 6, "desc": "夹具：有概述但不够准确" }, { "band": 7, "desc": "夹具：概述清楚，重点有数据支撑" }, { "band": 8, "desc": "夹具：概述精准，比较充分" } ],
+        "checklist": ["是否写了 overview", "是否挑出了关键数据"] },
+      { "key": "CC", "name": "Coherence and Cohesion", "nameCn": "连贯与衔接", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["段落分工是否清楚"] },
+      { "key": "LR", "name": "Lexical Resource", "nameCn": "词汇", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["趋势词是否多样"] },
+      { "key": "GRA", "name": "Grammatical Range and Accuracy", "nameCn": "语法", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["时态是否与图表年份一致"] }
+    ],
+    "task1G": [
+      { "key": "TA", "name": "Task Achievement", "nameCn": "任务完成", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["三个要点是否都写到"] },
+      { "key": "CC", "name": "Coherence and Cohesion", "nameCn": "连贯与衔接", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["开头结尾是否得体"] },
+      { "key": "LR", "name": "Lexical Resource", "nameCn": "词汇", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["语气是否与收信人匹配"] },
+      { "key": "GRA", "name": "Grammatical Range and Accuracy", "nameCn": "语法", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["句式是否有变化"] }
+    ],
+    "task2": [
+      { "key": "TR", "name": "Task Response", "nameCn": "任务回应", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["立场是否贯穿全文"] },
+      { "key": "CC", "name": "Coherence and Cohesion", "nameCn": "连贯与衔接", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["每段是否有主题句"] },
+      { "key": "LR", "name": "Lexical Resource", "nameCn": "词汇", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["是否有话题词"] },
+      { "key": "GRA", "name": "Grammatical Range and Accuracy", "nameCn": "语法", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["复杂句是否准确"] }
+    ]
+  },
+  "speaking": [
+    { "key": "FC", "name": "Fluency and Coherence", "nameCn": "流利与连贯", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["停顿是否过多"] },
+    { "key": "LR", "name": "Lexical Resource", "nameCn": "词汇", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["能否换说法"] },
+    { "key": "GRA", "name": "Grammatical Range and Accuracy", "nameCn": "语法", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["时态是否稳定"] },
+    { "key": "P", "name": "Pronunciation", "nameCn": "发音", "levels": [ { "band": 6, "desc": "夹具" } ], "checklist": ["重音和语调是否自然"] }
+  ]
+}
