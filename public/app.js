@@ -712,6 +712,19 @@ function applyHashTab() {
     if (tab && !tab.classList.contains('active')) tab.click();
     return;
   }
+  // 雅思备考：#ielts?page=writing 或 #ielts:writing
+  if (id === 'ielts' || id.indexOf('ielts:') === 0) {
+    const page = id === 'ielts' ? params.get('page') : id.slice(6);
+    const tab = document.querySelector('.tab[data-tab="ielts"]');
+    if (!tab) return;
+    if (!tab.classList.contains('active')) {
+      if (page) window.NCE.pendingIelts = { page };
+      tab.click();
+    } else if (page && window.NCE.ielts && window.NCE.ielts.go) {
+      window.NCE.ielts.go(page);
+    }
+    return;
+  }
   const sub = document.querySelector(`.subtab[data-tab="${id}"]`);
   if (sub) {
     const hostPanel = $('feat-' + sub.dataset.host);
@@ -737,6 +750,7 @@ document.addEventListener('click', (e) => {
     hideDictReturnBar();
   }
   if (tabId === 'learn' && location.hash.startsWith('#learn?')) return;
+  if (tabId === 'ielts' && location.hash.startsWith('#ielts?')) return; // 雅思子页由 feat-ielts.js 写入 ?page=
   if (location.hash !== '#' + tabId) history.replaceState(null, '', '#' + tabId);
 });
 window.addEventListener('hashchange', applyHashTab);
@@ -745,6 +759,11 @@ window.addEventListener('hashchange', applyHashTab);
 
 // 跳转到任意标签页（含合并标签的子页）
 function gotoTab(id) {
+  // 雅思备考子页：'ielts:writing' → 带深链切到雅思标签（子导航由 feat-ielts.js 自管）
+  if (typeof id === 'string' && id.indexOf('ielts:') === 0) {
+    window.NCE.pendingIelts = { page: id.slice(6) };
+    id = 'ielts';
+  }
   const sub = document.querySelector(`.subtab[data-tab="${id}"]`);
   if (sub) {
     const host = document.querySelector(`.tab[data-tab="${sub.dataset.host}"]`);
@@ -814,7 +833,7 @@ function hideAll() {
 const FEATURES = [];
 // 标签分组：id → 组名（学/练/复习/我的）；未列出的默认追加到「我的」组
 const TAB_GROUP_OF = {
-  dictionary: 'learn',
+  dictionary: 'learn', ielts: 'learn',
   dictation: 'practice', exam: 'practice', transform: 'practice', dialogue: 'practice',
   review: 'review', wordhub: 'review',
   stats: 'mine', plan: 'mine', backup: 'mine',
@@ -974,6 +993,7 @@ const DICT_RETURN_LABELS = {
   wordhub: '🔤 返回单词',
   comprehension: '📖 返回阅读理解',
   level: '📊 返回水平评估',
+  ielts: '🎯 返回雅思备考',
 };
 
 function dictReturnLabel(tabId, hash) {
