@@ -13,6 +13,15 @@ const { readJSON } = require('../lib/store');
 
 const router = express.Router();
 
+// 提交已落盘后再记学习活动；活动日志写失败只打日志，不把已成功的提交变成 500（否则客户端重试会产生重复记录）
+function recordActivity(correct, source) {
+  try {
+    activity.record(correct, source);
+  } catch (e) {
+    console.error(`[ielts] 学习活动记录失败 source=${source}: ${e.message}`);
+  }
+}
+
 // ---- 枚举（与设计文档 §3 保持一致）----
 const TOPICS = {
   academic: '学术通用',
@@ -203,7 +212,7 @@ router.get('/ielts/vocab', (req, res) => {
   const topic = strParam(req.query.topic);
   const cefr = strParam(req.query.cefr);
   const q = strParam(req.query.q);
-  if (topic === null || (topic && !TOPICS[topic])) return bad(res, `topic 必须是 ${Object.keys(TOPICS).join(' / ')} 之一`);
+  if (topic === null || (topic && !Object.prototype.hasOwnProperty.call(TOPICS, topic))) return bad(res, `topic 必须是 ${Object.keys(TOPICS).join(' / ')} 之一`);
   if (cefr === null || (cefr && !CEFRS.includes(cefr))) return bad(res, `cefr 必须是 ${CEFRS.join(' / ')} 之一`);
   if (q === null || q.length > 50) return bad(res, 'q 必须是不超过 50 字的字符串');
   const limit = intParam(req.query.limit, 1, 500, 50);
@@ -350,7 +359,7 @@ router.post('/ielts/vocab-check', (req, res) => {
   const user = ielts.loadUser();
   user.vocabChecks.push({ ts: Date.now(), byBand, overall });
   ielts.saveUser(user);
-  activity.record(overall >= 60, 'ielts-vocab');
+  recordActivity(overall >= 60, 'ielts-vocab');
 
   const total = quiz.items.size;
   res.json({ total, correct: total - wrong.length, byBand, overall, wrong });
@@ -438,7 +447,7 @@ router.post('/ielts/writing/submit', (req, res) => {
   const user = ielts.loadUser();
   user.writings.push(entry);
   ielts.saveUser(user);
-  activity.record(wordCount >= minWords, 'ielts-writing');
+  recordActivity(wordCount >= minWords, 'ielts-writing');
 
   const warning = wordCount < minWords
     ? `字数不足：Task ${task} 至少 ${minWords} 词，本篇 ${wordCount} 词（考试中字数不足会被扣分）`
@@ -515,7 +524,7 @@ router.post('/ielts/speaking/submit', (req, res) => {
   const user = ielts.loadUser();
   user.speakings.push(entry);
   ielts.saveUser(user);
-  activity.record(true, 'ielts-speaking');
+  recordActivity(true, 'ielts-speaking');
   res.json({ ok: true, entry, band: entry.band });
 });
 
