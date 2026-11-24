@@ -222,6 +222,7 @@
 
 - T1 设计文档与数据结构（本文）
 - T2 `lib/ielts-listening.js`：内容加载、校验、判分、band 估算、记录清洗
+  - [x] 已实现 2026-11-24
 - T3 原创内容：Part 1–2（4 个 section）
 - T4 原创内容：Part 3–4（4 个 section）
 - T5 `routes/ielts-listening.js`：列表、题目、交卷
