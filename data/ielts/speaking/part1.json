@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s1-hometown",
+    "part": 1,
+    "topic": "Hometown",
+    "topicCn": "家乡",
+    "questions": [
+      { "q": "Where is your hometown?", "sample": "My hometown is a mid-sized city in the south of China, about two hours from the coast by train. It's not a famous tourist spot, but it's got a long history and some lovely old streets. To be honest, most people outside the province have never heard of it, which I find quite funny." },
+      { "q": "What do you like most about your hometown?", "sample": "Definitely the food. There's a little night market near my old school where you can get amazing noodles for next to nothing. Apart from that, I love how relaxed the pace of life is. Whenever I go back, I feel like I can finally slow down and breathe." },
+      { "q": "Has your hometown changed much in recent years?", "sample": "Yes, quite a lot. When I was a kid, most buildings were only five or six storeys high, but now there are shopping malls and high-rise flats everywhere. The city also opened its first metro line a few years ago. It's more convenient now, although I do miss some of the old neighbourhoods." },
+      { "q": "Would you like to live in your hometown in the future?", "sample": "Maybe, but probably not right now. The job opportunities there are fairly limited, especially in my field, so it makes more sense for me to stay in a bigger city for a while. That said, I can definitely see myself moving back when I'm older, because my parents and most of my relatives still live there." }
+    ]
+  },
+  {
+    "id": "s1-work-or-study",
+    "part": 1,
+    "topic": "Work or Study",
+    "topicCn": "工作或学习",
+    "questions": [
+      { "q": "Do you work or are you a student?", "sample": "I work. I'm in marketing at a mid-sized tech company, so most of my day is spent planning campaigns and analysing data. I've been there for about three years now. It can be a bit hectic at times, but I enjoy it because no two weeks are exactly the same." },
+      { "q": "Why did you choose this job?", "sample": "Well, I studied business at university, and I was always more interested in the creative side than the numbers. Marketing seemed like a good mix of both. To be honest, the salary was also a factor. It was one of the better offers I got after graduating, so it was quite an easy decision." },
+      { "q": "What is the most difficult part of your work?", "sample": "Probably the deadlines. Sometimes a client changes their mind at the last minute, and we have to redo a whole plan in a day or two. It's stressful, but I've learned to stay calm and break the work into smaller tasks. Strangely enough, that pressure has made me much better at managing my time." },
+      { "q": "Would you like to change your job in the future?", "sample": "Not completely, but I'd like to move into a role with more responsibility, maybe leading a small team. I'm also thinking about working abroad for a couple of years, which is partly why I'm preparing for IELTS. I think experiencing a different working culture would be a real eye-opener." }
+    ]
+  },
+  {
+    "id": "s1-accommodation",
+    "part": 1,
+    "topic": "Accommodation",
+    "topicCn": "住所",
+    "questions": [
+      { "q": "Do you live in a house or a flat?", "sample": "I live in a flat on the twelfth floor of a fairly new building. It's a two-bedroom place that I share with a friend from university. It isn't huge, but it gets a lot of natural light, and the view of the river at night is honestly one of my favourite things about it." },
+      { "q": "Which room do you like most in your home?", "sample": "I'd say the living room. It's where I spend most of my free time, reading, watching films or just chatting with my flatmate. We put a big comfy sofa and lots of plants in there, so it feels really cosy. It's also the only room with a balcony, which is perfect on summer evenings." },
+      { "q": "What would you like to change about your home?", "sample": "If I could change one thing, it would be the kitchen. It's really tiny, so there's hardly any space to prepare food, and two people can't cook at the same time. I'd love a bigger kitchen with a proper table, because I enjoy having friends over for dinner." },
+      { "q": "Do you plan to live there for a long time?", "sample": "Probably not. The rent keeps going up every year, and the building is quite far from my office, so I spend nearly an hour commuting each way. Ideally, I'd like to buy a small place of my own in a few years, somewhere closer to work and a bit quieter." }
+    ]
+  },
+  {
+    "id": "s1-daily-routine",
+    "part": 1,
+    "topic": "Daily Routine",
+    "topicCn": "日常作息",
+    "questions": [
+      { "q": "What do you usually do in the morning?", "sample": "On weekdays, I'm up at around seven. I make a quick coffee, check the news on my phone, and then head to work. I usually grab breakfast on the way, maybe a steamed bun or something. At weekends, though, it's a different story. I sleep in and have a much slower breakfast at home." },
+      { "q": "Which part of the day do you like best?", "sample": "I'd say the evening, after dinner. That's when I finally have some time to myself. I usually go for a walk around the park near my flat or do some reading. It's quiet, the weather's cooler, and I feel I can actually think clearly, instead of rushing from one thing to another." },
+      { "q": "Do you prefer to study in the morning or at night?", "sample": "Definitely in the morning. My mind is much fresher before lunch, and I find it easier to remember new words. At night, I'm usually too tired after work to concentrate properly. So recently I've started getting up thirty minutes earlier just to do some English practice, and it's working pretty well so far." },
+      { "q": "Has your daily routine changed much since you were a child?", "sample": "Oh, completely. As a child, my whole day revolved around school and homework, and my parents decided almost everything for me. Now I have to plan my own time, which is both a freedom and a challenge. I also go to bed much later than I used to, which probably isn't a good thing." }
+    ]
+  },
+  {
+    "id": "s1-food",
+    "part": 1,
+    "topic": "Food",
+    "topicCn": "饮食",
+    "questions": [
+      { "q": "What kind of food do you like?", "sample": "I'm a big fan of spicy food, especially Sichuan dishes like mapo tofu. I grew up eating fairly mild food, but once I tried hot pot at university, I was hooked. I also enjoy Japanese food from time to time, because it's light and fresh, which makes a nice change." },
+      { "q": "Do you often cook at home?", "sample": "Not as often as I'd like. During the week I'm usually too tired, so I tend to order takeaway or eat in the canteen at work. But on Sundays I try to cook something proper, like soup or a stir-fry. It's relaxing, and it's definitely healthier than eating out all the time." },
+      { "q": "Is there any food you didn't like as a child but like now?", "sample": "Yes, bitter melon. When I was little, I couldn't stand it, and my mum had to practically force me to eat it. But as I got older, I started to appreciate that slightly bitter taste, especially when it's stir-fried with eggs. Now I actually order it when I eat out, which still surprises my family." },
+      { "q": "Do you think people eat more healthily now than in the past?", "sample": "In some ways, yes. People know a lot more about nutrition now, and you see salads and low-sugar drinks everywhere. On the other hand, fast food and delivery apps are so convenient that many people eat oily, salty meals every day. So I'd say awareness has improved, but actual habits haven't changed that much." }
+    ]
+  },
+  {
+    "id": "s1-weather",
+    "part": 1,
+    "topic": "Weather",
+    "topicCn": "天气",
+    "questions": [
+      { "q": "What's the weather like in your hometown?", "sample": "It's pretty humid most of the year. Summers are long and really hot, often over thirty-five degrees, and we get a lot of heavy rain in June. Winters are short and mild, so it hardly ever snows. Honestly, the humidity is the hardest part, because your clothes never seem to dry properly." },
+      { "q": "What kind of weather do you like best?", "sample": "I love those clear, crisp autumn days when the sky is bright blue and there's a light breeze. It's not too hot or too cold, so it's perfect for being outdoors. On days like that, I always try to get out of the house, maybe go cycling or have a picnic with friends." },
+      { "q": "Does the weather affect your mood?", "sample": "Yes, quite a bit, actually. When it rains for several days in a row, I tend to feel a bit low and less motivated. Sunny weather, on the other hand, really lifts my spirits and gives me more energy. I've noticed I'm much more productive on bright days, even when I'm working indoors." },
+      { "q": "Do you check the weather forecast every day?", "sample": "Pretty much, yes. It only takes a few seconds on my phone, and it helps me decide what to wear and whether I need an umbrella. In summer it's especially useful, because there are sudden thunderstorms in the afternoon. I learned that the hard way after getting completely soaked on my way home a few times." }
+    ]
+  },
+  {
+    "id": "s1-music",
+    "part": 1,
+    "topic": "Music",
+    "topicCn": "音乐",
+    "questions": [
+      { "q": "What kind of music do you like?", "sample": "I mostly listen to indie pop and a bit of jazz. I like songs with catchy melodies but also meaningful lyrics. Jazz is more for when I'm working, because it helps me focus without distracting me. To be honest, my taste changes with my mood, so my playlists are a bit of a mess." },
+      { "q": "When do you usually listen to music?", "sample": "Mainly on my way to work. I've got a long commute, so music makes the journey feel much shorter. I also put something on while I'm cooking or cleaning the flat. The only time I don't listen to music is when I'm studying English, because I find lyrics really distract me." },
+      { "q": "Have you ever learned to play a musical instrument?", "sample": "Yes, I took piano lessons for about four years when I was in primary school. I wasn't very good, and I hated practising scales every day, so I gave up when I started middle school. Looking back, I kind of regret it. I'd love to be able to play a few songs for fun now." },
+      { "q": "Do you prefer listening to live music or recorded music?", "sample": "For everyday listening, recorded music, because it's convenient and I can choose exactly what I want. But nothing beats the atmosphere of a live concert. I went to an outdoor music festival last summer, and singing along with thousands of people was just incredible. It's expensive, though, so I only go once or twice a year." }
+    ]
+  },
+  {
+    "id": "s1-reading",
+    "part": 1,
+    "topic": "Reading",
+    "topicCn": "阅读",
+    "questions": [
+      { "q": "Do you like reading?", "sample": "Yes, I do, although I don't read as much as I used to. These days I mostly read on my phone during my commute, things like short articles and online novels. I still try to finish at least one paper book a month, though, because it helps me switch off from screens and work." },
+      { "q": "What kind of books do you like to read?", "sample": "I really enjoy detective novels, because I like trying to work out who did it before the end. Recently I've also got into popular science books, especially ones about psychology. They explain complicated ideas in a simple way, and I often pick up some interesting facts that I can share with my friends." },
+      { "q": "Do you prefer paper books or e-books?", "sample": "I prefer paper books, to be honest. I like the feel of turning the pages, and I remember things better when I read on paper. That said, e-books are really handy when I'm travelling, because I can carry hundreds of them on one small device. So I guess I use both, depending on the situation." },
+      { "q": "Did you read a lot when you were a child?", "sample": "Yes, quite a lot. My parents took me to the local library almost every weekend, and I'd borrow a big pile of comics and fairy tales. I think that habit really helped my Chinese writing at school. Unfortunately, once I got to secondary school, I was so busy with homework that I hardly read for fun anymore." }
+    ]
+  },
+  {
+    "id": "s1-sports",
+    "part": 1,
+    "topic": "Sports",
+    "topicCn": "运动",
+    "questions": [
+      { "q": "Do you like doing sports?", "sample": "Yes, I do, though I'm not particularly sporty. I play badminton with some colleagues every Wednesday evening, and I go jogging a couple of times a week. I'm not very competitive. For me, sport is mainly a way to stay healthy and get rid of stress after sitting at a desk all day." },
+      { "q": "What sports are popular in your country?", "sample": "Badminton and table tennis are hugely popular, partly because you don't need much space or expensive equipment. Basketball is also really big, especially among young men. You'll see people playing on outdoor courts in almost every neighbourhood. And recently, running has become a real trend, with marathons being held in lots of cities." },
+      { "q": "Did you do much sport at school?", "sample": "Not really, to be honest. We had PE classes twice a week, but most of the time we just ran around the track or did some basic exercises. As we got closer to the big exams, those classes were often replaced by maths or English. I only really got into sport after I started working." },
+      { "q": "Do you prefer watching sports or playing them?", "sample": "Definitely playing. I find watching sports on TV a bit boring unless it's a really big event, like the Olympics or the World Cup final. When I'm actually playing, I'm completely focused and I forget about everything else. Plus, it's good exercise, whereas watching usually just means sitting on the sofa eating snacks." }
+    ]
+  },
+  {
+    "id": "s1-travel",
+    "part": 1,
+    "topic": "Travel",
+    "topicCn": "旅行",
+    "questions": [
+      { "q": "Do you like travelling?", "sample": "Yes, I absolutely love it. I try to go on at least one proper trip every year, usually during the National Day holiday. I enjoy trying local food and wandering around places without a strict plan. Travelling also reminds me how big the world is, which helps me put my everyday worries into perspective." },
+      { "q": "Do you prefer travelling alone or with others?", "sample": "It depends on the trip. For short city breaks, I actually prefer going alone, because I can do whatever I like and change my plans at the last minute. But for longer trips, especially somewhere remote, I'd rather go with friends. It's safer, and sharing the experience with people makes it more memorable." },
+      { "q": "Where would you like to travel in the future?", "sample": "I'd really love to visit New Zealand. I've seen so many photos of its mountains and lakes, and it looks absolutely stunning. I'm into hiking, so it would be a dream to do one of the famous long-distance trails there. Hopefully I can go once my English is good enough to chat with the locals easily." },
+      { "q": "What do you usually take with you when you travel?", "sample": "I try to pack light, so usually just a small backpack. The essentials are my phone, a power bank, some comfortable shoes and a reusable water bottle. I always bring a paper notebook too, because I like writing down a few lines about each day. It's a nice way to remember the little details later." }
+    ]
+  },
+  {
+    "id": "s1-shopping",
+    "part": 1,
+    "topic": "Shopping",
+    "topicCn": "购物",
+    "questions": [
+      { "q": "Do you enjoy shopping?", "sample": "It depends on what I'm buying. I quite like browsing in bookshops or markets, but shopping for clothes is a bit of a chore for me. I never know what suits me, and the changing rooms are always crowded. So most of the time I just buy the same style online and hope for the best." },
+      { "q": "Do you prefer shopping online or in shops?", "sample": "Mostly online, because it's quicker and usually cheaper, and things arrive at my door the next day. But for certain things, like shoes or furniture, I still go to a real shop. I need to try them out or check the quality with my own eyes. Otherwise, I usually end up returning them." },
+      { "q": "What was the last thing you bought?", "sample": "The last thing I bought was a new pair of running shoes. My old ones were completely worn out, and I'd started getting knee pain after jogging. I spent a while comparing different brands online, then went to a sports shop to try a few pairs. They weren't cheap, but they're incredibly comfortable." },
+      { "q": "Do you think people buy too many things nowadays?", "sample": "Yes, I think a lot of us do. Online shopping makes it so easy to buy things with one click, and there are big sales almost every month. I've definitely been guilty of buying stuff I didn't need just because it was half price. Lately I've been trying to wait a few days before buying anything non-essential." }
+    ]
+  },
+  {
+    "id": "s1-technology",
+    "part": 1,
+    "topic": "Technology",
+    "topicCn": "科技",
+    "questions": [
+      { "q": "How often do you use your mobile phone?", "sample": "Honestly, far too often. I use it for almost everything, from paying for coffee to reading the news and chatting with friends. My screen-time report says I spend about five hours a day on it, which is a bit shocking. I've recently turned off most notifications to try to cut down a bit." },
+      { "q": "What app do you use most?", "sample": "Probably WeChat. It's not just for messaging. I use it to pay bills, book taxis and even make doctor's appointments. Pretty much my whole life is on it. Apart from that, I use a language-learning app every day, which helps me keep up my English vocabulary even when I'm busy." },
+      { "q": "Is there any technology you find difficult to use?", "sample": "Not much, but I do struggle with some of the smart home devices my parents bought. The voice assistant never understands my dad's accent, so he ends up shouting at it, which is quite funny to watch. I also find some government websites confusing, because there are so many steps and forms to fill in." },
+      { "q": "Do you think technology has made life easier?", "sample": "On the whole, yes. Things like online banking and food delivery save us a huge amount of time. But I think it has also made life busier in a way. Because everyone can reach you at any moment, it's harder to truly relax, and work messages often follow you home in the evening." }
+    ]
+  },
+  {
+    "id": "s1-friends",
+    "part": 1,
+    "topic": "Friends",
+    "topicCn": "朋友",
+    "questions": [
+      { "q": "Do you have many friends?", "sample": "Not a huge number, but I have a small circle of close friends that I've known since secondary school. We don't see each other that often now because we live in different cities, but we have a group chat that's active every single day. I'd rather have a few real friends than lots of casual ones." },
+      { "q": "What do you usually do with your friends?", "sample": "Mostly we eat. Seriously, almost every time we meet, it's centred around food, either trying a new restaurant or making hot pot at someone's place. Sometimes we go hiking or play board games as well. It doesn't really matter what we do, to be honest. It's just nice to catch up and have a laugh." },
+      { "q": "Is it easy for you to make new friends?", "sample": "It's harder than it used to be. At school you're surrounded by people your own age every day, so friendships just happen naturally. Now that I'm an adult, I spend most of my time at work, and other people have their own families and routines. I usually meet new people through hobbies, like my badminton group." },
+      { "q": "What makes someone a good friend?", "sample": "For me, the most important thing is honesty. A good friend tells you the truth even when it's not what you want to hear. I also think a good friend is someone who's there for you when things go wrong, not just when you're having fun. My best friend helped me a lot when I lost my first job." }
+    ]
+  },
+  {
+    "id": "s1-hobbies",
+    "part": 1,
+    "topic": "Hobbies",
+    "topicCn": "爱好",
+    "questions": [
+      { "q": "Do you have any hobbies?", "sample": "Yes, my main hobby is photography. I started a couple of years ago with just my phone, and then I bought a second-hand camera. I mostly take photos of street life and old buildings in my city. It's made me notice small details that I used to walk past without a second thought." },
+      { "q": "How much time do you spend on your hobbies?", "sample": "Not as much as I'd like. During the week I'm usually too busy, so it's mainly at the weekends, maybe three or four hours in total. Sometimes I'll get up really early on a Saturday to catch the morning light. It's tiring, but the photos are always worth it." },
+      { "q": "Did you have any hobbies when you were a child?", "sample": "Yes, I was obsessed with collecting stamps. My grandfather gave me his old collection when I was about eight, and I spent hours sorting them by country. I still have the albums somewhere at my parents' house. I don't collect anymore, but I think it's where my interest in history and other countries came from." },
+      { "q": "Is there a new hobby you would like to try?", "sample": "I'd love to learn to swim properly. I can only do a very basic doggy paddle, which is a bit embarrassing at my age. Swimming is great exercise and easy on the joints, so it seems like a sensible choice. There's a public pool near my office, so I'm planning to sign up for lessons next spring." }
+    ]
+  },
+  {
+    "id": "s1-transport",
+    "part": 1,
+    "topic": "Transport",
+    "topicCn": "交通",
+    "questions": [
+      { "q": "How do you usually get to work or school?", "sample": "I usually take the metro. It's about fifty minutes door to door, including a short walk at each end. It's crowded during rush hour, but it's reliable and much faster than driving, because the roads are always jammed. I use the time to listen to podcasts or review vocabulary." },
+      { "q": "What is public transport like in your city?", "sample": "It's pretty good, actually. There are six metro lines now, and buses go almost everywhere. You can pay for everything by scanning a code on your phone, which is really convenient. The main problem is that it gets extremely crowded in the morning and evening, so sometimes you have to wait for two or three trains." },
+      { "q": "Do you prefer cycling or walking?", "sample": "For short distances, I prefer walking. It's relaxing, and I can stop whenever I see something interesting. But if it's more than a couple of kilometres, I'll grab a shared bike, because it's quicker and still gives me a bit of exercise. Cycling in summer isn't much fun, though. I always arrive dripping with sweat." },
+      { "q": "Will people use cars less in the future?", "sample": "I think so, at least in big cities. Public transport keeps getting better, and parking is becoming really expensive. Also, more young people seem happy to use ride-hailing apps instead of owning a car. That said, in the countryside a car is still pretty much essential, so I don't think cars will disappear any time soon." }
+    ]
+  },
+  {
+    "id": "s1-holidays",
+    "part": 1,
+    "topic": "Holidays",
+    "topicCn": "假期",
+    "questions": [
+      { "q": "What did you do during your last holiday?", "sample": "During the last May Day holiday, I went back to my hometown to see my family. Honestly, it was very low-key. We cooked big meals together, visited my grandparents and went for walks in the hills nearby. After months of working late, it was exactly what I needed to recharge my batteries." },
+      { "q": "Do you prefer short holidays or long ones?", "sample": "I'd prefer long ones, but realistically, short ones are all I can get. With a long holiday, you can really relax and explore a place properly instead of rushing around. With just three or four days, you spend a lot of the time travelling. Still, even a short break is much better than nothing." },
+      { "q": "What is your favourite public holiday?", "sample": "It has to be the Spring Festival. It's the only time of year when my whole family gets together, including relatives who live abroad. There's so much food, and the kids get red envelopes with money inside. Although the travel is exhausting because everyone is going home at once, the atmosphere makes it all worthwhile." },
+      { "q": "Do you usually plan your holidays in advance?", "sample": "Yes, I usually book transport and hotels at least a month ahead, because prices go up a lot around public holidays. But I don't plan every single day. I like to leave some free time to just wander around and see what happens. Some of my best travel memories came from things I never planned at all." }
+    ]
+  }
+]
