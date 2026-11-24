@@ -343,13 +343,13 @@ test('真实计划模板 data/ielts/plan.json 通过校验，W1–W25 日均 180
   }
 });
 
-test('查词典：雅思来源排在教材与 extras 之后、全局词库之前', () => {
+test('查词典：雅思来源排在教材、extras、全局词库之后（只补充新词）', () => {
   const { findEntry } = require('../lib/wordlookup');
   assert.strictEqual(findEntry('homogeneous').source, 'ielts');
   assert.strictEqual(findEntry('homogeneous').cefr, 'C1');
   assert.ok(findEntry('homogeneous').eg.endsWith('有人担心全球品牌会让文化变得更加单一。'));
   assert.strictEqual(findEntry('pollution').source, 'textbook'); // 教材优先
-  assert.strictEqual(findEntry('curriculum').source, 'ielts'); // 全局词库里也有，雅思优先
+  assert.strictEqual(findEntry('curriculum').source, 'global'); // 全局词库已有的词保持原词条，不被雅思覆盖
 });
 
 if (failed) {
