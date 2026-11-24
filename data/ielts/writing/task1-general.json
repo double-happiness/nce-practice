@@ -1,0 +1,82 @@
+[
+  {
+    "id": "w1g-01",
+    "task": 1,
+    "variant": "G",
+    "tone": "formal",
+    "prompt": "You recently ordered a desk from an online furniture company, but there were several problems with the delivery. Write a letter to the company's customer service manager. In your letter",
+    "bullets": [
+      "give details of your order",
+      "explain what went wrong with the delivery",
+      "say what you would like the company to do"
+    ],
+    "modelAnswer": "Dear Sir or Madam,\n\nI am writing to complain about a desk I ordered from your website on 3 March. The order (number FD-20417) was for an oak writing desk costing £289, and I paid an extra £25 for guaranteed delivery within five working days.\n\nUnfortunately, the desk did not arrive until 17 March, a full week later than promised. I also had to take an additional day off work because the first delivery slot was cancelled without any notice. Moreover, when I unpacked the desk, I discovered that one of the legs was cracked and the top was badly scratched. I have kept the original packaging and taken photographs of the damage, which I can send you if necessary.\n\nIn view of these problems, I would like you to collect the damaged desk and replace it with a new one at no extra cost. I would also expect a full refund of the £25 delivery charge, as I did not receive the service I paid for.\n\nI look forward to your prompt reply.\n\nYours faithfully,\nDaniel Brooks",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-02",
+    "task": 1,
+    "variant": "G",
+    "tone": "formal",
+    "prompt": "A park near your home has become less pleasant to use in recent months. Write a letter to your local council. In your letter",
+    "bullets": [
+      "describe the park and explain how you use it",
+      "explain what the problems are",
+      "suggest what the council could do to improve the situation"
+    ],
+    "modelAnswer": "Dear Sir or Madam,\n\nI am writing to draw your attention to the condition of Riverside Park, the small green space next to the community centre on Mill Road. I have lived nearby for six years and use the park almost every day, either for a morning jog or to take my children to the playground.\n\nOver the last few months, however, the park has become much less pleasant. Several lamps along the main path no longer work, which makes it feel unsafe after dark. The bins are not emptied regularly, so litter is often scattered across the grass, and part of the playground has been fenced off since a swing broke in the spring.\n\nI would therefore like to suggest a few improvements. First, the broken lights should be repaired as soon as possible. Second, the bins could be emptied more often, especially at weekends when the park is busiest. Finally, I would be grateful if the playground could be fixed before the summer holidays.\n\nThank you for considering these suggestions.\n\nYours faithfully,\nLaura Chen",
+    "modelBand": 7
+  },
+  {
+    "id": "w1g-03",
+    "task": 1,
+    "variant": "G",
+    "tone": "semi-formal",
+    "prompt": "Your neighbour is having building work done in their flat, and the noise is causing you problems. Write a letter to your neighbour. In your letter",
+    "bullets": [
+      "introduce yourself",
+      "explain how the noise is affecting you",
+      "suggest what could be done about it"
+    ],
+    "modelAnswer": "Dear Mr Harris,\n\nI hope you don't mind me writing to you. My name is Emma Wright, and I live in the flat directly below yours at number 14.\n\nI understand that you are having your kitchen renovated, and I'm sure it will look wonderful when it is finished. However, I wanted to let you know that the drilling and hammering usually start at around 7 a.m., even on Saturdays. I work night shifts at the hospital three times a week, so on those days I need to sleep until early afternoon, and the noise has made this very difficult. As a result, I have been feeling exhausted at work.\n\nI was wondering whether the builders could save the noisiest jobs for the afternoons, at least on Tuesdays, Thursdays and Saturdays, which are the mornings after my night shifts. Alternatively, if you could let me know the schedule in advance, I could try to plan my sleep around it.\n\nThank you for your understanding. Please feel free to knock on my door if you would like to talk about it.\n\nKind regards,\nEmma Wright",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-04",
+    "task": 1,
+    "variant": "G",
+    "tone": "semi-formal",
+    "prompt": "You would like to attend a short training course that would help you in your job. Write a letter to your manager. In your letter",
+    "bullets": [
+      "describe the course",
+      "explain how it would help you in your work",
+      "say how your work would be covered while you are away"
+    ],
+    "modelAnswer": "Dear Ms Collins,\n\nI am writing to ask whether I could attend a short training course next month. It is a three-day course in data analysis, run by the City Business School from 14 to 16 May, which teaches how to use spreadsheets and charting software to present sales figures.\n\nI believe the course would be very useful in my current role. At the moment, preparing the monthly sales report takes me almost two days because I do much of the work by hand. After the training, I should be able to complete it far more quickly and produce clearer charts for our team meetings. I would also be happy to share what I learn with the rest of the team.\n\nIf you agree, I will make sure my work is covered while I am away. I plan to finish the April report before the course starts, and Tom has kindly offered to deal with any urgent client emails on my behalf.\n\nI look forward to hearing from you.\n\nBest regards,\nSofia Martin",
+    "modelBand": 7
+  },
+  {
+    "id": "w1g-05",
+    "task": 1,
+    "variant": "G",
+    "tone": "informal",
+    "prompt": "A friend has invited you to their wedding, but you are unable to attend. Write a letter to your friend. In your letter",
+    "bullets": [
+      "thank your friend for the invitation",
+      "explain why you cannot attend",
+      "suggest another way to celebrate together"
+    ],
+    "modelAnswer": "Dear Jess,\n\nThank you so much for the beautiful wedding invitation! It arrived yesterday, and I can't tell you how happy I am for you and Mark. After everything you two have been through together, you really deserve this.\n\nUnfortunately, I've got some bad news. I won't be able to make it on the 21st because I'll be in Singapore for work that week. My company is opening a new office there, and since I'm in charge of training the new staff, there's no way I can change the dates. I was gutted when I realised they clashed, as I've been looking forward to dancing at your wedding for years!\n\nAnyway, I'd love to celebrate with you both as soon as I'm back. How about I take you out for dinner at that little Italian place we used to go to at university? It'll be my treat, of course, and you can show me all the photos. Just let me know which weekend in July suits you.\n\nWishing you both a wonderful day.\n\nLots of love,\nAnna",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-06",
+    "task": 1,
+    "variant": "G",
+    "tone": "informal",
+    "prompt": "A friend from another country is planning to spend a week in your city next month and has asked you for advice. Write a letter to your friend. In your letter",
+    "bullets": ["suggest some places to visit", "recommend where to stay", "offer to help in some way"],
+    "modelAnswer": "Dear Tom,\n\nIt was great to hear that you're finally coming to visit next month! A whole week will give you plenty of time to see the best parts of the city.\n\nFirst of all, you mustn't miss the old town. The narrow streets are full of tiny cafes and craft shops, and if you walk up to the castle in the evening, you'll get an amazing view of the sunset over the river. I'd also recommend the night market on Fridays, where you can try loads of local street food for next to nothing.\n\nAs for accommodation, if I were you, I'd stay near the central station. It's a bit noisy, but there are some good-value guesthouses there, and you can get everywhere easily by metro.\n\nBy the way, I've just checked my calendar, and I'm free the weekend you arrive, so I could pick you up from the airport and show you around for a couple of days. Just send me your flight details once you've booked.\n\nCan't wait to see you!\n\nAll the best,\nLeo",
+    "modelBand": 7
+  }
+]
