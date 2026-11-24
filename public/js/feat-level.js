@@ -129,7 +129,7 @@
     const quad = (title, num, sub) =>
       `<div class="lv-quad"><div class="lv-quad-t">${title}</div><div class="lv-quad-n">${num}</div><div class="lv-quad-sub">${sub}</div></div>`;
     return (
-      '<div class="lv-card"><h3>🎯 雅思自评</h3>' +
+      '<div class="lv-card"><h3>🎓 雅思自评</h3>' +
       '<div class="lv-quads">' +
       quad('✍️ 写作', esc(fmtBand(w.last3Avg)), wN ? `近 3 次自评均分 · 共 ${wN} 篇` : '还没有写作记录') +
       quad('🎙️ 口语', esc(fmtBand(s.last3Avg)), sN ? `近 3 次自评均分 · 共 ${sN} 次` : '还没有口语记录') +

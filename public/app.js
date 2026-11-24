@@ -993,7 +993,7 @@ const DICT_RETURN_LABELS = {
   wordhub: '🔤 返回单词',
   comprehension: '📖 返回阅读理解',
   level: '📊 返回水平评估',
-  ielts: '🎯 返回雅思备考',
+  ielts: '🎓 返回雅思备考',
 };
 
 function dictReturnLabel(tabId, hash) {
@@ -1531,7 +1531,7 @@ async function renderHomeIeltsCard(slot) {
 
     slot.className = 'home-card home-ielts-card';
     slot.innerHTML =
-      `<div class="hc-title">🎯 雅思备考 · ${p.examType === 'G' ? 'G' : 'A'} 类${target ? ' · 目标 ' + escapeHtml(target) : ''}</div>` +
+      `<div class="hc-title">🎓 雅思备考 · ${p.examType === 'G' ? 'G' : 'A'} 类${target ? ' · 目标 ' + escapeHtml(target) : ''}</div>` +
       big +
       (totalWeeks ? `<div class="hc-bar"><i style="width:${weekPct}%"></i></div>` : '') +
       `<div class="hc-sub">${lines.join('<br>') || '按计划推进每天的任务'}</div>` +

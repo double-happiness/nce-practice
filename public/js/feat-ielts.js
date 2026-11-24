@@ -1,5 +1,5 @@
 'use strict';
-// 雅思备考（🎯）顶层标签壳层：子导航（总览计划 / 词汇 / 写作 / 口语 / 记录）+ 未开启时的开启引导。
+// 雅思备考（🎓）顶层标签壳层：子导航（总览计划 / 词汇 / 写作 / 口语 / 记录）+ 未开启时的开启引导。
 // 各子页由 public/js/ielts-*.js 通过 NCE.ielts.registerPage(key, impl) 挂入，impl 约定：
 //   render(container, ctx)  必需，渲染子页（可 async）；ctx.isActive() 为 false 时说明用户已切走，异步回调里不要再写 DOM
 //   resume()                可选，重新进入标签时若能保留现场（如写作中途）返回 true，否则壳层重新 render
@@ -358,7 +358,7 @@
   }
 
   function headHtml() {
-    return `<div class="ie-head"><h2>🎯 雅思备考</h2><span class="ie-head-sub" id="ieHeadSub">${esc(headSubText())}</span></div>`;
+    return `<div class="ie-head"><h2>🎓 雅思备考</h2><span class="ie-head-sub" id="ieHeadSub">${esc(headSubText())}</span></div>`;
   }
 
   function refreshHead() {
@@ -499,7 +499,7 @@
       '<div class="ie-wrap">' +
       headHtml() +
       '<div class="ie-card">' +
-      '<h3>🎯 开启雅思备考</h3>' +
+      '<h3>🎓 开启雅思备考</h3>' +
       '<p class="ie-lead">设好考试类型、考试日和目标分，系统按 26 周三阶段模板生成每天的任务清单；以后改考试日，计划会自动压缩或拉伸。</p>' +
       '<div class="ie-form">' +
       '<div class="ie-field"><span class="ie-label">考试类型</span><div class="chips" id="ieObType">' +
@@ -573,7 +573,7 @@
       } catch (e) {
         NCE.toast('学习计划预设没能切到「雅思」，可稍后在「学习计划」页手动选择', 'warn');
       }
-      NCE.toast('🎯 雅思备考已开启', 'ok');
+      NCE.toast('🎓 雅思备考已开启', 'ok');
       loadShell();
     };
   }
@@ -677,5 +677,5 @@
     PHASE_NAME,
   };
 
-  NCE.registerFeature({ id: 'ielts', label: '雅思备考', icon: '🎯', onShow });
+  NCE.registerFeature({ id: 'ielts', label: '雅思备考', icon: '🎓', onShow });
 })();
