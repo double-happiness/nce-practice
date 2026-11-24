@@ -2,7 +2,7 @@
 // 雅思 Task 1（A 类）图表：用内联 SVG 渲染 bar / line / pie，table 用 HTML 表格。
 // 数据结构见设计文档 §3.2：{ type, title, unit, categories: [], series: [{ name, values: [] }] }（pie 只有 1 个 series）。
 // 文字与坐标轴颜色走主题变量，明暗主题都清楚；按容器实际宽度出图（字号不随缩放变小），窗口变宽变窄时重绘。
-// 对外：NCE.ielts.chart.mount(el, chart) 挂到元素上；NCE.ielts.chart.html(chart, width) 只取 HTML。
+// 对外：NCE.ielts.chart.mount(el, chart) 挂到元素上并返回 dispose()；NCE.ielts.chart.html(chart, width) 只取 HTML。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -248,20 +248,22 @@
     return title + axisChartHtml(d, w);
   }
 
-  // 挂载并在宽度变化时重绘；元素移出文档后自动解绑
+  // 挂载并在宽度变化时重绘；返回 dispose()，页面离开时调用以移除 resize 监听（元素移出文档后下次 resize 也会自动解绑）
   function mount(el, chart) {
-    if (!el) return;
+    const noop = () => {};
+    if (!el) return noop;
     el.classList.add('iec');
     let lastW = el.clientWidth || 0;
     el.innerHTML = html(chart, lastW);
     const d = normalize(chart);
-    if (!d || d.type === 'table') return;
+    if (!d || d.type === 'table') return noop;
     let t = null;
+    let disposed = false;
     const onResize = () => {
       clearTimeout(t);
       t = setTimeout(() => {
         if (!el.isConnected) {
-          window.removeEventListener('resize', onResize);
+          dispose();
           return;
         }
         const w = el.clientWidth || 0;
@@ -270,7 +272,14 @@
         el.innerHTML = html(chart, w);
       }, 150);
     };
+    function dispose() {
+      if (disposed) return;
+      disposed = true;
+      clearTimeout(t);
+      window.removeEventListener('resize', onResize);
+    }
     window.addEventListener('resize', onResize);
+    return dispose;
   }
 
   IE.chart = { mount, html, TYPE_LABEL };

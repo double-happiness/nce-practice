@@ -87,7 +87,14 @@
   };
   let root = null;
   let ctx = null;
+  let chartDispose = null; // 当前 Task 1 图表的 resize 监听释放函数
 
+  function releaseChart() {
+    if (chartDispose) {
+      chartDispose();
+      chartDispose = null;
+    }
+  }
   function alive() {
     return ctx && ctx.isActive();
   }
@@ -418,9 +425,10 @@
       '<span class="ie-msg iew-msg"></span>' +
       '</div>';
 
+    releaseChart(); // 自评页「回去继续修改」会重绘，先释放上一次的监听
     if (Number(it.task) === 1 && it.variant !== 'G') {
       const chartEl = root.querySelector('.iew-chart');
-      if (IE.chart) IE.chart.mount(chartEl, it.chart);
+      if (IE.chart) chartDispose = IE.chart.mount(chartEl, it.chart);
       else chartEl.innerHTML = '<div class="ie-note">图表模块没有加载，请刷新页面。</div>';
     }
     const ta = root.querySelector('.iew-ta');
@@ -655,6 +663,7 @@
     leave() {
       if (st.stage === 'write') saveDraft(true);
       stopAll();
+      releaseChart();
       st.stage = 'list';
     },
   });
