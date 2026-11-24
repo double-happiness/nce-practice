@@ -20,23 +20,27 @@ const SOURCE_LABEL = {
   dialogue: '情景对话',
   lesson: '课文学习打卡',
   comprehension: '理解训练',
+  'ielts-writing': '雅思写作',
+  'ielts-speaking': '雅思口语',
+  'ielts-vocab': '雅思词汇诊断',
 };
 
 // 听·说·读·写·记 五技能每日闭环。每个技能绑定已被记录的活动来源，做了即自动完成；tab 用于前端「去做 →」深链。
 // 各技能的每日目标数量由「水平预设」决定（见 LEVELS），描述里不写死数字。
 const SKILL_PLAN = [
   { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation'], unit: '次', tab: 'dictation' },
-  { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue'], unit: '组', tab: 'dialogue' },
+  { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue', 'ielts-speaking'], unit: '组', tab: 'dialogue' },
   { key: 'read', icon: '📖', label: '读', desc: '学新课精读 + 练本课题', sources: ['quiz'], unit: '题', tab: 'learn' },
-  { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform'], unit: '组', tab: 'transform' },
+  { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform', 'ielts-writing'], unit: '组', tab: 'transform' },
   { key: 'memo', icon: '🔤', label: '记', desc: '背单词 + 到期错题复习', sources: ['words', 'vocab'], unit: '词', tab: 'words' },
 ];
 
-// 三档水平预设：一键切换一套每日目标（存在 plan.json 的 level 字段）
+// 水平预设：一键切换一套每日目标（存在 plan.json 的 level 字段）；ielts 为雅思备考强度（设计 D8）
 const LEVELS = {
   starter: { label: '初级', note: '零基础 · 45–60min', book: 'NCE1', targets: { listen: 1, speak: 1, read: 5, write: 1, memo: 10 } },
   medium: { label: '中级', note: 'NCE2 · 约 60min', book: 'NCE2', targets: { listen: 1, speak: 2, read: 8, write: 2, memo: 15 } },
   sprint: { label: '冲刺', note: '强化 · 90min+', book: '强化', targets: { listen: 2, speak: 2, read: 12, write: 3, memo: 20 } },
+  ielts: { label: '雅思', note: 'A2→7.0 · 3h+/天', book: 'IELTS', targets: { listen: 3, speak: 4, read: 20, write: 3, memo: 40 } },
 };
 const DEFAULT_LEVEL = 'starter';
 const levelList = () => Object.keys(LEVELS).map((k) => ({ key: k, label: LEVELS[k].label, note: LEVELS[k].note, book: LEVELS[k].book }));
@@ -194,7 +198,7 @@ router.get('/plan/overview', (req, res) => {
     skillsTotal: skills.length,
     calendar,
     totalDays: byDate.size,
-    metricNote: '今日目标统计刷题、句型转换、背单词、词汇量测试、听写、情景对话等所有练习次数',
+    metricNote: '今日目标统计刷题、句型转换、背单词、词汇量测试、听写、情景对话、雅思写作与口语等所有练习次数',
   });
 });
 
@@ -210,11 +214,12 @@ router.post('/plan/goal', (req, res) => {
   res.json({ ok: true, goal });
 });
 
-// POST /plan/level  body { level:'starter'|'medium'|'sprint' }
+// POST /plan/level  body { level:'starter'|'medium'|'sprint'|'ielts' }
 router.post('/plan/level', (req, res) => {
   const lv = req.body && req.body.level;
-  if (!LEVELS[lv]) {
-    return res.status(400).json({ error: 'level 必须是 starter / medium / sprint 之一' });
+  // hasOwnProperty 防止 'toString' 等原型属性绕过校验
+  if (typeof lv !== 'string' || !Object.prototype.hasOwnProperty.call(LEVELS, lv)) {
+    return res.status(400).json({ error: `level 必须是 ${Object.keys(LEVELS).join(' / ')} 之一` });
   }
   savePlan({ level: lv }); // 合并写，保留 goal
   res.json({ ok: true, level: lv, targets: LEVELS[lv].targets });
