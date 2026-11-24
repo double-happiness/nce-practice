@@ -10,6 +10,7 @@
 //   GET  /api/transform/stats             句型转换总正确率（routes/transform.js）
 //   GET  /api/meta                        各册课数（server.js）
 //   POST /api/plan/level {level}          写入水平预设 starter/medium/sprint（routes/plan.js）
+//   GET  /api/ielts/summary               雅思写作 / 口语自评均值、词汇诊断（routes/ielts.js，静默请求，失败不显示）
 (function () {
   const NCE = window.NCE;
   if (!NCE || !NCE.registerFeature) return;
@@ -86,13 +87,58 @@
   }
 
   // ---- CEFR 档位（主要由总词汇量映射）----
+  // D9：原「B1+」拆成 B2 / C1。总词汇量测试词库约 5300 词、高段（B2–C2）只有约 870 词，
+  // 3500 以上按 1000 词一档粗分：≤4500 为 B2，再往上为 C1；C1 以上请看雅思词汇诊断。
   function cefrOf(v) {
     if (v == null || !Number.isFinite(v)) return null;
     if (v < 500) return { code: 'Pre-A1', name: '入门准备', desc: '正在积累最基础的词汇，跟着 NCE1 每天一课，很快就能突破。' };
     if (v < 1000) return { code: 'A1', name: '入门级', desc: '能理解并使用日常最基本的表达，NCE1 的内容正对口。' };
     if (v < 2000) return { code: 'A2', name: '基础级', desc: '能就熟悉的日常话题进行简单交流，可逐步过渡到 NCE2。' };
     if (v <= 3500) return { code: 'B1', name: '进阶级', desc: '能应对旅行、工作中的多数场景，NCE2 精学 + 大量听说是关键。' };
-    return { code: 'B1+', name: '进阶级以上', desc: '词汇量已超出 NCE2 主线，可以加码原版阅读与听力保持增长。' };
+    if (v <= 4500) return { code: 'B2', name: '中高级', desc: '能就较广的话题清楚表达观点，NCE3 精读加原版材料可以作为主线。' };
+    return { code: 'C1', name: '高级', desc: '能较流利地应对学术和工作场景，NCE4 与雅思 7 分档的材料正对口。' };
+  }
+  // CEFR 档位 → 雅思总分粗估（只凭词汇量，听说读写未单独测，仅供参考）
+  const IELTS_ROUGH = { 'Pre-A1': '< 3.0', A1: '< 3.0', A2: '3.0–3.5', B1: '4.0–5.0', B2: '5.5–6.5', C1: '7.0–8.0' };
+
+  // 雅思接口可能尚未部署：静默请求，失败返回 null（不弹 toast）
+  async function quietJson(url) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) return null;
+      return await r.json();
+    } catch (e) {
+      return null;
+    }
+  }
+  function fmtBand(v) {
+    const n = Number(v);
+    return v == null || v === '' || !Number.isFinite(n) ? '—' : n.toFixed(1);
+  }
+
+  // 雅思自评卡：summary 有任一数据时才显示
+  function ieltsCardHtml(sum) {
+    if (!sum || typeof sum !== 'object') return '';
+    const w = sum.writing || {};
+    const s = sum.speaking || {};
+    const v = sum.vocab || {};
+    const e = sum.estimate || {};
+    const wN = Number(w.count) || 0;
+    const sN = Number(s.count) || 0;
+    if (!wN && !sN && v.lastOverall == null && e.overall == null) return '';
+    const quad = (title, num, sub) =>
+      `<div class="lv-quad"><div class="lv-quad-t">${title}</div><div class="lv-quad-n">${num}</div><div class="lv-quad-sub">${sub}</div></div>`;
+    return (
+      '<div class="lv-card"><h3>🎯 雅思自评</h3>' +
+      '<div class="lv-quads">' +
+      quad('✍️ 写作', esc(fmtBand(w.last3Avg)), wN ? `近 3 次自评均分 · 共 ${wN} 篇` : '还没有写作记录') +
+      quad('🎙️ 口语', esc(fmtBand(s.last3Avg)), sN ? `近 3 次自评均分 · 共 ${sN} 次` : '还没有口语记录') +
+      quad('🩺 雅思词汇', v.lastOverall != null ? `${esc(String(v.lastOverall))}<span class="u">%</span>` : '—', v.lastOverall != null ? '最近一次诊断的词表覆盖率' : '还没做过雅思词汇诊断') +
+      quad('📐 总分粗估', esc(fmtBand(e.overall)), e.note ? esc(e.note) : '按自评与诊断粗估，仅供参考') +
+      '</div>' +
+      `<div style="margin-top:12px"><button class="lv-btn lv-go" data-tab="ielts">${sum.active === false ? '去雅思备考 →' : '进入雅思备考 →'}</button></div>` +
+      '</div>'
+    );
   }
 
   function trendHint(latest, avg, avgN, unit) {
@@ -160,7 +206,7 @@
     const book = last ? String(last.book) : '1';
 
     // 并行拉取，单个失败置 null，不拖垮整页
-    const [vocabOv, vocabTrend, plan, prog, statsOv, training, tfStats, meta] = await Promise.all([
+    const [vocabOv, vocabTrend, plan, prog, statsOv, training, tfStats, meta, ieltsSum] = await Promise.all([
       NCE.api(`/api/vocab-test/overview?book=${encodeURIComponent(book)}`).catch(() => null),
       NCE.api(`/api/vocab-test/trend?book=${encodeURIComponent(book)}`).catch(() => null),
       NCE.api('/api/plan/overview').catch(() => null),
@@ -169,6 +215,7 @@
       NCE.api('/api/stats/training').catch(() => null),
       NCE.api('/api/transform/stats').catch(() => null),
       NCE.api('/api/meta').catch(() => null),
+      quietJson('/api/ielts/summary'),
     ]);
 
     // ---- 顶部大卡：综合 CEFR 档位 ----
@@ -206,6 +253,7 @@
     let summary;
     if (cefr) {
       summary = `你的词汇量约 <b>${vocabBase}</b> 词，相当于 CEFR <b>${esc(cefr.code)}</b>（${esc(cefr.name)}）。${esc(cefr.desc)}`;
+      if (IELTS_ROUGH[cefr.code]) summary += ` 按这个档位粗估，雅思总分约 <b>${esc(IELTS_ROUGH[cefr.code])}</b>（只看词汇量，仅供参考）。`;
       if (streak > 0) summary += ` 目前已连续打卡 <b>${streak}</b> 天，节奏在线。`;
       if (weakest) summary += ` 当前最薄弱的语法点是「${esc(weakest.tag)}」（正确率 ${weakest.accuracy}%），建议专练补一补。`;
       if (globalTrendTxt) summary += `<br>${globalTrendTxt}`;
@@ -221,6 +269,7 @@
       '<div class="lv-hero-main">' +
       `<div class="lv-hero-t">${cefr ? '📍 你的综合水平估计' : '📍 先去测一下词汇量'}</div>` +
       `<div class="lv-hero-d">${summary}</div>` +
+      (cefr ? '<div class="lv-prog-hint">总词汇量测试的高段词量有限，C1 以上请看雅思备考里的「雅思词汇诊断」。</div>' : '') +
       (cefr ? '' : '<div style="margin-top:10px"><button class="lv-btn lv-go" data-tab="globalvocab">🌐 去测总词汇量（约 5 分钟） →</button></div>') +
       '</div></div></div>';
 
@@ -324,7 +373,7 @@
     wrap.className = 'lv-wrap';
     wrap.innerHTML =
       '<div class="lv-head"><h2>🧭 我的水平</h2><span class="lv-relink" id="lv-reonboard">重新查看引导</span></div>' +
-      heroCard + quadsCard + progCard +
+      heroCard + ieltsCardHtml(ieltsSum) + quadsCard + progCard +
       '<div class="lv-note" style="margin-top:14px">词汇量为抽样估算，多测几次看均值更稳；CEFR 档位仅供参考，听说读写四项均衡才是真水平。</div>';
 
     panel.innerHTML = '';
