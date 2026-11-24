@@ -800,6 +800,112 @@ test('speaking: 口语 notes 含 <script> 原样保存', async () => {
   assert.strictEqual(items[0].notes, notes);
 });
 
+// ---- 口语转写与流利度指标（可选字段 transcript / metrics）----
+const SP_METRICS = { words: 210, wpm: 118.5, fillers: 4, repeats: 1, longPauses: 2, connectives: 6 };
+const speakSubmit = (extra) => post('/api/ielts/speaking/submit', {
+  itemId: ctx.s1.id, part: 1, durationSec: 107, selfScores: SP_SCORES, ...extra,
+});
+// 直接发原始 JSON 文本（JSON.stringify 写不出 1e999、也不会保留 "__proto__" 自有键）
+async function postRaw(url, raw) {
+  const res = await fetch(BASE + url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: raw });
+  const text = await res.text();
+  let json = null;
+  try { json = JSON.parse(text); } catch (_) { /* 非 JSON 留给断言处理 */ }
+  return { status: res.status, body: json, raw: text };
+}
+const speakingCount = async () => isOk(await get('/api/ielts/summary')).speaking.count;
+
+test('speaking: 带 transcript 与 metrics 提交，记录原样返回（transcript 去首尾空白、不转义）', async () => {
+  const transcript = '  I usually <b>walk</b> to work because it is close.\n\nUm, I mean... "quotes" & more  ';
+  const r = isOk(await speakSubmit({ transcript, metrics: SP_METRICS }));
+  assert.strictEqual(r.entry.transcript, transcript.trim());
+  assert.deepStrictEqual(r.entry.metrics, SP_METRICS);
+  const h = isOk(await get('/api/ielts/history?type=speaking&limit=1'));
+  const top = (Array.isArray(h) ? h : h.items)[0];
+  assert.strictEqual(top.id, r.entry.id);
+  assert.strictEqual(top.transcript, transcript.trim());
+  assert.deepStrictEqual(top.metrics, SP_METRICS);
+});
+
+test('speaking: transcript / metrics 为 null、空白或空对象时不写入记录；metrics 可只给部分字段', async () => {
+  const r1 = isOk(await speakSubmit({ transcript: null, metrics: null }));
+  assert.ok(!('transcript' in r1.entry) && !('metrics' in r1.entry), JSON.stringify(r1.entry));
+  const r2 = isOk(await speakSubmit({ transcript: '   \n ', metrics: {} }));
+  assert.ok(!('transcript' in r2.entry) && !('metrics' in r2.entry), JSON.stringify(r2.entry));
+  const r3 = isOk(await speakSubmit({ metrics: { words: 0, wpm: 0 } }));
+  assert.deepStrictEqual(r3.entry.metrics, { words: 0, wpm: 0 });
+});
+
+test('speaking: transcript 非字符串或超过 6000 字符返回 400；恰好 6000 字符可以提交', async () => {
+  const before = await speakingCount();
+  for (const bad of [123, ['a'], { t: 'x' }, true]) {
+    isErr400(await speakSubmit({ transcript: bad }), `transcript=${JSON.stringify(bad)}`);
+  }
+  isErr400(await speakSubmit({ transcript: 'a'.repeat(6001) }), 'transcript 6001 字符');
+  assert.strictEqual(await speakingCount(), before, '非法提交不应写入记录');
+  const r = isOk(await speakSubmit({ transcript: 'a'.repeat(6000) }));
+  assert.strictEqual(r.entry.transcript.length, 6000);
+});
+
+test('speaking: metrics 非对象、未知字段、越界、负数、非数字、计数非整数返回 400', async () => {
+  const before = await speakingCount();
+  for (const bad of [[], [1, 2], 'x', 5, true]) {
+    isErr400(await speakSubmit({ metrics: bad }), `metrics=${JSON.stringify(bad)}`);
+  }
+  const cases = [
+    { words: 10, score: 7 }, // 未知字段
+    { words: -1 },
+    { words: 20001 },
+    { words: 1.5 }, // 计数必须是整数
+    { wpm: -0.1 },
+    { wpm: 601 },
+    { wpm: '120' },
+    { fillers: 5001 },
+    { repeats: 2.5 },
+    { longPauses: 2001 },
+    { connectives: null },
+    { connectives: [3] },
+  ];
+  for (const m of cases) isErr400(await speakSubmit({ metrics: m }), `metrics=${JSON.stringify(m)}`);
+  assert.strictEqual(await speakingCount(), before, '非法提交不应写入记录');
+});
+
+test('speaking: metrics 含 Infinity（1e999）或 "__proto__" 键返回 400', async () => {
+  const before = await speakingCount();
+  const base = JSON.stringify({ itemId: ctx.s1.id, part: 1, durationSec: 30, selfScores: SP_SCORES, metrics: { words: '__X__' } });
+  isErr400(await postRaw('/api/ielts/speaking/submit', base.replace('"__X__"', '1e999')), 'words=1e999');
+  isErr400(await postRaw('/api/ielts/speaking/submit', base.replace('{"words":"__X__"}', '{"words":3,"__proto__":{"x":1}}')), '__proto__ 键');
+  assert.strictEqual(await speakingCount(), before, '非法提交不应写入记录');
+});
+
+test('speaking: 文件里 transcript / metrics 不合法的记录被过滤，合法的保留', async () => {
+  const before = await speakingCount();
+  const t0 = Date.now() + 5000;
+  const rec = (id, extra, i) => ({ id, itemId: ctx.s1.id, part: 1, band: 6, durationSec: 60, notes: '', ts: t0 + i, ...extra });
+  patchTempIelts((j) => {
+    j.speakings = (j.speakings || []).concat([
+      rec('bad-tx-1', { transcript: 123 }, 1),
+      rec('bad-tx-2', { transcript: 'x'.repeat(6001) }, 2),
+      rec('bad-tx-3', { metrics: { words: -1 } }, 3),
+      rec('bad-tx-4', { metrics: { words: 3, extra: 1 } }, 4),
+      rec('bad-tx-5', { metrics: [1, 2] }, 5),
+      rec('bad-tx-6', { metrics: { fillers: 1.5 } }, 6),
+      rec('ok-tx-1', { transcript: 'fine', metrics: { words: 1, wpm: 60 } }, 7),
+    ]);
+  });
+  try {
+    const s = isOk(await get('/api/ielts/history?type=speaking&limit=500'));
+    const ids = (Array.isArray(s) ? s : s.items).map((r) => r.id);
+    assert.ok(!ids.some((id) => String(id).startsWith('bad-tx-')), `畸形记录不应返回：${ids.filter((id) => String(id).startsWith('bad-tx-'))}`);
+    assert.ok(ids.includes('ok-tx-1'), '合法的带转写记录应保留');
+    assert.strictEqual(await speakingCount(), before + 1, 'summary 只多算合法的那 1 条');
+  } finally {
+    patchTempIelts((j) => {
+      j.speakings = (j.speakings || []).filter((r) => !/^(bad|ok)-tx-/.test(String(r.id)));
+    });
+  }
+});
+
 // =====================================================================
 // rubrics / history / summary / backup
 // =====================================================================

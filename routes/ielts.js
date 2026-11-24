@@ -492,7 +492,8 @@ router.get('/ielts/speaking/:id', (req, res) => {
   res.json(s);
 });
 
-// POST /ielts/speaking/submit  body { itemId, part, durationSec, selfScores, notes }
+// POST /ielts/speaking/submit  body { itemId, part, durationSec, selfScores, notes, transcript?, metrics? }
+// transcript：语音识别转写（≤ 6000 字符）；metrics：流利度指标，只收白名单数值字段（规则见 lib/ielts.js）
 router.post('/ielts/speaking/submit', (req, res) => {
   const body = req.body;
   if (!isPlainObject(body)) return bad(res, '请求体必须是 JSON 对象');
@@ -510,6 +511,20 @@ router.post('/ielts/speaking/submit', (req, res) => {
   if (body.notes != null && typeof body.notes !== 'string') return bad(res, 'notes 必须是字符串');
   const notes = (body.notes || '').trim();
   if (notes.length > MAX_NOTES) return bad(res, `notes 最长 ${MAX_NOTES} 字符`);
+  // 两个可选字段：null 与缺省等同；非法直接 400，不做截断或丢弃
+  let transcript = '';
+  if (body.transcript != null) {
+    const err = ielts.speakingTranscriptError(body.transcript);
+    if (err) return bad(res, err);
+    transcript = body.transcript.trim();
+  }
+  let metrics = null;
+  if (body.metrics != null) {
+    const err = ielts.speakingMetricsError(body.metrics);
+    if (err) return bad(res, err);
+    const given = ielts.SPEAKING_METRIC_KEYS.filter((k) => Object.prototype.hasOwnProperty.call(body.metrics, k));
+    metrics = Object.fromEntries(given.map((k) => [k, body.metrics[k]]));
+  }
 
   const entry = {
     id: crypto.randomUUID(),
@@ -521,6 +536,8 @@ router.post('/ielts/speaking/submit', (req, res) => {
     notes,
     ts: Date.now(),
   };
+  if (transcript) entry.transcript = transcript;
+  if (metrics && Object.keys(metrics).length) entry.metrics = metrics;
   const user = ielts.loadUser();
   user.speakings.push(entry);
   ielts.saveUser(user);
