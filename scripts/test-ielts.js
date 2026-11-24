@@ -352,6 +352,23 @@ test('查词典：雅思来源排在教材、extras、全局词库之后（只�
   assert.strictEqual(findEntry('curriculum').source, 'global'); // 全局词库已有的词保持原词条，不被雅思覆盖
 });
 
+test('重新开启备考：停用超过 8 周后开始日重置为当天，短暂停用保留原开始日', () => {
+  const today = '2027-01-10';
+  const base = ielts.normalizeProfile({ active: false, examDate: '2027-06-01', startDate: '2026-10-01' }, today);
+  assert.strictEqual(ielts.applyProfilePatch(base, { active: true }, today).profile.startDate, today);
+  const recent = { ...base, startDate: '2026-12-20' };
+  assert.strictEqual(ielts.applyProfilePatch(recent, { active: true }, today).profile.startDate, '2026-12-20');
+  const running = { ...base, active: true };
+  assert.strictEqual(ielts.applyProfilePatch(running, { examType: 'G' }, today).profile.startDate, '2026-10-01');
+});
+
+test('考试日最远 364 天，与 52 周上限对齐', () => {
+  const today = '2027-01-10';
+  const p = ielts.normalizeProfile({}, today);
+  assert.ok(ielts.applyProfilePatch(p, { examDate: '2028-01-09' }, today).profile, '364 天应接受');
+  assert.ok(ielts.applyProfilePatch(p, { examDate: '2028-01-10' }, today).error, '365 天应拒绝');
+});
+
 if (failed) {
   console.error(`\ntest-ielts：${failed} 项未通过，${passed} 项通过`);
   process.exit(1);

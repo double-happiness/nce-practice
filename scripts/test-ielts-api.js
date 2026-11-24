@@ -19,7 +19,7 @@
  *   A1  错误响应均为 JSON { error: string }；校验类错误 HTTP 400；找不到资源（未知题目 id）为 404 或 400。
  *   A2  POST /ielts/profile 成功返回 { profile, derived }，或至少再 GET 能读到更新后的值。
  *   A3  GET /ielts/profile 的 derived 含 daysLeft / totalWeeks / currentWeek / phase / templateWeek。
- *   A4  检查点周数超过 52 周等极端值不作校验；examDate 远期（今天 + 400 天）可接受，totalWeeks 夹到 52。
+ *   A4  examDate 最远今天 + 364 天（与 52 周上限对齐），365 天返回 400。
  *   A5  POST /ielts/plan/check 只接受当前模板中 kind 为 external 的 taskKey；internal 任务或未知 key 返回 400；
  *       date 非 YYYY-MM-DD 返回 400。
  *   A6  今日 external 任务可能不在第 1 周：若当前周没有 external 任务，脚本把临时档案 startDate 回拨 8 周
@@ -238,8 +238,9 @@ test('profile: 考试日很近时 totalWeeks 夹到下限 4（D6）', async () =
   assert.strictEqual(derived.totalWeeks, 4);
 });
 
-test('profile: 考试日很远时 totalWeeks 夹到上限 52（D6）', async () => {
-  isOk(await post('/api/ielts/profile', { examDate: addDays(400) }));
+test('profile: 考试日最远 364 天，totalWeeks 为上限 52（D6）；365 天返回 400', async () => {
+  isErr400(await post('/api/ielts/profile', { examDate: addDays(365) }), 'examDate=+365');
+  isOk(await post('/api/ielts/profile', { examDate: addDays(364) }));
   const { derived } = isOk(await get('/api/ielts/profile'));
   assert.strictEqual(derived.totalWeeks, 52);
   isOk(await post('/api/ielts/profile', { examDate: addDays(26 * 7) }));
