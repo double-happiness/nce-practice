@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s1-names",
+    "part": 1,
+    "topic": "Names",
+    "topicCn": "名字",
+    "questions": [
+      { "q": "Does your name have any special meaning?", "sample": "Yes, it does. My name is Siyuan. Si means to think, and yuan means far away, so together it's something like thinking far ahead. My grandfather chose it because he wanted me to plan carefully rather than just live for the moment. Ironically, I'm quite a last-minute person, so I'm not sure it worked." },
+      { "q": "Who gave you your name?", "sample": "My grandfather on my father's side. In my family, the oldest generation traditionally chooses the names, and he took the job very seriously. Apparently he spent weeks going through old poetry books before deciding. My parents had a different name in mind, but they didn't want to upset him, so they used theirs as my nickname at home instead." },
+      { "q": "Do you like your name?", "sample": "Yes, I've grown to like it. When I was little, I wished I had a simpler name, because teachers sometimes mispronounced it on the first day of school. Now I appreciate that it's a bit unusual. Hardly anyone else in my office has the same name, so there's never any confusion in our group chats." },
+      { "q": "Is it common for people in your country to have an English name?", "sample": "It's fairly common among younger people, especially those who work for international companies or study abroad. Some pick names from films or songs, which can lead to some unusual choices. I've never had one myself, though. My foreign clients seem happy to learn how to say Siyuan, and I think it's a nice way of sharing a bit of my culture." }
+    ]
+  },
+  {
+    "id": "s1-birthdays",
+    "part": 1,
+    "topic": "Birthdays",
+    "topicCn": "生日",
+    "questions": [
+      { "q": "How do you usually celebrate your birthday?", "sample": "Nothing too big these days. Usually I have dinner with a few close friends at a restaurant we like, and my flatmate always insists on buying a small cake. My parents call me in the morning, and my mum still reminds me to eat a bowl of longevity noodles, which is a Chinese tradition for a long and healthy life." },
+      { "q": "Which birthday do you remember most clearly?", "sample": "Probably my eighteenth. It fell just a few weeks before the national university entrance exam, so I didn't expect anything at all. But my classmates secretly organised a surprise during our evening study session, with a cake and candles hidden under a desk. Our head teacher pretended to be annoyed, but she ended up eating a slice too." },
+      { "q": "Do you think birthdays are more important for children or adults?", "sample": "I think they mean more to children. For a kid, a birthday is the one day when everything revolves around them, with presents, games and a party. As adults, we tend to have work the next morning, so it becomes just another day with a few extra messages. Some milestone birthdays, like turning thirty or sixty, are still a big deal, though." },
+      { "q": "Do people in your country celebrate birthdays differently now than in the past?", "sample": "Yes, quite differently. When my parents were young, a birthday might just mean a boiled egg or a special bowl of noodles, because money was tight. Nowadays, people book restaurants, buy fancy cakes and post photos online. For older people, their children often throw a big banquet when they turn sixty or seventy, which is seen as a way of showing respect." }
+    ]
+  },
+  {
+    "id": "s1-clothes",
+    "part": 1,
+    "topic": "Clothes",
+    "topicCn": "衣着",
+    "questions": [
+      { "q": "What kind of clothes do you usually wear?", "sample": "Mostly casual stuff, like jeans, plain T-shirts and a hoodie when it's cold. My company doesn't have a dress code, so hardly anyone wears a suit unless they're meeting an important client. I prefer clothes that are comfortable and easy to look after, because I really don't enjoy ironing." },
+      { "q": "Did you wear a uniform at school?", "sample": "Yes, and like most Chinese students, I wore a tracksuit uniform for about twelve years. It was blue and white, quite baggy, and nobody looked good in it. At the time, we all complained, but looking back, it saved a lot of time in the morning, and nobody was judged for wearing cheap clothes." },
+      { "q": "Do you wear different clothes at weekends?", "sample": "Not hugely different, since my work clothes are already pretty relaxed. The main change is footwear. At weekends I'm usually in trainers, because I might go for a long walk by the river or take my camera out around the old town. If I'm going out for a nice dinner, I'll make a bit more effort and put on a shirt or a smarter jacket." },
+      { "q": "Is fashion important to you?", "sample": "Not really. I like to look neat and tidy, but I don't follow trends closely, and I'd rather spend money on travel than on designer labels. Some of my colleagues know every new brand and style, and I find their outfits quite impressive. For me, though, a few good basics that last for years are much more practical." }
+    ]
+  },
+  {
+    "id": "s1-colours",
+    "part": 1,
+    "topic": "Colours",
+    "topicCn": "颜色",
+    "questions": [
+      { "q": "What is your favourite colour?", "sample": "It's dark green, the kind you see in a forest after rain. I find it calm and natural, and it goes with almost everything. If you looked in my wardrobe, you'd notice quite a few green jumpers, and even my phone case is green. My friends tease me that I'm slowly turning into a tree." },
+      { "q": "Are there any colours you dislike?", "sample": "I'm not a big fan of bright orange. It's just too loud for me, especially on clothes or walls. A friend once painted her bedroom orange, and every time I went in, I felt slightly stressed, as if the room were shouting at me. In small doses, like on a logo or a road sign, it's fine, though." },
+      { "q": "Do colours have special meanings in your culture?", "sample": "Yes, they do. Red is the obvious one. It stands for luck and happiness, so you see it everywhere at weddings and during the Spring Festival. White, on the other hand, is traditionally linked to funerals, so people avoid giving white flowers as a gift. Yellow was once the colour of emperors, which is why old palace roofs are often golden." },
+      { "q": "Have the colours you like changed since you were a child?", "sample": "Yes, completely. As a kid, I loved bright, cheerful colours, especially sky blue and yellow, and I insisted on wearing a yellow raincoat for years. As I got older, my taste became much quieter, and now I go for darker, more natural shades. I suppose it partly reflects my personality, since I've become a bit calmer and more reserved." }
+    ]
+  },
+  {
+    "id": "s1-films",
+    "part": 1,
+    "topic": "Films",
+    "topicCn": "电影",
+    "questions": [
+      { "q": "Do you often watch films?", "sample": "Fairly often, maybe two or three a month. Most of the time I watch them at home on a streaming app, often with my flatmate on a Friday night when we're both too tired to go out. Every couple of months, though, I'll go to the cinema, especially if it's something with great visual effects that deserves a big screen." },
+      { "q": "What kind of films do you like?", "sample": "I enjoy animated films a lot, which surprises people who think they're only for children. The best ones manage to be funny and moving at the same time. I'm also into realistic dramas about ordinary people. Horror is the one genre I avoid, because I end up checking under the bed for days afterwards." },
+      { "q": "Do you prefer watching films alone or with other people?", "sample": "It depends on the film. For comedies, I much prefer company, because laughing with others makes everything funnier. For serious or slow films, I actually like being alone, so I can concentrate and pause whenever I want to think about something. Watching with a group can also be distracting if people keep checking their phones." },
+      { "q": "Did you watch many films when you were a child?", "sample": "Not at the cinema. Tickets were relatively expensive back then, and there was only one cinema in our part of town. But we watched a lot on TV, especially at weekends and during the summer holidays. I remember watching the same cartoon film so many times that I could recite almost every line." }
+    ]
+  },
+  {
+    "id": "s1-art",
+    "part": 1,
+    "topic": "Art",
+    "topicCn": "艺术",
+    "questions": [
+      { "q": "Do you like art?", "sample": "Yes, though I wouldn't call myself an expert. I like art that tells a story or captures a moment of everyday life, which is probably linked to my interest in photography. Abstract art is harder for me to appreciate. I sometimes stand in front of a painting that's just a few coloured squares and wonder what I'm missing." },
+      { "q": "Did you learn art at school?", "sample": "We had art classes once a week in primary school, mostly drawing and paper cutting. I wasn't very talented, but I loved those lessons because there was no pressure at all. In secondary school, art was gradually squeezed out of the timetable to make room for exam subjects, which I think was a real shame." },
+      { "q": "Have you ever been to an art gallery?", "sample": "Yes, a few times. The most memorable visit was to a contemporary art museum in Shanghai that's housed in an old power station. The building itself was almost as impressive as the artwork. I don't go as often as I should, but I try to catch an exhibition whenever there's one related to photography." },
+      { "q": "Would you like to learn a kind of art in the future?", "sample": "I'd love to try Chinese calligraphy. Every morning in the park near my flat, I see older people writing characters on the ground with water and huge brushes, and it looks incredibly peaceful. I imagine it requires a lot of patience, which is something I could definitely use more of. Maybe I'll join a class when work is less hectic." }
+    ]
+  },
+  {
+    "id": "s1-social-media",
+    "part": 1,
+    "topic": "Social Media",
+    "topicCn": "社交媒体",
+    "questions": [
+      { "q": "Which social media platforms do you use?", "sample": "WeChat is the main one, mostly for keeping in touch with friends and family. I also use a lifestyle platform where people share reviews and travel tips, which is great for finding good restaurants. For work, I help run our company's official accounts, so I'm on social media much more than I'd choose to be." },
+      { "q": "How much time do you spend on social media every day?", "sample": "Outside work, probably around an hour, mostly in short bursts on the metro or while I'm waiting in queues. It's easy to lose track of time, though. I'll open an app to check one message, and suddenly twenty minutes have gone. Recently I've set a daily limit on my phone, which nudges me to put it down." },
+      { "q": "Do you often post things on social media?", "sample": "Not much. I post maybe once a month, usually a set of photos from a trip or a walk around the old town. I'm more of a reader than a sharer. I also feel a bit uncomfortable putting too much of my personal life online, partly because my boss and quite a few clients can see my posts." },
+      { "q": "Do you think people spend too much time on social media?", "sample": "Yes, many people do, me included sometimes. The apps are designed to keep you scrolling, with endless feeds and constant notifications. I've noticed that friends at dinner often check their phones instead of talking to each other. On the plus side, social media helps people stay connected over long distances, so it's not all bad." }
+    ]
+  },
+  {
+    "id": "s1-neighbours",
+    "part": 1,
+    "topic": "Neighbours",
+    "topicCn": "邻居",
+    "questions": [
+      { "q": "Do you know your neighbours well?", "sample": "Not really, which is quite typical in big blocks of flats. There are eight flats on my floor, and I only know two of the families by sight. We nod and say hello in the lift, but that's about it. Everyone leaves early and comes home late, so there aren't many chances to get to know each other." },
+      { "q": "What makes a good neighbour?", "sample": "Someone who's considerate, mainly. That means not making noise late at night, keeping shared spaces tidy and not leaving bags of rubbish outside the door. It's also nice when neighbours keep an eye on each other's homes. Once, the elderly man next door noticed my parcel had been left in the corridor and kept it safe for me." },
+      { "q": "Did you have good relationships with your neighbours when you were a child?", "sample": "Yes, much closer than now. We lived in an old six-storey building that belonged to my dad's work unit, so all the families knew each other. Kids ran in and out of each other's homes, and neighbours often shared food. If my parents were working late, I'd just have dinner next door. It felt like one big family." },
+      { "q": "Do you think neighbours are less important today than in the past?", "sample": "In some ways, yes. People move house more often now, and with delivery apps, we rarely need to borrow anything from the people next door. Still, neighbours matter in emergencies. During a power cut last year, our building's group chat was full of people offering torches and candles. So the relationship has changed, but it hasn't disappeared." }
+    ]
+  },
+  {
+    "id": "s1-shoes",
+    "part": 1,
+    "topic": "Shoes",
+    "topicCn": "鞋子",
+    "questions": [
+      { "q": "Do you have many pairs of shoes?", "sample": "Not that many, about six pairs. There are my running shoes, a couple of pairs of trainers for everyday wear, some leather shoes for formal occasions, a pair of hiking boots and some sandals for summer. I'm quite practical about it. I only buy a new pair when an old one is completely worn out." },
+      { "q": "What kind of shoes do you like to wear?", "sample": "Comfortable ones, without a doubt. I walk a lot, both on my commute and when I'm taking photos around the city, so I need shoes with good support. Trainers are my go-to choice for almost everything. I once tried wearing stylish leather shoes all day, and by the evening my feet were absolutely killing me." },
+      { "q": "Have you ever bought shoes online?", "sample": "Yes, but with mixed results. Sizes vary a lot between brands, so a pair that looks perfect in the photos might be too tight when it arrives. Returning them is easy enough, but it's still a hassle. These days, I only buy shoes online if I've already tried on that exact model in a shop." },
+      { "q": "Do people in your country take their shoes off at home?", "sample": "Yes, almost everyone does. As soon as you walk through the door, you change into slippers, and most homes keep spare pairs for guests. It keeps the floors clean, especially since city streets can be quite dusty. Funnily enough, when I see people in foreign films putting their feet up on the sofa with their shoes on, it still makes me a bit uncomfortable." }
+    ]
+  },
+  {
+    "id": "s1-handwriting",
+    "part": 1,
+    "topic": "Handwriting",
+    "topicCn": "手写",
+    "questions": [
+      { "q": "Do you often write by hand?", "sample": "Less than I used to. At work, almost everything is typed, so the only things I write by hand are quick notes in meetings and the odd to-do list. I do keep a small notebook for new English words, though, because writing them down helps me remember them better than typing does." },
+      { "q": "Do you think your handwriting is good?", "sample": "It's readable, but not exactly beautiful. My Chinese characters are fairly neat, because we practised them endlessly at primary school. My English handwriting is messier, especially when I'm in a hurry, and colleagues have occasionally asked me what a word in my notes says. Sometimes I can't work it out myself." },
+      { "q": "Did you learn handwriting at school?", "sample": "Yes, very seriously. In primary school, we spent ages copying characters into special exercise books with grids, so that each stroke was in the right place. Teachers marked us down if our writing was untidy, even if the answer was correct. It felt strict at the time, but I can see now that it trained us to be patient and careful." },
+      { "q": "Do you think handwriting will still be important in the future?", "sample": "Probably less important than now, but I doubt it will disappear. Typing and voice input are faster for most tasks. However, there's research suggesting we remember things better when we write them by hand, so schools will likely keep teaching it. A handwritten card also feels far more personal than a text message, and I can't see that changing." }
+    ]
+  },
+  {
+    "id": "s1-time-management",
+    "part": 1,
+    "topic": "Time Management",
+    "topicCn": "时间管理",
+    "questions": [
+      { "q": "Are you good at managing your time?", "sample": "Better than I used to be. At university, I was a classic last-minute person and often stayed up all night before deadlines. Working in marketing forced me to change, because projects overlap all the time. Now I'm reasonably organised during the week, although at weekends my plans tend to fall apart quite easily." },
+      { "q": "How do you plan your day?", "sample": "I spend about ten minutes every morning on the metro writing a to-do list on my phone. I put the three most important tasks at the top and try to finish at least those, whatever else happens. I also block out an hour in my calendar for focused work, otherwise people just fill my day with meetings." },
+      { "q": "What do you do when you have too much to do?", "sample": "First, I try not to panic. I look at the list and ask myself which things really have to be done today and which can wait. If it's still too much, I talk to my manager about moving a deadline, rather than trying to do everything badly. I've learned that raising a problem early is better than apologising later." },
+      { "q": "Do you think people are busier now than in the past?", "sample": "In a way, yes. Phones mean work messages can reach us at any hour, so the line between work and rest is blurry. People also try to fit more into each day, like exercise, side projects and online courses. My grandparents worked very hard physically, but when they finished for the day, they really switched off. That's much harder today." }
+    ]
+  },
+  {
+    "id": "s1-childhood",
+    "part": 1,
+    "topic": "Childhood",
+    "topicCn": "童年",
+    "questions": [
+      { "q": "Where did you grow up?", "sample": "I grew up in my hometown, a mid-sized city in the south. We lived in an old block of flats near the city centre until I was about twelve, and then moved to a newer area on the outskirts. I also spent most summers at my grandmother's house in a small town nearby, which I remember as the happiest part of the year." },
+      { "q": "What did you enjoy doing as a child?", "sample": "Being outdoors, mostly. At my grandmother's, my cousins and I spent whole days catching tadpoles in the stream and climbing the trees behind her house. Back in the city, I loved collecting stamps, which my grandfather got me into, and I read a lot of comics. Looking back, it was a pretty carefree time with very little screen time." },
+      { "q": "Do you think you had a happy childhood?", "sample": "Yes, on the whole. My family wasn't wealthy, but my parents made sure I never felt I was missing out. The only difficult part was the pressure at school, especially in the last few years, when almost every weekend was taken up by extra classes. Still, I had lots of freedom outside of that, which I'm grateful for." },
+      { "q": "How is childhood today different from when you were young?", "sample": "Children now seem to have much less free time. Many of my friends' kids have piano, coding and English lessons every weekend, starting from the age of five or six. They also grow up with tablets and phones, so they're amazingly good with technology. But I feel they miss out on unstructured play, like just wandering around outside with friends." }
+    ]
+  },
+  {
+    "id": "s1-museums",
+    "part": 1,
+    "topic": "Museums",
+    "topicCn": "博物馆",
+    "questions": [
+      { "q": "Do you like visiting museums?", "sample": "Yes, especially history museums. I love seeing everyday objects from the past, like old coins, tools or children's toys, because they make history feel real. I find art museums more hit and miss. If I'm travelling somewhere new, the local museum is usually one of the first places I visit, as it gives me a feel for the place." },
+      { "q": "Did you visit museums when you were a child?", "sample": "Occasionally, mostly on school trips. I remember being taken to the provincial museum when I was about ten. To be honest, I was more interested in the gift shop than the exhibits at the time. My parents weren't really museum people, so it wasn't until university that I started going on my own." },
+      { "q": "Is there a museum in your city that you would recommend?", "sample": "Yes, there's a small museum of local crafts in the old town that's well worth a visit. It's set in a restored merchant's house, and it shows how people used to make paper umbrellas, bamboo baskets and embroidery. At weekends, there are craft demonstrations where you can have a go yourself. It's free, and it's rarely crowded." },
+      { "q": "Do you think museums should be free?", "sample": "Ideally, yes, at least for their permanent exhibitions. In China, many public museums are already free, and I think that encourages families and students to visit more often. However, museums need money to maintain their buildings and look after their collections. So charging for special exhibitions seems like a reasonable compromise." }
+    ]
+  },
+  {
+    "id": "s1-sleep",
+    "part": 1,
+    "topic": "Sleep",
+    "topicCn": "睡眠",
+    "questions": [
+      { "q": "How many hours do you usually sleep?", "sample": "On weeknights, about seven hours. I try to be in bed by midnight, since I get up at seven. At weekends, I often sleep for nine or ten hours to catch up, although I've read that this isn't ideal. If I get fewer than six hours, I'm noticeably slower at work the next day and much more likely to make silly mistakes." },
+      { "q": "Do you ever take a nap during the day?", "sample": "Yes, on weekdays I usually take a short nap after lunch. It's very common in Chinese offices, and lots of people keep a folding bed or a neck pillow under their desk. Even twenty minutes makes a real difference to how alert I feel in the afternoon. If I sleep longer than that, though, I wake up feeling groggy." },
+      { "q": "What do you do if you can't fall asleep?", "sample": "I try not to reach for my phone, because the bright screen keeps me awake even longer. Instead, I get up, make a cup of warm milk and read a few pages of a paper book in dim light. If my mind is racing about work, I write down whatever is bothering me, so I can deal with it in the morning." },
+      { "q": "Do you think young people get enough sleep these days?", "sample": "Generally, no. Students have huge amounts of homework, and many young workers are on their phones until the early hours, scrolling through videos. There's even a phrase in Chinese for staying up late on purpose to win back some personal time after a long working day. It's understandable, but in the long run it's bad for both physical and mental health." }
+    ]
+  },
+  {
+    "id": "s1-pets",
+    "part": 1,
+    "topic": "Pets",
+    "topicCn": "宠物",
+    "questions": [
+      { "q": "Do you have a pet?", "sample": "Not at the moment. My landlord doesn't allow pets, and I'm out of the flat for about eleven hours a day, which wouldn't be fair on an animal. But my parents have a ginger cat called Mantou, which means steamed bun, because he's so round. Whenever I go home, he follows me from room to room." },
+      { "q": "Did you have any pets when you were a child?", "sample": "Yes, I had a couple of goldfish and, for a short time, some silkworms for a school project. I begged my parents for a dog for years, but our flat was tiny and they both worked long hours, so the answer was always no. I was slightly heartbroken back then, although now I completely understand their reasons." },
+      { "q": "What animal would you like to have as a pet in the future?", "sample": "A dog, probably a friendly mixed breed from a rescue centre. I like the idea of having a reason to go for a walk every day, whatever the weather. Dogs also seem to sense your mood, which I find quite comforting. Realistically, though, I'd need a bigger place and a more flexible job before I could look after one properly." },
+      { "q": "Why do you think so many people in cities keep pets?", "sample": "I think a lot of it comes down to loneliness. More young people live alone in big cities, far from their families, and a pet gives them company and a routine. Pets are also a great way to relieve stress after a long day. And for older people whose children have moved away, a cat or dog can fill a real gap." }
+    ]
+  },
+  {
+    "id": "s1-plants",
+    "part": 1,
+    "topic": "Plants",
+    "topicCn": "植物",
+    "questions": [
+      { "q": "Do you keep any plants at home?", "sample": "Yes, quite a few. Our living room has a big monstera, a couple of spider plants and some small succulents on the windowsill. My flatmate is the real expert, but I do my share of the watering. They make the flat feel much fresher, and on a grey day it's nice to have something green to look at." },
+      { "q": "Are you good at looking after plants?", "sample": "I'm getting better. When I first moved in, I managed to kill a cactus, which is supposedly impossible, by watering it every day. Now I know most plants prefer to dry out a bit between waterings. I've also set a reminder on my phone every Sunday to check them, so they're doing much better than they used to." },
+      { "q": "Did you grow plants when you were a child?", "sample": "A little. My grandmother has a big vegetable garden, and every summer she'd give me a small patch to look after. I usually planted cherry tomatoes and sunflowers. I remember being incredibly proud when I picked my first tomato, even though it was tiny and a bit sour. That's probably where my interest in plants started." },
+      { "q": "Why do some people like to have plants in their homes?", "sample": "Partly for decoration, because plants make a room look more alive. But I think there's a deeper reason, especially in cities. Many people spend all day surrounded by concrete and screens, so caring for something green helps them feel connected to nature. Some plants are also said to improve air quality, although I'm not sure how much difference they really make." }
+    ]
+  }
+]
