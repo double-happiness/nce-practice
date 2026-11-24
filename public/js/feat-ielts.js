@@ -1,6 +1,6 @@
 'use strict';
 // 雅思备考（🎓）顶层标签壳层：子导航（总览计划 / 词汇 / 写作 / 口语 / 记录）+ 未开启时的开启引导。
-// 各子页由 public/js/ielts-*.js 通过 NCE.ielts.registerPage(key, impl) 挂入，impl 约定：
+// 各子页由 public/js/ielts-*.js 通过 NCE.ielts.registerPage(key, impl) 挂入；新增子页在 impl.meta 里给出 { label, icon, before }。impl 约定：
 //   render(container, ctx)  必需，渲染子页（可 async）；ctx.isActive() 为 false 时说明用户已切走，异步回调里不要再写 DOM
 //   resume()                可选，重新进入标签时若能保留现场（如写作中途）返回 true，否则壳层重新 render
 //   pause()                 可选，标签被隐藏时调用（停录音、存草稿等）
@@ -641,9 +641,24 @@
 
   NCE.ielts = {
     registerPage(key, impl) {
-      if (!PAGE_KEYS.includes(key) || !impl || typeof impl.render !== 'function') {
+      if (typeof key !== 'string' || !/^[a-z][a-z0-9-]{1,23}$/.test(key) || !impl || typeof impl.render !== 'function') {
         console.error('[ielts] registerPage 参数无效', key);
         return;
+      }
+      if (!PAGE_KEYS.includes(key)) {
+        // 扩展子页（听力、阅读、模考等新模块）：impl.meta = { label, icon, before }，
+        // 默认插在「记录」之前；须在壳层首次渲染前注册（index.html 里脚本放在 feat-level.js 之前即可）
+        const meta = impl.meta || {};
+        if (!meta.label) {
+          console.error('[ielts] 新子页需提供 meta.label', key);
+          return;
+        }
+        if (st.shellReady) console.warn('[ielts] 子页注册晚于壳层渲染，导航要到下次打开雅思备考才会出现', key);
+        const entry = { key, label: String(meta.label), icon: String(meta.icon || '📄') };
+        const at = PAGES.findIndex((p) => p.key === (meta.before || 'history'));
+        if (at >= 0) PAGES.splice(at, 0, entry);
+        else PAGES.push(entry);
+        PAGE_KEYS.splice(0, PAGE_KEYS.length, ...PAGES.map((p) => p.key));
       }
       pages[key] = impl;
     },
