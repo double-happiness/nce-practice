@@ -1,0 +1,695 @@
+[
+  {
+    "id": "w2-edu-03",
+    "task": 2,
+    "topic": "education",
+    "qtype": "two-part",
+    "prompt": "In many countries, a growing number of secondary school students attend private tutoring classes after school and at weekends. Why is this happening? Is this a positive or negative development?",
+    "promptCn": "在许多国家，越来越多的中学生在放学后和周末参加课外补习班。为什么会出现这种情况？这是积极的还是消极的发展？",
+    "ideas": [
+      "原因一：升学竞争激烈，名校录取常常取决于一次全国统考，几分之差就可能改变前途，家长都想让孩子多一点优势",
+      "原因二：同伴压力——班上多数人都在补课，不补的家庭担心孩子落后；班级人数多，老师顾不上每个学生的弱项",
+      "消极面：学生晚上和周末都在上课，睡眠、运动和休息时间被挤占，压力大、厌学",
+      "消极面：补习费用高，富裕家庭的孩子获得穷孩子买不到的优势，教育反而加剧不平等",
+      "让步与立场：短期、针对单科薄弱（如因病缺课）的辅导有用，但应由学校免费提供；总体是消极的发展"
+    ],
+    "outline": [
+      "Intro: describe the rise of after-school tutoring; preview - it is driven by competition and anxiety, and its overall effect is negative",
+      "Body 1: causes - fierce competition for university places, peer pressure among parents, large classes",
+      "Body 2: negative effects - exhaustion and lost free time; tutoring fees widen the gap between rich and poor families",
+      "Body 3: concession - short-term help with one weak subject can be useful, but schools should provide it free of charge",
+      "Conclusion: summarise the causes and restate that the development is mainly negative"
+    ],
+    "phrases": [
+      "head straight to sth",
+      "be driven by sth",
+      "fierce competition for university places",
+      "give sb an edge",
+      "fall behind",
+      "come at a cost",
+      "widen social inequality",
+      "Admittedly, ...",
+      "meet a genuine need"
+    ],
+    "modelAnswer": "For many teenagers, the school day no longer ends when the final bell rings, as they head straight to private tutoring centres instead of going home. In my view, this trend is driven mainly by competition and parental anxiety, and its overall effect is negative.\n\nThe main reason is fierce competition for university places. Where admission to a top university depends largely on one national examination, a few marks can shape a young person's future, so parents are eager to give their children any possible edge. Peer pressure reinforces this: once most of a class has a tutor, families who do not pay for one fear that their child will fall behind. Large classes also play a part, since a teacher with forty pupils cannot address every student's weaknesses.\n\nHowever, these extra lessons come at a cost. Students who attend classes every evening often go to bed after midnight and have little time left for sport, hobbies or rest. A fifteen-year-old who spends every weekend in a classroom may raise their test scores, but they are also more likely to suffer from stress and lose interest in learning altogether. Moreover, tutoring is expensive, so children from wealthier homes gain an advantage that poorer students cannot match. Education, which should reduce inequality, therefore ends up reinforcing it.\n\nAdmittedly, short-term tutoring can help a pupil who is struggling with one subject, for example after missing several weeks of maths through illness. Even then, such support would ideally be offered free of charge by schools.\n\nTo sum up, private tutoring has spread because of intense academic competition and parents' fear that their children will be left behind. Although it occasionally meets a genuine need, I believe it is mainly a negative development that damages students' well-being and widens social inequality.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-edu-04",
+    "task": 2,
+    "topic": "education",
+    "qtype": "adv-disadv",
+    "prompt": "A growing number of universities now offer degree courses that can be completed entirely online. Do the advantages of this development outweigh the disadvantages?",
+    "promptCn": "越来越多的大学开设了可以完全在线完成的学位课程。这一发展的利是否大于弊？",
+    "ideas": [
+      "优点：不能搬到大学城或不能辞职的人也能拿学位，例如在乡村医院轮班的护士可以晚上在线读管理学位，不必放弃收入",
+      "优点：省下住宿和交通费用，学费通常更低；录播课可以反复看，按自己的节奏学",
+      "缺点：没有固定课表和同学陪伴，很多人难以坚持，例如只能等孩子睡后学习的家长很容易一周接一周地落下，在线课程的辍学率往往更高",
+      "缺点：缺少与老师和同学的面对面交流和人脉；医学、工程等需要实验操作的学科很难完全在线完成",
+      "立场：利大于弊——混合模式（如每年暑假到校两周做实验）和定期视频研讨可以弥补主要缺点"
+    ],
+    "outline": [
+      "Intro: paraphrase the trend; position - the advantages are greater",
+      "Body 1: advantages - access for people who cannot relocate or stop working, lower costs, recorded lectures",
+      "Body 2: disadvantages - difficulty staying motivated, higher dropout rates, less contact and networking, limited practical training",
+      "Body 3: how the drawbacks can be reduced - short on-campus periods for practical work and regular video seminars",
+      "Conclusion: restate that the benefits outweigh the drawbacks if courses are well designed"
+    ],
+    "phrases": [
+      "earn a degree",
+      "gain a qualification",
+      "without losing one's income",
+      "at one's own pace",
+      "stay motivated",
+      "miss out on sth",
+      "build in sth",
+      "keep sb on track",
+      "On balance, ..."
+    ],
+    "modelAnswer": "Not long ago, earning a degree meant spending three or four years on a university campus. Today, many institutions allow students to complete an entire qualification from home. Although online degrees have some drawbacks, I believe their advantages are greater.\n\nThe chief benefit is access. People who cannot move to a university town or give up their jobs can still gain a qualification. A nurse working shifts in a rural hospital, for instance, can study for a management degree in the evenings without losing her income. Online courses are also usually cheaper, since students save on accommodation and travel, and recorded lectures allow them to learn at their own pace, replaying difficult sections until they understand them.\n\nOn the other hand, studying alone has real disadvantages. Without fixed timetables and classmates nearby, many learners find it hard to stay motivated. A parent who can only study after the children are in bed may easily skip one week and then another, which partly explains why dropout rates for online courses tend to be higher than for campus-based ones. Students also miss out on informal contact with lecturers, as well as the friendships and professional networks that develop in seminars and student societies. In addition, subjects such as medicine or engineering involve laboratory work that cannot easily be done through a screen.\n\nEven so, these problems can largely be overcome. Many programmes now combine online study with short periods on campus; an online engineering degree might, for example, include two weeks of laboratory sessions each summer. Regular video seminars in small groups can also help students feel part of a community and keep them on track.\n\nOn balance, online degrees open higher education to many people who would otherwise be excluded. Provided that universities build in practical sessions and regular contact with tutors, I am convinced that the benefits of this development outweigh its drawbacks.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-tech-03",
+    "task": 2,
+    "topic": "technology",
+    "qtype": "opinion",
+    "prompt": "In many countries, cash is rapidly being replaced by card and mobile phone payments. Some people believe that this is an entirely positive development. To what extent do you agree or disagree?",
+    "promptCn": "在许多国家，现金正迅速被银行卡和手机支付所取代。有人认为这完全是积极的发展。你在多大程度上同意或不同意？",
+    "ideas": [
+      "认同的部分：电子支付快捷方便，丢手机比丢一钱包现金损失小；小摊贩不用每天点钱、跑银行；交易留痕，逃税更难",
+      "不认同一：不熟悉智能手机的老人、没有银行账户的低收入者会被排斥，例如街角小店不收现金，老人连报纸都买不了",
+      "不认同二：完全依赖电子系统有风险，银行系统宕机几小时，身上没现金的人连菜都买不了",
+      "不认同三：每笔消费都被记录，公司能拼出个人的行踪和消费习惯，涉及隐私",
+      "立场：部分同意——电子支付让生活更方便，但「完全积极」说过头了，现金应继续作为可用选项和后备"
+    ],
+    "outline": [
+      "Intro: paraphrase the trend; position - it brings benefits, but it is not entirely positive",
+      "Body 1: concession - speed, convenience, safety, benefits for small traders, less tax evasion",
+      "Body 2: exclusion of elderly and low-income people who rely on cash",
+      "Body 3: risks of depending on electronic systems - outages and loss of privacy",
+      "Conclusion: partly agree; cash should remain an accepted option"
+    ],
+    "phrases": [
+      "tap a card or phone",
+      "refuse notes and coins altogether",
+      "leave sb vulnerable",
+      "tax evasion",
+      "go cashless",
+      "turn into a barrier to sth",
+      "build a detailed picture of sth",
+      "raise serious privacy concerns",
+      "be wholly positive"
+    ],
+    "modelAnswer": "In many shops and cafes, customers now pay by tapping a card or phone, and some businesses refuse notes and coins altogether. Although this shift brings real benefits, I do not believe it is entirely positive, as it leaves certain groups vulnerable.\n\nAdmittedly, digital payments are fast, convenient and in some ways safer. Paying takes seconds, nobody needs to search for change, and a stolen phone is far less useful to a thief than a wallet full of cash. Businesses gain too: a market trader who accepts mobile payments no longer has to count money at the end of the day or carry it to the bank. Electronic transactions also leave a record, which makes tax evasion harder.\n\nHowever, a society without cash would exclude some people. Many elderly people are not confident with smartphones, and some of those on very low incomes do not have a bank account at all. If a pensioner cannot buy a newspaper because the corner shop has gone cashless, a modern convenience has turned into a barrier to everyday life.\n\nRelying entirely on electronic systems is also risky. When a bank's computer network crashes, even for a few hours, people without notes in their pocket may be unable to buy groceries or pay for a taxi home. Moreover, every digital purchase is recorded, so companies can build a detailed picture of where individuals go and what they buy, which raises serious privacy concerns.\n\nOverall, I agree that card and mobile payments make daily life easier, but I disagree that the trend is wholly positive. Cash should remain an accepted form of payment so that nobody is left behind and society has a reliable backup when technology fails.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-env-03",
+    "task": 2,
+    "topic": "environment",
+    "qtype": "problem-solution",
+    "prompt": "People today buy far more clothes than in the past, and many items are thrown away after being worn only a few times. What problems does this cause, and what measures could be taken to solve them?",
+    "promptCn": "如今人们买的衣服比过去多得多，许多衣服只穿了几次就被扔掉。这会带来什么问题？可以采取哪些措施来解决？",
+    "ideas": [
+      "问题一：浪费巨大，大部分旧衣被填埋或焚烧，涤纶等合成面料几十年都难以降解",
+      "问题二：生产耗费资源——种棉花需要大量用水，染色把化学物质排进工厂附近的河流",
+      "问题三：低价往往建立在低工资之上，一件和三明治同价的 T 恤，背后可能是收入勉强糊口的制衣工人",
+      "措施：让生产商对售出的衣服负责（回收旧衣，每件加收少量费用资助回收点）；减免修补服务的税，让修比买新便宜",
+      "措施：学校和媒体倡导「少买、买好」，二手转卖应用让旧衣再利用变得方便甚至时髦"
+    ],
+    "outline": [
+      "Intro: describe throwaway fashion; preview - it harms the environment, but producers, governments and consumers can address it",
+      "Body 1: problems - landfill waste, water use and chemical pollution, low wages for garment workers",
+      "Body 2: solutions - make manufacturers responsible for recycling, cut taxes on repairs, change consumer habits through education and second-hand apps",
+      "Conclusion: summarise the problems and the main measures"
+    ],
+    "phrases": [
+      "a handful of wears",
+      "end up in landfill",
+      "break down",
+      "resource-intensive",
+      "for the price of a sandwich",
+      "be made responsible for sth",
+      "mend sth rather than replace it",
+      "fewer but better-quality items",
+      "To conclude, ..."
+    ],
+    "modelAnswer": "Cheap fashion has transformed the way people treat clothing. Instead of keeping a coat for years, many shoppers now buy new outfits every month and discard them after a handful of wears. This habit causes serious harm, but it can be tackled by producers, governments and consumers together.\n\nThe most obvious problem is the sheer amount of waste. Most discarded clothes end up in landfill or are burned, and synthetic fabrics such as polyester can take decades to break down. Producing these garments is also resource-intensive: growing cotton requires large quantities of water, while dyeing fabric releases chemicals into rivers near factories. In addition, the low prices of fast fashion often depend on very low wages. A T-shirt that sells for the price of a sandwich in a European city may have been made by a garment worker in Asia who earns barely enough to live on.\n\nSeveral measures could reduce these problems. One solution is to make manufacturers responsible for the clothes they sell, for example by requiring them to collect and recycle old garments, with a small fee on each item funding collection points in shopping centres. Governments could also cut taxes on repair services, so that mending a jacket becomes cheaper than replacing it. Ultimately, however, consumers need to change their habits. School lessons and media campaigns can encourage young people to buy fewer but better-quality items, while second-hand apps, which allow students to sell clothes they no longer wear, make reuse easy and even fashionable.\n\nTo conclude, throwaway fashion creates mountains of waste, pollutes water and relies on poorly paid labour. By making producers responsible, encouraging repair and promoting second-hand shopping, societies can greatly reduce the amount of clothing that is thrown away.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-env-04",
+    "task": 2,
+    "topic": "environment",
+    "qtype": "discussion",
+    "prompt": "Some people think that the best way to protect endangered animals is to keep and breed them in zoos. Others believe that the money should instead be spent on protecting their natural habitats. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为保护濒危动物的最好办法是在动物园里饲养和繁育它们；也有人认为应该把钱花在保护它们的自然栖息地上。讨论这两种观点并给出你的看法。",
+    "ideas": [
+      "支持动物园：野外只剩几十只时，人工饲养能避开偷猎和疾病；阿拉伯大羚羊 20 世纪 70 年代初在野外被猎杀殆尽，靠动物园此前的繁育才得以延续，后来放归沙漠",
+      "支持动物园：学生春游等大量游客能近距离看到珍稀动物，激发保护意识",
+      "支持栖息地：没有家园就谈不上真正保护，森林被砍伐改作种植园和道路，圈养再多老虎也无处放归",
+      "支持栖息地：保护一片栖息地能同时保护成千上万的物种；大象等大型动物在有限空间里压力大、繁殖差",
+      "立场：栖息地保护应优先，动物园作为应急手段——连大羚羊能放归，也是因为阿曼还有合适的荒漠、并有当地护林员看守"
+    ],
+    "outline": [
+      "Intro: introduce the funding choice; position - habitat protection should come first, with zoos in a supporting role",
+      "Body 1: the case for zoos - captive breeding saves species on the brink (the Arabian oryx), education for visitors",
+      "Body 2: the case for habitats - animals need somewhere to return to; one habitat protects many species; large animals suffer in captivity",
+      "Body 3: my view - zoos are an emergency measure that only works if protected habitats exist",
+      "Conclusion: most conservation funding should go to natural habitats"
+    ],
+    "phrases": [
+      "face extinction",
+      "on the brink of disappearing",
+      "captive breeding",
+      "be hunted to extinction in the wild",
+      "be cleared for plantations and roads",
+      "an emergency measure",
+      "live alongside wildlife",
+      "buy time for sth",
+      "Weighing up both sides, ..."
+    ],
+    "modelAnswer": "As more species face extinction, conservationists must decide where limited funds will achieve the most. Some favour breeding programmes in zoos, while others argue for protecting wild habitats. In my opinion, habitat protection should be the priority, with zoos playing a supporting role.\n\nSupporters of zoos argue that captive breeding can rescue species on the brink of disappearing. When only a few dozen individuals remain in the wild, keeping some of them in a controlled environment protects them from poachers and disease. The Arabian oryx, for instance, was hunted to extinction in the wild in the early 1970s and survived only because zoos had been breeding it; animals from these herds were later returned to the desert. Zoos also allow millions of visitors, including children on school trips, to see rare animals up close, which can inspire them to care about conservation.\n\nOn the other hand, a species cannot truly be saved without somewhere to live. Breeding tigers in captivity achieves little if the forests they need are being cleared for plantations and roads. Protecting a habitat also benefits thousands of other species at once, whereas a zoo programme usually focuses on a single animal. Moreover, large animals such as elephants often suffer from stress in confined spaces and breed poorly there.\n\nIn my view, the second argument is more convincing. Zoos are valuable as an emergency measure, but their work only makes sense if there is a protected habitat to which animals can return; even the oryx could be released only because there was still suitable desert in Oman where local rangers could guard it. Funding should therefore go mainly to national parks, anti-poaching patrols and the communities who live alongside wildlife.\n\nWeighing up both sides, zoos can buy time for species in crisis, but long-term survival depends on healthy ecosystems. For this reason, I believe most conservation money should be spent on protecting natural habitats.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-health-03",
+    "task": 2,
+    "topic": "health",
+    "qtype": "adv-disadv",
+    "prompt": "Many people now use smartwatches and mobile phone apps to monitor their health, such as their heart rate, sleep and daily steps. Do the advantages of this trend outweigh the disadvantages?",
+    "promptCn": "现在许多人使用智能手表和手机应用来监测自己的健康状况，如心率、睡眠和每日步数。这一趋势的利是否大于弊？",
+    "ideas": [
+      "优点：每日步数等数据能激励人做小改变，例如步行去车站而不是坐公交；朋友之间可以设共同目标",
+      "优点：提前预警——有的智能手表会提示心跳异常，有五十多岁的用户因此就医，及早发现了心脏问题；糖尿病等慢病患者可以把数据分享给医生",
+      "缺点：设备不总是准确，误报会引起不必要的焦虑，增加诊所负担",
+      "缺点：有人对数字着迷，每天早上查睡眠评分反而睡得更差；健康数据可能被分享给广告商或保险公司",
+      "立场：利大于弊——把数据当参考而非诊断，政府立法严格规范健康数据的存储与共享"
+    ],
+    "outline": [
+      "Intro: describe the popularity of health trackers; position - the advantages outweigh the disadvantages for most users",
+      "Body 1: advantages - motivation to be more active, early warnings of heart problems, better treatment of long-term illness",
+      "Body 2: disadvantages - inaccuracy and false alarms, obsession with numbers, privacy of health data",
+      "Body 3: why the risks are manageable - treating data as a guide, strict data protection rules",
+      "Conclusion: restate that the benefits are greater if the technology is used sensibly"
+    ],
+    "phrases": [
+      "everyday accessories",
+      "make small changes",
+      "give an early warning",
+      "a long-term condition",
+      "false alarms",
+      "become obsessed with sth",
+      "treat sth as a general guide rather than a diagnosis",
+      "safeguards are in place",
+      "All things considered, ..."
+    ],
+    "modelAnswer": "Wearable devices that count steps, track sleep and measure heart rate have become everyday accessories. Although relying on these gadgets has some drawbacks, I believe the advantages clearly outweigh them for most users.\n\nThe greatest benefit is motivation. Seeing a daily step count encourages people to make small changes, such as walking to the station instead of taking the bus, and many apps let friends set shared goals. Health trackers can also give early warnings. Some smartwatches alert users to an irregular heartbeat, and there have been cases of people in their fifties who saw a doctor after such an alert and discovered a heart condition before it became serious. In addition, patients with long-term conditions such as diabetes can share their readings with doctors, making treatment more precise.\n\nNevertheless, there are genuine disadvantages. The devices are not always accurate, and false alarms can cause unnecessary anxiety and extra visits to busy clinics. Some users become obsessed with their figures; a person who checks their sleep score every morning may actually sleep worse because they worry about it. Privacy is another concern, as health data collected by technology companies could be shared with advertisers or insurers without users fully understanding the consequences.\n\nThese risks, however, can be managed. Users can treat the figures as a general guide rather than a diagnosis, and governments can introduce strict rules on how health data is stored and shared. The European Union, for example, already classifies health information as sensitive data that requires special protection. Once such safeguards are in place, the benefits of greater awareness are hard to ignore.\n\nAll things considered, health-tracking technology encourages more active lifestyles and can detect problems early. As long as people use it sensibly and their data is protected, its advantages outweigh its disadvantages.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-work-03",
+    "task": 2,
+    "topic": "work",
+    "qtype": "discussion",
+    "prompt": "Some people believe it is better to stay with the same employer for many years. Others think that changing jobs frequently is better for a person's career. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为长期留在同一家公司更好；也有人认为频繁换工作对职业发展更有利。讨论这两种观点并给出你的看法。",
+    "ideas": [
+      "留下的好处：在一家公司干十年的员工熟悉系统和客户，更容易晋升到高级岗位；工作更稳定，福利（如养老金缴费）更好",
+      "留下的好处：简历上五年换五份工作，雇主会担心此人很快又走",
+      "跳槽的好处：每份新工作带来新技能、人脉和挑战，往往是加薪最快的方式；例如软件开发者从初创公司跳到大银行，了解两种组织并拿到更高薪水",
+      "跳槽的好处：在一处待太久技能面窄，公司倒闭时会变成弱点",
+      "立场：取决于职业阶段——二十多岁每两三年换一次、找到方向；确定领域后长期留下，积累专长和口碑"
+    ],
+    "outline": [
+      "Intro: contrast past and present career paths; position - a few moves early on are wise, but frequent changes become harmful later",
+      "Body 1: the case for loyalty - knowledge of the organisation, promotion, job security, employers' doubts about frequent movers",
+      "Body 2: the case for mobility - new skills, contacts and higher pay; example of a software developer; the danger of a narrow skill set",
+      "Body 3: my view - mobility in one's twenties, stability once the right field has been found",
+      "Conclusion: both have merits, depending on the stage of a career"
+    ],
+    "phrases": [
+      "career paths are less predictable",
+      "long-serving staff",
+      "job security",
+      "secure a pay rise",
+      "command a higher salary",
+      "a narrow skill set",
+      "build expertise and a strong reputation",
+      "positions of responsibility",
+      "Ultimately, ..."
+    ],
+    "modelAnswer": "In the past, many workers joined a company after leaving school and stayed there until retirement. Today, career paths are far less predictable, and people disagree about whether loyalty or mobility brings greater rewards. I believe that changing employers a few times early in one's career is wise, but frequent moves become harmful later on.\n\nThose who favour staying with one organisation point to the value of trust and experience. An employee who has worked somewhere for ten years understands its systems and clients in a way that a newcomer cannot, and this knowledge often leads to promotion into senior roles. Long-serving staff also tend to enjoy greater job security and better benefits, such as larger pension contributions. Furthermore, employers may hesitate to hire someone whose CV shows five jobs in five years, suspecting that the person will soon leave again.\n\nOn the other hand, moving between companies can accelerate a career. Each new job brings fresh skills, contacts and challenges, and it is often the quickest way to secure a pay rise. A young software developer who moves from a small start-up to a large bank, for example, learns how two very different organisations operate and can command a higher salary at the second. Staying too long in one place, by contrast, can leave a person with a narrow skill set, which becomes a serious weakness if the company closes.\n\nIn my view, the best approach depends on the stage of a person's career. In their twenties, people benefit from trying different roles and discovering what suits them, perhaps changing employers every two or three years. Once they have found the right field, however, staying longer allows them to build expertise and a strong reputation.\n\nUltimately, both loyalty and mobility have merits. Moving jobs in the early years broadens experience, while greater stability later on allows people to deepen their skills and progress to positions of responsibility.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-crime-03",
+    "task": 2,
+    "topic": "crime",
+    "qtype": "two-part",
+    "prompt": "In many countries, people feel increasingly worried about crime, even though official statistics show that crime rates have fallen. Why might this be the case? What can be done to make people feel safer?",
+    "promptCn": "在许多国家，尽管官方统计显示犯罪率已经下降，人们对犯罪的担忧却越来越强。为什么会出现这种情况？可以做些什么让人们感到更安全？",
+    "ideas": [
+      "原因一：媒体知道恐怖的新闻吸引观众，一起暴力案件连续报道好几天，入室盗窃逐年减少却很少上头条",
+      "原因二：社交媒体放大效应——邻里群里一辆自行车被偷的帖子被转发几百次，居民觉得到处都是盗窃",
+      "原因三：全国平均下降不代表每个地方都更安全，一条街上几辆车接连被撬，居民不会因全国数据而安心",
+      "措施：警方在网上公布清晰的本地犯罪数据，居民看自己街区的趋势而不是听传言；徒步巡逻、参加社区会议的警察更让人安心",
+      "措施：改善公共空间，如停车场和地下通道加装照明，尤其能让夜里独自回家的女性安心；鼓励媒体把个案放在整体数据中报道"
+    ],
+    "outline": [
+      "Intro: point out the gap between perception and reality; preview - caused by reporting and local experience, reduced by information and visible policing",
+      "Body 1: causes - dramatic news coverage, social media rumours, local crime clusters that national figures hide",
+      "Body 2: solutions - publish local crime data, community policing, better street lighting, responsible reporting",
+      "Conclusion: summarise the causes and the measures that close the gap between real and perceived safety"
+    ],
+    "phrases": [
+      "the gap between perception and reality",
+      "make headlines",
+      "give sb the impression that ...",
+      "national averages",
+      "rely on rumours",
+      "a visible police presence",
+      "place sth in context",
+      "close the gap between A and B",
+      "In summary, ..."
+    ],
+    "modelAnswer": "It seems strange that many people feel less safe at a time when crime figures are falling. This gap between perception and reality is largely caused by the way crime is reported and experienced locally, and it can be narrowed through better communication and more visible policing.\n\nThe media are probably the main reason. News organisations know that frightening stories attract audiences, so a single violent attack may be reported for days, while a steady decline in burglaries rarely makes headlines. Social media has intensified this effect. A post in a neighbourhood group about one stolen bicycle can be shared hundreds of times, giving residents the impression that theft is everywhere. In addition, a fall in overall crime does not mean that every area has become safer. Residents of a street where several cars have been broken into within a month will hardly be reassured by national averages.\n\nSeveral steps could help people feel safer. Police forces could publish clear crime figures for each neighbourhood online, so that residents can see the trends in their own area rather than relying on rumours. A visible police presence also matters: officers who patrol on foot and attend community meetings are far more reassuring than patrol cars that appear only after an incident. Practical improvements to public spaces, such as better lighting in car parks and underpasses, can reduce fear as well, especially among women walking home alone at night. Journalists, for their part, could be encouraged to place individual crimes in the context of long-term trends.\n\nIn summary, fear of crime often grows because of dramatic reporting and local rumours rather than real danger. Accurate local information, community policing and safer public spaces would help to close the gap between how safe people are and how safe they feel.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-media-03",
+    "task": 2,
+    "topic": "media",
+    "qtype": "two-part",
+    "prompt": "Many social media influencers now earn money by promoting products to their followers. Why have influencers become so powerful in advertising? Should this type of advertising be more strictly controlled?",
+    "promptCn": "许多社交媒体网红如今靠向粉丝推销产品赚钱。为什么网红在广告领域变得如此有影响力？这类广告是否应受到更严格的监管？",
+    "ideas": [
+      "原因一：网红显得比传统广告更真实，粉丝天天看他们的日常生活，推荐听起来像朋友的建议而不是推销",
+      "原因二：青少年在视频平台上花大量时间，往往比电视明星更信任网络红人",
+      "原因三：对商家来说性价比高，一个有五万忠实粉丝的健身博主能精准触达运动品牌想要的人群，费用只是电视广告的零头",
+      "应当更严格：很多观众分不清是真心推荐还是付费推广，广告标签藏在一堆话题标签里；十四岁的少女可能因喜欢的博主推荐就买减肥补充剂",
+      "具体措施：每条赞助视频开头必须显示「付费广告」；禁止向未成年人推广博彩类应用；对违规的品牌和网红同时罚款"
+    ],
+    "outline": [
+      "Intro: describe the rise of influencer marketing; preview - their power comes from trust, which is why stricter control is needed",
+      "Body 1: reasons for their power - they seem authentic, teenagers trust them, companies can target audiences cheaply",
+      "Body 2: why stricter control is justified - hidden advertising, vulnerable young viewers; proposed rules",
+      "Conclusion: summarise the reasons and restate that this advertising should be regulated at least as strictly as traditional advertising"
+    ],
+    "phrases": [
+      "a major force in modern marketing",
+      "a sales pitch",
+      "at a fraction of the price",
+      "reach precisely the audience",
+      "a paid promotion",
+      "be hidden among hashtags",
+      "the most vulnerable",
+      "be easily exploited",
+      "In short, ..."
+    ],
+    "modelAnswer": "Influencers who recommend skincare, clothes or gadgets to millions of followers have become a major force in modern marketing. Their power comes mainly from the trust they build with their audiences, and I believe this is precisely why their advertising should be more tightly regulated.\n\nThe main reason for their influence is that they seem more authentic than traditional advertisements. Followers watch an influencer's daily life, from morning routines to family holidays, so recommendations feel like advice from a friend rather than a sales pitch. This is especially true of teenagers, who spend hours on video platforms and often trust online personalities more than celebrities on television. Companies also find influencers cost-effective. A fitness blogger with fifty thousand loyal followers can reach precisely the audience that a sports brand wants, at a fraction of the price of a television campaign.\n\nBecause this kind of persuasion is so subtle, stronger controls are justified. Many viewers cannot tell whether a post expresses a genuine opinion or is a paid promotion, particularly when the advertising label is hidden among a long list of hashtags. Young people are the most vulnerable: a fourteen-year-old who sees her favourite creator praising a diet supplement may buy it without considering whether it is safe. Clearer rules would help, such as requiring a clearly visible paid-advertisement label at the start of every sponsored video, banning the promotion of gambling apps to under-18s, and fining both the brands and the influencers who break these rules.\n\nIn short, influencers are powerful because audiences trust them and companies can use them to target customers precisely. That trust, however, can easily be exploited, so I believe this form of advertising should be controlled at least as strictly as advertising on television.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-urban-03",
+    "task": 2,
+    "topic": "urban",
+    "qtype": "problem-solution",
+    "prompt": "In many cities, people living in the same building or neighbourhood hardly know one another. What are the causes of this, and what can be done to build stronger local communities?",
+    "promptCn": "在许多城市，住在同一栋楼或同一街区的人几乎互不相识。造成这种情况的原因是什么？可以做些什么来建立更紧密的社区关系？",
+    "ideas": [
+      "原因一：城市生活节奏快，早出晚归、通勤一小时以上，回家已经筋疲力尽，没精力和邻居聊天",
+      "原因二：租房者一两年就搬一次家，不愿投入可能很快结束的关系",
+      "原因三：网购生鲜、晚上在家看流媒体，可以几周不和楼里任何人说话；公寓楼只有长走廊、没有公共空间，居民很少偶遇",
+      "措施：地方政府资助街道派对、周末集市等社区活动，给人们轻松的见面理由；新楼盘设计屋顶花园、儿童活动室等共享空间",
+      "措施：善用邻里应用借工具、拼车去机场、组织捡垃圾日；给新搬来的人留一张欢迎便条这样的小事也有用"
+    ],
+    "outline": [
+      "Intro: describe how city residents often do not know their neighbours; preview - several causes, but practical solutions exist",
+      "Body 1: causes - busy lifestyles and long commutes, short tenancies, technology that removes the need for local contact, building design",
+      "Body 2: solutions - council-funded events, shared spaces in new developments, neighbourhood apps, small personal gestures",
+      "Conclusion: summarise the causes and solutions"
+    ],
+    "phrases": [
+      "live next door to sb",
+      "the pace of urban life",
+      "invest in relationships",
+      "meet by chance",
+      "give people a reason to do sth",
+      "get talking",
+      "share lifts",
+      "city dwellers",
+      "Taking everything into account, ..."
+    ],
+    "modelAnswer": "In large cities, it is not unusual for people to live next door to someone for years without learning their name. This lack of contact has several causes, but there are practical ways to bring neighbours together.\n\nOne major cause is the pace of urban life. Many residents leave home early, commute for an hour or more and return exhausted, leaving little time or energy to chat with the people next door. Housing patterns also play a role. Tenants in rented flats often move every year or two, so they have little reason to invest in relationships that may soon end. Furthermore, technology has reduced the need for local contact: someone who orders groceries online and spends the evening streaming films can go for weeks without speaking to anyone in their building. The design of many apartment blocks, with long corridors and no shared spaces, also means that residents rarely meet by chance.\n\nFortunately, these barriers can be overcome. Local councils could fund community events, such as street parties or weekend markets, which give people a relaxed reason to meet. Architects and planners can also make a difference by including shared areas in new developments, for example a rooftop garden or a children's playroom where parents naturally get talking. In addition, neighbourhood apps can be used positively, allowing residents to lend tools, share lifts to the airport or organise litter-picking days. Even a simple gesture, such as leaving a welcome note for new arrivals, can start a friendship.\n\nTaking everything into account, busy lifestyles, short tenancies and modern technology have weakened the ties between neighbours. Shared spaces, local events and practical online networks can help city dwellers rebuild the sense of community that many of them miss.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-glob-03",
+    "task": 2,
+    "topic": "globalization",
+    "qtype": "adv-disadv",
+    "prompt": "In many towns and cities, international chain stores and restaurants are replacing small local businesses. Do the advantages of this trend outweigh the disadvantages?",
+    "promptCn": "在许多城镇，国际连锁商店和餐厅正在取代本地小商户。这一趋势的利是否大于弊？",
+    "ideas": [
+      "优点：规模大、批量采购，价格低，对预算紧张的家庭有意义；品质统一，深夜到达陌生城市的旅客知道能得到什么",
+      "优点：一次创造大量岗位，例如跨国超市在小镇开分店，可能雇用一百多名当地人并提供系统培训",
+      "缺点：城镇失去特色，不同国家的商业街看起来几乎一样",
+      "缺点：利润外流——在家庭面包店花的钱留在社区，跨国公司的收入大多流向海外股东；街角咖啡馆老板认得熟客，对独居老人是重要的社交",
+      "立场：弊大于利；地方政府可以给独立商店减免营业税、限制历史街区的连锁店数量来缓解"
+    ],
+    "outline": [
+      "Intro: describe identical high streets; position - the disadvantages are greater",
+      "Body 1: advantages - low prices, consistent quality, large numbers of jobs",
+      "Body 2: disadvantages - loss of local character, profits leaving the area, loss of social contact",
+      "Body 3: what councils can do - lower business rates for independent shops, limits on chain outlets",
+      "Conclusion: restate that the spread of chains does more harm than good"
+    ],
+    "phrases": [
+      "buy in bulk",
+      "families on tight budgets",
+      "consistent quality",
+      "come at a significant cost",
+      "lose much of its character",
+      "stay in the community",
+      "flow to shareholders abroad",
+      "at the expense of sth",
+      "erode the distinctive character of sth"
+    ],
+    "modelAnswer": "Walk down the main street of almost any city today and you will find the same coffee chains, fashion brands and fast-food restaurants. While global chains offer some benefits, I believe the disadvantages of losing independent local businesses are greater.\n\nAdmittedly, international chains bring certain advantages. Their size allows them to buy in bulk and keep prices low, which matters to families on tight budgets. They also offer consistent quality, so a traveller arriving late in an unfamiliar city knows exactly what to expect from a familiar hotel or restaurant. Large companies can create many jobs at once as well; when a global supermarket opens a branch in a small town, it may employ over a hundred local people and give them structured training.\n\nHowever, these gains come at a significant cost. When chains replace independent shops, towns lose much of their character, and high streets in different countries begin to look almost identical. Profits also tend to leave the area. Money spent in a family-run bakery stays in the community, paying local suppliers and staff, whereas much of the income of a multinational flows to shareholders abroad. Small businesses, too, are often more than shops; the owner of a corner cafe who knows customers by name provides valuable social contact, particularly for elderly residents who live alone.\n\nCouncils can limit these effects, for example by offering lower business rates to independent traders or restricting the number of chain outlets on historic streets. Without such measures, however, global brands are likely to keep spreading at the expense of local enterprise.\n\nAll in all, although chain stores provide low prices and reliable service, I believe their spread does more harm than good, because it drains money from local economies and erodes the distinctive character of towns.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-gov-02",
+    "task": 2,
+    "topic": "government",
+    "qtype": "opinion",
+    "prompt": "Some people believe that voting in national elections should be compulsory for all adult citizens. To what extent do you agree or disagree?",
+    "promptCn": "有人认为，所有成年公民都应该被强制在全国选举中投票。你在多大程度上同意或不同意？",
+    "ideas": [
+      "让步：自愿投票时，年长和富裕的人投票率远高于年轻人和低收入者，政策会偏向投票的群体；澳大利亚强制投票，投票率通常在 90% 左右，结果更有代表性",
+      "反对一：自由社会里，投票权也应包括不投票的权利，有人弃权正是因为没有政党代表自己",
+      "反对二：强制不会产生了解情况的选民，对政治毫无兴趣的人为了避免罚款可能随便勾一个名字",
+      "反对三：罚款最容易落在本就困难的人身上，如难以赶到投票站的轮班工人",
+      "立场：基本不同意；更好的办法是消除投票障碍——邮寄或提前投票、周末投票、学校公民教育、18 岁自动登记选民"
+    ],
+    "outline": [
+      "Intro: falling turnout and the proposal of compulsory voting; position - largely disagree",
+      "Body 1: concession - compulsory voting makes results more representative (Australia)",
+      "Body 2: objections - freedom not to vote, uninformed votes, penalties on those already struggling",
+      "Body 3: a better approach - remove obstacles to voting, e.g. postal voting and automatic registration",
+      "Conclusion: encouraging participation is wiser than enforcing it"
+    ],
+    "phrases": [
+      "make sth a legal obligation",
+      "turn out to vote",
+      "reflect a broader section of society",
+      "abstain deliberately",
+      "choose a name at random",
+      "fall hardest on sb",
+      "remove the obstacles that stop sb from doing sth",
+      "be excluded by paperwork",
+      "To summarise, ..."
+    ],
+    "modelAnswer": "Turnout in elections has fallen in many democracies, and some people propose making voting a legal obligation, as it already is in several countries, including Australia. Although the aim is understandable, I largely disagree with this idea.\n\nSupporters of compulsory voting make a fair point about representation. When voting is optional, older and wealthier citizens tend to vote far more often than young people and those on low incomes, so politicians may design policies to please the groups that turn out. In Australia, where adults can be fined for not voting, turnout is usually around 90 per cent, which means that results reflect a much broader section of society.\n\nHowever, forcing people to vote raises serious problems. In a free society, the right to vote should include the right not to vote, and some citizens abstain deliberately because no party represents their views. More importantly, compulsion does not create informed voters. A person who has no interest in politics and is threatened with a fine may simply choose a name at random, which adds noise rather than judgement to the result. Penalties may also fall hardest on those who are already struggling, such as shift workers who cannot easily reach a polling station.\n\nA better approach is to remove the obstacles that stop people from voting. Allowing postal or early voting, holding elections at weekends and teaching young people about politics at school would raise turnout without punishing anyone. Automatic registration for eighteen-year-olds, for example, would ensure that first-time voters are not excluded by paperwork.\n\nTo summarise, compulsory voting can make election results more representative, but it limits personal freedom and does not guarantee thoughtful choices. In my view, encouraging participation is wiser than enforcing it.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-gov-03",
+    "task": 2,
+    "topic": "government",
+    "qtype": "discussion",
+    "prompt": "Some people think that governments should raise taxes in order to provide better public services, such as healthcare and education. Others believe that taxes should be kept low so that people can decide how to spend their own money. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为政府应该提高税收，以提供更好的公共服务，如医疗和教育；也有人认为应保持低税率，让人们自己决定如何花钱。讨论这两种观点并给出你的看法。",
+    "ideas": [
+      "支持加税：有些服务共同承担最有效，孩子需要急诊手术时，自费可能让家庭破产，税收体系把成本分摊给全社会",
+      "支持加税：经费充足的公立学校让每个孩子不论家庭收入都有合理的起点；税收是对更健康、受教育更好的劳动力的投资",
+      "支持低税：个人最了解自己的需要，例如攒钱买第一套房的年轻夫妇宁愿多留些工资；低税鼓励创业",
+      "支持低税：公共资金有时浪费在管理不善的项目上，多收税不等于服务更好",
+      "立场：医疗和教育等基本需求应适度加税，但要累进（高收入者多交）并公开资金用途"
+    ],
+    "outline": [
+      "Intro: introduce the debate; position - moderately higher taxes are justified if raised fairly and spent on essential services",
+      "Body 1: the case for higher taxes - shared costs of healthcare, well-funded state schools, investment in the workforce",
+      "Body 2: the case for low taxes - personal choice, encouraging enterprise, wasted public money",
+      "Body 3: my view - higher taxes for basic needs, but progressive and transparent",
+      "Conclusion: a modest, fair and transparent rise in taxes is the best option"
+    ],
+    "phrases": [
+      "one of the most divisive questions",
+      "leave money in people's pockets",
+      "spread the cost across society",
+      "regardless of family income",
+      "an investment in sth",
+      "encourage enterprise",
+      "be wasted on poorly managed projects",
+      "a progressive tax system",
+      "In conclusion, ..."
+    ],
+    "modelAnswer": "How much tax citizens should pay is one of the most divisive questions in politics. While some argue for higher taxes to fund better services, others prefer to leave more money in people's pockets. I believe moderately higher taxes are justified, provided that they are raised fairly and spent on essential services.\n\nThose who favour higher taxes argue that some services work best when their cost is shared. Healthcare is a clear example: a family whose child needs emergency surgery could be ruined by the bill if they had to pay privately, whereas a tax-funded system spreads that cost across society. Similarly, well-funded state schools give every child, regardless of family income, a reasonable start in life. In this view, taxes are not lost money but an investment in a healthier and better-educated workforce.\n\nSupporters of low taxes, on the other hand, believe that individuals know their own needs best. A young couple saving for their first home, for instance, may prefer to keep more of their salary rather than fund services they rarely use. Low taxes can also encourage enterprise, since entrepreneurs keep more of the reward for taking risks. In addition, critics point out that public money is sometimes wasted on poorly managed projects, so higher taxes do not automatically lead to better services.\n\nIn my opinion, the first argument is stronger when it comes to basic needs such as health and education, which nobody should be denied because of a lack of money. However, any increase should be progressive: a nurse on an average salary should not pay the same rate as a company director. Governments must also publish clear information on how the extra revenue is spent.\n\nIn conclusion, both positions have merit, but a modest rise in taxes, raised fairly and spent transparently, is the best way to guarantee high-quality public services for everyone.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-gov-04",
+    "task": 2,
+    "topic": "government",
+    "qtype": "problem-solution",
+    "prompt": "In many countries, the proportion of older people in the population is steadily increasing. What problems does this cause for governments, and what measures could be taken to deal with them?",
+    "promptCn": "在许多国家，老年人在人口中所占比例在稳步上升。这给政府带来了哪些问题？可以采取哪些措施来应对？",
+    "ideas": [
+      "问题一：养老金成本上升，退休人数增加、纳税的劳动人口减少，有些国家每位 65 岁以上老人对应的劳动年龄人口已不足三人，而几十年前是五六人",
+      "问题二：医疗支出增加，老年人更容易患心脏病、痴呆等长期疾病",
+      "问题三：养老院和居家护理服务招不到足够的员工，许多老人得不到充分照顾",
+      "措施：逐步提高退休年龄（如从 65 岁提到 67 岁）；方便老年员工兼职，例如 68 岁的工程师每周两天带新人而不是完全退休",
+      "措施：投入预防性医疗（免费健身课、定期体检），让老人更久保持自理；有序引进护工和护士填补缺口"
+    ],
+    "outline": [
+      "Intro: explain why societies are ageing; preview - pressure on finances and services, but governments have options",
+      "Body 1: problems - pension costs and fewer workers per pensioner, rising healthcare spending, shortage of care staff",
+      "Body 2: solutions - a gradually higher retirement age, flexible part-time work, preventive healthcare, managed immigration of care workers",
+      "Conclusion: summarise the problems and the main solutions"
+    ],
+    "phrases": [
+      "falling birth rates",
+      "place considerable pressure on sth",
+      "people of working age",
+      "long-term conditions",
+      "struggle to recruit staff",
+      "reflect longer life expectancy",
+      "preventive healthcare",
+      "fill gaps in the workforce",
+      "ease these pressures"
+    ],
+    "modelAnswer": "As a result of longer life expectancy and falling birth rates, many societies are growing older. This shift places considerable pressure on public finances and services, but governments have several options for managing it.\n\nThe most obvious problem is the rising cost of pensions. As the number of retired people grows and the number of workers paying tax shrinks, each employee must support more pensioners. In some countries, there are now fewer than three people of working age for every person over sixty-five, compared with five or six a few decades ago. Healthcare spending also rises, since older people are more likely to suffer from long-term conditions such as heart disease or dementia. On top of this, care homes and home-care services often struggle to recruit enough staff, leaving many elderly people without adequate support.\n\nThere are, however, several ways to tackle these issues. Gradually raising the retirement age, for example from 65 to 67, would reflect longer life expectancy and keep more people contributing for longer. Governments could also make it easier for older employees to work part-time, so that a sixty-eight-year-old engineer might train younger colleagues two days a week rather than retire completely. Investing in preventive healthcare, such as free exercise classes and regular check-ups for the over-seventies, would help people stay independent for longer and reduce hospital costs. Finally, the carefully managed recruitment of care workers and nurses from abroad could fill gaps in the workforce.\n\nIn summary, an ageing population raises the cost of pensions and healthcare and creates shortages of care staff. Later and more flexible retirement, preventive healthcare and targeted immigration could ease these pressures considerably.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-cult-02",
+    "task": 2,
+    "topic": "culture",
+    "qtype": "problem-solution",
+    "prompt": "In many parts of the world, traditional crafts such as weaving, pottery and woodcarving are disappearing because fewer young people are learning them. Why is this happening, and what can be done to preserve these skills?",
+    "promptCn": "在世界许多地方，织布、制陶和木雕等传统手工艺正在消失，因为学习它们的年轻人越来越少。为什么会出现这种情况？可以做些什么来保护这些技艺？",
+    "ideas": [
+      "原因一：经济上不划算，一块手织地毯要织好几周，却要和价格只有零头的机织品竞争，手艺人收入远低于进城打工",
+      "原因二：农村年轻人外出找收入更高的工作；传统学徒期长而辛苦，雕刻家具达到专业水平可能要五年以上",
+      "原因三：许多消费者偏好现代的批量产品，觉得手工制品过时",
+      "措施：政府补贴收徒的老师傅，让青少年留下学艺在经济上可行；把手艺和旅游结合，如游客付费参加家庭作坊的陶艺体验",
+      "措施：网上市场让偏远村庄的织工直接卖给世界各地的顾客，收入远高于卖给中间商；学校请手艺人开短期课程"
+    ],
+    "outline": [
+      "Intro: describe the decline of traditional crafts; preview - economic pressure and changing tastes, but practical solutions exist",
+      "Body 1: causes - low earnings compared with factory goods, young people moving to cities, long apprenticeships, consumer preferences",
+      "Body 2: solutions - grants for masters who take apprentices, links with tourism, online marketplaces, school workshops",
+      "Conclusion: summarise the causes and solutions"
+    ],
+    "phrases": [
+      "a handful of elderly masters",
+      "keep sth alive",
+      "at a fraction of the price",
+      "in search of better-paid work",
+      "take on an apprentice",
+      "raise the profile of sth",
+      "sell directly to customers",
+      "living skills",
+      "make sth attractive to a new generation"
+    ],
+    "modelAnswer": "Traditional crafts once supported entire villages, but many are now practised by only a handful of elderly masters. Economic pressures and changing tastes explain this decline, yet there are practical ways to keep these skills alive.\n\nThe main cause is economic. A hand-woven rug may take weeks to produce, yet it must compete with factory-made versions sold at a fraction of the price, so craftspeople often earn far less than they could in a city office or factory. Not surprisingly, young people in rural areas tend to move away in search of better-paid work. Traditional apprenticeships are also long and demanding; learning to carve furniture to a professional standard can take five years or more. Meanwhile, many consumers prefer modern, mass-produced goods and regard handmade items as old-fashioned.\n\nSeveral measures could reverse this trend. Governments could offer grants to master craftspeople who take on apprentices, making it financially possible for a teenager to train at home rather than leave for the city. Crafts could also be linked to tourism. In some regions, visitors already pay to attend pottery workshops in family studios, which provides an income and raises the profile of local traditions. In addition, online marketplaces allow a weaver in a remote village to sell directly to customers on the other side of the world, earning far more than she would by selling through a middleman. Schools, too, could invite artisans to run short courses so that children see these crafts as living skills rather than museum pieces.\n\nIn conclusion, traditional crafts are fading mainly because they no longer provide a decent living. Financial support for apprentices, links with tourism and access to global online markets could make these skills attractive to a new generation.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-cult-03",
+    "task": 2,
+    "topic": "culture",
+    "qtype": "two-part",
+    "prompt": "Traditional festivals in many countries have become increasingly commercial, with more emphasis on shopping and expensive gifts. Why has this happened? Is this a positive or negative development?",
+    "promptCn": "许多国家的传统节日变得越来越商业化，人们更加注重购物和昂贵的礼物。为什么会出现这种情况？这是积极的还是消极的发展？",
+    "ideas": [
+      "原因一：零售业推动，节日是一年中最赚钱的时段，商家提前几周促销，把昂贵礼物包装成表达感情的「正确方式」",
+      "原因二：社交媒体上晒礼物和大餐，带来攀比压力",
+      "原因三：家人分隔两地，寄礼物成了回家的替代，例如请不到假的年轻上班族给父母订一份礼篮",
+      "积极面：节日消费支撑零售、餐饮和交通业的就业",
+      "消极面（更重要）：节日的宗教、历史或季节意义被淡忘，孩子只把节日和礼物联系在一起；收入一般的家庭可能借钱撑面子，之后几个月还债；包装纸、不想要的礼物和剩菜造成浪费"
+    ],
+    "outline": [
+      "Intro: describe the commercialisation of festivals; preview - caused by business and lifestyle changes, and largely negative",
+      "Body 1: causes - retail promotions, social media pressure, families living apart",
+      "Body 2: evaluation - some economic benefit, but loss of meaning, financial strain and waste outweigh it",
+      "Conclusion: summarise the causes and restate that the change is mainly negative"
+    ],
+    "phrases": [
+      "be dominated by sth",
+      "the main driver",
+      "keep up with others",
+      "a convenient substitute for sth",
+      "the original meaning of sth",
+      "meet expectations",
+      "place unnecessary financial strain on sb",
+      "boost the economy",
+      "To sum up, ..."
+    ],
+    "modelAnswer": "In many countries, the weeks before a major festival are now dominated by advertising campaigns and shopping promotions. Business interests and changing lifestyles explain this trend, which I regard as a largely negative development.\n\nThe main driver is the retail industry. Festivals are among the most profitable periods of the year, so shops and online platforms start promoting seasonal offers weeks in advance and present expensive gifts as the proper way to show affection. Social media adds further pressure, as people post photos of lavish presents and meals, encouraging others to keep up. In addition, many families now live far apart, and sending a gift has become a convenient substitute for travelling home. A young professional who cannot get time off work, for instance, may order a food hamper for her parents instead of visiting them.\n\nThis commercialisation does bring some economic benefits, since festival spending supports jobs in shops, restaurants and transport. Nevertheless, I believe the drawbacks are greater. When the focus shifts to buying, the original meaning of a festival, whether religious, historical or seasonal, is gradually forgotten, and children may grow up associating it mainly with presents. The financial pressure can also be considerable: a family on a modest income may borrow money to meet expectations and then spend months repaying the debt. Moreover, the wrapping paper, unwanted gifts and leftover food produced during these holidays create a great deal of waste.\n\nTo sum up, festivals have become commercial because businesses profit from them and modern lifestyles make shopping a convenient way to celebrate. Although this boosts the economy, it is mainly a negative change, as it weakens traditions and places unnecessary financial strain on families.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-cult-04",
+    "task": 2,
+    "topic": "culture",
+    "qtype": "opinion",
+    "prompt": "Some people believe that old buildings in city centres should always be preserved, even when the land is needed for new housing. To what extent do you agree or disagree?",
+    "promptCn": "有人认为，市中心的老建筑应始终得到保护，即使这块土地需要用来建新住房。你在多大程度上同意或不同意？",
+    "ideas": [
+      "同意的部分：有历史价值的建筑赋予城市个性，连接居民与过去，例如中世纪的集市大厅、十九世纪的火车站；还能吸引游客，一旦拆除无法复原",
+      "不同意「始终」：并非每栋老建筑都有建筑或历史价值，有的只是年久失修",
+      "例子：一栋空置的 1960 年代办公楼占着能建两百套经济适用房的地，坚持保留就是把外观放在住房刚需之上",
+      "住房短缺带来实际困难：年轻人三十多岁还和父母同住，护士等关键岗位员工每天通勤数小时",
+      "立场：部分同意——保护最有价值的建筑，其余尽量改造（如欧洲城市把旧仓库、工厂改成公寓），无法改造的让位于住房"
+    ],
+    "outline": [
+      "Intro: the conflict between heritage and housing; position - protect historically valuable buildings, but not every old building",
+      "Body 1: reasons to protect significant buildings - identity, tourism, irreversibility of demolition",
+      "Body 2: why the word always goes too far - many old buildings have little value, and housing shortages cause real hardship",
+      "Body 3: compromise - preserve the best, convert others, use the remaining land for housing",
+      "Conclusion: judge each case on its merits"
+    ],
+    "phrases": [
+      "a rising population",
+      "give a city its identity",
+      "be taken lightly",
+      "go too far",
+      "put A above B",
+      "the urgent needs of sb",
+      "a sensible compromise",
+      "a blanket rule",
+      "judge each case on its merits"
+    ],
+    "modelAnswer": "As cities grow, planners frequently face a choice between protecting historic buildings and providing homes for a rising population. I agree that buildings of real historical value should be preserved, but I disagree that every old building should be protected regardless of the need for housing.\n\nThere are strong reasons to protect significant historic architecture. Old buildings give a city its identity and connect residents to their past; a medieval market hall or a nineteenth-century railway station tells a story that no modern block can. Such landmarks also have economic value, as they attract tourists who spend money in local hotels and restaurants. Once demolished, they cannot be replaced, which is why decisions about them should never be taken lightly.\n\nHowever, the word 'always' goes too far. Not every old structure is architecturally or historically significant, and some are simply in poor condition. If an empty 1960s office block occupies land that could provide two hundred affordable flats, insisting on its preservation would put appearance above the urgent needs of families who cannot find a home. Housing shortages cause real hardship, from young adults living with their parents into their thirties to nurses who commute for hours because they cannot afford to live near their hospitals.\n\nA sensible compromise is to protect the most valuable buildings while converting others. Many former warehouses and factories in European cities have been turned into attractive apartments, keeping their historic exteriors while providing modern homes inside. Where conversion is impossible, the land should be used for housing.\n\nTo conclude, historically significant buildings deserve protection, but a blanket rule to preserve all old buildings is unrealistic. Each case should be judged on its merits, balancing heritage against the pressing need for homes.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-sci-01",
+    "task": 2,
+    "topic": "science",
+    "qtype": "opinion",
+    "prompt": "Some people argue that the large sums of money spent on space exploration would be better used to solve problems on Earth, such as poverty and disease. To what extent do you agree or disagree?",
+    "promptCn": "有人认为，花在太空探索上的巨额资金最好用来解决地球上的问题，如贫困和疾病。你在多大程度上同意或不同意？",
+    "ideas": [
+      "反对一：太空研究带来大量改善地球生活的技术——气象卫星提醒农民干旱、帮助沿海社区防风暴；卫星导航为救护车指路；卫星图像监测森林砍伐和冰川融化",
+      "反对二：太空开支常被夸大，美国宇航局 NASA 的预算远不到联邦总支出的百分之一，远少于医疗和国防；砍掉也几乎改变不了扶贫资金",
+      "反对三：太空任务激励年轻人学习科学和工程，许多研究者的兴趣来自童年观看火箭发射",
+      "让步：基本需求优先——连清洁饮水和基础教育都无法保障的国家，为国家形象发射卫星难以自圆其说",
+      "立场：基本不同意，太空探索不是浪费，前提是先满足基本需求"
+    ],
+    "outline": [
+      "Intro: acknowledge the high cost; position - largely disagree",
+      "Body 1: practical benefits - weather satellites, satellite navigation, environmental monitoring",
+      "Body 2: the cost is exaggerated (NASA's share of federal spending); inspiration for young scientists",
+      "Body 3: concession - basic needs must come first in poorer countries",
+      "Conclusion: space exploration is not a waste of money, provided essential needs are met"
+    ],
+    "phrases": [
+      "launch rockets",
+      "urgent needs at home",
+      "a small share of public spending",
+      "improve life on Earth",
+      "satellite navigation",
+      "return to Earth in the form of sth",
+      "be exaggerated",
+      "trace one's interest back to sth",
+      "national prestige"
+    ],
+    "modelAnswer": "Launching rockets and building space stations costs billions, so it is easy to see why some people believe this money should be spent on urgent needs at home. However, I largely disagree, as space exploration delivers practical benefits and accounts for only a small share of public spending.\n\nSpace research has produced many technologies that improve life on Earth. Weather satellites, for instance, provide the forecasts that warn farmers of droughts and help coastal communities prepare for storms. Satellite navigation guides ambulances to emergencies, and images from orbit allow scientists to measure deforestation and melting ice. In other words, money invested in space often returns to Earth in the form of tools that help to address the very problems critics mention, including hunger and natural disasters.\n\nMoreover, the cost of space exploration is often exaggerated. The budget of NASA, the American space agency, is well under one per cent of total federal spending, far less than the amounts spent on healthcare or defence. Cancelling its programmes would therefore barely change the money available for fighting poverty. Space missions also inspire young people to study science and engineering, and many of today's researchers can trace their interest back to watching a rocket launch as a child.\n\nThat said, governments must ensure that space programmes do not take priority over basic services. If a country cannot provide clean water or primary education for its citizens, launching a satellite for national prestige would be hard to justify.\n\nOverall, I do not believe that funding space exploration is a waste of money. Provided that essential needs are met first, it brings scientific, economic and educational benefits that serve humanity as a whole.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w2-sci-02",
+    "task": 2,
+    "topic": "science",
+    "qtype": "discussion",
+    "prompt": "Some people believe that scientific research should be funded mainly by governments. Others think that private companies should pay for most research. Discuss both views and give your own opinion.",
+    "promptCn": "有人认为科学研究应主要由政府资助；也有人认为大部分研究应由私营企业出资。讨论这两种观点并给出你的看法。",
+    "ideas": [
+      "支持政府：很多有价值的基础研究短期内没有利润，比如细胞如何分裂、气候如何运作，要对股东负责的企业不愿投入",
+      "支持政府：基础研究是日后突破的根基——新冠疫情期间 mRNA 疫苗能快速研发，依靠的是此前几十年大量由公共经费支持的研究；罕见病患者太少，没有商业吸引力",
+      "支持企业：企业有动力尽快把发现变成产品，能投入巨资而不依赖纳税人，例如科技公司每年花数十亿研发更快的芯片和电动车电池",
+      "支持企业：企业多出钱，政府就能把更多钱用于学校和医院",
+      "立场：两者都需要但分工不同——企业做有明确市场的应用研究，政府资助长期的基础研究；完全依赖企业，研究结果常被当作商业机密，例如药企可能不公开不理想的试验结果"
+    ],
+    "outline": [
+      "Intro: who should pay for research; position - governments should remain the main funders of basic research",
+      "Body 1: the case for public funding - no quick profit, foundation for later breakthroughs (mRNA vaccines), rare diseases",
+      "Body 2: the case for private funding - efficiency, large investment without taxpayers' money, examples from technology firms",
+      "Body 3: my view - different roles for each; the risk of secrecy if research depends on private money",
+      "Conclusion: private money for products, public money for basic science"
+    ],
+    "phrases": [
+      "offer no quick profit",
+      "satisfy shareholders",
+      "underpin later breakthroughs",
+      "be commercially attractive",
+      "turn discoveries into products",
+      "applied research",
+      "curiosity-driven science",
+      "be kept as commercial secrets",
+      "lay the foundation for sth"
+    ],
+    "modelAnswer": "Scientific research is expensive, and societies must decide who should pay for it. While private companies already fund a large share, I believe that governments should remain the main source of money for fundamental research, leaving businesses to finance the development of products.\n\nThose who favour public funding argue that much valuable research offers no quick profit. Studies of how cells divide or how the climate works may take decades to produce practical results, so businesses that must satisfy shareholders are unlikely to support them. Yet such work underpins later breakthroughs: the rapid development of mRNA vaccines during the Covid-19 pandemic relied on decades of earlier research, much of it supported by public grants. Government funding also makes it possible to study rare diseases, which affect too few patients to be commercially attractive.\n\nSupporters of private funding, by contrast, point to the efficiency of companies. Businesses have strong incentives to turn discoveries into useful products quickly, and they can invest huge sums without relying on taxpayers. Technology firms, for example, spend billions each year developing faster computer chips and longer-lasting batteries for electric cars. If companies paid for more research, governments could spend more on schools and hospitals.\n\nIn my view, both sources are needed, but their roles differ. Companies are well suited to applied research with a clear market, whereas governments must fund long-term, curiosity-driven science that markets ignore. Relying mainly on private money would also mean that findings are often kept as commercial secrets rather than shared openly; a drug company, for instance, may have little reason to publish disappointing trial results.\n\nIn conclusion, private investment is valuable for turning ideas into products, but governments should remain the main funders of basic research, which serves the public good and lays the foundation for future innovation.",
+    "modelBand": 7
+  },
+  {
+    "id": "w2-sci-03",
+    "task": 2,
+    "topic": "science",
+    "qtype": "adv-disadv",
+    "prompt": "Scientists are now able to produce meat in laboratories by growing animal cells, without raising and slaughtering animals. Do the advantages of this development outweigh the disadvantages?",
+    "promptCn": "科学家现在能够通过培养动物细胞在实验室里生产肉类，而无需饲养和屠宰动物。这一发展的利是否大于弊？",
+    "ideas": [
+      "优点一：环境——畜牧业占用大量土地，排放可观的温室气体（牛会释放甲烷）；若肉在工厂里生产，土地可以退还森林，用可再生能源时减排更明显",
+      "优点二：动物福利——数十亿只在拥挤鸡舍里度过短暂一生的鸡不必再被饲养；无菌生产还能降低禽流感等疾病从动物传给人的风险",
+      "缺点一：目前成本远高于传统肉类，大规模生产耗能巨大；很多消费者对实验室食品有疑虑",
+      "缺点二：威胁农民生计，例如在产业单一的农村地区，牛肉需求一旦崩溃，养牛户难以维持生计",
+      "立场：利大于弊——新技术成熟后成本通常会下降（如太阳能电池板），政府可以帮助农民转向其他农业"
+    ],
+    "outline": [
+      "Intro: describe cultivated meat; position - its potential advantages outweigh its disadvantages",
+      "Body 1: advantages - less land and fewer emissions, animal welfare, lower risk of animal-borne diseases",
+      "Body 2: disadvantages - high cost and energy use, consumer suspicion, threat to farmers' livelihoods",
+      "Body 3: why the problems are likely to diminish - falling costs (solar panels), support for farmers",
+      "Conclusion: restate that the advantages outweigh the drawbacks and the technology deserves investment"
+    ],
+    "phrases": [
+      "move from science fiction to sth",
+      "greenhouse gas emissions",
+      "be returned to forest",
+      "animal welfare",
+      "spend their lives in crowded sheds",
+      "on a large scale",
+      "threaten the livelihoods of sb",
+      "as new technologies mature",
+      "Taking everything into account, ..."
+    ],
+    "modelAnswer": "Meat grown from animal cells in steel tanks, often called cultivated meat, has moved from science fiction to the first restaurant menus. Although the technology faces real obstacles, I believe its potential advantages outweigh its disadvantages.\n\nThe most significant benefit concerns the environment. Livestock farming uses vast areas of land and produces a considerable share of greenhouse gas emissions, partly because cattle release methane. If meat could be grown in factories, much of this land could be returned to forest, and emissions could fall sharply, particularly if production plants used renewable energy. Animal welfare would also improve dramatically, as the billions of chickens that currently spend their short lives in crowded sheds would no longer need to be raised. In addition, producing meat in sterile facilities could reduce the risk of diseases such as bird flu spreading from animals to humans.\n\nHowever, the disadvantages are significant at present. Cultivated meat is still far more expensive than conventional meat, and producing it on a large scale requires enormous amounts of energy. Many consumers are also suspicious of food created in a laboratory and may simply refuse to eat it. Furthermore, the technology could threaten the livelihoods of farmers; a cattle farmer in a rural region with few other industries might struggle to earn a living if demand for traditional beef collapsed.\n\nMost of these problems, though, are likely to diminish over time. Costs usually fall as new technologies mature, as happened with solar panels over the past two decades, and governments could help farmers move into other forms of agriculture.\n\nTaking everything into account, laboratory-grown meat offers major environmental and ethical benefits. Despite current problems with cost and public acceptance, I believe these advantages outweigh the drawbacks, and the technology deserves further investment.",
+    "modelBand": 7.5
+  }
+]
