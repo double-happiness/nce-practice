@@ -113,8 +113,12 @@
     let data = null;
     try { data = await r.json(); } catch (e) { data = null; }
     if (!r.ok || data == null) {
-      const err = new Error((data && data.error) || (r.ok ? '服务端返回格式错误' : `请求失败（${r.status}）`));
+      const serverMsg = data && data.error;
+      const err = new Error(serverMsg || (r.ok ? '服务端返回格式错误' : `请求失败（${r.status}）`));
       err.status = r.status;
+      // 区分「接口不存在」与业务 404（诊断过期、题目不存在）：前者没有业务文案（通用「请求失败（404）」），
+      // 或是 server.js 的 /api 兜底返回的「接口不存在：…」
+      err.apiMissing = r.status === 404 && (!serverMsg || /^接口不存在/.test(serverMsg));
       if (!quiet) NCE.toast(err.message, 'bad');
       throw err;
     }
@@ -183,18 +187,21 @@
     const k = 'nce-ielts-' + name;
     return pid === 'default' ? k : pid + ':' + k;
   }
-  function errorHtml(title, err) {
+  // opts.retryLabel：重试按钮文案（默认「重试」），按钮仍是 .ie-retry，由 bindRetry 绑定
+  function errorHtml(title, err, opts) {
     const status = err && typeof err.status === 'number' ? err.status : null;
     let hint = '';
-    if (status === 404) hint = '后端的雅思备考接口还没有就绪（404），更新服务端后再试。';
+    // 业务 404（诊断过期、题目不存在）只显示后端返回的 error，不误报「接口未就绪」
+    if (status === 404 && err.apiMissing) hint = '后端的雅思备考接口还没有就绪（404），更新服务端后再试。';
     else if (status === 0) hint = '网络连接失败，请确认服务在运行。';
     const detail = err && err.message ? err.message : '';
+    const retryLabel = (opts && opts.retryLabel) || '重试';
     return (
       '<div class="ie-err">' +
       `<div class="ie-err-t">⚠️ ${esc(title)}</div>` +
       (hint ? `<div class="ie-err-d">${esc(hint)}</div>` : '') +
       (detail ? `<div class="ie-err-d ie-muted">${esc(detail)}</div>` : '') +
-      '<button type="button" class="btn small ie-retry">重试</button>' +
+      `<button type="button" class="btn small ie-retry">${esc(retryLabel)}</button>` +
       '</div>'
     );
   }

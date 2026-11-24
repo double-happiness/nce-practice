@@ -1,7 +1,7 @@
 'use strict';
 // 雅思备考 · 记录子页：写作 / 口语历次自评记录、band 趋势折线（内联 SVG），点开看原文与题目。
 // 接口：GET /api/ielts/history?type=writing|speaking&limit=、GET /api/ielts/summary；
-// 题目标题来自 GET /api/ielts/writing、GET /api/ielts/speaking（拿不到就只显示题目 id）。
+// 题目标题优先用 history 返回的 title；缺 title 时才拉 GET /api/ielts/writing、GET /api/ielts/speaking 做映射（拿不到就只显示题目 id）。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -80,9 +80,15 @@
   function loadTitles() {
     if (st.titles) return Promise.resolve(st.titles);
     if (st.titlesLoading) return st.titlesLoading;
+    let failed = false;
+    const soft = (url) => IE.get(url).then(toList, (e) => {
+      failed = true;
+      console.warn('[ielts-history] 题目列表加载失败，标题先显示题目 id', url, e);
+      return [];
+    });
     st.titlesLoading = Promise.all([
-      IE.get('/api/ielts/writing').then(toList, () => []),
-      IE.get('/api/ielts/speaking').then(toList, () => []),
+      soft('/api/ielts/writing'),
+      soft('/api/ielts/speaking'),
     ]).then(([w, s]) => {
       const map = {};
       w.forEach((it) => { if (it && it.id) map['writing:' + it.id] = clip(it.prompt, 90); });
@@ -91,7 +97,8 @@
         const t = Number(it.part) === 2 ? it.cueCard && it.cueCard.title : [it.topic, it.topicCn].filter(Boolean).join(' · ');
         map['speaking:' + it.id] = t || it.id;
       });
-      st.titles = map;
+      // 映射为空或有一边没拉到时不缓存，下次进入再重试
+      if (!failed && Object.keys(map).length) st.titles = map;
       st.titlesLoading = null;
       return map;
     });
@@ -150,7 +157,7 @@
   function recHtml(type, r, i) {
     const titles = st.titles || {};
     const id = type === 'writing' ? r.promptId : r.itemId;
-    const title = titles[type + ':' + id] || id || '（未知题目）';
+    const title = r.title || titles[type + ':' + id] || id || '（未知题目）';
     const meta = [];
     if (type === 'writing' && r.wordCount != null) meta.push(`${r.wordCount} 词`);
     if (r.durationSec != null) meta.push(IE.fmtDuration(r.durationSec));
@@ -260,11 +267,7 @@
     box.innerHTML = '<div class="ie-loading">正在加载记录…</div>';
     let list;
     try {
-      const [r] = await Promise.all([
-        IE.get(`/api/ielts/history?type=${encodeURIComponent(type)}&limit=${LIMIT}`),
-        loadTitles(),
-      ]);
-      list = toList(r);
+      list = toList(await IE.get(`/api/ielts/history?type=${encodeURIComponent(type)}&limit=${LIMIT}`));
     } catch (e) {
       if (!alive() || st.type !== type) return;
       box.innerHTML = '<div class="ie-card">' + IE.errorHtml('练习记录加载失败', e) + '</div>';
@@ -272,6 +275,11 @@
       return;
     }
     if (!alive() || st.type !== type) return;
+    // 后端已在每条记录里带 title；只有缺 title 时才拉题目列表做映射（loadTitles 不会抛错）
+    if (list.some((r) => !r || !r.title)) {
+      await loadTitles();
+      if (!alive() || st.type !== type) return;
+    }
     st.records[type] = list;
     paintRecords();
   }

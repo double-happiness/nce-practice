@@ -206,7 +206,7 @@
     box.innerHTML =
       '<div class="ie-row">' +
       `<select class="iev-topic-sel" aria-label="话题">${topicOptionsHtml()}</select>` +
-      `<input type="search" class="ie-input iev-q" placeholder="搜单词或中文…" value="${escAttr(st.q)}" autocomplete="off">` +
+      `<input type="search" class="ie-input iev-q" placeholder="搜单词或中文…" value="${escAttr(st.q)}" maxlength="50" autocomplete="off">` +
       '</div>' +
       '<div class="ie-row chips iev-cefr">' +
       `<div class="chip${st.cefr ? '' : ' active'}" data-c="">全部级别</div>` +
@@ -285,7 +285,8 @@
       return;
     }
     if (seq !== st.listSeq || !alive() || st.mode !== 'browse') return;
-    if (Array.isArray(r.topics) && r.topics.length && !st.topics.length) {
+    // 话题计数随 cefr / q 筛选变化，每次都用最新返回的 topics 刷新下拉框
+    if (Array.isArray(r.topics) && r.topics.length) {
       st.topics = r.topics;
       refreshTopicOptions();
     }
@@ -347,7 +348,7 @@
       return null;
     }
     if (seq !== st.listSeq || !alive()) return null;
-    if (Array.isArray(r.topics) && r.topics.length && !st.topics.length) {
+    if (Array.isArray(r.topics) && r.topics.length) {
       st.topics = r.topics;
       refreshTopicOptions();
     }
@@ -639,6 +640,12 @@
       r = await IE.post('/api/ielts/vocab-check', { quizId: c.quiz.quizId, answers: c.answers });
     } catch (e) {
       if (!alive() || st.mode !== 'check') return;
+      if (e.status === 404) {
+        // 诊断已过期（后端只保留 30 分钟）或不存在：原答案提交不了，重试没有意义，只能重新抽题
+        box.innerHTML = IE.errorHtml('诊断提交失败', e, { retryLabel: '重新抽题' });
+        IE.bindRetry(box, () => startCheck(box));
+        return;
+      }
       box.innerHTML =
         IE.errorHtml('提交失败，答案还在，可以重试', e) +
         '<div class="ie-row" style="margin-top:10px"><button type="button" class="btn small iev-restart">重新抽题</button></div>';
