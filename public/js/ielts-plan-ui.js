@@ -174,23 +174,42 @@
     );
   }
 
-  // 任务完成状态：internal 按 done/target，external 按手动打勾
+  // 任务完成状态：
+  // - internal：按 done / target 统计（逻辑不变）
+  // - external：后端给 per（day | week）、target、done（今天 / 本周已打勾天数）、met（done >= target）
+  //   和 checkedToday（今天是否已打勾）。复选框只反映今天是否打勾，「已完成」只看 met。
   function taskState(t) {
     const ext = t.kind === 'external';
+    if (ext) {
+      const per = t.per === 'week' ? 'week' : 'day';
+      const target = Math.max(1, Number(t.target) || 1);
+      const doneN = Math.max(0, Number(t.done) || 0);
+      const met = typeof t.met === 'boolean' ? t.met : doneN >= target;
+      return { ext, per, target, doneN, met, checkedToday: t.checkedToday === true };
+    }
     const target = Math.max(0, Number(t.target) || 0);
-    const doneN = ext ? (t.met || t.done === true || Number(t.done) > 0 ? 1 : 0) : Math.max(0, Number(t.done) || 0);
-    const met = ext ? doneN > 0 : t.met === true || (target > 0 && doneN >= target);
+    const doneN = Math.max(0, Number(t.done) || 0);
+    const met = t.met === true || (target > 0 && doneN >= target);
     return { ext, target, doneN, met };
+  }
+
+  function taskSubText(t, s) {
+    let text;
+    if (!s.ext) text = `${s.doneN} / ${s.target || '—'} ${esc(t.unit || '')}`;
+    else if (s.per === 'week') text = `本周 ${s.doneN} / ${s.target} 次 · ${s.checkedToday ? '今天已打勾' : '做完当天打勾'}`;
+    else text = s.checkedToday ? '今天已打勾' : '外部资料，完成后手动打勾';
+    return text + (t.minutes ? ` · 约 ${esc(String(t.minutes))} 分钟` : '');
   }
 
   function taskRowHtml(t, i) {
     const s = taskState(t);
-    const pct = s.ext ? (s.met ? 100 : 0) : s.target ? Math.min(100, Math.round((s.doneN / s.target) * 100)) : 0;
+    // internal 与按周的 external 显示进度条；按天的 external 只有勾选框
+    const showBar = !s.ext || s.per === 'week';
+    const pct = s.target ? Math.min(100, Math.round((s.doneN / s.target) * 100)) : 0;
     const icon = s.ext
-      ? `<input type="checkbox" class="iep-check" data-i="${i}"${s.met ? ' checked' : ''} aria-label="标记已完成">`
+      ? `<input type="checkbox" class="iep-check" data-i="${i}"${s.checkedToday ? ' checked' : ''} aria-label="今天已完成">`
       : s.met ? '✅' : '⬜';
-    const sub = (s.ext ? (s.met ? '已打勾' : '外部资料，完成后手动打勾') : `${s.doneN} / ${s.target || '—'} ${esc(t.unit || '')}`) +
-      (t.minutes ? ` · 约 ${esc(String(t.minutes))} 分钟` : '');
+    const sub = taskSubText(t, s);
     let action = '';
     if (s.met) action = '<span class="iep-done">已完成</span>';
     else if (t.tab) action = `<button type="button" class="btn small iep-go" data-tab="${esc(t.tab)}">去做 →</button>`;
@@ -200,7 +219,7 @@
       '<div class="iep-task-main">' +
       `<div class="iep-task-t">${esc(t.label || t.key || '任务')}${s.ext ? '<span class="iep-tag">外部</span>' : ''}</div>` +
       `<div class="iep-task-sub">${sub}</div>` +
-      (s.ext ? '' : `<div class="iep-mini-bar"><i style="width:${pct}%"></i></div>`) +
+      (showBar ? `<div class="iep-mini-bar"><i style="width:${pct}%"></i></div>` : '') +
       '</div>' +
       action +
       '</div>'
@@ -391,8 +410,11 @@
         cb.disabled = true;
         try {
           await IE.post('/api/ielts/plan/check', { date: IE.todayStr(), taskKey: t.key, done });
-          t.done = done;
-          t.met = done;
+          // 本地同步：今天的勾选变化 ±1 天，met 按 done >= target 重算（与后端口径一致）
+          const before = taskState(t);
+          if (before.checkedToday !== done) t.done = Math.max(0, before.doneN + (done ? 1 : -1));
+          t.checkedToday = done;
+          t.met = Math.max(0, Number(t.done) || 0) >= before.target;
         } catch (e) {
           cb.checked = !done; // 失败回滚（toast 已由请求层弹出）
           cb.disabled = false;

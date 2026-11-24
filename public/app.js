@@ -1514,7 +1514,7 @@ async function renderHomeIeltsCard(slot) {
     const phase = homeIeltsPhaseName((plan && plan.week && plan.week.phase) || d.phase);
     const focus = plan && plan.week && plan.week.focus ? String(plan.week.focus) : '';
     const tasks = plan && plan.today && Array.isArray(plan.today.tasks) ? plan.today.tasks : [];
-    const metCount = tasks.filter((t) => t && (t.met === true || t.done === true)).length;
+    const metCount = tasks.filter((t) => t && t.met === true).length; // 「已完成」只看 met（external 周任务的 done 是天数）
     const target = p.target && Number.isFinite(Number(p.target.overall)) ? Number(p.target.overall).toFixed(1) : '';
     const weekPct = totalWeeks ? Math.min(100, Math.max(0, Math.round((Math.min(currentWeek, totalWeeks) / totalWeeks) * 100))) : 0;
 
