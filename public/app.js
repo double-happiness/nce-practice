@@ -1286,6 +1286,8 @@ async function renderHome() {
           <button type="button" class="btn primary small" id="homeGuideDismiss">知道了</button>
         </div>`
       : '') +
+    // 雅思备考倒计时（开启后由 renderHomeIeltsCard 异步填充，未开启或接口失败时保持隐藏）
+    '<div id="homeIeltsSlot" class="hidden"></div>' +
     // 今日目标
     `<div class="home-card">
       <div class="hc-title">🎯 今日目标</div>
@@ -1394,6 +1396,7 @@ async function renderHome() {
   box.querySelectorAll('[data-goto]').forEach((el) => {
     el.onclick = () => gotoTab(el.dataset.goto);
   });
+  renderHomeIeltsCard($('homeIeltsSlot')); // 不 await：不拖慢首页其他卡片
   const helpBtn = $('homeHelpBtn');
   if (helpBtn) helpBtn.onclick = () => { window.location.href = '/help.html'; };
   const guideDismiss = $('homeGuideDismiss');
@@ -1461,6 +1464,81 @@ async function renderHome() {
         openLesson(last.book, last.lesson);
       }
     };
+  }
+}
+
+// ---------- 首页雅思倒计时卡 ----------
+// 独立异步加载：未开启雅思备考、或接口失败（后端未就绪 / 离线）时静默不显示，不弹 toast，不影响首页其他卡片。
+// 不走 api()：它失败时会弹 toast，而这里要求完全静默。
+let homeIeltsSeq = 0;
+const HOME_IELTS_PHASE = { foundation: '基础期', skills: '专项期', sprint: '冲刺期' };
+
+async function quietGetJson(url) {
+  const r = await fetch(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
+}
+
+function homeIeltsPhaseName(phase) {
+  if (!phase) return '';
+  if (typeof phase === 'object') return phase.name || HOME_IELTS_PHASE[phase.key] || phase.key || '';
+  return HOME_IELTS_PHASE[phase] || String(phase);
+}
+
+async function renderHomeIeltsCard(slot) {
+  if (!slot) return;
+  const seq = ++homeIeltsSeq; // 首页可能被快速重绘多次，只认最后一次
+  const stale = () => seq !== homeIeltsSeq || !slot.isConnected;
+  try {
+    let prof;
+    try {
+      prof = await quietGetJson('/api/ielts/profile');
+    } catch (e) {
+      return;
+    }
+    if (stale()) return;
+    const p = prof && prof.profile;
+    if (!p || p.active !== true) return;
+    let plan = null;
+    try {
+      plan = await quietGetJson('/api/ielts/plan'); // 计划拿不到时只显示倒计时
+    } catch (e) {
+      plan = null;
+    }
+    if (stale()) return;
+
+    const d = prof.derived || {};
+    const daysLeft = Number(d.daysLeft);
+    const totalWeeks = Number((plan && plan.totalWeeks) || d.totalWeeks) || 0;
+    const currentWeek = Number((plan && plan.currentWeek) || d.currentWeek) || 0;
+    const phase = homeIeltsPhaseName((plan && plan.week && plan.week.phase) || d.phase);
+    const focus = plan && plan.week && plan.week.focus ? String(plan.week.focus) : '';
+    const tasks = plan && plan.today && Array.isArray(plan.today.tasks) ? plan.today.tasks : [];
+    const metCount = tasks.filter((t) => t && (t.met === true || t.done === true)).length;
+    const target = p.target && Number.isFinite(Number(p.target.overall)) ? Number(p.target.overall).toFixed(1) : '';
+    const weekPct = totalWeeks ? Math.min(100, Math.max(0, Math.round((Math.min(currentWeek, totalWeeks) / totalWeeks) * 100))) : 0;
+
+    let big;
+    if (!Number.isFinite(daysLeft)) big = '<div class="hc-big hc-small">雅思备考进行中</div>';
+    else if (daysLeft > 0) big = `<div class="hc-big">${daysLeft} <span class="hc-unit">天后考试</span></div>`;
+    else if (daysLeft === 0) big = '<div class="hc-big hc-small">今天考试，加油！</div>';
+    else big = '<div class="hc-big hc-small">考试日已过，可去改期</div>';
+
+    const lines = [];
+    if (currentWeek && totalWeeks) lines.push(`第 <b>${Math.min(currentWeek, totalWeeks)}</b> / ${totalWeeks} 周${phase ? ' · ' + escapeHtml(phase) : ''}`);
+    if (focus) lines.push(`本周重点：${escapeHtml(focus)}`);
+    if (tasks.length) lines.push(`今日任务 ${metCount} / ${tasks.length} 项完成`);
+
+    slot.className = 'home-card home-ielts-card';
+    slot.innerHTML =
+      `<div class="hc-title">🎯 雅思备考 · ${p.examType === 'G' ? 'G' : 'A'} 类${target ? ' · 目标 ' + escapeHtml(target) : ''}</div>` +
+      big +
+      (totalWeeks ? `<div class="hc-bar"><i style="width:${weekPct}%"></i></div>` : '') +
+      `<div class="hc-sub">${lines.join('<br>') || '按计划推进每天的任务'}</div>` +
+      '<button class="btn primary" type="button" id="homeIeltsBtn">进入雅思备考 →</button>';
+    slot.querySelector('#homeIeltsBtn').onclick = () => gotoTab('ielts');
+  } catch (e) {
+    console.warn('[home] 雅思倒计时卡渲染失败', e); // 只记录，不影响首页
   }
 }
 
