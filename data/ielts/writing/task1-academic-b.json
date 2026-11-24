@@ -1,0 +1,163 @@
+[
+  {
+    "id": "w1a-09",
+    "task": 1,
+    "variant": "A",
+    "topic": "education",
+    "prompt": "The bar chart below shows the number of students who graduated from universities in one country in five subject areas in 2005 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "University graduates by subject area, 2005 and 2020",
+      "unit": "thousand graduates",
+      "categories": ["Business", "Arts and humanities", "Engineering", "Health", "Computer science"],
+      "series": [
+        { "name": "2005", "values": [62, 54, 41, 35, 12] },
+        { "name": "2020", "values": [78, 39, 48, 57, 44] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：商科两年都是毕业生最多的学科；五个学科中四个增长，计算机科学增幅最大，艺术人文是唯一下降的学科",
+      "计算机科学从 1.2 万增至 4.4 万，是原来的三倍多，2020 年只比工程（4.8 万）少 4,000 人",
+      "健康类从 3.5 万增至 5.7 万，排名从第四升到第二；工程小幅增加 7,000 人至 4.8 万",
+      "艺术人文从 5.4 万降至 3.9 万，排名从第二跌到末位",
+      "分组写法：商科、健康、工程这类稳步增长的放一段，计算机科学与艺术人文这两个变化最大、方向相反的放一段"
+    ],
+    "modelAnswer": "The bar chart compares the number of students who graduated from universities in one country in five subject areas in 2005 and 2020.\n\nOverall, business produced the most graduates in both years, and four of the five subjects expanded over the period. Computer science saw by far the most dramatic growth, whereas arts and humanities was the only field to decline.\n\nIn 2005, 62,000 students graduated in business, followed by arts and humanities at 54,000. By 2020, the business figure had risen to 78,000, keeping it well ahead of every other subject. Health saw a substantial increase, from 35,000 to 57,000, which lifted it from fourth to second place. Engineering grew more modestly, by 7,000, to reach 48,000.\n\nThe most striking change was in computer science. With just 12,000 graduates, it was the smallest subject in 2005, but this figure more than tripled to 44,000 by 2020, only 4,000 fewer than engineering. Arts and humanities moved in the opposite direction, falling from 54,000 to 39,000. As a result, this field dropped from the second most popular subject to the least popular of the five.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-10",
+    "task": 1,
+    "variant": "A",
+    "topic": "crime",
+    "prompt": "The bar chart below shows the number of burglaries, vehicle thefts and online fraud cases reported to the police in one city in 2008, 2013, 2018 and 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "bar",
+      "title": "Reported crimes by type, 2008-2023",
+      "unit": "thousand cases",
+      "categories": ["2008", "2013", "2018", "2023"],
+      "series": [
+        { "name": "Burglary", "values": [12.4, 10.1, 7.8, 5.2] },
+        { "name": "Vehicle theft", "values": [9.6, 7, 5.5, 4.9] },
+        { "name": "Online fraud", "values": [1.8, 4.5, 9.2, 16.3] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：入室盗窃和车辆盗窃在每个时间点都下降，网络诈骗则急剧上升，2018 年起成为三类中最多的犯罪",
+      "入室盗窃从 12,400 起降至 5,200 起，不到原来的一半；车辆盗窃从 9,600 起降至 4,900 起，约减半，且 2018 年后降幅明显放缓（5,500 → 4,900）",
+      "网络诈骗从 1,800 起增至 16,300 起，约为原来的 9 倍；2013-2018 年大致翻倍（4,500 → 9,200），2018 年同时超过另外两类",
+      "2023 年网络诈骗是入室盗窃（5,200）的三倍多",
+      "分组写法：两类传统犯罪放一段，网络诈骗单独一段并与之比较"
+    ],
+    "modelAnswer": "The bar chart shows the number of burglaries, vehicle thefts and online fraud cases reported to the police in one city at five-year intervals between 2008 and 2023.\n\nOverall, the two traditional types of crime declined throughout the period, while online fraud rose dramatically. By the end of the period, fraud had become by far the most frequently reported of the three offences.\n\nIn 2008, burglary was the most common crime, with 12,400 reported cases, compared with 9,600 vehicle thefts. Both figures fell at every interval. Burglaries dropped to 7,800 in 2018 and to 5,200 in 2023, less than half the original level. Vehicle theft followed a similar downward path, falling to 5,500 in 2018, although the decline slowed considerably after that and the figure finished at 4,900, roughly half its 2008 level.\n\nOnline fraud showed the opposite trend. Only 1,800 cases were reported in 2008, but this number rose to 4,500 in 2013 and then roughly doubled to 9,200 in 2018, overtaking both burglary and vehicle theft. By 2023, it had reached 16,300, around nine times the 2008 figure and more than three times the number of burglaries.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-11",
+    "task": 1,
+    "variant": "A",
+    "topic": "health",
+    "prompt": "The line graph below shows the percentage of adults in three age groups who smoked in one country between 1980 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Adult smoking rates by age group, 1980-2020",
+      "unit": "%",
+      "categories": ["1980", "1988", "1996", "2004", "2012", "2020"],
+      "series": [
+        { "name": "Aged 18-34", "values": [44, 41, 37, 30, 21, 13] },
+        { "name": "Aged 35-59", "values": [39, 37, 33, 27, 20, 15] },
+        { "name": "Aged 60+", "values": [25, 23, 21, 18, 14, 11] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：三个年龄段吸烟率都持续下降，组间差距明显缩小；18-34 岁起初最高、降幅最大（31 个百分点）",
+      "1980-1996 年下降较慢，各组只降了 4-7 个百分点；1996 年后明显加快",
+      "18-34 岁从 44% 降至 13%，不到 1980 年的三分之一，2020 年低于 35-59 岁（15%），后者成为吸烟率最高的群体",
+      "60 岁以上始终最低，从 25% 降至 11%，减少一半以上；最高与最低组的差距从 19 个百分点缩小到 4 个百分点",
+      "只描述数据，不要加入禁烟令等图表里没有的原因"
+    ],
+    "modelAnswer": "The line graph illustrates the proportion of adults in three age groups who smoked in one country over the forty years from 1980 to 2020.\n\nOverall, smoking rates fell substantially in all three age groups, and the differences between them narrowed considerably. Young adults, who initially smoked the most, recorded the steepest decline.\n\nIn 1980, 44% of people aged 18-34 smoked, compared with 39% of those aged 35-59 and 25% of the over-60s. Over the next sixteen years, the figures for all groups fell only gradually, by between four and seven percentage points.\n\nAfter 1996, however, the decline accelerated, particularly among young adults. Their smoking rate dropped from 37% to 21% in 2012 and then to just 13% in 2020, less than a third of its 1980 level. As a result, this group fell below the 35-59 age group, whose rate dropped to 15% and was the highest of the three by the end of the period. The over-60s smoked the least throughout, with their rate more than halving to 11%. This meant that the gap between the highest and lowest groups shrank from 19 to just 4 percentage points.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-12",
+    "task": 1,
+    "variant": "A",
+    "topic": "globalization",
+    "prompt": "The line graph below shows the value of goods exported from one country to three regions between 1998 and 2018. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "line",
+      "title": "Value of exports by destination region, 1998-2018",
+      "unit": "billion US dollars",
+      "categories": ["1998", "2002", "2006", "2010", "2014", "2018"],
+      "series": [
+        { "name": "Europe", "values": [42, 48, 55, 51, 53, 50] },
+        { "name": "Asia", "values": [15, 22, 34, 47, 60, 72] },
+        { "name": "North America", "values": [28, 30, 31, 29, 32, 34] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：对亚洲的出口持续强劲增长，并在 2010-2014 年间超过欧洲成为最大市场；欧洲早期上升后趋于平稳，北美全程变化不大",
+      "1998 年欧洲是最大市场（420 亿美元），接近亚洲（150 亿）的三倍；2006 年达到峰值 550 亿，之后在 500-530 亿之间波动",
+      "亚洲每个时间点都在增长，2006 年已翻一倍多（340 亿），2018 年达 720 亿，接近 1998 年的五倍",
+      "北美始终在 280-340 亿之间，2018 年不到亚洲的一半",
+      "注意 2010 年时亚洲（470 亿）仍低于欧洲（510 亿），2014 年才超过，不要写成 2010 年就已超过"
+    ],
+    "modelAnswer": "The line graph compares the value of goods that one country exported to Europe, Asia and North America over the twenty years between 1998 and 2018.\n\nOverall, exports to Asia grew strongly throughout the period, and the region replaced Europe as the country's largest market. Sales to Europe levelled off after an early rise, while those to North America remained relatively stable.\n\nIn 1998, Europe was the leading destination, receiving goods worth $42 billion, almost three times the value of exports to Asia ($15 billion). Exports to Europe rose to a peak of $55 billion in 2006 but then dipped to $51 billion in 2010 and fluctuated around this level for the rest of the period, finishing at $50 billion.\n\nAsia, meanwhile, recorded uninterrupted growth. The value of exports to the region more than doubled to $34 billion by 2006 and overtook the European figure at some point between 2010 and 2014. By 2018, it had reached $72 billion, almost five times its 1998 level. Exports to North America, on the other hand, changed relatively little, ranging between $28 billion and $34 billion. In the final year, this figure was less than half that for Asia.",
+    "modelBand": 7
+  },
+  {
+    "id": "w1a-13",
+    "task": 1,
+    "variant": "A",
+    "topic": "government",
+    "prompt": "The pie chart below shows how the government of one country divided its total spending between different areas in 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "pie",
+      "title": "Government spending by area (2023)",
+      "unit": "%",
+      "categories": ["Pensions and welfare", "Health", "Education", "Debt interest", "Defence", "Transport", "Other"],
+      "series": [
+        { "name": "Share of total spending", "values": [34, 20, 13, 9, 6, 5, 13] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：养老金和福利是最大支出项（约三分之一）；它与医疗、教育三项合计 67%，约占三分之二；债务利息、国防、交通都不到十分之一",
+      "养老金和福利 34%，略高于医疗与教育之和（33%）；医疗 20% 正好五分之一，教育 13% 约为医疗的三分之二",
+      "债务利息 9%，是国防（6%）的 1.5 倍、接近交通（5%，最低）的两倍；三者合计 20%，与医疗相同",
+      "Other 占 13%，与教育相同；注意 Other 不属于「不到十分之一」的小项",
+      "饼图只有一个时间点，写占比、排序、倍数和合计，不要写上升下降"
+    ],
+    "modelAnswer": "The pie chart shows how the total spending of one country's government was divided between seven areas in 2023.\n\nOverall, pensions and welfare accounted for by far the largest share of the budget. Together with health and education, this area made up around two-thirds of all spending, while debt interest, defence and transport each represented less than a tenth.\n\nPensions and welfare took up 34% of government expenditure, slightly more than health and education combined. Health was the second-largest area, at exactly a fifth of the total, while education received 13%, roughly two-thirds of the proportion spent on health. Altogether, these three areas absorbed 67% of the budget.\n\nAmong the remaining named areas, interest payments on government debt were the most significant, at 9%. This was one and a half times the share allocated to defence (6%) and almost double that for transport, which accounted for just 5%, the lowest figure in the chart. Notably, debt interest, defence and transport together made up 20% of spending, the same proportion as health. The remaining 13% fell into the other category, equal to the share for education.",
+    "modelBand": 7
+  },
+  {
+    "id": "w1a-14",
+    "task": 1,
+    "variant": "A",
+    "topic": "science",
+    "prompt": "The table below shows spending on research and development (R&D) in one country, by source of funding, in 2000, 2010 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "table",
+      "title": "Research and development spending by source of funding",
+      "unit": "billion US dollars",
+      "categories": ["2000", "2010", "2020"],
+      "series": [
+        { "name": "Business", "values": [18.5, 27.4, 41.2] },
+        { "name": "Government", "values": [9.8, 12.1, 12.6] },
+        { "name": "Universities", "values": [3.2, 4.6, 5.9] },
+        { "name": "Overseas sources", "values": [1.1, 2.3, 4.4] },
+        { "name": "Total", "values": [32.6, 46.4, 64.1] }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：研发总支出 20 年间接近翻倍（326 亿 → 641 亿美元）；企业每年都是最大资金来源且比重上升，政府投入只小幅增加",
+      "企业从 185 亿增至 412 亿，增长一倍多；2000 年占总额一半以上，2020 年接近三分之二",
+      "政府前十年从 98 亿增至 121 亿，之后几乎停滞（2020 年 126 亿）；企业投入由约为政府的两倍变为三倍多",
+      "两个最小来源也在增长：大学从 32 亿增至 59 亿，接近翻倍；海外来源从 11 亿增至 44 亿，正好翻两番，相对增幅最大",
+      "Total 行可直接用于概括总体趋势，不必自己再算各项合计"
+    ],
+    "modelAnswer": "The table shows how much was spent on research and development (R&D) in one country in 2000, 2010 and 2020, broken down by four sources of funding.\n\nOverall, total R&D spending almost doubled over the twenty-year period. Businesses were the main source of funding in every year, and their dominance grew, whereas government funding increased only slightly.\n\nTotal expenditure rose from $32.6 billion in 2000 to $46.4 billion in 2010 and $64.1 billion in 2020. Business investment accounted for more than half of this total at the start, at $18.5 billion, and it then more than doubled to $41.2 billion, close to two-thirds of all spending. Government funding, by contrast, grew from $9.8 billion to $12.1 billion in the first decade but barely changed after that, reaching only $12.6 billion in 2020. As a result, business contributions, which had been almost twice the government figure in 2000, were more than three times as large by 2020.\n\nThe two smallest sources also expanded. University funding nearly doubled, from $3.2 billion to $5.9 billion, while money from overseas grew fastest in relative terms, quadrupling from $1.1 billion to $4.4 billion.",
+    "modelBand": 7.5
+  }
+]
