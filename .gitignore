@@ -13,6 +13,9 @@ data/words.json
 data/exams.json
 data/*.tmp.*
 
+# 雅思备考私有资料（用户自有资料，版权原因不入库；schema 同 data/ielts/ 公共分片）
+data/ielts/local/
+
 # 系统/日志
 .DS_Store
 *.log
