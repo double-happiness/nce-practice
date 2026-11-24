@@ -1,0 +1,86 @@
+[
+  {
+    "id": "w1g-07",
+    "task": 1,
+    "variant": "G",
+    "tone": "formal",
+    "prompt": "You recently stayed at a hotel and, after returning home, realised that you had left a valuable item in your room. Write a letter to the hotel manager. In your letter",
+    "bullets": [
+      "give details of your stay",
+      "describe the item you left behind",
+      "explain what you would like the hotel to do"
+    ],
+    "modelAnswer": "Dear Sir or Madam,\n\nI am writing to ask for your help in recovering an item that I left behind during my recent stay. I was in Room 412 from 8 to 11 October while attending a conference nearby, and the booking was under the name Michael Grant.\n\nUnfortunately, I left in a hurry to catch an early train, and I have since realised that I did not pack my camera. It is a black digital camera in a small grey case, and I believe I left it in the top drawer of the bedside table. Although the camera itself is worth around £600, the memory card inside is far more valuable to me, as it contains the only photographs of my daughter's graduation ceremony.\n\nIn view of this, I would be most grateful if your staff could check whether it has been handed in. If it has been found, could you please send it to my home address by recorded delivery? I will, of course, pay the postage in advance.\n\nI look forward to hearing from you.\n\nYours faithfully,\nMichael Grant",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-08",
+    "task": 1,
+    "variant": "G",
+    "tone": "formal",
+    "prompt": "You have seen an advertisement for a part-time job as a weekend guide at a local museum. Write a letter to the museum's manager, Mr Patel. In your letter",
+    "bullets": [
+      "say which job you are applying for and where you saw it",
+      "describe your relevant experience and skills",
+      "explain when you are available for work"
+    ],
+    "modelAnswer": "Dear Mr Patel,\n\nI am writing to apply for the position of weekend guide at the City History Museum, which I saw advertised in the Westford Gazette on 2 June. As a regular visitor, I would be delighted to work there.\n\nAs for my experience, I am currently in the final year of a history degree at Westford University, where I have specialised in the industrial history of the region. For the past two summers, I have also worked as a guide at Hartley Castle, leading groups of up to thirty visitors, including school parties and overseas tourists. This has taught me to present information clearly and to deal confidently with unexpected questions. In addition, I speak fluent Spanish, which may be useful for international visitors.\n\nRegarding availability, I am free every Saturday and Sunday throughout the year, and I could work additional days during the university holidays from late June to September. As I live nearby, I could also cover occasional weekday shifts at short notice.\n\nI have enclosed my CV and would be happy to attend an interview at your convenience.\n\nYours sincerely,\nHannah Lewis",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-09",
+    "task": 1,
+    "variant": "G",
+    "tone": "semi-formal",
+    "prompt": "The heating in the flat you rent has stopped working properly. Write a letter to your landlord. In your letter",
+    "bullets": [
+      "describe the problem with the heating",
+      "explain how it is affecting you",
+      "say what you would like your landlord to do"
+    ],
+    "modelAnswer": "Dear Mrs Turner,\n\nI hope you are well. I am writing about a problem with the heating in my flat at 27 Station Road, which I would be grateful if you could look into soon.\n\nSince last Tuesday, the boiler has been switching itself off several times a day. The radiators in the bedroom and living room only get slightly warm, and there is no hot water in the mornings. I have tried resetting the boiler, but the problem keeps coming back.\n\nAs you can imagine, this has made life quite difficult now that temperatures are dropping below freezing. I've had to buy an electric heater, which is expensive to run, and I've been showering at the gym before work. I'm also worried that my seven-year-old son might fall ill.\n\nWith this in mind, would it be possible to arrange for an engineer to inspect the boiler this week? I work from home on Thursdays and Fridays, so either day would be ideal, but I could also leave a key with my neighbour at number 25.\n\nThank you in advance for your help.\n\nKind regards,\nRavi Kumar",
+    "modelBand": 7
+  },
+  {
+    "id": "w1g-10",
+    "task": 1,
+    "variant": "G",
+    "tone": "semi-formal",
+    "prompt": "You have just finished an evening course at a local college. Write a letter to your course tutor. In your letter",
+    "bullets": [
+      "thank your tutor for the course",
+      "explain how the course has helped you",
+      "ask for advice about what to study next"
+    ],
+    "modelAnswer": "Dear Dr Reed,\n\nNow that the evening photography course has finished, I wanted to write and thank you for everything you taught us over the past ten weeks. I always looked forward to Wednesday evenings, and your patient feedback on our weekly assignments made a real difference to my progress.\n\nOn a practical level, the course has already paid off. I run a small online shop selling handmade candles, and before the course my product photos often looked dark and blurry. After your sessions on natural lighting and composition, I reshot the whole catalogue, and my sales in March were nearly 30% higher than in February. Several customers have even commented on how attractive the pictures are.\n\nLooking ahead, I would like to develop my skills further, and I was wondering whether you could recommend a suitable next step. I noticed that the college offers both an advanced portrait course and a certificate in commercial photography this autumn. Which of these do you think would suit someone with my aims?\n\nThank you once again for such an enjoyable course.\n\nBest regards,\nMei Lin",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1g-11",
+    "task": 1,
+    "variant": "G",
+    "tone": "informal",
+    "prompt": "You borrowed something from a friend, but it was damaged while you were using it. Write a letter to your friend. In your letter",
+    "bullets": [
+      "explain what you borrowed and why",
+      "describe what happened to it",
+      "say what you will do to make up for it"
+    ],
+    "modelAnswer": "Dear Sam,\n\nI'm afraid I've got some bad news, and I'd rather you heard it from me first. You know the tent you kindly lent me for our camping trip to the Lake District last weekend, since mine was too small for the four of us? Well, it didn't survive the trip in one piece.\n\nAs for what happened, everything was fine until Saturday night, when a huge storm blew in. The wind was so strong that one of the poles snapped in half, and the rain got in through a tear in the side. We spent half the night holding the whole thing up with our hands, which was funny afterwards but definitely not at the time!\n\nAnyway, I feel terrible about it, especially as I know how much you love that tent. I've already looked online, and the same model is still available for £180, so I'd like to order you a brand-new one this week. If you'd rather choose a different one, just tell me and I'll pay for that instead.\n\nSorry again, and let me know what you'd prefer.\n\nBest wishes,\nChris",
+    "modelBand": 7
+  },
+  {
+    "id": "w1g-12",
+    "task": 1,
+    "variant": "G",
+    "tone": "informal",
+    "prompt": "You have recently moved to a new city for work. Write a letter to a friend. In your letter",
+    "bullets": [
+      "describe your new home",
+      "tell your friend what you like about the city",
+      "invite your friend to come and visit"
+    ],
+    "modelAnswer": "Dear Rachel,\n\nSorry it's taken me so long to write! It's been a crazy few weeks since I moved to Bristol for my new job, but I'm finally settled in and loving it.\n\nThe flat itself is on the top floor of an old Victorian house, about ten minutes' walk from the harbour. It's quite small, with just one bedroom and a tiny kitchen, but the living room has huge windows and gets the sun all afternoon. Best of all, there's a little balcony where I've already started growing tomatoes and herbs.\n\nAs for the city, I couldn't have picked a better place. There's always something going on, from street markets at the weekend to live music in the pubs, and the countryside is only a short bus ride away. People are really friendly, too; my neighbours invited me round for dinner in my first week!\n\nAnyway, why don't you come and stay one weekend next month? The sofa bed is surprisingly comfy, and I'd love to show you around. Just let me know which dates work for you.\n\nLots of love,\nJo",
+    "modelBand": 7.5
+  }
+]
