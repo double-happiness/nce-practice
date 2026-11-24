@@ -828,6 +828,29 @@ test('history: speaking 按 ts 倒序', async () => {
   assert.ok(items.every((x) => x.itemId && x.part));
 });
 
+test('history: 畸形或越界的记录（如导入的备份）不返回、不参与均值', async () => {
+  const before = isOk(await get('/api/ielts/summary'));
+  patchTempIelts((j) => {
+    j.writings = (j.writings || []).concat([
+      { id: 'bad-1', promptId: 'w2-edu-01', task: 2, text: 'x', band: 99, ts: Date.now() + 1000 },
+      { id: 'bad-2', promptId: 'w2-edu-01', task: 2, text: 123, band: 6, ts: Date.now() + 1001 },
+    ]);
+    j.speakings = (j.speakings || []).concat([{ id: 'bad-3', itemId: 's1-hometown', part: 1, band: 6, notes: { x: 1 }, ts: Date.now() + 1002 }]);
+  });
+  const w = isOk(await get('/api/ielts/history?type=writing&limit=500'));
+  const ids = (Array.isArray(w) ? w : w.items).map((r) => r.id);
+  assert.ok(!ids.includes('bad-1') && !ids.includes('bad-2'), '畸形写作记录不应返回');
+  const s = isOk(await get('/api/ielts/history?type=speaking&limit=500'));
+  assert.ok(!(Array.isArray(s) ? s : s.items).some((r) => r.id === 'bad-3'), '畸形口语记录不应返回');
+  const after = isOk(await get('/api/ielts/summary'));
+  assert.deepStrictEqual(after.writing, before.writing, 'summary 不受畸形记录影响');
+  // 清掉注入的畸形记录，避免影响后续备份用例对原始文件条数的比较
+  patchTempIelts((j) => {
+    j.writings = (j.writings || []).filter((r) => !String(r.id).startsWith('bad-'));
+    j.speakings = (j.speakings || []).filter((r) => !String(r.id).startsWith('bad-'));
+  });
+});
+
 test('history: type 缺失或非法返回 400', async () => {
   isErr400(await get('/api/ielts/history'), '缺 type');
   isErr400(await get('/api/ielts/history?type=listening'), 'type=listening');
