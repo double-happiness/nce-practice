@@ -282,7 +282,303 @@ function validate() {
     }
   }
 
+  // 雅思备考内容（data/ielts/，可用 IELTS_DATA_DIR 覆盖）
+  const ieltsResult = validateIelts(require('../lib/ielts').getContent());
+  errors.push(...ieltsResult.errors);
+  warnings.push(...ieltsResult.warnings);
+
   return { errors, warnings };
+}
+
+// ---------------- 雅思内容校验（设计文档 §3、§7）----------------
+const IELTS_TOPICS = new Set(['academic', 'education', 'environment', 'technology', 'health', 'work', 'crime', 'media', 'urban', 'globalization', 'government', 'culture', 'science']);
+const IELTS_CEFRS = new Set(['B1', 'B2', 'C1', 'C2']);
+const IELTS_QTYPES = new Set(['opinion', 'discussion', 'problem-solution', 'adv-disadv', 'two-part']);
+const IELTS_CHART_TYPES = new Set(['bar', 'line', 'pie', 'table']);
+const IELTS_TONES = new Set(['formal', 'semi-formal', 'informal']);
+const IELTS_CATEGORIES = new Set(['person', 'place', 'object', 'event', 'experience', 'media']);
+const IELTS_PLAN_TABS = new Set(['home', 'learn', 'practice', 'dictionary', 'dictation', 'exam', 'transform', 'dialogue', 'review', 'vocab', 'words', 'globalvocab', 'comprehension', 'stats', 'plan', 'level', 'ielts', 'ielts:plan', 'ielts:vocab', 'ielts:writing', 'ielts:speaking', 'ielts:history']);
+const IELTS_PLAN_SOURCES = new Set(['quiz', 'transform', 'words', 'vocab', 'dictation', 'dialogue', 'lesson', 'comprehension', 'ielts-writing', 'ielts-speaking', 'ielts-vocab']);
+const IELTS_RUBRIC_KEYS = {
+  task1A: ['TA', 'CC', 'LR', 'GRA'],
+  task1G: ['TA', 'CC', 'LR', 'GRA'],
+  task2: ['TR', 'CC', 'LR', 'GRA'],
+};
+const IELTS_SPEAKING_RUBRIC_KEYS = ['FC', 'LR', 'GRA', 'P'];
+const IELTS_MIN_MODEL_WORDS = { 1: 150, 2: 250 };
+
+const isNonEmptyStr = (v) => typeof v === 'string' && v.trim() !== '';
+const isBandNum = (v) => typeof v === 'number' && Number.isFinite(v) && v >= 0 && v <= 9 && Number.isInteger(v * 2);
+const isStrArray = (v) => Array.isArray(v) && v.every(isNonEmptyStr);
+
+/**
+ * 校验雅思内容。content 为 lib/ielts.getContent() 的结构；内容目录为空时不报错。
+ * 返回 { errors, warnings }，消息统一以 ielts/ 开头便于定位。
+ */
+function validateIelts(content) {
+  const errors = [];
+  const warnings = [];
+  const { countWords, originOf } = require('../lib/ielts');
+  const at = (item) => `ielts/${originOf(item)}`;
+
+  (content.issues || []).forEach((m) => errors.push(`ielts/${m}`));
+
+  // ---- 词汇：必填、枚举、normKey 去重 ----
+  const vocabSeen = new Map();
+  content.vocab.forEach((v, i) => {
+    const where = `${at(v)} vocab[${i}] word=${v.word || '?'}`;
+    if (!isNonEmptyStr(v.word)) errors.push(`${where}: 缺少 word`);
+    if (!isNonEmptyStr(v.cn)) errors.push(`${where}: 缺少 cn`);
+    if (!isNonEmptyStr(v.pos)) warnings.push(`${where}: 缺少 pos`);
+    if (!isNonEmptyStr(v.phon)) warnings.push(`${where}: 缺少 phon`);
+    if (!IELTS_TOPICS.has(v.topic)) errors.push(`${where}: topic 非法 (${v.topic})`);
+    if (!IELTS_CEFRS.has(v.cefr)) errors.push(`${where}: cefr 必须是 B1 / B2 / C1 / C2 (${v.cefr})`);
+    if (v.academic != null && typeof v.academic !== 'boolean') errors.push(`${where}: academic 必须是 true / false`);
+    if (!isNonEmptyStr(v.eg)) warnings.push(`${where}: 缺少 eg 例句`);
+    else if (!isNonEmptyStr(v.egCn)) warnings.push(`${where}: 缺少 egCn 例句译文`);
+    if (v.collocations != null && !isStrArray(v.collocations)) errors.push(`${where}: collocations 必须是非空字符串数组`);
+    if (v.key) {
+      if (vocabSeen.has(v.key)) errors.push(`${where}: 词重复（normKey=${v.key}，首次出现于 ${vocabSeen.get(v.key)}）`);
+      else vocabSeen.set(v.key, at(v));
+    }
+  });
+
+  // ---- 写作与口语：id 全局唯一 ----
+  const idSeen = new Map();
+  const checkId = (item, where) => {
+    if (!isNonEmptyStr(item.id)) {
+      errors.push(`${where}: 缺少 id`);
+      return;
+    }
+    if (!/^[A-Za-z0-9_-]{1,64}$/.test(item.id)) errors.push(`${where}: id 只能含字母、数字、- 和 _`);
+    if (idSeen.has(item.id)) errors.push(`${where}: id 重复（首次出现于 ${idSeen.get(item.id)}）`);
+    else idSeen.set(item.id, at(item));
+  };
+
+  content.writing.forEach((w, i) => {
+    const where = `${at(w)} writing[${i}] id=${w.id || '?'}`;
+    checkId(w, where);
+    if (w.task !== 1 && w.task !== 2) {
+      errors.push(`${where}: task 必须是 1 或 2`);
+      return;
+    }
+    if (!isNonEmptyStr(w.prompt)) errors.push(`${where}: 缺少 prompt`);
+    if (!isNonEmptyStr(w.modelAnswer)) {
+      errors.push(`${where}: 缺少 modelAnswer`);
+    } else {
+      const n = countWords(w.modelAnswer);
+      const min = IELTS_MIN_MODEL_WORDS[w.task];
+      if (n < min) errors.push(`${where}: 范文仅 ${n} 词，Task ${w.task} 至少 ${min} 词`);
+    }
+    // JSON 里 7.0 会存成 7，按数值判断即可
+    if (!isBandNum(w.modelBand)) errors.push(`${where}: modelBand 必须是 0–9、步长 0.5 的数字`);
+
+    if (w.task === 2) {
+      if (!IELTS_TOPICS.has(w.topic)) errors.push(`${where}: topic 非法 (${w.topic})`);
+      if (!IELTS_QTYPES.has(w.qtype)) errors.push(`${where}: qtype 必须是 ${[...IELTS_QTYPES].join(' / ')} (${w.qtype})`);
+      if (!isNonEmptyStr(w.promptCn)) warnings.push(`${where}: 缺少 promptCn`);
+      for (const f of ['ideas', 'outline', 'phrases']) {
+        if (w[f] != null && !isStrArray(w[f])) errors.push(`${where}: ${f} 必须是非空字符串数组`);
+        else if (w[f] == null) warnings.push(`${where}: 缺少 ${f}`);
+      }
+      return;
+    }
+
+    if (w.variant === 'A') {
+      if (w.topic != null && !isNonEmptyStr(w.topic)) errors.push(`${where}: topic 必须是字符串`);
+      else if (w.topic == null) warnings.push(`${where}: 缺少 topic`);
+      if (w.keyFeatures != null && !isStrArray(w.keyFeatures)) errors.push(`${where}: keyFeatures 必须是非空字符串数组`);
+      const c = w.chart;
+      if (!c || typeof c !== 'object' || Array.isArray(c)) {
+        errors.push(`${where}: 缺少 chart`);
+        return;
+      }
+      if (!IELTS_CHART_TYPES.has(c.type)) errors.push(`${where}: chart.type 必须是 bar / line / pie / table (${c.type})`);
+      if (!isNonEmptyStr(c.title)) warnings.push(`${where}: chart 缺少 title`);
+      if (!Array.isArray(c.categories) || !c.categories.length) {
+        errors.push(`${where}: chart.categories 不能为空`);
+        return;
+      }
+      if (!Array.isArray(c.series) || !c.series.length) {
+        errors.push(`${where}: chart.series 不能为空`);
+        return;
+      }
+      if (c.type === 'pie' && c.series.length !== 1) errors.push(`${where}: pie 图只能有 1 个 series（实际 ${c.series.length}）`);
+      c.series.forEach((s, j) => {
+        const sw = `${where}.chart.series[${j}]`;
+        if (!s || !isNonEmptyStr(s.name)) errors.push(`${sw}: 缺少 name`);
+        if (!s || !Array.isArray(s.values)) {
+          errors.push(`${sw}: 缺少 values`);
+          return;
+        }
+        if (s.values.length !== c.categories.length) {
+          errors.push(`${sw}: values 长度 ${s.values.length} 与 categories 长度 ${c.categories.length} 不一致`);
+        }
+        if (s.values.some((x) => typeof x !== 'number' || !Number.isFinite(x))) errors.push(`${sw}: values 必须全是数字`);
+      });
+    } else if (w.variant === 'G') {
+      // G 类书信没有 topic 字段
+      if (!IELTS_TONES.has(w.tone)) errors.push(`${where}: tone 必须是 formal / semi-formal / informal (${w.tone})`);
+      if (!isStrArray(w.bullets) || !w.bullets.length) errors.push(`${where}: bullets 必须是非空字符串数组`);
+    } else {
+      errors.push(`${where}: Task 1 的 variant 必须是 A 或 G (${w.variant})`);
+    }
+  });
+
+  const checkQA = (list, where, field) => {
+    if (!Array.isArray(list) || !list.length) {
+      errors.push(`${where}: ${field} 不能为空`);
+      return;
+    }
+    list.forEach((x, j) => {
+      if (!x || !isNonEmptyStr(x.q)) errors.push(`${where}.${field}[${j}]: 缺少 q`);
+      if (!x || !isNonEmptyStr(x.sample)) errors.push(`${where}.${field}[${j}]: 缺少 sample`);
+    });
+  };
+
+  content.speaking.forEach((s, i) => {
+    const where = `${at(s)} speaking[${i}] id=${s.id || '?'}`;
+    checkId(s, where);
+    if (s.part === 1) {
+      if (!isNonEmptyStr(s.topic)) errors.push(`${where}: 缺少 topic`);
+      if (!isNonEmptyStr(s.topicCn)) warnings.push(`${where}: 缺少 topicCn`);
+      checkQA(s.questions, where, 'questions');
+    } else if (s.part === 2) {
+      if (!IELTS_CATEGORIES.has(s.category)) errors.push(`${where}: category 必须是 ${[...IELTS_CATEGORIES].join(' / ')} (${s.category})`);
+      const cc = s.cueCard;
+      if (!cc || !isNonEmptyStr(cc.title) || !isStrArray(cc.points) || !cc.points.length || !isNonEmptyStr(cc.final)) {
+        errors.push(`${where}: cueCard 须含 title、非空 points 与 final`);
+      }
+      if (!isNonEmptyStr(s.sample)) errors.push(`${where}: 缺少 sample`);
+      checkQA(s.part3, where, 'part3');
+    } else {
+      errors.push(`${where}: part 必须是 1 或 2（Part 3 放在 Part 2 条目的 part3 里）`);
+    }
+  });
+
+  const hasContent = content.vocab.length || content.writing.length || content.speaking.length;
+
+  // ---- 评分维度：四个维度齐全 ----
+  const checkDims = (dims, keys, where) => {
+    if (!Array.isArray(dims)) {
+      errors.push(`${where}: 必须是数组`);
+      return;
+    }
+    const got = dims.map((d) => d && d.key);
+    const missing = keys.filter((k) => !got.includes(k));
+    const extra = got.filter((k) => !keys.includes(k));
+    if (missing.length) errors.push(`${where}: 缺少维度 ${missing.join(', ')}`);
+    if (extra.length) errors.push(`${where}: 多余维度 ${extra.join(', ')}（应为 ${keys.join(' / ')}）`);
+    dims.forEach((d, j) => {
+      const dw = `${where}[${j}] key=${(d && d.key) || '?'}`;
+      if (!d || !isNonEmptyStr(d.name) || !isNonEmptyStr(d.nameCn)) errors.push(`${dw}: 缺少 name 或 nameCn`);
+      if (!d || !Array.isArray(d.levels) || !d.levels.length) {
+        errors.push(`${dw}: levels 不能为空`);
+      } else if (d.levels.some((l) => !l || !isBandNum(l.band) || !isNonEmptyStr(l.desc))) {
+        errors.push(`${dw}: levels 每项须有数字 band 和非空 desc`);
+      }
+      if (d && d.checklist != null && !isStrArray(d.checklist)) errors.push(`${dw}: checklist 必须是非空字符串数组`);
+    });
+  };
+  const r = content.rubrics;
+  if (r) {
+    if (!r.writing || typeof r.writing !== 'object') errors.push('ielts/rubrics.json: 缺少 writing');
+    else for (const [k, keys] of Object.entries(IELTS_RUBRIC_KEYS)) checkDims(r.writing[k], keys, `ielts/rubrics.json writing.${k}`);
+    checkDims(r.speaking, IELTS_SPEAKING_RUBRIC_KEYS, 'ielts/rubrics.json speaking');
+  } else if (content.writing.length || content.speaking.length) {
+    warnings.push('ielts/rubrics.json: 文件缺失，写作 / 口语自评将没有分档描述');
+  }
+
+  // ---- 26 周计划 ----
+  const plan = content.plan;
+  if (plan) validateIeltsPlan(plan, errors, warnings);
+  else if (hasContent || r) warnings.push('ielts/plan.json: 文件缺失，/api/ielts/plan 将不可用');
+
+  return { errors, warnings };
+}
+
+function validateIeltsPlan(plan, errors, warnings) {
+  const P = 'ielts/plan.json';
+  const N = plan.templateWeeks;
+  if (N !== 26) errors.push(`${P}: templateWeeks 必须是 26（实际 ${N}）`);
+  const total = Number.isInteger(N) && N > 0 ? N : 26;
+
+  // 阶段：周区间连续覆盖 1..N、互不重叠
+  const phases = Array.isArray(plan.phases) ? plan.phases : [];
+  if (!phases.length) errors.push(`${P}: phases 不能为空`);
+  const phaseOfWeek = new Map();
+  phases.forEach((p, i) => {
+    const where = `${P} phases[${i}] key=${(p && p.key) || '?'}`;
+    if (!p || !isNonEmptyStr(p.key) || !isNonEmptyStr(p.name)) errors.push(`${where}: 缺少 key 或 name`);
+    if (!p || !Array.isArray(p.weeks) || p.weeks.length !== 2 || !Number.isInteger(p.weeks[0]) || !Number.isInteger(p.weeks[1]) || p.weeks[0] > p.weeks[1]) {
+      errors.push(`${where}: weeks 必须是 [起始周, 结束周]`);
+      return;
+    }
+    for (let w = p.weeks[0]; w <= p.weeks[1]; w++) {
+      if (phaseOfWeek.has(w)) errors.push(`${where}: 第 ${w} 周与阶段 ${phaseOfWeek.get(w)} 重叠`);
+      else phaseOfWeek.set(w, p.key);
+    }
+  });
+  for (let w = 1; w <= total; w++) if (!phaseOfWeek.has(w)) errors.push(`${P}: 第 ${w} 周不属于任何阶段`);
+
+  // 周：共 N 周、编号 1..N 各一次，任务字段合法
+  const weeks = Array.isArray(plan.weeks) ? plan.weeks : [];
+  if (weeks.length !== total) errors.push(`${P}: weeks 应有 ${total} 周（实际 ${weeks.length}）`);
+  const weekSeen = new Set();
+  weeks.forEach((wk, i) => {
+    const where = `${P} weeks[${i}] week=${(wk && wk.week) || '?'}`;
+    if (!wk || !Number.isInteger(wk.week) || wk.week < 1 || wk.week > total) {
+      errors.push(`${where}: week 必须是 1–${total} 的整数`);
+      return;
+    }
+    if (weekSeen.has(wk.week)) errors.push(`${where}: week 重复`);
+    weekSeen.add(wk.week);
+    if (wk.phase !== phaseOfWeek.get(wk.week)) errors.push(`${where}: phase=${wk.phase} 与阶段划分（${phaseOfWeek.get(wk.week)}）不一致`);
+    if (!isNonEmptyStr(wk.focus)) errors.push(`${where}: 缺少 focus`);
+    if (typeof wk.tips !== 'string') errors.push(`${where}: tips 必须是字符串`);
+    const tasks = Array.isArray(wk.tasks) ? wk.tasks : [];
+    if (!tasks.length) {
+      errors.push(`${where}: tasks 不能为空`);
+      return;
+    }
+    if (tasks.length < 5 || tasks.length > 8) warnings.push(`${where}: 任务 ${tasks.length} 项，建议每周 5–8 项`);
+    const keySeen = new Set();
+    tasks.forEach((t, j) => {
+      const tw = `${where}.tasks[${j}] key=${(t && t.key) || '?'}`;
+      if (!t || !/^[A-Za-z0-9_-]{1,40}$/.test(t.key || '')) {
+        errors.push(`${tw}: key 只能含字母、数字、- 和 _（1–40 字符）`);
+        return;
+      }
+      if (keySeen.has(t.key)) errors.push(`${tw}: 同一周内 key 重复`);
+      keySeen.add(t.key);
+      if (!isNonEmptyStr(t.label)) errors.push(`${tw}: 缺少 label`);
+      if (t.kind !== 'internal' && t.kind !== 'external') errors.push(`${tw}: kind 必须是 internal 或 external`);
+      if (!IELTS_PLAN_TABS.has(t.tab)) errors.push(`${tw}: tab 非法 (${t.tab})`);
+      if (t.per != null && t.per !== 'day' && t.per !== 'week') errors.push(`${tw}: per 必须是 day 或 week`);
+      if (t.kind === 'internal' && (!Array.isArray(t.source) || !t.source.length)) errors.push(`${tw}: internal 任务必须有非空 source`);
+      if (t.source != null) {
+        const bad = Array.isArray(t.source) ? t.source.filter((s) => !IELTS_PLAN_SOURCES.has(s)) : ['(非数组)'];
+        if (bad.length) errors.push(`${tw}: source 非法 (${bad.join(', ')})`);
+      }
+      if (t.target != null || t.kind === 'internal') {
+        if (!Number.isInteger(t.target) || t.target <= 0) errors.push(`${tw}: target 必须是正整数`);
+      }
+      if (!isNonEmptyStr(t.unit)) warnings.push(`${tw}: 缺少 unit`);
+      if (typeof t.minutes !== 'number' || !Number.isFinite(t.minutes) || t.minutes < 0) errors.push(`${tw}: minutes 必须是非负数字`);
+    });
+  });
+
+  // 检查点
+  (Array.isArray(plan.checkpoints) ? plan.checkpoints : []).forEach((cp, i) => {
+    const where = `${P} checkpoints[${i}]`;
+    if (!cp || !Number.isInteger(cp.week) || cp.week < 1 || cp.week > total) errors.push(`${where}: week 必须是 1–${total} 的整数`);
+    if (!cp || !isNonEmptyStr(cp.name)) errors.push(`${where}: 缺少 name`);
+    const c = (cp && cp.criteria) || {};
+    if (!['B1', 'B2', 'C1'].includes(c.vocabBand)) errors.push(`${where}: criteria.vocabBand 必须是 B1 / B2 / C1`);
+    if (typeof c.vocabCoverageMin !== 'number' || c.vocabCoverageMin < 0 || c.vocabCoverageMin > 100) errors.push(`${where}: criteria.vocabCoverageMin 必须是 0–100`);
+    if (!isBandNum(c.writingMin)) errors.push(`${where}: criteria.writingMin 必须是 0–9、步长 0.5`);
+    if (!isBandNum(c.speakingMin)) errors.push(`${where}: criteria.speakingMin 必须是 0–9、步长 0.5`);
+  });
 }
 
 if (require.main === module) {
@@ -294,4 +590,4 @@ if (require.main === module) {
   process.exit(errors.length ? 1 : 0);
 }
 
-module.exports = { validate };
+module.exports = { validate, validateIelts };
