@@ -1,0 +1,162 @@
+[
+  {
+    "id": "l1-sports-centre",
+    "part": 1,
+    "title": "Joining a sports centre",
+    "titleCn": "电话办理运动中心会员",
+    "intro": "Part 1. You will hear a man phoning a sports centre because he wants to become a member.",
+    "speakers": [
+      { "id": "rec", "name": "Receptionist", "gender": "female" },
+      { "id": "mark", "name": "Mark", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "rec", "text": "Good morning, Riverside Sports Centre. Emma speaking. How can I help you?" },
+      { "speaker": "mark", "text": "Hi. I'd like to join the sports centre, please. I've just moved to the area, and a friend told me you have a really good gym." },
+      { "speaker": "rec", "text": "That's great. I can take your details over the phone now, and then you just need to come in and collect your membership card. Can I start with your name?" },
+      { "speaker": "mark", "text": "Sure. It's Mark Brennan." },
+      { "speaker": "rec", "text": "Could you spell your surname for me, please?" },
+      { "speaker": "mark", "text": "Yes, it's B, R, E, double N, A, N. Brennan." },
+      { "speaker": "rec", "text": "Thank you, Mr Brennan. And what's your date of birth?" },
+      { "speaker": "mark", "text": "It's the twenty-third of July, nineteen ninety-four." },
+      { "speaker": "rec", "text": "So that's the twenty-third of June, nineteen ninety-four." },
+      { "speaker": "mark", "text": "No, sorry, July. The twenty-third of July." },
+      { "speaker": "rec", "text": "July, sorry. I've changed it. And what's your address?" },
+      { "speaker": "mark", "text": "It's 47 Kingsley Road. That's K, I, N, G, S, L, E, Y." },
+      { "speaker": "rec", "text": "Lovely. And can I ask what you do for a living? We ask everyone, because some local employers have a discount agreement with us." },
+      { "speaker": "mark", "text": "I'm a pharmacist. I work at the hospital on the other side of town." },
+      { "speaker": "rec", "text": "Oh, then you might get a discount through the hospital later on. Now, we have three types of membership. Bronze is just for the gym. Silver includes the gym and all the fitness classes. And Gold includes everything, including the swimming pool." },
+      { "speaker": "mark", "text": "Hmm. I'm not really a swimmer, to be honest, so I don't think I need Gold. But I'd like to try some of the classes, so I'll go for Silver." },
+      { "speaker": "rec", "text": "Good choice. Silver is normally £36 a month, but if you join before the end of this month, it's only £32." },
+      { "speaker": "mark", "text": "Brilliant. That's a good deal." },
+      { "speaker": "rec", "text": "Now, all new members have to do an induction session before they can use the gym on their own. It takes about an hour, and one of our trainers shows you how to use the machines safely." },
+      { "speaker": "mark", "text": "OK. When are they?" },
+      { "speaker": "rec", "text": "They're always at 6 pm. There's one on Tuesday, but I'm afraid that one's full now, so the next one is on Thursday. Is that all right for you?" },
+      { "speaker": "mark", "text": "Thursday's fine. Do I need to bring anything?" },
+      { "speaker": "rec", "text": "Just your sports clothes, and a passport-sized photo, please. We put it on your membership card." },
+      { "speaker": "mark", "text": "No problem. And is there parking at the centre? I'll probably drive here after work." },
+      { "speaker": "rec", "text": "Yes, there's a car park behind the building. It used to be free for two hours, but it's three hours now, so that's plenty of time for a workout." },
+      { "speaker": "mark", "text": "Great. And how do I book the fitness classes? Do I just phone you?" },
+      { "speaker": "rec", "text": "Not any more, I'm afraid. All classes are booked through our app now. You can download it today, and you'll be able to log in once your card is ready." },
+      { "speaker": "mark", "text": "Perfect. Thanks very much for your help." },
+      { "speaker": "rec", "text": "You're welcome. See you on Thursday, Mr Brennan." }
+    ],
+    "groups": [
+      {
+        "type": "form-completion",
+        "from": 0,
+        "instruction": "Complete the form below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Riverside Sports Centre - New member form",
+        "questions": [
+          { "no": 1, "prompt": "Surname: ___", "answer": ["Brennan"], "segment": 5,
+            "explanation": "Mark 逐个字母拼出 B, R, E, double N, A, N。double N 表示两个 N，拼写错一个字母都判错，这是 Part 1 拼写题的典型考法。" },
+          { "no": 2, "prompt": "Date of birth: 23 ___ 1994", "answer": ["July"], "segment": 9,
+            "explanation": "接待员复述成 June（干扰），Mark 马上纠正 \"No, sorry, July\"。听到说话人自我纠正或纠正对方时，以纠正后的信息为准。" },
+          { "no": 3, "prompt": "Address: 47 ___ Road", "answer": ["Kingsley"], "segment": 11,
+            "explanation": "门牌号 47 和 Road 表格已给出，只填街名。Mark 拼出 K, I, N, G, S, L, E, Y，注意结尾是 -ley 不是 -ly。" },
+          { "no": 4, "prompt": "Occupation: ___", "answer": ["pharmacist"], "segment": 13,
+            "explanation": "Mark 说 \"I'm a pharmacist\"（药剂师）。后面的 hospital 是工作地点，不是职业，别误填。" },
+          { "no": 5, "prompt": "Type of membership: ___", "answer": ["Silver"], "segment": 15,
+            "explanation": "三种会员 Bronze / Silver / Gold 都会被提到。Mark 不游泳所以不要 Gold，想上课所以选 Silver（\"I'll go for Silver\"）。" },
+          { "no": 6, "prompt": "Monthly fee (if joining this month): £ ___", "answer": ["32", "£32", "thirty-two", "32.00", "£32.00"], "segment": 16,
+            "explanation": "原价 £36 是干扰，本月加入只要 £32。题目已给出 £ 符号，写 32 或 £32 都算对。" }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 18,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Information for new members",
+        "questions": [
+          { "no": 7, "heading": "Induction", "prompt": "Induction session: ___ at 6 pm", "answer": ["Thursday"], "segment": 20,
+            "explanation": "周二的场次已满（干扰），下一场是周四 6 点。星期名称首字母大小写都算对，但拼写要正确（Thursday 不是 Thurday）。" },
+          { "no": 8, "prompt": "Bring sports clothes and a passport-sized ___", "answer": ["photo", "photograph"], "segment": 22,
+            "explanation": "接待员说要带 a passport-sized photo，用于做会员卡。photo 和 photograph 都可以。" },
+          { "no": 9, "heading": "Other information", "prompt": "Car park: free for ___ hours", "answer": ["3", "three"], "segment": 24,
+            "explanation": "以前免费 2 小时（干扰，用 used to 提示过去），现在是 three hours。写 3 或 three 都算对。" },
+          { "no": 10, "prompt": "Book fitness classes through the centre's ___", "answer": ["app"], "segment": 26,
+            "explanation": "Mark 问能不能打电话订，回答 \"Not any more\"，现在全部通过 app 预约。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-lost-property",
+    "part": 1,
+    "title": "Reporting a lost bag",
+    "titleCn": "车站失物招领登记",
+    "intro": "Part 1. You will hear a woman phoning the lost property office at a railway station about a bag she left on a train.",
+    "speakers": [
+      { "id": "paul", "name": "Office worker", "gender": "male" },
+      { "id": "lucy", "name": "Lucy", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "paul", "text": "Northgate Station, lost property office. Paul speaking." },
+      { "speaker": "lucy", "text": "Oh, hello. I think I left my bag on one of your trains, and I'm hoping someone has handed it in." },
+      { "speaker": "paul", "text": "I'm sorry to hear that. Let me fill in a report for you, and we'll contact you as soon as anything turns up. Can I take your name first?" },
+      { "speaker": "lucy", "text": "Yes, it's Lucy Ashworth. That's A, S, H, W, O, R, T, H." },
+      { "speaker": "paul", "text": "Thank you. And when were you travelling?" },
+      { "speaker": "lucy", "text": "On Saturday. Saturday the 14th. No, wait, it was the 15th. Sorry, I was away all weekend, so the days are a bit mixed up." },
+      { "speaker": "paul", "text": "No problem. Saturday the 15th of October. And which train were you on?" },
+      { "speaker": "lucy", "text": "The 7:15 from Cambridge. Oh no, sorry, that's the one I normally catch. On Saturday I got the later one, the 7:45." },
+      { "speaker": "paul", "text": "And can you describe the bag for me?" },
+      { "speaker": "lucy", "text": "It's a green backpack with black straps. It's quite large, and there's a small lock on the front pocket." },
+      { "speaker": "paul", "text": "And what was inside it?" },
+      { "speaker": "lucy", "text": "My laptop, which is the main thing I'm worried about, and a camera. Oh, and a book, but that doesn't really matter. My phone was in my coat pocket, luckily." },
+      { "speaker": "paul", "text": "Right. And finally, your address, in case we need to send you anything." },
+      { "speaker": "lucy", "text": "It's 12 Mulberry Lane. That's M, U, L, B, E, double R, Y. It's in Oxford." },
+      { "speaker": "paul", "text": "Thank you. That's everything I need for the form." },
+      { "speaker": "lucy", "text": "Can I ask how I collect the bag if it's found?" },
+      { "speaker": "paul", "text": "Of course. You'll need to come to this office in person. We're open from Monday to Saturday, eight till five. We're closed on Sundays." },
+      { "speaker": "lucy", "text": "And do I need to bring anything with me?" },
+      { "speaker": "paul", "text": "Yes, some photo ID, please. A passport is best, or a driving licence. We can't accept a bank card, I'm afraid." },
+      { "speaker": "lucy", "text": "That's fine. Is there any charge?" },
+      { "speaker": "paul", "text": "For valuable items, that's anything worth more than fifty pounds, there's a handling fee of £4. So with a laptop in the bag, you'd need to pay that." },
+      { "speaker": "lucy", "text": "That's fair enough. And how long do you keep things?" },
+      { "speaker": "paul", "text": "We hold everything for 28 days. After that, anything that hasn't been collected is given to charity." },
+      { "speaker": "lucy", "text": "Well, I really hope it turns up before then! Thank you so much." },
+      { "speaker": "paul", "text": "You're welcome. We'll be in touch." }
+    ],
+    "groups": [
+      {
+        "type": "form-completion",
+        "from": 0,
+        "instruction": "Complete the form below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Northgate Station - Lost property report",
+        "questions": [
+          { "no": 1, "prompt": "Name: Lucy ___", "answer": ["Ashworth"], "segment": 3,
+            "explanation": "Lucy 拼出 A, S, H, W, O, R, T, H。注意中间是 w 不是 v，结尾 -th。" },
+          { "no": 2, "prompt": "Date of journey: Saturday ___ October", "answer": ["15", "15th", "fifteenth"], "segment": 5,
+            "explanation": "她先说 14th，马上改口 \"No, wait, it was the 15th\"。以改口后的为准，写 15、15th 或 fifteenth 都算对。" },
+          { "no": 3, "prompt": "Train: the ___ from Cambridge", "answer": ["7:45", "7.45"], "segment": 7,
+            "explanation": "7:15 是她平时坐的车（干扰），周六坐的是 later one，即 7:45。时间写成 7:45 或 7.45 都可以。" },
+          { "no": 4, "prompt": "Item: a ___ backpack with black straps", "answer": ["green"], "segment": 9,
+            "explanation": "a green backpack with black straps。black 是背带的颜色，题目里已经给出，不能再填。" },
+          { "no": 5, "prompt": "Contents: a laptop, a book and a ___", "answer": ["camera"], "segment": 11,
+            "explanation": "包里有 laptop、camera 和 book；phone 在外套口袋里，不在包里（干扰）。题目列出了 laptop 和 book，空缺的是 camera。" },
+          { "no": 6, "prompt": "Address: 12 ___ Lane, Oxford", "answer": ["Mulberry"], "segment": 13,
+            "explanation": "Lucy 拼出 M, U, L, B, E, double R, Y。double R 是两个 r，Mulbery 少一个 r 判错。" }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 15,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+        "title": "Collecting lost property",
+        "questions": [
+          { "no": 7, "heading": "Collection", "prompt": "Office open Monday to ___, 8 am to 5 pm", "answer": ["Saturday"], "segment": 16,
+            "explanation": "\"open from Monday to Saturday, eight till five\"，周日关门。" },
+          { "no": 8, "prompt": "Bring photo ID, for example a passport or a ___", "answer": ["driving licence", "driving license", "driver's licence", "driver's license"], "segment": 18,
+            "explanation": "可以带 passport 或 driving licence；bank card 不接受（干扰）。英式拼写 licence、美式 license 都算对，但都要拼对。" },
+          { "no": 9, "heading": "Charges and storage", "prompt": "Handling fee for items worth over £50: £ ___", "answer": ["4", "£4", "four", "4.00", "£4.00"], "segment": 20,
+            "explanation": "fifty pounds 是收费门槛（题目已给出），手续费是 £4。" },
+          { "no": 10, "prompt": "Items are kept for ___ days, then given to charity", "answer": ["28", "twenty-eight"], "segment": 22,
+            "explanation": "\"We hold everything for 28 days\"，之后捐给慈善机构。写 28 或 twenty-eight 都算对。" }
+        ]
+      }
+    ]
+  }
+]

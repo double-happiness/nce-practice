@@ -1,0 +1,199 @@
+[
+  {
+    "id": "l2-castle-tour",
+    "part": 2,
+    "title": "Welcome talk at Hallworth Castle",
+    "titleCn": "城堡参观前的导览介绍",
+    "intro": "Part 2. You will hear a volunteer guide giving some information to visitors at a castle.",
+    "speakers": [
+      { "id": "guide", "name": "Rachel (guide)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "guide", "text": "Good morning, everyone, and welcome to Hallworth Castle. My name's Rachel, and I'm one of the volunteer guides here. Before you start exploring, I'd like to give you a bit of background and some practical information." },
+      { "speaker": "guide", "text": "Lots of visitors assume the castle was built as a royal home, and it's true that a king stayed here once or twice. Others think it was built to protect the harbour, but the harbour didn't exist until much later. In fact, the castle was built in the twelfth century to control the crossing over the River Tane, which was the only safe way across for miles." },
+      { "speaker": "guide", "text": "Now, a few things have changed recently. Ticket prices are the same as last year, and we're still open from ten until five. But the main entrance has moved. Because of repair work on the old gate, you now come in through a door on the west side, next to the car park." },
+      { "speaker": "guide", "text": "The most popular part of the castle is the North Tower. It's open whatever the weather, so don't worry if it starts to rain. You don't need a guide, either, as there are information boards on every floor. But the stairs are very narrow, and they get extremely crowded after lunch, so I'd strongly recommend going up this morning." },
+      { "speaker": "guide", "text": "As for photography, you're welcome to take pictures almost everywhere, including the kitchen and the gardens. The only exception is the chapel. The paintings on the walls there are over five hundred years old, and even the flash from a camera can damage them." },
+      { "speaker": "guide", "text": "Finally, audio guides. They aren't included in the ticket price, I'm afraid; they cost three pounds each. They're available in eight different languages. The gift shop closes at four, but you can keep your audio guide for as long as you like, as long as you hand it back before you leave." },
+      { "speaker": "guide", "text": "Now let me tell you what you'll find in each part of the castle. If you look at your map, you'll see the Great Hall right in the middle." },
+      { "speaker": "guide", "text": "Most of what you see in the Great Hall is a copy, made for a television series in the 1990s. However, the long table and the chairs at the far end are original. They've been in the hall since the sixteen hundreds. We used to show a short film about the castle in there, but the screen is being repaired at the moment." },
+      { "speaker": "guide", "text": "From the Great Hall, a passage leads to the North Tower. I mentioned the stairs earlier. When you reach the top, on a clear day, you can see all the way to the coast, which is about twenty kilometres away." },
+      { "speaker": "guide", "text": "Below the tower is the old kitchen. Until last year, the cafe was down there, but it has moved to the old stables, where there's a lot more space. In the kitchen now, visitors of any age can dress up in copies of servants' clothes from the period and imagine what life was like working in the castle." },
+      { "speaker": "guide", "text": "Then there's the chapel, which I mentioned earlier. It's a quiet place, but every afternoon at three o'clock, a local choir sings there for half an hour, and it's well worth hearing." },
+      { "speaker": "guide", "text": "And finally, the gardens. If you've got children with you, pick up a quiz sheet at the garden gate. They follow the clues around the hedges, and if they answer all the questions, they can collect a small prize from the shop." },
+      { "speaker": "guide", "text": "Right, I think that's everything. Enjoy your visit, and do come and find me if you have any questions." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 11, "prompt": "Why was the castle originally built?",
+            "options": [
+              { "key": "A", "text": "to protect a harbour" },
+              { "key": "B", "text": "to be a home for the royal family" },
+              { "key": "C", "text": "to control a river crossing" }
+            ],
+            "answer": ["C"], "segment": 1, "evidence": "to control the crossing over the River Tane",
+            "explanation": "royal home 和 harbour 都被提到，但都是「很多人以为」（干扰）；In fact 之后才是真实原因：control the crossing over the River Tane。In fact / actually 后面常是答案。" },
+          { "no": 12, "prompt": "What has changed recently at the castle?",
+            "options": [
+              { "key": "A", "text": "the price of tickets" },
+              { "key": "B", "text": "the opening times" },
+              { "key": "C", "text": "the way visitors enter" }
+            ],
+            "answer": ["C"], "segment": 2, "evidence": "the main entrance has moved",
+            "explanation": "票价和开放时间都「和去年一样」（排除 A、B）；因为修大门，入口改到西侧，即 the way visitors enter 变了。" },
+          { "no": 13, "prompt": "The guide recommends visiting the North Tower",
+            "options": [
+              { "key": "A", "text": "in the morning." },
+              { "key": "B", "text": "with a guide." },
+              { "key": "C", "text": "when it is not raining." }
+            ],
+            "answer": ["A"], "segment": 3, "evidence": "I'd strongly recommend going up this morning",
+            "explanation": "塔楼不论天气都开放（排除 C），每层有说明牌不需要导游（排除 B）；午饭后楼梯很挤，建议上午去。" },
+          { "no": 14, "prompt": "Where are visitors not allowed to take photographs?",
+            "options": [
+              { "key": "A", "text": "in the chapel" },
+              { "key": "B", "text": "in the kitchen" },
+              { "key": "C", "text": "in the gardens" }
+            ],
+            "answer": ["A"], "segment": 4, "evidence": "The only exception is the chapel",
+            "explanation": "kitchen 和 gardens 被明确说可以拍照（including …）；唯一例外是 chapel，因为闪光灯会损坏五百多年的壁画。" },
+          { "no": 15, "prompt": "What does the guide say about the audio guides?",
+            "options": [
+              { "key": "A", "text": "They are included in the ticket price." },
+              { "key": "B", "text": "They are available in eight languages." },
+              { "key": "C", "text": "They must be returned by four o'clock." }
+            ],
+            "answer": ["B"], "segment": 5, "evidence": "available in eight different languages",
+            "explanation": "语音导览要另付三镑（排除 A）；四点关门的是礼品店，导览器离开前还就行（排除 C）；有八种语言。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 6,
+        "instruction": "What can visitors find at each of the following places? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+        "optionsTitle": "Features",
+        "options": [
+          { "key": "A", "text": "a short film about the castle" },
+          { "key": "B", "text": "costumes to try on" },
+          { "key": "C", "text": "a view of the sea" },
+          { "key": "D", "text": "a puzzle trail for families" },
+          { "key": "E", "text": "live music" },
+          { "key": "F", "text": "original furniture" },
+          { "key": "G", "text": "a place to buy food" }
+        ],
+        "questions": [
+          { "no": 16, "prompt": "the Great Hall", "answer": ["F"], "segment": 7, "evidence": "the long table and the chairs at the far end are original",
+            "explanation": "大厅大部分是复制品，但长桌和尽头的椅子是原物（original furniture）。短片 A 以前在这里放，现在屏幕在修（干扰）。" },
+          { "no": 17, "prompt": "the North Tower", "answer": ["C"], "segment": 8, "evidence": "you can see all the way to the coast",
+            "explanation": "塔顶天气好时能一直看到海岸（coast），对应 a view of the sea。同义替换：coast ≈ sea。" },
+          { "no": 18, "prompt": "the kitchen", "answer": ["B"], "segment": 9, "evidence": "dress up in copies of servants' clothes",
+            "explanation": "厨房里可以穿仆人服装的复制品（dress up in … clothes = costumes to try on）。咖啡馆以前在厨房，已搬到马厩（G 是干扰）。" },
+          { "no": 19, "prompt": "the chapel", "answer": ["E"], "segment": 10, "evidence": "a local choir sings there",
+            "explanation": "每天下午三点有本地合唱团演唱半小时，对应 live music。" },
+          { "no": 20, "prompt": "the gardens", "answer": ["D"], "segment": 11, "evidence": "follow the clues around the hedges",
+            "explanation": "带孩子的家庭在花园门口领问答单，沿着树篱找线索、答完领奖，对应 a puzzle trail for families。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l2-food-festival",
+    "part": 2,
+    "title": "Briefing for festival volunteers",
+    "titleCn": "美食节志愿者说明会",
+    "intro": "Part 2. You will hear the volunteer coordinator of a food festival talking to a group of volunteers.",
+    "speakers": [
+      { "id": "daniel", "name": "Daniel Ross (coordinator)", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "daniel", "text": "Hello, everyone, and thanks for coming to this briefing. I'm Daniel Ross, and I'm coordinating the volunteers for this year's Greenbank Food Festival. There are about sixty of you this year, which is fantastic." },
+      { "speaker": "daniel", "text": "First of all, you'll have noticed that the festival isn't in Riverside Park this year. Some people think it's because the park got too crowded last year, and it certainly was busy. But the real reason is that the council is building a new sports hall on part of the park, so we've moved to the old market square." },
+      { "speaker": "daniel", "text": "Next, T-shirts. Every volunteer gets a bright orange T-shirt, so that visitors can find you easily. We've got small, medium, large and extra large, so there's a size for everyone. Please collect yours from the festival office on Friday afternoon, and there's no need to give it back afterwards." },
+      { "speaker": "daniel", "text": "I know many of you have asked about expenses. Unfortunately, we can't pay for your travel this year. And last year we gave out free tickets for the following festival, but we've stopped doing that. What we can offer is this: if you work a full day, you'll get a voucher for a free meal from any food stall." },
+      { "speaker": "daniel", "text": "What about the weather? Well, the festival goes ahead whatever happens, so if it rains, just carry on as normal. There's no need to call me. The only time we'd stop is if there's a thunderstorm, and in that case we'll make an announcement and ask everyone to go into the main tent." },
+      { "speaker": "daniel", "text": "Now, I'd like to tell some of you which jobs you'll be doing. The setting-up team and the first-aid team were confirmed last week, so I won't go through those again. I'll just mention the people whose jobs have changed or haven't been decided yet." },
+      { "speaker": "daniel", "text": "Sam, you told us you'd love to work on the cooking stage, but we already have plenty of people there. Because you've got a licence to drive a minibus, you'll be driving the shuttle bus between the car park and the main entrance." },
+      { "speaker": "daniel", "text": "Priya, you were down to sell tickets, but as you speak three languages, I'd much rather you were at the information tent, answering visitors' questions." },
+      { "speaker": "daniel", "text": "Joe, you'll be on the cooking stage, helping the chefs. That means passing them ingredients and washing up between the demonstrations." },
+      { "speaker": "daniel", "text": "Helen, you'll take Priya's place, selling tickets at the main gate. It's busy, but it's a great way to meet people." },
+      { "speaker": "daniel", "text": "Marcus, you'll join the recycling team. You'll be going round the site, emptying the bins and making sure everything ends up in the right place." },
+      { "speaker": "daniel", "text": "And Chloe, you'll be standing at the entrance with a clicker, counting how many people come in each hour. The council needs those figures, so it's an important job." },
+      { "speaker": "daniel", "text": "Everyone else, your jobs are the same as on the list you received by email. Any questions? No? Great. See you on Saturday." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 11, "prompt": "Why has the festival moved to a new location?",
+            "options": [
+              { "key": "A", "text": "The old site was too crowded." },
+              { "key": "B", "text": "The park was damaged by floods." },
+              { "key": "C", "text": "Building work is taking place in the park." }
+            ],
+            "answer": ["C"], "segment": 1, "evidence": "the council is building a new sports hall on part of the park",
+            "explanation": "去年确实很挤，但那是「有人以为」的原因（A 干扰）；the real reason 是市政在公园里建体育馆，对应 building work。" },
+          { "no": 12, "prompt": "What are volunteers told about the T-shirts?",
+            "options": [
+              { "key": "A", "text": "They must be returned after the festival." },
+              { "key": "B", "text": "They are all the same size." },
+              { "key": "C", "text": "They can be collected on Friday." }
+            ],
+            "answer": ["C"], "segment": 2, "evidence": "collect yours from the festival office on Friday afternoon",
+            "explanation": "有小、中、大、加大四个尺码（排除 B），不用归还（排除 A）；周五下午到办公室领取。" },
+          { "no": 13, "prompt": "Volunteers who work a full day will receive",
+            "options": [
+              { "key": "A", "text": "a free meal." },
+              { "key": "B", "text": "a ticket for next year's festival." },
+              { "key": "C", "text": "money for their travel." }
+            ],
+            "answer": ["A"], "segment": 3, "evidence": "a voucher for a free meal",
+            "explanation": "交通费不报销（排除 C），送明年门票是去年的做法、今年取消了（排除 B）；干满一天送一张免费餐券。" },
+          { "no": 14, "prompt": "If it rains, volunteers should",
+            "options": [
+              { "key": "A", "text": "go into the main tent." },
+              { "key": "B", "text": "continue working as usual." },
+              { "key": "C", "text": "phone the coordinator." }
+            ],
+            "answer": ["B"], "segment": 4, "evidence": "just carry on as normal",
+            "explanation": "下雨照常工作（carry on as normal），不用打电话（排除 C）；只有雷暴时才进主帐篷（A 是雷暴的情况）。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 5,
+        "instruction": "What job will each volunteer do? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 15-20.",
+        "optionsTitle": "Jobs",
+        "options": [
+          { "key": "A", "text": "selling tickets" },
+          { "key": "B", "text": "giving information to visitors" },
+          { "key": "C", "text": "emptying bins" },
+          { "key": "D", "text": "setting up tables" },
+          { "key": "E", "text": "providing first aid" },
+          { "key": "F", "text": "counting visitors" },
+          { "key": "G", "text": "assisting chefs" },
+          { "key": "H", "text": "driving a vehicle" }
+        ],
+        "questions": [
+          { "no": 15, "prompt": "Sam", "answer": ["H"], "segment": 6, "evidence": "you'll be driving the shuttle bus",
+            "explanation": "Sam 想去烹饪台（G 干扰），但那边人够了；他有小巴驾照，所以开接驳车（driving a vehicle）。" },
+          { "no": 16, "prompt": "Priya", "answer": ["B"], "segment": 7, "evidence": "at the information tent, answering visitors' questions",
+            "explanation": "Priya 原本卖票（A 干扰），因为会三种语言改去咨询帐篷回答游客问题。" },
+          { "no": 17, "prompt": "Joe", "answer": ["G"], "segment": 8, "evidence": "helping the chefs",
+            "explanation": "Joe 在烹饪台帮厨师递食材、洗碗，对应 assisting chefs。" },
+          { "no": 18, "prompt": "Helen", "answer": ["A"], "segment": 9, "evidence": "selling tickets at the main gate",
+            "explanation": "Helen 接替 Priya 在大门卖票。" },
+          { "no": 19, "prompt": "Marcus", "answer": ["C"], "segment": 10, "evidence": "emptying the bins",
+            "explanation": "Marcus 加入回收组，在场地里清空垃圾桶。" },
+          { "no": 20, "prompt": "Chloe", "answer": ["F"], "segment": 11, "evidence": "counting how many people come in each hour",
+            "explanation": "Chloe 拿计数器在入口统计每小时入场人数，对应 counting visitors。setting up tables 和 first aid 两组上周已定（D、E 是干扰项）。" }
+        ]
+      }
+    ]
+  }
+]
