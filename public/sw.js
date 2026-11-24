@@ -54,6 +54,7 @@ var PRECACHE_URLS = [
   '/js/ielts-vocab-ui.js',
   '/js/ielts-chart.js',
   '/js/ielts-writing-ui.js',
+  '/js/ielts-speaking-ui.js',
   '/js/feat-level.js',
   '/audio/pronunc-index.json',
   '/audio/official-segments.json',
