@@ -65,6 +65,7 @@
   };
   // 录音状态（只在内存）
   const rec = { stream: null, recorder: null, chunks: [], urls: [], denied: false };
+  let micPending = null; // 进行中的 getUserMedia（Promise），多次 ensureMic 共用
   let root = null;
   let ctx = null;
 
@@ -106,18 +107,26 @@
     if (rec.denied) return '<div class="ies-rec-note off">⚠️ 麦克风不可用（权限被拒绝或没有设备），本次只计时；在地址栏重新允许麦克风后刷新即可录音。</div>';
     return '<div class="ies-rec-note">🎙 作答时自动录音，录音只保存在本页内存里用于回听，不上传、不落盘，离开口语页就释放。</div>';
   }
-  async function ensureMic() {
-    if (!CAN_RECORD || rec.denied) return null;
-    if (rec.stream) return rec.stream;
-    try {
-      rec.stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      return rec.stream;
-    } catch (e) {
-      rec.denied = true;
-      console.warn('[ielts-speaking] 麦克风不可用', e);
-      NCE.toast('麦克风不可用（' + (e && e.name === 'NotAllowedError' ? '权限被拒绝' : '没有设备或被占用') + '），本次只计时', 'warn');
-      return null;
-    }
+  // 申请麦克风；权限弹窗期间的多次调用共用同一次 getUserMedia，避免拿到多个 stream（只有最后一个会被释放）
+  function ensureMic() {
+    if (!CAN_RECORD || rec.denied) return Promise.resolve(null);
+    if (rec.stream) return Promise.resolve(rec.stream);
+    if (micPending) return micPending;
+    micPending = navigator.mediaDevices.getUserMedia({ audio: true }).then(
+      (stream) => {
+        rec.stream = stream;
+        return stream;
+      },
+      (e) => {
+        rec.denied = true;
+        console.warn('[ielts-speaking] 麦克风不可用', e);
+        NCE.toast('麦克风不可用（' + (e && e.name === 'NotAllowedError' ? '权限被拒绝' : '没有设备或被占用') + '），本次只计时', 'warn');
+        return null;
+      }
+    ).finally(() => {
+      micPending = null;
+    });
+    return micPending;
   }
   function recStart() {
     if (!rec.stream) return false;
@@ -401,14 +410,26 @@
     }
   }
 
+  // await 麦克风之后确认这一题仍是当前会话的当前题；会话已结束（切走 / 回列表）时顺手关麦
+  function stillCurrent(step) {
+    const s = st.session;
+    if (alive() && s && st.stage === 'run' && s.steps[s.idx] === step) return true;
+    if (!alive() || !s || st.stage !== 'run') releaseMic(false);
+    return false;
+  }
+
   async function startPrep(step) {
+    // 防重入：权限弹窗期间连点「开始准备」/「跳过准备」只处理第一次
+    if (step.starting) return;
+    step.starting = true;
     stopTts();
-    // 准备阶段就申请麦克风（有用户点击），准备结束时才能自动开录
-    await ensureMic();
-    if (!alive() || !st.session || st.stage !== 'run') {
-      releaseMic(false);
-      return;
+    try {
+      // 准备阶段就申请麦克风（有用户点击），准备结束时才能自动开录
+      await ensureMic();
+    } finally {
+      step.starting = false;
     }
+    if (!stillCurrent(step)) return;
     step.state = 'prep';
     step.phaseStart = Date.now();
     renderStep();
@@ -425,18 +446,23 @@
   }
 
   async function startTalk(step) {
+    // 防重入：权限弹窗期间连点「开始作答」只处理第一次（否则会重复 recStart 和 setInterval）
+    if (step.starting) return;
+    step.starting = true;
     clearTimer();
     stopTts();
-    await ensureMic();
-    if (!alive() || !st.session || st.stage !== 'run') {
-      releaseMic(false);
-      return;
+    try {
+      await ensureMic();
+    } finally {
+      step.starting = false;
     }
+    if (!stillCurrent(step)) return;
     recStart();
     step.state = 'talk';
     step.phaseStart = Date.now();
     step.overWarned = false;
     renderStep();
+    clearTimer(); // 同一时刻只保留一个计时器
     st.timer = setInterval(() => {
       if (!alive()) return;
       if (step.part === 2 && !step.overWarned && (Date.now() - step.phaseStart) / 1000 >= TALK_SEC) {
