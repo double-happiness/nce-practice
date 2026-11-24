@@ -29,7 +29,8 @@
     "import:tf": "node scripts/import-transforms.js",
     "fetch:pronunc": "node scripts/fetch-pronunc.js",
     "import:official": "node scripts/import-nce-official.js",
-    "import:lesson-texts": "node scripts/import-lesson-texts.js"
+    "import:lesson-texts": "node scripts/import-lesson-texts.js",
+    "import:ielts": "node scripts/import-ielts-local.js"
   },
   "dependencies": {
     "express": "^4.19.2"
