@@ -1212,6 +1212,10 @@
 
   IE.registerPage('vocab', {
     render,
+    // 切到别的顶层标签时也清掉拼写模式的自动下一题定时器，避免在后台触发（没有 resume，回来时壳层重新渲染）
+    pause() {
+      clearSpellTimer();
+    },
     leave() {
       clearSpellTimer();
       clearTimeout(searchTimer);
