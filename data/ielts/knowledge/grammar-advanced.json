@@ -1,0 +1,1016 @@
+[
+  {
+    "id": "gr-adv-relative-clauses",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "定语从句：限定与非限定",
+    "titleEn": "Relative clauses: defining and non-defining",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 10,
+    "minutes": 20,
+    "summary": "能区分限定与非限定定语从句，选对 which / that / whose / where 和「介词 + which」，把两句信息合成一个清楚的复杂句，避免 which 指代不清。",
+    "sections": [
+      {
+        "heading": "限定与非限定：逗号会改变意思",
+        "body": "定语从句是写作 GRA 7 分档明确提到的复杂结构之一，关键是分清两种。\n\n**限定性定语从句（defining）**用来圈定「是哪一个、哪一类」，去掉后句意不完整，前面**不加逗号**。\n\n**非限定性定语从句（non-defining）**只补充额外信息，去掉后主句仍然完整，要用**逗号**和主句隔开，放在句中时前后都要加。\n\n逗号的有无会改变意思：写之前想清楚，你说的是「其中一部分」还是「全部」。",
+        "examples": [
+          { "en": "Students who work part-time often have less time for independent study.", "cn": "做兼职的学生往往用于自学的时间更少。", "note": "限定：只指做兼职的那部分学生。" },
+          { "en": "University students, who often work part-time, have less time for independent study than they did a decade ago.", "cn": "大学生常常做兼职，自学时间比十年前少了。", "note": "非限定：说的是全体大学生，语气更绝对，要确认这正是你想表达的。" },
+          { "en": "The city's first metro line, which opened in 2015, now carries over a million passengers a day.", "cn": "该市第一条地铁线于 2015 年开通，如今日客流超过一百万人次。", "note": "非限定从句补充背景信息，去掉后主句依然完整。" }
+        ],
+        "table": {
+          "head": ["对比项", "限定性", "非限定性"],
+          "rows": [
+            ["逗号", "不加", "要加（句中前后都加）"],
+            ["作用", "指明是哪一个 / 哪一类", "补充额外信息"],
+            ["能否用 that", "可以", "不可以"],
+            ["关系词作宾语时能否省略", "可以", "不可以"]
+          ]
+        }
+      },
+      {
+        "heading": "选对关系词：who / which / that / whose / where / when",
+        "body": "**who** 指人，**which** 指物，**that** 在限定从句里可以代替 who 或 which；**whose** 表示「……的」，人和物都能用；**where** 指地点，**when** 指时间。\n\n用 where 还是 which / that，看从句缺不缺成分：从句**主谓宾齐全**，用 where（相当于 in which / at which）；从句**缺主语或宾语**，用 which / that。这个判断方法同样适用于 when 和 which。",
+        "examples": [
+          { "en": "Countries whose economies depend heavily on tourism were hit hardest by the pandemic.", "cn": "经济严重依赖旅游业的国家受疫情冲击最大。", "note": "whose + 名词，表示「其……」。" },
+          { "en": "Many young people move to cities where wages are higher and jobs are easier to find.", "cn": "许多年轻人搬到工资更高、工作更好找的城市。", "note": "从句 wages are higher 结构完整，用 where。" },
+          { "en": "Many young people move to cities that offer better career prospects.", "cn": "许多年轻人搬到职业前景更好的城市。", "note": "从句缺主语（谁 offer？），用 that / which，不能用 where。" },
+          { "en": "The 1990s were a decade when personal computers became common in ordinary homes.", "cn": "20 世纪 90 年代是个人电脑在普通家庭普及的十年。", "note": "when 指时间，后面的从句完整。" }
+        ]
+      },
+      {
+        "heading": "介词 + which / whom：更正式的写法",
+        "body": "关系词在从句里作介词的宾语时，可以把介词提到 which / whom 前面。这是学术写作的常见写法，比把介词留在句末更正式。介词由从句里的搭配决定：rely **on** → on which，to an extent → the extent **to** which。\n\n注意两点：① 介词提前后只能用 **which / whom**，不能用 that 或 who；② 数量词可以放在 of which / of whom 前面，如 many of whom、most of which、both of which，这类从句前面要加逗号。",
+        "examples": [
+          { "en": "Public transport is a service on which millions of commuters rely every day.", "cn": "公共交通是数百万通勤者每天都依赖的服务。", "note": "rely on → on which。" },
+          { "en": "The extent to which technology improves learning depends largely on how teachers use it.", "cn": "技术能在多大程度上促进学习，很大程度上取决于老师如何使用它。", "note": "the extent to which 是 Task 2 的高频结构。" },
+          { "en": "The charity relies on volunteers, many of whom are retired teachers.", "cn": "这家慈善机构依靠志愿者，其中很多是退休教师。", "note": "数量词 + of whom，前面用逗号。" }
+        ],
+        "table": {
+          "head": ["从句里的搭配", "合并后的写法"],
+          "rows": [
+            ["rely on a service", "a service on which millions rely"],
+            ["to a certain extent", "the extent to which technology helps"],
+            ["in a situation", "a situation in which learners study alone"],
+            ["for a reason", "the reason for which (= why) the law was passed"],
+            ["many of the volunteers", "volunteers, many of whom were retired"]
+          ]
+        }
+      },
+      {
+        "heading": "用 which 指代整句：先确认指得清楚",
+        "body": "非限定从句里的 which 可以指代前面**整句话**的内容，用来交代结果或评价，是很好用的衔接手段。但如果前面并列了好几件事或好几个名词，读者就不知道 which 指什么。中国考生的典型问题是在长句末尾随手加一个「, which…」。\n\n两种更清楚的写法：① **概括名词 + which / that**，如 a trend which、a policy that；② 另起一句，用 **This + 概括名词** 开头。",
+        "examples": [
+          { "en": "Fewer people are cooking at home, which has led to a rise in takeaway consumption.", "cn": "在家做饭的人减少了，这导致外卖消费上升。", "note": "前面只有一件事，which 指代清楚。" },
+          { "en": "Many governments have raised fuel taxes, a policy which has proved unpopular with drivers.", "cn": "许多政府提高了燃油税，这项政策很不受司机欢迎。", "note": "用 a policy which 点明所指。" },
+          { "en": "Car ownership rose sharply in the 2000s. This increase put enormous pressure on urban roads.", "cn": "21 世纪头十年汽车保有量急剧上升，这一增长给城市道路带来巨大压力。", "note": "另起一句，用 This increase 回指。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Children which grow up with pets tend to be more responsible.", "right": "Children who grow up with pets tend to be more responsible.", "why": "指人用 who（限定从句里也可以用 that），不用 which。" },
+      { "wrong": "Beijing, that is the capital of China, attracts millions of tourists every year.", "right": "Beijing, which is the capital of China, attracts millions of tourists every year.", "why": "非限定从句（有逗号）不能用 that，指物要用 which。" },
+      { "wrong": "Smartphones are devices which most teenagers cannot live without them.", "right": "Smartphones are devices which most teenagers cannot live without.", "why": "关系词 which 已经充当从句里 without 的宾语，后面不能再重复 them / it。中文「……的东西」里没有这个问题，所以很容易多写一个代词。" },
+      { "wrong": "Cities where have good public transport tend to have less traffic.", "right": "Cities which have good public transport tend to have less traffic.", "why": "where 是关系副词，后面要接主谓齐全的句子；从句缺主语时用 which / that。" },
+      { "wrong": "Many people work long hours and eat fast food, which is harmful to their health.", "right": "Many people work long hours and eat fast food, a lifestyle which is harmful to their health.", "why": "which 前面有两件事，读者不清楚它指吃快餐、长时间工作，还是两者都指。用 a lifestyle which 把两件事概括起来，指代就清楚了。" },
+      { "wrong": "This is an issue which many experts disagree.", "right": "This is an issue on which many experts disagree.", "why": "disagree 和宾语之间需要介词 on / about，变成从句后介词不能丢：on which，或 which many experts disagree about。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-relative-clauses-q1", "type": "mcq", "q": "Remote working offers several benefits, the most obvious of ___ is the time saved on commuting.", "options": ["which", "that", "them", "whom"], "answer": "which", "explain": "介词 of 后面指物只能用 which；that 不能放在介词后；用 them 会变成两个完整句只用逗号连接；whom 指人。" },
+      { "id": "gr-adv-relative-clauses-q2", "type": "mcq", "q": "Students ___ parents are actively involved in their education tend to perform better at school.", "options": ["who", "whose", "whom", "which"], "answer": "whose", "explain": "空格后紧跟名词 parents，表示「学生的父母」，用表所属的 whose。" },
+      { "id": "gr-adv-relative-clauses-q3", "type": "fill", "q": "Many retired people move to coastal towns ___ the pace of life is slower.（填关系词）", "answer": ["where", "in which"], "explain": "从句 the pace of life is slower 主谓齐全，不缺成分，指地点用 where，也可以用更正式的 in which。" },
+      { "id": "gr-adv-relative-clauses-q4", "type": "fill", "q": "Trust is the foundation on ___ any successful partnership is built.", "answer": ["which"], "explain": "介词 on 提前后，指物只能用 which，不能用 that。" },
+      { "id": "gr-adv-relative-clauses-q5", "type": "correct", "q": "The museum, that opened in 2019, now receives over a million visitors a year.", "answer": ["The museum, which opened in 2019, now receives over a million visitors a year."], "explain": "有逗号的非限定从句不能用 that，指物改用 which。" },
+      { "id": "gr-adv-relative-clauses-q6", "type": "correct", "q": "Social media is a tool which young people use it to stay informed.", "answer": ["Social media is a tool which young people use to stay informed.", "Social media is a tool that young people use to stay informed.", "Social media is a tool young people use to stay informed."], "explain": "which 已经是 use 的宾语，后面的 it 重复了，要删掉。限定从句里作宾语的关系词也可以省略。" }
+    ],
+    "related": {
+      "grammarTags": ["定语从句", "定语从句(非限制性)"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-noun-clauses",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "名词性从句：主语、宾语与同位语从句",
+    "titleEn": "Noun clauses: subject, object and appositive",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 20,
+    "minutes": 20,
+    "summary": "能用 that / what / whether 引导的主语、宾语和同位语从句表达观点和事实，写对 The fact that…、What matters is…、It is clear that… 这类 7 分作文常见句型。",
+    "sections": [
+      {
+        "heading": "宾语从句：引出观点和研究结论",
+        "body": "写作中最常用的名词性从句是宾语从句，跟在 argue、believe、suggest、show、indicate、realise 等动词后面，用来引出观点或研究结论。口语里 that 常被省略，但学术写作中建议保留，句子结构更清楚。\n\n宾语从句用**陈述语序**：疑问词后面直接接「主语 + 谓语」，不能用疑问句语序。这是中国考生最常错的地方。",
+        "examples": [
+          { "en": "Some critics argue that standardised tests measure memory rather than understanding.", "cn": "一些批评者认为，标准化考试考的是记忆而不是理解。" },
+          { "en": "Recent studies indicate that regular exercise can improve concentration in class.", "cn": "近期研究表明，经常锻炼能提高课堂专注力。" },
+          { "en": "Policymakers need to consider how these changes will affect rural communities.", "cn": "决策者需要考虑这些变化将如何影响农村社区。", "note": "how 后用陈述语序 these changes will affect，不是 will these changes affect。" },
+          { "en": "Many parents question whether children should be allowed to bring phones to school.", "cn": "许多家长质疑是否应该允许孩子带手机上学。" }
+        ]
+      },
+      {
+        "heading": "主语从句：What / Whether 开头，或用 It 作形式主语",
+        "body": "名词性从句也可以作主语。**What** 引导的主语从句很适合突出重点，如 What matters most is…。**Whether** 引导的主语从句表示「是否」，这个位置不能换成 if。\n\n用 That 开头的主语从句会让句子头重脚轻，正式写作中通常改用 **It is + 形容词 / 过去分词 + that…** 的形式主语结构。\n\n主语从句作主语时，谓语动词一般用**单数**。",
+        "examples": [
+          { "en": "What concerns many parents is the amount of time children spend online.", "cn": "让许多家长担心的是孩子上网的时长。", "note": "What 从句作主语，谓语用 is。" },
+          { "en": "Whether online learning can fully replace classrooms remains open to debate.", "cn": "网课能否完全取代课堂，仍有争议。", "note": "主语从句表「是否」只能用 whether。" },
+          { "en": "It is clear that the government cannot solve this problem alone.", "cn": "很明显，政府无法单独解决这个问题。", "note": "比 That the government cannot solve this problem alone is clear 自然得多。" }
+        ],
+        "table": {
+          "head": ["引导词", "特点", "例子"],
+          "rows": [
+            ["that", "陈述事实或观点，本身无意义，不作成分", "It is widely accepted that..."],
+            ["what", "= the thing(s) that，在从句中作主语或宾语", "What young people need is guidance."],
+            ["whether", "是否；作主语或放在介词后时不能换成 if", "Whether this policy works depends on funding."],
+            ["how / why / who", "带疑问含义，从句用陈述语序", "Why some students drop out is a complex question."]
+          ]
+        }
+      },
+      {
+        "heading": "同位语从句：the fact that / the idea that",
+        "body": "同位语从句跟在抽象名词后面，说明这个名词的具体内容，常见的有 the fact that、the idea that、the belief that、the view that、the possibility that、evidence that。\n\n它和定语从句的区别：同位语从句里的 that **不作成分**，从句本身是完整句；定语从句里的 that 要在从句中作主语或宾语。同位语从句只能用 that 引导，不能用 which。\n\nTask 2 常用 the fact that 把一个事实变成名词短语，放在介词后面，如 Despite the fact that…。",
+        "examples": [
+          { "en": "The fact that many graduates cannot find suitable jobs suggests a mismatch between education and the labour market.", "cn": "许多毕业生找不到合适工作，这一事实说明教育与劳动力市场不匹配。" },
+          { "en": "There is growing evidence that air pollution affects children's cognitive development.", "cn": "越来越多的证据表明，空气污染影响儿童的认知发展。", "note": "evidence 后接同位语从句，说明证据的内容。" },
+          { "en": "The idea that everyone should learn to code is gaining popularity.", "cn": "人人都应该学编程的观点越来越流行。", "note": "同位语：that 后的从句完整，that 不作成分。" },
+          { "en": "The idea that the committee proposed was widely criticised.", "cn": "委员会提出的那个想法受到广泛批评。", "note": "定语：that 作 proposed 的宾语，可以换成 which。" }
+        ]
+      },
+      {
+        "heading": "两个高频错误：疑问语序与 that / what 混用",
+        "body": "判断用 that 还是 what：从句**缺成分**（缺主语或宾语）用 what；从句**完整**用 that。\n\n另一个高频错误是在从句里用了疑问句语序，比如 I wonder why do people… 或 Nobody knows how will technology… 。写完名词性从句后，检查疑问词后面是不是「主语 + 谓语」的顺序。",
+        "examples": [
+          { "en": "Many people do not realise how much sugar is contained in soft drinks.", "cn": "很多人没有意识到软饮料里含有多少糖。", "note": "how much sugar 作从句主语，后面直接接谓语。" },
+          { "en": "What the survey revealed was surprising.", "cn": "调查揭示的结果令人吃惊。", "note": "revealed 缺宾语，用 what。" },
+          { "en": "The survey revealed that most teenagers sleep fewer than seven hours a night.", "cn": "调查显示，大多数青少年每晚睡眠不足七小时。", "note": "从句完整，用 that。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Nobody knows how will technology change jobs in the future.", "right": "Nobody knows how technology will change jobs in the future.", "why": "宾语从句用陈述语序，how 后面是 technology will change，不是疑问语序。" },
+      { "wrong": "That most people want is a stable income.", "right": "What most people want is a stable income.", "why": "want 缺宾语，从句不完整，要用 what（= the thing that）。" },
+      { "wrong": "If the policy will succeed depends on public support.", "right": "Whether the policy will succeed depends on public support.", "why": "主语从句表「是否」只能用 whether，if 只能引导宾语从句。" },
+      { "wrong": "Despite public transport is cheaper, many people still drive.", "right": "Despite the fact that public transport is cheaper, many people still drive.", "why": "despite 是介词，后面不能直接接句子；加 the fact that 变成同位语从句，或改用 although。" },
+      { "wrong": "There is a widespread belief which hard work always leads to success.", "right": "There is a widespread belief that hard work always leads to success.", "why": "从句完整地说明 belief 的内容，是同位语从句，只能用 that，不能用 which。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-noun-clauses-q1", "type": "mcq", "q": "___ the new tax will reduce traffic congestion is still uncertain.", "options": ["Whether", "If", "What", "Which"], "answer": "Whether", "explain": "从句作主语，意思是「是否」，只能用 whether；if 不能引导主语从句；从句完整不缺成分，不能用 what；which 不引导这类主语从句。" },
+      { "id": "gr-adv-noun-clauses-q2", "type": "mcq", "q": "There is little evidence ___ banning junk food advertising changes children's eating habits.", "options": ["that", "which", "what", "whether it"], "answer": "that", "explain": "空格后的从句完整，说明 evidence 的具体内容，是同位语从句，用 that。" },
+      { "id": "gr-adv-noun-clauses-q3", "type": "fill", "q": "___ surprised the researchers most was the speed at which the ice was melting.", "answer": ["What"], "explain": "从句 ___ surprised the researchers most 缺主语，整个从句又作全句主语，用 what。" },
+      { "id": "gr-adv-noun-clauses-q4", "type": "fill", "q": "Despite ___ the city has expanded its bus network, traffic jams remain common.（填 3 个词）", "answer": ["the fact that"], "explain": "despite 是介词，不能直接接句子，用 the fact that 引出同位语从句。" },
+      { "id": "gr-adv-noun-clauses-q5", "type": "correct", "q": "Many people wonder why are house prices rising so quickly.", "answer": ["Many people wonder why house prices are rising so quickly."], "explain": "宾语从句用陈述语序，why 后面是 house prices are rising。" },
+      { "id": "gr-adv-noun-clauses-q6", "type": "correct", "q": "That most employers value is practical experience.", "answer": ["What most employers value is practical experience."], "explain": "value 缺宾语，主语从句要用 what，that 不能在从句里作成分。" }
+    ],
+    "related": {
+      "grammarTags": ["宾语从句", "同位语从句", "what 主语从句", "it 形式主语", "间接疑问句"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-adverbial-clauses",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "状语从句：让步、对比、因果、目的与结果",
+    "titleEn": "Adverbial clauses: concession, contrast, cause, purpose and result",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 30,
+    "minutes": 20,
+    "summary": "能用 although / whereas / since / so that / such…that 等写出逻辑清楚的状语从句，避免 although 和 but、because 和 so 连用。",
+    "sections": [
+      {
+        "heading": "让步：although / even though 与 despite",
+        "body": "**although / though / even though** 是连词，后面接完整句子；**despite / in spite of** 是介词，后面接名词或动名词。even though 比 although 语气更强，强调「尽管事实确实如此」。**even if** 则是「即使（假设）」，说的是可能发生的情况。\n\n中文说「虽然……但是……」，英文里 although 和 but **只能选一个**。这是评分标准里点名的让步结构，也是中国考生最常犯的错。",
+        "examples": [
+          { "en": "Although online shopping is convenient, it has forced many small shops out of business.", "cn": "虽然网购很方便，但它让很多小店倒闭了。" },
+          { "en": "Despite having a higher income, many city dwellers report lower levels of happiness.", "cn": "尽管收入更高，许多城市居民的幸福感却更低。", "note": "despite + 动名词。" },
+          { "en": "Even though the risks are well known, millions of people continue to smoke.", "cn": "尽管风险众所周知，仍有数百万人继续吸烟。" },
+          { "en": "Even if fuel prices fall, car use in city centres should still be restricted.", "cn": "即使油价下跌，市中心的汽车使用仍应受到限制。", "note": "even if 表假设，油价下跌尚未发生。" }
+        ],
+        "table": {
+          "head": ["连接方式", "后面接", "例子"],
+          "rows": [
+            ["although / though / even though", "完整句子", "Although costs are high, ..."],
+            ["despite / in spite of", "名词 / 动名词", "Despite the high costs, ..."],
+            ["despite the fact that", "完整句子", "Despite the fact that costs are high, ..."],
+            ["however / nevertheless", "另起一句，后加逗号", "Costs are high. However, ..."]
+          ]
+        }
+      },
+      {
+        "heading": "对比：whereas / while",
+        "body": "**whereas** 和 **while** 用来对比两件事的不同之处，前后两部分地位平等。Task 1 对比两组数据、Task 2 对比两种观点时都很好用。从句放在后面时，前面一般加逗号。\n\nwhile 还有「当……时」的意思，用于对比时要让两部分明显对立，避免歧义；whereas 只表对比，更不容易误读。",
+        "examples": [
+          { "en": "Spending on healthcare doubled, whereas investment in education remained almost unchanged.", "cn": "医疗支出翻了一番，而教育投入几乎没有变化。" },
+          { "en": "While some people see tourism as a source of income, others regard it as a threat to local culture.", "cn": "有人把旅游业视为收入来源，也有人认为它威胁当地文化。" },
+          { "en": "Older residents tend to rely on television for news, whereas younger people mostly get it from social media.", "cn": "年长居民往往依靠电视获取新闻，而年轻人大多从社交媒体获取。" }
+        ]
+      },
+      {
+        "heading": "因果：because / since / as / given that",
+        "body": "**because** 强调原因本身，多放在主句后面；**since** 和 **as** 引出读者已知或显而易见的原因，常放在句首；**given that**（考虑到）很适合议论文的推理。\n\n和让步一样，「因为……所以……」在英文里只能保留一个：because 和 so 不能连用。",
+        "examples": [
+          { "en": "Since most jobs now require digital skills, schools should teach basic computing from an early age.", "cn": "既然现在大多数工作都需要数字技能，学校应该从小教授基础计算机知识。" },
+          { "en": "Given that the population is ageing, governments will need to spend more on healthcare.", "cn": "考虑到人口老龄化，政府将需要在医疗上投入更多。", "note": "英式拼写 ageing。" },
+          { "en": "Many families moved to the suburbs because housing in the city centre had become unaffordable.", "cn": "许多家庭搬到郊区，因为市中心的住房已经买不起了。" }
+        ]
+      },
+      {
+        "heading": "目的与结果：so that 与 so / such…that",
+        "body": "**so that** 表示**目的**（为了），从句里常用 can / could / will / would。**so…that / such…that** 表示**结果**（如此……以至于）：so 后面接形容词或副词，such 后面接（形容词 +）名词。\n\n记忆口诀：so + 形容词 / 副词 + that；such + (a / an) + 形容词 + 名词 + that。",
+        "examples": [
+          { "en": "Many cities have built cycle lanes so that residents can travel safely without a car.", "cn": "许多城市修建了自行车道，好让居民不开车也能安全出行。", "note": "目的。" },
+          { "en": "The cost of living has risen so quickly that many young people cannot afford to leave home.", "cn": "生活成本涨得太快，许多年轻人负担不起搬出去住。", "note": "so + 副词 + that，结果。" },
+          { "en": "It was such a popular scheme that the council extended it to other districts.", "cn": "这个项目非常受欢迎，市政府把它推广到了其他城区。", "note": "such a + 形容词 + 名词 + that。" }
+        ],
+        "table": {
+          "head": ["结构", "意思", "例子"],
+          "rows": [
+            ["so that + 情态动词", "目的：为了", "... so that pupils can learn at their own pace"],
+            ["so + adj. / adv. + that", "结果：如此……以至于", "so expensive that few people buy it"],
+            ["such + (a / an) + adj. + n. + that", "结果", "such a high price that few people buy it"],
+            ["so many / much + n. + that", "结果（强调数量）", "so many cars that the roads are blocked"]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Although technology has many benefits, but it also causes problems.", "right": "Although technology has many benefits, it also causes problems.", "why": "although 和 but 不能同时出现，二选一：也可以写成 Technology has many benefits, but it also causes problems." },
+      { "wrong": "Because many people work from home, so office rents have fallen.", "right": "Because many people work from home, office rents have fallen.", "why": "because 和 so 不能连用。也可以写成 Many people work from home, so office rents have fallen." },
+      { "wrong": "Despite the price is high, many people still buy organic food.", "right": "Despite the high price, many people still buy organic food.", "why": "despite 是介词，后面接名词短语；要接句子就改用 although。" },
+      { "wrong": "It was so a successful campaign that the government repeated it.", "right": "It was such a successful campaign that the government repeated it.", "why": "名词短语 a successful campaign 前用 such；如果用 so，要写成 The campaign was so successful that…" },
+      { "wrong": "Some people prefer to live in cities. Whereas others prefer the countryside.", "right": "Some people prefer to live in cities, whereas others prefer the countryside.", "why": "whereas 引导的是从句，不能单独成句，否则就是句子碎片。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-adverbial-clauses-q1", "type": "mcq", "q": "___ the heavy rain, thousands of fans attended the outdoor concert.", "options": ["Despite", "Although", "Even though", "Whereas"], "answer": "Despite", "explain": "空格后是名词短语 the heavy rain，不是句子，只能用介词 despite。" },
+      { "id": "gr-adv-adverbial-clauses-q2", "type": "mcq", "q": "Car ownership in the city fell by 15%, ___ the number of cyclists rose sharply.", "options": ["whereas", "so that", "despite", "because of"], "answer": "whereas", "explain": "前后两组数据一降一升，是对比关系，用 whereas；so that 表目的；despite 和 because of 是介词，后面不能接句子。" },
+      { "id": "gr-adv-adverbial-clauses-q3", "type": "fill", "q": "It was ___ an expensive project that the council had to cancel it.", "answer": ["such"], "explain": "空格后是 an expensive project（不定冠词 + 形容词 + 名词），用 such…that。" },
+      { "id": "gr-adv-adverbial-clauses-q4", "type": "fill", "q": "The library has extended its opening hours ___ students can study in the evening.（表目的，2–3 个词）", "answer": ["so that", "in order that"], "explain": "延长开放时间是为了让学生晚上能学习，表目的用 so that，更正式的写法是 in order that；从句里常用情态动词 can。" },
+      { "id": "gr-adv-adverbial-clauses-q5", "type": "correct", "q": "Although the policy was popular, but it was too costly to continue.", "answer": ["Although the policy was popular, it was too costly to continue.", "The policy was popular, but it was too costly to continue."], "explain": "although 和 but 只能保留一个。" },
+      { "id": "gr-adv-adverbial-clauses-q6", "type": "correct", "q": "Because fewer people buy newspapers, so many local papers have closed.", "answer": ["Because fewer people buy newspapers, many local papers have closed.", "Fewer people buy newspapers, so many local papers have closed."], "explain": "because 和 so 只能保留一个。" }
+    ],
+    "related": {
+      "grammarTags": ["让步状语", "so/such...that", "despite", "in spite of", "虚拟条件句(even if)"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-conditionals",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "第三类条件句、混合条件句与 wish",
+    "titleEn": "Third and mixed conditionals, wish and if only",
+    "level": "B2",
+    "skills": ["writing", "speaking"],
+    "order": 40,
+    "minutes": 20,
+    "summary": "能用第三类条件句和混合条件句分析过去的决定及其影响，用 wish / if only 表达遗憾，并写对省略 if 的倒装形式。",
+    "sections": [
+      {
+        "heading": "第三类条件句：对过去的假设",
+        "body": "第三类条件句讨论**过去没有发生**的事及其想象中的结果，结构是 **If + had done, would / could / might have done**。Task 2 里可以用它分析过去的政策得失，口语 Part 2 / 3 回顾经历时也常用。\n\n更正式的写法是省略 if，把 had 提到主语前：Had + 主语 + done。",
+        "examples": [
+          { "en": "If the government had invested in flood defences earlier, the damage would have been far less severe.", "cn": "如果政府早点投资防洪设施，损失就会小得多。" },
+          { "en": "Had the city planned its road network more carefully, it might have avoided serious congestion.", "cn": "如果这座城市当初更仔细地规划路网，或许就能避免严重拥堵。", "note": "省略 if 的倒装形式，更正式。" },
+          { "en": "If I had known how demanding the course was, I would have prepared more thoroughly.", "cn": "要是我早知道这门课这么难，就会准备得更充分。", "note": "口语回顾经历时常用。" }
+        ],
+        "table": {
+          "head": ["类型", "if 从句", "主句", "时间"],
+          "rows": [
+            ["第一类（真实可能）", "现在时", "will + do", "现在 / 将来"],
+            ["第二类（与现在相反）", "过去时（be 多用 were）", "would + do", "现在 / 将来"],
+            ["第三类（与过去相反）", "had done", "would have done", "过去"],
+            ["混合：过去条件 → 现在结果", "had done", "would + do", "过去 → 现在"],
+            ["混合：现在状态 → 过去结果", "过去时（were）", "would have done", "现在 → 过去"]
+          ]
+        }
+      },
+      {
+        "heading": "混合条件句：条件和结果不在同一时间",
+        "body": "条件和结果分属不同时间时，用混合条件句。最常见的是「**过去**没做某事 → **现在**的结果」：If + had done, would + do（常带 now、today）。另一种是「一个**一直存在**的状态 → **过去**的结果」：If + 过去时, would have done。\n\n写作中用混合条件句交代长期影响，逻辑清楚，是 GRA 里能拉开差距的结构。",
+        "examples": [
+          { "en": "If cities had invested in public transport decades ago, traffic congestion would not be such a serious problem today.", "cn": "如果各城市几十年前就投资公共交通，今天的交通拥堵就不会这么严重。", "note": "过去 → 现在，today 是信号词。" },
+          { "en": "If renewable energy were cheaper, many factories would have switched to it years ago.", "cn": "要是可再生能源更便宜，很多工厂几年前就转用了。", "note": "现在的状态（不便宜）→ 过去的结果（没有转用）。" },
+          { "en": "Had I chosen to study abroad, I would probably be working in a different field now.", "cn": "如果当初选择出国留学，我现在可能在另一个领域工作。", "note": "倒装 + 混合条件句。" }
+        ]
+      },
+      {
+        "heading": "wish 和 if only：遗憾与愿望",
+        "body": "wish / if only 后面的从句要「往过去退一步」：对**现在**的愿望用过去时（be 多用 were）；对**过去**的遗憾用 had done；希望别人或某种情况**改变**，用 would do。\n\nif only 语气比 wish 更强，相当于「要是……就好了」。议论文里较少直接用，主要用于口语和培训类书信。",
+        "examples": [
+          { "en": "Many workers wish they had more control over their working hours.", "cn": "许多员工希望能更自主地安排工作时间。", "note": "对现在的愿望，用过去时 had。" },
+          { "en": "I wish I had taken my teachers' advice more seriously when I was at school.", "cn": "真希望上学时我更认真地听老师的建议。", "note": "对过去的遗憾，用 had taken。" },
+          { "en": "Local residents wish the council would do something about the noise from the airport.", "cn": "当地居民希望市政府能对机场噪音采取措施。", "note": "希望别人改变，用 would do。" },
+          { "en": "If only more people realised how much food they throw away.", "cn": "要是更多人意识到自己扔掉了多少食物就好了。" }
+        ],
+        "table": {
+          "head": ["时间", "结构", "例子"],
+          "rows": [
+            ["现在", "wish + 过去时", "I wish I lived closer to work."],
+            ["过去", "wish + had done", "I wish I had saved more money."],
+            ["希望某人 / 某事改变", "wish + would do", "I wish my neighbours would turn the music down."]
+          ]
+        }
+      },
+      {
+        "heading": "替代 if 的正式表达",
+        "body": "除了倒装，还可以用 **without / but for**（要不是）和 **otherwise**（否则）表达假设，避免整篇都是 If 开头。\n\nwithout / but for 后面接名词，主句照样用 would have done 或 would do；otherwise 前面是真实发生的事，后面是假设的结果。",
+        "examples": [
+          { "en": "Without government subsidies, many rural bus services would have closed years ago.", "cn": "如果没有政府补贴，许多农村公交线路几年前就停运了。" },
+          { "en": "Several factories adopted cleaner technology; otherwise, the river would have remained heavily polluted.", "cn": "几家工厂采用了更清洁的技术，否则这条河至今仍会污染严重。" },
+          { "en": "But for the efforts of volunteers, the festival would not have taken place.", "cn": "要不是志愿者的努力，这个节日活动就办不成了。", "note": "but for 较正式，口语少用。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "If the government invested more in the past, the problem would not happen.", "right": "If the government had invested more in the past, the problem would not have happened.", "why": "对过去的假设，从句用 had done，主句用 would have done。中文没有时态变化，容易都写成一般过去时。" },
+      { "wrong": "If I would have known, I would have helped.", "right": "If I had known, I would have helped.", "why": "if 从句里不用 would，过去的假设用 had done。" },
+      { "wrong": "I wish I can speak English more fluently.", "right": "I wish I could speak English more fluently.", "why": "wish 后表达对现在的愿望，要往过去退一步，can 改为 could。" },
+      { "wrong": "If cities had planned better, traffic would not have been so bad today.", "right": "If cities had planned better, traffic would not be so bad today.", "why": "today 说明结果在现在，是混合条件句，主句用 would + do。" },
+      { "wrong": "I wish I studied harder when I was at school.", "right": "I wish I had studied harder when I was at school.", "why": "when I was at school 是过去，对过去的遗憾要用 had done。" },
+      { "wrong": "Had not the council acted quickly, the fire would have spread.", "right": "Had the council not acted quickly, the fire would have spread.", "why": "省略 if 的倒装句中，not 要放在主语后面，不能和 had 连在一起提前。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-conditionals-q1", "type": "mcq", "q": "If the factory ___ stricter safety rules, the accident would never have happened.", "options": ["had followed", "followed", "would follow", "has followed"], "answer": "had followed", "explain": "主句是 would never have happened，对过去的假设，从句用过去完成时 had followed。" },
+      { "id": "gr-adv-conditionals-q2", "type": "mcq", "q": "If I had chosen engineering at university, I ___ a much higher salary now.", "options": ["would earn", "would have earned", "will earn", "had earned"], "answer": "would earn", "explain": "条件在过去（上大学时的选择），结果在现在（now），是混合条件句，主句用 would + 动词原形。" },
+      { "id": "gr-adv-conditionals-q3", "type": "fill", "q": "I wish I ___ (accept) that job offer last year.", "answer": ["had accepted"], "explain": "last year 是过去，对过去的遗憾用 wish + had done。" },
+      { "id": "gr-adv-conditionals-q4", "type": "fill", "q": "___ the authorities acted sooner, the fire would not have spread so quickly.", "answer": ["Had"], "explain": "主句是 would not have spread，从句应为 If the authorities had acted；省略 if 后把 had 提前，构成倒装。" },
+      { "id": "gr-adv-conditionals-q5", "type": "correct", "q": "If the city would have built more housing, rents would not have risen so sharply.", "answer": ["If the city had built more housing, rents would not have risen so sharply.", "Had the city built more housing, rents would not have risen so sharply."], "explain": "if 从句中不能用 would have done，应改为 had built；也可以用倒装 Had the city built…" },
+      { "id": "gr-adv-conditionals-q6", "type": "correct", "q": "Many students wish they can go back and choose a different subject.", "answer": ["Many students wish they could go back and choose a different subject."], "explain": "wish 后表达对现在的愿望，情态动词要退一步，can 改为 could。" }
+    ],
+    "related": {
+      "grammarTags": ["虚拟语气", "虚拟条件句", "条件句", "wish + 过去时/过去完成时"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-impersonal-passive",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "高级被动：It is believed that… 与 X is thought to…",
+    "titleEn": "Impersonal passive: It is believed that... and X is thought to...",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 50,
+    "minutes": 20,
+    "summary": "能用两种客观被动句型报道普遍看法和研究结论，掌握 to do / to be doing / to have done 的时间区别，并知道在 Task 2 中什么时候用、什么时候不该用。",
+    "sections": [
+      {
+        "heading": "两种句型：It is + 过去分词 + that… 与 主语 + be + 过去分词 + to do",
+        "body": "想报道一种普遍看法、研究结论或估计数字，又不需要说明是谁说的，就用客观被动。常用动词有 believe、think、say、report、estimate、expect、consider、know、argue、claim。\n\n同一个意思有两种写法：① **It is widely believed that + 完整句子**；② **主语 + is believed + to do**，把从句的主语提到句首，后面接不定式，更紧凑。\n\n评分标准 Task 2 的自查清单里专门提到「是否尝试了被动语态或 It is … that … 等结构」。",
+        "examples": [
+          { "en": "It is widely believed that bilingual children develop stronger problem-solving skills.", "cn": "人们普遍认为，双语儿童解决问题的能力更强。" },
+          { "en": "Bilingual children are widely believed to develop stronger problem-solving skills.", "cn": "双语儿童被普遍认为解决问题的能力更强。", "note": "把从句主语提前，后面接 to do。" },
+          { "en": "It is estimated that around a third of all food produced is wasted.", "cn": "据估计，生产出来的食物大约有三分之一被浪费。" },
+          { "en": "Around a third of all food produced is estimated to be wasted.", "cn": "生产出来的食物估计约有三分之一被浪费。", "note": "从句本身是被动，就用被动不定式 to be done。" }
+        ],
+        "table": {
+          "head": ["主动", "It 句型", "主语提前句型"],
+          "rows": [
+            ["People say that...", "It is said that...", "X is said to..."],
+            ["Experts estimate that...", "It is estimated that...", "X is estimated to..."],
+            ["Many people believe that...", "It is widely believed that...", "X is widely believed to..."],
+            ["Analysts expect that...", "It is expected that...", "X is expected to..."]
+          ]
+        }
+      },
+      {
+        "heading": "不定式的时间：to do / to be doing / to have done",
+        "body": "用「主语 + be + 过去分词 + 不定式」时，不定式的形式表示它和「认为、估计」这个动作的时间关系：\n\n**to do**：同时或之后的事，包括预测。**to be doing**：正在进行的事。**to have done**：在此之前已经发生的事；如果还是被动，用 **to have been done**。\n\n能把这一点写准，是 7 分以上作文的标志之一。",
+        "examples": [
+          { "en": "The new railway is expected to reduce journey times by half.", "cn": "新铁路预计将使行程时间缩短一半。", "note": "将来的事，用 to do。" },
+          { "en": "The number of people working from home is thought to be increasing.", "cn": "据认为居家办公的人数正在增加。", "note": "正在进行，用 to be doing。" },
+          { "en": "The policy is reported to have cut youth unemployment by ten per cent.", "cn": "据报道，这项政策已使青年失业率下降了百分之十。", "note": "已经发生，用 to have done。" },
+          { "en": "The original town hall is said to have been designed by a local engineer.", "cn": "据说原来的市政厅是由一位本地工程师设计的。", "note": "已经发生且是被动，用 to have been done。" }
+        ]
+      },
+      {
+        "heading": "在 Task 2 里怎么用",
+        "body": "客观被动最适合三个位置：① 开头段交代话题背景（It is often argued that…）；② 介绍你不同意的观点（It is sometimes claimed that…, but…）；③ 引用普遍事实或估计数字，增加客观性。\n\n但不要整篇都用被动。表达**自己的立场**时，要用主动语态明确地说 I believe / I would argue，否则考官看不出你的观点。It is believed that 只用来报道别人的普遍看法，不要拿它包装自己的观点。",
+        "examples": [
+          { "en": "It is often argued that university education should be free for all. However, I believe this would place an unfair burden on taxpayers.", "cn": "常有人认为大学教育应该对所有人免费。然而，我认为这会给纳税人带来不公平的负担。", "note": "先用被动报道他人观点，再用主动亮出立场。" },
+          { "en": "Fast food is widely considered to be one of the main causes of rising obesity rates.", "cn": "快餐被普遍认为是肥胖率上升的主要原因之一。" },
+          { "en": "It is generally accepted that early childhood is a critical period for language development.", "cn": "人们普遍认同，幼儿期是语言发展的关键期。" }
+        ]
+      },
+      {
+        "heading": "普通被动：说清楚由谁来做",
+        "body": "普通被动语态让「动作的承受者」作主语，适合施动者不重要或显而易见的情况，比如 Laws are passed、Taxes are collected。\n\n但 Task 2 里写 Measures should be taken. 或 Something must be done. 往往显得空洞：谁来做、做什么都没说。提建议时，最好用主动语态写清楚主体和具体措施。",
+        "examples": [
+          { "en": "More affordable housing needs to be built in major cities.", "cn": "大城市需要建造更多经济适用房。", "note": "施动者显而易见，用被动自然。" },
+          { "en": "Governments should introduce a tax on sugary drinks to discourage excessive consumption.", "cn": "政府应征收含糖饮料税，以抑制过量消费。", "note": "提建议时用主动，说清楚谁做什么。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Smartphones are believed that they harm children's sleep.", "right": "Smartphones are believed to harm children's sleep.", "why": "两种句型混在一起了。主语提前后要接不定式；或者写成 It is believed that smartphones harm children's sleep." },
+      { "wrong": "It is widely believe that exercise improves mood.", "right": "It is widely believed that exercise improves mood.", "why": "被动语态是 be + 过去分词，漏写 -ed 是中国考生的高频小错，会直接拉低无错句比例。" },
+      { "wrong": "The bridge is said to build in 1890.", "right": "The bridge is said to have been built in 1890.", "why": "建桥发生在过去，且桥是被建的，要用完成式被动不定式 to have been done。" },
+      { "wrong": "Tourism is expected to increasing over the next decade.", "right": "Tourism is expected to increase over the next decade.", "why": "to 是不定式符号，后面接动词原形。" },
+      { "wrong": "It is believed by me that cities should ban cars.", "right": "I believe that cities should ban cars.", "why": "自己的观点直接用主动语态说出来；被动 + by me 既别扭又模糊了立场。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-impersonal-passive-q1", "type": "mcq", "q": "Air pollution ___ to cause thousands of premature deaths every year.", "options": ["is estimated", "estimates", "is estimating", "has estimated"], "answer": "is estimated", "explain": "空气污染是「被估计」的对象，用被动 is estimated + to do。" },
+      { "id": "gr-adv-impersonal-passive-q2", "type": "mcq", "q": "The ancient temple is believed ___ around 800 years ago.", "options": ["to have been built", "to build", "to be building", "that it was built"], "answer": "to have been built", "explain": "建造发生在过去（800 years ago），且寺庙是被建的，用 to have been built。" },
+      { "id": "gr-adv-impersonal-passive-q3", "type": "fill", "q": "It is widely ___ (accept) that regular exercise benefits mental health.", "answer": ["accepted"], "explain": "It is + 过去分词 + that 结构，accept 用过去分词 accepted。" },
+      { "id": "gr-adv-impersonal-passive-q4", "type": "fill", "q": "Global demand for electricity is expected ___ (rise) sharply over the next two decades.", "answer": ["to rise"], "explain": "be expected 后接不定式；未来的事用 to do，所以填 to rise。" },
+      { "id": "gr-adv-impersonal-passive-q5", "type": "correct", "q": "Remote work is believed that it improves productivity.", "answer": ["Remote work is believed to improve productivity.", "It is believed that remote work improves productivity."], "explain": "两种句型不能混用：要么主语提前接 to do，要么用 It is believed that + 完整句子。" },
+      { "id": "gr-adv-impersonal-passive-q6", "type": "correct", "q": "The factory is reported to close last year.", "answer": ["The factory is reported to have closed last year.", "It is reported that the factory closed last year."], "explain": "last year 说明关闭发生在报道之前，要用完成式不定式 to have closed。" }
+    ],
+    "related": {
+      "grammarTags": ["被动语态", "it 形式主语"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-nominalisation",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "名词化：让写作更学术",
+    "titleEn": "Nominalisation",
+    "level": "C1",
+    "skills": ["writing"],
+    "order": 60,
+    "minutes": 20,
+    "summary": "能把动词和形容词转成名词，配上正确的介词，把口语化的句子改写得更紧凑、更客观，同时避免过度名词化。",
+    "sections": [
+      {
+        "heading": "什么是名词化，为什么有用",
+        "body": "名词化（nominalisation）就是把动词或形容词变成名词，让一个「动作」或「性质」充当句子的主语或宾语。学术写作偏爱这种写法，原因有三：① 句子更紧凑，信息密度更高；② 焦点落在现象上而不是人身上，更客观；③ 可以用一个名词概括上一句，衔接自然，比如 This decision…、Such growth…。\n\n但名词化不是越多越好。7 分作文的目标是在关键位置用好，而不是把每句话都改成一串 -tion。",
+        "examples": [
+          { "en": "Because people are using cars more and more, the air in cities is getting worse.", "cn": "因为人们越来越多地用车，城市空气越来越差。", "note": "口语化：两个动作都用动词表达。" },
+          { "en": "The growing use of private cars has led to a decline in urban air quality.", "cn": "私家车使用的增加导致城市空气质量下降。", "note": "名词化：use 和 decline 作名词，句子更紧凑。" },
+          { "en": "The government decided to raise fuel taxes. This decision was criticised by many drivers.", "cn": "政府决定提高燃油税，这一决定受到许多司机批评。", "note": "用 This decision 回指上一句，衔接自然。" }
+        ]
+      },
+      {
+        "heading": "常见转换与介词搭配",
+        "body": "名词化不只是换个词形，还要配上正确的**介词**：an increase **in**、a reduction **in**、reliance **on**、awareness **of**、demand **for**、access **to**。介词错了反而会扣 GRA 和 LR 的分。",
+        "table": {
+          "head": ["动词 / 形容词", "名词", "搭配示例"],
+          "rows": [
+            ["decide", "decision", "the decision to close the factory"],
+            ["reduce", "reduction", "a reduction in carbon emissions"],
+            ["grow", "growth", "the growth of online retail"],
+            ["fail", "failure", "the failure to address the problem"],
+            ["expand", "expansion", "the rapid expansion of cities"],
+            ["rely on", "reliance", "a heavy reliance on imported oil"],
+            ["able", "ability", "the ability to think critically"],
+            ["available", "availability", "the availability of cheap loans"],
+            ["aware", "awareness", "public awareness of health risks"],
+            ["difficult", "difficulty", "difficulty in finding work"]
+          ]
+        },
+        "examples": [
+          { "en": "There has been a significant reduction in the number of people who smoke.", "cn": "吸烟人数大幅减少。" },
+          { "en": "The country's heavy reliance on imported oil makes it vulnerable to price shocks.", "cn": "该国严重依赖进口石油，因此容易受到价格冲击。" },
+          { "en": "Limited access to clean water remains a serious problem in some rural areas.", "cn": "在一些农村地区，难以获得干净的水仍是严重问题。" }
+        ]
+      },
+      {
+        "heading": "改写步骤：形容词 + 名词 + of 短语",
+        "body": "改写一般分四步：① 找出句子里的核心动作或性质；② 把它变成名词，作主语或宾语；③ 原来修饰动词的副词改成形容词（rapidly → rapid），原来的主语或宾语变成 of 短语或所有格；④ 换一个表示因果的动词连接两部分，如 lead to、result in、contribute to、cause。",
+        "examples": [
+          { "en": "The rapid expansion of cities has resulted in the loss of farmland.", "cn": "城市的快速扩张导致了农田流失。", "note": "原句：Cities are expanding rapidly, so farmland is disappearing." },
+          { "en": "A lack of awareness of online risks makes teenagers vulnerable to fraud.", "cn": "缺乏网络风险意识使青少年容易受骗。", "note": "原句：Teenagers are not aware of online risks, so they are easily cheated." },
+          { "en": "The sharp rise in prices forced many families to cut back on spending.", "cn": "物价急剧上涨迫使许多家庭削减开支。", "note": "原句：Prices rose sharply, and many families had to spend less." }
+        ]
+      },
+      {
+        "heading": "动名词也是一种名词化；别过度",
+        "body": "动名词（-ing 形式）同样能把动作变成名词，比 -tion 名词更灵活，常作主语，如 Reducing waste…、Banning cars from city centres…。动名词短语作主语时，谓语用**单数**。\n\n过度名词化的典型症状是一长串 of：The implementation of the reduction of the consumption of… 读起来非常吃力。一般一句里有一两个名词化就够了，必要时保留动词，句子反而更清楚。",
+        "examples": [
+          { "en": "Banning junk food advertising during children's programmes would encourage healthier eating habits.", "cn": "禁止在儿童节目时段播放垃圾食品广告，有助于养成更健康的饮食习惯。", "note": "动名词短语作主语，英式拼写 programmes。" },
+          { "en": "Reducing food waste is one of the simplest ways to cut household spending.", "cn": "减少食物浪费是削减家庭开支最简单的方法之一。" },
+          { "en": "The implementation of the reduction of plastic use requires the cooperation of consumers.", "cn": "（过度名词化）减少塑料使用的实施需要消费者的配合。", "note": "反例：of 链太长，读起来吃力。" },
+          { "en": "Reducing plastic use requires cooperation from consumers.", "cn": "减少塑料使用需要消费者配合。", "note": "改写后更清楚。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "There has been a sharp increase of the number of cars.", "right": "There has been a sharp increase in the number of cars.", "why": "increase / decrease / rise / fall / reduction 表示「某方面的变化」时用 in；of 后面接的是变化的幅度，如 an increase of 20%。" },
+      { "wrong": "The develop of technology has changed our lives.", "right": "The development of technology has changed our lives.", "why": "动词 develop 不能直接作主语，要用名词 development。词性错误是中国考生常见的失分点。" },
+      { "wrong": "The rapidly growth of cities has put pressure on housing.", "right": "The rapid growth of cities has put pressure on housing.", "why": "名词前用形容词修饰，副词 rapidly 要改成形容词 rapid。" },
+      { "wrong": "Many students lack of motivation.", "right": "Many students lack motivation.", "why": "lack 作动词时直接接宾语，不加 of；作名词时才说 a lack of motivation。" },
+      { "wrong": "Reduce waste is important for the environment.", "right": "Reducing waste is important for the environment.", "why": "动词原形不能作主语，要用动名词，或改成 It is important to reduce waste." },
+      { "wrong": "The consideration of the improvement of the provision of education is necessary.", "right": "Governments need to consider how to improve education.", "why": "过度名词化，一串 of 让句子空洞难懂。保留动词、写清主体，意思反而更清楚。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-nominalisation-q1", "type": "mcq", "q": "The government's ___ to act quickly made the crisis worse.", "options": ["failure", "fail", "failing of", "failed"], "answer": "failure", "explain": "所有格 The government's 后面要接名词，fail 的名词形式是 failure，搭配 failure to do。" },
+      { "id": "gr-adv-nominalisation-q2", "type": "mcq", "q": "There has been a steady decline ___ the number of people buying printed books.", "options": ["in", "of", "on", "at"], "answer": "in", "explain": "decline 表示某方面的下降时接 in；decline of 后面接幅度，如 a decline of 10%。" },
+      { "id": "gr-adv-nominalisation-q3", "type": "fill", "q": "The rapid ___ (expand) of online retail has put pressure on high-street shops.", "answer": ["expansion"], "explain": "冠词 The 和形容词 rapid 后需要名词，expand 的名词是 expansion。" },
+      { "id": "gr-adv-nominalisation-q4", "type": "fill", "q": "Public ___ (aware) of climate change has grown considerably in the past decade.", "answer": ["awareness"], "explain": "句子缺主语，需要名词，aware 的名词是 awareness，搭配 awareness of。" },
+      { "id": "gr-adv-nominalisation-q5", "type": "correct", "q": "The rapidly growth of tourism has damaged many coastal areas.", "answer": ["The rapid growth of tourism has damaged many coastal areas."], "explain": "名词 growth 前要用形容词 rapid，不能用副词 rapidly。" },
+      { "id": "gr-adv-nominalisation-q6", "type": "correct", "q": "Many young people lack of practical skills when they graduate.", "answer": ["Many young people lack practical skills when they graduate.", "Many young people suffer from a lack of practical skills when they graduate."], "explain": "lack 作动词时不加 of；如果想用 of，就要把 lack 变成名词 a lack of。" }
+    ],
+    "related": {
+      "grammarTags": ["动名词作主语"],
+      "tabs": ["transform", "ielts:writing", "ielts:vocab"]
+    }
+  },
+  {
+    "id": "gr-adv-participle-clauses",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "分词结构与非谓语作状语",
+    "titleEn": "Participle clauses and dangling modifiers",
+    "level": "C1",
+    "skills": ["writing"],
+    "order": 70,
+    "minutes": 25,
+    "summary": "能用 doing / done / having done 写出简洁的分词状语，用句末分词交代结果，并学会检查和修正悬垂分词。",
+    "sections": [
+      {
+        "heading": "三种分词作状语：doing / done / having done",
+        "body": "分词短语可以代替一个状语从句，让句子更简洁。选哪种形式，先问一个问题：**分词的逻辑主语是谁？它是主动做这个动作，还是被动承受？**\n\n**现在分词 doing**：主语主动做，且与主句动作同时发生。**过去分词 done**：主语被动承受。**完成分词 having done**：动作在主句之前已经完成。",
+        "examples": [
+          { "en": "Recognising the health risks of sugar, several countries have introduced a tax on soft drinks.", "cn": "认识到糖的健康风险，几个国家开征了软饮料税。", "note": "主动：countries recognise。" },
+          { "en": "Faced with rising rents, many young professionals are choosing to live with their parents.", "cn": "面对不断上涨的房租，许多年轻上班族选择和父母同住。", "note": "被动：they are faced with。" },
+          { "en": "Having completed their training, new teachers are often sent to rural schools.", "cn": "新教师完成培训后，常被派往农村学校。", "note": "培训先完成，用 having done。" }
+        ],
+        "table": {
+          "head": ["形式", "含义", "例子"],
+          "rows": [
+            ["doing", "主动，同时发生", "Living in a small flat, many couples delay having children."],
+            ["done", "被动", "Built in 1900, the bridge is still in use."],
+            ["having done", "主动，先于主句", "Having saved enough money, she started her own business."],
+            ["having been done", "被动，先于主句", "Having been criticised by the public, the company changed its policy."]
+          ]
+        }
+      },
+      {
+        "heading": "句末分词：交代结果和伴随情况",
+        "body": "放在句末的现在分词常用来表示**结果**或**伴随**，是 Task 1 和 Task 2 都很实用的结构，如 …, reaching a peak of 40%、…, leading to higher prices。\n\n句末分词的逻辑主语是**主句主语**或**整个主句**。如果后半句有自己的新主语，就不能用分词硬接，要用 and 连接或另起一句，否则容易写成逗号连接句。",
+        "examples": [
+          { "en": "The number of visitors rose steadily, reaching a peak of 3.2 million in 2018.", "cn": "游客数量稳步上升，2018 年达到 320 万的峰值。", "note": "Task 1 常用：主句主语 the number 达到峰值。" },
+          { "en": "Many factories have moved overseas, leaving thousands of workers without jobs.", "cn": "许多工厂迁往海外，导致数千名工人失业。", "note": "结果：整个主句造成的后果。" },
+          { "en": "Prices fell sharply in 2009 before recovering gradually over the next five years.", "cn": "价格在 2009 年骤降，之后五年逐步回升。", "note": "before + doing，描述先后变化。" }
+        ]
+      },
+      {
+        "heading": "悬垂分词：逻辑主语必须和主句主语一致",
+        "body": "这是分词结构最常见、也最伤分的错误。分词短语没有自己的主语，读者会默认它的主语就是主句的主语。两者对不上，就是**悬垂分词（dangling participle）**，句子意思会变得荒谬。\n\n两种改法：① 换主句主语，让它成为分词动作的执行者；② 把分词短语还原成带主语的从句。写完每个分词短语，都问一句：主句主语能做这个动作吗？",
+        "examples": [
+          { "en": "Looking at the chart, we can see that coal consumption fell steadily.", "cn": "从图表看，我们可以发现煤炭消耗稳步下降。", "note": "看图的是 we，主语一致。不能写成 Looking at the chart, coal consumption fell." },
+          { "en": "After the new law was introduced, the number of road accidents fell by a third.", "cn": "新法律实施后，交通事故数量下降了三分之一。", "note": "还原成带主语的从句，避免悬垂。" },
+          { "en": "Built in 1900, the bridge is still used by thousands of commuters every day.", "cn": "这座桥建于 1900 年，至今每天仍有数千名通勤者使用。", "note": "the bridge 被建，主语一致。" }
+        ],
+        "table": {
+          "head": ["悬垂（错误）", "修改后"],
+          "rows": [
+            ["Having lived abroad for years, the local food tasted strange to her.", "Having lived abroad for years, she found the local food strange."],
+            ["Looking at the graph, the price rose sharply.", "As the graph shows, the price rose sharply."],
+            ["Built in 1900, people still use the bridge today.", "Built in 1900, the bridge is still used today."]
+          ]
+        }
+      },
+      {
+        "heading": "with 复合结构与独立主格",
+        "body": "当分词动作有**自己的主语**、和主句主语不同时，可以用 **with + 名词 + doing / done**，或者直接用独立主格（名词 + 分词）。这类结构在 Task 1 里同时交代两组数据时特别方便。\n\n另外有一些固定的独立主格可以直接用，如 All things considered（综合考虑）、Generally speaking（一般来说）。",
+        "examples": [
+          { "en": "With house prices rising faster than wages, many young people cannot afford to buy a home.", "cn": "由于房价涨得比工资快，许多年轻人买不起房。", "note": "with + 名词 + doing，house prices 是 rising 的主语。" },
+          { "en": "Coal accounted for 60% of electricity generation in 1990, with renewables making up just 2%.", "cn": "1990 年煤炭占发电量的 60%，可再生能源仅占 2%。", "note": "Task 1 同时交代两组数据。" },
+          { "en": "All things considered, the advantages of remote working outweigh the drawbacks.", "cn": "综合考虑，远程办公利大于弊。", "note": "固定独立主格，适合结论段。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Having finished the project, the report was submitted to the manager.", "right": "Having finished the project, the team submitted the report to the manager.", "why": "悬垂分词：完成项目的是人，不是 report。改主句主语，让它能执行分词的动作。" },
+      { "wrong": "Faced with many challenges, it is difficult for young people to buy homes.", "right": "Faced with many challenges, young people find it difficult to buy homes.", "why": "主句主语是形式主语 it，不能面对挑战，分词的逻辑主语应是 young people。" },
+      { "wrong": "Facing with rising costs, many families have cut back on holidays.", "right": "Faced with rising costs, many families have cut back on holidays.", "why": "be faced with 是被动搭配，用 Faced with；如果用现在分词，要写成 Facing rising costs，不加 with。" },
+      { "wrong": "The population grew rapidly, it reached 10 million in 2020.", "right": "The population grew rapidly, reaching 10 million in 2020.", "why": "逗号连接两个完整句是 run-on。句末用分词 reaching 表示结果，或者用 and 连接。" },
+      { "wrong": "Compare with last year, sales have doubled.", "right": "Compared with last year, sales have doubled.", "why": "sales 是被比较的对象，用过去分词 Compared with；动词原形不能作状语。" },
+      { "wrong": "Being a developing country, its economy relies heavily on agriculture.", "right": "Being a developing country, the nation relies heavily on agriculture.", "why": "是发展中国家的是 the nation，不是 its economy。中文「作为……，其经济……」的说法很容易直译成悬垂分词。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-participle-clauses-q1", "type": "mcq", "q": "___ by the success of the scheme, the council decided to extend it to other areas.", "options": ["Encouraged", "Encouraging", "Having encouraged", "To encourage"], "answer": "Encouraged", "explain": "市政府是「被成功鼓舞」，逻辑主语 the council 与 encourage 是被动关系，用过去分词。by 也提示被动。" },
+      { "id": "gr-adv-participle-clauses-q2", "type": "mcq", "q": "Which sentence is grammatically correct?", "options": ["Having lived in the city for decades, the changes surprised him.", "Having lived in the city for decades, he was surprised by the changes.", "Having lived in the city for decades, it was surprising for him to see the changes.", "Lived in the city for decades, he was surprised by the changes."], "answer": "Having lived in the city for decades, he was surprised by the changes.", "explain": "在城市住了几十年的是 he，主句主语必须是 he。第一、三句是悬垂分词；第四句 live 和 he 是主动关系，不能用过去分词。" },
+      { "id": "gr-adv-participle-clauses-q3", "type": "fill", "q": "Sales fell by 20% in 2015, ___ (reach) their lowest point in a decade.", "answer": ["reaching"], "explain": "句末现在分词表示结果，逻辑主语是 sales，主动关系，用 reaching。" },
+      { "id": "gr-adv-participle-clauses-q4", "type": "fill", "q": "___ (compare) with other European cities, London has relatively high living costs.", "answer": ["Compared"], "explain": "London 是被比较的对象，用过去分词 Compared with。" },
+      { "id": "gr-adv-participle-clauses-q5", "type": "correct", "q": "Facing with rising costs, many families have cut back on holidays.", "answer": ["Faced with rising costs, many families have cut back on holidays.", "Facing rising costs, many families have cut back on holidays."], "explain": "be faced with 是被动搭配，用 Faced with；或者去掉 with，用 Facing rising costs。" },
+      { "id": "gr-adv-participle-clauses-q6", "type": "correct", "q": "The number of tourists rose steadily, it reached a peak of five million in 2019.", "answer": ["The number of tourists rose steadily, reaching a peak of five million in 2019.", "The number of tourists rose steadily and reached a peak of five million in 2019.", "The number of tourists rose steadily, and it reached a peak of five million in 2019.", "The number of tourists rose steadily; it reached a peak of five million in 2019."], "explain": "两个完整句只用逗号连接是 run-on。最简洁的改法是用句末分词 reaching，也可以加 and 或改用分号。" }
+    ],
+    "related": {
+      "grammarTags": ["非谓语动词", "非谓语动词(分词)", "with 复合结构"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-inversion-cleft",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "倒装与强调句",
+    "titleEn": "Inversion and cleft sentences",
+    "level": "C1",
+    "skills": ["writing"],
+    "order": 80,
+    "minutes": 20,
+    "summary": "能写对 Not only…、Only by…、Rarely… 开头的倒装句和 It is… that… 强调句，并知道一篇作文里用一两次就够，不堆砌。",
+    "sections": [
+      {
+        "heading": "否定词开头的倒装：Not only / Never / Rarely / Little",
+        "body": "否定或半否定词（not only、never、rarely、seldom、little、hardly、no sooner、under no circumstances）放在句首时，句子要**部分倒装**：把助动词、be 动词或情态动词提到主语前面。原句没有助动词的，要补 do / does / did。\n\nNot only… but (also)…：只有 not only 那一半倒装，but also 后面用**正常语序**。",
+        "examples": [
+          { "en": "Not only does regular exercise improve physical health, but it also reduces stress.", "cn": "经常锻炼不仅能改善身体健康，还能减轻压力。", "note": "补助动词 does；but 后面正常语序。" },
+          { "en": "Rarely do governments admit that a major policy has failed.", "cn": "政府很少承认一项重大政策失败了。" },
+          { "en": "Never before has information been so easy to access.", "cn": "信息从未像现在这样容易获取。" },
+          { "en": "Little did local residents know that the factory was polluting their water supply.", "cn": "当地居民根本不知道那家工厂正在污染他们的水源。" }
+        ],
+        "table": {
+          "head": ["原句", "倒装句"],
+          "rows": [
+            ["Exercise not only improves health but also reduces stress.", "Not only does exercise improve health, but it also reduces stress."],
+            ["Governments rarely admit mistakes.", "Rarely do governments admit mistakes."],
+            ["Information has never been so accessible.", "Never has information been so accessible."]
+          ]
+        }
+      },
+      {
+        "heading": "Only + 状语开头的倒装",
+        "body": "Only + 状语（only by…、only when…、only if…、only after…、only then、only in this way）放在句首时，**主句**倒装；only 所在的短语或从句本身**不倒装**。\n\n这个结构很适合在 Task 2 里强调某个解决办法是关键。",
+        "examples": [
+          { "en": "Only by working together can countries tackle climate change effectively.", "cn": "只有通力合作，各国才能有效应对气候变化。" },
+          { "en": "Only when public transport becomes cheaper will most people leave their cars at home.", "cn": "只有公共交通变得更便宜，大多数人才会把车留在家里。", "note": "when 从句正常语序，主句 will most people leave 倒装。" },
+          { "en": "Only in recent years has the issue received serious attention.", "cn": "直到近几年，这个问题才受到认真关注。" }
+        ]
+      },
+      {
+        "heading": "强调句：It is / was … that / who …",
+        "body": "强调句把要强调的成分放在 **It is / was** 和 **that** 之间，其余部分照原样放在 that 后面；强调人时也可以用 who。判断是不是强调句：去掉 It is / was 和 that，剩下的部分能还原成一个完整的句子。\n\n另一种强调结构是 What 引导的分裂句：What + 从句 + is / was…，详见名词性从句一篇。",
+        "examples": [
+          { "en": "It is not the cost but the inconvenience that discourages people from using public transport.", "cn": "让人们不愿乘公共交通的不是费用，而是不方便。" },
+          { "en": "It was only in the 1990s that the internet became widely available to ordinary households.", "cn": "直到 20 世纪 90 年代，互联网才在普通家庭普及。" },
+          { "en": "It is teachers, not technology, who make the biggest difference to students' learning.", "cn": "对学生学习影响最大的是老师，而不是技术。", "note": "强调人，用 who。" },
+          { "en": "What worries many experts is the long-term impact on mental health.", "cn": "让许多专家担心的是对心理健康的长期影响。" }
+        ]
+      },
+      {
+        "heading": "适度使用：一篇作文一两次就够",
+        "body": "倒装和强调句的作用是**突出重点**。如果每段都用，考官会觉得是在硬套模板，句子也更容易出错，反而拉低 GRA。建议全文最多用一次倒装、一次强调句，放在最需要强调的核心论点或结论上；其余句子用自然的复杂句。\n\n也不要为了倒装而倒装：Not only… but also 适合两个层层递进的观点，简单并列时用 and 或 as well as 更自然。",
+        "examples": [
+          { "en": "Only by investing in teacher training can schools make lasting improvements.", "cn": "只有投资教师培训，学校才能取得持久的进步。", "note": "放在结论段，强调核心建议。" },
+          { "en": "Public transport is cheaper and more environmentally friendly than driving.", "cn": "公共交通比开车更便宜、更环保。", "note": "简单并列，不需要倒装。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Not only it improves health, but also it reduces stress.", "right": "Not only does it improve health, but it also reduces stress.", "why": "Not only 开头要倒装（补 does）；but also 后面是正常语序，also 放在主语后面。" },
+      { "wrong": "Only by this way we can solve the problem.", "right": "Only in this way can we solve the problem.", "why": "「用这种方法」是 in this way；Only + 状语开头，主句要倒装：can we solve。" },
+      { "wrong": "Only when people realise the danger they will change their habits.", "right": "Only when people realise the danger will they change their habits.", "why": "Only when 从句本身不倒装，但后面的主句要倒装。" },
+      { "wrong": "Rarely people read printed newspapers nowadays.", "right": "Rarely do people read printed newspapers nowadays.", "why": "Rarely 放句首要倒装并补助动词 do；不想倒装就写成 People rarely read…" },
+      { "wrong": "It is because of high costs which many students drop out.", "right": "It is because of high costs that many students drop out.", "why": "强调句只能用 that（强调人时可用 who），不能用 which。" },
+      { "wrong": "Not only do I like reading, but also I like swimming.", "right": "I enjoy both reading and swimming.", "why": "两个简单爱好并列，用倒装显得生硬，而且 but also 后面的语序也错了。简单信息用 both… and… 就好。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-inversion-cleft-q1", "type": "mcq", "q": "Not only ___ the cost of living, but it has also reduced job security.", "options": ["has inflation increased", "inflation has increased", "inflation increased", "does inflation increased"], "answer": "has inflation increased", "explain": "Not only 开头要部分倒装，现在完成时把助动词 has 提到主语前；does 后要接动词原形，所以第四项也错。" },
+      { "id": "gr-adv-inversion-cleft-q2", "type": "mcq", "q": "Only after the floods ___ the government begin to invest in flood defences.", "options": ["did", "does", "had", "has"], "answer": "did", "explain": "Only after… 开头，主句倒装；begin 是原形，说明前面要补助动词，事情发生在过去，用 did。" },
+      { "id": "gr-adv-inversion-cleft-q3", "type": "fill", "q": "It was in 2008 ___ the financial crisis began to affect ordinary households.", "answer": ["that"], "explain": "强调时间状语 in 2008 的强调句，结构是 It was … that …。去掉 It was 和 that 后，句子 The financial crisis began to affect ordinary households in 2008 依然完整。" },
+      { "id": "gr-adv-inversion-cleft-q4", "type": "fill", "q": "Rarely ___ young people consider the long-term costs of borrowing money.", "answer": ["do"], "explain": "Rarely 放在句首要倒装，原句是一般现在时、主语复数，补助动词 do。" },
+      { "id": "gr-adv-inversion-cleft-q5", "type": "correct", "q": "Only by raising taxes the government can fund better healthcare.", "answer": ["Only by raising taxes can the government fund better healthcare."], "explain": "Only by… 开头，主句要倒装，情态动词 can 提到主语 the government 前面。" },
+      { "id": "gr-adv-inversion-cleft-q6", "type": "correct", "q": "It is the parents which should teach children good manners.", "answer": ["It is the parents who should teach children good manners.", "It is the parents that should teach children good manners."], "explain": "强调句强调人时用 who 或 that，不能用 which。" }
+    ],
+    "related": {
+      "grammarTags": ["倒装", "强调句"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-hedging",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "模糊限定语（hedging）",
+    "titleEn": "Hedging: tend to, arguably, to some extent",
+    "level": "C1",
+    "skills": ["writing", "speaking"],
+    "order": 90,
+    "minutes": 15,
+    "summary": "能用情态动词、tend to、arguably、to some extent 等给观点加上合适的限度，让论证更严谨，同时保持立场清楚。",
+    "sections": [
+      {
+        "heading": "为什么要 hedge：避免绝对化",
+        "body": "中国考生常写 All young people are addicted to their phones. 或 Technology always makes people lonely. 这类过于绝对的句子。考官会认为论证不严谨（影响 TR），也错过了展示语法多样性的机会（影响 GRA）。\n\nHedging 就是用情态动词、副词或动词短语给观点加上合适的限度，让论断**准确**，而不是**软弱**。它和语法直接相关：情态动词、tend to do、It is likely that… 都是考官认可的多样化结构。",
+        "examples": [
+          { "en": "Young people tend to spend more time online than older generations.", "cn": "年轻人往往比年长一代上网时间更长。", "note": "tend to 表示总体倾向。" },
+          { "en": "Social media may contribute to feelings of loneliness among teenagers.", "cn": "社交媒体可能加剧青少年的孤独感。" },
+          { "en": "Arguably, the most effective way to reduce traffic is to make public transport free.", "cn": "可以说，减少交通量最有效的方法是让公共交通免费。" }
+        ],
+        "table": {
+          "head": ["绝对化", "加限度后"],
+          "rows": [
+            ["Technology makes people lazy.", "Technology can make people less physically active."],
+            ["All students cheat in online exams.", "Some students are more likely to cheat in online exams."],
+            ["This policy will solve the problem.", "This policy may help to ease the problem."]
+          ]
+        }
+      },
+      {
+        "heading": "常用 hedging 工具",
+        "body": "几类工具可以组合使用。注意语法：情态动词后接**动词原形**；tend to / seem to / appear to 后也接原形；arguably、possibly 是副词，后面直接接句子或修饰谓语，不加 that。\n\nmay well（很可能）比 may 更肯定，是很地道的写法。",
+        "table": {
+          "head": ["类别", "表达", "例子"],
+          "rows": [
+            ["情态动词", "may / might / could / can", "This could lead to higher prices."],
+            ["倾向动词", "tend to / appear to / seem to", "Older people tend to save more."],
+            ["副词", "arguably / possibly / probably / largely / generally", "This is largely a matter of funding."],
+            ["程度短语", "to some extent / to a large extent / in many cases", "To some extent, the media shapes public opinion."],
+            ["形容词结构", "It is likely / possible / unlikely that...", "It is likely that demand will grow."],
+            ["数量限定", "many / most / a majority of / some", "Most commuters would prefer a shorter journey."]
+          ]
+        },
+        "examples": [
+          { "en": "Rising sea levels may well force millions of people to leave coastal areas.", "cn": "海平面上升很可能迫使数百万人离开沿海地区。", "note": "may well 表示「很可能」。" },
+          { "en": "To a large extent, a country's prosperity depends on the education of its workforce.", "cn": "在很大程度上，一个国家的繁荣取决于劳动者的教育水平。" },
+          { "en": "Online courses appear to suit adult learners better than school pupils.", "cn": "网课似乎更适合成年学习者，而不是中小学生。" }
+        ]
+      },
+      {
+        "heading": "把握程度：主要观点要明确",
+        "body": "hedging 的强弱要和证据匹配：公认的事实不需要 hedge，有争议的判断才需要。一句里堆三四个限定词，比如 It might possibly be somewhat true that…，就会显得没有立场。\n\nTask 2 要求立场清楚：**主要观点要明确，细节判断可以留余地**。一个好用的模式是「明确立场 + 有限度的理由」。",
+        "examples": [
+          { "en": "I strongly believe that governments should fund public libraries, as they may be the only source of free internet access for some families.", "cn": "我坚信政府应该资助公共图书馆，因为对某些家庭来说，那里可能是唯一能免费上网的地方。", "note": "立场明确，理由部分适度 hedge。" },
+          { "en": "Although this measure is unlikely to eliminate crime completely, it would arguably make streets safer.", "cn": "虽然这项措施不太可能完全消除犯罪，但可以说它会让街道更安全。" },
+          { "en": "There is little doubt that smoking damages health.", "cn": "毫无疑问，吸烟有害健康。", "note": "公认事实，不需要 hedge。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Young people tend to spending too much time on games.", "right": "Young people tend to spend too much time on games.", "why": "tend to 的 to 是不定式符号，后面接动词原形。" },
+      { "wrong": "Maybe this policy can reduce crime to some extents.", "right": "This policy may reduce crime to some extent.", "why": "to some extent 是固定短语，extent 不加 s；Maybe 偏口语，写作中用 may、perhaps 或 possibly 更合适。" },
+      { "wrong": "This may can improve students' confidence.", "right": "This may improve students' confidence.", "why": "两个情态动词不能连用；需要表达能力时写成 may be able to。" },
+      { "wrong": "Arguably that public transport should be free.", "right": "Arguably, public transport should be free.", "why": "arguably 是副词，后面直接接完整句子，不加 that；否则句子缺少主句，成了碎片。" },
+      { "wrong": "Everyone knows that online shopping is bad for the environment.", "right": "Online shopping can be harmful to the environment.", "why": "Everyone knows 是没有根据的绝对化说法，考官会认为论证不严谨；用 can 给出合适的限度。" },
+      { "wrong": "It might possibly perhaps be true that exams cause stress.", "right": "Exams can cause considerable stress.", "why": "过度 hedge：一句里叠了三个限定词，读者看不出你的立场。一个就够了。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-hedging-q1", "type": "mcq", "q": "Which sentence is the most appropriate for an IELTS Task 2 essay?", "options": ["All teenagers are addicted to social media.", "Many teenagers appear to spend excessive time on social media.", "Teenagers maybe use social media too much.", "It might possibly perhaps be true that teenagers use social media too much."], "answer": "Many teenagers appear to spend excessive time on social media.", "explain": "第一句过于绝对；第三句 maybe 位置和语气都不适合写作；第四句过度 hedge。第二句用 many 和 appear to 给出合适的限度。" },
+      { "id": "gr-adv-hedging-q2", "type": "mcq", "q": "Remote working ___ reduce office costs, but it may also weaken team communication.", "options": ["may well", "may can", "tends", "arguably to"], "answer": "may well", "explain": "may well + 动词原形表示「很可能」；may can 两个情态动词连用是错的；tends 后要加 to；arguably 是副词，不接 to。" },
+      { "id": "gr-adv-hedging-q3", "type": "fill", "q": "Children who read regularly ___ to perform better in language tests.", "answer": ["tend", "seem", "appear"], "explain": "主语是复数 children，tend to / seem to / appear to 都能表达有限度的判断。" },
+      { "id": "gr-adv-hedging-q4", "type": "fill", "q": "To some ___, the media is responsible for the rise in consumerism.", "answer": ["extent", "degree"], "explain": "to some extent / to some degree 表示「在某种程度上」，是固定短语，名词用单数。" },
+      { "id": "gr-adv-hedging-q5", "type": "correct", "q": "This plan may can reduce traffic in the city centre.", "answer": ["This plan may reduce traffic in the city centre.", "This plan can reduce traffic in the city centre.", "This plan may be able to reduce traffic in the city centre."], "explain": "两个情态动词不能连用，保留一个；想同时表达可能和能力，用 may be able to。" },
+      { "id": "gr-adv-hedging-q6", "type": "correct", "q": "Older people tend to having fewer opportunities to learn new skills.", "answer": ["Older people tend to have fewer opportunities to learn new skills."], "explain": "tend to 后面接动词原形，having 改为 have。" }
+    ],
+    "related": {
+      "grammarTags": ["情态动词"],
+      "tabs": ["ielts:writing", "ielts:speaking"]
+    }
+  },
+  {
+    "id": "gr-adv-parallelism",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "平行结构与列举",
+    "titleEn": "Parallel structure and lists",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 100,
+    "minutes": 15,
+    "summary": "能让 and / or / both…and / not only…but also 连接的成分形式一致，写对列举和比较句里的平行结构，包括 that of / those of。",
+    "sections": [
+      {
+        "heading": "平行原则：同类成分，同样形式",
+        "body": "用 and、or、but、as well as、both…and、either…or、not only…but also 连接的成分，在语法上必须**对齐**：名词对名词、动名词对动名词、不定式对不定式、从句对从句。不对齐的句子意思能懂，但会被算作语法错误，读起来也别扭。",
+        "examples": [
+          { "en": "Living in a big city offers better job opportunities, a wider range of services and more cultural activities.", "cn": "住在大城市有更好的工作机会、更全面的服务和更多文化活动。", "note": "三个名词短语。" },
+          { "en": "Governments should invest in public transport, reduce fuel subsidies and encourage cycling.", "cn": "政府应投资公共交通、削减燃油补贴并鼓励骑行。", "note": "三个动词原形。" },
+          { "en": "Many parents worry not only about what their children watch online but also about how long they spend on screens.", "cn": "许多家长不仅担心孩子在网上看什么，还担心他们看屏幕的时间有多长。", "note": "not only / but also 后都是 about + 从句。" }
+        ],
+        "table": {
+          "head": ["不平行", "平行"],
+          "rows": [
+            ["swimming, to jog and cycling", "swimming, jogging and cycling"],
+            ["cheap, convenience and safe", "cheap, convenient and safe"],
+            ["to save money and protecting the environment", "to save money and (to) protect the environment"]
+          ]
+        }
+      },
+      {
+        "heading": "关联连词：both…and / either…or / neither…nor / not only…but also",
+        "body": "关联连词的两部分后面要接**相同的语法成分**。检查方法：把两部分分别和后面的内容连起来读，看形式是否一致。\n\n位置也要对齐：如果两个选项都是名词，关联词就放在名词前，如 take either the bus or a taxi；如果两个选项都是动词短语，就放在动词前，如 either take the bus or walk。",
+        "examples": [
+          { "en": "Both the government and individuals have a role to play in reducing waste.", "cn": "政府和个人在减少浪费方面都有责任。" },
+          { "en": "Students can either attend lectures in person or watch recordings online.", "cn": "学生可以现场听课，也可以在线看录像。", "note": "either / or 后都是动词短语。" },
+          { "en": "The scheme was neither popular with residents nor effective in reducing crime.", "cn": "这个项目既不受居民欢迎，也没能有效减少犯罪。", "note": "neither / nor 后都是形容词短语。" }
+        ]
+      },
+      {
+        "heading": "列举：Task 2 的论点和 Task 1 的数据",
+        "body": "列举三项以上时用逗号分隔，最后一项前加 and 或 or；最后一项前的逗号可加可不加，全文统一即可。如果各项是很长的从句，可以用分号分隔，或拆成几个句子。\n\nTask 1 描述多个类别时，让各分句的「主语 + 动词 + 数字」顺序一致，重复的动词可以省略，数据会更清楚。",
+        "examples": [
+          { "en": "There are three main reasons for this trend: rising living costs, longer working hours and a lack of affordable childcare.", "cn": "这一趋势主要有三个原因：生活成本上升、工作时间变长以及缺乏负担得起的托儿服务。", "note": "冒号后列举三个名词短语。" },
+          { "en": "Spending on food rose by 10%, spending on housing by 25% and spending on transport by 5%.", "cn": "食品支出增长了 10%，住房支出增长了 25%，交通支出增长了 5%。", "note": "后两项省略重复的 rose，结构保持一致。" },
+          { "en": "The proportion of graduates was highest in Canada, at 56%, and lowest in Italy, at 20%.", "cn": "毕业生比例在加拿大最高，为 56%；在意大利最低，为 20%。" }
+        ]
+      },
+      {
+        "heading": "比较句里的平行：that of / those of",
+        "body": "比较句中被比较的两个对象也必须**对等**。比较「A 的某方面」和「B 的某方面」时，第二个要用 **that of**（单数）或 **those of**（复数）代替前面的名词，不能直接写 B。这是 Task 1 里非常高频的错误。",
+        "examples": [
+          { "en": "The population of Tokyo is larger than that of London.", "cn": "东京的人口比伦敦多。", "note": "that = the population。" },
+          { "en": "Prices in rural areas are considerably lower than those in the capital.", "cn": "农村地区的物价比首都低得多。", "note": "those = prices。" },
+          { "en": "Women's average income was 20% lower than men's.", "cn": "女性的平均收入比男性低 20%。", "note": "men's = men's average income。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Many people enjoy swimming, to run and cycling.", "right": "Many people enjoy swimming, running and cycling.", "why": "并列的三项要形式一致，enjoy 后接动名词，三项都用 -ing。" },
+      { "wrong": "Public transport is cheap, convenience and good for the environment.", "right": "Public transport is cheap, convenient and good for the environment.", "why": "be 动词后并列的是形容词，convenience 是名词，要改成 convenient。" },
+      { "wrong": "The salary of doctors is higher than teachers.", "right": "The salary of doctors is higher than that of teachers.", "why": "比较的是工资和工资，不是工资和老师，要用 that of 代替 the salary。" },
+      { "wrong": "The policy not only helps the environment but also it saves money.", "right": "The policy not only helps the environment but also saves money.", "why": "not only 后是动词短语，but also 后也要是动词短语，不能多出主语 it。" },
+      { "wrong": "Children should be taught how to cook, manage money and that they should respect others.", "right": "Children should be taught how to cook, how to manage money and how to respect others.", "why": "三项并列中混入了 that 从句，形式不一致；统一成 how to do。" },
+      { "wrong": "Commuters can either take the bus or a taxi.", "right": "Commuters can take either the bus or a taxi.", "why": "either 后是动词 take，or 后却是名词 a taxi，位置没对齐；两个选项都是名词，either 应放在 the bus 前面。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-parallelism-q1", "type": "mcq", "q": "Working from home allows employees to save time, ___ money and achieve a better work-life balance.", "options": ["save", "saving", "to saving", "saved"], "answer": "save", "explain": "三项并列都是 allow sb to do 里的不定式：to save time, (to) save money and (to) achieve…，后两项省略 to，用原形。" },
+      { "id": "gr-adv-parallelism-q2", "type": "mcq", "q": "The cost of living in London is much higher than ___ in most other UK cities.", "options": ["that", "those", "it", "this"], "answer": "that", "explain": "比较的是两地的 cost of living（单数），用 that 代替前面的名词。" },
+      { "id": "gr-adv-parallelism-q3", "type": "fill", "q": "The new park is not only beautiful but also ___ (use) to local residents.", "answer": ["useful"], "explain": "not only 后是形容词 beautiful，but also 后也要用形容词 useful。" },
+      { "id": "gr-adv-parallelism-q4", "type": "fill", "q": "Online learning is flexible, affordable and ___ (access) to people in remote areas.", "answer": ["accessible"], "explain": "三项并列都是形容词，access 改为形容词 accessible，搭配 accessible to。" },
+      { "id": "gr-adv-parallelism-q5", "type": "correct", "q": "Exercise helps people to lose weight, reducing stress and sleep better.", "answer": ["Exercise helps people to lose weight, reduce stress and sleep better.", "Exercise helps people lose weight, reduce stress and sleep better.", "Exercise helps people to lose weight, reduce stress, and sleep better.", "Exercise helps people lose weight, reduce stress, and sleep better.", "Exercise helps people to lose weight, to reduce stress and to sleep better."], "explain": "help sb (to) do 后三项并列都应是动词原形，reducing 改为 reduce。" },
+      { "id": "gr-adv-parallelism-q6", "type": "correct", "q": "The average rainfall in Cardiff is higher than London.", "answer": ["The average rainfall in Cardiff is higher than that in London.", "The average rainfall in Cardiff is higher than that of London.", "The average rainfall in Cardiff is higher than in London."], "explain": "比较的是降雨量和降雨量，不是降雨量和伦敦。用 that in London 代替 the average rainfall，或省略为 than in London。" }
+    ],
+    "related": {
+      "grammarTags": ["并列结构", "比较结构"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-sentence-boundaries",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "句子边界与标点：run-on、碎片句、分号与冒号",
+    "titleEn": "Sentence boundaries and punctuation",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 110,
+    "minutes": 20,
+    "summary": "能识别并改正逗号连接句、run-on 句和句子碎片，正确使用 however 前后的标点，以及分号、冒号，消除 6 分和 7 分之间最典型的标点问题。",
+    "sections": [
+      {
+        "heading": "逗号连接句（comma splice）与 run-on",
+        "body": "英文里，一个完整句子（有主语和谓语、能独立成句）与另一个完整句子之间，**不能只用逗号连接**，这叫逗号连接句（comma splice）；什么标点都不加直接连写，叫融合句（fused sentence）。两者都属于 run-on sentence。\n\n中文习惯「一逗到底」，所以这是中国考生最常见的 GRA 失分点。评分标准里，6 分和 7 分的区别之一就是「有没有 run-on sentence」。\n\n四种改法：① 用句号分开；② 逗号 + 并列连词（and、but、so、or、yet）；③ 用分号；④ 把其中一句改成从句或分词短语。",
+        "table": {
+          "head": ["改法", "例子"],
+          "rows": [
+            ["句号", "Housing costs have soared. Many young people now rent for longer."],
+            ["逗号 + 并列连词", "Housing costs have soared, so many young people now rent for longer."],
+            ["分号", "Housing costs have soared; many young people now rent for longer."],
+            ["从句", "Because housing costs have soared, many young people now rent for longer."]
+          ]
+        },
+        "examples": [
+          { "en": "Car use has fallen in the city centre, and air quality has improved noticeably.", "cn": "市中心的汽车使用减少了，空气质量明显改善。", "note": "逗号 + and。" },
+          { "en": "Many students work part-time while studying, which leaves them little time to rest.", "cn": "许多学生边上学边打工，几乎没时间休息。", "note": "后一句改成 which 从句。" }
+        ]
+      },
+      {
+        "heading": "however / therefore 不是连词",
+        "body": "however、therefore、moreover、nevertheless、otherwise 是**连接副词**，不能像 but、so 那样用逗号连接两个句子。它们前面要用**句号或分号**，后面通常加逗号。\n\n用「…, however, …」连接两个完整句，是中国考生作文里最典型的逗号连接句。",
+        "examples": [
+          { "en": "Online shopping is convenient. However, it has led to the closure of many local shops.", "cn": "网购很方便。然而，它导致许多本地商店关门。" },
+          { "en": "Online shopping is convenient; however, it has led to the closure of many local shops.", "cn": "网购很方便；然而，它导致许多本地商店关门。", "note": "分号 + however + 逗号。" },
+          { "en": "Fossil fuels will eventually run out; therefore, investment in renewable energy is essential.", "cn": "化石燃料终将耗尽，因此投资可再生能源至关重要。" }
+        ],
+        "table": {
+          "head": ["词类", "词", "标点"],
+          "rows": [
+            ["并列连词", "and, but, so, or, yet", "句子 A, but 句子 B."],
+            ["从属连词", "because, although, while, whereas, if", "可放句首或两句之间"],
+            ["连接副词", "however, therefore, moreover, otherwise", "句子 A. However, 句子 B. / 句子 A; however, 句子 B."]
+          ]
+        }
+      },
+      {
+        "heading": "句子碎片（fragment）",
+        "body": "句子碎片是缺少主句的「半句话」，却被当成完整句子用句号结束。常见三种：① 从句单独成句（Because… / Although… / Which…）；② 只有 for example、such as 引出的短语；③ 缺谓语动词。\n\n改法是把碎片并入前后的主句，或者补全主语和谓语。",
+        "examples": [
+          { "en": "Many people choose to live in the suburbs because houses there are larger and cheaper.", "cn": "许多人选择住在郊区，因为那里的房子更大更便宜。", "note": "because 从句并入主句，不单独成句。" },
+          { "en": "Some jobs are difficult to automate, for example nursing and social work.", "cn": "有些工作很难自动化，比如护理和社会工作。", "note": "for example 短语跟在主句后面。" },
+          { "en": "Many young people are delaying marriage, which reflects changing social attitudes.", "cn": "许多年轻人推迟结婚，这反映出社会观念的变化。", "note": "which 从句接在主句后面。" }
+        ]
+      },
+      {
+        "heading": "分号和冒号",
+        "body": "**分号（;）**：① 连接两个意思紧密相关的完整句子，作用接近句号但关系更紧；② 列举的各项本身含有逗号时，用分号分隔各项。\n\n**冒号（:）**：前面必须是一个完整的句子，后面是解释、列举或总结。冒号不能放在 include、such as、are 这类词后面，因为它前面的部分还不是完整句子。\n\n建议：一篇作文用一两个分号、一个冒号就够了，用错比不用更伤分。",
+        "examples": [
+          { "en": "Some people learn best by reading; others need to see or hear information.", "cn": "有些人通过阅读学得最好；另一些人则需要看到或听到信息。", "note": "分号连接两个对比的完整句。" },
+          { "en": "The survey covered three cities: Manchester, England; Glasgow, Scotland; and Cardiff, Wales.", "cn": "调查覆盖了三座城市：英格兰的曼彻斯特、苏格兰的格拉斯哥和威尔士的加的夫。", "note": "各项内部有逗号，项与项之间用分号。" },
+          { "en": "Governments face a difficult choice: raise taxes or cut public services.", "cn": "政府面临一个艰难的选择：加税或削减公共服务。", "note": "冒号前是完整句，后面解释 choice。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Technology has many benefits, however, it also has drawbacks.", "right": "Technology has many benefits; however, it also has drawbacks.", "why": "however 是副词，不能用逗号连接两个句子。前面改成分号或句号，或者把 however 换成 but。" },
+      { "wrong": "Many people move to cities, they can find better jobs there.", "right": "Many people move to cities because they can find better jobs there.", "why": "两个完整句只用逗号连接，是逗号连接句。按逻辑加上从属连词 because。" },
+      { "wrong": "Because public transport is unreliable. Many people prefer to drive.", "right": "Because public transport is unreliable, many people prefer to drive.", "why": "Because 从句不能单独成句，要和主句用逗号连在一起。" },
+      { "wrong": "The main reasons include: cost, time and convenience.", "right": "The main reasons include cost, time and convenience.", "why": "冒号前必须是完整句子，include 后面直接接宾语；如果想用冒号，可写成 There are three main reasons: cost, time and convenience." },
+      { "wrong": "Some countries have very low birth rates. For example, Japan and South Korea.", "right": "Some countries, for example Japan and South Korea, have very low birth rates.", "why": "For example, Japan and South Korea. 没有谓语，是句子碎片，要并入主句。" },
+      { "wrong": "Prices rose sharply in 2020 the government did nothing to help.", "right": "Prices rose sharply in 2020, but the government did nothing to help.", "why": "两个完整句之间没有任何标点或连词，是融合句。按逻辑加上「逗号 + but」。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-sentence-boundaries-q1", "type": "mcq", "q": "Which sentence is punctuated correctly?", "options": ["Cars are expensive to run, however, many people still rely on them.", "Cars are expensive to run; however, many people still rely on them.", "Cars are expensive to run, many people still rely on them.", "Cars are expensive to run however many people still rely on them."], "answer": "Cars are expensive to run; however, many people still rely on them.", "explain": "两个完整句用 however 衔接时，前面要用分号（或句号），后面加逗号。第一、三句是逗号连接句，第四句是融合句。" },
+      { "id": "gr-adv-sentence-boundaries-q2", "type": "mcq", "q": "Which of these is a sentence fragment?", "options": ["Although tuition fees have risen sharply.", "Tuition fees have risen sharply.", "Tuition fees have risen sharply, but applications have not fallen.", "Although tuition fees have risen sharply, applications have not fallen."], "answer": "Although tuition fees have risen sharply.", "explain": "Although 引导的是从句，没有主句，不能单独成句。" },
+      { "id": "gr-adv-sentence-boundaries-q3", "type": "fill", "q": "Some people prefer to study alone, ___ others learn better in groups.（填一个连词）", "answer": ["while", "whereas", "but"], "explain": "逗号后连接第二个完整句，必须用连词；两句是对比关系，用 while、whereas 或 but。如果用 however，前面就要改成分号或句号。" },
+      { "id": "gr-adv-sentence-boundaries-q4", "type": "fill", "q": "The council has cut bus services; ___, many elderly residents now struggle to get to the shops.", "answer": ["as a result", "therefore", "consequently", "as a consequence"], "explain": "分号后接表示结果的连接副词或短语，再加逗号。用 so 的话前面应该是逗号，不是分号。" },
+      { "id": "gr-adv-sentence-boundaries-q5", "type": "correct", "q": "Many graduates cannot find jobs, therefore they continue their studies.", "answer": ["Many graduates cannot find jobs; therefore, they continue their studies.", "Many graduates cannot find jobs. Therefore, they continue their studies.", "Many graduates cannot find jobs; therefore they continue their studies.", "Many graduates cannot find jobs. Therefore they continue their studies.", "Many graduates cannot find jobs, so they continue their studies."], "explain": "therefore 是副词，不能用逗号连接两句。前面改成分号或句号，或把 therefore 换成连词 so。" },
+      { "id": "gr-adv-sentence-boundaries-q6", "type": "correct", "q": "Because the city has expanded rapidly. Traffic congestion has become worse.", "answer": ["Because the city has expanded rapidly, traffic congestion has become worse.", "Traffic congestion has become worse because the city has expanded rapidly.", "The city has expanded rapidly, so traffic congestion has become worse."], "explain": "Because 从句被句号隔开成了碎片。把它和主句合并，从句在前时中间用逗号。" }
+    ],
+    "related": {
+      "grammarTags": ["连词", "连接词", "并列结构"],
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "gr-adv-tense-voice-tasks",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "Task 1 与 Task 2 的时态与语态一致",
+    "titleEn": "Tense and voice consistency in Task 1 and Task 2",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 120,
+    "minutes": 20,
+    "summary": "能按图表时间选对时态，用多种结构描述预测数据，用一般现在时被动语态写流程图，并在 Task 2 中让时态随时间信号合理切换。",
+    "sections": [
+      {
+        "heading": "Task 1 图表：按时间轴选时态",
+        "body": "Task 1 的时态由**图表里的时间**决定，而不是由你写作的时间决定。全部是过去年份，用一般过去时；没有时间或是现状数据，用一般现在时；从过去延续到现在，可以用现在完成时概括；未来年份是预测，用 will 或 be expected to 等表达。\n\n评分标准 Task 1 的 7 分档要求「时态始终与图表时间一致」。同一段描述的时间没变，时态就不要来回跳。",
+        "table": {
+          "head": ["图表时间", "时态", "例子"],
+          "rows": [
+            ["1990–2010", "一般过去时", "Car sales rose steadily, peaking at 2 million in 2005."],
+            ["无时间 / 现状", "一般现在时", "Men account for 60% of the workforce."],
+            ["2000 至今", "现在完成时（概括）", "The figure has more than doubled since 2000."],
+            ["2030 预测", "将来表达", "The figure is projected to reach 5 million by 2030."],
+            ["by + 过去时间", "过去完成时", "By 2010, the figure had fallen to 20%."]
+          ]
+        },
+        "examples": [
+          { "en": "In 1995, coal accounted for almost half of the country's energy production.", "cn": "1995 年，煤炭几乎占该国能源生产的一半。" },
+          { "en": "By 2015, the proportion of households with internet access had risen to 85%.", "cn": "到 2015 年，能上网的家庭比例已升至 85%。", "note": "by + 过去时间，常用过去完成时。" },
+          { "en": "The survey shows that most respondents prefer to shop online.", "cn": "调查显示，大多数受访者更喜欢网购。", "note": "没有时间的调查结果，用一般现在时。" }
+        ]
+      },
+      {
+        "heading": "预测数据：别只用 will",
+        "body": "图表包含未来年份时，考官会专门看你会不会表达预测。不要整段只用 will，可以换用：**be expected / projected / predicted / forecast to do**；**It is estimated that … will …**；**be likely to do**；**by + 未来时间 + will have done**（将来完成时）。\n\n这些结构后面都接动词原形。过去和预测出现在同一句时，时态要随时间切换，这是正确的，不算不一致。",
+        "examples": [
+          { "en": "Sales of electric cars are projected to overtake those of petrol cars by 2035.", "cn": "预计到 2035 年，电动车销量将超过汽油车。", "note": "those of 保持比较对象对等。" },
+          { "en": "It is predicted that the urban population will reach 70% of the total by 2050.", "cn": "预计到 2050 年，城市人口将占总人口的 70%。" },
+          { "en": "By 2040, the proportion of people aged over 65 will have doubled.", "cn": "到 2040 年，65 岁以上人口的比例将翻一番。", "note": "将来完成时。" },
+          { "en": "Oil consumption fell between 2000 and 2020 and is expected to continue falling until 2030.", "cn": "石油消耗在 2000 至 2020 年间下降，预计将持续下降到 2030 年。", "note": "过去部分用过去时，预测部分用 is expected to。" }
+        ]
+      },
+      {
+        "heading": "流程图和地图：被动语态",
+        "body": "流程图（process）描述步骤，重点是「东西被怎样处理」，不是「谁在做」，所以主要用**一般现在时的被动语态**。自然过程（如水循环、生物生长）则多用主动语态。\n\n地图题对比两个年份时，用一般过去时或现在完成时的被动描述变化：was built、were demolished、has been replaced。",
+        "examples": [
+          { "en": "First, the raw materials are collected and transported to the factory.", "cn": "首先，原材料被收集起来并运到工厂。" },
+          { "en": "Once the clay has been shaped, it is fired in a kiln at a high temperature.", "cn": "黏土成型后，被放进窑里高温烧制。", "note": "once + 现在完成时被动，表示上一步已完成。" },
+          { "en": "Between 2000 and 2020, the old factory was demolished and replaced with a shopping centre.", "cn": "2000 至 2020 年间，旧工厂被拆除，原址建起了购物中心。", "note": "地图题，用过去时被动；英式拼写 centre。" },
+          { "en": "Water vapour rises and condenses to form clouds.", "cn": "水蒸气上升并凝结成云。", "note": "自然过程用主动语态；英式拼写 vapour。" }
+        ],
+        "table": {
+          "head": ["动词", "被动形式", "例子"],
+          "rows": [
+            ["collect", "are collected", "The leaves are collected by hand."],
+            ["heat", "is heated", "The mixture is heated to 200°C."],
+            ["pack", "are packed", "The bottles are then packed into boxes."],
+            ["demolish", "was demolished", "The bridge was demolished in 2010."],
+            ["replace", "has been replaced", "The car park has been replaced by a park."]
+          ]
+        }
+      },
+      {
+        "heading": "Task 2：以现在时为主，按时间信号切换",
+        "body": "Task 2 议论文以**一般现在时**为主，讨论普遍现象；谈近年来的变化用**现在完成时**（In recent years, … has …）；举过去的具体例子用**一般过去时**；提建议、做预测用 should / will / would。\n\n关键是每次切换都有理由：时间状语变了，时态才变。写完后检查两件事：每个句子的时态是否和它说的时间一致；被动语态有没有漏掉 be 动词或过去分词。",
+        "examples": [
+          { "en": "In recent years, the number of people working from home has increased dramatically.", "cn": "近年来，居家办公的人数急剧增加。", "note": "in recent years → 现在完成时。" },
+          { "en": "When my city introduced a congestion charge in 2018, traffic in the centre fell by a quarter.", "cn": "我所在的城市 2018 年开征拥堵费后，市中心的车流量下降了四分之一。", "note": "具体的过去例子，用一般过去时。" },
+          { "en": "If this trend continues, many city-centre offices will become unnecessary.", "cn": "如果这一趋势持续下去，许多市中心的办公楼将变得多余。" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "In 2000, the number of students is 3 million.", "right": "In 2000, the number of students was 3 million.", "why": "2000 年是过去，用一般过去时。很多考生写着写着就滑回现在时。" },
+      { "wrong": "The price will expected to rise in 2030.", "right": "The price is expected to rise in 2030.", "why": "be expected to 是被动结构，will 后面不能直接接过去分词；要么写 is expected to，要么直接写 will rise。" },
+      { "wrong": "Then the fruit washes and cuts into pieces.", "right": "Then the fruit is washed and cut into pieces.", "why": "水果是被洗、被切的，流程图要用被动语态。" },
+      { "wrong": "The old houses were demolish and a park was build.", "right": "The old houses were demolished and a park was built.", "why": "被动语态要用过去分词：demolished、built。漏写过去分词是高频小错。" },
+      { "wrong": "Since 2010, the figure increased by 30%.", "right": "Since 2010, the figure has increased by 30%.", "why": "since + 过去时间点，表示一直持续到现在，用现在完成时。" },
+      { "wrong": "In recent years, online shopping became more popular.", "right": "In recent years, online shopping has become more popular.", "why": "in recent years 指从过去到现在的一段时间，用现在完成时。" }
+    ],
+    "exercises": [
+      { "id": "gr-adv-tense-voice-tasks-q1", "type": "mcq", "q": "According to the line graph, the number of visitors ___ to 4 million in 2005.", "options": ["rose", "rises", "has risen", "is rising"], "answer": "rose", "explain": "2005 年是过去的具体时间点，用一般过去时 rose。" },
+      { "id": "gr-adv-tense-voice-tasks-q2", "type": "mcq", "q": "The proportion of elderly people ___ to 30% by 2050.", "options": ["is projected to rise", "projected to rise", "is projecting to rise", "rose"], "answer": "is projected to rise", "explain": "2050 年是预测，用 be projected to do；缺少 be 动词或用主动 is projecting 都是错的。" },
+      { "id": "gr-adv-tense-voice-tasks-q3", "type": "fill", "q": "After the beans ___ (roast), they are cooled and ground.", "answer": ["are roasted", "have been roasted"], "explain": "流程图用一般现在时被动语态，豆子是被烘焙的：are roasted；强调上一步已完成也可以用 have been roasted。" },
+      { "id": "gr-adv-tense-voice-tasks-q4", "type": "fill", "q": "Between 1995 and 2015, the old railway station ___ (convert) into a museum.", "answer": ["was converted"], "explain": "地图题描述过去的变化，车站是被改建的，用一般过去时被动 was converted。" },
+      { "id": "gr-adv-tense-voice-tasks-q5", "type": "correct", "q": "In 2010, the percentage of households with a car is 65%, but it falls to 58% in 2020.", "answer": ["In 2010, the percentage of households with a car was 65%, but it fell to 58% in 2020."], "explain": "2010 年和 2020 年都是过去，两处都要用一般过去时：was、fell。" },
+      { "id": "gr-adv-tense-voice-tasks-q6", "type": "correct", "q": "In the final stage, the bottles fill with juice and seal.", "answer": ["In the final stage, the bottles are filled with juice and sealed.", "In the final stage, the bottles are filled with juice and are sealed.", "In the final stage, the bottles are filled with juice and then sealed."], "explain": "瓶子是被灌装、被密封的，流程图用一般现在时被动：are filled… and (are) sealed。" }
+    ],
+    "related": {
+      "grammarTags": ["一般过去时", "被动语态", "现在完成时 vs 一般过去时", "将来完成时", "by + 将来时间"],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  }
+]
