@@ -143,7 +143,7 @@
 |---|---|---|
 | GET | `/ielts/listening` | `{ total, items: [ { id, part, title, titleCn, questionCount, types, speakerCount, segmentCount, scriptWords, attempts, best: { raw, total, band, mode, ts } \| null, lastTs } ], skipped, bandNote }`；`best` 取正确率最高的一次，同分取最近一次；`skipped` 为数据有误被跳过的 section 数 |
 | GET | `/ielts/listening/:id` | 题目 + 脚本（`speakers`、`segments`、`groups`），**不含** `answer` / `explanation` / `segment` / `evidence` |
-| POST | `/ielts/listening/:id/submit` | body `{ answers: { "1": "Brennan", "11": "C" }, durationSec, mode: "exam" \| "practice" }` → `{ ok, entry, raw, total, raw40, band, bandNote, mode, durationSec, isBest, results: [ { no, correct, yours, overLimit, answer: [可接受写法], explanation, segment, evidence? } ] }` |
+| POST | `/ielts/listening/:id/submit` | body `{ answers: { "1": "Brennan", "11": "C" }, durationSec, mode: "exam" \| "practice" }` → `{ ok, entry, raw, total, raw40, band, bandNote, mode, durationSec, isBest（严格高于此前最好成绩才为 true）, results: [ { no, correct, yours, overLimit, answer: [可接受写法], explanation, segment, evidence? } ] }` |
 
 **输入校验**（非法返回 400 `{ error }`，未知 id 返回 404）
 - `:id` 须匹配 `^[A-Za-z0-9_-]{1,64}$`，否则 400
@@ -228,5 +228,6 @@
 - T4 原创内容：Part 3–4（4 个 section）
   - [x] 已实现 2026-11-25
 - T5 `routes/ielts-listening.js`：列表、题目、交卷
+  - [x] 已实现 2026-11-25
 - T6 `public/js/ielts-listening-ui.js` + `index.html` 一行 script
 - T7 `scripts/test-ielts-listening.js`
