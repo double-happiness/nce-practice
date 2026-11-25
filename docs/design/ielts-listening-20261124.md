@@ -234,3 +234,4 @@
 - T6 `public/js/ielts-listening-ui.js` + `index.html` 一行 script
   - [x] 已实现 2026-11-25
 - T7 `scripts/test-ielts-listening.js`
+  - [x] 已实现 2026-11-25
