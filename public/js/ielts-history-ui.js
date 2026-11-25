@@ -1,7 +1,8 @@
 'use strict';
-// 雅思备考 · 记录子页：写作 / 口语历次自评记录、band 趋势折线（内联 SVG），点开看原文与题目（口语另有转写与流利度指标）。
-// 接口：GET /api/ielts/history?type=writing|speaking&limit=、GET /api/ielts/summary；
-// 题目标题优先用 history 返回的 title；缺 title 时才拉 GET /api/ielts/writing、GET /api/ielts/speaking 做映射（拿不到就只显示题目 id）。
+// 雅思备考 · 记录子页：写作 / 口语历次自评记录、听力 / 阅读历次成绩，band 趋势折线（内联 SVG）；
+// 写作口语点开看原文与题目（口语另有转写与流利度指标），听力阅读点开看错题并可跳回对应模块重做。
+// 接口：GET /api/ielts/history?type=writing|speaking|listening|reading&limit=、GET /api/ielts/summary；
+// 写作口语的题目标题优先用 history 返回的 title；缺 title 时才拉 GET /api/ielts/writing、GET /api/ielts/speaking 做映射（拿不到就只显示题目 id）。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -26,6 +27,15 @@
     .ieh-svg text.target-l{fill:var(--ok)}
     .ieh-svg .line{fill:none;stroke:var(--brand);stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}
     .ieh-svg .dot{fill:var(--brand)}
+    .ieh-svg .dot.practice{fill:var(--card);stroke:var(--brand);stroke-width:2}
+    .ieh-sum-note{margin-top:10px;line-height:1.7}
+    .ieh-wrongs{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+    .ieh-wrong{padding:9px 12px;border-radius:8px;background:rgba(127,127,127,.06);font-size:13.5px;line-height:1.7;overflow-wrap:anywhere}
+    .ieh-wrong-q{color:var(--ink)}
+    .ieh-wrong-q b{margin-right:6px}
+    .ieh-wrong .bad{color:var(--bad);font-weight:600}
+    .ieh-wrong .ok{color:var(--ok);font-weight:600}
+    .ieh-wrong .quote{font-family:Georgia,"Times New Roman",serif;font-style:italic}
     .ieh-list{display:flex;flex-direction:column;gap:8px}
     .ieh-rec{border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card)}
     .ieh-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 12px;cursor:pointer}
@@ -45,9 +55,21 @@
   `;
   document.head.appendChild(style);
 
+  // 记录类型：todo 用于空状态引导，hint 是列表标题旁的提示
+  const TYPES = {
+    writing: { name: '写作', icon: '✍️', todo: '完成一次练习和自评', hint: '点开看原文' },
+    speaking: { name: '口语', icon: '🎙️', todo: '完成一次练习和自评', hint: '点开看原文' },
+    listening: { name: '听力', icon: '🎧', todo: '做完一组题并交卷', hint: '点开看错题' },
+    reading: { name: '阅读', icon: '📖', todo: '做完一篇并交卷', hint: '点开看错题' },
+  };
+  // 听力 / 阅读：有原始分和错题，没有自评维度
+  function isScored(type) {
+    return type === 'listening' || type === 'reading';
+  }
+
   const st = {
     type: 'writing',
-    records: { writing: null, speaking: null },
+    records: { writing: null, speaking: null, listening: null, reading: null },
     titles: null, // id → 标题
     titlesLoading: null,
     full: {}, // 'writing:id' / 'speaking:id' → 完整题目
@@ -137,7 +159,9 @@
   }
 
   // ---------- 趋势 ----------
-  function trendHtml(list, width) {
+  // opts（可选）：hollow(r) 为 true 的点画成空心（听力 / 阅读的练习模式），caption(n) 自定义图下说明
+  function trendHtml(list, width, opts) {
+    const o = opts || {};
     const pts = list
       .filter((r) => Number.isFinite(Number(r.band)))
       .slice()
@@ -151,44 +175,66 @@
     const padL = 34, padR = 16, padT = 14, padB = 26;
     const iw = W - padL - padR, ih = H - padT - padB;
     const n = pts.length;
+    // 纵轴默认 3–9；有低于 3 的成绩（听力阅读低分段）时向下扩到对应整数，避免点被压在底线上
+    const yMin = Math.max(0, Math.min(Y_MIN, Math.floor(Math.min(...pts.map((p) => Number(p.band))))));
     const x = (i) => padL + (i / (n - 1)) * iw;
-    const y = (v) => padT + (1 - (Math.max(Y_MIN, Math.min(Y_MAX, v)) - Y_MIN) / (Y_MAX - Y_MIN)) * ih;
+    const y = (v) => padT + (1 - (Math.max(yMin, Math.min(Y_MAX, v)) - yMin) / (Y_MAX - yMin)) * ih;
     let g = '';
-    for (let v = Y_MIN; v <= Y_MAX; v++) {
+    for (let v = yMin; v <= Y_MAX; v++) {
       g += `<line class="grid" x1="${padL}" y1="${y(v).toFixed(1)}" x2="${W - padR}" y2="${y(v).toFixed(1)}"/>`;
       g += `<text x="${padL - 8}" y="${(y(v) + 4).toFixed(1)}" font-size="11" text-anchor="end">${v}</text>`;
     }
     const prof = IE.getProfile().profile;
     const target = prof && prof.target ? Number(prof.target.overall) : NaN;
-    if (Number.isFinite(target) && target >= Y_MIN && target <= Y_MAX) {
+    if (Number.isFinite(target) && target >= yMin && target <= Y_MAX) {
       g += `<line class="target" x1="${padL}" y1="${y(target).toFixed(1)}" x2="${W - padR}" y2="${y(target).toFixed(1)}"/>`;
       g += `<text class="target-l" x="${W - padR}" y="${(y(target) - 5).toFixed(1)}" font-size="11" text-anchor="end">目标 ${IE.fmtBand(target)}</text>`;
     }
     g += `<polyline class="line" points="${pts.map((p, i) => `${x(i).toFixed(1)},${y(Number(p.band)).toFixed(1)}`).join(' ')}"/>`;
     pts.forEach((p, i) => {
-      g += `<circle class="dot" cx="${x(i).toFixed(1)}" cy="${y(Number(p.band)).toFixed(1)}" r="4"><title>${esc(IE.fmtDateTime(p.ts))}：${esc(IE.fmtBand(p.band))}</title></circle>`;
+      const hollow = typeof o.hollow === 'function' && o.hollow(p);
+      g += `<circle class="dot${hollow ? ' practice' : ''}" cx="${x(i).toFixed(1)}" cy="${y(Number(p.band)).toFixed(1)}" r="4"><title>${esc(IE.fmtDateTime(p.ts))}：${esc(IE.fmtBand(p.band))}</title></circle>`;
     });
     const d0 = IE.fmtDateTime(pts[0].ts).slice(5, 10);
     const d1 = IE.fmtDateTime(pts[n - 1].ts).slice(5, 10);
     g += `<text x="${padL}" y="${H - 6}" font-size="11">${esc(d0)}</text>`;
     g += `<text x="${W - padR}" y="${H - 6}" font-size="11" text-anchor="end">${esc(d1)}</text>`;
+    const caption = typeof o.caption === 'function' ? o.caption(n) : `最近 ${n} 次自评 band（按时间从左到右）`;
     return `<svg class="ieh-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="band 趋势">${g}</svg>` +
-      `<div class="ie-muted" style="text-align:center">最近 ${n} 次自评 band（按时间从左到右）</div>`;
+      `<div class="ie-muted" style="text-align:center">${esc(caption)}</div>`;
   }
+
+  // 听力 / 阅读：练习模式画空心点（不计入总分估算）
+  const SCORED_TREND = {
+    hollow: (r) => r.mode !== 'exam',
+    caption: (n) => `最近 ${n} 次 band（实心为模考、空心为练习，按时间从左到右）`,
+  };
 
   // ---------- 列表 ----------
   function recHtml(type, r, i) {
-    const titles = st.titles || {};
-    const id = type === 'writing' ? r.promptId : r.itemId;
-    const title = r.title || titles[type + ':' + id] || id || '（未知题目）';
+    const pills = [];
     const meta = [];
-    if (type === 'writing' && r.wordCount != null) meta.push(`${r.wordCount} 词`);
+    let title;
+    if (isScored(type)) {
+      // 听力 / 阅读：题目已不在题库时后端 title 为空，退回显示题目 id
+      title = r.title || (type === 'listening' ? r.sectionId : r.passageId) || '（未知题目）';
+      if (type === 'listening' && r.part) pills.push(`<span class="ie-pill">Part ${esc(String(r.part))}</span>`);
+      pills.push(r.mode === 'exam' ? '<span class="ie-pill">模考</span>' : '<span class="ie-pill mute">练习</span>');
+      meta.push(`${r.raw} / ${r.total}`);
+      meta.push(Number(r.wrongCount) > 0 ? `错 ${r.wrongCount} 题` : '全对');
+    } else {
+      const titles = st.titles || {};
+      const id = type === 'writing' ? r.promptId : r.itemId;
+      title = r.title || titles[type + ':' + id] || id || '（未知题目）';
+      pills.push(`<span class="ie-pill">${esc(recordLabel(type, r))}</span>`);
+      if (type === 'writing' && r.wordCount != null) meta.push(`${r.wordCount} 词`);
+    }
     if (r.durationSec != null) meta.push(IE.fmtDuration(r.durationSec));
     return (
       `<div class="ieh-rec" data-i="${i}">` +
       '<div class="ieh-row">' +
       `<span class="ieh-date">${esc(IE.fmtDateTime(r.ts))}</span>` +
-      `<span class="ie-pill">${esc(recordLabel(type, r))}</span>` +
+      pills.join('') +
       `<span class="ieh-title">${esc(title)}</span>` +
       (meta.length ? `<span class="ieh-meta">${esc(meta.join(' · '))}</span>` : '') +
       `<span class="ieh-band">${esc(IE.fmtBand(r.band))}</span>` +
@@ -205,6 +251,52 @@
     return item;
   }
 
+  // 一道错题：听力有「你的答案」（空串为未作答）；阅读记录不保存作答内容，yours 为 null
+  function wrongItemHtml(w) {
+    const answer = Array.isArray(w.answer) ? w.answer.join(' / ') : '';
+    let yours = '';
+    if (typeof w.yours === 'string') {
+      yours = w.yours
+        ? `<div>你的答案：<span class="bad">${esc(w.yours)}</span>${w.overLimit ? '（超出字数限制，判错）' : ''}</div>`
+        : '<div>你的答案：<span class="bad">未作答</span></div>';
+    }
+    const quote = w.quote
+      ? `<div class="ie-muted">原文${w.para ? `（${esc(w.para)} 段）` : ''}：<span class="quote">${esc(w.quote)}</span></div>`
+      : '';
+    return (
+      '<div class="ieh-wrong">' +
+      `<div class="ieh-wrong-q"><b>第 ${esc(String(w.no))} 题</b>${esc(w.prompt || '')}</div>` +
+      yours +
+      `<div>正确答案：<span class="ok">${esc(answer)}</span>${w.answerText ? ` · ${esc(w.answerText)}` : ''}</div>` +
+      quote +
+      (w.explanation ? `<div>解析：${esc(w.explanation)}</div>` : '') +
+      '</div>'
+    );
+  }
+
+  function scoredDetailHtml(type, r) {
+    const name = TYPES[type].name;
+    let body;
+    if (!(Number(r.wrongCount) > 0)) {
+      body = '<div>这次全部答对 🎉</div>';
+    } else if (!Array.isArray(r.wrongItems)) {
+      body = `<div class="ie-muted">题目已更新或已不在题库，无法还原这次的 ${esc(String(r.wrongCount))} 道错题。</div>`;
+    } else {
+      body =
+        `<div><b>错题 ${r.wrongItems.length} 道</b>` +
+        (type === 'reading' ? '<span class="ie-muted">（阅读记录不保存作答内容，这里只列正确答案）</span>' : '') +
+        '</div>' +
+        `<div class="ieh-wrongs">${r.wrongItems.map(wrongItemHtml).join('')}</div>`;
+    }
+    return (
+      body +
+      '<div class="ie-row" style="margin-top:10px">' +
+      `<button type="button" class="btn small primary ieh-redo">去${name}再练 →</button>` +
+      (r.mode === 'exam' ? '' : '<span class="ie-muted">练习模式的成绩不计入总分估算</span>') +
+      '</div>'
+    );
+  }
+
   async function toggleDetail(type, recEl, r) {
     const open = recEl.querySelector('.ieh-detail');
     if (open) {
@@ -213,6 +305,13 @@
     }
     const det = document.createElement('div');
     det.className = 'ieh-detail';
+    if (isScored(type)) {
+      // 错题已随记录返回，不用再请求；按钮跳到对应模块（NCE.ielts.go）
+      det.innerHTML = scoredDetailHtml(type, r);
+      recEl.appendChild(det);
+      det.querySelector('.ieh-redo').onclick = () => ctx.go(type);
+      return;
+    }
     const dims = scoresText(r.selfScores);
     if (type === 'writing') {
       det.innerHTML =
@@ -270,17 +369,18 @@
     const list = st.records[type] || [];
     const box = root.querySelector('.ieh-main');
     if (!box) return;
-    const name = type === 'writing' ? '写作' : '口语';
+    const t = TYPES[type];
+    const name = t.name;
     if (!list.length) {
-      box.innerHTML = `<div class="ie-card"><div class="ie-empty">还没有${name}记录。去「${name}」子页完成一次练习和自评，这里就会出现。<br><button type="button" class="btn small primary ieh-go" style="margin-top:10px">去练${name} →</button></div></div>`;
+      box.innerHTML = `<div class="ie-card"><div class="ie-empty">还没有${name}记录。去「${name}」子页${t.todo}，这里就会出现。<br><button type="button" class="btn small primary ieh-go" style="margin-top:10px">去练${name} →</button></div></div>`;
       box.querySelector('.ieh-go').onclick = () => ctx.go(type);
       return;
     }
     box.innerHTML =
       `<div class="ie-card"><h3>📈 ${name} band 趋势</h3><div class="ieh-trend"></div></div>` +
-      `<div class="ie-card"><h3>🗂️ ${name}记录 <span class="ie-h3-sub">共 ${list.length} 条 · 点开看原文</span></h3><div class="ieh-list">${list.map((r, i) => recHtml(type, r, i)).join('')}</div></div>`;
+      `<div class="ie-card"><h3>🗂️ ${name}记录 <span class="ie-h3-sub">共 ${list.length} 条 · ${t.hint}</span></h3><div class="ieh-list">${list.map((r, i) => recHtml(type, r, i)).join('')}</div></div>`;
     const trend = box.querySelector('.ieh-trend');
-    trend.innerHTML = trendHtml(list, trend.clientWidth);
+    trend.innerHTML = trendHtml(list, trend.clientWidth, isScored(type) ? SCORED_TREND : null);
     box.querySelectorAll('.ieh-rec').forEach((el) => {
       el.querySelector('.ieh-row').onclick = () => toggleDetail(type, el, list[Number(el.dataset.i)]);
     });
@@ -300,8 +400,9 @@
       return;
     }
     if (!alive() || st.type !== type) return;
-    // 后端已在每条记录里带 title；只有缺 title 时才拉题目列表做映射（loadTitles 不会抛错）
-    if (list.some((r) => !r || !r.title)) {
+    // 后端已在每条记录里带 title；写作口语缺 title 时才拉题目列表做映射（loadTitles 不会抛错）。
+    // 听力阅读的 title 为空说明题目已不在题库，列表里直接显示题目 id
+    if (!isScored(type) && list.some((r) => !r || !r.title)) {
       await loadTitles();
       if (!alive() || st.type !== type) return;
     }
@@ -319,28 +420,40 @@
       return;
     }
     if (!alive() || !el || !el.isConnected) return;
+    const l = sum.listening || {};
+    const r = sum.reading || {};
     const w = sum.writing || {};
     const s = sum.speaking || {};
     const v = sum.vocab || {};
     const e = sum.estimate || {};
+    // 听力 / 阅读只有模考计分，练习次数单独列出
+    const scoredCell = (x, name) => {
+      const p = Number(x.practiceCount) || 0;
+      return `<div><b>${esc(IE.fmtBand(x.last3Avg))}</b><span>${name}近 3 次模考均分 · 模考 ${Number(x.count) || 0} 次${p ? ` · 练习 ${p} 次` : ''}</span></div>`;
+    };
     el.innerHTML =
       '<div class="ieh-sum">' +
-      `<div><b>${esc(IE.fmtBand(w.last3Avg))}</b><span>写作近 3 次均分 · 共 ${Number(w.count) || 0} 篇</span></div>` +
-      `<div><b>${esc(IE.fmtBand(s.last3Avg))}</b><span>口语近 3 次均分 · 共 ${Number(s.count) || 0} 次</span></div>` +
+      scoredCell(l, '听力') +
+      scoredCell(r, '阅读') +
+      `<div><b>${esc(IE.fmtBand(w.last3Avg))}</b><span>写作近 3 次自评均分 · 共 ${Number(w.count) || 0} 篇</span></div>` +
+      `<div><b>${esc(IE.fmtBand(s.last3Avg))}</b><span>口语近 3 次自评均分 · 共 ${Number(s.count) || 0} 次</span></div>` +
       `<div><b>${v.lastOverall != null ? esc(String(v.lastOverall)) + '%' : '—'}</b><span>最近一次词汇诊断</span></div>` +
-      `<div><b>${esc(IE.fmtBand(e.overall))}</b><span>总分粗估${e.note ? ' · ' + esc(e.note) : ''}</span></div>` +
-      '</div>';
+      `<div><b>${esc(IE.fmtBand(e.overall))}</b><span>总分粗估</span></div>` +
+      '</div>' +
+      (e.note ? `<div class="ie-muted ieh-sum-note">📐 ${esc(e.note)}</div>` : '');
   }
 
   function render(body, c) {
     root = body;
     ctx = c;
-    st.records = { writing: null, speaking: null }; // 每次进入都重新拉，刚提交的记录能马上看到
+    // 每次进入都重新拉，刚提交的记录能马上看到
+    st.records = { writing: null, speaking: null, listening: null, reading: null };
     body.innerHTML =
       '<div class="ie-card ieh-summary"><div class="ie-loading" style="padding:8px 0">正在加载概况…</div></div>' +
       '<div class="ie-row chips ieh-tabs">' +
-      `<div class="chip${st.type === 'writing' ? ' active' : ''}" data-t="writing">✍️ 写作</div>` +
-      `<div class="chip${st.type === 'speaking' ? ' active' : ''}" data-t="speaking">🎙️ 口语</div>` +
+      Object.keys(TYPES)
+        .map((k) => `<div class="chip${st.type === k ? ' active' : ''}" data-t="${k}">${TYPES[k].icon} ${TYPES[k].name}</div>`)
+        .join('') +
       '</div>' +
       '<div class="ieh-main"></div>';
     body.querySelectorAll('.ieh-tabs .chip').forEach((chip) => {
