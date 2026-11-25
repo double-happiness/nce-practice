@@ -1,0 +1,380 @@
+[
+  {
+    "id": "rd-machine-translation",
+    "title": "Teaching Machines to Translate",
+    "titleCn": "教机器做翻译",
+    "difficulty": "hard",
+    "topic": "technology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "The dream of a machine that could translate between human languages is almost as old as the computer itself. In the years after the Second World War, a handful of researchers, impressed by the success of code-breaking during the conflict, suggested that a text in Russian might be treated as English that had simply been written in a strange code. If the code could be cracked, they reasoned, translation would become a mechanical procedure. The analogy was attractive, but it rested on a profound misunderstanding of what languages are, and it would take more than half a century, and several complete changes of approach, before machines could produce translations that people were genuinely willing to read."
+      },
+      {
+        "label": "B",
+        "text": "Early optimism appeared to be justified by a public demonstration in 1954, in which a computer translated around sixty carefully selected Russian sentences into English. Newspapers reported that fully automatic translation was only a few years away, and government funding followed. The system, however, knew only about 250 words and six grammatical rules, and the sentences had been chosen precisely because they could be handled by such a limited program. Over the following decade, researchers discovered that every apparent advance revealed new and more stubborn difficulties, from words with several meanings to sentences whose structure could only be understood with knowledge of the world."
+      },
+      {
+        "label": "C",
+        "text": "By the mid-1960s, patience was running out. A committee appointed to advise the United States government concluded in 1966 that machine translation was slower, less accurate and more expensive than human translation, and that there was no immediate prospect of useful results. Funding was cut dramatically, and for many years the field was regarded with suspicion by scientists and officials alike. Work did not stop altogether, however. Smaller projects continued, particularly in Canada and Europe, where the practical need to translate large volumes of official documents between several languages kept interest alive."
+      },
+      {
+        "label": "D",
+        "text": "These systems, like their predecessors, were based on rules. Teams of linguists wrote detailed descriptions of the grammar of each language and compiled enormous bilingual dictionaries, and programmers turned these into instructions that the computer could follow. The approach could work well in narrow fields with predictable language, such as weather forecasts, but it was extremely costly to build and maintain. Every new pair of languages required years of expert labour, and the rules frequently conflicted with one another when faced with the endless variety of real texts. Human language, it turned out, contains far more exceptions than any team could list."
+      },
+      {
+        "label": "E",
+        "text": "A fundamentally different idea emerged at the end of the 1980s. Instead of telling the computer how languages work, researchers allowed it to discover patterns for itself by analysing very large collections of texts that had already been translated by humans, such as the proceedings of bilingual parliaments. These statistical systems calculated which words and phrases in one language most often corresponded to which in another, and chose the most probable translation for each new sentence. They required no knowledge of grammar, which some linguists found disturbing, but they improved steadily as more data became available, and by the early 2000s they had largely replaced rule-based methods."
+      },
+      {
+        "label": "F",
+        "text": "The most recent change came in the middle of the 2010s with the arrival of neural machine translation. These systems use networks of artificial 'neurons', loosely modelled on the brain, which process a whole sentence at once rather than breaking it into fragments. The resulting translations are noticeably more fluent, and on some measures the quality of output between widely used language pairs improved more in a few years than it had in the previous decade. Neural systems are now used by hundreds of millions of people every day, often without any awareness that a machine is involved, for instance when a website is displayed automatically in the reader's own language."
+      },
+      {
+        "label": "G",
+        "text": "Yet it would be wrong to conclude that the problem has been solved. Neural systems still struggle with languages for which little translated text exists, and they can produce sentences that are perfectly fluent but entirely wrong, a weakness that is particularly dangerous because readers have no obvious signal that something has gone astray. They also reproduce biases present in their training data, for example by assuming that doctors are male and nurses female. For these reasons, professional translators increasingly work alongside machines rather than being replaced by them, correcting and refining output rather than starting from a blank page. The original dream of fully automatic, high-quality translation remains, for many purposes, a dream."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs A–F from the list of headings below. Write the correct number, i–ix.",
+        "options": [
+          { "key": "i", "text": "Official doubts and a loss of support" },
+          { "key": "ii", "text": "Why translators oppose new technology" },
+          { "key": "iii", "text": "Learning from existing human translations" },
+          { "key": "iv", "text": "A misleading comparison" },
+          { "key": "v", "text": "The first computer designed for translation" },
+          { "key": "vi", "text": "Smoother output from a new kind of system" },
+          { "key": "vii", "text": "The high price of writing instructions by hand" },
+          { "key": "viii", "text": "Competition between Canada and Europe" },
+          { "key": "ix", "text": "An impressive result that hid serious limits" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "A",
+            "prompt": "Paragraph A",
+            "answer": ["iv"],
+            "explanation": "A 段：早期研究者把俄语看作「用密码写成的英语」，作者指出这个类比基于对语言本质的深刻误解。对应 iv「一个误导性的类比」。",
+            "evidence": { "para": "A", "quote": "The analogy was attractive, but it rested on a profound misunderstanding of what languages are" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["ix"],
+            "explanation": "B 段：1954 年的演示看起来很成功，但系统只懂约 250 个词和 6 条语法规则，句子是专门挑过的。对应 ix「掩盖了严重局限的亮眼结果」。v 是干扰项，原文没说这是第一台专为翻译设计的计算机。",
+            "evidence": { "para": "B", "quote": "the sentences had been chosen precisely because they could be handled by such a limited program" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["i"],
+            "explanation": "C 段：1966 年政府顾问委员会给出负面结论，经费被大幅削减，这个领域长期受到质疑。对应 i「官方的怀疑与支持的丧失」。viii 只借用了段中的 Canada and Europe，原文没有说两者竞争。",
+            "evidence": { "para": "C", "quote": "Funding was cut dramatically, and for many years the field was regarded with suspicion by scientists and officials alike." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["vii"],
+            "explanation": "D 段讲基于规则的系统：语言学家手写语法描述、编词典，再由程序员转成指令，建设和维护成本极高。对应 vii「手写规则的高昂代价」。",
+            "evidence": { "para": "D", "quote": "it was extremely costly to build and maintain" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["iii"],
+            "explanation": "E 段：统计方法让计算机分析大量已由人工翻译的文本（如双语议会记录）自行发现规律。对应 iii「从已有的人工译文中学习」。",
+            "evidence": { "para": "E", "quote": "researchers allowed it to discover patterns for itself by analysing very large collections of texts that had already been translated by humans" }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["vi"],
+            "explanation": "F 段：神经机器翻译整句处理，译文明显更流畅（noticeably more fluent）。对应 vi「新型系统带来更顺畅的译文」。",
+            "evidence": { "para": "F", "quote": "The resulting translations are noticeably more fluent" }
+          }
+        ]
+      },
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "The sentences used in the 1954 demonstration were chosen at random.",
+            "answer": ["FALSE"],
+            "explanation": "B 段：这些句子是专门挑选的（carefully selected），正因为这个简陋的程序能处理才被选中。题干说随机挑选，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "B", "quote": "the sentences had been chosen precisely because they could be handled by such a limited program" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "After 1966, all research into machine translation stopped for several years.",
+            "answer": ["FALSE"],
+            "explanation": "C 段：经费虽被大幅削减，但研究并未完全停止（Work did not stop altogether），加拿大和欧洲仍有小型项目。题干说全部停止，选 FALSE。",
+            "evidence": { "para": "C", "quote": "Work did not stop altogether, however." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "Rule-based systems could perform well in specialised areas where the language was predictable.",
+            "answer": ["TRUE"],
+            "explanation": "D 段：基于规则的方法在语言可预测的狭窄领域（如天气预报）效果不错。specialised areas 对应 narrow fields，选 TRUE。",
+            "evidence": { "para": "D", "quote": "The approach could work well in narrow fields with predictable language, such as weather forecasts" }
+          },
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "Statistical systems were more expensive to develop than rule-based systems.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "D 段只说基于规则的系统成本极高；E 段讲统计系统不需要语法知识、随数据增多而进步，但没有提它的开发成本，更没有比较两者。不要凭常识推断，选 NOT GIVEN。",
+            "evidence": { "para": "E", "quote": "They required no knowledge of grammar, which some linguists found disturbing, but they improved steadily as more data became available" }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "summary": {
+          "title": "Remaining problems with neural translation",
+          "text": "Although neural systems are widely used, they perform poorly with languages for which there is little {q11}. They may also produce output that is fluent but completely wrong, and readers receive no obvious {q12} that there is a problem. In addition, they repeat {q13} found in the data used to train them. As a result, professional translators now tend to correct machine output rather than starting from a blank page."
+        },
+        "questions": [
+          {
+            "id": "q11",
+            "number": 11,
+            "answer": ["translated text"],
+            "explanation": "G 段：神经系统在缺少译文语料的语言上表现不佳（languages for which little translated text exists）。填 translated text；只写 text 意思不完整，不给分。",
+            "evidence": { "para": "G", "quote": "Neural systems still struggle with languages for which little translated text exists" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "answer": ["signal"],
+            "explanation": "G 段：译文流畅却完全错误，读者没有任何明显信号（no obvious signal）察觉出了问题。填 signal。",
+            "evidence": { "para": "G", "quote": "readers have no obvious signal that something has gone astray" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "answer": ["biases"],
+            "explanation": "G 段：它们还会复制训练数据中的偏见（reproduce biases present in their training data）。repeat 对应 reproduce，填 biases。",
+            "evidence": { "para": "G", "quote": "They also reproduce biases present in their training data" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-fungal-networks",
+    "title": "The Wood Wide Web: Do Trees Really Share?",
+    "titleCn": "「树联网」：树木真的会分享吗？",
+    "difficulty": "hard",
+    "topic": "science",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Beneath the floor of almost every forest lies a vast network of fine threads. These are the hyphae of fungi, many of which live in close partnership with the roots of trees. In this relationship, known as a mycorrhiza, the fungus supplies the tree with water and with nutrients such as nitrogen and phosphorus, which it is able to extract from the soil far more efficiently than roots can. In return, the tree provides the fungus with sugars produced by photosynthesis. The arrangement is ancient: fossil evidence suggests that partnerships of this kind helped the first plants to colonise dry land some 400 million years ago."
+      },
+      {
+        "label": "B",
+        "text": "Because a single fungus can connect with the roots of several trees, and a single tree can host many fungi, scientists have long suspected that these partnerships might link whole groups of trees together. In the late 1990s, a study in a Canadian forest appeared to confirm this. Researchers supplied young trees of two different species with carbon in a form that could be traced, and later detected some of it in neighbouring trees. The results, published in a leading scientific journal, were presented to the public under the memorable label of the 'wood wide web', and the idea that trees use fungal networks to exchange resources quickly spread far beyond the scientific community."
+      },
+      {
+        "label": "C",
+        "text": "In the years that followed, the concept grew considerably more ambitious. Popular books, documentaries and newspaper articles described large 'mother trees' that recognise their own offspring and send them food through the network, and forests in which trees warn each other of insect attacks by means of chemical signals. Some accounts suggested that forests should be understood less as collections of competing individuals than as cooperative communities. These ideas proved enormously appealing, partly because they offered a hopeful vision of nature at a time of widespread anxiety about the environment."
+      },
+      {
+        "label": "D",
+        "text": "Recently, however, a number of researchers have argued that public enthusiasm has run well ahead of the evidence. A detailed review published in 2023 re-examined the field studies most often cited in support of the theory and concluded that many of them had been interpreted too generously. In several cases, the experiments could not rule out the possibility that resources had travelled between trees through the soil itself rather than through fungal threads. In others, the amount of carbon transferred was so small that it was unlikely to make any meaningful difference to the receiving tree. The authors were careful to say that networks exist; what they questioned was the claim that these networks play a major role in the life of forests."
+      },
+      {
+        "label": "E",
+        "text": "In my view, this criticism is both justified and healthy. Field research on underground networks is extremely difficult. Fungal threads are far thinner than a human hair, they break easily when soil is disturbed, and a single handful of earth may contain dozens of species. Proving that a particular substance moved from one tree to another through a particular fungus, rather than by some other route, requires experiments of great precision, and such experiments have rarely been carried out in mature forests rather than in containers or among seedlings. It is not surprising that early results were open to more than one interpretation."
+      },
+      {
+        "label": "F",
+        "text": "What concerns me more is the way in which uncertain findings were transformed into confident statements as they passed from scientific journals to the wider public. Researchers themselves were not always responsible for this; journalists and authors often simplified or exaggerated their conclusions. Nevertheless, the episode shows how easily a striking metaphor can take on a life of its own. Once the image of trees sharing food and messages had become familiar, it was frequently repeated as established fact, and the more cautious language of the original studies was lost."
+      },
+      {
+        "label": "G",
+        "text": "None of this means that mycorrhizal fungi are unimportant. On the contrary, their role in supplying trees with water and nutrients is firmly established, and forestry practices that damage soil fungi can seriously harm the growth of new trees. The open questions concern the extent to which networks connect trees in the wild and whether those connections benefit the forest as a whole. Answering them will require patient, carefully designed research. In the meantime, it would be wise to treat the most dramatic claims about the wood wide web as interesting possibilities rather than settled science."
+      }
+    ],
+    "groups": [
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "Documentaries about forests have generally been more accurate than newspaper articles.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "C 段把通俗书籍、纪录片和报纸文章并列，说它们都描述了「母树」等说法，作者没有比较哪一类更准确，选 NOT GIVEN。",
+            "evidence": { "para": "C", "quote": "Popular books, documentaries and newspaper articles described large 'mother trees'" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "The recent criticism of research on fungal networks is reasonable.",
+            "answer": ["YES"],
+            "explanation": "E 段开头作者表态：In my view, this criticism is both justified and healthy。justified 对应 reasonable，选 YES。",
+            "evidence": { "para": "E", "quote": "In my view, this criticism is both justified and healthy." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Experiments on underground networks are relatively easy to carry out in the field.",
+            "answer": ["NO"],
+            "explanation": "E 段作者认为野外研究地下网络极其困难（extremely difficult），菌丝极细、易断、物种繁多。题干说相对容易，与作者观点相反，选 NO。",
+            "evidence": { "para": "E", "quote": "Field research on underground networks is extremely difficult." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Scientists were mainly to blame for exaggerating the findings about fungal networks.",
+            "answer": ["NO"],
+            "explanation": "F 段：研究者本身并不总要为此负责，夸大和简化常常来自记者和作者。题干说主要怪科学家，与作者观点不符，选 NO。",
+            "evidence": { "para": "F", "quote": "Researchers themselves were not always responsible for this; journalists and authors often simplified or exaggerated their conclusions." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Forestry methods that damage soil fungi can affect the development of young trees.",
+            "answer": ["YES"],
+            "explanation": "G 段作者指出，破坏土壤真菌的林业做法会严重损害新树的生长。affect the development of young trees 对应 harm the growth of new trees，选 YES。",
+            "evidence": { "para": "G", "quote": "forestry practices that damage soil fungi can seriously harm the growth of new trees" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "What does the writer say about the mycorrhizal relationship in paragraph A?",
+            "options": [
+              { "key": "A", "text": "It benefits the fungus more than the tree." },
+              { "key": "B", "text": "It has existed for a very long time." },
+              { "key": "C", "text": "It was first observed in the 1990s." },
+              { "key": "D", "text": "It is found only in forests." }
+            ],
+            "answer": ["B"],
+            "explanation": "A 段：这种共生关系非常古老（The arrangement is ancient），化石证据显示约 4 亿年前就帮助最早的植物登陆。选 B。A 原文是互惠，没有说谁受益更多；C、D 原文没有依据。",
+            "evidence": { "para": "A", "quote": "The arrangement is ancient" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "In the study described in paragraph B, the researchers",
+            "options": [
+              { "key": "A", "text": "measured how quickly the fungi grew." },
+              { "key": "B", "text": "compared forests in Canada and Europe." },
+              { "key": "C", "text": "followed carbon as it moved into nearby trees." },
+              { "key": "D", "text": "removed the fungi from the soil." }
+            ],
+            "answer": ["C"],
+            "explanation": "B 段：研究者给两种幼树提供可追踪的碳，之后在邻近的树里检测到了其中一部分。对应 C。",
+            "evidence": { "para": "B", "quote": "Researchers supplied young trees of two different species with carbon in a form that could be traced, and later detected some of it in neighbouring trees." }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "According to paragraph C, why were ideas about cooperative forests so popular?",
+            "options": [
+              { "key": "A", "text": "They were supported by detailed experiments." },
+              { "key": "B", "text": "They offered an optimistic view of the natural world." },
+              { "key": "C", "text": "They were promoted by government agencies." },
+              { "key": "D", "text": "They explained why trees grow at different rates." }
+            ],
+            "answer": ["B"],
+            "explanation": "C 段末尾：这些观点很受欢迎，部分原因是在人们普遍担忧环境的时候，它们提供了一幅充满希望的自然图景（a hopeful vision of nature）。hopeful 对应 optimistic，选 B。",
+            "evidence": { "para": "C", "quote": "partly because they offered a hopeful vision of nature at a time of widespread anxiety about the environment" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "What did the review published in 2023 conclude?",
+            "options": [
+              { "key": "A", "text": "Fungal networks do not exist." },
+              { "key": "B", "text": "Many earlier studies had been over-interpreted." },
+              { "key": "C", "text": "Trees transfer large amounts of carbon to each other." },
+              { "key": "D", "text": "Soil plays no part in moving resources between trees." }
+            ],
+            "answer": ["B"],
+            "explanation": "D 段：2023 年的综述认为，许多被频繁引用的研究被解读得过于宽松（interpreted too generously）。选 B。A 错，作者特意说明网络是存在的；C、D 与原文相反。",
+            "evidence": { "para": "D", "quote": "concluded that many of them had been interpreted too generously" }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary using the list of words, A–I, below. Write the correct letter, A–I.",
+        "summary": {
+          "title": "Problems with the evidence",
+          "text": "Critics pointed out that in some experiments, resources might have moved through the {q10} rather than through fungal threads. In other cases, the quantity of carbon involved was too {q11} to matter to the receiving tree. Research is also difficult because fungal threads are extremely thin and {q12} when the soil is disturbed. Moreover, few precise experiments have been conducted in {q13} forests rather than with seedlings or in containers."
+        },
+        "wordBank": [
+          { "key": "A", "text": "soil" },
+          { "key": "B", "text": "small" },
+          { "key": "C", "text": "break" },
+          { "key": "D", "text": "mature" },
+          { "key": "E", "text": "roots" },
+          { "key": "F", "text": "large" },
+          { "key": "G", "text": "grow" },
+          { "key": "H", "text": "young" },
+          { "key": "I", "text": "air" }
+        ],
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "answer": ["A"],
+            "explanation": "D 段：有些实验无法排除资源是通过土壤本身（through the soil itself）而不是菌丝在树间转移的可能。选 A soil。E roots 是干扰项。",
+            "evidence": { "para": "D", "quote": "resources had travelled between trees through the soil itself rather than through fungal threads" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "answer": ["B"],
+            "explanation": "D 段：转移的碳量太少（so small），不太可能对接收的树产生实质影响。选 B small。",
+            "evidence": { "para": "D", "quote": "the amount of carbon transferred was so small that it was unlikely to make any meaningful difference to the receiving tree" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "answer": ["C"],
+            "explanation": "E 段：菌丝比头发还细，土壤一受扰动就容易断（break easily when soil is disturbed）。选 C break。",
+            "evidence": { "para": "E", "quote": "they break easily when soil is disturbed" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "answer": ["D"],
+            "explanation": "E 段：这类精确实验很少在成熟森林（mature forests）里做，多在容器里或幼苗上做。选 D mature。H young 对应的是 seedlings，是干扰项。",
+            "evidence": { "para": "E", "quote": "such experiments have rarely been carried out in mature forests rather than in containers or among seedlings" }
+          }
+        ]
+      }
+    ]
+  }
+]
