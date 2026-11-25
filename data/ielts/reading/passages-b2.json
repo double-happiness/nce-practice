@@ -1,0 +1,910 @@
+[
+  {
+    "id": "rd-radiocarbon-dating",
+    "title": "Clocks in the Earth: Radiocarbon and the Dating of the Past",
+    "titleCn": "地下的时钟：放射性碳与考古测年",
+    "difficulty": "hard",
+    "topic": "history",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Until the middle of the twentieth century, archaeologists faced a frustrating limitation. They could often establish the order in which things had happened, but rarely how long ago. The principle of stratigraphy, according to which deeper layers of soil are generally older than those above them, allowed excavators to arrange finds in sequence, and changes in the style of pottery or tools could be used to link one site with another. Absolute dates, however, depended almost entirely on connections with societies that had kept written records, above all ancient Egypt. For prehistoric Europe, where no such records existed, chronologies were built on chains of comparison stretching across thousands of kilometres, and a single weak link could distort the whole structure."
+      },
+      {
+        "label": "B",
+        "text": "The method that broke this dependence was developed in the late 1940s by the American chemist Willard Libby, who later received a Nobel Prize for the work. It rests on a simple principle. Cosmic rays striking the upper atmosphere produce small quantities of a radioactive form of carbon, carbon-14, which mixes with ordinary carbon and is taken up by plants through photosynthesis and by the animals that eat them. While an organism is alive, its proportion of carbon-14 remains roughly constant, but at death the intake stops and the carbon-14 already present begins to decay at a known rate, with half of it disappearing in about 5,700 years. By measuring how much remains in a piece of bone, wood or charcoal, scientists can estimate when the organism died."
+      },
+      {
+        "label": "C",
+        "text": "Libby tested his method on materials whose age was already known, including timber from Egyptian tombs, and the results were close enough to the historical dates to inspire confidence. Within two decades, laboratories around the world were producing thousands of dates. It soon became apparent, however, that the method rested on an assumption that was not quite correct. Libby had supposed that the amount of carbon-14 in the atmosphere had remained constant over time. Careful comparisons revealed that it had in fact fluctuated, as a result of changes in solar activity and in the Earth's magnetic field, so that a raw radiocarbon measurement could not be converted directly into a calendar date."
+      },
+      {
+        "label": "D",
+        "text": "The solution came from trees. Because many species add one growth ring each year, a sequence of rings can be counted back from the present, and by matching patterns of wide and narrow rings in overlapping timbers, researchers have built continuous records extending back thousands of years. Measuring the carbon-14 in rings of known age allowed scientists to construct a calibration curve that translates radiocarbon results into calendar years. The long-lived bristlecone pines of the American south-west, some of them several thousand years old, played a central part in establishing the early sections of this curve. The effect on prehistoric chronology was dramatic: for some periods, calibrated dates turned out to be several centuries older than the raw figures had suggested."
+      },
+      {
+        "label": "E",
+        "text": "This recalibration, sometimes described as the second radiocarbon revolution, had consequences that went well beyond technical detail. Many archaeologists had assumed that major innovations, from metalworking to monumental architecture, had reached Europe from the older civilisations of the Near East. Once the dates were corrected, some of the great stone tombs of western Europe turned out to be older than the Egyptian pyramids, which therefore could hardly have inspired them. One influential archaeologist argued in the 1970s that the traditional picture of prehistoric Europe as a passive receiver of ideas from the east would have to be abandoned. Not every element of his argument has survived, but its broad conclusion is now widely accepted."
+      },
+      {
+        "label": "F",
+        "text": "Radiocarbon dating is nevertheless far from infallible. Samples can be contaminated by younger carbon from groundwater or plant roots, or by modern material introduced during excavation and storage. A more subtle difficulty arises with wood. The rings at the centre of a tree may be centuries older than those at its edge, so charcoal from a long-lived tree may give a date well before the fire in which it was burned. Human activity has also complicated matters: the burning of fossil fuels, which contain no carbon-14, has diluted the atmosphere's supply, while nuclear weapons tests in the 1950s and 1960s temporarily almost doubled it. Forensic scientists, ironically, have found a use for this sudden rise, since it allows recent organic material to be dated with considerable precision."
+      },
+      {
+        "label": "G",
+        "text": "Technical advances have reduced some of these problems. From the late 1970s, a technique known as accelerator mass spectrometry made it possible to count carbon-14 atoms directly instead of waiting for them to decay, so that samples of a few milligrams could be dated where several grams had previously been needed. A single seed or a tiny fragment of bone can now be analysed without destroying an entire object. Statistical methods also allow dates from a site to be combined with information about the order of the layers, sometimes narrowing the probable age of an event to a few decades. Even so, every radiocarbon date is a range of probabilities rather than a precise point, and archaeologists who forget this risk building new chronologies on foundations almost as fragile as the old ones."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–ix.",
+        "options": [
+          { "key": "i", "text": "Sources of error, natural and human" },
+          { "key": "ii", "text": "Why written records remain more reliable" },
+          { "key": "iii", "text": "How the death of an organism starts a clock" },
+          { "key": "iv", "text": "Early confidence and a mistaken assumption" },
+          { "key": "v", "text": "The search for the world's oldest tree" },
+          { "key": "vi", "text": "An accepted view of the past overturned" },
+          { "key": "vii", "text": "Smaller samples and narrower ranges" },
+          { "key": "viii", "text": "Using annual growth to correct the results" },
+          { "key": "ix", "text": "A dispute over who invented the method" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["iii"],
+            "explanation": "B 段讲测年原理：生物活着时碳-14 比例大致恒定，死后停止摄入，已有的碳-14 按已知速率衰变，测剩余量即可估算死亡时间。对应 iii「生物的死亡如何启动一只时钟」。ix 是干扰项，段中只提到 Libby 一人，没有发明权之争。",
+            "evidence": { "para": "B", "quote": "at death the intake stops and the carbon-14 already present begins to decay at a known rate" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["iv"],
+            "explanation": "C 段前半说用已知年代的材料检验，结果令人信服；后半指出方法依赖的「大气碳-14 恒定」这一假设并不正确。对应 iv「最初的信心与一个错误的假设」。",
+            "evidence": { "para": "C", "quote": "It soon became apparent, however, that the method rested on an assumption that was not quite correct." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["viii"],
+            "explanation": "D 段：树木每年长一圈年轮，测已知年份年轮中的碳-14，就能建立把放射性碳结果换算成日历年份的校正曲线。对应 viii「利用逐年生长来校正结果」。v 是干扰项：段中提到刺果松很长寿，但没有寻找世界最老树木的内容。",
+            "evidence": { "para": "D", "quote": "Measuring the carbon-14 in rings of known age allowed scientists to construct a calibration curve that translates radiocarbon results into calendar years." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["vi"],
+            "explanation": "E 段：校正后西欧一些巨石墓比埃及金字塔还早，「创新从近东传入欧洲」的传统看法被推翻。对应 vi「一个公认的历史观被推翻」。",
+            "evidence": { "para": "E", "quote": "the traditional picture of prehistoric Europe as a passive receiver of ideas from the east would have to be abandoned" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["i"],
+            "explanation": "F 段列举误差来源：地下水和植物根系带来的污染、老木头问题（自然因素），以及化石燃料和核试验改变大气碳-14（人为因素）。对应 i「自然与人为的误差来源」。",
+            "evidence": { "para": "F", "quote": "Radiocarbon dating is nevertheless far from infallible." }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "para": "G",
+            "prompt": "Paragraph G",
+            "answer": ["vii"],
+            "explanation": "G 段：加速器质谱让几毫克样品就能测年（样品更小），统计方法有时能把年代范围缩小到几十年（范围更窄）。对应 vii。ii 是干扰项，段中没有比较文字记录的可靠性。",
+            "evidence": { "para": "G", "quote": "samples of a few milligrams could be dated where several grams had previously been needed" }
+          }
+        ]
+      },
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "Before radiocarbon dating, ages in years for archaeological finds mostly relied on links with literate societies.",
+            "answer": ["TRUE"],
+            "explanation": "A 段：绝对年代几乎完全依赖与留有文字记录的社会（如古埃及）之间的联系。ages in years 对应 absolute dates，literate societies 对应 societies that had kept written records，选 TRUE。",
+            "evidence": { "para": "A", "quote": "Absolute dates, however, depended almost entirely on connections with societies that had kept written records" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "When Libby tested his method on objects of known age, the results differed greatly from the historical dates.",
+            "answer": ["FALSE"],
+            "explanation": "C 段：检验结果与已知历史年代足够接近，令人信服（close enough ... to inspire confidence）。题干说差别很大，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "C", "quote": "the results were close enough to the historical dates to inspire confidence" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "Bristlecone pines are the oldest living trees on Earth.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "D 段只说刺果松寿命很长，有些已有几千年树龄，并在建立校正曲线早期部分时起了关键作用，没有说它们是地球上最老的树。不要凭常识补充，选 NOT GIVEN。",
+            "evidence": { "para": "D", "quote": "The long-lived bristlecone pines of the American south-west, some of them several thousand years old" }
+          },
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "The burning of fossil fuels has raised the proportion of carbon-14 in the atmosphere.",
+            "answer": ["FALSE"],
+            "explanation": "F 段：化石燃料不含碳-14，燃烧它们稀释了（diluted）大气中的碳-14。让碳-14 暂时几乎翻倍的是核试验，不是化石燃料。题干与原文矛盾，选 FALSE。",
+            "evidence": { "para": "F", "quote": "the burning of fossil fuels, which contain no carbon-14, has diluted the atmosphere's supply" }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "The level of carbon-14 in the atmosphere has varied because of changes in solar activity and in the Earth's {blank}.",
+            "answer": ["magnetic field"],
+            "explanation": "C 段：大气碳-14 含量的波动源于太阳活动和地球磁场（the Earth's magnetic field）的变化。填 magnetic field；只写 field 意思不完整。",
+            "evidence": { "para": "C", "quote": "as a result of changes in solar activity and in the Earth's magnetic field" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "Charcoal from a long-lived tree may indicate a date much earlier than that of the {blank} that produced it.",
+            "answer": ["fire"],
+            "explanation": "F 段：树心年轮可能比树皮处早几百年，所以长寿树木的木炭给出的年代可能远早于烧出这块木炭的那场火（the fire in which it was burned）。填 fire。",
+            "evidence": { "para": "F", "quote": "charcoal from a long-lived tree may give a date well before the fire in which it was burned" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Combining radiocarbon results with the order of the layers can sometimes narrow the likely age of an event to a few {blank}.",
+            "answer": ["decades"],
+            "explanation": "G 段：统计方法把测年结果与地层顺序结合，有时能把事件的可能年代缩小到几十年（a few decades）。填 decades。",
+            "evidence": { "para": "G", "quote": "sometimes narrowing the probable age of an event to a few decades" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-nudge-limits",
+    "title": "The Gentle Push: What Nudges Can and Cannot Do",
+    "titleCn": "温和的推力：「助推」能做到什么、做不到什么",
+    "difficulty": "hard",
+    "topic": "psychology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For much of the twentieth century, economic theory rested on a convenient simplification: that people, when making choices, weigh the available options carefully and select the one that best serves their interests. Few economists believed that real individuals behaved exactly like this, but the assumption made the mathematics manageable, and it implied that the most reliable way to change behaviour was to change incentives, through prices, taxes or penalties. From the 1970s onwards, however, a number of psychologists began to document systematic ways in which human decisions depart from this model. People, they showed, are swayed by the way information is presented, give more weight to losses than to equivalent gains, and tend to stick with whatever option requires no action on their part."
+      },
+      {
+        "label": "B",
+        "text": "These findings reached a wide audience in 2008 through a popular book written by an American economist and a legal scholar. Its central claim was that, since every decision is made in some context, those who design that context, whom the authors called 'choice architects', inevitably influence the outcome. Rather than pretend otherwise, governments and organisations should arrange choices so that people are gently steered towards options that they themselves would probably judge to be good for them. Crucially, such a 'nudge' must leave every option open and must not significantly change the costs involved: placing fruit at eye level in a school canteen counts as a nudge, whereas banning sweets does not."
+      },
+      {
+        "label": "C",
+        "text": "The most frequently cited success concerns saving for retirement. When employees have to sign up for a workplace pension, many never get round to doing so, even though they say they intend to. When they are enrolled automatically and must actively choose to leave, participation rises dramatically. After the United Kingdom made automatic enrolment a legal requirement for employers in the 2010s, the proportion of eligible private-sector employees saving into a pension increased from well under half to the great majority. Similar effects have been reported for organ donation, where countries that presume consent unless people opt out often record far higher registration rates than those in which donors must actively sign up, although the number of actual donations depends on many other factors."
+      },
+      {
+        "label": "D",
+        "text": "Encouraged by such results, governments in many countries established specialist teams to apply behavioural insights to public policy. The British team, set up in 2010, became one of the best known. Among its trials were letters to people who had not paid their taxes, which stated that most people in their area had already paid; this single sentence, appealing to the desire to conform, measurably increased payment rates. Because changes of this kind cost almost nothing to implement, even small improvements could represent excellent value for money, and the approach appealed to politicians of very different views."
+      },
+      {
+        "label": "E",
+        "text": "From the beginning, however, nudging attracted criticism. Some objections were ethical. If the effectiveness of a nudge depends on people not noticing it, critics asked, is it not a form of manipulation, however good the intentions behind it? And who decides which options people would choose if they were thinking clearly? Defenders replied that there is no neutral way to present choices, so the alternative to deliberate design is not freedom but accidental influence. This answer is persuasive as far as it goes, but it does not settle the question of who should be trusted to act as the architect, or how their decisions can be scrutinised."
+      },
+      {
+        "label": "F",
+        "text": "Other objections concern the evidence. The early literature was dominated by striking results, and there is good reason to think that studies with impressive findings were more likely to be published than those that found little or nothing. When researchers compared the trials reported in academic journals with the full set of trials carried out by government nudge units, which had to record every result, they found that the average effect in the latter was considerably smaller. Some well-known findings have also failed to reappear when experiments were repeated. None of this means that nudges do not work, but it suggests that their typical impact is modest, often a matter of a few percentage points."
+      },
+      {
+        "label": "G",
+        "text": "Perhaps the most serious concern is that nudges may be used as a substitute for policies that would be more effective but politically harder. Encouraging individuals to eat more healthily or to reduce their energy use is cheaper and less controversial than taxing unhealthy food or regulating polluting industries, but it is unlikely to achieve as much. Nudges are best understood as a useful addition to the tools of government, valuable precisely because they are cheap, rather than as an alternative to the difficult decisions that serious problems require. Used in that spirit, the gentle push has earned its place; treated as a solution in itself, it risks becoming an excuse for doing very little."
+      }
+    ],
+    "groups": [
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "Economists relied on the traditional model partly because it simplified their calculations.",
+            "answer": ["YES"],
+            "explanation": "A 段：很少有经济学家相信真实的人完全如此行事，但这个假设让数学处理变得可行（made the mathematics manageable）。simplified their calculations 是同义改写，选 YES。",
+            "evidence": { "para": "A", "quote": "Few economists believed that real individuals behaved exactly like this, but the assumption made the mathematics manageable" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "The defenders' reply to the ethical objections resolves the central problem.",
+            "answer": ["NO"],
+            "explanation": "E 段：作者认为辩护者的回应「在一定范围内有说服力」，但没有解决谁有资格当「选择设计者」、其决定如何受到监督的问题（does not settle the question）。题干说解决了核心问题，与作者观点相反，选 NO。",
+            "evidence": { "para": "E", "quote": "This answer is persuasive as far as it goes, but it does not settle the question of who should be trusted to act as the architect" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Researchers in government nudge units are more skilled than university researchers.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "F 段只说政府 nudge unit 必须记录每一项试验结果，因此平均效果更小；作者没有评价两类研究者的能力高低。效果小的原因在于发表偏差，不能推出谁更专业，选 NOT GIVEN。",
+            "evidence": { "para": "F", "quote": "the full set of trials carried out by government nudge units, which had to record every result" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "The evidence about the size of their effects shows that nudges are ineffective.",
+            "answer": ["NO"],
+            "explanation": "F 段：这些证据并不意味着助推无效（None of this means that nudges do not work），只说明典型效果有限，常常只有几个百分点。题干说证明无效，与作者观点相反，选 NO。",
+            "evidence": { "para": "F", "quote": "None of this means that nudges do not work" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Persuading people to use less energy is likely to achieve less than regulating industries that pollute.",
+            "answer": ["YES"],
+            "explanation": "G 段：鼓励个人少用能源比监管污染行业更便宜、争议更小，但不太可能取得同样的效果（unlikely to achieve as much）。题干与作者观点一致，选 YES。",
+            "evidence": { "para": "G", "quote": "but it is unlikely to achieve as much" }
+          }
+        ]
+      },
+      {
+        "type": "matching-information",
+        "instruction": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. You may use any letter more than once.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "an example of a message that referred to what other people had done",
+            "answer": ["D"],
+            "explanation": "D 段：英国团队给欠税者寄信，信中写明当地大多数人已经交了税，借助人们从众的心理提高了缴税率。选 D。",
+            "evidence": { "para": "D", "quote": "which stated that most people in their area had already paid" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "a recognition that the results of one policy depend on more than the way a choice is presented",
+            "answer": ["C"],
+            "explanation": "C 段末：推定同意的国家器官捐献登记率高得多，但实际捐献数量还取决于许多其他因素（depends on many other factors）。选 C。",
+            "evidence": { "para": "C", "quote": "although the number of actual donations depends on many other factors" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "a reason why published research may have overstated the effects of nudges",
+            "answer": ["F"],
+            "explanation": "F 段：结果亮眼的研究比没什么发现的研究更容易发表，所以期刊里的效果偏大。这是发表偏差，选 F。",
+            "evidence": { "para": "F", "quote": "studies with impressive findings were more likely to be published than those that found little or nothing" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "a list of tendencies in human decision-making identified by researchers",
+            "answer": ["A"],
+            "explanation": "A 段：心理学家发现人会受信息呈现方式影响、把损失看得比同等收益更重、倾向于维持不需要行动的选项。这是一组决策倾向的列举，选 A。",
+            "evidence": { "para": "A", "quote": "People, they showed, are swayed by the way information is presented, give more weight to losses than to equivalent gains" }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary using the list of words, A–I, below. Write the correct letter, A–I.",
+        "summary": {
+          "title": "What counts as a nudge",
+          "text": "The authors of a 2008 book argued that whoever designs the setting in which people make decisions acts as a choice {q10}. In their view, it is acceptable to steer people towards beneficial options, provided that all of the options remain {q11} and the {q12} are not significantly altered. Automatic enrolment in workplace pensions is the best-known example: when employees had to opt out rather than opt in, {q13} rose sharply."
+        },
+        "wordBank": [
+          { "key": "A", "text": "hidden" },
+          { "key": "B", "text": "costs" },
+          { "key": "C", "text": "adviser" },
+          { "key": "D", "text": "participation" },
+          { "key": "E", "text": "open" },
+          { "key": "F", "text": "penalties" },
+          { "key": "G", "text": "architect" },
+          { "key": "H", "text": "income" },
+          { "key": "I", "text": "rules" }
+        ],
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "answer": ["G"],
+            "explanation": "B 段：设计决策情境的人被作者称为「选择设计者」（choice architects）。选 G architect。C adviser 意思相近但不是原文术语。",
+            "evidence": { "para": "B", "quote": "whom the authors called 'choice architects'" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "answer": ["E"],
+            "explanation": "B 段：助推必须让所有选项保持开放（leave every option open）。选 E open。A hidden 是干扰项，E 段批评者说的是助推可能不被察觉，不是选项被隐藏。",
+            "evidence": { "para": "B", "quote": "such a 'nudge' must leave every option open" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "answer": ["B"],
+            "explanation": "B 段：助推不能显著改变相关成本（must not significantly change the costs involved）。选 B costs。F penalties 来自 A 段讲传统激励手段，不是助推的定义条件。",
+            "evidence": { "para": "B", "quote": "must not significantly change the costs involved" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "answer": ["D"],
+            "explanation": "C 段：员工被自动加入、需要主动退出时，参与率大幅上升（participation rises dramatically）。选 D participation。H income 原文没有提到。",
+            "evidence": { "para": "C", "quote": "participation rises dramatically" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-concrete",
+    "title": "Concrete: An Ancient Material with a Modern Problem",
+    "titleCn": "混凝土：古老材料的现代难题",
+    "difficulty": "hard",
+    "topic": "technology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Concrete is so common that it has become almost invisible. It forms the foundations of houses, the decks of bridges, the walls of dams and the floors of most modern buildings, and by some estimates it is the most widely used material on Earth after water. Its basic recipe is simple: sand and gravel, known as aggregate, are bound together by cement, which reacts chemically with water to form a hard, stone-like mass. Contrary to popular belief, concrete does not set by drying out. The reaction, called hydration, continues for months or even years, which is why freshly poured concrete is often kept damp rather than allowed to dry."
+      },
+      {
+        "label": "B",
+        "text": "The Romans were not the first to use materials of this kind, but they used them on a scale and with a skill that would not be matched for well over a thousand years. Their cement combined lime with volcanic ash from the area around the Bay of Naples, and with it they built aqueducts, harbours and, most famously, the dome of the Pantheon in Rome. Completed in the second century AD, the dome remains the largest ever built of unreinforced concrete. Roman sea walls, constantly washed by salt water, have survived for around two thousand years, and recent research suggests that the seawater itself reacted with the volcanic ash to form new minerals that made the material stronger over time."
+      },
+      {
+        "label": "C",
+        "text": "After the collapse of the Western Roman Empire, the use of concrete declined sharply in Europe, and builders returned largely to stone, brick and timber. Interest revived in the eighteenth century, when engineers began to experiment with cements that would set under water, and in 1824 an English bricklayer named Joseph Aspdin patented a product he called Portland cement, because he thought the hardened material resembled a well-known building stone quarried on the Isle of Portland. Later manufacturers greatly improved the process, heating mixtures of limestone and clay to much higher temperatures, but the name survived, and Portland cement remains the basis of almost all concrete produced today."
+      },
+      {
+        "label": "D",
+        "text": "Concrete has one important weakness: although it is extremely strong when compressed, it cracks easily when stretched or bent. In the second half of the nineteenth century, several inventors, among them a French gardener who wanted stronger flowerpots, found that embedding iron or steel within concrete solved this problem, since the metal resists the tension that the concrete cannot. The combination works partly because steel and concrete expand and contract by almost the same amount as temperatures change, so they do not tear apart in hot or cold weather. Reinforced concrete made possible the long bridges, tall buildings and thin curved roofs of the twentieth century."
+      },
+      {
+        "label": "E",
+        "text": "Yet reinforcement introduced a new vulnerability. Concrete is slightly porous, and over time water and salts can penetrate it and reach the steel. When steel rusts, it expands, and the pressure this creates breaks the surrounding concrete from within, exposing more metal to attack. This process is a particular problem for bridges and car parks in countries where salt is spread on roads in winter. Many reinforced concrete structures are designed to last between fifty and a hundred years, far less than the Roman buildings that have stood for two millennia, and the cost of repairing or replacing the large stock of structures built in the mid-twentieth century is becoming a major burden for governments."
+      },
+      {
+        "label": "F",
+        "text": "The most pressing problem, however, is the effect of cement on the climate. Cement production is responsible for around eight per cent of the world's carbon dioxide emissions, more than the entire aviation industry. Part of this comes from burning fuel to heat kilns to around 1,450 degrees Celsius, but the larger share is released by the chemical reaction itself: when limestone is heated, it breaks down and gives off carbon dioxide. This means that even if kilns were powered entirely by clean energy, the manufacture of conventional cement would still produce large quantities of the gas. Demand, meanwhile, continues to grow, driven by rapid urbanisation in Asia and Africa."
+      },
+      {
+        "label": "G",
+        "text": "Engineers are pursuing several ways of reducing this impact. One is to replace part of the cement with other materials, such as ash from coal-fired power stations or slag left over from steel production, both of which can react in a similar way. The supply of these by-products is limited, however, and will shrink further as coal power is phased out, so attention has turned to clays that can be treated to perform a similar role. Other approaches involve capturing the carbon dioxide released at cement plants, or injecting it into fresh concrete, where it is locked away as a mineral. Perhaps the simplest solution is to use less concrete in the first place, through more careful design, although this requires changes in an industry that has long favoured generous safety margins over economy of material."
+      }
+    ],
+    "groups": [
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "Concrete hardens mainly because the water in it evaporates.",
+            "answer": ["FALSE"],
+            "explanation": "A 段：与普遍看法相反，混凝土不是靠变干而凝固的，而是水泥与水发生化学反应（水化）。题干说靠水分蒸发，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "A", "quote": "Contrary to popular belief, concrete does not set by drying out." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Contact with seawater may have made Roman sea walls stronger.",
+            "answer": ["TRUE"],
+            "explanation": "B 段：近期研究认为海水与火山灰反应生成新矿物，使材料随时间变得更坚固。题干用 may 与原文的 suggests 程度一致，选 TRUE。",
+            "evidence": { "para": "B", "quote": "recent research suggests that the seawater itself reacted with the volcanic ash to form new minerals that made the material stronger over time" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Aspdin heated his materials to higher temperatures than later manufacturers did.",
+            "answer": ["FALSE"],
+            "explanation": "C 段：后来的制造商大幅改进工艺，把石灰石和黏土的混合物加热到高得多的温度（much higher temperatures）。可见是后来者温度更高，题干说反了，选 FALSE。",
+            "evidence": { "para": "C", "quote": "Later manufacturers greatly improved the process, heating mixtures of limestone and clay to much higher temperatures" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "The French gardener who reinforced his flowerpots made a fortune from the idea.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "D 段只说一位想要更结实花盆的法国园丁是发现钢筋加固方法的发明者之一，没有提到他是否因此致富。选 NOT GIVEN。",
+            "evidence": { "para": "D", "quote": "among them a French gardener who wanted stronger flowerpots" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Reinforced concrete in places where roads are salted in winter is especially vulnerable to damage caused by rust.",
+            "answer": ["TRUE"],
+            "explanation": "E 段：钢筋锈蚀膨胀撑裂混凝土，这一过程在冬季往路面撒盐的国家，对桥梁和停车场是个尤其突出的问题（a particular problem）。选 TRUE。",
+            "evidence": { "para": "E", "quote": "This process is a particular problem for bridges and car parks in countries where salt is spread on roads in winter." }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "Why did Aspdin call his product Portland cement?",
+            "options": [
+              { "key": "A", "text": "It was first manufactured on the Isle of Portland." },
+              { "key": "B", "text": "It contained stone quarried on the Isle of Portland." },
+              { "key": "C", "text": "He thought it looked like a familiar building stone." },
+              { "key": "D", "text": "It was used to build a famous structure in Portland." }
+            ],
+            "answer": ["C"],
+            "explanation": "C 段：他认为水泥硬化后的样子很像波特兰岛出产的一种知名建筑石材，所以这样命名。对应 C。A、B、D 都把 Portland 误当成产地或原料来源，原文没有这样说。",
+            "evidence": { "para": "C", "quote": "because he thought the hardened material resembled a well-known building stone quarried on the Isle of Portland" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "According to paragraph D, steel and concrete work well together partly because",
+            "options": [
+              { "key": "A", "text": "they respond to changes in temperature in a similar way." },
+              { "key": "B", "text": "both materials are strong when stretched." },
+              { "key": "C", "text": "steel prevents water from entering the concrete." },
+              { "key": "D", "text": "concrete protects the steel from heat." }
+            ],
+            "answer": ["A"],
+            "explanation": "D 段：钢和混凝土随温度变化的热胀冷缩幅度几乎相同，所以冷热天气下不会互相撕裂。对应 A。B 错在混凝土受拉时很容易开裂；C 与 E 段相反（水会渗入混凝土到达钢筋）；D 原文没提。",
+            "evidence": { "para": "D", "quote": "steel and concrete expand and contract by almost the same amount as temperatures change" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "What is the writer's main point about the carbon dioxide released in cement manufacture?",
+            "options": [
+              { "key": "A", "text": "Most of it comes from the fuel burned in kilns." },
+              { "key": "B", "text": "It could be almost eliminated by using clean energy." },
+              { "key": "C", "text": "It is less than the amount produced by aviation." },
+              { "key": "D", "text": "A large part of it cannot be avoided simply by changing the energy source." }
+            ],
+            "answer": ["D"],
+            "explanation": "F 段：较大份额的二氧化碳来自石灰石受热分解这一化学反应本身，所以即使窑炉完全使用清洁能源，仍会产生大量二氧化碳。对应 D。A、B 与原文相反；C 也相反，原文说水泥排放比整个航空业还多。",
+            "evidence": { "para": "F", "quote": "even if kilns were powered entirely by clean energy, the manufacture of conventional cement would still produce large quantities of the gas" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "What does the writer suggest about using less concrete?",
+            "options": [
+              { "key": "A", "text": "It would be technically impossible." },
+              { "key": "B", "text": "It would require the industry to change long-established habits." },
+              { "key": "C", "text": "It has already been widely adopted." },
+              { "key": "D", "text": "It is less effective than capturing carbon." }
+            ],
+            "answer": ["B"],
+            "explanation": "G 段：少用混凝土也许是最简单的办法，但这需要一个长期偏爱宽裕安全余量、不讲究省料的行业做出改变。对应 B。A、C、D 原文都没有这样说。",
+            "evidence": { "para": "G", "quote": "although this requires changes in an industry that has long favoured generous safety margins over economy of material" }
+          }
+        ]
+      },
+      {
+        "type": "short-answer",
+        "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+        "wordLimit": { "words": 3, "number": true },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "What is the name of the chemical reaction between cement and water?",
+            "answer": ["hydration"],
+            "explanation": "A 段：水泥与水的反应叫作水化（The reaction, called hydration），可以持续数月甚至数年。填 hydration。",
+            "evidence": { "para": "A", "quote": "The reaction, called hydration, continues for months or even years" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "In which century was the dome of the Pantheon completed?",
+            "answer": ["the second century", "second century", "the 2nd century", "2nd century", "second century AD", "2nd century AD"],
+            "explanation": "B 段：万神殿穹顶于公元 2 世纪完工（Completed in the second century AD）。填 the second century；写 2nd century、second century AD 也可以，但 the second century AD 是 4 个词，超出字数限制。",
+            "evidence": { "para": "B", "quote": "Completed in the second century AD, the dome remains the largest ever built of unreinforced concrete." }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "To approximately what temperature are cement kilns heated?",
+            "answer": ["1,450 degrees Celsius", "1450 degrees Celsius", "1,450 degrees", "1450 degrees"],
+            "explanation": "F 段：燃料用来把窑炉加热到约 1,450 摄氏度（around 1,450 degrees Celsius）。填 1,450 degrees Celsius，数字不计入词数；不写 Celsius 也可以。",
+            "evidence": { "para": "F", "quote": "Part of this comes from burning fuel to heat kilns to around 1,450 degrees Celsius" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Slag, which can replace part of the cement, is left over from which industrial process?",
+            "answer": ["steel production"],
+            "explanation": "G 段：可替代部分水泥的材料包括燃煤电厂的粉煤灰和炼钢留下的矿渣（slag left over from steel production）。填 steel production。注意 coal-fired power stations 对应的是 ash，不是 slag。",
+            "evidence": { "para": "G", "quote": "slag left over from steel production" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-garden-cities",
+    "title": "The Garden City: A Radical Idea and Its Uneven Legacy",
+    "titleCn": "田园城市：一个激进构想及其参差的遗产",
+    "difficulty": "hard",
+    "topic": "society",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "At the end of the nineteenth century, the great industrial cities of Britain presented a grim picture. Overcrowded housing, polluted air and high rents drove reformers to search for alternatives, while the countryside, emptied by the decline of agriculture, offered fresh air but few jobs and little social life. Into this debate stepped an unlikely figure. Ebenezer Howard was a London stenographer who earned his living recording speeches and legal proceedings, and he had no training in architecture or planning. In 1898 he published a short book, reissued four years later under the title 'Garden Cities of To-morrow', which proposed nothing less than a new way of organising the relationship between town and country."
+      },
+      {
+        "label": "B",
+        "text": "Howard illustrated his argument with a famous diagram of three magnets. The town attracted people with jobs, wages and entertainment, but repelled them with crowding and dirt; the country offered beauty and clean air, but little work or amusement. A third magnet, the 'town-country', would combine the advantages of both. In practical terms, he proposed new settlements of around 32,000 people, built on land bought cheaply in agricultural areas. Each town would be surrounded by a permanent belt of farmland, which would supply it with food and prevent it from expanding. When one town reached its planned size, another would be founded nearby, and the towns would be connected by rail to form a cluster."
+      },
+      {
+        "label": "C",
+        "text": "The physical layout, however, was only part of the scheme, and in Howard's eyes probably not the most important part. The land on which each garden city stood was to be owned collectively, through a trust, rather than by private landlords. As the town grew and the land became more valuable, the increase in its value would therefore benefit the community, paying off the original loans and then funding schools, parks and pensions. Howard regarded this as a peaceful path to social reform, one that would achieve many of the aims of radical politics without taking anyone's property away from them."
+      },
+      {
+        "label": "D",
+        "text": "Remarkably, Howard's ideas were put into practice within his lifetime. A company was formed to buy land in Hertfordshire, north of London, and work on Letchworth Garden City began in 1903; a second town, Welwyn Garden City, followed in 1920. Both were designed with generous gardens, tree-lined streets and a clear separation between housing and industry. Neither grew as quickly as Howard had hoped, and financial pressures forced the companies that developed them to compromise on some of his principles. Nevertheless, in Letchworth a community foundation still owns a substantial part of the town's land and property and spends the income on local services, a partial realisation of his original vision."
+      },
+      {
+        "label": "E",
+        "text": "The influence of the garden city movement spread far beyond these two towns. In Britain, the new towns built after the Second World War, such as Stevenage, drew heavily on Howard's ideas, as did the green belts that were drawn around London and other cities to restrict their growth. Abroad, planners from Germany to Japan adopted elements of the model, and the term 'garden city' was applied to developments on several continents. Yet in most cases what was copied was the appearance of Howard's towns, with their low-density housing and abundant greenery, rather than the system of collective land ownership on which he believed their success depended."
+      },
+      {
+        "label": "F",
+        "text": "This selective borrowing helps to explain why the garden city has attracted so much criticism. Many developments that claimed to follow Howard's model were in fact suburbs without industries of their own, from which residents travelled daily to work in the city. Once cars became widespread, such low-density estates encouraged long journeys and contributed to the spread of building across the countryside, the very outcome Howard had hoped to prevent. Some urban thinkers went further, arguing in the 1960s that his entire approach was hostile to the variety and liveliness of real cities. These criticisms have some force, but they are directed more at the imitations than at the original proposal."
+      },
+      {
+        "label": "G",
+        "text": "Interest in Howard has revived in recent years, as governments facing housing shortages have announced plans for new 'garden towns' and 'garden villages'. Whether these deserve the name is open to question. Most adopt the green spaces and attractive streets, but few include any mechanism for capturing the rising value of land for the community. Yet this was the most original element of Howard's thinking, and arguably the most relevant today, when the profits from turning farmland into building land usually go to landowners and developers. A genuine revival of the garden city would need to begin not with the design of houses, but with the question of who owns the ground beneath them."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–ix.",
+        "options": [
+          { "key": "i", "text": "Objections aimed largely at copies" },
+          { "key": "ii", "text": "The decline of farming in the countryside" },
+          { "key": "iii", "text": "Sharing the profits of growth" },
+          { "key": "iv", "text": "Wide adoption of an outward form" },
+          { "key": "v", "text": "Why the first towns grew faster than expected" },
+          { "key": "vi", "text": "A plan to combine the benefits of two ways of life" },
+          { "key": "vii", "text": "What modern schemes tend to leave out" },
+          { "key": "viii", "text": "Railways as the key to urban expansion" },
+          { "key": "ix", "text": "Ideas turned into real places" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["vi"],
+            "explanation": "B 段用「三块磁铁」说明城市与乡村各有吸引力和缺点，第三块磁铁「城乡结合体」兼得两者之长，随后给出具体方案。对应 vi「兼得两种生活方式好处的方案」。viii 是干扰项，铁路只是段末细节。",
+            "evidence": { "para": "B", "quote": "A third magnet, the 'town-country', would combine the advantages of both." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["iii"],
+            "explanation": "C 段：土地由信托集体所有，城镇发展带来的地价上涨归社区所有，用来还贷并资助学校、公园和养老金。对应 iii「分享增长的收益」。",
+            "evidence": { "para": "C", "quote": "the increase in its value would therefore benefit the community" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["ix"],
+            "explanation": "D 段：霍华德在世时构想就付诸实践，建成了莱奇沃思和韦林两座田园城市。对应 ix「构想变成真实的地方」。v 与原文相反：两座城的发展都没有霍华德期望的快。",
+            "evidence": { "para": "D", "quote": "Remarkably, Howard's ideas were put into practice within his lifetime." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["iv"],
+            "explanation": "E 段：田园城市的影响遍及英国战后新城和海外，但多数情况下被模仿的只是外观（低密度住宅、大量绿地），而不是土地集体所有制。对应 iv「外在形式被广泛采用」。",
+            "evidence": { "para": "E", "quote": "what was copied was the appearance of Howard's towns" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["i"],
+            "explanation": "F 段列举对田园城市的批评（通勤郊区、蔓延、反城市），最后作者指出这些批评主要针对的是仿制品而非原始方案。对应 i「主要针对仿制品的批评」。",
+            "evidence": { "para": "F", "quote": "they are directed more at the imitations than at the original proposal" }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "para": "G",
+            "prompt": "Paragraph G",
+            "answer": ["vii"],
+            "explanation": "G 段：如今的「田园小镇」「田园村庄」大多保留了绿地和街景，却很少有让社区获得地价上涨收益的机制。对应 vii「现代项目往往遗漏的东西」。",
+            "evidence": { "para": "G", "quote": "few include any mechanism for capturing the rising value of land for the community" }
+          }
+        ]
+      },
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "Howard's lack of professional training made his proposals unrealistic.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "A 段只说霍华德是「意想不到的人物」，没有受过建筑或规划训练；作者没有评价这是否让他的方案不切实际（D 段反而说构想在他生前就付诸实践）。选 NOT GIVEN。",
+            "evidence": { "para": "A", "quote": "he had no training in architecture or planning" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "Howard probably regarded the layout of his towns as more important than their financial arrangements.",
+            "answer": ["NO"],
+            "explanation": "C 段：作者认为在霍华德眼中，物理布局只是方案的一部分，而且很可能不是最重要的部分。题干说他更看重布局，与作者观点相反，选 NO。",
+            "evidence": { "para": "C", "quote": "The physical layout, however, was only part of the scheme, and in Howard's eyes probably not the most important part." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "The criticisms of garden cities apply more to later imitations than to Howard's own plan.",
+            "answer": ["YES"],
+            "explanation": "F 段末：作者认为这些批评有一定道理，但更多针对的是仿制品，而不是原始方案。题干与作者观点一致，选 YES。",
+            "evidence": { "para": "F", "quote": "These criticisms have some force, but they are directed more at the imitations than at the original proposal." }
+          },
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "Recent 'garden villages' have generally followed Howard's approach to land ownership.",
+            "answer": ["NO"],
+            "explanation": "G 段：如今的田园小镇和村庄大多只采纳了绿地和街景，很少包含让社区获得地价增值的机制。题干说普遍沿用了霍华德的土地所有制思路，与作者观点相反，选 NO。",
+            "evidence": { "para": "G", "quote": "Most adopt the green spaces and attractive streets, but few include any mechanism for capturing the rising value of land for the community." }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "summary": {
+          "title": "Howard's proposal",
+          "text": "Howard proposed settlements of roughly 32,000 inhabitants on land purchased cheaply in {q11}. Each would be enclosed by a permanent ring of farmland, intended both to feed the town and to stop it from {q12}. Crucially, the land would be held by a {q13} instead of private landlords, so that any rise in its value would benefit the whole community."
+        },
+        "questions": [
+          {
+            "id": "q11",
+            "number": 11,
+            "answer": ["agricultural areas"],
+            "explanation": "B 段：新城建在农业地区低价购得的土地上（land bought cheaply in agricultural areas）。purchased cheaply 对应 bought cheaply，填 agricultural areas。",
+            "evidence": { "para": "B", "quote": "built on land bought cheaply in agricultural areas" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "answer": ["expanding"],
+            "explanation": "B 段：永久农田带既为城镇供应食物，又阻止它扩张（prevent it from expanding）。stop it from 后接动名词，填 expanding。",
+            "evidence": { "para": "B", "quote": "which would supply it with food and prevent it from expanding" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "answer": ["trust"],
+            "explanation": "C 段：每座田园城市的土地通过一个信托集体持有，而不是归私人地主（through a trust, rather than by private landlords）。填 trust。",
+            "evidence": { "para": "C", "quote": "The land on which each garden city stood was to be owned collectively, through a trust, rather than by private landlords." }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-language-age",
+    "title": "Too Late to Learn? Age and the Acquisition of Language",
+    "titleCn": "学语言会太晚吗？年龄与语言习得",
+    "difficulty": "hard",
+    "topic": "psychology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Almost every child acquires the language spoken around them without formal instruction, and by the age of four or five most have mastered its basic grammar. Adults learning a new language, by contrast, often struggle for years and rarely lose their foreign accent. Observations like these have given rise to one of the most widely held beliefs about language: that there is a limited window in childhood during which languages can be learned with ease, and that once it closes, full mastery becomes difficult or impossible. The belief influences decisions made by parents and governments alike, yet the scientific evidence behind it is more complicated than its popularity suggests."
+      },
+      {
+        "label": "B",
+        "text": "The idea was given its classic form in the 1960s by a neurologist who proposed that the brain's capacity for language declines around puberty, as it loses the flexibility of early childhood. He called this the critical period, and he supported it partly by noting that children who suffer damage to the brain often recover their language far more completely than adults with similar injuries. Some of the most frequently cited evidence, however, has come from rare and tragic cases of children who were raised in severe isolation and who, when discovered, never fully acquired grammar despite intensive teaching. Such cases are deeply troubling, but they are of limited scientific value: the children concerned had suffered extreme neglect, so it is impossible to separate the effects of late exposure to language from those of their wider experiences."
+      },
+      {
+        "label": "C",
+        "text": "More persuasive evidence comes from deaf children born to hearing parents, some of whom are not exposed to sign language until later in childhood. Studies have found that those who begin signing early generally achieve greater control of grammar than those who begin as teenagers, even after decades of use. Research on infants points in a similar direction. At birth, babies can distinguish between speech sounds used in any of the world's languages, but by around their first birthday they have become much less sensitive to differences that do not matter in the language they hear around them. Infants raised in a Japanese-speaking environment, for instance, gradually lose the ability to hear the contrast between English 'r' and 'l'."
+      },
+      {
+        "label": "D",
+        "text": "The picture for second languages is less clear. Studies of immigrants have repeatedly found that those who arrived as young children are more likely to sound like native speakers than those who arrived as adults, and accent appears to be the area in which age matters most. For grammar, the evidence is more mixed. One large online study, in which hundreds of thousands of participants completed a grammar quiz, suggested that the ability to learn grammar remains strong until about the age of seventeen or eighteen, far later than the traditional account would predict. Its authors noted, however, that reaching a native-like level still appears to require starting much earlier, because learning takes many years."
+      },
+      {
+        "label": "E",
+        "text": "Moreover, in the early stages of learning, younger is not necessarily better. Experiments comparing learners of different ages in the same conditions have often found that adolescents and adults make faster initial progress than young children, probably because they can draw on more developed memory, greater knowledge of the world and the ability to think consciously about rules. Children tend to catch up with and overtake older learners only after several years of extensive exposure, when their capacity to absorb the language without conscious effort begins to show its advantages."
+      },
+      {
+        "label": "F",
+        "text": "This matters a great deal for education policy. Many countries have lowered the age at which foreign languages are introduced at school, often on the assumption that an earlier start will automatically lead to better results. But a child who studies a language for two hours a week is in a very different position from one who is surrounded by it all day. Research comparing pupils who started a foreign language at school at different ages has generally found that, after the same number of hours of teaching, the later starters perform at least as well, and often better. Without substantial exposure, the advantage of youth appears to be small or absent."
+      },
+      {
+        "label": "G",
+        "text": "Most researchers now prefer to speak of a sensitive period rather than a critical one, a phase in which the brain is especially responsive to language but whose end is gradual rather than sudden. Age is undoubtedly one factor in success, but it interacts with others, including the amount and quality of input, the learner's motivation and the opportunities available to use the language in real situations. For adults, the message is encouraging: native-like pronunciation may be out of reach for most, but high levels of competence are not. For schools, an early start is worthwhile only if it comes with enough time and good teaching to make use of it."
+      }
+    ],
+    "groups": [
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "The scientific evidence for a critical period is less straightforward than many people assume.",
+            "answer": ["YES"],
+            "explanation": "A 段末：这种观念影响着家长和政府的决定，但其背后的科学证据比它的流行程度所暗示的更复杂。题干与作者观点一致，选 YES。",
+            "evidence": { "para": "A", "quote": "yet the scientific evidence behind it is more complicated than its popularity suggests" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Cases of children raised in isolation provide strong support for the critical period hypothesis.",
+            "answer": ["NO"],
+            "explanation": "B 段：作者认为这些个案令人痛心，但科学价值有限（of limited scientific value），因为无法把「接触语言太晚」与严重被忽视的其他影响区分开。题干说提供了有力支持，与作者观点相反，选 NO。",
+            "evidence": { "para": "B", "quote": "Such cases are deeply troubling, but they are of limited scientific value" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Sign languages are more difficult to learn than spoken languages.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "C 段讨论的是聋童开始学手语的早晚对语法掌握的影响，作者没有比较手语和口语哪个更难学。选 NOT GIVEN。",
+            "evidence": { "para": "C", "quote": "More persuasive evidence comes from deaf children born to hearing parents" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Adults usually make slower progress than young children in the first stages of learning a language.",
+            "answer": ["NO"],
+            "explanation": "E 段：同等条件下，青少年和成人在起步阶段往往比幼儿进步更快（faster initial progress）。题干说成人更慢，与原文相反，选 NO。",
+            "evidence": { "para": "E", "quote": "adolescents and adults make faster initial progress than young children" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Adults can realistically hope to reach a high level in a new language.",
+            "answer": ["YES"],
+            "explanation": "G 段：对成人来说结论是鼓舞人心的，母语般的发音也许大多数人做不到，但高水平的语言能力并非遥不可及。选 YES。",
+            "evidence": { "para": "G", "quote": "native-like pronunciation may be out of reach for most, but high levels of competence are not" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "What does the writer say about research on infants?",
+            "options": [
+              { "key": "A", "text": "It shows that babies prefer the language spoken by their parents." },
+              { "key": "B", "text": "It contradicts the findings on deaf children." },
+              { "key": "C", "text": "It suggests that sensitivity to some sound differences declines in the first year." },
+              { "key": "D", "text": "It proves that Japanese is harder to learn than English." }
+            ],
+            "answer": ["C"],
+            "explanation": "C 段：婴儿出生时能分辨世界上任何语言的语音，但到一岁左右，对母语环境中不区分的语音差别就变得迟钝得多。对应 C。B 与原文相反（points in a similar direction）；A、D 原文没提。",
+            "evidence": { "para": "C", "quote": "by around their first birthday they have become much less sensitive to differences that do not matter in the language they hear around them" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "According to paragraph D, in which area does age appear to matter most for second-language learners?",
+            "options": [
+              { "key": "A", "text": "accent" },
+              { "key": "B", "text": "grammar" },
+              { "key": "C", "text": "vocabulary" },
+              { "key": "D", "text": "reading" }
+            ],
+            "answer": ["A"],
+            "explanation": "D 段：口音似乎是年龄影响最大的方面（accent appears to be the area in which age matters most）。语法方面证据更不一致，所以不是 B。选 A。",
+            "evidence": { "para": "D", "quote": "accent appears to be the area in which age matters most" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "What did the authors of the large online study point out?",
+            "options": [
+              { "key": "A", "text": "Their results applied only to learners of English." },
+              { "key": "B", "text": "The ability to learn grammar declines sharply at puberty." },
+              { "key": "C", "text": "Online quizzes are unreliable measures of ability." },
+              { "key": "D", "text": "A native-like level still seems to need an early start because learning takes a long time." }
+            ],
+            "answer": ["D"],
+            "explanation": "D 段：研究者指出，虽然学语法的能力可以保持到十七八岁，但要达到母语水平仍需更早开始，因为学习需要很多年。对应 D。B 与该研究结论相反；A、C 原文没提。",
+            "evidence": { "para": "D", "quote": "reaching a native-like level still appears to require starting much earlier, because learning takes many years" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "According to the writer, why might older learners progress faster at first?",
+            "options": [
+              { "key": "A", "text": "They are usually more highly motivated." },
+              { "key": "B", "text": "They can draw on more developed memory and knowledge." },
+              { "key": "C", "text": "They receive more hours of teaching." },
+              { "key": "D", "text": "They worry less about making mistakes." }
+            ],
+            "answer": ["B"],
+            "explanation": "E 段：年龄较大的学习者起步快，可能是因为能借助更成熟的记忆、更多的世界知识和有意识思考规则的能力。对应 B。A 是干扰项，动机在 G 段作为影响成败的因素出现，但不是起步快的原因；C 与实验「同等条件」相矛盾；D 原文没提。",
+            "evidence": { "para": "E", "quote": "probably because they can draw on more developed memory, greater knowledge of the world and the ability to think consciously about rules" }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "The neurologist believed that the brain's capacity for language declines at around the time of {blank}.",
+            "answer": ["puberty"],
+            "explanation": "B 段：这位神经学家提出，大脑的语言能力在青春期前后（around puberty）下降。填 puberty。",
+            "evidence": { "para": "B", "quote": "the brain's capacity for language declines around puberty" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "Deaf people who first learn to sign as teenagers often have weaker control of {blank} than those who start early.",
+            "answer": ["grammar"],
+            "explanation": "C 段：早开始学手语的聋人，对语法的掌握通常好于十几岁才开始的人，即使已经用了几十年。填 grammar。",
+            "evidence": { "para": "C", "quote": "those who begin signing early generally achieve greater control of grammar than those who begin as teenagers" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "Young children generally overtake older learners only after several years of {blank}.",
+            "answer": ["extensive exposure", "exposure"],
+            "explanation": "E 段：儿童通常要经过几年大量接触（extensive exposure）之后才赶上并超过年长的学习者。填 extensive exposure，只写 exposure 也可以。",
+            "evidence": { "para": "E", "quote": "Children tend to catch up with and overtake older learners only after several years of extensive exposure" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Many researchers now prefer to describe a {blank} period, which ends gradually rather than suddenly.",
+            "answer": ["sensitive"],
+            "explanation": "G 段：多数研究者现在更愿意说「敏感期」（sensitive period）而不是「关键期」，因为它的结束是渐进的。填 sensitive；填 critical 与原文意思相反。",
+            "evidence": { "para": "G", "quote": "Most researchers now prefer to speak of a sensitive period rather than a critical one" }
+          }
+        ]
+      }
+    ]
+  }
+]
