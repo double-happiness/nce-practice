@@ -9,6 +9,7 @@ const tf = require('../lib/transform-util');
 const { answerCn } = require('../lib/transform-cn');
 const wordSrs = require('../lib/word-srs');
 const dlgSrs = require('../lib/dialogue-srs');
+const ieltsSrs = require('../lib/ielts-srs');
 const { collectTurnAnswers } = require('../lib/dialogue-grade');
 
 const router = express.Router();
@@ -34,6 +35,7 @@ function known(id) {
   if (tfResolve(id)) return true;
   if (wordSrs.resolve(id)) return true;
   if (dlgSrs.resolve(id)) return true;
+  if (ieltsSrs.resolve(id)) return true;
   return false;
 }
 
@@ -46,6 +48,8 @@ function resolveItem(id) {
   if (w) return { kind: 'word', w };
   const d = dlgSrs.resolve(id);
   if (d) return { kind: 'dialogue', d };
+  const ie = ieltsSrs.resolve(id);
+  if (ie) return { kind: 'ielts', ie };
   return null;
 }
 
@@ -55,6 +59,7 @@ function publicQuestion(id) {
   if (r.kind === 'quiz') return stripAnswer(r.q);
   if (r.kind === 'transform') return tf.stepQuestion(r.ts.t, r.ts.idx, id);
   if (r.kind === 'word') return wordSrs.wordQuestion(r.w.entry, id);
+  if (r.kind === 'ielts') return ieltsSrs.ieltsQuestion(r.ie);
   return dlgSrs.dialogueQuestion(r.d);
 }
 
@@ -84,6 +89,8 @@ function gradeItem(id, response) {
       explanation: `${r.w.entry.word}：${r.w.entry.cn}`,
     };
   }
+  // 雅思阅读 / 听力：判分复用原模块，返回值可能是 { error }（作答不合法）
+  if (r.kind === 'ielts') return ieltsSrs.gradeIelts(r.ie, response);
   const answers = collectTurnAnswers(r.d.line);
   return {
     correct: dlgSrs.gradeLine(r.d.line, response),
@@ -91,6 +98,17 @@ function gradeItem(id, response) {
     answerCn: r.d.line.cn || '',
     explanation: r.d.d.scene || '',
   };
+}
+
+// 雅思题原题已从内容中删除时移出队列（内容暂时加载失败不算删除，判断见 ieltsSrs.isGone）
+function pruneGoneIelts(db) {
+  let removed = 0;
+  for (const id of Object.keys(db.items)) {
+    if (!ieltsSrs.isGone(id)) continue;
+    delete db.items[id];
+    removed++;
+  }
+  return removed;
 }
 
 function addIds(ids) {
@@ -134,6 +152,7 @@ router.post('/srs/add-words', (req, res) => {
 router.get('/srs/due', (req, res) => {
   const limit = Number(req.query.limit) || 20;
   const db = load();
+  if (pruneGoneIelts(db)) save(db);
   const now = Date.now();
   const due = Object.keys(db.items)
     .filter((id) => db.items[id].dueAt <= now && known(id))
@@ -148,7 +167,15 @@ router.get('/srs/due', (req, res) => {
 router.post('/srs/grade', (req, res) => {
   const { id, response } = req.body || {};
   const graded = gradeItem(id, response);
-  if (!graded) return res.status(404).json({ error: '题目不存在' });
+  if (!graded) {
+    if (ieltsSrs.isGone(id)) {
+      const db = load();
+      if (pruneGoneIelts(db)) save(db);
+      return res.status(404).json({ error: '题目不存在：该雅思题已从题库删除，已移出复习队列' });
+    }
+    return res.status(404).json({ error: '题目不存在' });
+  }
+  if (graded.error) return res.status(400).json({ error: graded.error });
 
   const db = load();
   const now = Date.now();
@@ -172,6 +199,7 @@ router.post('/srs/grade', (req, res) => {
     answerCn: graded.answerCn || '',
     explanation: graded.explanation,
     nextDueAt: it.dueAt,
+    ...(graded.ielts ? { ielts: graded.ielts } : {}),
   });
 });
 
