@@ -1,0 +1,3866 @@
+[
+  {
+    "id": "gr-present-simple-continuous",
+    "domain": "grammar",
+    "track": "core",
+    "title": "一般现在时与现在进行时",
+    "titleEn": "Present simple and present continuous",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "writing"
+    ],
+    "order": 10,
+    "minutes": 20,
+    "summary": "分清「习惯、事实」与「此刻、这段时间正在发生」，口语 Part 1 谈日常、写作描述现状时时态不出错。",
+    "sections": [
+      {
+        "heading": "一般现在时：习惯、事实与长期状态",
+        "body": "一般现在时说的是**经常发生的事、长期状态和普遍事实**，不强调「此刻」。\n\n主语是第三人称单数（he / she / it、单数名词、不可数名词）时，动词要加 -s 或 -es；否定和疑问借助 does，后面的动词回到原形。口语 Part 1 被问到 Do you work or are you a student? 这类问题，回答的主干时态就是一般现在时。",
+        "table": {
+          "head": [
+            "形式",
+            "结构",
+            "例子"
+          ],
+          "rows": [
+            [
+              "肯定",
+              "I / you / we / they + 动词原形；he / she / it + 动词-s",
+              "She teaches maths. / Water boils at 100 degrees."
+            ],
+            [
+              "否定",
+              "don't / doesn't + 动词原形",
+              "He doesn't drive to work."
+            ],
+            [
+              "疑问",
+              "Do / Does + 主语 + 动词原形?",
+              "Does your city have a metro?"
+            ],
+            [
+              "-s 的加法",
+              "一般加 -s；以 s、x、ch、sh、o 结尾加 -es；辅音字母 + y 变 y 为 i 再加 -es",
+              "works, watches, goes, studies"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I usually take the bus to university because parking is expensive.",
+            "cn": "我通常坐公交去大学，因为停车太贵。",
+            "note": "usually 表习惯；parking 是不可数名词，谓语用 is。"
+          },
+          {
+            "en": "My hometown has a population of about two million.",
+            "cn": "我的家乡大约有两百万人口。",
+            "note": "长期事实用一般现在时；my hometown 是单数，用 has。"
+          },
+          {
+            "en": "Most teenagers spend several hours online every day.",
+            "cn": "大多数青少年每天上网好几个小时。",
+            "note": "every day 是典型的习惯标志词。"
+          }
+        ]
+      },
+      {
+        "heading": "现在进行时：此刻、这段时间与变化趋势",
+        "body": "现在进行时由 **am / is / are + 动词-ing** 构成，表示说话这一刻正在发生的动作，也可以表示**最近一段时间在做、但此刻不一定在做**的事，以及**正在发生的变化**。\n\n雅思写作和口语谈社会变化时常用最后一种：More and more people are working from home. 强调这是一个正在发生的趋势。",
+        "table": {
+          "head": [
+            "用法",
+            "常见标志词",
+            "例子"
+          ],
+          "rows": [
+            [
+              "此刻正在进行",
+              "now, right now, at the moment, Look! / Listen!",
+              "Sorry, I'm cooking dinner at the moment."
+            ],
+            [
+              "这段时间在进行（暂时）",
+              "this week, this term, these days, currently",
+              "I'm preparing for the IELTS test this term."
+            ],
+            [
+              "正在变化的趋势",
+              "more and more, increasingly, gradually",
+              "Cities are becoming more crowded."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I'm reading a book about climate change at the moment.",
+            "cn": "我最近在读一本关于气候变化的书。",
+            "note": "不一定此刻手里拿着书，表示这段时间在做。"
+          },
+          {
+            "en": "More and more students are choosing to study abroad.",
+            "cn": "越来越多的学生选择出国留学。",
+            "note": "描述正在发生的趋势。"
+          },
+          {
+            "en": "Listen! Someone is knocking at the door.",
+            "cn": "听！有人在敲门。",
+            "note": "Listen! / Look! 提示动作此刻正在发生。"
+          }
+        ]
+      },
+      {
+        "heading": "怎么选：长期习惯还是暂时情况",
+        "body": "判断的关键是**长期 / 习惯**还是**暂时 / 正在进行**。同一个动词换个时态，意思就变了：I live in Beijing. 是长期住在北京；I'm living in Beijing. 暗示暂时住在这里，以后可能搬走。\n\n口语里把「平时」和「最近」放在一起对比，听起来更自然，也能体现时态的准确度。",
+        "table": {
+          "head": [
+            "一般现在时",
+            "现在进行时"
+          ],
+          "rows": [
+            [
+              "I work in a bank.（长期工作）",
+              "I'm working in a bank this summer.（暂时）"
+            ],
+            [
+              "She usually walks to work.（习惯）",
+              "She's taking the train this week because her bike is broken.（这周例外）"
+            ],
+            [
+              "Prices rise every year.（规律）",
+              "Prices are rising quickly.（正在发生的变化）"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I normally study in the library, but this week I'm studying at home because the library is closed.",
+            "cn": "我平时在图书馆学习，但这周图书馆关门，我在家学。",
+            "note": "normally 配一般现在时，this week 配现在进行时。"
+          },
+          {
+            "en": "My brother lives in Shanghai, but he's staying with us for a few days.",
+            "cn": "我哥哥住在上海，不过这几天他住在我们家。"
+          }
+        ]
+      },
+      {
+        "heading": "状态动词一般不用进行时",
+        "body": "有一类动词表示**状态**而不是动作，比如喜好、想法、感知、拥有，一般**不用进行时**。即使说的是此刻，也用一般现在时：I know the answer now.\n\n少数状态动词表示「动作」意思时可以用进行时，例如 think 表「考虑」、have 表「吃、度过」：I'm thinking about changing my job. / We're having lunch.",
+        "table": {
+          "head": [
+            "类别",
+            "常见状态动词"
+          ],
+          "rows": [
+            [
+              "喜好",
+              "like, love, hate, prefer, want, need"
+            ],
+            [
+              "想法",
+              "know, believe, understand, mean, remember, agree"
+            ],
+            [
+              "感知",
+              "see, hear, seem, smell（闻起来）, taste（尝起来）"
+            ],
+            [
+              "拥有 / 构成",
+              "have（拥有）, own, belong to, contain, consist of"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I understand why many people prefer online shopping.",
+            "cn": "我理解为什么很多人更喜欢网购。",
+            "note": "不说 I'm understanding。"
+          },
+          {
+            "en": "This report contains data from twenty countries.",
+            "cn": "这份报告包含二十个国家的数据。"
+          },
+          {
+            "en": "I'm thinking about taking a gap year before university.",
+            "cn": "我在考虑上大学前休学一年。",
+            "note": "think about 表「考虑」，是动作，可以用进行时。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "My father work in a hospital.",
+        "right": "My father works in a hospital.",
+        "why": "主语是第三人称单数，一般现在时的动词要加 -s。中文动词没有词形变化，写快了最容易漏。"
+      },
+      {
+        "wrong": "She doesn't likes coffee.",
+        "right": "She doesn't like coffee.",
+        "why": "已经用了 doesn't，后面的动词回到原形，不能再加 -s。"
+      },
+      {
+        "wrong": "I am knowing the answer.",
+        "right": "I know the answer.",
+        "why": "know 是状态动词，表示「知道」这种状态，不用进行时。"
+      },
+      {
+        "wrong": "I am usually get up at seven.",
+        "right": "I usually get up at seven.",
+        "why": "把中文「我是……」直译成 am，造成 be 动词和实义动词并用。一般现在时的肯定句不需要 am / is / are。"
+      },
+      {
+        "wrong": "Look! The children play in the rain.",
+        "right": "Look! The children are playing in the rain.",
+        "why": "Look! 提示动作此刻正在发生，要用现在进行时。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-present-simple-continuous-q1",
+        "type": "mcq",
+        "q": "My sister ___ for a software company, but this month she ___ from home.",
+        "options": [
+          "works / is working",
+          "is working / works",
+          "work / works"
+        ],
+        "answer": "works / is working",
+        "explain": "前半句说长期工作，用一般现在时，主语是第三人称单数要加 -s；this month 表示暂时情况，用现在进行时。"
+      },
+      {
+        "id": "gr-present-simple-continuous-q2",
+        "type": "fill",
+        "q": "Water ___ (freeze) at zero degrees Celsius.",
+        "answer": [
+          "freezes"
+        ],
+        "explain": "客观事实用一般现在时；water 是不可数名词，按单数处理，动词加 -s。"
+      },
+      {
+        "id": "gr-present-simple-continuous-q3",
+        "type": "fill",
+        "q": "Please be quiet. The baby ___ (sleep).",
+        "answer": [
+          "is sleeping"
+        ],
+        "explain": "说话这一刻正在发生的动作，用 is + 动词-ing。"
+      },
+      {
+        "id": "gr-present-simple-continuous-q4",
+        "type": "mcq",
+        "q": "Which sentence is correct?",
+        "options": [
+          "I am believing that technology makes life easier.",
+          "I believe that technology makes life easier.",
+          "I believing that technology makes life easier."
+        ],
+        "answer": "I believe that technology makes life easier.",
+        "explain": "believe 是表示想法的状态动词，不用进行时；第三项缺少谓语动词。"
+      },
+      {
+        "id": "gr-present-simple-continuous-q5",
+        "type": "correct",
+        "q": "He don't usually eat breakfast.",
+        "answer": [
+          "He doesn't usually eat breakfast.",
+          "He does not usually eat breakfast."
+        ],
+        "explain": "主语 he 是第三人称单数，否定要用 doesn't，后面的动词用原形。"
+      },
+      {
+        "id": "gr-present-simple-continuous-q6",
+        "type": "correct",
+        "q": "These days more and more young people is moving to big cities.",
+        "answer": [
+          "These days more and more young people are moving to big cities.",
+          "These days, more and more young people are moving to big cities."
+        ],
+        "explain": "people 是复数，be 动词用 are；these days + 趋势用现在进行时。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "一般现在时",
+        "现在进行时",
+        "频率副词"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 31
+        },
+        {
+          "book": 1,
+          "lesson": 35
+        },
+        {
+          "book": 1,
+          "lesson": 55
+        },
+        {
+          "book": 2,
+          "lesson": 2
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  },
+  {
+    "id": "gr-past-simple-continuous",
+    "domain": "grammar",
+    "track": "core",
+    "title": "一般过去时与过去进行时",
+    "titleEn": "Past simple and past continuous",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "writing"
+    ],
+    "order": 20,
+    "minutes": 25,
+    "summary": "用一般过去时讲清过去发生的事，用过去进行时交代背景，口语 Part 2 讲经历时时态稳定、叙事有层次。",
+    "sections": [
+      {
+        "heading": "一般过去时：已经结束的过去动作",
+        "body": "一般过去时表示**过去某个时间发生并且已经结束**的动作或状态，常和 yesterday、last year、in 2019、two days ago、when I was a child 等明确的过去时间连用。\n\n口语 Part 2 很多话题要求描述一次经历，主干时态就是一般过去时。否定和疑问借助 did，后面的动词回到原形。",
+        "table": {
+          "head": [
+            "形式",
+            "结构",
+            "例子"
+          ],
+          "rows": [
+            [
+              "肯定",
+              "动词过去式",
+              "We visited a science museum last weekend."
+            ],
+            [
+              "否定",
+              "didn't + 动词原形",
+              "I didn't enjoy the lecture."
+            ],
+            [
+              "疑问",
+              "Did + 主语 + 动词原形?",
+              "Did you live in the countryside as a child?"
+            ],
+            [
+              "be 动词",
+              "I / he / she / it was；you / we / they were",
+              "The tickets were cheap."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I moved to Chengdu in 2018 to start a new job.",
+            "cn": "我 2018 年搬到成都，开始一份新工作。",
+            "note": "in 2018 是明确的过去时间。"
+          },
+          {
+            "en": "When I was at primary school, we didn't have computers in the classroom.",
+            "cn": "我上小学的时候，教室里没有电脑。",
+            "note": "didn't 后面的 have 用原形。"
+          },
+          {
+            "en": "How long did it take you to get used to life in the new city?",
+            "cn": "你花了多长时间适应新城市的生活？"
+          }
+        ]
+      },
+      {
+        "heading": "规则变化与常用不规则动词",
+        "body": "规则动词加 -ed：以 e 结尾只加 -d（live → lived）；辅音字母 + y 变 y 为 i 再加 -ed（study → studied）；重读闭音节末尾只有一个辅音字母时双写（stop → stopped，plan → planned）。英式拼写里 travel 的过去式是 travelled。\n\n不规则动词没有规律，只能背。下表是口语讲经历最常用的一批，**过去式和过去分词不同的要分开记**，下一篇现在完成时会用到过去分词。",
+        "table": {
+          "head": [
+            "原形",
+            "过去式",
+            "过去分词"
+          ],
+          "rows": [
+            [
+              "go",
+              "went",
+              "gone"
+            ],
+            [
+              "take",
+              "took",
+              "taken"
+            ],
+            [
+              "buy",
+              "bought",
+              "bought"
+            ],
+            [
+              "think",
+              "thought",
+              "thought"
+            ],
+            [
+              "teach",
+              "taught",
+              "taught"
+            ],
+            [
+              "begin",
+              "began",
+              "begun"
+            ],
+            [
+              "choose",
+              "chose",
+              "chosen"
+            ],
+            [
+              "feel",
+              "felt",
+              "felt"
+            ],
+            [
+              "spend",
+              "spent",
+              "spent"
+            ],
+            [
+              "leave",
+              "left",
+              "left"
+            ],
+            [
+              "grow",
+              "grew",
+              "grown"
+            ],
+            [
+              "write",
+              "wrote",
+              "written"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "We planned the trip carefully, but we still missed the last train.",
+            "cn": "我们仔细规划了行程，但还是错过了末班车。",
+            "note": "plan → planned，双写 n。"
+          },
+          {
+            "en": "My grandfather taught me how to ride a bike when I was six.",
+            "cn": "我六岁时，爷爷教我骑自行车。",
+            "note": "teach → taught。"
+          },
+          {
+            "en": "I spent three months in Manchester and travelled around the north of England.",
+            "cn": "我在曼彻斯特待了三个月，还游览了英格兰北部。",
+            "note": "spend → spent；英式拼写 travelled。"
+          }
+        ]
+      },
+      {
+        "heading": "过去进行时：交代背景",
+        "body": "过去进行时由 **was / were + 动词-ing** 构成，表示**过去某一时刻正在进行**的动作。讲故事时，它负责描绘背景（当时在干什么、天气怎样），一般过去时负责推进情节（接着发生了什么）。",
+        "table": {
+          "head": [
+            "时态",
+            "作用",
+            "例子"
+          ],
+          "rows": [
+            [
+              "过去进行时",
+              "背景：当时正在进行",
+              "At 8 pm yesterday I was revising for my exam."
+            ],
+            [
+              "一般过去时",
+              "情节：一个个完成的动作",
+              "I finished my essay, saved it and went to bed."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "At this time last year, I was working as an intern at a design company.",
+            "cn": "去年这个时候，我正在一家设计公司实习。"
+          },
+          {
+            "en": "It was raining heavily and everyone was hurrying home.",
+            "cn": "当时雨下得很大，大家都在匆匆赶回家。",
+            "note": "两个过去进行时一起描绘场景。"
+          }
+        ]
+      },
+      {
+        "heading": "when 和 while：长动作被短动作打断",
+        "body": "最常见的组合是**长动作被短动作打断**：持续的、正在进行的动作用过去进行时，突然发生的短动作用一般过去时。\n\n**while** 后面通常接长动作（过去进行时）；**when** 后面通常接短动作（一般过去时）。两个长动作同时进行时，用 while 连接，两边都用过去进行时。",
+        "table": {
+          "head": [
+            "句型",
+            "例子"
+          ],
+          "rows": [
+            [
+              "While + 过去进行时, 一般过去时",
+              "While I was waiting for the bus, I met an old classmate."
+            ],
+            [
+              "过去进行时 + when + 一般过去时",
+              "I was waiting for the bus when I met an old classmate."
+            ],
+            [
+              "While + 过去进行时, 过去进行时",
+              "While my mother was cooking, my father was cleaning the flat."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I was walking to the library when it suddenly started to snow.",
+            "cn": "我正走去图书馆，突然下起雪来。"
+          },
+          {
+            "en": "While we were discussing the project, the manager came in with some bad news.",
+            "cn": "我们正在讨论项目时，经理带着坏消息进来了。"
+          },
+          {
+            "en": "What were you doing when you heard about your exam result?",
+            "cn": "你得知考试成绩的时候正在做什么？"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "I buyed a new laptop last month.",
+        "right": "I bought a new laptop last month.",
+        "why": "buy 是不规则动词，过去式是 bought，不能按规则加 -ed。"
+      },
+      {
+        "wrong": "Did you went to the concert?",
+        "right": "Did you go to the concert?",
+        "why": "疑问句已经用了 did 表示过去，后面的动词回到原形。"
+      },
+      {
+        "wrong": "Yesterday I go to the library and study for three hours.",
+        "right": "Yesterday I went to the library and studied for three hours.",
+        "why": "中文靠「昨天」表示时间，动词不变；英语的动词本身要变成过去式，并列的每个动词都要变。"
+      },
+      {
+        "wrong": "While I watched TV, the phone was ringing.",
+        "right": "While I was watching TV, the phone rang.",
+        "why": "长短动作的时态搭反了：看电视是持续的背景，用过去进行时；电话响是突然发生的短动作，用一般过去时。"
+      },
+      {
+        "wrong": "When I was walking home, I was seeing an accident.",
+        "right": "When I was walking home, I saw an accident.",
+        "why": "看见事故是瞬间发生的事，用一般过去时；see 表示「看见」时一般不用进行时。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-past-simple-continuous-q1",
+        "type": "fill",
+        "q": "On my way to work, I ___ (stop) at a cafe to buy breakfast.",
+        "answer": [
+          "stopped"
+        ],
+        "explain": "已经结束的过去动作用一般过去时；stop 是重读闭音节，末尾双写 p 再加 -ed。"
+      },
+      {
+        "id": "gr-past-simple-continuous-q2",
+        "type": "mcq",
+        "q": "I ___ my keys while I was running for the bus.",
+        "options": [
+          "lost",
+          "was losing",
+          "lose"
+        ],
+        "answer": "lost",
+        "explain": "丢钥匙是突然发生的短动作，用一般过去时；跑着赶车是背景，用过去进行时。"
+      },
+      {
+        "id": "gr-past-simple-continuous-q3",
+        "type": "mcq",
+        "q": "What ___ you doing at ten o'clock last night?",
+        "options": [
+          "were",
+          "did",
+          "was"
+        ],
+        "answer": "were",
+        "explain": "问过去某一时刻正在做什么，用过去进行时；主语 you 配 were。"
+      },
+      {
+        "id": "gr-past-simple-continuous-q4",
+        "type": "fill",
+        "q": "She ___ (not / go) to the meeting yesterday because she was ill.",
+        "answer": [
+          "didn't go",
+          "did not go"
+        ],
+        "explain": "一般过去时的否定用 didn't + 动词原形。"
+      },
+      {
+        "id": "gr-past-simple-continuous-q5",
+        "type": "correct",
+        "q": "My parents buyed this flat ten years ago.",
+        "answer": [
+          "My parents bought this flat ten years ago."
+        ],
+        "explain": "buy 的过去式是不规则的 bought。"
+      },
+      {
+        "id": "gr-past-simple-continuous-q6",
+        "type": "correct",
+        "q": "Did she wrote the report yesterday?",
+        "answer": [
+          "Did she write the report yesterday?"
+        ],
+        "explain": "已经用了 did，谓语动词回到原形 write。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "一般过去时",
+        "过去进行时",
+        "when/while 时间从句",
+        "一般过去时否定"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 117
+        },
+        {
+          "book": 1,
+          "lesson": 121
+        },
+        {
+          "book": 1,
+          "lesson": 143
+        },
+        {
+          "book": 2,
+          "lesson": 7
+        },
+        {
+          "book": 3,
+          "lesson": 33
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  },
+  {
+    "id": "gr-present-perfect",
+    "domain": "grammar",
+    "track": "core",
+    "title": "现在完成时",
+    "titleEn": "Present perfect",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "writing"
+    ],
+    "order": 30,
+    "minutes": 25,
+    "summary": "掌握 have / has + 过去分词，分清它和一般过去时，会用 for / since、already / yet / ever 谈经历、结果和变化。",
+    "sections": [
+      {
+        "heading": "构成与三种核心用法",
+        "body": "现在完成时由 **have / has + 过去分词** 构成。它连接过去和现在：动作发生在过去，但说话人关心的是**到现在为止的经历、对现在的影响，或者从过去持续到现在的状态**。\n\n口语谈个人经历、Task 1 描述到目前为止的变化，都离不开它。",
+        "table": {
+          "head": [
+            "用法",
+            "例子"
+          ],
+          "rows": [
+            [
+              "经历：到现在为止做过没有",
+              "I have visited three European countries."
+            ],
+            [
+              "结果：过去的动作影响现在",
+              "I've lost my student card, so I can't borrow books."
+            ],
+            [
+              "持续：从过去持续到现在",
+              "She has lived in this city for ten years."
+            ],
+            [
+              "否定 / 疑问",
+              "I haven't finished. / Have you ever tried Thai food?"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The city has built three new metro lines, so commuting is much easier now.",
+            "cn": "这座城市新建了三条地铁线，现在通勤方便多了。",
+            "note": "过去的动作带来了现在的结果。"
+          },
+          {
+            "en": "I've never been to a live football match.",
+            "cn": "我从来没去现场看过足球比赛。"
+          },
+          {
+            "en": "Has your hometown changed much in recent years?",
+            "cn": "你的家乡近些年变化大吗？",
+            "note": "口语 Part 1 常见问法，回答时也用现在完成时。"
+          }
+        ]
+      },
+      {
+        "heading": "和一般过去时的区别",
+        "body": "两者最大的区别在于**有没有明确的过去时间**。只要句子里出现 yesterday、last year、in 2015、two weeks ago、when I was young 这类明确的过去时间，就用一般过去时，不能用现在完成时。\n\n可以这样记：一般过去时把事情放在过去某个点上，讲完就结束；现在完成时站在现在往回看，关心的是到现在为止的情况。口语里常见的做法是先用现在完成时引出经历，再用一般过去时补充细节。",
+        "table": {
+          "head": [
+            "现在完成时",
+            "一般过去时"
+          ],
+          "rows": [
+            [
+              "I have been to London.（经历，不说何时）",
+              "I went to London last year.（明确时间）"
+            ],
+            [
+              "He has lost his phone.（现在还没找到）",
+              "He lost his phone yesterday.（只陈述过去的事）"
+            ],
+            [
+              "常用时间词：ever, never, already, yet, so far, recently, since",
+              "常用时间词：yesterday, ago, last ..., in + 过去年份, when ..."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I have been to Japan twice. The first time, I went there with my parents in 2016.",
+            "cn": "我去过日本两次。第一次是 2016 年和父母一起去的。",
+            "note": "先用现在完成时谈经历，再用一般过去时讲具体某一次。"
+          },
+          {
+            "en": "The number of cyclists in the city has doubled since 2015.",
+            "cn": "自 2015 年以来，这座城市骑自行车的人数翻了一番。",
+            "note": "since 引出到现在为止的变化。"
+          },
+          {
+            "en": "I lost my wallet last week, but luckily someone found it.",
+            "cn": "我上周丢了钱包，幸好有人捡到了。",
+            "note": "last week 是明确的过去时间。"
+          }
+        ]
+      },
+      {
+        "heading": "for 和 since",
+        "body": "表示从过去持续到现在，**for + 一段时间**，**since + 起点**（过去的时间点，或者一个一般过去时的从句）。提问用 How long。\n\n注意：表示持续的句子要用 live、work、study、know、have 这类可以延续的动词。come、leave、buy、die 这类瞬间动词不能直接和 for 连用，要换成表示状态的说法，例如 He has been here for two hours.",
+        "table": {
+          "head": [
+            "for + 一段时间",
+            "since + 起点"
+          ],
+          "rows": [
+            [
+              "for three years",
+              "since 2020"
+            ],
+            [
+              "for a long time",
+              "since last September"
+            ],
+            [
+              "for ages",
+              "since I was a child"
+            ],
+            [
+              "for the past decade",
+              "since the factory closed"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I have studied English for six years, but I have only taken the IELTS test once.",
+            "cn": "我学英语六年了，但雅思只考过一次。"
+          },
+          {
+            "en": "She has worked as a nurse since she left university.",
+            "cn": "她大学毕业后一直当护士。",
+            "note": "since 后面的从句用一般过去时。"
+          },
+          {
+            "en": "How long have you known your best friend?",
+            "cn": "你认识你最好的朋友多久了？"
+          }
+        ]
+      },
+      {
+        "heading": "already、yet、ever、never、just",
+        "body": "这几个副词经常和现在完成时一起出现，位置有讲究：already、just、ever、never 一般放在 have / has 和过去分词之间；yet 放在句末，用于否定句和疑问句。",
+        "table": {
+          "head": [
+            "词",
+            "意思",
+            "例子"
+          ],
+          "rows": [
+            [
+              "already",
+              "已经（多用于肯定句）",
+              "I've already booked the test."
+            ],
+            [
+              "yet",
+              "还（否定句）/ 已经（疑问句）",
+              "I haven't received my score yet. / Have you received it yet?"
+            ],
+            [
+              "ever",
+              "曾经（多用于疑问句）",
+              "Have you ever lived abroad?"
+            ],
+            [
+              "never",
+              "从未",
+              "I've never failed a driving test."
+            ],
+            [
+              "just",
+              "刚刚",
+              "The lecture has just started."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "We have already reduced our use of plastic bags at home.",
+            "cn": "我们家已经减少了塑料袋的使用。"
+          },
+          {
+            "en": "The council hasn't decided where to build the new hospital yet.",
+            "cn": "市政委员会还没决定新医院建在哪里。"
+          },
+          {
+            "en": "Have you ever thought about working in another country?",
+            "cn": "你有没有想过去别的国家工作？"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "I have visited Shanghai last year.",
+        "right": "I visited Shanghai last year.",
+        "why": "有明确的过去时间（last year）就不能用现在完成时。这是中国学习者最常见的完成时错误。"
+      },
+      {
+        "wrong": "I have lived here since three years.",
+        "right": "I have lived here for three years.",
+        "why": "since 后接时间起点，一段时间要用 for。"
+      },
+      {
+        "wrong": "He has came back from Canada.",
+        "right": "He has come back from Canada.",
+        "why": "have / has 后面接过去分词，不是过去式；come 的过去分词是 come。"
+      },
+      {
+        "wrong": "My grandfather has died for two years.",
+        "right": "My grandfather died two years ago.",
+        "why": "die 是瞬间动词，不能和 for + 一段时间连用。可以用一般过去时加 ago，或者改成 has been dead for two years。"
+      },
+      {
+        "wrong": "I have already finish the report.",
+        "right": "I have already finished the report.",
+        "why": "have 后面必须是过去分词，漏掉 -ed 是写快时的常见错误。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-present-perfect-q1",
+        "type": "mcq",
+        "q": "I ___ to Australia twice, and I'd love to go again.",
+        "options": [
+          "have been",
+          "went",
+          "have gone"
+        ],
+        "answer": "have been",
+        "explain": "谈到现在为止的经历用现在完成时。have been to 表示去过并已回来；have gone to 表示去了还没回来，说话人就在这里，不合逻辑。"
+      },
+      {
+        "id": "gr-present-perfect-q2",
+        "type": "mcq",
+        "q": "The new library ___ in 2021.",
+        "options": [
+          "opened",
+          "has opened",
+          "has been opening"
+        ],
+        "answer": "opened",
+        "explain": "in 2021 是明确的过去时间，用一般过去时。"
+      },
+      {
+        "id": "gr-present-perfect-q3",
+        "type": "fill",
+        "q": "She has worked for this charity ___ 2019.",
+        "answer": [
+          "since"
+        ],
+        "explain": "2019 是时间起点，用 since。"
+      },
+      {
+        "id": "gr-present-perfect-q4",
+        "type": "fill",
+        "q": "A: Have you read the article ___? B: No, not yet.",
+        "answer": [
+          "yet"
+        ],
+        "explain": "疑问句里问「已经……了吗」，用 yet，放在句末。"
+      },
+      {
+        "id": "gr-present-perfect-q5",
+        "type": "correct",
+        "q": "I have finished the essay two hours ago.",
+        "answer": [
+          "I finished the essay two hours ago."
+        ],
+        "explain": "two hours ago 是明确的过去时间，要用一般过去时。"
+      },
+      {
+        "id": "gr-present-perfect-q6",
+        "type": "correct",
+        "q": "She has went to the library.",
+        "answer": [
+          "She has gone to the library.",
+          "She's gone to the library."
+        ],
+        "explain": "has 后面接过去分词 gone，went 是过去式。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "现在完成时",
+        "现在完成时 vs 一般过去时",
+        "现在完成时 + since/for"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 83
+        },
+        {
+          "book": 1,
+          "lesson": 89
+        },
+        {
+          "book": 1,
+          "lesson": 101
+        },
+        {
+          "book": 2,
+          "lesson": 4
+        },
+        {
+          "book": 3,
+          "lesson": 17
+        },
+        {
+          "book": 3,
+          "lesson": 57
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  },
+  {
+    "id": "gr-future-forms",
+    "domain": "grammar",
+    "track": "core",
+    "title": "将来的表达",
+    "titleEn": "Talking about the future",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "writing"
+    ],
+    "order": 40,
+    "minutes": 20,
+    "summary": "分清 will、be going to 和现在进行时表将来，谈计划、预测和临时决定时用对形式。",
+    "sections": [
+      {
+        "heading": "will：预测、临时决定与承诺",
+        "body": "**will + 动词原形** 是最基本的将来表达，主要有三种用法。\n\n一是**凭个人看法预测**将来，常和 I think、probably、I'm sure 搭配，写作 Task 2 讨论未来趋势时很常用。二是**说话时临时做出的决定**。三是**承诺和主动提出帮忙**。否定是 won't，后面同样接动词原形。",
+        "table": {
+          "head": [
+            "用法",
+            "例子"
+          ],
+          "rows": [
+            [
+              "个人预测",
+              "I think robots will do many household jobs in the future."
+            ],
+            [
+              "临时决定",
+              "The library is closed? Then I'll study at home."
+            ],
+            [
+              "承诺 / 提议",
+              "I'll send you the notes tonight."
+            ],
+            [
+              "否定",
+              "House prices probably won't fall next year."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Electric cars will probably become cheaper over the next ten years.",
+            "cn": "未来十年，电动汽车很可能会变便宜。",
+            "note": "probably 放在 will 之后。"
+          },
+          {
+            "en": "Don't worry, I'll help you carry those boxes.",
+            "cn": "别担心，我来帮你搬那些箱子。",
+            "note": "说话时临时决定帮忙。"
+          },
+          {
+            "en": "I don't think online classes will completely replace traditional schools.",
+            "cn": "我认为网课不会完全取代传统学校。",
+            "note": "英语习惯否定 think，而不是说 I think ... won't。"
+          }
+        ]
+      },
+      {
+        "heading": "be going to：打算和有迹象的预测",
+        "body": "**be going to + 动词原形** 有两个用法。\n\n一是**说话之前就已经有的打算**。口语被问到 What are you going to do after the test? 用它回答最自然。\n\n二是**根据眼前的迹象做出的预测**：看到乌云就说 It's going to rain.",
+        "table": {
+          "head": [
+            "will",
+            "be going to"
+          ],
+          "rows": [
+            [
+              "说话时才决定：OK, I'll take the course.",
+              "早就打算好：I'm going to take the course in March."
+            ],
+            [
+              "凭看法预测：I think it will rain tomorrow.",
+              "凭迹象预测：Look at those clouds. It's going to rain."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I'm going to apply for a master's degree in the UK next year.",
+            "cn": "我打算明年申请英国的硕士。"
+          },
+          {
+            "en": "The traffic is terrible. We're going to be late for the lecture.",
+            "cn": "路太堵了，我们上课要迟到了。",
+            "note": "根据眼前的交通状况做预测。"
+          },
+          {
+            "en": "My cousin is going to start her own business after she graduates.",
+            "cn": "我表姐打算毕业后自己创业。",
+            "note": "after 从句用一般现在时表示将来，见本篇最后一节。"
+          }
+        ]
+      },
+      {
+        "heading": "现在进行时与一般现在时表将来",
+        "body": "现在进行时也可以表示将来，用于**已经安排好的个人计划**，比如约好的见面、订好的行程，通常带具体时间。\n\n列车时刻表、考试日程这类**固定时间表**，则用一般现在时：The train leaves at 9.15.",
+        "table": {
+          "head": [
+            "形式",
+            "适用场合",
+            "例子"
+          ],
+          "rows": [
+            [
+              "现在进行时",
+              "已经约定或安排好的个人计划",
+              "I'm meeting my tutor on Friday afternoon."
+            ],
+            [
+              "一般现在时",
+              "时刻表、日程表",
+              "The exam starts at 9 am tomorrow."
+            ],
+            [
+              "be going to",
+              "个人打算（不一定已经安排）",
+              "I'm going to look for a part-time job."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "We're flying to Edinburgh on Saturday; I've already booked the tickets.",
+            "cn": "我们周六飞爱丁堡，票我已经订好了。"
+          },
+          {
+            "en": "What are you doing this weekend?",
+            "cn": "你这周末有什么安排？",
+            "note": "问对方已有的安排。"
+          },
+          {
+            "en": "The conference begins on 3 May and finishes two days later.",
+            "cn": "会议 5 月 3 日开始，两天后结束。",
+            "note": "固定日程用一般现在时。"
+          }
+        ]
+      },
+      {
+        "heading": "时间从句里不用 will",
+        "body": "在 when、after、before、as soon as、until、if 引导的时间或条件从句里，即使说的是将来，也用**一般现在时**，只有主句用 will。这是写作里很常被扣分的将来时错误。",
+        "table": {
+          "head": [
+            "错误",
+            "正确"
+          ],
+          "rows": [
+            [
+              "When I will finish university, ...",
+              "When I finish university, I'll look for a job abroad."
+            ],
+            [
+              "As soon as the results will come out, ...",
+              "As soon as the results come out, I'll let you know."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I'll call you as soon as I arrive at the airport.",
+            "cn": "我一到机场就给你打电话。"
+          },
+          {
+            "en": "If the city builds more cycle lanes, more people will cycle to work.",
+            "cn": "如果城市修建更多自行车道，会有更多人骑车上班。",
+            "note": "if 从句同样用一般现在时，详见条件句一篇。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "I will to visit my grandparents at the weekend.",
+        "right": "I will visit my grandparents at the weekend.",
+        "why": "will 后面直接接动词原形，不加 to。"
+      },
+      {
+        "wrong": "I'm going travel next month.",
+        "right": "I'm going to travel next month.",
+        "why": "be going to 里的 to 不能省略。"
+      },
+      {
+        "wrong": "When I will graduate, I will become a teacher.",
+        "right": "When I graduate, I will become a teacher.",
+        "why": "时间从句用一般现在时表示将来，只有主句用 will。"
+      },
+      {
+        "wrong": "Tomorrow I visit the museum with my class.",
+        "right": "Tomorrow I'm visiting the museum with my class.",
+        "why": "中文「明天我去博物馆」没有将来标记，但英语要用将来表达；已安排好的个人计划用现在进行时或 be going to。"
+      },
+      {
+        "wrong": "In the future, people will can work from anywhere.",
+        "right": "In the future, people will be able to work from anywhere.",
+        "why": "两个情态动词不能连用，will 后面表示能力要用 be able to。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-future-forms-q1",
+        "type": "mcq",
+        "q": "A: The printer isn't working. B: Don't worry, I ___ it for you.",
+        "options": [
+          "will fix",
+          "am going to fix",
+          "fix"
+        ],
+        "answer": "will fix",
+        "explain": "B 是说话时临时决定帮忙，用 will。"
+      },
+      {
+        "id": "gr-future-forms-q2",
+        "type": "mcq",
+        "q": "Look at the sky. It ___ snow.",
+        "options": [
+          "is going to",
+          "will",
+          "is"
+        ],
+        "answer": "is going to",
+        "explain": "根据眼前的迹象（天色）做预测，用 be going to。"
+      },
+      {
+        "id": "gr-future-forms-q3",
+        "type": "fill",
+        "q": "I ___ (meet) my tutor at 3 pm tomorrow; we arranged it last week.",
+        "answer": [
+          "am meeting",
+          "am going to meet"
+        ],
+        "explain": "已经约好的个人安排，最自然的是现在进行时 am meeting；am going to meet 也可以接受。"
+      },
+      {
+        "id": "gr-future-forms-q4",
+        "type": "fill",
+        "q": "I'll text you when the train ___ (arrive).",
+        "answer": [
+          "arrives"
+        ],
+        "explain": "when 引导的时间从句用一般现在时表示将来，主语 the train 是单数，加 -s。"
+      },
+      {
+        "id": "gr-future-forms-q5",
+        "type": "correct",
+        "q": "I will tell you as soon as I will get my results.",
+        "answer": [
+          "I will tell you as soon as I get my results.",
+          "I'll tell you as soon as I get my results."
+        ],
+        "explain": "as soon as 引导时间从句，从句用一般现在时，不用 will。"
+      },
+      {
+        "id": "gr-future-forms-q6",
+        "type": "correct",
+        "q": "In the future, robots will can do most dangerous jobs.",
+        "answer": [
+          "In the future, robots will be able to do most dangerous jobs.",
+          "In the future robots will be able to do most dangerous jobs."
+        ],
+        "explain": "will 和 can 不能连用，表示将来的能力用 will be able to。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "一般将来时",
+        "will / be going to",
+        "表示意图"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 67
+        },
+        {
+          "book": 1,
+          "lesson": 93
+        },
+        {
+          "book": 1,
+          "lesson": 125
+        },
+        {
+          "book": 1,
+          "lesson": 133
+        },
+        {
+          "book": 3,
+          "lesson": 50
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  },
+  {
+    "id": "gr-articles",
+    "domain": "grammar",
+    "track": "core",
+    "title": "冠词 a/an、the 与零冠词",
+    "titleEn": "Articles: a/an, the and zero article",
+    "level": "A2",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 50,
+    "minutes": 25,
+    "summary": "搞清泛指与特指，写作中正确处理 the environment、society、technology 这类高频词前的冠词。",
+    "sections": [
+      {
+        "heading": "a / an：单数可数名词，第一次提到",
+        "body": "a / an 只用在**单数可数名词**前，表示「一个」或「某一个」，常用于第一次提到某物，或者说明某人的身份、职业。\n\n选 a 还是 an 看的是**读音**，不是字母：以元音音素开头用 an，以辅音音素开头用 a。",
+        "table": {
+          "head": [
+            "规则",
+            "例子"
+          ],
+          "rows": [
+            [
+              "辅音音素开头用 a",
+              "a book, a university /juː/, a one-way street /w/, a European city"
+            ],
+            [
+              "元音音素开头用 an",
+              "an idea, an hour /aʊ/, an MBA /em/, an honest answer"
+            ],
+            [
+              "说明职业、身份",
+              "She is an engineer. / He works as a volunteer."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "My brother is a university student, and he wants to become an architect.",
+            "cn": "我弟弟是大学生，他想当建筑师。",
+            "note": "university 以 /j/ 音开头，用 a。"
+          },
+          {
+            "en": "It took me an hour to get to the exam centre.",
+            "cn": "我花了一个小时才到考点。",
+            "note": "hour 的 h 不发音，用 an。"
+          },
+          {
+            "en": "There is a park near my flat, and the park is always busy at weekends.",
+            "cn": "我住的公寓附近有个公园，那个公园周末总是很热闹。",
+            "note": "第一次提到用 a，再次提到用 the。"
+          }
+        ]
+      },
+      {
+        "heading": "the：双方都知道指哪一个",
+        "body": "the 表示**特指**，即说话双方都清楚指的是哪一个。常见情况有：前文提过的；后面有 of 短语或从句限定的（the history of China）；世界上独一无二的（the sun、the internet）；最高级和序数词前（the best、the first）。\n\n判断方法：问自己「是哪一个？」如果听者答得出来，就用 the。",
+        "table": {
+          "head": [
+            "情况",
+            "例子"
+          ],
+          "rows": [
+            [
+              "前文提过",
+              "I bought a laptop. The laptop was quite cheap."
+            ],
+            [
+              "有 of 短语或从句限定",
+              "the cost of living / the students who passed the test"
+            ],
+            [
+              "独一无二",
+              "the sun, the internet, the government（本国政府）"
+            ],
+            [
+              "最高级、序数词",
+              "the most important reason, the first step"
+            ],
+            [
+              "固定说法",
+              "play the piano, in the morning, go to the cinema"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The internet has changed the way people communicate.",
+            "cn": "互联网改变了人们交流的方式。",
+            "note": "the way 被后面的 people communicate 限定。"
+          },
+          {
+            "en": "The quality of the air in my city has improved recently.",
+            "cn": "我所在城市的空气质量最近有所改善。",
+            "note": "quality 被 of the air 限定，用 the。"
+          },
+          {
+            "en": "This is the most effective way to reduce traffic congestion.",
+            "cn": "这是缓解交通拥堵最有效的办法。"
+          }
+        ]
+      },
+      {
+        "heading": "零冠词：泛指一类事物",
+        "body": "泛指一类事物时，**复数名词和不可数名词前不加冠词**。这是雅思写作里最重要的一条，因为议论文大多在讨论泛指的话题。\n\n比如 Children should learn to cook. 说的是所有孩子；The children in my class are noisy. 说的是特定的一群孩子。\n\n此外，三餐、学科、球类运动、语言、大多数国名前也不加冠词；by bus、by car 等交通方式也不加。",
+        "table": {
+          "head": [
+            "泛指（零冠词）",
+            "特指（加 the）"
+          ],
+          "rows": [
+            [
+              "Technology makes life easier.",
+              "The technology used in this factory is outdated."
+            ],
+            [
+              "Students need more free time.",
+              "The students at this school wear uniforms."
+            ],
+            [
+              "Pollution is a serious problem.",
+              "The pollution in this river comes from farms."
+            ],
+            [
+              "I study economics. / We play football.",
+              "the economics of tourism"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Education is the key to reducing poverty.",
+            "cn": "教育是减少贫困的关键。",
+            "note": "education 泛指，不加冠词；key 被 to ... 限定，用 the。"
+          },
+          {
+            "en": "Many people believe that money cannot buy happiness.",
+            "cn": "很多人认为金钱买不到幸福。",
+            "note": "money 和 happiness 都是泛指的不可数名词。"
+          },
+          {
+            "en": "Most of my classmates go to school by bike.",
+            "cn": "我的大多数同学骑车上学。",
+            "note": "go to school、by bike 都不加冠词。"
+          }
+        ]
+      },
+      {
+        "heading": "雅思高频词：the environment、society、technology",
+        "body": "有几个写作高频词的冠词用法比较固定，可以直接记下来。\n\n**the environment** 指自然环境时几乎总带 the。**society**（社会整体）、**nature**（大自然）、**technology**、**science** 泛指时不加冠词。**the public**（公众）、**the government** 一般带 the。**the elderly / the young / the rich** 表示一类人，带 the，谓语用复数。",
+        "table": {
+          "head": [
+            "写法",
+            "说明",
+            "例子"
+          ],
+          "rows": [
+            [
+              "the environment",
+              "泛指自然环境也要加 the",
+              "Plastic waste harms the environment."
+            ],
+            [
+              "society",
+              "社会整体，不加冠词",
+              "Crime affects everyone in society."
+            ],
+            [
+              "technology / science",
+              "泛指不加冠词",
+              "Technology has changed education."
+            ],
+            [
+              "nature",
+              "大自然，不加冠词",
+              "Children should spend more time in nature."
+            ],
+            [
+              "the elderly / the young",
+              "the + 形容词表示一类人，谓语用复数",
+              "The elderly need better healthcare."
+            ],
+            [
+              "the public / the government",
+              "通常带 the",
+              "The government should listen to the public."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Governments should do more to protect the environment.",
+            "cn": "各国政府应该采取更多措施保护环境。",
+            "note": "governments 泛指各国政府，复数不加冠词；the environment 固定带 the。"
+          },
+          {
+            "en": "Modern technology has made it easier for the elderly to stay in touch with their families.",
+            "cn": "现代科技让老年人更容易和家人保持联系。"
+          },
+          {
+            "en": "Science plays an important role in society.",
+            "cn": "科学在社会中发挥着重要作用。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "We must protect environment.",
+        "right": "We must protect the environment.",
+        "why": "environment 指自然环境时要加 the，这是写作里频率最高的冠词错误之一。"
+      },
+      {
+        "wrong": "The technology has changed our lives.",
+        "right": "Technology has changed our lives.",
+        "why": "泛指「科技」整体时不加 the。中文没有冠词，很多人见到名词就加 the。"
+      },
+      {
+        "wrong": "In the modern society, people are busier than before.",
+        "right": "In modern society, people are busier than before.",
+        "why": "modern society 泛指现代社会，不加 the。这是作文开头的高频错误。"
+      },
+      {
+        "wrong": "He is teacher.",
+        "right": "He is a teacher.",
+        "why": "单数可数名词前不能什么都不加，说职业要用 a / an。"
+      },
+      {
+        "wrong": "She is an university student.",
+        "right": "She is a university student.",
+        "why": "a / an 看读音而不是字母，university 以 /j/ 音开头，用 a。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-articles-q1",
+        "type": "mcq",
+        "q": "Air pollution is damaging ___ environment in many cities.",
+        "options": [
+          "the",
+          "an",
+          "不填"
+        ],
+        "answer": "the",
+        "explain": "environment 指自然环境时固定带 the。"
+      },
+      {
+        "id": "gr-articles-q2",
+        "type": "mcq",
+        "q": "She hopes to become ___ engineer after graduation.",
+        "options": [
+          "a",
+          "an",
+          "the"
+        ],
+        "answer": "an",
+        "explain": "说职业用不定冠词；engineer 以元音音素开头，用 an。"
+      },
+      {
+        "id": "gr-articles-q3",
+        "type": "mcq",
+        "q": "In my opinion, ___ technology has made our lives more convenient.",
+        "options": [
+          "the",
+          "a",
+          "不填"
+        ],
+        "answer": "不填",
+        "explain": "这里泛指科技整体，technology 是不可数名词，泛指时不加冠词。"
+      },
+      {
+        "id": "gr-articles-q4",
+        "type": "fill",
+        "q": "It takes me ___ hour to cycle to work.",
+        "answer": [
+          "an"
+        ],
+        "explain": "hour 的 h 不发音，以元音音素 /aʊ/ 开头，用 an。"
+      },
+      {
+        "id": "gr-articles-q5",
+        "type": "correct",
+        "q": "In the modern society, people rely heavily on smartphones.",
+        "answer": [
+          "In modern society, people rely heavily on smartphones.",
+          "In modern society people rely heavily on smartphones."
+        ],
+        "explain": "modern society 泛指现代社会，不加 the。"
+      },
+      {
+        "id": "gr-articles-q6",
+        "type": "correct",
+        "q": "My father is engineer and he works for the government.",
+        "answer": [
+          "My father is an engineer and he works for the government.",
+          "My father is an engineer, and he works for the government."
+        ],
+        "explain": "说职业时单数可数名词前要加不定冠词，engineer 以元音音素开头，用 an；the government 本身正确。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "冠词a/an"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 7
+        },
+        {
+          "book": 1,
+          "lesson": 17
+        },
+        {
+          "book": 1,
+          "lesson": 57
+        }
+      ],
+      "tabs": [
+        "practice",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-countable-uncountable",
+    "domain": "grammar",
+    "track": "core",
+    "title": "可数与不可数名词及数量词",
+    "titleEn": "Countable and uncountable nouns, quantifiers",
+    "level": "A2",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 60,
+    "minutes": 20,
+    "summary": "认清雅思高频不可数名词，正确搭配 much / many、few / little、the number of / the amount of，不再写出 informations、advices。",
+    "sections": [
+      {
+        "heading": "可数与不可数：雅思高频不可数名词",
+        "body": "可数名词有单复数，单数前要加 a / an 或其他限定词；不可数名词**没有复数形式，不能直接加 a / an**，作主语时谓语用单数。\n\n有些词在中文里明明「可以数」，在英语里却是不可数的。雅思写作最常错的就是下面这一批，建议直接背下来。",
+        "table": {
+          "head": [
+            "不可数名词",
+            "要表示「一条 / 一项」时"
+          ],
+          "rows": [
+            [
+              "information 信息",
+              "a piece of information"
+            ],
+            [
+              "advice 建议",
+              "a piece of advice / a suggestion"
+            ],
+            [
+              "research 研究",
+              "a piece of research / a study"
+            ],
+            [
+              "equipment 设备",
+              "a piece of equipment"
+            ],
+            [
+              "furniture 家具",
+              "a piece of furniture"
+            ],
+            [
+              "homework 作业",
+              "a piece of homework / an assignment"
+            ],
+            [
+              "news 新闻",
+              "a piece of news（虽以 s 结尾，仍是不可数，谓语用单数）"
+            ],
+            [
+              "knowledge, evidence, traffic, accommodation, luggage",
+              "一般不说 a knowledge，也没有复数形式"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The website provides useful information about visa applications.",
+            "cn": "这个网站提供了签证申请的有用信息。"
+          },
+          {
+            "en": "My tutor gave me a useful piece of advice: read English news every day.",
+            "cn": "导师给了我一条有用的建议：每天读英文新闻。",
+            "note": "advice 不可数，表示一条用 a piece of。"
+          },
+          {
+            "en": "Recent research shows that regular exercise improves memory.",
+            "cn": "最近的研究表明，规律运动能提升记忆力。",
+            "note": "research 不可数，不说 researches；谓语 shows 用单数。"
+          }
+        ]
+      },
+      {
+        "heading": "一个词两种用法",
+        "body": "有些名词既可数又不可数，意思不同：作不可数名词时指物质或抽象概念，作可数名词时指具体的一个、一次或一种。",
+        "table": {
+          "head": [
+            "不可数",
+            "可数"
+          ],
+          "rows": [
+            [
+              "paper 纸",
+              "a paper 一份报纸；一篇论文"
+            ],
+            [
+              "time 时间",
+              "three times 三次"
+            ],
+            [
+              "experience 经验",
+              "an experience 一次经历"
+            ],
+            [
+              "work 工作",
+              "a work of art 一件艺术作品"
+            ],
+            [
+              "room 空间",
+              "a room 一个房间"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Employers prefer candidates with work experience.",
+            "cn": "雇主更青睐有工作经验的求职者。",
+            "note": "experience 表示经验，不可数。"
+          },
+          {
+            "en": "Studying abroad was an unforgettable experience for me.",
+            "cn": "留学对我来说是一段难忘的经历。",
+            "note": "experience 表示一次经历，可数。"
+          },
+          {
+            "en": "There isn't enough room on the bus for all these bags.",
+            "cn": "公交车上没有足够的空间放这么多包。",
+            "note": "room 表示空间，不可数。"
+          }
+        ]
+      },
+      {
+        "heading": "数量词搭配",
+        "body": "数量词要和名词的可数性配套。可数名词用 many、a few、few、a number of；不可数名词用 much、a little、little、an amount of、a great deal of。some、any、a lot of、lots of、plenty of 两类都能用。\n\n**few / little** 表示「很少，几乎没有」，语气偏否定；**a few / a little** 表示「有一些」，语气偏肯定。much 多用于否定句和疑问句，肯定句里更常用 a lot of。",
+        "table": {
+          "head": [
+            "可数名词",
+            "不可数名词",
+            "两者通用"
+          ],
+          "rows": [
+            [
+              "many students",
+              "much time",
+              "a lot of / lots of"
+            ],
+            [
+              "a few / few books",
+              "a little / little money",
+              "some / any"
+            ],
+            [
+              "a number of problems",
+              "a great deal of waste",
+              "plenty of"
+            ],
+            [
+              "fewer cars（更少）",
+              "less pollution（更少）",
+              "more（更多）"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Few people in my village own a car, so the bus service is very important.",
+            "cn": "我们村几乎没人有车，所以公交服务非常重要。",
+            "note": "few 表示几乎没有，强调少。"
+          },
+          {
+            "en": "We still have a little time, so let's check our answers.",
+            "cn": "我们还有一点时间，检查一下答案吧。",
+            "note": "a little 表示还有一些。"
+          },
+          {
+            "en": "Cities with fewer cars usually have less air pollution.",
+            "cn": "汽车更少的城市通常空气污染也更少。",
+            "note": "cars 可数用 fewer，pollution 不可数用 less。"
+          }
+        ]
+      },
+      {
+        "heading": "Task 1 中的数量表达",
+        "body": "描述图表时要根据名词的可数性选对说法。人、车、游客等可数名词用 **the number of**；水、电、能源、垃圾等不可数名词用 **the amount of**。\n\n比例和百分比用 **the proportion / percentage of**，两类名词都可以。",
+        "table": {
+          "head": [
+            "名词",
+            "正确说法"
+          ],
+          "rows": [
+            [
+              "tourists, cars, students（可数）",
+              "the number of tourists"
+            ],
+            [
+              "water, electricity, waste（不可数）",
+              "the amount of water consumed"
+            ],
+            [
+              "两类都可以",
+              "the proportion / percentage of households"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The number of international students rose steadily between 2010 and 2020.",
+            "cn": "2010 年到 2020 年间，国际学生人数稳步上升。"
+          },
+          {
+            "en": "The amount of electricity generated from wind power doubled in five years.",
+            "cn": "风力发电量在五年内翻了一番。"
+          },
+          {
+            "en": "Only a small proportion of the waste was recycled.",
+            "cn": "只有一小部分垃圾被回收利用。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The teacher gave me many advices.",
+        "right": "The teacher gave me a lot of advice.",
+        "why": "advice 不可数，没有复数形式，也不能和 many 连用。"
+      },
+      {
+        "wrong": "I need more informations about the course.",
+        "right": "I need more information about the course.",
+        "why": "information 不可数，不加 -s。"
+      },
+      {
+        "wrong": "There are less cars in the city centre at weekends.",
+        "right": "There are fewer cars in the city centre at weekends.",
+        "why": "cars 可数，「更少」要用 fewer；less 搭配不可数名词。"
+      },
+      {
+        "wrong": "The news are shocking.",
+        "right": "The news is shocking.",
+        "why": "news 以 s 结尾但不可数，谓语用单数。"
+      },
+      {
+        "wrong": "The amount of tourists increased sharply.",
+        "right": "The number of tourists increased sharply.",
+        "why": "tourists 可数，Task 1 中要用 the number of。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-countable-uncountable-q1",
+        "type": "mcq",
+        "q": "How ___ homework do you usually get each week?",
+        "options": [
+          "much",
+          "many",
+          "few"
+        ],
+        "answer": "much",
+        "explain": "homework 不可数，问数量用 how much。"
+      },
+      {
+        "id": "gr-countable-uncountable-q2",
+        "type": "mcq",
+        "q": "Very ___ people in the survey said they never use the internet.",
+        "options": [
+          "few",
+          "little",
+          "much"
+        ],
+        "answer": "few",
+        "explain": "people 是可数名词复数，「很少」用 few。"
+      },
+      {
+        "id": "gr-countable-uncountable-q3",
+        "type": "fill",
+        "q": "Scientists have carried out a lot of ___ (research) into renewable energy.",
+        "answer": [
+          "research"
+        ],
+        "explain": "research 不可数，不加 -es。"
+      },
+      {
+        "id": "gr-countable-uncountable-q4",
+        "type": "mcq",
+        "q": "The ___ of rubbish produced by households fell last year.",
+        "options": [
+          "amount",
+          "number",
+          "many"
+        ],
+        "answer": "amount",
+        "explain": "rubbish 不可数，用 the amount of。"
+      },
+      {
+        "id": "gr-countable-uncountable-q5",
+        "type": "correct",
+        "q": "She gave me some useful advices about the interview.",
+        "answer": [
+          "She gave me some useful advice about the interview."
+        ],
+        "explain": "advice 不可数，没有复数形式。"
+      },
+      {
+        "id": "gr-countable-uncountable-q6",
+        "type": "correct",
+        "q": "There is less students in the library during the holidays.",
+        "answer": [
+          "There are fewer students in the library during the holidays."
+        ],
+        "explain": "students 是可数名词复数：be 动词用 are，「更少」用 fewer。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "可数不可数",
+        "可数不可数名词",
+        "数量词",
+        "some/any"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 47
+        },
+        {
+          "book": 1,
+          "lesson": 59
+        },
+        {
+          "book": 1,
+          "lesson": 113
+        },
+        {
+          "book": 3,
+          "lesson": 47
+        }
+      ],
+      "tabs": [
+        "practice",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-subject-verb-agreement",
+    "domain": "grammar",
+    "track": "core",
+    "title": "主谓一致",
+    "titleEn": "Subject-verb agreement",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 70,
+    "minutes": 20,
+    "summary": "找准真正的主语，处理好 the number of、people、every、集体名词等常见陷阱，写作长句里谓语单复数不出错。",
+    "sections": [
+      {
+        "heading": "先找到真正的主语",
+        "body": "主谓一致的基本规则很简单：单数主语配单数谓语，复数主语配复数谓语。难点在于**主语和谓语离得远**时，很容易把中间的名词误当成主语。\n\n写长句时，先划掉主语后面的介词短语（of ...、in ...、with ...）和从句，再看剩下的核心名词是单数还是复数。",
+        "table": {
+          "head": [
+            "句子",
+            "真正的主语",
+            "谓语"
+          ],
+          "rows": [
+            [
+              "The quality of these products is poor.",
+              "quality（单数）",
+              "is"
+            ],
+            [
+              "The students in my class are friendly.",
+              "students（复数）",
+              "are"
+            ],
+            [
+              "One of the main reasons is cost.",
+              "one（单数）",
+              "is"
+            ],
+            [
+              "The rise in house prices has caused problems.",
+              "rise（单数）",
+              "has"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The main cause of these problems is a lack of funding.",
+            "cn": "这些问题的主要原因是资金不足。",
+            "note": "主语是 cause，不是 problems。"
+          },
+          {
+            "en": "One of my favourite places in the city is the old harbour.",
+            "cn": "这座城市里我最喜欢的地方之一是老港口。",
+            "note": "one of + 复数名词，谓语跟着 one 用单数。"
+          },
+          {
+            "en": "The benefits of learning a foreign language are obvious.",
+            "cn": "学外语的好处显而易见。",
+            "note": "主语是 benefits，复数。"
+          }
+        ]
+      },
+      {
+        "heading": "the number of 与 a number of",
+        "body": "这一对是写作 Task 1 的高频考点。\n\n**the number of + 复数名词**：意思是「……的数量」，核心词是 number，谓语用**单数**。\n\n**a number of + 复数名词**：意思是「许多……」，相当于 many，核心词是后面的复数名词，谓语用**复数**。\n\n同理，the amount of + 不可数名词 用单数；a lot of、most of、some of、half of、百分比 + of 后面的谓语，要看 of 后面的名词是复数还是不可数。",
+        "table": {
+          "head": [
+            "结构",
+            "意思",
+            "谓语",
+            "例子"
+          ],
+          "rows": [
+            [
+              "the number of + 复数名词",
+              "……的数量",
+              "单数",
+              "The number of cyclists has increased."
+            ],
+            [
+              "a number of + 复数名词",
+              "许多……",
+              "复数",
+              "A number of cyclists have complained."
+            ],
+            [
+              "most of + 复数名词",
+              "大部分……",
+              "复数",
+              "Most of the students live on campus."
+            ],
+            [
+              "most of + 不可数名词",
+              "大部分……",
+              "单数",
+              "Most of the money goes on rent."
+            ],
+            [
+              "百分比 + of + 名词",
+              "……的百分之几",
+              "看 of 后面的名词",
+              "20% of the land is forest. / 20% of the workers were women."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The number of people using public transport fell slightly in 2020.",
+            "cn": "2020 年乘坐公共交通的人数略有下降。"
+          },
+          {
+            "en": "A number of experts have warned about the risks of artificial intelligence.",
+            "cn": "不少专家已经就人工智能的风险发出警告。"
+          },
+          {
+            "en": "About 60% of the country's energy comes from coal.",
+            "cn": "这个国家约 60% 的能源来自煤炭。",
+            "note": "energy 不可数，谓语用单数 comes。"
+          }
+        ]
+      },
+      {
+        "heading": "people、police 与 every、each",
+        "body": "有些名词没有 -s 却总是复数，谓语必须用复数，比如 **people**、**police**。反过来，news、economics、physics、mathematics 虽然以 s 结尾，却按单数处理。\n\n**every / each + 单数名词**，以及 **everyone、everybody、nobody、something** 作主语时，都按单数处理，哪怕意思是「所有人」。",
+        "table": {
+          "head": [
+            "总是复数",
+            "按单数处理"
+          ],
+          "rows": [
+            [
+              "people are",
+              "news is, economics is, physics is"
+            ],
+            [
+              "the police are",
+              "everyone is, nobody knows"
+            ],
+            [
+              "the elderly / the rich are",
+              "every student has, each country has"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Young people are more likely to rent than to buy a home.",
+            "cn": "年轻人更倾向于租房而不是买房。"
+          },
+          {
+            "en": "The police are investigating the cause of the fire.",
+            "cn": "警方正在调查火灾原因。"
+          },
+          {
+            "en": "Every student has to complete a project in the final year.",
+            "cn": "每个学生最后一年都要完成一个项目。",
+            "note": "every + 单数名词 + 单数谓语。"
+          },
+          {
+            "en": "Economics is one of the most popular subjects at my university.",
+            "cn": "经济学是我们大学最热门的专业之一。"
+          }
+        ]
+      },
+      {
+        "heading": "集体名词：family、government、team",
+        "body": "family、team、government、staff、audience 这类集体名词，在**英式英语**里既可以按单数也可以按复数：看作一个整体时用单数，强调其中的成员时用复数。雅思写作两种都接受，**关键是同一篇里保持一致**，代词也要跟着走（it / its 或 they / their）。\n\n拿不准时，把 government、company 当单数处理最稳妥：The government has announced its plan.",
+        "table": {
+          "head": [
+            "看作整体（单数）",
+            "强调成员（复数）"
+          ],
+          "rows": [
+            [
+              "My family is quite large.",
+              "My family are all keen cyclists."
+            ],
+            [
+              "The team has won the cup.",
+              "The team are training hard for the final."
+            ],
+            [
+              "The government has introduced a new tax.",
+              "The staff are unhappy about the changes."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The government has promised to build more affordable housing.",
+            "cn": "政府已承诺建造更多经济适用房。"
+          },
+          {
+            "en": "The company has changed its policy on remote working.",
+            "cn": "公司改变了远程办公政策。",
+            "note": "单数谓语 has 配单数代词 its，前后一致。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The number of students have increased.",
+        "right": "The number of students has increased.",
+        "why": "the number of 的核心词是 number，谓语用单数。这是 Task 1 极高频的错误。"
+      },
+      {
+        "wrong": "People is worried about rising rents.",
+        "right": "People are worried about rising rents.",
+        "why": "people 本身就是复数，谓语用复数。"
+      },
+      {
+        "wrong": "Everyone have a smartphone nowadays.",
+        "right": "Everyone has a smartphone nowadays.",
+        "why": "everyone 虽然指所有人，语法上按单数处理。"
+      },
+      {
+        "wrong": "The price of houses in big cities are very high.",
+        "right": "The price of houses in big cities is very high.",
+        "why": "主语是 price，后面的 houses 和 cities 只是修饰成分。"
+      },
+      {
+        "wrong": "One of the biggest problem is traffic.",
+        "right": "One of the biggest problems is traffic.",
+        "why": "one of 后面接复数名词，谓语跟着 one 用单数。两处都容易错。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-subject-verb-agreement-q1",
+        "type": "mcq",
+        "q": "The number of overseas visitors ___ risen sharply since 2015.",
+        "options": [
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": "has",
+        "explain": "the number of 的核心词是 number，单数，用 has。"
+      },
+      {
+        "id": "gr-subject-verb-agreement-q2",
+        "type": "mcq",
+        "q": "A number of residents ___ complained about the noise from the new airport.",
+        "options": [
+          "have",
+          "has",
+          "is"
+        ],
+        "answer": "have",
+        "explain": "a number of 相当于 many，核心词是 residents，复数，用 have。"
+      },
+      {
+        "id": "gr-subject-verb-agreement-q3",
+        "type": "fill",
+        "q": "Every child ___ (have) the right to a free education.",
+        "answer": [
+          "has"
+        ],
+        "explain": "every + 单数名词作主语，谓语用单数。"
+      },
+      {
+        "id": "gr-subject-verb-agreement-q4",
+        "type": "fill",
+        "q": "The police ___ (be) looking for witnesses to the accident.",
+        "answer": [
+          "are"
+        ],
+        "explain": "police 总是按复数处理。"
+      },
+      {
+        "id": "gr-subject-verb-agreement-q5",
+        "type": "correct",
+        "q": "The quality of the roads in rural areas are getting worse.",
+        "answer": [
+          "The quality of the roads in rural areas is getting worse."
+        ],
+        "explain": "主语是 quality，单数；roads 和 areas 只是修饰成分。"
+      },
+      {
+        "id": "gr-subject-verb-agreement-q6",
+        "type": "correct",
+        "q": "Many people thinks that technology makes us lazy.",
+        "answer": [
+          "Many people think that technology makes us lazy.",
+          "Many people think technology makes us lazy."
+        ],
+        "explain": "people 是复数，谓语 think 不加 -s；从句主语 technology 不可数，makes 正确。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "数量词",
+        "名词单复数"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 15
+        },
+        {
+          "book": 3,
+          "lesson": 47
+        }
+      ],
+      "tabs": [
+        "practice",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-comparatives-superlatives",
+    "domain": "grammar",
+    "track": "core",
+    "title": "比较级与最高级",
+    "titleEn": "Comparatives and superlatives",
+    "level": "A2",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 80,
+    "minutes": 25,
+    "summary": "掌握比较级、最高级和 as ... as 的构成，会用 twice as ... as、the + 比较级, the + 比较级 描述图表数据和观点。",
+    "sections": [
+      {
+        "heading": "构成规则",
+        "body": "单音节和部分双音节形容词加 -er / -est；多数双音节和三个音节以上的形容词前加 more / most。最高级前一般加 the，后面常跟 in + 范围 或 of + 群体。\n\n比较级前可以加 much、far、a lot 表示「……得多」。",
+        "table": {
+          "head": [
+            "类型",
+            "比较级",
+            "最高级"
+          ],
+          "rows": [
+            [
+              "一般单音节：cheap",
+              "cheaper",
+              "the cheapest"
+            ],
+            [
+              "以 e 结尾：large",
+              "larger",
+              "the largest"
+            ],
+            [
+              "双写末尾辅音：big",
+              "bigger",
+              "the biggest"
+            ],
+            [
+              "辅音字母 + y：busy, easy",
+              "busier, easier",
+              "the busiest, the easiest"
+            ],
+            [
+              "多音节：expensive, popular",
+              "more expensive, more popular",
+              "the most expensive, the most popular"
+            ],
+            [
+              "不规则：good / bad / far",
+              "better / worse / further (farther)",
+              "the best / the worst / the furthest"
+            ],
+            [
+              "数量：many, much / little",
+              "more / less",
+              "the most / the least"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Living in the city centre is more convenient but much more expensive.",
+            "cn": "住在市中心更方便，但也贵得多。",
+            "note": "much 修饰比较级。"
+          },
+          {
+            "en": "Tokyo is one of the largest cities in the world.",
+            "cn": "东京是世界上最大的城市之一。",
+            "note": "one of the + 最高级 + 复数名词。"
+          },
+          {
+            "en": "Traffic in my city is getting worse every year.",
+            "cn": "我们城市的交通一年比一年糟。",
+            "note": "bad 的比较级是不规则的 worse。"
+          }
+        ]
+      },
+      {
+        "heading": "as ... as 与倍数表达",
+        "body": "**as + 原级 + as** 表示「和……一样」，否定 not as ... as 表示「不如……」。\n\n倍数表达是 Task 1 描述数据的利器，常见两种结构：**倍数 + as + 原级 + as**，或者 **倍数 + 比较级 + than**（多用于三倍及以上）。两倍用 twice，一半用 half。",
+        "table": {
+          "head": [
+            "结构",
+            "例子"
+          ],
+          "rows": [
+            [
+              "as + 原级 + as",
+              "At rush hour the bus is as fast as the train."
+            ],
+            [
+              "not as + 原级 + as",
+              "Online courses are not as interactive as classroom teaching."
+            ],
+            [
+              "twice / three times + as + 原级 + as",
+              "Rent in London is twice as high as in Manchester."
+            ],
+            [
+              "three times + 比较级 + than",
+              "This car uses three times more fuel than that one."
+            ],
+            [
+              "half + as + 原级 + as",
+              "Train tickets cost half as much as plane tickets."
+            ],
+            [
+              "倍数 + the + 名词 + of",
+              "In 2020 the city used three times the amount of water it used in 1990."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "In 2010, women spent twice as much time on housework as men did.",
+            "cn": "2010 年，女性花在家务上的时间是男性的两倍。",
+            "note": "time 不可数，用 as much ... as。"
+          },
+          {
+            "en": "The number of cars in 2020 was three times as high as in 1990.",
+            "cn": "2020 年的汽车数量是 1990 年的三倍。"
+          },
+          {
+            "en": "Solar power is not as expensive as it used to be.",
+            "cn": "太阳能发电没有过去那么贵了。"
+          }
+        ]
+      },
+      {
+        "heading": "the + 比较级, the + 比较级",
+        "body": "这个结构表示「越……就越……」，两个分句**都以 the + 比较级开头**，后面接主语和谓语。口语和写作 Task 2 讨论因果关系时很好用。\n\n比较的如果是名词，要写成 the more + 名词（the more money）；前半句说将来时也用一般现在时，后半句用 will。",
+        "table": {
+          "head": [
+            "结构",
+            "例子"
+          ],
+          "rows": [
+            [
+              "the + 比较级 + 主谓, the + 比较级 + 主谓",
+              "The earlier you start, the better you will do."
+            ],
+            [
+              "the more + 名词 + 主谓, ...",
+              "The more cars there are, the more polluted the air becomes."
+            ],
+            [
+              "省略的固定说法",
+              "The sooner, the better."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The more you practise speaking, the more confident you will become.",
+            "cn": "口语练得越多，你就会越自信。",
+            "note": "英式拼写：动词 practise，名词 practice。"
+          },
+          {
+            "en": "The bigger a city becomes, the harder it is to find affordable housing.",
+            "cn": "城市越大，越难找到负担得起的住房。"
+          },
+          {
+            "en": "The more time children spend on screens, the less time they spend outdoors.",
+            "cn": "孩子看屏幕的时间越多，在户外的时间就越少。"
+          }
+        ]
+      },
+      {
+        "heading": "修饰比较级",
+        "body": "想说「……得多」或「稍微……」时，在比较级前加修饰语。**very 不能修饰比较级**。这类修饰语能让 Task 1 的数据描述更精确。",
+        "table": {
+          "head": [
+            "程度",
+            "修饰语",
+            "例子"
+          ],
+          "rows": [
+            [
+              "差距大",
+              "much, far, a lot, significantly",
+              "Prices were significantly higher in 2022."
+            ],
+            [
+              "差距小",
+              "slightly, a little, a bit",
+              "The figure was slightly lower than expected."
+            ],
+            [
+              "加强最高级",
+              "by far",
+              "This is by far the most popular option."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Train travel is far more environmentally friendly than flying.",
+            "cn": "坐火车比坐飞机环保得多。"
+          },
+          {
+            "en": "Unemployment was slightly higher in the north than in the south.",
+            "cn": "北部的失业率略高于南部。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "This city is more bigger than my hometown.",
+        "right": "This city is much bigger than my hometown.",
+        "why": "big 已经变成 bigger，不能再加 more；想强调差距用 much。"
+      },
+      {
+        "wrong": "Housing is very more expensive now.",
+        "right": "Housing is much more expensive now.",
+        "why": "very 不能修饰比较级，要用 much、far、a lot。"
+      },
+      {
+        "wrong": "The price is two times as high than last year.",
+        "right": "The price is twice as high as it was last year.",
+        "why": "两倍习惯用 twice；as ... as 不能和 than 混用。"
+      },
+      {
+        "wrong": "The more you read, you will know more.",
+        "right": "The more you read, the more you will know.",
+        "why": "「越……越……」结构的后半句也要以 the + 比较级开头。"
+      },
+      {
+        "wrong": "He is the most tallest student in our class.",
+        "right": "He is the tallest student in our class.",
+        "why": "tallest 已经是最高级，不能再加 most。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-comparatives-superlatives-q1",
+        "type": "mcq",
+        "q": "Public transport in my city is ___ than it was ten years ago.",
+        "options": [
+          "much better",
+          "more better",
+          "very better"
+        ],
+        "answer": "much better",
+        "explain": "good 的比较级是 better，不能再加 more；very 不修饰比较级，用 much。"
+      },
+      {
+        "id": "gr-comparatives-superlatives-q2",
+        "type": "fill",
+        "q": "Shanghai is one of ___ (busy) ports in the world.",
+        "answer": [
+          "the busiest"
+        ],
+        "explain": "one of the + 最高级 + 复数名词；busy 是辅音字母 + y，变 y 为 i 加 -est。"
+      },
+      {
+        "id": "gr-comparatives-superlatives-q3",
+        "type": "mcq",
+        "q": "In 2020, the factory produced twice ___ cars as in 2010.",
+        "options": [
+          "as many",
+          "as much",
+          "more"
+        ],
+        "answer": "as many",
+        "explain": "cars 是可数名词，用 as many ... as；twice 后面接 as ... as。"
+      },
+      {
+        "id": "gr-comparatives-superlatives-q4",
+        "type": "fill",
+        "q": "The harder you work, ___ (good) your results will be.",
+        "answer": [
+          "the better"
+        ],
+        "explain": "「越……越……」结构，后半句也以 the + 比较级开头，good 的比较级是 better。"
+      },
+      {
+        "id": "gr-comparatives-superlatives-q5",
+        "type": "correct",
+        "q": "Living in the countryside is more cheaper than living in the city.",
+        "answer": [
+          "Living in the countryside is cheaper than living in the city.",
+          "Living in the countryside is much cheaper than living in the city."
+        ],
+        "explain": "cheap 是单音节词，比较级 cheaper，不能再加 more。"
+      },
+      {
+        "id": "gr-comparatives-superlatives-q6",
+        "type": "correct",
+        "q": "Online shopping is not as convenient than people think.",
+        "answer": [
+          "Online shopping is not as convenient as people think.",
+          "Online shopping is not so convenient as people think."
+        ],
+        "explain": "not as ... as 是固定搭配，第二个 as 不能换成 than。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "比较级",
+        "形容词比较级",
+        "形容词最高级",
+        "比较级和最高级",
+        "as...as"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 53
+        },
+        {
+          "book": 1,
+          "lesson": 111
+        },
+        {
+          "book": 2,
+          "lesson": 8
+        },
+        {
+          "book": 2,
+          "lesson": 66
+        }
+      ],
+      "tabs": [
+        "practice",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-modal-verbs",
+    "domain": "grammar",
+    "track": "core",
+    "title": "情态动词",
+    "titleEn": "Modal verbs",
+    "level": "B1",
+    "skills": [
+      "speaking",
+      "writing"
+    ],
+    "order": 90,
+    "minutes": 25,
+    "summary": "用 can / could / may / might / must / should 表达能力、可能、推测和建议，让写作观点有分寸、口语回答更自然。",
+    "sections": [
+      {
+        "heading": "基本规则",
+        "body": "情态动词表示说话人的态度（能力、可能、义务、建议），**后面一律接动词原形**；第三人称单数不加 -s；否定直接在后面加 not；疑问句把情态动词提到主语前。\n\n两个情态动词不能连用，需要时用 be able to、have to 来替换：will be able to、might have to。",
+        "table": {
+          "head": [
+            "规则",
+            "正确",
+            "错误"
+          ],
+          "rows": [
+            [
+              "后接动词原形",
+              "She can speak French.",
+              "She can speaks / can to speak French."
+            ],
+            [
+              "第三人称单数不加 -s",
+              "He should rest.",
+              "He shoulds rest."
+            ],
+            [
+              "否定直接加 not",
+              "You mustn't smoke here.",
+              "You don't must smoke here."
+            ],
+            [
+              "不能连用",
+              "You will be able to ...",
+              "You will can ..."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Students should not use their phones during lectures.",
+            "cn": "学生上课时不应该使用手机。"
+          },
+          {
+            "en": "I might have to work this weekend.",
+            "cn": "我这周末可能得加班。",
+            "note": "might 和 have to 连用，表示「可能不得不」。"
+          },
+          {
+            "en": "Can you speak any other languages?",
+            "cn": "你还会说其他语言吗？",
+            "note": "口语 Part 1 常见问法。"
+          }
+        ]
+      },
+      {
+        "heading": "能力与许可：can、could、be able to",
+        "body": "**can** 表示现在的能力或许可，**could** 表示过去的一般能力，也可以用于更礼貌的请求。\n\n说过去**某一次成功做成**了某事，不用 could，而用 was / were able to 或 managed to。否定时 couldn't 不受这个限制。",
+        "table": {
+          "head": [
+            "意思",
+            "现在",
+            "过去"
+          ],
+          "rows": [
+            [
+              "一般能力",
+              "I can swim.",
+              "I could swim when I was five."
+            ],
+            [
+              "某一次成功做到",
+              "-",
+              "We were able to / managed to find a cheap hotel."
+            ],
+            [
+              "许可 / 请求",
+              "Can I sit here? / Could you help me?",
+              "-"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "My grandmother can't use a smartphone, but she can make video calls on a tablet.",
+            "cn": "我奶奶不会用智能手机，但会用平板电脑打视频电话。"
+          },
+          {
+            "en": "When I was a child, I could walk to school safely.",
+            "cn": "我小时候可以安全地走路上学。",
+            "note": "could 表示过去一般的能力或可能。"
+          },
+          {
+            "en": "The roads were icy, but we were able to get home before dark.",
+            "cn": "路面结冰了，但我们还是在天黑前到了家。",
+            "note": "某一次成功做到，用 were able to。"
+          }
+        ]
+      },
+      {
+        "heading": "推测：must、may、might、could、can't",
+        "body": "情态动词可以表示说话人**有多大把握**。由强到弱大致是：must（一定是）→ may / might / could（可能是）→ can't（不可能是）。\n\n注意：肯定推测 must 的反义是 **can't**，不是 mustn't；mustn't 表示禁止。写作 Task 2 谈影响时，用 may、might、could 能让论点更有分寸，避免说得太绝对。",
+        "table": {
+          "head": [
+            "把握",
+            "情态动词",
+            "例子"
+          ],
+          "rows": [
+            [
+              "很有把握：一定是",
+              "must",
+              "The lights are on, so they must be at home."
+            ],
+            [
+              "一半把握：可能是",
+              "may / might / could",
+              "This policy may reduce traffic in the city centre."
+            ],
+            [
+              "很有把握：不可能是",
+              "can't",
+              "He can't be the manager; he looks about eighteen."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "You've been working all day; you must be exhausted.",
+            "cn": "你忙了一整天，一定累坏了。"
+          },
+          {
+            "en": "Working from home could help parents spend more time with their children.",
+            "cn": "居家办公可能有助于父母多陪孩子。",
+            "note": "could 表示可能性，语气客观、留有余地。"
+          },
+          {
+            "en": "That can't be the right answer; the total is more than 100%.",
+            "cn": "那不可能是正确答案，总数超过了 100%。"
+          }
+        ]
+      },
+      {
+        "heading": "义务与建议：must、have to、should",
+        "body": "**must** 多表示说话人自己认为必须做的事，**have to** 多表示外部规定或客观需要。否定时差别很大：**mustn't** 是「不允许」，**don't have to** 是「不必」。\n\n**should** 表示建议或「应该」，是写作 Task 2 提出解决办法时最常用的情态动词，比 must 委婉。",
+        "table": {
+          "head": [
+            "形式",
+            "意思",
+            "例子"
+          ],
+          "rows": [
+            [
+              "must",
+              "（我认为）必须",
+              "I must finish this essay tonight."
+            ],
+            [
+              "have to",
+              "（规定 / 客观需要）必须",
+              "All students have to wear a uniform."
+            ],
+            [
+              "mustn't",
+              "禁止",
+              "You mustn't use a dictionary in the exam."
+            ],
+            [
+              "don't have to",
+              "不必",
+              "You don't have to bring your own laptop."
+            ],
+            [
+              "should / shouldn't",
+              "建议、应该",
+              "The government should invest more in public transport."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Schools should teach children how to manage money.",
+            "cn": "学校应该教孩子如何理财。"
+          },
+          {
+            "en": "In the UK, learner drivers have to pass a theory test before they can take the practical test.",
+            "cn": "在英国，学车的人必须先通过理论考试，才能参加路考。",
+            "note": "外部规定用 have to。"
+          },
+          {
+            "en": "You don't have to pay to visit many museums in London.",
+            "cn": "伦敦很多博物馆参观是免费的，不必付钱。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "She can speaks three languages.",
+        "right": "She can speak three languages.",
+        "why": "情态动词后面接动词原形，不加 -s。"
+      },
+      {
+        "wrong": "You must to wear a helmet.",
+        "right": "You must wear a helmet.",
+        "why": "情态动词后面不加 to（have to、ought to 是例外）。"
+      },
+      {
+        "wrong": "People will can travel to Mars in the future.",
+        "right": "People will be able to travel to Mars in the future.",
+        "why": "两个情态动词不能连用，will 后面用 be able to 表示能力。"
+      },
+      {
+        "wrong": "He mustn't be at home; his car isn't there.",
+        "right": "He can't be at home; his car isn't there.",
+        "why": "否定推测「不可能」用 can't；mustn't 表示禁止。"
+      },
+      {
+        "wrong": "You mustn't come tomorrow if you are busy.",
+        "right": "You don't have to come tomorrow if you are busy.",
+        "why": "这里想说「不必来」，要用 don't have to 或 needn't；mustn't 是「不许来」，意思完全不同。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-modal-verbs-q1",
+        "type": "mcq",
+        "q": "She has been studying for twelve hours. She ___ be very tired.",
+        "options": [
+          "must",
+          "can't",
+          "mustn't"
+        ],
+        "answer": "must",
+        "explain": "根据学了十二小时这个事实，有把握地推测「一定很累」，用 must。"
+      },
+      {
+        "id": "gr-modal-verbs-q2",
+        "type": "mcq",
+        "q": "You ___ bring food into the library; it's against the rules.",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "needn't"
+        ],
+        "answer": "mustn't",
+        "explain": "违反规定，表示禁止，用 mustn't；don't have to 和 needn't 都是「不必」。"
+      },
+      {
+        "id": "gr-modal-verbs-q3",
+        "type": "mcq",
+        "q": "The fire spread quickly, but everyone ___ escape from the building.",
+        "options": [
+          "was able to",
+          "could",
+          "can"
+        ],
+        "answer": "was able to",
+        "explain": "过去某一次成功做到，用 was able to，不用 could。"
+      },
+      {
+        "id": "gr-modal-verbs-q4",
+        "type": "fill",
+        "q": "The test is free, so you ___ (not / have) to pay anything.",
+        "answer": [
+          "don't have",
+          "do not have"
+        ],
+        "explain": "表示「不必」用 don't have to。"
+      },
+      {
+        "id": "gr-modal-verbs-q5",
+        "type": "correct",
+        "q": "I think the government should to ban plastic bags.",
+        "answer": [
+          "I think the government should ban plastic bags."
+        ],
+        "explain": "should 后面直接接动词原形，不加 to。"
+      },
+      {
+        "id": "gr-modal-verbs-q6",
+        "type": "correct",
+        "q": "That mustn't be Tom; he is on holiday in Spain.",
+        "answer": [
+          "That can't be Tom; he is on holiday in Spain.",
+          "That can't be Tom, he is on holiday in Spain.",
+          "That cannot be Tom; he is on holiday in Spain.",
+          "That can't be Tom; he's on holiday in Spain."
+        ],
+        "explain": "否定推测「不可能是」用 can't；mustn't 表示禁止。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "情态动词",
+        "情态动词can",
+        "情态动词must",
+        "have to",
+        "was/were able to"
+      ],
+      "nceLessons": [
+        {
+          "book": 1,
+          "lesson": 65
+        },
+        {
+          "book": 1,
+          "lesson": 77
+        },
+        {
+          "book": 2,
+          "lesson": 17
+        },
+        {
+          "book": 2,
+          "lesson": 19
+        },
+        {
+          "book": 3,
+          "lesson": 20
+        }
+      ],
+      "tabs": [
+        "practice",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-passive-basics",
+    "domain": "grammar",
+    "track": "core",
+    "title": "被动语态基础",
+    "titleEn": "The passive: the basics",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "reading"
+    ],
+    "order": 100,
+    "minutes": 25,
+    "summary": "掌握一般现在时、一般过去时、现在完成时的被动，能用被动语态清楚描述 Task 1 流程图，读懂学术文章里的被动句。",
+    "sections": [
+      {
+        "heading": "什么时候用被动",
+        "body": "被动语态的结构是 **be + 过去分词**。当**动作的承受者比执行者更重要**，或者执行者不知道、不必说时，就用被动。需要说出执行者时，用 by 引出。\n\n学术文章和 Task 1 流程图大量使用被动，因为重点是「东西被怎么处理」，而不是「谁处理」。",
+        "table": {
+          "head": [
+            "主动",
+            "被动"
+          ],
+          "rows": [
+            [
+              "Workers collect the rubbish every Monday.",
+              "The rubbish is collected every Monday."
+            ],
+            [
+              "Someone stole my bike last night.",
+              "My bike was stolen last night."
+            ],
+            [
+              "Scientists have discovered a new species.",
+              "A new species has been discovered."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "English is spoken in many countries around the world.",
+            "cn": "世界上很多国家都说英语。",
+            "note": "执行者是谁不重要，用被动。"
+          },
+          {
+            "en": "The bridge was designed by a famous Italian architect.",
+            "cn": "这座桥是一位著名的意大利建筑师设计的。",
+            "note": "by 引出执行者。"
+          },
+          {
+            "en": "Many trees have been cut down to make room for new roads.",
+            "cn": "为了修新路，很多树被砍掉了。"
+          }
+        ]
+      },
+      {
+        "heading": "三种常用时态的被动",
+        "body": "被动语态的时态靠 be 的变化来体现，过去分词始终不变。A2 到 B1 阶段先掌握下面三种。",
+        "table": {
+          "head": [
+            "时态",
+            "被动结构",
+            "例子"
+          ],
+          "rows": [
+            [
+              "一般现在时",
+              "am / is / are + 过去分词",
+              "Paper is made from wood."
+            ],
+            [
+              "一般过去时",
+              "was / were + 过去分词",
+              "The museum was built in 1880."
+            ],
+            [
+              "现在完成时",
+              "have / has been + 过去分词",
+              "The results have been published online."
+            ],
+            [
+              "否定",
+              "be 后面加 not",
+              "The road wasn't repaired last year."
+            ],
+            [
+              "疑问",
+              "be 提到主语前",
+              "Is the exam marked by computer?"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "These phones are assembled in one country and sold all over the world.",
+            "cn": "这些手机在一个国家组装，然后销往世界各地。",
+            "note": "并列的两个被动可以省略第二个 are。"
+          },
+          {
+            "en": "The old factory was turned into an art gallery in 2015.",
+            "cn": "这座旧工厂在 2015 年被改造成了美术馆。"
+          },
+          {
+            "en": "Smoking has been banned in all restaurants in the city.",
+            "cn": "这座城市所有餐馆都已禁止吸烟。"
+          }
+        ]
+      },
+      {
+        "heading": "Task 1 流程图：描述工序",
+        "body": "流程图描述的是一个产品或材料**经过哪些步骤**，主语通常是原料或产品，所以几乎每一步都用**一般现在时的被动**。\n\n再配合 first、next、then、after that、finally 等顺序词，以及 once、after 等连接词，就能写出清楚的步骤链。",
+        "table": {
+          "head": [
+            "顺序词",
+            "例子"
+          ],
+          "rows": [
+            [
+              "First, / To begin with,",
+              "First, the tea leaves are picked by hand."
+            ],
+            [
+              "Next, / Then,",
+              "Next, they are dried in the sun for several hours."
+            ],
+            [
+              "After that, / Once ...,",
+              "Once the leaves have been dried, they are crushed."
+            ],
+            [
+              "Finally,",
+              "Finally, the tea is packed and sent to shops."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "At the first stage, glass bottles are collected and taken to a recycling plant.",
+            "cn": "第一步，玻璃瓶被收集起来，运到回收厂。"
+          },
+          {
+            "en": "The bottles are then washed, sorted by colour and crushed into small pieces.",
+            "cn": "接着，瓶子被清洗、按颜色分类，并压碎成小块。",
+            "note": "then 放在 be 和过去分词之间；英式拼写 colour。"
+          },
+          {
+            "en": "Finally, the melted glass is shaped into new bottles.",
+            "cn": "最后，熔化的玻璃被制成新瓶子。"
+          }
+        ]
+      },
+      {
+        "heading": "被动语态的易错点",
+        "body": "**不及物动词没有被动**：happen、occur、rise、fall、increase、arrive、appear、disappear 不能用于被动。Task 1 描述数据升降时，应该说 The figure rose，不能说 was risen。\n\n**不能漏掉 be**：The new hospital built last year. 缺少谓语，正确的是 The new hospital was built last year.\n\n**不要滥用被动**：Task 2 表达自己的观点时，主动语态更直接，I believe ... 比 It is believed by me ... 自然得多。",
+        "table": {
+          "head": [
+            "错误",
+            "正确"
+          ],
+          "rows": [
+            [
+              "The accident was happened at night.",
+              "The accident happened at night."
+            ],
+            [
+              "Sales were increased by 20% last year.",
+              "Sales increased by 20% last year."
+            ],
+            [
+              "The new hospital built last year.",
+              "The new hospital was built last year."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The number of visitors increased sharply after the museum was renovated.",
+            "cn": "博物馆翻修后，参观人数大幅增加。",
+            "note": "increased 是主动（不及物），was renovated 是被动。"
+          },
+          {
+            "en": "Several changes have been made to the timetable.",
+            "cn": "时间表已经做了几处调整。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The car was stole last night.",
+        "right": "The car was stolen last night.",
+        "why": "被动要用过去分词，不是过去式；不规则动词尤其要注意 steal - stole - stolen。"
+      },
+      {
+        "wrong": "The meeting was happened yesterday.",
+        "right": "The meeting happened yesterday.",
+        "why": "happen 是不及物动词，没有被动形式。"
+      },
+      {
+        "wrong": "This bridge built in 1990.",
+        "right": "This bridge was built in 1990.",
+        "why": "漏了 be，句子没有谓语。中文「这座桥建于 1990 年」没有「被」字，很容易漏掉。"
+      },
+      {
+        "wrong": "Then the fruit is wash and cut into pieces.",
+        "right": "Then the fruit is washed and cut into pieces.",
+        "why": "be 后面要接过去分词，wash 要加 -ed。流程图里这类漏写很常见。"
+      },
+      {
+        "wrong": "Many new houses have built in my town.",
+        "right": "Many new houses have been built in my town.",
+        "why": "现在完成时的被动是 have / has been + 过去分词，been 不能漏。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-passive-basics-q1",
+        "type": "mcq",
+        "q": "In the next stage, the raw cotton ___ to remove dirt.",
+        "options": [
+          "is cleaned",
+          "cleans",
+          "is clean"
+        ],
+        "answer": "is cleaned",
+        "explain": "棉花是被清洗的对象，流程图用一般现在时的被动 is + 过去分词。"
+      },
+      {
+        "id": "gr-passive-basics-q2",
+        "type": "fill",
+        "q": "The Eiffel Tower ___ (build) for the 1889 World's Fair.",
+        "answer": [
+          "was built"
+        ],
+        "explain": "塔是被建造的，过去的事用一般过去时的被动 was + 过去分词。"
+      },
+      {
+        "id": "gr-passive-basics-q3",
+        "type": "fill",
+        "q": "Since 2010, thousands of trees ___ (plant) along the river.",
+        "answer": [
+          "have been planted"
+        ],
+        "explain": "since 2010 表示到现在为止，用现在完成时；树是被种的，用 have been + 过去分词。"
+      },
+      {
+        "id": "gr-passive-basics-q4",
+        "type": "mcq",
+        "q": "The population of the city ___ from 2 million to 3 million.",
+        "options": [
+          "rose",
+          "was risen",
+          "was rose"
+        ],
+        "answer": "rose",
+        "explain": "rise 是不及物动词，没有被动，直接用过去式 rose。"
+      },
+      {
+        "id": "gr-passive-basics-q5",
+        "type": "correct",
+        "q": "The museum built in the 19th century.",
+        "answer": [
+          "The museum was built in the 19th century.",
+          "The museum was built in the nineteenth century."
+        ],
+        "explain": "博物馆是被建造的，要用被动 was built，不能漏掉 be。"
+      },
+      {
+        "id": "gr-passive-basics-q6",
+        "type": "correct",
+        "q": "The bottles are collect and taken to a factory.",
+        "answer": [
+          "The bottles are collected and taken to a factory."
+        ],
+        "explain": "被动语态中 be 后面接过去分词 collected。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "被动语态"
+      ],
+      "nceLessons": [
+        {
+          "book": 2,
+          "lesson": 10
+        },
+        {
+          "book": 2,
+          "lesson": 21
+        },
+        {
+          "book": 2,
+          "lesson": 46
+        },
+        {
+          "book": 2,
+          "lesson": 47
+        },
+        {
+          "book": 3,
+          "lesson": 21
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "gr-conditionals-0-1-2",
+    "domain": "grammar",
+    "track": "core",
+    "title": "条件句 0/1/2 型",
+    "titleEn": "Zero, first and second conditionals",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 110,
+    "minutes": 25,
+    "summary": "掌握三类条件句的时态搭配，能谈普遍规律、可能的结果和假设情况，写作提建议、口语回答假设问题时不再混用时态。",
+    "sections": [
+      {
+        "heading": "三类条件句总览",
+        "body": "条件句由 **if 从句**（条件）和**主句**（结果）组成。三类条件句的区别在于「这件事有多真实」：0 型是普遍规律，1 型是将来真实可能发生的事，2 型是与现在事实相反或不太可能发生的假设。\n\nif 从句可以放在前面，也可以放在后面；放在前面时，两个分句之间加逗号。",
+        "table": {
+          "head": [
+            "类型",
+            "if 从句",
+            "主句",
+            "用途"
+          ],
+          "rows": [
+            [
+              "0 型",
+              "一般现在时",
+              "一般现在时",
+              "普遍事实、规律"
+            ],
+            [
+              "1 型",
+              "一般现在时",
+              "will / can / may + 动词原形",
+              "将来真实可能发生的情况"
+            ],
+            [
+              "2 型",
+              "一般过去时（be 常用 were）",
+              "would / could / might + 动词原形",
+              "与现在相反或不太可能的假设"
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "If you heat ice, it melts.",
+            "cn": "冰受热就会融化。",
+            "note": "0 型：普遍规律。"
+          },
+          {
+            "en": "If it rains tomorrow, the match will be cancelled.",
+            "cn": "如果明天下雨，比赛就会取消。",
+            "note": "1 型：将来可能发生。"
+          },
+          {
+            "en": "If I had more free time, I would learn to play the piano.",
+            "cn": "如果我有更多空闲时间，我会学弹钢琴。",
+            "note": "2 型：与现在事实相反。"
+          }
+        ]
+      },
+      {
+        "heading": "0 型与 1 型：规律和真实可能",
+        "body": "**0 型**说的是「只要……就总会……」，if 可以换成 when，意思基本不变。\n\n**1 型**说的是将来有可能发生的情况及其结果。最关键的一点：**if 从句用一般现在时表示将来**，不能用 will，这和「将来的表达」一篇讲的时间从句规则一样。1 型的主句也可以用 can、may、might、should 或祈使句。\n\n**unless** 相当于 if ... not。",
+        "table": {
+          "head": [
+            "句型",
+            "例子"
+          ],
+          "rows": [
+            [
+              "0 型",
+              "If people don't get enough sleep, they find it hard to concentrate."
+            ],
+            [
+              "1 型 + will",
+              "If the government raises fuel taxes, fewer people will drive."
+            ],
+            [
+              "1 型 + may / might",
+              "If you live near your workplace, you may save a lot of time."
+            ],
+            [
+              "1 型 + 祈使句",
+              "If you feel nervous in the speaking test, take a deep breath."
+            ],
+            [
+              "unless = if ... not",
+              "You won't improve unless you practise every day."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "If plants don't get enough light, they grow slowly.",
+            "cn": "植物光照不足就会长得慢。"
+          },
+          {
+            "en": "If more people use public transport, traffic congestion will decrease.",
+            "cn": "如果更多人乘坐公共交通，交通拥堵就会减轻。",
+            "note": "Task 2 讨论措施效果的常用句。"
+          },
+          {
+            "en": "Unless we reduce waste, our landfill sites will soon be full.",
+            "cn": "除非我们减少垃圾，否则垃圾填埋场很快就会满。"
+          }
+        ]
+      },
+      {
+        "heading": "2 型：与现在相反的假设",
+        "body": "2 型条件句用**过去时的形式**表达**现在或将来的假设**，并不是在说过去。它表示说话人认为这件事不真实或不太可能。\n\nbe 动词在 if 从句中常用 **were**，不论主语是什么人称；If I were you ... 是给建议的固定说法。日常口语里 I / he / she / it was 也很常见。主句用 would / could / might + 动词原形。\n\n口语 Part 3 遇到 If you could change one thing about your city, what would it be? 这类问题，就要用 2 型回答。",
+        "table": {
+          "head": [
+            "句型",
+            "例子"
+          ],
+          "rows": [
+            [
+              "If + 过去式, would + 动词原形",
+              "If I lived closer to the sea, I would go swimming every day."
+            ],
+            [
+              "If + were, would + 动词原形",
+              "If I were the mayor, I would build more parks."
+            ],
+            [
+              "If + 过去式, could / might + 动词原形",
+              "If cities had better cycle lanes, more people might cycle to work."
+            ],
+            [
+              "给建议",
+              "If I were you, I would book the test early."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "If I could change one thing about my city, I would make public transport free.",
+            "cn": "如果我能改变我们城市的一件事，我会让公共交通免费。"
+          },
+          {
+            "en": "If everyone recycled their waste, we wouldn't need so many landfill sites.",
+            "cn": "如果每个人都回收垃圾，我们就不需要那么多填埋场了。"
+          },
+          {
+            "en": "What would you do if you won a lot of money?",
+            "cn": "如果你中了一大笔钱，你会做什么？"
+          }
+        ]
+      },
+      {
+        "heading": "1 型还是 2 型",
+        "body": "同一个话题既可以用 1 型也可以用 2 型，取决于说话人觉得**这件事有多大可能**。觉得很可能发生，用 1 型；觉得不太可能或纯属假设，用 2 型。",
+        "table": {
+          "head": [
+            "1 型（可能发生）",
+            "2 型（不太可能 / 假设）"
+          ],
+          "rows": [
+            [
+              "If I pass the test, I will study in Australia.",
+              "If I got a 9 in the test, I would be amazed."
+            ],
+            [
+              "If the council builds a new library, students will use it.",
+              "If every town had a free library, more children would read."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "If I get a 7 in IELTS, I will apply to a university in the UK.",
+            "cn": "如果雅思考到 7 分，我就申请英国的大学。",
+            "note": "真实的目标，用 1 型。"
+          },
+          {
+            "en": "If I didn't have to work, I would travel around the world.",
+            "cn": "如果我不用工作，我就去环游世界。",
+            "note": "不现实的假设，用 2 型。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "If it will rain tomorrow, we will stay at home.",
+        "right": "If it rains tomorrow, we will stay at home.",
+        "why": "1 型条件句的 if 从句用一般现在时表示将来，不用 will。"
+      },
+      {
+        "wrong": "If I have a lot of money, I would buy a house.",
+        "right": "If I had a lot of money, I would buy a house.",
+        "why": "2 型的 if 从句用过去式，主句用 would，前后时态要配套。"
+      },
+      {
+        "wrong": "If I were you, I will take a break.",
+        "right": "If I were you, I would take a break.",
+        "why": "If I were you 是 2 型假设，主句要用 would。"
+      },
+      {
+        "wrong": "If people would use public transport, the air would be cleaner.",
+        "right": "If people used public transport, the air would be cleaner.",
+        "why": "if 从句里一般不用 would，would 只放在主句。"
+      },
+      {
+        "wrong": "Unless you don't study, you will fail.",
+        "right": "Unless you study, you will fail.",
+        "why": "unless 本身就是 if ... not，不能再加否定。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-conditionals-0-1-2-q1",
+        "type": "mcq",
+        "q": "If you mix red and blue, you ___ purple.",
+        "options": [
+          "get",
+          "got",
+          "would get"
+        ],
+        "answer": "get",
+        "explain": "颜色混合是普遍规律，用 0 型，两边都用一般现在时。"
+      },
+      {
+        "id": "gr-conditionals-0-1-2-q2",
+        "type": "fill",
+        "q": "If the city ___ (build) a new bridge, journey times will be shorter.",
+        "answer": [
+          "builds"
+        ],
+        "explain": "1 型条件句，if 从句用一般现在时表示将来；the city 是单数，加 -s。"
+      },
+      {
+        "id": "gr-conditionals-0-1-2-q3",
+        "type": "mcq",
+        "q": "If I ___ the prime minister, I would invest more in education.",
+        "options": [
+          "were",
+          "am",
+          "will be"
+        ],
+        "answer": "were",
+        "explain": "与现实相反的假设，用 2 型，if 从句中 be 用 were。"
+      },
+      {
+        "id": "gr-conditionals-0-1-2-q4",
+        "type": "fill",
+        "q": "If more people worked from home, there ___ (be) less traffic in the morning.",
+        "answer": [
+          "would be",
+          "might be",
+          "could be"
+        ],
+        "explain": "if 从句用过去式 worked，是 2 型假设，主句用 would + 动词原形；might / could be 表示可能，也正确。"
+      },
+      {
+        "id": "gr-conditionals-0-1-2-q5",
+        "type": "correct",
+        "q": "If I will have time this weekend, I will visit the museum.",
+        "answer": [
+          "If I have time this weekend, I will visit the museum.",
+          "If I have time this weekend, I'll visit the museum."
+        ],
+        "explain": "1 型条件句的 if 从句用一般现在时，不用 will。"
+      },
+      {
+        "id": "gr-conditionals-0-1-2-q6",
+        "type": "correct",
+        "q": "If I had a car, I will drive to work.",
+        "answer": [
+          "If I had a car, I would drive to work.",
+          "If I had a car, I'd drive to work."
+        ],
+        "explain": "if 从句是过去式 had，属于 2 型假设，主句要用 would。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "条件句"
+      ],
+      "nceLessons": [
+        {
+          "book": 2,
+          "lesson": 16
+        },
+        {
+          "book": 2,
+          "lesson": 95
+        },
+        {
+          "book": 3,
+          "lesson": 34
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  },
+  {
+    "id": "gr-gerunds-infinitives",
+    "domain": "grammar",
+    "track": "core",
+    "title": "动名词与不定式",
+    "titleEn": "Gerunds and infinitives",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 120,
+    "minutes": 25,
+    "summary": "记住常见动词后接 doing 还是 to do，分清 stop、remember、forget、try 两种用法的意思差别，不再说出 enjoy to do 这类错误。",
+    "sections": [
+      {
+        "heading": "后接动名词的动词",
+        "body": "有一批动词后面只能接**动词-ing（动名词）**，不能接 to do，多表示喜好、完成、避免、建议等。\n\n另外，**介词后面一律接动名词**，包括 be interested in、be good at、look forward to、instead of、without 等。其中 look forward to 的 to 是介词，后面接 doing。",
+        "table": {
+          "head": [
+            "类别",
+            "动词 / 短语",
+            "例子"
+          ],
+          "rows": [
+            [
+              "喜好",
+              "enjoy, mind, don't mind, can't stand",
+              "I enjoy travelling alone."
+            ],
+            [
+              "完成 / 继续",
+              "finish, keep, give up, carry on",
+              "She kept asking questions."
+            ],
+            [
+              "避免 / 否认",
+              "avoid, deny, miss, risk",
+              "Try to avoid using your phone before bed."
+            ],
+            [
+              "建议 / 考虑",
+              "suggest, consider, recommend, practise",
+              "He suggested taking the train."
+            ],
+            [
+              "介词 + doing",
+              "interested in, good at, look forward to, without",
+              "I'm looking forward to hearing from you."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "I don't mind sharing a flat, as long as it's clean.",
+            "cn": "只要干净，我不介意合租。"
+          },
+          {
+            "en": "Many people have given up eating meat for environmental reasons.",
+            "cn": "很多人出于环保原因不再吃肉。"
+          },
+          {
+            "en": "Instead of driving, more people are choosing to cycle to work.",
+            "cn": "越来越多的人不再开车，而是选择骑车上班。",
+            "note": "instead of 是介词短语，后接 driving。"
+          }
+        ]
+      },
+      {
+        "heading": "后接不定式的动词",
+        "body": "另一批动词后面接 **to + 动词原形**，多表示意愿、计划、决定、设法等**指向将来**的动作。\n\n「形容词 + to do」也很常见：It is important to ...、It's difficult to ...。写作 Task 2 里 It is essential for governments to ... 是很实用的句型。",
+        "table": {
+          "head": [
+            "类别",
+            "动词",
+            "例子"
+          ],
+          "rows": [
+            [
+              "意愿 / 计划",
+              "want, hope, plan, expect, would like",
+              "I hope to study medicine."
+            ],
+            [
+              "决定 / 同意",
+              "decide, agree, refuse, promise",
+              "They decided to move to the countryside."
+            ],
+            [
+              "设法 / 能力",
+              "manage, fail, afford, learn",
+              "I can't afford to buy a car."
+            ],
+            [
+              "形容词 + to do",
+              "important, easy, difficult, necessary",
+              "It is difficult to find a job in this field."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "After graduating, I decided to work for a year before doing a master's degree.",
+            "cn": "毕业后，我决定先工作一年再读硕士。",
+            "note": "decide 后接 to do；after、before 是介词，后接 doing。"
+          },
+          {
+            "en": "Many young people cannot afford to buy a home in big cities.",
+            "cn": "很多年轻人在大城市买不起房。"
+          },
+          {
+            "en": "It is important for children to learn how to cook.",
+            "cn": "让孩子学会做饭很重要。"
+          }
+        ]
+      },
+      {
+        "heading": "两种都能接但意思不同：stop、remember、forget、try",
+        "body": "like、love、prefer、start、begin、continue 后面接 doing 或 to do，意思差别不大。\n\n但下面四个动词两种形式意思明显不同。总的规律是：**doing 指已经做过或正在做的事，to do 指接下来要去做的事**。",
+        "table": {
+          "head": [
+            "动词",
+            "+ doing",
+            "+ to do"
+          ],
+          "rows": [
+            [
+              "stop",
+              "停止正在做的事：He stopped smoking.（戒烟了）",
+              "停下来去做另一件事：He stopped to smoke.（停下来抽支烟）"
+            ],
+            [
+              "remember",
+              "记得做过：I remember locking the door.",
+              "记得要去做：Remember to lock the door."
+            ],
+            [
+              "forget",
+              "忘记做过：I'll never forget visiting Rome.",
+              "忘记要做：I forgot to send the email."
+            ],
+            [
+              "try",
+              "试着做（看看效果）：Try turning it off and on again.",
+              "努力设法做：I tried to open the window, but it was stuck."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "On the way to work, I stopped to buy a coffee.",
+            "cn": "上班路上，我停下来买了杯咖啡。"
+          },
+          {
+            "en": "I'm sure I've seen this film; I remember watching it with my sister.",
+            "cn": "我肯定看过这部电影，我记得是和姐姐一起看的。"
+          },
+          {
+            "en": "Don't forget to bring your passport to the exam.",
+            "cn": "别忘了考试时带护照。"
+          }
+        ]
+      },
+      {
+        "heading": "动名词作主语",
+        "body": "动名词可以作主语，谓语用**单数**。这样写简洁、正式，写作中经常可以和 It is ... to do 结构互换，让句式更多样。",
+        "table": {
+          "head": [
+            "动名词作主语",
+            "It ... to do"
+          ],
+          "rows": [
+            [
+              "Learning a language takes time.",
+              "It takes time to learn a language."
+            ],
+            [
+              "Living abroad can be lonely.",
+              "It can be lonely to live abroad."
+            ]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Recycling paper saves trees and energy.",
+            "cn": "回收纸张能节约树木和能源。",
+            "note": "动名词作主语，谓语 saves 用单数。"
+          },
+          {
+            "en": "Reading widely is the best way to improve your vocabulary.",
+            "cn": "广泛阅读是扩大词汇量的最好方法。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "I enjoy to read novels.",
+        "right": "I enjoy reading novels.",
+        "why": "enjoy 后面只能接动名词。"
+      },
+      {
+        "wrong": "I'm looking forward to see you.",
+        "right": "I'm looking forward to seeing you.",
+        "why": "look forward to 的 to 是介词，后面接动名词。书信结尾的高频错误。"
+      },
+      {
+        "wrong": "She decided studying abroad.",
+        "right": "She decided to study abroad.",
+        "why": "decide 后面接 to do。"
+      },
+      {
+        "wrong": "He suggested to take a taxi.",
+        "right": "He suggested taking a taxi.",
+        "why": "suggest 后面接 doing 或 that 从句，不接 to do。中文「建议做」容易直译成 suggest to do。"
+      },
+      {
+        "wrong": "My doctor told me to stop to smoke.",
+        "right": "My doctor told me to stop smoking.",
+        "why": "戒烟是停止正在做的事，用 stop doing；stop to smoke 的意思是停下来去抽烟。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "gr-gerunds-infinitives-q1",
+        "type": "mcq",
+        "q": "Have you finished ___ your essay?",
+        "options": [
+          "writing",
+          "to write",
+          "write"
+        ],
+        "answer": "writing",
+        "explain": "finish 后面接动名词。"
+      },
+      {
+        "id": "gr-gerunds-infinitives-q2",
+        "type": "mcq",
+        "q": "We can't afford ___ a new car this year.",
+        "options": [
+          "to buy",
+          "buying",
+          "buy"
+        ],
+        "answer": "to buy",
+        "explain": "afford 后面接 to do。"
+      },
+      {
+        "id": "gr-gerunds-infinitives-q3",
+        "type": "fill",
+        "q": "I was so tired that I stopped ___ (have) a rest halfway up the hill.",
+        "answer": [
+          "to have"
+        ],
+        "explain": "停下（走路）去做另一件事「休息」，用 stop to do。"
+      },
+      {
+        "id": "gr-gerunds-infinitives-q4",
+        "type": "fill",
+        "q": "I clearly remember ___ (lock) the door, but now it's open!",
+        "answer": [
+          "locking"
+        ],
+        "explain": "记得已经做过的事，用 remember doing。"
+      },
+      {
+        "id": "gr-gerunds-infinitives-q5",
+        "type": "correct",
+        "q": "Many students avoid to speak English in class.",
+        "answer": [
+          "Many students avoid speaking English in class."
+        ],
+        "explain": "avoid 后面接动名词。"
+      },
+      {
+        "id": "gr-gerunds-infinitives-q6",
+        "type": "correct",
+        "q": "I look forward to hear from you.",
+        "answer": [
+          "I look forward to hearing from you."
+        ],
+        "explain": "look forward to 的 to 是介词，后面接动名词 hearing。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "动名词",
+        "动词不定式",
+        "remember/forget + 不定式与动名词",
+        "非谓语动词(动名词)",
+        "非谓语动词(不定式)",
+        "动名词作主语"
+      ],
+      "nceLessons": [
+        {
+          "book": 2,
+          "lesson": 18
+        },
+        {
+          "book": 2,
+          "lesson": 20
+        },
+        {
+          "book": 3,
+          "lesson": 13
+        },
+        {
+          "book": 3,
+          "lesson": 29
+        },
+        {
+          "book": 3,
+          "lesson": 58
+        }
+      ],
+      "tabs": [
+        "practice",
+        "transform"
+      ]
+    }
+  }
+]
