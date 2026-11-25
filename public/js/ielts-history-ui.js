@@ -1,5 +1,5 @@
 'use strict';
-// 雅思备考 · 记录子页：写作 / 口语历次自评记录、band 趋势折线（内联 SVG），点开看原文与题目。
+// 雅思备考 · 记录子页：写作 / 口语历次自评记录、band 趋势折线（内联 SVG），点开看原文与题目（口语另有转写与流利度指标）。
 // 接口：GET /api/ielts/history?type=writing|speaking&limit=、GET /api/ielts/summary；
 // 题目标题优先用 history 返回的 title；缺 title 时才拉 GET /api/ielts/writing、GET /api/ielts/speaking 做映射（拿不到就只显示题目 id）。
 (function () {
@@ -40,6 +40,8 @@
     .ieh-detail details{margin-top:8px}
     .ieh-detail summary{cursor:pointer;color:var(--brand);font-weight:600}
     .ieh-prompt{margin-bottom:10px;padding:8px 10px;border-radius:8px;background:rgba(127,127,127,.06);white-space:pre-line}
+    .ieh-tx{margin-top:6px;color:var(--ink);overflow-wrap:anywhere}
+    .ieh-tx p{margin:0 0 6px}
   `;
   document.head.appendChild(style);
 
@@ -74,6 +76,27 @@
   function clip(s, n) {
     const str = String(s || '');
     return str.length > n ? str.slice(0, n - 1) + '…' : str;
+  }
+  // 口语记录的流利度指标（语音识别统计，可选字段）；只显示白名单里的有限数
+  const SPEAKING_METRICS = [
+    ['words', '总词数'],
+    ['wpm', '语速 WPM'],
+    ['fillers', '填充词'],
+    ['repeats', '重复词'],
+    ['longPauses', '长停顿（>3 秒）'],
+    ['connectives', '连接词 / 复杂句标记'],
+  ];
+  function speakingMetricsHtml(m) {
+    if (!m || typeof m !== 'object' || Array.isArray(m)) return '';
+    const parts = SPEAKING_METRICS
+      .filter(([k]) => typeof m[k] === 'number' && Number.isFinite(m[k]))
+      .map(([k, label]) => `${label} ${m[k]}`);
+    if (!parts.length) return '';
+    return `<div style="margin-top:6px"><b>流利度指标：</b>${esc(parts.join(' · '))} <span class="ie-muted">（来自语音识别，只作参考）</span></div>`;
+  }
+  function transcriptHtml(text) {
+    if (typeof text !== 'string' || !text.trim()) return '';
+    return `<details open><summary>转写文本</summary><div class="ieh-tx">${paragraphsHtml(text)}</div></details>`;
   }
 
   // 题目标题映射（只用于展示，失败不影响记录列表）
@@ -202,6 +225,8 @@
         '<div class="ieh-prompt ie-muted">正在加载题目…</div>' +
         (dims ? `<div>四维自评：${esc(dims)}</div>` : '') +
         (r.notes ? `<div style="margin-top:6px"><b>备注：</b>${esc(r.notes)}</div>` : '') +
+        speakingMetricsHtml(r.metrics) +
+        transcriptHtml(r.transcript) +
         '<div class="ie-muted" style="margin-top:6px">录音不保存（只在练习当时的页面内存里）。</div>';
     }
     recEl.appendChild(det);
