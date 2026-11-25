@@ -14,6 +14,7 @@
     "test:ielts-reading": "node scripts/test-ielts-reading.js",
     "test:ielts-listening": "node scripts/test-ielts-listening.js",
     "test:ielts-knowledge": "node scripts/test-ielts-knowledge.js",
+    "test:ielts-mock": "node scripts/test-ielts-mock.js",
     "scan:dialogue": "node scripts/scan-dialogue-coverage.js",
     "build:word-enrich": "node scripts/build-word-enrich.js",
     "build:lexicon-b1": "node scripts/build-lexicon-b1.js",
