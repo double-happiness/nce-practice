@@ -11,7 +11,7 @@
  * 新 SW activate 时会清掉旧版本缓存。
  */
 
-var SW_VERSION = 'v15';
+var SW_VERSION = 'v16';
 var CACHE_STATIC = 'nce-static-' + SW_VERSION;
 var CACHE_API = 'nce-api-' + SW_VERSION;
 var CACHE_AUDIO = 'nce-audio-' + SW_VERSION;
@@ -56,6 +56,8 @@ var PRECACHE_URLS = [
   '/js/ielts-writing-ui.js',
   '/js/ielts-speaking-ui.js',
   '/js/ielts-history-ui.js',
+  '/js/ielts-listening-ui.js',
+  '/js/ielts-reading-ui.js',
   '/js/feat-level.js',
   '/audio/pronunc-index.json',
   '/audio/official-segments.json',
