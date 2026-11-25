@@ -1,8 +1,8 @@
 'use strict';
-// 雅思备考 · 词汇子页：按话题 / CEFR 浏览（显示掌握度）、卡片背诵、拼写、搭配练习、雅思词汇诊断。
+// 雅思备考 · 词汇子页：按话题 / CEFR 浏览（显示掌握度）、卡片背诵、拼写、搭配练习、例句填空、雅思词汇诊断。
 // 背诵复用 POST /api/words/rate（带 word/cn/eg/pos/phon，由后端存入 extras，掌握度与间隔复习共用），
 // 拼写复用 POST /api/words/spell；诊断走 GET/POST /api/ielts/vocab-check（D2：不影响「总词汇量」成绩）。
-// 搭配练习每答一题也调 /api/words/rate（对 known、错 unknown），掌握度、间隔复习与今日「记」沿用同一套逻辑。
+// 搭配练习 / 例句填空每答一题也调 /api/words/rate（对 known、错 unknown），掌握度、间隔复习与今日「记」沿用同一套逻辑。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -20,7 +20,7 @@
   const LV_NAME = ['未学', '学习中', '熟悉', '已掌握'];
   const PAGE_SIZE = 50;
   const POOL_SIZE = 20;
-  const DRILL_SIZE = 10; // 搭配练习每轮题数
+  const DRILL_SIZE = 10; // 搭配练习 / 例句填空每轮题数
   const SCOPE_PAGE = 500; // /api/ielts/vocab 单次 limit 上限
   const SCOPE_MAX = 3000; // 练习范围分页拉取的兜底上限
 
@@ -93,6 +93,8 @@
     .iev-drill-q{font-size:22px;font-weight:700;color:var(--ink);line-height:1.5;text-align:center;margin:10px 0 6px;overflow-wrap:anywhere}
     .iev-drill-hint{font-size:14px;color:var(--ink-soft);line-height:1.6;text-align:center;margin-bottom:14px;overflow-wrap:anywhere}
     .iev-drill-hint .m{display:block;font-size:12.5px;color:var(--muted)}
+    .iev-drill-q.sent{font-size:17px;font-weight:500;line-height:1.8;text-align:left}
+    .iev-drill-hint.sent{text-align:left}
     .iev-blank{color:var(--brand);font-weight:700;white-space:nowrap}
     .iev-hl{color:var(--brand);font-weight:700}
     .iev-drill-row{display:flex;gap:8px;flex-wrap:wrap}
@@ -110,7 +112,7 @@
   document.head.appendChild(style);
 
   const st = {
-    mode: 'browse', // browse | flash | spell | check | DRILLS 里的练习模式（colloc）
+    mode: 'browse', // browse | flash | spell | check | DRILLS 里的练习模式（colloc / cloze）
     topic: '',
     cefr: '',
     q: '',
@@ -121,7 +123,7 @@
     flash: { words: [], idx: 0, flipped: false, rated: 0, busy: false },
     spell: { pool: [], cur: null, right: 0, wrong: 0, unsynced: 0, timer: null, warned: false },
     check: { quiz: null, idx: 0, answers: [], result: null },
-    // 练习引擎（搭配练习等）：每轮换一个新对象，异步回调用对象身份判断是否还是当前这一轮
+    // 练习引擎（搭配练习 / 例句填空）：每轮换一个新对象，异步回调用对象身份判断是否还是当前这一轮
     drill: { mode: '', scope: [], questions: [], idx: 0, right: 0, wrong: [], retry: false, unsynced: 0, warned: false, finished: false },
   };
   let root = null;
@@ -188,6 +190,7 @@
       '<button type="button" class="btn small" data-m="flash">🃏 背诵</button>' +
       '<button type="button" class="btn small" data-m="spell">✍️ 拼写</button>' +
       '<button type="button" class="btn small" data-m="colloc">🔗 搭配练习</button>' +
+      '<button type="button" class="btn small" data-m="cloze">📝 例句填空</button>' +
       '<button type="button" class="btn small" data-m="check">🩺 词汇诊断</button>' +
       '</div>' +
       '<div class="iev-filters"></div>' +
@@ -777,7 +780,33 @@
     );
   }
 
-  // ---------- 练习引擎（搭配练习等共用）----------
+  // ---------- 例句填空 ----------
+  // 用词条自己的例句挖空目标词（含屈折形式），全部输入题；例句里找不到可挖的位置就跳过这个词
+  function buildClozeQuestion(w) {
+    const eg = typeof w.eg === 'string' ? w.eg.trim() : '';
+    const blanks = findBlanks(eg, w.word, w.pos);
+    return blanks.length ? blankQuestion(w, 'cloze', eg, blanks) : null;
+  }
+
+  function clozePromptHtml(q) {
+    const w = q.w;
+    const hint = w.egCn ? esc(w.egCn) : `释义：${esc(w.cn || '')}`;
+    return (
+      `<div class="iev-drill-q sent">${segsHtml(q.segs, false)}</div>` +
+      `<div class="iev-drill-hint sent">${hint}` +
+      `<span class="m">${esc([w.pos, w.cefr, topicLabel(w.topic)].filter(Boolean).join(' · '))}</span></div>`
+    );
+  }
+
+  function clozeRevealHtml(q) {
+    const w = q.w;
+    return (
+      `<div>${segsHtml(q.segs, true)} ${spk(q.source)}</div>` +
+      (w.egCn ? `<div class="cn2">${esc(w.egCn)}</div>` : '')
+    );
+  }
+
+  // ---------- 练习引擎（搭配练习 / 例句填空共用）----------
   // 每种练习只提供：出题 build(w, order, scope)、题面 prompt(q)、答后展示 reveal(q)、无题可出时的提示
   const DRILLS = {
     colloc: {
@@ -787,6 +816,14 @@
       build: buildCollocQuestion,
       prompt: collocPromptHtml,
       reveal: collocRevealHtml,
+    },
+    cloze: {
+      name: '📝 例句填空',
+      inputHint: '填入空缺的词，回车提交',
+      empty: '当前范围里没有能出例句填空题的词。换个话题、级别或关键词试试。',
+      build: buildClozeQuestion,
+      prompt: clozePromptHtml,
+      reveal: clozeRevealHtml,
     },
   };
 
