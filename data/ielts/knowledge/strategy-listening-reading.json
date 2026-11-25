@@ -785,7 +785,7 @@
       {
         "id": "st-reading-skim-scan-time-q5",
         "type": "fill",
-        "q": "You have 60 minutes for three passages. You finish Passage 1 in 17 minutes and Passage 2 in 20 minutes. How many minutes are left for Passage 3? (Write a number.)",
+        "q": "You have 60 minutes for three passages. You finish Passage 1 in 17 minutes and Passage 2 in 20 minutes. You have ___ minutes left for Passage 3. (Write a number.)",
         "answer": ["23", "23 minutes", "twenty-three"],
         "explain": "60 − 17 − 20 = 23。第 1 篇省下的时间可以留给通常最难的第 3 篇。"
       }
