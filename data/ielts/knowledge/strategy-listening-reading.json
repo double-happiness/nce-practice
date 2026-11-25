@@ -1,0 +1,1422 @@
+[
+  {
+    "id": "st-listening-prediction",
+    "domain": "strategy",
+    "track": "listening",
+    "title": "听前预测与同义替换",
+    "titleEn": "Prediction and paraphrase in listening",
+    "level": "A2",
+    "skills": ["listening"],
+    "order": 10,
+    "minutes": 20,
+    "summary": "学会利用读题时间预测空格的词性和内容，并在录音里认出题目的同义改述，不再「听懂了却找不到答案」。",
+    "sections": [
+      {
+        "heading": "第一步：用好读题时间",
+        "body": "雅思听力每部分开始前都有一小段读题时间（本系统考试模式是每组题前 30 秒）。这段时间不要发呆，也不要回头改上一部分，而是做三件事：\n\n1. **看说明**：圈出字数限制，例如 ONE WORD AND/OR A NUMBER。\n2. **看标题和小标题**：判断这是在订房、报名还是听讲座，脑子里先准备相关词汇。\n3. **划路标词**：每题划 1–2 个不容易被替换的词（人名、地名、数字、专有名词）。录音里一出现这些词，就说明答案快来了。"
+      },
+      {
+        "heading": "第二步：预测词性和内容",
+        "body": "看空格前后的词，判断答案的**词性**和**大概内容**：\n\n- 空格前是 a / an / the 或形容词 → 多半是名词；前面是 an，答案以元音开头。\n- 空格前是 £ 或后面是 per night → 价格或数字。\n- 题目是 Date of arrival → 日期；Postcode → 字母加数字。\n- 空格在 is very 后面 → 形容词。\n- 名词还要想**单复数**：a ___ 是单数，several ___ 是复数。\n\n预测不必完全猜中，目的是让耳朵知道要抓什么类型的词。",
+        "examples": [
+          {
+            "en": "Form:\nRoom type: a ___ room\nPrice: £___ per night\nBreakfast is served in the ___ next to reception.",
+            "cn": "第 1 空在 a 和 room 之间，是修饰 room 的词，可能是 single、double、twin；第 2 空在 £ 后，是数字；第 3 空在 the 后，是地点名词，例如 restaurant、dining room，还要对照字数限制。",
+            "note": "先判断词性，再想几个可能的词"
+          }
+        ],
+        "table": {
+          "head": ["空格线索", "预测"],
+          "rows": [
+            ["a / an / the ___", "名词（an 后以元音开头）"],
+            ["£___ / ___ per hour", "数字、价格"],
+            ["Date: ___", "日期，例如 3 May"],
+            ["is very ___", "形容词"],
+            ["several / two ___", "复数名词"]
+          ]
+        }
+      },
+      {
+        "heading": "第三步：识别同义替换",
+        "body": "雅思很少让题目和录音用一模一样的说法。题目里的词常被**改述（paraphrase）**：\n\n- **同义词**：cheap → doesn't cost much；start → begin\n- **词性变化**：arrival → when you arrive\n- **肯定与否定互换**：closed on Mondays → open every day except Monday\n- **概括**：apples, pears and plums → fruit\n\n读题时给关键词想一两个可能的替换说法，听的时候更容易对上。录音里和题目一字不差的词，反而常出现在干扰信息里。",
+        "examples": [
+          {
+            "en": "Question: The museum is closed on ___.\nScript: 'You can visit us any day of the week apart from Monday, when we're shut for cleaning.'",
+            "cn": "答案 Monday。题目的 closed 在录音里换成了 shut，any day apart from Monday 也表达同一个意思。如果一直等 closed 这个词出现，就会错过答案。"
+          },
+          {
+            "en": "Question: Parking costs £___ for the whole day.\nScript: 'If you only stay an hour, it's two pounds, but most visitors pay the all-day rate of six fifty.'",
+            "cn": "答案 6.50。the whole day 改述成 the all-day rate；two pounds 是一小时的价格，是干扰。"
+          }
+        ]
+      },
+      {
+        "heading": "第四步：边听边跟住题号",
+        "body": "填空题的答案基本按录音顺序出现。听的时候视线停在「当前题 + 下一题」上，一听到下一题的路标词，就说明当前题已经过去，马上放下，不要回头想。\n\n漏掉一题时先做个记号，继续往下听；到检查时间再根据上下文补一个最合理的答案。空着一定不得分，猜一个还有机会。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "读题时间只看第一题，或者拿来检查上一部分。",
+        "right": "读题时间扫完本组所有题，划路标词，预测词性和单复数。",
+        "why": "不预测就只能被动等原词出现，答案一经改述就会漏掉。"
+      },
+      {
+        "wrong": "只等题目里的原词，例如一直等 closed 出现。",
+        "right": "同时准备 shut、not open、except 等可能的说法。",
+        "why": "大多数答案句都经过改述，原词往往出现在干扰信息里。"
+      },
+      {
+        "wrong": "预测时只想内容不想单复数，录音说 tickets 却写成 ticket。",
+        "right": "看空格前的 a、several、two 等词判断单复数，写完再核对。",
+        "why": "单复数不对按错算，本系统判分也一样。"
+      },
+      {
+        "wrong": "漏了一题后一直回想，结果连下一题也错过。",
+        "right": "立刻转向下一题，做个记号，检查时间再补猜。",
+        "why": "录音只播一遍，停在原地只会连环丢分。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-listening-prediction-q1",
+        "type": "mcq",
+        "q": "Booking form: 'Number of guests: ___'. What kind of answer should you expect?",
+        "options": ["a number", "a name", "an adjective", "a date"],
+        "answer": "a number",
+        "explain": "Number of guests 问的是人数，答案是数字。读题时就要准备听数字。"
+      },
+      {
+        "id": "st-listening-prediction-q2",
+        "type": "mcq",
+        "q": "Notes: 'Bring an ___ to the first lesson.' Which word could fit the gap?",
+        "options": ["umbrella", "notebook", "pencils", "dictionary"],
+        "answer": "umbrella",
+        "explain": "空格前是 an，要以元音开头的单数名词。notebook 和 dictionary 以辅音开头，pencils 是复数，都放不进去。"
+      },
+      {
+        "id": "st-listening-prediction-q3",
+        "type": "fill",
+        "q": "Script: 'The talk was meant to start at seven, but the speaker's train is running late, so we'll begin half an hour later.'\nQuestion: The talk will now start at ___. (ONE WORD AND/OR A NUMBER)",
+        "answer": ["7.30", "7:30", "7.30 pm", "7:30 pm", "7.30pm", "7:30pm", "19.30", "19:30"],
+        "explain": "原定的 seven 是干扰；half an hour later 表示推迟半小时，所以是 7.30。时间写成数字最稳妥。"
+      },
+      {
+        "id": "st-listening-prediction-q4",
+        "type": "mcq",
+        "q": "Question: 'The course is suitable for complete beginners.' Which sentence from a recording expresses the same idea?",
+        "options": [
+          "You don't need any previous experience to join.",
+          "Most of our students have studied the subject before.",
+          "Beginners usually prefer the evening class.",
+          "It's quite a complete course."
+        ],
+        "answer": "You don't need any previous experience to join.",
+        "explain": "no previous experience 就是 complete beginners 的改述。最后一项用了同一个词 complete，但意思是「内容完整」，是典型的原词干扰。"
+      },
+      {
+        "id": "st-listening-prediction-q5",
+        "type": "fill",
+        "q": "Script: 'The lockers themselves are free, but you'll need to bring your own padlock, as we don't sell them here.'\nQuestion: To use a locker, you must supply a ___. (ONE WORD ONLY)",
+        "answer": ["padlock"],
+        "explain": "supply 是 bring your own 的改述，空格前是 a，答案是单数 padlock。lockers 是题目里已经出现的词，不是答案。"
+      },
+      {
+        "id": "st-listening-prediction-q6",
+        "type": "mcq",
+        "q": "Notes: 'The tour guide is very ___.' What type of word is missing?",
+        "options": ["an adjective", "a noun", "a verb", "a number"],
+        "answer": "an adjective",
+        "explain": "is very 后面接形容词，例如 friendly、helpful。预测出词性，听的时候就知道要抓描述人的词。"
+      }
+    ],
+    "related": { "tabs": ["ielts:listening"] }
+  },
+  {
+    "id": "st-listening-form-completion",
+    "domain": "strategy",
+    "track": "listening",
+    "title": "表格和笔记填空",
+    "titleEn": "Form and note completion",
+    "level": "A2",
+    "skills": ["listening"],
+    "order": 20,
+    "minutes": 25,
+    "summary": "掌握 Part 1 表格和笔记填空的完整流程：守住字数限制，听准拼读的字母和数字，识别改口和干扰信息。",
+    "sections": [
+      {
+        "heading": "先看字数限制再动笔",
+        "body": "说明里的字数限制决定答案最多写几个词，**超出限制直接判错**，即使里面包含正确答案。\n\n- **ONE WORD ONLY**：只能写 1 个词，数字也算 1 个词。\n- **ONE WORD AND/OR A NUMBER**：1 个词、1 个数字，或 1 个词加 1 个数字（如 15 March）。\n- **NO MORE THAN TWO WORDS AND/OR A NUMBER**：最多 2 个词，另外还可以带 1 个数字。\n\n连字符词算 1 个词（part-time、twenty-eight）。表格里已经印出的词不必再抄一遍，比如空格前已有 £，答案只写数字即可。",
+        "table": {
+          "head": ["说明", "可以", "超字数（判错）"],
+          "rows": [
+            ["ONE WORD ONLY", "garden", "the garden"],
+            ["ONE WORD AND/OR A NUMBER", "15 March", "the 15th of March"],
+            ["NO MORE THAN TWO WORDS", "car park", "the car park"],
+            ["NO MORE THAN TWO WORDS AND/OR A NUMBER", "2 large boxes", "two large boxes"]
+          ]
+        }
+      },
+      {
+        "heading": "听准字母拼读和数字",
+        "body": "Part 1 常让说话人拼人名、街道名和邮编。容易混的字母要提前熟悉：\n\n- **A /eɪ/、E /iː/、I /aɪ/** 三个元音字母最容易听混。\n- **G /dʒiː/ 和 J /dʒeɪ/** 开头的音相同，很多人会写反。\n- 英式英语里 Z 读作 **zed**。\n- **double L** 表示 LL，**double five** 表示 55；电话号码里的 **oh** 是 0。\n\n数字要特别留意 -teen 和 -ty：fourTEEN 重音在后，尾音 /n/ 清楚；FORty 重音在前。听到数字后在心里重复一遍再写。",
+        "examples": [
+          {
+            "en": "Script: 'My surname's Gaskell. That's G-A-S-K-E-double L.'\nQuestion: Surname: ___",
+            "cn": "答案 Gaskell。G 读 /dʒiː/，不要写成 J；double L 要写两个 L。首字母大写或全部大写都可以，但拼写必须完全正确。"
+          },
+          {
+            "en": "Script: 'You can reach me on oh seven seven one three, double eight, five two oh nine.'\nQuestion: Mobile number: ___",
+            "cn": "答案 07713 885209。oh 写成 0，double eight 写成 88。电话号码用阿拉伯数字写，不要写成英文单词。"
+          }
+        ]
+      },
+      {
+        "heading": "识别改口和干扰",
+        "body": "Part 1 的典型陷阱是**说话人先说一个信息，随后改掉**。听到下面这些信号，要等后面的新信息：\n\n- actually / sorry / no, wait / I mean / on second thoughts\n- it used to be..., but now...\n- that was last year's price; this year it's...\n\n另一种干扰是两个人各提一个数字或日期，最后才定下来。答案永远是**最终确认**的那个。",
+        "examples": [
+          {
+            "en": "Woman: 'Can I book the hall for Friday the 12th?'\nMan: 'I'm afraid that's taken. The 19th is free, though.'\nWoman: 'The 19th... Actually, no, that's no good either. What about Saturday the 20th?'\nMan: 'Yes, that's fine.'\nQuestion: Date of booking: Saturday ___ May",
+            "cn": "答案 20（或 20th）。12 号已被占用，19 号被女士自己否定，最终确认的是 20 号。听到 Actually, no 就要知道前面的信息作废了。",
+            "note": "答案是最终确认的信息"
+          }
+        ]
+      },
+      {
+        "heading": "填完立刻核对四件事",
+        "body": "每写完一空，花两秒检查：\n\n1. **字数**：有没有超过限制？\n2. **拼写**：有没有漏字母，双写字母对不对？\n3. **单复数**：录音说的是 boxes 还是 box？\n4. **语法**：放回句子读一遍是否通顺。\n\n笔记填空（note completion）的空格多在短句里，答案常是名词，但也可能是形容词或动词，用预测词性的方法先判断。",
+        "examples": [
+          {
+            "en": "Instruction: Write NO MORE THAN TWO WORDS for each answer.\nNotes: Meet outside the ___ at 9 am.\nScript: 'On the day, we'll meet outside the main entrance at nine, not by the side door like last time.'",
+            "cn": "答案 main entrance（2 个词）。side door 是上次的集合点，是干扰。写成 the main entrance 会变成 3 个词，超字数判错；空格前已经有 the。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "限制是 ONE WORD AND/OR A NUMBER，却写 the 15th of March。",
+        "right": "15 March",
+        "why": "超出字数限制直接判错，即使包含正确信息。"
+      },
+      {
+        "wrong": "Gaskel",
+        "right": "Gaskell",
+        "why": "听到 double L 要写两个 L；拼错一个字母整题不得分。"
+      },
+      {
+        "wrong": "听到第一个日期就写下，不再听后面。",
+        "right": "听到 actually、sorry、no, wait 等信号时，等最终确认的信息。",
+        "why": "改口是 Part 1 最常见的干扰设计。"
+      },
+      {
+        "wrong": "录音说 forty，写成 14。",
+        "right": "40",
+        "why": "-ty 重音在前（FORty），-teen 重音在后（fourTEEN）且尾音 /n/ 清楚；拿不准时结合语境判断。"
+      },
+      {
+        "wrong": "听到 J-O-R-D-A-N，写成 Gordan。",
+        "right": "Jordan",
+        "why": "字母 J 读 /dʒeɪ/，G 读 /dʒiː/，英式拼读时最容易混。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-listening-form-completion-q1",
+        "type": "fill",
+        "q": "Script: 'The class costs forty pounds a term. Oh, sorry, I tell a lie, it went up in September. It's forty-five now.'\nForm: Fee per term: £___ (ONE WORD AND/OR A NUMBER)",
+        "answer": ["45", "forty-five", "£45"],
+        "explain": "I tell a lie 是口语里的改口信号，forty 是旧价格，现在是 45。空格前已有 £，写 45 即可。"
+      },
+      {
+        "id": "st-listening-form-completion-q2",
+        "type": "fill",
+        "q": "Script: 'I live at 23 Brayford Road. That's B-R-A-Y-F-O-R-D.'\nForm: Address: 23 ___ Road (ONE WORD ONLY)",
+        "answer": ["Brayford"],
+        "explain": "按拼读逐个写字母：B-R-A-Y-F-O-R-D。Road 和门牌号 23 已经印在表格上，不用重复。"
+      },
+      {
+        "id": "st-listening-form-completion-q3",
+        "type": "mcq",
+        "q": "Instruction: NO MORE THAN TWO WORDS AND/OR A NUMBER. Which answer is acceptable?",
+        "options": ["3 small rooms", "three small rooms", "the three small rooms", "three rooms on the left"],
+        "answer": "3 small rooms",
+        "explain": "3 small rooms 是 2 个词加 1 个数字，符合限制。three 拼成单词就算 1 个词，three small rooms 变成 3 个词，超字数判错。所以数字尽量写成阿拉伯数字。"
+      },
+      {
+        "id": "st-listening-form-completion-q4",
+        "type": "mcq",
+        "q": "In British English, how is the letter Z usually said when someone spells a name?",
+        "options": ["zed", "zee", "zet", "zad"],
+        "answer": "zed",
+        "explain": "英式英语读 zed，美式英语读 zee。雅思录音以英音为主，要熟悉 zed 的读法。"
+      },
+      {
+        "id": "st-listening-form-completion-q5",
+        "type": "fill",
+        "q": "Man: 'Shall we say the 3rd of June for the trip?'\nWoman: 'I'm away that week. How about the 10th?'\nMan: 'The 10th... Fine, let's go for that.'\nForm: Date of trip: ___ June (ONE WORD AND/OR A NUMBER)",
+        "answer": ["10", "10th", "tenth"],
+        "explain": "3 号被女士否定，最后双方确认的是 10 号。June 已经印在表格上，只写日期数字即可。"
+      },
+      {
+        "id": "st-listening-form-completion-q6",
+        "type": "fill",
+        "q": "Script: 'For the application, you'll need to bring two photos and a copy of your passport.'\nNotes: Bring 2 ___ and a passport copy (ONE WORD ONLY)",
+        "answer": ["photos"],
+        "explain": "空格前是 2，必须写复数 photos，写成 photo 判错。"
+      }
+    ],
+    "related": { "tabs": ["ielts:listening"] }
+  },
+  {
+    "id": "st-listening-mcq",
+    "domain": "strategy",
+    "track": "listening",
+    "title": "听力单选题",
+    "titleEn": "Multiple choice in listening",
+    "level": "B1",
+    "skills": ["listening"],
+    "order": 30,
+    "minutes": 25,
+    "summary": "学会在听之前比较三个选项的差别，识破「先提到后否定」「部分正确」「原词复现」「时间错位」等陷阱，选出说话人真正确认的答案。",
+    "sections": [
+      {
+        "heading": "听前：找出选项之间的差别",
+        "body": "单选题的读题时间要做两件事：\n\n1. 划出**题干关键词**，弄清要听的是原因、时间、某人的观点还是建议。\n2. 比较 A、B、C **哪里不一样**，只划不同的部分。三个选项常常前半句相同，真正要听辨的只有几个词。\n\n如果题干问的是某个人的看法（What does Tom think...?），要分清两个说话人，另一个人的看法不能算。",
+        "examples": [
+          {
+            "en": "Question: Why did the club move to a new building?\nA because the rent was too high\nB because they needed more space\nC because the old building was being repaired",
+            "cn": "三个选项问的都是原因，要听辨的是 rent、space、repaired 三个不同点。听前可以想好改述：rent too high → too expensive, couldn't afford；more space → too small, room for more people；repaired → work on the roof, closed for repairs。"
+          }
+        ]
+      },
+      {
+        "heading": "陷阱一：先提到，后否定",
+        "body": "录音往往会把三个选项都提一遍，其中两个被否定或推翻。常见信号：\n\n- I thought about..., but...\n- That would have been nice, except...\n- People often assume..., but in fact...\n- We were going to..., then...\n\n听到某个选项被提到时不要马上选，等这句话说完，看它被肯定还是被否定。",
+        "examples": [
+          {
+            "en": "Question: Why did the club move to a new building? (A rent too high / B more space needed / C old building being repaired)\nScript: 'Everyone assumes we left because of the rent, and yes, it did go up, but we could have managed that. The real problem was that we had sixty members and a room for thirty. The old place did need a new roof, but the landlord was going to sort that out.'",
+            "cn": "答案 B。rent 被提到了，但 we could have managed that 说明它不是搬走的原因；屋顶由房东处理，也不是原因；sixty members and a room for thirty 是 needed more space 的改述。"
+          }
+        ]
+      },
+      {
+        "heading": "陷阱二：部分正确、原词复现和时间错位",
+        "body": "**部分正确**：选项前半句对，后半句多出录音没说的信息，或者把 some 说成 all、把 sometimes 说成 always。只要有一处不符，整个选项就不对。\n\n**原词复现**：录音里一字不差出现的词，常常在干扰项里；正确选项通常是改述过的。听到原词时要警惕，看那句话是否真的回答了题干。\n\n**时间错位**：used to、in the past、next year 等词把信息放到了不同时间。题干问现在，就不能选过去或将来的情况。",
+        "examples": [
+          {
+            "en": "Script: 'At the moment the cafe only opens at weekends, though we used to open every day, and we're hoping to add Friday evenings next spring.'\nQuestion: When is the cafe open now?\nA every day\nB on Saturdays and Sundays\nC at weekends and on Friday evenings",
+            "cn": "答案 B，at weekends 改述成 on Saturdays and Sundays。A 是过去的情况（used to），C 是明年的计划，都是时间错位；C 还是部分正确：前半句对，后半句多出了还没实现的 Friday evenings。"
+          }
+        ]
+      },
+      {
+        "heading": "听中：一题跟一题，及时放手",
+        "body": "单选题同样按录音顺序出题。做题时：\n\n1. 视线放在当前题，同时留意下一题的题干关键词。\n2. 听到排除信息就在选项上打叉，听到肯定信息就打勾，不必等整段结束。\n3. 一听到下一题的关键词，当前题还没定下来就先选最可能的选项，马上跟下一题。\n\n本系统听力的 Part 2 和 Part 3 都有 mcq 题组。复盘时对照脚本，把每个干扰项被否定的那句话找出来，比只看答案收获大得多。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "听到选项里的原词就选。",
+        "right": "等整句说完，判断这个信息被肯定还是被否定。",
+        "why": "原词复现是最常见的干扰设计，正确答案多为改述。"
+      },
+      {
+        "wrong": "选项前半句对就选。",
+        "right": "逐个成分核对，有一处不符（如 all、always、多出的信息）就排除。",
+        "why": "部分正确的选项看起来最像答案，但只要多出或说错一点就是错的。"
+      },
+      {
+        "wrong": "题干问 Tom 的看法，却选了 Anna 说的内容。",
+        "right": "读题时圈出题干里的人物，听时分清是谁在说。",
+        "why": "Part 3 多人讨论时常让两人意见不同，一个人的观点就是另一个人那题的干扰项。"
+      },
+      {
+        "wrong": "忽略 used to、next year 等时间词。",
+        "right": "确认题干问的是现在、过去还是将来的计划。",
+        "why": "时间错位会让过去或将来的信息变成干扰项。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-listening-mcq-q1",
+        "type": "mcq",
+        "q": "Script: 'I was going to take the bus to the conference, but the timetable didn't suit me, so in the end my sister gave me a lift.'\nHow did the speaker travel to the conference?",
+        "options": ["by bus", "by car", "by train"],
+        "answer": "by car",
+        "explain": "gave me a lift 指开车载我一程，所以是 by car。bus 是先提到后否定（was going to..., but...）。"
+      },
+      {
+        "id": "st-listening-mcq-q2",
+        "type": "mcq",
+        "q": "Script: 'The workshop is aimed at people who already have some experience of painting, although complete beginners are welcome to come and watch.'\nWho is the workshop mainly for?",
+        "options": ["people with no painting experience", "people who have painted before", "professional artists"],
+        "answer": "people who have painted before",
+        "explain": "already have some experience 改述成 have painted before。初学者只能旁观，不是主要对象；professional 是过度推断。"
+      },
+      {
+        "id": "st-listening-mcq-q3",
+        "type": "mcq",
+        "q": "Woman: 'I think the survey should be online.'\nMan: 'Maybe, but I'd rather we handed out paper copies in the library. Older students are more likely to fill them in.'\nWhat does the man prefer?",
+        "options": ["an online survey", "a paper survey", "interviews in the library"],
+        "answer": "a paper survey",
+        "explain": "题干问男士，online 是女士的看法。C 里的 library 是原词复现，但男士说的是在图书馆发纸质问卷，不是访谈。"
+      },
+      {
+        "id": "st-listening-mcq-q4",
+        "type": "mcq",
+        "q": "Script: 'Most of the volunteers this year are students, and a few are retired teachers.'\nWhich statement is correct?",
+        "options": [
+          "All of the volunteers are students.",
+          "The majority of the volunteers are students.",
+          "Retired teachers make up most of the volunteers."
+        ],
+        "answer": "The majority of the volunteers are students.",
+        "explain": "most 改述成 the majority。A 把 most 换成了 all，过于绝对；C 把 a few 说成 most，与原文相反。"
+      },
+      {
+        "id": "st-listening-mcq-q5",
+        "type": "mcq",
+        "q": "Script: 'The gallery used to charge for entry, but since the council took it over last year, it's been free, apart from special exhibitions.'\nWhat is true about entry to the gallery now?",
+        "options": ["Everyone has to pay.", "It is free for all exhibitions.", "It is free except for special exhibitions."],
+        "answer": "It is free except for special exhibitions.",
+        "explain": "used to charge 是过去，A 是时间错位；B 漏掉了 apart from special exhibitions，属于部分正确。"
+      },
+      {
+        "id": "st-listening-mcq-q6",
+        "type": "mcq",
+        "q": "Which phrase usually signals that a speaker is about to reject an idea they have just mentioned?",
+        "options": ["..., but in the end...", "..., and what's more...", "..., for example..."],
+        "answer": "..., but in the end...",
+        "explain": "but in the end 表示转折和最终决定，前面提到的选项往往被否定。and what's more 表示递进，for example 表示举例。"
+      }
+    ],
+    "related": { "tabs": ["ielts:listening"] }
+  },
+  {
+    "id": "st-listening-matching-maps",
+    "domain": "strategy",
+    "track": "listening",
+    "title": "配对题与地图、平面图题",
+    "titleEn": "Matching and map or plan labelling",
+    "level": "B1",
+    "skills": ["listening"],
+    "order": 40,
+    "minutes": 30,
+    "summary": "学会处理听力配对题「题目按顺序、选项不按顺序」的特点，并用方位词和路线跟踪完成地图、平面图题。",
+    "sections": [
+      {
+        "heading": "配对题：题号按顺序，选项打乱",
+        "body": "配对题（matching）给一组题目（几个人、几个地点）和一个选项框（A–G），每题选一个字母。要点：\n\n- **题目按录音顺序出现**，选项框里的顺序是打乱的。\n- 选项通常比题目多，有的选项用不上。\n- 读题时先熟悉选项框，给每个选项想一个可能的改述；听的时候盯住题目，选项框用余光扫。\n- 一个题目下录音常提到两三个选项，只有一个是最终答案，判断方法和单选题一样：先提后否、部分正确。",
+        "examples": [
+          {
+            "en": "Options: A sells drinks  B shows a short film  C has a play area  D needs booking in advance\nQuestion: The East Barn ___\nScript: 'In the East Barn you'll find our little cinema, where a ten-minute film on the history of the farm runs every half hour. There's no need to book. If you're thirsty afterwards, the kiosk by the pond is the place to go.'",
+            "cn": "答案 B。little cinema 和 ten-minute film 对应 shows a short film；no need to book 否定了 D；饮料在池塘边的小亭，不在 East Barn，是 A 的干扰。"
+          }
+        ]
+      },
+      {
+        "heading": "地图题：先定起点和方向",
+        "body": "地图、平面图题（map / plan labelling）在真实考试的 Part 2 较常见。本系统听力暂未收录这种题型，可以先在这里练方法。读题时间做三件事：\n\n1. **找起点**：通常是 You are here、入口（entrance）或接待处。\n2. **定方向**：图上有没有指北针？说话人用 north / south 还是 left / right？用 left / right 时，以说话人所站的位置和面朝的方向为准。\n3. **看已标注的地点**：图上已经写出名字的地方是路标，要填的空位常在它们旁边。",
+        "table": {
+          "head": ["方位词", "意思"],
+          "rows": [
+            ["opposite / across from", "在对面"],
+            ["next to / beside / adjacent to", "紧挨着"],
+            ["between A and B", "在 A 和 B 之间"],
+            ["at the far end of", "在……的尽头"],
+            ["in the corner", "在角落"],
+            ["just past / beyond", "刚走过……之后"],
+            ["go straight ahead / carry on", "一直往前走"],
+            ["turn left / bear right", "左转 / 稍向右拐"],
+            ["halfway along", "在……的中段"],
+            ["to the north of", "在……的北边"]
+          ]
+        }
+      },
+      {
+        "heading": "跟住路线，一步一步移动",
+        "body": "说话人通常会带听众「走一遍」。听的时候用笔尖沿路线移动，每听到一个动作就移动一次：\n\n- 每次移动后停在新位置，下一句的方位以这个新位置为参照。\n- 注意 **before / after / just past**，它们决定是路口之前还是之后。\n- 听到 opposite 时，先确认是哪条路或哪栋建筑的对面。\n- 说话人也会改口：It used to be next to the shop, but now it's...，答案是现在的位置。",
+        "examples": [
+          {
+            "en": "Map: The entrance is at the bottom. A path goes straight north. On the left of the path are space A, then the cafe (already labelled), then space B. On the right are space C, then space D.\nScript: 'From the entrance, walk straight up the main path. The first building on your right is the gift shop. Keep going, and just past the cafe, on the same side, you'll find the toilets.'\nQuestions: Where is the gift shop? Where are the toilets?",
+            "cn": "礼品店是 C：从入口往北走，右手边第一栋是 C。厕所是 B：cafe 在左边，just past the cafe 是走过 cafe 之后，on the same side 仍在左边，所以是 cafe 后面的 B。A 在 cafe 之前，是干扰位置。"
+          }
+        ]
+      },
+      {
+        "heading": "两类题共用的检查",
+        "body": "答案是字母时，写清楚的大写字母，不要写选项内容。每听完一题立刻在图上或选项框里标记；说明没有允许重复使用时，用过的选项可以轻轻划掉。\n\n跟丢路线时不要停下：下一题的地点往往就在刚才那一处附近，找一个已标注的地点重新定位，继续往下跟。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "按自己看纸面的左右判断方向。",
+        "right": "以说话人所在的位置和面朝的方向为准，必要时把图转过来想。",
+        "why": "说话人从入口往里走时说的 left / right，和你看纸面的左右可能不一样。"
+      },
+      {
+        "wrong": "听到选项框里的原词就选那个字母。",
+        "right": "判断这个选项是否是该题目的最终信息。",
+        "why": "配对题常在一个题目下提到多个选项，只有一个被确认。"
+      },
+      {
+        "wrong": "漏了一个移动步骤，后面全部跟错。",
+        "right": "每听到一个动作就移动笔尖；跟丢时用下一个已标注的地点重新定位。",
+        "why": "路线题环环相扣，一步错会连带错后面几题。"
+      },
+      {
+        "wrong": "把 before 和 just past 当成一回事。",
+        "right": "before 是还没走到，just past / after 是已经走过。",
+        "why": "这两个词决定了是哪一个空位，相邻位置的干扰常靠它们设计。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-listening-matching-maps-q1",
+        "type": "mcq",
+        "q": "Plan: A corridor runs from reception (south) to the hall (north). Rooms 1 and 2 are on the west side, Rooms 3 and 4 on the east side. Rooms 1 and 3 are nearer reception.\nScript: 'The library is the room on the east side nearest the hall.'\nWhich room is the library?",
+        "options": ["Room 1", "Room 2", "Room 3", "Room 4"],
+        "answer": "Room 4",
+        "explain": "east side 只剩 Room 3 和 Room 4；nearest the hall 指靠北边的那间，Room 3 靠近接待处，所以是 Room 4。"
+      },
+      {
+        "id": "st-listening-matching-maps-q2",
+        "type": "mcq",
+        "q": "Script: 'Walk in through the main gate and you'll see the fountain straight ahead. The ticket office is directly across from the fountain.'\nWhich phrase in the script means 'opposite'?",
+        "options": ["straight ahead", "directly across from", "through the main gate"],
+        "answer": "directly across from",
+        "explain": "across from 等于 opposite，在对面。straight ahead 是正前方，through the main gate 是穿过大门。"
+      },
+      {
+        "id": "st-listening-matching-maps-q3",
+        "type": "mcq",
+        "q": "Options: A has free wifi  B is closed on Mondays  C offers guided walks  D sells local food\nScript: 'The visitor centre runs guided walks on Saturday mornings. Some people expect it to sell local food, but for that you need the market hall.'\nWhat does the visitor centre offer?",
+        "options": ["A", "B", "C", "D"],
+        "answer": "C",
+        "explain": "runs guided walks 对应 C。local food 被提到，但属于 market hall，是先提后否的干扰。"
+      },
+      {
+        "id": "st-listening-matching-maps-q4",
+        "type": "mcq",
+        "q": "Script: 'Go along the main path and take the second turning on the left. The pond is at the far end of that path.'\nWhere is the pond?",
+        "options": [
+          "at the end of the first path on the left",
+          "at the end of the second path on the left",
+          "halfway along the second path on the left"
+        ],
+        "answer": "at the end of the second path on the left",
+        "explain": "second turning on the left 是左边第二个路口；at the far end 是那条路的尽头，不是 halfway along（中段）。"
+      },
+      {
+        "id": "st-listening-matching-maps-q5",
+        "type": "mcq",
+        "q": "Script: 'The first-aid room used to be next to the stage, but this year it has moved to the tent beside the main gate.'\nWhere is the first-aid room now?",
+        "options": ["next to the stage", "beside the main gate", "between the stage and the main gate"],
+        "answer": "beside the main gate",
+        "explain": "used to be next to the stage 是过去的位置，现在搬到了大门旁的帐篷。题目问 now，答案是现在的位置。"
+      },
+      {
+        "id": "st-listening-matching-maps-q6",
+        "type": "mcq",
+        "q": "What does 'Carry on past the car park' mean?",
+        "options": ["Stop at the car park.", "Keep walking and go beyond the car park.", "Turn into the car park."],
+        "answer": "Keep walking and go beyond the car park.",
+        "explain": "carry on 是继续往前走，past 是经过、越过，所以是走过停车场继续前进。"
+      }
+    ],
+    "related": { "tabs": ["ielts:listening"] }
+  },
+  {
+    "id": "st-listening-spelling-format",
+    "domain": "strategy",
+    "track": "listening",
+    "title": "听力拼写与格式规则",
+    "titleEn": "Spelling and answer format in listening",
+    "level": "A2",
+    "skills": ["listening"],
+    "order": 50,
+    "minutes": 20,
+    "summary": "弄清复数、大小写、英式拼写以及数字、日期、时间、货币的写法，并掌握听力每部分的时间分配，避免「听对了却写错」。",
+    "sections": [
+      {
+        "heading": "拼错一个字母就不得分",
+        "body": "雅思听力**拼写错误一律判错**，本系统判分也不做模糊匹配。最常丢分的地方：\n\n- **单复数**：录音说 tickets 就写 tickets，空格前有 a 就是单数。单复数写错按错算。\n- **不可数名词**：equipment、furniture、information、advice、luggage 没有复数形式。\n- **双写字母**：accommodation（两个 c、两个 m）、address、necessary。\n- **常考易错词**：Wednesday、February、library、environment、government、temperature。\n\n平时做听写时把这些词写对，比考场上临时回想有效得多。",
+        "examples": [
+          {
+            "en": "Script: 'You'll need to bring two references and some proof of address.'\nQuestion: Bring 2 ___ (ONE WORD ONLY)",
+            "cn": "答案 references。前面有 2，必须写复数；写成 reference 判错。另外注意结尾是 -ence，不是 -ance。"
+          }
+        ],
+        "table": {
+          "head": ["常见错误", "正确拼写"],
+          "rows": [
+            ["Wensday", "Wednesday"],
+            ["Febuary", "February"],
+            ["acommodation", "accommodation"],
+            ["enviroment", "environment"],
+            ["goverment", "government"],
+            ["temprature", "temperature"],
+            ["libary", "library"],
+            ["fourty", "forty"]
+          ]
+        }
+      },
+      {
+        "heading": "大小写与英式拼写",
+        "body": "**大小写**：雅思允许答案全部大写或全部小写，不会因为大小写扣分；本系统判分也不区分大小写。人名、地名、月份、星期按习惯首字母大写更规范。纸笔考试时很多人习惯全部大写，字迹更清楚。\n\n**英式和美式拼写**：官方一般两种都接受，但同一份答卷最好保持一致。录音以英音为主，本系统只认答案表里列出的写法，标准答案以英式拼写为准，所以练习时请统一用英式拼写：\n\n- colour、centre、theatre、metre\n- programme（节目、计划）、travelled、cancelled\n- organise、realise（-ise 结尾）"
+      },
+      {
+        "heading": "数字、日期、时间和货币",
+        "body": "数字建议一律写成**阿拉伯数字**：写得快、不会拼错，而且在 AND/OR A NUMBER 的限制里不占词数。注意：\n\n- 在 ONE WORD ONLY 这类不带 NUMBER 的限制里，数字也算 1 个词。\n- **货币**：空格前已印好 £，只写数字；没印就写 £12 或 12 pounds（后者多占 1 个词）。\n- **时间**：7.30 或 7:30 都可以。half past seven 是 7.30，a quarter to eight 是 7.45。\n- **日期**：15 March、March 15、15th March 都可以，月份要拼对。\n- **电话号码**：oh 写 0，double 表示连续两个相同数字。",
+        "examples": [
+          {
+            "en": "Script: 'The coach leaves at a quarter to eight, and a return ticket is twelve pounds fifty.'\nQuestions: Departure time: ___  Fare: £___",
+            "cn": "答案 7.45（或 7:45）和 12.50。a quarter to eight 是差一刻八点；Fare 的空格前已经有 £，只写 12.50。"
+          }
+        ],
+        "table": {
+          "head": ["听到", "写法"],
+          "rows": [
+            ["two thousand five hundred", "2500 或 2,500"],
+            ["four pounds seventy-five", "4.75（空格前已有 £）"],
+            ["fifty pence", "50p"],
+            ["a quarter to eight", "7.45"],
+            ["the twenty-first of May", "21 May 或 21st May"],
+            ["oh one two three", "0123"]
+          ]
+        }
+      },
+      {
+        "heading": "每部分的时间分配",
+        "body": "听力约 30 分钟，4 个部分共 40 题，录音只播一遍：\n\n- **每部分开始前**：有一段读题时间，扫完本部分所有题，划路标词、预测答案。\n- **部分中间**：Part 1–3 中途一般会停一下，让你看后半部分的题；Part 4 通常一口气讲完，开始前要把 10 题都看完。\n- **每部分结束后**：约 30 秒检查时间。不要回头纠结已经过去的题，先看下一部分的题。\n- **全部结束后**：纸笔考试有 10 分钟把答案誊到答题卡；机考没有誊写时间，只有约 2 分钟检查。誊写或检查时逐项核对字数、拼写和单复数。\n\n本系统考试模式模拟这个节奏：每组题前 30 秒读题，音频只播一遍，最后 30 秒检查后自动交卷。",
+        "table": {
+          "head": ["阶段", "做什么"],
+          "rows": [
+            ["每部分开始前的读题时间", "划路标词，预测词性和单复数"],
+            ["每部分结束后约 30 秒", "先看下一部分的题"],
+            ["Part 4 开始前", "一次看完 10 题，中途一般不停"],
+            ["最后的誊写或检查时间", "核对字数、拼写、单复数"]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "equipments",
+        "right": "equipment",
+        "why": "equipment、furniture、information、advice 是不可数名词，没有复数形式。"
+      },
+      {
+        "wrong": "Wensday",
+        "right": "Wednesday",
+        "why": "第一个 d 不发音但要写；拼错一个字母整题不得分。"
+      },
+      {
+        "wrong": "把 a quarter to eight 写成 8.15。",
+        "right": "7.45",
+        "why": "quarter to 是「差一刻」，quarter past 才是「过一刻」。"
+      },
+      {
+        "wrong": "每部分结束后的 30 秒用来回想上一部分的空题。",
+        "right": "先读下一部分的题，空题留到最后的检查时间。",
+        "why": "下一部分的读题和预测比纠结一个已经过去的空更值。"
+      },
+      {
+        "wrong": "fourty",
+        "right": "forty",
+        "why": "four 和 fourteen 有 u，forty 没有 u。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-listening-spelling-format-q1",
+        "type": "correct",
+        "q": "Correct the spelling on the answer sheet: acommodation",
+        "answer": ["accommodation"],
+        "explain": "accommodation 有两个 c、两个 m。这是听力和写作都高频的易错词。"
+      },
+      {
+        "id": "st-listening-spelling-format-q2",
+        "type": "fill",
+        "q": "Script: 'The tour starts at half past two, outside the town hall.'\nForm: Start time: ___ (ONE WORD AND/OR A NUMBER)",
+        "answer": ["2.30", "2:30", "2.30 pm", "2:30 pm", "2.30pm", "2:30pm", "14.30", "14:30"],
+        "explain": "half past two 是两点半，写成 2.30 或 2:30。不要写成 half past two，那是 3 个词，超字数。"
+      },
+      {
+        "id": "st-listening-spelling-format-q3",
+        "type": "mcq",
+        "q": "Instruction: ONE WORD ONLY. You hear 'It costs twenty pounds.' The form shows 'Cost: £___'. Which answer is correct?",
+        "options": ["20", "20 pounds", "£20 pounds", "twenty pounds"],
+        "answer": "20",
+        "explain": "空格前已有 £，只写 20。ONE WORD ONLY 不带 NUMBER，数字也算 1 个词，20 pounds、twenty pounds 都是 2 个词，超字数判错。"
+      },
+      {
+        "id": "st-listening-spelling-format-q4",
+        "type": "correct",
+        "q": "Correct the spelling on the answer sheet: Febuary",
+        "answer": ["February"],
+        "explain": "February 中间有一个 r（Feb-ru-ary），口语里常被吞掉，书写时不能漏。"
+      },
+      {
+        "id": "st-listening-spelling-format-q5",
+        "type": "mcq",
+        "q": "Which part of the Listening test usually runs without a pause in the middle, so you should read all ten questions before it starts?",
+        "options": ["Part 1", "Part 2", "Part 3", "Part 4"],
+        "answer": "Part 4",
+        "explain": "Part 4 是学术讲座，中途一般不停，开始前的读题时间要把 10 题都看完并预测。"
+      },
+      {
+        "id": "st-listening-spelling-format-q6",
+        "type": "fill",
+        "q": "Script: 'We'll need three more chairs for the meeting room.'\nNotes: Order 3 more ___ (ONE WORD ONLY)",
+        "answer": ["chairs"],
+        "explain": "空格前是 3 more，要复数 chairs，写成 chair 判错。"
+      }
+    ],
+    "related": { "tabs": ["ielts:listening"] }
+  },
+  {
+    "id": "st-reading-skim-scan-time",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "略读、扫读与 60 分钟时间分配",
+    "titleEn": "Skimming, scanning and timing in reading",
+    "level": "A2",
+    "skills": ["reading"],
+    "order": 10,
+    "minutes": 25,
+    "summary": "学会用略读抓文章结构、用扫读找定位词，并把 60 分钟合理分给三篇文章，知道每篇先做哪些题。",
+    "sections": [
+      {
+        "heading": "先认识阅读考试的节奏",
+        "body": "学术类阅读 60 分钟，3 篇文章，共 40 题，一般越往后越难。纸笔考试**没有额外的誊写时间**，答案要在 60 分钟内写到答题卡上。\n\n基本分配是**每篇 20 分钟**。第 1 篇通常较简单，争取 17–18 分钟完成，把省下的时间留给第 3 篇。本系统阅读的考试模式按单篇 20 分钟倒计时（到时只提醒，不强制交卷），正好用来练这个节奏。",
+        "table": {
+          "head": ["单篇用时", "做什么"],
+          "rows": [
+            ["0–1 分钟", "看完本篇所有题组的说明和题型"],
+            ["1–4 分钟", "略读全文，给每段写两三个词的段落大意"],
+            ["4–17 分钟", "按建议顺序做题，用扫读定位"],
+            ["17–20 分钟", "回补空题，写到答题卡并检查字数和拼写"]
+          ]
+        }
+      },
+      {
+        "heading": "略读（skimming）：只看骨架",
+        "body": "略读的目标是 3 分钟内知道**文章讲什么、每段讲什么**，不是读懂每个句子。做法：\n\n1. 读标题、副标题和图表说明。\n2. 每段读**首句**，必要时加末句；段中出现 however、but、yet 等转折词时，也读转折后的句子。\n3. 在段落旁写两三个词的大意，比如「B 早期失败」「C 成本问题」。\n\n生词先跳过。略读时停下来查词，是时间不够用的主要原因。",
+        "examples": [
+          {
+            "en": "Paragraph C: For many years, the bicycle was seen mainly as a toy for wealthy young men. Early models were heavy, expensive and dangerous to ride. However, the arrival of the safety bicycle in the 1880s, with two wheels of equal size and a chain drive, changed public attitudes almost overnight.",
+            "cn": "首句说自行车曾被看作富家青年的玩具，However 之后才是重点：safety bicycle 改变了公众看法。段落大意可写「C 新设计改变看法」。只读首句会误以为本段在讲「玩具」。",
+            "note": "转折词后面往往是段落重点"
+          }
+        ]
+      },
+      {
+        "heading": "扫读（scanning）：带着定位词找位置",
+        "body": "扫读用来**定位**：拿着题目里的定位词，在文章里快速找它或它的改述出现的位置，找到后再精读前后两三句。\n\n好用的定位词（不容易被改述）：\n\n- 数字、年份、百分比\n- 人名、地名、机构名\n- 大写的专有名词和专业术语\n\n不适合做定位词的：important、problem、increase 这类普通词，它们到处出现，也最容易被换掉。扫读时眼睛快速往下扫，看到数字或大写字母就停下来核对。",
+        "examples": [
+          {
+            "en": "Question: In which year did the city open its first public library?\nText: ...The council debated the idea for almost a decade. When the doors of the first public library finally opened in 1867, more than two thousand people registered in the first month...",
+            "cn": "定位词选 first public library，答案类型是年份。扫到 1867 附近停下精读，答案 1867。a decade 和 two thousand 也是数字，但不是年份，要核对题目问的是什么。"
+          }
+        ]
+      },
+      {
+        "heading": "每篇先做哪些题",
+        "body": "雅思阅读的题型分两类：\n\n- **顺序题**：答案顺序和原文顺序基本一致，包括 TRUE / FALSE / NOT GIVEN、YES / NO / NOT GIVEN、句子填空、大多数摘要填空、单选题、简答题。\n- **乱序题**：答案分布在全文，包括信息配对（matching information）、段落标题配对（matching headings）、人名或观点配对。\n\n建议顺序：\n\n1. **标题配对**（如果有）先做：它要求逐段抓大意，做完相当于读懂了全文结构。\n2. **顺序题**顺着原文往下找，上一题的位置就是下一题的起点。\n3. **信息配对放最后**：这时你已经熟悉全文，定位更快。\n\n**取舍**：标题配对先做能建立全文地图，风险是难段落占用太多时间。某段标题两分钟内定不下来就先跳过，做完其他题再回来。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "拿到文章从第一个词开始逐句精读。",
+        "right": "先看题，再用 3 分钟略读结构，然后带着题目定位。",
+        "why": "逐句精读一篇要 15 分钟以上，留给做题的时间不够。"
+      },
+      {
+        "wrong": "用 important、problem 这类普通词扫读定位。",
+        "right": "优先用数字、专有名词和术语做定位词。",
+        "why": "普通词在文中到处出现，也最容易被改述，定位不准。"
+      },
+      {
+        "wrong": "卡在一道题上超过 2 分钟。",
+        "right": "做个记号先跳过，做完本篇其他题再回来。",
+        "why": "每题分值相同，难题耗掉的时间会让后面能做对的题来不及做。"
+      },
+      {
+        "wrong": "纸笔考试做完 3 篇才誊写答案。",
+        "right": "每篇做完就写到答题卡上。",
+        "why": "阅读没有额外的誊写时间，最后几分钟集中誊写最容易漏题、串行。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-skim-scan-time-q1",
+        "type": "mcq",
+        "q": "How much time does the IELTS Academic Reading test give you for all three passages?",
+        "options": ["40 minutes", "60 minutes", "60 minutes plus 10 minutes to transfer answers", "90 minutes"],
+        "answer": "60 minutes",
+        "explain": "阅读共 60 分钟，纸笔考试没有额外的誊写时间（10 分钟誊写只属于纸笔考试的听力），所以每篇做完就要写到答题卡上。"
+      },
+      {
+        "id": "st-reading-skim-scan-time-q2",
+        "type": "mcq",
+        "q": "Question: 'What did the research team discover about the river in 2015?' Which word is the best one to scan for?",
+        "options": ["discover", "team", "2015", "about"],
+        "answer": "2015",
+        "explain": "年份最醒目，也不会被改述。discover、team 是普通词，容易被换成 found、researchers。"
+      },
+      {
+        "id": "st-reading-skim-scan-time-q3",
+        "type": "mcq",
+        "q": "Which question type should you usually leave until last because its answers are not in passage order?",
+        "options": ["TRUE / FALSE / NOT GIVEN", "sentence completion", "matching information", "multiple choice"],
+        "answer": "matching information",
+        "explain": "信息配对的答案分布在全文、不按顺序，等做完其他题、熟悉全文后再做效率最高。其余三种基本按原文顺序出题。"
+      },
+      {
+        "id": "st-reading-skim-scan-time-q4",
+        "type": "mcq",
+        "q": "Paragraph: 'Solar panels were once too costly for most households. Prices have fallen sharply in the last decade, partly because of mass production. As a result, they are now a common sight on suburban roofs.'\nWhat is the best short summary of this paragraph?",
+        "options": ["the cost of mass production", "why solar panels became widespread", "how solar panels are made", "problems with suburban roofs"],
+        "answer": "why solar panels became widespread",
+        "explain": "全段的逻辑是：以前太贵 → 价格下降 → 结果变得常见，讲的是变普及的原因。mass production 和 roofs 只是段中的细节。"
+      },
+      {
+        "id": "st-reading-skim-scan-time-q5",
+        "type": "fill",
+        "q": "You have 60 minutes for three passages. You finish Passage 1 in 17 minutes and Passage 2 in 20 minutes. How many minutes are left for Passage 3? (Write a number.)",
+        "answer": ["23", "23 minutes", "twenty-three"],
+        "explain": "60 − 17 − 20 = 23。第 1 篇省下的时间可以留给通常最难的第 3 篇。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  },
+  {
+    "id": "st-reading-tfng",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "TRUE / FALSE / NOT GIVEN 与 YES / NO / NOT GIVEN",
+    "titleEn": "TRUE / FALSE / NOT GIVEN and YES / NO / NOT GIVEN",
+    "level": "B1",
+    "skills": ["reading"],
+    "order": 20,
+    "minutes": 30,
+    "summary": "分清 FALSE 和 NOT GIVEN，用四步流程判断陈述与原文的关系，并掌握 YNNG 与 TFNG 的区别。",
+    "sections": [
+      {
+        "heading": "三个答案的准确含义",
+        "body": "TRUE / FALSE / NOT GIVEN 判断的是**陈述和原文信息**的关系：\n\n- **TRUE**：原文明确表达了同样的意思（通常经过改述）。\n- **FALSE**：原文的信息和陈述**相矛盾**，两者不可能同时成立。\n- **NOT GIVEN**：原文**没有提供足够信息**判断陈述是对是错。\n\nYES / NO / NOT GIVEN 的判断方法相同，区别是它针对**作者的观点或主张**（views / claims of the writer），多见于议论性文章：YES 是作者同意，NO 是作者反对，NOT GIVEN 是无法知道作者怎么想。\n\n两套答案词**不能混用**：TFNG 题写 YES、YNNG 题写 TRUE 都判错。考场上写完整的词最保险；本系统也接受 T / F / NG 和 Y / N / NG 的缩写。",
+        "table": {
+          "head": ["", "TFNG", "YNNG"],
+          "rows": [
+            ["判断对象", "文中的信息（事实）", "作者的观点、主张"],
+            ["一致", "TRUE", "YES"],
+            ["矛盾", "FALSE", "NO"],
+            ["原文没说", "NOT GIVEN", "NOT GIVEN"]
+          ]
+        }
+      },
+      {
+        "heading": "四步判断流程",
+        "body": "1. **划陈述关键词**：找定位词（人名、数字、术语），再圈出**限定词**：all、some、most、only、always、never、the first、more than、must、may。\n2. **定位原文**：题目顺序和原文顺序一致，从上一题的位置往下找。\n3. **逐个成分比较**：主语、动作、对象、数量、时间、程度、因果。限定词往往是判断的关键。\n4. **下结论**：每个成分都对得上 → TRUE；有一处明确相反 → FALSE；陈述里有一个关键成分原文根本没谈 → NOT GIVEN。\n\n只根据原文判断，**不要用常识**。陈述即使符合你知道的事实，原文没说就是 NOT GIVEN。",
+        "examples": [
+          {
+            "en": "Text: The new bridge, which opened in 2019, has reduced the average journey time between the two towns from forty minutes to fifteen.\nStatement 1: The bridge has made travel between the towns quicker.\nStatement 2: The bridge was completed ahead of schedule.\nStatement 3: Before the bridge opened, the journey took less than half an hour.",
+            "cn": "1 TRUE：从 40 分钟降到 15 分钟就是 quicker。2 NOT GIVEN：原文只说 2019 年开通，没说是否提前完工。3 FALSE：原来要 40 分钟，和 less than half an hour 相矛盾。"
+          }
+        ]
+      },
+      {
+        "heading": "怎样识别 NOT GIVEN",
+        "body": "FALSE 和 NOT GIVEN 最难分。问自己：**原文能不能证明这句话是错的？**能证明 → FALSE；原文只是没说，可能对也可能错 → NOT GIVEN。\n\nNOT GIVEN 常见的「多出来的信息」：\n\n- **比较**：原文说 A 很受欢迎，陈述说 A 比 B 更受欢迎。\n- **原因或目的**：原文说某事发生了，陈述加上了原因。\n- **最高级或「第一」**：原文说是早期的尝试，陈述说是第一次。\n- **将来或计划**：原文说现在的情况，陈述说将来会怎样。\n- **具体数字或细节**：原文说 several，陈述说 five。\n\n另一个信号：陈述的话题在原文出现了，但**具体说法**没有出现。提到了话题不等于给出了信息。",
+        "examples": [
+          {
+            "en": "Text: Several early settlers kept bees, mainly for wax rather than honey.\nStatement A: Early settlers were more interested in wax than in honey.\nStatement B: Early settlers sold most of their wax to merchants.\nStatement C: None of the early settlers kept bees.",
+            "cn": "A TRUE：mainly for wax rather than honey 就是更看重蜂蜡。B NOT GIVEN：原文没说蜂蜡卖给了谁，sold 和 merchants 是多出来的信息。C FALSE：原文说 several settlers kept bees，与 none 相矛盾。"
+          }
+        ]
+      },
+      {
+        "heading": "YNNG：读出作者的态度",
+        "body": "YNNG 题要从作者的用词里读出态度：评价性的形容词（misguided、convincing、overstated）、情态动词（should、ought to）、让步结构（Although some argue..., the evidence suggests...）。\n\n要分清**作者的观点**和**作者转述的别人的观点**：文中写 Some critics claim that...，只是在介绍别人的看法；如果作者接着说 but this view ignores...，作者的态度其实是反对。",
+        "examples": [
+          {
+            "en": "Text: Some commentators claim that remote working always reduces productivity. This view, however, rests on very little evidence, and several careful studies point in the opposite direction.\nStatement: Remote working always makes employees less productive.",
+            "cn": "答案 NO。Some commentators claim 是别人的观点；作者用 rests on very little evidence 和 point in the opposite direction 表示反对。只看第一句会误选 YES。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "原文没说，凭常识判 TRUE。",
+        "right": "只依据原文，原文没有就判 NOT GIVEN。",
+        "why": "题目考的是阅读理解，不是百科知识。"
+      },
+      {
+        "wrong": "陈述里的词在原文出现了就判 TRUE。",
+        "right": "逐个比较主语、数量、时间、程度和因果关系。",
+        "why": "出题人常保留原词，只改一个限定词（如 some → all），让陈述变成 FALSE。"
+      },
+      {
+        "wrong": "原文和陈述不完全一样就判 FALSE。",
+        "right": "先问原文能否证明陈述是错的，不能证明就是 NOT GIVEN。",
+        "why": "FALSE 要求明确矛盾，只是缺少信息属于 NOT GIVEN。"
+      },
+      {
+        "wrong": "TFNG 题写 YES 或 NO。",
+        "right": "TFNG 写 TRUE / FALSE / NOT GIVEN，YNNG 写 YES / NO / NOT GIVEN。",
+        "why": "答案词和题型不符直接判错，本系统判分规则相同。"
+      },
+      {
+        "wrong": "把文中转述的别人的观点当成作者的观点。",
+        "right": "留意 some argue、critics claim 后面作者自己的回应。",
+        "why": "YNNG 只问作者本人的态度。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-tfng-q1",
+        "type": "mcq",
+        "q": "Text: The museum's collection began in 1902 with a gift of 300 seashells from a local doctor. Today it holds over 40,000 objects, although only about a tenth of these are on display at any one time.\nStatement: The first items in the collection were donated.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "TRUE",
+        "explain": "began... with a gift of 300 seashells 说明最早的藏品是捐赠的，gift 改述成 donated。"
+      },
+      {
+        "id": "st-reading-tfng-q2",
+        "type": "mcq",
+        "q": "Text: The museum's collection began in 1902 with a gift of 300 seashells from a local doctor. Today it holds over 40,000 objects, although only about a tenth of these are on display at any one time.\nStatement: Most of the museum's objects can be seen by visitors at any one time.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "FALSE",
+        "explain": "only about a tenth are on display，大约只有十分之一在展出，与 most 明确矛盾。"
+      },
+      {
+        "id": "st-reading-tfng-q3",
+        "type": "mcq",
+        "q": "Text: The museum's collection began in 1902 with a gift of 300 seashells from a local doctor. Today it holds over 40,000 objects, although only about a tenth of these are on display at any one time.\nStatement: The doctor who gave the seashells also collected fossils.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "NOT GIVEN",
+        "explain": "原文只提到医生捐了贝壳，没有说他是否收集化石。fossils 是原文没有的信息，无法证明对错。"
+      },
+      {
+        "id": "st-reading-tfng-q4",
+        "type": "mcq",
+        "q": "Text: It is often said that children learn languages more easily than adults. While young learners do tend to achieve better pronunciation, the claim that they learn faster overall is, in my view, mistaken: in the early stages, adults usually make quicker progress.\nStatement: Children learn languages faster than adults in every respect.",
+        "options": ["YES", "NO", "NOT GIVEN"],
+        "answer": "NO",
+        "explain": "It is often said 是别人的说法。作者承认儿童发音更好，但用 in my view, mistaken 明确反对「整体上学得更快」，还指出成人起步阶段进步更快。陈述说 in every respect（各方面都更快），与作者观点矛盾，答 NO。"
+      },
+      {
+        "id": "st-reading-tfng-q5",
+        "type": "mcq",
+        "q": "Text: It is often said that children learn languages more easily than adults. While young learners do tend to achieve better pronunciation, the claim that they learn faster overall is, in my view, mistaken: in the early stages, adults usually make quicker progress.\nStatement: Young learners usually develop better pronunciation than adult learners.",
+        "options": ["YES", "NO", "NOT GIVEN"],
+        "answer": "YES",
+        "explain": "作者用 do tend to 承认儿童发音通常更好，tend to 对应 usually，作者同意这一点。注意同一段里作者反对的是「整体学得更快」，不是发音这一点。"
+      },
+      {
+        "id": "st-reading-tfng-q6",
+        "type": "mcq",
+        "q": "Text: The bakery sells around 500 loaves on a typical Saturday.\nStatement: The bakery sells more bread on Saturdays than on any other day.",
+        "options": ["TRUE", "FALSE", "NOT GIVEN"],
+        "answer": "NOT GIVEN",
+        "explain": "原文只给了周六的销量，没有和其他日子比较。比较类信息是 NOT GIVEN 最常见的来源。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  },
+  {
+    "id": "st-reading-matching-headings",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "段落标题配对",
+    "titleEn": "Matching headings",
+    "level": "B2",
+    "skills": ["reading"],
+    "order": 30,
+    "minutes": 30,
+    "summary": "学会抓段落主旨句，以「能否概括整段」为标准挑标题，排除只对应细节或只有原词重合的干扰标题。",
+    "sections": [
+      {
+        "heading": "标题概括的是整段",
+        "body": "matching headings 要求给段落选一个标题。标题概括的是**整段的中心意思**，不是段中某一句或某个例子。标题通常比段落多 2–3 个，有的用不上；说明里作为例子已经用掉的标题，先划掉。\n\n判断标准只有一条：**这个标题能不能覆盖本段大部分句子？**只能覆盖一两句的，多半是细节干扰。"
+      },
+      {
+        "heading": "找主旨句：位置和信号",
+        "body": "主旨句常在**首句**，但不总是。几种常见结构：\n\n- **总分**：首句是主旨，后面是例子和数据。\n- **转折**：首句是背景或别人的看法，**However、But、Yet** 之后才是主旨。\n- **分总**：先举例，末句用 Thus、As a result、In short 总结。\n- **问答**：首句提问，后面的回答才是主旨。\n\n做法：先读首句和末句，再快速扫一遍中间有没有转折词。用自己的话给段落写一个短语大意，再去标题列表里找意思最接近的。",
+        "examples": [
+          {
+            "en": "Paragraph B: Many people picture early farmers as working far harder than the hunter-gatherers before them. In some respects this picture is accurate. Yet studies of skeletons suggest that the real cost of farming was to health: early farmers were shorter, had more tooth decay and suffered more from disease.\nHeadings:\ni Why farmers worked longer hours\nii The hidden health price of farming\niii How skeletons are studied",
+            "cn": "答案 ii。首句是常见看法，Yet 之后才是主旨：the real cost of farming was to health。i 只对应前两句的背景；iii 抓住了 skeletons 这个原词，但本段不讲研究方法，是细节加原词干扰。",
+            "note": "转折结构：主旨在 Yet 之后"
+          }
+        ]
+      },
+      {
+        "heading": "排除干扰标题的三个方法",
+        "body": "1. **细节干扰**：标题只对应段中的一个例子或一个数字。\n2. **原词干扰**：标题和段落有相同的词，但意思不对。正确标题通常是**改述**，用词和段落不同。\n3. **范围干扰**：标题太宽（相当于整篇文章的主题）或太窄（只讲一个方面）。\n\n还要看标题里的**性质词**：reasons、effects、methods、comparison、history、problems、solutions。段落讲的是原因还是结果，往往决定该选哪一个。",
+        "examples": [
+          {
+            "en": "Paragraph D: The drop in visitors was not caused by a single event. Rising fuel prices made flights more expensive, a strong local currency put off foreign tourists, and two wet summers in a row damaged the island's reputation as a sunny destination.\nHeadings:\niv The effects of bad weather on the island\nv Several reasons for falling tourist numbers\nvi The rise in fuel prices",
+            "cn": "答案 v。首句 not caused by a single event 说明本段讲多个原因，后面列出三个。iv 只对应其中一个原因，而且说的是 effects；vi 只对应第一个原因，都是细节干扰。"
+          }
+        ]
+      },
+      {
+        "heading": "做题顺序",
+        "body": "1. 先划掉例子用过的标题，再圈出每个标题的核心词，特别是 reasons、effects、methods 这类性质词。\n2. 先做**短的、主旨明显的段落**，把有把握的标题用掉，剩下的选择越来越少。\n3. 两个标题都像时回到段落比较：哪个能覆盖更多句子？哪个在性质上（原因、结果、方法）更准确？\n4. 实在定不下来，先写下更可能的那个并做记号，做完其他段再回头。\n\n本系统阅读的 matching headings 题组用罗马数字 i、ii、iii 作选项，作答时写标题编号。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "看到段落里的原词，就选包含这个词的标题。",
+        "right": "先给段落写大意，再找意思最接近的标题。",
+        "why": "原词重合是最常见的干扰，正确标题通常经过改述。"
+      },
+      {
+        "wrong": "只读首句就选。",
+        "right": "读首句和末句，并留意中间的 However、Yet 等转折词。",
+        "why": "转折结构的段落，首句往往只是背景或别人的看法。"
+      },
+      {
+        "wrong": "选了一个只对应段中例子的标题。",
+        "right": "检查标题能否覆盖本段大部分句子。",
+        "why": "标题概括整段，例子和数据只是支撑。"
+      },
+      {
+        "wrong": "忽略标题的性质词，把讲原因的段落配给讲结果的标题。",
+        "right": "圈出 reasons、effects、methods 等词，和段落逐一核对。",
+        "why": "很多干扰标题和段落话题相同，只是性质不同。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-matching-headings-q1",
+        "type": "mcq",
+        "q": "Paragraph: At first glance, the town's new cycle lanes seem a success: they are busy every morning. But a closer look reveals that most users were already cycling before the lanes were built, and car traffic has hardly changed.\nChoose the best heading.",
+        "options": ["A popular new cycle route", "Less impact than it first appears", "Why people prefer cars", "The cost of building cycle lanes"],
+        "answer": "Less impact than it first appears",
+        "explain": "At first glance 是表面印象，But a closer look 之后才是主旨：实际效果有限。A 只对应第一句的表象；C、D 原文没讲。"
+      },
+      {
+        "id": "st-reading-matching-headings-q2",
+        "type": "mcq",
+        "q": "Paragraph: Honey can last for centuries. Its low water content prevents bacteria from growing, it is naturally acidic, and bees add an enzyme that produces hydrogen peroxide, which kills germs.\nChoose the best heading.",
+        "options": ["Why honey does not go bad", "How bees make honey", "The acidity of honey", "Honey as a medicine"],
+        "answer": "Why honey does not go bad",
+        "explain": "首句提出现象（能保存几百年），后面列出三个原因，标题应概括「为什么不会变质」。C 只对应其中一个原因，是细节干扰；B、D 话题不对。"
+      },
+      {
+        "id": "st-reading-matching-headings-q3",
+        "type": "mcq",
+        "q": "Paragraph: How did sailors find their way before satellite navigation? Some used the position of the stars; others relied on detailed knowledge of currents, winds and the flight paths of birds.\nChoose the best heading.",
+        "options": ["The invention of satellite navigation", "Traditional ways of finding direction at sea", "The importance of birds to sailors", "Dangers faced by early sailors"],
+        "answer": "Traditional ways of finding direction at sea",
+        "explain": "问答结构：首句提问，后面的回答列出星星、洋流、风和鸟等传统方法。A 抓了原词 satellite navigation，C 只是其中一个例子。"
+      },
+      {
+        "id": "st-reading-matching-headings-q4",
+        "type": "mcq",
+        "q": "Which kind of heading is most likely to be a distractor?",
+        "options": [
+          "A heading that sums up the whole paragraph in different words",
+          "A heading that repeats a word from the paragraph but describes only one example",
+          "A heading that matches the paragraph's main idea"
+        ],
+        "answer": "A heading that repeats a word from the paragraph but describes only one example",
+        "explain": "原词重合加只对应一个例子，是细节干扰和原词干扰的组合，也是最常见的错误标题。"
+      },
+      {
+        "id": "st-reading-matching-headings-q5",
+        "type": "mcq",
+        "q": "Paragraph: Critics argued that the new museum would never attract visitors to such a remote area. Ten years on, it welcomes over a million people a year, and new hotels and restaurants have opened nearby.\nChoose the best heading.",
+        "options": ["Critics' fears about the location", "A remote area with few hotels", "Proving the doubters wrong", "How museums choose their sites"],
+        "answer": "Proving the doubters wrong",
+        "explain": "首句是批评者的担忧（背景），后面用游客数量和新开的酒店餐馆反驳了这种担忧。A 只对应首句；B 与 new hotels have opened 相反。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  },
+  {
+    "id": "st-reading-matching-information",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "信息配对",
+    "titleEn": "Matching information",
+    "level": "B1",
+    "skills": ["reading"],
+    "order": 40,
+    "minutes": 25,
+    "summary": "学会处理「哪一段包含以下信息」：读懂题目要找的信息类型，用定位词和改述在全文找到对应段落，应对答案乱序、字母可重复使用的情况。",
+    "sections": [
+      {
+        "heading": "题型特点：乱序、找细节",
+        "body": "matching information 的说明一般是 Which paragraph contains the following information?，要求写段落字母。它和标题配对不同：\n\n- 找的是段落里的**某个细节**，不是段落主旨。\n- 答案**不按原文顺序**出现。\n- 一个段落可能对应两题，也可能一题都不对应；说明里有 You may use any letter more than once 时，字母可以重复使用。\n\n因为要在全文范围内找，这类题一般**放在本篇最后做**，那时你已经熟悉了各段内容。"
+      },
+      {
+        "heading": "先读懂「信息类型」",
+        "body": "题目常以一个名词开头，告诉你要找**什么类型**的信息：a reference to（提到）、an example of（例子）、a description of（描述）、a comparison between（比较）、an explanation of（解释）、a prediction（预测）、a suggestion（建议）、a criticism（批评）。\n\n找到话题相关的段落后，还要确认**类型对得上**：题目要 a prediction，原文必须有关于将来的说法（will、is expected to、within a decade）；题目要 a comparison，原文必须有两样东西在比较。",
+        "table": {
+          "head": ["题目开头", "原文里的信号"],
+          "rows": [
+            ["a comparison between", "than, whereas, unlike, similar to"],
+            ["a prediction about", "will, is expected to, by 2050"],
+            ["an example of", "for instance, such as, one case is"],
+            ["an explanation of / a reason for", "because, due to, this is why, led to"],
+            ["a criticism of", "flaw, fail to, the problem with"]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Question: a prediction about the future cost of the technology\nParagraph C: The first models cost over ten thousand pounds, far more than most families could afford.\nParagraph F: Engineers expect that, within a decade, mass production will bring the price below a thousand pounds.",
+            "cn": "答案 F。两段都谈价格，但题目要的是 prediction。C 讲过去的价格；F 有 expect、within a decade 和 will，是对将来的预测。"
+          }
+        ]
+      },
+      {
+        "heading": "定位与改述",
+        "body": "1. 在题目里划**定位词**：数字、名称、专业名词最好用。\n2. 想一想它可能怎样被改述：a decline in → fell、dropped；children → young people、under-12s。\n3. 结合做其他题时写的段落大意，先锁定两三段，再精读确认。\n4. 实在找不到就先做别的题，最后回来。\n\n注意：段落里出现了题目的原词，不代表就是答案段。常有两段谈同一个话题，要看哪一段**有题目要求的那种信息**。",
+        "examples": [
+          {
+            "en": "Question: an example of an animal that has changed its behaviour in cities\nParagraph B: Urban foxes, for instance, now become active earlier in the evening, when bins are full and streets are still quiet.\nParagraph E: Animals in cities face many challenges, including noise, light and traffic.",
+            "cn": "答案 B。for instance 是 example 的信号，foxes 是具体的动物，become active earlier 是行为改变。E 也讲城市动物，但只是概括挑战，没有具体例子。"
+          }
+        ]
+      },
+      {
+        "heading": "做题顺序与记录",
+        "body": "做本篇其他题时在每段旁写的段落大意，到这里就派上用场了。建议：\n\n- 先做有**明显定位词**（数字、人名）的题，再做抽象的。\n- 每确定一题，在题号旁写段落字母，同时在段落旁记下题号，方便检查某段是不是被用得太多。\n- 字母不能重复使用时，用过的段落可以排除；能重复时，不要因为某段用过就排除它。\n\n本系统阅读里，信息配对的答案写段落字母（A–G）。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "按题号顺序从 A 段往后逐段找。",
+        "right": "先用定位词和段落大意缩小范围，再精读确认。",
+        "why": "答案不按顺序，逐段找会浪费大量时间。"
+      },
+      {
+        "wrong": "只看话题，不看信息类型。",
+        "right": "确认原文真的有题目要求的 prediction、example 或 comparison。",
+        "why": "多个段落常谈同一话题，信息类型才是区分的关键。"
+      },
+      {
+        "wrong": "看到原词就选这一段。",
+        "right": "检查这一段是否包含题目描述的完整信息。",
+        "why": "原词常出现在顺带一提的段落里，答案段多半经过改述。"
+      },
+      {
+        "wrong": "说明允许重复使用字母，却因为某段用过就排除它。",
+        "right": "看清说明里有没有 You may use any letter more than once。",
+        "why": "信息量大的段落可能对应两三题。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-matching-information-q1",
+        "type": "mcq",
+        "q": "Which paragraph contains a comparison between two types of battery?\nA: Batteries were first used in telegraph systems in the nineteenth century.\nB: Lithium batteries store far more energy than lead-acid ones of the same weight, which is why they dominate the phone market.\nC: Scientists predict that new solid-state batteries will be on sale within ten years.",
+        "options": ["A", "B", "C"],
+        "answer": "B",
+        "explain": "B 用 far more... than 比较锂电池和铅酸电池，是 comparison。A 是历史，C 是预测。"
+      },
+      {
+        "id": "st-reading-matching-information-q2",
+        "type": "mcq",
+        "q": "Which paragraph contains a prediction?\nA: Batteries were first used in telegraph systems in the nineteenth century.\nB: Lithium batteries store far more energy than lead-acid ones of the same weight, which is why they dominate the phone market.\nC: Scientists predict that new solid-state batteries will be on sale within ten years.",
+        "options": ["A", "B", "C"],
+        "answer": "C",
+        "explain": "C 有 predict、will 和 within ten years，是对将来的预测。B 虽然有 which is why（原因），但没有谈将来。"
+      },
+      {
+        "id": "st-reading-matching-information-q3",
+        "type": "mcq",
+        "q": "Which paragraph contains a reason why the festival moved to a new date?\nA: The festival was first held in a farmer's field in 1985 and attracted about 200 people.\nB: Because the original August date often clashed with the harvest, organisers moved the event to early June.\nC: Unlike many festivals, it still does not allow cars on the site.",
+        "options": ["A", "B", "C"],
+        "answer": "B",
+        "explain": "Because 是原因的信号，clashed with the harvest 是改期的原因。C 里的 Unlike 是比较信号，和改期无关。"
+      },
+      {
+        "id": "st-reading-matching-information-q4",
+        "type": "mcq",
+        "q": "Which paragraph contains an example of a city reducing noise?\nA: Noise from traffic is linked to poor sleep and higher stress.\nB: One northern city, for example, has lowered speed limits at night and planted thick hedges along its main roads.\nC: Many residents say they have stopped noticing the noise around them.",
+        "options": ["A", "B", "C"],
+        "answer": "B",
+        "explain": "for example 是例子的信号，lowered speed limits 和 planted thick hedges 是降噪措施。A 讲噪音的危害，C 讲居民的感受，都不是城市采取的行动。"
+      },
+      {
+        "id": "st-reading-matching-information-q5",
+        "type": "mcq",
+        "q": "The instructions say 'You may use any letter more than once.' Paragraph D is already the answer to one question. Can D also be the answer to another question?",
+        "options": ["Yes, it can.", "No, it cannot."],
+        "answer": "Yes, it can.",
+        "explain": "有 You may use any letter more than once 时，同一段可以对应多题，不能因为用过就排除。"
+      },
+      {
+        "id": "st-reading-matching-information-q6",
+        "type": "mcq",
+        "q": "Which signal phrase most strongly suggests a prediction?",
+        "options": ["for instance", "is expected to", "unlike", "because of"],
+        "answer": "is expected to",
+        "explain": "is expected to 表示预计将来会发生。for instance 表示举例，unlike 表示比较，because of 表示原因。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  },
+  {
+    "id": "st-reading-completion",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "句子填空和摘要填空",
+    "titleEn": "Sentence and summary completion",
+    "level": "B1",
+    "skills": ["reading"],
+    "order": 50,
+    "minutes": 30,
+    "summary": "学会用字数限制和语法判断答案、从原文照抄正确的词形，并分清「从原文取词」和「从词库选择」两种摘要填空。",
+    "sections": [
+      {
+        "heading": "先读说明：字数限制和答案来源",
+        "body": "填空题的说明告诉你两件事：\n\n- **字数**：ONE WORD ONLY、NO MORE THAN TWO WORDS、NO MORE THAN THREE WORDS AND/OR A NUMBER 等。超字数直接判错，即使包含正确答案。连字符词算 1 个词。\n- **来源**：Choose ... from the passage 表示必须**从原文照抄**；using the list of words, A–H 表示从词库里选字母。\n\n本系统按雅思口径判分：超字数判错并标出「超字数」；不带 NUMBER 的限制里，数字也算词。",
+        "table": {
+          "head": ["说明", "最多能写"],
+          "rows": [
+            ["ONE WORD ONLY", "1 个词（数字也算 1 个词）"],
+            ["NO MORE THAN TWO WORDS", "2 个词"],
+            ["NO MORE THAN THREE WORDS AND/OR A NUMBER", "3 个词，另外可加 1 个数字"]
+          ]
+        }
+      },
+      {
+        "heading": "用语法缩小范围",
+        "body": "空格所在的句子填完后必须**语法完整**。动笔前先判断：\n\n- **词性**：the、a 或形容词后要名词；is、become 后常是形容词或名词；to 后可能是动词原形。\n- **单复数**：a ___ 是单数名词；many、several、thousands of 后是复数；谓语 is / are 也能看出主语单复数。\n- **冠词**：空格前已有 a 或 the，答案就不要再带冠词。\n\n填完把整句读一遍，读不通就说明答案有问题。",
+        "examples": [
+          {
+            "en": "Text: Volunteers planted more than 3,000 trees along the river banks to reduce flooding.\nQuestion: To help prevent flooding, volunteers planted thousands of ___ beside the river. (ONE WORD ONLY)",
+            "cn": "答案 trees。thousands of 后面要复数名词，写 tree 判错。3,000 已经被改述成 thousands，不要再填数字。"
+          }
+        ]
+      },
+      {
+        "heading": "从原文照抄，词形不变",
+        "body": "从原文取词的题，答案必须是**原文里出现的词**，**拼写和词形都要和原文一致**，不能自己改词形或换同义词。\n\n做法：\n\n1. 用题目里的定位词找到原文对应句。\n2. 找出题目句和原文句的对应关系（通常是改述），空格对应的位置就是答案。\n3. 照抄，抄完逐字母核对。\n\n如果语法要求的词形和原文不一样（比如原文是 strong，空格却要名词），说明你**找错了位置**，要回去找原文中真正对应的那个词。",
+        "examples": [
+          {
+            "en": "Text: In the 1950s, most households in the region relied on coal for heating, but by the 1980s gas had largely replaced it.\nQuestion: By the 1980s, homes in the region were mostly heated with ___. (ONE WORD ONLY)",
+            "cn": "答案 gas。largely replaced it 对应 mostly heated with。coal 是 1950 年代的情况，属于时间干扰。"
+          }
+        ]
+      },
+      {
+        "heading": "摘要填空的两种形式",
+        "body": "**从原文取词**：摘要通常只覆盖文章的一部分。先读摘要标题和首句，判断对应哪几段，再在这几段里逐空定位，方法同句子填空。\n\n**从词库选择**：词库给出 A–H 等选项，选项比空多。词库里的词往往是原文的**改述**，不一定在文中出现。做法：\n\n1. 先按语法给每个空判断词性和单复数，排除一半选项。\n2. 再回原文确认意思。\n3. 写**选项字母**（本系统也接受直接写出该选项的词）。\n\n词库干扰项常是：意思相反的词、原文出现过但修饰别的对象的词、词性对但意思不对的词。",
+        "examples": [
+          {
+            "en": "Summary: Early bicycles were hard to ride and were mostly bought by ___ young men.\nWord list: A wealthy  B careful  C poor  D wealth\nText: For many years, the bicycle was seen mainly as a toy for rich young men.",
+            "cn": "答案 A。空格在 by 和 young men 之间，要形容词，先排除名词 D；rich 改述成 wealthy；C 意思相反；B 原文没提。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "限制是 NO MORE THAN TWO WORDS，却写 the solar panels。",
+        "right": "solar panels",
+        "why": "冠词也算词，写成 3 个词就超字数判错。"
+      },
+      {
+        "wrong": "把原文的 strong 改成 strength 填进去。",
+        "right": "回原文找真正对应的名词照抄。",
+        "why": "从原文取词的题必须用原文的词形，改词形或换同义词都判错。"
+      },
+      {
+        "wrong": "题目是 thousands of ___，写成 tree。",
+        "right": "trees",
+        "why": "单复数要符合空格的语法，也要和原文一致。"
+      },
+      {
+        "wrong": "词库摘要只看意思，不看词性。",
+        "right": "先按语法排除词性不对的选项。",
+        "why": "词库常同时给出同根的名词和形容词，词性不对一定错。"
+      },
+      {
+        "wrong": "做摘要题时从第一段开始逐句找。",
+        "right": "先读摘要标题和首句，判断它对应哪几段。",
+        "why": "摘要通常只覆盖文章的一部分，范围找对了才快。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-completion-q1",
+        "type": "fill",
+        "q": "Text: The study followed 240 teenagers for three years and found that those who slept less than seven hours a night had lower exam marks.\nQuestion: Teenagers who slept less tended to get worse ___. (NO MORE THAN TWO WORDS)",
+        "answer": ["exam marks", "marks"],
+        "explain": "lower 改述成 worse，答案照抄原文 exam marks（marks 也在字数内）。marks 是复数，不能写成 mark。"
+      },
+      {
+        "id": "st-reading-completion-q2",
+        "type": "mcq",
+        "q": "Text: The city was protected by ancient stone walls.\nQuestion: The city was defended by ___. (NO MORE THAN TWO WORDS)\nWhich answer is acceptable?",
+        "options": ["stone walls", "ancient stone walls", "the stone walls", "the city's stone walls"],
+        "answer": "stone walls",
+        "explain": "限制是两个词，stone walls 正好两个词。ancient stone walls、the stone walls 都是 3 个词，超字数判错。"
+      },
+      {
+        "id": "st-reading-completion-q3",
+        "type": "fill",
+        "q": "Text: Early experiments with the new glue failed because it dried too slowly in cold weather.\nQuestion: The first tests of the glue were unsuccessful in ___ conditions. (ONE WORD ONLY)",
+        "answer": ["cold"],
+        "explain": "failed 改述成 unsuccessful，weather 改述成 conditions，空格要形容词，照抄原文的 cold。"
+      },
+      {
+        "id": "st-reading-completion-q4",
+        "type": "mcq",
+        "q": "Text: The plant thrives in sandy ground and can survive long dry periods.\nSummary: The plant grows best in ___ soil and needs little water.\nWord list: A wet  B sandy  C sand  D rich\nWhich letter fits the gap?",
+        "options": ["A", "B", "C", "D"],
+        "answer": "B",
+        "explain": "thrives 改述成 grows best，ground 改述成 soil。空格修饰 soil 要形容词，sandy 对，名词 sand 不对；wet 原文没提，还和 survive long dry periods 的意思相冲突；rich 原文没提。"
+      },
+      {
+        "id": "st-reading-completion-q5",
+        "type": "fill",
+        "q": "Text: Residents complained that the new streetlights were so bright that they kept people awake at night.\nQuestion: People said the new streetlights were too ___. (ONE WORD ONLY)",
+        "answer": ["bright"],
+        "explain": "so bright that... 改述成 too ___，空格要形容词，照抄 bright。"
+      },
+      {
+        "id": "st-reading-completion-q6",
+        "type": "fill",
+        "q": "Text: The guide contains a great deal of useful information about local walks.\nQuestion: The guide offers plenty of helpful ___ about walking in the area. (ONE WORD ONLY)",
+        "answer": ["information"],
+        "explain": "useful 改述成 helpful，答案照抄 information。它是不可数名词，写成 informations 判错。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  },
+  {
+    "id": "st-reading-mcq-paraphrase",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "阅读单选题与同义替换",
+    "titleEn": "Multiple choice and paraphrase in reading",
+    "level": "B1",
+    "skills": ["reading"],
+    "order": 60,
+    "minutes": 30,
+    "summary": "学会先用题干定位原文、再逐项比对选项，看清正确选项怎样改述原文，并识别常见的干扰项类型。",
+    "sections": [
+      {
+        "heading": "定位：先题干，后选项",
+        "body": "阅读单选题一般按原文顺序出题。做法：\n\n1. 读题干，划定位词，**先不看选项**，在原文找到对应句，读它前后两三句。\n2. 用自己的话回答题干，形成初步答案。\n3. 再看选项，找和你的答案意思一致的那一个。\n\n先看选项容易被干扰项里的原词带偏。问全文的题（What is the writer's main purpose? / Which is the best title?）放到本篇最后做。"
+      },
+      {
+        "heading": "正确选项怎样对应原文",
+        "body": "正确选项几乎总是原文的**改述**，常见手法：\n\n- **同义词**：reduce → cut；difficult → challenging\n- **词性转换**：the city expanded → the expansion of the city\n- **句式转换**：主动变被动；rarely → not often\n- **概括**：原文列举 cars, buses and lorries，选项说 road vehicles\n\n比较时把选项拆成几个意思单位（谁、做了什么、程度、时间），每个单位都要在原文里找到依据。",
+        "examples": [
+          {
+            "en": "Text: Although the scheme was expensive to set up, it paid for itself within four years through lower heating bills.\nQuestion: What does the writer say about the scheme?\nA It was cheap to introduce.\nB It saved enough money to cover its initial cost.\nC It took more than four years to show any benefit.\nD Its main aim was to reduce heating bills.",
+            "cn": "答案 B，paid for itself 改述成 saved enough money to cover its initial cost。A 与 expensive to set up 相反；C 与 within four years 矛盾；D 用了原词 heating bills，但原文没说这是 main aim，属于无中生有。"
+          }
+        ]
+      },
+      {
+        "heading": "常见干扰项类型",
+        "body": "1. **原词照搬，意思不对**：选项用原文的词，但关系、对象或因果被改了。\n2. **无中生有**：选项有一部分原文没说，或加了 main、only、first 等原文没有的判断。\n3. **正好相反**：和原文意思相反，常常只差一个否定词或反义词。\n4. **答非所问**：选项本身符合原文，但回答的不是这道题干。\n\n还要留意**绝对化**的词：always、never、all、completely。原文用的是 often、some、partly 时，带绝对词的选项通常是错的。",
+        "table": {
+          "head": ["干扰类型", "识别方法"],
+          "rows": [
+            ["原词照搬", "和原文重合词最多的选项先怀疑，核对逻辑关系"],
+            ["无中生有", "选项的每个部分都要在原文找到依据"],
+            ["正好相反", "注意 not、rarely、fail to 和反义词"],
+            ["答非所问", "再读一遍题干，看问的是原因、结果还是目的"],
+            ["绝对化", "always、only、all 要在原文找到同样强度的说法"]
+          ]
+        }
+      },
+      {
+        "heading": "完整演示：定位、作答、排除",
+        "body": "用一段短文把流程走一遍：先用题干定位，自己回答，再逐项排除。",
+        "examples": [
+          {
+            "en": "Text: Some researchers believed that the decline in the bird population was caused by pesticides. However, when pesticide use was reduced, numbers continued to fall. The team now thinks the main factor is the loss of the hedgerows where the birds nest.\nQuestion: According to the text, what is now thought to be the main reason for the decline?\nA the use of pesticides\nB a shortage of nesting sites\nC a fall in the use of pesticides\nD changes in the birds' diet",
+            "cn": "定位：main reason 对应 main factor。自己回答：筑巢的树篱消失了。答案 B，loss of the hedgerows where the birds nest 改述成 a shortage of nesting sites。A 是过去的看法，已被 However 推翻；C 照搬了 pesticide 和 reduced，但减少用药不是原因；D 原文没提，无中生有。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "先读四个选项，再去原文逐个找。",
+        "right": "先用题干定位原文并自己回答，再看选项。",
+        "why": "先看选项容易被原词带偏，也更花时间。"
+      },
+      {
+        "wrong": "选和原文重合词最多的选项。",
+        "right": "核对选项的意思和逻辑关系是否和原文一致。",
+        "why": "原词照搬是最常见的干扰手法，正确选项通常经过改述。"
+      },
+      {
+        "wrong": "选了一个原文说过、但没回答题干的选项。",
+        "right": "选完再读一遍题干，确认问的是什么。",
+        "why": "答非所问的选项本身没错，只是不对应这道题。"
+      },
+      {
+        "wrong": "忽略 only、always、main 等限定词。",
+        "right": "检查选项的程度和范围是否和原文一致。",
+        "why": "一个绝对化或多出来的限定词就会让选项变错。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-reading-mcq-paraphrase-q1",
+        "type": "mcq",
+        "q": "Text: The ferry, once the only link to the mainland, now carries mainly tourists, since a bridge opened in 2010.\nWhat is true about the ferry today?",
+        "options": ["It is the only way to reach the mainland.", "Most of its passengers are visitors.", "It stopped running in 2010.", "It is used mainly by local workers."],
+        "answer": "Most of its passengers are visitors.",
+        "explain": "carries mainly tourists 改述成 most of its passengers are visitors。A 是过去的情况（once）；C 是无中生有，2010 年通的是桥；D 原文没说。"
+      },
+      {
+        "id": "st-reading-mcq-paraphrase-q2",
+        "type": "mcq",
+        "q": "Text: The author argues that zoos can play a useful role in protecting rare species, but only if they work closely with conservation projects in the wild.\nWhat is the author's view of zoos?",
+        "options": ["Zoos should be closed.", "Zoos are always good for rare species.", "Zoos can help rare species under certain conditions.", "Zoos are more important than conservation projects in the wild."],
+        "answer": "Zoos can help rare species under certain conditions.",
+        "explain": "but only if 是条件，改述成 under certain conditions。B 的 always 过于绝对；A 与作者观点相反；D 的比较原文没有。"
+      },
+      {
+        "id": "st-reading-mcq-paraphrase-q3",
+        "type": "mcq",
+        "q": "Text: The drop in sales was blamed at first on the weather, but the company later admitted that its prices had simply become too high.\nWhat caused the fall in sales, according to the company?",
+        "options": ["bad weather", "prices that were too high", "a decline in quality", "competition from other firms"],
+        "answer": "prices that were too high",
+        "explain": "weather 是最初的说法，被 but... later admitted 推翻。题干问 according to the company，答案是价格太高。"
+      },
+      {
+        "id": "st-reading-mcq-paraphrase-q4",
+        "type": "mcq",
+        "q": "哪一类干扰项会大量使用原文的词，却改变了它们之间的关系？",
+        "options": ["原词照搬", "正好相反", "答非所问", "无中生有"],
+        "answer": "原词照搬",
+        "explain": "原词照搬的选项和原文重合词最多，看起来最像答案，但关系、对象或因果被改了。"
+      },
+      {
+        "id": "st-reading-mcq-paraphrase-q5",
+        "type": "mcq",
+        "q": "Text: Few early photographs survive, partly because the chemicals used were unstable and partly because many prints were thrown away as worthless.\nWhy do so few early photographs exist today?",
+        "options": ["Photographers destroyed their own work.", "The images were damaged by sunlight.", "Both the materials and people's attitudes played a part.", "They were too expensive to keep."],
+        "answer": "Both the materials and people's attitudes played a part.",
+        "explain": "原文给了两个原因：化学材料不稳定（materials）和被当成没价值扔掉（attitudes），C 是概括式改述。A 说是摄影师自己毁掉的，原文没说是谁扔的；B、D 原文没提。"
+      },
+      {
+        "id": "st-reading-mcq-paraphrase-q6",
+        "type": "mcq",
+        "q": "Which option best paraphrases 'The plan was rarely discussed in public'?",
+        "options": ["The plan was often talked about openly.", "The plan was not often talked about openly.", "The plan was never mentioned at all.", "The plan was discussed only by experts."],
+        "answer": "The plan was not often talked about openly.",
+        "explain": "rarely 等于 not often，in public 等于 openly。A 正好相反；C 把 rarely 变成 never，过于绝对；D 无中生有。"
+      }
+    ],
+    "related": { "tabs": ["ielts:reading"] }
+  }
+]
