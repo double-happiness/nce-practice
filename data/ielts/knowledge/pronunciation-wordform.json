@@ -825,8 +825,8 @@
         "why": "加了 -ic、-ity、-tion 以后重音会移动，派生词不能照搬词根的读音。"
       },
       {
-        "wrong": "I want to RE-cord the lecture.",
-        "right": "I want to re-CORD the lecture.",
+        "wrong": "I want to RE-cord the lecture.（重音读在第 1 音节）",
+        "right": "I want to re-CORD the lecture.（重音读在第 2 音节）",
         "why": "record 作动词时重音在后，名前动后。"
       },
       {
@@ -846,12 +846,12 @@
         "type": "mcq",
         "q": "education 的重音在哪个音节？",
         "options": [
-          "E-du-ca-tion",
-          "e-DU-ca-tion",
-          "e-du-CA-tion",
-          "e-du-ca-TION"
+          "E-du-ca-tion（重音在第 1 音节）",
+          "e-DU-ca-tion（重音在第 2 音节）",
+          "e-du-CA-tion（重音在第 3 音节）",
+          "e-du-ca-TION（重音在第 4 音节）"
         ],
-        "answer": "e-du-CA-tion",
+        "answer": "e-du-CA-tion（重音在第 3 音节）",
         "explain": "-tion 前一个音节重读：education /ˌedʒuˈkeɪʃn/。"
       },
       {
@@ -859,12 +859,12 @@
         "type": "mcq",
         "q": "economic 的重音在哪个音节？",
         "options": [
-          "E-co-no-mic",
-          "e-CO-no-mic",
-          "e-co-NO-mic",
-          "e-co-no-MIC"
+          "E-co-no-mic（重音在第 1 音节）",
+          "e-CO-no-mic（重音在第 2 音节）",
+          "e-co-NO-mic（重音在第 3 音节）",
+          "e-co-no-MIC（重音在第 4 音节）"
         ],
-        "answer": "e-co-NO-mic",
+        "answer": "e-co-NO-mic（重音在第 3 音节）",
         "explain": "-ic 前一个音节重读：economic /ˌiːkəˈnɒmɪk/。注意它和 economy /ɪˈkɒnəmi/ 的重音位置不同。"
       },
       {
