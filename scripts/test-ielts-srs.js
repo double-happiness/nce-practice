@@ -465,6 +465,8 @@ function startApp() {
   const app = express();
   app.use(express.json({ limit: '10mb' }));
   app.use('/api', require('../routes/srs'));
+  app.use('/api', require('../routes/ielts-reading'));
+  app.use('/api', require('../routes/ielts-listening'));
   app.use('/api', (req, res) => res.status(404).json({ error: `接口不存在：${req.method} /api${req.path}` }));
   return new Promise((resolve) => {
     server = app.listen(0, '127.0.0.1', () => {
@@ -579,6 +581,95 @@ test('接口：原题删除后 /srs/due 跳过并清理出队列，暂时不可�
       assert.ok(!readSrs().items['il:l1-sports-centre:10'], '判分时发现已删也清理出队列');
     }
   );
+});
+
+// ---------------- 交卷后错题自动入队 ----------------
+// 构造一份交卷答案：wrong 里的题故意答错，blank 里的题不作答，其余全对
+function readingAnswers(pid, wrong, blank) {
+  const out = {};
+  for (const g of R.getPassage(pid).groups) {
+    for (const q of g.questions) {
+      if (blank.includes(q.id)) continue;
+      out[q.id] = wrong.includes(q.id) ? 'zzz wrong' : q.answer[0];
+    }
+  }
+  return out;
+}
+function listeningAnswers(sid, wrong, blank) {
+  const out = {};
+  for (const g of L.getSection(sid).groups) {
+    for (const q of g.questions) {
+      if (blank.includes(q.no)) continue;
+      out[String(q.no)] = wrong.includes(q.no) ? 'zzz' : q.answer[0];
+    }
+  }
+  return out;
+}
+const srsIds = () => (fs.existsSync(SRS_FILE) ? Object.keys(readSrs().items).sort() : []);
+
+test('交卷：阅读答错的题进入复习队列（未作答、答对的不进），/srs/due 能看到', async () => {
+  resetProfile();
+  const answers = readingAnswers('rd-green-roofs', ['q2', 'q11'], ['q13']);
+  const r = ok(await call('POST', '/api/ielts/reading/rd-green-roofs/submit', { answers, mode: 'practice', durationSec: 60 }));
+  assert.strictEqual(r.ok, true);
+  assert.strictEqual(r.raw, r.total - 3, '2 错 1 空');
+  assert.deepStrictEqual(srsIds(), ['ir:rd-green-roofs:q11', 'ir:rd-green-roofs:q2']);
+  const due = ok(await call('GET', '/api/srs/due'));
+  assert.deepStrictEqual(due.questions.map((q) => q.id).sort(), ['ir:rd-green-roofs:q11', 'ir:rd-green-roofs:q2']);
+});
+
+test('交卷：同一题再次答错不重复入队，已有复习进度不被重置', async () => {
+  resetProfile();
+  const answers = readingAnswers('rd-green-roofs', ['q2', 'q11'], []);
+  ok(await call('POST', '/api/ielts/reading/rd-green-roofs/submit', { answers, mode: 'exam' }));
+  ok(await call('POST', '/api/srs/grade', { id: 'ir:rd-green-roofs:q2', response: readingQ('rd-green-roofs', 'q2').q.answer[0] }));
+  const progressed = readSrs().items['ir:rd-green-roofs:q2'];
+  assert.strictEqual(progressed.step, 1);
+  ok(await call('POST', '/api/ielts/reading/rd-green-roofs/submit', { answers: readingAnswers('rd-green-roofs', ['q2', 'q3'], []), mode: 'exam' }));
+  assert.deepStrictEqual(srsIds(), ['ir:rd-green-roofs:q11', 'ir:rd-green-roofs:q2', 'ir:rd-green-roofs:q3']);
+  assert.deepStrictEqual(readSrs().items['ir:rd-green-roofs:q2'], progressed);
+});
+
+test('交卷：听力答错的题进入复习队列，复习时按原模块规则判分', async () => {
+  resetProfile();
+  const answers = listeningAnswers('l1-sports-centre', [1, 6], [10]);
+  const r = ok(await call('POST', '/api/ielts/listening/l1-sports-centre/submit', { answers, mode: 'practice', durationSec: 30 }));
+  assert.strictEqual(r.raw, r.total - 3);
+  assert.deepStrictEqual(srsIds(), ['il:l1-sports-centre:1', 'il:l1-sports-centre:6']);
+  const due = ok(await call('GET', '/api/srs/due'));
+  assert.deepStrictEqual(due.questions.map((q) => q.id).sort(), ['il:l1-sports-centre:1', 'il:l1-sports-centre:6']);
+  const g1 = ok(await call('POST', '/api/srs/grade', { id: 'il:l1-sports-centre:6', response: '£ 32' }));
+  assert.strictEqual(g1.correct, true);
+  const g2 = ok(await call('POST', '/api/srs/grade', { id: 'il:l1-sports-centre:1', response: 'Brenan' }));
+  assert.strictEqual(g2.correct, false);
+});
+
+test('交卷：全对不入队；加入复习失败只打日志，交卷照常成功并落盘', async () => {
+  resetProfile();
+  ok(await call('POST', '/api/ielts/listening/l2-castle-tour/submit', { answers: listeningAnswers('l2-castle-tour', [], []), mode: 'exam' }));
+  assert.deepStrictEqual(srsIds(), []);
+
+  const broken = JSON.stringify({ items: ['x'] });
+  fs.writeFileSync(SRS_FILE, broken);
+  const logs = [];
+  const origError = console.error;
+  console.error = (...a) => logs.push(a.join(' '));
+  let rr;
+  let lr;
+  try {
+    rr = await call('POST', '/api/ielts/reading/rd-green-roofs/submit', { answers: readingAnswers('rd-green-roofs', ['q1'], []), mode: 'exam' });
+    lr = await call('POST', '/api/ielts/listening/l2-castle-tour/submit', { answers: listeningAnswers('l2-castle-tour', [11], []), mode: 'exam' });
+  } finally {
+    console.error = origError;
+  }
+  assert.strictEqual(ok(rr).ok, true);
+  assert.strictEqual(ok(lr).ok, true);
+  assert.ok(logs.some((m) => m.includes('[ielts-reading] 错题加入间隔复习失败')), logs.join('\n'));
+  assert.ok(logs.some((m) => m.includes('[ielts-listening] 错题加入间隔复习失败')), logs.join('\n'));
+  assert.strictEqual(fs.readFileSync(SRS_FILE, 'utf8'), broken, '结构异常的 srs.json 不被覆盖');
+  const user = JSON.parse(fs.readFileSync(path.join(PROFILE_DIR, 'ielts.json'), 'utf8'));
+  assert.strictEqual(user.readings.length, 1, '阅读交卷记录照常写入');
+  assert.strictEqual(user.listenings.length, 2, '听力交卷记录照常写入');
 });
 
 // ---------------- 主流程 ----------------

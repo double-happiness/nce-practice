@@ -7,6 +7,7 @@ const crypto = require('crypto');
 const ielts = require('../lib/ielts');
 const reading = require('../lib/ielts-reading');
 const activity = require('../lib/activity');
+const ieltsSrs = require('../lib/ielts-srs');
 
 const router = express.Router();
 
@@ -29,6 +30,15 @@ function recordActivity(correct) {
     activity.record(correct, 'ielts-reading');
   } catch (e) {
     console.error(`[ielts-reading] 学习活动记录失败: ${e.message}`);
+  }
+}
+
+// 交卷已落盘后把答错的题送进间隔复习（已在队列的不重复加）；失败只打日志，不影响本次交卷结果
+function enqueueWrongToSrs(passageId, results) {
+  try {
+    ieltsSrs.enqueue(ieltsSrs.readingWrongKeys(passageId, results));
+  } catch (e) {
+    console.error(`[ielts-reading] 错题加入间隔复习失败: ${e.message}`);
   }
 }
 
@@ -160,6 +170,7 @@ router.post('/ielts/reading/:id/submit', (req, res) => {
   user.readings = reading.sanitizeReadings([...reading.sanitizeReadings(user.readings), entry]);
   ielts.saveUser(user);
   recordActivity(graded.raw / graded.total >= PASS_RATIO);
+  enqueueWrongToSrs(p.id, graded.results);
 
   res.json({
     ok: true,

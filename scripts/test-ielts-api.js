@@ -1272,6 +1272,85 @@ test('history: 题目已不在题库或记录与题库对不上时仍返回记�
 });
 
 // =====================================================================
+// 间隔复习：雅思阅读 / 听力错题自动入队（lib/ielts-srs.js）
+// 正确答案取自 lib/ielts-reading.js、lib/ielts-listening.js 读到的同一份内容（接口交卷前不下发答案）
+// =====================================================================
+const srsDueIds = async (prefix) => {
+  const d = isOk(await get('/api/srs/due?limit=500'), 'srs/due');
+  return d.questions.filter((q) => q.id.startsWith(prefix));
+};
+
+test('srs: 阅读交卷故意答错 2 题 → 间隔复习出现这 2 题且不含答案，作答后重排、再交卷不重复入队', async () => {
+  const R = require('../lib/ielts-reading');
+  const list = isOk(await get('/api/ielts/reading'));
+  const pid = list.items[0].id;
+  const qs = [];
+  for (const g of R.getPassage(pid).groups) for (const q of g.questions) qs.push(q);
+  const wrong = qs.slice(0, 2).map((q) => q.id);
+  const answers = Object.fromEntries(qs.map((q) => [q.id, wrong.includes(q.id) ? 'zzz wrong' : q.answer[0]]));
+  const totalBefore = isOk(await get('/api/srs/stats')).total;
+
+  const r = isOk(await post(`/api/ielts/reading/${pid}/submit`, { answers, mode: 'exam', durationSec: 600 }));
+  assert.strictEqual(r.raw, r.total - 2, `raw=${r.raw} total=${r.total}`);
+  const due = await srsDueIds(`ir:${pid}:`);
+  assert.deepStrictEqual(due.map((q) => q.id).sort(), wrong.map((id) => `ir:${pid}:${id}`).sort());
+  for (const q of due) {
+    assert.strictEqual(q.kind, 'ielts-reading');
+    assert.ok(q.ielts && Array.isArray(q.ielts.paragraphs) && q.ielts.paragraphs.length, '带所在段落原文');
+    assert.ok(!('answer' in q) && !('explanation' in q) && !('evidence' in q), '复习题不含答案');
+  }
+  assert.strictEqual(isOk(await get('/api/srs/stats')).total, totalBefore + 2);
+
+  const t0 = Date.now();
+  const right = isOk(await post('/api/srs/grade', { id: `ir:${pid}:${wrong[0]}`, response: qs[0].answer[0] }));
+  assert.strictEqual(right.correct, true);
+  assert.ok(right.nextDueAt >= t0 + 86400000, '答对后至少 1 天后再复习');
+  assert.ok(typeof right.explanation === 'string' && right.explanation, '答完给解析');
+  const miss = isOk(await post('/api/srs/grade', { id: `ir:${pid}:${wrong[1]}`, response: 'zzz wrong' }));
+  assert.strictEqual(miss.correct, false);
+  assert.deepStrictEqual(miss.answer, qs[1].answer);
+  assert.ok(miss.nextDueAt > t0 && miss.nextDueAt <= Date.now() + 600000, '答错约 10 分钟后重来');
+  assert.deepStrictEqual(await srsDueIds(`ir:${pid}:`), [], '两题都已重排出当前到期列表');
+
+  isOk(await post(`/api/ielts/reading/${pid}/submit`, { answers, mode: 'exam', durationSec: 600 }));
+  assert.strictEqual(isOk(await get('/api/srs/stats')).total, totalBefore + 2, '已在队列的题不重复加入');
+});
+
+test('srs: 听力交卷答错的题进入间隔复习（未作答的不进），复习按原模块规则判分', async () => {
+  const L = require('../lib/ielts-listening');
+  const list = isOk(await get('/api/ielts/listening'));
+  const sid = list.items[0].id;
+  const qs = [];
+  for (const g of L.getSection(sid).groups) for (const q of g.questions) qs.push(q);
+  const wrong = [qs[0].no, qs[1].no];
+  const blank = qs[2].no;
+  const answers = {};
+  for (const q of qs) {
+    if (q.no === blank) continue;
+    answers[String(q.no)] = wrong.includes(q.no) ? 'zzz' : q.answer[0];
+  }
+  const r = isOk(await post(`/api/ielts/listening/${sid}/submit`, { answers, mode: 'practice', durationSec: 300 }));
+  assert.strictEqual(r.raw, r.total - 3);
+  const due = await srsDueIds(`il:${sid}:`);
+  assert.deepStrictEqual(due.map((q) => q.id).sort(), wrong.map((n) => `il:${sid}:${n}`).sort());
+  for (const q of due) {
+    assert.strictEqual(q.kind, 'ielts-listening');
+    assert.ok(q.ielts && q.ielts.script && q.ielts.script.text, '带对应 segment 脚本');
+  }
+  // 大小写与首尾空格不计较（与原模块一致）
+  const g = isOk(await post('/api/srs/grade', { id: `il:${sid}:${wrong[0]}`, response: `  ${qs[0].answer[0].toUpperCase()} ` }));
+  assert.strictEqual(g.correct, true);
+});
+
+test('srs: 雅思复习题作答不是字符串返回 400，不存在的题返回 404', async () => {
+  const list = isOk(await get('/api/ielts/reading'));
+  const id = `ir:${list.items[0].id}:q1`;
+  isErr400(await post('/api/srs/grade', { id, response: 123 }), 'response 非字符串');
+  isErr400(await post('/api/srs/grade', { id, response: 'x'.repeat(201) }), 'response 超长');
+  isErr4xx(await post('/api/srs/grade', { id: 'ir:no-such-passage:q1', response: 'TRUE' }), '不存在的题');
+});
+
+// =====================================================================
 // 主流程
 // =====================================================================
 function cleanupTrash(tempId) {
