@@ -1,0 +1,217 @@
+[
+  {
+    "id": "l3-dissertation-topic",
+    "part": 3,
+    "title": "Choosing a dissertation topic",
+    "titleCn": "与导师讨论毕业论文选题",
+    "intro": "Part 3. You will hear a geography student, Elena, discussing possible dissertation topics with her tutor, Dr Grant.",
+    "speakers": [
+      { "id": "grant", "name": "Dr Grant (tutor)", "gender": "male" },
+      { "id": "elena", "name": "Elena", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "grant", "text": "Come in, Elena, and have a seat. You said in your email that you wanted to talk about your dissertation topic." },
+      { "speaker": "elena", "text": "Yes. I'm afraid I need to change it. I was planning to study cliff erosion at Pelham Bay, and I'm still really keen on coastal topics. But the cliff path has been closed since the landslide in March, and the council says it won't reopen until next year. So I simply can't get to my fieldwork site." },
+      { "speaker": "grant", "text": "That's bad luck, but it happens more often than you'd think, and you've still got plenty of time. The proposal isn't due until December. So, what are you thinking of instead?" },
+      { "speaker": "elena", "text": "Well, I've got four possible ideas, but I'm not sure how to choose between them. I'd really like to pick something completely original." },
+      { "speaker": "grant", "text": "Originality is nice, but at undergraduate level it isn't essential. And of course it helps if you enjoy the topic. But what really matters is whether you can collect enough data in the time you've got. That's what I'd focus on. Where did your ideas come from, by the way?" },
+      { "speaker": "elena", "text": "I spent a morning in the library looking through old dissertations, but to be honest, they mostly put me off. I also read some journal articles, which were a bit too technical for me. The most useful thing was actually a conversation with a volunteer from the Flood Action Group in my home town. That gave me most of my ideas." },
+      { "speaker": "grant", "text": "Good. Let's go through them one by one, then." },
+      { "speaker": "elena", "text": "The first one is about the new tram line in the city centre, and whether it has helped the small shops along the route." },
+      { "speaker": "grant", "text": "It's a good question, and it would certainly look good to employers if you want to work in planning. The problem is that the council collects the figures on how many people walk past the shops, and they won't publish the latest data until the end of next year. That's too late for you." },
+      { "speaker": "elena", "text": "OK. The second idea was about second homes in coastal villages, and how they affect local communities." },
+      { "speaker": "grant", "text": "I'd be careful there. A student in last year's group did almost exactly the same project, and the examiners would be bound to compare the two." },
+      { "speaker": "elena", "text": "Right. The third one is about how aware people in my home town are of the risk of flooding. That's the one the volunteer suggested, and I go home most weekends anyway, so travel wouldn't be a problem." },
+      { "speaker": "grant", "text": "That's very promising, and I'm sure you'd get a lot of local support. But you'd be interviewing residents, including some elderly people, so you'd need approval from the university's ethics committee before you start. That usually takes about six weeks." },
+      { "speaker": "elena", "text": "And the last one was about green spaces in cities and people's well-being." },
+      { "speaker": "grant", "text": "It's an interesting area, but as it stands, it's far too wide. You'd need to focus on one park, or one group of people, at the very least." },
+      { "speaker": "elena", "text": "So I think it has to be the flood one, even if I have to wait for approval." },
+      { "speaker": "grant", "text": "I agree. Then the first thing to do is apply to the ethics committee. Applications for the next meeting have to be in by the 14th of October, so don't leave it too late." },
+      { "speaker": "elena", "text": "I'll do it this week. And how long should the interviews be? I was thinking of about an hour each." },
+      { "speaker": "grant", "text": "That's far too long. People get tired, and you'd spend weeks typing them up. Keep each one to 20 minutes at most." },
+      { "speaker": "elena", "text": "That makes sense. Can I start as soon as I get approval?" },
+      { "speaker": "grant", "text": "Not quite. Before the real interviews, do a small pilot study with four or five people, just to check that your questions make sense. Friends and family are fine for that." },
+      { "speaker": "elena", "text": "Great. Thanks, Dr Grant. That's really helpful." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 21, "prompt": "Why does Elena need to change her dissertation topic?",
+            "options": [
+              { "key": "A", "text": "She has lost interest in coastal topics." },
+              { "key": "B", "text": "She cannot reach the place she planned to study." },
+              { "key": "C", "text": "Her tutor thinks the topic is too difficult." }
+            ],
+            "answer": ["B"], "segment": 1, "evidence": "I simply can't get to my fieldwork site",
+            "explanation": "她仍然对海岸话题很感兴趣（still really keen，排除 A）；山崖小路因滑坡封闭、明年才开放，去不了野外考察地点。导师没有说题目太难（C 未提及）。" },
+          { "no": 22, "prompt": "According to Dr Grant, what is the most important thing when choosing a topic?",
+            "options": [
+              { "key": "A", "text": "finding something nobody has studied before" },
+              { "key": "B", "text": "being able to collect enough information" },
+              { "key": "C", "text": "choosing something she enjoys" }
+            ],
+            "answer": ["B"], "segment": 4, "evidence": "what really matters is whether you can collect enough data",
+            "explanation": "原创性在本科阶段不是必须的（排除 A），喜欢这个题目有帮助但不是最重要的（排除 C）；But what really matters 引出重点：能否在有限时间内收集到足够数据。data ≈ information。" },
+          { "no": 23, "prompt": "Where did Elena get most of her ideas?",
+            "options": [
+              { "key": "A", "text": "from previous students' dissertations" },
+              { "key": "B", "text": "from academic journals" },
+              { "key": "C", "text": "from a member of a local organisation" }
+            ],
+            "answer": ["C"], "segment": 5, "evidence": "a conversation with a volunteer from the Flood Action Group",
+            "explanation": "往届论文让她更没信心（put me off，排除 A），期刊文章太专业（排除 B）；最有用的是和家乡防洪行动小组一位志愿者的谈话，volunteer from the Flood Action Group ≈ a member of a local organisation。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 6,
+        "instruction": "What problem does Dr Grant mention for each possible topic? Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 24-27.",
+        "optionsTitle": "Problems",
+        "options": [
+          { "key": "A", "text": "It is too similar to a recent project." },
+          { "key": "B", "text": "The data she needs will not be published in time." },
+          { "key": "C", "text": "It is too broad." },
+          { "key": "D", "text": "It would involve too much travel." },
+          { "key": "E", "text": "It cannot start without official approval." },
+          { "key": "F", "text": "It is unlikely to interest employers." }
+        ],
+        "questions": [
+          { "no": 24, "prompt": "the effect of a tram line on small shops", "answer": ["B"], "segment": 8, "evidence": "they won't publish the latest data until the end of next year",
+            "explanation": "导师说这个题目对就业有好处（与 F 相反）；问题在于市政要到明年底才公布最新的人流数据，对她来说太晚了。" },
+          { "no": 25, "prompt": "second homes in coastal villages", "answer": ["A"], "segment": 10, "evidence": "did almost exactly the same project",
+            "explanation": "去年有学生做过几乎一模一样的课题，考官一定会拿来比较，对应 too similar to a recent project。" },
+          { "no": 26, "prompt": "awareness of flood risk", "answer": ["E"], "segment": 12, "evidence": "you'd need approval from the university's ethics committee",
+            "explanation": "Elena 说自己常回家，交通不成问题（D 干扰）；导师指出要访谈居民（包括老人），开始前必须获得大学伦理委员会批准，约需六周。" },
+          { "no": 27, "prompt": "green spaces and well-being", "answer": ["C"], "segment": 14, "evidence": "it's far too wide",
+            "explanation": "far too wide ≈ too broad，导师建议至少把范围缩小到一个公园或一类人群。" }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "from": 15,
+        "instruction": "Complete the sentences below.",
+        "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+        "questions": [
+          { "no": 28, "prompt": "Elena must send her application to the ethics committee by ___.", "answer": ["14th of October", "14 October", "14th October", "October 14", "October 14th"], "segment": 16,
+            "explanation": "下一次会议的申请截止日期是 the 14th of October。14 October、14th October、October 14 等写法都算对；the 14th of October 是三个词加一个数字，超出字数限制。" },
+          { "no": 29, "prompt": "Each interview should last no more than ___ minutes.", "answer": ["20", "twenty"], "segment": 18,
+            "explanation": "Elena 想每次访谈一小时（干扰），导师说太长，最多 20 分钟。写 20 或 twenty 都算对。" },
+          { "no": 30, "prompt": "Before the main interviews, Elena should carry out a ___ study.", "answer": ["pilot"], "segment": 20,
+            "explanation": "正式访谈前先找四五个人做一次 pilot study（预调查），检查问题是否清楚。题目已给出 study，只填 pilot。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3-lab-data",
+    "part": 3,
+    "title": "Discussing the results of a lab experiment",
+    "titleCn": "与导师分析实验数据",
+    "intro": "Part 3. You will hear two biology students, Josh and Mei, discussing the results of an experiment with their lab supervisor, Dr Okoye.",
+    "speakers": [
+      { "id": "okoye", "name": "Dr Okoye (lab supervisor)", "gender": "female" },
+      { "id": "josh", "name": "Josh", "gender": "male" },
+      { "id": "mei", "name": "Mei", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "okoye", "text": "Hi, Josh, Mei. Come and sit down. So, you've finished the germination experiment. How did it go?" },
+      { "speaker": "josh", "text": "Mostly as we expected. We grew cress seeds in plain water and in three different salt solutions, and on the whole, the more salt there was, the fewer seeds germinated. In the strongest solution, only about a fifth of them germinated, which is roughly what the textbook predicted." },
+      { "speaker": "mei", "text": "But there was one thing we didn't expect. The seeds in the weakest salt solution actually did slightly better than the ones in plain water. We were sure plain water would give the best result." },
+      { "speaker": "okoye", "text": "That does happen sometimes. A very small amount of salt can actually help some seeds. It's worth mentioning in your discussion. What about the individual trays? Any problems?" },
+      { "speaker": "josh", "text": "Yes, tray four. Its results were completely different from the other two trays with the same solution. At first we thought we'd mixed up the labels, but we checked our notes and they were fine. Then Mei remembered that tray four was right next to the radiator." },
+      { "speaker": "mei", "text": "So it probably got much warmer than the others, and the soil dried out faster. Should we just delete those results?" },
+      { "speaker": "okoye", "text": "No, don't delete them. And repeating the whole experiment isn't realistic before the deadline, either. Keep tray four in your table, but explain in your discussion why you think it's different. Examiners like to see that you've noticed a problem and thought about it." },
+      { "speaker": "josh", "text": "OK. And for the graph, I was going to do a bar chart showing the final number of seeds that germinated in each solution." },
+      { "speaker": "okoye", "text": "You could, but you counted the seeds every day for ten days, didn't you? A line graph would be much better, because it shows how germination changed over time. A bar chart of the final totals would waste most of your data." },
+      { "speaker": "mei", "text": "Right. Then we should probably divide up the rest of the work. There's quite a lot to do." },
+      { "speaker": "josh", "text": "I don't mind doing the averages. I've already put all the counts into a spreadsheet, so it won't take long." },
+      { "speaker": "mei", "text": "Actually, Josh, you made a couple of mistakes in the spreadsheet last time. Why don't I calculate the averages, and you draw the graph? You're much better at that than I am." },
+      { "speaker": "josh", "text": "Fair enough. I'll do the graph, then." },
+      { "speaker": "okoye", "text": "And what about the method section? That needs to be written carefully, so that someone else could repeat exactly what you did." },
+      { "speaker": "mei", "text": "We thought we'd write that together, because we each did different parts of the practical work." },
+      { "speaker": "okoye", "text": "Good. Now, for your next experiment, I'd like you to collect a bit more information. Counting the seeds that germinate is fine, but this time, measure the root length of each seedling as well. That tells you much more about how healthy the plants are." },
+      { "speaker": "josh", "text": "Should we use the same seeds again?" },
+      { "speaker": "okoye", "text": "Cress is fine, but buy them all from the same supplier, because different batches can behave quite differently. And use distilled water for the control, not tap water, because tap water already contains small amounts of salt." },
+      { "speaker": "mei", "text": "OK. And when do you need the report?" },
+      { "speaker": "okoye", "text": "The deadline is Friday the 6th of December, but I'd like to see a draft a week before that, so I can give you some feedback." },
+      { "speaker": "josh", "text": "We'll get it to you by then. Thanks, Dr Okoye." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 21, "prompt": "What surprised the students about their results?",
+            "options": [
+              { "key": "A", "text": "Fewer seeds germinated as the amount of salt increased." },
+              { "key": "B", "text": "Seeds in a weak salt solution did better than those in plain water." },
+              { "key": "C", "text": "Some seeds germinated even in the strongest solution." }
+            ],
+            "answer": ["B"], "segment": 2, "evidence": "The seeds in the weakest salt solution actually did slightly better than the ones in plain water",
+            "explanation": "盐越多发芽越少是意料之中（Mostly as we expected，排除 A）；最浓溶液约五分之一发芽，也和教科书预测一致（排除 C）；意外的是最淡的盐溶液比清水组还略好。" },
+          { "no": 22, "prompt": "What do the students think caused the unusual results in tray four?",
+            "options": [
+              { "key": "A", "text": "The labels on the trays were mixed up." },
+              { "key": "B", "text": "The tray was too close to a source of heat." },
+              { "key": "C", "text": "The seeds were counted on the wrong day." }
+            ],
+            "answer": ["B"], "segment": 4, "evidence": "tray four was right next to the radiator",
+            "explanation": "一开始以为标签贴混了，但查记录没问题（排除 A）；后来想起四号托盘紧挨着暖气片（radiator ≈ a source of heat）。" },
+          { "no": 23, "prompt": "What does Dr Okoye advise them to do about tray four?",
+            "options": [
+              { "key": "A", "text": "leave it out of the results" },
+              { "key": "B", "text": "include it and explain it" },
+              { "key": "C", "text": "repeat the experiment" }
+            ],
+            "answer": ["B"], "segment": 6, "evidence": "Keep tray four in your table, but explain in your discussion why you think it's different",
+            "explanation": "导师说不要删（排除 A），截止前重做整个实验不现实（排除 C）；保留在表格里，并在讨论部分解释原因。" },
+          { "no": 24, "prompt": "What kind of graph does Dr Okoye recommend?",
+            "options": [
+              { "key": "A", "text": "one showing only the final totals" },
+              { "key": "B", "text": "one showing changes from day to day" },
+              { "key": "C", "text": "one comparing the individual trays" }
+            ],
+            "answer": ["B"], "segment": 8, "evidence": "it shows how germination changed over time",
+            "explanation": "Josh 想用柱状图只画最终发芽数（A 干扰），导师说他们每天都计数了十天，用折线图更好，能显示发芽数随时间的变化。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 9,
+        "instruction": "Who will do each of the following tasks? Write the correct letter, A, B or C, next to Questions 25-27.",
+        "optionsTitle": "People",
+        "options": [
+          { "key": "A", "text": "Josh" },
+          { "key": "B", "text": "Mei" },
+          { "key": "C", "text": "Josh and Mei together" }
+        ],
+        "questions": [
+          { "no": 25, "prompt": "calculating the averages", "answer": ["B"], "segment": 11, "evidence": "Why don't I calculate the averages",
+            "explanation": "Josh 先主动提出算平均值（A 干扰），但 Mei 指出他上次表格出过错，提议由她来算。" },
+          { "no": 26, "prompt": "drawing the graph", "answer": ["A"], "segment": 12, "evidence": "I'll do the graph",
+            "explanation": "Mei 说 Josh 画图更好，Josh 同意：I'll do the graph, then。" },
+          { "no": 27, "prompt": "writing the method section", "answer": ["C"], "segment": 14, "evidence": "We thought we'd write that together",
+            "explanation": "两人各自做了不同部分的实验操作，所以方法部分一起写。" }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "from": 15,
+        "instruction": "Complete the sentences below.",
+        "wordLimit": "NO MORE THAN TWO WORDS",
+        "questions": [
+          { "no": 28, "prompt": "In the next experiment, they should also measure the ___ of each seedling.", "answer": ["root length"], "segment": 15,
+            "explanation": "除了数发芽的种子，下次还要测量每株幼苗的 root length（根长），更能反映植株是否健康。" },
+          { "no": 29, "prompt": "For the control, they should use ___ water instead of tap water.", "answer": ["distilled"], "segment": 17,
+            "explanation": "自来水本身含少量盐，所以对照组要用 distilled water（蒸馏水）。题目已给出 water，只填 distilled。" },
+          { "no": 30, "prompt": "They should send Dr Okoye a ___ one week before the deadline.", "answer": ["draft"], "segment": 19,
+            "explanation": "截止日期是 12 月 6 日周五（干扰信息），导师希望提前一周先看 draft（初稿）以便给反馈。" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "l4-urban-beekeeping",
+    "part": 4,
+    "title": "Urban beekeeping and wild bees",
+    "titleCn": "城市养蜂的利与弊",
+    "intro": "Part 4. You will hear a lecture about keeping bees in cities and how it may affect wild bees.",
+    "speakers": [
+      { "id": "ellison", "name": "Dr Ruth Ellison (lecturer)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "ellison", "text": "Good afternoon. In today's lecture, I'm going to look at a trend that has spread through many European and North American cities over the last twenty years or so: urban beekeeping. We'll look at why it has become so popular, and then at a question that ecologists are increasingly asking, which is whether it actually helps bees at all." },
+      { "speaker": "ellison", "text": "Let's start with the reasons for its popularity. The main one, without doubt, is public concern about the decline of bees. Newspaper stories about disappearing bees made many people feel that they should do something practical to help, and keeping a hive seemed an obvious way to do it." },
+      { "speaker": "ellison", "text": "A second reason is that beekeepers have discovered that cities are surprisingly good places to keep bees. Town gardens, parks and even railway banks contain a huge variety of plants, which flower at different times of the year. And far fewer pesticides are used in cities than on farmland." },
+      { "speaker": "ellison", "text": "Businesses have also played a part. Many companies now keep hives on their office roofs. They say this is to support the environment, but for some of them, it's mainly a way of improving their image, and the honey makes a popular gift for clients." },
+      { "speaker": "ellison", "text": "So far, so positive. But here's the problem. When people talk about saving the bees, they usually mean honeybees. Yet honeybees are just one species, and they are not in danger. They're managed by beekeepers, rather like farm animals. The bees that really are declining are the wild species, such as bumblebees and the many kinds of solitary bees, which live alone rather than in colonies." },
+      { "speaker": "ellison", "text": "And this is where urban beekeeping may cause harm. A single honeybee colony can contain fifty thousand bees, and they all need feeding. In one study of a large European city, researchers found that in the busiest areas there were so many hives that there simply wasn't enough nectar and pollen to go round. And it was the wild bees, which can't fly as far to find food, that lost out." },
+      { "speaker": "ellison", "text": "There's also the risk of disease. Honeybees can carry viruses, and these can be passed on to wild bees when both visit the same flowers. So in areas with a very high number of hives, wild bees may be more likely to become ill." },
+      { "speaker": "ellison", "text": "So, what can be done? I'd like to finish by looking at some of the solutions that have been suggested." },
+      { "speaker": "ellison", "text": "The first is simply to plant more. If there's more food available, honeybees and wild bees can share it more easily. Some cities are turning road verges and parts of parks into wildflower meadows, which provide food from spring until autumn." },
+      { "speaker": "ellison", "text": "A second idea is to control the number of hives. At the moment, in most cities, anyone can set up a hive without telling anyone. Several researchers have suggested that beekeepers should have to register their hives, so that local authorities know where they are and can see when an area is becoming overcrowded." },
+      { "speaker": "ellison", "text": "Third, people who want to help bees don't actually need to keep them. A bee hotel, which is a simple wooden box filled with hollow stems, gives solitary bees a place to lay their eggs. They're cheap and easy to make, and you can put one on a balcony." },
+      { "speaker": "ellison", "text": "Finally, education. Many new beekeepers simply don't realise that their hobby might affect wild bees. Some beekeeping associations now run courses which explain the difference between honeybees and wild species, and these seem to be changing people's attitudes." },
+      { "speaker": "ellison", "text": "Next week, we'll look in more detail at bumblebees, and at why some species have done so much worse than others." }
+    ],
+    "groups": [
+      {
+        "type": "note-completion",
+        "from": 0,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Urban beekeeping",
+        "questions": [
+          { "no": 31, "heading": "Reasons for its popularity", "prompt": "Public concern about the ___ of bees", "answer": ["decline"], "segment": 1,
+            "explanation": "最主要的原因是公众担心蜜蜂数量减少（the decline of bees）。注意拼写 decline，只填一个词。" },
+          { "no": 32, "prompt": "Cities have a great variety of plants and use fewer ___ than farms", "answer": ["pesticides"], "segment": 2,
+            "explanation": "城市植物种类多、花期错开，而且农药用得比农田少得多（far fewer pesticides）。注意填复数。" },
+          { "no": 33, "prompt": "Some companies keep hives mainly to improve their ___", "answer": ["image"], "segment": 3,
+            "explanation": "公司声称是为了环保，但对部分公司来说主要是为了改善形象（improving their image）。" },
+          { "no": 34, "heading": "Problems", "prompt": "Wild bees at risk include bumblebees and ___ bees", "answer": ["solitary"], "segment": 4,
+            "explanation": "蜜蜂（honeybees）由人饲养，并不濒危；真正在减少的是野生蜂，例如熊蜂和各种 solitary bees（独居蜂）。" },
+          { "no": 35, "prompt": "Too many hives: not enough ___ and pollen for wild bees", "answer": ["nectar"], "segment": 5,
+            "explanation": "蜂箱过多的地区，花蜜和花粉不够分（not enough nectar and pollen to go round），飞不远的野生蜂吃亏。题目已给出 pollen，填 nectar。" },
+          { "no": 36, "prompt": "Viruses can pass to wild bees when they visit the same ___", "answer": ["flowers"], "segment": 6,
+            "explanation": "蜜蜂携带的病毒会在两者访问同一批花时传给野生蜂（visit the same flowers）。注意填复数。" }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "from": 7,
+        "instruction": "Complete the summary below.",
+        "wordLimit": "NO MORE THAN TWO WORDS",
+        "title": "Possible solutions",
+        "questions": [
+          { "no": 37, "prompt": "More food could be provided by turning road verges and parts of parks into wildflower ___.", "answer": ["meadows"], "segment": 8,
+            "explanation": "一些城市把路边草地和公园的一部分改成野花草甸（wildflower meadows），从春到秋都有食物。题目已给出 wildflower，只填 meadows。" },
+          { "no": 38, "prompt": "Beekeepers could be made to ___ their hives, so that authorities know where they are.", "answer": ["register"], "segment": 9,
+            "explanation": "研究者建议养蜂人必须登记蜂箱（register their hives），让地方政府知道蜂箱位置、发现过度拥挤。" },
+          { "no": 39, "prompt": "People can help solitary bees by putting up a ___, which gives them somewhere to lay eggs.", "answer": ["bee hotel"], "segment": 10,
+            "explanation": "bee hotel 是填满空心茎秆的木盒，给独居蜂产卵用，便宜好做，阳台上也能放。两个词都要写，只写 hotel 意思不完整。" },
+          { "no": 40, "prompt": "Some beekeeping associations run ___ that explain how honeybees differ from wild species.", "answer": ["courses"], "segment": 11,
+            "explanation": "一些养蜂协会开设课程（run courses），讲解蜜蜂和野生蜂的区别，正在改变人们的看法。注意填复数。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l4-ancient-irrigation",
+    "part": 4,
+    "title": "Qanats: an ancient irrigation system",
+    "titleCn": "古代灌溉系统：地下水渠 qanat",
+    "intro": "Part 4. You will hear a lecture about an ancient way of bringing water to farmland in dry regions.",
+    "speakers": [
+      { "id": "hale", "name": "Professor Martin Hale (lecturer)", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "hale", "text": "Good morning, everyone. In this series, we've been looking at how early societies managed water. Today, I want to focus on one particular technology, the qanat, which allowed people to farm in some of the driest places on earth, and which is still in use today." },
+      { "speaker": "hale", "text": "A qanat is an underground channel that carries water from a source in the hills down to fields and villages on the plain below. The technology probably first appeared in what is now Iran, nearly three thousand years ago, and from there it spread across the Middle East and North Africa, and eventually as far as Spain." },
+      { "speaker": "hale", "text": "So how does a qanat work? The builders started by digging a well at the foot of a hill, to find out whether there was water underground, and how deep it was. This first well is known as the mother well, and some mother wells were more than a hundred metres deep." },
+      { "speaker": "hale", "text": "Then, starting from the fields, they dug a tunnel back towards the mother well. The tunnel had to slope very gently, usually by less than one metre per kilometre. If the slope was too steep, the water flowed too fast and wore away the floor and walls of the tunnel." },
+      { "speaker": "hale", "text": "Along the route, workers dug vertical shafts every twenty to fifty metres. These shafts had two purposes. They allowed the diggers to lift soil out of the tunnel, and they let in fresh air, so that the workers could breathe." },
+      { "speaker": "hale", "text": "The great advantage of the qanat was that, because the water travelled underground, very little of it was lost to the heat of the sun, even in summer. And because the channel was covered, the water also stayed clean, since sand and animals couldn't get into it." },
+      { "speaker": "hale", "text": "Building and repairing qanats was skilled and dangerous work. It was done by specialist diggers, who usually came from families that had done the job for generations. Tunnels could collapse at any time, and the diggers worked by the light of small oil lamps." },
+      { "speaker": "hale", "text": "Because a qanat was so expensive to build, a few were paid for by wealthy landowners, but most of them belonged to the whole village rather than to any one person." },
+      { "speaker": "hale", "text": "The water was then shared according to a strict timetable. Each farmer had the right to the water for a certain number of hours, and in some villages, a water clerk measured each farmer's time using a bowl with a small hole in it, which slowly sank as it filled with water." },
+      { "speaker": "hale", "text": "Today, many qanats have been abandoned. The main reason is the spread of modern electric pumps, which take water from deep wells far more quickly. Ironically, these pumps have lowered the level of water underground, so many of the qanats that are left have dried up." },
+      { "speaker": "hale", "text": "However, there is renewed interest in them. A group of Iranian qanats has been added to UNESCO's World Heritage List, and engineers in several countries are studying them as an example of how to supply water sustainably, without using any energy at all." },
+      { "speaker": "hale", "text": "Next time, we'll compare qanats with the stepwells of India, which solved the same problem in a completely different way." }
+    ],
+    "groups": [
+      {
+        "type": "note-completion",
+        "from": 0,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Qanats",
+        "questions": [
+          { "no": 31, "heading": "Origins", "prompt": "Probably first developed in what is now ___", "answer": ["Iran"], "segment": 1,
+            "explanation": "这项技术大约三千年前最早出现在今天的伊朗（what is now Iran），后来传到中东、北非，最远到西班牙（干扰）。" },
+          { "no": 32, "heading": "Construction", "prompt": "First, the ___ well was dug to find water", "answer": ["mother"], "segment": 2,
+            "explanation": "先在山脚挖第一口井，确认地下有没有水、水有多深，这口井叫 mother well（母井）。题目已给出 well，只填 mother。" },
+          { "no": 33, "prompt": "Tunnel slope: less than ___ metre per kilometre", "answer": ["1", "one"], "segment": 3,
+            "explanation": "隧道坡度很缓，通常每公里下降不到 one metre。写 1 或 one 都算对。" },
+          { "no": 34, "prompt": "Vertical shafts: for removing soil and letting in fresh ___", "answer": ["air"], "segment": 4,
+            "explanation": "竖井有两个作用：把土运出隧道、让新鲜空气进来（let in fresh air）。" },
+          { "no": 35, "heading": "Advantages", "prompt": "Little water lost to the sun, and water kept ___", "answer": ["clean"], "segment": 5,
+            "explanation": "水在地下流动，很少被太阳蒸发；水渠有遮盖，沙子和动物进不去，水保持干净（stayed clean）。" }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "from": 6,
+        "instruction": "Complete the summary below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Qanats and society",
+        "questions": [
+          { "no": 36, "prompt": "Qanats were built by specialist diggers, who usually came from ___ that had done the work for generations.", "answer": ["families"], "segment": 6,
+            "explanation": "挖掘工通常来自世代从事这一行的家族（came from families）。注意填复数。" },
+          { "no": 37, "prompt": "Most qanats belonged to the whole ___ rather than to one person.", "answer": ["village"], "segment": 7,
+            "explanation": "少数由富有的地主出资（干扰），但大多数归整个村子所有。" },
+          { "no": 38, "prompt": "The water was shared according to a strict ___.", "answer": ["timetable"], "segment": 8,
+            "explanation": "用水按严格的时间表分配，每个农户有固定小时数。后面提到的碗是计时工具，不是这里要填的词。" },
+          { "no": 39, "prompt": "Many qanats have dried up because modern ___ have lowered the level of underground water.", "answer": ["pumps"], "segment": 9,
+            "explanation": "现代电动水泵（modern electric pumps）抽水更快，使地下水位下降，许多 qanat 干涸。题目已有 modern，且限一个词，只填 pumps（electric pumps 是两个词，超出字数限制），注意复数。" },
+          { "no": 40, "prompt": "Engineers are interested in qanats because they supply water without using any ___.", "answer": ["energy"], "segment": 10,
+            "explanation": "工程师把 qanat 视为可持续供水的范例，因为完全不耗能（without using any energy at all）。" }
+        ]
+      }
+    ]
+  }
+]
