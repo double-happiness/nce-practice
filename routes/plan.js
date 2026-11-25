@@ -23,13 +23,14 @@ const SOURCE_LABEL = {
   'ielts-writing': '雅思写作',
   'ielts-speaking': '雅思口语',
   'ielts-reading': '雅思阅读',
+  'ielts-listening': '雅思听力',
   'ielts-vocab': '雅思词汇诊断',
 };
 
 // 听·说·读·写·记 五技能每日闭环。每个技能绑定已被记录的活动来源，做了即自动完成；tab 用于前端「去做 →」深链。
 // 各技能的每日目标数量由「水平预设」决定（见 LEVELS），描述里不写死数字。
 const SKILL_PLAN = [
-  { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation'], unit: '次', tab: 'dictation' },
+  { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation', 'ielts-listening'], unit: '次', tab: 'dictation' },
   { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue', 'ielts-speaking'], unit: '组', tab: 'dialogue' },
   { key: 'read', icon: '📖', label: '读', desc: '学新课精读 + 练本课题', sources: ['quiz', 'ielts-reading'], unit: '题', tab: 'learn' },
   { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform', 'ielts-writing'], unit: '组', tab: 'transform' },
