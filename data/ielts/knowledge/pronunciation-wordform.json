@@ -1,0 +1,2985 @@
+[
+  {
+    "id": "pron-vowels",
+    "domain": "pronunciation",
+    "track": "sounds",
+    "title": "长短元音与易混元音",
+    "titleEn": "Long and short vowels",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "listening"
+    ],
+    "order": 10,
+    "minutes": 20,
+    "summary": "分清 /iː/ 和 /ɪ/、/æ/ 和 /e/、/ɔː/ 和 /ɒ/，读准 /ʌ/，避免把 ship 读成 sheep 这类让考官听错词的问题。",
+    "sections": [
+      {
+        "heading": "/iː/ 与 /ɪ/：不只是长短不同",
+        "body": "很多同学以为 /iː/ 和 /ɪ/ 只差在一个拖长、一个不拖长，其实两者的**口型也不同**。发 /iː/ 时嘴角向两边拉开，舌头抬高、绷紧，像在微笑；发 /ɪ/ 时口型放松，舌位稍低，声音介于汉语「一」和「诶」之间，而且很短。\n\n如果把 /ɪ/ 读成拖长的「一」，ship 会被听成 sheep，live 会被听成 leave。口语考试里，这类错误会让考官停下来猜你说的是哪个词，直接影响发音分。\n\n练习方法：先对着镜子读**最小对立词**（只差一个音的两个词），确认嘴角和舌头的位置确实不同，再放进句子里读。",
+        "examples": [
+          {
+            "en": "ship, sheep",
+            "cn": "船；羊",
+            "note": "/ʃɪp/ vs /ʃiːp/"
+          },
+          {
+            "en": "live, leave",
+            "cn": "居住；离开",
+            "note": "/lɪv/ vs /liːv/"
+          },
+          {
+            "en": "fill, feel",
+            "cn": "装满；感觉",
+            "note": "/fɪl/ vs /fiːl/"
+          },
+          {
+            "en": "I would like to live near the sea.",
+            "cn": "我想住在海边。",
+            "note": "live /lɪv/ 短而松；sea /siː/ 长而紧"
+          }
+        ],
+        "table": {
+          "head": [
+            "/ɪ/ 短而松",
+            "/iː/ 长而紧"
+          ],
+          "rows": [
+            [
+              "ship /ʃɪp/",
+              "sheep /ʃiːp/"
+            ],
+            [
+              "live /lɪv/",
+              "leave /liːv/"
+            ],
+            [
+              "sit /sɪt/",
+              "seat /siːt/"
+            ],
+            [
+              "fill /fɪl/",
+              "feel /fiːl/"
+            ],
+            [
+              "bit /bɪt/",
+              "beat /biːt/"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "/æ/ 与 /e/：嘴张大还是半开",
+        "body": "/æ/ 是中国学习者最容易丢掉的元音。发 /æ/ 时**下巴明显往下拉**，嘴张得比说「哎」还大，舌尖抵住下齿；发 /e/ 时嘴只张开一半，接近汉语「诶」的开头。\n\n很多人把 bad 和 bed 读成一样，或者干脆把 /æ/ 读成「哎」。自查方法：读 bad 时，上下齿之间大约能放进一根手指；读 bed 时开口明显小一些。\n\n雅思口语的高频词里 /æ/ 很多，比如 family、plan、language、travel、transport、natural、actually。把这些词读准，整体发音会清楚很多。",
+        "examples": [
+          {
+            "en": "bad, bed",
+            "cn": "坏的；床",
+            "note": "/bæd/ vs /bed/"
+          },
+          {
+            "en": "man, men",
+            "cn": "男人；男人们",
+            "note": "/mæn/ vs /men/：单复数只靠这个元音区分"
+          },
+          {
+            "en": "My family travelled to Spain last year.",
+            "cn": "去年我们全家去了西班牙。",
+            "note": "family /ˈfæməli/，travelled /ˈtrævld/"
+          },
+          {
+            "en": "Actually, I prefer public transport.",
+            "cn": "其实我更喜欢公共交通。",
+            "note": "actually /ˈæktʃuəli/，transport /ˈtrænspɔːt/"
+          }
+        ],
+        "table": {
+          "head": [
+            "/æ/ 嘴张大",
+            "/e/ 半开"
+          ],
+          "rows": [
+            [
+              "bad /bæd/",
+              "bed /bed/"
+            ],
+            [
+              "man /mæn/",
+              "men /men/"
+            ],
+            [
+              "sat /sæt/",
+              "set /set/"
+            ],
+            [
+              "had /hæd/",
+              "head /hed/"
+            ],
+            [
+              "pan /pæn/",
+              "pen /pen/"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "/ɔː/ 与 /ɒ/：都要圆唇",
+        "body": "/ɔː/ 和 /ɒ/ 都要**圆唇**。/ɔː/ 嘴唇收得更圆、更紧，声音拉长，像拖长的「哦」；/ɒ/ 是英式英语特有的短元音，嘴张得更大，唇略圆，声音短促。\n\n美式英语里 hot、stop 的元音更接近 /ɑː/。雅思不要求某一种口音，只要前后一致、听得清楚就行。本知识库统一用英式标音。\n\n另一组常见混淆是 walk 和 work：walk 是圆唇的 /ɔː/，work 是**不圆唇**的 /ɜː/，嘴唇放松，舌头居中。拼写里有 or 的 work、word、world 都读 /ɜː/。",
+        "examples": [
+          {
+            "en": "short, shot",
+            "cn": "短的；射击",
+            "note": "/ʃɔːt/ vs /ʃɒt/"
+          },
+          {
+            "en": "sport, spot",
+            "cn": "运动；地点",
+            "note": "/spɔːt/ vs /spɒt/"
+          },
+          {
+            "en": "walk, work",
+            "cn": "走路；工作",
+            "note": "/wɔːk/ 圆唇 vs /wɜːk/ 不圆唇"
+          },
+          {
+            "en": "I usually walk to work in the morning.",
+            "cn": "我通常早上走路去上班。",
+            "note": "walk /wɔːk/，work /wɜːk/，morning /ˈmɔːnɪŋ/"
+          }
+        ],
+        "table": {
+          "head": [
+            "/ɒ/ 短",
+            "/ɔː/ 长"
+          ],
+          "rows": [
+            [
+              "pot /pɒt/",
+              "port /pɔːt/"
+            ],
+            [
+              "shot /ʃɒt/",
+              "short /ʃɔːt/"
+            ],
+            [
+              "cot /kɒt/",
+              "caught /kɔːt/"
+            ],
+            [
+              "spot /spɒt/",
+              "sport /spɔːt/"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "/ʌ/：短促、不圆唇",
+        "body": "/ʌ/ 出现在 cup、love、money、country、study 等常用词里。发音时嘴自然半开，**不圆唇**，舌头放平居中，声音短促，像轻轻说半个「啊」。\n\n常见偏差有两种：一是读成圆唇的 /ɒ/，把 cut 读得像 cot；二是拖长成 /ɑː/，把 cut 读得像 cart。\n\n注意，很多拼写为 o 的词也读 /ʌ/，比如 money、mother、come、some、son、done，以及 London 的第一个 o。这些词要单独记。",
+        "examples": [
+          {
+            "en": "cut, cot, cart",
+            "cn": "切；婴儿床；手推车",
+            "note": "/kʌt/ vs /kɒt/ vs /kɑːt/"
+          },
+          {
+            "en": "cup, cap",
+            "cn": "杯子；帽子",
+            "note": "/kʌp/ vs /kæp/"
+          },
+          {
+            "en": "My mother loves her country.",
+            "cn": "我妈妈热爱她的国家。",
+            "note": "mother /ˈmʌðə/，loves /lʌvz/，country /ˈkʌntri/"
+          },
+          {
+            "en": "I studied in London for a month.",
+            "cn": "我在伦敦学习了一个月。",
+            "note": "studied /ˈstʌdid/，London /ˈlʌndən/，month /mʌnθ/"
+          }
+        ],
+        "table": {
+          "head": [
+            "拼写",
+            "读 /ʌ/ 的例词"
+          ],
+          "rows": [
+            [
+              "u",
+              "cup /kʌp/, sun /sʌn/, study /ˈstʌdi/"
+            ],
+            [
+              "o",
+              "son /sʌn/, money /ˈmʌni/, come /kʌm/"
+            ],
+            [
+              "ou",
+              "country /ˈkʌntri/, young /jʌŋ/, enough /ɪˈnʌf/"
+            ],
+            [
+              "oo",
+              "blood /blʌd/, flood /flʌd/"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "live 读成 /liːv/，I live in Beijing 听起来像 I leave Beijing",
+        "right": "live /lɪv/：短而松，嘴角不向两边拉",
+        "why": "普通话没有长短元音的对立，容易把 /ɪ/ 都读成拖长的「一」，考官可能因此误解句意。"
+      },
+      {
+        "wrong": "bad 和 bed 都读成 /bed/",
+        "right": "bad /bæd/ 下巴拉低；bed /bed/ 嘴半开",
+        "why": "普通话没有 /æ/，很多人用「诶」或「哎」代替，结果 man 和 men、had 和 head 分不清。"
+      },
+      {
+        "wrong": "cup 读成 /kɑːp/ 或 /kɒp/",
+        "right": "cup /kʌp/：短促、不圆唇",
+        "why": "受拼音 a 或 o 的影响，把 /ʌ/ 读长或读圆。"
+      },
+      {
+        "wrong": "work 读成 /wɔːk/，和 walk 一样",
+        "right": "work /wɜːk/：嘴唇放松不圆，舌头居中",
+        "why": "拼写里的 or 让人联想到 /ɔː/，但 work、word、world 都读 /ɜː/。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-vowels-q1",
+        "type": "mcq",
+        "q": "下面哪个词的元音和其他三个不同？",
+        "options": [
+          "seat",
+          "feel",
+          "leave",
+          "sit"
+        ],
+        "answer": "sit",
+        "explain": "seat /siːt/、feel /fiːl/、leave /liːv/ 都是长元音 /iː/；sit /sɪt/ 是短元音 /ɪ/。"
+      },
+      {
+        "id": "pron-vowels-q2",
+        "type": "mcq",
+        "q": "哪个词含有元音 /æ/？",
+        "options": [
+          "bed",
+          "said",
+          "bad",
+          "head"
+        ],
+        "answer": "bad",
+        "explain": "bad /bæd/ 含 /æ/。said /sed/ 和 head /hed/ 拼写里虽然有 a，但读 /e/。"
+      },
+      {
+        "id": "pron-vowels-q3",
+        "type": "mcq",
+        "q": "哪个词的重读元音是 /ʌ/？",
+        "options": [
+          "cart",
+          "cot",
+          "country",
+          "court"
+        ],
+        "answer": "country",
+        "explain": "cart /kɑːt/、cot /kɒt/、court /kɔːt/、country /ˈkʌntri/，只有 country 是 /ʌ/。"
+      },
+      {
+        "id": "pron-vowels-q4",
+        "type": "mcq",
+        "q": "下面哪个词的元音和其他三个不同？",
+        "options": [
+          "work",
+          "word",
+          "world",
+          "walk"
+        ],
+        "answer": "walk",
+        "explain": "work、word、world 都读不圆唇的 /ɜː/；walk /wɔːk/ 是圆唇长元音 /ɔː/，其中的 l 不发音。"
+      },
+      {
+        "id": "pron-vowels-q5",
+        "type": "mcq",
+        "q": "哪一组里的两个词元音相同？",
+        "options": [
+          "sport / spot",
+          "short / caught",
+          "man / men",
+          "fill / feel"
+        ],
+        "answer": "short / caught",
+        "explain": "short /ʃɔːt/ 和 caught /kɔːt/ 都是 /ɔː/。其他三组分别是 /ɔː/ 与 /ɒ/、/æ/ 与 /e/、/ɪ/ 与 /iː/。"
+      },
+      {
+        "id": "pron-vowels-q6",
+        "type": "fill",
+        "q": "money 里字母 o 的读音和 ___ 里的元音相同。（填 cup 或 cop）",
+        "answer": [
+          "cup"
+        ],
+        "explain": "money /ˈmʌni/ 的 o 读 /ʌ/，和 cup /kʌp/ 相同；cop /kɒp/ 是圆唇的 /ɒ/。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dictation",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "pron-consonants",
+    "domain": "pronunciation",
+    "track": "sounds",
+    "title": "中国学习者常见辅音难点",
+    "titleEn": "Tricky consonants for Chinese learners",
+    "level": "A2",
+    "skills": [
+      "speaking",
+      "listening"
+    ],
+    "order": 20,
+    "minutes": 25,
+    "summary": "读准 th、v 和 w、l 和 n、l 和 r，改掉词尾辅音后加元音的习惯，让考官不再误听你的关键词。",
+    "sections": [
+      {
+        "heading": "th：/θ/ 与 /ð/ 要把舌尖放出来",
+        "body": "普通话没有 th 音，很多人用 /s/、/z/ 或 /f/、/d/ 代替：think 读成 sink，three 读成 free，this 读成 dis。\n\n正确方法：**舌尖轻放在上下门牙之间**，或者贴住上门牙背面，让气流从舌头和牙齿的缝隙里摩擦出来。/θ/ 是清音，用手摸喉咙感觉不到振动；/ð/ 是浊音，喉咙有振动。\n\n规律：the、this、that、they、there、with 这类功能词里的 th 一般读 /ð/；think、thank、three、health、month 这类实词里的 th 多读 /θ/。名词和动词有时靠 th 的清浊区分，比如 breath 和 breathe。",
+        "examples": [
+          {
+            "en": "think, sink",
+            "cn": "想；下沉",
+            "note": "/θɪŋk/ vs /sɪŋk/"
+          },
+          {
+            "en": "three, free",
+            "cn": "三；免费的",
+            "note": "/θriː/ vs /friː/"
+          },
+          {
+            "en": "they, day",
+            "cn": "他们；天",
+            "note": "/ðeɪ/ vs /deɪ/"
+          },
+          {
+            "en": "I think their health is getting better.",
+            "cn": "我认为他们的健康状况正在好转。",
+            "note": "think /θɪŋk/，their /ðeə/，health /helθ/"
+          }
+        ],
+        "table": {
+          "head": [
+            "清音 /θ/",
+            "浊音 /ð/"
+          ],
+          "rows": [
+            [
+              "think /θɪŋk/",
+              "this /ðɪs/"
+            ],
+            [
+              "three /θriː/",
+              "they /ðeɪ/"
+            ],
+            [
+              "month /mʌnθ/",
+              "mother /ˈmʌðə/"
+            ],
+            [
+              "health /helθ/",
+              "weather /ˈweðə/"
+            ],
+            [
+              "breath /breθ/ (n.)",
+              "breathe /briːð/ (v.)"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "v 与 w：咬唇还是圆唇",
+        "body": "/v/ 是**上齿轻咬下唇**、喉咙振动的摩擦音；/w/ 是**双唇先收圆再迅速张开**，上齿完全不碰嘴唇。不少同学把两个音都读成 /w/（very 读成 wery），也有人反过来把 /w/ 读成 /v/（west 读成 vest）。\n\n自查方法：读 very 时，如果上齿没有碰到下唇，就读错了；读 wet 时，如果上齿碰到了下唇，也读错了。\n\n雅思口语里大量高频词含 /v/：very、village、environment、government、develop、improve、involve、every。这些词出现得太频繁，值得逐个练熟。",
+        "examples": [
+          {
+            "en": "vest, west",
+            "cn": "背心；西方",
+            "note": "/vest/ vs /west/"
+          },
+          {
+            "en": "vine, wine",
+            "cn": "葡萄藤；葡萄酒",
+            "note": "/vaɪn/ vs /waɪn/"
+          },
+          {
+            "en": "We visited a village in the west of Wales.",
+            "cn": "我们参观了威尔士西部的一个村庄。",
+            "note": "/v/：visited /ˈvɪzɪtɪd/，village /ˈvɪlɪdʒ/；/w/：we /wiː/，west /west/，Wales /weɪlz/"
+          },
+          {
+            "en": "The government wants to improve the environment.",
+            "cn": "政府想改善环境。",
+            "note": "government /ˈɡʌvənmənt/，improve /ɪmˈpruːv/，environment /ɪnˈvaɪrənmənt/"
+          }
+        ]
+      },
+      {
+        "heading": "l 与 n、l 与 r",
+        "body": "**l 与 n**：部分方言区 n、l 不分，把 night 读成 light，或者把 no 读成 low。两个音舌尖都抵住上齿龈，区别在气流：/n/ 是鼻音，气流从**鼻子**出来，捏住鼻子就发不出来；/l/ 的气流从**舌头两侧**出来，捏住鼻子照样能发。\n\n**l 与 r**：发 /r/ 时舌尖**不碰**任何地方，只是向上齿龈方向卷起靠近，嘴唇略圆；发 /l/ 时舌尖必须贴住上齿龈。也不要把 /r/ 读成带摩擦的拼音 r。\n\n**词尾的 l**：在 feel、school、people、will 的末尾，舌尖仍然抵住上齿龈，同时舌后部抬起，听起来有点像轻轻的「欧」。不要把它完全吞掉，也不要读成「了」。",
+        "examples": [
+          {
+            "en": "night, light",
+            "cn": "夜晚；光",
+            "note": "/naɪt/ vs /laɪt/"
+          },
+          {
+            "en": "no, low",
+            "cn": "不；低的",
+            "note": "/nəʊ/ vs /ləʊ/"
+          },
+          {
+            "en": "right, light",
+            "cn": "正确的；光",
+            "note": "/raɪt/ vs /laɪt/"
+          },
+          {
+            "en": "collect, correct",
+            "cn": "收集；正确的",
+            "note": "/kəˈlekt/ vs /kəˈrekt/"
+          },
+          {
+            "en": "The library is right next to the river.",
+            "cn": "图书馆就在河边。",
+            "note": "library /ˈlaɪbrəri/ 先 l 后 r；right /raɪt/ 和 river /ˈrɪvə/ 的 r 舌尖不碰上齿龈"
+          }
+        ]
+      },
+      {
+        "heading": "词尾辅音：不加元音，也不吞掉",
+        "body": "普通话的音节几乎都以元音或 n、ng 结尾，所以中国学习者常在英语词尾辅音后**多加一个元音**：good 读成 goodə，like 读成 likə，big 读成 bigə。这样单词会多出一个音节，节奏变慢，听起来很「中式」。\n\n相反的问题是**把词尾辅音吞掉**：world 读成 wor，test 读成 tes。过去式的 -ed、复数和第三人称单数的 -s 一旦被吞掉，考官会以为你犯了语法错误，语法分和发音分都会受影响。\n\n正确做法：词尾的 /p/ /t/ /k/ /b/ /d/ /ɡ/ 做出口型后**轻轻收住**，不加元音；/s/ /z/ /v/ 要发出来，但不要拖成「斯」「兹」「夫」。",
+        "examples": [
+          {
+            "en": "good",
+            "cn": "好的",
+            "note": "/ɡʊd/：一个音节，不要读成 /ˈɡʊdə/"
+          },
+          {
+            "en": "I like it.",
+            "cn": "我喜欢它。",
+            "note": "/aɪ ˈlaɪk ɪt/：like 的 /k/ 直接连到 it，不要读成 likə"
+          },
+          {
+            "en": "She worked hard and passed the test.",
+            "cn": "她学习很努力，通过了考试。",
+            "note": "worked /wɜːkt/、passed /pɑːst/ 的 -ed 读 /t/，要发出来；test /test/ 词尾的 /t/ 不能丢"
+          },
+          {
+            "en": "He lives in a big old house.",
+            "cn": "他住在一栋又大又旧的房子里。",
+            "note": "lives /lɪvz/ 的 /z/ 要发出来；big /bɪɡ/ 不要读成 bigə"
+          }
+        ],
+        "table": {
+          "head": [
+            "词尾",
+            "例词",
+            "常见错误"
+          ],
+          "rows": [
+            [
+              "-ed 读 /t/",
+              "worked /wɜːkt/, helped /helpt/",
+              "后面加元音，或把 -ed 整个吞掉"
+            ],
+            [
+              "-ed 读 /d/",
+              "lived /lɪvd/, played /pleɪd/",
+              "读成 /ˈlɪvɪd/，多出一个音节"
+            ],
+            [
+              "-ed 读 /ɪd/",
+              "wanted /ˈwɒntɪd/, needed /ˈniːdɪd/",
+              "只有词尾是 /t/ 或 /d/ 时才多一个音节"
+            ],
+            [
+              "-s 读 /s/、/z/、/ɪz/",
+              "books /bʊks/, dogs /dɒɡz/, buses /ˈbʌsɪz/",
+              "把 -s 吞掉，被当成语法错误"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "think 读成 /sɪŋk/（sink）",
+        "right": "think /θɪŋk/：舌尖放在上下齿之间送气",
+        "why": "普通话没有 /θ/，最容易用 /s/ 或 /f/ 代替，考官可能听成另一个词。"
+      },
+      {
+        "wrong": "very 读成 /ˈweri/",
+        "right": "very /ˈveri/：上齿轻咬下唇",
+        "why": "把 /v/ 读成 /w/ 是常见的方言影响，very、village、environment 这些高频词会反复出错。"
+      },
+      {
+        "wrong": "good 读成 /ˈɡʊdə/，big 读成 /ˈbɪɡə/",
+        "right": "good /ɡʊd/、big /bɪɡ/：词尾辅音轻轻收住",
+        "why": "汉语音节习惯以元音结尾，加了元音以后单词多出一个音节，整句节奏都会被拖慢。"
+      },
+      {
+        "wrong": "night 和 light 读得一样",
+        "right": "night /naɪt/ 气流走鼻腔；light /laɪt/ 气流走舌头两侧",
+        "why": "n、l 不分是常见的方言迁移问题，捏住鼻子就能自查。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-consonants-q1",
+        "type": "mcq",
+        "q": "哪个词里的 th 读清音 /θ/？",
+        "options": [
+          "they",
+          "mother",
+          "weather",
+          "health"
+        ],
+        "answer": "health",
+        "explain": "they /ðeɪ/、mother /ˈmʌðə/、weather /ˈweðə/ 都是浊音 /ð/；health /helθ/ 是清音 /θ/。"
+      },
+      {
+        "id": "pron-consonants-q2",
+        "type": "mcq",
+        "q": "worked 词尾的 -ed 读什么音？",
+        "options": [
+          "/t/",
+          "/d/",
+          "/ɪd/"
+        ],
+        "answer": "/t/",
+        "explain": "work 以清辅音 /k/ 结尾，-ed 读 /t/：worked /wɜːkt/，只有一个音节。"
+      },
+      {
+        "id": "pron-consonants-q3",
+        "type": "mcq",
+        "q": "下面哪个过去式比原形多一个音节？",
+        "options": [
+          "played",
+          "helped",
+          "wanted",
+          "lived"
+        ],
+        "answer": "wanted",
+        "explain": "只有词尾是 /t/ 或 /d/ 的动词，-ed 才读 /ɪd/、多出一个音节：wanted /ˈwɒntɪd/。played、helped、lived 都还是一个音节。"
+      },
+      {
+        "id": "pron-consonants-q4",
+        "type": "mcq",
+        "q": "发哪个音时，上齿要轻咬下唇？",
+        "options": [
+          "/w/",
+          "/v/",
+          "/l/",
+          "/r/"
+        ],
+        "answer": "/v/",
+        "explain": "/v/ 是唇齿音，上齿轻咬下唇；/w/ 是双唇收圆，上齿不碰嘴唇。"
+      },
+      {
+        "id": "pron-consonants-q5",
+        "type": "mcq",
+        "q": "捏住鼻子以后，哪个音发不出来？",
+        "options": [
+          "/l/",
+          "/n/",
+          "/r/",
+          "/v/"
+        ],
+        "answer": "/n/",
+        "explain": "/n/ 是鼻音，气流必须从鼻腔出来；/l/ 的气流从舌头两侧出来，捏住鼻子也能发。"
+      },
+      {
+        "id": "pron-consonants-q6",
+        "type": "fill",
+        "q": "good 读作 /ɡʊd/，有 ___ 个音节。（填数字）",
+        "answer": [
+          "1",
+          "one"
+        ],
+        "explain": "good 只有一个音节。如果在 /d/ 后面加元音读成 goodə，就变成了两个音节。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dictation",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "pron-word-stress",
+    "domain": "pronunciation",
+    "track": "stress",
+    "title": "单词重音",
+    "titleEn": "Word stress",
+    "level": "B1",
+    "skills": [
+      "speaking",
+      "listening"
+    ],
+    "order": 10,
+    "minutes": 25,
+    "summary": "掌握 -tion、-ic、-ity 等后缀的重音规律和名词、动词的重音差异，读对多音节学术词，听力里也能更快认出单词。",
+    "sections": [
+      {
+        "heading": "为什么重音这么重要",
+        "body": "英语的多音节词里，总有一个音节读得**更响、更长、音调更高**，这就是重音。其余音节往往弱化成 /ə/ 或 /ɪ/。汉语每个字都有声调，几乎同样清楚，所以中国学习者容易把每个音节读得一样重，或者把重音放错位置。\n\n重音放错往往比读错一个元音更影响理解：把 hotel 读成 HO-tel，把 develop 读成 DE-ve-lop，母语者要愣一下才能反应过来。听力也一样，如果你记住的重音是错的，录音里的词就会「听不出来」。\n\n标注说明：IPA 中的 ˈ 表示主重音，ˌ 表示次重音，都放在该音节前面。练习题里用大写字母标出重读音节，例如 de-VE-lop。",
+        "examples": [
+          {
+            "en": "hotel",
+            "cn": "酒店",
+            "note": "/həʊˈtel/：ho-TEL，重音在第二个音节"
+          },
+          {
+            "en": "develop",
+            "cn": "发展",
+            "note": "/dɪˈveləp/：de-VE-lop"
+          },
+          {
+            "en": "comfortable",
+            "cn": "舒适的",
+            "note": "/ˈkʌmftəbl/：重音在第一个音节，实际只读三个音节"
+          },
+          {
+            "en": "Our hotel was comfortable and quiet.",
+            "cn": "我们住的酒店舒适又安静。",
+            "note": "hotel /həʊˈtel/，comfortable /ˈkʌmftəbl/，quiet /ˈkwaɪət/"
+          }
+        ]
+      },
+      {
+        "heading": "后缀决定重音：-tion、-ic、-ity",
+        "body": "很多后缀会把重音固定在某个位置，记住规律就能读对一大批学术词。\n\n**-tion / -sion**：重音在后缀**前一个音节**。educate → e-du-CA-tion，decide → de-CI-sion。\n\n**-ic / -ical**：重音在后缀**前一个音节**。economy → e-co-NO-mic，history → his-TO-ri-cal。少数例外如 politics /ˈpɒlətɪks/。\n\n**-ity**：重音在后缀**前一个音节**。able → a-BI-li-ty，public → pub-LI-ci-ty。-ian、-ial、-ious 也遵守同样的规律。\n\n加上这些后缀以后，重音常常会**移动**，元音也跟着变：PHO-to-graph → pho-TO-gra-phy → pho-to-GRA-phic。所以不能只记词根的读音，派生词要单独确认。",
+        "examples": [
+          {
+            "en": "economy, economic",
+            "cn": "经济；经济的",
+            "note": "/ɪˈkɒnəmi/ → /ˌiːkəˈnɒmɪk/：e-CO-no-my → e-co-NO-mic"
+          },
+          {
+            "en": "photograph, photography, photographic",
+            "cn": "照片；摄影；摄影的",
+            "note": "/ˈfəʊtəɡrɑːf/ → /fəˈtɒɡrəfi/ → /ˌfəʊtəˈɡræfɪk/"
+          },
+          {
+            "en": "Public transport has become a political issue.",
+            "cn": "公共交通已经成为一个政治议题。",
+            "note": "political /pəˈlɪtɪkl/：重音在 -ical 前一个音节；对比 politics /ˈpɒlətɪks/"
+          },
+          {
+            "en": "We need the ability to adapt to new situations.",
+            "cn": "我们需要适应新情况的能力。",
+            "note": "ability /əˈbɪləti/，situations /ˌsɪtʃuˈeɪʃnz/"
+          }
+        ],
+        "table": {
+          "head": [
+            "后缀",
+            "重音位置",
+            "例词"
+          ],
+          "rows": [
+            [
+              "-tion / -sion",
+              "后缀前一个音节",
+              "e-du-CA-tion /ˌedʒuˈkeɪʃn/, de-CI-sion /dɪˈsɪʒn/"
+            ],
+            [
+              "-ic / -ical",
+              "后缀前一个音节",
+              "sci-en-TI-fic /ˌsaɪənˈtɪfɪk/, po-LI-ti-cal /pəˈlɪtɪkl/"
+            ],
+            [
+              "-ity",
+              "后缀前一个音节",
+              "a-BI-li-ty /əˈbɪləti/, u-ni-VER-si-ty /ˌjuːnɪˈvɜːsəti/"
+            ],
+            [
+              "-ian / -ial / -ious",
+              "后缀前一个音节",
+              "mu-SI-cian /mjuˈzɪʃn/, es-SEN-tial /ɪˈsenʃl/, mys-TE-ri-ous /mɪˈstɪəriəs/"
+            ],
+            [
+              "-graphy / -logy",
+              "后缀前一个音节",
+              "pho-TO-gra-phy /fəˈtɒɡrəfi/, tech-NO-lo-gy /tekˈnɒlədʒi/"
+            ],
+            [
+              "-ee / -eer / -ese",
+              "后缀本身",
+              "re-fu-GEE /ˌrefjuˈdʒiː/, vo-lun-TEER /ˌvɒlənˈtɪə/, Ja-pa-NESE /ˌdʒæpəˈniːz/"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "名词和动词重音不同的词",
+        "body": "有一批双音节词既能做名词又能做动词，拼写完全一样，但**名词重音在前，动词重音在后**，可以记成「名前动后」。\n\n重音移动后，非重读音节的元音也会弱化：record 作名词读 /ˈrekɔːd/，作动词读 /rɪˈkɔːd/。口语里如果把动词读成名词的重音，比如 I want to RE-cord it，考官会觉得别扭。\n\n雅思里常见的这类词：record、present、increase、decrease、export、import、permit、progress、object、conflict、contrast、protest、produce。\n\n注意，并不是所有名动同形词都这样：control、report、visit、answer 作名词和动词时重音相同。",
+        "examples": [
+          {
+            "en": "The athlete broke the world record.",
+            "cn": "这名运动员打破了世界纪录。",
+            "note": "record 作名词：/ˈrekɔːd/，RE-cord"
+          },
+          {
+            "en": "Could I record our conversation?",
+            "cn": "我可以录下我们的谈话吗？",
+            "note": "record 作动词：/rɪˈkɔːd/，re-CORD"
+          },
+          {
+            "en": "There was a sharp increase in house prices.",
+            "cn": "房价出现了大幅上涨。",
+            "note": "increase 作名词：/ˈɪŋkriːs/，IN-crease"
+          },
+          {
+            "en": "House prices increased sharply last year.",
+            "cn": "去年房价大幅上涨。",
+            "note": "increase 作动词：/ɪnˈkriːs/，in-CREASE；Task 1 描述图表时两种用法都常见"
+          }
+        ],
+        "table": {
+          "head": [
+            "单词",
+            "名词或形容词（重音在前）",
+            "动词（重音在后）"
+          ],
+          "rows": [
+            [
+              "record",
+              "/ˈrekɔːd/ 记录",
+              "/rɪˈkɔːd/ 录制，记录"
+            ],
+            [
+              "present",
+              "/ˈpreznt/ 礼物；现在的",
+              "/prɪˈzent/ 展示，呈现"
+            ],
+            [
+              "increase",
+              "/ˈɪŋkriːs/ 增长",
+              "/ɪnˈkriːs/ 增加"
+            ],
+            [
+              "export",
+              "/ˈekspɔːt/ 出口商品",
+              "/ɪkˈspɔːt/ 出口"
+            ],
+            [
+              "progress",
+              "/ˈprəʊɡres/ 进步",
+              "/prəˈɡres/ 进展"
+            ],
+            [
+              "object",
+              "/ˈɒbdʒɪkt/ 物体",
+              "/əbˈdʒekt/ 反对"
+            ],
+            [
+              "protest",
+              "/ˈprəʊtest/ 抗议活动",
+              "/prəˈtest/ 抗议"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "复合名词与 -teen / -ty",
+        "body": "**复合名词**通常重读第一部分：BOOK-shop、CLASS-room、BUS stop、CRE-dit card。\n\n**-teen 和 -ty**：thir-TEEN 重音在后，THIR-ty 重音在前。听力 Section 1 经常考数字，口语里说年龄、价格时也容易让人误会。\n\n要注意，-teen 的重音在快速口语里可能前移，比如 fifteen minutes 可能读成 FIF-teen MI-nutes。所以更可靠的区别是**元音**：-teen 是长元音 /iː/，-ty 是短元音 /i/。自己说的时候，-teen 的 /iː/ 要读得长而清楚。",
+        "examples": [
+          {
+            "en": "bookshop, classroom, bus stop",
+            "cn": "书店；教室；公交车站",
+            "note": "/ˈbʊkʃɒp/，/ˈklɑːsruːm/，/ˈbʌs stɒp/：重音都在第一部分"
+          },
+          {
+            "en": "thirteen, thirty",
+            "cn": "十三；三十",
+            "note": "/ˌθɜːˈtiːn/ vs /ˈθɜːti/"
+          },
+          {
+            "en": "The museum is fifteen minutes from here, not fifty.",
+            "cn": "博物馆离这里十五分钟，不是五十分钟。",
+            "note": "fifteen /ˌfɪfˈtiːn/，fifty /ˈfɪfti/；对比时 -teen 要读得长而清楚"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "develop 读成 DE-ve-lop /ˈdevələp/",
+        "right": "develop /dɪˈveləp/：de-VE-lop",
+        "why": "习惯把重音放在第一个音节。developer /dɪˈveləpə/、development /dɪˈveləpmənt/ 的重音同样在 VE。"
+      },
+      {
+        "wrong": "economic 照搬 economy 的重音，读成 e-CO-no-mic",
+        "right": "economic /ˌiːkəˈnɒmɪk/：重音移到 -ic 前一个音节",
+        "why": "加了 -ic、-ity、-tion 以后重音会移动，派生词不能照搬词根的读音。"
+      },
+      {
+        "wrong": "I want to RE-cord the lecture.",
+        "right": "I want to re-CORD the lecture.",
+        "why": "record 作动词时重音在后，名前动后。"
+      },
+      {
+        "wrong": "把 comfortable 读成四个一样重的音节：com-for-ta-ble",
+        "right": "comfortable /ˈkʌmftəbl/：重读第一个音节，其余弱读，实际只有三个音节",
+        "why": "汉语每个字都读得很清楚，迁移到英语后，非重读音节读得太重，节奏平而慢。"
+      },
+      {
+        "wrong": "thirteen 和 thirty 读得几乎一样",
+        "right": "thirteen /ˌθɜːˈtiːn/ 的 /iː/ 拉长；thirty /ˈθɜːti/ 结尾短",
+        "why": "听力填数字、口语报价格时最容易因此出错。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-word-stress-q1",
+        "type": "mcq",
+        "q": "education 的重音在哪个音节？",
+        "options": [
+          "E-du-ca-tion",
+          "e-DU-ca-tion",
+          "e-du-CA-tion",
+          "e-du-ca-TION"
+        ],
+        "answer": "e-du-CA-tion",
+        "explain": "-tion 前一个音节重读：education /ˌedʒuˈkeɪʃn/。"
+      },
+      {
+        "id": "pron-word-stress-q2",
+        "type": "mcq",
+        "q": "economic 的重音在哪个音节？",
+        "options": [
+          "E-co-no-mic",
+          "e-CO-no-mic",
+          "e-co-NO-mic",
+          "e-co-no-MIC"
+        ],
+        "answer": "e-co-NO-mic",
+        "explain": "-ic 前一个音节重读：economic /ˌiːkəˈnɒmɪk/。注意它和 economy /ɪˈkɒnəmi/ 的重音位置不同。"
+      },
+      {
+        "id": "pron-word-stress-q3",
+        "type": "mcq",
+        "q": "下面哪句里的 record 重音在第一个音节？",
+        "options": [
+          "Please record your answers on the sheet.",
+          "She holds the national record for the 100 metres.",
+          "They want to record a new album."
+        ],
+        "answer": "She holds the national record for the 100 metres.",
+        "explain": "这句里的 record 是名词，读 /ˈrekɔːd/，重音在前；另外两句是动词，读 /rɪˈkɔːd/。"
+      },
+      {
+        "id": "pron-word-stress-q4",
+        "type": "mcq",
+        "q": "哪个词的重音在第一个音节？",
+        "options": [
+          "hotel",
+          "develop",
+          "comfortable",
+          "decision"
+        ],
+        "answer": "comfortable",
+        "explain": "comfortable /ˈkʌmftəbl/ 重音在第一个音节；hotel /həʊˈtel/、develop /dɪˈveləp/、decision /dɪˈsɪʒn/ 都在第二个音节。"
+      },
+      {
+        "id": "pron-word-stress-q5",
+        "type": "mcq",
+        "q": "哪个词作名词和作动词时重音位置相同？",
+        "options": [
+          "record",
+          "increase",
+          "report",
+          "progress"
+        ],
+        "answer": "report",
+        "explain": "report 作名词、动词都读 /rɪˈpɔːt/；record、increase、progress 都是名词重音在前、动词重音在后。"
+      },
+      {
+        "id": "pron-word-stress-q6",
+        "type": "fill",
+        "q": "photograph 的重音在第 1 个音节，photography 的重音在第 ___ 个音节。（填数字）",
+        "answer": [
+          "2",
+          "two"
+        ],
+        "explain": "photography /fəˈtɒɡrəfi/：-graphy 前一个音节 TO 重读，即第 2 个音节。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dictionary",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "pron-sentence-stress",
+    "domain": "pronunciation",
+    "track": "stress",
+    "title": "句子重音与弱读",
+    "titleEn": "Sentence stress and weak forms",
+    "level": "B1",
+    "skills": [
+      "speaking",
+      "listening"
+    ],
+    "order": 20,
+    "minutes": 25,
+    "summary": "学会重读实词、弱读功能词，让口语有英语的轻重节奏；听力里也能听出被弱读的 to、for、can。",
+    "sections": [
+      {
+        "heading": "实词重读，功能词轻读",
+        "body": "英语句子里的词不是一样重的。**实词**（名词、实义动词、形容词、副词、否定词、疑问词）承载信息，通常重读；**功能词**（冠词、介词、助动词、代词、连词、be 动词）通常轻读，元音弱化。\n\n例如 I went to the shop for some bread. 重读的只有 went、shop、bread，其他词都轻而快。母语者靠重读词抓住意思，所以只要重读词清楚，整句就清楚。\n\n中国学习者最常见的问题是**每个词都重读**，一字一顿，听起来像机器在念。这会同时拉低流利度和发音分。",
+        "examples": [
+          {
+            "en": "I went to the shop for some bread.",
+            "cn": "我去商店买了些面包。",
+            "note": "重读 WENT、SHOP、BREAD；to /tə/、the /ðə/、for /fə/、some /səm/ 弱读"
+          },
+          {
+            "en": "She has been working here for two years.",
+            "cn": "她在这里工作两年了。",
+            "note": "重读 WORK-、HERE、TWO、YEARS；has /həz/、been /bɪn/、for /fə/ 弱读"
+          },
+          {
+            "en": "What do you do at the weekend?",
+            "cn": "你周末一般做什么？",
+            "note": "重读 WHAT、第二个 DO（实义动词）和 WEEKEND；第一个 do 弱读 /də/，at 弱读 /ət/"
+          }
+        ],
+        "table": {
+          "head": [
+            "通常重读（实词）",
+            "通常弱读（功能词）"
+          ],
+          "rows": [
+            [
+              "名词：shop, money, problem",
+              "冠词：a, an, the"
+            ],
+            [
+              "实义动词：go, think, believe",
+              "介词：to, for, of, at, from"
+            ],
+            [
+              "形容词、副词：big, quickly, really",
+              "助动词、情态动词：do, have, can, was"
+            ],
+            [
+              "否定词：not, never, can't",
+              "代词：you, him, them, her"
+            ],
+            [
+              "疑问词：what, where, why",
+              "连词：and, but, than, that"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "弱读式：/ə/ 是英语最常见的元音",
+        "body": "功能词在句子中间一般用**弱读式**，元音变成 /ə/，有时辅音也会脱落。/ə/ 叫 schwa，是英语里出现频率最高的元音：嘴巴放松、半开，舌头居中，发一个很短的「呃」。\n\n下面这些弱读式最常见。听力里一定要熟悉，否则会觉得录音里「少了词」。\n\n但这些词在**句末**、**被强调**或**单独说**时要用强读式。例如 Where are you from? 的 from 在句末，读 /frɒm/。另外，to 在元音前常读 /tu/，比如 to eat /tu ˈiːt/。",
+        "examples": [
+          {
+            "en": "I want to go to the cinema.",
+            "cn": "我想去看电影。",
+            "note": "/aɪ ˈwɒnt tə ˈɡəʊ tə ðə ˈsɪnəmə/：两个 to 都弱读成 /tə/"
+          },
+          {
+            "en": "This present is for my sister.",
+            "cn": "这份礼物是给我姐姐的。",
+            "note": "for 弱读 /fə/；present 作名词读 /ˈpreznt/"
+          },
+          {
+            "en": "Where are you from?",
+            "cn": "你是哪里人？",
+            "note": "are 弱读 /ə/；from 在句末，用强读式 /frɒm/"
+          }
+        ],
+        "table": {
+          "head": [
+            "单词",
+            "强读式",
+            "弱读式",
+            "例子"
+          ],
+          "rows": [
+            [
+              "to",
+              "/tuː/",
+              "/tə/",
+              "I want to go. /aɪ ˈwɒnt tə ˈɡəʊ/"
+            ],
+            [
+              "for",
+              "/fɔː/",
+              "/fə/",
+              "It's for you. /ɪts fə ˈjuː/"
+            ],
+            [
+              "can",
+              "/kæn/",
+              "/kən/",
+              "I can swim. /aɪ kən ˈswɪm/"
+            ],
+            [
+              "and",
+              "/ænd/",
+              "/ənd/ 或 /ən/",
+              "fish and chips /ˌfɪʃ ən ˈtʃɪps/"
+            ],
+            [
+              "of",
+              "/ɒv/",
+              "/əv/",
+              "a cup of tea /ə ˌkʌp əv ˈtiː/"
+            ],
+            [
+              "at",
+              "/æt/",
+              "/ət/",
+              "at home /ət ˈhəʊm/"
+            ],
+            [
+              "from",
+              "/frɒm/",
+              "/frəm/",
+              "from London /frəm ˈlʌndən/"
+            ],
+            [
+              "was",
+              "/wɒz/",
+              "/wəz/",
+              "It was late. /ɪt wəz ˈleɪt/"
+            ],
+            [
+              "than",
+              "/ðæn/",
+              "/ðən/",
+              "older than me /ˈəʊldə ðən ˈmiː/"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "can 与 can't：听元音，不只听 t",
+        "body": "英式英语里 can't 末尾的 t 常常几乎听不到，所以 can 和 can't 主要靠**元音和重音**区分。\n\n**肯定句里的 can**：不重读，读 /kən/，重音落在后面的动词上：I can SWIM.\n\n**否定的 can't**：重读，读长元音 /kɑːnt/：I CAN'T swim.\n\n所以听的时候，短而轻的 /kən/ 是 can，长而响的 /kɑːnt/ 是 can't。自己说的时候也要做到这一点，否则考官可能把你的意思听反。另外，句末或简短回答里的 can 要用强读式：Yes, I can. 读 /kæn/。",
+        "examples": [
+          {
+            "en": "I can cook, but I can't bake.",
+            "cn": "我会做饭，但不会烘焙。",
+            "note": "can /kən/ 弱读；can't /kɑːnt/ 重读、长元音"
+          },
+          {
+            "en": "Yes, I can.",
+            "cn": "是的，我会。",
+            "note": "句末用强读式 /kæn/"
+          },
+          {
+            "en": "You can't park here after six.",
+            "cn": "六点以后这里不能停车。",
+            "note": "can't /kɑːnt/ 是这句话的关键信息，要重读"
+          }
+        ]
+      },
+      {
+        "heading": "用重音表达对比和纠正",
+        "body": "句子重音不是固定的。把重音放在你**想强调的词**上，就能表达对比或纠正，同一句话重音不同，意思也不同。\n\n以 Tom didn't borrow my bike. 为例：重读 Tom，意思是「借车的是别人」；重读 my，意思是「他借的是别人的车」；重读 bike，意思是「他借的是别的东西」。\n\n口语 Part 3 经常要比较两种情况，这时把对比的两组词都重读，考官能立刻抓住你的逻辑。",
+        "examples": [
+          {
+            "en": "Tom didn't borrow my bike.",
+            "cn": "汤姆没借我的自行车。",
+            "note": "重读 TOM：借车的是别人；重读 MY：借的是别人的车；重读 BIKE：借的是别的东西"
+          },
+          {
+            "en": "Living in the city is convenient, but living in the country is healthier.",
+            "cn": "住在城里方便，但住在乡下更健康。",
+            "note": "对比重读：CITY 与 COUNTRY，CONVENIENT 与 HEALTHIER"
+          },
+          {
+            "en": "I don't hate cooking. I just don't have time for it.",
+            "cn": "我不是讨厌做饭，只是没时间。",
+            "note": "重读 HATE 和 TIME，纠正对方的理解"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "I WANT TO GO TO THE SHOP.（每个词都一样重、一字一顿）",
+        "right": "I WANT to GO to the SHOP.（to、the 弱读）",
+        "why": "一字一顿是中国学习者最典型的节奏问题，听起来不流利，重点信息也被淹没了。"
+      },
+      {
+        "wrong": "for 在句中也读强读式：This is for you. 读成 /ðɪs ɪz fɔː juː/",
+        "right": "句中弱读：/ðɪs ɪz fə ˈjuː/",
+        "why": "课本上标的是单词的强读式，句子中间的功能词大多用弱读式。"
+      },
+      {
+        "wrong": "I can swim. 把 can 读得又重又长 /kæn/",
+        "right": "I can SWIM.：can 弱读 /kən/，重读动词",
+        "why": "肯定句里重读 can，母语者容易听成 can't，意思正好相反。"
+      },
+      {
+        "wrong": "听力填空把 a cup of tea 写成 a cup tea",
+        "right": "a cup of tea /ə ˌkʌp əv ˈtiː/：of 弱读成 /əv/，快速时甚至只剩 /ə/",
+        "why": "不熟悉弱读式，听力填空就会漏掉介词和冠词。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-sentence-stress-q1",
+        "type": "mcq",
+        "q": "She went to the bank for some money. 这句话里通常重读哪一组词？",
+        "options": [
+          "went, bank, money",
+          "she, to, the",
+          "to, for, some",
+          "she, the, some"
+        ],
+        "answer": "went, bank, money",
+        "explain": "went（实义动词）、bank 和 money（名词）是实词，要重读；she、to、the、for、some 是功能词，通常弱读。"
+      },
+      {
+        "id": "pron-sentence-stress-q2",
+        "type": "mcq",
+        "q": "下面哪句里的 for 应该读强读式 /fɔː/？",
+        "options": [
+          "This is for you.",
+          "What is it for?",
+          "I waited for an hour."
+        ],
+        "answer": "What is it for?",
+        "explain": "for 在句末要用强读式 /fɔː/；在句子中间一般弱读成 /fə/。"
+      },
+      {
+        "id": "pron-sentence-stress-q3",
+        "type": "mcq",
+        "q": "有人说 I /kɑːnt/ come tomorrow. 他的意思是？",
+        "options": [
+          "明天能来",
+          "明天不能来",
+          "无法判断"
+        ],
+        "answer": "明天不能来",
+        "explain": "长元音 /kɑːnt/ 是 can't 的读法；肯定句里的 can 是短而轻的 /kən/。"
+      },
+      {
+        "id": "pron-sentence-stress-q4",
+        "type": "mcq",
+        "q": "英语里出现频率最高的元音是哪个？",
+        "options": [
+          "/ə/",
+          "/iː/",
+          "/æ/",
+          "/ʌ/"
+        ],
+        "answer": "/ə/",
+        "explain": "/ə/（schwa）出现在大量功能词的弱读式和多音节词的非重读音节里，是英语最常见的元音。"
+      },
+      {
+        "id": "pron-sentence-stress-q5",
+        "type": "mcq",
+        "q": "A: Did you buy a blue shirt? B: No, I bought a GREEN shirt. B 为什么重读 GREEN？",
+        "options": [
+          "green 是句子里最长的词",
+          "纠正对方，强调颜色不同",
+          "形容词总是比名词读得重"
+        ],
+        "answer": "纠正对方，强调颜色不同",
+        "explain": "重音放在想强调的词上，用来表达对比或纠正。平时 shirt 也会重读，这里因为要纠正颜色才把重音放在 GREEN 上。"
+      },
+      {
+        "id": "pron-sentence-stress-q6",
+        "type": "mcq",
+        "q": "下面哪句里的 can 应该读强读式 /kæn/？",
+        "options": [
+          "I can help you tomorrow.",
+          "Can you swim?",
+          "Yes, I can."
+        ],
+        "answer": "Yes, I can.",
+        "explain": "can 在句末或简短回答里用强读式 /kæn/；在句中和句首的一般疑问句里通常弱读成 /kən/。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dictation",
+        "ielts:listening",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "pron-connected-speech",
+    "domain": "pronunciation",
+    "track": "connected",
+    "title": "连读、吞音与同化",
+    "titleEn": "Linking, elision and assimilation",
+    "level": "B1",
+    "skills": [
+      "listening",
+      "speaking"
+    ],
+    "order": 10,
+    "minutes": 25,
+    "summary": "了解辅音接元音的连读、t/d 省略和同化，口语更连贯，听力里也不再被「连成一串」的句子难住。",
+    "sections": [
+      {
+        "heading": "辅音 + 元音：连读",
+        "body": "前一个词以**辅音结尾**、后一个词以**元音开头**时，这个辅音会「搬」到后一个词上，两个词听起来像一个词：an apple 听起来像 a napple，pick it up 像 pi-ki-tup。\n\n这是英语自然节奏的一部分。说的时候连起来，句子更流畅；听的时候要知道 look at it 可能听起来就是一个词。\n\n注意：连读只发生在**同一个意群内部**，意群之间停顿的地方不连读。本篇用 ‿ 表示连读。",
+        "examples": [
+          {
+            "en": "an apple",
+            "cn": "一个苹果",
+            "note": "/ən ˈæpl/ → 听起来像 /əˈnæpl/"
+          },
+          {
+            "en": "Pick it up.",
+            "cn": "把它捡起来。",
+            "note": "/ˌpɪk‿ɪt‿ˈʌp/，听起来像 pi-ki-tup"
+          },
+          {
+            "en": "Can I have a look at it?",
+            "cn": "我能看一下吗？",
+            "note": "can‿I、have‿a、look‿at‿it 连读：/kən‿aɪ hæv‿ə ˈlʊk‿ət‿ɪt/"
+          },
+          {
+            "en": "I worked in an office for a year.",
+            "cn": "我在一家公司的办公室工作过一年。",
+            "note": "worked‿in‿an‿office 连成一串；for a 读 /fər‿ə/，英式中 r 后接元音时要读出来"
+          }
+        ]
+      },
+      {
+        "heading": "元音 + 元音：加 /j/、/w/ 或 /r/",
+        "body": "两个元音相遇时，英语会加一个很轻的过渡音，让声音不断开。\n\n前一个词以 /iː/、/ɪ/、/eɪ/、/aɪ/、/ɔɪ/ 结尾时，加 /j/：I agree 听起来像 I-yagree。\n\n以 /uː/、/əʊ/、/aʊ/ 结尾时，加 /w/：go out 听起来像 go-wout，do it 像 do-wit。\n\n英式英语里，拼写以 r 结尾的词本来不读 r（car /kɑː/），但如果后面紧跟元音，**r 要读出来**，这叫 linking r。所以 car park 不读 r，car is 要读成 /kɑːr‿ɪz/，far away 读成 /ˌfɑːr‿əˈweɪ/。",
+        "examples": [
+          {
+            "en": "I agree with you.",
+            "cn": "我同意你的看法。",
+            "note": "I agree：/aɪ (j) əˈɡriː/，中间带一个很轻的 /j/"
+          },
+          {
+            "en": "Go out and do it.",
+            "cn": "出去做吧。",
+            "note": "go out：/ɡəʊ (w) ˈaʊt/；do it：/ˈduː (w) ɪt/"
+          },
+          {
+            "en": "My father is a teacher.",
+            "cn": "我父亲是老师。",
+            "note": "father is：/ˈfɑːðər‿ɪz/，英式 linking r"
+          },
+          {
+            "en": "There are four of us.",
+            "cn": "我们一共四个人。",
+            "note": "there are /ðeər‿ə/，four of /fɔːr‿əv/：r 后接元音时读出来"
+          }
+        ]
+      },
+      {
+        "heading": "t/d 省略",
+        "body": "三个辅音挤在一起时，中间的 /t/ 或 /d/ 常被省略，尤其是 st、nt、nd、ct 后面再接辅音的时候：next day 读作 /ˌneks ˈdeɪ/，last night 读作 /ˌlɑːs ˈnaɪt/，and then 读作 /ən ˈðen/。want to 在快速口语里还可能读成 /ˈwɒnə/。\n\n省略只发生在**辅音前**。如果后面是元音，t、d 要读出来并且连读：next exam 读 /ˌnekst‿ɪɡˈzæm/。\n\n口语考试里，自然的省略会让你听起来更流利，但不必刻意模仿 wanna、gonna 这类很随意的读法；**听力里认出它们**才是关键。另外，过去式的 -ed 带有时态信息，尽量保留，比如 I asked my teacher 不要读成 I ask my teacher。本篇用括号表示可省略的音。",
+        "examples": [
+          {
+            "en": "I will call you the next day.",
+            "cn": "我第二天会给你打电话。",
+            "note": "next day：/ˌneks(t) ˈdeɪ/，t 夹在两个辅音之间被省略"
+          },
+          {
+            "en": "I stayed up late last night.",
+            "cn": "我昨晚熬夜到很晚。",
+            "note": "last night：/ˌlɑːs(t) ˈnaɪt/"
+          },
+          {
+            "en": "I want to travel abroad.",
+            "cn": "我想出国旅行。",
+            "note": "want to：/ˈwɒn(t) tə/，快速口语中可能听到 /ˈwɒnə/"
+          },
+          {
+            "en": "The next exam is in June.",
+            "cn": "下一场考试在六月。",
+            "note": "next exam：t 后面是元音，要读出来并连读，/ˌnekst‿ɪɡˈzæm/"
+          }
+        ]
+      },
+      {
+        "heading": "同化：相邻的音互相影响",
+        "body": "相邻的两个音会互相「靠近」，这叫同化。最常见的有两类。\n\n**/t/ /d/ /s/ /z/ + /j/**：分别合并成 /tʃ/ /dʒ/ /ʃ/ /ʒ/。did you 读作 /ˈdɪdʒu/，would you 读作 /ˈwʊdʒu/，meet you 读作 /ˈmiːtʃu/，this year 读作 /ðɪʃ ˈjɪə/。\n\n**/n/ + /p/ /b/ /m/**：n 变成 m。ten people 读作 /tem ˈpiːpl/，in Britain 读作 /ɪm ˈbrɪtn/。\n\n这些变化不必刻意模仿，但听力里一定要认得出来：听到 /ˈdɪdʒu/，要立刻反应出是 did you。",
+        "examples": [
+          {
+            "en": "Did you see it?",
+            "cn": "你看到了吗？",
+            "note": "did you → /ˈdɪdʒu/"
+          },
+          {
+            "en": "Nice to meet you.",
+            "cn": "很高兴认识你。",
+            "note": "meet you → /ˈmiːtʃu/"
+          },
+          {
+            "en": "Would you like a drink?",
+            "cn": "你想喝点什么吗？",
+            "note": "would you → /ˈwʊdʒu/"
+          },
+          {
+            "en": "There were ten people in the room.",
+            "cn": "房间里有十个人。",
+            "note": "ten people → /tem ˈpiːpl/"
+          }
+        ]
+      },
+      {
+        "heading": "在雅思听力和口语里怎么用",
+        "body": "**听力**：连读、省略和同化会让单词之间的边界消失。冠词、介词、复数 -s 和过去式 -ed 最容易被「吃掉」，填空题写答案时要用语法检查一遍：前面是 a 还是 an，名词要不要加 s，动词是不是过去式。\n\n**口语**：考官评发音分时，会看你能否自然地使用连读等语流特征。建议先把**辅音 + 元音连读**和 **linking r** 练熟，这两种最容易做到、效果也最明显。不要为了显得地道而刻意吞音，清楚永远比快更重要。",
+        "examples": [
+          {
+            "en": "I live in an old area of the city.",
+            "cn": "我住在城里的一个老城区。",
+            "note": "live‿in‿an‿old‿area 在同一意群内连成一串"
+          },
+          {
+            "en": "It's a bit of a problem.",
+            "cn": "这有点麻烦。",
+            "note": "bit‿of‿a 连读，听起来像 /ˈbɪt‿əv‿ə/"
+          }
+        ],
+        "table": {
+          "head": [
+            "现象",
+            "条件",
+            "例子"
+          ],
+          "rows": [
+            [
+              "连读",
+              "辅音结尾 + 元音开头",
+              "an apple, look at it"
+            ],
+            [
+              "加 /j/ 或 /w/",
+              "元音结尾 + 元音开头",
+              "I agree, go out"
+            ],
+            [
+              "linking r（英式）",
+              "拼写以 r 结尾 + 元音开头",
+              "far away, four of us"
+            ],
+            [
+              "t/d 省略",
+              "辅音 + t/d + 辅音",
+              "next day, last night"
+            ],
+            [
+              "同化",
+              "t/d/s/z + /j/；n + p/b/m",
+              "did you, this year, ten people"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "一个词一个词地断开读：I | live | in | an | old | house",
+        "right": "I live‿in‿an‿old house：辅音接元音时自然连起来",
+        "why": "怕读错就在每个词后面停一下，语流断断续续，流利度和发音分都会受影响。"
+      },
+      {
+        "wrong": "听力填空把 an apple 写成 a napple，把 next day 写成 nex day",
+        "right": "按语法还原成标准写法：an apple，next day",
+        "why": "连读和省略改变的是声音边界，拼写不变，写答案时要还原。"
+      },
+      {
+        "wrong": "car is 不读 r，读成 /kɑː ɪz/，中间断开",
+        "right": "/kɑːr‿ɪz/：英式中 r 后接元音时读出来",
+        "why": "知道英式词尾 r 不发音以后，又把所有 r 都去掉了，元音之间出现生硬的停顿。"
+      },
+      {
+        "wrong": "为了显得地道，把 I asked my teacher 读成 I ask my teacher",
+        "right": "保留 -ed：/aɪ ˈɑːskt maɪ ˈtiːtʃə/",
+        "why": "过去式 -ed 带有语法信息，吞掉后会被当成时态错误。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-connected-speech-q1",
+        "type": "mcq",
+        "q": "an orange 连读以后听起来像什么？",
+        "options": [
+          "a norange",
+          "an norange",
+          "a orange"
+        ],
+        "answer": "a norange",
+        "explain": "an 结尾的 /n/ 连到 orange 的元音上，听起来像 a norange；拼写仍然是 an orange。"
+      },
+      {
+        "id": "pron-connected-speech-q2",
+        "type": "mcq",
+        "q": "在 next day 中，通常省略哪个音？",
+        "options": [
+          "/n/",
+          "/k/",
+          "/t/",
+          "/d/"
+        ],
+        "answer": "/t/",
+        "explain": "next 的 /t/ 夹在 /ks/ 和 day 的 /d/ 之间，三个辅音挤在一起，中间的 /t/ 被省略：/ˌneks(t) ˈdeɪ/。"
+      },
+      {
+        "id": "pron-connected-speech-q3",
+        "type": "mcq",
+        "q": "下面哪个短语在英式发音里会读出 linking r？",
+        "options": [
+          "far away",
+          "car park",
+          "four people"
+        ],
+        "answer": "far away",
+        "explain": "linking r 只在后面紧跟元音时出现。far away 的 away 以元音开头；car park 和 four people 后面是辅音，r 不读。"
+      },
+      {
+        "id": "pron-connected-speech-q4",
+        "type": "mcq",
+        "q": "听到 /ˈdɪdʒu/，最可能是哪两个词？",
+        "options": [
+          "did you",
+          "do you",
+          "does she"
+        ],
+        "answer": "did you",
+        "explain": "/d/ + /j/ 同化成 /dʒ/，did you 就读成了 /ˈdɪdʒu/。"
+      },
+      {
+        "id": "pron-connected-speech-q5",
+        "type": "mcq",
+        "q": "下面哪个短语里的 t 应该读出来，而不是省略？",
+        "options": [
+          "next exam",
+          "next day",
+          "last night"
+        ],
+        "answer": "next exam",
+        "explain": "exam 以元音开头，t 要读出来并连读；next day 和 last night 里 t 后面是辅音，常被省略。"
+      },
+      {
+        "id": "pron-connected-speech-q6",
+        "type": "mcq",
+        "q": "自然语流中，ten people 里 ten 的 /n/ 常变成什么音？",
+        "options": [
+          "/m/",
+          "/ŋ/",
+          "/l/"
+        ],
+        "answer": "/m/",
+        "explain": "/n/ 在 /p/ /b/ /m/ 前会同化成 /m/：/tem ˈpiːpl/。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dictation",
+        "ielts:listening",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "pron-intonation",
+    "domain": "pronunciation",
+    "track": "connected",
+    "title": "语调与意群停顿",
+    "titleEn": "Intonation and chunking",
+    "level": "B1",
+    "skills": [
+      "speaking",
+      "listening"
+    ],
+    "order": 20,
+    "minutes": 25,
+    "summary": "用降调、升调和列举语调表达态度，在意群之间合理停顿，让口语 Part 2 的长回答节奏清楚、听起来自然。",
+    "sections": [
+      {
+        "heading": "降调与升调的基本用法",
+        "body": "**降调** 表示「说完了、我很确定」：陈述句、特殊疑问句（wh- 问句）和祈使句一般用降调。\n\n**升调** 表示「还没说完、不确定、在询问」：一般疑问句（yes/no 问句）通常用升调；用陈述句的形式提问，比如 You're from Beijing? 也用升调。\n\n中国学习者常见两种问题：一是**所有句子都平平地读**，没有起伏，听起来没有感情；二是**特殊疑问句也用升调**，Where do you live 句末一扬，听起来像是惊讶或者没听清。\n\n标注说明：本篇用 ↘ 表示降调，↗ 表示升调，| 表示意群之间的停顿。",
+        "examples": [
+          {
+            "en": "I live in a small town near the coast.",
+            "cn": "我住在海边的一个小镇上。",
+            "note": "陈述句，句末 COAST ↘"
+          },
+          {
+            "en": "Where do you work?",
+            "cn": "你在哪里工作？",
+            "note": "特殊疑问句，WORK ↘"
+          },
+          {
+            "en": "Do you like your job?",
+            "cn": "你喜欢你的工作吗？",
+            "note": "一般疑问句，JOB ↗"
+          },
+          {
+            "en": "You've never been abroad?",
+            "cn": "你从来没出过国？",
+            "note": "陈述句形式提问，表示惊讶，a-BROAD ↗"
+          }
+        ]
+      },
+      {
+        "heading": "列举、选择疑问句和反意疑问句",
+        "body": "**列举**：前面几项用升调或平调，表示「还没完」；最后一项用降调，表示「列完了」。\n\n**选择疑问句**：前一项升，后一项降，表示二选一。如果整句都用升调，意思就变成「你要不要喝点茶或咖啡之类的」，对方会回答 yes 或 no。\n\n**反意疑问句**：句末 isn't it 用降调，表示「我很确定，只是请你认同」；用升调，表示「我不太确定，真的在问你」。",
+        "examples": [
+          {
+            "en": "I enjoy reading, cooking and swimming.",
+            "cn": "我喜欢阅读、做饭和游泳。",
+            "note": "READ-ing ↗ | COOK-ing ↗ | and SWIM-ming ↘"
+          },
+          {
+            "en": "Would you like tea or coffee?",
+            "cn": "你要茶还是咖啡？",
+            "note": "TEA ↗ or COF-fee ↘：二选一"
+          },
+          {
+            "en": "The weather is lovely today, isn't it?",
+            "cn": "今天天气真好，是吧？",
+            "note": "isn't it ↘：只是寻求认同；如果用 ↗，表示真的不确定"
+          }
+        ]
+      },
+      {
+        "heading": "意群：在哪里停顿",
+        "body": "意群是意思上紧密相连的一组词。停顿应该放在**意群之间**，而不是在任意一个词后面停下来想下一个词。\n\n常见的停顿位置：较长的主语之后；从句的前后；because、although、so 等连接词前面；列举的各项之间。\n\n**不要停顿**的位置：冠词和名词之间、介词和它的宾语之间、动词和紧跟的宾语之间。\n\n一个意群内部要**连读、一口气说完**，意群之间短暂停顿。停顿给考官处理信息的时间，也给你自己换气和组织下一个意群的时间，这样听起来既流利又清楚。",
+        "examples": [
+          {
+            "en": "The town where I grew up has changed a lot in the last ten years.",
+            "cn": "我长大的那个小镇在过去十年里变化很大。",
+            "note": "The town where I grew up | has changed a lot | in the last ten years ↘"
+          },
+          {
+            "en": "Although it is expensive, I think it is worth the money.",
+            "cn": "虽然贵，但我觉得物有所值。",
+            "note": "Although it is expensive ↗ | I think it is worth the money ↘"
+          },
+          {
+            "en": "Most of my friends prefer to shop online because it saves time.",
+            "cn": "我的大多数朋友更喜欢网购，因为省时间。",
+            "note": "Most of my friends | prefer to shop online | because it saves time ↘"
+          }
+        ],
+        "table": {
+          "head": [
+            "可以停顿",
+            "不要停顿"
+          ],
+          "rows": [
+            [
+              "长主语之后：The town where I grew up |",
+              "冠词和名词之间：the | town"
+            ],
+            [
+              "从句前面：| because it saves time",
+              "介词和宾语之间：in | the last ten years"
+            ],
+            [
+              "列举各项之间：reading | cooking | and swimming",
+              "动词和宾语之间：saves | time"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "口语 Part 2 的节奏",
+        "body": "Part 2 要连续说 1 到 2 分钟，最容易出现两种节奏问题：一是**语速忽快忽慢**，想好的地方说得飞快，没想好的地方长时间沉默或者拖长 um；二是**每句都用同一个语调**，听起来像在背稿。\n\n**开头**：用一个清楚的主题句，降调收尾，让考官知道你要讲什么。\n\n**中间**：每讲一个新要点，先用一句「路标」引出，比如 The first thing I remember is 或 What made it special was，路标后稍作停顿，再讲细节。\n\n**需要思考时**：用自然的填充语代替沉默，比如 Let me think. 或 How can I put it?，比长时间的 um 好得多。\n\n**结尾**：放慢语速，用降调总结。",
+        "examples": [
+          {
+            "en": "I'd like to talk about a trip I took to Yunnan two years ago.",
+            "cn": "我想讲讲两年前去云南的一次旅行。",
+            "note": "主题句：I'd like to talk about | a trip I took to Yunnan | two years a-GO ↘"
+          },
+          {
+            "en": "What made it special was the people I met there.",
+            "cn": "让这次旅行特别的，是我在那里遇到的人。",
+            "note": "What made it special | was the PEO-ple I met there ↘；路标句后稍作停顿"
+          },
+          {
+            "en": "Let me think. How can I put it?",
+            "cn": "让我想想。该怎么说呢？",
+            "note": "需要思考时用填充语，比沉默或拖长 um 更自然"
+          },
+          {
+            "en": "So that's why it was such a memorable trip.",
+            "cn": "这就是为什么那次旅行让我这么难忘。",
+            "note": "结尾放慢，memorable /ˈmemərəbl/ ↘"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Where do you live? ↗（特殊疑问句用升调）",
+        "right": "Where do you live? ↘",
+        "why": "受中文问句语气的影响，以为所有问句都要升调。特殊疑问句用升调，听起来像惊讶或者没听清。"
+      },
+      {
+        "wrong": "I like reading ↘ | cooking ↘ | swimming ↘（每一项都降调）",
+        "right": "reading ↗ | cooking ↗ | and swimming ↘",
+        "why": "每一项都降调，听者会以为你已经说完了，列举显得生硬。"
+      },
+      {
+        "wrong": "在冠词后面卡住：I went to the | cinema with my friends.",
+        "right": "I went to the cinema | with my friends ↘",
+        "why": "边想边说时，常常停在 the、a、to 这些功能词后面，打断了意群，考官会判断为不流利。"
+      },
+      {
+        "wrong": "Part 2 从头到尾用同一个平调和语速",
+        "right": "主题句降调说清楚，要点之间用路标句和停顿，结尾放慢",
+        "why": "平调听起来像背稿，流利度与连贯性（FC）和发音（P）两项都会受影响。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pron-intonation-q1",
+        "type": "mcq",
+        "q": "What do you do in your free time? 句末通常用什么语调？",
+        "options": [
+          "降调 ↘",
+          "升调 ↗",
+          "平调，不升也不降"
+        ],
+        "answer": "降调 ↘",
+        "explain": "以 what、where、why 等开头的特殊疑问句，句末一般用降调。"
+      },
+      {
+        "id": "pron-intonation-q2",
+        "type": "mcq",
+        "q": "Are you a student? 句末通常用什么语调？",
+        "options": [
+          "降调 ↘",
+          "升调 ↗",
+          "平调，不升也不降"
+        ],
+        "answer": "升调 ↗",
+        "explain": "可以用 yes 或 no 回答的一般疑问句，句末通常用升调。"
+      },
+      {
+        "id": "pron-intonation-q3",
+        "type": "mcq",
+        "q": "列举 I have been to Paris, Rome and Madrid. 时，哪一项通常用降调？",
+        "options": [
+          "Paris",
+          "Rome",
+          "Madrid",
+          "三项都用降调"
+        ],
+        "answer": "Madrid",
+        "explain": "列举时前面各项用升调或平调，最后一项用降调，表示列完了。"
+      },
+      {
+        "id": "pron-intonation-q4",
+        "type": "mcq",
+        "q": "下面哪种停顿方式最自然？",
+        "options": [
+          "The town where I grew up | has changed a lot.",
+          "The | town where I grew | up has changed a lot.",
+          "The town where I | grew up has | changed a lot."
+        ],
+        "answer": "The town where I grew up | has changed a lot.",
+        "explain": "The town where I grew up 是一个完整的长主语，停顿放在它后面；不要在冠词和名词、动词和小品词之间停顿。"
+      },
+      {
+        "id": "pron-intonation-q5",
+        "type": "mcq",
+        "q": "It's a nice day, isn't it? 如果 isn't it 用降调，说话人的意思是？",
+        "options": [
+          "真的不确定，在询问",
+          "很确定，只是希望对方认同",
+          "在表示不满"
+        ],
+        "answer": "很确定，只是希望对方认同",
+        "explain": "反意疑问句句末降调表示寻求认同；升调才表示真的不确定。"
+      },
+      {
+        "id": "pron-intonation-q6",
+        "type": "mcq",
+        "q": "Part 2 中突然想不起要说什么时，哪种做法最好？",
+        "options": [
+          "沉默几秒再继续",
+          "拖长 ummm 直到想起来",
+          "说 Let me think. 之类的填充语，再接着说"
+        ],
+        "answer": "说 Let me think. 之类的填充语，再接着说",
+        "explain": "自然的填充语能保持语流，比长时间沉默或拖长 um 更不影响流利度评分。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "dialogue",
+        "ielts:speaking"
+      ]
+    }
+  },
+  {
+    "id": "wf-prefixes",
+    "domain": "wordform",
+    "track": "affix",
+    "title": "常见前缀",
+    "titleEn": "Common prefixes",
+    "level": "A2",
+    "skills": [
+      "reading",
+      "writing"
+    ],
+    "order": 10,
+    "minutes": 25,
+    "summary": "掌握否定、错误、重复、程度、时间和关系类前缀，遇到生词能拆开猜意思，写作时能用一个词代替一串解释。",
+    "sections": [
+      {
+        "heading": "否定前缀：un-、in-、im-、ir-、il-、dis-",
+        "body": "这几个前缀都表示「不、非、相反」。最常用的是 **un-**，可以加在大量形容词和副词前面：happy → unhappy，likely → unlikely。\n\n**in-** 是拉丁来源的否定前缀，会随后面的字母变形，读起来更顺：在 **p、b、m** 前变成 **im-**（impossible、imbalance、immature）；在 **r** 前变成 **ir-**（irregular、irrelevant）；在 **l** 前变成 **il-**（illegal、illogical）；其他情况用 **in-**（inaccurate、inadequate、independent）。\n\n**dis-** 多加在动词、名词和部分形容词前，表示「不、相反」：agree → disagree，advantage → disadvantage，honest → dishonest。\n\n一个词用哪个否定前缀是固定的，不能互换，要整体记。加前缀一般**不改变重音位置**：happy /ˈhæpi/ → unhappy /ʌnˈhæpi/，重音仍在 hap 上。",
+        "examples": [
+          {
+            "en": "It is unlikely that prices will fall next year.",
+            "cn": "明年价格不太可能下降。",
+            "note": "un- + likely；unlikely /ʌnˈlaɪkli/"
+          },
+          {
+            "en": "Driving without a licence is illegal.",
+            "cn": "无证驾驶是违法的。",
+            "note": "il- + legal：l 前用 il-；illegal /ɪˈliːɡl/；licence 是英式名词拼写"
+          },
+          {
+            "en": "Some of the information on the website is inaccurate.",
+            "cn": "网站上的部分信息不准确。",
+            "note": "in- + accurate；inaccurate /ɪnˈækjərət/"
+          },
+          {
+            "en": "Many parents disagree with the new school rules.",
+            "cn": "很多家长不赞同新校规。",
+            "note": "dis- + agree；disagree /ˌdɪsəˈɡriː/"
+          }
+        ],
+        "table": {
+          "head": [
+            "前缀",
+            "使用条件",
+            "例词"
+          ],
+          "rows": [
+            [
+              "un-",
+              "最常用，多加在形容词、副词前",
+              "unhappy, unusual, unemployed, unfortunately"
+            ],
+            [
+              "in-",
+              "大多数拉丁来源词",
+              "inaccurate, inadequate, incomplete, independent"
+            ],
+            [
+              "im-",
+              "p、b、m 前",
+              "impossible, impatient, imbalance, immature"
+            ],
+            [
+              "ir-",
+              "r 前",
+              "irregular, irrelevant, irresponsible"
+            ],
+            [
+              "il-",
+              "l 前",
+              "illegal, illogical, illiterate"
+            ],
+            [
+              "dis-",
+              "动词、名词和部分形容词前",
+              "disagree, disappear, disadvantage, dishonest"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "错误、重复、程度：mis-、re-、over-、under-",
+        "body": "**mis-** 表示「错误地、不当地」：understand → misunderstand，use → misuse，lead → mislead。mis- 加在 s 开头的词前会出现两个 s，比如 misspell。\n\n**re-** 表示「再次、重新」：build → rebuild，use → reuse，think → rethink。写作谈环保时，reduce、reuse、recycle 是一组高频词。\n\n**over-** 表示「过度」，**under-** 表示「不足」，常常成对出现：overestimate 和 underestimate，overpaid 和 underpaid，overweight 和 underweight。Task 2 讨论社会问题时，over- 开头的词很好用：overcrowded cities，overpopulation，the overuse of antibiotics。\n\nunder- 还可以表示「在下面」：underground，underwater。",
+        "examples": [
+          {
+            "en": "I think you have misunderstood my question.",
+            "cn": "我想你误解了我的问题。",
+            "note": "mis- + understand；misunderstood /ˌmɪsʌndəˈstʊd/"
+          },
+          {
+            "en": "Old factories can be rebuilt as flats or offices.",
+            "cn": "旧工厂可以改建成公寓或办公楼。",
+            "note": "re- + build；rebuilt /ˌriːˈbɪlt/；flat 是英式「公寓」"
+          },
+          {
+            "en": "Many nurses feel that they are overworked and underpaid.",
+            "cn": "很多护士觉得自己工作过度、报酬过低。",
+            "note": "over- 过度，under- 不足；overworked /ˌəʊvəˈwɜːkt/，underpaid /ˌʌndəˈpeɪd/"
+          },
+          {
+            "en": "Most people underestimate how much sugar they eat.",
+            "cn": "大多数人低估了自己吃糖的量。",
+            "note": "under- + estimate；反义词 overestimate"
+          }
+        ]
+      },
+      {
+        "heading": "时间、位置、关系：pre-、post-、inter-、anti-",
+        "body": "**pre-** 表示「之前」：preview（预览）、prehistoric（史前的）、pre-school（学龄前的）。**post-** 表示「之后」：postgraduate（研究生）、post-war（战后的）。\n\n**inter-** 表示「之间、相互」：international（国际的）、interact（互动）、interview（面试）、interconnected（相互联系的）。\n\n**anti-** 表示「反对、防止」：antisocial（反社会的；不爱交际的）、antibiotic（抗生素）、anti-ageing（抗衰老的）。\n\n连字符：前缀后面接大写字母或数字时一定要加连字符，比如 pre-1990、anti-European；为了避免两个相同元音连在一起造成误读，也常加连字符，比如 re-enter、co-operate。其他情况两种写法都可能见到，以词典为准。",
+        "examples": [
+          {
+            "en": "The university has a large number of international students.",
+            "cn": "这所大学有大量国际学生。",
+            "note": "inter- 之间 + national；international /ˌɪntəˈnæʃnəl/"
+          },
+          {
+            "en": "Children should be encouraged to interact with others.",
+            "cn": "应该鼓励孩子与他人互动。",
+            "note": "inter- 相互 + act；interact /ˌɪntərˈækt/"
+          },
+          {
+            "en": "Doctors warn that antibiotics are being overused.",
+            "cn": "医生警告说，抗生素正在被过度使用。",
+            "note": "anti- 对抗 + bio 生命；over- + use；antibiotics /ˌæntibaɪˈɒtɪks/"
+          },
+          {
+            "en": "More graduates are choosing postgraduate study.",
+            "cn": "越来越多的毕业生选择读研究生。",
+            "note": "post- 之后 + graduate；postgraduate /ˌpəʊstˈɡrædʒuət/"
+          }
+        ],
+        "table": {
+          "head": [
+            "前缀",
+            "含义",
+            "例词"
+          ],
+          "rows": [
+            [
+              "mis-",
+              "错误地",
+              "misunderstand, misuse, mislead"
+            ],
+            [
+              "re-",
+              "再次、重新",
+              "rebuild, reuse, rethink, rewrite"
+            ],
+            [
+              "over-",
+              "过度",
+              "overwork, overcrowded, overestimate"
+            ],
+            [
+              "under-",
+              "不足；在下面",
+              "underpaid, underestimate, underground"
+            ],
+            [
+              "pre-",
+              "之前",
+              "preview, prehistoric, pre-school"
+            ],
+            [
+              "post-",
+              "之后",
+              "postgraduate, post-war"
+            ],
+            [
+              "inter-",
+              "之间、相互",
+              "international, interact, interview"
+            ],
+            [
+              "anti-",
+              "反对、防止",
+              "antisocial, antibiotic, anti-ageing"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "用前缀猜词、写作",
+        "body": "**阅读**：遇到长的生词，先找前缀和词根。unaffordable = un-（不）+ afford（负担得起）+ -able（能……的），意思是「负担不起的」。拆开以后再结合上下文确认，比直接跳过准确得多。\n\n**写作**：带前缀的词能让表达更简洁，有助于词汇分：not legal → illegal，build again → rebuild，pay too little → underpay。但不要自己「发明」词典里没有的组合，比如 *unpossible、*dishappy，这类错误反而会扣分。",
+        "examples": [
+          {
+            "en": "Housing in big cities has become unaffordable for many young people.",
+            "cn": "对很多年轻人来说，大城市的房子已经买不起了。",
+            "note": "un- + afford + -able；unaffordable /ˌʌnəˈfɔːdəbl/"
+          },
+          {
+            "en": "The old bridge was rebuilt after the flood.",
+            "cn": "旧桥在洪水过后重建了。",
+            "note": "rebuilt 比 built again 更简洁"
+          },
+          {
+            "en": "It is irresponsible to leave rubbish on the beach.",
+            "cn": "把垃圾留在海滩上是不负责任的。",
+            "note": "ir- + responsible；irresponsible /ˌɪrɪˈspɒnsəbl/；rubbish 是英式说法"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "It is unpossible to finish the work today.",
+        "right": "It is impossible to finish the work today.",
+        "why": "possible 的否定前缀是 im-，不是 un-。否定前缀要跟着单词一起记，不能随便套用。"
+      },
+      {
+        "wrong": "The rules are unlogical.",
+        "right": "The rules are illogical.",
+        "why": "logical 以 l 开头，用 il-。"
+      },
+      {
+        "wrong": "I am dishappy with the service.",
+        "right": "I am unhappy with the service.",
+        "why": "happy 只能加 un-；dis- 多加在动词和名词前。"
+      },
+      {
+        "wrong": "Please don't understand me wrong.",
+        "right": "Please don't misunderstand me.",
+        "why": "把中文「误解」拆成 understand wrong 不地道，用 misunderstand 一个词即可。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "wf-prefixes-q1",
+        "type": "fill",
+        "q": "Smoking in public places is ___ (legal) in many countries.",
+        "answer": [
+          "illegal"
+        ],
+        "explain": "legal 以 l 开头，否定前缀用 il-：illegal。"
+      },
+      {
+        "id": "wf-prefixes-q2",
+        "type": "fill",
+        "q": "The bus service in my village is ___ (regular), so I usually drive.",
+        "answer": [
+          "irregular"
+        ],
+        "explain": "regular 以 r 开头，否定前缀用 ir-：irregular。"
+      },
+      {
+        "id": "wf-prefixes-q3",
+        "type": "mcq",
+        "q": "下面哪个否定形式是正确的？",
+        "options": [
+          "unpossible",
+          "dispossible",
+          "impossible",
+          "inpossible"
+        ],
+        "answer": "impossible",
+        "explain": "in- 在 p 前变成 im-：impossible。"
+      },
+      {
+        "id": "wf-prefixes-q4",
+        "type": "fill",
+        "q": "I think you ___ (understand) me. I said Monday, not Sunday. （用过去式）",
+        "answer": [
+          "misunderstood"
+        ],
+        "explain": "mis- 表示「错误地」，misunderstand 的过去式是 misunderstood。"
+      },
+      {
+        "id": "wf-prefixes-q5",
+        "type": "mcq",
+        "q": "Workers who receive too little money for their work are ___.",
+        "options": [
+          "overpaid",
+          "underpaid",
+          "repaid",
+          "prepaid"
+        ],
+        "answer": "underpaid",
+        "explain": "under- 表示「不足」，underpaid 是「报酬过低的」；overpaid 正好相反。"
+      },
+      {
+        "id": "wf-prefixes-q6",
+        "type": "correct",
+        "q": "Many experts think we should use again plastic bags.",
+        "answer": [
+          "Many experts think we should reuse plastic bags.",
+          "Many experts think we should use plastic bags again."
+        ],
+        "explain": "again 不能放在动词和宾语之间。最简洁的改法是用前缀 re-：reuse plastic bags。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:vocab",
+        "ielts:reading"
+      ]
+    }
+  },
+  {
+    "id": "wf-suffixes",
+    "domain": "wordform",
+    "track": "affix",
+    "title": "常见后缀与词性转换",
+    "titleEn": "Suffixes and word class",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "reading"
+    ],
+    "order": 20,
+    "minutes": 30,
+    "summary": "用 -tion、-ment、-ity、-ness 构成名词，用 -ive、-al、-ous 构成形容词，用 -ise 构成动词，用 -ly 构成副词，并学会用名词化让写作更正式。",
+    "sections": [
+      {
+        "heading": "名词后缀：-tion、-ment、-ity、-ness",
+        "body": "后缀决定词性。看到下面这些结尾，基本可以判断是**名词**。\n\n**-tion / -sion**：多加在动词后，表示动作或结果。educate → education，decide → decision，pollute → pollution。\n\n**-ment**：也加在动词后。develop → development，govern → government，achieve → achievement。\n\n**-ity**：多加在形容词后，表示性质。possible → possibility，responsible → responsibility，equal → equality。\n\n**-ness**：加在形容词后，表示状态或品质。happy → happiness，aware → awareness，kind → kindness。\n\n拼写变化：辅音字母 + y 结尾，y 变 i（happy → happiness）；e 结尾常去 e（educate → education）；-ble 结尾的形容词变成 -bility（able → ability）。注意加 -tion、-ity 后重音会移动：equal /ˈiːkwəl/ → equality /iˈkwɒləti/。",
+        "examples": [
+          {
+            "en": "Air pollution is a serious problem in many cities.",
+            "cn": "空气污染是许多城市的严重问题。",
+            "note": "pollute (v.) → pollution (n.)；pollution /pəˈluːʃn/"
+          },
+          {
+            "en": "The development of technology has changed our lives.",
+            "cn": "科技的发展改变了我们的生活。",
+            "note": "develop (v.) → development (n.)"
+          },
+          {
+            "en": "Gender equality should be taught at school.",
+            "cn": "学校应该教授性别平等。",
+            "note": "equal (adj.) → equality (n.)；重音从 E 移到 QUA"
+          },
+          {
+            "en": "There is growing awareness of mental health.",
+            "cn": "人们对心理健康的意识越来越强。",
+            "note": "aware (adj.) → awareness (n.)；awareness /əˈweənəs/"
+          }
+        ],
+        "table": {
+          "head": [
+            "后缀",
+            "通常加在",
+            "例词"
+          ],
+          "rows": [
+            [
+              "-tion / -sion",
+              "动词后",
+              "educate → education, decide → decision"
+            ],
+            [
+              "-ment",
+              "动词后",
+              "develop → development, achieve → achievement"
+            ],
+            [
+              "-ity",
+              "形容词后",
+              "possible → possibility, equal → equality"
+            ],
+            [
+              "-ness",
+              "形容词后",
+              "happy → happiness, aware → awareness"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "形容词后缀：-ive、-al、-ous，以及 -ful、-less、-able",
+        "body": "**-ive**：多加在动词或名词后，表示「有……性质或倾向的」。create → creative，effect → effective，compete → competitive。\n\n**-al**：多加在名词后，表示「与……有关的」。nature → natural，environment → environmental，culture → cultural。\n\n**-ous**：表示「具有……特点的」。danger → dangerous，fame → famous，ambition → ambitious。\n\n补充三个常用的：**-ful**（充满）和 **-less**（没有）常成对出现，useful 和 useless，careful 和 careless；**-able / -ible** 表示「能被……的」，afford → affordable，access → accessible。",
+        "examples": [
+          {
+            "en": "Schools should encourage children to be creative.",
+            "cn": "学校应该鼓励孩子发挥创造力。",
+            "note": "create (v.) → creative (adj.)；creative /kriˈeɪtɪv/"
+          },
+          {
+            "en": "Environmental problems need international solutions.",
+            "cn": "环境问题需要国际性的解决方案。",
+            "note": "environment (n.) → environmental (adj.)；environmental /ɪnˌvaɪrənˈmentl/"
+          },
+          {
+            "en": "Young people today are more ambitious than before.",
+            "cn": "如今的年轻人比以前更有抱负。",
+            "note": "ambition (n.) → ambitious (adj.)；ambitious /æmˈbɪʃəs/"
+          },
+          {
+            "en": "Public transport should be affordable for everyone.",
+            "cn": "公共交通的价格应该让每个人都负担得起。",
+            "note": "afford (v.) → affordable (adj.)；affordable /əˈfɔːdəbl/"
+          }
+        ],
+        "table": {
+          "head": [
+            "后缀",
+            "含义",
+            "例词"
+          ],
+          "rows": [
+            [
+              "-ive",
+              "有……性质或倾向的",
+              "creative, effective, competitive"
+            ],
+            [
+              "-al",
+              "与……有关的",
+              "natural, environmental, cultural"
+            ],
+            [
+              "-ous",
+              "具有……特点的",
+              "dangerous, famous, ambitious"
+            ],
+            [
+              "-ful / -less",
+              "充满 / 没有",
+              "useful, useless, careful, careless"
+            ],
+            [
+              "-able / -ible",
+              "能被……的",
+              "affordable, accessible, reliable"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "动词后缀 -ise / -ize，副词后缀 -ly",
+        "body": "**-ise**（英式常用）或 **-ize**（美式常用，部分英式出版物也用）把名词或形容词变成动词，表示「使……化」：modern → modernise，global → globalise，real → realise，priority → prioritise，critic → criticise。\n\n雅思接受英式或美式拼写，但**全文要统一**。本知识库统一用 -ise。另外，有些词无论英式美式都只能写 -ise，比如 advertise、advise、exercise、surprise；analyse 在英式里写作 -yse。\n\n**-ly** 把形容词变成副词：quick → quickly，careful → carefully，significant → significantly。拼写规则：辅音字母 + y 结尾变 -ily（easy → easily）；-le 结尾变 -ly（possible → possibly）；-ic 结尾加 -ally（basic → basically）。注意 friendly、lovely、lonely 虽然以 -ly 结尾，却是**形容词**。",
+        "examples": [
+          {
+            "en": "Many cities are trying to modernise their transport systems.",
+            "cn": "许多城市正在努力让交通系统现代化。",
+            "note": "modern (adj.) → modernise (v.)；modernise /ˈmɒdənaɪz/"
+          },
+          {
+            "en": "Governments should prioritise education and health.",
+            "cn": "政府应该优先发展教育和医疗。",
+            "note": "priority (n.) → prioritise (v.)；prioritise /praɪˈɒrətaɪz/"
+          },
+          {
+            "en": "The number of tourists increased significantly.",
+            "cn": "游客数量显著增加。",
+            "note": "significant (adj.) → significantly (adv.)；significantly /sɪɡˈnɪfɪkəntli/"
+          },
+          {
+            "en": "My neighbour is very friendly, but she rarely talks about herself.",
+            "cn": "我的邻居很友善，但她很少谈论自己。",
+            "note": "friendly 以 -ly 结尾，却是形容词；rarely 是副词；neighbour 是英式拼写"
+          }
+        ]
+      },
+      {
+        "heading": "名词化：让写作更正式",
+        "body": "**名词化**（nominalisation）是把动词或形容词变成名词，用一个名词短语表达原来一个分句的意思。学术写作里名词化非常常见，能让句子更简洁、更客观，也更能体现词汇和语法的多样性。\n\n常用句型：**the + 名词 + of + ……**（the development of technology）；**名词短语 + has led to / results in + 名词短语**（the rise in house prices has led to……）。\n\n注意适度：Task 2 不必每句都名词化，名词堆得太多反而难读。Task 1 描述数据时，可以交替使用动词和名词结构，比如 rose sharply 和 a sharp rise。",
+        "examples": [
+          {
+            "en": "People use cars more and more, so the air is becoming more polluted.",
+            "cn": "人们用车越来越多，所以空气污染越来越严重。",
+            "note": "原句：用两个分句和动词 use、become 表达"
+          },
+          {
+            "en": "The increasing use of cars has led to more air pollution.",
+            "cn": "汽车使用量的增加导致了更严重的空气污染。",
+            "note": "名词化：use (v.) → the use of；polluted (adj.) → pollution (n.)"
+          },
+          {
+            "en": "House prices rose sharply in 2020.",
+            "cn": "2020 年房价大幅上涨。",
+            "note": "动词结构：rose sharply"
+          },
+          {
+            "en": "There was a sharp rise in house prices in 2020.",
+            "cn": "2020 年房价出现了大幅上涨。",
+            "note": "名词结构：a sharp rise in；Task 1 中两种结构可以交替使用"
+          }
+        ],
+        "table": {
+          "head": [
+            "动词或形容词",
+            "名词",
+            "常用名词短语"
+          ],
+          "rows": [
+            [
+              "decide",
+              "decision",
+              "make a decision on"
+            ],
+            [
+              "reduce",
+              "reduction",
+              "a reduction in costs"
+            ],
+            [
+              "improve",
+              "improvement",
+              "an improvement in quality"
+            ],
+            [
+              "able",
+              "ability",
+              "the ability to adapt"
+            ],
+            [
+              "aware",
+              "awareness",
+              "raise public awareness of"
+            ],
+            [
+              "increase",
+              "increase",
+              "an increase in demand"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The develop of technology is very fast.",
+        "right": "The development of technology is very fast.",
+        "why": "the 和 of 之间需要名词。develop 是动词，名词是 development。"
+      },
+      {
+        "wrong": "It is a very danger job.",
+        "right": "It is a very dangerous job.",
+        "why": "修饰名词要用形容词 dangerous，danger 是名词。中文「危险」不分词性，所以容易混用。"
+      },
+      {
+        "wrong": "China's economical growth has been rapid.",
+        "right": "China's economic growth has been rapid.",
+        "why": "economic 是「经济的」，economical 是「节约的、省钱的」。后缀不同，意思也不同。"
+      },
+      {
+        "wrong": "The number of students increased significant.",
+        "right": "The number of students increased significantly.",
+        "why": "修饰动词要用副词。Task 1 描述变化时特别容易漏掉 -ly。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "wf-suffixes-q1",
+        "type": "fill",
+        "q": "The ___ (develop) of public transport has made life much easier.",
+        "answer": [
+          "development"
+        ],
+        "explain": "the 和 of 之间需要名词：develop → development。"
+      },
+      {
+        "id": "wf-suffixes-q2",
+        "type": "fill",
+        "q": "The government should raise public ___ (aware) of the risks of eating too much sugar.",
+        "answer": [
+          "awareness"
+        ],
+        "explain": "raise 后面需要名词作宾语：aware → awareness，raise awareness of 是固定搭配。"
+      },
+      {
+        "id": "wf-suffixes-q3",
+        "type": "mcq",
+        "q": "Climbing without ropes is extremely ___.",
+        "options": [
+          "danger",
+          "dangerous",
+          "dangerously",
+          "endanger"
+        ],
+        "answer": "dangerous",
+        "explain": "be 动词后作表语，用形容词 dangerous；extremely 是修饰它的副词。"
+      },
+      {
+        "id": "wf-suffixes-q4",
+        "type": "fill",
+        "q": "Sales of electric cars rose ___ (dramatic) last year.",
+        "answer": [
+          "dramatically"
+        ],
+        "explain": "修饰动词 rose 要用副词。-ic 结尾的形容词加 -ally：dramatic → dramatically。"
+      },
+      {
+        "id": "wf-suffixes-q5",
+        "type": "mcq",
+        "q": "下面哪个词是形容词，而不是副词？",
+        "options": [
+          "quickly",
+          "friendly",
+          "carefully",
+          "easily"
+        ],
+        "answer": "friendly",
+        "explain": "friendly 由名词 friend 加 -ly 构成，是形容词；其他三个由形容词加 -ly 构成，是副词。"
+      },
+      {
+        "id": "wf-suffixes-q6",
+        "type": "correct",
+        "q": "Many cities are trying to reduce the pollute caused by traffic.",
+        "answer": [
+          "Many cities are trying to reduce the pollution caused by traffic."
+        ],
+        "explain": "the 后面需要名词：pollute (v.) → pollution (n.)。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "词汇辨析"
+      ],
+      "tabs": [
+        "ielts:vocab",
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "wf-roots",
+    "domain": "wordform",
+    "track": "root",
+    "title": "雅思高频学术词根",
+    "titleEn": "Common academic word roots",
+    "level": "B2",
+    "skills": [
+      "reading",
+      "writing"
+    ],
+    "order": 10,
+    "minutes": 30,
+    "summary": "认识 spect、port、struct、dict、cred、vert/vers、tract、ject、pend、sist 等拉丁词根，阅读时能拆词猜意思，背单词时能一组一组地记。",
+    "sections": [
+      {
+        "heading": "词根是什么，怎么用",
+        "body": "很多学术词汇来自拉丁语，由「**前缀 + 词根 + 后缀**」组成。词根承载核心意思，前缀改变方向或程度，后缀决定词性。例如 inspector = in-（向内）+ spect（看）+ -or（人），字面意思是「往里看的人」，也就是检查员。\n\n记词根有三个好处：阅读时遇到生词可以拆开猜意思；背单词时可以把同根词串起来一次记一组；写作时能更准确地选择词形。\n\n要注意，词根只是帮助理解和记忆的工具。很多词的现代意思已经引申，不能只靠字面拼凑，最后还要结合上下文和词典确认。",
+        "examples": [
+          {
+            "en": "A safety inspector visited the factory.",
+            "cn": "一名安全检查员视察了这家工厂。",
+            "note": "in- 向内 + spect 看 + -or 人；inspector /ɪnˈspektə/"
+          },
+          {
+            "en": "Public transport in London is expensive but reliable.",
+            "cn": "伦敦的公共交通很贵，但很可靠。",
+            "note": "trans- 跨越 + port 运送；transport (n.) /ˈtrænspɔːt/"
+          }
+        ]
+      },
+      {
+        "heading": "看、运、建、说：spect、port、struct、dict",
+        "body": "这四个词根在雅思阅读和写作中出现得非常频繁。\n\n**spect = 看**：in-spect（往里看 → 检查），pro-spect（往前看 → 前景），per-spect-ive（看透 → 视角）。\n\n**port = 带、运**：trans-port（运过去 → 运输），ex-port（运出去 → 出口），im-port（运进来 → 进口），port-able（能带着走的 → 便携的）。\n\n**struct = 建造**：con-struct（一起建 → 建造），infra-struct-ure（下面的结构 → 基础设施），in-struct（在里面搭建 → 指导）。\n\n**dict = 说**：pre-dict（提前说 → 预测），contra-dict（反着说 → 反驳、与……矛盾）。",
+        "examples": [
+          {
+            "en": "Experts predict that the population will continue to grow.",
+            "cn": "专家预测人口将继续增长。",
+            "note": "pre- 提前 + dict 说；predict /prɪˈdɪkt/"
+          },
+          {
+            "en": "The government plans to invest more in infrastructure.",
+            "cn": "政府计划加大对基础设施的投资。",
+            "note": "infra- 下面 + struct 建造 + -ure；infrastructure /ˈɪnfrəstrʌktʃə/"
+          },
+          {
+            "en": "From an economic perspective, the policy makes sense.",
+            "cn": "从经济角度看，这项政策是合理的。",
+            "note": "per- 透过 + spect 看 + -ive；perspective /pəˈspektɪv/"
+          },
+          {
+            "en": "Brazil exports a large amount of coffee.",
+            "cn": "巴西出口大量咖啡。",
+            "note": "ex- 向外 + port 运；export (v.) /ɪkˈspɔːt/"
+          }
+        ],
+        "table": {
+          "head": [
+            "词根",
+            "含义",
+            "例词"
+          ],
+          "rows": [
+            [
+              "spect",
+              "看",
+              "inspect 检查, respect 尊重, perspective 视角, spectator 观众, prospect 前景"
+            ],
+            [
+              "port",
+              "带、运",
+              "transport 运输, export 出口, import 进口, portable 便携的, support 支持"
+            ],
+            [
+              "struct",
+              "建造",
+              "structure 结构, construct 建造, construction 建设, infrastructure 基础设施, instruct 指导"
+            ],
+            [
+              "dict",
+              "说",
+              "predict 预测, contradict 反驳, dictionary 词典, dictate 口述, verdict 裁决"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "相信、转、拉、扔：cred、vert/vers、tract、ject",
+        "body": "**cred = 相信**：credible（可信的），incredible（难以置信的），credit（信用），credibility（可信度）。\n\n**vert / vers = 转**：convert（转变），reverse（反转），diverse（多样的，「朝不同方向转」），controversial（有争议的，「转向对立面」），version（版本）。\n\n**tract = 拉**：attract（吸引，「拉过来」），distract（使分心，「拉开」），contract（合同；收缩，「拉到一起」），extract（提取，「拉出来」）。\n\n**ject = 扔、投**：project（项目；投射，「向前扔」），reject（拒绝，「扔回去」），inject（注射，「投进去」），object（反对，「扔向对面」）。",
+        "examples": [
+          {
+            "en": "The story sounds incredible, but it is true.",
+            "cn": "这个故事听起来难以置信，但它是真的。",
+            "note": "in- 不 + cred 相信 + -ible 能……的；incredible /ɪnˈkredəbl/"
+          },
+          {
+            "en": "London has a very diverse population.",
+            "cn": "伦敦的人口构成非常多元。",
+            "note": "di- 分开 + vers 转：朝不同方向转 → 多样的；diverse /daɪˈvɜːs/"
+          },
+          {
+            "en": "Smartphones can easily distract students in class.",
+            "cn": "智能手机很容易让学生在课堂上分心。",
+            "note": "dis- 分开 + tract 拉；distract /dɪˈstrækt/"
+          },
+          {
+            "en": "The council rejected the plan for a new shopping centre.",
+            "cn": "市议会否决了新建购物中心的计划。",
+            "note": "re- 回 + ject 扔；rejected /rɪˈdʒektɪd/；centre 是英式拼写"
+          }
+        ],
+        "table": {
+          "head": [
+            "词根",
+            "含义",
+            "例词"
+          ],
+          "rows": [
+            [
+              "cred",
+              "相信",
+              "credible, incredible, credit, credibility"
+            ],
+            [
+              "vert / vers",
+              "转",
+              "convert, reverse, diverse, controversial, version"
+            ],
+            [
+              "tract",
+              "拉",
+              "attract, distract, contract, extract"
+            ],
+            [
+              "ject",
+              "扔、投",
+              "project, reject, inject, object"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "悬挂、站立：pend、sist，以及拆词三步法",
+        "body": "**pend / pens = 悬挂；称重（引申为付钱）**：depend（依靠，「挂在下面」），independent（独立的），suspend（暂停，「挂起来」），pending（待定的），expense 和 expenditure（花费，「称出去的钱」）。\n\n**sist = 站立**：assist（帮助，「站在旁边」），insist（坚持，「站在里面不动」），resist（抵抗，「站着对抗」），consist（由……组成，「站在一起」），persist（坚持不懈，「一直站着」）。\n\n**拆词三步法**：遇到新词时按「前缀 → 词根 → 后缀」依次拆开。例如 irresistible = ir-（不）+ re-（反）+ sist（站）+ -ible（能……的），合起来是「不能抵抗的」，也就是「无法抗拒的」。",
+        "examples": [
+          {
+            "en": "Many young people still depend on their parents financially.",
+            "cn": "很多年轻人在经济上仍然依靠父母。",
+            "note": "de- 向下 + pend 挂；depend /dɪˈpend/"
+          },
+          {
+            "en": "The school day consists of six lessons.",
+            "cn": "学校一天有六节课。",
+            "note": "con- 一起 + sist 站；consists /kənˈsɪsts/"
+          },
+          {
+            "en": "Some people resist change, even when it is necessary.",
+            "cn": "有些人抗拒变化，即使变化是必要的。",
+            "note": "re- 对抗 + sist 站；resist /rɪˈzɪst/"
+          },
+          {
+            "en": "Government expenditure on health has risen.",
+            "cn": "政府在医疗方面的支出增加了。",
+            "note": "ex- 出 + pend 称量、付钱 + -iture；expenditure /ɪkˈspendɪtʃə/"
+          }
+        ],
+        "table": {
+          "head": [
+            "词根",
+            "含义",
+            "例词"
+          ],
+          "rows": [
+            [
+              "pend / pens",
+              "悬挂；称重、付钱",
+              "depend, independent, suspend, pending, expense, expenditure"
+            ],
+            [
+              "sist",
+              "站立",
+              "assist, insist, resist, consist, persist"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The school day consists six lessons.",
+        "right": "The school day consists of six lessons.",
+        "why": "consist 表示「由……组成」时必须接 of。记同根词时，意思和搭配要一起记。"
+      },
+      {
+        "wrong": "Many students depend their parents.",
+        "right": "Many students depend on their parents.",
+        "why": "depend 是不及物动词，后面要接 on。"
+      },
+      {
+        "wrong": "I insist to pay for dinner.",
+        "right": "I insist on paying for dinner.",
+        "why": "insist 后面接 on + doing，不接 to do。"
+      },
+      {
+        "wrong": "Smartphones attract students in class, so they cannot focus.",
+        "right": "Smartphones distract students in class, so they cannot focus.",
+        "why": "attract 是「吸引过来」，distract 是「把注意力拉开、使分心」。词根相同，前缀不同，意思也不同。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "wf-roots-q1",
+        "type": "mcq",
+        "q": "词根 spect 的意思是？",
+        "options": [
+          "看",
+          "说",
+          "拉",
+          "站"
+        ],
+        "answer": "看",
+        "explain": "spect = 看：inspect、respect、perspective、spectator。"
+      },
+      {
+        "id": "wf-roots-q2",
+        "type": "mcq",
+        "q": "根据词根推测，contradict 最可能的意思是？",
+        "options": [
+          "反驳；与……矛盾",
+          "运输",
+          "吸引",
+          "坚持"
+        ],
+        "answer": "反驳；与……矛盾",
+        "explain": "contra-（相反）+ dict（说）= 反着说，引申为「反驳、与……矛盾」。"
+      },
+      {
+        "id": "wf-roots-q3",
+        "type": "fill",
+        "q": "Mobile phones can ___ drivers and cause accidents. （用词根 tract 填一个动词，意思是「使分心」）",
+        "answer": [
+          "distract"
+        ],
+        "explain": "dis-（分开）+ tract（拉）= distract，把注意力拉开。"
+      },
+      {
+        "id": "wf-roots-q4",
+        "type": "mcq",
+        "q": "The council ___ the proposal because it was too expensive.",
+        "options": [
+          "injected",
+          "rejected",
+          "projected",
+          "objected"
+        ],
+        "answer": "rejected",
+        "explain": "re-（回）+ ject（扔）= 扔回去，即「拒绝、否决」。object 表示反对时要接 to，不能直接带宾语。"
+      },
+      {
+        "id": "wf-roots-q5",
+        "type": "fill",
+        "q": "Our team ___ of five students from different countries. （用含词根 sist 的动词，一般现在时）",
+        "answer": [
+          "consists"
+        ],
+        "explain": "consist of 表示「由……组成」，主语 our team 是第三人称单数，用 consists。"
+      },
+      {
+        "id": "wf-roots-q6",
+        "type": "mcq",
+        "q": "irresistible 最可能的意思是？",
+        "options": [
+          "无法抗拒的",
+          "不可信的",
+          "不独立的",
+          "无法预测的"
+        ],
+        "answer": "无法抗拒的",
+        "explain": "ir-（不）+ re-（反）+ sist（站）+ -ible（能……的）= 不能抵抗的，也就是无法抗拒的。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:vocab",
+        "ielts:reading"
+      ]
+    }
+  },
+  {
+    "id": "wf-collocations",
+    "domain": "wordform",
+    "track": "collocation",
+    "title": "搭配规律",
+    "titleEn": "Collocations",
+    "level": "B1",
+    "skills": [
+      "writing",
+      "speaking"
+    ],
+    "order": 10,
+    "minutes": 30,
+    "summary": "掌握动词 + 名词、形容词 + 名词、副词 + 形容词三类搭配，分清 make、do、have、take，让表达更自然，提高词汇分。",
+    "sections": [
+      {
+        "heading": "什么是搭配，为什么影响词汇分",
+        "body": "搭配（collocation）是母语者习惯放在一起用的词。语法正确不等于自然：中文说「犯错误」，英语说 make a mistake，而不是 do a mistake；中文说「浓茶」，英语说 strong tea，而不是 thick tea。\n\n雅思写作和口语的词汇评分（LR）明确考查搭配：7 分要求能使用一些不太常见的词汇，并且对搭配和语体有一定意识。与其背大量生僻词，不如先把常用词的搭配用对。\n\n学搭配的方法：背单词时**整块记**（记 make a decision，而不只是 decision）；阅读时把好的搭配摘录下来；写作时没把握的搭配，换成自己确定的说法。",
+        "examples": [
+          {
+            "en": "Everyone makes mistakes when learning a language.",
+            "cn": "学语言时每个人都会犯错。",
+            "note": "make a mistake，不说 do a mistake"
+          },
+          {
+            "en": "I usually drink strong tea in the morning.",
+            "cn": "我早上通常喝浓茶。",
+            "note": "strong tea，不说 thick tea"
+          },
+          {
+            "en": "Heavy rain caused delays across the country.",
+            "cn": "大雨导致全国多地出现延误。",
+            "note": "heavy rain，不说 big rain"
+          }
+        ],
+        "table": {
+          "head": [
+            "中文",
+            "直译（不自然）",
+            "地道搭配"
+          ],
+          "rows": [
+            [
+              "浓茶",
+              "thick tea",
+              "strong tea"
+            ],
+            [
+              "大雨",
+              "big rain",
+              "heavy rain"
+            ],
+            [
+              "学到知识",
+              "learn knowledge",
+              "gain knowledge, acquire knowledge"
+            ],
+            [
+              "开灯",
+              "open the light",
+              "turn on the light"
+            ],
+            [
+              "犯错误",
+              "do a mistake",
+              "make a mistake"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "三类常用搭配：动词 + 名词、形容词 + 名词、副词 + 形容词",
+        "body": "**动词 + 名词**：写作中用得最多，也最容易出错。raise awareness（提高意识），tackle a problem（解决问题），play a role（发挥作用），pose a threat（构成威胁），meet the demand（满足需求），reach an agreement（达成协议）。\n\n**形容词 + 名词**：用更准确的形容词代替 good、bad、big。a major problem（重大问题），a significant increase（显著增长），a key factor（关键因素），a wide range（广泛的范围），heavy traffic（交通繁忙）。\n\n**副词 + 形容词**：表达程度，比 very 更精准。highly effective（非常有效的），deeply concerned（深感担忧的），widely available（随处可得的），fully aware（完全意识到的），entirely different（完全不同的）。",
+        "examples": [
+          {
+            "en": "Social media plays an important role in how young people communicate.",
+            "cn": "社交媒体在年轻人的交流方式中发挥着重要作用。",
+            "note": "动词 + 名词：play a role"
+          },
+          {
+            "en": "Campaigns can help to raise awareness of climate change.",
+            "cn": "宣传活动有助于提高人们对气候变化的认识。",
+            "note": "动词 + 名词：raise awareness of"
+          },
+          {
+            "en": "Traffic congestion is a major problem in many capital cities.",
+            "cn": "交通拥堵是许多首都城市面临的重大问题。",
+            "note": "形容词 + 名词：a major problem"
+          },
+          {
+            "en": "Regular exercise is highly effective in reducing stress.",
+            "cn": "规律锻炼对缓解压力非常有效。",
+            "note": "副词 + 形容词：highly effective"
+          },
+          {
+            "en": "Many parents are deeply concerned about screen time.",
+            "cn": "很多家长对孩子看屏幕的时间深感担忧。",
+            "note": "副词 + 形容词：deeply concerned"
+          }
+        ],
+        "table": {
+          "head": [
+            "类型",
+            "常用搭配"
+          ],
+          "rows": [
+            [
+              "动词 + 名词",
+              "raise awareness, play a role, pose a threat, meet the demand, reach an agreement"
+            ],
+            [
+              "形容词 + 名词",
+              "a major problem, a significant increase, a key factor, a wide range, heavy traffic"
+            ],
+            [
+              "副词 + 形容词",
+              "highly effective, deeply concerned, widely available, fully aware, entirely different"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "make 与 do",
+        "body": "make 和 do 都可以译成「做」，但搭配基本是固定的。有一个大致规律可以帮你记住大部分：\n\n**make** 强调**创造、产生一个结果**，或者表示说话、计划、决定这类动作：make a decision，make a mistake，make progress，make an effort，make money，make a plan，make a suggestion，make friends。\n\n**do** 强调**完成一项任务、工作或活动**，常和 work、job 以及各种日常事务连用：do homework，do research，do business，do exercise，do the shopping，do damage，do your best，do someone a favour。\n\n规律只能覆盖大部分情况，其余的要按搭配整体记。",
+        "examples": [
+          {
+            "en": "I have made great progress in English this year.",
+            "cn": "今年我的英语进步很大。",
+            "note": "make progress"
+          },
+          {
+            "en": "Scientists are doing research into new sources of energy.",
+            "cn": "科学家正在研究新能源。",
+            "note": "do research into"
+          },
+          {
+            "en": "Could you do me a favour?",
+            "cn": "你能帮我个忙吗？",
+            "note": "do someone a favour；favour 是英式拼写"
+          },
+          {
+            "en": "We need to make a decision by Friday.",
+            "cn": "我们需要在周五前做出决定。",
+            "note": "make a decision"
+          }
+        ],
+        "table": {
+          "head": [
+            "make",
+            "do"
+          ],
+          "rows": [
+            [
+              "a decision 做决定",
+              "homework 做作业"
+            ],
+            [
+              "a mistake 犯错",
+              "research 做研究"
+            ],
+            [
+              "progress 取得进步",
+              "exercise 锻炼"
+            ],
+            [
+              "an effort 努力",
+              "business 做生意"
+            ],
+            [
+              "money 挣钱",
+              "the shopping 购物"
+            ],
+            [
+              "friends 交朋友",
+              "damage 造成损害"
+            ],
+            [
+              "a suggestion 提建议",
+              "your best 尽力"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "have 与 take",
+        "body": "**have** 多用于日常活动和体验：吃喝和日常活动，比如 have breakfast，have a meal，have a shower，have a rest；体验和交流，比如 have fun，have a good time，have a chat，have a discussion，have difficulty (in) doing。\n\n**take** 多表示「采取、承担、花费、搭乘」：采取行动，比如 take action，take measures，take steps；承担和参与，比如 take responsibility for，take part in，take care of；花费时间，比如 it takes time；交通、考试和拍照，比如 take the bus，take an exam，take a photo。\n\n英式和美式有些差别：英式常说 have a shower，美式更常说 take a shower。两种都正确，雅思都接受。",
+        "examples": [
+          {
+            "en": "The government must take action to reduce air pollution.",
+            "cn": "政府必须采取行动减少空气污染。",
+            "note": "take action"
+          },
+          {
+            "en": "Young people should take responsibility for their own health.",
+            "cn": "年轻人应该对自己的健康负责。",
+            "note": "take responsibility for"
+          },
+          {
+            "en": "We had a long discussion about the topic.",
+            "cn": "我们就这个话题进行了长时间的讨论。",
+            "note": "have a discussion"
+          },
+          {
+            "en": "Many students have difficulty understanding academic lectures.",
+            "cn": "很多学生听懂学术讲座有困难。",
+            "note": "have difficulty (in) doing"
+          },
+          {
+            "en": "Learning a language takes time and patience.",
+            "cn": "学语言需要时间和耐心。",
+            "note": "it takes time"
+          }
+        ],
+        "table": {
+          "head": [
+            "have",
+            "take"
+          ],
+          "rows": [
+            [
+              "breakfast, a meal",
+              "action, measures, steps"
+            ],
+            [
+              "a shower, a rest",
+              "responsibility for"
+            ],
+            [
+              "fun, a good time",
+              "part in"
+            ],
+            [
+              "a discussion, a chat",
+              "care of"
+            ],
+            [
+              "difficulty (in) doing",
+              "an exam, a photo"
+            ]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "We should do more efforts to protect the environment.",
+        "right": "We should make more effort to protect the environment.",
+        "why": "effort 和 make 搭配。中文「做出努力」很容易让人想到 do。"
+      },
+      {
+        "wrong": "I learned a lot of knowledge at university.",
+        "right": "I gained a lot of knowledge at university.",
+        "why": "knowledge 常和 gain、acquire 搭配，learn knowledge 是中式直译。"
+      },
+      {
+        "wrong": "Governments should take actions to solve the problem.",
+        "right": "Governments should take action to solve the problem.",
+        "why": "take action 里的 action 不可数，不加 s；而 take measures 里的 measures 要用复数。"
+      },
+      {
+        "wrong": "There was a big rain yesterday.",
+        "right": "There was heavy rain yesterday.",
+        "why": "rain、traffic、smoker 一般用 heavy 修饰，不用 big。"
+      },
+      {
+        "wrong": "I have to make my homework first.",
+        "right": "I have to do my homework first.",
+        "why": "homework 是要完成的任务，用 do。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "wf-collocations-q1",
+        "type": "mcq",
+        "q": "Our teacher asked us to ___ some suggestions for the school trip.",
+        "options": [
+          "do",
+          "make",
+          "take"
+        ],
+        "answer": "make",
+        "explain": "make a suggestion 是固定搭配，表示「提建议」。说话、计划、决定这类动作一般用 make。"
+      },
+      {
+        "id": "wf-collocations-q2",
+        "type": "mcq",
+        "q": "下面哪个搭配不自然？",
+        "options": [
+          "heavy traffic",
+          "strong tea",
+          "big rain",
+          "highly effective"
+        ],
+        "answer": "big rain",
+        "explain": "「大雨」应该说 heavy rain。其他三个都是自然的搭配。"
+      },
+      {
+        "id": "wf-collocations-q3",
+        "type": "fill",
+        "q": "Most teenagers ___ their homework in the evening. （从 make、do、have、take 中选一个，用正确形式填空）",
+        "answer": [
+          "do"
+        ],
+        "explain": "homework 是要完成的任务，用 do；主语是复数，用原形 do。"
+      },
+      {
+        "id": "wf-collocations-q4",
+        "type": "fill",
+        "q": "The council must ___ action to clean up the river. （从 make、do、have、take 中选一个）",
+        "answer": [
+          "take"
+        ],
+        "explain": "take action 表示「采取行动」；must 后面用动词原形。"
+      },
+      {
+        "id": "wf-collocations-q5",
+        "type": "correct",
+        "q": "Many students make research online before choosing a university.",
+        "answer": [
+          "Many students do research online before choosing a university.",
+          "Many students do some research online before choosing a university."
+        ],
+        "explain": "research 和 do 搭配：do research。"
+      },
+      {
+        "id": "wf-collocations-q6",
+        "type": "mcq",
+        "q": "The new policy has been ___ successful.",
+        "options": [
+          "deeply",
+          "highly",
+          "heavily",
+          "strongly"
+        ],
+        "answer": "highly",
+        "explain": "highly successful 是常见的副词 + 形容词搭配；deeply 常修饰 concerned、moved 等表示情感的词。"
+      }
+    ],
+    "related": {
+      "grammarTags": [
+        "词汇辨析"
+      ],
+      "tabs": [
+        "ielts:vocab",
+        "ielts:writing",
+        "ielts:speaking"
+      ]
+    }
+  }
+]
