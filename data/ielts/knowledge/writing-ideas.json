@@ -1,0 +1,3769 @@
+[
+  {
+    "id": "st-ideas-education",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：教育",
+    "titleEn": "Task 2 ideas: Education",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 100,
+    "minutes": 25,
+    "summary": "看到教育题能马上想到写什么：大学免费、在线学习、考试、职业教育、家长与学校 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "教育是 Task 2 出现频率最高的话题之一。先判断题目属于下面哪个方向，再到第二节的论点表里找对应的正反两面。\n\n**典型问法** 是改写后的常见出题方式，不是真题原文；**思考抓手** 是动笔前可以先问自己的问题。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "大学免费",
+              "Should university education be free for all students?",
+              "学费由谁承担？对个人和整个社会分别有什么影响？"
+            ],
+            [
+              "在线学习",
+              "Will online learning replace traditional classrooms?",
+              "学习效果、自律、社交和成本，各对哪类学生更重要？"
+            ],
+            [
+              "考试与能力",
+              "Are exams a good way to measure students' abilities?",
+              "考试能测出什么、测不出什么？有没有更好的替代方式？"
+            ],
+            [
+              "职业教育",
+              "Should more young people choose vocational training instead of university?",
+              "就业市场缺什么样的人？过早定方向有什么风险？"
+            ],
+            [
+              "家长与学校",
+              "Who plays a more important role in a child's education, parents or teachers?",
+              "孩子在家和在学校分别学到什么？两者能互相替代吗？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "每个方向给出一正一反两条论点。用法：选一条作为段落的 **观点句**，按「展开方向」写 2–3 句解释，再按「例子思路」写一个具体例子，最后一句回扣题目。\n\n教育题的例子最好落到 **某一类学生** 身上（农村学生、在职成年人、偏科的学生），比笼统地说 students 更有说服力。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "大学免费 · 支持",
+              "Free tuition would give talented students from low-income families a fair chance to attend university.",
+              "学费是低收入家庭最大的障碍；免费后能否上大学取决于能力而不是家庭收入，社会流动性随之提高",
+              "农村家庭两个孩子同时考上大学，学费占全家年收入的一大半，只能供其中一个去读"
+            ],
+            [
+              "大学免费 · 反对",
+              "Making university free would place a heavy burden on taxpayers, including those who never benefit from a degree.",
+              "钱总得有人出；没上过大学的工人也要为别人的学位交税；预算有限，还会挤占中小学和医疗的投入",
+              "政府把大笔教育预算投给大学，结果小学班级人数增加、乡村学校招不到老师"
+            ],
+            [
+              "在线学习 · 支持",
+              "Online courses allow people to study at their own pace, wherever they live.",
+              "时间和地点灵活，可以反复观看录像；特别适合在职人士和偏远地区的学生",
+              "一位全职护士下班后用网课读完会计证书，不必辞职"
+            ],
+            [
+              "在线学习 · 反对",
+              "Without face-to-face contact, many learners lose motivation and fail to complete online courses.",
+              "缺少老师督促和同学互动，自律差的人容易放弃；合作和沟通能力也很难在网上练出来",
+              "很多人报名了免费网课，只看了前两周就再也没有打开过"
+            ],
+            [
+              "考试与能力 · 支持",
+              "Exams are an efficient and relatively fair way to compare large numbers of students.",
+              "同一张试卷、同一个标准、匿名评分，比推荐信和面试更少受人情关系影响",
+              "全国统一的入学考试让小城市和大城市的学生用同一把尺子比较"
+            ],
+            [
+              "考试与能力 · 反对",
+              "Exams mainly reward memorisation, so they fail to measure creativity and teamwork.",
+              "一次考试主要测记忆和应试技巧；学校为了分数只教考点，学生缺乏批判性思维",
+              "一名学生背熟所有公式拿了高分，但在小组项目中不知道如何分工，也提不出自己的想法"
+            ],
+            [
+              "职业教育 · 支持",
+              "Vocational training prepares young people for jobs that are in high demand, such as electricians and nurses.",
+              "劳动力市场缺技术工人，就业快、收入稳定，也避免了学历贬值",
+              "一个读了两年电工课程的年轻人，比很多同龄的大学毕业生更早找到稳定工作"
+            ],
+            [
+              "职业教育 · 反对",
+              "Choosing a vocational path too early may limit a young person's future options.",
+              "十五六岁就决定职业方向太早；技术更新快，单一技能可能被淘汰；大学提供更宽的知识面和转行能力",
+              "一名只会操作某种机器的工人，在工厂引进自动化设备后很难转行"
+            ],
+            [
+              "家长与学校 · 家长更重要",
+              "Parents shape children's attitudes to learning long before they start school.",
+              "阅读习惯、好奇心和作息都在家里养成；家长陪伴孩子的时间远多于老师",
+              "每晚给孩子读故事的家庭，孩子入学时的词汇量明显更大"
+            ],
+            [
+              "家长与学校 · 老师更重要",
+              "Teachers provide expert knowledge and structured learning that most parents cannot offer.",
+              "学科知识需要专业训练；学校还让孩子学会集体生活和遵守规则",
+              "大多数家长没办法辅导中学的物理和化学，必须依靠专业教师"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「教育」和「学术通用」话题复习。记单词时连同搭配一起记，写作时整块使用，比单个词更地道。",
+        "examples": [
+          {
+            "en": "Free tuition would widen access to higher education for students from low-income families.",
+            "cn": "免除学费能让低收入家庭的学生更容易接受高等教育。"
+          },
+          {
+            "en": "Schools that rely on rote learning rarely give pupils the chance to develop critical thinking.",
+            "cn": "依赖死记硬背的学校很少给学生培养批判性思维的机会。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "tuition",
+              "tuition fees; free tuition",
+              "学费；教学"
+            ],
+            [
+              "higher education",
+              "access to higher education",
+              "高等教育"
+            ],
+            [
+              "curriculum",
+              "a broad curriculum; the school curriculum",
+              "（全部）课程"
+            ],
+            [
+              "vocational",
+              "vocational training; vocational courses",
+              "职业（技能）的"
+            ],
+            [
+              "qualification",
+              "gain a qualification; professional qualifications",
+              "资格；学历证书"
+            ],
+            [
+              "critical thinking",
+              "develop critical thinking skills",
+              "批判性思维"
+            ],
+            [
+              "rote learning",
+              "rely on rote learning",
+              "死记硬背"
+            ],
+            [
+              "standardised test",
+              "perform well in standardised tests",
+              "标准化考试"
+            ],
+            [
+              "distance learning",
+              "a distance learning course",
+              "远程学习"
+            ],
+            [
+              "academic performance",
+              "improve academic performance",
+              "学业表现"
+            ],
+            [
+              "drop out",
+              "drop out of school; drop out of university",
+              "辍学；中途退出"
+            ],
+            [
+              "motivated",
+              "highly motivated learners",
+              "有积极性的"
+            ],
+            [
+              "lifelong learning",
+              "encourage lifelong learning",
+              "终身学习"
+            ],
+            [
+              "literacy",
+              "literacy and numeracy",
+              "读写能力"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people believe that university education should be free for all students. Others think students should pay for their own tuition. Discuss both views and give your own opinion.**\n\n两段分别使用论点表中「大学免费」的支持和反对两条，都按「观点句 → 解释 → 例子 → 回扣题目」四步写。第二段在讨论反方之后给出作者立场。",
+        "examples": [
+          {
+            "en": "Those in favour of free university education argue that it gives every talented young person a fair chance to succeed. For many low-income families, tuition fees are the single biggest barrier to higher education, so a bright student may decide not to apply simply because the family cannot afford it. If fees were abolished, admission would depend on ability rather than on parents' income. For instance, a rural family with two children who both win university places may currently be able to pay for only one of them, which wastes the potential of the other. Removing this financial obstacle would therefore benefit not only individuals but also society as a whole, which needs as many skilled graduates as possible.",
+            "cn": "第一句直接给出支持方的核心论点；第二、三句解释「学费是障碍 → 取消后看能力」的因果关系；For instance 后面的例子具体到「两个孩子只能供一个」，比 many poor students 有说服力得多；最后一句从个人上升到社会，回扣题目。可借用的表达：the single biggest barrier to、depend on ability rather than on、society as a whole。",
+            "note": "支持方 · 对应「大学免费 · 支持」"
+          },
+          {
+            "en": "On the other hand, critics point out that free tuition is never really free, because the cost is simply shifted to taxpayers. This means that a factory worker who never went to university would help to pay for a future lawyer's degree, even though the lawyer is likely to earn far more over a lifetime. Moreover, government budgets are limited, and money spent on universities cannot also be spent on primary schools or hospitals. In my view, this concern is valid, but it does not justify charging high fees to everyone. A fairer solution would be to keep tuition fees while offering generous grants to students from poorer backgrounds, so that ability, not wealth, decides who goes to university.",
+            "cn": "On the other hand 转向反方，critics point out 表明这是别人的观点；「工人替律师交学费」的例子把「对纳税人不公平」讲得非常具体；Moreover 补充第二个理由（挤占其他预算）。后半段用 In my view 亮出立场，并提出折中方案，立场清楚而不摇摆。注意 7 分段落一般只展开一个主论点加一个补充，不要堆砌五六个理由。",
+            "note": "反对方 + 作者立场 · 对应「大学免费 · 反对」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, many students cannot pay the fees, so it is a big problem.",
+        "right": "For example, a rural family with two children who both win university places may only be able to pay for one of them.",
+        "why": "例子要具体到某一类人、某个场景或某个结果；「很多学生付不起，这是个大问题」只是把论点换个说法重复一遍，不能算支撑。"
+      },
+      {
+        "wrong": "University life is exciting because students can join clubs and make new friends.",
+        "right": "Free tuition would allow students to choose a course based on their interests rather than its cost.",
+        "why": "题目问的是「学费该由谁承担」，大学生活是否丰富与此无关，属于偏题。每写一句都先问自己：这和学费有什么关系？"
+      },
+      {
+        "wrong": "Students go to university to learn more knowledge.",
+        "right": "Students go to university to gain knowledge and develop new skills.",
+        "why": "learn knowledge 是典型中式搭配。knowledge 常与 gain、acquire、broaden 搭配；learn 后面接 skills、a language、how to do something。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-education-q1",
+        "type": "mcq",
+        "q": "题目问「大学教育是否应该对所有学生免费」。论点「A free system would shift the cost to taxpayers who never went to university.」支持哪一方？",
+        "options": [
+          "支持大学免费",
+          "反对大学免费",
+          "与题目无关"
+        ],
+        "answer": "反对大学免费",
+        "explain": "这条论点指出免费的代价转嫁给了没上过大学的纳税人，是反对免费的理由，对应论点表「大学免费 · 反对」。"
+      },
+      {
+        "id": "st-ideas-education-q2",
+        "type": "mcq",
+        "q": "为论点「Online courses allow people to study at their own pace.」选一个最合适的例子。",
+        "options": [
+          "Online courses are very popular all over the world nowadays.",
+          "A full-time nurse completed an accounting course online in the evenings without giving up her job.",
+          "Many people think that the internet is useful for everyone."
+        ],
+        "answer": "A full-time nurse completed an accounting course online in the evenings without giving up her job.",
+        "explain": "只有这一项写出了具体的人（全职护士）、具体做法（晚上学网课）和结果（不必辞职），能证明「按自己的节奏学习」。另外两项只是笼统的说法，没有支撑论点。"
+      },
+      {
+        "id": "st-ideas-education-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：Many students leave university before they finish their degree. → Many students ___ university before they finish their degree. (drop)",
+        "answer": [
+          "drop out of"
+        ],
+        "explain": "drop out of + 学校，表示中途退学，是教育话题的高频搭配，注意介词用 of。"
+      },
+      {
+        "id": "st-ideas-education-q4",
+        "type": "correct",
+        "q": "Free tuition would widen the access of higher education.",
+        "answer": [
+          "Free tuition would widen access to higher education."
+        ],
+        "explain": "access 后面用介词 to 表示「获得……的机会」；在 widen access to 这个搭配中 access 一般不加 the。"
+      },
+      {
+        "id": "st-ideas-education-q5",
+        "type": "mcq",
+        "q": "下面哪一句最适合作为讨论题（Discuss both views and give your own opinion）的立场句？",
+        "options": [
+          "I think both views have some advantages and disadvantages.",
+          "Some people agree and some people disagree, so it is hard to say.",
+          "I believe university should still charge fees, but generous grants should be available to students from low-income families."
+        ],
+        "answer": "I believe university should still charge fees, but generous grants should be available to students from low-income families.",
+        "explain": "这一句既表明了主要立场（应该收学费），又说明了条件（为低收入学生提供助学金），清楚而有分寸。另外两句只说两边都有道理，等于没有回答题目要求的 your own opinion。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-technology",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：科技",
+    "titleEn": "Task 2 ideas: Technology",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 110,
+    "minutes": 25,
+    "summary": "看到科技题能马上想到写什么：人工智能与工作、屏幕时间、人际关系、隐私数据、数字鸿沟 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "科技题很少单纯问「科技好不好」，通常会限定 **某种技术**（人工智能、智能手机、社交软件）和 **某个人群**（儿童、老人、上班族）。读题时先圈出这两个限定，再到下表找方向。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "人工智能与工作",
+              "Will artificial intelligence create more jobs than it destroys?",
+              "哪些工作会被替代、哪些新岗位会出现？谁来负责再培训？"
+            ],
+            [
+              "儿童屏幕时间",
+              "Should parents strictly limit the time children spend on screens?",
+              "关键是时长还是内容？对健康、注意力和学习分别有什么影响？"
+            ],
+            [
+              "科技与人际关系",
+              "Has technology made people less sociable?",
+              "联系更方便了，但面对面的交流是变多还是变少？"
+            ],
+            [
+              "隐私与数据",
+              "Is giving up personal data a fair price for free online services?",
+              "用户得到了什么、失去了什么？数据被泄露或滥用会怎样？"
+            ],
+            [
+              "数字鸿沟",
+              "Should governments make sure that everyone has internet access?",
+              "谁被落下了（老人、农村、低收入家庭）？缺的是网络还是技能？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "科技题的高分论点往往不是「科技很方便」，而是说清楚 **方便了谁、代价由谁承担**。展开时多问一句「对哪类人影响最大」，例子就自然具体了。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "人工智能与工作 · 乐观",
+              "Artificial intelligence can take over repetitive tasks, allowing employees to focus on more creative and meaningful work.",
+              "机器负责重复、枯燥的部分，人负责判断和沟通，效率和工作满意度都能提高",
+              "会计软件自动整理发票后，会计把时间用在为客户提供理财建议上"
+            ],
+            [
+              "人工智能与工作 · 担忧",
+              "Automation may eliminate jobs faster than workers can retrain for new ones.",
+              "替代速度快于再培训速度；中年、低学历工人受影响最大，收入差距随之拉大",
+              "超市普及自助收银后，一位五十岁的收银员很难转去做技术类岗位"
+            ],
+            [
+              "儿童屏幕时间 · 应严格限制",
+              "Too much screen time can harm children's sleep, eyesight and concentration.",
+              "睡前看屏幕影响睡眠；短视频让注意力变短；户外活动时间被挤占",
+              "孩子每晚睡前玩一小时平板，第二天上课打瞌睡，近视度数也在加深"
+            ],
+            [
+              "儿童屏幕时间 · 不必严格限制",
+              "Many apps and online videos are valuable learning tools for children.",
+              "关键看内容而不是时长；优质的教育应用和纪录片能激发兴趣；数字技能本身也是未来必需的能力",
+              "一个孩子通过编程小游戏学会了基础编程，还因此对数学产生了兴趣"
+            ],
+            [
+              "科技与人际关系 · 更疏远",
+              "People who spend hours on social media often have fewer meaningful face-to-face conversations.",
+              "线上点赞代替了真正的交流；人在一起却各自看手机",
+              "家庭聚餐时每个人都低头看手机，一顿饭下来几乎没有交谈"
+            ],
+            [
+              "科技与人际关系 · 更紧密",
+              "Video calls and messaging apps help families and friends stay in touch across long distances.",
+              "跨城市、跨国家的亲友可以随时见面；留学生和外出务工者的孤独感减轻",
+              "在国外读书的学生每周和父母视频，父母也能看到孩子的宿舍和日常生活"
+            ],
+            [
+              "隐私与数据 · 担忧",
+              "Companies collect huge amounts of personal data, which can be leaked or misused.",
+              "数据泄露导致诈骗；精准广告操纵消费；用户并不清楚数据流向了哪里",
+              "某购物网站遭黑客攻击，数百万用户的手机号和住址被泄露，随后很多人接到诈骗电话"
+            ],
+            [
+              "隐私与数据 · 可以接受",
+              "Sharing some personal data allows online services to remain free and become more useful.",
+              "免费服务靠广告收入维持；个性化推荐节省时间；导航等功能本身就需要数据",
+              "导航软件汇总大量司机的位置数据，实时显示拥堵路段，帮每个用户避开堵车"
+            ],
+            [
+              "数字鸿沟 · 政府应介入",
+              "As more public services move online, people without internet access are being left behind.",
+              "预约挂号、缴费、申请补贴都搬到了网上；不会上网的老人和农村居民被排除在外",
+              "一位不会用智能手机的老人无法在网上预约医院，只能一大早去现场排队"
+            ],
+            [
+              "数字鸿沟 · 不必全由政府负责",
+              "Providing free internet for everyone would be costly, and the real problem is often a lack of digital skills rather than a lack of access.",
+              "预算应优先保障医疗和教育；手机流量已经很便宜，很多人缺的是使用技能",
+              "与其给每家每户装宽带，不如在社区图书馆开设免费的智能手机课程"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「科技」话题复习。科技词很多是合成词（screen time、digital divide），注意整块记忆、不要拆开用。",
+        "examples": [
+          {
+            "en": "Older people who are not tech-savvy risk being left behind as more services move online.",
+            "cn": "随着越来越多的服务搬到网上，不熟悉科技的老年人有被落下的风险。"
+          },
+          {
+            "en": "Over-reliance on smartphones may weaken our ability to remember information.",
+            "cn": "过度依赖智能手机可能会削弱我们记住信息的能力。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "artificial intelligence",
+              "develop artificial intelligence; AI-powered tools",
+              "人工智能"
+            ],
+            [
+              "automation",
+              "job losses caused by automation",
+              "自动化"
+            ],
+            [
+              "screen time",
+              "limit screen time; excessive screen time",
+              "看屏幕的时间"
+            ],
+            [
+              "over-reliance",
+              "over-reliance on technology",
+              "过度依赖"
+            ],
+            [
+              "digital divide",
+              "narrow the digital divide",
+              "数字鸿沟"
+            ],
+            [
+              "internet access",
+              "have no internet access; provide internet access",
+              "上网条件；网络接入"
+            ],
+            [
+              "personal data",
+              "collect personal data; protect personal data",
+              "个人数据"
+            ],
+            [
+              "cybersecurity",
+              "improve cybersecurity",
+              "网络安全"
+            ],
+            [
+              "e-commerce",
+              "the rapid growth of e-commerce",
+              "电子商务"
+            ],
+            [
+              "tech-savvy",
+              "tech-savvy young people",
+              "精通科技的"
+            ],
+            [
+              "information overload",
+              "suffer from information overload",
+              "信息过载"
+            ],
+            [
+              "user-friendly",
+              "a user-friendly app",
+              "易于使用的"
+            ],
+            [
+              "labour-saving",
+              "labour-saving devices",
+              "省力的"
+            ],
+            [
+              "facial recognition",
+              "facial recognition technology",
+              "人脸识别"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Many free online services collect information about their users. Some people think this is an acceptable price to pay for free services. To what extent do you agree or disagree?**\n\n第一段是让步段，使用「隐私与数据 · 可以接受」；第二段是主体段，使用「隐私与数据 · 担忧」并表明立场。同意 / 不同意题常用这种「先让步、后反驳」的两段结构。",
+        "examples": [
+          {
+            "en": "It is true that sharing some personal data brings clear benefits to users. Most online services are free because they are funded by advertising, and advertisers are willing to pay more when adverts match people's interests. In addition, data makes many services genuinely more useful. Navigation apps, for example, combine location data from millions of drivers to show traffic jams in real time, which helps each individual user to avoid delays. Without this information, such services would either be far less accurate or have to charge a subscription fee. In this sense, giving up a limited amount of data can be a reasonable exchange.",
+            "cn": "这是让步段：先用 It is true that 承认对方观点有道理，再给出两个理由：免费服务靠广告维持、数据让服务更好用。导航软件的例子说明了「数据 → 实时路况 → 每个用户少堵车」的链条。最后一句用 In this sense 把让步限定在「有限的数据」，为下一段的反驳留出空间。",
+            "note": "让步 · 对应「隐私与数据 · 可以接受」"
+          },
+          {
+            "en": "However, I believe the real price is often far higher than users realise. Companies tend to collect much more information than they need, and this data can be leaked or sold without users fully understanding what has happened. When a large shopping website is hacked, for instance, millions of customers may have their phone numbers and home addresses exposed, and many of them later receive convincing scam calls. Furthermore, detailed personal profiles allow platforms to show people adverts at the moments when they are most likely to make impulsive purchases. For these reasons, I do not believe this is an acceptable price to pay, and stricter rules on how personal data is collected and stored are needed.",
+            "cn": "主体段用 However, I believe 亮明立场，与上一段形成对比。两个理由：数据泄露和诱导消费；泄露的例子具体到「电话号码、住址被曝光 → 接到诈骗电话」，后果清楚。结尾用 For these reasons 回扣题目中的 acceptable price，并提出解决方向。可借用的高分结构：被动语态（be leaked or sold）、far higher than users realise 这类比较句。",
+            "note": "主论点 + 立场 · 对应「隐私与数据 · 担忧」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, technology is everywhere and everybody uses it every day.",
+        "right": "For example, navigation apps use location data from millions of drivers to show traffic jams in real time.",
+        "why": "科技话题最容易写成「科技无处不在」这类大而空的句子。例子要落到某一个具体的应用、设备或场景，并写出它带来了什么结果。"
+      },
+      {
+        "wrong": "Smartphones are also very useful for adults because they can check emails at work.",
+        "right": "Educational apps can help children practise maths in an enjoyable way.",
+        "why": "如果题目讨论的是儿童的屏幕时间，写成年人用手机办公就偏离了讨论对象。科技题常限定人群（children、older people）或场景（workplace、school），动笔前先圈出这些限定词。"
+      },
+      {
+        "wrong": "Video calls allow people to contact with their families every day.",
+        "right": "Video calls allow people to contact their families every day.",
+        "why": "contact 作动词时直接接宾语，不加 with；只有名词用法才说 keep in contact with 或 be in contact with。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-technology-q1",
+        "type": "mcq",
+        "q": "题目问「父母是否应该严格限制孩子的屏幕时间」。论点「Too much screen time can harm children's sleep, eyesight and concentration.」支持哪一方？",
+        "options": [
+          "支持严格限制",
+          "反对严格限制",
+          "与题目无关"
+        ],
+        "answer": "支持严格限制",
+        "explain": "论点指出屏幕时间过长会损害睡眠、视力和注意力，是支持限制的理由，对应论点表「儿童屏幕时间 · 应严格限制」。"
+      },
+      {
+        "id": "st-ideas-technology-q2",
+        "type": "mcq",
+        "q": "为论点「Automation may eliminate jobs faster than workers can retrain for new ones.」选一个最合适的例子。",
+        "options": [
+          "Robots are becoming more and more common in modern society.",
+          "Some people like robots, but others are afraid of them.",
+          "After a supermarket installed self-service checkouts, several cashiers in their fifties lost their jobs and struggled to find new ones."
+        ],
+        "answer": "After a supermarket installed self-service checkouts, several cashiers in their fifties lost their jobs and struggled to find new ones.",
+        "explain": "这一项有具体场景（超市自助收银）、具体人群（五十多岁的收银员）和结果（难以再就业），正好说明「来不及再培训」。另外两项既不具体，也没有说到失业。"
+      },
+      {
+        "id": "st-ideas-technology-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：Many older people cannot use online services as easily as young people can. → Many older people are on the wrong side of the ___. (digital)",
+        "answer": [
+          "digital divide"
+        ],
+        "explain": "digital divide 指会用和不会用（或用不上）数字技术的人群之间的差距；be on the wrong side of the digital divide 表示处在不利的一方。"
+      },
+      {
+        "id": "st-ideas-technology-q4",
+        "type": "fill",
+        "q": "用括号里的词改写：We rely too much on technology. → There is an ___ on technology in modern life. (reliance)",
+        "answer": [
+          "over-reliance",
+          "overreliance"
+        ],
+        "explain": "over-reliance on sth 意为「过度依赖」，名词结构比 rely too much on 更正式，适合写作。注意前面用冠词 an。"
+      },
+      {
+        "id": "st-ideas-technology-q5",
+        "type": "correct",
+        "q": "Companies should not collect users' personal datas without permission.",
+        "answer": [
+          "Companies should not collect users' personal data without permission."
+        ],
+        "explain": "data 在考试写作中通常当作不可数名词使用，没有 datas 这种形式。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-environment",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：环境",
+    "titleEn": "Task 2 ideas: Environment",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 120,
+    "minutes": 25,
+    "summary": "看到环境题能马上想到写什么：个人与政府责任、发展与环保、塑料垃圾、可再生能源、濒危物种 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "环境题范围很大，但每道题只讨论其中 **一个具体问题**（垃圾、能源、物种、交通排放等）。先确定题目说的是哪一个，再找对应方向，不要把所有环境问题都写进去。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "个人还是政府",
+              "Is protecting the environment mainly the responsibility of individuals or governments?",
+              "个人行为加起来有多大作用？哪些事只有政府做得到？"
+            ],
+            [
+              "发展与环保",
+              "Should economic development come before environmental protection?",
+              "穷国和富国的情况一样吗？污染的长期代价由谁承担？"
+            ],
+            [
+              "塑料垃圾",
+              "Should single-use plastic products be banned?",
+              "禁令、收费、回收哪个更有效？替代品真的更环保吗？"
+            ],
+            [
+              "可再生能源",
+              "Should governments invest more in renewable energy?",
+              "成本、稳定性、就业和减排，短期和长期分别怎么看？"
+            ],
+            [
+              "濒危物种",
+              "Is it worth spending large amounts of money to protect endangered species?",
+              "物种消失对人类有什么直接影响？这笔钱有没有更紧迫的用途？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "环境题的例子最好写出 **一个行动 → 一个可见的结果**，比如「塑料袋收费 → 自带购物袋的人大幅增加」。不需要编造精确数据，用 fall sharply、within a few months 这类描述同样具体。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "个人还是政府 · 政府",
+              "Governments can change the behaviour of millions of people at once through laws and taxes.",
+              "个人行为分散、难以持久；法规和价格信号能影响整个社会，比单纯呼吁更有效",
+              "超市对塑料袋收费后，几个月内自带购物袋的顾客大幅增加，效果远超多年的宣传"
+            ],
+            [
+              "个人还是政府 · 个人",
+              "Individual choices, such as eating less meat or cycling to work, add up to a significant impact.",
+              "消费需求决定生产；个人行为会带动身边的人；政策也需要公众支持才能推行",
+              "一座城市骑车上班的人越来越多，政府随后修建了更多自行车道，形成良性循环"
+            ],
+            [
+              "发展与环保 · 发展优先",
+              "Poorer countries need economic growth to lift people out of poverty, even if it causes some pollution.",
+              "温饱、医疗和教育先于环保；很多发达国家当年也是先发展后治理",
+              "一座新工厂给贫困地区带来几千个工作岗位，家庭有了收入才能送孩子上学"
+            ],
+            [
+              "发展与环保 · 环保优先",
+              "Environmental damage often costs far more to repair than the profits it produced.",
+              "治理污染、健康损失和灾害成本最终由全社会承担；有些破坏无法逆转",
+              "一条河被工厂污染后，当地渔业彻底消失，清理河流花了几十年和巨额资金"
+            ],
+            [
+              "塑料垃圾 · 支持禁止",
+              "Banning single-use plastics is the quickest way to reduce plastic waste.",
+              "回收率低，最根本的办法是从源头减少；禁令迫使企业寻找替代品",
+              "禁止一次性塑料吸管后，餐厅改用纸吸管，或者只在顾客要求时提供"
+            ],
+            [
+              "塑料垃圾 · 反对一刀切",
+              "Sudden bans can hurt small businesses and may lead to alternatives that are no better for the environment.",
+              "替代品成本高；纸袋的生产同样耗能耗水；收费和完善回收体系可能更合理",
+              "小吃摊被迫改用贵几倍的可降解包装，利润被大幅压缩"
+            ],
+            [
+              "可再生能源 · 支持",
+              "Investing in renewable energy reduces emissions and creates new jobs.",
+              "减少对化石燃料的依赖，提高能源安全；新产业带来就业",
+              "一个海边小镇建起风电场，雇用当地年轻人负责设备维护"
+            ],
+            [
+              "可再生能源 · 顾虑",
+              "Solar and wind power depend on the weather, so they cannot yet fully replace fossil fuels.",
+              "发电不稳定，储能成本高；转型期间仍需要传统能源兜底",
+              "无风的冬夜，风电场几乎不发电，电网只能依靠燃气电厂补足"
+            ],
+            [
+              "濒危物种 · 值得",
+              "Protecting endangered species also protects the ecosystems that humans depend on.",
+              "生物多样性维持着食物链、授粉和净水；一个物种消失可能引发连锁反应",
+              "蜜蜂数量下降会直接影响水果和蔬菜的产量"
+            ],
+            [
+              "濒危物种 · 不值得大投入",
+              "The money spent on saving a few rare animals could help more people if it were used for healthcare or education.",
+              "资源有限，人的需求更紧迫；有些保护项目成本极高、效果有限",
+              "一个项目每年花巨资保护几十只动物，同样的钱足够为一个地区的儿童接种疫苗"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「环境」话题复习。环境题常用 **动词 + 名词** 的搭配（cut emissions、tackle climate change），比单独记名词更有用。",
+        "examples": [
+          {
+            "en": "Most single-use plastics end up in landfill or in the sea rather than being recycled.",
+            "cn": "大多数一次性塑料最终进了垃圾填埋场或大海，而没有被回收利用。"
+          },
+          {
+            "en": "Introducing a carbon tax would encourage companies to cut their emissions.",
+            "cn": "征收碳税会促使企业减少排放。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "climate change",
+              "tackle climate change",
+              "气候变化"
+            ],
+            [
+              "emission",
+              "cut carbon emissions; reduce emissions",
+              "排放（物）"
+            ],
+            [
+              "carbon footprint",
+              "reduce your carbon footprint",
+              "碳足迹"
+            ],
+            [
+              "fossil fuel",
+              "burn fossil fuels; dependence on fossil fuels",
+              "化石燃料"
+            ],
+            [
+              "renewable",
+              "renewable energy; renewable sources",
+              "可再生的"
+            ],
+            [
+              "sustainable",
+              "sustainable development; a sustainable lifestyle",
+              "可持续的"
+            ],
+            [
+              "single-use",
+              "single-use plastics",
+              "一次性的"
+            ],
+            [
+              "landfill",
+              "end up in landfill",
+              "垃圾填埋场"
+            ],
+            [
+              "recycle",
+              "recycle household waste",
+              "回收利用"
+            ],
+            [
+              "biodiversity",
+              "protect biodiversity; a loss of biodiversity",
+              "生物多样性"
+            ],
+            [
+              "endangered",
+              "endangered species",
+              "濒危的"
+            ],
+            [
+              "habitat",
+              "destroy natural habitats",
+              "栖息地"
+            ],
+            [
+              "carbon tax",
+              "introduce a carbon tax",
+              "碳税"
+            ],
+            [
+              "irreversible",
+              "cause irreversible damage",
+              "不可逆转的"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people think that protecting the environment is mainly the responsibility of governments, while others believe that individuals should take responsibility. Discuss both views and give your own opinion.**\n\n第一段使用「个人还是政府 · 政府」，第二段使用「个人还是政府 · 个人」并在结尾给出立场。注意两段都先写理由、再写例子。",
+        "examples": [
+          {
+            "en": "On the one hand, there are strong reasons to believe that governments should lead the fight against environmental damage. Only governments have the power to change the behaviour of millions of people at the same time, through laws, taxes and investment. When supermarkets are required to charge for plastic bags, for example, shoppers quickly start bringing their own, and the number of bags used falls sharply within months. Persuading every individual to make the same change voluntarily would take years. Governments can also fund large projects such as wind farms and public transport networks, which no individual could ever afford to build.",
+            "cn": "On the one hand 表明这是讨论的第一方；核心理由是「政府能同时影响几百万人」。塑料袋收费的例子说明政策见效快、范围广，再用 would take years 和个人自愿行为对比，论证更有力。最后补充一个「大型项目只有政府负担得起」的理由。例子没有编造具体百分比，用 falls sharply within months 描述同样有效。",
+            "note": "观点一 · 对应「个人还是政府 · 政府」"
+          },
+          {
+            "en": "On the other hand, the role of individuals should not be underestimated. Every product on the market exists because people buy it, so when large numbers of consumers choose to eat less meat or buy second-hand clothes, companies are forced to adapt. Individuals also influence those around them: a colleague who cycles to work may encourage others to do the same. In my opinion, both groups have a part to play, but governments carry the greater responsibility, because personal choices are most effective when they are supported by sensible policies, such as safe cycle lanes and affordable public transport.",
+            "cn": "On the other hand 转向另一方，两个理由：消费需求影响企业、个人会影响身边的人。结尾用 In my opinion 给出明确立场（双方都有责任，但政府更大），并用 because 说明理由，避免「两边都对」的空泛结论。such as 后面的例子说明了「合理的政策」具体指什么。",
+            "note": "观点二 + 作者立场 · 对应「个人还是政府 · 个人」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, pollution is a very serious problem in the world today.",
+        "right": "For example, after a factory polluted a local river, the fishing industry in the area disappeared.",
+        "why": "「污染很严重」是背景，不是例子。好的例子要有具体对象（一条河、一座城市、一种产品）和具体后果。"
+      },
+      {
+        "wrong": "Air pollution from cars also causes serious health problems in big cities.",
+        "right": "Charging customers for plastic bags would encourage them to bring their own.",
+        "why": "题目问的是如何减少塑料垃圾时，写汽车尾气和空气污染就偏题了。环境题每次只讨论一个具体问题，不要把所有环境问题都写进去。"
+      },
+      {
+        "wrong": "Everyone has a duty to protect the nature.",
+        "right": "Everyone has a duty to protect nature.",
+        "why": "表示「大自然」时 nature 是不可数名词，前面不加 the；而 environment 要加 the：protect the environment。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-environment-q1",
+        "type": "mcq",
+        "q": "题目问「经济发展是否应该优先于环境保护」。论点「Environmental damage often costs far more to repair than the profits it produced.」支持哪一方？",
+        "options": [
+          "经济发展优先",
+          "环境保护优先",
+          "与题目无关"
+        ],
+        "answer": "环境保护优先",
+        "explain": "论点说明污染的修复成本超过它带来的利润，也就是「先污染后治理」并不划算，支持环境保护优先。"
+      },
+      {
+        "id": "st-ideas-environment-q2",
+        "type": "mcq",
+        "q": "为论点「Protecting endangered species also protects the ecosystems that humans depend on.」选一个最合适的例子。",
+        "options": [
+          "If the number of bees keeps falling, farmers will produce far less fruit, because many crops depend on bees for pollination.",
+          "Endangered animals such as pandas are very cute, and children love them.",
+          "There are many endangered species in the world, and the number is growing."
+        ],
+        "answer": "If the number of bees keeps falling, farmers will produce far less fruit, because many crops depend on bees for pollination.",
+        "explain": "论点的重点是「人类依赖的生态系统」，这一项用蜜蜂授粉和水果产量说明了物种与人类的直接联系。熊猫可爱是情感理由，物种数量增长只是重复背景。"
+      },
+      {
+        "id": "st-ideas-environment-q3",
+        "type": "fill",
+        "q": "用 end up 改写，空格处填一个短语：Most plastic bottles are eventually buried in landfill. → Most plastic bottles eventually ___ landfill.",
+        "answer": [
+          "end up in"
+        ],
+        "explain": "end up in + 地点，表示「最终落到……」，是描述垃圾去向的常用表达。"
+      },
+      {
+        "id": "st-ideas-environment-q4",
+        "type": "fill",
+        "q": "填入一个合适的动词：Governments should ___ carbon emissions by investing in clean energy.",
+        "answer": [
+          "cut",
+          "reduce",
+          "lower",
+          "curb",
+          "limit",
+          "decrease"
+        ],
+        "explain": "cut、reduce、lower emissions 是最常见的搭配；curb emissions 语气更正式。"
+      },
+      {
+        "id": "st-ideas-environment-q5",
+        "type": "correct",
+        "q": "Renewable energy can reduce our dependence of fossil fuels.",
+        "answer": [
+          "Renewable energy can reduce our dependence on fossil fuels."
+        ],
+        "explain": "dependence 后接介词 on，与动词 depend on 一致；同理还有 reliance on、over-reliance on。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-health",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：健康",
+    "titleEn": "Task 2 ideas: Health",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 130,
+    "minutes": 25,
+    "summary": "看到健康题能马上想到写什么：个人与政府责任、预防与治疗、免费医疗、垃圾食品广告、现代人是否更健康 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "健康题最常见的问题是 **谁该负责**（个人、家庭、政府）和 **钱该花在哪里**（预防还是治疗）。想清楚这两点，大部分健康题都能找到切入口。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "个人还是政府",
+              "Is staying healthy mainly the responsibility of individuals or governments?",
+              "个人习惯和社会环境，哪个对健康影响更大？"
+            ],
+            [
+              "预防还是治疗",
+              "Should governments spend more on preventing illness than on treating it?",
+              "哪种花钱方式长期更省？已经生病的人怎么办？"
+            ],
+            [
+              "免费医疗",
+              "Should healthcare be free for everyone?",
+              "公平和成本如何平衡？免费会不会导致滥用？"
+            ],
+            [
+              "垃圾食品广告",
+              "Should advertisements for junk food aimed at children be banned?",
+              "孩子能否分辨广告？家庭和广告谁的影响更大？"
+            ],
+            [
+              "现代人更健康吗",
+              "Are people today healthier than people in the past?",
+              "寿命更长是否等于更健康？现代生活带来了哪些新问题？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "健康题的例子可以写 **一个人的生活习惯 → 身体结果**（每天坐十小时 → 三十岁出头血压偏高），也可以写 **一项政策 → 人群变化**（学校停售含糖饮料 → 学生少喝甜饮料）。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "个人还是政府 · 个人",
+              "Ultimately, it is individuals who decide what they eat and how much they exercise.",
+              "健康主要取决于日常习惯；政府无法替每个人做选择；强调个人责任能增强自律",
+              "两个收入相近的同事，一个每天步行上下班，一个总是开车，几年后体检结果差别明显"
+            ],
+            [
+              "个人还是政府 · 政府",
+              "Governments can make healthy choices easier and cheaper for everyone.",
+              "低收入家庭难以负担新鲜食物；城市缺少运动场地；改变环境比单纯劝说更有效",
+              "学校食堂停售含糖饮料、改为供应水和牛奶后，学生喝甜饮料的习惯明显减少"
+            ],
+            [
+              "预防还是治疗 · 预防",
+              "Preventing illness is far cheaper than treating it once it has developed.",
+              "疫苗、体检、健康教育花费少；慢性病治疗费用高，而且要持续很多年",
+              "定期测血压能及早发现高血压，避免日后中风带来的高额治疗费和长期护理"
+            ],
+            [
+              "预防还是治疗 · 治疗",
+              "People who are already seriously ill need treatment now, so hospital funding must not be reduced.",
+              "预防见效慢；床位和设备不足会直接危及生命；两者需要平衡",
+              "癌症病人等待手术的时间过长，再多的预防宣传也帮不了他们"
+            ],
+            [
+              "免费医疗 · 支持",
+              "Free healthcare means that nobody has to choose between their health and their savings.",
+              "生病不应因为贫穷而得不到治疗；及时就医能避免小病拖成大病",
+              "一位低收入工人怕花钱，咳嗽拖了几个月才去看病，结果发展成肺炎住院"
+            ],
+            [
+              "免费医疗 · 顾虑",
+              "When healthcare is completely free, some people may overuse it, which leads to long waiting times.",
+              "小病也去大医院，挤占医疗资源；财政压力大；可以收取少量挂号费",
+              "有人因为普通感冒去急诊，真正的急症病人反而要等好几个小时"
+            ],
+            [
+              "垃圾食品广告 · 支持禁止",
+              "Children are easily influenced by colourful adverts and cannot judge what is good for them.",
+              "儿童缺乏判断力；广告用卡通形象和赠品吸引孩子；饮食习惯一旦养成很难改变",
+              "孩子看了动画片中间插播的薯片广告，去超市时一定要买同款"
+            ],
+            [
+              "垃圾食品广告 · 反对禁止",
+              "A ban would have limited impact, because children's eating habits are mainly shaped by their families.",
+              "家庭饮食才是主要因素；网络广告难以监管；营养教育比禁令更有效",
+              "父母常用零食作为奖励的家庭，孩子即使没看过广告也离不开零食"
+            ],
+            [
+              "现代人更健康吗 · 是",
+              "Thanks to vaccines and modern medicine, people today live much longer than their grandparents did.",
+              "人均寿命提高；许多曾经致命的疾病可以预防或治愈",
+              "过去常见的一些儿童传染病，如今靠疫苗已经很少见"
+            ],
+            [
+              "现代人更健康吗 · 否",
+              "Modern lifestyles have created new health problems, such as obesity and stress-related illness.",
+              "久坐、加工食品、睡眠不足和工作压力；活得更长不等于活得更健康",
+              "不少年轻上班族三十岁出头就出现高血压和失眠"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「健康」话题复习。注意区分名词和形容词：obesity / obese、health / healthy，写作时最容易混用。",
+        "examples": [
+          {
+            "en": "A sedentary lifestyle and a diet high in processed food are major causes of obesity.",
+            "cn": "久坐的生活方式和大量摄入加工食品是导致肥胖的主要原因。"
+          },
+          {
+            "en": "Regular check-ups are a simple preventive measure that can save lives.",
+            "cn": "定期体检是一项简单的预防措施，却可能挽救生命。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "balanced diet",
+              "maintain a balanced diet",
+              "均衡饮食"
+            ],
+            [
+              "processed food",
+              "cut down on processed food",
+              "加工食品"
+            ],
+            [
+              "junk food",
+              "eat too much junk food",
+              "垃圾食品"
+            ],
+            [
+              "obesity",
+              "tackle obesity; childhood obesity",
+              "肥胖（症）"
+            ],
+            [
+              "sedentary",
+              "a sedentary lifestyle",
+              "久坐不动的"
+            ],
+            [
+              "physical activity",
+              "do regular physical activity; increase physical activity",
+              "体育活动"
+            ],
+            [
+              "public health",
+              "improve public health; a public health campaign",
+              "公共卫生"
+            ],
+            [
+              "preventive",
+              "preventive measures; preventive medicine",
+              "预防性的"
+            ],
+            [
+              "healthcare",
+              "access to healthcare; free healthcare",
+              "医疗保健"
+            ],
+            [
+              "check-up",
+              "have a regular check-up",
+              "体检"
+            ],
+            [
+              "chronic",
+              "chronic diseases",
+              "慢性的"
+            ],
+            [
+              "mental health",
+              "mental health problems",
+              "心理健康"
+            ],
+            [
+              "well-being",
+              "physical and mental well-being",
+              "健康幸福"
+            ],
+            [
+              "life expectancy",
+              "rising life expectancy",
+              "预期寿命"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people think that governments should spend more money on preventing illness rather than treating it. To what extent do you agree or disagree?**\n\n第一段使用「预防还是治疗 · 预防」作为主论点；第二段使用「预防还是治疗 · 治疗」作为让步，并说明作者的条件。这是「基本同意」类立场的典型写法。",
+        "examples": [
+          {
+            "en": "There are convincing reasons to shift more health spending towards prevention. Most importantly, preventing a disease is usually far cheaper than treating it. A regular blood pressure check costs very little, yet it can identify high blood pressure years before it causes a stroke, which may require weeks in hospital and long-term care. Similarly, public campaigns that encourage people to stop smoking or take more exercise can reduce the number of patients with chronic diseases such as diabetes. Over time, money invested in prevention would therefore ease the pressure on hospitals and allow doctors to concentrate on illnesses that cannot be avoided.",
+            "cn": "主论点段，第一句就表明立场（shift more health spending towards prevention）。Most importantly 引出最强的理由：预防更便宜。「测血压 → 早发现 → 避免中风住院」这条因果链就是具体例子的标准写法。Similarly 补充第二个例子，最后一句写长期效果，回扣题目。",
+            "note": "主论点 · 对应「预防还是治疗 · 预防」"
+          },
+          {
+            "en": "Nevertheless, this does not mean that treatment budgets should be cut. People who are already seriously ill cannot benefit from prevention, and they need operations, medicines and hospital beds immediately. If funding for treatment were reduced, waiting lists would grow longer, and some patients might become more seriously ill while they wait. For this reason, I believe that the extra money for prevention should come from new funding rather than from existing hospital budgets. In short, I largely agree with the statement, provided that patients who need care today are not forgotten.",
+            "cn": "让步段用 Nevertheless 开头，承认治疗同样不能少，并说明削减治疗经费的后果（候诊名单变长、病情加重）。随后给出具体办法（新增经费而不是挤占医院预算），最后用 largely agree ... provided that 把立场说清楚：基本同意，但有条件。这种「有条件同意」比完全同意更容易写出深度。",
+            "note": "让步 + 作者立场 · 对应「预防还是治疗 · 治疗」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, health is the most important thing in our lives.",
+        "right": "For example, a regular blood pressure check can detect a problem years before it leads to a stroke.",
+        "why": "「健康最重要」是人人都同意的口号，不能证明任何论点。例子要说明一个具体做法带来了什么具体结果。"
+      },
+      {
+        "wrong": "I agree that prevention is better. However, treatment is more important, so I disagree.",
+        "right": "I largely agree that prevention deserves more funding, although treatment budgets should not be reduced.",
+        "why": "同一篇文章里先说同意、又说不同意，考官会认为立场不清，Task Response 直接扣分。想表达两面都有道理时，用 largely agree ... although ... 这种「主立场 + 保留」的结构。"
+      },
+      {
+        "wrong": "Eating too much junk food can damage people's healthy.",
+        "right": "Eating too much junk food can damage people's health.",
+        "why": "healthy 是形容词，health 才是名词。同类混淆还有 obese（形容词）和 obesity（名词）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-health-q1",
+        "type": "mcq",
+        "q": "题目问「医疗是否应该对所有人免费」。论点「Free healthcare means that nobody has to choose between their health and their savings.」支持哪一方？",
+        "options": [
+          "支持免费医疗",
+          "对完全免费有顾虑",
+          "与题目无关"
+        ],
+        "answer": "支持免费医疗",
+        "explain": "论点强调免费医疗让人不必在健康和积蓄之间二选一，是支持免费医疗的理由，对应论点表「免费医疗 · 支持」。"
+      },
+      {
+        "id": "st-ideas-health-q2",
+        "type": "mcq",
+        "q": "为论点「Modern lifestyles have created new health problems.」选一个最合适的例子。",
+        "options": [
+          "Modern life is very different from life in the past.",
+          "Many office workers sit at a desk for ten hours a day and develop high blood pressure in their early thirties.",
+          "Some people are healthy, while others are not."
+        ],
+        "answer": "Many office workers sit at a desk for ten hours a day and develop high blood pressure in their early thirties.",
+        "explain": "这一项写出了具体人群（上班族）、具体生活方式（每天坐十小时）和具体结果（三十出头血压高），能证明论点。另外两项没有任何具体信息。"
+      },
+      {
+        "id": "st-ideas-health-q3",
+        "type": "fill",
+        "q": "用括号里的词的正确形式填空：Many children are too fat these days. → Childhood ___ is becoming more common. (obese)",
+        "answer": [
+          "obesity"
+        ],
+        "explain": "主语位置需要名词，obese 的名词形式是 obesity。childhood obesity 是健康话题的高频搭配。"
+      },
+      {
+        "id": "st-ideas-health-q4",
+        "type": "fill",
+        "q": "填入一个合适的形容词：Doctors recommend a ___ diet with plenty of fruit and vegetables.",
+        "answer": [
+          "balanced",
+          "healthy"
+        ],
+        "explain": "a balanced diet（均衡饮食）是最地道的搭配，a healthy diet 也可以。"
+      },
+      {
+        "id": "st-ideas-health-q5",
+        "type": "correct",
+        "q": "Regular check-ups can prevent people to develop serious diseases.",
+        "answer": [
+          "Regular check-ups can prevent people from developing serious diseases."
+        ],
+        "explain": "prevent 的用法是 prevent sb from doing sth，不能接 to do。同类结构还有 stop sb from doing、discourage sb from doing。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-work",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：工作",
+    "titleEn": "Task 2 ideas: Work",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 140,
+    "minutes": 25,
+    "summary": "看到工作题能马上想到写什么：居家办公、薪水与满意度、零工经济、退休年龄、长时间工作 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "工作题通常从 **员工** 和 **雇主（公司）** 两个角度都能写。想不出论点时，分别问「对员工有什么影响」「对公司有什么影响」，往往一下就能找到两三条。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "居家办公",
+              "Is working from home better for employees and companies?",
+              "通勤、效率、孤独感、团队合作，各自影响谁？"
+            ],
+            [
+              "薪水与满意度",
+              "Is job satisfaction more important than a high salary?",
+              "人在不同人生阶段的需求一样吗？没钱会不会也不快乐？"
+            ],
+            [
+              "零工经济",
+              "Is the gig economy good for workers?",
+              "灵活性值多少钱？生病受伤时谁来保障？"
+            ],
+            [
+              "退休年龄",
+              "Should people be forced to retire at a fixed age?",
+              "老员工的经验和年轻人的机会，怎么兼顾？"
+            ],
+            [
+              "长时间工作",
+              "Is working long hours a positive or negative trend?",
+              "短期收获和长期代价分别是什么？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "工作题的例子很适合写 **某一类员工**：刚毕业的新人、有孩子的父母、五十多岁的老员工、外卖骑手。写清楚这个人遇到了什么、结果怎样，比泛泛地说 workers 更具体。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "居家办公 · 支持",
+              "Working from home saves employees hours of commuting each week.",
+              "省下通勤的时间和费用，可用于休息和陪伴家人；高峰期交通压力也随之减轻",
+              "一位单程通勤一个半小时的员工改为居家办公后，每周多出了十多个小时"
+            ],
+            [
+              "居家办公 · 顾虑",
+              "Remote workers may feel isolated and miss chances to learn from experienced colleagues.",
+              "新员工尤其需要现场观察和随时提问；团队的信任和创意交流依赖面对面接触",
+              "一位刚毕业的设计师居家工作半年，很少得到前辈当面指导，进步缓慢"
+            ],
+            [
+              "薪水与满意度 · 满意度更重要",
+              "People who enjoy their work are usually more productive and less likely to suffer from burnout.",
+              "兴趣带来持久的动力；长期做不喜欢的工作容易倦怠、频繁跳槽",
+              "一位放弃高薪银行工作去当老师的人，收入下降了，却更有成就感，也坚持得更久"
+            ],
+            [
+              "薪水与满意度 · 薪水更重要",
+              "A good salary provides financial security, which is essential for supporting a family.",
+              "房租、房贷和孩子的教育都需要钱；经济压力本身就会让人不快乐",
+              "一对刚有孩子的年轻夫妻，丈夫选择了收入更高但不那么喜欢的岗位来支付房贷"
+            ],
+            [
+              "零工经济 · 支持",
+              "The gig economy gives people the flexibility to choose when and how much they work.",
+              "学生和需要照顾家人的人可以灵活安排时间；门槛低，容易获得额外收入",
+              "一名大学生课余时间送外卖，自己决定每周接单多长时间"
+            ],
+            [
+              "零工经济 · 反对",
+              "Gig workers often have no sick pay, pension or job security.",
+              "收入不稳定；派单由平台算法控制；受伤或生病时没有任何保障",
+              "一位外卖骑手送餐时摔伤，几周无法工作，这段时间完全没有收入"
+            ],
+            [
+              "退休年龄 · 支持固定退休",
+              "A fixed retirement age creates opportunities for younger workers.",
+              "高级岗位空出来，年轻人才有晋升空间；体力要求高的工作也需要年龄限制",
+              "一家工厂的几位老技师按时退休后，两名年轻员工得到了晋升"
+            ],
+            [
+              "退休年龄 · 反对强制退休",
+              "Forcing experienced people to retire wastes valuable skills and knowledge.",
+              "很多人六十多岁仍然健康能干；经验难以替代；人口老龄化的社会需要更多劳动力",
+              "一位资深外科医生被迫退休后，医院一时找不到同等经验的专家"
+            ],
+            [
+              "长时间工作 · 积极",
+              "Working long hours early in a career can lead to faster promotion and higher income.",
+              "积累经验、展示能力；有些行业起步阶段就需要大量投入",
+              "一位年轻律师工作前几年经常加班，三十出头就成为了合伙人"
+            ],
+            [
+              "长时间工作 · 消极",
+              "Regularly working long hours damages both health and family relationships.",
+              "睡眠不足、压力大；陪伴家人的时间减少；长期来看效率反而下降",
+              "一位经理连续几个月每天工作十二个小时，最终因过度劳累病倒"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「工作」话题复习。很多工作词是固定短语（work-life balance、job security），中间的连字符和词序都不要改。",
+        "examples": [
+          {
+            "en": "Remote working can improve work-life balance, but it may also blur the line between home and the office.",
+            "cn": "远程办公能改善工作与生活的平衡，但也可能模糊家与办公室之间的界限。"
+          },
+          {
+            "en": "A heavy workload and constant overtime are common causes of burnout.",
+            "cn": "繁重的工作量和没完没了的加班是导致过度劳累的常见原因。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "remote working",
+              "the rise of remote working",
+              "远程办公"
+            ],
+            [
+              "flexible working",
+              "flexible working hours",
+              "弹性工作制"
+            ],
+            [
+              "commute",
+              "a long commute; commute to work",
+              "通勤"
+            ],
+            [
+              "work-life balance",
+              "achieve a healthy work-life balance",
+              "工作与生活的平衡"
+            ],
+            [
+              "job satisfaction",
+              "high levels of job satisfaction",
+              "工作满意度"
+            ],
+            [
+              "job security",
+              "offer job security",
+              "工作保障"
+            ],
+            [
+              "burnout",
+              "suffer from burnout",
+              "过度劳累；倦怠"
+            ],
+            [
+              "workload",
+              "a heavy workload",
+              "工作量"
+            ],
+            [
+              "overtime",
+              "work overtime",
+              "加班"
+            ],
+            [
+              "productivity",
+              "boost productivity",
+              "生产率"
+            ],
+            [
+              "gig economy",
+              "work in the gig economy",
+              "零工经济"
+            ],
+            [
+              "career prospects",
+              "improve your career prospects",
+              "职业前景"
+            ],
+            [
+              "colleague",
+              "learn from experienced colleagues",
+              "同事"
+            ],
+            [
+              "retire",
+              "retire early; retire at the age of 60",
+              "退休"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**In many countries, more people now work from home for at least part of the week. Do the advantages of this development outweigh the disadvantages?**\n\n第一段使用「居家办公 · 支持」，第二段使用「居家办公 · 顾虑」，并在段末回答「利是否大于弊」。利弊题一定要给出比较结果。",
+        "examples": [
+          {
+            "en": "The most obvious advantage of working from home is the time it saves. In large cities, employees often spend two or three hours a day travelling to and from the office, which leaves them exhausted before they even start work. An employee who no longer has to commute can use those extra hours to exercise, rest or spend time with their children, so it is not surprising that many remote workers report a better work-life balance. Companies can benefit as well, since staff who are less tired tend to be more productive, and firms that need less office space can reduce their rent considerably.",
+            "cn": "第一句直接点出优势（节省时间），第二句用大城市每天通勤两三个小时说明问题有多严重；第三句用「省下的时间可以做什么」作为具体例子，并自然引出 work-life balance 这个核心词。最后一句从员工扩展到公司，两个受益方让段落更完整。",
+            "note": "优势 · 对应「居家办公 · 支持」"
+          },
+          {
+            "en": "However, remote working also has drawbacks, particularly for younger employees. People who are new to a job learn a great deal simply by watching experienced colleagues and asking quick questions, and these opportunities are largely lost when everyone works alone at home. A recent graduate who communicates with the team only through emails and video calls may develop far more slowly than one who sits beside a supportive manager. Even so, I believe the advantages are greater, because this problem can be solved by asking staff to come into the office two or three days a week, whereas a long daily commute has no such simple solution.",
+            "cn": "However 转入劣势，并限定对象（particularly for younger employees），比泛泛地说「会孤独」更有分析深度。应届生的对比例子很具体。最后用 Even so, I believe 给出判断，并解释为什么优势更大：劣势有简单的解决办法，而通勤没有。利弊题一定要回答「哪个更多」，否则 Task Response 会扣分。",
+            "note": "劣势 + 比较结论 · 对应「居家办公 · 顾虑」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, working from home has many advantages for many people.",
+        "right": "For example, an employee who used to spend three hours a day commuting can now use that time to exercise or be with family.",
+        "why": "「对很多人有很多好处」没有提供任何新信息。例子要写出具体的人、具体的变化和具体的结果。"
+      },
+      {
+        "wrong": "In conclusion, working from home has both advantages and disadvantages.",
+        "right": "In conclusion, the advantages of working from home outweigh the disadvantages, as long as staff still meet in person regularly.",
+        "why": "利弊题问的是 Do the advantages outweigh the disadvantages，只写「利弊都有」等于没有回答问题，这是工作类利弊题最常见的失分点。"
+      },
+      {
+        "wrong": "Many people choose a company with good welfare.",
+        "right": "Many people choose a company that offers good benefits.",
+        "why": "中文的「福利待遇」不能直译成 welfare。welfare 指政府提供的社会福利或人的幸福安康；公司给员工的福利用 benefits 或 perks。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-work-q1",
+        "type": "mcq",
+        "q": "题目问「是否应该强制人们在固定年龄退休」。论点「A fixed retirement age creates opportunities for younger workers.」支持哪一方？",
+        "options": [
+          "支持固定退休年龄",
+          "反对强制退休",
+          "与题目无关"
+        ],
+        "answer": "支持固定退休年龄",
+        "explain": "论点说明固定退休能给年轻人腾出岗位和晋升机会，是支持固定退休年龄的理由。"
+      },
+      {
+        "id": "st-ideas-work-q2",
+        "type": "mcq",
+        "q": "为论点「Gig workers often have no job security.」选一个最合适的例子。",
+        "options": [
+          "Delivery riders are very busy at lunchtime.",
+          "Many young people prefer to work in the gig economy nowadays.",
+          "A delivery rider who breaks his arm cannot work for six weeks and receives no income during that time."
+        ],
+        "answer": "A delivery rider who breaks his arm cannot work for six weeks and receives no income during that time.",
+        "explain": "这一项具体说明了「没有保障」意味着什么：受伤后六周没有收入。午餐时间忙碌与保障无关，年轻人喜欢零工反而说的是零工的吸引力。"
+      },
+      {
+        "id": "st-ideas-work-q3",
+        "type": "fill",
+        "q": "用括号里的词的正确形式填空：Many people are exhausted because they work too much. → Many people suffer from ___ because of their heavy workload. (burn)",
+        "answer": [
+          "burnout",
+          "burn-out"
+        ],
+        "explain": "burnout 指长期过劳导致的身心耗竭，suffer from burnout 是固定搭配。"
+      },
+      {
+        "id": "st-ideas-work-q4",
+        "type": "fill",
+        "q": "填入一个词：Working from home can help employees achieve a better work-life ___.",
+        "answer": [
+          "balance"
+        ],
+        "explain": "work-life balance（工作与生活的平衡）是工作话题最高频的短语之一，常与 achieve、improve、maintain 搭配。"
+      },
+      {
+        "id": "st-ideas-work-q5",
+        "type": "correct",
+        "q": "Many graduates find it difficult to find a job with high salary.",
+        "answer": [
+          "Many graduates find it difficult to find a job with a high salary."
+        ],
+        "explain": "salary 是可数名词，单数前要加冠词：a high salary、a good salary。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-crime",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：犯罪",
+    "titleEn": "Task 2 ideas: Crime",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 150,
+    "minutes": 25,
+    "summary": "看到犯罪题能马上想到写什么：监狱与改造、青少年犯罪、监控与隐私、加重刑罚、犯罪根源 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "犯罪题绝大多数围绕两个问题：**怎样惩罚** 和 **怎样预防**。写之前先想清楚题目关心的是哪一个，再从惩罚的效果、对罪犯的影响、对社会的影响三个角度找论点。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "监狱还是改造",
+              "Is prison the most effective way to reduce crime?",
+              "关起来能保护社会多久？出狱以后怎么办？"
+            ],
+            [
+              "青少年犯罪",
+              "Should teenagers who commit crimes be punished in the same way as adults?",
+              "青少年和成年人在判断力上有什么区别？对受害者公平吗？"
+            ],
+            [
+              "监控与隐私",
+              "Does installing more CCTV cameras make cities safer?",
+              "威慑和破案作用有多大？谁来保管录像？"
+            ],
+            [
+              "加重刑罚",
+              "Do longer prison sentences prevent crime?",
+              "犯罪的人作案前会不会想到后果？"
+            ],
+            [
+              "犯罪的根源",
+              "Is poverty the main cause of crime?",
+              "穷人都会犯罪吗？富人犯的是什么罪？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "犯罪题的高分写法是 **对比两种处理方式的后果**：比如同一个年轻人，进成年人监狱会怎样、参加社区服务和职业培训又会怎样。把两条路的结果写出来，论点自然成立。\n\n注意语气要理性，少用 all、never、forever 这类绝对化的词。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "监狱还是改造 · 监狱",
+              "Prison protects the public by keeping dangerous criminals off the streets.",
+              "暴力犯罪者必须与社会隔离；判刑也让受害者感到公正",
+              "一个多次入室盗窃的惯犯被判入狱后，所在小区的入室盗窃案明显减少"
+            ],
+            [
+              "监狱还是改造 · 改造",
+              "Education and job training in prison can help offenders build an honest life after release.",
+              "很多罪犯缺乏技能和学历，出狱后找不到工作又重新犯罪；改造能降低再犯率",
+              "一名在狱中学会烹饪的年轻人出狱后在餐厅找到工作，再也没有犯罪"
+            ],
+            [
+              "青少年犯罪 · 区别对待",
+              "Young offenders are still developing, so they deserve a chance to change.",
+              "青少年判断力不成熟、容易受同伴影响；犯罪记录会毁掉一生的前途；教育矫正更合适",
+              "一名十五岁少年因跟朋友偷东西被抓，接受社区辅导后考上了职业学校"
+            ],
+            [
+              "青少年犯罪 · 同等处罚",
+              "Serious crimes cause the same harm to victims regardless of the offender's age.",
+              "对受害者要公平；处罚过轻起不到威慑作用；有些犯罪团伙专门利用未成年人",
+              "一些犯罪团伙专门让未成年人去偷车，因为他们被抓后处罚很轻"
+            ],
+            [
+              "监控与隐私 · 支持",
+              "CCTV cameras discourage crime and help the police identify suspects.",
+              "摄像头本身就有威慑作用；破案时能提供关键证据",
+              "地铁站安装监控后，扒窃案件大幅减少，被偷的手机也能更快找回"
+            ],
+            [
+              "监控与隐私 · 顾虑",
+              "Constant surveillance can invade people's privacy, and the recordings may be misused.",
+              "录像可能被泄露或用于其他目的；人们感觉时刻被监视；成本高，效果因地而异",
+              "某小区保安把居民的监控录像随意发到网上，引发隐私纠纷"
+            ],
+            [
+              "加重刑罚 · 有效",
+              "Longer sentences act as a strong deterrent to potential criminals.",
+              "犯罪成本提高，理性的人会三思；也体现社会对严重犯罪的态度",
+              "某地大幅加重对酒后驾车的处罚后，酒驾人数明显下降"
+            ],
+            [
+              "加重刑罚 · 效果有限",
+              "Many crimes are committed on impulse, so harsher punishments do little to stop them.",
+              "冲动犯罪和毒瘾驱动的犯罪不会计算后果；破案率比刑期长短更重要；长期监禁成本很高",
+              "酒后打架的人在动手那一刻根本不会想到刑期有多长"
+            ],
+            [
+              "犯罪的根源 · 贫困",
+              "Poverty and unemployment can push people towards crime.",
+              "缺乏合法收入来源；贫困社区教育机会少；年轻人容易被帮派吸引",
+              "一位失业多年、需要养家的父亲走投无路时去超市偷食物"
+            ],
+            [
+              "犯罪的根源 · 个人选择",
+              "Most poor people never commit crimes, so poverty cannot be the only explanation.",
+              "家庭教育、同伴影响和个人价值观同样重要；富人也会犯罪，比如金融诈骗和逃税",
+              "一些高收入的企业高管出于贪婪而进行金融诈骗"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「犯罪」话题复习。注意区分 crime（罪行）、criminal（罪犯）、offender（违法者）和 offence（违法行为）。",
+        "examples": [
+          {
+            "en": "Rehabilitation programmes make offenders less likely to reoffend after they are released.",
+            "cn": "改造项目能降低罪犯出狱后再次犯罪的可能性。"
+          },
+          {
+            "en": "Supporters of longer sentences believe they act as a deterrent to potential criminals.",
+            "cn": "支持加重刑期的人认为，这对潜在的罪犯有威慑作用。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "commit a crime",
+              "commit a serious crime",
+              "犯罪"
+            ],
+            [
+              "offender",
+              "young offenders; repeat offenders",
+              "违法者；罪犯"
+            ],
+            [
+              "reoffend",
+              "be less likely to reoffend",
+              "再次犯罪"
+            ],
+            [
+              "rehabilitation",
+              "the rehabilitation of offenders",
+              "改造；康复"
+            ],
+            [
+              "deterrent",
+              "act as a deterrent",
+              "威慑（因素）"
+            ],
+            [
+              "sentence",
+              "a long prison sentence",
+              "判决；刑期"
+            ],
+            [
+              "imprisonment",
+              "a term of imprisonment",
+              "监禁"
+            ],
+            [
+              "community service",
+              "be sentenced to community service",
+              "社区服务（刑罚）"
+            ],
+            [
+              "juvenile",
+              "juvenile crime; juvenile offenders",
+              "青少年的"
+            ],
+            [
+              "crime rate",
+              "reduce the crime rate",
+              "犯罪率"
+            ],
+            [
+              "victim",
+              "victims of crime",
+              "受害者"
+            ],
+            [
+              "surveillance",
+              "surveillance cameras",
+              "监视；监控"
+            ],
+            [
+              "CCTV",
+              "CCTV cameras; CCTV footage",
+              "闭路电视监控"
+            ],
+            [
+              "cybercrime",
+              "tackle cybercrime",
+              "网络犯罪"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people believe that teenagers who commit crimes should receive the same punishment as adults. To what extent do you agree or disagree?**\n\n第一段是让步段，使用「青少年犯罪 · 同等处罚」；第二段是主体段，使用「青少年犯罪 · 区别对待」，用两种处理方式的后果做对比。",
+        "examples": [
+          {
+            "en": "Admittedly, there are some arguments for treating teenage and adult offenders in the same way. From a victim's point of view, a violent attack is equally harmful whether the attacker is fifteen or thirty-five. Moreover, if young people know that they will receive only a mild punishment, the law may lose its power as a deterrent. In some cities, for instance, criminal gangs deliberately use teenagers to steal cars or sell drugs, precisely because these young people are likely to be treated leniently if they are caught. In such cases, a softer approach may actually encourage more crime rather than less.",
+            "cn": "Admittedly 开头表示让步，承认对方观点的合理之处。两个理由：对受害者而言伤害相同、轻判会削弱威慑。犯罪团伙利用未成年人的例子很有说服力，最后一句点明「宽大」反而可能助长犯罪。让步段同样要有具体的理由和例子，不能一笔带过。",
+            "note": "让步 · 对应「青少年犯罪 · 同等处罚」"
+          },
+          {
+            "en": "Nevertheless, I believe that young offenders should generally be treated differently, because they are far more capable of change. Teenagers often act on impulse or under pressure from friends, and their sense of right and wrong is still developing. Sending a sixteen-year-old to an adult prison is likely to bring him into contact with experienced criminals and leave him with a criminal record that makes finding a job extremely difficult. By contrast, a programme that combines community service with education and counselling gives him a realistic chance to return to school and avoid reoffending. In the long run, this approach protects society more effectively than harsh punishment.",
+            "cn": "主论点段用 Nevertheless, I believe 明确立场，理由是「青少年更有可能改变」。用两种处理方式做对比（成年人监狱 vs. 社区服务加教育）是犯罪话题最好用的展开方法：分别写出各自的后果，结论自然成立。programme、counselling 是英式拼写；reoffending、community service 都是本话题的核心词。",
+            "note": "主论点 + 立场 · 对应「青少年犯罪 · 区别对待」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, crime is a big problem in many countries, so we must stop it.",
+        "right": "For example, a young man who learns to cook in prison may find work in a restaurant after his release instead of returning to crime.",
+        "why": "「犯罪是个大问题」是背景，不是例子。犯罪题的例子要写清楚某个人或某项措施，以及它带来的结果。"
+      },
+      {
+        "wrong": "All criminals are bad people and should stay in prison forever.",
+        "right": "Violent criminals who pose a serious danger to the public should receive long prison sentences.",
+        "why": "犯罪话题容易写出绝对化、情绪化的句子，显得论证不理性。用 who 引导的定语从句或 most、many 等词限定范围，论点会稳妥得多。"
+      },
+      {
+        "wrong": "Some teenagers make crimes because they are bored.",
+        "right": "Some teenagers commit crimes because they are bored.",
+        "why": "「犯罪」的动词搭配是 commit a crime / commit an offence，不说 make a crime 或 do a crime。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-crime-q1",
+        "type": "mcq",
+        "q": "题目问「加重刑罚能否有效减少犯罪」。论点「Many crimes are committed on impulse, so harsher punishments do little to stop them.」支持哪一方？",
+        "options": [
+          "加重刑罚有效",
+          "加重刑罚效果有限",
+          "与题目无关"
+        ],
+        "answer": "加重刑罚效果有限",
+        "explain": "论点指出很多犯罪是一时冲动，作案的人不会考虑刑期，因此加重刑罚作用不大。"
+      },
+      {
+        "id": "st-ideas-crime-q2",
+        "type": "mcq",
+        "q": "为论点「CCTV cameras help the police identify suspects.」选一个最合适的例子。",
+        "options": [
+          "After cameras were installed in a busy underground station, the police identified several pickpockets from the recordings.",
+          "CCTV cameras can be seen in almost every street nowadays.",
+          "Some people do not like being filmed when they go shopping."
+        ],
+        "answer": "After cameras were installed in a busy underground station, the police identified several pickpockets from the recordings.",
+        "explain": "论点说的是「帮助警方识别嫌疑人」，这一项给出了具体地点和结果。「到处都有摄像头」只是描述现象，「不喜欢被拍」讲的是隐私顾虑，支持的是另一方。"
+      },
+      {
+        "id": "st-ideas-crime-q3",
+        "type": "fill",
+        "q": "用括号里的词改写：Many prisoners commit crimes again after they are released. → Many prisoners ___ after they are released. (offend)",
+        "answer": [
+          "reoffend",
+          "re-offend"
+        ],
+        "explain": "reoffend 意为「再次犯罪」，比 commit crimes again 更简洁正式。名词 reoffending 也很常用。"
+      },
+      {
+        "id": "st-ideas-crime-q4",
+        "type": "fill",
+        "q": "填入一个名词：Longer prison sentences may act as a ___ to potential criminals.",
+        "answer": [
+          "deterrent"
+        ],
+        "explain": "act as a deterrent to sb 意为「对某人起威慑作用」，是讨论刑罚效果的核心表达。"
+      },
+      {
+        "id": "st-ideas-crime-q5",
+        "type": "correct",
+        "q": "The courts should punish violent criminals more serious.",
+        "answer": [
+          "The courts should punish violent criminals more seriously.",
+          "The courts should punish violent criminals more severely.",
+          "The courts should punish violent criminals more harshly."
+        ],
+        "explain": "修饰动词 punish 要用副词 seriously；也可以说 more severely 或 more harshly。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-media",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：媒体",
+    "titleEn": "Task 2 ideas: Media",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 160,
+    "minutes": 25,
+    "summary": "看到媒体题能马上想到写什么：社交媒体新闻、虚假信息监管、名人隐私、广告、负面新闻 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "媒体题下面分很多小题：新闻、广告、社交媒体、名人隐私。它们都绕不开两个关键词：**信息是否可靠** 和 **谁从中获利**。从这两点出发，大部分媒体题都能找到论点。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "社交媒体与新闻",
+              "Is social media a reliable source of news?",
+              "速度和准确，哪个更重要？谁来核实信息？"
+            ],
+            [
+              "虚假信息与监管",
+              "Should governments control what can be published online?",
+              "谣言的危害有多大？管控会不会伤害言论自由？"
+            ],
+            [
+              "名人隐私",
+              "Do the public have a right to know about the private lives of famous people?",
+              "什么算公共利益？名人的家人有没有隐私？"
+            ],
+            [
+              "广告",
+              "Does advertising encourage people to buy things they do not need?",
+              "广告是提供信息还是制造需求？谁在为免费内容买单？"
+            ],
+            [
+              "负面新闻",
+              "Why do the news media focus on bad news, and is this harmful?",
+              "坏消息为什么更吸引人？长期看对观众有什么影响？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "媒体题的例子可以写 **一条信息的传播过程**：谁发布、怎么传开、造成了什么后果。比如一条假消息一天内被转发上万次、导致某家店生意受损，比 fake news is dangerous 具体得多。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "社交媒体与新闻 · 优势",
+              "Social media spreads breaking news faster than traditional newspapers and television.",
+              "现场目击者第一时间发布；被主流媒体忽视的事件也能被看到",
+              "台风来袭时，居民在社交媒体上实时发布道路积水情况，比电视新闻更快"
+            ],
+            [
+              "社交媒体与新闻 · 问题",
+              "False stories often go viral on social media before anyone checks whether they are true.",
+              "没有编辑核实；算法偏爱耸动内容；转发容易，辟谣难",
+              "一条「某超市食品有毒」的假消息一天内被转发上万次，超市生意受到严重影响"
+            ],
+            [
+              "虚假信息与监管 · 支持管控",
+              "Online platforms should be required to remove harmful misinformation quickly.",
+              "虚假的医疗信息和诈骗危害生命财产；平台有能力，也有责任处理",
+              "网上流传「喝某种饮料能预防病毒」的谣言，有人照做后中毒住院"
+            ],
+            [
+              "虚假信息与监管 · 反对管控",
+              "Giving governments the power to decide what is true could threaten freedom of speech.",
+              "「虚假信息」的定义可能被滥用来压制批评；提高公众的媒体素养是更好的办法",
+              "有的地方以打击谣言为名，删除了批评政府的帖子"
+            ],
+            [
+              "名人隐私 · 公众有权知道",
+              "Public figures, especially politicians, should accept that their behaviour is open to scrutiny.",
+              "政客的私人行为可能影响公共决策；名人享受名利，也要承受关注",
+              "记者揭露某官员用公款支付私人度假，这显然符合公众利益"
+            ],
+            [
+              "名人隐私 · 应该保护",
+              "Celebrities deserve privacy in their personal lives, just like everyone else.",
+              "私生活与公共角色无关；狗仔跟拍伤害家人；八卦新闻没有新闻价值",
+              "一位演员的孩子上学时被摄影师跟拍，孩子从此不敢出门"
+            ],
+            [
+              "广告 · 制造需求",
+              "Advertising creates artificial needs and encourages people to buy things they do not need.",
+              "广告利用焦虑和攀比心理；导致过度消费甚至负债",
+              "每年的新款手机广告让很多人在旧手机还能用的时候就换了新的"
+            ],
+            [
+              "广告 · 提供价值",
+              "Advertising provides useful information about products and keeps many media services free.",
+              "帮助消费者比较选择；广告收入支撑免费的新闻和视频平台",
+              "免费的视频网站和新闻应用主要靠广告收入维持运营"
+            ],
+            [
+              "负面新闻 · 有必要",
+              "Reporting bad news keeps the public informed about problems that need solving.",
+              "舆论监督促使政府和企业改正；人们需要了解风险",
+              "媒体报道某工厂偷偷排污后，有关部门迅速介入调查"
+            ],
+            [
+              "负面新闻 · 有害",
+              "Constant negative news can make people anxious and give them a distorted view of the world.",
+              "犯罪和灾难占据版面，人们高估身边的危险；长期产生焦虑和无力感",
+              "一位老人每天看大量犯罪新闻，虽然社区很安全，却不敢晚上出门"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「媒体」话题复习。注意 news、coverage、misinformation 都是不可数名词，不能加 -s。",
+        "examples": [
+          {
+            "en": "Misinformation spreads quickly because sensational stories are more likely to go viral.",
+            "cn": "错误信息传播得很快，因为耸人听闻的内容更容易疯传。"
+          },
+          {
+            "en": "Teaching media literacy at school helps young people recognise fake news.",
+            "cn": "在学校开展媒体素养教育有助于年轻人识别假新闻。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "social media",
+              "on social media; social media platforms",
+              "社交媒体"
+            ],
+            [
+              "misinformation",
+              "spread misinformation",
+              "错误信息"
+            ],
+            [
+              "fake news",
+              "spread fake news",
+              "假新闻"
+            ],
+            [
+              "go viral",
+              "a video that goes viral",
+              "迅速走红；疯传"
+            ],
+            [
+              "echo chamber",
+              "be trapped in an echo chamber",
+              "信息茧房；回音室"
+            ],
+            [
+              "media literacy",
+              "improve media literacy",
+              "媒体素养"
+            ],
+            [
+              "censorship",
+              "strict censorship",
+              "审查制度"
+            ],
+            [
+              "press freedom",
+              "protect press freedom",
+              "新闻自由"
+            ],
+            [
+              "invasion of privacy",
+              "a serious invasion of privacy",
+              "侵犯隐私"
+            ],
+            [
+              "celebrity",
+              "celebrity gossip",
+              "名人"
+            ],
+            [
+              "tabloid",
+              "tabloid newspapers",
+              "小报"
+            ],
+            [
+              "sensational",
+              "sensational headlines",
+              "耸人听闻的"
+            ],
+            [
+              "coverage",
+              "media coverage",
+              "报道"
+            ],
+            [
+              "impartial",
+              "impartial reporting",
+              "公正的；不偏不倚的"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people believe that newspapers and websites should not be allowed to publish stories about the private lives of famous people. To what extent do you agree or disagree?**\n\n第一段使用「名人隐私 · 应该保护」表明主立场；第二段使用「名人隐私 · 公众有权知道」，作为主立场的例外情况，而不是改变立场。",
+        "examples": [
+          {
+            "en": "I largely agree that the private lives of famous people should be protected. Being well known for acting, singing or playing sport does not mean giving up the right to a normal family life. When photographers follow an actor's children to school, for example, the children may become frightened to leave the house, even though they never chose to be famous. Moreover, most stories about celebrities' relationships or holidays have no real news value; they are published simply because sensational headlines attract readers and advertising income. Protecting privacy in such cases would therefore cost the public very little.",
+            "cn": "第一句就给出立场（largely agree），7 分作文要求立场从头到尾清楚。理由一：出名不等于放弃隐私，跟拍孩子上学的例子把伤害具体化；理由二：这类新闻没有新闻价值，只是为了流量和广告收入，直接回应了「为什么可以禁止」。",
+            "note": "主立场 · 对应「名人隐私 · 应该保护」"
+          },
+          {
+            "en": "However, there should be an exception when a story is genuinely in the public interest. Politicians and other public officials hold power over people's lives, so their private behaviour can sometimes affect public decisions. If a journalist discovers that a minister has used public money to pay for a family holiday, the public clearly has a right to know, even though the holiday itself is a private matter. For this reason, rather than a complete ban, the law should protect personal privacy while still allowing reporting that exposes the misuse of power.",
+            "cn": "However 引出例外情况，让论证更全面而不是一刀切。官员用公款度假的例子正好落在「私事」和「公共利益」的交界处。最后一句提出比全面禁止更合理的方案，与第一段的 largely agree 一致，没有立场摇摆。",
+            "note": "例外情况 · 对应「名人隐私 · 公众有权知道」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, there is a lot of fake news on the internet nowadays.",
+        "right": "For example, a false rumour that a supermarket was selling poisoned food was shared thousands of times in a single day.",
+        "why": "「网上假新闻很多」只是描述现象。例子要写出某条信息怎么传播、造成了什么后果。"
+      },
+      {
+        "wrong": "Social media also allows people to keep in touch with friends who live abroad.",
+        "right": "Photographers who follow celebrities' children to school cause real harm to people who never chose to be famous.",
+        "why": "题目讨论名人隐私时，写社交媒体方便联系朋友就偏题了。媒体话题的小题很多，每一段都要回到题目的核心对象。"
+      },
+      {
+        "wrong": "I read a news about the election on my phone this morning.",
+        "right": "I read a news story about the election on my phone this morning.",
+        "why": "news 是不可数名词，不能说 a news 或 newses。表示一条新闻用 a news story、a news report 或 a piece of news。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-media-q1",
+        "type": "mcq",
+        "q": "题目问「政府是否应该管控网上可以发布的内容」。论点「Giving governments the power to decide what is true could threaten freedom of speech.」支持哪一方？",
+        "options": [
+          "支持政府管控",
+          "反对政府管控",
+          "与题目无关"
+        ],
+        "answer": "反对政府管控",
+        "explain": "论点担心政府借「判定真假」压制言论，是反对管控的理由，对应论点表「虚假信息与监管 · 反对管控」。"
+      },
+      {
+        "id": "st-ideas-media-q2",
+        "type": "mcq",
+        "q": "为论点「Advertising creates artificial needs.」选一个最合适的例子。",
+        "options": [
+          "There are adverts on television, on buses and on websites.",
+          "Every year, adverts for the latest phone persuade many people to replace a device that still works perfectly well.",
+          "Some adverts are funny, while others are boring."
+        ],
+        "answer": "Every year, adverts for the latest phone persuade many people to replace a device that still works perfectly well.",
+        "explain": "「制造需求」的意思是让人买本来不需要的东西，「旧手机还好用却被广告说服换新」正好说明这一点。另外两项只是描述广告本身。"
+      },
+      {
+        "id": "st-ideas-media-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：On social media, many people only see opinions that are the same as their own. → Many social media users are trapped in an ___. (echo)",
+        "answer": [
+          "echo chamber"
+        ],
+        "explain": "echo chamber 指只听得到同类观点的信息环境，be trapped in an echo chamber 是常见搭配。"
+      },
+      {
+        "id": "st-ideas-media-q4",
+        "type": "fill",
+        "q": "填入一个名词：Schools should teach media ___ so that students can tell reliable sources from unreliable ones.",
+        "answer": [
+          "literacy"
+        ],
+        "explain": "media literacy（媒体素养）指辨别、分析媒体信息的能力，是解决假新闻问题时最常用的对策词。"
+      },
+      {
+        "id": "st-ideas-media-q5",
+        "type": "correct",
+        "q": "The media have a great influence to young people.",
+        "answer": [
+          "The media have a great influence on young people.",
+          "The media has a great influence on young people."
+        ],
+        "explain": "influence 后面接介词 on：have an influence on sb。the media 后面用复数或单数动词都可以接受。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-urban",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：城市",
+    "titleEn": "Task 2 ideas: Urban life",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 170,
+    "minutes": 25,
+    "summary": "看到城市题能马上想到写什么：城市化、交通拥堵、高层住宅、城乡投资、绿地与住房 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "城市题多为 **问题—对策** 或 **利弊** 题，核心矛盾通常是「人多、地少、钱有限」。想论点时，围绕住房、交通、环境、公共服务四个方面找，基本不会漏。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "城市化",
+              "Is the movement of people from the countryside to cities a positive development?",
+              "个人得到了什么？城市和农村分别付出什么代价？"
+            ],
+            [
+              "交通拥堵",
+              "Should governments invest in public transport rather than build more roads?",
+              "新修的路为什么很快又堵？公共交通能运多少人？"
+            ],
+            [
+              "高层住宅",
+              "Should cities build more high-rise flats to solve housing problems?",
+              "节约土地和居住体验，怎么取舍？"
+            ],
+            [
+              "城乡投资",
+              "Should governments invest more in rural areas than in big cities?",
+              "钱投在哪里受益的人更多？如何缓解大城市的压力？"
+            ],
+            [
+              "绿地与住房",
+              "Should land in cities be used for parks rather than new housing?",
+              "公园和住房，哪个对居民更紧迫？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "城市题的例子可以用 **一项设施 → 居民生活的变化** 来写，比如「新地铁线开通 → 沿线上班族不再开车」。写对策时，句子里要有具体动作（build、introduce、invest in），不要只重复问题。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "城市化 · 积极",
+              "Cities offer better-paid jobs, universities and hospitals that are not available in rural areas.",
+              "机会集中；个人收入提高；家庭能获得更好的教育和医疗",
+              "一个农村年轻人进城做技术工人，收入翻了几倍，还能把钱寄回家里"
+            ],
+            [
+              "城市化 · 消极",
+              "Rapid urbanisation puts heavy pressure on housing, transport and public services.",
+              "房价上涨、交通拥堵、学校和医院人满为患；农村人口流失，老人留守",
+              "一座大城市十年内人口激增，市中心通勤时间翻倍，公立学校一位难求"
+            ],
+            [
+              "交通拥堵 · 修路",
+              "Building more roads can reduce traffic jams in the short term.",
+              "缓解瓶颈路段；提高物流效率",
+              "修建一条绕城公路后，货车不必再穿过市中心"
+            ],
+            [
+              "交通拥堵 · 发展公交",
+              "Investing in public transport is more effective, because new roads soon attract more cars.",
+              "「越修越堵」；公共交通一次运送更多人，也更环保",
+              "一条新地铁线开通后，沿线很多上班族不再开车上班"
+            ],
+            [
+              "高层住宅 · 支持",
+              "High-rise buildings allow more people to live close to their workplaces without using up farmland.",
+              "土地利用效率高；缩短通勤距离；保护城市周边的农田和自然环境",
+              "在地铁站旁建高层住宅，让上千个家庭步行就能乘地铁上班"
+            ],
+            [
+              "高层住宅 · 顾虑",
+              "Living in tall tower blocks can make residents feel isolated from their neighbours.",
+              "邻里交往少；缺乏户外活动空间；老人和带孩子的家庭不方便",
+              "住在三十层的老人很少下楼，电梯一坏就完全出不了门"
+            ],
+            [
+              "城乡投资 · 投向农村",
+              "Investing in rural areas would reduce the pressure on overcrowded cities.",
+              "农村有了工作和服务，人们就不必涌向大城市；缩小城乡差距",
+              "一个县城建起工厂和新医院后，外出打工的年轻人开始回乡"
+            ],
+            [
+              "城乡投资 · 投向城市",
+              "Money invested in cities benefits more people, because that is where most of the population lives.",
+              "人口集中，同样的投入受益人数更多；规模效应明显",
+              "在城市修一条地铁线服务几百万人，在偏远山区修同样长的路只服务几百人"
+            ],
+            [
+              "绿地与住房 · 公园",
+              "Parks and green spaces improve residents' physical and mental health.",
+              "提供运动场所、缓解压力；改善空气质量，降低城市温度",
+              "一个新公园开放后，附近居民傍晚跑步、散步的人明显增多"
+            ],
+            [
+              "绿地与住房 · 住房",
+              "In cities with a severe housing shortage, land may be better used for affordable homes.",
+              "年轻人买不起房、通勤太远；住房是基本需求；可以在住宅区里配建小型绿地",
+              "一块闲置空地如果建成保障性住房，能让几百个年轻家庭住得离单位更近"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「城市」话题复习。城市题注意使用英式用词：flat（公寓）、underground（地铁）、city centre（市中心）。",
+        "examples": [
+          {
+            "en": "Rapid urbanisation has led to a severe housing shortage in many large cities.",
+            "cn": "快速的城市化导致许多大城市出现严重的住房短缺。"
+          },
+          {
+            "en": "Investing in public transport is one of the most effective ways to ease traffic congestion.",
+            "cn": "投资公共交通是缓解交通拥堵最有效的方法之一。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "urbanisation",
+              "rapid urbanisation",
+              "城市化"
+            ],
+            [
+              "congestion",
+              "traffic congestion; ease congestion",
+              "拥堵"
+            ],
+            [
+              "public transport",
+              "invest in public transport",
+              "公共交通"
+            ],
+            [
+              "commute",
+              "a long daily commute",
+              "通勤"
+            ],
+            [
+              "affordable",
+              "affordable housing",
+              "负担得起的"
+            ],
+            [
+              "housing shortage",
+              "tackle the housing shortage",
+              "住房短缺"
+            ],
+            [
+              "cost of living",
+              "the high cost of living",
+              "生活成本"
+            ],
+            [
+              "urban sprawl",
+              "limit urban sprawl",
+              "城市无序扩张"
+            ],
+            [
+              "green space",
+              "create more green spaces",
+              "绿地"
+            ],
+            [
+              "densely populated",
+              "densely populated areas",
+              "人口稠密的"
+            ],
+            [
+              "high-rise",
+              "high-rise flats",
+              "高层的"
+            ],
+            [
+              "amenity",
+              "local amenities",
+              "便利设施"
+            ],
+            [
+              "rural",
+              "rural areas",
+              "农村的"
+            ],
+            [
+              "overcrowded",
+              "overcrowded cities",
+              "过度拥挤的"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people think that governments should spend money on improving public transport rather than building new roads. To what extent do you agree or disagree?**\n\n第一段使用「交通拥堵 · 发展公交」作为主论点；第二段使用「交通拥堵 · 修路」作为让步，再收回到主立场。",
+        "examples": [
+          {
+            "en": "I strongly agree that public transport deserves more investment than new roads. The main reason is that building roads rarely solves congestion for long. When a new road opens, driving becomes faster for a while, so more people decide to use their cars, and within a few years the traffic is as heavy as before. Public transport, by contrast, can carry far more people in the same amount of space. A single underground line, for example, can move tens of thousands of passengers an hour, and when a new line opens, many commuters who live near the stations leave their cars at home. This not only reduces traffic but also improves air quality.",
+            "cn": "第一句 strongly agree 立场鲜明。第二句给出主理由，后面解释「越修越堵」的过程，这是本话题的高分论点，因为它讲清了原因而不是只给结论。by contrast 引出对比，地铁线的例子用 tens of thousands of passengers an hour 这样的估计说法，不需要精确数字也显得具体。",
+            "note": "主论点 · 对应「交通拥堵 · 发展公交」"
+          },
+          {
+            "en": "Admittedly, new roads are sometimes necessary. A ring road that allows lorries to avoid the city centre, for instance, can make deliveries faster and streets safer for pedestrians. Furthermore, people in rural areas may have no realistic alternative to driving, because buses there are infrequent. However, these cases are limited, and in large, densely populated cities there is little space left for new roads. Widening an existing road usually means demolishing homes or shops, which simply creates new problems. For most urban residents, therefore, a faster and more reliable public transport system would bring far greater benefits than another motorway.",
+            "cn": "Admittedly 引出让步：绕城公路和农村地区确实需要道路。让步之后用 However 收回，指出这些情况有限，并补充大城市拓宽道路要拆房、拆店的代价，最后一句回到主立场。lorry（货车）、motorway（高速公路）都是英式用词，全文注意统一。",
+            "note": "让步 + 收回立场 · 对应「交通拥堵 · 修路」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, there are too many cars in big cities and it is very bad.",
+        "right": "For example, when a new underground line opens, many commuters who live near the stations stop driving to work.",
+        "why": "「车太多，很糟糕」只是重复问题。例子要写一项具体措施，以及它让居民的生活发生了什么变化。"
+      },
+      {
+        "wrong": "One solution is that there are too many cars in the city centre.",
+        "right": "One solution is to introduce a congestion charge for drivers who enter the city centre.",
+        "why": "城市题多为问题—对策题。写对策时句子里要有具体行动（introduce、build、invest in），不能把原因当成对策。"
+      },
+      {
+        "wrong": "The traffic in my city is very crowded during rush hour.",
+        "right": "The traffic in my city is very heavy during rush hour.",
+        "why": "crowded 形容人多拥挤的地方（a crowded bus），交通拥堵要说 heavy traffic、congested roads 或 traffic jams。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-urban-q1",
+        "type": "mcq",
+        "q": "题目问「政府是否应该把更多钱投向农村而不是大城市」。论点「Living in tall tower blocks can make residents feel isolated from their neighbours.」支持哪一方？",
+        "options": [
+          "支持多投农村",
+          "支持多投城市",
+          "与题目无关"
+        ],
+        "answer": "与题目无关",
+        "explain": "这条论点讨论的是高层住宅的居住感受，和「钱投向农村还是城市」没有关系。素材表里的论点要按方向使用，同一话题下的论点不一定适合每一道题。"
+      },
+      {
+        "id": "st-ideas-urban-q2",
+        "type": "mcq",
+        "q": "为论点「High-rise buildings allow more people to live close to their workplaces.」选一个最合适的例子。",
+        "options": [
+          "Tall buildings look modern and make a city famous.",
+          "Many people live in high-rise flats nowadays.",
+          "Building tower blocks next to an underground station allows thousands of families to reach the business district in fifteen minutes."
+        ],
+        "answer": "Building tower blocks next to an underground station allows thousands of families to reach the business district in fifteen minutes.",
+        "explain": "论点的重点是「住得离工作地近」，这一项写出了具体位置（地铁站旁）和结果（十五分钟到商务区）。另外两项一个讲外观，一个只是现象。"
+      },
+      {
+        "id": "st-ideas-urban-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：Drivers should pay a fee when they enter the city centre. → The city should introduce a ___ for drivers who enter the city centre. (congestion)",
+        "answer": [
+          "congestion charge"
+        ],
+        "explain": "congestion charge 指进入拥堵区域需缴纳的费用，是解决城市交通拥堵的典型对策词。"
+      },
+      {
+        "id": "st-ideas-urban-q4",
+        "type": "fill",
+        "q": "用括号里的词的正确形式填空：Many young people cannot find ___ housing near their workplace. (afford)",
+        "answer": [
+          "affordable"
+        ],
+        "explain": "修饰名词 housing 需要形容词，afford 的形容词形式是 affordable。affordable housing（负担得起的住房）是城市话题的高频搭配。"
+      },
+      {
+        "id": "st-ideas-urban-q5",
+        "type": "correct",
+        "q": "Many people move to cities for finding better jobs.",
+        "answer": [
+          "Many people move to cities to find better jobs.",
+          "Many people move to cities in order to find better jobs.",
+          "Many people move to cities for better jobs."
+        ],
+        "explain": "表示目的用 to do 或 in order to do，不用 for doing；for 后面可以直接接名词：move to cities for better jobs。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-globalization",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：全球化",
+    "titleEn": "Task 2 ideas: Globalisation",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 180,
+    "minutes": 25,
+    "summary": "看到全球化题能马上想到写什么：跨国公司、文化趋同、人才外流、大众旅游、国际援助 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "全球化包括贸易、移民、旅游、文化交流等多个方面，题目通常只问其中一个。找论点时分清 **对发达国家** 和 **对发展中国家** 的影响，常常能写出两层意思。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "跨国公司",
+              "Do multinational companies benefit the countries where they operate?",
+              "带来了什么（工作、技术），带走了什么（利润、本地小店）？"
+            ],
+            [
+              "文化趋同",
+              "Is globalisation making cultures around the world too similar?",
+              "交流是单向还是双向？本地文化能否主动走出去？"
+            ],
+            [
+              "人才外流",
+              "Should skilled workers be free to work in other countries?",
+              "个人自由和国家培养成本，如何平衡？"
+            ],
+            [
+              "大众旅游",
+              "Does international tourism do more harm than good to local communities?",
+              "收入归谁？环境和本地居民付出了什么？"
+            ],
+            [
+              "国际援助",
+              "Should rich countries give more financial aid to poorer countries?",
+              "援助能否到达真正需要的人手里？会不会造成依赖？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "全球化题容易写得很宏大，比如 the world is becoming smaller。好的例子要缩小到 **一个地方、一个行业或一群人**：一个渔村、一条老街、一批出国的护士。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "跨国公司 · 正面",
+              "Multinational companies create jobs and bring new skills and technology to developing countries.",
+              "投资建厂、带来管理经验；本地供应商也随之受益",
+              "一家外资汽车厂在某城市建厂，雇用了几千名当地工人，还带动了本地零部件企业"
+            ],
+            [
+              "跨国公司 · 负面",
+              "Large international chains can force small local businesses to close.",
+              "价格和品牌优势压垮小店；利润流向海外总部；街道变得千篇一律",
+              "一家大型连锁咖啡店开在老街上，附近两家经营多年的家庭咖啡馆一年内相继关门"
+            ],
+            [
+              "文化趋同 · 担忧",
+              "Global brands and entertainment are making cities and lifestyles increasingly similar.",
+              "各地是同样的商店、食物和娱乐；年轻人对本土文化兴趣下降；方言和手艺逐渐消失",
+              "年轻人对外国明星如数家珍，却说不出本地传统节日的来历"
+            ],
+            [
+              "文化趋同 · 不必担忧",
+              "Globalisation also allows people to share and enjoy each other's cultures.",
+              "交流是双向的；本土文化可以走向世界；融合还能产生新的文化",
+              "日本动漫、韩国流行音乐和中国功夫电影在全世界都拥有大量观众"
+            ],
+            [
+              "人才外流 · 应该自由",
+              "Skilled workers have the right to choose where they live and work.",
+              "个人发展是基本权利；在国外积累经验后可能回国；寄回的钱支持家乡经济",
+              "一位在国外工作十年的工程师回国创业，带回了先进技术和国际人脉"
+            ],
+            [
+              "人才外流 · 国家损失",
+              "When doctors and engineers emigrate, their home countries lose the people they spent years training.",
+              "国家花钱培养，却由别国受益；医疗等关键行业人手短缺",
+              "一个国家培养的护士大批出国工作，本国偏远地区的医院长期招不到护士"
+            ],
+            [
+              "大众旅游 · 利大于弊",
+              "Tourism brings income and jobs to places with few other industries.",
+              "带动酒店、餐饮和手工艺；促进基础设施建设",
+              "一个偏远渔村开起民宿后，年轻人不必再外出打工"
+            ],
+            [
+              "大众旅游 · 弊大于利",
+              "Mass tourism can damage the very places that visitors come to see.",
+              "垃圾、拥挤，古迹和生态遭到破坏；房租上涨，本地居民被挤走",
+              "一座古城每年接待大量游客，老城区的居民因为房租上涨被迫搬走"
+            ],
+            [
+              "国际援助 · 支持",
+              "Rich countries have both the resources and a moral duty to help people living in extreme poverty.",
+              "疫苗、清洁水、基础教育花钱少、见效大；疾病和难民等问题最终也会影响富国",
+              "国际援助资助的疫苗项目让数以百万计的儿童免于致命疾病"
+            ],
+            [
+              "国际援助 · 顾虑",
+              "Foreign aid can be wasted through corruption and may make countries dependent on outside help.",
+              "资金可能被挪用；长期依赖会抑制本地发展；贸易和技术合作可能更有效",
+              "援助的粮食被免费发放，反而让当地农民种的粮食卖不出去"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「全球化」话题复习（cultural homogenisation 在「文化」话题下）。本素材库统一用英式拼写：globalisation、homogenisation。",
+        "examples": [
+          {
+            "en": "Multinational companies often outsource production to developing countries to take advantage of cheap labour.",
+            "cn": "跨国公司常把生产外包给发展中国家，以利用那里的廉价劳动力。"
+          },
+          {
+            "en": "A serious brain drain can slow down economic growth in poorer countries.",
+            "cn": "严重的人才外流会拖慢贫穷国家的经济增长。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "globalisation",
+              "the effects of globalisation",
+              "全球化"
+            ],
+            [
+              "multinational",
+              "multinational companies",
+              "跨国的；跨国公司"
+            ],
+            [
+              "developing country",
+              "developing countries",
+              "发展中国家"
+            ],
+            [
+              "economic growth",
+              "boost economic growth",
+              "经济增长"
+            ],
+            [
+              "free trade",
+              "free trade agreements",
+              "自由贸易"
+            ],
+            [
+              "outsource",
+              "outsource jobs to other countries",
+              "外包"
+            ],
+            [
+              "cheap labour",
+              "take advantage of cheap labour",
+              "廉价劳动力"
+            ],
+            [
+              "standard of living",
+              "raise the standard of living",
+              "生活水平"
+            ],
+            [
+              "brain drain",
+              "suffer from a brain drain",
+              "人才外流"
+            ],
+            [
+              "mass tourism",
+              "the negative effects of mass tourism",
+              "大众旅游"
+            ],
+            [
+              "cultural homogenisation",
+              "lead to cultural homogenisation",
+              "文化趋同"
+            ],
+            [
+              "foreign aid",
+              "provide foreign aid",
+              "外国援助"
+            ],
+            [
+              "inequality",
+              "reduce inequality",
+              "不平等"
+            ],
+            [
+              "international cooperation",
+              "require international cooperation",
+              "国际合作"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people think that globalisation is causing cultures to lose their unique identities. Others believe it helps cultures to share and develop. Discuss both views and give your own opinion.**\n\n第一段使用「文化趋同 · 担忧」，第二段使用「文化趋同 · 不必担忧」并给出立场。注意第一段只陈述别人的观点，作者的看法留到第二段再说。",
+        "examples": [
+          {
+            "en": "Those who worry about globalisation argue that it is gradually wiping out local cultures. Wherever people travel, they find the same coffee chains, the same fashion brands and the same films, so cities that were once very different now look increasingly alike. This trend has a particularly strong influence on young people, who are exposed to global entertainment every day through their phones. As a result, many teenagers know far more about foreign film stars than about the history of their own traditional festivals, and some local dialects and crafts are no longer being passed down to the next generation.",
+            "cn": "这一段只写担忧的一方，第一句用 Those who worry about ... argue 交代观点归属。the same ... the same ... the same 的排比让「趋同」变得形象。再聚焦年轻人这个群体，例子（熟悉外国明星却不了解本地节日、方言和手艺失传）具体可信。",
+            "note": "观点一 · 对应「文化趋同 · 担忧」"
+          },
+          {
+            "en": "On the other hand, globalisation can also help cultures to spread and grow. Japanese animation, Korean pop music and Chinese martial arts films, for example, now have millions of fans around the world, which shows that cultural exchange works in both directions. Contact with other cultures can even renew interest in local traditions, as people realise what makes their own heritage special. In my view, globalisation does not inevitably destroy cultural identity. Whether a culture survives depends largely on whether communities and governments make an effort to preserve it, for instance by teaching traditional crafts in schools.",
+            "cn": "On the other hand 转向另一方，用三个国家的文化输出说明交流是双向的，例子典型、容易记。In my view 后给出折中但明确的立场：全球化不必然摧毁文化，关键在于是否主动保护，并用 for instance 给出具体做法。depends largely on whether 是表达「关键在于」的好句型。",
+            "note": "观点二 + 作者立场 · 对应「文化趋同 · 不必担忧」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, globalisation has changed the world a lot in recent years.",
+        "right": "For example, when an international coffee chain opened on an old street, two family-run coffee shops nearby closed within a year.",
+        "why": "「全球化改变了世界」太宏大，什么也证明不了。把例子缩小到一条街、一个行业或一群人，论点才有支撑。"
+      },
+      {
+        "wrong": "Many tourists also visit foreign countries to learn about different cultures.",
+        "right": "When a country loses thousands of trained nurses to richer countries, its rural hospitals struggle to provide basic care.",
+        "why": "全球化包括贸易、移民、旅游、文化等多个方面。题目问人才外流时，就只写人才流动的原因和影响，不要把旅游、跨国公司也拉进来。"
+      },
+      {
+        "wrong": "Multinational companies can bring economical benefits to poor countries.",
+        "right": "Multinational companies can bring economic benefits to poor countries.",
+        "why": "economic 指「经济的」（economic growth），economical 指「节约的、划算的」（an economical car），两者不能混用。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-globalization-q1",
+        "type": "mcq",
+        "q": "题目问「富裕国家是否应该给贫穷国家更多经济援助」。论点「Rich countries have both the resources and a moral duty to help people living in extreme poverty.」支持哪一方？",
+        "options": [
+          "支持增加援助",
+          "对增加援助有顾虑",
+          "与题目无关"
+        ],
+        "answer": "支持增加援助",
+        "explain": "论点从能力（resources）和道义（moral duty）两方面说明富国应该援助，是支持增加援助的理由。"
+      },
+      {
+        "id": "st-ideas-globalization-q2",
+        "type": "mcq",
+        "q": "为论点「Tourism brings income and jobs to places with few other industries.」选一个最合适的例子。",
+        "options": [
+          "After a remote fishing village opened guesthouses for visitors, young people no longer needed to leave to find work.",
+          "Travelling abroad helps people to relax and broaden their horizons.",
+          "More and more people travel to other countries every year."
+        ],
+        "answer": "After a remote fishing village opened guesthouses for visitors, young people no longer needed to leave to find work.",
+        "explain": "论点说的是旅游对「当地」的好处，这一项写出了具体地方（偏远渔村）和结果（年轻人不必外出打工）。「放松、开阔眼界」说的是游客自己的收获，偏离了论点；「出游的人越来越多」只是现象。"
+      },
+      {
+        "id": "st-ideas-globalization-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：Many talented doctors are leaving the country to work abroad. → The country is suffering from a ___. (brain)",
+        "answer": [
+          "brain drain"
+        ],
+        "explain": "brain drain 指人才外流，suffer from a brain drain 是常见搭配。"
+      },
+      {
+        "id": "st-ideas-globalization-q4",
+        "type": "fill",
+        "q": "填入 economic 或 economical：Free trade can boost ___ growth.",
+        "answer": [
+          "economic"
+        ],
+        "explain": "economic growth（经济增长）是固定搭配；economical 意为「节约的」，不能修饰 growth。"
+      },
+      {
+        "id": "st-ideas-globalization-q5",
+        "type": "correct",
+        "q": "Foreign investment can improve people's living level.",
+        "answer": [
+          "Foreign investment can improve people's standard of living.",
+          "Foreign investment can improve people's living standards.",
+          "Foreign investment can raise people's standard of living.",
+          "Foreign investment can raise people's living standards."
+        ],
+        "explain": "「生活水平」不能直译为 living level，地道说法是 standard of living 或 living standards。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-government",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：政府",
+    "titleEn": "Task 2 ideas: Government",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 190,
+    "minutes": 25,
+    "summary": "看到政府题能马上想到写什么：税收与公共服务、政府干预、养老责任、青年义务服务、举办大型赛事 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "政府题的核心问题几乎都是 **钱从哪里来、花在哪里、谁来负责**。很多其他话题（教育、健康、环境）的题目也会问「政府应不应该……」，这一篇的论点可以和它们搭配使用。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "税收与公共服务",
+              "Should people pay higher taxes in exchange for better public services?",
+              "谁多交、谁受益？政府花钱是否有效率？"
+            ],
+            [
+              "政府干预与个人自由",
+              "Should governments make laws to control people's personal behaviour?",
+              "个人行为会不会伤害别人？管到什么程度算过度？"
+            ],
+            [
+              "养老责任",
+              "Should the government or families be responsible for caring for elderly people?",
+              "钱和陪伴，分别由谁提供更合适？"
+            ],
+            [
+              "青年义务服务",
+              "Should young people be required to do unpaid community work?",
+              "强制能培养责任感吗？会不会适得其反？"
+            ],
+            [
+              "举办大型赛事",
+              "Is hosting major international sporting events a good use of public money?",
+              "长期收益和闲置场馆，哪个更可能？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "政府题写对策或理由时，要说清楚 **谁、做什么、对谁有好处**。the government should do more 这类句子没有信息量；the government could use part of the tax revenue to build community clinics 就具体多了。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "税收与公共服务 · 支持加税",
+              "Higher taxes can fund better schools, hospitals and transport, which benefit everyone.",
+              "公共服务是社会运转的基础；纳税人自己也是受益者；能减少贫富差距带来的不平等",
+              "某城市用新增税收扩建社区医院，居民看病不用再跑到市中心"
+            ],
+            [
+              "税收与公共服务 · 反对加税",
+              "Raising taxes leaves families with less money and may discourage people from working hard.",
+              "中等收入家庭负担加重；企业可能迁往税率低的地区；政府花钱不一定高效",
+              "一个双职工家庭交完税后，已经很难同时负担房贷和孩子的课外班"
+            ],
+            [
+              "政府干预 · 支持",
+              "Laws such as smoking bans protect people from harm caused by others.",
+              "个人行为可能伤害他人（二手烟、酒驾）；还能减轻公共医疗的负担",
+              "公共场所禁烟后，餐厅服务员不必再整天吸入二手烟"
+            ],
+            [
+              "政府干预 · 反对",
+              "Adults should be free to make their own choices about how they live.",
+              "过度干预侵犯个人自由；提供信息和教育比禁令更尊重人",
+              "如果政府规定每人每天能吃多少糖，大多数人都会觉得管得太多"
+            ],
+            [
+              "养老责任 · 政府",
+              "Elderly people who have paid taxes all their lives deserve support from the state.",
+              "养老金和护理是社会对纳税人的承诺；并不是每个家庭都有能力照顾老人",
+              "一位独居老人的子女都在外地，只能依靠社区提供的上门护理服务"
+            ],
+            [
+              "养老责任 · 家庭",
+              "Families are often better placed to provide the emotional support that older people need.",
+              "亲人的陪伴是钱替代不了的；人口老龄化让政府财政压力越来越大",
+              "和子女孙辈同住的老人，通常比住在养老院的老人更少感到孤独"
+            ],
+            [
+              "青年义务服务 · 支持",
+              "Compulsory community service would teach young people responsibility and bring different social groups together.",
+              "了解社会、培养责任感；不同背景的年轻人有机会一起工作",
+              "一名高中生在养老院服务一个学期后，变得更有耐心，也更理解老人"
+            ],
+            [
+              "青年义务服务 · 反对",
+              "Forcing young people to work without pay may create resentment rather than a sense of duty.",
+              "被迫参加的服务效果差；可能耽误学业和工作；自愿参与才更有意义",
+              "被强制参加活动的学生只是签到应付，什么也没有学到"
+            ],
+            [
+              "举办大型赛事 · 支持",
+              "Hosting a major sporting event can attract tourists and speed up improvements to infrastructure.",
+              "带来游客和国际关注；地铁、机场等建设提前完成；增强民族自豪感",
+              "一座城市为举办运动会新建的地铁线，赛后仍然每天服务大量通勤者"
+            ],
+            [
+              "举办大型赛事 · 反对",
+              "The huge cost of hosting international events often leaves cities with debts and empty stadiums.",
+              "建设成本常常超出预算；场馆赛后闲置；这笔钱本可以用在民生上",
+              "某城市耗巨资建造的体育场赛后几乎无人使用，每年还要花钱维护"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「政府」话题复习。注意 spend money on、invest in、impose a ban on 等搭配里的介词。",
+        "examples": [
+          {
+            "en": "Critics argue that hosting the Olympic Games is a waste of taxpayers' money.",
+            "cn": "批评者认为举办奥运会是在浪费纳税人的钱。"
+          },
+          {
+            "en": "Many governments have introduced legislation to impose a ban on smoking in public places.",
+            "cn": "许多国家的政府已经立法，禁止在公共场所吸烟。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "public spending",
+              "increase public spending; cuts in public spending",
+              "公共开支"
+            ],
+            [
+              "public services",
+              "fund public services",
+              "公共服务"
+            ],
+            [
+              "taxpayer",
+              "taxpayers' money",
+              "纳税人"
+            ],
+            [
+              "taxation",
+              "high levels of taxation",
+              "税收；征税"
+            ],
+            [
+              "welfare",
+              "the welfare system",
+              "福利"
+            ],
+            [
+              "subsidy",
+              "government subsidies",
+              "补贴"
+            ],
+            [
+              "funding",
+              "government funding",
+              "资金；拨款"
+            ],
+            [
+              "legislation",
+              "introduce new legislation",
+              "立法；法规"
+            ],
+            [
+              "intervene",
+              "intervene in people's lives",
+              "干预"
+            ],
+            [
+              "ban",
+              "impose a ban on smoking",
+              "禁令；禁止"
+            ],
+            [
+              "accountable",
+              "hold politicians accountable",
+              "负有责任的；须作解释的"
+            ],
+            [
+              "equal opportunities",
+              "promote equal opportunities",
+              "机会平等"
+            ],
+            [
+              "policymaker",
+              "persuade policymakers",
+              "政策制定者"
+            ],
+            [
+              "reform",
+              "reform the tax system",
+              "改革"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people believe that hosting major international sporting events brings great benefits to a country. Others think it is a waste of public money. Discuss both views and give your own opinion.**\n\n第一段使用「举办大型赛事 · 支持」，第二段使用「举办大型赛事 · 反对」并给出有条件的立场。",
+        "examples": [
+          {
+            "en": "Supporters of hosting major sporting events point to the long-term benefits for the host city. Preparing for an event such as the Olympic Games pushes governments to complete transport projects that might otherwise take decades. A new underground line built to carry spectators to the stadium, for example, may continue to serve local commuters for fifty years after the competition ends. In addition, the event places the city in front of a global audience, which can attract tourists and foreign investment for many years. For a developing country in particular, this international attention can be a valuable opportunity to show the world what it has achieved.",
+            "cn": "Supporters of ... point to 交代观点归属。核心理由是「长期收益」，地铁线赛后还能服务通勤者五十年，这个例子把「基础设施」具体化。In addition 补充旅游和投资，最后一句把论点延伸到发展中国家，体现思考深度。",
+            "note": "观点一 · 对应「举办大型赛事 · 支持」"
+          },
+          {
+            "en": "However, critics argue that the costs are often far higher than expected and the benefits far smaller. Stadiums that cost huge sums to build are sometimes left almost empty once the event is over, yet taxpayers continue to pay for their maintenance. The same money could have been spent on schools or hospitals that people use every day. In my opinion, hosting such events can be worthwhile, but only if governments plan carefully, use existing venues where possible and make sure that every new facility has a clear purpose after the event. Without such planning, the risks clearly outweigh the rewards.",
+            "cn": "However, critics argue 转入反方，闲置体育馆和持续的维护费是这一方最有力的论据，再用「同样的钱可以用于学校和医院」点出机会成本。In my opinion 后给出有条件的立场（worthwhile, but only if ...），并列出三个具体条件，比简单地说「要平衡」更有说服力。",
+            "note": "观点二 + 作者立场 · 对应「举办大型赛事 · 反对」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, the government should do more things for the people.",
+        "right": "For example, the government could use part of the tax revenue to build community clinics in areas without a hospital.",
+        "why": "政府题的论点和例子要说清楚谁、做什么、对谁有好处。do more things 没有任何具体信息。"
+      },
+      {
+        "wrong": "Hosting the Olympics is a waste of money. Hosting the Olympics brings great benefits.",
+        "right": "Critics argue that hosting the Olympics wastes public money, while supporters believe it brings long-term benefits.",
+        "why": "讨论题要分清「别人的观点」和「自己的观点」。用 critics argue、supporters believe 交代观点归属，把自己的立场留给 In my opinion，否则两句话看起来自相矛盾。"
+      },
+      {
+        "wrong": "Many people think the government should invest more money on education.",
+        "right": "Many people think the government should invest more money in education.",
+        "why": "invest 搭配介词 in（invest in education），spend 才搭配 on（spend money on education）。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-government-q1",
+        "type": "mcq",
+        "q": "题目问「人们是否应该多交税来换取更好的公共服务」。论点「Higher taxes can fund better schools, hospitals and transport, which benefit everyone.」支持哪一方？",
+        "options": [
+          "支持加税",
+          "反对加税",
+          "与题目无关"
+        ],
+        "answer": "支持加税",
+        "explain": "论点说明多收的税能用于学校、医院和交通，让所有人受益，是支持加税的理由。"
+      },
+      {
+        "id": "st-ideas-government-q2",
+        "type": "mcq",
+        "q": "为论点「Laws such as smoking bans protect people from harm caused by others.」选一个最合适的例子。",
+        "options": [
+          "Smoking is a bad habit that many people find difficult to give up.",
+          "Since smoking was banned in restaurants, waiters no longer have to breathe in other people's smoke for eight hours a day.",
+          "Some countries have banned smoking, while others have not."
+        ],
+        "answer": "Since smoking was banned in restaurants, waiters no longer have to breathe in other people's smoke for eight hours a day.",
+        "explain": "论点强调禁令保护的是「他人」，这一项写出了受益的具体人群（餐厅服务员）和具体变化。「戒烟难」说的是吸烟者自己，「有的国家禁、有的不禁」只是事实陈述。"
+      },
+      {
+        "id": "st-ideas-government-q3",
+        "type": "fill",
+        "q": "用括号里的词的正确形式填空：The government gives farmers money so that food stays cheap. → The government provides farmers with ___ to keep food prices low. (subsidise)",
+        "answer": [
+          "subsidies",
+          "a subsidy"
+        ],
+        "explain": "subsidise 的名词形式是 subsidy，复数 subsidies。provide sb with sth 是常用结构。"
+      },
+      {
+        "id": "st-ideas-government-q4",
+        "type": "fill",
+        "q": "填入一个形容词：Politicians must be held ___ for how they spend taxpayers' money.",
+        "answer": [
+          "accountable",
+          "responsible"
+        ],
+        "explain": "hold sb accountable for sth 意为「要求某人对某事负责」，比 responsible 更强调要接受监督和问责。"
+      },
+      {
+        "id": "st-ideas-government-q5",
+        "type": "correct",
+        "q": "The government should pay more attention on public health.",
+        "answer": [
+          "The government should pay more attention to public health."
+        ],
+        "explain": "pay attention to sth 是固定搭配，介词用 to。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-culture",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：文化",
+    "titleEn": "Task 2 ideas: Culture",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 200,
+    "minutes": 25,
+    "summary": "看到文化题能马上想到写什么：传统与现代、历史建筑、政府资助艺术、移民与文化融入、中小学艺术课 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "文化题常在 **保留** 和 **改变** 之间做选择：传统要不要保留、老建筑要不要拆、移民要不要融入。写的时候先想清楚：保留的价值是什么，改变的理由是什么，两者能否兼顾。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "传统与现代",
+              "Are traditional customs still relevant in the modern world?",
+              "传统带来了什么？有没有已经不合时宜的部分？"
+            ],
+            [
+              "历史建筑",
+              "Should old buildings be protected even when the land is needed for development?",
+              "拆掉的能否恢复？城市需要多少新房子？"
+            ],
+            [
+              "政府资助艺术",
+              "Should governments spend public money on the arts?",
+              "艺术是奢侈品还是公共产品？钱是否有更紧迫的用途？"
+            ],
+            [
+              "移民与文化融入",
+              "Should immigrants adopt the culture of the country they move to?",
+              "融入能带来什么？保留自身文化又有什么意义？"
+            ],
+            [
+              "中小学艺术课",
+              "Should art and music be compulsory subjects at school?",
+              "艺术课培养什么能力？课时是否应该留给其他科目？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "文化题的例子要避免空谈「文化很重要」，可以写 **一个具体的习俗、建筑或活动** 以及它给人带来的变化，比如一条保留下来的老街成了热门景点、免费开放的博物馆吸引了更多学生。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "传统与现代 · 仍有价值",
+              "Traditional customs give people a sense of identity and connect different generations.",
+              "节日和习俗让人知道自己从哪里来；家庭团聚增进代际感情",
+              "春节全家一起包饺子时，祖父母会给孙辈讲家族的往事"
+            ],
+            [
+              "传统与现代 · 需要改变",
+              "Some traditions no longer fit modern values and may even limit people's freedom.",
+              "有些习俗带有性别不平等或铺张浪费；传统应该随时代调整",
+              "一些地方的婚俗要求高额彩礼，给年轻人带来沉重的经济负担"
+            ],
+            [
+              "历史建筑 · 保护",
+              "Historic buildings are irreplaceable records of a city's past.",
+              "一旦拆除就无法恢复；能吸引游客；构成城市的独特风貌",
+              "一条保留下来的老街成了热门景点，带动了周边小店的生意"
+            ],
+            [
+              "历史建筑 · 可以改建",
+              "In crowded cities, old buildings that are unsafe or unused may need to make way for housing.",
+              "老楼设施落后、存在安全隐患；城市土地紧张；可以只保留最有价值的部分",
+              "一片年久失修的旧楼改建成公寓，解决了几百户家庭的住房问题"
+            ],
+            [
+              "政府资助艺术 · 支持",
+              "Public funding allows museums and theatres to keep ticket prices low so that everyone can enjoy the arts.",
+              "艺术不应只属于富人；文化设施能提升城市的生活质量",
+              "国家资助的博物馆免费开放后，学生和低收入家庭的参观人数大幅增加"
+            ],
+            [
+              "政府资助艺术 · 反对",
+              "When budgets are tight, healthcare and education should come before the arts.",
+              "资源有限，基本需求优先；艺术可以依靠门票和私人捐助维持",
+              "一座城市的医院床位紧张，却投入巨资建新歌剧院，引起市民不满"
+            ],
+            [
+              "移民与文化融入 · 应该融入",
+              "Immigrants who learn the local language and customs find it easier to get jobs and make friends.",
+              "语言是就业和社交的关键；能减少误解和隔阂",
+              "一位移民母亲参加免费的语言课程后，能和孩子的老师沟通，还找到了工作"
+            ],
+            [
+              "移民与文化融入 · 保留自身文化",
+              "Immigrants should not have to give up their own culture, which can enrich the society they join.",
+              "文化认同是个人的权利；多元文化带来美食、节日和新的视角",
+              "很多城市的唐人街和印度餐馆，也成了当地人喜欢去的地方"
+            ],
+            [
+              "中小学艺术课 · 应该必修",
+              "Art and music lessons develop creativity and give pupils a break from academic pressure.",
+              "培养想象力和表达能力；缓解学业压力；帮助学生发现不同的天赋",
+              "一个数学成绩一般的学生在音乐课上发现了自己的特长，自信心大大提高"
+            ],
+            [
+              "中小学艺术课 · 可以选修",
+              "Making art compulsory takes time away from subjects that are more useful for future careers.",
+              "课时有限；不是每个学生都感兴趣；可以作为课外活动",
+              "一名准备理科竞赛的学生觉得每周的必修美术课占用了宝贵的复习时间"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「文化」话题复习（preserve 在「环境」话题下）。注意 custom（习俗）和 costume（服装）拼写相近，意思完全不同。",
+        "examples": [
+          {
+            "en": "Many time-honoured customs are no longer being passed down to the younger generation.",
+            "cn": "许多历史悠久的习俗已经不再传给年轻一代。"
+          },
+          {
+            "en": "Learning the local language helps immigrants develop a sense of belonging in their new country.",
+            "cn": "学习当地语言有助于移民在新的国家产生归属感。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "tradition",
+              "keep a tradition alive",
+              "传统"
+            ],
+            [
+              "custom",
+              "local customs",
+              "习俗"
+            ],
+            [
+              "heritage",
+              "cultural heritage",
+              "遗产；传统"
+            ],
+            [
+              "cultural identity",
+              "lose your cultural identity",
+              "文化认同"
+            ],
+            [
+              "cultural diversity",
+              "celebrate cultural diversity",
+              "文化多样性"
+            ],
+            [
+              "multicultural",
+              "a multicultural society",
+              "多元文化的"
+            ],
+            [
+              "pass down",
+              "be passed down from generation to generation",
+              "传承；传下去"
+            ],
+            [
+              "time-honoured",
+              "time-honoured traditions",
+              "历史悠久的"
+            ],
+            [
+              "preserve",
+              "preserve historic buildings",
+              "保护；保存"
+            ],
+            [
+              "historic",
+              "a historic building; a historic site",
+              "有历史意义的"
+            ],
+            [
+              "assimilate",
+              "assimilate into a new culture",
+              "融入；同化"
+            ],
+            [
+              "stereotype",
+              "challenge stereotypes",
+              "刻板印象"
+            ],
+            [
+              "generation gap",
+              "bridge the generation gap",
+              "代沟"
+            ],
+            [
+              "sense of belonging",
+              "a strong sense of belonging",
+              "归属感"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people believe that governments should spend money on supporting the arts, such as museums, theatres and music. Others think this money should be spent on more important public services. Discuss both views and give your own opinion.**\n\n第一段使用「政府资助艺术 · 反对」，第二段使用「政府资助艺术 · 支持」并给出立场。把自己支持的一方放在第二段，结论会更顺。",
+        "examples": [
+          {
+            "en": "Many people believe that, when money is limited, governments should put essential services before the arts. A hospital without enough beds or a school without enough teachers affects people's lives directly, whereas a shortage of new exhibitions or concerts does not. From this point of view, it is difficult to justify building an expensive new opera house in a city where patients are waiting months for an operation. Moreover, popular forms of entertainment such as films and pop concerts can often support themselves through ticket sales, so they may not need public money at all.",
+            "cn": "开头交代这是「很多人」的观点。用 A ... affects people's lives directly, whereas ... does not 形成对比，说明优先级。歌剧院和候诊病人的对照是这一方最有力的例子。Moreover 补充第二个理由：受欢迎的娱乐能自负盈亏。",
+            "note": "观点一 · 对应「政府资助艺术 · 反对」"
+          },
+          {
+            "en": "On the other hand, I would argue that a modest arts budget is a worthwhile investment rather than a luxury. Without public support, many museums and theatres would have to raise their prices, and the arts would become something that only wealthy people can afford. When national museums stop charging for entry, for instance, visits from school groups and low-income families usually rise sharply. The arts also help a society to understand its history and express its identity, which strengthens people's sense of belonging. For these reasons, I believe governments should continue to fund the arts, although the amount should remain small compared with spending on healthcare and education.",
+            "cn": "On the other hand, I would argue 同时完成转折和表明立场。核心理由是「没有资助，艺术会变成富人的特权」，博物馆免费后学生和低收入家庭参观增加的例子直接支撑这一点。结尾的立场清楚又有分寸（继续资助，但规模小于医疗和教育），与第一段承认的优先级不矛盾。",
+            "note": "观点二 + 作者立场 · 对应「政府资助艺术 · 支持」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, culture is very important for every country in the world.",
+        "right": "For example, when a national museum stopped charging for entry, the number of school visits rose sharply.",
+        "why": "「文化对每个国家都很重要」是口号，不是例子。写出一个具体的场所或活动，以及它带来的变化。"
+      },
+      {
+        "wrong": "Learning to play an instrument can help children improve their concentration.",
+        "right": "Public funding keeps museum tickets cheap enough for low-income families to visit.",
+        "why": "「艺术对个人有什么好处」和「政府是否该出钱」是两个问题。题目问资助时，论点要落在公共资金的效果和优先级上，否则就偏题了。"
+      },
+      {
+        "wrong": "Every country has its own costumes and traditions.",
+        "right": "Every country has its own customs and traditions.",
+        "why": "custom 是习俗，costume 是服装（戏服、民族服装），两个词拼写接近但意思完全不同。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-culture-q1",
+        "type": "mcq",
+        "q": "题目问「老建筑是否应该一律保护，即使土地需要用于开发」。论点「In crowded cities, old buildings that are unsafe or unused may need to make way for housing.」支持哪一方？",
+        "options": [
+          "支持一律保护",
+          "反对一律保护",
+          "与题目无关"
+        ],
+        "answer": "反对一律保护",
+        "explain": "论点认为不安全或闲置的老建筑可以为住房让路，说明不应一律保护。"
+      },
+      {
+        "id": "st-ideas-culture-q2",
+        "type": "mcq",
+        "q": "为论点「Traditional customs give people a sense of identity and connect different generations.」选一个最合适的例子。",
+        "options": [
+          "There are many traditional festivals in China and other countries.",
+          "Traditional festivals are usually very lively and colourful.",
+          "When families make dumplings together at Spring Festival, grandparents often tell their grandchildren stories about the family's past."
+        ],
+        "answer": "When families make dumplings together at Spring Festival, grandparents often tell their grandchildren stories about the family's past.",
+        "explain": "论点有两层意思：身份认同和连接代际。「祖父母边包饺子边讲家族往事」同时体现了这两点。另外两项只是描述节日。"
+      },
+      {
+        "id": "st-ideas-culture-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个短语：Grandparents teach these skills to their grandchildren, who later teach them to their own children. → These skills are ___ from generation to generation. (pass)",
+        "answer": [
+          "passed down",
+          "passed on"
+        ],
+        "explain": "be passed down / passed on from generation to generation 意为「代代相传」，描述传统和手艺时非常常用。"
+      },
+      {
+        "id": "st-ideas-culture-q4",
+        "type": "fill",
+        "q": "填入一个名词：Joining local clubs can give immigrants a sense of ___ in their new country.",
+        "answer": [
+          "belonging"
+        ],
+        "explain": "a sense of belonging（归属感）是文化和移民话题的高频搭配。"
+      },
+      {
+        "id": "st-ideas-culture-q5",
+        "type": "correct",
+        "q": "Many young people have no interest on traditional festivals.",
+        "answer": [
+          "Many young people have no interest in traditional festivals."
+        ],
+        "explain": "interest 后接介词 in：have an interest in、show interest in、lose interest in。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  },
+  {
+    "id": "st-ideas-science",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 话题素材：科学",
+    "titleEn": "Task 2 ideas: Science",
+    "level": "B1",
+    "skills": [
+      "writing"
+    ],
+    "order": 210,
+    "minutes": 25,
+    "summary": "看到科学题能马上想到写什么：太空探索、基础研究、动物实验、转基因作物、科学家的责任 5 个方向的正反论点、例子和核心词。",
+    "sections": [
+      {
+        "heading": "常见题目方向",
+        "body": "科学题通常在问 **值不值得**（花钱做研究）和 **该不该**（伦理问题）。前者从成本和收益找论点，后者从对人、对动物、对环境的影响找论点。",
+        "table": {
+          "head": [
+            "方向",
+            "典型问法",
+            "思考抓手"
+          ],
+          "rows": [
+            [
+              "太空探索",
+              "Is space exploration a waste of money?",
+              "太空技术给地球上的生活带来了什么？这笔钱还能做什么？"
+            ],
+            [
+              "基础研究",
+              "Should governments fund research that has no immediate practical use?",
+              "重大发现是怎么来的？纳税人的钱该优先解决什么问题？"
+            ],
+            [
+              "动物实验",
+              "Is it acceptable to test new medicines on animals?",
+              "不用动物会怎样？动物实验的结果可靠吗？"
+            ],
+            [
+              "转基因作物",
+              "Are genetically modified crops the answer to food shortages?",
+              "能增产多少？长期风险和种子控制权在谁手里？"
+            ],
+            [
+              "科学家的责任",
+              "Should scientists be responsible for how their discoveries are used?",
+              "科学家能控制成果的用途吗？谁来做最后的决定？"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "正反论点",
+        "body": "科学题的例子不需要高深的专业知识，用 **日常可见的成果** 就够了：手机导航依赖卫星、疫苗上市前要经过试验、抗旱作物帮助干旱地区。",
+        "table": {
+          "head": [
+            "方向 · 立场",
+            "论点",
+            "展开方向",
+            "例子思路"
+          ],
+          "rows": [
+            [
+              "太空探索 · 值得",
+              "Space research has produced technologies that improve everyday life on Earth.",
+              "卫星导航、天气预报和通信都来自太空技术；太空研究还推动了材料和医疗技术进步",
+              "手机导航和天气预报都依赖卫星，而这些技术最早来自太空项目"
+            ],
+            [
+              "太空探索 · 浪费",
+              "The money spent on space programmes could be used to solve urgent problems such as poverty and disease.",
+              "地球上的问题更紧迫；太空项目成本巨大、收益不确定",
+              "一次火箭发射的费用，足够为一个贫困地区建好几所学校和诊所"
+            ],
+            [
+              "基础研究 · 支持资助",
+              "Many important breakthroughs came from research that seemed to have no practical use at first.",
+              "基础研究是应用技术的源头；只看短期用途会错过重大发现",
+              "科学家研究细菌如何抵御病毒时并没想到实际用途，后来却由此发展出了基因编辑技术"
+            ],
+            [
+              "基础研究 · 优先应用",
+              "Public research funding should focus on problems that affect people today.",
+              "纳税人的钱应先解决现实问题（疾病、能源）；成果容易衡量，也更透明",
+              "把经费集中投入新疫苗的研发，几年内就能挽救大量生命"
+            ],
+            [
+              "动物实验 · 支持",
+              "Testing new medicines on animals helps to protect human volunteers from serious harm.",
+              "新药直接用于人体风险太大；很多现代药物和疫苗都经过动物实验",
+              "许多疫苗在用于人体之前，都先在动物身上检测了安全性"
+            ],
+            [
+              "动物实验 · 反对",
+              "Animals can feel pain, and results from animal tests do not always apply to humans.",
+              "存在伦理问题；物种差异让结果不完全可靠；细胞培养和电脑模拟等替代方法正在发展",
+              "一些在动物身上安全的药物，在人体试验中却出现了严重的副作用"
+            ],
+            [
+              "转基因作物 · 支持",
+              "Genetically modified crops can produce higher yields and resist pests and drought.",
+              "增产保障粮食安全；减少农药使用；帮助农业适应气候变化",
+              "抗旱作物让干旱地区的农民在少雨的年份仍有收成"
+            ],
+            [
+              "转基因作物 · 顾虑",
+              "The long-term effects of genetically modified food on health and the environment are still uncertain.",
+              "长期影响研究不足；可能影响生物多样性；种子被少数大公司控制",
+              "农民每年都必须向大公司购买专利种子，成本越来越高"
+            ],
+            [
+              "科学家的责任 · 应该负责",
+              "Scientists understand the risks of their work better than anyone, so they should consider how it might be misused.",
+              "专业知识带来责任；提前预警可以避免灾难",
+              "研究人员在发表可能被滥用的成果之前，主动与伦理委员会讨论风险"
+            ],
+            [
+              "科学家的责任 · 主要在政府",
+              "Governments and companies, not individual scientists, decide how discoveries are actually used.",
+              "科学家控制不了成果的应用；应该依靠法律和监管来约束",
+              "同一项人脸识别技术，既能用来寻找走失儿童，也可能被用于过度监控，关键在于法规"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "话题核心词与搭配",
+        "body": "下表的词都已收录在雅思词表里，可以到「词汇」页按「科学」话题复习。注意 research 和 progress 一般不可数，不能说 researches、progresses。",
+        "examples": [
+          {
+            "en": "Before a new medicine can be sold, it must pass several stages of clinical trials.",
+            "cn": "一种新药在上市之前，必须通过好几个阶段的临床试验。"
+          },
+          {
+            "en": "Many scientific breakthroughs began with simple curiosity rather than a practical goal.",
+            "cn": "许多科学突破源于单纯的好奇心，而不是某个实际目标。"
+          }
+        ],
+        "table": {
+          "head": [
+            "词 / 短语",
+            "常用搭配",
+            "中文"
+          ],
+          "rows": [
+            [
+              "space exploration",
+              "fund space exploration",
+              "太空探索"
+            ],
+            [
+              "satellite",
+              "weather satellites; satellite navigation",
+              "卫星"
+            ],
+            [
+              "research funding",
+              "cut research funding",
+              "科研经费"
+            ],
+            [
+              "breakthrough",
+              "a major breakthrough",
+              "突破"
+            ],
+            [
+              "discovery",
+              "make an important discovery",
+              "发现"
+            ],
+            [
+              "experiment",
+              "carry out an experiment",
+              "实验"
+            ],
+            [
+              "laboratory",
+              "work in a laboratory",
+              "实验室"
+            ],
+            [
+              "animal testing",
+              "ban animal testing",
+              "动物实验"
+            ],
+            [
+              "clinical trial",
+              "take part in a clinical trial",
+              "临床试验"
+            ],
+            [
+              "genetically modified",
+              "genetically modified crops",
+              "转基因的"
+            ],
+            [
+              "bioethics",
+              "questions of bioethics",
+              "生物伦理学"
+            ],
+            [
+              "curiosity",
+              "scientific curiosity",
+              "好奇心"
+            ],
+            [
+              "invention",
+              "a useful invention",
+              "发明"
+            ],
+            [
+              "progress",
+              "scientific progress; make progress",
+              "进步；进展"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "示范段落",
+        "body": "题目：**Some people think that testing new medicines on animals is necessary, while others believe it is cruel and should be banned. Discuss both views and give your own opinion.**\n\n第一段使用「动物实验 · 支持」，第二段使用「动物实验 · 反对」并给出分层的立场：目前不能完全禁止，但要严格限制。",
+        "examples": [
+          {
+            "en": "Supporters of animal testing argue that it is a necessary step in protecting human health. Before a new medicine can be given to people, scientists need to know whether it is safe, and testing it on animals first reduces the risk to human volunteers in clinical trials. Many vaccines and treatments that are now widely used, for instance, were tested on animals before they were approved. From this perspective, banning animal testing completely could slow down medical progress and leave patients waiting longer for treatments that could save their lives.",
+            "cn": "Supporters of animal testing argue 交代观点归属。论证链是：新药需要确认安全 → 先在动物身上测试 → 降低人体试验的风险。例子用「很多广泛使用的疫苗都经过动物实验」这一常识性事实，不需要编造数据。最后一句写禁止的后果，从反面加强论点。",
+            "note": "观点一 · 对应「动物实验 · 支持」"
+          },
+          {
+            "en": "On the other hand, opponents point out that animals can feel pain and fear, and that results from animal tests do not always apply to humans. Some medicines that seemed safe in animals have caused serious side effects when they were later tested on people, which suggests that the suffering does not always lead to reliable results. In my view, animal testing cannot yet be abolished, because there are still no complete alternatives. However, it should be strictly limited to medical research, and governments should invest in methods such as computer models and laboratory-grown human cells so that the number of animals used can be reduced as quickly as possible.",
+            "cn": "opponents point out 引出反方的两个理由：伦理（动物会痛苦）和科学（结果不一定适用于人）。第二个理由比单纯的情感诉求更有说服力，也更少见。In my view 后给出分层立场：目前不能完全废除，但要严格限制并投入替代方法，既回应了双方，又不摇摆。",
+            "note": "观点二 + 作者立场 · 对应「动物实验 · 反对」"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "For example, science and technology have changed our lives a lot.",
+        "right": "For example, satellites first developed for space programmes now make weather forecasts and phone maps possible.",
+        "why": "「科技改变了生活」人人都会写，却证明不了任何具体论点。用一项日常可见的成果来举例，说服力强得多。"
+      },
+      {
+        "wrong": "The internet has made it much easier for people to communicate with each other.",
+        "right": "Satellite technology developed for space research now helps farmers to predict droughts.",
+        "why": "题目讨论太空探索是否浪费钱时，写互联网方便沟通就偏离了太空这个核心。科学题要紧扣题目指定的研究领域。"
+      },
+      {
+        "wrong": "Scientists have done many researches on this disease.",
+        "right": "Scientists have done a lot of research on this disease.",
+        "why": "research 通常是不可数名词，不能说 researches 或 a research；可以说 a lot of research、a piece of research，或改用可数的 a study / studies。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-ideas-science-q1",
+        "type": "mcq",
+        "q": "题目问「太空探索是不是浪费钱」。论点「Space research has produced technologies that improve everyday life on Earth.」支持哪一方？",
+        "options": [
+          "太空探索是浪费",
+          "太空探索值得投入",
+          "与题目无关"
+        ],
+        "answer": "太空探索值得投入",
+        "explain": "论点指出太空研究带来了改善地球生活的技术，说明投入有回报，支持太空探索值得投入。"
+      },
+      {
+        "id": "st-ideas-science-q2",
+        "type": "mcq",
+        "q": "为论点「Results from animal tests do not always apply to humans.」选一个最合适的例子。",
+        "options": [
+          "Some medicines that were safe for animals caused serious side effects when they were later given to human volunteers.",
+          "Many people keep animals such as cats and dogs as pets.",
+          "Animal testing is a controversial issue all over the world."
+        ],
+        "answer": "Some medicines that were safe for animals caused serious side effects when they were later given to human volunteers.",
+        "explain": "这一项直接说明了「对动物安全、对人却有严重副作用」，正好证明结果不一定适用于人。养宠物与论点无关，「有争议」只是背景。"
+      },
+      {
+        "id": "st-ideas-science-q3",
+        "type": "fill",
+        "q": "用括号里的词改写，空格处填一个词：Scientists made a very important discovery that changed medicine. → Scientists achieved a major ___ in medicine. (break)",
+        "answer": [
+          "breakthrough"
+        ],
+        "explain": "breakthrough 指重大突破，achieve / make a major breakthrough 是常见搭配。"
+      },
+      {
+        "id": "st-ideas-science-q4",
+        "type": "fill",
+        "q": "填入一个名词：Before a new medicine is approved, it must be tested on human volunteers in a clinical ___.",
+        "answer": [
+          "trial"
+        ],
+        "explain": "clinical trial（临床试验）指新药在人体上的测试，是科学和健康话题都会用到的词。"
+      },
+      {
+        "id": "st-ideas-science-q5",
+        "type": "correct",
+        "q": "Space exploration is a waste of money, so governments should stop to fund it.",
+        "answer": [
+          "Space exploration is a waste of money, so governments should stop funding it."
+        ],
+        "explain": "stop doing sth 表示停止做某事；stop to do sth 表示停下来去做另一件事，意思完全不同。"
+      }
+    ],
+    "related": {
+      "tabs": [
+        "ielts:writing"
+      ]
+    }
+  }
+]
