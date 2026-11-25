@@ -1504,6 +1504,20 @@
     if (sp.active) stopSpeech();
   });
 
+  // ---------- 对外：朗读引擎（全真模考页复用，只是把上面的函数挂出去，不改变本页行为）----------
+  // speak(items, { onItem, onDone, onFail })：items 为 [{ text, cast: { voice, pitch }, rate, seg, gapAfter }]；
+  // stop()：停止朗读并清掉朗读用到的定时器，调用方离开页面时必须调用。两个子页不会同时朗读（切子页先 leave）。
+  IE.listeningTts = {
+    detect: detectTts,
+    castVoices,
+    speak: speakSeq,
+    stop: haltAll,
+    voiceLabel,
+    errorText: ttsErrorText,
+    GAP_SAME_MS,
+    GAP_SWITCH_MS,
+  };
+
   IE.registerPage('listening', {
     meta: { label: '听力', icon: '🎧', before: 'writing' },
     render(body, c) {
