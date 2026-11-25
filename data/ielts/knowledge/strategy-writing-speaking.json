@@ -1,0 +1,1550 @@
+[
+  {
+    "id": "st-writing-task1-charts",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 1 学术类图表：overview、选数据与分段",
+    "titleEn": "Academic Task 1: charts and graphs",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 10,
+    "minutes": 30,
+    "summary": "学完能在 20 分钟内按「改写题目 → overview → 两个细节段」写出一篇有重点、有比较、150 词以上的图表作文。",
+    "sections": [
+      {
+        "heading": "20 分钟时间分配与四段结构",
+        "body": "Task 1 建议用 20 分钟，把 40 分钟留给分值更高的 Task 2。Task 1 超时是最常见的「隐形失分」。\n\n**第 1 步（3 分钟）读图**：看标题、单位（% / 千人 / 吨）和时间范围，找出最高、最低、变化最大的项目和交叉点。\n\n**第 2 步（2 分钟）分组**：决定两个细节段各讲哪一组数据，在草稿纸上写下来。\n\n**第 3 步（13 分钟）写作**：四段结构，见下表。\n\n**第 4 步（2 分钟）检查**：数字、单位、年份是否和图一致，时态是否统一。\n\n目标 160–190 词。写到 250 词不会加分，反而说明没有挑重点：TA 看的是「选得对」，不是「写得全」。",
+        "table": {
+          "head": ["段落", "写什么", "句数"],
+          "rows": [
+            ["开头", "改写题目：图表类型 + 对象 + 地点 + 时间", "1"],
+            ["Overview", "最显著的趋势 + 最突出的对比，不写数字", "1–2"],
+            ["细节段 1", "第一组数据，带数字和比较", "3–4"],
+            ["细节段 2", "第二组数据，带数字和比较", "3–4"]
+          ]
+        },
+        "examples": [
+          {
+            "en": "The line graph illustrates the proportion of commuters who travelled to work by bicycle in Northfield, Easton and Westby from 2005 to 2020.",
+            "cn": "点评：开头段只需这一句。原题（原创）是 The graph shows the percentage of people who cycled to work in three cities between 2005 and 2020，这里把 shows 换成 illustrates，percentage 换成 proportion，cycled 换成 travelled by bicycle，并写出三座城市的名字，没有照抄题目。"
+          }
+        ]
+      },
+      {
+        "heading": "Overview：先说全局，不报数字",
+        "body": "overview 是 TA 能否上 6 分的分水岭。考官只读这一段，就应该能说出图表的要点。\n\n**怎么找**：问自己两个问题。① 整体是升、降还是持平？② 谁始终最高或最低，排名有没有反转？把两个答案合成一两句话。\n\n**怎么写**：用 Overall, 或 In general, 开头；只写趋势和对比，**不写具体数字**（数字留给细节段）；紧接在开头句之后，不要拖到最后才写。\n\n**怎么检查**：遮住细节段，只读 overview。如果说不出「最大的变化是什么」和「谁最多」，就要重写。\n\n示范用的原创数据：2005 年到 2020 年骑车通勤的比例，Northfield 从 18% 升到 31%，Easton 从 6% 升到 14%，Westby 从 3% 升到 5%。",
+        "examples": [
+          {
+            "en": "Overall, cycling to work became more common in all three cities over the period, with Northfield remaining well ahead of the other two throughout. Easton, meanwhile, saw the fastest growth.",
+            "cn": "点评：第一句同时给出整体趋势（三城都在上升）和最突出的对比（Northfield 一直遥遥领先），第二句补充增长最快的城市（Easton 翻了一倍多）。全段没有一个数字，所有数字留给细节段。",
+            "note": "Overall + 整体趋势 + 最突出的对比"
+          }
+        ]
+      },
+      {
+        "heading": "选数据与分段：只挑能说明问题的数字",
+        "body": "**选什么**：起点和终点、最高点和最低点、交叉点、变化最大的项目。中间每一年的数字一般不必逐个报。\n\n**怎么分组**（CC 看分组逻辑）：① 按趋势，上升的放一段，下降或持平的放一段；② 按类别，例如男性一段、女性一段；③ 按高低，前两名一段、其余一段。选定一种标准就用到底，不要一段按年份、另一段按类别。\n\n**段首第一句告诉读者这段讲哪一组**，例如 Looking first at the two larger cities, ...\n\n**一定要比较**：每个细节段写 1–2 句倍数、差值或排名比较（three times as high as、10 percentage points higher than、the second largest），全文不少于 3 处。只罗列数字而不比较，TA 很难超过 6 分。",
+        "examples": [
+          {
+            "en": "In 2005, 18% of commuters in Northfield cycled to work, three times the figure for Easton (6%). Over the next fifteen years, the Northfield rate climbed to 31%, while the Easton rate more than doubled to 14%. Westby, by contrast, remained at the bottom throughout, edging up from just 3% to 5%.",
+            "cn": "点评：一个细节段里有起点、终点和三处比较（三倍、翻了一倍多、始终垫底）；the figure、while、by contrast 三种衔接手段各用一次（CC）；edging up 和 2 个百分点的小幅变化相符（LR）；时态全部是一般过去时（GRA）。"
+          }
+        ]
+      },
+      {
+        "heading": "时态、介词与比较句型",
+        "body": "**时态跟着图表的时间走**（GRA）：过去的年份用一般过去时（rose、fell）；没有时间或表示现在的数据用一般现在时；将来的年份用 is expected to / is projected to；「到某年为止」可用过去完成时 had risen by 2010。\n\n**数字前的介词**：rise **to** 30%（升到）、rise **by** 10 percentage points（升了）、stand **at** 50%（处于）、peak **at** 2.5 million（峰值为）。\n\n**比较句型轮换着用**（LR + GRA）：three times as high as；X was 5 points higher than Y；X accounted for the largest share, followed by Y；While X rose, Y fell.\n\n**百分比的差要用 percentage points**：从 20% 到 30% 是上升了 10 个百分点（10 percentage points），而不是上升了 10%。",
+        "table": {
+          "head": ["数据时间", "时态", "例句"],
+          "rows": [
+            ["过去（2005–2020）", "一般过去时", "The figure rose to 31%."],
+            ["无时间 / 现在", "一般现在时", "Rent accounts for 40% of spending."],
+            ["将来（2030）", "be expected to", "It is expected to reach 40%."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Overall, Northfield rose from 18% to 31%, and Easton rose from 6% to 14%.",
+        "right": "Overall, cycling to work became more common in all three cities, with Northfield remaining well ahead of the others.",
+        "why": "overview 里堆数字就成了细节段，没有概括全局；没有真正的 overview，TA 通常停在 5 分左右。"
+      },
+      {
+        "wrong": "In 2005, Northfield was 18%, Easton was 6% and Westby was 3%. In 2010, Northfield was 21%, Easton was 8% and Westby was 3%.",
+        "right": "Northfield's figure, which was three times Easton's in 2005, climbed to 31% by 2020.",
+        "why": "逐年逐项报数既没有挑重点，也没有比较。只挑起点、终点和最突出的变化，并写出倍数或差值。"
+      },
+      {
+        "wrong": "The proportion rose from 20% to 30%, an increase of 10%.",
+        "right": "The proportion rose from 20% to 30%, an increase of 10 percentage points.",
+        "why": "两个百分比之间的差要用 percentage points；写成 10% 意思变成相对增长一成，数据就错了。"
+      },
+      {
+        "wrong": "This is probably because the government built more cycle lanes.",
+        "right": "（删去这句，只描述图中看得到的数据）",
+        "why": "图表里没有的原因推测属于无关信息，TA 会扣分。Task 1 只报告数据，不写原因和个人观点。"
+      },
+      {
+        "wrong": "Between 2005 and 2020, the figure rises sharply.",
+        "right": "Between 2005 and 2020, the figure rose sharply.",
+        "why": "过去的数据用过去时，并且全文保持一致；时态来回跳是 GRA 最常见的扣分点之一。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-task1-charts-q1",
+        "type": "mcq",
+        "q": "下面哪一句最适合作为 overview？",
+        "options": [
+          "The line graph shows the number of visitors to three museums from 2000 to 2020.",
+          "Overall, visitor numbers rose at all three museums, and the Science Museum attracted the most visitors throughout the period.",
+          "In 2000, the Science Museum had 1.2 million visitors, while the Art Museum had 0.8 million.",
+          "I think museums became more popular because tickets became cheaper."
+        ],
+        "answer": "Overall, visitor numbers rose at all three museums, and the Science Museum attracted the most visitors throughout the period.",
+        "explain": "第二句同时给出整体趋势（都上升）和最突出的对比（科学馆始终最多），而且没有数字。第一句只是改写题目，属于开头段；第三句是细节；第四句加入了图中没有的原因推测。"
+      },
+      {
+        "id": "st-writing-task1-charts-q2",
+        "type": "mcq",
+        "q": "某项比例从 2010 年的 12% 升到 2020 年的 18%，哪种描述准确？",
+        "options": [
+          "It rose by 6%.",
+          "It rose by 6 percentage points.",
+          "It rose to 6 percentage points.",
+          "It doubled."
+        ],
+        "answer": "It rose by 6 percentage points.",
+        "explain": "两个百分比之差是 6 个百分点，用 rise by 6 percentage points。rise by 6% 意思是相对增长 6%，rise to 表示升到某个值，doubled 是翻倍（应为 24%）。"
+      },
+      {
+        "id": "st-writing-task1-charts-q3",
+        "type": "fill",
+        "q": "Sales peaked ___ 2.5 million in 2018.（填一个介词）",
+        "answer": ["at"],
+        "explain": "peak at + 数值，表示「峰值为」。同理 stand at 50%；rise to 表示升到，rise by 表示升了。"
+      },
+      {
+        "id": "st-writing-task1-charts-q4",
+        "type": "fill",
+        "q": "By 2030, the figure ___ (expect) to reach 40%.（填两个词）",
+        "answer": ["is expected"],
+        "explain": "2030 年是预测数据，用 be expected to 表示将来，主语是单数 the figure，所以是 is expected。"
+      },
+      {
+        "id": "st-writing-task1-charts-q5",
+        "type": "mcq",
+        "q": "图表是五个国家 2000–2020 年的人均用水量，其中三个国家上升、两个国家下降。细节段最合理的分组方式是？",
+        "options": ["按年份：一段写 2000 年，一段写 2020 年", "按趋势：上升的三国一段，下降的两国一段", "按字母顺序逐个国家写", "每个国家单独写一段"],
+        "answer": "按趋势：上升的三国一段，下降的两国一段",
+        "explain": "按趋势分组最能体现图表的主要特征，段首一句就能告诉读者这一组的共同点（CC）。按年份分组会把每个国家的变化拆散，逐国分段则没有比较。"
+      },
+      {
+        "id": "st-writing-task1-charts-q6",
+        "type": "correct",
+        "q": "Between 2005 and 2020, the number of cyclists rises from 3,000 to 5,000.",
+        "answer": ["Between 2005 and 2020, the number of cyclists rose from 3,000 to 5,000."],
+        "explain": "时间段 2005–2020 已经过去，动词要用一般过去时 rose。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-writing-task1-process-map",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 1 流程图与地图：被动语态、顺序词与方位表达",
+    "titleEn": "Academic Task 1: processes and maps",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 20,
+    "minutes": 25,
+    "summary": "学完能用被动语态加顺序词把一个流程写完整，用变化动词加方位表达把一张地图的前后变化写清楚。",
+    "sections": [
+      {
+        "heading": "流程图四步法",
+        "body": "流程图没有数字，TA 看的是：步骤有没有漏、顺序对不对、overview 有没有说出整体特征。\n\n**第 1 步 数步骤**：从起点到终点数清楚一共几个阶段，标出分支或循环（例如水被回收再利用）。\n\n**第 2 步 写 overview**：说出「共几步、从什么开始、到什么结束」，以及流程是线性的还是循环的、是自然过程还是人工生产。例如 Overall, there are six stages in the process, beginning with ... and ending with ...\n\n**第 3 步 分段**：按流程的前半和后半分两个细节段，或按「原料准备 / 加工 / 包装运输」这类阶段分段（CC）。\n\n**第 4 步 每一步都写进去**：图上的标签词可以用，但要改成完整的句子，补上冠词和介词。"
+      },
+      {
+        "heading": "被动语态与顺序词",
+        "body": "人工流程（生产、加工）关注的是「东西被怎么处理」，所以以被动语态为主：主语是原料或产品，动词用 is / are + 过去分词。自然过程（如植物生长、水循环）是主语自己在变化，多用主动语态。\n\n**顺序词要轮换**（CC）：开始、接着、同时、结束各有几种说法，见下表。不要每句都用 Then。\n\n**用从句把两步并成一句**（GRA）：After the beans are dried, they are roasted at about 200°C. / Once the mixture has cooled, it is poured into moulds. 每个细节段至少写一个这样的复杂句。",
+        "table": {
+          "head": ["作用", "表达"],
+          "rows": [
+            ["开始", "First, / To begin with, / The process begins with ..."],
+            ["接着", "Next, / After that, / Following this, / Subsequently,"],
+            ["同时", "At the same time, / Meanwhile,"],
+            ["完成后", "Once ... has been ..., / After ... is ...,"],
+            ["结束", "Finally, / In the final stage, / The process ends with ..."]
+          ]
+        },
+        "examples": [
+          {
+            "en": "To begin with, ripe tomatoes are picked by hand and transported to a factory, where they are washed in cold water. Next, they are chopped and heated to about 90°C. Once the mixture has been boiled down into a thick paste, salt and sugar are added. Finally, the sauce is poured into glass bottles, which are sealed and labelled before being delivered to shops.",
+            "cn": "点评：全段以被动语态为主（are picked、is poured）；To begin with、Next、Once、Finally 四个顺序词各用一次，没有重复；where 从句、which 从句和 before being delivered 把短步骤合并成复杂句，GRA 有亮点。labelled 是英式拼写。"
+          }
+        ]
+      },
+      {
+        "heading": "地图题：先列变化，再定时态",
+        "body": "地图题通常给同一地点两个时间的平面图，要求描述变化。\n\n**第 1 步 列清单**：对照两张图，把「新建 / 拆除 / 改建 / 扩建 / 不变」各有哪些列出来。\n\n**第 2 步 写 overview**：概括最大的变化方向，例如「农田变成了住宅区」「设施更多，绿地更少」。\n\n**第 3 步 分段**：按区域（北部一段、南部一段），或按变化类型（新增的一段、消失的一段）。\n\n**第 4 步 定时态**：两张图都是过去 → 一般过去时被动语态（was built、were removed）；一张现在、一张规划 → will be / is planned to be；强调「到现在为止」的变化可以用现在完成时（has been replaced by）。",
+        "table": {
+          "head": ["变化", "常用动词（被动）"],
+          "rows": [
+            ["新建", "was built / was constructed / was added"],
+            ["拆除", "was demolished / was knocked down / was removed"],
+            ["改建", "was converted into / was replaced by / was turned into"],
+            ["扩建", "was extended / was expanded / was widened"],
+            ["不变", "remained unchanged / was retained"]
+          ]
+        }
+      },
+      {
+        "heading": "方位表达与示范段落",
+        "body": "方位词让读者不看地图也能想象出位置（TA + LR）。\n\n**方向**：in the north / to the north of the lake / in the north-west corner\n\n**相对位置**：next to、opposite、between A and B、alongside the river、at the end of the road\n\n**新事物在旧址上**：on the site of the old factory、in place of the car park、where the market used to be\n\n每句话尽量写成「什么变化 + 在哪里」，例如 A playground was added to the south of the library.",
+        "examples": [
+          {
+            "en": "The most noticeable changes took place in the east of the village. The farmland that once lay between the river and the main road was replaced by a housing estate, and a new primary school was built opposite it. In the north-west corner, the old post office was converted into a café, while the church next to it remained unchanged.",
+            "cn": "点评：每句都是「变化动词 + 方位」：between the river and the main road、opposite it、in the north-west corner、next to it；was replaced by、was built、was converted into、remained unchanged 分别对应替换、新建、改建和不变，没有重复同一个动词（LR）。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Then the beans are dried. Then they are roasted. Then they are ground.",
+        "right": "After being dried, the beans are roasted and then ground into a fine powder.",
+        "why": "顺序词只会用 Then，句子又全是短句，CC 和 GRA 都显得单薄。换用不同的顺序词，并用从句或分词把步骤合并。"
+      },
+      {
+        "wrong": "Workers pick the tomatoes and then they wash them and they cut them.",
+        "right": "The tomatoes are picked, washed and then cut.",
+        "why": "人工流程的重点是原料。用主动语态会冒出一串 workers、they，句子啰嗦，重点也偏了；改成被动语态更紧凑。"
+      },
+      {
+        "wrong": "The trees was cut down and a car park were built.",
+        "right": "The trees were cut down and a car park was built.",
+        "why": "被动语态的 be 要和各自的主语单复数一致：trees 用 were，a car park 用 was。这是地图题里很常见的 GRA 错误。"
+      },
+      {
+        "wrong": "A new school appeared.",
+        "right": "A new school was built opposite the housing estate.",
+        "why": "只说变化、不说位置，读者无法对照地图，TA 会觉得细节不足。每个变化都要带上方位。"
+      },
+      {
+        "wrong": "（流程图作文只写了每个步骤，没有 overview）",
+        "right": "Overall, the process consists of six stages, from harvesting the fruit to delivering bottled juice to shops.",
+        "why": "流程图也需要 overview：说出共几步、起点和终点。缺了 overview，TA 同样会被压低。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-task1-process-map-q1",
+        "type": "fill",
+        "q": "Once the clay ___ (shape), it is left to dry for two days.（填被动语态）",
+        "answer": ["has been shaped", "is shaped"],
+        "explain": "clay 是被处理的对象，要用被动语态。Once 引导的时间从句常用现在完成时被动 has been shaped，强调「做完之后」；用一般现在时 is shaped 也可以。"
+      },
+      {
+        "id": "st-writing-task1-process-map-q2",
+        "type": "mcq",
+        "q": "___ the bottles have been filled, they are sealed with metal caps. 空格里最合适的是？",
+        "options": ["Once", "Firstly", "Finally", "Meanwhile"],
+        "answer": "Once",
+        "explain": "Once 引导时间从句，表示「一旦……完成」，和后面的 have been filled 搭配。Firstly 和 Finally 不能引导从句，Meanwhile 表示同时，逻辑不对。"
+      },
+      {
+        "id": "st-writing-task1-process-map-q3",
+        "type": "correct",
+        "q": "The old cinema was convert into a shopping centre.",
+        "answer": ["The old cinema was converted into a shopping centre."],
+        "explain": "被动语态是 be + 过去分词，convert 要改成 converted。"
+      },
+      {
+        "id": "st-writing-task1-process-map-q4",
+        "type": "mcq",
+        "q": "两张地图分别是 1990 年和 2020 年。要描述「1990 年的公园到 2020 年变成了停车场」，哪一句正确？",
+        "options": [
+          "The park was replaced by a car park.",
+          "The park replaced a car park.",
+          "The park is replacing a car park.",
+          "A car park was replaced by the park."
+        ],
+        "answer": "The park was replaced by a car park.",
+        "explain": "A was replaced by B 表示「A 被 B 取代」，公园被停车场取代，所以是 The park was replaced by a car park。第二、四句把关系说反了，第三句时态不对。"
+      },
+      {
+        "id": "st-writing-task1-process-map-q5",
+        "type": "fill",
+        "q": "A new footbridge was built ___ the river, linking the two halves of the town.（填一个介词，表示「横跨」）",
+        "answer": ["across", "over"],
+        "explain": "across the river 或 over the river 都表示横跨河面。"
+      },
+      {
+        "id": "st-writing-task1-process-map-q6",
+        "type": "mcq",
+        "q": "给果酱制作流程排序：A. The jars are sealed and labelled. B. The fruit is picked and washed. C. The hot jam is poured into clean jars. D. The fruit is boiled with sugar.",
+        "options": ["B-D-C-A", "B-C-D-A", "D-B-C-A", "B-D-A-C"],
+        "answer": "B-D-C-A",
+        "explain": "先采摘清洗（B），再加糖熬煮（D），然后装瓶（C），最后封口贴标签（A）。写作时顺序错一步，TA 就会扣分。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-writing-task1-letter",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 1 培训类书信：语气、三个要点与称呼落款",
+    "titleEn": "General Training Task 1: letters",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 30,
+    "minutes": 25,
+    "summary": "学完能先判断收信人和语气，再把三个要点各写成一段带具体细节的正文，并配对正确的称呼和落款。",
+    "sections": [
+      {
+        "heading": "第一步：判断语气（2 分钟）",
+        "body": "动笔前先看题目里的收信人是谁、你们是什么关系。这决定了用词、句式和称呼落款（TA + LR）。\n\n**正式**：不认识的人或机构，如客服经理、市政部门、酒店。不用缩写和口语词，请求用 I would be grateful if ...\n\n**半正式**：认识但不亲近的人，如房东、邻居、上司、老师。礼貌但不生硬，可以少量使用缩写。\n\n**非正式**：朋友、亲戚。可以用缩写和口语短语，但句子仍然要完整，内容仍然要具体。\n\n**判断技巧**：题目说 a friend 或给出对方的名字 → 半正式或非正式；只说 the manager、the council → 正式。",
+        "table": {
+          "head": ["语气", "称呼", "落款"],
+          "rows": [
+            ["正式（不知姓名）", "Dear Sir or Madam,", "Yours faithfully,"],
+            ["正式（知道姓）", "Dear Mr Brown, / Dear Ms Lee,", "Yours sincerely,"],
+            ["半正式", "Dear Mr Brown, / Dear Anna,", "Kind regards, / Best regards,"],
+            ["非正式", "Dear Tom,", "Best wishes, / All the best,"]
+          ]
+        }
+      },
+      {
+        "heading": "第二步：开头一两句说明目的",
+        "body": "考官读完第一段就应该知道你为什么写信。正式信不需要寒暄，直接进入正题。\n\n**正式**：I am writing to complain about ... / I am writing to enquire about ... / I am writing to apply for ...\n\n**半正式**：I am writing to let you know that ... / I'm writing about ...\n\n**非正式**：先用一句问候带过（I hope you're well.），第二句马上说目的（I'm writing because ...）。",
+        "examples": [
+          {
+            "en": "I hope you and the family are well. I'm writing because I've finally booked my trip to Edinburgh, and I'd love to see you while I'm there.",
+            "cn": "点评：非正式信的开头。一句问候带过，第二句马上说明目的；I'm、I've、I'd 这些缩写在朋友之间很自然。称呼用 Dear Jenny,，落款配 Best wishes,。"
+          }
+        ]
+      },
+      {
+        "heading": "第三步：三个要点逐条展开",
+        "body": "题目给出的三个要点是 TA 的核对清单，漏掉一个就很难上 6 分。\n\n**一个要点一段**：每段 2–4 句，段首用过渡语点明这段回应哪一点（As for ...、Regarding ...、On top of that, ...），不要用 Firstly、Secondly、Thirdly 机械排号（CC）。\n\n**每段至少一个具体信息**：日期、时间、金额、地点、原因、数量，任选一两项。具体细节是 6 分和 7 分的分界线。\n\n**扩写时问自己三个问题**：发生了什么？带来了什么影响？我希望怎么解决？\n\n**结尾**：一句话写清希望对方做什么（回复、退款、来访），再用一句结束语收尾，例如 I look forward to hearing from you.（正式）或 Let me know what you think!（非正式）。",
+        "examples": [
+          {
+            "en": "Unfortunately, the problems began as soon as the course started. The class, which had been advertised as a group of no more than eight students, actually had nineteen people in it, so the teacher rarely had time to answer individual questions. In addition, three of the ten evening sessions were cancelled at short notice, including one on 14 October, when I had already travelled for forty minutes to get there.",
+            "cn": "点评：这是正式投诉信中回应「说明出了什么问题」的一段。段首一句概括，后面写两个问题，各带具体信息（八人与十九人、十节课取消三节、10 月 14 日、路上四十分钟）；which had been advertised 和过去完成时交代背景，GRA 有变化；全段没有缩写，语气一致。"
+          }
+        ]
+      },
+      {
+        "heading": "第四步：称呼、落款与语气一致性检查",
+        "body": "写完用 1–2 分钟做三项检查：\n\n**称呼和落款是否配对**：Dear Sir or Madam 配 Yours faithfully；Dear Mr / Ms + 姓 配 Yours sincerely；写给朋友用名字，配 Best wishes 等。落款下一行写名字：正式信写全名，非正式信只写名。\n\n**语气是否从头到尾一致**：正式信里不能出现 kids、stuff、wanna、Thanks a lot!；非正式信也不要整段写成 I would be most grateful if you could kindly ...\n\n**请求是否委婉**（GRA）：把 Give me a refund. 改成 Could you ...? / I would appreciate it if you could ... / I was wondering whether ...\n\n字数目标 160–190 词，用时约 20 分钟。",
+        "examples": [
+          {
+            "en": "I would be grateful if you could refund the full course fee of £240 by the end of this month. I look forward to hearing from you.",
+            "cn": "点评：正式信的结尾。用委婉结构提出明确请求，金额和期限都写清楚，再用固定结束语收尾。如果称呼是 Dear Sir or Madam,，落款必须是 Yours faithfully,。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Dear Sir or Madam, ... Yours sincerely,",
+        "right": "Dear Sir or Madam, ... Yours faithfully,",
+        "why": "不知道对方姓名时落款用 Yours faithfully。称呼和落款不配对，是最容易避免却很常见的扣分点（TA）。"
+      },
+      {
+        "wrong": "I wanna get my money back ASAP.",
+        "right": "I would be grateful if you could refund my payment as soon as possible.",
+        "why": "正式信里用 wanna、ASAP 等口语，语气和收信人不匹配，TA 和 LR 都会受影响。"
+      },
+      {
+        "wrong": "Secondly, the room was not good.",
+        "right": "As for the room, the heating did not work for the first two nights, and the window would not close properly.",
+        "why": "机械排号加空泛评价，没有任何具体信息，这个要点等于只写了一半。用过渡语引出，并写出具体问题。"
+      },
+      {
+        "wrong": "（只回应了两个要点，第三点「你希望对方怎么做」没写）",
+        "right": "I would appreciate it if you could either replace the item or arrange a full refund.",
+        "why": "题目的三个要点必须全部回应。漏写一个，TA 很难超过 5 分。"
+      },
+      {
+        "wrong": "I want to know when will the order arrive.",
+        "right": "I would like to know when the order will arrive.",
+        "why": "间接问句要用陈述语序（主语在动词前），这是书信里常见的 GRA 错误。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-task1-letter-q1",
+        "type": "mcq",
+        "q": "给你不认识的酒店经理写投诉信，称呼是 Dear Sir or Madam,，落款应该用？",
+        "options": ["Yours faithfully,", "Yours sincerely,", "Best wishes,", "Love,"],
+        "answer": "Yours faithfully,",
+        "explain": "不知道收信人姓名的正式信，落款用 Yours faithfully。Yours sincerely 配 Dear Mr / Ms + 姓，Best wishes 和 Love 用于非正式信。"
+      },
+      {
+        "id": "st-writing-task1-letter-q2",
+        "type": "mcq",
+        "q": "题目：写信给你的朋友，邀请他来参加你的生日聚会。哪一句开头最合适？",
+        "options": [
+          "I am writing to formally invite you to attend my birthday celebration.",
+          "Dear Sir, I would like to invite you to my party.",
+          "I hope you're doing well! I'm having a small party for my birthday next Saturday, and I'd love you to come.",
+          "Party next Saturday. Come."
+        ],
+        "answer": "I hope you're doing well! I'm having a small party for my birthday next Saturday, and I'd love you to come.",
+        "explain": "写给朋友用非正式语气：一句问候，马上说目的，缩写自然。第一句太正式，第二句称呼错误，第四句不是完整句子，也不礼貌。"
+      },
+      {
+        "id": "st-writing-task1-letter-q3",
+        "type": "correct",
+        "q": "Could you tell me when does the course start?",
+        "answer": [
+          "Could you tell me when the course starts?",
+          "Could you tell me when the course will start?"
+        ],
+        "explain": "Could you tell me 后面是间接问句，要用陈述语序：when the course starts，不能再用 does 倒装。"
+      },
+      {
+        "id": "st-writing-task1-letter-q4",
+        "type": "mcq",
+        "q": "哪一句最适合写进正式投诉信？",
+        "options": [
+          "The stuff you sent me is rubbish.",
+          "I'm really fed up with your company.",
+          "I was disappointed to find that two of the plates were broken when the parcel arrived.",
+          "Give me my money back now."
+        ],
+        "answer": "I was disappointed to find that two of the plates were broken when the parcel arrived.",
+        "explain": "第三句语气克制，同时给出了具体信息（两个盘子碎了）。其余三句要么是口语（stuff、rubbish、fed up），要么是命令句，语气和正式信不符。"
+      },
+      {
+        "id": "st-writing-task1-letter-q5",
+        "type": "fill",
+        "q": "Send me a new one. → I would be grateful ___ you could send me a replacement.（填一个词）",
+        "answer": ["if"],
+        "explain": "I would be grateful if you could ... 是正式信里提出请求的常用委婉结构。"
+      },
+      {
+        "id": "st-writing-task1-letter-q6",
+        "type": "mcq",
+        "q": "要引出第二个要点「说明你需要哪种房间」，哪个过渡语最自然？",
+        "options": ["Secondly,", "As for the room,", "And,", "Last but not least,"],
+        "answer": "As for the room,",
+        "explain": "As for the room 直接点明这一段要讲的内容，过渡自然；Secondly 是机械排号，用 And 在段首引出新要点显得随意，Last but not least 显得模板化，而且这只是第二点。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-writing-task2-question-types",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 审题与五类题型",
+    "titleEn": "Task 2: reading the question and five essay types",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 40,
+    "minutes": 30,
+    "summary": "学完能在 3 分钟内判断题型、列出题目的全部要求，并为观点、讨论、问题解决、利弊、双问五类题选对立场和结构。",
+    "sections": [
+      {
+        "heading": "三步审题（3 分钟）",
+        "body": "TR 的第一关是「回答了题目要求的每一部分」。很多 5 分作文不是英语差，而是答偏了。\n\n**第 1 步 圈话题词**：找出题目讨论的对象，特别注意限定词。例如 children's use of smartphones at school，话题不是「手机」，也不是「儿童」，而是「儿童在学校用手机」。\n\n**第 2 步 划指令句**：题目最后一两句告诉你要做什么，例如 To what extent do you agree or disagree? 或 Discuss both views and give your own opinion. 指令句决定题型。\n\n**第 3 步 数任务**：数清楚有几个问题要回答，每个问题都要在正文里有对应的段落。把任务写在草稿纸上，写完逐项打勾。",
+        "examples": [
+          {
+            "en": "In many countries, young people are leaving rural areas to look for work in cities. What problems does this cause, and what can be done to solve them?",
+            "cn": "审题示范（原创题目）：话题词是「年轻人离开农村去城市找工作」，不是泛泛的城市化；指令有两个，问题（problems）和解决办法（what can be done），所以正文要有一段讲问题、一段讲对策，缺一不可。"
+          }
+        ]
+      },
+      {
+        "heading": "五类题型：从指令句判断立场",
+        "body": "下表帮你从指令句判断题型。凡是需要表态的题，立场都要在开头段最后一句亮出来，结尾段换一种说法重申，中间每段都为它服务（TR）。",
+        "table": {
+          "head": ["题型", "指令句特征", "立场怎么给"],
+          "rows": [
+            ["观点题", "To what extent do you agree or disagree?", "明确同意、反对或部分同意，全文不变"],
+            ["讨论题", "Discuss both views and give your own opinion.", "两边都写，再说自己支持哪一边"],
+            ["问题解决题", "What are the causes / problems? What can be done?", "不必表态，给出原因或问题，以及对策"],
+            ["利弊题", "Do the advantages outweigh the disadvantages?", "明确说利大于弊还是弊大于利"],
+            ["双问题", "两个不同的问句，如 Why ...? Is this positive or negative?", "两问分别回答，各给明确答案"]
+          ]
+        }
+      },
+      {
+        "heading": "各类题型的结构",
+        "body": "以下结构都是四段式（开头、两个主体段、结尾），250–290 词，适合 40 分钟完成。\n\n**观点题**：开头改写题目 + 立场 → 主体 1 理由一 → 主体 2 理由二（或者主体 1 先让步，承认对方的合理之处，主体 2 说明为什么仍然坚持）→ 结尾重申立场。\n\n**讨论题**：开头概括两种看法 + 自己的倾向 → 主体 1 写自己不支持的一方 → 主体 2 写自己支持的一方 → 结尾重申。把支持的一方放在后面，论证会更顺。\n\n**问题解决题**：开头点出现象 → 主体 1 原因或问题 → 主体 2 对策（每个对策最好对应前面的一个问题）→ 结尾总结。\n\n**利弊题**：开头 + 判断（如利大于弊）→ 主体 1 写较弱的一方 → 主体 2 写较强的一方 → 结尾。outweigh 题必须给出比较判断，只罗列利弊不够。\n\n**双问题**：开头分别简答两问 → 主体 1 回答问题一 → 主体 2 回答问题二 → 结尾。"
+      },
+      {
+        "heading": "开头段示范：改写题目 + 亮明立场",
+        "body": "开头段 2–3 句就够：第一句用自己的话改写题目（换词、换句式，不照抄），需要时补一句背景，最后一句给出立场或写作方向。\n\n不要写 This essay will discuss ... 这类空话凑字数，也不要把主体段的理由提前在开头写满。",
+        "examples": [
+          {
+            "en": "Some people think that public libraries are no longer needed now that most information can be found online. Discuss both views and give your own opinion.",
+            "cn": "原创练习题：讨论题，两边都要写，并给出自己的观点。"
+          },
+          {
+            "en": "With so much information now available on the internet, some argue that funding public libraries is a waste of money. While I understand this view, I believe libraries remain essential, particularly for people who cannot easily get online.",
+            "cn": "点评：第一句把 no longer needed、can be found online 换成 a waste of money、available on the internet，没有照抄；第二句用 While I understand this view 承认对方，再亮明立场，并说明侧重点（particularly for ...），主体段的方向一目了然。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "（题目问 problems and solutions，正文只写了问题）",
+        "right": "主体 1 写问题，主体 2 写对应的对策",
+        "why": "漏掉题目的一部分，TR 通常不超过 5 分。动笔前把任务写在草稿上，写完逐项打勾。"
+      },
+      {
+        "wrong": "Both sides have their own advantages, and it depends on the situation.",
+        "right": "Although online resources are convenient, I believe libraries still play a vital role in their communities.",
+        "why": "观点题、讨论题、利弊题都要求明确立场；「各有利弊、看情况」等于没有回答，TR 会被压低。"
+      },
+      {
+        "wrong": "（开头写 I strongly agree，主体 2 却写了一整段反对的理由，结尾又说 it depends）",
+        "right": "让步段写完要转回立场：Admittedly, ... However, I still believe ...",
+        "why": "立场前后不一致是 TR 的典型扣分点。可以让步，但必须明确转回自己的立场。"
+      },
+      {
+        "wrong": "（题目是 the use of smartphones by children at school，写成了「手机对所有人的影响」）",
+        "right": "每个主体段的主题句都带上 children 和 at school 这两个限定",
+        "why": "话题扩大或偏移会被判为部分跑题；限定词决定了论证范围。"
+      },
+      {
+        "wrong": "Some people think that public libraries are no longer needed now that most information can be found online.（照抄题目当开头）",
+        "right": "With so much information now available on the internet, some argue that funding public libraries is a waste of money.",
+        "why": "照抄题目的句子不算你的有效内容，也体现不出 LR；用同义词和不同句式改写。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-task2-question-types-q1",
+        "type": "mcq",
+        "q": "题目最后一句是 Do the advantages of this trend outweigh the disadvantages? 属于哪类题型？",
+        "options": ["观点题", "讨论题", "利弊题", "问题解决题"],
+        "answer": "利弊题",
+        "explain": "outweigh 是利弊题的标志，要明确判断利大于弊还是弊大于利。"
+      },
+      {
+        "id": "st-writing-task2-question-types-q2",
+        "type": "mcq",
+        "q": "Some people believe that university education should be free for everyone. Others think students should pay. Discuss both views and give your own opinion. 哪种结构最合适？",
+        "options": [
+          "只写支持免费的两个理由",
+          "主体 1 写应该付费的理由，主体 2 写应该免费的理由并表明支持，结尾重申立场",
+          "主体 1 写原因，主体 2 写解决办法",
+          "两边各写一段，结尾说各有道理、要看情况"
+        ],
+        "answer": "主体 1 写应该付费的理由，主体 2 写应该免费的理由并表明支持，结尾重申立场",
+        "explain": "讨论题要两边都写，并给出自己的观点。把自己支持的一方放在主体 2，结尾重申。只写一边漏了任务；结尾说「看情况」没有给出观点。"
+      },
+      {
+        "id": "st-writing-task2-question-types-q3",
+        "type": "mcq",
+        "q": "Why do many people choose to work from home? Is this a positive or negative development? 需要回答几个问题？",
+        "options": ["1 个：在家办公好不好", "2 个：原因，以及好坏判断", "3 个：原因、问题和对策", "不需要回答问题，描述现象即可"],
+        "answer": "2 个：原因，以及好坏判断",
+        "explain": "这是双问题：第一问要说原因，第二问要明确判断是积极还是消极的发展，两问都要有对应段落。"
+      },
+      {
+        "id": "st-writing-task2-question-types-q4",
+        "type": "mcq",
+        "q": "哪一句最适合作为观点题开头段的最后一句？",
+        "options": [
+          "This essay will talk about this topic.",
+          "There are many advantages and disadvantages.",
+          "I completely agree that cars should be banned from city centres, as this would make streets safer and cleaner.",
+          "Cars are very important in modern life."
+        ],
+        "answer": "I completely agree that cars should be banned from city centres, as this would make streets safer and cleaner.",
+        "explain": "第三句明确亮出立场，还预告了两个理由（更安全、更干净）。其余三句都没有立场，属于空话。"
+      },
+      {
+        "id": "st-writing-task2-question-types-q5",
+        "type": "mcq",
+        "q": "题目：Many young people today spend too much time on social media. What are the causes of this, and what can be done about it? 下面哪一句跑题了？",
+        "options": [
+          "Apps are designed to keep users scrolling for as long as possible.",
+          "Schools could teach students how to manage their screen time.",
+          "Social media helps businesses advertise their products cheaply.",
+          "Many teenagers go online because they feel left out if they do not."
+        ],
+        "answer": "Social media helps businesses advertise their products cheaply.",
+        "explain": "题目问的是「年轻人用社交媒体时间过长」的原因和对策。企业广告便宜与这个问题无关，属于跑题。第一、四句是原因，第二句是对策。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-writing-task2-peel",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "Task 2 段落展开：PEEL 与具体例子",
+    "titleEn": "Task 2: developing paragraphs with PEEL",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 50,
+    "minutes": 30,
+    "summary": "学完能把一个论点写成「主题句 → 解释 → 例子 → 回扣」的完整主体段，并把空泛的例子改成有人群、场景和结果的具体例子。",
+    "sections": [
+      {
+        "heading": "PEEL 四步",
+        "body": "主体段写不长、写不深，通常是因为只有观点没有展开。PEEL 是一张检查清单：\n\n**P（Point）主题句**：段落第一句，一句话说清本段观点，并和开头段的立场挂钩（TR + CC）。\n\n**E（Explain）解释**：回答「为什么」「会导致什么」，用 This is because ...、As a result, ...、This means that ... 推进 1–2 句。\n\n**E（Example）例子**：给出具体的人群、场景、时间或结果，让观点可信。\n\n**L（Link）回扣**：一句话回到主题句或总立场，可以顺带点出意义，如 Therefore, ... 或 This shows that ...\n\n一个主体段 4–6 句、90–120 词，正好走完一遍 PEEL。",
+        "table": {
+          "head": ["步骤", "作用", "常用开头"],
+          "rows": [
+            ["Point", "亮出本段观点", "One major benefit of ... is that ..."],
+            ["Explain", "说明为什么、会怎样", "This is because ... / As a result, ..."],
+            ["Example", "具体人群、场景、结果", "For instance, ... / A good example is ..."],
+            ["Link", "回到立场", "Therefore, ... / This shows that ..."]
+          ]
+        }
+      },
+      {
+        "heading": "解释怎么写深：连问两次「所以呢」",
+        "body": "6 分作文的解释常常是断言（This is very important.），7 分作文会说清因果链。方法是对自己的观点连问两次「所以呢？」\n\n观点：网课让偏远地区的学生也能上好课。\n\n所以呢？→ 他们能听到大城市优秀老师讲的课。\n\n所以呢？→ 城乡之间的教育差距会缩小，这些学生有更多机会。\n\n把这条链写成一两句解释，段落的深度就出来了。每一步之间用 This means that、As a result、which in turn 这类表达连起来（CC），而不是只用 and。",
+        "examples": [
+          {
+            "en": "Online courses allow students in remote areas to learn from highly qualified teachers. This means that a teenager in a small mountain village can attend the same maths lessons as a student in a major city, which in turn narrows the gap in opportunities between rural and urban areas.",
+            "cn": "点评：第一句是观点，第二句把「所以呢」问了两次：能上同样的课 → 缩小城乡机会差距。which in turn 把两层因果连成一句，比用 and 并列更有逻辑。"
+          }
+        ]
+      },
+      {
+        "heading": "写出具体例子的三种来源",
+        "body": "考场上不需要真实的统计数据，但例子必须具体到读者能想象出画面（TR）。三种来源：\n\n**① 具体人群 + 场景**：不写 many people，而写 office workers who commute for over an hour a day。\n\n**② 假设情景**：用 If ...、Imagine ...、Take ... as an example 描述一个合理的场景，例如 If a family spends £50 a week on takeaways, ...\n\n**③ 常识或身边的现象**：例如 many supermarkets now have self-checkout machines。不要编造精确的研究数据和机构名称，看起来不可信，也没有必要。\n\n**检查标准**：例子里至少有「谁、在什么场景、结果怎样」中的两项。",
+        "table": {
+          "head": ["空泛", "具体"],
+          "rows": [
+            [
+              "Many people like it.",
+              "Busy parents who work long hours can order groceries online in five minutes."
+            ],
+            [
+              "It is bad for health.",
+              "Teenagers who stay up gaming until 2 a.m. often struggle to concentrate in morning lessons."
+            ],
+            [
+              "The government should do something.",
+              "Local councils could offer free swimming lessons to children during the school holidays."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "完整示范段与自查",
+        "body": "写完每个主体段，用三个问题自查：\n\n第一句能不能单独概括这一段？\n\n有没有至少一句在解释「为什么」，而不只是换个说法重复观点？\n\n例子里有没有具体的人群、场景或结果？最后一句有没有回到立场？\n\n三项都满足，这一段的 TR 和 CC 就达到了 7 分的基本要求。",
+        "examples": [
+          {
+            "en": "One major benefit of banning cars from city centres is that the air would become noticeably cleaner. Traffic is one of the main sources of air pollution in cities, so removing private vehicles from even a few busy streets would sharply reduce the fumes that people breathe every day. For instance, a shop assistant who works beside a congested road would no longer have to put up with exhaust fumes for eight hours a day, and children walking to school would be exposed to far less dirty air. Therefore, a car-free centre would bring clear health benefits to those who live and work there.",
+            "cn": "点评：P 主题句直接回答「禁车有什么好处」；第一个 E 用 so 写出因果（交通是主要污染源之一 → 吸入的尾气减少）；第二个 E 给出两类具体人群（街边店员、步行上学的孩子）和场景（一天八小时）；L 用 Therefore 回扣健康益处。全段约 100 词，没有一句 many people think。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Technology is very important. It is very useful in our life. So technology is important.",
+        "right": "Technology has made it far easier for small businesses to reach customers. A local bakery, for example, can now take orders through social media without paying rent for a shop on the high street.",
+        "why": "段落原地打转：同一个观点说了三遍，没有解释也没有例子，TR 大约只有 5 分。"
+      },
+      {
+        "wrong": "For example, many people think it is good.",
+        "right": "For example, elderly people who live alone can video-call their grandchildren every evening.",
+        "why": "many people think 不是例子，只是把观点换个说法再说一遍。例子要有具体人群和场景。"
+      },
+      {
+        "wrong": "A 2021 study by a famous university showed that 93.6% of students prefer online lessons.",
+        "right": "Many students who live far from campus find online lessons more convenient, as they save hours of travelling each week.",
+        "why": "编造精确数据和研究不会加分，反而显得不可信。考场上用合理的假设和常识性的例子更稳妥。"
+      },
+      {
+        "wrong": "（一个主体段里先讲环保，再讲经济，最后讲健康）",
+        "right": "一段只讲一个观点，其他观点另起一段或者舍弃",
+        "why": "一段塞进几个观点，每个都展不开；段落没有中心，CC 也会扣分。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-task2-peel-q1",
+        "type": "mcq",
+        "q": "给句子排序，组成 PEEL 段落：A. For instance, a nurse working night shifts can watch a recorded lecture at noon. B. Therefore, online learning makes further education possible for many working adults. C. Online courses give learners far more flexibility over when they study. D. This means that people with irregular working hours no longer have to choose between a job and a degree.",
+        "options": ["C-D-A-B", "C-A-D-B", "B-C-D-A", "D-C-A-B"],
+        "answer": "C-D-A-B",
+        "explain": "C 是观点（Point），D 用 This means that 解释（Explain），A 用 For instance 举例（Example），B 用 Therefore 回扣（Link）。"
+      },
+      {
+        "id": "st-writing-task2-peel-q2",
+        "type": "mcq",
+        "q": "哪一个例子最具体？",
+        "options": [
+          "For example, many people agree with this.",
+          "For example, it is helpful in many ways.",
+          "For example, students who share a flat can split the cost of a car and take turns driving to campus.",
+          "For example, this is a common situation nowadays."
+        ],
+        "answer": "For example, students who share a flat can split the cost of a car and take turns driving to campus.",
+        "explain": "第三句有具体人群（合租的学生）、具体做法（分摊车费、轮流开车）和场景（去学校），其余三句都是空话。"
+      },
+      {
+        "id": "st-writing-task2-peel-q3",
+        "type": "mcq",
+        "q": "Point：Working from home can harm employees' mental health. 紧接着的 Explain 句最合适的是？",
+        "options": [
+          "Working from home is popular.",
+          "Without daily contact with colleagues, many people start to feel isolated, which can lead to stress and low mood.",
+          "For instance, my uncle works from home.",
+          "In conclusion, working from home is bad."
+        ],
+        "answer": "Without daily contact with colleagues, many people start to feel isolated, which can lead to stress and low mood.",
+        "explain": "第二句说明了「为什么会伤害心理健康」：缺少同事交流 → 孤立 → 压力和情绪低落。第一句偏题，第三句是不完整的例子，第四句是结论。"
+      },
+      {
+        "id": "st-writing-task2-peel-q4",
+        "type": "fill",
+        "q": "Fast food is cheap and convenient. ___, many busy families rely on it several times a week.（填一个表示结果的连接词或短语）",
+        "answer": [
+          "As a result",
+          "Consequently",
+          "Therefore",
+          "As a consequence",
+          "Because of this",
+          "For this reason",
+          "Thus",
+          "Hence"
+        ],
+        "explain": "前一句是原因（便宜方便），后一句是结果（很多家庭经常吃），所以填表示结果的连接词，如 As a result、Consequently、Therefore。"
+      },
+      {
+        "id": "st-writing-task2-peel-q5",
+        "type": "mcq",
+        "q": "哪一句最适合作为 Link（回扣）句？",
+        "options": [
+          "For example, my friend likes cooking.",
+          "Therefore, teaching cooking at school would help young people lead healthier lives.",
+          "Cooking is a skill.",
+          "However, some people disagree."
+        ],
+        "answer": "Therefore, teaching cooking at school would help young people lead healthier lives.",
+        "explain": "Link 句用 Therefore 回到本段观点（学校教烹饪有好处），并点出意义。第一句是例子，第三句太空泛，第四句转向了另一方，适合放在下一段。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-writing-coherence",
+    "domain": "strategy",
+    "track": "writing",
+    "title": "连贯与衔接：段落逻辑、连接词与指代",
+    "titleEn": "Coherence and cohesion in writing",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 60,
+    "minutes": 25,
+    "summary": "学完能按清楚的逻辑安排段落，减少连接词堆砌，用 this、such、the former 和同义替换把句子自然地连起来。",
+    "sections": [
+      {
+        "heading": "先连贯，再衔接",
+        "body": "CC 看两件事。**连贯（coherence）** 是思路：段落顺序是否合理、每段是否只有一个中心、句子是否一步步推进。**衔接（cohesion）** 是手段：连接词、指代词、同义替换把句子扣在一起。\n\n很多考生以为 CC 就是多用连接词，结果每句都以 Moreover 开头，反而被判为机械。真正拉分的是连贯：没有逻辑的段落，加再多连接词也连不起来。\n\n**段间逻辑**：Task 2 常用「由弱到强」或「先让步、后反驳」；Task 1 是「先 overview、后细节，先主要特征、后例外」。\n\n**段内逻辑**：主题句 → 解释 → 例子 → 回扣，每一句都和上一句有明确关系（原因、结果、举例、对比或补充）。"
+      },
+      {
+        "heading": "连接词：少而准",
+        "body": "**控制数量**：以连接词开头的句子最好不超过三分之一，其余句子靠指代和内容本身衔接。\n\n**用对逻辑**：However 引出相反的内容，不能用来引出补充；Moreover、In addition 引出同方向的补充，不能用来引出结果；Therefore 引出结论，前面必须有原因。\n\n**换位置、换形式**：连接词不一定放句首，可以放句中，如 This approach, however, has one serious drawback. 也可以改用从句，如 Although ...、While ...、..., which means that ...\n\n**少用模板化的说法**：Last but not least、First and foremost 这类说法用多了显得套路；On the other hand 用于对比同一问题的另一面，不要拿来随意换话题。",
+        "table": {
+          "head": ["逻辑关系", "连接词", "也可以用"],
+          "rows": [
+            ["补充", "In addition, / Moreover,", "Another ... is ... / ..., and it also ..."],
+            ["对比", "However, / By contrast,", "While ..., / Although ..., / ..., whereas ..."],
+            ["因果", "As a result, / Therefore,", "This means that ... / ..., which leads to ..."],
+            ["举例", "For example, / For instance,", "A good example is ... / Take ... as an example."],
+            ["让步", "Admittedly, / It is true that ...", "Although ..., / Despite ...,"]
+          ]
+        }
+      },
+      {
+        "heading": "指代与同义替换：不用连接词也能衔接",
+        "body": "**this / these + 概括名词**：上一句讲了一件事，下一句用 This trend、This problem、Such measures、These changes 开头，既避免重复，又把两句扣紧。\n\n**the former / the latter**：比较两样东西之后分别指代，只在两者都刚刚出现时使用。\n\n**同义替换**：第一次说 public transport，后面可以说 buses and trains、the network、such services。\n\n**代词要清楚**：it、they 前面如果有两个可能的名词，读者就会糊涂。这时宁可重复名词，或用 this + 名词。",
+        "examples": [
+          {
+            "en": "Many cities have introduced bike-sharing schemes in recent years. These schemes allow residents to pick up a bicycle in one place and leave it in another. Such flexibility is particularly useful for short journeys, which would otherwise be made by car. The result is not only less traffic but also cleaner air.",
+            "cn": "点评：四句话没有一句以 Moreover 之类的连接词开头，衔接全靠指代和概括名词：bike-sharing schemes → These schemes → Such flexibility → The result；which 从句再接上一层因果。读起来顺畅而不机械。"
+          }
+        ]
+      },
+      {
+        "heading": "自查清单与修改示范",
+        "body": "写完后用 2 分钟做 CC 自查：\n\n**① 圈出句首连接词**：超过三分之一就删掉几个，或改成指代。\n\n**② 检查逻辑方向**：However 后面是否真的相反？Therefore 前面有没有原因？\n\n**③ 找出所有 it 和 they**：每一个都能马上找到指的是哪个名词吗？\n\n**④ 看段落中心**：每段只讲一件事吗？有没有一句跑到别的观点上？",
+        "examples": [
+          {
+            "en": "Before: Firstly, social media helps people keep in touch. Moreover, it is free. Furthermore, it is fast. However, it is also convenient. In addition, they can share photos.",
+            "cn": "修改前：五句全以连接词开头；However 引出的 convenient 和前面同方向，逻辑用错；最后一句的 they 指代不清（指人还是指平台？）。"
+          },
+          {
+            "en": "After: Social media makes it easy for people to keep in touch, largely because messages are free and arrive instantly. Users can also share photos with relatives on the other side of the world, which helps families feel closer despite the distance.",
+            "cn": "修改后：把三个零散的优点并进一句因果句；用 Users 代替含糊的 they；which 从句把「分享照片」和「家人更亲近」连起来，全段没有一个多余的连接词。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Moreover, ... Furthermore, ... In addition, ... Moreover, ...",
+        "right": "保留一两个连接词，其余句子用 This / Such + 名词或从句衔接",
+        "why": "连接词堆砌会被视为机械衔接，CC 通常停在 5–6 分。"
+      },
+      {
+        "wrong": "Online shopping saves time. However, it also saves money.",
+        "right": "Online shopping saves time, and it often saves money as well.",
+        "why": "However 表示转折，用来引出同方向的补充就是逻辑错误。"
+      },
+      {
+        "wrong": "Teachers often complain about parents because they are too busy.",
+        "right": "Teachers often complain about parents who are too busy to help with homework.",
+        "why": "they 既可以指老师也可以指家长，读者必须回头猜，这是 CC 的典型扣分点。"
+      },
+      {
+        "wrong": "On the other hand, I think the government should do more.（前文并没有提到另一面）",
+        "right": "In my view, the government should do more.",
+        "why": "On the other hand 必须和前面形成对比；只是想换个话题时用它，逻辑就错了。"
+      },
+      {
+        "wrong": "In conclusion, another reason is that ...",
+        "right": "In conclusion, although ..., I believe ...",
+        "why": "结尾段引入新论点会打乱全文结构；结尾只总结、重申立场。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-writing-coherence-q1",
+        "type": "mcq",
+        "q": "找出用错的连接词：Public transport in my city is cheap. (A) Moreover, it is reliable. (B) However, buses run every five minutes. (C) As a result, many people leave their cars at home.",
+        "options": ["A Moreover", "B However", "C As a result", "都没有用错"],
+        "answer": "B However",
+        "explain": "「五分钟一班车」是在补充说明 reliable，和前文同方向，不能用表示转折的 However，可以改成 For example 或直接删掉。"
+      },
+      {
+        "id": "st-writing-coherence-q2",
+        "type": "fill",
+        "q": "Many schools have banned phones in class. ___ policy has made lessons less distracting.（填一个词，把两句连起来）",
+        "answer": ["This", "The", "That"],
+        "explain": "This policy 用 this + 概括名词指代上一句的「禁手机」，是最自然的衔接方式。"
+      },
+      {
+        "id": "st-writing-coherence-q3",
+        "type": "mcq",
+        "q": "Tourism creates jobs. ___, it can damage the local environment. 空格里最合适的是？",
+        "options": ["Moreover", "However", "Therefore", "For example"],
+        "answer": "However",
+        "explain": "前一句是好处，后一句是坏处，两句方向相反，用 However。"
+      },
+      {
+        "id": "st-writing-coherence-q4",
+        "type": "mcq",
+        "q": "Parents and teachers both influence children, but they spend more time with them. 想表达「父母陪孩子的时间更多」，哪种写法最清楚？",
+        "options": [
+          "Parents and teachers both influence children, but they spend more time with them.",
+          "Parents and teachers both influence children, but parents spend more time with them.",
+          "Parents and teachers both influence children, but it spends more time with them.",
+          "Parents and teachers both influence children, but they spend more time with themselves."
+        ],
+        "answer": "Parents and teachers both influence children, but parents spend more time with them.",
+        "explain": "原句的 they 可以指父母也可以指老师。直接重复名词 parents 最清楚；it 单复数不一致，themselves 意思也错了。"
+      },
+      {
+        "id": "st-writing-coherence-q5",
+        "type": "mcq",
+        "q": "哪种做法最能让段落更连贯？",
+        "options": [
+          "每句开头都加一个连接词",
+          "用 This problem、Such measures 等指代把前后句扣在一起",
+          "把所有观点放进同一段",
+          "每段结尾都用 Last but not least"
+        ],
+        "answer": "用 This problem、Such measures 等指代把前后句扣在一起",
+        "explain": "指代和概括名词能自然地把句子连起来，不会显得机械；其余做法都会让 CC 扣分。"
+      },
+      {
+        "id": "st-writing-coherence-q6",
+        "type": "mcq",
+        "q": "Cars are faster; bicycles are cheaper. ___ are also better for the environment. 要指 bicycles，最清楚的是？",
+        "options": ["They", "The former", "The latter", "It"],
+        "answer": "The latter",
+        "explain": "the latter 指前面提到的两者中的后者，即 bicycles。They 可能被理解成两者，The former 指 cars，It 单复数不对。"
+      }
+    ],
+    "related": { "tabs": ["ielts:writing"] }
+  },
+  {
+    "id": "st-speaking-part1",
+    "domain": "strategy",
+    "track": "speaking",
+    "title": "Part 1：直接回答，再加原因或例子",
+    "titleEn": "Speaking Part 1: short answers that go a little further",
+    "level": "A2",
+    "skills": ["speaking"],
+    "order": 10,
+    "minutes": 20,
+    "summary": "学完能用「直接回答 → 原因或例子 → 补一句」把 Part 1 每题说到 2–4 句，内容具体，不靠背模板。",
+    "sections": [
+      {
+        "heading": "Part 1 考什么",
+        "body": "Part 1 约 4–5 分钟，考官围绕两三个日常话题（家乡、学习或工作、爱好、饮食等）问十来个短问题。它是热身，但 FC 的第一印象就在这里形成。\n\n**每题 2–4 句、15–25 秒最合适**：只说一句太短，考官会觉得你展不开；说上一分钟又会挤掉后面的题目，考官会礼貌地打断你。\n\n这一部分不需要深刻的观点，用真实、具体的小细节就能体现 LR 和 GRA。"
+      },
+      {
+        "heading": "三步回答法",
+        "body": "**第 1 步 直接回答**：第一句就回答问题，用 Yes、Not really、It depends、Definitely 之类开头，不要先绕圈子。\n\n**第 2 步 原因或例子**：说为什么（mainly because ...），或者给一个具体的例子（For example, last weekend I ...）。\n\n**第 3 步 补一句**：和过去对比（I used to ..., but now ...），说一个例外（Having said that, ...），或者说一个打算（I'm hoping to ... next year.）。\n\n第 3 步可以省略，但它最容易用上不同的时态和复杂句，是 GRA 拉开差距的地方。",
+        "table": {
+          "head": ["步骤", "可用的开头"],
+          "rows": [
+            ["直接回答", "Yes, quite a lot. / Not really. / It depends on ..."],
+            ["原因或例子", "Mainly because ... / For example, ... / The thing is, ..."],
+            ["补一句", "I used to ..., but now ... / Having said that, ... / I'm planning to ..."]
+          ]
+        }
+      },
+      {
+        "heading": "示范回答",
+        "body": "下面两段示范都按三步走。注意它们靠的是具体细节，而不是空话。",
+        "examples": [
+          {
+            "en": "Q: Do you like cooking? A: Yes, I do, although I'm not very good at it. I usually make simple things like fried rice or noodle soup, mainly because I don't have much time after work. I'd love to learn how to make proper dumplings one day, like my grandmother does.",
+            "cn": "点评：第一句直接回答，并用 although 加了一个小转折；第二句给出具体菜名和原因；第三句用 I'd love to ... one day 说打算，顺便用 like my grandmother does 做比较。共 3 句，约 20 秒。"
+          },
+          {
+            "en": "Q: How often do you use public transport? A: Almost every day, actually. I take the underground to work because driving in the city centre is a nightmare. I used to cycle when I lived closer to the office, but it's a bit too far now.",
+            "cn": "点评：Almost every day 直接回答频率；because 给出原因，a nightmare 是地道的口语说法（LR）；I used to ... but now 对比过去和现在，用上了不同时态（GRA）。"
+          }
+        ]
+      },
+      {
+        "heading": "准备素材，不背答案",
+        "body": "考官受过训练，很容易听出背好的段落：语速突然变快，语调变平，内容和问题只是擦边，不同题目的回答长得差不多。背诵的内容体现不出真实水平，考官会追问或换题，评分也会受影响。\n\n**正确的准备方式**：为常考话题准备「素材」而不是「答案」：几件真实的小事，几个具体的名字和地点，几个你确实会用的表达。考场上用三步法现场组织。\n\n**避免套话开头**：每题都用 That's a good question 或 As far as I'm concerned 开头，听起来很机械，也浪费时间。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Q: Do you like reading? A: Yes.",
+        "right": "Yes, quite a lot. I mostly read detective novels on the train, because they help me switch off after a long day.",
+        "why": "只答一个词，FC 和 LR 都没有可评的内容。至少再加一个原因或例子。"
+      },
+      {
+        "wrong": "That's a very interesting question. As far as I'm concerned, there are many reasons ...",
+        "right": "Not really, to be honest. I find most museums a bit too quiet for my taste.",
+        "why": "套话开头既拖时间又空洞，一听就是模板。Part 1 第一句就直接回答。"
+      },
+      {
+        "wrong": "（一题说了将近一分钟，把准备好的整段内容背了出来）",
+        "right": "每题 2–4 句，说完就停，等下一题",
+        "why": "答得过长会挤掉题目数量，背诵的痕迹也更明显。Part 1 要短而具体。"
+      },
+      {
+        "wrong": "When I was a child, I play football every day.",
+        "right": "When I was a child, I played football every day.",
+        "why": "说过去的事最容易漏掉过去时，GRA 会因此扣分。第 3 步「和过去对比」时尤其要注意动词形式。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-speaking-part1-q1",
+        "type": "mcq",
+        "q": "Q: Do you prefer mornings or evenings? 哪个回答最符合 Part 1 的要求？",
+        "options": [
+          "Evenings.",
+          "Definitely evenings. I'm not a morning person at all, and I find I can concentrate much better after dinner. Having said that, I've started getting up earlier at weekends to go running.",
+          "That's a good question. There are many advantages and disadvantages of mornings and evenings, and different people have different opinions.",
+          "I like evening. Evening is good. I like it."
+        ],
+        "answer": "Definitely evenings. I'm not a morning person at all, and I find I can concentrate much better after dinner. Having said that, I've started getting up earlier at weekends to go running.",
+        "explain": "第二个回答三步齐全：直接回答、给出原因、用 Having said that 补一个例外。第一个太短，第三个是套话且没有回答，第四个重复且有语法错误。"
+      },
+      {
+        "id": "st-speaking-part1-q2",
+        "type": "mcq",
+        "q": "Q: Do you play any sports? A: Yes, I play badminton about twice a week, mainly because there is a court near my flat. ___ 哪一句最适合作为第 3 步「补一句」？",
+        "options": [
+          "I like badminton.",
+          "I used to play basketball at school, but I gave it up after I hurt my knee.",
+          "Badminton is a sport.",
+          "So that's my answer."
+        ],
+        "answer": "I used to play basketball at school, but I gave it up after I hurt my knee.",
+        "explain": "第二句和过去对比，用上了 used to 和一般过去时，信息也具体。其余三句要么重复，要么没有内容。"
+      },
+      {
+        "id": "st-speaking-part1-q3",
+        "type": "fill",
+        "q": "When I was at primary school, I ___ (walk) to school every morning, but now I take the bus.",
+        "answer": ["walked", "used to walk"],
+        "explain": "小学时是过去的习惯，用一般过去时 walked 或 used to walk，和后面的 now I take the bus 形成对比。"
+      },
+      {
+        "id": "st-speaking-part1-q4",
+        "type": "mcq",
+        "q": "Part 1 每题比较合适的回答长度是？",
+        "options": ["一个词", "2–4 句，大约 15–25 秒", "1 分钟以上", "越长越好"],
+        "answer": "2–4 句，大约 15–25 秒",
+        "explain": "Part 1 题目多、时间短，2–4 句既能展开，又不会挤掉后面的题目。"
+      },
+      {
+        "id": "st-speaking-part1-q5",
+        "type": "correct",
+        "q": "I am usually go to the gym after work.",
+        "answer": ["I usually go to the gym after work."],
+        "explain": "一般现在时的实义动词前不加 am。中国学习者常把 be 动词和实义动词叠用。"
+      }
+    ],
+    "related": { "tabs": ["ielts:speaking"] }
+  },
+  {
+    "id": "st-speaking-part2",
+    "domain": "strategy",
+    "track": "speaking",
+    "title": "Part 2：1 分钟笔记与 2 分钟独白",
+    "titleEn": "Speaking Part 2: notes and the long turn",
+    "level": "B1",
+    "skills": ["speaking"],
+    "order": 20,
+    "minutes": 30,
+    "summary": "学完能在 1 分钟内用关键词记好笔记，按时间线、细节和感受讲到接近 2 分钟，卡住时也能自然地续下去。",
+    "sections": [
+      {
+        "heading": "1 分钟笔记怎么记",
+        "body": "考官给你一张话题卡、一支笔和一张纸，准备 1 分钟，然后讲 1–2 分钟。目标是讲到接近 2 分钟，这是 FC 达到 7 分的标志之一。\n\n**只写关键词，不写句子**：1 分钟写不完句子，照着句子念还会让语调变平。\n\n**按卡片要点分区**：把纸分成 4 块，对应卡片上的 3 个小问题和最后的 explain 句，每块写 2–3 个英文关键词：人名、地点、时间、一个具体细节、一个感受词。\n\n**最后一块最重要**：explain why 或 how you felt 是讲满 2 分钟的关键，先在这里写下一两个原因。\n\n**选真实或半真实的经历**：编出来的故事细节少，说着说着就没话了；真实的经历即使平淡，细节也取之不尽。",
+        "examples": [
+          {
+            "en": "Notes: who - Uncle Wei, retired engineer | when - summer 2019, 2 weeks | what - fixed an old radio together, taught me to solder | why - patient, made me love science, chose engineering",
+            "cn": "点评：话题是「描述一个教会你重要技能的人」。每块只有关键词，但已经有人物身份、时间、具体事件和结果；最后一块的因果（让我爱上科学 → 选了工科）足够撑起 30 秒的结尾。"
+          }
+        ]
+      },
+      {
+        "heading": "2 分钟怎么组织：时间线、细节、感受",
+        "body": "**点题（约 10 秒）**：直接说要讲什么，I'd like to talk about ...，不要把卡片上的要点复述一遍。\n\n**时间线（约 60 秒）**：按发生顺序讲背景（when、where、who）→ 经过 → 结果，用 At first、A few days later、In the end 串起来（FC），全程用过去时（GRA）。\n\n**五感细节（穿插在经过里）**：看到、听到、闻到、尝到、摸到了什么。一两个感官细节就能让故事具体，也自然会用上更精确的形容词（LR）。\n\n**感受和意义（约 30 秒）**：当时的感受，加上现在回头看的想法。用 Looking back、What I'll never forget is ... 转到现在时谈影响，和前面的过去时形成对比。",
+        "table": {
+          "head": ["阶段", "时长", "可用的表达"],
+          "rows": [
+            ["点题", "10 秒", "I'd like to talk about ... / I'm going to describe ..."],
+            ["时间线", "60 秒", "It was back in ... / At first, ... / Then something unexpected happened."],
+            ["细节", "穿插", "I can still remember the smell of ... / It was so quiet that ..."],
+            ["感受", "30 秒", "Looking back, ... / What I'll never forget is ... / It taught me that ..."]
+          ]
+        }
+      },
+      {
+        "heading": "示范回答",
+        "body": "话题（原创）：Describe a time when you got lost. You should say where you were, why you got lost, what you did, and explain how you felt about it.",
+        "examples": [
+          {
+            "en": "I'd like to talk about the time I got lost in Osaka a few years ago. It was my first trip abroad on my own, and on the second evening I decided to walk back to my hotel instead of taking the train, because I wanted to see a bit more of the city. At first, everything was fine, but after about twenty minutes the streets all started to look exactly the same, and then my phone battery died. I can still remember the smell of grilled food drifting out of the little restaurants and the rumble of trains passing overhead, but I had absolutely no idea where I was. I tried asking a couple of people, but my Japanese was limited to hello and thank you. In the end, an elderly shopkeeper noticed me staring at a map on the wall, and instead of just pointing, she actually locked her shop and walked me ten minutes to the right street. Looking back, it was quite scary at the time, but it's one of my favourite memories of that trip, because it showed me how kind complete strangers can be. Even now, whenever I see a tourist looking confused, I always stop and ask if they need help.",
+            "cn": "点评：第一句点题；At first、after about twenty minutes、In the end 串起时间线，全程过去时；smell 和 rumble 两个感官细节让画面具体；Looking back 转入感受，Even now 把经历和现在联系起来。全段约 210 词，按每分钟 120–130 词的语速大约讲 1 分 40 秒；再展开一个细节（比如店主说了什么），就能讲满 2 分钟。"
+          }
+        ]
+      },
+      {
+        "heading": "卡住了怎么续",
+        "body": "讲到一分钟左右没话说，是 Part 2 最常见的问题。提前准备几个「续话开关」：\n\n**加细节**：What I remember most clearly is ... / The funny thing was ...\n\n**加对比**：It was nothing like I'd expected. / Compared with ..., this was ...\n\n**加假设**：If I hadn't ..., I would never have ...（顺便用上第三条件句，GRA 加分）\n\n**联系现在**：Even now, whenever I ..., I think of ...\n\n**想不起某个词**：用解释绕过去（the thing you use to ...），不要停下来，也不要说中文。\n\n考官会在 2 分钟时叫停。如果你提前讲完了，不要说 That's all，用上面的开关再补一两句。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "（准备时在纸上写完整的句子，开口后照着念）",
+        "right": "只写关键词，开口后看着关键词现场组织语言",
+        "why": "1 分钟写不完句子，照念会让语调变平、停顿变多，FC 和 P 都会受影响。"
+      },
+      {
+        "wrong": "I'm going to talk about a time I got lost. I will talk about where it was, why I got lost, what I did and how I felt.",
+        "right": "I'd like to talk about the time I got lost in Osaka a few years ago.",
+        "why": "把卡片要点原样复述一遍，花了时间却没有信息量。第一句直接点题。"
+      },
+      {
+        "wrong": "Last year I go to Osaka and I get lost, and a shopkeeper help me.",
+        "right": "Last year I went to Osaka and got lost, and a shopkeeper helped me.",
+        "why": "讲过去的经历时混用现在时，是 Part 2 最典型的 GRA 扣分点。准备时就提醒自己全程用过去时。"
+      },
+      {
+        "wrong": "That's all.（只讲了 50 秒）",
+        "right": "What I'll never forget is how calm she stayed, even though I was clearly panicking.",
+        "why": "不到 1 分 15 秒就停，FC 很难超过 5 分。用「加细节」「加感受」这类续话开关继续讲。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-speaking-part2-q1",
+        "type": "mcq",
+        "q": "1 分钟准备时，笔记应该怎么记？",
+        "options": ["写出完整的开头段", "只写关键词，按卡片要点分区，最后一块写原因和感受", "用中文写下所有想说的话", "不记笔记，只在脑子里想"],
+        "answer": "只写关键词，按卡片要点分区，最后一块写原因和感受",
+        "explain": "关键词按要点分区，开口时一眼就能找到下一步讲什么；最后一块的原因和感受是讲满 2 分钟的关键。"
+      },
+      {
+        "id": "st-speaking-part2-q2",
+        "type": "mcq",
+        "q": "给句子排序，组成自然的时间线：A. In the end, we found a small café that was still open. B. It was a freezing night last December. C. At first, we walked around looking for somewhere to eat. D. Looking back, it was the best hot chocolate I've ever had.",
+        "options": ["B-C-A-D", "C-B-A-D", "B-A-C-D", "D-B-C-A"],
+        "answer": "B-C-A-D",
+        "explain": "先交代背景（B），再讲经过（C，At first），然后是结果（A，In the end），最后谈感受（D，Looking back）。"
+      },
+      {
+        "id": "st-speaking-part2-q3",
+        "type": "mcq",
+        "q": "讲到一半想不起 stapler（订书机）这个词，最好的做法是？",
+        "options": [
+          "停下来想，直到想起来",
+          "直接说中文",
+          "换个说法：the little tool you use to join sheets of paper together",
+          "跳到下一个要点，不作解释"
+        ],
+        "answer": "换个说法：the little tool you use to join sheets of paper together",
+        "explain": "用「用途 + 特征」描述出来，既不停顿，意思也清楚，FC 和 LR 都不受影响。"
+      },
+      {
+        "id": "st-speaking-part2-q4",
+        "type": "fill",
+        "q": "If I ___ (not / miss) the bus that morning, I would never have met her.（填第三条件句的动词形式）",
+        "answer": ["hadn't missed", "had not missed"],
+        "explain": "第三条件句表示对过去的假设：If + had done, would have done。否定形式是 hadn't missed。"
+      },
+      {
+        "id": "st-speaking-part2-q5",
+        "type": "correct",
+        "q": "When I arrive at the airport, I realised I had forgotten my passport.",
+        "answer": ["When I arrived at the airport, I realised I had forgotten my passport."],
+        "explain": "讲的是过去的经历，主句用了 realised，从句也要用过去时 arrived，前后时态要一致。"
+      },
+      {
+        "id": "st-speaking-part2-q6",
+        "type": "mcq",
+        "q": "哪一句最适合在 Part 2 结尾谈感受和意义？",
+        "options": [
+          "That's all I want to say.",
+          "Looking back, it taught me to always carry a paper map, and I still do that whenever I travel.",
+          "Then I went home.",
+          "I don't know what else to say."
+        ],
+        "answer": "Looking back, it taught me to always carry a paper map, and I still do that whenever I travel.",
+        "explain": "第二句用 Looking back 转入反思，并联系到现在的习惯，从过去时自然切换到现在时。其余三句都是没有内容的收尾。"
+      }
+    ],
+    "related": { "tabs": ["ielts:speaking"] }
+  },
+  {
+    "id": "st-speaking-part3",
+    "domain": "strategy",
+    "track": "speaking",
+    "title": "Part 3：抽象论证的四种思路与让步表达",
+    "titleEn": "Speaking Part 3: discussing abstract ideas",
+    "level": "B2",
+    "skills": ["speaking"],
+    "order": 30,
+    "minutes": 30,
+    "summary": "学完能用过去和现在比较、个人和社会、利弊、预测四种思路展开抽象问题，并用让步表达让观点更全面。",
+    "sections": [
+      {
+        "heading": "Part 3 和 Part 1 有什么不同",
+        "body": "Part 3 约 4–5 分钟，问题和 Part 2 的话题相关，但从「你自己」上升到「人们、社会、未来」。例如 Part 2 讲你迷路的经历，Part 3 可能问 Do you think people rely too much on technology to find their way?\n\n**每题 4–6 句、30–45 秒**：观点 → 解释 → 例子 → 让步或小结。和 Part 1 的三步法相比，多了解释的深度（FC 看展开，LR 看抽象词汇，GRA 看复杂句）。\n\n**从「人们」出发**：可以用个人经历做例子，但观点要谈普遍情况（people in general、younger generations、in many countries）。"
+      },
+      {
+        "heading": "四种展开思路",
+        "body": "拿到问题时，从下面四种思路里挑一种最顺手的，几秒钟就能找到内容：\n\n**① 过去和现在比较**：In the past, ... whereas nowadays ... 适合问「变化」「趋势」的题。\n\n**② 个人和社会**：On a personal level, ...; for society as a whole, ... 适合问「影响」「好处」的题。\n\n**③ 利弊**：On the plus side, ...; the downside is that ... 适合问「好不好」「应不应该」的题。\n\n**④ 预测**：I suspect that in the next ten years ... / It's quite likely that ... 适合问「将来」的题，顺带用上 will、be likely to、might 等不同的将来表达（GRA）。\n\n不必四种都用，一题用一两种就够；关键是每个观点后面都跟一句「为什么」。",
+        "table": {
+          "head": ["思路", "适合的问题", "开头表达"],
+          "rows": [
+            ["过去 vs 现在", "How has ... changed?", "Compared with my parents' generation, ..."],
+            ["个人 vs 社会", "What are the benefits of ...?", "On a personal level, ... / For society, ..."],
+            ["利弊", "Is it a good thing that ...?", "On the plus side, ... / The downside is that ..."],
+            ["预测", "Will ... in the future?", "I suspect that ... / It's quite likely that ..."]
+          ]
+        }
+      },
+      {
+        "heading": "让步：先承认，再转回自己的观点",
+        "body": "让步能让回答显得成熟、全面，也是高分回答的常见特征（FC + GRA）。结构是：承认对方有道理的部分 → 转折 → 回到自己的观点。\n\n**承认**：I can see why some people think ... / It's true that ... / Admittedly, ...\n\n**转折**：But at the same time, ... / That said, ... / Even so, ...\n\n**回到观点**：On balance, I'd say ... / So overall, I still think ...\n\n也可以用一个复杂句完成：Although technology has made it easier to find our way, I think it has also made us less observant."
+      },
+      {
+        "heading": "示范回答",
+        "body": "问题（原创）：Do you think people rely too much on technology to find their way?",
+        "examples": [
+          {
+            "en": "To some extent, yes. Compared with my parents' generation, who had to read paper maps or ask for directions, most young people today simply follow the arrow on their phone. That's incredibly convenient, but it also means we don't really pay attention to our surroundings, so if the battery dies, we're completely lost. I can see why people say it saves time, and it's true that it has made travelling abroad much less stressful. Even so, I think schools could still teach basic map-reading, just in case.",
+            "cn": "点评：To some extent, yes 先直接表态；用「过去 vs 现在」展开，who 从句交代父母一代的做法；but it also means ... so ... 写出因果链；I can see why ... it's true that ... Even so 是完整的让步结构；最后一句给出建议作小结。约 90 词，40 秒左右。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Q: Why do people travel more now? A: Because they like it.",
+        "right": "Mainly because flights have become much cheaper. Twenty years ago, flying abroad was a luxury, whereas now many students can afford a weekend trip with a budget airline.",
+        "why": "Part 3 只给一句理由，会被认为不能展开。至少加上解释和例子。"
+      },
+      {
+        "wrong": "Q: Should children learn to cook at school? A: My mother is a very good cook. She makes ...",
+        "right": "I think it would be useful for children in general, because ... For instance, in my family ...",
+        "why": "只讲个人经历、不谈普遍情况，没有回应 Part 3 的抽象问题；个人经历只能当例子用。"
+      },
+      {
+        "wrong": "I agree. But I disagree. Maybe both.",
+        "right": "I can see why some people agree, but on balance, I think ...",
+        "why": "让步不等于摇摆。承认对方之后，要明确转回自己的观点。"
+      },
+      {
+        "wrong": "In the future, people will ... and they will ... and it will ...",
+        "right": "People will probably ..., and it's quite likely that ..., although some might ...",
+        "why": "谈将来只会用 will，句式单一；换用 be likely to、might、I suspect that，GRA 更多样，语气也更有分寸。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-speaking-part3-q1",
+        "type": "mcq",
+        "q": "问题：How has the way people shop changed in recent years? 最适合用哪种展开思路？",
+        "options": ["过去和现在比较", "只讲自己昨天买了什么", "预测一百年以后的情况", "直接说不知道"],
+        "answer": "过去和现在比较",
+        "explain": "问题问的是「变化」，用 In the past ... whereas nowadays ... 比较过去和现在最直接。"
+      },
+      {
+        "id": "st-speaking-part3-q2",
+        "type": "mcq",
+        "q": "哪一句是完整的让步表达？",
+        "options": [
+          "Social media is bad.",
+          "It's true that social media helps people stay in touch, but at the same time, it can make some teenagers feel anxious.",
+          "Social media is good and bad and I don't know.",
+          "I disagree because I disagree."
+        ],
+        "answer": "It's true that social media helps people stay in touch, but at the same time, it can make some teenagers feel anxious.",
+        "explain": "第二句先用 It's true that 承认好处，再用 but at the same time 转到自己关注的问题，是完整的让步结构。"
+      },
+      {
+        "id": "st-speaking-part3-q3",
+        "type": "fill",
+        "q": "It's quite ___ that more people will work from home in the future.（填一个词，表示「很可能」）",
+        "answer": ["likely", "probable"],
+        "explain": "It's likely that ... 表示「很可能」，是 will 之外常用的将来表达，语气更有分寸。"
+      },
+      {
+        "id": "st-speaking-part3-q4",
+        "type": "mcq",
+        "q": "问题：What are the benefits of learning a foreign language? 哪个回答用了「个人和社会」思路？",
+        "options": [
+          "I learnt English at school.",
+          "On a personal level, it opens up job opportunities; for society as a whole, it helps people understand other cultures and work together.",
+          "Languages are difficult.",
+          "In the future, everyone will use translation apps."
+        ],
+        "answer": "On a personal level, it opens up job opportunities; for society as a whole, it helps people understand other cultures and work together.",
+        "explain": "第二句分别从个人（工作机会）和社会（理解与合作）两个层面回答，结构清楚，容易继续展开。"
+      },
+      {
+        "id": "st-speaking-part3-q5",
+        "type": "correct",
+        "q": "Although it is convenient, but it is also expensive.",
+        "answer": [
+          "Although it is convenient, it is also expensive.",
+          "It is convenient, but it is also expensive."
+        ],
+        "explain": "although 和 but 不能在同一个句子里同时使用，保留其中一个即可。这是中国学习者受「虽然……但是……」影响的典型错误。"
+      },
+      {
+        "id": "st-speaking-part3-q6",
+        "type": "mcq",
+        "q": "下面哪个短语最适合在让步之后转回自己的观点？",
+        "options": ["Even so,", "For example,", "First of all,", "In addition,"],
+        "answer": "Even so,",
+        "explain": "Even so 表示「即便如此」，承认对方之后用它转回自己的观点。其余三个分别用于举例、排序和补充。"
+      }
+    ],
+    "related": { "tabs": ["ielts:speaking"] }
+  },
+  {
+    "id": "st-speaking-fluency",
+    "domain": "strategy",
+    "track": "speaking",
+    "title": "流利度：争取思考时间、自我纠正与语速",
+    "titleEn": "Fluency: buying time, self-correction and pace",
+    "level": "B1",
+    "skills": ["speaking"],
+    "order": 40,
+    "minutes": 20,
+    "summary": "学完能用自然的过渡语争取思考时间、得体地自我纠正，并通过跟读和录音练习控制语速、减少长停顿。",
+    "sections": [
+      {
+        "heading": "流利不等于说得快",
+        "body": "FC 看的是：你能不能持续地说下去，停顿是在想内容还是在想单词，观点之间有没有清楚的衔接。语速很快但颠三倒四，不会得高分；语速适中、几乎不卡，反而更好。\n\n**7 分左右的样子**：偶尔停顿，但多半是在想例子；会用 Actually、What I mean is 引出补充；很少因为找词卡住超过 3 秒。\n\n**自测方法**：给自己录一段 2 分钟的 Part 2，回听时数一数超过 3 秒的停顿有几次，每次是因为什么（找词、想内容、语法没把握）。"
+      },
+      {
+        "heading": "争取思考时间的自然说法",
+        "body": "遇到难题时停顿一两秒很正常，但长时间的空白和一连串 um、er 会扣分。用一句有意义的话把空白填上：\n\n**需要想一想**：Let me think about that for a moment. / Hmm, that's not something I've thought about much.\n\n**问题太大**：It depends on what you mean by ... / It depends on the situation, but generally speaking, ...\n\n**边说边想**：I'd say ... / I suppose ... / The way I see it, ...\n\n**没听清**：Sorry, could you say that again? / Do you mean ...?\n\n同一句话一场考试只用一两次，换着用；用多了就和背模板一样机械。",
+        "table": {
+          "head": ["情况", "说法"],
+          "rows": [
+            ["需要几秒想", "Let me think about that for a moment."],
+            ["问题太大", "It depends on ..., but generally speaking, ..."],
+            ["边说边想", "I'd say ... / I suppose ... / The way I see it, ..."],
+            ["没听清", "Sorry, could you say that again?"],
+            ["想补充", "Actually, ... / What I mean is ... / On top of that, ..."]
+          ]
+        },
+        "examples": [
+          {
+            "en": "Q: Do you think robots will replace teachers? A: Hmm, that's not something I've thought about much, but I'd say probably not, at least not completely. Robots might be able to mark tests or explain grammar rules, but what I mean is, teachers do far more than that. They notice when a student is upset, for example, and they know how to encourage someone who's about to give up. So on balance, I think robots will work alongside teachers rather than replace them.",
+            "cn": "点评：开头用一句真实的过渡语争取思考时间，紧接着就表态，没有空白；what I mean is 引出补充说明，for example 带出具体情形，on balance 收尾。整段没有 um、er，停顿都落在意群之间。"
+          }
+        ]
+      },
+      {
+        "heading": "自我纠正：快、短、继续",
+        "body": "说错一个词或时态时当场改过来是好事，说明你掌握了这个规则（GRA）。但要做到三点：\n\n**快**：马上改，不要说了三句才回头。\n\n**短**：用 sorry、I mean、or rather 带过，只重说出错的部分，不要整句推倒重来。\n\n**继续**：改完就往下说，不要停下来解释或道歉。\n\n频繁地整句重说会被判为不流利（FC），所以没把握的结构宁可换个简单说法，也不要说一半推倒重来。",
+        "examples": [
+          {
+            "en": "Last summer I go, sorry, I went to Qingdao with my cousins, and we spent most of the time on the beach.",
+            "cn": "点评：发现时态错误后用 sorry 马上改，只重说动词，然后接着讲。这是加分的自我纠正。"
+          },
+          {
+            "en": "It was really, um, it was really, er, the trip was really, I mean, it was a really relaxing trip.",
+            "cn": "点评：同一句反复推倒重来，中间夹着 um、er，听起来像在拼句子，FC 会扣分。直接说 It was a really relaxing trip. 就好。"
+          }
+        ]
+      },
+      {
+        "heading": "语速与长停顿：日常怎么练",
+        "body": "**跟读（shadowing）**：找一段 1 分钟左右的英式口语音频，先看着文本跟读，再不看文本跟读，模仿停顿的位置和语调。每天 10 分钟。\n\n**在意群之间停顿**：I usually go running / in the park near my flat / before work. 不要在单词中间或冠词之后停，听起来会自然很多，也有利于 P。\n\n**4-3-2 练习**：同一个 Part 2 话题，先讲 4 分钟，再讲 3 分钟，最后讲 2 分钟。内容重复，压力递增，第三遍会明显更流畅。\n\n**录音复盘**：每周录一次，记下超过 3 秒的停顿次数，目标是 2 分钟里不超过 1 次。"
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "Um... er... um...（沉默 6 秒）... I think yes.",
+        "right": "Let me think about that for a moment. I'd say yes, mainly because ...",
+        "why": "长时间沉默和一连串填充音会直接拉低 FC。用一句有意义的过渡语争取时间。"
+      },
+      {
+        "wrong": "That's an interesting question.（每一题都这样开头）",
+        "right": "Part 1 直接回答；Part 3 遇到真正难的问题时偶尔用一次过渡语",
+        "why": "同一句过渡语反复出现，听起来像背的，反而显得不自然。"
+      },
+      {
+        "wrong": "My brother is, no, my brother he, sorry, my brother has, I mean, he works as a nurse.",
+        "right": "My brother works as a nurse.",
+        "why": "整句反复推倒重来，比犯一个小错扣分更多。没把握时用简单结构直接说。"
+      },
+      {
+        "wrong": "（为了显得流利，语速飞快，单词连成一片）",
+        "right": "保持正常语速，在意群之间停顿",
+        "why": "语速过快会导致发音含糊、错误增多，P 和 GRA 一起受影响。流利看的是连贯，不是速度。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-speaking-fluency-q1",
+        "type": "mcq",
+        "q": "考官问了一个你从没想过的问题，最自然的反应是？",
+        "options": [
+          "沉默 10 秒",
+          "Um... er... um...",
+          "Hmm, I've never really thought about that, but I suppose ...",
+          "I don't know."
+        ],
+        "answer": "Hmm, I've never really thought about that, but I suppose ...",
+        "explain": "用一句真实的过渡语争取一两秒，再接上 I suppose 开始回答，既不冷场，也不机械。"
+      },
+      {
+        "id": "st-speaking-fluency-q2",
+        "type": "mcq",
+        "q": "哪一个是得体的自我纠正？",
+        "options": [
+          "She don't, sorry, she doesn't like spicy food.",
+          "She don't like spicy food. Wait, let me start again. She, she, she does not, she doesn't...",
+          "She don't like spicy food.",
+          "（停下来用中文解释语法）"
+        ],
+        "answer": "She don't, sorry, she doesn't like spicy food.",
+        "explain": "第一句马上改正、只重说出错的部分，然后继续，是加分的自我纠正。第二句反复重来影响 FC，第三句没有改，第四句打断了交流。"
+      },
+      {
+        "id": "st-speaking-fluency-q3",
+        "type": "mcq",
+        "q": "下面哪种停顿位置最自然？（/ 表示停顿）",
+        "options": [
+          "I usually / go running in the / park near my flat.",
+          "I usually go running / in the park / near my flat.",
+          "I / usually / go / running / in / the / park.",
+          "I usually go running in the park near / my flat."
+        ],
+        "answer": "I usually go running / in the park / near my flat.",
+        "explain": "第二句在意群之间停顿：动作、地点、补充说明各成一组。在 the 之后或 near 之后停顿会打断意群，听起来不自然。"
+      },
+      {
+        "id": "st-speaking-fluency-q4",
+        "type": "fill",
+        "q": "The food was cheap, and on ___ of that, the staff were really friendly.（填一个词）",
+        "answer": ["top"],
+        "explain": "on top of that 表示「除此之外、而且」，是口语里引出补充的自然说法，比 moreover 更口语化。"
+      },
+      {
+        "id": "st-speaking-fluency-q5",
+        "type": "mcq",
+        "q": "没听清考官的问题，应该怎么说？",
+        "options": ["What?", "Sorry, could you say that again?", "Repeat.", "（随便回答一个）"],
+        "answer": "Sorry, could you say that again?",
+        "explain": "礼貌地请考官重复是正常的交流，偶尔一次不会影响评分。What? 和 Repeat. 显得生硬，答非所问则会影响评分。"
+      }
+    ],
+    "related": { "tabs": ["ielts:speaking"] }
+  },
+  {
+    "id": "st-speaking-vocab-paraphrase",
+    "domain": "strategy",
+    "track": "speaking",
+    "title": "口语词汇升级与 paraphrase",
+    "titleEn": "Upgrading vocabulary and paraphrasing in speaking",
+    "level": "B2",
+    "skills": ["speaking"],
+    "order": 50,
+    "minutes": 25,
+    "summary": "学完能把 good、bad、very、like 等高频简单词换成更具体的说法，想不起单词时用解释绕过去，并适度使用搭配和习语。",
+    "sections": [
+      {
+        "heading": "升级的目标是「具体」，不是「生僻」",
+        "body": "口语 LR 不看你会多少难词，而看用词是否**具体、准确、自然**。把 good 换成 fantastic 只是换了程度；换成 relaxing、convenient、affordable，才是说清了「好在哪里」。\n\n**第 1 步 找出高频词**：录一段 2 分钟的回答，写下来，圈出 good、bad、nice、very、thing、like 各出现了几次。\n\n**第 2 步 问「好在哪里」**：味道好？价格好？氛围好？方便？把答案变成具体的形容词。\n\n**第 3 步 用进自己的话题**：每个常考话题（家乡、工作、旅行、科技）准备 5–8 个具体的词，在练习里反复用，直到脱口而出。",
+        "table": {
+          "head": ["简单说法", "按意思换成"],
+          "rows": [
+            ["good（食物）", "delicious, tasty, filling, authentic"],
+            ["good（地方）", "peaceful, lively, convenient, well located"],
+            ["bad（经历）", "frustrating, exhausting, disappointing"],
+            ["very big", "huge, enormous, massive"],
+            ["very tired", "exhausted, worn out"],
+            ["like", "be into, be keen on, be a big fan of"]
+          ]
+        }
+      },
+      {
+        "heading": "Paraphrase：想不起单词时绕过去",
+        "body": "想不起一个词时停下来、说中文或者干脆放弃，FC 和 LR 都会受影响。练会下面三种绕法：\n\n**① 说用途**：the thing you use to ... / a machine that ...（忘了 kettle → the thing you use to boil water）\n\n**② 说类别 + 特征**：a kind of ... that ... / a type of ... which ...（忘了 pharmacy → a kind of shop that sells medicine）\n\n**③ 说相近或相反**：It's not exactly ..., it's more like ... / the opposite of ...\n\n**改写题目的词**：回答时不要照搬考官问题里的原词。被问 Do you like reading? 可以答 Yes, I'm a big fan of novels ...；被问 Is your hometown crowded? 可以说 It can get really packed at weekends.",
+        "examples": [
+          {
+            "en": "I bought one of those, what do you call it, those little machines you put coffee capsules into, and now I make a cup every morning before work.",
+            "cn": "点评：想不起具体名称时，用 what do you call it 争取一秒，再用「用途 + 特征」描述出来，没有停顿，意思完全清楚。"
+          }
+        ]
+      },
+      {
+        "heading": "搭配和习语：用对比用多更重要",
+        "body": "**搭配（collocation）是最划算的升级**：take a break、heavy traffic、make a decision、a strong accent、highly recommended。它们不难，但用对了听起来就地道；用错了（make a photo、learn knowledge）会被当成中式表达。\n\n**习语和口语短语每段 1–2 个就够**，而且要用在合适的语境里，例如 It was a real eye-opener（让我大开眼界）、I'm getting the hang of it（渐渐上手了）、It costs an arm and a leg（贵得离谱）。\n\n**不要用**：过时或夸张的习语（It's raining cats and dogs）、放进口语里的书面词（Moreover, I deem it ...），以及自己不确定意思的词。\n\n**积累方法**：记搭配时连同一个自己的例句一起记，例如 heavy traffic → There's always heavy traffic near my office at around 6 p.m.",
+        "table": {
+          "head": ["中式或错误搭配", "自然搭配"],
+          "rows": [
+            ["make a photo", "take a photo"],
+            ["learn knowledge", "gain knowledge / learn a lot"],
+            ["big rain", "heavy rain"],
+            ["open the light", "turn on the light"],
+            ["play a role on", "play a role in"]
+          ]
+        }
+      },
+      {
+        "heading": "示范：同一题的两个版本",
+        "body": "题目：What do you like about your neighbourhood?",
+        "examples": [
+          {
+            "en": "Before: My neighbourhood is very good. It is very convenient and there are many good restaurants. The people are very nice. I like it very much.",
+            "cn": "修改前：very 出现 4 次，good 2 次，nice 1 次。意思清楚，但没有一个具体的词，LR 大约停在 5 分。"
+          },
+          {
+            "en": "After: I'd say the best thing is how convenient it is. There's a metro station just round the corner, and there are loads of family-run restaurants serving authentic Sichuan food at pretty reasonable prices. My neighbours are really friendly too. We're always swapping vegetables from our balcony gardens.",
+            "cn": "修改后：convenient 后面马上用 a metro station just round the corner 证明；family-run、authentic、reasonable prices 把「好餐厅」说具体；swapping vegetables 用一个生活细节代替 nice。只用了 loads of、just round the corner 两个口语短语，没有堆砌习语。"
+          }
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "wrong": "The weather was very very hot and the food was very good.",
+        "right": "The weather was boiling, and the food was absolutely delicious.",
+        "why": "very 和 good 反复出现，说明用词不够具体，LR 会停在 5–6 分。"
+      },
+      {
+        "wrong": "It was raining cats and dogs, but I was over the moon because the exam was a piece of cake.",
+        "right": "It was pouring with rain, but I didn't mind at all because the exam had gone well.",
+        "why": "一句话里堆三个习语，听起来像背的，反而扣分。每段回答 1–2 个、用在合适的地方就够。"
+      },
+      {
+        "wrong": "I made a lot of photos and learnt a lot of knowledge.",
+        "right": "I took lots of photos and learnt a lot about local history.",
+        "why": "中式搭配是 LR 的常见扣分点。记单词时要连同搭配一起记。"
+      },
+      {
+        "wrong": "Moreover, I deem the public transport system to be highly efficacious.",
+        "right": "On top of that, the buses are really reliable.",
+        "why": "把书面语和生僻词硬塞进口语，语气不自然，还容易用错。口语要自然得体。"
+      },
+      {
+        "wrong": "（想不起 umbrella，停下来不说话）",
+        "right": "I forgot my, um, the thing you open over your head when it rains.",
+        "why": "停下来放弃会同时影响 FC 和 LR。用用途或特征描述绕过去。"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "st-speaking-vocab-paraphrase-q1",
+        "type": "fill",
+        "q": "After the twelve-hour flight, I was completely e________.（意思是 very tired，以 e 开头）",
+        "answer": ["exhausted"],
+        "explain": "exhausted 表示「筋疲力尽」，比 very tired 程度更强、更具体；completely exhausted 也是常见搭配。"
+      },
+      {
+        "id": "st-speaking-vocab-paraphrase-q2",
+        "type": "mcq",
+        "q": "想不起 pharmacy（药店）这个词，最好的说法是？",
+        "options": ["（停顿 5 秒）", "a kind of shop that sells medicine", "a medicine", "a hospital"],
+        "answer": "a kind of shop that sells medicine",
+        "explain": "用「类别 + 特征」描述：a kind of shop that sells medicine，意思准确，也没有停顿。"
+      },
+      {
+        "id": "st-speaking-vocab-paraphrase-q3",
+        "type": "correct",
+        "q": "I want to make a photo of the sunset.",
+        "answer": ["I want to take a photo of the sunset.", "I want to take a picture of the sunset."],
+        "explain": "拍照的搭配是 take a photo / take a picture，make a photo 是受中文「做」影响的中式搭配。"
+      },
+      {
+        "id": "st-speaking-vocab-paraphrase-q4",
+        "type": "mcq",
+        "q": "Q: Is your hometown crowded? 哪个回答对题目里的词做了自然的 paraphrase？",
+        "options": [
+          "Yes, my hometown is crowded.",
+          "Yes, it can get really packed, especially during the Spring Festival.",
+          "Crowded? Yes, crowded, very crowded.",
+          "My hometown is very very crowded."
+        ],
+        "answer": "Yes, it can get really packed, especially during the Spring Festival.",
+        "explain": "packed 是 crowded 的口语替换，especially during the Spring Festival 又补了具体场景。其余三个回答都在照搬原词。"
+      },
+      {
+        "id": "st-speaking-vocab-paraphrase-q5",
+        "type": "mcq",
+        "q": "哪一句习语用得恰当？",
+        "options": [
+          "The exam was a piece of cake, so I failed it.",
+          "Living abroad for a year was a real eye-opener, because I saw how differently people live.",
+          "It's raining cats and dogs in my hometown every day, so I'm over the moon.",
+          "My boss is a piece of cake."
+        ],
+        "answer": "Living abroad for a year was a real eye-opener, because I saw how differently people live.",
+        "explain": "a real eye-opener 表示「让人大开眼界的经历」，和后面的原因吻合。第一句逻辑矛盾（很简单却没考过），第三句堆砌习语且不合理，第四句用错对象。"
+      },
+      {
+        "id": "st-speaking-vocab-paraphrase-q6",
+        "type": "fill",
+        "q": "There was ___ traffic on the way to the airport, so we nearly missed our flight.（填一个形容词，和 traffic 搭配表示「拥堵」）",
+        "answer": ["heavy", "bad", "terrible", "awful"],
+        "explain": "heavy traffic 是最常见的搭配；bad / terrible traffic 也可以。不说 big traffic 或 many traffic。"
+      }
+    ],
+    "related": { "tabs": ["ielts:speaking"] }
+  }
+]
