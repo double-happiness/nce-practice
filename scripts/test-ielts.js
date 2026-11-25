@@ -369,6 +369,113 @@ test('考试日最远 364 天，与 52 周上限对齐', () => {
   assert.ok(ielts.applyProfilePatch(p, { examDate: '2028-01-10' }, today).error, '365 天应拒绝');
 });
 
+// ---------------- Task 1 流程图 / 地图题校验 ----------------
+// 以夹具里的 w1a-01 为底（范文字数等已合法），只替换 chart
+const chartItem = (id, chart) => ({ ...JSON.parse(JSON.stringify(ielts.getWriting('w1a-01'))), id, chart });
+const goodProcess = () => ({
+  type: 'process',
+  title: 'How paper is recycled',
+  stages: [
+    { id: 'collect', label: 'Collection', note: 'paper put in bins' },
+    { id: 'sort', label: 'Sorting' },
+    { id: 'pulp', label: 'Pulping', note: 'mixed with water' },
+    { id: 'press', label: 'Pressing' },
+    { id: 'waste', label: 'Waste' },
+  ],
+  links: [
+    { from: 'collect', to: 'sort' },
+    { from: 'sort', to: 'pulp' },
+    { from: 'pulp', to: 'press' },
+    { from: 'sort', to: 'waste', label: 'rejected' }, // 一处分支
+    { from: 'press', to: 'collect', label: 'reused' }, // 一处回路
+  ],
+});
+const goodMap = () => ({
+  type: 'map',
+  title: 'Town centre',
+  compass: true,
+  maps: [
+    { title: '1990', features: [{ kind: 'building', x: 10, y: 10, w: 20, h: 15, label: 'Library' }, { kind: 'road', x: 0, y: 45, w: 100, h: 6, label: 'High Street' }] },
+    { title: '2020', features: [{ kind: 'car-park', x: 10, y: 10, w: 20, h: 15, label: 'Car park' }, { kind: 'label', x: 80, y: 80, w: 0, h: 0, label: 'Station' }] },
+  ],
+});
+// rubrics / plan 传 null 会带出「文件缺失」警告，所以下面只看本组题目（id=t-…）相关的警告
+const validateWriting = (items) => validateIelts({ vocab: [], writing: items, speaking: [], rubrics: null, plan: null, issues: [] });
+const itemWarnings = (r) => r.warnings.filter((w) => w.includes('id=t-'));
+
+test('validateIelts：合法的流程图（含分支和回路）、循环流程图与地图不报错', () => {
+  const cycle = { ...goodProcess(), cycle: true };
+  const r = validateWriting([chartItem('t-proc', goodProcess()), chartItem('t-cycle', cycle), chartItem('t-map', goodMap())]);
+  assert.deepStrictEqual(r.errors, []);
+  assert.deepStrictEqual(itemWarnings(r), []);
+});
+
+test('validateIelts：流程图 stage id 重复、links 引用不存在的 id、label 为空', () => {
+  const p = goodProcess();
+  p.stages[4].id = 'sort'; // 与第 2 个阶段重复
+  p.stages[1].label = '  ';
+  p.links.push({ from: 'press', to: 'nowhere' });
+  p.links.push({ from: 'ghost', to: 'press' });
+  p.links.push({ from: 'pulp', to: 'pulp' });
+  p.cycle = 'yes';
+  const r = validateWriting([chartItem('t-proc-bad', p)]);
+  const has = (s) => assert.ok(r.errors.some((e) => e.includes('t-proc-bad') && e.includes(s)), `应报错：${s}\n实际：${r.errors.join('\n')}`);
+  has('stage id 重复 (sort)');
+  has('stages[1]: label 不能为空');
+  has('to 引用了不存在的 stage id (nowhere)');
+  has('from 引用了不存在的 stage id (ghost)');
+  has('from 和 to 不能是同一个阶段');
+  has('chart.cycle 必须是 true / false');
+  // 流程图不要求 categories / series
+  assert.ok(!r.errors.some((e) => e.includes('categories') || e.includes('series')), r.errors.join('\n'));
+});
+
+test('validateIelts：流程图 stages / links 为空', () => {
+  const r = validateWriting([
+    chartItem('t-proc-empty', { type: 'process', title: 'x', stages: [], links: [] }),
+    chartItem('t-proc-nolink', { ...goodProcess(), links: [] }),
+  ]);
+  assert.ok(r.errors.some((e) => e.includes('t-proc-empty') && e.includes('至少要有 2 个阶段')), r.errors.join('\n'));
+  assert.ok(r.errors.some((e) => e.includes('t-proc-nolink') && e.includes('chart.links 不能为空')), r.errors.join('\n'));
+});
+
+test('validateIelts：地图不是恰好 2 张、坐标越界、label 为空、kind 非法', () => {
+  const one = goodMap();
+  one.maps.pop();
+  const three = goodMap();
+  three.maps.push(JSON.parse(JSON.stringify(three.maps[0])));
+  const bad = goodMap();
+  bad.maps[0].features[0].x = -5;
+  bad.maps[0].features[1].w = 120;
+  bad.maps[1].features[0].label = '';
+  bad.maps[1].features[1].kind = 'tree';
+  bad.maps[1].features.push({ kind: 'park', x: 90, y: 90, w: 20, h: 5, label: 'Edge park' }); // x + w > 100
+  bad.maps[1].features.push({ kind: 'water', x: 5, y: 5, w: 0, h: 10, label: 'Pond' }); // 非 label 的地物没有面积
+  bad.maps[1].title = '';
+  const r = validateWriting([chartItem('t-map-one', one), chartItem('t-map-three', three), chartItem('t-map-bad', bad)]);
+  const has = (id, s) => assert.ok(r.errors.some((e) => e.includes(id) && e.includes(s)), `应报错：${id} ${s}\n实际：${r.errors.join('\n')}`);
+  has('t-map-one', '必须恰好 2 张（实际 1）');
+  has('t-map-three', '必须恰好 2 张（实际 3）');
+  has('t-map-bad', 'features[0]: x 必须是 0–100 的数字');
+  has('t-map-bad', 'features[1]: w 必须是 0–100 的数字');
+  has('t-map-bad', 'maps[1].features[0]: label 不能为空');
+  has('t-map-bad', 'kind 必须是');
+  has('t-map-bad', '超出地图范围');
+  has('t-map-bad', 'water 的 w、h 必须大于 0');
+  has('t-map-bad', 'maps[1]: 缺少 title');
+  // 缺 compass 只给警告
+  const noCompass = goodMap();
+  delete noCompass.compass;
+  const r2 = validateWriting([chartItem('t-map-nc', noCompass)]);
+  assert.deepStrictEqual(r2.errors, []);
+  assert.ok(itemWarnings(r2).some((w) => w.includes('compass')), r2.warnings.join('\n'));
+});
+
+test('validateIelts：未知图表类型的报错列出全部合法类型', () => {
+  const r = validateWriting([chartItem('t-type', { type: 'radar', title: 'x', categories: ['a'], series: [{ name: 's', values: [1] }] })]);
+  assert.ok(r.errors.some((e) => e.includes('bar / line / pie / table / process / map (radar)')), r.errors.join('\n'));
+});
+
 if (failed) {
   console.error(`\ntest-ielts：${failed} 项未通过，${passed} 项通过`);
   process.exit(1);

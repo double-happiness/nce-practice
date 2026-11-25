@@ -294,7 +294,8 @@ function validate() {
 const IELTS_TOPICS = new Set(['academic', 'education', 'environment', 'technology', 'health', 'work', 'crime', 'media', 'urban', 'globalization', 'government', 'culture', 'science']);
 const IELTS_CEFRS = new Set(['B1', 'B2', 'C1', 'C2']);
 const IELTS_QTYPES = new Set(['opinion', 'discussion', 'problem-solution', 'adv-disadv', 'two-part']);
-const IELTS_CHART_TYPES = new Set(['bar', 'line', 'pie', 'table']);
+const IELTS_CHART_TYPES = new Set(['bar', 'line', 'pie', 'table', 'process', 'map']);
+const IELTS_MAP_KINDS = new Set(['building', 'road', 'park', 'water', 'car-park', 'label']);
 const IELTS_TONES = new Set(['formal', 'semi-formal', 'informal']);
 const IELTS_CATEGORIES = new Set(['person', 'place', 'object', 'event', 'experience', 'media']);
 const IELTS_PLAN_TABS = new Set(['home', 'learn', 'practice', 'dictionary', 'dictation', 'exam', 'transform', 'dialogue', 'review', 'vocab', 'words', 'globalvocab', 'comprehension', 'stats', 'plan', 'level', 'ielts', 'ielts:plan', 'ielts:vocab', 'ielts:writing', 'ielts:speaking', 'ielts:history']);
@@ -393,8 +394,17 @@ function validateIelts(content) {
         errors.push(`${where}: 缺少 chart`);
         return;
       }
-      if (!IELTS_CHART_TYPES.has(c.type)) errors.push(`${where}: chart.type 必须是 bar / line / pie / table (${c.type})`);
+      if (!IELTS_CHART_TYPES.has(c.type)) errors.push(`${where}: chart.type 必须是 ${[...IELTS_CHART_TYPES].join(' / ')} (${c.type})`);
       if (!isNonEmptyStr(c.title)) warnings.push(`${where}: chart 缺少 title`);
+      // 流程图和地图没有 categories / series，各走自己的结构校验
+      if (c.type === 'process') {
+        validateIeltsProcessChart(c, where, errors, warnings);
+        return;
+      }
+      if (c.type === 'map') {
+        validateIeltsMapChart(c, where, errors, warnings);
+        return;
+      }
       if (!Array.isArray(c.categories) || !c.categories.length) {
         errors.push(`${where}: chart.categories 不能为空`);
         return;
@@ -495,6 +505,101 @@ function validateIelts(content) {
   else if (hasContent || r) warnings.push('ielts/plan.json: 文件缺失，/api/ielts/plan 将不可用');
 
   return { errors, warnings };
+}
+
+/**
+ * 流程图 chart：{ type: 'process', title, cycle?: boolean, stages: [{ id, label, note? }], links: [{ from, to, label? }] }
+ * 规则：stage id 唯一、label 非空；links 的 from / to 必须引用已有 stage，不能自连、不能重复；cycle 时至少 3 个阶段。
+ */
+function validateIeltsProcessChart(c, where, errors, warnings) {
+  if (c.cycle != null && typeof c.cycle !== 'boolean') errors.push(`${where}: chart.cycle 必须是 true / false`);
+  if (!Array.isArray(c.stages) || c.stages.length < 2) {
+    errors.push(`${where}: chart.stages 至少要有 2 个阶段`);
+    return;
+  }
+  if (c.cycle === true && c.stages.length < 3) errors.push(`${where}: cycle 流程至少要有 3 个阶段`);
+  const ids = new Set();
+  c.stages.forEach((s, j) => {
+    const sw = `${where}.chart.stages[${j}]`;
+    if (!s || typeof s !== 'object' || Array.isArray(s)) {
+      errors.push(`${sw}: 必须是对象`);
+      return;
+    }
+    if (!isNonEmptyStr(s.id)) errors.push(`${sw}: 缺少 id`);
+    else if (ids.has(s.id)) errors.push(`${sw}: stage id 重复 (${s.id})`);
+    else ids.add(s.id);
+    if (!isNonEmptyStr(s.label)) errors.push(`${sw}: label 不能为空`);
+    if (s.note != null && !isNonEmptyStr(s.note)) errors.push(`${sw}: note 必须是非空字符串`);
+  });
+  if (!Array.isArray(c.links) || !c.links.length) {
+    errors.push(`${where}: chart.links 不能为空`);
+    return;
+  }
+  const linked = new Set();
+  const pairs = new Set();
+  c.links.forEach((l, j) => {
+    const lw = `${where}.chart.links[${j}]`;
+    if (!l || typeof l !== 'object' || Array.isArray(l)) {
+      errors.push(`${lw}: 必须是对象`);
+      return;
+    }
+    for (const end of ['from', 'to']) {
+      if (!isNonEmptyStr(l[end])) errors.push(`${lw}: 缺少 ${end}`);
+      else if (!ids.has(l[end])) errors.push(`${lw}: ${end} 引用了不存在的 stage id (${l[end]})`);
+      else linked.add(l[end]);
+    }
+    if (isNonEmptyStr(l.from) && l.from === l.to) errors.push(`${lw}: from 和 to 不能是同一个阶段`);
+    const key = `${l.from}\u0000${l.to}`;
+    if (pairs.has(key)) errors.push(`${lw}: 连线重复 (${l.from} → ${l.to})`);
+    pairs.add(key);
+    if (l.label != null && !isNonEmptyStr(l.label)) errors.push(`${lw}: label 必须是非空字符串`);
+  });
+  ids.forEach((id) => {
+    if (!linked.has(id)) warnings.push(`${where}: stage ${id} 没有任何连线`);
+  });
+}
+
+/**
+ * 地图 chart：{ type: 'map', title, compass?: boolean, maps: [{ title, features: [{ kind, x, y, w, h, label }] }] }
+ * 规则：maps 恰好 2 张且各有 title；kind 合法；x / y / w / h 都是 0–100 的数字，且 x + w、y + h 不超过 100；
+ * 除 label（纯文字标注，可 w = h = 0）外 w、h 必须大于 0；label 非空。
+ */
+function validateIeltsMapChart(c, where, errors, warnings) {
+  if (c.compass != null && typeof c.compass !== 'boolean') errors.push(`${where}: chart.compass 必须是 true / false`);
+  else if (c.compass !== true) warnings.push(`${where}: 地图建议带 compass: true（方位标）`);
+  if (!Array.isArray(c.maps)) {
+    errors.push(`${where}: chart.maps 必须是数组，且恰好 2 张`);
+    return;
+  }
+  if (c.maps.length !== 2) errors.push(`${where}: chart.maps 必须恰好 2 张（实际 ${c.maps.length}）`);
+  c.maps.forEach((m, j) => {
+    const mw = `${where}.chart.maps[${j}]`;
+    if (!m || typeof m !== 'object' || Array.isArray(m)) {
+      errors.push(`${mw}: 必须是对象`);
+      return;
+    }
+    if (!isNonEmptyStr(m.title)) errors.push(`${mw}: 缺少 title`);
+    if (!Array.isArray(m.features) || !m.features.length) {
+      errors.push(`${mw}: features 不能为空`);
+      return;
+    }
+    m.features.forEach((f, k) => {
+      const fw = `${mw}.features[${k}]`;
+      if (!f || typeof f !== 'object' || Array.isArray(f)) {
+        errors.push(`${fw}: 必须是对象`);
+        return;
+      }
+      if (!IELTS_MAP_KINDS.has(f.kind)) errors.push(`${fw}: kind 必须是 ${[...IELTS_MAP_KINDS].join(' / ')} (${f.kind})`);
+      if (!isNonEmptyStr(f.label)) errors.push(`${fw}: label 不能为空`);
+      const bad = ['x', 'y', 'w', 'h'].filter((p) => typeof f[p] !== 'number' || !Number.isFinite(f[p]) || f[p] < 0 || f[p] > 100);
+      if (bad.length) {
+        errors.push(`${fw}: ${bad.join(' / ')} 必须是 0–100 的数字`);
+        return;
+      }
+      if (f.x + f.w > 100 || f.y + f.h > 100) errors.push(`${fw}: 超出地图范围（x + w、y + h 不能大于 100）`);
+      if (f.kind !== 'label' && (f.w <= 0 || f.h <= 0)) errors.push(`${fw}: ${f.kind} 的 w、h 必须大于 0`);
+    });
+  });
 }
 
 function validateIeltsPlan(plan, errors, warnings) {
