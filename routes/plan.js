@@ -25,6 +25,7 @@ const SOURCE_LABEL = {
   'ielts-reading': '雅思阅读',
   'ielts-listening': '雅思听力',
   'ielts-knowledge': '雅思基础',
+  'ielts-mock': '雅思模考',
   'ielts-vocab': '雅思词汇诊断',
 };
 
