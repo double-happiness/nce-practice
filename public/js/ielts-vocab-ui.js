@@ -1,7 +1,8 @@
 'use strict';
-// 雅思备考 · 词汇子页：按话题 / CEFR 浏览（显示掌握度）、卡片背诵、拼写、雅思词汇诊断。
+// 雅思备考 · 词汇子页：按话题 / CEFR 浏览（显示掌握度）、卡片背诵、拼写、搭配练习、雅思词汇诊断。
 // 背诵复用 POST /api/words/rate（带 word/cn/eg/pos/phon，由后端存入 extras，掌握度与间隔复习共用），
 // 拼写复用 POST /api/words/spell；诊断走 GET/POST /api/ielts/vocab-check（D2：不影响「总词汇量」成绩）。
+// 搭配练习每答一题也调 /api/words/rate（对 known、错 unknown），掌握度、间隔复习与今日「记」沿用同一套逻辑。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -19,6 +20,9 @@
   const LV_NAME = ['未学', '学习中', '熟悉', '已掌握'];
   const PAGE_SIZE = 50;
   const POOL_SIZE = 20;
+  const DRILL_SIZE = 10; // 搭配练习每轮题数
+  const SCOPE_PAGE = 500; // /api/ielts/vocab 单次 limit 上限
+  const SCOPE_MAX = 3000; // 练习范围分页拉取的兜底上限
 
   const style = document.createElement('style');
   style.textContent = `
@@ -85,11 +89,28 @@
     .iev-wrong .w{font-weight:700;color:var(--ink)}
     .iev-wrong .a{color:var(--ok)}
     .iev-wrong .c{color:var(--muted);font-size:12.5px}
+    .iev-drill-head{display:flex;justify-content:space-between;gap:4px 10px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:8px}
+    .iev-drill-q{font-size:22px;font-weight:700;color:var(--ink);line-height:1.5;text-align:center;margin:10px 0 6px;overflow-wrap:anywhere}
+    .iev-drill-hint{font-size:14px;color:var(--ink-soft);line-height:1.6;text-align:center;margin-bottom:14px;overflow-wrap:anywhere}
+    .iev-drill-hint .m{display:block;font-size:12.5px;color:var(--muted)}
+    .iev-blank{color:var(--brand);font-weight:700;white-space:nowrap}
+    .iev-hl{color:var(--brand);font-weight:700}
+    .iev-drill-row{display:flex;gap:8px;flex-wrap:wrap}
+    .iev-drill-input{flex:1 1 180px;min-width:0;font-size:17px;padding:11px 12px}
+    .iev-opt:disabled{cursor:default}
+    .iev-opt.ok{border-color:var(--ok);color:var(--ok);background:rgba(22,163,74,.08)}
+    .iev-opt.bad{border-color:var(--bad);color:var(--bad);background:rgba(220,38,38,.06)}
+    .iev-drill-fb{margin-top:14px;padding:12px 14px;border:1px dashed var(--border);border-radius:var(--radius-sm);font-size:14px;color:var(--ink-soft);line-height:1.75;overflow-wrap:anywhere}
+    .iev-drill-fb .r{font-size:15px;font-weight:700}
+    .iev-drill-fb .r.ok{color:var(--ok)}
+    .iev-drill-fb .r.bad{color:var(--bad)}
+    .iev-drill-fb .cn2{color:var(--muted)}
+    .iev-drill-fb .btn{margin-top:10px}
   `;
   document.head.appendChild(style);
 
   const st = {
-    mode: 'browse', // browse | flash | spell | check
+    mode: 'browse', // browse | flash | spell | check | DRILLS 里的练习模式（colloc）
     topic: '',
     cefr: '',
     q: '',
@@ -100,6 +121,8 @@
     flash: { words: [], idx: 0, flipped: false, rated: 0, busy: false },
     spell: { pool: [], cur: null, right: 0, wrong: 0, unsynced: 0, timer: null, warned: false },
     check: { quiz: null, idx: 0, answers: [], result: null },
+    // 练习引擎（搭配练习等）：每轮换一个新对象，异步回调用对象身份判断是否还是当前这一轮
+    drill: { mode: '', scope: [], questions: [], idx: 0, right: 0, wrong: [], retry: false, unsynced: 0, warned: false, finished: false },
   };
   let root = null;
   let ctx = null;
@@ -164,6 +187,7 @@
       '<button type="button" class="btn small" data-m="browse">📚 浏览</button>' +
       '<button type="button" class="btn small" data-m="flash">🃏 背诵</button>' +
       '<button type="button" class="btn small" data-m="spell">✍️ 拼写</button>' +
+      '<button type="button" class="btn small" data-m="colloc">🔗 搭配练习</button>' +
       '<button type="button" class="btn small" data-m="check">🩺 词汇诊断</button>' +
       '</div>' +
       '<div class="iev-filters"></div>' +
@@ -175,15 +199,17 @@
     switchMode(st.mode);
   }
 
-  function switchMode(mode) {
+  // flashWords：切到背诵时直接背这组词（练习错词「去背诵」入口），不传则按筛选抽词
+  function switchMode(mode, flashWords) {
     if (!root) return;
     clearSpellTimer();
     st.mode = mode;
     root.querySelectorAll('.iev-modes [data-m]').forEach((b) => b.classList.toggle('primary', b.dataset.m === mode));
     root.querySelector('.iev-filters').classList.toggle('hidden', mode === 'check');
     const box = root.querySelector('.iev-body');
-    if (mode === 'flash') startFlash(box);
+    if (mode === 'flash') startFlash(box, flashWords);
     else if (mode === 'spell') startSpell(box);
+    else if (Object.prototype.hasOwnProperty.call(DRILLS, mode)) startDrill(box, mode);
     else if (mode === 'check') renderCheckIntro(box);
     else loadList(true);
   }
@@ -361,8 +387,14 @@
   }
 
   // ---------- 背诵 ----------
-  async function startFlash(box) {
-    const words = await loadPool(box);
+  async function startFlash(box, preset) {
+    let words;
+    if (Array.isArray(preset) && preset.length) {
+      st.listSeq++; // 作废还在路上的抽词请求
+      words = preset.slice();
+    } else {
+      words = await loadPool(box);
+    }
     if (!words || st.mode !== 'flash') return;
     if (!words.length) {
       box.innerHTML = emptyPoolHtml();
@@ -539,6 +571,445 @@
       fb.textContent = '';
       nextSpell(box);
     }, r.correct ? 900 : 1600);
+  }
+
+  // ---------- 挖空匹配：在搭配 / 例句里找目标词（含屈折形式）----------
+  // 规则屈折按词性生成，宁可多生成（commit→commited 这类不存在的拼写不会在文本里出现），不规则形式查表
+  const IRREGULAR_VERB = {
+    be: ['am', 'is', 'are', 'was', 'were', 'been', 'being'], have: ['has', 'had', 'having'], do: ['does', 'did', 'done', 'doing'],
+    arise: ['arose', 'arisen'], become: ['became'], begin: ['began', 'begun'], break: ['broke', 'broken'], bring: ['brought'],
+    build: ['built'], buy: ['bought'], catch: ['caught'], choose: ['chose', 'chosen'], come: ['came'], deal: ['dealt'],
+    draw: ['drew', 'drawn'], drive: ['drove', 'driven'], fall: ['fell', 'fallen'], feel: ['felt'], find: ['found'],
+    get: ['got', 'gotten'], give: ['gave', 'given'], go: ['went', 'gone'], grow: ['grew', 'grown'], hold: ['held'],
+    keep: ['kept'], know: ['knew', 'known'], lead: ['led'], leave: ['left'], lose: ['lost'], make: ['made'], mean: ['meant'],
+    meet: ['met'], overcome: ['overcame'], pay: ['paid'], prove: ['proven'], rise: ['rose', 'risen'], run: ['ran'],
+    say: ['said'], see: ['saw', 'seen'], seek: ['sought'], sell: ['sold'], send: ['sent'], speak: ['spoke', 'spoken'],
+    spend: ['spent'], stand: ['stood'], take: ['took', 'taken'], teach: ['taught'], tell: ['told'], think: ['thought'],
+    throw: ['threw', 'thrown'], undergo: ['underwent', 'undergone'], understand: ['understood'],
+    undertake: ['undertook', 'undertaken'], win: ['won'], withdraw: ['withdrew', 'withdrawn'], write: ['wrote', 'written'],
+  };
+  const IRREGULAR_NOUN = {
+    analysis: ['analyses'], basis: ['bases'], child: ['children'], crisis: ['crises'], criterion: ['criteria'],
+    hypothesis: ['hypotheses'], man: ['men'], medium: ['media'], person: ['people'], phenomenon: ['phenomena'],
+    thesis: ['theses'], woman: ['women'],
+  };
+  // 词内字符：字母、数字、连字符。目标词前后紧挨这些字符就不算命中（start 里的 art、single-use 里的 use 都不挖）
+  const WORD_CHARS = 'A-Za-z0-9\\u00C0-\\u024F';
+
+  function normAnswer(s) {
+    return String(s == null ? '' : s).trim().toLowerCase().replace(/[’‘]/g, "'").replace(/\s+/g, ' ');
+  }
+  // 末尾「辅元辅」（末辅音不是 w/x/y）时可能双写：commit→committed、big→bigger
+  function doubledStem(w) {
+    return /[^aeiou][aeiou][b-df-hj-np-tvz]$/.test(w) ? w + w.slice(-1) : null;
+  }
+  function pluralForms(w) {
+    const out = [w + 's'];
+    if (/(s|x|z|ch|sh|o)$/.test(w)) out.push(w + 'es');
+    if (/[^aeiou]y$/.test(w)) out.push(w.slice(0, -1) + 'ies');
+    if (/fe$/.test(w)) out.push(w.slice(0, -2) + 'ves');
+    else if (/f$/.test(w)) out.push(w.slice(0, -1) + 'ves');
+    return out.concat(IRREGULAR_NOUN[w] || []);
+  }
+  function verbForms(w) {
+    const out = pluralForms(w); // 三单与名词复数同规则
+    if (/e$/.test(w)) out.push(w + 'd');
+    else if (/[^aeiou]y$/.test(w)) out.push(w.slice(0, -1) + 'ied');
+    else out.push(w + 'ed');
+    if (/ie$/.test(w)) out.push(w.slice(0, -2) + 'ying');
+    else if (/[^eoy]e$/.test(w)) out.push(w.slice(0, -1) + 'ing');
+    out.push(w + 'ing');
+    const d = doubledStem(w);
+    if (d) out.push(d + 'ed', d + 'ing');
+    return out.concat(IRREGULAR_VERB[w] || []);
+  }
+  function adjForms(w) {
+    const out = [];
+    if (/e$/.test(w)) out.push(w + 'r', w + 'st');
+    else if (/[^aeiou]y$/.test(w)) out.push(w.slice(0, -1) + 'ier', w.slice(0, -1) + 'iest');
+    else out.push(w + 'er', w + 'est');
+    const d = doubledStem(w);
+    if (d) out.push(d + 'er', d + 'est');
+    return out;
+  }
+  // 目标词的全部候选形式（小写，长的在前）
+  function wordForms(word, pos) {
+    const base = normAnswer(word);
+    if (!base) return [];
+    const p = String(pos || '');
+    const forms = new Set([base]);
+    const parts = base.split(' ');
+    if (parts.length === 1) {
+      if (/adj/.test(p)) adjForms(base).forEach((f) => forms.add(f));
+      // 名词 / 动词 / 短语 / 未标词性：复数与动词屈折都试（词表里不少名词在例句里作动词用）
+      else if (!/adv|conj|prep/.test(p)) verbForms(base).forEach((f) => forms.add(f));
+    } else {
+      const rest = parts.slice(1).join(' ');
+      const head = parts.slice(0, -1).join(' ');
+      // 动词短语变首词（drop out → dropped out），名词短语变末词（fossil fuel → fossil fuels）
+      if (!p || /(^|[^a-z])v\.|phr/.test(p)) verbForms(parts[0]).forEach((f) => forms.add(f + ' ' + rest));
+      if (!/adv|conj|prep/.test(p)) pluralForms(parts[parts.length - 1]).forEach((f) => forms.add(head + ' ' + f));
+    }
+    return [...forms].sort((a, b) => b.length - a.length);
+  }
+  function escRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  // 按词边界找目标词在 text 里的所有出现，返回 [{ start, text }]（text 为原文里的实际写法）
+  function findBlanks(text, word, pos) {
+    const src = typeof text === 'string' ? text : '';
+    const forms = wordForms(word, pos);
+    if (!src || !forms.length) return [];
+    const alt = forms.map((f) => escRegExp(f).replace(/ /g, '\\s+')).join('|');
+    const re = new RegExp(`(^|[^${WORD_CHARS}-])(${alt})(?![${WORD_CHARS}-])`, 'gi');
+    const out = [];
+    let m;
+    while ((m = re.exec(src))) out.push({ start: m.index + m[1].length, text: m[2] });
+    return out;
+  }
+  // 按命中位置把文本切成段：{ text, blank }
+  function splitBlanks(text, blanks) {
+    const segs = [];
+    let at = 0;
+    for (const b of blanks) {
+      if (b.start > at) segs.push({ text: text.slice(at, b.start), blank: false });
+      segs.push({ text: b.text, blank: true });
+      at = b.start + b.text.length;
+    }
+    if (at < text.length) segs.push({ text: text.slice(at), blank: false });
+    return segs;
+  }
+  // reveal=false 显示空格，true 高亮原词
+  function segsHtml(segs, reveal) {
+    return segs.map((s) => {
+      if (!s.blank) return esc(s.text);
+      return reveal ? `<span class="iev-hl">${esc(s.text)}</span>` : '<span class="iev-blank">____</span>';
+    }).join('');
+  }
+  function highlightHtml(text, w) {
+    return segsHtml(splitBlanks(text, findBlanks(text, w.word, w.pos)), true);
+  }
+  // 题目对象的公共部分：判分接受原形 + 文本里实际出现的形式
+  function blankQuestion(w, mode, source, blanks) {
+    const forms = blanks.map((b) => b.text);
+    return {
+      w,
+      mode,
+      source,
+      segs: splitBlanks(source, blanks),
+      form: forms[0],
+      answers: [...new Set([normAnswer(w.word)].concat(forms.map(normAnswer)))],
+      alts: [], // 额外算对的同释义词（只有搭配练习用）
+      type: 'input',
+      options: null,
+      done: false,
+    };
+  }
+
+  // ---------- 搭配练习 ----------
+  // 四选一干扰项：同词性的其他词；跳过填进空里恰好构成它自己搭配的词，以及本身就是正确答案某种形式的词
+  function collocOptions(q, scope) {
+    const key = normAnswer(q.w.word);
+    const pos = String(q.w.pos || '');
+    const used = new Set([key]);
+    const picks = [];
+    for (const d of shuffle(scope)) {
+      if (picks.length >= 3) break;
+      const dk = normAnswer(d && d.word);
+      if (!dk || used.has(dk) || q.answers.includes(dk) || String(d.pos || '') !== pos) continue;
+      const filled = normAnswer(q.segs.map((s) => (s.blank ? d.word : s.text)).join(''));
+      if ((Array.isArray(d.collocations) ? d.collocations : []).some((c) => normAnswer(c) === filled)) continue;
+      used.add(dk);
+      picks.push(d.word);
+    }
+    return picks.length === 3 ? shuffle([q.w.word].concat(picks)) : null;
+  }
+
+  function sameMeaningWords(w, scope) {
+    const cn = String(w.cn || '').trim();
+    const key = normAnswer(w.word);
+    if (!cn) return [];
+    return scope
+      .filter((d) => d && d.word && String(d.cn || '').trim() === cn && normAnswer(d.word) !== key)
+      .map((d) => normAnswer(d.word));
+  }
+
+  // order 为本轮题号：偶数题四选一、奇数题输入；同词性干扰项凑不够 3 个时退回输入
+  function buildCollocQuestion(w, order, scope) {
+    const cols = (Array.isArray(w.collocations) ? w.collocations : []).filter((c) => typeof c === 'string' && c.trim());
+    for (const c of shuffle(cols)) {
+      const blanks = findBlanks(c, w.word, w.pos);
+      if (!blanks.length) continue;
+      const q = blankQuestion(w, 'colloc', c, blanks);
+      // 挖完只剩空格的搭配（搭配就是词本身）出不了题
+      if (!q.segs.some((s) => !s.blank && /[A-Za-z]/.test(s.text))) continue;
+      // 提示是中文释义：释义完全相同的词（moreover / furthermore）填进来也算对，也不拿来当干扰项
+      q.alts = sameMeaningWords(w, scope);
+      q.answers = [...new Set(q.answers.concat(q.alts))];
+      if (order % 2 === 0) {
+        const opts = collocOptions(q, scope);
+        if (opts) {
+          q.type = 'choice';
+          q.options = opts;
+        }
+      }
+      return q;
+    }
+    return null;
+  }
+
+  function collocPromptHtml(q) {
+    const w = q.w;
+    const baseNote = q.type === 'choice' && normAnswer(q.form) !== normAnswer(w.word) ? ' · 选项为原形' : '';
+    return (
+      `<div class="iev-drill-q">${segsHtml(q.segs, false)}</div>` +
+      `<div class="iev-drill-hint">提示：${esc(w.cn || '')}` +
+      `<span class="m">${esc([w.pos, w.cefr, topicLabel(w.topic)].filter(Boolean).join(' · '))}${baseNote}</span></div>`
+    );
+  }
+
+  function collocRevealHtml(q) {
+    const w = q.w;
+    return (
+      `<div>搭配：${segsHtml(q.segs, true)} ${spk(q.source)}</div>` +
+      (w.eg ? `<div>${highlightHtml(w.eg, w)} ${spk(w.eg)}</div>` : '') +
+      (w.egCn ? `<div class="cn2">${esc(w.egCn)}</div>` : '')
+    );
+  }
+
+  // ---------- 练习引擎（搭配练习等共用）----------
+  // 每种练习只提供：出题 build(w, order, scope)、题面 prompt(q)、答后展示 reveal(q)、无题可出时的提示
+  const DRILLS = {
+    colloc: {
+      name: '🔗 搭配练习',
+      inputHint: '填入空缺的单词，回车提交',
+      empty: '当前范围里没有能出搭配题的词。换个话题、级别或关键词试试。',
+      build: buildCollocQuestion,
+      prompt: collocPromptHtml,
+      reveal: collocRevealHtml,
+    },
+  };
+
+  // 练习范围：按当前筛选（话题 / CEFR / 关键词）分页取全，抽题和四选一干扰项都从这里取
+  async function loadDrillScope(box, mode) {
+    box.innerHTML = '<div class="ie-loading">正在组题…</div>';
+    const seq = ++st.listSeq;
+    const items = [];
+    try {
+      for (;;) {
+        const r = await IE.get(listUrl(SCOPE_PAGE, items.length));
+        if (seq !== st.listSeq || !alive() || st.mode !== mode) return null;
+        if (!items.length && Array.isArray(r.topics) && r.topics.length) {
+          st.topics = r.topics;
+          refreshTopicOptions();
+        }
+        const page = Array.isArray(r.items) ? r.items : [];
+        items.push(...page);
+        if (!page.length || items.length >= (Number(r.total) || 0) || items.length >= SCOPE_MAX) break;
+      }
+    } catch (e) {
+      if (seq === st.listSeq && alive() && st.mode === mode) {
+        box.innerHTML = IE.errorHtml('雅思词汇加载失败', e);
+        IE.bindRetry(box, () => switchMode(mode));
+      }
+      return null;
+    }
+    return items.filter((w) => w && w.word);
+  }
+
+  // retryWords：再练一轮错词时传入，沿用上一轮的范围做干扰项；不传则按筛选重新抽词
+  async function startDrill(box, mode, retryWords) {
+    const def = DRILLS[mode];
+    const retry = Array.isArray(retryWords) && retryWords.length > 0;
+    let scope;
+    let words;
+    if (retry) {
+      scope = st.drill.scope;
+      words = retryWords.slice();
+    } else {
+      scope = await loadDrillScope(box, mode);
+      if (!scope || st.mode !== mode) return;
+      // 优先没掌握的词，不够再补已掌握的
+      words = shuffle(scope.filter((w) => levelOf(w) < 3)).concat(shuffle(scope.filter((w) => levelOf(w) === 3)));
+    }
+    const questions = [];
+    for (const w of words) {
+      if (questions.length >= DRILL_SIZE) break;
+      const q = def.build(w, questions.length, scope);
+      if (q) questions.push(q);
+    }
+    if (!questions.length) {
+      box.innerHTML = `<div class="ie-empty">${esc(def.empty)}</div>`;
+      return;
+    }
+    st.drill = { mode, scope, questions, idx: 0, right: 0, wrong: [], retry, unsynced: 0, warned: false, finished: false };
+    paintDrill(box);
+  }
+
+  function paintDrill(box) {
+    const d = st.drill;
+    const def = DRILLS[d.mode];
+    const q = d.questions[d.idx];
+    const isChoice = q.type === 'choice';
+    box.innerHTML =
+      '<div class="ie-card">' +
+      '<div class="iev-drill-head">' +
+      `<span>${esc(def.name)}${d.retry ? ' · 错词重练' : ''} · 第 ${d.idx + 1} / ${d.questions.length} 题</span>` +
+      `<span>${isChoice ? '四选一' : '填空'} · 对 ${d.right} · 错 ${d.wrong.length}</span>` +
+      '</div>' +
+      def.prompt(q) +
+      (isChoice
+        ? '<div class="iev-opts">' +
+          q.options.map((o, i) => `<button type="button" class="iev-opt" data-i="${i}"><span class="k">${'ABCD'.charAt(i)}.</span>${esc(o)}</button>`).join('') +
+          '</div>'
+        : '<div class="iev-drill-row">' +
+          `<input type="text" class="ie-input iev-drill-input" placeholder="${escAttr(def.inputHint)}" maxlength="60" autocomplete="off" autocapitalize="off" spellcheck="false">` +
+          '<button type="button" class="btn primary iev-drill-submit">提交</button>' +
+          '<button type="button" class="btn iev-drill-skip">🤷 不会</button>' +
+          '</div>') +
+      '<div class="iev-drill-fb hidden"></div>' +
+      '</div>';
+    bindSpk(box);
+    if (isChoice) {
+      box.querySelectorAll('.iev-opt').forEach((b) => {
+        b.onclick = () => answerDrill(box, q.options[Number(b.dataset.i)], b);
+      });
+      return;
+    }
+    const input = box.querySelector('.iev-drill-input');
+    const submit = () => {
+      if (input.value.trim()) answerDrill(box, input.value, null);
+    };
+    input.onkeydown = (e) => {
+      if (e.key !== 'Enter' || e.isComposing) return;
+      // 阻止默认行为：否则焦点移到「下一题」后，同一次回车会直接触发它
+      e.preventDefault();
+      submit();
+    };
+    box.querySelector('.iev-drill-submit').onclick = submit;
+    box.querySelector('.iev-drill-skip').onclick = () => answerDrill(box, '', null);
+    input.focus();
+  }
+
+  function unsyncedText(d) {
+    return d.unsynced ? `有 ${d.unsynced} 题的结果没能保存，未计入掌握度。` : '';
+  }
+
+  // 每答一题记一次掌握度：答对 known、答错 unknown。失败不打断练习，只累计未同步题数；
+  // 不等请求落地就能进下一题 / 看结果，迟到的失败若结果页还在就原地更新提示
+  function rateDrill(d, w, correct) {
+    IE.post(
+      '/api/words/rate',
+      { word: w.word, rating: correct ? 'known' : 'unknown', cn: w.cn, eg: w.eg, pos: w.pos, phon: w.phon },
+      { quiet: true }
+    ).then(
+      (r) => {
+        if (r && Number.isInteger(r.level)) w.level = r.level;
+      },
+      (e) => {
+        d.unsynced++;
+        if (!alive() || st.drill !== d || st.mode !== d.mode) return;
+        if (!d.warned) {
+          d.warned = true;
+          NCE.toast('练习结果没能保存（' + e.message + '），本轮继续练习但不计入掌握度', 'warn');
+        }
+        const note = d.finished && root && root.querySelector('.iev-drill-unsynced');
+        if (note) {
+          note.textContent = unsyncedText(d);
+          note.classList.remove('hidden');
+        }
+      }
+    );
+  }
+
+  function answerDrill(box, given, optBtn) {
+    const d = st.drill;
+    const def = DRILLS[d.mode];
+    const q = d.questions[d.idx];
+    if (!q || q.done) return;
+    q.done = true;
+    const guess = normAnswer(given);
+    const correct = !!guess && q.answers.includes(guess);
+    if (correct) d.right++;
+    else d.wrong.push({ q, given: String(given || '').trim() });
+    rateDrill(d, q.w, correct);
+
+    box.querySelectorAll('.iev-opt').forEach((b) => {
+      b.disabled = true;
+      if (normAnswer(q.options[Number(b.dataset.i)]) === normAnswer(q.w.word)) b.classList.add('ok');
+      else if (b === optBtn) b.classList.add('bad');
+    });
+    box.querySelectorAll('.iev-drill-row input, .iev-drill-row button').forEach((el) => {
+      el.disabled = true;
+    });
+    const head = box.querySelector('.iev-drill-head span:last-child');
+    if (head) head.textContent = `${q.type === 'choice' ? '四选一' : '填空'} · 对 ${d.right} · 错 ${d.wrong.length}`;
+
+    const w = q.w;
+    const last = d.idx >= d.questions.length - 1;
+    const baseNote = normAnswer(q.form) !== normAnswer(w.word) ? `（原形 ${esc(w.word)}）` : '';
+    const viaAlt = correct && Array.isArray(q.alts) && q.alts.includes(guess);
+    const fb = box.querySelector('.iev-drill-fb');
+    fb.innerHTML =
+      (correct
+        ? `<div class="r ok">✓ 正确！${viaAlt ? `${esc(String(given).trim())} 与 ${esc(w.word)} 释义相同，也算对` : ''}</div>`
+        : `<div class="r bad">✗ ${guess ? '你的答案：' + esc(String(given).trim()) : '没答出来'}</div>`) +
+      `<div>正确答案：<b class="iev-hl">${esc(q.form)}</b>${baseNote} ${spk(w.word)}` +
+      ` <span class="cn2">${esc([w.phon, w.pos, w.cn].filter(Boolean).join(' · '))}</span></div>` +
+      def.reveal(q) +
+      `<button type="button" class="btn primary small iev-next">${last ? '查看本轮结果' : '下一题 →'}</button>`;
+    fb.classList.remove('hidden');
+    bindSpk(fb);
+    const next = fb.querySelector('.iev-next');
+    next.onclick = () => {
+      if (st.drill !== d) return;
+      if (!last) {
+        d.idx++;
+        paintDrill(box);
+        return;
+      }
+      d.finished = true;
+      paintDrillResult(box, d);
+    };
+    next.focus();
+  }
+
+  function paintDrillResult(box, d) {
+    const def = DRILLS[d.mode];
+    const total = d.questions.length;
+    const pct = total ? Math.round((d.right / total) * 100) : 0;
+    const wrongWords = d.wrong.map((x) => x.q.w);
+    const wrongHtml = d.wrong.length
+      ? '<h3 style="margin-top:16px">错词清单</h3><ul class="iev-wrong">' +
+        d.wrong.map((x) => {
+          const w = x.q.w;
+          return (
+            `<li><span class="w">${esc(w.word)}</span>${spk(w.word)}<span class="a">${esc(w.cn || '')}</span>` +
+            `<span class="c">${segsHtml(x.q.segs, true)} · 你答：${x.given ? esc(x.given) : '不会'}</span></li>`
+          );
+        }).join('') +
+        '</ul>'
+      : '<div class="ie-empty" style="padding:10px 0">全部答对 🎉</div>';
+    box.innerHTML =
+      '<div class="ie-card">' +
+      `<div class="iev-big">${pct}%</div>` +
+      `<div class="iev-big-sub">${esc(def.name)}${d.retry ? ' · 错词重练' : ''} · 答对 ${d.right} / ${total}</div>` +
+      `<div class="ie-muted iev-drill-unsynced${d.unsynced ? '' : ' hidden'}">${esc(unsyncedText(d))}</div>` +
+      wrongHtml +
+      '<div class="ie-row" style="margin-top:16px">' +
+      (d.wrong.length
+        ? `<button type="button" class="btn primary iev-retry-wrong">🔁 再练一轮错词（${d.wrong.length}）</button>` +
+          '<button type="button" class="btn iev-flash-wrong">🃏 去背诵错词</button>'
+        : '') +
+      `<button type="button" class="btn${d.wrong.length ? '' : ' primary'} iev-drill-again">再来一组</button>` +
+      '</div>' +
+      '</div>';
+    bindSpk(box);
+    box.querySelector('.iev-drill-again').onclick = () => startDrill(box, d.mode);
+    const retryBtn = box.querySelector('.iev-retry-wrong');
+    if (retryBtn) retryBtn.onclick = () => startDrill(box, d.mode, wrongWords);
+    const flashBtn = box.querySelector('.iev-flash-wrong');
+    if (flashBtn) flashBtn.onclick = () => switchMode('flash', wrongWords);
   }
 
   // ---------- 雅思词汇诊断 ----------
