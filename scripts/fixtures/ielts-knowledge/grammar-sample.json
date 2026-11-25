@@ -1,0 +1,111 @@
+[
+  {
+    "id": "gr-sample-past-simple",
+    "domain": "grammar",
+    "track": "core",
+    "title": "一般过去时（测试样例）",
+    "titleEn": "Past simple (sample)",
+    "level": "A2",
+    "skills": ["writing", "speaking"],
+    "order": 10,
+    "minutes": 12,
+    "summary": "能用一般过去时讲清楚一件已经结束的事，口语 Part 2 讲经历时不再漏掉 -ed。",
+    "sections": [
+      {
+        "heading": "什么时候用",
+        "body": "动作**在过去某个时间点已经结束**，而且和现在没有直接联系时，用一般过去时。\n\n常和 yesterday、last week、in 2019、two days ago 这类时间词一起出现。",
+        "examples": [
+          { "en": "I visited my grandparents last weekend.", "cn": "我上周末去看了祖父母。", "note": "last weekend 是明确的过去时间" },
+          { "en": "She moved to Leeds in 2019.", "cn": "她 2019 年搬到了利兹。" }
+        ]
+      },
+      {
+        "heading": "规则变化与常见不规则动词",
+        "body": "规则动词加 **-ed**；以 e 结尾只加 -d；辅音加 y 结尾改 y 为 i 再加 -ed。\n\n不规则动词要单独记，下表是口语里最常用的几个。",
+        "table": {
+          "head": ["原形", "过去式", "例句"],
+          "rows": [
+            ["go", "went", "We went to the coast."],
+            ["take", "took", "It took two hours."],
+            ["buy", "bought", "I bought a second-hand bike."]
+          ]
+        }
+      },
+      {
+        "heading": "否定和疑问",
+        "body": "否定和疑问借助 **did**，后面的动词回到原形。",
+        "examples": [
+          { "en": "I didn't enjoy the film.", "cn": "我不喜欢那部电影。" },
+          { "en": "Did you finish the report?", "cn": "你把报告写完了吗？", "note": "did 之后用 finish，不用 finished" },
+          { "en": "Q: Did you go anywhere last weekend?\nA: Yes, I went to Bath with my cousin.", "cn": "问：你上周末去哪儿了吗？\n答：去了，我和表哥去了巴斯。", "note": "口语 Part 1 问答：问句用 did + 原形，回答用过去式" }
+        ]
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "I go to the park yesterday.", "right": "I went to the park yesterday.", "why": "中文动词没有时态变化，容易忘记把动词改成过去式。" },
+      { "wrong": "Did you saw him?", "right": "Did you see him?", "why": "did 已经表示过去，后面的动词要用原形。" },
+      { "wrong": "He buyed a new phone.", "right": "He bought a new phone.", "why": "buy 是不规则动词，过去式是 bought。" }
+    ],
+    "exercises": [
+      { "id": "gr-sample-past-simple-q1", "type": "mcq", "q": "We ___ a great time at the festival last summer.", "options": ["have", "had", "has had"], "answer": "had", "explain": "last summer 是明确的过去时间，用一般过去时 had。" },
+      { "id": "gr-sample-past-simple-q2", "type": "fill", "q": "Yesterday I ___ (take) the early train.", "answer": ["took"], "explain": "take 是不规则动词，过去式是 took。" },
+      { "id": "gr-sample-past-simple-q3", "type": "correct", "q": "Did she called you last night?", "answer": ["Did she call you last night?"], "explain": "did 之后动词用原形 call。" },
+      { "id": "gr-sample-past-simple-q4", "type": "fill", "q": "They ___ (not / visit) the museum because it was closed.", "answer": ["didn't visit", "did not visit"], "explain": "否定用 didn't / did not 加动词原形，两种写法都可以。" }
+    ],
+    "related": {
+      "grammarTags": ["一般过去时"],
+      "nceLessons": [{ "book": 2, "lesson": 1 }],
+      "tabs": ["practice", "ielts:speaking"]
+    }
+  },
+  {
+    "id": "gr-sample-relative-clauses",
+    "domain": "grammar",
+    "track": "advanced",
+    "title": "定语从句写长句（测试样例）",
+    "titleEn": "Relative clauses for complex sentences (sample)",
+    "level": "B2",
+    "skills": ["writing"],
+    "order": 10,
+    "minutes": 18,
+    "summary": "能用 which / who / where 把两句短句合成一句，写作 Task 2 里体现句式多样性。",
+    "sections": [
+      {
+        "heading": "限制性与非限制性",
+        "body": "限制性定语从句**缩小**先行词的范围，不加逗号；非限制性定语从句只是**补充说明**，前后用逗号隔开，而且不能用 that。",
+        "examples": [
+          { "en": "Students who live on campus save a lot of travelling time.", "cn": "住在校内的学生能省下很多通勤时间。" },
+          { "en": "Online courses, which are often cheaper, attract many adult learners.", "cn": "网课通常更便宜，吸引了很多成年学习者。", "note": "非限制性从句用逗号隔开，用 which 不用 that" },
+          { "en": "Before: Some students live on campus. They save a lot of time.\nAfter: Students who live on campus save a lot of time.", "cn": "改写前是两个短句，改写后用 who 合成一句。" }
+        ]
+      },
+      {
+        "heading": "关系词怎么选",
+        "body": "先看先行词是人、物还是地点，再看关系词在从句里做什么成分。",
+        "table": {
+          "head": ["先行词", "关系词", "例句"],
+          "rows": [
+            ["人", "who / that", "People who exercise regularly sleep better."],
+            ["物", "which / that", "The policy that the council introduced has failed."],
+            ["地点", "where", "Cities where public transport is free have less traffic."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "The book which I bought it is useful.", "right": "The book which I bought is useful.", "why": "which 已经代替 it 做 bought 的宾语，不能再重复 it。" },
+      { "wrong": "My sister, that lives in York, is a nurse.", "right": "My sister, who lives in York, is a nurse.", "why": "非限制性定语从句不能用 that。" },
+      { "wrong": "This is the town which I grew up.", "right": "This is the town where I grew up.", "why": "grow up 是不及物动词，地点要用 where（或 in which）。" }
+    ],
+    "exercises": [
+      { "id": "gr-sample-relative-clauses-q1", "type": "mcq", "q": "London, ___ is the capital of the UK, has a population of about nine million.", "options": ["that", "which", "where"], "answer": "which", "explain": "逗号隔开的非限制性从句，指物用 which。" },
+      { "id": "gr-sample-relative-clauses-q2", "type": "fill", "q": "The village ___ my father was born has changed a lot.", "answer": ["where", "in which"], "explain": "先行词是地点，从句缺地点状语，用 where 或 in which。" },
+      { "id": "gr-sample-relative-clauses-q3", "type": "correct", "q": "The scientist which won the prize is from Wales.", "answer": ["The scientist who won the prize is from Wales.", "The scientist that won the prize is from Wales."], "explain": "先行词是人，用 who 或 that。" }
+    ],
+    "related": {
+      "grammarTags": ["定语从句", "定语从句(非限制性)"],
+      "nceLessons": [{ "book": 2, "lesson": 28 }],
+      "tabs": ["transform", "ielts:writing"]
+    }
+  }
+]

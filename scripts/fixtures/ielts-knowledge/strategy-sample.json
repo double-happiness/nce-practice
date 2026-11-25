@@ -1,0 +1,36 @@
+[
+  {
+    "id": "st-sample-reading-tfng",
+    "domain": "strategy",
+    "track": "reading",
+    "title": "判断题 TRUE / FALSE / NOT GIVEN（测试样例）",
+    "titleEn": "True / False / Not Given (sample)",
+    "level": "B1",
+    "skills": ["reading"],
+    "order": 10,
+    "minutes": 10,
+    "summary": "分清 FALSE 和 NOT GIVEN：原文明确相反才是 FALSE，原文没提到就是 NOT GIVEN。",
+    "sections": [
+      {
+        "heading": "三个答案的含义",
+        "body": "**TRUE**：原文意思与题干一致。\n\n**FALSE**：原文意思与题干相反。\n\n**NOT GIVEN**：原文没有提供足够信息判断。",
+        "examples": [
+          { "en": "The museum opened in 1998.", "cn": "原文：博物馆 1998 年开馆。", "note": "题干「博物馆开馆已有二十多年」→ TRUE" }
+        ]
+      },
+      {
+        "heading": "做题步骤",
+        "body": "先找题干里的**定位词**（人名、数字、专有名词），在原文找到对应句，再逐个比较限定词，比如 all、only、always、most。"
+      }
+    ],
+    "pitfalls": [],
+    "exercises": [
+      { "id": "st-sample-reading-tfng-q1", "type": "mcq", "q": "Text: Most visitors arrive by train. Statement: All visitors arrive by train.", "options": ["TRUE", "FALSE", "NOT GIVEN"], "answer": "FALSE", "explain": "原文说 most，题干说 all，范围被扩大，与原文矛盾。" },
+      { "id": "st-sample-reading-tfng-q2", "type": "mcq", "q": "Text: The bridge was completed in 1890. Statement: The bridge was expensive to build.", "options": ["TRUE", "FALSE", "NOT GIVEN"], "answer": "NOT GIVEN", "explain": "原文只说了完工时间，没有提到造价。" },
+      { "id": "st-sample-reading-tfng-q3", "type": "mcq", "q": "Text: The festival takes place every summer. Statement: The festival is held once a year.", "options": ["TRUE", "FALSE", "NOT GIVEN"], "answer": "TRUE", "explain": "every summer 就是每年一次，同义改写。" }
+    ],
+    "related": {
+      "tabs": ["ielts:reading"]
+    }
+  }
+]
