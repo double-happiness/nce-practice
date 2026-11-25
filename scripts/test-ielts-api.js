@@ -959,7 +959,8 @@ test('history: 畸形或越界的记录（如导入的备份）不返回、不�
 
 test('history: type 缺失或非法返回 400', async () => {
   isErr400(await get('/api/ielts/history'), '缺 type');
-  isErr400(await get('/api/ielts/history?type=listening'), 'type=listening');
+  // listening / reading 已是合法类型（见文末听力阅读用例），这里改用仍不支持的类型
+  isErr400(await get('/api/ielts/history?type=vocab'), 'type=vocab');
 });
 
 test('summary: 结构完整，count 与历史一致，last3Avg 为最近 3 次均值', async () => {
@@ -997,6 +998,277 @@ test('接口兜底: 未知 /api/ielts 路径返回 JSON 404', async () => {
   const r = await get('/api/ielts/no-such-endpoint');
   assert.strictEqual(r.status, 404);
   assert.ok(r.body && r.body.error);
+});
+
+// =====================================================================
+// 听力 / 阅读成绩接入记录与总分估算
+// =====================================================================
+const officialRound = (x) => Math.floor(x * 2 + 0.5 + 1e-9) / 2; // 与 lib/ielts-plan.js 同口径
+const itemsOf = (b) => (Array.isArray(b) ? b : b.items);
+const titleOf = (it) => (it.titleCn ? `${it.title}（${it.titleCn}）` : it.title);
+
+// 直接改写临时档案的四类记录；用例结束后原样还原，不影响其它用例
+async function withPatchedRecords(patch, fn) {
+  const keys = ['writings', 'speakings', 'listenings', 'readings'];
+  let saved = null;
+  patchTempIelts((j) => {
+    saved = Object.fromEntries(keys.map((k) => [k, j[k]]));
+    Object.assign(j, patch);
+  });
+  try {
+    await fn();
+  } finally {
+    patchTempIelts((j) => {
+      for (const k of keys) {
+        if (saved[k] === undefined) delete j[k];
+        else j[k] = saved[k];
+      }
+    });
+  }
+}
+
+// 注入记录工厂（字段与 routes/ielts-listening.js、routes/ielts-reading.js 写入的结构一致）
+const INJ_T0 = Date.now() - 86400000;
+const lRec = (i, band, mode, extra) => ({
+  id: `inj-l-${i}`, sectionId: ctx.lSection ? ctx.lSection.id : 'l1-sports-centre', part: 1, mode: mode || 'exam',
+  raw: 5, total: 10, band, durationSec: 600, answers: {}, ts: INJ_T0 + i * 1000, ...extra,
+});
+const rRec = (i, band, mode, extra) => ({
+  id: `inj-r-${i}`, passageId: ctx.rPassage ? ctx.rPassage.id : 'rd-green-roofs', mode: mode || 'exam',
+  raw: 7, total: 13, band, durationSec: 1200, wrong: [], date: TODAY(), ts: INJ_T0 + i * 1000, ...extra,
+});
+const wRec = (i, band) => ({
+  id: `inj-w-${i}`, promptId: ctx.w2 ? ctx.w2.id : 'w2-edu-01', task: 2, variant: null, text: 'x', wordCount: 1,
+  durationSec: 0, selfScores: { TR: band, CC: band, LR: band, GRA: band }, band, ts: INJ_T0 + i * 1000,
+});
+const sRec = (i, band) => ({
+  id: `inj-s-${i}`, itemId: ctx.s1 ? ctx.s1.id : 's1-hometown', part: 1, durationSec: 0,
+  selfScores: { FC: band, LR: band, GRA: band, P: band }, band, notes: '', ts: INJ_T0 + i * 1000,
+});
+
+test('history: listening 交卷后倒序返回标题、模式、原始分、band、用时、错题数与错题', async () => {
+  const list = isOk(await get('/api/ielts/listening'));
+  assert.ok(list.items.length, '听力题库为空');
+  const sec = list.items[0];
+  ctx.lSection = sec;
+  const detail = isOk(await get(`/api/ielts/listening/${sec.id}`));
+  const firstNo = String(detail.groups[0].questions[0].no);
+  const wrongInput = 'zzzz qqqq xxxx yyyy'; // 4 个词：填空题超字数、选择题不是选项字母，必错
+  const r1 = isOk(await post(`/api/ielts/listening/${sec.id}/submit`, { answers: { [firstNo]: wrongInput }, durationSec: 321, mode: 'practice' }));
+  const r2 = isOk(await post(`/api/ielts/listening/${sec.id}/submit`, { answers: {}, durationSec: 0, mode: 'exam' }));
+
+  const h = isOk(await get('/api/ielts/history?type=listening&limit=10'));
+  assert.strictEqual(h.type, 'listening');
+  const items = itemsOf(h);
+  assert.ok(items.length >= 2);
+  for (let i = 1; i < items.length; i++) assert.ok(items[i - 1].ts >= items[i].ts, `第 ${i} 条顺序错误`);
+  const [latest, prev] = items;
+  assert.strictEqual(latest.id, r2.entry.id, '最新一次交卷排在最前');
+  assert.strictEqual(prev.id, r1.entry.id);
+  assert.strictEqual(prev.sectionId, sec.id);
+  assert.strictEqual(prev.part, sec.part);
+  assert.strictEqual(prev.title, titleOf(sec));
+  assert.strictEqual(prev.mode, 'practice');
+  assert.strictEqual(latest.mode, 'exam');
+  assert.strictEqual(prev.raw, r1.raw);
+  assert.strictEqual(prev.total, r1.total);
+  assert.strictEqual(prev.band, r1.band);
+  assert.strictEqual(prev.durationSec, 321);
+  assert.strictEqual(prev.wrongCount, r1.total - r1.raw);
+  assert.ok(Array.isArray(prev.wrongItems) && prev.wrongItems.length === prev.wrongCount, 'wrongItems 条数 = 错题数');
+  const w = prev.wrongItems.find((x) => String(x.no) === firstNo);
+  assert.ok(w, '答错的题应出现在错题里');
+  assert.strictEqual(w.yours, wrongInput);
+  for (const x of prev.wrongItems) {
+    assert.ok(typeof x.prompt === 'string' && x.prompt, `第 ${x.no} 题缺 prompt`);
+    assert.ok(Array.isArray(x.answer) && x.answer.length, `第 ${x.no} 题缺 answer`);
+    assert.ok(typeof x.explanation === 'string' && x.explanation, `第 ${x.no} 题缺 explanation`);
+  }
+  // 白卷：全部是错题，未作答的 yours 为空串
+  assert.strictEqual(latest.raw, 0);
+  assert.strictEqual(latest.wrongItems.length, latest.total);
+  assert.ok(latest.wrongItems.every((x) => x.yours === ''));
+  assert.ok(!('answers' in prev), '不透传作答原文');
+});
+
+test('history: reading 交卷后返回标题、模式、原始分、band、用时、错题数与错题（含摘要填空题干）', async () => {
+  const list = isOk(await get('/api/ielts/reading'));
+  assert.ok(list.items.length, '阅读题库为空');
+  const p = list.items[0];
+  ctx.rPassage = p;
+  const detail = isOk(await get(`/api/ielts/reading/${p.id}`));
+  const q1 = detail.groups[0].questions[0].id;
+  const r = isOk(await post(`/api/ielts/reading/${p.id}/submit`, { answers: { [q1]: 'zzzz' }, durationSec: 900, mode: 'exam' }));
+
+  const it = itemsOf(isOk(await get('/api/ielts/history?type=reading&limit=5')))[0];
+  assert.strictEqual(it.id, r.record.id);
+  assert.strictEqual(it.passageId, p.id);
+  assert.strictEqual(it.title, titleOf(p));
+  assert.strictEqual(it.mode, 'exam');
+  assert.strictEqual(it.raw, r.raw);
+  assert.strictEqual(it.total, r.total);
+  assert.strictEqual(it.band, r.band);
+  assert.strictEqual(it.durationSec, 900);
+  assert.strictEqual(it.wrongCount, r.total - r.raw);
+  assert.ok(Array.isArray(it.wrongItems) && it.wrongItems.length === it.wrongCount, 'wrongItems 条数 = 错题数');
+  for (let i = 1; i < it.wrongItems.length; i++) assert.ok(it.wrongItems[i - 1].no < it.wrongItems[i].no, '错题按题号升序');
+  for (const x of it.wrongItems) {
+    assert.ok(typeof x.prompt === 'string' && x.prompt && !/\{(blank|q\d+)\}/.test(x.prompt), `第 ${x.no} 题题干异常：${x.prompt}`);
+    assert.ok(Array.isArray(x.answer) && x.answer.length, `第 ${x.no} 题缺 answer`);
+    assert.ok(typeof x.explanation === 'string' && x.explanation, `第 ${x.no} 题缺 explanation`);
+    assert.strictEqual(x.yours, null, '阅读记录不保存作答内容');
+  }
+});
+
+test('summary: 听力 / 阅读只算模考近 3 次；四项齐全时四项平均后 .25 进到 .5', async () => {
+  await withPatchedRecords({
+    // 听力模考 4 次取最近 3 次 (5.5 + 6 + 6.5) / 3 = 6；练习 2 次分数再高也不计
+    listenings: [lRec(1, 9), lRec(2, 5.5), lRec(3, 6), lRec(4, 6.5), lRec(5, 9, 'practice'), lRec(6, 8.5, 'practice')],
+    readings: [rRec(1, 6.5), rRec(2, 6.5), rRec(3, 6.5), rRec(4, 3, 'practice')],
+    writings: [wRec(1, 6), wRec(2, 6), wRec(3, 6)],
+    speakings: [sRec(1, 6.5), sRec(2, 6.5), sRec(3, 6.5)],
+  }, async () => {
+    const s = isOk(await get('/api/ielts/summary'));
+    assert.deepStrictEqual(s.listening, { last3Avg: 6, count: 4, practiceCount: 2 });
+    assert.deepStrictEqual(s.reading, { last3Avg: 6.5, count: 3, practiceCount: 1 });
+    assert.deepStrictEqual(s.writing, { last3Avg: 6, count: 3 });
+    assert.deepStrictEqual(s.speaking, { last3Avg: 6.5, count: 3 });
+    assert.deepStrictEqual(s.estimate.bySkill, { listening: 6, reading: 6.5, writing: 6, speaking: 6.5 });
+    assert.strictEqual(s.estimate.overall, 6.5, '(6 + 6.5 + 6 + 6.5) / 4 = 6.25 → 6.5');
+    assert.ok(!s.estimate.note.includes('缺'), `四项齐全时 note 不应提示缺项：${s.estimate.note}`);
+    assert.ok(s.estimate.note.includes('偏乐观') && s.estimate.note.includes('剑雅模考'), s.estimate.note);
+  });
+});
+
+test('summary: 四项平均 .75 进到整数、.125 舍到整数，与 officialRound 一致', async () => {
+  const cases = [
+    { l: [7, 7, 7], r: [7], w: 6.5, s: 6.5, expect: 7 }, // 6.75 → 7
+    { l: [6, 6, 6], r: [6], w: 6, s: 6.5, expect: 6 }, // 6.125 → 6
+    { l: [5, 5.5, 6], r: [6, 6.5], w: 6, s: 6, expect: officialRound((5.5 + 6.25 + 6 + 6) / 4) }, // 5.9375 → 6
+  ];
+  for (const c of cases) {
+    await withPatchedRecords({
+      listenings: c.l.map((b, i) => lRec(i + 1, b)),
+      readings: c.r.map((b, i) => rRec(i + 1, b)),
+      writings: [wRec(1, c.w)],
+      speakings: [sRec(1, c.s)],
+    }, async () => {
+      const e = isOk(await get('/api/ielts/summary')).estimate;
+      const vals = Object.values(e.bySkill);
+      assert.ok(vals.every((v) => typeof v === 'number'), `bySkill 应四项齐全：${JSON.stringify(e.bySkill)}`);
+      assert.strictEqual(e.overall, c.expect, `bySkill=${JSON.stringify(e.bySkill)}`);
+      assert.strictEqual(e.overall, officialRound(vals.reduce((a, b) => a + b, 0) / 4));
+    });
+  }
+});
+
+test('summary: 缺项时用已有几项粗估，note 写明缺哪几项；全无数据时 overall 为 null', async () => {
+  // 听力 / 阅读只有练习：不计入，按写作、口语粗估
+  await withPatchedRecords({
+    listenings: [lRec(1, 8, 'practice')],
+    readings: [rRec(1, 8, 'practice')],
+    writings: [wRec(1, 6)],
+    speakings: [sRec(1, 6.5)],
+  }, async () => {
+    const s = isOk(await get('/api/ielts/summary'));
+    assert.deepStrictEqual(s.listening, { last3Avg: null, count: 0, practiceCount: 1 });
+    assert.deepStrictEqual(s.reading, { last3Avg: null, count: 0, practiceCount: 1 });
+    assert.deepStrictEqual(s.estimate.bySkill, { listening: null, reading: null, writing: 6, speaking: 6.5 });
+    assert.strictEqual(s.estimate.overall, 6.5, '(6 + 6.5) / 2 = 6.25 → 6.5');
+    assert.ok(s.estimate.note.includes('缺听力、阅读'), s.estimate.note);
+  });
+  // 只有听力、阅读模考
+  await withPatchedRecords({
+    listenings: [lRec(1, 5.5)],
+    readings: [rRec(1, 6)],
+    writings: [],
+    speakings: [],
+  }, async () => {
+    const e = isOk(await get('/api/ielts/summary')).estimate;
+    assert.deepStrictEqual(e.bySkill, { listening: 5.5, reading: 6, writing: null, speaking: null });
+    assert.strictEqual(e.overall, 6, '(5.5 + 6) / 2 = 5.75 → 6');
+    assert.ok(e.note.includes('缺写作、口语'), e.note);
+    assert.ok(!e.note.includes('偏乐观'), '没有自评项时不提自评偏乐观');
+  });
+  // 一项都没有
+  await withPatchedRecords({ listenings: [], readings: [], writings: [], speakings: [] }, async () => {
+    const e = isOk(await get('/api/ielts/summary')).estimate;
+    assert.strictEqual(e.overall, null);
+    assert.deepStrictEqual(e.bySkill, { listening: null, reading: null, writing: null, speaking: null });
+    assert.ok(typeof e.note === 'string' && e.note);
+  });
+});
+
+test('history / summary: 畸形的听力 / 阅读记录被过滤，不返回、不参与均分', async () => {
+  const badL = [
+    lRec(11, 7.3), // band 不是 0.5 步长
+    lRec(12, 10), // band 超过 9
+    lRec(13, 6, 'mock'), // mode 非法
+    lRec(14, 6, 'exam', { raw: 11 }), // raw 超过 total
+    lRec(15, 6, 'exam', { ts: 'yesterday' }),
+    lRec(16, 6, 'exam', { sectionId: '../etc' }),
+    'not-an-object',
+    null,
+    [1, 2],
+  ];
+  const badR = [
+    rRec(11, 6, 'exam', { id: 'bad id!' }),
+    rRec(12, 6, 'exam', { wrong: [1, 2] }),
+    rRec(13, 6, 'exam', { total: 0, raw: 0 }),
+    rRec(14, 6, 'exam', { durationSec: -5 }),
+    rRec(15, 6.25),
+    rRec(16, 6, 'exam', { passageId: 'Bad_ID' }),
+    42,
+  ];
+  await withPatchedRecords({
+    listenings: [lRec(1, 6.5), ...badL],
+    readings: [rRec(1, 5.5), ...badR],
+    writings: [],
+    speakings: [],
+  }, async () => {
+    const hl = isOk(await get('/api/ielts/history?type=listening&limit=500'));
+    assert.strictEqual(hl.total, 1, `听力只应剩 1 条合法记录：${JSON.stringify(itemsOf(hl).map((x) => x.id))}`);
+    assert.deepStrictEqual(itemsOf(hl).map((x) => x.id), ['inj-l-1']);
+    const hr = isOk(await get('/api/ielts/history?type=reading&limit=500'));
+    assert.strictEqual(hr.total, 1, `阅读只应剩 1 条合法记录：${JSON.stringify(itemsOf(hr).map((x) => x.id))}`);
+    assert.deepStrictEqual(itemsOf(hr).map((x) => x.id), ['inj-r-1']);
+    const s = isOk(await get('/api/ielts/summary'));
+    assert.deepStrictEqual(s.listening, { last3Avg: 6.5, count: 1, practiceCount: 0 });
+    assert.deepStrictEqual(s.reading, { last3Avg: 5.5, count: 1, practiceCount: 0 });
+    assert.strictEqual(s.estimate.overall, 6, '(6.5 + 5.5) / 2 = 6');
+  });
+});
+
+test('history: 题目已不在题库或记录与题库对不上时仍返回记录，title 为空、wrongItems 为 null', async () => {
+  await withPatchedRecords({
+    listenings: [
+      lRec(1, 5, 'exam', { sectionId: 'l9-no-such-section' }),
+      lRec(2, 5, 'exam', { durationSec: -1 }), // 模块校验不管 durationSec：记录保留，用时按未记录处理
+    ],
+    readings: [
+      rRec(1, 5, 'exam', { passageId: 'rd-no-such-passage' }),
+      rRec(2, 5, 'exam', { raw: 12, wrong: ['q999'] }), // 错题 id 不在本篇
+    ],
+  }, async () => {
+    const l = itemsOf(isOk(await get('/api/ielts/history?type=listening')));
+    const gone = l.find((x) => x.id === 'inj-l-1');
+    assert.ok(gone, '题目不在题库的记录仍应返回');
+    assert.strictEqual(gone.title, '');
+    assert.strictEqual(gone.wrongItems, null);
+    assert.strictEqual(gone.wrongCount, 5);
+    const noDur = l.find((x) => x.id === 'inj-l-2');
+    assert.strictEqual(noDur.durationSec, null);
+    // 注入的 answers 为空，重判得 0 分与记录的 5 分不一致 → 无法还原错题
+    assert.strictEqual(noDur.wrongItems, null);
+
+    const r = itemsOf(isOk(await get('/api/ielts/history?type=reading')));
+    const rGone = r.find((x) => x.id === 'inj-r-1');
+    assert.strictEqual(rGone.title, '');
+    assert.strictEqual(rGone.wrongItems, null);
+    const mismatch = r.find((x) => x.id === 'inj-r-2');
+    assert.ok(mismatch.title, '文章还在，标题照常返回');
+    assert.strictEqual(mismatch.wrongItems, null);
+  });
 });
 
 // =====================================================================

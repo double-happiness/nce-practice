@@ -1,11 +1,13 @@
 'use strict';
 
 // 雅思备考 API —— 自动挂载到 /api（设计文档 §5）
-// 档案、26 周计划、雅思词汇浏览与诊断、写作 / 口语题库与自评提交、记录与总览。
+// 档案、26 周计划、雅思词汇浏览与诊断、写作 / 口语题库与自评提交、记录与总览（含听力 / 阅读成绩，只读）。
 const express = require('express');
 const crypto = require('crypto');
 const ielts = require('../lib/ielts');
 const planEngine = require('../lib/ielts-plan');
+const listening = require('../lib/ielts-listening');
+const reading = require('../lib/ielts-reading');
 const activity = require('../lib/activity');
 const profile = require('../lib/profile');
 const { buildLookupDict } = require('../lib/wordlookup');
@@ -567,25 +569,226 @@ function historyTitle(type, r) {
   return (s.cueCard && s.cueCard.title) || '';
 }
 
-// GET /ielts/history?type=writing|speaking&limit= —— 倒序
+// ---- 听力 / 阅读记录：由各自模块写入 ielts.json 的 listenings / readings，这里只读 ----
+// 读取时一律走模块自己的清洗函数（与听力 / 阅读列表页的作答次数口径一致），畸形记录直接丢弃。
+
+function listeningRecords(user) {
+  return listening.sanitizeListenings(user.listenings);
+}
+
+function readingRecords(user) {
+  return reading.sanitizeReadings(user.readings);
+}
+
+function titleWithCn(title, titleCn) {
+  const t = String(title || '');
+  return titleCn ? `${t}（${titleCn}）` : t;
+}
+
+// 模块的记录校验没有约束 durationSec（听力）：不是非负整数时按「未记录」处理
+function durationOrNull(v) {
+  return Number.isInteger(v) && v >= 0 ? v : null;
+}
+
+function optionText(options, key) {
+  if (!Array.isArray(options) || key == null) return null;
+  const k = String(key).toUpperCase();
+  const hit = options.find((o) => isPlainObject(o) && String(o.key).toUpperCase() === k);
+  return hit ? String(hit.text || '') : null;
+}
+
+/**
+ * 听力错题：记录里存了作答 answers，按当前题库重判一次还原错题。
+ * 题目内容改过（题数或得分与当时不一致）时无法可靠还原，返回 null。
+ * 每项：{ no, prompt, yours, overLimit, answer, answerText, explanation, quote }
+ */
+function listeningWrongItems(section, r) {
+  if (!isPlainObject(r.answers)) return null;
+  const graded = listening.gradeSection(section, r.answers);
+  if (graded.total !== r.total || graded.raw !== r.raw) return null;
+  const index = new Map();
+  for (const g of section.groups) for (const q of g.questions) index.set(q.no, { q, g });
+  return graded.results
+    .filter((x) => !x.correct)
+    .map((x) => {
+      const { q, g } = index.get(x.no);
+      const isChoice = listening.CHOICE_TYPES.includes(g.type);
+      return {
+        no: x.no,
+        prompt: q.prompt,
+        yours: x.yours,
+        overLimit: x.overLimit,
+        answer: x.answer,
+        answerText: isChoice ? optionText(g.type === 'mcq' ? q.options : g.options, x.answer[0]) : null,
+        explanation: x.explanation,
+        quote: x.evidence || null,
+      };
+    });
+}
+
+// 阅读题干：摘要填空没有单独的 prompt，取摘要正文里含本题空位的那一句
+function readingPrompt(q, g) {
+  if (typeof q.prompt === 'string' && q.prompt.trim()) return q.prompt.replace(/\{blank\}/g, '____');
+  const text = isPlainObject(g.summary) && typeof g.summary.text === 'string' ? g.summary.text : '';
+  const mark = `{${q.id}}`;
+  const sentence = text.split(/(?<=[.!?])\s+/).find((s) => s.includes(mark)) || '';
+  return sentence.replace(mark, '____').replace(/\{q\d{1,3}\}/g, '…').trim();
+}
+
+/**
+ * 阅读错题：记录只存错题 id（不存作答内容），按 id 从当前题库取题干、答案与解析。
+ * 记录缺 wrong、题数变了或错题 id 对不上时无法还原，返回 null。
+ * 每项：{ no, prompt, yours: null, answer, answerText, explanation, quote, para }
+ */
+function readingWrongItems(passage, r) {
+  if (!Array.isArray(r.wrong)) return null;
+  const graded = reading.gradePassage(passage, {});
+  if (graded.total !== r.total) return null;
+  const wrongIds = new Set(r.wrong);
+  const byId = new Map(graded.results.map((x) => [x.id, x]));
+  if (wrongIds.size !== r.total - r.raw || ![...wrongIds].every((id) => byId.has(id))) return null;
+  const prompts = new Map();
+  for (const g of Array.isArray(passage.groups) ? passage.groups : []) {
+    if (!isPlainObject(g) || !Array.isArray(g.questions)) continue;
+    for (const q of g.questions) if (isPlainObject(q)) prompts.set(q.id, readingPrompt(q, g));
+  }
+  return graded.results
+    .filter((x) => wrongIds.has(x.id))
+    .map((x) => ({
+      no: x.number,
+      prompt: prompts.get(x.id) || '',
+      yours: null,
+      answer: x.answer,
+      answerText: x.answerText,
+      explanation: x.explanation,
+      quote: x.evidence ? x.evidence.quote : null,
+      para: x.evidence ? x.evidence.para : null,
+    }));
+}
+
+// 记录页条目：只挑展示需要的字段，不透传记录里的作答原文和未知字段
+function listeningHistoryItem(r) {
+  const section = listening.getSection(r.sectionId);
+  return {
+    id: typeof r.id === 'string' ? r.id : null,
+    sectionId: r.sectionId,
+    part: section ? section.part : listening.PARTS.includes(r.part) ? r.part : null,
+    title: section ? titleWithCn(section.title, section.titleCn) : '',
+    mode: r.mode,
+    raw: r.raw,
+    total: r.total,
+    band: r.band,
+    durationSec: durationOrNull(r.durationSec),
+    wrongCount: r.total - r.raw,
+    ts: r.ts,
+    wrongItems: section ? listeningWrongItems(section, r) : null,
+  };
+}
+
+function readingHistoryItem(r) {
+  const passage = reading.getPassage(r.passageId);
+  return {
+    id: r.id,
+    passageId: r.passageId,
+    title: passage ? titleWithCn(passage.title, passage.titleCn) : '',
+    mode: r.mode,
+    raw: r.raw,
+    total: r.total,
+    band: r.band,
+    durationSec: durationOrNull(r.durationSec),
+    wrongCount: r.total - r.raw,
+    ts: r.ts,
+    wrongItems: passage ? readingWrongItems(passage, r) : null,
+  };
+}
+
+const HISTORY_TYPES = ['writing', 'speaking', 'listening', 'reading'];
+const byTsDesc = (a, b) => (b.ts || 0) - (a.ts || 0);
+
+// GET /ielts/history?type=writing|speaking|listening|reading&limit= —— 倒序
+// 听力 / 阅读条目：{ id, sectionId|passageId, part(听力), title, mode, raw, total, band, durationSec, wrongCount, ts, wrongItems }
+// wrongItems 为 null 表示题目已不在题库或内容改过，无法还原当时的错题
 router.get('/ielts/history', (req, res) => {
   const type = strParam(req.query.type);
-  if (type !== 'writing' && type !== 'speaking') return bad(res, 'type 必须是 writing 或 speaking');
+  if (!HISTORY_TYPES.includes(type)) return bad(res, `type 必须是 ${HISTORY_TYPES.join(' / ')} 之一`);
   const limit = intParam(req.query.limit, 1, ielts.MAX_RECORDS, 50);
   if (Number.isNaN(limit)) return bad(res, `limit 必须是 1–${ielts.MAX_RECORDS} 的整数`);
   const user = ielts.loadUser();
-  const list = (type === 'writing' ? user.writings : user.speakings).slice().sort((a, b) => (b.ts || 0) - (a.ts || 0));
+  if (type === 'listening' || type === 'reading') {
+    const isListening = type === 'listening';
+    const list = (isListening ? listeningRecords(user) : readingRecords(user)).slice().sort(byTsDesc);
+    const items = list.slice(0, limit).map(isListening ? listeningHistoryItem : readingHistoryItem);
+    return res.json({ type, total: list.length, items });
+  }
+  const list = (type === 'writing' ? user.writings : user.speakings).slice().sort(byTsDesc);
   const items = list.slice(0, limit).map((r) => ({ ...r, title: historyTitle(type, r) }));
   res.json({ type, total: list.length, items });
 });
 
+// ---- 总分估算 ----
+const SKILLS = [
+  { key: 'listening', label: '听力' },
+  { key: 'reading', label: '阅读' },
+  { key: 'writing', label: '写作' },
+  { key: 'speaking', label: '口语' },
+];
+const SELF_RATED_SKILLS = ['writing', 'speaking'];
+const RECENT_N = 3;
+
+/**
+ * 听力 / 阅读成绩概况：只有模考（mode: exam）计入 count 与均分，练习另计 practiceCount。
+ * 均分口径与写作口语一致：按时间取最近 3 次 band 的平均，保留两位小数（同 lib/ielts-plan.js lastNAvg）。
+ */
+function examSummary(records) {
+  const exam = records.filter((r) => r.mode === 'exam').sort((a, b) => a.ts - b.ts);
+  const recent = exam.slice(-RECENT_N);
+  const last3Avg = recent.length
+    ? Math.round((recent.reduce((s, r) => s + r.band, 0) / recent.length) * 100) / 100
+    : null;
+  return { last3Avg, count: exam.length, practiceCount: records.filter((r) => r.mode === 'practice').length };
+}
+
+/**
+ * 总分估算。bySkill 为四项近 3 次均值（缺数据为 null）。
+ * 四项齐全：四项平均后按官方规则取整（.25 进 .5、.75 进整数）；缺项时用已有几项的平均粗估，note 写明缺哪几项。
+ */
+function estimateFourSkills(bySkill) {
+  const have = SKILLS.filter((s) => bySkill[s.key] != null);
+  if (!have.length) {
+    return { overall: null, bySkill, note: '还没有听力、阅读模考成绩，也没有写作、口语自评记录，暂无法估分。' };
+  }
+  const labels = (list) => list.map((s) => s.label).join('、');
+  const missing = SKILLS.filter((s) => bySkill[s.key] == null);
+  const mean = have.reduce((sum, s) => sum + bySkill[s.key], 0) / have.length;
+  const parts = [
+    missing.length
+      ? `缺${labels(missing)}，仅按${labels(have)}近 3 次均分粗估（官方规则取整到 0.5）。`
+      : '按听力、阅读、写作、口语四项近 3 次均分的平均，官方规则取整（.25 进 .5，.75 进整数）。',
+  ];
+  const selfRated = have.filter((s) => SELF_RATED_SKILLS.includes(s.key));
+  if (selfRated.length) parts.push(`${labels(selfRated)}是自评，通常偏乐观；`);
+  parts.push('站内题量有限，请以剑雅模考成绩为准。');
+  return { overall: planEngine.officialRound(mean), bySkill, note: parts.join('') };
+}
+
 // GET /ielts/summary —— 供总览、水平页和首页使用
+// 结构：{ active, listening, reading, writing, speaking, vocab, estimate: { overall, bySkill, note } }
 router.get('/ielts/summary', (req, res) => {
   const user = ielts.loadUser();
   const metrics = planEngine.computeMetrics(user);
   const last = metrics.vocab;
+  const listen = examSummary(listeningRecords(user));
+  const read = examSummary(readingRecords(user));
+  const bySkill = {
+    listening: listen.last3Avg,
+    reading: read.last3Avg,
+    writing: metrics.writing.avg,
+    speaking: metrics.speaking.avg,
+  };
   res.json({
     active: user.profile.active,
+    listening: listen,
+    reading: read,
     writing: { last3Avg: metrics.writing.avg, count: user.writings.length },
     speaking: { last3Avg: metrics.speaking.avg, count: user.speakings.length },
     vocab: {
@@ -593,7 +796,8 @@ router.get('/ielts/summary', (req, res) => {
       byBand: last ? last.byBand : null,
       ts: last ? last.ts : null,
     },
-    estimate: planEngine.estimateOverall(metrics),
+    // 原先只按写作、口语粗估（planEngine.estimateOverall），现改为四项估算
+    estimate: estimateFourSkills(bySkill),
   });
 });
 
