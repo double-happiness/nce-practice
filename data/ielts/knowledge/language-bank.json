@@ -1,0 +1,917 @@
+[
+  {
+    "id": "lang-trends",
+    "domain": "language",
+    "track": "writing",
+    "title": "描述趋势与数据",
+    "titleEn": "Describing trends and data",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 10,
+    "minutes": 30,
+    "summary": "掌握上升、下降、波动、持平的动词和名词两套说法，配合程度副词和约数，写出 Task 1 不重复、不出错的数据句。",
+    "sections": [
+      {
+        "heading": "上升、下降、波动、持平：核心动词",
+        "body": "Task 1 描述变化，先选对**方向**，再补**幅度**。动词句的骨架是：**主语（the number / proportion / figure of ...）+ 动词 + 幅度或终点 + 时间**。\n\n本篇表格「用法或结构」一栏开头标注语域：【正式】适合写作，【通用】写作和口语都能用，【口语】只建议在口语里用。Task 1 属于正式文体，优先选【正式】和【通用】的说法。\n\n注意 rise、fall 是**不及物动词**，后面不能直接接宾语，也没有被动语态。",
+        "examples": [
+          { "en": "The number of visitors to the museum rose from 120,000 in 2010 to just over 200,000 in 2020.", "cn": "博物馆的参观人数从 2010 年的 12 万增长到 2020 年的 20 万出头。", "note": "rise from A to B：from 接起点，to 接终点。" },
+          { "en": "Bus use fluctuated between 30% and 35% before levelling off at 32% in the final year.", "cn": "公交使用率在 30% 到 35% 之间波动，最后一年稳定在 32%。", "note": "英式拼写：levelling 双写 l。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["rise / increase / grow", "【通用】不及物；rise - rose - risen，grow - grew - grown", "The number of electric cars sold rose from 20,000 in 2015 to 95,000 in 2022."],
+            ["climb / surge", "【正式】climb 指持续上升；surge 指突然大幅上升", "Demand for home exercise equipment surged in 2020."],
+            ["fall / decrease / decline / drop", "【通用】不及物；fall - fell - fallen，drop - dropped", "The proportion of adults who smoke fell to 14% by 2020."],
+            ["plummet / plunge", "【正式】骤降，本身已含「幅度大」，不必再加 sharply", "The price of solar panels plummeted over the decade."],
+            ["fluctuate (between A and B)", "【正式】不及物；上下波动，常接 between 两个数值", "Visitor numbers fluctuated between 3 and 4 million over the period."],
+            ["remain stable / stay constant (at)", "【通用】remain / stay + 形容词；at 接保持的数值", "The birth rate remained stable at around 1.5 children per woman."],
+            ["level off / plateau (at)", "【正式】上升或下降之后趋于平稳", "After rising for five years, the figure levelled off at about 60%."],
+            ["peak at / reach a peak of", "【正式】达到最高点；peak 作动词时直接接 at", "Ticket sales peaked at 2.4 million in 2018."],
+            ["hit a low of / bottom out at", "【正式】跌到最低点", "Sales hit a low of 300 units in March before recovering."]
+          ]
+        }
+      },
+      {
+        "heading": "程度与速度：副词和形容词",
+        "body": "只写 rose 信息量不够，要补上**幅度**和**速度**。动词句里用**副词**（rose sharply），名词句里用**形容词**（a sharp rise），两者不能混用。\n\n幅度从大到小大致是：dramatically / sharply / significantly → considerably / substantially → moderately → slightly / marginally。速度用 rapidly、steadily、gradually。换着用可以避免重复，但不要夸大：从 50 涨到 52 不能写 dramatically。",
+        "examples": [
+          { "en": "The number of cinema tickets sold fell slightly, while streaming subscriptions rose dramatically.", "cn": "电影票销量略有下降，而流媒体订阅量大幅上升。", "note": "动词后用副词：fell slightly、rose dramatically。" },
+          { "en": "Membership of the sports club grew steadily from 2015 to 2019 and then rose rapidly.", "cn": "体育俱乐部的会员人数在 2015 到 2019 年间稳步增长，之后迅速上升。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["dramatically / sharply", "【正式】幅度很大；名词句用 a dramatic / sharp rise", "The price of fresh vegetables rose sharply in the winter of 2021."],
+            ["significantly / considerably", "【正式】幅度明显", "Car ownership in the city increased considerably between 2000 and 2010."],
+            ["moderately", "【正式】中等幅度", "Spending on books grew moderately, by around 10%."],
+            ["slightly / marginally", "【正式】幅度很小", "The unemployment rate dipped slightly to 4.8% in 2019."],
+            ["steadily / gradually", "【正式】速度平稳或缓慢", "The share of students studying abroad climbed steadily over the period."],
+            ["rapidly / quickly", "【通用】速度快", "Online grocery sales grew rapidly after 2018."]
+          ]
+        }
+      },
+      {
+        "heading": "名词句式：There was a ... in ...",
+        "body": "名词句式能帮你变换句型，避免每句都是 The number of ... rose。三种常见骨架：\n\n1. **There was a + 形容词 + 名词 + in + 指标**：There was a sharp rise in ...\n2. **时间或地点 + saw / experienced / witnessed + a + 形容词 + 名词 + in + 指标**：The 1990s saw a steady fall in ...\n3. **指标 + experienced / recorded + a + 形容词 + 名词**：Tourism revenue recorded a rise of 15%.\n\n注意介词：**a rise in** 后接「什么上升了」，**a rise of** 后接「上升了多少」。",
+        "examples": [
+          { "en": "There was a sharp rise in the number of people working from home in 2020.", "cn": "2020 年在家办公的人数急剧上升。", "note": "形容词 sharp 修饰名词 rise；a rise in 后接上升的对象。" },
+          { "en": "The period between 2010 and 2015 saw a steady decline in landline use.", "cn": "2010 到 2015 年间，固定电话的使用量稳步下降。", "note": "时间段作主语时用 see / witness。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["a rise / an increase / growth in sth", "【正式】名词 + in + 上升的指标", "There was a significant increase in the number of cyclists after the new lanes opened."],
+            ["a fall / a decrease / a decline / a drop in sth", "【正式】名词 + in + 下降的指标", "The data shows a gradual decline in the consumption of red meat."],
+            ["a rise / a fall of + 数值", "【正式】of 后接变化幅度", "Tourism revenue recorded a rise of 15% in a single year."],
+            ["see / experience / witness + a + 名词", "【正式】时间、地点作主语", "The 1990s saw a dramatic fall in the cost of air travel."],
+            ["fluctuations in sth", "【正式】波动的名词形式，常用复数", "There were considerable fluctuations in the price of coffee beans."],
+            ["a period of stability", "【正式】平稳期", "After 2015, there was a period of stability, with the figure staying at around 40%."]
+          ]
+        }
+      },
+      {
+        "heading": "约数与比例",
+        "body": "图表数字常常不整齐，用约数让句子更自然，也能减少抄错数字。**约数词放在数字前**：approximately 30%、roughly half。\n\n比例可以换成分数：25% = a quarter，约 33% = a third，50% = half，约 67% = two thirds，75% = three quarters。分子大于 1 时分母加 s：two thirds、three quarters。用约数时要与原数据相符，48% 可以写 almost half，不能写 over half。",
+        "examples": [
+          { "en": "Roughly two thirds of the students surveyed preferred printed textbooks.", "cn": "接受调查的学生中大约三分之二更喜欢纸质课本。", "note": "two thirds：分子大于 1，third 加 s。" },
+          { "en": "In 2022, the figure for online banking stood at just under 80%, almost double the 2012 level.", "cn": "2022 年网上银行的使用比例略低于 80%，几乎是 2012 年的两倍。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["approximately / roughly / around / about + 数字", "【正式】approximately 最正式；around、about 写作口语都能用", "Approximately 40% of households owned a dishwasher in 2010."],
+            ["just over / just under + 数字", "【通用】略高于 / 略低于", "Just under 60% of the respondents said they cycled to work."],
+            ["nearly / almost + 数字", "【通用】接近但未达到", "Almost half of the budget was spent on staff salaries."],
+            ["a quarter / a third / half / two thirds of sth", "【通用】分数 + of + 名词", "A third of the graduates found jobs in the technology sector."],
+            ["the majority of / a minority of", "【正式】多数 / 少数", "The majority of commuters travelled by bus, whereas only a minority drove."],
+            ["double / triple / halve", "【正式】动词：翻倍、增至三倍、减半", "The number of international visitors doubled between 2005 and 2015."],
+            ["the figure for sth stood at + 数值", "【正式】stand at 表示处于某数值，用来换掉 was", "In 2020, the figure for Japan stood at 12%."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "The number of tourists raised sharply in 2019.", "right": "The number of tourists rose sharply in 2019.", "why": "raise 是及物动词（raise prices 提高价格），过去式 raised；指标自己上升用不及物的 rise，过去式 rose、过去分词 risen。" },
+      { "wrong": "There was a sharply increase in sales.", "right": "There was a sharp increase in sales.", "why": "名词前用形容词 sharp；副词 sharply 修饰动词：Sales increased sharply。" },
+      { "wrong": "There was a rise of the number of students.", "right": "There was a rise in the number of students.", "why": "a rise in 后接上升的对象；a rise of 后接幅度，如 a rise of 20%。" },
+      { "wrong": "One thirds of the people walked to work.", "right": "One third of the people walked to work.", "why": "分子是 1 时分母用单数 third；分子大于 1 才加 s：two thirds。" },
+      { "wrong": "The price was fallen to $3 in 2020.", "right": "The price fell to $3 in 2020.", "why": "fall、rise 是不及物动词，没有被动语态，不能写 was fallen、was risen。" }
+    ],
+    "exercises": [
+      { "id": "lang-trends-q1", "type": "mcq", "q": "The cost of public transport ___ by 8% last year.", "options": ["rose", "raised", "was risen"], "answer": "rose", "explain": "指标自己上升用不及物的 rise，过去式 rose；raise 要带宾语，rise 也没有被动语态。" },
+      { "id": "lang-trends-q2", "type": "mcq", "q": "There was a ___ fall in the number of letters posted.", "options": ["dramatic", "dramatically", "drama"], "answer": "dramatic", "explain": "空格修饰名词 fall，要用形容词 dramatic。" },
+      { "id": "lang-trends-q3", "type": "fill", "q": "In 2010, approximately ___ (三分之一) of adults owned a tablet.", "answer": ["a third", "one third"], "explain": "三分之一写作 a third 或 one third，分子是 1，third 不加 s。" },
+      { "id": "lang-trends-q4", "type": "correct", "q": "There was a significantly increase of the number of cyclists.", "answer": ["There was a significant increase in the number of cyclists."], "explain": "两处错误：名词 increase 前用形容词 significant；表示「什么增加了」用 an increase in。" },
+      { "id": "lang-trends-q5", "type": "correct", "q": "The unemployment rate was fallen slightly in 2018.", "answer": ["The unemployment rate fell slightly in 2018."], "explain": "fall 是不及物动词，不能用被动语态，直接用过去式 fell。" },
+      { "id": "lang-trends-q6", "type": "fill", "q": "用名词句式改写：Car sales dropped sharply in 2009. → There was ___ in car sales in 2009.", "answer": ["a sharp drop", "a sharp fall", "a sharp decline", "a sharp decrease"], "explain": "副词 sharply 改成形容词 sharp，动词 dropped 改成名词 drop，后面保留 in car sales。" }
+    ],
+    "related": {
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-comparison",
+    "domain": "language",
+    "track": "writing",
+    "title": "比较与对比",
+    "titleEn": "Comparing and contrasting",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 20,
+    "minutes": 30,
+    "summary": "用比较级、最高级、倍数和 whereas、compared with、the former / the latter 等表达，写出 Task 1 清楚的对比句和 Task 2 有条理的对照。",
+    "sections": [
+      {
+        "heading": "比较级与最高级",
+        "body": "Task 1 的 overview 和主体段都离不开比较。**比较级**用于两者之间（higher than），**最高级**用于三者及以上（the highest）。\n\n比较时要**拿同类事物比**：the figure for France was higher than **that for** Spain，不能写成 higher than Spain（数字不能和国家比）。前面的名词是复数时用 **those**：prices in 2020 were higher than those in 2010。\n\n加强比较级用 much、far、considerably，**不能用 very**。",
+        "examples": [
+          { "en": "The proportion of renters in London was considerably higher than that in Manchester.", "cn": "伦敦租房者的比例明显高于曼彻斯特。", "note": "that 指代 the proportion of renters。" },
+          { "en": "Of the five countries, Spain received by far the largest number of international visitors.", "cn": "五个国家中，西班牙接待的国际游客数量遥遥领先。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["higher / lower than", "【通用】比较级 + than", "The proportion of renters in the capital was higher than that in rural areas."],
+            ["much / far / considerably + 比较级", "【正式】加强差距；不能用 very", "Rail travel was far more popular than coach travel among young adults."],
+            ["slightly / a little + 比较级", "【通用】差距很小", "Women spent slightly more time on volunteering than men."],
+            ["the highest / the lowest / the largest", "【通用】the + 最高级，三者及以上", "Spain recorded the highest number of international visitors of the five countries."],
+            ["the second / third + 最高级", "【正式】第二、第三……", "Cycling was the second most common way of getting to school."],
+            ["by far the + 最高级", "【正式】遥遥领先", "Rice was by far the most important crop in the region."],
+            ["that of / those of", "【正式】替代前面的名词，避免重复", "The average salary in the capital was higher than that of other cities."]
+          ]
+        }
+      },
+      {
+        "heading": "倍数与差距",
+        "body": "倍数是 Task 1 高分常用的比较方式。核心句型是 **X times as + 形容词 + as**；两倍用 **twice**，一半用 **half as ... as**。也可以用名词结构 **X times the number / amount of ...**。\n\n差距用 **by** 表示：A exceeded B **by** 10 percentage points。两个百分比之间的差叫 **percentage points**（百分点），不是 per cent：从 12% 降到 9% 是下降了 3 个百分点，而不是下降了 3%。",
+        "examples": [
+          { "en": "Young people were twice as likely as pensioners to shop online.", "cn": "年轻人网购的可能性是退休人员的两倍。" },
+          { "en": "The gap between the two age groups narrowed from 15 to 6 percentage points.", "cn": "两个年龄组之间的差距从 15 个百分点缩小到 6 个百分点。", "note": "gap narrowed / widened 描述差距变化。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["twice / three times as + 形容词 + as", "【通用】两倍用 twice，三倍及以上用 X times", "Young people were twice as likely as pensioners to shop online."],
+            ["half as + 形容词 + as", "【正式】是……的一半", "Rural households were only half as likely to have fast broadband as urban ones."],
+            ["X times the amount / number of", "【正式】名词结构表示倍数", "Households in the north used three times the amount of heating fuel used in the south."],
+            ["exceed sth by + 差值", "【正式】超过……多少", "Spending on healthcare exceeded spending on education by $20 billion."],
+            ["a gap / difference of X between A and B", "【正式】两者之间的差距", "There was a gap of 15 percentage points between the two age groups."],
+            ["the gap narrowed / widened", "【正式】差距缩小 / 扩大", "The gap between male and female graduates narrowed over the decade."],
+            ["percentage points", "【正式】百分比之间的差值", "The rate fell from 12% to 9%, a drop of three percentage points."]
+          ]
+        }
+      },
+      {
+        "heading": "对比连接：whereas、compared with、in contrast",
+        "body": "把两组数据放进同一句，用 **whereas / while** 连接两个完整分句；**compared with / in comparison with** 是介词短语，后面只接名词短语；**In contrast / By contrast** 是副词短语，放在第二个句子句首并加逗号。\n\n这一组最容易错的是**词性**：先看后面接的是句子还是名词，再决定用哪个。",
+        "examples": [
+          { "en": "Car use declined in the city centre, whereas it increased in the suburbs.", "cn": "市中心的汽车使用量下降了，而郊区则上升了。", "note": "whereas 前后都是完整分句。" },
+          { "en": "Only 18% of adults smoked in 2020, compared with 32% in 2000.", "cn": "2020 年只有 18% 的成年人吸烟，而 2000 年为 32%。", "note": "compared with 后接名词短语 32% in 2000。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["whereas / while", "【正式】连词，连接两个对比的分句；while 口语也常用", "Sales of tea rose steadily, whereas coffee sales remained flat."],
+            ["compared with / compared to + 名词", "【通用】介词短语，后接名词", "Only 18% of adults smoked in 2020, compared with 32% in 2000."],
+            ["in comparison with + 名词", "【正式】与……相比", "In comparison with private schools, state schools had larger classes."],
+            ["In contrast, / By contrast, + 句子", "【正式】副词短语，放第二句句首并加逗号", "Tea consumption rose steadily. By contrast, coffee consumption remained flat."],
+            ["unlike + 名词", "【通用】介词，与……不同", "Unlike the other cities, Oslo saw a fall in housing prices."],
+            ["similarly / likewise", "【正式】表示相同趋势", "Japan's population is ageing. Similarly, Italy has a growing number of people over 65."],
+            ["follow a similar pattern / trend", "【正式】走势相似", "Germany followed a similar pattern, with figures rising until 2015."],
+            ["the same as / similar to", "【通用】相同 / 相似", "The figure for 2019 was almost the same as that for 2009."]
+          ]
+        }
+      },
+      {
+        "heading": "the former / the latter 与成对结构",
+        "body": "Task 2 里提到两个对象后，再次指代可用 **the former**（前者）和 **the latter**（后者），避免重复长名词。它们只能用于**恰好两个**对象；三个及以上用 the first / the last，或直接重复名词。\n\n用之前先确认读者能一眼对上号：如果两个对象相隔太远，直接重复名词反而更清楚。",
+        "examples": [
+          { "en": "Some people prefer to live in cities, while others choose the countryside; the former value convenience, whereas the latter value peace and quiet.", "cn": "有人喜欢住在城市，有人选择乡村；前者看重便利，后者看重安宁。" },
+          { "en": "The figures for Canada and Australia were 40% and 35% respectively.", "cn": "加拿大和澳大利亚的数据分别是 40% 和 35%。", "note": "respectively 放句末，数值顺序与前面的国家顺序一致。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["the former ..., the latter ...", "【正式】前者……后者……，只用于两个对象", "Both teachers and parents were surveyed; the former were more positive about the reform than the latter."],
+            ["the former / the latter + 名词", "【正式】也可直接修饰名词", "Of the two proposals, the latter option is cheaper."],
+            ["On the one hand, ... On the other hand, ...", "【正式】对照同一问题的两个方面", "On the one hand, online courses are flexible. On the other hand, they require strong self-discipline."],
+            ["both A and B / neither A nor B", "【通用】两者都 / 两者都不", "Both rail and bus fares rose in 2018, but neither increased by more than 5%."],
+            ["respectively", "【正式】分别，放句末", "The figures for Canada and Australia were 40% and 35% respectively."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "The figure for France was higher than Spain.", "right": "The figure for France was higher than that for Spain.", "why": "比较对象要对等：数字和数字比，用 that for 指代前面的 the figure。" },
+      { "wrong": "The rate was very higher than in 2010.", "right": "The rate was much higher than in 2010.", "why": "very 不能修饰比较级，要用 much、far、considerably、a lot。" },
+      { "wrong": "Urban incomes were two times as high as rural incomes.", "right": "Urban incomes were twice as high as rural incomes.", "why": "两倍在写作中习惯用 twice；三倍及以上才用 three times as ... as。" },
+      { "wrong": "Car sales rose. Whereas bike sales fell.", "right": "Car sales rose, whereas bike sales fell.", "why": "whereas 是连词，必须把两个分句连在同一句里，不能单独引导一个句子。" },
+      { "wrong": "Tea, coffee and juice were all popular, but the latter was the cheapest.", "right": "Tea, coffee and juice were all popular, but juice was the cheapest.", "why": "the latter 只能指两项中的后者；三项及以上直接重复名词或用 the last。" }
+    ],
+    "exercises": [
+      { "id": "lang-comparison-q1", "type": "mcq", "q": "Bus fares rose by 10%, ___ train fares remained unchanged.", "options": ["whereas", "compared with", "in contrast"], "answer": "whereas", "explain": "空格后是完整分句，要用连词 whereas；compared with 后接名词，in contrast 要放在句首并加逗号。" },
+      { "id": "lang-comparison-q2", "type": "mcq", "q": "The number of male nurses was ___ lower than that of female nurses.", "options": ["far", "very", "more"], "answer": "far", "explain": "加强比较级用 far / much；very 不能修饰比较级，more lower 是重复比较。" },
+      { "id": "lang-comparison-q3", "type": "correct", "q": "The average temperature in July was higher than January.", "answer": ["The average temperature in July was higher than that in January.", "The average temperature in July was higher than in January."], "explain": "气温要和气温比，补上 that in，或保留介词写成 than in January。" },
+      { "id": "lang-comparison-q4", "type": "correct", "q": "Japan had the most high life expectancy of the five countries.", "answer": ["Japan had the highest life expectancy of the five countries."], "explain": "high 是单音节形容词，最高级是 the highest，不用 the most high。" },
+      { "id": "lang-comparison-q5", "type": "fill", "q": "用 compared with 改写：In 2020, 45% of homes had solar panels; in 2010, only 12% had them. → In 2020, 45% of homes had solar panels, ___ only 12% in 2010.", "answer": ["compared with"], "explain": "compared with 是介词短语，后面直接接名词短语 only 12% in 2010，不需要再写动词。" },
+      { "id": "lang-comparison-q6", "type": "fill", "q": "用 the former / the latter 改写：Some students choose public universities and others choose private ones; private universities usually charge higher fees. → Some students choose public universities and others choose private ones; ___ usually charge higher fees.", "answer": ["the latter"], "explain": "private universities 是后提到的对象，用 the latter 指代。" }
+    ],
+    "related": {
+      "grammarTags": ["比较级和最高级", "比较结构"],
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-cause-effect",
+    "domain": "language",
+    "track": "writing",
+    "title": "因果关系",
+    "titleEn": "Cause and effect",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 30,
+    "minutes": 25,
+    "summary": "分清 because of、due to、lead to、result in、as a result 等表达的词性和搭配，在 Task 2 里把原因和结果写清楚、写对。",
+    "sections": [
+      {
+        "heading": "表示原因：because、because of、due to",
+        "body": "因果表达最常见的错误不是意思错，而是**词性错**。同样表示「因为」，**because** 是连词，后接句子；**because of / due to / owing to** 是介词短语，后接名词或动名词。\n\n写之前问自己：**后面接的是句子还是名词？**\n\n另外，**the reason for** 后接名词，**the reason why** 后接句子；reason 后面的表语从句用 that，不用 because。",
+        "examples": [
+          { "en": "Many students work part-time because tuition fees have risen.", "cn": "因为学费上涨，许多学生做兼职。", "note": "because + 完整句子。" },
+          { "en": "The rise in obesity is largely due to changes in diet.", "cn": "肥胖率上升主要是饮食变化造成的。", "note": "be due to + 名词，due to 作表语。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["because / as / since + 分句", "【通用】连词；as、since 多用于读者已知的原因，常放句首", "Since many young people cannot afford to buy a home, they rent for longer."],
+            ["because of + 名词", "【通用】介词短语", "The match was postponed because of heavy rain."],
+            ["due to + 名词", "【正式】介词短语；可作表语：be due to", "The rise in obesity is largely due to changes in diet."],
+            ["owing to + 名词", "【正式】放句首或句中，一般不放在 be 后作表语", "Owing to rising costs, many small shops have closed."],
+            ["as a result of + 名词", "【正式】由于……的结果", "As a result of the new policy, recycling rates doubled."],
+            ["the main reason for sth is that ...", "【正式】reason for + 名词；表语从句用 that", "The main reason for this trend is that housing in the city centre has become unaffordable."],
+            ["stem from / be caused by", "【正式】源于 / 由……引起", "Many health problems stem from a lack of physical activity."]
+          ]
+        }
+      },
+      {
+        "heading": "表示结果：lead to、result in、cause",
+        "body": "这一组都是**动词**，句型是 **原因 + lead to / result in / cause + 结果**。lead to、result in、contribute to 里的 to 和 in 都是**介词**，后面只接名词或动名词，不接动词原形。\n\n**result in** 和 **result from** 方向相反：A results in B（A 导致 B），B results from A（B 源于 A）。写之前先确认谁是因、谁是果。",
+        "examples": [
+          { "en": "The closure of the factory resulted in hundreds of job losses.", "cn": "工厂倒闭导致数百人失业。", "note": "原因作主语 + result in + 结果。" },
+          { "en": "High rents cause many young couples to delay starting a family.", "cn": "高房租让许多年轻夫妇推迟生育。", "note": "cause sb to do sth。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["lead to + 名词 / doing", "【通用】导致", "Spending too much time online can lead to poor sleep."],
+            ["result in + 名词 / doing", "【正式】导致，主语是原因", "The closure of the factory resulted in hundreds of job losses."],
+            ["result from + 原因", "【正式】方向相反：结果 + result from + 原因", "Many road accidents result from drivers using their phones."],
+            ["cause + 名词 / cause sb to do", "【通用】多用于负面结果", "Heavy traffic causes serious air pollution in many cities."],
+            ["contribute to + 名词", "【正式】是原因之一，不是唯一原因", "Fast food has contributed to rising rates of obesity."],
+            ["give rise to + 名词", "【正式】引发，书面语", "The growth of online shopping has given rise to new types of jobs."],
+            ["have an effect / impact on + 名词", "【正式】对……有影响；effect 是名词，affect 是动词", "Long working hours have a negative effect on family life."]
+          ]
+        }
+      },
+      {
+        "heading": "连接两个句子：as a result、therefore、consequently",
+        "body": "原因和结果分别是两个完整句子时，用这一组**副词**衔接。它们通常放在第二句句首，后面加逗号；也可以放在分号后：...; therefore, ...。\n\n这些词是副词，**不能像 so 那样只用逗号连接两个句子**。It rained, therefore we stayed at home 是典型的逗号连句错误。",
+        "examples": [
+          { "en": "Many rural schools have closed. As a consequence, some children travel over an hour to get to class.", "cn": "许多乡村学校关闭了，结果一些孩子要花一个多小时去上学。" },
+          { "en": "Many young people leave the village, which leads to a shortage of farm workers.", "cn": "许多年轻人离开村子，这导致农场劳动力短缺。", "note": "which 指代前面整句话。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["As a result, / As a consequence,", "【正式】放第二句句首，后加逗号", "Public transport is cheap and reliable. As a result, fewer people drive to work."],
+            ["therefore", "【正式】副词；前面用句号或分号", "Older drivers may react more slowly; therefore, regular health checks are sensible."],
+            ["consequently", "【正式】因此", "Fewer people buy newspapers. Consequently, many local papers have shut down."],
+            ["so", "【通用】连词，可用逗号连接两个分句", "Housing is expensive, so many graduates live with their parents."],
+            ["This means that ...", "【通用】解释结果，Task 2 很实用", "Most people now shop online. This means that high streets are getting quieter."],
+            [", which leads to / which means", "【正式】非限制性定语从句，指代前面整句", "Many young people leave the village, which leads to a shortage of farm workers."],
+            ["For this reason,", "【正式】出于这个原因", "Fresh food is expensive in remote areas. For this reason, many families rely on tinned food."]
+          ]
+        }
+      },
+      {
+        "heading": "把因果链写完整",
+        "body": "Task 2 只写「A 导致 B」往往不够，考官看的是推理是否完整。好的写法是**因果链**：原因 → 直接结果 → 更深一层的影响，每一步换一个因果表达，句子既清楚又不重复。\n\n例如：远程办公减少了通勤时间（原因 → 直接结果）；员工因此有了更多空闲（进一步结果）；这可能改善心理健康（更深的影响，用 may 保留语气）。",
+        "examples": [
+          { "en": "Working from home has reduced the time people spend commuting. As a result, many employees have more free time, which may lead to better mental health.", "cn": "在家办公减少了人们的通勤时间，因此许多员工有了更多空闲时间，这可能有助于改善心理健康。", "note": "一段话里用了 as a result 和 which may lead to 两种连接方式。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["If + 一般现在时, ... will / can ...", "【通用】用条件引出结果", "If public transport becomes cheaper, more people will leave their cars at home."],
+            ["the more ..., the more / less ...", "【通用】越……越……", "The more time children spend on screens, the less time they spend outdoors."],
+            ["so + 形容词 + that / such + 名词 + that", "【通用】如此……以至于", "Rents have become so high that many nurses cannot afford to live near their hospitals."],
+            ["By + doing, ...", "【正式】通过某种做法带来结果", "By investing in cycle lanes, cities can reduce traffic jams."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Because of prices are rising, people buy less.", "right": "Because prices are rising, people buy less.", "why": "because of 是介词短语，后接名词（because of rising prices）；后面是完整句子时用 because。" },
+      { "wrong": "Because the city is crowded, so many people move to the suburbs.", "right": "Because the city is crowded, many people move to the suburbs.", "why": "because 和 so 不能在同一句里连用，二选一；这和中文「因为……所以……」不同。" },
+      { "wrong": "Pollution can lead to people get sick.", "right": "Pollution can lead to illness.", "why": "lead to 的 to 是介词，后接名词或动名词，不接动词原形。" },
+      { "wrong": "The new law resulted from a sharp fall in accidents.", "right": "The new law resulted in a sharp fall in accidents.", "why": "result in 接结果，result from 接原因。事故减少是新法律带来的结果，所以用 result in。" },
+      { "wrong": "Fewer people drive, therefore the air is cleaner.", "right": "Fewer people drive; therefore, the air is cleaner.", "why": "therefore 是副词，不能只用逗号连接两个句子；用分号或句号断开，或改成连词 so。" },
+      { "wrong": "Smartphones have a great affect on teenagers.", "right": "Smartphones have a great effect on teenagers.", "why": "affect 是动词，effect 是名词；have an effect on 等于 affect。" }
+    ],
+    "exercises": [
+      { "id": "lang-cause-effect-q1", "type": "mcq", "q": "The flight was delayed ___ a technical problem.", "options": ["because", "due to", "so"], "answer": "due to", "explain": "空格后是名词短语 a technical problem，要用介词短语 due to；because 后接句子。" },
+      { "id": "lang-cause-effect-q2", "type": "mcq", "q": "A poor diet can ___ serious health problems later in life.", "options": ["result in", "result from", "be resulted"], "answer": "result in", "explain": "主语 a poor diet 是原因，后面接结果用 result in；result 是不及物动词，没有被动语态。" },
+      { "id": "lang-cause-effect-q3", "type": "correct", "q": "Because the rent was too high, so we moved out.", "answer": ["Because the rent was too high, we moved out.", "The rent was too high, so we moved out."], "explain": "because 和 so 只能保留一个。" },
+      { "id": "lang-cause-effect-q4", "type": "correct", "q": "Long working hours can lead to people feel stressed.", "answer": ["Long working hours can lead to people feeling stressed.", "Long working hours can lead to stress.", "Long working hours can make people feel stressed."], "explain": "lead to 后接名词或动名词，feel 要改成 feeling，或换成名词 stress。" },
+      { "id": "lang-cause-effect-q5", "type": "fill", "q": "用 as a result 改写：The factory closed, so hundreds of workers lost their jobs. → The factory closed. ___, hundreds of workers lost their jobs.", "answer": ["As a result"], "explain": "as a result 是副词短语，放在第二句句首并加逗号。" },
+      { "id": "lang-cause-effect-q6", "type": "fill", "q": "用 result in 改写：Because the city built more cycle lanes, traffic fell by 10%. → The new cycle lanes ___ a 10% fall in traffic.", "answer": ["resulted in"], "explain": "原因 the new cycle lanes 作主语，result in 接结果；事情已经发生，用过去式 resulted in。" }
+    ],
+    "related": {
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-concession",
+    "domain": "language",
+    "track": "writing",
+    "title": "让步与反驳",
+    "titleEn": "Conceding and counter-arguing",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 40,
+    "minutes": 25,
+    "summary": "用 although、despite、admittedly ... however、while it is true that 等句型先承认对方观点再反驳，写出 Task 2 有层次的讨论段。",
+    "sections": [
+      {
+        "heading": "although / even though：连词，后接句子",
+        "body": "让步就是「虽然……但是……」。中文习惯「虽然」和「但是」成对出现，英文**只能选一个**：although 引导从句时，主句前不再加 but。\n\n**even though** 语气比 although 强，强调「即使事实如此」；**though** 更随意，口语里还可以放在句末。**while** 放在句首时也可以表示「虽然」，在写作里很常见。",
+        "examples": [
+          { "en": "Although online learning is flexible, it requires a great deal of self-discipline.", "cn": "虽然网上学习很灵活，但需要很强的自律。", "note": "主句前不加 but。" },
+          { "en": "Even though the museum is free, few local residents visit it.", "cn": "即使博物馆免费，当地居民也很少去参观。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["although + 分句", "【通用】连词，放句首或句中", "Although online learning is flexible, it requires a great deal of self-discipline."],
+            ["even though + 分句", "【通用】强调事实与结果的反差", "Even though the museum is free, few local residents visit it."],
+            ["..., though.（放句末）", "【口语】副词，放在第二句末尾", "The new library is great. It closes too early, though."],
+            ["while + 分句", "【正式】放句首表示「虽然」", "While tourism creates jobs, it can also damage local culture."],
+            ["much as + 分句", "【正式】尽管很……，多接 like、enjoy、admire 等", "Much as I enjoy city life, I can see why some people prefer the countryside."]
+          ]
+        }
+      },
+      {
+        "heading": "despite / in spite of：介词，后接名词",
+        "body": "despite 和 in spite of 意思相同，都是**介词**，后接名词、代词或动名词，不能直接接句子。想接句子时用 **despite the fact that + 分句**。\n\n最常见的错误是 **despite of**：despite 本身就是介词，后面不加 of；in spite of 才带 of。\n\n用 despite + doing 时，doing 的逻辑主语必须是主句的主语。",
+        "examples": [
+          { "en": "Despite the high cost, many parents pay for extra tuition.", "cn": "尽管费用很高，许多家长还是花钱请家教。", "note": "despite + 名词短语。" },
+          { "en": "Electric cars are getting cheaper. Even so, many families still cannot afford one.", "cn": "电动车越来越便宜了。即便如此，许多家庭还是买不起。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["despite + 名词", "【通用】介词，后面不加 of", "Despite the high cost, many parents pay for extra tuition."],
+            ["despite + doing", "【正式】doing 的主语与主句主语一致", "Despite earning a good salary, he struggled to save money."],
+            ["in spite of + 名词 / doing", "【通用】等于 despite", "In spite of the rain, the festival attracted thousands of visitors."],
+            ["despite the fact that + 分句", "【正式】需要接句子时的写法", "Despite the fact that cars are expensive to run, car ownership keeps rising."],
+            ["Nevertheless, / Nonetheless,", "【正式】副词，放第二句句首", "The policy is unpopular. Nevertheless, it has reduced traffic in the city centre."],
+            ["Even so,", "【通用】即便如此", "Electric cars are getting cheaper. Even so, many families still cannot afford one."]
+          ]
+        }
+      },
+      {
+        "heading": "先承认再反驳：admittedly ... however",
+        "body": "Task 2 的高分段落常用「**让步 → 反驳**」结构：先承认对方观点有一定道理，再说明为什么你的立场更站得住。这样显得客观，也能把论证展开。\n\n常见组合：**Admittedly / Granted / It is true that** 引出让步，再用 **However / but / Still** 转回自己的观点。**While it is true that** 引导的是从句，主句前只用逗号，不再加 however。",
+        "examples": [
+          { "en": "Admittedly, school uniforms can be expensive. However, they reduce the pressure on students to wear fashionable clothes.", "cn": "诚然，校服可能很贵。然而，校服减轻了学生追赶时尚穿着的压力。" },
+          { "en": "While it is true that zoos keep animals in captivity, they also protect many endangered species.", "cn": "虽然动物园确实圈养动物，但它们也保护了许多濒危物种。", "note": "while 从句后直接接主句，不加 however。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["Admittedly, ... However, ...", "【正式】两句分写：先承认，再转折", "Admittedly, school uniforms can be expensive. However, they reduce the pressure on students to wear fashionable clothes."],
+            ["It is true that ..., but ...", "【通用】承认 + but 转折", "It is true that video games can be addictive, but some of them help children develop problem-solving skills."],
+            ["While it is true that ..., ...", "【正式】while 从句 + 主句，中间只用逗号", "While it is true that zoos keep animals in captivity, they also protect many endangered species."],
+            ["Granted, ... Still, ...", "【正式】Granted 等于 admittedly；Still 表示「尽管如此」", "Granted, public transport is not always convenient. Still, it is far cheaper than driving."],
+            ["To some extent, ..., but ...", "【正式】部分认同后再限定", "To some extent, the government should fund the arts, but this should not come before healthcare."],
+            ["That said, ...", "【通用】话虽如此", "Working from home saves time. That said, it can make people feel isolated."]
+          ]
+        }
+      },
+      {
+        "heading": "反驳：指出对方观点的漏洞",
+        "body": "让步之后要有真正的**反驳**：说明对方观点哪里站不住，比如证据不足、只看短期、忽略了某些人群。下面的句型能让反驳礼貌又有力。\n\n不要只写 This is wrong，后面一定要接理由或例子。",
+        "examples": [
+          { "en": "Some claim that building more roads will end traffic jams. However, this argument ignores the fact that new roads often attract even more cars.", "cn": "有人说多修路就能解决堵车。然而，这种说法忽略了新路往往会吸引更多车辆。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["However, this argument ignores ...", "【正式】指出对方忽略的因素", "However, this argument ignores the cost of maintaining new roads."],
+            ["This view fails to take into account ...", "【正式】没有考虑到……", "This view fails to take into account the needs of elderly people."],
+            ["On closer inspection, ...", "【正式】仔细分析后发现", "On closer inspection, the benefits of the scheme seem much smaller."],
+            ["This is not necessarily the case.", "【正式】未必如此", "Some claim that expensive schools always produce better results. This is not necessarily the case."],
+            ["It does not follow that ...", "【正式】并不意味着……", "Children spend more time online, but it does not follow that they read less."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Although the job is well paid, but it is very stressful.", "right": "Although the job is well paid, it is very stressful.", "why": "although 和 but 不能同时出现，二选一；也可以写成 The job is well paid, but it is very stressful。" },
+      { "wrong": "Despite of the bad weather, the race went ahead.", "right": "Despite the bad weather, the race went ahead.", "why": "despite 本身是介词，后面不加 of；带 of 的是 in spite of。" },
+      { "wrong": "Despite the city is expensive, many people want to live there.", "right": "Although the city is expensive, many people want to live there.", "why": "despite 是介词，不能直接接句子；接句子用 although，或写成 despite the fact that the city is expensive。" },
+      { "wrong": "While it is true that cars are convenient, however, they cause pollution.", "right": "While it is true that cars are convenient, they cause pollution.", "why": "while 从句已经表示让步，主句前不再加 however。" },
+      { "wrong": "Despite working long hours, the company did not pay overtime.", "right": "Despite working long hours, the employees were not paid overtime.", "why": "despite + doing 的逻辑主语必须是主句主语。加班的是员工，不是公司。" }
+    ],
+    "exercises": [
+      { "id": "lang-concession-q1", "type": "mcq", "q": "___ the heavy traffic, we arrived on time.", "options": ["Although", "Despite", "Despite of"], "answer": "Despite", "explain": "空格后是名词短语 the heavy traffic，用介词 despite；although 后接句子，despite of 是错误搭配。" },
+      { "id": "lang-concession-q2", "type": "mcq", "q": "Admittedly, online shops offer lower prices. ___, they cannot replace the experience of trying clothes on.", "options": ["However", "Although", "Despite"], "answer": "However", "explain": "admittedly 让步之后，第二句用副词 however 转折，后加逗号；although 和 despite 不能这样单独使用。" },
+      { "id": "lang-concession-q3", "type": "correct", "q": "Although he studied hard, but he failed the exam.", "answer": ["Although he studied hard, he failed the exam.", "He studied hard, but he failed the exam.", "He studied hard but failed the exam."], "explain": "although 和 but 二选一。" },
+      { "id": "lang-concession-q4", "type": "correct", "q": "In spite of the museum is free, few people visit it.", "answer": ["Although the museum is free, few people visit it.", "In spite of the fact that the museum is free, few people visit it.", "Even though the museum is free, few people visit it."], "explain": "in spite of 后不能直接接句子：改用 although，或加 the fact that。" },
+      { "id": "lang-concession-q5", "type": "fill", "q": "用 despite 改写：Although the weather was cold, the beach was crowded. → ___ the cold weather, the beach was crowded.", "answer": ["Despite"], "explain": "从句 the weather was cold 变成名词短语 the cold weather，前面用介词 despite。" },
+      { "id": "lang-concession-q6", "type": "fill", "q": "用 while it is true that 改写：Public transport is slow, but it is much cheaper than driving. → ___ that public transport is slow, it is much cheaper than driving.", "answer": ["While it is true"], "explain": "while it is true that 引导让步从句，主句前只用逗号，不加 but 或 however。" }
+    ],
+    "related": {
+      "grammarTags": ["让步状语", "despite", "in spite of"],
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-examples",
+    "domain": "language",
+    "track": "writing",
+    "title": "举例与说明",
+    "titleEn": "Giving examples and illustrating",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 50,
+    "minutes": 25,
+    "summary": "用 for instance、such as、a case in point is 等表达给观点配例子，并学会把例子写具体、可信，让 Task 2 主体段更有说服力。",
+    "sections": [
+      {
+        "heading": "for example / for instance：引出完整例句",
+        "body": "**for example** 和 **for instance** 意思相同，都是副词短语，后面通常接**完整句子**。可以放句首（后加逗号），也可以插在句中（前后加逗号）。两者交替使用，避免整篇都是 for example。\n\n**e.g.** 是缩写，适合放在括号里或笔记中；正式作文的正文里最好写全。",
+        "examples": [
+          { "en": "Some jobs are hard to automate. For example, nurses need to respond to patients' emotions.", "cn": "有些工作很难自动化。比如护士需要回应病人的情绪。" },
+          { "en": "Older people, for instance, may find online banking confusing.", "cn": "比如说，老年人可能觉得网上银行很难用。", "note": "插在句中时前后都加逗号。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["For example, + 句子", "【通用】放句首，后加逗号", "Some jobs are hard to automate. For example, nurses need to respond to patients' emotions."],
+            ["For instance, + 句子", "【正式】与 for example 交替使用", "Cities can encourage cycling. For instance, some European cities close their centres to cars on Sundays."],
+            ["..., for example, ...", "【正式】插在主语后，前后加逗号", "Older people, for example, may find online banking confusing."],
+            ["To illustrate, ... / To give an example, ...", "【正式】引出较长的例子", "To illustrate, a family that cooks at home three times a week can save a considerable amount of money."],
+            ["e.g.", "【正式】只放在括号或笔记里", "Outdoor activities (e.g. hiking and cycling) are becoming more popular."]
+          ]
+        }
+      },
+      {
+        "heading": "such as / including：列举名词",
+        "body": "**such as** 后接**名词或名词短语**，从一类事物中举出几个，不接完整句子。它要紧跟在被说明的名词后面：sports such as tennis and golf。\n\n**including** 表示「包括」，暗示还有更多；**like** 意思接近 such as，但更口语，正式作文优先用 such as。用 such as 列举时，末尾**不再加 etc.**。",
+        "examples": [
+          { "en": "Traditional skills such as weaving and pottery are disappearing.", "cn": "织布、制陶等传统手艺正在消失。" },
+          { "en": "Several countries, including Japan and South Korea, have rapidly ageing populations.", "cn": "包括日本和韩国在内的几个国家人口老龄化速度很快。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["such as + 名词", "【通用】紧跟在被说明的名词后", "Traditional skills such as weaving and pottery are disappearing."],
+            ["including + 名词", "【通用】包括，暗示不止这些", "Several countries, including Japan and South Korea, have rapidly ageing populations."],
+            ["like + 名词", "【口语】写作中用 such as 更稳妥", "I love outdoor sports like rock climbing and kayaking."],
+            ["particularly / especially + 名词", "【通用】突出其中最典型的一项", "Fast food is popular among young people, particularly teenagers."],
+            ["notably", "【正式】尤其是，引出最突出的例子", "Several industries, notably tourism and retail, depend heavily on part-time workers."]
+          ]
+        }
+      },
+      {
+        "heading": "a case in point：用典型案例支撑观点",
+        "body": "**A case in point is ...**（……就是一个恰当的例子）比 for example 更正式，适合引出**一个具体的人、地方或事件**来支撑上一句的观点。同类表达还有 **This is clearly illustrated by ...**、**... is a clear example of this**。\n\n前面一句必须先给出**观点**，后面才接案例，否则读者不知道这个例子要证明什么。",
+        "examples": [
+          { "en": "Public investment can transform run-down areas. A case in point is the old port district in my city, which is now full of cafes and small galleries.", "cn": "公共投资可以让破败的街区焕然一新。我所在城市的老港区就是一个恰当的例子，现在那里满是咖啡馆和小画廊。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["A case in point is ...", "【正式】引出一个典型案例", "Public investment can transform run-down areas. A case in point is the old port district in my city."],
+            ["... is a clear / good example of this.", "【通用】案例作主语", "The rise of food delivery apps is a clear example of this."],
+            ["This is clearly illustrated by ...", "【正式】被动句引出证据", "This is clearly illustrated by the popularity of second-hand clothing apps."],
+            ["This can be seen in ...", "【正式】在……中可以看出", "This can be seen in the growing number of electric buses in Chinese cities."],
+            ["One example of this is ...", "【通用】其中一个例子是", "One example of this is the four-day working week that some companies have tried."],
+            ["In my own experience, ...", "【通用】用个人经历作例子，写作中少量使用", "In my own experience, studying in a group made it much easier to stay motivated."]
+          ]
+        }
+      },
+      {
+        "heading": "把例子写具体",
+        "body": "考官在 Task Response 里看的是观点是否**得到充分支持**。空泛的例子（Technology is useful. For example, many people use technology.）等于没有举例。把例子写具体有四个抓手：\n\n1. **谁**：具体人群，如 working parents、first-year university students\n2. **在哪里、什么时候**：a small town、during the pandemic、in the past decade\n3. **做了什么、结果如何**：写出动作和后果\n4. **和观点的关系**：最后用一句扣回论点，如 This shows that ...\n\n不要编造看起来很精确的统计数据。用 many、a growing number、in some cases 这类表达更安全；例子可以是假设的，但要合理。",
+        "examples": [
+          { "en": "Technology can make farming more efficient. For example, some farmers now check soil moisture on their phones and water their crops only when necessary. This shows that simple digital tools can save both water and money.", "cn": "科技能提高农业效率。比如，一些农民现在用手机查看土壤湿度，只在需要时浇水。这说明简单的数字工具既能省水又能省钱。", "note": "观点 → 具体的人和做法 → 结果 → This shows that 扣回观点。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["This shows / suggests that ...", "【通用】例子之后扣回观点", "This shows that small changes in daily habits can have a large impact."],
+            ["Take ... as an example.", "【通用】以……为例", "Take my cousin as an example. She learned to code online and now works as a web designer."],
+            ["Imagine ... / Suppose ...", "【通用】用合理的假设情景举例", "Imagine a student who works twenty hours a week to pay the rent; she will have far less time to study."],
+            ["In the case of ...", "【正式】就……而言", "In the case of rural areas, internet access is still limited."],
+            ["namely", "【正式】即，明确点出所指", "Two groups benefit most, namely students and retired people."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "Some sports are dangerous, such as boxing is dangerous.", "right": "Some sports, such as boxing, are dangerous.", "why": "such as 后接名词，不接完整句子。" },
+      { "wrong": "Many people now work from home. For example my sister.", "right": "Many people now work from home. For example, my sister has worked remotely since 2021.", "why": "for example 放句首时后加逗号，后面要写成完整句子，不能只留一个名词。" },
+      { "wrong": "Hobbies such as reading, painting, gardening, etc. help people relax.", "right": "Hobbies such as reading, painting and gardening help people relax.", "why": "such as 本身已表示只列了一部分，不再加 etc.；最后两项之间用 and。" },
+      { "wrong": "Such as my hometown, many small towns are losing young people.", "right": "Many small towns, such as my hometown, are losing young people.", "why": "such as 不能放在句首引出例子，要紧跟在它说明的名词后面。" },
+      { "wrong": "Technology is useful. For example, many people use technology in many ways.", "right": "Technology is useful. For example, farmers can now check soil conditions on their phones.", "why": "例子要具体到人、场景和结果；换个说法重复观点不算举例。" }
+    ],
+    "exercises": [
+      { "id": "lang-examples-q1", "type": "mcq", "q": "Many traditional crafts, ___ paper cutting, are taught in after-school clubs.", "options": ["such as", "for instance is", "a case in point is"], "answer": "such as", "explain": "空格后只有名词 paper cutting，用 such as 列举；另外两个选项后面都要接完整的表语结构。" },
+      { "id": "lang-examples-q2", "type": "mcq", "q": "Public parks improve mental health. ___ the new riverside park in my town, where office workers now jog during their lunch break.", "options": ["A case in point is", "Such as", "For example,"], "answer": "A case in point is", "explain": "空格后是名词短语，需要一个带动词的结构构成完整句子；Such as 不能放句首，For example 后接名词短语会成为不完整的句子。" },
+      { "id": "lang-examples-q3", "type": "correct", "q": "Some foods are high in sugar, such as cakes are high in sugar.", "answer": ["Some foods, such as cakes, are high in sugar.", "Some foods are high in sugar, such as cakes."], "explain": "such as 后只接名词 cakes，删去重复的分句。" },
+      { "id": "lang-examples-q4", "type": "correct", "q": "Outdoor activities such as hiking, cycling, swimming, etc. are good for health.", "answer": ["Outdoor activities such as hiking, cycling and swimming are good for health.", "Outdoor activities such as hiking, cycling, and swimming are good for health."], "explain": "such as 和 etc. 不连用，删去 etc.，最后两项之间加 and。" },
+      { "id": "lang-examples-q5", "type": "fill", "q": "用 a case in point 改写：For example, Singapore has very strict laws on littering. → ___ Singapore, which has very strict laws on littering.", "answer": ["A case in point is"], "explain": "A case in point is + 名词，后面用定语从句补充细节。" },
+      { "id": "lang-examples-q6", "type": "fill", "q": "用 this shows that 在例子后扣回观点：My neighbour lost 10 kg after he started cycling to work. ___ regular exercise can make a real difference to health.", "answer": ["This shows that"], "explain": "This shows that 把具体例子和观点「规律运动有益健康」连接起来。" }
+    ],
+    "related": {
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-opinion-hedging",
+    "domain": "language",
+    "track": "writing",
+    "title": "表达观点与 hedging",
+    "titleEn": "Giving opinions and hedging",
+    "level": "B2",
+    "skills": ["writing", "speaking"],
+    "order": 60,
+    "minutes": 30,
+    "summary": "清楚表明立场，同时用 may、it seems likely、to a large extent 等适度保留语气，避免绝对化结论；写作和口语都适用。",
+    "sections": [
+      {
+        "heading": "清楚表明立场",
+        "body": "Task 2 要求立场**清晰且前后一致**：开头说同意，结尾就不能变成不同意。表达观点时不必句句都是 I think，可以换成更有分量的说法。\n\n雅思写作可以用第一人称（I believe、in my view），关键是全文立场一致。口语里可以用更随意的 I reckon、personally。",
+        "examples": [
+          { "en": "I would argue that cooking should be a compulsory subject in secondary schools.", "cn": "我认为烹饪应该成为中学的必修课。", "note": "I would argue 语气坚定但礼貌。" },
+          { "en": "Personally, I think working from home suits some people better than others.", "cn": "我个人觉得，在家办公对有些人更合适。", "note": "口语用法。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["In my view, / In my opinion,", "【通用】放句首，后面直接接观点", "In my view, public libraries are more important than ever."],
+            ["I would argue that ...", "【正式】坚定而礼貌", "I would argue that cooking should be a compulsory subject in secondary schools."],
+            ["I firmly believe that ...", "【正式】强烈立场", "I firmly believe that governments should invest more in public transport."],
+            ["I am convinced that ...", "【正式】确信", "I am convinced that the benefits of tourism outweigh its drawbacks."],
+            ["Personally, I think ...", "【口语】个人看法", "Personally, I think working from home suits some people better than others."],
+            ["I reckon ...", "【口语】英式口语，等于 I think", "I reckon most people would choose a shorter commute over a bigger salary."]
+          ]
+        }
+      },
+      {
+        "heading": "表达同意的程度",
+        "body": "很多题目问 To what extent do you agree or disagree?，最好说清**同意的程度**，而不只是 agree 或 disagree。to a large extent（很大程度上）、to some extent（某种程度上）、partly（部分地）都能准确标出立场。\n\nextent 前的介词是 **to**：to a large extent，不是 in a large extent。",
+        "examples": [
+          { "en": "I agree to a large extent that children should learn a second language at primary school.", "cn": "我在很大程度上同意孩子应该在小学学习第二语言。" },
+          { "en": "I agree with this view to some extent, but I believe parents also play a key role.", "cn": "我在一定程度上同意这个观点，但我认为家长也起着关键作用。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["I agree to a large extent that ...", "【正式】大部分同意", "I agree to a large extent that children should learn a second language at primary school."],
+            ["I agree with this view to some extent.", "【正式】部分同意，后面通常接 but", "I agree with this view to some extent, but I believe parents also play a key role."],
+            ["I partly agree", "【通用】部分同意", "I partly agree, because the policy would only help people in big cities."],
+            ["I completely / strongly disagree that ...", "【通用】完全不同意", "I strongly disagree that university education should be free for everyone."],
+            ["largely / mostly", "【正式】副词，修饰判断", "The problem is largely caused by poor planning."]
+          ]
+        }
+      },
+      {
+        "heading": "Hedging：用情态动词和副词保留余地",
+        "body": "**Hedging**（模糊限制语）是在不确定或有例外的地方，有意**降低语气的绝对程度**。Smartphones cause depression 太绝对，考官会觉得论证不严谨；Smartphones **may contribute to** depression in **some** teenagers 就准确得多。\n\n常用三种手段：**情态动词**（may、might、could）、**副词**（probably、arguably、generally）、**数量限定**（some、many、in most cases）。",
+        "examples": [
+          { "en": "Banning cars from city centres may reduce air pollution, but it could also hurt small businesses.", "cn": "禁止汽车进入市中心可能会减少空气污染，但也可能影响小商户。" },
+          { "en": "Young people tend to be more comfortable with new technology.", "cn": "年轻人往往更容易适应新技术。", "note": "tend to 表示「一般如此」，留出例外。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["may / might / could + 动词原形", "【通用】都表示「可能」；might 语气稍弱，could 常用于提出一种可能性", "Banning cars from city centres may reduce air pollution."],
+            ["tend to + 动词原形", "【正式】倾向于，一般如此", "Young people tend to be more comfortable with new technology."],
+            ["probably / possibly", "【通用】很可能 / 有可能", "This is probably the main reason for the decline."],
+            ["arguably", "【正式】可以说，带个人判断", "Arguably, the internet has changed education more than any other invention."],
+            ["generally / on the whole", "【正式】总体来说", "On the whole, people in rural areas live longer."],
+            ["in most cases / in some cases", "【通用】限定适用范围", "In most cases, children who read for pleasure do better at school."],
+            ["some / many + 名词", "【通用】代替 all、everyone", "Many employers now value practical skills as highly as degrees."]
+          ]
+        }
+      },
+      {
+        "heading": "It seems likely that：客观地表达推测",
+        "body": "**It + seems / appears + that** 和 **It is + 形容词 + that** 句型能把推测说得客观，不显得是个人偏见。likely 是形容词，表示「很可能」；unlikely 表示「不太可能」。\n\n也可以用事物作主语：**sth is likely to do**。这里的 to 是不定式符号，后面接**动词原形**，不接 doing，也不能漏掉 to。",
+        "examples": [
+          { "en": "It seems likely that more people will work part-time in the future.", "cn": "将来做兼职的人很可能会更多。" },
+          { "en": "The new tax is unlikely to change people's eating habits.", "cn": "新税种不太可能改变人们的饮食习惯。", "note": "be unlikely to + 动词原形。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["It seems likely that ...", "【正式】看起来很可能", "It seems likely that more people will work part-time in the future."],
+            ["sth is likely / unlikely to do", "【正式】事物作主语 + to do", "The new tax is unlikely to change people's eating habits."],
+            ["It appears that ... / It would appear that ...", "【正式】看来……", "It appears that the campaign has had little effect."],
+            ["There is some evidence that ...", "【正式】有证据表明，但不说绝对", "There is some evidence that green spaces improve mental health."],
+            ["It could be argued that ...", "【正式】引出一种可能的观点，常用来引出反方", "It could be argued that zoos are no longer necessary."]
+          ]
+        }
+      },
+      {
+        "heading": "有分寸：加强与减弱",
+        "body": "hedging 是为了**准确**，不是为了含糊。三条原则：\n\n1. **立场句不要 hedge 到看不出立场**：I think it may perhaps be possible that ... 会让考官找不到你的观点。\n2. **公认事实不必 hedge**：Water boils at 100 degrees Celsius 不需要加 may。\n3. **一句话里一个限定就够**：may possibly、might perhaps 是重复。\n\n实用做法：**观点句用坚定表达**（I would argue that ...），**论据和预测用 hedging**（this may ...、it is likely that ...）。对确有把握的结论，可以用下面的表达加强语气；不太认同时，用委婉的否定。",
+        "examples": [
+          { "en": "There is no doubt that air pollution harms health. However, it is less clear whether a car ban alone would solve the problem.", "cn": "毫无疑问，空气污染危害健康。不过，单靠禁车能否解决问题还不太清楚。", "note": "确定的事实用加强语气，不确定的推论用减弱语气。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["Clearly, / Undoubtedly,", "【正式】对有把握的结论加强语气", "Clearly, regular exercise benefits both body and mind."],
+            ["There is no doubt that ...", "【正式】毫无疑问", "There is no doubt that air pollution harms health."],
+            ["It is widely accepted that ...", "【正式】公认", "It is widely accepted that smoking damages health."],
+            ["I am not entirely convinced that ...", "【正式】委婉地表示不同意", "I am not entirely convinced that banning homework would help students."],
+            ["to a certain degree", "【正式】在一定程度上", "To a certain degree, success depends on luck."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "I agree in a large extent.", "right": "I agree to a large extent.", "why": "extent 的固定搭配是 to a ... extent，介词用 to。" },
+      { "wrong": "In my opinion, I think that schools should ban phones.", "right": "In my opinion, schools should ban phones.", "why": "In my opinion 和 I think 意思重复，二选一。" },
+      { "wrong": "Prices are likely to rising next year.", "right": "Prices are likely to rise next year.", "why": "be likely to 的 to 是不定式符号，后接动词原形；不要和 look forward to doing 里的介词 to 混淆。" },
+      { "wrong": "All teenagers are addicted to their phones.", "right": "Many teenagers spend too much time on their phones.", "why": "all、everyone、always 这类绝对词一个反例就能推翻；用 many、tend to 等限定更准确。" },
+      { "wrong": "This policy may possibly perhaps help.", "right": "This policy may help.", "why": "一句话里一个限定就够，叠用 may、possibly、perhaps 会显得没有立场。" }
+    ],
+    "exercises": [
+      { "id": "lang-opinion-hedging-q1", "type": "mcq", "q": "I agree ___ a large extent that sport should be compulsory at school.", "options": ["to", "in", "with"], "answer": "to", "explain": "固定搭配 to a large extent。" },
+      { "id": "lang-opinion-hedging-q2", "type": "mcq", "q": "Young people ___ to spend more on experiences than on possessions.", "options": ["tend", "are tending", "likely"], "answer": "tend", "explain": "tend to do 表示一般倾向，用一般现在时；likely 是形容词，前面要有 are。" },
+      { "id": "lang-opinion-hedging-q3", "type": "correct", "q": "In my opinion, I think the government should build more parks.", "answer": ["In my opinion, the government should build more parks.", "I think the government should build more parks."], "explain": "In my opinion 和 I think 重复，保留一个。" },
+      { "id": "lang-opinion-hedging-q4", "type": "correct", "q": "Electric cars are likely become cheaper in the future.", "answer": ["Electric cars are likely to become cheaper in the future."], "explain": "be likely 后要接 to + 动词原形，这里漏掉了 to。" },
+      { "id": "lang-opinion-hedging-q5", "type": "fill", "q": "用 it seems likely that 改写：More people will probably shop online in the future. → ___ more people will shop online in the future.", "answer": ["It seems likely that"], "explain": "It seems likely that 已经表达「很可能」，从句里不必再加 probably。" },
+      { "id": "lang-opinion-hedging-q6", "type": "fill", "q": "用 tend to 改写，让语气更客观：Older people always prefer cash. → Older people ___ cash.", "answer": ["tend to prefer"], "explain": "always 过于绝对，改成 tend to prefer，表示一般倾向而非人人如此。" }
+    ],
+    "related": {
+      "grammarTags": ["情态动词"],
+      "tabs": ["ielts:writing", "ielts:speaking"]
+    }
+  },
+  {
+    "id": "lang-process-map",
+    "domain": "language",
+    "track": "writing",
+    "title": "流程图与地图",
+    "titleEn": "Describing processes and maps",
+    "level": "B1",
+    "skills": ["writing"],
+    "order": 70,
+    "minutes": 35,
+    "summary": "掌握顺序词、被动语态、方位词和 was replaced by、was converted into 等变化动词，写清楚 Task 1 的流程图和地图题。",
+    "sections": [
+      {
+        "heading": "流程图：顺序词",
+        "body": "流程图要按步骤写清**先后顺序**。不要每句都用 then，换着用下面的顺序词；同一阶段同时发生的动作用 **at the same time / meanwhile**。\n\n开头可以概括全流程：The process consists of X stages, beginning with ... and ending with ...，这句可以直接充当 overview。",
+        "examples": [
+          { "en": "The process consists of six stages, beginning with the collection of used paper and ending with the production of new rolls.", "cn": "整个流程分六个阶段，从回收废纸开始，到生产新纸卷结束。" },
+          { "en": "Once the bottles have been washed, they are crushed into small pieces.", "cn": "瓶子洗净后，被压碎成小块。", "note": "once + 完成时被动，强调上一步完成。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["First, / To begin with,", "【通用】第一步", "First, the raw cotton is cleaned to remove dirt and seeds."],
+            ["Next, / Then / After that,", "【通用】中间步骤；then 不能单独连接两个句子", "Next, the fibres are spun into thread."],
+            ["Once / After + 分句", "【正式】上一步完成后", "Once the bottles have been washed, they are crushed into small pieces."],
+            ["Following this, / Subsequently,", "【正式】随后", "Following this, the mixture is heated to 200 degrees Celsius."],
+            ["At the same time, / Meanwhile,", "【通用】同时进行", "Meanwhile, the waste water is pumped into a separate tank."],
+            ["Finally, / In the final stage,", "【通用】最后一步", "In the final stage, the finished products are packed and delivered to shops."],
+            ["The process consists of X stages", "【正式】概括全流程，适合 overview", "The process consists of six stages, beginning with the collection of used paper."]
+          ]
+        }
+      },
+      {
+        "heading": "流程图：被动语态",
+        "body": "人工流程（生产、加工）中，读者关心的是**东西被怎样处理**，而不是谁来处理，所以大多数句子用**被动语态**：is / are + 过去分词。连续几个被动动作主语相同时，可以共用一个 is：is dried, packed and sent。\n\n自然流程（水循环、动物生命周期）多用**主动语态**：Water evaporates、The caterpillar forms a cocoon，因为这些变化不是人做的。",
+        "examples": [
+          { "en": "The tea leaves are picked by hand and then dried in the sun.", "cn": "茶叶由人工采摘，然后在阳光下晒干。" },
+          { "en": "The waste is taken to a recycling plant, where it is separated into different materials.", "cn": "垃圾被运到回收厂，在那里被分拣成不同材料。", "note": "where 从句把两个步骤合成一句。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["is / are + 过去分词", "【正式】一般现在时被动，描述人工流程", "The tea leaves are picked by hand and then dried in the sun."],
+            ["is / are + 过去分词 + into", "【正式】加工成……", "The clay is shaped into bricks."],
+            ["is / are + 过去分词 + to / from", "【正式】运送方向", "The milk is transported to a factory in refrigerated lorries."],
+            ["Having been + 过去分词, ...", "【正式】完成被动分词，合并两步；主语须一致", "Having been sorted, the glass is melted in a furnace."],
+            ["..., where it is + 过去分词", "【正式】用 where 从句合并两步", "The waste is taken to a recycling plant, where it is separated into different materials."],
+            ["主动语态（自然过程）", "【通用】自然变化用主动", "The young frogs leave the water and begin to live on land."]
+          ]
+        }
+      },
+      {
+        "heading": "地图题：方位与位置",
+        "body": "地图题通常比较同一地点在两个年份的变化。先用**方位词**交代位置，再写变化。方向用 north、south、east、west 和 north-east 等组合；位置关系用 next to、opposite、between 等介词。\n\n注意 **in the north of** 指在区域内部的北部，**to the north of** 指在区域之外的北面。",
+        "examples": [
+          { "en": "A large car park was built in the south-east of the town.", "cn": "镇子的东南部修了一个大停车场。", "note": "in：在镇子范围内。" },
+          { "en": "The new school is located to the west of the river.", "cn": "新学校位于河的西边。", "note": "to：在河以外的西面。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["in the north / south-east of + 区域", "【通用】在区域内部的某方位", "A large car park was built in the south-east of the town."],
+            ["to the north / west of + 地点", "【通用】在某地以外的某方向", "The new school is located to the west of the river."],
+            ["next to / beside / adjacent to", "【正式】adjacent to 最正式", "A cafe was opened adjacent to the library."],
+            ["opposite", "【通用】在……对面，后面不加 to", "The supermarket stands opposite the railway station."],
+            ["between A and B", "【通用】在 A 和 B 之间", "A footpath runs between the lake and the woods."],
+            ["along / across", "【通用】沿着 / 横穿", "A new road was built across the farmland, and trees were planted along it."],
+            ["be located / situated + 介词", "【正式】位于", "The hospital is situated in the centre of the village."],
+            ["on the outskirts of", "【正式】在……郊区", "A shopping centre was developed on the outskirts of the city."]
+          ]
+        }
+      },
+      {
+        "heading": "地图题：变化动词",
+        "body": "地图题的核心是**变化**：什么被拆除、新建、扩建、改造。描述已完成的变化用**一般过去时被动**（was built），也可以用现在完成时被动（has been built）。\n\n重点区分方向：**A was replaced by B**，A 是被拿掉的旧事物，B 是新事物；**A was converted into B**，建筑本身保留，只是用途变了。写之前先看清地图上哪个是旧的、哪个是新的。",
+        "examples": [
+          { "en": "The old fire station was converted into a museum, and the farmland to its north was replaced by a housing estate.", "cn": "旧消防站被改建成博物馆，其北面的农田则被住宅区取代。" },
+          { "en": "The church in the town centre remained unchanged.", "cn": "镇中心的教堂保持不变。", "note": "没有变化用主动语态 remained unchanged。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["was built / was constructed", "【正式】新建", "A new bridge was constructed over the river."],
+            ["was demolished", "【正式】拆除；口语可说 was knocked down", "The old factory was demolished to make way for housing."],
+            ["was replaced by + 新事物", "【正式】旧事物作主语", "The farmland was replaced by a housing estate."],
+            ["was converted into", "【正式】改建成，建筑保留、用途改变", "The old fire station was converted into a museum."],
+            ["was extended / was expanded", "【正式】扩建", "The car park was extended to twice its original size."],
+            ["was relocated to", "【正式】迁到……", "The bus station was relocated to the north of the town."],
+            ["was transformed into", "【正式】彻底改造成", "The industrial area was transformed into a waterfront park."],
+            ["remained unchanged", "【正式】没有变化，用主动语态", "The church in the town centre remained unchanged."],
+            ["make way for", "【正式】为……腾出地方", "Several shops were removed to make way for a pedestrian square."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "The leaves pick by hand.", "right": "The leaves are picked by hand.", "why": "叶子是被采摘的，人工流程要用被动语态 are picked。" },
+      { "wrong": "The park was replaced by the old houses.", "right": "The old houses were replaced by a park.", "why": "场景：旧房子被拆，原地建了公园。A was replaced by B 中 A 是被拿掉的旧事物，B 是新事物，所以旧房子作主语；错句把方向写反了。" },
+      { "wrong": "The old cinema was converted to be a gym.", "right": "The old cinema was converted into a gym.", "why": "convert A into B，不说 convert ... to be。" },
+      { "wrong": "The hospital was situated at the north of the town.", "right": "The hospital was situated in the north of the town.", "why": "方位前用 in（区域内部）或 to（区域外部），不用 at。" },
+      { "wrong": "The tea is dried and then it is packed and then it is sent to shops.", "right": "The tea is dried, packed and then sent to shops.", "why": "主语相同的连续被动动作可以共用一个 is，避免一连串 and then it is。" }
+    ],
+    "exercises": [
+      { "id": "lang-process-map-q1", "type": "mcq", "q": "The grapes ___ and then crushed to extract the juice.", "options": ["are washed", "wash", "are washing"], "answer": "are washed", "explain": "葡萄是被清洗的，用一般现在时被动 are washed，与后面的 crushed 并列。" },
+      { "id": "lang-process-map-q2", "type": "mcq", "q": "In 2000, the old warehouse ___ a block of flats.", "options": ["was converted into", "was converted to be", "converted"], "answer": "was converted into", "explain": "仓库被改建，用被动 was converted into。" },
+      { "id": "lang-process-map-q3", "type": "fill", "q": "选 in 或 to 填空：The school is located ___ the east of the park, on the other side of the main road.", "answer": ["to"], "explain": "学校在公园外面的东侧，用 to the east of；in the east of 表示在公园内部的东部。" },
+      { "id": "lang-process-map-q4", "type": "correct", "q": "The forest replaced by a golf course in 2010.", "answer": ["The forest was replaced by a golf course in 2010."], "explain": "森林是被取代的，缺少被动语态的 was。" },
+      { "id": "lang-process-map-q5", "type": "correct", "q": "First, the sand is heating to a very high temperature.", "answer": ["First, the sand is heated to a very high temperature."], "explain": "沙子是被加热的，用被动 is heated，不用进行时 is heating。" },
+      { "id": "lang-process-map-q6", "type": "fill", "q": "用 was replaced by 改写：The council built a car park where the old market had been. → The old market ___ a car park.", "answer": ["was replaced by"], "explain": "旧市场被拿掉，作主语；新建的停车场放在 by 后面。" }
+    ],
+    "related": {
+      "grammarTags": ["被动语态"],
+      "tabs": ["ielts:writing"]
+    }
+  },
+  {
+    "id": "lang-speaking-functions",
+    "domain": "language",
+    "track": "speaking",
+    "title": "口语功能表达",
+    "titleEn": "Functional language for speaking",
+    "level": "B1",
+    "skills": ["speaking"],
+    "order": 10,
+    "minutes": 30,
+    "summary": "掌握争取思考时间、澄清问题、举个人例子、表达偏好、比较过去和现在、推测未来六类口语表达，让回答自然流畅不卡壳。",
+    "sections": [
+      {
+        "heading": "争取思考时间与澄清问题",
+        "body": "遇到没想过的问题很正常，**长时间沉默**才会影响 Fluency and Coherence 的分数。用一句自然的过渡语为自己争取两三秒，比 um... ah... 好得多；但每个回答最多用一次，说完马上接内容，不要背成套话。\n\n没听清或不懂题目时，可以请考官**重复**或**解释**。一般来说，Part 1 考官只会重复问题；Part 3 考官可以换个说法解释。直接问不扣分，答非所问才吃亏。",
+        "examples": [
+          { "en": "That's an interesting question. I suppose it depends on the person.", "cn": "这个问题很有意思。我想这要看人。", "note": "过渡语后立刻给出内容。" },
+          { "en": "Sorry, do you mean sports I play myself, or sports I watch on TV?", "cn": "不好意思，您指的是我自己参加的运动，还是电视上看的运动？" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["That's an interesting question.", "【口语】争取时间，后面马上接内容", "That's an interesting question. I suppose it depends on the person."],
+            ["Let me think about that for a second.", "【口语】争取时间", "Let me think about that for a second... I'd say my grandmother has influenced me the most."],
+            ["I've never really thought about it, but ...", "【口语】坦白没想过，再给答案", "I've never really thought about it, but I guess I'd choose a quiet beach holiday."],
+            ["Well, it's hard to say, but ...", "【口语】不好下结论时", "Well, it's hard to say, but probably about once a month."],
+            ["Sorry, could you repeat the question, please?", "【口语】请求重复", "Sorry, could you repeat the question, please? I didn't quite catch the last part."],
+            ["Sorry, what do you mean by ...?", "【口语】询问某个词的意思，Part 3 适用", "Sorry, what do you mean by 'public art'?"],
+            ["Do you mean ... or ...?", "【口语】确认自己的理解", "Do you mean sports I play myself, or sports I watch on TV?"]
+          ]
+        }
+      },
+      {
+        "heading": "举个人例子",
+        "body": "考官想听**你自己的**经历和看法。观点后面跟一个具体的个人例子，回答马上变得真实、有内容，还能自然用上过去时。\n\n例子不必宏大，日常小事就行：上周做了什么、某个朋友的习惯、小时候的一次经历。重点是说清**谁、什么时候、发生了什么**。",
+        "examples": [
+          { "en": "Take my dad for example. He reads the paper every single morning, even though he could read the news on his phone.", "cn": "就拿我爸来说吧。他每天早上都看报纸，尽管他完全可以用手机看新闻。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["For example, in my case, ...", "【口语】以自己为例", "For example, in my case, I only cook at weekends because I work late."],
+            ["Take my ... for example.", "【口语】以身边的人为例", "Take my dad for example. He reads the paper every single morning."],
+            ["I remember when ...", "【口语】引出过去的经历", "I remember when I first tried skiing; I kept falling over."],
+            ["Speaking from personal experience, ...", "【口语】从个人经验来说", "Speaking from personal experience, studying with friends works better for me."],
+            ["A good example would be ...", "【口语】举一个具体事物", "A good example would be the night market near my flat."],
+            ["Just last week, ...", "【口语】引出最近的具体事例", "Just last week, I tried a dance class with a friend."]
+          ]
+        }
+      },
+      {
+        "heading": "表达偏好",
+        "body": "Part 1 和 Part 3 常问 Do you prefer A or B?、Would you rather ...? 回答时先给**明确选择**，再给理由；确实看情况时，说明看什么情况。\n\n结构要记准：**prefer A to B**（A、B 是名词或动名词）；**would rather do A than do B**（后接动词原形）；**I'd prefer to do**（某个场合下的选择）。",
+        "examples": [
+          { "en": "I prefer reading paper books to reading on a screen, because my eyes get tired quite easily.", "cn": "比起在屏幕上看书，我更喜欢看纸质书，因为我的眼睛很容易累。", "note": "prefer doing A to doing B。" },
+          { "en": "I'd rather stay in and watch a film than go to a crowded bar.", "cn": "我宁愿待在家里看电影，也不愿去拥挤的酒吧。", "note": "would rather do A than do B，两边都是动词原形。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["I prefer A to B", "【通用】A、B 为名词或动名词", "I prefer reading paper books to reading on a screen."],
+            ["I'd rather ... than ...", "【口语】后接动词原形", "I'd rather stay in and watch a film than go to a crowded bar."],
+            ["I'd prefer to ...", "【通用】某个场合下的选择", "If I had the choice, I'd prefer to live near the sea."],
+            ["I'm more of a ... person", "【口语】我更偏向于……的人", "I'm more of a morning person, so I do my best work before lunch."],
+            ["I'm not really into ...", "【口语】不太喜欢", "I'm not really into horror films; they give me nightmares."],
+            ["It depends on ...", "【口语】视情况而定，后面要说明看什么", "It depends on the weather. If it's sunny, I'd rather be outdoors."],
+            ["I'm a big fan of ...", "【口语】非常喜欢", "I'm a big fan of street food, especially noodles."]
+          ]
+        }
+      },
+      {
+        "heading": "比较过去和现在",
+        "body": "Part 1 常问 Has your hometown changed?、Did you ... when you were a child?，Part 3 也常让你比较过去和现在。**used to do** 描述过去的习惯或状态（现在已不再如此）；**would do** 只能描述过去**反复发生的动作**，不能描述状态。\n\n说「变化」时，用现在完成时把过去和现在连起来：It has become much busier。",
+        "examples": [
+          { "en": "On Sundays, my grandfather would take us fishing by the river.", "cn": "以前每到星期天，爷爷就会带我们去河边钓鱼。", "note": "would 描述过去反复的动作。" },
+          { "en": "The town centre isn't as lively as it used to be, because most people shop online now.", "cn": "镇中心没有以前那么热闹了，因为现在大多数人都在网上购物。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["used to + 动词原形", "【通用】过去常常 / 过去是", "I used to walk to primary school with my cousins."],
+            ["didn't use to + 动词原形", "【通用】否定式，did 后用 use", "People didn't use to order takeaways so often."],
+            ["would + 动词原形（过去习惯）", "【口语】只用于反复发生的动作", "On Sundays, my grandfather would take us fishing by the river."],
+            ["These days, / Nowadays,", "【通用】如今", "Nowadays, almost everyone pays with their phone."],
+            ["Compared to when I was a kid, ...", "【口语】和我小时候比", "Compared to when I was a kid, children today have far less free time."],
+            ["has become / has got + 比较级", "【通用】现在完成时说变化", "My neighbourhood has got much noisier over the past few years."],
+            ["not as ... as it used to be", "【口语】没有以前那么……", "The town centre isn't as lively as it used to be."],
+            ["back then", "【口语】那时候", "Back then, we didn't have smartphones, so we played outside all day."]
+          ]
+        }
+      },
+      {
+        "heading": "推测未来",
+        "body": "Part 3 常问 How will ... change in the future?。没人能确定答案，所以要用**推测语气**并给出理由。把握程度从高到低：will definitely → will probably / is likely to → might / could → probably won't。\n\n回答结构：**预测 + 原因 + 例子或条件**。例如：I think more people will probably work from home, because companies have realised it saves money on offices.",
+        "examples": [
+          { "en": "I'd imagine most new cars will be electric in about twenty years, mainly because batteries are getting cheaper.", "cn": "我估计大约二十年后大多数新车都会是电动车，主要是因为电池越来越便宜。" },
+          { "en": "I can't see people giving up cars altogether, though.", "cn": "不过我觉得人们不会完全放弃汽车。", "note": "I can't see sb doing sth：我觉得某事不太可能发生。" }
+        ],
+        "table": {
+          "head": ["表达", "用法或结构", "例句"],
+          "rows": [
+            ["I'd imagine (that) ...", "【口语】我估计", "I'd imagine most new cars will be electric in about twenty years."],
+            ["will probably / probably won't", "【通用】probably 放在 will 之后、won't 之前", "Paper money probably won't disappear completely."],
+            ["is likely / unlikely to + 动词原形", "【通用】很可能 / 不太可能", "Online classes are likely to become more common in universities."],
+            ["might / could well", "【口语】could well 表示很有可能", "Robots could well take over some jobs in restaurants."],
+            ["There's a good chance that ...", "【口语】很有可能", "There's a good chance that I'll study abroad next year."],
+            ["I can't see sb / sth doing ...", "【口语】我觉得不太可能", "I can't see people giving up cars altogether."],
+            ["If ..., (then) ... will ...", "【通用】带条件的预测", "If housing stays this expensive, then more young people will live with their parents."],
+            ["In the long run, ...", "【通用】从长远看", "In the long run, I think remote work will change where people choose to live."]
+          ]
+        }
+      }
+    ],
+    "pitfalls": [
+      { "wrong": "I prefer to stay at home than go out.", "right": "I'd rather stay at home than go out.", "why": "prefer 的比较结构是 prefer A to B（I prefer staying at home to going out），或 prefer to do A rather than do B；要用 than 时换成 would rather do ... than do。" },
+      { "wrong": "I am used to play football when I was young.", "right": "I used to play football when I was young.", "why": "used to do 表示「过去常常」；be used to doing 表示「习惯于」，结构和意思都不同。" },
+      { "wrong": "I didn't used to like vegetables.", "right": "I didn't use to like vegetables.", "why": "did 后面用原形 use。" },
+      { "wrong": "When I was a child, I would have long hair.", "right": "When I was a child, I used to have long hair.", "why": "would 只能表示过去反复的动作；状态（have long hair、live in、be shy）只能用 used to。" },
+      { "wrong": "That's a good question. That's a very good question. Um...", "right": "That's a good question. I suppose the main reason is that people are busier.", "why": "过渡语只用一次，说完马上接内容；反复拖延会被视为不流利或背模板。" }
+    ],
+    "exercises": [
+      { "id": "lang-speaking-functions-q1", "type": "mcq", "q": "I'd rather ___ at home than go to a noisy restaurant.", "options": ["eat", "eating", "to eat"], "answer": "eat", "explain": "would rather 后接动词原形。" },
+      { "id": "lang-speaking-functions-q2", "type": "mcq", "q": "When I was little, I ___ shy around strangers.", "options": ["used to be", "would be", "was used to be"], "answer": "used to be", "explain": "shy 是状态，只能用 used to；would 只表示过去反复的动作。" },
+      { "id": "lang-speaking-functions-q3", "type": "mcq", "q": "You don't understand a word in a Part 3 question. You say: Sorry, what do you ___ by 'sustainable tourism'?", "options": ["mean", "say", "talk"], "answer": "mean", "explain": "询问词义的固定说法是 What do you mean by ...?" },
+      { "id": "lang-speaking-functions-q4", "type": "correct", "q": "I prefer tea than coffee.", "answer": ["I prefer tea to coffee.", "I'd rather have tea than coffee.", "I would rather have tea than coffee."], "explain": "prefer A to B 用 to 不用 than；要用 than 时改成 would rather。" },
+      { "id": "lang-speaking-functions-q5", "type": "correct", "q": "I didn't used to enjoy reading.", "answer": ["I didn't use to enjoy reading."], "explain": "did 后面用原形 use。" },
+      { "id": "lang-speaking-functions-q6", "type": "fill", "q": "用 I can't see ... doing 改写：I don't think shops will disappear completely. → I can't see shops ___ completely.", "answer": ["disappearing"], "explain": "I can't see sth doing 表示「我觉得某事不太可能发生」，see 后接动词 -ing。" }
+    ],
+    "related": {
+      "grammarTags": ["used to", "would rather", "prefer"],
+      "tabs": ["ielts:speaking"]
+    }
+  }
+]
