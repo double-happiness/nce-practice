@@ -1,0 +1,352 @@
+[
+  {
+    "id": "rd-green-roofs",
+    "title": "Gardens in the Sky: The Rise of Green Roofs",
+    "titleCn": "空中花园：绿色屋顶的兴起",
+    "difficulty": "easy",
+    "topic": "environment",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Look down on almost any large city from a tall building and you will see a landscape of grey: flat roofs covered in tar, gravel and metal, baking in the summer sun. Yet a growing number of these surfaces are turning green. A green roof is a roof that is partly or completely covered with plants growing in a layer of soil or another growing medium. The idea is far from new. People in Scandinavia have covered their houses with turf for centuries, because a thick layer of grass and earth helped to keep homes warm through long, dark winters. What is new is the scale on which modern cities are adopting the idea, and the range of reasons they give for doing so."
+      },
+      {
+        "label": "B",
+        "text": "Modern green roofs are usually divided into two main types. Extensive roofs have a thin growing layer, often less than fifteen centimetres deep, and are planted with tough, low-growing species such as sedums and mosses that need little water or care. Because they are light, they can often be added to existing buildings without major structural work. Intensive roofs, by contrast, have much deeper soil and can support lawns, shrubs and even small trees. They are, in effect, parks on top of buildings, but they are heavy and expensive, and they need the same regular attention as a garden at ground level. Between these two types sits a range of designs that mix features of both."
+      },
+      {
+        "label": "C",
+        "text": "One of the main attractions of green roofs is their effect on temperature. A conventional dark roof absorbs heat during the day and releases it slowly at night, which helps to make city centres noticeably warmer than the surrounding countryside, a pattern known as the urban heat island effect. Plants cool their surroundings by releasing water through their leaves, and the soil beneath them acts as a layer of insulation. As a result, the surface of a planted roof on a hot afternoon may be many degrees cooler than that of a bare one. For the people inside, this can mean lower spending on air conditioning in summer, while in winter the same layer helps to reduce heat loss."
+      },
+      {
+        "label": "D",
+        "text": "Green roofs also help cities to cope with heavy rain. When a storm hits a city, water runs quickly off roofs, roads and car parks into drains, which can become overloaded and cause flooding. A planted roof works rather like a sponge. The growing medium soaks up a large share of the rain that falls on it, and the plants use some of this water or return it to the air. The rest drains away gradually over several hours rather than all at once. Engineers point out that a single roof makes little difference, but when hundreds of buildings in the same area are planted, the pressure on the drainage system during a storm can fall considerably."
+      },
+      {
+        "label": "E",
+        "text": "Wildlife is another beneficiary. Even a thin layer of plants can provide food and shelter for insects such as bees and butterflies, and these in turn attract birds. Some designers now deliberately create roofs that copy local habitats, using stones, dead wood and native wild flowers instead of a neat carpet of a single species. In a survey of roofs in one northern European city, researchers recorded dozens of different spider and beetle species, some of which were rare at ground level. However, ecologists warn that a roof cannot replace a real meadow or wood, because it is small, isolated and exposed to strong winds."
+      },
+      {
+        "label": "F",
+        "text": "Despite these advantages, green roofs are not suitable for every building. The most obvious obstacle is weight: soil that is full of water is extremely heavy, and an older roof may need to be strengthened before any planting can begin. The initial cost is also higher than for a conventional roof, and owners must pay for occasional maintenance, such as removing weeds and checking that drains are clear. Supporters respond that a planted layer protects the waterproof membrane underneath from sunlight and frost, so that it may last twice as long as an exposed one. Over the life of a building, they argue, the savings can outweigh the extra expense."
+      },
+      {
+        "label": "G",
+        "text": "Many city governments have decided that the public benefits justify some form of support. Some offer grants that cover part of the cost of installation, while others give owners permission to build slightly larger buildings if they include a planted roof. A few have gone further and made green roofs compulsory on certain types of new building. Whether such rules spread will depend partly on better data, since many claims about green roofs are still based on studies of a small number of buildings over short periods. What seems clear is that the flat grey rooftops of the twentieth century are no longer seen as wasted space."
+      }
+    ],
+    "groups": [
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "Covering houses with grass and earth is a modern invention.",
+            "answer": ["FALSE"],
+            "explanation": "A 段说 The idea is far from new，斯堪的纳维亚人用草皮覆盖房屋已有几百年（for centuries）。题干说是现代发明，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "A", "quote": "People in Scandinavia have covered their houses with turf for centuries" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Extensive roofs are light enough to be added to many existing buildings without major building work.",
+            "answer": ["TRUE"],
+            "explanation": "B 段：Because they are light, they can often be added to existing buildings without major structural work。题干 light enough / many existing buildings / without major building work 是同义改写，选 TRUE。",
+            "evidence": { "para": "B", "quote": "Because they are light, they can often be added to existing buildings without major structural work." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Intensive roofs need less care than extensive roofs.",
+            "answer": ["FALSE"],
+            "explanation": "B 段说 extensive roofs need little water or care，而 intensive roofs 需要和地面花园一样的日常照料（the same regular attention as a garden）。题干说 intensive 更省事，正好相反，选 FALSE。",
+            "evidence": { "para": "B", "quote": "they need the same regular attention as a garden at ground level" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Green roofs lower temperatures more effectively in tropical cities than in cold ones.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "C 段只说种植屋顶在炎热的下午比裸屋顶凉快许多度，没有比较热带城市和寒冷城市的效果。原文没有这方面信息，选 NOT GIVEN。",
+            "evidence": { "para": "C", "quote": "As a result, the surface of a planted roof on a hot afternoon may be many degrees cooler than that of a bare one." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "A single green roof can greatly reduce flooding across a whole district.",
+            "answer": ["FALSE"],
+            "explanation": "D 段工程师指出单个屋顶作用很小（a single roof makes little difference），要成百上千栋楼一起种植才明显。题干说单个屋顶就能大幅减少整个片区的内涝，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "D", "quote": "Engineers point out that a single roof makes little difference" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "According to paragraph C, green roofs reduce temperatures because",
+            "options": [
+              { "key": "A", "text": "they reflect most sunlight back into the sky." },
+              { "key": "B", "text": "plants release water and the soil provides insulation." },
+              { "key": "C", "text": "they are usually painted in light colours." },
+              { "key": "D", "text": "they stop heat from entering buildings at night." }
+            ],
+            "answer": ["B"],
+            "explanation": "C 段给出两个原因：植物通过叶片释放水分降温，下面的土壤起隔热作用。对应 B。A、C 原文没提；D 与原文相反（原文说的是深色屋顶夜间放热）。",
+            "evidence": { "para": "C", "quote": "Plants cool their surroundings by releasing water through their leaves, and the soil beneath them acts as a layer of insulation." }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "What does the writer say about rain that falls on a green roof?",
+            "options": [
+              { "key": "A", "text": "All of it is absorbed by the plants." },
+              { "key": "B", "text": "It is collected and used inside the building." },
+              { "key": "C", "text": "Some of it drains away slowly over a period of hours." },
+              { "key": "D", "text": "It damages the growing medium over time." }
+            ],
+            "answer": ["C"],
+            "explanation": "D 段：基质吸收大部分雨水，植物利用或蒸发一部分，剩下的在几个小时内慢慢排走（drains away gradually over several hours）。对应 C。A 的 All 太绝对；B、D 原文没提。",
+            "evidence": { "para": "D", "quote": "The rest drains away gradually over several hours rather than all at once." }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "Why do some designers use stones and dead wood on roofs?",
+            "options": [
+              { "key": "A", "text": "to reduce the weight of the roof" },
+              { "key": "B", "text": "to imitate habitats found in the local area" },
+              { "key": "C", "text": "to protect plants from strong winds" },
+              { "key": "D", "text": "to make maintenance cheaper" }
+            ],
+            "answer": ["B"],
+            "explanation": "E 段：有的设计师刻意模仿本地栖息地（copy local habitats），用石头、枯木和本地野花代替单一物种。copy 对应 imitate，选 B。",
+            "evidence": { "para": "E", "quote": "Some designers now deliberately create roofs that copy local habitats, using stones, dead wood and native wild flowers instead of a neat carpet of a single species." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "Ecologists believe that green roofs",
+            "options": [
+              { "key": "A", "text": "are as valuable to wildlife as natural meadows." },
+              { "key": "B", "text": "should be planted with a single species." },
+              { "key": "C", "text": "have limitations as places for wildlife." },
+              { "key": "D", "text": "attract too many insects into cities." }
+            ],
+            "answer": ["C"],
+            "explanation": "E 段末尾 ecologists warn：屋顶面积小、孤立、风大，替代不了真正的草地或树林，说明它作为野生动物栖息地有局限，选 C。A 与原文相反。",
+            "evidence": { "para": "E", "quote": "However, ecologists warn that a roof cannot replace a real meadow or wood, because it is small, isolated and exposed to strong winds." }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "Before any planting, an older roof may need to be {blank}.",
+            "answer": ["strengthened"],
+            "explanation": "F 段：老屋顶在种植之前可能需要加固（may need to be strengthened before any planting can begin）。空格前是 need to be，需要过去分词，填 strengthened。",
+            "evidence": { "para": "F", "quote": "an older roof may need to be strengthened before any planting can begin" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "Owners have to pay for {blank}, for example removing weeds and checking drains.",
+            "answer": ["occasional maintenance", "maintenance"],
+            "explanation": "F 段：业主要支付不定期的维护费用（occasional maintenance），例如除草、检查排水口。填 occasional maintenance，只写 maintenance 也可以。",
+            "evidence": { "para": "F", "quote": "owners must pay for occasional maintenance, such as removing weeds and checking that drains are clear" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "The planted layer protects the {blank} beneath it from sunlight and frost.",
+            "answer": ["waterproof membrane", "membrane"],
+            "explanation": "F 段：种植层保护下面的防水膜（waterproof membrane）免受日晒和霜冻，因此防水膜寿命可能翻倍。填 waterproof membrane（两个词以内），只写 membrane 也可以。",
+            "evidence": { "para": "F", "quote": "a planted layer protects the waterproof membrane underneath from sunlight and frost" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Some city governments provide {blank} that pay for part of the installation.",
+            "answer": ["grants"],
+            "explanation": "G 段：有的城市提供补助金（grants），承担部分安装费用。空格后有 that pay for，需要复数名词，填 grants。",
+            "evidence": { "para": "G", "quote": "Some offer grants that cover part of the cost of installation" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-pencil",
+    "title": "The Long History of the Ordinary Pencil",
+    "titleCn": "普通铅笔的漫长历史",
+    "difficulty": "easy",
+    "topic": "history",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few objects are as ordinary as the pencil. It is cheap, it needs no electricity, and it works upside down and in freezing temperatures, conditions in which many pens fail. Yet the simple wooden pencil is the result of several centuries of discovery, accident and experiment. Its story involves a remarkable mineral found in the north of England, a war between two European powers, and a series of small improvements that most of its users never notice. Looking at how the pencil developed also tells us something about how everyday technology changes: rarely through a single great invention, and more often through many modest steps."
+      },
+      {
+        "label": "B",
+        "text": "The story begins in the sixteenth century, when a large deposit of an unusual black substance was discovered in the hills of Cumberland, in north-west England. Local shepherds are said to have used it to mark their sheep. At first, people believed the material was a form of lead, and this mistake explains why we still talk about the 'lead' in a pencil, even though modern pencils contain no lead at all. The substance was in fact graphite, a soft form of carbon. It was so pure that it could be cut into thin sticks and used for writing without any further treatment."
+      },
+      {
+        "label": "C",
+        "text": "The graphite quickly became valuable. It was used not only for writing and drawing but also to line the moulds in which cannonballs were made, which gave it military importance. The English authorities therefore controlled the mine closely. At certain periods it was opened for only a few weeks each year, and armed guards were employed to prevent theft. Because the sticks of pure graphite were brittle and made users' fingers dirty, people began to wrap them in string or sheepskin, and later to place them inside hollow pieces of wood. This was the beginning of the pencil as we know it."
+      },
+      {
+        "label": "D",
+        "text": "Outside England, pencil makers faced a problem: they had no access to pure graphite. In the 1790s, when France was at war with Britain and could no longer import English pencils, the French government asked an engineer named Nicolas-Jacques Conté to find an alternative. His solution was to grind lower-quality graphite into a powder, mix it with clay and water, and bake the mixture in a kiln. The method had an important advantage. By changing the proportion of clay, Conté could make pencils that were harder or softer, producing lighter or darker lines. Pencils are still manufactured in essentially the same way today."
+      },
+      {
+        "label": "E",
+        "text": "The grading systems that indicate a pencil's hardness developed from this discovery. In many countries, a pencil marked H is hard and produces a pale, fine line, while one marked B is soft and black. The number in front of the letter shows the degree, so a 6B pencil is much softer than a 2B. The common HB pencil sits in the middle of the scale. In the United States, a numbering system is also used, in which a number 2 pencil is roughly equivalent to an HB. Artists tend to prefer the softer grades, whereas engineers and designers have traditionally chosen harder ones for precise technical drawings."
+      },
+      {
+        "label": "F",
+        "text": "Other features were added gradually. For a long time, people removed pencil marks with pieces of bread, until it was found that natural rubber did the job far better. In 1858, an American inventor was granted a patent for a pencil with an eraser attached to one end, an idea that was popular with customers but disliked by some teachers, who believed it would encourage carelessness. The shape of the pencil changed too. Many pencils are made with six sides rather than being round, partly because this saves wood in manufacturing and partly because a six-sided pencil is less likely to roll off a desk."
+      },
+      {
+        "label": "G",
+        "text": "In an age of laptops and touch screens, it might seem that the pencil has had its day. However, manufacturers report that billions are still produced every year. Pencils remain the first writing tool for many young children, and they are widely used in examinations that are marked by machine, since graphite marks can be read easily by optical scanners. For artists, the pencil's ability to produce both delicate and bold lines is difficult to match. Its survival suggests that a well-designed tool does not necessarily disappear when newer technology arrives."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-information",
+        "instruction": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. You may use any letter more than once.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "an explanation of why a common name for part of the pencil is inaccurate",
+            "answer": ["B"],
+            "explanation": "B 段：人们起初误以为石墨是铅，所以至今仍把笔芯叫 lead，但现代铅笔根本不含铅。这正是「某个常用名称不准确」的原因，选 B。",
+            "evidence": { "para": "B", "quote": "this mistake explains why we still talk about the 'lead' in a pencil, even though modern pencils contain no lead at all" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "a reason why a mineral was considered important for military purposes",
+            "answer": ["C"],
+            "explanation": "C 段：石墨还被用来给铸造炮弹的模具做内衬（line the moulds in which cannonballs were made），因此具有军事价值。选 C。",
+            "evidence": { "para": "C", "quote": "It was used not only for writing and drawing but also to line the moulds in which cannonballs were made, which gave it military importance." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "a comparison of two systems used to describe pencils",
+            "answer": ["E"],
+            "explanation": "E 段先讲 H / B 分级，再说美国另有数字编号，2 号铅笔大致相当于 HB。这是两种标识体系的对照，选 E。",
+            "evidence": { "para": "E", "quote": "In the United States, a numbering system is also used, in which a number 2 pencil is roughly equivalent to an HB." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "a reference to an objection to a new feature",
+            "answer": ["F"],
+            "explanation": "F 段：带橡皮的铅笔受顾客欢迎，但一些老师不喜欢，认为会助长粗心。这是对新功能的反对意见，选 F。",
+            "evidence": { "para": "F", "quote": "an idea that was popular with customers but disliked by some teachers, who believed it would encourage carelessness" }
+          }
+        ]
+      },
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "The graphite found in Cumberland had to be mixed with other materials before it could be used for writing.",
+            "answer": ["FALSE"],
+            "explanation": "B 段：这里的石墨非常纯，切成细条就能直接书写，无需任何加工（without any further treatment）。题干说必须先混合其他材料，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "B", "quote": "It was so pure that it could be cut into thin sticks and used for writing without any further treatment." }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "At times, the graphite mine was open for only a short period each year.",
+            "answer": ["TRUE"],
+            "explanation": "C 段：某些时期矿井每年只开放几周（only a few weeks each year）。At times 对应 At certain periods，选 TRUE。",
+            "evidence": { "para": "C", "quote": "At certain periods it was opened for only a few weeks each year" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "Conté's pencils were more expensive to produce than English pencils.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "D 段只介绍了孔泰的工艺（石墨粉加黏土和水再入窑烧制）及其可调软硬的优点，没有比较两国铅笔的生产成本，选 NOT GIVEN。",
+            "evidence": { "para": "D", "quote": "His solution was to grind lower-quality graphite into a powder, mix it with clay and water, and bake the mixture in a kiln." }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "A 2B pencil produces a darker line than a 6B pencil.",
+            "answer": ["FALSE"],
+            "explanation": "E 段：B 越软颜色越黑，字母前的数字表示程度，6B 比 2B 软得多，所以 6B 的线条更黑。题干说 2B 更黑，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "E", "quote": "The number in front of the letter shows the degree, so a 6B pencil is much softer than a 2B." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "Engineers have usually preferred harder pencils for technical work.",
+            "answer": ["TRUE"],
+            "explanation": "E 段：工程师和设计师画精确的技术图纸，一向选用较硬的铅笔（traditionally chosen harder ones）。usually 对应 traditionally，选 TRUE。",
+            "evidence": { "para": "E", "quote": "whereas engineers and designers have traditionally chosen harder ones for precise technical drawings" }
+          }
+        ]
+      },
+      {
+        "type": "short-answer",
+        "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+        "wordLimit": { "words": 3, "number": true },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "What did people use to remove pencil marks before rubber was used?",
+            "answer": ["pieces of bread", "bread"],
+            "explanation": "F 段：很长一段时间里，人们用面包块擦掉铅笔痕迹（removed pencil marks with pieces of bread）。填 pieces of bread，只写 bread 也可以。",
+            "evidence": { "para": "F", "quote": "people removed pencil marks with pieces of bread" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "In which year was a patent granted for a pencil with an eraser?",
+            "answer": ["1858", "in 1858"],
+            "explanation": "F 段：1858 年，一位美国发明家获得了带橡皮铅笔的专利。填 1858。",
+            "evidence": { "para": "F", "quote": "In 1858, an American inventor was granted a patent for a pencil with an eraser attached to one end" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "Which material does a six-sided shape save during manufacturing?",
+            "answer": ["wood"],
+            "explanation": "F 段：六棱形铅笔的一个好处是制造时节省木材（saves wood in manufacturing）。填 wood。",
+            "evidence": { "para": "F", "quote": "partly because this saves wood in manufacturing" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "What kind of machines can easily read graphite marks in examinations?",
+            "answer": ["optical scanners", "scanners"],
+            "explanation": "G 段：机器阅卷的考试常用铅笔，因为石墨痕迹容易被光学扫描仪读取（read easily by optical scanners）。填 optical scanners，只写 scanners 也可以。",
+            "evidence": { "para": "G", "quote": "since graphite marks can be read easily by optical scanners" }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,371 @@
+[
+  {
+    "id": "rd-spacing-effect",
+    "title": "Why Cramming Fails: The Science of Spaced Learning",
+    "titleCn": "临时抱佛脚为何无效：间隔学习的科学",
+    "difficulty": "medium",
+    "topic": "psychology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Almost every student has tried it: staying up late before an examination, reading the same notes again and again in the hope that the information will still be there the next morning. Sometimes the strategy appears to work, at least for the test itself. But a large body of research suggests that knowledge acquired in this way fades remarkably quickly. Psychologists have known for more than a century that the timing of study matters as much as its total amount, and that the same number of hours can produce very different results depending on how they are distributed."
+      },
+      {
+        "label": "B",
+        "text": "The first systematic evidence came from the German psychologist Hermann Ebbinghaus, who in the 1880s carried out a long series of experiments on himself. To avoid the influence of meaning, he memorised lists of nonsense syllables, such as combinations of three letters that formed no real word, and then measured how much he could remember after different intervals. He found that forgetting was fastest immediately after learning and then gradually slowed down, a pattern now known as the forgetting curve. He also noticed that lists he reviewed over several days were retained far better than lists he studied for the same total time in a single session."
+      },
+      {
+        "label": "C",
+        "text": "This advantage of distributed practice, usually called the spacing effect, has since been confirmed in hundreds of studies. It has been demonstrated with children and older adults, with vocabulary, mathematics and motor skills such as typing, and even in animals. One widely cited review of the research concluded that the benefit is among the most reliable findings in the whole of experimental psychology. Typically, people who space their study sessions remember substantially more weeks or months later than those who mass their practice together, even though both groups may perform equally well on a test given immediately afterwards."
+      },
+      {
+        "label": "D",
+        "text": "Why should spacing make such a difference? One explanation focuses on the effort involved in remembering. When information is reviewed while it is still fresh, recalling it is easy, and the brain has little reason to strengthen the memory. When some time has passed and the material has been partly forgotten, retrieving it requires more work, and this struggle appears to make the memory more durable. A second explanation suggests that spaced sessions take place in slightly different situations and moods, so the information becomes linked to a wider range of cues that can later help to bring it back to mind."
+      },
+      {
+        "label": "E",
+        "text": "Closely related to spacing is what researchers call the testing effect. In a typical experiment, one group of students reads a text several times, while another reads it once and then tries to write down as much as they can remember. On a final test a week later, the second group usually performs better, despite having spent less time looking at the material. The act of retrieval, it seems, is not simply a way of checking what has been learned but a powerful form of learning in itself. Combining the two techniques, by testing oneself at increasing intervals, is often recommended as the most efficient approach of all."
+      },
+      {
+        "label": "F",
+        "text": "Given the strength of the evidence, it is surprising how rarely these methods are used. Surveys of university students show that rereading notes and highlighting textbooks remain the most popular strategies, although both are among the least effective. Part of the reason is that massed study feels more productive. Information that has just been read seems familiar, and this familiarity is easily mistaken for genuine understanding. Spaced practice, in contrast, often feels difficult and slow, and learners may conclude that it is not working at precisely the moment when it is doing most good."
+      },
+      {
+        "label": "G",
+        "text": "Technology may help to close this gap. Many language-learning applications now use algorithms that schedule reviews automatically, presenting each word just before the learner is likely to forget it and lengthening the interval each time it is recalled correctly. Some schools have also experimented with returning to earlier topics throughout the year rather than teaching each unit only once. Researchers caution that the ideal gap between sessions depends on how long the information needs to be remembered: material required for a test next week should be reviewed differently from knowledge that must last a lifetime."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–viii.",
+        "options": [
+          { "key": "i", "text": "Why learners choose less effective methods" },
+          { "key": "ii", "text": "Differences between human and animal memory" },
+          { "key": "iii", "text": "An early researcher who experimented on himself" },
+          { "key": "iv", "text": "Learning by trying to remember" },
+          { "key": "v", "text": "How sleep strengthens new memories" },
+          { "key": "vi", "text": "A finding confirmed across many groups and skills" },
+          { "key": "vii", "text": "Practical applications and a word of caution" },
+          { "key": "viii", "text": "Possible explanations for the benefit of delay" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["iii"],
+            "explanation": "B 段讲艾宾浩斯在 19 世纪 80 年代以自己为对象做了一系列记忆实验，对应 iii「一位拿自己做实验的早期研究者」。",
+            "evidence": { "para": "B", "quote": "carried out a long series of experiments on himself" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["vi"],
+            "explanation": "C 段说间隔效应在儿童、老人、词汇、数学、打字等运动技能甚至动物身上都得到验证，对应 vi「在多种人群和技能中得到证实的发现」。ii 只是利用了段中出现的 animals 做干扰，段落并没有比较人和动物的记忆。",
+            "evidence": { "para": "C", "quote": "It has been demonstrated with children and older adults, with vocabulary, mathematics and motor skills such as typing, and even in animals." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["viii"],
+            "explanation": "D 段以 Why should spacing make such a difference? 开头，随后给出两种解释（提取更费力、学习情境更多样），对应 viii「间隔带来好处的可能解释」。",
+            "evidence": { "para": "D", "quote": "Why should spacing make such a difference?" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["iv"],
+            "explanation": "E 段讲测试效应：读一遍后尝试回忆的学生成绩更好，回忆本身就是一种学习。对应 iv「通过努力回忆来学习」。",
+            "evidence": { "para": "E", "quote": "The act of retrieval, it seems, is not simply a way of checking what has been learned but a powerful form of learning in itself." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["i"],
+            "explanation": "F 段解释为什么学生仍偏爱重读、划线这些低效方法：集中学习感觉更有成效，熟悉感被误当成理解。对应 i「学习者为何选择效果较差的方法」。",
+            "evidence": { "para": "F", "quote": "Part of the reason is that massed study feels more productive." }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "para": "G",
+            "prompt": "Paragraph G",
+            "answer": ["vii"],
+            "explanation": "G 段前半讲应用（语言学习软件自动安排复习、学校循环复习旧课题），后半是研究者的提醒（caution）：最佳间隔取决于要记多久。对应 vii「实际应用与一点提醒」。",
+            "evidence": { "para": "G", "quote": "Researchers caution that the ideal gap between sessions depends on how long the information needs to be remembered" }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary using the list of words, A–H, below. Write the correct letter, A–H.",
+        "summary": {
+          "title": "Ebbinghaus and the forgetting curve",
+          "text": "Ebbinghaus tested his own memory using {q7} syllables, which he chose in order to remove the effect of meaning. He discovered that people forget information most quickly {q8} after learning it. He also found that lists reviewed over several days were remembered better than lists studied in a {q9} session, even when the total {q10} spent studying was the same."
+        },
+        "wordBank": [
+          { "key": "A", "text": "nonsense" },
+          { "key": "B", "text": "immediately" },
+          { "key": "C", "text": "single" },
+          { "key": "D", "text": "time" },
+          { "key": "E", "text": "familiar" },
+          { "key": "F", "text": "gradually" },
+          { "key": "G", "text": "effort" },
+          { "key": "H", "text": "written" }
+        ],
+        "questions": [
+          {
+            "id": "q7",
+            "number": 7,
+            "answer": ["A"],
+            "explanation": "B 段：为排除意义的影响，他记的是无意义音节（nonsense syllables）。选 A nonsense。",
+            "evidence": { "para": "B", "quote": "he memorised lists of nonsense syllables" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "answer": ["B"],
+            "explanation": "B 段：遗忘在刚学完时最快（fastest immediately after learning），之后逐渐放缓。选 B immediately。F gradually 描述的是之后的放缓，是干扰项。",
+            "evidence": { "para": "B", "quote": "He found that forgetting was fastest immediately after learning and then gradually slowed down" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "answer": ["C"],
+            "explanation": "B 段：分几天复习的单词表，比在一次学习中（in a single session）用同样总时间学的记得牢。选 C single。",
+            "evidence": { "para": "B", "quote": "lists he reviewed over several days were retained far better than lists he studied for the same total time in a single session" }
+          },
+          {
+            "id": "q10",
+            "number": 10,
+            "answer": ["D"],
+            "explanation": "同一句：两种方式的总学习时间相同（the same total time）。选 D time。G effort 原文没有提到总量相同，是干扰项。",
+            "evidence": { "para": "B", "quote": "lists he reviewed over several days were retained far better than lists he studied for the same total time in a single session" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "According to paragraph C, people who space their study sessions",
+            "options": [
+              { "key": "A", "text": "do better on tests taken straight after studying." },
+              { "key": "B", "text": "remember more over the long term." },
+              { "key": "C", "text": "need to study for more hours in total." },
+              { "key": "D", "text": "find the material more enjoyable." }
+            ],
+            "answer": ["B"],
+            "explanation": "C 段：分散学习的人在几周或几个月后记住的明显更多，而两组在学完马上进行的测试中可能表现相当。选 B。A 与原文矛盾（两组立即测试成绩可能一样）。",
+            "evidence": { "para": "C", "quote": "Typically, people who space their study sessions remember substantially more weeks or months later than those who mass their practice together" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "In the experiment described in paragraph E, the second group of students",
+            "options": [
+              { "key": "A", "text": "read the text more times than the first group." },
+              { "key": "B", "text": "spent less time on the text but remembered more." },
+              { "key": "C", "text": "took the final test immediately." },
+              { "key": "D", "text": "were allowed to use notes in the final test." }
+            ],
+            "answer": ["B"],
+            "explanation": "E 段：第二组只读一遍再尽力默写，一周后的测试成绩通常更好，尽管看材料的时间更少。选 B。",
+            "evidence": { "para": "E", "quote": "On a final test a week later, the second group usually performs better, despite having spent less time looking at the material." }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "According to the writer, why do many students prefer massed study?",
+            "options": [
+              { "key": "A", "text": "Their teachers recommend it." },
+              { "key": "B", "text": "It takes less time overall." },
+              { "key": "C", "text": "It creates a misleading sense of understanding." },
+              { "key": "D", "text": "It is strongly supported by research." }
+            ],
+            "answer": ["C"],
+            "explanation": "F 段：刚读过的内容显得熟悉，这种熟悉感很容易被误认为真正理解。对应 C「造成一种理解了的错觉」。D 与原文相反。",
+            "evidence": { "para": "F", "quote": "Information that has just been read seems familiar, and this familiarity is easily mistaken for genuine understanding." }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-four-day-week",
+    "title": "Rethinking the Working Week",
+    "titleCn": "重新思考每周工作制",
+    "difficulty": "medium",
+    "topic": "society",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of the twentieth century, the length of the working week fell steadily in industrialised countries. Campaigns by trade unions, combined with rising productivity, turned six long days into five shorter ones, and many economists expected the trend to continue. One famous prediction, made in the 1930s, suggested that within a hundred years people might need to work only fifteen hours a week. That forecast now looks wildly optimistic. In many countries the standard week has hardly changed for decades, and in some professions working hours have actually increased."
+      },
+      {
+        "label": "B",
+        "text": "In recent years, however, the idea of a shorter week has returned to public debate. A number of companies and public bodies have run trials in which staff work four days instead of five, usually for the same pay, on the condition that they maintain their usual output. The organisations involved range from software firms and marketing agencies to restaurants, banks and local councils. In most cases the trial lasts six months, and researchers collect information on productivity, staff well-being and the number of days lost to sickness both before and during the experiment."
+      },
+      {
+        "label": "C",
+        "text": "The reported results have been striking. Many participating employers say that output stayed the same or even rose, while employees described lower levels of stress and exhaustion and more time for family, exercise and hobbies. Absence through illness often fell, and some firms found it easier to recruit new staff. At the end of these trials, a clear majority of the companies chose to keep the shorter week in some form. To its supporters, this is evidence that much of the traditional working day is wasted in unnecessary meetings, interruptions and tasks that add little value."
+      },
+      {
+        "label": "D",
+        "text": "Sceptics, however, raise several objections, and in my view some of them deserve more attention than they usually receive. The most important concerns the type of organisation that takes part. Companies volunteer for these trials, and those that do so are likely to be the ones most confident that the change will succeed. Their experience may therefore tell us little about how a four-day week would work in a typical business. In addition, most trials have been too short to show whether early gains last once the novelty has worn off and staff are no longer aware that they are being observed."
+      },
+      {
+        "label": "E",
+        "text": "There is also the question of which jobs can be compressed in this way. In an office where work is measured by tasks completed, it may be possible to do in four days what previously took five. In a hospital, a school or a care home, the situation is quite different, because these services must be available every day and their staff cannot simply work faster. Introducing a shorter week in such sectors would require employing more people, which raises costs. It would be a mistake, I believe, to assume that a model which suits a design agency can be applied without change to a nursing team."
+      },
+      {
+        "label": "F",
+        "text": "Supporters of the idea are not blind to these difficulties. Some argue that the four-day week should be seen not as a single fixed rule but as a general direction, which different sectors could reach in different ways, for example through shorter daily hours or additional days of annual leave. Others point to the possible benefits for society as a whole, including reduced commuting and lower carbon emissions, though these effects have not yet been measured with any precision. A few countries have begun to consider legislation, but so far governments have preferred to encourage experiments rather than to impose change."
+      },
+      {
+        "label": "G",
+        "text": "On balance, the evidence so far is encouraging but incomplete. It shows that, for some organisations, working fewer hours need not mean producing less, and that well-being can improve considerably when people have more time away from work. What it does not yet show is that the same results can be achieved across the whole economy. Rather than treating the four-day week as either a cure for modern working life or an impossible dream, policymakers would be wise to support larger and longer trials, particularly in the public services where the challenges are greatest."
+      }
+    ],
+    "groups": [
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "The prediction about working hours made in the 1930s has proved accurate.",
+            "answer": ["NO"],
+            "explanation": "A 段作者评价这个预言如今看来过于乐观（wildly optimistic），而且很多国家的标准工时几十年几乎没变。题干说预言准确，与作者观点相反，选 NO。",
+            "evidence": { "para": "A", "quote": "That forecast now looks wildly optimistic." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Some of the objections raised by sceptics are given too little consideration.",
+            "answer": ["YES"],
+            "explanation": "D 段作者明确表态（in my view）：怀疑者的一些反对意见应得到比现在更多的关注。题干 given too little consideration 与之一致，选 YES。",
+            "evidence": { "para": "D", "quote": "in my view some of them deserve more attention than they usually receive" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "The companies that take part in trials may not be typical of businesses in general.",
+            "answer": ["YES"],
+            "explanation": "D 段：参加试验的公司是自愿报名、最有信心成功的那类，所以它们的经验可能说明不了一家普通企业的情况。与题干一致，选 YES。",
+            "evidence": { "para": "D", "quote": "Their experience may therefore tell us little about how a four-day week would work in a typical business." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "A model that works for a design agency could easily be used by a nursing team.",
+            "answer": ["NO"],
+            "explanation": "E 段作者认为（I believe），以为适合设计公司的模式可以原样照搬到护理团队，是一种错误。题干说可以轻松套用，与作者观点相反，选 NO。",
+            "evidence": { "para": "E", "quote": "It would be a mistake, I believe, to assume that a model which suits a design agency can be applied without change to a nursing team." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "The environmental benefits of a shorter week are likely to be greater than its economic benefits.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "F 段只提到有人指出减少通勤、降低碳排放等社会层面的可能好处，而且尚未精确测量；作者没有比较环境效益和经济效益的大小，选 NOT GIVEN。",
+            "evidence": { "para": "F", "quote": "Others point to the possible benefits for society as a whole, including reduced commuting and lower carbon emissions, though these effects have not yet been measured with any precision." }
+          }
+        ]
+      },
+      {
+        "type": "matching-information",
+        "instruction": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. You may use any letter more than once.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "a list of the kinds of organisations that have tested a shorter week",
+            "answer": ["B"],
+            "explanation": "B 段列出参加试验的机构类型：软件公司、营销机构、餐馆、银行和地方议会。选 B。",
+            "evidence": { "para": "B", "quote": "The organisations involved range from software firms and marketing agencies to restaurants, banks and local councils." }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "a suggestion that the same goal could be reached in more than one way",
+            "answer": ["F"],
+            "explanation": "F 段：有人主张把四天工作制看作一个大方向，不同行业可以用不同方式达到，比如缩短每日工时或增加年假。选 F。",
+            "evidence": { "para": "F", "quote": "which different sectors could reach in different ways, for example through shorter daily hours or additional days of annual leave" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "a claim about how time is wasted at work",
+            "answer": ["C"],
+            "explanation": "C 段末尾：支持者认为传统工作日有大量时间浪费在不必要的会议、打断和低价值任务上。选 C。",
+            "evidence": { "para": "C", "quote": "much of the traditional working day is wasted in unnecessary meetings, interruptions and tasks that add little value" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "a recommendation about future research",
+            "answer": ["G"],
+            "explanation": "G 段作者建议决策者支持规模更大、时间更长的试验，尤其在公共服务领域。选 G。",
+            "evidence": { "para": "G", "quote": "policymakers would be wise to support larger and longer trials, particularly in the public services where the challenges are greatest" }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "In most trials, staff work four days but usually receive the same {blank}.",
+            "answer": ["pay"],
+            "explanation": "B 段：员工每周工作四天，通常工资不变（usually for the same pay）。填 pay。",
+            "evidence": { "para": "B", "quote": "usually for the same pay" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "Researchers record productivity, well-being and the number of days lost to {blank}.",
+            "answer": ["sickness"],
+            "explanation": "B 段：研究者收集生产率、员工身心状况以及因病缺勤天数（days lost to sickness）的数据。填 sickness。",
+            "evidence": { "para": "B", "quote": "the number of days lost to sickness" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "Some firms in the trials found it easier to {blank} new staff.",
+            "answer": ["recruit"],
+            "explanation": "C 段：一些公司发现招聘新员工更容易了（found it easier to recruit new staff）。空格前是 to，填动词原形 recruit。",
+            "evidence": { "para": "C", "quote": "some firms found it easier to recruit new staff" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "In hospitals and schools, a shorter week would require {blank} more people, which increases costs.",
+            "answer": ["employing"],
+            "explanation": "E 段：在这些行业推行更短的工作周需要雇用更多人手（would require employing more people），从而推高成本。require 后接动名词，填 employing。",
+            "evidence": { "para": "E", "quote": "Introducing a shorter week in such sectors would require employing more people, which raises costs." }
+          }
+        ]
+      }
+    ]
+  }
+]
