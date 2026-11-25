@@ -24,6 +24,7 @@ const SOURCE_LABEL = {
   'ielts-speaking': '雅思口语',
   'ielts-reading': '雅思阅读',
   'ielts-listening': '雅思听力',
+  'ielts-knowledge': '雅思基础',
   'ielts-vocab': '雅思词汇诊断',
 };
 
@@ -32,7 +33,7 @@ const SOURCE_LABEL = {
 const SKILL_PLAN = [
   { key: 'listen', icon: '🎧', label: '听', desc: '听写本课（放音→打出句子）', sources: ['dictation', 'ielts-listening'], unit: '次', tab: 'dictation' },
   { key: 'speak', icon: '💬', label: '说', desc: '情景对话角色扮演（开口/朗读跟读）', sources: ['dialogue', 'ielts-speaking'], unit: '组', tab: 'dialogue' },
-  { key: 'read', icon: '📖', label: '读', desc: '学新课精读 + 练本课题', sources: ['quiz', 'ielts-reading'], unit: '题', tab: 'learn' },
+  { key: 'read', icon: '📖', label: '读', desc: '学新课精读 + 练本课题', sources: ['quiz', 'ielts-reading', 'ielts-knowledge'], unit: '题', tab: 'learn' },
   { key: 'write', icon: '✍️', label: '写', desc: '句型转换（中译英 + 改写）', sources: ['transform', 'ielts-writing'], unit: '组', tab: 'transform' },
   { key: 'memo', icon: '🔤', label: '记', desc: '背单词 + 到期错题复习', sources: ['words', 'vocab'], unit: '词', tab: 'words' },
 ];
