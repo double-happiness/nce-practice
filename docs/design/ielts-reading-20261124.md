@@ -162,6 +162,7 @@ Node 自带 `assert`，不读写档案数据：归一化与可接受写法、字
 - T1 设计与数据结构（本文）
 - [x] 已实现 2026-11-25
 - T2 `lib/ielts-reading.js`：内容加载、校验、判分、band 估算、记录清洗
+- [x] 已实现 2026-11-25
 - T3 6 篇原创文章与 78 道题（`easy.json` / `medium.json` / `hard.json`）
 - T4 `routes/ielts-reading.js`：列表、详情、交卷
 - T5 `public/js/ielts-reading-ui.js` + `index.html` 一行 script
