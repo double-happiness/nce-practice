@@ -200,6 +200,10 @@ app.use((err, req, res, next) => {
   if (err && err.type === 'entity.too.large') {
     return res.status(413).json({ error: '请求体过大（上限 10MB）' });
   }
+  // express.json() 解析失败（格式错误的 JSON、strict 模式下的裸字符串等）属于客户端错误，返回 400 而不是 500
+  if (err && err.type === 'entity.parse.failed') {
+    return res.status(400).json({ error: '请求体不是合法的 JSON' });
+  }
   console.error('未捕获的路由错误:', err);
   res.status(500).json({ error: '服务器内部错误，详情见服务端日志' });
 });
