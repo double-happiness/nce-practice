@@ -193,12 +193,13 @@ test('真实阅读内容校验无错误、无警告', () => {
   assert.deepStrictEqual(v.warnings, []);
 });
 
-test('真实内容规模：6 篇，易中难各 2，话题与题型覆盖齐全', () => {
+test('真实内容规模：至少 6 篇、易中难各至少 2 篇，话题与题型覆盖齐全', () => {
   const ps = realPassages();
-  assert.strictEqual(ps.length, 6);
+  // 内容会分批扩充，不写死篇数
+  assert.ok(ps.length >= 6, `共 ${ps.length} 篇`);
   const byDiff = {};
   for (const p of ps) byDiff[p.difficulty] = (byDiff[p.difficulty] || 0) + 1;
-  assert.deepStrictEqual(byDiff, { easy: 2, medium: 2, hard: 2 });
+  for (const d of ['easy', 'medium', 'hard']) assert.ok((byDiff[d] || 0) >= 2, `${d} 只有 ${byDiff[d] || 0} 篇`);
   assert.deepStrictEqual(new Set(ps.map((p) => p.topic)), new Set(Object.keys(R.TOPICS)));
   const types = new Set();
   for (const p of ps) {
