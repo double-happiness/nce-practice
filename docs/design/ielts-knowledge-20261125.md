@@ -14,6 +14,7 @@
 | strategy | writing / speaking | 写作、口语答题方法 | 11 | `strategy-writing-speaking.json` |
 | language | writing / speaking | 功能表达库 | 8 | `language-bank.json` |
 | pronunciation / wordform | sounds / stress / connected / affix / root / collocation | 发音与构词 | 10 | `pronunciation-wordform.json` |
+| strategy | writing | Task 2 话题论点素材（id 前缀 `st-ideas-`） | 12 | `writing-ideas.json` |
 
 ## 2. 文章 schema（`data/ielts/knowledge/*.json`，每个文件是 JSON 数组）
 
@@ -82,6 +83,29 @@
 | 工作线 | 允许创建或修改的文件 |
 |---|---|
 | 基础设施 | `lib/ielts-knowledge.js`、`routes/ielts-knowledge.js`、`public/js/ielts-knowledge-ui.js`、`scripts/test-ielts-knowledge.js`、`scripts/fixtures/ielts-knowledge/**`；`public/index.html` 只能加一行 script |
-| 内容 ×6 | 只能新建 §1 表格里对应的那一个分片文件 |
+| 内容 ×7 | 只能新建 §1 表格里对应的那一个分片文件：`grammar-core.json`、`grammar-advanced.json`、`strategy-listening-reading.json`、`strategy-writing-speaking.json`、`language-bank.json`、`pronunciation-wordform.json`、`writing-ideas.json` |
 
 以下文件由协调方在合并时接入：`scripts/validate.js`、`package.json`、`routes/plan.js`、`data/ielts/plan.json`、`public/sw.js`，以及文档。
+
+## 进展（2026-11-25）
+
+- [x] 已实现 2026-11-25
+
+§2–§4 的 schema、接口和前端要求都已落地，§2–§4 的 schema、接口和前端要求都已落地，与本文一致。实际内容按 main 上 `lib/ielts-knowledge` 的 `getContent()` 统计：
+
+| 分片 | domain / track | 篇数 | 小测题数 |
+|---|---|---|---|
+| `grammar-core.json` | grammar / core | 12 | 72 |
+| `grammar-advanced.json` | grammar / advanced | 12 | 72 |
+| `strategy-listening-reading.json` | strategy / listening 5、reading 6 | 11 | 64 |
+| `strategy-writing-speaking.json` | strategy / writing 6、speaking 5 | 11 | 62 |
+| `language-bank.json` | language / writing 7、speaking 1 | 8 | 48 |
+| `pronunciation-wordform.json` | pronunciation 6（sounds、stress、connected 各 2）、wordform 4（affix 2、root 1、collocation 1） | 10 | 60 |
+| `writing-ideas.json` | strategy / writing | 12 | 60 |
+| **合计** | | **76** | **438** |
+
+- 原计划约 64 篇，另加 Task 2 话题论点素材 12 篇，共 76 篇。按 domain 汇总：grammar 24 篇、strategy 34 篇、language 8 篇、pronunciation 6 篇、wordform 4 篇；level 为 A2 15 / B1 43 / B2 14 / C1 4；小测题型 mcq 228 / fill 122 / correct 88，每篇 5–6 题。
+- `writing-ideas.json` 的 12 篇 order 为 100–210，在目录「题型技巧 → 写作方法」里排在 6 篇写作方法之后；skills 为 `["writing", "speaking"]`，按「口语」筛选也能找到。
+- `npm run validate` 已接入知识库校验（`scripts/validate.js` 调用 `validateKnowledgeContent`；本次文档同步用 node 对 76 篇复核：0 错误 0 警告，分片读取无问题）；`npm run test:ielts-knowledge`（`scripts/test-ielts-knowledge.js`，用 `scripts/fixtures/ielts-knowledge/` 的样例）覆盖内容校验、判分、进度和接口。
+- 协调方接入：`routes/plan.js` 的「读」技能来源加 `ielts-knowledge`（每交一次小测记 1 次，只标记已读不计数）；`data/ielts/plan.json` 基础期 W1–4 每周 2 篇核心语法、W5–8 每周 2 篇功能表达或题型技巧；`public/sw.js` 预缓存 `ielts-knowledge-ui.js` 并把缓存版本升到 v17；`lib/data.js` 重载题库时一并调用知识库的 `reload()`。
+- 变更记录见 [docs/changes/2026-11-25-雅思第三批功能.md](../changes/2026-11-25-雅思第三批功能.md)。
