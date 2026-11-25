@@ -15,7 +15,8 @@
         {"key":"transform","label":"句型转换 12 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":12,"unit":"步","tab":"transform","minutes":30},
         {"key":"dictation","label":"听写 NCE2 本周课文 10 句","kind":"internal","source":["dictation"],"target":10,"unit":"句","tab":"dictation","minutes":30},
         {"key":"words","label":"背单词 30 词（NCE2 本周词为主）+ 清空到期复习","kind":"internal","source":["words"],"target":30,"unit":"词","tab":"words","minutes":40},
-        {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20}
+        {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20},
+        {"key":"ielts-knowledge","label":"雅思基础：核心语法 2 篇（读讲解 + 做小测，📚 基础 → 语法）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 2, "phase": "foundation",
       "focus": "本周主攻被动语态、一般将来时与将来进行时，过去完成时入门 · NCE2 L9–L18",
@@ -26,50 +27,54 @@
         {"key":"transform","label":"句型转换 15 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":15,"unit":"步","tab":"transform","minutes":30},
         {"key":"dictation","label":"听写 NCE2 本周课文 12 句","kind":"internal","source":["dictation"],"target":12,"unit":"句","tab":"dictation","minutes":30},
         {"key":"words","label":"背单词 30 词（NCE2 本周词为主）+ 清空到期复习","kind":"internal","source":["words"],"target":30,"unit":"词","tab":"words","minutes":40},
-        {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20}
+        {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20},
+        {"key":"ielts-knowledge","label":"雅思基础：核心语法 2 篇（读讲解 + 做小测，📚 基础 → 语法）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 3, "phase": "foundation",
       "focus": "本周主攻情态动词（must / can / may）与动名词，宾语从句、定语从句入门 · NCE2 L19–L30；开始雅思口语 Part 1",
       "tips": "口语从 Part 1 开始：每天选 1 个话题（如 Hometown、Work or Study），每题用「观点 + 原因 + 例子」三句话回答，录音回听后自评。宾语从句集中在 L25–L26，句型转换按语法点选「宾语从句」专项。",
       "tasks": [
-        {"key":"nce-read","label":"NCE2 精读本周 12 课（L19–L30），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":12,"unit":"课","per":"week","tab":"learn","minutes":360},
+        {"key":"nce-read","label":"NCE2 精读本周 12 课（L19–L30），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":12,"unit":"课","per":"week","tab":"learn","minutes":325},
         {"key":"practice","label":"题库练习：本周课文配套题 15 题","kind":"internal","source":["quiz"],"target":15,"unit":"题","tab":"practice","minutes":25},
         {"key":"transform","label":"句型转换 15 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":15,"unit":"步","tab":"transform","minutes":25},
         {"key":"dictation","label":"听写 NCE2 本周课文 12 句","kind":"internal","source":["dictation"],"target":12,"unit":"句","tab":"dictation","minutes":25},
         {"key":"words","label":"背单词 35 词（NCE2 本周词为主）+ 清空到期复习","kind":"internal","source":["words"],"target":35,"unit":"词","tab":"words","minutes":35},
         {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20},
-        {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20}
+        {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20},
+        {"key":"ielts-knowledge","label":"雅思基础：核心语法 2 篇（读讲解 + 做小测，📚 基础 → 语法）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 4, "phase": "foundation",
       "focus": "本周主攻过去完成时与一般过去时的区分、时间状语从句（when / while / as soon as） · NCE2 L31–L42",
       "tips": "这几课多是叙事，适合练 Part 2「讲经历」：每课用 3–4 句复述故事主线。听写留意过去式 -ed 的弱读。背单词开始加入雅思 B1 词：到「雅思备考 → 词汇」按 CEFR=B1 筛选后背。",
       "tasks": [
-        {"key":"nce-read","label":"NCE2 精读本周 12 课（L31–L42），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":12,"unit":"课","per":"week","tab":"learn","minutes":360},
+        {"key":"nce-read","label":"NCE2 精读本周 12 课（L31–L42），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":12,"unit":"课","per":"week","tab":"learn","minutes":325},
         {"key":"practice","label":"题库练习：本周课文配套题 18 题","kind":"internal","source":["quiz"],"target":18,"unit":"题","tab":"practice","minutes":25},
         {"key":"transform","label":"句型转换 18 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":18,"unit":"步","tab":"transform","minutes":25},
         {"key":"dictation","label":"听写 NCE2 本周课文 15 句","kind":"internal","source":["dictation"],"target":15,"unit":"句","tab":"dictation","minutes":25},
         {"key":"words","label":"背单词 35 词（NCE2 本周词 + 雅思 academic/B1 词）+ 清空到期复习","kind":"internal","source":["words"],"target":35,"unit":"词","tab":"words","minutes":35},
         {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":20},
-        {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20}
+        {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20},
+        {"key":"ielts-knowledge","label":"雅思基础：核心语法 2 篇（读讲解 + 做小测，📚 基础 → 语法）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 5, "phase": "foundation",
       "focus": "本周主攻被动语态综合运用、间接引语与现在完成进行时 · NCE2 L43–L55",
       "tips": "L45–L50 被动语态密集，对照 Task 1 常用句（... was produced / is expected to ...）各仿写 2 句。口语 Part 1 把回答扩到 3–4 句，避免只答 Yes / No。",
       "tasks": [
-        {"key":"nce-read","label":"NCE2 精读本周 13 课（L43–L55），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":13,"unit":"课","per":"week","tab":"learn","minutes":390},
+        {"key":"nce-read","label":"NCE2 精读本周 13 课（L43–L55），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":13,"unit":"课","per":"week","tab":"learn","minutes":355},
         {"key":"practice","label":"题库练习：本周课文配套题 20 题","kind":"internal","source":["quiz"],"target":20,"unit":"题","tab":"practice","minutes":25},
         {"key":"transform","label":"句型转换 18 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":18,"unit":"步","tab":"transform","minutes":25},
         {"key":"dictation","label":"听写 NCE2 本周课文 15 句","kind":"internal","source":["dictation"],"target":15,"unit":"句","tab":"dictation","minutes":20},
         {"key":"words","label":"背单词 40 词（NCE2 本周词 + 雅思 academic/B1 词）+ 清空到期复习","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"words","minutes":35},
         {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":8,"unit":"轮","tab":"dialogue","minutes":20},
         {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20},
-        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30}
+        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30},
+        {"key":"ielts-knowledge","label":"雅思基础：功能表达或题型技巧 2 篇（读讲解 + 做小测）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 6, "phase": "foundation",
       "focus": "本周主攻 too…to / enough…to、使役结构 have sth done、as…as 比较 · NCE2 L56–L68；开始雅思写作 Task 1",
       "tips": "Task 1 入门：A 类先做柱状图，按「改写题目 → overview 总体趋势 → 两段细节」写满 150 词，不求速度；G 类先写半正式书信。写完对照范文，把 3 个好表达记进错题本。",
       "tasks": [
-        {"key":"nce-read","label":"NCE2 精读本周 13 课（L56–L68），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":13,"unit":"课","per":"week","tab":"learn","minutes":355},
+        {"key":"nce-read","label":"NCE2 精读本周 13 课（L56–L68），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":13,"unit":"课","per":"week","tab":"learn","minutes":320},
         {"key":"practice","label":"题库练习：本周课文配套题 20 题","kind":"internal","source":["quiz"],"target":20,"unit":"题","tab":"practice","minutes":25},
         {"key":"transform","label":"句型转换 20 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":20,"unit":"步","tab":"transform","minutes":25},
         {"key":"dictation","label":"听写 NCE2 本周课文 18 句","kind":"internal","source":["dictation"],"target":18,"unit":"句","tab":"dictation","minutes":20},
@@ -77,13 +82,14 @@
         {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":8,"unit":"轮","tab":"dialogue","minutes":20},
         {"key":"speaking","label":"雅思口语 Part 1 · 1 个话题（4 题，录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":1,"unit":"组","tab":"ielts:speaking","minutes":20},
         {"key":"writing","label":"雅思写作 Task 1 入门：本周 1 篇（A 类图表 / G 类书信，150 词以上）","kind":"internal","source":["ielts-writing"],"target":1,"unit":"篇","per":"week","tab":"ielts:writing","minutes":60},
-        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30}
+        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30},
+        {"key":"ielts-knowledge","label":"雅思基础：功能表达或题型技巧 2 篇（读讲解 + 做小测）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 7, "phase": "foundation",
       "focus": "本周主攻比较级与最高级（Task 1 数据描述必备）、过去完成时被动、反意疑问句 · NCE2 L69–L82",
       "tips": "L73 的比较级、最高级可直接迁移到图表描述：整理 rise / fall / peak / remain stable 等 10 个趋势词并各造 1 句。口语每天 2 组 Part 1，换不同话题，练习用 because / for example 展开。",
       "tasks": [
-        {"key":"nce-read","label":"NCE2 精读本周 14 课（L69–L82），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":14,"unit":"课","per":"week","tab":"learn","minutes":420},
+        {"key":"nce-read","label":"NCE2 精读本周 14 课（L69–L82），学完点「打卡本课」","kind":"internal","source":["lesson"],"target":14,"unit":"课","per":"week","tab":"learn","minutes":350},
         {"key":"practice","label":"题库练习：本周课文配套题 20 题","kind":"internal","source":["quiz"],"target":20,"unit":"题","tab":"practice","minutes":25},
         {"key":"transform","label":"句型转换 20 步：本周语法点（中译英 + 改写）","kind":"internal","source":["transform"],"target":20,"unit":"步","tab":"transform","minutes":20},
         {"key":"dictation","label":"听写 NCE2 本周课文 18 句","kind":"internal","source":["dictation"],"target":18,"unit":"句","tab":"dictation","minutes":20},
@@ -91,7 +97,8 @@
         {"key":"dialogue","label":"情景对话 1 组（日常交流 daily / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":8,"unit":"轮","tab":"dialogue","minutes":20},
         {"key":"speaking","label":"雅思口语 Part 1 · 2 个话题（录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":25},
         {"key":"writing","label":"雅思写作 Task 1 入门：本周 1 篇（A 类图表 / G 类书信，150 词以上）","kind":"internal","source":["ielts-writing"],"target":1,"unit":"篇","per":"week","tab":"ielts:writing","minutes":60},
-        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30}
+        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30},
+        {"key":"ielts-knowledge","label":"雅思基础：功能表达或题型技巧 2 篇（读讲解 + 做小测）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 8, "phase": "foundation",
       "focus": "本周主攻现在完成进行时、条件句与 had better · NCE2 L83–L96 收官 + B1 检查点",
@@ -105,7 +112,8 @@
         {"key":"speaking","label":"雅思口语 Part 1 · 2 个话题（录音回听 + 自评）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":25},
         {"key":"writing","label":"雅思写作 Task 1 入门：本周 1 篇（A 类图表 / G 类书信，150 词以上）","kind":"internal","source":["ielts-writing"],"target":1,"unit":"篇","per":"week","tab":"ielts:writing","minutes":60},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（B1 检查点）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
-        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30}
+        {"key":"ielts-listening-p1","label":"雅思听力 Part 1（练习模式：表格/笔记填空，练拼写和数字）","kind":"internal","source":["ielts-listening"],"target":2,"unit":"个","per":"week","tab":"ielts:listening","minutes":30},
+        {"key":"ielts-knowledge","label":"雅思基础：功能表达或题型技巧 2 篇（读讲解 + 做小测）","kind":"internal","source":["ielts-knowledge"],"target":2,"unit":"篇","per":"week","tab":"ielts:knowledge","minutes":50}
       ] },
     { "week": 9, "phase": "skills",
       "focus": "NCE3 起步：长句拆分（过去完成时、must have done 推测、定语从句） · NCE3 L1–L5；话题词 education / work；Task 2 首次登场",
