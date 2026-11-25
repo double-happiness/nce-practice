@@ -18,7 +18,8 @@
   const CAN_RECORD = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
 
   // ---- 实时转写与流利度统计的口径 ----
-  const ASR_LANG = 'en-GB';
+  // 与情景对话一致用 en-US：Chrome 对 en-GB 的识别支持较差（口音不影响，只是识别模型）
+  const ASR_LANG = 'en-US';
   const LONG_PAUSE_MS = 3000; // 相邻两次识别结果的间隔超过 3 秒算一次长停顿
   const MAX_TRANSCRIPT = 6000; // 与后端 lib/ielts.js 的 MAX_TRANSCRIPT 一致
   // 与后端指标白名单的上限一致；极端值（如只说了 1 秒）夹到上限，避免整份自评提交被 400
@@ -307,12 +308,13 @@
     return window.SpeechRecognition || window.webkitSpeechRecognition || null;
   }
   function asrEnabled() {
-    return readPref('speaking-asr', true) !== false;
+    // 默认关闭：开启后 Chrome 会把作答语音发到 Google 语音识别服务，需用户主动打开（设计 D4：录音不上传）
+    return readPref('speaking-asr', false) === true;
   }
   // 现在能不能开转写；不能时给出降级原因（只录音）
   function asrAvailability() {
     if (!recCtor()) return { ok: false, code: 'unsupported', msg: '当前浏览器不支持语音识别（Web Speech API），作答只录音、不转写；Chrome 或 Edge 可用。' };
-    if (!asrEnabled()) return { ok: false, code: 'off', msg: '已关闭实时转写，作答只录音。' };
+    if (!asrEnabled()) return { ok: false, code: 'off', msg: '实时转写默认关闭，作答只录音。勾选「实时转写」可开启：开启后 Chrome 会把作答语音发送到 Google 语音识别服务（需联网），录音文件本身仍只留在本页内存。' };
     if (asr.blocked) return { ok: false, code: asr.blocked.code, msg: asr.blocked.msg };
     const needNet = typeof NCE.speechRecNeedsNetwork === 'function' ? NCE.speechRecNeedsNetwork() : true;
     const online = typeof NCE.isOnline === 'function' ? NCE.isOnline() : navigator.onLine;
