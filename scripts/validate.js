@@ -659,7 +659,8 @@ function validateIeltsPlan(plan, errors, warnings) {
       errors.push(`${where}: tasks 不能为空`);
       return;
     }
-    if (tasks.length < 5 || tasks.length > 8) warnings.push(`${where}: 任务 ${tasks.length} 项，建议每周 5–8 项`);
+    // 接入站内听力、阅读后四项技能各有任务，且新增的多为按周累计的任务，上限放宽到 10
+    if (tasks.length < 5 || tasks.length > 10) warnings.push(`${where}: 任务 ${tasks.length} 项，建议每周 5–10 项`);
     const keySeen = new Set();
     tasks.forEach((t, j) => {
       const tw = `${where}.tasks[${j}] key=${(t && t.key) || '?'}`;
