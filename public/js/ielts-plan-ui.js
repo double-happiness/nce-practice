@@ -1,6 +1,6 @@
 'use strict';
 // 雅思备考 · 总览计划子页：倒计时、三阶段进度条、本周重点与 tips、今日任务清单（external 可打勾）、
-// 后两周预告、检查点卡片（状态 + 建议）、自评概况、档案设置（考试日 / 类型 / 目标）。
+// 后两周预告、检查点卡片（状态 + 建议）、成绩概况（听说读写四项 + 总分估算）、档案设置（考试日 / 类型 / 目标）。
 // 接口：GET /api/ielts/plan、GET /api/ielts/summary、POST /api/ielts/plan/check、POST /api/ielts/profile
 (function () {
   const NCE = window.NCE;
@@ -323,21 +323,33 @@
     return `<div class="ie-card"><h3>🚩 检查点</h3><div class="iep-cps">${cards}</div></div>`;
   }
 
+  // 成绩概况：听力 / 阅读（只有模考计分）、写作 / 口语（自评）、词汇诊断与总分估算
   function summaryHtml(sum) {
     if (!sum || typeof sum !== 'object') return '';
+    const l = sum.listening || {};
+    const r = sum.reading || {};
     const w = sum.writing || {};
     const s = sum.speaking || {};
     const v = sum.vocab || {};
     const e = sum.estimate || {};
-    const has = (Number(w.count) || 0) > 0 || (Number(s.count) || 0) > 0 || v.lastOverall != null || e.overall != null;
+    const has = [l, r, w, s].some((x) => (Number(x.count) || 0) > 0 || (Number(x.practiceCount) || 0) > 0) ||
+      v.lastOverall != null || e.overall != null;
     if (!has) return '';
+    const scoredCell = (x, name) => {
+      const p = Number(x.practiceCount) || 0;
+      return `<div><b>${esc(IE.fmtBand(x.last3Avg))}</b><span>${name}近 3 次模考均分 · 模考 ${Number(x.count) || 0} 次${p ? ` · 练习 ${p} 次` : ''}</span></div>`;
+    };
     return (
-      '<div class="ie-card"><h3>📊 自评概况</h3><div class="iep-sum">' +
-      `<div><b>${esc(IE.fmtBand(w.last3Avg))}</b><span>写作近 3 次均分 · 共 ${Number(w.count) || 0} 篇</span></div>` +
-      `<div><b>${esc(IE.fmtBand(s.last3Avg))}</b><span>口语近 3 次均分 · 共 ${Number(s.count) || 0} 次</span></div>` +
+      '<div class="ie-card"><h3>📊 成绩概况</h3><div class="iep-sum">' +
+      scoredCell(l, '听力') +
+      scoredCell(r, '阅读') +
+      `<div><b>${esc(IE.fmtBand(w.last3Avg))}</b><span>写作近 3 次自评均分 · 共 ${Number(w.count) || 0} 篇</span></div>` +
+      `<div><b>${esc(IE.fmtBand(s.last3Avg))}</b><span>口语近 3 次自评均分 · 共 ${Number(s.count) || 0} 次</span></div>` +
       `<div><b>${v.lastOverall != null ? esc(String(v.lastOverall)) + '%' : '—'}</b><span>最近一次词汇诊断覆盖率</span></div>` +
-      `<div><b>${esc(IE.fmtBand(e.overall))}</b><span>总分粗估${e.note ? ' · ' + esc(e.note) : ''}</span></div>` +
-      '</div></div>'
+      `<div><b>${esc(IE.fmtBand(e.overall))}</b><span>总分粗估</span></div>` +
+      '</div>' +
+      (e.note ? `<div class="ie-muted" style="margin-top:10px;line-height:1.7">📐 ${esc(e.note)}</div>` : '') +
+      '</div>'
     );
   }
 

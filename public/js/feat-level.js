@@ -10,7 +10,7 @@
 //   GET  /api/transform/stats             句型转换总正确率（routes/transform.js）
 //   GET  /api/meta                        各册课数（server.js）
 //   POST /api/plan/level {level}          写入水平预设 starter/medium/sprint（routes/plan.js）
-//   GET  /api/ielts/summary               雅思写作 / 口语自评均值、词汇诊断（routes/ielts.js，静默请求，失败不显示）
+//   GET  /api/ielts/summary               雅思听说读写四项近 3 次均分、总分估算、词汇诊断（routes/ielts.js，静默请求，失败不显示）
 (function () {
   const NCE = window.NCE;
   if (!NCE || !NCE.registerFeature) return;
@@ -54,6 +54,12 @@
     .lv-bar-fill{height:100%;background:linear-gradient(90deg,#60a5fa,#2563eb);border-radius:8px;transition:width .4s}
     .lv-prog-hint{font-size:12.5px;color:#6b7280;margin-top:6px;line-height:1.6}
     .lv-note{color:#666;font-size:13px;line-height:1.6;background:#f5f7fa;border-radius:8px;padding:10px 14px}
+    .lv-quads.lv-ie-quads{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+    .lv-ie-total{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:12px;padding:12px 14px;border-radius:10px;background:#eff6ff}
+    .lv-ie-total-n{font-size:30px;font-weight:800;color:#2563eb;line-height:1;flex:none}
+    .lv-ie-total-d{flex:1;min-width:180px;font-size:13px;color:#4b5563;line-height:1.6}
+    .lv-ie-total-d b{color:#111827}
+    .lv-ie-notes{margin:10px 0 0;padding-left:18px;font-size:12.5px;color:#6b7280;line-height:1.7}
     .lv-fb{padding:12px 14px;border-radius:8px;font-size:14px;background:#fef2f2;border:1px solid #fecaca}
     /* 新手引导弹层 */
     .lv-ob-mask{position:fixed;inset:0;background:rgba(15,23,42,.45);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px}
@@ -116,26 +122,66 @@
     return v == null || v === '' || !Number.isFinite(n) ? '—' : n.toFixed(1);
   }
 
-  // 雅思自评卡：summary 有任一数据时才显示
+  // 雅思四项：按「听说读写」排列；听力 / 阅读只有模考计分（scored），写作 / 口语是自评
+  const IELTS_SKILLS = [
+    { key: 'listening', name: '听力', icon: '🎧', scored: true },
+    { key: 'speaking', name: '口语', icon: '🎙️', unit: '次' },
+    { key: 'reading', name: '阅读', icon: '📖', scored: true },
+    { key: 'writing', name: '写作', icon: '✍️', unit: '篇' },
+  ];
+
+  function ieltsSkillSub(skill, x) {
+    const n = Number(x.count) || 0;
+    if (skill.scored) {
+      const p = Number(x.practiceCount) || 0;
+      if (n) return `近 3 次模考均分 · 模考 ${n} 次${p ? ` · 练习 ${p} 次` : ''}`;
+      return p ? `还没有模考成绩（练习 ${p} 次不计分）` : `还没有${skill.name}记录`;
+    }
+    return n ? `近 3 次自评均分 · 共 ${n} ${skill.unit}` : `还没有${skill.name}记录`;
+  }
+
+  // 总分估算的口径：四项齐全按官方规则取整；缺项时说明缺哪几项（后端没给 bySkill 时退回后端 note）
+  function ieltsEstimateBasis(e) {
+    const by = e.bySkill;
+    if (!by || typeof by !== 'object') return e.note ? String(e.note) : '';
+    const missing = IELTS_SKILLS.filter((k) => by[k.key] == null).map((k) => k.name);
+    if (!missing.length) return '听说读写四项齐全，四项平均后按官方规则取整（.25 进 .5，.75 进整数）';
+    if (missing.length === IELTS_SKILLS.length) return '还没有任何一项成绩，暂无法估分';
+    return `缺${missing.join('、')}，先按已有 ${IELTS_SKILLS.length - missing.length} 项粗估`;
+  }
+
+  // 雅思卡：summary 有任一数据时才显示
   function ieltsCardHtml(sum) {
     if (!sum || typeof sum !== 'object') return '';
-    const w = sum.writing || {};
-    const s = sum.speaking || {};
     const v = sum.vocab || {};
     const e = sum.estimate || {};
-    const wN = Number(w.count) || 0;
-    const sN = Number(s.count) || 0;
-    if (!wN && !sN && v.lastOverall == null && e.overall == null) return '';
-    const quad = (title, num, sub) =>
-      `<div class="lv-quad"><div class="lv-quad-t">${title}</div><div class="lv-quad-n">${num}</div><div class="lv-quad-sub">${sub}</div></div>`;
+    const hasAny = IELTS_SKILLS.some((k) => {
+      const x = sum[k.key] || {};
+      return (Number(x.count) || 0) > 0 || (Number(x.practiceCount) || 0) > 0;
+    });
+    if (!hasAny && v.lastOverall == null && e.overall == null) return '';
+    const quads = IELTS_SKILLS.map((k) => {
+      const x = sum[k.key] || {};
+      return (
+        `<div class="lv-quad"><div class="lv-quad-t">${k.icon} ${esc(k.name)}</div>` +
+        `<div class="lv-quad-n">${esc(fmtBand(x.last3Avg))}</div>` +
+        `<div class="lv-quad-sub">${esc(ieltsSkillSub(k, x))}</div></div>`
+      );
+    }).join('');
+    const basis = ieltsEstimateBasis(e);
     return (
-      '<div class="lv-card"><h3>🎓 雅思自评</h3>' +
-      '<div class="lv-quads">' +
-      quad('✍️ 写作', esc(fmtBand(w.last3Avg)), wN ? `近 3 次自评均分 · 共 ${wN} 篇` : '还没有写作记录') +
-      quad('🎙️ 口语', esc(fmtBand(s.last3Avg)), sN ? `近 3 次自评均分 · 共 ${sN} 次` : '还没有口语记录') +
-      quad('🩺 雅思词汇', v.lastOverall != null ? `${esc(String(v.lastOverall))}<span class="u">%</span>` : '—', v.lastOverall != null ? '最近一次诊断的词表覆盖率' : '还没做过雅思词汇诊断') +
-      quad('📐 总分粗估', esc(fmtBand(e.overall)), e.note ? esc(e.note) : '按自评与诊断粗估，仅供参考') +
-      '</div>' +
+      '<div class="lv-card"><h3>🎓 雅思听说读写</h3>' +
+      `<div class="lv-quads lv-ie-quads">${quads}</div>` +
+      '<div class="lv-ie-total">' +
+      `<div class="lv-ie-total-n">${esc(fmtBand(e.overall))}</div>` +
+      '<div class="lv-ie-total-d"><b>📐 总分估算</b>' +
+      (basis ? `<br>${esc(basis)}` : '') +
+      (v.lastOverall != null ? `<br>🩺 最近一次雅思词汇诊断覆盖率 ${esc(String(v.lastOverall))}%` : '') +
+      '</div></div>' +
+      '<ul class="lv-ie-notes">' +
+      '<li>写作、口语是自评，通常偏乐观。</li>' +
+      '<li>站内题量有限，以剑雅模考为准。</li>' +
+      '</ul>' +
       `<div style="margin-top:12px"><button class="lv-btn lv-go" data-tab="ielts">${sum.active === false ? '去雅思备考 →' : '进入雅思备考 →'}</button></div>` +
       '</div>'
     );
