@@ -188,6 +188,9 @@
 ## 10. 任务
 
 - T1 设计文档与数据结构（本文）
+  - [x] 已实现 2026-11-25
 - T2 `lib/ielts-mock.js` + `routes/ielts-mock.js`
+  - [x] 已实现 2026-11-25
 - T3 `public/js/ielts-mock-ui.js` + `index.html` 一行 script（含 `ielts-listening-ui.js` 导出 TTS）
+  - [x] 已实现 2026-11-25
 - T4 `scripts/test-ielts-mock.js`
