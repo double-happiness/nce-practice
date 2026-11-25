@@ -45,7 +45,7 @@ npm start        # 默认 http://localhost:3737
 | 数据备份 | 「💾 数据备份」：一键导出所有学习数据为单个 JSON 文件、导入恢复；换设备/防丢失。另有服务端每日自动快照到 `data/backups/`（滚动保留 7 份），误操作可整目录拷回恢复 |
 | 阶段测验 | 「📝 阶段测验」：选课程区间→限时组卷→交卷出成绩单（总分/正确率/按语法拆解/逐题回看），保存历次成绩，错题自动进复习队列；**第四册**可按 L1–12 / L13–24 / L25–36 / L37–48 一键模考，或全书 40 题模考 |
 | 句型转换 | 「🔀 句型转换」：给出中文→译成英文→依次改一般疑问句、否定句、对句子成分提问（特殊疑问句），另有被动语态、间接引语等高级转换；**可按册 + 语法点或剑桥语法单元（EGIU/EGIU2）筛选**；逐步判分（大小写/标点/缩写不敏感）+ 转换链展示 + 按步骤类型统计；答错的步骤自动进入间隔复习队列，训练量计入每日目标 |
-| 雅思备考 | 「🎓 雅思备考」（归入「学」组）：备考档案 + 考试倒计时 + 26 周三阶段计划（基础期 / 专项期 / 冲刺期），今日任务可「去做 →」深链到现有功能，剑雅等外部资料任务手动打勾；第 8 / 14 / 20 周检查点给出达标判定与调整建议。子页：雅思词汇（约 720 词，按话题 / CEFR 浏览、卡片背诵、拼写、词汇诊断）、写作（Task 1 图表 / 书信 + Task 2，计时写作、四维自评、范文对照）、口语（Part 1 / 2 / 3，计时、浏览器内录音回听、四维自评、参考答案）、记录。学习计划新增「雅思」预设，雅思写作 / 口语 / 背词计入今日目标；「🧭 我的水平」CEFR 补齐 B2 / C1 并粗估雅思分数 |
+| 雅思备考 | 「🎓 雅思备考」（归入「学」组）：备考档案 + 考试倒计时 + 26 周三阶段计划（基础期 / 专项期 / 冲刺期），今日任务可「去做 →」深链到现有功能或雅思子页，剑雅等外部资料任务手动打勾；第 8 / 14 / 20 周检查点给出达标判定与调整建议。子页：总览计划、雅思词汇（约 1200 词，按话题 / CEFR 浏览、卡片背诵、拼写、**搭配练习**、**例句填空**、词汇诊断）、**听力**（8 个原创 section、80 题，浏览器 TTS 朗读，考试 / 练习模式，按雅思规则判分）、**阅读**（6 篇原创文章、78 题、8 种题型，20 分钟考试模式、选中高亮、交卷后定位原文依据句）、写作（74 题：Task 1 图表 / **流程图** / **地图** / 书信 + Task 2，计时写作、四维自评、范文对照）、口语（Part 1 / 2 / 3 共 64 条，计时、浏览器内录音回听、**可选实时转写与流利度指标**、四维自评、参考答案）、记录。学习计划新增「雅思」预设，雅思听力 / 阅读 / 写作 / 口语 / 背词计入今日目标；「🧭 我的水平」CEFR 补齐 B2 / C1 并粗估雅思分数；自有资料可用 `npm run import:ielts` 导入（见 [docs/雅思自有资料导入.md](docs/雅思自有资料导入.md)） |
 | 数据校验 | `npm run validate`：检查答案是否在选项内、id 是否重复、字段是否完整；服务启动时自动运行 |
 
 ## 架构
@@ -66,10 +66,15 @@ nce-practice/
 │   ├── nce-official-util.js  # 原声 LRC 解析与句子归一化
 │   ├── ielts.js         # 雅思内容加载（data/ielts/ + local/）与备考数据读写
 │   ├── ielts-plan.js    # 雅思 26 周计划：周数映射、今日任务统计、检查点判定
+│   ├── ielts-listening.js  # 雅思听力：内容加载与校验、判分（字数限制 / 拼写）、band 估算、作答记录清洗
+│   ├── ielts-reading.js    # 雅思阅读：内容加载与校验、8 种题型判分、band 估算、作答记录清洗
 │   └── progress.js      # 学习进度读写
 ├── scripts/
 │   ├── validate.js      # 数据校验（npm run validate，启动时自动跑）
-│   └── import-nce-official.js  # 导入英音 MP3 + LRC（npm run import:official）
+│   ├── import-nce-official.js  # 导入英音 MP3 + LRC（npm run import:official）
+│   ├── import-ielts-local.js   # 雅思自有资料导入（npm run import:ielts）
+│   ├── test-ielts-listening.js # 雅思听力判分与内容校验测试（npm run test:ielts-listening）
+│   └── test-ielts-reading.js   # 雅思阅读判分与内容校验测试（npm run test:ielts-reading）
 ├── routes/              # 功能路由，一功能一文件，自动挂载到 /api
 │   ├── srs.js           # 间隔重复复习
 │   ├── vocab.js         # 生词本
@@ -85,6 +90,8 @@ nce-practice/
 │   ├── transform.js     # 句型转换训练
 │   ├── official.js      # 原声课文 API
 │   ├── ielts.js         # 雅思备考 API（档案 / 计划 / 词汇 / 写作 / 口语 / 记录）
+│   ├── ielts-listening.js  # 雅思听力 API（列表 / 题目与脚本 / 交卷判分）
+│   ├── ielts-reading.js    # 雅思阅读 API（列表 / 文章与题目 / 交卷判分）
 │   └── backup.js        # 数据备份 导出/导入
 ├── data/
 │   ├── meta.json        # 册、单元(课程进度)定义
@@ -97,12 +104,14 @@ nce-practice/
 │   ├── dialogues/       # 情景对话分片（按场景分类）
 │   ├── transforms/      # 句型转换练习分片目录（*.json 自动合并）
 │   ├── ielts/           # 雅思内容（全局共享、入库，*.json 自动合并）
-│   │   ├── vocab/       # 雅思词汇：学术通用 / 社会类话题 / 自然科技类话题 3 个文件
-│   │   ├── writing/     # 写作题库：Task 2 / Task 1 A 类图表 / Task 1 G 类书信
+│   │   ├── vocab/       # 雅思词汇：学术通用 / 社会类话题 / 自然科技类话题，共 7 个分片
+│   │   ├── writing/     # 写作题库：Task 2 / Task 1 A 类（图表、流程图、地图）/ Task 1 G 类书信
 │   │   ├── speaking/    # 口语题库：Part 1 / Part 2 题卡 + Part 3 追问
+│   │   ├── listening/   # 听力：part1–part4.json，每个 section 含说话人、逐段脚本与题组
+│   │   ├── reading/     # 阅读：easy / medium / hard.json，每篇 A–G 7 段 + 13 题
 │   │   ├── rubrics.json # 写作、口语四维评分说明（4–8 分五档，自行概括）
 │   │   ├── plan.json    # 26 周计划模板 + 检查点
-│   │   └── local/       # 自有资料（.gitignore，不入库）
+│   │   └── local/       # 自有资料（.gitignore，不入库；子目录 vocab / writing / speaking / listening / reading）
 │   ├── progress.json    # 学习记录（运行时生成）
 │   ├── srs.json         # 间隔复习队列（运行时生成）
 │   └── vocab.json       # 收藏生词（运行时生成）
@@ -132,10 +141,13 @@ nce-practice/
         ├── feat-transform.js  # 句型转换训练
         ├── feat-ielts.js      # 雅思备考壳层 + 子导航 + 开启引导
         ├── ielts-plan-ui.js   # 雅思总览计划（倒计时 / 今日任务 / 检查点）
-        ├── ielts-vocab-ui.js  # 雅思词汇浏览、背诵、拼写、诊断
+        ├── ielts-vocab-ui.js  # 雅思词汇浏览、背诵、拼写、搭配练习、例句填空、诊断
+        ├── ielts-listening-ui.js # 雅思听力（TTS 朗读 / 考试与练习模式 / 复盘高亮答案段）
+        ├── ielts-reading-ui.js   # 雅思阅读（计时 / 选中高亮 / 草稿 / 原文定位与解析）
         ├── ielts-writing-ui.js  # 雅思写作（计时 / 字数 / 自评 / 范文）
-        ├── ielts-chart.js     # Task 1 图表 SVG 渲染（bar / line / pie / table）
-        ├── ielts-speaking-ui.js # 雅思口语（Part 1/2/3 / 录音回听 / 自评）
+        ├── ielts-chart.js     # Task 1 图表 SVG 渲染（bar / line / pie / table / process 流程图 / map 地图）
+        ├── ielts-speaking-ui.js # 雅思口语（Part 1/2/3 / 录音回听 / 可选实时转写与流利度 / 自评）
+        ├── ielts-history-ui.js  # 雅思记录（写作、口语历史与趋势；口语记录含转写与指标）
         └── feat-backup.js     # 数据备份
 ```
 
@@ -156,6 +168,8 @@ nce-practice/
 | GET | `/api/wrong` | 当前错题本题目 |
 | POST | `/api/progress/reset` | 清空进度 |
 
+- 所有 `/api` 接口：请求体不是合法 JSON 时返回 **400** `{ "error": "请求体不是合法的 JSON" }`（以前是 500）；请求体超过 10MB 返回 413。
+
 ### 雅思备考 API（`routes/ielts.js`）
 
 用户数据按档案隔离，存 `data/profiles/<档案id>/ielts.json`（已纳入档案文件与数据备份）。未开启备考时 `GET /api/ielts/profile` 返回默认档案并带 `active: false`。
@@ -174,7 +188,7 @@ nce-practice/
 | POST | `/api/ielts/writing/submit` | `{ promptId, text, durationSec, selfScores }` → 服务端统计字数、计算 band、给出字数不足提示；活动来源记 `ielts-writing` |
 | GET | `/api/ielts/speaking?part=` | 口语题目列表（Part 2 条目带 Part 3 题数） |
 | GET | `/api/ielts/speaking/:id` | 完整条目（含参考答案） |
-| POST | `/api/ielts/speaking/submit` | `{ itemId, part, durationSec, selfScores, notes }` → band；活动来源记 `ielts-speaking`（不接收录音） |
+| POST | `/api/ielts/speaking/submit` | `{ itemId, part, durationSec, selfScores, notes, transcript?, metrics? }` → band；活动来源记 `ielts-speaking`（不接收录音）。`transcript` 为实时转写文字（≤ 6000 字符），`metrics` 只收 `words` / `wpm` / `fillers` / `repeats` / `longPauses` / `connectives` 六个非负数值字段，非法返回 400 |
 | GET | `/api/ielts/rubrics` | 写作 / 口语四维评分说明 |
 | GET | `/api/ielts/history?type=writing\|speaking&limit=` | 写作或口语历史记录，倒序 |
 | GET | `/api/ielts/summary` | 写作 / 口语近 3 次自评均值、最近一次词汇诊断、雅思分数粗估；供总览、水平页、首页使用 |
@@ -183,14 +197,49 @@ nce-practice/
 - **计划周数**：实际周数 = ceil((考试日 − 开始日) / 7)，限制在 4–52 周；第 i 实际周映射到模板第 round((i−1)×26/实际周数)+1 周，改考试日后计划自动压缩或拉伸。
 - **今日完成数**：`lib/ielts-plan.js` 读取刷题进度、句型转换记录和活动日志，按任务的 `source` 统计当天次数；`routes/plan.js` 只追加「雅思」预设与 `ielts-writing`、`ielts-speaking` 来源。
 - **录音**：只在浏览器内存里（MediaRecorder + blob URL），不上传、不落盘；服务端只存作答时长和自评分。
+- **实时转写（可选）**：口语页的「实时转写」默认关闭，勾选后用浏览器 Web Speech API（`en-US`）识别，Chrome 会把作答语音发到 Google 的在线识别服务；录音文件仍只在页面内存里。转写文字和流利度指标随自评提交，存进 `ielts.json` 的口语记录。
+
+### 雅思听力 API（`routes/ielts-listening.js`）
+
+作答记录存在当前档案 `ielts.json` 的 `listenings` 数组（最多保留 300 条）。设计见 [docs/design/ielts-listening-20261124.md](docs/design/ielts-listening-20261124.md)。
+
+| 方法 | 路径 | 说明 |
+| --- | --- | --- |
+| GET | `/api/ielts/listening` | section 列表 `{ total, items, skipped, bandNote }`；每条带 Part、题型、题数、说话人数、脚本词数、作答次数和最好成绩；`skipped` 为数据有误被跳过的 section 数 |
+| GET | `/api/ielts/listening/:id` | 题目与脚本（`speakers`、`segments`、`groups`），供前端 TTS 朗读；**不含**答案、解析和答案所在段 |
+| POST | `/api/ielts/listening/:id/submit` | `{ answers: { "题号": "答案" }, durationSec, mode: exam\|practice }` → 原始分、`raw40`（折算到 40 题）、估算 band、`isBest`、逐题结果（对错、是否超字数、全部可接受写法、中文解析、答案所在段）；活动来源记 `ielts-listening` |
+
+- **输入校验**：`:id` 格式非法 400、不存在 404；`mode` 必填；`answers` 的键只能是本 section 的题号，单个答案最长 100 字符；`durationSec` 为 0–7200 的整数（可省略）。
+- **判分**：空答案判错；填空题超过字数限制直接判错；归一化（大小写、全角半角、弯引号、千分位逗号、首尾标点）后与可接受写法逐个比较，**不做拼写纠错**，单复数不同判错；数字的各种写法（如 `28` / `twenty-eight`、`7:45` / `7.45`）由题库逐条列出。
+- **band**：原始分按比例折算到 40 题，查雅思听力常见近似换算表；10 题样本小，仅供参考。
+
+### 雅思阅读 API（`routes/ielts-reading.js`）
+
+作答记录存在当前档案 `ielts.json` 的 `readings` 数组（最多保留 300 条）。设计见 [docs/design/ielts-reading-20261124.md](docs/design/ielts-reading-20261124.md)。
+
+| 方法 | 路径 | 说明 |
+| --- | --- | --- |
+| GET | `/api/ielts/reading` | 文章列表 `{ total, items, topics, bandNote }`，按易 → 中 → 难排序；每篇带难度、话题、词数、题数、题型、作答次数和最好成绩 |
+| GET | `/api/ielts/reading/:id` | 文章段落与题组；**不含** answer / explanation / evidence |
+| POST | `/api/ielts/reading/:id/submit` | `{ answers: { [题目 id]: string }, durationSec, mode: exam\|practice }` → 原始分、`scaled40`、估算 band、`bandNote`、逐题结果（对错、是否空答 / 超字数、正确答案、中文解析、原文依据 `{ para, quote }`）；活动来源记 `ielts-reading` |
+
+- **输入校验**：`:id` 格式非法 400、不存在 404；`mode` 必填；`answers` 含本篇不存在的题号、值不是字符串或超过 200 字符、一题都没答，均返回 400；`durationSec` 为 0–14400 的整数（可省略）。
+- **判分**：TFNG / YNNG 接受完整词或缩写（`T` / `F` / `NG`、`Y` / `N` / `NG`），两套混用判错；选项类按字母比较；填空类超字数判错，拼写须与可接受写法完全一致（大小写、多余空白不敏感）。
+- **band**：按比例折算到 40 题，查学术类阅读常见近似换算表；单篇 13 题，答对或答错一题就差 0.5–1 分，只看趋势。
 
 ### 雅思内容与版权
 
-- `data/ielts/` 下的题目、范文、参考答案、例句**全部原创**；评分维度（`rubrics.json`）用自己的话概括，每个维度分 4 / 5 / 6 / 7 / 8 五档（4 分档对应 A2 起步阶段的常见分数），**不收录**官方真题和官方评分标准原文。
-- 当前内容规模：雅思词汇约 720 词，分 3 个文件（学术通用 241 词，社会类、自然科技类话题词各约 240 词，共覆盖 12 个话题）；写作 34 题全部带范文（Task 2 共 20 题，5 种题型各 4 题；Task 1 A 类图表 8 题，柱状 / 折线 / 饼图 / 表格各 2；G 类书信 6 封，三种语气各 2）；口语 Part 1 共 16 个话题 × 4 题，Part 2 题卡 16 张，每张配 Part 3 追问 4 题，全部带参考答案。
-- `data/ielts/local/` 用于放**自有资料**（例如自己整理的题目、范文），已加入 `.gitignore`，**不入库**；按与 `data/ielts/` 相同的 schema 放入 JSON，内容加载器会一并读取。剑桥雅思真题等受版权保护的资料不要提交到仓库。
-- 扩充或修改雅思内容后运行 `npm run validate`（含雅思内容校验：id 唯一、字段齐全、枚举合法、图表数据一致、范文字数、计划 26 周等）；计划与评分逻辑的单测为 `npm run test:ielts`。
-- schema 与工作线划分见 [docs/design/ielts-prep-mvp-20261124.md](docs/design/ielts-prep-mvp-20261124.md)，变更记录见 [docs/changes/2026-11-24-雅思备考MVP.md](docs/changes/2026-11-24-雅思备考MVP.md)。
+- `data/ielts/` 下的题目、范文、参考答案、例句、听力脚本、阅读文章**全部原创**；评分维度（`rubrics.json`）用自己的话概括，每个维度分 4 / 5 / 6 / 7 / 8 五档（4 分档对应 A2 起步阶段的常见分数），**不收录**官方真题和官方评分标准原文。
+- 当前内容规模（以 `data/ielts/` 实际数据为准）：
+  - 雅思词汇 **1201 词**，7 个分片：学术通用 421 词；社会类话题 390 词、自然科技类话题 390 词（12 个话题各 65 词）；CEFR 为 B1 313 / B2 539 / C1 304 / C2 45，每词带例句和搭配。
+  - 写作 **74 题**，全部带范文：Task 2 共 40 题（5 种题型各 8 题，覆盖 12 个话题）；Task 1 A 类 22 题（柱状 4、折线 4、饼图 3、表格 3、流程图 4、地图 4）；G 类书信 12 封（三种语气各 4）。
+  - 口语 **64 条**：Part 1 共 32 个话题 × 4 题；Part 2 题卡 32 张，每张配 Part 3 追问 4 题；全部带参考答案。
+  - 听力 **8 个 section、80 题**：Part 1–4 各 2 个，每个 10 题，带中文解析和答案所在段。
+  - 阅读 **6 篇、78 题**：易 / 中 / 难各 2 篇，每篇 7 段、13 题，共 8 种题型，带中文解析和原文依据句。
+- `data/ielts/local/` 用于放**自有资料**（例如自己整理的题目、范文），已加入 `.gitignore`，**不入库**；按与 `data/ielts/` 相同的 schema 放入 JSON，内容加载器会一并读取（子目录 `vocab` / `writing` / `speaking` / `listening` / `reading`）。剑桥雅思真题等受版权保护的资料不要提交到仓库。
+- 词汇、写作、口语可以用导入命令写进 `local/`：`npm run import:ielts -- <文件或目录> --type vocab|writing|speaking`（支持 `--name`、`--dry-run`；词汇另支持 CSV），会先校验字段、与已有内容判重，**不覆盖**已有分片；导入后需重启服务。详见 [docs/雅思自有资料导入.md](docs/雅思自有资料导入.md)。听力、阅读暂无导入命令，按设计文档的 schema 手动放 JSON 后跑 `npm run validate`。
+- 扩充或修改雅思内容后运行 `npm run validate`（含雅思内容校验：id 唯一、字段齐全、枚举合法、图表 / 流程图 / 地图数据一致、范文字数、计划 26 周；听力答案与依据须出现在对应段落、可接受写法不超字数；阅读依据句须逐字出现在原文等）；单测：`npm run test:ielts`（计划与评分逻辑）、`npm run test:ielts-listening`、`npm run test:ielts-reading`（判分与内容校验）。
+- schema 与工作线划分见 [docs/design/ielts-prep-mvp-20261124.md](docs/design/ielts-prep-mvp-20261124.md)（听力、阅读另见 [ielts-listening-20261124.md](docs/design/ielts-listening-20261124.md)、[ielts-reading-20261124.md](docs/design/ielts-reading-20261124.md)）；变更记录见 [docs/changes/2026-11-24-雅思备考MVP.md](docs/changes/2026-11-24-雅思备考MVP.md)、[docs/changes/2026-11-25-雅思第二批功能.md](docs/changes/2026-11-25-雅思第二批功能.md)。
 
 ### 原声课文与 Git LFS
 
