@@ -188,14 +188,18 @@ test('band：10 题按比例折算到 40 题', () => {
 });
 
 // ---------------- 内容校验：真实数据 ----------------
-test('真实数据：0 错误 0 警告，8 个 section、每部分 2 个、每个 10 题', () => {
+test('真实数据：0 错误 0 警告，每部分至少 2 个 section、每个 10 题', () => {
   const r = L.validateAll();
   assert.deepStrictEqual(r.errors, []);
   assert.deepStrictEqual(r.warnings, []);
   const items = L.getSections();
-  assert.strictEqual(items.length, 8);
+  // 内容会分批扩充，不写死总数
+  assert.ok(items.length >= 8, `共 ${items.length} 个`);
   assert.strictEqual(L.getContent().rejected.length, 0);
-  for (const p of L.PARTS) assert.strictEqual(items.filter((s) => s.part === p).length, 2, `Part ${p}`);
+  for (const p of L.PARTS) {
+    const n = items.filter((s) => s.part === p).length;
+    assert.ok(n >= 2, `Part ${p} 只有 ${n} 个`);
+  }
   for (const s of items) assert.strictEqual(L.questionNumbers(s).length, 10, s.id);
 });
 
