@@ -1283,7 +1283,9 @@ const srsDueIds = async (prefix) => {
 test('srs: 阅读交卷故意答错 2 题 → 间隔复习出现这 2 题且不含答案，作答后重排、再交卷不重复入队', async () => {
   const R = require('../lib/ielts-reading');
   const list = isOk(await get('/api/ielts/reading'));
-  const pid = list.items[0].id;
+  // 用最后一篇，避开前面用例已交卷（错题已入队）的第一篇，保证本用例的入队计数独立
+  const pid = list.items[list.items.length - 1].id;
+  assert.deepStrictEqual(await srsDueIds(`ir:${pid}:`), [], '本篇此前不应有复习题');
   const qs = [];
   for (const g of R.getPassage(pid).groups) for (const q of g.questions) qs.push(q);
   const wrong = qs.slice(0, 2).map((q) => q.id);
@@ -1319,7 +1321,9 @@ test('srs: 阅读交卷故意答错 2 题 → 间隔复习出现这 2 题且不�
 test('srs: 听力交卷答错的题进入间隔复习（未作答的不进），复习按原模块规则判分', async () => {
   const L = require('../lib/ielts-listening');
   const list = isOk(await get('/api/ielts/listening'));
-  const sid = list.items[0].id;
+  // 用最后一个 section，避开前面用例已交卷的第一个
+  const sid = list.items[list.items.length - 1].id;
+  assert.deepStrictEqual(await srsDueIds(`il:${sid}:`), [], '本 section 此前不应有复习题');
   const qs = [];
   for (const g of L.getSection(sid).groups) for (const q of g.questions) qs.push(q);
   const wrong = [qs[0].no, qs[1].no];
