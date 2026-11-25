@@ -1,0 +1,554 @@
+[
+  {
+    "id": "rd-bicycle-history",
+    "title": "Two Wheels and a Revolution: The Early History of the Bicycle",
+    "titleCn": "两个轮子的革命：自行车早期史",
+    "difficulty": "medium",
+    "topic": "history",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few machines are as familiar as the bicycle, yet its basic form took most of the nineteenth century to settle. The story usually begins in 1817, when Karl von Drais, a German forestry official, demonstrated what he called a 'running machine'. It had two wheels in a line, a wooden frame and a simple steering bar, but no pedals: the rider sat astride it and pushed against the ground with his feet. Some historians have suggested that Drais was looking for a substitute for the horse after a series of poor harvests had made animal feed scarce and expensive, although the evidence for this link is indirect. In Britain, where the device was known as the 'hobby-horse', young men of means paid to ride it in special halls, but the craze faded within a few years, partly because riders were accused of endangering pedestrians on the pavements."
+      },
+      {
+        "label": "B",
+        "text": "Pedals did not appear until the 1860s, when a workshop in Paris began attaching cranks directly to the front wheel of a two-wheeled machine. Who first had the idea remains disputed, but the resulting 'velocipede' sold in large numbers in France and was soon copied abroad. It was not a comfortable vehicle. Its frame was made of heavy iron, its wooden wheels were surrounded by iron bands, and on the cobbled streets of the period every stone was transmitted directly to the rider. English speakers gave it the nickname 'boneshaker', and the name was well deserved. Nevertheless, the velocipede proved that a person could balance on two wheels while propelling them with the feet, which many people had doubted."
+      },
+      {
+        "label": "C",
+        "text": "Because the pedals were fixed to the front wheel, one turn of the pedals produced one turn of the wheel. The only way to go faster was therefore to make that wheel bigger, and during the 1870s manufacturers did exactly that. On the machines that came to be known as 'ordinaries', and much later as 'penny-farthings' after two British coins of very different sizes, the front wheel could be as much as one and a half metres across, while the rear wheel was tiny. Lighter steel frames and solid rubber tyres made these bicycles faster and smoother than the boneshaker, but they were also dangerous. A rider sat high above the front wheel, and if it struck a stone or a hole, he could be thrown head first over the handlebars, an accident so common that it had its own name: 'taking a header'."
+      },
+      {
+        "label": "D",
+        "text": "The solution came from Coventry, in the English Midlands, where in 1885 John Kemp Starley produced a machine he called the Rover. Its two wheels were of roughly equal size, the rider sat between them, and the pedals turned the rear wheel by means of a chain. By choosing gears of different sizes, the designer could make the rear wheel turn several times for every turn of the pedals, so a large wheel was no longer needed for speed. Because the rider's feet could now reach the ground, these machines were sold as 'safety bicycles'. The last major problem was comfort, and this was addressed in 1888, when John Boyd Dunlop, a Scottish vet working in Belfast, developed an air-filled tyre for his son's tricycle."
+      },
+      {
+        "label": "E",
+        "text": "What followed in the 1890s was a boom of remarkable scale. Mass production in Britain, France and the United States brought prices down, and for the first time millions of people who could not afford to keep a horse had a means of private transport. The effects on women were particularly striking. Long, heavy skirts were impractical on a bicycle, and many female cyclists adopted shorter skirts or loose trousers, provoking fierce debate in the press. More importantly, the bicycle allowed women to travel without a chaperone, and campaigners for women's rights frequently described it as a tool of independence. Some doctors warned that cycling would damage women's health, but such warnings did little to slow its popularity."
+      },
+      {
+        "label": "F",
+        "text": "Cyclists also changed the roads themselves. By the late nineteenth century, many country roads in Britain and North America were in a poor state, because the railways had taken over most long-distance traffic and there was little reason to maintain them. Organised cyclists began to campaign for better surfaces. In the United States, a national cycling association led what became known as the Good Roads Movement, publishing maps, lobbying politicians and arguing that smooth roads would benefit farmers as well as riders. Ironically, when motor cars appeared a few years later, they inherited the improved roads that cyclists had fought for, and soon pushed bicycles to the edges of them."
+      },
+      {
+        "label": "G",
+        "text": "The bicycle's influence extended beyond transport. Building lightweight, precise machines in large numbers required new techniques, including steel tubing, ball bearings and the accurate cutting of gears, and many of the engineers and firms that mastered them later moved into the manufacture of cars. The most famous example is that of the Wright brothers, who ran a bicycle shop in Ohio and used the money and skills it provided to build their first aircraft. In much of Europe and North America, the bicycle was later overshadowed by the car, but in recent decades cities from Copenhagen to Paris have invested heavily in cycle lanes. Two centuries after Drais pushed himself along with his feet, his invention is once again being treated as a serious answer to urban problems."
+      }
+    ],
+    "groups": [
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "The hobby-horse remained fashionable in Britain for several decades.",
+            "answer": ["FALSE"],
+            "explanation": "A 段：hobby-horse 在英国的热潮几年之内就消退了（faded within a few years）。题干说流行了几十年，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "A", "quote": "but the craze faded within a few years" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Before the velocipede, many people were not convinced that a rider could stay balanced on two wheels driven by the feet.",
+            "answer": ["TRUE"],
+            "explanation": "B 段末句：velocipede 证明了人可以一边用脚驱动两个轮子一边保持平衡，而这一点「很多人曾经怀疑」（which many people had doubted）。题干的 were not convinced 是 doubted 的同义改写，选 TRUE。",
+            "evidence": { "para": "B", "quote": "the velocipede proved that a person could balance on two wheels while propelling them with the feet, which many people had doubted" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Historians agree about who first attached pedals to a two-wheeled machine.",
+            "answer": ["FALSE"],
+            "explanation": "B 段：究竟是谁最先想到给两轮车装踏板，至今仍有争议（remains disputed）。题干说历史学家意见一致，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "B", "quote": "Who first had the idea remains disputed" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Ordinary bicycles cost less to manufacture than velocipedes.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "C 段只比较了 ordinary 与 boneshaker（即 velocipede）的速度和平稳程度（faster and smoother），没有提到两者的制造成本。不要凭「钢架更轻」去推断成本，选 NOT GIVEN。",
+            "evidence": { "para": "C", "quote": "Lighter steel frames and solid rubber tyres made these bicycles faster and smoother than the boneshaker" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "A rider of the Rover was able to put his feet on the ground.",
+            "answer": ["TRUE"],
+            "explanation": "D 段：骑车人的脚现在能够着地面（the rider's feet could now reach the ground），所以这类车被称为 safety bicycles。选 TRUE。",
+            "evidence": { "para": "D", "quote": "Because the rider's feet could now reach the ground" }
+          }
+        ]
+      },
+      {
+        "type": "matching-information",
+        "instruction": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. You may use any letter more than once.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "a reference to a change in what some cyclists wore",
+            "answer": ["E"],
+            "explanation": "E 段：长而重的裙子不便骑车，许多女性骑车人改穿短裙或宽松长裤，引发报刊上的激烈争论。对应「骑车人穿着的变化」，选 E。",
+            "evidence": { "para": "E", "quote": "many female cyclists adopted shorter skirts or loose trousers" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "an explanation of why the size of a wheel affected speed",
+            "answer": ["C"],
+            "explanation": "C 段：踏板固定在前轮上，踩一圈轮子只转一圈，所以想骑得更快只能把前轮做大。这正是轮子大小影响速度的原因，选 C。D 段讲的是用齿轮解决这个问题，不是解释原因。",
+            "evidence": { "para": "C", "quote": "The only way to go faster was therefore to make that wheel bigger" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "an example of a business whose profits paid for work in a completely different field",
+            "answer": ["G"],
+            "explanation": "G 段：莱特兄弟在俄亥俄州开自行车店，用店里赚的钱和积累的技术造出了第一架飞机。自行车生意的收入支持了航空领域的工作，选 G。",
+            "evidence": { "para": "G", "quote": "used the money and skills it provided to build their first aircraft" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "the reason why many roads had been poorly maintained",
+            "answer": ["F"],
+            "explanation": "F 段：铁路承担了大部分长途运输，乡村道路没有维护的理由，因此状况很差。选 F。",
+            "evidence": { "para": "F", "quote": "because the railways had taken over most long-distance traffic and there was little reason to maintain them" }
+          }
+        ]
+      },
+      {
+        "type": "short-answer",
+        "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+        "wordLimit": { "words": 3, "number": true },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "What nickname did English speakers give to the velocipede?",
+            "answer": ["boneshaker", "the boneshaker"],
+            "explanation": "B 段：说英语的人给它起了绰号 boneshaker（「震骨车」），因为铁箍木轮在石子路上把每一下颠簸都传给骑车人。填 boneshaker。",
+            "evidence": { "para": "B", "quote": "English speakers gave it the nickname 'boneshaker'" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "In which year did Starley produce the Rover?",
+            "answer": ["1885", "in 1885"],
+            "explanation": "D 段：1885 年，John Kemp Starley 在考文垂造出了名为 Rover 的车。填 1885。注意 1888 是 Dunlop 发明充气轮胎的年份。",
+            "evidence": { "para": "D", "quote": "where in 1885 John Kemp Starley produced a machine he called the Rover" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "On the Rover, what transferred the movement of the pedals to the rear wheel?",
+            "answer": ["a chain", "chain"],
+            "explanation": "D 段：踏板通过一根链条带动后轮（by means of a chain）。填 a chain，只写 chain 也可以。",
+            "evidence": { "para": "D", "quote": "the pedals turned the rear wheel by means of a chain" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Apart from cyclists, which group did the Good Roads Movement say would gain from smooth roads?",
+            "answer": ["farmers"],
+            "explanation": "F 段：Good Roads Movement 主张平整的道路不仅有利于骑车人，也有利于农民（benefit farmers as well as riders）。填 farmers。",
+            "evidence": { "para": "F", "quote": "arguing that smooth roads would benefit farmers as well as riders" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-sleep-cycles",
+    "title": "The Hidden Architecture of Sleep",
+    "titleCn": "睡眠的隐秘结构",
+    "difficulty": "medium",
+    "topic": "science",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of human history, sleep was regarded as a period of inactivity, a nightly switching-off of the brain that needed little explanation. Physicians and philosophers wrote at length about dreams, but the state of sleep itself attracted far less attention. This began to change in the twentieth century, when it became possible to record the electrical activity of the brain through sensors placed on the scalp. The recordings showed that the sleeping brain is far from idle. Its activity rises and falls in regular patterns throughout the night, and some of those patterns are as intense as anything seen during waking hours. Sleep, it turned out, was not a single state but a sequence of quite different ones."
+      },
+      {
+        "label": "B",
+        "text": "The most important discovery came in the early 1950s from a laboratory in Chicago. Researchers observing sleeping volunteers noticed that, at intervals during the night, their eyes began to move rapidly from side to side beneath closed lids. When the volunteers were woken during these periods, they usually reported vivid dreams; when woken at other times, they rarely did. This phase became known as rapid eye movement, or REM, sleep. Curiously, although the brain is highly active during REM sleep, most of the body's muscles are temporarily paralysed, which may prevent sleepers from acting out their dreams. The remaining phases, in which the eyes are still, were grouped together as non-REM sleep."
+      },
+      {
+        "label": "C",
+        "text": "It soon became clear that these phases follow a predictable order. A sleeper passes from light non-REM sleep into deeper stages, in which breathing slows and the person becomes difficult to wake, before returning to lighter sleep and then entering a period of REM. One complete cycle takes roughly ninety minutes, and a typical night contains four to six of them. The cycles are not identical, however. Deep non-REM sleep dominates the first half of the night, while REM periods become longer towards morning. This explains why people who are woken early often feel that they were interrupted in the middle of a dream, and why a short night tends to reduce REM sleep more than deep sleep."
+      },
+      {
+        "label": "D",
+        "text": "The timing of sleep is controlled by an internal clock, a small group of cells deep in the brain that keeps a rhythm of roughly twenty-four hours even in the absence of external cues. Left entirely alone, this clock tends to drift slightly, so it is reset every day mainly by light entering the eyes. In the evening, as light fades, the body releases a hormone called melatonin, which signals that it is time to sleep. Artificial light can delay this signal, and many sleep researchers advise reducing the use of bright screens in the hour before bed, although the size of the effect in everyday life is still debated."
+      },
+      {
+        "label": "E",
+        "text": "The internal clock does not stay the same throughout life. During adolescence, it shifts later by an hour or more, so teenagers naturally feel sleepy later at night and find it hard to wake early. This change appears to be biological rather than simply a matter of habit, since it has been observed in many different cultures. It creates an obvious conflict with school timetables that begin early in the morning. Several education authorities that have moved the start of the school day later have reported that students sleep longer and are more alert in class, and some have also recorded better attendance, although results have varied from place to place."
+      },
+      {
+        "label": "F",
+        "text": "Why we sleep at all remains one of the central questions of biology. One well-supported idea is that sleep helps to consolidate memories. During deep sleep, the brain appears to replay patterns of activity from the day, strengthening some connections and weakening others, so that useful information is kept while trivial details are discarded. A more recent proposal is that sleep allows the brain to clear away waste products that build up during waking hours; experiments on mice found that fluid flows through brain tissue much more freely during sleep. Most researchers now believe that sleep has several functions rather than one, which may help to explain why some form of sleep has been observed in almost every animal that scientists have examined."
+      },
+      {
+        "label": "G",
+        "text": "Whatever its purposes, the consequences of losing sleep are well documented. After a single night without sleep, attention and reaction times decline to a level comparable to that of a person who has drunk alcohol, and people are often poor judges of how impaired they are. Over longer periods, short sleep has been linked to a higher risk of several illnesses, though cause and effect can be hard to separate. It is sometimes assumed that people in the past slept better than we do. One historian has argued that, before artificial lighting became common, many Europeans slept in two separate periods, waking for an hour or so in the middle of the night. If he is right, the single unbroken night that we regard as normal may itself be a relatively modern habit."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–F from the list of headings below. Write the correct number, i–viii.",
+        "options": [
+          { "key": "i", "text": "A change in timing that comes with age" },
+          { "key": "ii", "text": "The dangers of using screens at night" },
+          { "key": "iii", "text": "A repeating pattern through the night" },
+          { "key": "iv", "text": "Theories about the purpose of sleep" },
+          { "key": "v", "text": "An observation that revealed a distinct phase" },
+          { "key": "vi", "text": "How a natural rhythm is kept on time" },
+          { "key": "vii", "text": "Why dreams are quickly forgotten" },
+          { "key": "viii", "text": "Schools that refuse to change their timetables" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["v"],
+            "explanation": "B 段：20 世纪 50 年代初芝加哥的研究者观察到睡眠者眼球周期性快速转动，由此发现了 REM 这一独立的睡眠阶段。对应 v「揭示出一个独特阶段的观察」。vii 是干扰项，段中提到梦，但没说梦为什么很快被忘掉。",
+            "evidence": { "para": "B", "quote": "This phase became known as rapid eye movement, or REM, sleep." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["iii"],
+            "explanation": "C 段：各阶段按可预测的顺序循环，一个完整周期约 90 分钟，一晚 4–6 个周期。对应 iii「贯穿整夜的重复模式」。",
+            "evidence": { "para": "C", "quote": "One complete cycle takes roughly ninety minutes, and a typical night contains four to six of them." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["vi"],
+            "explanation": "D 段主旨是体内时钟：它本身会略有漂移，每天主要靠进入眼睛的光线校准。对应 vi「自然节律如何保持准时」。ii 是干扰项：屏幕只是段末的细节，而且原文说其实际影响大小仍有争议，并未强调「危害」。",
+            "evidence": { "para": "D", "quote": "Left entirely alone, this clock tends to drift slightly, so it is reset every day mainly by light entering the eyes." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["i"],
+            "explanation": "E 段：体内时钟并非终生不变，青春期会推迟一小时或更多。对应 i「随年龄而来的时间变化」。viii 与原文相反：段中说的是一些地区推迟了上学时间。",
+            "evidence": { "para": "E", "quote": "During adolescence, it shifts later by an hour or more" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["iv"],
+            "explanation": "F 段讨论人为什么要睡觉：巩固记忆、清除代谢废物等几种解释，多数研究者认为睡眠有多种功能。对应 iv「关于睡眠作用的几种理论」。",
+            "evidence": { "para": "F", "quote": "Why we sleep at all remains one of the central questions of biology." }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "According to paragraph A, recordings of electrical activity showed that the sleeping brain",
+            "options": [
+              { "key": "A", "text": "is almost completely inactive." },
+              { "key": "B", "text": "goes through changing levels of activity." },
+              { "key": "C", "text": "behaves exactly as it does during the day." },
+              { "key": "D", "text": "is more active than at any time while awake." }
+            ],
+            "answer": ["B"],
+            "explanation": "A 段：睡眠中的大脑远非闲置，其活动整夜按规律起伏（rises and falls in regular patterns）。对应 B。A 是旧观念；C、D 过度推断，原文只说有些模式和清醒时一样强烈。",
+            "evidence": { "para": "A", "quote": "Its activity rises and falls in regular patterns throughout the night" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "What happens to most of the body's muscles during REM sleep?",
+            "options": [
+              { "key": "A", "text": "They become more active than usual." },
+              { "key": "B", "text": "They move in time with the eyes." },
+              { "key": "C", "text": "They are unable to move for a period." },
+              { "key": "D", "text": "They relax only towards morning." }
+            ],
+            "answer": ["C"],
+            "explanation": "B 段：REM 期间大脑高度活跃，但身体大部分肌肉暂时处于瘫痪状态（temporarily paralysed）。unable to move for a period 是同义改写，选 C。",
+            "evidence": { "para": "B", "quote": "most of the body's muscles are temporarily paralysed" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "What does the writer say about the effect of artificial light in the evening?",
+            "options": [
+              { "key": "A", "text": "It has no influence on melatonin." },
+              { "key": "B", "text": "It moves the body clock to an earlier time." },
+              { "key": "C", "text": "It is the main cause of poor sleep." },
+              { "key": "D", "text": "Its practical importance has not yet been agreed." }
+            ],
+            "answer": ["D"],
+            "explanation": "D 段：人造光会推迟褪黑素信号，但它在日常生活中的影响有多大仍有争议（still debated）。对应 D。A 与原文矛盾；B 方向相反（是推迟）；C 原文没说。",
+            "evidence": { "para": "D", "quote": "although the size of the effect in everyday life is still debated" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "What does the writer suggest about the idea that people once slept in two periods?",
+            "options": [
+              { "key": "A", "text": "It may mean that unbroken sleep is a fairly recent pattern." },
+              { "key": "B", "text": "It has been proved by laboratory experiments." },
+              { "key": "C", "text": "It shows that modern people sleep too little." },
+              { "key": "D", "text": "It applied only to people who worked at night." }
+            ],
+            "answer": ["A"],
+            "explanation": "G 段：一位历史学家认为人工照明普及前欧洲人分两段睡觉；如果他是对的，我们视为正常的一整夜连续睡眠可能本身就是较新的习惯。对应 A。B 不对，原文只说是一位历史学家的观点，并用 If he is right 保留余地；C、D 原文没提。",
+            "evidence": { "para": "G", "quote": "the single unbroken night that we regard as normal may itself be a relatively modern habit" }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "A single sleep cycle lasts approximately {blank}.",
+            "answer": ["ninety minutes", "90 minutes"],
+            "explanation": "C 段：一个完整的睡眠周期大约 90 分钟（roughly ninety minutes）。填 ninety minutes，写 90 minutes 也可以。",
+            "evidence": { "para": "C", "quote": "One complete cycle takes roughly ninety minutes" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "When a night's sleep is cut short, the type of sleep that is reduced most is {blank}.",
+            "answer": ["REM sleep", "REM"],
+            "explanation": "C 段：深睡集中在前半夜，REM 越接近早晨越长，所以睡得少时 REM 比深睡减少得更多。填 REM sleep，只写 REM 也可以。",
+            "evidence": { "para": "C", "quote": "a short night tends to reduce REM sleep more than deep sleep" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "The body's internal clock is adjusted every day mainly by {blank}.",
+            "answer": ["light"],
+            "explanation": "D 段：体内时钟每天主要靠进入眼睛的光线来重置（reset every day mainly by light）。adjusted 对应 reset，填 light。",
+            "evidence": { "para": "D", "quote": "it is reset every day mainly by light entering the eyes" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Some schools that delayed the start of the day noted improvements in students' alertness and {blank}.",
+            "answer": ["attendance"],
+            "explanation": "E 段：推迟上学时间的地区报告学生睡得更久、课上更清醒，有些还记录到出勤率提高（better attendance）。空格要名词，填 attendance。",
+            "evidence": { "para": "E", "quote": "some have also recorded better attendance" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-octopus-minds",
+    "title": "Minds in the Sea: The Puzzling Intelligence of the Octopus",
+    "titleCn": "海中的心智：章鱼令人费解的智慧",
+    "difficulty": "medium",
+    "topic": "science",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Among animals without backbones, the octopus stands out. It belongs to the molluscs, the same group as snails, clams and oysters, yet it behaves in ways that seem to have more in common with mammals and birds. There are around 300 known species, ranging from creatures small enough to sit on a fingernail to the giant Pacific octopus, whose arms can span several metres. Over millions of years, the ancestors of octopuses lost the protective shell that most molluscs still carry. Many biologists believe this loss was a turning point: an animal with a soft, unprotected body had to find food and avoid predators by being flexible, inventive and difficult to catch."
+      },
+      {
+        "label": "B",
+        "text": "That flexibility is supported by an unusually large nervous system. A common octopus has around 500 million nerve cells, a number comparable to that of a dog, but the way these cells are arranged is quite unlike anything found in animals with backbones. Only around a third of them are in the central brain; the rest are distributed through the eight arms. Each arm can taste and feel the objects it touches and appears able to carry out some actions with little direction from the centre. Researchers have even observed arms that had been separated from the body continuing to respond to touch and to grasp pieces of food, which suggests that a great deal of decision-making happens locally."
+      },
+      {
+        "label": "C",
+        "text": "The best known of the octopus's abilities is its skill at disguise. Its skin contains thousands of cells filled with coloured pigment, each of which can be expanded or squeezed by tiny muscles, allowing the animal to change its appearance in a fraction of a second. It can also raise small bumps on its skin to imitate the texture of rock or seaweed. Remarkably, laboratory tests suggest that most octopuses cannot distinguish colours, because their eyes contain only one type of light-sensitive cell. How they manage to match their surroundings so precisely remains unclear. One possibility under investigation is that the skin itself can detect light, since proteins used for vision in the eye have also been found there."
+      },
+      {
+        "label": "D",
+        "text": "Octopuses are also skilled problem-solvers. In laboratories they have learned to unscrew the lids of jars to reach the crabs inside, and in aquariums they have a reputation as escape artists, squeezing through gaps barely wider than their eyes. Some keepers report that individual octopuses respond differently to different people, squirting water at one member of staff while ignoring others. In the wild, divers off the coast of Indonesia filmed octopuses carrying halves of coconut shells across the seabed and later assembling them into a shelter. Because the animals carried the shells for some distance before using them, many researchers regarded this as a clear case of tool use, a behaviour once thought to be limited to humans and a few other animals."
+      },
+      {
+        "label": "E",
+        "text": "These abilities are all the more surprising because most octopuses live very short lives, often only one or two years. Females of many species lay a single batch of eggs and then guard them continuously, cleaning them and keeping predators away. During this time, which in some deep-sea species can last for years, the mother typically stops eating, and she dies soon after the young hatch. Males usually die within months of mating. As a result, young octopuses never meet their parents and cannot learn from them, unlike the young of most intelligent mammals and birds. Everything an octopus knows must be either inherited or discovered for itself."
+      },
+      {
+        "label": "F",
+        "text": "This combination of intelligence and short life presents a puzzle for biologists. In mammals, large brains are usually associated with long lives and complex social groups, in which there is time to learn and others to learn from. The octopus has neither. One explanation links its intelligence to the loss of the shell. A soft-bodied animal hunting in a complex environment such as a reef faces an enormous variety of problems, from opening shells to escaping fish that want to eat it, and the ability to solve them quickly may have been worth the cost of a large nervous system, even if the animal lives for only a year or two."
+      },
+      {
+        "label": "G",
+        "text": "Growing recognition of octopus intelligence has begun to influence law and policy. In the early 2020s, after an independent review of the scientific evidence, the United Kingdom included octopuses, together with squid, cuttlefish, crabs and lobsters, in legislation that recognises animals as sentient beings, able to experience pain and distress. The decision has been cited in debates elsewhere, particularly over proposals to farm octopuses for food on a commercial scale. Critics of such farms argue that keeping solitary, curious animals in crowded tanks would cause them serious suffering. Supporters reply that farming could reduce pressure on wild populations. The debate is likely to continue as more is learned about what it is like to be an octopus."
+      }
+    ],
+    "groups": [
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "The octopus is classified in the same group of animals as the oyster.",
+            "answer": ["TRUE"],
+            "explanation": "A 段：章鱼属于软体动物，与蜗牛、蛤和牡蛎（oysters）同属一类。选 TRUE。",
+            "evidence": { "para": "A", "quote": "It belongs to the molluscs, the same group as snails, clams and oysters" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "The giant Pacific octopus is the most intelligent of all octopus species.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "A 段只用巨型太平洋章鱼说明体型范围（触腕可展开数米），没有比较各物种的智力。选 NOT GIVEN。",
+            "evidence": { "para": "A", "quote": "the giant Pacific octopus, whose arms can span several metres" }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Most of an octopus's nerve cells are located in its central brain.",
+            "answer": ["FALSE"],
+            "explanation": "B 段：只有约三分之一的神经细胞在中央大脑，其余分布在八条触腕里。题干说大部分在中央大脑，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "B", "quote": "Only around a third of them are in the central brain; the rest are distributed through the eight arms." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "An octopus can alter the texture of its skin as well as its colour.",
+            "answer": ["TRUE"],
+            "explanation": "C 段：章鱼除了变色，还能在皮肤上鼓起小突起，模仿岩石或海藻的质地（imitate the texture）。选 TRUE。",
+            "evidence": { "para": "C", "quote": "It can also raise small bumps on its skin to imitate the texture of rock or seaweed." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Most octopuses are able to see a wide range of colours.",
+            "answer": ["FALSE"],
+            "explanation": "C 段：实验室测试表明大多数章鱼无法分辨颜色，因为眼睛里只有一种感光细胞。题干说能看到丰富的颜色，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "C", "quote": "laboratory tests suggest that most octopuses cannot distinguish colours" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "Why did many researchers consider the octopuses filmed in Indonesia to be using tools?",
+            "options": [
+              { "key": "A", "text": "They transported the shells for some distance before using them." },
+              { "key": "B", "text": "They used the shells to open crabs." },
+              { "key": "C", "text": "They copied the behaviour of other octopuses." },
+              { "key": "D", "text": "They made the shells into a new shape." }
+            ],
+            "answer": ["A"],
+            "explanation": "D 段：因为章鱼先把椰子壳搬运了一段距离才拿来用作藏身处，许多研究者认为这是明确的工具使用。对应 A。B 把实验室里拧瓶盖取螃蟹的细节张冠李戴；C、D 原文没提。",
+            "evidence": { "para": "D", "quote": "Because the animals carried the shells for some distance before using them, many researchers regarded this as a clear case of tool use" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "According to paragraph E, what happens to many female octopuses after they lay eggs?",
+            "options": [
+              { "key": "A", "text": "They leave the eggs to hatch alone." },
+              { "key": "B", "text": "They hunt more often to build up strength." },
+              { "key": "C", "text": "They stop eating while they protect the eggs." },
+              { "key": "D", "text": "They lay a second batch the following year." }
+            ],
+            "answer": ["C"],
+            "explanation": "E 段：雌章鱼产下一批卵后持续守护，这期间通常停止进食（stops eating），幼体孵化后不久死去。对应 C。A 与原文相反；B、D 原文没提，而且原文说只产一批卵。",
+            "evidence": { "para": "E", "quote": "the mother typically stops eating, and she dies soon after the young hatch" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "Why does the writer describe octopus intelligence as a puzzle?",
+            "options": [
+              { "key": "A", "text": "Octopuses have smaller brains than most fish." },
+              { "key": "B", "text": "Octopuses lack the features usually linked with large brains in mammals." },
+              { "key": "C", "text": "Octopuses live in environments with few problems to solve." },
+              { "key": "D", "text": "Octopus intelligence seems to decline with age." }
+            ],
+            "answer": ["B"],
+            "explanation": "F 段：哺乳动物的大脑袋通常与长寿命和复杂的社会群体相关，而章鱼两者都没有（The octopus has neither）。对应 B。C 与原文相反（原文说环境复杂、问题繁多）；A、D 原文没提。",
+            "evidence": { "para": "F", "quote": "In mammals, large brains are usually associated with long lives and complex social groups, in which there is time to learn and others to learn from. The octopus has neither." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "What is the main purpose of paragraph G?",
+            "options": [
+              { "key": "A", "text": "to describe how octopuses are farmed" },
+              { "key": "B", "text": "to argue that octopus farming should be banned" },
+              { "key": "C", "text": "to compare octopuses with crabs and lobsters" },
+              { "key": "D", "text": "to show how scientific findings have affected law and public debate" }
+            ],
+            "answer": ["D"],
+            "explanation": "G 段首句点题：对章鱼智力的认识开始影响法律和政策，随后讲英国立法和养殖争议。对应 D。B 不对，作者只并列了反对方和支持方的观点，没有表态；A、C 只是段中细节。",
+            "evidence": { "para": "G", "quote": "Growing recognition of octopus intelligence has begun to influence law and policy." }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary below. Choose ONE WORD ONLY from the passage for each answer.",
+        "wordLimit": { "words": 1 },
+        "summary": {
+          "title": "A short and solitary life",
+          "text": "Unlike most molluscs, octopuses no longer have a protective {q10}, and many biologists see this as a turning point in their evolution. A common octopus has around 500 million nerve cells, roughly the same number as a {q11}. Most octopuses live for only a year or two. Females of many species produce just one batch of {q12} and die soon after the young hatch, so young octopuses never meet their {q13} and must either inherit what they know or work it out alone."
+        },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "answer": ["shell"],
+            "explanation": "A 段：章鱼的祖先失去了大多数软体动物至今仍有的保护性外壳（the protective shell）。填 shell。",
+            "evidence": { "para": "A", "quote": "the ancestors of octopuses lost the protective shell that most molluscs still carry" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "answer": ["dog"],
+            "explanation": "B 段：普通章鱼约有 5 亿个神经细胞，数量与狗相当（comparable to that of a dog）。填 dog。",
+            "evidence": { "para": "B", "quote": "a number comparable to that of a dog" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "answer": ["eggs"],
+            "explanation": "E 段：许多物种的雌章鱼只产一批卵（a single batch of eggs）。填 eggs，注意用复数。",
+            "evidence": { "para": "E", "quote": "Females of many species lay a single batch of eggs" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "answer": ["parents"],
+            "explanation": "E 段：幼体从未见过父母，也无法向它们学习（never meet their parents）。填 parents。",
+            "evidence": { "para": "E", "quote": "young octopuses never meet their parents and cannot learn from them" }
+          }
+        ]
+      }
+    ]
+  }
+]
