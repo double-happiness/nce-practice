@@ -168,4 +168,5 @@ Node 自带 `assert`，不读写档案数据：归一化与可接受写法、字
 - T4 `routes/ielts-reading.js`：列表、详情、交卷
 - [x] 已实现 2026-11-25
 - T5 `public/js/ielts-reading-ui.js` + `index.html` 一行 script
+- [x] 已实现 2026-11-25
 - T6 `scripts/test-ielts-reading.js`
