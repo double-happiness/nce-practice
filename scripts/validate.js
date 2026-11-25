@@ -295,6 +295,11 @@ function validate() {
   errors.push(...readingResult.errors);
   warnings.push(...readingResult.warnings);
 
+  // 雅思听力（data/ielts/listening/，分片读取问题 + validateListeningContent）
+  const listeningResult = require('../lib/ielts-listening').validateAll();
+  errors.push(...listeningResult.errors);
+  warnings.push(...listeningResult.warnings);
+
   return { errors, warnings };
 }
 
@@ -306,8 +311,8 @@ const IELTS_CHART_TYPES = new Set(['bar', 'line', 'pie', 'table', 'process', 'ma
 const IELTS_MAP_KINDS = new Set(['building', 'road', 'park', 'water', 'car-park', 'label']);
 const IELTS_TONES = new Set(['formal', 'semi-formal', 'informal']);
 const IELTS_CATEGORIES = new Set(['person', 'place', 'object', 'event', 'experience', 'media']);
-const IELTS_PLAN_TABS = new Set(['home', 'learn', 'practice', 'dictionary', 'dictation', 'exam', 'transform', 'dialogue', 'review', 'vocab', 'words', 'globalvocab', 'comprehension', 'stats', 'plan', 'level', 'ielts', 'ielts:plan', 'ielts:vocab', 'ielts:writing', 'ielts:speaking', 'ielts:history', 'ielts:reading']);
-const IELTS_PLAN_SOURCES = new Set(['quiz', 'transform', 'words', 'vocab', 'dictation', 'dialogue', 'lesson', 'comprehension', 'ielts-writing', 'ielts-speaking', 'ielts-vocab', 'ielts-reading']);
+const IELTS_PLAN_TABS = new Set(['home', 'learn', 'practice', 'dictionary', 'dictation', 'exam', 'transform', 'dialogue', 'review', 'vocab', 'words', 'globalvocab', 'comprehension', 'stats', 'plan', 'level', 'ielts', 'ielts:plan', 'ielts:vocab', 'ielts:writing', 'ielts:speaking', 'ielts:history', 'ielts:reading', 'ielts:listening']);
+const IELTS_PLAN_SOURCES = new Set(['quiz', 'transform', 'words', 'vocab', 'dictation', 'dialogue', 'lesson', 'comprehension', 'ielts-writing', 'ielts-speaking', 'ielts-vocab', 'ielts-reading', 'ielts-listening']);
 const IELTS_RUBRIC_KEYS = {
   task1A: ['TA', 'CC', 'LR', 'GRA'],
   task1G: ['TA', 'CC', 'LR', 'GRA'],
