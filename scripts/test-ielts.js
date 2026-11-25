@@ -311,7 +311,7 @@ test('validateIelts：能发现典型内容错误', () => {
   writing.push({ ...clone(good.writing[2]), id: 'w2-edu-01' }); // id 重复（G 类无 topic 不报错）
   const plan = clone(good.plan);
   plan.weeks[0].tasks[0].tab = 'nowhere';
-  plan.weeks[0].tasks[1].source = ['ielts-reading'];
+  plan.weeks[0].tasks[1].source = ['no-such-source'];
   plan.weeks.pop();
   const vocab = [...good.vocab, { ...good.vocab[0] }]; // 重复词
   const rubrics = clone(good.rubrics);
