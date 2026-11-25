@@ -1,0 +1,362 @@
+[
+  {
+    "id": "w1a-21",
+    "task": 1,
+    "variant": "A",
+    "topic": "health",
+    "prompt": "The diagram below shows how olive oil is produced. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "The production of olive oil",
+      "stages": [
+        { "id": "harvest", "label": "Harvesting", "note": "olives shaken from the trees in autumn" },
+        { "id": "wash", "label": "Washing", "note": "leaves and dirt removed" },
+        { "id": "crush", "label": "Crushing", "note": "whole olives ground into a paste" },
+        { "id": "mix", "label": "Mixing", "note": "paste stirred slowly for 30-45 minutes" },
+        { "id": "separate", "label": "Separation", "note": "paste spun in a centrifuge" },
+        { "id": "filter", "label": "Filtering", "note": "oil stored in steel tanks" },
+        { "id": "bottle", "label": "Bottling", "note": "sent to shops" },
+        { "id": "dry", "label": "Drying", "note": "solid waste (pomace)" },
+        { "id": "reuse", "label": "Reuse", "note": "burnt as fuel or used as animal feed" }
+      ],
+      "links": [
+        { "from": "harvest", "to": "wash" },
+        { "from": "wash", "to": "crush" },
+        { "from": "crush", "to": "mix" },
+        { "from": "mix", "to": "separate" },
+        { "from": "separate", "to": "filter", "label": "oil" },
+        { "from": "filter", "to": "bottle" },
+        { "from": "separate", "to": "dry", "label": "solids" },
+        { "from": "dry", "to": "reuse" }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：共 9 个阶段，前 5 步是共用主线；离心分离之后分成两条支路——液体一路做成瓶装油，固体残渣（pomace）一路被再利用",
+      "主线顺序：秋季把橄榄从树上摇落 → 清洗去掉叶子和泥土 → 整颗压成果浆 → 慢速搅拌 30-45 分钟 → 离心机甩分",
+      "油这一支：过滤并存进钢罐 → 装瓶送往商店；残渣这一支：烘干 → 当燃料烧掉或做动物饲料",
+      "写法：动作一律用被动语态（are shaken / is ground / is filtered），用 to begin with、next、at the fifth stage、meanwhile、finally 串起顺序；两条支路用 meanwhile 对照，不要补充图里没有的原因"
+    ],
+    "modelAnswer": "The diagram illustrates the stages involved in producing olive oil, from the harvesting of the fruit to the bottling of the oil and the reuse of the solid waste.\n\nOverall, the process consists of nine stages. After five shared steps, it divides into two separate branches: one turns the liquid into bottled oil, while the other converts the leftover solids into fuel or animal feed.\n\nTo begin with, the olives are shaken from the trees in autumn and are then washed so that leaves and dirt are removed. Next, the whole olives are ground into a paste, which is stirred slowly for between 30 and 45 minutes. At the fifth stage, this paste is spun in a centrifuge, which separates the oil from the solids.\n\nFrom this point onwards, the two products are treated differently. The oil is filtered and stored in steel tanks before it is bottled and sent to shops. Meanwhile, the solid waste, which is known as pomace, is dried. Finally, it is reused, either being burnt as fuel or being used as animal feed.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-22",
+    "task": 1,
+    "variant": "A",
+    "topic": "science",
+    "prompt": "The diagram below shows the life cycle of a sea turtle. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "The life cycle of a sea turtle",
+      "cycle": true,
+      "stages": [
+        { "id": "eggs", "label": "Eggs laid", "note": "about 100 eggs buried in the sand on a beach" },
+        { "id": "hatch", "label": "Hatching", "note": "after 50-60 days" },
+        { "id": "crawl", "label": "Hatchlings", "note": "crawl down to the sea at night" },
+        { "id": "young", "label": "Young turtles", "note": "drift in ocean currents for 5-10 years" },
+        { "id": "adult", "label": "Adults", "note": "reach maturity at sea after 20-30 years" },
+        { "id": "return", "label": "Return to breed", "note": "mate in coastal waters near the beach where they were born" }
+      ],
+      "links": [
+        { "from": "eggs", "to": "hatch" },
+        { "from": "hatch", "to": "crawl" },
+        { "from": "crawl", "to": "young" },
+        { "from": "young", "to": "adult" },
+        { "from": "adult", "to": "return" },
+        { "from": "return", "to": "eggs", "label": "females come ashore" }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：6 个阶段首尾相连、周而复始；整个循环要几十年，孵化之后几乎都在海里度过",
+      "陆地阶段：约 100 枚蛋埋在海滩沙里 → 50-60 天后孵化 → 幼龟夜里爬向大海",
+      "海洋阶段：小海龟随洋流漂流 5-10 年 → 20-30 年后在海里成熟 → 回到出生海滩附近的近海交配 → 雌龟上岸产卵，循环重新开始",
+      "写法：自然循环可以主动、被动结合（eggs are buried / the hatchlings crawl），用 the cycle begins when、once、at this point、finally 串顺序；数字（100、50-60 天、5-10 年、20-30 年）要原样写对"
+    ],
+    "modelAnswer": "The diagram shows the life cycle of a sea turtle, from the laying of eggs on a beach to the return of adult turtles to the same area to breed.\n\nOverall, the cycle consists of six main stages and covers a very long period, as turtles need two to three decades to become adults. Apart from the egg and hatching stages on the beach, almost all of a turtle's life is spent in the sea.\n\nThe cycle begins when around 100 eggs are buried in the sand on a beach. After 50 to 60 days, the eggs hatch, and the hatchlings crawl down to the sea at night. Once they reach the water, the young turtles are carried by ocean currents for between five and ten years.\n\nThe turtles continue to grow at sea until they reach maturity after 20 to 30 years. At this point, the adults return to the coastal waters near the beach where they were born, and mating takes place there. Finally, the females come ashore to lay their own eggs, and the whole cycle begins again.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-23",
+    "task": 1,
+    "variant": "A",
+    "topic": "technology",
+    "prompt": "The diagram below shows how ceramic floor tiles are manufactured. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "The manufacture of ceramic floor tiles",
+      "stages": [
+        { "id": "extract", "label": "Extraction", "note": "clay, sand and feldspar dug from a quarry" },
+        { "id": "grind", "label": "Grinding", "note": "materials crushed and mixed with water" },
+        { "id": "spray", "label": "Spray drying", "note": "liquid mixture turned into a fine powder" },
+        { "id": "press", "label": "Pressing", "note": "powder pressed into square tiles" },
+        { "id": "glaze", "label": "Glazing", "note": "coloured glaze sprayed on top" },
+        { "id": "fire", "label": "Firing", "note": "kiln at 1,200°C for 40 minutes" },
+        { "id": "inspect", "label": "Inspection", "note": "every tile checked for cracks" },
+        { "id": "pack", "label": "Packing", "note": "boxed and delivered to shops" }
+      ],
+      "links": [
+        { "from": "extract", "to": "grind" },
+        { "from": "grind", "to": "spray" },
+        { "from": "spray", "to": "press" },
+        { "from": "press", "to": "glaze" },
+        { "from": "glaze", "to": "fire" },
+        { "from": "fire", "to": "inspect" },
+        { "from": "inspect", "to": "pack" },
+        { "from": "inspect", "to": "grind", "label": "faulty tiles" }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：8 个阶段，从采石场取原料开始，到装箱送往商店结束；最值得一提的是有一条回路——检出的次品不丢弃，而是送回第 2 步重新研磨",
+      "前半段：黏土、沙和长石从采石场挖出 → 粉碎并加水混合 → 喷雾干燥成细粉 → 压成方形瓷砖",
+      "后半段：喷上彩色釉 → 在窑里 1,200°C 烧 40 分钟 → 逐块检查裂纹 → 合格品装箱发往商店，次品回到研磨阶段",
+      "写法：制造工艺全程被动语态（are dug / is pressed / are fired），顺序词换着用（at the first stage、after that、next、once），回路用 whereas / instead 和合格品对照"
+    ],
+    "modelAnswer": "The diagram illustrates how ceramic floor tiles are manufactured, from the extraction of raw materials to the delivery of the finished product.\n\nOverall, the process consists of eight main stages, beginning at a quarry and ending with packing. A notable feature is that faulty tiles are not wasted but are sent back to an earlier stage to be used again.\n\nAt the first stage, clay, sand and feldspar are dug from a quarry. These materials are then crushed and mixed with water, and the resulting liquid is spray-dried until it becomes a fine powder. After that, the powder is pressed into square tiles, and a coloured glaze is sprayed on top of each one.\n\nNext, the glazed tiles are fired in a kiln at 1,200°C for 40 minutes, after which every tile is inspected for cracks. Those which pass the inspection are boxed and delivered to shops. Faulty tiles, by contrast, are returned to the grinding stage, where they are crushed and mixed with water again, so that their material re-enters the process instead of being thrown away.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-24",
+    "task": 1,
+    "variant": "A",
+    "topic": "environment",
+    "prompt": "The diagram below shows how aluminium drinks cans are recycled. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "process",
+      "title": "Recycling aluminium drinks cans",
+      "cycle": true,
+      "stages": [
+        { "id": "use", "label": "Use", "note": "drinks bought and cans emptied" },
+        { "id": "collect", "label": "Collection", "note": "empty cans put in recycling bins" },
+        { "id": "sort", "label": "Sorting", "note": "steel cans removed with magnets" },
+        { "id": "shred", "label": "Shredding", "note": "cans cut into small pieces and cleaned" },
+        { "id": "melt", "label": "Melting", "note": "furnace heats the metal to 750°C" },
+        { "id": "roll", "label": "Casting and rolling", "note": "metal cast into blocks, then rolled into thin sheets" },
+        { "id": "make", "label": "Can making", "note": "new cans filled and on sale within 60 days" }
+      ],
+      "links": [
+        { "from": "use", "to": "collect" },
+        { "from": "collect", "to": "sort" },
+        { "from": "sort", "to": "shred" },
+        { "from": "shred", "to": "melt" },
+        { "from": "melt", "to": "roll" },
+        { "from": "roll", "to": "make" },
+        { "from": "make", "to": "use" }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：7 个阶段构成闭环，旧罐子经过回收、加工变成新罐子重新上架，同一批金属可以反复使用",
+      "回收与预处理：买饮料、喝完 → 空罐投进回收箱 → 用磁铁挑出钢罐 → 切成小块并清洗",
+      "再生与制造：熔炉加热到 750°C → 铸成金属块再轧成薄板 → 做成新罐、灌装，60 天内重新上架销售",
+      "写法：被动语态（are placed / are removed / is cast），用 the cycle begins when、next、before being、in the following stage 衔接；60 天只能说是新罐上架的时间，不要扩展成别的结论"
+    ],
+    "modelAnswer": "The diagram shows the process by which used aluminium drinks cans are recycled and turned into new cans.\n\nOverall, the process forms a continuous cycle made up of seven stages. Used cans are collected and processed into metal sheets, which are then made into new cans and returned to shops, so the same metal can be used again and again.\n\nThe cycle begins when consumers buy drinks and empty the cans. These empty cans are put in recycling bins, after which they are sorted and any steel cans are removed with magnets. Next, the aluminium cans are cut into small pieces and cleaned, before being melted in a furnace at a temperature of 750°C.\n\nIn the following stage, the molten metal is cast into blocks, and these are rolled into thin sheets. The sheets are then used to make new cans, which are filled with drinks. According to the diagram, these new cans can be on sale within 60 days, at which point they are bought by consumers and the whole cycle starts again.",
+    "modelBand": 7
+  },
+  {
+    "id": "w1a-25",
+    "task": 1,
+    "variant": "A",
+    "topic": "urban",
+    "prompt": "The maps below show the town of Millford in 1990 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "map",
+      "title": "Millford, 1990 and 2020",
+      "compass": true,
+      "maps": [
+        {
+          "title": "1990",
+          "features": [
+            { "kind": "water", "x": 84, "y": 0, "w": 16, "h": 100, "label": "River" },
+            { "kind": "road", "x": 0, "y": 40, "w": 84, "h": 6, "label": "Main Road" },
+            { "kind": "label", "x": 4, "y": 6, "w": 36, "h": 32, "label": "Farmland" },
+            { "kind": "building", "x": 46, "y": 8, "w": 32, "h": 12, "label": "Houses" },
+            { "kind": "building", "x": 46, "y": 26, "w": 16, "h": 12, "label": "Post office" },
+            { "kind": "park", "x": 4, "y": 56, "w": 36, "h": 38, "label": "Woodland" },
+            { "kind": "building", "x": 46, "y": 58, "w": 32, "h": 26, "label": "Factory" }
+          ]
+        },
+        {
+          "title": "2020",
+          "features": [
+            { "kind": "water", "x": 84, "y": 0, "w": 16, "h": 100, "label": "River" },
+            { "kind": "road", "x": 0, "y": 40, "w": 100, "h": 6, "label": "Main Road" },
+            { "kind": "label", "x": 92, "y": 35, "w": 0, "h": 0, "label": "Bridge" },
+            { "kind": "building", "x": 4, "y": 6, "w": 36, "h": 32, "label": "Housing estate" },
+            { "kind": "building", "x": 46, "y": 8, "w": 32, "h": 12, "label": "Houses" },
+            { "kind": "building", "x": 46, "y": 26, "w": 16, "h": 12, "label": "Café" },
+            { "kind": "building", "x": 4, "y": 56, "w": 22, "h": 14, "label": "School" },
+            { "kind": "park", "x": 4, "y": 74, "w": 36, "h": 20, "label": "Woodland" },
+            { "kind": "building", "x": 46, "y": 58, "w": 20, "h": 26, "label": "Shopping centre" },
+            { "kind": "car-park", "x": 68, "y": 58, "w": 14, "h": 26, "label": "Car park" }
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：30 年间小镇明显城市化——农田和部分林地变成建筑，工厂消失，主路跨河延伸；北面那排住宅和东侧河流没有变",
+      "西北：农田（Farmland）整片变成住宅区（Housing estate）；北部住宅旁的邮局（Post office）改成咖啡馆（Café）",
+      "西南：林地北半部被清理、建了学校（School），只剩南边一块林地；东南：工厂拆除，原址建购物中心（Shopping centre）并配停车场（Car park）",
+      "Main Road 1990 年止于河边，2020 年经新桥（Bridge）向东跨过河流",
+      "写法：变化动词换着用（was replaced by / was converted into / was demolished / was extended / was cleared to make way for），方位用 in the north-west、to the east of、in the south-east corner；先写 overview 再按区域分组"
+    ],
+    "modelAnswer": "The maps compare the town of Millford in 1990 and 2020.\n\nOverall, Millford became considerably more developed over the 30-year period. Farmland and woodland gave way to new buildings, the town's industry disappeared, and a bridge was built across the river.\n\nThe most striking change took place in the north-west, where the farmland was replaced by a large housing estate. To the east of this, the houses along the northern edge of the town remained unchanged, but the post office just below them was converted into a café.\n\nIn the south-west, the northern part of the woodland was cleared to make way for a school, so only a smaller area of trees survived in the south. Meanwhile, the factory in the south-east was demolished, and a shopping centre was built on the site, with a car park beside it on the eastern side, close to the river.\n\nFinally, Main Road, which had ended at the river in 1990, was extended eastwards over a new bridge, while the river itself was unaffected.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-26",
+    "task": 1,
+    "variant": "A",
+    "topic": "education",
+    "prompt": "The maps below show the campus of Northgate College in 2005 and at the present time. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "map",
+      "title": "Northgate College campus",
+      "compass": true,
+      "maps": [
+        {
+          "title": "2005",
+          "features": [
+            { "kind": "park", "x": 6, "y": 6, "w": 40, "h": 24, "label": "Sports field" },
+            { "kind": "water", "x": 64, "y": 8, "w": 24, "h": 20, "label": "Pond" },
+            { "kind": "building", "x": 34, "y": 38, "w": 30, "h": 20, "label": "Main building" },
+            { "kind": "building", "x": 70, "y": 38, "w": 18, "h": 20, "label": "Library" },
+            { "kind": "car-park", "x": 6, "y": 66, "w": 34, "h": 20, "label": "Car park" },
+            { "kind": "park", "x": 56, "y": 66, "w": 36, "h": 20, "label": "Lawn" },
+            { "kind": "road", "x": 45, "y": 58, "w": 6, "h": 32, "label": "Entrance" },
+            { "kind": "road", "x": 0, "y": 90, "w": 100, "h": 7, "label": "College Road" }
+          ]
+        },
+        {
+          "title": "Present",
+          "features": [
+            { "kind": "building", "x": 6, "y": 6, "w": 16, "h": 24, "label": "Sports hall" },
+            { "kind": "park", "x": 24, "y": 6, "w": 22, "h": 24, "label": "Sports field" },
+            { "kind": "building", "x": 50, "y": 12, "w": 10, "h": 12, "label": "Café" },
+            { "kind": "water", "x": 64, "y": 8, "w": 24, "h": 20, "label": "Pond" },
+            { "kind": "building", "x": 34, "y": 38, "w": 30, "h": 20, "label": "Main building" },
+            { "kind": "building", "x": 70, "y": 38, "w": 26, "h": 20, "label": "Library" },
+            { "kind": "building", "x": 6, "y": 66, "w": 34, "h": 20, "label": "Student accommodation" },
+            { "kind": "car-park", "x": 56, "y": 66, "w": 18, "h": 20, "label": "Car park" },
+            { "kind": "park", "x": 76, "y": 66, "w": 16, "h": 20, "label": "Lawn" },
+            { "kind": "road", "x": 45, "y": 58, "w": 6, "h": 32, "label": "Entrance" },
+            { "kind": "road", "x": 0, "y": 90, "w": 100, "h": 7, "label": "College Road" }
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：校园建筑更密集、新增多项学生设施，绿地减少；主楼、池塘、入口道路和 College Road 等基本格局不变",
+      "北部：运动场西侧新建体育馆（Sports hall），运动场因此缩小；运动场和池塘之间新开一家咖啡馆（Café）；池塘不变",
+      "主楼东边的图书馆（Library）向东扩建",
+      "南部变化最大：西南的停车场改建为学生宿舍（Student accommodation）；东南草坪（Lawn）西半部改成较小的停车场，只剩东南角一小块草坪",
+      "写法：现在完成时描述到现在为止的变化（has been built / has been extended / has been replaced by），方位用 in the north、to the east of、in the south-west、in the south-eastern corner"
+    ],
+    "modelAnswer": "The maps show how the campus of Northgate College has changed between 2005 and the present day.\n\nOverall, the college has become more densely built up, with several new facilities added for students, while the amount of green space has been reduced. However, the basic layout, including the main building, the pond and the roads, has remained the same.\n\nIn the northern part of the campus, a sports hall has been built on the western side of the sports field, which is consequently much smaller than before. A new café has also appeared between the field and the pond, which itself is unchanged. To the east of the main building, the library has been extended further east.\n\nThe southern half of the campus has seen the most significant changes. The car park in the south-west has been replaced by student accommodation, and parking has moved to the south-east, where the western part of the lawn has been converted into a smaller car park. As a result, only a small area of lawn remains in the south-eastern corner, just north of College Road.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-27",
+    "task": 1,
+    "variant": "A",
+    "topic": "environment",
+    "prompt": "The maps below show Greenhill Park at present and a plan for its redevelopment. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "map",
+      "title": "Greenhill Park: present and planned",
+      "compass": true,
+      "maps": [
+        {
+          "title": "Present",
+          "features": [
+            { "kind": "road", "x": 0, "y": 0, "w": 7, "h": 100, "label": "Park Road" },
+            { "kind": "car-park", "x": 10, "y": 4, "w": 24, "h": 18, "label": "Car park" },
+            { "kind": "building", "x": 40, "y": 6, "w": 14, "h": 12, "label": "Café" },
+            { "kind": "water", "x": 62, "y": 8, "w": 20, "h": 14, "label": "Pond" },
+            { "kind": "park", "x": 12, "y": 30, "w": 46, "h": 34, "label": "Open grass" },
+            { "kind": "label", "x": 66, "y": 36, "w": 20, "h": 16, "label": "Playground" },
+            { "kind": "road", "x": 7, "y": 69, "w": 57, "h": 3, "label": "Footpath" },
+            { "kind": "park", "x": 66, "y": 60, "w": 28, "h": 34, "label": "Woodland" },
+            { "kind": "building", "x": 12, "y": 78, "w": 14, "h": 12, "label": "Toilets" }
+          ]
+        },
+        {
+          "title": "Planned",
+          "features": [
+            { "kind": "road", "x": 0, "y": 0, "w": 7, "h": 100, "label": "Park Road" },
+            { "kind": "park", "x": 10, "y": 4, "w": 24, "h": 18, "label": "Community garden" },
+            { "kind": "building", "x": 40, "y": 6, "w": 14, "h": 12, "label": "Café" },
+            { "kind": "water", "x": 58, "y": 4, "w": 34, "h": 24, "label": "Lake" },
+            { "kind": "park", "x": 12, "y": 30, "w": 46, "h": 34, "label": "Open grass" },
+            { "kind": "label", "x": 62, "y": 34, "w": 32, "h": 20, "label": "Playground" },
+            { "kind": "park", "x": 66, "y": 60, "w": 28, "h": 34, "label": "Woodland" },
+            { "kind": "road", "x": 7, "y": 68, "w": 93, "h": 5, "label": "Cycle path" },
+            { "kind": "car-park", "x": 10, "y": 77, "w": 22, "h": 17, "label": "Car park" },
+            { "kind": "building", "x": 36, "y": 77, "w": 20, "h": 13, "label": "Visitor centre" }
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：规划把停车场挪到西南角，并新增或扩建多项休闲设施；咖啡馆、中间的草地和东南的树林保持不变",
+      "北部：西北角停车场改成社区花园（Community garden）；咖啡馆东边的小池塘扩成湖（Lake），湖南边的游乐场（Playground）扩大",
+      "南部：西南靠 Park Road 的厕所拆掉、原址建新停车场；其东侧新建游客中心（Visitor centre）",
+      "现有步道（Footpath）拓宽为自行车道（Cycle path），并向东穿过树林一直通到公园东边界",
+      "写法：规划图用将来时和被动语态（will be turned into / is to be replaced by / is set to be built），方位用 in the north-west corner、to the east of、just to the south of"
+    ],
+    "modelAnswer": "The maps illustrate Greenhill Park as it is now and how it will look if a proposed redevelopment goes ahead.\n\nOverall, the plan would move parking to the south-west of the park and add or expand several leisure facilities. However, a number of features, including the café, the open grass in the centre and the woodland, would remain as they are.\n\nIn the northern half of the park, the car park in the north-west corner is to be turned into a community garden. To the east of the café, the small pond will be enlarged to form a lake, and the playground just to the south of it will also be extended.\n\nThe south of the park would see equally significant changes. The toilets next to Park Road are set to be demolished and replaced by a new car park, while a visitor centre will be built immediately to the east of it. In addition, the existing footpath will be widened into a cycle path, which will run all the way through the woodland to the eastern edge of the park.",
+    "modelBand": 7.5
+  },
+  {
+    "id": "w1a-28",
+    "task": 1,
+    "variant": "A",
+    "topic": "urban",
+    "prompt": "The maps below show the coastal village of Port Allan in 2000 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
+    "chart": {
+      "type": "map",
+      "title": "Port Allan, 2000 and 2024",
+      "compass": true,
+      "maps": [
+        {
+          "title": "2000",
+          "features": [
+            { "kind": "label", "x": 4, "y": 4, "w": 90, "h": 18, "label": "Farmland" },
+            { "kind": "building", "x": 4, "y": 30, "w": 24, "h": 22, "label": "Fishing cottages" },
+            { "kind": "building", "x": 34, "y": 40, "w": 18, "h": 12, "label": "Fish market" },
+            { "kind": "label", "x": 58, "y": 30, "w": 36, "h": 22, "label": "Sand dunes" },
+            { "kind": "road", "x": 0, "y": 56, "w": 100, "h": 6, "label": "Coast Road" },
+            { "kind": "road", "x": 14, "y": 62, "w": 6, "h": 20, "label": "Pier" },
+            { "kind": "label", "x": 30, "y": 64, "w": 60, "h": 10, "label": "Beach" },
+            { "kind": "water", "x": 0, "y": 76, "w": 100, "h": 24, "label": "Sea" }
+          ]
+        },
+        {
+          "title": "2024",
+          "features": [
+            { "kind": "building", "x": 4, "y": 4, "w": 42, "h": 18, "label": "Holiday homes" },
+            { "kind": "label", "x": 50, "y": 4, "w": 44, "h": 18, "label": "Farmland" },
+            { "kind": "building", "x": 4, "y": 30, "w": 24, "h": 22, "label": "Fishing cottages" },
+            { "kind": "building", "x": 34, "y": 40, "w": 18, "h": 12, "label": "Seafood restaurant" },
+            { "kind": "building", "x": 58, "y": 30, "w": 22, "h": 22, "label": "Hotel" },
+            { "kind": "car-park", "x": 82, "y": 30, "w": 12, "h": 22, "label": "Car park" },
+            { "kind": "road", "x": 0, "y": 56, "w": 100, "h": 6, "label": "Coast Road" },
+            { "kind": "road", "x": 14, "y": 62, "w": 6, "h": 34, "label": "Pier" },
+            { "kind": "label", "x": 30, "y": 64, "w": 60, "h": 10, "label": "Beach" },
+            { "kind": "water", "x": 0, "y": 76, "w": 100, "h": 24, "label": "Sea" },
+            { "kind": "label", "x": 22, "y": 80, "w": 20, "h": 14, "label": "Marina" }
+          ]
+        }
+      ]
+    },
+    "keyFeatures": [
+      "Overview：渔村转向旅游——北部农田、东部沙丘被开发成度假设施；海滩、海岸公路和渔民小屋保留下来",
+      "东部变化最明显：沙丘（Sand dunes）被清理，建了酒店（Hotel）和自带的停车场（Car park）",
+      "海岸公路北侧的鱼市（Fish market）改为海鲜餐厅（Seafood restaurant）",
+      "海边：海滩不变；海滩西边的码头（Pier）加长、伸得更远，旁边新建游艇码头（Marina）",
+      "北部：农田西半部被度假屋（Holiday homes）取代，只剩东半部仍是农田",
+      "写法：现在完成时 + 被动（have been cleared / has been converted into / has been lengthened），方位用 in the east、to the west of、along the shore、further north"
+    ],
+    "modelAnswer": "The maps compare the coastal village of Port Allan in 2000 and 2024.\n\nOverall, the village has been transformed from a fishing community into a tourist destination, with several natural and agricultural areas being developed. However, the beach, Coast Road and the fishing cottages have all survived.\n\nThe most noticeable development is in the east of the village, where the sand dunes have been cleared to make way for a large hotel, with a car park on its eastern side. To the west of this, the fish market on the northern side of Coast Road has been converted into a seafood restaurant.\n\nAlong the shore, the beach has remained untouched, but the pier to its west has been lengthened so that it now reaches much further out to sea, and a marina has been constructed just beside it. Further north, the western half of the farmland has been replaced by a development of holiday homes, leaving only the eastern part of the land to be farmed. The fishing cottages in the west, by contrast, look exactly as they did in 2000.",
+    "modelBand": 7
+  }
+]
