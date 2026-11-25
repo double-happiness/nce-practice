@@ -226,6 +226,7 @@
 - T3 原创内容：Part 1–2（4 个 section）
   - [x] 已实现 2026-11-24
 - T4 原创内容：Part 3–4（4 个 section）
+  - [x] 已实现 2026-11-25
 - T5 `routes/ielts-listening.js`：列表、题目、交卷
 - T6 `public/js/ielts-listening-ui.js` + `index.html` 一行 script
 - T7 `scripts/test-ielts-listening.js`

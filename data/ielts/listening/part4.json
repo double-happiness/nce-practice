@@ -1,0 +1,133 @@
+[
+  {
+    "id": "l4-urban-heat",
+    "part": 4,
+    "title": "The urban heat island effect",
+    "titleCn": "城市热岛效应",
+    "intro": "Part 4. You will hear a lecture about why cities are often warmer than the areas around them.",
+    "speakers": [
+      { "id": "lecturer", "name": "Lecturer", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "lecturer", "text": "Good morning. Today I'm going to talk about a problem that affects almost every large city in the world: the urban heat island effect. And by the end of the lecture, I hope you'll see that it's a problem we can actually do something about." },
+      { "speaker": "lecturer", "text": "So, what is an urban heat island? Quite simply, it's a city or a large town that is significantly warmer than the countryside around it." },
+      { "speaker": "lecturer", "text": "On a summer afternoon, the difference might be only one or two degrees. Interestingly, though, the gap is usually greatest at night, when it can reach as much as seven degrees. That's because the city slowly releases the heat it has stored during the day." },
+      { "speaker": "lecturer", "text": "Why does this happen? There are several causes. The first is the materials we build with. Dark surfaces, and in particular asphalt, which covers most of our roads, absorb a great deal of the sun's energy during the day." },
+      { "speaker": "lecturer", "text": "The second cause is the shape of the city itself. When tall buildings stand close together, they trap heat between them, and the wind can't carry it away. Researchers sometimes call these streets urban canyons." },
+      { "speaker": "lecturer", "text": "Third, cities have far fewer plants than rural areas. Plants release water through their leaves, and this evaporation has a cooling effect on the air around them, rather like sweat cooling your skin. Replace fields and trees with concrete, and you lose that cooling." },
+      { "speaker": "lecturer", "text": "And finally, there's the heat that we produce ourselves. Traffic, factories and, ironically, air conditioners all release waste heat into the street. So the hotter a city gets, the more people switch on their air conditioners, and the hotter it gets outside." },
+      { "speaker": "lecturer", "text": "Now, why does this matter? Higher temperatures mean more energy is used for cooling, which is expensive. More seriously, during heatwaves, elderly people living in city centres face a much higher risk to their health." },
+      { "speaker": "lecturer", "text": "So what can be done? Let me go through some of the solutions that cities are trying." },
+      { "speaker": "lecturer", "text": "One of the simplest is to paint roofs white. A white roof reflects most of the sunlight that hits it, so the building stays cooler, and less heat is released into the street. It's cheap, and it can be done very quickly." },
+      { "speaker": "lecturer", "text": "A more ambitious option is the green roof, which is a roof covered with soil and plants. Green roofs cool the air, and they also absorb rainwater. The cost of building them has come down in recent years, but the main drawback is that they're expensive to maintain, because the plants need regular care." },
+      { "speaker": "lecturer", "text": "Trees are perhaps the most effective solution at street level. A row of trees along a pavement provides shade for pedestrians, and the leaves cool the air as well." },
+      { "speaker": "lecturer", "text": "Finally, parks. Several studies suggest that a large park doesn't just cool its own area. It can lower the temperature for several hundred metres around it. So deciding where to put parks is just as important as deciding how big they should be." },
+      { "speaker": "lecturer", "text": "In the next lecture, we'll look at some cities that have combined these ideas, and at how successful they've been." }
+    ],
+    "groups": [
+      {
+        "type": "note-completion",
+        "from": 0,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Urban heat islands",
+        "questions": [
+          { "no": 31, "heading": "Definition", "prompt": "A city that is much warmer than the surrounding ___", "answer": ["countryside"], "segment": 1,
+            "explanation": "定义：比周围 countryside 明显更热的城市或大城镇。只能写一个词，the countryside 超出字数限制。" },
+          { "no": 32, "prompt": "The temperature difference is usually greatest at ___", "answer": ["night"], "segment": 2,
+            "explanation": "夏日午后只差一两度（干扰），差距通常在夜里最大，可达七度，因为城市在夜间慢慢释放白天储存的热量。" },
+          { "no": 33, "heading": "Causes", "prompt": "Dark surfaces, especially ___, absorb the sun's energy", "answer": ["asphalt"], "segment": 3,
+            "explanation": "in particular asphalt（沥青，铺在大多数道路上）。in particular / especially 是同义替换提示。" },
+          { "no": 34, "prompt": "Tall buildings close together ___ heat", "answer": ["trap"], "segment": 4,
+            "explanation": "高楼挨得很近会 trap heat，风也带不走。urban canyons 是名称，不是这里要填的动词。" },
+          { "no": 35, "prompt": "Fewer plants, so less cooling from ___", "answer": ["evaporation"], "segment": 5,
+            "explanation": "植物通过叶片释放水分，这种 evaporation（蒸发）能给空气降温。注意拼写 evaporation。" },
+          { "no": 36, "prompt": "Waste heat from traffic, factories and air ___", "answer": ["conditioners"], "segment": 6,
+            "explanation": "交通、工厂以及 air conditioners 都向街道排放废热。题目已给 air，填复数 conditioners。" }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "from": 8,
+        "instruction": "Complete the summary below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Possible solutions",
+        "questions": [
+          { "no": 37, "prompt": "Painting roofs ___ means that they reflect most of the sunlight.", "answer": ["white"], "segment": 9,
+            "explanation": "最简单的办法是把屋顶刷成白色（paint roofs white），能反射大部分阳光，便宜又快。" },
+          { "no": 38, "prompt": "Green roofs cool the air and absorb rainwater, but they are expensive to ___.", "answer": ["maintain"], "segment": 10,
+            "explanation": "建造成本已经下降（build 是干扰），主要缺点是维护贵（expensive to maintain），因为植物需要定期照料。" },
+          { "no": 39, "prompt": "Trees along streets provide ___ for people walking below.", "answer": ["shade"], "segment": 11,
+            "explanation": "行道树为行人（pedestrians ≈ people walking）提供 shade（树荫）。" },
+          { "no": 40, "prompt": "A large park can lower the temperature for several hundred ___ around it.", "answer": ["metres", "meters"], "segment": 12,
+            "explanation": "大公园能让周围几百米（several hundred metres）降温。英式 metres、美式 meters 都算对，单数 metre 判错。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l4-sea-otters",
+    "part": 4,
+    "title": "Sea otters and kelp forests",
+    "titleCn": "海獭与海藻林",
+    "intro": "Part 4. You will hear part of a lecture on marine ecosystems about the sea otter.",
+    "speakers": [
+      { "id": "lecturer", "name": "Lecturer", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "lecturer", "text": "Good afternoon. In today's lecture in our series on marine ecosystems, I want to focus on one rather charming animal, the sea otter, and explain why ecologists consider it so important." },
+      { "speaker": "lecturer", "text": "Sea otters live in the coastal waters of the North Pacific, from Japan and Russia across to Alaska and California. The water there is cold all year round, and that creates a real challenge for a small mammal." },
+      { "speaker": "lecturer", "text": "Most marine mammals, such as whales and seals, keep warm with a thick layer of fat under the skin, which we call blubber. Sea otters, surprisingly, have no blubber at all." },
+      { "speaker": "lecturer", "text": "Instead, they rely on their fur, which is the thickest of any animal on Earth. A sea otter has more hairs on a small patch of skin than a person has on their whole head. Air is trapped between the hairs, and this keeps the water away from the otter's skin." },
+      { "speaker": "lecturer", "text": "Keeping warm also takes a huge amount of energy. To fuel their bodies, sea otters need to eat about a quarter of their body weight every single day. For a person, that would mean eating around eighteen kilos of food daily." },
+      { "speaker": "lecturer", "text": "What do they eat? Mainly crabs, clams and other shellfish. And they're one of the few mammals, apart from primates, that use stones as tools. An otter will float on its back, place a flat stone on its chest, and hit a shell against it until it breaks open." },
+      { "speaker": "lecturer", "text": "But their favourite food, and the most important one from an ecological point of view, is the sea urchin. Sea urchins feed on kelp, a type of giant seaweed that grows in dense underwater forests." },
+      { "speaker": "lecturer", "text": "This brings me to the history of the sea otter, which is a dramatic one. Its fur was so valuable that, during the eighteenth and nineteenth centuries, hunters killed hundreds of thousands of them. By the early nineteen hundreds, the species had been hunted almost to extinction, with perhaps only one or two thousand animals left." },
+      { "speaker": "lecturer", "text": "Fortunately, in 1911, several countries signed an international treaty which banned the hunting of sea otters, and slowly, their numbers began to rise again." },
+      { "speaker": "lecturer", "text": "And this is where the story becomes really interesting for ecologists. In areas without otters, sea urchins had multiplied and eaten almost all the kelp, leaving bare rock. But when otters returned, they ate the urchins, and the kelp forests grew back. Scientists call an animal like this a keystone species, because so much of the ecosystem depends on it." },
+      { "speaker": "lecturer", "text": "Kelp recovers remarkably quickly. Under good conditions, it can grow by up to sixty centimetres in a single day, which makes it one of the fastest-growing organisms on the planet." },
+      { "speaker": "lecturer", "text": "And healthy kelp forests matter well beyond the coast. They provide shelter for hundreds of species of fish, and, like forests on land, they absorb and store carbon, so they may play a part in slowing climate change." },
+      { "speaker": "lecturer", "text": "So, the next time you see a photograph of a sea otter floating on its back, remember that it's doing a lot more than looking cute. Next week, we'll turn to coral reefs." }
+    ],
+    "groups": [
+      {
+        "type": "note-completion",
+        "from": 0,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+        "title": "The sea otter",
+        "questions": [
+          { "no": 31, "heading": "Keeping warm", "prompt": "Unlike whales and seals, sea otters have no ___", "answer": ["blubber"], "segment": 2,
+            "explanation": "鲸和海豹靠皮下厚脂肪层 blubber 保暖，海獭完全没有 blubber。" },
+          { "no": 32, "prompt": "They depend on their extremely thick ___", "answer": ["fur"], "segment": 3,
+            "explanation": "海獭靠皮毛（fur）保暖，它是地球上最浓密的动物皮毛。rely on ≈ depend on。" },
+          { "no": 33, "prompt": "They need to eat about ___ of their body weight every day", "answer": ["a quarter", "one quarter", "25%", "25 per cent", "25 percent", "1/4"], "segment": 4,
+            "explanation": "每天要吃掉约四分之一体重（a quarter）。18 公斤是换算成人的例子（干扰）。写 a quarter、25% 等都算对。" },
+          { "no": 34, "heading": "Feeding", "prompt": "They use ___ as tools to open shellfish", "answer": ["stones"], "segment": 5,
+            "explanation": "海獭是少数会用 stones 当工具的哺乳动物：仰浮在水面，把石头放在胸口砸开贝壳。题目是 use ___ as tools，用复数 stones。" },
+          { "no": 35, "prompt": "Most important prey: sea ___, which feed on kelp", "answer": ["urchins"], "segment": 6,
+            "explanation": "生态上最重要的食物是 sea urchin（海胆），海胆吃海藻。题目是复数语境，填 urchins。" }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "from": 7,
+        "instruction": "Complete the summary below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "The return of the sea otter",
+        "questions": [
+          { "no": 36, "prompt": "In the 18th and 19th centuries, sea otters were hunted almost to ___.", "answer": ["extinction"], "segment": 7,
+            "explanation": "因为皮毛值钱，海獭被捕杀到几乎灭绝（hunted almost to extinction），二十世纪初只剩一两千只。" },
+          { "no": 37, "prompt": "In 1911, an international ___ banned the hunting of sea otters.", "answer": ["treaty"], "segment": 8,
+            "explanation": "1911 年几个国家签署国际条约（international treaty）禁止猎杀海獭。" },
+          { "no": 38, "prompt": "Where otters returned, they ate the urchins and the ___ forests grew back.", "answer": ["kelp"], "segment": 9,
+            "explanation": "海獭回来后吃掉海胆，海藻林（kelp forests）重新长出来，所以海獭被称为 keystone species。" },
+          { "no": 39, "prompt": "Kelp can grow by up to 60 centimetres in a single ___.", "answer": ["day"], "segment": 10,
+            "explanation": "条件好时海藻一天（in a single day）最多能长 60 厘米。" },
+          { "no": 40, "prompt": "Healthy kelp forests also store ___, which may help to slow climate change.", "answer": ["carbon"], "segment": 11,
+            "explanation": "像陆地森林一样，海藻林能吸收并储存碳（carbon），可能有助于减缓气候变化。fish 是另一个好处（为鱼类提供栖息地），不是这一空。" }
+        ]
+      }
+    ]
+  }
+]

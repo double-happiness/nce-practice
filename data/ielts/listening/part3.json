@@ -1,0 +1,216 @@
+[
+  {
+    "id": "l3-cycling-survey",
+    "part": 3,
+    "title": "A survey on cycling to campus",
+    "titleCn": "学生骑车上学情况调查",
+    "intro": "Part 3. You will hear two students, Ben and Aisha, talking to their tutor, Dr Lewis, about their survey project.",
+    "speakers": [
+      { "id": "tutor", "name": "Dr Lewis", "gender": "female" },
+      { "id": "ben", "name": "Ben", "gender": "male" },
+      { "id": "aisha", "name": "Aisha", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "tutor", "text": "Come in, Ben, Aisha. So, you wanted to talk about your project on cycling to campus. How's it going?" },
+      { "speaker": "ben", "text": "Pretty well, I think. We've finished collecting the data, and we've started looking at the results." },
+      { "speaker": "tutor", "text": "Good. Remind me why you chose this topic in the first place. I know you cycle in every day, Ben." },
+      { "speaker": "ben", "text": "I do, but Aisha doesn't, so it wasn't really personal. And there was a rumour that the university was going to build a new car park, but that plan was dropped months ago." },
+      { "speaker": "aisha", "text": "What really got us interested was a report from the students' union. It said that only eight per cent of students cycle to campus, even though most of them live quite close." },
+      { "speaker": "tutor", "text": "Yes, I remember that report. It was quite surprising. So, how did the questionnaire go?" },
+      { "speaker": "aisha", "text": "Well, we were worried that not enough people would fill it in, but we got over two hundred responses, so that was fine. And it only took about five minutes to complete." },
+      { "speaker": "ben", "text": "The problem was question six. We asked how often people cycle regularly, and lots of people misunderstood it. Some thought it meant every day, and others thought it meant once a month." },
+      { "speaker": "tutor", "text": "That happens a lot with words like regularly. I wouldn't repeat the whole survey, though. There isn't time, and the other questions worked well. And you don't need to cut any questions, either. What I'd suggest is doing a few follow-up interviews with some of the people who answered. That would help you explain the numbers." },
+      { "speaker": "aisha", "text": "That's a good idea. Several people left their email addresses, so we could contact them." },
+      { "speaker": "tutor", "text": "Now, what did you find out about the reasons people don't cycle?" },
+      { "speaker": "ben", "text": "It varied a lot between different groups. With first-year students, the main issue was money. Most of them have just moved here, and they simply can't afford to buy a bike." },
+      { "speaker": "aisha", "text": "For international students, it was quite different. Many of them said they were nervous about cycling on busy roads, especially in a country where people drive on the other side." },
+      { "speaker": "tutor", "text": "That makes sense. What about the postgraduates?" },
+      { "speaker": "ben", "text": "They were interesting. A lot of them work long hours in the labs, and they said they'd cycle if they could get changed after the ride. But there's nowhere to have a shower on campus." },
+      { "speaker": "aisha", "text": "And then there were the students who live off campus. We expected them to say it was too far, but most of them live less than five kilometres away. What they actually complained about was bikes being stolen. They said there's no secure place to leave a bike." },
+      { "speaker": "tutor", "text": "And the weather? This is England, after all." },
+      { "speaker": "ben", "text": "Surprisingly, hardly anyone mentioned it." },
+      { "speaker": "tutor", "text": "So, what happens next?" },
+      { "speaker": "aisha", "text": "We'd like to share what we've found with people who can actually change things. We thought about the students' union, but in the end we decided to present our findings to the university's transport committee, because they control the budget." },
+      { "speaker": "ben", "text": "And Aisha's going to make a map showing where all the respondents live, so we can see how far people actually travel." },
+      { "speaker": "tutor", "text": "That will be very useful. Just remember the length of the final report. A lot of students think it's five thousand words, but the limit for this module is 3,000 words." },
+      { "speaker": "aisha", "text": "Oh, we'd better cut a few sections, then. Thanks, Dr Lewis." },
+      { "speaker": "tutor", "text": "You're welcome. Good luck with it." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 21, "prompt": "Why did the students choose this topic?",
+            "options": [
+              { "key": "A", "text": "They both cycle to university." },
+              { "key": "B", "text": "The university was planning a new car park." },
+              { "key": "C", "text": "They had read a report about student travel." }
+            ],
+            "answer": ["C"], "segment": 4, "evidence": "a report from the students' union",
+            "explanation": "只有 Ben 骑车（排除 A），建停车场只是传闻且早已取消（排除 B）；What really got us interested 引出真正原因：学生会的一份报告。" },
+          { "no": 22, "prompt": "What problem did they have with their questionnaire?",
+            "options": [
+              { "key": "A", "text": "Too few students completed it." },
+              { "key": "B", "text": "One of the questions was misunderstood." },
+              { "key": "C", "text": "It took too long to complete." }
+            ],
+            "answer": ["B"], "segment": 7, "evidence": "lots of people misunderstood it",
+            "explanation": "收到两百多份回复（排除 A），五分钟就能填完（排除 C）；问题出在第六题 regularly 被很多人理解错。" },
+          { "no": 23, "prompt": "What does the tutor suggest they should do?",
+            "options": [
+              { "key": "A", "text": "interview some of the respondents" },
+              { "key": "B", "text": "repeat the survey next term" },
+              { "key": "C", "text": "reduce the number of questions" }
+            ],
+            "answer": ["A"], "segment": 8, "evidence": "doing a few follow-up interviews",
+            "explanation": "导师说不用重做调查（排除 B），也不用删题（排除 C）；建议对部分答卷人做 follow-up interviews。respondents = the people who answered。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 10,
+        "instruction": "What was the main reason each group gave for not cycling? Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 24-27.",
+        "optionsTitle": "Reasons",
+        "options": [
+          { "key": "A", "text": "no safe place to leave a bike" },
+          { "key": "B", "text": "no showers on campus" },
+          { "key": "C", "text": "the cost of a bike" },
+          { "key": "D", "text": "fear of traffic" },
+          { "key": "E", "text": "the distance from home" },
+          { "key": "F", "text": "bad weather" }
+        ],
+        "questions": [
+          { "no": 24, "prompt": "first-year students", "answer": ["C"], "segment": 11, "evidence": "can't afford to buy a bike",
+            "explanation": "大一学生的主要问题是钱：买不起自行车，对应 the cost of a bike。" },
+          { "no": 25, "prompt": "international students", "answer": ["D"], "segment": 12, "evidence": "nervous about cycling on busy roads",
+            "explanation": "国际学生怕在繁忙道路上骑车（nervous ≈ fear，busy roads ≈ traffic）。" },
+          { "no": 26, "prompt": "postgraduate students", "answer": ["B"], "segment": 14, "evidence": "nowhere to have a shower",
+            "explanation": "研究生想骑完车换衣服，但校内没有地方洗澡。" },
+          { "no": 27, "prompt": "students living off campus", "answer": ["A"], "segment": 15, "evidence": "no secure place to leave a bike",
+            "explanation": "原以为是距离太远（E 干扰），但他们大多住在 5 公里内；真正抱怨的是车被偷、没有安全的停车处。天气（F）几乎没人提。" }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "from": 18,
+        "instruction": "Complete the sentences below.",
+        "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+        "questions": [
+          { "no": 28, "prompt": "The students will present their findings to the university's ___.", "answer": ["transport committee"], "segment": 19,
+            "explanation": "考虑过学生会（干扰），最后决定向 transport committee 汇报，因为它管预算。两个词都要拼对。" },
+          { "no": 29, "prompt": "Aisha will make a ___ showing where the respondents live.", "answer": ["map"], "segment": 20,
+            "explanation": "Ben 说 Aisha 要做一张 map，标出所有答卷人住在哪里。" },
+          { "no": 30, "prompt": "The final report must not be longer than ___ words.", "answer": ["3000", "three thousand"], "segment": 21,
+            "explanation": "很多学生以为是五千词（干扰），本模块上限是 3,000 词。写 3000、3,000 或 three thousand 都算对。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l3-food-waste",
+    "part": 3,
+    "title": "Planning a presentation on food waste",
+    "titleCn": "准备超市食物浪费的课堂展示",
+    "intro": "Part 3. You will hear two students, Megan and Ravi, planning a presentation about food waste in supermarkets.",
+    "speakers": [
+      { "id": "megan", "name": "Megan", "gender": "female" },
+      { "id": "ravi", "name": "Ravi", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "megan", "text": "Hi, Ravi. Have you got a few minutes to plan our presentation on food waste?" },
+      { "speaker": "ravi", "text": "Sure. I've been reading the articles our tutor gave us. Some of the figures are shocking." },
+      { "speaker": "megan", "text": "I know. The one that surprised me most was that in many countries, households throw away more food than shops and restaurants put together. I'd always assumed supermarkets were the main problem." },
+      { "speaker": "ravi", "text": "Me too. But supermarkets still matter, because their decisions affect what people buy. That's why I think we should focus on them." },
+      { "speaker": "megan", "text": "Agreed. So, how should we start? I thought we could open with a photo of a full rubbish bin behind a store." },
+      { "speaker": "ravi", "text": "Hmm, everyone uses photos like that. What about starting with a short quiz? We could ask the audience to guess how much food is wasted in this country every year." },
+      { "speaker": "megan", "text": "That would get people involved. OK, let's do that." },
+      { "speaker": "ravi", "text": "Then we need to explain why supermarkets waste food. One big reason is the best before dates. Shops take products off the shelves well before they're unsafe to eat." },
+      { "speaker": "megan", "text": "And another is appearance. Supermarkets reject fruit and vegetables with an unusual shape, even though they taste exactly the same." },
+      { "speaker": "ravi", "text": "Right. Then we need some examples of what supermarkets are doing about it. I looked at three chains." },
+      { "speaker": "megan", "text": "Go on." },
+      { "speaker": "ravi", "text": "The first one, FreshWay, has started selling boxes of ugly vegetables at a lower price. It sounds great, but sales have been disappointing, because the boxes can only be ordered online, and most of their customers still shop in person." },
+      { "speaker": "megan", "text": "That's a shame. What about the second one?" },
+      { "speaker": "ravi", "text": "Corner Market gives unsold food to local charities at the end of each day. The food itself is fine, and the staff are happy to organise it. But the charities say they often can't collect it in time, so some of it still gets thrown away." },
+      { "speaker": "megan", "text": "And the third?" },
+      { "speaker": "ravi", "text": "Bellmont's uses an app. Customers can buy bags of food that's close to its date for about a third of the normal price. It's been especially popular with students." },
+      { "speaker": "megan", "text": "Students are always looking for a bargain! But that's not really the point. I think we should spend most of our time on Bellmont's, because it actually works. The other two are good ideas, but the results aren't there yet." },
+      { "speaker": "ravi", "text": "Agreed." },
+      { "speaker": "megan", "text": "So, let's divide up the work. I'm happy to design the slides, if you like." },
+      { "speaker": "ravi", "text": "Actually, you did them last time. Let me do the slides this time, and you can check them before we present." },
+      { "speaker": "megan", "text": "Fine. Then I'll look for some recent statistics. Most of the figures in our articles are at least five years old." },
+      { "speaker": "ravi", "text": "Good idea. And it would be great to speak to someone who actually works in a supermarket. My cousin is a manager at Bellmont's. I'll send him an email tonight." },
+      { "speaker": "megan", "text": "Perfect. And we should both practise the whole presentation together at least twice, so we know we can finish in fifteen minutes." },
+      { "speaker": "ravi", "text": "Definitely. Let's meet in the library on Thursday." }
+    ],
+    "groups": [
+      {
+        "type": "sentence-completion",
+        "from": 0,
+        "instruction": "Complete the sentences below.",
+        "wordLimit": "NO MORE THAN TWO WORDS",
+        "questions": [
+          { "no": 21, "prompt": "Megan was surprised that ___ waste more food than shops and restaurants put together.", "answer": ["households"], "segment": 2,
+            "explanation": "让 Megan 意外的是：在很多国家，households（家庭）扔掉的食物比商店和餐馆加起来还多。她原以为超市是主要问题。" },
+          { "no": 22, "prompt": "Ravi suggests starting the presentation with a ___.", "answer": ["quiz", "short quiz"], "segment": 5,
+            "explanation": "Megan 想用垃圾桶照片开场，Ravi 觉得太常见，建议用 a short quiz 让观众猜浪费量。quiz 或 short quiz 都不超过两个词。" },
+          { "no": 23, "prompt": "Supermarkets often reject vegetables because of their ___.", "answer": ["shape", "unusual shape", "appearance"], "segment": 8,
+            "explanation": "超市因为外观（appearance）拒收形状不规则（unusual shape）的蔬果，尽管味道一样。三种写法都符合句意。" }
+        ]
+      },
+      {
+        "type": "mcq",
+        "from": 9,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 24, "prompt": "What does Ravi say about FreshWay's scheme?",
+            "options": [
+              { "key": "A", "text": "It has been very popular." },
+              { "key": "B", "text": "It is not easy for most customers to use." },
+              { "key": "C", "text": "It has made the shop's prices lower." }
+            ],
+            "answer": ["B"], "segment": 11, "evidence": "the boxes can only be ordered online",
+            "explanation": "销量令人失望（排除 A）；原因是只能网上订购，而大多数顾客仍在店里购物，对多数人来说用不上。lower price 只指这些蔬菜盒，不是全店降价（排除 C）。" },
+          { "no": 25, "prompt": "What is the main problem with Corner Market's scheme?",
+            "options": [
+              { "key": "A", "text": "The food is often of poor quality." },
+              { "key": "B", "text": "Charities cannot always collect the food." },
+              { "key": "C", "text": "Staff do not have time to organise it." }
+            ],
+            "answer": ["B"], "segment": 13, "evidence": "they often can't collect it in time",
+            "explanation": "食物没问题（排除 A），员工也乐意安排（排除 C）；问题是慈善机构经常来不及取。注意 in time 不是指员工没时间。" },
+          { "no": 26, "prompt": "Why do the students decide to focus on Bellmont's scheme?",
+            "options": [
+              { "key": "A", "text": "It has produced good results." },
+              { "key": "B", "text": "It is the cheapest scheme to run." },
+              { "key": "C", "text": "It is aimed at young people." }
+            ],
+            "answer": ["A"], "segment": 16, "evidence": "because it actually works",
+            "explanation": "受学生欢迎只是附带情况（Megan 说 that's not really the point，C 干扰）；重点讲它是因为 it actually works，其他两个还没有成效。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 18,
+        "instruction": "Who will do each of the following tasks? Write the correct letter, A, B or C, next to Questions 27-30.",
+        "optionsTitle": "People",
+        "options": [
+          { "key": "A", "text": "Megan" },
+          { "key": "B", "text": "Ravi" },
+          { "key": "C", "text": "both Megan and Ravi" }
+        ],
+        "questions": [
+          { "no": 27, "prompt": "design the slides", "answer": ["B"], "segment": 19, "evidence": "Let me do the slides this time",
+            "explanation": "Megan 主动提出做幻灯片，但 Ravi 说上次是她做的，这次他来，Megan 负责检查。先提议的人不一定是最终负责人。" },
+          { "no": 28, "prompt": "find up-to-date figures", "answer": ["A"], "segment": 20, "evidence": "I'll look for some recent statistics",
+            "explanation": "Megan 去找最新数据（recent statistics ≈ up-to-date figures），因为文章里的数据至少五年前了。" },
+          { "no": 29, "prompt": "contact a supermarket manager", "answer": ["B"], "segment": 21, "evidence": "I'll send him an email tonight",
+            "explanation": "Ravi 的表哥是 Bellmont's 的经理，Ravi 今晚给他发邮件。" },
+          { "no": 30, "prompt": "rehearse the presentation", "answer": ["C"], "segment": 22, "evidence": "we should both practise the whole presentation together",
+            "explanation": "两人要一起完整排练至少两次（both … together），选 C。rehearse ≈ practise。" }
+        ]
+      }
+    ]
+  }
+]
