@@ -1,0 +1,194 @@
+[
+  {
+    "id": "s1-weekends",
+    "part": 1,
+    "topic": "Weekends",
+    "topicCn": "周末",
+    "questions": [
+      { "q": "What do you usually do at weekends?", "sample": "Saturdays are usually for my hobbies. If the light is good, I'll take my camera around the old town in the morning, and in the afternoon I might meet friends for lunch or go hiking. Sundays are much quieter. I do the housework, cook something proper and try to get to bed early, so Monday doesn't come as a shock." },
+      { "q": "Do you prefer busy weekends or relaxing ones?", "sample": "A mix of both, ideally. If I spend the whole weekend on the sofa, I feel oddly guilty by Sunday evening, as if I've wasted it. But when every hour is planned, I go back to work more tired than before. So my rule is one plan per day, and the rest of the time stays free for whatever I feel like doing." },
+      { "q": "What did you do last weekend?", "sample": "It was fairly ordinary, but in a good way. On Saturday morning I had my guitar lesson, which is still quite a humbling experience, because my fingers refuse to do what I tell them. In the afternoon I wandered around a flea market with my camera. Then on Sunday my flatmate and I made hot pot and watched a film." },
+      { "q": "Do people in your country have enough time off at weekends?", "sample": "Not everyone. Office workers like me usually get two full days, although work messages still pop up on Saturdays. But plenty of people in shops, restaurants and factories work six days a week, and some young people put in extra hours voluntarily to get ahead. So a proper two-day weekend is still something of a privilege, unfortunately." }
+    ]
+  },
+  {
+    "id": "s1-mornings",
+    "part": 1,
+    "topic": "Mornings",
+    "topicCn": "早晨",
+    "questions": [
+      { "q": "Are you a morning person?", "sample": "Not naturally. My body would happily sleep until nine every day. But over the past year I've trained myself to get up at half past six, because the early morning is the only time nobody messages me about work. I still need a strong coffee before I can hold a proper conversation, though, so my flatmate knows not to talk to me too soon." },
+      { "q": "What do you usually have for breakfast?", "sample": "On weekdays it's nothing fancy, usually a steamed bun or a pancake from a stall near the metro station, plus a coffee. At weekends I take my time and make something warm, like rice porridge with a fried egg. My mum always says breakfast is the most important meal of the day, so she'd be horrified to know how often I eat mine while walking to the office." },
+      { "q": "What were your mornings like when you were a child?", "sample": "Pretty hectic. My mum would wake me at half past six, and I'd have about fifteen minutes to wash, get dressed and eat a bowl of noodles. Then I'd walk to school with two kids from our building, stopping to buy a fried dough stick on the way. We always seemed to arrive just as the bell was ringing." },
+      { "q": "Do you think getting up early helps people succeed?", "sample": "To some extent. Getting up early gives you quiet time before the day gets busy, and that can make a big difference. But I don't think the hour itself is magic. Some people genuinely think better at night, and forcing them to wake at five probably just makes them tired. What matters more is having a regular routine that suits you." }
+    ]
+  },
+  {
+    "id": "s1-gifts",
+    "part": 1,
+    "topic": "Gifts",
+    "topicCn": "礼物",
+    "questions": [
+      { "q": "Do you like giving gifts?", "sample": "Yes, I do, but I find it surprisingly stressful. I always want a gift to feel personal rather than something grabbed at the last minute, so I spend ages thinking about it. When it works, though, it's very satisfying. Last year I gave my cousin Xiaoyu a set of proper drawing pens, and he still uses them almost every day." },
+      { "q": "What kind of gifts do you usually give your parents?", "sample": "Mostly practical things, because they feel awkward about anything too expensive. Last time I went home, I took them a good-quality tea set and some local snacks from the city where I live. What they really appreciate, though, is when I simply turn up at the door for a few days. My mum always says that's the only gift she needs." },
+      { "q": "Do you prefer giving or receiving gifts?", "sample": "Giving, definitely. When I receive a gift, I never know how to react, especially if someone is watching me open it. I'm terrible at hiding disappointment and equally bad at showing excitement, so it gets a bit awkward. When I'm the one giving, I get to enjoy the other person's reaction without any of that pressure." },
+      { "q": "Is it difficult to choose gifts for other people?", "sample": "It can be, especially for people who already have everything they need, like my manager or older relatives. Online shopping has made it easier to find unusual things, but it's also made choosing harder, because there are thousands of options. These days I often just ask what someone needs. It's less romantic, but at least the gift actually gets used." }
+    ]
+  },
+  {
+    "id": "s1-letters-emails",
+    "part": 1,
+    "topic": "Letters & Emails",
+    "topicCn": "书信与电子邮件",
+    "questions": [
+      { "q": "Do you often write emails?", "sample": "Yes, every day at work. Most of them are fairly short, like confirming a meeting or sending a client a revised plan. With overseas clients I write in English, which used to take me ages, because I'd check every sentence twice. It's much quicker now. For personal things, though, I almost never use email. Everyone just sends messages on WeChat." },
+      { "q": "When did you last write a letter by hand?", "sample": "About a year ago, actually. I wrote a thank-you letter to a taxi company after one of their drivers found my phone and brought it back to me. Typing it out just didn't feel right. Before that, I'd have to go back to secondary school, when our class wrote to pen pals in another province as part of a project." },
+      { "q": "Do you prefer receiving emails or letters?", "sample": "Letters, without a doubt, although I hardly ever get any. Apart from bills, my letterbox is empty most of the time. A handwritten letter shows that someone has spent real time on you, which an email can't really match. Emails, by contrast, usually mean more work. Whenever a new one arrives, my first thought is, what do they want now?" },
+      { "q": "Do you think people will still send letters in the future?", "sample": "Probably, but mainly on special occasions. For everyday communication, letters are simply too slow. However, I can imagine handwritten letters becoming even more meaningful because they're so rare, a bit like vinyl records making a comeback. Couples might still write love letters, and some parents write letters for their children to open when they grow up." }
+    ]
+  },
+  {
+    "id": "s1-hats",
+    "part": 1,
+    "topic": "Hats",
+    "topicCn": "帽子",
+    "questions": [
+      { "q": "Do you often wear hats?", "sample": "Only for practical reasons. In summer I wear a baseball cap when I'm out taking photos, because the sun in my city is fierce, and in winter I've got a woolly hat for really cold days. Otherwise I avoid them. My hair always ends up flat and messy afterwards, which isn't ideal when I'm heading into the office." },
+      { "q": "Did you wear hats when you were a child?", "sample": "Yes, and not by choice. My grandmother knitted me a bright red hat with a bobble on top, and my mum made me wear it every winter until I was about ten. The other kids teased me about it constantly. Looking back, it was actually rather cute, and I wish I still had it, but at the time I was so embarrassed." },
+      { "q": "What kinds of hats are popular in your country?", "sample": "Baseball caps are everywhere, especially among young people, and in winter you see lots of knitted hats. In summer, many people wear wide sun hats, because pale skin is still widely seen as attractive, so they try hard to avoid getting a tan. In the countryside, you'll also see farmers in woven straw hats, which are cheap and keep the sun off really well." },
+      { "q": "Do you think a hat can show someone's personality?", "sample": "It can, because a hat is one of the first things people notice. Someone in a bright beret is clearly making a statement, while a plain cap suggests the wearer would rather stay unnoticed. That's probably why I stick to plain ones. But hats are less common in daily life than they used to be, so for most people, clothes and shoes say far more." }
+    ]
+  },
+  {
+    "id": "s1-boats",
+    "part": 1,
+    "topic": "Boats",
+    "topicCn": "船",
+    "questions": [
+      { "q": "Have you ever travelled by boat?", "sample": "Yes, a few times. The most memorable was a sightseeing cruise along the river in my city last spring, when my parents came to visit. It only took about an hour, but seeing the skyline from the water felt completely different from seeing it from the streets. As a teenager, I also took a ferry to an island off the coast, which was much bumpier." },
+      { "q": "Do you enjoy travelling by boat?", "sample": "On calm water, yes. There's something relaxing about sitting on deck with the wind in your face and nothing to do but watch the scenery go by. On the open sea, though, it's a different story. I get seasick quite easily, so I'd only choose a boat if there were no bridge or plane to get me where I needed to go." },
+      { "q": "Are boats important in your city?", "sample": "Less than they used to be. A century ago, the river was the main route for moving goods, and there were docks all along the bank. Most of those have closed, and one has even become a park. Today, apart from a few cargo boats, the river is mainly used for sightseeing cruises, especially in the evening, when the bridges are lit up." },
+      { "q": "Would you like to go on a cruise?", "sample": "I'm not sure. Waking up somewhere new each morning sounds appealing, but I'd worry about feeling trapped on a ship with thousands of other people. And given how easily I get seasick, a week at sea might be a disaster. I'd rather do a short river cruise through some gorges, where the water is calm and the scenery changes constantly." }
+    ]
+  },
+  {
+    "id": "s1-bikes",
+    "part": 1,
+    "topic": "Bikes",
+    "topicCn": "自行车",
+    "questions": [
+      { "q": "When did you learn to ride a bike?", "sample": "When I was about seven. My dad taught me in the car park behind our building, running alongside me and holding the back of the seat. At some point he let go without telling me, and I rode quite a distance before realising I was on my own. Then I panicked and crashed straight into a hedge, which my dad still finds hilarious." },
+      { "q": "How often do you ride a bike now?", "sample": "A few times a week, but only short distances. I use shared bikes for errands, like going to the supermarket or the post office, when walking would take too long. I don't own a bike myself, partly because there's nowhere safe to keep one in my building. At weekends I sometimes cycle along the river path, which is lovely in autumn." },
+      { "q": "Is it safe to ride a bike in your city?", "sample": "It's safer than it used to be. Most main roads now have separate cycle lanes, sometimes with barriers between bikes and cars. The problem is electric scooters, which go surprisingly fast and often use the same lanes. I've had a few near misses with delivery riders in a hurry, so I always stay alert, especially at junctions." },
+      { "q": "Do you think more people will cycle in the future?", "sample": "In cities, probably. Shared bikes have made cycling so convenient that you don't even need to own one, and local governments keep building more cycle lanes. Concerns about pollution and health are pushing people in the same direction. Still, in summer, when it's thirty-five degrees and humid, I suspect most people will stick to the air-conditioned metro." }
+    ]
+  },
+  {
+    "id": "s1-singing",
+    "part": 1,
+    "topic": "Singing",
+    "topicCn": "唱歌",
+    "questions": [
+      { "q": "Do you like singing?", "sample": "I love singing, but only when nobody can hear me. In the shower or alone in the kitchen, I'm a superstar. In front of other people, my voice suddenly becomes thin and shaky. I suppose it's a confidence thing. The only exception is at a concert, where thousands of people are singing anyway, so nobody can tell how out of tune I am." },
+      { "q": "Do you often go to karaoke?", "sample": "Maybe three or four times a year, usually after a team dinner or for someone's birthday. Karaoke is hugely popular in China, and you book a private room with a big screen and a sofa, so only your friends are listening. Even so, I'm usually the one choosing songs for other people and shaking the tambourine, rather than holding the microphone myself." },
+      { "q": "Did you learn to sing at school?", "sample": "Yes, we had music lessons once a week at primary school. We mainly learned children's songs and a few folk songs, all sung together as a class. Our teacher played an old piano that was slightly out of tune, which probably didn't help. Every year there was also a singing competition between classes, and we had to rehearse for weeks beforehand." },
+      { "q": "Why do you think so many people enjoy singing?", "sample": "I think it's a great release. When you sing, you have to breathe deeply and focus on the music, so for a few minutes you forget your worries. Singing with others also creates a strong sense of togetherness, which explains why it's part of so many celebrations. And unlike most hobbies, it costs nothing. You don't need any equipment at all, just your voice." }
+    ]
+  },
+  {
+    "id": "s1-dancing",
+    "part": 1,
+    "topic": "Dancing",
+    "topicCn": "跳舞",
+    "questions": [
+      { "q": "Do you like dancing?", "sample": "Not really, mainly because I'm terrible at it. I have no sense of rhythm, and my arms and legs never seem to agree on what they're doing. At my company's annual dinner, I usually find a reason to be at the dessert table when the dancing starts. That said, I love watching good dancers, because they make it look effortless." },
+      { "q": "Have you ever learned to dance?", "sample": "Only once, briefly. A couple of years ago, a colleague persuaded me to join a beginners' Latin dance class after work. I lasted about four weeks. The teacher was very patient, but I kept stepping on my partner's feet, and I was always half a beat behind the music. I learned a lot about humility, if not much about salsa." },
+      { "q": "Is square dancing popular where you live?", "sample": "Very popular, especially among retired women. Every evening, groups gather in squares, parks and even car parks with a portable speaker and dance to the same songs in neat rows. It's great exercise and very sociable. The only issue is the volume. Some residents near the park by my flat complained, so now the music has to be turned down after nine." },
+      { "q": "Do you think dancing is good exercise?", "sample": "Definitely. It works your whole body and improves balance and coordination, and it's much more fun than running on a treadmill. Because there's music and usually other people involved, it doesn't feel like exercise, so people tend to stick with it. I've noticed that the women who dance in the park every evening look remarkably fit for their age." }
+    ]
+  },
+  {
+    "id": "s1-mirrors",
+    "part": 1,
+    "topic": "Mirrors",
+    "topicCn": "镜子",
+    "questions": [
+      { "q": "Do you often look in the mirror?", "sample": "Only when I have to, really. I check my hair and make sure there's no toothpaste on my face before leaving home, and that's about it. Before a client presentation I might take a slightly longer look, but otherwise I hardly notice mirrors. My flatmate is quite the opposite and could easily spend twenty minutes in front of one." },
+      { "q": "How many mirrors are there in your home?", "sample": "Let me think. There's one in the bathroom above the sink, a full-length one by the front door and a small one in each bedroom, so four altogether. The one by the door is the most useful, because I can check my whole outfit before going out. It also makes our narrow hallway feel a bit bigger and brighter." },
+      { "q": "Why do some shops and restaurants have large mirrors on their walls?", "sample": "Mainly to make the space look larger. Many restaurants in my city are quite narrow, and a wall of mirrors can make them feel twice the size. Clothes shops obviously need them so customers can see how things look. I've also read that some small shops use mirrors to help staff keep an eye on the whole room, which is quite clever." },
+      { "q": "Are there any traditional beliefs about mirrors in your country?", "sample": "Yes, a few. Some people believe a mirror shouldn't face the bed, because it might disturb your sleep or bring bad luck. In feng shui, mirrors are also thought to reflect away bad energy, so you sometimes see small round ones above doorways. My grandmother still won't let anyone hang a mirror opposite her front door, just in case." }
+    ]
+  },
+  {
+    "id": "s1-sky-stars",
+    "part": 1,
+    "topic": "Sky & Stars",
+    "topicCn": "天空与星星",
+    "questions": [
+      { "q": "Do you often look at the sky?", "sample": "More than most people, probably, because of my photography. I'm always checking the sky to see whether the light will be good, especially around sunset. In the city, though, you rarely notice it unless you make an effort, since it's hidden behind tall buildings. From our balcony I get a decent view, so I sometimes watch the clouds there after work." },
+      { "q": "Can you see many stars where you live?", "sample": "Hardly any. Between the street lights, the advertising screens and the haze, you're lucky to spot more than a handful on a clear night. The last time I saw a really starry sky was on a team-building trip to a mountain village, and I couldn't stop staring. It made me realise how much city people are missing." },
+      { "q": "Did you learn about the stars when you were a child?", "sample": "A little. My grandfather knew a few constellations, and on summer nights at my grandparents' house he'd point them out to me. I mostly remember the Big Dipper and the story of the Cowherd and the Weaver Girl, two lovers separated by the Milky Way who can only meet once a year. Sadly, I've forgotten most of the rest." },
+      { "q": "Would you like to go stargazing in the future?", "sample": "Yes, very much. I'd love to try photographing the night sky, which needs a dark location, a tripod and a lot of patience. Somewhere in the desert would be ideal, because there's almost no light pollution. I'm hoping to do it on my trip to the north-west next autumn, if the weather cooperates and I can stay awake long enough." }
+    ]
+  },
+  {
+    "id": "s1-noise",
+    "part": 1,
+    "topic": "Noise",
+    "topicCn": "噪音",
+    "questions": [
+      { "q": "Is the area where you live noisy?", "sample": "Fairly noisy, yes. My building is on a main road, so there's traffic from early morning until late at night, and the lorries heading to construction sites can be really loud. Living on the twelfth floor helps a bit, and our windows are double-glazed. Most of the time I don't notice it, but on hot nights with the windows open, it's hard to sleep." },
+      { "q": "What kinds of noise do you find annoying?", "sample": "Repetitive sounds drive me crazy, like a dripping tap or someone clicking a pen during a meeting. I also find it hard to tolerate people watching videos without headphones on the metro. It's become surprisingly common, and you end up listening to someone else's comedy show for twenty minutes. Strangely, loud thunder doesn't bother me at all." },
+      { "q": "Can you concentrate in a noisy place?", "sample": "Not very well. When I'm writing something important, like a campaign proposal, even background chatter breaks my focus. Our office is open-plan, so I rely on noise-cancelling headphones for most of the day. Oddly, though, I can read quite happily in a busy cafe, as long as nobody nearby is talking about work. Random chatter just blends into a comfortable hum." },
+      { "q": "Were you a noisy child?", "sample": "According to my parents, extremely noisy. Apparently I sang, shouted and banged pots and pans together until the neighbours complained. Things changed when I started school, and by my teens I'd become quite shy and quiet. My mum still jokes that I used up all my noise before the age of six and had none left for later." }
+    ]
+  },
+  {
+    "id": "s1-crowded-places",
+    "part": 1,
+    "topic": "Crowded Places",
+    "topicCn": "拥挤的地方",
+    "questions": [
+      { "q": "Do you mind being in crowded places?", "sample": "It depends on the situation. At a concert or a festival, crowds are part of the fun, and the energy can be amazing. But in everyday situations, like a packed metro carriage at rush hour, I find them draining. Being pressed against strangers with no room to move makes me tense, so I often catch an earlier train just to get a seat." },
+      { "q": "What crowded place have you been to recently?", "sample": "The busiest was probably the railway station during the National Day holiday. I went home to see my parents, and it seemed as if half the country was travelling at the same time. The waiting hall was so full that people were sitting on their suitcases in the corridors. My train left on time, luckily, but just getting to the platform took twenty minutes." },
+      { "q": "When is your city most crowded?", "sample": "During public holidays, without a doubt. Tourists from all over the country come to see the old town, and the main shopping streets get so packed that you can barely walk. The Lantern Festival is especially busy. Weekday rush hours are bad too, of course, but those crowds move quickly, whereas holiday crowds just stand still taking photos." },
+      { "q": "Why do some people enjoy crowded places?", "sample": "I think crowds give people a feeling of excitement and belonging. A busy night market or a packed stadium has an atmosphere you simply can't get in an empty space. For some people, especially those who live alone, being surrounded by others is also a way of feeling less lonely. And a crowd suggests something is popular, which reassures people they're in the right place." }
+    ]
+  },
+  {
+    "id": "s1-advertisements",
+    "part": 1,
+    "topic": "Advertisements",
+    "topicCn": "广告",
+    "questions": [
+      { "q": "Do you pay attention to advertisements?", "sample": "Probably more than most people, because I work in marketing. When I see an ad on the metro, I can't help analysing it, thinking about who it's aimed at and whether the slogan works. My friends find it a bit annoying. As an ordinary consumer, though, I've become pretty good at ignoring adverts, especially the ones that pop up before online videos." },
+      { "q": "What kind of advertisements do you like?", "sample": "I like ads that tell a small story rather than just listing features. Some of the best ones I've seen are short films released before the Spring Festival, about families getting together after a long time apart. They hardly mention the product at all, but they leave you with a warm feeling. Funny ads work on me too, as long as the humour isn't too obvious." },
+      { "q": "Have you ever bought something because of an advertisement?", "sample": "Yes, more than once. The most recent was a memory foam pillow that promised to fix my neck pain. The advert showed someone waking up looking incredibly refreshed, and I fell for it straight away. It's comfortable enough, but I certainly don't wake up looking like a model. Knowing how marketing works clearly doesn't make you immune to it." },
+      { "q": "Do you think there are too many advertisements nowadays?", "sample": "Yes, definitely. They're on buses, in lifts, on the backs of taxi seats and even on screens in public toilets. Online it's worse, because ads are personalised, so they follow you from one app to another based on what you've searched for. As someone in the industry, I understand why companies do it, but I think there should be stricter limits on using personal data." }
+    ]
+  },
+  {
+    "id": "s1-puzzles",
+    "part": 1,
+    "topic": "Puzzles",
+    "topicCn": "益智谜题",
+    "questions": [
+      { "q": "Do you like doing puzzles?", "sample": "Yes, especially number puzzles and logic games. I have a sudoku app on my phone, and I sometimes do one on the metro in the morning. It's a nice way to wake my brain up before work. I'm less keen on jigsaw puzzles, though. I find them a bit slow, and I always lose patience once only the sky pieces are left." },
+      { "q": "What puzzles did you do as a child?", "sample": "I was obsessed with a Rubik's Cube for a while, around the age of eleven. I learned to solve it from a little booklet and practised until I could do it in about two minutes, which I thought was incredibly impressive. I also loved the riddles printed at the back of children's magazines, and I always tried to solve them before my cousins did." },
+      { "q": "Do you think puzzles are good for the brain?", "sample": "I believe so, although maybe not as much as the apps claim. Puzzles train you to notice patterns, stay patient and try a different approach when the first one fails. For older people, they may help keep the mind sharp, which is partly why the community centre in my grandmother's town runs puzzle afternoons for retired people." },
+      { "q": "Are puzzles popular in your country?", "sample": "Quite popular, in different forms. Escape rooms and murder mystery games are a big trend among young people, who spend whole evenings solving clues together. Traditional ones are still around too, like the riddles hung under lanterns at the Lantern Festival. And on any train, you'll see people of all ages playing puzzle games on their phones to kill time." }
+    ]
+  },
+  {
+    "id": "s1-teachers",
+    "part": 1,
+    "topic": "Teachers",
+    "topicCn": "老师",
+    "questions": [
+      { "q": "Do you remember your first teacher?", "sample": "Yes, quite clearly. Her name was Ms Liu, and she taught us Chinese in our first year of primary school. She had a very soft voice, so the whole class had to be silent to hear her, which was probably her secret weapon. She gave out little red paper stars for neat handwriting, and I collected them like treasure." },
+      { "q": "Do you still keep in touch with any of your teachers?", "sample": "Yes, with Mr Zhou, my English teacher from secondary school. We message each other every Teachers' Day, and whenever I'm back in my hometown, I try to visit him. He's retired now and spends most of his time fishing. He still asks about my English, and I still feel slightly nervous answering, as if I were back in his classroom." },
+      { "q": "Would you like to be a teacher?", "sample": "I don't think I'd be good at it, at least not with children. Teachers need endless patience, and they have to manage forty kids with completely different needs. I do enjoy training new colleagues at work, though, because they actually want to learn. So maybe one day I could teach adults, perhaps a short evening course on marketing." },
+      { "q": "Is teaching a popular job in your country?", "sample": "Fairly popular, yes, especially among graduates who want security. It's seen as a stable job with long holidays, which parents particularly like. However, the reality can be tough. Teachers deal with large classes, constant exams and pressure from anxious parents who message them at all hours. So it's a respected profession, but it's certainly not an easy option." }
+    ]
+  }
+]
