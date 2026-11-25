@@ -1,0 +1,160 @@
+[
+  {
+    "id": "l1-library-card",
+    "part": 1,
+    "title": "Joining a public library",
+    "titleCn": "图书馆办理借书证",
+    "intro": "Part 1. You will hear a woman talking to a library assistant because she wants to join the library.",
+    "speakers": [
+      { "id": "owen", "name": "Owen (library assistant)", "gender": "male" },
+      { "id": "nadia", "name": "Nadia", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "owen", "text": "Good afternoon. Welcome to Marsh Hill Library. How can I help you?" },
+      { "speaker": "nadia", "text": "Hello. I'd like to join the library, please. I've just started working at the bakery across the road, and I thought I could borrow a few books in my lunch break." },
+      { "speaker": "owen", "text": "Good idea. It only takes a few minutes, and I'll type your details straight into the computer. Can I have your full name, please?" },
+      { "speaker": "nadia", "text": "Yes, it's Nadia Rossiter. That's R, O, double S, I, T, E, R." },
+      { "speaker": "owen", "text": "Thank you. And your date of birth?" },
+      { "speaker": "nadia", "text": "The ninth of November, nineteen ninety-six." },
+      { "speaker": "owen", "text": "Sorry, did you say the fifth? It's a bit noisy at the desk today." },
+      { "speaker": "nadia", "text": "No, the ninth. Nine." },
+      { "speaker": "owen", "text": "Got it. And what's your address?" },
+      { "speaker": "nadia", "text": "Well, my driving licence still has my old address in Leeds, but I moved down here last month. The new one is Flat 2, 31 Wellbrook Street. That's W, E, double L, B, R, O, O, K. It's in Kingsbury." },
+      { "speaker": "owen", "text": "Kingsbury? That's just outside our borough, but don't worry, I'll come back to that. Can I take a phone number?" },
+      { "speaker": "nadia", "text": "Sure. My mobile is 0 7 7 0 0, 9 0 0 2 7 4. Oh, sorry, I always do that. The end is 4 7, not 7 4. So that's 0 7 7 0 0, 9 0 0 2 4 7." },
+      { "speaker": "owen", "text": "Thanks. Now, I'll also need to see something with your new address on it. Have you got anything with you?" },
+      { "speaker": "nadia", "text": "I've got my phone bill here. Will that do?" },
+      { "speaker": "owen", "text": "I'm afraid we can't accept mobile phone bills. It needs to be a bank statement, or a bill for gas, water or electricity." },
+      { "speaker": "nadia", "text": "Oh, hang on. I haven't brought a bank statement, but I've got a water bill in my bag. It only arrived yesterday. Here you are." },
+      { "speaker": "owen", "text": "That's fine. Now, about the fee. Membership is free for anyone who lives in the borough, but as you live in Kingsbury, it would normally be £15 a year." },
+      { "speaker": "nadia", "text": "Oh, I didn't realise there was a charge." },
+      { "speaker": "owen", "text": "Hold on, though. You said you work at the bakery across the road, didn't you? In that case, you can have the reduced rate for people who work in the borough. That's only £8." },
+      { "speaker": "nadia", "text": "That's great. I'll pay by card, if that's OK." },
+      { "speaker": "owen", "text": "Of course. Right, here's your card. Now, let me quickly explain how borrowing works. You can take out up to 15 items at a time, and that includes DVDs and audiobooks." },
+      { "speaker": "nadia", "text": "And how long can I keep them?" },
+      { "speaker": "owen", "text": "Three weeks. After that, you can renew them online twice, as long as nobody else has reserved them." },
+      { "speaker": "nadia", "text": "Brilliant. Do you have any book clubs? I used to belong to one in Leeds." },
+      { "speaker": "owen", "text": "Yes, there's a reading group. It used to meet on Tuesday evenings, but too many people had other classes that night, so now it meets on the first Wednesday of each month, at seven." },
+      { "speaker": "nadia", "text": "I'll definitely come along. And can I use the computers?" },
+      { "speaker": "owen", "text": "Yes, members can use them free for up to two hours a day. We used to lend out headphones, but we stopped doing that last winter, so if you want to watch videos, please bring your own headphones." },
+      { "speaker": "nadia", "text": "No problem. Thanks so much for your help." },
+      { "speaker": "owen", "text": "You're welcome. Enjoy your books." }
+    ],
+    "groups": [
+      {
+        "type": "form-completion",
+        "from": 0,
+        "instruction": "Complete the form below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Marsh Hill Library - Membership form",
+        "questions": [
+          { "no": 1, "prompt": "Name: Nadia ___", "answer": ["Rossiter"], "segment": 3,
+            "explanation": "Nadia 逐个字母拼出 R, O, double S, I, T, E, R。double S 表示两个 s，写成 Rositer 判错。" },
+          { "no": 2, "prompt": "Date of birth: ___ November 1996", "answer": ["9", "9th", "ninth"], "segment": 7,
+            "explanation": "店员没听清，问是不是 the fifth（干扰），Nadia 纠正 No, the ninth。以纠正后的为准，写 9、9th 或 ninth 都算对。" },
+          { "no": 3, "prompt": "Address: Flat 2, 31 ___ Street, Kingsbury", "answer": ["Wellbrook"], "segment": 9,
+            "explanation": "驾照上的 Leeds 旧地址是干扰，填新地址的街名。Nadia 拼出 W, E, double L, B, R, O, O, K，注意两个 l 和两个 o。" },
+          { "no": 4, "prompt": "Mobile: 07700 ___", "answer": ["900247"], "segment": 11,
+            "explanation": "她先说成 900274，马上改口：结尾是 4 7 不是 7 4，正确号码是 900247。前缀 07700 题目已给出。请写成连续的 6 位数字：本系统按空格切分计数，写成 900 247 会被算作两个数字而超出字数限制。" },
+          { "no": 5, "prompt": "Proof of address: ___ bill", "answer": ["water"], "segment": 15,
+            "explanation": "手机账单（phone bill）不被接受（干扰）；店员列出 gas、water、electricity 都可以，Nadia 实际拿出的是 water bill。" },
+          { "no": 6, "prompt": "Annual fee: £ ___", "answer": ["8", "£8", "eight", "8.00", "£8.00"], "segment": 18,
+            "explanation": "住在辖区外通常一年 £15（干扰）；店员随后想起她在本区工作，可以享受优惠价，只要 £8。题目已给出 £，写 8 或 £8 都算对。" }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 20,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Using the library",
+        "questions": [
+          { "no": 7, "heading": "Borrowing", "prompt": "Up to ___ items at a time, including DVDs", "answer": ["15", "fifteen"], "segment": 20,
+            "explanation": "You can take out up to 15 items at a time，包括 DVD 和有声书。写 15 或 fifteen 都算对。" },
+          { "no": 8, "prompt": "Loan period: ___ weeks (can renew online twice)", "answer": ["3", "three"], "segment": 22,
+            "explanation": "借期 three weeks，之后可以在网上续借两次（twice 是续借次数，不是借期）。" },
+          { "no": 9, "heading": "Other services", "prompt": "Reading group: first ___ of each month, 7 pm", "answer": ["Wednesday"], "segment": 24,
+            "explanation": "读书会以前在周二晚上（used to 提示过去，干扰），现在改到每月第一个周三晚七点。注意拼写 Wednesday 中间的 d 不发音。" },
+          { "no": 10, "prompt": "Computers: free for 2 hours a day; bring your own ___", "answer": ["headphones"], "segment": 26,
+            "explanation": "图书馆去年冬天起不再出借耳机，想看视频要自带 headphones。注意是复数。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l1-removal-quote",
+    "part": 1,
+    "title": "Getting a quote for a house move",
+    "titleCn": "电话咨询搬家公司报价",
+    "intro": "Part 1. You will hear a man phoning a removal company to get a price for moving house.",
+    "speakers": [
+      { "id": "joanne", "name": "Joanne (removals adviser)", "gender": "female" },
+      { "id": "tom", "name": "Tom", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "joanne", "text": "Good morning, Swift Move Removals. Joanne speaking. How can I help?" },
+      { "speaker": "tom", "text": "Hello. I'm moving house next month, and I'd like to get a quote, please." },
+      { "speaker": "joanne", "text": "Certainly. I'll just take a few details first. Could I have your name?" },
+      { "speaker": "tom", "text": "Yes, it's Tom Whitcombe. That's W, H, I, T, C, O, M, B, E." },
+      { "speaker": "joanne", "text": "Thank you, Mr Whitcombe. And where are you moving from, and where to?" },
+      { "speaker": "tom", "text": "From 18 Larch Close, here in Bramford, to a village called Holmbury. That's H, O, L, M, B, U, R, Y. The new address is 5 Mill Lane." },
+      { "speaker": "joanne", "text": "Lovely. And what's the best number to call you on during the day?" },
+      { "speaker": "tom", "text": "Please don't use my mobile, because the signal in my office is terrible. My work number is better. It's 0 1 6 3 2, 9 6 0 3 1 8." },
+      { "speaker": "joanne", "text": "Thanks. And have you got a date for the move yet?" },
+      { "speaker": "tom", "text": "It was going to be Friday the 14th of August, but the people buying our house have asked for another week, so now it's Friday the 21st." },
+      { "speaker": "joanne", "text": "OK, I'll put down the 21st. And how big is the house?" },
+      { "speaker": "tom", "text": "It's got three bedrooms. Most of it is ordinary furniture, but there are a couple of things I'm worried about. There's a large antique mirror, but actually, I'll take that myself in the car. The thing I really need help with is my grandmother's piano." },
+      { "speaker": "joanne", "text": "That's no problem at all. We move pianos every week. So, for a three-bedroom house, our standard price is £580. The piano adds another £60, so the total comes to £640." },
+      { "speaker": "tom", "text": "That sounds reasonable. Does that include packing boxes?" },
+      { "speaker": "joanne", "text": "Yes, it does. We deliver up to 40 boxes free of charge a week before the move. We used to give 30, but people always ran out." },
+      { "speaker": "tom", "text": "Great. And how do I pay?" },
+      { "speaker": "joanne", "text": "We ask for a deposit of 10 per cent when you book, and then you pay the rest on the day of the move." },
+      { "speaker": "tom", "text": "Fine. Is there anything I need to organise myself?" },
+      { "speaker": "joanne", "text": "Just one thing. Our lorry is quite big, so if there's no driveway, you'll need a parking permit from the council. Some people just put cones out in the street, but that isn't allowed." },
+      { "speaker": "tom", "text": "There's a driveway at the new house, but not here, so I'll apply for one. Anything else?" },
+      { "speaker": "joanne", "text": "Yes. Our team can't carry anything that might catch fire, so please don't pack any tins of paint. Plants are fine, by the way, as long as they're in pots." },
+      { "speaker": "tom", "text": "Got it. Could you email the quote to me?" },
+      { "speaker": "joanne", "text": "Of course. You'll have it within the hour. Thanks for calling, Mr Whitcombe." }
+    ],
+    "groups": [
+      {
+        "type": "form-completion",
+        "from": 0,
+        "instruction": "Complete the form below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Swift Move Removals - Quotation details",
+        "questions": [
+          { "no": 1, "prompt": "Customer name: Tom ___", "answer": ["Whitcombe"], "segment": 3,
+            "explanation": "Tom 拼出 W, H, I, T, C, O, M, B, E。注意开头是 Wh，结尾 -combe 里的 b 和 e 都要写出来。" },
+          { "no": 2, "prompt": "New address: 5 Mill Lane, ___", "answer": ["Holmbury"], "segment": 5,
+            "explanation": "Bramford 是现在住的地方（干扰），新地址在村子 Holmbury。按 H, O, L, M, B, U, R, Y 拼写，注意 Holm 里的 l 不要漏。" },
+          { "no": 3, "prompt": "Daytime phone (work): 01632 ___", "answer": ["960318"], "segment": 7,
+            "explanation": "Tom 说办公室手机信号差，别打手机，要用工作电话。区号 01632 题目已给出，后面是 960318。请写成连续的 6 位数字，写成 960 318 会被本系统算作两个数字而超出字数限制。" },
+          { "no": 4, "prompt": "Moving date: Friday ___ August", "answer": ["21", "21st", "twenty-first"], "segment": 9,
+            "explanation": "原定 14 号（干扰），买家要求推迟一周，现在是 21 号。写 21、21st 或 twenty-first 都算对。" },
+          { "no": 5, "prompt": "Item needing special care: a ___", "answer": ["piano"], "segment": 11,
+            "explanation": "古董镜子（mirror）他自己开车运（干扰），真正需要帮忙的是祖母的钢琴 piano。" },
+          { "no": 6, "prompt": "Total price: £ ___", "answer": ["640", "£640", "640.00", "£640.00"], "segment": 12,
+            "explanation": "三居室标准价 £580、钢琴加价 £60 都是干扰，问的是总价 the total comes to £640。" }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 13,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "NO MORE THAN TWO WORDS AND/OR A NUMBER",
+        "title": "Before moving day",
+        "questions": [
+          { "no": 7, "heading": "Included in the price", "prompt": "Up to ___ free boxes, delivered a week before the move", "answer": ["40", "forty"], "segment": 14,
+            "explanation": "以前送 30 个（used to，干扰），现在最多免费送 40 个箱子。写 40 或 forty 都算对。" },
+          { "no": 8, "heading": "Payment", "prompt": "Deposit of ___ per cent when booking", "answer": ["10", "ten"], "segment": 16,
+            "explanation": "预订时付 10 per cent 定金，余款搬家当天付。题目已给出 per cent，只填数字。" },
+          { "no": 9, "heading": "Customer's responsibilities", "prompt": "Get a parking ___ from the council", "answer": ["permit"], "segment": 18,
+            "explanation": "没有车道时要向市政申请 parking permit（停车许可）；在路边放锥桶是不允许的（干扰）。" },
+          { "no": 10, "prompt": "Do not pack tins of ___", "answer": ["paint"], "segment": 20,
+            "explanation": "搬运工不能搬易燃物品，所以不要打包 tins of paint（油漆罐）。盆栽植物可以搬（干扰）。" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "l2-community-garden",
+    "part": 2,
+    "title": "First morning at a community garden",
+    "titleCn": "社区花园新志愿者介绍",
+    "intro": "Part 2. You will hear the volunteer coordinator of a community garden talking to a group of new volunteers.",
+    "speakers": [
+      { "id": "alan", "name": "Alan Pryce (volunteer coordinator)", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "alan", "text": "Good morning, everyone, and welcome to Elm Street Community Garden. I'm Alan Pryce, and I coordinate the volunteers here. Before we start, I'll tell you a little about how the garden works, and then I'll explain where everything is." },
+      { "speaker": "alan", "text": "A lot of people assume the council created this garden to give the area more green space. In fact, it was started twelve years ago by a group of neighbours who were fed up with people dumping rubbish on what was then an empty car park. A local primary school uses the garden for lessons now, but that came much later." },
+      { "speaker": "alan", "text": "You might be wondering what happens to everything we grow. Volunteers are welcome to take a small bag of vegetables home after each session, but that's only a tiny part of it. We used to sell the rest at a stall on Sunday mornings, but it took up too much time, so now nearly everything goes to the food bank on Victoria Road." },
+      { "speaker": "alan", "text": "As for what to bring, we've got plenty of tools, so please leave yours at home, and there's always tea and biscuits in the shed. The one thing we can't provide is gloves, because everyone's hands are a different size, so do bring your own pair." },
+      { "speaker": "alan", "text": "There's one rule I must ask you to follow very carefully. We collect rainwater in large tanks, and that's what we use for watering. The tap by the gate is connected to the mains, and it's only for washing your hands, not for the plants. You don't need to clean the tools after using them, by the way. One of the staff does that at the end of the day." },
+      { "speaker": "alan", "text": "Finally, our open day. It's usually in June, but this year we've moved it to the second Saturday in September. The weather's often better in June, of course, but September is when we'll have the most vegetables to show people. We'd love some of you to help run activities for children on the day." },
+      { "speaker": "alan", "text": "Now, let me explain where everything is. We're standing at the main gate, which is at the south end of the garden, on Elm Street. The wide path in front of you runs straight up the middle of the garden to the greenhouse at the far end, so you're facing north." },
+      { "speaker": "alan", "text": "The first place you'll need each morning is the tool shed. You can't miss it. As you come in through the gate, it's immediately on your right. Please put everything back there before you leave, and lock the door." },
+      { "speaker": "alan", "text": "If you walk halfway up the main path, you'll see a big old oak tree on your left. That's where we've put the picnic tables, so that's where we have our tea breaks. Most of the vegetable beds are on the other side of the path, on your right." },
+      { "speaker": "alan", "text": "Keep going to the top of the path and you'll come to the greenhouse. The compost bins used to be in the far right-hand corner of the garden, but the neighbours complained about the smell, so we've moved them right to the back, behind the greenhouse, where they're well out of the way." },
+      { "speaker": "alan", "text": "In the far left-hand corner, there's our wildlife pond. It's full of frogs in the spring. There's a low fence around it, but if you bring children with you, please keep an eye on them in that corner." },
+      { "speaker": "alan", "text": "And where the compost bins used to be, we now have the herb beds. They get the sun all day, and that corner smells much nicer than it used to! Anyone can pick a few herbs to take home." },
+      { "speaker": "alan", "text": "Along the fence on the east side, there's nothing much yet, but we're hoping to plant some fruit trees there next spring. Right, let's go and get the tools." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 11, "prompt": "Why was the garden first created?",
+            "options": [
+              { "key": "A", "text": "to give the area more green space" },
+              { "key": "B", "text": "to stop people leaving rubbish on the site" },
+              { "key": "C", "text": "to provide a place for school lessons" }
+            ],
+            "answer": ["B"], "segment": 1, "evidence": "fed up with people dumping rubbish",
+            "explanation": "很多人以为是市政为了增加绿地（A 干扰）；In fact 之后才是真实原因：邻居们受够了有人在空停车场倒垃圾。学校上课是后来的事（C 干扰）。dumping rubbish ≈ leaving rubbish。" },
+          { "no": 12, "prompt": "What happens to most of the vegetables grown in the garden?",
+            "options": [
+              { "key": "A", "text": "Volunteers take them home." },
+              { "key": "B", "text": "They are sold at a weekly stall." },
+              { "key": "C", "text": "They are given to a food bank." }
+            ],
+            "answer": ["C"], "segment": 2, "evidence": "nearly everything goes to the food bank",
+            "explanation": "志愿者只能带一小袋回家，only a tiny part（排除 A）；周日摆摊卖是以前的做法（used to，排除 B）；现在 nearly everything 送去食物银行。题干的 most 对应 nearly everything。" },
+          { "no": 13, "prompt": "Volunteers are asked to bring",
+            "options": [
+              { "key": "A", "text": "their own tools." },
+              { "key": "B", "text": "a pair of gloves." },
+              { "key": "C", "text": "something to eat and drink." }
+            ],
+            "answer": ["B"], "segment": 3, "evidence": "The one thing we can't provide is gloves",
+            "explanation": "工具很多，请留在家里（排除 A）；棚里总有茶和饼干（排除 C）；唯一不提供的是手套，因为每个人手的大小不同，要自带一副。" },
+          { "no": 14, "prompt": "What rule does Alan mention?",
+            "options": [
+              { "key": "A", "text": "Only rainwater should be used on the plants." },
+              { "key": "B", "text": "Tools must be cleaned after use." },
+              { "key": "C", "text": "Children must stay near the gate." }
+            ],
+            "answer": ["A"], "segment": 4, "evidence": "it's only for washing your hands, not for the plants",
+            "explanation": "浇水用收集的雨水；门口的自来水龙头只能洗手，不能浇植物，即植物只能用雨水浇。工具不用志愿者自己洗（排除 B）；孩子要在池塘那边看好，是后面另一处提到的，也不是这条规定（排除 C）。" },
+          { "no": 15, "prompt": "Why has the open day been moved?",
+            "options": [
+              { "key": "A", "text": "The weather is usually better in September." },
+              { "key": "B", "text": "There will be more vegetables to show visitors." },
+              { "key": "C", "text": "More volunteers will be free to help." }
+            ],
+            "answer": ["B"], "segment": 5, "evidence": "September is when we'll have the most vegetables to show people",
+            "explanation": "原文说的是六月天气往往更好（与 A 相反）；改到九月是因为那时蔬菜最多、可以展示给大家看。需要志愿者帮忙带孩子活动，但这不是改期原因（排除 C）。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 6,
+        "instruction": "Where are the following things in the garden? Choose FIVE answers from the box and write the correct letter, A-G, next to Questions 16-20.",
+        "optionsTitle": "Locations",
+        "options": [
+          { "key": "A", "text": "immediately to the right of the entrance" },
+          { "key": "B", "text": "halfway along the main path, on the west side" },
+          { "key": "C", "text": "halfway along the main path, on the east side" },
+          { "key": "D", "text": "directly north of the greenhouse" },
+          { "key": "E", "text": "in the north-east corner" },
+          { "key": "F", "text": "in the north-west corner" },
+          { "key": "G", "text": "along the eastern fence" }
+        ],
+        "questions": [
+          { "no": 16, "prompt": "the tool shed", "answer": ["A"], "segment": 7, "evidence": "As you come in through the gate, it's immediately on your right",
+            "explanation": "一进大门，工具棚就在右手边，对应 A。" },
+          { "no": 17, "prompt": "the picnic tables", "answer": ["B"], "segment": 8, "evidence": "That's where we've put the picnic tables",
+            "explanation": "介绍方位时先交代了方向：站在南门、面朝北（you're facing north）。主路走到一半，橡树在左手边，即主路西侧；野餐桌就在橡树下。右手边（东侧，C）是菜地，题目没有问。" },
+          { "no": 18, "prompt": "the compost bins", "answer": ["D"], "segment": 9, "evidence": "we've moved them right to the back, behind the greenhouse",
+            "explanation": "堆肥箱以前在远处右手角（东北角，E 是干扰），因邻居嫌气味搬到了温室后面。面朝北时「温室后面」就是温室正北方。" },
+          { "no": 19, "prompt": "the wildlife pond", "answer": ["F"], "segment": 10, "evidence": "In the far left-hand corner, there's our wildlife pond",
+            "explanation": "面朝北时 far = 北，left = 西，远处左手角就是西北角。" },
+          { "no": 20, "prompt": "the herb beds", "answer": ["E"], "segment": 11, "evidence": "where the compost bins used to be, we now have the herb beds",
+            "explanation": "香草床在堆肥箱原来的位置。前面讲堆肥箱时说过它原来在 far right-hand corner，面朝北时即东北角。东侧围栏（G）明年才种果树，题目没有问。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "l2-museum-late",
+    "part": 2,
+    "title": "Evening openings at a museum",
+    "titleCn": "博物馆夜场活动介绍",
+    "intro": "Part 2. You will hear a museum events manager talking on a local radio programme about the museum's new evening events.",
+    "speakers": [
+      { "id": "laura", "name": "Laura Bennett (events manager)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "laura", "text": "Thanks for having me on the programme. I'm Laura Bennett, the events manager at Kingsgate Museum, and I'm here to tell your listeners about Museum Lates, our new evening openings, which start next month." },
+      { "speaker": "laura", "text": "So, why are we doing this? Our visitor surveys showed that families and retired people come to the museum all the time, but people who work full-time hardly ever visit, because we close at five. The Lates are really aimed at them, although of course anyone over eighteen is welcome." },
+      { "speaker": "laura", "text": "The Lates will take place on the last Friday of every month, from six until eleven. We did think about opening late every Thursday, which is what a lot of museums in London do, but that would need far more staff than we have." },
+      { "speaker": "laura", "text": "Entry to the museum is still free during the day, but for the Lates you'll need a ticket, which costs six pounds. That's mainly to pay for the extra staff. And please note that tickets have to be booked online in advance. We won't be selling any at the door, because the building can only hold a certain number of people at night." },
+      { "speaker": "laura", "text": "The cafe will be closed in the evening, I'm afraid, but there'll be a street-food van in the courtyard, so you won't go hungry. You're welcome to take drinks into most of the galleries, but not into the Egyptian Gallery, for obvious reasons." },
+      { "speaker": "laura", "text": "So, what's happening at the first Late? The theme is Night, and every part of the building is doing something different." },
+      { "speaker": "laura", "text": "In the Main Hall, under the whale skeleton, we're holding a silent disco. Everyone gets a pair of wireless headphones and can choose between three different DJs. It looks very strange if you aren't wearing headphones yourself, but it's great fun." },
+      { "speaker": "laura", "text": "Upstairs, in the Space Gallery, Dr Amira Hassan from the university will give a short talk about how astronomers find planets around distant stars. She's speaking at seven and again at nine, and there'll be time for questions afterwards." },
+      { "speaker": "laura", "text": "In the Egyptian Gallery, our curators will take a few objects out of their glass cases, and visitors will be allowed to pick them up and look at them closely, wearing gloves, of course. Some of them are more than three thousand years old." },
+      { "speaker": "laura", "text": "Our education studio is normally used by school groups. We'd planned to show a film in there, but the projector won't arrive in time. So instead, there'll be a workshop on making paper lanterns. All the materials are provided, and you can take your lantern home with you." },
+      { "speaker": "laura", "text": "In the old reading room, there'll be a quiz at eight o'clock, with questions about the museum's collections. You can enter in teams of up to six, and the winning team gets free tickets for the rest of the year." },
+      { "speaker": "laura", "text": "And finally, for the first time ever, we're opening the roof terrace at the top of the clock tower. On a clear night, you can see right across the city. We'd hoped to have a jazz band up there too, but there simply isn't enough room, so the band will be playing in the courtyard instead." },
+      { "speaker": "laura", "text": "Tickets go on sale this Monday at nine, and we expect the first Late to sell out quickly, so don't leave it too late. All the details are on our website." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          { "no": 11, "prompt": "Who are the Lates mainly intended for?",
+            "options": [
+              { "key": "A", "text": "families with children" },
+              { "key": "B", "text": "people with full-time jobs" },
+              { "key": "C", "text": "retired people" }
+            ],
+            "answer": ["B"], "segment": 1, "evidence": "people who work full-time hardly ever visit",
+            "explanation": "家庭和退休人士白天常来（排除 A、C）；全职上班的人因为博物馆五点关门几乎不来，夜场 really aimed at them（them 指全职上班的人）。" },
+          { "no": 12, "prompt": "How often will the Lates take place?",
+            "options": [
+              { "key": "A", "text": "every Thursday" },
+              { "key": "B", "text": "once a month" },
+              { "key": "C", "text": "every other Friday" }
+            ],
+            "answer": ["B"], "segment": 2, "evidence": "on the last Friday of every month",
+            "explanation": "每月最后一个周五，即一个月一次。考虑过像伦敦很多博物馆那样每周四开放，但人手不够（A 干扰）。" },
+          { "no": 13, "prompt": "What does Laura say about tickets?",
+            "options": [
+              { "key": "A", "text": "They can be bought on the night." },
+              { "key": "B", "text": "They must be bought before the event." },
+              { "key": "C", "text": "They cost the same as daytime entry." }
+            ],
+            "answer": ["B"], "segment": 3, "evidence": "tickets have to be booked online in advance",
+            "explanation": "门口不卖票（排除 A）；白天免费、夜场 £6（排除 C）；必须提前在网上订票，in advance ≈ before the event。" },
+          { "no": 14, "prompt": "What will visitors be able to do at the Lates?",
+            "options": [
+              { "key": "A", "text": "eat in the museum cafe" },
+              { "key": "B", "text": "buy food outdoors" },
+              { "key": "C", "text": "take drinks into all the galleries" }
+            ],
+            "answer": ["B"], "segment": 4, "evidence": "there'll be a street-food van in the courtyard",
+            "explanation": "咖啡馆晚上关门（排除 A）；饮料可以带进大部分展厅，但埃及展厅不行（排除 C 的 all）；庭院里有街头小吃车，courtyard 是室外，对应 outdoors。" }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 5,
+        "instruction": "What will visitors be able to do in each of the following places at the first Late? Choose SIX answers from the box and write the correct letter, A-H, next to Questions 15-20.",
+        "optionsTitle": "Activities",
+        "options": [
+          { "key": "A", "text": "listen to a live band" },
+          { "key": "B", "text": "take part in a competition" },
+          { "key": "C", "text": "watch a film" },
+          { "key": "D", "text": "handle ancient objects" },
+          { "key": "E", "text": "make something to keep" },
+          { "key": "F", "text": "hear an expert speak" },
+          { "key": "G", "text": "enjoy a view of the city" },
+          { "key": "H", "text": "dance wearing headphones" }
+        ],
+        "questions": [
+          { "no": 15, "prompt": "the Main Hall", "answer": ["H"], "segment": 6, "evidence": "we're holding a silent disco",
+            "explanation": "主厅鲸鱼骨架下办 silent disco：每人戴无线耳机跳舞，对应 dance wearing headphones。" },
+          { "no": 16, "prompt": "the Space Gallery", "answer": ["F"], "segment": 7, "evidence": "will give a short talk",
+            "explanation": "大学的 Dr Amira Hassan 讲天文学家如何寻找系外行星，对应 hear an expert speak。" },
+          { "no": 17, "prompt": "the Egyptian Gallery", "answer": ["D"], "segment": 8, "evidence": "visitors will be allowed to pick them up",
+            "explanation": "策展人把文物从展柜里取出，观众可以戴手套拿起来看，pick them up ≈ handle；三千多年 ≈ ancient。" },
+          { "no": 18, "prompt": "the education studio", "answer": ["E"], "segment": 9, "evidence": "you can take your lantern home with you",
+            "explanation": "原计划放电影，但投影仪来不及到（C 干扰）；改成做纸灯笼工作坊，做好可以带回家，对应 make something to keep。" },
+          { "no": 19, "prompt": "the reading room", "answer": ["B"], "segment": 10, "evidence": "there'll be a quiz at eight o'clock",
+            "explanation": "旧阅览室八点有知识竞赛，组队参加，赢的队伍得全年免费票，quiz ≈ competition。" },
+          { "no": 20, "prompt": "the clock tower", "answer": ["G"], "segment": 11, "evidence": "you can see right across the city",
+            "explanation": "钟楼顶的屋顶露台首次开放，晴天可以看到全城。原想请爵士乐队上去，但地方不够，乐队改在庭院演出（A 干扰，庭院不是题目里的地点）。" }
+        ]
+      }
+    ]
+  }
+]
