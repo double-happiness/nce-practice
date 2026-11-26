@@ -1,0 +1,564 @@
+[
+  {
+    "id": "rd-urban-foxes",
+    "title": "Foxes in the City",
+    "titleCn": "城市里的狐狸",
+    "difficulty": "easy",
+    "topic": "science",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "For most of history, the red fox was thought of as an animal of the countryside, a clever hunter of rabbits and an enemy of farmers who kept chickens. Today, however, many people are more likely to see a fox in a city street than in a field. Foxes are now found in towns and cities across Europe, North America and Australia, where they may be seen crossing roads at night, resting in gardens or even walking along railway platforms. Their success in such a different environment has made them a favourite subject for scientists who want to understand how wild animals adapt to life alongside humans."
+      },
+      {
+        "label": "B",
+        "text": "In Britain, foxes seem to have moved into towns in large numbers during the 1930s. At that time, cities were spreading outwards as new suburbs were built, and many of these houses had long gardens with sheds, hedges and fruit trees. For a fox, such places offered everything it needed: food, shelter and quiet corners in which to raise young. Rather than the foxes arriving in the city, it might be more accurate to say that the city arrived around the foxes. Since then, foxes have been recorded in almost every large British city, although numbers vary greatly from one area to another."
+      },
+      {
+        "label": "C",
+        "text": "One reason for the fox's success is that it is not a fussy eater. In the countryside, foxes eat small mammals, birds, insects and fruit. In cities, they eat many of the same things, but they also take advantage of food provided by people, whether on purpose or by accident. Studies of what urban foxes eat have shown that a large part of their diet comes from scraps, such as leftover meat and bread, as well as food deliberately put out by householders who enjoy watching them. Earthworms are another important source of food, especially on wet nights when they come to the surface of lawns and playing fields."
+      },
+      {
+        "label": "D",
+        "text": "City life has also changed fox behaviour in other ways. Urban foxes tend to have much smaller territories than rural ones, because food is easier to find in a limited area. A fox family in the countryside might need several square kilometres, while one in a city may live within a few streets. Researchers who have fitted foxes with tracking collars have found that the animals know their local area in great detail. They use the same routes night after night, moving along walls, through gaps in fences and under parked cars, and they generally avoid busy roads until the traffic has died down late at night."
+      },
+      {
+        "label": "E",
+        "text": "Life in the city is not without danger, however. The biggest single cause of death for urban foxes is traffic, and young foxes are particularly at risk when they leave their parents in the autumn to look for a territory of their own. Disease is another threat. A skin condition called mange, which is caused by tiny mites, can spread quickly when foxes live close together, and it can make them lose most of their fur. As a result of these dangers, the average urban fox lives for only about two years, even though foxes kept in captivity can survive for more than ten."
+      },
+      {
+        "label": "F",
+        "text": "Not everyone is pleased to have foxes as neighbours. Common complaints include noise, particularly the loud screams that foxes make during the breeding season in winter, as well as the mess caused when they dig up gardens or tear open rubbish bags. Some people are also worried that foxes might attack pets or even children. In fact, attacks on people are extremely rare, and most cats are able to defend themselves against a fox, which is often similar in size. Experts say that the easiest way to reduce problems is to keep rubbish in bins with secure lids, rather than to try to remove the foxes themselves."
+      },
+      {
+        "label": "G",
+        "text": "Indeed, attempts to get rid of urban foxes have rarely been successful. When foxes are removed from an area, others quickly move in to take over the empty territory, so the number of animals soon returns to its previous level. For this reason, many local councils no longer offer to deal with foxes at all. Instead, they encourage residents to accept them as part of city wildlife. Some scientists also see urban foxes as a useful 'natural experiment', because watching how they change over the coming decades may help us to predict how other animals will cope as cities continue to grow."
+      }
+    ],
+    "groups": [
+      {
+        "type": "tfng",
+        "instruction": "Do the following statements agree with the information given in the passage? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, or NOT GIVEN if there is no information on this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "Red foxes were traditionally regarded as animals of the countryside.",
+            "answer": ["TRUE"],
+            "explanation": "A 段开头：在历史上大部分时间里，红狐都被看作乡村动物（was thought of as an animal of the countryside）。traditionally regarded 对应 For most of history ... was thought of，选 TRUE。",
+            "evidence": { "para": "A", "quote": "For most of history, the red fox was thought of as an animal of the countryside" }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "The building of new suburbs in the 1930s helped foxes to settle in British towns.",
+            "answer": ["TRUE"],
+            "explanation": "B 段：20 世纪 30 年代城市向外扩张、新建郊区，这些房子带有长花园，为狐狸提供了食物、藏身处和育幼的角落。所以新郊区的建设帮助狐狸在城镇定居，选 TRUE。",
+            "evidence": { "para": "B", "quote": "At that time, cities were spreading outwards as new suburbs were built, and many of these houses had long gardens with sheds, hedges and fruit trees." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Fox numbers are similar in all large British cities.",
+            "answer": ["FALSE"],
+            "explanation": "B 段末：几乎每个英国大城市都有狐狸，但不同地区数量差别很大（vary greatly）。题干说各城市数量相近，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "B", "quote": "although numbers vary greatly from one area to another" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Urban foxes prefer scraps to food that people put out for them on purpose.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "C 段只说城市狐狸的食物很大一部分来自残羹剩饭，也有居民特意投喂的食物，两者是并列列举，没有说狐狸更喜欢哪一种。原文没有比较偏好，选 NOT GIVEN。",
+            "evidence": { "para": "C", "quote": "a large part of their diet comes from scraps, such as leftover meat and bread, as well as food deliberately put out by householders who enjoy watching them" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Foxes in cities often cross busy roads while there is still a lot of traffic.",
+            "answer": ["FALSE"],
+            "explanation": "D 段：狐狸一般会避开繁忙道路，等深夜车流少了才过（generally avoid busy roads until the traffic has died down）。题干说车多时也常穿过，与原文矛盾，选 FALSE。",
+            "evidence": { "para": "D", "quote": "they generally avoid busy roads until the traffic has died down late at night" }
+          }
+        ]
+      },
+      {
+        "type": "matching-information",
+        "instruction": "The passage has seven paragraphs, A–G. Which paragraph contains the following information? Write the correct letter, A–G. You may use any letter more than once.",
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "prompt": "the main cause of death among foxes living in cities",
+            "answer": ["E"],
+            "explanation": "E 段：城市狐狸最大的单一死因是交通（The biggest single cause of death ... is traffic）。main cause 对应 biggest single cause，选 E。",
+            "evidence": { "para": "E", "quote": "The biggest single cause of death for urban foxes is traffic" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "a reason why some local authorities no longer deal with foxes",
+            "answer": ["G"],
+            "explanation": "G 段：狐狸被清走后，别的狐狸很快会占据空出的领地，数量很快恢复；正因为如此（For this reason），很多地方议会不再处理狐狸问题。local authorities 对应 local councils，选 G。",
+            "evidence": { "para": "G", "quote": "For this reason, many local councils no longer offer to deal with foxes at all." }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "a comparison of the space a fox family needs in the city and in the countryside",
+            "answer": ["D"],
+            "explanation": "D 段：乡村的狐狸一家可能需要几平方公里，城里的可能只在几条街范围内活动。这是城乡领地大小的对比，选 D。",
+            "evidence": { "para": "D", "quote": "A fox family in the countryside might need several square kilometres, while one in a city may live within a few streets." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "an example of food that is easier for foxes to find in wet weather",
+            "answer": ["C"],
+            "explanation": "C 段末：蚯蚓也是重要食物，尤其在潮湿的夜晚它们会爬到草坪和运动场表面。wet weather 对应 wet nights，选 C。",
+            "evidence": { "para": "C", "quote": "Earthworms are another important source of food, especially on wet nights when they come to the surface of lawns and playing fields." }
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "instruction": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+        "wordLimit": { "words": 2 },
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "Young foxes face particular danger in {blank}, when they leave their parents.",
+            "answer": ["autumn", "the autumn"],
+            "explanation": "E 段：小狐狸在秋天离开父母、去找自己的领地时特别危险（particularly at risk ... in the autumn）。填 autumn，写 the autumn 也可以。",
+            "evidence": { "para": "E", "quote": "young foxes are particularly at risk when they leave their parents in the autumn to look for a territory of their own" }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "Mange is a skin condition that is caused by {blank}.",
+            "answer": ["tiny mites", "mites"],
+            "explanation": "E 段：疥癣（mange）是由微小的螨虫引起的皮肤病（caused by tiny mites）。填 tiny mites，只写 mites 也可以。",
+            "evidence": { "para": "E", "quote": "A skin condition called mange, which is caused by tiny mites" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "Foxes make loud screams during the {blank} in winter.",
+            "answer": ["breeding season"],
+            "explanation": "F 段：狐狸在冬季繁殖期会发出很响的尖叫（during the breeding season in winter）。两个词都要写，只写 season 意思不完整。",
+            "evidence": { "para": "F", "quote": "the loud screams that foxes make during the breeding season in winter" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "Some scientists regard urban foxes as a {blank} that may help predict how other animals will cope.",
+            "answer": ["natural experiment"],
+            "explanation": "G 段：一些科学家把城市狐狸看作一场有用的「自然实验」（a useful 'natural experiment'），观察它们的变化有助于预测其他动物如何适应城市扩张。useful 加上就超过两个词，填 natural experiment。",
+            "evidence": { "para": "G", "quote": "Some scientists also see urban foxes as a useful 'natural experiment'" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-shipping-container",
+    "title": "The Simple Box That Changed World Trade",
+    "titleCn": "改变世界贸易的铁箱子：集装箱",
+    "difficulty": "easy",
+    "topic": "technology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Almost everything we buy, from clothes and phones to bananas and furniture, has spent part of its journey inside a large metal box. The shipping container is so common today that most people hardly notice the stacks of red, blue and grey boxes in ports or on the backs of lorries. Yet the container was only introduced in the middle of the twentieth century, and it has been described as one of the most important inventions of modern times. It did not depend on any new science. Its power came from a simple idea: that goods should be packed once and then moved all the way to their destination without being unpacked."
+      },
+      {
+        "label": "B",
+        "text": "Before containers, loading a ship was slow, hard and expensive work. Goods arrived at the port in sacks, barrels, crates and bundles of every shape and size. Teams of dock workers carried them on board one by one and fitted them into the ship's hold, a process that could take a week or more for a single vessel. Ships often spent almost as much time in port as they did at sea. Theft was also a serious problem, because goods passed through so many hands. As a result, loading and unloading made up a large part of the total cost of sending goods by sea."
+      },
+      {
+        "label": "C",
+        "text": "The person usually given credit for the container is Malcom McLean, an American who owned a trucking company. According to a popular story, he had the idea in 1937 while waiting for hours at a port for his lorry to be unloaded. Whether or not the story is true, it was not until 1956 that he put his idea into practice. In that year, a converted oil tanker called the Ideal X sailed from New Jersey to Texas carrying fifty-eight containers on its deck. McLean calculated that the cost of loading the ship was a small fraction of the usual price, a result that persuaded him to invest heavily in the new system."
+      },
+      {
+        "label": "D",
+        "text": "At first, however, the new system faced serious obstacles. Different companies built containers of different sizes, so a box from one shipping line might not fit on the ships, cranes or lorries of another. Dock workers' unions, fearing that the change would destroy thousands of jobs, opposed it strongly in many ports. The first problem was solved in the late 1960s, when international agreements set standard sizes. The most widely used containers today are twenty or forty feet long, and port traffic is still measured in 'twenty-foot equivalent units', or TEUs. The second problem proved harder, and in many places the unions' fears turned out to be justified."
+      },
+      {
+        "label": "E",
+        "text": "The container changed the shape of ports as well as the work done in them. Huge cranes, large flat storage areas and good road and rail links became essential, and these could rarely be found in the old harbours in the centre of cities. New container terminals were therefore built further away, often near the mouth of a river where deeper water allowed larger ships to enter. In cities such as London and New York, the old docks fell silent, and the warehouses beside them were later turned into offices, flats and museums."
+      },
+      {
+        "label": "F",
+        "text": "The effects on world trade were enormous. Because containers made transport cheaper and more reliable, it became practical for companies to produce goods in one country, assemble them in another and sell them in a third. Factories no longer needed to be close to their customers. Some economists argue that the container did more to increase international trade than all the trade agreements signed in the same period. Today, the largest ships can carry more than twenty thousand standard containers, and a box can travel from Asia to Europe in around a month."
+      },
+      {
+        "label": "G",
+        "text": "The container has its critics, too. Because so many boxes travel on each ship, customs officers are able to inspect only a small proportion of them, which makes smuggling a concern. Containers are also lost at sea during storms every year, and their contents can wash up on beaches far away. Meanwhile, empty containers are a common sight in some ports, because trade between regions is often unbalanced and the boxes have to be sent back without any goods inside. Engineers are now experimenting with folding containers that would take up less space when empty, although these have yet to be widely adopted."
+      }
+    ],
+    "groups": [
+      {
+        "type": "matching-headings",
+        "instruction": "The passage has seven paragraphs, A–G. Choose the correct heading for paragraphs B–G from the list of headings below. Write the correct number, i–viii.",
+        "options": [
+          { "key": "i", "text": "The man behind the idea and its first trial" },
+          { "key": "ii", "text": "How containers are built and repaired" },
+          { "key": "iii", "text": "A slow and costly way of handling cargo" },
+          { "key": "iv", "text": "Agreeing on sizes and facing opposition" },
+          { "key": "v", "text": "Why ports moved away from city centres" },
+          { "key": "vi", "text": "Government support for the new system" },
+          { "key": "vii", "text": "Changing where things are made" },
+          { "key": "viii", "text": "Problems that remain today" }
+        ],
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "para": "B",
+            "prompt": "Paragraph B",
+            "answer": ["iii"],
+            "explanation": "B 段讲集装箱出现之前装船又慢又累又贵：货物大小不一、要一件件搬，一艘船装货要一周以上，还常被偷。对应 iii「一种缓慢而昂贵的装卸方式」。",
+            "evidence": { "para": "B", "quote": "Before containers, loading a ship was slow, hard and expensive work." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "para": "C",
+            "prompt": "Paragraph C",
+            "answer": ["i"],
+            "explanation": "C 段介绍集装箱的发明人 McLean，以及 1956 年 Ideal X 号第一次用集装箱运货。对应 i「想出这个主意的人及第一次试验」。",
+            "evidence": { "para": "C", "quote": "In that year, a converted oil tanker called the Ideal X sailed from New Jersey to Texas carrying fifty-eight containers on its deck." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "para": "D",
+            "prompt": "Paragraph D",
+            "answer": ["iv"],
+            "explanation": "D 段讲两大障碍：各公司箱子尺寸不同（后来国际协议统一了标准尺寸），以及码头工会的强烈反对。对应 iv「统一尺寸与遭遇反对」。",
+            "evidence": { "para": "D", "quote": "The first problem was solved in the late 1960s, when international agreements set standard sizes." }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "para": "E",
+            "prompt": "Paragraph E",
+            "answer": ["v"],
+            "explanation": "E 段：集装箱码头需要大型吊机、大片堆场和交通连接，市中心老港口满足不了，于是新码头建到了更远的河口。对应 v「港口为何搬离市中心」。",
+            "evidence": { "para": "E", "quote": "New container terminals were therefore built further away" }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "para": "F",
+            "prompt": "Paragraph F",
+            "answer": ["vii"],
+            "explanation": "F 段：运输变便宜可靠后，企业可以在一国生产、另一国组装、第三国销售，工厂不必靠近顾客。对应 vii「改变了东西在哪里生产」。段中虽提到 trade agreements，但只是拿来对比，不是政府扶持，vi 是干扰项。",
+            "evidence": { "para": "F", "quote": "it became practical for companies to produce goods in one country, assemble them in another and sell them in a third" }
+          },
+          {
+            "id": "q6",
+            "number": 6,
+            "para": "G",
+            "prompt": "Paragraph G",
+            "answer": ["viii"],
+            "explanation": "G 段列出至今仍存在的问题：海关只能抽查一小部分、风暴中集装箱落海、空箱回运。对应 viii「至今仍存在的问题」。段末提到可折叠集装箱，但讲的是解决空箱问题的尝试，不是箱子怎么制造维修，ii 是干扰项。",
+            "evidence": { "para": "G", "quote": "The container has its critics, too." }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q7",
+            "number": 7,
+            "prompt": "According to paragraph A, the container was important because",
+            "options": [
+              { "key": "A", "text": "it was based on a new scientific discovery." },
+              { "key": "B", "text": "goods did not need to be unpacked during the journey." },
+              { "key": "C", "text": "it was cheaper to build than other kinds of box." },
+              { "key": "D", "text": "it was invented much earlier than people think." }
+            ],
+            "answer": ["B"],
+            "explanation": "A 段：集装箱的威力来自一个简单的想法——货物只装一次，一路运到目的地都不用拆开。对应 B。A 与原文相反（It did not depend on any new science）；C、D 原文没提。",
+            "evidence": { "para": "A", "quote": "Its power came from a simple idea: that goods should be packed once and then moved all the way to their destination without being unpacked." }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "prompt": "What does the writer say about the story of McLean waiting at a port?",
+            "options": [
+              { "key": "A", "text": "It is certainly true." },
+              { "key": "B", "text": "It may not be true." },
+              { "key": "C", "text": "It took place in 1956." },
+              { "key": "D", "text": "It was told by a dock worker." }
+            ],
+            "answer": ["B"],
+            "explanation": "C 段：作者说「不管这个故事是不是真的」（Whether or not the story is true），说明它未必属实，选 B。A 与之矛盾；C 混淆了年份，等船的故事发生在 1937 年，1956 年是他付诸实践的时间；D 原文没提。",
+            "evidence": { "para": "C", "quote": "Whether or not the story is true, it was not until 1956 that he put his idea into practice." }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "prompt": "Why did dock workers' unions oppose containers?",
+            "options": [
+              { "key": "A", "text": "They believed many jobs would disappear." },
+              { "key": "B", "text": "They thought the boxes were dangerous to lift." },
+              { "key": "C", "text": "The boxes did not fit the cranes in their ports." },
+              { "key": "D", "text": "They wanted higher pay for the new work." }
+            ],
+            "answer": ["A"],
+            "explanation": "D 段：码头工会担心这种变化会让成千上万的工作消失（destroy thousands of jobs），因此强烈反对。对应 A。C 是同段的另一个问题（尺寸不统一），不是工会反对的原因；B、D 原文没提。",
+            "evidence": { "para": "D", "quote": "Dock workers' unions, fearing that the change would destroy thousands of jobs, opposed it strongly in many ports." }
+          },
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "What happened to the old docks in London and New York?",
+            "options": [
+              { "key": "A", "text": "They were made deeper for larger ships." },
+              { "key": "B", "text": "They became container terminals." },
+              { "key": "C", "text": "The buildings beside them were given new uses." },
+              { "key": "D", "text": "They were used to store empty containers." }
+            ],
+            "answer": ["C"],
+            "explanation": "E 段：伦敦、纽约的老码头沉寂下来，旁边的仓库后来改成了办公室、公寓和博物馆。对应 C。A、B 说的是建在河口的新码头，不是老码头；D 原文没提。",
+            "evidence": { "para": "E", "quote": "the warehouses beside them were later turned into offices, flats and museums" }
+          }
+        ]
+      },
+      {
+        "type": "short-answer",
+        "instruction": "Answer the questions below. Choose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.",
+        "wordLimit": { "words": 3, "number": true },
+        "questions": [
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "How many containers did the Ideal X carry on its first voyage?",
+            "answer": ["fifty-eight", "58"],
+            "explanation": "C 段：Ideal X 号从新泽西开往得克萨斯，甲板上装了 58 个集装箱。填 fifty-eight，写数字 58 也可以。",
+            "evidence": { "para": "C", "quote": "carrying fifty-eight containers on its deck" }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "In what units is port traffic measured?",
+            "answer": ["twenty-foot equivalent units", "TEUs", "TEU"],
+            "explanation": "D 段：港口吞吐量至今仍以「20 英尺标准箱」计量（twenty-foot equivalent units，简称 TEUs）。twenty-foot 带连字符算 1 个词，整个答案 3 个词；写缩写 TEUs 也可以。",
+            "evidence": { "para": "D", "quote": "port traffic is still measured in 'twenty-foot equivalent units', or TEUs" }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "What kind of containers are engineers testing to save space when they are empty?",
+            "answer": ["folding containers", "folding"],
+            "explanation": "G 段：工程师正在试验可折叠集装箱（folding containers），空箱时占地更少。题目已问 what kind of containers，只写 folding 也可以。",
+            "evidence": { "para": "G", "quote": "Engineers are now experimenting with folding containers that would take up less space when empty" }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rd-boredom",
+    "title": "In Praise of Boredom",
+    "titleCn": "为无聊正名",
+    "difficulty": "easy",
+    "topic": "psychology",
+    "minutes": 20,
+    "paragraphs": [
+      {
+        "label": "A",
+        "text": "Few feelings have such a bad reputation as boredom. We complain about boring meetings, boring journeys and boring jobs, and parents often feel they have failed if their children say they have nothing to do. Many of us now carry a phone that can fill every spare moment with news, games or messages, so that we hardly ever have to experience boredom at all. Yet a growing number of psychologists believe that this may be a mistake. In my view, boredom is not simply an unpleasant state to be avoided at any cost. Used in the right way, it may be one of the most useful feelings we have."
+      },
+      {
+        "label": "B",
+        "text": "Researchers define boredom as the uncomfortable feeling of wanting to be busy with something satisfying but being unable to find it. It is different from relaxation, which is a pleasant state of rest, and from apathy, in which a person does not care about doing anything at all. A bored person does care: they want something to happen, and their mind is searching for it. This restless searching is the key to understanding why boredom exists. Like hunger, which pushes us to look for food, boredom seems to push us to look for something more rewarding to do with our time."
+      },
+      {
+        "label": "C",
+        "text": "Some evidence for the positive side of boredom comes from an experiment carried out in Britain. One group of volunteers was asked to copy numbers from a telephone directory for fifteen minutes, a task that almost everyone finds dull. A second group went straight on to the next stage. Both groups were then asked to think of as many uses as possible for a pair of plastic cups. The volunteers who had first done the boring task came up with more ideas, and their ideas were judged to be more original. The researchers suggested that boredom had encouraged their minds to wander, and that this daydreaming had helped them think creatively."
+      },
+      {
+        "label": "D",
+        "text": "The difficulty today is that boredom rarely lasts long enough to have this effect. As soon as we feel the first sign of it, while waiting for a bus or standing in a queue, we reach for our phones. Studies suggest that many people check their phones dozens of times a day, often without any clear reason. I believe that this habit has a cost that is rarely discussed. By escaping from boredom so quickly, we deny our minds the empty time they need to make unexpected connections between ideas, to plan for the future or simply to reflect on our own lives."
+      },
+      {
+        "label": "E",
+        "text": "Children may lose the most. Many families now fill their children's free time with organised activities, from music lessons to sports clubs, partly because parents fear that a bored child is an unhappy one. These activities certainly have value. However, some educational experts argue that children also need unstructured time in which nobody tells them what to do. It is often in these moments that they invent games, build things or discover an interest that lasts for life. In my opinion, a child who complains of having nothing to do should not always be rescued immediately."
+      },
+      {
+        "label": "F",
+        "text": "This does not mean that all boredom is good. Long periods of boredom, especially at work or school, have been linked to poor concentration, mistakes and low mood. People who feel bored most of the time are more likely to eat unhealthy snacks or to take risks simply to feel something. The problem in these cases is not a short period of boredom but the sense of being trapped in a situation that has no meaning. It would therefore be wrong to suggest that employers should make jobs more boring in the hope of producing creative workers."
+      },
+      {
+        "label": "G",
+        "text": "What, then, should we do? The answer is not to seek out boredom deliberately, but to stop running away from it. Leaving the phone in a pocket during a short train journey, or going for a walk without headphones, gives the mind a chance to wander. Many writers and scientists have described how their best ideas came to them while they were doing something quite dull, such as having a shower or waiting for a kettle to boil. Boredom, it seems, is less an enemy than a messenger, telling us that it is time to find something more meaningful to do."
+      }
+    ],
+    "groups": [
+      {
+        "type": "ynng",
+        "instruction": "Do the following statements agree with the views of the writer in the passage? Write YES if the statement agrees with the views of the writer, NO if the statement contradicts the views of the writer, or NOT GIVEN if it is impossible to say what the writer thinks about this.",
+        "questions": [
+          {
+            "id": "q1",
+            "number": 1,
+            "prompt": "It is unwise to try to avoid boredom completely.",
+            "answer": ["YES"],
+            "explanation": "A 段作者明确表态：无聊不只是一种要不惜一切避免的不愉快状态，用对了可能是最有用的感受之一。说明作者认为完全回避无聊并不明智，选 YES。",
+            "evidence": { "para": "A", "quote": "In my view, boredom is not simply an unpleasant state to be avoided at any cost." }
+          },
+          {
+            "id": "q2",
+            "number": 2,
+            "prompt": "Boredom and apathy are basically the same feeling.",
+            "answer": ["NO"],
+            "explanation": "B 段：无聊不同于放松，也不同于冷漠（apathy）——冷漠的人什么都不在乎，而无聊的人是在乎的，想要有事发生。题干说两者基本相同，与原文观点矛盾，选 NO。",
+            "evidence": { "para": "B", "quote": "It is different from relaxation, which is a pleasant state of rest, and from apathy, in which a person does not care about doing anything at all." }
+          },
+          {
+            "id": "q3",
+            "number": 3,
+            "prompt": "Reaching for a phone whenever we feel bored can stop the mind from making useful connections.",
+            "answer": ["YES"],
+            "explanation": "D 段作者认为（I believe）：一无聊就看手机，等于剥夺了大脑在思想之间建立意外联系所需的空白时间。与题干一致，选 YES。",
+            "evidence": { "para": "D", "quote": "By escaping from boredom so quickly, we deny our minds the empty time they need to make unexpected connections between ideas" }
+          },
+          {
+            "id": "q4",
+            "number": 4,
+            "prompt": "Organised activities are of little benefit to children.",
+            "answer": ["NO"],
+            "explanation": "E 段：作者说这些有组织的活动当然有价值（certainly have value），只是孩子同样需要没人安排的时间。题干说益处不大，与作者观点矛盾，选 NO。",
+            "evidence": { "para": "E", "quote": "These activities certainly have value." }
+          },
+          {
+            "id": "q5",
+            "number": 5,
+            "prompt": "Schools should include periods of free time in the timetable.",
+            "answer": ["NOT GIVEN"],
+            "explanation": "E 段只说家庭给孩子安排了太多活动、孩子也需要无人安排的时间，没有谈学校课表该不该安排自由时间。作者对这一点没有表态，选 NOT GIVEN。",
+            "evidence": { "para": "E", "quote": "some educational experts argue that children also need unstructured time in which nobody tells them what to do" }
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "instruction": "Complete the summary using the list of words, A–H, below. Write the correct letter, A–H.",
+        "summary": {
+          "title": "An experiment on boredom",
+          "text": "In the experiment, one group of volunteers spent fifteen minutes on a {q6} task: copying numbers from a telephone directory. Afterwards, both groups had to suggest uses for some plastic cups. The group that had done the boring task produced a larger {q7} of ideas, and these ideas were also more {q8}. According to the researchers, the boring task had allowed the volunteers' minds to {q9}."
+        },
+        "wordBank": [
+          { "key": "A", "text": "dull" },
+          { "key": "B", "text": "number" },
+          { "key": "C", "text": "original" },
+          { "key": "D", "text": "wander" },
+          { "key": "E", "text": "difficult" },
+          { "key": "F", "text": "practical" },
+          { "key": "G", "text": "rest" },
+          { "key": "H", "text": "quality" }
+        ],
+        "questions": [
+          {
+            "id": "q6",
+            "number": 6,
+            "answer": ["A"],
+            "explanation": "C 段：抄电话号码簿上的数字是一项几乎人人都觉得乏味的任务（a task that almost everyone finds dull）。选 A dull。E difficult 原文没说，是干扰项。",
+            "evidence": { "para": "C", "quote": "a task that almost everyone finds dull" }
+          },
+          {
+            "id": "q7",
+            "number": 7,
+            "answer": ["B"],
+            "explanation": "C 段：先做无聊任务的那组想出了更多点子（came up with more ideas），即点子的数量更多。选 B number。H quality 讲的是质量，对应的是下一空的 original，不是这里。",
+            "evidence": { "para": "C", "quote": "The volunteers who had first done the boring task came up with more ideas" }
+          },
+          {
+            "id": "q8",
+            "number": 8,
+            "answer": ["C"],
+            "explanation": "C 段：他们的点子还被评为更有原创性（judged to be more original）。选 C original。F practical 原文没提。",
+            "evidence": { "para": "C", "quote": "their ideas were judged to be more original" }
+          },
+          {
+            "id": "q9",
+            "number": 9,
+            "answer": ["D"],
+            "explanation": "C 段末：研究者认为无聊让人思绪游离（encouraged their minds to wander），这种白日梦帮助了创造性思考。选 D wander。G rest 是干扰项，原文说的是走神，不是休息。",
+            "evidence": { "para": "C", "quote": "boredom had encouraged their minds to wander" }
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "instruction": "Choose the correct letter, A, B, C or D.",
+        "questions": [
+          {
+            "id": "q10",
+            "number": 10,
+            "prompt": "In paragraph B, the writer compares boredom to hunger in order to show that boredom",
+            "options": [
+              { "key": "A", "text": "is a physical rather than a mental feeling." },
+              { "key": "B", "text": "pushes people to look for something better to do." },
+              { "key": "C", "text": "is more common when people are tired." },
+              { "key": "D", "text": "disappears if it is ignored for long enough." }
+            ],
+            "answer": ["B"],
+            "explanation": "B 段末：就像饥饿推动我们去找食物，无聊推动我们去找更有意义的事做。对应 B。A、C、D 原文都没提。",
+            "evidence": { "para": "B", "quote": "Like hunger, which pushes us to look for food, boredom seems to push us to look for something more rewarding to do with our time." }
+          },
+          {
+            "id": "q11",
+            "number": 11,
+            "prompt": "According to paragraph F, long periods of boredom",
+            "options": [
+              { "key": "A", "text": "make people more creative." },
+              { "key": "B", "text": "are connected with poor concentration and low mood." },
+              { "key": "C", "text": "are less harmful at work than at school." },
+              { "key": "D", "text": "usually lead to healthier habits." }
+            ],
+            "answer": ["B"],
+            "explanation": "F 段：长期无聊与注意力差、出错和情绪低落有关（have been linked to）。对应 B。A 是短时无聊的好处，不是长期的；C 原文没有比较；D 与原文相反（更可能吃不健康的零食）。",
+            "evidence": { "para": "F", "quote": "Long periods of boredom, especially at work or school, have been linked to poor concentration, mistakes and low mood." }
+          },
+          {
+            "id": "q12",
+            "number": 12,
+            "prompt": "What does the writer think about making jobs more boring?",
+            "options": [
+              { "key": "A", "text": "It would make workers more creative." },
+              { "key": "B", "text": "It is a mistaken idea." },
+              { "key": "C", "text": "Some employers have already tried it." },
+              { "key": "D", "text": "It only works for short periods." }
+            ],
+            "answer": ["B"],
+            "explanation": "F 段末：作者说，因此认为雇主应该让工作更无聊、好让员工更有创造力，是错误的（It would therefore be wrong）。对应 B。A 正是作者否定的观点；C、D 原文没提。",
+            "evidence": { "para": "F", "quote": "It would therefore be wrong to suggest that employers should make jobs more boring in the hope of producing creative workers." }
+          },
+          {
+            "id": "q13",
+            "number": 13,
+            "prompt": "What does the writer recommend in the final paragraph?",
+            "options": [
+              { "key": "A", "text": "choosing boring activities on purpose" },
+              { "key": "B", "text": "not escaping from boredom so quickly" },
+              { "key": "C", "text": "listening to music while walking" },
+              { "key": "D", "text": "taking more showers to get new ideas" }
+            ],
+            "answer": ["B"],
+            "explanation": "G 段：办法不是刻意去找无聊（排除 A），而是不再逃避它（stop running away from it）。对应 B。C 与原文相反（原文建议不戴耳机散步）；D 是把例子当成了建议。",
+            "evidence": { "para": "G", "quote": "The answer is not to seek out boredom deliberately, but to stop running away from it." }
+          }
+        ]
+      }
+    ]
+  }
+]
