@@ -1,7 +1,7 @@
 # nce-practice · 新概念英语练习题库系统
 
 ## 技术栈
-- Node.js 20（CommonJS，`'use strict'`）+ Express 4（唯一运行时依赖），包管理器 npm
+- Node.js 20（CommonJS，`'use strict'`）+ Express 4，包管理器 npm；另有 `@anthropic-ai/sdk`（纯 JS，只给写作 AI 批改用，未配 `ANTHROPIC_API_KEY` 时不调用）
 - 存储：JSON 文件（`lib/store.js` 原子写），无数据库
 - 前端：原生 HTML/CSS/JS，零构建；PWA（`public/sw.js`、`manifest.json`）
 - 原声 MP3：`public/audio/nce/*.mp3` 由 Git LFS 托管（约 550MB）
@@ -19,9 +19,10 @@ docs/            用户指南、原声说明；docs/changes/ 为按日期的变�
 
 ## 常用命令
 ```bash
-npm install                 # 安装依赖（仅 express）
+npm install                 # 安装依赖（express、@anthropic-ai/sdk）
 git lfs install && git lfs pull   # 首次 clone 后拉原声 MP3
 npm start                   # 启动，默认 http://localhost:3737；PORT=8080 npm start 换端口
+npm run start:env           # 读取 .env（ANTHROPIC_API_KEY 等，模板见 .env.example）后启动
 npm run validate            # 数据校验（启动时也会自动跑）
 npm run test:equiv          # 判分等价引擎测试
 npm run test:wordlookup     # 查词检索测试
