@@ -55,6 +55,7 @@ var PRECACHE_URLS = [
   '/js/ielts-chart.js',
   '/js/ielts-writing-ui.js',
   '/js/ielts-speaking-ui.js',
+  '/js/ielts-weakness-ui.js',
   '/js/ielts-history-ui.js',
   '/js/ielts-listening-ui.js',
   '/js/ielts-reading-ui.js',
