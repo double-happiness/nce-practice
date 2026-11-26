@@ -58,6 +58,8 @@
     .srv-ie-gap{font-weight:700;color:#2563eb}
     .srv-ie-mark{background:#fef08a;padding:0 2px;border-radius:3px}
     .srv-ie-pill{display:inline-block;background:#fff7ed;color:#c2410c;border-radius:6px;padding:0 6px;font-size:12px;margin-left:6px}
+    .srv-ie-hint{margin:-8px 0 12px;color:#b45309;font-size:13px;line-height:1.6}
+    .srv-ie-fig{margin:4px 0 10px;min-width:0}
   `;
   document.head.appendChild(style);
 
@@ -92,7 +94,10 @@
     'short-answer': '简答',
     'form-completion': '表格填空',
     'note-completion': '笔记填空',
+    'flowchart-completion': '流程图填空',
     matching: '匹配',
+    'map-labelling': '地图标注',
+    'mcq-multi': '多选',
   };
   const IE_BLANK = '{blank}';
 
@@ -176,8 +181,32 @@
       (choices && ie.choicesTitle ? `<div class="srv-ie-ins"><b>${esc(ie.choicesTitle)}</b></div>` : '') +
       (ie.heading ? `<div class="srv-ie-heading">${esc(ie.heading)}</div>` : '') +
       `<div class="srv-stem">${String(ie.prompt || '').includes(IE_BLANK) ? '' : `<span class="srv-ie-num">${esc(String(ie.number))}</span>`}${iePromptHtml(ie)}</div>` +
-      (NCE.bindPassageLookup ? '<div class="srv-lookup-hint">💡 选中原文或题干中的英文可查词典</div>' : '')
+      // 多选题干是组题干，服务端另给「本组有 N 个正确选项，选出其中一个」
+      (ie.pickHint ? `<div class="srv-ie-hint">${esc(ie.pickHint)}</div>` : '') +
+      (NCE.bindPassageLookup ? '<div class="srv-lookup-hint">💡 选中原文或题干中的英文可查词典</div>' : '') +
+      (ie.figure ? '<div class="srv-ie-fig"></div>' : '')
     );
+  }
+
+  // 地图标注题：有 figure 时在选项上方画地图（卡片进入页面后再挂，按容器实际宽度出图）；
+  // NCE.ielts.chart 由 ielts-chart.js 提供，没加载时给提示。换题 / 小结 / 回首页前释放 resize 监听
+  let figureDispose = null;
+  function releaseIeltsFigure() {
+    if (!figureDispose) return;
+    try {
+      figureDispose();
+    } catch (e) {
+      console.warn('[review] 地图释放失败', e);
+    }
+    figureDispose = null;
+  }
+  function mountIeltsFigure(card, ie) {
+    releaseIeltsFigure();
+    const el = card.querySelector('.srv-ie-fig');
+    if (!el || !ie.figure) return;
+    const chart = NCE.ielts && NCE.ielts.chart;
+    if (chart && typeof chart.mount === 'function') figureDispose = chart.mount(el, ie.figure);
+    else el.innerHTML = '<div class="srv-note">地图需要雅思备考模块的图表脚本，请刷新页面后再试。</div>';
   }
 
   // 作答控件：选择类用单选（值为选项字母 / TRUE 等），填空类用输入框（长度上限与原模块一致）
@@ -213,6 +242,7 @@
   function ieltsFeedbackEl(q, ie, r) {
     const d = r.ielts && typeof r.ielts === 'object' ? r.ielts : {};
     const isChoice = !!ieChoices(ie);
+    const isMulti = ie.groupType === 'mcq-multi';
     const answers = (Array.isArray(r.answer) ? r.answer : [r.answer]).filter((a) => a != null && a !== '').map(String);
     const main = answers[0] || '';
     const mainText = d.answerText || (isChoice ? ieChoiceText(ie, main) : '');
@@ -233,9 +263,15 @@
     fb.innerHTML =
       `<span class="tag ${r.correct ? 'ok' : 'no'}">${r.correct ? '✓ 回答正确' : '✗ 回答错误'}</span>` +
       `<div>你的答案：${mine}${over}</div>` +
-      `<div>正确答案：<b>${esc(main)}</b>${mainText ? ` ${esc(mainText)}` : ''}` +
-      (others.length ? `<span style="color:#94a3b8">（也可：${others.map((x) => esc(x)).join(' / ')}）</span>` : '') +
-      '</div>' +
+      (isMulti
+        // 多选：answer 是本组全部正确选项，逐个列出字母和文字
+        ? `<div>正确答案：${answers.map((k) => {
+          const t = ieChoiceText(ie, k);
+          return `<b>${esc(k)}</b>${t ? ` ${esc(t)}` : ''}`;
+        }).join('；')}<span style="color:#94a3b8">（选中其中任意一个即算对）</span></div>`
+        : `<div>正确答案：<b>${esc(main)}</b>${mainText ? ` ${esc(mainText)}` : ''}` +
+          (others.length ? `<span style="color:#94a3b8">（也可：${others.map((x) => esc(x)).join(' / ')}）</span>` : '') +
+          '</div>') +
       (r.explanation ? `<div class="srv-exp">💡 ${esc(r.explanation)}</div>` : '') +
       ev +
       `<div class="srv-next">⏰ 下次复习：${esc(fmtDue(r.nextDueAt))}</div>`;
@@ -270,6 +306,7 @@
   }
 
   async function renderHome(panel) {
+    releaseIeltsFigure();
     panel.innerHTML = '<div class="srv-wrap"><div class="srv-note">加载中…</div></div>';
     let stats = { due: 0, total: 0, upcoming: 0 };
     let due = { count: 0, questions: [] };
@@ -317,6 +354,7 @@
     let wrong = 0;
 
     function showSummary() {
+      releaseIeltsFigure();
       const wrap = document.createElement('div');
       wrap.className = 'srv-wrap';
       wrap.innerHTML =
@@ -390,8 +428,10 @@
       card.appendChild(actions);
 
       wrap.appendChild(card);
+      releaseIeltsFigure();
       panel.innerHTML = '';
       panel.appendChild(wrap);
+      if (ie && ie.figure) mountIeltsFigure(card, ie);
 
       const spk = card.querySelector('.srv-spk');
       if (spk && NCE.speak) spk.onclick = () => NCE.speak(spk.dataset.speak);
