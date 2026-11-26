@@ -38,6 +38,7 @@
     "import:ielts": "node scripts/import-ielts-local.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^1.14.0",
     "express": "^4.19.2"
   }
 }
