@@ -134,6 +134,10 @@
       !!(opts && opts.quiet)
     );
   }
+  // 删除是用户主动操作，失败照常弹 toast
+  function del(url) {
+    return request(url, { method: 'DELETE' }, false);
+  }
 
   // ---------- 小工具 ----------
   function pad2(n) { return String(n).padStart(2, '0'); }
@@ -671,6 +675,7 @@
     },
     get,
     post,
+    del,
     go,
     reload,
     currentPage: () => st.page,
