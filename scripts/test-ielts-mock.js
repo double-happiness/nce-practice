@@ -200,14 +200,19 @@ const REAL_PAPER = (() => {
   };
 })();
 
-// 每个听力 section 前 n[i] 题答对，其余留空
+// 每个听力 section 前 n[i] 题答对，其余留空。
+// mcq-multi 每题的 answer 是完整正确集合，按题在组内的位置各填一个字母（都填 answer[0] 会被组内去重判错）
 function listeningAnswers(paper, counts) {
   const out = {};
   paper.listening.forEach((sid, i) => {
     const sec = listening.getSection(sid);
     const a = {};
     let k = 0;
-    for (const g of sec.groups) for (const q of g.questions) if (k++ < counts[i]) a[String(q.no)] = q.answer[0];
+    for (const g of sec.groups) {
+      g.questions.forEach((q, j) => {
+        if (k++ < counts[i]) a[String(q.no)] = g.type === 'mcq-multi' ? q.answer[j] : q.answer[0];
+      });
+    }
     out[sid] = a;
   });
   return out;
@@ -437,6 +442,59 @@ test('摘要填空的错题题干：取占位符所在句子', () => {
   const t = 'Bees visit flowers. They collect {q8} from plants and store it in {q9}. Then they rest.';
   assert.strictEqual(M.summarySnippet(t, 'q8'), 'They collect _____ from plants and store it in ___.');
   assert.strictEqual(M.summarySnippet(t, 'q7'), '');
+});
+
+// ---------------- 听力新题型：判分去重与复盘 ----------------
+// 夹具：lx-wetland-tour（Part 2：多选 11–12 答案 B、D；地图 16–20）、lx-river-project（Part 3：三选 21–23；二选 24–25；流程图 26–30）
+const NEW_TYPES = JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'ielts-listening', 'new-types.json'), 'utf8'));
+const NEW_BY_ID = new Map(NEW_TYPES.map((s) => [s.id, s]));
+const NEW_GETTERS = { getSection: (id) => NEW_BY_ID.get(id) || listening.getSection(id) };
+const NEW_PAPER = { ...REAL_PAPER, listening: [REAL_PAPER.listening[0], 'lx-wetland-tour', 'lx-river-project', REAL_PAPER.listening[3]] };
+
+test('模考听力：多选组内去重计分，复盘的多选题干取组 prompt、正确答案给全部选项文字', () => {
+  const m = runningMock(NEW_PAPER, 'listening');
+  const answers = {
+    'lx-wetland-tour': { 11: 'B', 12: 'b', 16: 'B', 17: 'B', 18: 'c' }, // 12 与 11 重复只算 1 分；17 选错
+    'lx-river-project': { 21: 'E', 22: 'a', 23: 'C', 24: 'A', 25: 'D', 26: 'sieved', 27: 'the oven' }, // 25 选错；27 超字数
+  };
+  const g = M.gradeSubmission(m, 'listening', { answers, durationSec: 1800 }, NEW_GETTERS);
+  assert.ok(g.graded, g.error);
+  assert.deepStrictEqual(g.graded.parts.map((p) => p.raw), [0, 3, 5, 0]);
+  assert.strictEqual(g.graded.raw, 8);
+  M.applySubmit(m, 'listening', g.graded, { all: [], writing: {} }, 3000);
+  for (const k of ['reading', 'writing', 'speaking']) m.sections[k].state = 'skipped';
+  Object.assign(m, { status: 'finished', finishedAt: 4000 });
+
+  const review = M.mockView(m, { getters: NEW_GETTERS, now: 5000 }).review.listening;
+  assert.deepStrictEqual(review.map((p) => p.sectionId), NEW_PAPER.listening);
+  const wrongOf = (sid, no) => review.find((p) => p.sectionId === sid).wrong.find((w) => w.no === no);
+
+  const multi = wrongOf('lx-wetland-tour', 12);
+  assert.deepStrictEqual(multi, {
+    no: 12, type: 'mcq-multi', prompt: 'Which TWO things are visitors NOT allowed to do at the reserve?',
+    yours: 'b', yoursText: 'feed the birds', answer: ['B', 'D'], answerText: 'feed the birds / bring dogs',
+    overLimit: false, explanation: NEW_BY_ID.get('lx-wetland-tour').groups[0].questions[1].explanation,
+  });
+  assert.strictEqual(wrongOf('lx-wetland-tour', 11), undefined, '第 11 题填 B 算对');
+  const three = wrongOf('lx-river-project', 25);
+  assert.strictEqual(three.prompt, 'Which TWO problems did the students have during the fieldwork?');
+  assert.strictEqual(three.answerText, 'bad weather / broken equipment');
+  assert.strictEqual(three.yoursText, 'getting lost');
+
+  const map = wrongOf('lx-wetland-tour', 17);
+  assert.strictEqual(map.type, 'map-labelling');
+  assert.strictEqual(map.prompt, 'willow tunnel');
+  assert.deepStrictEqual(map.answer, ['A']);
+  assert.strictEqual(map.answerText, '', '地图题选项没有文字');
+  assert.strictEqual(map.yoursText, '');
+
+  const flow = wrongOf('lx-river-project', 27);
+  assert.strictEqual(flow.type, 'flowchart-completion');
+  assert.strictEqual(flow.prompt, 'Mud dried in an ___ overnight');
+  assert.strictEqual(flow.overLimit, true);
+  assert.strictEqual(flow.answerText, '');
+  const blank = wrongOf('lx-river-project', 28);
+  assert.strictEqual(blank.yours, '');
 });
 
 // ---------------- 接口集成（临时档案）----------------

@@ -1,6 +1,7 @@
 'use strict';
 // 雅思阅读 / 听力错题接入间隔复习的测试：key 解析、resolve、出题不泄露答案、判分与原模块逐题一致、
-// 作答校验、错题入队与去重、原题删除后的清理（以及内容暂时不可用时不清理）、/api/srs 接口全流程。
+// 作答校验、错题入队与去重、原题删除后的清理（以及内容暂时不可用时不清理）、/api/srs 接口全流程，
+// 以及听力多选 / 地图标注 / 流程图填空的复习题（夹具 scripts/fixtures/ielts-listening/new-types.json）。
 // 用法：node scripts/test-ielts-srs.js
 // 隔离：profile.file 被改指向临时目录，雅思内容夹具也写在临时目录，不读写任何真实档案学习数据。
 
@@ -670,6 +671,122 @@ test('交卷：全对不入队；加入复习失败只打日志，交卷照常�
   const user = JSON.parse(fs.readFileSync(path.join(PROFILE_DIR, 'ielts.json'), 'utf8'));
   assert.strictEqual(user.readings.length, 1, '阅读交卷记录照常写入');
   assert.strictEqual(user.listenings.length, 2, '听力交卷记录照常写入');
+});
+
+// ---------------- 新题型：多选 / 地图标注 / 流程图填空 ----------------
+// 夹具：lx-wetland-tour（多选 11–12 答案 B、D；地图 16–20）与 lx-river-project（三选 21–23；二选 24–25；流程图 26–30）
+const NEW_TYPES = JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'ielts-listening', 'new-types.json'), 'utf8'));
+const withNewTypes = (fn) => withContent((c) => c.write('listening', 'a.json', clone(NEW_TYPES)), fn);
+const fxGroup = (sid, type, nth = 0) => NEW_TYPES.find((s) => s.id === sid).groups.filter((g) => g.type === type)[nth];
+
+test('新题型出题：多选用组题干并带 pickHint；地图带 figure；其余 figure 为 null、pickHint 为空', async () => {
+  await withNewTypes(() => {
+    const multi = S.ieltsQuestion(S.resolve('il:lx-wetland-tour:12'));
+    assert.deepStrictEqual(findKeys(multi, ['answer', 'explanation', 'evidence', 'segment']), []);
+    const g = fxGroup('lx-wetland-tour', 'mcq-multi');
+    assert.strictEqual(multi.ielts.groupType, 'mcq-multi');
+    assert.strictEqual(multi.ielts.prompt, g.prompt, '题干取组上的 prompt');
+    assert.strictEqual(multi.ielts.pickHint, '本组有 2 个正确选项，选出其中一个即可');
+    assert.deepStrictEqual(multi.ielts.choices, g.options.map((o) => ({ key: o.key, text: o.text })));
+    assert.strictEqual(multi.ielts.figure, null);
+    assert.ok(multi.stem.includes(g.prompt), '旧版前端的纯文本题干也带组题干');
+    const three = S.ieltsQuestion(S.resolve('il:lx-river-project:22')).ielts;
+    assert.strictEqual(three.pickHint, '本组有 3 个正确选项，选出其中一个即可');
+
+    const map = S.ieltsQuestion(S.resolve('il:lx-wetland-tour:18'));
+    const mg = fxGroup('lx-wetland-tour', 'map-labelling');
+    assert.deepStrictEqual(map.ielts.figure, mg.figure);
+    assert.strictEqual(map.ielts.prompt, 'bird hide');
+    assert.strictEqual(map.ielts.pickHint, '');
+    assert.deepStrictEqual(map.ielts.choices, mg.options.map((o) => ({ key: o.key, text: '' })), '地图题选项没有文字');
+    assert.deepStrictEqual(findKeys(map, ['answer', 'explanation', 'evidence', 'segment']), []);
+
+    const flow = S.ieltsQuestion(S.resolve('il:lx-river-project:27')).ielts;
+    assert.strictEqual(flow.prompt, 'Mud dried in an {blank} overnight');
+    assert.strictEqual(flow.wordLimitLabel, 'ONE WORD ONLY');
+    assert.strictEqual(flow.choices, null);
+    assert.strictEqual(flow.figure, null);
+    assert.strictEqual(flow.pickHint, '');
+    const mcq = S.ieltsQuestion(S.resolve('il:lx-wetland-tour:13')).ielts;
+    assert.strictEqual(mcq.figure, null);
+    assert.strictEqual(mcq.pickHint, '');
+  });
+});
+
+test('出题：每道听力题都带 figure 与 pickHint 字段（旧题型为 null 与空串）', () => {
+  let n = 0;
+  eachListening((s, g, q) => {
+    const ie = S.ieltsQuestion(S.resolve(S.listeningKey(s.id, q.no))).ielts;
+    assert.ok('figure' in ie && 'pickHint' in ie, `${s.id}:${q.no}`);
+    if (g.type !== 'map-labelling') assert.strictEqual(ie.figure, null, `${s.id}:${q.no}`);
+    if (g.type !== 'mcq-multi') assert.strictEqual(ie.pickHint, '', `${s.id}:${q.no}`);
+    n++;
+  });
+  assert.ok(n > 50);
+});
+
+test('新题型复习判分：多选作答在正确集合里即对（不管是哪道题号），并给出全部正确选项文字', async () => {
+  await withNewTypes(() => {
+    // 第 12 题的解析讲 D，但复习时填 B 也算对：单题只判「是否在正确集合里」
+    for (const resp of ['B', 'b', ' D ', 'd']) {
+      assert.strictEqual(gradeKey('il:lx-wetland-tour:12', resp).correct, true, resp);
+      assert.strictEqual(gradeKey('il:lx-wetland-tour:11', resp).correct, true, resp);
+    }
+    const wrong = gradeKey('il:lx-wetland-tour:12', 'C');
+    assert.strictEqual(wrong.correct, false);
+    assert.deepStrictEqual(wrong.answer, ['B', 'D']);
+    assert.strictEqual(wrong.ielts.answerText, 'feed the birds / bring dogs');
+    assert.strictEqual(wrong.ielts.evidence.quote, fxGroup('lx-wetland-tour', 'mcq-multi').questions[1].evidence);
+    assert.strictEqual(gradeKey('il:lx-river-project:23', 'a').correct, true);
+    assert.strictEqual(gradeKey('il:lx-river-project:23', 'a').ielts.answerText, 'a map of the sampling sites / a table of water temperatures / a list of references');
+    assert.strictEqual(gradeKey('il:lx-river-project:23', 'B').correct, false);
+    // 地图题：字母判分，选项没有文字时 answerText 为空串
+    const map = gradeKey('il:lx-wetland-tour:18', 'd');
+    assert.strictEqual(map.correct, false);
+    assert.deepStrictEqual(map.answer, ['C']);
+    assert.strictEqual(map.ielts.answerText, '');
+    assert.strictEqual(gradeKey('il:lx-wetland-tour:18', 'c').correct, true);
+    // 流程图：与填空题相同，超字数判错
+    const over = gradeKey('il:lx-river-project:27', 'an oven');
+    assert.strictEqual(over.correct, false);
+    assert.strictEqual(over.ielts.overLimit, true);
+    assert.strictEqual(over.ielts.wordLimitLabel, 'ONE WORD ONLY');
+    assert.strictEqual(over.ielts.answerText, '');
+    assert.strictEqual(gradeKey('il:lx-river-project:27', 'Oven').correct, true);
+  });
+});
+
+test('新题型复习判分：与 lib/ielts-listening.js gradeQuestion 逐条一致', async () => {
+  await withNewTypes(() => {
+    let n = 0;
+    eachListening((s, g, q) => {
+      const key = S.listeningKey(s.id, q.no);
+      for (const resp of variants(q.answer)) {
+        const want = L.gradeQuestion(q, g, resp);
+        const got = gradeKey(key, resp);
+        assert.strictEqual(got.correct, want.correct, `${key} 「${resp}」`);
+        assert.strictEqual(got.ielts.overLimit, want.overLimit, `${key} 「${resp}」 overLimit`);
+        n++;
+      }
+    });
+    assert.ok(n > 200, `夹具题目的作答变体 ${n} 太少`);
+  });
+});
+
+test('接口：多选、地图题进复习队列后 /srs/due 带 pickHint / figure，/srs/grade 按集合判分', async () => {
+  await withNewTypes(async () => {
+    resetProfile();
+    S.enqueue(['il:lx-wetland-tour:12', 'il:lx-wetland-tour:18']);
+    const due = ok(await call('GET', '/api/srs/due'));
+    assert.deepStrictEqual(findKeys(due.questions, ['answer', 'explanation', 'evidence']), []);
+    const byId = Object.fromEntries(due.questions.map((q) => [q.id, q]));
+    assert.strictEqual(byId['il:lx-wetland-tour:12'].ielts.pickHint, '本组有 2 个正确选项，选出其中一个即可');
+    assert.strictEqual(byId['il:lx-wetland-tour:12'].ielts.figure, null);
+    assert.strictEqual(byId['il:lx-wetland-tour:18'].ielts.figure.type, 'map');
+    const g = ok(await call('POST', '/api/srs/grade', { id: 'il:lx-wetland-tour:12', response: 'b' }));
+    assert.strictEqual(g.correct, true);
+    assert.strictEqual(g.ielts.answerText, 'feed the birds / bring dogs');
+  });
 });
 
 // ---------------- 主流程 ----------------

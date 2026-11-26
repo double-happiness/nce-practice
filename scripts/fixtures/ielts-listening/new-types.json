@@ -1,0 +1,191 @@
+[
+  {
+    "id": "lx-wetland-tour",
+    "part": 2,
+    "title": "A Tour of Marsh Lane Wetland Centre",
+    "titleCn": "测试夹具：湿地中心导览（多选 + 单选 + 地图）",
+    "intro": "Part 2. You will hear a guide talking to visitors at a wetland centre.",
+    "speakers": [{ "id": "guide", "name": "Helen", "gender": "female" }],
+    "segments": [
+      { "speaker": "guide", "text": "Good morning, everyone, and welcome to Marsh Lane. Before we set off, there are a couple of rules." },
+      { "speaker": "guide", "text": "First of all, please don't feed the birds. Bread makes them ill." },
+      { "speaker": "guide", "text": "And I'm afraid dogs aren't allowed anywhere on the reserve. Photographs are fine, of course." },
+      { "speaker": "guide", "text": "One change since last year: the centre now opens an hour earlier, at eight." },
+      { "speaker": "guide", "text": "The East Lake path is closed at the moment because a pair of rare birds are nesting next to it." },
+      { "speaker": "guide", "text": "If it's your first visit, follow the one-hour route marked in green." },
+      { "speaker": "guide", "text": "Now, let's look at the map. We're standing at the visitor centre, at the bottom." },
+      { "speaker": "guide", "text": "As you go through the gate, the picnic area is immediately on your left." },
+      { "speaker": "guide", "text": "The willow tunnel is right in the middle of the trees in the woodland." },
+      { "speaker": "guide", "text": "Keep going north and you'll see the bird hide on the edge of West Lake." },
+      { "speaker": "guide", "text": "The viewing tower is in the far north-east corner, beyond East Lake." },
+      { "speaker": "guide", "text": "Finally, the pond-dipping platform is just south of the meadow." }
+    ],
+    "groups": [
+      {
+        "type": "mcq-multi",
+        "from": 0,
+        "instruction": "Choose TWO letters, A-E.",
+        "prompt": "Which TWO things are visitors NOT allowed to do at the reserve?",
+        "options": [
+          { "key": "A", "text": "use the bird hides" },
+          { "key": "B", "text": "feed the birds" },
+          { "key": "C", "text": "take photographs" },
+          { "key": "D", "text": "bring dogs" },
+          { "key": "E", "text": "walk off the paths" }
+        ],
+        "questions": [
+          { "no": 11, "answer": ["B", "D"], "segment": 1, "evidence": "please don't feed the birds", "explanation": "B 对：please don't feed the birds；C 拍照是允许的。" },
+          { "no": 12, "answer": ["B", "D"], "segment": 2, "evidence": "dogs aren't allowed anywhere on the reserve", "explanation": "D 对：dogs aren't allowed。" }
+        ]
+      },
+      {
+        "type": "mcq",
+        "from": 3,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          {
+            "no": 13, "prompt": "What has changed at the centre since last year?",
+            "options": [{ "key": "A", "text": "It opens earlier." }, { "key": "B", "text": "It has a new café." }, { "key": "C", "text": "It charges less." }],
+            "answer": ["A"], "segment": 3, "evidence": "opens an hour earlier", "explanation": "opens an hour earlier 即提前开门。"
+          },
+          {
+            "no": 14, "prompt": "Why is the East Lake path closed?",
+            "options": [{ "key": "A", "text": "It is flooded." }, { "key": "B", "text": "Birds are nesting there." }, { "key": "C", "text": "It is being repaired." }],
+            "answer": ["B"], "segment": 4, "evidence": "a pair of rare birds are nesting next to it", "explanation": "rare birds are nesting。"
+          },
+          {
+            "no": 15, "prompt": "What does Helen suggest first-time visitors do?",
+            "options": [{ "key": "A", "text": "hire a guide" }, { "key": "B", "text": "follow the green route" }, { "key": "C", "text": "start at East Lake" }],
+            "answer": ["B"], "segment": 5, "evidence": "follow the one-hour route marked in green", "explanation": "route marked in green。"
+          }
+        ]
+      },
+      {
+        "type": "map-labelling",
+        "from": 6,
+        "instruction": "Label the map below. Write the correct letter, A-H, next to Questions 16-20.",
+        "figure": {
+          "type": "map",
+          "title": "Marsh Lane Wetland Centre",
+          "compass": true,
+          "maps": [
+            {
+              "title": "",
+              "features": [
+                { "kind": "water", "x": 8, "y": 14, "w": 30, "h": 26, "label": "West Lake" },
+                { "kind": "water", "x": 62, "y": 14, "w": 30, "h": 26, "label": "East Lake" },
+                { "kind": "park", "x": 8, "y": 54, "w": 30, "h": 24, "label": "Woodland" },
+                { "kind": "park", "x": 60, "y": 54, "w": 32, "h": 24, "label": "Meadow" },
+                { "kind": "road", "x": 48, "y": 46, "w": 4, "h": 38, "label": "" },
+                { "kind": "building", "x": 40, "y": 84, "w": 20, "h": 12, "label": "Visitor centre" },
+                { "kind": "label", "x": 23, "y": 66, "label": "A" },
+                { "kind": "label", "x": 43, "y": 78, "label": "B" },
+                { "kind": "label", "x": 22, "y": 42, "label": "C" },
+                { "kind": "label", "x": 42, "y": 35, "label": "D" },
+                { "kind": "label", "x": 58, "y": 35, "w": 0, "h": 0, "label": "E" },
+                { "kind": "label", "x": 90, "y": 7, "label": "F" },
+                { "kind": "label", "x": 76, "y": 80, "label": "G" },
+                { "kind": "label", "x": 96, "y": 50, "label": "H" }
+              ]
+            }
+          ]
+        },
+        "options": [{ "key": "A" }, { "key": "B" }, { "key": "C" }, { "key": "D" }, { "key": "E" }, { "key": "F" }, { "key": "G" }, { "key": "H" }],
+        "questions": [
+          { "no": 16, "prompt": "picnic area", "answer": ["B"], "segment": 7, "evidence": "the picnic area is immediately on your left", "explanation": "进门左手边是 B。" },
+          { "no": 17, "prompt": "willow tunnel", "answer": ["A"], "segment": 8, "evidence": "right in the middle of the trees", "explanation": "树林正中是 A。" },
+          { "no": 18, "prompt": "bird hide", "answer": ["C"], "segment": 9, "evidence": "the bird hide on the edge of West Lake", "explanation": "West Lake 边上是 C。" },
+          { "no": 19, "prompt": "viewing tower", "answer": ["F"], "segment": 10, "evidence": "in the far north-east corner", "explanation": "东北角是 F。" },
+          { "no": 20, "prompt": "pond-dipping platform", "answer": ["G"], "segment": 11, "evidence": "just south of the meadow", "explanation": "草地南边是 G。" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lx-river-project",
+    "part": 3,
+    "title": "A River Fieldwork Project",
+    "titleCn": "测试夹具：河流野外项目（三选 + 二选 + 流程图）",
+    "intro": "Part 3. You will hear two students discussing their fieldwork report.",
+    "speakers": [
+      { "id": "anna", "name": "Anna", "gender": "female" },
+      { "id": "ben", "name": "Ben", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "anna", "text": "So, Ben, we need to decide what goes into the report on the river project." },
+      { "speaker": "ben", "text": "Well, the tutor said we must include a map of the sampling sites." },
+      { "speaker": "anna", "text": "Right, and a table of the water temperatures, of course. Photos are optional." },
+      { "speaker": "ben", "text": "And she wants a short list of references at the end." },
+      { "speaker": "anna", "text": "What about the problems we had during the fieldwork?" },
+      { "speaker": "ben", "text": "The worst thing was the weather. It rained almost every day." },
+      { "speaker": "anna", "text": "And the equipment kept breaking, especially the pH meter." },
+      { "speaker": "ben", "text": "OK, now let's go over how we processed the samples." },
+      { "speaker": "anna", "text": "First, the mud was sieved to remove stones." },
+      { "speaker": "ben", "text": "Then we dried it in an oven overnight." },
+      { "speaker": "anna", "text": "After that, each sample was weighed on the digital scales." },
+      { "speaker": "ben", "text": "Next, we added a few drops of acid to test for lime." },
+      { "speaker": "anna", "text": "Finally, the results were entered into a spreadsheet." }
+    ],
+    "groups": [
+      {
+        "type": "mcq-multi",
+        "from": 0,
+        "instruction": "Choose THREE letters, A-F.",
+        "prompt": "Which THREE things must the students include in their report?",
+        "options": [
+          { "key": "A", "text": "a map of the sampling sites" },
+          { "key": "B", "text": "photographs of the river" },
+          { "key": "C", "text": "a table of water temperatures" },
+          { "key": "D", "text": "interviews with local people" },
+          { "key": "E", "text": "a list of references" },
+          { "key": "F", "text": "a budget" }
+        ],
+        "questions": [
+          { "no": 21, "answer": ["A", "C", "E"], "segment": 1, "evidence": "include a map of the sampling sites", "explanation": "A：must include a map。" },
+          { "no": 22, "answer": ["A", "C", "E"], "segment": 2, "evidence": "a table of the water temperatures", "explanation": "C：table of the water temperatures；B 照片是可选的。" },
+          { "no": 23, "answer": ["A", "C", "E"], "segment": 3, "evidence": "a short list of references", "explanation": "E：list of references。" }
+        ]
+      },
+      {
+        "type": "mcq-multi",
+        "from": 4,
+        "instruction": "Choose TWO letters, A-E.",
+        "prompt": "Which TWO problems did the students have during the fieldwork?",
+        "options": [
+          { "key": "A", "text": "bad weather" },
+          { "key": "B", "text": "lack of time" },
+          { "key": "C", "text": "broken equipment" },
+          { "key": "D", "text": "getting lost" },
+          { "key": "E", "text": "too few volunteers" }
+        ],
+        "questions": [
+          { "no": 24, "answer": ["A", "C"], "segment": 5, "evidence": "It rained almost every day", "explanation": "A：天气。" },
+          { "no": 25, "answer": ["A", "C"], "segment": 6, "evidence": "the equipment kept breaking", "explanation": "C：设备坏了。" }
+        ]
+      },
+      {
+        "type": "flowchart-completion",
+        "from": 7,
+        "instruction": "Complete the flow-chart below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "How the samples were processed",
+        "flow": [
+          { "text": "Samples collected from the river" },
+          { "no": 26 },
+          { "no": 27 },
+          { "no": 28 },
+          { "no": 29 },
+          { "no": 30 },
+          { "text": "Report written up" }
+        ],
+        "questions": [
+          { "no": 26, "prompt": "Mud ___ to remove stones", "answer": ["sieved"], "segment": 8, "explanation": "the mud was sieved。" },
+          { "no": 27, "prompt": "Mud dried in an ___ overnight", "answer": ["oven"], "segment": 9, "explanation": "dried it in an oven。" },
+          { "no": 28, "prompt": "Each sample ___ on digital scales", "answer": ["weighed"], "segment": 10, "explanation": "was weighed。" },
+          { "no": 29, "prompt": "A few drops of ___ added to test for lime", "answer": ["acid"], "segment": 11, "explanation": "drops of acid。" },
+          { "no": 30, "prompt": "Results entered into a ___", "answer": ["spreadsheet"], "segment": 12, "explanation": "entered into a spreadsheet。" }
+        ]
+      }
+    ]
+  }
+]

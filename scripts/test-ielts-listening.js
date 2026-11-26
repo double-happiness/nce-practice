@@ -1,6 +1,7 @@
 'use strict';
-// 雅思听力测试：判分（拼写、大小写、数字写法、字数超限）、band 换算、内容校验（真实数据 + 人为构造的坏数据）、记录清洗。
-// 用法：node scripts/test-ielts-listening.js（只读 data/ielts/listening/ 与临时目录，不读写任何档案学习数据）
+// 雅思听力测试：判分（拼写、大小写、数字写法、字数超限）、band 换算、内容校验（真实数据 + 人为构造的坏数据）、记录清洗，
+// 以及多选（组内去重）、地图标注、流程图填空三种题组（夹具 scripts/fixtures/ielts-listening/new-types.json）。
+// 用法：node scripts/test-ielts-listening.js（只读 data/ielts/listening/、夹具与临时目录，不读写任何档案学习数据）
 
 const fs = require('fs');
 const os = require('os');
@@ -35,6 +36,16 @@ function findQ(s, no) {
 }
 const errorsOf = (s) => L.validateSection(s).errors;
 const hasError = (s, re) => errorsOf(s).some((m) => re.test(m));
+// 全对作答：mcq-multi 每题的 answer 是完整正确集合，按题在组内的位置各填一个字母（都填 answer[0] 会被组内去重判错）
+function correctAnswers(s) {
+  const out = {};
+  for (const g of s.groups) {
+    g.questions.forEach((q, i) => {
+      out[String(q.no)] = g.type === 'mcq-multi' ? q.answer[i] : q.answer[0];
+    });
+  }
+  return out;
+}
 
 // ---------------- 归一化与字数限制 ----------------
 test('归一化：大小写、多余空白、首尾标点、全角、弯引号、千分位、货币空格', () => {
@@ -142,9 +153,7 @@ test('判分：空答案判错；选择题字母不区分大小写', () => {
 
 test('整组判分：首选写法全对 10/10；逐题结果带答案、解析、段落', () => {
   for (const s of L.getSections()) {
-    const answers = {};
-    for (const g of s.groups) for (const q of g.questions) answers[String(q.no)] = q.answer[0];
-    const r = L.gradeSection(s, answers);
+    const r = L.gradeSection(s, correctAnswers(s));
     assert.strictEqual(r.raw, r.total, `${s.id} 首选写法应全对`);
     assert.strictEqual(r.total, 10);
     assert.strictEqual(r.band, 9);
@@ -205,10 +214,18 @@ test('真实数据：0 错误 0 警告，每部分至少 2 个 section、每个 
 
 test('真实数据：各部分题型与人数符合约定，Part 1 含拼写与数字', () => {
   const types = (p) => new Set(L.getSections().filter((s) => s.part === p).flatMap((s) => s.groups.map((g) => g.type)));
-  assert.deepStrictEqual([...types(1)].sort(), ['form-completion', 'note-completion']);
-  assert.deepStrictEqual([...types(2)].sort(), ['matching', 'mcq']);
-  assert.deepStrictEqual([...types(3)].sort(), ['matching', 'mcq', 'sentence-completion']);
-  assert.deepStrictEqual([...types(4)].sort(), ['note-completion', 'summary-completion']);
+  // 每部分至少有原有题型，且不超出约定（新题型的内容分批加入，这里不写死）
+  const expect = {
+    1: [['form-completion', 'note-completion'], []],
+    2: [['matching', 'mcq'], ['map-labelling', 'mcq-multi']],
+    3: [['matching', 'mcq', 'sentence-completion'], ['flowchart-completion', 'mcq-multi']],
+    4: [['note-completion', 'summary-completion'], ['flowchart-completion']],
+  };
+  for (const [p, [must, extra]] of Object.entries(expect)) {
+    const got = types(Number(p));
+    for (const t of must) assert.ok(got.has(t), `Part ${p} 缺 ${t}`);
+    for (const t of got) assert.ok(must.includes(t) || extra.includes(t), `Part ${p} 出现约定外的 ${t}`);
+  }
   for (const s of L.getSections().filter((x) => x.part === 1)) {
     const text = s.segments.map((x) => x.text).join(' ');
     assert.ok(/\b[A-Z], [A-Z], /.test(text), `${s.id} 应有逐字母拼写`);
@@ -349,6 +366,319 @@ test('加载：有 error 的 section 跳过不下发，坏 JSON 记为读取问�
     L.reload();
     fs.rmSync(dir, { recursive: true, force: true });
   }
+});
+
+// ---------------- 新题型：多选 / 地图标注 / 流程图填空 ----------------
+const FIXTURE = JSON.parse(fs.readFileSync(path.join(__dirname, 'fixtures', 'ielts-listening', 'new-types.json'), 'utf8'));
+const fx = (id) => clone(FIXTURE.find((s) => s.id === id));
+const wetland = () => fx('lx-wetland-tour'); // Part 2：mcq-multi 11–12（B、D）+ mcq 13–15 + map-labelling 16–20
+const river = () => fx('lx-river-project'); // Part 3：mcq-multi 21–23（A、C、E）+ mcq-multi 24–25（A、C）+ flowchart 26–30
+const groupOf = (s, type, nth = 0) => s.groups.filter((g) => g.type === type)[nth];
+const rawOf = (s, answers) => L.gradeSection(s, answers).raw;
+const resultOf = (s, answers, no) => L.gradeSection(s, answers).results.find((x) => x.no === no);
+
+test('题型常量：顺序为填空类（原 4 种 + 流程图）在前、选择类在后', () => {
+  assert.deepStrictEqual(L.COMPLETION_TYPES, ['form-completion', 'note-completion', 'sentence-completion', 'summary-completion', 'flowchart-completion']);
+  assert.deepStrictEqual(L.CHOICE_TYPES, ['mcq', 'matching', 'map-labelling', 'mcq-multi']);
+  assert.deepStrictEqual(L.GROUP_TYPES, [...L.COMPLETION_TYPES, ...L.CHOICE_TYPES]);
+});
+
+test('夹具：三种新题组合法，0 错误 0 警告；首选写法全对', () => {
+  for (const s of FIXTURE) {
+    assert.deepStrictEqual(L.validateSection(s), { errors: [], warnings: [] }, s.id);
+    assert.strictEqual(rawOf(s, correctAnswers(s)), 10, s.id);
+  }
+});
+
+test('optionsOf / promptOf：按题型取选项与题干', () => {
+  const s = wetland();
+  const multi = groupOf(s, 'mcq-multi');
+  const mcq = groupOf(s, 'mcq');
+  const map = groupOf(s, 'map-labelling');
+  assert.strictEqual(L.optionsOf(multi, multi.questions[0]), multi.options);
+  assert.strictEqual(L.optionsOf(mcq, mcq.questions[1]), mcq.questions[1].options);
+  assert.strictEqual(L.optionsOf(map, map.questions[0]), map.options);
+  const castle = clone(section('l2-castle-tour'));
+  const matching = groupOf(castle, 'matching');
+  assert.strictEqual(L.optionsOf(matching, matching.questions[0]), matching.options);
+  const flow = groupOf(river(), 'flowchart-completion');
+  assert.strictEqual(L.optionsOf(flow, flow.questions[0]), null);
+  const form = section('l1-sports-centre').groups[0];
+  assert.strictEqual(L.optionsOf(form, form.questions[0]), null);
+  assert.strictEqual(L.optionsOf(null, null), null);
+  assert.strictEqual(L.optionsOf({ type: 'mcq' }, {}), null, '选项不是数组时为 null');
+  assert.strictEqual(L.promptOf(multi, multi.questions[0]), multi.prompt);
+  assert.strictEqual(L.promptOf(mcq, mcq.questions[0]), mcq.questions[0].prompt);
+  assert.strictEqual(L.promptOf(map, map.questions[2]), 'bird hide');
+  assert.strictEqual(L.promptOf(flow, {}), '');
+});
+
+test('多选判分：组内去重，顺序不限、大小写不敏感', () => {
+  const s = wetland();
+  const base = correctAnswers(s); // 其余 8 题全对，只改 11、12
+  const with12 = (a11, a12) => {
+    const a = { ...base, 11: a11, 12: a12 };
+    if (a11 === undefined) delete a[11];
+    if (a12 === undefined) delete a[12];
+    return a;
+  };
+  const multiRaw = (a11, a12) => rawOf(s, with12(a11, a12)) - 8;
+  assert.strictEqual(multiRaw('B', 'D'), 2);
+  assert.strictEqual(multiRaw('D', 'B'), 2, '顺序不限');
+  assert.strictEqual(multiRaw('B', 'B'), 1, '两题都填 B 只得 1 分');
+  assert.strictEqual(multiRaw('B', ''), 1);
+  assert.strictEqual(multiRaw('B', undefined), 1);
+  assert.strictEqual(multiRaw('b', 'd'), 2, '小写也算');
+  assert.strictEqual(multiRaw(' d ', 'D'), 1, '去重不分大小写、忽略首尾空白');
+  assert.strictEqual(multiRaw('A', 'C'), 0);
+  assert.strictEqual(multiRaw('A', 'B'), 1);
+  // 去重按题号顺序：先出现的题得分
+  const r = L.gradeSection(s, with12('B', 'B'));
+  assert.deepStrictEqual(r.results.filter((x) => x.no <= 12).map((x) => [x.no, x.correct, x.yours]), [[11, true, 'B'], [12, false, 'B']]);
+  // 结果形状不变，answer 是完整正确集合
+  const x = resultOf(s, with12('d', 'B'), 11);
+  assert.deepStrictEqual(Object.keys(x).sort(), ['answer', 'correct', 'evidence', 'explanation', 'no', 'overLimit', 'segment', 'yours']);
+  assert.deepStrictEqual(x.answer, ['B', 'D']);
+  assert.strictEqual(x.yours, 'd');
+  assert.strictEqual(x.overLimit, false);
+  // 题目数组没按题号排列时仍按题号去重（不依赖数组顺序）
+  const swapped = wetland();
+  groupOf(swapped, 'mcq-multi').questions.reverse();
+  const got = L.gradeSection(swapped, with12('B', 'B')).results.filter((y) => y.no <= 12).map((y) => [y.no, y.correct]);
+  assert.deepStrictEqual(got.sort((a, b) => a[0] - b[0]), [[11, true], [12, false]]);
+});
+
+test('多选判分：三选一组，去重只在本组内', () => {
+  const s = river();
+  assert.strictEqual(rawOf(s, { 21: 'E', 22: 'A', 23: 'C' }), 3);
+  assert.strictEqual(rawOf(s, { 21: 'A', 22: 'A', 23: 'C' }), 2);
+  assert.strictEqual(rawOf(s, { 21: 'A', 22: 'A', 23: 'a' }), 1);
+  assert.strictEqual(rawOf(s, { 21: 'B', 22: 'D', 23: 'F' }), 0);
+  // 第 21 题和第 24 题都填 A：分属两组，各自算对
+  assert.strictEqual(rawOf(s, { 21: 'A', 24: 'A' }), 2);
+  assert.strictEqual(rawOf(s, { 24: 'C', 25: 'c' }), 1);
+});
+
+test('多选 gradeQuestion：单题只判「是否在正确集合里」', () => {
+  const s = wetland();
+  const g = groupOf(s, 'mcq-multi');
+  const [q11, q12] = g.questions;
+  assert.strictEqual(L.gradeQuestion(q12, g, 'B').correct, true, '第 12 题填 B 也在集合里');
+  assert.strictEqual(L.gradeQuestion(q11, g, 'd').correct, true);
+  assert.strictEqual(L.gradeQuestion(q11, g, 'C').correct, false);
+  assert.strictEqual(L.gradeQuestion(q11, g, 'feed the birds').correct, false, '只认字母');
+  assert.deepStrictEqual(L.gradeQuestion(q11, g, ' '), { correct: false, overLimit: false, empty: true });
+});
+
+test('地图标注判分：一个字母、不分大小写，写地名不算', () => {
+  const s = wetland();
+  const g = groupOf(s, 'map-labelling');
+  const q = g.questions.find((x) => x.no === 18); // C
+  assert.strictEqual(L.gradeQuestion(q, g, 'C').correct, true);
+  assert.strictEqual(L.gradeQuestion(q, g, ' c ').correct, true);
+  assert.strictEqual(L.gradeQuestion(q, g, 'D').correct, false);
+  assert.strictEqual(L.gradeQuestion(q, g, 'bird hide').correct, false);
+  // 地图题不做组内去重：第 16、17 题都填 B，16 对（答案 B）、17 错（答案 A）
+  const a = { ...correctAnswers(s), 16: 'B', 17: 'B' };
+  assert.strictEqual(rawOf(s, a), 9);
+  assert.strictEqual(resultOf(s, a, 16).correct, true);
+  assert.strictEqual(resultOf(s, a, 17).correct, false);
+});
+
+test('流程图填空判分：与笔记填空相同（拼写、大小写、字数限制）', () => {
+  const s = river();
+  const g = groupOf(s, 'flowchart-completion');
+  const q = g.questions.find((x) => x.no === 27); // oven，ONE WORD ONLY
+  assert.strictEqual(L.gradeQuestion(q, g, 'Oven').correct, true);
+  assert.strictEqual(L.gradeQuestion(q, g, ' OVEN. ').correct, true);
+  assert.strictEqual(L.gradeQuestion(q, g, 'ovan').correct, false);
+  assert.deepStrictEqual(L.gradeQuestion(q, g, 'an oven'), { correct: false, overLimit: true, empty: false });
+  const r = resultOf(s, { 26: 'sieved', 27: 'the oven' }, 27);
+  assert.strictEqual(r.overLimit, true);
+  assert.strictEqual(r.correct, false);
+  assert.strictEqual(resultOf(s, { 26: 'SIEVED' }, 26).correct, true);
+});
+
+test('Part 题型约定：新题型放在约定的 Part 不报 warning，放错只给 warning', () => {
+  // 夹具本身（Part 2 多选 + 地图、Part 3 多选 + 流程图）0 警告已在上面验证；这里补 Part 4 的流程图
+  const p4 = river();
+  p4.part = 4;
+  p4.speakers.pop();
+  p4.segments.forEach((sg) => { sg.speaker = 'anna'; });
+  const w4 = L.validateSection(p4);
+  assert.deepStrictEqual(w4.errors, []);
+  assert.ok(!w4.warnings.some((m) => /一般不用 flowchart-completion/.test(m)), w4.warnings.join('\n'));
+  const cases = [
+    [wetland(), 3, /Part 3 一般不用 map-labelling/],
+    [river(), 2, /Part 2 一般不用 flowchart-completion/],
+    [wetland(), 1, /Part 1 一般不用 mcq-multi/],
+    [river(), 4, /Part 4 一般不用 mcq-multi/],
+  ];
+  for (const [s, part, re] of cases) {
+    s.part = part;
+    const r = L.validateSection(s);
+    assert.deepStrictEqual(r.errors, []);
+    assert.ok(r.warnings.some((m) => re.test(m)), `${re}：${r.warnings.join('\n')}`);
+  }
+});
+
+// 对夹具做一处改动，期望出现某条错误
+function expectError(make, mutate, re, label) {
+  const s = make();
+  mutate(s);
+  const errs = errorsOf(s);
+  assert.ok(errs.some((m) => re.test(m)), `${label || re} 期望 ${re}，实际：\n${errs.join('\n')}`);
+}
+
+test('坏数据：流程图 flow', () => {
+  const flow = (s) => groupOf(s, 'flowchart-completion');
+  const cases = [
+    [(s) => { flow(s).flow = []; }, /flow: 必须是非空数组/],
+    [(s) => { flow(s).flow = 'x'; }, /flow: 必须是非空数组/],
+    [(s) => { flow(s).flow[0] = 'step'; }, /flow\[0\]: 必须是对象/],
+    [(s) => { flow(s).flow[0].note = 'x'; }, /flow\[0\]: 未知字段 note/],
+    [(s) => { flow(s).flow[0] = { text: 'x', no: 26 }; }, /flow\[0\]: 必须且只能有 text 或 no 之一/],
+    [(s) => { flow(s).flow[0] = {}; }, /flow\[0\]: 必须且只能有 text 或 no 之一/],
+    [(s) => { flow(s).flow[0].text = '  '; }, /flow\[0\]: text 必须是非空字符串/],
+    [(s) => { flow(s).flow[0].text = 'Samples ___ from the river'; }, /flow\[0\]: text 是固定步骤，不能含 ___/],
+    [(s) => { flow(s).flow[1].no = 25; }, /flow\[1\]: no 25 不是本组的题号/],
+    [(s) => { flow(s).flow[1].no = '26'; }, /flow\[1\]: no 26 不是本组的题号/],
+    [(s) => { flow(s).flow.splice(1, 1); }, /第 26 题必须在流程里恰好出现一次（实际 0 次）/],
+    [(s) => { flow(s).flow.push({ no: 30 }); }, /第 30 题必须在流程里恰好出现一次（实际 2 次）/],
+    [(s) => { flow(s).questions[0].prompt = 'Mud sieved to remove stones'; }, /恰好包含一个 ___/],
+    [(s) => { delete flow(s).wordLimit; }, /填空题必须给出 wordLimit/],
+    [(s) => { flow(s).questions[1].answer = ['microwave']; }, /都没有出现在 segment 9/],
+    [(s) => { groupOf(s, 'mcq-multi').flow = [{ no: 21 }]; }, /只有 flowchart-completion 组可以有 flow/],
+  ];
+  cases.forEach(([mutate, re], i) => expectError(river, mutate, re, `case ${i}`));
+  // 没有 flow 也合法（前端按题号顺序每题一个框）
+  const s = river();
+  delete flow(s).flow;
+  assert.deepStrictEqual(L.validateSection(s), { errors: [], warnings: [] });
+});
+
+test('坏数据：地图标注 figure 与地物', () => {
+  const map = (s) => groupOf(s, 'map-labelling');
+  const feats = (s) => map(s).figure.maps[0].features;
+  const cases = [
+    [(s) => { delete map(s).figure; }, /figure: 地图题必须给出 figure/],
+    [(s) => { map(s).figure = []; }, /figure: 地图题必须给出 figure/],
+    [(s) => { map(s).figure.type = 'bar'; }, /figure: type 必须是 map/],
+    [(s) => { map(s).figure.compass = 'yes'; }, /figure: compass 必须是 true \/ false/],
+    [(s) => { map(s).figure.title = 3; }, /figure: title 必须是字符串/],
+    [(s) => { map(s).figure.maps.push(clone(map(s).figure.maps[0])); }, /maps 必须恰好 1 张（实际 2）/],
+    [(s) => { map(s).figure.maps = {}; }, /maps 必须恰好 1 张（实际 非数组）/],
+    [(s) => { map(s).figure.maps[0] = 'x'; }, /maps\[0\]: 必须是对象/],
+    [(s) => { map(s).figure.maps[0].features = []; }, /features 不能为空/],
+    [(s) => { feats(s)[0] = null; }, /features\[0\]: 必须是对象/],
+    [(s) => { feats(s)[0].kind = 'river'; }, /features\[0\]: kind 必须是 building \/ road \/ park \/ water \/ car-park \/ label/],
+    [(s) => { feats(s)[0].x = 101; }, /features\[0\]: x 必须是 0–100 的数字/],
+    [(s) => { feats(s)[0].y = -1; }, /features\[0\]: y 必须是 0–100 的数字/],
+    [(s) => { feats(s)[0].w = '30'; }, /features\[0\]: w 必须是 0–100 的数字/],
+    [(s) => { delete feats(s)[0].h; }, /features\[0\]: h 必须是 0–100 的数字/],
+    [(s) => { feats(s)[0].x = 80; }, /features\[0\]: 超出地图范围/],
+    [(s) => { feats(s)[0].h = 0; }, /features\[0\]: water 的 w、h 必须大于 0/],
+    [(s) => { feats(s)[0].label = 5; }, /features\[0\]: label 必须是字符串/],
+    [(s) => { feats(s)[6].label = ''; }, /features\[6\]: label 地物的 label 不能为空/],
+    [(s) => { feats(s)[6].w = 120; }, /features\[6\]: w 必须是 0–100 的数字/],
+    [(s) => { feats(s)[6].x = 99; feats(s)[6].w = 5; }, /features\[6\]: 超出地图范围/],
+    [(s) => { groupOf(s, 'mcq').figure = clone(map(s).figure); }, /只有 map-labelling 组可以有 figure/],
+  ];
+  cases.forEach(([mutate, re], i) => expectError(wetland, mutate, re, `case ${i}`));
+});
+
+test('坏数据：地图标注选项与题目', () => {
+  const map = (s) => groupOf(s, 'map-labelling');
+  const feats = (s) => map(s).figure.maps[0].features;
+  const cases = [
+    [(s) => { map(s).options[0].key = 'a'; }, /options\[0\]: 选项必须是 \{ key: 单个大写字母, text: 非空字符串（可省） \}/],
+    [(s) => { map(s).options[0].text = ''; }, /options\[0\]: 选项必须是/],
+    [(s) => { map(s).options[1].key = 'A'; }, /options\[1\]: 选项字母重复 \(A\)/],
+    [(s) => { map(s).options.push({ key: 'J' }); }, /选项 J 在图上找不到/],
+    [(s) => { feats(s)[8].label = 'c'; }, /选项 C 在图上找不到/],
+    [(s) => { Object.assign(feats(s)[8], { kind: 'building', w: 4, h: 4 }); }, /选项 C 在图上找不到/],
+    [(s) => { map(s).options = map(s).options.slice(0, 6); }, /地图题选项至少要比题数多 2 个（本组 5 题，至少 7 个选项，实际 6）/],
+    [(s) => { delete map(s).options; }, /至少需要 3 个选项/],
+    [(s) => { map(s).questions[0].answer = ['J']; }, /answer J 不在选项里/],
+    [(s) => { map(s).questions[0].answer = ['B', 'C']; }, /只能有一个字母/],
+    [(s) => { delete map(s).questions[0].prompt; }, /no=16: 缺少 prompt/],
+    [(s) => { delete map(s).questions[0].evidence; }, /no=16: 选择 \/ 匹配题必须给出 evidence/],
+    [(s) => { map(s).questions[0].evidence = 'on your right'; }, /evidence「on your right」没有出现在 segment 7/],
+    [(s) => { map(s).questions[0].options = [{ key: 'A', text: 'x' }]; }, /只有 mcq 题可以有 options/],
+  ];
+  cases.forEach(([mutate, re], i) => expectError(wetland, mutate, re, `case ${i}`));
+  // figure 本身坏了时只报 figure 的错，不再逐个报「在图上找不到」
+  const s = wetland();
+  map(s).figure.maps.push({ title: '', features: [] });
+  assert.ok(!errorsOf(s).some((m) => /在图上找不到/.test(m)), errorsOf(s).join('\n'));
+  // 选项给了 text 也可以
+  const t = wetland();
+  map(t).options.forEach((o) => { o.text = `place ${o.key}`; });
+  assert.deepStrictEqual(errorsOf(t), []);
+});
+
+test('坏数据：多选组', () => {
+  const multi = (s) => groupOf(s, 'mcq-multi');
+  const cases = [
+    [(s) => { delete multi(s).prompt; }, /多选题组必须给出 prompt/],
+    [(s) => { multi(s).prompt = ' '; }, /多选题组必须给出 prompt/],
+    [(s) => { multi(s).options = multi(s).options.slice(0, 2); }, /至少需要 3 个选项/],
+    [(s) => { for (const k of ['F', 'G', 'H']) multi(s).options.push({ key: k, text: k }); }, /最多 7 个选项（实际 8）/],
+    [(s) => { delete multi(s).options[0].text; }, /options\[0\]: 选项必须是 \{ key: 单个大写字母, text: 非空字符串 \}/],
+    [(s) => { multi(s).options[2].key = 'B'; }, /选项字母重复 \(B\)/],
+    [(s) => { multi(s).questions.pop(); }, /多选题一组必须是 2 或 3 题（题数 = 要选的个数，实际 1）/],
+    [(s) => { multi(s).questions[1].answer = ['D', 'B']; }, /组内每题的 answer 必须完全相同/],
+    [(s) => { multi(s).questions[1].answer = ['B', 'E']; }, /组内每题的 answer 必须完全相同/],
+    [(s) => { multi(s).questions.forEach((q) => { q.answer = ['B']; }); }, /个数等于本组题数 2（实际 1）/],
+    [(s) => { multi(s).questions.forEach((q) => { q.answer = ['B', 'D', 'E']; }); }, /个数等于本组题数 2（实际 3）/],
+    [(s) => { multi(s).questions.forEach((q) => { q.answer = ['B', 'B']; }); }, /多选题 answer 有重复字母/],
+    [(s) => { multi(s).questions.forEach((q) => { q.answer = ['B', 'J']; }); }, /answer J 不在选项里/],
+    [(s) => { multi(s).questions.forEach((q) => { q.answer = ['B', 'd']; }); }, /answer d 不在选项里/],
+    [(s) => { multi(s).questions[0].prompt = ''; }, /no=11: prompt 必须是非空字符串（多选题可省/],
+    [(s) => { delete multi(s).questions[1].evidence; }, /no=12: 选择 \/ 匹配题必须给出 evidence/],
+    [(s) => { multi(s).questions[1].evidence = "please don't feed the birds"; }, /no=12: evidence「please don't feed the birds」没有出现在 segment 2/],
+    [(s) => { multi(s).questions[1].segment = 4; }, /no=12: segment 4 不在本组音频范围 0–2 内/],
+    [(s) => { delete multi(s).questions[0].explanation; }, /no=11: 缺少 explanation/],
+    [(s) => { multi(s).questions[0].options = [{ key: 'A', text: 'x' }]; }, /只有 mcq 题可以有 options（matching \/ map-labelling \/ mcq-multi 的选项放在组上）/],
+    [(s) => { groupOf(s, 'mcq').prompt = 'Which?'; }, /只有 mcq-multi 组可以有 prompt/],
+    [(s) => { groupOf(s, 'mcq').options = clone(multi(s).options); }, /只有 matching \/ map-labelling \/ mcq-multi 组可以有 options/],
+  ];
+  cases.forEach(([mutate, re], i) => expectError(wetland, mutate, re, `case ${i}`));
+  // 一组 4 题也不行（真考只有 Choose TWO / THREE）：把第二个多选组的第 24 题并进第一组
+  expectError(river, (s) => {
+    const [g1, g2] = s.groups;
+    g1.questions.push(g2.questions.shift());
+  }, /多选题一组必须是 2 或 3 题（题数 = 要选的个数，实际 4）/);
+  // 题目上给 prompt 也合法
+  const ok = wetland();
+  multi(ok).questions[0].prompt = 'reason 1';
+  assert.deepStrictEqual(errorsOf(ok), []);
+});
+
+test('publicSection：新题型下发组 prompt / flow / figure，不泄露答案', () => {
+  const w = L.publicSection(wetland());
+  const r = L.publicSection(river());
+  for (const p of [w, r]) assert.ok(!/"answer"|"explanation"|"evidence"|"segment":/.test(JSON.stringify(p)));
+  const multi = w.groups[0];
+  assert.strictEqual(multi.type, 'mcq-multi');
+  assert.strictEqual(multi.prompt, 'Which TWO things are visitors NOT allowed to do at the reserve?');
+  assert.deepStrictEqual(multi.questions, [{ no: 11, prompt: '' }, { no: 12, prompt: '' }], '题目没有 prompt 时下发空串');
+  assert.strictEqual(multi.options.length, 5);
+  const map = w.groups[2];
+  assert.deepStrictEqual(map.figure, wetland().groups[2].figure);
+  assert.deepStrictEqual(map.options[0], { key: 'A', text: '' }, '地图题选项没有文字时下发空串');
+  assert.ok(!('prompt' in map) && !('flow' in map));
+  const flow = r.groups[2];
+  assert.deepStrictEqual(flow.flow, river().groups[2].flow);
+  assert.ok(!('figure' in flow) && !('prompt' in flow));
+  // 下发的 figure 是副本，改它不影响内容
+  const src = wetland();
+  const pub = L.publicSection(src);
+  pub.groups[2].figure.maps[0].features.length = 0;
+  assert.ok(src.groups[2].figure.maps[0].features.length > 0);
+  // 旧题型不多出字段
+  const old = L.publicSection(section('l2-castle-tour'));
+  for (const g of old.groups) assert.ok(!('prompt' in g) && !('flow' in g) && !('figure' in g));
 });
 
 // ---------------- 作答记录 ----------------
