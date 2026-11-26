@@ -94,6 +94,21 @@
     .ie-band-btn.on{background:var(--accent-grad);border-color:transparent;color:#fff}
     .ie-score-sum{margin-top:12px;font-size:13.5px;color:var(--ink-soft)}
     .ie-score-sum b{font-size:18px;color:var(--brand)}
+    /* 写作 AI 批改 */
+    .ie-ai-band{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+    .ie-ai-band b{font-size:26px;font-weight:800;color:var(--brand);line-height:1.1}
+    .ie-ai-sec{margin-top:14px}
+    .ie-ai-sec-t{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;margin-bottom:6px}
+    .ie-ai-crit{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px}
+    .ie-ai-crit div{border:1px solid var(--border-soft);border-radius:var(--radius-sm);padding:8px 10px;font-size:13px;color:var(--ink-soft);line-height:1.6}
+    .ie-ai-crit b{color:var(--ink);margin-right:4px}
+    .ie-ai-list{margin:0;padding-left:20px;font-size:13.5px;color:var(--ink-soft);line-height:1.75}
+    .ie-ai-list li{margin:4px 0}
+    .ie-ai-q{font-family:Georgia,"Times New Roman",serif;color:var(--ink);overflow-wrap:anywhere}
+    .ie-ai-del{color:var(--bad);text-decoration:line-through;text-decoration-thickness:1px}
+    .ie-ai-ins{color:var(--ok);font-weight:600}
+    .ie-ai-para{font-family:Georgia,"Times New Roman",serif;font-size:14px;color:var(--ink);line-height:1.75;white-space:pre-line;overflow-wrap:anywhere;padding:8px 10px;border-radius:8px;background:rgba(127,127,127,.06);margin:4px 0 8px}
+    .ie-ai-foot{margin-top:12px;font-size:12px;color:var(--muted);line-height:1.6}
   `;
   document.head.appendChild(style);
 
@@ -657,6 +672,114 @@
     loadShell();
   }
 
+  // ---------- 写作 AI 批改（写作页交卷结果、记录页写作详情共用）----------
+  // 接口：GET /api/ielts/ai/status、POST /api/ielts/writing/:id/ai-review（设计见 docs/design/ielts-writing-ai-20261126.md）
+  const AI_DIM_NAME = { TA: '任务完成', TR: '任务回应', CC: '连贯与衔接', LR: '词汇丰富度', GRA: '语法多样性与准确性' };
+  let aiStatusPromise = null;
+
+  // 服务端是否开启 AI 批改（缓存一次；refresh 为 true 时重拉，用于更新今日次数）。拿不到时按未开启处理
+  function aiStatus(refresh) {
+    if (!aiStatusPromise || refresh) {
+      const p = get('/api/ielts/ai/status').catch((e) => {
+        console.warn('[ielts] AI 批改状态获取失败，按未开启处理', e);
+        if (aiStatusPromise === p) aiStatusPromise = null; // 下次再试
+        return { enabled: false };
+      });
+      aiStatusPromise = p;
+    }
+    return aiStatusPromise;
+  }
+
+  function aiReviewHtml(v) {
+    const crit = v && v.criteria && typeof v.criteria === 'object' ? v.criteria : {};
+    const keys = Object.keys(crit);
+    const list = (arr, fn) => (Array.isArray(arr) && arr.length ? `<ul class="ie-ai-list">${arr.map(fn).join('')}</ul>` : '');
+    const sec = (title, body) => (body ? `<div class="ie-ai-sec"><div class="ie-ai-sec-t">${esc(title)}</div>${body}</div>` : '');
+    const strengths = list(v.strengths, (s) => `<li>${esc(s)}</li>`);
+    const issues = list(v.issues, (x) =>
+      `<li><span class="ie-pill mute">${esc(x.criterion)}</span> ${esc(x.problem)}` +
+      (x.example ? `<br><span class="ie-muted">原文：</span><span class="ie-ai-q">${esc(x.example)}</span>` : '') +
+      (x.suggestion ? `<br><span class="ie-muted">建议：</span>${esc(x.suggestion)}` : '') +
+      '</li>');
+    const corrections = list(v.corrections, (c) =>
+      `<li><span class="ie-ai-q ie-ai-del">${esc(c.original)}</span> → <span class="ie-ai-q ie-ai-ins">${esc(c.corrected)}</span>` +
+      (c.explanation ? `<br>${esc(c.explanation)}` : '') +
+      (c.found === false ? '<br><span class="ie-muted">（原文里没找到一字不差的这句，可能是 AI 引用时改了标点或用词）</span>' : '') +
+      '</li>');
+    const p = v.improvedParagraph;
+    const para = p && p.improved
+      ? (p.original ? `<div class="ie-muted">原段落</div><div class="ie-ai-para">${esc(p.original)}</div>` : '') +
+        `<div class="ie-muted">改写（约高一个分档）</div><div class="ie-ai-para">${esc(p.improved)}</div>`
+      : '';
+    const u = v.usage || {};
+    const meta = [v.model, v.ts ? fmtDateTime(v.ts) : '', Number.isFinite(u.inputTokens) && Number.isFinite(u.outputTokens) ? `${u.inputTokens} + ${u.outputTokens} token` : '']
+      .filter(Boolean)
+      .join(' · ');
+    return (
+      `<div class="ie-ai-band"><span class="ie-muted">AI 评分</span><b>${esc(fmtBand(v.band))}</b>` +
+      `<span class="ie-muted">${keys.map((k) => `${esc(k)} ${esc(fmtBand(crit[k].band))}`).join(' · ')}</span></div>` +
+      (v.summary ? `<div style="margin-top:8px;font-size:14px;line-height:1.75;color:var(--ink-soft)">${esc(v.summary)}</div>` : '') +
+      sec('四项评语', `<div class="ie-ai-crit">${keys.map((k) => `<div><b>${esc(k)} ${esc(fmtBand(crit[k].band))}</b>${esc(AI_DIM_NAME[k] || '')}<br>${esc(crit[k].comment || '')}</div>`).join('')}</div>`) +
+      sec('做得好的地方', strengths) +
+      sec('主要问题（按对分数的影响排序）', issues) +
+      sec('逐句修改', corrections) +
+      (para ? `<details class="ie-ai-sec"><summary class="ie-ai-sec-t" style="cursor:pointer">示范改写</summary>${para}</details>` : '') +
+      `<div class="ie-ai-foot">AI 分数只作参考，不计入总分估算，也不替代自评。${meta ? `<br>${esc(meta)}` : ''}</div>`
+    );
+  }
+
+  /**
+   * 在 el 里挂载 AI 批改：已有结果就显示，否则（服务端开启时）给「AI 批改」按钮。
+   * opts: { recordId, review?, onUpdate?(review) }。服务端未开启且没有旧结果时什么都不显示。
+   */
+  async function mountAiReview(el, opts) {
+    const o = opts || {};
+    if (!el || !o.recordId) return;
+    let status = await aiStatus();
+    let review = o.review && typeof o.review === 'object' ? o.review : null;
+    if (!el.isConnected) return;
+    if (!status.enabled && !review) {
+      el.innerHTML = '';
+      return;
+    }
+    const paint = (busy, error) => {
+      const used = Number(status.usedToday) || 0;
+      const limit = Number(status.dailyLimit) || 0;
+      const label = busy ? 'AI 批改中…' : review ? '重新批改' : '🤖 AI 批改';
+      el.innerHTML =
+        '<div class="ie-card"><h3>🤖 AI 批改 <span class="ie-h3-sub">Claude · 仅供参考</span></h3>' +
+        (review
+          ? aiReviewHtml(review)
+          : '<div class="ie-muted" style="line-height:1.7">让 AI 按雅思评分标准给四项打分，并指出主要问题、逐句修改和一段示范改写。作文会发送到 Anthropic（Claude）处理，每次批改按调用计费。</div>') +
+        (status.enabled
+          ? '<div class="ie-row" style="margin-top:12px">' +
+            `<button type="button" class="btn small${review ? '' : ' primary'} ie-ai-go"${busy ? ' disabled' : ''}>${label}</button>` +
+            `<span class="ie-msg ie-ai-msg${error ? ' bad' : ''}">${esc(error || (busy ? '约 30–90 秒，可以先看别的，结果会保存在这篇的记录里' : ''))}</span>` +
+            (limit ? `<span class="ie-muted" style="margin-left:auto">今日 ${used} / ${limit} 次</span>` : '') +
+            '</div>'
+          : '<div class="ie-ai-foot">服务端当前未开启 AI 批改，只能查看以前的结果。</div>') +
+        '</div>';
+      const btn = el.querySelector('.ie-ai-go');
+      if (btn && !busy) btn.onclick = () => run(!!review);
+    };
+    const run = async (force) => {
+      if (force && !window.confirm('重新批改会再调用一次 Claude API（计入今日次数、产生费用），确定吗？')) return;
+      paint(true);
+      let r;
+      try {
+        r = await post(`/api/ielts/writing/${encodeURIComponent(o.recordId)}/ai-review`, force ? { force: true } : {});
+      } catch (e) {
+        if (el.isConnected) paint(false, `批改失败：${e.message}`);
+        return;
+      }
+      review = r && r.review ? r.review : review;
+      if (typeof o.onUpdate === 'function' && review) o.onUpdate(review);
+      status = await aiStatus(true);
+      if (el.isConnected) paint(false);
+    };
+    paint(false);
+  }
+
   NCE.ielts = {
     registerPage(key, impl) {
       if (typeof key !== 'string' || !/^[a-z][a-z0-9-]{1,23}$/.test(key) || !impl || typeof impl.render !== 'function') {
@@ -701,6 +824,8 @@
     phaseName,
     examTypeLabel,
     summaryLabel,
+    aiStatus,
+    mountAiReview,
     storeKey,
     errorHtml,
     bindRetry,
