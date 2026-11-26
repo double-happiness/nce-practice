@@ -591,17 +591,25 @@ function durationOrNull(v) {
   return Number.isInteger(v) && v >= 0 ? v : null;
 }
 
+// 选项文字；没有这个字母、或选项本身没有文字（地图题）时为 null
 function optionText(options, key) {
   if (!Array.isArray(options) || key == null) return null;
   const k = String(key).toUpperCase();
   const hit = options.find((o) => isPlainObject(o) && String(o.key).toUpperCase() === k);
-  return hit ? String(hit.text || '') : null;
+  return hit && hit.text ? String(hit.text) : null;
+}
+
+// 正确答案的选项文字：单选 / 匹配只有一个字母；多选给出全部正确选项，用 ' / ' 连接；都没有文字时为 null
+function answerOptionText(options, answer) {
+  const texts = (Array.isArray(answer) ? answer : []).map((k) => optionText(options, k)).filter(Boolean);
+  return texts.length ? texts.join(' / ') : null;
 }
 
 /**
  * 听力错题：记录里存了作答 answers，按当前题库重判一次还原错题。
  * 题目内容改过（题数或得分与当时不一致）时无法可靠还原，返回 null。
  * 每项：{ no, prompt, yours, overLimit, answer, answerText, explanation, quote }
+ * prompt：mcq-multi 用组上的题干；answerText：选择类为正确选项文字（多选为全部正确选项），填空类为 null
  */
 function listeningWrongItems(section, r) {
   if (!isPlainObject(r.answers)) return null;
@@ -616,11 +624,11 @@ function listeningWrongItems(section, r) {
       const isChoice = listening.CHOICE_TYPES.includes(g.type);
       return {
         no: x.no,
-        prompt: q.prompt,
+        prompt: listening.promptOf(g, q),
         yours: x.yours,
         overLimit: x.overLimit,
         answer: x.answer,
-        answerText: isChoice ? optionText(g.type === 'mcq' ? q.options : g.options, x.answer[0]) : null,
+        answerText: isChoice ? answerOptionText(listening.optionsOf(g, q), x.answer) : null,
         explanation: x.explanation,
         quote: x.evidence || null,
       };
