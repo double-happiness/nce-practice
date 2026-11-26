@@ -904,12 +904,31 @@
     NCE.toast(`小测成绩已记录：${score}/${total}`, 'ok');
   }
 
+  // 弱项页「📚 看讲解 →」写入的一次性标记（ielts-weakness-ui.js），值为文章 id；读完即删，
+  // sessionStorage 不可用（隐私模式等）或 id 格式不对时当作没有
+  const OPEN_HINT_KEY = 'nce-ielts-knowledge-open';
+  const ARTICLE_ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+  function takeOpenHint() {
+    let v = null;
+    try {
+      v = sessionStorage.getItem(OPEN_HINT_KEY);
+      sessionStorage.removeItem(OPEN_HINT_KEY);
+    } catch (e) {
+      console.warn('[ielts-knowledge] 读取文章跳转标记失败', e);
+      return null;
+    }
+    return typeof v === 'string' && v.length <= 64 && ARTICLE_ID_RE.test(v) ? v : null;
+  }
+
   IE.registerPage('knowledge', {
     meta: { label: '基础', icon: '📚', before: 'vocab' },
     render(body, c) {
       root = body;
       ctx = c;
-      renderList();
+      // 带着跳转标记进来就直接打开那篇文章（文章不存在时 openArticle 显示错误卡片和「← 基础目录」）
+      const openId = takeOpenHint();
+      if (openId) openArticle(openId);
+      else renderList();
     },
     // 去刷题 / 看课文再回来：文章页保留现场（含小测作答）
     resume() {
