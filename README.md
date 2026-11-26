@@ -48,6 +48,7 @@ npm start        # 默认 http://localhost:3737
 | 句型转换 | 「🔀 句型转换」：给出中文→译成英文→依次改一般疑问句、否定句、对句子成分提问（特殊疑问句），另有被动语态、间接引语等高级转换；**可按册 + 语法点或剑桥语法单元（EGIU/EGIU2）筛选**；逐步判分（大小写/标点/缩写不敏感）+ 转换链展示 + 按步骤类型统计；答错的步骤自动进入间隔复习队列，训练量计入每日目标 |
 | 雅思备考 | 「🎓 雅思备考」（归入「学」组）：备考档案 + 考试倒计时 + 26 周三阶段计划（基础期 / 专项期 / 冲刺期），今日任务可「去做 →」深链到现有功能或雅思子页，剑雅等外部资料任务手动打勾，或点「录成绩 →」录入分数时顺带打勾；第 8 / 14 / 20 周检查点给出达标判定与调整建议。子页：总览计划、**📚 基础**（基础知识库 76 篇、438 道小测：语法、题型技巧、功能表达、发音与构词，另有 Task 2 话题论点素材；每篇讲解 + 例句 🔊 + 易错点 + 小测 + 相关跳转，目录给出「下一篇推荐」）、雅思词汇（1641 词，按话题 / CEFR 浏览、卡片背诵、拼写、**搭配练习**、**例句填空**、词汇诊断）、**听力**（20 个原创 section、200 题，浏览器 TTS 朗读，考试 / 练习模式，按雅思规则判分）、**阅读**（17 篇原创文章、221 题、8 种题型，20 分钟考试模式、选中高亮、交卷后定位原文依据句）、写作（94 题：Task 1 图表 / **流程图** / **地图** / 书信 + Task 2，计时写作、四维自评、范文对照）、口语（Part 1 话题 48 个、Part 2 题卡 48 张配 Part 3 追问，计时、浏览器内录音回听、**可选实时转写与流利度指标**、四维自评、参考答案）、记录（写作 / 口语 / **听力 / 阅读**四个标签，band 趋势与错题；**📘 剑雅**标签录入剑桥雅思真题成绩，听力、阅读填原始分 /40 自动换算 band）。听力、阅读交卷后答错的题**自动进入间隔复习**。学习计划新增「雅思」预设，雅思听力 / 阅读 / 基础知识库小测 / 写作 / 口语 / 背词计入今日目标；「🧭 我的水平」CEFR 补齐 B2 / C1，并和雅思总览一起显示**听说读写四项分数**与总分估算（听力、阅读只计考试模式）；自有资料可用 `npm run import:ielts` 导入（见 [docs/雅思自有资料导入.md](docs/雅思自有资料导入.md)） |
 | 雅思全真模考 | 「🏁 模考」：一键组一整套（听力 Part 1–4 各 1 个 section、阅读 3 篇、写作 Task 1 + Task 2、口语 Part 1–3），按考试顺序限时连做；中途可离开后续做（计时中的部分只能重做或放弃）；最后出四项与总分（听读按换算表，写作 Task 2 双倍权重），附错题复盘与上次对比；冲刺期计划每周 1 套 |
+| 雅思弱项统计 | 「🎯 弱项」：按近 30 / 60 / 90 天的记录统计听力、阅读**各题型正确率**（听力另按 Part、阅读另按难度），听力错题按原因归类（未作答、超字数、选项选错、单复数、数字、拼写、其他）；列出最弱的 ≤3 个题型（至少 8 题、正确率 < 70%），附一句建议、「📚 看讲解」直达基础知识库对应文章和「去练」 |
 | 写作 AI 批改 | 可选开启（服务端配置 `ANTHROPIC_API_KEY`）：写作交卷后或在记录页点「🤖 AI 批改」，由 Claude 按雅思四项评分标准打分，给出总评、主要问题、逐句修改和一段示范改写；每篇默认只批一次（可重新批改）、每日次数上限；AI 分数只作参考，不计入总分估算。作文会发送到 Anthropic 处理，按调用计费（单篇约 $0.07–0.13） |
 | 数据校验 | `npm run validate`：检查答案是否在选项内、id 是否重复、字段是否完整；服务启动时自动运行 |
 
@@ -74,6 +75,10 @@ nce-practice/
 │   ├── ielts-knowledge.js  # 雅思基础知识库：内容加载与校验、小测判分规则、学习进度清洗
 │   ├── ielts-srs.js        # 雅思阅读 / 听力错题的间隔复习：复习 key、出题、复用原模块判分、交卷错题入队
 │   ├── ielts-mock.js       # 雅思全真模考：组卷（避开最近做过的）、各部分判分与算分、模考记录
+│   ├── ielts-external.js   # 剑雅等外部成绩：录入校验、原始分换算、记录清洗与视图
+│   ├── ielts-estimate.js   # 四项成绩概况的整套优先口径（近 6 周整套 → 单项 → 更早整套）
+│   ├── ielts-weakness.js   # 按题型的弱项统计：听力 / 阅读正确率、听力错误原因、最弱项
+│   ├── ielts-ai.js         # 写作 AI 批改：配置、请求构造、回复校验、错误映射（调用 Claude）
 │   └── progress.js      # 学习进度读写
 ├── scripts/
 │   ├── validate.js      # 数据校验（npm run validate，启动时自动跑）
@@ -86,6 +91,7 @@ nce-practice/
 │   ├── test-ielts-mock.js      # 雅思全真模考组卷、算分、中断续做测试（npm run test:ielts-mock）
 │   ├── test-ielts-external.js  # 剑雅成绩录入与整套优先估分测试（npm run test:ielts-external）
 │   ├── test-ielts-ai.js        # 写作 AI 批改离线测试，注入假客户端（npm run test:ielts-ai）
+│   ├── test-ielts-weakness.js  # 弱项统计口径、错误原因与接口测试（npm run test:ielts-weakness）
 │   └── ielts-ai-smoke.js       # 写作 AI 批改真实调用冒烟，一次调用、不读写档案（npm run ai:smoke）
 ├── routes/              # 功能路由，一功能一文件，自动挂载到 /api
 │   ├── srs.js           # 间隔重复复习（含雅思阅读 / 听力错题）
@@ -108,6 +114,7 @@ nce-practice/
 │   ├── ielts-mock.js       # 雅思全真模考 API（组卷 / 分部分提交 / 出分 / 历史）
 │   ├── ielts-external.js   # 剑雅等外部成绩 API（录入 / 列表 / 删除）
 │   ├── ielts-ai.js         # 写作 AI 批改 API（状态 / 发起批改，调用 Claude）
+│   ├── ielts-weakness.js   # 雅思弱项统计 API（只读）
 │   └── backup.js        # 数据备份 导出/导入
 ├── data/
 │   ├── meta.json        # 册、单元(课程进度)定义
@@ -166,6 +173,7 @@ nce-practice/
         ├── ielts-chart.js     # Task 1 图表 SVG 渲染（bar / line / pie / table / process 流程图 / map 地图）
         ├── ielts-speaking-ui.js # 雅思口语（Part 1/2/3 / 录音回听 / 可选实时转写与流利度 / 自评）
         ├── ielts-mock-ui.js     # 雅思全真模考（组卷、听读写说限时连做、出分与复盘；复用听力页朗读引擎）
+        ├── ielts-weakness-ui.js # 雅思弱项（最弱题型、听力错误原因、分项正确率，跳讲解与练习）
         ├── ielts-history-ui.js  # 雅思记录（写作、口语、听力、阅读历史与 band 趋势；听力阅读可看错题；口语记录含转写与指标；剑雅成绩录入与删除）
         └── feat-backup.js     # 数据备份
 ```
@@ -297,6 +305,16 @@ nce-practice/
 | GET | `/api/ielts/external-tests` | `{ total, items }`，按做题日期倒序；每项带 `displayTitle`（未填标题时为「剑雅 18 Test 2」之类）和四项齐全时的 `overall` |
 | POST | `/api/ielts/external-tests` | `{ date, book?, test?, title?, listening?: { raw?, band? }, reading?: { raw?, band? }, writing?: { band }, speaking?: { band }, notes?, tickPlan? }` → `{ ok, item, ticked }`。听力、学术类阅读填原始分 /40 自动换算，填了 `band` 以 `band` 为准；G 类阅读没有内置换算表，须填 `band`。日期不能是未来，最多补录 730 天。`tickPlan: true` 时把该日所在周的外部任务（剑雅）在当天打勾，`ticked` 返回打勾的任务 key |
 | DELETE | `/api/ielts/external-tests/:id` | 删除一条；不会取消计划里的打勾 |
+
+### 雅思弱项统计 API（`routes/ielts-weakness.js`）
+
+只读，按当前题库重判 `ielts.json` 里的听力 / 阅读记录，不改存储。设计见 [docs/design/ielts-weakness-20261126.md](docs/design/ielts-weakness-20261126.md)。
+
+| 方法 | 路径 | 说明 |
+| --- | --- | --- |
+| GET | `/api/ielts/weakness?days=60` | `{ days, from, to, listening: { records, skipped, questions, byType, byPart, causes, topCause }, reading: { records, skipped, questions, byType, byDifficulty }, weakest }`；`days` 7–365，默认 60，非法时 400 |
+
+口径：听力考试模式（含模考）每题都算、未作答记错，练习模式只算作答了的题；阅读只算考试模式（记录不存作答，练习分不清没做和做错）；题目已改动对不上的记录计入 `skipped`。维度项 `{ key, label, total, correct, accuracy, enough }`，`enough` 为至少 8 题；`weakest` 取 `enough` 且正确率 < 70% 的题型，按正确率升序最多 3 个，带 `tip`、`knowledgeId`（文章不存在时为 null）、`practice`。
 
 ### 雅思写作 AI 批改 API（`routes/ielts-ai.js`）
 
