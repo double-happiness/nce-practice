@@ -94,8 +94,9 @@
     { key: 'writing', short: '写' },
     { key: 'speaking', short: '口' },
   ];
-  // 听力 / 阅读按书后换算表填的 band：0–9、步长 0.5（低分段也能填）；写作 / 口语沿用 IE.BAND_STEPS
-  const LR_BANDS = Array.from({ length: 19 }, (_, i) => i / 2);
+  // 剑雅成绩的 band 选项：0–9、步长 0.5，与后端校验一致。
+  // 写作 / 口语也用这一档而不是 IE.BAND_STEPS（4–9）：A2 起步阶段剑雅写作、口语可能低于 4
+  const EXT_BANDS = Array.from({ length: 19 }, (_, i) => i / 2);
   const RAW_MAX = 40;
   const BOOK_RANGE = [1, 30];
   const TEST_RANGE = [1, 4];
@@ -491,15 +492,15 @@
       '<div class="ie-row">' +
       fieldHtml('iexLRaw', `听力原始分 /${RAW_MAX}`, intInputHtml('iexLRaw', 0, RAW_MAX, '答对题数')) +
       fieldHtml('iexRRaw', `阅读原始分 /${RAW_MAX}`, intInputHtml('iexRRaw', 0, RAW_MAX, isG ? '可不填' : '答对题数')) +
-      (isG ? fieldHtml('iexRBandG', '阅读 band（G 类必填）', bandSelectHtml('iexRBandG', LR_BANDS)) : '') +
-      fieldHtml('iexW', '写作 band', bandSelectHtml('iexW', IE.BAND_STEPS)) +
-      fieldHtml('iexS', '口语 band', bandSelectHtml('iexS', IE.BAND_STEPS)) +
+      (isG ? fieldHtml('iexRBandG', '阅读 band（G 类必填）', bandSelectHtml('iexRBandG', EXT_BANDS)) : '') +
+      fieldHtml('iexW', '写作 band', bandSelectHtml('iexW', EXT_BANDS)) +
+      fieldHtml('iexS', '口语 band', bandSelectHtml('iexS', EXT_BANDS)) +
       '</div>' +
       '<div>' +
       `<label class="iex-chk"><input type="checkbox" id="iexOvr">${isG ? '按书后换算表填听力 band' : '按书后换算表填 band'}（填了以它为准）</label>` +
       '<div class="ie-row iex-ovr-box" id="iexOvrBox" hidden>' +
-      fieldHtml('iexLBand', '听力 band', bandSelectHtml('iexLBand', LR_BANDS)) +
-      (isG ? '' : fieldHtml('iexRBand', '阅读 band', bandSelectHtml('iexRBand', LR_BANDS))) +
+      fieldHtml('iexLBand', '听力 band', bandSelectHtml('iexLBand', EXT_BANDS)) +
+      (isG ? '' : fieldHtml('iexRBand', '阅读 band', bandSelectHtml('iexRBand', EXT_BANDS))) +
       '</div>' +
       '</div>' +
       fieldHtml('iexNotes', '备注（可选）', '<textarea class="ie-input iex-notes" id="iexNotes" maxlength="500" placeholder="错得多的题型、时间分配、下次要注意的地方…"></textarea>') +
