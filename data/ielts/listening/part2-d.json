@@ -1,0 +1,191 @@
+[
+  {
+    "id": "l2-wetland-centre",
+    "part": 2,
+    "title": "Welcome talk at a wetland centre",
+    "titleCn": "湿地自然中心导览",
+    "intro": "Part 2. You will hear a warden giving a welcome talk to visitors at a wetland nature reserve.",
+    "speakers": [
+      { "id": "helen", "name": "Helen Price (warden)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "helen", "text": "Good morning, everyone, and welcome to Marsh Lane Wetland Centre. My name's Helen Price, and I'm one of the wardens here. Before you set off, I'd like to tell you a little about the centre and how to find your way around." },
+      { "speaker": "helen", "text": "First of all, a few rules. You're welcome to leave the paths in the meadow, and you can use any of the bird hides as long as you keep your voices down. However, please don't feed the birds. Bread in particular makes them ill, and it attracts rats." },
+      { "speaker": "helen", "text": "Also, I'm afraid dogs aren't allowed anywhere on the reserve, apart from assistance dogs, because they disturb the birds that nest on the ground. Photography, on the other hand, is very welcome, and we even run a photo competition every summer." },
+      { "speaker": "helen", "text": "Some of you may have noticed a few changes since last year. The café is still in the same place, and parking is still free, but we now open an hour earlier, at eight o'clock, so that visitors can see the birds when they're most active." },
+      { "speaker": "helen", "text": "Some of you will be disappointed to hear that the East Lake path is closed this month. It isn't because of flooding, which is what most people assume. In fact, a pair of rare birds are nesting next to the path, and we don't want them to be disturbed." },
+      { "speaker": "helen", "text": "If this is your first visit, I'd suggest you don't try to see everything, because the reserve is bigger than it looks. Our guided walks only run at weekends, so there isn't one today. Instead, pick up a free guide at the desk and follow the one-hour route marked in green." },
+      { "speaker": "helen", "text": "Now, if you look at the map, you'll see we're in the visitor centre at the bottom. The main path runs straight up the middle of the reserve towards the two lakes." },
+      { "speaker": "helen", "text": "As you leave the visitor centre, the picnic area is immediately on your left, just before the woodland begins. There are plenty of tables, so it's a good place to have lunch." },
+      { "speaker": "helen", "text": "If you have children with you, they'll love the willow tunnel. Take the small path on the left into the woodland, and you'll find the tunnel right in the middle of the trees." },
+      { "speaker": "helen", "text": "Carry on up the main path and, just before you reach the lakes, you'll see the bird hide on your left, right on the edge of West Lake. It's the best place to see kingfishers. Don't confuse it with the old hide on the right, which is closed for repairs." },
+      { "speaker": "helen", "text": "For the best view of the whole reserve, climb the viewing tower. It's in the far north-east corner, beyond East Lake, so it takes about twenty minutes to walk there. Some people look for it in the north-west corner, but there's only a bench there." },
+      { "speaker": "helen", "text": "And finally, the dipping pond, where children can look for small creatures in the water, is in the middle of the meadow, on the east side of the main path." },
+      { "speaker": "helen", "text": "Right, that's everything from me. Enjoy your visit, and if you have any questions, the staff at the desk will be happy to help." }
+    ],
+    "groups": [
+      {
+        "type": "mcq-multi",
+        "from": 0,
+        "instruction": "Choose TWO letters, A-E.",
+        "prompt": "Which TWO things are visitors NOT allowed to do at the reserve?",
+        "options": [
+          { "key": "A", "text": "feed the birds" },
+          { "key": "B", "text": "walk off the paths" },
+          { "key": "C", "text": "use the bird hides" },
+          { "key": "D", "text": "bring dogs" },
+          { "key": "E", "text": "take photographs" }
+        ],
+        "questions": [
+          {
+            "no": 11,
+            "answer": ["A", "D"],
+            "segment": 1,
+            "evidence": "please don't feed the birds",
+            "explanation": "However 之后才是禁止事项：请不要喂鸟（面包会让鸟生病，还会招老鼠），对应 A。前面说草地上可以离开小路（排除 B）、可以用观鸟屋，只要保持安静（排除 C）。"
+          },
+          {
+            "no": 12,
+            "answer": ["A", "D"],
+            "segment": 2,
+            "evidence": "dogs aren't allowed anywhere on the reserve",
+            "explanation": "除导盲犬等辅助犬外，狗不得进入保护区，因为会惊扰在地上筑巢的鸟，对应 D。拍照非常欢迎，还有摄影比赛（排除 E）。两题答案顺序不限。"
+          }
+        ]
+      },
+      {
+        "type": "mcq",
+        "from": 3,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          {
+            "no": 13,
+            "prompt": "What has changed at the centre since last year?",
+            "options": [
+              { "key": "A", "text": "It opens earlier in the morning." },
+              { "key": "B", "text": "The café has moved." },
+              { "key": "C", "text": "Visitors now have to pay for parking." }
+            ],
+            "answer": ["A"],
+            "segment": 3,
+            "evidence": "we now open an hour earlier",
+            "explanation": "咖啡馆还在原处（排除 B），停车仍然免费（排除 C）；变化是提前一小时、早上八点开门，方便看鸟最活跃的时候。"
+          },
+          {
+            "no": 14,
+            "prompt": "Why is the East Lake path closed?",
+            "options": [
+              { "key": "A", "text": "because of flooding" },
+              { "key": "B", "text": "to protect nesting birds" },
+              { "key": "C", "text": "for repair work" }
+            ],
+            "answer": ["B"],
+            "segment": 4,
+            "evidence": "a pair of rare birds are nesting next to the path",
+            "explanation": "大多数人以为是因为水淹（A 是典型干扰：It isn't because of flooding）；In fact 之后才是真正原因：一对珍稀鸟在小路旁筑巢。C 的 repairs 出现在后面讲旧观鸟屋时，不是这里的原因。"
+          },
+          {
+            "no": 15,
+            "prompt": "What does Helen suggest first-time visitors do?",
+            "options": [
+              { "key": "A", "text": "try to see every part of the reserve" },
+              { "key": "B", "text": "follow a short marked route" },
+              { "key": "C", "text": "join a guided walk" }
+            ],
+            "answer": ["B"],
+            "segment": 5,
+            "evidence": "follow the one-hour route marked in green",
+            "explanation": "她建议第一次来不要想着全看完（排除 A）；导览步行只在周末有，今天没有（排除 C）；可以在服务台拿免费指南，走绿色标出的一小时路线。one-hour route marked in green ≈ a short marked route。"
+          }
+        ]
+      },
+      {
+        "type": "map-labelling",
+        "from": 6,
+        "instruction": "Label the map below. Write the correct letter, A-H, next to Questions 16-20.",
+        "figure": {
+          "type": "map",
+          "title": "Marsh Lane Wetland Centre",
+          "compass": true,
+          "maps": [
+            {
+              "title": "",
+              "features": [
+                { "kind": "water", "x": 8, "y": 14, "w": 30, "h": 26, "label": "West Lake" },
+                { "kind": "water", "x": 62, "y": 14, "w": 30, "h": 26, "label": "East Lake" },
+                { "kind": "park", "x": 8, "y": 54, "w": 30, "h": 24, "label": "" },
+                { "kind": "park", "x": 60, "y": 54, "w": 32, "h": 24, "label": "" },
+                { "kind": "label", "x": 23, "y": 58, "label": "Woodland" },
+                { "kind": "label", "x": 76, "y": 58, "label": "Meadow" },
+                { "kind": "road", "x": 8, "y": 42, "w": 84, "h": 4, "label": "" },
+                { "kind": "road", "x": 48, "y": 46, "w": 4, "h": 38, "label": "Main path" },
+                { "kind": "building", "x": 40, "y": 84, "w": 20, "h": 12, "label": "Visitor centre" },
+                { "kind": "car-park", "x": 70, "y": 84, "w": 22, "h": 12, "label": "Car park" },
+                { "kind": "label", "x": 23, "y": 69, "label": "A" },
+                { "kind": "label", "x": 43, "y": 78, "label": "B" },
+                { "kind": "label", "x": 22, "y": 7, "label": "C" },
+                { "kind": "label", "x": 42, "y": 35, "label": "D" },
+                { "kind": "label", "x": 58, "y": 35, "label": "E" },
+                { "kind": "label", "x": 80, "y": 7, "label": "F" },
+                { "kind": "label", "x": 76, "y": 69, "label": "G" },
+                { "kind": "label", "x": 96, "y": 50, "label": "H" }
+              ]
+            }
+          ]
+        },
+        "options": [
+          { "key": "A" },
+          { "key": "B" },
+          { "key": "C" },
+          { "key": "D" },
+          { "key": "E" },
+          { "key": "F" },
+          { "key": "G" },
+          { "key": "H" }
+        ],
+        "questions": [
+          {
+            "no": 16,
+            "prompt": "picnic area",
+            "answer": ["B"],
+            "segment": 7,
+            "evidence": "the picnic area is immediately on your left",
+            "explanation": "从底部的访客中心出来、沿主路向北走，左手边（西侧）紧挨着访客中心、树林开始之前就是野餐区，对应 B。"
+          },
+          {
+            "no": 17,
+            "prompt": "willow tunnel",
+            "answer": ["A"],
+            "segment": 8,
+            "evidence": "right in the middle of the trees",
+            "explanation": "左转小路进树林，柳条隧道就在树林正中，对应 A。"
+          },
+          {
+            "no": 18,
+            "prompt": "bird hide",
+            "answer": ["D"],
+            "segment": 9,
+            "evidence": "you'll see the bird hide on your left, right on the edge of West Lake",
+            "explanation": "沿主路继续向北，快到湖边时，观鸟屋在左手边、紧贴西湖边缘，对应 D。右手边（E）那个是正在维修的旧观鸟屋，是干扰项。"
+          },
+          {
+            "no": 19,
+            "prompt": "viewing tower",
+            "answer": ["F"],
+            "segment": 10,
+            "evidence": "It's in the far north-east corner, beyond East Lake",
+            "explanation": "观景塔在东湖再往北的最东北角，对应 F。西北角（C）只有一张长椅，是干扰项。地图上方为北。"
+          },
+          {
+            "no": 20,
+            "prompt": "dipping pond",
+            "answer": ["G"],
+            "segment": 11,
+            "evidence": "is in the middle of the meadow",
+            "explanation": "池塘探索区在草地正中、主路东侧，对应 G。H 在草地外的东边缘，不是正中。"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+[
+  {
+    "id": "l3-library-survey",
+    "part": 3,
+    "title": "Planning a survey project with a tutor",
+    "titleCn": "与导师讨论图书馆调查项目",
+    "intro": "Part 3. You will hear two students, Tom and Priya, discussing their research methods project with their tutor, Dr Hart.",
+    "speakers": [
+      { "id": "hart", "name": "Dr Hart (tutor)", "gender": "female" },
+      { "id": "tom", "name": "Tom", "gender": "male" },
+      { "id": "priya", "name": "Priya", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "hart", "text": "Come in, Tom, Priya. So, you wanted to talk about your research methods project?" },
+      { "speaker": "tom", "text": "Yes. We've decided to look at how students use the library, and we've done a pilot survey, but we've got a few questions." },
+      { "speaker": "hart", "text": "Good. Why did you choose the library, by the way?" },
+      { "speaker": "priya", "text": "Partly because it's easy to find participants there. But mainly because the university is planning to redesign the ground floor next year, so our findings might actually be useful." },
+      { "speaker": "hart", "text": "That's a good reason. And how did the pilot survey go?" },
+      { "speaker": "tom", "text": "Not as well as we'd hoped. We only got eleven responses, because we handed out paper forms at the entrance and most people just walked past. We think an online version would work better." },
+      { "speaker": "priya", "text": "The questions themselves seemed fine, though. Nobody said they found them confusing." },
+      { "speaker": "hart", "text": "So what are you going to change for the main survey?" },
+      { "speaker": "priya", "text": "Lots of the comments were about the library closing at nine in the evening, so we'll add a question about opening hours." },
+      { "speaker": "tom", "text": "And a few people said it took too long to finish, so we're going to cut it down to about ten questions." },
+      { "speaker": "tom", "text": "We thought about offering a prize to encourage people, but apparently the ethics committee doesn't allow that for student projects. And we're keeping the question about age, because we want to compare first-year and final-year students." },
+      { "speaker": "hart", "text": "That all sounds sensible. Now, a couple of things about the final report. Make sure you put a copy of the questionnaire in an appendix, so the reader can see exactly what you asked." },
+      { "speaker": "priya", "text": "Should we include photos of the different study areas?" },
+      { "speaker": "hart", "text": "There's no need for that. What you must do, though, is write a short section on the limitations of your study, for example the fact that you only surveyed one library." },
+      { "speaker": "tom", "text": "Would it help to compare our results with another university?" },
+      { "speaker": "hart", "text": "It would be interesting, but it's beyond the scope of this project. Keep it simple." },
+      { "speaker": "hart", "text": "Right. Talk me through your plan for the main survey." },
+      { "speaker": "priya", "text": "First, we'll revise the questionnaire. Then we'll send it to the course leaders, who've agreed to share it with their students by email." },
+      { "speaker": "tom", "text": "We'll leave it open for two weeks. After that, we'll download the responses into a spreadsheet and remove any that are incomplete." },
+      { "speaker": "priya", "text": "Then we'll analyse the results. We're going to present them as charts rather than tables, because charts are easier to read." },
+      { "speaker": "tom", "text": "And before we write the report, we'll have a short meeting with the library manager to discuss what we've found." },
+      { "speaker": "hart", "text": "Excellent. That sounds like a clear plan. Come and see me again when you've got your first results." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          {
+            "no": 21,
+            "prompt": "Why did the students choose the library as their topic?",
+            "options": [
+              { "key": "A", "text": "It was easy to find people to take part." },
+              { "key": "B", "text": "Their results could be used in future changes." },
+              { "key": "C", "text": "Their tutor suggested it." }
+            ],
+            "answer": ["B"],
+            "segment": 3,
+            "evidence": "our findings might actually be useful",
+            "explanation": "Partly because 好找参与者（A 只是次要原因）；But mainly because 学校明年要改造一楼，他们的调查结果可能真的有用。题目问选题原因，主要原因是 B。C 原文没提。"
+          },
+          {
+            "no": 22,
+            "prompt": "What was the main problem with the pilot survey?",
+            "options": [
+              { "key": "A", "text": "Too few people took part." },
+              { "key": "B", "text": "Some questions were unclear." },
+              { "key": "C", "text": "Some forms were lost." }
+            ],
+            "answer": ["A"],
+            "segment": 5,
+            "evidence": "We only got eleven responses",
+            "explanation": "试点调查只收回 11 份，因为在门口发纸质表格，大多数人直接走过。B 被下一句否定：问题本身没问题，没人觉得看不懂；C 原文没提。"
+          }
+        ]
+      },
+      {
+        "type": "mcq-multi",
+        "from": 7,
+        "instruction": "Choose TWO letters, A-E.",
+        "prompt": "Which TWO changes will the students make to the questionnaire?",
+        "options": [
+          { "key": "A", "text": "add a question about opening hours" },
+          { "key": "B", "text": "remove the question about age" },
+          { "key": "C", "text": "offer a prize for taking part" },
+          { "key": "D", "text": "translate it into other languages" },
+          { "key": "E", "text": "make it shorter" }
+        ],
+        "questions": [
+          {
+            "no": 23,
+            "answer": ["A", "E"],
+            "segment": 8,
+            "evidence": "we'll add a question about opening hours",
+            "explanation": "很多意见都在说图书馆晚上九点就关门，所以要加一道关于开放时间的题，对应 A。"
+          },
+          {
+            "no": 24,
+            "answer": ["A", "E"],
+            "segment": 9,
+            "evidence": "we're going to cut it down to about ten questions",
+            "explanation": "有人说填完太花时间，所以要缩减到 10 题左右，即变短，对应 E。想过设奖品但伦理委员会不允许（排除 C）；年龄题保留，要比较一年级和毕业班（排除 B）；D 原文没提。两题答案顺序不限。"
+          }
+        ]
+      },
+      {
+        "type": "mcq-multi",
+        "from": 11,
+        "instruction": "Choose TWO letters, A-E.",
+        "prompt": "Which TWO things does Dr Hart say the students must include in their report?",
+        "options": [
+          { "key": "A", "text": "a copy of the questionnaire" },
+          { "key": "B", "text": "photographs of the library" },
+          { "key": "C", "text": "a comparison with another university" },
+          { "key": "D", "text": "a section on the limitations of the study" },
+          { "key": "E", "text": "interviews with library staff" }
+        ],
+        "questions": [
+          {
+            "no": 25,
+            "answer": ["A", "D"],
+            "segment": 11,
+            "evidence": "put a copy of the questionnaire in an appendix",
+            "explanation": "导师要求把问卷原件放进附录，让读者看到具体问了什么，对应 A。"
+          },
+          {
+            "no": 26,
+            "answer": ["A", "D"],
+            "segment": 13,
+            "evidence": "write a short section on the limitations of your study",
+            "explanation": "照片没必要（排除 B）；必须写一小节说明研究的局限，比如只调查了一个图书馆，对应 D。和别的大学比较超出了项目范围（排除 C）；E 原文没提。两题答案顺序不限。"
+          }
+        ]
+      },
+      {
+        "type": "flowchart-completion",
+        "from": 16,
+        "instruction": "Complete the flow-chart below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Plan for the main survey",
+        "flow": [
+          { "text": "Revise the questionnaire" },
+          { "no": 27 },
+          { "text": "Leave the survey open for two weeks" },
+          { "no": 28 },
+          { "no": 29 },
+          { "no": 30 },
+          { "text": "Write the final report" }
+        ],
+        "questions": [
+          {
+            "no": 27,
+            "prompt": "Send it to the course ___, who will email it to students",
+            "answer": ["leaders"],
+            "segment": 17,
+            "explanation": "问卷改好后发给各课程负责人（course leaders），由他们通过邮件转给学生。注意复数。"
+          },
+          {
+            "no": 28,
+            "prompt": "Download the responses and remove any ___ ones",
+            "answer": ["incomplete"],
+            "segment": 18,
+            "explanation": "问卷开放两周后，把回复下载到表格里，删掉没填完整的（incomplete）。"
+          },
+          {
+            "no": 29,
+            "prompt": "Analyse the results and present them as ___",
+            "answer": ["charts"],
+            "segment": 19,
+            "explanation": "结果用图表（charts）而不是表格（tables）呈现，因为图表更好读。tables 是干扰项；注意复数。"
+          },
+          {
+            "no": 30,
+            "prompt": "Discuss the findings with the library ___",
+            "answer": ["manager"],
+            "segment": 20,
+            "explanation": "写报告之前，先和图书馆馆长（library manager）开个短会讨论发现。"
+          }
+        ]
+      }
+    ]
+  }
+]

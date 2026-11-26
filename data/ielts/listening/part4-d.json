@@ -1,0 +1,129 @@
+[
+  {
+    "id": "l4-cocoa-chocolate",
+    "part": 4,
+    "title": "From cocoa pod to chocolate bar",
+    "titleCn": "从可可豆到巧克力",
+    "intro": "Part 4. You will hear a lecture about how chocolate is made and the problems facing the cocoa industry.",
+    "speakers": [
+      { "id": "okafor", "name": "Dr Nadia Okafor (lecturer)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "okafor", "text": "Good afternoon. In today's lecture, I'm going to look at how chocolate is made, from the cocoa tree to the bar you buy in a shop, and then at some of the problems facing the industry." },
+      { "speaker": "okafor", "text": "Cocoa trees grow only in a narrow band around the equator, and most of the world's cocoa now comes from West Africa. The fruit of the tree is a large pod, and each pod contains around forty beans surrounded by a sweet white pulp." },
+      { "speaker": "okafor", "text": "The pods are harvested by hand, usually with a long knife, because the trees are too delicate for machines. The farmers then open the pods and scoop out the beans and the pulp." },
+      { "speaker": "okafor", "text": "The next stage is the most important one for flavour. The beans are piled up, covered with banana leaves, and left to ferment for about a week. Without this stage, the chocolate would taste bitter." },
+      { "speaker": "okafor", "text": "After fermentation, the beans are spread out in the sun to dry. This reduces their weight by more than half, which makes them much cheaper to transport to the factories, most of which are in Europe and North America." },
+      { "speaker": "okafor", "text": "At the factory, the beans are first roasted, which brings out the familiar chocolate smell. Then the thin outer shells are removed, leaving small pieces of bean called nibs." },
+      { "speaker": "okafor", "text": "The nibs are ground into a thick paste, known as cocoa liquor, although, despite the name, it contains no alcohol at all." },
+      { "speaker": "okafor", "text": "Finally, sugar and milk are added, and the mixture is stirred for many hours in a process called conching. This is what makes good chocolate so smooth." },
+      { "speaker": "okafor", "text": "Let's turn now to some of the problems the industry faces. The first is income. Most cocoa is grown on small family farms, and many farmers earn less than two dollars a day, even though the large chocolate companies make huge profits." },
+      { "speaker": "okafor", "text": "Because many trees are old and farmers can't afford to replace them, yields are falling. At the same time, many young people are leaving farming altogether and moving to the cities." },
+      { "speaker": "okafor", "text": "Climate change is another serious threat. Cocoa trees need regular rainfall, and longer dry seasons are already reducing harvests in some regions." },
+      { "speaker": "okafor", "text": "In the past, farmers often cleared rainforest to plant new trees, which has led to serious deforestation. One solution is to grow cocoa in the shade of taller trees, which protects the soil and provides homes for wildlife." },
+      { "speaker": "okafor", "text": "Finally, consumers can help by looking for certification labels, which show that farmers have been paid a fair price. However, these labels are still found on only a small share of the chocolate sold worldwide." }
+    ],
+    "groups": [
+      {
+        "type": "flowchart-completion",
+        "from": 0,
+        "instruction": "Complete the flow-chart below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "From cocoa pod to chocolate",
+        "flow": [
+          { "text": "Pods harvested by hand and opened" },
+          { "no": 31 },
+          { "no": 32 },
+          { "text": "Beans transported to the factory" },
+          { "no": 33 },
+          { "no": 34 },
+          { "no": 35 }
+        ],
+        "questions": [
+          {
+            "no": 31,
+            "prompt": "Beans covered with ___ leaves and left to ferment for a week",
+            "answer": ["banana"],
+            "segment": 3,
+            "explanation": "可可豆堆起来、盖上香蕉叶（banana leaves）发酵约一周；这一步决定风味，省掉的话巧克力会发苦。题目已给出 leaves，只填 banana。"
+          },
+          {
+            "no": 32,
+            "prompt": "Beans spread out in the ___ to dry",
+            "answer": ["sun"],
+            "segment": 4,
+            "explanation": "发酵后把豆子摊开在太阳下晒干（spread out in the sun to dry），重量减少一半以上，运输更便宜。"
+          },
+          {
+            "no": 33,
+            "prompt": "Beans roasted, then shells removed, leaving ___",
+            "answer": ["nibs"],
+            "segment": 5,
+            "explanation": "工厂里先烘焙，再去掉外壳，剩下的碎粒叫 nibs（可可碎）。注意复数。"
+          },
+          {
+            "no": 34,
+            "prompt": "Nibs ground into a ___ called cocoa liquor",
+            "answer": ["paste"],
+            "segment": 6,
+            "explanation": "可可碎被磨成浓稠的浆（thick paste），叫 cocoa liquor，虽然名字里有 liquor，但不含酒精。"
+          },
+          {
+            "no": 35,
+            "prompt": "Sugar and milk added; mixture stirred for hours to make it ___",
+            "answer": ["smooth"],
+            "segment": 7,
+            "explanation": "加入糖和牛奶后长时间搅拌（conching，精炼），让巧克力变得顺滑（smooth）。"
+          }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 8,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Problems in the cocoa industry",
+        "questions": [
+          {
+            "no": 36,
+            "heading": "Farmers",
+            "prompt": "Many earn very little, despite the large companies' huge ___",
+            "answer": ["profits"],
+            "segment": 8,
+            "explanation": "很多可可农每天收入不到两美元，而大型巧克力公司利润丰厚（huge profits）。注意复数。"
+          },
+          {
+            "no": 37,
+            "prompt": "Young people are leaving farming and moving to the ___",
+            "answer": ["cities"],
+            "segment": 9,
+            "explanation": "树老了、农民买不起新树，产量下降；许多年轻人干脆离开农业，搬去城市（moving to the cities）。注意 city 的复数是 cities。"
+          },
+          {
+            "no": 38,
+            "heading": "Environment",
+            "prompt": "Longer dry ___ are already reducing harvests",
+            "answer": ["seasons"],
+            "segment": 10,
+            "explanation": "可可树需要稳定降雨，更长的旱季（longer dry seasons）已经让一些地区减产。注意复数。"
+          },
+          {
+            "no": 39,
+            "prompt": "Growing cocoa in the ___ of taller trees protects the soil and wildlife",
+            "answer": ["shade"],
+            "segment": 11,
+            "explanation": "过去开荒种树导致毁林；解决办法之一是在高大树木的树荫下种可可（in the shade of taller trees），能保护土壤、给野生动物提供栖息地。"
+          },
+          {
+            "no": 40,
+            "heading": "Consumers",
+            "prompt": "Look for ___ labels showing farmers received a fair price",
+            "answer": ["certification"],
+            "segment": 12,
+            "explanation": "消费者可以认准认证标签（certification labels），说明农民拿到了公平价格；但这类标签目前只出现在一小部分巧克力上。注意拼写 certification。"
+          }
+        ]
+      }
+    ]
+  }
+]
