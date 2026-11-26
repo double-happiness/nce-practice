@@ -131,6 +131,8 @@
   ];
 
   function ieltsSkillSub(skill, x) {
+    // 后端 summary 给了口径说明（整套优先 / 单项）就直接用；没有 label 时按原规则拼
+    if (typeof x.label === 'string' && x.label.trim()) return x.label;
     const n = Number(x.count) || 0;
     if (skill.scored) {
       const p = Number(x.practiceCount) || 0;

@@ -185,6 +185,13 @@
   function examTypeLabel(t) {
     return t === 'G' ? 'G 类（培训类）' : 'A 类（学术类）';
   }
+  // 成绩概况每项的口径说明：优先用 GET /api/ielts/summary 每项的 label（整套优先 / 单项口径）。
+  // label 通常不带项目名（「近 2 次整套成绩均分（…）」），不含 name 时补在前面；没有 label 返回空串，调用方退回原文案
+  function summaryLabel(x, name) {
+    const label = x && typeof x.label === 'string' ? x.label.trim() : '';
+    if (!label) return '';
+    return label.includes(name) ? label : name + label;
+  }
   // 按档案隔离的 localStorage key（与 profile-store.js 一致：default 档案不加前缀）
   function storeKey(name) {
     const pid = (window.NCEStore && window.NCEStore.profileId) || 'default';
@@ -693,6 +700,7 @@
     fmtDateTime,
     phaseName,
     examTypeLabel,
+    summaryLabel,
     storeKey,
     errorHtml,
     bindRetry,

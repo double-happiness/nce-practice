@@ -744,17 +744,20 @@
     const s = sum.speaking || {};
     const v = sum.vocab || {};
     const e = sum.estimate || {};
+    // 每项说明优先用后端口径 label（整套优先 / 单项），没有时退回原文案
+    const cell = (x, name, fallback) =>
+      `<div><b>${esc(IE.fmtBand(x.last3Avg))}</b><span>${esc(IE.summaryLabel(x, name) || fallback)}</span></div>`;
     // 听力 / 阅读只有模考计分，练习次数单独列出
     const scoredCell = (x, name) => {
       const p = Number(x.practiceCount) || 0;
-      return `<div><b>${esc(IE.fmtBand(x.last3Avg))}</b><span>${name}近 3 次模考均分 · 模考 ${Number(x.count) || 0} 次${p ? ` · 练习 ${p} 次` : ''}</span></div>`;
+      return cell(x, name, `${name}近 3 次模考均分 · 模考 ${Number(x.count) || 0} 次${p ? ` · 练习 ${p} 次` : ''}`);
     };
     el.innerHTML =
       '<div class="ieh-sum">' +
       scoredCell(l, '听力') +
       scoredCell(r, '阅读') +
-      `<div><b>${esc(IE.fmtBand(w.last3Avg))}</b><span>写作近 3 次自评均分 · 共 ${Number(w.count) || 0} 篇</span></div>` +
-      `<div><b>${esc(IE.fmtBand(s.last3Avg))}</b><span>口语近 3 次自评均分 · 共 ${Number(s.count) || 0} 次</span></div>` +
+      cell(w, '写作', `写作近 3 次自评均分 · 共 ${Number(w.count) || 0} 篇`) +
+      cell(s, '口语', `口语近 3 次自评均分 · 共 ${Number(s.count) || 0} 次`) +
       `<div><b>${v.lastOverall != null ? esc(String(v.lastOverall)) + '%' : '—'}</b><span>最近一次词汇诊断</span></div>` +
       `<div><b>${esc(IE.fmtBand(e.overall))}</b><span>总分粗估</span></div>` +
       '</div>' +
