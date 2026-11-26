@@ -38,8 +38,11 @@
     'note-completion': '笔记填空',
     'sentence-completion': '句子填空',
     'summary-completion': '摘要填空',
+    'flowchart-completion': '流程图填空',
     mcq: '单选',
+    'mcq-multi': '多选',
     matching: '匹配',
+    'map-labelling': '地图标注',
   };
   const CHOICE_TYPES = ['mcq', 'matching'];
   const MODE_LABEL = { exam: '考试模式', practice: '练习模式' };

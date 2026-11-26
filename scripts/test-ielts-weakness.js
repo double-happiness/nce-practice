@@ -62,10 +62,15 @@ function allNos(section) {
   for (const g of section.groups) for (const q of g.questions) out.push(q.no);
   return out;
 }
-// 全对的作答；override 里给出的题号改成指定作答（'' 表示未作答，不写进 answers）
+// 全对的作答；override 里给出的题号改成指定作答（'' 表示未作答，不写进 answers）。
+// mcq-multi 每题的 answer 是完整正确集合，按题在组内的位置各填一个字母（都填 answer[0] 会被组内去重判错）
 function answersFor(section, override) {
   const out = {};
-  for (const g of section.groups) for (const q of g.questions) out[String(q.no)] = q.answer[0];
+  for (const g of section.groups) {
+    g.questions.forEach((q, i) => {
+      out[String(q.no)] = g.type === 'mcq-multi' ? q.answer[i] : q.answer[0];
+    });
+  }
   for (const [no, v] of Object.entries(override || {})) {
     if (v === '') delete out[String(no)];
     else out[String(no)] = v;
@@ -145,6 +150,10 @@ test('classifyCause：各分支', () => {
   assert.strictEqual(cause('note-completion', 'the big red house', ['house'], true), 'over-limit');
   assert.strictEqual(cause('mcq', 'C', ['B']), 'choice');
   assert.strictEqual(cause('matching', 'A', ['D']), 'choice');
+  assert.strictEqual(cause('map-labelling', 'B', ['C']), 'choice', '地图标注选错字母');
+  assert.strictEqual(cause('mcq-multi', 'B', ['B', 'D']), 'choice', '多选重复填了已算分的字母');
+  assert.strictEqual(cause('mcq-multi', 'A', ['B', 'D']), 'choice');
+  assert.strictEqual(cause('flowchart-completion', 'ovan', ['oven']), 'spelling', '流程图按填空题规则归因');
   assert.strictEqual(cause('form-completion', 'bedroom', ['bedrooms']), 'plural');
   assert.strictEqual(cause('form-completion', 'Boxes.', ['box']), 'plural', '先按 normalizeAnswer 归一化（大小写、首尾标点）');
   assert.strictEqual(cause('form-completion', '15', ['50', 'fifty']), 'number');
@@ -166,6 +175,7 @@ test('classifyCause：拼写容错按答案长度（≤5 字符容 1 处，更�
 
 test('classifyCause：优先级（按顺序取第一个命中的）', () => {
   assert.strictEqual(cause('mcq', '', ['B']), 'blank', '未作答优先于选项选错');
+  assert.strictEqual(cause('mcq-multi', ' ', ['B', 'D']), 'blank', '多选未作答也是「未作答」');
   assert.strictEqual(cause('form-completion', 'two bedrooms extra', ['bedroom'], true), 'over-limit', '超出字数优先于单复数');
   assert.strictEqual(cause('form-completion', '2 bedroom', ['2 bedrooms']), 'plural', '单复数优先于数字');
   assert.strictEqual(cause('form-completion', '16', ['15']), 'number', '数字优先于拼写（16 与 15 编辑距离 1）');
@@ -384,8 +394,11 @@ test('knowledgeId：题型映射符合设计表；文章不存在时为 null', (
     'note-completion': 'st-listening-form-completion',
     'sentence-completion': 'st-listening-form-completion',
     'summary-completion': 'st-listening-form-completion',
+    'flowchart-completion': 'st-listening-form-completion',
     mcq: 'st-listening-mcq',
     matching: 'st-listening-matching-maps',
+    'map-labelling': 'st-listening-matching-maps',
+    'mcq-multi': 'st-listening-mcq',
   });
   assert.deepStrictEqual(W.TYPE_KNOWLEDGE.reading, {
     tfng: 'st-reading-tfng',
@@ -423,6 +436,63 @@ test('每个题型都有标签与建议；标签与前端 TYPE_LABEL 一致', ()
   };
   assert.deepStrictEqual(labelsIn('ielts-listening-ui.js'), W.LISTENING_TYPE_LABEL);
   assert.deepStrictEqual(labelsIn('ielts-reading-ui.js'), W.READING_TYPE_LABEL);
+});
+
+test('新题型：标签、建议与讲解映射', () => {
+  assert.strictEqual(W.LISTENING_TYPE_LABEL['flowchart-completion'], '流程图填空');
+  assert.strictEqual(W.LISTENING_TYPE_LABEL['map-labelling'], '地图标注');
+  assert.strictEqual(W.LISTENING_TYPE_LABEL['mcq-multi'], '多选');
+  for (const t of ['flowchart-completion', 'map-labelling', 'mcq-multi']) {
+    const tip = W.TIPS.listening[t];
+    assert.ok(typeof tip === 'string' && tip.length > 10 && tip.endsWith('。'), `${t} 的建议应是一句完整的中文`);
+  }
+  const w = W.pickWeakest([item('map-labelling', 10, 3), item('mcq-multi', 12, 6), item('flowchart-completion', 9, 5)], [], yes);
+  assert.deepStrictEqual(w.map((x) => [x.key, x.knowledgeId, x.practice]), [
+    ['map-labelling', 'st-listening-matching-maps', 'listening'],
+    ['mcq-multi', 'st-listening-mcq', 'listening'],
+    ['flowchart-completion', 'st-listening-form-completion', 'listening'],
+  ]);
+  for (const x of w) assert.strictEqual(x.tip, W.TIPS.listening[x.key]);
+});
+
+// 10 题：多选 2 题（B、D）+ 地图 5 题 + 流程图 3 题
+const SNEW = lsection('sec-new', 2, [
+  ['mcq-multi', [['B', 'D'], ['B', 'D']]],
+  ['map-labelling', ['A', 'C', 'E', 'F', 'G']],
+  ['flowchart-completion', ['oven', 'acid', 'spreadsheet'], 'ONE WORD ONLY'],
+]);
+
+test('新题型统计：按题型分别计数，多选组内去重后的错题归为「选项选错」', () => {
+  // 多选两题都填 B（第 12 题判错）；地图第 13 题选错、第 14 题空着；流程图第 18 题拼错、第 19 题超字数
+  const answers = answersFor(SNEW, { 12: 'B', 13: 'B', 14: '', 18: 'ovan', 19: 'some acid' });
+  const rec = lrec(SNEW, 'exam', answers, tsAt('2026-11-25'));
+  assert.strictEqual(rec.raw, 5);
+  const L = run({ listenings: [rec] }, { lookup: lookupOf([SNEW], []) }).listening;
+  assert.strictEqual(L.records, 1);
+  assert.strictEqual(L.questions, 10);
+  assert.deepStrictEqual(L.byType.map((x) => x.key), ['flowchart-completion', 'map-labelling', 'mcq-multi'], 'GROUP_TYPES 顺序：填空类在前');
+  assert.deepStrictEqual(find(L.byType, 'mcq-multi'), { key: 'mcq-multi', label: '多选', total: 2, correct: 1, accuracy: 0.5, enough: false });
+  assert.deepStrictEqual(find(L.byType, 'map-labelling'), { key: 'map-labelling', label: '地图标注', total: 5, correct: 3, accuracy: 0.6, enough: false });
+  assert.deepStrictEqual(find(L.byType, 'flowchart-completion'), { key: 'flowchart-completion', label: '流程图填空', total: 3, correct: 1, accuracy: 0.33, enough: false });
+  assert.deepStrictEqual(L.byPart, [{ key: 2, label: 'Part 2', total: 10, correct: 5, accuracy: 0.5, enough: true }]);
+  assert.deepStrictEqual(L.causes, [
+    { key: 'choice', label: '选项选错', count: 2 },
+    { key: 'blank', label: '未作答', count: 1 },
+    { key: 'over-limit', label: '超出字数', count: 1 },
+    { key: 'spelling', label: '拼写', count: 1 },
+  ]);
+});
+
+test('新题型统计：多选填 D、B（顺序不限）全对；跨记录累计后进入最弱项', () => {
+  const allRight = lrec(SNEW, 'exam', answersFor(SNEW, { 11: 'd', 12: 'B' }), tsAt('2026-11-24'));
+  assert.strictEqual(allRight.raw, 10);
+  // 另 4 条记录各错 3 道地图题：加上全对那条，地图 25 题对 13 题（0.52），排进最弱项
+  const recs = [1, 2, 3, 4].map((d) => lrec(SNEW, 'exam', answersFor(SNEW, { 13: 'H', 14: 'H', 15: 'H' }), tsAt(`2026-11-1${d}`)));
+  const r = run({ listenings: [allRight, ...recs] }, { lookup: lookupOf([SNEW], []) });
+  assert.deepStrictEqual(find(r.listening.byType, 'mcq-multi'), { key: 'mcq-multi', label: '多选', total: 10, correct: 10, accuracy: 1, enough: true });
+  assert.deepStrictEqual(r.weakest.map((x) => `${x.key}:${x.correct}/${x.total}:${x.knowledgeId}`), ['map-labelling:13/25:st-listening-matching-maps']);
+  assert.strictEqual(r.listening.topCause.key, 'choice');
+  assert.strictEqual(r.listening.topCause.count, 12);
 });
 
 test('真实知识库里存在映射到的全部讲解文章（被删或改名时这里会失败提醒）', () => {
