@@ -5,7 +5,7 @@
 // 交卷后逐题显示对错、正确答案和解析；脚本展开并高亮答案所在段，点任意一段重听。
 // 切走子页 / 切标签 / pause / leave / 页面隐藏时一律 speechSynthesis.cancel() 并清理全部定时器。
 // 接口：GET /api/ielts/listening、GET /api/ielts/listening/:id、POST /api/ielts/listening/:id/submit
-// 设计：docs/design/ielts-listening-20261124.md
+// 设计：docs/design/ielts-listening-20261124.md；多选 / 地图标注 / 流程图填空见 docs/design/ielts-listening-types-20261126.md
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -29,9 +29,9 @@
 
   const PART_INFO = {
     1: { name: 'Part 1', desc: '两人日常对话 · 表格 / 笔记填空 · 拼写人名、数字、日期、地址' },
-    2: { name: 'Part 2', desc: '日常场景独白 · 单选 + 匹配' },
-    3: { name: 'Part 3', desc: '2–3 人学术讨论 · 单选、匹配、句子填空' },
-    4: { name: 'Part 4', desc: '学术讲座 · 笔记填空 + 摘要填空' },
+    2: { name: 'Part 2', desc: '日常场景独白 · 单选、多选、匹配、地图标注' },
+    3: { name: 'Part 3', desc: '2–3 人学术讨论 · 单选、多选、匹配、句子 / 流程图填空' },
+    4: { name: 'Part 4', desc: '学术讲座 · 笔记、摘要、流程图填空' },
   };
   const TYPE_LABEL = {
     'form-completion': '表格填空',
@@ -44,7 +44,7 @@
     matching: '匹配',
     'map-labelling': '地图标注',
   };
-  const CHOICE_TYPES = ['mcq', 'matching'];
+  const CHOICE_TYPES = ['mcq', 'matching', 'map-labelling', 'mcq-multi'];
   const MODE_LABEL = { exam: '考试模式', practice: '练习模式' };
   // 与 app.js 一致：排除 macOS「趣味声音」，它们会发出音乐 / 机器噪音
   const NOVELTY_VOICE = /Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Deranged|Good News|Jester|Organ|Superstar|Trinoids|Wobble|Zarvox|Hysterical|Whisper|Pipe Organ|Albert|Fred/i;
@@ -120,6 +120,19 @@
     .iel-box .t{font-weight:700;color:var(--ink);margin-bottom:2px}
     .iel-mp{flex:1 1 140px;min-width:0}
     .iel-sel{max-width:100%;padding:6px 32px 6px 10px;font-size:14px}
+    .iel-pick{font-size:12.5px;color:var(--muted);margin:4px 0 0 34px}
+    .iel-pick.warn{color:#d97706;font-weight:700}
+    @media (max-width:480px){.iel-pick{margin-left:0}}
+    .iel-fig{margin-top:10px;min-width:0}
+    /* 流程图填空：方框竖排、框间向下箭头；宽屏居中限宽，窄屏占满 */
+    .iel-flow{display:flex;flex-direction:column;align-items:center;margin-top:10px;min-width:0}
+    .iel-flow-box{width:100%;max-width:560px;box-sizing:border-box;border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:8px 12px;background:rgba(127,127,127,.04);font-size:14.5px;line-height:2.1;color:var(--ink);text-align:center;overflow-wrap:anywhere}
+    .iel-flow-box.q{border-color:rgba(47,111,237,.45)}
+    .iel-flow-box .iel-in{width:8em}
+    .iel-flow-arr{position:relative;flex:none;width:14px;height:24px}
+    .iel-flow-arr::before{content:"";position:absolute;left:6px;top:2px;bottom:7px;border-left:2px solid var(--muted-2)}
+    .iel-flow-arr::after{content:"";position:absolute;left:1px;bottom:1px;border-style:solid;border-width:7px 6px 0;border-color:var(--muted-2) transparent transparent}
+    .iel-res-o{font-size:13px;color:var(--muted)}
     .iel-script{display:flex;flex-direction:column;gap:6px}
     .iel-seg{border:1px solid var(--border-soft);border-left:3px solid transparent;border-radius:8px;padding:8px 10px;cursor:pointer;font-size:14px;line-height:1.7;color:var(--ink-soft);overflow-wrap:anywhere}
     .iel-seg:hover{border-color:var(--brand)}
@@ -169,6 +182,7 @@
   };
   let root = null;
   let ctx = null;
+  let chartDisposers = []; // 地图标注题的地图：NCE.ielts.chart.mount 返回的 resize 监听释放函数
 
   function alive() {
     return !!(ctx && ctx.isActive());
@@ -201,6 +215,18 @@
       clearInterval(id);
     });
     timers.clear();
+  }
+
+  // 地图跟随作答页 / 复盘页一起换掉：重绘整页前、离开子页时释放（不放进 haltAll：暂停朗读时地图仍在页面上）
+  function releaseCharts() {
+    chartDisposers.forEach((fn) => {
+      try {
+        fn();
+      } catch (e) {
+        console.warn('[ielts-listening] 地图释放失败', e);
+      }
+    });
+    chartDisposers = [];
   }
 
   // ---------- 语速（按档案存 localStorage）----------
@@ -622,6 +648,7 @@
   // ---------- 列表 ----------
   async function renderList() {
     haltAll();
+    releaseCharts();
     st.stage = 'list';
     st.section = null;
     st.result = null;
@@ -689,6 +716,7 @@
   // ---------- 准备页 ----------
   async function openSection(id) {
     haltAll();
+    releaseCharts();
     st.stage = 'intro';
     root.innerHTML = '<div class="ie-loading">正在加载题目…</div>';
     let sec;
@@ -782,12 +810,56 @@
       '</div></div>'
     );
   }
+  // 多选（Choose TWO / THREE）：一组一道题干 + 复选框，最多选「本组题数」个
+  // 作答仍按题号存：选中的字母按字母序依次填给本组题号（题号升序），没选满的题号填 ''
+  function multiNos(g) {
+    return g.questions.map((q) => q.no).sort((a, b) => a - b);
+  }
+  function multiPicked(g, answers) {
+    const out = new Set();
+    g.questions.forEach((q) => {
+      const v = String(answers[String(q.no)] || '').trim().toUpperCase();
+      if (v) out.add(v);
+    });
+    return out;
+  }
+  function multiAssign(g, keys, answers) {
+    const sorted = keys.slice().sort();
+    multiNos(g).forEach((no, i) => {
+      answers[String(no)] = sorted[i] || '';
+    });
+  }
+  function pickText(max, n) {
+    return `选 ${max} 项 · 已选 ${n}`;
+  }
+  function mcqMultiHtml(g, gi) {
+    const max = g.questions.length;
+    const picked = multiPicked(g, st.answers);
+    return (
+      `<div class="iel-mcq iel-multi" data-gi="${gi}">` +
+      `<div class="iel-q"><span class="iel-no">${esc(rangeText(g))}</span><span>${esc(g.prompt || '')}</span></div>` +
+      `<div class="iel-pick">${esc(pickText(max, picked.size))}</div>` +
+      '<div class="iel-opts">' +
+      (g.options || []).map((o) => {
+        const on = picked.has(String(o.key).toUpperCase());
+        return (
+          `<label class="iel-opt${on ? ' on' : ''}">` +
+          `<input type="checkbox" name="iel-m${gi}" value="${esc(o.key)}" data-gi="${gi}"${on ? ' checked' : ''}>` +
+          `<span><b>${esc(o.key)}</b>&nbsp; ${esc(o.text)}</span></label>`
+        );
+      }).join('') +
+      '</div></div>'
+    );
+  }
+  // 匹配与地图标注共用：地图题的选项就是图上的字母（没有文字），不再单列选项框
   function matchingHtml(g) {
-    const box =
-      '<div class="iel-box">' +
-      (g.optionsTitle ? `<div class="t">${esc(g.optionsTitle)}</div>` : '') +
-      g.options.map((o) => `<div><b>${esc(o.key)}</b>&nbsp; ${esc(o.text)}</div>`).join('') +
-      '</div>';
+    const hasText = g.options.some((o) => o.text);
+    const box = hasText || g.optionsTitle
+      ? '<div class="iel-box">' +
+        (g.optionsTitle ? `<div class="t">${esc(g.optionsTitle)}</div>` : '') +
+        (hasText ? g.options.map((o) => `<div><b>${esc(o.key)}</b>&nbsp; ${esc(o.text || '')}</div>`).join('') : '') +
+        '</div>'
+      : '';
     const rows = g.questions.map((q) => {
       const sel = st.answers[String(q.no)] || '';
       return (
@@ -825,6 +897,46 @@
     }
     return `<div class="iel-rows${g.type === 'note-completion' ? ' iel-notes' : ''}">${html}</div>`;
   }
+  // 流程框顺序：有 flow 按 flow（{ text } 固定步骤 / { no } 引用本组题），没有就按题号每题一框；
+  // flow 漏掉的题补在最后，保证每题都有输入框（数据已由服务端校验，这里只做兜底）
+  function flowSteps(g) {
+    const byNo = new Map(g.questions.map((q) => [q.no, q]));
+    const used = new Set();
+    const out = [];
+    (Array.isArray(g.flow) ? g.flow : []).forEach((f) => {
+      if (!f || typeof f !== 'object') return;
+      const q = f.no != null ? byNo.get(Number(f.no)) : null;
+      if (q && !used.has(q.no)) {
+        used.add(q.no);
+        out.push({ q });
+      } else if (f.no == null && typeof f.text === 'string' && f.text.trim()) out.push({ text: f.text });
+    });
+    g.questions.forEach((q) => {
+      if (!used.has(q.no)) out.push({ q });
+    });
+    return out;
+  }
+  function flowchartHtml(g) {
+    const boxes = flowSteps(g).map((x) => {
+      if (!x.q) return `<div class="iel-flow-box">${esc(x.text)}</div>`;
+      const [a, b] = gapParts(x.q.prompt);
+      return `<div class="iel-flow-box q">${esc(a)}<span class="iel-gap"><span class="iel-no">${esc(x.q.no)}</span>${inputHtml(x.q.no)}</span>${esc(b)}</div>`;
+    });
+    return `<div class="iel-flow">${boxes.join('<div class="iel-flow-arr" aria-hidden="true"></div>')}</div>`;
+  }
+  // 地图占位：整页 innerHTML 写完后由 mountFigures 画进去（要按容器实际宽度出图）
+  function figureSlotHtml(gi) {
+    return `<div class="iel-fig" data-gi="${gi}"></div>`;
+  }
+  function mountFigures(box) {
+    releaseCharts();
+    box.querySelectorAll('.iel-fig').forEach((el) => {
+      const g = st.section.groups[Number(el.dataset.gi)];
+      if (!g || !g.figure) el.innerHTML = '<div class="ie-note">本组缺少地图数据。</div>';
+      else if (IE.chart) chartDisposers.push(IE.chart.mount(el, g.figure));
+      else el.innerHTML = '<div class="ie-note">图表模块没有加载，请刷新页面。</div>';
+    });
+  }
   function groupHeadHtml(g) {
     return (
       `<div class="iel-gh"><b>Questions ${esc(rangeText(g))}</b><span class="ie-pill mute">${esc(TYPE_LABEL[g.type] || g.type)}</span></div>` +
@@ -836,7 +948,10 @@
   function groupHtml(g, gi) {
     let body;
     if (g.type === 'mcq') body = g.questions.map(mcqHtml).join('');
+    else if (g.type === 'mcq-multi') body = mcqMultiHtml(g, gi);
     else if (g.type === 'matching') body = matchingHtml(g);
+    else if (g.type === 'map-labelling') body = figureSlotHtml(gi) + matchingHtml(g);
+    else if (g.type === 'flowchart-completion') body = flowchartHtml(g);
     else body = completionHtml(g);
     return `<div class="iel-group" data-gi="${gi}">${groupHeadHtml(g)}${body}</div>`;
   }
@@ -922,6 +1037,7 @@
       '</div>';
 
     const wrap = root.querySelector('.iel-run');
+    mountFigures(wrap);
     bindAnswerInputs(wrap);
     wrap.querySelector('.iel-exit').onclick = onExit;
     wrap.querySelector('.iel-submit').onclick = () => submit(false);
@@ -941,7 +1057,29 @@
       st.submitArmed = false;
     };
     wrap.oninput = (e) => record(e.target);
-    wrap.onchange = (e) => record(e.target);
+    // 多选复选框没有 data-no，只在 change 里处理一次
+    wrap.onchange = (e) => (e.target.type === 'checkbox' ? recordMulti(e.target) : record(e.target));
+  }
+  // 超过可选个数时撤销这一次勾选并提示；否则按字母序重新填本组题号
+  function recordMulti(el) {
+    const box = el.closest('.iel-multi');
+    const g = st.section && st.section.groups[Number(el.dataset.gi)];
+    if (!box || !g) return;
+    const inputs = [...box.querySelectorAll('input[type="checkbox"]')];
+    const max = g.questions.length;
+    const hint = box.querySelector('.iel-pick');
+    if (el.checked && inputs.filter((x) => x.checked).length > max) {
+      el.checked = false;
+      hint.textContent = `最多选 ${max} 项，先取消一个再换`;
+      hint.classList.add('warn');
+      return;
+    }
+    const keys = inputs.filter((x) => x.checked).map((x) => String(x.value).toUpperCase());
+    multiAssign(g, keys, st.answers);
+    inputs.forEach((x) => x.closest('.iel-opt').classList.toggle('on', x.checked));
+    hint.textContent = pickText(max, keys.length);
+    hint.classList.remove('warn');
+    st.submitArmed = false;
   }
 
   function bindPracticeControls(wrap) {
@@ -1368,15 +1506,19 @@
 
   function resultHtml(g, q, x) {
     const choice = CHOICE_TYPES.includes(g.type);
+    const multi = g.type === 'mcq-multi';
     const answers = Array.isArray(x.answer) ? x.answer : [];
     const show = (key) => {
       const t = optionText(g, q, key);
       return t ? `${String(key).toUpperCase()} · ${t}` : String(key);
     };
     const yours = x.yours ? (choice ? show(x.yours) : x.yours) : '';
-    const main = answers.length ? (choice ? show(answers[0]) : answers[0]) : '';
+    let main = answers.length ? (choice ? show(answers[0]) : answers[0]) : '';
+    // 多选：每题的 answer 是本组全部正确字母，顺序不限；选项文字另起一行
+    if (multi) main = answers.length ? `${answers.map((a) => String(a).toUpperCase()).join('、')}（顺序不限）` : '';
     const others = choice ? [] : answers.slice(1);
-    const prompt = choice ? q.prompt : gapParts(q.prompt).map((p) => p.trim()).filter(Boolean).join(' ____ ');
+    let prompt = choice ? q.prompt : gapParts(q.prompt).map((p) => p.trim()).filter(Boolean).join(' ____ ');
+    if (multi) prompt = g.prompt || q.prompt || '';
     const canLocate = Number.isInteger(x.segment);
     return (
       `<div class="iel-res${x.correct ? ' ok' : ''}">` +
@@ -1385,6 +1527,7 @@
       (x.overLimit ? ` <span class="ie-pill warn">超出字数限制 ${esc(g.wordLimit || '')}</span>` : '') +
       '</div>' +
       `<div>正确答案：<b>${esc(main)}</b>${others.length ? ` <span class="ie-muted">（也接受：${others.map((a) => esc(a)).join(' / ')}）</span>` : ''}</div>` +
+      (multi && answers.length ? `<div class="iel-res-o">${answers.map((a) => esc(show(a))).join('；')}</div>` : '') +
       (x.explanation ? `<div class="iel-res-e">💡 ${esc(x.explanation)}</div>` : '') +
       (canLocate ? `<button type="button" class="btn small ghost iel-loc" data-seg="${esc(x.segment)}">📍 原文第 ${esc(x.segment + 1)} 段${st.tts.ok ? ' · 重听' : ''}</button>` : '') +
       '</div>'
@@ -1397,13 +1540,17 @@
     const { bySeg, byNo } = reviewIndex();
     const part = PART_INFO[s.part] || { name: `Part ${s.part}` };
     const mode = r.mode || st.mode;
-    const groupsHtml = s.groups.map((g) => {
+    const groupsHtml = s.groups.map((g, gi) => {
       const rows = g.questions.map((q) => {
         const x = byNo.get(q.no);
         return x ? resultHtml(g, q, x) : '';
       }).join('');
       const right = g.questions.filter((q) => byNo.get(q.no) && byNo.get(q.no).correct).length;
-      return `<div class="iel-sub">Questions ${esc(rangeText(g))} · ${esc(TYPE_LABEL[g.type] || g.type)} · 对 ${right} / ${g.questions.length}</div>${rows}`;
+      return (
+        `<div class="iel-sub">Questions ${esc(rangeText(g))} · ${esc(TYPE_LABEL[g.type] || g.type)} · 对 ${right} / ${g.questions.length}</div>` +
+        (g.type === 'map-labelling' ? figureSlotHtml(gi) : '') +
+        rows
+      );
     }).join('');
     const scriptHtml = s.segments.map((sg, i) => {
       const e = bySeg.get(i);
@@ -1443,6 +1590,7 @@
       '</div>';
 
     const wrap = root.querySelector('.iel-review');
+    mountFigures(wrap);
     wrap.querySelector('.iel-back').onclick = renderList;
     wrap.querySelector('.iel-back2').onclick = renderList;
     wrap.querySelector('.iel-again-practice').onclick = () => startRun('practice');
@@ -1543,6 +1691,7 @@
     leave() {
       st.visible = false;
       haltAll();
+      releaseCharts();
       st.stage = 'list';
       st.section = null;
       st.result = null;
