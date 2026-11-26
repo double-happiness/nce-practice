@@ -6,11 +6,12 @@
 
 ```bash
 cd nce-practice
-npm install      # 安装依赖（仅 express）
+npm install      # 安装依赖（express；写作 AI 批改另用 @anthropic-ai/sdk）
 # 首次克隆需 Git LFS（原声 MP3 约 550MB，见 docs/原声与发音.md）
 git lfs install && git lfs pull   # 若已 clone 但未拉 LFS
 npm start        # 默认 http://localhost:3737
 # 或指定端口： PORT=8080 npm start
+# 写作 AI 批改（可选）：cp .env.example .env，填 ANTHROPIC_API_KEY，再 npm run start:env；npm run ai:smoke 真实调用一次确认可用
 ```
 
 浏览器打开对应地址即可使用。
@@ -47,6 +48,7 @@ npm start        # 默认 http://localhost:3737
 | 句型转换 | 「🔀 句型转换」：给出中文→译成英文→依次改一般疑问句、否定句、对句子成分提问（特殊疑问句），另有被动语态、间接引语等高级转换；**可按册 + 语法点或剑桥语法单元（EGIU/EGIU2）筛选**；逐步判分（大小写/标点/缩写不敏感）+ 转换链展示 + 按步骤类型统计；答错的步骤自动进入间隔复习队列，训练量计入每日目标 |
 | 雅思备考 | 「🎓 雅思备考」（归入「学」组）：备考档案 + 考试倒计时 + 26 周三阶段计划（基础期 / 专项期 / 冲刺期），今日任务可「去做 →」深链到现有功能或雅思子页，剑雅等外部资料任务手动打勾，或点「录成绩 →」录入分数时顺带打勾；第 8 / 14 / 20 周检查点给出达标判定与调整建议。子页：总览计划、**📚 基础**（基础知识库 76 篇、438 道小测：语法、题型技巧、功能表达、发音与构词，另有 Task 2 话题论点素材；每篇讲解 + 例句 🔊 + 易错点 + 小测 + 相关跳转，目录给出「下一篇推荐」）、雅思词汇（1641 词，按话题 / CEFR 浏览、卡片背诵、拼写、**搭配练习**、**例句填空**、词汇诊断）、**听力**（20 个原创 section、200 题，浏览器 TTS 朗读，考试 / 练习模式，按雅思规则判分）、**阅读**（17 篇原创文章、221 题、8 种题型，20 分钟考试模式、选中高亮、交卷后定位原文依据句）、写作（94 题：Task 1 图表 / **流程图** / **地图** / 书信 + Task 2，计时写作、四维自评、范文对照）、口语（Part 1 话题 48 个、Part 2 题卡 48 张配 Part 3 追问，计时、浏览器内录音回听、**可选实时转写与流利度指标**、四维自评、参考答案）、记录（写作 / 口语 / **听力 / 阅读**四个标签，band 趋势与错题；**📘 剑雅**标签录入剑桥雅思真题成绩，听力、阅读填原始分 /40 自动换算 band）。听力、阅读交卷后答错的题**自动进入间隔复习**。学习计划新增「雅思」预设，雅思听力 / 阅读 / 基础知识库小测 / 写作 / 口语 / 背词计入今日目标；「🧭 我的水平」CEFR 补齐 B2 / C1，并和雅思总览一起显示**听说读写四项分数**与总分估算（听力、阅读只计考试模式）；自有资料可用 `npm run import:ielts` 导入（见 [docs/雅思自有资料导入.md](docs/雅思自有资料导入.md)） |
 | 雅思全真模考 | 「🏁 模考」：一键组一整套（听力 Part 1–4 各 1 个 section、阅读 3 篇、写作 Task 1 + Task 2、口语 Part 1–3），按考试顺序限时连做；中途可离开后续做（计时中的部分只能重做或放弃）；最后出四项与总分（听读按换算表，写作 Task 2 双倍权重），附错题复盘与上次对比；冲刺期计划每周 1 套 |
+| 写作 AI 批改 | 可选开启（服务端配置 `ANTHROPIC_API_KEY`）：写作交卷后或在记录页点「🤖 AI 批改」，由 Claude 按雅思四项评分标准打分，给出总评、主要问题、逐句修改和一段示范改写；每篇默认只批一次（可重新批改）、每日次数上限；AI 分数只作参考，不计入总分估算。作文会发送到 Anthropic 处理，按调用计费（单篇约 $0.07–0.13） |
 | 数据校验 | `npm run validate`：检查答案是否在选项内、id 是否重复、字段是否完整；服务启动时自动运行 |
 
 ## 架构
@@ -81,7 +83,10 @@ nce-practice/
 │   ├── test-ielts-reading.js   # 雅思阅读判分与内容校验测试（npm run test:ielts-reading）
 │   ├── test-ielts-knowledge.js # 雅思基础知识库内容校验、判分、进度与接口测试（npm run test:ielts-knowledge）
 │   ├── test-ielts-srs.js       # 雅思阅读 / 听力错题复习测试（node scripts/test-ielts-srs.js，暂无 npm 命令）
-│   └── test-ielts-mock.js      # 雅思全真模考组卷、算分、中断续做测试（npm run test:ielts-mock）
+│   ├── test-ielts-mock.js      # 雅思全真模考组卷、算分、中断续做测试（npm run test:ielts-mock）
+│   ├── test-ielts-external.js  # 剑雅成绩录入与整套优先估分测试（npm run test:ielts-external）
+│   ├── test-ielts-ai.js        # 写作 AI 批改离线测试，注入假客户端（npm run test:ielts-ai）
+│   └── ielts-ai-smoke.js       # 写作 AI 批改真实调用冒烟，一次调用、不读写档案（npm run ai:smoke）
 ├── routes/              # 功能路由，一功能一文件，自动挂载到 /api
 │   ├── srs.js           # 间隔重复复习（含雅思阅读 / 听力错题）
 │   ├── vocab.js         # 生词本
@@ -102,6 +107,7 @@ nce-practice/
 │   ├── ielts-knowledge.js  # 雅思基础知识库 API（目录 / 文章 / 学习进度）
 │   ├── ielts-mock.js       # 雅思全真模考 API（组卷 / 分部分提交 / 出分 / 历史）
 │   ├── ielts-external.js   # 剑雅等外部成绩 API（录入 / 列表 / 删除）
+│   ├── ielts-ai.js         # 写作 AI 批改 API（状态 / 发起批改，调用 Claude）
 │   └── backup.js        # 数据备份 导出/导入
 ├── data/
 │   ├── meta.json        # 册、单元(课程进度)定义
@@ -164,7 +170,7 @@ nce-practice/
         └── feat-backup.js     # 数据备份
 ```
 
-技术选型原则：**零构建、无原生依赖**。后端仅依赖 express，存储用 JSON 文件，前端为原生三件套，`npm install && npm start` 即可运行。
+技术选型原则：**零构建、无原生依赖**。后端依赖 express，以及只给写作 AI 批改用的官方 SDK `@anthropic-ai/sdk`（纯 JS；不配 key 时不会调用）；存储用 JSON 文件，前端为原生三件套，`npm install && npm start` 即可运行。
 
 ### 可扩展的模块化接缝
 - **后端**：在 `routes/` 新建 `xxx.js`（导出 Express Router），server.js 启动时自动挂载到 `/api`，无需改动 server.js。
@@ -291,6 +297,22 @@ nce-practice/
 | GET | `/api/ielts/external-tests` | `{ total, items }`，按做题日期倒序；每项带 `displayTitle`（未填标题时为「剑雅 18 Test 2」之类）和四项齐全时的 `overall` |
 | POST | `/api/ielts/external-tests` | `{ date, book?, test?, title?, listening?: { raw?, band? }, reading?: { raw?, band? }, writing?: { band }, speaking?: { band }, notes?, tickPlan? }` → `{ ok, item, ticked }`。听力、学术类阅读填原始分 /40 自动换算，填了 `band` 以 `band` 为准；G 类阅读没有内置换算表，须填 `band`。日期不能是未来，最多补录 730 天。`tickPlan: true` 时把该日所在周的外部任务（剑雅）在当天打勾，`ticked` 返回打勾的任务 key |
 | DELETE | `/api/ielts/external-tests/:id` | 删除一条；不会取消计划里的打勾 |
+
+### 雅思写作 AI 批改 API（`routes/ielts-ai.js`）
+
+调用 Claude Messages API（官方 SDK，默认模型 `claude-opus-5-5`、effort `high`、结构化输出、拒答时服务端回退）。key 只从服务端环境变量读取，不回传前端；结果存在写作记录的 `ai` 字段，每日计数存 `ielts.json` 的 `aiUsage`。设计见 [docs/design/ielts-writing-ai-20261126.md](docs/design/ielts-writing-ai-20261126.md)。
+
+| 方法 | 路径 | 说明 |
+| --- | --- | --- |
+| GET | `/api/ielts/ai/status` | `{ enabled, model, effort, dailyLimit, usedToday }` |
+| POST | `/api/ielts/writing/:id/ai-review` | `{ force? }` → `{ ok, review, cached }`。`review`：`{ criteria: { TR\|TA, CC, LR, GRA: { band, comment } }, band, summary, strengths, issues, corrections, improvedParagraph, model, ts, usage }`，总分由服务端按四项平均向下取整到 0.5。已有结果且未 `force` 时直接返回（不计次）。错误：400 参数 / 作文不足 30 词、404 记录或题目不存在、409 同篇正在批改、429 当日次数用完或 API 限流、503 未开启或 API 繁忙、502 认证失败 / 拒答 / 返回格式不对 / 截断、504 超时或连不上 |
+
+| 环境变量 | 说明 |
+| --- | --- |
+| `ANTHROPIC_API_KEY` | 有值即开启（也认 `ANTHROPIC_AUTH_TOKEN`）；放在 `.env`（已 gitignore）并用 `npm run start:env` 启动，模板见 `.env.example` |
+| `IELTS_AI_ENABLED` | `0` 强制关闭；`1` 强制开启（用 `ant auth login` 的本机凭据时） |
+| `IELTS_AI_MODEL` / `IELTS_AI_EFFORT` | 模型（默认 `claude-opus-5-5`）/ 思考深度 `low`–`max`（默认 `high`） |
+| `IELTS_AI_DAILY_LIMIT` | 每日成功批改次数上限，默认 20 |
 
 ### 雅思内容与版权
 
