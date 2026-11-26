@@ -307,7 +307,8 @@
       '<div class="ieh-wrong">' +
       `<div class="ieh-wrong-q"><b>第 ${esc(String(w.no))} 题</b>${esc(w.prompt || '')}</div>` +
       yours +
-      `<div>正确答案：<span class="ok">${esc(answer)}</span>${w.answerText ? ` · ${esc(w.answerText)}` : ''}</div>` +
+      // 选择类且正确答案不止一个字母：只有多选（Choose TWO）题，顺序不限（填空题的 answerText 为 null，多个写法不走这里）
+      `<div>正确答案：<span class="ok">${esc(answer)}</span>${w.answerText && Array.isArray(w.answer) && w.answer.length > 1 ? '（顺序不限）' : ''}${w.answerText ? ` · ${esc(w.answerText)}` : ''}</div>` +
       quote +
       (w.explanation ? `<div>解析：${esc(w.explanation)}</div>` : '') +
       '</div>'
