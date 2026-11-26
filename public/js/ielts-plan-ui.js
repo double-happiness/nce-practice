@@ -21,6 +21,8 @@
     passed: { label: '已达标', cls: 'ok' },
     failed: { label: '未达标', cls: 'bad' },
   };
+  // 与 ielts-history-ui.js 约定的一次性标记：值为记录页标签 key
+  const HISTORY_TAB_KEY = 'nce-ielts-history-tab';
   const DETAIL_LABEL = {
     vocabCoverage: '词汇覆盖率', vocab: '词汇覆盖率', vocabBand: '词汇段',
     writing: '写作均分', writingAvg: '写作均分', speaking: '口语均分', speakingAvg: '口语均分',
@@ -214,6 +216,8 @@
     const sub = taskSubText(t, s);
     let action = '';
     if (s.met) action = '<span class="iep-done">已完成</span>';
+    // 外部任务（剑雅）做完去记录页录成绩，按钮带 data-ext，点击时由 bindToday 留标记打开「剑雅」标签
+    else if (t.tab && s.ext) action = `<button type="button" class="btn small iep-go" data-tab="${esc(t.tab)}" data-ext="1">录成绩 →</button>`;
     else if (t.tab) action = `<button type="button" class="btn small iep-go" data-tab="${esc(t.tab)}">去做 →</button>`;
     return (
       `<div class="iep-task${s.met ? ' met' : ''}" data-i="${i}">` +
@@ -241,7 +245,7 @@
       (tasks.length
         ? `<div class="iep-tasks">${tasks.map(taskRowHtml).join('')}</div>`
         : '<div class="ie-empty">今天没有安排任务（可能是考试周降量或计划尚未生成）。</div>') +
-      '<div class="ie-muted" style="margin-top:10px">练习类任务按当天的活动记录自动统计；「外部」任务（如剑雅真题）做完后手动打勾。</div>' +
+      '<div class="ie-muted" style="margin-top:10px">练习类任务按当天的活动记录自动统计；「外部」任务（如剑雅真题）做完后手动打勾，或点「录成绩」录入分数时顺带打勾。</div>' +
       '</div>'
     );
   }
@@ -422,6 +426,14 @@
     root.querySelectorAll('.iep-go').forEach((b) => {
       b.onclick = () => {
         const tab = b.dataset.tab || '';
+        // 「录成绩 →」：留一次性标记，记录页读到后直接打开「剑雅」标签（只在目标是记录页时写，避免残留到下次进入）
+        if (b.dataset.ext === '1' && tab === 'ielts:history') {
+          try {
+            sessionStorage.setItem(HISTORY_TAB_KEY, 'external');
+          } catch (e) {
+            console.warn('[ielts-plan] 写入记录页标签标记失败，记录页将停在上次的标签', e);
+          }
+        }
         if (tab === 'ielts') ctx.go('plan');
         else if (tab.indexOf('ielts:') === 0) ctx.go(tab.slice(6));
         else NCE.gotoTab(tab);

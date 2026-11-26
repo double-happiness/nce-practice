@@ -126,7 +126,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -141,7 +141,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -156,7 +156,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -171,7 +171,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -186,7 +186,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -201,7 +201,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（B2 中期检查）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -216,7 +216,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -231,7 +231,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -246,7 +246,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -261,7 +261,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -276,7 +276,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"dialogue","label":"学术对话 1 组（学术英语 academic / 校园生活 campus）","kind":"internal","source":["dialogue"],"target":6,"unit":"轮","tab":"dialogue","minutes":10},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -291,7 +291,7 @@
         {"key":"speaking","label":"口语 Part 1 话题 1 组 + Part 2 题卡 1 张（含 Part 3 追问）","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":35},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（冲刺前检查）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"writing","label":"本周写作 4 篇：Task 1 ×2（A 类图表 / G 类书信）+ Task 2 ×2","kind":"internal","source":["ielts-writing"],"target":4,"unit":"篇","per":"week","tab":"ielts:writing","minutes":200},
-        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:plan","minutes":120},
+        {"key":"cam-lr","label":"剑桥雅思（外部资料）：听力 1 套 + 阅读 1 套，各做完打勾 1 次","kind":"external","target":2,"unit":"套","per":"week","tab":"ielts:history","minutes":120},
         {"key":"ielts-listening","label":"雅思听力 Part 2–4（练习模式：听完对答案，逐段复听错题）","kind":"internal","source":["ielts-listening"],"target":3,"unit":"个","per":"week","tab":"ielts:listening","minutes":90},
         {"key":"ielts-reading","label":"雅思阅读（考试模式 20 分钟/篇，交卷后看定位句和解析）","kind":"internal","source":["ielts-reading"],"target":2,"unit":"篇","per":"week","tab":"ielts:reading","minutes":50}
       ] },
@@ -305,7 +305,7 @@
         {"key":"ielts-words","label":"雅思词汇 40 词：C1 词 + 诊断错词回炉","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"ielts:vocab","minutes":25},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（看各段覆盖率变化）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"exam","label":"阶段测验：第四册模考 1 套（20 题）","kind":"internal","source":["quiz"],"target":20,"unit":"题","per":"week","tab":"exam","minutes":40},
-        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":160},
+        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":160},
         {"key":"ielts-listening-exam","label":"雅思听力考试模式（只播一遍，做完复盘错题段）","kind":"internal","source":["ielts-listening"],"target":4,"unit":"个","per":"week","tab":"ielts:listening","minutes":120},
         {"key":"ielts-reading-exam","label":"雅思阅读考试模式（20 分钟/篇，限时完成）","kind":"internal","source":["ielts-reading"],"target":3,"unit":"篇","per":"week","tab":"ielts:reading","minutes":75},
         {"key":"ielts-mock","label":"站内全真模考 1 套（听 → 读 → 写 → 说，限时连做，🎓 雅思备考 → 模考）","kind":"internal","source":["ielts-mock"],"target":1,"unit":"套","per":"week","tab":"ielts:mock","minutes":180}
@@ -320,7 +320,7 @@
         {"key":"ielts-words","label":"雅思词汇 40 词：C1 词 + 诊断错词回炉","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"ielts:vocab","minutes":25},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（看各段覆盖率变化）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"exam","label":"阶段测验：第四册模考 1 套（20 题）","kind":"internal","source":["quiz"],"target":20,"unit":"题","per":"week","tab":"exam","minutes":40},
-        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":160},
+        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":160},
         {"key":"ielts-listening-exam","label":"雅思听力考试模式（只播一遍，做完复盘错题段）","kind":"internal","source":["ielts-listening"],"target":4,"unit":"个","per":"week","tab":"ielts:listening","minutes":120},
         {"key":"ielts-reading-exam","label":"雅思阅读考试模式（20 分钟/篇，限时完成）","kind":"internal","source":["ielts-reading"],"target":3,"unit":"篇","per":"week","tab":"ielts:reading","minutes":75},
         {"key":"ielts-mock","label":"站内全真模考 1 套（听 → 读 → 写 → 说，限时连做，🎓 雅思备考 → 模考）","kind":"internal","source":["ielts-mock"],"target":1,"unit":"套","per":"week","tab":"ielts:mock","minutes":180}
@@ -335,7 +335,7 @@
         {"key":"ielts-words","label":"雅思词汇 40 词：C1 词 + 诊断错词回炉","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"ielts:vocab","minutes":25},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（看各段覆盖率变化）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"exam","label":"阶段测验：第四册模考 1 套（20 题）","kind":"internal","source":["quiz"],"target":20,"unit":"题","per":"week","tab":"exam","minutes":40},
-        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":160},
+        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":160},
         {"key":"ielts-listening-exam","label":"雅思听力考试模式（只播一遍，做完复盘错题段）","kind":"internal","source":["ielts-listening"],"target":4,"unit":"个","per":"week","tab":"ielts:listening","minutes":120},
         {"key":"ielts-reading-exam","label":"雅思阅读考试模式（20 分钟/篇，限时完成）","kind":"internal","source":["ielts-reading"],"target":3,"unit":"篇","per":"week","tab":"ielts:reading","minutes":75},
         {"key":"ielts-mock","label":"站内全真模考 1 套（听 → 读 → 写 → 说，限时连做，🎓 雅思备考 → 模考）","kind":"internal","source":["ielts-mock"],"target":1,"unit":"套","per":"week","tab":"ielts:mock","minutes":180}
@@ -350,7 +350,7 @@
         {"key":"ielts-words","label":"雅思词汇 40 词：C1 词 + 诊断错词回炉","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"ielts:vocab","minutes":25},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（看各段覆盖率变化）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"exam","label":"阶段测验：第四册模考 1 套（20 题）","kind":"internal","source":["quiz"],"target":20,"unit":"题","per":"week","tab":"exam","minutes":40},
-        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":160},
+        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":160},
         {"key":"ielts-listening-exam","label":"雅思听力考试模式（只播一遍，做完复盘错题段）","kind":"internal","source":["ielts-listening"],"target":4,"unit":"个","per":"week","tab":"ielts:listening","minutes":120},
         {"key":"ielts-reading-exam","label":"雅思阅读考试模式（20 分钟/篇，限时完成）","kind":"internal","source":["ielts-reading"],"target":3,"unit":"篇","per":"week","tab":"ielts:reading","minutes":75},
         {"key":"ielts-mock","label":"站内全真模考 1 套（听 → 读 → 写 → 说，限时连做，🎓 雅思备考 → 模考）","kind":"internal","source":["ielts-mock"],"target":1,"unit":"套","per":"week","tab":"ielts:mock","minutes":180}
@@ -365,7 +365,7 @@
         {"key":"ielts-words","label":"雅思词汇 40 词：C1 词 + 诊断错词回炉","kind":"internal","source":["words"],"target":40,"unit":"词","tab":"ielts:vocab","minutes":25},
         {"key":"vocab-check","label":"雅思词汇诊断 1 次（看各段覆盖率变化）","kind":"internal","source":["ielts-vocab"],"target":1,"unit":"次","per":"week","tab":"ielts:vocab","minutes":15},
         {"key":"exam","label":"阶段测验：第四册模考 1 套（20 题）","kind":"internal","source":["quiz"],"target":20,"unit":"题","per":"week","tab":"exam","minutes":40},
-        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":160},
+        {"key":"cam-mock","label":"剑桥雅思全套模考 ×2（外部资料：听力 + 阅读 + 写作限时连做，做完打勾）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":160},
         {"key":"ielts-listening-exam","label":"雅思听力考试模式（只播一遍，做完复盘错题段）","kind":"internal","source":["ielts-listening"],"target":4,"unit":"个","per":"week","tab":"ielts:listening","minutes":120},
         {"key":"ielts-reading-exam","label":"雅思阅读考试模式（20 分钟/篇，限时完成）","kind":"internal","source":["ielts-reading"],"target":3,"unit":"篇","per":"week","tab":"ielts:reading","minutes":75},
         {"key":"ielts-mock","label":"站内全真模考 1 套（听 → 读 → 写 → 说，限时连做，🎓 雅思备考 → 模考）","kind":"internal","source":["ielts-mock"],"target":1,"unit":"套","per":"week","tab":"ielts:mock","minutes":180}
@@ -378,7 +378,7 @@
         {"key":"speaking","label":"口语热身：Part 1 + Part 2 各 1 组","kind":"internal","source":["ielts-speaking"],"target":2,"unit":"组","tab":"ielts:speaking","minutes":20},
         {"key":"ielts-words","label":"复习雅思错词 20 词（只复习，不学新词）","kind":"internal","source":["words"],"target":20,"unit":"词","tab":"ielts:vocab","minutes":15},
         {"key":"dictation","label":"精听保持语感：听写 NCE4 熟悉课文 10 句","kind":"internal","source":["dictation"],"target":10,"unit":"句","tab":"dictation","minutes":15},
-        {"key":"cam-mock","label":"剑桥雅思模考 1 套（外部资料，考前 4–5 天完成，之后只复盘）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:plan","minutes":180}
+        {"key":"cam-mock","label":"剑桥雅思模考 1 套（外部资料，考前 4–5 天完成，之后只复盘）","kind":"external","target":1,"unit":"套","per":"week","tab":"ielts:history","minutes":180}
       ] }
   ],
   "checkpoints": [
