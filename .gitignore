@@ -25,3 +25,6 @@ data/backups/
 
 # Claude Code 本地 agent worktree（临时目录，不入库）
 .claude/worktrees/
+
+# 本地环境变量（API key 等密钥，不入库；模板见 .env.example）
+.env

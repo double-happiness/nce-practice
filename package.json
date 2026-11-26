@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start:env": "node --env-file=.env server.js",
     "dev": "node server.js",
     "validate": "node scripts/validate.js",
     "test:equiv": "node scripts/test-answer-equiv.js",
