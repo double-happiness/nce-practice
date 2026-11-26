@@ -66,6 +66,8 @@
     .iec-svg .iec-mroad-line{stroke:rgba(255,255,255,.75);stroke-width:1;stroke-dasharray:5 4}
     .iec-svg text.iec-mtext{fill:var(--ink);font-weight:600}
     .iec-svg text.iec-mtext-label{fill:var(--ink-soft);font-weight:400;font-style:italic}
+    .iec-svg .iec-mletter circle{fill:var(--card);stroke:var(--brand);stroke-width:1.8}
+    .iec-svg .iec-mletter text{fill:var(--ink);font-weight:800}
     .iec-legend i.iec-mf-building{background:var(--iec-bld);border:1px solid var(--iec-bld-s)}
     .iec-legend i.iec-mf-road{background:var(--iec-road);border:1px solid var(--iec-road-s)}
     .iec-legend i.iec-mf-park{background:var(--iec-park);border:1px solid var(--iec-park-s)}
@@ -830,6 +832,15 @@
         }
       }
       if (!f.label) return;
+      // 听力地图标注题：单个大写字母的文字标注画成加粗圆圈标记（真考图上的 A–H），写作地图不用单字母标注
+      if (f.kind === 'label' && /^[A-Z]$/.test(f.label)) {
+        const r = font * 0.95;
+        const cx = Math.max(M + r + 1, Math.min(S - M - r - 1, x));
+        const cy = Math.max(M + r + 1, Math.min(S - M - r - 1, y));
+        texts += `<g class="iec-mletter"><title>${esc(f.label)}</title><circle cx="${f1(cx)}" cy="${f1(cy)}" r="${f1(r)}"/>` +
+          `<text x="${f1(cx)}" y="${f1(cy + font * 0.36)}" font-size="${font}" text-anchor="middle">${esc(f.label)}</text></g>`;
+        return;
+      }
       const cls = f.kind === 'label' ? 'iec-mtext iec-mtext-label iec-halo' : 'iec-mtext iec-halo';
       const keep = (v, half) => Math.max(M + half + 2, Math.min(S - M - half - 2, v)); // 文字不出画框
       if (f.kind === 'road' && h > w * 1.5) {
