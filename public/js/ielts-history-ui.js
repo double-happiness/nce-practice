@@ -3,6 +3,8 @@
 // 写作口语点开看原文与题目（口语另有转写与流利度指标），听力阅读点开看错题并可跳回对应模块重做。
 // 接口：GET /api/ielts/history?type=writing|speaking|listening|reading&limit=、GET /api/ielts/summary；
 // 写作口语的题目标题优先用 history 返回的 title；缺 title 时才拉 GET /api/ielts/writing、GET /api/ielts/speaking 做映射（拿不到就只显示题目 id）。
+// 「剑雅」标签：录入 / 查看 / 删除剑桥雅思等外部真题成绩，接口 GET / POST /api/ielts/external-tests、DELETE /api/ielts/external-tests/:id
+// （设计见 docs/design/ielts-external-scores-20261126.md §6–7）。
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -52,6 +54,17 @@
     .ieh-prompt{margin-bottom:10px;padding:8px 10px;border-radius:8px;background:rgba(127,127,127,.06);white-space:pre-line}
     .ieh-tx{margin-top:6px;color:var(--ink);overflow-wrap:anywhere}
     .ieh-tx p{margin:0 0 6px}
+    .iex-form [hidden]{display:none}
+    .iex-num{width:110px}
+    .iex-grow{flex:1;min-width:200px}
+    .iex-grow .ie-input{width:100%;box-sizing:border-box}
+    .iex-notes{display:block;width:100%;box-sizing:border-box;min-height:64px;resize:vertical}
+    .iex-chk{display:inline-flex;gap:7px;align-items:center;font-size:13px;color:var(--ink-soft);cursor:pointer;line-height:1.55}
+    .iex-chk input{accent-color:var(--brand)}
+    .iex-ovr-box{margin-top:10px}
+    .iex-line{display:flex;align-items:center;gap:8px 10px;flex-wrap:wrap;padding:10px 12px}
+    .iex-pills{display:flex;gap:6px;flex-wrap:wrap}
+    .iex-memo{padding:0 12px 10px;font-size:13px;color:var(--muted);line-height:1.6;white-space:pre-line;overflow-wrap:anywhere}
   `;
   document.head.appendChild(style);
 
@@ -67,12 +80,37 @@
     return type === 'listening' || type === 'reading';
   }
 
+  // 「剑雅」标签不走 /api/ielts/history，放在四个记录类型之后
+  const EXT_TAB = { name: '剑雅', icon: '📘' };
+  const TAB_KEYS = [...Object.keys(TYPES), 'external'];
+  function tabMeta(key) {
+    return key === 'external' ? EXT_TAB : TYPES[key];
+  }
+  // 计划页「录成绩 →」写入的一次性标记（ielts-plan-ui.js），进入记录页时读到就打开对应标签
+  const TAB_HINT_KEY = 'nce-ielts-history-tab';
+  const EXT_SKILLS = [
+    { key: 'listening', short: '听' },
+    { key: 'reading', short: '读' },
+    { key: 'writing', short: '写' },
+    { key: 'speaking', short: '口' },
+  ];
+  // 听力 / 阅读按书后换算表填的 band：0–9、步长 0.5（低分段也能填）；写作 / 口语沿用 IE.BAND_STEPS
+  const LR_BANDS = Array.from({ length: 19 }, (_, i) => i / 2);
+  const RAW_MAX = 40;
+  const BOOK_RANGE = [1, 30];
+  const TEST_RANGE = [1, 4];
+  const MAX_PAST_DAYS = 730; // 与后端一致：只能补录两年内的成绩
+  // 顺带打勾的计划任务 key → 展示名（data/ielts/plan.json 里的外部任务）
+  const EXT_TASK_NAME = { 'cam-lr': '剑雅听力 + 阅读', 'cam-mock': '剑雅全套模考' };
+
   const st = {
     type: 'writing',
     records: { writing: null, speaking: null, listening: null, reading: null },
     titles: null, // id → 标题
     titlesLoading: null,
     full: {}, // 'writing:id' / 'speaking:id' → 完整题目
+    sumSeq: 0, // 概况请求序号：录入 / 删除后会重拉，只认最后一次
+    extSeq: 0, // 剑雅列表请求序号
   };
   let root = null;
   let ctx = null;
@@ -410,16 +448,296 @@
     paintRecords();
   }
 
+  // ---------- 剑雅成绩 ----------
+  function pad2(n) {
+    return String(n).padStart(2, '0');
+  }
+  // n 天前的本地日期 YYYY-MM-DD（日期输入框的 min）
+  function daysAgoStr(n) {
+    const d = new Date();
+    d.setDate(d.getDate() - n);
+    return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+  }
+  function bandOptionsHtml(steps) {
+    return '<option value="">不填</option>' + steps.map((b) => `<option value="${b}">${b.toFixed(1)}</option>`).join('');
+  }
+  function fieldHtml(id, label, control, cls) {
+    return `<div class="ie-field${cls ? ' ' + cls : ''}"><label class="ie-label" for="${id}">${esc(label)}</label>${control}</div>`;
+  }
+  function intInputHtml(id, lo, hi, placeholder) {
+    return `<input class="ie-input iex-num" type="number" id="${id}" min="${lo}" max="${hi}" step="1" inputmode="numeric" placeholder="${esc(placeholder)}">`;
+  }
+  function bandSelectHtml(id, steps) {
+    return `<select id="${id}">${bandOptionsHtml(steps)}</select>`;
+  }
+
+  // G 类阅读没有内置换算表：阅读 band 直接放在原始分旁边、必填；A 类的听力 / 阅读 band 都收在「按书后换算表填 band」里
+  function extFormHtml(isG) {
+    const today = IE.todayStr();
+    const testOptions = '<option value="">不填</option>' +
+      Array.from({ length: TEST_RANGE[1] - TEST_RANGE[0] + 1 }, (_, i) => `<option value="${TEST_RANGE[0] + i}">Test ${TEST_RANGE[0] + i}</option>`).join('');
+    const hint = isG
+      ? '听力填答对题数（/40）会自动换算 band；G 类阅读没有内置换算表，请按书后换算表选阅读 band，原始分可不填。写作、口语按自评或老师给分填。'
+      : '听力、阅读填答对题数（/40），按 A 类换算表自动出 band；剑雅每本书后的换算表略有差异，想以书为准就勾上「按书后换算表填 band」。写作、口语按自评或老师给分填。';
+    return (
+      '<h3>📝 录入剑雅成绩 <span class="ie-h3-sub">四项至少填一项，没做的留空</span></h3>' +
+      '<div class="ie-form iex-form">' +
+      '<div class="ie-row">' +
+      fieldHtml('iexDate', '做题日期', `<input class="ie-input" type="date" id="iexDate" value="${esc(today)}" max="${esc(today)}" min="${esc(daysAgoStr(MAX_PAST_DAYS))}">`) +
+      fieldHtml('iexBook', '剑雅书号', intInputHtml('iexBook', BOOK_RANGE[0], BOOK_RANGE[1], '如 18')) +
+      fieldHtml('iexTest', 'Test 号', `<select id="iexTest">${testOptions}</select>`) +
+      fieldHtml('iexTitle', '标题（可选）', '<input class="ie-input" type="text" id="iexTitle" maxlength="60" placeholder="不填则显示为 剑雅 18 Test 2">', 'iex-grow') +
+      '</div>' +
+      '<div class="ie-row">' +
+      fieldHtml('iexLRaw', `听力原始分 /${RAW_MAX}`, intInputHtml('iexLRaw', 0, RAW_MAX, '答对题数')) +
+      fieldHtml('iexRRaw', `阅读原始分 /${RAW_MAX}`, intInputHtml('iexRRaw', 0, RAW_MAX, isG ? '可不填' : '答对题数')) +
+      (isG ? fieldHtml('iexRBandG', '阅读 band（G 类必填）', bandSelectHtml('iexRBandG', LR_BANDS)) : '') +
+      fieldHtml('iexW', '写作 band', bandSelectHtml('iexW', IE.BAND_STEPS)) +
+      fieldHtml('iexS', '口语 band', bandSelectHtml('iexS', IE.BAND_STEPS)) +
+      '</div>' +
+      '<div>' +
+      `<label class="iex-chk"><input type="checkbox" id="iexOvr">${isG ? '按书后换算表填听力 band' : '按书后换算表填 band'}（填了以它为准）</label>` +
+      '<div class="ie-row iex-ovr-box" id="iexOvrBox" hidden>' +
+      fieldHtml('iexLBand', '听力 band', bandSelectHtml('iexLBand', LR_BANDS)) +
+      (isG ? '' : fieldHtml('iexRBand', '阅读 band', bandSelectHtml('iexRBand', LR_BANDS))) +
+      '</div>' +
+      '</div>' +
+      fieldHtml('iexNotes', '备注（可选）', '<textarea class="ie-input iex-notes" id="iexNotes" maxlength="500" placeholder="错得多的题型、时间分配、下次要注意的地方…"></textarea>') +
+      '<label class="iex-chk"><input type="checkbox" id="iexTick" checked>同时在学习计划里打勾当天的剑雅任务</label>' +
+      '<div class="ie-row"><button type="button" class="btn small primary" id="iexSave">保存成绩</button><span class="ie-msg" id="iexMsg"></span></div>' +
+      `<div class="ie-muted">${esc(hint)}</div>` +
+      '</div>'
+    );
+  }
+
+  // 可选整数：空 → null；非整数或越界抛出中文说明（collectExternal 统一接住）
+  function readInt(el, range, name) {
+    const s = String(el.value || '').trim();
+    const msg = `${name}请填写 ${range[0]}–${range[1]} 的整数`;
+    if (!s) {
+      // number 输入框里填了非数字时 value 为空串，但 badInput 为 true，不能当成没填
+      if (el.validity && el.validity.badInput) throw new Error(msg);
+      return null;
+    }
+    if (!/^\d+$/.test(s)) throw new Error(msg);
+    const n = Number(s);
+    if (n < range[0] || n > range[1]) throw new Error(msg);
+    return n;
+  }
+  function readBand(sel) {
+    if (!sel || sel.value === '') return null;
+    const n = Number(sel.value);
+    return Number.isFinite(n) ? n : null;
+  }
+  // 听力 / 阅读：只填原始分 → { raw }，填了 band → { raw?, band }，都没填 → null（整项不发）
+  function rawBandEntry(raw, band) {
+    if (raw == null && band == null) return null;
+    const out = {};
+    if (raw != null) out.raw = raw;
+    if (band != null) out.band = band;
+    return out;
+  }
+
+  // 表单 → POST 请求体；校验不过返回 { error }
+  function collectExternal(card, isG) {
+    const $ = (id) => card.querySelector('#' + id);
+    const today = IE.todayStr();
+    const date = $('iexDate').value;
+    if (!IE.isDateStr(date)) return { error: '请填写有效的做题日期' };
+    if (date > today) return { error: '做题日期不能晚于今天' };
+    if (IE.daysBetween(date, today) > MAX_PAST_DAYS) return { error: '只能补录两年内的成绩' };
+    let book, test, lRaw, rRaw;
+    try {
+      book = readInt($('iexBook'), BOOK_RANGE, '剑雅书号');
+      test = readInt($('iexTest'), TEST_RANGE, 'Test 号');
+      lRaw = readInt($('iexLRaw'), [0, RAW_MAX], '听力原始分');
+      rRaw = readInt($('iexRRaw'), [0, RAW_MAX], '阅读原始分');
+    } catch (e) {
+      return { error: e.message };
+    }
+    // 没勾「按书后换算表填 band」时忽略收起来的 band 选择
+    const ovr = $('iexOvr').checked;
+    const lBand = ovr ? readBand($('iexLBand')) : null;
+    const rBand = isG ? readBand($('iexRBandG')) : ovr ? readBand($('iexRBand')) : null;
+    if (isG && rRaw != null && rBand == null) return { error: 'G 类阅读没有内置换算表，请按书后换算表选阅读 band' };
+
+    const body = { date, tickPlan: $('iexTick').checked };
+    if (book != null) body.book = book;
+    if (test != null) body.test = test;
+    const title = $('iexTitle').value.trim();
+    if (title) body.title = title;
+    const listening = rawBandEntry(lRaw, lBand);
+    const reading = rawBandEntry(rRaw, rBand);
+    const writing = readBand($('iexW'));
+    const speaking = readBand($('iexS'));
+    if (listening) body.listening = listening;
+    if (reading) body.reading = reading;
+    if (writing != null) body.writing = { band: writing };
+    if (speaking != null) body.speaking = { band: speaking };
+    if (!listening && !reading && writing == null && speaking == null) return { error: '听说读写至少填一项成绩' };
+    const notes = $('iexNotes').value.trim();
+    if (notes) body.notes = notes;
+    return { body };
+  }
+
+  function savedToastText(item, ticked, tickPlan) {
+    const name = item && item.displayTitle ? `「${item.displayTitle}」` : '';
+    let s = `剑雅成绩${name}已保存`;
+    if (ticked.length) s += `，已在学习计划里打勾：${ticked.map((k) => EXT_TASK_NAME[k] || k).join('、')}`;
+    else if (tickPlan) s += '（这一天不在备考计划内或当周没有剑雅任务，没有打勾）';
+    return s;
+  }
+
+  function mountExternalForm(card) {
+    const prof = IE.getProfile().profile;
+    const isG = !!(prof && prof.examType === 'G');
+    card.innerHTML = extFormHtml(isG);
+    const ovr = card.querySelector('#iexOvr');
+    const ovrBox = card.querySelector('#iexOvrBox');
+    ovr.onchange = () => { ovrBox.hidden = !ovr.checked; };
+    card.querySelector('#iexSave').onclick = () => saveExternal(card, isG);
+  }
+
+  async function saveExternal(card, isG) {
+    const btn = card.querySelector('#iexSave');
+    const msg = card.querySelector('#iexMsg');
+    const got = collectExternal(card, isG);
+    if (got.error) {
+      msg.className = 'ie-msg bad';
+      msg.textContent = got.error;
+      return;
+    }
+    btn.disabled = true;
+    msg.className = 'ie-msg';
+    msg.textContent = '保存中…';
+    let r;
+    try {
+      r = await IE.post('/api/ielts/external-tests', got.body);
+    } catch (e) {
+      // 请求层已弹 toast；表单内容保留，改完可直接再存
+      if (!card.isConnected) return;
+      btn.disabled = false;
+      msg.className = 'ie-msg bad';
+      msg.textContent = '保存失败：' + e.message;
+      return;
+    }
+    const ticked = r && Array.isArray(r.ticked) ? r.ticked : [];
+    NCE.toast(savedToastText(r && r.item, ticked, got.body.tickPlan), 'ok');
+    if (!alive()) return;
+    loadSummary();
+    // 保存期间切走了标签就不再动表单和列表（下次进入会重新拉）
+    if (!card.isConnected) return;
+    mountExternalForm(card);
+    loadExternalList();
+  }
+
+  function extSkillPillHtml(sk, v) {
+    if (!v || !Number.isFinite(Number(v.band))) return `<span class="ie-pill mute">${sk.short} —</span>`;
+    const raw = v.raw != null ? `（${v.raw}/${RAW_MAX}）` : '';
+    const tip = v.bandFrom === 'manual' ? '按书后换算表填写的 band' : v.bandFrom === 'table' ? '按原始分自动换算的 band' : '';
+    return `<span class="ie-pill"${tip ? ` title="${esc(tip)}"` : ''}>${sk.short} ${esc(IE.fmtBand(v.band))}${esc(raw)}</span>`;
+  }
+
+  function extRowHtml(r, i) {
+    const hasOverall = r.overall != null && Number.isFinite(Number(r.overall));
+    return (
+      `<div class="ieh-rec iex-rec" data-i="${i}">` +
+      '<div class="iex-line">' +
+      `<span class="ieh-date">${esc(r.date || '')}</span>` +
+      (r.examType === 'G' ? '<span class="ie-pill warn">G 类</span>' : '') +
+      `<span class="ieh-title">${esc(r.displayTitle || r.title || '剑雅成绩')}</span>` +
+      `<span class="iex-pills">${EXT_SKILLS.map((sk) => extSkillPillHtml(sk, r[sk.key])).join('')}</span>` +
+      (hasOverall ? `<span class="ieh-meta">总分</span><span class="ieh-band">${esc(IE.fmtBand(r.overall))}</span>` : '') +
+      '<button type="button" class="btn small ghost iex-del">删除</button>' +
+      '</div>' +
+      (r.notes ? `<div class="iex-memo">${esc(r.notes)}</div>` : '') +
+      '</div>'
+    );
+  }
+
+  async function deleteExternal(r, btn) {
+    const name = r.displayTitle || r.title || '剑雅成绩';
+    if (!window.confirm(`删除 ${r.date || ''} 的「${name}」？\n删除后不会自动取消学习计划里的打勾。`)) return;
+    btn.disabled = true;
+    try {
+      await IE.del(`/api/ielts/external-tests/${encodeURIComponent(r.id)}`);
+    } catch (e) {
+      // 请求层已弹 toast；记录已不存在（业务 404）时刷新列表与服务端对齐，其他错误允许再点
+      if (!alive()) return;
+      if (e.status === 404 && !e.apiMissing) {
+        loadExternalList();
+        loadSummary();
+      } else if (btn.isConnected) {
+        btn.disabled = false;
+      }
+      return;
+    }
+    NCE.toast(`已删除「${name}」`, 'ok');
+    if (!alive()) return;
+    loadSummary();
+    loadExternalList();
+  }
+
+  function paintExternalList(card, list) {
+    const head = `<h3>🗂️ 剑雅成绩 <span class="ie-h3-sub">共 ${list.length} 条 · 新的在前</span></h3>`;
+    if (!list.length) {
+      card.innerHTML = head + '<div class="ie-empty">还没有剑雅成绩。做完一套剑桥雅思真题后在上面录入分数，<br>成绩概况和总分估算会优先用整套成绩。</div>';
+      return;
+    }
+    card.innerHTML =
+      head +
+      `<div class="ieh-list">${list.map(extRowHtml).join('')}</div>` +
+      '<div class="ie-muted" style="margin-top:10px">成绩暂不支持修改，录错了删掉重录即可；删除不会取消学习计划里的打勾。</div>';
+    card.querySelectorAll('.iex-rec').forEach((el) => {
+      const r = list[Number(el.dataset.i)];
+      const btn = el.querySelector('.iex-del');
+      btn.onclick = () => deleteExternal(r, btn);
+    });
+  }
+
+  async function loadExternalList() {
+    const card = root && root.querySelector('.iex-list-card');
+    if (!card) return;
+    const seq = ++st.extSeq;
+    let r;
+    try {
+      r = await IE.get('/api/ielts/external-tests');
+    } catch (e) {
+      if (!alive() || seq !== st.extSeq || !card.isConnected) return;
+      card.innerHTML = IE.errorHtml('剑雅成绩加载失败', e);
+      IE.bindRetry(card, loadExternalList);
+      return;
+    }
+    if (!alive() || seq !== st.extSeq || !card.isConnected) return;
+    paintExternalList(card, toList(r).filter((x) => x && typeof x === 'object'));
+  }
+
+  // 每次切到「剑雅」都重建表单并重拉列表
+  function showExternal() {
+    const box = root.querySelector('.ieh-main');
+    if (!box) return;
+    box.innerHTML =
+      '<div class="ie-card iex-form-card"></div>' +
+      '<div class="ie-card iex-list-card"><div class="ie-loading">正在加载剑雅成绩…</div></div>';
+    mountExternalForm(box.querySelector('.iex-form-card'));
+    loadExternalList();
+  }
+
+  // 进入页面时加载；录入 / 删除剑雅成绩后会再调一次重算（只认最后一次请求）
   async function loadSummary() {
     const el = root.querySelector('.ieh-summary');
+    const seq = ++st.sumSeq;
     let sum;
     try {
       sum = await IE.get('/api/ielts/summary');
     } catch (e) {
-      if (el) el.remove(); // 概况拿不到就不显示，不影响记录
+      if (seq !== st.sumSeq) return;
+      // 首次拿不到就不显示，不影响记录；重拉失败时保留上一次的概况
+      if (el && !el.querySelector('.ieh-sum')) el.remove();
+      else console.warn('[ielts-history] 成绩概况刷新失败，先显示上一次的结果', e);
       return;
     }
-    if (!alive() || !el || !el.isConnected) return;
+    if (!alive() || seq !== st.sumSeq || !el || !el.isConnected) return;
     const l = sum.listening || {};
     const r = sum.reading || {};
     const w = sum.writing || {};
@@ -443,16 +761,38 @@
       (e.note ? `<div class="ie-muted ieh-sum-note">📐 ${esc(e.note)}</div>` : '');
   }
 
+  // 读一次性标签标记，读完即删；sessionStorage 不可用（隐私模式等）时当作没有
+  function takeTabHint() {
+    let v = null;
+    try {
+      v = sessionStorage.getItem(TAB_HINT_KEY);
+      sessionStorage.removeItem(TAB_HINT_KEY);
+    } catch (e) {
+      console.warn('[ielts-history] 读取标签跳转标记失败', e);
+      return null;
+    }
+    return TAB_KEYS.includes(v) ? v : null;
+  }
+
+  // 打开当前标签：剑雅走自己的接口，其余四类走 /api/ielts/history（已拉过的直接重绘）
+  function showCurrentTab() {
+    if (st.type === 'external') showExternal();
+    else if (st.records[st.type]) paintRecords();
+    else loadRecords();
+  }
+
   function render(body, c) {
     root = body;
     ctx = c;
     // 每次进入都重新拉，刚提交的记录能马上看到
     st.records = { writing: null, speaking: null, listening: null, reading: null };
+    const hint = takeTabHint();
+    if (hint) st.type = hint;
     body.innerHTML =
       '<div class="ie-card ieh-summary"><div class="ie-loading" style="padding:8px 0">正在加载概况…</div></div>' +
       '<div class="ie-row chips ieh-tabs">' +
-      Object.keys(TYPES)
-        .map((k) => `<div class="chip${st.type === k ? ' active' : ''}" data-t="${k}">${TYPES[k].icon} ${TYPES[k].name}</div>`)
+      TAB_KEYS
+        .map((k) => `<div class="chip${st.type === k ? ' active' : ''}" data-t="${k}">${tabMeta(k).icon} ${tabMeta(k).name}</div>`)
         .join('') +
       '</div>' +
       '<div class="ieh-main"></div>';
@@ -461,12 +801,11 @@
         if (chip.dataset.t === st.type) return;
         st.type = chip.dataset.t;
         body.querySelectorAll('.ieh-tabs .chip').forEach((x) => x.classList.toggle('active', x === chip));
-        if (st.records[st.type]) paintRecords();
-        else loadRecords();
+        showCurrentTab();
       };
     });
     loadSummary();
-    loadRecords();
+    showCurrentTab();
   }
 
   IE.registerPage('history', { render });
