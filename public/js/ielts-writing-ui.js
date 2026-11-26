@@ -591,6 +591,7 @@
       `<div class="ie-muted" style="margin-top:4px">字数 ${wc} · 用时 ${esc(IE.fmtDuration(st.durationSec))}</div>` +
       (hints.length ? `<div class="ie-warn" style="margin-top:10px">${hints.map((h) => esc(h)).join('<br>')}</div>` : '') +
       '</div>' +
+      '<div class="iew-ai"></div>' +
       '<div class="ie-card iew-prompt">' +
       `<h3>📖 范文对照${it.modelBand != null ? ` <span class="ie-h3-sub">范文约 Band ${esc(IE.fmtBand(it.modelBand))}</span>` : ''}</h3>` +
       '<div class="iew-compare">' +
@@ -606,6 +607,15 @@
     root.querySelector('.iew-back').onclick = renderList;
     root.querySelector('.iew-next').onclick = renderList;
     root.querySelector('.iew-redo').onclick = () => openPrompt(it.id);
+    // AI 批改：服务端未开启时组件什么都不显示；结果存在这条写作记录上，记录页也能看
+    const entryId = r.entry && typeof r.entry.id === 'string' ? r.entry.id : '';
+    if (entryId) {
+      IE.mountAiReview(root.querySelector('.iew-ai'), {
+        recordId: entryId,
+        review: st.result.aiReview,
+        onUpdate: (review) => { st.result.aiReview = review; },
+      });
+    }
   }
 
   // 关页 / 刷新 / 切到后台时兜底存一次草稿（5 秒定时存之间的内容不丢）；只绑定一次

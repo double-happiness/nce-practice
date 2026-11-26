@@ -266,6 +266,7 @@
       const id = type === 'writing' ? r.promptId : r.itemId;
       title = r.title || titles[type + ':' + id] || id || '（未知题目）';
       pills.push(`<span class="ie-pill">${esc(recordLabel(type, r))}</span>`);
+      if (type === 'writing' && r.ai && Number.isFinite(Number(r.ai.band))) pills.push(`<span class="ie-pill ok" title="AI 批改分数，仅供参考">AI ${esc(IE.fmtBand(r.ai.band))}</span>`);
       if (type === 'writing' && r.wordCount != null) meta.push(`${r.wordCount} 词`);
     }
     if (r.durationSec != null) meta.push(IE.fmtDuration(r.durationSec));
@@ -357,7 +358,8 @@
         '<div class="ieh-prompt ie-muted">正在加载题目…</div>' +
         (dims ? `<div>四维自评：${esc(dims)}</div>` : '') +
         '<div style="margin-top:8px"><b>我的作文</b></div>' +
-        `<div class="essay">${paragraphsHtml(r.text)}</div>`;
+        `<div class="essay">${paragraphsHtml(r.text)}</div>` +
+        '<div class="ieh-ai"></div>';
     } else {
       det.innerHTML =
         '<div class="ieh-prompt ie-muted">正在加载题目…</div>' +
@@ -368,6 +370,14 @@
         '<div class="ie-muted" style="margin-top:6px">录音不保存（只在练习当时的页面内存里）。</div>';
     }
     recEl.appendChild(det);
+    if (type === 'writing' && r.id) {
+      // AI 批改：已有结果直接显示；批改完同步回列表数据，收起再展开不用重拉
+      IE.mountAiReview(det.querySelector('.ieh-ai'), {
+        recordId: r.id,
+        review: r.ai,
+        onUpdate: (review) => { r.ai = review; },
+      });
+    }
     const id = type === 'writing' ? r.promptId : r.itemId;
     const promptEl = det.querySelector('.ieh-prompt');
     if (!id) {
