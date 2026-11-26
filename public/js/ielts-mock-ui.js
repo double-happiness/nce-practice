@@ -6,7 +6,7 @@
 // 只能「重新开始本部分」或「放弃本部分」。写作、口语进入自评后内容已冻结（存 localStorage），中断后可直接续做。
 // 接口：POST /api/ielts/mock/start、GET /api/ielts/mock/:id、POST /api/ielts/mock/:id/section、
 //       POST /api/ielts/mock/:id/finish、GET /api/ielts/mocks；题目取各模块已有的 GET 接口。
-// 设计：docs/design/ielts-mock-20261125.md
+// 设计：docs/design/ielts-mock-20261125.md；听力多选 / 地图标注 / 流程图填空见 docs/design/ielts-listening-types-20261126.md
 (function () {
   const NCE = window.NCE;
   const IE = NCE && NCE.ielts;
@@ -35,7 +35,8 @@
   const STATUS_PILL = { 'in-progress': ['进行中', ''], finished: ['已出分', 'ok'], abandoned: ['已放弃', 'mute'] };
   const L_TYPE = {
     'form-completion': '表格填空', 'note-completion': '笔记填空', 'sentence-completion': '句子填空',
-    'summary-completion': '摘要填空', mcq: '单选', matching: '匹配',
+    'summary-completion': '摘要填空', 'flowchart-completion': '流程图填空', mcq: '单选', 'mcq-multi': '多选',
+    matching: '匹配', 'map-labelling': '地图标注',
   };
   const R_TYPE = {
     tfng: 'TRUE / FALSE / NOT GIVEN', ynng: 'YES / NO / NOT GIVEN', 'matching-headings': '段落标题配对',
@@ -112,6 +113,18 @@
     .iem-opt.on,.iem-choice.on{background:rgba(47,111,237,.12);border-color:var(--brand);color:var(--ink)}
     .iem-choice.on{background:var(--brand);color:#fff}
     .iem-opt:disabled,.iem-choice:disabled{cursor:default;opacity:.75}
+    .iem-pick{font-size:12px;color:var(--muted);margin:4px 0 0 34px}
+    .iem-pick.warn{color:#d97706;font-weight:700}
+    @media (max-width:480px){.iem-pick{margin-left:0}}
+    .iem-fig{margin-top:8px;min-width:0}
+    /* 听力流程图填空：方框竖排、框间向下箭头；宽屏居中限宽，窄屏占满 */
+    .iem-flow{display:flex;flex-direction:column;align-items:center;margin-top:8px;min-width:0}
+    .iem-flow-box{width:100%;max-width:560px;box-sizing:border-box;border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:7px 12px;background:rgba(127,127,127,.04);font-size:14px;line-height:2.1;color:var(--ink);text-align:center;overflow-wrap:anywhere}
+    .iem-flow-box.q{border-color:rgba(47,111,237,.45)}
+    .iem-flow-box .iem-in{width:8em}
+    .iem-flow-arr{position:relative;flex:none;width:14px;height:22px}
+    .iem-flow-arr::before{content:"";position:absolute;left:6px;top:2px;bottom:7px;border-left:2px solid var(--muted-2)}
+    .iem-flow-arr::after{content:"";position:absolute;left:1px;bottom:1px;border-style:solid;border-width:7px 6px 0;border-color:var(--muted-2) transparent transparent}
     .iem-box{border:1px dashed var(--border);border-radius:var(--radius-sm);padding:8px 12px;margin-top:8px;font-size:13.5px;color:var(--ink-soft);line-height:1.7;overflow-wrap:anywhere}
     .iem-box b{color:var(--ink);margin-right:6px}
     .iem-bank{display:flex;flex-wrap:wrap;gap:2px 14px}
@@ -349,7 +362,7 @@
     rec.urls = [];
   }
 
-  // ---------- 写作图表（resize 监听要释放）----------
+  // ---------- 写作图表、听力地图（resize 监听要释放）----------
   let chartDisposers = [];
   function disposeCharts() {
     chartDisposers.forEach((fn) => {
@@ -655,6 +668,7 @@
   function renderOverview(errText) {
     stopSpeech();
     clearTimers();
+    disposeCharts(); // 总览没有图表；从听力（地图）交卷 / 中断回到总览时释放 resize 监听
     st.stage = 'overview';
     const v = st.mock;
     const cur = v.current;
@@ -1093,13 +1107,16 @@
       '</div></div>'
     );
   }
+  // 匹配与地图标注共用：地图题的选项就是图上的字母（没有文字），不再单列选项框
   function lMatching(L, sec, g) {
     const opts = g.options || [];
-    const box =
-      '<div class="iem-box">' +
-      (g.optionsTitle ? `<div><b>${esc(g.optionsTitle)}</b></div>` : '') +
-      opts.map((o) => `<div><b>${esc(o.key)}</b>${esc(o.text)}</div>`).join('') +
-      '</div>';
+    const hasText = opts.some((o) => o.text);
+    const box = hasText || g.optionsTitle
+      ? '<div class="iem-box">' +
+        (g.optionsTitle ? `<div><b>${esc(g.optionsTitle)}</b></div>` : '') +
+        (hasText ? opts.map((o) => `<div><b>${esc(o.key)}</b>${esc(o.text || '')}</div>`).join('') : '') +
+        '</div>'
+      : '';
     const rows = g.questions.map((q) => {
       const sel = (L.answers[sec.id] || {})[String(q.no)] || '';
       return (
@@ -1112,10 +1129,79 @@
     }).join('');
     return box + rows;
   }
+  // 多选（Choose TWO / THREE）：一组一道题干 + 复选框，最多选「本组题数」个
+  // 作答仍按题号存：选中的字母按字母序依次填给本组题号（题号升序），没选满的题号填 ''
+  function lMultiPicked(g, a) {
+    const out = new Set();
+    g.questions.forEach((q) => {
+      const v = String((a || {})[String(q.no)] || '').trim().toUpperCase();
+      if (v) out.add(v);
+    });
+    return out;
+  }
+  function lMultiAssign(g, keys, a) {
+    const sorted = keys.slice().sort();
+    g.questions.map((q) => q.no).sort((x, y) => x - y).forEach((no, i) => {
+      a[String(no)] = sorted[i] || '';
+    });
+  }
+  function lPickText(max, n) {
+    return `选 ${max} 项 · 已选 ${n}`;
+  }
+  function lMcqMulti(L, sec, si, g, gi) {
+    const max = g.questions.length;
+    const picked = lMultiPicked(g, L.answers[sec.id]);
+    return (
+      `<div class="iem-q iem-multi" data-si="${si}" data-gi="${gi}">` +
+      `<div class="iem-qh"><span class="iem-no">${esc(lRange(g))}</span><span>${esc(g.prompt || '')}</span></div>` +
+      `<div class="iem-pick">${esc(lPickText(max, picked.size))}</div>` +
+      '<div class="iem-opts">' +
+      (g.options || []).map((o) => {
+        const on = picked.has(String(o.key).toUpperCase());
+        return (
+          `<label class="iem-opt${on ? ' on' : ''}">` +
+          `<input type="checkbox" name="iem-m${si}-${gi}" value="${esc(o.key)}" data-sid="${esc(sec.id)}" data-si="${si}" data-gi="${gi}"${on ? ' checked' : ''}${L.locked ? ' disabled' : ''}>` +
+          `<span><b>${esc(o.key)}</b>&nbsp; ${esc(o.text)}</span></label>`
+        );
+      }).join('') +
+      '</div></div>'
+    );
+  }
+  // 流程框顺序：有 flow 按 flow（{ text } 固定步骤 / { no } 引用本组题），没有就按题号每题一框；
+  // flow 漏掉的题补在最后，保证每题都有输入框（数据已由服务端校验，这里只做兜底）
+  function lFlowSteps(g) {
+    const byNo = new Map(g.questions.map((q) => [q.no, q]));
+    const used = new Set();
+    const out = [];
+    (Array.isArray(g.flow) ? g.flow : []).forEach((f) => {
+      if (!f || typeof f !== 'object') return;
+      const q = f.no != null ? byNo.get(Number(f.no)) : null;
+      if (q && !used.has(q.no)) {
+        used.add(q.no);
+        out.push({ q });
+      } else if (f.no == null && typeof f.text === 'string' && f.text.trim()) out.push({ text: f.text });
+    });
+    g.questions.forEach((q) => {
+      if (!used.has(q.no)) out.push({ q });
+    });
+    return out;
+  }
+  function lFlowchart(L, sec, g) {
+    const boxes = lFlowSteps(g).map((x) => {
+      if (!x.q) return `<div class="iem-flow-box">${esc(x.text)}</div>`;
+      const [a, b] = lGapParts(x.q.prompt);
+      return `<div class="iem-flow-box q">${esc(a)}<span class="iem-gap"><span class="iem-no">${esc(x.q.no)}</span>${lInput(L, sec.id, x.q.no)}</span>${esc(b)}</div>`;
+    });
+    return `<div class="iem-flow">${boxes.join('<div class="iem-flow-arr" aria-hidden="true"></div>')}</div>`;
+  }
   function lGroupHtml(L, sec, si, g, gi) {
     let body;
     if (g.type === 'mcq') body = g.questions.map((q) => lMcq(L, sec, si, q)).join('');
+    else if (g.type === 'mcq-multi') body = lMcqMulti(L, sec, si, g, gi);
     else if (g.type === 'matching') body = lMatching(L, sec, g);
+    // 地图占位：整页写完后由 mountListeningFigures 按容器实际宽度画进去
+    else if (g.type === 'map-labelling') body = `<div class="iem-fig" data-si="${si}" data-gi="${gi}"></div>` + lMatching(L, sec, g);
+    else if (g.type === 'flowchart-completion') body = lFlowchart(L, sec, g);
     else if (g.type === 'summary-completion') {
       body =
         '<p class="iem-para">' +
@@ -1168,6 +1254,7 @@
       '</div>';
     exitButton();
     const wrap = root.querySelector('.iem-lq');
+    mountListeningFigures();
     const record = (el) => {
       if (!el || !el.dataset || !el.dataset.no || !el.dataset.sid || L.locked) return;
       if (el.type === 'radio') {
@@ -1177,10 +1264,47 @@
       const a = L.answers[el.dataset.sid];
       if (a) a[el.dataset.no] = el.value;
     };
+    // 多选：超过可选个数时撤销这一次勾选并提示；否则按字母序重新填本组题号
+    const recordMulti = (el) => {
+      const box = el.closest('.iem-multi');
+      const sec = L.sections[Number(el.dataset.si)];
+      const g = sec && sec.groups[Number(el.dataset.gi)];
+      const a = L.answers[el.dataset.sid];
+      if (!box || !g || !a || L.locked) return;
+      const inputs = [...box.querySelectorAll('input[type="checkbox"]')];
+      const max = g.questions.length;
+      const hint = box.querySelector('.iem-pick');
+      if (el.checked && inputs.filter((x) => x.checked).length > max) {
+        el.checked = false;
+        hint.textContent = `最多选 ${max} 项，先取消一个再换`;
+        hint.classList.add('warn');
+        return;
+      }
+      const keys = inputs.filter((x) => x.checked).map((x) => String(x.value).toUpperCase());
+      lMultiAssign(g, keys, a);
+      inputs.forEach((x) => x.closest('.iem-opt').classList.toggle('on', x.checked));
+      hint.textContent = lPickText(max, keys.length);
+      hint.classList.remove('warn');
+    };
     wrap.oninput = (e) => record(e.target);
-    wrap.onchange = (e) => record(e.target);
+    // 多选复选框没有 data-no，只在 change 里处理一次
+    wrap.onchange = (e) => (e.target.type === 'checkbox' ? recordMulti(e.target) : record(e.target));
     root.querySelector('.iem-submit').onclick = () => submitListening(false);
     paintListeningStatus();
+  }
+
+  // 地图标注题的地图：每次重绘作答页都重新挂（先释放上一次的 resize 监听）
+  function mountListeningFigures() {
+    const L = st.live;
+    disposeCharts();
+    if (!L || L.section !== 'listening' || !root) return;
+    root.querySelectorAll('.iem-lq .iem-fig').forEach((el) => {
+      const sec = L.sections[Number(el.dataset.si)];
+      const g = sec && sec.groups[Number(el.dataset.gi)];
+      if (!g || !g.figure) el.innerHTML = '<div class="ie-note">本组缺少地图数据。</div>';
+      else if (IE.chart) chartDisposers.push(IE.chart.mount(el, g.figure));
+      else el.innerHTML = '<div class="ie-note">图表模块没有加载，请刷新页面。</div>';
+    });
   }
 
   function listeningView(L) {
@@ -2139,18 +2263,37 @@
   }
 
   // ======================= 结果 =======================
+  // extra.answerLabel：替代默认「答案 / 答案」写法（听力多选）；extra.answerNote：展开后在题干下多显示一行
   function wrongHtml(no, yours, yoursText, answer, answerText, extra) {
     const your = yours ? `${yours}${yoursText ? `（${yoursText}）` : ''}` : '未作答';
-    const right = (Array.isArray(answer) ? answer : []).join(' / ');
+    const right = extra.answerLabel || (Array.isArray(answer) ? answer : []).join(' / ');
     return (
       '<details class="iem-wrong"><summary>' +
       `<span class="iem-no">${esc(no)}</span> 你的答案：<b>${esc(your)}</b>${extra.overLimit ? ' <span class="ie-pill warn">超字数</span>' : ''}` +
       ` · 正确：<b>${esc(right)}${answerText ? `（${esc(answerText)}）` : ''}</b></summary>` +
       (extra.prompt ? `<div class="q">${esc(extra.prompt)}</div>` : '') +
+      (extra.answerNote ? `<div>${esc(extra.answerNote)}</div>` : '') +
       (extra.explanation ? `<div>${esc(extra.explanation)}</div>` : '') +
       (extra.evidence && extra.evidence.quote ? `<div class="ev">段落 ${esc(extra.evidence.para || '')}：${esc(extra.evidence.quote)}</div>` : '') +
       '</details>'
     );
+  }
+
+  // 听力多选：answer 是本组全部正确字母（顺序不限）；answerText 可能是与 answer 对齐的数组，也可能是已拼好的一段文字
+  function multiWrongHtml(w) {
+    const keys = (Array.isArray(w.answer) ? w.answer : []).map((k) => String(k).toUpperCase());
+    const texts = w.answerText;
+    let note = '';
+    if (Array.isArray(texts)) {
+      note = texts.length === keys.length
+        ? keys.map((k, i) => (texts[i] ? `${k} · ${texts[i]}` : k)).join('；')
+        : texts.filter(Boolean).join('；');
+    } else if (typeof texts === 'string') note = texts;
+    const extra = Object.assign({}, w, {
+      answerLabel: keys.length ? `${keys.join('、')}（顺序不限）` : '',
+      answerNote: note ? `正确选项：${note}` : '',
+    });
+    return wrongHtml(w.no, w.yours, w.yoursText, w.answer, '', extra);
   }
 
   function reviewListeningHtml(list) {
@@ -2159,7 +2302,7 @@
       const head = `Part ${esc(p.part || '?')} · ${esc(p.title || p.sectionId)} · ${esc(p.raw)}/${esc(p.total)}` +
         (p.missing ? ' · 题目已不在题库里' : p.wrong.length ? ` · 错 ${p.wrong.length} 题` : ' · 全对');
       return `<div class="iem-sub">${head}</div>` +
-        p.wrong.map((w) => wrongHtml(w.no, w.yours, w.yoursText, w.answer, w.answerText, w)).join('');
+        p.wrong.map((w) => (w.type === 'mcq-multi' ? multiWrongHtml(w) : wrongHtml(w.no, w.yours, w.yoursText, w.answer, w.answerText, w))).join('');
     }).join('');
   }
 
@@ -2275,6 +2418,8 @@
     resume() {
       if (!root || !root.isConnected || st.stage === 'loading' || st.stage === 'left') return false;
       st.visible = true;
+      // 听力检查时间切走再回来：作答页还在，但 pause 时地图的 resize 监听已释放，重新挂上
+      if (st.stage === 'listening' && st.live && st.live.section === 'listening') mountListeningFigures();
       return true;
     },
     pause() {
