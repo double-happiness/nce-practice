@@ -1,0 +1,164 @@
+[
+  {
+    "id": "l3-river-fieldwork",
+    "part": 3,
+    "title": "Writing up a river field trip",
+    "titleCn": "河流野外考察报告分工",
+    "intro": "Part 3. You will hear two geography students, Sana and Leo, discussing the report on their river field trip.",
+    "speakers": [
+      { "id": "sana", "name": "Sana", "gender": "female" },
+      { "id": "leo", "name": "Leo", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "sana", "text": "Hi Leo. Have you got a few minutes to go through our field trip report? It's due on Friday, and I'd like to check that we agree on what to say." },
+      { "speaker": "leo", "text": "Sure. I've just been looking at our river measurements again, actually." },
+      { "speaker": "sana", "text": "Good. So, for the introduction, we need to say what we learned from the trip. What do you think was the most useful thing about it?" },
+      { "speaker": "leo", "text": "Well, the lectures had already covered the theory, like how rivers get wider and slower further downstream, so that wasn't really new. And the equipment was pretty basic. For me, the real value was learning how to collect data in bad conditions. Remember how the rain kept washing our markers away?" },
+      { "speaker": "sana", "text": "How could I forget? But I agree. That's what we should say." },
+      { "speaker": "sana", "text": "Next, the results. Did you notice anything odd about site three?" },
+      { "speaker": "leo", "text": "Yes, the water was much faster there than at site two, even though it's further downstream. At first I wondered if we'd used the flow meter wrongly." },
+      { "speaker": "sana", "text": "I checked that, and the readings were consistent. I think it's because a farmer had built a stone wall along the bank just above site three, so the channel was narrower there." },
+      { "speaker": "leo", "text": "That makes sense. So it wasn't the rain? It had been pouring all morning." },
+      { "speaker": "sana", "text": "No, because it rained just as much at the other sites, and they don't show the same pattern." },
+      { "speaker": "sana", "text": "What about the photos? We took loads, but the guidelines say we can only include six." },
+      { "speaker": "leo", "text": "I'd choose the ones that show the changes in the river bed, rather than the ones of the group working, or the ones of the weather. Dr Ahmed said the examiners aren't interested in seeing us. They want evidence." },
+      { "speaker": "sana", "text": "Fair enough. The river bed ones are better photos anyway." },
+      { "speaker": "sana", "text": "OK, now let's divide up the writing. I'm happy to do the introduction, since I've already started reading the background articles." },
+      { "speaker": "leo", "text": "Great. Then I'll write the methods section. I kept the notebook, so I know exactly what we did at each site." },
+      { "speaker": "sana", "text": "And the results? There's a lot of data to describe." },
+      { "speaker": "leo", "text": "I was going to offer, but honestly, you're much better at graphs than I am." },
+      { "speaker": "sana", "text": "Hmm, I think the results really need both of us. Why don't we sit down and write that part together on Wednesday?" },
+      { "speaker": "leo", "text": "Good plan. And the conclusion? I thought you might want to do that one." },
+      { "speaker": "sana", "text": "Actually, you understand the site three problem better than I do, and that's the main thing we'll discuss in the conclusion." },
+      { "speaker": "leo", "text": "Fair point. OK, I'll take the conclusion." },
+      { "speaker": "sana", "text": "One last thing. Dr Ahmed's feedback on our last report said we needed to improve our referencing." },
+      { "speaker": "leo", "text": "Yes, she said we relied too much on websites. This time we should use at least five journal articles." },
+      { "speaker": "sana", "text": "Agreed. And she also said our tables were hard to read. We should give each one a clear title and put the units in the column headings." },
+      { "speaker": "leo", "text": "Right. And should we include all the raw data?" },
+      { "speaker": "sana", "text": "Not in the main text. It should go in an appendix at the end. Otherwise we'll go over the word limit." },
+      { "speaker": "leo", "text": "Perfect. Let's meet in the library on Wednesday, then." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          {
+            "no": 21,
+            "prompt": "What does Leo think was most valuable about the field trip?",
+            "options": [
+              { "key": "A", "text": "learning the theory of how rivers change" },
+              { "key": "B", "text": "using modern equipment" },
+              { "key": "C", "text": "collecting data in difficult conditions" }
+            ],
+            "answer": ["C"],
+            "segment": 3,
+            "evidence": "the real value was learning how to collect data in bad conditions",
+            "explanation": "理论课上早讲过了，不新鲜（排除 A）；设备很简陋（basic，排除 B）；对他来说真正的收获是学会在恶劣条件下采集数据。bad ≈ difficult。"
+          },
+          {
+            "no": 22,
+            "prompt": "What do the students think explains the unusual result at site three?",
+            "options": [
+              { "key": "A", "text": "The flow meter was used incorrectly." },
+              { "key": "B", "text": "The channel had been made narrower." },
+              { "key": "C", "text": "Heavy rain had increased the flow." }
+            ],
+            "answer": ["B"],
+            "segment": 7,
+            "evidence": "the channel was narrower there",
+            "explanation": "Leo 起初怀疑流速仪用错了，但 Sana 核查过读数一致（排除 A）；原因是农民在三号点上游的岸边砌了石墙，河道变窄了。下雨在各点都一样，不能解释差异（排除 C）。"
+          },
+          {
+            "no": 23,
+            "prompt": "Which photographs do they decide to include in the report?",
+            "options": [
+              { "key": "A", "text": "ones that show the group collecting data" },
+              { "key": "B", "text": "ones that show changes in the river bed" },
+              { "key": "C", "text": "ones that show the different weather conditions" }
+            ],
+            "answer": ["B"],
+            "segment": 11,
+            "evidence": "the ones that show the changes in the river bed",
+            "explanation": "Leo 建议选能体现河床变化的照片，而不是小组干活的（排除 A）或天气的（排除 C），因为考官要看证据，不是看他们本人。Sana 同意。"
+          }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 13,
+        "instruction": "Who will write each section of the report? Write the correct letter, A, B or C, next to Questions 24-27.",
+        "optionsTitle": "People",
+        "options": [
+          { "key": "A", "text": "Sana" },
+          { "key": "B", "text": "Leo" },
+          { "key": "C", "text": "Sana and Leo together" }
+        ],
+        "questions": [
+          {
+            "no": 24,
+            "prompt": "the introduction",
+            "answer": ["A"],
+            "segment": 13,
+            "evidence": "I'm happy to do the introduction",
+            "explanation": "Sana 已经开始读背景文献，主动提出写引言：I'm happy to do the introduction。"
+          },
+          {
+            "no": 25,
+            "prompt": "the methods",
+            "answer": ["B"],
+            "segment": 14,
+            "evidence": "I'll write the methods section",
+            "explanation": "笔记本在 Leo 手上，他清楚每个点做了什么，所以由他写方法部分。"
+          },
+          {
+            "no": 26,
+            "prompt": "the results",
+            "answer": ["C"],
+            "segment": 17,
+            "evidence": "write that part together on Wednesday",
+            "explanation": "Leo 本想主动承担，又说 Sana 更擅长画图（容易误选 A）；最后 Sana 提议周三两人一起写结果部分。"
+          },
+          {
+            "no": 27,
+            "prompt": "the conclusion",
+            "answer": ["B"],
+            "segment": 20,
+            "evidence": "I'll take the conclusion",
+            "explanation": "Leo 以为 Sana 会写结论（容易误选 A），但 Sana 说 Leo 更了解三号点的问题，而这是结论的重点，于是 Leo 接下：I'll take the conclusion。"
+          }
+        ]
+      },
+      {
+        "type": "sentence-completion",
+        "from": 21,
+        "instruction": "Complete the sentences below.",
+        "wordLimit": "NO MORE THAN TWO WORDS",
+        "questions": [
+          {
+            "no": 28,
+            "prompt": "This time, the students should use at least five ___.",
+            "answer": ["journal articles"],
+            "segment": 22,
+            "explanation": "导师批评上次太依赖网站（websites 是干扰），这次至少要用五篇期刊论文（journal articles）。两个词都要写，注意 articles 是复数。"
+          },
+          {
+            "no": 29,
+            "prompt": "Each table should have a clear ___ and units in the column headings.",
+            "answer": ["title"],
+            "segment": 23,
+            "explanation": "导师说上次的表格难读，所以每张表都要有清楚的标题（a clear title），并把单位写进列标题。"
+          },
+          {
+            "no": 30,
+            "prompt": "The raw data should go in an ___ at the end of the report.",
+            "answer": ["appendix"],
+            "segment": 25,
+            "explanation": "原始数据不放正文（not in the main text），放在报告末尾的附录（appendix）里，否则会超字数。注意拼写 appendix。"
+          }
+        ]
+      }
+    ]
+  }
+]

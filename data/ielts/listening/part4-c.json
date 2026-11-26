@@ -1,0 +1,119 @@
+[
+  {
+    "id": "l4-light-pollution",
+    "part": 4,
+    "title": "Light pollution and wildlife",
+    "titleCn": "光污染对野生动物的影响",
+    "intro": "Part 4. You will hear a lecture about artificial light at night and its effects on wild animals.",
+    "speakers": [
+      { "id": "bennett", "name": "Professor Mark Bennett (lecturer)", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "bennett", "text": "Good morning, everyone. Today I want to talk about a kind of pollution that most people don't think of as pollution at all, and that's artificial light at night. Over the past century, the night sky above most towns has become far brighter, and in many places it never gets truly dark. We usually think of this as a problem for astronomers, who can no longer see the stars clearly. But today I'd like to focus on its effects on wildlife." },
+      { "speaker": "bennett", "text": "Let's start with what we mean by light pollution. It includes the orange or white glow that you can see above a city from miles away, which is known as sky glow. But it also includes direct light shining where it isn't needed, such as street lamps that light up gardens and rivers, and the bright advertising screens that are now common in city centres." },
+      { "speaker": "bennett", "text": "So why does this matter to animals? The basic reason is that life on Earth developed with a regular cycle of day and night. Many animals use darkness to hide from predators, and many use the light of the moon and stars to find their way." },
+      { "speaker": "bennett", "text": "Insects are probably the most affected group. You'll have seen moths flying round and round a street lamp. Many of them never escape. They die of exhaustion, or they're eaten by bats and birds that have learned to hunt near lamps. Some researchers estimate that a single street lamp can kill around a hundred and fifty insects on a summer night." },
+      { "speaker": "bennett", "text": "This matters not only for the insects themselves, but because many plants depend on moths to carry pollen at night. One study found that plants growing near street lights received far fewer visits from night-flying insects, and as a result they produced fewer seeds." },
+      { "speaker": "bennett", "text": "Birds are affected too, especially those that migrate at night. They use the stars to navigate, and brightly lit buildings can confuse them so badly that they fly into windows or circle around until they're exhausted. In some cities, tall buildings now turn off their lights during the spring and autumn migration seasons." },
+      { "speaker": "bennett", "text": "Perhaps the best-known example is sea turtles. Female turtles come onto beaches at night to lay their eggs. When the young turtles hatch, they head towards the brightest horizon, which on a natural beach is the sea, because it reflects the light of the moon. But on a beach near a town, the brightest direction may be the hotels and roads, so the young turtles crawl inland instead, where many of them die." },
+      { "speaker": "bennett", "text": "Artificial light can also affect animals' daily rhythms. Studies of city blackbirds have found that they start singing earlier in the morning than blackbirds in the countryside, sometimes several hours before dawn. Some scientists think this could leave them short of rest." },
+      { "speaker": "bennett", "text": "So, what can be done? The encouraging thing about light pollution is that, unlike many other kinds of pollution, it disappears the moment you switch the light off. So the solutions are often quite simple." },
+      { "speaker": "bennett", "text": "First, lights can be fitted with shields so that they point downwards, towards the ground where light is actually needed, rather than up into the sky or sideways into gardens." },
+      { "speaker": "bennett", "text": "Second, the colour of the light matters. Many towns have replaced their old orange street lamps with white LED lights to save energy. Unfortunately, white light contains a lot of blue, and this is the colour that disturbs insects and birds the most. Warmer, more yellow lights seem to cause much less harm." },
+      { "speaker": "bennett", "text": "Third, lights don't need to be on all night. Several towns now dim or switch off street lights after midnight in quiet areas, and motion sensors mean that some lights only come on when someone walks past. Surveys suggest that most residents don't even notice the difference." },
+      { "speaker": "bennett", "text": "Finally, some countries have created what are called dark sky reserves, areas where lighting is strictly controlled. These have become popular with tourists who come to see the stars, so protecting the darkness can actually bring money into rural communities. And that's a good example of how protecting wildlife and benefiting people can go together." }
+    ],
+    "groups": [
+      {
+        "type": "note-completion",
+        "from": 0,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Light pollution and wildlife",
+        "questions": [
+          {
+            "no": 31,
+            "heading": "Types of light pollution",
+            "prompt": "Sky ___: the light seen above a city from far away",
+            "answer": ["glow"],
+            "segment": 1,
+            "explanation": "从几英里外就能看到的城市上空的光晕叫 sky glow。题目已给出 Sky，只填 glow。"
+          },
+          {
+            "no": 32,
+            "heading": "Effects on animals",
+            "prompt": "Insects: many moths die of ___ around street lamps",
+            "answer": ["exhaustion"],
+            "segment": 3,
+            "explanation": "飞蛾绕着路灯打转，很多飞不出去，最后力竭而死（die of exhaustion），或被蝙蝠和鸟吃掉。注意拼写 exhaustion，h 不发音。"
+          },
+          {
+            "no": 33,
+            "prompt": "Plants near lights receive fewer insect visits and produce fewer ___",
+            "answer": ["seeds"],
+            "segment": 4,
+            "explanation": "路灯附近的植物得到的夜间昆虫访花更少，因此结的种子更少（produced fewer seeds）。注意填复数。"
+          },
+          {
+            "no": 34,
+            "prompt": "Migrating birds: some tall buildings switch off lights in spring and ___",
+            "answer": ["autumn"],
+            "segment": 5,
+            "explanation": "一些城市的高楼在春秋两季候鸟迁徙期间关灯（during the spring and autumn migration seasons）。写美式 fall 不符合原文，填 autumn。"
+          },
+          {
+            "no": 35,
+            "prompt": "Young sea turtles move towards the brightest ___",
+            "answer": ["horizon"],
+            "segment": 6,
+            "explanation": "小海龟孵出后朝最亮的地平线爬（head towards the brightest horizon）；自然海滩上那是反射月光的大海，靠近城镇时却可能是酒店和道路。注意拼写 horizon。"
+          },
+          {
+            "no": 36,
+            "prompt": "City blackbirds start ___ earlier in the morning than rural ones",
+            "answer": ["singing"],
+            "segment": 7,
+            "explanation": "城市里的乌鸫比乡村的更早开始鸣唱（start singing earlier），有时在天亮前几小时。注意用 -ing 形式。"
+          }
+        ]
+      },
+      {
+        "type": "summary-completion",
+        "from": 8,
+        "instruction": "Complete the summary below.",
+        "wordLimit": "ONE WORD ONLY",
+        "title": "Possible solutions",
+        "questions": [
+          {
+            "no": 37,
+            "prompt": "Lights can be fitted with ___ so that they point down towards the ground.",
+            "answer": ["shields"],
+            "segment": 9,
+            "explanation": "给灯加装遮光罩（shields），让光朝下照向真正需要照明的地面，而不是照向天空或两侧花园。注意填复数。"
+          },
+          {
+            "no": 38,
+            "prompt": "Light that contains a lot of ___ is the most harmful to insects and birds.",
+            "answer": ["blue"],
+            "segment": 10,
+            "explanation": "很多城镇把橙色路灯换成白色 LED（orange、white 是干扰），但白光含大量蓝光，最干扰昆虫和鸟类。偏暖的黄光危害小得多。填 blue。"
+          },
+          {
+            "no": 39,
+            "prompt": "Motion ___ allow some lights to come on only when someone walks past.",
+            "answer": ["sensors"],
+            "segment": 11,
+            "explanation": "装了感应器（motion sensors）后，有人经过灯才亮。题目已给出 Motion，只填 sensors，注意复数。"
+          },
+          {
+            "no": 40,
+            "prompt": "Dark sky reserves attract ___, which brings money to rural areas.",
+            "answer": ["tourists"],
+            "segment": 12,
+            "explanation": "暗夜保护区很受来看星星的游客（tourists）欢迎，保护黑夜反而能给乡村带来收入。注意填复数。"
+          }
+        ]
+      }
+    ]
+  }
+]

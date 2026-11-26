@@ -1,0 +1,137 @@
+[
+  {
+    "id": "l1-cookery-course",
+    "part": 1,
+    "title": "Booking a weekend cookery course",
+    "titleCn": "报名周末烹饪课",
+    "intro": "Part 1. You will hear a man phoning a cookery school to book places on a course.",
+    "speakers": [
+      { "id": "lucy", "name": "Lucy (receptionist)", "gender": "female" },
+      { "id": "daniel", "name": "Daniel", "gender": "male" }
+    ],
+    "segments": [
+      { "speaker": "lucy", "text": "Good morning, Riverside Cookery School, Lucy speaking. How can I help?" },
+      { "speaker": "daniel", "text": "Oh, hello. I saw your advert for weekend cookery courses, and I'd like to book a place. Well, actually, two places, if possible." },
+      { "speaker": "lucy", "text": "Of course. Let me open a booking form. Could I have your name, please?" },
+      { "speaker": "daniel", "text": "Yes, it's Daniel Fenwick. That's F, E, N, W, I, C, K." },
+      { "speaker": "lucy", "text": "Thank you, Mr Fenwick. And which course are you interested in?" },
+      { "speaker": "daniel", "text": "I was hoping to do the Italian course. My sister and I went to Rome last year, and we loved the food." },
+      { "speaker": "lucy", "text": "I'm sorry, the Italian course is fully booked until the autumn. But we've just added a new course on Thai cooking, and there are still a few places left. It's at a similar level." },
+      { "speaker": "daniel", "text": "Thai? Actually, that sounds great. We both like spicy food. Yes, let's go for the Thai course." },
+      { "speaker": "lucy", "text": "Lovely. Now, that course runs on Saturdays. The next available date is the 12th of June." },
+      { "speaker": "daniel", "text": "Hmm, the 12th is my sister's birthday, and she's already got plans for that day. Is there anything later in the month?" },
+      { "speaker": "lucy", "text": "Yes, there's another one on Saturday the 21st. Would that suit you?" },
+      { "speaker": "daniel", "text": "The 21st is perfect. Let's book that." },
+      { "speaker": "lucy", "text": "And you said two places?" },
+      { "speaker": "daniel", "text": "That's right. At first I thought my brother might come too, which would make three, but he's working that weekend. So it's just two: me and my sister." },
+      { "speaker": "lucy", "text": "Fine. Does either of you have any special dietary needs? We cook with a lot of different ingredients." },
+      { "speaker": "daniel", "text": "I eat everything. My sister isn't a vegetarian, but she doesn't eat fish. She's never liked it." },
+      { "speaker": "lucy", "text": "No problem. Thai dishes often use fish sauce, but the teacher can give her something else instead. I'll make a note of that. Now, the price is £55 per person, so that would be £110 for the two of you." },
+      { "speaker": "daniel", "text": "Oh, I thought there was a discount. I get your monthly newsletter by email." },
+      { "speaker": "lucy", "text": "Ah, yes. Newsletter subscribers get £10 off the total, so it comes to £100. You can pay by card over the phone, if you like." },
+      { "speaker": "daniel", "text": "Yes, I'll do that in a moment. But can I just ask a few questions about the day itself first?" },
+      { "speaker": "lucy", "text": "Of course. Go ahead." },
+      { "speaker": "daniel", "text": "What time does it start?" },
+      { "speaker": "lucy", "text": "The kitchen opens at nine, and we serve coffee then, but the class itself begins at 9:30. It finishes at about four." },
+      { "speaker": "daniel", "text": "And do we need to bring anything? Knives, for example?" },
+      { "speaker": "lucy", "text": "No, we provide knives and all the ingredients, and aprons too. But you'll cook far more than you can eat, so please bring a container to take the rest home. We used to give out paper boxes, but we stopped because so many were wasted." },
+      { "speaker": "daniel", "text": "Good idea. And is there parking near the school?" },
+      { "speaker": "lucy", "text": "There's a supermarket car park opposite us, but it has a two-hour limit, so that's no good for a whole day. Use the car park behind the cinema instead. It's free on Saturdays." },
+      { "speaker": "daniel", "text": "Great. And finally, what happens if we need to cancel?" },
+      { "speaker": "lucy", "text": "We used to ask for three days' notice, but we've changed that. Now you need to tell us at least seven days before the course to get a full refund." },
+      { "speaker": "daniel", "text": "OK, that's fine. Right, let me find my card." }
+    ],
+    "groups": [
+      {
+        "type": "form-completion",
+        "from": 0,
+        "instruction": "Complete the form below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Riverside Cookery School - Booking form",
+        "questions": [
+          {
+            "no": 1,
+            "prompt": "Name: Daniel ___",
+            "answer": ["Fenwick"],
+            "segment": 3,
+            "explanation": "Daniel 逐个字母拼出 F, E, N, W, I, C, K。注意结尾是 ck，写成 Fenwik 判错。"
+          },
+          {
+            "no": 2,
+            "prompt": "Course: ___ cooking",
+            "answer": ["Thai"],
+            "segment": 7,
+            "explanation": "他本想报意大利菜（Italian），但已经约满到秋天（干扰）；接待员推荐新开的泰国菜课，他同意了：let's go for the Thai course。注意首字母大写，拼写是 Thai。"
+          },
+          {
+            "no": 3,
+            "prompt": "Date: Saturday ___ June",
+            "answer": ["21", "21st", "twenty-first"],
+            "segment": 11,
+            "explanation": "最近的一期是 6 月 12 日，但那天是他妹妹生日（干扰）；改报 21 日。写 21、21st 或 twenty-first 都算对。"
+          },
+          {
+            "no": 4,
+            "prompt": "Number of people: ___",
+            "answer": ["2", "two"],
+            "segment": 13,
+            "explanation": "他起初以为弟弟也会来，那就是三个人（three 是干扰）；但弟弟那周末上班，所以只有他和妹妹两个人。"
+          },
+          {
+            "no": 5,
+            "prompt": "Dietary needs: sister does not eat ___",
+            "answer": ["fish"],
+            "segment": 15,
+            "explanation": "妹妹不是素食者（排除 vegetarian 之类的答案），只是不吃鱼：she doesn't eat fish。后面提到的 fish sauce 是接待员说的处理办法，填 fish 即可。"
+          },
+          {
+            "no": 6,
+            "prompt": "Total cost: £ ___",
+            "answer": ["100", "£100", "100.00", "£100.00"],
+            "segment": 18,
+            "explanation": "每人 £55，两人 £110（干扰）；他订阅了邮件简报，总价减 £10，所以是 £100。题目已给出 £，写 100 或 £100 都算对。"
+          }
+        ]
+      },
+      {
+        "type": "note-completion",
+        "from": 19,
+        "instruction": "Complete the notes below.",
+        "wordLimit": "ONE WORD AND/OR A NUMBER",
+        "title": "Course information",
+        "questions": [
+          {
+            "no": 7,
+            "heading": "On the day",
+            "prompt": "Class begins at ___ am",
+            "answer": ["9:30", "9.30"],
+            "segment": 22,
+            "explanation": "厨房九点开门供应咖啡（nine 是干扰），课程本身 9:30 开始。写 9:30 或 9.30 都算对。"
+          },
+          {
+            "no": 8,
+            "prompt": "Bring a ___ to take food home (knives and aprons provided)",
+            "answer": ["container"],
+            "segment": 24,
+            "explanation": "刀、食材和围裙都由学校提供；做的菜吃不完，要自带一个容器（container）把剩下的带回家。学校以前发纸盒（paper boxes），现在不发了，是干扰。"
+          },
+          {
+            "no": 9,
+            "heading": "Getting there",
+            "prompt": "Park behind the ___ (free on Saturdays)",
+            "answer": ["cinema"],
+            "segment": 26,
+            "explanation": "对面超市停车场限停两小时，不适合待一整天（干扰）；应该停在电影院后面的停车场，周六免费。"
+          },
+          {
+            "no": 10,
+            "prompt": "Cancellation: at least ___ days' notice for a full refund",
+            "answer": ["7", "seven"],
+            "segment": 28,
+            "explanation": "以前只需提前三天（three 是旧规定，干扰），现在要至少提前七天通知才能全额退款。写 7 或 seven 都算对。"
+          }
+        ]
+      }
+    ]
+  }
+]

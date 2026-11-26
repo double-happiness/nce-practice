@@ -1,0 +1,153 @@
+[
+  {
+    "id": "l2-bus-changes",
+    "part": 2,
+    "title": "Changes to local bus services",
+    "titleCn": "本地公交线路调整说明",
+    "intro": "Part 2. You will hear a council transport officer talking on local radio about changes to the town's bus services.",
+    "speakers": [
+      { "id": "karen", "name": "Karen Doyle (transport officer)", "gender": "female" }
+    ],
+    "segments": [
+      { "speaker": "karen", "text": "Good morning. My name's Karen Doyle, and I work in the transport department at Ashford Council. I've been invited onto the programme today to explain the changes to our bus services that start next month. I know some listeners are worried about them, so I'll try to make things as clear as I can." },
+      { "speaker": "karen", "text": "First of all, why are we making changes at all? Many people assume it's to save money, and it's true that our budget is tight. But the main reason is that the town has changed. The new hospital opened on the edge of town two years ago, and thousands of people travel there every day, yet most of our routes haven't been altered for over twenty years." },
+      { "speaker": "karen", "text": "We also asked passengers what they wanted. Over four thousand people filled in our survey last spring. The thing they asked for most was not cheaper fares, as we'd expected, and not new buses either, although those were popular too. It was more reliable timetables. People told us they simply want buses to turn up when they're supposed to." },
+      { "speaker": "karen", "text": "Now, tickets. Paper day tickets will still be on sale from drivers, and you can still pay with cash. What's new is that you'll be able to tap a bank card on the reader when you get on, and the system will work out the cheapest fare for your journeys that day automatically. So you'll never pay more than the price of a day ticket." },
+      { "speaker": "karen", "text": "There's also some good news for young people. Students in full-time education will get half-price travel at all times. Until now, the discount only applied before nine in the morning and after three in the afternoon, which wasn't much help to college students with classes in the middle of the day. And they won't need a new card: their current student card will still be accepted." },
+      { "speaker": "karen", "text": "Right, let me go through the main routes, because each one is affected in a different way." },
+      { "speaker": "karen", "text": "Route 1, which runs between the bus station and the railway station, is our busiest route by far. We're not changing where it goes, but from next month buses will run every ten minutes instead of every twenty." },
+      { "speaker": "karen", "text": "Route 4 to Kingsmead has always been used mainly by shoppers, and very few people travel on it after the shops close. So from next month the last bus will leave the town centre at six o'clock, and there'll be no evening service. I know that's disappointing for some people, but the late buses were often completely empty." },
+      { "speaker": "karen", "text": "Route 7 is the one people have been asking about most, because it used to stop at the old hospital site. It will now continue past the old site and go all the way to the new hospital, so that's an extension of about two miles." },
+      { "speaker": "karen", "text": "Route 9 is a slightly unusual case. It goes through the narrow streets of the old town, where full-size buses often get stuck. So the route will be exactly the same, but it'll be run with smaller buses, which carry about twenty passengers." },
+      { "speaker": "karen", "text": "Route 12, the school route, will have a new stop outside the leisure centre, which parents have been requesting for years. Some parents also asked for buses on Sundays, but as it's a school route, that wouldn't really make sense. Otherwise, the timetable stays as it is." },
+      { "speaker": "karen", "text": "And finally, route 15 to the villages. There were rumours that this route would be cut, and I'm happy to say that's not true. Nothing about route 15 will change at all, although we'll review it again next year." },
+      { "speaker": "karen", "text": "If you'd like a copy of the new timetables, they'll be available at the library and the bus station from next Monday, or you can download them from the council website." }
+    ],
+    "groups": [
+      {
+        "type": "mcq",
+        "from": 0,
+        "instruction": "Choose the correct letter, A, B or C.",
+        "questions": [
+          {
+            "no": 11,
+            "prompt": "What is the main reason for the changes to bus services?",
+            "options": [
+              { "key": "A", "text": "The council needs to reduce costs." },
+              { "key": "B", "text": "The places people travel to have changed." },
+              { "key": "C", "text": "Passengers have complained about old buses." }
+            ],
+            "answer": ["B"],
+            "segment": 1,
+            "evidence": "the main reason is that the town has changed",
+            "explanation": "很多人以为是为了省钱（A 干扰，预算紧张是真的，但不是主因）；the main reason 之后才是真正原因：城镇变了，新医院建在城边，每天几千人去那里，而线路二十多年没调整。B 是同义改写。"
+          },
+          {
+            "no": 12,
+            "prompt": "What did most people ask for in the survey?",
+            "options": [
+              { "key": "A", "text": "lower fares" },
+              { "key": "B", "text": "newer buses" },
+              { "key": "C", "text": "more reliable timetables" }
+            ],
+            "answer": ["C"],
+            "segment": 2,
+            "evidence": "It was more reliable timetables",
+            "explanation": "不是原本预想的更便宜的票价（not cheaper fares，排除 A），也不是新车（not new buses either，排除 B），而是更可靠的时刻表。lower fares ≈ cheaper fares。"
+          },
+          {
+            "no": 13,
+            "prompt": "What is new about paying for tickets?",
+            "options": [
+              { "key": "A", "text": "Cash will no longer be accepted." },
+              { "key": "B", "text": "The cheapest fare will be calculated automatically." },
+              { "key": "C", "text": "Day tickets will only be sold online." }
+            ],
+            "answer": ["B"],
+            "segment": 3,
+            "evidence": "the system will work out the cheapest fare for your journeys that day automatically",
+            "explanation": "纸质日票仍可向司机购买、仍可付现金（排除 A、C）；新变化是上车刷银行卡，系统自动算出当天最便宜的票价。work out ≈ calculate。"
+          },
+          {
+            "no": 14,
+            "prompt": "What change is being made for students?",
+            "options": [
+              { "key": "A", "text": "Their discount will apply all day." },
+              { "key": "B", "text": "They will travel free before nine a.m." },
+              { "key": "C", "text": "They will need to apply for a new card." }
+            ],
+            "answer": ["A"],
+            "segment": 4,
+            "evidence": "Students in full-time education will get half-price travel at all times",
+            "explanation": "全日制学生任何时段都半价（at all times ≈ all day）。以前只在早九点前和下午三点后打折（B 把 nine 和 half-price 混在一起，干扰）；现有学生卡继续有效，不用换新卡（排除 C）。"
+          }
+        ]
+      },
+      {
+        "type": "matching",
+        "from": 5,
+        "instruction": "What change will be made to each of the following bus routes? Choose SIX answers from the box and write the correct letter, A-G, next to Questions 15-20.",
+        "optionsTitle": "Changes",
+        "options": [
+          { "key": "A", "text": "It will use smaller buses." },
+          { "key": "B", "text": "It will run on Sundays for the first time." },
+          { "key": "C", "text": "It will have an extra stop." },
+          { "key": "D", "text": "It will run more often." },
+          { "key": "E", "text": "It will stay the same." },
+          { "key": "F", "text": "It will go further than before." },
+          { "key": "G", "text": "It will no longer run in the evening." }
+        ],
+        "questions": [
+          {
+            "no": 15,
+            "prompt": "Route 1",
+            "answer": ["D"],
+            "segment": 6,
+            "evidence": "buses will run every ten minutes instead of every twenty",
+            "explanation": "1 路线路不变，但发车间隔从 20 分钟缩短到 10 分钟，即班次更密，对应 D。"
+          },
+          {
+            "no": 16,
+            "prompt": "Route 4",
+            "answer": ["G"],
+            "segment": 7,
+            "evidence": "there'll be no evening service",
+            "explanation": "4 路主要是购物乘客，末班车改为六点，没有晚间班次了，对应 G。"
+          },
+          {
+            "no": 17,
+            "prompt": "Route 7",
+            "answer": ["F"],
+            "segment": 8,
+            "evidence": "go all the way to the new hospital",
+            "explanation": "7 路以前只到旧医院，现在继续开到新医院，延长约两英里（an extension），对应 F。"
+          },
+          {
+            "no": 18,
+            "prompt": "Route 9",
+            "answer": ["A"],
+            "segment": 9,
+            "evidence": "it'll be run with smaller buses",
+            "explanation": "9 路要穿过老城窄街，大巴常卡住；线路完全不变（exactly the same 是陷阱，不选 E），但改用小型公交车，对应 A。"
+          },
+          {
+            "no": 19,
+            "prompt": "Route 12",
+            "answer": ["C"],
+            "segment": 10,
+            "evidence": "will have a new stop outside the leisure centre",
+            "explanation": "12 路校车线在休闲中心门口加一个新站，对应 C。家长也要求周日开车，但被否定了（B 是干扰）。"
+          },
+          {
+            "no": 20,
+            "prompt": "Route 15",
+            "answer": ["E"],
+            "segment": 11,
+            "evidence": "Nothing about route 15 will change at all",
+            "explanation": "有传言说 15 路要取消，但并非如此，15 路完全不变，对应 E。"
+          }
+        ]
+      }
+    ]
+  }
+]
