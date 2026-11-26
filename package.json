@@ -12,6 +12,7 @@
     "test:ielts": "node scripts/test-ielts.js",
     "test:ielts-api": "node scripts/test-ielts-api.js",
     "test:ielts-ai": "node scripts/test-ielts-ai.js",
+    "ai:smoke": "node scripts/ielts-ai-smoke.js",
     "test:ielts-reading": "node scripts/test-ielts-reading.js",
     "test:ielts-listening": "node scripts/test-ielts-listening.js",
     "test:ielts-knowledge": "node scripts/test-ielts-knowledge.js",
