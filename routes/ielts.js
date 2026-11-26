@@ -8,6 +8,7 @@ const ielts = require('../lib/ielts');
 const planEngine = require('../lib/ielts-plan');
 const listening = require('../lib/ielts-listening');
 const reading = require('../lib/ielts-reading');
+const estimate = require('../lib/ielts-estimate');
 const activity = require('../lib/activity');
 const profile = require('../lib/profile');
 const { buildLookupDict } = require('../lib/wordlookup');
@@ -733,38 +734,26 @@ const SKILLS = [
   { key: 'speaking', label: '口语' },
 ];
 const SELF_RATED_SKILLS = ['writing', 'speaking'];
-const RECENT_N = 3;
 
 /**
- * 听力 / 阅读成绩概况：只有模考（mode: exam）计入 count 与均分，练习另计 practiceCount。
- * 均分口径与写作口语一致：按时间取最近 3 次 band 的平均，保留两位小数（同 lib/ielts-plan.js lastNAvg）。
- */
-function examSummary(records) {
-  const exam = records.filter((r) => r.mode === 'exam').sort((a, b) => a.ts - b.ts);
-  const recent = exam.slice(-RECENT_N);
-  const last3Avg = recent.length
-    ? Math.round((recent.reduce((s, r) => s + r.band, 0) / recent.length) * 100) / 100
-    : null;
-  return { last3Avg, count: exam.length, practiceCount: records.filter((r) => r.mode === 'practice').length };
-}
-
-/**
- * 总分估算。bySkill 为四项近 3 次均值（缺数据为 null）。
+ * 总分估算。bySkill 为四项均分（口径见 lib/ielts-estimate.js：近 6 周整套优先，否则单项近 3 次；缺数据为 null）。
  * 四项齐全：四项平均后按官方规则取整（.25 进 .5、.75 进整数）；缺项时用已有几项的平均粗估，note 写明缺哪几项。
+ * basisNote：哪几项用了整套成绩的说明（可为空串），插在口径句之后。
  */
-function estimateFourSkills(bySkill) {
+function estimateFourSkills(bySkill, basisNote) {
   const have = SKILLS.filter((s) => bySkill[s.key] != null);
   if (!have.length) {
-    return { overall: null, bySkill, note: '还没有听力、阅读模考成绩，也没有写作、口语自评记录，暂无法估分。' };
+    return { overall: null, bySkill, note: '还没有听力、阅读考试成绩（含站内模考、剑雅），也没有写作、口语自评记录，暂无法估分。' };
   }
   const labels = (list) => list.map((s) => s.label).join('、');
   const missing = SKILLS.filter((s) => bySkill[s.key] == null);
   const mean = have.reduce((sum, s) => sum + bySkill[s.key], 0) / have.length;
   const parts = [
     missing.length
-      ? `缺${labels(missing)}，仅按${labels(have)}近 3 次均分粗估（官方规则取整到 0.5）。`
-      : '按听力、阅读、写作、口语四项近 3 次均分的平均，官方规则取整（.25 进 .5，.75 进整数）。',
+      ? `缺${labels(missing)}，仅按${labels(have)}的均分粗估（官方规则取整到 0.5）。`
+      : '按听力、阅读、写作、口语四项均分的平均，官方规则取整（.25 进 .5，.75 进整数）。',
   ];
+  if (basisNote) parts.push(basisNote);
   const selfRated = have.filter((s) => SELF_RATED_SKILLS.includes(s.key));
   if (selfRated.length) parts.push(`${labels(selfRated)}是自评，通常偏乐观；`);
   parts.push('站内题量有限，请以剑雅模考成绩为准。');
@@ -773,31 +762,25 @@ function estimateFourSkills(bySkill) {
 
 // GET /ielts/summary —— 供总览、水平页和首页使用
 // 结构：{ active, listening, reading, writing, speaking, vocab, estimate: { overall, bySkill, note } }
+// 四项按「近 6 周整套成绩优先，否则单项近 3 次」取均分（设计见 docs/design/ielts-external-scores-20261126.md §5）
 router.get('/ielts/summary', (req, res) => {
   const user = ielts.loadUser();
-  const metrics = planEngine.computeMetrics(user);
-  const last = metrics.vocab;
-  const listen = examSummary(listeningRecords(user));
-  const read = examSummary(readingRecords(user));
-  const bySkill = {
-    listening: listen.last3Avg,
-    reading: read.last3Avg,
-    writing: metrics.writing.avg,
-    speaking: metrics.speaking.avg,
-  };
+  const last = planEngine.computeMetrics(user).vocab;
+  // 四项：{ last3Avg, count, practiceCount（听力 / 阅读）, basis, fullCount, stale, label }，口径见 lib/ielts-estimate.js
+  const skills = estimate.skillSummaries(user, ielts.todayKey());
+  const bySkill = Object.fromEntries(SKILLS.map((s) => [s.key, skills[s.key].last3Avg]));
   res.json({
     active: user.profile.active,
-    listening: listen,
-    reading: read,
-    writing: { last3Avg: metrics.writing.avg, count: user.writings.length },
-    speaking: { last3Avg: metrics.speaking.avg, count: user.speakings.length },
+    listening: skills.listening,
+    reading: skills.reading,
+    writing: skills.writing,
+    speaking: skills.speaking,
     vocab: {
       lastOverall: last ? last.overall : null,
       byBand: last ? last.byBand : null,
       ts: last ? last.ts : null,
     },
-    // 原先只按写作、口语粗估（planEngine.estimateOverall），现改为四项估算
-    estimate: estimateFourSkills(bySkill),
+    estimate: estimateFourSkills(bySkill, estimate.basisNote(skills)),
   });
 });
 

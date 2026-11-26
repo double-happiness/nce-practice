@@ -1120,6 +1120,13 @@ test('history: reading 交卷后返回标题、模式、原始分、band、用�
   }
 });
 
+// summary 四项的原有字段（last3Avg / count / practiceCount）；basis、fullCount、stale、label 另行断言
+function summaryCore(x) {
+  const out = { last3Avg: x.last3Avg, count: x.count };
+  if ('practiceCount' in x) out.practiceCount = x.practiceCount;
+  return out;
+}
+
 test('summary: 听力 / 阅读只算模考近 3 次；四项齐全时四项平均后 .25 进到 .5', async () => {
   await withPatchedRecords({
     // 听力模考 4 次取最近 3 次 (5.5 + 6 + 6.5) / 3 = 6；练习 2 次分数再高也不计
@@ -1129,10 +1136,18 @@ test('summary: 听力 / 阅读只算模考近 3 次；四项齐全时四项平�
     speakings: [sRec(1, 6.5), sRec(2, 6.5), sRec(3, 6.5)],
   }, async () => {
     const s = isOk(await get('/api/ielts/summary'));
-    assert.deepStrictEqual(s.listening, { last3Avg: 6, count: 4, practiceCount: 2 });
-    assert.deepStrictEqual(s.reading, { last3Avg: 6.5, count: 3, practiceCount: 1 });
-    assert.deepStrictEqual(s.writing, { last3Avg: 6, count: 3 });
-    assert.deepStrictEqual(s.speaking, { last3Avg: 6.5, count: 3 });
+    assert.deepStrictEqual(summaryCore(s.listening), { last3Avg: 6, count: 4, practiceCount: 2 });
+    assert.deepStrictEqual(summaryCore(s.reading), { last3Avg: 6.5, count: 3, practiceCount: 1 });
+    assert.deepStrictEqual(summaryCore(s.writing), { last3Avg: 6, count: 3 });
+    assert.deepStrictEqual(summaryCore(s.speaking), { last3Avg: 6.5, count: 3 });
+    // 没有模考和剑雅成绩：四项都按单项口径，label 写明次数
+    for (const k of ['listening', 'reading', 'writing', 'speaking']) {
+      assert.strictEqual(s[k].basis, 'single', `${k}.basis`);
+      assert.strictEqual(s[k].fullCount, 0, `${k}.fullCount`);
+      assert.strictEqual(s[k].stale, false, `${k}.stale`);
+    }
+    assert.strictEqual(s.listening.label, '近 3 次单项考试均分 · 考试模式 4 次 · 练习 2 次');
+    assert.strictEqual(s.writing.label, '近 3 次自评均分 · 共 3 篇');
     assert.deepStrictEqual(s.estimate.bySkill, { listening: 6, reading: 6.5, writing: 6, speaking: 6.5 });
     assert.strictEqual(s.estimate.overall, 6.5, '(6 + 6.5 + 6 + 6.5) / 4 = 6.25 → 6.5');
     assert.ok(!s.estimate.note.includes('缺'), `四项齐全时 note 不应提示缺项：${s.estimate.note}`);
@@ -1171,8 +1186,10 @@ test('summary: 缺项时用已有几项粗估，note 写明缺哪几项；全无
     speakings: [sRec(1, 6.5)],
   }, async () => {
     const s = isOk(await get('/api/ielts/summary'));
-    assert.deepStrictEqual(s.listening, { last3Avg: null, count: 0, practiceCount: 1 });
-    assert.deepStrictEqual(s.reading, { last3Avg: null, count: 0, practiceCount: 1 });
+    assert.deepStrictEqual(summaryCore(s.listening), { last3Avg: null, count: 0, practiceCount: 1 });
+    assert.deepStrictEqual(summaryCore(s.reading), { last3Avg: null, count: 0, practiceCount: 1 });
+    assert.strictEqual(s.listening.basis, null);
+    assert.strictEqual(s.listening.label, '还没有考试成绩（练习 1 次不计分）');
     assert.deepStrictEqual(s.estimate.bySkill, { listening: null, reading: null, writing: 6, speaking: 6.5 });
     assert.strictEqual(s.estimate.overall, 6.5, '(6 + 6.5) / 2 = 6.25 → 6.5');
     assert.ok(s.estimate.note.includes('缺听力、阅读'), s.estimate.note);
@@ -1233,8 +1250,8 @@ test('history / summary: 畸形的听力 / 阅读记录被过滤，不返回、�
     assert.strictEqual(hr.total, 1, `阅读只应剩 1 条合法记录：${JSON.stringify(itemsOf(hr).map((x) => x.id))}`);
     assert.deepStrictEqual(itemsOf(hr).map((x) => x.id), ['inj-r-1']);
     const s = isOk(await get('/api/ielts/summary'));
-    assert.deepStrictEqual(s.listening, { last3Avg: 6.5, count: 1, practiceCount: 0 });
-    assert.deepStrictEqual(s.reading, { last3Avg: 5.5, count: 1, practiceCount: 0 });
+    assert.deepStrictEqual(summaryCore(s.listening), { last3Avg: 6.5, count: 1, practiceCount: 0 });
+    assert.deepStrictEqual(summaryCore(s.reading), { last3Avg: 5.5, count: 1, practiceCount: 0 });
     assert.strictEqual(s.estimate.overall, 6, '(6.5 + 5.5) / 2 = 6');
   });
 });
